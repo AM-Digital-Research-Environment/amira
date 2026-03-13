@@ -1,3023 +1,3025 @@
-[{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160b1"
-  },
-  "uri": "http://www.wikidata.org/entity/Q16",
-  "name": "Canada",
-  "coordinates": {
-    "lat": 56,
-    "long": -109
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:28.991Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160b2"
-  },
-  "uri": "http://www.wikidata.org/entity/Q17",
-  "name": "Japan",
-  "coordinates": {
-    "lat": 35,
-    "long": 136
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:31.381Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160b3"
-  },
-  "uri": "http://www.wikidata.org/entity/Q20",
-  "name": "Norway",
-  "coordinates": {
-    "lat": 59.933333333,
-    "long": 10.683333333
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:27.511Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160b4"
-  },
-  "uri": "http://www.wikidata.org/entity/Q27",
-  "name": "Ireland",
-  "coordinates": {
-    "lat": 53,
-    "long": -8
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:32.513Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160b5"
-  },
-  "uri": "http://www.wikidata.org/entity/Q28",
-  "name": "Hungary",
-  "coordinates": {
-    "lat": 47,
-    "long": 19
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:30.200Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160b6"
-  },
-  "uri": "http://www.wikidata.org/entity/Q29",
-  "name": "Spain",
-  "coordinates": {
-    "lat": 40.2,
-    "long": -3.5
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:31.010Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160b7"
-  },
-  "uri": "http://www.wikidata.org/entity/Q30",
-  "name": "United States",
-  "coordinates": {
-    "lat": 39.828175,
-    "long": -98.5795
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:30.952Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160b8"
-  },
-  "uri": "http://www.wikidata.org/entity/Q31",
-  "name": "Belgium",
-  "coordinates": {
-    "lat": 50.641111111,
-    "long": 4.668055555
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:29.486Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160b9"
-  },
-  "uri": "http://www.wikidata.org/entity/Q32",
-  "name": "Luxembourg",
-  "coordinates": {
-    "lat": 49.77,
-    "long": 6.13
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:27.828Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160ba"
-  },
-  "uri": "http://www.wikidata.org/entity/Q33",
-  "name": "Finland",
-  "coordinates": {
-    "lat": 65,
-    "long": 27
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:31.279Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160bb"
-  },
-  "uri": "http://www.wikidata.org/entity/Q34",
-  "name": "Sweden",
-  "coordinates": {
-    "lat": 61,
-    "long": 15
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:31.661Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160bc"
-  },
-  "uri": "http://www.wikidata.org/entity/Q35",
-  "name": "Denmark",
-  "coordinates": {
-    "lat": 56,
-    "long": 10
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:29.364Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160bd"
-  },
-  "uri": "http://www.wikidata.org/entity/Q36",
-  "name": "Poland",
-  "coordinates": {
-    "lat": 52,
-    "long": 19
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:30.350Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160be"
-  },
-  "uri": "http://www.wikidata.org/entity/Q37",
-  "name": "Lithuania",
-  "coordinates": {
-    "lat": 55.2,
-    "long": 24
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:32.170Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160bf"
-  },
-  "uri": "http://www.wikidata.org/entity/Q38",
-  "name": "Italy",
-  "coordinates": {
-    "lat": 42.5,
-    "long": 12.5
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:31.111Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160c0"
-  },
-  "uri": "http://www.wikidata.org/entity/Q39",
-  "name": "Switzerland",
-  "coordinates": {
-    "lat": 46.798562,
-    "long": 8.231973
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:30.040Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160c1"
-  },
-  "uri": "http://www.wikidata.org/entity/Q40",
-  "name": "Austria",
-  "coordinates": {
-    "lat": 48,
-    "long": 14
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:32.626Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160c2"
-  },
-  "uri": "http://www.wikidata.org/entity/Q41",
-  "name": "Greece",
-  "coordinates": {
-    "lat": 38.5,
-    "long": 23
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:29.805Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160c3"
-  },
-  "uri": "http://www.wikidata.org/entity/Q43",
-  "name": "Turkey",
-  "coordinates": {
-    "lat": 39,
-    "long": 36
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:27.382Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160c4"
-  },
-  "uri": "http://www.wikidata.org/entity/Q45",
-  "name": "Portugal",
-  "coordinates": {
-    "lat": 38.7,
-    "long": -9.183333333
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:30.151Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160c5"
-  },
-  "uri": "http://www.wikidata.org/entity/Q55",
-  "name": "Netherlands",
-  "coordinates": {
-    "lat": 52.316666666,
-    "long": 5.55
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:30.630Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160c6"
-  },
-  "uri": "http://www.wikidata.org/entity/Q77",
-  "name": "Uruguay",
-  "coordinates": {
-    "lat": -33,
-    "long": -56
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:30.739Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160c7"
-  },
-  "uri": "http://www.wikidata.org/entity/Q79",
-  "name": "Egypt",
-  "coordinates": {
-    "lat": 27,
-    "long": 29
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:28.299Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160c8"
-  },
-  "uri": "http://www.wikidata.org/entity/Q96",
-  "name": "Mexico",
-  "coordinates": {
-    "lat": 23,
-    "long": -102
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:27.324Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160c9"
-  },
-  "uri": "http://www.wikidata.org/entity/Q114",
-  "name": "Kenya",
-  "coordinates": {
-    "lat": 0.1,
-    "long": 38
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:32.115Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160ca"
-  },
-  "uri": "http://www.wikidata.org/entity/Q115",
-  "name": "Ethiopia",
-  "coordinates": {
-    "lat": 9,
-    "long": 40
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:27.565Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160cb"
-  },
-  "uri": "http://www.wikidata.org/entity/Q117",
-  "name": "Ghana",
-  "coordinates": {
-    "lat": 7.9465,
-    "long": -1.0232
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:29.100Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160cc"
-  },
-  "uri": "http://www.wikidata.org/entity/Q142",
-  "name": "France",
-  "coordinates": {
-    "lat": 47,
-    "long": 2
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:30.582Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160cd"
-  },
-  "uri": "http://www.wikidata.org/entity/Q145",
-  "name": "United Kingdom",
-  "coordinates": {
-    "lat": 54.6,
-    "long": -2
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:31.330Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160ce"
-  },
-  "uri": "http://www.wikidata.org/entity/Q148",
-  "name": "People's Republic of China",
-  "coordinates": {
-    "lat": 35.844722222,
-    "long": 103.451944444
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:27.669Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160cf"
-  },
-  "uri": "http://www.wikidata.org/entity/Q155",
-  "name": "Brazil",
-  "coordinates": {
-    "lat": -14,
-    "long": -53
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:28.755Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160d0"
-  },
-  "uri": "http://www.wikidata.org/entity/Q159",
-  "name": "Russia",
-  "coordinates": {
-    "lat": 66.416666666,
-    "long": 94.25
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:28.888Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160d1"
-  },
-  "uri": "http://www.wikidata.org/entity/Q183",
-  "name": "Germany",
-  "coordinates": {
-    "lat": 51,
-    "long": 10
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:28.940Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160d2"
-  },
-  "uri": "http://www.wikidata.org/entity/Q184",
-  "name": "Belarus",
-  "coordinates": {
-    "lat": 53.528333333,
-    "long": 28.046666666
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:27.719Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160d3"
-  },
-  "uri": "http://www.wikidata.org/entity/Q189",
-  "name": "Iceland",
-  "coordinates": {
-    "lat": 65,
-    "long": -19
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:32.458Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160d4"
-  },
-  "uri": "http://www.wikidata.org/entity/Q191",
-  "name": "Estonia",
-  "coordinates": {
-    "lat": 59,
-    "long": 26
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:32.063Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160d5"
-  },
-  "uri": "http://www.wikidata.org/entity/Q211",
-  "name": "Latvia",
-  "coordinates": {
-    "lat": 57,
-    "long": 25
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:31.491Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160d6"
-  },
-  "uri": "http://www.wikidata.org/entity/Q212",
-  "name": "Ukraine",
-  "coordinates": {
-    "lat": 49,
-    "long": 32
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:29.051Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160d7"
-  },
-  "uri": "http://www.wikidata.org/entity/Q213",
-  "name": "Czech Republic",
-  "coordinates": {
-    "lat": 50,
-    "long": 15
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:29.548Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160d8"
-  },
-  "uri": "http://www.wikidata.org/entity/Q214",
-  "name": "Slovakia",
-  "coordinates": {
-    "lat": 48.7,
-    "long": 19.7
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:30.789Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160d9"
-  },
-  "uri": "http://www.wikidata.org/entity/Q215",
-  "name": "Slovenia",
-  "coordinates": {
-    "lat": 46,
-    "long": 15
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:29.310Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160da"
-  },
-  "uri": "http://www.wikidata.org/entity/Q217",
-  "name": "Moldova",
-  "coordinates": {
-    "lat": 47.25,
-    "long": 28.516667
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:27.929Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160db"
-  },
-  "uri": "http://www.wikidata.org/entity/Q218",
-  "name": "Romania",
-  "coordinates": {
-    "lat": 46,
-    "long": 25
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:30.525Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160dc"
-  },
-  "uri": "http://www.wikidata.org/entity/Q219",
-  "name": "Bulgaria",
-  "coordinates": {
-    "lat": 42.75,
-    "long": 25.5
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:28.518Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160dd"
-  },
-  "uri": "http://www.wikidata.org/entity/Q221",
-  "name": "North Macedonia",
-  "coordinates": {
-    "lat": 41.65,
-    "long": 21.716667
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:29.149Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160de"
-  },
-  "uri": "http://www.wikidata.org/entity/Q222",
-  "name": "Albania",
-  "coordinates": {
-    "lat": 41,
-    "long": 20
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:29.202Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160df"
-  },
-  "uri": "http://www.wikidata.org/entity/Q223",
-  "name": "Greenland",
-  "coordinates": {
-    "lat": 72,
-    "long": -40
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:27.880Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160e0"
-  },
-  "uri": "http://www.wikidata.org/entity/Q224",
-  "name": "Croatia",
-  "coordinates": {
-    "lat": 45.25,
-    "long": 15.466667
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:28.637Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160e1"
-  },
-  "uri": "http://www.wikidata.org/entity/Q225",
-  "name": "Bosnia and Herzegovina",
-  "coordinates": {
-    "lat": 44,
-    "long": 18
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:31.779Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160e2"
-  },
-  "uri": "http://www.wikidata.org/entity/Q227",
-  "name": "Azerbaijan",
-  "coordinates": {
-    "lat": 40.3,
-    "long": 47.7
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:28.249Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160e3"
-  },
-  "uri": "http://www.wikidata.org/entity/Q228",
-  "name": "Andorra",
-  "coordinates": {
-    "lat": 42.558333333,
-    "long": 1.555277777
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:27.621Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160e4"
-  },
-  "uri": "http://www.wikidata.org/entity/Q229",
-  "name": "Cyprus",
-  "coordinates": {
-    "lat": 35,
-    "long": 33
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:32.400Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160e5"
-  },
-  "uri": "http://www.wikidata.org/entity/Q230",
-  "name": "Georgia",
-  "coordinates": {
-    "lat": 42,
-    "long": 44
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:28.699Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160e6"
-  },
-  "uri": "http://www.wikidata.org/entity/Q232",
-  "name": "Kazakhstan",
-  "coordinates": {
-    "lat": 48,
-    "long": 68
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:30.843Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160e7"
-  },
-  "uri": "http://www.wikidata.org/entity/Q233",
-  "name": "Malta",
-  "coordinates": {
-    "lat": 35.883333333,
-    "long": 14.5
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:29.943Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160e8"
-  },
-  "uri": "http://www.wikidata.org/entity/Q235",
-  "name": "Monaco",
-  "coordinates": {
-    "lat": 43.731111111,
-    "long": 7.42
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:27.770Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160e9"
-  },
-  "uri": "http://www.wikidata.org/entity/Q236",
-  "name": "Montenegro",
-  "coordinates": {
-    "lat": 42.766667,
-    "long": 19.216667
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:31.178Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160ea"
-  },
-  "uri": "http://www.wikidata.org/entity/Q237",
-  "name": "Vatican City",
-  "coordinates": {
-    "lat": 41.904,
-    "long": 12.453
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:27.272Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160eb"
-  },
-  "uri": "http://www.wikidata.org/entity/Q238",
-  "name": "San Marino",
-  "coordinates": {
-    "lat": 43.933333333,
-    "long": 12.466666666
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:30.690Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160ec"
-  },
-  "uri": "http://www.wikidata.org/entity/Q241",
-  "name": "Cuba",
-  "coordinates": {
-    "lat": 22,
-    "long": -79.5
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:32.791Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160ed"
-  },
-  "uri": "http://www.wikidata.org/entity/Q242",
-  "name": "Belize",
-  "coordinates": {
-    "lat": 17.066666666,
-    "long": -88.7
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:29.253Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160ee"
-  },
-  "uri": "http://www.wikidata.org/entity/Q244",
-  "name": "Barbados",
-  "coordinates": {
-    "lat": 13.17,
-    "long": -59.5525
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:28.200Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160ef"
-  },
-  "uri": "http://www.wikidata.org/entity/Q252",
-  "name": "Indonesia",
-  "coordinates": {
-    "lat": -2,
-    "long": 118
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:27.440Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160f0"
-  },
-  "uri": "http://www.wikidata.org/entity/Q258",
-  "name": "South Africa",
-  "coordinates": {
-    "lat": -29,
-    "long": 24
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:28.824Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160f1"
-  },
-  "uri": "http://www.wikidata.org/entity/Q262",
-  "name": "Algeria",
-  "coordinates": {
-    "lat": 28,
-    "long": 1
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:31.060Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160f2"
-  },
-  "uri": "http://www.wikidata.org/entity/Q265",
-  "name": "Uzbekistan",
-  "coordinates": {
-    "lat": 41,
-    "long": 66
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:30.408Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160f3"
-  },
-  "uri": "http://www.wikidata.org/entity/Q298",
-  "name": "Chile",
-  "coordinates": {
-    "lat": -33,
-    "long": -71
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:28.147Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160f4"
-  },
-  "uri": "http://www.wikidata.org/entity/Q334",
-  "name": "Singapore",
-  "coordinates": {
-    "lat": 1.3,
-    "long": 103.8
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:31.830Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160f5"
-  },
-  "uri": "http://www.wikidata.org/entity/Q347",
-  "name": "Liechtenstein",
-  "coordinates": {
-    "lat": 47.145,
-    "long": 9.553889
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:27.983Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160f6"
-  },
-  "uri": "http://www.wikidata.org/entity/Q398",
-  "name": "Bahrain",
-  "coordinates": {
-    "lat": 26.0675,
-    "long": 50.551111
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:31.551Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160f7"
-  },
-  "uri": "http://www.wikidata.org/entity/Q399",
-  "name": "Armenia",
-  "coordinates": {
-    "lat": 40.383333,
-    "long": 44.95
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:30.901Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160f8"
-  },
-  "uri": "http://www.wikidata.org/entity/Q403",
-  "name": "Serbia",
-  "coordinates": {
-    "lat": 43.95,
-    "long": 20.933333333
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:29.722Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160f9"
-  },
-  "uri": "http://www.wikidata.org/entity/Q408",
-  "name": "Australia",
-  "coordinates": {
-    "lat": -25,
-    "long": 133
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:30.098Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160fa"
-  },
-  "uri": "http://www.wikidata.org/entity/Q414",
-  "name": "Argentina",
-  "coordinates": {
-    "lat": -34,
-    "long": -64
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:30.299Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160fb"
-  },
-  "uri": "http://www.wikidata.org/entity/Q419",
-  "name": "Peru",
-  "coordinates": {
-    "lat": -9.4,
-    "long": -76
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:28.041Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160fc"
-  },
-  "uri": "http://www.wikidata.org/entity/Q423",
-  "name": "North Korea",
-  "coordinates": {
-    "lat": 40,
-    "long": 127
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:29.670Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160fd"
-  },
-  "uri": "http://www.wikidata.org/entity/Q424",
-  "name": "Cambodia",
-  "coordinates": {
-    "lat": 12.5,
-    "long": 105
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:30.463Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160fe"
-  },
-  "uri": "http://www.wikidata.org/entity/Q574",
-  "name": "Timor-Leste",
-  "coordinates": {
-    "lat": -8.966667,
-    "long": 125.75
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:31.230Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd109160ff"
-  },
-  "uri": "http://www.wikidata.org/entity/Q657",
-  "name": "Chad",
-  "coordinates": {
-    "lat": 15.466667,
-    "long": 19.4
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:29.990Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916100"
-  },
-  "uri": "http://www.wikidata.org/entity/Q664",
-  "name": "New Zealand",
-  "coordinates": {
-    "lat": -41.2,
-    "long": 174
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:32.560Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916101"
-  },
-  "uri": "http://www.wikidata.org/entity/Q668",
-  "name": "India",
-  "coordinates": {
-    "lat": 22.8,
-    "long": 83
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:31.440Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916102"
-  },
-  "uri": "http://www.wikidata.org/entity/Q672",
-  "name": "Tuvalu",
-  "coordinates": {
-    "lat": -7.475,
-    "long": 178.005556
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:31.883Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916103"
-  },
-  "uri": "http://www.wikidata.org/entity/Q678",
-  "name": "Tonga",
-  "coordinates": {
-    "lat": -20.587778,
-    "long": -174.810278
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:32.740Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916104"
-  },
-  "uri": "http://www.wikidata.org/entity/Q683",
-  "name": "Samoa",
-  "coordinates": {
-    "lat": -13.745,
-    "long": -172.2175
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:29.889Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916105"
-  },
-  "uri": "http://www.wikidata.org/entity/Q685",
-  "name": "Solomon Islands",
-  "coordinates": {
-    "lat": -9.466666666,
-    "long": 159.816666666
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:31.946Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916106"
-  },
-  "uri": "http://www.wikidata.org/entity/Q686",
-  "name": "Vanuatu",
-  "coordinates": {
-    "lat": -16.633330555,
-    "long": 168.016669444
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:28.090Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916107"
-  },
-  "uri": "http://www.wikidata.org/entity/Q691",
-  "name": "Papua New Guinea",
-  "coordinates": {
-    "lat": -6.3,
-    "long": 147
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:29.424Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916108"
-  },
-  "uri": "http://www.wikidata.org/entity/Q695",
-  "name": "Palau",
-  "coordinates": {
-    "lat": 7.466667,
-    "long": 134.55
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:32.688Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916109"
-  },
-  "uri": "http://www.wikidata.org/entity/Q697",
-  "name": "Nauru",
-  "coordinates": {
-    "lat": -0.5275,
-    "long": 166.935
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:28.572Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091610a"
-  },
-  "uri": "http://www.wikidata.org/entity/Q702",
-  "name": "Federated States of Micronesia",
-  "coordinates": {
-    "lat": 6.916666666,
-    "long": 158.183333333
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:28.400Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091610b"
-  },
-  "uri": "http://www.wikidata.org/entity/Q709",
-  "name": "Marshall Islands",
-  "coordinates": {
-    "lat": 9.82,
-    "long": 169.29
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:28.351Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091610c"
-  },
-  "uri": "http://www.wikidata.org/entity/Q710",
-  "name": "Kiribati",
-  "coordinates": {
-    "lat": 1.466666666,
-    "long": 173.033333333
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:29.607Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091610d"
-  },
-  "uri": "http://www.wikidata.org/entity/Q711",
-  "name": "Mongolia",
-  "coordinates": {
-    "lat": 46,
-    "long": 105
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:32.349Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091610e"
-  },
-  "uri": "http://www.wikidata.org/entity/Q712",
-  "name": "Fiji",
-  "coordinates": {
-    "lat": -18,
-    "long": 178
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:32.229Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091610f"
-  },
-  "uri": "http://www.wikidata.org/entity/Q717",
-  "name": "Venezuela",
-  "coordinates": {
-    "lat": 8,
-    "long": -67
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:31.713Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916110"
-  },
-  "uri": "http://www.wikidata.org/entity/Q730",
-  "name": "Suriname",
-  "coordinates": {
-    "lat": 4,
-    "long": -56
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:32.291Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916111"
-  },
-  "uri": "http://www.wikidata.org/entity/Q733",
-  "name": "Paraguay",
-  "coordinates": {
-    "lat": -23.5,
-    "long": -58
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:30.249Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916112"
-  },
-  "uri": "http://www.wikidata.org/entity/Q734",
-  "name": "Guyana",
-  "coordinates": {
-    "lat": 5.733333,
-    "long": -59.316667
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:28.450Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916113"
-  },
-  "uri": "http://www.wikidata.org/entity/Q736",
-  "name": "Ecuador",
-  "coordinates": {
-    "lat": -1,
-    "long": -78
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:31.999Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916114"
-  },
-  "uri": "http://www.wikidata.org/entity/Q739",
-  "name": "Colombia",
-  "coordinates": {
-    "lat": 4,
-    "long": -73.25
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:31.607Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916115"
-  },
-  "uri": "http://www.wikidata.org/entity/Q750",
-  "name": "Bolivia",
-  "coordinates": {
-    "lat": -17.056869611,
-    "long": -64.991228611
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:24.011Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916116"
-  },
-  "uri": "http://www.wikidata.org/entity/Q754",
-  "name": "Trinidad and Tobago",
-  "coordinates": {
-    "lat": 10.666666666,
-    "long": -61.516666666
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:22.710Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916117"
-  },
-  "uri": "http://www.wikidata.org/entity/Q757",
-  "name": "Saint Vincent and the Grenadines",
-  "coordinates": {
-    "lat": 13.0139,
-    "long": -61.2296
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:24.242Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916118"
-  },
-  "uri": "http://www.wikidata.org/entity/Q760",
-  "name": "Saint Lucia",
-  "coordinates": {
-    "lat": 13.883333333,
-    "long": -60.966666666
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:23.959Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916119"
-  },
-  "uri": "http://www.wikidata.org/entity/Q763",
-  "name": "Saint Kitts and Nevis",
-  "coordinates": {
-    "lat": 17.271666666,
-    "long": -62.666669444
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:23.396Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091611a"
-  },
-  "uri": "http://www.wikidata.org/entity/Q766",
-  "name": "Jamaica",
-  "coordinates": {
-    "lat": 18.18,
-    "long": -77.4
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:24.664Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091611b"
-  },
-  "uri": "http://www.wikidata.org/entity/Q769",
-  "name": "Grenada",
-  "coordinates": {
-    "lat": 12.1,
-    "long": -61.7
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:21.042Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091611c"
-  },
-  "uri": "http://www.wikidata.org/entity/Q774",
-  "name": "Guatemala",
-  "coordinates": {
-    "lat": 15.5,
-    "long": -90.25
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:25.895Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091611d"
-  },
-  "uri": "http://www.wikidata.org/entity/Q778",
-  "name": "The Bahamas",
-  "coordinates": {
-    "lat": 25,
-    "long": -77.4
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:23.675Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091611e"
-  },
-  "uri": "http://www.wikidata.org/entity/Q781",
-  "name": "Antigua and Barbuda",
-  "coordinates": {
-    "lat": 17.116666666,
-    "long": -61.85
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:24.787Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091611f"
-  },
-  "uri": "http://www.wikidata.org/entity/Q783",
-  "name": "Honduras",
-  "coordinates": {
-    "lat": 14.633333,
-    "long": -86.816667
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:23.330Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916120"
-  },
-  "uri": "http://www.wikidata.org/entity/Q784",
-  "name": "Dominica",
-  "coordinates": {
-    "lat": 15.416667,
-    "long": -61.333333
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:22.648Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916121"
-  },
-  "uri": "http://www.wikidata.org/entity/Q786",
-  "name": "Dominican Republic",
-  "coordinates": {
-    "lat": 18.8,
-    "long": -70.2
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:25.220Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916122"
-  },
-  "uri": "http://www.wikidata.org/entity/Q790",
-  "name": "Haiti",
-  "coordinates": {
-    "lat": 19,
-    "long": -72.8
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:24.730Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916123"
-  },
-  "uri": "http://www.wikidata.org/entity/Q792",
-  "name": "El Salvador",
-  "coordinates": {
-    "lat": 13.668889,
-    "long": -88.866111
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:23.853Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916124"
-  },
-  "uri": "http://www.wikidata.org/entity/Q794",
-  "name": "Iran",
-  "coordinates": {
-    "lat": 32,
-    "long": 53
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:23.899Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916125"
-  },
-  "uri": "http://www.wikidata.org/entity/Q796",
-  "name": "Iraq",
-  "coordinates": {
-    "lat": 33,
-    "long": 43
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:24.085Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916126"
-  },
-  "uri": "http://www.wikidata.org/entity/Q800",
-  "name": "Costa Rica",
-  "coordinates": {
-    "lat": 10,
-    "long": -84
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:24.189Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916127"
-  },
-  "uri": "http://www.wikidata.org/entity/Q801",
-  "name": "Israel",
-  "coordinates": {
-    "lat": 31,
-    "long": 35
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:22.521Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916128"
-  },
-  "uri": "http://www.wikidata.org/entity/Q804",
-  "name": "Panama",
-  "coordinates": {
-    "lat": 8.616667,
-    "long": -80.366667
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:21.338Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916129"
-  },
-  "uri": "http://www.wikidata.org/entity/Q805",
-  "name": "Yemen",
-  "coordinates": {
-    "lat": 15.5,
-    "long": 48
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:25.322Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091612a"
-  },
-  "uri": "http://www.wikidata.org/entity/Q810",
-  "name": "Jordan",
-  "coordinates": {
-    "lat": 31.2,
-    "long": 36.5
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:23.198Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091612b"
-  },
-  "uri": "http://www.wikidata.org/entity/Q811",
-  "name": "Nicaragua",
-  "coordinates": {
-    "lat": 13,
-    "long": -85
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:24.392Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091612c"
-  },
-  "uri": "http://www.wikidata.org/entity/Q813",
-  "name": "Kyrgyzstan",
-  "coordinates": {
-    "lat": 41,
-    "long": 75
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:25.271Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091612d"
-  },
-  "uri": "http://www.wikidata.org/entity/Q817",
-  "name": "Kuwait",
-  "coordinates": {
-    "lat": 29.166667,
-    "long": 47.6
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:25.530Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091612e"
-  },
-  "uri": "http://www.wikidata.org/entity/Q819",
-  "name": "Laos",
-  "coordinates": {
-    "lat": 18.2,
-    "long": 104.1
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:21.271Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091612f"
-  },
-  "uri": "http://www.wikidata.org/entity/Q822",
-  "name": "Lebanon",
-  "coordinates": {
-    "lat": 33.833333,
-    "long": 35.766667
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:24.339Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916130"
-  },
-  "uri": "http://www.wikidata.org/entity/Q826",
-  "name": "Maldives",
-  "coordinates": {
-    "lat": 4.18,
-    "long": 73.51
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:23.730Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916131"
-  },
-  "uri": "http://www.wikidata.org/entity/Q833",
-  "name": "Malaysia",
-  "coordinates": {
-    "lat": 3.7805111,
-    "long": 102.314361666
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:22.036Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916132"
-  },
-  "uri": "http://www.wikidata.org/entity/Q836",
-  "name": "Myanmar",
-  "coordinates": {
-    "lat": 22,
-    "long": 96
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:25.000Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916133"
-  },
-  "uri": "http://www.wikidata.org/entity/Q837",
-  "name": "Nepal",
-  "coordinates": {
-    "lat": 28,
-    "long": 84
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:25.690Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916134"
-  },
-  "uri": "http://www.wikidata.org/entity/Q842",
-  "name": "Oman",
-  "coordinates": {
-    "lat": 21,
-    "long": 57
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:20.686Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916135"
-  },
-  "uri": "http://www.wikidata.org/entity/Q843",
-  "name": "Pakistan",
-  "coordinates": {
-    "lat": 30,
-    "long": 71
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:23.620Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916136"
-  },
-  "uri": "http://www.wikidata.org/entity/Q846",
-  "name": "Qatar",
-  "coordinates": {
-    "lat": 25.269535,
-    "long": 51.212767
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:23.511Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916137"
-  },
-  "uri": "http://www.wikidata.org/entity/Q851",
-  "name": "Saudi Arabia",
-  "coordinates": {
-    "lat": 23.716667,
-    "long": 44.116667
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:20.994Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916138"
-  },
-  "uri": "http://www.wikidata.org/entity/Q854",
-  "name": "Sri Lanka",
-  "coordinates": {
-    "lat": 7,
-    "long": 81
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:24.139Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916139"
-  },
-  "uri": "http://www.wikidata.org/entity/Q858",
-  "name": "Syria",
-  "coordinates": {
-    "lat": 35.216667,
-    "long": 38.583333
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:24.839Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091613a"
-  },
-  "uri": "http://www.wikidata.org/entity/Q863",
-  "name": "Tajikistan",
-  "coordinates": {
-    "lat": 38.583333,
-    "long": 71.366667
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:22.158Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091613b"
-  },
-  "uri": "http://www.wikidata.org/entity/Q865",
-  "name": "Taiwan",
-  "coordinates": {
-    "lat": 24,
-    "long": 121
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:26.183Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091613c"
-  },
-  "uri": "http://www.wikidata.org/entity/Q869",
-  "name": "Thailand",
-  "coordinates": {
-    "lat": 14,
-    "long": 101
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:26.002Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091613d"
-  },
-  "uri": "http://www.wikidata.org/entity/Q874",
-  "name": "Turkmenistan",
-  "coordinates": {
-    "lat": 39,
-    "long": 60
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:23.568Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091613e"
-  },
-  "uri": "http://www.wikidata.org/entity/Q878",
-  "name": "United Arab Emirates",
-  "coordinates": {
-    "lat": 24.4,
-    "long": 54.3
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:20.747Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091613f"
-  },
-  "uri": "http://www.wikidata.org/entity/Q881",
-  "name": "Vietnam",
-  "coordinates": {
-    "lat": 16,
-    "long": 108
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:25.371Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916140"
-  },
-  "uri": "http://www.wikidata.org/entity/Q884",
-  "name": "South Korea",
-  "coordinates": {
-    "lat": 36,
-    "long": 128
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:21.674Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916141"
-  },
-  "uri": "http://www.wikidata.org/entity/Q889",
-  "name": "Afghanistan",
-  "coordinates": {
-    "lat": 33,
-    "long": 66
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:26.065Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916142"
-  },
-  "uri": "http://www.wikidata.org/entity/Q902",
-  "name": "Bangladesh",
-  "coordinates": {
-    "lat": 24.016666666,
-    "long": 89.866666666
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:21.205Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916143"
-  },
-  "uri": "http://www.wikidata.org/entity/Q912",
-  "name": "Mali",
-  "coordinates": {
-    "lat": 17,
-    "long": -4
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:20.811Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916144"
-  },
-  "uri": "http://www.wikidata.org/entity/Q916",
-  "name": "Angola",
-  "coordinates": {
-    "lat": -12.35,
-    "long": 17.35
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:21.606Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916145"
-  },
-  "uri": "http://www.wikidata.org/entity/Q917",
-  "name": "Bhutan",
-  "coordinates": {
-    "lat": 27.45,
-    "long": 90.5
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:22.452Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916146"
-  },
-  "uri": "http://www.wikidata.org/entity/Q921",
-  "name": "Brunei",
-  "coordinates": {
-    "lat": 4.4,
-    "long": 114.566667
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:24.953Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916147"
-  },
-  "uri": "http://www.wikidata.org/entity/Q924",
-  "name": "Tanzania",
-  "coordinates": {
-    "lat": -6.306944444,
-    "long": 34.853888888
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:23.271Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916148"
-  },
-  "uri": "http://www.wikidata.org/entity/Q928",
-  "name": "Philippines",
-  "coordinates": {
-    "lat": 12,
-    "long": 123
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:21.091Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916149"
-  },
-  "uri": "http://www.wikidata.org/entity/Q929",
-  "name": "Central African Republic",
-  "coordinates": {
-    "lat": 6.7,
-    "long": 20.9
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:23.009Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091614a"
-  },
-  "uri": "http://www.wikidata.org/entity/Q945",
-  "name": "Togo",
-  "coordinates": {
-    "lat": 8.25,
-    "long": 1.183333
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:22.221Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091614b"
-  },
-  "uri": "http://www.wikidata.org/entity/Q948",
-  "name": "Tunisia",
-  "coordinates": {
-    "lat": 34,
-    "long": 10
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:23.060Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091614c"
-  },
-  "uri": "http://www.wikidata.org/entity/Q953",
-  "name": "Zambia",
-  "coordinates": {
-    "lat": -14,
-    "long": 28
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:26.239Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091614d"
-  },
-  "uri": "http://www.wikidata.org/entity/Q954",
-  "name": "Zimbabwe",
-  "coordinates": {
-    "lat": -19,
-    "long": 30
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:22.400Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091614e"
-  },
-  "uri": "http://www.wikidata.org/entity/Q958",
-  "name": "South Sudan",
-  "coordinates": {
-    "lat": 7,
-    "long": 30
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:22.340Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091614f"
-  },
-  "uri": "http://www.wikidata.org/entity/Q962",
-  "name": "Benin",
-  "coordinates": {
-    "lat": 8.833333333,
-    "long": 2.183333333
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:22.873Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916150"
-  },
-  "uri": "http://www.wikidata.org/entity/Q963",
-  "name": "Botswana",
-  "coordinates": {
-    "lat": -22.2,
-    "long": 23.7
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:26.128Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916151"
-  },
-  "uri": "http://www.wikidata.org/entity/Q965",
-  "name": "Burkina Faso",
-  "coordinates": {
-    "lat": 12.266667,
-    "long": -2.066667
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:24.450Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916152"
-  },
-  "uri": "http://www.wikidata.org/entity/Q967",
-  "name": "Burundi",
-  "coordinates": {
-    "lat": -3.666667,
-    "long": 29.816667
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:20.621Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916153"
-  },
-  "uri": "http://www.wikidata.org/entity/Q970",
-  "name": "Comoros",
-  "coordinates": {
-    "lat": -12.3,
-    "long": 43.7
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:20.877Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916154"
-  },
-  "uri": "http://www.wikidata.org/entity/Q971",
-  "name": "Republic of the Congo",
-  "coordinates": {
-    "lat": -0.75,
-    "long": 15.383330555
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:21.408Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916155"
-  },
-  "uri": "http://www.wikidata.org/entity/Q974",
-  "name": "Democratic Republic of the Congo",
-  "coordinates": {
-    "lat": -2.88,
-    "long": 23.656111111
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:26.298Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916156"
-  },
-  "uri": "http://www.wikidata.org/entity/Q977",
-  "name": "Djibouti",
-  "coordinates": {
-    "lat": 11.8,
-    "long": 42.433333
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:24.599Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916157"
-  },
-  "uri": "http://www.wikidata.org/entity/Q983",
-  "name": "Equatorial Guinea",
-  "coordinates": {
-    "lat": 1.5,
-    "long": 10
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:24.896Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916158"
-  },
-  "uri": "http://www.wikidata.org/entity/Q986",
-  "name": "Eritrea",
-  "coordinates": {
-    "lat": 15.483333,
-    "long": 38.25
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:21.740Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916159"
-  },
-  "uri": "http://www.wikidata.org/entity/Q1000",
-  "name": "Gabon",
-  "coordinates": {
-    "lat": -0.683330555,
-    "long": 11.5
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:22.096Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091615a"
-  },
-  "uri": "http://www.wikidata.org/entity/Q1005",
-  "name": "The Gambia",
-  "coordinates": {
-    "lat": 13.5,
-    "long": -15.5
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:21.977Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091615b"
-  },
-  "uri": "http://www.wikidata.org/entity/Q1006",
-  "name": "Guinea",
-  "coordinates": {
-    "lat": 10,
-    "long": -11
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:22.822Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091615c"
-  },
-  "uri": "http://www.wikidata.org/entity/Q1007",
-  "name": "Guinea-Bissau",
-  "coordinates": {
-    "lat": 12,
-    "long": -15
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:25.582Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091615d"
-  },
-  "uri": "http://www.wikidata.org/entity/Q1008",
-  "name": "Ivory Coast",
-  "coordinates": {
-    "lat": 8,
-    "long": -6
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:21.537Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091615e"
-  },
-  "uri": "http://www.wikidata.org/entity/Q1009",
-  "name": "Cameroon",
-  "coordinates": {
-    "lat": 5.133333333,
-    "long": 12.65
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:22.764Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091615f"
-  },
-  "uri": "http://www.wikidata.org/entity/Q1011",
-  "name": "Cape Verde",
-  "coordinates": {
-    "lat": 15.3,
-    "long": -23.7
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:25.164Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916160"
-  },
-  "uri": "http://www.wikidata.org/entity/Q1013",
-  "name": "Lesotho",
-  "coordinates": {
-    "lat": -29.55,
-    "long": 28.25
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:23.792Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916161"
-  },
-  "uri": "http://www.wikidata.org/entity/Q1014",
-  "name": "Liberia",
-  "coordinates": {
-    "lat": 6.533333,
-    "long": -9.75
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:24.291Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916162"
-  },
-  "uri": "http://www.wikidata.org/entity/Q1016",
-  "name": "Libya",
-  "coordinates": {
-    "lat": 27,
-    "long": 17
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:22.947Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916163"
-  },
-  "uri": "http://www.wikidata.org/entity/Q1019",
-  "name": "Madagascar",
-  "coordinates": {
-    "lat": -20,
-    "long": 47
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:22.270Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916164"
-  },
-  "uri": "http://www.wikidata.org/entity/Q1020",
-  "name": "Malawi",
-  "coordinates": {
-    "lat": -13,
-    "long": 34
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:21.920Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916165"
-  },
-  "uri": "http://www.wikidata.org/entity/Q1025",
-  "name": "Mauritania",
-  "coordinates": {
-    "lat": 21,
-    "long": -11
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:25.950Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916166"
-  },
-  "uri": "http://www.wikidata.org/entity/Q1027",
-  "name": "Mauritius",
-  "coordinates": {
-    "lat": -20.2,
-    "long": 57.5
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:25.478Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916167"
-  },
-  "uri": "http://www.wikidata.org/entity/Q1028",
-  "name": "Morocco",
-  "coordinates": {
-    "lat": 32,
-    "long": -6
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:25.053Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916168"
-  },
-  "uri": "http://www.wikidata.org/entity/Q1029",
-  "name": "Mozambique",
-  "coordinates": {
-    "lat": -19,
-    "long": 35
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:25.739Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916169"
-  },
-  "uri": "http://www.wikidata.org/entity/Q1030",
-  "name": "Namibia",
-  "coordinates": {
-    "lat": -23,
-    "long": 17
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:25.790Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091616a"
-  },
-  "uri": "http://www.wikidata.org/entity/Q1032",
-  "name": "Niger",
-  "coordinates": {
-    "lat": 17,
-    "long": 10
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:20.357Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091616b"
-  },
-  "uri": "http://www.wikidata.org/entity/Q1033",
-  "name": "Nigeria",
-  "coordinates": {
-    "lat": 9,
-    "long": 8
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:21.872Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091616c"
-  },
-  "uri": "http://www.wikidata.org/entity/Q1036",
-  "name": "Uganda",
-  "coordinates": {
-    "lat": 1.28,
-    "long": 32.39
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:25.420Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091616d"
-  },
-  "uri": "http://www.wikidata.org/entity/Q1037",
-  "name": "Rwanda",
-  "coordinates": {
-    "lat": -2,
-    "long": 30
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:25.840Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091616e"
-  },
-  "uri": "http://www.wikidata.org/entity/Q1039",
-  "name": "São Tomé and Príncipe",
-  "coordinates": {
-    "lat": 0.316667,
-    "long": 6.6
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:25.104Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091616f"
-  },
-  "uri": "http://www.wikidata.org/entity/Q1041",
-  "name": "Senegal",
-  "coordinates": {
-    "lat": 14.366667,
-    "long": -14.283333
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:23.459Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916170"
-  },
-  "uri": "http://www.wikidata.org/entity/Q1042",
-  "name": "Seychelles",
-  "coordinates": {
-    "lat": -7.1,
-    "long": 52.766667
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:21.805Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916171"
-  },
-  "uri": "http://www.wikidata.org/entity/Q1044",
-  "name": "Sierra Leone",
-  "coordinates": {
-    "lat": 8.5,
-    "long": -12.1
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:20.937Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916172"
-  },
-  "uri": "http://www.wikidata.org/entity/Q1045",
-  "name": "Somalia",
-  "coordinates": {
-    "lat": 6,
-    "long": 47
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:21.152Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916173"
-  },
-  "uri": "http://www.wikidata.org/entity/Q1049",
-  "name": "Sudan",
-  "coordinates": {
-    "lat": 15,
-    "long": 32
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:24.500Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916174"
-  },
-  "uri": "http://www.wikidata.org/entity/Q1050",
-  "name": "Eswatini",
-  "coordinates": {
-    "lat": -26.483333,
-    "long": 31.433333
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:25.637Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916175"
-  },
-  "uri": "http://www.wikidata.org/entity/Q1199",
-  "name": "Hesse",
-  "coordinates": {
-    "lat": 50.608027777,
-    "long": 9.028472222
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:21.466Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916176"
-  },
-  "uri": "http://www.wikidata.org/entity/Q1246",
-  "name": "Kosovo",
-  "coordinates": {
-    "lat": 42.55,
-    "long": 20.833333333
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:24.551Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916177"
-  },
-  "uri": "http://www.wikidata.org/entity/Q21203",
-  "name": "Aruba",
-  "coordinates": {
-    "lat": 12.51106253,
-    "long": -69.97422388
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:22.575Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916178"
-  },
-  "uri": "http://www.wikidata.org/entity/Q23681",
-  "name": "Northern Cyprus",
-  "coordinates": {
-    "lat": 35.1816,
-    "long": 33.3634
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:23.120Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916179"
-  },
-  "uri": "http://www.wikidata.org/entity/Q25279",
-  "name": "Curaçao",
-  "coordinates": {
-    "lat": 12.2,
-    "long": -69
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:26.688Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091617a"
-  },
-  "uri": "http://www.wikidata.org/entity/Q26273",
-  "name": "Sint Maarten",
-  "coordinates": {
-    "lat": 18.031944444,
-    "long": -63.067777777
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:26.349Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091617b"
-  },
-  "uri": "http://www.wikidata.org/entity/Q26988",
-  "name": "Cook Islands",
-  "coordinates": {
-    "lat": -21.233333333,
-    "long": -159.783333333
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:26.790Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091617c"
-  },
-  "uri": "http://www.wikidata.org/entity/Q29999",
-  "name": "Kingdom of the Netherlands",
-  "coordinates": {
-    "lat": 52.366666666,
-    "long": 4.883333333
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:26.509Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091617d"
-  },
-  "uri": "http://www.wikidata.org/entity/Q34020",
-  "name": "Niue",
-  "coordinates": {
-    "lat": -19.05,
-    "long": -169.916666666
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:27.010Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091617e"
-  },
-  "uri": "http://www.wikidata.org/entity/Q34754",
-  "name": "Somaliland",
-  "coordinates": {
-    "lat": 9.8,
-    "long": 46.2
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:27.221Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd1091617f"
-  },
-  "uri": "http://www.wikidata.org/entity/Q165763",
-  "name": "Principality of Waldeck",
-  "coordinates": {
-    "lat": 50.9125,
-    "long": 11.782778
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:27.170Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916180"
-  },
-  "uri": "http://www.wikidata.org/entity/Q188736",
-  "name": "Bosnia",
-  "coordinates": {
-    "lat": 44.16,
-    "long": 17.78
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:26.855Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916181"
-  },
-  "uri": "http://www.wikidata.org/entity/Q200262",
-  "name": "Kingdom of Navarre",
-  "coordinates": {
-    "lat": 42.816944444,
-    "long": -1.642777777
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:26.628Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916182"
-  },
-  "uri": "http://www.wikidata.org/entity/Q219060",
-  "name": "Palestine",
-  "coordinates": {
-    "lat": 32,
-    "long": 35.25
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:27.120Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916183"
-  },
-  "uri": "http://www.wikidata.org/entity/Q825489",
-  "name": "County Pyrmont",
-  "coordinates": {
-    "lat": 51.9836,
-    "long": 9.24836
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:26.400Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916184"
-  },
-  "uri": "http://www.wikidata.org/entity/Q977566",
-  "name": "sub-Roman Britain",
-  "coordinates": null,
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:26.909Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916185"
-  },
-  "uri": "http://www.wikidata.org/entity/Q1147441",
-  "name": "British North Borneo",
-  "coordinates": {
-    "lat": 5.25,
-    "long": 117
-  },
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:26.459Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916186"
-  },
-  "uri": "http://www.wikidata.org/entity/Q2480041",
-  "name": "Italy in the Middle Ages",
-  "coordinates": null,
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:26.565Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916187"
-  },
-  "uri": "http://www.wikidata.org/entity/Q17993985",
-  "name": "Guarded Domains of Iran",
-  "coordinates": null,
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:26.741Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916188"
-  },
-  "uri": "http://www.wikidata.org/entity/Q107258515",
-  "name": "Pahlavi Iran",
-  "coordinates": null,
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:27.070Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "697a23ac37be5ecd10916189"
-  },
-  "uri": "http://www.wikidata.org/entity/Q137386301",
-  "name": "British Colony of Jamaica",
-  "coordinates": null,
-  "updatedAt": {
-    "$date": "2026-02-02T16:46:26.959Z"
-  }
-}]
+[
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160b1"
+    },
+    "uri": "http://www.wikidata.org/entity/Q16",
+    "name": "Canada",
+    "coordinates": {
+      "lat": 56.0,
+      "long": -109.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:28.991Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160b2"
+    },
+    "uri": "http://www.wikidata.org/entity/Q17",
+    "name": "Japan",
+    "coordinates": {
+      "lat": 35.0,
+      "long": 136.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:31.381Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160b3"
+    },
+    "uri": "http://www.wikidata.org/entity/Q20",
+    "name": "Norway",
+    "coordinates": {
+      "lat": 59.933333333,
+      "long": 10.683333333
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:27.511Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160b4"
+    },
+    "uri": "http://www.wikidata.org/entity/Q27",
+    "name": "Ireland",
+    "coordinates": {
+      "lat": 53.0,
+      "long": -8.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:32.513Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160b5"
+    },
+    "uri": "http://www.wikidata.org/entity/Q28",
+    "name": "Hungary",
+    "coordinates": {
+      "lat": 47.0,
+      "long": 19.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:30.200Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160b6"
+    },
+    "uri": "http://www.wikidata.org/entity/Q29",
+    "name": "Spain",
+    "coordinates": {
+      "lat": 40.2,
+      "long": -3.5
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:31.010Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160b7"
+    },
+    "uri": "http://www.wikidata.org/entity/Q30",
+    "name": "United States",
+    "coordinates": {
+      "lat": 39.828175,
+      "long": -98.5795
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:30.952Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160b8"
+    },
+    "uri": "http://www.wikidata.org/entity/Q31",
+    "name": "Belgium",
+    "coordinates": {
+      "lat": 50.641111111,
+      "long": 4.668055555
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:29.486Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160b9"
+    },
+    "uri": "http://www.wikidata.org/entity/Q32",
+    "name": "Luxembourg",
+    "coordinates": {
+      "lat": 49.77,
+      "long": 6.13
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:27.828Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160ba"
+    },
+    "uri": "http://www.wikidata.org/entity/Q33",
+    "name": "Finland",
+    "coordinates": {
+      "lat": 65.0,
+      "long": 27.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:31.279Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160bb"
+    },
+    "uri": "http://www.wikidata.org/entity/Q34",
+    "name": "Sweden",
+    "coordinates": {
+      "lat": 61.0,
+      "long": 15.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:31.661Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160bc"
+    },
+    "uri": "http://www.wikidata.org/entity/Q35",
+    "name": "Denmark",
+    "coordinates": {
+      "lat": 56.0,
+      "long": 10.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:29.364Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160bd"
+    },
+    "uri": "http://www.wikidata.org/entity/Q36",
+    "name": "Poland",
+    "coordinates": {
+      "lat": 52.0,
+      "long": 19.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:30.350Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160be"
+    },
+    "uri": "http://www.wikidata.org/entity/Q37",
+    "name": "Lithuania",
+    "coordinates": {
+      "lat": 55.2,
+      "long": 24.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:32.170Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160bf"
+    },
+    "uri": "http://www.wikidata.org/entity/Q38",
+    "name": "Italy",
+    "coordinates": {
+      "lat": 42.5,
+      "long": 12.5
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:31.111Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160c0"
+    },
+    "uri": "http://www.wikidata.org/entity/Q39",
+    "name": "Switzerland",
+    "coordinates": {
+      "lat": 46.798562,
+      "long": 8.231973
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:30.040Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160c1"
+    },
+    "uri": "http://www.wikidata.org/entity/Q40",
+    "name": "Austria",
+    "coordinates": {
+      "lat": 48.0,
+      "long": 14.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:32.626Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160c2"
+    },
+    "uri": "http://www.wikidata.org/entity/Q41",
+    "name": "Greece",
+    "coordinates": {
+      "lat": 38.5,
+      "long": 23.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:29.805Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160c3"
+    },
+    "uri": "http://www.wikidata.org/entity/Q43",
+    "name": "Turkey",
+    "coordinates": {
+      "lat": 39.0,
+      "long": 36.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:27.382Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160c4"
+    },
+    "uri": "http://www.wikidata.org/entity/Q45",
+    "name": "Portugal",
+    "coordinates": {
+      "lat": 38.7,
+      "long": -9.183333333
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:30.151Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160c5"
+    },
+    "uri": "http://www.wikidata.org/entity/Q55",
+    "name": "Netherlands",
+    "coordinates": {
+      "lat": 52.316666666,
+      "long": 5.55
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:30.630Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160c6"
+    },
+    "uri": "http://www.wikidata.org/entity/Q77",
+    "name": "Uruguay",
+    "coordinates": {
+      "lat": -33.0,
+      "long": -56.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:30.739Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160c7"
+    },
+    "uri": "http://www.wikidata.org/entity/Q79",
+    "name": "Egypt",
+    "coordinates": {
+      "lat": 27.0,
+      "long": 29.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:28.299Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160c8"
+    },
+    "uri": "http://www.wikidata.org/entity/Q96",
+    "name": "Mexico",
+    "coordinates": {
+      "lat": 23.0,
+      "long": -102.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:27.324Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160c9"
+    },
+    "uri": "http://www.wikidata.org/entity/Q114",
+    "name": "Kenya",
+    "coordinates": {
+      "lat": 0.1,
+      "long": 38.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:32.115Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160ca"
+    },
+    "uri": "http://www.wikidata.org/entity/Q115",
+    "name": "Ethiopia",
+    "coordinates": {
+      "lat": 9.0,
+      "long": 40.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:27.565Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160cb"
+    },
+    "uri": "http://www.wikidata.org/entity/Q117",
+    "name": "Ghana",
+    "coordinates": {
+      "lat": 7.9465,
+      "long": -1.0232
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:29.100Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160cc"
+    },
+    "uri": "http://www.wikidata.org/entity/Q142",
+    "name": "France",
+    "coordinates": {
+      "lat": 47.0,
+      "long": 2.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:30.582Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160cd"
+    },
+    "uri": "http://www.wikidata.org/entity/Q145",
+    "name": "United Kingdom",
+    "coordinates": {
+      "lat": 54.6,
+      "long": -2.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:31.330Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160ce"
+    },
+    "uri": "http://www.wikidata.org/entity/Q148",
+    "name": "People's Republic of China",
+    "coordinates": {
+      "lat": 35.844722222,
+      "long": 103.451944444
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:27.669Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160cf"
+    },
+    "uri": "http://www.wikidata.org/entity/Q155",
+    "name": "Brazil",
+    "coordinates": {
+      "lat": -14.0,
+      "long": -53.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:28.755Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160d0"
+    },
+    "uri": "http://www.wikidata.org/entity/Q159",
+    "name": "Russia",
+    "coordinates": {
+      "lat": 66.416666666,
+      "long": 94.25
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:28.888Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160d1"
+    },
+    "uri": "http://www.wikidata.org/entity/Q183",
+    "name": "Germany",
+    "coordinates": {
+      "lat": 51.0,
+      "long": 10.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:28.940Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160d2"
+    },
+    "uri": "http://www.wikidata.org/entity/Q184",
+    "name": "Belarus",
+    "coordinates": {
+      "lat": 53.528333333,
+      "long": 28.046666666
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:27.719Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160d3"
+    },
+    "uri": "http://www.wikidata.org/entity/Q189",
+    "name": "Iceland",
+    "coordinates": {
+      "lat": 65.0,
+      "long": -19.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:32.458Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160d4"
+    },
+    "uri": "http://www.wikidata.org/entity/Q191",
+    "name": "Estonia",
+    "coordinates": {
+      "lat": 59.0,
+      "long": 26.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:32.063Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160d5"
+    },
+    "uri": "http://www.wikidata.org/entity/Q211",
+    "name": "Latvia",
+    "coordinates": {
+      "lat": 57.0,
+      "long": 25.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:31.491Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160d6"
+    },
+    "uri": "http://www.wikidata.org/entity/Q212",
+    "name": "Ukraine",
+    "coordinates": {
+      "lat": 49.0,
+      "long": 32.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:29.051Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160d7"
+    },
+    "uri": "http://www.wikidata.org/entity/Q213",
+    "name": "Czech Republic",
+    "coordinates": {
+      "lat": 50.0,
+      "long": 15.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:29.548Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160d8"
+    },
+    "uri": "http://www.wikidata.org/entity/Q214",
+    "name": "Slovakia",
+    "coordinates": {
+      "lat": 48.7,
+      "long": 19.7
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:30.789Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160d9"
+    },
+    "uri": "http://www.wikidata.org/entity/Q215",
+    "name": "Slovenia",
+    "coordinates": {
+      "lat": 46.0,
+      "long": 15.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:29.310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160da"
+    },
+    "uri": "http://www.wikidata.org/entity/Q217",
+    "name": "Moldova",
+    "coordinates": {
+      "lat": 47.25,
+      "long": 28.516667
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:27.929Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160db"
+    },
+    "uri": "http://www.wikidata.org/entity/Q218",
+    "name": "Romania",
+    "coordinates": {
+      "lat": 46.0,
+      "long": 25.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:30.525Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160dc"
+    },
+    "uri": "http://www.wikidata.org/entity/Q219",
+    "name": "Bulgaria",
+    "coordinates": {
+      "lat": 42.75,
+      "long": 25.5
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:28.518Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160dd"
+    },
+    "uri": "http://www.wikidata.org/entity/Q221",
+    "name": "North Macedonia",
+    "coordinates": {
+      "lat": 41.65,
+      "long": 21.716667
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:29.149Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160de"
+    },
+    "uri": "http://www.wikidata.org/entity/Q222",
+    "name": "Albania",
+    "coordinates": {
+      "lat": 41.0,
+      "long": 20.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:29.202Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160df"
+    },
+    "uri": "http://www.wikidata.org/entity/Q223",
+    "name": "Greenland",
+    "coordinates": {
+      "lat": 72.0,
+      "long": -40.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:27.880Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160e0"
+    },
+    "uri": "http://www.wikidata.org/entity/Q224",
+    "name": "Croatia",
+    "coordinates": {
+      "lat": 45.25,
+      "long": 15.466667
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:28.637Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160e1"
+    },
+    "uri": "http://www.wikidata.org/entity/Q225",
+    "name": "Bosnia and Herzegovina",
+    "coordinates": {
+      "lat": 44.0,
+      "long": 18.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:31.779Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160e2"
+    },
+    "uri": "http://www.wikidata.org/entity/Q227",
+    "name": "Azerbaijan",
+    "coordinates": {
+      "lat": 40.3,
+      "long": 47.7
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:28.249Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160e3"
+    },
+    "uri": "http://www.wikidata.org/entity/Q228",
+    "name": "Andorra",
+    "coordinates": {
+      "lat": 42.558333333,
+      "long": 1.555277777
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:27.621Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160e4"
+    },
+    "uri": "http://www.wikidata.org/entity/Q229",
+    "name": "Cyprus",
+    "coordinates": {
+      "lat": 35.0,
+      "long": 33.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:32.400Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160e5"
+    },
+    "uri": "http://www.wikidata.org/entity/Q230",
+    "name": "Georgia",
+    "coordinates": {
+      "lat": 42.0,
+      "long": 44.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:28.699Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160e6"
+    },
+    "uri": "http://www.wikidata.org/entity/Q232",
+    "name": "Kazakhstan",
+    "coordinates": {
+      "lat": 48.0,
+      "long": 68.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:30.843Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160e7"
+    },
+    "uri": "http://www.wikidata.org/entity/Q233",
+    "name": "Malta",
+    "coordinates": {
+      "lat": 35.883333333,
+      "long": 14.5
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:29.943Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160e8"
+    },
+    "uri": "http://www.wikidata.org/entity/Q235",
+    "name": "Monaco",
+    "coordinates": {
+      "lat": 43.731111111,
+      "long": 7.42
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:27.770Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160e9"
+    },
+    "uri": "http://www.wikidata.org/entity/Q236",
+    "name": "Montenegro",
+    "coordinates": {
+      "lat": 42.766667,
+      "long": 19.216667
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:31.178Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160ea"
+    },
+    "uri": "http://www.wikidata.org/entity/Q237",
+    "name": "Vatican City",
+    "coordinates": {
+      "lat": 41.904,
+      "long": 12.453
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:27.272Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160eb"
+    },
+    "uri": "http://www.wikidata.org/entity/Q238",
+    "name": "San Marino",
+    "coordinates": {
+      "lat": 43.933333333,
+      "long": 12.466666666
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:30.690Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160ec"
+    },
+    "uri": "http://www.wikidata.org/entity/Q241",
+    "name": "Cuba",
+    "coordinates": {
+      "lat": 22.0,
+      "long": -79.5
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:32.791Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160ed"
+    },
+    "uri": "http://www.wikidata.org/entity/Q242",
+    "name": "Belize",
+    "coordinates": {
+      "lat": 17.066666666,
+      "long": -88.7
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:29.253Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160ee"
+    },
+    "uri": "http://www.wikidata.org/entity/Q244",
+    "name": "Barbados",
+    "coordinates": {
+      "lat": 13.17,
+      "long": -59.5525
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:28.200Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160ef"
+    },
+    "uri": "http://www.wikidata.org/entity/Q252",
+    "name": "Indonesia",
+    "coordinates": {
+      "lat": -2.0,
+      "long": 118.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:27.440Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160f0"
+    },
+    "uri": "http://www.wikidata.org/entity/Q258",
+    "name": "South Africa",
+    "coordinates": {
+      "lat": -29.0,
+      "long": 24.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:28.824Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160f1"
+    },
+    "uri": "http://www.wikidata.org/entity/Q262",
+    "name": "Algeria",
+    "coordinates": {
+      "lat": 28.0,
+      "long": 1.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:31.060Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160f2"
+    },
+    "uri": "http://www.wikidata.org/entity/Q265",
+    "name": "Uzbekistan",
+    "coordinates": {
+      "lat": 41.0,
+      "long": 66.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:30.408Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160f3"
+    },
+    "uri": "http://www.wikidata.org/entity/Q298",
+    "name": "Chile",
+    "coordinates": {
+      "lat": -33.0,
+      "long": -71.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:28.147Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160f4"
+    },
+    "uri": "http://www.wikidata.org/entity/Q334",
+    "name": "Singapore",
+    "coordinates": {
+      "lat": 1.3,
+      "long": 103.8
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:31.830Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160f5"
+    },
+    "uri": "http://www.wikidata.org/entity/Q347",
+    "name": "Liechtenstein",
+    "coordinates": {
+      "lat": 47.145,
+      "long": 9.553889
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:27.983Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160f6"
+    },
+    "uri": "http://www.wikidata.org/entity/Q398",
+    "name": "Bahrain",
+    "coordinates": {
+      "lat": 26.0675,
+      "long": 50.551111
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:31.551Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160f7"
+    },
+    "uri": "http://www.wikidata.org/entity/Q399",
+    "name": "Armenia",
+    "coordinates": {
+      "lat": 40.383333,
+      "long": 44.95
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:30.901Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160f8"
+    },
+    "uri": "http://www.wikidata.org/entity/Q403",
+    "name": "Serbia",
+    "coordinates": {
+      "lat": 43.95,
+      "long": 20.933333333
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:29.722Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160f9"
+    },
+    "uri": "http://www.wikidata.org/entity/Q408",
+    "name": "Australia",
+    "coordinates": {
+      "lat": -25.0,
+      "long": 133.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:30.098Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160fa"
+    },
+    "uri": "http://www.wikidata.org/entity/Q414",
+    "name": "Argentina",
+    "coordinates": {
+      "lat": -34.0,
+      "long": -64.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:30.299Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160fb"
+    },
+    "uri": "http://www.wikidata.org/entity/Q419",
+    "name": "Peru",
+    "coordinates": {
+      "lat": -9.4,
+      "long": -76.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:28.041Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160fc"
+    },
+    "uri": "http://www.wikidata.org/entity/Q423",
+    "name": "North Korea",
+    "coordinates": {
+      "lat": 40.0,
+      "long": 127.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:29.670Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160fd"
+    },
+    "uri": "http://www.wikidata.org/entity/Q424",
+    "name": "Cambodia",
+    "coordinates": {
+      "lat": 12.5,
+      "long": 105.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:30.463Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160fe"
+    },
+    "uri": "http://www.wikidata.org/entity/Q574",
+    "name": "Timor-Leste",
+    "coordinates": {
+      "lat": -8.966667,
+      "long": 125.75
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:31.230Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd109160ff"
+    },
+    "uri": "http://www.wikidata.org/entity/Q657",
+    "name": "Chad",
+    "coordinates": {
+      "lat": 15.466667,
+      "long": 19.4
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:29.990Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916100"
+    },
+    "uri": "http://www.wikidata.org/entity/Q664",
+    "name": "New Zealand",
+    "coordinates": {
+      "lat": -41.2,
+      "long": 174.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:32.560Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916101"
+    },
+    "uri": "http://www.wikidata.org/entity/Q668",
+    "name": "India",
+    "coordinates": {
+      "lat": 22.8,
+      "long": 83.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:31.440Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916102"
+    },
+    "uri": "http://www.wikidata.org/entity/Q672",
+    "name": "Tuvalu",
+    "coordinates": {
+      "lat": -7.475,
+      "long": 178.005556
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:31.883Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916103"
+    },
+    "uri": "http://www.wikidata.org/entity/Q678",
+    "name": "Tonga",
+    "coordinates": {
+      "lat": -20.587778,
+      "long": -174.810278
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:32.740Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916104"
+    },
+    "uri": "http://www.wikidata.org/entity/Q683",
+    "name": "Samoa",
+    "coordinates": {
+      "lat": -13.745,
+      "long": -172.2175
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:29.889Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916105"
+    },
+    "uri": "http://www.wikidata.org/entity/Q685",
+    "name": "Solomon Islands",
+    "coordinates": {
+      "lat": -9.466666666,
+      "long": 159.816666666
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:31.946Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916106"
+    },
+    "uri": "http://www.wikidata.org/entity/Q686",
+    "name": "Vanuatu",
+    "coordinates": {
+      "lat": -16.633330555,
+      "long": 168.016669444
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:28.090Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916107"
+    },
+    "uri": "http://www.wikidata.org/entity/Q691",
+    "name": "Papua New Guinea",
+    "coordinates": {
+      "lat": -6.3,
+      "long": 147.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:29.424Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916108"
+    },
+    "uri": "http://www.wikidata.org/entity/Q695",
+    "name": "Palau",
+    "coordinates": {
+      "lat": 7.466667,
+      "long": 134.55
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:32.688Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916109"
+    },
+    "uri": "http://www.wikidata.org/entity/Q697",
+    "name": "Nauru",
+    "coordinates": {
+      "lat": -0.5275,
+      "long": 166.935
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:28.572Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091610a"
+    },
+    "uri": "http://www.wikidata.org/entity/Q702",
+    "name": "Federated States of Micronesia",
+    "coordinates": {
+      "lat": 6.916666666,
+      "long": 158.183333333
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:28.400Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091610b"
+    },
+    "uri": "http://www.wikidata.org/entity/Q709",
+    "name": "Marshall Islands",
+    "coordinates": {
+      "lat": 9.82,
+      "long": 169.29
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:28.351Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091610c"
+    },
+    "uri": "http://www.wikidata.org/entity/Q710",
+    "name": "Kiribati",
+    "coordinates": {
+      "lat": 1.466666666,
+      "long": 173.033333333
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:29.607Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091610d"
+    },
+    "uri": "http://www.wikidata.org/entity/Q711",
+    "name": "Mongolia",
+    "coordinates": {
+      "lat": 46.0,
+      "long": 105.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:32.349Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091610e"
+    },
+    "uri": "http://www.wikidata.org/entity/Q712",
+    "name": "Fiji",
+    "coordinates": {
+      "lat": -18.0,
+      "long": 178.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:32.229Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091610f"
+    },
+    "uri": "http://www.wikidata.org/entity/Q717",
+    "name": "Venezuela",
+    "coordinates": {
+      "lat": 8.0,
+      "long": -67.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:31.713Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916110"
+    },
+    "uri": "http://www.wikidata.org/entity/Q730",
+    "name": "Suriname",
+    "coordinates": {
+      "lat": 4.0,
+      "long": -56.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:32.291Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916111"
+    },
+    "uri": "http://www.wikidata.org/entity/Q733",
+    "name": "Paraguay",
+    "coordinates": {
+      "lat": -23.5,
+      "long": -58.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:30.249Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916112"
+    },
+    "uri": "http://www.wikidata.org/entity/Q734",
+    "name": "Guyana",
+    "coordinates": {
+      "lat": 5.733333,
+      "long": -59.316667
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:28.450Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916113"
+    },
+    "uri": "http://www.wikidata.org/entity/Q736",
+    "name": "Ecuador",
+    "coordinates": {
+      "lat": -1.0,
+      "long": -78.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:31.999Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916114"
+    },
+    "uri": "http://www.wikidata.org/entity/Q739",
+    "name": "Colombia",
+    "coordinates": {
+      "lat": 4.0,
+      "long": -73.25
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:31.607Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916115"
+    },
+    "uri": "http://www.wikidata.org/entity/Q750",
+    "name": "Bolivia",
+    "coordinates": {
+      "lat": -17.056869611,
+      "long": -64.991228611
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:24.011Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916116"
+    },
+    "uri": "http://www.wikidata.org/entity/Q754",
+    "name": "Trinidad and Tobago",
+    "coordinates": {
+      "lat": 10.666666666,
+      "long": -61.516666666
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:22.710Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916117"
+    },
+    "uri": "http://www.wikidata.org/entity/Q757",
+    "name": "Saint Vincent and the Grenadines",
+    "coordinates": {
+      "lat": 13.0139,
+      "long": -61.2296
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:24.242Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916118"
+    },
+    "uri": "http://www.wikidata.org/entity/Q760",
+    "name": "Saint Lucia",
+    "coordinates": {
+      "lat": 13.883333333,
+      "long": -60.966666666
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:23.959Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916119"
+    },
+    "uri": "http://www.wikidata.org/entity/Q763",
+    "name": "Saint Kitts and Nevis",
+    "coordinates": {
+      "lat": 17.271666666,
+      "long": -62.666669444
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:23.396Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091611a"
+    },
+    "uri": "http://www.wikidata.org/entity/Q766",
+    "name": "Jamaica",
+    "coordinates": {
+      "lat": 18.18,
+      "long": -77.4
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:24.664Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091611b"
+    },
+    "uri": "http://www.wikidata.org/entity/Q769",
+    "name": "Grenada",
+    "coordinates": {
+      "lat": 12.1,
+      "long": -61.7
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:21.042Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091611c"
+    },
+    "uri": "http://www.wikidata.org/entity/Q774",
+    "name": "Guatemala",
+    "coordinates": {
+      "lat": 15.5,
+      "long": -90.25
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:25.895Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091611d"
+    },
+    "uri": "http://www.wikidata.org/entity/Q778",
+    "name": "The Bahamas",
+    "coordinates": {
+      "lat": 25.0,
+      "long": -77.4
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:23.675Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091611e"
+    },
+    "uri": "http://www.wikidata.org/entity/Q781",
+    "name": "Antigua and Barbuda",
+    "coordinates": {
+      "lat": 17.116666666,
+      "long": -61.85
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:24.787Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091611f"
+    },
+    "uri": "http://www.wikidata.org/entity/Q783",
+    "name": "Honduras",
+    "coordinates": {
+      "lat": 14.633333,
+      "long": -86.816667
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:23.330Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916120"
+    },
+    "uri": "http://www.wikidata.org/entity/Q784",
+    "name": "Dominica",
+    "coordinates": {
+      "lat": 15.416667,
+      "long": -61.333333
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:22.648Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916121"
+    },
+    "uri": "http://www.wikidata.org/entity/Q786",
+    "name": "Dominican Republic",
+    "coordinates": {
+      "lat": 18.8,
+      "long": -70.2
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:25.220Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916122"
+    },
+    "uri": "http://www.wikidata.org/entity/Q790",
+    "name": "Haiti",
+    "coordinates": {
+      "lat": 19.0,
+      "long": -72.8
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:24.730Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916123"
+    },
+    "uri": "http://www.wikidata.org/entity/Q792",
+    "name": "El Salvador",
+    "coordinates": {
+      "lat": 13.668889,
+      "long": -88.866111
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:23.853Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916124"
+    },
+    "uri": "http://www.wikidata.org/entity/Q794",
+    "name": "Iran",
+    "coordinates": {
+      "lat": 32.0,
+      "long": 53.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:23.899Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916125"
+    },
+    "uri": "http://www.wikidata.org/entity/Q796",
+    "name": "Iraq",
+    "coordinates": {
+      "lat": 33.0,
+      "long": 43.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:24.085Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916126"
+    },
+    "uri": "http://www.wikidata.org/entity/Q800",
+    "name": "Costa Rica",
+    "coordinates": {
+      "lat": 10.0,
+      "long": -84.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:24.189Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916127"
+    },
+    "uri": "http://www.wikidata.org/entity/Q801",
+    "name": "Israel",
+    "coordinates": {
+      "lat": 31.0,
+      "long": 35.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:22.521Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916128"
+    },
+    "uri": "http://www.wikidata.org/entity/Q804",
+    "name": "Panama",
+    "coordinates": {
+      "lat": 8.616667,
+      "long": -80.366667
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:21.338Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916129"
+    },
+    "uri": "http://www.wikidata.org/entity/Q805",
+    "name": "Yemen",
+    "coordinates": {
+      "lat": 15.5,
+      "long": 48.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:25.322Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091612a"
+    },
+    "uri": "http://www.wikidata.org/entity/Q810",
+    "name": "Jordan",
+    "coordinates": {
+      "lat": 31.2,
+      "long": 36.5
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:23.198Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091612b"
+    },
+    "uri": "http://www.wikidata.org/entity/Q811",
+    "name": "Nicaragua",
+    "coordinates": {
+      "lat": 13.0,
+      "long": -85.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:24.392Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091612c"
+    },
+    "uri": "http://www.wikidata.org/entity/Q813",
+    "name": "Kyrgyzstan",
+    "coordinates": {
+      "lat": 41.0,
+      "long": 75.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:25.271Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091612d"
+    },
+    "uri": "http://www.wikidata.org/entity/Q817",
+    "name": "Kuwait",
+    "coordinates": {
+      "lat": 29.166667,
+      "long": 47.6
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:25.530Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091612e"
+    },
+    "uri": "http://www.wikidata.org/entity/Q819",
+    "name": "Laos",
+    "coordinates": {
+      "lat": 18.2,
+      "long": 104.1
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:21.271Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091612f"
+    },
+    "uri": "http://www.wikidata.org/entity/Q822",
+    "name": "Lebanon",
+    "coordinates": {
+      "lat": 33.833333,
+      "long": 35.766667
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:24.339Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916130"
+    },
+    "uri": "http://www.wikidata.org/entity/Q826",
+    "name": "Maldives",
+    "coordinates": {
+      "lat": 4.18,
+      "long": 73.51
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:23.730Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916131"
+    },
+    "uri": "http://www.wikidata.org/entity/Q833",
+    "name": "Malaysia",
+    "coordinates": {
+      "lat": 3.7805111,
+      "long": 102.314361666
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:22.036Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916132"
+    },
+    "uri": "http://www.wikidata.org/entity/Q836",
+    "name": "Myanmar",
+    "coordinates": {
+      "lat": 22.0,
+      "long": 96.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:25Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916133"
+    },
+    "uri": "http://www.wikidata.org/entity/Q837",
+    "name": "Nepal",
+    "coordinates": {
+      "lat": 28.0,
+      "long": 84.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:25.690Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916134"
+    },
+    "uri": "http://www.wikidata.org/entity/Q842",
+    "name": "Oman",
+    "coordinates": {
+      "lat": 21.0,
+      "long": 57.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:20.686Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916135"
+    },
+    "uri": "http://www.wikidata.org/entity/Q843",
+    "name": "Pakistan",
+    "coordinates": {
+      "lat": 30.0,
+      "long": 71.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:23.620Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916136"
+    },
+    "uri": "http://www.wikidata.org/entity/Q846",
+    "name": "Qatar",
+    "coordinates": {
+      "lat": 25.269535,
+      "long": 51.212767
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:23.511Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916137"
+    },
+    "uri": "http://www.wikidata.org/entity/Q851",
+    "name": "Saudi Arabia",
+    "coordinates": {
+      "lat": 23.716667,
+      "long": 44.116667
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:20.994Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916138"
+    },
+    "uri": "http://www.wikidata.org/entity/Q854",
+    "name": "Sri Lanka",
+    "coordinates": {
+      "lat": 7.0,
+      "long": 81.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:24.139Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916139"
+    },
+    "uri": "http://www.wikidata.org/entity/Q858",
+    "name": "Syria",
+    "coordinates": {
+      "lat": 35.216667,
+      "long": 38.583333
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:24.839Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091613a"
+    },
+    "uri": "http://www.wikidata.org/entity/Q863",
+    "name": "Tajikistan",
+    "coordinates": {
+      "lat": 38.583333,
+      "long": 71.366667
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:22.158Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091613b"
+    },
+    "uri": "http://www.wikidata.org/entity/Q865",
+    "name": "Taiwan",
+    "coordinates": {
+      "lat": 24.0,
+      "long": 121.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:26.183Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091613c"
+    },
+    "uri": "http://www.wikidata.org/entity/Q869",
+    "name": "Thailand",
+    "coordinates": {
+      "lat": 14.0,
+      "long": 101.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:26.002Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091613d"
+    },
+    "uri": "http://www.wikidata.org/entity/Q874",
+    "name": "Turkmenistan",
+    "coordinates": {
+      "lat": 39.0,
+      "long": 60.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:23.568Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091613e"
+    },
+    "uri": "http://www.wikidata.org/entity/Q878",
+    "name": "United Arab Emirates",
+    "coordinates": {
+      "lat": 24.4,
+      "long": 54.3
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:20.747Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091613f"
+    },
+    "uri": "http://www.wikidata.org/entity/Q881",
+    "name": "Vietnam",
+    "coordinates": {
+      "lat": 16.0,
+      "long": 108.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:25.371Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916140"
+    },
+    "uri": "http://www.wikidata.org/entity/Q884",
+    "name": "South Korea",
+    "coordinates": {
+      "lat": 36.0,
+      "long": 128.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:21.674Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916141"
+    },
+    "uri": "http://www.wikidata.org/entity/Q889",
+    "name": "Afghanistan",
+    "coordinates": {
+      "lat": 33.0,
+      "long": 66.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:26.065Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916142"
+    },
+    "uri": "http://www.wikidata.org/entity/Q902",
+    "name": "Bangladesh",
+    "coordinates": {
+      "lat": 24.016666666,
+      "long": 89.866666666
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:21.205Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916143"
+    },
+    "uri": "http://www.wikidata.org/entity/Q912",
+    "name": "Mali",
+    "coordinates": {
+      "lat": 17.0,
+      "long": -4.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:20.811Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916144"
+    },
+    "uri": "http://www.wikidata.org/entity/Q916",
+    "name": "Angola",
+    "coordinates": {
+      "lat": -12.35,
+      "long": 17.35
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:21.606Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916145"
+    },
+    "uri": "http://www.wikidata.org/entity/Q917",
+    "name": "Bhutan",
+    "coordinates": {
+      "lat": 27.45,
+      "long": 90.5
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:22.452Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916146"
+    },
+    "uri": "http://www.wikidata.org/entity/Q921",
+    "name": "Brunei",
+    "coordinates": {
+      "lat": 4.4,
+      "long": 114.566667
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:24.953Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916147"
+    },
+    "uri": "http://www.wikidata.org/entity/Q924",
+    "name": "Tanzania",
+    "coordinates": {
+      "lat": -6.306944444,
+      "long": 34.853888888
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:23.271Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916148"
+    },
+    "uri": "http://www.wikidata.org/entity/Q928",
+    "name": "Philippines",
+    "coordinates": {
+      "lat": 12.0,
+      "long": 123.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:21.091Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916149"
+    },
+    "uri": "http://www.wikidata.org/entity/Q929",
+    "name": "Central African Republic",
+    "coordinates": {
+      "lat": 6.7,
+      "long": 20.9
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:23.009Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091614a"
+    },
+    "uri": "http://www.wikidata.org/entity/Q945",
+    "name": "Togo",
+    "coordinates": {
+      "lat": 8.25,
+      "long": 1.183333
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:22.221Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091614b"
+    },
+    "uri": "http://www.wikidata.org/entity/Q948",
+    "name": "Tunisia",
+    "coordinates": {
+      "lat": 34.0,
+      "long": 10.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:23.060Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091614c"
+    },
+    "uri": "http://www.wikidata.org/entity/Q953",
+    "name": "Zambia",
+    "coordinates": {
+      "lat": -14.0,
+      "long": 28.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:26.239Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091614d"
+    },
+    "uri": "http://www.wikidata.org/entity/Q954",
+    "name": "Zimbabwe",
+    "coordinates": {
+      "lat": -19.0,
+      "long": 30.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:22.400Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091614e"
+    },
+    "uri": "http://www.wikidata.org/entity/Q958",
+    "name": "South Sudan",
+    "coordinates": {
+      "lat": 7.0,
+      "long": 30.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:22.340Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091614f"
+    },
+    "uri": "http://www.wikidata.org/entity/Q962",
+    "name": "Benin",
+    "coordinates": {
+      "lat": 8.833333333,
+      "long": 2.183333333
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:22.873Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916150"
+    },
+    "uri": "http://www.wikidata.org/entity/Q963",
+    "name": "Botswana",
+    "coordinates": {
+      "lat": -22.2,
+      "long": 23.7
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:26.128Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916151"
+    },
+    "uri": "http://www.wikidata.org/entity/Q965",
+    "name": "Burkina Faso",
+    "coordinates": {
+      "lat": 12.266667,
+      "long": -2.066667
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:24.450Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916152"
+    },
+    "uri": "http://www.wikidata.org/entity/Q967",
+    "name": "Burundi",
+    "coordinates": {
+      "lat": -3.666667,
+      "long": 29.816667
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:20.621Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916153"
+    },
+    "uri": "http://www.wikidata.org/entity/Q970",
+    "name": "Comoros",
+    "coordinates": {
+      "lat": -12.3,
+      "long": 43.7
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:20.877Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916154"
+    },
+    "uri": "http://www.wikidata.org/entity/Q971",
+    "name": "Republic of the Congo",
+    "coordinates": {
+      "lat": -0.75,
+      "long": 15.383330555
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:21.408Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916155"
+    },
+    "uri": "http://www.wikidata.org/entity/Q974",
+    "name": "Democratic Republic of the Congo",
+    "coordinates": {
+      "lat": -2.88,
+      "long": 23.656111111
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:26.298Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916156"
+    },
+    "uri": "http://www.wikidata.org/entity/Q977",
+    "name": "Djibouti",
+    "coordinates": {
+      "lat": 11.8,
+      "long": 42.433333
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:24.599Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916157"
+    },
+    "uri": "http://www.wikidata.org/entity/Q983",
+    "name": "Equatorial Guinea",
+    "coordinates": {
+      "lat": 1.5,
+      "long": 10.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:24.896Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916158"
+    },
+    "uri": "http://www.wikidata.org/entity/Q986",
+    "name": "Eritrea",
+    "coordinates": {
+      "lat": 15.483333,
+      "long": 38.25
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:21.740Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916159"
+    },
+    "uri": "http://www.wikidata.org/entity/Q1000",
+    "name": "Gabon",
+    "coordinates": {
+      "lat": -0.683330555,
+      "long": 11.5
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:22.096Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091615a"
+    },
+    "uri": "http://www.wikidata.org/entity/Q1005",
+    "name": "The Gambia",
+    "coordinates": {
+      "lat": 13.5,
+      "long": -15.5
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:21.977Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091615b"
+    },
+    "uri": "http://www.wikidata.org/entity/Q1006",
+    "name": "Guinea",
+    "coordinates": {
+      "lat": 10.0,
+      "long": -11.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:22.822Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091615c"
+    },
+    "uri": "http://www.wikidata.org/entity/Q1007",
+    "name": "Guinea-Bissau",
+    "coordinates": {
+      "lat": 12.0,
+      "long": -15.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:25.582Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091615d"
+    },
+    "uri": "http://www.wikidata.org/entity/Q1008",
+    "name": "Ivory Coast",
+    "coordinates": {
+      "lat": 8.0,
+      "long": -6.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:21.537Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091615e"
+    },
+    "uri": "http://www.wikidata.org/entity/Q1009",
+    "name": "Cameroon",
+    "coordinates": {
+      "lat": 5.133333333,
+      "long": 12.65
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:22.764Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091615f"
+    },
+    "uri": "http://www.wikidata.org/entity/Q1011",
+    "name": "Cape Verde",
+    "coordinates": {
+      "lat": 15.3,
+      "long": -23.7
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:25.164Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916160"
+    },
+    "uri": "http://www.wikidata.org/entity/Q1013",
+    "name": "Lesotho",
+    "coordinates": {
+      "lat": -29.55,
+      "long": 28.25
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:23.792Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916161"
+    },
+    "uri": "http://www.wikidata.org/entity/Q1014",
+    "name": "Liberia",
+    "coordinates": {
+      "lat": 6.533333,
+      "long": -9.75
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:24.291Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916162"
+    },
+    "uri": "http://www.wikidata.org/entity/Q1016",
+    "name": "Libya",
+    "coordinates": {
+      "lat": 27.0,
+      "long": 17.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:22.947Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916163"
+    },
+    "uri": "http://www.wikidata.org/entity/Q1019",
+    "name": "Madagascar",
+    "coordinates": {
+      "lat": -20.0,
+      "long": 47.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:22.270Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916164"
+    },
+    "uri": "http://www.wikidata.org/entity/Q1020",
+    "name": "Malawi",
+    "coordinates": {
+      "lat": -13.0,
+      "long": 34.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:21.920Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916165"
+    },
+    "uri": "http://www.wikidata.org/entity/Q1025",
+    "name": "Mauritania",
+    "coordinates": {
+      "lat": 21.0,
+      "long": -11.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:25.950Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916166"
+    },
+    "uri": "http://www.wikidata.org/entity/Q1027",
+    "name": "Mauritius",
+    "coordinates": {
+      "lat": -20.2,
+      "long": 57.5
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:25.478Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916167"
+    },
+    "uri": "http://www.wikidata.org/entity/Q1028",
+    "name": "Morocco",
+    "coordinates": {
+      "lat": 32.0,
+      "long": -6.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:25.053Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916168"
+    },
+    "uri": "http://www.wikidata.org/entity/Q1029",
+    "name": "Mozambique",
+    "coordinates": {
+      "lat": -19.0,
+      "long": 35.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:25.739Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916169"
+    },
+    "uri": "http://www.wikidata.org/entity/Q1030",
+    "name": "Namibia",
+    "coordinates": {
+      "lat": -23.0,
+      "long": 17.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:25.790Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091616a"
+    },
+    "uri": "http://www.wikidata.org/entity/Q1032",
+    "name": "Niger",
+    "coordinates": {
+      "lat": 17.0,
+      "long": 10.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:20.357Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091616b"
+    },
+    "uri": "http://www.wikidata.org/entity/Q1033",
+    "name": "Nigeria",
+    "coordinates": {
+      "lat": 9.0,
+      "long": 8.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:21.872Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091616c"
+    },
+    "uri": "http://www.wikidata.org/entity/Q1036",
+    "name": "Uganda",
+    "coordinates": {
+      "lat": 1.28,
+      "long": 32.39
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:25.420Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091616d"
+    },
+    "uri": "http://www.wikidata.org/entity/Q1037",
+    "name": "Rwanda",
+    "coordinates": {
+      "lat": -2.0,
+      "long": 30.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:25.840Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091616e"
+    },
+    "uri": "http://www.wikidata.org/entity/Q1039",
+    "name": "São Tomé and Príncipe",
+    "coordinates": {
+      "lat": 0.316667,
+      "long": 6.6
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:25.104Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091616f"
+    },
+    "uri": "http://www.wikidata.org/entity/Q1041",
+    "name": "Senegal",
+    "coordinates": {
+      "lat": 14.366667,
+      "long": -14.283333
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:23.459Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916170"
+    },
+    "uri": "http://www.wikidata.org/entity/Q1042",
+    "name": "Seychelles",
+    "coordinates": {
+      "lat": -7.1,
+      "long": 52.766667
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:21.805Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916171"
+    },
+    "uri": "http://www.wikidata.org/entity/Q1044",
+    "name": "Sierra Leone",
+    "coordinates": {
+      "lat": 8.5,
+      "long": -12.1
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:20.937Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916172"
+    },
+    "uri": "http://www.wikidata.org/entity/Q1045",
+    "name": "Somalia",
+    "coordinates": {
+      "lat": 6.0,
+      "long": 47.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:21.152Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916173"
+    },
+    "uri": "http://www.wikidata.org/entity/Q1049",
+    "name": "Sudan",
+    "coordinates": {
+      "lat": 15.0,
+      "long": 32.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:24.500Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916174"
+    },
+    "uri": "http://www.wikidata.org/entity/Q1050",
+    "name": "Eswatini",
+    "coordinates": {
+      "lat": -26.483333,
+      "long": 31.433333
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:25.637Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916175"
+    },
+    "uri": "http://www.wikidata.org/entity/Q1199",
+    "name": "Hesse",
+    "coordinates": {
+      "lat": 50.608027777,
+      "long": 9.028472222
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:21.466Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916176"
+    },
+    "uri": "http://www.wikidata.org/entity/Q1246",
+    "name": "Kosovo",
+    "coordinates": {
+      "lat": 42.55,
+      "long": 20.833333333
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:24.551Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916177"
+    },
+    "uri": "http://www.wikidata.org/entity/Q21203",
+    "name": "Aruba",
+    "coordinates": {
+      "lat": 12.51106253,
+      "long": -69.97422388
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:22.575Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916178"
+    },
+    "uri": "http://www.wikidata.org/entity/Q23681",
+    "name": "Northern Cyprus",
+    "coordinates": {
+      "lat": 35.1816,
+      "long": 33.3634
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:23.120Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916179"
+    },
+    "uri": "http://www.wikidata.org/entity/Q25279",
+    "name": "Curaçao",
+    "coordinates": {
+      "lat": 12.2,
+      "long": -69.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:26.688Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091617a"
+    },
+    "uri": "http://www.wikidata.org/entity/Q26273",
+    "name": "Sint Maarten",
+    "coordinates": {
+      "lat": 18.031944444,
+      "long": -63.067777777
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:26.349Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091617b"
+    },
+    "uri": "http://www.wikidata.org/entity/Q26988",
+    "name": "Cook Islands",
+    "coordinates": {
+      "lat": -21.233333333,
+      "long": -159.783333333
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:26.790Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091617c"
+    },
+    "uri": "http://www.wikidata.org/entity/Q29999",
+    "name": "Kingdom of the Netherlands",
+    "coordinates": {
+      "lat": 52.366666666,
+      "long": 4.883333333
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:26.509Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091617d"
+    },
+    "uri": "http://www.wikidata.org/entity/Q34020",
+    "name": "Niue",
+    "coordinates": {
+      "lat": -19.05,
+      "long": -169.916666666
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:27.010Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091617e"
+    },
+    "uri": "http://www.wikidata.org/entity/Q34754",
+    "name": "Somaliland",
+    "coordinates": {
+      "lat": 9.8,
+      "long": 46.2
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:27.221Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd1091617f"
+    },
+    "uri": "http://www.wikidata.org/entity/Q165763",
+    "name": "Principality of Waldeck",
+    "coordinates": {
+      "lat": 50.9125,
+      "long": 11.782778
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:27.170Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916180"
+    },
+    "uri": "http://www.wikidata.org/entity/Q188736",
+    "name": "Bosnia",
+    "coordinates": {
+      "lat": 44.16,
+      "long": 17.78
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:26.855Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916181"
+    },
+    "uri": "http://www.wikidata.org/entity/Q200262",
+    "name": "Kingdom of Navarre",
+    "coordinates": {
+      "lat": 42.816944444,
+      "long": -1.642777777
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:26.628Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916182"
+    },
+    "uri": "http://www.wikidata.org/entity/Q219060",
+    "name": "Palestine",
+    "coordinates": {
+      "lat": 32.0,
+      "long": 35.25
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:27.120Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916183"
+    },
+    "uri": "http://www.wikidata.org/entity/Q825489",
+    "name": "County Pyrmont",
+    "coordinates": {
+      "lat": 51.9836,
+      "long": 9.24836
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:26.400Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916184"
+    },
+    "uri": "http://www.wikidata.org/entity/Q977566",
+    "name": "sub-Roman Britain",
+    "coordinates": null,
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:26.909Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916185"
+    },
+    "uri": "http://www.wikidata.org/entity/Q1147441",
+    "name": "British North Borneo",
+    "coordinates": {
+      "lat": 5.25,
+      "long": 117.0
+    },
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:26.459Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916186"
+    },
+    "uri": "http://www.wikidata.org/entity/Q2480041",
+    "name": "Italy in the Middle Ages",
+    "coordinates": null,
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:26.565Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916187"
+    },
+    "uri": "http://www.wikidata.org/entity/Q17993985",
+    "name": "Guarded Domains of Iran",
+    "coordinates": null,
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:26.741Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916188"
+    },
+    "uri": "http://www.wikidata.org/entity/Q107258515",
+    "name": "Pahlavi Iran",
+    "coordinates": null,
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:27.070Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697a23ac37be5ecd10916189"
+    },
+    "uri": "http://www.wikidata.org/entity/Q137386301",
+    "name": "British Colony of Jamaica",
+    "coordinates": null,
+    "updatedAt": {
+      "$date": "2026-02-02T16:46:26.959Z"
+    }
+  }
+]

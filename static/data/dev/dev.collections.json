@@ -1,35 +1,37 @@
-[{
-  "_id": {
-    "$oid": "66b09c59485f0736e2937754"
+[
+  {
+    "_id": {
+      "$oid": "66b09c59485f0736e2937754"
+    },
+    "name": "DECCA",
+    "identifier": "col-01-0001"
   },
-  "name": "DECCA",
-  "identifier": "col-01-0001"
-},
-{
-  "_id": {
-    "$oid": "66b09cda485f0736e2937755"
+  {
+    "_id": {
+      "$oid": "66b09cda485f0736e2937755"
+    },
+    "name": "JAMBO",
+    "identifier": "col-01-0002"
   },
-  "name": "JAMBO",
-  "identifier": "col-01-0002"
-},
-{
-  "_id": {
-    "$oid": "66c45cb960cf00a7a97e9a90"
+  {
+    "_id": {
+      "$oid": "66c45cb960cf00a7a97e9a90"
+    },
+    "name": "Test Collection",
+    "identifier": "col-01-0000"
   },
-  "name": "Test Collection",
-  "identifier": "col-01-0000"
-},
-{
-  "_id": {
-    "$oid": "66d8190d247856ad08b0a0a8"
+  {
+    "_id": {
+      "$oid": "66d8190d247856ad08b0a0a8"
+    },
+    "name": "The Pre-Death Bequest of Gerd Spittler",
+    "identifier": "col-01-0003"
   },
-  "name": "The Pre-Death Bequest of Gerd Spittler",
-  "identifier": "col-01-0003"
-},
-{
-  "_id": {
-    "$oid": "66e006df9e723b1b91bf9ef2"
-  },
-  "name": "Test Collection 2",
-  "identifier": "col-00-0000"
-}]
+  {
+    "_id": {
+      "$oid": "66e006df9e723b1b91bf9ef2"
+    },
+    "name": "Test Collection 2",
+    "identifier": "col-00-0000"
+  }
+]

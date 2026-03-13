@@ -1,1908 +1,1910 @@
-[{
-  "_id": {
-    "$oid": "66c85ad6f75816be2871ce5f"
-  },
-  "dre_id": "aah-02-0000",
-  "bitstream": "202103-LACC-AFENT-INT001-POK.mp3",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "ULG_AfEnt2020",
-    "name": "Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Interview with Charles, Ifeanyi, Uche and Joe Oloko",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2021-01-03T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Patrick, Oloko",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
+[
+  {
+    "_id": {
+      "$oid": "66c85ad6f75816be2871ce5f"
     },
-    {
-      "name": {
-        "label": "Kibora, Ludovic",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Institut des Sciences des Sociétés (INSS)"
-      ],
-      "role": "Author"
+    "dre_id": "aah-02-0000",
+    "bitstream": "202103-LACC-AFENT-INT001-POK.mp3",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "ULG_AfEnt2020",
+      "name": "Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment"
     },
-    {
-      "name": {
-        "label": "Ademola-Adeoye, Feyisayo",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Olokodana-James, Oluwatoyin",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of African Theatre and Dramatic Arts, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Oni, Peter",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Philopsophy, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Muo, Adaobi",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Literature and General Studies, National Institute of Nigerian Languages"
-      ],
-      "role": "Research team member"
-    }
-  ],
-  "note": "Interview with Charles, Ifeanyi, Uche and Joe Oloko of Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85008324",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Arts",
-      "authLabel": "Arts"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85001441",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Aesthetics",
-      "authLabel": "Aesthetics"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85088762",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Music",
-      "authLabel": "Music"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85118236",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Scholars",
-      "authLabel": "Scholars"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": " 202103-LACC-AFENT-INT001-POK",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "citation": [],
+    "url": [],
+    "titleInfo": [
       {
-        "l1": "Nigeria",
-        "l2": "Lagos State",
-        "l3": "Lagos"
+        "title": "Interview with Charles, Ifeanyi, Uche and Joe Oloko",
+        "title_type": "main"
       }
     ],
-    "current": [
-      "Institute of African and Diaspora Studies (IADS)"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Audio",
-  "genre": {
-    "marc": [
-      "interview"
-    ]
-  },
-  "language": [],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "created in mp3 format"
-    ],
-    "tech": [
-      "87.6megabytes",
-      "01h",
-      "03min,48sec"
-    ],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Researchers",
-    "Musicians",
-    "Music Lovers"
-  ],
-  "tags": [
-    "African Studies",
-    "Popular Music Studies",
-    "African Music",
-    "Cultural Economy"
-  ],
-  "createdAt": {
-    "$date": "2024-08-23T11:48:06.160Z"
-  },
-  "updatedAt": {
-    "$date": "2024-08-23T11:48:06.160Z"
-  },
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "66c85ad6f75816be2871ce60"
-  },
-  "dre_id": "aah-02-0001",
-  "bitstream": "202103-LACC-AFENT-INT002-POK.mp3",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "ULG_AfEnt2020",
-    "name": "Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Oral Interview with Mrs. Nebolisa",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2021-03-10T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Patrick, Oloko",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2021-01-03T00:00:00"
+      }
     },
-    {
-      "name": {
-        "label": "Kibora, Ludovic",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Institut des Sciences des Sociétés (INSS)"
-      ],
-      "role": "Author"
-    },
-    {
-      "name": {
-        "label": "Ademola-Adeoye, Feyisayo",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Olokodana-James, Oluwatoyin",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of African Theatre and Dramatic Arts, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Oni, Peter",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Philopsophy, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Muo, Adaobi",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Literature and General Studies, National Institute of Nigerian Languages"
-      ],
-      "role": "Research team member"
-    }
-  ],
-  "note": "Oral interview with Mrs. Nebolisa of Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85008324",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Arts",
-      "authLabel": "Arts"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85001441",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Aesthetics",
-      "authLabel": "Aesthetics"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85088762",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Music",
-      "authLabel": "Music"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85118236",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Scholars",
-      "authLabel": "Scholars"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "202103-LACC-AFENT-INT002-POK",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "name": [
       {
-        "l1": "Nigeria",
-        "l2": "Lagos State",
-        "l3": "Lagos"
+        "name": {
+          "label": "Patrick, Oloko",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Kibora, Ludovic",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Institut des Sciences des Sociétés (INSS)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Ademola-Adeoye, Feyisayo",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Olokodana-James, Oluwatoyin",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of African Theatre and Dramatic Arts, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Oni, Peter",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Philopsophy, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Muo, Adaobi",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Literature and General Studies, National Institute of Nigerian Languages"
+        ],
+        "role": "Research team member"
       }
     ],
-    "current": [
-      "Institute of African and Diaspora Studies (IADS)"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Audio",
-  "genre": {
-    "marc": [
-      "interview"
-    ]
-  },
-  "language": [],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "created in mp3 format"
-    ],
-    "tech": [
-      "21.1 megabytes",
-      "15min",
-      "24sec"
-    ],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Researchers",
-    "Musicians",
-    "Music Lovers"
-  ],
-  "tags": [
-    "African Studies",
-    "Popular Music Studies",
-    "African Music",
-    "Cultural Economy"
-  ],
-  "createdAt": {
-    "$date": "2024-08-23T11:48:06.175Z"
-  },
-  "updatedAt": {
-    "$date": "2024-08-23T11:48:06.175Z"
-  },
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "66c85ad6f75816be2871ce61"
-  },
-  "dre_id": "aah-02-0002",
-  "bitstream": "202103-LACC-AFENT-INT003-POK.mp3",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "ULG_AfEnt2020",
-    "name": "Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Interview with Sammy Sparkle",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2021-03-03T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Patrick, Oloko",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
-    },
-    {
-      "name": {
-        "label": "Kibora, Ludovic",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Institut des Sciences des Sociétés (INSS)"
-      ],
-      "role": "Author"
-    },
-    {
-      "name": {
-        "label": "Ademola-Adeoye, Feyisayo",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Olokodana-James, Oluwatoyin",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of African Theatre and Dramatic Arts, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Oni, Peter",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Philopsophy, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Muo, Adaobi",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Literature and General Studies, National Institute of Nigerian Languages"
-      ],
-      "role": "Research team member"
-    }
-  ],
-  "note": "Interview with Sammy Sparkleof Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85008324",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Arts",
-      "authLabel": "Arts"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85001441",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Aesthetics",
-      "authLabel": "Aesthetics"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85088762",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Music",
-      "authLabel": "Music"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85118236",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Scholars",
-      "authLabel": "Scholars"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "202103-LACC-AFENT-INT003-POK",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "note": "Interview with Charles, Ifeanyi, Uche and Joe Oloko of Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment",
+    "subject": [
       {
-        "l1": "Nigeria",
-        "l2": "Lagos State",
-        "l3": "Lagos"
+        "uri": "http://id.loc.gov/authorities/subjects/sh85008324",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Arts",
+        "authLabel": "Arts"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85001441",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Aesthetics",
+        "authLabel": "Aesthetics"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85088762",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Music",
+        "authLabel": "Music"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85118236",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Scholars",
+        "authLabel": "Scholars"
       }
     ],
-    "current": [
-      "Institute of African and Diaspora Studies (IADS)"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Audio",
-  "genre": {
-    "marc": [
-      "interview"
-    ]
-  },
-  "language": [],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "created in mp3 format"
-    ],
-    "tech": [
-      "65.6 megabytes",
-      "47min",
-      "15sec"
-    ],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Researchers",
-    "Musicians",
-    "Music Lovers"
-  ],
-  "tags": [
-    "African Studies",
-    "Popular Music Studies",
-    "African Music",
-    "Cultural Economy"
-  ],
-  "createdAt": {
-    "$date": "2024-08-23T11:48:06.175Z"
-  },
-  "updatedAt": {
-    "$date": "2024-08-23T11:48:06.175Z"
-  },
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "66c85ad6f75816be2871ce62"
-  },
-  "dre_id": "aah-02-0003",
-  "bitstream": "202103-LACC-AFENT-TINT001-POK.pdf",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "ULG_AfEnt2020",
-    "name": "Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Translation of Sammy Sparkle Interview",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2021-03-15T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Patrick, Oloko",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
-    },
-    {
-      "name": {
-        "label": "Kibora, Ludovic",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Institut des Sciences des Sociétés (INSS)"
-      ],
-      "role": "Author"
-    },
-    {
-      "name": {
-        "label": "Ademola-Adeoye, Feyisayo",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Olokodana-James, Oluwatoyin",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of African Theatre and Dramatic Arts, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Oni, Peter",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Philopsophy, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Muo, Adaobi",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Literature and General Studies, National Institute of Nigerian Languages"
-      ],
-      "role": "Research team member"
-    }
-  ],
-  "note": "Translation of interview with Sammy Sparkle of Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85008324",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Arts",
-      "authLabel": "Arts"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85001441",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Aesthetics",
-      "authLabel": "Aesthetics"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85088762",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Music",
-      "authLabel": "Music"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85118236",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Scholars",
-      "authLabel": "Scholars"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "202103-LACC-AFENT-TINT001-POK",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "relatedItems": {},
+    "identifier": [
       {
-        "l1": "Nigeria",
-        "l2": "Lagos State",
-        "l3": "Lagos"
+        "identifier": " 202103-LACC-AFENT-INT001-POK",
+        "identifier_type": "Locally defined identifier"
       }
     ],
-    "current": [
-      "Institute of African and Diaspora Studies (IADS)"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Text",
-  "genre": {
-    "marc": [
-      "videorecording"
-    ]
-  },
-  "language": [],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "created in word format",
-      "converted to pdf"
+    "location": {
+      "origin": [
+        {
+          "l1": "Nigeria",
+          "l2": "Lagos State",
+          "l3": "Lagos"
+        }
+      ],
+      "current": [
+        "Institute of African and Diaspora Studies (IADS)"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Audio",
+    "genre": {
+      "marc": [
+        "interview"
+      ]
+    },
+    "language": [],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "created in mp3 format"
+      ],
+      "tech": [
+        "87.6megabytes",
+        "01h",
+        "03min,48sec"
+      ],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Researchers",
+      "Musicians",
+      "Music Lovers"
     ],
-    "tech": [
-      "45kilobytes",
-      "15pages"
+    "tags": [
+      "African Studies",
+      "Popular Music Studies",
+      "African Music",
+      "Cultural Economy"
     ],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Researchers",
-    "Musicians",
-    "Music Lovers"
-  ],
-  "tags": [
-    "African Studies",
-    "Popular Music Studies",
-    "African Music",
-    "Cultural Economy"
-  ],
-  "createdAt": {
-    "$date": "2024-08-23T11:48:06.175Z"
-  },
-  "updatedAt": {
-    "$date": "2024-08-23T11:48:06.175Z"
-  },
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "66c85ad6f75816be2871ce63"
-  },
-  "dre_id": "aah-02-0004",
-  "bitstream": "202103-LACC-AFENT-TINT002-POK.pdf",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "ULG_AfEnt2020",
-    "name": "Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Translation of Charles, Ifeanyi, Uche and Joe Oloko",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2021-03-15T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Patrick, Oloko",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
+    "createdAt": {
+      "$date": "2024-08-23T11:48:06.160Z"
     },
-    {
-      "name": {
-        "label": "Kibora, Ludovic",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Institut des Sciences des Sociétés (INSS)"
-      ],
-      "role": "Author"
+    "updatedAt": {
+      "$date": "2024-08-23T11:48:06.160Z"
     },
-    {
-      "name": {
-        "label": "Ademola-Adeoye, Feyisayo",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Research team member"
+    "updatedBy": "jy"
+  },
+  {
+    "_id": {
+      "$oid": "66c85ad6f75816be2871ce60"
     },
-    {
-      "name": {
-        "label": "Olokodana-James, Oluwatoyin",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of African Theatre and Dramatic Arts, University of Lagos"
-      ],
-      "role": "Research team member"
+    "dre_id": "aah-02-0001",
+    "bitstream": "202103-LACC-AFENT-INT002-POK.mp3",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "ULG_AfEnt2020",
+      "name": "Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment"
     },
-    {
-      "name": {
-        "label": "Oni, Peter",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Philopsophy, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Muo, Adaobi",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Literature and General Studies, National Institute of Nigerian Languages"
-      ],
-      "role": "Research team member"
-    }
-  ],
-  "note": "Translation of interview with Charles, Ifeanyi, Uche and Joe Oloko of Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85008324",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Arts",
-      "authLabel": "Arts"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85001441",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Aesthetics",
-      "authLabel": "Aesthetics"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85088762",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Music",
-      "authLabel": "Music"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85118236",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Scholars",
-      "authLabel": "Scholars"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "202103-LACC-AFENT-TINT002-POK",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "citation": [],
+    "url": [],
+    "titleInfo": [
       {
-        "l1": "Nigeria",
-        "l2": "Lagos State",
-        "l3": "Lagos"
+        "title": "Oral Interview with Mrs. Nebolisa",
+        "title_type": "main"
       }
     ],
-    "current": [
-      "Institute of African and Diaspora Studies (IADS)"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Text",
-  "genre": {
-    "marc": [
-      "reporting"
-    ]
-  },
-  "language": [],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "created in word format",
-      "converted to pdf"
-    ],
-    "tech": [
-      "40kilobytes",
-      "10pages"
-    ],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Researchers",
-    "Musicians",
-    "Music Lovers"
-  ],
-  "tags": [
-    "African Studies",
-    "Popular Music Studies",
-    "African Music",
-    "Cultural Economy"
-  ],
-  "createdAt": {
-    "$date": "2024-08-23T11:48:06.175Z"
-  },
-  "updatedAt": {
-    "$date": "2024-08-23T11:48:06.175Z"
-  },
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "66c85ad6f75816be2871ce64"
-  },
-  "dre_id": "aah-02-0005",
-  "bitstream": "202103-LACC-AFENT-TINT003-POK.pdf",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "ULG_AfEnt2020",
-    "name": "Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Translation of Sammy Sparkle Interview",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2021-03-15T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Patrick, Oloko",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2021-03-10T00:00:00"
+      }
     },
-    {
-      "name": {
-        "label": "Kibora, Ludovic",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Institut des Sciences des Sociétés (INSS)"
-      ],
-      "role": "Author"
-    },
-    {
-      "name": {
-        "label": "Ademola-Adeoye, Feyisayo",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Olokodana-James, Oluwatoyin",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of African Theatre and Dramatic Arts, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Oni, Peter",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Philopsophy, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Muo, Adaobi",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Literature and General Studies, National Institute of Nigerian Languages"
-      ],
-      "role": "Research team member"
-    }
-  ],
-  "note": "Translation of interview with Sammy Sparkle of Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85008324",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Arts",
-      "authLabel": "Arts"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85001441",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Aesthetics",
-      "authLabel": "Aesthetics"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85088762",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Music",
-      "authLabel": "Music"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85118236",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Scholars",
-      "authLabel": "Scholars"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "202103-LACC-AFENT-TINT003-POK",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "name": [
       {
-        "l1": "Nigeria",
-        "l2": "Lagos State",
-        "l3": "Lagos"
+        "name": {
+          "label": "Patrick, Oloko",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Kibora, Ludovic",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Institut des Sciences des Sociétés (INSS)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Ademola-Adeoye, Feyisayo",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Olokodana-James, Oluwatoyin",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of African Theatre and Dramatic Arts, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Oni, Peter",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Philopsophy, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Muo, Adaobi",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Literature and General Studies, National Institute of Nigerian Languages"
+        ],
+        "role": "Research team member"
       }
     ],
-    "current": [
-      "Institute of African and Diaspora Studies (IADS)"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Text",
-  "genre": {
-    "marc": [
-      "reporting"
-    ]
-  },
-  "language": [],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "created in word format",
-      "converted to pdf"
-    ],
-    "tech": [
-      "45kilobyte",
-      "11pages"
-    ],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Researchers",
-    "Musicians",
-    "Music Lovers"
-  ],
-  "tags": [
-    "African Studies",
-    "Popular Music Studies",
-    "African Music",
-    "Cultural Economy"
-  ],
-  "createdAt": {
-    "$date": "2024-08-23T11:48:06.189Z"
-  },
-  "updatedAt": {
-    "$date": "2024-08-23T11:48:06.189Z"
-  },
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "66c85ad6f75816be2871ce65"
-  },
-  "dre_id": "aah-02-0006",
-  "bitstream": "202103-LAAC-AFENT-TINT004-POK.pdf",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "ULG_AfEnt2020",
-    "name": "Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Transcription of the Recorded Oral Interview with Mrs. Nebolisa",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2021-03-15T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Patrick, Oloko",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
-    },
-    {
-      "name": {
-        "label": "Kibora, Ludovic",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Institut des Sciences des Sociétés (INSS)"
-      ],
-      "role": "Author"
-    },
-    {
-      "name": {
-        "label": "Ademola-Adeoye, Feyisayo",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Olokodana-James, Oluwatoyin",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of African Theatre and Dramatic Arts, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Oni, Peter",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Philopsophy, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Muo, Adaobi",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Literature and General Studies, National Institute of Nigerian Languages"
-      ],
-      "role": "Research team member"
-    }
-  ],
-  "note": "Transcription of the recorded oral interview with Mrs. Nebolisa of Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85008324",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Arts",
-      "authLabel": "Arts"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85001441",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Aesthetics",
-      "authLabel": "Aesthetics"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85088762",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Music",
-      "authLabel": "Music"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85118236",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Scholars",
-      "authLabel": "Scholars"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "202103-LAAC-AFENT-TINT004-POK",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "note": "Oral interview with Mrs. Nebolisa of Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment",
+    "subject": [
       {
-        "l1": "Nigeria",
-        "l2": "Lagos State",
-        "l3": "Lagos"
+        "uri": "http://id.loc.gov/authorities/subjects/sh85008324",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Arts",
+        "authLabel": "Arts"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85001441",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Aesthetics",
+        "authLabel": "Aesthetics"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85088762",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Music",
+        "authLabel": "Music"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85118236",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Scholars",
+        "authLabel": "Scholars"
       }
     ],
-    "current": [
-      "Institute of African and Diaspora Studies (IADS)"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Text",
-  "genre": {
-    "marc": [
-      "reporting"
-    ]
-  },
-  "language": [],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "created in word format",
-      "converted to pdf"
-    ],
-    "tech": [
-      "49kilobyte",
-      "14 pages"
-    ],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Researchers",
-    "Musicians",
-    "Music Lovers"
-  ],
-  "tags": [
-    "African Studies",
-    "Popular Music Studies",
-    "African Music",
-    "Cultural Economy"
-  ],
-  "createdAt": {
-    "$date": "2024-08-23T11:48:06.190Z"
-  },
-  "updatedAt": {
-    "$date": "2024-08-23T11:48:06.190Z"
-  },
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "66c85ad6f75816be2871ce66"
-  },
-  "dre_id": "aah-02-0007",
-  "bitstream": "202103-LACC-AFENT-ALTR-POK.pdf",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "ULG_AfEnt2020",
-    "name": "Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Selected Albums and Tracks of Morocco Maduka",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2021-03-15T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Patrick, Oloko",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
-    },
-    {
-      "name": {
-        "label": "Kibora, Ludovic",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Institut des Sciences des Sociétés (INSS)"
-      ],
-      "role": "Author"
-    },
-    {
-      "name": {
-        "label": "Ademola-Adeoye, Feyisayo",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Olokodana-James, Oluwatoyin",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of African Theatre and Dramatic Arts, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Oni, Peter",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Philopsophy, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Muo, Adaobi",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Literature and General Studies, National Institute of Nigerian Languages"
-      ],
-      "role": "Research team member"
-    }
-  ],
-  "note": "Selected albums and tracks of Morocco Maduka of Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85008324",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Arts",
-      "authLabel": "Arts"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85001441",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Aesthetics",
-      "authLabel": "Aesthetics"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85088762",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Music",
-      "authLabel": "Music"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85118236",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Scholars",
-      "authLabel": "Scholars"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "202103-LACC-AFENT-ALTR-POK",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "relatedItems": {},
+    "identifier": [
       {
-        "l1": "Nigeria",
-        "l2": "Lagos State",
-        "l3": "Lagos"
+        "identifier": "202103-LACC-AFENT-INT002-POK",
+        "identifier_type": "Locally defined identifier"
       }
     ],
-    "current": [
-      "Institute of African and Diaspora Studies (IADS)"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Text",
-  "genre": {
-    "marc": [
-      "reporting"
-    ]
-  },
-  "language": [],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "created in word format",
-      "converted to pdf"
+    "location": {
+      "origin": [
+        {
+          "l1": "Nigeria",
+          "l2": "Lagos State",
+          "l3": "Lagos"
+        }
+      ],
+      "current": [
+        "Institute of African and Diaspora Studies (IADS)"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Audio",
+    "genre": {
+      "marc": [
+        "interview"
+      ]
+    },
+    "language": [],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "created in mp3 format"
+      ],
+      "tech": [
+        "21.1 megabytes",
+        "15min",
+        "24sec"
+      ],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Researchers",
+      "Musicians",
+      "Music Lovers"
     ],
-    "tech": [
-      "25kilobytes",
-      "3pages"
+    "tags": [
+      "African Studies",
+      "Popular Music Studies",
+      "African Music",
+      "Cultural Economy"
     ],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Researchers",
-    "Musicians",
-    "Music Lovers"
-  ],
-  "tags": [
-    "African Studies",
-    "Popular Music Studies",
-    "African Music",
-    "Cultural Economy"
-  ],
-  "createdAt": {
-    "$date": "2024-08-23T11:48:06.191Z"
-  },
-  "updatedAt": {
-    "$date": "2024-08-23T11:48:06.191Z"
-  },
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "66c85ad6f75816be2871ce67"
-  },
-  "dre_id": "aah-02-0008",
-  "bitstream": "202103-LACC-AFENT-Img001-POK.jpg",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "ULG_AfEnt2020",
-    "name": "Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Field Trip Picture",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2021-03-03T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Patrick, Oloko",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
+    "createdAt": {
+      "$date": "2024-08-23T11:48:06.175Z"
     },
-    {
-      "name": {
-        "label": "Kibora, Ludovic",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Institut des Sciences des Sociétés (INSS)"
-      ],
-      "role": "Author"
+    "updatedAt": {
+      "$date": "2024-08-23T11:48:06.175Z"
     },
-    {
-      "name": {
-        "label": "Ademola-Adeoye, Feyisayo",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Research team member"
+    "updatedBy": "jy"
+  },
+  {
+    "_id": {
+      "$oid": "66c85ad6f75816be2871ce61"
     },
-    {
-      "name": {
-        "label": "Olokodana-James, Oluwatoyin",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of African Theatre and Dramatic Arts, University of Lagos"
-      ],
-      "role": "Research team member"
+    "dre_id": "aah-02-0002",
+    "bitstream": "202103-LACC-AFENT-INT003-POK.mp3",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "ULG_AfEnt2020",
+      "name": "Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment"
     },
-    {
-      "name": {
-        "label": "Oni, Peter",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Philopsophy, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Muo, Adaobi",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Literature and General Studies, National Institute of Nigerian Languages"
-      ],
-      "role": "Research team member"
-    }
-  ],
-  "note": "Field trip picture of Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85008324",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Arts",
-      "authLabel": "Arts"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85001441",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Aesthetics",
-      "authLabel": "Aesthetics"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85088762",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Music",
-      "authLabel": "Music"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85118236",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Scholars",
-      "authLabel": "Scholars"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "202103-LACC-AFENT-Img001-POK",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "citation": [],
+    "url": [],
+    "titleInfo": [
       {
-        "l1": "Nigeria",
-        "l2": "Lagos State",
-        "l3": "Lagos"
+        "title": "Interview with Sammy Sparkle",
+        "title_type": "main"
       }
     ],
-    "current": [
-      "Institute of African and Diaspora Studies (IADS)"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Image",
-  "genre": {
-    "marc": [
-      "picture"
-    ]
-  },
-  "language": [],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "created in jpg format"
-    ],
-    "tech": [
-      "2megabytes"
-    ],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Researchers",
-    "Musicians",
-    "Music Lovers"
-  ],
-  "tags": [
-    "African Studies",
-    "Popular Music Studies",
-    "African Music",
-    "Cultural Economy"
-  ],
-  "createdAt": {
-    "$date": "2024-08-23T11:48:06.191Z"
-  },
-  "updatedAt": {
-    "$date": "2024-08-23T11:48:06.191Z"
-  },
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "66c85ad6f75816be2871ce68"
-  },
-  "dre_id": "aah-02-0009",
-  "bitstream": "202103-LACC-AFENT-TRFSK001-POK.pdf",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "ULG_AfEnt2020",
-    "name": "Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Translation of Skit",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2021-03-15T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Patrick, Oloko",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2021-03-03T00:00:00"
+      }
     },
-    {
-      "name": {
-        "label": "Kibora, Ludovic",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Institut des Sciences des Sociétés (INSS)"
-      ],
-      "role": "Author"
-    },
-    {
-      "name": {
-        "label": "Ademola-Adeoye, Feyisayo",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Olokodana-James, Oluwatoyin",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of African Theatre and Dramatic Arts, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Oni, Peter",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Philopsophy, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Muo, Adaobi",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Literature and General Studies, National Institute of Nigerian Languages"
-      ],
-      "role": "Research team member"
-    }
-  ],
-  "note": "Skit translation of Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85008324",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Arts",
-      "authLabel": "Arts"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85001441",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Aesthetics",
-      "authLabel": "Aesthetics"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85088762",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Music",
-      "authLabel": "Music"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85118236",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Scholars",
-      "authLabel": "Scholars"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "202103-LACC-AFENT-TRFSK001-POK",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "name": [
       {
-        "l1": "Nigeria",
-        "l2": "Lagos State",
-        "l3": "Lagos"
+        "name": {
+          "label": "Patrick, Oloko",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Kibora, Ludovic",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Institut des Sciences des Sociétés (INSS)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Ademola-Adeoye, Feyisayo",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Olokodana-James, Oluwatoyin",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of African Theatre and Dramatic Arts, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Oni, Peter",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Philopsophy, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Muo, Adaobi",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Literature and General Studies, National Institute of Nigerian Languages"
+        ],
+        "role": "Research team member"
       }
     ],
-    "current": [
-      "Institute of African and Diaspora Studies (IADS)"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Text",
-  "genre": {
-    "marc": [
-      "reporting"
-    ]
-  },
-  "language": [],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "created in word format",
-      "converted to pdf"
+    "note": "Interview with Sammy Sparkleof Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment",
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85008324",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Arts",
+        "authLabel": "Arts"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85001441",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Aesthetics",
+        "authLabel": "Aesthetics"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85088762",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Music",
+        "authLabel": "Music"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85118236",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Scholars",
+        "authLabel": "Scholars"
+      }
     ],
-    "tech": [
-      "37kilobytes",
-      "24pages"
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": "202103-LACC-AFENT-INT003-POK",
+        "identifier_type": "Locally defined identifier"
+      }
     ],
-    "note": []
+    "location": {
+      "origin": [
+        {
+          "l1": "Nigeria",
+          "l2": "Lagos State",
+          "l3": "Lagos"
+        }
+      ],
+      "current": [
+        "Institute of African and Diaspora Studies (IADS)"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Audio",
+    "genre": {
+      "marc": [
+        "interview"
+      ]
+    },
+    "language": [],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "created in mp3 format"
+      ],
+      "tech": [
+        "65.6 megabytes",
+        "47min",
+        "15sec"
+      ],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Researchers",
+      "Musicians",
+      "Music Lovers"
+    ],
+    "tags": [
+      "African Studies",
+      "Popular Music Studies",
+      "African Music",
+      "Cultural Economy"
+    ],
+    "createdAt": {
+      "$date": "2024-08-23T11:48:06.175Z"
+    },
+    "updatedAt": {
+      "$date": "2024-08-23T11:48:06.175Z"
+    },
+    "updatedBy": "jy"
   },
-  "abstract": {
-    "$numberDouble": "NaN"
+  {
+    "_id": {
+      "$oid": "66c85ad6f75816be2871ce62"
+    },
+    "dre_id": "aah-02-0003",
+    "bitstream": "202103-LACC-AFENT-TINT001-POK.pdf",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "ULG_AfEnt2020",
+      "name": "Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
+      {
+        "title": "Translation of Sammy Sparkle Interview",
+        "title_type": "main"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2021-03-15T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Patrick, Oloko",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Kibora, Ludovic",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Institut des Sciences des Sociétés (INSS)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Ademola-Adeoye, Feyisayo",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Olokodana-James, Oluwatoyin",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of African Theatre and Dramatic Arts, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Oni, Peter",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Philopsophy, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Muo, Adaobi",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Literature and General Studies, National Institute of Nigerian Languages"
+        ],
+        "role": "Research team member"
+      }
+    ],
+    "note": "Translation of interview with Sammy Sparkle of Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment",
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85008324",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Arts",
+        "authLabel": "Arts"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85001441",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Aesthetics",
+        "authLabel": "Aesthetics"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85088762",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Music",
+        "authLabel": "Music"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85118236",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Scholars",
+        "authLabel": "Scholars"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": "202103-LACC-AFENT-TINT001-POK",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Nigeria",
+          "l2": "Lagos State",
+          "l3": "Lagos"
+        }
+      ],
+      "current": [
+        "Institute of African and Diaspora Studies (IADS)"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Text",
+    "genre": {
+      "marc": [
+        "videorecording"
+      ]
+    },
+    "language": [],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "created in word format",
+        "converted to pdf"
+      ],
+      "tech": [
+        "45kilobytes",
+        "15pages"
+      ],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Researchers",
+      "Musicians",
+      "Music Lovers"
+    ],
+    "tags": [
+      "African Studies",
+      "Popular Music Studies",
+      "African Music",
+      "Cultural Economy"
+    ],
+    "createdAt": {
+      "$date": "2024-08-23T11:48:06.175Z"
+    },
+    "updatedAt": {
+      "$date": "2024-08-23T11:48:06.175Z"
+    },
+    "updatedBy": "jy"
   },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
+  {
+    "_id": {
+      "$oid": "66c85ad6f75816be2871ce63"
+    },
+    "dre_id": "aah-02-0004",
+    "bitstream": "202103-LACC-AFENT-TINT002-POK.pdf",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "ULG_AfEnt2020",
+      "name": "Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
+      {
+        "title": "Translation of Charles, Ifeanyi, Uche and Joe Oloko",
+        "title_type": "main"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2021-03-15T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Patrick, Oloko",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Kibora, Ludovic",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Institut des Sciences des Sociétés (INSS)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Ademola-Adeoye, Feyisayo",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Olokodana-James, Oluwatoyin",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of African Theatre and Dramatic Arts, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Oni, Peter",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Philopsophy, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Muo, Adaobi",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Literature and General Studies, National Institute of Nigerian Languages"
+        ],
+        "role": "Research team member"
+      }
+    ],
+    "note": "Translation of interview with Charles, Ifeanyi, Uche and Joe Oloko of Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment",
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85008324",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Arts",
+        "authLabel": "Arts"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85001441",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Aesthetics",
+        "authLabel": "Aesthetics"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85088762",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Music",
+        "authLabel": "Music"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85118236",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Scholars",
+        "authLabel": "Scholars"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": "202103-LACC-AFENT-TINT002-POK",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Nigeria",
+          "l2": "Lagos State",
+          "l3": "Lagos"
+        }
+      ],
+      "current": [
+        "Institute of African and Diaspora Studies (IADS)"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Text",
+    "genre": {
+      "marc": [
+        "reporting"
+      ]
+    },
+    "language": [],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "created in word format",
+        "converted to pdf"
+      ],
+      "tech": [
+        "40kilobytes",
+        "10pages"
+      ],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Researchers",
+      "Musicians",
+      "Music Lovers"
+    ],
+    "tags": [
+      "African Studies",
+      "Popular Music Studies",
+      "African Music",
+      "Cultural Economy"
+    ],
+    "createdAt": {
+      "$date": "2024-08-23T11:48:06.175Z"
+    },
+    "updatedAt": {
+      "$date": "2024-08-23T11:48:06.175Z"
+    },
+    "updatedBy": "jy"
   },
-  "targetAudience": [
-    "Researchers",
-    "Musicians",
-    "Music Lovers"
-  ],
-  "tags": [
-    "African Studies",
-    "Popular Music Studies",
-    "African Music",
-    "Cultural Economy"
-  ],
-  "createdAt": {
-    "$date": "2024-08-23T11:48:06.191Z"
+  {
+    "_id": {
+      "$oid": "66c85ad6f75816be2871ce64"
+    },
+    "dre_id": "aah-02-0005",
+    "bitstream": "202103-LACC-AFENT-TINT003-POK.pdf",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "ULG_AfEnt2020",
+      "name": "Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
+      {
+        "title": "Translation of Sammy Sparkle Interview",
+        "title_type": "main"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2021-03-15T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Patrick, Oloko",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Kibora, Ludovic",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Institut des Sciences des Sociétés (INSS)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Ademola-Adeoye, Feyisayo",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Olokodana-James, Oluwatoyin",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of African Theatre and Dramatic Arts, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Oni, Peter",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Philopsophy, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Muo, Adaobi",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Literature and General Studies, National Institute of Nigerian Languages"
+        ],
+        "role": "Research team member"
+      }
+    ],
+    "note": "Translation of interview with Sammy Sparkle of Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment",
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85008324",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Arts",
+        "authLabel": "Arts"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85001441",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Aesthetics",
+        "authLabel": "Aesthetics"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85088762",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Music",
+        "authLabel": "Music"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85118236",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Scholars",
+        "authLabel": "Scholars"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": "202103-LACC-AFENT-TINT003-POK",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Nigeria",
+          "l2": "Lagos State",
+          "l3": "Lagos"
+        }
+      ],
+      "current": [
+        "Institute of African and Diaspora Studies (IADS)"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Text",
+    "genre": {
+      "marc": [
+        "reporting"
+      ]
+    },
+    "language": [],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "created in word format",
+        "converted to pdf"
+      ],
+      "tech": [
+        "45kilobyte",
+        "11pages"
+      ],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Researchers",
+      "Musicians",
+      "Music Lovers"
+    ],
+    "tags": [
+      "African Studies",
+      "Popular Music Studies",
+      "African Music",
+      "Cultural Economy"
+    ],
+    "createdAt": {
+      "$date": "2024-08-23T11:48:06.189Z"
+    },
+    "updatedAt": {
+      "$date": "2024-08-23T11:48:06.189Z"
+    },
+    "updatedBy": "jy"
   },
-  "updatedAt": {
-    "$date": "2024-08-23T11:48:06.191Z"
+  {
+    "_id": {
+      "$oid": "66c85ad6f75816be2871ce65"
+    },
+    "dre_id": "aah-02-0006",
+    "bitstream": "202103-LAAC-AFENT-TINT004-POK.pdf",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "ULG_AfEnt2020",
+      "name": "Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
+      {
+        "title": "Transcription of the Recorded Oral Interview with Mrs. Nebolisa",
+        "title_type": "main"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2021-03-15T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Patrick, Oloko",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Kibora, Ludovic",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Institut des Sciences des Sociétés (INSS)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Ademola-Adeoye, Feyisayo",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Olokodana-James, Oluwatoyin",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of African Theatre and Dramatic Arts, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Oni, Peter",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Philopsophy, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Muo, Adaobi",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Literature and General Studies, National Institute of Nigerian Languages"
+        ],
+        "role": "Research team member"
+      }
+    ],
+    "note": "Transcription of the recorded oral interview with Mrs. Nebolisa of Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment",
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85008324",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Arts",
+        "authLabel": "Arts"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85001441",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Aesthetics",
+        "authLabel": "Aesthetics"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85088762",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Music",
+        "authLabel": "Music"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85118236",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Scholars",
+        "authLabel": "Scholars"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": "202103-LAAC-AFENT-TINT004-POK",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Nigeria",
+          "l2": "Lagos State",
+          "l3": "Lagos"
+        }
+      ],
+      "current": [
+        "Institute of African and Diaspora Studies (IADS)"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Text",
+    "genre": {
+      "marc": [
+        "reporting"
+      ]
+    },
+    "language": [],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "created in word format",
+        "converted to pdf"
+      ],
+      "tech": [
+        "49kilobyte",
+        "14 pages"
+      ],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Researchers",
+      "Musicians",
+      "Music Lovers"
+    ],
+    "tags": [
+      "African Studies",
+      "Popular Music Studies",
+      "African Music",
+      "Cultural Economy"
+    ],
+    "createdAt": {
+      "$date": "2024-08-23T11:48:06.190Z"
+    },
+    "updatedAt": {
+      "$date": "2024-08-23T11:48:06.190Z"
+    },
+    "updatedBy": "jy"
   },
-  "updatedBy": "jy"
-}]
+  {
+    "_id": {
+      "$oid": "66c85ad6f75816be2871ce66"
+    },
+    "dre_id": "aah-02-0007",
+    "bitstream": "202103-LACC-AFENT-ALTR-POK.pdf",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "ULG_AfEnt2020",
+      "name": "Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
+      {
+        "title": "Selected Albums and Tracks of Morocco Maduka",
+        "title_type": "main"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2021-03-15T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Patrick, Oloko",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Kibora, Ludovic",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Institut des Sciences des Sociétés (INSS)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Ademola-Adeoye, Feyisayo",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Olokodana-James, Oluwatoyin",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of African Theatre and Dramatic Arts, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Oni, Peter",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Philopsophy, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Muo, Adaobi",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Literature and General Studies, National Institute of Nigerian Languages"
+        ],
+        "role": "Research team member"
+      }
+    ],
+    "note": "Selected albums and tracks of Morocco Maduka of Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment",
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85008324",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Arts",
+        "authLabel": "Arts"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85001441",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Aesthetics",
+        "authLabel": "Aesthetics"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85088762",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Music",
+        "authLabel": "Music"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85118236",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Scholars",
+        "authLabel": "Scholars"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": "202103-LACC-AFENT-ALTR-POK",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Nigeria",
+          "l2": "Lagos State",
+          "l3": "Lagos"
+        }
+      ],
+      "current": [
+        "Institute of African and Diaspora Studies (IADS)"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Text",
+    "genre": {
+      "marc": [
+        "reporting"
+      ]
+    },
+    "language": [],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "created in word format",
+        "converted to pdf"
+      ],
+      "tech": [
+        "25kilobytes",
+        "3pages"
+      ],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Researchers",
+      "Musicians",
+      "Music Lovers"
+    ],
+    "tags": [
+      "African Studies",
+      "Popular Music Studies",
+      "African Music",
+      "Cultural Economy"
+    ],
+    "createdAt": {
+      "$date": "2024-08-23T11:48:06.191Z"
+    },
+    "updatedAt": {
+      "$date": "2024-08-23T11:48:06.191Z"
+    },
+    "updatedBy": "jy"
+  },
+  {
+    "_id": {
+      "$oid": "66c85ad6f75816be2871ce67"
+    },
+    "dre_id": "aah-02-0008",
+    "bitstream": "202103-LACC-AFENT-Img001-POK.jpg",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "ULG_AfEnt2020",
+      "name": "Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
+      {
+        "title": "Field Trip Picture",
+        "title_type": "main"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2021-03-03T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Patrick, Oloko",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Kibora, Ludovic",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Institut des Sciences des Sociétés (INSS)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Ademola-Adeoye, Feyisayo",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Olokodana-James, Oluwatoyin",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of African Theatre and Dramatic Arts, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Oni, Peter",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Philopsophy, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Muo, Adaobi",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Literature and General Studies, National Institute of Nigerian Languages"
+        ],
+        "role": "Research team member"
+      }
+    ],
+    "note": "Field trip picture of Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment",
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85008324",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Arts",
+        "authLabel": "Arts"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85001441",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Aesthetics",
+        "authLabel": "Aesthetics"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85088762",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Music",
+        "authLabel": "Music"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85118236",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Scholars",
+        "authLabel": "Scholars"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": "202103-LACC-AFENT-Img001-POK",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Nigeria",
+          "l2": "Lagos State",
+          "l3": "Lagos"
+        }
+      ],
+      "current": [
+        "Institute of African and Diaspora Studies (IADS)"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Image",
+    "genre": {
+      "marc": [
+        "picture"
+      ]
+    },
+    "language": [],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "created in jpg format"
+      ],
+      "tech": [
+        "2megabytes"
+      ],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Researchers",
+      "Musicians",
+      "Music Lovers"
+    ],
+    "tags": [
+      "African Studies",
+      "Popular Music Studies",
+      "African Music",
+      "Cultural Economy"
+    ],
+    "createdAt": {
+      "$date": "2024-08-23T11:48:06.191Z"
+    },
+    "updatedAt": {
+      "$date": "2024-08-23T11:48:06.191Z"
+    },
+    "updatedBy": "jy"
+  },
+  {
+    "_id": {
+      "$oid": "66c85ad6f75816be2871ce68"
+    },
+    "dre_id": "aah-02-0009",
+    "bitstream": "202103-LACC-AFENT-TRFSK001-POK.pdf",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "ULG_AfEnt2020",
+      "name": "Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
+      {
+        "title": "Translation of Skit",
+        "title_type": "main"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2021-03-15T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Patrick, Oloko",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Kibora, Ludovic",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Institut des Sciences des Sociétés (INSS)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Ademola-Adeoye, Feyisayo",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Olokodana-James, Oluwatoyin",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of African Theatre and Dramatic Arts, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Oni, Peter",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Philopsophy, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Muo, Adaobi",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Literature and General Studies, National Institute of Nigerian Languages"
+        ],
+        "role": "Research team member"
+      }
+    ],
+    "note": "Skit translation of Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment",
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85008324",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Arts",
+        "authLabel": "Arts"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85001441",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Aesthetics",
+        "authLabel": "Aesthetics"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85088762",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Music",
+        "authLabel": "Music"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85118236",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Scholars",
+        "authLabel": "Scholars"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": "202103-LACC-AFENT-TRFSK001-POK",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Nigeria",
+          "l2": "Lagos State",
+          "l3": "Lagos"
+        }
+      ],
+      "current": [
+        "Institute of African and Diaspora Studies (IADS)"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Text",
+    "genre": {
+      "marc": [
+        "reporting"
+      ]
+    },
+    "language": [],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "created in word format",
+        "converted to pdf"
+      ],
+      "tech": [
+        "37kilobytes",
+        "24pages"
+      ],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Researchers",
+      "Musicians",
+      "Music Lovers"
+    ],
+    "tags": [
+      "African Studies",
+      "Popular Music Studies",
+      "African Music",
+      "Cultural Economy"
+    ],
+    "createdAt": {
+      "$date": "2024-08-23T11:48:06.191Z"
+    },
+    "updatedAt": {
+      "$date": "2024-08-23T11:48:06.191Z"
+    },
+    "updatedBy": "jy"
+  }
+]

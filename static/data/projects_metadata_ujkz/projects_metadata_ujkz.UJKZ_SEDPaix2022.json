@@ -1,2100 +1,2102 @@
-[{
-  "_id": {
-    "$oid": "6734bd18b9dbcc3cc179feb4"
-  },
-  "dre_id": "acq-03-0000",
-  "bitstream": "091222_LivColloque_Paris1_SB_v1.pdf",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "UJKZ_SEDPaix2022",
-    "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Le terrorisme au Burkina Faso: négocier ou pas?",
-      "title_type": "main"
+[
+  {
+    "_id": {
+      "$oid": "6734bd18b9dbcc3cc179feb4"
     },
-    {
-      "title": "Terrorism in Burkina Faso: to negotiate or not?",
-      "title_type": "Translated"
+    "dre_id": "acq-03-0000",
+    "bitstream": "091222_LivColloque_Paris1_SB_v1.pdf",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "UJKZ_SEDPaix2022",
+      "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
     },
-    {
-      "title": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso",
-      "title_type": "Sub"
-    }
-  ],
-  "dateInfo": {
-    "issue": {
-      "start": {
-        "$numberDouble": "NaN"
+    "citation": [],
+    "url": [],
+    "titleInfo": [
+      {
+        "title": "Le terrorisme au Burkina Faso: négocier ou pas?",
+        "title_type": "main"
       },
-      "end": "2022-12-09T00:00:00"
+      {
+        "title": "Terrorism in Burkina Faso: to negotiate or not?",
+        "title_type": "Translated"
+      },
+      {
+        "title": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso",
+        "title_type": "Sub"
+      }
+    ],
+    "dateInfo": {
+      "issue": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2022-12-09T00:00:00"
+      },
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2022-12-09T00:00:00"
+      }
     },
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
+    "name": [
+      {
+        "name": {
+          "label": "Some, Désiré Boniface",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University Joseph Ki-Zerbo"
+        ],
+        "role": "Publishing director"
       },
-      "end": "2022-12-09T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Some, Désiré Boniface",
-        "qualifier": "person"
+      {
+        "name": {
+          "label": "Harmattan",
+          "qualifier": "institution"
+        },
+        "affl": [
+          "Harmattan Paris"
+        ],
+        "role": "Editor"
+      }
+    ],
+    "note": {
+      "$numberDouble": "NaN"
+    },
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh2002012010",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Sources",
+        "authLabel": "Sources"
       },
-      "affl": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85134112",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Terrorism",
+        "authLabel": "Terrorism"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85037531",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Dialogue",
+        "authLabel": "Dialogue"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85082846",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Mediation",
+        "authLabel": "Mediation"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85098940",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Peace",
+        "authLabel": "Peace"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": "978-2-14-031485-8",
+        "identifier_type": "ISBN (International standard book number) registrant element"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Burkina Faso",
+          "l2": "Centre",
+          "l3": "Ouagadougou"
+        }
+      ],
+      "current": [
         "University Joseph Ki-Zerbo"
-      ],
-      "role": "Publishing director"
+      ]
     },
-    {
-      "name": {
-        "label": "Harmattan",
-        "qualifier": "institution"
-      },
-      "affl": [
-        "Harmattan Paris"
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public ",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Text",
+    "genre": {
+      "marc": [
+        "book"
+      ]
+    },
+    "language": [
+      "fra"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "PDF"
       ],
-      "role": "Editor"
-    }
-  ],
-  "note": {
-    "$numberDouble": "NaN"
+      "tech": [
+        "2,00 Megabyte"
+      ],
+      "note": [
+        "370 pages"
+      ]
+    },
+    "abstract": "From December 13 to 15, 2021, an international symposium was held in Ouagadougou, Burkina Faso, on the theme: Terrorism in Burkina Faso: to negotiate or not to negotiate.",
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Researchers",
+      "Field Practitioners",
+      "Civil Society",
+      "NGOs",
+      "INGOs"
+    ],
+    "tags": [],
+    "updatedBy": "jy"
   },
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh2002012010",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Sources",
-      "authLabel": "Sources"
+  {
+    "_id": {
+      "$oid": "6734bd19b9dbcc3cc179feb5"
     },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85134112",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Terrorism",
-      "authLabel": "Terrorism"
+    "dre_id": "acq-03-0001",
+    "bitstream": "101221_LivColloque_Ouaga1_SB_v1.pdf",
+    "security": "DSL3",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "UJKZ_SEDPaix2022",
+      "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
     },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85037531",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Dialogue",
-      "authLabel": "Dialogue"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85082846",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Mediation",
-      "authLabel": "Mediation"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85098940",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Peace",
-      "authLabel": "Peace"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "978-2-14-031485-8",
-      "identifier_type": "ISBN (International standard book number) registrant element"
-    }
-  ],
-  "location": {
-    "origin": [
+    "citation": [],
+    "url": [],
+    "titleInfo": [
       {
-        "l1": "Burkina Faso",
-        "l2": "Centre",
-        "l3": "Ouagadougou"
+        "title": "Le terrorisme au Burkina Faso: négocier ou pas?",
+        "title_type": "main"
+      },
+      {
+        "title": "Terrorism in Burkina Faso: to negotiate or not?",
+        "title_type": "Translated"
+      },
+      {
+        "title": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso",
+        "title_type": "Sub"
       }
     ],
-    "current": [
-      "University Joseph Ki-Zerbo"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public ",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Text",
-  "genre": {
-    "marc": [
-      "book"
-    ]
-  },
-  "language": [
-    "fra"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "PDF"
+    "dateInfo": {
+      "issue": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2021-12-10T00:00:00"
+      },
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2021-12-10T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Some, Désiré Boniface",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University Joseph Ki-Zerbo"
+        ],
+        "role": "Publishing director"
+      }
     ],
-    "tech": [
-      "2,00 Megabyte"
+    "note": {
+      "$numberDouble": "NaN"
+    },
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh2002012010",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Sources",
+        "authLabel": "Sources"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85134112",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Terrorism",
+        "authLabel": "Terrorism"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85037531",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Dialogue",
+        "authLabel": "Dialogue"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85082846",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Mediation",
+        "authLabel": "Mediation"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85098940",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Peace",
+        "authLabel": "Peace"
+      }
     ],
-    "note": [
-      "370 pages"
-    ]
-  },
-  "abstract": "From December 13 to 15, 2021, an international symposium was held in Ouagadougou, Burkina Faso, on the theme: Terrorism in Burkina Faso: to negotiate or not to negotiate.",
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Researchers",
-    "Field Practitioners",
-    "Civil Society",
-    "NGOs",
-    "INGOs"
-  ],
-  "tags": [],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6734bd19b9dbcc3cc179feb5"
-  },
-  "dre_id": "acq-03-0001",
-  "bitstream": "101221_LivColloque_Ouaga1_SB_v1.pdf",
-  "security": "DSL3",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "UJKZ_SEDPaix2022",
-    "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Le terrorisme au Burkina Faso: négocier ou pas?",
-      "title_type": "main"
-    },
-    {
-      "title": "Terrorism in Burkina Faso: to negotiate or not?",
-      "title_type": "Translated"
-    },
-    {
-      "title": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso",
-      "title_type": "Sub"
-    }
-  ],
-  "dateInfo": {
-    "issue": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2021-12-10T00:00:00"
-    },
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2021-12-10T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Some, Désiré Boniface",
-        "qualifier": "person"
-      },
-      "affl": [
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": "LivColloque_Ouaga1_SB_v1",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Burkina Faso",
+          "l2": "Centre",
+          "l3": "Ouagadougou"
+        }
+      ],
+      "current": [
         "University Joseph Ki-Zerbo"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Group",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Text",
+    "genre": {
+      "marc": [
+        "book"
+      ]
+    },
+    "language": [
+      "fra"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "PDF"
       ],
-      "role": "Publishing director"
-    }
-  ],
-  "note": {
-    "$numberDouble": "NaN"
+      "tech": [
+        "2,45 Megabyte"
+      ],
+      "note": [
+        "80 pages"
+      ]
+    },
+    "abstract": "From December 13 to 15, 2021, an international symposium was held in Ouagadougou, Burkina Faso, on the theme: Terrorism in Burkina Faso: to negotiate or not to negotiate.",
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Researchers",
+      "Field Practitioners",
+      "Civil Society",
+      "NGOs",
+      "INGOs"
+    ],
+    "tags": [],
+    "updatedBy": "jy"
   },
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh2002012010",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Sources",
-      "authLabel": "Sources"
+  {
+    "_id": {
+      "$oid": "6734bd19b9dbcc3cc179feb6"
     },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85134112",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Terrorism",
-      "authLabel": "Terrorism"
+    "dre_id": "acq-03-0002",
+    "bitstream": "150122_RapGlobColloque_Ouaga1_MM_v1.pdf",
+    "security": "DSL3",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "UJKZ_SEDPaix2022",
+      "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
     },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85037531",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Dialogue",
-      "authLabel": "Dialogue"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85082846",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Mediation",
-      "authLabel": "Mediation"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85098940",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Peace",
-      "authLabel": "Peace"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "LivColloque_Ouaga1_SB_v1",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "citation": [],
+    "url": [],
+    "titleInfo": [
       {
-        "l1": "Burkina Faso",
-        "l2": "Centre",
-        "l3": "Ouagadougou"
+        "title": "Le terrorisme au Burkina Faso: négocier ou pas?",
+        "title_type": "main"
+      },
+      {
+        "title": "Terrorism in Burkina Faso: to negotiate or not?",
+        "title_type": "Translated"
+      },
+      {
+        "title": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso",
+        "title_type": "Sub"
       }
     ],
-    "current": [
-      "University Joseph Ki-Zerbo"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Group",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Text",
-  "genre": {
-    "marc": [
-      "book"
-    ]
-  },
-  "language": [
-    "fra"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "PDF"
-    ],
-    "tech": [
-      "2,45 Megabyte"
-    ],
-    "note": [
-      "80 pages"
-    ]
-  },
-  "abstract": "From December 13 to 15, 2021, an international symposium was held in Ouagadougou, Burkina Faso, on the theme: Terrorism in Burkina Faso: to negotiate or not to negotiate.",
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Researchers",
-    "Field Practitioners",
-    "Civil Society",
-    "NGOs",
-    "INGOs"
-  ],
-  "tags": [],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6734bd19b9dbcc3cc179feb6"
-  },
-  "dre_id": "acq-03-0002",
-  "bitstream": "150122_RapGlobColloque_Ouaga1_MM_v1.pdf",
-  "security": "DSL3",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "UJKZ_SEDPaix2022",
-    "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Le terrorisme au Burkina Faso: négocier ou pas?",
-      "title_type": "main"
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2022-01-15T00:00:00"
+      }
     },
-    {
-      "title": "Terrorism in Burkina Faso: to negotiate or not?",
-      "title_type": "Translated"
+    "name": [
+      {
+        "name": {
+          "label": "Some, Désiré Boniface",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University Joseph Ki-Zerbo"
+        ],
+        "role": "Author"
+      }
+    ],
+    "note": {
+      "$numberDouble": "NaN"
     },
-    {
-      "title": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso",
-      "title_type": "Sub"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh2002012010",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Sources",
+        "authLabel": "Sources"
       },
-      "end": "2022-01-15T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Some, Désiré Boniface",
-        "qualifier": "person"
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85134112",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Terrorism",
+        "authLabel": "Terrorism"
       },
-      "affl": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85037531",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Dialogue",
+        "authLabel": "Dialogue"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85082846",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Mediation",
+        "authLabel": "Mediation"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85098940",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Peace",
+        "authLabel": "Peace"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": "RapGlobColloque_Ouaga1_MM_v1",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Burkina Faso",
+          "l2": "Centre",
+          "l3": "Ouagadougou"
+        }
+      ],
+      "current": [
         "University Joseph Ki-Zerbo"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Group",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Text",
+    "genre": {
+      "marc": [
+        "reporting"
+      ]
+    },
+    "language": [
+      "fra"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "PDF"
       ],
-      "role": "Author"
-    }
-  ],
-  "note": {
-    "$numberDouble": "NaN"
+      "tech": [
+        "656 Megabyte"
+      ],
+      "note": [
+        "9 pages"
+      ]
+    },
+    "abstract": "From December 13 to 15, 2021, an international symposium was held in Ouagadougou, Burkina Faso, on the theme: Terrorism in Burkina Faso: to negotiate or not to negotiate.",
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Researchers",
+      "Field Practitioners",
+      "Civil Society",
+      "NGOs",
+      "INGOs"
+    ],
+    "tags": [],
+    "updatedBy": "jy"
   },
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh2002012010",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Sources",
-      "authLabel": "Sources"
+  {
+    "_id": {
+      "$oid": "6734bd19b9dbcc3cc179feb7"
     },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85134112",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Terrorism",
-      "authLabel": "Terrorism"
+    "dre_id": "acq-03-0003",
+    "bitstream": "150122_RapSynthColloque_Ouaga2_SB_v1.pdf",
+    "security": "DSL3",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "UJKZ_SEDPaix2022",
+      "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
     },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85037531",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Dialogue",
-      "authLabel": "Dialogue"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85082846",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Mediation",
-      "authLabel": "Mediation"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85098940",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Peace",
-      "authLabel": "Peace"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "RapGlobColloque_Ouaga1_MM_v1",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "citation": [],
+    "url": [],
+    "titleInfo": [
       {
-        "l1": "Burkina Faso",
-        "l2": "Centre",
-        "l3": "Ouagadougou"
+        "title": "Le terrorisme au Burkina Faso: négocier ou pas?",
+        "title_type": "main"
+      },
+      {
+        "title": "Terrorism in Burkina Faso: to negotiate or not?",
+        "title_type": "Translated"
+      },
+      {
+        "title": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso",
+        "title_type": "Sub"
       }
     ],
-    "current": [
-      "University Joseph Ki-Zerbo"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Group",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Text",
-  "genre": {
-    "marc": [
-      "reporting"
-    ]
-  },
-  "language": [
-    "fra"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "PDF"
-    ],
-    "tech": [
-      "656 Megabyte"
-    ],
-    "note": [
-      "9 pages"
-    ]
-  },
-  "abstract": "From December 13 to 15, 2021, an international symposium was held in Ouagadougou, Burkina Faso, on the theme: Terrorism in Burkina Faso: to negotiate or not to negotiate.",
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Researchers",
-    "Field Practitioners",
-    "Civil Society",
-    "NGOs",
-    "INGOs"
-  ],
-  "tags": [],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6734bd19b9dbcc3cc179feb7"
-  },
-  "dre_id": "acq-03-0003",
-  "bitstream": "150122_RapSynthColloque_Ouaga2_SB_v1.pdf",
-  "security": "DSL3",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "UJKZ_SEDPaix2022",
-    "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Le terrorisme au Burkina Faso: négocier ou pas?",
-      "title_type": "main"
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2022-01-15T00:00:00"
+      }
     },
-    {
-      "title": "Terrorism in Burkina Faso: to negotiate or not?",
-      "title_type": "Translated"
+    "name": [
+      {
+        "name": {
+          "label": "Some, Désiré Boniface",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University Joseph Ki-Zerbo"
+        ],
+        "role": "Author"
+      }
+    ],
+    "note": {
+      "$numberDouble": "NaN"
     },
-    {
-      "title": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso",
-      "title_type": "Sub"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh2002012010",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Sources",
+        "authLabel": "Sources"
       },
-      "end": "2022-01-15T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Some, Désiré Boniface",
-        "qualifier": "person"
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85134112",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Terrorism",
+        "authLabel": "Terrorism"
       },
-      "affl": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85037531",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Dialogue",
+        "authLabel": "Dialogue"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85082846",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Mediation",
+        "authLabel": "Mediation"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85098940",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Peace",
+        "authLabel": "Peace"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": "RapSynthColloque_Ouaga2_SB_v1",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Burkina Faso",
+          "l2": "Centre",
+          "l3": "Ouagadougou"
+        }
+      ],
+      "current": [
         "University Joseph Ki-Zerbo"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Group",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Text",
+    "genre": {
+      "marc": [
+        "reporting"
+      ]
+    },
+    "language": [
+      "fra"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "PDF"
       ],
-      "role": "Author"
-    }
-  ],
-  "note": {
-    "$numberDouble": "NaN"
+      "tech": [
+        "1,18 Megabyte"
+      ],
+      "note": [
+        "14 pages"
+      ]
+    },
+    "abstract": "From December 13 to 15, 2021, an international symposium was held in Ouagadougou, Burkina Faso, on the theme: Terrorism in Burkina Faso: to negotiate or not to negotiate.",
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Researchers",
+      "Field Practitioners",
+      "Civil Society",
+      "NGOs",
+      "INGOs"
+    ],
+    "tags": [],
+    "updatedBy": "jy"
   },
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh2002012010",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Sources",
-      "authLabel": "Sources"
+  {
+    "_id": {
+      "$oid": "6734bd19b9dbcc3cc179feb8"
     },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85134112",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Terrorism",
-      "authLabel": "Terrorism"
+    "dre_id": "acq-03-0004",
+    "bitstream": "301022_RapEval_Ouaga1_SB_v1.pdf",
+    "security": "DSL3",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "UJKZ_SEDPaix2022",
+      "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
     },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85037531",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Dialogue",
-      "authLabel": "Dialogue"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85082846",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Mediation",
-      "authLabel": "Mediation"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85098940",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Peace",
-      "authLabel": "Peace"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "RapSynthColloque_Ouaga2_SB_v1",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "citation": [],
+    "url": [],
+    "titleInfo": [
       {
-        "l1": "Burkina Faso",
-        "l2": "Centre",
-        "l3": "Ouagadougou"
+        "title": "Programme 2022 du projet de recherche: 'Etude Socio Anthropologique sur les sources endogènes de dialogue et de paix contre le terrorisme au Burkina Faso",
+        "title_type": "main"
+      },
+      {
+        "title": "2022 Program of the Research Project: Socio-Anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso",
+        "title_type": "Translated"
+      },
+      {
+        "title": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso",
+        "title_type": "Sub"
       }
     ],
-    "current": [
-      "University Joseph Ki-Zerbo"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Group",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Text",
-  "genre": {
-    "marc": [
-      "reporting"
-    ]
-  },
-  "language": [
-    "fra"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "PDF"
-    ],
-    "tech": [
-      "1,18 Megabyte"
-    ],
-    "note": [
-      "14 pages"
-    ]
-  },
-  "abstract": "From December 13 to 15, 2021, an international symposium was held in Ouagadougou, Burkina Faso, on the theme: Terrorism in Burkina Faso: to negotiate or not to negotiate.",
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Researchers",
-    "Field Practitioners",
-    "Civil Society",
-    "NGOs",
-    "INGOs"
-  ],
-  "tags": [],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6734bd19b9dbcc3cc179feb8"
-  },
-  "dre_id": "acq-03-0004",
-  "bitstream": "301022_RapEval_Ouaga1_SB_v1.pdf",
-  "security": "DSL3",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "UJKZ_SEDPaix2022",
-    "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Programme 2022 du projet de recherche: 'Etude Socio Anthropologique sur les sources endogènes de dialogue et de paix contre le terrorisme au Burkina Faso",
-      "title_type": "main"
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2022-10-30T00:00:00"
+      }
     },
-    {
-      "title": "2022 Program of the Research Project: Socio-Anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso",
-      "title_type": "Translated"
+    "name": [
+      {
+        "name": {
+          "label": "Some, Désiré Boniface",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University Joseph Ki-Zerbo"
+        ],
+        "role": "Author"
+      }
+    ],
+    "note": {
+      "$numberDouble": "NaN"
     },
-    {
-      "title": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso",
-      "title_type": "Sub"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh2002012010",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Sources",
+        "authLabel": "Sources"
       },
-      "end": "2022-10-30T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Some, Désiré Boniface",
-        "qualifier": "person"
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85134112",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Terrorism",
+        "authLabel": "Terrorism"
       },
-      "affl": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85037531",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Dialogue",
+        "authLabel": "Dialogue"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85082846",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Mediation",
+        "authLabel": "Mediation"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85098940",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Peace",
+        "authLabel": "Peace"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": "RapEval_Ouaga1_SB_v1",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Burkina Faso",
+          "l2": "Centre",
+          "l3": "Ouagadougou"
+        }
+      ],
+      "current": [
         "University Joseph Ki-Zerbo"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Group",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Text",
+    "genre": {
+      "marc": [
+        "reporting"
+      ]
+    },
+    "language": [
+      "fra"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "PDF"
       ],
-      "role": "Author"
-    }
-  ],
-  "note": {
-    "$numberDouble": "NaN"
+      "tech": [
+        "2,32 Megabyte"
+      ],
+      "note": [
+        "98 pages"
+      ]
+    },
+    "abstract": "From December 13 to 15, 2021, an international symposium was held in Ouagadougou, Burkina Faso, on the theme: Terrorism in Burkina Faso: to negotiate or not to negotiate.",
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Researchers",
+      "Field Practitioners",
+      "Civil Society",
+      "NGOs",
+      "INGOs"
+    ],
+    "tags": [],
+    "updatedBy": "jy"
   },
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh2002012010",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Sources",
-      "authLabel": "Sources"
+  {
+    "_id": {
+      "$oid": "6734bd19b9dbcc3cc179feb9"
     },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85134112",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Terrorism",
-      "authLabel": "Terrorism"
+    "dre_id": "acq-03-0005",
+    "bitstream": "301022_RapEval_Ouaga2_OM_v1.pdf",
+    "security": "DSL3",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "UJKZ_SEDPaix2022",
+      "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
     },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85037531",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Dialogue",
-      "authLabel": "Dialogue"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85082846",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Mediation",
-      "authLabel": "Mediation"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85098940",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Peace",
-      "authLabel": "Peace"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "RapEval_Ouaga1_SB_v1",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "citation": [],
+    "url": [],
+    "titleInfo": [
       {
-        "l1": "Burkina Faso",
-        "l2": "Centre",
-        "l3": "Ouagadougou"
+        "title": "Analyse des impacts du terrorisme sur le personnel humanitaire au Burkina Faso",
+        "title_type": "main"
+      },
+      {
+        "title": "Analysis of the impacts of terrorism on humanitarian personnel in Burkina Faso",
+        "title_type": "Translated"
+      },
+      {
+        "title": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso",
+        "title_type": "Sub"
       }
     ],
-    "current": [
-      "University Joseph Ki-Zerbo"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Group",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Text",
-  "genre": {
-    "marc": [
-      "reporting"
-    ]
-  },
-  "language": [
-    "fra"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "PDF"
-    ],
-    "tech": [
-      "2,32 Megabyte"
-    ],
-    "note": [
-      "98 pages"
-    ]
-  },
-  "abstract": "From December 13 to 15, 2021, an international symposium was held in Ouagadougou, Burkina Faso, on the theme: Terrorism in Burkina Faso: to negotiate or not to negotiate.",
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Researchers",
-    "Field Practitioners",
-    "Civil Society",
-    "NGOs",
-    "INGOs"
-  ],
-  "tags": [],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6734bd19b9dbcc3cc179feb9"
-  },
-  "dre_id": "acq-03-0005",
-  "bitstream": "301022_RapEval_Ouaga2_OM_v1.pdf",
-  "security": "DSL3",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "UJKZ_SEDPaix2022",
-    "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Analyse des impacts du terrorisme sur le personnel humanitaire au Burkina Faso",
-      "title_type": "main"
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2022-10-30T00:00:00"
+      }
     },
-    {
-      "title": "Analysis of the impacts of terrorism on humanitarian personnel in Burkina Faso",
-      "title_type": "Translated"
-    },
-    {
-      "title": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso",
-      "title_type": "Sub"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2022-10-30T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Ouedraogo, Michel Boinhidwendé",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Lisala University"
-      ],
-      "role": "Reporter"
-    }
-  ],
-  "note": {
-    "$numberDouble": "NaN"
-  },
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh2002012010",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Sources",
-      "authLabel": "Sources"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85134112",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Terrorism",
-      "authLabel": "Terrorism"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85037531",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Dialogue",
-      "authLabel": "Dialogue"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85082846",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Mediation",
-      "authLabel": "Mediation"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85098940",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Peace",
-      "authLabel": "Peace"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "RapEval_Ouaga2_OM_v1",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "name": [
       {
-        "l1": "Burkina Faso",
-        "l2": "Centre",
-        "l3": "Ouagadougou"
+        "name": {
+          "label": "Ouedraogo, Michel Boinhidwendé",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Lisala University"
+        ],
+        "role": "Reporter"
       }
     ],
-    "current": [
-      "University Joseph Ki-Zerbo"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Group",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Text",
-  "genre": {
-    "marc": [
-      "reporting"
-    ]
-  },
-  "language": [
-    "fra"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "PDF"
-    ],
-    "tech": [
-      "536 Kilobyte"
-    ],
-    "note": [
-      "56 pages"
-    ]
-  },
-  "abstract": "From December 13 to 15, 2021, an international symposium was held in Ouagadougou, Burkina Faso, on the theme: Terrorism in Burkina Faso: to negotiate or not to negotiate.",
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Researchers",
-    "Field Practitioners",
-    "Civil Society",
-    "NGOs",
-    "INGOs"
-  ],
-  "tags": [],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6734bd19b9dbcc3cc179feba"
-  },
-  "dre_id": "acq-03-0006",
-  "bitstream": "301022_RapEval_Ouaga3_TP_v1.pdf",
-  "security": "DSL3",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "UJKZ_SEDPaix2022",
-    "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Financement des groupes armés anti-étatiques: rumeurs, vérités et incertitudes",
-      "title_type": "main"
+    "note": {
+      "$numberDouble": "NaN"
     },
-    {
-      "title": "Financing of anti-state armed groups: rumors, truths and uncertainties",
-      "title_type": "Translated"
-    },
-    {
-      "title": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso",
-      "title_type": "Sub"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh2002012010",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Sources",
+        "authLabel": "Sources"
       },
-      "end": "2022-10-30T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Tougba, Paala",
-        "qualifier": "person"
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85134112",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Terrorism",
+        "authLabel": "Terrorism"
       },
-      "affl": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85037531",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Dialogue",
+        "authLabel": "Dialogue"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85082846",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Mediation",
+        "authLabel": "Mediation"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85098940",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Peace",
+        "authLabel": "Peace"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": "RapEval_Ouaga2_OM_v1",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Burkina Faso",
+          "l2": "Centre",
+          "l3": "Ouagadougou"
+        }
+      ],
+      "current": [
         "University Joseph Ki-Zerbo"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Group",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Text",
+    "genre": {
+      "marc": [
+        "reporting"
+      ]
+    },
+    "language": [
+      "fra"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "PDF"
       ],
-      "role": "Reporter"
-    }
-  ],
-  "note": {
-    "$numberDouble": "NaN"
+      "tech": [
+        "536 Kilobyte"
+      ],
+      "note": [
+        "56 pages"
+      ]
+    },
+    "abstract": "From December 13 to 15, 2021, an international symposium was held in Ouagadougou, Burkina Faso, on the theme: Terrorism in Burkina Faso: to negotiate or not to negotiate.",
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Researchers",
+      "Field Practitioners",
+      "Civil Society",
+      "NGOs",
+      "INGOs"
+    ],
+    "tags": [],
+    "updatedBy": "jy"
   },
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85115838",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Rumor",
-      "authLabel": "Rumor"
+  {
+    "_id": {
+      "$oid": "6734bd19b9dbcc3cc179feba"
     },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85138279",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Truth",
-      "authLabel": "Truth"
+    "dre_id": "acq-03-0006",
+    "bitstream": "301022_RapEval_Ouaga3_TP_v1.pdf",
+    "security": "DSL3",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "UJKZ_SEDPaix2022",
+      "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
     },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85139563",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Uncertainty",
-      "authLabel": "Uncertainty"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85048256",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Finance",
-      "authLabel": "Finance"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "RapEval_Ouaga3_TP_v1",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "citation": [],
+    "url": [],
+    "titleInfo": [
       {
-        "l1": "Burkina Faso",
-        "l2": "Centre",
-        "l3": "Ouagadougou"
+        "title": "Financement des groupes armés anti-étatiques: rumeurs, vérités et incertitudes",
+        "title_type": "main"
+      },
+      {
+        "title": "Financing of anti-state armed groups: rumors, truths and uncertainties",
+        "title_type": "Translated"
+      },
+      {
+        "title": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso",
+        "title_type": "Sub"
       }
     ],
-    "current": [
-      "University Joseph Ki-Zerbo"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Group",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Text",
-  "genre": {
-    "marc": [
-      "reporting"
-    ]
-  },
-  "language": [
-    "fra"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "PDF"
-    ],
-    "tech": [
-      "680 kilobyte"
-    ],
-    "note": [
-      "30 pages"
-    ]
-  },
-  "abstract": "From December 13 to 15, 2021, an international symposium was held in Ouagadougou, Burkina Faso, on the theme: Terrorism in Burkina Faso: to negotiate or not to negotiate.",
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Researchers",
-    "Field Practitioners",
-    "Civil Society",
-    "NGOs",
-    "INGOs"
-  ],
-  "tags": [
-    "Financing",
-    "Anti-state Armed Group"
-  ],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6734bd19b9dbcc3cc179febb"
-  },
-  "dre_id": "acq-03-0007",
-  "bitstream": "301022_RapEval_Ouaga4_CM_v1.pdf",
-  "security": "DSL3",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "UJKZ_SEDPaix2022",
-    "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Contribution à l’analyse de la Gestion de l’Urgence sanitaire des personnes déplacées internes de Kaya",
-      "title_type": "main"
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2022-10-30T00:00:00"
+      }
     },
-    {
-      "title": "Contribution to the analysis of the management of the health emergency of internally displaced persons in Kaya",
-      "title_type": "Translated"
-    },
-    {
-      "title": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso",
-      "title_type": "Sub"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2022-10-30T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Coulibaly, Mackani Djouma",
-        "qualifier": "person"
-      },
-      "affl": [],
-      "role": "Reporter"
-    }
-  ],
-  "note": {
-    "$numberDouble": "NaN"
-  },
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85059518",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Health",
-      "authLabel": "Health"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85112299",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Refugees",
-      "authLabel": "Refugees"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh2005008481",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Internally displaced persons",
-      "authLabel": "Internally displaced persons"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "RapEval_Ouaga4_CM_v1",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "name": [
       {
-        "l1": "Burkina Faso",
-        "l2": "Centre",
-        "l3": "Ouagadougou"
+        "name": {
+          "label": "Tougba, Paala",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University Joseph Ki-Zerbo"
+        ],
+        "role": "Reporter"
       }
     ],
-    "current": [
-      "University Joseph Ki-Zerbo"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Group",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Text",
-  "genre": {
-    "marc": [
-      "reporting"
-    ]
-  },
-  "language": [
-    "fra"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "PDF"
-    ],
-    "tech": [
-      "6,51 Megabyte"
-    ],
-    "note": [
-      "62 pages"
-    ]
-  },
-  "abstract": "From December 13 to 15, 2021, an international symposium was held in Ouagadougou, Burkina Faso, on the theme: Terrorism in Burkina Faso: to negotiate or not to negotiate.",
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Researchers",
-    "Field Practitioners",
-    "Civil Society",
-    "NGOs",
-    "INGOs"
-  ],
-  "tags": [
-    "Emergency Health Management",
-    "Internally Displaced Perple"
-  ],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6734bd19b9dbcc3cc179febc"
-  },
-  "dre_id": "acq-03-0008",
-  "bitstream": "280920_RapSem_Kdg1_MM_v1.pdf",
-  "security": "DSL3",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "UJKZ_SEDPaix2022",
-    "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Séminaire pour la paix : 26, 27, 28 Septembre 2020 / Koudougou",
-      "title_type": "main"
+    "note": {
+      "$numberDouble": "NaN"
     },
-    {
-      "title": "Seminar for peace: September 26, 27, 28, 2020 / Koudougou",
-      "title_type": "Translated"
-    },
-    {
-      "title": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso",
-      "title_type": "Sub"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85115838",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Rumor",
+        "authLabel": "Rumor"
       },
-      "end": "2020-09-28T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Meda, Marc",
-        "qualifier": "person"
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85138279",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Truth",
+        "authLabel": "Truth"
       },
-      "affl": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85139563",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Uncertainty",
+        "authLabel": "Uncertainty"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85048256",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Finance",
+        "authLabel": "Finance"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": "RapEval_Ouaga3_TP_v1",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Burkina Faso",
+          "l2": "Centre",
+          "l3": "Ouagadougou"
+        }
+      ],
+      "current": [
         "University Joseph Ki-Zerbo"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Group",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Text",
+    "genre": {
+      "marc": [
+        "reporting"
+      ]
+    },
+    "language": [
+      "fra"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "PDF"
       ],
-      "role": "Reporter"
-    }
-  ],
-  "note": {
-    "$numberDouble": "NaN"
+      "tech": [
+        "680 kilobyte"
+      ],
+      "note": [
+        "30 pages"
+      ]
+    },
+    "abstract": "From December 13 to 15, 2021, an international symposium was held in Ouagadougou, Burkina Faso, on the theme: Terrorism in Burkina Faso: to negotiate or not to negotiate.",
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Researchers",
+      "Field Practitioners",
+      "Civil Society",
+      "NGOs",
+      "INGOs"
+    ],
+    "tags": [
+      "Financing",
+      "Anti-state Armed Group"
+    ],
+    "updatedBy": "jy"
   },
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh2002012010",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Sources",
-      "authLabel": "Sources"
+  {
+    "_id": {
+      "$oid": "6734bd19b9dbcc3cc179febb"
     },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85134112",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Terrorism",
-      "authLabel": "Terrorism"
+    "dre_id": "acq-03-0007",
+    "bitstream": "301022_RapEval_Ouaga4_CM_v1.pdf",
+    "security": "DSL3",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "UJKZ_SEDPaix2022",
+      "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
     },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85037531",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Dialogue",
-      "authLabel": "Dialogue"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85082846",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Mediation",
-      "authLabel": "Mediation"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85098940",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Peace",
-      "authLabel": "Peace"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "RapSemKdg1",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "citation": [],
+    "url": [],
+    "titleInfo": [
       {
-        "l1": "Burkina Faso",
-        "l2": "Centre",
-        "l3": "Ouagadougou"
+        "title": "Contribution à l’analyse de la Gestion de l’Urgence sanitaire des personnes déplacées internes de Kaya",
+        "title_type": "main"
+      },
+      {
+        "title": "Contribution to the analysis of the management of the health emergency of internally displaced persons in Kaya",
+        "title_type": "Translated"
+      },
+      {
+        "title": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso",
+        "title_type": "Sub"
       }
     ],
-    "current": [
-      "University Joseph Ki-Zerbo"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Group",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Text",
-  "genre": {
-    "marc": [
-      "reporting"
-    ]
-  },
-  "language": [
-    "fra"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "PDF"
-    ],
-    "tech": [
-      "870 Kilobyte"
-    ],
-    "note": [
-      "10 pages"
-    ]
-  },
-  "abstract": "From December 13 to 15, 2021, an international symposium was held in Ouagadougou, Burkina Faso, on the theme: Terrorism in Burkina Faso: to negotiate or not to negotiate.",
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Researchers",
-    "Field Practitioners",
-    "Civil Society",
-    "NGOs",
-    "INGOs"
-  ],
-  "tags": [],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6734bd19b9dbcc3cc179febd"
-  },
-  "dre_id": "acq-03-0009",
-  "bitstream": "180322_RapSem_Kdg2_MM_v1.pdf",
-  "security": "DSL3",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "UJKZ_SEDPaix2022",
-    "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Rapport du 2e séminaire méthodologique sur le projet de recherche",
-      "title_type": "main"
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2022-10-30T00:00:00"
+      }
     },
-    {
-      "title": "Report of the 2nd methodological seminar on the research project",
-      "title_type": "Translated"
+    "name": [
+      {
+        "name": {
+          "label": "Coulibaly, Mackani Djouma",
+          "qualifier": "person"
+        },
+        "affl": [],
+        "role": "Reporter"
+      }
+    ],
+    "note": {
+      "$numberDouble": "NaN"
     },
-    {
-      "title": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso",
-      "title_type": "Sub"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85059518",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Health",
+        "authLabel": "Health"
       },
-      "end": "2022-03-18T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Meda, Marc",
-        "qualifier": "person"
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85112299",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Refugees",
+        "authLabel": "Refugees"
       },
-      "affl": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh2005008481",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Internally displaced persons",
+        "authLabel": "Internally displaced persons"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": "RapEval_Ouaga4_CM_v1",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Burkina Faso",
+          "l2": "Centre",
+          "l3": "Ouagadougou"
+        }
+      ],
+      "current": [
         "University Joseph Ki-Zerbo"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Group",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Text",
+    "genre": {
+      "marc": [
+        "reporting"
+      ]
+    },
+    "language": [
+      "fra"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "PDF"
       ],
-      "role": "Reporter"
-    }
-  ],
-  "note": {
-    "$numberDouble": "NaN"
+      "tech": [
+        "6,51 Megabyte"
+      ],
+      "note": [
+        "62 pages"
+      ]
+    },
+    "abstract": "From December 13 to 15, 2021, an international symposium was held in Ouagadougou, Burkina Faso, on the theme: Terrorism in Burkina Faso: to negotiate or not to negotiate.",
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Researchers",
+      "Field Practitioners",
+      "Civil Society",
+      "NGOs",
+      "INGOs"
+    ],
+    "tags": [
+      "Emergency Health Management",
+      "Internally Displaced Perple"
+    ],
+    "updatedBy": "jy"
   },
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh2002012010",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Sources",
-      "authLabel": "Sources"
+  {
+    "_id": {
+      "$oid": "6734bd19b9dbcc3cc179febc"
     },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85134112",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Terrorism",
-      "authLabel": "Terrorism"
+    "dre_id": "acq-03-0008",
+    "bitstream": "280920_RapSem_Kdg1_MM_v1.pdf",
+    "security": "DSL3",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "UJKZ_SEDPaix2022",
+      "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
     },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85037531",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Dialogue",
-      "authLabel": "Dialogue"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85082846",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Mediation",
-      "authLabel": "Mediation"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85098940",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Peace",
-      "authLabel": "Peace"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "RapSemKdg2",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "citation": [],
+    "url": [],
+    "titleInfo": [
       {
-        "l1": "Burkina Faso",
-        "l2": "Centre",
-        "l3": "Ouagadougou"
+        "title": "Séminaire pour la paix : 26, 27, 28 Septembre 2020 / Koudougou",
+        "title_type": "main"
+      },
+      {
+        "title": "Seminar for peace: September 26, 27, 28, 2020 / Koudougou",
+        "title_type": "Translated"
+      },
+      {
+        "title": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso",
+        "title_type": "Sub"
       }
     ],
-    "current": [
-      "University Joseph Ki-Zerbo"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Group",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Text",
-  "genre": {
-    "marc": [
-      "reporting"
-    ]
-  },
-  "language": [
-    "fra"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "PDF"
-    ],
-    "tech": [
-      "574 Kilobyte"
-    ],
-    "note": [
-      "6 pages"
-    ]
-  },
-  "abstract": "From December 13 to 15, 2021, an international symposium was held in Ouagadougou, Burkina Faso, on the theme: Terrorism in Burkina Faso: to negotiate or not to negotiate.",
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Researchers",
-    "Field Practitioners",
-    "Civil Society",
-    "NGOs",
-    "INGOs"
-  ],
-  "tags": [],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6734bd19b9dbcc3cc179febe"
-  },
-  "dre_id": "acq-03-000a",
-  "bitstream": "300922_RapSem_Tkg1_MM_v1.pdf",
-  "security": "DSL3",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "UJKZ_SEDPaix2022",
-    "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Rapport du 3e séminaire méthodologique sur le projet de recherche",
-      "title_type": "main"
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2020-09-28T00:00:00"
+      }
     },
-    {
-      "title": "Report of the 3rd methodological seminar on the research project",
-      "title_type": "Translated"
+    "name": [
+      {
+        "name": {
+          "label": "Meda, Marc",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University Joseph Ki-Zerbo"
+        ],
+        "role": "Reporter"
+      }
+    ],
+    "note": {
+      "$numberDouble": "NaN"
     },
-    {
-      "title": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso",
-      "title_type": "Sub"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh2002012010",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Sources",
+        "authLabel": "Sources"
       },
-      "end": "2022-09-30T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Meda, Marc",
-        "qualifier": "person"
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85134112",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Terrorism",
+        "authLabel": "Terrorism"
       },
-      "affl": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85037531",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Dialogue",
+        "authLabel": "Dialogue"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85082846",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Mediation",
+        "authLabel": "Mediation"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85098940",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Peace",
+        "authLabel": "Peace"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": "RapSemKdg1",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Burkina Faso",
+          "l2": "Centre",
+          "l3": "Ouagadougou"
+        }
+      ],
+      "current": [
         "University Joseph Ki-Zerbo"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Group",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Text",
+    "genre": {
+      "marc": [
+        "reporting"
+      ]
+    },
+    "language": [
+      "fra"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "PDF"
       ],
-      "role": "Reporter"
-    }
-  ],
-  "note": {
-    "$numberDouble": "NaN"
+      "tech": [
+        "870 Kilobyte"
+      ],
+      "note": [
+        "10 pages"
+      ]
+    },
+    "abstract": "From December 13 to 15, 2021, an international symposium was held in Ouagadougou, Burkina Faso, on the theme: Terrorism in Burkina Faso: to negotiate or not to negotiate.",
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Researchers",
+      "Field Practitioners",
+      "Civil Society",
+      "NGOs",
+      "INGOs"
+    ],
+    "tags": [],
+    "updatedBy": "jy"
   },
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh2002012010",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Sources",
-      "authLabel": "Sources"
+  {
+    "_id": {
+      "$oid": "6734bd19b9dbcc3cc179febd"
     },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85134112",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Terrorism",
-      "authLabel": "Terrorism"
+    "dre_id": "acq-03-0009",
+    "bitstream": "180322_RapSem_Kdg2_MM_v1.pdf",
+    "security": "DSL3",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "UJKZ_SEDPaix2022",
+      "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
     },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85037531",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Dialogue",
-      "authLabel": "Dialogue"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85082846",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Mediation",
-      "authLabel": "Mediation"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85098940",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Peace",
-      "authLabel": "Peace"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "RapSemTkg1",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "citation": [],
+    "url": [],
+    "titleInfo": [
       {
-        "l1": "Burkina Faso",
-        "l2": "Centre",
-        "l3": "Ouagadougou"
+        "title": "Rapport du 2e séminaire méthodologique sur le projet de recherche",
+        "title_type": "main"
+      },
+      {
+        "title": "Report of the 2nd methodological seminar on the research project",
+        "title_type": "Translated"
+      },
+      {
+        "title": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso",
+        "title_type": "Sub"
       }
     ],
-    "current": [
-      "University Joseph Ki-Zerbo"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Group",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Text",
-  "genre": {
-    "marc": [
-      "reporting"
-    ]
-  },
-  "language": [
-    "fra"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "PDF"
-    ],
-    "tech": [
-      "625 Kilobyte"
-    ],
-    "note": [
-      "11 pages"
-    ]
-  },
-  "abstract": "From December 13 to 15, 2021, an international symposium was held in Ouagadougou, Burkina Faso, on the theme: Terrorism in Burkina Faso: to negotiate or not to negotiate.",
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Researchers",
-    "Field Practitioners",
-    "Civil Society",
-    "NGOs",
-    "INGOs"
-  ],
-  "tags": [],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6734bd19b9dbcc3cc179febf"
-  },
-  "dre_id": "acq-03-000b",
-  "bitstream": "180322_RapSem_Kdg3_TP_v1.pdf",
-  "security": "DSL3",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "UJKZ_SEDPaix2022",
-    "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Rapport de restitution sur le projet de recherche",
-      "title_type": "main"
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2022-03-18T00:00:00"
+      }
     },
-    {
-      "title": "Restitution report on the research project",
-      "title_type": "Translated"
+    "name": [
+      {
+        "name": {
+          "label": "Meda, Marc",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University Joseph Ki-Zerbo"
+        ],
+        "role": "Reporter"
+      }
+    ],
+    "note": {
+      "$numberDouble": "NaN"
     },
-    {
-      "title": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso",
-      "title_type": "Sub"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh2002012010",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Sources",
+        "authLabel": "Sources"
       },
-      "end": "2022-03-18T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Toubga, Paala",
-        "qualifier": "person"
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85134112",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Terrorism",
+        "authLabel": "Terrorism"
       },
-      "affl": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85037531",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Dialogue",
+        "authLabel": "Dialogue"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85082846",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Mediation",
+        "authLabel": "Mediation"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85098940",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Peace",
+        "authLabel": "Peace"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": "RapSemKdg2",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Burkina Faso",
+          "l2": "Centre",
+          "l3": "Ouagadougou"
+        }
+      ],
+      "current": [
         "University Joseph Ki-Zerbo"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Group",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Text",
+    "genre": {
+      "marc": [
+        "reporting"
+      ]
+    },
+    "language": [
+      "fra"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "PDF"
       ],
-      "role": "Reporter"
-    }
-  ],
-  "note": {
-    "$numberDouble": "NaN"
+      "tech": [
+        "574 Kilobyte"
+      ],
+      "note": [
+        "6 pages"
+      ]
+    },
+    "abstract": "From December 13 to 15, 2021, an international symposium was held in Ouagadougou, Burkina Faso, on the theme: Terrorism in Burkina Faso: to negotiate or not to negotiate.",
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Researchers",
+      "Field Practitioners",
+      "Civil Society",
+      "NGOs",
+      "INGOs"
+    ],
+    "tags": [],
+    "updatedBy": "jy"
   },
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh2002012010",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Sources",
-      "authLabel": "Sources"
+  {
+    "_id": {
+      "$oid": "6734bd19b9dbcc3cc179febe"
     },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85134112",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Terrorism",
-      "authLabel": "Terrorism"
+    "dre_id": "acq-03-000a",
+    "bitstream": "300922_RapSem_Tkg1_MM_v1.pdf",
+    "security": "DSL3",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "UJKZ_SEDPaix2022",
+      "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
     },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85037531",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Dialogue",
-      "authLabel": "Dialogue"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85082846",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Mediation",
-      "authLabel": "Mediation"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85098940",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Peace",
-      "authLabel": "Peace"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "RapSemKdg3",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "citation": [],
+    "url": [],
+    "titleInfo": [
       {
-        "l1": "Burkina Faso",
-        "l2": "Centre",
-        "l3": "Ouagadougou"
+        "title": "Rapport du 3e séminaire méthodologique sur le projet de recherche",
+        "title_type": "main"
+      },
+      {
+        "title": "Report of the 3rd methodological seminar on the research project",
+        "title_type": "Translated"
+      },
+      {
+        "title": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso",
+        "title_type": "Sub"
       }
     ],
-    "current": [
-      "University Joseph Ki-Zerbo"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Group",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Text",
-  "genre": {
-    "marc": [
-      "reporting"
-    ]
-  },
-  "language": [
-    "fra"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "PDF"
-    ],
-    "tech": [
-      "625 Kilobyte"
-    ],
-    "note": [
-      "9 pages"
-    ]
-  },
-  "abstract": "From December 13 to 15, 2021, an international symposium was held in Ouagadougou, Burkina Faso, on the theme: Terrorism in Burkina Faso: to negotiate or not to negotiate.",
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Researchers",
-    "Field Practitioners",
-    "Civil Society",
-    "NGOs",
-    "INGOs"
-  ],
-  "tags": [],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6734bd19b9dbcc3cc179fec0"
-  },
-  "dre_id": "acq-03-000c",
-  "bitstream": "210722_IntNaba_Ouaga1_AF_v1.pdf",
-  "security": "DSL3",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "UJKZ_SEDPaix2022",
-    "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Interview de Prof Franca avec Samadin Naba",
-      "title_type": "main"
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2022-09-30T00:00:00"
+      }
     },
-    {
-      "title": "Interview Prof Franca with Samadin Naba",
-      "title_type": "Translated"
-    },
-    {
-      "title": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso",
-      "title_type": "Sub"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2022-07-21T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Attoh, Franca",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Sociology, University of Lagos"
-      ],
-      "role": "Interviewer"
-    },
-    {
-      "name": {
-        "label": "Samandin, Naaba",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Ouagadougou Kingdom"
-      ],
-      "role": "Interviewee"
-    }
-  ],
-  "note": {
-    "$numberDouble": "NaN"
-  },
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh2002012010",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Sources",
-      "authLabel": "Sources"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85134112",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Terrorism",
-      "authLabel": "Terrorism"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85037531",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Dialogue",
-      "authLabel": "Dialogue"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85082846",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Mediation",
-      "authLabel": "Mediation"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85098940",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Peace",
-      "authLabel": "Peace"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "IntNaba_Ouaga1_AF_v1",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "name": [
       {
-        "l1": "Burkina Faso",
-        "l2": "Centre",
-        "l3": "Ouagadougou"
+        "name": {
+          "label": "Meda, Marc",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University Joseph Ki-Zerbo"
+        ],
+        "role": "Reporter"
       }
     ],
-    "current": [
-      "University Joseph Ki-Zerbo"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Group",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Text",
-  "genre": {
-    "marc": [
-      "interview"
-    ]
-  },
-  "language": [
-    "fra"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "PDF"
-    ],
-    "tech": [
-      "134 Kilobyte"
-    ],
-    "note": [
-      "5 pages"
-    ]
-  },
-  "abstract": "From December 13 to 15, 2021, an international symposium was held in Ouagadougou, Burkina Faso, on the theme: Terrorism in Burkina Faso: to negotiate or not to negotiate.",
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Researchers",
-    "Field Practitioners",
-    "Civil Society",
-    "NGOs",
-    "INGOs"
-  ],
-  "tags": [],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6734bd19b9dbcc3cc179fec1"
-  },
-  "dre_id": "acq-03-000d",
-  "bitstream": "220722_IntDiallo_Ouaga1_AF_v1.pdf",
-  "security": "DSL3",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "UJKZ_SEDPaix2022",
-    "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Interview de Prof Franca avec Diallo",
-      "title_type": "main"
+    "note": {
+      "$numberDouble": "NaN"
     },
-    {
-      "title": "Interview Prof Franca with Diallo",
-      "title_type": "Translated"
-    },
-    {
-      "title": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso",
-      "title_type": "Sub"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2022-07-22T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Attoh, Franca",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Sociology, University of Lagos"
-      ],
-      "role": "Interviewer"
-    },
-    {
-      "name": {
-        "label": "Diallo, Mamadou",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Ministry of Public Service of Burkina Faso"
-      ],
-      "role": "Interviewee"
-    }
-  ],
-  "note": {
-    "$numberDouble": "NaN"
-  },
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh2002012010",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Sources",
-      "authLabel": "Sources"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85134112",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Terrorism",
-      "authLabel": "Terrorism"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85037531",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Dialogue",
-      "authLabel": "Dialogue"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85082846",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Mediation",
-      "authLabel": "Mediation"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85098940",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Peace",
-      "authLabel": "Peace"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "IntDiallo_Ouaga1_AF_v1",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "subject": [
       {
-        "l1": "Burkina Faso",
-        "l2": "Centre",
-        "l3": "Ouagadougou"
+        "uri": "http://id.loc.gov/authorities/subjects/sh2002012010",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Sources",
+        "authLabel": "Sources"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85134112",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Terrorism",
+        "authLabel": "Terrorism"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85037531",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Dialogue",
+        "authLabel": "Dialogue"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85082846",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Mediation",
+        "authLabel": "Mediation"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85098940",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Peace",
+        "authLabel": "Peace"
       }
     ],
-    "current": [
-      "University Joseph Ki-Zerbo"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Group",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Text",
-  "genre": {
-    "marc": [
-      "interview"
-    ]
-  },
-  "language": [
-    "fra"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "PDF"
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": "RapSemTkg1",
+        "identifier_type": "Locally defined identifier"
+      }
     ],
-    "tech": [
-      "114 Kilobyte"
+    "location": {
+      "origin": [
+        {
+          "l1": "Burkina Faso",
+          "l2": "Centre",
+          "l3": "Ouagadougou"
+        }
+      ],
+      "current": [
+        "University Joseph Ki-Zerbo"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Group",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Text",
+    "genre": {
+      "marc": [
+        "reporting"
+      ]
+    },
+    "language": [
+      "fra"
     ],
-    "note": [
-      "3 pages"
-    ]
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "PDF"
+      ],
+      "tech": [
+        "625 Kilobyte"
+      ],
+      "note": [
+        "11 pages"
+      ]
+    },
+    "abstract": "From December 13 to 15, 2021, an international symposium was held in Ouagadougou, Burkina Faso, on the theme: Terrorism in Burkina Faso: to negotiate or not to negotiate.",
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Researchers",
+      "Field Practitioners",
+      "Civil Society",
+      "NGOs",
+      "INGOs"
+    ],
+    "tags": [],
+    "updatedBy": "jy"
   },
-  "abstract": "From December 13 to 15, 2021, an international symposium was held in Ouagadougou, Burkina Faso, on the theme: Terrorism in Burkina Faso: to negotiate or not to negotiate.",
-  "tableOfContents": {
-    "$numberDouble": "NaN"
+  {
+    "_id": {
+      "$oid": "6734bd19b9dbcc3cc179febf"
+    },
+    "dre_id": "acq-03-000b",
+    "bitstream": "180322_RapSem_Kdg3_TP_v1.pdf",
+    "security": "DSL3",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "UJKZ_SEDPaix2022",
+      "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
+      {
+        "title": "Rapport de restitution sur le projet de recherche",
+        "title_type": "main"
+      },
+      {
+        "title": "Restitution report on the research project",
+        "title_type": "Translated"
+      },
+      {
+        "title": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso",
+        "title_type": "Sub"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2022-03-18T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Toubga, Paala",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University Joseph Ki-Zerbo"
+        ],
+        "role": "Reporter"
+      }
+    ],
+    "note": {
+      "$numberDouble": "NaN"
+    },
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh2002012010",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Sources",
+        "authLabel": "Sources"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85134112",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Terrorism",
+        "authLabel": "Terrorism"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85037531",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Dialogue",
+        "authLabel": "Dialogue"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85082846",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Mediation",
+        "authLabel": "Mediation"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85098940",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Peace",
+        "authLabel": "Peace"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": "RapSemKdg3",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Burkina Faso",
+          "l2": "Centre",
+          "l3": "Ouagadougou"
+        }
+      ],
+      "current": [
+        "University Joseph Ki-Zerbo"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Group",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Text",
+    "genre": {
+      "marc": [
+        "reporting"
+      ]
+    },
+    "language": [
+      "fra"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "PDF"
+      ],
+      "tech": [
+        "625 Kilobyte"
+      ],
+      "note": [
+        "9 pages"
+      ]
+    },
+    "abstract": "From December 13 to 15, 2021, an international symposium was held in Ouagadougou, Burkina Faso, on the theme: Terrorism in Burkina Faso: to negotiate or not to negotiate.",
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Researchers",
+      "Field Practitioners",
+      "Civil Society",
+      "NGOs",
+      "INGOs"
+    ],
+    "tags": [],
+    "updatedBy": "jy"
   },
-  "targetAudience": [
-    "Researchers",
-    "Field Practitioners",
-    "Civil Society",
-    "NGOs",
-    "INGOs"
-  ],
-  "tags": [],
-  "updatedBy": "jy"
-}]
+  {
+    "_id": {
+      "$oid": "6734bd19b9dbcc3cc179fec0"
+    },
+    "dre_id": "acq-03-000c",
+    "bitstream": "210722_IntNaba_Ouaga1_AF_v1.pdf",
+    "security": "DSL3",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "UJKZ_SEDPaix2022",
+      "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
+      {
+        "title": "Interview de Prof Franca avec Samadin Naba",
+        "title_type": "main"
+      },
+      {
+        "title": "Interview Prof Franca with Samadin Naba",
+        "title_type": "Translated"
+      },
+      {
+        "title": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso",
+        "title_type": "Sub"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2022-07-21T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Attoh, Franca",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Sociology, University of Lagos"
+        ],
+        "role": "Interviewer"
+      },
+      {
+        "name": {
+          "label": "Samandin, Naaba",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Ouagadougou Kingdom"
+        ],
+        "role": "Interviewee"
+      }
+    ],
+    "note": {
+      "$numberDouble": "NaN"
+    },
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh2002012010",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Sources",
+        "authLabel": "Sources"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85134112",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Terrorism",
+        "authLabel": "Terrorism"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85037531",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Dialogue",
+        "authLabel": "Dialogue"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85082846",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Mediation",
+        "authLabel": "Mediation"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85098940",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Peace",
+        "authLabel": "Peace"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": "IntNaba_Ouaga1_AF_v1",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Burkina Faso",
+          "l2": "Centre",
+          "l3": "Ouagadougou"
+        }
+      ],
+      "current": [
+        "University Joseph Ki-Zerbo"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Group",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Text",
+    "genre": {
+      "marc": [
+        "interview"
+      ]
+    },
+    "language": [
+      "fra"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "PDF"
+      ],
+      "tech": [
+        "134 Kilobyte"
+      ],
+      "note": [
+        "5 pages"
+      ]
+    },
+    "abstract": "From December 13 to 15, 2021, an international symposium was held in Ouagadougou, Burkina Faso, on the theme: Terrorism in Burkina Faso: to negotiate or not to negotiate.",
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Researchers",
+      "Field Practitioners",
+      "Civil Society",
+      "NGOs",
+      "INGOs"
+    ],
+    "tags": [],
+    "updatedBy": "jy"
+  },
+  {
+    "_id": {
+      "$oid": "6734bd19b9dbcc3cc179fec1"
+    },
+    "dre_id": "acq-03-000d",
+    "bitstream": "220722_IntDiallo_Ouaga1_AF_v1.pdf",
+    "security": "DSL3",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "UJKZ_SEDPaix2022",
+      "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
+      {
+        "title": "Interview de Prof Franca avec Diallo",
+        "title_type": "main"
+      },
+      {
+        "title": "Interview Prof Franca with Diallo",
+        "title_type": "Translated"
+      },
+      {
+        "title": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso",
+        "title_type": "Sub"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2022-07-22T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Attoh, Franca",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Sociology, University of Lagos"
+        ],
+        "role": "Interviewer"
+      },
+      {
+        "name": {
+          "label": "Diallo, Mamadou",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Ministry of Public Service of Burkina Faso"
+        ],
+        "role": "Interviewee"
+      }
+    ],
+    "note": {
+      "$numberDouble": "NaN"
+    },
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh2002012010",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Sources",
+        "authLabel": "Sources"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85134112",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Terrorism",
+        "authLabel": "Terrorism"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85037531",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Dialogue",
+        "authLabel": "Dialogue"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85082846",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Mediation",
+        "authLabel": "Mediation"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85098940",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Peace",
+        "authLabel": "Peace"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": "IntDiallo_Ouaga1_AF_v1",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Burkina Faso",
+          "l2": "Centre",
+          "l3": "Ouagadougou"
+        }
+      ],
+      "current": [
+        "University Joseph Ki-Zerbo"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Group",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Text",
+    "genre": {
+      "marc": [
+        "interview"
+      ]
+    },
+    "language": [
+      "fra"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "PDF"
+      ],
+      "tech": [
+        "114 Kilobyte"
+      ],
+      "note": [
+        "3 pages"
+      ]
+    },
+    "abstract": "From December 13 to 15, 2021, an international symposium was held in Ouagadougou, Burkina Faso, on the theme: Terrorism in Burkina Faso: to negotiate or not to negotiate.",
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Researchers",
+      "Field Practitioners",
+      "Civil Society",
+      "NGOs",
+      "INGOs"
+    ],
+    "tags": [],
+    "updatedBy": "jy"
+  }
+]

@@ -1,261 +1,263 @@
-[{
-  "_id": {
-    "$oid": "66cedfb095a000d4c7bf3656"
-  },
-  "dre_id": "acp-03-0000",
-  "bitstream": "011221_ArcNomminationAG1_SN_v1.xlsx",
-  "security": "DSL3",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "UJKZ_KnowFranco2021",
-    "name": "The Making of the Knowledge State in Francophone West Africa: Experience of the State and institutionalization of science in Burkina and Senegal"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Resultats Enquete sur les rapports des Conseils des Ministres",
-      "title_type": "main"
+[
+  {
+    "_id": {
+      "$oid": "66cedfb095a000d4c7bf3656"
     },
-    {
-      "title": "Results Survey on the reports of the Councils of Ministers",
-      "title_type": "Translated"
+    "dre_id": "acp-03-0000",
+    "bitstream": "011221_ArcNomminationAG1_SN_v1.xlsx",
+    "security": "DSL3",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "UJKZ_KnowFranco2021",
+      "name": "The Making of the Knowledge State in Francophone West Africa: Experience of the State and institutionalization of science in Burkina and Senegal"
     },
-    {
-      "title": "Appointments of teachers and researchers to various positions in the General Administration from 1960 to 2021",
-      "title_type": "Sub"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2021-12-01T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Sawadogo, Natéwindé",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Thomas Sankara University"
-      ],
-      "role": "Author"
-    }
-  ],
-  "note": "Status report on the promotion in grade of teachers-researchers and researchers and the various positions to which they were appointed during the period 1960-2021",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85113021",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Research",
-      "authLabel": "Research"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "ArcNomminationAG1_SN_v1",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "citation": [],
+    "url": [],
+    "titleInfo": [
       {
-        "l1": "Burkina Faso",
-        "l2": "Centre",
-        "l3": "Ouagadougou"
+        "title": "Resultats Enquete sur les rapports des Conseils des Ministres",
+        "title_type": "main"
+      },
+      {
+        "title": "Results Survey on the reports of the Councils of Ministers",
+        "title_type": "Translated"
+      },
+      {
+        "title": "Appointments of teachers and researchers to various positions in the General Administration from 1960 to 2021",
+        "title_type": "Sub"
       }
     ],
-    "current": [
-      "University Joseph Ki-Zerbo"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Group",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Text",
-  "genre": {
-    "marc": [
-      "government publication"
-    ]
-  },
-  "language": [
-    "fra"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "Excel"
-    ],
-    "tech": [
-      "86 kilobytes"
-    ],
-    "note": [
-      "1 table"
-    ]
-  },
-  "abstract": "Data on appointments of teacher-researchers and researchers in the General Administration in Burkina Faso.",
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "General Public"
-  ],
-  "tags": [
-    "Appointment",
-    "Teacher",
-    "Researcher",
-    "Administration",
-    "Burkina Faso",
-    "Knowledge",
-    "Scientific Research",
-    "Scientific Institution"
-  ],
-  "createdAt": {
-    "$date": "2024-08-28T10:28:32.581Z"
-  },
-  "updatedAt": "2025-04-25T17:05:51.850689",
-  "updatedBy": "JC"
-},
-{
-  "_id": {
-    "$oid": "66cedfb095a000d4c7bf3657"
-  },
-  "dre_id": "acp-03-0001",
-  "bitstream": "011221_ArcNomminationGrade1_SN_v1.xlsx",
-  "security": "DSL3",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "UJKZ_KnowFranco2021",
-    "name": "The Making of the Knowledge State in Francophone West Africa: Experience of the State and institutionalization of science in Burkina and Senegal"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Resultats Enquete sur les rapports des Conseils des Ministres",
-      "title_type": "main"
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2021-12-01T00:00:00"
+      }
     },
-    {
-      "title": "Results Survey on the reports of the Councils of Ministers",
-      "title_type": "Translated"
-    },
-    {
-      "title": "Progression through the ranks of teaching and research staff from 1960 to 2021",
-      "title_type": "Sub"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2021-12-01T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Sawadogo, Natéwindé",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Thomas Sankara University"
-      ],
-      "role": "Author"
-    }
-  ],
-  "note": "Status report on the promotion in grade of teachers-researchers and researchers and the various positions to which they were appointed during the period 1960-2021",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85113021",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Research",
-      "authLabel": "Research"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "ArcNomminationGrade1_SN_v1",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "name": [
       {
-        "l1": "Burkina Faso",
-        "l2": "Centre",
-        "l3": "Ouagadougou"
+        "name": {
+          "label": "Sawadogo, Natéwindé",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Thomas Sankara University"
+        ],
+        "role": "Author"
       }
     ],
-    "current": [
-      "University Joseph Ki-Zerbo"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Group",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Text",
-  "genre": {
-    "marc": [
-      "government publication"
-    ]
-  },
-  "language": [
-    "fra"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "Excel"
+    "note": "Status report on the promotion in grade of teachers-researchers and researchers and the various positions to which they were appointed during the period 1960-2021",
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85113021",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Research",
+        "authLabel": "Research"
+      }
     ],
-    "tech": [
-      "93 kilobytes"
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": "ArcNomminationAG1_SN_v1",
+        "identifier_type": "Locally defined identifier"
+      }
     ],
-    "note": [
-      "1 table"
-    ]
+    "location": {
+      "origin": [
+        {
+          "l1": "Burkina Faso",
+          "l2": "Centre",
+          "l3": "Ouagadougou"
+        }
+      ],
+      "current": [
+        "University Joseph Ki-Zerbo"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Group",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Text",
+    "genre": {
+      "marc": [
+        "government publication"
+      ]
+    },
+    "language": [
+      "fra"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "Excel"
+      ],
+      "tech": [
+        "86 kilobytes"
+      ],
+      "note": [
+        "1 table"
+      ]
+    },
+    "abstract": "Data on appointments of teacher-researchers and researchers in the General Administration in Burkina Faso.",
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "General Public"
+    ],
+    "tags": [
+      "Appointment",
+      "Teacher",
+      "Researcher",
+      "Administration",
+      "Burkina Faso",
+      "Knowledge",
+      "Scientific Research",
+      "Scientific Institution"
+    ],
+    "createdAt": {
+      "$date": "2024-08-28T10:28:32.581Z"
+    },
+    "updatedAt": "2025-04-25T17:05:51.850689",
+    "updatedBy": "JC"
   },
-  "abstract": "Data on academic appointments of lecturers and researchers in Burkina Faso.",
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "General Public"
-  ],
-  "tags": [
-    "Appointment",
-    "Teacher",
-    "Researcher",
-    "Administration",
-    "Burkina Faso",
-    "Scientific Research",
-    "Scientific Institution"
-  ],
-  "createdAt": {
-    "$date": "2024-08-28T10:28:32.602Z"
-  },
-  "updatedAt": "2025-04-25T17:05:51.942339",
-  "updatedBy": "JC"
-}]
+  {
+    "_id": {
+      "$oid": "66cedfb095a000d4c7bf3657"
+    },
+    "dre_id": "acp-03-0001",
+    "bitstream": "011221_ArcNomminationGrade1_SN_v1.xlsx",
+    "security": "DSL3",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "UJKZ_KnowFranco2021",
+      "name": "The Making of the Knowledge State in Francophone West Africa: Experience of the State and institutionalization of science in Burkina and Senegal"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
+      {
+        "title": "Resultats Enquete sur les rapports des Conseils des Ministres",
+        "title_type": "main"
+      },
+      {
+        "title": "Results Survey on the reports of the Councils of Ministers",
+        "title_type": "Translated"
+      },
+      {
+        "title": "Progression through the ranks of teaching and research staff from 1960 to 2021",
+        "title_type": "Sub"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2021-12-01T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Sawadogo, Natéwindé",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Thomas Sankara University"
+        ],
+        "role": "Author"
+      }
+    ],
+    "note": "Status report on the promotion in grade of teachers-researchers and researchers and the various positions to which they were appointed during the period 1960-2021",
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85113021",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Research",
+        "authLabel": "Research"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": "ArcNomminationGrade1_SN_v1",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Burkina Faso",
+          "l2": "Centre",
+          "l3": "Ouagadougou"
+        }
+      ],
+      "current": [
+        "University Joseph Ki-Zerbo"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Group",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Text",
+    "genre": {
+      "marc": [
+        "government publication"
+      ]
+    },
+    "language": [
+      "fra"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "Excel"
+      ],
+      "tech": [
+        "93 kilobytes"
+      ],
+      "note": [
+        "1 table"
+      ]
+    },
+    "abstract": "Data on academic appointments of lecturers and researchers in Burkina Faso.",
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "General Public"
+    ],
+    "tags": [
+      "Appointment",
+      "Teacher",
+      "Researcher",
+      "Administration",
+      "Burkina Faso",
+      "Scientific Research",
+      "Scientific Institution"
+    ],
+    "createdAt": {
+      "$date": "2024-08-28T10:28:32.602Z"
+    },
+    "updatedAt": "2025-04-25T17:05:51.942339",
+    "updatedBy": "JC"
+  }
+]

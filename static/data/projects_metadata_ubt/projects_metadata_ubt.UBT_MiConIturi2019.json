@@ -1,1750 +1,1752 @@
-[{
-  "_id": {
-    "$oid": "674dc0432e70d1e383d18afc"
-  },
-  "dre_id": "acd-01-0000",
-  "bitstream": "Entretiens_des_autochtones.pdf",
-  "security": "DSL3",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "UBT_MiConIturi2019",
-    "name": "Uhamaji wa wanyerwanda: migration and conflict in Ituri, DR Congo"
-  },
-  "citation": [],
-  "url": [
-    "https://rdspace.uni-bayreuth.de/handle/rdspace-ubt/357"
-  ],
-  "titleInfo": [
-    {
-      "title": "Recherche sur mobilité et conflits dans les grand lacs/cas de Hutu en Ituri",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2020-01-01T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Doevenspeck, Martin",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Bayreuth"
-      ],
-      "role": "Researcher"
+[
+  {
+    "_id": {
+      "$oid": "674dc0432e70d1e383d18afc"
     },
-    {
-      "name": {
-        "label": "Mwanabiningo, Nene Morisho",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Pole Institut Goma"
-      ],
-      "role": "Researcher"
+    "dre_id": "acd-01-0000",
+    "bitstream": "Entretiens_des_autochtones.pdf",
+    "security": "DSL3",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "UBT_MiConIturi2019",
+      "name": "Uhamaji wa wanyerwanda: migration and conflict in Ituri, DR Congo"
     },
-    {
-      "name": {
-        "label": "Sebudandi, Christophe",
-        "qualifier": "person"
-      },
-      "affl": [],
-      "role": "Researcher"
-    },
-    {
-      "name": {
-        "label": "Kaganda Mulume Oderhwa, Philippe",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Université Evangélique en Afrique"
-      ],
-      "role": "Researcher"
-    },
-    {
-      "name": {
-        "label": "Tegera, Aloy",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Pole Institut Goma"
-      ],
-      "role": "Researcher"
-    },
-    {
-      "name": {
-        "label": "Sebudandi, Christophe",
-        "qualifier": "person"
-      },
-      "affl": [],
-      "role": "Interviewer"
-    },
-    {
-      "name": {
-        "label": "Kaganda Mulume Oderhwa, Philippe",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Université Evangélique en Afrique"
-      ],
-      "role": "Interviewer"
-    }
-  ],
-  "note": "This is the transcript of a interview",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85074312",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Land tenure",
-      "authLabel": "Land tenure"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Migration",
-      "authLabel": "Migration"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85123927",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Social conflict",
-      "authLabel": "Social conflict"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "MiCoIturiT01",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "citation": [],
+    "url": [
+      "https://rdspace.uni-bayreuth.de/handle/rdspace-ubt/357"
+    ],
+    "titleInfo": [
       {
-        "l1": "Democratic Republic of the Congo",
-        "l2": "Ituri",
-        "l3": "Geti"
+        "title": "Recherche sur mobilité et conflits dans les grand lacs/cas de Hutu en Ituri",
+        "title_type": "main"
       }
     ],
-    "current": [
-      "Bayreuth"
-    ]
-  },
-  "accessCondition": {
-    "rights": [
-      "CC-BY-NC-SA-4.0"
-    ],
-    "usage": {
-      "type": "Group",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Text",
-  "genre": {
-    "marc": [
-      "Interview"
-    ]
-  },
-  "language": [
-    "fra"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "text/pdf"
-    ],
-    "tech": [
-      "950KB",
-      "67 pages"
-    ],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [],
-  "tags": [
-    "Conflict Theory"
-  ],
-  "updatedBy": "NV",
-  "updatedAt": "2025-09-03T10:24:56.373311"
-},
-{
-  "_id": {
-    "$oid": "674dc0432e70d1e383d18afd"
-  },
-  "dre_id": "acd-01-0001",
-  "bitstream": "Focus_groupe_des_autochtones_mixte_adulte.pdf",
-  "security": "DSL3",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "UBT_MiConIturi2019",
-    "name": "Uhamaji wa wanyerwanda: migration and conflict in Ituri, DR Congo"
-  },
-  "citation": [],
-  "url": [
-    "https://rdspace.uni-bayreuth.de/handle/rdspace-ubt/358"
-  ],
-  "titleInfo": [
-    {
-      "title": "Focus groupe: Membres communautés locales mixte (adultes, jeunes et vieillard)",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2020-01-01T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Doevenspeck, Martin",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Bayreuth"
-      ],
-      "role": "Researcher"
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2020-01-01T00:00:00"
+      }
     },
-    {
-      "name": {
-        "label": "Mwanabiningo, Nene Morisho",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Pole Institut Goma"
-      ],
-      "role": "Researcher"
-    },
-    {
-      "name": {
-        "label": "Sebudandi, Christophe",
-        "qualifier": "person"
-      },
-      "affl": [],
-      "role": "Researcher"
-    },
-    {
-      "name": {
-        "label": "Kaganda Mulume Oderhwa, Philippe",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Université Evangélique en Afrique"
-      ],
-      "role": "Researcher"
-    },
-    {
-      "name": {
-        "label": "Tegera, Aloy",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Pole Institut Goma"
-      ],
-      "role": "Researcher"
-    },
-    {
-      "name": {
-        "label": "Sebudandi, Christophe",
-        "qualifier": "person"
-      },
-      "affl": [],
-      "role": "Interviewer"
-    },
-    {
-      "name": {
-        "label": "Kaganda Mulume Oderhwa, Philippe",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Université Evangélique en Afrique"
-      ],
-      "role": "Interviewer"
-    }
-  ],
-  "note": "This is the transcript of a interview",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85074312",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Land tenure",
-      "authLabel": "Land tenure"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Migration",
-      "authLabel": "Migration"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85123927",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Social conflict",
-      "authLabel": "Social conflict"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "MiCoIturiT02",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "name": [
       {
-        "l1": "Democratic Republic of the Congo",
-        "l2": "Ituri",
-        "l3": "Geti"
+        "name": {
+          "label": "Doevenspeck, Martin",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Bayreuth"
+        ],
+        "role": "Researcher"
+      },
+      {
+        "name": {
+          "label": "Mwanabiningo, Nene Morisho",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Pole Institut Goma"
+        ],
+        "role": "Researcher"
+      },
+      {
+        "name": {
+          "label": "Sebudandi, Christophe",
+          "qualifier": "person"
+        },
+        "affl": [],
+        "role": "Researcher"
+      },
+      {
+        "name": {
+          "label": "Kaganda Mulume Oderhwa, Philippe",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Université Evangélique en Afrique"
+        ],
+        "role": "Researcher"
+      },
+      {
+        "name": {
+          "label": "Tegera, Aloy",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Pole Institut Goma"
+        ],
+        "role": "Researcher"
+      },
+      {
+        "name": {
+          "label": "Sebudandi, Christophe",
+          "qualifier": "person"
+        },
+        "affl": [],
+        "role": "Interviewer"
+      },
+      {
+        "name": {
+          "label": "Kaganda Mulume Oderhwa, Philippe",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Université Evangélique en Afrique"
+        ],
+        "role": "Interviewer"
       }
     ],
-    "current": [
-      "Bayreuth"
-    ]
-  },
-  "accessCondition": {
-    "rights": [
-      "CC-BY-NC-SA-4.0"
-    ],
-    "usage": {
-      "type": "Group",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Text",
-  "genre": {
-    "none": [
-      "Focus group"
-    ]
-  },
-  "language": [
-    "fra"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "text/pdf"
-    ],
-    "tech": [
-      "810KB",
-      "7 pages"
-    ],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [],
-  "tags": [
-    "Conflict Theory"
-  ],
-  "updatedBy": "NV",
-  "updatedAt": "2025-09-03T10:25:01.267062"
-},
-{
-  "_id": {
-    "$oid": "674dc0432e70d1e383d18afe"
-  },
-  "dre_id": "acd-01-0002",
-  "bitstream": "Focus_groupe_des_déplacés_Hutu.pdf",
-  "security": "DSL3",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "UBT_MiConIturi2019",
-    "name": "Uhamaji wa wanyerwanda: migration and conflict in Ituri, DR Congo"
-  },
-  "citation": [],
-  "url": [
-    "https://rdspace.uni-bayreuth.de/handle/rdspace-ubt/359"
-  ],
-  "titleInfo": [
-    {
-      "title": "Focus groupe: communauté Hutu mixte (adultes, jeunes et vieillard)",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2020-01-01T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Doevenspeck, Martin",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Bayreuth"
-      ],
-      "role": "Researcher"
-    },
-    {
-      "name": {
-        "label": "Mwanabiningo, Nene Morisho",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Pole Institut Goma"
-      ],
-      "role": "Researcher"
-    },
-    {
-      "name": {
-        "label": "Sebudandi, Christophe",
-        "qualifier": "person"
-      },
-      "affl": [],
-      "role": "Researcher"
-    },
-    {
-      "name": {
-        "label": "Kaganda Mulume Oderhwa, Philippe",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Université Evangélique en Afrique"
-      ],
-      "role": "Researcher"
-    },
-    {
-      "name": {
-        "label": "Tegera, Aloy",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Pole Institut Goma"
-      ],
-      "role": "Researcher"
-    },
-    {
-      "name": {
-        "label": "Sebudandi, Christophe",
-        "qualifier": "person"
-      },
-      "affl": [],
-      "role": "Interviewer"
-    },
-    {
-      "name": {
-        "label": "Kaganda Mulume Oderhwa, Philippe",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Université Evangélique en Afrique"
-      ],
-      "role": "Interviewer"
-    }
-  ],
-  "note": "This is the transcript of a interview",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85074312",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Land tenure",
-      "authLabel": "Land tenure"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Migration",
-      "authLabel": "Migration"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85123927",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Social conflict",
-      "authLabel": "Social conflict"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "MiCoIturiT03",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "note": "This is the transcript of a interview",
+    "subject": [
       {
-        "l1": "Democratic Republic of the Congo",
-        "l2": "Ituri",
-        "l3": "Geti"
+        "uri": "http://id.loc.gov/authorities/subjects/sh85074312",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Land tenure",
+        "authLabel": "Land tenure"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Migration",
+        "authLabel": "Migration"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85123927",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Social conflict",
+        "authLabel": "Social conflict"
       }
     ],
-    "current": [
-      "Bayreuth"
-    ]
-  },
-  "accessCondition": {
-    "rights": [
-      "CC-BY-NC-SA-4.0"
-    ],
-    "usage": {
-      "type": "Group",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Text",
-  "genre": {
-    "none": [
-      "Focus group"
-    ]
-  },
-  "language": [
-    "fra"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "text/pdf"
-    ],
-    "tech": [
-      "565KB",
-      "8 pages"
-    ],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [],
-  "tags": [
-    "Conflict Theory"
-  ],
-  "updatedBy": "NV",
-  "updatedAt": "2025-09-03T10:25:06.094990"
-},
-{
-  "_id": {
-    "$oid": "674dc0432e70d1e383d18aff"
-  },
-  "dre_id": "acd-01-0003",
-  "bitstream": "Focus_groupe_mixte_jeune.pdf",
-  "security": "DSL3",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "UBT_MiConIturi2019",
-    "name": "Uhamaji wa wanyerwanda: migration and conflict in Ituri, DR Congo"
-  },
-  "citation": [],
-  "url": [
-    "https://rdspace.uni-bayreuth.de/handle/rdspace-ubt/360"
-  ],
-  "titleInfo": [
-    {
-      "title": "Focus groupe mixte pour Jeune autochtone et Hutu",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2020-01-01T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Doevenspeck, Martin",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Bayreuth"
-      ],
-      "role": "Researcher"
-    },
-    {
-      "name": {
-        "label": "Mwanabiningo, Nene Morisho",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Pole Institut Goma"
-      ],
-      "role": "Researcher"
-    },
-    {
-      "name": {
-        "label": "Sebudandi, Christophe",
-        "qualifier": "person"
-      },
-      "affl": [],
-      "role": "Researcher"
-    },
-    {
-      "name": {
-        "label": "Kaganda Mulume Oderhwa, Philippe",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Université Evangélique en Afrique"
-      ],
-      "role": "Researcher"
-    },
-    {
-      "name": {
-        "label": "Tegera, Aloy",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Pole Institut Goma"
-      ],
-      "role": "Researcher"
-    },
-    {
-      "name": {
-        "label": "Sebudandi, Christophe",
-        "qualifier": "person"
-      },
-      "affl": [],
-      "role": "Interviewer"
-    },
-    {
-      "name": {
-        "label": "Kaganda Mulume Oderhwa, Philippe",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Université Evangélique en Afrique"
-      ],
-      "role": "Interviewer"
-    }
-  ],
-  "note": "This is the transcript of a interview",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85074312",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Land tenure",
-      "authLabel": "Land tenure"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Migration",
-      "authLabel": "Migration"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85123927",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Social conflict",
-      "authLabel": "Social conflict"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "MiCoIturiT04",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "relatedItems": {},
+    "identifier": [
       {
-        "l1": "Democratic Republic of the Congo",
-        "l2": "Ituri",
-        "l3": "Geti"
+        "identifier": "MiCoIturiT01",
+        "identifier_type": "Locally defined identifier"
       }
     ],
-    "current": [
-      "Bayreuth"
-    ]
-  },
-  "accessCondition": {
-    "rights": [
-      "CC-BY-NC-SA-4.0"
+    "location": {
+      "origin": [
+        {
+          "l1": "Democratic Republic of the Congo",
+          "l2": "Ituri",
+          "l3": "Geti"
+        }
+      ],
+      "current": [
+        "Bayreuth"
+      ]
+    },
+    "accessCondition": {
+      "rights": [
+        "CC-BY-NC-SA-4.0"
+      ],
+      "usage": {
+        "type": "Group",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Text",
+    "genre": {
+      "marc": [
+        "Interview"
+      ]
+    },
+    "language": [
+      "fra"
     ],
-    "usage": {
-      "type": "Group",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Text",
-  "genre": {
-    "none": [
-      "Focus group"
-    ]
-  },
-  "language": [
-    "fra"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "text/pdf"
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "text/pdf"
+      ],
+      "tech": [
+        "950KB",
+        "67 pages"
+      ],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [],
+    "tags": [
+      "Conflict Theory"
     ],
-    "tech": [
-      "537KB",
-      "6 pages"
+    "updatedBy": "NV",
+    "updatedAt": "2025-09-03T10:24:56.373311"
+  },
+  {
+    "_id": {
+      "$oid": "674dc0432e70d1e383d18afd"
+    },
+    "dre_id": "acd-01-0001",
+    "bitstream": "Focus_groupe_des_autochtones_mixte_adulte.pdf",
+    "security": "DSL3",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [],
-  "tags": [
-    "Conflict Theory"
-  ],
-  "updatedBy": "NV",
-  "updatedAt": "2025-09-03T10:25:10.700015"
-},
-{
-  "_id": {
-    "$oid": "674dc0432e70d1e383d18b00"
-  },
-  "dre_id": "acd-01-0004",
-  "bitstream": "Entretiens_des_autochtones_translated.pdf",
-  "security": "DSL2",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "UBT_MiConIturi2019",
-    "name": "Uhamaji wa wanyerwanda: migration and conflict in Ituri, DR Congo"
-  },
-  "citation": [],
-  "url": [
-    "https://rdspace.uni-bayreuth.de/handle/rdspace-ubt/361"
-  ],
-  "titleInfo": [
-    {
-      "title": "Research on mobility and conflict in the great lakes region/the case of the Hutu in Ituri",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2020-01-01T00:00:00"
+    "project": {
+      "id": "UBT_MiConIturi2019",
+      "name": "Uhamaji wa wanyerwanda: migration and conflict in Ituri, DR Congo"
     },
-    "mod": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2024-01-01T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Doevenspeck, Martin",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Bayreuth"
-      ],
-      "role": "Researcher"
-    },
-    {
-      "name": {
-        "label": "Mwanabiningo, Nene Morisho",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Pole Institut Goma"
-      ],
-      "role": "Researcher"
-    },
-    {
-      "name": {
-        "label": "Sebudandi, Christophe",
-        "qualifier": "person"
-      },
-      "affl": [],
-      "role": "Researcher"
-    },
-    {
-      "name": {
-        "label": "Kaganda Mulume Oderhwa, Philippe",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Université Evangélique en Afrique"
-      ],
-      "role": "Researcher"
-    },
-    {
-      "name": {
-        "label": "Tegera, Aloy",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Pole Institut Goma"
-      ],
-      "role": "Researcher"
-    },
-    {
-      "name": {
-        "label": "Sebudandi, Christophe",
-        "qualifier": "person"
-      },
-      "affl": [],
-      "role": "Interviewer"
-    },
-    {
-      "name": {
-        "label": "Kaganda Mulume Oderhwa, Philippe",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Université Evangélique en Afrique"
-      ],
-      "role": "Interviewer"
-    },
-    {
-      "name": {
-        "label": "Lankes, Maximilian",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Bayreuth"
-      ],
-      "role": "Translator"
-    }
-  ],
-  "note": "This is the translation of a interview",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85074312",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Land tenure",
-      "authLabel": "Land tenure"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Migration",
-      "authLabel": "Migration"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85123927",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Social conflict",
-      "authLabel": "Social conflict"
-    }
-  ],
-  "relatedItems": {
-    "rel_orig": [
-      "MiCoIturiT01"
-    ]
-  },
-  "identifier": [
-    {
-      "identifier": "MiCoIturiT05",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "citation": [],
+    "url": [
+      "https://rdspace.uni-bayreuth.de/handle/rdspace-ubt/358"
+    ],
+    "titleInfo": [
       {
-        "l1": "Democratic Republic of the Congo",
-        "l2": "Ituri",
-        "l3": "Geti"
+        "title": "Focus groupe: Membres communautés locales mixte (adultes, jeunes et vieillard)",
+        "title_type": "main"
       }
     ],
-    "current": [
-      "Bayreuth"
-    ]
-  },
-  "accessCondition": {
-    "rights": [
-      "CC-BY-NC-SA-4.0"
-    ],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Text",
-  "genre": {
-    "marc": [
-      "interview"
-    ]
-  },
-  "language": [
-    "eng",
-    "fra"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "text/pdf"
-    ],
-    "tech": [
-      "420KB",
-      "3 pages"
-    ],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [],
-  "tags": [
-    "Conflict Theory"
-  ],
-  "updatedBy": "NV",
-  "updatedAt": "2025-09-03T10:25:15.285958"
-},
-{
-  "_id": {
-    "$oid": "674dc0432e70d1e383d18b01"
-  },
-  "dre_id": "acd-01-0005",
-  "bitstream": "Entretiens_des_autochtones_anonymised.pdf",
-  "security": "DSL2",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "UBT_MiConIturi2019",
-    "name": "Uhamaji wa wanyerwanda: migration and conflict in Ituri, DR Congo"
-  },
-  "citation": [],
-  "url": [
-    "https://rdspace.uni-bayreuth.de/handle/rdspace-ubt/362"
-  ],
-  "titleInfo": [
-    {
-      "title": "Recherche sur mobilité et conflits dans les grand lacs/cas de Hutu en Ituri",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2020-01-01T00:00:00"
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2020-01-01T00:00:00"
+      }
     },
-    "mod": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2024-01-01T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Doevenspeck, Martin",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Bayreuth"
-      ],
-      "role": "Researcher"
-    },
-    {
-      "name": {
-        "label": "Mwanabiningo, Nene Morisho",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Pole Institut Goma"
-      ],
-      "role": "Researcher"
-    },
-    {
-      "name": {
-        "label": "Sebudandi, Christophe",
-        "qualifier": "person"
-      },
-      "affl": [],
-      "role": "Researcher"
-    },
-    {
-      "name": {
-        "label": "Kaganda Mulume Oderhwa, Philippe",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Université Evangélique en Afrique"
-      ],
-      "role": "Researcher"
-    },
-    {
-      "name": {
-        "label": "Tegera, Aloy",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Pole Institut Goma"
-      ],
-      "role": "Researcher"
-    },
-    {
-      "name": {
-        "label": "Sebudandi, Christophe",
-        "qualifier": "person"
-      },
-      "affl": [],
-      "role": "Interviewer"
-    },
-    {
-      "name": {
-        "label": "Kaganda Mulume Oderhwa, Philippe",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Université Evangélique en Afrique"
-      ],
-      "role": "Interviewer"
-    }
-  ],
-  "note": "This is an anonymised version of the interviews",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85074312",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Land tenure",
-      "authLabel": "Land tenure"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Migration",
-      "authLabel": "Migration"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85123927",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Social conflict",
-      "authLabel": "Social conflict"
-    }
-  ],
-  "relatedItems": {
-    "rel_orig": [
-      "MiCoIturiT01"
-    ]
-  },
-  "identifier": [
-    {
-      "identifier": "MiCoIturiT06",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "name": [
       {
-        "l1": "Democratic Republic of the Congo",
-        "l2": "Ituri",
-        "l3": "Geti"
+        "name": {
+          "label": "Doevenspeck, Martin",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Bayreuth"
+        ],
+        "role": "Researcher"
+      },
+      {
+        "name": {
+          "label": "Mwanabiningo, Nene Morisho",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Pole Institut Goma"
+        ],
+        "role": "Researcher"
+      },
+      {
+        "name": {
+          "label": "Sebudandi, Christophe",
+          "qualifier": "person"
+        },
+        "affl": [],
+        "role": "Researcher"
+      },
+      {
+        "name": {
+          "label": "Kaganda Mulume Oderhwa, Philippe",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Université Evangélique en Afrique"
+        ],
+        "role": "Researcher"
+      },
+      {
+        "name": {
+          "label": "Tegera, Aloy",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Pole Institut Goma"
+        ],
+        "role": "Researcher"
+      },
+      {
+        "name": {
+          "label": "Sebudandi, Christophe",
+          "qualifier": "person"
+        },
+        "affl": [],
+        "role": "Interviewer"
+      },
+      {
+        "name": {
+          "label": "Kaganda Mulume Oderhwa, Philippe",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Université Evangélique en Afrique"
+        ],
+        "role": "Interviewer"
       }
     ],
-    "current": [
-      "Bayreuth"
-    ]
-  },
-  "accessCondition": {
-    "rights": [
-      "CC-BY-NC-SA-4.0"
-    ],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Text",
-  "genre": {
-    "marc": [
-      "interview"
-    ]
-  },
-  "language": [
-    "fra"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "text/pdf"
-    ],
-    "tech": [
-      "935",
-      "69 pages"
-    ],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [],
-  "tags": [
-    "Conflict Theory"
-  ],
-  "updatedBy": "NV",
-  "updatedAt": "2025-09-03T10:25:21.547923"
-},
-{
-  "_id": {
-    "$oid": "674dc0432e70d1e383d18b02"
-  },
-  "dre_id": "acd-01-0006",
-  "bitstream": "Focus_groupe_des_autochtones_mixte_adulte_translated.pdf",
-  "security": "DSL2",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "UBT_MiConIturi2019",
-    "name": "Uhamaji wa wanyerwanda: migration and conflict in Ituri, DR Congo"
-  },
-  "citation": [],
-  "url": [
-    "https://rdspace.uni-bayreuth.de/handle/rdspace-ubt/363"
-  ],
-  "titleInfo": [
-    {
-      "title": "Focus group: mixed members of local communities (adults, young ones and the elderly)",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2020-01-01T00:00:00"
-    },
-    "mod": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2024-01-01T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Doevenspeck, Martin",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Bayreuth"
-      ],
-      "role": "Researcher"
-    },
-    {
-      "name": {
-        "label": "Mwanabiningo, Nene Morisho",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Pole Institut Goma"
-      ],
-      "role": "Researcher"
-    },
-    {
-      "name": {
-        "label": "Sebudandi, Christophe",
-        "qualifier": "person"
-      },
-      "affl": [],
-      "role": "Researcher"
-    },
-    {
-      "name": {
-        "label": "Kaganda Mulume Oderhwa, Philippe",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Université Evangélique en Afrique"
-      ],
-      "role": "Researcher"
-    },
-    {
-      "name": {
-        "label": "Tegera, Aloy",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Pole Institut Goma"
-      ],
-      "role": "Researcher"
-    },
-    {
-      "name": {
-        "label": "Sebudandi, Christophe",
-        "qualifier": "person"
-      },
-      "affl": [],
-      "role": "Interviewer"
-    },
-    {
-      "name": {
-        "label": "Kaganda Mulume Oderhwa, Philippe",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Université Evangélique en Afrique"
-      ],
-      "role": "Interviewer"
-    },
-    {
-      "name": {
-        "label": "Lankes, Maximilian",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Bayreuth"
-      ],
-      "role": "Translator"
-    }
-  ],
-  "note": "This is the translation of a focus group interview",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85074312",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Land tenure",
-      "authLabel": "Land tenure"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Migration",
-      "authLabel": "Migration"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85123927",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Social conflict",
-      "authLabel": "Social conflict"
-    }
-  ],
-  "relatedItems": {
-    "rel_orig": [
-      "MiCoIturiT02"
-    ]
-  },
-  "identifier": [
-    {
-      "identifier": "MiCoIturiT07",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "note": "This is the transcript of a interview",
+    "subject": [
       {
-        "l1": "Democratic Republic of the Congo",
-        "l2": "Ituri",
-        "l3": "Geti"
+        "uri": "http://id.loc.gov/authorities/subjects/sh85074312",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Land tenure",
+        "authLabel": "Land tenure"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Migration",
+        "authLabel": "Migration"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85123927",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Social conflict",
+        "authLabel": "Social conflict"
       }
     ],
-    "current": [
-      "Bayreuth"
-    ]
-  },
-  "accessCondition": {
-    "rights": [
-      "CC-BY-NC-SA-4.0"
-    ],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Text",
-  "genre": {
-    "none": [
-      "Focus group"
-    ]
-  },
-  "language": [
-    "eng",
-    "fra"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "text/pdf"
-    ],
-    "tech": [
-      "480KB",
-      "2 pages"
-    ],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [],
-  "tags": [
-    "Conflict Theory"
-  ],
-  "updatedBy": "NV",
-  "updatedAt": "2025-09-03T10:25:25.768866"
-},
-{
-  "_id": {
-    "$oid": "674dc0432e70d1e383d18b03"
-  },
-  "dre_id": "acd-01-0007",
-  "bitstream": "Focus_groupe_des_déplacés_Hutu_translated.pdf",
-  "security": "DSL2",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "UBT_MiConIturi2019",
-    "name": "Uhamaji wa wanyerwanda: migration and conflict in Ituri, DR Congo"
-  },
-  "citation": [],
-  "url": [
-    "https://rdspace.uni-bayreuth.de/handle/rdspace-ubt/364"
-  ],
-  "titleInfo": [
-    {
-      "title": "Focus group: mixed Hutu community (adults, young people and the elderly)",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2020-01-01T00:00:00"
-    },
-    "mod": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2024-01-01T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Doevenspeck, Martin",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Bayreuth"
-      ],
-      "role": "Researcher"
-    },
-    {
-      "name": {
-        "label": "Mwanabiningo, Nene Morisho",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Pole Institut Goma"
-      ],
-      "role": "Researcher"
-    },
-    {
-      "name": {
-        "label": "Sebudandi, Christophe",
-        "qualifier": "person"
-      },
-      "affl": [],
-      "role": "Researcher"
-    },
-    {
-      "name": {
-        "label": "Kaganda Mulume Oderhwa, Philippe",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Université Evangélique en Afrique"
-      ],
-      "role": "Researcher"
-    },
-    {
-      "name": {
-        "label": "Tegera, Aloy",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Pole Institut Goma"
-      ],
-      "role": "Researcher"
-    },
-    {
-      "name": {
-        "label": "Sebudandi, Christophe",
-        "qualifier": "person"
-      },
-      "affl": [],
-      "role": "Interviewer"
-    },
-    {
-      "name": {
-        "label": "Kaganda Mulume Oderhwa, Philippe",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Université Evangélique en Afrique"
-      ],
-      "role": "Interviewer"
-    },
-    {
-      "name": {
-        "label": "Lankes, Maximilian",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Bayreuth"
-      ],
-      "role": "Translator"
-    }
-  ],
-  "note": "This is the translation of a focus group interview",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85074312",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Land tenure",
-      "authLabel": "Land tenure"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Migration",
-      "authLabel": "Migration"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85123927",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Social conflict",
-      "authLabel": "Social conflict"
-    }
-  ],
-  "relatedItems": {
-    "rel_orig": [
-      "MiCoIturiT03"
-    ]
-  },
-  "identifier": [
-    {
-      "identifier": "MiCoIturiT08",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "relatedItems": {},
+    "identifier": [
       {
-        "l1": "Democratic Republic of the Congo",
-        "l2": "Ituri",
-        "l3": "Geti"
+        "identifier": "MiCoIturiT02",
+        "identifier_type": "Locally defined identifier"
       }
     ],
-    "current": [
-      "Bayreuth"
-    ]
-  },
-  "accessCondition": {
-    "rights": [
-      "CC-BY-NC-SA-4.0"
+    "location": {
+      "origin": [
+        {
+          "l1": "Democratic Republic of the Congo",
+          "l2": "Ituri",
+          "l3": "Geti"
+        }
+      ],
+      "current": [
+        "Bayreuth"
+      ]
+    },
+    "accessCondition": {
+      "rights": [
+        "CC-BY-NC-SA-4.0"
+      ],
+      "usage": {
+        "type": "Group",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Text",
+    "genre": {
+      "none": [
+        "Focus group"
+      ]
+    },
+    "language": [
+      "fra"
     ],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Text",
-  "genre": {
-    "none": [
-      "Focus group"
-    ]
-  },
-  "language": [
-    "eng",
-    "fra"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "text/pdf"
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "text/pdf"
+      ],
+      "tech": [
+        "810KB",
+        "7 pages"
+      ],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [],
+    "tags": [
+      "Conflict Theory"
     ],
-    "tech": [
-      "406KB",
-      "3 pages"
+    "updatedBy": "NV",
+    "updatedAt": "2025-09-03T10:25:01.267062"
+  },
+  {
+    "_id": {
+      "$oid": "674dc0432e70d1e383d18afe"
+    },
+    "dre_id": "acd-01-0002",
+    "bitstream": "Focus_groupe_des_déplacés_Hutu.pdf",
+    "security": "DSL3",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [],
-  "tags": [
-    "Conflict Theory"
-  ],
-  "updatedBy": "NV",
-  "updatedAt": "2025-09-03T10:25:30.053627"
-},
-{
-  "_id": {
-    "$oid": "674dc0432e70d1e383d18b04"
-  },
-  "dre_id": "acd-01-0008",
-  "bitstream": "Focus_groupe_mixte_jeune_translated.pdf",
-  "security": "DSL2",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "UBT_MiConIturi2019",
-    "name": "Uhamaji wa wanyerwanda: migration and conflict in Ituri, DR Congo"
-  },
-  "citation": [],
-  "url": [
-    "https://rdspace.uni-bayreuth.de/handle/rdspace-ubt/365"
-  ],
-  "titleInfo": [
-    {
-      "title": "Focus group: mixed young indigenous and Hutu people",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2020-01-01T00:00:00"
+    "project": {
+      "id": "UBT_MiConIturi2019",
+      "name": "Uhamaji wa wanyerwanda: migration and conflict in Ituri, DR Congo"
     },
-    "mod": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2024-01-01T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Doevenspeck, Martin",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Bayreuth"
-      ],
-      "role": "Researcher"
-    },
-    {
-      "name": {
-        "label": "Mwanabiningo, Nene Morisho",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Pole Institut Goma"
-      ],
-      "role": "Researcher"
-    },
-    {
-      "name": {
-        "label": "Sebudandi, Christophe",
-        "qualifier": "person"
-      },
-      "affl": [],
-      "role": "Researcher"
-    },
-    {
-      "name": {
-        "label": "Kaganda Mulume Oderhwa, Philippe",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Université Evangélique en Afrique"
-      ],
-      "role": "Researcher"
-    },
-    {
-      "name": {
-        "label": "Tegera, Aloy",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Pole Institut Goma"
-      ],
-      "role": "Researcher"
-    },
-    {
-      "name": {
-        "label": "Sebudandi, Christophe",
-        "qualifier": "person"
-      },
-      "affl": [],
-      "role": "Interviewer"
-    },
-    {
-      "name": {
-        "label": "Kaganda Mulume Oderhwa, Philippe",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Université Evangélique en Afrique"
-      ],
-      "role": "Interviewer"
-    },
-    {
-      "name": {
-        "label": "Lankes, Maximilian",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Bayreuth"
-      ],
-      "role": "Translator"
-    }
-  ],
-  "note": "This is the translation of a focus group interview",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85074312",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Land tenure",
-      "authLabel": "Land tenure"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Migration",
-      "authLabel": "Migration"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85123927",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Social conflict",
-      "authLabel": "Social conflict"
-    }
-  ],
-  "relatedItems": {
-    "rel_orig": [
-      "MiCoIturiT04"
-    ]
-  },
-  "identifier": [
-    {
-      "identifier": "MiCoIturiT09",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "citation": [],
+    "url": [
+      "https://rdspace.uni-bayreuth.de/handle/rdspace-ubt/359"
+    ],
+    "titleInfo": [
       {
-        "l1": "Democratic Republic of the Congo",
-        "l2": "Ituri",
-        "l3": "Geti"
+        "title": "Focus groupe: communauté Hutu mixte (adultes, jeunes et vieillard)",
+        "title_type": "main"
       }
     ],
-    "current": [
-      "Bayreuth"
-    ]
-  },
-  "accessCondition": {
-    "rights": [
-      "CC-BY-NC-SA-4.0"
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2020-01-01T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Doevenspeck, Martin",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Bayreuth"
+        ],
+        "role": "Researcher"
+      },
+      {
+        "name": {
+          "label": "Mwanabiningo, Nene Morisho",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Pole Institut Goma"
+        ],
+        "role": "Researcher"
+      },
+      {
+        "name": {
+          "label": "Sebudandi, Christophe",
+          "qualifier": "person"
+        },
+        "affl": [],
+        "role": "Researcher"
+      },
+      {
+        "name": {
+          "label": "Kaganda Mulume Oderhwa, Philippe",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Université Evangélique en Afrique"
+        ],
+        "role": "Researcher"
+      },
+      {
+        "name": {
+          "label": "Tegera, Aloy",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Pole Institut Goma"
+        ],
+        "role": "Researcher"
+      },
+      {
+        "name": {
+          "label": "Sebudandi, Christophe",
+          "qualifier": "person"
+        },
+        "affl": [],
+        "role": "Interviewer"
+      },
+      {
+        "name": {
+          "label": "Kaganda Mulume Oderhwa, Philippe",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Université Evangélique en Afrique"
+        ],
+        "role": "Interviewer"
+      }
     ],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Text",
-  "genre": {
-    "none": [
-      "Focus group"
-    ]
-  },
-  "language": [
-    "eng",
-    "fra"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "text/pdf"
+    "note": "This is the transcript of a interview",
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85074312",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Land tenure",
+        "authLabel": "Land tenure"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Migration",
+        "authLabel": "Migration"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85123927",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Social conflict",
+        "authLabel": "Social conflict"
+      }
     ],
-    "tech": [
-      "116KB",
-      "3 pages"
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": "MiCoIturiT03",
+        "identifier_type": "Locally defined identifier"
+      }
     ],
-    "note": []
+    "location": {
+      "origin": [
+        {
+          "l1": "Democratic Republic of the Congo",
+          "l2": "Ituri",
+          "l3": "Geti"
+        }
+      ],
+      "current": [
+        "Bayreuth"
+      ]
+    },
+    "accessCondition": {
+      "rights": [
+        "CC-BY-NC-SA-4.0"
+      ],
+      "usage": {
+        "type": "Group",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Text",
+    "genre": {
+      "none": [
+        "Focus group"
+      ]
+    },
+    "language": [
+      "fra"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "text/pdf"
+      ],
+      "tech": [
+        "565KB",
+        "8 pages"
+      ],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [],
+    "tags": [
+      "Conflict Theory"
+    ],
+    "updatedBy": "NV",
+    "updatedAt": "2025-09-03T10:25:06.094990"
   },
-  "abstract": {
-    "$numberDouble": "NaN"
+  {
+    "_id": {
+      "$oid": "674dc0432e70d1e383d18aff"
+    },
+    "dre_id": "acd-01-0003",
+    "bitstream": "Focus_groupe_mixte_jeune.pdf",
+    "security": "DSL3",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "UBT_MiConIturi2019",
+      "name": "Uhamaji wa wanyerwanda: migration and conflict in Ituri, DR Congo"
+    },
+    "citation": [],
+    "url": [
+      "https://rdspace.uni-bayreuth.de/handle/rdspace-ubt/360"
+    ],
+    "titleInfo": [
+      {
+        "title": "Focus groupe mixte pour Jeune autochtone et Hutu",
+        "title_type": "main"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2020-01-01T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Doevenspeck, Martin",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Bayreuth"
+        ],
+        "role": "Researcher"
+      },
+      {
+        "name": {
+          "label": "Mwanabiningo, Nene Morisho",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Pole Institut Goma"
+        ],
+        "role": "Researcher"
+      },
+      {
+        "name": {
+          "label": "Sebudandi, Christophe",
+          "qualifier": "person"
+        },
+        "affl": [],
+        "role": "Researcher"
+      },
+      {
+        "name": {
+          "label": "Kaganda Mulume Oderhwa, Philippe",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Université Evangélique en Afrique"
+        ],
+        "role": "Researcher"
+      },
+      {
+        "name": {
+          "label": "Tegera, Aloy",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Pole Institut Goma"
+        ],
+        "role": "Researcher"
+      },
+      {
+        "name": {
+          "label": "Sebudandi, Christophe",
+          "qualifier": "person"
+        },
+        "affl": [],
+        "role": "Interviewer"
+      },
+      {
+        "name": {
+          "label": "Kaganda Mulume Oderhwa, Philippe",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Université Evangélique en Afrique"
+        ],
+        "role": "Interviewer"
+      }
+    ],
+    "note": "This is the transcript of a interview",
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85074312",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Land tenure",
+        "authLabel": "Land tenure"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Migration",
+        "authLabel": "Migration"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85123927",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Social conflict",
+        "authLabel": "Social conflict"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": "MiCoIturiT04",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Democratic Republic of the Congo",
+          "l2": "Ituri",
+          "l3": "Geti"
+        }
+      ],
+      "current": [
+        "Bayreuth"
+      ]
+    },
+    "accessCondition": {
+      "rights": [
+        "CC-BY-NC-SA-4.0"
+      ],
+      "usage": {
+        "type": "Group",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Text",
+    "genre": {
+      "none": [
+        "Focus group"
+      ]
+    },
+    "language": [
+      "fra"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "text/pdf"
+      ],
+      "tech": [
+        "537KB",
+        "6 pages"
+      ],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [],
+    "tags": [
+      "Conflict Theory"
+    ],
+    "updatedBy": "NV",
+    "updatedAt": "2025-09-03T10:25:10.700015"
   },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
+  {
+    "_id": {
+      "$oid": "674dc0432e70d1e383d18b00"
+    },
+    "dre_id": "acd-01-0004",
+    "bitstream": "Entretiens_des_autochtones_translated.pdf",
+    "security": "DSL2",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "UBT_MiConIturi2019",
+      "name": "Uhamaji wa wanyerwanda: migration and conflict in Ituri, DR Congo"
+    },
+    "citation": [],
+    "url": [
+      "https://rdspace.uni-bayreuth.de/handle/rdspace-ubt/361"
+    ],
+    "titleInfo": [
+      {
+        "title": "Research on mobility and conflict in the great lakes region/the case of the Hutu in Ituri",
+        "title_type": "main"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2020-01-01T00:00:00"
+      },
+      "mod": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2024-01-01T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Doevenspeck, Martin",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Bayreuth"
+        ],
+        "role": "Researcher"
+      },
+      {
+        "name": {
+          "label": "Mwanabiningo, Nene Morisho",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Pole Institut Goma"
+        ],
+        "role": "Researcher"
+      },
+      {
+        "name": {
+          "label": "Sebudandi, Christophe",
+          "qualifier": "person"
+        },
+        "affl": [],
+        "role": "Researcher"
+      },
+      {
+        "name": {
+          "label": "Kaganda Mulume Oderhwa, Philippe",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Université Evangélique en Afrique"
+        ],
+        "role": "Researcher"
+      },
+      {
+        "name": {
+          "label": "Tegera, Aloy",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Pole Institut Goma"
+        ],
+        "role": "Researcher"
+      },
+      {
+        "name": {
+          "label": "Sebudandi, Christophe",
+          "qualifier": "person"
+        },
+        "affl": [],
+        "role": "Interviewer"
+      },
+      {
+        "name": {
+          "label": "Kaganda Mulume Oderhwa, Philippe",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Université Evangélique en Afrique"
+        ],
+        "role": "Interviewer"
+      },
+      {
+        "name": {
+          "label": "Lankes, Maximilian",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Bayreuth"
+        ],
+        "role": "Translator"
+      }
+    ],
+    "note": "This is the translation of a interview",
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85074312",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Land tenure",
+        "authLabel": "Land tenure"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Migration",
+        "authLabel": "Migration"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85123927",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Social conflict",
+        "authLabel": "Social conflict"
+      }
+    ],
+    "relatedItems": {
+      "rel_orig": [
+        "MiCoIturiT01"
+      ]
+    },
+    "identifier": [
+      {
+        "identifier": "MiCoIturiT05",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Democratic Republic of the Congo",
+          "l2": "Ituri",
+          "l3": "Geti"
+        }
+      ],
+      "current": [
+        "Bayreuth"
+      ]
+    },
+    "accessCondition": {
+      "rights": [
+        "CC-BY-NC-SA-4.0"
+      ],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Text",
+    "genre": {
+      "marc": [
+        "interview"
+      ]
+    },
+    "language": [
+      "eng",
+      "fra"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "text/pdf"
+      ],
+      "tech": [
+        "420KB",
+        "3 pages"
+      ],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [],
+    "tags": [
+      "Conflict Theory"
+    ],
+    "updatedBy": "NV",
+    "updatedAt": "2025-09-03T10:25:15.285958"
   },
-  "targetAudience": [],
-  "tags": [
-    "Conflict Theory"
-  ],
-  "updatedBy": "NV",
-  "updatedAt": "2025-09-03T10:25:34.748644"
-}]
+  {
+    "_id": {
+      "$oid": "674dc0432e70d1e383d18b01"
+    },
+    "dre_id": "acd-01-0005",
+    "bitstream": "Entretiens_des_autochtones_anonymised.pdf",
+    "security": "DSL2",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "UBT_MiConIturi2019",
+      "name": "Uhamaji wa wanyerwanda: migration and conflict in Ituri, DR Congo"
+    },
+    "citation": [],
+    "url": [
+      "https://rdspace.uni-bayreuth.de/handle/rdspace-ubt/362"
+    ],
+    "titleInfo": [
+      {
+        "title": "Recherche sur mobilité et conflits dans les grand lacs/cas de Hutu en Ituri",
+        "title_type": "main"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2020-01-01T00:00:00"
+      },
+      "mod": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2024-01-01T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Doevenspeck, Martin",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Bayreuth"
+        ],
+        "role": "Researcher"
+      },
+      {
+        "name": {
+          "label": "Mwanabiningo, Nene Morisho",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Pole Institut Goma"
+        ],
+        "role": "Researcher"
+      },
+      {
+        "name": {
+          "label": "Sebudandi, Christophe",
+          "qualifier": "person"
+        },
+        "affl": [],
+        "role": "Researcher"
+      },
+      {
+        "name": {
+          "label": "Kaganda Mulume Oderhwa, Philippe",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Université Evangélique en Afrique"
+        ],
+        "role": "Researcher"
+      },
+      {
+        "name": {
+          "label": "Tegera, Aloy",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Pole Institut Goma"
+        ],
+        "role": "Researcher"
+      },
+      {
+        "name": {
+          "label": "Sebudandi, Christophe",
+          "qualifier": "person"
+        },
+        "affl": [],
+        "role": "Interviewer"
+      },
+      {
+        "name": {
+          "label": "Kaganda Mulume Oderhwa, Philippe",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Université Evangélique en Afrique"
+        ],
+        "role": "Interviewer"
+      }
+    ],
+    "note": "This is an anonymised version of the interviews",
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85074312",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Land tenure",
+        "authLabel": "Land tenure"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Migration",
+        "authLabel": "Migration"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85123927",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Social conflict",
+        "authLabel": "Social conflict"
+      }
+    ],
+    "relatedItems": {
+      "rel_orig": [
+        "MiCoIturiT01"
+      ]
+    },
+    "identifier": [
+      {
+        "identifier": "MiCoIturiT06",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Democratic Republic of the Congo",
+          "l2": "Ituri",
+          "l3": "Geti"
+        }
+      ],
+      "current": [
+        "Bayreuth"
+      ]
+    },
+    "accessCondition": {
+      "rights": [
+        "CC-BY-NC-SA-4.0"
+      ],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Text",
+    "genre": {
+      "marc": [
+        "interview"
+      ]
+    },
+    "language": [
+      "fra"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "text/pdf"
+      ],
+      "tech": [
+        "935",
+        "69 pages"
+      ],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [],
+    "tags": [
+      "Conflict Theory"
+    ],
+    "updatedBy": "NV",
+    "updatedAt": "2025-09-03T10:25:21.547923"
+  },
+  {
+    "_id": {
+      "$oid": "674dc0432e70d1e383d18b02"
+    },
+    "dre_id": "acd-01-0006",
+    "bitstream": "Focus_groupe_des_autochtones_mixte_adulte_translated.pdf",
+    "security": "DSL2",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "UBT_MiConIturi2019",
+      "name": "Uhamaji wa wanyerwanda: migration and conflict in Ituri, DR Congo"
+    },
+    "citation": [],
+    "url": [
+      "https://rdspace.uni-bayreuth.de/handle/rdspace-ubt/363"
+    ],
+    "titleInfo": [
+      {
+        "title": "Focus group: mixed members of local communities (adults, young ones and the elderly)",
+        "title_type": "main"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2020-01-01T00:00:00"
+      },
+      "mod": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2024-01-01T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Doevenspeck, Martin",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Bayreuth"
+        ],
+        "role": "Researcher"
+      },
+      {
+        "name": {
+          "label": "Mwanabiningo, Nene Morisho",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Pole Institut Goma"
+        ],
+        "role": "Researcher"
+      },
+      {
+        "name": {
+          "label": "Sebudandi, Christophe",
+          "qualifier": "person"
+        },
+        "affl": [],
+        "role": "Researcher"
+      },
+      {
+        "name": {
+          "label": "Kaganda Mulume Oderhwa, Philippe",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Université Evangélique en Afrique"
+        ],
+        "role": "Researcher"
+      },
+      {
+        "name": {
+          "label": "Tegera, Aloy",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Pole Institut Goma"
+        ],
+        "role": "Researcher"
+      },
+      {
+        "name": {
+          "label": "Sebudandi, Christophe",
+          "qualifier": "person"
+        },
+        "affl": [],
+        "role": "Interviewer"
+      },
+      {
+        "name": {
+          "label": "Kaganda Mulume Oderhwa, Philippe",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Université Evangélique en Afrique"
+        ],
+        "role": "Interviewer"
+      },
+      {
+        "name": {
+          "label": "Lankes, Maximilian",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Bayreuth"
+        ],
+        "role": "Translator"
+      }
+    ],
+    "note": "This is the translation of a focus group interview",
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85074312",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Land tenure",
+        "authLabel": "Land tenure"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Migration",
+        "authLabel": "Migration"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85123927",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Social conflict",
+        "authLabel": "Social conflict"
+      }
+    ],
+    "relatedItems": {
+      "rel_orig": [
+        "MiCoIturiT02"
+      ]
+    },
+    "identifier": [
+      {
+        "identifier": "MiCoIturiT07",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Democratic Republic of the Congo",
+          "l2": "Ituri",
+          "l3": "Geti"
+        }
+      ],
+      "current": [
+        "Bayreuth"
+      ]
+    },
+    "accessCondition": {
+      "rights": [
+        "CC-BY-NC-SA-4.0"
+      ],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Text",
+    "genre": {
+      "none": [
+        "Focus group"
+      ]
+    },
+    "language": [
+      "eng",
+      "fra"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "text/pdf"
+      ],
+      "tech": [
+        "480KB",
+        "2 pages"
+      ],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [],
+    "tags": [
+      "Conflict Theory"
+    ],
+    "updatedBy": "NV",
+    "updatedAt": "2025-09-03T10:25:25.768866"
+  },
+  {
+    "_id": {
+      "$oid": "674dc0432e70d1e383d18b03"
+    },
+    "dre_id": "acd-01-0007",
+    "bitstream": "Focus_groupe_des_déplacés_Hutu_translated.pdf",
+    "security": "DSL2",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "UBT_MiConIturi2019",
+      "name": "Uhamaji wa wanyerwanda: migration and conflict in Ituri, DR Congo"
+    },
+    "citation": [],
+    "url": [
+      "https://rdspace.uni-bayreuth.de/handle/rdspace-ubt/364"
+    ],
+    "titleInfo": [
+      {
+        "title": "Focus group: mixed Hutu community (adults, young people and the elderly)",
+        "title_type": "main"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2020-01-01T00:00:00"
+      },
+      "mod": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2024-01-01T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Doevenspeck, Martin",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Bayreuth"
+        ],
+        "role": "Researcher"
+      },
+      {
+        "name": {
+          "label": "Mwanabiningo, Nene Morisho",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Pole Institut Goma"
+        ],
+        "role": "Researcher"
+      },
+      {
+        "name": {
+          "label": "Sebudandi, Christophe",
+          "qualifier": "person"
+        },
+        "affl": [],
+        "role": "Researcher"
+      },
+      {
+        "name": {
+          "label": "Kaganda Mulume Oderhwa, Philippe",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Université Evangélique en Afrique"
+        ],
+        "role": "Researcher"
+      },
+      {
+        "name": {
+          "label": "Tegera, Aloy",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Pole Institut Goma"
+        ],
+        "role": "Researcher"
+      },
+      {
+        "name": {
+          "label": "Sebudandi, Christophe",
+          "qualifier": "person"
+        },
+        "affl": [],
+        "role": "Interviewer"
+      },
+      {
+        "name": {
+          "label": "Kaganda Mulume Oderhwa, Philippe",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Université Evangélique en Afrique"
+        ],
+        "role": "Interviewer"
+      },
+      {
+        "name": {
+          "label": "Lankes, Maximilian",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Bayreuth"
+        ],
+        "role": "Translator"
+      }
+    ],
+    "note": "This is the translation of a focus group interview",
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85074312",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Land tenure",
+        "authLabel": "Land tenure"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Migration",
+        "authLabel": "Migration"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85123927",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Social conflict",
+        "authLabel": "Social conflict"
+      }
+    ],
+    "relatedItems": {
+      "rel_orig": [
+        "MiCoIturiT03"
+      ]
+    },
+    "identifier": [
+      {
+        "identifier": "MiCoIturiT08",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Democratic Republic of the Congo",
+          "l2": "Ituri",
+          "l3": "Geti"
+        }
+      ],
+      "current": [
+        "Bayreuth"
+      ]
+    },
+    "accessCondition": {
+      "rights": [
+        "CC-BY-NC-SA-4.0"
+      ],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Text",
+    "genre": {
+      "none": [
+        "Focus group"
+      ]
+    },
+    "language": [
+      "eng",
+      "fra"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "text/pdf"
+      ],
+      "tech": [
+        "406KB",
+        "3 pages"
+      ],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [],
+    "tags": [
+      "Conflict Theory"
+    ],
+    "updatedBy": "NV",
+    "updatedAt": "2025-09-03T10:25:30.053627"
+  },
+  {
+    "_id": {
+      "$oid": "674dc0432e70d1e383d18b04"
+    },
+    "dre_id": "acd-01-0008",
+    "bitstream": "Focus_groupe_mixte_jeune_translated.pdf",
+    "security": "DSL2",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "UBT_MiConIturi2019",
+      "name": "Uhamaji wa wanyerwanda: migration and conflict in Ituri, DR Congo"
+    },
+    "citation": [],
+    "url": [
+      "https://rdspace.uni-bayreuth.de/handle/rdspace-ubt/365"
+    ],
+    "titleInfo": [
+      {
+        "title": "Focus group: mixed young indigenous and Hutu people",
+        "title_type": "main"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2020-01-01T00:00:00"
+      },
+      "mod": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2024-01-01T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Doevenspeck, Martin",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Bayreuth"
+        ],
+        "role": "Researcher"
+      },
+      {
+        "name": {
+          "label": "Mwanabiningo, Nene Morisho",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Pole Institut Goma"
+        ],
+        "role": "Researcher"
+      },
+      {
+        "name": {
+          "label": "Sebudandi, Christophe",
+          "qualifier": "person"
+        },
+        "affl": [],
+        "role": "Researcher"
+      },
+      {
+        "name": {
+          "label": "Kaganda Mulume Oderhwa, Philippe",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Université Evangélique en Afrique"
+        ],
+        "role": "Researcher"
+      },
+      {
+        "name": {
+          "label": "Tegera, Aloy",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Pole Institut Goma"
+        ],
+        "role": "Researcher"
+      },
+      {
+        "name": {
+          "label": "Sebudandi, Christophe",
+          "qualifier": "person"
+        },
+        "affl": [],
+        "role": "Interviewer"
+      },
+      {
+        "name": {
+          "label": "Kaganda Mulume Oderhwa, Philippe",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Université Evangélique en Afrique"
+        ],
+        "role": "Interviewer"
+      },
+      {
+        "name": {
+          "label": "Lankes, Maximilian",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Bayreuth"
+        ],
+        "role": "Translator"
+      }
+    ],
+    "note": "This is the translation of a focus group interview",
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85074312",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Land tenure",
+        "authLabel": "Land tenure"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Migration",
+        "authLabel": "Migration"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85123927",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Social conflict",
+        "authLabel": "Social conflict"
+      }
+    ],
+    "relatedItems": {
+      "rel_orig": [
+        "MiCoIturiT04"
+      ]
+    },
+    "identifier": [
+      {
+        "identifier": "MiCoIturiT09",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Democratic Republic of the Congo",
+          "l2": "Ituri",
+          "l3": "Geti"
+        }
+      ],
+      "current": [
+        "Bayreuth"
+      ]
+    },
+    "accessCondition": {
+      "rights": [
+        "CC-BY-NC-SA-4.0"
+      ],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Text",
+    "genre": {
+      "none": [
+        "Focus group"
+      ]
+    },
+    "language": [
+      "eng",
+      "fra"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "text/pdf"
+      ],
+      "tech": [
+        "116KB",
+        "3 pages"
+      ],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [],
+    "tags": [
+      "Conflict Theory"
+    ],
+    "updatedBy": "NV",
+    "updatedAt": "2025-09-03T10:25:34.748644"
+  }
+]

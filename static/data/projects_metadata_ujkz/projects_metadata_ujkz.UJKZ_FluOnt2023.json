@@ -1,440 +1,442 @@
-[{
-  "_id": {
-    "$oid": "66cee52295a000d4c7bf365a"
-  },
-  "dre_id": "ace-03-0000",
-  "bitstream": "251023_OntoFluideContest_RapBalaiCitoyen_BF1_ZA_v1.pdf",
-  "security": "DSL3",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "UJKZ_FluOnt2023",
-    "name": "Fluid Ontologies of Contestation. Social media, anti-government protest and transnational decolonisation movements in Burkina Faso"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Rapport Balai Citoyen",
-      "title_type": "main"
+[
+  {
+    "_id": {
+      "$oid": "66cee52295a000d4c7bf365a"
     },
-    {
-      "title": "Balai Citoyen reporting (Civil society organization)",
-      "title_type": "Translated"
+    "dre_id": "ace-03-0000",
+    "bitstream": "251023_OntoFluideContest_RapBalaiCitoyen_BF1_ZA_v1.pdf",
+    "security": "DSL3",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "UJKZ_FluOnt2023",
+      "name": "Fluid Ontologies of Contestation. Social media, anti-government protest and transnational decolonisation movements in Burkina Faso"
     },
-    {
-      "title": "Report on publications on the Balai citoyen Facebook page from October 28-31, 2014",
-      "title_type": "Sub"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2023-10-25T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Zerbo, Armel",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University Joseph Ki-Zerbo"
-      ],
-      "role": "Author"
-    }
-  ],
-  "note": {
-    "$numberDouble": "NaN"
-  },
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh2006007023",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Social media",
-      "authLabel": "Social media"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85036220",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Decolonization",
-      "authLabel": "Decolonization"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "OntoFluideContest_RapBalaiCitoyenBF1",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "citation": [],
+    "url": [],
+    "titleInfo": [
       {
-        "l1": "Burkina Faso",
-        "l2": "Centre",
-        "l3": "Ouagadougou"
-      }
-    ],
-    "current": [
-      "University Joseph Ki-Zerbo"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Group",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Text",
-  "genre": {
-    "marc": [
-      "reporting"
-    ]
-  },
-  "language": [
-    "fra"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "PDF"
-    ],
-    "tech": [
-      "132 kilobyte"
-    ],
-    "note": [
-      "4 pages"
-    ]
-  },
-  "abstract": "The document offers an analysis of Internet users' comments in connection with the publications made on the Balai Citoyen official page from October 28 to 31, 2014.",
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "General Public"
-  ],
-  "tags": [
-    "Decolonisation",
-    "Fluid Ontology",
-    "Anti-government Protest",
-    "Le Balai Citoyen",
-    "Manifestant",
-    "Protestor",
-    "Burkina Faso"
-  ],
-  "createdAt": {
-    "$date": "2024-08-28T10:51:46.513Z"
-  },
-  "updatedAt": {
-    "$date": "2024-08-28T10:51:46.513Z"
-  },
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "66cee52295a000d4c7bf365b"
-  },
-  "dre_id": "ace-03-0001",
-  "bitstream": "251023_OntoFluideContest_RapBasicSoul_BF1_ZA_v1.pdf",
-  "security": "DSL3",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "UJKZ_FluOnt2023",
-    "name": "Fluid Ontologies of Contestation. Social media, anti-government protest and transnational decolonisation movements in Burkina Faso"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Rapport Basic Soul",
-      "title_type": "main"
-    },
-    {
-      "title": "Basic Soul reporting",
-      "title_type": "Translated"
-    },
-    {
-      "title": "Report on publications on the Basic Soul Facebook page from October 28-31, 2014",
-      "title_type": "Sub"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
+        "title": "Rapport Balai Citoyen",
+        "title_type": "main"
       },
-      "end": "2023-10-25T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Zerbo, Armel",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University Joseph Ki-Zerbo"
-      ],
-      "role": "Author"
-    }
-  ],
-  "note": {
-    "$numberDouble": "NaN"
-  },
-  "subject": [
-    {
-      "uri": {
-        "$numberDouble": "NaN"
-      },
-      "authority": {
-        "$numberDouble": "NaN"
-      },
-      "origLabel": "Burkina Faso",
-      "authLabel": {
-        "$numberDouble": "NaN"
-      }
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh2006007023",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Social media",
-      "authLabel": "Social media"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85036220",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Decolonization",
-      "authLabel": "Decolonization"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "OntoFluideContest_RapBasicSoulBF1",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
       {
-        "l1": "Burkina Faso",
-        "l2": "Centre",
-        "l3": "Ouagadougou"
+        "title": "Balai Citoyen reporting (Civil society organization)",
+        "title_type": "Translated"
+      },
+      {
+        "title": "Report on publications on the Balai citoyen Facebook page from October 28-31, 2014",
+        "title_type": "Sub"
       }
     ],
-    "current": [
-      "University Joseph Ki-Zerbo"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Group",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Text",
-  "genre": {
-    "marc": [
-      "reporting"
-    ]
-  },
-  "language": [
-    "fra"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "PDF"
-    ],
-    "tech": [
-      "324 kilobyte"
-    ],
-    "note": [
-      "3 pages"
-    ]
-  },
-  "abstract": "The document offers an analysis of Internet users' comments relating to the publications of Souleymane Ouédraogo alias Basic Soul over the period from October 25 to 31, 2014.",
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "General Public"
-  ],
-  "tags": [
-    "Decolonisation",
-    "Burkina Faso",
-    "Fluid Ontology",
-    "Anti-government Protest",
-    "Basic Soul"
-  ],
-  "createdAt": {
-    "$date": "2024-08-28T10:51:46.529Z"
-  },
-  "updatedAt": {
-    "$date": "2024-08-28T10:51:46.529Z"
-  },
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "66cee52295a000d4c7bf365c"
-  },
-  "dre_id": "ace-03-0002",
-  "bitstream": "251023_OntoFluideContest_RapSynth_BAY1_PJ_v1.pdf",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "UJKZ_FluOnt2023",
-    "name": "Fluid Ontologies of Contestation. Social media, anti-government protest and transnational decolonisation movements in Burkina Faso"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Rapport Synthétique projet",
-      "title_type": "main"
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2023-10-25T00:00:00"
+      }
     },
-    {
-      "title": "Project Synthetic reporting",
-      "title_type": "Translated"
+    "name": [
+      {
+        "name": {
+          "label": "Zerbo, Armel",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University Joseph Ki-Zerbo"
+        ],
+        "role": "Author"
+      }
+    ],
+    "note": {
+      "$numberDouble": "NaN"
     },
-    {
-      "title": "Summary, methodology, concepts, vision and contribution",
-      "title_type": "Sub"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh2006007023",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Social media",
+        "authLabel": "Social media"
       },
-      "end": "2023-10-25T00:00:00"
-    }
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85036220",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Decolonization",
+        "authLabel": "Decolonization"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": "OntoFluideContest_RapBalaiCitoyenBF1",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Burkina Faso",
+          "l2": "Centre",
+          "l3": "Ouagadougou"
+        }
+      ],
+      "current": [
+        "University Joseph Ki-Zerbo"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Group",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Text",
+    "genre": {
+      "marc": [
+        "reporting"
+      ]
+    },
+    "language": [
+      "fra"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "PDF"
+      ],
+      "tech": [
+        "132 kilobyte"
+      ],
+      "note": [
+        "4 pages"
+      ]
+    },
+    "abstract": "The document offers an analysis of Internet users' comments in connection with the publications made on the Balai Citoyen official page from October 28 to 31, 2014.",
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "General Public"
+    ],
+    "tags": [
+      "Decolonisation",
+      "Fluid Ontology",
+      "Anti-government Protest",
+      "Le Balai Citoyen",
+      "Manifestant",
+      "Protestor",
+      "Burkina Faso"
+    ],
+    "createdAt": {
+      "$date": "2024-08-28T10:51:46.513Z"
+    },
+    "updatedAt": {
+      "$date": "2024-08-28T10:51:46.513Z"
+    },
+    "updatedBy": "jy"
   },
-  "name": [
-    {
-      "name": {
-        "label": "Philipps, Joschka",
-        "qualifier": "person"
+  {
+    "_id": {
+      "$oid": "66cee52295a000d4c7bf365b"
+    },
+    "dre_id": "ace-03-0001",
+    "bitstream": "251023_OntoFluideContest_RapBasicSoul_BF1_ZA_v1.pdf",
+    "security": "DSL3",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "UJKZ_FluOnt2023",
+      "name": "Fluid Ontologies of Contestation. Social media, anti-government protest and transnational decolonisation movements in Burkina Faso"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
+      {
+        "title": "Rapport Basic Soul",
+        "title_type": "main"
       },
-      "affl": [
+      {
+        "title": "Basic Soul reporting",
+        "title_type": "Translated"
+      },
+      {
+        "title": "Report on publications on the Basic Soul Facebook page from October 28-31, 2014",
+        "title_type": "Sub"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2023-10-25T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Zerbo, Armel",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University Joseph Ki-Zerbo"
+        ],
+        "role": "Author"
+      }
+    ],
+    "note": {
+      "$numberDouble": "NaN"
+    },
+    "subject": [
+      {
+        "uri": {
+          "$numberDouble": "NaN"
+        },
+        "authority": {
+          "$numberDouble": "NaN"
+        },
+        "origLabel": "Burkina Faso",
+        "authLabel": {
+          "$numberDouble": "NaN"
+        }
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh2006007023",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Social media",
+        "authLabel": "Social media"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85036220",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Decolonization",
+        "authLabel": "Decolonization"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": "OntoFluideContest_RapBasicSoulBF1",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Burkina Faso",
+          "l2": "Centre",
+          "l3": "Ouagadougou"
+        }
+      ],
+      "current": [
+        "University Joseph Ki-Zerbo"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Group",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Text",
+    "genre": {
+      "marc": [
+        "reporting"
+      ]
+    },
+    "language": [
+      "fra"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "PDF"
+      ],
+      "tech": [
+        "324 kilobyte"
+      ],
+      "note": [
+        "3 pages"
+      ]
+    },
+    "abstract": "The document offers an analysis of Internet users' comments relating to the publications of Souleymane Ouédraogo alias Basic Soul over the period from October 25 to 31, 2014.",
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "General Public"
+    ],
+    "tags": [
+      "Decolonisation",
+      "Burkina Faso",
+      "Fluid Ontology",
+      "Anti-government Protest",
+      "Basic Soul"
+    ],
+    "createdAt": {
+      "$date": "2024-08-28T10:51:46.529Z"
+    },
+    "updatedAt": {
+      "$date": "2024-08-28T10:51:46.529Z"
+    },
+    "updatedBy": "jy"
+  },
+  {
+    "_id": {
+      "$oid": "66cee52295a000d4c7bf365c"
+    },
+    "dre_id": "ace-03-0002",
+    "bitstream": "251023_OntoFluideContest_RapSynth_BAY1_PJ_v1.pdf",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "UJKZ_FluOnt2023",
+      "name": "Fluid Ontologies of Contestation. Social media, anti-government protest and transnational decolonisation movements in Burkina Faso"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
+      {
+        "title": "Rapport Synthétique projet",
+        "title_type": "main"
+      },
+      {
+        "title": "Project Synthetic reporting",
+        "title_type": "Translated"
+      },
+      {
+        "title": "Summary, methodology, concepts, vision and contribution",
+        "title_type": "Sub"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2023-10-25T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Philipps, Joschka",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Bayreuth"
+        ],
+        "role": "Author"
+      }
+    ],
+    "note": {
+      "$numberDouble": "NaN"
+    },
+    "subject": [
+      {
+        "uri": {
+          "$numberDouble": "NaN"
+        },
+        "authority": {
+          "$numberDouble": "NaN"
+        },
+        "origLabel": "Burkina Faso",
+        "authLabel": {
+          "$numberDouble": "NaN"
+        }
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh2006007023",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Social media",
+        "authLabel": "Social media"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85036220",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Decolonization",
+        "authLabel": "Decolonization"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": "OntoFluideContest_RapSynthBAY1",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Germany",
+          "l2": "Bavaria",
+          "l3": "Bayreuth"
+        }
+      ],
+      "current": [
         "University of Bayreuth"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public ",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Text",
+    "genre": {
+      "marc": [
+        "reporting"
+      ]
+    },
+    "language": [
+      "eng"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "PDF"
       ],
-      "role": "Author"
-    }
-  ],
-  "note": {
-    "$numberDouble": "NaN"
-  },
-  "subject": [
-    {
-      "uri": {
-        "$numberDouble": "NaN"
-      },
-      "authority": {
-        "$numberDouble": "NaN"
-      },
-      "origLabel": "Burkina Faso",
-      "authLabel": {
-        "$numberDouble": "NaN"
-      }
+      "tech": [
+        "458 kilobyte"
+      ],
+      "note": [
+        "3 pages"
+      ]
     },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh2006007023",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Social media",
-      "authLabel": "Social media"
+    "abstract": "The summary of the project document sets out the main lines of the project. While contextualizing the field of research, the document presents the advantages of conducting research that reconciles interdisciplinarity between data sciences and social sciences, as well as the resources available for conducting the project and the concepts involved.",
+    "tableOfContents": {
+      "$numberDouble": "NaN"
     },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85036220",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Decolonization",
-      "authLabel": "Decolonization"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "OntoFluideContest_RapSynthBAY1",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
-      {
-        "l1": "Germany",
-        "l2": "Bavaria",
-        "l3": "Bayreuth"
-      }
+    "targetAudience": [
+      "General Public"
     ],
-    "current": [
-      "University of Bayreuth"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public ",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Text",
-  "genre": {
-    "marc": [
-      "reporting"
-    ]
-  },
-  "language": [
-    "eng"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "PDF"
+    "tags": [
+      "Decolonisation",
+      "Burkina Faso",
+      "Fluid Ontology",
+      "Anti-government Protest",
+      "Digital Research Environment"
     ],
-    "tech": [
-      "458 kilobyte"
-    ],
-    "note": [
-      "3 pages"
-    ]
-  },
-  "abstract": "The summary of the project document sets out the main lines of the project. While contextualizing the field of research, the document presents the advantages of conducting research that reconciles interdisciplinarity between data sciences and social sciences, as well as the resources available for conducting the project and the concepts involved.",
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "General Public"
-  ],
-  "tags": [
-    "Decolonisation",
-    "Burkina Faso",
-    "Fluid Ontology",
-    "Anti-government Protest",
-    "Digital Research Environment"
-  ],
-  "createdAt": {
-    "$date": "2024-08-28T10:51:46.529Z"
-  },
-  "updatedAt": {
-    "$date": "2024-08-28T10:51:46.529Z"
-  },
-  "updatedBy": "jy"
-}]
+    "createdAt": {
+      "$date": "2024-08-28T10:51:46.529Z"
+    },
+    "updatedAt": {
+      "$date": "2024-08-28T10:51:46.529Z"
+    },
+    "updatedBy": "jy"
+  }
+]

@@ -1,726 +1,728 @@
-[{
-  "_id": {
-    "$oid": "66e30b89f27a094a184204b0"
-  },
-  "dre_id": "aca-01-0000",
-  "bitstream": "OM20211015_A008_Mutem_Kpb_V1_m4a_Ug.m4a",
-  "security": "DSL3",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "UBT_OilMov2019",
-    "name": "Oil Movements: The Production and Government of Petro-(im)mobilities in East Africa"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Transcript of Interview with a local leader in Lwengo district",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2021-10-01T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Kinyera, Paddy Banya",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Bayreuth"
-      ],
-      "role": "Author"
+[
+  {
+    "_id": {
+      "$oid": "66e30b89f27a094a184204b0"
     },
-    {
-      "name": {
-        "label": "Doevenspeck, Martin",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Bayreuth"
-      ],
-      "role": "Research team member"
-    }
-  ],
-  "note": {
-    "$numberDouble": "NaN"
-  },
-  "subject": [],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "A008_Mutem_Kpb_Ug",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "dre_id": "aca-01-0000",
+    "bitstream": "OM20211015_A008_Mutem_Kpb_V1_m4a_Ug.m4a",
+    "security": "DSL3",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "UBT_OilMov2019",
+      "name": "Oil Movements: The Production and Government of Petro-(im)mobilities in East Africa"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
       {
-        "l1": "Uganda",
-        "l2": "Lwengo District",
-        "l3": {
+        "title": "Transcript of Interview with a local leader in Lwengo district",
+        "title_type": "main"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
           "$numberDouble": "NaN"
+        },
+        "end": "2021-10-01T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Kinyera, Paddy Banya",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Bayreuth"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Doevenspeck, Martin",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Bayreuth"
+        ],
+        "role": "Research team member"
+      }
+    ],
+    "note": {
+      "$numberDouble": "NaN"
+    },
+    "subject": [],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": "A008_Mutem_Kpb_Ug",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Uganda",
+          "l2": "Lwengo District",
+          "l3": {
+            "$numberDouble": "NaN"
+          }
         }
+      ],
+      "current": [
+        "University of Bayreuth"
+      ]
+    },
+    "accessCondition": {
+      "rights": [
+        "CC-BY-ND-4.0"
+      ],
+      "usage": {
+        "type": "Group",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Audio",
+    "genre": {
+      "marc": [
+        "interview"
+      ]
+    },
+    "language": [
+      "eng"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "Original audio recording"
+      ],
+      "tech": [
+        "48 minutes"
+      ],
+      "note": [
+        "Original recording in local language."
+      ]
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [],
+    "tags": [
+      "Oil Infrastructure",
+      "East African Crude Oil Pipeline",
+      "Uganda"
+    ],
+    "updatedBy": "jy"
+  },
+  {
+    "_id": {
+      "$oid": "66e30b89f27a094a184204b1"
+    },
+    "dre_id": "aca-01-0001",
+    "bitstream": "OM20200224_T002_PBK_V01_Ken_Lok.pdf",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "UBT_OilMov2019",
+      "name": "Oil Movements: The Production and Government of Petro-(im)mobilities in East Africa"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
+      {
+        "title": "Transcript of Interview with a Sub-county official - Turkana South, Lokichar",
+        "title_type": "main"
       }
     ],
-    "current": [
-      "University of Bayreuth"
-    ]
-  },
-  "accessCondition": {
-    "rights": [
-      "CC-BY-ND-4.0"
-    ],
-    "usage": {
-      "type": "Group",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Audio",
-  "genre": {
-    "marc": [
-      "interview"
-    ]
-  },
-  "language": [
-    "eng"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "Original audio recording"
-    ],
-    "tech": [
-      "48 minutes"
-    ],
-    "note": [
-      "Original recording in local language."
-    ]
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [],
-  "tags": [
-    "Oil Infrastructure",
-    "East African Crude Oil Pipeline",
-    "Uganda"
-  ],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "66e30b89f27a094a184204b1"
-  },
-  "dre_id": "aca-01-0001",
-  "bitstream": "OM20200224_T002_PBK_V01_Ken_Lok.pdf",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "UBT_OilMov2019",
-    "name": "Oil Movements: The Production and Government of Petro-(im)mobilities in East Africa"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Transcript of Interview with a Sub-county official - Turkana South, Lokichar",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2020-02-01T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Kinyera, Paddy Banya",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Bayreuth"
-      ],
-      "role": "Author"
-    },
-    {
-      "name": {
-        "label": "Doevenspeck, Martin",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Bayreuth"
-      ],
-      "role": "Research team member"
-    }
-  ],
-  "note": {
-    "$numberDouble": "NaN"
-  },
-  "subject": [],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "OM_T002_PBK_V1_Ken_Lok",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
-      {
-        "l1": "Kenya",
-        "l2": "Turkana",
-        "l3": "Turkana South"
-      }
-    ],
-    "current": [
-      "University of Bayreuth"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Text",
-  "genre": {
-    "marc": [
-      "interview"
-    ]
-  },
-  "language": [
-    "eng",
-    "swa"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "Transcription",
-      "pdf"
-    ],
-    "tech": [
-      "9 pages"
-    ],
-    "note": [
-      "Translated transcription"
-    ]
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [],
-  "tags": [
-    "Mega Infrastructure",
-    "Lamu Port-South Sudan-Ethiopia-Transport",
-    "Kenya"
-  ],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "66e30b89f27a094a184204b2"
-  },
-  "dre_id": "aca-01-0002",
-  "bitstream": "OM20200626_T001_PBK_V01_Ug_Lwe.pdf",
-  "security": "DSL2",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "UBT_OilMov2019",
-    "name": "Oil Movements: The Production and Government of Petro-(im)mobilities in East Africa"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Transcript of Interview with a local leader in Lwengo district",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2020-06-01T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Kinyera, Paddy Banya",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Bayreuth"
-      ],
-      "role": "Author"
-    },
-    {
-      "name": {
-        "label": "Doevenspeck, Martin",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Bayreuth"
-      ],
-      "role": "Research team member"
-    }
-  ],
-  "note": {
-    "$numberDouble": "NaN"
-  },
-  "subject": [],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "OM_2020_T001",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
-      {
-        "l1": "Uganda",
-        "l2": "Lwengo District",
-        "l3": {
+    "dateInfo": {
+      "created": {
+        "start": {
           "$numberDouble": "NaN"
+        },
+        "end": "2020-02-01T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Kinyera, Paddy Banya",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Bayreuth"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Doevenspeck, Martin",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Bayreuth"
+        ],
+        "role": "Research team member"
+      }
+    ],
+    "note": {
+      "$numberDouble": "NaN"
+    },
+    "subject": [],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": "OM_T002_PBK_V1_Ken_Lok",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Kenya",
+          "l2": "Turkana",
+          "l3": "Turkana South"
         }
-      }
-    ],
-    "current": [
-      "University of Bayreuth"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Group",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Text",
-  "genre": {
-    "marc": [
-      "interview"
-    ]
-  },
-  "language": [
-    "eng"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "Transcription",
-      "pdf"
-    ],
-    "tech": [
-      "6 pages"
-    ],
-    "note": [
-      "Translated transcription"
-    ]
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [],
-  "tags": [
-    "Oil Infrastructure",
-    "East African Crude Oil Pipeline",
-    "Uganda"
-  ],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "66e30b89f27a094a184204b3"
-  },
-  "dre_id": "aca-01-0003",
-  "bitstream": "OM20200225_T004PBK_V01_Ken_Lok.pdf",
-  "security": "DSL2",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "UBT_OilMov2019",
-    "name": "Oil Movements: The Production and Government of Petro-(im)mobilities in East Africa"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Transcript of Interview Chair of COE - Turkana South, Lokichar",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2020-02-01T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Kinyera, Paddy Banya",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Bayreuth"
       ],
-      "role": "Author"
+      "current": [
+        "University of Bayreuth"
+      ]
     },
-    {
-      "name": {
-        "label": "Doevenspeck, Martin",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Bayreuth"
-      ],
-      "role": "Research team member"
-    }
-  ],
-  "note": {
-    "$numberDouble": "NaN"
-  },
-  "subject": [],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "OM_2020_T004",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
-      {
-        "l1": "Kenya",
-        "l2": "Turkana",
-        "l3": "Turkana South"
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
       }
-    ],
-    "current": [
-      "University of Bayreuth"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Group",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Text",
-  "genre": {
-    "marc": [
-      "interview"
-    ]
-  },
-  "language": [
-    "eng"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "Transcription",
-      "pdf"
-    ],
-    "tech": [
-      "11 pages"
-    ],
-    "note": [
-      "Translated transcription"
-    ]
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [],
-  "tags": [
-    "Mega Infrastructure",
-    "Lamu Port-South Sudan-Ethiopia-Transport",
-    "Kenya"
-  ],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "66e30b89f27a094a184204b4"
-  },
-  "dre_id": "aca-01-0004",
-  "bitstream": "OM-20201205_T003_PBK_V01_Ug_Rak.pdf",
-  "security": "DSL2",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "UBT_OilMov2019",
-    "name": "Oil Movements: The Production and Government of Petro-(im)mobilities in East Africa"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Transcript of Interview with 2 PAPs in Lwengo district",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2020-12-01T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Kinyera, Paddy Banya",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Bayreuth"
-      ],
-      "role": "Author"
     },
-    {
-      "name": {
-        "label": "Doevenspeck, Martin",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Bayreuth"
-      ],
-      "role": "Research team member"
-    }
-  ],
-  "note": {
-    "$numberDouble": "NaN"
-  },
-  "subject": [],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "OM_2020_T003",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
-      {
-        "l1": "Kenya",
-        "l2": "Turkana",
-        "l3": "Turkana South"
-      }
-    ],
-    "current": [
-      "University of Bayreuth"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Group",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Text",
-  "genre": {
-    "marc": [
-      "interview"
-    ]
-  },
-  "language": [
-    "eng"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "Transcription",
-      "pdf"
-    ],
-    "tech": [
-      "18 pages"
-    ],
-    "note": [
-      "Translated transcription"
-    ]
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [],
-  "tags": [
-    "Oil Infrastructure",
-    "East African Crude Oil Pipeline",
-    "Uganda"
-  ],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "66e30b89f27a094a184204b5"
-  },
-  "dre_id": "aca-01-0005",
-  "bitstream": "OM20200224_A005_Jbara_Kpb_V1_m4a_Ke.m4a",
-  "security": "DSL3",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "UBT_OilMov2019",
-    "name": "Oil Movements: The Production and Government of Petro-(im)mobilities in East Africa"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Audio recording of an interview with LAPSSET project activist in Lokichar, Turkana South, Kenya",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2020-02-01T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Kinyera, Paddy Banya",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Bayreuth"
-      ],
-      "role": "Author"
+    "typeOfResource": "Text",
+    "genre": {
+      "marc": [
+        "interview"
+      ]
     },
-    {
-      "name": {
-        "label": "Doevenspeck, Martin",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Bayreuth"
+    "language": [
+      "eng",
+      "swa"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "Transcription",
+        "pdf"
       ],
-      "role": "Research team member"
-    }
-  ],
-  "note": {
-    "$numberDouble": "NaN"
+      "tech": [
+        "9 pages"
+      ],
+      "note": [
+        "Translated transcription"
+      ]
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [],
+    "tags": [
+      "Mega Infrastructure",
+      "Lamu Port-South Sudan-Ethiopia-Transport",
+      "Kenya"
+    ],
+    "updatedBy": "jy"
   },
-  "subject": [],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "A005_Jbara_Kpb_Ke",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+  {
+    "_id": {
+      "$oid": "66e30b89f27a094a184204b2"
+    },
+    "dre_id": "aca-01-0002",
+    "bitstream": "OM20200626_T001_PBK_V01_Ug_Lwe.pdf",
+    "security": "DSL2",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "UBT_OilMov2019",
+      "name": "Oil Movements: The Production and Government of Petro-(im)mobilities in East Africa"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
       {
-        "l1": "Kenya",
-        "l2": "Turkana",
-        "l3": "Turkana South"
+        "title": "Transcript of Interview with a local leader in Lwengo district",
+        "title_type": "main"
       }
     ],
-    "current": [
-      "University of Bayreuth"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Group",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Audio",
-  "genre": {
-    "marc": [
-      "interview"
-    ]
-  },
-  "language": [
-    "eng",
-    "swa"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "Audio recording"
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2020-06-01T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Kinyera, Paddy Banya",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Bayreuth"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Doevenspeck, Martin",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Bayreuth"
+        ],
+        "role": "Research team member"
+      }
     ],
-    "tech": [
-      "1hr 34 minutes"
+    "note": {
+      "$numberDouble": "NaN"
+    },
+    "subject": [],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": "OM_2020_T001",
+        "identifier_type": "Locally defined identifier"
+      }
     ],
-    "note": [
-      "Original audio recording"
-    ]
+    "location": {
+      "origin": [
+        {
+          "l1": "Uganda",
+          "l2": "Lwengo District",
+          "l3": {
+            "$numberDouble": "NaN"
+          }
+        }
+      ],
+      "current": [
+        "University of Bayreuth"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Group",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Text",
+    "genre": {
+      "marc": [
+        "interview"
+      ]
+    },
+    "language": [
+      "eng"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "Transcription",
+        "pdf"
+      ],
+      "tech": [
+        "6 pages"
+      ],
+      "note": [
+        "Translated transcription"
+      ]
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [],
+    "tags": [
+      "Oil Infrastructure",
+      "East African Crude Oil Pipeline",
+      "Uganda"
+    ],
+    "updatedBy": "jy"
   },
-  "abstract": {
-    "$numberDouble": "NaN"
+  {
+    "_id": {
+      "$oid": "66e30b89f27a094a184204b3"
+    },
+    "dre_id": "aca-01-0003",
+    "bitstream": "OM20200225_T004PBK_V01_Ken_Lok.pdf",
+    "security": "DSL2",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "UBT_OilMov2019",
+      "name": "Oil Movements: The Production and Government of Petro-(im)mobilities in East Africa"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
+      {
+        "title": "Transcript of Interview Chair of COE - Turkana South, Lokichar",
+        "title_type": "main"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2020-02-01T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Kinyera, Paddy Banya",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Bayreuth"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Doevenspeck, Martin",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Bayreuth"
+        ],
+        "role": "Research team member"
+      }
+    ],
+    "note": {
+      "$numberDouble": "NaN"
+    },
+    "subject": [],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": "OM_2020_T004",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Kenya",
+          "l2": "Turkana",
+          "l3": "Turkana South"
+        }
+      ],
+      "current": [
+        "University of Bayreuth"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Group",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Text",
+    "genre": {
+      "marc": [
+        "interview"
+      ]
+    },
+    "language": [
+      "eng"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "Transcription",
+        "pdf"
+      ],
+      "tech": [
+        "11 pages"
+      ],
+      "note": [
+        "Translated transcription"
+      ]
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [],
+    "tags": [
+      "Mega Infrastructure",
+      "Lamu Port-South Sudan-Ethiopia-Transport",
+      "Kenya"
+    ],
+    "updatedBy": "jy"
   },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
+  {
+    "_id": {
+      "$oid": "66e30b89f27a094a184204b4"
+    },
+    "dre_id": "aca-01-0004",
+    "bitstream": "OM-20201205_T003_PBK_V01_Ug_Rak.pdf",
+    "security": "DSL2",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "UBT_OilMov2019",
+      "name": "Oil Movements: The Production and Government of Petro-(im)mobilities in East Africa"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
+      {
+        "title": "Transcript of Interview with 2 PAPs in Lwengo district",
+        "title_type": "main"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2020-12-01T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Kinyera, Paddy Banya",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Bayreuth"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Doevenspeck, Martin",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Bayreuth"
+        ],
+        "role": "Research team member"
+      }
+    ],
+    "note": {
+      "$numberDouble": "NaN"
+    },
+    "subject": [],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": "OM_2020_T003",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Kenya",
+          "l2": "Turkana",
+          "l3": "Turkana South"
+        }
+      ],
+      "current": [
+        "University of Bayreuth"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Group",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Text",
+    "genre": {
+      "marc": [
+        "interview"
+      ]
+    },
+    "language": [
+      "eng"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "Transcription",
+        "pdf"
+      ],
+      "tech": [
+        "18 pages"
+      ],
+      "note": [
+        "Translated transcription"
+      ]
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [],
+    "tags": [
+      "Oil Infrastructure",
+      "East African Crude Oil Pipeline",
+      "Uganda"
+    ],
+    "updatedBy": "jy"
   },
-  "targetAudience": [],
-  "tags": [
-    "Mega Infrastructure",
-    "Lamu Port-South Sudan-Ethiopia-Transport",
-    "Kenya"
-  ],
-  "updatedBy": "jy"
-}]
+  {
+    "_id": {
+      "$oid": "66e30b89f27a094a184204b5"
+    },
+    "dre_id": "aca-01-0005",
+    "bitstream": "OM20200224_A005_Jbara_Kpb_V1_m4a_Ke.m4a",
+    "security": "DSL3",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "UBT_OilMov2019",
+      "name": "Oil Movements: The Production and Government of Petro-(im)mobilities in East Africa"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
+      {
+        "title": "Audio recording of an interview with LAPSSET project activist in Lokichar, Turkana South, Kenya",
+        "title_type": "main"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2020-02-01T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Kinyera, Paddy Banya",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Bayreuth"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Doevenspeck, Martin",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Bayreuth"
+        ],
+        "role": "Research team member"
+      }
+    ],
+    "note": {
+      "$numberDouble": "NaN"
+    },
+    "subject": [],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": "A005_Jbara_Kpb_Ke",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Kenya",
+          "l2": "Turkana",
+          "l3": "Turkana South"
+        }
+      ],
+      "current": [
+        "University of Bayreuth"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Group",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Audio",
+    "genre": {
+      "marc": [
+        "interview"
+      ]
+    },
+    "language": [
+      "eng",
+      "swa"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "Audio recording"
+      ],
+      "tech": [
+        "1hr 34 minutes"
+      ],
+      "note": [
+        "Original audio recording"
+      ]
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [],
+    "tags": [
+      "Mega Infrastructure",
+      "Lamu Port-South Sudan-Ethiopia-Transport",
+      "Kenya"
+    ],
+    "updatedBy": "jy"
+  }
+]

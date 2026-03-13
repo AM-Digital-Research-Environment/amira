@@ -1,2586 +1,2588 @@
-[{
-  "_id": {
-    "$oid": "6718f516c327cde4b57d86b5"
-  },
-  "dre_id": "aae-02-0000",
-  "bitstream": "202109-LACC-LOI-CNT-ELA.pdf",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "ULG_LOI2021",
-    "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Lagos: Ownership and Identities Concept Note",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2021-06-15T00:00:00"
+[
+  {
+    "_id": {
+      "$oid": "6718f516c327cde4b57d86b5"
     },
-    "captured": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2021-09-08T00:00:00"
+    "dre_id": "aae-02-0000",
+    "bitstream": "202109-LACC-LOI-CNT-ELA.pdf",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "ULG_LOI2021",
+      "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
     },
-    "valid": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2021-09-08T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Lawanson, Taibat",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
-    },
-    {
-      "name": {
-        "label": "Eleshin, Abisoye",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
-    },
-    {
-      "name": {
-        "label": "Akinpelu, Deji",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Rethinking Cities"
-      ],
-      "role": "Videographer"
-    },
-    {
-      "name": {
-        "label": "Enitan, Adewale",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Arts and Social Science Education, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Odubawo, Orinayo",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Urban and Regional Planning, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Bitrus, Byenyen",
-        "qualifier": "person"
-      },
-      "affl": [],
-      "role": "Artist"
-    }
-  ],
-  "note": "Concept note of the project",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85061212",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "History",
-      "authLabel": "History"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Migration",
-      "authLabel": "Migration"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "202109-LACC-LOI-CNT-ELA",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "citation": [],
+    "url": [],
+    "titleInfo": [
       {
-        "l1": "Nigeria",
-        "l2": "Lagos State",
-        "l3": "Lagos"
+        "title": "Lagos: Ownership and Identities Concept Note",
+        "title_type": "main"
       }
     ],
-    "current": [
-      "Institute of African and Diaspora Studies (IADS)"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Text",
-  "genre": {
-    "marc": [
-      "reporting"
-    ]
-  },
-  "language": [],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "created in word format and converted to pdf"
-    ],
-    "tech": [
-      "168 kilobytes",
-      "2 Pages"
-    ],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Historians",
-    "Urban Scholars",
-    "Linguists",
-    "Migration Scholars"
-  ],
-  "tags": [
-    "African Studies",
-    "Lagos",
-    "Knowledge"
-  ],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6718f516c327cde4b57d86b6"
-  },
-  "dre_id": "aae-02-0001",
-  "bitstream": "202109-LACC-LOI-INT001-ELA.pdf",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "ULG_LOI2021",
-    "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Lagos: Ownership and Identities Interview",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2021-06-15T00:00:00"
       },
-      "end": "2021-06-15T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Lawanson, Taibat",
-        "qualifier": "person"
+      "captured": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2021-09-08T00:00:00"
       },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
+      "valid": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2021-09-08T00:00:00"
+      }
     },
-    {
-      "name": {
-        "label": "Eleshin, Abisoye",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
-    },
-    {
-      "name": {
-        "label": "Akinpelu, Deji",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Rethinking Cities"
-      ],
-      "role": "Videographer"
-    },
-    {
-      "name": {
-        "label": "Enitan, Adewale",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Arts and Social Science Education, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Odubawo, Orinayo",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Urban and Regional Planning, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Bitrus, Byenyen",
-        "qualifier": "person"
-      },
-      "affl": [],
-      "role": "Artist"
-    }
-  ],
-  "note": "Interview from respondents on Lagos history",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85061212",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "History",
-      "authLabel": "History"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Migration",
-      "authLabel": "Migration"
-    }
-  ],
-  "relatedItems": {
-    "rel_succ": [
-      "202109-LACC-LOI-INT002-ELA.pdf"
-    ]
-  },
-  "identifier": [
-    {
-      "identifier": "202109-LACC-LOI-INT001-ELA",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "name": [
       {
-        "l1": "Nigeria",
-        "l2": "Lagos State",
-        "l3": "Lagos"
+        "name": {
+          "label": "Lawanson, Taibat",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Eleshin, Abisoye",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Akinpelu, Deji",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Rethinking Cities"
+        ],
+        "role": "Videographer"
+      },
+      {
+        "name": {
+          "label": "Enitan, Adewale",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Arts and Social Science Education, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Odubawo, Orinayo",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Urban and Regional Planning, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Bitrus, Byenyen",
+          "qualifier": "person"
+        },
+        "affl": [],
+        "role": "Artist"
       }
     ],
-    "current": [
-      "Institute of African and Diaspora Studies (IADS)"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Text",
-  "genre": {
-    "marc": [
-      "interview"
-    ]
-  },
-  "language": [],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "created in word format and converted to pdf"
-    ],
-    "tech": [
-      "35 kilobytes",
-      "12 Pages"
-    ],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Historians",
-    "Urban Scholars",
-    "Linguists",
-    "Migration Scholars"
-  ],
-  "tags": [
-    "African Studies",
-    "Lagos",
-    "Knowledge"
-  ],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6718f516c327cde4b57d86b7"
-  },
-  "dre_id": "aae-02-0002",
-  "bitstream": "202109-LACC-LOI-INT002-ELA.pdf",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "ULG_LOI2021",
-    "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Untitled",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2021-06-15T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Lawanson, Taibat",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
-    },
-    {
-      "name": {
-        "label": "Eleshin, Abisoye",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
-    },
-    {
-      "name": {
-        "label": "Akinpelu, Deji",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Rethinking Cities"
-      ],
-      "role": "Videographer"
-    },
-    {
-      "name": {
-        "label": "Enitan, Adewale",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Arts and Social Science Education, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Odubawo, Orinayo",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Urban and Regional Planning, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Bitrus, Byenyen",
-        "qualifier": "person"
-      },
-      "affl": [],
-      "role": "Artist"
-    }
-  ],
-  "note": "Interview from respondents on Lagos history",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85061212",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "History",
-      "authLabel": "History"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Migration",
-      "authLabel": "Migration"
-    }
-  ],
-  "relatedItems": {
-    "rel_prec": [
-      "202109-LACC-LOI-INT001-ELA.pdf"
-    ]
-  },
-  "identifier": [
-    {
-      "identifier": "202109-LACC-LOI-INT002-ELA",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "note": "Concept note of the project",
+    "subject": [
       {
-        "l1": "Nigeria",
-        "l2": "Lagos State",
-        "l3": "Lagos"
+        "uri": "http://id.loc.gov/authorities/subjects/sh85061212",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "History",
+        "authLabel": "History"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Migration",
+        "authLabel": "Migration"
       }
     ],
-    "current": [
-      "Institute of African and Diaspora Studies (IADS)"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Text",
-  "genre": {
-    "marc": [
-      "interview"
-    ]
-  },
-  "language": [],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "created in word format and converted to pdf"
-    ],
-    "tech": [
-      "41 kilobytes",
-      "11 pages"
-    ],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Historians",
-    "Urban Scholars",
-    "Linguists",
-    "Migration Scholars"
-  ],
-  "tags": [
-    "African Studies",
-    "Lagos",
-    "Knowledge"
-  ],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6718f516c327cde4b57d86b8"
-  },
-  "dre_id": "aae-99-0003",
-  "bitstream": "",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "ULG_LOI2021",
-    "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
-  },
-  "citation": [],
-  "url": [
-    "https://www.artsteps.com/embed/5f9ffd8275885b4af3d508b7/560/315"
-  ],
-  "titleInfo": [
-    {
-      "title": "Lagos: Ownership and Identities Exhibition",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2021-06-15T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Lawanson, Taibat",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
-    },
-    {
-      "name": {
-        "label": "Eleshin, Abisoye",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
-    },
-    {
-      "name": {
-        "label": "Akinpelu, Deji",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Rethinking Cities"
-      ],
-      "role": "Videographer"
-    },
-    {
-      "name": {
-        "label": "Enitan, Adewale",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Arts and Social Science Education, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Odubawo, Orinayo",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Urban and Regional Planning, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Bitrus, Byenyen",
-        "qualifier": "person"
-      },
-      "affl": [],
-      "role": "Artist"
-    }
-  ],
-  "note": "Exhibition of photographs from Lagos",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85061212",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "History",
-      "authLabel": "History"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Migration",
-      "authLabel": "Migration"
-    }
-  ],
-  "relatedItems": {
-    "rel_host": [
-      "202111-LACC-LOI-EXHB-ELA.pdf"
-    ]
-  },
-  "identifier": [
-    {
-      "identifier": "202109-LACC-LOI-EXHBimg-ELA",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "relatedItems": {},
+    "identifier": [
       {
-        "l1": "Nigeria",
-        "l2": "Lagos State",
-        "l3": "Lagos"
+        "identifier": "202109-LACC-LOI-CNT-ELA",
+        "identifier_type": "Locally defined identifier"
       }
     ],
-    "current": [
-      "Institute of African and Diaspora Studies (IADS)"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "No Raw Data",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Image",
-  "genre": {
-    "marc": [
-      "art reproduction"
-    ]
-  },
-  "language": [],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "created as online exhibition images"
+    "location": {
+      "origin": [
+        {
+          "l1": "Nigeria",
+          "l2": "Lagos State",
+          "l3": "Lagos"
+        }
+      ],
+      "current": [
+        "Institute of African and Diaspora Studies (IADS)"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Text",
+    "genre": {
+      "marc": [
+        "reporting"
+      ]
+    },
+    "language": [],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "created in word format and converted to pdf"
+      ],
+      "tech": [
+        "168 kilobytes",
+        "2 Pages"
+      ],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Historians",
+      "Urban Scholars",
+      "Linguists",
+      "Migration Scholars"
     ],
-    "tech": [],
-    "note": []
+    "tags": [
+      "African Studies",
+      "Lagos",
+      "Knowledge"
+    ],
+    "updatedBy": "jy"
   },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Historians",
-    "Urban Scholars",
-    "Linguists",
-    "Migration Scholars"
-  ],
-  "tags": [
-    "African Studies",
-    "Lagos",
-    "Knowledge"
-  ],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6718f516c327cde4b57d86b9"
-  },
-  "dre_id": "aae-02-0004",
-  "bitstream": "202111-LACC-LOI-WKSV001-ELA.mp4",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "ULG_LOI2021",
-    "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
-  },
-  "citation": [],
-  "url": [
-    "https://drive.google.com/file/d/16gNkC_yX5nBZX5H1lPPif7MwajEyg4YI/view?usp=drive_link"
-  ],
-  "titleInfo": [
-    {
-      "title": "Lagos: Ownership and Identities Workshop",
-      "title_type": "main"
+  {
+    "_id": {
+      "$oid": "6718f516c327cde4b57d86b6"
     },
-    {
-      "title": "Historical Discourse on Origins, Identities and Colonial Distruptions",
-      "title_type": "Sub"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2021-06-15T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Lawanson, Taibat",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
+    "dre_id": "aae-02-0001",
+    "bitstream": "202109-LACC-LOI-INT001-ELA.pdf",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "ULG_LOI2021",
+      "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
     },
-    {
-      "name": {
-        "label": "Eleshin, Abisoye",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
-    },
-    {
-      "name": {
-        "label": "Akinpelu, Deji",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Rethinking Cities"
-      ],
-      "role": "Videographer"
-    },
-    {
-      "name": {
-        "label": "Enitan, Adewale",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Arts and Social Science Education, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Odubawo, Orinayo",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Urban and Regional Planning, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Bitrus, Byenyen",
-        "qualifier": "person"
-      },
-      "affl": [],
-      "role": "Artist"
-    }
-  ],
-  "note": "Video recording of opening panel session",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85061212",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "History",
-      "authLabel": "History"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Migration",
-      "authLabel": "Migration"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "202111-LACC-LOI-WKSV001-ELA",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "citation": [],
+    "url": [],
+    "titleInfo": [
       {
-        "l1": "Nigeria",
-        "l2": "Lagos State",
-        "l3": "Lagos"
+        "title": "Lagos: Ownership and Identities Interview",
+        "title_type": "main"
       }
     ],
-    "current": [
-      "Institute of African and Diaspora Studies (IADS)"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Moving image",
-  "genre": {
-    "marc": [
-      "videorecording"
-    ]
-  },
-  "language": [],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "created through zoom",
-      "converted  mp4 format"
-    ],
-    "tech": [
-      "810.5 megabyte",
-      "01 hr 49 min 53 sec"
-    ],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Historians",
-    "Urban Scholars",
-    "Linguists",
-    "Migration Scholars"
-  ],
-  "tags": [
-    "African Studies",
-    "Lagos",
-    "Knowledge"
-  ],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6718f516c327cde4b57d86ba"
-  },
-  "dre_id": "aae-02-0005",
-  "bitstream": "202111-LACC-LOI-RPT-ELA.pdf",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "ULG_LOI2021",
-    "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
-  },
-  "citation": [],
-  "url": [
-    "https://iads.unilag.edu.ng/lacc/?page_id=2465"
-  ],
-  "titleInfo": [
-    {
-      "title": "Lagos: Ownership and Identities Exhibition Essay",
-      "title_type": "main"
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2021-06-15T00:00:00"
+      }
     },
-    {
-      "title": "Contemporary Discourse on the Right to the City",
-      "title_type": "Sub"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2021-09-09T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Lawanson, Taibat",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
-    },
-    {
-      "name": {
-        "label": "Eleshin, Abisoye",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
-    },
-    {
-      "name": {
-        "label": "Akinpelu, Deji",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Rethinking Cities"
-      ],
-      "role": "Videographer"
-    },
-    {
-      "name": {
-        "label": "Enitan, Adewale",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Arts and Social Science Education, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Odubawo, Orinayo",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Urban and Regional Planning, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Bitrus, Byenyen",
-        "qualifier": "person"
-      },
-      "affl": [],
-      "role": "Artist"
-    }
-  ],
-  "note": "Video recording of opening panel session",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85061212",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "History",
-      "authLabel": "History"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Migration",
-      "authLabel": "Migration"
-    }
-  ],
-  "relatedItems": {
-    "rel_cnst": [
-      "202109-LACC-LOI-EXHBimg-ELA.jpg"
-    ]
-  },
-  "identifier": [
-    {
-      "identifier": "202111-LACC-LOI-EXHB-ELA",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "name": [
       {
-        "l1": "Nigeria",
-        "l2": "Lagos State",
-        "l3": "Lagos"
+        "name": {
+          "label": "Lawanson, Taibat",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Eleshin, Abisoye",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Akinpelu, Deji",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Rethinking Cities"
+        ],
+        "role": "Videographer"
+      },
+      {
+        "name": {
+          "label": "Enitan, Adewale",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Arts and Social Science Education, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Odubawo, Orinayo",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Urban and Regional Planning, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Bitrus, Byenyen",
+          "qualifier": "person"
+        },
+        "affl": [],
+        "role": "Artist"
       }
     ],
-    "current": [
-      "Institute of African and Diaspora Studies (IADS)"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Moving image",
-  "genre": {
-    "marc": [
-      "reporting"
-    ]
-  },
-  "language": [],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "created in word format",
-      "converted to pdf"
-    ],
-    "tech": [
-      "177 kilobyte"
-    ],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Historians",
-    "Urban Scholars",
-    "Linguists",
-    "Migration Scholars"
-  ],
-  "tags": [
-    "African Studies",
-    "Lagos",
-    "Knowledge"
-  ],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6718f516c327cde4b57d86bb"
-  },
-  "dre_id": "aae-02-0006",
-  "bitstream": "202111-LACC-LOI-WKSimg001-ELA.jpg",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "ULG_LOI2021",
-    "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Lagos: Ownership and Identities Workshop Picture 1",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2021-09-21T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Lawanson, Taibat",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
-    },
-    {
-      "name": {
-        "label": "Eleshin, Abisoye",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
-    },
-    {
-      "name": {
-        "label": "Akinpelu, Deji",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Rethinking Cities"
-      ],
-      "role": "Videographer"
-    },
-    {
-      "name": {
-        "label": "Enitan, Adewale",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Arts and Social Science Education, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Odubawo, Orinayo",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Urban and Regional Planning, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Bitrus, Byenyen",
-        "qualifier": "person"
-      },
-      "affl": [],
-      "role": "Artist"
-    }
-  ],
-  "note": "Photograph from the panel session",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85061212",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "History",
-      "authLabel": "History"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Migration",
-      "authLabel": "Migration"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "202111-LACC-LOI-WKSimg001-ELA",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "note": "Interview from respondents on Lagos history",
+    "subject": [
       {
-        "l1": "Nigeria",
-        "l2": "Lagos State",
-        "l3": "Lagos"
+        "uri": "http://id.loc.gov/authorities/subjects/sh85061212",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "History",
+        "authLabel": "History"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Migration",
+        "authLabel": "Migration"
       }
     ],
-    "current": [
-      "Institute of African and Diaspora Studies (IADS)"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Image",
-  "genre": {
-    "marc": [
-      "picture"
-    ]
-  },
-  "language": [],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "created in jpg"
-    ],
-    "tech": [
-      "1 megabyte"
-    ],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Historians",
-    "Urban Scholars",
-    "Linguists",
-    "Migration Scholars"
-  ],
-  "tags": [
-    "African Studies",
-    "Lagos",
-    "Knowledge"
-  ],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6718f516c327cde4b57d86bc"
-  },
-  "dre_id": "aae-02-0007",
-  "bitstream": "202111-LACC-LOI-WKSimg002-ELA.jpg",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "ULG_LOI2021",
-    "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Lagos: Ownership and Identities Workshop Picture 2",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2021-12-14T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Lawanson, Taibat",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
+    "relatedItems": {
+      "rel_succ": [
+        "202109-LACC-LOI-INT002-ELA.pdf"
+      ]
     },
-    {
-      "name": {
-        "label": "Eleshin, Abisoye",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
-    },
-    {
-      "name": {
-        "label": "Akinpelu, Deji",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Rethinking Cities"
-      ],
-      "role": "Videographer"
-    },
-    {
-      "name": {
-        "label": "Enitan, Adewale",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Arts and Social Science Education, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Odubawo, Orinayo",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Urban and Regional Planning, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Bitrus, Byenyen",
-        "qualifier": "person"
-      },
-      "affl": [],
-      "role": "Artist"
-    }
-  ],
-  "note": "Photograph from the panel session",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85061212",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "History",
-      "authLabel": "History"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Migration",
-      "authLabel": "Migration"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "202111-LACC-LOI-WKSimg002-ELA",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "identifier": [
       {
-        "l1": "Nigeria",
-        "l2": "Lagos State",
-        "l3": "Lagos"
+        "identifier": "202109-LACC-LOI-INT001-ELA",
+        "identifier_type": "Locally defined identifier"
       }
     ],
-    "current": [
-      "Institute of African and Diaspora Studies (IADS)"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Image",
-  "genre": {
-    "marc": [
-      "picture"
-    ]
-  },
-  "language": [],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "created in jpg"
+    "location": {
+      "origin": [
+        {
+          "l1": "Nigeria",
+          "l2": "Lagos State",
+          "l3": "Lagos"
+        }
+      ],
+      "current": [
+        "Institute of African and Diaspora Studies (IADS)"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Text",
+    "genre": {
+      "marc": [
+        "interview"
+      ]
+    },
+    "language": [],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "created in word format and converted to pdf"
+      ],
+      "tech": [
+        "35 kilobytes",
+        "12 Pages"
+      ],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Historians",
+      "Urban Scholars",
+      "Linguists",
+      "Migration Scholars"
     ],
-    "tech": [
-      "1.2 megabyte"
+    "tags": [
+      "African Studies",
+      "Lagos",
+      "Knowledge"
     ],
-    "note": []
+    "updatedBy": "jy"
   },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Historians",
-    "Urban Scholars",
-    "Linguists",
-    "Migration Scholars"
-  ],
-  "tags": [
-    "African Studies",
-    "Lagos",
-    "Knowledge"
-  ],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6718f516c327cde4b57d86bd"
-  },
-  "dre_id": "aae-02-0008",
-  "bitstream": "202111-LACC-LOI-WKSimg003-ELA.jpg",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "ULG_LOI2021",
-    "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Lagos: Ownership and Identities Picture 3",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2022-04-12T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Lawanson, Taibat",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
+  {
+    "_id": {
+      "$oid": "6718f516c327cde4b57d86b7"
     },
-    {
-      "name": {
-        "label": "Eleshin, Abisoye",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
+    "dre_id": "aae-02-0002",
+    "bitstream": "202109-LACC-LOI-INT002-ELA.pdf",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "ULG_LOI2021",
+      "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
     },
-    {
-      "name": {
-        "label": "Akinpelu, Deji",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Rethinking Cities"
-      ],
-      "role": "Videographer"
-    },
-    {
-      "name": {
-        "label": "Enitan, Adewale",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Arts and Social Science Education, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Odubawo, Orinayo",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Urban and Regional Planning, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Bitrus, Byenyen",
-        "qualifier": "person"
-      },
-      "affl": [],
-      "role": "Artist"
-    }
-  ],
-  "note": "Photograph from the panel session",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85061212",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "History",
-      "authLabel": "History"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Migration",
-      "authLabel": "Migration"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "202111-LACC-LOI-WKSimg003-ELA",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "citation": [],
+    "url": [],
+    "titleInfo": [
       {
-        "l1": "Nigeria",
-        "l2": "Lagos State",
-        "l3": "Lagos"
+        "title": "Untitled",
+        "title_type": "main"
       }
     ],
-    "current": [
-      "Institute of African and Diaspora Studies (IADS)"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Image",
-  "genre": {
-    "marc": [
-      "picture"
-    ]
-  },
-  "language": [],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "created in jpg"
-    ],
-    "tech": [
-      "952 kilobyte"
-    ],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Historians",
-    "Urban Scholars",
-    "Linguists",
-    "Migration Scholars"
-  ],
-  "tags": [
-    "African Studies",
-    "Lagos",
-    "Knowledge"
-  ],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6718f516c327cde4b57d86be"
-  },
-  "dre_id": "aae-02-0009",
-  "bitstream": "202111-LACC-LOI-WKSimg004-ELA.jpg",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "ULG_LOI2021",
-    "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Lagos: Ownership and Identities Picture 4",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2023-10-18T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Lawanson, Taibat",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2021-06-15T00:00:00"
+      }
     },
-    {
-      "name": {
-        "label": "Eleshin, Abisoye",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
-    },
-    {
-      "name": {
-        "label": "Akinpelu, Deji",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Rethinking Cities"
-      ],
-      "role": "Videographer"
-    },
-    {
-      "name": {
-        "label": "Enitan, Adewale",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Arts and Social Science Education, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Odubawo, Orinayo",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Urban and Regional Planning, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Bitrus, Byenyen",
-        "qualifier": "person"
-      },
-      "affl": [],
-      "role": "Artist"
-    }
-  ],
-  "note": "Photograph from the panel session",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85061212",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "History",
-      "authLabel": "History"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Migration",
-      "authLabel": "Migration"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "202111-LACC-LOI-WKSimg004-ELA",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "name": [
       {
-        "l1": "Nigeria",
-        "l2": "Lagos State",
-        "l3": "Lagos"
+        "name": {
+          "label": "Lawanson, Taibat",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Eleshin, Abisoye",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Akinpelu, Deji",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Rethinking Cities"
+        ],
+        "role": "Videographer"
+      },
+      {
+        "name": {
+          "label": "Enitan, Adewale",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Arts and Social Science Education, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Odubawo, Orinayo",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Urban and Regional Planning, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Bitrus, Byenyen",
+          "qualifier": "person"
+        },
+        "affl": [],
+        "role": "Artist"
       }
     ],
-    "current": [
-      "Institute of African and Diaspora Studies (IADS)"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Image",
-  "genre": {
-    "marc": [
-      "picture"
-    ]
-  },
-  "language": [],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "created in jpg"
-    ],
-    "tech": [
-      "1.3 megabyte"
-    ],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Historians",
-    "Urban Scholars",
-    "Linguists",
-    "Migration Scholars"
-  ],
-  "tags": [
-    "African Studies",
-    "Lagos",
-    "Knowledge"
-  ],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6718f516c327cde4b57d86bf"
-  },
-  "dre_id": "aae-02-000a",
-  "bitstream": "202111-LACC-LOI-WKSimg005-ELA.jpg",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "ULG_LOI2021",
-    "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Lagos: Ownership and Identities Picture 5",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2023-10-18T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Lawanson, Taibat",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
-    },
-    {
-      "name": {
-        "label": "Eleshin, Abisoye",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
-    },
-    {
-      "name": {
-        "label": "Akinpelu, Deji",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Rethinking Cities"
-      ],
-      "role": "Videographer"
-    },
-    {
-      "name": {
-        "label": "Enitan, Adewale",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Arts and Social Science Education, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Odubawo, Orinayo",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Urban and Regional Planning, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Bitrus, Byenyen",
-        "qualifier": "person"
-      },
-      "affl": [],
-      "role": "Artist"
-    }
-  ],
-  "note": "Photograph from the panel session",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85061212",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "History",
-      "authLabel": "History"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Migration",
-      "authLabel": "Migration"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "202111-LACC-LOI-WKSimg005-ELA",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "note": "Interview from respondents on Lagos history",
+    "subject": [
       {
-        "l1": "Nigeria",
-        "l2": "Lagos State",
-        "l3": "Lagos"
+        "uri": "http://id.loc.gov/authorities/subjects/sh85061212",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "History",
+        "authLabel": "History"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Migration",
+        "authLabel": "Migration"
       }
     ],
-    "current": [
-      "Institute of African and Diaspora Studies (IADS)"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Image",
-  "genre": {
-    "marc": [
-      "picture"
-    ]
-  },
-  "language": [],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "created in jpg"
-    ],
-    "tech": [
-      "844 kilobyte"
-    ],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Historians",
-    "Urban Scholars",
-    "Linguists",
-    "Migration Scholars"
-  ],
-  "tags": [
-    "African Studies",
-    "Lagos",
-    "Knowledge"
-  ],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6718f516c327cde4b57d86c0"
-  },
-  "dre_id": "aae-02-000b",
-  "bitstream": "202111-LACC-LOI-DOCV002-ELA.mp4",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "ULG_LOI2021",
-    "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Lagos: Ownership and Identities Documentary",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2023-10-18T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Lawanson, Taibat",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
+    "relatedItems": {
+      "rel_prec": [
+        "202109-LACC-LOI-INT001-ELA.pdf"
+      ]
     },
-    {
-      "name": {
-        "label": "Eleshin, Abisoye",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
-    },
-    {
-      "name": {
-        "label": "Akinpelu, Deji",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Rethinking Cities"
-      ],
-      "role": "Videographer"
-    },
-    {
-      "name": {
-        "label": "Enitan, Adewale",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Arts and Social Science Education, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Odubawo, Orinayo",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Urban and Regional Planning, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Bitrus, Byenyen",
-        "qualifier": "person"
-      },
-      "affl": [],
-      "role": "Artist"
-    }
-  ],
-  "note": "Documnetary",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85061212",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "History",
-      "authLabel": "History"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Migration",
-      "authLabel": "Migration"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "202111-LACC-LOI-DOCV002-ELA",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "identifier": [
       {
-        "l1": "Nigeria",
-        "l2": "Lagos State",
-        "l3": "Lagos"
+        "identifier": "202109-LACC-LOI-INT002-ELA",
+        "identifier_type": "Locally defined identifier"
       }
     ],
-    "current": [
-      "Institute of African and Diaspora Studies (IADS)"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Moving image",
-  "genre": {
-    "marc": [
-      "videorecording"
-    ]
-  },
-  "language": [],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "created in mp4 format"
+    "location": {
+      "origin": [
+        {
+          "l1": "Nigeria",
+          "l2": "Lagos State",
+          "l3": "Lagos"
+        }
+      ],
+      "current": [
+        "Institute of African and Diaspora Studies (IADS)"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Text",
+    "genre": {
+      "marc": [
+        "interview"
+      ]
+    },
+    "language": [],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "created in word format and converted to pdf"
+      ],
+      "tech": [
+        "41 kilobytes",
+        "11 pages"
+      ],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Historians",
+      "Urban Scholars",
+      "Linguists",
+      "Migration Scholars"
     ],
-    "tech": [
-      "1.16 gigabyte",
-      "46 min 36 sec"
+    "tags": [
+      "African Studies",
+      "Lagos",
+      "Knowledge"
     ],
-    "note": []
+    "updatedBy": "jy"
   },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Historians",
-    "Urban Scholars",
-    "Linguists",
-    "Migration Scholars"
-  ],
-  "tags": [
-    "African Studies",
-    "Lagos",
-    "Knowledge"
-  ],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6718f516c327cde4b57d86c1"
-  },
-  "dre_id": "aae-02-000c",
-  "bitstream": "202111-LACC-LOI-BRCH-ELA.pdf",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "ULG_LOI2021",
-    "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Lagos: Ownership and Identities Brochure",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2023-10-18T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Lawanson, Taibat",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
+  {
+    "_id": {
+      "$oid": "6718f516c327cde4b57d86b8"
     },
-    {
-      "name": {
-        "label": "Eleshin, Abisoye",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
+    "dre_id": "aae-99-0003",
+    "bitstream": "",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "ULG_LOI2021",
+      "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
     },
-    {
-      "name": {
-        "label": "Akinpelu, Deji",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Rethinking Cities"
-      ],
-      "role": "Videographer"
-    },
-    {
-      "name": {
-        "label": "Enitan, Adewale",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Arts and Social Science Education, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Odubawo, Orinayo",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Urban and Regional Planning, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Bitrus, Byenyen",
-        "qualifier": "person"
-      },
-      "affl": [],
-      "role": "Artist"
-    }
-  ],
-  "note": "Brochure containing essays on Lagos",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85061212",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "History",
-      "authLabel": "History"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Migration",
-      "authLabel": "Migration"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "202111-LACC-LOI-BRCH-ELA",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "citation": [],
+    "url": [
+      "https://www.artsteps.com/embed/5f9ffd8275885b4af3d508b7/560/315"
+    ],
+    "titleInfo": [
       {
-        "l1": "Nigeria",
-        "l2": "Lagos State",
-        "l3": "Lagos"
+        "title": "Lagos: Ownership and Identities Exhibition",
+        "title_type": "main"
       }
     ],
-    "current": [
-      "Institute of African and Diaspora Studies (IADS)"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Text",
-  "genre": {
-    "marc": [
-      "reporting"
-    ]
-  },
-  "language": [],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "created in word format",
-      "converted to pdf"
-    ],
-    "tech": [
-      "46.4 megabyte",
-      "88 pages"
-    ],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Historians",
-    "Urban Scholars",
-    "Linguists",
-    "Migration Scholars"
-  ],
-  "tags": [
-    "African Studies",
-    "Lagos",
-    "Knowledge"
-  ],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6718f516c327cde4b57d86c2"
-  },
-  "dre_id": "aae-02-000d",
-  "bitstream": "202108-LACC-LOI-INTrec001-ELA.mp3",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "ULG_LOI2021",
-    "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Lagos: Ownership and Identities Audio Interview 1",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2023-10-18T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Lawanson, Taibat",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2021-06-15T00:00:00"
+      }
     },
-    {
-      "name": {
-        "label": "Eleshin, Abisoye",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
-    },
-    {
-      "name": {
-        "label": "Akinpelu, Deji",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Rethinking Cities"
-      ],
-      "role": "Videographer"
-    },
-    {
-      "name": {
-        "label": "Enitan, Adewale",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Arts and Social Science Education, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Odubawo, Orinayo",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Urban and Regional Planning, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Bitrus, Byenyen",
-        "qualifier": "person"
-      },
-      "affl": [],
-      "role": "Artist"
-    }
-  ],
-  "note": "Audio recording of interview",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85061212",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "History",
-      "authLabel": "History"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Migration",
-      "authLabel": "Migration"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "202108-LACC-LOI-INTrec001-ELA",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "name": [
       {
-        "l1": "Nigeria",
-        "l2": "Lagos State",
-        "l3": "Lagos"
+        "name": {
+          "label": "Lawanson, Taibat",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Eleshin, Abisoye",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Akinpelu, Deji",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Rethinking Cities"
+        ],
+        "role": "Videographer"
+      },
+      {
+        "name": {
+          "label": "Enitan, Adewale",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Arts and Social Science Education, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Odubawo, Orinayo",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Urban and Regional Planning, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Bitrus, Byenyen",
+          "qualifier": "person"
+        },
+        "affl": [],
+        "role": "Artist"
       }
     ],
-    "current": [
-      "Institute of African and Diaspora Studies (IADS)"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Audio",
-  "genre": {
-    "marc": [
-      "interview"
-    ]
-  },
-  "language": [],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "created in mp3 format"
-    ],
-    "tech": [
-      "48 megabyte",
-      "52 min 25 sec"
-    ],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Historians",
-    "Urban Scholars",
-    "Linguists",
-    "Migration Scholars"
-  ],
-  "tags": [
-    "African Studies",
-    "Lagos",
-    "Knowledge"
-  ],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6718f516c327cde4b57d86c3"
-  },
-  "dre_id": "aae-02-000e",
-  "bitstream": "202108-LACC-LOI-INTrec002-ELA.mp3",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "ULG_LOI2021",
-    "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Lagos: Ownership and Identities Audio Interview 2",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2023-10-18T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Lawanson, Taibat",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
-    },
-    {
-      "name": {
-        "label": "Eleshin, Abisoye",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
-    },
-    {
-      "name": {
-        "label": "Akinpelu, Deji",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Rethinking Cities"
-      ],
-      "role": "Videographer"
-    },
-    {
-      "name": {
-        "label": "Enitan, Adewale",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Arts and Social Science Education, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Odubawo, Orinayo",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Urban and Regional Planning, University of Lagos"
-      ],
-      "role": "Research team member"
-    },
-    {
-      "name": {
-        "label": "Bitrus, Byenyen",
-        "qualifier": "person"
-      },
-      "affl": [],
-      "role": "Artist"
-    }
-  ],
-  "note": "Audio recording of interview",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85061212",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "History",
-      "authLabel": "History"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Migration",
-      "authLabel": "Migration"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": "202108-LACC-LOI-INTrec002-ELA",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "note": "Exhibition of photographs from Lagos",
+    "subject": [
       {
-        "l1": "Nigeria",
-        "l2": "Lagos State",
-        "l3": "Lagos"
+        "uri": "http://id.loc.gov/authorities/subjects/sh85061212",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "History",
+        "authLabel": "History"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Migration",
+        "authLabel": "Migration"
       }
     ],
-    "current": [
-      "Institute of African and Diaspora Studies (IADS)"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Audio",
-  "genre": {
-    "marc": [
-      "interview"
-    ]
-  },
-  "language": [],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "created in mp3 format"
+    "relatedItems": {
+      "rel_host": [
+        "202111-LACC-LOI-EXHB-ELA.pdf"
+      ]
+    },
+    "identifier": [
+      {
+        "identifier": "202109-LACC-LOI-EXHBimg-ELA",
+        "identifier_type": "Locally defined identifier"
+      }
     ],
-    "tech": [
-      "19.3 megabyte",
-      "21 min 01 sec"
+    "location": {
+      "origin": [
+        {
+          "l1": "Nigeria",
+          "l2": "Lagos State",
+          "l3": "Lagos"
+        }
+      ],
+      "current": [
+        "Institute of African and Diaspora Studies (IADS)"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "No Raw Data",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Image",
+    "genre": {
+      "marc": [
+        "art reproduction"
+      ]
+    },
+    "language": [],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "created as online exhibition images"
+      ],
+      "tech": [],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Historians",
+      "Urban Scholars",
+      "Linguists",
+      "Migration Scholars"
     ],
-    "note": []
+    "tags": [
+      "African Studies",
+      "Lagos",
+      "Knowledge"
+    ],
+    "updatedBy": "jy"
   },
-  "abstract": {
-    "$numberDouble": "NaN"
+  {
+    "_id": {
+      "$oid": "6718f516c327cde4b57d86b9"
+    },
+    "dre_id": "aae-02-0004",
+    "bitstream": "202111-LACC-LOI-WKSV001-ELA.mp4",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "ULG_LOI2021",
+      "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+    },
+    "citation": [],
+    "url": [
+      "https://drive.google.com/file/d/16gNkC_yX5nBZX5H1lPPif7MwajEyg4YI/view?usp=drive_link"
+    ],
+    "titleInfo": [
+      {
+        "title": "Lagos: Ownership and Identities Workshop",
+        "title_type": "main"
+      },
+      {
+        "title": "Historical Discourse on Origins, Identities and Colonial Distruptions",
+        "title_type": "Sub"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2021-06-15T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Lawanson, Taibat",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Eleshin, Abisoye",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Akinpelu, Deji",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Rethinking Cities"
+        ],
+        "role": "Videographer"
+      },
+      {
+        "name": {
+          "label": "Enitan, Adewale",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Arts and Social Science Education, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Odubawo, Orinayo",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Urban and Regional Planning, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Bitrus, Byenyen",
+          "qualifier": "person"
+        },
+        "affl": [],
+        "role": "Artist"
+      }
+    ],
+    "note": "Video recording of opening panel session",
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85061212",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "History",
+        "authLabel": "History"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Migration",
+        "authLabel": "Migration"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": "202111-LACC-LOI-WKSV001-ELA",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Nigeria",
+          "l2": "Lagos State",
+          "l3": "Lagos"
+        }
+      ],
+      "current": [
+        "Institute of African and Diaspora Studies (IADS)"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Moving image",
+    "genre": {
+      "marc": [
+        "videorecording"
+      ]
+    },
+    "language": [],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "created through zoom",
+        "converted  mp4 format"
+      ],
+      "tech": [
+        "810.5 megabyte",
+        "01 hr 49 min 53 sec"
+      ],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Historians",
+      "Urban Scholars",
+      "Linguists",
+      "Migration Scholars"
+    ],
+    "tags": [
+      "African Studies",
+      "Lagos",
+      "Knowledge"
+    ],
+    "updatedBy": "jy"
   },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
+  {
+    "_id": {
+      "$oid": "6718f516c327cde4b57d86ba"
+    },
+    "dre_id": "aae-02-0005",
+    "bitstream": "202111-LACC-LOI-RPT-ELA.pdf",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "ULG_LOI2021",
+      "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+    },
+    "citation": [],
+    "url": [
+      "https://iads.unilag.edu.ng/lacc/?page_id=2465"
+    ],
+    "titleInfo": [
+      {
+        "title": "Lagos: Ownership and Identities Exhibition Essay",
+        "title_type": "main"
+      },
+      {
+        "title": "Contemporary Discourse on the Right to the City",
+        "title_type": "Sub"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2021-09-09T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Lawanson, Taibat",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Eleshin, Abisoye",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Akinpelu, Deji",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Rethinking Cities"
+        ],
+        "role": "Videographer"
+      },
+      {
+        "name": {
+          "label": "Enitan, Adewale",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Arts and Social Science Education, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Odubawo, Orinayo",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Urban and Regional Planning, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Bitrus, Byenyen",
+          "qualifier": "person"
+        },
+        "affl": [],
+        "role": "Artist"
+      }
+    ],
+    "note": "Video recording of opening panel session",
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85061212",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "History",
+        "authLabel": "History"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Migration",
+        "authLabel": "Migration"
+      }
+    ],
+    "relatedItems": {
+      "rel_cnst": [
+        "202109-LACC-LOI-EXHBimg-ELA.jpg"
+      ]
+    },
+    "identifier": [
+      {
+        "identifier": "202111-LACC-LOI-EXHB-ELA",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Nigeria",
+          "l2": "Lagos State",
+          "l3": "Lagos"
+        }
+      ],
+      "current": [
+        "Institute of African and Diaspora Studies (IADS)"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Moving image",
+    "genre": {
+      "marc": [
+        "reporting"
+      ]
+    },
+    "language": [],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "created in word format",
+        "converted to pdf"
+      ],
+      "tech": [
+        "177 kilobyte"
+      ],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Historians",
+      "Urban Scholars",
+      "Linguists",
+      "Migration Scholars"
+    ],
+    "tags": [
+      "African Studies",
+      "Lagos",
+      "Knowledge"
+    ],
+    "updatedBy": "jy"
   },
-  "targetAudience": [
-    "Historians",
-    "Urban Scholars",
-    "Linguists",
-    "Migration Scholars"
-  ],
-  "tags": [
-    "African Studies",
-    "Lagos",
-    "Knowledge"
-  ],
-  "updatedBy": "jy"
-}]
+  {
+    "_id": {
+      "$oid": "6718f516c327cde4b57d86bb"
+    },
+    "dre_id": "aae-02-0006",
+    "bitstream": "202111-LACC-LOI-WKSimg001-ELA.jpg",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "ULG_LOI2021",
+      "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
+      {
+        "title": "Lagos: Ownership and Identities Workshop Picture 1",
+        "title_type": "main"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2021-09-21T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Lawanson, Taibat",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Eleshin, Abisoye",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Akinpelu, Deji",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Rethinking Cities"
+        ],
+        "role": "Videographer"
+      },
+      {
+        "name": {
+          "label": "Enitan, Adewale",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Arts and Social Science Education, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Odubawo, Orinayo",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Urban and Regional Planning, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Bitrus, Byenyen",
+          "qualifier": "person"
+        },
+        "affl": [],
+        "role": "Artist"
+      }
+    ],
+    "note": "Photograph from the panel session",
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85061212",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "History",
+        "authLabel": "History"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Migration",
+        "authLabel": "Migration"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": "202111-LACC-LOI-WKSimg001-ELA",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Nigeria",
+          "l2": "Lagos State",
+          "l3": "Lagos"
+        }
+      ],
+      "current": [
+        "Institute of African and Diaspora Studies (IADS)"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Image",
+    "genre": {
+      "marc": [
+        "picture"
+      ]
+    },
+    "language": [],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "created in jpg"
+      ],
+      "tech": [
+        "1 megabyte"
+      ],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Historians",
+      "Urban Scholars",
+      "Linguists",
+      "Migration Scholars"
+    ],
+    "tags": [
+      "African Studies",
+      "Lagos",
+      "Knowledge"
+    ],
+    "updatedBy": "jy"
+  },
+  {
+    "_id": {
+      "$oid": "6718f516c327cde4b57d86bc"
+    },
+    "dre_id": "aae-02-0007",
+    "bitstream": "202111-LACC-LOI-WKSimg002-ELA.jpg",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "ULG_LOI2021",
+      "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
+      {
+        "title": "Lagos: Ownership and Identities Workshop Picture 2",
+        "title_type": "main"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2021-12-14T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Lawanson, Taibat",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Eleshin, Abisoye",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Akinpelu, Deji",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Rethinking Cities"
+        ],
+        "role": "Videographer"
+      },
+      {
+        "name": {
+          "label": "Enitan, Adewale",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Arts and Social Science Education, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Odubawo, Orinayo",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Urban and Regional Planning, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Bitrus, Byenyen",
+          "qualifier": "person"
+        },
+        "affl": [],
+        "role": "Artist"
+      }
+    ],
+    "note": "Photograph from the panel session",
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85061212",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "History",
+        "authLabel": "History"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Migration",
+        "authLabel": "Migration"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": "202111-LACC-LOI-WKSimg002-ELA",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Nigeria",
+          "l2": "Lagos State",
+          "l3": "Lagos"
+        }
+      ],
+      "current": [
+        "Institute of African and Diaspora Studies (IADS)"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Image",
+    "genre": {
+      "marc": [
+        "picture"
+      ]
+    },
+    "language": [],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "created in jpg"
+      ],
+      "tech": [
+        "1.2 megabyte"
+      ],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Historians",
+      "Urban Scholars",
+      "Linguists",
+      "Migration Scholars"
+    ],
+    "tags": [
+      "African Studies",
+      "Lagos",
+      "Knowledge"
+    ],
+    "updatedBy": "jy"
+  },
+  {
+    "_id": {
+      "$oid": "6718f516c327cde4b57d86bd"
+    },
+    "dre_id": "aae-02-0008",
+    "bitstream": "202111-LACC-LOI-WKSimg003-ELA.jpg",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "ULG_LOI2021",
+      "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
+      {
+        "title": "Lagos: Ownership and Identities Picture 3",
+        "title_type": "main"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2022-04-12T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Lawanson, Taibat",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Eleshin, Abisoye",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Akinpelu, Deji",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Rethinking Cities"
+        ],
+        "role": "Videographer"
+      },
+      {
+        "name": {
+          "label": "Enitan, Adewale",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Arts and Social Science Education, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Odubawo, Orinayo",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Urban and Regional Planning, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Bitrus, Byenyen",
+          "qualifier": "person"
+        },
+        "affl": [],
+        "role": "Artist"
+      }
+    ],
+    "note": "Photograph from the panel session",
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85061212",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "History",
+        "authLabel": "History"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Migration",
+        "authLabel": "Migration"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": "202111-LACC-LOI-WKSimg003-ELA",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Nigeria",
+          "l2": "Lagos State",
+          "l3": "Lagos"
+        }
+      ],
+      "current": [
+        "Institute of African and Diaspora Studies (IADS)"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Image",
+    "genre": {
+      "marc": [
+        "picture"
+      ]
+    },
+    "language": [],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "created in jpg"
+      ],
+      "tech": [
+        "952 kilobyte"
+      ],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Historians",
+      "Urban Scholars",
+      "Linguists",
+      "Migration Scholars"
+    ],
+    "tags": [
+      "African Studies",
+      "Lagos",
+      "Knowledge"
+    ],
+    "updatedBy": "jy"
+  },
+  {
+    "_id": {
+      "$oid": "6718f516c327cde4b57d86be"
+    },
+    "dre_id": "aae-02-0009",
+    "bitstream": "202111-LACC-LOI-WKSimg004-ELA.jpg",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "ULG_LOI2021",
+      "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
+      {
+        "title": "Lagos: Ownership and Identities Picture 4",
+        "title_type": "main"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2023-10-18T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Lawanson, Taibat",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Eleshin, Abisoye",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Akinpelu, Deji",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Rethinking Cities"
+        ],
+        "role": "Videographer"
+      },
+      {
+        "name": {
+          "label": "Enitan, Adewale",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Arts and Social Science Education, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Odubawo, Orinayo",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Urban and Regional Planning, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Bitrus, Byenyen",
+          "qualifier": "person"
+        },
+        "affl": [],
+        "role": "Artist"
+      }
+    ],
+    "note": "Photograph from the panel session",
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85061212",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "History",
+        "authLabel": "History"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Migration",
+        "authLabel": "Migration"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": "202111-LACC-LOI-WKSimg004-ELA",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Nigeria",
+          "l2": "Lagos State",
+          "l3": "Lagos"
+        }
+      ],
+      "current": [
+        "Institute of African and Diaspora Studies (IADS)"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Image",
+    "genre": {
+      "marc": [
+        "picture"
+      ]
+    },
+    "language": [],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "created in jpg"
+      ],
+      "tech": [
+        "1.3 megabyte"
+      ],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Historians",
+      "Urban Scholars",
+      "Linguists",
+      "Migration Scholars"
+    ],
+    "tags": [
+      "African Studies",
+      "Lagos",
+      "Knowledge"
+    ],
+    "updatedBy": "jy"
+  },
+  {
+    "_id": {
+      "$oid": "6718f516c327cde4b57d86bf"
+    },
+    "dre_id": "aae-02-000a",
+    "bitstream": "202111-LACC-LOI-WKSimg005-ELA.jpg",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "ULG_LOI2021",
+      "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
+      {
+        "title": "Lagos: Ownership and Identities Picture 5",
+        "title_type": "main"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2023-10-18T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Lawanson, Taibat",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Eleshin, Abisoye",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Akinpelu, Deji",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Rethinking Cities"
+        ],
+        "role": "Videographer"
+      },
+      {
+        "name": {
+          "label": "Enitan, Adewale",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Arts and Social Science Education, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Odubawo, Orinayo",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Urban and Regional Planning, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Bitrus, Byenyen",
+          "qualifier": "person"
+        },
+        "affl": [],
+        "role": "Artist"
+      }
+    ],
+    "note": "Photograph from the panel session",
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85061212",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "History",
+        "authLabel": "History"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Migration",
+        "authLabel": "Migration"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": "202111-LACC-LOI-WKSimg005-ELA",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Nigeria",
+          "l2": "Lagos State",
+          "l3": "Lagos"
+        }
+      ],
+      "current": [
+        "Institute of African and Diaspora Studies (IADS)"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Image",
+    "genre": {
+      "marc": [
+        "picture"
+      ]
+    },
+    "language": [],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "created in jpg"
+      ],
+      "tech": [
+        "844 kilobyte"
+      ],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Historians",
+      "Urban Scholars",
+      "Linguists",
+      "Migration Scholars"
+    ],
+    "tags": [
+      "African Studies",
+      "Lagos",
+      "Knowledge"
+    ],
+    "updatedBy": "jy"
+  },
+  {
+    "_id": {
+      "$oid": "6718f516c327cde4b57d86c0"
+    },
+    "dre_id": "aae-02-000b",
+    "bitstream": "202111-LACC-LOI-DOCV002-ELA.mp4",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "ULG_LOI2021",
+      "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
+      {
+        "title": "Lagos: Ownership and Identities Documentary",
+        "title_type": "main"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2023-10-18T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Lawanson, Taibat",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Eleshin, Abisoye",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Akinpelu, Deji",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Rethinking Cities"
+        ],
+        "role": "Videographer"
+      },
+      {
+        "name": {
+          "label": "Enitan, Adewale",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Arts and Social Science Education, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Odubawo, Orinayo",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Urban and Regional Planning, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Bitrus, Byenyen",
+          "qualifier": "person"
+        },
+        "affl": [],
+        "role": "Artist"
+      }
+    ],
+    "note": "Documnetary",
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85061212",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "History",
+        "authLabel": "History"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Migration",
+        "authLabel": "Migration"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": "202111-LACC-LOI-DOCV002-ELA",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Nigeria",
+          "l2": "Lagos State",
+          "l3": "Lagos"
+        }
+      ],
+      "current": [
+        "Institute of African and Diaspora Studies (IADS)"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Moving image",
+    "genre": {
+      "marc": [
+        "videorecording"
+      ]
+    },
+    "language": [],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "created in mp4 format"
+      ],
+      "tech": [
+        "1.16 gigabyte",
+        "46 min 36 sec"
+      ],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Historians",
+      "Urban Scholars",
+      "Linguists",
+      "Migration Scholars"
+    ],
+    "tags": [
+      "African Studies",
+      "Lagos",
+      "Knowledge"
+    ],
+    "updatedBy": "jy"
+  },
+  {
+    "_id": {
+      "$oid": "6718f516c327cde4b57d86c1"
+    },
+    "dre_id": "aae-02-000c",
+    "bitstream": "202111-LACC-LOI-BRCH-ELA.pdf",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "ULG_LOI2021",
+      "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
+      {
+        "title": "Lagos: Ownership and Identities Brochure",
+        "title_type": "main"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2023-10-18T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Lawanson, Taibat",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Eleshin, Abisoye",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Akinpelu, Deji",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Rethinking Cities"
+        ],
+        "role": "Videographer"
+      },
+      {
+        "name": {
+          "label": "Enitan, Adewale",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Arts and Social Science Education, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Odubawo, Orinayo",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Urban and Regional Planning, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Bitrus, Byenyen",
+          "qualifier": "person"
+        },
+        "affl": [],
+        "role": "Artist"
+      }
+    ],
+    "note": "Brochure containing essays on Lagos",
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85061212",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "History",
+        "authLabel": "History"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Migration",
+        "authLabel": "Migration"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": "202111-LACC-LOI-BRCH-ELA",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Nigeria",
+          "l2": "Lagos State",
+          "l3": "Lagos"
+        }
+      ],
+      "current": [
+        "Institute of African and Diaspora Studies (IADS)"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Text",
+    "genre": {
+      "marc": [
+        "reporting"
+      ]
+    },
+    "language": [],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "created in word format",
+        "converted to pdf"
+      ],
+      "tech": [
+        "46.4 megabyte",
+        "88 pages"
+      ],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Historians",
+      "Urban Scholars",
+      "Linguists",
+      "Migration Scholars"
+    ],
+    "tags": [
+      "African Studies",
+      "Lagos",
+      "Knowledge"
+    ],
+    "updatedBy": "jy"
+  },
+  {
+    "_id": {
+      "$oid": "6718f516c327cde4b57d86c2"
+    },
+    "dre_id": "aae-02-000d",
+    "bitstream": "202108-LACC-LOI-INTrec001-ELA.mp3",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "ULG_LOI2021",
+      "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
+      {
+        "title": "Lagos: Ownership and Identities Audio Interview 1",
+        "title_type": "main"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2023-10-18T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Lawanson, Taibat",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Eleshin, Abisoye",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Akinpelu, Deji",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Rethinking Cities"
+        ],
+        "role": "Videographer"
+      },
+      {
+        "name": {
+          "label": "Enitan, Adewale",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Arts and Social Science Education, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Odubawo, Orinayo",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Urban and Regional Planning, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Bitrus, Byenyen",
+          "qualifier": "person"
+        },
+        "affl": [],
+        "role": "Artist"
+      }
+    ],
+    "note": "Audio recording of interview",
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85061212",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "History",
+        "authLabel": "History"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Migration",
+        "authLabel": "Migration"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": "202108-LACC-LOI-INTrec001-ELA",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Nigeria",
+          "l2": "Lagos State",
+          "l3": "Lagos"
+        }
+      ],
+      "current": [
+        "Institute of African and Diaspora Studies (IADS)"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Audio",
+    "genre": {
+      "marc": [
+        "interview"
+      ]
+    },
+    "language": [],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "created in mp3 format"
+      ],
+      "tech": [
+        "48 megabyte",
+        "52 min 25 sec"
+      ],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Historians",
+      "Urban Scholars",
+      "Linguists",
+      "Migration Scholars"
+    ],
+    "tags": [
+      "African Studies",
+      "Lagos",
+      "Knowledge"
+    ],
+    "updatedBy": "jy"
+  },
+  {
+    "_id": {
+      "$oid": "6718f516c327cde4b57d86c3"
+    },
+    "dre_id": "aae-02-000e",
+    "bitstream": "202108-LACC-LOI-INTrec002-ELA.mp3",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "ULG_LOI2021",
+      "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
+      {
+        "title": "Lagos: Ownership and Identities Audio Interview 2",
+        "title_type": "main"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2023-10-18T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Lawanson, Taibat",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Eleshin, Abisoye",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Akinpelu, Deji",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Rethinking Cities"
+        ],
+        "role": "Videographer"
+      },
+      {
+        "name": {
+          "label": "Enitan, Adewale",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Arts and Social Science Education, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Odubawo, Orinayo",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Urban and Regional Planning, University of Lagos"
+        ],
+        "role": "Research team member"
+      },
+      {
+        "name": {
+          "label": "Bitrus, Byenyen",
+          "qualifier": "person"
+        },
+        "affl": [],
+        "role": "Artist"
+      }
+    ],
+    "note": "Audio recording of interview",
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85061212",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "History",
+        "authLabel": "History"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh00005935",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Migration",
+        "authLabel": "Migration"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": "202108-LACC-LOI-INTrec002-ELA",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Nigeria",
+          "l2": "Lagos State",
+          "l3": "Lagos"
+        }
+      ],
+      "current": [
+        "Institute of African and Diaspora Studies (IADS)"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Audio",
+    "genre": {
+      "marc": [
+        "interview"
+      ]
+    },
+    "language": [],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "created in mp3 format"
+      ],
+      "tech": [
+        "19.3 megabyte",
+        "21 min 01 sec"
+      ],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Historians",
+      "Urban Scholars",
+      "Linguists",
+      "Migration Scholars"
+    ],
+    "tags": [
+      "African Studies",
+      "Lagos",
+      "Knowledge"
+    ],
+    "updatedBy": "jy"
+  }
+]

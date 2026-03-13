@@ -1,2765 +1,2788 @@
-[{
-  "_id": {
-    "$oid": "6718f35ec327cde4b57d869f"
-  },
-  "dre_id": "abb-02-0000",
-  "bitstream": "202008-LACC-CVD19-Report-PAA.pdf",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "ULG_IWCVD2021",
-    "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "The Vulnerable also Fight COVID-19: Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2020-08-11T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Akin-Otiko, Akinmayowa",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
+[
+  {
+    "_id": {
+      "$oid": "6718f35ec327cde4b57d869f"
     },
-    {
-      "name": {
-        "label": "Fayemi, Kazeem",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Philosophy, University of Lagos"
-      ],
-      "role": "Author"
-    }
-  ],
-  "note": "Report on the study done and published",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh2020000570",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "COVID-19 (Disease)",
-      "authLabel": "COVID-19 (Disease)"
+    "dre_id": "abb-02-0000",
+    "bitstream": "202008-LACC-CVD19-Report-PAA.pdf",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "ULG_IWCVD2021",
+      "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
     },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85137025",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Transport Workers",
-      "authLabel": "Transport workers"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": " 202008-LACC-CVD19-Report-PAA",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "citation": [],
+    "url": [],
+    "titleInfo": [
       {
-        "l1": "Nigeria",
-        "l2": "Lagos State",
-        "l3": "Lagos"
+        "title": "The Vulnerable also Fight COVID-19: Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria",
+        "title_type": "main"
       }
     ],
-    "current": [
-      "Institute of African and Diaspora Studies (IADS)"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Text",
-  "genre": {
-    "marc": [
-      "reporting"
-    ]
-  },
-  "language": [
-    "eng"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "PDF"
-    ],
-    "tech": [],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Historians",
-    "Researchers",
-    "Commercial Drivers",
-    "Petty Marketers"
-  ],
-  "tags": [
-    "Nigeria",
-    "Lagos",
-    "Marketer"
-  ],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6718f35ec327cde4b57d86a0"
-  },
-  "dre_id": "abb-02-0001",
-  "bitstream": "202008-LACC-CVD19-inter-PAA.pdf",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "ULG_IWCVD2021",
-    "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "The Vulnerable also Fight COVID-19: Interview in Lagos, Nigeria",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2020-08-11T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Akin-Otiko, Akinmayowa",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2020-08-11T00:00:00"
+      }
     },
-    {
-      "name": {
-        "label": "Fayemi, Kazeem",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Philosophy, University of Lagos"
-      ],
-      "role": "Author"
-    }
-  ],
-  "note": "Interviews on the study done and transcribed",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh2020000570",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "COVID-19 (Disease)",
-      "authLabel": "COVID-19 (Disease)"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85137025",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Transport Workers",
-      "authLabel": "Transport workers"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": " 202008-LACC-CVD19-Inter-PAA",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "name": [
       {
-        "l1": "Nigeria",
-        "l2": "Lagos State",
-        "l3": "Lagos"
+        "name": {
+          "label": "Akin-Otiko, Akinmayowa",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Fayemi, Kazeem",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Philosophy, University of Lagos"
+        ],
+        "role": "Author"
       }
     ],
-    "current": [
-      "Institute of African and Diaspora Studies (IADS)"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Text",
-  "genre": {
-    "marc": [
-      "interview"
-    ]
-  },
-  "language": [
-    "eng"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "Interview"
-    ],
-    "tech": [],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Historians",
-    "Researchers",
-    "Commercial Drivers",
-    "Petty Marketers"
-  ],
-  "tags": [
-    "Nigeria",
-    "Lagos",
-    "Marketer"
-  ],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6718f35ec327cde4b57d86a1"
-  },
-  "dre_id": "abb-02-0002",
-  "bitstream": "202008-LACC-CVD19-Art-PAA.pdf",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "ULG_IWCVD2021",
-    "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "Article on the Vulnerable also Fight COVID-19: Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": "2020-08-11T00:00:00",
-      "end": "2020-12-28T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Akin-Otiko, Akinmayowa",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
-    },
-    {
-      "name": {
-        "label": "Fayemi, Kazeem",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Philosophy, University of Lagos"
-      ],
-      "role": "Author"
-    }
-  ],
-  "note": "Article for the study awaiting publication",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh2020000570",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "COVID-19 (Disease)",
-      "authLabel": "COVID-19 (Disease)"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85137025",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Transport Workers",
-      "authLabel": "Transport workers"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": " 202008-LACC-CVD19-Article-PAA",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "note": "Report on the study done and published",
+    "subject": [
       {
-        "l1": "Nigeria",
-        "l2": "Lagos State",
-        "l3": "Lagos"
+        "uri": "http://id.loc.gov/authorities/subjects/sh2020000570",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "COVID-19 (Disease)",
+        "authLabel": "COVID-19 (Disease)"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85137025",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Transport Workers",
+        "authLabel": "Transport workers"
       }
     ],
-    "current": [
-      "Institute of African and Diaspora Studies (IADS)"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Text",
-  "genre": {
-    "marc": [
-      "article"
-    ]
-  },
-  "language": [
-    "eng"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "Article"
-    ],
-    "tech": [],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Historians",
-    "Researchers",
-    "Commercial Drivers",
-    "Petty Marketers"
-  ],
-  "tags": [
-    "Nigeria",
-    "Lagos",
-    "Marketer"
-  ],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6718f35ec327cde4b57d86a2"
-  },
-  "dre_id": "abb-02-0003",
-  "bitstream": "202008-LACC-CVD19-Img01-PAA.jpg",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "ULG_IWCVD2021",
-    "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "The Vulnerable also Fight COVID-19: Image 1, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2020-08-11T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Akin-Otiko, Akinmayowa",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
-    },
-    {
-      "name": {
-        "label": "Fayemi, Kazeem",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Philosophy, University of Lagos"
-      ],
-      "role": "Author"
-    }
-  ],
-  "note": "Pictures for the study completely taken",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh2020000570",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "COVID-19 (Disease)",
-      "authLabel": "COVID-19 (Disease)"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85137025",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Transport Workers",
-      "authLabel": "Transport workers"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": " 202008-LACC-CVD19-Img01-PAA",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "relatedItems": {},
+    "identifier": [
       {
-        "l1": "Nigeria",
-        "l2": "Lagos State",
-        "l3": "Lagos"
+        "identifier": " 202008-LACC-CVD19-Report-PAA",
+        "identifier_type": "Locally defined identifier"
       }
     ],
-    "current": [
-      "Institute of African and Diaspora Studies (IADS)"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Image",
-  "genre": {
-    "marc": [
-      "Picture"
-    ]
-  },
-  "language": [
-    "eng"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "Picture"
+    "location": {
+      "origin": [
+        {
+          "l1": "Nigeria",
+          "l2": "Lagos State",
+          "l3": "Lagos"
+        }
+      ],
+      "current": [
+        "Institute of African and Diaspora Studies (IADS)"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Text",
+    "genre": {
+      "marc": [
+        "reporting"
+      ]
+    },
+    "language": [
+      "eng"
     ],
-    "tech": [],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Historians",
-    "Researchers",
-    "Commercial Drivers",
-    "Petty Marketers"
-  ],
-  "tags": [
-    "Nigeria",
-    "Lagos",
-    "Marketer"
-  ],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6718f35ec327cde4b57d86a3"
-  },
-  "dre_id": "abb-02-0004",
-  "bitstream": "202008-LACC-CVD19-Img02-PAA.jpeg",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "ULG_IWCVD2021",
-    "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "The Vulnerable also Fight COVID-19: Image 2, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2020-08-19T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Akin-Otiko, Akinmayowa",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "PDF"
       ],
-      "role": "Author"
+      "tech": [],
+      "note": []
     },
-    {
-      "name": {
-        "label": "Fayemi, Kazeem",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Philosophy, University of Lagos"
-      ],
-      "role": "Author"
-    }
-  ],
-  "note": "Pictures for the study completely taken",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh2020000570",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "COVID-19 (Disease)",
-      "authLabel": "COVID-19 (Disease)"
+    "abstract": {
+      "$numberDouble": "NaN"
     },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85137025",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Transport Workers",
-      "authLabel": "Transport workers"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": " 202008-LACC-CVD19-Img02-PAA",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Historians",
+      "Researchers",
+      "Commercial Drivers",
+      "Petty Marketers"
+    ],
+    "tags": [
+      "Nigeria",
+      "Lagos",
+      "Marketer",
+      "COVID-19"
+    ],
+    "updatedBy": "jy"
+  },
+  {
+    "_id": {
+      "$oid": "6718f35ec327cde4b57d86a0"
+    },
+    "dre_id": "abb-02-0001",
+    "bitstream": "202008-LACC-CVD19-inter-PAA.pdf",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "ULG_IWCVD2021",
+      "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
       {
-        "l1": "Nigeria",
-        "l2": "Lagos State",
-        "l3": "Lagos"
+        "title": "The Vulnerable also Fight COVID-19: Interview in Lagos, Nigeria",
+        "title_type": "main"
       }
     ],
-    "current": [
-      "Institute of African and Diaspora Studies (IADS)"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Image",
-  "genre": {
-    "marc": [
-      "Picture"
-    ]
-  },
-  "language": [
-    "eng"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "Picture"
-    ],
-    "tech": [],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Historians",
-    "Researchers",
-    "Commercial Drivers",
-    "Petty Marketers"
-  ],
-  "tags": [
-    "Nigeria",
-    "Lagos",
-    "Marketer"
-  ],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6718f35ec327cde4b57d86a4"
-  },
-  "dre_id": "abb-02-0005",
-  "bitstream": "202008-LACC-CVD19-Img03-PAA.jpeg",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "ULG_IWCVD2021",
-    "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "The Vulnerable also Fight COVID-19: Image 3, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2020-09-11T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Akin-Otiko, Akinmayowa",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2020-08-11T00:00:00"
+      }
     },
-    {
-      "name": {
-        "label": "Fayemi, Kazeem",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Philosophy, University of Lagos"
-      ],
-      "role": "Author"
-    }
-  ],
-  "note": "Pictures for the study completely taken",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh2020000570",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "COVID-19 (Disease)",
-      "authLabel": "COVID-19 (Disease)"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85137025",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Transport Workers",
-      "authLabel": "Transport workers"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": " 202008-LACC-CVD19-Img03-PAA",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "name": [
       {
-        "l1": "Nigeria",
-        "l2": "Lagos State",
-        "l3": "Lagos"
+        "name": {
+          "label": "Akin-Otiko, Akinmayowa",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Fayemi, Kazeem",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Philosophy, University of Lagos"
+        ],
+        "role": "Author"
       }
     ],
-    "current": [
-      "Institute of African and Diaspora Studies (IADS)"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Image",
-  "genre": {
-    "marc": [
-      "Picture"
-    ]
-  },
-  "language": [
-    "eng"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "Picture"
-    ],
-    "tech": [],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Historians",
-    "Researchers",
-    "Commercial Drivers",
-    "Petty Marketers"
-  ],
-  "tags": [
-    "Nigeria",
-    "Lagos",
-    "Marketer"
-  ],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6718f35ec327cde4b57d86a5"
-  },
-  "dre_id": "abb-02-0006",
-  "bitstream": "202008-LACC-CVD19-Img04-PAA.jpeg",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "ULG_IWCVD2021",
-    "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "The Vulnerable also Fight COVID-19: Image 4, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2020-12-28T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Akin-Otiko, Akinmayowa",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
-    },
-    {
-      "name": {
-        "label": "Fayemi, Kazeem",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Philosophy, University of Lagos"
-      ],
-      "role": "Author"
-    }
-  ],
-  "note": "Pictures for the study completely taken",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh2020000570",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "COVID-19 (Disease)",
-      "authLabel": "COVID-19 (Disease)"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85137025",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Transport Workers",
-      "authLabel": "Transport workers"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": " 202008-LACC-CVD19-Img04-PAA",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "note": "Interviews on the study done and transcribed",
+    "subject": [
       {
-        "l1": "Nigeria",
-        "l2": "Lagos State",
-        "l3": "Lagos"
+        "uri": "http://id.loc.gov/authorities/subjects/sh2020000570",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "COVID-19 (Disease)",
+        "authLabel": "COVID-19 (Disease)"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85137025",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Transport Workers",
+        "authLabel": "Transport workers"
       }
     ],
-    "current": [
-      "Institute of African and Diaspora Studies (IADS)"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Image",
-  "genre": {
-    "marc": [
-      "Picture"
-    ]
-  },
-  "language": [
-    "eng"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "Picture"
-    ],
-    "tech": [],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Historians",
-    "Researchers",
-    "Commercial Drivers",
-    "Petty Marketers"
-  ],
-  "tags": [
-    "Nigeria",
-    "Lagos",
-    "Marketer"
-  ],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6718f35ec327cde4b57d86a6"
-  },
-  "dre_id": "abb-02-0007",
-  "bitstream": "202008-LACC-CVD19-Img05-PAA.jpg",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "ULG_IWCVD2021",
-    "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "The Vulnerable also Fight COVID-19: Image 5, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2020-12-20T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Akin-Otiko, Akinmayowa",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
-    },
-    {
-      "name": {
-        "label": "Fayemi, Kazeem",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Philosophy, University of Lagos"
-      ],
-      "role": "Author"
-    }
-  ],
-  "note": "Pictures for the study completely taken",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh2020000570",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "COVID-19 (Disease)",
-      "authLabel": "COVID-19 (Disease)"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85137025",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Transport Workers",
-      "authLabel": "Transport workers"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": " 202008-LACC-CVD19-Img05-PAA",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "relatedItems": {},
+    "identifier": [
       {
-        "l1": "Nigeria",
-        "l2": "Lagos State",
-        "l3": "Lagos"
+        "identifier": " 202008-LACC-CVD19-Inter-PAA",
+        "identifier_type": "Locally defined identifier"
       }
     ],
-    "current": [
-      "Institute of African and Diaspora Studies (IADS)"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Image",
-  "genre": {
-    "marc": [
-      "picture"
-    ]
-  },
-  "language": [
-    "eng"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "Picture"
+    "location": {
+      "origin": [
+        {
+          "l1": "Nigeria",
+          "l2": "Lagos State",
+          "l3": "Lagos"
+        }
+      ],
+      "current": [
+        "Institute of African and Diaspora Studies (IADS)"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Text",
+    "genre": {
+      "marc": [
+        "interview"
+      ]
+    },
+    "language": [
+      "eng"
     ],
-    "tech": [],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Historians",
-    "Researchers",
-    "Commercial Drivers",
-    "Petty Marketers"
-  ],
-  "tags": [
-    "Nigeria",
-    "Lagos",
-    "Marketer"
-  ],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6718f35ec327cde4b57d86a7"
-  },
-  "dre_id": "abb-02-0008",
-  "bitstream": "202008-LACC-CVD19-Img06-PAA.jpg",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "ULG_IWCVD2021",
-    "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "The Vulnerable also Fight COVID-19: Image 6, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2020-12-25T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Akin-Otiko, Akinmayowa",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "Interview"
       ],
-      "role": "Author"
+      "tech": [],
+      "note": []
     },
-    {
-      "name": {
-        "label": "Fayemi, Kazeem",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Philosophy, University of Lagos"
-      ],
-      "role": "Author"
-    }
-  ],
-  "note": "Pictures for the study completely taken",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh2020000570",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "COVID-19 (Disease)",
-      "authLabel": "COVID-19 (Disease)"
+    "abstract": {
+      "$numberDouble": "NaN"
     },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85137025",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Transport Workers",
-      "authLabel": "Transport workers"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": " 202008-LACC-CVD19-Img06-PAA",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Historians",
+      "Researchers",
+      "Commercial Drivers",
+      "Petty Marketers"
+    ],
+    "tags": [
+      "Nigeria",
+      "Lagos",
+      "Marketer",
+      "COVID-19"
+    ],
+    "updatedBy": "jy"
+  },
+  {
+    "_id": {
+      "$oid": "6718f35ec327cde4b57d86a1"
+    },
+    "dre_id": "abb-02-0002",
+    "bitstream": "202008-LACC-CVD19-Art-PAA.pdf",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "ULG_IWCVD2021",
+      "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
       {
-        "l1": "Nigeria",
-        "l2": "Lagos State",
-        "l3": "Lagos"
+        "title": "Article on the Vulnerable also Fight COVID-19: Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria",
+        "title_type": "main"
       }
     ],
-    "current": [
-      "Institute of African and Diaspora Studies (IADS)"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Image",
-  "genre": {
-    "marc": [
-      "Picture"
-    ]
-  },
-  "language": [
-    "eng"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "Picture"
-    ],
-    "tech": [],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Historians",
-    "Researchers",
-    "Commercial Drivers",
-    "Petty Marketers"
-  ],
-  "tags": [
-    "Nigeria",
-    "Lagos",
-    "Marketer"
-  ],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6718f35ec327cde4b57d86a8"
-  },
-  "dre_id": "abb-02-0009",
-  "bitstream": "202008-LACC-CVD19-Img07-PAA.jpeg",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "ULG_IWCVD2021",
-    "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "The Vulnerable also Fight COVID-19: Image 7, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2020-12-28T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Akin-Otiko, Akinmayowa",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
+    "dateInfo": {
+      "created": {
+        "start": "2020-08-11T00:00:00",
+        "end": "2020-12-28T00:00:00"
+      }
     },
-    {
-      "name": {
-        "label": "Fayemi, Kazeem",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Philosophy, University of Lagos"
-      ],
-      "role": "Author"
-    }
-  ],
-  "note": "Pictures for the study completely taken",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh2020000570",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "COVID-19 (Disease)",
-      "authLabel": "COVID-19 (Disease)"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85137025",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Transport Workers",
-      "authLabel": "Transport workers"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": " 202008-LACC-CVD19-Img07-PAA",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "name": [
       {
-        "l1": "Nigeria",
-        "l2": "Lagos State",
-        "l3": "Lagos"
+        "name": {
+          "label": "Akin-Otiko, Akinmayowa",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Fayemi, Kazeem",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Philosophy, University of Lagos"
+        ],
+        "role": "Author"
       }
     ],
-    "current": [
-      "Institute of African and Diaspora Studies (IADS)"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Image",
-  "genre": {
-    "marc": [
-      "Picture"
-    ]
-  },
-  "language": [
-    "eng"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "Picture"
-    ],
-    "tech": [],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Historians",
-    "Researchers",
-    "Commercial Drivers",
-    "Petty Marketers"
-  ],
-  "tags": [
-    "Nigeria",
-    "Lagos",
-    "Marketer"
-  ],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6718f35ec327cde4b57d86a9"
-  },
-  "dre_id": "abb-02-000a",
-  "bitstream": "202008-LACC-CVD19-Img08-PAA.jpg",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "ULG_IWCVD2021",
-    "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "The Vulnerable also Fight COVID-19: Image 8, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2020-12-28T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Akin-Otiko, Akinmayowa",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
-    },
-    {
-      "name": {
-        "label": "Fayemi, Kazeem",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Philosophy, University of Lagos"
-      ],
-      "role": "Author"
-    }
-  ],
-  "note": "Pictures for the study completely taken",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh2020000570",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "COVID-19 (Disease)",
-      "authLabel": "COVID-19 (Disease)"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85137025",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Transport Workers",
-      "authLabel": "Transport workers"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": " 202008-LACC-CVD19-Img08-PAA",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "note": "Article for the study awaiting publication",
+    "subject": [
       {
-        "l1": "Nigeria",
-        "l2": "Lagos State",
-        "l3": "Lagos"
+        "uri": "http://id.loc.gov/authorities/subjects/sh2020000570",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "COVID-19 (Disease)",
+        "authLabel": "COVID-19 (Disease)"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85137025",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Transport Workers",
+        "authLabel": "Transport workers"
       }
     ],
-    "current": [
-      "Institute of African and Diaspora Studies (IADS)"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Image",
-  "genre": {
-    "marc": [
-      "Picture"
-    ]
-  },
-  "language": [
-    "eng"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "Picture"
-    ],
-    "tech": [],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Historians",
-    "Researchers",
-    "Commercial Drivers",
-    "Petty Marketers"
-  ],
-  "tags": [
-    "Nigeria",
-    "Lagos",
-    "Marketer"
-  ],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6718f35ec327cde4b57d86aa"
-  },
-  "dre_id": "abb-02-000b",
-  "bitstream": "202008-LACC-CVD19-Img09-PAA.jpeg",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "ULG_IWCVD2021",
-    "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "The Vulnerable also Fight COVID-19: Image 9, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2020-12-28T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Akin-Otiko, Akinmayowa",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
-    },
-    {
-      "name": {
-        "label": "Fayemi, Kazeem",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Philosophy, University of Lagos"
-      ],
-      "role": "Author"
-    }
-  ],
-  "note": "Pictures for the study completely taken",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh2020000570",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "COVID-19 (Disease)",
-      "authLabel": "COVID-19 (Disease)"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85137025",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Transport Workers",
-      "authLabel": "Transport workers"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": " 202008-LACC-CVD19-Img09-PAA",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "relatedItems": {},
+    "identifier": [
       {
-        "l1": "Nigeria",
-        "l2": "Lagos State",
-        "l3": "Lagos"
+        "identifier": " 202008-LACC-CVD19-Article-PAA",
+        "identifier_type": "Locally defined identifier"
       }
     ],
-    "current": [
-      "Institute of African and Diaspora Studies (IADS)"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Image",
-  "genre": {
-    "marc": [
-      "Picture"
-    ]
-  },
-  "language": [
-    "eng"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "Picture"
+    "location": {
+      "origin": [
+        {
+          "l1": "Nigeria",
+          "l2": "Lagos State",
+          "l3": "Lagos"
+        }
+      ],
+      "current": [
+        "Institute of African and Diaspora Studies (IADS)"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Text",
+    "genre": {
+      "marc": [
+        "article"
+      ]
+    },
+    "language": [
+      "eng"
     ],
-    "tech": [],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Historians",
-    "Researchers",
-    "Commercial Drivers",
-    "Petty Marketers"
-  ],
-  "tags": [
-    "Nigeria",
-    "Lagos",
-    "Marketer"
-  ],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6718f35ec327cde4b57d86ab"
-  },
-  "dre_id": "abb-02-000c",
-  "bitstream": "202008-LACC-CVD19-Img10-PAA.jpg",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "ULG_IWCVD2021",
-    "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "The Vulnerable also Fight COVID-19: Image 10, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2020-08-11T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Akin-Otiko, Akinmayowa",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "Article"
       ],
-      "role": "Author"
+      "tech": [],
+      "note": []
     },
-    {
-      "name": {
-        "label": "Fayemi, Kazeem",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Philosophy, University of Lagos"
-      ],
-      "role": "Author"
-    }
-  ],
-  "note": "Pictures for the study completely taken",
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh2020000570",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "COVID-19 (Disease)",
-      "authLabel": "COVID-19 (Disease)"
+    "abstract": {
+      "$numberDouble": "NaN"
     },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85137025",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Transport Workers",
-      "authLabel": "Transport workers"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": " 202008-LACC-CVD19-Img10-PAA",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Historians",
+      "Researchers",
+      "Commercial Drivers",
+      "Petty Marketers"
+    ],
+    "tags": [
+      "Nigeria",
+      "Lagos",
+      "Marketer",
+      "COVID-19"
+    ],
+    "updatedBy": "jy"
+  },
+  {
+    "_id": {
+      "$oid": "6718f35ec327cde4b57d86a2"
+    },
+    "dre_id": "abb-02-0003",
+    "bitstream": "202008-LACC-CVD19-Img01-PAA.jpg",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "ULG_IWCVD2021",
+      "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
       {
-        "l1": "Nigeria",
-        "l2": "Lagos State",
-        "l3": "Lagos"
+        "title": "The Vulnerable also Fight COVID-19: Image 1, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria",
+        "title_type": "main"
       }
     ],
-    "current": [
-      "Institute of African and Diaspora Studies (IADS)"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Image",
-  "genre": {
-    "marc": [
-      "Picture"
-    ]
-  },
-  "language": [
-    "eng"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "Picture"
-    ],
-    "tech": [],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Historians",
-    "Researchers",
-    "Commercial Drivers",
-    "Petty Marketers"
-  ],
-  "tags": [
-    "Nigeria",
-    "Lagos",
-    "Marketer"
-  ],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6718f35ec327cde4b57d86ac"
-  },
-  "dre_id": "abb-02-000d",
-  "bitstream": "202008-LACC-CVD19-V01-PAA.mp4",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "ULG_IWCVD2021",
-    "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "The Vulnerable also Fight COVID-19: Video 1, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2020-08-17T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Akin-Otiko, Akinmayowa",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2020-08-11T00:00:00"
+      }
     },
-    {
-      "name": {
-        "label": "Fayemi, Kazeem",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Philosophy, University of Lagos"
-      ],
-      "role": "Author"
-    }
-  ],
-  "note": {
-    "$numberDouble": "NaN"
-  },
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh2020000570",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "COVID-19 (Disease)",
-      "authLabel": "COVID-19 (Disease)"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85137025",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Transport Workers",
-      "authLabel": "Transport workers"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": " 202008-LACC-CVD19-V01-PAA",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "name": [
       {
-        "l1": "Nigeria",
-        "l2": "Lagos State",
-        "l3": "Lagos"
+        "name": {
+          "label": "Akin-Otiko, Akinmayowa",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Fayemi, Kazeem",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Philosophy, University of Lagos"
+        ],
+        "role": "Author"
       }
     ],
-    "current": [
-      "Institute of African and Diaspora Studies (IADS)"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Moving image",
-  "genre": {
-    "marc": [
-      "videorecording"
-    ]
-  },
-  "language": [
-    "eng"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "Video"
-    ],
-    "tech": [],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Historians",
-    "Researchers",
-    "Commercial Drivers",
-    "Petty Marketers"
-  ],
-  "tags": [
-    "Nigeria",
-    "Lagos",
-    "Marketer"
-  ],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6718f35ec327cde4b57d86ad"
-  },
-  "dre_id": "abb-02-000e",
-  "bitstream": "202008-LACC-CVD19-V02-PAA.mp4",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "ULG_IWCVD2021",
-    "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "The Vulnerable also Fight COVID-19: Video 2, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2020-08-17T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Akin-Otiko, Akinmayowa",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
-    },
-    {
-      "name": {
-        "label": "Fayemi, Kazeem",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Philosophy, University of Lagos"
-      ],
-      "role": "Author"
-    }
-  ],
-  "note": {
-    "$numberDouble": "NaN"
-  },
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh2020000570",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "COVID-19 (Disease)",
-      "authLabel": "COVID-19 (Disease)"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85137025",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Transport Workers",
-      "authLabel": "Transport workers"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": " 202008-LACC-CVD19-V02-PAA",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "note": "Pictures for the study completely taken",
+    "subject": [
       {
-        "l1": "Nigeria",
-        "l2": "Lagos State",
-        "l3": "Lagos"
+        "uri": "http://id.loc.gov/authorities/subjects/sh2020000570",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "COVID-19 (Disease)",
+        "authLabel": "COVID-19 (Disease)"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85137025",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Transport Workers",
+        "authLabel": "Transport workers"
       }
     ],
-    "current": [
-      "Institute of African and Diaspora Studies (IADS)"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Moving image",
-  "genre": {
-    "marc": [
-      "videorecording"
-    ]
-  },
-  "language": [
-    "eng"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "Video"
-    ],
-    "tech": [],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Historians",
-    "Researchers",
-    "Commercial Drivers",
-    "Petty Marketers"
-  ],
-  "tags": [
-    "Nigeria",
-    "Lagos",
-    "Marketer"
-  ],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6718f35ec327cde4b57d86ae"
-  },
-  "dre_id": "abb-02-000f",
-  "bitstream": "202008-LACC-CVD19-V03-PAA.mp4",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "ULG_IWCVD2021",
-    "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "The Vulnerable also Fight COVID-19: Video 3, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2020-12-28T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Akin-Otiko, Akinmayowa",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
-    },
-    {
-      "name": {
-        "label": "Fayemi, Kazeem",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Philosophy, University of Lagos"
-      ],
-      "role": "Author"
-    }
-  ],
-  "note": {
-    "$numberDouble": "NaN"
-  },
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh2020000570",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "COVID-19 (Disease)",
-      "authLabel": "COVID-19 (Disease)"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85137025",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Transport Workers",
-      "authLabel": "Transport workers"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": " 202008-LACC-CVD19-V03-PAA",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "relatedItems": {},
+    "identifier": [
       {
-        "l1": "Nigeria",
-        "l2": "Lagos State",
-        "l3": "Lagos"
+        "identifier": " 202008-LACC-CVD19-Img01-PAA",
+        "identifier_type": "Locally defined identifier"
       }
     ],
-    "current": [
-      "Institute of African and Diaspora Studies (IADS)"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Moving image",
-  "genre": {
-    "marc": [
-      "videorecording"
-    ]
-  },
-  "language": [
-    "eng"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "Video"
+    "location": {
+      "origin": [
+        {
+          "l1": "Nigeria",
+          "l2": "Lagos State",
+          "l3": "Lagos"
+        }
+      ],
+      "current": [
+        "Institute of African and Diaspora Studies (IADS)"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Image",
+    "genre": {
+      "marc": [
+        "Picture"
+      ]
+    },
+    "language": [
+      "eng"
     ],
-    "tech": [],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Historians",
-    "Researchers",
-    "Commercial Drivers",
-    "Petty Marketers"
-  ],
-  "tags": [
-    "Nigeria",
-    "Lagos",
-    "Marketer"
-  ],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6718f35ec327cde4b57d86af"
-  },
-  "dre_id": "abb-02-0010",
-  "bitstream": "202008-LACC-CVD19-V04-PAA.mp4",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "ULG_IWCVD2021",
-    "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "The Vulnerable also Fight COVID-19: Video 4, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2020-08-11T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Akin-Otiko, Akinmayowa",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "Picture"
       ],
-      "role": "Author"
+      "tech": [],
+      "note": []
     },
-    {
-      "name": {
-        "label": "Fayemi, Kazeem",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Philosophy, University of Lagos"
-      ],
-      "role": "Author"
-    }
-  ],
-  "note": {
-    "$numberDouble": "NaN"
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Historians",
+      "Researchers",
+      "Commercial Drivers",
+      "Petty Marketers"
+    ],
+    "tags": [
+      "Nigeria",
+      "Lagos",
+      "Marketer",
+      "COVID-19"
+    ],
+    "updatedBy": "jy"
   },
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh2020000570",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "COVID-19 (Disease)",
-      "authLabel": "COVID-19 (Disease)"
+  {
+    "_id": {
+      "$oid": "6718f35ec327cde4b57d86a3"
     },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85137025",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Transport Workers",
-      "authLabel": "Transport workers"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": " 202008-LACC-CVD19-V04-PAA",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "dre_id": "abb-02-0004",
+    "bitstream": "202008-LACC-CVD19-Img02-PAA.jpeg",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "ULG_IWCVD2021",
+      "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
       {
-        "l1": "Nigeria",
-        "l2": "Lagos State",
-        "l3": "Lagos"
+        "title": "The Vulnerable also Fight COVID-19: Image 2, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria",
+        "title_type": "main"
       }
     ],
-    "current": [
-      "Institute of African and Diaspora Studies (IADS)"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Moving image",
-  "genre": {
-    "marc": [
-      "videorecording"
-    ]
-  },
-  "language": [
-    "eng"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "Video"
-    ],
-    "tech": [],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Historians",
-    "Researchers",
-    "Commercial Drivers",
-    "Petty Marketers"
-  ],
-  "tags": [
-    "Nigeria",
-    "Lagos",
-    "Marketer"
-  ],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6718f35ec327cde4b57d86b0"
-  },
-  "dre_id": "abb-02-0011",
-  "bitstream": "202008-LACC-CVD19-V05-PAA.mp4",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "ULG_IWCVD2021",
-    "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "The Vulnerable also Fight COVID-19: Video 5, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2020-12-28T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Akin-Otiko, Akinmayowa",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2020-08-19T00:00:00"
+      }
     },
-    {
-      "name": {
-        "label": "Fayemi, Kazeem",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Philosophy, University of Lagos"
-      ],
-      "role": "Author"
-    }
-  ],
-  "note": {
-    "$numberDouble": "NaN"
-  },
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh2020000570",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "COVID-19 (Disease)",
-      "authLabel": "COVID-19 (Disease)"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85137025",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Transport Workers",
-      "authLabel": "Transport workers"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": " 202008-LACC-CVD19-V05-PAA",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "name": [
       {
-        "l1": "Nigeria",
-        "l2": "Lagos State",
-        "l3": "Lagos"
+        "name": {
+          "label": "Akin-Otiko, Akinmayowa",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Fayemi, Kazeem",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Philosophy, University of Lagos"
+        ],
+        "role": "Author"
       }
     ],
-    "current": [
-      "Institute of African and Diaspora Studies (IADS)"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Moving image",
-  "genre": {
-    "marc": [
-      "videorecording"
-    ]
-  },
-  "language": [
-    "eng"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "Video"
-    ],
-    "tech": [],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Historians",
-    "Researchers",
-    "Commercial Drivers",
-    "Petty Marketers"
-  ],
-  "tags": [
-    "Nigeria",
-    "Lagos",
-    "Marketer"
-  ],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6718f35ec327cde4b57d86b1"
-  },
-  "dre_id": "abb-02-0012",
-  "bitstream": "202008-LACC-CVD19-V06-PAA.mp4",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "ULG_IWCVD2021",
-    "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "The Vulnerable also Fight COVID-19: Video 6, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2020-12-28T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Akin-Otiko, Akinmayowa",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
-    },
-    {
-      "name": {
-        "label": "Fayemi, Kazeem",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Philosophy, University of Lagos"
-      ],
-      "role": "Author"
-    }
-  ],
-  "note": {
-    "$numberDouble": "NaN"
-  },
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh2020000570",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "COVID-19 (Disease)",
-      "authLabel": "COVID-19 (Disease)"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85137025",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Transport Workers",
-      "authLabel": "Transport workers"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": " 202008-LACC-CVD19-V06-PAA",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "note": "Pictures for the study completely taken",
+    "subject": [
       {
-        "l1": "Nigeria",
-        "l2": "Lagos State",
-        "l3": "Lagos"
+        "uri": "http://id.loc.gov/authorities/subjects/sh2020000570",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "COVID-19 (Disease)",
+        "authLabel": "COVID-19 (Disease)"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85137025",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Transport Workers",
+        "authLabel": "Transport workers"
       }
     ],
-    "current": [
-      "Institute of African and Diaspora Studies (IADS)"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Moving image",
-  "genre": {
-    "marc": [
-      "videorecording"
-    ]
-  },
-  "language": [
-    "eng"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "Video"
-    ],
-    "tech": [],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Historians",
-    "Researchers",
-    "Commercial Drivers",
-    "Petty Marketers"
-  ],
-  "tags": [
-    "Nigeria",
-    "Lagos",
-    "Marketer"
-  ],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6718f35ec327cde4b57d86b2"
-  },
-  "dre_id": "abb-02-0013",
-  "bitstream": "202008-LACC-CVD19-V07-PAA.mp4",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "ULG_IWCVD2021",
-    "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "The Vulnerable also Fight COVID-19: Video 7, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2020-08-11T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Akin-Otiko, Akinmayowa",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
-      ],
-      "role": "Author"
-    },
-    {
-      "name": {
-        "label": "Fayemi, Kazeem",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Philosophy, University of Lagos"
-      ],
-      "role": "Author"
-    }
-  ],
-  "note": {
-    "$numberDouble": "NaN"
-  },
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh2020000570",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "COVID-19 (Disease)",
-      "authLabel": "COVID-19 (Disease)"
-    },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85137025",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Transport Workers",
-      "authLabel": "Transport workers"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": " 202008-LACC-CVD19-V07-PAA",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "relatedItems": {},
+    "identifier": [
       {
-        "l1": "Nigeria",
-        "l2": "Lagos State",
-        "l3": "Lagos"
+        "identifier": " 202008-LACC-CVD19-Img02-PAA",
+        "identifier_type": "Locally defined identifier"
       }
     ],
-    "current": [
-      "Institute of African and Diaspora Studies (IADS)"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Moving image",
-  "genre": {
-    "marc": [
-      "videorecording"
-    ]
-  },
-  "language": [
-    "eng"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "Video"
+    "location": {
+      "origin": [
+        {
+          "l1": "Nigeria",
+          "l2": "Lagos State",
+          "l3": "Lagos"
+        }
+      ],
+      "current": [
+        "Institute of African and Diaspora Studies (IADS)"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Image",
+    "genre": {
+      "marc": [
+        "Picture"
+      ]
+    },
+    "language": [
+      "eng"
     ],
-    "tech": [],
-    "note": []
-  },
-  "abstract": {
-    "$numberDouble": "NaN"
-  },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
-  },
-  "targetAudience": [
-    "Historians",
-    "Researchers",
-    "Commercial Drivers",
-    "Petty Marketers"
-  ],
-  "tags": [
-    "Nigeria",
-    "Lagos",
-    "Marketer"
-  ],
-  "updatedBy": "jy"
-},
-{
-  "_id": {
-    "$oid": "6718f35ec327cde4b57d86b3"
-  },
-  "dre_id": "abb-02-0014",
-  "bitstream": "202008-LACC-CVD19-V08-PAA.mp4",
-  "security": "DSL1",
-  "collection": [],
-  "sponsor": [
-    "EXC2052/1 Africa Multiple, DFG Project number 390713894"
-  ],
-  "project": {
-    "id": "ULG_IWCVD2021",
-    "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
-  },
-  "citation": [],
-  "url": [],
-  "titleInfo": [
-    {
-      "title": "The Vulnerable also Fight COVID-19: Video 8, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria",
-      "title_type": "main"
-    }
-  ],
-  "dateInfo": {
-    "created": {
-      "start": {
-        "$numberDouble": "NaN"
-      },
-      "end": "2020-12-28T00:00:00"
-    }
-  },
-  "name": [
-    {
-      "name": {
-        "label": "Akin-Otiko, Akinmayowa",
-        "qualifier": "person"
-      },
-      "affl": [
-        "University of Lagos African Cluster Centre (LACC)"
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "Picture"
       ],
-      "role": "Author"
+      "tech": [],
+      "note": []
     },
-    {
-      "name": {
-        "label": "Fayemi, Kazeem",
-        "qualifier": "person"
-      },
-      "affl": [
-        "Department of Philosophy, University of Lagos"
-      ],
-      "role": "Author"
-    }
-  ],
-  "note": {
-    "$numberDouble": "NaN"
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Historians",
+      "Researchers",
+      "Commercial Drivers",
+      "Petty Marketers"
+    ],
+    "tags": [
+      "Nigeria",
+      "Lagos",
+      "Marketer",
+      "COVID-19"
+    ],
+    "updatedBy": "jy"
   },
-  "subject": [
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh2020000570",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "COVID-19 (Disease)",
-      "authLabel": "COVID-19 (Disease)"
+  {
+    "_id": {
+      "$oid": "6718f35ec327cde4b57d86a4"
     },
-    {
-      "uri": "http://id.loc.gov/authorities/subjects/sh85137025",
-      "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-      "origLabel": "Transport Workers",
-      "authLabel": "Transport workers"
-    }
-  ],
-  "relatedItems": {},
-  "identifier": [
-    {
-      "identifier": " 202008-LACC-CVD19-V08-PAA",
-      "identifier_type": "Locally defined identifier"
-    }
-  ],
-  "location": {
-    "origin": [
+    "dre_id": "abb-02-0005",
+    "bitstream": "202008-LACC-CVD19-Img03-PAA.jpeg",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "ULG_IWCVD2021",
+      "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
       {
-        "l1": "Nigeria",
-        "l2": "Lagos State",
-        "l3": "Lagos"
+        "title": "The Vulnerable also Fight COVID-19: Image 3, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria",
+        "title_type": "main"
       }
     ],
-    "current": [
-      "Institute of African and Diaspora Studies (IADS)"
-    ]
-  },
-  "accessCondition": {
-    "rights": [],
-    "usage": {
-      "type": "Public",
-      "admins": "All"
-    }
-  },
-  "typeOfResource": "Moving image",
-  "genre": {
-    "marc": [
-      "videorecording"
-    ]
-  },
-  "language": [
-    "eng"
-  ],
-  "physicalDescription": {
-    "type": "Digital",
-    "method": "born digital",
-    "desc": [
-      "Video"
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2020-09-11T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Akin-Otiko, Akinmayowa",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Fayemi, Kazeem",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Philosophy, University of Lagos"
+        ],
+        "role": "Author"
+      }
     ],
-    "tech": [],
-    "note": []
+    "note": "Pictures for the study completely taken",
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh2020000570",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "COVID-19 (Disease)",
+        "authLabel": "COVID-19 (Disease)"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85137025",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Transport Workers",
+        "authLabel": "Transport workers"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": " 202008-LACC-CVD19-Img03-PAA",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Nigeria",
+          "l2": "Lagos State",
+          "l3": "Lagos"
+        }
+      ],
+      "current": [
+        "Institute of African and Diaspora Studies (IADS)"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Image",
+    "genre": {
+      "marc": [
+        "Picture"
+      ]
+    },
+    "language": [
+      "eng"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "Picture"
+      ],
+      "tech": [],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Historians",
+      "Researchers",
+      "Commercial Drivers",
+      "Petty Marketers"
+    ],
+    "tags": [
+      "Nigeria",
+      "Lagos",
+      "Marketer",
+      "COVID-19"
+    ],
+    "updatedBy": "jy"
   },
-  "abstract": {
-    "$numberDouble": "NaN"
+  {
+    "_id": {
+      "$oid": "6718f35ec327cde4b57d86a5"
+    },
+    "dre_id": "abb-02-0006",
+    "bitstream": "202008-LACC-CVD19-Img04-PAA.jpeg",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "ULG_IWCVD2021",
+      "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
+      {
+        "title": "The Vulnerable also Fight COVID-19: Image 4, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria",
+        "title_type": "main"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2020-12-28T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Akin-Otiko, Akinmayowa",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Fayemi, Kazeem",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Philosophy, University of Lagos"
+        ],
+        "role": "Author"
+      }
+    ],
+    "note": "Pictures for the study completely taken",
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh2020000570",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "COVID-19 (Disease)",
+        "authLabel": "COVID-19 (Disease)"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85137025",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Transport Workers",
+        "authLabel": "Transport workers"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": " 202008-LACC-CVD19-Img04-PAA",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Nigeria",
+          "l2": "Lagos State",
+          "l3": "Lagos"
+        }
+      ],
+      "current": [
+        "Institute of African and Diaspora Studies (IADS)"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Image",
+    "genre": {
+      "marc": [
+        "Picture"
+      ]
+    },
+    "language": [
+      "eng"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "Picture"
+      ],
+      "tech": [],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Historians",
+      "Researchers",
+      "Commercial Drivers",
+      "Petty Marketers"
+    ],
+    "tags": [
+      "Nigeria",
+      "Lagos",
+      "Marketer",
+      "COVID-19"
+    ],
+    "updatedBy": "jy"
   },
-  "tableOfContents": {
-    "$numberDouble": "NaN"
+  {
+    "_id": {
+      "$oid": "6718f35ec327cde4b57d86a6"
+    },
+    "dre_id": "abb-02-0007",
+    "bitstream": "202008-LACC-CVD19-Img05-PAA.jpg",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "ULG_IWCVD2021",
+      "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
+      {
+        "title": "The Vulnerable also Fight COVID-19: Image 5, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria",
+        "title_type": "main"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2020-12-20T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Akin-Otiko, Akinmayowa",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Fayemi, Kazeem",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Philosophy, University of Lagos"
+        ],
+        "role": "Author"
+      }
+    ],
+    "note": "Pictures for the study completely taken",
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh2020000570",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "COVID-19 (Disease)",
+        "authLabel": "COVID-19 (Disease)"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85137025",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Transport Workers",
+        "authLabel": "Transport workers"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": " 202008-LACC-CVD19-Img05-PAA",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Nigeria",
+          "l2": "Lagos State",
+          "l3": "Lagos"
+        }
+      ],
+      "current": [
+        "Institute of African and Diaspora Studies (IADS)"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Image",
+    "genre": {
+      "marc": [
+        "picture"
+      ]
+    },
+    "language": [
+      "eng"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "Picture"
+      ],
+      "tech": [],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Historians",
+      "Researchers",
+      "Commercial Drivers",
+      "Petty Marketers"
+    ],
+    "tags": [
+      "Nigeria",
+      "Lagos",
+      "Marketer",
+      "COVID-19"
+    ],
+    "updatedBy": "jy"
   },
-  "targetAudience": [
-    "Historians",
-    "Researchers",
-    "Commercial Drivers",
-    "Petty Marketers"
-  ],
-  "tags": [
-    "Nigeria",
-    "Lagos",
-    "Marketer"
-  ],
-  "updatedBy": "jy"
-}]
+  {
+    "_id": {
+      "$oid": "6718f35ec327cde4b57d86a7"
+    },
+    "dre_id": "abb-02-0008",
+    "bitstream": "202008-LACC-CVD19-Img06-PAA.jpg",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "ULG_IWCVD2021",
+      "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
+      {
+        "title": "The Vulnerable also Fight COVID-19: Image 6, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria",
+        "title_type": "main"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2020-12-25T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Akin-Otiko, Akinmayowa",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Fayemi, Kazeem",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Philosophy, University of Lagos"
+        ],
+        "role": "Author"
+      }
+    ],
+    "note": "Pictures for the study completely taken",
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh2020000570",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "COVID-19 (Disease)",
+        "authLabel": "COVID-19 (Disease)"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85137025",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Transport Workers",
+        "authLabel": "Transport workers"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": " 202008-LACC-CVD19-Img06-PAA",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Nigeria",
+          "l2": "Lagos State",
+          "l3": "Lagos"
+        }
+      ],
+      "current": [
+        "Institute of African and Diaspora Studies (IADS)"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Image",
+    "genre": {
+      "marc": [
+        "Picture"
+      ]
+    },
+    "language": [
+      "eng"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "Picture"
+      ],
+      "tech": [],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Historians",
+      "Researchers",
+      "Commercial Drivers",
+      "Petty Marketers"
+    ],
+    "tags": [
+      "Nigeria",
+      "Lagos",
+      "Marketer",
+      "COVID-19"
+    ],
+    "updatedBy": "jy"
+  },
+  {
+    "_id": {
+      "$oid": "6718f35ec327cde4b57d86a8"
+    },
+    "dre_id": "abb-02-0009",
+    "bitstream": "202008-LACC-CVD19-Img07-PAA.jpeg",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "ULG_IWCVD2021",
+      "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
+      {
+        "title": "The Vulnerable also Fight COVID-19: Image 7, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria",
+        "title_type": "main"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2020-12-28T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Akin-Otiko, Akinmayowa",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Fayemi, Kazeem",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Philosophy, University of Lagos"
+        ],
+        "role": "Author"
+      }
+    ],
+    "note": "Pictures for the study completely taken",
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh2020000570",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "COVID-19 (Disease)",
+        "authLabel": "COVID-19 (Disease)"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85137025",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Transport Workers",
+        "authLabel": "Transport workers"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": " 202008-LACC-CVD19-Img07-PAA",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Nigeria",
+          "l2": "Lagos State",
+          "l3": "Lagos"
+        }
+      ],
+      "current": [
+        "Institute of African and Diaspora Studies (IADS)"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Image",
+    "genre": {
+      "marc": [
+        "Picture"
+      ]
+    },
+    "language": [
+      "eng"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "Picture"
+      ],
+      "tech": [],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Historians",
+      "Researchers",
+      "Commercial Drivers",
+      "Petty Marketers"
+    ],
+    "tags": [
+      "Nigeria",
+      "Lagos",
+      "Marketer",
+      "COVID-19"
+    ],
+    "updatedBy": "jy"
+  },
+  {
+    "_id": {
+      "$oid": "6718f35ec327cde4b57d86a9"
+    },
+    "dre_id": "abb-02-000a",
+    "bitstream": "202008-LACC-CVD19-Img08-PAA.jpg",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "ULG_IWCVD2021",
+      "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
+      {
+        "title": "The Vulnerable also Fight COVID-19: Image 8, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria",
+        "title_type": "main"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2020-12-28T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Akin-Otiko, Akinmayowa",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Fayemi, Kazeem",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Philosophy, University of Lagos"
+        ],
+        "role": "Author"
+      }
+    ],
+    "note": "Pictures for the study completely taken",
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh2020000570",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "COVID-19 (Disease)",
+        "authLabel": "COVID-19 (Disease)"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85137025",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Transport Workers",
+        "authLabel": "Transport workers"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": " 202008-LACC-CVD19-Img08-PAA",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Nigeria",
+          "l2": "Lagos State",
+          "l3": "Lagos"
+        }
+      ],
+      "current": [
+        "Institute of African and Diaspora Studies (IADS)"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Image",
+    "genre": {
+      "marc": [
+        "Picture"
+      ]
+    },
+    "language": [
+      "eng"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "Picture"
+      ],
+      "tech": [],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Historians",
+      "Researchers",
+      "Commercial Drivers",
+      "Petty Marketers"
+    ],
+    "tags": [
+      "Nigeria",
+      "Lagos",
+      "Marketer",
+      "COVID-19"
+    ],
+    "updatedBy": "jy"
+  },
+  {
+    "_id": {
+      "$oid": "6718f35ec327cde4b57d86aa"
+    },
+    "dre_id": "abb-02-000b",
+    "bitstream": "202008-LACC-CVD19-Img09-PAA.jpeg",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "ULG_IWCVD2021",
+      "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
+      {
+        "title": "The Vulnerable also Fight COVID-19: Image 9, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria",
+        "title_type": "main"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2020-12-28T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Akin-Otiko, Akinmayowa",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Fayemi, Kazeem",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Philosophy, University of Lagos"
+        ],
+        "role": "Author"
+      }
+    ],
+    "note": "Pictures for the study completely taken",
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh2020000570",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "COVID-19 (Disease)",
+        "authLabel": "COVID-19 (Disease)"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85137025",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Transport Workers",
+        "authLabel": "Transport workers"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": " 202008-LACC-CVD19-Img09-PAA",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Nigeria",
+          "l2": "Lagos State",
+          "l3": "Lagos"
+        }
+      ],
+      "current": [
+        "Institute of African and Diaspora Studies (IADS)"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Image",
+    "genre": {
+      "marc": [
+        "Picture"
+      ]
+    },
+    "language": [
+      "eng"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "Picture"
+      ],
+      "tech": [],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Historians",
+      "Researchers",
+      "Commercial Drivers",
+      "Petty Marketers"
+    ],
+    "tags": [
+      "Nigeria",
+      "Lagos",
+      "Marketer",
+      "COVID-19"
+    ],
+    "updatedBy": "jy"
+  },
+  {
+    "_id": {
+      "$oid": "6718f35ec327cde4b57d86ab"
+    },
+    "dre_id": "abb-02-000c",
+    "bitstream": "202008-LACC-CVD19-Img10-PAA.jpg",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "ULG_IWCVD2021",
+      "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
+      {
+        "title": "The Vulnerable also Fight COVID-19: Image 10, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria",
+        "title_type": "main"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2020-08-11T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Akin-Otiko, Akinmayowa",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Fayemi, Kazeem",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Philosophy, University of Lagos"
+        ],
+        "role": "Author"
+      }
+    ],
+    "note": "Pictures for the study completely taken",
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh2020000570",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "COVID-19 (Disease)",
+        "authLabel": "COVID-19 (Disease)"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85137025",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Transport Workers",
+        "authLabel": "Transport workers"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": " 202008-LACC-CVD19-Img10-PAA",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Nigeria",
+          "l2": "Lagos State",
+          "l3": "Lagos"
+        }
+      ],
+      "current": [
+        "Institute of African and Diaspora Studies (IADS)"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Image",
+    "genre": {
+      "marc": [
+        "Picture"
+      ]
+    },
+    "language": [
+      "eng"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "Picture"
+      ],
+      "tech": [],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Historians",
+      "Researchers",
+      "Commercial Drivers",
+      "Petty Marketers"
+    ],
+    "tags": [
+      "Nigeria",
+      "Lagos",
+      "Marketer",
+      "COVID-19"
+    ],
+    "updatedBy": "jy"
+  },
+  {
+    "_id": {
+      "$oid": "6718f35ec327cde4b57d86ac"
+    },
+    "dre_id": "abb-02-000d",
+    "bitstream": "202008-LACC-CVD19-V01-PAA.mp4",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "ULG_IWCVD2021",
+      "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
+      {
+        "title": "The Vulnerable also Fight COVID-19: Video 1, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria",
+        "title_type": "main"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2020-08-17T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Akin-Otiko, Akinmayowa",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Fayemi, Kazeem",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Philosophy, University of Lagos"
+        ],
+        "role": "Author"
+      }
+    ],
+    "note": {
+      "$numberDouble": "NaN"
+    },
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh2020000570",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "COVID-19 (Disease)",
+        "authLabel": "COVID-19 (Disease)"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85137025",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Transport Workers",
+        "authLabel": "Transport workers"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": " 202008-LACC-CVD19-V01-PAA",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Nigeria",
+          "l2": "Lagos State",
+          "l3": "Lagos"
+        }
+      ],
+      "current": [
+        "Institute of African and Diaspora Studies (IADS)"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Moving image",
+    "genre": {
+      "marc": [
+        "videorecording"
+      ]
+    },
+    "language": [
+      "eng"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "Video"
+      ],
+      "tech": [],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Historians",
+      "Researchers",
+      "Commercial Drivers",
+      "Petty Marketers"
+    ],
+    "tags": [
+      "Nigeria",
+      "Lagos",
+      "Marketer",
+      "COVID-19"
+    ],
+    "updatedBy": "jy"
+  },
+  {
+    "_id": {
+      "$oid": "6718f35ec327cde4b57d86ad"
+    },
+    "dre_id": "abb-02-000e",
+    "bitstream": "202008-LACC-CVD19-V02-PAA.mp4",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "ULG_IWCVD2021",
+      "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
+      {
+        "title": "The Vulnerable also Fight COVID-19: Video 2, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria",
+        "title_type": "main"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2020-08-17T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Akin-Otiko, Akinmayowa",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Fayemi, Kazeem",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Philosophy, University of Lagos"
+        ],
+        "role": "Author"
+      }
+    ],
+    "note": {
+      "$numberDouble": "NaN"
+    },
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh2020000570",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "COVID-19 (Disease)",
+        "authLabel": "COVID-19 (Disease)"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85137025",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Transport Workers",
+        "authLabel": "Transport workers"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": " 202008-LACC-CVD19-V02-PAA",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Nigeria",
+          "l2": "Lagos State",
+          "l3": "Lagos"
+        }
+      ],
+      "current": [
+        "Institute of African and Diaspora Studies (IADS)"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Moving image",
+    "genre": {
+      "marc": [
+        "videorecording"
+      ]
+    },
+    "language": [
+      "eng"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "Video"
+      ],
+      "tech": [],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Historians",
+      "Researchers",
+      "Commercial Drivers",
+      "Petty Marketers"
+    ],
+    "tags": [
+      "Nigeria",
+      "Lagos",
+      "Marketer",
+      "COVID-19"
+    ],
+    "updatedBy": "jy"
+  },
+  {
+    "_id": {
+      "$oid": "6718f35ec327cde4b57d86ae"
+    },
+    "dre_id": "abb-02-000f",
+    "bitstream": "202008-LACC-CVD19-V03-PAA.mp4",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "ULG_IWCVD2021",
+      "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
+      {
+        "title": "The Vulnerable also Fight COVID-19: Video 3, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria",
+        "title_type": "main"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2020-12-28T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Akin-Otiko, Akinmayowa",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Fayemi, Kazeem",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Philosophy, University of Lagos"
+        ],
+        "role": "Author"
+      }
+    ],
+    "note": {
+      "$numberDouble": "NaN"
+    },
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh2020000570",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "COVID-19 (Disease)",
+        "authLabel": "COVID-19 (Disease)"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85137025",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Transport Workers",
+        "authLabel": "Transport workers"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": " 202008-LACC-CVD19-V03-PAA",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Nigeria",
+          "l2": "Lagos State",
+          "l3": "Lagos"
+        }
+      ],
+      "current": [
+        "Institute of African and Diaspora Studies (IADS)"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Moving image",
+    "genre": {
+      "marc": [
+        "videorecording"
+      ]
+    },
+    "language": [
+      "eng"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "Video"
+      ],
+      "tech": [],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Historians",
+      "Researchers",
+      "Commercial Drivers",
+      "Petty Marketers"
+    ],
+    "tags": [
+      "Nigeria",
+      "Lagos",
+      "Marketer",
+      "COVID-19"
+    ],
+    "updatedBy": "jy"
+  },
+  {
+    "_id": {
+      "$oid": "6718f35ec327cde4b57d86af"
+    },
+    "dre_id": "abb-02-0010",
+    "bitstream": "202008-LACC-CVD19-V04-PAA.mp4",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "ULG_IWCVD2021",
+      "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
+      {
+        "title": "The Vulnerable also Fight COVID-19: Video 4, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria",
+        "title_type": "main"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2020-08-11T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Akin-Otiko, Akinmayowa",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Fayemi, Kazeem",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Philosophy, University of Lagos"
+        ],
+        "role": "Author"
+      }
+    ],
+    "note": {
+      "$numberDouble": "NaN"
+    },
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh2020000570",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "COVID-19 (Disease)",
+        "authLabel": "COVID-19 (Disease)"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85137025",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Transport Workers",
+        "authLabel": "Transport workers"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": " 202008-LACC-CVD19-V04-PAA",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Nigeria",
+          "l2": "Lagos State",
+          "l3": "Lagos"
+        }
+      ],
+      "current": [
+        "Institute of African and Diaspora Studies (IADS)"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Moving image",
+    "genre": {
+      "marc": [
+        "videorecording"
+      ]
+    },
+    "language": [
+      "eng"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "Video"
+      ],
+      "tech": [],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Historians",
+      "Researchers",
+      "Commercial Drivers",
+      "Petty Marketers"
+    ],
+    "tags": [
+      "Nigeria",
+      "Lagos",
+      "Marketer",
+      "COVID-19"
+    ],
+    "updatedBy": "jy"
+  },
+  {
+    "_id": {
+      "$oid": "6718f35ec327cde4b57d86b0"
+    },
+    "dre_id": "abb-02-0011",
+    "bitstream": "202008-LACC-CVD19-V05-PAA.mp4",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "ULG_IWCVD2021",
+      "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
+      {
+        "title": "The Vulnerable also Fight COVID-19: Video 5, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria",
+        "title_type": "main"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2020-12-28T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Akin-Otiko, Akinmayowa",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Fayemi, Kazeem",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Philosophy, University of Lagos"
+        ],
+        "role": "Author"
+      }
+    ],
+    "note": {
+      "$numberDouble": "NaN"
+    },
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh2020000570",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "COVID-19 (Disease)",
+        "authLabel": "COVID-19 (Disease)"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85137025",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Transport Workers",
+        "authLabel": "Transport workers"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": " 202008-LACC-CVD19-V05-PAA",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Nigeria",
+          "l2": "Lagos State",
+          "l3": "Lagos"
+        }
+      ],
+      "current": [
+        "Institute of African and Diaspora Studies (IADS)"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Moving image",
+    "genre": {
+      "marc": [
+        "videorecording"
+      ]
+    },
+    "language": [
+      "eng"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "Video"
+      ],
+      "tech": [],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Historians",
+      "Researchers",
+      "Commercial Drivers",
+      "Petty Marketers"
+    ],
+    "tags": [
+      "Nigeria",
+      "Lagos",
+      "Marketer",
+      "COVID-19"
+    ],
+    "updatedBy": "jy"
+  },
+  {
+    "_id": {
+      "$oid": "6718f35ec327cde4b57d86b1"
+    },
+    "dre_id": "abb-02-0012",
+    "bitstream": "202008-LACC-CVD19-V06-PAA.mp4",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "ULG_IWCVD2021",
+      "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
+      {
+        "title": "The Vulnerable also Fight COVID-19: Video 6, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria",
+        "title_type": "main"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2020-12-28T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Akin-Otiko, Akinmayowa",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Fayemi, Kazeem",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Philosophy, University of Lagos"
+        ],
+        "role": "Author"
+      }
+    ],
+    "note": {
+      "$numberDouble": "NaN"
+    },
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh2020000570",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "COVID-19 (Disease)",
+        "authLabel": "COVID-19 (Disease)"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85137025",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Transport Workers",
+        "authLabel": "Transport workers"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": " 202008-LACC-CVD19-V06-PAA",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Nigeria",
+          "l2": "Lagos State",
+          "l3": "Lagos"
+        }
+      ],
+      "current": [
+        "Institute of African and Diaspora Studies (IADS)"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Moving image",
+    "genre": {
+      "marc": [
+        "videorecording"
+      ]
+    },
+    "language": [
+      "eng"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "Video"
+      ],
+      "tech": [],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Historians",
+      "Researchers",
+      "Commercial Drivers",
+      "Petty Marketers"
+    ],
+    "tags": [
+      "Nigeria",
+      "Lagos",
+      "Marketer",
+      "COVID-19"
+    ],
+    "updatedBy": "jy"
+  },
+  {
+    "_id": {
+      "$oid": "6718f35ec327cde4b57d86b2"
+    },
+    "dre_id": "abb-02-0013",
+    "bitstream": "202008-LACC-CVD19-V07-PAA.mp4",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "ULG_IWCVD2021",
+      "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
+      {
+        "title": "The Vulnerable also Fight COVID-19: Video 7, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria",
+        "title_type": "main"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2020-08-11T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Akin-Otiko, Akinmayowa",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Fayemi, Kazeem",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Philosophy, University of Lagos"
+        ],
+        "role": "Author"
+      }
+    ],
+    "note": {
+      "$numberDouble": "NaN"
+    },
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh2020000570",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "COVID-19 (Disease)",
+        "authLabel": "COVID-19 (Disease)"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85137025",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Transport Workers",
+        "authLabel": "Transport workers"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": " 202008-LACC-CVD19-V07-PAA",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Nigeria",
+          "l2": "Lagos State",
+          "l3": "Lagos"
+        }
+      ],
+      "current": [
+        "Institute of African and Diaspora Studies (IADS)"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Moving image",
+    "genre": {
+      "marc": [
+        "videorecording"
+      ]
+    },
+    "language": [
+      "eng"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "Video"
+      ],
+      "tech": [],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Historians",
+      "Researchers",
+      "Commercial Drivers",
+      "Petty Marketers"
+    ],
+    "tags": [
+      "Nigeria",
+      "Lagos",
+      "Marketer",
+      "COVID-19"
+    ],
+    "updatedBy": "jy"
+  },
+  {
+    "_id": {
+      "$oid": "6718f35ec327cde4b57d86b3"
+    },
+    "dre_id": "abb-02-0014",
+    "bitstream": "202008-LACC-CVD19-V08-PAA.mp4",
+    "security": "DSL1",
+    "collection": [],
+    "sponsor": [
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
+    ],
+    "project": {
+      "id": "ULG_IWCVD2021",
+      "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+    },
+    "citation": [],
+    "url": [],
+    "titleInfo": [
+      {
+        "title": "The Vulnerable also Fight COVID-19: Video 8, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria",
+        "title_type": "main"
+      }
+    ],
+    "dateInfo": {
+      "created": {
+        "start": {
+          "$numberDouble": "NaN"
+        },
+        "end": "2020-12-28T00:00:00"
+      }
+    },
+    "name": [
+      {
+        "name": {
+          "label": "Akin-Otiko, Akinmayowa",
+          "qualifier": "person"
+        },
+        "affl": [
+          "University of Lagos African Cluster Centre (LACC)"
+        ],
+        "role": "Author"
+      },
+      {
+        "name": {
+          "label": "Fayemi, Kazeem",
+          "qualifier": "person"
+        },
+        "affl": [
+          "Department of Philosophy, University of Lagos"
+        ],
+        "role": "Author"
+      }
+    ],
+    "note": {
+      "$numberDouble": "NaN"
+    },
+    "subject": [
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh2020000570",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "COVID-19 (Disease)",
+        "authLabel": "COVID-19 (Disease)"
+      },
+      {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85137025",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Transport Workers",
+        "authLabel": "Transport workers"
+      }
+    ],
+    "relatedItems": {},
+    "identifier": [
+      {
+        "identifier": " 202008-LACC-CVD19-V08-PAA",
+        "identifier_type": "Locally defined identifier"
+      }
+    ],
+    "location": {
+      "origin": [
+        {
+          "l1": "Nigeria",
+          "l2": "Lagos State",
+          "l3": "Lagos"
+        }
+      ],
+      "current": [
+        "Institute of African and Diaspora Studies (IADS)"
+      ]
+    },
+    "accessCondition": {
+      "rights": [],
+      "usage": {
+        "type": "Public",
+        "admins": "All"
+      }
+    },
+    "typeOfResource": "Moving image",
+    "genre": {
+      "marc": [
+        "videorecording"
+      ]
+    },
+    "language": [
+      "eng"
+    ],
+    "physicalDescription": {
+      "type": "Digital",
+      "method": "born digital",
+      "desc": [
+        "Video"
+      ],
+      "tech": [],
+      "note": []
+    },
+    "abstract": {
+      "$numberDouble": "NaN"
+    },
+    "tableOfContents": {
+      "$numberDouble": "NaN"
+    },
+    "targetAudience": [
+      "Historians",
+      "Researchers",
+      "Commercial Drivers",
+      "Petty Marketers"
+    ],
+    "tags": [
+      "Nigeria",
+      "Lagos",
+      "Marketer",
+      "COVID-19"
+    ],
+    "updatedBy": "jy"
+  }
+]
