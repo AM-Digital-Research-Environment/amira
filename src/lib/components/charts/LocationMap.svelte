@@ -460,8 +460,8 @@
 				offset: radius,
 				closeButton: true,
 				closeOnClick: false,
-				maxWidth: '340px',
-				anchor: 'bottom' // Helps with positioning
+				maxWidth: '340px'
+				// No fixed anchor — MapLibre auto-positions to keep popup in view
 			}).setHTML(generatePopupContent(markerData, currentPage));
 
 			const marker = new maplibregl.Marker({ element: el })
@@ -483,7 +483,7 @@
 			markers.forEach((m) => {
 				bounds.extend([m.longitude, m.latitude]);
 			});
-			map.fitBounds(bounds, { padding: 50, maxZoom: 6 });
+			map.fitBounds(bounds, { padding: 80, maxZoom: 6 });
 		}
 	}
 
@@ -519,7 +519,7 @@
 		'flex flex-col',
 		isFullscreen
 			? 'fixed inset-0 z-50 bg-background p-4'
-			: 'w-full h-full min-h-[400px]',
+			: 'w-full h-full min-h-[550px]',
 		className
 	)}
 >
@@ -541,7 +541,7 @@
 			<p class="text-muted-foreground">No locations with coordinates found</p>
 		</div>
 	{:else}
-		<div class="flex-1 relative rounded-lg border" style={isFullscreen ? '' : 'min-height: 400px; overflow: visible;'}>
+		<div class="flex-1 relative rounded-lg border" style={isFullscreen ? '' : 'min-height: 550px; overflow: visible;'}>
 			<div bind:this={mapContainer} class="absolute inset-0 w-full h-full rounded-lg overflow-hidden"></div>
 
 			<!-- Fullscreen button -->

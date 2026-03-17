@@ -180,7 +180,7 @@
 			{/if}
 		</ChartCard>
 
-		<ChartCard title="Geographic Origins (Map)" contentHeight="h-[500px]" class="col-span-full overflow-visible">
+		<ChartCard title="Geographic Origins (Map)" contentHeight="h-[650px]" class="col-span-full overflow-visible">
 			<LocationMap data={locationsData} items={currentCollection} {enrichedLocations} />
 		</ChartCard>
 
