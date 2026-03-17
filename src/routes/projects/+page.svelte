@@ -171,7 +171,7 @@
 	<!-- Projects List with Facets -->
 	<div class="grid gap-6 lg:grid-cols-4">
 		<!-- Facets Sidebar -->
-		<Card class="lg:col-span-1">
+		<Card class="lg:col-span-1 lg:sticky lg:top-20 lg:self-start">
 			{#snippet children()}
 				<CardHeader>
 					{#snippet children()}
@@ -202,7 +202,7 @@
 							<!-- Research Section Facet -->
 							<div>
 								<label class="text-sm font-medium mb-2 block">Research Section</label>
-								<div class="space-y-1 max-h-48 overflow-y-auto">
+								<div class="space-y-1">
 									{#each allResearchSections as section}
 									{@const isSelected = selectedResearchSections.includes(section)}
 										<button
@@ -221,7 +221,7 @@
 							<!-- Institution Facet -->
 							<div>
 								<label class="text-sm font-medium mb-2 block">Institution</label>
-								<div class="space-y-1 max-h-48 overflow-y-auto">
+								<div class="space-y-1">
 									{#each allInstitutions as institution}
 									{@const isSelected = selectedInstitutions.includes(institution)}
 										<button
