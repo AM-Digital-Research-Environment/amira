@@ -29,5 +29,13 @@
     "maplibre-gl": "^5.20.0",
     "tailwind-merge": "^3.5.0"
   },
-  "type": "module"
+  "type": "module",
+  "overrides": {
+    "@tailwindcss/vite": {
+      "vite": "$vite"
+    },
+    "echarts-wordcloud": {
+      "echarts": "$echarts"
+    }
+  }
 }
