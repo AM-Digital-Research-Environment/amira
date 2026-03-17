@@ -21,13 +21,17 @@
 /* External library styles */
 @import 'maplibre-gl/dist/maplibre-gl.css';
 
-/* Design tokens — must be imported before Tailwind */
+/* Tailwind CSS v4 */
+@import "tailwindcss";
+
+/* Load existing JS config for theme extensions */
+@config "../tailwind.config.js";
+
+/* Design tokens */
 @import './lib/styles/tokens.css';
 
-/* Tailwind CSS */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* Dark mode via class strategy (Tailwind v4) */
+@variant dark (&:where(.dark, .dark *));
 
 /* =============================================================================
    GLOBAL BASE STYLES
