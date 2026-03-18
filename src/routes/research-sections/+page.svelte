@@ -1,12 +1,25 @@
 <script lang="ts">
-	import { StatCard, ChartCard, EmptyState, Card, CardHeader, CardTitle, CardContent, Badge } from '$lib/components/ui';
+	import { StatCard, ChartCard, EmptyState, Card, CardHeader, CardTitle, CardContent, Badge, BackToList } from '$lib/components/ui';
 	import { BarChart } from '$lib/components/charts';
 	import { projects, researchSections } from '$lib/stores/data';
+	import { page } from '$app/stores';
 	import { extractResearchSections } from '$lib/utils/dataTransform';
 	import { personUrl, projectUrl } from '$lib/utils/urls';
+	import { createUrlSelection, scrollToTop } from '$lib/utils/urlSelection';
 	import type { Project } from '$lib/types';
 	import { formatDate, getProjectTitle } from '$lib/utils/helpers';
-	import { BookOpen, Briefcase, Layers, ExternalLink, ChevronDown, ChevronUp, Users } from '@lucide/svelte';
+	import { BookOpen, Briefcase, Layers, ExternalLink, Users, ArrowRight } from '@lucide/svelte';
+	import { WissKILink } from '$lib/components/ui';
+
+	const urlSelection = createUrlSelection('section');
+
+	let selectedSection = $state('');
+
+	// Sync from URL query param
+	$effect(() => {
+		const urlSection = $page.url.searchParams.get('section');
+		if (urlSection) selectedSection = urlSection;
+	});
 
 	// Group projects by research section
 	let projectsBySection = $derived.by(() => {
@@ -23,8 +36,6 @@
 	// Combined data: merge manual info with project associations
 	let sections = $derived.by(() => {
 		const sectionNames = new Set<string>();
-
-		// Gather all section names from both sources
 		Object.keys($researchSections).forEach((name) => sectionNames.add(name));
 		$projects.forEach((p) => p.researchSection?.forEach((s) => sectionNames.add(s)));
 
@@ -42,221 +53,304 @@
 			}));
 	});
 
+	let selectedSectionData = $derived(
+		selectedSection ? sections.find((s) => s.name === selectedSection) || null : null
+	);
+
 	let chartData = $derived(extractResearchSections($projects));
 	let totalProjects = $derived(new Set($projects.flatMap((p) => p._id)).size);
 	let avgPerSection = $derived(sections.length > 0 ? Math.round(totalProjects / sections.length) : 0);
 
-	// Track which sections are expanded (keyed by "sectionName:field")
-	let expandedSections = $state(new Set<string>());
-
-	function toggleSection(key: string) {
-		const next = new Set(expandedSections);
-		if (next.has(key)) next.delete(key);
-		else next.add(key);
-		expandedSections = next;
+	function selectSection(name: string) {
+		selectedSection = name;
+		urlSelection.pushToUrl(name);
+		scrollToTop();
 	}
 
-	function sectionSlug(name: string): string {
-		return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+	function clearSelection() {
+		selectedSection = '';
+		urlSelection.removeFromUrl();
 	}
-
-
 </script>
 
 <div class="space-y-8 animate-slide-in-up">
 	<!-- Header -->
 	<div>
 		<h1 class="page-title">Research Sections</h1>
-		<p class="page-subtitle">Six thematic fields, organized into Research Sections, provide a coherent structure to our research projects. Most projects pursue an inter- and/or transdisciplinary agenda and involve close cooperation between researchers from Bayreuth, Africa, and our global network. Explore each section's objectives, work programme, and associated projects below.</p>
+		<p class="page-subtitle">Six thematic fields providing a coherent structure to research projects across Bayreuth, Africa, and a global network</p>
 	</div>
 
-	<!-- Stats -->
-	<div class="grid gap-4 sm:grid-cols-3">
-		<StatCard label="Research Sections" value={sections.length} icon={BookOpen} />
-		<StatCard label="Total Projects" value={totalProjects} icon={Briefcase} />
-		<StatCard label="Avg. Projects / Section" value={avgPerSection} icon={Layers} />
-	</div>
+	{#if selectedSectionData}
+		<!-- Detail mode -->
+		<BackToList show={true} onclick={clearSelection} label="Back to all sections" />
 
-	<!-- Chart -->
-	<ChartCard title="Projects per Research Section" contentHeight="h-[300px]">
-		{#if chartData.length > 0}
-			<BarChart data={chartData} />
-		{:else}
-			<EmptyState message="No data available" icon={BookOpen} />
-		{/if}
-	</ChartCard>
+		<!-- Section header -->
+		<Card class="overflow-hidden">
+			{#snippet children()}
+				<CardHeader>
+					{#snippet children()}
+						<div class="flex items-start justify-between gap-3 min-w-0">
+							<CardTitle class="break-words">
+								{#snippet children()}{selectedSectionData.name}{/snippet}
+							</CardTitle>
+							<div class="flex items-center gap-3 shrink-0">
+								{#if selectedSectionData.url}
+									<a
+										href={selectedSectionData.url}
+										target="_blank"
+										rel="noopener noreferrer"
+										class="inline-flex items-center gap-1.5 text-xs text-primary hover:text-primary-hover transition-colors whitespace-nowrap"
+									>
+										<ExternalLink class="h-3.5 w-3.5" />
+										Website
+									</a>
+								{/if}
+								<WissKILink category="researchSections" entityKey={selectedSectionData.name} />
+								<Badge variant="secondary">
+									{#snippet children()}{selectedSectionData.projects.length} project{selectedSectionData.projects.length !== 1 ? 's' : ''}{/snippet}
+								</Badge>
+							</div>
+						</div>
+					{/snippet}
+				</CardHeader>
+				{#if selectedSectionData.description}
+					<CardContent>
+						{#snippet children()}
+							<div class="text-sm text-muted-foreground leading-relaxed break-words">
+								{#each selectedSectionData.description.split('\n\n') as paragraph}
+									<p class="mb-2 last:mb-0">{paragraph}</p>
+								{/each}
+							</div>
+						{/snippet}
+					</CardContent>
+				{/if}
+			{/snippet}
+		</Card>
 
-	<!-- Section Cards -->
-	<div class="grid gap-6">
-		{#each sections as section}
-			<Card class="overflow-hidden scroll-mt-24" id={sectionSlug(section.name)}>
+		<!-- Principal Investigators — full-width inline -->
+		{#if selectedSectionData.principalInvestigators.length > 0}
+			<Card class="overflow-hidden">
 				{#snippet children()}
 					<CardHeader>
 						{#snippet children()}
-							<div class="flex items-start justify-between gap-3 min-w-0">
-								<CardTitle class="min-w-0 truncate">
-									{#snippet children()}{section.name}{/snippet}
-								</CardTitle>
-								<div class="flex items-center gap-3 shrink-0">
-									{#if section.url}
-										<a
-											href={section.url}
-											target="_blank"
-											rel="noopener noreferrer"
-											class="inline-flex items-center gap-1.5 text-xs text-primary hover:text-primary-hover transition-colors whitespace-nowrap"
-										>
-											<ExternalLink class="h-3.5 w-3.5" />
-											Website
-										</a>
-									{/if}
-									<Badge variant="secondary">
-										{#snippet children()}{section.projects.length} project{section.projects.length !== 1 ? 's' : ''}{/snippet}
-									</Badge>
-								</div>
-							</div>
+							<CardTitle class="text-lg">
+								{#snippet children()}
+									<span class="flex items-center gap-2">
+										<Users class="h-5 w-5 text-primary" />
+										Principal Investigators
+									</span>
+								{/snippet}
+							</CardTitle>
 						{/snippet}
 					</CardHeader>
 					<CardContent>
 						{#snippet children()}
-							<div class="space-y-4">
-								<!-- Description (intro) -->
-								{#if section.description}
-									<div class="text-sm text-muted-foreground leading-relaxed break-words">
-										{#each section.description.split('\n\n') as paragraph}
-											<p class="mb-2 last:mb-0">{paragraph}</p>
-										{/each}
-									</div>
-								{:else}
-									<p class="text-sm text-muted-foreground italic">No description available yet.</p>
-								{/if}
+							<p class="text-sm text-foreground">
+								{#each selectedSectionData.principalInvestigators as pi, i}
+									{#if i > 0}<span class="text-muted-foreground"> · </span>{/if}
+									<a href={personUrl(pi)} class="hover:text-primary transition-colors">{pi}</a>
+								{/each}
+							</p>
+						{/snippet}
+					</CardContent>
+				{/snippet}
+			</Card>
+		{/if}
 
-								<!-- Principal Investigators -->
-								{#if section.principalInvestigators.length > 0}
-									<div class="flex items-start gap-3 rounded-lg bg-muted/50 p-3">
-										<Users class="h-4 w-4 text-primary mt-0.5 shrink-0" />
-										<div>
-											<p class="text-xs font-medium text-muted-foreground mb-1.5">Principal Investigators</p>
-											<p class="text-sm text-foreground">
-												{#each section.principalInvestigators as pi, i}
-													{#if i > 0}<span class="text-muted-foreground"> · </span>{/if}
-													<a
-														href={personUrl(pi)}
-														class="hover:text-primary transition-colors"
-													>{pi}</a>
-												{/each}
-											</p>
-										</div>
-									</div>
-								{/if}
-
-								<!-- Members -->
-								{#if section.members.length > 0}
-									<div class="flex items-start gap-3 rounded-lg bg-muted/50 p-3">
-										<Users class="h-4 w-4 text-muted-foreground mt-0.5 shrink-0" />
-										<div>
-											<p class="text-xs font-medium text-muted-foreground mb-1.5">Members</p>
-											<p class="text-sm text-foreground">
-												{#each section.members as member, i}
-													{#if i > 0}<span class="text-muted-foreground"> · </span>{/if}
-													<a
-														href={personUrl(member)}
-														class="hover:text-primary transition-colors"
-													>{member}</a>
-												{/each}
-											</p>
-										</div>
-									</div>
-								{/if}
-
-								<!-- Objectives (expandable) -->
-								{#if section.objectives}
-									<div class="border-t border-border pt-3">
-										<button
-											onclick={() => toggleSection(`${section.name}:objectives`)}
-											class="flex items-center justify-between w-full text-sm font-semibold text-foreground"
-										>
-											<span>Objectives</span>
-											{#if expandedSections.has(`${section.name}:objectives`)}
-												<ChevronUp class="h-4 w-4 text-muted-foreground" />
-											{:else}
-												<ChevronDown class="h-4 w-4 text-muted-foreground" />
-											{/if}
-										</button>
-										{#if expandedSections.has(`${section.name}:objectives`)}
-											<div class="mt-3 text-sm text-muted-foreground leading-relaxed break-words">
-												{#each section.objectives.split('\n\n') as paragraph}
-													<p class="mb-2 last:mb-0">{paragraph}</p>
-												{/each}
-											</div>
-										{/if}
-									</div>
-								{/if}
-
-								<!-- Work Programme (expandable) -->
-								{#if section.workProgramme}
-									<div class="border-t border-border pt-3">
-										<button
-											onclick={() => toggleSection(`${section.name}:workProgramme`)}
-											class="flex items-center justify-between w-full text-sm font-semibold text-foreground"
-										>
-											<span>Work Programme</span>
-											{#if expandedSections.has(`${section.name}:workProgramme`)}
-												<ChevronUp class="h-4 w-4 text-muted-foreground" />
-											{:else}
-												<ChevronDown class="h-4 w-4 text-muted-foreground" />
-											{/if}
-										</button>
-										{#if expandedSections.has(`${section.name}:workProgramme`)}
-											<div class="mt-3 text-sm text-muted-foreground leading-relaxed break-words">
-												{#each section.workProgramme.split('\n\n') as paragraph}
-													<p class="mb-2 last:mb-0">{paragraph}</p>
-												{/each}
-											</div>
-										{/if}
-									</div>
-								{/if}
-
-								<!-- Associated Projects (expandable) -->
-								<div class="border-t border-border pt-3">
-									<button
-										onclick={() => toggleSection(`${section.name}:projects`)}
-										class="flex items-center justify-between w-full text-sm font-semibold text-foreground"
-									>
-										<span>Associated Projects</span>
-										{#if expandedSections.has(`${section.name}:projects`)}
-											<ChevronUp class="h-4 w-4 text-muted-foreground" />
-										{:else}
-											<ChevronDown class="h-4 w-4 text-muted-foreground" />
-										{/if}
-									</button>
-									{#if expandedSections.has(`${section.name}:projects`)}
-										<ul class="mt-3 space-y-2">
-											{#each section.projects as project}
-												<li class="flex items-start gap-2 text-sm">
-													<Briefcase class="h-3.5 w-3.5 mt-0.5 text-muted-foreground shrink-0" />
-													<div class="min-w-0">
-														<a
-															href={projectUrl(project.id)}
-															class="text-foreground hover:text-primary transition-colors truncate block"
-														>
-															{getProjectTitle(project)}
-														</a>
-														{#if project.date?.start || project.date?.end}
-															<span class="text-xs text-muted-foreground">
-																{formatDate(project.date.start)}{project.date.end ? ` - ${formatDate(project.date.end)}` : ''}
-															</span>
-														{/if}
-													</div>
-												</li>
-											{/each}
-										</ul>
-									{/if}
-								</div>
+		<!-- Members — full-width, compact multi-column -->
+		{#if selectedSectionData.members.length > 0}
+			<Card class="overflow-hidden">
+				{#snippet children()}
+					<CardHeader>
+						{#snippet children()}
+							<CardTitle class="text-lg">
+								{#snippet children()}
+									<span class="flex items-center gap-2">
+										<Users class="h-5 w-5 text-primary" />
+										Members
+										<Badge variant="secondary">
+											{#snippet children()}{selectedSectionData.members.length}{/snippet}
+										</Badge>
+									</span>
+								{/snippet}
+							</CardTitle>
+						{/snippet}
+					</CardHeader>
+					<CardContent>
+						{#snippet children()}
+							<div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-4 gap-y-1.5">
+								{#each selectedSectionData.members as member}
+									<a
+										href={personUrl(member)}
+										class="text-sm text-foreground hover:text-primary transition-colors truncate"
+									>{member}</a>
+								{/each}
 							</div>
 						{/snippet}
 					</CardContent>
 				{/snippet}
 			</Card>
-		{/each}
-	</div>
+		{/if}
+
+		<!-- Objectives -->
+		{#if selectedSectionData.objectives}
+			<Card class="overflow-hidden">
+				{#snippet children()}
+					<CardHeader>
+						{#snippet children()}
+							<CardTitle class="text-lg">
+								{#snippet children()}Objectives{/snippet}
+							</CardTitle>
+						{/snippet}
+					</CardHeader>
+					<CardContent>
+						{#snippet children()}
+							<div class="text-sm text-muted-foreground leading-relaxed break-words">
+								{#each selectedSectionData.objectives.split('\n\n') as paragraph}
+									<p class="mb-2 last:mb-0">{paragraph}</p>
+								{/each}
+							</div>
+						{/snippet}
+					</CardContent>
+				{/snippet}
+			</Card>
+		{/if}
+
+		<!-- Work Programme -->
+		{#if selectedSectionData.workProgramme}
+			<Card class="overflow-hidden">
+				{#snippet children()}
+					<CardHeader>
+						{#snippet children()}
+							<CardTitle class="text-lg">
+								{#snippet children()}Work Programme{/snippet}
+							</CardTitle>
+						{/snippet}
+					</CardHeader>
+					<CardContent>
+						{#snippet children()}
+							<div class="text-sm text-muted-foreground leading-relaxed break-words">
+								{#each selectedSectionData.workProgramme.split('\n\n') as paragraph}
+									<p class="mb-2 last:mb-0">{paragraph}</p>
+								{/each}
+							</div>
+						{/snippet}
+					</CardContent>
+				{/snippet}
+			</Card>
+		{/if}
+
+		<!-- Associated Projects — full width -->
+		{#if selectedSectionData.projects.length > 0}
+			<Card class="overflow-hidden">
+				{#snippet children()}
+					<CardHeader>
+						{#snippet children()}
+							<CardTitle class="text-lg">
+								{#snippet children()}
+									<span class="flex items-center gap-2">
+										<Briefcase class="h-5 w-5 text-primary" />
+										Associated Projects
+										<Badge variant="secondary">
+											{#snippet children()}{selectedSectionData.projects.length}{/snippet}
+										</Badge>
+									</span>
+								{/snippet}
+							</CardTitle>
+						{/snippet}
+					</CardHeader>
+					<CardContent>
+						{#snippet children()}
+							<ul class="space-y-2">
+								{#each selectedSectionData.projects as project}
+									<li class="flex items-start gap-3 p-2 rounded-lg hover:bg-muted/50 transition-colors">
+										<Briefcase class="h-4 w-4 mt-0.5 text-muted-foreground shrink-0" />
+										<div class="min-w-0">
+											<a
+												href={projectUrl(project.id)}
+												class="text-sm text-foreground hover:text-primary transition-colors block"
+											>
+												{getProjectTitle(project)}
+											</a>
+											{#if project.date?.start || project.date?.end}
+												<span class="text-xs text-muted-foreground">
+													{formatDate(project.date.start)}{project.date.end ? ` – ${formatDate(project.date.end)}` : ''}
+												</span>
+											{/if}
+											{#if project.pi?.length}
+												<p class="text-xs text-muted-foreground mt-0.5">
+													PI: {#each project.pi as pi, i}{#if i > 0}, {/if}<a href={personUrl(typeof pi === 'string' ? pi : '')} class="hover:text-primary transition-colors">{pi}</a>{/each}
+												</p>
+											{/if}
+										</div>
+									</li>
+								{/each}
+							</ul>
+						{/snippet}
+					</CardContent>
+				{/snippet}
+			</Card>
+		{/if}
+
+	{:else}
+		<!-- Overview mode -->
+		<div class="grid gap-4 sm:grid-cols-3">
+			<StatCard label="Research Sections" value={sections.length} icon={BookOpen} />
+			<StatCard label="Total Projects" value={totalProjects} icon={Briefcase} />
+			<StatCard label="Avg. Projects / Section" value={avgPerSection} icon={Layers} />
+		</div>
+
+		<!-- Chart -->
+		<ChartCard title="Projects per Research Section" subtitle="Click a bar to view section details" contentHeight="h-[300px]">
+			{#if chartData.length > 0}
+				<BarChart data={chartData} onclick={(name) => selectSection(name)} />
+			{:else}
+				<EmptyState message="No data available" icon={BookOpen} />
+			{/if}
+		</ChartCard>
+
+		<!-- Section Cards Grid -->
+		<div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+			{#each sections as section}
+				<button
+					onclick={() => selectSection(section.name)}
+					class="text-left"
+				>
+					<Card class="overflow-hidden h-full hover:shadow-lg transition-shadow cursor-pointer group">
+						{#snippet children()}
+							<CardHeader>
+								{#snippet children()}
+									<CardTitle class="text-base group-hover:text-primary transition-colors">
+										{#snippet children()}{section.name}{/snippet}
+									</CardTitle>
+								{/snippet}
+							</CardHeader>
+							<CardContent>
+								{#snippet children()}
+									<div class="space-y-3">
+										{#if section.description}
+											<p class="text-xs text-muted-foreground line-clamp-3 leading-relaxed">{section.description}</p>
+										{/if}
+										<div class="flex items-center justify-between">
+											<div class="flex items-center gap-3">
+												<Badge variant="secondary" class="text-xs">
+													{#snippet children()}{section.projects.length} project{section.projects.length !== 1 ? 's' : ''}{/snippet}
+												</Badge>
+												{#if section.principalInvestigators.length > 0}
+													<span class="text-xs text-muted-foreground">
+														{section.principalInvestigators.length} PI{section.principalInvestigators.length !== 1 ? 's' : ''}
+													</span>
+												{/if}
+											</div>
+											<ArrowRight class="h-4 w-4 text-muted-foreground group-hover:text-primary transition-colors" />
+										</div>
+									</div>
+								{/snippet}
+							</CardContent>
+						{/snippet}
+					</Card>
+				</button>
+			{/each}
+		</div>
+	{/if}
 </div>

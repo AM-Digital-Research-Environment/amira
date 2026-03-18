@@ -10,8 +10,7 @@ export function projectUrl(id: string): string {
 
 export function researchSectionsUrl(sectionName?: string): string {
 	if (sectionName) {
-		const slug = sectionName.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
-		return `${base}/research-sections#${slug}`;
+		return `${base}/research-sections?section=${encodeURIComponent(sectionName)}`;
 	}
 	return `${base}/research-sections`;
 }
