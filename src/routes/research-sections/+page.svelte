@@ -4,7 +4,7 @@
 	import { projects, researchSections } from '$lib/stores/data';
 	import { extractResearchSections } from '$lib/utils/dataTransform';
 	import { base } from '$app/paths';
-	import { personUrl } from '$lib/utils/urls';
+	import { personUrl, projectUrl } from '$lib/utils/urls';
 	import type { Project } from '$lib/types';
 	import { BookOpen, Briefcase, Layers, ExternalLink, ChevronDown, ChevronUp, Users } from '@lucide/svelte';
 
@@ -246,7 +246,7 @@
 													<Briefcase class="h-3.5 w-3.5 mt-0.5 text-muted-foreground shrink-0" />
 													<div class="min-w-0">
 														<a
-															href="{base}/projects"
+															href={projectUrl(project.id)}
 															class="text-foreground hover:text-primary transition-colors truncate block"
 														>
 															{getProjectTitle(project)}

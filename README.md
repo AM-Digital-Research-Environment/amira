@@ -7,10 +7,13 @@ Interactive visualization dashboard for WissKI/MongoDB research data from the Af
 - **Overview Dashboard**: Summary cards, timeline, resource distribution, and word clouds
 - **Collections Browser**: Explore collections across four partner universities (UBT, UNILAG, UJKZ, UFBA) with geographic maps, charts, and detailed visualizations
 - **Compare View**: Side-by-side comparison of different collections with overlap analysis
-- **Research Sections**: Browse the six thematic research areas (Affiliations, Arts & Aesthetics, Knowledges, Learning, Mobilities, Moralities) with descriptions, objectives, work programmes, and associated projects
-- **People**: Searchable directory of researchers, PIs, and members — view their projects, research sections, and collection items
-- **Projects Explorer**: Browse research projects with faceted filtering by research section, institution, and search
+- **Research Sections**: Browse the six thematic research areas (Affiliations, Arts & Aesthetics, Knowledges, Learning, Mobilities, Moralities) with descriptions, objectives, work programmes, PIs, and members
+- **Projects Explorer**: Browse research projects with faceted filtering, click into project detail views with description, PIs, members, institutions, and linked collection items
+- **Research Items**: Browse 2200+ collection items with text search, resource type filter, and collapsible subject (LCSH) and tag facets — full detail view with metadata, contributors, subjects, and identifiers
+- **People**: Searchable directory of researchers, PIs, and members — view their projects, research sections, and collection items with pagination
 - **Network Visualization**: Interactive force-directed graphs showing contributor-project relationships and institution collaborations
+
+All entities are cross-linked: clicking a PI navigates to their People profile, clicking a project shows its detail view, clicking a collection item opens its full metadata, and clicking a research section badge navigates to the Research Sections page.
 
 ## Tech Stack
 
@@ -59,9 +62,10 @@ src/
 │   ├── +page.svelte           # Overview dashboard
 │   ├── collections/           # Collections browser
 │   ├── compare/               # Comparison view
-│   ├── research-sections/     # Research sections with descriptions and PIs
-│   ├── people/                # People directory
-│   ├── projects/              # Projects explorer with facets
+│   ├── research-sections/     # Research sections with descriptions, PIs, members
+│   ├── projects/              # Projects explorer with facets and detail view
+│   ├── research-items/        # Collection items browser with subject/tag facets
+│   ├── people/                # People directory with profile detail
 │   └── network/               # Network visualization
 └── app.css                    # Global styles and Tailwind config
 static/

@@ -8,6 +8,10 @@ export function projectsUrl(): string {
 	return `${base}/projects`;
 }
 
+export function projectUrl(id: string): string {
+	return `${base}/projects?id=${encodeURIComponent(id)}`;
+}
+
 export function researchSectionsUrl(): string {
 	return `${base}/research-sections`;
 }

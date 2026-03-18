@@ -3,7 +3,7 @@
 	import { projects, allCollections, researchSections } from '$lib/stores/data';
 	import { base } from '$app/paths';
 	import { page } from '$app/stores';
-	import { researchSectionsUrl, projectsUrl, researchItemUrl } from '$lib/utils/urls';
+	import { researchSectionsUrl, projectUrl, researchItemUrl } from '$lib/utils/urls';
 	import type { Project, CollectionItem } from '$lib/types';
 	import { Users, Briefcase, BookOpen, FileText, Search, X, ArrowLeft } from '@lucide/svelte';
 
@@ -321,7 +321,7 @@
 												<Briefcase class="h-4 w-4 mt-0.5 text-muted-foreground shrink-0" />
 												<div class="min-w-0">
 													<a
-														href={projectsUrl()}
+														href={projectUrl(project.id)}
 														class="text-sm font-medium text-foreground hover:text-primary transition-colors break-words"
 													>
 														{getProjectTitle(project)}
@@ -379,7 +379,7 @@
 												<Briefcase class="h-4 w-4 mt-0.5 text-muted-foreground shrink-0" />
 												<div class="min-w-0">
 													<a
-														href={projectsUrl()}
+														href={projectUrl(project.id)}
 														class="text-sm font-medium text-foreground hover:text-primary transition-colors break-words"
 													>
 														{getProjectTitle(project)}
