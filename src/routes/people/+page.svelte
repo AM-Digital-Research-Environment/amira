@@ -53,11 +53,15 @@
 			}
 		});
 
-		// Mark research section PIs
+		// Mark research section PIs and members
 		Object.entries($researchSections).forEach(([sectionName, info]) => {
 			(info.principalInvestigators || []).forEach((name) => {
 				const person = getOrCreate(name);
 				person.isSectionPI = true;
+				person.sections.add(sectionName);
+			});
+			(info.members || []).forEach((name) => {
+				const person = getOrCreate(name);
 				person.sections.add(sectionName);
 			});
 		});

@@ -329,6 +329,7 @@ export interface ResearchSectionInfo {
 	objectives: string;
 	workProgramme: string;
 	principalInvestigators: string[];
+	members: string[];
 }
 
 export interface MapMarkerData {

@@ -37,6 +37,7 @@
 				objectives: $researchSections[name]?.objectives || '',
 				workProgramme: $researchSections[name]?.workProgramme || '',
 				principalInvestigators: $researchSections[name]?.principalInvestigators || [],
+				members: $researchSections[name]?.members || [],
 				projects: projectsBySection.get(name) || []
 			}));
 	});
@@ -152,6 +153,25 @@
 														href={personUrl(pi)}
 														class="hover:text-primary transition-colors"
 													>{pi}</a>
+												{/each}
+											</p>
+										</div>
+									</div>
+								{/if}
+
+								<!-- Members -->
+								{#if section.members.length > 0}
+									<div class="flex items-start gap-3 rounded-lg bg-muted/50 p-3">
+										<Users class="h-4 w-4 text-muted-foreground mt-0.5 shrink-0" />
+										<div>
+											<p class="text-xs font-medium text-muted-foreground mb-1.5">Members</p>
+											<p class="text-sm text-foreground">
+												{#each section.members as member, i}
+													{#if i > 0}<span class="text-muted-foreground"> · </span>{/if}
+													<a
+														href={personUrl(member)}
+														class="hover:text-primary transition-colors"
+													>{member}</a>
 												{/each}
 											</p>
 										</div>
