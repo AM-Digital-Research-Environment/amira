@@ -53,6 +53,98 @@ export function getTags(item: CollectionItem): string[] {
 	return item.tags.filter(Boolean);
 }
 
+export function getNote(item: CollectionItem): string {
+	if (!item.note || typeof item.note !== 'string') return '';
+	return item.note;
+}
+
+export function getSponsors(item: CollectionItem): string[] {
+	if (!Array.isArray(item.sponsor)) return [];
+	return item.sponsor.filter(Boolean);
+}
+
+export function getUrls(item: CollectionItem): string[] {
+	if (!Array.isArray(item.url)) return [];
+	return item.url.filter(Boolean);
+}
+
+export function getCollections(item: CollectionItem): string[] {
+	if (!Array.isArray(item.collection)) return [];
+	return item.collection.filter(Boolean);
+}
+
+export function getRights(item: CollectionItem): string[] {
+	if (!item.accessCondition?.rights) return [];
+	return item.accessCondition.rights.filter(Boolean);
+}
+
+export function getUsageInfo(item: CollectionItem): { type: string; admins: string } | null {
+	if (!item.accessCondition?.usage?.type) return null;
+	return {
+		type: item.accessCondition.usage.type,
+		admins: Array.isArray(item.accessCondition.usage.admins)
+			? item.accessCondition.usage.admins.join(', ')
+			: item.accessCondition.usage.admins || ''
+	};
+}
+
+export function getGenre(item: CollectionItem): string[] {
+	if (!item.genre) return [];
+	// Handle both 'marc' and 'aat' keys
+	const entries: string[] = [];
+	for (const values of Object.values(item.genre)) {
+		if (Array.isArray(values)) entries.push(...values.filter(Boolean));
+	}
+	return entries;
+}
+
+export interface PhysicalInfo {
+	type?: string;
+	method?: string;
+	descriptions: string[];
+	technical: string[];
+	notes: string[];
+}
+
+export function getPhysicalDescription(item: CollectionItem): PhysicalInfo | null {
+	if (!item.physicalDescription) return null;
+	const pd = item.physicalDescription;
+	const hasContent = pd.type || pd.method ||
+		(pd.desc?.length > 0) || (pd.tech?.length > 0) || (pd.note?.length > 0);
+	if (!hasContent) return null;
+	return {
+		type: pd.type || undefined,
+		method: pd.method || undefined,
+		descriptions: (pd.desc || []).filter(Boolean),
+		technical: (pd.tech || []).filter(Boolean),
+		notes: (pd.note || []).filter(Boolean)
+	};
+}
+
+export function getCurrentLocations(item: CollectionItem): string[] {
+	if (!item.location?.current) return [];
+	return item.location.current.filter(Boolean);
+}
+
+export interface ContributorFull {
+	name: string;
+	role: string;
+	qualifier: string;
+	affiliations: string[];
+}
+
+export function getContributorsFull(item: CollectionItem): ContributorFull[] {
+	if (!Array.isArray(item.name)) return [];
+	return item.name
+		.filter((n) => n?.name?.label)
+		.map((n) => ({
+			name: n.name.label,
+			role: n.role || '',
+			qualifier: n.name.qualifier || 'person',
+			affiliations: (n.affl || []).filter(Boolean)
+		}));
+}
+
 export function formatDateInfo(item: CollectionItem): string {
 	if (!item.dateInfo) return '';
 	const issue = item.dateInfo.issue;

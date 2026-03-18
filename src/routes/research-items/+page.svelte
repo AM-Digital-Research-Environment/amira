@@ -1,17 +1,21 @@
 <script lang="ts">
-	import { StatCard, Card, CardContent } from '$lib/components/ui';
+	import { StatCard, Pagination } from '$lib/components/ui';
 	import { allCollections, enrichedLocations } from '$lib/stores/data';
 	import { page } from '$app/stores';
 	import type { CollectionItem } from '$lib/types';
 	import { getItemTitle } from '$lib/utils/helpers';
 	import { paginate } from '$lib/utils/pagination';
 	import { FileText, Layers, BookOpen } from '@lucide/svelte';
-	import { ItemDetail, ItemFilters, getContributors, getSubjects } from '$lib/components/research-items';
+	import { ItemDetail, ItemFilters, ItemTable, getContributors, getSubjects, getOrigins, getLanguages } from '$lib/components/research-items';
+	import { BackToList } from '$lib/components/ui';
 
 	let searchQuery = $state('');
 	let selectedType = $state('all');
 	let selectedSubjects = $state<string[]>([]);
 	let selectedTags = $state<string[]>([]);
+	let selectedCountries = $state<string[]>([]);
+	let selectedProjects = $state<string[]>([]);
+	let selectedLanguages = $state<string[]>([]);
 	let selectedId = $state('');
 	let listPage = $state(0);
 	const listPerPage = 20;
@@ -62,6 +66,47 @@
 			.map(([name, count]) => ({ name, count }));
 	});
 
+	// Countries with counts
+	let allCountriesWithCounts = $derived.by(() => {
+		const counts = new Map<string, number>();
+		$allCollections.forEach((item) => {
+			const origins = getOrigins(item);
+			origins.forEach((o) => {
+				if (o.country) counts.set(o.country, (counts.get(o.country) || 0) + 1);
+			});
+		});
+		return Array.from(counts.entries())
+			.sort((a, b) => b[1] - a[1])
+			.map(([name, count]) => ({ name, count }));
+	});
+
+	// Projects with counts
+	let allProjectsWithCounts = $derived.by(() => {
+		const counts = new Map<string, number>();
+		$allCollections.forEach((item) => {
+			if (item.project?.name) {
+				counts.set(item.project.name, (counts.get(item.project.name) || 0) + 1);
+			}
+		});
+		return Array.from(counts.entries())
+			.sort((a, b) => b[1] - a[1])
+			.map(([name, count]) => ({ name, count }));
+	});
+
+	// Languages with counts
+	let allLanguagesWithCounts = $derived.by(() => {
+		const counts = new Map<string, number>();
+		$allCollections.forEach((item) => {
+			const langs = getLanguages(item);
+			langs.forEach((l) => {
+				if (l) counts.set(l, (counts.get(l) || 0) + 1);
+			});
+		});
+		return Array.from(counts.entries())
+			.sort((a, b) => b[1] - a[1])
+			.map(([name, count]) => ({ name, count }));
+	});
+
 	function toggleSubject(subject: string) {
 		if (selectedSubjects.includes(subject)) {
 			selectedSubjects = selectedSubjects.filter((s) => s !== subject);
@@ -75,6 +120,30 @@
 			selectedTags = selectedTags.filter((t) => t !== tag);
 		} else {
 			selectedTags = [...selectedTags, tag];
+		}
+	}
+
+	function toggleCountry(country: string) {
+		if (selectedCountries.includes(country)) {
+			selectedCountries = selectedCountries.filter((c) => c !== country);
+		} else {
+			selectedCountries = [...selectedCountries, country];
+		}
+	}
+
+	function toggleProject(project: string) {
+		if (selectedProjects.includes(project)) {
+			selectedProjects = selectedProjects.filter((p) => p !== project);
+		} else {
+			selectedProjects = [...selectedProjects, project];
+		}
+	}
+
+	function toggleLanguage(language: string) {
+		if (selectedLanguages.includes(language)) {
+			selectedLanguages = selectedLanguages.filter((l) => l !== language);
+		} else {
+			selectedLanguages = [...selectedLanguages, language];
 		}
 	}
 
@@ -95,6 +164,24 @@
 			items = items.filter((item) => {
 				if (!Array.isArray(item.tags)) return false;
 				return selectedTags.every((t) => item.tags.includes(t));
+			});
+		}
+		if (selectedCountries.length > 0) {
+			items = items.filter((item) => {
+				const origins = getOrigins(item);
+				const countries = origins.map((o) => o.country).filter(Boolean);
+				return selectedCountries.some((c) => countries.includes(c));
+			});
+		}
+		if (selectedProjects.length > 0) {
+			items = items.filter((item) => {
+				return item.project?.name && selectedProjects.includes(item.project.name);
+			});
+		}
+		if (selectedLanguages.length > 0) {
+			items = items.filter((item) => {
+				const langs = getLanguages(item);
+				return selectedLanguages.some((l) => langs.includes(l));
 			});
 		}
 		if (searchQuery.trim()) {
@@ -118,6 +205,9 @@
 		selectedType;
 		selectedSubjects;
 		selectedTags;
+		selectedCountries;
+		selectedProjects;
+		selectedLanguages;
 		listPage = 0;
 	});
 
@@ -149,7 +239,6 @@
 		const origins = selectedItem.location?.origin || [];
 		const markers: { latitude: number; longitude: number; label: string }[] = [];
 		origins.forEach((o) => {
-			// Try city first, then region, then country
 			if (o.l3 && o.l1) {
 				const key = `${o.l3}|${o.l1}`;
 				const loc = $enrichedLocations!.cities[key];
@@ -198,75 +287,76 @@
 		<p class="page-subtitle">Browse and explore collection items across all universities and projects</p>
 	</div>
 
-	<!-- Stats -->
-	<div class="grid gap-4 sm:grid-cols-3">
-		<StatCard label="Total Items" value={$allCollections.length} icon={FileText} />
-		<StatCard
-			label="Resource Types"
-			value={resourceTypes.length - 1}
-			icon={Layers}
-		/>
-		<StatCard
-			label="Filtered Results"
-			value={filteredItems.length}
-			icon={BookOpen}
-		/>
-	</div>
-
-	<div class="grid gap-6 lg:grid-cols-3">
-		<!-- Item List & Filters -->
-		<ItemFilters
-			bind:this={filtersRef}
-			{filteredItems}
-			{paginatedItems}
-			{resourceTypes}
-			{allSubjectsWithCounts}
-			{allTagsWithCounts}
-			{selectedId}
-			{searchQuery}
-			{selectedType}
-			{selectedSubjects}
-			{selectedTags}
-			{listPage}
-			{listPerPage}
-			onSelectItem={selectItem}
-			onClearSelection={clearSelection}
-			onSearchQueryChange={(v) => searchQuery = v}
-			onSelectedTypeChange={(v) => selectedType = v}
-			onToggleSubject={toggleSubject}
-			onClearSubjects={() => selectedSubjects = []}
-			onToggleTag={toggleTag}
-			onClearTags={() => selectedTags = []}
-			onPageChange={(p) => listPage = p}
-		/>
-
-		<!-- Item Detail -->
-		<div class="lg:col-span-2 space-y-6">
-			{#if selectedItem}
-				<ItemDetail
-					item={selectedItem}
-					mapMarkers={itemMapMarkers}
-					onAddSubject={handleAddSubject}
-					onAddTag={handleAddTag}
-				/>
-			{:else}
-				<!-- No item selected -->
-				<Card class="overflow-hidden">
-					{#snippet children()}
-						<CardContent>
-							{#snippet children()}
-								<div class="flex flex-col items-center justify-center py-16 text-center">
-									<FileText class="h-12 w-12 text-muted-foreground/50 mb-4" />
-									<p class="text-lg font-medium text-muted-foreground">Select an item</p>
-									<p class="text-sm text-muted-foreground/70 mt-1">
-										Choose an item from the list to view its full metadata, contributors, and subjects
-									</p>
-								</div>
-							{/snippet}
-						</CardContent>
-					{/snippet}
-				</Card>
-			{/if}
+	{#if selectedItem}
+		<!-- Detail mode: full-width -->
+		<div class="space-y-6">
+			<BackToList show={true} onclick={clearSelection} label="Back to results" />
+			<ItemDetail
+				item={selectedItem}
+				mapMarkers={itemMapMarkers}
+				onAddSubject={handleAddSubject}
+				onAddTag={handleAddTag}
+			/>
 		</div>
-	</div>
+	{:else}
+		<!-- Stats -->
+		<div class="grid gap-4 sm:grid-cols-3">
+			<StatCard label="Total Items" value={$allCollections.length} icon={FileText} />
+			<StatCard
+				label="Resource Types"
+				value={resourceTypes.length - 1}
+				icon={Layers}
+			/>
+			<StatCard
+				label="Filtered Results"
+				value={filteredItems.length}
+				icon={BookOpen}
+			/>
+		</div>
+
+		<!-- Table mode: filters sidebar + table -->
+		<div class="grid gap-6 lg:grid-cols-4">
+			<div class="lg:col-span-1">
+				<ItemFilters
+					bind:this={filtersRef}
+					{filteredItems}
+					{resourceTypes}
+					{allSubjectsWithCounts}
+					{allTagsWithCounts}
+					{allCountriesWithCounts}
+					{allProjectsWithCounts}
+					{allLanguagesWithCounts}
+					{searchQuery}
+					{selectedType}
+					{selectedSubjects}
+					{selectedTags}
+					{selectedCountries}
+					{selectedProjects}
+					{selectedLanguages}
+					onSearchQueryChange={(v) => searchQuery = v}
+					onSelectedTypeChange={(v) => selectedType = v}
+					onToggleSubject={toggleSubject}
+					onClearSubjects={() => selectedSubjects = []}
+					onToggleTag={toggleTag}
+					onClearTags={() => selectedTags = []}
+					onToggleCountry={toggleCountry}
+					onClearCountries={() => selectedCountries = []}
+					onToggleProject={toggleProject}
+					onClearProjects={() => selectedProjects = []}
+					onToggleLanguage={toggleLanguage}
+					onClearLanguages={() => selectedLanguages = []}
+				/>
+			</div>
+
+			<div class="lg:col-span-3">
+				<ItemTable items={paginatedItems} onSelectItem={selectItem} />
+				<Pagination
+					currentPage={listPage}
+					totalItems={filteredItems.length}
+					itemsPerPage={listPerPage}
+					onPageChange={(p) => listPage = p}
+				/>
+			</div>
+		</div>
+	{/if}
 </div>

@@ -6,10 +6,13 @@
 	import type { CollectionItem } from '$lib/types';
 	import { universities } from '$lib/types';
 	import { getItemTitle } from '$lib/utils/helpers';
-	import { FileText, Users, Tag, Calendar, MapPin, Languages, Building2, Briefcase } from '@lucide/svelte';
+	import {
+		FileText, Users, Tag, Calendar, MapPin, Languages, Building2, Briefcase,
+		ExternalLink, BookType, HardDrive, StickyNote, Heart, Link, Archive, UsersRound
+	} from '@lucide/svelte';
 	import { WissKILink } from '$lib/components/ui';
 	import {
-		getContributors,
+		getContributorsFull,
 		contributorUrl,
 		getSubjects,
 		getLanguages,
@@ -17,6 +20,12 @@
 		getIdentifiers,
 		getOrigins,
 		getTags,
+		getNote,
+		getSponsors,
+		getUrls,
+		getGenre,
+		getPhysicalDescription,
+		getCurrentLocations,
 		formatDateInfo
 	} from './itemHelpers';
 
@@ -28,9 +37,26 @@
 	}
 
 	let { item, mapMarkers = [], onAddSubject, onAddTag }: Props = $props();
+
+	let contributors = $derived(getContributorsFull(item));
+	let subjects = $derived(getSubjects(item));
+	let origins = $derived(getOrigins(item));
+	let tags = $derived(getTags(item));
+	let identifiers = $derived(getIdentifiers(item));
+	let abstract = $derived(getAbstract(item));
+	let note = $derived(getNote(item));
+	let sponsors = $derived(getSponsors(item));
+	let urls = $derived(getUrls(item));
+	let targetAudience = $derived(
+		Array.isArray(item.targetAudience) ? item.targetAudience.filter(Boolean) : []
+	);
+	let genre = $derived(getGenre(item));
+	let physicalDesc = $derived(getPhysicalDescription(item));
+	let currentLocations = $derived(getCurrentLocations(item));
+	let dateStr = $derived(formatDateInfo(item));
 </script>
 
-<!-- Title & Type -->
+<!-- Title & Metadata — full width -->
 <Card class="overflow-hidden">
 	{#snippet children()}
 		<CardHeader>
@@ -44,58 +70,70 @@
 							<p class="text-sm text-muted-foreground mt-1 break-words">{alt.title} <span class="text-xs">({alt.title_type})</span></p>
 						{/each}
 					{/if}
-					<div class="flex flex-wrap gap-2 mt-3">
-						{#if item.typeOfResource}
-							<a href={resourceTypeUrl(item.typeOfResource)} class="hover:opacity-80 transition-opacity">
-								<Badge class="hover:bg-primary/80 transition-colors">
-									{#snippet children()}
-										<FileText class="h-3 w-3 mr-1 inline" />{item.typeOfResource}
-									{/snippet}
-								</Badge>
-							</a>
-						{/if}
-						{#if item.project?.name}
-							<a href={projectUrl(item.project.id)} class="hover:opacity-80 transition-opacity">
-								<Badge variant="secondary" class="hover:bg-primary/20 transition-colors">
-									{#snippet children()}
-										<Briefcase class="h-3 w-3 mr-1 inline" />{item.project.name}
-									{/snippet}
-								</Badge>
-							</a>
-						{/if}
-						{#if item.university}
-							{@const uni = universities.find((u) => u.id === item.university)}
-							{#if uni}
-								<a href={institutionUrl(uni.name)} class="hover:opacity-80 transition-opacity">
-									<Badge variant="outline" class="hover:bg-primary/10 transition-colors">
-										{#snippet children()}
-											<Building2 class="h-3 w-3 mr-1 inline" />{uni.name}
-										{/snippet}
-									</Badge>
-								</a>
-							{/if}
-						{/if}
-						{#each getLanguages(item) as lang}
-							<a href={languageUrl(lang)} class="hover:opacity-80 transition-opacity">
-								<Badge variant="outline" class="hover:bg-primary/10 transition-colors">
-									{#snippet children()}
-										<Languages class="h-3 w-3 mr-1 inline" />{languageName(lang)}
-									{/snippet}
-								</Badge>
-							</a>
-						{/each}
-						{#if item.dre_id}
-							<WissKILink category="researchItems" entityKey={item.dre_id} />
-						{/if}
-					</div>
+					{#if item.project?.name}
+						<p class="text-sm text-muted-foreground mt-2 flex items-center gap-1.5">
+							<Briefcase class="h-3.5 w-3.5 shrink-0" />
+							Project: <a href={projectUrl(item.project.id)} class="hover:text-primary transition-colors">{item.project.name}</a>
+						</p>
+					{/if}
 				</div>
 			{/snippet}
 		</CardHeader>
+		<CardContent>
+			{#snippet children()}
+				<div class="grid gap-3 text-sm sm:grid-cols-2">
+					{#if item.typeOfResource || genre.length > 0}
+						<div class="flex items-center gap-2">
+							<FileText class="h-4 w-4 text-muted-foreground shrink-0" />
+							<span class="text-muted-foreground shrink-0">Type</span>
+							<span class="text-foreground">
+								{item.typeOfResource || ''}{#if genre.length > 0}{#if item.typeOfResource} · {/if}{genre.join(', ')}{/if}
+							</span>
+						</div>
+					{/if}
+					{#if item.university}
+						{@const uni = universities.find((u) => u.id === item.university)}
+						{#if uni}
+							<div class="flex items-center gap-2">
+								<Building2 class="h-4 w-4 text-muted-foreground shrink-0" />
+								<span class="text-muted-foreground shrink-0">Institution</span>
+								<a href={institutionUrl(uni.name)} class="text-foreground hover:text-primary transition-colors truncate">
+									{uni.name}
+								</a>
+							</div>
+						{/if}
+					{/if}
+					{#if getLanguages(item).length > 0}
+						<div class="flex items-center gap-2">
+							<Languages class="h-4 w-4 text-muted-foreground shrink-0" />
+							<span class="text-muted-foreground shrink-0">Language</span>
+							<span class="text-foreground">
+								{#each getLanguages(item) as lang, i}
+									<a href={languageUrl(lang)} class="hover:text-primary transition-colors">{languageName(lang)}</a>{#if i < getLanguages(item).length - 1},&nbsp;{/if}
+								{/each}
+							</span>
+						</div>
+					{/if}
+					{#if dateStr}
+						<div class="flex items-center gap-2">
+							<Calendar class="h-4 w-4 text-muted-foreground shrink-0" />
+							<span class="text-muted-foreground shrink-0">Date</span>
+							<span class="text-foreground">{dateStr}</span>
+						</div>
+					{/if}
+					{#if item.dre_id}
+						<div class="flex items-center gap-2">
+							<WissKILink category="researchItems" entityKey={item.dre_id} />
+						</div>
+					{/if}
+				</div>
+			{/snippet}
+		</CardContent>
 	{/snippet}
 </Card>
 
-<!-- Abstract -->
-{#if getAbstract(item)}
+<!-- Abstract — full width -->
+{#if abstract}
 	<Card class="overflow-hidden">
 		{#snippet children()}
 			<CardHeader>
@@ -107,155 +145,400 @@
 			</CardHeader>
 			<CardContent>
 				{#snippet children()}
-					<p class="text-sm text-muted-foreground leading-relaxed break-words">{getAbstract(item)}</p>
+					<p class="text-sm text-muted-foreground leading-relaxed break-words whitespace-pre-line">{abstract}</p>
 				{/snippet}
 			</CardContent>
 		{/snippet}
 	</Card>
 {/if}
 
-<!-- Contributors -->
-{#if getContributors(item).length > 0}
-	<Card class="overflow-hidden">
-		{#snippet children()}
-			<CardHeader>
-				{#snippet children()}
-					<CardTitle class="text-lg">
-						{#snippet children()}
-							<span class="flex items-center gap-2">
-								<Users class="h-5 w-5 text-primary" />
-								Contributors
-							</span>
-						{/snippet}
-					</CardTitle>
-				{/snippet}
-			</CardHeader>
-			<CardContent>
-				{#snippet children()}
-					<ul class="space-y-2">
-						{#each getContributors(item) as contributor}
-							<li class="flex items-center justify-between gap-2 p-2 rounded-lg bg-muted/30">
-								<a
-									href={contributorUrl(contributor)}
-									class="text-sm font-medium text-foreground hover:text-primary transition-colors"
-								>
-									{contributor.name}
-								</a>
-								<div class="flex items-center gap-1.5 shrink-0">
-									{#if contributor.qualifier !== 'person'}
-										<Badge variant="secondary" class="text-[10px]">
-											{#snippet children()}{contributor.qualifier}{/snippet}
-										</Badge>
+<!-- Two-column grid for metadata cards -->
+<div class="grid gap-6 md:grid-cols-2">
+	<!-- Contributors -->
+	{#if contributors.length > 0}
+		<Card class="overflow-hidden">
+			{#snippet children()}
+				<CardHeader>
+					{#snippet children()}
+						<CardTitle class="text-lg">
+							{#snippet children()}
+								<span class="flex items-center gap-2">
+									<Users class="h-5 w-5 text-primary" />
+									Contributors
+								</span>
+							{/snippet}
+						</CardTitle>
+					{/snippet}
+				</CardHeader>
+				<CardContent>
+					{#snippet children()}
+						<ul class="space-y-2">
+							{#each contributors as contributor}
+								<li class="p-2 rounded-lg bg-muted/30">
+									<div class="flex items-center justify-between gap-2">
+										<a
+											href={contributorUrl(contributor)}
+											class="text-sm font-medium text-foreground hover:text-primary transition-colors"
+										>
+											{contributor.name}
+										</a>
+										<div class="flex items-center gap-1.5 shrink-0">
+											{#if contributor.qualifier !== 'person'}
+												<Badge variant="secondary" class="text-[10px]">
+													{#snippet children()}{contributor.qualifier}{/snippet}
+												</Badge>
+											{/if}
+											{#if contributor.role}
+												<Badge variant="outline" class="text-[10px]">
+													{#snippet children()}{contributor.role}{/snippet}
+												</Badge>
+											{/if}
+										</div>
+									</div>
+									{#if contributor.affiliations.length > 0}
+										<div class="mt-1">
+											{#each contributor.affiliations as affl}
+												<a
+													href={institutionUrl(affl)}
+													class="text-xs text-muted-foreground hover:text-primary transition-colors block"
+												>
+													{affl}
+												</a>
+											{/each}
+										</div>
 									{/if}
-									{#if contributor.role}
-										<Badge variant="outline" class="text-[10px]">
-											{#snippet children()}{contributor.role}{/snippet}
-										</Badge>
-									{/if}
-								</div>
-							</li>
-						{/each}
-					</ul>
-				{/snippet}
-			</CardContent>
-		{/snippet}
-	</Card>
-{/if}
+								</li>
+							{/each}
+						</ul>
+					{/snippet}
+				</CardContent>
+			{/snippet}
+		</Card>
+	{/if}
 
-<!-- Subjects -->
-{#if getSubjects(item).length > 0}
-	<Card class="overflow-hidden">
-		{#snippet children()}
-			<CardHeader>
-				{#snippet children()}
-					<CardTitle class="text-lg">
-						{#snippet children()}
-							<span class="flex items-center gap-2">
-								<Tag class="h-5 w-5 text-primary" />
-								Subjects
-							</span>
-						{/snippet}
-					</CardTitle>
-				{/snippet}
-			</CardHeader>
-			<CardContent>
-				{#snippet children()}
-					<div class="flex flex-wrap gap-2">
-						{#each getSubjects(item) as subject}
-							<button onclick={() => onAddSubject?.(subject)}>
-								<Badge variant="secondary" class="hover:bg-primary/20 transition-colors">
-									{#snippet children()}{subject}{/snippet}
-								</Badge>
-							</button>
-						{/each}
-					</div>
-				{/snippet}
-			</CardContent>
-		{/snippet}
-	</Card>
-{/if}
-
-<!-- Location & Date & Tags -->
-{#if getOrigins(item).length > 0 || formatDateInfo(item) || getTags(item).length > 0}
-	<Card class="overflow-hidden">
-		{#snippet children()}
-			<CardHeader>
-				{#snippet children()}
-					<CardTitle class="text-lg">
-						{#snippet children()}Details{/snippet}
-					</CardTitle>
-				{/snippet}
-			</CardHeader>
-			<CardContent>
-				{#snippet children()}
-					<div class="space-y-4">
-						{#if getOrigins(item).length > 0}
-							<div class="flex items-start gap-3">
-								<MapPin class="h-4 w-4 text-muted-foreground mt-0.5 shrink-0" />
+	<!-- Location -->
+	{#if origins.length > 0 || currentLocations.length > 0}
+		<Card class="overflow-hidden">
+			{#snippet children()}
+				<CardHeader>
+					{#snippet children()}
+						<CardTitle class="text-lg">
+							{#snippet children()}
+								<span class="flex items-center gap-2">
+									<MapPin class="h-5 w-5 text-primary" />
+									Location
+								</span>
+							{/snippet}
+						</CardTitle>
+					{/snippet}
+				</CardHeader>
+				<CardContent>
+					{#snippet children()}
+						<div class="space-y-4">
+							{#if origins.length > 0}
 								<div>
 									<p class="text-xs font-medium text-muted-foreground mb-1">Origin</p>
-									{#each getOrigins(item) as origin}
+									{#each origins as origin}
 										<p class="text-sm text-foreground">
 											{#if origin.city}<a href={locationUrl(origin.city)} class="hover:text-primary transition-colors">{origin.city}</a>{/if}{#if origin.city && (origin.region || origin.country)},&nbsp;{/if}{#if origin.region}<a href={locationUrl(origin.region)} class="hover:text-primary transition-colors">{origin.region}</a>{/if}{#if origin.region && origin.country},&nbsp;{/if}{#if origin.country}<a href={locationUrl(origin.country)} class="hover:text-primary transition-colors">{origin.country}</a>{/if}
 										</p>
 									{/each}
 								</div>
-							</div>
-						{/if}
-						{#if formatDateInfo(item)}
-							<div class="flex items-start gap-3">
-								<Calendar class="h-4 w-4 text-muted-foreground mt-0.5 shrink-0" />
+							{/if}
+							{#if currentLocations.length > 0}
 								<div>
-									<p class="text-xs font-medium text-muted-foreground mb-1">Date</p>
-									<p class="text-sm text-foreground">{formatDateInfo(item)}</p>
+									<p class="text-xs font-medium text-muted-foreground mb-1">Current Location</p>
+									{#each currentLocations as loc}
+										<p class="text-sm text-foreground">{loc}</p>
+									{/each}
 								</div>
-							</div>
-						{/if}
-						{#if getTags(item).length > 0}
-							<div class="flex items-start gap-3">
-								<Tag class="h-4 w-4 text-muted-foreground mt-0.5 shrink-0" />
-								<div>
-									<p class="text-xs font-medium text-muted-foreground mb-1">Tags</p>
-									<div class="flex flex-wrap gap-1.5">
-										{#each getTags(item) as tag}
-											<button onclick={() => onAddTag?.(tag)}>
-												<Badge variant="outline" class="text-xs hover:bg-accent/20 transition-colors">
-													{#snippet children()}{tag}{/snippet}
-												</Badge>
-											</button>
-										{/each}
-									</div>
-								</div>
-							</div>
-						{/if}
-					</div>
-				{/snippet}
-			</CardContent>
-		{/snippet}
-	</Card>
-{/if}
+							{/if}
+						</div>
+					{/snippet}
+				</CardContent>
+			{/snippet}
+		</Card>
+	{/if}
 
-<!-- Map -->
+	<!-- Subjects -->
+	{#if subjects.length > 0}
+		<Card class="overflow-hidden">
+			{#snippet children()}
+				<CardHeader>
+					{#snippet children()}
+						<CardTitle class="text-lg">
+							{#snippet children()}
+								<span class="flex items-center gap-2">
+									<Tag class="h-5 w-5 text-primary" />
+									Subjects
+								</span>
+							{/snippet}
+						</CardTitle>
+					{/snippet}
+				</CardHeader>
+				<CardContent>
+					{#snippet children()}
+						<div class="flex flex-wrap gap-2">
+							{#each subjects as subject}
+								<button onclick={() => onAddSubject?.(subject)}>
+									<Badge variant="secondary" class="hover:bg-primary/20 transition-colors">
+										{#snippet children()}{subject}{/snippet}
+									</Badge>
+								</button>
+							{/each}
+						</div>
+					{/snippet}
+				</CardContent>
+			{/snippet}
+		</Card>
+	{/if}
+
+	<!-- Tags -->
+	{#if tags.length > 0}
+		<Card class="overflow-hidden">
+			{#snippet children()}
+				<CardHeader>
+					{#snippet children()}
+						<CardTitle class="text-lg">
+							{#snippet children()}
+								<span class="flex items-center gap-2">
+									<Tag class="h-5 w-5 text-primary" />
+									Tags
+								</span>
+							{/snippet}
+						</CardTitle>
+					{/snippet}
+				</CardHeader>
+				<CardContent>
+					{#snippet children()}
+						<div class="flex flex-wrap gap-1.5">
+							{#each tags as tag}
+								<button onclick={() => onAddTag?.(tag)}>
+									<Badge variant="outline" class="text-xs hover:bg-accent/20 transition-colors">
+										{#snippet children()}{tag}{/snippet}
+									</Badge>
+								</button>
+							{/each}
+						</div>
+					{/snippet}
+				</CardContent>
+			{/snippet}
+		</Card>
+	{/if}
+
+	<!-- Physical Description -->
+	{#if physicalDesc}
+		<Card class="overflow-hidden">
+			{#snippet children()}
+				<CardHeader>
+					{#snippet children()}
+						<CardTitle class="text-lg">
+							{#snippet children()}
+								<span class="flex items-center gap-2">
+									<HardDrive class="h-5 w-5 text-primary" />
+									Physical Description
+								</span>
+							{/snippet}
+						</CardTitle>
+					{/snippet}
+				</CardHeader>
+				<CardContent>
+					{#snippet children()}
+						<div class="space-y-2 text-sm">
+							{#if physicalDesc.type}
+								<div class="flex gap-2">
+									<span class="text-muted-foreground shrink-0 min-w-[80px]">Type</span>
+									<span class="text-foreground">{physicalDesc.type}</span>
+								</div>
+							{/if}
+							{#if physicalDesc.method}
+								<div class="flex gap-2">
+									<span class="text-muted-foreground shrink-0 min-w-[80px]">Method</span>
+									<span class="text-foreground">{physicalDesc.method}</span>
+								</div>
+							{/if}
+							{#if physicalDesc.descriptions.length > 0}
+								<div class="flex gap-2">
+									<span class="text-muted-foreground shrink-0 min-w-[80px]">Format</span>
+									<span class="text-foreground">{physicalDesc.descriptions.join(', ')}</span>
+								</div>
+							{/if}
+							{#if physicalDesc.technical.length > 0}
+								<div class="flex gap-2">
+									<span class="text-muted-foreground shrink-0 min-w-[80px]">Technical</span>
+									<span class="text-foreground">{physicalDesc.technical.join(', ')}</span>
+								</div>
+							{/if}
+							{#if physicalDesc.notes.length > 0}
+								<div class="flex gap-2">
+									<span class="text-muted-foreground shrink-0 min-w-[80px]">Notes</span>
+									<span class="text-foreground">{physicalDesc.notes.join(', ')}</span>
+								</div>
+							{/if}
+						</div>
+					{/snippet}
+				</CardContent>
+			{/snippet}
+		</Card>
+	{/if}
+
+	<!-- Identifiers -->
+	{#if identifiers.length > 0}
+		<Card class="overflow-hidden">
+			{#snippet children()}
+				<CardHeader>
+					{#snippet children()}
+						<CardTitle class="text-lg">
+							{#snippet children()}Identifiers{/snippet}
+						</CardTitle>
+					{/snippet}
+				</CardHeader>
+				<CardContent>
+					{#snippet children()}
+						<div class="space-y-2">
+							{#each identifiers as id}
+								<div class="flex items-start gap-3 text-sm">
+									<span class="text-muted-foreground shrink-0 min-w-[80px]">{id.type}</span>
+									{#if id.value.startsWith('http')}
+										<a href={id.value} target="_blank" rel="noopener noreferrer" class="text-primary hover:underline font-mono text-xs break-all inline-flex items-center gap-1">
+											{id.value}<ExternalLink class="h-3 w-3 shrink-0" />
+										</a>
+									{:else}
+										<span class="text-foreground font-mono text-xs break-all">{id.value}</span>
+									{/if}
+								</div>
+							{/each}
+						</div>
+					{/snippet}
+				</CardContent>
+			{/snippet}
+		</Card>
+	{/if}
+
+	<!-- URLs -->
+	{#if urls.length > 0}
+		<Card class="overflow-hidden">
+			{#snippet children()}
+				<CardHeader>
+					{#snippet children()}
+						<CardTitle class="text-lg">
+							{#snippet children()}
+								<span class="flex items-center gap-2">
+									<Link class="h-5 w-5 text-primary" />
+									Links
+								</span>
+							{/snippet}
+						</CardTitle>
+					{/snippet}
+				</CardHeader>
+				<CardContent>
+					{#snippet children()}
+						<div class="space-y-2">
+							{#each urls as url}
+								<a
+									href={url}
+									target="_blank"
+									rel="noopener noreferrer"
+									class="text-sm text-primary hover:underline break-all flex items-center gap-1.5"
+								>
+									<ExternalLink class="h-3.5 w-3.5 shrink-0" />
+									{url}
+								</a>
+							{/each}
+						</div>
+					{/snippet}
+				</CardContent>
+			{/snippet}
+		</Card>
+	{/if}
+
+	<!-- Sponsors -->
+	{#if sponsors.length > 0}
+		<Card class="overflow-hidden">
+			{#snippet children()}
+				<CardHeader>
+					{#snippet children()}
+						<CardTitle class="text-lg">
+							{#snippet children()}
+								<span class="flex items-center gap-2">
+									<Heart class="h-5 w-5 text-primary" />
+									Sponsors
+								</span>
+							{/snippet}
+						</CardTitle>
+					{/snippet}
+				</CardHeader>
+				<CardContent>
+					{#snippet children()}
+						<ul class="space-y-1.5">
+							{#each sponsors as sponsor}
+								<li class="text-sm text-muted-foreground">{sponsor}</li>
+							{/each}
+						</ul>
+					{/snippet}
+				</CardContent>
+			{/snippet}
+		</Card>
+	{/if}
+
+	<!-- Target Audience -->
+	{#if targetAudience.length > 0}
+		<Card class="overflow-hidden">
+			{#snippet children()}
+				<CardHeader>
+					{#snippet children()}
+						<CardTitle class="text-lg">
+							{#snippet children()}
+								<span class="flex items-center gap-2">
+									<UsersRound class="h-5 w-5 text-primary" />
+									Target Audience
+								</span>
+							{/snippet}
+						</CardTitle>
+					{/snippet}
+				</CardHeader>
+				<CardContent>
+					{#snippet children()}
+						<div class="flex flex-wrap gap-2">
+							{#each targetAudience as audience}
+								<Badge variant="secondary">
+									{#snippet children()}{audience}{/snippet}
+								</Badge>
+							{/each}
+						</div>
+					{/snippet}
+				</CardContent>
+			{/snippet}
+		</Card>
+	{/if}
+
+	<!-- Note -->
+	{#if note}
+		<Card class="overflow-hidden">
+			{#snippet children()}
+				<CardHeader>
+					{#snippet children()}
+						<CardTitle class="text-lg">
+							{#snippet children()}
+								<span class="flex items-center gap-2">
+									<StickyNote class="h-5 w-5 text-primary" />
+									Note
+								</span>
+							{/snippet}
+						</CardTitle>
+					{/snippet}
+				</CardHeader>
+				<CardContent>
+					{#snippet children()}
+						<p class="text-sm text-muted-foreground whitespace-pre-line break-words">{note}</p>
+					{/snippet}
+				</CardContent>
+			{/snippet}
+		</Card>
+	{/if}
+</div>
+
+<!-- Map — full width, outside the two-column grid -->
 {#if mapMarkers.length > 0}
 	<Card class="overflow-hidden">
 		{#snippet children()}
@@ -274,33 +557,6 @@
 			<CardContent>
 				{#snippet children()}
 					<MiniMap markers={mapMarkers} />
-				{/snippet}
-			</CardContent>
-		{/snippet}
-	</Card>
-{/if}
-
-<!-- Identifiers -->
-{#if getIdentifiers(item).length > 0}
-	<Card class="overflow-hidden">
-		{#snippet children()}
-			<CardHeader>
-				{#snippet children()}
-					<CardTitle class="text-lg">
-						{#snippet children()}Identifiers{/snippet}
-					</CardTitle>
-				{/snippet}
-			</CardHeader>
-			<CardContent>
-				{#snippet children()}
-					<div class="space-y-2">
-						{#each getIdentifiers(item) as id}
-							<div class="flex items-start gap-3 text-sm">
-								<span class="text-muted-foreground shrink-0 min-w-[120px]">{id.type}</span>
-								<span class="text-foreground font-mono text-xs break-all">{id.value}</span>
-							</div>
-						{/each}
-					</div>
 				{/snippet}
 			</CardContent>
 		{/snippet}
