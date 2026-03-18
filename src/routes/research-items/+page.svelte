@@ -3,7 +3,7 @@
 	import { allCollections, enrichedLocations } from '$lib/stores/data';
 	import { MiniMap } from '$lib/components/charts';
 	import { page } from '$app/stores';
-	import { personUrl, locationUrl, institutionUrl, projectUrl, languageUrl, subjectUrl, tagUrl } from '$lib/utils/urls';
+	import { personUrl, locationUrl, institutionUrl, projectUrl, languageUrl, subjectUrl, tagUrl, resourceTypeUrl } from '$lib/utils/urls';
 	import { languageName } from '$lib/utils/languages';
 	import type { CollectionItem } from '$lib/types';
 	import { universities } from '$lib/types';
@@ -504,11 +504,13 @@
 									{/if}
 									<div class="flex flex-wrap gap-2 mt-3">
 										{#if selectedItem.typeOfResource}
-											<Badge>
-												{#snippet children()}
-													<FileText class="h-3 w-3 mr-1 inline" />{selectedItem.typeOfResource}
-												{/snippet}
-											</Badge>
+											<a href={resourceTypeUrl(selectedItem.typeOfResource)} class="hover:opacity-80 transition-opacity">
+												<Badge class="hover:bg-primary/80 transition-colors">
+													{#snippet children()}
+														<FileText class="h-3 w-3 mr-1 inline" />{selectedItem.typeOfResource}
+													{/snippet}
+												</Badge>
+											</a>
 										{/if}
 										{#if selectedItem.project?.name}
 											<a href={projectUrl(selectedItem.project.id)} class="hover:opacity-80 transition-opacity">

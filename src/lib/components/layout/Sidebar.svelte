@@ -35,7 +35,8 @@
 				{ href: `${base}/institutions`, label: 'Institutions', icon: Building2 },
 				{ href: `${base}/locations`, label: 'Locations', icon: MapPin },
 				{ href: `${base}/languages`, label: 'Languages', icon: Languages },
-				{ href: `${base}/subjects`, label: 'Subjects & Tags', icon: Tag }
+				{ href: `${base}/subjects`, label: 'Subjects & Tags', icon: Tag },
+				{ href: `${base}/resource-types`, label: 'Resource Types', icon: Layers }
 			]
 		},
 		{

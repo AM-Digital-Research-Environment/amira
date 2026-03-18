@@ -14,6 +14,7 @@ Interactive visualization dashboard for WissKI/MongoDB research data from the Af
 - **Locations**: Browse by country, region, or city with item counts. Detail view includes an interactive map (with fallback to country coordinates) and paginated items.
 - **Languages**: Browse items by language. ISO 639-2 codes are displayed as full English names throughout the dashboard.
 - **Subjects & Tags**: Combined page with toggle between LCSH controlled subjects and free-form tags. Interactive word cloud (top 100 terms) — click a word to view its items. Searchable list with counts.
+- **Resource Types**: Browse items by resource type (Audio, Text, Image, Manuscript, etc.) with interactive pie and bar charts — click a segment or bar to view items. Shows percentage distribution.
 
 ### Visualize
 
@@ -32,6 +33,7 @@ All entities are deeply cross-linked throughout the dashboard:
 - Institution badges link to Institutions page
 - Language badges link to Languages page
 - Location origins (city, region, country) link to Locations page
+- Resource type badges link to Resource Types page
 - Contributors are routed to People (persons) or Institutions (institutions/groups) based on their type
 
 ## Tech Stack
@@ -87,6 +89,7 @@ src/
 │   ├── locations/             # Country/region/city browser with maps
 │   ├── languages/             # Language browser
 │   ├── subjects/              # Subjects & Tags with word cloud
+│   ├── resource-types/        # Resource type browser with pie/bar charts
 │   ├── collections/           # Collections browser with charts and maps
 │   ├── compare/               # Collection comparison view
 │   └── network/               # Network visualization

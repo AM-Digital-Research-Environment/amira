@@ -43,3 +43,7 @@ export function subjectUrl(name: string): string {
 export function tagUrl(name: string): string {
 	return `${base}/subjects?name=${encodeURIComponent(name)}&view=tags`;
 }
+
+export function resourceTypeUrl(type: string): string {
+	return `${base}/resource-types?type=${encodeURIComponent(type)}`;
+}
