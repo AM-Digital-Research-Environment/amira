@@ -4,11 +4,17 @@
 	import { page } from '$app/stores';
 	import { personUrl } from '$lib/utils/urls';
 	import type { CollectionItem } from '$lib/types';
-	import { FileText, Users, Tag, Globe, Calendar, BookOpen, ArrowLeft, MapPin, Layers } from '@lucide/svelte';
+	import { FileText, Users, Tag, Globe, Calendar, BookOpen, ArrowLeft, MapPin, Layers, X, ChevronDown, ChevronUp } from '@lucide/svelte';
 
 	let searchQuery = $state('');
 	let selectedType = $state('all');
+	let selectedSubjects = $state<string[]>([]);
+	let selectedTags = $state<string[]>([]);
+	let subjectSearch = $state('');
+	let tagSearch = $state('');
 	let selectedId = $state('');
+	let subjectsExpanded = $state(false);
+	let tagsExpanded = $state(false);
 	let listPage = $state(0);
 	const listPerPage = 20;
 
@@ -27,11 +33,82 @@
 		return ['all', ...Array.from(types).sort()];
 	});
 
+	// Subjects (LCSH controlled vocabulary) with counts
+	let allSubjectsWithCounts = $derived.by(() => {
+		const counts = new Map<string, number>();
+		$allCollections.forEach((item) => {
+			if (!Array.isArray(item.subject)) return;
+			item.subject.forEach((s) => {
+				const label = s.authLabel || s.origLabel;
+				if (label) counts.set(label, (counts.get(label) || 0) + 1);
+			});
+		});
+		return Array.from(counts.entries())
+			.sort((a, b) => b[1] - a[1])
+			.map(([name, count]) => ({ name, count }));
+	});
+
+	// Tags (free-form keywords) with counts
+	let allTagsWithCounts = $derived.by(() => {
+		const counts = new Map<string, number>();
+		$allCollections.forEach((item) => {
+			if (!Array.isArray(item.tags)) return;
+			item.tags.forEach((t) => {
+				if (t) counts.set(t, (counts.get(t) || 0) + 1);
+			});
+		});
+		return Array.from(counts.entries())
+			.sort((a, b) => b[1] - a[1])
+			.map(([name, count]) => ({ name, count }));
+	});
+
+	// Filtered options for searches
+	let filteredSubjectOptions = $derived.by(() => {
+		if (!subjectSearch.trim()) return allSubjectsWithCounts.slice(0, 30);
+		const q = subjectSearch.toLowerCase();
+		return allSubjectsWithCounts.filter((s) => s.name.toLowerCase().includes(q)).slice(0, 30);
+	});
+
+	let filteredTagOptions = $derived.by(() => {
+		if (!tagSearch.trim()) return allTagsWithCounts.slice(0, 30);
+		const q = tagSearch.toLowerCase();
+		return allTagsWithCounts.filter((s) => s.name.toLowerCase().includes(q)).slice(0, 30);
+	});
+
+	function toggleSubject(subject: string) {
+		if (selectedSubjects.includes(subject)) {
+			selectedSubjects = selectedSubjects.filter((s) => s !== subject);
+		} else {
+			selectedSubjects = [...selectedSubjects, subject];
+		}
+	}
+
+	function toggleTag(tag: string) {
+		if (selectedTags.includes(tag)) {
+			selectedTags = selectedTags.filter((t) => t !== tag);
+		} else {
+			selectedTags = [...selectedTags, tag];
+		}
+	}
+
 	// Filtered items
 	let filteredItems = $derived.by(() => {
 		let items = $allCollections;
 		if (selectedType !== 'all') {
 			items = items.filter((item) => item.typeOfResource === selectedType);
+		}
+		if (selectedSubjects.length > 0) {
+			items = items.filter((item) => {
+				if (!Array.isArray(item.subject)) return false;
+				const labels = item.subject.map((s) => s.authLabel || s.origLabel).filter(Boolean);
+				return selectedSubjects.every((s) => labels.includes(s));
+			});
+		}
+		if (selectedTags.length > 0) {
+			items = items.filter((item) => {
+				if (!Array.isArray(item.tags)) return false;
+				return selectedTags.every((t) => item.tags.includes(t));
+			});
 		}
 		if (searchQuery.trim()) {
 			const q = searchQuery.toLowerCase();
@@ -54,6 +131,8 @@
 	$effect(() => {
 		searchQuery;
 		selectedType;
+		selectedSubjects;
+		selectedTags;
 		listPage = 0;
 	});
 
@@ -203,7 +282,135 @@
 								{/each}
 							</select>
 
-							<div class="space-y-0.5 max-h-[50vh] overflow-y-auto">
+							<!-- Subjects filter (LCSH controlled vocabulary) -->
+							<div class="border-t border-border pt-2">
+								<button
+									onclick={() => subjectsExpanded = !subjectsExpanded}
+									class="flex items-center justify-between w-full text-xs font-medium text-muted-foreground"
+								>
+									<span class="flex items-center gap-1.5">
+										<BookOpen class="h-3 w-3" />
+										Subjects
+										{#if selectedSubjects.length > 0}
+											<Badge variant="secondary" class="text-[10px] px-1.5 py-0">
+												{#snippet children()}{selectedSubjects.length}{/snippet}
+											</Badge>
+										{/if}
+									</span>
+									{#if subjectsExpanded}
+										<ChevronUp class="h-3.5 w-3.5" />
+									{:else}
+										<ChevronDown class="h-3.5 w-3.5" />
+									{/if}
+								</button>
+
+								{#if selectedSubjects.length > 0}
+									<div class="flex flex-wrap gap-1.5 mt-2">
+										{#each selectedSubjects as subject}
+											<button
+												onclick={() => toggleSubject(subject)}
+												class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-primary/15 text-primary text-xs font-medium hover:bg-primary/25 transition-colors"
+											>
+												{subject}
+												<X class="h-3 w-3" />
+											</button>
+										{/each}
+										<button
+											onclick={() => selectedSubjects = []}
+											class="text-[10px] text-muted-foreground hover:text-foreground transition-colors px-1"
+										>
+											Clear
+										</button>
+									</div>
+								{/if}
+
+								{#if subjectsExpanded}
+									<div class="mt-2 space-y-2">
+										<Input
+											placeholder="Search subjects..."
+											bind:value={subjectSearch}
+										/>
+										<div class="space-y-0.5 max-h-32 overflow-y-auto">
+											{#each filteredSubjectOptions as subject}
+												{@const isActive = selectedSubjects.includes(subject.name)}
+												<button
+													onclick={() => toggleSubject(subject.name)}
+													class="w-full text-left px-2 py-1 text-xs rounded hover:bg-muted transition-colors flex items-center justify-between gap-2 {isActive ? 'bg-primary/10 text-primary' : ''}"
+												>
+													<span class="truncate">{subject.name}</span>
+													<span class="text-muted-foreground shrink-0">{subject.count}</span>
+												</button>
+											{/each}
+										</div>
+									</div>
+								{/if}
+							</div>
+
+							<!-- Tags filter (free-form keywords) -->
+							<div class="border-t border-border pt-2">
+								<button
+									onclick={() => tagsExpanded = !tagsExpanded}
+									class="flex items-center justify-between w-full text-xs font-medium text-muted-foreground"
+								>
+									<span class="flex items-center gap-1.5">
+										<Tag class="h-3 w-3" />
+										Tags
+										{#if selectedTags.length > 0}
+											<Badge variant="secondary" class="text-[10px] px-1.5 py-0">
+												{#snippet children()}{selectedTags.length}{/snippet}
+											</Badge>
+										{/if}
+									</span>
+									{#if tagsExpanded}
+										<ChevronUp class="h-3.5 w-3.5" />
+									{:else}
+										<ChevronDown class="h-3.5 w-3.5" />
+									{/if}
+								</button>
+
+								{#if selectedTags.length > 0}
+									<div class="flex flex-wrap gap-1.5 mt-2">
+										{#each selectedTags as tag}
+											<button
+												onclick={() => toggleTag(tag)}
+												class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-accent/30 text-accent-foreground text-xs font-medium hover:bg-accent/50 transition-colors"
+											>
+												{tag}
+												<X class="h-3 w-3" />
+											</button>
+										{/each}
+										<button
+											onclick={() => selectedTags = []}
+											class="text-[10px] text-muted-foreground hover:text-foreground transition-colors px-1"
+										>
+											Clear
+										</button>
+									</div>
+								{/if}
+
+								{#if tagsExpanded}
+									<div class="mt-2 space-y-2">
+										<Input
+											placeholder="Search tags..."
+											bind:value={tagSearch}
+										/>
+										<div class="space-y-0.5 max-h-32 overflow-y-auto">
+											{#each filteredTagOptions as tag}
+												{@const isActive = selectedTags.includes(tag.name)}
+												<button
+													onclick={() => toggleTag(tag.name)}
+													class="w-full text-left px-2 py-1 text-xs rounded hover:bg-muted transition-colors flex items-center justify-between gap-2 {isActive ? 'bg-accent/20 text-accent-foreground' : ''}"
+												>
+													<span class="truncate">{tag.name}</span>
+													<span class="text-muted-foreground shrink-0">{tag.count}</span>
+												</button>
+											{/each}
+										</div>
+									</div>
+								{/if}
+							</div>
+
+							<div class="space-y-0.5 max-h-[40vh] overflow-y-auto">
 								{#each paginatedItems as item}
 									{@const isSelected = selectedId === (item._id || item.dre_id)}
 									<button
@@ -359,9 +566,11 @@
 								{#snippet children()}
 									<div class="flex flex-wrap gap-2">
 										{#each getSubjects(selectedItem) as subject}
-											<Badge variant="secondary">
-												{#snippet children()}{subject}{/snippet}
-											</Badge>
+											<button onclick={() => { if (!selectedSubjects.includes(subject)) { selectedSubjects = [...selectedSubjects, subject]; subjectsExpanded = true; } }}>
+												<Badge variant="secondary" class="hover:bg-primary/20 transition-colors">
+													{#snippet children()}{subject}{/snippet}
+												</Badge>
+											</button>
 										{/each}
 									</div>
 								{/snippet}
@@ -411,9 +620,11 @@
 													<p class="text-xs font-medium text-muted-foreground mb-1">Tags</p>
 													<div class="flex flex-wrap gap-1.5">
 														{#each getTags(selectedItem) as tag}
-															<Badge variant="outline" class="text-xs">
-																{#snippet children()}{tag}{/snippet}
-															</Badge>
+															<button onclick={() => { if (!selectedTags.includes(tag)) { selectedTags = [...selectedTags, tag]; tagsExpanded = true; } }}>
+																<Badge variant="outline" class="text-xs hover:bg-accent/20 transition-colors">
+																	{#snippet children()}{tag}{/snippet}
+																</Badge>
+															</button>
 														{/each}
 													</div>
 												</div>
