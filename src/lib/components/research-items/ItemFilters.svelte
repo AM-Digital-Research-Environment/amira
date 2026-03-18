@@ -35,6 +35,8 @@
 		onClearProjects: () => void;
 		onToggleLanguage: (language: string) => void;
 		onClearLanguages: () => void;
+		onClearAll: () => void;
+		hasActiveFilters: boolean;
 	}
 
 	let {
@@ -63,7 +65,9 @@
 		onToggleProject,
 		onClearProjects,
 		onToggleLanguage,
-		onClearLanguages
+		onClearLanguages,
+		onClearAll,
+		hasActiveFilters
 	}: Props = $props();
 
 	// Local UI state for expand/collapse and filter search
@@ -118,7 +122,7 @@
 	}
 </script>
 
-<Card class="lg:sticky lg:top-20 lg:self-start overflow-hidden">
+<Card class="lg:sticky lg:top-20 lg:self-start">
 	{#snippet children()}
 		<CardHeader>
 			{#snippet children()}
@@ -126,9 +130,19 @@
 					{#snippet children()}
 						<span class="flex items-center justify-between">
 							Filters
-							<Badge variant="secondary">
-								{#snippet children()}{filteredItems.length} results{/snippet}
-							</Badge>
+							<span class="flex items-center gap-2">
+								{#if hasActiveFilters}
+									<button
+										onclick={onClearAll}
+										class="text-xs text-muted-foreground hover:text-foreground transition-colors"
+									>
+										Clear all
+									</button>
+								{/if}
+								<Badge variant="secondary">
+									{#snippet children()}{filteredItems.length} results{/snippet}
+								</Badge>
+							</span>
 						</span>
 					{/snippet}
 				</CardTitle>
@@ -136,7 +150,7 @@
 		</CardHeader>
 		<CardContent>
 			{#snippet children()}
-				<div class="space-y-3 max-h-[calc(100vh-12rem)] overflow-y-auto pr-1">
+				<div class="filter-scroll space-y-3 max-h-[calc(100vh-12rem)] overflow-y-auto">
 					<Input
 						placeholder="Search items..."
 						value={searchQuery}
@@ -475,3 +489,15 @@
 		</CardContent>
 	{/snippet}
 </Card>
+
+<style>
+	/* Inset focus ring so it isn't clipped by the overflow-y-auto scroll container */
+	.filter-scroll :global(input:focus-visible),
+	.filter-scroll :global(select:focus-visible) {
+		outline: none;
+		box-shadow: inset 0 0 0 1px hsl(var(--ring));
+		border-color: hsl(var(--ring));
+		--tw-ring-offset-width: 0px;
+		--tw-ring-shadow: 0 0 #0000;
+	}
+</style>

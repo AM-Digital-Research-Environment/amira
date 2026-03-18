@@ -10,24 +10,40 @@
 	}
 
 	let { items, onSelectItem }: Props = $props();
+
+	function contributorSummary(item: CollectionItem): { display: string; full: string } {
+		const c = getContributors(item);
+		if (c.length === 0) return { display: '—', full: '' };
+		const firstName = c[0].name.split(',')[0];
+		const display = c.length > 1 ? `${firstName} +${c.length - 1}` : firstName;
+		const full = c.map((x) => x.name).join('; ');
+		return { display, full };
+	}
+
+	function projectShort(name: string): string {
+		if (name.length <= 35) return name;
+		const cut = name.lastIndexOf(' ', 35);
+		return name.substring(0, cut > 20 ? cut : 35) + '…';
+	}
 </script>
 
-<div class="overflow-x-auto rounded-lg border border-border">
-	<table class="w-full text-sm">
+<div class="overflow-x-auto rounded-lg border border-border -mx-4 sm:mx-0">
+	<table class="w-full text-sm" style="min-width: 800px;">
 		<thead>
 			<tr class="border-b border-border bg-muted/50">
-				<th class="text-left px-4 py-3 font-medium text-muted-foreground">Title</th>
-				<th class="text-left px-4 py-3 font-medium text-muted-foreground hidden sm:table-cell">Type</th>
-				<th class="text-left px-4 py-3 font-medium text-muted-foreground hidden lg:table-cell">Project</th>
-				<th class="text-left px-4 py-3 font-medium text-muted-foreground hidden md:table-cell">Contributors</th>
-				<th class="text-left px-4 py-3 font-medium text-muted-foreground hidden xl:table-cell">Origin</th>
-				<th class="text-left px-4 py-3 font-medium text-muted-foreground hidden lg:table-cell">Date</th>
+				<th class="text-left px-4 py-3 font-medium text-muted-foreground whitespace-nowrap" style="width:30%">Title</th>
+				<th class="text-left px-4 py-3 font-medium text-muted-foreground whitespace-nowrap" style="width:8%">Type</th>
+				<th class="text-left px-4 py-3 font-medium text-muted-foreground whitespace-nowrap" style="width:22%">Project</th>
+				<th class="text-left px-4 py-3 font-medium text-muted-foreground whitespace-nowrap" style="width:18%">Contributors</th>
+				<th class="text-left px-4 py-3 font-medium text-muted-foreground whitespace-nowrap" style="width:12%">Origin</th>
+				<th class="text-left px-4 py-3 font-medium text-muted-foreground whitespace-nowrap" style="width:10%">Date</th>
 			</tr>
 		</thead>
 		<tbody>
 			{#each items as item}
-				{@const contributors = getContributors(item)}
+				{@const contributors = contributorSummary(item)}
 				{@const origins = getOrigins(item)}
+				{@const projName = item.project?.name || ''}
 				<tr
 					onclick={() => onSelectItem(item)}
 					class="border-b border-border last:border-b-0 hover:bg-muted/40 cursor-pointer transition-colors"
@@ -35,35 +51,29 @@
 					<td class="px-4 py-3">
 						<span class="line-clamp-2 font-medium text-foreground">{getItemTitle(item)}</span>
 					</td>
-					<td class="px-4 py-3 hidden sm:table-cell">
+					<td class="px-4 py-3 whitespace-nowrap">
 						{#if item.typeOfResource}
 							<Badge variant="secondary" class="text-xs whitespace-nowrap">
 								{#snippet children()}{item.typeOfResource}{/snippet}
 							</Badge>
 						{/if}
 					</td>
-					<td class="px-4 py-3 hidden lg:table-cell">
-						<span class="text-muted-foreground truncate max-w-[150px] block">{item.project?.name || '—'}</span>
+					<td class="px-4 py-3" title={projName}>
+						<span class="text-muted-foreground truncate block">{projName ? projectShort(projName) : '—'}</span>
 					</td>
-					<td class="px-4 py-3 hidden md:table-cell">
-						{#if contributors.length > 0}
-							<span class="text-muted-foreground">
-								{contributors[0].name}{#if contributors.length > 1}<span class="text-xs ml-1 opacity-60">+{contributors.length - 1}</span>{/if}
-							</span>
-						{:else}
-							<span class="text-muted-foreground">—</span>
-						{/if}
+					<td class="px-4 py-3" title={contributors.full}>
+						<span class="text-muted-foreground truncate block">{contributors.display}</span>
 					</td>
-					<td class="px-4 py-3 hidden xl:table-cell">
+					<td class="px-4 py-3">
 						{#if origins.length > 0}
-							<span class="text-muted-foreground truncate max-w-[120px] block">
+							<span class="text-muted-foreground truncate block">
 								{origins[0].country || origins[0].region || origins[0].city || '—'}
 							</span>
 						{:else}
 							<span class="text-muted-foreground">—</span>
 						{/if}
 					</td>
-					<td class="px-4 py-3 hidden lg:table-cell">
+					<td class="px-4 py-3">
 						<span class="text-muted-foreground whitespace-nowrap">{formatDateInfo(item) || '—'}</span>
 					</td>
 				</tr>

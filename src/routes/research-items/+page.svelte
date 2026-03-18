@@ -5,7 +5,7 @@
 	import type { CollectionItem } from '$lib/types';
 	import { getItemTitle } from '$lib/utils/helpers';
 	import { paginate } from '$lib/utils/pagination';
-	import { FileText, Layers, BookOpen } from '@lucide/svelte';
+	import { FileText, Layers, BookOpen, SlidersHorizontal } from '@lucide/svelte';
 	import { ItemDetail, ItemFilters, ItemTable, getContributors, getSubjects, getOrigins, getLanguages } from '$lib/components/research-items';
 	import { BackToList } from '$lib/components/ui';
 
@@ -19,6 +19,7 @@
 	let selectedId = $state('');
 	let listPage = $state(0);
 	const listPerPage = 20;
+	let showMobileFilters = $state(false);
 
 	let filtersRef: ReturnType<typeof ItemFilters> | undefined = $state();
 
@@ -196,6 +197,27 @@
 		return items;
 	});
 
+	// Whether any filter is active
+	let hasActiveFilters = $derived(
+		searchQuery.trim() !== '' ||
+		selectedType !== 'all' ||
+		selectedSubjects.length > 0 ||
+		selectedTags.length > 0 ||
+		selectedCountries.length > 0 ||
+		selectedProjects.length > 0 ||
+		selectedLanguages.length > 0
+	);
+
+	function clearAllFilters() {
+		searchQuery = '';
+		selectedType = 'all';
+		selectedSubjects = [];
+		selectedTags = [];
+		selectedCountries = [];
+		selectedProjects = [];
+		selectedLanguages = [];
+	}
+
 	// Paginated items
 	let paginatedItems = $derived(paginate(filteredItems, listPage, listPerPage));
 
@@ -302,21 +324,25 @@
 		<!-- Stats -->
 		<div class="grid gap-4 sm:grid-cols-3">
 			<StatCard label="Total Items" value={$allCollections.length} icon={FileText} />
-			<StatCard
-				label="Resource Types"
-				value={resourceTypes.length - 1}
-				icon={Layers}
-			/>
-			<StatCard
-				label="Filtered Results"
-				value={filteredItems.length}
-				icon={BookOpen}
-			/>
+			<StatCard label="Resource Types" value={resourceTypes.length - 1} icon={Layers} />
+			<StatCard label="Projects" value={allProjectsWithCounts.length} icon={BookOpen} />
 		</div>
+
+		<!-- Mobile filter toggle -->
+		<button
+			onclick={() => showMobileFilters = !showMobileFilters}
+			class="lg:hidden flex items-center gap-2 px-4 py-2 rounded-lg border border-border text-sm font-medium hover:bg-muted transition-colors"
+		>
+			<SlidersHorizontal class="h-4 w-4" />
+			Filters
+			{#if hasActiveFilters}
+				<span class="bg-primary text-primary-foreground text-xs rounded-full px-1.5 py-0.5 leading-none">{filteredItems.length}</span>
+			{/if}
+		</button>
 
 		<!-- Table mode: filters sidebar + table -->
 		<div class="grid gap-6 lg:grid-cols-4">
-			<div class="lg:col-span-1">
+			<div class="lg:col-span-1 {showMobileFilters ? '' : 'hidden lg:block'}">
 				<ItemFilters
 					bind:this={filtersRef}
 					{filteredItems}
@@ -345,6 +371,8 @@
 					onClearProjects={() => selectedProjects = []}
 					onToggleLanguage={toggleLanguage}
 					onClearLanguages={() => selectedLanguages = []}
+					onClearAll={clearAllFilters}
+					{hasActiveFilters}
 				/>
 			</div>
 
