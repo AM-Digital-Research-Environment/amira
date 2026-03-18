@@ -4,6 +4,8 @@
 	import { MiniMap } from '$lib/components/charts';
 	import { page } from '$app/stores';
 	import { createUrlSelection, scrollToTop } from '$lib/utils/urlSelection';
+	import { createSearchFilter } from '$lib/utils/search';
+	import { paginate } from '$lib/utils/pagination';
 	import type { CollectionItem } from '$lib/types';
 	import { MapPin, Globe, FileText } from '@lucide/svelte';
 
@@ -84,13 +86,9 @@
 		viewMode === 'countries' ? countryList : viewMode === 'regions' ? regionList : cityList
 	);
 
-	let filteredLocations = $derived.by(() => {
-		if (!searchQuery.trim()) return currentList;
-		const q = searchQuery.toLowerCase();
-		return currentList.filter((loc) =>
-			loc.name.toLowerCase().includes(q) || loc.country?.toLowerCase().includes(q)
-		);
-	});
+	const searchLocations = createSearchFilter<LocationData>([(l) => l.name, (l) => l.country]);
+
+	let filteredLocations = $derived(searchLocations(currentList, searchQuery));
 
 	// Selected location
 	let selectedLocation = $derived.by((): LocationData | null => {
@@ -110,7 +108,7 @@
 	let itemPage = $state(0);
 	let paginatedItems = $derived.by(() => {
 		if (!selectedLocation) return [];
-		return selectedLocation.items.slice(itemPage * itemsPerPage, (itemPage + 1) * itemsPerPage);
+		return paginate(selectedLocation.items, itemPage, itemsPerPage);
 	});
 
 	$effect(() => {

@@ -4,6 +4,7 @@
 	import { allCollections } from '$lib/stores/data';
 	import { page } from '$app/stores';
 	import { createUrlSelection, scrollToElement } from '$lib/utils/urlSelection';
+	import { paginate } from '$lib/utils/pagination';
 	import type { CollectionItem } from '$lib/types';
 	import { FileText, Layers } from '@lucide/svelte';
 
@@ -49,7 +50,7 @@
 	let itemPage = $state(0);
 	let paginatedItems = $derived.by(() => {
 		if (!selectedTypeData) return [];
-		return selectedTypeData.items.slice(itemPage * itemsPerPage, (itemPage + 1) * itemsPerPage);
+		return paginate(selectedTypeData.items, itemPage, itemsPerPage);
 	});
 
 	let detailSection: HTMLDivElement | undefined = $state();

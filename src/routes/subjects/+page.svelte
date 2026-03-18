@@ -4,6 +4,8 @@
 	import { allCollections } from '$lib/stores/data';
 	import { page } from '$app/stores';
 	import { createUrlSelection, scrollToElement, scrollToTop } from '$lib/utils/urlSelection';
+	import { createSearchFilter } from '$lib/utils/search';
+	import { paginate } from '$lib/utils/pagination';
 	import type { CollectionItem, WordCloudDataPoint } from '$lib/types';
 	import { BookOpen, Tag, FileText } from '@lucide/svelte';
 
@@ -72,11 +74,9 @@
 	let currentList = $derived(viewMode === 'subjects' ? subjectList : tagList);
 	let currentMap = $derived(viewMode === 'subjects' ? subjectMap : tagMap);
 
-	let filteredTerms = $derived.by(() => {
-		if (!searchQuery.trim()) return currentList;
-		const q = searchQuery.toLowerCase();
-		return currentList.filter((t) => t.name.toLowerCase().includes(q));
-	});
+	const searchTerms = createSearchFilter<TermData>([(t) => t.name]);
+
+	let filteredTerms = $derived(searchTerms(currentList, searchQuery));
 
 	let selectedTerm = $derived(selectedName ? currentMap.get(selectedName) || null : null);
 
@@ -85,7 +85,7 @@
 	let itemPage = $state(0);
 	let paginatedItems = $derived.by(() => {
 		if (!selectedTerm) return [];
-		return selectedTerm.items.slice(itemPage * itemsPerPage, (itemPage + 1) * itemsPerPage);
+		return paginate(selectedTerm.items, itemPage, itemsPerPage);
 	});
 
 	$effect(() => {

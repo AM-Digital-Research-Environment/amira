@@ -8,6 +8,7 @@
 	import type { CollectionItem } from '$lib/types';
 	import { universities } from '$lib/types';
 	import { getItemTitle } from '$lib/utils/helpers';
+	import { paginate } from '$lib/utils/pagination';
 	import { FileText, Users, Tag, Calendar, BookOpen, MapPin, Layers, X, ChevronDown, ChevronUp, Building2, Briefcase, Languages } from '@lucide/svelte';
 
 	let searchQuery = $state('');
@@ -127,9 +128,7 @@
 	});
 
 	// Paginated items
-	let paginatedItems = $derived(
-		filteredItems.slice(listPage * listPerPage, (listPage + 1) * listPerPage)
-	);
+	let paginatedItems = $derived(paginate(filteredItems, listPage, listPerPage));
 
 	// Reset page on filter change
 	$effect(() => {

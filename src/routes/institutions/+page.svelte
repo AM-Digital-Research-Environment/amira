@@ -6,6 +6,8 @@
 	import { createUrlSelection, scrollToTop } from '$lib/utils/urlSelection';
 	import type { Project, CollectionItem } from '$lib/types';
 	import { formatDate, getProjectTitle } from '$lib/utils/helpers';
+	import { createSearchFilter } from '$lib/utils/search';
+	import { paginate } from '$lib/utils/pagination';
 	import { Building2, Briefcase, Users, FileText } from '@lucide/svelte';
 
 	const urlSelection = createUrlSelection('name');
@@ -102,17 +104,11 @@
 
 	let institutions = $derived([...partnerInstitutions, ...contributorInstitutions]);
 
-	let filteredPartner = $derived.by(() => {
-		if (!searchQuery.trim()) return partnerInstitutions;
-		const q = searchQuery.toLowerCase();
-		return partnerInstitutions.filter((inst) => inst.name.toLowerCase().includes(q));
-	});
+	const searchInstitutions = createSearchFilter<InstitutionData>([(i) => i.name]);
 
-	let filteredContributor = $derived.by(() => {
-		if (!searchQuery.trim()) return contributorInstitutions;
-		const q = searchQuery.toLowerCase();
-		return contributorInstitutions.filter((inst) => inst.name.toLowerCase().includes(q));
-	});
+	let filteredPartner = $derived(searchInstitutions(partnerInstitutions, searchQuery));
+
+	let filteredContributor = $derived(searchInstitutions(contributorInstitutions, searchQuery));
 
 	let selectedInstitution = $derived(selectedName ? institutionMap.get(selectedName) || null : null);
 
@@ -140,9 +136,7 @@
 
 	const collectionPerPage = 10;
 	let collectionPage = $state(0);
-	let paginatedCollectionItems = $derived(
-		institutionCollectionItems.slice(collectionPage * collectionPerPage, (collectionPage + 1) * collectionPerPage)
-	);
+	let paginatedCollectionItems = $derived(paginate(institutionCollectionItems, collectionPage, collectionPerPage));
 
 	$effect(() => {
 		selectedName;

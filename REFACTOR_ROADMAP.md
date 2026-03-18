@@ -215,13 +215,28 @@ Use the token variable directly and remove the alias.
 
 ---
 
-## Phase 6 — Future Improvements (Lower Priority)
+## Phase 6 — Search, Pagination & CSS Cleanup
 
-- Create a generic search/filter composable for the repeated text-search pattern
-- Create a pagination composable to replace per-page pagination state
-- Audit unused CSS custom properties in `tokens.css` (~70 defined but unused)
-- Consider whether `tokens.ts` runtime duplicates of CSS tokens are worth keeping
-  vs. reading CSS custom property values at runtime
+### 6a — `src/lib/utils/search.ts`
+
+`createSearchFilter<T>()` — generic text search utility. Takes field accessor
+functions, returns a reusable filter. Used by 5 pages (institutions, people,
+languages, locations, subjects). Complex multi-filter pages (projects,
+research-items) left with their bespoke logic.
+
+### 6b — `src/lib/utils/pagination.ts`
+
+`paginate<T>()` and `totalPages()` — generic pagination helpers replacing
+inline `.slice()` math across all 8 pages.
+
+### 6c — CSS token audit
+
+Removed 67 unused CSS custom properties from `tokens.css`:
+- 5 border-width tokens (entire category)
+- 5 icon-size tokens (entire category)
+- 31 unused color palette shades
+- 25 spacing tokens (large values 8–96 never used)
+- 3 font sizes, 2 border-radius, 1 container width
 
 ---
 
@@ -240,4 +255,6 @@ Use the token variable directly and remove the alias.
 | 5a — Hardcoded colors/shadows | **Done** (2026-03-18) |
 | 5b — CSS ↔ TS chart color alignment | **Done** (2026-03-18) |
 | 5c — CSS variable aliases | Skipped (scoped aliases are fine) |
-| 6 — Future improvements | Not started |
+| 6a — Search filter composable | **Done** (2026-03-18) |
+| 6b — Pagination composable | **Done** (2026-03-18) |
+| 6c — CSS token audit (67 unused removed) | **Done** (2026-03-18) |

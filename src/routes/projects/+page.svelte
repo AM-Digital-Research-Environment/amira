@@ -12,6 +12,7 @@
 	import { createUrlSelection, scrollToTop } from '$lib/utils/urlSelection';
 	import type { Project, CollectionItem } from '$lib/types';
 	import { formatDate, getItemTitle } from '$lib/utils/helpers';
+	import { paginate } from '$lib/utils/pagination';
 	import { X, Briefcase, BookOpen, Building2, Calendar, Users, FileText, MapPin, ArrowLeft } from '@lucide/svelte';
 
 	const urlSelection = createUrlSelection('id');
@@ -66,9 +67,7 @@
 		})
 	);
 
-	let paginatedProjects = $derived(
-		filteredProjects.slice(currentPage * itemsPerPage, (currentPage + 1) * itemsPerPage)
-	);
+	let paginatedProjects = $derived(paginate(filteredProjects, currentPage, itemsPerPage));
 
 	$effect(() => {
 		searchQuery;
@@ -96,9 +95,7 @@
 	// Pagination for collection items
 	const collectionPerPage = 10;
 	let collectionPage = $state(0);
-	let paginatedCollectionItems = $derived(
-		projectCollectionItems.slice(collectionPage * collectionPerPage, (collectionPage + 1) * collectionPerPage)
-	);
+	let paginatedCollectionItems = $derived(paginate(projectCollectionItems, collectionPage, collectionPerPage));
 
 	$effect(() => {
 		selectedId;

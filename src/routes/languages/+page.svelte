@@ -4,6 +4,8 @@
 	import { page } from '$app/stores';
 	import { createUrlSelection, scrollToTop } from '$lib/utils/urlSelection';
 	import { languageName } from '$lib/utils/languages';
+	import { createSearchFilter } from '$lib/utils/search';
+	import { paginate } from '$lib/utils/pagination';
 	import type { CollectionItem } from '$lib/types';
 	import { Languages, FileText } from '@lucide/svelte';
 
@@ -46,11 +48,9 @@
 		Array.from(languageMap.values()).sort((a, b) => b.count - a.count)
 	);
 
-	let filteredLanguages = $derived.by(() => {
-		if (!searchQuery.trim()) return languages;
-		const q = searchQuery.toLowerCase();
-		return languages.filter((l) => l.name.toLowerCase().includes(q) || l.code.toLowerCase().includes(q));
-	});
+	const searchLanguages = createSearchFilter<LanguageData>([(l) => l.name, (l) => l.code]);
+
+	let filteredLanguages = $derived(searchLanguages(languages, searchQuery));
 
 	let selectedLanguage = $derived(selectedCode ? languageMap.get(selectedCode) || null : null);
 
@@ -59,7 +59,7 @@
 	let itemPage = $state(0);
 	let paginatedItems = $derived.by(() => {
 		if (!selectedLanguage) return [];
-		return selectedLanguage.items.slice(itemPage * itemsPerPage, (itemPage + 1) * itemsPerPage);
+		return paginate(selectedLanguage.items, itemPage, itemsPerPage);
 	});
 
 	$effect(() => {

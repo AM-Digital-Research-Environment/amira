@@ -6,6 +6,8 @@
 	import { createUrlSelection, scrollToTop } from '$lib/utils/urlSelection';
 	import type { Project, CollectionItem } from '$lib/types';
 	import { formatDate, getProjectTitle } from '$lib/utils/helpers';
+	import { createSearchFilter } from '$lib/utils/search';
+	import { paginate } from '$lib/utils/pagination';
 	import { Users, Briefcase, BookOpen, FileText } from '@lucide/svelte';
 
 	const urlSelection = createUrlSelection('name');
@@ -86,11 +88,9 @@
 		Array.from(peopleMap.values()).sort((a, b) => a.name.localeCompare(b.name))
 	);
 
-	let filteredPeople = $derived.by(() => {
-		if (!searchQuery.trim()) return people;
-		const q = searchQuery.toLowerCase();
-		return people.filter((p) => p.name.toLowerCase().includes(q));
-	});
+	const searchPeople = createSearchFilter<PersonData>([(p) => p.name]);
+
+	let filteredPeople = $derived(searchPeople(people, searchQuery));
 
 	// Selected person's data
 	let selectedPerson = $derived(selectedName ? peopleMap.get(selectedName) || null : null);
@@ -107,9 +107,7 @@
 	// Pagination for collection items
 	const collectionItemsPerPage = 10;
 	let collectionPage = $state(0);
-	let paginatedCollectionItems = $derived(
-		personCollectionItems.slice(collectionPage * collectionItemsPerPage, (collectionPage + 1) * collectionItemsPerPage)
-	);
+	let paginatedCollectionItems = $derived(paginate(personCollectionItems, collectionPage, collectionItemsPerPage));
 
 	// Reset pagination when person changes
 	$effect(() => {
