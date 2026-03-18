@@ -3,7 +3,7 @@
 	import type { EChartsOption } from 'echarts';
 	import type { NetworkData } from '$lib/types';
 	import { cn } from '$lib/utils/cn';
-	import { CHART_COLORS_SIMPLE } from '$lib/styles';
+	import { CHART_COLORS } from '$lib/styles';
 	import { buildTitle, hideAxes, nodeFormatter } from './utils';
 
 	interface Props {
@@ -11,9 +11,10 @@
 		title?: string;
 		class?: string;
 		onclick?: (id: string, category: number) => void;
+		forceConfig?: { repulsion?: number; gravity?: number; edgeLength?: [number, number]; friction?: number; layoutAnimation?: boolean };
 	}
 
-	let { data, title = '', class: className = '', onclick }: Props = $props();
+	let { data, title = '', class: className = '', onclick, forceConfig }: Props = $props();
 
 	let option: EChartsOption = $derived({
 		...buildTitle(title),
@@ -38,14 +39,14 @@
 				data: data.nodes.map((node) => ({
 					...node,
 					itemStyle: {
-						color: CHART_COLORS_SIMPLE[node.category % CHART_COLORS_SIMPLE.length]
+						color: CHART_COLORS[node.category % CHART_COLORS.length]
 					}
 				})),
 				links: data.links,
 				categories: data.categories.map((c, i) => ({
 					name: c.name,
 					itemStyle: {
-						color: CHART_COLORS_SIMPLE[i % CHART_COLORS_SIMPLE.length]
+						color: CHART_COLORS[i % CHART_COLORS.length]
 					}
 				})),
 				roam: true,
@@ -59,10 +60,11 @@
 					hideOverlap: true
 				},
 				force: {
-					repulsion: 100,
-					gravity: 0.1,
-					edgeLength: [50, 150],
-					layoutAnimation: true
+					repulsion: forceConfig?.repulsion ?? 100,
+					gravity: forceConfig?.gravity ?? 0.1,
+					edgeLength: forceConfig?.edgeLength ?? [50, 150],
+					friction: forceConfig?.friction ?? 0.6,
+					layoutAnimation: forceConfig?.layoutAnimation ?? true
 				},
 				lineStyle: {
 					color: 'source',

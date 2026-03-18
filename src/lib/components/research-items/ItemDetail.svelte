@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { Card, CardHeader, CardTitle, CardContent, Badge } from '$lib/components/ui';
-	import { MiniMap } from '$lib/components/charts';
+	import { MiniMap, EntityKnowledgeGraph } from '$lib/components/charts';
 	import { locationUrl, institutionUrl, projectUrl, languageUrl, resourceTypeUrl, subjectUrl, tagUrl, genreUrl } from '$lib/utils/urls';
 	import { languageName } from '$lib/utils/languages';
 	import type { CollectionItem } from '$lib/types';
@@ -573,4 +573,9 @@
 			</CardContent>
 		{/snippet}
 	</Card>
+{/if}
+
+<!-- Knowledge Graph — full width -->
+{#if item.dre_id}
+	<EntityKnowledgeGraph entityType="researchItems" entityId={item.dre_id} />
 {/if}
