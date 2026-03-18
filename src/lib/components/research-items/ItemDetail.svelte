@@ -7,6 +7,7 @@
 	import { universities } from '$lib/types';
 	import { getItemTitle } from '$lib/utils/helpers';
 	import { FileText, Users, Tag, Calendar, MapPin, Languages, Building2, Briefcase } from '@lucide/svelte';
+	import { WissKILink } from '$lib/components/ui';
 	import {
 		getContributors,
 		contributorUrl,
@@ -83,6 +84,9 @@
 								</Badge>
 							</a>
 						{/each}
+						{#if item.dre_id}
+							<WissKILink category="researchItems" entityKey={item.dre_id} />
+						{/if}
 					</div>
 				</div>
 			{/snippet}

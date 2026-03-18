@@ -7,6 +7,7 @@
 	import { paginate } from '$lib/utils/pagination';
 	import type { CollectionItem } from '$lib/types';
 	import { FileText, Layers } from '@lucide/svelte';
+	import { WissKILink } from '$lib/components/ui';
 
 	const urlSelection = createUrlSelection('type');
 
@@ -162,6 +163,7 @@
 										<Badge variant="outline">
 											{#snippet children()}{(selectedTypeData.count / $allCollections.length * 100).toFixed(1)}% of total{/snippet}
 										</Badge>
+										<WissKILink category="resourceTypes" entityKey={selectedTypeData.name} />
 									</div>
 								</div>
 							{/snippet}

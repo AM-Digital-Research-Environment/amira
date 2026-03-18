@@ -13,6 +13,7 @@ import type {
 import { universities } from '$lib/types';
 import { loadAllData, loadResearchSections, loadEnrichedLocations } from '$lib/utils/dataLoader';
 import { calculateStats } from '$lib/utils/dataTransform';
+import { loadWisskiUrls } from '$lib/utils/wisskiUrl';
 
 // Loading state
 export const isLoading = writable(true);
@@ -89,7 +90,8 @@ export async function initializeData(basePath: string = '') {
 		const [data, researchSectionsData, locationsData] = await Promise.all([
 			loadAllData(basePath),
 			loadResearchSections(basePath),
-			loadEnrichedLocations(basePath)
+			loadEnrichedLocations(basePath),
+			loadWisskiUrls(basePath)
 		]);
 
 		projects.set(data.projects);

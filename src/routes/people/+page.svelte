@@ -9,6 +9,7 @@
 	import { createSearchFilter } from '$lib/utils/search';
 	import { paginate } from '$lib/utils/pagination';
 	import { Users, Briefcase, BookOpen, FileText } from '@lucide/svelte';
+	import { WissKILink } from '$lib/components/ui';
 
 	const urlSelection = createUrlSelection('name');
 
@@ -243,6 +244,7 @@
 													{#snippet children()}{personCollectionItems.length} collection item{personCollectionItems.length !== 1 ? 's' : ''}{/snippet}
 												</Badge>
 											{/if}
+											<WissKILink category="persons" entityKey={selectedPerson.name} />
 										</div>
 									</div>
 								</div>

@@ -8,6 +8,7 @@
 	import { paginate } from '$lib/utils/pagination';
 	import type { CollectionItem } from '$lib/types';
 	import { MapPin, Globe, FileText } from '@lucide/svelte';
+	import { WissKILink } from '$lib/components/ui';
 
 	const urlSelection = createUrlSelection('name');
 
@@ -325,6 +326,13 @@
 										<Badge variant="outline">
 											{#snippet children()}{selectedLocation.count} item{selectedLocation.count !== 1 ? 's' : ''}{/snippet}
 										</Badge>
+										{#if selectedLocation.type === 'country'}
+											<WissKILink category="countries" entityKey={selectedLocation.name} />
+										{:else if selectedLocation.type === 'region' && selectedLocation.country}
+											<WissKILink category="regions" entityKey="{selectedLocation.name}|{selectedLocation.country}" />
+										{:else if selectedLocation.type === 'city' && selectedLocation.country}
+											<WissKILink category="cities" entityKey="{selectedLocation.name}|{selectedLocation.country}" />
+										{/if}
 									</div>
 								</div>
 							{/snippet}

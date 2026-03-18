@@ -8,6 +8,7 @@
 	import { paginate } from '$lib/utils/pagination';
 	import type { CollectionItem, WordCloudDataPoint } from '$lib/types';
 	import { BookOpen, Tag, FileText } from '@lucide/svelte';
+	import { WissKILink } from '$lib/components/ui';
 
 	const urlSelection = createUrlSelection('name');
 
@@ -232,6 +233,11 @@
 										<Badge variant="secondary">
 											{#snippet children()}{selectedTerm.count} item{selectedTerm.count !== 1 ? 's' : ''}{/snippet}
 										</Badge>
+										{#if viewMode === 'subjects'}
+											<WissKILink category="subjects" entityKey={selectedTerm.name} />
+										{:else}
+											<WissKILink category="tags" entityKey={selectedTerm.name} />
+										{/if}
 									</div>
 								</div>
 							{/snippet}

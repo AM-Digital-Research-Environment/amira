@@ -9,6 +9,7 @@
 	import { createSearchFilter } from '$lib/utils/search';
 	import { paginate } from '$lib/utils/pagination';
 	import { Building2, Briefcase, Users, FileText } from '@lucide/svelte';
+	import { WissKILink } from '$lib/components/ui';
 
 	const urlSelection = createUrlSelection('name');
 
@@ -256,6 +257,7 @@
 												{#snippet children()}{selectedInstitution.collectionItemCount} collection item{selectedInstitution.collectionItemCount !== 1 ? 's' : ''}{/snippet}
 											</Badge>
 										{/if}
+										<WissKILink category="institutions" entityKey={selectedInstitution.name} />
 									</div>
 								</div>
 							{/snippet}

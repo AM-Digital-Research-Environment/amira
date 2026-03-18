@@ -8,6 +8,7 @@
 	import { paginate } from '$lib/utils/pagination';
 	import type { CollectionItem } from '$lib/types';
 	import { Languages, FileText } from '@lucide/svelte';
+	import { WissKILink } from '$lib/components/ui';
 
 	const urlSelection = createUrlSelection('code');
 
@@ -162,6 +163,7 @@
 										<Badge variant="secondary">
 											{#snippet children()}{selectedLanguage.count} item{selectedLanguage.count !== 1 ? 's' : ''}{/snippet}
 										</Badge>
+										<WissKILink category="languages" entityKey={selectedLanguage.name} />
 									</div>
 								</div>
 							{/snippet}

@@ -14,6 +14,7 @@
 	import { formatDate, getItemTitle } from '$lib/utils/helpers';
 	import { paginate } from '$lib/utils/pagination';
 	import { X, Briefcase, BookOpen, Building2, Calendar, Users, FileText, MapPin, ArrowLeft } from '@lucide/svelte';
+	import { WissKILink } from '$lib/components/ui';
 
 	const urlSelection = createUrlSelection('id');
 
@@ -181,6 +182,8 @@
 										<span>•</span>
 										<span class="flex items-center gap-1"><MapPin class="h-3.5 w-3.5" />{selectedProject.locale}</span>
 									{/if}
+									<span>•</span>
+									<WissKILink category="projects" entityKey={selectedProject.id} />
 								</div>
 								<div class="flex flex-wrap gap-2 mt-3">
 									{#each selectedProject.researchSection || [] as section}
