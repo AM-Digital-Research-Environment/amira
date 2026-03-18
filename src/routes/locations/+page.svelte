@@ -160,12 +160,24 @@
 			const loc = $enrichedLocations.cities[key];
 			if (loc?.latitude && loc?.longitude) {
 				markers.push({ latitude: loc.latitude, longitude: loc.longitude, label: name });
+			} else {
+				// Fallback to country coordinates
+				const countryLoc = $enrichedLocations.countries[selectedLocation.country];
+				if (countryLoc?.latitude && countryLoc?.longitude) {
+					markers.push({ latitude: countryLoc.latitude, longitude: countryLoc.longitude, label: `${name} (${selectedLocation.country})` });
+				}
 			}
 		} else if (selectedLocation.type === 'region' && selectedLocation.country) {
 			const key = `${name}|${selectedLocation.country}`;
 			const loc = $enrichedLocations.regions[key];
 			if (loc?.latitude && loc?.longitude) {
 				markers.push({ latitude: loc.latitude, longitude: loc.longitude, label: name });
+			} else {
+				// Fallback to country coordinates
+				const countryLoc = $enrichedLocations.countries[selectedLocation.country];
+				if (countryLoc?.latitude && countryLoc?.longitude) {
+					markers.push({ latitude: countryLoc.latitude, longitude: countryLoc.longitude, label: `${name} (${selectedLocation.country})` });
+				}
 			}
 			// Also show cities in this region
 			citiesInLocation.forEach((city) => {

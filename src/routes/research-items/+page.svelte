@@ -3,7 +3,7 @@
 	import { allCollections, enrichedLocations } from '$lib/stores/data';
 	import { MiniMap } from '$lib/components/charts';
 	import { page } from '$app/stores';
-	import { personUrl, locationUrl, institutionUrl, projectUrl, languageUrl } from '$lib/utils/urls';
+	import { personUrl, locationUrl, institutionUrl, projectUrl, languageUrl, subjectUrl, tagUrl } from '$lib/utils/urls';
 	import { languageName } from '$lib/utils/languages';
 	import type { CollectionItem } from '$lib/types';
 	import { universities } from '$lib/types';
@@ -235,12 +235,20 @@
 		const origins = selectedItem.location?.origin || [];
 		const markers: { latitude: number; longitude: number; label: string }[] = [];
 		origins.forEach((o) => {
-			// Try city first, then country
+			// Try city first, then region, then country
 			if (o.l3 && o.l1) {
 				const key = `${o.l3}|${o.l1}`;
 				const loc = $enrichedLocations!.cities[key];
 				if (loc?.latitude && loc?.longitude) {
 					markers.push({ latitude: loc.latitude, longitude: loc.longitude, label: o.l3 });
+					return;
+				}
+			}
+			if (o.l2 && o.l1) {
+				const key = `${o.l2}|${o.l1}`;
+				const loc = $enrichedLocations!.regions[key];
+				if (loc?.latitude && loc?.longitude) {
+					markers.push({ latitude: loc.latitude, longitude: loc.longitude, label: o.l2 });
 					return;
 				}
 			}

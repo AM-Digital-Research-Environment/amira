@@ -35,3 +35,11 @@ export function locationUrl(name: string): string {
 export function languageUrl(code: string): string {
 	return `${base}/languages?code=${encodeURIComponent(code)}`;
 }
+
+export function subjectUrl(name: string): string {
+	return `${base}/subjects?name=${encodeURIComponent(name)}&view=subjects`;
+}
+
+export function tagUrl(name: string): string {
+	return `${base}/subjects?name=${encodeURIComponent(name)}&view=tags`;
+}
