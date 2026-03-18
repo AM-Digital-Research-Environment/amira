@@ -53,6 +53,16 @@
 			}
 		});
 
+		// From collection item contributors (persons only)
+		$allCollections.forEach((item) => {
+			if (!Array.isArray(item.name)) return;
+			item.name.forEach((n) => {
+				if (n?.name?.label && n?.name?.qualifier === 'person') {
+					getOrCreate(n.name.label);
+				}
+			});
+		});
+
 		// Mark research section PIs and members
 		Object.entries($researchSections).forEach(([sectionName, info]) => {
 			(info.principalInvestigators || []).forEach((name) => {

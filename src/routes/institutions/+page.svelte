@@ -21,6 +21,7 @@
 		projects: Project[];
 		people: Set<string>;
 		collectionItemCount: number;
+		isPartner: boolean;
 	}
 
 	let institutionMap = $derived.by(() => {
@@ -28,7 +29,7 @@
 
 		const getOrCreate = (name: string): InstitutionData => {
 			if (!map.has(name)) {
-				map.set(name, { name, projects: [], people: new Set(), collectionItemCount: 0 });
+				map.set(name, { name, projects: [], people: new Set(), collectionItemCount: 0, isPartner: false });
 			}
 			return map.get(name)!;
 		};
@@ -37,6 +38,7 @@
 		$projects.forEach((p) => {
 			(p.institutions || []).forEach((instName) => {
 				const inst = getOrCreate(instName);
+				inst.isPartner = true;
 				inst.projects.push(p);
 				(p.pi || []).forEach((pi) => { if (typeof pi === 'string') inst.people.add(pi); });
 				if (Array.isArray(p.members)) {
@@ -54,7 +56,18 @@
 			});
 		});
 
-		// Count collection items per institution (via project association)
+		// From collection item contributors (institutions and groups)
+		$allCollections.forEach((item) => {
+			if (!Array.isArray(item.name)) return;
+			item.name.forEach((n) => {
+				if (n?.name?.label && (n?.name?.qualifier === 'institution' || n?.name?.qualifier === 'group')) {
+					const inst = getOrCreate(n.name.label);
+					inst.collectionItemCount++;
+				}
+			});
+		});
+
+		// Also count collection items per project-level institution
 		const projectInstitutions = new Map<string, string[]>();
 		$projects.forEach((p) => {
 			projectInstitutions.set(p.id, p.institutions || []);
@@ -71,23 +84,54 @@
 		return map;
 	});
 
-	let institutions = $derived(
-		Array.from(institutionMap.values()).sort((a, b) => b.projects.length - a.projects.length)
+	let partnerInstitutions = $derived(
+		Array.from(institutionMap.values())
+			.filter((i) => i.isPartner)
+			.sort((a, b) => b.projects.length - a.projects.length)
 	);
 
-	let filteredInstitutions = $derived.by(() => {
-		if (!searchQuery.trim()) return institutions;
+	let contributorInstitutions = $derived(
+		Array.from(institutionMap.values())
+			.filter((i) => !i.isPartner)
+			.sort((a, b) => b.collectionItemCount - a.collectionItemCount)
+	);
+
+	let institutions = $derived([...partnerInstitutions, ...contributorInstitutions]);
+
+	let filteredPartner = $derived.by(() => {
+		if (!searchQuery.trim()) return partnerInstitutions;
 		const q = searchQuery.toLowerCase();
-		return institutions.filter((inst) => inst.name.toLowerCase().includes(q));
+		return partnerInstitutions.filter((inst) => inst.name.toLowerCase().includes(q));
+	});
+
+	let filteredContributor = $derived.by(() => {
+		if (!searchQuery.trim()) return contributorInstitutions;
+		const q = searchQuery.toLowerCase();
+		return contributorInstitutions.filter((inst) => inst.name.toLowerCase().includes(q));
 	});
 
 	let selectedInstitution = $derived(selectedName ? institutionMap.get(selectedName) || null : null);
 
-	// Collection items for selected institution
+	// Collection items for selected institution (via project association OR contributor name)
 	let institutionCollectionItems = $derived.by((): CollectionItem[] => {
 		if (!selectedInstitution) return [];
+		const name = selectedInstitution.name;
 		const projectIds = new Set(selectedInstitution.projects.map((p) => p.id));
-		return $allCollections.filter((item) => projectIds.has(item.project?.id || ''));
+		const seen = new Set<string>();
+		const results: CollectionItem[] = [];
+		$allCollections.forEach((item) => {
+			const id = item._id || item.dre_id;
+			if (seen.has(id)) return;
+			const byProject = projectIds.has(item.project?.id || '');
+			const byContributor = Array.isArray(item.name) && item.name.some(
+				(n) => n?.name?.label === name && (n?.name?.qualifier === 'institution' || n?.name?.qualifier === 'group')
+			);
+			if (byProject || byContributor) {
+				seen.add(id);
+				results.push(item);
+			}
+		});
+		return results;
 	});
 
 	const collectionPerPage = 10;
@@ -138,8 +182,8 @@
 	</div>
 
 	<div class="grid gap-4 sm:grid-cols-3">
-		<StatCard label="Institutions" value={institutions.length} icon={Building2} />
-		<StatCard label="Total Projects" value={$projects.length} icon={Briefcase} />
+		<StatCard label="Partner Institutions" value={partnerInstitutions.length} icon={Building2} />
+		<StatCard label="Contributor Orgs" value={contributorInstitutions.length} icon={Building2} />
 		<StatCard label="Total People" value={new Set(institutions.flatMap((i) => [...i.people])).size} icon={Users} />
 	</div>
 
@@ -160,7 +204,7 @@
 								<span class="flex items-center justify-between">
 									Institutions
 									<Badge variant="secondary">
-										{#snippet children()}{filteredInstitutions.length}{/snippet}
+										{#snippet children()}{filteredPartner.length + filteredContributor.length}{/snippet}
 									</Badge>
 								</span>
 							{/snippet}
@@ -171,20 +215,39 @@
 					{#snippet children()}
 						<div class="space-y-3">
 							<Input placeholder="Search institutions..." bind:value={searchQuery} />
-							<div class="space-y-0.5">
-								{#each filteredInstitutions as inst}
-									{@const isSelected = selectedName === inst.name}
-									<button
-										onclick={() => selectInstitution(inst.name)}
-										class="w-full text-left px-3 py-2 text-sm rounded-lg hover:bg-muted transition-colors {isSelected ? 'bg-primary/10 text-primary font-medium' : ''}"
-									>
-										<span class="break-words">{inst.name}</span>
-										<span class="flex items-center gap-2 mt-0.5">
-											<span class="text-xs text-muted-foreground">{inst.projects.length} project{inst.projects.length !== 1 ? 's' : ''}</span>
-											<span class="text-xs text-muted-foreground">· {inst.people.size} people</span>
-										</span>
-									</button>
-								{/each}
+							<div class="space-y-1 max-h-[60vh] overflow-y-auto">
+								{#if filteredPartner.length > 0}
+									<p class="text-xs font-semibold text-muted-foreground uppercase tracking-wider px-3 pt-1 pb-1">Partner Institutions</p>
+									{#each filteredPartner as inst}
+										{@const isSelected = selectedName === inst.name}
+										<button
+											onclick={() => selectInstitution(inst.name)}
+											class="w-full text-left px-3 py-2 text-sm rounded-lg hover:bg-muted transition-colors {isSelected ? 'bg-primary/10 text-primary font-medium' : ''}"
+										>
+											<span class="break-words">{inst.name}</span>
+											<span class="flex items-center gap-2 mt-0.5">
+												<span class="text-xs text-muted-foreground">{inst.projects.length} project{inst.projects.length !== 1 ? 's' : ''}</span>
+												<span class="text-xs text-muted-foreground">· {inst.people.size} people</span>
+											</span>
+										</button>
+									{/each}
+								{/if}
+
+								{#if filteredContributor.length > 0}
+									<p class="text-xs font-semibold text-muted-foreground uppercase tracking-wider px-3 pt-3 pb-1 border-t border-border mt-2">Contributor Organizations</p>
+									{#each filteredContributor as inst}
+										{@const isSelected = selectedName === inst.name}
+										<button
+											onclick={() => selectInstitution(inst.name)}
+											class="w-full text-left px-3 py-2 text-sm rounded-lg hover:bg-muted transition-colors {isSelected ? 'bg-primary/10 text-primary font-medium' : ''}"
+										>
+											<span class="break-words">{inst.name}</span>
+											<span class="text-xs text-muted-foreground mt-0.5 block">
+												{inst.collectionItemCount} item{inst.collectionItemCount !== 1 ? 's' : ''}
+											</span>
+										</button>
+									{/each}
+								{/if}
 							</div>
 						</div>
 					{/snippet}
@@ -273,7 +336,7 @@
 												{/if}
 												{#if project.pi?.length}
 													<p class="text-xs text-muted-foreground mt-1.5">
-														PI: {#each project.pi as pi, i}{#if i > 0}, {/if}<a href={personUrl(pi)} class="hover:text-primary transition-colors">{pi}</a>{/each}
+														PI: {#each project.pi as pi, i}{#if i > 0},&nbsp;{/if}<a href={personUrl(pi)} class="hover:text-primary transition-colors">{pi}</a>{/each}
 													</p>
 												{/if}
 											</li>

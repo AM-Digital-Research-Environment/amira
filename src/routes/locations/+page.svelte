@@ -8,7 +8,7 @@
 
 	let searchQuery = $state('');
 	let selectedName = $state('');
-	let viewMode = $state<'countries' | 'cities'>('countries');
+	let viewMode = $state<'countries' | 'regions' | 'cities'>('countries');
 
 	// Sync from URL query param
 	$effect(() => {
@@ -19,14 +19,16 @@
 	// Build location index from collection items
 	interface LocationData {
 		name: string;
-		type: 'country' | 'city';
+		type: 'country' | 'region' | 'city';
 		country?: string;
+		region?: string;
 		count: number;
 		items: CollectionItem[];
 	}
 
 	let locationIndex = $derived.by(() => {
 		const countries = new Map<string, LocationData>();
+		const regions = new Map<string, LocationData>();
 		const cities = new Map<string, LocationData>();
 
 		$allCollections.forEach((item) => {
@@ -39,10 +41,19 @@
 					c.count++;
 					c.items.push(item);
 				}
+				if (o.l2 && o.l1) {
+					const key = `${o.l2}|${o.l1}`;
+					if (!regions.has(key)) {
+						regions.set(key, { name: o.l2, type: 'region', country: o.l1, count: 0, items: [] });
+					}
+					const r = regions.get(key)!;
+					r.count++;
+					r.items.push(item);
+				}
 				if (o.l3 && o.l1) {
 					const key = `${o.l3}|${o.l1}`;
 					if (!cities.has(key)) {
-						cities.set(key, { name: o.l3, type: 'city', country: o.l1, count: 0, items: [] });
+						cities.set(key, { name: o.l3, type: 'city', country: o.l1, region: o.l2 || undefined, count: 0, items: [] });
 					}
 					const c = cities.get(key)!;
 					c.count++;
@@ -51,18 +62,24 @@
 			});
 		});
 
-		return { countries, cities };
+		return { countries, regions, cities };
 	});
 
 	let countryList = $derived(
 		Array.from(locationIndex.countries.values()).sort((a, b) => b.count - a.count)
 	);
 
+	let regionList = $derived(
+		Array.from(locationIndex.regions.values()).sort((a, b) => b.count - a.count)
+	);
+
 	let cityList = $derived(
 		Array.from(locationIndex.cities.values()).sort((a, b) => b.count - a.count)
 	);
 
-	let currentList = $derived(viewMode === 'countries' ? countryList : cityList);
+	let currentList = $derived(
+		viewMode === 'countries' ? countryList : viewMode === 'regions' ? regionList : cityList
+	);
 
 	let filteredLocations = $derived.by(() => {
 		if (!searchQuery.trim()) return currentList;
@@ -75,8 +92,10 @@
 	// Selected location
 	let selectedLocation = $derived.by((): LocationData | null => {
 		if (!selectedName) return null;
-		// Try countries first, then cities
 		if (locationIndex.countries.has(selectedName)) return locationIndex.countries.get(selectedName)!;
+		for (const region of locationIndex.regions.values()) {
+			if (region.name === selectedName) return region;
+		}
 		for (const city of locationIndex.cities.values()) {
 			if (city.name === selectedName) return city;
 		}
@@ -114,10 +133,22 @@
 		return item.titleInfo?.[0]?.title || 'Untitled';
 	}
 
-	// Cities in a selected country
-	let citiesInCountry = $derived.by(() => {
+	// Regions in a selected country
+	let regionsInCountry = $derived.by(() => {
 		if (!selectedLocation || selectedLocation.type !== 'country') return [];
-		return cityList.filter((c) => c.country === selectedLocation.name);
+		return regionList.filter((r) => r.country === selectedLocation.name);
+	});
+
+	// Cities in a selected country or region
+	let citiesInLocation = $derived.by(() => {
+		if (!selectedLocation) return [];
+		if (selectedLocation.type === 'country') {
+			return cityList.filter((c) => c.country === selectedLocation.name);
+		}
+		if (selectedLocation.type === 'region') {
+			return cityList.filter((c) => c.region === selectedLocation.name && c.country === selectedLocation.country);
+		}
+		return [];
 	});
 </script>
 
@@ -129,8 +160,8 @@
 
 	<div class="grid gap-4 sm:grid-cols-3">
 		<StatCard label="Countries" value={countryList.length} icon={Globe} />
+		<StatCard label="Regions" value={regionList.length} icon={MapPin} />
 		<StatCard label="Cities" value={cityList.length} icon={MapPin} />
-		<StatCard label="Items with Location" value={$allCollections.filter((i) => i.location?.origin?.length > 0).length} icon={FileText} />
 	</div>
 
 	<div class="grid gap-6 lg:grid-cols-3">
@@ -164,13 +195,19 @@
 							<div class="flex rounded-lg border border-input overflow-hidden">
 								<button
 									onclick={() => viewMode = 'countries'}
-									class="flex-1 px-3 py-1.5 text-sm font-medium transition-colors {viewMode === 'countries' ? 'bg-primary text-primary-foreground' : 'hover:bg-muted'}"
+									class="flex-1 px-2 py-1.5 text-xs font-medium transition-colors {viewMode === 'countries' ? 'bg-primary text-primary-foreground' : 'hover:bg-muted'}"
 								>
 									Countries
 								</button>
 								<button
+									onclick={() => viewMode = 'regions'}
+									class="flex-1 px-2 py-1.5 text-xs font-medium transition-colors {viewMode === 'regions' ? 'bg-primary text-primary-foreground' : 'hover:bg-muted'}"
+								>
+									Regions
+								</button>
+								<button
 									onclick={() => viewMode = 'cities'}
-									class="flex-1 px-3 py-1.5 text-sm font-medium transition-colors {viewMode === 'cities' ? 'bg-primary text-primary-foreground' : 'hover:bg-muted'}"
+									class="flex-1 px-2 py-1.5 text-xs font-medium transition-colors {viewMode === 'cities' ? 'bg-primary text-primary-foreground' : 'hover:bg-muted'}"
 								>
 									Cities
 								</button>
@@ -188,7 +225,7 @@
 										<span class="flex items-center justify-between gap-2">
 											<span class="truncate">
 												{loc.name}
-												{#if loc.type === 'city' && loc.country}
+												{#if (loc.type === 'city' || loc.type === 'region') && loc.country}
 													<span class="text-muted-foreground text-xs">({loc.country})</span>
 												{/if}
 											</span>
@@ -223,13 +260,14 @@
 										{:else}
 											<MapPin class="h-6 w-6 text-primary shrink-0" />
 										{/if}
+
 										<CardTitle class="break-words">
 											{#snippet children()}{selectedLocation.name}{/snippet}
 										</CardTitle>
 									</div>
 									<div class="flex flex-wrap gap-2 mt-3">
 										<Badge>
-											{#snippet children()}{selectedLocation.type === 'country' ? 'Country' : 'City'}{/snippet}
+											{#snippet children()}{selectedLocation.type === 'country' ? 'Country' : selectedLocation.type === 'region' ? 'Region' : 'City'}{/snippet}
 										</Badge>
 										{#if selectedLocation.country}
 											<button onclick={() => { selectedName = selectedLocation.country || ''; }} class="hover:opacity-80 transition-opacity">
@@ -248,8 +286,8 @@
 					{/snippet}
 				</Card>
 
-				<!-- Cities in this country -->
-				{#if citiesInCountry.length > 0}
+				<!-- Regions in this country -->
+				{#if regionsInCountry.length > 0}
 					<Card class="overflow-hidden">
 						{#snippet children()}
 							<CardHeader>
@@ -258,9 +296,9 @@
 										{#snippet children()}
 											<span class="flex items-center gap-2">
 												<MapPin class="h-5 w-5 text-primary" />
-												Cities
+												Regions
 												<Badge variant="secondary">
-													{#snippet children()}{citiesInCountry.length}{/snippet}
+													{#snippet children()}{regionsInCountry.length}{/snippet}
 												</Badge>
 											</span>
 										{/snippet}
@@ -270,7 +308,45 @@
 							<CardContent>
 								{#snippet children()}
 									<div class="flex flex-wrap gap-2">
-										{#each citiesInCountry as city}
+										{#each regionsInCountry as region}
+											<button
+												onclick={() => selectLocation(region)}
+												class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-muted/50 text-sm text-foreground hover:text-primary hover:bg-muted transition-colors"
+											>
+												{region.name}
+												<span class="text-xs text-muted-foreground">({region.count})</span>
+											</button>
+										{/each}
+									</div>
+								{/snippet}
+							</CardContent>
+						{/snippet}
+					</Card>
+				{/if}
+
+				<!-- Cities in this country or region -->
+				{#if citiesInLocation.length > 0}
+					<Card class="overflow-hidden">
+						{#snippet children()}
+							<CardHeader>
+								{#snippet children()}
+									<CardTitle class="text-lg">
+										{#snippet children()}
+											<span class="flex items-center gap-2">
+												<MapPin class="h-5 w-5 text-muted-foreground" />
+												Cities
+												<Badge variant="secondary">
+													{#snippet children()}{citiesInLocation.length}{/snippet}
+												</Badge>
+											</span>
+										{/snippet}
+									</CardTitle>
+								{/snippet}
+							</CardHeader>
+							<CardContent>
+								{#snippet children()}
+									<div class="flex flex-wrap gap-2">
+										{#each citiesInLocation as city}
 											<button
 												onclick={() => selectLocation(city)}
 												class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-muted/50 text-sm text-foreground hover:text-primary hover:bg-muted transition-colors"

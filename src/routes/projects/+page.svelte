@@ -579,7 +579,7 @@
 												</div>
 												{#if project.pi && project.pi.length > 0}
 													<p class="text-sm text-muted-foreground mt-2">
-														PI: {#each project.pi as pi, i}{#if i > 0}, {/if}<a href={personUrl(pi)} class="hover:text-primary transition-colors">{pi}</a>{/each}
+														PI: {#each project.pi as pi, i}{#if i > 0},&nbsp;{/if}<a href={personUrl(pi)} class="hover:text-primary transition-colors">{pi}</a>{/each}
 													</p>
 												{/if}
 											</div>

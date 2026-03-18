@@ -2,7 +2,7 @@
 	import { StatCard, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination } from '$lib/components/ui';
 	import { allCollections } from '$lib/stores/data';
 	import { page } from '$app/stores';
-	import { personUrl } from '$lib/utils/urls';
+	import { personUrl, locationUrl, institutionUrl, projectUrl } from '$lib/utils/urls';
 	import type { CollectionItem } from '$lib/types';
 	import { FileText, Users, Tag, Globe, Calendar, BookOpen, ArrowLeft, MapPin, Layers, X, ChevronDown, ChevronUp } from '@lucide/svelte';
 
@@ -160,11 +160,18 @@
 		return item.titleInfo?.[0]?.title || 'Untitled';
 	}
 
-	function getContributors(item: CollectionItem): { name: string; role: string }[] {
+	function getContributors(item: CollectionItem): { name: string; role: string; qualifier: string }[] {
 		if (!Array.isArray(item.name)) return [];
 		return item.name
 			.filter((n) => n?.name?.label)
-			.map((n) => ({ name: n.name.label, role: n.role || '' }));
+			.map((n) => ({ name: n.name.label, role: n.role || '', qualifier: n.name.qualifier || 'person' }));
+	}
+
+	function contributorUrl(contributor: { name: string; qualifier: string }): string {
+		if (contributor.qualifier === 'institution' || contributor.qualifier === 'group') {
+			return institutionUrl(contributor.name);
+		}
+		return personUrl(contributor.name);
 	}
 
 	function getSubjects(item: CollectionItem): string[] {
@@ -189,9 +196,9 @@
 			.map((id) => ({ type: id.identifier_type, value: id.identifier }));
 	}
 
-	function getOrigins(item: CollectionItem): string[] {
+	function getOrigins(item: CollectionItem): { city?: string; region?: string; country?: string }[] {
 		if (!item.location?.origin) return [];
-		return item.location.origin.map((o) => [o.l3, o.l2, o.l1].filter(Boolean).join(', '));
+		return item.location.origin.map((o) => ({ city: o.l3 || undefined, region: o.l2 || undefined, country: o.l1 || undefined }));
 	}
 
 	function getTags(item: CollectionItem): string[] {
@@ -464,9 +471,11 @@
 											</Badge>
 										{/if}
 										{#if selectedItem.project?.name}
-											<Badge variant="secondary">
-												{#snippet children()}{selectedItem.project.name}{/snippet}
-											</Badge>
+											<a href={projectUrl(selectedItem.project.id)} class="hover:opacity-80 transition-opacity">
+												<Badge variant="secondary" class="hover:bg-primary/20 transition-colors">
+													{#snippet children()}{selectedItem.project.name}{/snippet}
+												</Badge>
+											</a>
 										{/if}
 										{#if selectedItem.university}
 											<Badge variant="outline">
@@ -527,16 +536,23 @@
 										{#each getContributors(selectedItem) as contributor}
 											<li class="flex items-center justify-between gap-2 p-2 rounded-lg bg-muted/30">
 												<a
-													href={personUrl(contributor.name)}
+													href={contributorUrl(contributor)}
 													class="text-sm font-medium text-foreground hover:text-primary transition-colors"
 												>
 													{contributor.name}
 												</a>
-												{#if contributor.role}
-													<Badge variant="outline" class="text-[10px]">
-														{#snippet children()}{contributor.role}{/snippet}
-													</Badge>
-												{/if}
+												<div class="flex items-center gap-1.5 shrink-0">
+													{#if contributor.qualifier !== 'person'}
+														<Badge variant="secondary" class="text-[10px]">
+															{#snippet children()}{contributor.qualifier}{/snippet}
+														</Badge>
+													{/if}
+													{#if contributor.role}
+														<Badge variant="outline" class="text-[10px]">
+															{#snippet children()}{contributor.role}{/snippet}
+														</Badge>
+													{/if}
+												</div>
 											</li>
 										{/each}
 									</ul>
@@ -599,7 +615,9 @@
 												<div>
 													<p class="text-xs font-medium text-muted-foreground mb-1">Origin</p>
 													{#each getOrigins(selectedItem) as origin}
-														<p class="text-sm text-foreground">{origin}</p>
+														<p class="text-sm text-foreground">
+															{#if origin.city}<a href={locationUrl(origin.city)} class="hover:text-primary transition-colors">{origin.city}</a>{/if}{#if origin.city && (origin.region || origin.country)},&nbsp;{/if}{#if origin.region}<a href={locationUrl(origin.region)} class="hover:text-primary transition-colors">{origin.region}</a>{/if}{#if origin.region && origin.country},&nbsp;{/if}{#if origin.country}<a href={locationUrl(origin.country)} class="hover:text-primary transition-colors">{origin.country}</a>{/if}
+														</p>
 													{/each}
 												</div>
 											</div>
