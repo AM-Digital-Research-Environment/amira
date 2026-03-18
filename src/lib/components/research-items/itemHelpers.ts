@@ -145,20 +145,49 @@ export function getContributorsFull(item: CollectionItem): ContributorFull[] {
 		}));
 }
 
+const DATE_LABELS: Record<string, string> = {
+	created: 'Created',
+	issue: 'Issued',
+	captured: 'Captured',
+	other: 'Other',
+	valid: 'Valid',
+	mod: 'Modified',
+	copy: 'Copied',
+	disp: 'Digitised'
+};
+
+function fmtDate(date: Date | null | undefined): string {
+	if (!date) return '';
+	const parsed = new Date(date as unknown as string);
+	if (isNaN(parsed.getTime())) return '';
+	return parsed.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+}
+
+export interface DateEntry {
+	label: string;
+	value: string;
+}
+
+/** Return all non-empty date entries for an item. */
+export function getAllDates(item: CollectionItem): DateEntry[] {
+	if (!item.dateInfo) return [];
+	const entries: DateEntry[] = [];
+	for (const [key, range] of Object.entries(item.dateInfo)) {
+		if (!range || typeof range !== 'object') continue;
+		const start = fmtDate(range.start);
+		const end = fmtDate(range.end);
+		let value = '';
+		if (start && end) value = `${start} – ${end}`;
+		else value = start || end;
+		if (value) {
+			entries.push({ label: DATE_LABELS[key] || key, value });
+		}
+	}
+	return entries;
+}
+
+/** Backward-compatible: return a single formatted date string (best available). */
 export function formatDateInfo(item: CollectionItem): string {
-	if (!item.dateInfo) return '';
-	const issue = item.dateInfo.issue;
-	const creation = item.dateInfo.creation;
-	const d = issue || creation;
-	if (!d) return '';
-	const fmt = (date: Date | null | undefined): string => {
-		if (!date) return '';
-		const parsed = new Date(date);
-		if (isNaN(parsed.getTime())) return '';
-		return parsed.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
-	};
-	const start = fmt(d.start);
-	const end = fmt(d.end);
-	if (start && end) return `${start} – ${end}`;
-	return start || end;
+	const dates = getAllDates(item);
+	return dates[0]?.value || '';
 }

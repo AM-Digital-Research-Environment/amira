@@ -20,6 +20,7 @@ export {
 	getGenre,
 	getPhysicalDescription,
 	getCurrentLocations,
-	formatDateInfo
+	formatDateInfo,
+	getAllDates
 } from './itemHelpers';
-export type { Contributor, ContributorFull, PhysicalInfo } from './itemHelpers';
+export type { Contributor, ContributorFull, PhysicalInfo, DateEntry } from './itemHelpers';

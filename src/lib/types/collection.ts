@@ -5,15 +5,21 @@ export interface TitleInfo {
 	title_type: string;
 }
 
+export interface DateRange {
+	start?: Date | null;
+	end?: Date | null;
+}
+
 export interface DateInfo {
-	issue?: {
-		start?: Date | null;
-		end?: Date | null;
-	};
-	creation?: {
-		start?: Date | null;
-		end?: Date | null;
-	};
+	[key: string]: DateRange | undefined;
+	issue?: DateRange;
+	created?: DateRange;
+	captured?: DateRange;
+	other?: DateRange;
+	valid?: DateRange;
+	mod?: DateRange;
+	copy?: DateRange;
+	disp?: DateRange;
 }
 
 export interface NameEntry {

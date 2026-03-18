@@ -3,7 +3,8 @@
 	import type { EChartsOption } from 'echarts';
 	import type { NetworkData } from '$lib/types';
 	import { cn } from '$lib/utils/cn';
-	import { CHART_COLORS } from '$lib/styles';
+	import { CHART_COLORS, THEME_COLORS } from '$lib/styles';
+	import { theme } from '$lib/stores/data';
 	import { buildTitle, hideAxes, nodeFormatter } from './utils';
 
 	interface Props {
@@ -16,18 +17,38 @@
 
 	let { data, title = '', class: className = '', onclick, forceConfig }: Props = $props();
 
+	function graphTooltipFormatter(params: Record<string, unknown>): string {
+		if (params.dataType === 'edge') {
+			const d = params.data as { source: string; target: string; label?: string };
+			if (d?.label) return `<span style="font-style:italic">${d.label}</span>`;
+			return '';
+		}
+		// Node tooltip: show category + name
+		const d = params.data as { name?: string; category?: number };
+		const name = d?.name || (params.name as string) || '';
+		const catIdx = d?.category ?? -1;
+		const catName = catIdx >= 0 && catIdx < data.categories.length ? data.categories[catIdx].name : '';
+		if (catName) return `<b>${catName}</b><br/>${name}`;
+		return name;
+	}
+
+	let isDark = $derived($theme === 'dark');
+	let labelColor = $derived(isDark ? THEME_COLORS.dark.chartText : THEME_COLORS.light.chartText);
+	let legendColor = $derived(isDark ? THEME_COLORS.dark.chartTextMuted : THEME_COLORS.light.chartTextMuted);
+
 	let option: EChartsOption = $derived({
 		...buildTitle(title),
 		tooltip: {
 			trigger: 'item',
-			formatter: nodeFormatter
+			formatter: graphTooltipFormatter as unknown as string
 		},
 		...hideAxes(),
 		legend: {
 			data: data.categories.map((c) => c.name),
 			orient: 'vertical',
 			left: 'left',
-			top: 'middle'
+			top: 'middle',
+			textStyle: { color: legendColor }
 		},
 		animationDuration: 1500,
 		animationEasingUpdate: 'quinticInOut',
@@ -54,7 +75,8 @@
 					show: true,
 					position: 'right',
 					formatter: '{b}',
-					fontSize: 10
+					fontSize: 10,
+					color: labelColor
 				},
 				labelLayout: {
 					hideOverlap: true

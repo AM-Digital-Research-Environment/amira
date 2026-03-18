@@ -26,6 +26,7 @@
 		getGenre,
 		getPhysicalDescription,
 		getCurrentLocations,
+		getAllDates,
 		formatDateInfo
 	} from './itemHelpers';
 
@@ -51,6 +52,7 @@
 	let genre = $derived(getGenre(item));
 	let physicalDesc = $derived(getPhysicalDescription(item));
 	let currentLocations = $derived(getCurrentLocations(item));
+	let allDates = $derived(getAllDates(item));
 	let dateStr = $derived(formatDateInfo(item));
 </script>
 
@@ -126,13 +128,13 @@
 							</span>
 						</div>
 					{/if}
-					{#if dateStr}
+					{#each allDates as dateEntry}
 						<div class="flex items-center gap-2">
 							<Calendar class="h-4 w-4 text-muted-foreground shrink-0" />
-							<span class="text-muted-foreground shrink-0">Date</span>
-							<span class="text-foreground">{dateStr}</span>
+							<span class="text-muted-foreground shrink-0">{dateEntry.label}</span>
+							<span class="text-foreground">{dateEntry.value}</span>
 						</div>
-					{/if}
+					{/each}
 					{#if item.dre_id}
 						<div class="flex items-center gap-2">
 							<WissKILink category="researchItems" entityKey={item.dre_id} />
@@ -248,18 +250,35 @@
 					{#snippet children()}
 						<div class="space-y-4">
 							{#if origins.length > 0}
-								<div>
-									<p class="text-xs font-medium text-muted-foreground mb-1">Origin</p>
-									{#each origins as origin}
-										<p class="text-sm text-foreground">
-											{#if origin.city}<a href={locationUrl(origin.city)} class="hover:text-primary transition-colors">{origin.city}</a>{/if}{#if origin.city && (origin.region || origin.country)},&nbsp;{/if}{#if origin.region}<a href={locationUrl(origin.region)} class="hover:text-primary transition-colors">{origin.region}</a>{/if}{#if origin.region && origin.country},&nbsp;{/if}{#if origin.country}<a href={locationUrl(origin.country)} class="hover:text-primary transition-colors">{origin.country}</a>{/if}
-										</p>
-									{/each}
-								</div>
+								{#each origins as origin, i}
+									<div class="space-y-1.5">
+										{#if origins.length > 1}
+											<p class="text-xs font-semibold text-muted-foreground">Origin {i + 1}</p>
+										{/if}
+										{#if origin.country}
+											<div class="flex items-center gap-2 text-sm">
+												<span class="text-muted-foreground min-w-[80px] shrink-0">Country</span>
+												<a href={locationUrl(origin.country)} class="text-foreground hover:text-primary transition-colors">{origin.country}</a>
+											</div>
+										{/if}
+										{#if origin.region}
+											<div class="flex items-center gap-2 text-sm">
+												<span class="text-muted-foreground min-w-[80px] shrink-0">Region</span>
+												<a href={locationUrl(origin.region)} class="text-foreground hover:text-primary transition-colors">{origin.region}</a>
+											</div>
+										{/if}
+										{#if origin.city}
+											<div class="flex items-center gap-2 text-sm">
+												<span class="text-muted-foreground min-w-[80px] shrink-0">Subregion</span>
+												<a href={locationUrl(origin.city)} class="text-foreground hover:text-primary transition-colors">{origin.city}</a>
+											</div>
+										{/if}
+									</div>
+								{/each}
 							{/if}
 							{#if currentLocations.length > 0}
-								<div>
-									<p class="text-xs font-medium text-muted-foreground mb-1">Current Location</p>
+								<div class="space-y-1">
+									<p class="text-xs font-semibold text-muted-foreground">Located at</p>
 									{#each currentLocations as loc}
 										<p class="text-sm text-foreground">{loc}</p>
 									{/each}
@@ -377,7 +396,7 @@
 							{/if}
 							{#if physicalDesc.technical.length > 0}
 								<div class="flex gap-2">
-									<span class="text-muted-foreground shrink-0 min-w-[80px]">Technical</span>
+									<span class="text-muted-foreground shrink-0 min-w-[80px]">Technical property</span>
 									<span class="text-foreground">{physicalDesc.technical.join(', ')}</span>
 								</div>
 							{/if}
@@ -560,10 +579,11 @@
 						{#snippet children()}
 							<span class="flex items-center gap-2">
 								<MapPin class="h-5 w-5 text-primary" />
-								Location
+								Origin Map
 							</span>
 						{/snippet}
 					</CardTitle>
+					<p class="text-xs text-muted-foreground mt-1">Showing origin location{mapMarkers.length > 1 ? 's' : ''} of this item</p>
 				{/snippet}
 			</CardHeader>
 			<CardContent>

@@ -200,8 +200,11 @@ def build_ego_graph(item, indexes, item_lookup):
         if nid not in nodes:
             nodes[nid] = {"id": nid, "name": name, "category": category, "symbolSize": size}
 
-    def add_link(source, target):
-        links.append({"source": source, "target": target})
+    def add_link(source, target, label=""):
+        link = {"source": source, "target": target}
+        if label:
+            link["label"] = label
+        links.append(link)
 
     # Center node
     center_id = f"item:{dre_id}"
@@ -214,35 +217,36 @@ def build_ego_graph(item, indexes, item_lookup):
     for name, qualifier, affiliations in get_contributors(item):
         nid = f"person:{name}"
         add_node(nid, name, CAT_PERSON, 18)
-        add_link(center_id, nid)
+        role_label = qualifier if qualifier != "person" else "contributor"
+        add_link(center_id, nid, role_label)
         entity_ids.append((nid, name, "person"))
         # Add institution affiliations
         for aff in affiliations:
             aid = f"inst:{aff}"
             aff_short = aff[:40] + "..." if len(aff) > 40 else aff
             add_node(aid, aff_short, CAT_INSTITUTION, 14)
-            add_link(nid, aid)
+            add_link(nid, aid, "affiliated with")
 
     # Subjects
     for s in get_subjects(item):
         nid = f"subject:{s}"
         s_short = s[:40] + "..." if len(s) > 40 else s
         add_node(nid, s_short, CAT_SUBJECT, 14)
-        add_link(center_id, nid)
+        add_link(center_id, nid, "has subject")
         entity_ids.append((nid, s, "subject"))
 
     # Tags
     for t in get_tags(item):
         nid = f"tag:{t}"
         add_node(nid, t, CAT_TAG, 12)
-        add_link(center_id, nid)
+        add_link(center_id, nid, "tagged")
         entity_ids.append((nid, t, "tag"))
 
     # Locations
     for loc in get_origins(item):
         nid = f"loc:{loc}"
         add_node(nid, loc, CAT_LOCATION, 16)
-        add_link(center_id, nid)
+        add_link(center_id, nid, "created at")
         entity_ids.append((nid, loc, "location"))
 
     # Project
@@ -251,14 +255,14 @@ def build_ego_graph(item, indexes, item_lookup):
         nid = f"proj:{proj}"
         proj_short = proj[:40] + "..." if len(proj) > 40 else proj
         add_node(nid, proj_short, CAT_PROJECT, 20)
-        add_link(center_id, nid)
+        add_link(center_id, nid, "belongs to")
         entity_ids.append((nid, proj, "project"))
 
     # Genres
     for g in get_genres(item):
         nid = f"genre:{g}"
         add_node(nid, g, CAT_GENRE, 14)
-        add_link(center_id, nid)
+        add_link(center_id, nid, "genre")
         entity_ids.append((nid, g, "genre"))
 
     # 2nd hop: other items sharing entities with center item
@@ -295,11 +299,33 @@ def build_ego_graph(item, indexes, item_lookup):
         r_nid = f"item:{rid}"
         add_node(r_nid, r_title, CAT_ITEM, 12)
 
-        # Link to shared entities
+        # Build a summary of what's shared for the item-to-item link
+        ENTITY_TYPE_LABELS = {
+            "person": "contributor",
+            "subject": "subject",
+            "tag": "tag",
+            "location": "location",
+            "project": "project",
+            "genre": "genre",
+            "institution": "institution",
+        }
+        shared_summaries = []
+        used_entities = []
         for entity_nid, idx_type in info["via"]:
             if entity_counts[entity_nid] < MAX_RELATED_ITEMS_PER_ENTITY:
-                add_link(r_nid, entity_nid)
+                # Extract entity name from node id (after the prefix:)
+                entity_name = nodes[entity_nid]["name"] if entity_nid in nodes else ""
+                shared_summaries.append(f"{ENTITY_TYPE_LABELS.get(idx_type, idx_type)}: {entity_name}")
+                used_entities.append(entity_nid)
                 entity_counts[entity_nid] += 1
+
+        if used_entities:
+            # Direct link between center item and related item
+            share_label = "shares " + ", ".join(shared_summaries)
+            add_link(center_id, r_nid, share_label)
+            # Also link related item to the shared entities (no label, visual only)
+            for entity_nid in used_entities:
+                add_link(r_nid, entity_nid)
 
     return {
         "nodes": list(nodes.values()),
