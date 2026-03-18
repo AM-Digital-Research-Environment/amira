@@ -150,6 +150,7 @@
 		const url = new URL(window.location.href);
 		url.searchParams.set('name', name);
 		history.pushState({}, '', url.toString());
+		window.scrollTo({ top: 0, behavior: 'smooth' });
 	}
 
 	function clearSelection() {
@@ -157,6 +158,7 @@
 		const url = new URL(window.location.href);
 		url.searchParams.delete('name');
 		history.pushState({}, '', url.toString());
+		window.scrollTo({ top: 0, behavior: 'smooth' });
 	}
 
 	function getItemTitle(item: CollectionItem): string {

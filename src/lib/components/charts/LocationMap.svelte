@@ -4,6 +4,7 @@
 	import type { EnrichedLocationsData, CollectionItem } from '$lib/types';
 	import maplibregl from 'maplibre-gl';
 	import { CHART_COLORS } from '$lib/styles';
+	import { researchItemUrl } from '$lib/utils/urls';
 	import { Maximize2, Minimize2 } from '@lucide/svelte';
 
 	interface LocationData {
@@ -21,7 +22,7 @@
 		count: number;
 		type: 'country' | 'region' | 'city' | 'other';
 		wikidataId?: string;
-		items: { title: string; type: string }[];
+		items: { id: string; title: string; type: string }[];
 	}
 
 	interface Props {
@@ -107,7 +108,7 @@
 				const [cityName, countryName] = key.split('|');
 				const matchingItems = items
 					.filter(item => itemMatchesLocation(item, 'city', cityName, countryName))
-					.map(item => ({ title: getItemTitle(item), type: item.typeOfResource || 'Unknown' }));
+					.map(item => ({ id: item._id || item.dre_id, title: getItemTitle(item), type: item.typeOfResource || 'Unknown' }));
 
 				const markerId = `city-${key}`;
 				markerMap.set(markerId, {
@@ -132,7 +133,7 @@
 				const adjustedCount = hasCities ? Math.ceil(count * 0.3) : count;
 				const matchingItems = items
 					.filter(item => itemMatchesLocation(item, 'country', country))
-					.map(item => ({ title: getItemTitle(item), type: item.typeOfResource || 'Unknown' }));
+					.map(item => ({ id: item._id || item.dre_id, title: getItemTitle(item), type: item.typeOfResource || 'Unknown' }));
 
 				const markerId = `country-${country}`;
 				markerMap.set(markerId, {
@@ -156,7 +157,7 @@
 				if (!markerMap.has(markerId)) {
 					const matchingItems = items
 						.filter(item => itemMatchesLocation(item, 'other', currentLoc.original_name))
-						.map(item => ({ title: getItemTitle(item), type: item.typeOfResource || 'Unknown' }));
+						.map(item => ({ id: item._id || item.dre_id, title: getItemTitle(item), type: item.typeOfResource || 'Unknown' }));
 
 					markerMap.set(markerId, {
 						id: markerId,
@@ -211,7 +212,7 @@
 			? `<ul class="popup-items-list">
 				${pageItems.map(item =>
 					`<li class="popup-item">
-						<span class="popup-item-title">${item.title.length > 45 ? item.title.substring(0, 45) + '...' : item.title}</span>
+						<a href="${researchItemUrl(item.id)}" class="popup-item-link">${item.title.length > 45 ? item.title.substring(0, 45) + '...' : item.title}</a>
 						<span class="popup-item-type">(${item.type})</span>
 					</li>`
 				).join('')}
@@ -294,9 +295,14 @@
 					margin-bottom: 6px;
 					line-height: 1.4;
 				}
-				.popup-item-title {
+				.popup-item-link {
 					font-size: 12px;
 					color: hsl(var(--popover-foreground));
+					text-decoration: none;
+					transition: color 0.15s;
+				}
+				.popup-item-link:hover {
+					color: hsl(var(--primary));
 				}
 				.popup-item-type {
 					font-size: 10px;

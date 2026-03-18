@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { StatCard, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination } from '$lib/components/ui';
-	import { allCollections } from '$lib/stores/data';
+	import { allCollections, enrichedLocations } from '$lib/stores/data';
+	import { MiniMap } from '$lib/components/charts';
 	import { page } from '$app/stores';
 	import { researchItemUrl } from '$lib/utils/urls';
 	import type { CollectionItem } from '$lib/types';
@@ -120,6 +121,7 @@
 		const url = new URL(window.location.href);
 		url.searchParams.set('name', loc.name);
 		history.pushState({}, '', url.toString());
+		window.scrollTo({ top: 0, behavior: 'smooth' });
 	}
 
 	function clearSelection() {
@@ -127,11 +129,56 @@
 		const url = new URL(window.location.href);
 		url.searchParams.delete('name');
 		history.pushState({}, '', url.toString());
+		window.scrollTo({ top: 0, behavior: 'smooth' });
 	}
 
 	function getItemTitle(item: CollectionItem): string {
 		return item.titleInfo?.[0]?.title || 'Untitled';
 	}
+
+	// Map markers for selected location
+	let locationMapMarkers = $derived.by(() => {
+		if (!selectedLocation || !$enrichedLocations) return [];
+		const name = selectedLocation.name;
+		const markers: { latitude: number; longitude: number; label: string }[] = [];
+
+		if (selectedLocation.type === 'country') {
+			const loc = $enrichedLocations.countries[name];
+			if (loc?.latitude && loc?.longitude) {
+				markers.push({ latitude: loc.latitude, longitude: loc.longitude, label: name });
+			}
+			// Also show cities
+			citiesInLocation.forEach((city) => {
+				const key = `${city.name}|${city.country}`;
+				const cityLoc = $enrichedLocations!.cities[key];
+				if (cityLoc?.latitude && cityLoc?.longitude) {
+					markers.push({ latitude: cityLoc.latitude, longitude: cityLoc.longitude, label: city.name });
+				}
+			});
+		} else if (selectedLocation.type === 'city' && selectedLocation.country) {
+			const key = `${name}|${selectedLocation.country}`;
+			const loc = $enrichedLocations.cities[key];
+			if (loc?.latitude && loc?.longitude) {
+				markers.push({ latitude: loc.latitude, longitude: loc.longitude, label: name });
+			}
+		} else if (selectedLocation.type === 'region' && selectedLocation.country) {
+			const key = `${name}|${selectedLocation.country}`;
+			const loc = $enrichedLocations.regions[key];
+			if (loc?.latitude && loc?.longitude) {
+				markers.push({ latitude: loc.latitude, longitude: loc.longitude, label: name });
+			}
+			// Also show cities in this region
+			citiesInLocation.forEach((city) => {
+				const cityKey = `${city.name}|${city.country}`;
+				const cityLoc = $enrichedLocations!.cities[cityKey];
+				if (cityLoc?.latitude && cityLoc?.longitude) {
+					markers.push({ latitude: cityLoc.latitude, longitude: cityLoc.longitude, label: city.name });
+				}
+			});
+		}
+
+		return markers;
+	});
 
 	// Regions in a selected country
 	let regionsInCountry = $derived.by(() => {
@@ -285,6 +332,11 @@
 						</CardHeader>
 					{/snippet}
 				</Card>
+
+				<!-- Map -->
+				{#if locationMapMarkers.length > 0}
+					<MiniMap markers={locationMapMarkers} class="h-[300px]" />
+				{/if}
 
 				<!-- Regions in this country -->
 				{#if regionsInCountry.length > 0}

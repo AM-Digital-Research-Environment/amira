@@ -1,10 +1,13 @@
 <script lang="ts">
 	import { StatCard, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination } from '$lib/components/ui';
-	import { allCollections } from '$lib/stores/data';
+	import { allCollections, enrichedLocations } from '$lib/stores/data';
+	import { MiniMap } from '$lib/components/charts';
 	import { page } from '$app/stores';
-	import { personUrl, locationUrl, institutionUrl, projectUrl } from '$lib/utils/urls';
+	import { personUrl, locationUrl, institutionUrl, projectUrl, languageUrl } from '$lib/utils/urls';
+	import { languageName } from '$lib/utils/languages';
 	import type { CollectionItem } from '$lib/types';
-	import { FileText, Users, Tag, Globe, Calendar, BookOpen, ArrowLeft, MapPin, Layers, X, ChevronDown, ChevronUp } from '@lucide/svelte';
+	import { universities } from '$lib/types';
+	import { FileText, Users, Tag, Globe, Calendar, BookOpen, ArrowLeft, MapPin, Layers, X, ChevronDown, ChevronUp, Building2, Briefcase, Languages } from '@lucide/svelte';
 
 	let searchQuery = $state('');
 	let selectedType = $state('all');
@@ -147,6 +150,7 @@
 		const url = new URL(window.location.href);
 		url.searchParams.set('id', selectedId);
 		history.pushState({}, '', url.toString());
+		window.scrollTo({ top: 0, behavior: 'smooth' });
 	}
 
 	function clearSelection() {
@@ -154,6 +158,7 @@
 		const url = new URL(window.location.href);
 		url.searchParams.delete('id');
 		history.pushState({}, '', url.toString());
+		window.scrollTo({ top: 0, behavior: 'smooth' });
 	}
 
 	function getItemTitle(item: CollectionItem): string {
@@ -223,6 +228,31 @@
 		if (start && end) return `${start} – ${end}`;
 		return start || end;
 	}
+
+	// Map markers for selected item
+	let itemMapMarkers = $derived.by(() => {
+		if (!selectedItem || !$enrichedLocations) return [];
+		const origins = selectedItem.location?.origin || [];
+		const markers: { latitude: number; longitude: number; label: string }[] = [];
+		origins.forEach((o) => {
+			// Try city first, then country
+			if (o.l3 && o.l1) {
+				const key = `${o.l3}|${o.l1}`;
+				const loc = $enrichedLocations!.cities[key];
+				if (loc?.latitude && loc?.longitude) {
+					markers.push({ latitude: loc.latitude, longitude: loc.longitude, label: o.l3 });
+					return;
+				}
+			}
+			if (o.l1) {
+				const loc = $enrichedLocations!.countries[o.l1];
+				if (loc?.latitude && loc?.longitude) {
+					markers.push({ latitude: loc.latitude, longitude: loc.longitude, label: o.l1 });
+				}
+			}
+		});
+		return markers;
+	});
 </script>
 
 <div class="space-y-8 animate-slide-in-up">
@@ -467,25 +497,40 @@
 									<div class="flex flex-wrap gap-2 mt-3">
 										{#if selectedItem.typeOfResource}
 											<Badge>
-												{#snippet children()}{selectedItem.typeOfResource}{/snippet}
+												{#snippet children()}
+													<FileText class="h-3 w-3 mr-1 inline" />{selectedItem.typeOfResource}
+												{/snippet}
 											</Badge>
 										{/if}
 										{#if selectedItem.project?.name}
 											<a href={projectUrl(selectedItem.project.id)} class="hover:opacity-80 transition-opacity">
 												<Badge variant="secondary" class="hover:bg-primary/20 transition-colors">
-													{#snippet children()}{selectedItem.project.name}{/snippet}
+													{#snippet children()}
+														<Briefcase class="h-3 w-3 mr-1 inline" />{selectedItem.project.name}
+													{/snippet}
 												</Badge>
 											</a>
 										{/if}
 										{#if selectedItem.university}
-											<Badge variant="outline">
-												{#snippet children()}{selectedItem.university.toUpperCase()}{/snippet}
-											</Badge>
+											{@const uni = universities.find((u) => u.id === selectedItem.university)}
+											{#if uni}
+												<a href={institutionUrl(uni.name)} class="hover:opacity-80 transition-opacity">
+													<Badge variant="outline" class="hover:bg-primary/10 transition-colors">
+														{#snippet children()}
+															<Building2 class="h-3 w-3 mr-1 inline" />{uni.name}
+														{/snippet}
+													</Badge>
+												</a>
+											{/if}
 										{/if}
 										{#each getLanguages(selectedItem) as lang}
-											<Badge variant="outline">
-												{#snippet children()}{lang}{/snippet}
-											</Badge>
+											<a href={languageUrl(lang)} class="hover:opacity-80 transition-opacity">
+												<Badge variant="outline" class="hover:bg-primary/10 transition-colors">
+													{#snippet children()}
+														<Languages class="h-3 w-3 mr-1 inline" />{languageName(lang)}
+													{/snippet}
+												</Badge>
+											</a>
 										{/each}
 									</div>
 								</div>
@@ -649,6 +694,31 @@
 											</div>
 										{/if}
 									</div>
+								{/snippet}
+							</CardContent>
+						{/snippet}
+					</Card>
+				{/if}
+
+				<!-- Map -->
+				{#if itemMapMarkers.length > 0}
+					<Card class="overflow-hidden">
+						{#snippet children()}
+							<CardHeader>
+								{#snippet children()}
+									<CardTitle class="text-lg">
+										{#snippet children()}
+											<span class="flex items-center gap-2">
+												<MapPin class="h-5 w-5 text-primary" />
+												Location
+											</span>
+										{/snippet}
+									</CardTitle>
+								{/snippet}
+							</CardHeader>
+							<CardContent>
+								{#snippet children()}
+									<MiniMap markers={itemMapMarkers} />
 								{/snippet}
 							</CardContent>
 						{/snippet}

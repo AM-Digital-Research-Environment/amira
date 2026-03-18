@@ -12,6 +12,7 @@
 	} from '$lib/stores/filters';
 	import { allCollections, universityItemCounts } from '$lib/stores/data';
 	import { getUniqueResourceTypes, getUniqueLanguages } from '$lib/utils/dataTransform';
+	import { languageName } from '$lib/utils/languages';
 	import { universities } from '$lib/types';
 
 	interface Props {
@@ -108,7 +109,7 @@
 									: 'bg-secondary text-secondary-foreground hover:bg-secondary/80'
 							)}
 						>
-							{lang}
+							{languageName(lang)}
 						</button>
 					{/each}
 				</div>
@@ -146,7 +147,7 @@
 			{/each}
 			{#each $filters.languages as lang}
 				<Badge variant="outline">
-					{lang}
+					{languageName(lang)}
 					<button
 						type="button"
 						class="ml-1 hover:text-destructive"

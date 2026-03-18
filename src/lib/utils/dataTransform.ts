@@ -9,6 +9,7 @@ import type {
 	NetworkData,
 	DashboardStats
 } from '$lib/types';
+import { languageName } from '$lib/utils/languages';
 
 /**
  * Extract year from various date formats
@@ -181,7 +182,10 @@ export function extractResourceTypes(items: CollectionItem[]): PieChartDataPoint
  * Extract languages from collection items
  */
 export function extractLanguages(items: CollectionItem[]): BarChartDataPoint[] {
-	return countOccurrences(items, (item) => item.language);
+	return countOccurrences(items, (item) => item.language).map((d) => ({
+		...d,
+		name: languageName(d.name)
+	}));
 }
 
 /**

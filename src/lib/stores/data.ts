@@ -7,10 +7,11 @@ import type {
 	CollectionItem,
 	DashboardStats,
 	University,
-	ResearchSectionInfo
+	ResearchSectionInfo,
+	EnrichedLocationsData
 } from '$lib/types';
 import { universities } from '$lib/types';
-import { loadAllData, loadResearchSections } from '$lib/utils/dataLoader';
+import { loadAllData, loadResearchSections, loadEnrichedLocations } from '$lib/utils/dataLoader';
 import { calculateStats } from '$lib/utils/dataTransform';
 
 // Loading state
@@ -24,6 +25,7 @@ export const institutions = writable<Institution[]>([]);
 export const groups = writable<Group[]>([]);
 export const allCollections = writable<CollectionItem[]>([]);
 export const researchSections = writable<Record<string, ResearchSectionInfo>>({});
+export const enrichedLocations = writable<EnrichedLocationsData | null>(null);
 
 // Legacy stores for backward compatibility (derived from allCollections)
 export const artWorldCollection: Readable<CollectionItem[]> = derived(
@@ -94,9 +96,10 @@ export async function initializeData(basePath: string = '') {
 	loadError.set(null);
 
 	try {
-		const [data, researchSectionsData] = await Promise.all([
+		const [data, researchSectionsData, locationsData] = await Promise.all([
 			loadAllData(basePath),
-			loadResearchSections(basePath)
+			loadResearchSections(basePath),
+			loadEnrichedLocations(basePath)
 		]);
 
 		projects.set(data.projects);
@@ -105,6 +108,7 @@ export async function initializeData(basePath: string = '') {
 		groups.set(data.groups);
 		allCollections.set(data.collections.all);
 		researchSections.set(researchSectionsData);
+		enrichedLocations.set(locationsData);
 
 		isLoading.set(false);
 	} catch (error) {

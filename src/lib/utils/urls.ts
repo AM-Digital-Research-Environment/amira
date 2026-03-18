@@ -31,3 +31,7 @@ export function institutionUrl(name: string): string {
 export function locationUrl(name: string): string {
 	return `${base}/locations?name=${encodeURIComponent(name)}`;
 }
+
+export function languageUrl(code: string): string {
+	return `${base}/languages?code=${encodeURIComponent(code)}`;
+}

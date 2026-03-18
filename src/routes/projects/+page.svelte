@@ -106,6 +106,7 @@
 		const url = new URL(window.location.href);
 		url.searchParams.set('id', project.id);
 		history.pushState({}, '', url.toString());
+		window.scrollTo({ top: 0, behavior: 'smooth' });
 	}
 
 	function clearSelection() {
@@ -113,6 +114,7 @@
 		const url = new URL(window.location.href);
 		url.searchParams.delete('id');
 		history.pushState({}, '', url.toString());
+		window.scrollTo({ top: 0, behavior: 'smooth' });
 	}
 
 	function formatDate(date: Date | null): string {

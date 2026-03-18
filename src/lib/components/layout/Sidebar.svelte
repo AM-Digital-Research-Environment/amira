@@ -2,7 +2,7 @@
 	import { cn } from '$lib/utils/cn';
 	import { page } from '$app/stores';
 	import { base } from '$app/paths';
-	import { Layers, ChevronsLeft, X, Home, Folder, BarChart3, Briefcase, Share2, BookOpen, Users, FileText, Building2, MapPin } from '@lucide/svelte';
+	import { Layers, ChevronsLeft, X, Home, Folder, BarChart3, Briefcase, Share2, BookOpen, Users, FileText, Building2, MapPin, Languages } from '@lucide/svelte';
 	import type { Component } from 'svelte';
 
 	interface Props {
@@ -19,17 +19,33 @@
 		onToggleCollapse
 	}: Props = $props();
 
-	const navItems: { href: string; label: string; icon: Component }[] = [
-		{ href: `${base}/`, label: 'Overview', icon: Home },
-		{ href: `${base}/collections`, label: 'Collections', icon: Folder },
-		{ href: `${base}/compare`, label: 'Compare', icon: BarChart3 },
-		{ href: `${base}/research-sections`, label: 'Research Sections', icon: BookOpen },
-		{ href: `${base}/projects`, label: 'Projects', icon: Briefcase },
-		{ href: `${base}/research-items`, label: 'Research Items', icon: FileText },
-		{ href: `${base}/people`, label: 'People', icon: Users },
-		{ href: `${base}/institutions`, label: 'Institutions', icon: Building2 },
-		{ href: `${base}/locations`, label: 'Locations', icon: MapPin },
-		{ href: `${base}/network`, label: 'Network', icon: Share2 }
+	interface NavGroup {
+		label: string;
+		items: { href: string; label: string; icon: Component }[];
+	}
+
+	const navGroups: NavGroup[] = [
+		{
+			label: 'Browse',
+			items: [
+				{ href: `${base}/research-sections`, label: 'Research Sections', icon: BookOpen },
+				{ href: `${base}/projects`, label: 'Projects', icon: Briefcase },
+				{ href: `${base}/research-items`, label: 'Research Items', icon: FileText },
+				{ href: `${base}/people`, label: 'People', icon: Users },
+				{ href: `${base}/institutions`, label: 'Institutions', icon: Building2 },
+				{ href: `${base}/locations`, label: 'Locations', icon: MapPin },
+				{ href: `${base}/languages`, label: 'Languages', icon: Languages }
+			]
+		},
+		{
+			label: 'Visualize',
+			items: [
+				{ href: `${base}/`, label: 'Overview', icon: Home },
+				{ href: `${base}/collections`, label: 'Collections', icon: Folder },
+				{ href: `${base}/compare`, label: 'Compare', icon: BarChart3 },
+				{ href: `${base}/network`, label: 'Network', icon: Share2 }
+			]
+		}
 	];
 
 	function isActive(href: string) {
@@ -103,25 +119,27 @@
 
 	<!-- Content -->
 	<div class="sidebar-content">
-		<div class="sidebar-group">
-			<div class="sidebar-group-label">Navigation</div>
-			<nav>
-				{#each navItems as item}
-					{@const Icon = item.icon}
-					<a
-						href={item.href}
-						class={cn('sidebar-nav-item', isActive(item.href) && 'active')}
-						onclick={handleNavClick}
-						title={isCollapsed ? item.label : undefined}
-					>
-						<span class="sidebar-nav-icon">
-							<Icon />
-						</span>
-						<span class="sidebar-nav-label">{item.label}</span>
-					</a>
-				{/each}
-			</nav>
-		</div>
+		{#each navGroups as group}
+			<div class="sidebar-group">
+				<div class="sidebar-group-label">{group.label}</div>
+				<nav>
+					{#each group.items as item}
+						{@const Icon = item.icon}
+						<a
+							href={item.href}
+							class={cn('sidebar-nav-item', isActive(item.href) && 'active')}
+							onclick={handleNavClick}
+							title={isCollapsed ? item.label : undefined}
+						>
+							<span class="sidebar-nav-icon">
+								<Icon />
+							</span>
+							<span class="sidebar-nav-label">{item.label}</span>
+						</a>
+					{/each}
+				</nav>
+			</div>
+		{/each}
 	</div>
 
 	<!-- Footer -->

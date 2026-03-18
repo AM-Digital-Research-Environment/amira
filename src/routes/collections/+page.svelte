@@ -1,7 +1,8 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { base } from '$app/paths';
-	import { researchItemUrl } from '$lib/utils/urls';
+	import { researchItemUrl, languageUrl } from '$lib/utils/urls';
+	import { languageName } from '$lib/utils/languages';
 	import { StatCard, ChartCard, EmptyState, Badge, Select } from '$lib/components/ui';
 	import { StackedTimeline, BarChart, PieChart, WordCloud, LocationMap, SankeyChart, SunburstChart, ChordDiagram } from '$lib/components/charts';
 	import { allCollections } from '$lib/stores/data';
@@ -262,7 +263,7 @@
 						<div class="flex flex-wrap gap-1 mt-2">
 							<Badge variant="secondary">{item.typeOfResource || 'Unknown'}</Badge>
 							{#each item.language?.slice(0, 2) || [] as lang}
-								<Badge variant="outline">{lang}</Badge>
+								<a href={languageUrl(lang)}><Badge variant="outline" class="hover:bg-primary/10 transition-colors">{languageName(lang)}</Badge></a>
 							{/each}
 						</div>
 					</div>
