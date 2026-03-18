@@ -6,10 +6,11 @@ import type {
 	Group,
 	CollectionItem,
 	DashboardStats,
-	University
+	University,
+	ResearchSectionInfo
 } from '$lib/types';
 import { universities } from '$lib/types';
-import { loadAllData } from '$lib/utils/dataLoader';
+import { loadAllData, loadResearchSections } from '$lib/utils/dataLoader';
 import { calculateStats } from '$lib/utils/dataTransform';
 
 // Loading state
@@ -22,6 +23,7 @@ export const persons = writable<Person[]>([]);
 export const institutions = writable<Institution[]>([]);
 export const groups = writable<Group[]>([]);
 export const allCollections = writable<CollectionItem[]>([]);
+export const researchSections = writable<Record<string, ResearchSectionInfo>>({});
 
 // Legacy stores for backward compatibility (derived from allCollections)
 export const artWorldCollection: Readable<CollectionItem[]> = derived(
@@ -92,13 +94,17 @@ export async function initializeData(basePath: string = '') {
 	loadError.set(null);
 
 	try {
-		const data = await loadAllData(basePath);
+		const [data, researchSectionsData] = await Promise.all([
+			loadAllData(basePath),
+			loadResearchSections(basePath)
+		]);
 
 		projects.set(data.projects);
 		persons.set(data.persons);
 		institutions.set(data.institutions);
 		groups.set(data.groups);
 		allCollections.set(data.collections.all);
+		researchSections.set(researchSectionsData);
 
 		isLoading.set(false);
 	} catch (error) {

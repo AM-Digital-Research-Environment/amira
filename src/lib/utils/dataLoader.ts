@@ -12,7 +12,8 @@ import type {
 	WikidataLocation,
 	RawGeolocCountry,
 	RawGeolocRegion,
-	RawGeolocSubregion
+	RawGeolocSubregion,
+	ResearchSectionInfo
 } from '$lib/types';
 import { universities } from '$lib/types';
 
@@ -320,6 +321,20 @@ export async function loadAllUniversityCollections(
 		universities.map((uni) => loadUniversityCollections(uni.id, basePath))
 	);
 	return results.flat();
+}
+
+/**
+ * Load manually curated research sections data
+ */
+export async function loadResearchSections(basePath: string = ''): Promise<Record<string, ResearchSectionInfo>> {
+	try {
+		const response = await fetch(`${basePath}/data/manual/researchSections.json`);
+		if (!response.ok) return {};
+		return response.json();
+	} catch {
+		console.warn('Could not load research sections data');
+		return {};
+	}
 }
 
 /**

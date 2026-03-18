@@ -323,6 +323,13 @@ export interface EnrichedLocationsData {
 	};
 }
 
+export interface ResearchSectionInfo {
+	url: string;
+	description: string;
+	objectives: string;
+	workProgramme: string;
+}
+
 export interface MapMarkerData {
 	name: string;
 	latitude: number;

@@ -2,7 +2,7 @@
 	import { cn } from '$lib/utils/cn';
 	import { page } from '$app/stores';
 	import { base } from '$app/paths';
-	import { Layers, ChevronsLeft, X, Home, Folder, BarChart3, Briefcase, Share2 } from '@lucide/svelte';
+	import { Layers, ChevronsLeft, X, Home, Folder, BarChart3, Briefcase, Share2, BookOpen } from '@lucide/svelte';
 	import type { Component } from 'svelte';
 
 	interface Props {
@@ -23,6 +23,7 @@
 		{ href: `${base}/`, label: 'Overview', icon: Home },
 		{ href: `${base}/collections`, label: 'Collections', icon: Folder },
 		{ href: `${base}/compare`, label: 'Compare', icon: BarChart3 },
+		{ href: `${base}/research-sections`, label: 'Research Sections', icon: BookOpen },
 		{ href: `${base}/projects`, label: 'Projects', icon: Briefcase },
 		{ href: `${base}/network`, label: 'Network', icon: Share2 }
 	];

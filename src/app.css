@@ -42,6 +42,12 @@
 		@apply border-border;
 	}
 
+	/* Restore pointer cursor on buttons (Tailwind v4 changed default to cursor: default) */
+	button:not(:disabled),
+	[role="button"]:not(:disabled) {
+		cursor: pointer;
+	}
+
 	html {
 		scroll-behavior: smooth;
 		scrollbar-gutter: stable;
