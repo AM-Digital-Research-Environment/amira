@@ -11,3 +11,7 @@ export function projectsUrl(): string {
 export function researchSectionsUrl(): string {
 	return `${base}/research-sections`;
 }
+
+export function researchItemUrl(id: string): string {
+	return `${base}/research-items?id=${encodeURIComponent(id)}`;
+}

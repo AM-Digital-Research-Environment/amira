@@ -3,7 +3,7 @@
 	import { projects, allCollections, researchSections } from '$lib/stores/data';
 	import { base } from '$app/paths';
 	import { page } from '$app/stores';
-	import { researchSectionsUrl, projectsUrl } from '$lib/utils/urls';
+	import { researchSectionsUrl, projectsUrl, researchItemUrl } from '$lib/utils/urls';
 	import type { Project, CollectionItem } from '$lib/types';
 	import { Users, Briefcase, BookOpen, FileText, Search, X, ArrowLeft } from '@lucide/svelte';
 
@@ -420,7 +420,10 @@
 											<li class="flex items-start gap-3 p-3 rounded-lg bg-muted/30">
 												<FileText class="h-4 w-4 mt-0.5 text-muted-foreground shrink-0" />
 												<div class="min-w-0">
-													<p class="text-sm font-medium text-foreground break-words">{getItemTitle(item)}</p>
+													<a
+													href={researchItemUrl(item._id || item.dre_id)}
+													class="text-sm font-medium text-foreground hover:text-primary transition-colors break-words"
+												>{getItemTitle(item)}</a>
 													<div class="flex flex-wrap items-center gap-2 mt-1">
 														{#if getPersonRole(item, selectedPerson.name)}
 															<Badge variant="outline" class="text-[10px]">
