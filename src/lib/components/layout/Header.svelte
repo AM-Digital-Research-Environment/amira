@@ -8,7 +8,7 @@
 		isSidebarCollapsed?: boolean;
 	}
 
-	let { onMenuClick, isSidebarCollapsed = false }: Props = $props();
+	let { onMenuClick }: Props = $props();
 
 	function toggleTheme() {
 		const newTheme = $theme === 'dark' ? 'light' : 'dark';

@@ -270,7 +270,7 @@
 					gap: 12px;
 				}
 				.popup-type-badge {
-					color: white;
+					color: hsl(var(--background));
 					padding: 2px 8px;
 					border-radius: 4px;
 					font-size: 11px;
@@ -444,16 +444,16 @@
 			el.style.backgroundColor = color;
 			el.style.opacity = '0.7';
 			el.style.borderRadius = '50%';
-			el.style.border = '2px solid white';
-			el.style.boxShadow = '0 2px 4px rgba(0,0,0,0.3)';
+			el.style.border = '2px solid hsl(var(--background))';
+			el.style.boxShadow = 'var(--shadow-sm, 0 1px 3px 0 rgb(0 0 0 / 0.1))';
 			el.style.cursor = 'pointer';
 			el.style.display = 'flex';
 			el.style.alignItems = 'center';
 			el.style.justifyContent = 'center';
-			el.style.color = 'white';
+			el.style.color = 'hsl(var(--background))';
 			el.style.fontSize = radius > 20 ? '12px' : '10px';
 			el.style.fontWeight = 'bold';
-			el.style.textShadow = '0 1px 2px rgba(0,0,0,0.5)';
+			el.style.textShadow = '0 1px 2px rgb(0 0 0 / 0.5)';
 
 			if (radius > 15) {
 				el.textContent = markerData.count.toString();

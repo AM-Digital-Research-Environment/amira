@@ -105,35 +105,35 @@ async function tryLoadJSON<T>(path: string): Promise<T[]> {
 /**
  * Load projects data
  */
-export async function loadProjects(basePath: string = ''): Promise<Project[]> {
+async function loadProjects(basePath: string = ''): Promise<Project[]> {
 	return loadJSON<Project[]>(`${basePath}/data/dev/dev.projectsData.json`);
 }
 
 /**
  * Load persons data
  */
-export async function loadPersons(basePath: string = ''): Promise<Person[]> {
+async function loadPersons(basePath: string = ''): Promise<Person[]> {
 	return loadJSON<Person[]>(`${basePath}/data/dev/dev.persons.json`);
 }
 
 /**
  * Load institutions data
  */
-export async function loadInstitutions(basePath: string = ''): Promise<Institution[]> {
+async function loadInstitutions(basePath: string = ''): Promise<Institution[]> {
 	return loadJSON<Institution[]>(`${basePath}/data/dev/dev.institutions.json`);
 }
 
 /**
  * Load groups data
  */
-export async function loadGroups(basePath: string = ''): Promise<Group[]> {
+async function loadGroups(basePath: string = ''): Promise<Group[]> {
 	return loadJSON<Group[]>(`${basePath}/data/dev/dev.groups.json`);
 }
 
 /**
  * Load dev collections data
  */
-export async function loadDevCollections(basePath: string = ''): Promise<CollectionItem[]> {
+async function loadDevCollections(basePath: string = ''): Promise<CollectionItem[]> {
 	return tryLoadJSON<CollectionItem>(`${basePath}/data/dev/dev.collections.json`);
 }
 
@@ -184,11 +184,6 @@ export const UNIVERSITY_COLLECTIONS: Record<string, string[]> = {
 };
 
 /**
- * All UBT collection file names (for backward compatibility)
- */
-const UBT_COLLECTIONS = UNIVERSITY_COLLECTIONS.ubt;
-
-/**
  * Load a specific UBT collection by name
  */
 export async function loadUBTCollection(
@@ -198,30 +193,6 @@ export async function loadUBTCollection(
 	return tryLoadJSON<CollectionItem>(
 		`${basePath}/data/projects_metadata_ubt/projects_metadata_ubt.${collectionName}.json`
 	);
-}
-
-/**
- * Load UBT ArtWorld collection (legacy)
- */
-export async function loadArtWorldCollection(basePath: string = ''): Promise<CollectionItem[]> {
-	return loadUBTCollection('UBT_ArtWorld2019', basePath);
-}
-
-/**
- * Load UBT CLnCK collection (legacy)
- */
-export async function loadCLnCKCollection(basePath: string = ''): Promise<CollectionItem[]> {
-	return loadUBTCollection('UBT_CLnCK2019', basePath);
-}
-
-/**
- * Load all UBT collections
- */
-export async function loadAllUBTCollections(basePath: string = ''): Promise<CollectionItem[]> {
-	const results = await Promise.all(
-		UBT_COLLECTIONS.map((name) => loadUBTCollection(name, basePath))
-	);
-	return results.flat();
 }
 
 /**
@@ -236,23 +207,9 @@ export async function loadAllCollections(basePath: string = ''): Promise<Collect
 }
 
 /**
- * Get list of available UBT collection names
- */
-export function getUBTCollectionNames(): string[] {
-	return [...UBT_COLLECTIONS];
-}
-
-/**
- * Get all collection names from all universities
- */
-export function getAllCollectionNames(): string[] {
-	return Object.values(UNIVERSITY_COLLECTIONS).flat();
-}
-
-/**
  * Get university by ID
  */
-export function getUniversity(universityId: string): University | undefined {
+function getUniversity(universityId: string): University | undefined {
 	return universities.find((u) => u.id === universityId);
 }
 
@@ -261,13 +218,6 @@ export function getUniversity(universityId: string): University | undefined {
  */
 export function getUniversities(): University[] {
 	return [...universities];
-}
-
-/**
- * Get collection names for a university
- */
-export function getUniversityCollectionNames(universityId: string): string[] {
-	return [...(UNIVERSITY_COLLECTIONS[universityId] || [])];
 }
 
 /**
@@ -455,7 +405,7 @@ export async function loadEnrichedLocations(
 		]);
 
 		// Build URI to name lookup maps
-		const { countryUriToName, regionUriToName } = buildUriToNameMaps(countriesRaw, regionsRaw);
+		const { countryUriToName } = buildUriToNameMaps(countriesRaw, regionsRaw);
 
 		// Transform countries: keyed by name
 		const countries: Record<string, WikidataLocation> = {};

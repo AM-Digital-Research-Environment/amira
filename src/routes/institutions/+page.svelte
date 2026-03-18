@@ -1,10 +1,14 @@
 <script lang="ts">
-	import { StatCard, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination } from '$lib/components/ui';
+	import { StatCard, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination, CollectionItemRow, BackToList } from '$lib/components/ui';
 	import { projects, allCollections, persons } from '$lib/stores/data';
 	import { page } from '$app/stores';
-	import { personUrl, projectUrl, researchItemUrl, researchSectionsUrl } from '$lib/utils/urls';
+	import { personUrl, projectUrl, researchSectionsUrl } from '$lib/utils/urls';
+	import { createUrlSelection, scrollToTop } from '$lib/utils/urlSelection';
 	import type { Project, CollectionItem } from '$lib/types';
-	import { Building2, Briefcase, Users, FileText, BookOpen, ArrowLeft } from '@lucide/svelte';
+	import { formatDate, getProjectTitle } from '$lib/utils/helpers';
+	import { Building2, Briefcase, Users, FileText } from '@lucide/svelte';
+
+	const urlSelection = createUrlSelection('name');
 
 	let searchQuery = $state('');
 	let selectedName = $state('');
@@ -147,34 +151,16 @@
 
 	function selectInstitution(name: string) {
 		selectedName = name;
-		const url = new URL(window.location.href);
-		url.searchParams.set('name', name);
-		history.pushState({}, '', url.toString());
-		window.scrollTo({ top: 0, behavior: 'smooth' });
+		urlSelection.pushToUrl(name);
+		scrollToTop();
 	}
 
 	function clearSelection() {
 		selectedName = '';
-		const url = new URL(window.location.href);
-		url.searchParams.delete('name');
-		history.pushState({}, '', url.toString());
-		window.scrollTo({ top: 0, behavior: 'smooth' });
+		urlSelection.removeFromUrl();
+		scrollToTop();
 	}
 
-	function getItemTitle(item: CollectionItem): string {
-		return item.titleInfo?.[0]?.title || 'Untitled';
-	}
-
-	function getProjectTitle(project: Project): string {
-		return project.name || project.idShort || 'Untitled';
-	}
-
-	function formatDate(date: Date | null): string {
-		if (!date) return '';
-		const d = new Date(date);
-		if (isNaN(d.getTime())) return '';
-		return d.toLocaleDateString('en-US', { month: '2-digit', day: '2-digit', year: 'numeric' });
-	}
 </script>
 
 <div class="space-y-8 animate-slide-in-up">
@@ -197,12 +183,7 @@
 					{#snippet children()}
 						<CardTitle>
 							{#snippet children()}
-								{#if selectedName}
-									<button onclick={clearSelection} class="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors mb-2">
-										<ArrowLeft class="h-4 w-4" />
-										Back to list
-									</button>
-								{/if}
+								<BackToList show={!!selectedName} onclick={clearSelection} />
 								<span class="flex items-center justify-between">
 									Institutions
 									<Badge variant="secondary">
@@ -410,20 +391,7 @@
 								{#snippet children()}
 									<ul class="space-y-2">
 										{#each paginatedCollectionItems as item}
-											<li class="flex items-start gap-3 p-3 rounded-lg bg-muted/30">
-												<FileText class="h-4 w-4 mt-0.5 text-muted-foreground shrink-0" />
-												<div class="min-w-0">
-													<a
-														href={researchItemUrl(item._id || item.dre_id)}
-														class="text-sm font-medium text-foreground hover:text-primary transition-colors break-words"
-													>
-														{getItemTitle(item)}
-													</a>
-													{#if item.typeOfResource}
-														<span class="text-xs text-muted-foreground block mt-0.5">{item.typeOfResource}</span>
-													{/if}
-												</div>
-											</li>
+											<CollectionItemRow {item} showProject={false} />
 										{/each}
 									</ul>
 									<Pagination

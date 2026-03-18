@@ -9,8 +9,12 @@
 	} from '$lib/utils/dataTransform';
 	import { page } from '$app/stores';
 	import { personUrl, researchSectionsUrl, researchItemUrl, institutionUrl } from '$lib/utils/urls';
+	import { createUrlSelection, scrollToTop } from '$lib/utils/urlSelection';
 	import type { Project, CollectionItem } from '$lib/types';
-	import { X, Briefcase, BookOpen, Building2, Calendar, Layers, Users, FileText, MapPin, ArrowLeft } from '@lucide/svelte';
+	import { formatDate, getItemTitle } from '$lib/utils/helpers';
+	import { X, Briefcase, BookOpen, Building2, Calendar, Users, FileText, MapPin, ArrowLeft } from '@lucide/svelte';
+
+	const urlSelection = createUrlSelection('id');
 
 	let searchQuery = $state('');
 	let selectedId = $state('');
@@ -103,23 +107,14 @@
 
 	function selectProject(project: Project) {
 		selectedId = project.id;
-		const url = new URL(window.location.href);
-		url.searchParams.set('id', project.id);
-		history.pushState({}, '', url.toString());
-		window.scrollTo({ top: 0, behavior: 'smooth' });
+		urlSelection.pushToUrl(project.id);
+		scrollToTop();
 	}
 
 	function clearSelection() {
 		selectedId = '';
-		const url = new URL(window.location.href);
-		url.searchParams.delete('id');
-		history.pushState({}, '', url.toString());
-		window.scrollTo({ top: 0, behavior: 'smooth' });
-	}
-
-	function formatDate(date: Date | null): string {
-		if (!date) return 'N/A';
-		return new Date(date).toLocaleDateString();
+		urlSelection.removeFromUrl();
+		scrollToTop();
 	}
 
 	function getDescription(project: Project): string {
@@ -130,10 +125,6 @@
 	function getMembers(project: Project): string[] {
 		if (!Array.isArray(project.members)) return [];
 		return project.members.filter((m): m is string => typeof m === 'string');
-	}
-
-	function getItemTitle(item: CollectionItem): string {
-		return item.titleInfo?.[0]?.title || 'Untitled';
 	}
 
 	function toggleResearchSection(section: string) {

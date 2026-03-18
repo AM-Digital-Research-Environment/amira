@@ -253,13 +253,6 @@ export function extractInstitutions(projects: Project[]): BarChartDataPoint[] {
 }
 
 /**
- * Extract locales from projects
- */
-export function extractLocales(projects: Project[]): BarChartDataPoint[] {
-	return countOccurrences(projects, (project) => project.locale);
-}
-
-/**
  * Build network data for person-institution relationships
  */
 export function buildPersonInstitutionNetwork(

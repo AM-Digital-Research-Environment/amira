@@ -18,12 +18,6 @@ interface SimpleParams {
 	seriesName?: string;
 }
 
-interface PieParams {
-	name: string;
-	value: number;
-	percent: number;
-}
-
 interface StackedParams {
 	name: string;
 	value: number;
@@ -51,30 +45,12 @@ interface LinkParams {
    ============================================================================= */
 
 /**
- * Simple name:value formatter for basic charts
- */
-export function simpleFormatter(params: unknown): string {
-	const p = Array.isArray(params) ? params[0] : params;
-	const d = p as SimpleParams;
-	return `${d.name}: ${d.value}`;
-}
-
-/**
  * Simple formatter with "items" suffix for timeline charts
  */
 export function itemCountFormatter(params: unknown): string {
 	const p = Array.isArray(params) ? params[0] : params;
 	const d = p as SimpleParams;
 	return `${d.name}: ${d.value} items`;
-}
-
-/**
- * Percentage formatter for pie charts
- * Displays name, value, and percentage
- */
-export function percentageFormatter(params: unknown): string {
-	const p = params as PieParams;
-	return `${p.name}: ${p.value} (${p.percent.toFixed(1)}%)`;
 }
 
 /**

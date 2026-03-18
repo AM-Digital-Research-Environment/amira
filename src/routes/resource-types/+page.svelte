@@ -1,11 +1,13 @@
 <script lang="ts">
-	import { StatCard, ChartCard, Card, CardHeader, CardTitle, CardContent, Badge, Pagination } from '$lib/components/ui';
+	import { StatCard, ChartCard, Card, CardHeader, CardTitle, CardContent, Badge, Pagination, BackToList, CollectionItemRow } from '$lib/components/ui';
 	import { PieChart, BarChart } from '$lib/components/charts';
 	import { allCollections } from '$lib/stores/data';
 	import { page } from '$app/stores';
-	import { researchItemUrl } from '$lib/utils/urls';
+	import { createUrlSelection, scrollToElement } from '$lib/utils/urlSelection';
 	import type { CollectionItem } from '$lib/types';
-	import { FileText, Layers, ArrowLeft } from '@lucide/svelte';
+	import { FileText, Layers } from '@lucide/svelte';
+
+	const urlSelection = createUrlSelection('type');
 
 	let selectedType = $state('');
 
@@ -59,24 +61,15 @@
 
 	function selectType(type: string) {
 		selectedType = type;
-		const url = new URL(window.location.href);
-		url.searchParams.set('type', type);
-		history.pushState({}, '', url.toString());
-		setTimeout(() => {
-			detailSection?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-		}, 50);
+		urlSelection.pushToUrl(type);
+		scrollToElement(detailSection);
 	}
 
 	function clearSelection() {
 		selectedType = '';
-		const url = new URL(window.location.href);
-		url.searchParams.delete('type');
-		history.pushState({}, '', url.toString());
+		urlSelection.removeFromUrl();
 	}
 
-	function getItemTitle(item: CollectionItem): string {
-		return item.titleInfo?.[0]?.title || 'Untitled';
-	}
 </script>
 
 <div class="space-y-8 animate-slide-in-up">
@@ -113,12 +106,7 @@
 					{#snippet children()}
 						<CardTitle>
 							{#snippet children()}
-								{#if selectedType}
-									<button onclick={clearSelection} class="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors mb-2">
-										<ArrowLeft class="h-4 w-4" />
-										Back to list
-									</button>
-								{/if}
+								<BackToList show={!!selectedType} onclick={clearSelection} />
 								<span class="flex items-center justify-between">
 									Types
 									<Badge variant="secondary">
@@ -201,22 +189,7 @@
 							{#snippet children()}
 								<ul class="space-y-2">
 									{#each paginatedItems as item}
-										<li class="flex items-start gap-3 p-3 rounded-lg bg-muted/30">
-											<FileText class="h-4 w-4 mt-0.5 text-muted-foreground shrink-0" />
-											<div class="min-w-0">
-												<a
-													href={researchItemUrl(item._id || item.dre_id)}
-													class="text-sm font-medium text-foreground hover:text-primary transition-colors break-words"
-												>
-													{getItemTitle(item)}
-												</a>
-												<div class="flex flex-wrap items-center gap-2 mt-0.5">
-													{#if item.project?.name}
-														<span class="text-xs text-muted-foreground">{item.project.name}</span>
-													{/if}
-												</div>
-											</div>
-										</li>
+										<CollectionItemRow {item} showType={false} showProject={true} />
 									{/each}
 								</ul>
 								<Pagination

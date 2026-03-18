@@ -1,11 +1,13 @@
 <script lang="ts">
-	import { StatCard, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination } from '$lib/components/ui';
+	import { StatCard, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination, CollectionItemRow, BackToList } from '$lib/components/ui';
 	import { allCollections, enrichedLocations } from '$lib/stores/data';
 	import { MiniMap } from '$lib/components/charts';
 	import { page } from '$app/stores';
-	import { researchItemUrl } from '$lib/utils/urls';
+	import { createUrlSelection, scrollToTop } from '$lib/utils/urlSelection';
 	import type { CollectionItem } from '$lib/types';
-	import { MapPin, Globe, FileText, ArrowLeft, ChevronDown, ChevronUp } from '@lucide/svelte';
+	import { MapPin, Globe, FileText } from '@lucide/svelte';
+
+	const urlSelection = createUrlSelection('name');
 
 	let searchQuery = $state('');
 	let selectedName = $state('');
@@ -118,22 +120,14 @@
 
 	function selectLocation(loc: LocationData) {
 		selectedName = loc.name;
-		const url = new URL(window.location.href);
-		url.searchParams.set('name', loc.name);
-		history.pushState({}, '', url.toString());
-		window.scrollTo({ top: 0, behavior: 'smooth' });
+		urlSelection.pushToUrl(loc.name);
+		scrollToTop();
 	}
 
 	function clearSelection() {
 		selectedName = '';
-		const url = new URL(window.location.href);
-		url.searchParams.delete('name');
-		history.pushState({}, '', url.toString());
-		window.scrollTo({ top: 0, behavior: 'smooth' });
-	}
-
-	function getItemTitle(item: CollectionItem): string {
-		return item.titleInfo?.[0]?.title || 'Untitled';
+		urlSelection.removeFromUrl();
+		scrollToTop();
 	}
 
 	// Map markers for selected location
@@ -231,12 +225,7 @@
 					{#snippet children()}
 						<CardTitle>
 							{#snippet children()}
-								{#if selectedName}
-									<button onclick={clearSelection} class="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors mb-2">
-										<ArrowLeft class="h-4 w-4" />
-										Back to list
-									</button>
-								{/if}
+								<BackToList show={!!selectedName} onclick={clearSelection} />
 								<span class="flex items-center justify-between">
 									Locations
 									<Badge variant="secondary">
@@ -448,25 +437,7 @@
 							{#snippet children()}
 								<ul class="space-y-2">
 									{#each paginatedItems as item}
-										<li class="flex items-start gap-3 p-3 rounded-lg bg-muted/30">
-											<FileText class="h-4 w-4 mt-0.5 text-muted-foreground shrink-0" />
-											<div class="min-w-0">
-												<a
-													href={researchItemUrl(item._id || item.dre_id)}
-													class="text-sm font-medium text-foreground hover:text-primary transition-colors break-words"
-												>
-													{getItemTitle(item)}
-												</a>
-												<div class="flex flex-wrap items-center gap-2 mt-0.5">
-													{#if item.typeOfResource}
-														<span class="text-xs text-muted-foreground">{item.typeOfResource}</span>
-													{/if}
-													{#if item.project?.name}
-														<span class="text-xs text-muted-foreground">· {item.project.name}</span>
-													{/if}
-												</div>
-											</div>
-										</li>
+										<CollectionItemRow {item} showProject={true} />
 									{/each}
 								</ul>
 								<Pagination

@@ -1,13 +1,14 @@
 <script lang="ts">
-	import { StatCard, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination } from '$lib/components/ui';
+	import { StatCard, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination, BackToList } from '$lib/components/ui';
 	import { allCollections, enrichedLocations } from '$lib/stores/data';
 	import { MiniMap } from '$lib/components/charts';
 	import { page } from '$app/stores';
-	import { personUrl, locationUrl, institutionUrl, projectUrl, languageUrl, subjectUrl, tagUrl, resourceTypeUrl } from '$lib/utils/urls';
+	import { personUrl, locationUrl, institutionUrl, projectUrl, languageUrl, resourceTypeUrl } from '$lib/utils/urls';
 	import { languageName } from '$lib/utils/languages';
 	import type { CollectionItem } from '$lib/types';
 	import { universities } from '$lib/types';
-	import { FileText, Users, Tag, Globe, Calendar, BookOpen, ArrowLeft, MapPin, Layers, X, ChevronDown, ChevronUp, Building2, Briefcase, Languages } from '@lucide/svelte';
+	import { getItemTitle } from '$lib/utils/helpers';
+	import { FileText, Users, Tag, Calendar, BookOpen, MapPin, Layers, X, ChevronDown, ChevronUp, Building2, Briefcase, Languages } from '@lucide/svelte';
 
 	let searchQuery = $state('');
 	let selectedType = $state('all');
@@ -161,10 +162,6 @@
 		window.scrollTo({ top: 0, behavior: 'smooth' });
 	}
 
-	function getItemTitle(item: CollectionItem): string {
-		return item.titleInfo?.[0]?.title || 'Untitled';
-	}
-
 	function getContributors(item: CollectionItem): { name: string; role: string; qualifier: string }[] {
 		if (!Array.isArray(item.name)) return [];
 		return item.name
@@ -293,12 +290,7 @@
 					{#snippet children()}
 						<CardTitle>
 							{#snippet children()}
-								{#if selectedId}
-									<button onclick={clearSelection} class="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors mb-2">
-										<ArrowLeft class="h-4 w-4" />
-										Back to list
-									</button>
-								{/if}
+								<BackToList show={!!selectedId} onclick={clearSelection} />
 								<span class="flex items-center justify-between">
 									Items
 									<Badge variant="secondary">

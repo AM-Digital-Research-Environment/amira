@@ -58,8 +58,8 @@
 			el.style.height = '16px';
 			el.style.backgroundColor = m.color || CHART_COLORS[0];
 			el.style.borderRadius = '50%';
-			el.style.border = '2px solid white';
-			el.style.boxShadow = '0 2px 4px rgba(0,0,0,0.3)';
+			el.style.border = '2px solid hsl(var(--background))';
+			el.style.boxShadow = 'var(--shadow-sm, 0 1px 3px 0 rgb(0 0 0 / 0.1))';
 
 			const marker = new maplibregl.Marker({ element: el })
 				.setLngLat([m.longitude, m.latitude])

@@ -3,9 +3,9 @@
 	import { BarChart } from '$lib/components/charts';
 	import { projects, researchSections } from '$lib/stores/data';
 	import { extractResearchSections } from '$lib/utils/dataTransform';
-	import { base } from '$app/paths';
 	import { personUrl, projectUrl } from '$lib/utils/urls';
 	import type { Project } from '$lib/types';
+	import { formatDate, getProjectTitle } from '$lib/utils/helpers';
 	import { BookOpen, Briefcase, Layers, ExternalLink, ChevronDown, ChevronUp, Users } from '@lucide/svelte';
 
 	// Group projects by research section
@@ -60,21 +60,7 @@
 		return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
 	}
 
-	function truncate(text: string, maxLen: number): string {
-		if (text.length <= maxLen) return text;
-		return text.substring(0, maxLen).replace(/\s+\S*$/, '') + '...';
-	}
 
-	function getProjectTitle(project: Project): string {
-		return project.name || project.idShort || 'Untitled';
-	}
-
-	function formatDate(date: Date | null): string {
-		if (!date) return '';
-		const d = new Date(date);
-		if (isNaN(d.getTime())) return '';
-		return d.toLocaleDateString('en-US', { month: '2-digit', day: '2-digit', year: 'numeric' });
-	}
 </script>
 
 <div class="space-y-8 animate-slide-in-up">

@@ -35,30 +35,6 @@ export function resetFilters() {
 	});
 }
 
-// Update specific filter
-export function setDateRange(start: Date | null, end: Date | null) {
-	filters.update((f) => ({
-		...f,
-		dateRange: { start, end }
-	}));
-}
-
-export function setResourceTypes(types: string[]) {
-	filters.update((f) => ({ ...f, resourceTypes: types }));
-}
-
-export function setLanguages(languages: string[]) {
-	filters.update((f) => ({ ...f, languages }));
-}
-
-export function setSubjects(subjects: string[]) {
-	filters.update((f) => ({ ...f, subjects }));
-}
-
-export function setProjects(projects: string[]) {
-	filters.update((f) => ({ ...f, projects }));
-}
-
 export function toggleResourceType(type: string) {
 	filters.update((f) => {
 		const types = f.resourceTypes.includes(type)
@@ -75,10 +51,6 @@ export function toggleLanguage(lang: string) {
 			: [...f.languages, lang];
 		return { ...f, languages };
 	});
-}
-
-export function setUniversities(unis: string[]) {
-	filters.update((f) => ({ ...f, universities: unis }));
 }
 
 export function toggleUniversity(uni: string) {

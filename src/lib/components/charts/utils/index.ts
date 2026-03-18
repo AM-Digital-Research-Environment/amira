@@ -7,7 +7,7 @@
  * Import from this file for convenient access to all utilities.
  *
  * Usage:
- * import { buildTitle, hideAxes, simpleFormatter } from './utils';
+ * import { buildTitle, hideAxes, itemCountFormatter } from './utils';
  * =============================================================================
  */
 
@@ -16,9 +16,6 @@ export {
 	buildTitle,
 	buildGrid,
 	buildDataZoom,
-	buildLargeDatasetConfig,
-	buildLegend,
-	buildTooltip,
 	hideAxes,
 	type TitleOptions,
 	type GridOptions,
@@ -27,9 +24,7 @@ export {
 
 // Tooltip formatters
 export {
-	simpleFormatter,
 	itemCountFormatter,
-	percentageFormatter,
 	stackedFormatter,
 	pathFormatter,
 	linkFormatter,

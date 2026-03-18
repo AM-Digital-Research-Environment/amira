@@ -3,9 +3,7 @@
 	import { StackedTimeline, BarChart, PieChart, WordCloud } from '$lib/components/charts';
 	import { FilterPanel } from '$lib/components/layout';
 	import {
-		dashboardStats,
 		projects,
-		allCollections,
 		universitiesData
 	} from '$lib/stores/data';
 	import { filteredCollections } from '$lib/stores/filters';
@@ -14,8 +12,7 @@
 		extractSubjects,
 		extractResourceTypes,
 		extractTags,
-		extractResearchSections,
-		extractLanguages
+		extractResearchSections
 	} from '$lib/utils/dataTransform';
 	import { universities } from '$lib/types';
 	import { base } from '$app/paths';
@@ -28,7 +25,6 @@
 	let stackedTimelineData = $derived(groupByYearAndType($filteredCollections));
 	let subjectsData = $derived(extractSubjects($filteredCollections));
 	let resourceTypesData = $derived(extractResourceTypes($filteredCollections));
-	let languagesData = $derived(extractLanguages($filteredCollections));
 	let wordCloudData = $derived(extractTags($filteredCollections));
 	let researchSectionsData = $derived(extractResearchSections($projects));
 

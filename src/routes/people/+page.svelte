@@ -1,11 +1,14 @@
 <script lang="ts">
-	import { StatCard, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination } from '$lib/components/ui';
+	import { StatCard, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination, BackToList, CollectionItemRow } from '$lib/components/ui';
 	import { projects, allCollections, researchSections } from '$lib/stores/data';
-	import { base } from '$app/paths';
 	import { page } from '$app/stores';
-	import { researchSectionsUrl, projectUrl, researchItemUrl } from '$lib/utils/urls';
+	import { researchSectionsUrl, projectUrl } from '$lib/utils/urls';
+	import { createUrlSelection, scrollToTop } from '$lib/utils/urlSelection';
 	import type { Project, CollectionItem } from '$lib/types';
-	import { Users, Briefcase, BookOpen, FileText, Search, X, ArrowLeft } from '@lucide/svelte';
+	import { formatDate, getProjectTitle } from '$lib/utils/helpers';
+	import { Users, Briefcase, BookOpen, FileText } from '@lucide/svelte';
+
+	const urlSelection = createUrlSelection('name');
 
 	let searchQuery = $state('');
 	let selectedName = $state('');
@@ -116,34 +119,14 @@
 
 	function selectPerson(name: string) {
 		selectedName = name;
-		// Update URL without navigation for shareability
-		const url = new URL(window.location.href);
-		url.searchParams.set('name', name);
-		history.pushState({}, '', url.toString());
-		window.scrollTo({ top: 0, behavior: 'smooth' });
+		urlSelection.pushToUrl(name);
+		scrollToTop();
 	}
 
 	function clearSelection() {
 		selectedName = '';
-		const url = new URL(window.location.href);
-		url.searchParams.delete('name');
-		history.pushState({}, '', url.toString());
-		window.scrollTo({ top: 0, behavior: 'smooth' });
-	}
-
-	function getProjectTitle(project: Project): string {
-		return project.name || project.idShort || 'Untitled';
-	}
-
-	function getItemTitle(item: CollectionItem): string {
-		return item.titleInfo?.[0]?.title || 'Untitled';
-	}
-
-	function formatDate(date: Date | null): string {
-		if (!date) return '';
-		const d = new Date(date);
-		if (isNaN(d.getTime())) return '';
-		return d.toLocaleDateString('en-US', { month: '2-digit', day: '2-digit', year: 'numeric' });
+		urlSelection.removeFromUrl();
+		scrollToTop();
 	}
 
 	function getPersonRole(item: CollectionItem, personName: string): string {
@@ -183,12 +166,7 @@
 					{#snippet children()}
 						<CardTitle>
 							{#snippet children()}
-								{#if selectedName}
-									<button onclick={clearSelection} class="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors mb-2">
-										<ArrowLeft class="h-4 w-4" />
-										Back to list
-									</button>
-								{/if}
+								<BackToList show={!!selectedName} onclick={clearSelection} />
 								<span class="flex items-center justify-between">
 									People
 									<Badge variant="secondary">
@@ -431,25 +409,15 @@
 								{#snippet children()}
 									<ul class="space-y-2">
 										{#each paginatedCollectionItems as item}
-											<li class="flex items-start gap-3 p-3 rounded-lg bg-muted/30">
-												<FileText class="h-4 w-4 mt-0.5 text-muted-foreground shrink-0" />
-												<div class="min-w-0">
-													<a
-													href={researchItemUrl(item._id || item.dre_id)}
-													class="text-sm font-medium text-foreground hover:text-primary transition-colors break-words"
-												>{getItemTitle(item)}</a>
-													<div class="flex flex-wrap items-center gap-2 mt-1">
-														{#if getPersonRole(item, selectedPerson.name)}
-															<Badge variant="outline" class="text-[10px]">
-																{#snippet children()}{getPersonRole(item, selectedPerson.name)}{/snippet}
-															</Badge>
-														{/if}
-														{#if item.typeOfResource}
-															<span class="text-xs text-muted-foreground">{item.typeOfResource}</span>
-														{/if}
-													</div>
-												</div>
-											</li>
+											<CollectionItemRow {item}>
+												{#snippet extraMetadata()}
+													{#if getPersonRole(item, selectedPerson.name)}
+														<Badge variant="outline" class="text-[10px]">
+															{#snippet children()}{getPersonRole(item, selectedPerson.name)}{/snippet}
+														</Badge>
+													{/if}
+												{/snippet}
+											</CollectionItemRow>
 										{/each}
 									</ul>
 									<Pagination

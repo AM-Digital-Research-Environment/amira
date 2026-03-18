@@ -22,7 +22,7 @@ const config = {
 			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH || ''
 		},
 		prerender: {
-			handleHttpError: ({ path, referrer, message }) => {
+			handleHttpError: ({ path, referrer: _referrer, message }) => {
 				// Ignore missing favicon
 				if (path === '/favicon.png') {
 					return;

@@ -12,6 +12,3 @@
 
 // Re-export everything from tokens
 export * from './tokens';
-
-// Re-export CSS path for components that need to import it
-export const TOKENS_CSS_PATH = '$lib/styles/tokens.css';

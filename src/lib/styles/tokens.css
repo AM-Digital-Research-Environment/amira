@@ -432,17 +432,17 @@
        ========================================================================= */
 
     /* --- Categorical Colors (10-color palette for charts) --- */
-    /* Curated for academic research — sophisticated, distinguishable */
-    --chart-1: 176 52% 38%;     /* Viridian (primary) */
-    --chart-2: 22 72% 44%;      /* Copper (accent) */
-    --chart-3: 210 65% 48%;     /* Steel Blue */
-    --chart-4: 350 68% 52%;     /* Carmine */
-    --chart-5: 280 45% 52%;     /* Amethyst */
-    --chart-6: 145 55% 42%;     /* Sage */
-    --chart-7: 42 75% 50%;      /* Goldenrod */
-    --chart-8: 195 70% 44%;     /* Cerulean */
-    --chart-9: 15 75% 55%;      /* Terracotta */
-    --chart-10: 260 55% 58%;    /* Lavender */
+    /* Matches CHART_COLORS in tokens.ts — standard Tailwind palette */
+    --chart-1: 217 91% 60%;     /* Blue (#3b82f6) */
+    --chart-2: 160 84% 39%;     /* Emerald (#10b981) */
+    --chart-3: 38 92% 50%;      /* Amber (#f59e0b) */
+    --chart-4: 0 84% 60%;       /* Red (#ef4444) */
+    --chart-5: 258 90% 66%;     /* Purple (#8b5cf6) */
+    --chart-6: 330 81% 60%;     /* Pink (#ec4899) */
+    --chart-7: 189 94% 43%;     /* Cyan (#06b6d4) */
+    --chart-8: 84 81% 44%;      /* Lime (#84cc16) */
+    --chart-9: 25 95% 53%;      /* Orange (#f97316) */
+    --chart-10: 239 84% 67%;    /* Indigo (#6366f1) */
 
     /* --- Sequential Colors (for gradients/heatmaps) --- */
     --chart-seq-1: var(--color-primary-100);
@@ -546,17 +546,17 @@
     --ring: var(--color-primary-500);
     --ring-offset: var(--color-neutral-950);
 
-    /* --- Chart Colors (adjusted for dark mode — higher saturation) --- */
-    --chart-1: 176 60% 52%;     /* Lighter Viridian */
-    --chart-2: 22 78% 58%;      /* Lighter Copper */
-    --chart-3: 210 72% 62%;     /* Lighter Steel Blue */
-    --chart-4: 350 75% 66%;     /* Lighter Carmine */
-    --chart-5: 280 52% 66%;     /* Lighter Amethyst */
-    --chart-6: 145 62% 56%;     /* Lighter Sage */
-    --chart-7: 42 80% 62%;      /* Lighter Goldenrod */
-    --chart-8: 195 78% 58%;     /* Lighter Cerulean */
-    --chart-9: 15 80% 65%;      /* Lighter Terracotta */
-    --chart-10: 260 62% 70%;    /* Lighter Lavender */
+    /* --- Chart Colors (adjusted for dark mode — lighter for visibility) --- */
+    --chart-1: 217 91% 68%;     /* Lighter Blue */
+    --chart-2: 160 84% 49%;     /* Lighter Emerald */
+    --chart-3: 38 92% 58%;      /* Lighter Amber */
+    --chart-4: 0 84% 68%;       /* Lighter Red */
+    --chart-5: 258 90% 74%;     /* Lighter Purple */
+    --chart-6: 330 81% 68%;     /* Lighter Pink */
+    --chart-7: 189 94% 53%;     /* Lighter Cyan */
+    --chart-8: 84 81% 54%;      /* Lighter Lime */
+    --chart-9: 25 95% 63%;      /* Lighter Orange */
+    --chart-10: 239 84% 75%;    /* Lighter Indigo */
 
     /* --- Chart Text Colors (dark mode) --- */
     --chart-text: var(--color-neutral-200);

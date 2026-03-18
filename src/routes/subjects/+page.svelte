@@ -1,11 +1,13 @@
 <script lang="ts">
-	import { StatCard, ChartCard, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination } from '$lib/components/ui';
+	import { StatCard, ChartCard, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination, CollectionItemRow, BackToList } from '$lib/components/ui';
 	import { WordCloud } from '$lib/components/charts';
 	import { allCollections } from '$lib/stores/data';
 	import { page } from '$app/stores';
-	import { researchItemUrl } from '$lib/utils/urls';
+	import { createUrlSelection, scrollToElement, scrollToTop } from '$lib/utils/urlSelection';
 	import type { CollectionItem, WordCloudDataPoint } from '$lib/types';
-	import { BookOpen, Tag, FileText, ArrowLeft } from '@lucide/svelte';
+	import { BookOpen, Tag, FileText } from '@lucide/svelte';
+
+	const urlSelection = createUrlSelection('name');
 
 	let searchQuery = $state('');
 	let selectedName = $state('');
@@ -95,22 +97,18 @@
 
 	function selectTerm(name: string) {
 		selectedName = name;
+		// Push both name and view params in a single history entry
 		const url = new URL(window.location.href);
 		url.searchParams.set('name', name);
 		url.searchParams.set('view', viewMode);
 		history.pushState({}, '', url.toString());
-		// Scroll to detail section, not top of page
-		setTimeout(() => {
-			detailSection?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-		}, 50);
+		scrollToElement(detailSection);
 	}
 
 	function clearSelection() {
 		selectedName = '';
-		const url = new URL(window.location.href);
-		url.searchParams.delete('name');
-		history.pushState({}, '', url.toString());
-		window.scrollTo({ top: 0, behavior: 'smooth' });
+		urlSelection.removeFromUrl();
+		scrollToTop();
 	}
 
 	function switchView(mode: 'subjects' | 'tags') {
@@ -123,9 +121,6 @@
 		history.pushState({}, '', url.toString());
 	}
 
-	function getItemTitle(item: CollectionItem): string {
-		return item.titleInfo?.[0]?.title || 'Untitled';
-	}
 </script>
 
 <div class="space-y-8 animate-slide-in-up">
@@ -155,12 +150,7 @@
 					{#snippet children()}
 						<CardTitle>
 							{#snippet children()}
-								{#if selectedName}
-									<button onclick={clearSelection} class="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors mb-2">
-										<ArrowLeft class="h-4 w-4" />
-										Back to list
-									</button>
-								{/if}
+								<BackToList show={!!selectedName} onclick={clearSelection} />
 								<span class="flex items-center justify-between">
 									{viewMode === 'subjects' ? 'Subjects' : 'Tags'}
 									<Badge variant="secondary">
@@ -270,25 +260,7 @@
 							{#snippet children()}
 								<ul class="space-y-2">
 									{#each paginatedItems as item}
-										<li class="flex items-start gap-3 p-3 rounded-lg bg-muted/30">
-											<FileText class="h-4 w-4 mt-0.5 text-muted-foreground shrink-0" />
-											<div class="min-w-0">
-												<a
-													href={researchItemUrl(item._id || item.dre_id)}
-													class="text-sm font-medium text-foreground hover:text-primary transition-colors break-words"
-												>
-													{getItemTitle(item)}
-												</a>
-												<div class="flex flex-wrap items-center gap-2 mt-0.5">
-													{#if item.typeOfResource}
-														<span class="text-xs text-muted-foreground">{item.typeOfResource}</span>
-													{/if}
-													{#if item.project?.name}
-														<span class="text-xs text-muted-foreground">· {item.project.name}</span>
-													{/if}
-												</div>
-											</div>
-										</li>
+										<CollectionItemRow {item} showProject={true} />
 									{/each}
 								</ul>
 								<Pagination

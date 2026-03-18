@@ -11,9 +11,6 @@ export interface MongoNaN {
 	$numberDouble: 'NaN';
 }
 
-// Utility type for values that might be NaN in MongoDB export
-export type MaybeNaN<T> = T | MongoNaN | null;
-
 // Core data types
 export interface Person {
 	_id: string;

@@ -27,16 +27,6 @@ export const allCollections = writable<CollectionItem[]>([]);
 export const researchSections = writable<Record<string, ResearchSectionInfo>>({});
 export const enrichedLocations = writable<EnrichedLocationsData | null>(null);
 
-// Legacy stores for backward compatibility (derived from allCollections)
-export const artWorldCollection: Readable<CollectionItem[]> = derived(
-	allCollections,
-	($all) => $all.filter((item) => item.project?.name?.includes('ArtWorld'))
-);
-export const clnckCollection: Readable<CollectionItem[]> = derived(
-	allCollections,
-	($all) => $all.filter((item) => item.project?.name?.includes('CLnCK'))
-);
-
 // University data interface
 export interface UniversityData {
 	university: University;
