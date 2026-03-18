@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { StatCard, ChartCard, EmptyState, Card, CardHeader, CardTitle, CardContent, Badge, Input } from '$lib/components/ui';
+	import { StatCard, ChartCard, EmptyState, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination } from '$lib/components/ui';
 	import { BarChart, Timeline } from '$lib/components/charts';
 	import { projects } from '$lib/stores/data';
 	import {
@@ -7,7 +7,7 @@
 		extractResearchSections,
 		extractInstitutions
 	} from '$lib/utils/dataTransform';
-	import { ChevronLeft, ChevronRight, X, Briefcase, BookOpen, Building2, Calendar, Layers } from '@lucide/svelte';
+	import { X, Briefcase, BookOpen, Building2, Calendar, Layers } from '@lucide/svelte';
 
 	let searchQuery = $state('');
 
@@ -56,7 +56,6 @@
 	);
 
 	// Paginated projects
-	let totalPages = $derived(Math.ceil(filteredProjects.length / itemsPerPage));
 	let paginatedProjects = $derived(
 		filteredProjects.slice(currentPage * itemsPerPage, (currentPage + 1) * itemsPerPage)
 	);
@@ -316,37 +315,12 @@
 							{/if}
 						</div>
 
-						<!-- Pagination -->
-						{#if totalPages > 1}
-							<div class="flex items-center justify-between mt-6 pt-4 border-t">
-								<p class="text-sm text-muted-foreground">
-									Showing {currentPage * itemsPerPage + 1} - {Math.min((currentPage + 1) * itemsPerPage, filteredProjects.length)} of {filteredProjects.length}
-								</p>
-								<div class="flex items-center gap-2">
-									<button
-										onclick={() => currentPage--}
-										disabled={currentPage === 0}
-										class="p-2 rounded hover:bg-muted disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
-										aria-label="Previous page"
-									>
-										<ChevronLeft class="h-4 w-4" />
-									</button>
-
-									<span class="text-sm text-muted-foreground min-w-[80px] text-center">
-										{currentPage + 1} / {totalPages}
-									</span>
-
-									<button
-										onclick={() => currentPage++}
-										disabled={currentPage === totalPages - 1}
-										class="p-2 rounded hover:bg-muted disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
-										aria-label="Next page"
-									>
-										<ChevronRight class="h-4 w-4" />
-									</button>
-								</div>
-							</div>
-						{/if}
+						<Pagination
+							{currentPage}
+							totalItems={filteredProjects.length}
+							{itemsPerPage}
+							onPageChange={(p) => currentPage = p}
+						/>
 					{/snippet}
 				</CardContent>
 			{/snippet}

@@ -10,3 +10,4 @@ export { default as Badge } from './badge.svelte';
 export { default as Select } from './select.svelte';
 export { default as Tabs } from './tabs.svelte';
 export { default as Input } from './input.svelte';
+export { default as Pagination } from './pagination.svelte';

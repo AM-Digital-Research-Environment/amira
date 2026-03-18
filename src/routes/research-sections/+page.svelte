@@ -4,6 +4,7 @@
 	import { projects, researchSections } from '$lib/stores/data';
 	import { extractResearchSections } from '$lib/utils/dataTransform';
 	import { base } from '$app/paths';
+	import { personUrl } from '$lib/utils/urls';
 	import type { Project } from '$lib/types';
 	import { BookOpen, Briefcase, Layers, ExternalLink, ChevronDown, ChevronUp, Users } from '@lucide/svelte';
 
@@ -145,7 +146,13 @@
 										<div>
 											<p class="text-xs font-medium text-muted-foreground mb-1.5">Principal Investigators</p>
 											<p class="text-sm text-foreground">
-												{section.principalInvestigators.join(' · ')}
+												{#each section.principalInvestigators as pi, i}
+													{#if i > 0}<span class="text-muted-foreground"> · </span>{/if}
+													<a
+														href={personUrl(pi)}
+														class="hover:text-primary transition-colors"
+													>{pi}</a>
+												{/each}
 											</p>
 										</div>
 									</div>
