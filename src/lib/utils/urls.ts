@@ -43,3 +43,7 @@ export function tagUrl(name: string): string {
 export function resourceTypeUrl(type: string): string {
 	return `${base}/resource-types?type=${encodeURIComponent(type)}`;
 }
+
+export function genreUrl(genre: string): string {
+	return `${base}/genres?genre=${encodeURIComponent(genre)}`;
+}

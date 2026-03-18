@@ -57,19 +57,29 @@
 		// From person affiliations
 		$persons.forEach((p) => {
 			(p.affiliation || []).forEach((aff) => {
-				if (aff && map.has(aff)) {
-					map.get(aff)!.people.add(p.name);
+				if (aff) {
+					const inst = getOrCreate(aff);
+					inst.people.add(p.name);
 				}
 			});
 		});
 
-		// From collection item contributors (institutions and groups)
+		// From collection item contributors (institutions and groups) and their affiliations
 		$allCollections.forEach((item) => {
 			if (!Array.isArray(item.name)) return;
 			item.name.forEach((n) => {
 				if (n?.name?.label && (n?.name?.qualifier === 'institution' || n?.name?.qualifier === 'group')) {
 					const inst = getOrCreate(n.name.label);
 					inst.collectionItemCount++;
+				}
+				// Also index person affiliations from collection items
+				if (n?.name?.label && Array.isArray(n.affl)) {
+					n.affl.forEach((aff) => {
+						if (aff) {
+							const inst = getOrCreate(aff);
+							inst.people.add(n.name.label);
+						}
+					});
 				}
 			});
 		});

@@ -287,19 +287,6 @@
 		return markers;
 	});
 
-	function handleAddSubject(subject: string) {
-		if (!selectedSubjects.includes(subject)) {
-			selectedSubjects = [...selectedSubjects, subject];
-			filtersRef?.expandSubjects();
-		}
-	}
-
-	function handleAddTag(tag: string) {
-		if (!selectedTags.includes(tag)) {
-			selectedTags = [...selectedTags, tag];
-			filtersRef?.expandTags();
-		}
-	}
 </script>
 
 <div class="space-y-8 animate-slide-in-up">
@@ -316,8 +303,6 @@
 			<ItemDetail
 				item={selectedItem}
 				mapMarkers={itemMapMarkers}
-				onAddSubject={handleAddSubject}
-				onAddTag={handleAddTag}
 			/>
 		</div>
 	{:else}

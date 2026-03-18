@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { Card, CardHeader, CardTitle, CardContent, Badge } from '$lib/components/ui';
 	import { MiniMap } from '$lib/components/charts';
-	import { locationUrl, institutionUrl, projectUrl, languageUrl, resourceTypeUrl } from '$lib/utils/urls';
+	import { locationUrl, institutionUrl, projectUrl, languageUrl, resourceTypeUrl, subjectUrl, tagUrl, genreUrl } from '$lib/utils/urls';
 	import { languageName } from '$lib/utils/languages';
 	import type { CollectionItem } from '$lib/types';
 	import { universities } from '$lib/types';
@@ -32,11 +32,9 @@
 	interface Props {
 		item: CollectionItem;
 		mapMarkers?: { latitude: number; longitude: number; label: string }[];
-		onAddSubject?: (subject: string) => void;
-		onAddTag?: (tag: string) => void;
 	}
 
-	let { item, mapMarkers = [], onAddSubject, onAddTag }: Props = $props();
+	let { item, mapMarkers = [] }: Props = $props();
 
 	let contributors = $derived(getContributorsFull(item));
 	let subjects = $derived(getSubjects(item));
@@ -66,9 +64,14 @@
 						{#snippet children()}{getItemTitle(item)}{/snippet}
 					</CardTitle>
 					{#if item.titleInfo?.length > 1}
-						{#each item.titleInfo.slice(1) as alt}
-							<p class="text-sm text-muted-foreground mt-1 break-words">{alt.title} <span class="text-xs">({alt.title_type})</span></p>
-						{/each}
+						<div class="mt-2 space-y-1">
+							{#each item.titleInfo.slice(1) as alt}
+								<p class="text-sm break-words">
+									<span class="text-muted-foreground font-medium">{alt.title_type} title:</span>
+									<span class="text-foreground/80">{alt.title}</span>
+								</p>
+							{/each}
+						</div>
 					{/if}
 					{#if item.project?.name}
 						<p class="text-sm text-muted-foreground mt-2 flex items-center gap-1.5">
@@ -82,12 +85,21 @@
 		<CardContent>
 			{#snippet children()}
 				<div class="grid gap-3 text-sm sm:grid-cols-2">
-					{#if item.typeOfResource || genre.length > 0}
+					{#if item.typeOfResource}
 						<div class="flex items-center gap-2">
 							<FileText class="h-4 w-4 text-muted-foreground shrink-0" />
 							<span class="text-muted-foreground shrink-0">Type</span>
+							<a href={resourceTypeUrl(item.typeOfResource)} class="text-foreground hover:text-primary transition-colors">{item.typeOfResource}</a>
+						</div>
+					{/if}
+					{#if genre.length > 0}
+						<div class="flex items-center gap-2">
+							<BookType class="h-4 w-4 text-muted-foreground shrink-0" />
+							<span class="text-muted-foreground shrink-0">Genre</span>
 							<span class="text-foreground">
-								{item.typeOfResource || ''}{#if genre.length > 0}{#if item.typeOfResource} · {/if}{genre.join(', ')}{/if}
+								{#each genre as g, i}
+									<a href={genreUrl(g)} class="hover:text-primary transition-colors">{g}</a>{#if i < genre.length - 1},&nbsp;{/if}
+								{/each}
 							</span>
 						</div>
 					{/if}
@@ -280,11 +292,11 @@
 					{#snippet children()}
 						<div class="flex flex-wrap gap-2">
 							{#each subjects as subject}
-								<button onclick={() => onAddSubject?.(subject)}>
+								<a href={subjectUrl(subject)} class="hover:opacity-80 transition-opacity">
 									<Badge variant="secondary" class="hover:bg-primary/20 transition-colors">
 										{#snippet children()}{subject}{/snippet}
 									</Badge>
-								</button>
+								</a>
 							{/each}
 						</div>
 					{/snippet}
@@ -313,11 +325,11 @@
 					{#snippet children()}
 						<div class="flex flex-wrap gap-1.5">
 							{#each tags as tag}
-								<button onclick={() => onAddTag?.(tag)}>
+								<a href={tagUrl(tag)} class="hover:opacity-80 transition-opacity">
 									<Badge variant="outline" class="text-xs hover:bg-accent/20 transition-colors">
 										{#snippet children()}{tag}{/snippet}
 									</Badge>
-								</button>
+								</a>
 							{/each}
 						</div>
 					{/snippet}

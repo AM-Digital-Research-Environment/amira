@@ -119,6 +119,14 @@ SELECT ?label ?url WHERE {{
     ?id owl:sameAs ?url .
     FILTER(STRSTARTS(STR(?url), "{WISSKI_NAVIGATE_PREFIX}"))
 }}""",
+    "genres": f"""{PREFIXES}
+SELECT ?label ?url WHERE {{
+    ?id rdf:type am:taxonomy_tag .
+    ?id ecrm:P1_is_identified_by ?labelEntity .
+    ?labelEntity ecrm:P3_has_note ?label .
+    ?id owl:sameAs ?url .
+    FILTER(STRSTARTS(STR(?url), "{WISSKI_NAVIGATE_PREFIX}"))
+}}""",
 }
 
 
