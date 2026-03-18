@@ -160,7 +160,7 @@ function fmtDate(date: Date | null | undefined): string {
 	if (!date) return '';
 	const parsed = new Date(date as unknown as string);
 	if (isNaN(parsed.getTime())) return '';
-	return parsed.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+	return parsed.toLocaleDateString('en-GB', { year: 'numeric', month: 'short', day: 'numeric' });
 }
 
 export interface DateEntry {

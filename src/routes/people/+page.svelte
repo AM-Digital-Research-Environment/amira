@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { StatCard, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination, BackToList, CollectionItemRow } from '$lib/components/ui';
-	import { projects, allCollections, researchSections } from '$lib/stores/data';
+	import { projects, allCollections, researchSections, persons } from '$lib/stores/data';
 	import { page } from '$app/stores';
 	import { researchSectionsUrl, projectUrl } from '$lib/utils/urls';
 	import { createUrlSelection, scrollToTop } from '$lib/utils/urlSelection';
@@ -8,7 +8,8 @@
 	import { formatDate, getProjectTitle } from '$lib/utils/helpers';
 	import { createSearchFilter } from '$lib/utils/search';
 	import { paginate } from '$lib/utils/pagination';
-	import { Users, Briefcase, BookOpen, FileText } from '@lucide/svelte';
+	import { Users, Briefcase, BookOpen, FileText, Building2 } from '@lucide/svelte';
+	import { institutionUrl } from '$lib/utils/urls';
 	import { WissKILink } from '$lib/components/ui';
 
 	const urlSelection = createUrlSelection('name');
@@ -28,6 +29,7 @@
 		piOf: Project[];
 		memberOf: Project[];
 		sections: Set<string>;
+		affiliations: Set<string>;
 		isSectionPI: boolean;
 	}
 
@@ -36,7 +38,7 @@
 
 		const getOrCreate = (name: string): PersonData => {
 			if (!map.has(name)) {
-				map.set(name, { name, piOf: [], memberOf: [], sections: new Set(), isSectionPI: false });
+				map.set(name, { name, piOf: [], memberOf: [], sections: new Set(), affiliations: new Set(), isSectionPI: false });
 			}
 			return map.get(name)!;
 		};
@@ -59,14 +61,25 @@
 			}
 		});
 
-		// From collection item contributors (persons only)
+		// From collection item contributors (persons only) + their affiliations
 		$allCollections.forEach((item) => {
 			if (!Array.isArray(item.name)) return;
 			item.name.forEach((n) => {
 				if (n?.name?.label && n?.name?.qualifier === 'person') {
-					getOrCreate(n.name.label);
+					const person = getOrCreate(n.name.label);
+					if (Array.isArray(n.affl)) {
+						n.affl.forEach((a) => { if (a) person.affiliations.add(a); });
+					}
 				}
 			});
+		});
+
+		// From persons store
+		$persons.forEach((p) => {
+			if (p.name && Array.isArray(p.affiliation)) {
+				const person = getOrCreate(p.name);
+				p.affiliation.forEach((a) => { if (a) person.affiliations.add(a); });
+			}
 		});
 
 		// Mark research section PIs and members
@@ -252,6 +265,39 @@
 						</CardHeader>
 					{/snippet}
 				</Card>
+
+				<!-- Affiliations -->
+				{#if selectedPerson.affiliations.size > 0}
+					<Card class="overflow-hidden">
+						{#snippet children()}
+							<CardHeader>
+								{#snippet children()}
+									<CardTitle class="text-lg">
+										{#snippet children()}
+											<span class="flex items-center gap-2">
+												<Building2 class="h-5 w-5 text-primary" />
+												Affiliations
+											</span>
+										{/snippet}
+									</CardTitle>
+								{/snippet}
+							</CardHeader>
+							<CardContent>
+								{#snippet children()}
+									<div class="flex flex-wrap gap-2">
+										{#each [...selectedPerson.affiliations].sort() as aff}
+											<a href={institutionUrl(aff)} class="hover:opacity-80 transition-opacity">
+												<Badge variant="outline" class="hover:bg-primary/10 transition-colors">
+													{#snippet children()}{aff}{/snippet}
+												</Badge>
+											</a>
+										{/each}
+									</div>
+								{/snippet}
+							</CardContent>
+						{/snippet}
+					</Card>
+				{/if}
 
 				<!-- Research Sections -->
 				{#if selectedPerson.sections.size > 0}

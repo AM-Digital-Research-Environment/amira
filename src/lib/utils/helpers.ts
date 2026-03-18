@@ -7,7 +7,7 @@ export function formatDate(date: Date | null): string {
 	if (!date) return 'N/A';
 	const d = date instanceof Date ? date : new Date(date);
 	if (isNaN(d.getTime())) return 'N/A';
-	return d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+	return d.toLocaleDateString('en-GB', { year: 'numeric', month: 'short', day: 'numeric' });
 }
 
 /**
