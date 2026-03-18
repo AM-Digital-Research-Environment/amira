@@ -13,7 +13,7 @@
 	import type { Project, CollectionItem } from '$lib/types';
 	import { formatDate, getItemTitle } from '$lib/utils/helpers';
 	import { paginate } from '$lib/utils/pagination';
-	import { X, Briefcase, BookOpen, Building2, Calendar, Users, FileText, MapPin, ArrowLeft } from '@lucide/svelte';
+	import { X, Briefcase, BookOpen, Building2, Calendar, Users, FileText, ArrowLeft, Hash, GraduationCap } from '@lucide/svelte';
 	import { WissKILink } from '$lib/components/ui';
 
 	const urlSelection = createUrlSelection('id');
@@ -176,32 +176,41 @@
 								<CardTitle class="break-words">
 									{#snippet children()}{selectedProject.name}{/snippet}
 								</CardTitle>
-								<div class="flex flex-wrap items-center gap-2 mt-2 text-sm text-muted-foreground">
-									<span class="font-mono">{selectedProject.id}</span>
-									{#if selectedProject.locale}
-										<span>•</span>
-										<span class="flex items-center gap-1"><MapPin class="h-3.5 w-3.5" />{selectedProject.locale}</span>
-									{/if}
-									<span>•</span>
-									<WissKILink category="projects" entityKey={selectedProject.id} />
-								</div>
-								<div class="flex flex-wrap gap-2 mt-3">
-									{#each selectedProject.researchSection || [] as section}
-										<a href={researchSectionsUrl(section)}>
-											<Badge variant="secondary" class="hover:bg-primary/20 transition-colors">
-												{#snippet children()}{section}{/snippet}
-											</Badge>
-										</a>
-									{/each}
-									{#if selectedProject.date?.start || selectedProject.date?.end}
-										<Badge variant="outline">
-											{#snippet children()}{formatDate(selectedProject.date?.start)} – {formatDate(selectedProject.date?.end)}{/snippet}
-										</Badge>
-									{/if}
-								</div>
 							</div>
 						{/snippet}
 					</CardHeader>
+					<CardContent>
+						{#snippet children()}
+							<div class="grid gap-3 text-sm sm:grid-cols-2">
+								<div class="flex items-center gap-2">
+									<Hash class="h-4 w-4 text-muted-foreground shrink-0" />
+									<span class="text-muted-foreground shrink-0">Identifier</span>
+									<span class="text-foreground font-mono">{selectedProject.id}</span>
+								</div>
+								{#if selectedProject.researchSection?.length > 0}
+									<div class="flex items-center gap-2">
+										<BookOpen class="h-4 w-4 text-muted-foreground shrink-0" />
+										<span class="text-muted-foreground shrink-0">Research Section</span>
+										<span class="text-foreground">
+											{#each selectedProject.researchSection as section, i}
+												<a href={researchSectionsUrl(section)} class="hover:text-primary transition-colors">{section}</a>{#if i < selectedProject.researchSection.length - 1},&nbsp;{/if}
+											{/each}
+										</span>
+									</div>
+								{/if}
+								{#if selectedProject.date?.start || selectedProject.date?.end}
+									<div class="flex items-center gap-2">
+										<Calendar class="h-4 w-4 text-muted-foreground shrink-0" />
+										<span class="text-muted-foreground shrink-0">Duration</span>
+										<span class="text-foreground">{formatDate(selectedProject.date?.start)} – {formatDate(selectedProject.date?.end)}</span>
+									</div>
+								{/if}
+								<div class="flex items-center gap-2">
+									<WissKILink category="projects" entityKey={selectedProject.id} />
+								</div>
+							</div>
+						{/snippet}
+					</CardContent>
 				{/snippet}
 			</Card>
 
@@ -229,80 +238,70 @@
 				</Card>
 			{/if}
 
-			<!-- PIs & Members -->
-			<div class="grid gap-6 md:grid-cols-2">
-				{#if selectedProject.pi?.length > 0}
-					<Card class="overflow-hidden">
-						{#snippet children()}
-							<CardHeader>
-								{#snippet children()}
-									<CardTitle class="text-lg">
-										{#snippet children()}
-											<span class="flex items-center gap-2">
-												<Briefcase class="h-5 w-5 text-primary" />
-												Principal Investigators
-											</span>
-										{/snippet}
-									</CardTitle>
-								{/snippet}
-							</CardHeader>
-							<CardContent>
-								{#snippet children()}
-									<ul class="space-y-2">
-										{#each selectedProject.pi as pi}
-											<li>
-												<a
-													href={personUrl(pi)}
-													class="flex items-center gap-2 p-2 rounded-lg bg-muted/30 text-sm font-medium text-foreground hover:text-primary transition-colors"
-												>
-													<Users class="h-4 w-4 text-muted-foreground shrink-0" />
-													{pi}
-												</a>
-											</li>
-										{/each}
-									</ul>
-								{/snippet}
-							</CardContent>
-						{/snippet}
-					</Card>
-				{/if}
+			<!-- Principal Investigators — inline -->
+			{#if selectedProject.pi?.length > 0}
+				<Card class="overflow-hidden">
+					{#snippet children()}
+						<CardHeader>
+							{#snippet children()}
+								<CardTitle class="text-lg">
+									{#snippet children()}
+										<span class="flex items-center gap-2">
+											<GraduationCap class="h-5 w-5 text-primary" />
+											Principal Investigators
+										</span>
+									{/snippet}
+								</CardTitle>
+							{/snippet}
+						</CardHeader>
+						<CardContent>
+							{#snippet children()}
+								<p class="text-sm text-foreground">
+									{#each selectedProject.pi as pi, i}
+										{#if i > 0}<span class="text-muted-foreground"> · </span>{/if}
+										<a href={personUrl(pi)} class="hover:text-primary transition-colors">{pi}</a>
+									{/each}
+								</p>
+							{/snippet}
+						</CardContent>
+					{/snippet}
+				</Card>
+			{/if}
 
-				{#if getMembers(selectedProject).length > 0}
-					<Card class="overflow-hidden">
-						{#snippet children()}
-							<CardHeader>
-								{#snippet children()}
-									<CardTitle class="text-lg">
-										{#snippet children()}
-											<span class="flex items-center gap-2">
-												<Users class="h-5 w-5 text-muted-foreground" />
-												Members
-											</span>
-										{/snippet}
-									</CardTitle>
-								{/snippet}
-							</CardHeader>
-							<CardContent>
-								{#snippet children()}
-									<ul class="space-y-2">
-										{#each getMembers(selectedProject) as member}
-											<li>
-												<a
-													href={personUrl(member)}
-													class="flex items-center gap-2 p-2 rounded-lg bg-muted/30 text-sm text-foreground hover:text-primary transition-colors"
-												>
-													<Users class="h-4 w-4 text-muted-foreground shrink-0" />
-													{member}
-												</a>
-											</li>
-										{/each}
-									</ul>
-								{/snippet}
-							</CardContent>
-						{/snippet}
-					</Card>
-				{/if}
-			</div>
+			<!-- Members — multi-column grid -->
+			{#if getMembers(selectedProject).length > 0}
+				<Card class="overflow-hidden">
+					{#snippet children()}
+						<CardHeader>
+							{#snippet children()}
+								<CardTitle class="text-lg">
+									{#snippet children()}
+										<span class="flex items-center gap-2">
+											<Users class="h-5 w-5 text-primary" />
+											Members
+											<Badge variant="secondary">
+												{#snippet children()}{getMembers(selectedProject).length}{/snippet}
+											</Badge>
+										</span>
+									{/snippet}
+								</CardTitle>
+							{/snippet}
+						</CardHeader>
+						<CardContent>
+							{#snippet children()}
+								<div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-4 gap-y-1.5">
+									{#each getMembers(selectedProject) as member}
+										<a
+											href={personUrl(member)}
+											class="text-sm text-foreground hover:text-primary transition-colors truncate"
+										>{member}</a>
+									{/each}
+								</div>
+							{/snippet}
+						</CardContent>
+					{/snippet}
+				</Card>
+			{/if}
 
 			<!-- Institutions -->
 			{#if selectedProject.institutions?.length > 0}
@@ -313,7 +312,7 @@
 								<CardTitle class="text-lg">
 									{#snippet children()}
 										<span class="flex items-center gap-2">
-											<Building2 class="h-5 w-5 text-muted-foreground" />
+											<Building2 class="h-5 w-5 text-primary" />
 											Institutions
 										</span>
 									{/snippet}
@@ -346,7 +345,7 @@
 								<CardTitle class="text-lg">
 									{#snippet children()}
 										<span class="flex items-center gap-2">
-											<FileText class="h-5 w-5 text-muted-foreground" />
+											<FileText class="h-5 w-5 text-primary" />
 											Collection Items
 											<Badge variant="secondary">
 												{#snippet children()}{projectCollectionItems.length}{/snippet}

@@ -8,7 +8,7 @@
 	import { createUrlSelection, scrollToTop } from '$lib/utils/urlSelection';
 	import type { Project } from '$lib/types';
 	import { formatDate, getProjectTitle } from '$lib/utils/helpers';
-	import { BookOpen, Briefcase, Layers, ExternalLink, Users, ArrowRight } from '@lucide/svelte';
+	import { BookOpen, Briefcase, Layers, ExternalLink, Users, ArrowRight, GraduationCap } from '@lucide/svelte';
 	import { WissKILink } from '$lib/components/ui';
 
 	const urlSelection = createUrlSelection('section');
@@ -136,7 +136,7 @@
 							<CardTitle class="text-lg">
 								{#snippet children()}
 									<span class="flex items-center gap-2">
-										<Users class="h-5 w-5 text-primary" />
+										<GraduationCap class="h-5 w-5 text-primary" />
 										Principal Investigators
 									</span>
 								{/snippet}

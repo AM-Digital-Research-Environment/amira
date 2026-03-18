@@ -8,7 +8,7 @@
 	import { getItemTitle } from '$lib/utils/helpers';
 	import {
 		FileText, Users, Tag, Calendar, MapPin, Languages, Building2, Briefcase,
-		ExternalLink, BookType, HardDrive, StickyNote, Heart, Link, Archive, UsersRound
+		ExternalLink, BookType, HardDrive, StickyNote, Heart, Link, Archive, Target, Hash
 	} from '@lucide/svelte';
 	import { WissKILink } from '$lib/components/ui';
 	import {
@@ -420,7 +420,12 @@
 				<CardHeader>
 					{#snippet children()}
 						<CardTitle class="text-lg">
-							{#snippet children()}Identifiers{/snippet}
+							{#snippet children()}
+								<span class="flex items-center gap-2">
+									<Hash class="h-5 w-5 text-primary" />
+									Identifiers
+								</span>
+							{/snippet}
 						</CardTitle>
 					{/snippet}
 				</CardHeader>
@@ -521,7 +526,7 @@
 						<CardTitle class="text-lg">
 							{#snippet children()}
 								<span class="flex items-center gap-2">
-									<UsersRound class="h-5 w-5 text-primary" />
+									<Target class="h-5 w-5 text-primary" />
 									Target Audience
 								</span>
 							{/snippet}
