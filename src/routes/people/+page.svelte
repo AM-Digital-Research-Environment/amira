@@ -284,7 +284,7 @@
 									<div class="flex flex-wrap gap-2">
 										{#each [...selectedPerson.sections].sort() as section}
 											<a
-												href={researchSectionsUrl()}
+												href={researchSectionsUrl(section)}
 												class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-primary/10 text-primary text-sm font-medium hover:bg-primary/20 transition-colors"
 											>
 												{section}
@@ -339,9 +339,11 @@
 													{#if project.researchSection?.length}
 														<div class="flex flex-wrap gap-1 mt-1.5">
 															{#each project.researchSection as section}
-																<Badge variant="outline" class="text-[10px]">
-																	{#snippet children()}{section}{/snippet}
-																</Badge>
+																<a href={researchSectionsUrl(section)} class="hover:opacity-80 transition-opacity">
+																	<Badge variant="outline" class="text-[10px] hover:bg-primary/10 transition-colors">
+																		{#snippet children()}{section}{/snippet}
+																	</Badge>
+																</a>
 															{/each}
 														</div>
 													{/if}

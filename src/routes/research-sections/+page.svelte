@@ -56,6 +56,10 @@
 		expandedSections = next;
 	}
 
+	function sectionSlug(name: string): string {
+		return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+	}
+
 	function truncate(text: string, maxLen: number): string {
 		if (text.length <= maxLen) return text;
 		return text.substring(0, maxLen).replace(/\s+\S*$/, '') + '...';
@@ -99,7 +103,7 @@
 	<!-- Section Cards -->
 	<div class="grid gap-6">
 		{#each sections as section}
-			<Card class="overflow-hidden">
+			<Card class="overflow-hidden scroll-mt-24" id={sectionSlug(section.name)}>
 				{#snippet children()}
 					<CardHeader>
 						{#snippet children()}

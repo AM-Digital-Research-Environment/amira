@@ -1,0 +1,395 @@
+<script lang="ts">
+	import { StatCard, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination } from '$lib/components/ui';
+	import { projects, allCollections, persons } from '$lib/stores/data';
+	import { page } from '$app/stores';
+	import { personUrl, projectUrl, researchItemUrl, researchSectionsUrl } from '$lib/utils/urls';
+	import type { Project, CollectionItem } from '$lib/types';
+	import { Building2, Briefcase, Users, FileText, BookOpen, ArrowLeft } from '@lucide/svelte';
+
+	let searchQuery = $state('');
+	let selectedName = $state('');
+
+	// Sync from URL query param
+	$effect(() => {
+		const urlName = $page.url.searchParams.get('name');
+		if (urlName) selectedName = urlName;
+	});
+
+	// Build institution index from projects + persons + collection item affiliations
+	interface InstitutionData {
+		name: string;
+		projects: Project[];
+		people: Set<string>;
+		collectionItemCount: number;
+	}
+
+	let institutionMap = $derived.by(() => {
+		const map = new Map<string, InstitutionData>();
+
+		const getOrCreate = (name: string): InstitutionData => {
+			if (!map.has(name)) {
+				map.set(name, { name, projects: [], people: new Set(), collectionItemCount: 0 });
+			}
+			return map.get(name)!;
+		};
+
+		// From projects (partner institutions)
+		$projects.forEach((p) => {
+			(p.institutions || []).forEach((instName) => {
+				const inst = getOrCreate(instName);
+				inst.projects.push(p);
+				(p.pi || []).forEach((pi) => { if (typeof pi === 'string') inst.people.add(pi); });
+				if (Array.isArray(p.members)) {
+					p.members.forEach((m) => { if (typeof m === 'string') inst.people.add(m); });
+				}
+			});
+		});
+
+		// From person affiliations
+		$persons.forEach((p) => {
+			(p.affiliation || []).forEach((aff) => {
+				if (aff && map.has(aff)) {
+					map.get(aff)!.people.add(p.name);
+				}
+			});
+		});
+
+		// Count collection items per institution (via project association)
+		const projectInstitutions = new Map<string, string[]>();
+		$projects.forEach((p) => {
+			projectInstitutions.set(p.id, p.institutions || []);
+		});
+		$allCollections.forEach((item) => {
+			const instNames = projectInstitutions.get(item.project?.id || '');
+			if (instNames) {
+				instNames.forEach((instName) => {
+					if (map.has(instName)) map.get(instName)!.collectionItemCount++;
+				});
+			}
+		});
+
+		return map;
+	});
+
+	let institutions = $derived(
+		Array.from(institutionMap.values()).sort((a, b) => b.projects.length - a.projects.length)
+	);
+
+	let filteredInstitutions = $derived.by(() => {
+		if (!searchQuery.trim()) return institutions;
+		const q = searchQuery.toLowerCase();
+		return institutions.filter((inst) => inst.name.toLowerCase().includes(q));
+	});
+
+	let selectedInstitution = $derived(selectedName ? institutionMap.get(selectedName) || null : null);
+
+	// Collection items for selected institution
+	let institutionCollectionItems = $derived.by((): CollectionItem[] => {
+		if (!selectedInstitution) return [];
+		const projectIds = new Set(selectedInstitution.projects.map((p) => p.id));
+		return $allCollections.filter((item) => projectIds.has(item.project?.id || ''));
+	});
+
+	const collectionPerPage = 10;
+	let collectionPage = $state(0);
+	let paginatedCollectionItems = $derived(
+		institutionCollectionItems.slice(collectionPage * collectionPerPage, (collectionPage + 1) * collectionPerPage)
+	);
+
+	$effect(() => {
+		selectedName;
+		collectionPage = 0;
+	});
+
+	function selectInstitution(name: string) {
+		selectedName = name;
+		const url = new URL(window.location.href);
+		url.searchParams.set('name', name);
+		history.pushState({}, '', url.toString());
+	}
+
+	function clearSelection() {
+		selectedName = '';
+		const url = new URL(window.location.href);
+		url.searchParams.delete('name');
+		history.pushState({}, '', url.toString());
+	}
+
+	function getItemTitle(item: CollectionItem): string {
+		return item.titleInfo?.[0]?.title || 'Untitled';
+	}
+
+	function getProjectTitle(project: Project): string {
+		return project.name || project.idShort || 'Untitled';
+	}
+
+	function formatDate(date: Date | null): string {
+		if (!date) return '';
+		const d = new Date(date);
+		if (isNaN(d.getTime())) return '';
+		return d.toLocaleDateString('en-US', { month: '2-digit', day: '2-digit', year: 'numeric' });
+	}
+</script>
+
+<div class="space-y-8 animate-slide-in-up">
+	<div>
+		<h1 class="page-title">Institutions</h1>
+		<p class="page-subtitle">Browse partner institutions and their associated projects, researchers, and collection items</p>
+	</div>
+
+	<div class="grid gap-4 sm:grid-cols-3">
+		<StatCard label="Institutions" value={institutions.length} icon={Building2} />
+		<StatCard label="Total Projects" value={$projects.length} icon={Briefcase} />
+		<StatCard label="Total People" value={new Set(institutions.flatMap((i) => [...i.people])).size} icon={Users} />
+	</div>
+
+	<div class="grid gap-6 lg:grid-cols-3">
+		<!-- Institution List -->
+		<Card class="lg:col-span-1 lg:sticky lg:top-20 lg:self-start overflow-hidden">
+			{#snippet children()}
+				<CardHeader>
+					{#snippet children()}
+						<CardTitle>
+							{#snippet children()}
+								{#if selectedName}
+									<button onclick={clearSelection} class="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors mb-2">
+										<ArrowLeft class="h-4 w-4" />
+										Back to list
+									</button>
+								{/if}
+								<span class="flex items-center justify-between">
+									Institutions
+									<Badge variant="secondary">
+										{#snippet children()}{filteredInstitutions.length}{/snippet}
+									</Badge>
+								</span>
+							{/snippet}
+						</CardTitle>
+					{/snippet}
+				</CardHeader>
+				<CardContent>
+					{#snippet children()}
+						<div class="space-y-3">
+							<Input placeholder="Search institutions..." bind:value={searchQuery} />
+							<div class="space-y-0.5">
+								{#each filteredInstitutions as inst}
+									{@const isSelected = selectedName === inst.name}
+									<button
+										onclick={() => selectInstitution(inst.name)}
+										class="w-full text-left px-3 py-2 text-sm rounded-lg hover:bg-muted transition-colors {isSelected ? 'bg-primary/10 text-primary font-medium' : ''}"
+									>
+										<span class="break-words">{inst.name}</span>
+										<span class="flex items-center gap-2 mt-0.5">
+											<span class="text-xs text-muted-foreground">{inst.projects.length} project{inst.projects.length !== 1 ? 's' : ''}</span>
+											<span class="text-xs text-muted-foreground">· {inst.people.size} people</span>
+										</span>
+									</button>
+								{/each}
+							</div>
+						</div>
+					{/snippet}
+				</CardContent>
+			{/snippet}
+		</Card>
+
+		<!-- Institution Detail -->
+		<div class="lg:col-span-2 space-y-6">
+			{#if selectedInstitution}
+				<!-- Header -->
+				<Card class="overflow-hidden">
+					{#snippet children()}
+						<CardHeader>
+							{#snippet children()}
+								<div class="min-w-0">
+									<CardTitle class="break-words">
+										{#snippet children()}{selectedInstitution.name}{/snippet}
+									</CardTitle>
+									<div class="flex flex-wrap gap-2 mt-3">
+										<Badge variant="secondary">
+											{#snippet children()}{selectedInstitution.projects.length} project{selectedInstitution.projects.length !== 1 ? 's' : ''}{/snippet}
+										</Badge>
+										<Badge variant="secondary">
+											{#snippet children()}{selectedInstitution.people.size} people{/snippet}
+										</Badge>
+										{#if selectedInstitution.collectionItemCount > 0}
+											<Badge variant="outline">
+												{#snippet children()}{selectedInstitution.collectionItemCount} collection item{selectedInstitution.collectionItemCount !== 1 ? 's' : ''}{/snippet}
+											</Badge>
+										{/if}
+									</div>
+								</div>
+							{/snippet}
+						</CardHeader>
+					{/snippet}
+				</Card>
+
+				<!-- Projects -->
+				{#if selectedInstitution.projects.length > 0}
+					<Card class="overflow-hidden">
+						{#snippet children()}
+							<CardHeader>
+								{#snippet children()}
+									<CardTitle class="text-lg">
+										{#snippet children()}
+											<span class="flex items-center gap-2">
+												<Briefcase class="h-5 w-5 text-primary" />
+												Projects
+											</span>
+										{/snippet}
+									</CardTitle>
+								{/snippet}
+							</CardHeader>
+							<CardContent>
+								{#snippet children()}
+									<ul class="space-y-3">
+										{#each selectedInstitution.projects as project}
+											<li class="p-3 rounded-lg bg-muted/30">
+												<a
+													href={projectUrl(project.id)}
+													class="text-sm font-medium text-foreground hover:text-primary transition-colors break-words"
+												>
+													{getProjectTitle(project)}
+												</a>
+												<div class="flex flex-wrap items-center gap-2 mt-1">
+													{#if project.idShort}
+														<span class="text-xs text-muted-foreground font-mono">{project.id}</span>
+													{/if}
+													{#if project.date?.start || project.date?.end}
+														<span class="text-xs text-muted-foreground">
+															{formatDate(project.date.start)}{project.date.end ? ` – ${formatDate(project.date.end)}` : ''}
+														</span>
+													{/if}
+												</div>
+												{#if project.researchSection?.length}
+													<div class="flex flex-wrap gap-1 mt-1.5">
+														{#each project.researchSection as section}
+															<a href={researchSectionsUrl(section)} class="hover:opacity-80 transition-opacity">
+																<Badge variant="outline" class="text-[10px] hover:bg-primary/10 transition-colors">
+																	{#snippet children()}{section}{/snippet}
+																</Badge>
+															</a>
+														{/each}
+													</div>
+												{/if}
+												{#if project.pi?.length}
+													<p class="text-xs text-muted-foreground mt-1.5">
+														PI: {#each project.pi as pi, i}{#if i > 0}, {/if}<a href={personUrl(pi)} class="hover:text-primary transition-colors">{pi}</a>{/each}
+													</p>
+												{/if}
+											</li>
+										{/each}
+									</ul>
+								{/snippet}
+							</CardContent>
+						{/snippet}
+					</Card>
+				{/if}
+
+				<!-- People -->
+				{#if selectedInstitution.people.size > 0}
+					<Card class="overflow-hidden">
+						{#snippet children()}
+							<CardHeader>
+								{#snippet children()}
+									<CardTitle class="text-lg">
+										{#snippet children()}
+											<span class="flex items-center gap-2">
+												<Users class="h-5 w-5 text-muted-foreground" />
+												People
+												<Badge variant="secondary">
+													{#snippet children()}{selectedInstitution.people.size}{/snippet}
+												</Badge>
+											</span>
+										{/snippet}
+									</CardTitle>
+								{/snippet}
+							</CardHeader>
+							<CardContent>
+								{#snippet children()}
+									<div class="flex flex-wrap gap-2">
+										{#each [...selectedInstitution.people].sort() as person}
+											<a
+												href={personUrl(person)}
+												class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-muted/50 text-sm text-foreground hover:text-primary hover:bg-muted transition-colors"
+											>
+												{person}
+											</a>
+										{/each}
+									</div>
+								{/snippet}
+							</CardContent>
+						{/snippet}
+					</Card>
+				{/if}
+
+				<!-- Collection Items -->
+				{#if institutionCollectionItems.length > 0}
+					<Card class="overflow-hidden">
+						{#snippet children()}
+							<CardHeader>
+								{#snippet children()}
+									<CardTitle class="text-lg">
+										{#snippet children()}
+											<span class="flex items-center gap-2">
+												<FileText class="h-5 w-5 text-muted-foreground" />
+												Collection Items
+												<Badge variant="secondary">
+													{#snippet children()}{institutionCollectionItems.length}{/snippet}
+												</Badge>
+											</span>
+										{/snippet}
+									</CardTitle>
+								{/snippet}
+							</CardHeader>
+							<CardContent>
+								{#snippet children()}
+									<ul class="space-y-2">
+										{#each paginatedCollectionItems as item}
+											<li class="flex items-start gap-3 p-3 rounded-lg bg-muted/30">
+												<FileText class="h-4 w-4 mt-0.5 text-muted-foreground shrink-0" />
+												<div class="min-w-0">
+													<a
+														href={researchItemUrl(item._id || item.dre_id)}
+														class="text-sm font-medium text-foreground hover:text-primary transition-colors break-words"
+													>
+														{getItemTitle(item)}
+													</a>
+													{#if item.typeOfResource}
+														<span class="text-xs text-muted-foreground block mt-0.5">{item.typeOfResource}</span>
+													{/if}
+												</div>
+											</li>
+										{/each}
+									</ul>
+									<Pagination
+										currentPage={collectionPage}
+										totalItems={institutionCollectionItems.length}
+										itemsPerPage={collectionPerPage}
+										onPageChange={(p) => collectionPage = p}
+									/>
+								{/snippet}
+							</CardContent>
+						{/snippet}
+					</Card>
+				{/if}
+
+			{:else}
+				<Card class="overflow-hidden">
+					{#snippet children()}
+						<CardContent>
+							{#snippet children()}
+								<div class="flex flex-col items-center justify-center py-16 text-center">
+									<Building2 class="h-12 w-12 text-muted-foreground/50 mb-4" />
+									<p class="text-lg font-medium text-muted-foreground">Select an institution</p>
+									<p class="text-sm text-muted-foreground/70 mt-1">
+										Choose an institution from the list to view its projects, people, and collection items
+									</p>
+								</div>
+							{/snippet}
+						</CardContent>
+					{/snippet}
+				</Card>
+			{/if}
+		</div>
+	</div>
+</div>

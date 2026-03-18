@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { base } from '$app/paths';
+	import { researchItemUrl } from '$lib/utils/urls';
 	import { StatCard, ChartCard, EmptyState, Badge, Select } from '$lib/components/ui';
 	import { StackedTimeline, BarChart, PieChart, WordCloud, LocationMap, SankeyChart, SunburstChart, ChordDiagram } from '$lib/components/charts';
 	import { allCollections } from '$lib/stores/data';
@@ -250,7 +251,7 @@
 	<ChartCard title="Recent Items" contentHeight="">
 		<div class="space-y-4">
 			{#each currentCollection.slice(0, 10) as item}
-				<div class="flex items-start gap-4 p-3 rounded-lg border bg-card hover:bg-accent/50 transition-colors">
+				<a href={researchItemUrl(item._id || item.dre_id)} class="flex items-start gap-4 p-3 rounded-lg border bg-card hover:bg-accent/50 transition-colors">
 					<div class="flex-1 min-w-0">
 						<h4 class="font-medium truncate">
 							{item.titleInfo?.[0]?.title || 'Untitled'}
@@ -265,7 +266,7 @@
 							{/each}
 						</div>
 					</div>
-				</div>
+				</a>
 			{/each}
 		</div>
 	</ChartCard>

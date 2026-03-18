@@ -8,7 +8,7 @@
 		extractInstitutions
 	} from '$lib/utils/dataTransform';
 	import { page } from '$app/stores';
-	import { personUrl, researchSectionsUrl, researchItemUrl } from '$lib/utils/urls';
+	import { personUrl, researchSectionsUrl, researchItemUrl, institutionUrl } from '$lib/utils/urls';
 	import type { Project, CollectionItem } from '$lib/types';
 	import { X, Briefcase, BookOpen, Building2, Calendar, Layers, Users, FileText, MapPin, ArrowLeft } from '@lucide/svelte';
 
@@ -194,7 +194,7 @@
 								</div>
 								<div class="flex flex-wrap gap-2 mt-3">
 									{#each selectedProject.researchSection || [] as section}
-										<a href={researchSectionsUrl()}>
+										<a href={researchSectionsUrl(section)}>
 											<Badge variant="secondary" class="hover:bg-primary/20 transition-colors">
 												{#snippet children()}{section}{/snippet}
 											</Badge>
@@ -331,9 +331,11 @@
 							{#snippet children()}
 								<div class="flex flex-wrap gap-2">
 									{#each selectedProject.institutions as institution}
-										<Badge variant="outline">
-											{#snippet children()}{institution}{/snippet}
-										</Badge>
+										<a href={institutionUrl(institution)} class="hover:opacity-80 transition-opacity">
+											<Badge variant="outline" class="hover:bg-primary/10 transition-colors">
+												{#snippet children()}{institution}{/snippet}
+											</Badge>
+										</a>
 									{/each}
 								</div>
 							{/snippet}
@@ -570,7 +572,7 @@
 												</p>
 												<div class="flex flex-wrap gap-2 mt-2">
 													{#each project.researchSection || [] as section}
-														<a href={researchSectionsUrl()} class="hover:opacity-80 transition-opacity">
+														<a href={researchSectionsUrl(section)} class="hover:opacity-80 transition-opacity">
 															<Badge variant="secondary">{section}</Badge>
 														</a>
 													{/each}
