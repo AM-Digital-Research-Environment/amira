@@ -5,7 +5,7 @@
 	import { extractResearchSections } from '$lib/utils/dataTransform';
 	import { base } from '$app/paths';
 	import type { Project } from '$lib/types';
-	import { BookOpen, Briefcase, Layers, ExternalLink, ChevronDown, ChevronUp } from '@lucide/svelte';
+	import { BookOpen, Briefcase, Layers, ExternalLink, ChevronDown, ChevronUp, Users } from '@lucide/svelte';
 
 	// Group projects by research section
 	let projectsBySection = $derived.by(() => {
@@ -35,6 +35,7 @@
 				description: $researchSections[name]?.description || '',
 				objectives: $researchSections[name]?.objectives || '',
 				workProgramme: $researchSections[name]?.workProgramme || '',
+				principalInvestigators: $researchSections[name]?.principalInvestigators || [],
 				projects: projectsBySection.get(name) || []
 			}));
 	});
@@ -135,6 +136,19 @@
 									</div>
 								{:else}
 									<p class="text-sm text-muted-foreground italic">No description available yet.</p>
+								{/if}
+
+								<!-- Principal Investigators -->
+								{#if section.principalInvestigators.length > 0}
+									<div class="flex items-start gap-3 rounded-lg bg-muted/50 p-3">
+										<Users class="h-4 w-4 text-primary mt-0.5 shrink-0" />
+										<div>
+											<p class="text-xs font-medium text-muted-foreground mb-1.5">Principal Investigators</p>
+											<p class="text-sm text-foreground">
+												{section.principalInvestigators.join(' · ')}
+											</p>
+										</div>
+									</div>
 								{/if}
 
 								<!-- Objectives (expandable) -->
