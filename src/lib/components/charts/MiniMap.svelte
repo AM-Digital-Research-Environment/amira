@@ -79,6 +79,11 @@
 			const bounds = new maplibregl.LngLatBounds();
 			markers.forEach((m) => bounds.extend([m.longitude, m.latitude]));
 			map.fitBounds(bounds, { padding: 40, maxZoom: 8 });
+		} else if (markers.length === 1) {
+			map.flyTo({
+				center: [markers[0].longitude, markers[0].latitude],
+				zoom: zoom ?? 5
+			});
 		}
 	}
 
