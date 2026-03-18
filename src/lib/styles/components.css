@@ -1,0 +1,247 @@
+/* =============================================================================
+   CUSTOM SCROLLBAR STYLES
+   ============================================================================= */
+
+@layer components {
+	::-webkit-scrollbar {
+		width: 10px;
+		height: 10px;
+	}
+
+	::-webkit-scrollbar-track {
+		background: hsl(var(--color-neutral-100));
+		border-radius: 6px;
+	}
+
+	::-webkit-scrollbar-thumb {
+		background: hsl(var(--color-neutral-300));
+		border-radius: 6px;
+		border: 2px solid hsl(var(--color-neutral-100));
+		transition: background var(--duration-fast);
+	}
+
+	::-webkit-scrollbar-thumb:hover {
+		background: hsl(var(--color-neutral-400));
+	}
+
+	.dark ::-webkit-scrollbar-track {
+		background: hsl(var(--color-neutral-900));
+	}
+
+	.dark ::-webkit-scrollbar-thumb {
+		background: hsl(var(--color-neutral-700));
+		border-color: hsl(var(--color-neutral-900));
+	}
+
+	.dark ::-webkit-scrollbar-thumb:hover {
+		background: hsl(var(--color-neutral-600));
+	}
+}
+
+/* =============================================================================
+   ENHANCED CARD STYLES
+   ============================================================================= */
+
+@layer components {
+	/* Base card with subtle shine effect */
+	.card-elevated {
+		position: relative;
+		background: hsl(var(--card));
+		border-radius: var(--radius-xl);
+		box-shadow: var(--shadow-elevated);
+		overflow: hidden;
+	}
+
+	.card-elevated::before {
+		content: '';
+		position: absolute;
+		inset: 0;
+		background: var(--gradient-card-shine);
+		pointer-events: none;
+		border-radius: inherit;
+	}
+
+	/* Card with decorative top border */
+	.card-accent {
+		position: relative;
+	}
+
+	.card-accent::after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: 3px;
+		background: var(--gradient-primary);
+		border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+	}
+
+	/* Interactive card hover state */
+	.card-interactive {
+		transition:
+			transform var(--duration-normal) var(--ease-expo-out),
+			box-shadow var(--duration-normal) var(--ease-expo-out);
+	}
+
+	.card-interactive:hover {
+		transform: translateY(-2px);
+		box-shadow: var(--shadow-xl);
+	}
+}
+
+/* =============================================================================
+   HEADER STYLES
+   ============================================================================= */
+
+@layer components {
+	.header {
+		position: sticky;
+		top: 0;
+		z-index: var(--z-sticky);
+		height: var(--layout-header-height);
+		display: flex;
+		align-items: center;
+		padding: 0 var(--space-6);
+		background: hsl(var(--background) / 0.85);
+		backdrop-filter: blur(12px) saturate(180%);
+		border-bottom: var(--border-subtle);
+	}
+
+	.header-title {
+		font-family: var(--font-display);
+		font-size: var(--font-size-xl);
+		font-weight: 600;
+		color: hsl(var(--foreground));
+		letter-spacing: -0.02em;
+	}
+}
+
+/* =============================================================================
+   BUTTON ENHANCEMENTS
+   ============================================================================= */
+
+@layer components {
+	.btn-primary {
+		background: var(--gradient-primary);
+		color: hsl(var(--primary-foreground));
+		font-weight: 600;
+		box-shadow: var(--shadow-sm), var(--shadow-primary);
+		transition:
+			transform var(--duration-fast) var(--ease-expo-out),
+			box-shadow var(--duration-fast);
+	}
+
+	.btn-primary:hover {
+		transform: translateY(-1px);
+		box-shadow: var(--shadow-md), var(--shadow-primary);
+	}
+
+	.btn-primary:active {
+		transform: translateY(0);
+	}
+
+	.btn-ghost {
+		position: relative;
+		overflow: hidden;
+	}
+
+	.btn-ghost::before {
+		content: '';
+		position: absolute;
+		inset: 0;
+		background: hsl(var(--foreground) / 0);
+		transition: background var(--duration-fast);
+		border-radius: inherit;
+	}
+
+	.btn-ghost:hover::before {
+		background: hsl(var(--foreground) / 0.06);
+	}
+}
+
+/* =============================================================================
+   STAT CARD STYLES
+   ============================================================================= */
+
+@layer components {
+	.stat-card {
+		position: relative;
+		padding: var(--space-5) var(--space-6);
+		background: hsl(var(--card));
+		border-radius: var(--radius-xl);
+		border: var(--border-subtle);
+		box-shadow: var(--shadow-sm);
+		overflow: hidden;
+		transition: box-shadow var(--duration-normal) var(--ease-expo-out);
+	}
+
+	.stat-card:hover {
+		box-shadow: var(--shadow-md);
+	}
+
+	/* Decorative corner accent */
+	.stat-card::after {
+		content: '';
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 80px;
+		height: 80px;
+		background: radial-gradient(circle at top right, hsl(var(--color-primary-100) / 0.5), transparent 70%);
+		pointer-events: none;
+	}
+
+	.dark .stat-card::after {
+		background: radial-gradient(circle at top right, hsl(var(--color-primary-900) / 0.3), transparent 70%);
+	}
+
+	.stat-value {
+		font-family: var(--font-display);
+		font-size: var(--font-size-3xl);
+		font-weight: 700;
+		color: hsl(var(--foreground));
+		letter-spacing: -0.02em;
+	}
+
+	.stat-label {
+		font-size: var(--font-size-sm);
+		font-weight: 500;
+		color: hsl(var(--muted-foreground));
+		margin-top: var(--space-1);
+	}
+}
+
+/* =============================================================================
+   CHART CARD STYLES
+   ============================================================================= */
+
+@layer components {
+	.chart-card {
+		background: hsl(var(--card));
+		border-radius: var(--radius-xl);
+		border: var(--border-subtle);
+		box-shadow: var(--shadow-sm);
+		overflow: hidden;
+	}
+
+	.chart-card-header {
+		padding: var(--space-5) var(--space-6);
+		border-bottom: var(--border-subtle);
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.chart-card-title {
+		font-family: var(--font-display);
+		font-size: var(--font-size-lg);
+		font-weight: 600;
+		color: hsl(var(--foreground));
+		letter-spacing: -0.01em;
+	}
+
+	.chart-card-content {
+		padding: var(--space-4) var(--space-6) var(--space-6);
+	}
+}

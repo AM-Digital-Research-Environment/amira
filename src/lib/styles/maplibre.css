@@ -1,0 +1,72 @@
+/* =============================================================================
+   MAPLIBRE GL CUSTOM STYLES
+   ============================================================================= */
+
+@layer components {
+	.maplibregl-popup {
+		z-index: var(--z-popover) !important;
+	}
+
+	.maplibregl-popup-content {
+		background: hsl(var(--popover)) !important;
+		color: hsl(var(--popover-foreground)) !important;
+		border: var(--border-decorative) !important;
+		border-radius: var(--radius-xl) !important;
+		box-shadow: var(--shadow-elevated) !important;
+		padding: var(--space-4) var(--space-5) !important;
+	}
+
+	.maplibregl-popup-anchor-top .maplibregl-popup-tip,
+	.maplibregl-popup-anchor-top-left .maplibregl-popup-tip,
+	.maplibregl-popup-anchor-top-right .maplibregl-popup-tip {
+		border-bottom-color: hsl(var(--popover)) !important;
+	}
+
+	.maplibregl-popup-anchor-bottom .maplibregl-popup-tip,
+	.maplibregl-popup-anchor-bottom-left .maplibregl-popup-tip,
+	.maplibregl-popup-anchor-bottom-right .maplibregl-popup-tip {
+		border-top-color: hsl(var(--popover)) !important;
+	}
+
+	.maplibregl-popup-anchor-left .maplibregl-popup-tip {
+		border-right-color: hsl(var(--popover)) !important;
+	}
+
+	.maplibregl-popup-anchor-right .maplibregl-popup-tip {
+		border-left-color: hsl(var(--popover)) !important;
+	}
+
+	.maplibregl-popup-close-button {
+		color: hsl(var(--muted-foreground)) !important;
+		font-size: var(--font-size-lg) !important;
+		padding: var(--space-2) !important;
+		border-radius: var(--radius-md) !important;
+		transition: all var(--duration-fast);
+	}
+
+	.maplibregl-popup-close-button:hover {
+		color: hsl(var(--foreground)) !important;
+		background: hsl(var(--muted)) !important;
+	}
+
+	.maplibregl-ctrl-group {
+		background: hsl(var(--card)) !important;
+		border: var(--border-decorative) !important;
+		border-radius: var(--radius-lg) !important;
+		box-shadow: var(--shadow-md) !important;
+		overflow: hidden;
+	}
+
+	.maplibregl-ctrl-group button {
+		color: hsl(var(--foreground)) !important;
+		border-bottom: var(--border-subtle) !important;
+	}
+
+	.maplibregl-ctrl-group button:last-child {
+		border-bottom: none !important;
+	}
+
+	.maplibregl-ctrl-group button:hover {
+		background: hsl(var(--muted)) !important;
+	}
+}

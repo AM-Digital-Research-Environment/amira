@@ -1,0 +1,72 @@
+import type { CollectionItem } from '$lib/types';
+import { personUrl, institutionUrl } from '$lib/utils/urls';
+
+export interface Contributor {
+	name: string;
+	role: string;
+	qualifier: string;
+}
+
+export function getContributors(item: CollectionItem): Contributor[] {
+	if (!Array.isArray(item.name)) return [];
+	return item.name
+		.filter((n) => n?.name?.label)
+		.map((n) => ({ name: n.name.label, role: n.role || '', qualifier: n.name.qualifier || 'person' }));
+}
+
+export function contributorUrl(contributor: { name: string; qualifier: string }): string {
+	if (contributor.qualifier === 'institution' || contributor.qualifier === 'group') {
+		return institutionUrl(contributor.name);
+	}
+	return personUrl(contributor.name);
+}
+
+export function getSubjects(item: CollectionItem): string[] {
+	if (!Array.isArray(item.subject)) return [];
+	return item.subject.map((s) => s.authLabel || s.origLabel).filter(Boolean);
+}
+
+export function getLanguages(item: CollectionItem): string[] {
+	if (!Array.isArray(item.language)) return [];
+	return item.language;
+}
+
+export function getAbstract(item: CollectionItem): string {
+	if (!item.abstract || typeof item.abstract !== 'string') return '';
+	return item.abstract;
+}
+
+export function getIdentifiers(item: CollectionItem): { type: string; value: string }[] {
+	if (!Array.isArray(item.identifier)) return [];
+	return item.identifier
+		.filter((id) => id?.identifier && id?.identifier_type)
+		.map((id) => ({ type: id.identifier_type, value: id.identifier }));
+}
+
+export function getOrigins(item: CollectionItem): { city?: string; region?: string; country?: string }[] {
+	if (!item.location?.origin) return [];
+	return item.location.origin.map((o) => ({ city: o.l3 || undefined, region: o.l2 || undefined, country: o.l1 || undefined }));
+}
+
+export function getTags(item: CollectionItem): string[] {
+	if (!Array.isArray(item.tags)) return [];
+	return item.tags.filter(Boolean);
+}
+
+export function formatDateInfo(item: CollectionItem): string {
+	if (!item.dateInfo) return '';
+	const issue = item.dateInfo.issue;
+	const creation = item.dateInfo.creation;
+	const d = issue || creation;
+	if (!d) return '';
+	const fmt = (date: Date | null | undefined): string => {
+		if (!date) return '';
+		const parsed = new Date(date);
+		if (isNaN(parsed.getTime())) return '';
+		return parsed.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+	};
+	const start = fmt(d.start);
+	const end = fmt(d.end);
+	if (start && end) return `${start} – ${end}`;
+	return start || end;
+}
