@@ -43,8 +43,10 @@ All entities are deeply cross-linked throughout the dashboard:
 - **Charts**: ECharts 6 + echarts-wordcloud
 - **Maps**: MapLibre GL (LocationMap for multi-marker views, MiniMap for single locations)
 - **Styling**: Tailwind CSS 4 (via `@tailwindcss/vite`) with HSL CSS variable theming and dark mode
-- **UI Components**: Custom shadcn-svelte style components (Card, Badge, Pagination, StatCard, ChartCard, etc.)
+- **UI Components**: Custom shadcn-svelte style components (Card, Badge, Pagination, StatCard, ChartCard, CollectionItemRow, BackToList, etc.)
 - **Icons**: Lucide Svelte
+- **Linting**: ESLint with typescript-eslint + eslint-plugin-svelte
+- **Formatting**: Prettier with prettier-plugin-svelte
 - **Deployment**: GitHub Pages with static adapter
 
 ## Development
@@ -64,6 +66,12 @@ npm run preview
 
 # Type check
 npm run check
+
+# Lint
+npm run lint
+
+# Format
+npm run format
 ```
 
 ## Project Structure
@@ -78,7 +86,15 @@ src/
 │   ├── stores/          # Svelte stores (data, filters, theme)
 │   ├── styles/          # Design tokens (CSS variables + TypeScript exports)
 │   ├── types/           # TypeScript interfaces
-│   └── utils/           # Data loading, transformation, URL helpers, language mapping
+│   └── utils/           # Shared utilities
+│       ├── transforms/  # Data transformation (dates, grouping, extractors, network, filters)
+│       ├── dataLoader.ts    # JSON data loading from static files
+│       ├── helpers.ts       # Display helpers (formatDate, getItemTitle, getProjectTitle)
+│       ├── urlSelection.ts  # URL param sync for selection state
+│       ├── search.ts        # Generic text search filter
+│       ├── pagination.ts    # Generic pagination helpers
+│       ├── urls.ts          # Cross-linking URL builders
+│       └── languages.ts     # ISO 639-2 language name mapping
 ├── routes/
 │   ├── +page.svelte           # Overview dashboard
 │   ├── research-sections/     # Research sections with descriptions, PIs, members
