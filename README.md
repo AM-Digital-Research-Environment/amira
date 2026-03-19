@@ -1,53 +1,88 @@
 # WissKI Dashboard
 
-Interactive visualization dashboard for WissKI/MongoDB research data from the Africa Multiple Cluster of Excellence, built with SvelteKit 5, ECharts, and Tailwind CSS.
+Interactive visualization dashboard for WissKI/MongoDB research data from the [Africa Multiple Cluster of Excellence](https://www.africamultiple.uni-bayreuth.de/), built with SvelteKit 5, ECharts 6, and Tailwind CSS 4.
 
 ## Features
 
 ### Browse
 
-- **Research Sections**: Browse the six thematic research areas (Affiliations, Arts & Aesthetics, Knowledges, Learning, Mobilities, Moralities) with descriptions, objectives, work programmes, PIs, and members. Section cards have anchor links for direct navigation.
-- **Projects**: Browse 92 research projects with faceted filtering by research section and institution. Click into project detail views with description, PIs (linked), members (linked), institutions (linked), and paginated collection items.
-- **Research Items**: Browse 2200+ collection items with text search, resource type filter, and collapsible subject (LCSH) and tag facets. Detail view shows title, abstract, contributors (person/institution/group), subjects, tags, origin locations with map, dates, language, identifiers, and project.
-- **People**: Searchable directory of researchers, PIs, and collection item contributors. Profile view shows research sections, projects (as PI/member), and paginated collection items.
-- **Institutions**: Partner institutions (with projects, people, collection items) separated from contributor organizations (institutions/groups appearing on collection items).
-- **Locations**: Browse by country, region, or city with item counts. Detail view includes an interactive map (with fallback to country coordinates) and paginated items.
-- **Languages**: Browse items by language. ISO 639-2 codes are displayed as full English names throughout the dashboard.
-- **Subjects & Tags**: Combined page with toggle between LCSH controlled subjects and free-form tags. Interactive word cloud (top 100 terms) — click a word to view its items. Searchable list with counts.
-- **Resource Types**: Browse items by resource type (Audio, Text, Image, Manuscript, etc.) with interactive pie and bar charts — click a segment or bar to view items. Shows percentage distribution.
+- **Research Sections**: Browse the six thematic research areas (Affiliations, Arts & Aesthetics, Knowledges, Learning, Mobilities, Moralities) with descriptions, objectives, work programmes, PIs, and members. Section detail view includes a Gantt chart showing project timelines within that section.
+- **Projects**: Browse research projects with faceted filtering by research section and institution. Detail views show description, PIs (linked), members (linked), institutions (linked), and paginated research items. Overview includes a Gantt timeline, beeswarm chart (projects by section and year, sized by item count), and bar charts for research sections and institutions.
+- **Research Items**: Browse 2,200+ research items with full-text search, resource type filter, and collapsible facets for subjects (LCSH), tags, countries, projects, and languages. Table view with sortable columns. Detail view shows title, abstract, contributors (person/institution/group with roles), subjects, tags, origin locations with interactive map, dates, language, identifiers, project, and per-item knowledge graph with fullscreen mode.
+- **People**: Searchable directory of researchers, PIs, and research item contributors with affiliations. Profile view shows research sections, projects (as PI or member), and paginated research items.
+- **Institutions**: Partner institutions (from projects) and contributor organizations (institutions/groups appearing on research items). Shows associated projects, people, and item counts.
+- **Locations**: Browse by country, region, or city with item counts. Detail view includes an interactive map (with fallback to country-level coordinates) and paginated items.
+- **Languages**: Browse items by language. ISO 639-2/3 codes are displayed as full English names throughout the dashboard.
+- **Subjects & Tags**: Toggle between LCSH controlled vocabulary subjects and free-form tags. Interactive word cloud (adjustable size, up to 200 terms) — click a word to view its items. Searchable list with counts and pagination.
+- **Resource Types**: Browse items by resource type (text, sound recording, still image, moving image, cartographic, mixed material, etc.) with interactive pie and bar charts — click to filter. Shows percentage distribution.
+- **Genres**: Browse items by MARC genre classification with word cloud visualization and item counts.
 
 ### Visualize
 
-- **Overview**: Summary stat cards, timeline, resource distribution, word clouds, and filterable panels (by resource type, language, university).
-- **Collections**: Explore collections across four partner universities with geographic map (clickable item popups), stacked timeline, bar/pie charts, word clouds, Sankey diagrams, sunburst charts, and chord diagrams.
-- **Compare**: Side-by-side comparison of different collections with overlap analysis.
-- **Network**: Interactive force-directed graphs showing contributor-project relationships and institution collaborations.
+- **Overview Dashboard**: Summary stat cards (documents, projects, contributors, universities), university breakdown with logos, global filter panel (resource type, language, university), stacked timeline by type, resource type pie chart, subject bar chart, tag word cloud, research section distribution, and a Research Section × University heatmap matrix.
+- **Collections**: Explore collections across four partner universities with collection/project selector. Includes geographic map (clickable marker popups), stacked timeline, bar/pie charts, word cloud, Sankey flow diagram (contributor → project → resource type), sunburst hierarchy (resource type → language → subject), chord diagram (subject co-occurrence), and Resource Type × Language heatmap matrix.
+- **Compare**: Side-by-side comparison of two university/project selections with synchronized stacked timelines, subject distributions, resource type breakdowns, and language distributions.
+- **Network**: Three interactive force-directed graph tabs:
+  - **Contributors**: Person-to-project relationships from research items
+  - **Affiliations**: Person-to-institution relationships
+  - **Institution Collaborations**: Institution-to-institution connections via shared projects/people
+  - Filters: University, max nodes, resource type
 
-### Cross-linking
+### Cross-linking & WissKI Integration
 
 All entities are deeply cross-linked throughout the dashboard:
 - PI and member names link to People profiles
 - Project names link to project detail views
-- Collection item titles link to Research Items detail
-- Research section badges link with anchor scrolling to the relevant section card
+- Research item titles link to item detail with knowledge graph
+- Research section badges link to the relevant section detail
 - Institution badges link to Institutions page
 - Language badges link to Languages page
 - Location origins (city, region, country) link to Locations page
 - Resource type badges link to Resource Types page
-- Contributors are routed to People (persons) or Institutions (institutions/groups) based on their type
+- Subject and tag badges link to Subjects page
+- Contributors are routed to People (persons) or Institutions (institutions/groups) based on their qualifier
+
+**WissKI Navigate**: Optional deep-links to WissKI entities are displayed throughout the dashboard via pre-computed URL mappings, connecting dashboard items back to their source records in the WissKI knowledge base.
 
 ## Tech Stack
 
-- **Framework**: SvelteKit 5 with Svelte 5 runes
-- **Build**: Vite 8 with Rolldown
-- **Charts**: ECharts 6 + echarts-wordcloud
-- **Maps**: MapLibre GL (LocationMap for multi-marker views, MiniMap for single locations)
-- **Styling**: Tailwind CSS 4 (via `@tailwindcss/vite`) with HSL CSS variable theming and dark mode
-- **UI Components**: Custom shadcn-svelte style components (Card, Badge, Pagination, StatCard, ChartCard, CollectionItemRow, BackToList, etc.)
-- **Icons**: Lucide Svelte
-- **Linting**: ESLint with typescript-eslint + eslint-plugin-svelte
-- **Formatting**: Prettier with prettier-plugin-svelte
-- **Deployment**: GitHub Pages with static adapter
+- **Framework**: [SvelteKit](https://svelte.dev/docs/kit) 5 with [Svelte 5 runes](https://svelte.dev/docs/svelte/what-are-runes) (`$state`, `$derived`, `$effect`, `$props`)
+- **Build**: [Vite](https://vite.dev/) 8 with Rolldown
+- **Charts**: [ECharts](https://echarts.apache.org/) 6 (16 chart types) + [echarts-wordcloud](https://github.com/ecomfe/echarts-wordcloud)
+- **Maps**: [MapLibre GL](https://maplibre.org/) 5 (LocationMap for multi-marker views, MiniMap for single locations)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) 4 (via `@tailwindcss/vite`) with HSL CSS variable theming and dark mode
+- **UI Components**: Custom shadcn-svelte inspired components (Card, Badge, Pagination, StatCard, ChartCard, Tabs, Select, etc.)
+- **Icons**: [Lucide Svelte](https://lucide.dev/)
+- **Linting**: ESLint 10 with typescript-eslint + eslint-plugin-svelte
+- **Formatting**: Prettier 3 with prettier-plugin-svelte
+- **Deployment**: GitHub Pages via static adapter and GitHub Actions
+
+## Chart Components
+
+| Component | Type | Description |
+|---|---|---|
+| `Timeline` | Line | Simple count-by-year timeline |
+| `StackedTimeline` | Stacked bar | Items by year broken down by resource type |
+| `BarChart` | Bar | Horizontal/vertical bar with pagination for long lists |
+| `PieChart` | Pie/donut | Categorical distribution with click selection |
+| `WordCloud` | Word cloud | Animated tag/subject cloud with adjustable max words |
+| `HeatmapChart` | Heatmap | Matrix cross-tabulation with color intensity (ECharts 6) |
+| `BeeswarmChart` | Scatter/jitter | Beeswarm distribution using ECharts 6 axis jitter |
+| `GanttChart` | Custom bar range | Project timelines with start/end bars, category coloring |
+| `SankeyChart` | Sankey | Multi-level flow diagram (e.g. contributor → project → type) |
+| `SunburstChart` | Sunburst | Hierarchical drill-down visualization |
+| `ChordDiagram` | Chord | Co-occurrence relationships between categories |
+| `NetworkGraph` | Force graph | Force-directed network with nodes, edges, and categories |
+| `LocationMap` | Map | MapLibre GL multi-marker map with clustered popups |
+| `MiniMap` | Map | Lightweight single-location map with marker |
+| `EntityKnowledgeGraph` | Force graph | Per-item knowledge graph with fullscreen mode |
+| `EChart` | Base wrapper | Shared ECharts wrapper with theme, zoom, resize, and performance optimization |
+
+All chart components use the shared `EChart` base wrapper which provides:
+- Dynamic theme switching via ECharts 6 `setTheme()` API
+- Automatic performance optimization for large datasets
+- Zoom controls and resize handling
+- Dark/light mode reactivity
 
 ## Development
 
@@ -80,72 +115,130 @@ npm run format
 src/
 ├── lib/
 │   ├── components/
-│   │   ├── ui/          # Reusable UI (Card, Badge, Pagination, StatCard, etc.)
-│   │   ├── charts/      # ECharts wrappers (Bar, Pie, Timeline, Network, WordCloud, MiniMap, etc.)
-│   │   └── layout/      # Sidebar (grouped nav), Header, FilterPanel
-│   ├── stores/          # Svelte stores (data, filters, theme)
-│   ├── styles/          # Design tokens (CSS variables + TypeScript exports)
-│   ├── types/           # TypeScript interfaces
-│   └── utils/           # Shared utilities
-│       ├── transforms/  # Data transformation (dates, grouping, extractors, network, filters)
-│       ├── dataLoader.ts    # JSON data loading from static files
+│   │   ├── ui/              # Reusable UI components
+│   │   │   ├── card.svelte, card-header.svelte, card-title.svelte, card-content.svelte
+│   │   │   ├── badge.svelte, button.svelte, input.svelte, select.svelte
+│   │   │   ├── pagination.svelte, tabs.svelte
+│   │   │   ├── stat-card.svelte, chart-card.svelte
+│   │   │   ├── collection-item-row.svelte, back-to-list.svelte, empty-state.svelte
+│   │   │   └── wisski-link.svelte
+│   │   ├── charts/          # ECharts + MapLibre chart components (16 total)
+│   │   │   ├── EChart.svelte          # Base wrapper (theme, zoom, perf)
+│   │   │   ├── Timeline.svelte, StackedTimeline.svelte
+│   │   │   ├── BarChart.svelte, PieChart.svelte, WordCloud.svelte
+│   │   │   ├── HeatmapChart.svelte, BeeswarmChart.svelte, GanttChart.svelte
+│   │   │   ├── SankeyChart.svelte, SunburstChart.svelte, ChordDiagram.svelte
+│   │   │   ├── NetworkGraph.svelte, EntityKnowledgeGraph.svelte
+│   │   │   ├── LocationMap.svelte, MiniMap.svelte
+│   │   │   └── utils/                 # Shared option builders & tooltip formatters
+│   │   ├── layout/          # Sidebar (grouped nav), Header, FilterPanel
+│   │   └── research-items/  # ItemDetail, ItemFilters, ItemTable
+│   ├── stores/
+│   │   ├── data.ts          # Raw data + derived stores (projects, persons, collections, etc.)
+│   │   └── filters.ts       # Global filter state management
+│   ├── styles/
+│   │   ├── tokens.css       # CSS custom properties (colors, spacing, typography)
+│   │   ├── tokens.ts        # TypeScript design tokens (CHART_COLORS, THEME_COLORS, etc.)
+│   │   ├── animations.css   # Slide-in, fade animations
+│   │   ├── components.css   # Component-specific Tailwind utilities
+│   │   ├── sidebar.css      # Sidebar navigation styles
+│   │   └── maplibre.css     # MapLibre GL custom styling
+│   ├── types/               # TypeScript interfaces
+│   │   ├── domain.ts        # Project, Person, Institution, Group
+│   │   ├── collection.ts    # CollectionItem with all metadata fields
+│   │   ├── charts.ts        # Chart data types (Heatmap, Beeswarm, Gantt, Network, etc.)
+│   │   ├── geo.ts           # Geolocation types (enriched locations, Wikidata)
+│   │   └── mongo.ts         # MongoDB-specific type helpers
+│   └── utils/
+│       ├── transforms/      # Data transformation modules
+│       │   ├── dates.ts         # Year extraction from various date formats
+│       │   ├── grouping.ts      # Group by year, year+type, project year
+│       │   ├── extractors.ts    # Extract subjects, types, languages, tags, locations, etc.
+│       │   ├── network.ts       # Build contributor, affiliation, collaboration networks
+│       │   ├── charts.ts        # Build heatmap, beeswarm, Gantt, Sankey, sunburst data
+│       │   └── filters.ts      # Collection filtering logic
+│       ├── loaders/         # Data loading modules
+│       │   ├── mongoJSON.ts     # Parse MongoDB JSON exports
+│       │   ├── collectionLoader.ts  # Load university collection metadata
+│       │   └── geolocLoader.ts  # Load enriched geolocation data
 │       ├── helpers.ts       # Display helpers (formatDate, getItemTitle, getProjectTitle)
-│       ├── urlSelection.ts  # URL param sync for selection state
-│       ├── search.ts        # Generic text search filter
-│       ├── pagination.ts    # Generic pagination helpers
-│       ├── urls.ts          # Cross-linking URL builders
-│       └── languages.ts     # ISO 639-2 language name mapping
+│       ├── languages.ts     # ISO 639-2/3 language code to English name mapping
+│       ├── urls.ts          # Cross-linking URL builders for all entity types
+│       ├── urlSelection.ts  # URL query parameter sync for selection state
+│       ├── search.ts        # Generic text search filter factory
+│       ├── pagination.ts    # Generic pagination utility
+│       ├── wisskiUrl.ts     # WissKI navigate URL lookup
+│       └── cn.ts            # Classname merging (clsx + tailwind-merge)
 ├── routes/
-│   ├── +page.svelte           # Overview dashboard
-│   ├── research-sections/     # Research sections with descriptions, PIs, members
-│   ├── projects/              # Projects explorer with facets and detail view
-│   ├── research-items/        # Collection items browser with subject/tag facets and map
-│   ├── people/                # People directory with profile detail
-│   ├── institutions/          # Partner institutions and contributor organizations
-│   ├── locations/             # Country/region/city browser with maps
-│   ├── languages/             # Language browser
-│   ├── subjects/              # Subjects & Tags with word cloud
-│   ├── resource-types/        # Resource type browser with pie/bar charts
-│   ├── collections/           # Collections browser with charts and maps
-│   ├── compare/               # Collection comparison view
-│   └── network/               # Network visualization
-└── app.css                    # Global styles and Tailwind v4 config
+│   ├── +page.svelte              # Overview dashboard
+│   ├── +layout.svelte            # Global layout (Header, Sidebar, data init)
+│   ├── research-sections/        # Research sections with Gantt timelines
+│   ├── projects/                 # Projects with facets, Gantt, beeswarm
+│   ├── research-items/           # Research items browser with facets, table, detail
+│   ├── people/                   # People directory with profiles
+│   ├── institutions/             # Institutions (partner + contributor)
+│   ├── locations/                # Country/region/city browser with maps
+│   ├── languages/                # Language browser
+│   ├── subjects/                 # Subjects & Tags with word cloud
+│   ├── resource-types/           # Resource type browser with pie/bar
+│   ├── genres/                   # Genre browser with word cloud
+│   ├── collections/              # Collection explorer with all chart types
+│   ├── compare/                  # Side-by-side collection comparison
+│   └── network/                  # Network visualization (3 tabs)
+└── app.css                       # Global styles and Tailwind v4 config
+
 static/
 └── data/
-    ├── dev/                   # MongoDB export data (projects, persons, institutions, geolocation)
-    ├── manual/                # Hand-curated data (research section descriptions, PIs, members)
-    ├── projects_metadata_ubt/ # University of Bayreuth collection metadata
-    ├── projects_metadata_unilag/ # University of Lagos collection metadata
-    ├── projects_metadata_ujkz/   # Université Joseph Ki-Zerbo collection metadata
-    └── projects_metadata_ufba/   # Federal University of Bahia collection metadata
+    ├── dev/                      # MongoDB exports
+    │   ├── dev.projectsData.json     # Research projects (PIs, members, dates, sections, institutions)
+    │   ├── dev.persons.json          # Person records with affiliations
+    │   ├── dev.institutions.json     # Institution records
+    │   ├── dev.groups.json           # Research group records
+    │   ├── dev.collections.json      # Development collection items
+    │   ├── dev.wisski_urls.json      # Pre-computed WissKI navigate URL mappings
+    │   ├── dev.geoloc_countries.json # Countries with Wikidata coordinates
+    │   ├── dev.geoloc_regions.json   # Regions with coordinates
+    │   └── dev.geoloc_subregions.json # Cities/subregions with coordinates
+    ├── manual/
+    │   └── researchSections.json     # Section descriptions, objectives, PIs, members
+    ├── knowledge_graphs/             # 2,228 per-item knowledge graph JSON files
+    ├── projects_metadata_ubt/        # University of Bayreuth (20 collections)
+    ├── projects_metadata_unilag/     # University of Lagos (8 collections)
+    ├── projects_metadata_ujkz/       # Université Joseph Ki-Zerbo (4 collections)
+    └── projects_metadata_ufba/       # Federal University of Bahia (1 collection)
 ```
 
 ## Data Sources
 
 ### MongoDB exports (`static/data/dev/`)
 
-- `dev.projectsData.json` — 92 research projects with PIs, members, dates, research sections, institutions
-- `dev.persons.json` — 1200+ person records with affiliations
-- `dev.institutions.json` — 450 institution records
-- `dev.groups.json` — Research groups
-- `dev.collections.json` — Development collection items
-- `dev.geoloc_countries.json` — 217 countries with Wikidata coordinates
-- `dev.geoloc_regions.json` — 3800+ regions with coordinates
-- `dev.geoloc_subregions.json` — 37000+ cities/subregions with coordinates
+Core research data exported from the WissKI MongoDB database:
+- **Projects**: Research projects with PIs, members, dates, research sections, institutions, and RDSpace references
+- **Persons**: Person records with institutional affiliations
+- **Institutions**: Institution and organization records
+- **Groups**: Research group records
+- **Geolocation**: Countries (217), regions (3,800+), and subregions (37,000+) with Wikidata-reconciled coordinates
+- **WissKI URLs**: Pre-computed navigate URL mappings for deep-linking back to WissKI entities
 
 ### University collections (`static/data/projects_metadata_*/`)
 
-2200+ collection item metadata from four partner universities: University of Bayreuth (UBT), University of Lagos (UNILAG), Université Joseph Ki-Zerbo (UJKZ), and Federal University of Bahia (UFBA). Each item includes title, contributors (with person/institution/group qualifier), subjects (LCSH), tags, language, location, dates, identifiers, and physical description.
+2,200+ research item metadata from four partner universities: University of Bayreuth (UBT), University of Lagos (UNILAG), Université Joseph Ki-Zerbo (UJKZ), and Federal University of Bahia (UFBA). Each item includes title, contributors (with person/institution/group qualifier and roles), subjects (LCSH controlled vocabulary), tags, language (ISO 639-2/3), location (country/region/city), dates (created, issued, captured), identifiers, physical description, and access conditions.
+
+### Knowledge graphs (`static/data/knowledge_graphs/`)
+
+2,228 pre-generated per-item knowledge graph files used by the EntityKnowledgeGraph component to render interactive relationship visualizations for individual research items, with fullscreen support.
 
 ### Manual data (`static/data/manual/`)
 
 Hand-curated data not sourced from MongoDB:
-
-- `researchSections.json` — Research section descriptions, objectives, work programmes, principal investigators, and members for all six sections
+- `researchSections.json` — Research section descriptions, objectives, work programmes, principal investigators, and members for all six thematic sections
 
 ## Deployment
 
-The project is configured for automatic deployment to GitHub Pages. Push to `main` branch to trigger deployment.
+The project deploys automatically to GitHub Pages:
+- **Trigger**: Push to `main` branch (or manual dispatch)
+- **Workflow**: `.github/workflows/deploy.yml` — builds with `npm run build`, sets `BASE_PATH` for subpath deployment, uploads to GitHub Pages
+- **Adapter**: `@sveltejs/adapter-static` pre-renders all routes to the `build/` directory
 
 ## License
 

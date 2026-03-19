@@ -6,3 +6,4 @@ export * from './grouping';
 export * from './extractors';
 export * from './network';
 export * from './filters';
+export * from './charts';

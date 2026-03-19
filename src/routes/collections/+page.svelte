@@ -4,7 +4,7 @@
 	import { researchItemUrl, languageUrl } from '$lib/utils/urls';
 	import { languageName } from '$lib/utils/languages';
 	import { StatCard, ChartCard, EmptyState, Badge, Select } from '$lib/components/ui';
-	import { StackedTimeline, BarChart, PieChart, WordCloud, LocationMap, SankeyChart, SunburstChart, ChordDiagram } from '$lib/components/charts';
+	import { StackedTimeline, BarChart, PieChart, WordCloud, LocationMap, SankeyChart, SunburstChart, ChordDiagram, HeatmapChart } from '$lib/components/charts';
 	import { allCollections } from '$lib/stores/data';
 	import {
 		groupByYearAndType,
@@ -16,7 +16,8 @@
 		countOccurrences,
 		buildSankeyData,
 		buildSunburstData,
-		buildSubjectCoOccurrence
+		buildSubjectCoOccurrence,
+		buildHeatmapData
 	} from '$lib/utils/dataTransform';
 	import { loadEnrichedLocations, UNIVERSITY_COLLECTIONS } from '$lib/utils/dataLoader';
 	import { universities } from '$lib/types';
@@ -105,6 +106,18 @@
 	let sankeyData = $derived(buildSankeyData(currentCollection));
 	let sunburstData = $derived(buildSunburstData(currentCollection));
 	let subjectCoOccurrence = $derived(buildSubjectCoOccurrence(currentCollection, 2, 20));
+
+	// Heatmap: Resource Type × Language (resolve language codes to names)
+	let resourceLanguageHeatmap = $derived.by(() => {
+		const raw = buildHeatmapData(
+			currentCollection,
+			(item) => item.typeOfResource,
+			(item) => item.language?.map((l) => languageName(l)),
+			12,
+			10
+		);
+		return raw;
+	});
 </script>
 
 <div class="space-y-6">
@@ -207,6 +220,19 @@
 				<BarChart data={contributorsData} maxItems={10} />
 			{:else}
 				<EmptyState />
+			{/if}
+		</ChartCard>
+
+		<ChartCard
+			title="Resource Type × Language"
+			subtitle="Cross-tabulation showing which resource types exist in which languages"
+			contentHeight="h-[450px]"
+			class="col-span-full"
+		>
+			{#if resourceLanguageHeatmap.length > 0}
+				<HeatmapChart data={resourceLanguageHeatmap} />
+			{:else}
+				<EmptyState message="Not enough data for heatmap" />
 			{/if}
 		</ChartCard>
 

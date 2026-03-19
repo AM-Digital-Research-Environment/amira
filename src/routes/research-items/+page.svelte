@@ -293,7 +293,7 @@
 	<!-- Header -->
 	<div>
 		<h1 class="page-title">Research Items</h1>
-		<p class="page-subtitle">Browse and explore collection items across all universities and projects</p>
+		<p class="page-subtitle">Browse and explore research items across all universities and projects</p>
 	</div>
 
 	{#if selectedItem}

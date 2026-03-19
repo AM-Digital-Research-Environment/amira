@@ -11,3 +11,6 @@ export { default as SunburstChart } from './SunburstChart.svelte';
 export { default as ChordDiagram } from './ChordDiagram.svelte';
 export { default as MiniMap } from './MiniMap.svelte';
 export { default as EntityKnowledgeGraph } from './EntityKnowledgeGraph.svelte';
+export { default as HeatmapChart } from './HeatmapChart.svelte';
+export { default as BeeswarmChart } from './BeeswarmChart.svelte';
+export { default as GanttChart } from './GanttChart.svelte';

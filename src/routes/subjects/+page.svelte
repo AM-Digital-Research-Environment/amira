@@ -127,7 +127,7 @@
 <div class="space-y-8 animate-slide-in-up">
 	<div>
 		<h1 class="page-title">Subjects & Tags</h1>
-		<p class="page-subtitle">Browse collection items by controlled subjects (LCSH) and free-form tags</p>
+		<p class="page-subtitle">Browse research items by controlled subjects (LCSH) and free-form tags</p>
 	</div>
 
 	<div class="grid gap-4 sm:grid-cols-3">
@@ -253,7 +253,7 @@
 									{#snippet children()}
 										<span class="flex items-center gap-2">
 											<FileText class="h-5 w-5 text-muted-foreground" />
-											Collection Items
+											Research Items
 											<Badge variant="secondary">
 												{#snippet children()}{selectedTerm.items.length}{/snippet}
 											</Badge>
@@ -292,7 +292,7 @@
 									{/if}
 									<p class="text-lg font-medium text-muted-foreground">Select a {viewMode === 'subjects' ? 'subject' : 'tag'}</p>
 									<p class="text-sm text-muted-foreground/70 mt-1">
-										Choose from the list to view associated collection items
+										Choose from the list to view associated research items
 									</p>
 								</div>
 							{/snippet}

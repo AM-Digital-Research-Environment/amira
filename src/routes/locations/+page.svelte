@@ -207,7 +207,7 @@
 <div class="space-y-8 animate-slide-in-up">
 	<div>
 		<h1 class="page-title">Locations</h1>
-		<p class="page-subtitle">Explore geographic origins of collection items across the cluster</p>
+		<p class="page-subtitle">Explore geographic origins of research items across the cluster</p>
 	</div>
 
 	<div class="grid gap-4 sm:grid-cols-3">
@@ -421,7 +421,7 @@
 					</Card>
 				{/if}
 
-				<!-- Collection Items -->
+				<!-- Research Items -->
 				<Card class="overflow-hidden">
 					{#snippet children()}
 						<CardHeader>
@@ -430,7 +430,7 @@
 									{#snippet children()}
 										<span class="flex items-center gap-2">
 											<FileText class="h-5 w-5 text-muted-foreground" />
-											Collection Items
+											Research Items
 											<Badge variant="secondary">
 												{#snippet children()}{selectedLocation.items.length}{/snippet}
 											</Badge>
@@ -466,7 +466,7 @@
 									<MapPin class="h-12 w-12 text-muted-foreground/50 mb-4" />
 									<p class="text-lg font-medium text-muted-foreground">Select a location</p>
 									<p class="text-sm text-muted-foreground/70 mt-1">
-										Choose a country or city from the list to view its associated collection items
+										Choose a country or city from the list to view its associated research items
 									</p>
 								</div>
 							{/snippet}

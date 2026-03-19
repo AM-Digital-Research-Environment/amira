@@ -111,3 +111,19 @@ export function nodeFormatter(params: unknown): string {
 	const p = params as { data: { name: string } };
 	return p.data?.name || '';
 }
+
+/**
+ * Heatmap formatter showing row × column and value
+ */
+export function heatmapFormatter(
+	xLabels: string[],
+	yLabels: string[]
+): (params: unknown) => string {
+	return (params: unknown) => {
+		const p = params as { data: [number, number, number] };
+		const xLabel = xLabels[p.data[0]];
+		const yLabel = yLabels[p.data[1]];
+		const val = p.data[2];
+		return `<strong>${yLabel}</strong> × <strong>${xLabel}</strong><br/>Count: ${val}`;
+	};
+}

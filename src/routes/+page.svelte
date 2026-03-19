@@ -1,10 +1,11 @@
 <script lang="ts">
 	import { StatCard, ChartCard, EmptyState } from '$lib/components/ui';
-	import { StackedTimeline, BarChart, PieChart, WordCloud } from '$lib/components/charts';
+	import { StackedTimeline, BarChart, PieChart, WordCloud, HeatmapChart } from '$lib/components/charts';
 	import { FilterPanel } from '$lib/components/layout';
 	import {
 		projects,
-		universitiesData
+		universitiesData,
+		allCollections
 	} from '$lib/stores/data';
 	import { filteredCollections } from '$lib/stores/filters';
 	import {
@@ -12,7 +13,8 @@
 		extractSubjects,
 		extractResourceTypes,
 		extractTags,
-		extractResearchSections
+		extractResearchSections,
+		buildResearchSectionUniversityHeatmap
 	} from '$lib/utils/dataTransform';
 	import { universities } from '$lib/types';
 	import { base } from '$app/paths';
@@ -27,6 +29,7 @@
 	let resourceTypesData = $derived(extractResourceTypes($filteredCollections));
 	let wordCloudData = $derived(extractTags($filteredCollections));
 	let researchSectionsData = $derived(extractResearchSections($projects));
+	let sectionUniversityHeatmap = $derived(buildResearchSectionUniversityHeatmap($projects, $allCollections));
 
 	// Calculate unique projects from filtered collections
 	let uniqueProjects = $derived.by(() => {
@@ -174,6 +177,19 @@
 				<BarChart data={researchSectionsData} maxItems={6} />
 			{:else}
 				<EmptyState icon={BookOpen} />
+			{/if}
+		</ChartCard>
+
+		<ChartCard
+			title="Research Section × University"
+			subtitle="Research items by research section and university"
+			contentHeight="h-[400px]"
+			class="col-span-full"
+		>
+			{#if sectionUniversityHeatmap.length > 0}
+				<HeatmapChart data={sectionUniversityHeatmap} />
+			{:else}
+				<EmptyState message="Not enough data for heatmap" />
 			{/if}
 		</ChartCard>
 	</div>

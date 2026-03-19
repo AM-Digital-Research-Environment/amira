@@ -47,6 +47,36 @@ export interface ChordData {
 	matrix: number[][];
 }
 
+export interface HeatmapDataPoint {
+	x: string;
+	y: string;
+	value: number;
+}
+
+export interface BeeswarmDataPoint {
+	/** Category label (y-axis) */
+	category: string;
+	/** Numeric value (x-axis, e.g. year) */
+	value: number;
+	/** Display label for tooltip */
+	label: string;
+	/** Optional size dimension */
+	size?: number;
+}
+
+export interface GanttDataPoint {
+	/** Display name (y-axis label) */
+	name: string;
+	/** Start value (e.g. timestamp or year) */
+	start: number;
+	/** End value */
+	end: number;
+	/** Category for color grouping */
+	category?: string;
+	/** Extra tooltip info */
+	tooltip?: string;
+}
+
 // Dashboard stats
 export interface DashboardStats {
 	totalProjects: number;

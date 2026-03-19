@@ -85,7 +85,7 @@
 <div class="space-y-8 animate-slide-in-up">
 	<div>
 		<h1 class="page-title">Languages</h1>
-		<p class="page-subtitle">Browse collection items by language across all universities and projects</p>
+		<p class="page-subtitle">Browse research items by language across all universities and projects</p>
 	</div>
 
 	<div class="grid gap-4 sm:grid-cols-3">
@@ -179,7 +179,7 @@
 									{#snippet children()}
 										<span class="flex items-center gap-2">
 											<FileText class="h-5 w-5 text-muted-foreground" />
-											Collection Items
+											Research Items
 											<Badge variant="secondary">
 												{#snippet children()}{selectedLanguage.items.length}{/snippet}
 											</Badge>
@@ -214,7 +214,7 @@
 									<Languages class="h-12 w-12 text-muted-foreground/50 mb-4" />
 									<p class="text-lg font-medium text-muted-foreground">Select a language</p>
 									<p class="text-sm text-muted-foreground/70 mt-1">
-										Choose a language from the list to view its associated collection items
+										Choose a language from the list to view its associated research items
 									</p>
 								</div>
 							{/snippet}

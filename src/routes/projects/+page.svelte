@@ -1,11 +1,13 @@
 <script lang="ts">
 	import { StatCard, ChartCard, EmptyState, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination } from '$lib/components/ui';
-	import { BarChart, Timeline } from '$lib/components/charts';
+	import { BarChart, Timeline, BeeswarmChart, GanttChart } from '$lib/components/charts';
 	import { projects, allCollections } from '$lib/stores/data';
 	import {
 		groupProjectsByYear,
 		extractResearchSections,
-		extractInstitutions
+		extractInstitutions,
+		buildProjectBeeswarm,
+		buildProjectGantt
 	} from '$lib/utils/dataTransform';
 	import { page } from '$app/stores';
 	import { personUrl, researchSectionsUrl, researchItemUrl, institutionUrl } from '$lib/utils/urls';
@@ -80,6 +82,8 @@
 	let timelineData = $derived(groupProjectsByYear($projects));
 	let researchSectionsData = $derived(extractResearchSections($projects));
 	let institutionsData = $derived(extractInstitutions($projects));
+	let beeswarmData = $derived(buildProjectBeeswarm($projects, $allCollections));
+	let ganttData = $derived(buildProjectGantt($projects));
 
 	// Selected project
 	let selectedProject = $derived.by((): Project | null => {
@@ -336,7 +340,7 @@
 				</Card>
 			{/if}
 
-			<!-- Collection Items -->
+			<!-- Research Items -->
 			{#if projectCollectionItems.length > 0}
 				<Card class="overflow-hidden">
 					{#snippet children()}
@@ -346,7 +350,7 @@
 									{#snippet children()}
 										<span class="flex items-center gap-2">
 											<FileText class="h-5 w-5 text-primary" />
-											Collection Items
+											Research Items
 											<Badge variant="secondary">
 												{#snippet children()}{projectCollectionItems.length}{/snippet}
 											</Badge>
@@ -436,6 +440,46 @@
 					<BarChart data={institutionsData} maxItems={10} />
 				{:else}
 					<EmptyState message="No data available" icon={Building2} />
+				{/if}
+			</ChartCard>
+
+			<ChartCard
+				title="Project Timeline (Gantt)"
+				subtitle="Project lifespans grouped by research section"
+				contentHeight="h-[500px]"
+				class="lg:col-span-2"
+			>
+				{#if ganttData.length > 0}
+					<GanttChart
+						data={ganttData}
+						formatAsYear={true}
+						onclick={(name) => {
+							const project = $projects.find((p) => p.name.startsWith(name.replace('...', '')));
+							if (project) selectProject(project);
+						}}
+					/>
+				{:else}
+					<EmptyState message="No project date data available" icon={Calendar} />
+				{/if}
+			</ChartCard>
+
+			<ChartCard
+				title="Projects by Research Section &amp; Year"
+				subtitle="Each dot is a project — size indicates research items"
+				contentHeight="h-[400px]"
+				class="lg:col-span-2"
+			>
+				{#if beeswarmData.length > 0}
+					<BeeswarmChart
+						data={beeswarmData}
+						valueAxisLabel="Start Year"
+						onclick={(label) => {
+							const project = $projects.find((p) => p.name === label);
+							if (project) selectProject(project);
+						}}
+					/>
+				{:else}
+					<EmptyState message="No project date data available" icon={Calendar} />
 				{/if}
 			</ChartCard>
 		</div>

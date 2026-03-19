@@ -109,6 +109,7 @@
 		if (!chartContainer) return;
 
 		chartInstance = echarts.init(chartContainer);
+		applyTheme();
 		updateChart();
 
 		if (onclick) {
@@ -127,23 +128,42 @@
 		};
 	}
 
+	/**
+	 * Apply theme using ECharts 6 setTheme() for dynamic theme switching
+	 * without needing to dispose/reinit the chart instance.
+	 */
+	function applyTheme() {
+		if (!chartInstance) return;
+		const themeConfig = getEChartsTheme($theme === 'dark');
+		// ECharts 6: setTheme allows runtime theme changes
+		if (typeof chartInstance.setTheme === 'function') {
+			chartInstance.setTheme(themeConfig);
+		}
+	}
+
 	function updateChart() {
 		if (!chartInstance) return;
 
-		const themeConfig = getEChartsTheme($theme === 'dark');
 		const optimizedOption = applyPerformanceOptimizations(option);
-		const mergedOption = echarts.util.merge(
-			echarts.util.clone(themeConfig),
-			optimizedOption,
-			true
-		);
 
-		chartInstance.setOption(mergedOption, notMerge);
+		// ECharts 6: if setTheme is not available, fall back to manual merge
+		if (typeof chartInstance.setTheme !== 'function') {
+			const themeConfig = getEChartsTheme($theme === 'dark');
+			const mergedOption = echarts.util.merge(
+				echarts.util.clone(themeConfig),
+				optimizedOption,
+				true
+			);
+			chartInstance.setOption(mergedOption, notMerge);
+		} else {
+			chartInstance.setOption(optimizedOption, notMerge);
+		}
 	}
 
-	// React to theme changes
+	// React to theme changes — use setTheme for ECharts 6 dynamic switching
 	$effect(() => {
 		$theme; // subscribe to theme
+		applyTheme();
 		updateChart();
 	});
 

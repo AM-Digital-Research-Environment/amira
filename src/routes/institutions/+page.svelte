@@ -171,7 +171,7 @@
 <div class="space-y-8 animate-slide-in-up">
 	<div>
 		<h1 class="page-title">Institutions</h1>
-		<p class="page-subtitle">Browse partner institutions and their associated projects, researchers, and collection items</p>
+		<p class="page-subtitle">Browse partner institutions and their associated projects, researchers, and research items</p>
 	</div>
 
 	<div class="grid gap-4 sm:grid-cols-3">
@@ -374,7 +374,7 @@
 					</Card>
 				{/if}
 
-				<!-- Collection Items -->
+				<!-- Research Items -->
 				{#if institutionCollectionItems.length > 0}
 					<Card class="overflow-hidden">
 						{#snippet children()}
@@ -384,7 +384,7 @@
 										{#snippet children()}
 											<span class="flex items-center gap-2">
 												<FileText class="h-5 w-5 text-muted-foreground" />
-												Collection Items
+												Research Items
 												<Badge variant="secondary">
 													{#snippet children()}{institutionCollectionItems.length}{/snippet}
 												</Badge>
@@ -421,7 +421,7 @@
 									<Building2 class="h-12 w-12 text-muted-foreground/50 mb-4" />
 									<p class="text-lg font-medium text-muted-foreground">Select an institution</p>
 									<p class="text-sm text-muted-foreground/70 mt-1">
-										Choose an institution from the list to view its projects, people, and collection items
+										Choose an institution from the list to view its projects, people, and research items
 									</p>
 								</div>
 							{/snippet}

@@ -1,14 +1,14 @@
 <script lang="ts">
 	import { StatCard, ChartCard, EmptyState, Card, CardHeader, CardTitle, CardContent, Badge, BackToList } from '$lib/components/ui';
-	import { BarChart } from '$lib/components/charts';
+	import { BarChart, GanttChart } from '$lib/components/charts';
 	import { projects, researchSections } from '$lib/stores/data';
 	import { page } from '$app/stores';
-	import { extractResearchSections } from '$lib/utils/dataTransform';
+	import { extractResearchSections, buildProjectGantt } from '$lib/utils/dataTransform';
 	import { personUrl, projectUrl } from '$lib/utils/urls';
 	import { createUrlSelection, scrollToTop } from '$lib/utils/urlSelection';
 	import type { Project } from '$lib/types';
 	import { formatDate, getProjectTitle } from '$lib/utils/helpers';
-	import { BookOpen, Briefcase, Layers, ExternalLink, Users, ArrowRight, GraduationCap } from '@lucide/svelte';
+	import { BookOpen, Briefcase, Layers, ExternalLink, Users, ArrowRight, GraduationCap, Calendar } from '@lucide/svelte';
 	import { WissKILink } from '$lib/components/ui';
 
 	const urlSelection = createUrlSelection('section');
@@ -56,6 +56,12 @@
 	let selectedSectionData = $derived(
 		selectedSection ? sections.find((s) => s.name === selectedSection) || null : null
 	);
+
+	// Gantt chart for selected section's projects
+	let sectionGanttData = $derived.by(() => {
+		if (!selectedSectionData) return [];
+		return buildProjectGantt(selectedSectionData.projects);
+	});
 
 	let chartData = $derived(extractResearchSections($projects));
 	let totalProjects = $derived(new Set($projects.flatMap((p) => p._id)).size);
@@ -238,6 +244,24 @@
 					</CardContent>
 				{/snippet}
 			</Card>
+		{/if}
+
+		<!-- Project Timeline Gantt -->
+		{#if sectionGanttData.length > 0}
+			<ChartCard
+				title="Project Timelines"
+				subtitle="Duration of projects in this research section"
+				contentHeight="h-[450px]"
+			>
+				<GanttChart
+					data={sectionGanttData}
+					formatAsYear={true}
+					onclick={(name) => {
+						const project = selectedSectionData?.projects.find((p) => p.name.startsWith(name.replace('...', '')));
+						if (project) window.location.href = projectUrl(project.id);
+					}}
+				/>
+			</ChartCard>
 		{/if}
 
 		<!-- Associated Projects — full width -->

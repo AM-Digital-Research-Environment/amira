@@ -77,7 +77,7 @@
 <div class="space-y-8 animate-slide-in-up">
 	<div>
 		<h1 class="page-title">Resource Types</h1>
-		<p class="page-subtitle">Browse collection items by their resource type classification</p>
+		<p class="page-subtitle">Browse research items by their resource type classification</p>
 	</div>
 
 	<div class="grid gap-4 sm:grid-cols-3">
@@ -179,7 +179,7 @@
 									{#snippet children()}
 										<span class="flex items-center gap-2">
 											<FileText class="h-5 w-5 text-muted-foreground" />
-											Collection Items
+											Research Items
 											<Badge variant="secondary">
 												{#snippet children()}{selectedTypeData.items.length}{/snippet}
 											</Badge>

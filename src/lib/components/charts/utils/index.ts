@@ -29,5 +29,6 @@ export {
 	pathFormatter,
 	linkFormatter,
 	nodeFormatter,
+	heatmapFormatter,
 	PIE_FORMAT_STRING
 } from './formatters';

@@ -435,7 +435,7 @@
 					</Card>
 				{/if}
 
-				<!-- Collection Items -->
+				<!-- Research Items -->
 				{#if personCollectionItems.length > 0}
 					<Card class="overflow-hidden">
 						{#snippet children()}
@@ -445,7 +445,7 @@
 										{#snippet children()}
 											<span class="flex items-center gap-2">
 												<FileText class="h-5 w-5 text-muted-foreground" />
-												Collection Items
+												Research Items
 											</span>
 										{/snippet}
 									</CardTitle>
@@ -488,7 +488,7 @@
 									<Users class="h-12 w-12 text-muted-foreground/50 mb-4" />
 									<p class="text-lg font-medium text-muted-foreground">Select a person</p>
 									<p class="text-sm text-muted-foreground/70 mt-1">
-										Choose someone from the list to view their projects, research sections, and collection items
+										Choose someone from the list to view their projects, research sections, and research items
 									</p>
 								</div>
 							{/snippet}
