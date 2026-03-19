@@ -29,4 +29,7 @@ coverage/
 scripts/.location_cache.json
 __pycache__/
 *.pyc
+
+# Claude settings
 nul
+.claude/settings.local.json

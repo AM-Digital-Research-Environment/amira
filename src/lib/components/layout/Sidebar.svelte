@@ -161,7 +161,7 @@
 			/>
 		</a>
 		<p class="text-2xs text-center" style="color: hsl(var(--sidebar-muted-foreground))">
-			v1.0.0
+			v2.0.0
 		</p>
 		<a
 			href="https://www.frederickmadore.com/"
