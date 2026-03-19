@@ -1,5 +1,5 @@
 import type { CollectionItem } from '$lib/types';
-import { personUrl, institutionUrl } from '$lib/utils/urls';
+import { personUrl, institutionUrl, groupUrl } from '$lib/utils/urls';
 
 export interface Contributor {
 	name: string;
@@ -15,7 +15,10 @@ export function getContributors(item: CollectionItem): Contributor[] {
 }
 
 export function contributorUrl(contributor: { name: string; qualifier: string }): string {
-	if (contributor.qualifier === 'institution' || contributor.qualifier === 'group') {
+	if (contributor.qualifier === 'group') {
+		return groupUrl(contributor.name);
+	}
+	if (contributor.qualifier === 'institution') {
 		return institutionUrl(contributor.name);
 	}
 	return personUrl(contributor.name);

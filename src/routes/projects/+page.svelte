@@ -15,8 +15,9 @@
 	import type { Project, CollectionItem } from '$lib/types';
 	import { formatDate, getItemTitle } from '$lib/utils/helpers';
 	import { paginate } from '$lib/utils/pagination';
-	import { X, Briefcase, BookOpen, Building2, Calendar, Users, FileText, ArrowLeft, Hash, GraduationCap } from '@lucide/svelte';
+	import { X, Briefcase, BookOpen, Building2, Calendar, Users, FileText, ArrowLeft, Hash, GraduationCap, ExternalLink } from '@lucide/svelte';
 	import { WissKILink } from '$lib/components/ui';
+	import { base } from '$app/paths';
 
 	const urlSelection = createUrlSelection('id');
 
@@ -154,6 +155,29 @@
 	let hasActiveFilters = $derived(
 		searchQuery !== '' || selectedResearchSections.length > 0 || selectedInstitutions.length > 0
 	);
+
+	// External project links
+	interface ProjectLink {
+		id: string;
+		url: string;
+	}
+
+	let projectLinksMap = $state<Map<string, string>>(new Map());
+
+	$effect(() => {
+		fetch(`${base}/data/manual/projectLinks.json`)
+			.then((r) => r.ok ? r.json() : [])
+			.then((links: ProjectLink[]) => {
+				const map = new Map<string, string>();
+				links.forEach((l) => map.set(l.id, l.url));
+				projectLinksMap = map;
+			})
+			.catch(() => {});
+	});
+
+	function getProjectLink(projectId: string): string | undefined {
+		return projectLinksMap.get(projectId);
+	}
 </script>
 
 <div class="space-y-6">
@@ -212,6 +236,19 @@
 								<div class="flex items-center gap-2">
 									<WissKILink category="projects" entityKey={selectedProject.id} />
 								</div>
+								{#if getProjectLink(selectedProject.id)}
+									<div class="flex items-center gap-2">
+										<a
+											href={getProjectLink(selectedProject.id)}
+											target="_blank"
+											rel="noopener noreferrer"
+											class="inline-flex items-center gap-1 rounded-full border px-2.5 py-0.5 text-xs font-medium text-muted-foreground hover:text-primary hover:border-primary/50 transition-colors"
+										>
+											<ExternalLink class="h-3 w-3" />
+											Project page
+										</a>
+									</div>
+								{/if}
 							</div>
 						{/snippet}
 					</CardContent>
@@ -600,9 +637,22 @@
 									<div class="p-4 rounded-lg border bg-card hover:bg-accent/50 transition-colors">
 										<div class="flex items-start justify-between gap-4">
 											<div class="flex-1 min-w-0">
-												<button onclick={() => selectProject(project)} class="font-medium text-left hover:text-primary transition-colors">
-													{project.name}
-												</button>
+												<div class="flex items-start gap-2">
+													<button onclick={() => selectProject(project)} class="font-medium text-left hover:text-primary transition-colors">
+														{project.name}
+													</button>
+													{#if getProjectLink(project.id)}
+														<a
+															href={getProjectLink(project.id)}
+															target="_blank"
+															rel="noopener noreferrer"
+															class="shrink-0 mt-0.5 text-muted-foreground hover:text-primary transition-colors"
+															title="View project page"
+														>
+															<ExternalLink class="h-3.5 w-3.5" />
+														</a>
+													{/if}
+												</div>
 												<p class="text-sm text-muted-foreground mt-1">
 													{project.id} • {project.locale}
 												</p>

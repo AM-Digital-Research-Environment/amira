@@ -23,6 +23,10 @@ export function institutionUrl(name: string): string {
 	return `${base}/institutions?name=${encodeURIComponent(name)}`;
 }
 
+export function groupUrl(name: string): string {
+	return `${base}/groups?name=${encodeURIComponent(name)}`;
+}
+
 export function locationUrl(name: string): string {
 	return `${base}/locations?name=${encodeURIComponent(name)}`;
 }

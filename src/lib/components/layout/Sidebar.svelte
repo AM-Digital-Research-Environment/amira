@@ -2,7 +2,7 @@
 	import { cn } from '$lib/utils/cn';
 	import { page } from '$app/stores';
 	import { base } from '$app/paths';
-	import { Layers, ChevronsLeft, X, Home, Folder, BarChart3, Briefcase, Share2, BookOpen, Users, FileText, Building2, MapPin, Languages, Tag, BookType } from '@lucide/svelte';
+	import { Layers, ChevronsLeft, X, Home, Folder, BarChart3, Briefcase, Share2, BookOpen, Users, FileText, Building2, UsersRound, MapPin, Languages, Tag, BookType } from '@lucide/svelte';
 	import type { Component } from 'svelte';
 
 	interface Props {
@@ -33,6 +33,7 @@
 				{ href: `${base}/research-items`, label: 'Research Items', icon: FileText },
 				{ href: `${base}/people`, label: 'People', icon: Users },
 				{ href: `${base}/institutions`, label: 'Institutions', icon: Building2 },
+				{ href: `${base}/groups`, label: 'Groups', icon: UsersRound },
 				{ href: `${base}/locations`, label: 'Locations', icon: MapPin },
 				{ href: `${base}/languages`, label: 'Languages', icon: Languages },
 				{ href: `${base}/subjects`, label: 'Subjects & Tags', icon: Tag },

@@ -64,11 +64,11 @@
 			});
 		});
 
-		// From collection item contributors (institutions and groups) and their affiliations
+		// From collection item contributors — only qualifier 'institution' (not 'group')
 		$allCollections.forEach((item) => {
 			if (!Array.isArray(item.name)) return;
 			item.name.forEach((n) => {
-				if (n?.name?.label && (n?.name?.qualifier === 'institution' || n?.name?.qualifier === 'group')) {
+				if (n?.name?.label && n?.name?.qualifier === 'institution') {
 					const inst = getOrCreate(n.name.label);
 					inst.collectionItemCount++;
 				}
@@ -135,7 +135,7 @@
 			if (seen.has(id)) return;
 			const byProject = projectIds.has(item.project?.id || '');
 			const byContributor = Array.isArray(item.name) && item.name.some(
-				(n) => n?.name?.label === name && (n?.name?.qualifier === 'institution' || n?.name?.qualifier === 'group')
+				(n) => n?.name?.label === name && n?.name?.qualifier === 'institution'
 			);
 			if (byProject || byContributor) {
 				seen.add(id);
