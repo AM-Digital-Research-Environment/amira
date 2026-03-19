@@ -137,7 +137,42 @@ SELECT ?label ?url WHERE {{
     ?id owl:sameAs ?url .
     FILTER(STRSTARTS(STR(?url), "{WISSKI_NAVIGATE_PREFIX}"))
 }}""",
+    "regions": f"""{PREFIXES}
+SELECT ?label ?parentLabel ?url WHERE {{
+    ?id rdf:type ecrm:E53_Place .
+    ?id ecrm:P89_falls_within ?parent .
+    ?parent rdf:type am:country .
+    ?id ecrm:P1_is_identified_by ?labelEntity .
+    ?labelEntity rdf:type ecrm:E41_Appellation .
+    ?labelEntity ecrm:P3_has_note ?label .
+    ?parent ecrm:P1_is_identified_by ?parentLabelEntity .
+    ?parentLabelEntity rdf:type ecrm:E41_Appellation .
+    ?parentLabelEntity ecrm:P3_has_note ?parentLabel .
+    ?id owl:sameAs ?url .
+    FILTER(STRSTARTS(STR(?url), "{WISSKI_NAVIGATE_PREFIX}"))
+}}""",
+    "cities": f"""{PREFIXES}
+SELECT ?label ?parentLabel ?url WHERE {{
+    ?id rdf:type ecrm:E53_Place .
+    ?id ecrm:P89_falls_within ?parent .
+    {{
+        ?parent rdf:type am:region .
+    }} UNION {{
+        ?parent rdf:type am:subregion .
+    }}
+    ?id ecrm:P1_is_identified_by ?labelEntity .
+    ?labelEntity rdf:type ecrm:E41_Appellation .
+    ?labelEntity ecrm:P3_has_note ?label .
+    ?parent ecrm:P1_is_identified_by ?parentLabelEntity .
+    ?parentLabelEntity rdf:type ecrm:E41_Appellation .
+    ?parentLabelEntity ecrm:P3_has_note ?parentLabel .
+    ?id owl:sameAs ?url .
+    FILTER(STRSTARTS(STR(?url), "{WISSKI_NAVIGATE_PREFIX}"))
+}}""",
 }
+
+# Queries that return ?label, ?parentLabel, and ?url (for hierarchical entities)
+HIERARCHICAL_CATEGORIES = {"regions", "cities"}
 
 
 def sparql_query(query: str) -> list[dict]:
@@ -160,7 +195,17 @@ def main():
             for b in bindings:
                 label = b["label"]["value"]
                 url = b["url"]["value"]
-                lookup[label] = url
+                # Hierarchical categories use "Name|ParentName" as key
+                if category in HIERARCHICAL_CATEGORIES and "parentLabel" in b:
+                    parent = b["parentLabel"]["value"]
+                    # Skip entries where label or parent is a URI (not human-readable)
+                    if (label.startswith("http://") or label.startswith("https://")
+                            or parent.startswith("http://") or parent.startswith("https://")):
+                        continue
+                    key = f"{label}|{parent}"
+                else:
+                    key = label
+                lookup[key] = url
             result[category] = lookup
             print(f"{len(lookup)} entries")
         except Exception as e:

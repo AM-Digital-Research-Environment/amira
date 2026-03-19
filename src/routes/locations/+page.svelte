@@ -330,8 +330,13 @@
 											<WissKILink category="countries" entityKey={selectedLocation.name} />
 										{:else if selectedLocation.type === 'region' && selectedLocation.country}
 											<WissKILink category="regions" entityKey="{selectedLocation.name}|{selectedLocation.country}" />
-										{:else if selectedLocation.type === 'city' && selectedLocation.country}
-											<WissKILink category="cities" entityKey="{selectedLocation.name}|{selectedLocation.country}" />
+										{:else if selectedLocation.type === 'city'}
+											<!-- Cities in WissKI are keyed by "CityName|RegionName", try region first then country -->
+											{#if selectedLocation.region}
+												<WissKILink category="cities" entityKey="{selectedLocation.name}|{selectedLocation.region}" />
+											{:else if selectedLocation.country}
+												<WissKILink category="cities" entityKey="{selectedLocation.name}|{selectedLocation.country}" />
+											{/if}
 										{/if}
 									</div>
 								</div>
