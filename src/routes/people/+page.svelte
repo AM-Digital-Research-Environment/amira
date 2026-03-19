@@ -2,13 +2,14 @@
 	import { StatCard, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination, BackToList, CollectionItemRow } from '$lib/components/ui';
 	import { projects, allCollections, researchSections, persons } from '$lib/stores/data';
 	import { page } from '$app/stores';
-	import { researchSectionsUrl, projectUrl } from '$lib/utils/urls';
+	import { researchSectionsUrl, projectUrl, subjectUrl, locationUrl, languageUrl, resourceTypeUrl } from '$lib/utils/urls';
 	import { createUrlSelection, scrollToTop } from '$lib/utils/urlSelection';
 	import type { Project, CollectionItem } from '$lib/types';
 	import { formatDate, getProjectTitle } from '$lib/utils/helpers';
+	import { languageName } from '$lib/utils/languages';
 	import { createSearchFilter } from '$lib/utils/search';
 	import { paginate } from '$lib/utils/pagination';
-	import { Users, Briefcase, BookOpen, FileText, Building2 } from '@lucide/svelte';
+	import { Users, Briefcase, BookOpen, FileText, Building2, Tag, MapPin, Languages, Layers, UserCheck } from '@lucide/svelte';
 	import { institutionUrl } from '$lib/utils/urls';
 	import { WissKILink } from '$lib/components/ui';
 
@@ -146,6 +147,61 @@
 		const entry = item.name.find((n) => n?.name?.label === personName);
 		return entry?.role || '';
 	}
+
+	// Research profile derived from collection items
+	let personProfile = $derived.by(() => {
+		if (!selectedPerson || personCollectionItems.length === 0) return null;
+
+		const roles = new Map<string, number>();
+		const subjects = new Map<string, number>();
+		const languages = new Map<string, number>();
+		const countries = new Map<string, number>();
+		const resourceTypes = new Map<string, number>();
+
+		for (const item of personCollectionItems) {
+			// Roles
+			const role = getPersonRole(item, selectedPerson.name);
+			if (role) roles.set(role, (roles.get(role) || 0) + 1);
+
+			// Subjects
+			if (Array.isArray(item.subject)) {
+				for (const s of item.subject) {
+					const label = s.authLabel || s.origLabel;
+					if (label) subjects.set(label, (subjects.get(label) || 0) + 1);
+				}
+			}
+
+			// Languages
+			if (Array.isArray(item.language)) {
+				for (const lang of item.language) {
+					if (lang) languages.set(lang, (languages.get(lang) || 0) + 1);
+				}
+			}
+
+			// Locations (countries)
+			if (item.location?.origin) {
+				for (const loc of item.location.origin) {
+					if (loc.l1) countries.set(loc.l1, (countries.get(loc.l1) || 0) + 1);
+				}
+			}
+
+			// Resource types
+			if (item.typeOfResource) {
+				resourceTypes.set(item.typeOfResource, (resourceTypes.get(item.typeOfResource) || 0) + 1);
+			}
+		}
+
+		const sortDesc = (map: Map<string, number>) =>
+			[...map.entries()].sort((a, b) => b[1] - a[1]);
+
+		return {
+			roles: sortDesc(roles),
+			subjects: sortDesc(subjects).slice(0, 15),
+			languages: sortDesc(languages),
+			countries: sortDesc(countries),
+			resourceTypes: sortDesc(resourceTypes)
+		};
+	});
 </script>
 
 <div class="space-y-8 animate-slide-in-up">
@@ -254,7 +310,7 @@
 											{/if}
 											{#if personCollectionItems.length > 0}
 												<Badge variant="outline">
-													{#snippet children()}{personCollectionItems.length} collection item{personCollectionItems.length !== 1 ? 's' : ''}{/snippet}
+													{#snippet children()}{personCollectionItems.length} research item{personCollectionItems.length !== 1 ? 's' : ''}{/snippet}
 												</Badge>
 											{/if}
 											<WissKILink category="persons" entityKey={selectedPerson.name} />
@@ -293,6 +349,109 @@
 											</a>
 										{/each}
 									</div>
+								{/snippet}
+							</CardContent>
+						{/snippet}
+					</Card>
+				{/if}
+
+				<!-- Research Profile (derived from collection items) -->
+				{#if personProfile}
+					<Card class="overflow-hidden">
+						{#snippet children()}
+							<CardHeader>
+								{#snippet children()}
+									<CardTitle class="text-lg">
+										{#snippet children()}
+											<span class="flex items-center gap-2">
+												<UserCheck class="h-5 w-5 text-primary" />
+												Research Profile
+											</span>
+										{/snippet}
+									</CardTitle>
+								{/snippet}
+							</CardHeader>
+							<CardContent>
+								{#snippet children()}
+									<div class="grid gap-4 sm:grid-cols-2">
+										<!-- Roles -->
+										{#if personProfile.roles.length > 0}
+											<div>
+												<h4 class="text-xs font-medium text-muted-foreground uppercase tracking-wider mb-2">Roles</h4>
+												<div class="flex flex-wrap gap-1.5">
+													{#each personProfile.roles as [role, count]}
+														<Badge variant="secondary" class="text-xs">
+															{#snippet children()}{role} <span class="text-muted-foreground ml-1">({count})</span>{/snippet}
+														</Badge>
+													{/each}
+												</div>
+											</div>
+										{/if}
+
+										<!-- Resource Types -->
+										{#if personProfile.resourceTypes.length > 0}
+											<div>
+												<h4 class="text-xs font-medium text-muted-foreground uppercase tracking-wider mb-2">Resource Types</h4>
+												<div class="flex flex-wrap gap-1.5">
+													{#each personProfile.resourceTypes as [type, count]}
+														<a href={resourceTypeUrl(type)} class="hover:opacity-80 transition-opacity">
+															<Badge variant="outline" class="text-xs hover:bg-primary/10 transition-colors">
+																{#snippet children()}<Layers class="h-3 w-3 mr-1" />{type} <span class="text-muted-foreground ml-1">({count})</span>{/snippet}
+															</Badge>
+														</a>
+													{/each}
+												</div>
+											</div>
+										{/if}
+
+										<!-- Languages -->
+										{#if personProfile.languages.length > 0}
+											<div>
+												<h4 class="text-xs font-medium text-muted-foreground uppercase tracking-wider mb-2">Languages</h4>
+												<div class="flex flex-wrap gap-1.5">
+													{#each personProfile.languages as [lang, count]}
+														<a href={languageUrl(lang)} class="hover:opacity-80 transition-opacity">
+															<Badge variant="outline" class="text-xs hover:bg-primary/10 transition-colors">
+																{#snippet children()}<Languages class="h-3 w-3 mr-1" />{languageName(lang)} <span class="text-muted-foreground ml-1">({count})</span>{/snippet}
+															</Badge>
+														</a>
+													{/each}
+												</div>
+											</div>
+										{/if}
+
+										<!-- Countries -->
+										{#if personProfile.countries.length > 0}
+											<div>
+												<h4 class="text-xs font-medium text-muted-foreground uppercase tracking-wider mb-2">Countries</h4>
+												<div class="flex flex-wrap gap-1.5">
+													{#each personProfile.countries as [country, count]}
+														<a href={locationUrl(country)} class="hover:opacity-80 transition-opacity">
+															<Badge variant="outline" class="text-xs hover:bg-primary/10 transition-colors">
+																{#snippet children()}<MapPin class="h-3 w-3 mr-1" />{country} <span class="text-muted-foreground ml-1">({count})</span>{/snippet}
+															</Badge>
+														</a>
+													{/each}
+												</div>
+											</div>
+										{/if}
+									</div>
+
+									<!-- Subjects (full width below) -->
+									{#if personProfile.subjects.length > 0}
+										<div class="mt-4 pt-4 border-t">
+											<h4 class="text-xs font-medium text-muted-foreground uppercase tracking-wider mb-2">Top Subjects</h4>
+											<div class="flex flex-wrap gap-1.5">
+												{#each personProfile.subjects as [subject, count]}
+													<a href={subjectUrl(subject)} class="hover:opacity-80 transition-opacity">
+														<Badge variant="outline" class="text-xs hover:bg-primary/10 transition-colors">
+															{#snippet children()}{subject} <span class="text-muted-foreground ml-1">({count})</span>{/snippet}
+														</Badge>
+													</a>
+												{/each}
+											</div>
+										</div>
+									{/if}
 								{/snippet}
 							</CardContent>
 						{/snippet}
