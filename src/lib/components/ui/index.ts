@@ -14,3 +14,4 @@ export { default as Pagination } from './pagination.svelte';
 export { default as CollectionItemRow } from './collection-item-row.svelte';
 export { default as BackToList } from './back-to-list.svelte';
 export { default as WissKILink } from './wisski-link.svelte';
+export { default as SEO } from './seo.svelte';

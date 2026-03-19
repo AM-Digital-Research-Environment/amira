@@ -41,11 +41,6 @@
 	}
 </script>
 
-<svelte:head>
-	<title>WissKI Dashboard</title>
-	<meta name="description" content="Interactive visualization dashboard for WissKI/MongoDB research data" />
-</svelte:head>
-
 <div class="flex min-h-screen bg-background">
 	<Sidebar
 		isOpen={sidebarOpen}

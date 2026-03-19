@@ -3,7 +3,7 @@
 	import { base } from '$app/paths';
 	import { researchItemUrl, languageUrl } from '$lib/utils/urls';
 	import { languageName } from '$lib/utils/languages';
-	import { StatCard, ChartCard, EmptyState, Badge, Select } from '$lib/components/ui';
+	import { StatCard, ChartCard, EmptyState, Badge, Select, SEO } from '$lib/components/ui';
 	import { StackedTimeline, BarChart, PieChart, WordCloud, LocationMap, SankeyChart, SunburstChart, ChordDiagram, HeatmapChart } from '$lib/components/charts';
 	import { allCollections } from '$lib/stores/data';
 	import {
@@ -119,6 +119,7 @@
 		return raw;
 	});
 </script>
+<SEO title="Collections" description="Explore research collections across partner universities" />
 
 <div class="space-y-6">
 	<!-- Page Header with Collection Selector -->

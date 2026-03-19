@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { StatCard, ChartCard, Card, CardHeader, CardTitle, CardContent, Badge, Pagination, BackToList, CollectionItemRow } from '$lib/components/ui';
+	import { StatCard, ChartCard, Card, CardHeader, CardTitle, CardContent, Badge, Pagination, BackToList, CollectionItemRow, SEO } from '$lib/components/ui';
 	import { PieChart, BarChart } from '$lib/components/charts';
 	import { allCollections } from '$lib/stores/data';
 	import { page } from '$app/stores';
@@ -73,6 +73,7 @@
 	}
 
 </script>
+<SEO title="Resource Types" description="Browse research items organized by resource type" />
 
 <div class="space-y-8 animate-slide-in-up">
 	<div>

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { StatCard, Pagination } from '$lib/components/ui';
+	import { StatCard, Pagination, SEO } from '$lib/components/ui';
 	import { allCollections, enrichedLocations } from '$lib/stores/data';
 	import { page } from '$app/stores';
 	import type { CollectionItem } from '$lib/types';
@@ -288,6 +288,7 @@
 	});
 
 </script>
+<SEO title="Research Items" description="Browse and filter the full catalog of digitized research items" />
 
 <div class="space-y-8 animate-slide-in-up">
 	<!-- Header -->

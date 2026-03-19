@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { StatCard, ChartCard, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination, CollectionItemRow, BackToList } from '$lib/components/ui';
+	import { StatCard, ChartCard, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination, CollectionItemRow, BackToList, SEO } from '$lib/components/ui';
 	import { WordCloud } from '$lib/components/charts';
 	import { allCollections } from '$lib/stores/data';
 	import { page } from '$app/stores';
@@ -123,6 +123,7 @@
 	}
 
 </script>
+<SEO title="Subjects and Tags" description="Browse research items by subject headings and tags" />
 
 <div class="space-y-8 animate-slide-in-up">
 	<div>

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { StatCard, ChartCard, EmptyState, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination } from '$lib/components/ui';
+	import { StatCard, ChartCard, EmptyState, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination, SEO } from '$lib/components/ui';
 	import { BarChart, Timeline, BeeswarmChart, GanttChart } from '$lib/components/charts';
 	import { projects, allCollections } from '$lib/stores/data';
 	import {
@@ -179,6 +179,7 @@
 		return projectLinksMap.get(projectId);
 	}
 </script>
+<SEO title="Projects" description="Browse and explore research projects from the Africa Multiple Cluster of Excellence" />
 
 <div class="space-y-6">
 	<!-- Page Header -->

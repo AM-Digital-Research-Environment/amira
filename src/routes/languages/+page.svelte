@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { StatCard, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination, CollectionItemRow, BackToList } from '$lib/components/ui';
+	import { StatCard, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination, CollectionItemRow, BackToList, SEO } from '$lib/components/ui';
 	import { allCollections } from '$lib/stores/data';
 	import { page } from '$app/stores';
 	import { createUrlSelection, scrollToTop } from '$lib/utils/urlSelection';
@@ -81,6 +81,7 @@
 	}
 
 </script>
+<SEO title="Languages" description="Explore the languages represented in the research collections" />
 
 <div class="space-y-8 animate-slide-in-up">
 	<div>

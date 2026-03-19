@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { StatCard, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination, BackToList, CollectionItemRow } from '$lib/components/ui';
+	import { StatCard, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination, BackToList, CollectionItemRow, SEO } from '$lib/components/ui';
 	import { projects, allCollections, researchSections, persons } from '$lib/stores/data';
 	import { page } from '$app/stores';
 	import { researchSectionsUrl, projectUrl, subjectUrl, locationUrl, languageUrl, resourceTypeUrl } from '$lib/utils/urls';
@@ -242,6 +242,7 @@
 		};
 	});
 </script>
+<SEO title="People" description="Browse researchers, contributors, and their affiliations" />
 
 <div class="space-y-8 animate-slide-in-up">
 	<!-- Header -->

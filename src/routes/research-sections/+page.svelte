@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { StatCard, ChartCard, EmptyState, Card, CardHeader, CardTitle, CardContent, Badge, BackToList } from '$lib/components/ui';
+	import { StatCard, ChartCard, EmptyState, Card, CardHeader, CardTitle, CardContent, Badge, BackToList, SEO } from '$lib/components/ui';
 	import { BarChart, GanttChart } from '$lib/components/charts';
 	import { projects, researchSections } from '$lib/stores/data';
 	import { page } from '$app/stores';
@@ -78,6 +78,7 @@
 		urlSelection.removeFromUrl();
 	}
 </script>
+<SEO title="Research Sections" description="Explore the six thematic research sections of the cluster" />
 
 <div class="space-y-8 animate-slide-in-up">
 	<!-- Header -->

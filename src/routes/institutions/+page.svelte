@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { StatCard, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination, CollectionItemRow, BackToList } from '$lib/components/ui';
+	import { StatCard, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination, CollectionItemRow, BackToList, SEO } from '$lib/components/ui';
 	import { projects, allCollections, persons } from '$lib/stores/data';
 	import { page } from '$app/stores';
 	import { personUrl, projectUrl, researchSectionsUrl } from '$lib/utils/urls';
@@ -167,6 +167,7 @@
 	}
 
 </script>
+<SEO title="Institutions" description="Browse partner institutions and their associated projects, researchers, and research items" />
 
 <div class="space-y-8 animate-slide-in-up">
 	<div>

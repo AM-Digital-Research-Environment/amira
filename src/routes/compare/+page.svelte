@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { ChartCard, EmptyState, Card, CardHeader, CardTitle, CardContent, Select, Badge } from '$lib/components/ui';
+	import { ChartCard, EmptyState, Card, CardHeader, CardTitle, CardContent, Select, Badge, SEO } from '$lib/components/ui';
 	import { StackedTimeline, BarChart, PieChart } from '$lib/components/charts';
 	import { allCollections } from '$lib/stores/data';
 	import {
@@ -146,6 +146,7 @@
 		return `${uniName}: ${projectName?.replace(/(\d{4})$/, ' $1') || projectId}`;
 	}
 </script>
+<SEO title="Compare" description="Compare research data across universities and collections" />
 
 <div class="space-y-6">
 	<!-- Page Header -->

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { StatCard, ChartCard, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination, BackToList, CollectionItemRow } from '$lib/components/ui';
+	import { StatCard, ChartCard, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination, BackToList, CollectionItemRow, SEO } from '$lib/components/ui';
 	import { BarChart } from '$lib/components/charts';
 	import { allCollections } from '$lib/stores/data';
 	import { page } from '$app/stores';
@@ -92,6 +92,7 @@
 		urlSelection.removeFromUrl();
 	}
 </script>
+<SEO title="Genres" description="Browse research items by genre classification" />
 
 <div class="space-y-8 animate-slide-in-up">
 	<div>

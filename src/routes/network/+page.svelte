@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { StatCard, ChartCard, EmptyState, Card, CardContent, Tabs, Select } from '$lib/components/ui';
+	import { StatCard, ChartCard, EmptyState, Card, CardContent, Tabs, Select, SEO } from '$lib/components/ui';
 	import { NetworkGraph } from '$lib/components/charts';
 	import { allCollections, persons, projects } from '$lib/stores/data';
 	import { buildContributorNetwork, buildPersonInstitutionNetwork, buildInstitutionCollaborationNetwork } from '$lib/utils/dataTransform';
@@ -55,6 +55,7 @@
 		activeTab = tabId;
 	}
 </script>
+<SEO title="Network" description="Explore relationships between contributors, projects, and institutions" />
 
 <div class="space-y-6">
 	<!-- Page Header -->

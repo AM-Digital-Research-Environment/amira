@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { StatCard, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination, CollectionItemRow, BackToList } from '$lib/components/ui';
+	import { StatCard, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination, CollectionItemRow, BackToList, SEO } from '$lib/components/ui';
 	import { allCollections, enrichedLocations } from '$lib/stores/data';
 	import { MiniMap } from '$lib/components/charts';
 	import { page } from '$app/stores';
@@ -203,6 +203,7 @@
 		return [];
 	});
 </script>
+<SEO title="Locations" description="Explore geographic origins of research items across Africa and beyond" />
 
 <div class="space-y-8 animate-slide-in-up">
 	<div>

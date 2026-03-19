@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { StatCard, ChartCard, EmptyState } from '$lib/components/ui';
+	import { StatCard, ChartCard, EmptyState, SEO } from '$lib/components/ui';
 	import { StackedTimeline, BarChart, PieChart, WordCloud, HeatmapChart } from '$lib/components/charts';
 	import { FilterPanel } from '$lib/components/layout';
 	import {
@@ -53,6 +53,7 @@
 		return contributors.size;
 	});
 </script>
+<SEO title="Overview" description="Dashboard overview of research data from the Africa Multiple Cluster of Excellence" />
 
 <div class="space-y-8">
 	<!-- Page Header -->
