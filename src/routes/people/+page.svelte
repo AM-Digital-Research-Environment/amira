@@ -9,9 +9,10 @@
 	import { languageName } from '$lib/utils/languages';
 	import { createSearchFilter } from '$lib/utils/search';
 	import { paginate } from '$lib/utils/pagination';
-	import { Users, Briefcase, BookOpen, FileText, Building2, Tag, MapPin, Languages, Layers, UserCheck } from '@lucide/svelte';
+	import { Users, Briefcase, BookOpen, FileText, Building2, Tag, MapPin, Languages, Layers, UserCheck, ExternalLink } from '@lucide/svelte';
 	import { institutionUrl } from '$lib/utils/urls';
 	import { WissKILink } from '$lib/components/ui';
+	import { getWisskiUrl } from '$lib/utils/wisskiUrl';
 
 	const urlSelection = createUrlSelection('name');
 
@@ -99,13 +100,51 @@
 		return map;
 	});
 
+	/** Check if a person has any dashboard data beyond just existing in the persons store */
+	function personHasData(p: PersonData): boolean {
+		return p.piOf.length > 0
+			|| p.memberOf.length > 0
+			|| p.sections.size > 0
+			|| p.affiliations.size > 0
+			|| p.isSectionPI;
+	}
+
+	// Also check collection items for people that otherwise have no data
+	let peopleWithCollectionItems = $derived.by(() => {
+		const names = new Set<string>();
+		$allCollections.forEach((item) => {
+			if (Array.isArray(item.name)) {
+				item.name.forEach((n) => {
+					if (n?.name?.label && n?.name?.qualifier === 'person') {
+						names.add(n.name.label);
+					}
+				});
+			}
+		});
+		return names;
+	});
+
+	function personHasAnyData(p: PersonData): boolean {
+		return personHasData(p) || peopleWithCollectionItems.has(p.name);
+	}
+
 	let people = $derived(
 		Array.from(peopleMap.values()).sort((a, b) => a.name.localeCompare(b.name))
 	);
 
+	let hideNoData = $state(false);
+
 	const searchPeople = createSearchFilter<PersonData>([(p) => p.name]);
 
-	let filteredPeople = $derived(searchPeople(people, searchQuery));
+	let filteredPeople = $derived.by(() => {
+		let result = searchPeople(people, searchQuery);
+		if (hideNoData) {
+			result = result.filter(personHasAnyData);
+		}
+		return result;
+	});
+
+	let noDataCount = $derived(people.filter((p) => !personHasAnyData(p)).length);
 
 	// Selected person's data
 	let selectedPerson = $derived(selectedName ? peopleMap.get(selectedName) || null : null);
@@ -252,6 +291,16 @@
 								placeholder="Search people..."
 								bind:value={searchQuery}
 							/>
+							{#if noDataCount > 0}
+								<label class="flex items-center gap-2 text-xs text-muted-foreground cursor-pointer select-none">
+									<input
+										type="checkbox"
+										bind:checked={hideNoData}
+										class="rounded border-input accent-primary h-3.5 w-3.5"
+									/>
+									Hide {noDataCount} with no data
+								</label>
+							{/if}
 							<div class="space-y-0.5 max-h-[60vh] overflow-y-auto">
 								{#each filteredPeople as person}
 									{@const isSelected = selectedName === person.name}
@@ -321,6 +370,36 @@
 						</CardHeader>
 					{/snippet}
 				</Card>
+
+				<!-- No dashboard data notice -->
+				{#if !personHasAnyData(selectedPerson) && personCollectionItems.length === 0}
+					{@const wisskiHref = getWisskiUrl('persons', selectedPerson.name)}
+					<Card class="overflow-hidden border-dashed">
+						{#snippet children()}
+							<CardContent>
+								{#snippet children()}
+									<div class="flex flex-col items-center justify-center py-8 text-center">
+										<Users class="h-10 w-10 text-muted-foreground/40 mb-3" />
+										<p class="text-sm text-muted-foreground">
+											No project, research item, or affiliation data is available for this person in the dashboard.
+										</p>
+										{#if wisskiHref}
+											<a
+												href={wisskiHref}
+												target="_blank"
+												rel="noopener noreferrer"
+												class="inline-flex items-center gap-1.5 mt-3 text-sm text-primary hover:underline"
+											>
+												<ExternalLink class="h-3.5 w-3.5" />
+												View in WissKI
+											</a>
+										{/if}
+									</div>
+								{/snippet}
+							</CardContent>
+						{/snippet}
+					</Card>
+				{/if}
 
 				<!-- Affiliations -->
 				{#if selectedPerson.affiliations.size > 0}
