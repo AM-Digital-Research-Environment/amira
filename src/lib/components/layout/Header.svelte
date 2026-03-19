@@ -28,9 +28,9 @@
 	<div class="flex-1 flex items-center gap-3 min-w-0">
 		<div class="hidden lg:flex items-center gap-3">
 			<div class="h-6 w-1 rounded-full bg-gradient-to-b from-primary to-primary/40 flex-shrink-0"></div>
-			<h1 class="header-title truncate">Dashboard</h1>
+			<h1 class="header-title truncate">Africa Multiple WissKI Explorer</h1>
 		</div>
-		<h1 class="lg:hidden text-lg font-semibold font-display truncate">Dashboard</h1>
+		<h1 class="lg:hidden text-lg font-semibold font-display truncate">Africa Multiple WissKI Explorer</h1>
 	</div>
 
 	<!-- Theme toggle -->

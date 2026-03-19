@@ -18,7 +18,7 @@
 	} from '$lib/utils/dataTransform';
 	import { universities } from '$lib/types';
 	import { base } from '$app/paths';
-	import { FileText, Briefcase, Users, Building2, Calendar, PieChart as PieChartIcon, BarChart3, Edit3, BookOpen } from '@lucide/svelte';
+	import { FileText, Briefcase, Users, Building2, Calendar, PieChart as PieChartIcon, BarChart3, Edit3, BookOpen, ExternalLink } from '@lucide/svelte';
 
 	// Word cloud controls
 	let wordCloudMaxWords = $state(50);
@@ -58,8 +58,14 @@
 	<!-- Page Header -->
 	<div class="page-header animate-slide-in-up">
 		<h1 class="page-title">Dashboard Overview</h1>
-		<p class="page-subtitle">
-			Interactive visualization of WissKI research data across collections and projects
+		<p class="page-subtitle max-w-3xl">
+			Browse and visualize research data from
+			<a href="https://wiss-ki.eu/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-0.5 underline underline-offset-2 decoration-primary/40 hover:decoration-primary font-medium">WissKI<ExternalLink class="inline size-3" /></a>
+			(<em>Wissenschaftliche Kommunikations-Infrastruktur</em>), the research data management system of the
+			<a href="https://www.africamultiple.uni-bayreuth.de/en/index.html" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-0.5 underline underline-offset-2 decoration-primary/40 hover:decoration-primary font-medium">Africa Multiple Cluster of Excellence<ExternalLink class="inline size-3" /></a>
+			at the University of Bayreuth. The Cluster is an international research consortium funded by the <a href="https://www.dfg.de/en" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-0.5 underline underline-offset-2 decoration-primary/40 hover:decoration-primary font-medium">German Research Foundation (DFG)<ExternalLink class="inline size-3" /></a> that connects five centres in Africa, Brazil, and Germany to reconfigure African Studies and address global inequalities in knowledge production.
+			<a href="https://www.wisski.uni-bayreuth.de/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-0.5 underline underline-offset-2 decoration-primary/40 hover:decoration-primary font-medium">WissKI@UBT<ExternalLink class="inline size-3" /></a>
+			enables researchers to search and explore research data across affiliated institutions, facilitating the discovery of collaboration opportunities.
 		</p>
 	</div>
 

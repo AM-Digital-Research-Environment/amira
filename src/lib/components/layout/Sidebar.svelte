@@ -93,10 +93,12 @@
 	<!-- Header -->
 	<div class="sidebar-header">
 		<a href="{base}/" class="sidebar-logo">
-			<div class="sidebar-logo-icon">
-				<Layers class="h-4 w-4" strokeWidth={2.5} />
-			</div>
-			<span class="sidebar-logo-text">WissKI</span>
+			<img
+				src="{base}/logos/UBT logo.jpg"
+				alt="University of Bayreuth"
+				class="sidebar-logo-icon-img"
+			/>
+			<span class="sidebar-logo-text">Africa Multiple WissKI Explorer</span>
 		</a>
 
 		<!-- Desktop collapse toggle -->
@@ -161,7 +163,7 @@
 			/>
 		</a>
 		<p class="text-2xs text-center" style="color: hsl(var(--sidebar-muted-foreground))">
-			v2.0.0
+			v{__APP_VERSION__}
 		</p>
 		<a
 			href="https://www.frederickmadore.com/"

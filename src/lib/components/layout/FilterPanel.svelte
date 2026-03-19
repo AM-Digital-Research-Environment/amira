@@ -66,7 +66,7 @@
 									: 'bg-secondary text-secondary-foreground hover:bg-secondary/80'
 							)}
 						>
-							<span>{uni.code}</span>
+							<span>{uni.name}</span>
 							<span class="opacity-70">({$universityItemCounts[uni.id] || 0})</span>
 						</button>
 					{/each}
@@ -122,7 +122,7 @@
 				{@const uni = universities.find((u) => u.id === uniId)}
 				{#if uni}
 					<Badge variant="outline">
-						{uni.code}
+						{uni.name}
 						<button
 							type="button"
 							class="ml-1 hover:text-destructive"
