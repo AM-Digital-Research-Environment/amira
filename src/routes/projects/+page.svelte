@@ -1,11 +1,13 @@
 <script lang="ts">
 	import { StatCard, ChartCard, EmptyState, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination, SEO } from '$lib/components/ui';
-	import { BarChart, Timeline, BeeswarmChart, GanttChart } from '$lib/components/charts';
+	import { BarChart, Timeline, BeeswarmChart, GanttChart, WordCloud } from '$lib/components/charts';
 	import { projects, allCollections } from '$lib/stores/data';
 	import {
 		groupProjectsByYear,
 		extractResearchSections,
 		extractInstitutions,
+		extractSubjects,
+		extractTags,
 		buildProjectBeeswarm,
 		buildProjectGantt
 	} from '$lib/utils/dataTransform';
@@ -15,7 +17,7 @@
 	import type { Project, CollectionItem } from '$lib/types';
 	import { formatDate, getItemTitle } from '$lib/utils/helpers';
 	import { paginate } from '$lib/utils/pagination';
-	import { X, Briefcase, BookOpen, Building2, Calendar, Users, FileText, ArrowLeft, Hash, GraduationCap, ExternalLink } from '@lucide/svelte';
+	import { X, Briefcase, BookOpen, Building2, Calendar, Users, FileText, ArrowLeft, Hash, GraduationCap, ExternalLink, Tag, Edit3 } from '@lucide/svelte';
 	import { WissKILink } from '$lib/components/ui';
 	import { base } from '$app/paths';
 
@@ -97,6 +99,10 @@
 		if (!selectedProject) return [];
 		return $allCollections.filter((item) => item.project?.id === selectedProject.id);
 	});
+
+	// Word cloud data for selected project's subjects & tags
+	let projectWordCloudData = $derived(extractTags(projectCollectionItems));
+	let projectSubjectsData = $derived(extractSubjects(projectCollectionItems));
 
 	// Pagination for collection items
 	const collectionPerPage = 10;
@@ -376,6 +382,23 @@
 						</CardContent>
 					{/snippet}
 				</Card>
+			{/if}
+
+			<!-- Subjects & Tags Word Cloud -->
+			{#if projectWordCloudData.length > 0}
+				<div class="grid gap-6 lg:grid-cols-2">
+					<ChartCard title="Subjects & Tags" contentHeight="h-[350px]">
+						<WordCloud data={projectWordCloudData} maxWords={80} />
+					</ChartCard>
+
+					<ChartCard title="Top Subjects" contentHeight="h-[350px]">
+						{#if projectSubjectsData.length > 0}
+							<BarChart data={projectSubjectsData} maxItems={8} />
+						{:else}
+							<EmptyState icon={Tag} />
+						{/if}
+					</ChartCard>
+				</div>
 			{/if}
 
 			<!-- Research Items -->

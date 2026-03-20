@@ -22,6 +22,7 @@
 	let option: EChartsOption = $derived({
 		...buildTitle(title),
 		tooltip: {
+			confine: true,
 			trigger: 'axis',
 			axisPointer: {
 				type: 'shadow'

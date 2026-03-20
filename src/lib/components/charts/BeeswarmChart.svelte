@@ -51,10 +51,13 @@
 	});
 
 	let maxSize = $derived(Math.max(...data.map((d) => d.size ?? 1), 1));
+	let minValue = $derived(Math.min(...data.map((d) => d.value)));
+	let maxValue = $derived(Math.max(...data.map((d) => d.value)));
 
 	let option: EChartsOption = $derived({
 		...buildTitle(title),
 		tooltip: {
+			confine: true,
 			formatter: (params: unknown) => {
 				const p = params as { data: [number, number, string, number]; };
 				const cat = categories[p.data[1]];
@@ -71,13 +74,27 @@
 			left: '3%',
 			right: '6%',
 			top: title ? '12%' : '5%',
-			bottom: '10%'
+			bottom: '18%'
 		}),
+		dataZoom: [
+			{
+				type: 'slider',
+				xAxisIndex: 0,
+				bottom: 30,
+				height: 20,
+				startValue: minValue - 1,
+				endValue: maxValue + 1,
+				labelFormatter: (val: number) => String(Math.round(val)),
+				brushSelect: false
+			}
+		],
 		xAxis: {
 			type: 'value',
 			name: valueAxisLabel,
 			nameLocation: 'center',
 			nameGap: 30,
+			min: minValue - 1,
+			max: maxValue + 1,
 			axisLabel: {
 				formatter: (val: number) => String(Math.round(val))
 			},

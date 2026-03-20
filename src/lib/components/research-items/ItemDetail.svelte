@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { Card, CardHeader, CardTitle, CardContent, Badge } from '$lib/components/ui';
 	import { MiniMap, EntityKnowledgeGraph } from '$lib/components/charts';
+	import { base } from '$app/paths';
 	import { locationUrl, institutionUrl, projectUrl, languageUrl, resourceTypeUrl, subjectUrl, tagUrl, genreUrl } from '$lib/utils/urls';
 	import { languageName } from '$lib/utils/languages';
 	import type { CollectionItem } from '$lib/types';
@@ -537,9 +538,11 @@
 					{#snippet children()}
 						<div class="flex flex-wrap gap-2">
 							{#each targetAudience as audience}
-								<Badge variant="secondary">
-									{#snippet children()}{audience}{/snippet}
-								</Badge>
+								<a href="{base}/research-items?audience={encodeURIComponent(audience)}" class="hover:opacity-80 transition-opacity">
+									<Badge variant="secondary" class="hover:bg-primary/20 transition-colors cursor-pointer">
+										{#snippet children()}{audience}{/snippet}
+									</Badge>
+								</a>
 							{/each}
 						</div>
 					{/snippet}

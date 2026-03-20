@@ -5,7 +5,7 @@
 	import type { CollectionItem } from '$lib/types';
 	import { getItemTitle } from '$lib/utils/helpers';
 	import { paginate } from '$lib/utils/pagination';
-	import { FileText, Layers, BookOpen, SlidersHorizontal } from '@lucide/svelte';
+	import { FileText, Layers, BookOpen, SlidersHorizontal, Target, HardDrive } from '@lucide/svelte';
 	import { ItemDetail, ItemFilters, ItemTable, getContributors, getSubjects, getOrigins, getLanguages } from '$lib/components/research-items';
 	import { BackToList } from '$lib/components/ui';
 
@@ -16,6 +16,8 @@
 	let selectedCountries = $state<string[]>([]);
 	let selectedProjects = $state<string[]>([]);
 	let selectedLanguages = $state<string[]>([]);
+	let selectedAudiences = $state<string[]>([]);
+	let selectedMethods = $state<string[]>([]);
 	let selectedId = $state('');
 	let listPage = $state(0);
 	const listPerPage = 20;
@@ -25,8 +27,15 @@
 
 	// Sync from URL query param
 	$effect(() => {
-		const urlId = $page.url.searchParams.get('id');
-		if (urlId) selectedId = urlId;
+		const params = $page.url.searchParams;
+		const urlId = params.get('id');
+		const urlAudience = params.get('audience');
+		if (urlId) {
+			selectedId = urlId;
+		} else if (urlAudience) {
+			selectedId = '';
+			selectedAudiences = [urlAudience];
+		}
 	});
 
 	// Unique resource types for filter
@@ -108,6 +117,31 @@
 			.map(([name, count]) => ({ name, count }));
 	});
 
+	let allAudiencesWithCounts = $derived.by(() => {
+		const counts = new Map<string, number>();
+		$allCollections.forEach((item) => {
+			if (Array.isArray(item.targetAudience)) {
+				item.targetAudience.forEach((a) => {
+					if (a && typeof a === 'string') counts.set(a, (counts.get(a) || 0) + 1);
+				});
+			}
+		});
+		return Array.from(counts.entries())
+			.sort((a, b) => b[1] - a[1])
+			.map(([name, count]) => ({ name, count }));
+	});
+
+	let allMethodsWithCounts = $derived.by(() => {
+		const counts = new Map<string, number>();
+		$allCollections.forEach((item) => {
+			const method = item.physicalDescription?.method;
+			if (method && typeof method === 'string') counts.set(method, (counts.get(method) || 0) + 1);
+		});
+		return Array.from(counts.entries())
+			.sort((a, b) => b[1] - a[1])
+			.map(([name, count]) => ({ name, count }));
+	});
+
 	function toggleSubject(subject: string) {
 		if (selectedSubjects.includes(subject)) {
 			selectedSubjects = selectedSubjects.filter((s) => s !== subject);
@@ -148,6 +182,22 @@
 		}
 	}
 
+	function toggleAudience(audience: string) {
+		if (selectedAudiences.includes(audience)) {
+			selectedAudiences = selectedAudiences.filter((a) => a !== audience);
+		} else {
+			selectedAudiences = [...selectedAudiences, audience];
+		}
+	}
+
+	function toggleMethod(method: string) {
+		if (selectedMethods.includes(method)) {
+			selectedMethods = selectedMethods.filter((m) => m !== method);
+		} else {
+			selectedMethods = [...selectedMethods, method];
+		}
+	}
+
 	// Filtered items
 	let filteredItems = $derived.by(() => {
 		let items = $allCollections;
@@ -185,6 +235,18 @@
 				return selectedLanguages.some((l) => langs.includes(l));
 			});
 		}
+		if (selectedAudiences.length > 0) {
+			items = items.filter((item) => {
+				if (!Array.isArray(item.targetAudience)) return false;
+				return selectedAudiences.some((a) => item.targetAudience.includes(a));
+			});
+		}
+		if (selectedMethods.length > 0) {
+			items = items.filter((item) => {
+				const method = item.physicalDescription?.method;
+				return method && selectedMethods.includes(method);
+			});
+		}
 		if (searchQuery.trim()) {
 			const q = searchQuery.toLowerCase();
 			items = items.filter((item) => {
@@ -205,7 +267,9 @@
 		selectedTags.length > 0 ||
 		selectedCountries.length > 0 ||
 		selectedProjects.length > 0 ||
-		selectedLanguages.length > 0
+		selectedLanguages.length > 0 ||
+		selectedAudiences.length > 0 ||
+		selectedMethods.length > 0
 	);
 
 	function clearAllFilters() {
@@ -216,6 +280,8 @@
 		selectedCountries = [];
 		selectedProjects = [];
 		selectedLanguages = [];
+		selectedAudiences = [];
+		selectedMethods = [];
 	}
 
 	// Paginated items
@@ -230,6 +296,8 @@
 		selectedCountries;
 		selectedProjects;
 		selectedLanguages;
+		selectedAudiences;
+		selectedMethods;
 		listPage = 0;
 	});
 
@@ -308,10 +376,12 @@
 		</div>
 	{:else}
 		<!-- Stats -->
-		<div class="grid gap-4 sm:grid-cols-3">
+		<div class="grid gap-4 sm:grid-cols-5">
 			<StatCard label="Total Items" value={$allCollections.length} icon={FileText} />
 			<StatCard label="Resource Types" value={resourceTypes.length - 1} icon={Layers} />
 			<StatCard label="Projects" value={allProjectsWithCounts.length} icon={BookOpen} />
+			<StatCard label="Target Audiences" value={allAudiencesWithCounts.length} icon={Target} />
+			<StatCard label="Digitization Methods" value={allMethodsWithCounts.length} icon={HardDrive} />
 		</div>
 
 		<!-- Mobile filter toggle -->
@@ -338,6 +408,8 @@
 					{allCountriesWithCounts}
 					{allProjectsWithCounts}
 					{allLanguagesWithCounts}
+					{allAudiencesWithCounts}
+					{allMethodsWithCounts}
 					{searchQuery}
 					{selectedType}
 					{selectedSubjects}
@@ -345,6 +417,8 @@
 					{selectedCountries}
 					{selectedProjects}
 					{selectedLanguages}
+					{selectedAudiences}
+					{selectedMethods}
 					onSearchQueryChange={(v) => searchQuery = v}
 					onSelectedTypeChange={(v) => selectedType = v}
 					onToggleSubject={toggleSubject}
@@ -357,6 +431,10 @@
 					onClearProjects={() => selectedProjects = []}
 					onToggleLanguage={toggleLanguage}
 					onClearLanguages={() => selectedLanguages = []}
+					onToggleAudience={toggleAudience}
+					onClearAudiences={() => selectedAudiences = []}
+					onToggleMethod={toggleMethod}
+					onClearMethods={() => selectedMethods = []}
 					onClearAll={clearAllFilters}
 					{hasActiveFilters}
 				/>

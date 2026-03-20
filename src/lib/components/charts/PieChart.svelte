@@ -18,6 +18,7 @@
 	let option: EChartsOption = $derived({
 		...buildTitle(title),
 		tooltip: {
+			confine: true,
 			trigger: 'item',
 			formatter: PIE_FORMAT_STRING
 		},

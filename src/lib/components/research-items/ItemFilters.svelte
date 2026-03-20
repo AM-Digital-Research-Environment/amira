@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { Card, CardHeader, CardTitle, CardContent, Badge, Input } from '$lib/components/ui';
-	import { Tag, BookOpen, X, ChevronDown, ChevronUp, Globe, Briefcase, Languages } from '@lucide/svelte';
+	import { Tag, BookOpen, X, ChevronDown, ChevronUp, Globe, Briefcase, Languages, Target, HardDrive } from '@lucide/svelte';
 	import { languageName } from '$lib/utils/languages';
 
 	interface SubjectOrTag {
@@ -16,6 +16,8 @@
 		allCountriesWithCounts: SubjectOrTag[];
 		allProjectsWithCounts: SubjectOrTag[];
 		allLanguagesWithCounts: SubjectOrTag[];
+		allAudiencesWithCounts: SubjectOrTag[];
+		allMethodsWithCounts: SubjectOrTag[];
 		searchQuery: string;
 		selectedType: string;
 		selectedSubjects: string[];
@@ -23,6 +25,8 @@
 		selectedCountries: string[];
 		selectedProjects: string[];
 		selectedLanguages: string[];
+		selectedAudiences: string[];
+		selectedMethods: string[];
 		onSearchQueryChange: (value: string) => void;
 		onSelectedTypeChange: (value: string) => void;
 		onToggleSubject: (subject: string) => void;
@@ -35,6 +39,10 @@
 		onClearProjects: () => void;
 		onToggleLanguage: (language: string) => void;
 		onClearLanguages: () => void;
+		onToggleAudience: (audience: string) => void;
+		onClearAudiences: () => void;
+		onToggleMethod: (method: string) => void;
+		onClearMethods: () => void;
 		onClearAll: () => void;
 		hasActiveFilters: boolean;
 	}
@@ -47,6 +55,8 @@
 		allCountriesWithCounts,
 		allProjectsWithCounts,
 		allLanguagesWithCounts,
+		allAudiencesWithCounts,
+		allMethodsWithCounts,
 		searchQuery,
 		selectedType,
 		selectedSubjects,
@@ -54,6 +64,8 @@
 		selectedCountries,
 		selectedProjects,
 		selectedLanguages,
+		selectedAudiences,
+		selectedMethods,
 		onSearchQueryChange,
 		onSelectedTypeChange,
 		onToggleSubject,
@@ -66,6 +78,10 @@
 		onClearProjects,
 		onToggleLanguage,
 		onClearLanguages,
+		onToggleAudience,
+		onClearAudiences,
+		onToggleMethod,
+		onClearMethods,
 		onClearAll,
 		hasActiveFilters
 	}: Props = $props();
@@ -81,6 +97,10 @@
 	let countrySearch = $state('');
 	let projectSearch = $state('');
 	let languageSearch = $state('');
+	let audiencesExpanded = $state(false);
+	let methodsExpanded = $state(false);
+	let audienceSearch = $state('');
+	let methodSearch = $state('');
 
 	let filteredSubjectOptions = $derived.by(() => {
 		if (!subjectSearch.trim()) return allSubjectsWithCounts.slice(0, 30);
@@ -110,6 +130,18 @@
 		if (!languageSearch.trim()) return allLanguagesWithCounts.slice(0, 30);
 		const q = languageSearch.toLowerCase();
 		return allLanguagesWithCounts.filter((s) => s.name.toLowerCase().includes(q)).slice(0, 30);
+	});
+
+	let filteredAudienceOptions = $derived.by(() => {
+		if (!audienceSearch.trim()) return allAudiencesWithCounts.slice(0, 30);
+		const q = audienceSearch.toLowerCase();
+		return allAudiencesWithCounts.filter((s) => s.name.toLowerCase().includes(q)).slice(0, 30);
+	});
+
+	let filteredMethodOptions = $derived.by(() => {
+		if (!methodSearch.trim()) return allMethodsWithCounts.slice(0, 30);
+		const q = methodSearch.toLowerCase();
+		return allMethodsWithCounts.filter((s) => s.name.toLowerCase().includes(q)).slice(0, 30);
 	});
 
 	// Expose expand state so parent can trigger it
@@ -478,6 +510,129 @@
 										>
 											<span class="truncate">{tag.name}</span>
 											<span class="text-muted-foreground shrink-0">{tag.count}</span>
+										</button>
+									{/each}
+								</div>
+							</div>
+						{/if}
+					</div>
+
+					<!-- Target Audience filter -->
+					<div class="border-t border-border pt-2">
+						<button
+							onclick={() => audiencesExpanded = !audiencesExpanded}
+							class="flex items-center justify-between w-full text-xs font-medium text-muted-foreground"
+						>
+							<span class="flex items-center gap-1.5">
+								<Target class="h-3 w-3" />
+								Target Audience
+								{#if selectedAudiences.length > 0}
+									<Badge variant="secondary" class="text-[10px] px-1.5 py-0">
+										{#snippet children()}{selectedAudiences.length}{/snippet}
+									</Badge>
+								{/if}
+							</span>
+							{#if audiencesExpanded}
+								<ChevronUp class="h-3.5 w-3.5" />
+							{:else}
+								<ChevronDown class="h-3.5 w-3.5" />
+							{/if}
+						</button>
+
+						{#if selectedAudiences.length > 0}
+							<div class="flex flex-wrap gap-1.5 mt-2">
+								{#each selectedAudiences as audience}
+									<button
+										onclick={() => onToggleAudience(audience)}
+										class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-chart-2/15 text-foreground text-xs font-medium hover:bg-chart-2/25 transition-colors"
+									>
+										{audience}
+										<X class="h-3 w-3" />
+									</button>
+								{/each}
+								<button
+									onclick={onClearAudiences}
+									class="text-[10px] text-muted-foreground hover:text-foreground transition-colors px-1"
+								>
+									Clear
+								</button>
+							</div>
+						{/if}
+
+						{#if audiencesExpanded}
+							<div class="mt-2 space-y-2">
+								{#if allAudiencesWithCounts.length > 10}
+									<Input placeholder="Search audiences..." bind:value={audienceSearch} />
+								{/if}
+								<div class="space-y-0.5 max-h-32 overflow-y-auto">
+									{#each filteredAudienceOptions as audience}
+										{@const isActive = selectedAudiences.includes(audience.name)}
+										<button
+											onclick={() => onToggleAudience(audience.name)}
+											class="w-full text-left px-2 py-1 text-xs rounded hover:bg-muted transition-colors flex items-center justify-between gap-2 {isActive ? 'bg-chart-2/10 text-foreground font-medium' : ''}"
+										>
+											<span class="truncate">{audience.name}</span>
+											<span class="text-muted-foreground shrink-0">{audience.count}</span>
+										</button>
+									{/each}
+								</div>
+							</div>
+						{/if}
+					</div>
+
+					<!-- Digitization Method filter -->
+					<div class="border-t border-border pt-2">
+						<button
+							onclick={() => methodsExpanded = !methodsExpanded}
+							class="flex items-center justify-between w-full text-xs font-medium text-muted-foreground"
+						>
+							<span class="flex items-center gap-1.5">
+								<HardDrive class="h-3 w-3" />
+								Digitization Method
+								{#if selectedMethods.length > 0}
+									<Badge variant="secondary" class="text-[10px] px-1.5 py-0">
+										{#snippet children()}{selectedMethods.length}{/snippet}
+									</Badge>
+								{/if}
+							</span>
+							{#if methodsExpanded}
+								<ChevronUp class="h-3.5 w-3.5" />
+							{:else}
+								<ChevronDown class="h-3.5 w-3.5" />
+							{/if}
+						</button>
+
+						{#if selectedMethods.length > 0}
+							<div class="flex flex-wrap gap-1.5 mt-2">
+								{#each selectedMethods as method}
+									<button
+										onclick={() => onToggleMethod(method)}
+										class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-chart-1/15 text-foreground text-xs font-medium hover:bg-chart-1/25 transition-colors"
+									>
+										{method}
+										<X class="h-3 w-3" />
+									</button>
+								{/each}
+								<button
+									onclick={onClearMethods}
+									class="text-[10px] text-muted-foreground hover:text-foreground transition-colors px-1"
+								>
+									Clear
+								</button>
+							</div>
+						{/if}
+
+						{#if methodsExpanded}
+							<div class="mt-2 space-y-2">
+								<div class="space-y-0.5 max-h-32 overflow-y-auto">
+									{#each filteredMethodOptions as method}
+										{@const isActive = selectedMethods.includes(method.name)}
+										<button
+											onclick={() => onToggleMethod(method.name)}
+											class="w-full text-left px-2 py-1 text-xs rounded hover:bg-muted transition-colors flex items-center justify-between gap-2 {isActive ? 'bg-chart-1/10 text-foreground font-medium' : ''}"
+										>
+											<span class="truncate">{method.name}</span>
+											<span class="text-muted-foreground shrink-0">{method.count}</span>
 										</button>
 									{/each}
 								</div>

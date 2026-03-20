@@ -7,14 +7,14 @@
 	import { createSearchFilter } from '$lib/utils/search';
 	import { paginate } from '$lib/utils/pagination';
 	import type { CollectionItem } from '$lib/types';
-	import { MapPin, Globe, FileText } from '@lucide/svelte';
+	import { MapPin, Globe, FileText, Building2 } from '@lucide/svelte';
 	import { WissKILink } from '$lib/components/ui';
 
 	const urlSelection = createUrlSelection('name');
 
 	let searchQuery = $state('');
 	let selectedName = $state('');
-	let viewMode = $state<'countries' | 'regions' | 'cities'>('countries');
+	let viewMode = $state<'countries' | 'regions' | 'cities' | 'current'>('countries');
 
 	// Sync from URL query param
 	$effect(() => {
@@ -25,7 +25,7 @@
 	// Build location index from collection items
 	interface LocationData {
 		name: string;
-		type: 'country' | 'region' | 'city';
+		type: 'country' | 'region' | 'city' | 'current';
 		country?: string;
 		region?: string;
 		count: number;
@@ -36,6 +36,7 @@
 		const countries = new Map<string, LocationData>();
 		const regions = new Map<string, LocationData>();
 		const cities = new Map<string, LocationData>();
+		const current = new Map<string, LocationData>();
 
 		$allCollections.forEach((item) => {
 			(item.location?.origin || []).forEach((o) => {
@@ -66,9 +67,19 @@
 					c.items.push(item);
 				}
 			});
+			(item.location?.current || []).forEach((loc) => {
+				if (loc) {
+					if (!current.has(loc)) {
+						current.set(loc, { name: loc, type: 'current', count: 0, items: [] });
+					}
+					const c = current.get(loc)!;
+					c.count++;
+					c.items.push(item);
+				}
+			});
 		});
 
-		return { countries, regions, cities };
+		return { countries, regions, cities, current };
 	});
 
 	let countryList = $derived(
@@ -83,8 +94,12 @@
 		Array.from(locationIndex.cities.values()).sort((a, b) => b.count - a.count)
 	);
 
+	let currentLocationList = $derived(
+		Array.from(locationIndex.current.values()).sort((a, b) => b.count - a.count)
+	);
+
 	let currentList = $derived(
-		viewMode === 'countries' ? countryList : viewMode === 'regions' ? regionList : cityList
+		viewMode === 'countries' ? countryList : viewMode === 'regions' ? regionList : viewMode === 'cities' ? cityList : currentLocationList
 	);
 
 	const searchLocations = createSearchFilter<LocationData>([(l) => l.name, (l) => l.country]);
@@ -100,6 +115,9 @@
 		}
 		for (const city of locationIndex.cities.values()) {
 			if (city.name === selectedName) return city;
+		}
+		for (const loc of locationIndex.current.values()) {
+			if (loc.name === selectedName) return loc;
 		}
 		return null;
 	});
@@ -203,18 +221,19 @@
 		return [];
 	});
 </script>
-<SEO title="Locations" description="Explore geographic origins of research items across Africa and beyond" />
+<SEO title="Locations" description="Explore geographic origins and current holding locations of research items" />
 
 <div class="space-y-8 animate-slide-in-up">
 	<div>
 		<h1 class="page-title">Locations</h1>
-		<p class="page-subtitle">Explore geographic origins of research items across the cluster</p>
+		<p class="page-subtitle">Explore geographic origins and current holding locations of research items</p>
 	</div>
 
-	<div class="grid gap-4 sm:grid-cols-3">
+	<div class="grid gap-4 sm:grid-cols-4">
 		<StatCard label="Countries" value={countryList.length} icon={Globe} />
 		<StatCard label="Regions" value={regionList.length} icon={MapPin} />
 		<StatCard label="Cities" value={cityList.length} icon={MapPin} />
+		<StatCard label="Current Locations" value={currentLocationList.length} icon={Building2} />
 	</div>
 
 	<div class="grid gap-6 lg:grid-cols-3">
@@ -258,6 +277,12 @@
 									class="flex-1 px-2 py-1.5 text-xs font-medium transition-colors {viewMode === 'cities' ? 'bg-primary text-primary-foreground' : 'hover:bg-muted'}"
 								>
 									Cities
+								</button>
+								<button
+									onclick={() => viewMode = 'current'}
+									class="flex-1 px-2 py-1.5 text-xs font-medium transition-colors {viewMode === 'current' ? 'bg-primary text-primary-foreground' : 'hover:bg-muted'}"
+								>
+									Current
 								</button>
 							</div>
 
@@ -305,6 +330,8 @@
 									<div class="flex items-center gap-2">
 										{#if selectedLocation.type === 'country'}
 											<Globe class="h-6 w-6 text-primary shrink-0" />
+										{:else if selectedLocation.type === 'current'}
+											<Building2 class="h-6 w-6 text-primary shrink-0" />
 										{:else}
 											<MapPin class="h-6 w-6 text-primary shrink-0" />
 										{/if}
@@ -315,7 +342,7 @@
 									</div>
 									<div class="flex flex-wrap gap-2 mt-3">
 										<Badge>
-											{#snippet children()}{selectedLocation.type === 'country' ? 'Country' : selectedLocation.type === 'region' ? 'Region' : 'City'}{/snippet}
+											{#snippet children()}{selectedLocation.type === 'country' ? 'Country' : selectedLocation.type === 'region' ? 'Region' : selectedLocation.type === 'current' ? 'Current Location' : 'City'}{/snippet}
 										</Badge>
 										{#if selectedLocation.country}
 											<button onclick={() => { selectedName = selectedLocation.country || ''; }} class="hover:opacity-80 transition-opacity">
@@ -338,6 +365,8 @@
 											{:else if selectedLocation.country}
 												<WissKILink category="cities" entityKey="{selectedLocation.name}|{selectedLocation.country}" />
 											{/if}
+										{:else if selectedLocation.type === 'current'}
+											<WissKILink category="institutions" entityKey={selectedLocation.name} />
 										{/if}
 									</div>
 								</div>

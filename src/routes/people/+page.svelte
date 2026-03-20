@@ -128,11 +128,38 @@
 		return personHasData(p) || peopleWithCollectionItems.has(p.name);
 	}
 
+	let personRolesMap = $derived.by(() => {
+		const map = new Map<string, Set<string>>();
+		$allCollections.forEach((item) => {
+			if (!Array.isArray(item.name)) return;
+			item.name.forEach((n) => {
+				if (n?.name?.label && n?.name?.qualifier === 'person' && n.role) {
+					if (!map.has(n.name.label)) map.set(n.name.label, new Set());
+					map.get(n.name.label)!.add(n.role);
+				}
+			});
+		});
+		return map;
+	});
+
+	let allRolesWithCounts = $derived.by(() => {
+		const counts = new Map<string, number>();
+		for (const roles of personRolesMap.values()) {
+			for (const role of roles) {
+				counts.set(role, (counts.get(role) || 0) + 1);
+			}
+		}
+		return Array.from(counts.entries())
+			.sort((a, b) => a[0].localeCompare(b[0]))
+			.map(([name, count]) => ({ name, count }));
+	});
+
 	let people = $derived(
 		Array.from(peopleMap.values()).sort((a, b) => a.name.localeCompare(b.name))
 	);
 
 	let hideNoData = $state(false);
+	let selectedRole = $state('');
 
 	const searchPeople = createSearchFilter<PersonData>([(p) => p.name]);
 
@@ -140,6 +167,9 @@
 		let result = searchPeople(people, searchQuery);
 		if (hideNoData) {
 			result = result.filter(personHasAnyData);
+		}
+		if (selectedRole) {
+			result = result.filter((p) => personRolesMap.get(p.name)?.has(selectedRole));
 		}
 		return result;
 	});
@@ -252,7 +282,7 @@
 	</div>
 
 	<!-- Stats -->
-	<div class="grid gap-4 sm:grid-cols-3">
+	<div class="grid gap-4 sm:grid-cols-4">
 		<StatCard label="Total People" value={people.length} icon={Users} />
 		<StatCard
 			label="Principal Investigators"
@@ -263,6 +293,11 @@
 			label="Section PIs"
 			value={people.filter((p) => p.isSectionPI).length}
 			icon={BookOpen}
+		/>
+		<StatCard
+			label="Roles"
+			value={allRolesWithCounts.length}
+			icon={UserCheck}
 		/>
 	</div>
 
@@ -292,6 +327,16 @@
 								placeholder="Search people..."
 								bind:value={searchQuery}
 							/>
+							<select
+								value={selectedRole}
+								onchange={(e) => selectedRole = (e.currentTarget as HTMLSelectElement).value}
+								class="w-full h-9 rounded-md border border-input bg-background px-3 py-1.5 text-sm"
+							>
+								<option value="">All roles</option>
+								{#each allRolesWithCounts as role}
+									<option value={role.name}>{role.name} ({role.count})</option>
+								{/each}
+							</select>
 							{#if noDataCount > 0}
 								<label class="flex items-center gap-2 text-xs text-muted-foreground cursor-pointer select-none">
 									<input

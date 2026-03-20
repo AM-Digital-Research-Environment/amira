@@ -17,6 +17,7 @@
 	let option: EChartsOption = $derived({
 		...buildTitle(title),
 		tooltip: {
+			confine: true,
 			trigger: 'item',
 			formatter: (params: unknown) => {
 				const p = params as { data?: { source?: string; target?: string; value?: number }; name?: string; value?: number };
