@@ -2,6 +2,7 @@
 	import { StatCard, Pagination, SEO } from '$lib/components/ui';
 	import { allCollections, enrichedLocations } from '$lib/stores/data';
 	import { page } from '$app/stores';
+	import { goto } from '$app/navigation';
 	import type { CollectionItem } from '$lib/types';
 	import { getItemTitle } from '$lib/utils/helpers';
 	import { paginate } from '$lib/utils/pagination';
@@ -30,11 +31,13 @@
 		const params = $page.url.searchParams;
 		const urlId = params.get('id');
 		const urlAudience = params.get('audience');
+		const urlMethod = params.get('method');
 		if (urlId) {
 			selectedId = urlId;
-		} else if (urlAudience) {
+		} else {
 			selectedId = '';
-			selectedAudiences = [urlAudience];
+			if (urlAudience) selectedAudiences = [urlAudience];
+			if (urlMethod) selectedMethods = [urlMethod];
 		}
 	});
 
@@ -308,18 +311,13 @@
 	});
 
 	function selectItem(item: CollectionItem) {
-		selectedId = item._id || item.dre_id;
-		const url = new URL(window.location.href);
-		url.searchParams.set('id', selectedId);
-		history.pushState({}, '', url.toString());
+		const id = item._id || item.dre_id;
+		goto(`?id=${encodeURIComponent(id)}`, { noScroll: true });
 		window.scrollTo({ top: 0, behavior: 'smooth' });
 	}
 
 	function clearSelection() {
-		selectedId = '';
-		const url = new URL(window.location.href);
-		url.searchParams.delete('id');
-		history.pushState({}, '', url.toString());
+		goto('?', { noScroll: true });
 		window.scrollTo({ top: 0, behavior: 'smooth' });
 	}
 

@@ -386,7 +386,7 @@
 							{#if physicalDesc.method}
 								<div class="flex gap-2">
 									<span class="text-muted-foreground shrink-0 min-w-[80px]">Method</span>
-									<span class="text-foreground">{physicalDesc.method}</span>
+									<a href="{base}/research-items?method={encodeURIComponent(physicalDesc.method)}" class="text-foreground hover:text-primary transition-colors">{physicalDesc.method}</a>
 								</div>
 							{/if}
 							{#if physicalDesc.descriptions.length > 0}

@@ -3,6 +3,7 @@
 	import { WordCloud } from '$lib/components/charts';
 	import { allCollections } from '$lib/stores/data';
 	import { page } from '$app/stores';
+	import { goto } from '$app/navigation';
 	import { createUrlSelection, scrollToElement, scrollToTop } from '$lib/utils/urlSelection';
 	import { createSearchFilter } from '$lib/utils/search';
 	import { paginate } from '$lib/utils/pagination';
@@ -98,11 +99,7 @@
 
 	function selectTerm(name: string) {
 		selectedName = name;
-		// Push both name and view params in a single history entry
-		const url = new URL(window.location.href);
-		url.searchParams.set('name', name);
-		url.searchParams.set('view', viewMode);
-		history.pushState({}, '', url.toString());
+		goto(`?name=${encodeURIComponent(name)}&view=${viewMode}`, { noScroll: true });
 		scrollToElement(detailSection);
 	}
 
@@ -116,10 +113,7 @@
 		viewMode = mode;
 		selectedName = '';
 		searchQuery = '';
-		const url = new URL(window.location.href);
-		url.searchParams.set('view', mode);
-		url.searchParams.delete('name');
-		history.pushState({}, '', url.toString());
+		goto(`?view=${mode}`, { noScroll: true });
 	}
 
 </script>

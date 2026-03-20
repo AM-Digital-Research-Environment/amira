@@ -1,6 +1,9 @@
+import { goto } from '$app/navigation';
+
 /**
  * Create URL selection helpers for a given parameter name.
  * The caller manages the $state and $effect — this just provides the URL sync logic.
+ * Uses SvelteKit's goto() so that $page reactivity works with browser back/forward.
  */
 export function createUrlSelection(paramName: string) {
 	function getFromUrl(url: URL): string {
@@ -10,13 +13,14 @@ export function createUrlSelection(paramName: string) {
 	function pushToUrl(value: string) {
 		const url = new URL(window.location.href);
 		url.searchParams.set(paramName, value);
-		history.pushState({}, '', url.toString());
+		goto(`?${url.searchParams.toString()}`, { noScroll: true });
 	}
 
 	function removeFromUrl() {
 		const url = new URL(window.location.href);
 		url.searchParams.delete(paramName);
-		history.pushState({}, '', url.toString());
+		const qs = url.searchParams.toString();
+		goto(qs ? `?${qs}` : '?', { noScroll: true });
 	}
 
 	return { getFromUrl, pushToUrl, removeFromUrl };
