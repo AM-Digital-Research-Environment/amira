@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { ChartCard, EmptyState, Card, CardHeader, CardTitle, CardContent, Select, Badge, SEO } from '$lib/components/ui';
+	import { ChartCard, EmptyState, Card, CardHeader, CardTitle, CardContent, Select, Combobox, Badge, SEO } from '$lib/components/ui';
 	import { StackedTimeline, BarChart, PieChart } from '$lib/components/charts';
 	import { allCollections } from '$lib/stores/data';
 	import {
@@ -16,47 +16,58 @@
 	// Get all universities
 	const allUniversities = getUniversities();
 
-	// Build project options for a given university
-	function getProjectOptions(universityId: string) {
-		if (universityId === 'all') {
-			// Show all projects from all universities
-			const allProjects: { value: string; label: string }[] = [
-				{ value: 'all', label: 'All Projects' }
-			];
-			for (const uni of allUniversities) {
-				const projects = UNIVERSITY_COLLECTIONS[uni.id] || [];
-				for (const proj of projects) {
-					allProjects.push({
-						value: `${uni.id}:${proj}`,
-						label: `${uni.code}: ${proj.replace(uni.code + '_', '').replace(/(\d{4})$/, ' $1')}`
-					});
-				}
+	// Build a lookup of project ID → full project name from collection items
+	let projectNameMap = $derived.by(() => {
+		const map = new Map<string, string>();
+		$allCollections.forEach((item) => {
+			if (item.project?.id && item.project?.name && !map.has(item.project.id)) {
+				map.set(item.project.id, item.project.name);
 			}
-			return allProjects;
+		});
+		return map;
+	});
+
+	function trimLabel(text: string, max = 60): string {
+		return text.length > max ? text.slice(0, max - 1) + '\u2026' : text;
+	}
+
+	// Build project options for a given university
+	function getProjectOptions(universityId: string, nameMap: Map<string, string>) {
+		const buildOption = (uniId: string, proj: string) => {
+			const fullName = nameMap.get(proj) || proj;
+			return {
+				value: `${uniId}:${proj}`,
+				label: trimLabel(fullName),
+				title: fullName
+			};
+		};
+
+		let projectList: { value: string; label: string; title?: string }[];
+
+		if (universityId === 'all') {
+			projectList = allUniversities.flatMap((uni) =>
+				(UNIVERSITY_COLLECTIONS[uni.id] || []).map((proj) => buildOption(uni.id, proj))
+			);
+		} else {
+			projectList = (UNIVERSITY_COLLECTIONS[universityId] || []).map((proj) =>
+				buildOption(universityId, proj)
+			);
 		}
 
-		const projects = UNIVERSITY_COLLECTIONS[universityId] || [];
-		const uni = allUniversities.find((u) => u.id === universityId);
-		const prefix = uni?.code || universityId.toUpperCase();
+		projectList.sort((a, b) => a.label.localeCompare(b.label));
 
-		return [
-			{ value: 'all', label: 'All Projects' },
-			...projects.map((proj) => ({
-				value: `${universityId}:${proj}`,
-				label: proj.replace(prefix + '_', '').replace(/(\d{4})$/, ' $1')
-			}))
-		];
+		return [{ value: 'all', label: 'All Projects' }, ...projectList];
 	}
 
 	// Left side selection
 	let leftUniversity = $state('all');
 	let leftProject = $state('all');
-	let leftProjectOptions = $derived(getProjectOptions(leftUniversity));
+	let leftProjectOptions = $derived(getProjectOptions(leftUniversity, projectNameMap));
 
 	// Right side selection
 	let rightUniversity = $state(allUniversities[0]?.id || 'all');
 	let rightProject = $state('all');
-	let rightProjectOptions = $derived(getProjectOptions(rightUniversity));
+	let rightProjectOptions = $derived(getProjectOptions(rightUniversity, projectNameMap));
 
 	// Track previous values to reset project when university changes
 	let prevLeftUniversity = $state('all');
@@ -136,14 +147,15 @@
 		}
 
 		const uni = allUniversities.find((u) => u.id === universityId);
-		const uniName = uni?.code || 'All';
+		const uniName = uni?.name || 'All';
 
 		if (projectId === 'all') {
-			return `${uniName} (All Projects)`;
+			return uniName;
 		}
 
-		const [, projectName] = projectId.split(':');
-		return `${uniName}: ${projectName?.replace(/(\d{4})$/, ' $1') || projectId}`;
+		const [, projKey] = projectId.split(':');
+		const fullName = projKey ? projectNameMap.get(projKey) : null;
+		return fullName || projKey || projectId;
 	}
 </script>
 <SEO title="Compare" description="Compare research data across universities and collections" />
@@ -181,10 +193,10 @@
 							</div>
 							<div>
 								<span class="text-sm text-muted-foreground mb-1 block">Project</span>
-								<Select
+								<Combobox
 									options={leftProjectOptions}
 									bind:value={leftProject}
-									placeholder="Select project"
+									placeholder="Search projects..."
 								/>
 							</div>
 						</div>
@@ -215,10 +227,10 @@
 							</div>
 							<div>
 								<span class="text-sm text-muted-foreground mb-1 block">Project</span>
-								<Select
+								<Combobox
 									options={rightProjectOptions}
 									bind:value={rightProject}
-									placeholder="Select project"
+									placeholder="Search projects..."
 								/>
 							</div>
 						</div>

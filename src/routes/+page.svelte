@@ -4,7 +4,6 @@
 	import { FilterPanel } from '$lib/components/layout';
 	import {
 		projects,
-		universitiesData,
 		allCollections
 	} from '$lib/stores/data';
 	import { filteredCollections } from '$lib/stores/filters';
@@ -16,9 +15,7 @@
 		extractResearchSections,
 		buildResearchSectionUniversityHeatmap
 	} from '$lib/utils/dataTransform';
-	import { universities } from '$lib/types';
-	import { base } from '$app/paths';
-	import { FileText, Briefcase, Users, Building2, Calendar, PieChart as PieChartIcon, BarChart3, Edit3, BookOpen, ExternalLink } from '@lucide/svelte';
+	import { FileText, Briefcase, Users, Building2, Globe, Languages, Tag, Layers, Calendar, PieChart as PieChartIcon, BarChart3, Edit3, BookOpen, ExternalLink } from '@lucide/svelte';
 
 	// Word cloud controls
 	let wordCloudMaxWords = $state(50);
@@ -52,6 +49,60 @@
 		});
 		return contributors.size;
 	});
+
+	// Calculate unique institutions from filtered collection items
+	let uniqueInstitutions = $derived.by(() => {
+		const inst = new Set<string>();
+		$filteredCollections.forEach((item) => {
+			if (Array.isArray(item.name)) {
+				item.name.forEach((entry) => {
+					if (entry.name?.qualifier === 'institution' && entry.name?.label) inst.add(entry.name.label);
+					if (Array.isArray(entry.affl)) entry.affl.forEach((a) => { if (a) inst.add(a); });
+				});
+			}
+		});
+		return inst.size;
+	});
+
+	// Calculate unique countries from filtered collection items
+	let uniqueCountries = $derived.by(() => {
+		const countries = new Set<string>();
+		$filteredCollections.forEach((item) => {
+			item.location?.origin?.forEach((o) => { if (o.l1) countries.add(o.l1); });
+		});
+		return countries.size;
+	});
+
+	// Calculate unique languages from filtered collection items
+	let uniqueLanguages = $derived.by(() => {
+		const langs = new Set<string>();
+		$filteredCollections.forEach((item) => {
+			item.language?.forEach((l) => { if (l) langs.add(l); });
+		});
+		return langs.size;
+	});
+
+	// Calculate unique subjects & tags from filtered collection items
+	let uniqueSubjectsAndTags = $derived.by(() => {
+		const terms = new Set<string>();
+		$filteredCollections.forEach((item) => {
+			item.subject?.forEach((s) => {
+				const label = s.authLabel || s.origLabel;
+				if (label) terms.add(label);
+			});
+			item.tags?.forEach((t) => { if (t) terms.add(t); });
+		});
+		return terms.size;
+	});
+
+	// Calculate unique resource types from filtered collection items
+	let uniqueResourceTypes = $derived.by(() => {
+		const types = new Set<string>();
+		$filteredCollections.forEach((item) => {
+			if (item.typeOfResource) types.add(item.typeOfResource);
+		});
+		return types.size;
+	});
 </script>
 <SEO title="Overview" description="Dashboard overview of research data from the Africa Multiple Cluster of Excellence" />
 
@@ -70,11 +121,11 @@
 		</p>
 	</div>
 
-	<!-- Overall Stats Cards -->
-	<div class="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+	<!-- Stats Cards -->
+	<div class="grid gap-4 grid-cols-2 lg:grid-cols-4">
 		<StatCard
 			value={$filteredCollections.length}
-			label="Total Documents"
+			label="Research Items"
 			icon={FileText}
 			iconBgClass="bg-primary/10"
 			animationDelay="75ms"
@@ -91,37 +142,43 @@
 			label="Contributors"
 			icon={Users}
 			iconBgClass="bg-chart-1/10"
+			animationDelay="125ms"
+		/>
+		<StatCard
+			value={uniqueInstitutions}
+			label="Institutions"
+			icon={Building2}
+			iconBgClass="bg-chart-2/10"
 			animationDelay="150ms"
 		/>
 		<StatCard
-			value={universities.length}
-			label="Universities"
-			icon={Building2}
-			iconBgClass="bg-chart-2/10"
+			value={uniqueCountries}
+			label="Countries"
+			icon={Globe}
+			iconBgClass="bg-chart-3/10"
+			animationDelay="175ms"
+		/>
+		<StatCard
+			value={uniqueLanguages}
+			label="Languages"
+			icon={Languages}
+			iconBgClass="bg-chart-4/10"
 			animationDelay="200ms"
 		/>
-	</div>
-
-	<!-- University Breakdown Cards -->
-	<div class="grid gap-4 grid-cols-2 lg:grid-cols-4">
-		{#each $universitiesData as uniData, index}
-			<div class="stat-card animate-slide-in-up" style="animation-delay: {250 + index * 50}ms">
-				<div class="flex items-start justify-between gap-2">
-					<div class="min-w-0 flex-1">
-						<p class="text-sm font-medium text-muted-foreground">{uniData.university.code}</p>
-						<p class="stat-value mt-2">{uniData.count}</p>
-						<p class="stat-label truncate" title={uniData.university.name}>{uniData.university.name}</p>
-					</div>
-					<div class="size-9 sm:size-10 rounded-lg bg-white flex items-center justify-center p-1.5 shadow-sm flex-shrink-0">
-						<img
-							src="{base}/{uniData.university.logo}"
-							alt="{uniData.university.name} logo"
-							class="h-full w-full object-contain"
-						/>
-					</div>
-				</div>
-			</div>
-		{/each}
+		<StatCard
+			value={uniqueSubjectsAndTags}
+			label="Subjects & Tags"
+			icon={Tag}
+			iconBgClass="bg-chart-5/10"
+			animationDelay="225ms"
+		/>
+		<StatCard
+			value={uniqueResourceTypes}
+			label="Resource Types"
+			icon={Layers}
+			iconBgClass="bg-chart-1/10"
+			animationDelay="250ms"
+		/>
 	</div>
 
 	<!-- Filters -->

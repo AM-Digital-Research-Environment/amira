@@ -27,7 +27,7 @@ export const universities: University[] = [
 // Shared dropdown options for university selectors
 export const universityOptions = [
 	{ value: 'all', label: 'All Universities' },
-	...universities.map((uni) => ({ value: uni.id, label: `${uni.code} - ${uni.name}` }))
+	...universities.map((uni) => ({ value: uni.id, label: `${uni.name} (${uni.code})` }))
 ];
 
 // Filter state

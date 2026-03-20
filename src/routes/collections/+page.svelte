@@ -3,7 +3,7 @@
 	import { base } from '$app/paths';
 	import { researchItemUrl, languageUrl } from '$lib/utils/urls';
 	import { languageName } from '$lib/utils/languages';
-	import { StatCard, ChartCard, EmptyState, Badge, Select, SEO } from '$lib/components/ui';
+	import { StatCard, ChartCard, EmptyState, Badge, Combobox, SEO } from '$lib/components/ui';
 	import { StackedTimeline, BarChart, PieChart, WordCloud, LocationMap, SankeyChart, SunburstChart, ChordDiagram, HeatmapChart } from '$lib/components/charts';
 	import { allCollections } from '$lib/stores/data';
 	import {
@@ -48,16 +48,23 @@
 			.replace(/(\d{4})$/, ' $1');
 	}
 
+	function trimLabel(text: string, max = 60): string {
+		return text.length > max ? text.slice(0, max - 1) + '\u2026' : text;
+	}
+
 	// Build grouped and sorted collection options
 	let collectionGroups = $derived(
 		universities.map(uni => ({
 			label: uni.name,
 			options: (UNIVERSITY_COLLECTIONS[uni.id] || [])
-				.map(name => ({
-					value: name,
-					label: formatCollectionLabel(name),
-					title: projectNameMap[name] || name
-				}))
+				.map(name => {
+					const fullName = projectNameMap[name] || formatCollectionLabel(name);
+					return {
+						value: name,
+						label: trimLabel(fullName),
+						title: fullName
+					};
+				})
 				.sort((a, b) => a.label.localeCompare(b.label))
 		})).filter(group => group.options.length > 0)
 	);
@@ -136,12 +143,12 @@
 				</p>
 			{/if}
 		</div>
-		<div class="w-full sm:w-64 flex-shrink-0">
-			<Select
+		<div class="w-full sm:w-80 flex-shrink-0">
+			<Combobox
 				options={[{ value: 'all', label: 'All Collections' }]}
 				groups={collectionGroups}
 				bind:value={selectedCollection}
-				placeholder="Select collection..."
+				placeholder="Search collections..."
 			/>
 		</div>
 	</div>

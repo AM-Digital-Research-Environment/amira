@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { StatCard, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination, CollectionItemRow, BackToList, SEO } from '$lib/components/ui';
-	import { projects, allCollections, persons } from '$lib/stores/data';
+	import { projects, allCollections, persons, universitiesData } from '$lib/stores/data';
 	import { page } from '$app/stores';
 	import { personUrl, projectUrl, researchSectionsUrl } from '$lib/utils/urls';
 	import { createUrlSelection, scrollToTop } from '$lib/utils/urlSelection';
@@ -8,6 +8,7 @@
 	import { formatDate, getProjectTitle } from '$lib/utils/helpers';
 	import { createSearchFilter } from '$lib/utils/search';
 	import { paginate } from '$lib/utils/pagination';
+	import { base } from '$app/paths';
 	import { Building2, Briefcase, Users, FileText } from '@lucide/svelte';
 	import { WissKILink } from '$lib/components/ui';
 
@@ -179,6 +180,28 @@
 		<StatCard label="Partner Institutions" value={partnerInstitutions.length} icon={Building2} />
 		<StatCard label="Contributor Orgs" value={contributorInstitutions.length} icon={Building2} />
 		<StatCard label="Total People" value={new Set(institutions.flatMap((i) => [...i.people])).size} icon={Users} />
+	</div>
+
+	<!-- University Breakdown Cards -->
+	<div class="grid gap-4 grid-cols-2 lg:grid-cols-4">
+		{#each $universitiesData as uniData, index}
+			<div class="stat-card animate-slide-in-up" style="animation-delay: {75 + index * 50}ms">
+				<div class="flex items-start justify-between gap-2">
+					<div class="min-w-0 flex-1">
+						<p class="text-sm font-medium text-muted-foreground">{uniData.university.code}</p>
+						<p class="stat-value mt-2">{uniData.count}</p>
+						<p class="stat-label truncate" title={uniData.university.name}>{uniData.university.name}</p>
+					</div>
+					<div class="size-9 sm:size-10 rounded-lg bg-white flex items-center justify-center p-1.5 shadow-sm flex-shrink-0">
+						<img
+							src="{base}/{uniData.university.logo}"
+							alt="{uniData.university.name} logo"
+							class="h-full w-full object-contain"
+						/>
+					</div>
+				</div>
+			</div>
+		{/each}
 	</div>
 
 	<div class="grid gap-6 lg:grid-cols-3">
