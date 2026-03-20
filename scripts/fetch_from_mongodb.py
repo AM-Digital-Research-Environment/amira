@@ -42,51 +42,16 @@ DEV_COLLECTIONS = [
     ("dev", "geoloc_subregions", "dev", "dev.geoloc_subregions.json"),
 ]
 
-# University project collections
-# Maps university folder to list of project collection names
-UNIVERSITY_PROJECTS = {
-    "projects_metadata_ubt": [
-        "UBT_ArtWorld2019",
-        "UBT_CLnCK2019",
-        "UBT_Covid192021",
-        "UBT_DigiRet2021",
-        "UBT_HDMC2019",
-        "UBT_Humanitar2019",
-        "UBT_Karakul2019",
-        "UBT_LearnClass2019",
-        "UBT_MaL2019",
-        "UBT_MiConIturi2019",
-        "UBT_MoCapIE2021",
-        "UBT_MuDAIMa-PRJ2019",
-        "UBT_MuDAIMa2019",
-        "UBT_MultiALS2021",
-        "UBT_OilMov2019",
-        "UBT_PEMESWA2021",
-        "UBT_Plura2021",
-        "UBT_TaiSha2021",
-        "UBT_TravKnowl2019",
-        "UBT_preDeath2021",
-    ],
-    "projects_metadata_unilag": [
-        "ULG_AfEnt2020",
-        "ULG_EthDump2021",
-        "ULG_IWCVD2021",
-        "ULG_LOI2021",
-        "ULG_MFWA2021",
-        "ULG_MRC2021",
-        "ULG_WOPP2021",
-        "ULG_YoruFolk2020",
-    ],
-    "projects_metadata_ujkz": [
-        "UJKZ_FluOnt2023",
-        "UJKZ_GLOBHEALTH2020",
-        "UJKZ_KnowFranco2021",
-        "UJKZ_SEDPaix2022",
-    ],
-    "projects_metadata_ufba": [
-        "UFB_AfroDigital",
-    ],
-}
+# University project databases to auto-discover collections from
+UNIVERSITY_DATABASES = [
+    "projects_metadata_ubt",
+    "projects_metadata_unilag",
+    "projects_metadata_ujkz",
+    "projects_metadata_ufba",
+]
+
+# Collections to skip during auto-discovery (e.g. MongoDB system collections)
+SKIP_COLLECTIONS = {"system.views", "system.buckets", "system.profile"}
 
 
 def export_collection(client, db_name, collection_name, output_path):
@@ -159,21 +124,29 @@ def main():
         except Exception as e:
             print(f"  {filename}: ERROR - {e}")
 
-    # Export university project collections
-    for folder, projects in UNIVERSITY_PROJECTS.items():
-        # Derive the database name from the folder
-        db_name = folder
-        print(f"\n=== {folder} ===")
-        for project in projects:
-            filename = f"{folder}.{project}.json"
-            output_path = os.path.join(DATA_DIR, folder, filename)
-            try:
-                count = export_collection(client, db_name, project, output_path)
-                print(f"  {filename}: {count} documents")
-                total_collections += 1
-                total_documents += count
-            except Exception as e:
-                print(f"  {filename}: ERROR - {e}")
+    # Export university project collections (auto-discovered)
+    for db_name in UNIVERSITY_DATABASES:
+        print(f"\n=== {db_name} ===")
+        try:
+            db = client[db_name]
+            collections = sorted(db.list_collection_names())
+            collections = [c for c in collections if c not in SKIP_COLLECTIONS]
+            if not collections:
+                print("  (no collections found)")
+                continue
+            print(f"  Found {len(collections)} collections")
+            for coll_name in collections:
+                filename = f"{db_name}.{coll_name}.json"
+                output_path = os.path.join(DATA_DIR, db_name, filename)
+                try:
+                    count = export_collection(client, db_name, coll_name, output_path)
+                    print(f"  {filename}: {count} documents")
+                    total_collections += 1
+                    total_documents += count
+                except Exception as e:
+                    print(f"  {filename}: ERROR - {e}")
+        except Exception as e:
+            print(f"  ERROR listing collections: {e}")
 
     client.close()
     print(f"\nDone! Exported {total_documents} documents from {total_collections} collections.")
