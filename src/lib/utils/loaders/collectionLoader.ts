@@ -46,7 +46,7 @@ async function loadDevCollections(basePath: string = ''): Promise<CollectionItem
 }
 
 /**
- * University collections configuration
+ * University collections configuration (fallback)
  * Maps university ID to their project file names
  */
 export const UNIVERSITY_COLLECTIONS: Record<string, string[]> = {
@@ -55,6 +55,7 @@ export const UNIVERSITY_COLLECTIONS: Record<string, string[]> = {
 		'UBT_CLnCK2019',
 		'UBT_Covid192021',
 		'UBT_DigiRet2021',
+		'UBT_ELTVTapes2021',
 		'UBT_HDMC2019',
 		'UBT_Humanitar2019',
 		'UBT_Karakul2019',
@@ -86,10 +87,51 @@ export const UNIVERSITY_COLLECTIONS: Record<string, string[]> = {
 		'UJKZ_FluOnt2023',
 		'UJKZ_GLOBHEALTH2020',
 		'UJKZ_KnowFranco2021',
-		'UJKZ_SEDPaix2022'
+		'UJKZ_MiCoViCvd2021',
+		'UJKZ_SEDPaix2022',
+		'UJKZ_filmBF2022'
 	],
 	ufba: ['UFB_AfroDigital']
 };
+
+/**
+ * Manifest structure from manifest.json
+ */
+interface Manifest {
+	generatedAt: string;
+	universities: Record<string, string[]>;
+}
+
+let manifestCache: Manifest | null = null;
+
+/**
+ * Load the auto-generated manifest of collection names
+ */
+export async function loadManifest(basePath: string = ''): Promise<Manifest | null> {
+	if (manifestCache) return manifestCache;
+	try {
+		const response = await fetch(`${basePath}/data/manifest.json`);
+		if (!response.ok) return null;
+		manifestCache = await response.json();
+		return manifestCache;
+	} catch {
+		return null;
+	}
+}
+
+/**
+ * Get collection names for a university, trying manifest first then falling back to hardcoded list
+ */
+async function getCollectionNames(
+	universityId: string,
+	basePath: string = ''
+): Promise<string[]> {
+	const manifest = await loadManifest(basePath);
+	if (manifest?.universities[universityId]) {
+		return manifest.universities[universityId];
+	}
+	return UNIVERSITY_COLLECTIONS[universityId] || [];
+}
 
 /**
  * Load a specific UBT collection by name
@@ -146,9 +188,9 @@ export async function loadUniversityCollections(
 	universityId: string,
 	basePath: string = ''
 ): Promise<CollectionItem[]> {
-	const collectionNames = UNIVERSITY_COLLECTIONS[universityId];
-	if (!collectionNames) {
-		console.warn(`Unknown university: ${universityId}`);
+	const collectionNames = await getCollectionNames(universityId, basePath);
+	if (!collectionNames.length) {
+		console.warn(`No collections found for university: ${universityId}`);
 		return [];
 	}
 

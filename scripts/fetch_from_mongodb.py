@@ -125,8 +125,13 @@ def main():
             print(f"  {filename}: ERROR - {e}")
 
     # Export university project collections (auto-discovered)
+    # Track discovered collection names per university for manifest
+    manifest_universities = {}
+
     for db_name in UNIVERSITY_DATABASES:
         print(f"\n=== {db_name} ===")
+        # Extract university short ID from database name (e.g. "projects_metadata_ubt" -> "ubt")
+        uni_id = db_name.replace("projects_metadata_", "")
         try:
             db = client[db_name]
             collections = sorted(db.list_collection_names())
@@ -135,6 +140,7 @@ def main():
                 print("  (no collections found)")
                 continue
             print(f"  Found {len(collections)} collections")
+            manifest_universities[uni_id] = collections
             for coll_name in collections:
                 filename = f"{db_name}.{coll_name}.json"
                 output_path = os.path.join(DATA_DIR, db_name, filename)
@@ -149,6 +155,19 @@ def main():
             print(f"  ERROR listing collections: {e}")
 
     client.close()
+
+    # Write manifest.json with discovered collection names
+    from datetime import datetime, timezone
+
+    manifest = {
+        "generatedAt": datetime.now(timezone.utc).isoformat(),
+        "universities": manifest_universities,
+    }
+    manifest_path = os.path.join(DATA_DIR, "manifest.json")
+    with open(manifest_path, "w", encoding="utf-8") as f:
+        json.dump(manifest, f, indent=2, ensure_ascii=False)
+    print(f"\nManifest written to {manifest_path}")
+
     print(f"\nDone! Exported {total_documents} documents from {total_collections} collections.")
 
 

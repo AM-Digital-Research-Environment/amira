@@ -1,6 +1,7 @@
 export { transformMongoJSON, loadJSON, tryLoadJSON } from './mongoJSON';
 export {
 	UNIVERSITY_COLLECTIONS,
+	loadManifest,
 	loadUBTCollection,
 	loadUniversityCollection,
 	loadUniversityCollections,

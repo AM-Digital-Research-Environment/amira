@@ -106,6 +106,8 @@ export interface CollectionItem {
 	tableOfContents: string | null;
 	targetAudience: string[];
 	tags: string[];
+	createdAt?: Date | string | null;
+	updatedAt?: Date | string | null;
 	updatedBy: string;
 	university?: string; // University ID that this item belongs to
 }
