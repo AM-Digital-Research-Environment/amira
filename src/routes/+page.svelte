@@ -189,7 +189,7 @@
 
 	<!-- Research Sections (project-level, unfiltered) -->
 	<div class="grid gap-6 lg:grid-cols-2">
-		<ChartCard title="Research Sections">
+		<ChartCard title="Research Sections" class="col-span-full">
 			{#if researchSectionsData.length > 0}
 				<BarChart data={researchSectionsData} maxItems={6} />
 			{:else}
