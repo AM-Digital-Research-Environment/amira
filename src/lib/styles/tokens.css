@@ -397,6 +397,14 @@
     --chart-grid: var(--color-neutral-200);
     --chart-tooltip-bg: var(--color-neutral-0);
     --chart-tooltip-border: var(--color-neutral-200);
+
+    /* --- Research Section Colors --- */
+    --rs-affiliations: 217 91% 60%;        /* Blue */
+    --rs-arts-aesthetics: 258 90% 66%;     /* Purple */
+    --rs-knowledges: 160 84% 39%;          /* Emerald */
+    --rs-learning: 38 92% 50%;             /* Amber */
+    --rs-mobilities: 189 94% 43%;          /* Cyan */
+    --rs-moralities: 0 84% 60%;            /* Red */
   }
 
   /* ===========================================================================
@@ -493,6 +501,14 @@
     --chart-grid: var(--color-neutral-800);
     --chart-tooltip-bg: var(--color-neutral-900);
     --chart-tooltip-border: var(--color-neutral-700);
+
+    /* --- Research Section Colors (dark mode — lighter for visibility) --- */
+    --rs-affiliations: 217 91% 68%;        /* Lighter Blue */
+    --rs-arts-aesthetics: 258 90% 74%;     /* Lighter Purple */
+    --rs-knowledges: 160 84% 49%;          /* Lighter Emerald */
+    --rs-learning: 38 92% 58%;             /* Lighter Amber */
+    --rs-mobilities: 189 94% 53%;          /* Lighter Cyan */
+    --rs-moralities: 0 84% 68%;            /* Lighter Red */
 
     /* --- Adjusted Shadows for Dark Mode (warmer tint) --- */
     --shadow-xs: 0 1px 2px 0 rgb(0 0 0 / 0.25);

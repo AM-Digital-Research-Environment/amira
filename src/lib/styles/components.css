@@ -102,10 +102,16 @@
 		height: var(--layout-header-height);
 		display: flex;
 		align-items: center;
-		padding: 0 var(--space-6);
+		padding: 0 var(--space-3);
 		background: hsl(var(--background) / 0.85);
 		backdrop-filter: blur(12px) saturate(180%);
 		border-bottom: var(--border-subtle);
+	}
+
+	@media (min-width: 1024px) {
+		.header {
+			padding: 0 var(--space-6);
+		}
 	}
 
 	.header-title {

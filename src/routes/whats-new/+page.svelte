@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { Sparkles, FileText, Briefcase } from '@lucide/svelte';
-	import { projects, allCollections, researchSections } from '$lib/stores/data';
-	import type { Project, CollectionItem, TimelineDataPoint } from '$lib/types';
+	import { projects, allCollections } from '$lib/stores/data';
+	import type { Project, CollectionItem, BarChartDataPoint } from '$lib/types';
 	import { formatDate, getProjectTitle } from '$lib/utils/helpers';
 	import { projectUrl } from '$lib/utils/urls';
 	import { paginate } from '$lib/utils/pagination';
@@ -15,7 +15,7 @@
 	import CollectionItemRow from '$lib/components/ui/collection-item-row.svelte';
 	import Pagination from '$lib/components/ui/pagination.svelte';
 	import EmptyState from '$lib/components/ui/empty-state.svelte';
-	import Timeline from '$lib/components/charts/Timeline.svelte';
+	import { BarChart } from '$lib/components/charts';
 
 	// Parse a date-like value into a Date or null
 	function parseDate(val: Date | string | null | undefined): Date | null {
@@ -103,25 +103,30 @@
 		return pids.size;
 	});
 
-	// Get research section info for badges
+	// Map research section names to global CSS variables
+	const SECTION_COLOR_MAP: Record<string, string> = {
+		'Affiliations': 'hsl(var(--rs-affiliations))',
+		'Arts & Aesthetics': 'hsl(var(--rs-arts-aesthetics))',
+		'Knowledges': 'hsl(var(--rs-knowledges))',
+		'Learning': 'hsl(var(--rs-learning))',
+		'Mobilities': 'hsl(var(--rs-mobilities))',
+		'Moralities': 'hsl(var(--rs-moralities))'
+	};
+
 	function getSectionColor(sectionName: string): string {
-		const section = $researchSections[sectionName];
-		return section?.color ?? 'hsl(var(--muted-foreground))';
+		return SECTION_COLOR_MAP[sectionName] ?? 'hsl(var(--muted-foreground))';
 	}
 
-	// Timeline: item creation activity by month within the window
-	let timelineData: TimelineDataPoint[] = $derived.by(() => {
-		const yearCounts = new Map<number, number>();
+	// Recently added items grouped by resource type
+	let itemsByType: BarChartDataPoint[] = $derived.by(() => {
+		const counts = new Map<string, number>();
 		for (const item of recentItems) {
-			const d = parseDate(item.createdAt);
-			if (d) {
-				const year = d.getFullYear();
-				yearCounts.set(year, (yearCounts.get(year) ?? 0) + 1);
-			}
+			const type = item.typeOfResource || 'Unknown';
+			counts.set(type, (counts.get(type) ?? 0) + 1);
 		}
-		return [...yearCounts.entries()]
-			.sort(([a], [b]) => a - b)
-			.map(([year, count]) => ({ year, count }));
+		return [...counts.entries()]
+			.map(([name, value]) => ({ name, value }))
+			.sort((a, b) => b.value - a.value);
 	});
 
 	// Pagination for recent items
@@ -184,11 +189,11 @@
 		/>
 	</div>
 
-	<!-- Timeline chart -->
-	{#if timelineData.length > 0}
+	<!-- Items by resource type -->
+	{#if itemsByType.length > 0}
 		<div class="animate-slide-in-up" style="animation-delay: 100ms">
-			<ChartCard title="Item Creation Activity" subtitle="Number of research items added per year">
-				<Timeline data={timelineData} />
+			<ChartCard title="New Items by Resource Type" subtitle="Breakdown of recently added items">
+				<BarChart data={itemsByType} />
 			</ChartCard>
 		</div>
 	{/if}

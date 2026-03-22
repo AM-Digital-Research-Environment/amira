@@ -16,7 +16,7 @@
 	}
 </script>
 
-<header class="header gap-4">
+<header class="header gap-2 lg:gap-4">
 	<!-- Mobile menu button -->
 	<Button variant="ghost" size="icon" class="lg:hidden flex-shrink-0" onclick={onMenuClick}>
 		{#snippet children()}
@@ -30,7 +30,7 @@
 			<div class="h-6 w-1 rounded-full bg-gradient-to-b from-primary to-primary/40 flex-shrink-0"></div>
 			<h1 class="header-title truncate">Africa Multiple WissKI Explorer</h1>
 		</div>
-		<h1 class="lg:hidden text-lg font-semibold font-display truncate">Africa Multiple WissKI Explorer</h1>
+		<h1 class="lg:hidden text-lg font-semibold font-display truncate text-center w-full">Africa Multiple WissKI Explorer</h1>
 	</div>
 
 	<!-- Theme toggle -->
