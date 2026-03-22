@@ -5,6 +5,7 @@
 	interface Props {
 		value: string | number;
 		label: string;
+		subtitle?: string;
 		icon?: Component;
 		iconBgClass?: string;
 		class?: string;
@@ -14,6 +15,7 @@
 	let {
 		value,
 		label,
+		subtitle,
 		icon,
 		iconBgClass = 'bg-primary/10',
 		class: className = '',
@@ -29,6 +31,9 @@
 		<div>
 			<p class="text-sm font-medium text-muted-foreground">{label}</p>
 			<p class="stat-value mt-2">{value}</p>
+			{#if subtitle}
+				<p class="text-xs text-muted-foreground mt-1">{subtitle}</p>
+			{/if}
 		</div>
 		{#if icon}
 			{@const Icon = icon}

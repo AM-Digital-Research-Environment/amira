@@ -15,7 +15,7 @@
 		extractResearchSections,
 		buildResearchSectionUniversityHeatmap
 	} from '$lib/utils/dataTransform';
-	import { FileText, Briefcase, Users, Building2, Globe, Languages, Tag, Layers, Calendar, PieChart as PieChartIcon, BarChart3, Edit3, BookOpen, ExternalLink } from '@lucide/svelte';
+	import { FileText, Briefcase, Users, Building2, MapPin, Languages, Tag, Layers, Calendar, PieChart as PieChartIcon, BarChart3, Edit3, BookOpen, ExternalLink } from '@lucide/svelte';
 
 	// Word cloud controls
 	let wordCloudMaxWords = $state(50);
@@ -64,13 +64,18 @@
 		return inst.size;
 	});
 
-	// Calculate unique countries from filtered collection items
-	let uniqueCountries = $derived.by(() => {
+	// Calculate unique locations and countries from filtered collection items
+	let locationStats = $derived.by(() => {
 		const countries = new Set<string>();
+		const locations = new Set<string>();
 		$filteredCollections.forEach((item) => {
-			item.location?.origin?.forEach((o) => { if (o.l1) countries.add(o.l1); });
+			item.location?.origin?.forEach((o) => {
+				if (o.l1) countries.add(o.l1);
+				const key = [o.l1, o.l2, o.l3].filter(Boolean).join('/');
+				if (key) locations.add(key);
+			});
 		});
-		return countries.size;
+		return { locations: locations.size, countries: countries.size };
 	});
 
 	// Calculate unique languages from filtered collection items
@@ -152,9 +157,10 @@
 			animationDelay="150ms"
 		/>
 		<StatCard
-			value={uniqueCountries}
-			label="Countries"
-			icon={Globe}
+			value={locationStats.locations}
+			label="Locations"
+			subtitle="in {locationStats.countries} countries"
+			icon={MapPin}
 			iconBgClass="bg-chart-3/10"
 			animationDelay="175ms"
 		/>

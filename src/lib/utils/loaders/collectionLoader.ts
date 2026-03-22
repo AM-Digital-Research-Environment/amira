@@ -220,7 +220,16 @@ export async function loadAllCollections(basePath: string = ''): Promise<Collect
 		loadAllUniversityCollections(basePath),
 		loadDevCollections(basePath)
 	]);
-	return [...universityCollections, ...devCollections];
+	const all = [...universityCollections, ...devCollections];
+	// Normalize location origin fields: arrays → first string value
+	for (const item of all) {
+		item.location?.origin?.forEach((o) => {
+			if (Array.isArray(o.l1)) o.l1 = o.l1[0] ?? '';
+			if (Array.isArray(o.l2)) o.l2 = o.l2[0] ?? '';
+			if (Array.isArray(o.l3)) o.l3 = o.l3[0] ?? '';
+		});
+	}
+	return all;
 }
 
 /**
