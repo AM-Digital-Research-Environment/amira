@@ -187,12 +187,40 @@
 		/>
 	</div>
 
+	<!-- Research Sections (project-level, unfiltered) -->
+	<div class="grid gap-6 lg:grid-cols-2">
+		<ChartCard title="Research Sections">
+			{#if researchSectionsData.length > 0}
+				<BarChart data={researchSectionsData} maxItems={6} />
+			{:else}
+				<EmptyState icon={BookOpen} />
+			{/if}
+		</ChartCard>
+
+		<ChartCard
+			title="Research Section × University"
+			subtitle="Research items by research section and university"
+			contentHeight="h-[400px]"
+			class="col-span-full"
+		>
+			{#if sectionUniversityHeatmap.length > 0}
+				<HeatmapChart data={sectionUniversityHeatmap} />
+			{:else}
+				<EmptyState message="Not enough data for heatmap" />
+			{/if}
+		</ChartCard>
+	</div>
+
+	<!-- Separator -->
+	<div class="divider-fade my-2"></div>
+	<p class="text-sm text-muted-foreground text-center">Research items — use filters to refine</p>
+
 	<!-- Filters -->
 	<div class="animate-slide-in-up delay-300">
 		<FilterPanel />
 	</div>
 
-	<!-- Charts Grid -->
+	<!-- Filtered Charts Grid -->
 	<div class="grid gap-6 lg:grid-cols-2">
 		<ChartCard title="Research Items Timeline by Type" contentHeight="h-[400px]" class="col-span-full">
 			{#if stackedTimelineData.length > 0}
@@ -239,27 +267,6 @@
 				<WordCloud data={wordCloudData} maxWords={wordCloudMaxWords} />
 			{:else}
 				<EmptyState icon={Edit3} />
-			{/if}
-		</ChartCard>
-
-		<ChartCard title="Research Sections">
-			{#if researchSectionsData.length > 0}
-				<BarChart data={researchSectionsData} maxItems={6} />
-			{:else}
-				<EmptyState icon={BookOpen} />
-			{/if}
-		</ChartCard>
-
-		<ChartCard
-			title="Research Section × University"
-			subtitle="Research items by research section and university"
-			contentHeight="h-[400px]"
-			class="col-span-full"
-		>
-			{#if sectionUniversityHeatmap.length > 0}
-				<HeatmapChart data={sectionUniversityHeatmap} />
-			{:else}
-				<EmptyState message="Not enough data for heatmap" />
 			{/if}
 		</ChartCard>
 	</div>
