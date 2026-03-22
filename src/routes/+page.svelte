@@ -194,7 +194,7 @@
 
 	<!-- Charts Grid -->
 	<div class="grid gap-6 lg:grid-cols-2">
-		<ChartCard title="Documents Timeline by Type" contentHeight="h-[400px]" class="col-span-full">
+		<ChartCard title="Research Items Timeline by Type" contentHeight="h-[400px]" class="col-span-full">
 			{#if stackedTimelineData.length > 0}
 				<StackedTimeline data={stackedTimelineData} />
 			{:else}
