@@ -115,7 +115,7 @@
 	<!-- Page Header -->
 	<div class="page-header animate-slide-in-up">
 		<h1 class="page-title">Dashboard Overview</h1>
-		<p class="page-subtitle max-w-3xl">
+		<p class="page-subtitle">
 			Browse and visualize research data from
 			<a href="https://wiss-ki.eu/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-0.5 underline underline-offset-2 decoration-primary/40 hover:decoration-primary font-medium">WissKI<ExternalLink class="inline size-3" /></a>
 			(<em>Wissenschaftliche Kommunikations-Infrastruktur</em>), the research data management system of the
