@@ -7,7 +7,7 @@
 	import { personUrl, projectUrl } from '$lib/utils/urls';
 	import { createUrlSelection, scrollToTop } from '$lib/utils/urlSelection';
 	import type { Project } from '$lib/types';
-	import { formatDate, getProjectTitle } from '$lib/utils/helpers';
+	import { formatDate, getProjectTitle, getSectionColor } from '$lib/utils/helpers';
 	import { BookOpen, Briefcase, Layers, ExternalLink, Users, ArrowRight, GraduationCap, Calendar } from '@lucide/svelte';
 	import { WissKILink } from '$lib/components/ui';
 
@@ -92,7 +92,7 @@
 		<BackToList show={true} onclick={clearSelection} label="Back to all sections" />
 
 		<!-- Section header -->
-		<Card class="overflow-hidden">
+		<Card class="overflow-hidden" style="border-left: 3px solid {getSectionColor(selectedSectionData.name)}">
 			{#snippet children()}
 				<CardHeader>
 					{#snippet children()}
@@ -341,7 +341,7 @@
 					onclick={() => selectSection(section.name)}
 					class="text-left"
 				>
-					<Card class="overflow-hidden h-full hover:shadow-lg transition-shadow cursor-pointer group">
+					<Card class="overflow-hidden h-full hover:shadow-lg transition-shadow cursor-pointer group" style="border-left: 3px solid {getSectionColor(section.name)}">
 						{#snippet children()}
 							<CardHeader>
 								{#snippet children()}

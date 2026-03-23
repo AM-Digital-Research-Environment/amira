@@ -5,7 +5,7 @@ import type {
 	PieChartDataPoint,
 	WordCloudDataPoint
 } from '$lib/types';
-import { languageName } from '$lib/utils/languages';
+import { languageName, normalizeLanguageCode } from '$lib/utils/languages';
 
 /**
  * Count occurrences for bar chart data
@@ -51,7 +51,7 @@ export function extractResourceTypes(items: CollectionItem[]): PieChartDataPoint
  * Extract languages from collection items
  */
 export function extractLanguages(items: CollectionItem[]): BarChartDataPoint[] {
-	return countOccurrences(items, (item) => item.language).map((d) => ({
+	return countOccurrences(items, (item) => item.language?.map(normalizeLanguageCode)).map((d) => ({
 		...d,
 		name: languageName(d.name)
 	}));

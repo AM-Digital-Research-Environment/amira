@@ -1,5 +1,6 @@
 import type { CollectionItem } from '$lib/types';
 import { personUrl, institutionUrl, groupUrl } from '$lib/utils/urls';
+import { normalizeLanguageCode } from '$lib/utils/languages';
 
 export interface Contributor {
 	name: string;
@@ -31,7 +32,7 @@ export function getSubjects(item: CollectionItem): string[] {
 
 export function getLanguages(item: CollectionItem): string[] {
 	if (!Array.isArray(item.language)) return [];
-	return item.language;
+	return item.language.map(normalizeLanguageCode);
 }
 
 export function getAbstract(item: CollectionItem): string {

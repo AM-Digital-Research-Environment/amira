@@ -88,15 +88,6 @@ function buildUriToNameMaps(
 }
 
 /**
- * Alias map: collection item country names → geoloc country names.
- * Handles naming differences and typos in source data.
- */
-const COUNTRY_ALIASES: Record<string, string> = {
-	'China': "People's Republic of China",
-	'United States of America': 'United States'
-};
-
-/**
  * Load enriched location data from pre-reconciled geoloc files
  * Uses dev.geoloc_countries.json, dev.geoloc_regions.json, dev.geoloc_subregions.json
  */
@@ -113,47 +104,26 @@ export async function loadEnrichedLocations(
 		// Build URI to name lookup maps
 		const { countryUriToName } = buildUriToNameMaps(countriesRaw, regionsRaw);
 
-		// Build reverse alias map: geoloc name → list of alias names
-		const geolocToAliases = new Map<string, string[]>();
-		for (const [alias, geolocName] of Object.entries(COUNTRY_ALIASES)) {
-			const existing = geolocToAliases.get(geolocName) || [];
-			existing.push(alias);
-			geolocToAliases.set(geolocName, existing);
-		}
-
-		// Transform countries: keyed by name, with aliases
+		// Transform countries: keyed by name
 		const countries: Record<string, WikidataLocation> = {};
 		for (const country of countriesRaw) {
-			const transformed = transformCountry(country);
-			countries[country.name] = transformed;
-			// Also register under alias names so collection item lookups work
-			for (const alias of geolocToAliases.get(country.name) || []) {
-				countries[alias] = transformed;
-			}
+			countries[country.name] = transformCountry(country);
 		}
 
-		// Transform regions: keyed by "name|country", with alias country keys
+		// Transform regions: keyed by "name|country"
 		const regions: Record<string, WikidataLocation> = {};
 		for (const region of regionsRaw) {
 			const countryName = countryUriToName.get(region.country_uri) || '';
-			const transformed = transformRegion(region);
 			const key = countryName ? `${region.name}|${countryName}` : region.name;
-			regions[key] = transformed;
-			for (const alias of geolocToAliases.get(countryName) || []) {
-				regions[`${region.name}|${alias}`] = transformed;
-			}
+			regions[key] = transformRegion(region);
 		}
 
-		// Transform subregions (cities): keyed by "name|country", with alias country keys
+		// Transform subregions (cities): keyed by "name|country"
 		const cities: Record<string, WikidataLocation> = {};
 		for (const subregion of subregionsRaw) {
 			const countryName = countryUriToName.get(subregion.country_uri) || '';
-			const transformed = transformSubregion(subregion);
 			const key = countryName ? `${subregion.name}|${countryName}` : subregion.name;
-			cities[key] = transformed;
-			for (const alias of geolocToAliases.get(countryName) || []) {
-				cities[`${subregion.name}|${alias}`] = transformed;
-			}
+			cities[key] = transformSubregion(subregion);
 		}
 
 		return {

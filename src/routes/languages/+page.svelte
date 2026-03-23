@@ -3,7 +3,7 @@
 	import { allCollections } from '$lib/stores/data';
 	import { page } from '$app/stores';
 	import { createUrlSelection, scrollToTop } from '$lib/utils/urlSelection';
-	import { languageName } from '$lib/utils/languages';
+	import { languageName, normalizeLanguageCode } from '$lib/utils/languages';
 	import { createSearchFilter } from '$lib/utils/search';
 	import { paginate } from '$lib/utils/pagination';
 	import type { CollectionItem } from '$lib/types';
@@ -32,8 +32,9 @@
 	let languageMap = $derived.by(() => {
 		const map = new Map<string, LanguageData>();
 		$allCollections.forEach((item) => {
-			(item.language || []).forEach((code) => {
-				if (!code) return;
+			(item.language || []).forEach((rawCode) => {
+				if (!rawCode) return;
+				const code = normalizeLanguageCode(rawCode);
 				if (!map.has(code)) {
 					map.set(code, { code, name: languageName(code), count: 0, items: [] });
 				}

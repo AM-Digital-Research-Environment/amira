@@ -16,6 +16,7 @@
 		buildResearchSectionUniversityHeatmap
 	} from '$lib/utils/dataTransform';
 	import { FileText, Briefcase, Users, Building2, MapPin, Languages, Tag, Layers, Calendar, PieChart as PieChartIcon, BarChart3, Edit3, BookOpen, ExternalLink } from '@lucide/svelte';
+	import { normalizeLanguageCode } from '$lib/utils/languages';
 
 	// Word cloud controls
 	let wordCloudMaxWords = $state(50);
@@ -82,7 +83,7 @@
 	let uniqueLanguages = $derived.by(() => {
 		const langs = new Set<string>();
 		$filteredCollections.forEach((item) => {
-			item.language?.forEach((l) => { if (l) langs.add(l); });
+			item.language?.forEach((l) => { if (l) langs.add(normalizeLanguageCode(l)); });
 		});
 		return langs.size;
 	});

@@ -1,5 +1,6 @@
 <script lang="ts">
-	import { StatCard, ChartCard, EmptyState, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination, SEO } from '$lib/components/ui';
+	import { StatCard, ChartCard, EmptyState, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination, SEO, SectionBadge } from '$lib/components/ui';
+	import { getSectionColor } from '$lib/utils/helpers';
 	import { BarChart, Timeline, BeeswarmChart, GanttChart, WordCloud } from '$lib/components/charts';
 	import { projects, allCollections } from '$lib/stores/data';
 	import {
@@ -584,7 +585,13 @@
 												onclick={() => toggleResearchSection(section)}
 												class="w-full text-left px-2 py-1.5 text-sm rounded hover:bg-muted transition-colors flex items-center justify-between gap-2 {isSelected ? 'bg-primary/10 text-primary' : ''}"
 											>
-												<span class="truncate">{section}</span>
+												<span class="flex items-center gap-1.5 truncate">
+													<span
+														class="inline-block w-2 h-2 rounded-full shrink-0"
+														style="background-color: {getSectionColor(section)}"
+													></span>
+													{section}
+												</span>
 												{#if isSelected}
 													<X class="h-3 w-3 flex-shrink-0" />
 												{/if}
@@ -638,11 +645,17 @@
 							{#if hasActiveFilters}
 								<div class="flex flex-wrap gap-2 mb-4">
 									{#each selectedResearchSections as section}
-										<Badge variant="secondary" class="gap-1">
-											{section}
-											<button onclick={() => toggleResearchSection(section)} class="hover:text-destructive">
-												<X class="h-3 w-3" />
-											</button>
+										<Badge variant="outline" class="gap-1">
+											{#snippet children()}
+												<span
+													class="inline-block w-2 h-2 rounded-full shrink-0"
+													style="background-color: {getSectionColor(section)}"
+												></span>
+												{section}
+												<button onclick={() => toggleResearchSection(section)} class="hover:text-destructive">
+													<X class="h-3 w-3" />
+												</button>
+											{/snippet}
 										</Badge>
 									{/each}
 									{#each selectedInstitutions as institution}
@@ -678,12 +691,12 @@
 													{/if}
 												</div>
 												<p class="text-sm text-muted-foreground mt-1">
-													{project.id} • {project.locale}
+													{project.id}{#if project.institutions?.length} • {project.institutions.join(', ')}{:else if project.locale} • {project.locale}{/if}
 												</p>
 												<div class="flex flex-wrap gap-2 mt-2">
 													{#each project.researchSection || [] as section}
 														<a href={researchSectionsUrl(section)} class="hover:opacity-80 transition-opacity">
-															<Badge variant="secondary">{section}</Badge>
+															<SectionBadge {section} />
 														</a>
 													{/each}
 												</div>

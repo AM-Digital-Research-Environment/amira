@@ -1,4 +1,5 @@
 import type { CollectionItem, Project, Person, NetworkData } from '$lib/types';
+import { normalizeLanguageCode } from '$lib/utils/languages';
 
 /**
  * Build network data for person-institution relationships
@@ -335,7 +336,7 @@ export function buildSunburstData(
 
 	items.forEach((item) => {
 		const resourceType = item.typeOfResource || 'Unknown';
-		const languages = item.language?.length ? item.language : ['Unknown'];
+		const languages = item.language?.length ? item.language.map(normalizeLanguageCode) : ['Unknown'];
 		const subjects = item.subject?.map((s) => s.authLabel || s.origLabel).filter(Boolean) || [];
 
 		if (!typeMap.has(resourceType)) {

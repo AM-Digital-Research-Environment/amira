@@ -2,7 +2,7 @@
 	import { Sparkles, FileText, Briefcase } from '@lucide/svelte';
 	import { projects, allCollections } from '$lib/stores/data';
 	import type { Project, CollectionItem, BarChartDataPoint } from '$lib/types';
-	import { formatDate, getProjectTitle } from '$lib/utils/helpers';
+	import { formatDate, getProjectTitle, getSectionColor } from '$lib/utils/helpers';
 	import { projectUrl } from '$lib/utils/urls';
 	import { paginate } from '$lib/utils/pagination';
 	import SEO from '$lib/components/ui/seo.svelte';
@@ -102,20 +102,6 @@
 		}
 		return pids.size;
 	});
-
-	// Map research section names to global CSS variables
-	const SECTION_COLOR_MAP: Record<string, string> = {
-		'Affiliations': 'hsl(var(--rs-affiliations))',
-		'Arts & Aesthetics': 'hsl(var(--rs-arts-aesthetics))',
-		'Knowledges': 'hsl(var(--rs-knowledges))',
-		'Learning': 'hsl(var(--rs-learning))',
-		'Mobilities': 'hsl(var(--rs-mobilities))',
-		'Moralities': 'hsl(var(--rs-moralities))'
-	};
-
-	function getSectionColor(sectionName: string): string {
-		return SECTION_COLOR_MAP[sectionName] ?? 'hsl(var(--muted-foreground))';
-	}
 
 	// Recently added items grouped by resource type
 	let itemsByType: BarChartDataPoint[] = $derived.by(() => {

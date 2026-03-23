@@ -1,5 +1,6 @@
 import type { CollectionItem, Person, Project, DashboardStats } from '$lib/types';
 import { extractItemYear } from './dates';
+import { normalizeLanguageCode } from '$lib/utils/languages';
 
 /**
  * Calculate dashboard statistics
@@ -59,7 +60,7 @@ export function filterByResourceType(items: CollectionItem[], types: string[]): 
  */
 export function filterByLanguage(items: CollectionItem[], languages: string[]): CollectionItem[] {
 	if (!languages.length) return items;
-	return items.filter((item) => item.language?.some((lang) => languages.includes(lang)));
+	return items.filter((item) => item.language?.some((lang) => languages.includes(normalizeLanguageCode(lang))));
 }
 
 /**
@@ -76,7 +77,7 @@ export function getUniqueResourceTypes(items: CollectionItem[]): string[] {
 export function getUniqueLanguages(items: CollectionItem[]): string[] {
 	const languages = new Set<string>();
 	items.forEach((item) => {
-		item.language?.forEach((lang) => languages.add(lang));
+		item.language?.forEach((lang) => languages.add(normalizeLanguageCode(lang)));
 	});
 	return Array.from(languages).sort();
 }

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { StatCard, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination, BackToList, CollectionItemRow, SEO } from '$lib/components/ui';
+	import { StatCard, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination, BackToList, CollectionItemRow, SEO, SectionBadge } from '$lib/components/ui';
 	import { projects, allCollections, researchSections, persons } from '$lib/stores/data';
 	import { page } from '$app/stores';
 	import { researchSectionsUrl, projectUrl, subjectUrl, locationUrl, languageUrl, resourceTypeUrl } from '$lib/utils/urls';
@@ -603,11 +603,8 @@
 								{#snippet children()}
 									<div class="flex flex-wrap gap-2">
 										{#each [...selectedPerson.sections].sort() as section}
-											<a
-												href={researchSectionsUrl(section)}
-												class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-primary/10 text-primary text-sm font-medium hover:bg-primary/20 transition-colors"
-											>
-												{section}
+											<a href={researchSectionsUrl(section)} class="hover:opacity-80 transition-opacity">
+												<SectionBadge {section} />
 											</a>
 										{/each}
 									</div>
@@ -660,9 +657,7 @@
 														<div class="flex flex-wrap gap-1 mt-1.5">
 															{#each project.researchSection as section}
 																<a href={researchSectionsUrl(section)} class="hover:opacity-80 transition-opacity">
-																	<Badge variant="outline" class="text-[10px] hover:bg-primary/10 transition-colors">
-																		{#snippet children()}{section}{/snippet}
-																	</Badge>
+																	<SectionBadge {section} small />
 																</a>
 															{/each}
 														</div>

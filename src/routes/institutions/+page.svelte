@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { StatCard, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination, CollectionItemRow, BackToList, SEO } from '$lib/components/ui';
+	import { StatCard, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination, CollectionItemRow, BackToList, SEO, SectionBadge } from '$lib/components/ui';
 	import { projects, allCollections, persons, universitiesData } from '$lib/stores/data';
 	import { page } from '$app/stores';
 	import { personUrl, projectUrl, researchSectionsUrl } from '$lib/utils/urls';
@@ -340,9 +340,7 @@
 													<div class="flex flex-wrap gap-1 mt-1.5">
 														{#each project.researchSection as section}
 															<a href={researchSectionsUrl(section)} class="hover:opacity-80 transition-opacity">
-																<Badge variant="outline" class="text-[10px] hover:bg-primary/10 transition-colors">
-																	{#snippet children()}{section}{/snippet}
-																</Badge>
+																<SectionBadge {section} small />
 															</a>
 														{/each}
 													</div>

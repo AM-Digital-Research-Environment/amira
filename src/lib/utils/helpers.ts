@@ -1,6 +1,28 @@
 import type { CollectionItem, Project } from '$lib/types';
 
 /**
+ * Map research section names to their CSS variable colors
+ */
+const SECTION_COLOR_MAP: Record<string, string> = {
+	'Affiliations': 'var(--rs-affiliations)',
+	'Arts & Aesthetics': 'var(--rs-arts-aesthetics)',
+	'Knowledges': 'var(--rs-knowledges)',
+	'Learning': 'var(--rs-learning)',
+	'Mobilities': 'var(--rs-mobilities)',
+	'Moralities': 'var(--rs-moralities)'
+};
+
+export function getSectionColor(sectionName: string): string {
+	return SECTION_COLOR_MAP[sectionName]
+		? `hsl(${SECTION_COLOR_MAP[sectionName]})`
+		: 'hsl(var(--muted-foreground))';
+}
+
+export function getSectionColorHsl(sectionName: string): string {
+	return SECTION_COLOR_MAP[sectionName] ?? 'var(--muted-foreground)';
+}
+
+/**
  * Format a date for display, returning 'N/A' for null/invalid dates
  */
 export function formatDate(date: Date | null): string {
