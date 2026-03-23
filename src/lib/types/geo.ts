@@ -50,6 +50,18 @@ export interface RawGeolocSubregion {
 	};
 }
 
+export interface RawGeolocCity {
+	name: string;
+	country: string;
+	country_uri: string;
+	uri: string | null;
+	wikidata_label: string | null;
+	coordinates: {
+		lat: number | null;
+		long: number | null;
+	};
+}
+
 export interface EnrichedLocationsData {
 	countries: Record<string, WikidataLocation>;
 	regions: Record<string, WikidataLocation>;

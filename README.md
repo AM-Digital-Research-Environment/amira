@@ -121,6 +121,7 @@ src/
 │   │   │   ├── pagination.svelte, tabs.svelte
 │   │   │   ├── stat-card.svelte, chart-card.svelte
 │   │   │   ├── collection-item-row.svelte, back-to-list.svelte, empty-state.svelte
+│   │   │   ├── section-badge.svelte       # Research section badge with color dot
 │   │   │   └── wisski-link.svelte
 │   │   ├── charts/          # ECharts + MapLibre chart components (16 total)
 │   │   │   ├── EChart.svelte          # Base wrapper (theme, zoom, perf)
@@ -161,7 +162,7 @@ src/
 │       │   ├── mongoJSON.ts     # Parse MongoDB JSON exports
 │       │   ├── collectionLoader.ts  # Load university collection metadata
 │       │   └── geolocLoader.ts  # Load enriched geolocation data
-│       ├── helpers.ts       # Display helpers (formatDate, getItemTitle, getProjectTitle)
+│       ├── helpers.ts       # Display helpers (formatDate, getItemTitle, getProjectTitle, getSectionColor)
 │       ├── languages.ts     # ISO 639-2/3 language code to English name mapping
 │       ├── urls.ts          # Cross-linking URL builders for all entity types
 │       ├── urlSelection.ts  # URL query parameter sync for selection state
@@ -198,7 +199,8 @@ static/
     │   ├── dev.wisski_urls.json      # Pre-computed WissKI navigate URL mappings
     │   ├── dev.geoloc_countries.json # Countries with Wikidata coordinates
     │   ├── dev.geoloc_regions.json   # Regions with coordinates
-    │   └── dev.geoloc_subregions.json # Cities/subregions with coordinates
+    │   ├── dev.geoloc_subregions.json # Subregions with coordinates
+    │   └── dev.geoloc_cities.json    # Curated cities reconciled with Wikidata (96 entries)
     ├── manual/
     │   └── researchSections.json     # Section descriptions, objectives, PIs, members
     ├── knowledge_graphs/             # 2,228 per-item knowledge graph JSON files
@@ -217,7 +219,7 @@ Core research data exported from the WissKI MongoDB database:
 - **Persons**: Person records with institutional affiliations
 - **Institutions**: Institution and organization records
 - **Groups**: Research group records
-- **Geolocation**: Countries (217), regions (3,800+), and subregions (37,000+) with Wikidata-reconciled coordinates
+- **Geolocation**: Countries (217), regions (3,800+), subregions (37,000+), and curated cities (96) with Wikidata-reconciled coordinates
 - **WissKI URLs**: Pre-computed navigate URL mappings for deep-linking back to WissKI entities
 
 ### University collections (`static/data/projects_metadata_*/`)

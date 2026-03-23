@@ -3,7 +3,8 @@ import type {
 	WikidataLocation,
 	RawGeolocCountry,
 	RawGeolocRegion,
-	RawGeolocSubregion
+	RawGeolocSubregion,
+	RawGeolocCity
 } from '$lib/types';
 import { loadJSON } from './mongoJSON';
 
@@ -68,6 +69,23 @@ function transformSubregion(subregion: RawGeolocSubregion): WikidataLocation {
 }
 
 /**
+ * Transform raw geoloc city (from curated cities file) to WikidataLocation format
+ */
+function transformCity(city: RawGeolocCity): WikidataLocation {
+	return {
+		original_name: city.name,
+		wikidata_id: city.uri ? extractWikidataId(city.uri) : null,
+		wikidata_label: city.wikidata_label ?? city.name,
+		latitude: city.coordinates?.lat ?? null,
+		longitude: city.coordinates?.long ?? null,
+		country_code: null,
+		geonames_id: null,
+		description: null,
+		match_confidence: city.uri ? 'exact' : 'manual'
+	};
+}
+
+/**
  * Build lookup maps from URI to name for countries and regions
  */
 function buildUriToNameMaps(
@@ -89,16 +107,18 @@ function buildUriToNameMaps(
 
 /**
  * Load enriched location data from pre-reconciled geoloc files
- * Uses dev.geoloc_countries.json, dev.geoloc_regions.json, dev.geoloc_subregions.json
+ * Uses dev.geoloc_countries.json, dev.geoloc_regions.json, dev.geoloc_subregions.json,
+ * and dev.geoloc_cities.json (curated city data with Wikidata reconciliation)
  */
 export async function loadEnrichedLocations(
 	basePath: string = ''
 ): Promise<EnrichedLocationsData | null> {
 	try {
-		const [countriesRaw, regionsRaw, subregionsRaw] = await Promise.all([
+		const [countriesRaw, regionsRaw, subregionsRaw, citiesRaw] = await Promise.all([
 			loadJSON<RawGeolocCountry[]>(`${basePath}/data/dev/dev.geoloc_countries.json`),
 			loadJSON<RawGeolocRegion[]>(`${basePath}/data/dev/dev.geoloc_regions.json`),
-			loadJSON<RawGeolocSubregion[]>(`${basePath}/data/dev/dev.geoloc_subregions.json`)
+			loadJSON<RawGeolocSubregion[]>(`${basePath}/data/dev/dev.geoloc_subregions.json`),
+			loadJSON<RawGeolocCity[]>(`${basePath}/data/dev/dev.geoloc_cities.json`).catch(() => [] as RawGeolocCity[])
 		]);
 
 		// Build URI to name lookup maps
@@ -118,12 +138,18 @@ export async function loadEnrichedLocations(
 			regions[key] = transformRegion(region);
 		}
 
-		// Transform subregions (cities): keyed by "name|country"
+		// Transform subregions as base city data: keyed by "name|country"
 		const cities: Record<string, WikidataLocation> = {};
 		for (const subregion of subregionsRaw) {
 			const countryName = countryUriToName.get(subregion.country_uri) || '';
 			const key = countryName ? `${subregion.name}|${countryName}` : subregion.name;
 			cities[key] = transformSubregion(subregion);
+		}
+
+		// Overlay curated cities (takes priority over subregions)
+		for (const city of citiesRaw) {
+			const key = city.country ? `${city.name}|${city.country}` : city.name;
+			cities[key] = transformCity(city);
 		}
 
 		return {
@@ -136,9 +162,10 @@ export async function loadEnrichedLocations(
 				source_files: [
 					'dev.geoloc_countries.json',
 					'dev.geoloc_regions.json',
-					'dev.geoloc_subregions.json'
+					'dev.geoloc_subregions.json',
+					'dev.geoloc_cities.json'
 				],
-				total_locations: countriesRaw.length + regionsRaw.length + subregionsRaw.length
+				total_locations: countriesRaw.length + regionsRaw.length + subregionsRaw.length + citiesRaw.length
 			}
 		};
 	} catch (error) {
