@@ -1,14 +1,14 @@
 [
   {
     "_id": {
-      "$oid": "69bc2909c968a033aadec2aa"
+      "$oid": "69bd79b633f04aa0e9567f00"
     },
     "dre_id": "acu-03-0000",
     "bitstream": "010722_ItwA1_Fada1_OJ_v1.pdf",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -18,11 +18,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec un anonyme à Fada",
+        "title": "Interview avec un anonyme à Fada",
         "title_type": "main"
       },
       {
-        "title": "interview with an anonymous person in Fada",
+        "title": "Interview with an anonymous person in Fada",
         "title_type": "Translated"
       },
       {
@@ -44,10 +44,8 @@
           "label": "A1",
           "qualifier": "person"
         },
-        "affl": [
-          "Peasant"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -55,14 +53,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Peasant",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -93,18 +89,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -129,7 +113,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -170,26 +154,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:13.600Z"
+      "$date": "2026-03-20T17:45:42.115Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:13.600Z"
+      "$date": "2026-03-20T17:45:42.115Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc2909c968a033aadec2ab"
+      "$oid": "69bd79b633f04aa0e9567f01"
     },
     "dre_id": "acu-03-0001",
     "bitstream": "240522_ItwBM_Fada1_OJ_v1.pdf",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -199,11 +184,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Bamogo Monique",
+        "title": "Interview avec Bamogo Monique",
         "title_type": "main"
       },
       {
-        "title": "interview with Bamogo Monique",
+        "title": "Interview with Bamogo Monique",
         "title_type": "Translated"
       },
       {
@@ -226,9 +211,9 @@
           "qualifier": "person"
         },
         "affl": [
-          "Secretary general of Bitou town hall"
+          "Bitou Local Municipality"
         ],
-        "role": "interviewee"
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -236,14 +221,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Tradeswoman ",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -274,18 +257,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -310,7 +281,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -351,26 +322,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:13.647Z"
+      "$date": "2026-03-20T17:45:42.235Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:13.647Z"
+      "$date": "2026-03-20T17:45:42.235Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc2909c968a033aadec2ac"
+      "$oid": "69bd79b633f04aa0e9567f02"
     },
     "dre_id": "acu-03-0002",
     "bitstream": "240522_ItwBM_Fada1_OJ_v1.pdf",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -380,11 +352,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Bamogo Monique",
+        "title": "Interview avec Bamogo Monique",
         "title_type": "main"
       },
       {
-        "title": "interview with Bamogo Monique",
+        "title": "Interview with Bamogo Monique",
         "title_type": "Translated"
       },
       {
@@ -406,10 +378,8 @@
           "label": "Bamogo, Monique",
           "qualifier": "person"
         },
-        "affl": [
-          "Tradeswoman"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -417,14 +387,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Tradeswoman ",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -455,18 +423,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -491,7 +447,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -532,26 +488,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:13.682Z"
+      "$date": "2026-03-20T17:45:42.294Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:13.682Z"
+      "$date": "2026-03-20T17:45:42.294Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc2909c968a033aadec2ad"
+      "$oid": "69bd79b633f04aa0e9567f03"
     },
     "dre_id": "acu-03-0003",
     "bitstream": "300622_ItwCL1_Fada1_OJ_v1.pdf",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -561,11 +518,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Lompo Caandama",
+        "title": "Interview avec Lompo Caandama",
         "title_type": "main"
       },
       {
-        "title": "interview with Lompo Caandama",
+        "title": "Interview with Lompo Caandama",
         "title_type": "Translated"
       },
       {
@@ -587,10 +544,8 @@
           "label": "Lompo, Caandama",
           "qualifier": "person"
         },
-        "affl": [
-          "Farmer"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -598,14 +553,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Farmer",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -636,18 +589,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -672,7 +613,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -713,26 +654,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:13.704Z"
+      "$date": "2026-03-20T17:45:42.335Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:13.704Z"
+      "$date": "2026-03-20T17:45:42.335Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc2909c968a033aadec2ae"
+      "$oid": "69bd79b633f04aa0e9567f04"
     },
     "dre_id": "acu-03-0004",
     "bitstream": "020622_ItwCL2_Fada1_OJ_v1.pdf",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -742,11 +684,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Combary Larisse",
+        "title": "Interview avec Combary Larisse",
         "title_type": "main"
       },
       {
-        "title": "interview with Combary Larisse",
+        "title": "Interview with Combary Larisse",
         "title_type": "Translated"
       },
       {
@@ -768,10 +710,8 @@
           "label": "Combary, Larisse",
           "qualifier": "person"
         },
-        "affl": [
-          "Tradeswoman"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -779,14 +719,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Tradeswoman ",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -817,18 +755,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -853,7 +779,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -894,26 +820,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:13.726Z"
+      "$date": "2026-03-20T17:45:42.357Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:13.726Z"
+      "$date": "2026-03-20T17:45:42.357Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc2909c968a033aadec2af"
+      "$oid": "69bd79b633f04aa0e9567f05"
     },
     "dre_id": "acu-03-0005",
     "bitstream": "240522_ItwDM_Fada1_OJ_v1.pdf",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -923,11 +850,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Dahani Madeleine",
+        "title": "Interview avec Dahani Madeleine",
         "title_type": "main"
       },
       {
-        "title": "interview with Dahani Madeleine",
+        "title": "Interview with Dahani Madeleine",
         "title_type": "Translated"
       },
       {
@@ -949,10 +876,8 @@
           "label": "Dahani Madeleine",
           "qualifier": "person"
         },
-        "affl": [
-          "Tradeswoman"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -960,14 +885,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Tradeswoman ",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -998,18 +921,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -1034,7 +945,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -1075,26 +986,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:13.758Z"
+      "$date": "2026-03-20T17:45:42.422Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:13.758Z"
+      "$date": "2026-03-20T17:45:42.422Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc2909c968a033aadec2b0"
+      "$oid": "69bd79b633f04aa0e9567f06"
     },
     "dre_id": "acu-03-0006",
     "bitstream": "260522_ItwHM_Fada1_OJ_v1.pdf",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -1104,11 +1016,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Haro Marenga",
+        "title": "Interview avec Haro Marenga",
         "title_type": "main"
       },
       {
-        "title": "interview with Haro Marenga",
+        "title": "Interview with Haro Marenga",
         "title_type": "Translated"
       },
       {
@@ -1130,10 +1042,8 @@
           "label": "Haro, Marenga",
           "qualifier": "person"
         },
-        "affl": [
-          "Teacher"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -1141,14 +1051,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Teacher",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -1179,18 +1087,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -1215,7 +1111,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -1256,26 +1152,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:13.780Z"
+      "$date": "2026-03-20T17:45:42.485Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:13.780Z"
+      "$date": "2026-03-20T17:45:42.485Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc2909c968a033aadec2b1"
+      "$oid": "69bd79b633f04aa0e9567f07"
     },
     "dre_id": "acu-03-0007",
     "bitstream": "260522_ItwHY_Fada1_OJ_v1.pdf",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -1285,11 +1182,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Haro Yemboiro",
+        "title": "Interview avec Haro Yemboiro",
         "title_type": "main"
       },
       {
-        "title": "interview with Haro Yemboiro",
+        "title": "Interview with Haro Yemboiro",
         "title_type": "Translated"
       },
       {
@@ -1311,10 +1208,8 @@
           "label": "Haro, Yemboiro",
           "qualifier": "person"
         },
-        "affl": [
-          "Teacher"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -1322,14 +1217,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Teacher",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -1360,18 +1253,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -1396,7 +1277,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -1437,26 +1318,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:13.804Z"
+      "$date": "2026-03-20T17:45:42.557Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:13.804Z"
+      "$date": "2026-03-20T17:45:42.557Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc2909c968a033aadec2b2"
+      "$oid": "69bd79b633f04aa0e9567f08"
     },
     "dre_id": "acu-03-0008",
     "bitstream": "270522_ItwIB_Fada1_OJ_v1.pdf",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -1466,11 +1348,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Idani Barkissa",
+        "title": "Interview avec Idani Barkissa",
         "title_type": "main"
       },
       {
-        "title": "interview with Idani Barkissa",
+        "title": "Interview with Idani Barkissa",
         "title_type": "Translated"
       },
       {
@@ -1492,10 +1374,8 @@
           "label": "Idani, Barkissa",
           "qualifier": "person"
         },
-        "affl": [
-          "Tradeswoman"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -1503,14 +1383,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Tradeswoman ",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -1541,18 +1419,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -1577,7 +1443,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -1618,26 +1484,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:13.835Z"
+      "$date": "2026-03-20T17:45:42.589Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:13.835Z"
+      "$date": "2026-03-20T17:45:42.589Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc2909c968a033aadec2b3"
+      "$oid": "69bd79b633f04aa0e9567f09"
     },
     "dre_id": "acu-03-0009",
     "bitstream": "070622_ItwKR_Fada1_OJ_v1.pdf",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -1647,11 +1514,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Kiema Raogo",
+        "title": "Interview avec Kiema Raogo",
         "title_type": "main"
       },
       {
-        "title": "interview with Kiema Raogo",
+        "title": "Interview with Kiema Raogo",
         "title_type": "Translated"
       },
       {
@@ -1673,10 +1540,8 @@
           "label": "Kiema, Raogo",
           "qualifier": "person"
         },
-        "affl": [
-          "Radio technician"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -1684,14 +1549,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Radio technician",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -1722,18 +1585,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -1758,7 +1609,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -1799,26 +1650,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:13.869Z"
+      "$date": "2026-03-20T17:45:42.613Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:13.869Z"
+      "$date": "2026-03-20T17:45:42.613Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc2909c968a033aadec2b4"
+      "$oid": "69bd79b633f04aa0e9567f0a"
     },
     "dre_id": "acu-03-000a",
     "bitstream": "240522_ItwKA_Fada1_OJ_v1.pdf",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -1828,11 +1680,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Koadima Abdou",
+        "title": "Interview avec Koadima Abdou",
         "title_type": "main"
       },
       {
-        "title": "interview with Koadima Abdou",
+        "title": "Interview with Koadima Abdou",
         "title_type": "Translated"
       },
       {
@@ -1854,10 +1706,8 @@
           "label": "Koadima, Abdou",
           "qualifier": "person"
         },
-        "affl": [
-          "Liberal"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -1865,14 +1715,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Liberal",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -1903,18 +1751,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -1939,7 +1775,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -1980,26 +1816,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:13.893Z"
+      "$date": "2026-03-20T17:45:42.678Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:13.893Z"
+      "$date": "2026-03-20T17:45:42.678Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc2909c968a033aadec2b5"
+      "$oid": "69bd79b633f04aa0e9567f0b"
     },
     "dre_id": "acu-03-000b",
     "bitstream": "100622_ItwLP_Fada1_OJ_v1.pdf",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -2009,11 +1846,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Lompo Palamanga",
+        "title": "Interview avec Lompo Palamanga",
         "title_type": "main"
       },
       {
-        "title": "interview with Lompo Palamanga",
+        "title": "Interview with Lompo Palamanga",
         "title_type": "Translated"
       },
       {
@@ -2035,10 +1872,8 @@
           "label": "Lompo, Palamanga",
           "qualifier": "person"
         },
-        "affl": [
-          "Driver"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -2046,14 +1881,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Driver",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -2084,18 +1917,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -2120,7 +1941,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -2161,26 +1982,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:13.913Z"
+      "$date": "2026-03-20T17:45:42.744Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:13.913Z"
+      "$date": "2026-03-20T17:45:42.744Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc2909c968a033aadec2b6"
+      "$oid": "69bd79b633f04aa0e9567f0c"
     },
     "dre_id": "acu-03-000c",
     "bitstream": "100622_ItwLY_Fada1_OJ_v1.pdf",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -2190,11 +2012,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Lompo Yienlemba",
+        "title": "Interview avec Lompo Yienlemba",
         "title_type": "main"
       },
       {
-        "title": "interview with Lompo Yienlemba",
+        "title": "Interview with Lompo Yienlemba",
         "title_type": "Translated"
       },
       {
@@ -2216,10 +2038,8 @@
           "label": "Lompo, Yienlemba",
           "qualifier": "person"
         },
-        "affl": [
-          "Trader"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -2227,14 +2047,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Trader",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -2265,18 +2083,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -2301,7 +2107,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -2342,26 +2148,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:13.935Z"
+      "$date": "2026-03-20T17:45:42.779Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:13.935Z"
+      "$date": "2026-03-20T17:45:42.779Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc2909c968a033aadec2b7"
+      "$oid": "69bd79b633f04aa0e9567f0d"
     },
     "dre_id": "acu-03-000d",
     "bitstream": "280522_ItwDB_Fada1_OJ_v1.pdf",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -2371,11 +2178,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Djibougou Boukary",
+        "title": "Interview avec Djibougou Boukary",
         "title_type": "main"
       },
       {
-        "title": "interview with Djibougou Boukary",
+        "title": "Interview with Djibougou Boukary",
         "title_type": "Translated"
       },
       {
@@ -2397,10 +2204,8 @@
           "label": "Djibougou, Boukary",
           "qualifier": "person"
         },
-        "affl": [
-          "Farmer"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -2408,14 +2213,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Farmer",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -2446,18 +2249,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -2482,7 +2273,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -2523,26 +2314,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:13.958Z"
+      "$date": "2026-03-20T17:45:42.801Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:13.958Z"
+      "$date": "2026-03-20T17:45:42.801Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc2909c968a033aadec2b8"
+      "$oid": "69bd79b633f04aa0e9567f0e"
     },
     "dre_id": "acu-03-000e",
     "bitstream": "010622_ItwOL_Fada1_OJ_v1.pdf",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -2552,11 +2344,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Onadja Lalé",
+        "title": "Interview avec Onadja Lalé",
         "title_type": "main"
       },
       {
-        "title": "interview with Onadja Lalé",
+        "title": "Interview with Onadja Lalé",
         "title_type": "Translated"
       },
       {
@@ -2578,10 +2370,8 @@
           "label": "Onadja, Lalé",
           "qualifier": "person"
         },
-        "affl": [
-          "Farmer"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -2589,14 +2379,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Farmer",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -2627,18 +2415,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -2663,7 +2439,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -2704,26 +2480,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:13.980Z"
+      "$date": "2026-03-20T17:45:42.867Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:13.980Z"
+      "$date": "2026-03-20T17:45:42.867Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290ac968a033aadec2b9"
+      "$oid": "69bd79b633f04aa0e9567f0f"
     },
     "dre_id": "acu-03-000f",
     "bitstream": "270522_fg1_Fada1_OJ_v1.pdf",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -2733,11 +2510,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec plusieurs personnes ressources",
+        "title": "Interview avec plusieurs personnes ressources",
         "title_type": "main"
       },
       {
-        "title": "interview with many persons",
+        "title": "Interview with many persons",
         "title_type": "Translated"
       },
       {
@@ -2759,10 +2536,8 @@
           "label": "Onadja, Tapoa i",
           "qualifier": "person"
         },
-        "affl": [
-          "Local population"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -2770,9 +2545,9 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       },
       {
         "name": {
@@ -2783,9 +2558,7 @@
         "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Local population",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -2816,18 +2589,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -2852,7 +2613,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -2893,26 +2654,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:14.005Z"
+      "$date": "2026-03-20T17:45:42.923Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:14.005Z"
+      "$date": "2026-03-20T17:45:42.923Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290ac968a033aadec2ba"
+      "$oid": "69bd79b633f04aa0e9567f10"
     },
     "dre_id": "acu-03-0010",
     "bitstream": "020622_fg2_Fada1_OJ_v1.pdf",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -2922,11 +2684,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec plusieurs personnes ressources",
+        "title": "Interview avec plusieurs personnes ressources",
         "title_type": "main"
       },
       {
-        "title": "interview with many persons",
+        "title": "Interview with many persons",
         "title_type": "Translated"
       },
       {
@@ -2948,10 +2710,8 @@
           "label": "ONAKODO Lardja",
           "qualifier": "person"
         },
-        "affl": [
-          "Local population"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -2959,9 +2719,9 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       },
       {
         "name": {
@@ -2973,16 +2733,14 @@
       },
       {
         "name": {
-          "label": "THIOMBIANO, Nawadia",
+          "label": "Thiombiano, Nawadia",
           "qualifier": "person"
         },
         "affl": [],
         "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Local population",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -3013,18 +2771,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -3049,7 +2795,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -3090,26 +2836,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:14.025Z"
+      "$date": "2026-03-20T17:45:42.944Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:14.025Z"
+      "$date": "2026-03-20T17:45:42.944Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290ac968a033aadec2bb"
+      "$oid": "69bd79b733f04aa0e9567f11"
     },
     "dre_id": "acu-03-0011",
     "bitstream": "260522_fg3_Fada1_OJ_v1.pdf",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -3119,11 +2866,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec plusieurs personnes ressources",
+        "title": "Interview avec plusieurs personnes ressources",
         "title_type": "main"
       },
       {
-        "title": "interview with many persons",
+        "title": "Interview with many persons",
         "title_type": "Translated"
       },
       {
@@ -3145,10 +2892,8 @@
           "label": "OUEDRAOGO Karim et OUEDRAOGO Rasmané",
           "qualifier": "person"
         },
-        "affl": [
-          "Local population"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -3156,14 +2901,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Local population",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -3194,18 +2937,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -3230,7 +2961,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -3271,26 +3002,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:14.049Z"
+      "$date": "2026-03-20T17:45:43.038Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:14.049Z"
+      "$date": "2026-03-20T17:45:43.038Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290ac968a033aadec2bc"
+      "$oid": "69bd79b733f04aa0e9567f12"
     },
     "dre_id": "acu-03-0012",
     "bitstream": "100622_ItwOS_Fada1_OJ_v1.pdf",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -3300,11 +3032,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Ouédraogo Souley",
+        "title": "Interview avec Ouédraogo Souley",
         "title_type": "main"
       },
       {
-        "title": "interview with Ouedraogo Souley",
+        "title": "Interview with Ouedraogo Souley",
         "title_type": "Translated"
       },
       {
@@ -3326,10 +3058,8 @@
           "label": "Ouédraogo, Souley",
           "qualifier": "person"
         },
-        "affl": [
-          "Trader"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -3337,14 +3067,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Trader",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -3375,18 +3103,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -3411,7 +3127,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -3452,26 +3168,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:14.071Z"
+      "$date": "2026-03-20T17:45:43.061Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:14.071Z"
+      "$date": "2026-03-20T17:45:43.061Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290ac968a033aadec2bd"
+      "$oid": "69bd79b733f04aa0e9567f13"
     },
     "dre_id": "acu-03-0013",
     "bitstream": "160622_ItwOB_Fada1_OJ_v1.pdf",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -3481,11 +3198,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Ouoba Bedari",
+        "title": "Interview avec Ouoba Bedari",
         "title_type": "main"
       },
       {
-        "title": "interview with Ouoba Bedari",
+        "title": "Interview with Ouoba Bedari",
         "title_type": "Translated"
       },
       {
@@ -3507,10 +3224,8 @@
           "label": "Ouoba, Bedari",
           "qualifier": "person"
         },
-        "affl": [
-          "Farmer"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -3518,14 +3233,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Farmer",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -3556,18 +3269,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -3592,7 +3293,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -3633,26 +3334,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:14.092Z"
+      "$date": "2026-03-20T17:45:43.127Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:14.092Z"
+      "$date": "2026-03-20T17:45:43.127Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290ac968a033aadec2be"
+      "$oid": "69bd79b733f04aa0e9567f14"
     },
     "dre_id": "acu-03-0014",
     "bitstream": "160522_ItwOK_Fada1_OJ_v1.pdf",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -3662,11 +3364,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Koagri",
+        "title": "Interview avec Koagri",
         "title_type": "main"
       },
       {
-        "title": "interview with Koagri",
+        "title": "Interview with Koagri",
         "title_type": "Translated"
       },
       {
@@ -3688,10 +3390,8 @@
           "label": "Ouoba, Koagri",
           "qualifier": "person"
         },
-        "affl": [
-          "Farmer"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -3699,14 +3399,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Farmer",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -3737,18 +3435,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -3773,7 +3459,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -3814,26 +3500,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:14.114Z"
+      "$date": "2026-03-20T17:45:43.187Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:14.114Z"
+      "$date": "2026-03-20T17:45:43.187Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290ac968a033aadec2bf"
+      "$oid": "69bd79b733f04aa0e9567f15"
     },
     "dre_id": "acu-03-0015",
     "bitstream": "250622_ItwSD_Fada1_OJ_v1.pdf",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -3843,11 +3530,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Safo Djibril",
+        "title": "Interview avec Safo Djibril",
         "title_type": "main"
       },
       {
-        "title": "interview with Safo Djibril",
+        "title": "Interview with Safo Djibril",
         "title_type": "Translated"
       },
       {
@@ -3869,10 +3556,8 @@
           "label": "Safo, Djibril",
           "qualifier": "person"
         },
-        "affl": [
-          "Fashion designer"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -3880,14 +3565,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Fashion designer",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -3918,18 +3601,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -3954,7 +3625,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -3995,26 +3666,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:14.135Z"
+      "$date": "2026-03-20T17:45:43.253Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:14.135Z"
+      "$date": "2026-03-20T17:45:43.253Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290ac968a033aadec2c0"
+      "$oid": "69bd79b733f04aa0e9567f16"
     },
     "dre_id": "acu-03-0016",
     "bitstream": "090622_ItwSM_Fada1_OJ_v1.pdf",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -4024,11 +3696,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Sagnan Malou",
+        "title": "Interview avec Sagnan Malou",
         "title_type": "main"
       },
       {
-        "title": "interview with Sagnan Malou",
+        "title": "Interview with Sagnan Malou",
         "title_type": "Translated"
       },
       {
@@ -4050,10 +3722,8 @@
           "label": "Sagnan, Malou",
           "qualifier": "person"
         },
-        "affl": [
-          "Health worker"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -4061,14 +3731,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Health worker",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -4099,18 +3767,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -4135,7 +3791,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -4176,26 +3832,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:14.156Z"
+      "$date": "2026-03-20T17:45:43.299Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:14.156Z"
+      "$date": "2026-03-20T17:45:43.299Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290ac968a033aadec2c1"
+      "$oid": "69bd79b733f04aa0e9567f17"
     },
     "dre_id": "acu-03-0017",
     "bitstream": "270522_ItwSAD_Fada1_OJ_v1.pdf",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -4205,11 +3862,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Sambieni Aguima Diane",
+        "title": "Interview avec Sambieni Aguima Diane",
         "title_type": "main"
       },
       {
-        "title": "interview with Sambieni Aguima Diane",
+        "title": "Interview with Sambieni Aguima Diane",
         "title_type": "Translated"
       },
       {
@@ -4231,10 +3888,8 @@
           "label": "Sambieni, Aguima Diane",
           "qualifier": "person"
         },
-        "affl": [
-          "Tradeswoman"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -4242,14 +3897,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Tradeswoman ",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -4280,18 +3933,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -4316,7 +3957,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -4357,26 +3998,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:14.180Z"
+      "$date": "2026-03-20T17:45:43.323Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:14.180Z"
+      "$date": "2026-03-20T17:45:43.323Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290ac968a033aadec2c2"
+      "$oid": "69bd79b733f04aa0e9567f18"
     },
     "dre_id": "acu-03-0018",
     "bitstream": "070622_ItwSL_Fada1_OJ_v1.pdf",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -4386,11 +4028,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Sangli Louis",
+        "title": "Interview avec Sangli Louis",
         "title_type": "main"
       },
       {
-        "title": "interview with Sangli Louis",
+        "title": "Interview with Sangli Louis",
         "title_type": "Translated"
       },
       {
@@ -4412,10 +4054,8 @@
           "label": "Sangli, Louis",
           "qualifier": "person"
         },
-        "affl": [
-          "Manager of family affairs"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -4423,14 +4063,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Manager of family affairs",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -4461,18 +4099,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -4497,7 +4123,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -4538,26 +4164,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:14.218Z"
+      "$date": "2026-03-20T17:45:43.388Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:14.218Z"
+      "$date": "2026-03-20T17:45:43.388Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290ac968a033aadec2c3"
+      "$oid": "69bd79b733f04aa0e9567f19"
     },
     "dre_id": "acu-03-0019",
     "bitstream": "150622_ItwTY_Fada1_OJ_v1.pdf",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -4567,11 +4194,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Tandamba Yempabou",
+        "title": "Interview avec Tandamba Yempabou",
         "title_type": "main"
       },
       {
-        "title": "interview with Tandamba Yempabou",
+        "title": "Interview with Tandamba Yempabou",
         "title_type": "Translated"
       },
       {
@@ -4593,10 +4220,8 @@
           "label": "Tandamba, Yempabou",
           "qualifier": "person"
         },
-        "affl": [
-          "Kiosk manager"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -4604,14 +4229,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Kiosk manager",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -4642,18 +4265,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -4678,7 +4289,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -4719,26 +4330,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:14.240Z"
+      "$date": "2026-03-20T17:45:43.432Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:14.240Z"
+      "$date": "2026-03-20T17:45:43.432Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290ac968a033aadec2c4"
+      "$oid": "69bd79b733f04aa0e9567f1a"
     },
     "dre_id": "acu-03-001a",
     "bitstream": "010622_ItwTDR_Fada1_OJ_v1.pdf",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -4748,11 +4360,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Tankoano Diéyabidi Romaric",
+        "title": "Interview avec Tankoano Diéyabidi Romaric",
         "title_type": "main"
       },
       {
-        "title": "interview with Tankoano Dieyabidi Romaric",
+        "title": "Interview with Tankoano Dieyabidi Romaric",
         "title_type": "Translated"
       },
       {
@@ -4774,10 +4386,8 @@
           "label": "Tankoano, Diéyabidi Romaric",
           "qualifier": "person"
         },
-        "affl": [
-          "Assembly technician"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -4785,14 +4395,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Assembly technician",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -4823,18 +4431,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -4859,7 +4455,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -4900,26 +4496,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:14.261Z"
+      "$date": "2026-03-20T17:45:43.453Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:14.261Z"
+      "$date": "2026-03-20T17:45:43.453Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290ac968a033aadec2c5"
+      "$oid": "69bd79b733f04aa0e9567f1b"
     },
     "dre_id": "acu-03-001b",
     "bitstream": "310522_ItwTK_Fada1_OJ_v1.pdf",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -4929,11 +4526,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Tankoano Kondja",
+        "title": "Interview avec Tankoano Kondja",
         "title_type": "main"
       },
       {
-        "title": "interview with Tankoano Kondja",
+        "title": "Interview with Tankoano Kondja",
         "title_type": "Translated"
       },
       {
@@ -4955,10 +4552,8 @@
           "label": "Tankoano, Kondja",
           "qualifier": "person"
         },
-        "affl": [
-          "Farmer"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -4966,14 +4561,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Farmer",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -5004,18 +4597,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -5040,7 +4621,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -5081,26 +4662,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:14.284Z"
+      "$date": "2026-03-20T17:45:43.563Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:14.284Z"
+      "$date": "2026-03-20T17:45:43.563Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290ac968a033aadec2c6"
+      "$oid": "69bd79b733f04aa0e9567f1c"
     },
     "dre_id": "acu-03-001c",
     "bitstream": "130622_ItwTO_Fada1_OJ_v1.pdf",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -5110,11 +4692,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Tankoano Ousséni",
+        "title": "Interview avec Tankoano Ousséni",
         "title_type": "main"
       },
       {
-        "title": "interview with Tankoano Ousseni",
+        "title": "Interview with Tankoano Ousseni",
         "title_type": "Translated"
       },
       {
@@ -5136,10 +4718,8 @@
           "label": "Tankoano, Ousséni",
           "qualifier": "person"
         },
-        "affl": [
-          "Association FANDIMA Manager"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -5147,14 +4727,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Association FANDIMA Manager",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -5185,18 +4763,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -5221,7 +4787,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -5262,26 +4828,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:14.305Z"
+      "$date": "2026-03-20T17:45:43.616Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:14.305Z"
+      "$date": "2026-03-20T17:45:43.616Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290ac968a033aadec2c7"
+      "$oid": "69bd79b733f04aa0e9567f1d"
     },
     "dre_id": "acu-03-001d",
     "bitstream": "130622_ItwTA_Fada1_OJ_v1.pdf",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -5291,11 +4858,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Thiombiano Agathe",
+        "title": "Interview avec Thiombiano Agathe",
         "title_type": "main"
       },
       {
-        "title": "interview with Thiombiano Agathe",
+        "title": "Interview with Thiombiano Agathe",
         "title_type": "Translated"
       },
       {
@@ -5317,10 +4884,8 @@
           "label": "Thiombiano, Agathe",
           "qualifier": "person"
         },
-        "affl": [
-          "student"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -5328,14 +4893,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a student ",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -5366,18 +4929,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -5402,7 +4953,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -5443,26 +4994,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:14.326Z"
+      "$date": "2026-03-20T17:45:43.642Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:14.326Z"
+      "$date": "2026-03-20T17:45:43.642Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290ac968a033aadec2c8"
+      "$oid": "69bd79b733f04aa0e9567f1e"
     },
     "dre_id": "acu-03-001e",
     "bitstream": "280522_ItwTG_Fada1_OJ_v1.pdf",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -5472,11 +5024,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Thiombiano Gabiliga",
+        "title": "Interview avec Thiombiano Gabiliga",
         "title_type": "main"
       },
       {
-        "title": "interview with Thiombiano Gabiliga",
+        "title": "Interview with Thiombiano Gabiliga",
         "title_type": "Translated"
       },
       {
@@ -5498,10 +5050,8 @@
           "label": "Thiombiano, Gabiliga",
           "qualifier": "person"
         },
-        "affl": [
-          "School and university administration officer"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -5509,14 +5059,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a School and university administration officer",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -5547,18 +5095,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -5583,7 +5119,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -5624,26 +5160,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:14.348Z"
+      "$date": "2026-03-20T17:45:43.698Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:14.348Z"
+      "$date": "2026-03-20T17:45:43.698Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290ac968a033aadec2c9"
+      "$oid": "69bd79b733f04aa0e9567f1f"
     },
     "dre_id": "acu-03-001f",
     "bitstream": "090522_ItwTH_Fada1_OJ_v1.pdf",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -5653,11 +5190,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Thiombiano Hamidou",
+        "title": "Interview avec Thiombiano Hamidou",
         "title_type": "main"
       },
       {
-        "title": "interview with Thiombiano Hamidou",
+        "title": "Interview with Thiombiano Hamidou",
         "title_type": "Translated"
       },
       {
@@ -5679,10 +5216,8 @@
           "label": "Thiombiano, Hamidou",
           "qualifier": "person"
         },
-        "affl": [
-          "Farmer"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -5690,14 +5225,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Farmer",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -5728,18 +5261,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -5764,7 +5285,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -5805,26 +5326,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:14.369Z"
+      "$date": "2026-03-20T17:45:43.764Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:14.369Z"
+      "$date": "2026-03-20T17:45:43.764Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290ac968a033aadec2ca"
+      "$oid": "69bd79b733f04aa0e9567f20"
     },
     "dre_id": "acu-03-0020",
     "bitstream": "030622_ItwYK_Fada1_OJ_v1.pdf",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -5834,11 +5356,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Yonli Kanbaaba",
+        "title": "Interview avec Yonli Kanbaaba",
         "title_type": "main"
       },
       {
-        "title": "interview with Yonli Kanbaaba",
+        "title": "Interview with Yonli Kanbaaba",
         "title_type": "Translated"
       },
       {
@@ -5860,10 +5382,8 @@
           "label": "Yonly, Kanbaaba",
           "qualifier": "person"
         },
-        "affl": [
-          "International NGO facilitator"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -5871,14 +5391,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a International NGO facilitator",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -5909,18 +5427,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -5945,7 +5451,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -5986,26 +5492,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:14.390Z"
+      "$date": "2026-03-20T17:45:43.794Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:14.390Z"
+      "$date": "2026-03-20T17:45:43.794Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290ac968a033aadec2cb"
+      "$oid": "69bd79b733f04aa0e9567f21"
     },
     "dre_id": "acu-03-0021",
     "bitstream": "140622_ItwOY_Fada1_OJ_v1.pdf",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -6015,11 +5522,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Ouali Yempabou",
+        "title": "Interview avec Ouali Yempabou",
         "title_type": "main"
       },
       {
-        "title": "interview with Ouali Yempabou",
+        "title": "Interview with Ouali Yempabou",
         "title_type": "Translated"
       },
       {
@@ -6041,10 +5548,8 @@
           "label": "Ouali, Yempabou",
           "qualifier": "person"
         },
-        "affl": [
-          "Human Resources Director Fada town hall"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -6052,14 +5557,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Human Resources Director Fada town hall",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -6090,18 +5593,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -6126,7 +5617,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -6167,26 +5658,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:14.415Z"
+      "$date": "2026-03-20T17:45:43.817Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:14.415Z"
+      "$date": "2026-03-20T17:45:43.818Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290ac968a033aadec2cc"
+      "$oid": "69bd79b733f04aa0e9567f22"
     },
     "dre_id": "acu-03-0022",
     "bitstream": "070922_fg4_Fada1_OJ_v1.pdf",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -6196,11 +5688,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec plusieurs personnes ressources",
+        "title": "Interview avec plusieurs personnes ressources",
         "title_type": "main"
       },
       {
-        "title": "interview with many persons",
+        "title": "Interview with many persons",
         "title_type": "Translated"
       },
       {
@@ -6222,10 +5714,8 @@
           "label": "Focus groupe",
           "qualifier": "person"
         },
-        "affl": [
-          "Local population"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -6233,14 +5723,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Local population",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -6271,18 +5759,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -6307,7 +5783,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -6348,26 +5824,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:14.438Z"
+      "$date": "2026-03-20T17:45:43.889Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:14.438Z"
+      "$date": "2026-03-20T17:45:43.889Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290ac968a033aadec2cd"
+      "$oid": "69bd79b733f04aa0e9567f23"
     },
     "dre_id": "acu-03-0023",
     "bitstream": "070922_fg5_Fada_OJ_v1.pdf",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -6377,11 +5854,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec plusieurs personnes ressources",
+        "title": "Interview avec plusieurs personnes ressources",
         "title_type": "main"
       },
       {
-        "title": "interview with many persons",
+        "title": "Interview with many persons",
         "title_type": "Translated"
       },
       {
@@ -6403,10 +5880,8 @@
           "label": "Focus groupe",
           "qualifier": "person"
         },
-        "affl": [
-          "Local population"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -6414,14 +5889,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Local population",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -6452,18 +5925,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -6488,7 +5949,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -6529,26 +5990,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:14.474Z"
+      "$date": "2026-03-20T17:45:43.946Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:14.474Z"
+      "$date": "2026-03-20T17:45:43.946Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290ac968a033aadec2ce"
+      "$oid": "69bd79b733f04aa0e9567f24"
     },
     "dre_id": "acu-03-0024",
     "bitstream": "250522_ItwDAD_Ouaga1_OSN_v1.pdf",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -6558,11 +6020,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Diabri Ahandi David",
+        "title": "Interview avec Diabri Ahandi David",
         "title_type": "main"
       },
       {
-        "title": "interview with Diabri Ahandi David",
+        "title": "Interview with Diabri Ahandi David",
         "title_type": "Translated"
       },
       {
@@ -6584,10 +6046,8 @@
           "label": "Diabri, Ahandi David",
           "qualifier": "person"
         },
-        "affl": [
-          "Farmer"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -6595,14 +6055,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Farmer",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -6633,18 +6091,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -6669,7 +6115,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -6710,26 +6156,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:14.496Z"
+      "$date": "2026-03-20T17:45:43.995Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:14.496Z"
+      "$date": "2026-03-20T17:45:43.995Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290ac968a033aadec2cf"
+      "$oid": "69bd79b833f04aa0e9567f25"
     },
     "dre_id": "acu-03-0025",
     "bitstream": "250522_ItwDA_Ouaga1_OSN_v1.pdf",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -6739,11 +6186,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Dicko Adama",
+        "title": "Interview avec Dicko Adama",
         "title_type": "main"
       },
       {
-        "title": "interview with Dicko Adama",
+        "title": "Interview with Dicko Adama",
         "title_type": "Translated"
       },
       {
@@ -6765,10 +6212,8 @@
           "label": "Dicko, Adama",
           "qualifier": "person"
         },
-        "affl": [
-          "Farmer"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -6776,14 +6221,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Farmer",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -6814,18 +6257,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -6850,7 +6281,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -6892,26 +6323,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:14.517Z"
+      "$date": "2026-03-20T17:45:44.019Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:14.517Z"
+      "$date": "2026-03-20T17:45:44.019Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290ac968a033aadec2d0"
+      "$oid": "69bd79b833f04aa0e9567f26"
     },
     "dre_id": "acu-03-0026",
     "bitstream": "270522_ItwLK_Ouaga1_OSN_v1.pdf",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -6921,11 +6353,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Lankoande Kpahili",
+        "title": "Interview avec Lankoande Kpahili",
         "title_type": "main"
       },
       {
-        "title": "interview with Lankoande Kpahili",
+        "title": "Interview with Lankoande Kpahili",
         "title_type": "Translated"
       },
       {
@@ -6947,10 +6379,8 @@
           "label": "Lankoande, Kpahili",
           "qualifier": "person"
         },
-        "affl": [
-          "Farmer"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -6958,14 +6388,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Farmer",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -6996,18 +6424,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -7032,7 +6448,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -7073,26 +6489,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:14.547Z"
+      "$date": "2026-03-20T17:45:44.079Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:14.547Z"
+      "$date": "2026-03-20T17:45:44.079Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290ac968a033aadec2d1"
+      "$oid": "69bd79b833f04aa0e9567f27"
     },
     "dre_id": "acu-03-0027",
     "bitstream": "260522_ItwOG_Ouaga1_OSN_v1.pdf",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -7102,11 +6519,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Ouali Gbabili",
+        "title": "Interview avec Ouali Gbabili",
         "title_type": "main"
       },
       {
-        "title": "interview with Ouali Gbabili",
+        "title": "Interview with Ouali Gbabili",
         "title_type": "Translated"
       },
       {
@@ -7128,10 +6545,8 @@
           "label": "Ouali, Gbabili",
           "qualifier": "person"
         },
-        "affl": [
-          "Farmer"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -7139,14 +6554,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Farmer",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -7177,18 +6590,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -7213,7 +6614,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -7254,26 +6655,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:14.569Z"
+      "$date": "2026-03-20T17:45:44.148Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:14.569Z"
+      "$date": "2026-03-20T17:45:44.148Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290ac968a033aadec2d2"
+      "$oid": "69bd79b833f04aa0e9567f28"
     },
     "dre_id": "acu-03-0028",
     "bitstream": "130622_fg_Fada1_BM1_v1.pdf",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -7283,11 +6685,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec plusieurs personnes ressources",
+        "title": "Interview avec plusieurs personnes ressources",
         "title_type": "main"
       },
       {
-        "title": "interview with many persons",
+        "title": "Interview with many persons",
         "title_type": "Translated"
       },
       {
@@ -7309,10 +6711,8 @@
           "label": "Focus groupe",
           "qualifier": "person"
         },
-        "affl": [
-          "Local population"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -7320,14 +6720,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Local population",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -7358,18 +6756,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -7394,7 +6780,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -7435,26 +6821,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:14.594Z"
+      "$date": "2026-03-20T17:45:44.187Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:14.594Z"
+      "$date": "2026-03-20T17:45:44.187Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290ac968a033aadec2d3"
+      "$oid": "69bd79b833f04aa0e9567f29"
     },
     "dre_id": "acu-03-0029",
     "bitstream": "100622_fg_Fada1_BM2_v1.pdf",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -7464,11 +6851,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec plusieurs personnes ressources",
+        "title": "Interview avec plusieurs personnes ressources",
         "title_type": "main"
       },
       {
-        "title": "interview with many persons",
+        "title": "Interview with many persons",
         "title_type": "Translated"
       },
       {
@@ -7490,10 +6877,8 @@
           "label": "Focus groupe",
           "qualifier": "person"
         },
-        "affl": [
-          "Local population"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -7501,14 +6886,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Local population",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -7539,18 +6922,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -7575,7 +6946,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -7616,26 +6987,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:14.617Z"
+      "$date": "2026-03-20T17:45:44.209Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:14.617Z"
+      "$date": "2026-03-20T17:45:44.209Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290ac968a033aadec2d4"
+      "$oid": "69bd79b833f04aa0e9567f2a"
     },
     "dre_id": "acu-03-002a",
     "bitstream": "080622_fg_Fada1_BM3_v1.pdf",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -7645,11 +7017,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec plusieurs personnes ressources",
+        "title": "Interview avec plusieurs personnes ressources",
         "title_type": "main"
       },
       {
-        "title": "interview with many persons",
+        "title": "Interview with many persons",
         "title_type": "Translated"
       },
       {
@@ -7671,10 +7043,8 @@
           "label": "Focus groupe",
           "qualifier": "person"
         },
-        "affl": [
-          "Local population"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -7682,14 +7052,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Local population",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -7720,18 +7088,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -7756,7 +7112,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -7797,26 +7153,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:14.638Z"
+      "$date": "2026-03-20T17:45:44.270Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:14.638Z"
+      "$date": "2026-03-20T17:45:44.270Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290ac968a033aadec2d5"
+      "$oid": "69bd79b833f04aa0e9567f2b"
     },
     "dre_id": "acu-03-002b",
     "bitstream": "100622_fg_Fada1_BM4_v1.pdf",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -7826,11 +7183,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec plusieurs personnes ressources",
+        "title": "Interview avec plusieurs personnes ressources",
         "title_type": "main"
       },
       {
-        "title": "interview with many persons",
+        "title": "Interview with many persons",
         "title_type": "Translated"
       },
       {
@@ -7852,10 +7209,8 @@
           "label": "Focus groupe",
           "qualifier": "person"
         },
-        "affl": [
-          "Local population"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -7863,14 +7218,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Local population",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -7901,18 +7254,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -7937,7 +7278,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -7978,26 +7319,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:14.674Z"
+      "$date": "2026-03-20T17:45:44.335Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:14.674Z"
+      "$date": "2026-03-20T17:45:44.335Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290ac968a033aadec2d6"
+      "$oid": "69bd79b833f04aa0e9567f2c"
     },
     "dre_id": "acu-03-002c",
     "bitstream": "100622_fg_Fada1_BM5_v1.pdf",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -8007,11 +7349,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec plusieurs personnes ressources",
+        "title": "Interview avec plusieurs personnes ressources",
         "title_type": "main"
       },
       {
-        "title": "interview with many persons",
+        "title": "Interview with many persons",
         "title_type": "Translated"
       },
       {
@@ -8033,10 +7375,8 @@
           "label": "Focus groupe",
           "qualifier": "person"
         },
-        "affl": [
-          "Local population"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -8044,14 +7384,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Local population",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -8082,18 +7420,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -8118,7 +7444,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -8159,26 +7485,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:14.704Z"
+      "$date": "2026-03-20T17:45:44.386Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:14.704Z"
+      "$date": "2026-03-20T17:45:44.386Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290ac968a033aadec2d7"
+      "$oid": "69bd79b833f04aa0e9567f2d"
     },
     "dre_id": "acu-03-002d",
     "bitstream": "280522_ItwAS1_Ouaga1_OJ_v1.m4a",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -8188,11 +7515,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Aguima Sbenin",
+        "title": "Interview avec Aguima Sbenin",
         "title_type": "main"
       },
       {
-        "title": "interview with Aguima Sbenin",
+        "title": "Interview with Aguima Sbenin",
         "title_type": "Translated"
       },
       {
@@ -8214,10 +7541,8 @@
           "label": "Aguima, Sbenin",
           "qualifier": "person"
         },
-        "affl": [
-          "Tradeswoman"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -8225,14 +7550,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Tradeswoman ",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -8263,18 +7586,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -8299,7 +7610,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -8340,26 +7651,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:14.726Z"
+      "$date": "2026-03-20T17:45:44.408Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:14.726Z"
+      "$date": "2026-03-20T17:45:44.408Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290ac968a033aadec2d8"
+      "$oid": "69bd79b833f04aa0e9567f2e"
     },
     "dre_id": "acu-03-002e",
     "bitstream": "020722_ItwA2_Ouaga1_OJ_v1.m4a",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -8369,11 +7681,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec un anonyme",
+        "title": "Interview avec un anonyme",
         "title_type": "main"
       },
       {
-        "title": "interview with a anonymous",
+        "title": "Interview with a anonymous",
         "title_type": "Translated"
       },
       {
@@ -8395,10 +7707,8 @@
           "label": "A2",
           "qualifier": "person"
         },
-        "affl": [
-          "Tradeswoman"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -8406,14 +7716,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Tradeswoman ",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -8444,18 +7752,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -8480,7 +7776,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -8521,26 +7817,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:14.747Z"
+      "$date": "2026-03-20T17:45:44.452Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:14.747Z"
+      "$date": "2026-03-20T17:45:44.452Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290ac968a033aadec2d9"
+      "$oid": "69bd79b833f04aa0e9567f2f"
     },
     "dre_id": "acu-03-002f",
     "bitstream": "020622_ItwAS2_Ouaga1_OJ_v1.m4a",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -8550,11 +7847,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec souley; un avocat",
+        "title": "Interview avec souley; un avocat",
         "title_type": "main"
       },
       {
-        "title": "interview with Souley",
+        "title": "Interview with Souley",
         "title_type": "Translated"
       },
       {
@@ -8576,10 +7873,8 @@
           "label": "Avocat, Souley",
           "qualifier": "person"
         },
-        "affl": [
-          "Lawyer"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -8587,14 +7882,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Lawyer",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -8625,18 +7918,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -8661,7 +7942,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -8702,26 +7983,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:14.770Z"
+      "$date": "2026-03-20T17:45:44.473Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:14.770Z"
+      "$date": "2026-03-20T17:45:44.473Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290ac968a033aadec2da"
+      "$oid": "69bd79b833f04aa0e9567f30"
     },
     "dre_id": "acu-03-0030",
     "bitstream": "020622_ItwA3_Ouaga1_OJ_v1.m4a",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -8731,11 +8013,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec un anonyme",
+        "title": "Interview avec un anonyme",
         "title_type": "main"
       },
       {
-        "title": "interview with a anonymous",
+        "title": "Interview with a anonymous",
         "title_type": "Translated"
       },
       {
@@ -8757,10 +8039,8 @@
           "label": "A3",
           "qualifier": "person"
         },
-        "affl": [
-          "Coal producer"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -8768,14 +8048,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Coal producer",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -8806,18 +8084,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -8842,7 +8108,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -8883,26 +8149,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:14.792Z"
+      "$date": "2026-03-20T17:45:44.522Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:14.792Z"
+      "$date": "2026-03-20T17:45:44.522Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290ac968a033aadec2db"
+      "$oid": "69bd79b833f04aa0e9567f31"
     },
     "dre_id": "acu-03-0031",
     "bitstream": "020622_ItwCC_Ouaga1_OJ_v1.m4a",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -8912,11 +8179,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Combary Clarisse",
+        "title": "Interview avec Combary Clarisse",
         "title_type": "main"
       },
       {
-        "title": "interview with Combary Clarisse",
+        "title": "Interview with Combary Clarisse",
         "title_type": "Translated"
       },
       {
@@ -8938,10 +8205,8 @@
           "label": "Combary, Clarisse",
           "qualifier": "person"
         },
-        "affl": [
-          "Tradeswoman"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -8949,14 +8214,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Tradeswoman ",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -8987,18 +8250,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -9023,7 +8274,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -9064,26 +8315,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:14.815Z"
+      "$date": "2026-03-20T17:45:44.588Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:14.815Z"
+      "$date": "2026-03-20T17:45:44.588Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290ac968a033aadec2dc"
+      "$oid": "69bd79b833f04aa0e9567f32"
     },
     "dre_id": "acu-03-0032",
     "bitstream": "260522_ItwA4_Ouaga1_OJ_v1.m4a",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -9093,11 +8345,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec un anonyme",
+        "title": "Interview avec un anonyme",
         "title_type": "main"
       },
       {
-        "title": "interview with a anonymous",
+        "title": "Interview with a anonymous",
         "title_type": "Translated"
       },
       {
@@ -9119,10 +8371,8 @@
           "label": "A4",
           "qualifier": "person"
         },
-        "affl": [
-          "Trader"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -9130,14 +8380,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Trader",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -9168,18 +8416,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -9204,7 +8440,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -9245,26 +8481,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:14.836Z"
+      "$date": "2026-03-20T17:45:44.656Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:14.836Z"
+      "$date": "2026-03-20T17:45:44.656Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290ac968a033aadec2dd"
+      "$oid": "69bd79b833f04aa0e9567f33"
     },
     "dre_id": "acu-03-0033",
     "bitstream": "280522_ItwIB_Ouaga1_OJ_v1.m4a",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -9274,11 +8511,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Idani Barkissa",
+        "title": "Interview avec Idani Barkissa",
         "title_type": "main"
       },
       {
-        "title": "interview with Idani Barkissa",
+        "title": "Interview with Idani Barkissa",
         "title_type": "Translated"
       },
       {
@@ -9300,10 +8537,8 @@
           "label": "Idani, Barkissa",
           "qualifier": "person"
         },
-        "affl": [
-          "Tradeswoman"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -9311,14 +8546,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Tradeswoman ",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -9349,18 +8582,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -9385,7 +8606,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -9426,26 +8647,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:14.856Z"
+      "$date": "2026-03-20T17:45:44.720Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:14.856Z"
+      "$date": "2026-03-20T17:45:44.720Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290ac968a033aadec2de"
+      "$oid": "69bd79b833f04aa0e9567f34"
     },
     "dre_id": "acu-03-0034",
     "bitstream": "260522_ItwH_Ouaga1_OJ_v1.m4a",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -9455,11 +8677,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Haro; un instituteur",
+        "title": "Interview avec Haro; un instituteur",
         "title_type": "main"
       },
       {
-        "title": "interview with Haro",
+        "title": "Interview with Haro",
         "title_type": "Translated"
       },
       {
@@ -9481,10 +8703,8 @@
           "label": "Haro,",
           "qualifier": "person"
         },
-        "affl": [
-          "Farmer"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -9492,14 +8712,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Farmer",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -9530,18 +8748,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -9566,7 +8772,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -9607,26 +8813,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:14.889Z"
+      "$date": "2026-03-20T17:45:44.754Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:14.889Z"
+      "$date": "2026-03-20T17:45:44.754Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290ac968a033aadec2df"
+      "$oid": "69bd79b833f04aa0e9567f35"
     },
     "dre_id": "acu-03-0035",
     "bitstream": "080622_ItwKR_Ouaga1_OJ_v1.m4a",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -9636,11 +8843,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Kiema Raogo",
+        "title": "Interview avec Kiema Raogo",
         "title_type": "main"
       },
       {
-        "title": "interview with Kiema Raogo",
+        "title": "Interview with Kiema Raogo",
         "title_type": "Translated"
       },
       {
@@ -9662,10 +8869,8 @@
           "label": "Kiemaraogo",
           "qualifier": "person"
         },
-        "affl": [
-          "Water technician"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -9673,14 +8878,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Water technician",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -9711,18 +8914,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -9747,7 +8938,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -9788,26 +8979,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:14.917Z"
+      "$date": "2026-03-20T17:45:44.774Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:14.917Z"
+      "$date": "2026-03-20T17:45:44.774Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290ac968a033aadec2e0"
+      "$oid": "69bd79b833f04aa0e9567f36"
     },
     "dre_id": "acu-03-0036",
     "bitstream": "280522_ItwT_Ouaga1_OJ_v1.m4a",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -9817,11 +9009,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Thiombiano",
+        "title": "Interview avec Thiombiano",
         "title_type": "main"
       },
       {
-        "title": "interview with Thiombiano",
+        "title": "Interview with Thiombiano",
         "title_type": "Translated"
       },
       {
@@ -9843,10 +9035,8 @@
           "label": "Thiombiano,",
           "qualifier": "person"
         },
-        "affl": [
-          "Farmer"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -9854,14 +9044,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Farmer",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -9892,18 +9080,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -9928,7 +9104,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -9969,26 +9145,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:14.939Z"
+      "$date": "2026-03-20T17:45:44.847Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:14.939Z"
+      "$date": "2026-03-20T17:45:44.847Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290ac968a033aadec2e1"
+      "$oid": "69bd79b833f04aa0e9567f37"
     },
     "dre_id": "acu-03-0037",
     "bitstream": "020622_ItwO_Ouaga1_OJ_v1.m4a",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -9998,11 +9175,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Ouali",
+        "title": "Interview avec Ouali",
         "title_type": "main"
       },
       {
-        "title": "interview with Ouali",
+        "title": "Interview with Ouali",
         "title_type": "Translated"
       },
       {
@@ -10024,10 +9201,8 @@
           "label": "Ouali,",
           "qualifier": "person"
         },
-        "affl": [
-          "Official"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -10035,14 +9210,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Official",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -10073,18 +9246,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -10109,7 +9270,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -10150,26 +9311,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:14.960Z"
+      "$date": "2026-03-20T17:45:44.893Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:14.960Z"
+      "$date": "2026-03-20T17:45:44.893Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290ac968a033aadec2e2"
+      "$oid": "69bd79b833f04aa0e9567f38"
     },
     "dre_id": "acu-03-0038",
     "bitstream": "020722_ItwBE_Ouaga1_OJ_v1.m4a",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -10179,11 +9341,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Bama Elise",
+        "title": "Interview avec Bama Elise",
         "title_type": "main"
       },
       {
-        "title": "interview with Bama Elise",
+        "title": "Interview with Bama Elise",
         "title_type": "Translated"
       },
       {
@@ -10205,10 +9367,8 @@
           "label": "Bama, Elise",
           "qualifier": "person"
         },
-        "affl": [
-          "Resource person"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -10216,14 +9376,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Resource person",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -10254,18 +9412,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -10290,7 +9436,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -10331,26 +9477,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:14.983Z"
+      "$date": "2026-03-20T17:45:44.913Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:14.983Z"
+      "$date": "2026-03-20T17:45:44.913Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290bc968a033aadec2e3"
+      "$oid": "69bd79b833f04aa0e9567f39"
     },
     "dre_id": "acu-03-0039",
     "bitstream": "020622_ItwP_Ouaga1_OJ_v1.m4a",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -10360,11 +9507,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Pognoatikontitandj",
+        "title": "Interview avec Pognoatikontitandj",
         "title_type": "main"
       },
       {
-        "title": "interview with Pognoatikontitandj",
+        "title": "Interview with Pognoatikontitandj",
         "title_type": "Translated"
       },
       {
@@ -10386,10 +9533,8 @@
           "label": "Pognoatikontandj",
           "qualifier": "person"
         },
-        "affl": [
-          "Resource person"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -10397,14 +9542,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Resource person",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -10435,18 +9578,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -10471,7 +9602,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -10512,26 +9643,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:15.004Z"
+      "$date": "2026-03-20T17:45:44.973Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:15.004Z"
+      "$date": "2026-03-20T17:45:44.973Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290bc968a033aadec2e4"
+      "$oid": "69bd79b933f04aa0e9567f3a"
     },
     "dre_id": "acu-03-003a",
     "bitstream": "280522_ItwS1_Ouaga1_OSN_v1.m4a",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -10541,11 +9673,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Safo",
+        "title": "Interview avec Safo",
         "title_type": "main"
       },
       {
-        "title": "interview with Safo",
+        "title": "Interview with Safo",
         "title_type": "Translated"
       },
       {
@@ -10567,10 +9699,8 @@
           "label": "Safo1,",
           "qualifier": "person"
         },
-        "affl": [
-          "Pensioner"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -10578,14 +9708,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Pensioner",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -10616,18 +9744,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -10652,7 +9768,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -10693,26 +9809,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:15.025Z"
+      "$date": "2026-03-20T17:45:45.041Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:15.025Z"
+      "$date": "2026-03-20T17:45:45.041Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290bc968a033aadec2e5"
+      "$oid": "69bd79b933f04aa0e9567f3b"
     },
     "dre_id": "acu-03-003b",
     "bitstream": "280522_ItwS2_Ouaga1_OJ_v1.m4a",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -10722,11 +9839,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Sanfo",
+        "title": "Interview avec Sanfo",
         "title_type": "main"
       },
       {
-        "title": "interview with Sanfo",
+        "title": "Interview with Sanfo",
         "title_type": "Translated"
       },
       {
@@ -10748,10 +9865,8 @@
           "label": "Sanfo2",
           "qualifier": "person"
         },
-        "affl": [
-          "Resource person"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -10759,14 +9874,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Resource person",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -10797,18 +9910,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -10833,7 +9934,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -10874,26 +9975,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:15.048Z"
+      "$date": "2026-03-20T17:45:45.100Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:15.048Z"
+      "$date": "2026-03-20T17:45:45.100Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290bc968a033aadec2e6"
+      "$oid": "69bd79b933f04aa0e9567f3c"
     },
     "dre_id": "acu-03-003c",
     "bitstream": "080622_ItwSL_Ouaga1_OJ_v1.m4a",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -10903,11 +10005,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Sangli Louis",
+        "title": "Interview avec Sangli Louis",
         "title_type": "main"
       },
       {
-        "title": "interview with Sangli Louis",
+        "title": "Interview with Sangli Louis",
         "title_type": "Translated"
       },
       {
@@ -10929,10 +10031,8 @@
           "label": "Sangli, Louis",
           "qualifier": "person"
         },
-        "affl": [
-          "Resource person"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -10940,14 +10040,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Resource person",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -10978,18 +10076,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -11014,7 +10100,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -11055,26 +10141,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:15.078Z"
+      "$date": "2026-03-20T17:45:45.164Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:15.078Z"
+      "$date": "2026-03-20T17:45:45.164Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290bc968a033aadec2e7"
+      "$oid": "69bd79b933f04aa0e9567f3d"
     },
     "dre_id": "acu-03-003d",
     "bitstream": "250522_ItwTO_Ouaga1_OJ_v1.m4a",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -11084,11 +10171,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec Tankoano Ousséni",
+        "title": "Interview avec Tankoano Ousséni",
         "title_type": "main"
       },
       {
-        "title": "interview with Tankoano Ousseni",
+        "title": "Interview with Tankoano Ousseni",
         "title_type": "Translated"
       },
       {
@@ -11110,10 +10197,8 @@
           "label": "Tankoano, Ousséni",
           "qualifier": "person"
         },
-        "affl": [
-          "Monitoring-evaluation assistant"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -11121,14 +10206,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Monitoring-evaluation assistant",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -11159,18 +10242,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -11195,7 +10266,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -11236,26 +10307,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:15.114Z"
+      "$date": "2026-03-20T17:45:45.229Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:15.114Z"
+      "$date": "2026-03-20T17:45:45.229Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290bc968a033aadec2e8"
+      "$oid": "69bd79b933f04aa0e9567f3e"
     },
     "dre_id": "acu-03-003e",
     "bitstream": "020622_ItwA5_Ouaga1_OJ_v1.m4a",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -11265,11 +10337,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec un anonyme",
+        "title": "Interview avec un anonyme",
         "title_type": "main"
       },
       {
-        "title": "interview with a anonymous",
+        "title": "Interview with a anonymous",
         "title_type": "Translated"
       },
       {
@@ -11291,10 +10363,8 @@
           "label": "A5",
           "qualifier": "person"
         },
-        "affl": [
-          "Transport agent"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -11302,14 +10372,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Transport agent",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -11340,18 +10408,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -11376,7 +10432,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -11417,26 +10473,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:15.135Z"
+      "$date": "2026-03-20T17:45:45.290Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:15.135Z"
+      "$date": "2026-03-20T17:45:45.290Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290bc968a033aadec2e9"
+      "$oid": "69bd79b933f04aa0e9567f3f"
     },
     "dre_id": "acu-03-003f",
     "bitstream": "250522_ItwA6_Ouaga1_OJ_v1.m4a",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -11446,11 +10503,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec un anonyme",
+        "title": "Interview avec un anonyme",
         "title_type": "main"
       },
       {
-        "title": "interview with a anonymous",
+        "title": "Interview with a anonymous",
         "title_type": "Translated"
       },
       {
@@ -11472,10 +10529,8 @@
           "label": "A6",
           "qualifier": "person"
         },
-        "affl": [
-          "Resource person"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -11483,14 +10538,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Resource person",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -11521,18 +10574,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -11557,7 +10598,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -11598,26 +10639,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:15.164Z"
+      "$date": "2026-03-20T17:45:45.355Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:15.164Z"
+      "$date": "2026-03-20T17:45:45.355Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290bc968a033aadec2ea"
+      "$oid": "69bd79b933f04aa0e9567f40"
     },
     "dre_id": "acu-03-0040",
     "bitstream": "020722_ItwA7_Ouaga1_OJ_v1.m4a",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -11627,11 +10669,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec un anonyme",
+        "title": "Interview avec un anonyme",
         "title_type": "main"
       },
       {
-        "title": "interview with a anonymous",
+        "title": "Interview with a anonymous",
         "title_type": "Translated"
       },
       {
@@ -11653,10 +10695,8 @@
           "label": "A7",
           "qualifier": "person"
         },
-        "affl": [
-          "Resource person"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -11664,14 +10704,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Resource person",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -11702,18 +10740,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -11738,7 +10764,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -11779,26 +10805,27 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:15.186Z"
+      "$date": "2026-03-20T17:45:45.421Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:15.186Z"
+      "$date": "2026-03-20T17:45:45.421Z"
     },
     "updatedBy": "NV"
   },
   {
     "_id": {
-      "$oid": "69bc290bc968a033aadec2eb"
+      "$oid": "69bd79b933f04aa0e9567f41"
     },
     "dre_id": "acu-03-0041",
     "bitstream": "260622_ItwA8_Ouaga1_OJ_v1.m4a",
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713898"
+      "EXC2052/1 Africa Multiple, DFG Project number 390713894"
     ],
     "project": {
       "id": "UJKZ_MiCoViCvd2021",
@@ -11808,11 +10835,11 @@
     "url": [],
     "titleInfo": [
       {
-        "title": "interview avec un anonyme",
+        "title": "Interview avec un anonyme",
         "title_type": "main"
       },
       {
-        "title": "interview with a anonymous",
+        "title": "Interview with a anonymous",
         "title_type": "Translated"
       },
       {
@@ -11834,10 +10861,8 @@
           "label": "A8",
           "qualifier": "person"
         },
-        "affl": [
-          "Primary school teacher"
-        ],
-        "role": "interviewee"
+        "affl": [],
+        "role": "Interviewee"
       },
       {
         "name": {
@@ -11845,14 +10870,12 @@
           "qualifier": "person"
         },
         "affl": [
-          "Joseph KI-Zerbo University"
+          "University Joseph Ki-Zerbo"
         ],
-        "role": "interviewer"
+        "role": "Interviewer"
       }
     ],
-    "note": {
-      "$numberDouble": "NaN"
-    },
+    "note": "Interview with a Primary school teacher",
     "subject": [
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85042782",
@@ -11883,18 +10906,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "COVID-19 Pandemic, 2020-2023",
         "authLabel": "COVID-19 Pandemic, 2020-2023"
-      },
-      {
-        "uri": {
-          "$numberDouble": "NaN"
-        },
-        "authority": {
-          "$numberDouble": "NaN"
-        },
-        "origLabel": "Migration",
-        "authLabel": {
-          "$numberDouble": "NaN"
-        }
       }
     ],
     "relatedItems": {},
@@ -11919,7 +10930,7 @@
         }
       ],
       "current": [
-        "ACC Ouaga, U-JKZ, Ouagadougou, Burkina Faso"
+        "ACC Ouagadougou, Université Joseph KI-ZERBO, Ouagadougou, Burkina Faso"
       ]
     },
     "accessCondition": {
@@ -11960,13 +10971,14 @@
       "Migration control",
       "(im)mobility",
       "Impact",
-      "Border"
+      "Border",
+      "Migration"
     ],
     "createdAt": {
-      "$date": "2026-03-19T17:49:15.208Z"
+      "$date": "2026-03-20T17:45:45.472Z"
     },
     "updatedAt": {
-      "$date": "2026-03-19T17:49:15.208Z"
+      "$date": "2026-03-20T17:45:45.472Z"
     },
     "updatedBy": "NV"
   }
