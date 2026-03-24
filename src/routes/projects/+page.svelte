@@ -159,9 +159,15 @@
 			} else if (itemSortBy === 'type') {
 				cmp = (a.typeOfResource || '').localeCompare(b.typeOfResource || '');
 			} else if (itemSortBy === 'date') {
-				const dateA = a.dateInfo?.issue?.start || a.dateInfo?.created?.start;
-				const dateB = b.dateInfo?.issue?.start || b.dateInfo?.created?.start;
-				cmp = (dateA ? new Date(dateA).getTime() : 0) - (dateB ? new Date(dateB).getTime() : 0);
+				const getTime = (item: CollectionItem) => {
+					const d = item.dateInfo?.issue?.start || item.dateInfo?.created?.start || item.dateInfo?.captured?.start || item.dateInfo?.other?.start;
+					return d ? new Date(d).getTime() : 0;
+				};
+				cmp = getTime(a) - getTime(b);
+			}
+			// Stable tiebreaker: fall back to title
+			if (cmp === 0 && itemSortBy !== 'title') {
+				cmp = getItemTitle(a).localeCompare(getItemTitle(b));
 			}
 			return itemSortAsc ? cmp : -cmp;
 		});
