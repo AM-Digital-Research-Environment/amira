@@ -53,7 +53,7 @@ export interface RawGeolocSubregion {
 export interface RawGeolocCity {
 	_id: MongoOid;
 	country_uri: string;
-	uri: string;
+	uri: string | null;
 	name: string;
 	coordinates: {
 		latitude: number;

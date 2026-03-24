@@ -9,7 +9,7 @@
 	}
 
 	interface Props {
-		filteredItems: { length: number }[];
+		filteredItems: unknown[];
 		resourceTypes: string[];
 		allSubjectsWithCounts: SubjectOrTag[];
 		allTagsWithCounts: SubjectOrTag[];

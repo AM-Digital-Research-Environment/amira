@@ -12,7 +12,8 @@ import { loadJSON } from './mongoJSON';
  * Extract Wikidata ID from a Wikidata URI
  * e.g., "http://www.wikidata.org/entity/Q16" -> "Q16"
  */
-function extractWikidataId(uri: string): string | null {
+function extractWikidataId(uri: string | null | undefined): string | null {
+	if (!uri) return null;
 	const match = uri.match(/entity\/(Q\d+)$/);
 	return match ? match[1] : null;
 }
