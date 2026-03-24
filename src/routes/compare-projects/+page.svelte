@@ -143,7 +143,7 @@
 
 	function getSelectionName(universityId: string, projectId: string): string {
 		if (universityId === 'all' && projectId === 'all') {
-			return 'All Collections';
+			return 'All Projects';
 		}
 
 		const uni = allUniversities.find((u) => u.id === universityId);
@@ -158,14 +158,14 @@
 		return fullName || projKey || projectId;
 	}
 </script>
-<SEO title="Compare" description="Compare research data across universities and collections" />
+<SEO title="Compare Projects" description="Side-by-side comparison of research data across universities and projects" />
 
 <div class="space-y-6">
 	<!-- Page Header -->
 	<div class="animate-slide-in-up">
-		<h1 class="page-title">Compare Collections</h1>
+		<h1 class="page-title">Compare Projects</h1>
 		<p class="page-subtitle">
-			Side-by-side comparison of different collections
+			Side-by-side comparison of research data across universities and projects
 		</p>
 	</div>
 
@@ -176,7 +176,7 @@
 				<CardHeader class="pb-3">
 					{#snippet children()}
 						<CardTitle class="text-lg">
-							{#snippet children()}Left Collection{/snippet}
+							{#snippet children()}Left Selection{/snippet}
 						</CardTitle>
 					{/snippet}
 				</CardHeader>
@@ -210,7 +210,7 @@
 				<CardHeader class="pb-3">
 					{#snippet children()}
 						<CardTitle class="text-lg">
-							{#snippet children()}Right Collection{/snippet}
+							{#snippet children()}Right Selection{/snippet}
 						</CardTitle>
 					{/snippet}
 				</CardHeader>

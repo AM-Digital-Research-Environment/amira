@@ -46,8 +46,8 @@
 			label: 'Visualize',
 			items: [
 				{ href: `${base}/`, label: 'Overview', icon: Home },
-				{ href: `${base}/collections`, label: 'Collections', icon: Folder },
-				{ href: `${base}/compare`, label: 'Compare', icon: BarChart3 },
+				{ href: `${base}/project-explorer`, label: 'Project Explorer', icon: Folder },
+				{ href: `${base}/compare-projects`, label: 'Compare Projects', icon: BarChart3 },
 				{ href: `${base}/network`, label: 'Network', icon: Share2 }
 			]
 		}

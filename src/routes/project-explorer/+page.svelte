@@ -126,20 +126,20 @@
 		return raw;
 	});
 </script>
-<SEO title="Collections" description="Explore research collections across partner universities" />
+<SEO title="Project Explorer" description="Explore research data and visualizations by project across partner universities" />
 
 <div class="space-y-6">
 	<!-- Page Header with Collection Selector -->
 	<div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 animate-slide-in-up">
 		<div class="flex-1 min-w-0">
-			<h1 class="page-title">Collections</h1>
+			<h1 class="page-title">Project Explorer</h1>
 			{#if selectedCollection !== 'all' && projectNameMap[selectedCollection]}
 				<p class="page-subtitle mt-1 line-clamp-2">
 					{projectNameMap[selectedCollection]}
 				</p>
 			{:else}
 				<p class="page-subtitle mt-1">
-					Browse collection metadata and visualizations
+					Browse project data and visualizations across universities
 				</p>
 			{/if}
 		</div>
