@@ -220,7 +220,12 @@ export async function loadAllCollections(basePath: string = ''): Promise<Collect
 		loadAllUniversityCollections(basePath),
 		loadDevCollections(basePath)
 	]);
-	const all = [...universityCollections, ...devCollections];
+	// Filter out empty/untitled items (no title and no meaningful content)
+	const all = [...universityCollections, ...devCollections].filter((item) => {
+		const hasTitle = item.titleInfo?.some((t) => t.title?.trim());
+		const hasType = !!item.typeOfResource?.trim();
+		return hasTitle || hasType;
+	});
 	// Normalize location origin fields: arrays → first string value
 	for (const item of all) {
 		item.location?.origin?.forEach((o) => {

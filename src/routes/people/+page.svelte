@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { StatCard, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination, BackToList, CollectionItemRow, SEO, SectionBadge } from '$lib/components/ui';
+	import { StatCard, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination, BackToList, CollectionItemRow, SEO, SectionBadge, EmptyState } from '$lib/components/ui';
 	import { projects, allCollections, researchSections, persons } from '$lib/stores/data';
 	import { page } from '$app/stores';
 	import { researchSectionsUrl, projectUrl, subjectUrl, locationUrl, languageUrl, resourceTypeUrl } from '$lib/utils/urls';
@@ -9,7 +9,9 @@
 	import { languageName } from '$lib/utils/languages';
 	import { createSearchFilter } from '$lib/utils/search';
 	import { paginate } from '$lib/utils/pagination';
-	import { Users, Briefcase, BookOpen, FileText, Building2, Tag, MapPin, Languages, Layers, UserCheck, ExternalLink } from '@lucide/svelte';
+	import { Users, Briefcase, BookOpen, FileText, Building2, Tag, MapPin, Languages, Layers, UserCheck, ExternalLink, ArrowUpDown, Search } from '@lucide/svelte';
+	import { formatDateInfo } from '$lib/components/research-items/itemHelpers';
+	import { getItemTitle } from '$lib/utils/helpers';
 	import { institutionUrl } from '$lib/utils/urls';
 	import { WissKILink } from '$lib/components/ui';
 	import { getWisskiUrl } from '$lib/utils/wisskiUrl';
@@ -188,16 +190,85 @@
 		);
 	});
 
+	// Research items filter/sort state
+	let itemSearchQuery = $state('');
+	let itemTypeFilter = $state('');
+	let itemSortBy = $state<'title' | 'date' | 'type'>('title');
+	let itemSortAsc = $state(true);
+
+	// Unique resource types for the person's items
+	let itemResourceTypes = $derived.by(() => {
+		const types = new Set<string>();
+		personCollectionItems.forEach((item) => {
+			if (item.typeOfResource) types.add(item.typeOfResource);
+		});
+		return Array.from(types).sort();
+	});
+
+	// Filtered and sorted collection items
+	let filteredCollectionItems = $derived.by((): CollectionItem[] => {
+		let items = personCollectionItems;
+
+		if (itemSearchQuery) {
+			const q = itemSearchQuery.toLowerCase();
+			items = items.filter((item) =>
+				getItemTitle(item).toLowerCase().includes(q) ||
+				item.typeOfResource?.toLowerCase().includes(q) ||
+				item.language?.some((l) => languageName(l).toLowerCase().includes(q))
+			);
+		}
+
+		if (itemTypeFilter) {
+			items = items.filter((item) => item.typeOfResource === itemTypeFilter);
+		}
+
+		items = [...items].sort((a, b) => {
+			let cmp = 0;
+			if (itemSortBy === 'title') {
+				cmp = getItemTitle(a).localeCompare(getItemTitle(b));
+			} else if (itemSortBy === 'type') {
+				cmp = (a.typeOfResource || '').localeCompare(b.typeOfResource || '');
+			} else if (itemSortBy === 'date') {
+				const dateA = a.dateInfo?.issue?.start || a.dateInfo?.created?.start;
+				const dateB = b.dateInfo?.issue?.start || b.dateInfo?.created?.start;
+				cmp = (dateA ? new Date(dateA).getTime() : 0) - (dateB ? new Date(dateB).getTime() : 0);
+			}
+			return itemSortAsc ? cmp : -cmp;
+		});
+
+		return items;
+	});
+
 	// Pagination for collection items
 	const collectionItemsPerPage = 10;
 	let collectionPage = $state(0);
-	let paginatedCollectionItems = $derived(paginate(personCollectionItems, collectionPage, collectionItemsPerPage));
+	let paginatedCollectionItems = $derived(paginate(filteredCollectionItems, collectionPage, collectionItemsPerPage));
 
-	// Reset pagination when person changes
+	// Reset filters and pagination when person changes
 	$effect(() => {
 		selectedName;
+		itemSearchQuery = '';
+		itemTypeFilter = '';
 		collectionPage = 0;
 	});
+
+	// Reset pagination when filters change
+	$effect(() => {
+		itemSearchQuery;
+		itemTypeFilter;
+		itemSortBy;
+		itemSortAsc;
+		collectionPage = 0;
+	});
+
+	function toggleItemSort(field: 'title' | 'date' | 'type') {
+		if (itemSortBy === field) {
+			itemSortAsc = !itemSortAsc;
+		} else {
+			itemSortBy = field;
+			itemSortAsc = true;
+		}
+	}
 
 	function selectPerson(name: string) {
 		selectedName = name;
@@ -725,6 +796,9 @@
 											<span class="flex items-center gap-2">
 												<FileText class="h-5 w-5 text-muted-foreground" />
 												Research Items
+												<Badge variant="secondary">
+													{#snippet children()}{filteredCollectionItems.length}{#if filteredCollectionItems.length !== personCollectionItems.length} / {personCollectionItems.length}{/if}{/snippet}
+												</Badge>
 											</span>
 										{/snippet}
 									</CardTitle>
@@ -732,25 +806,73 @@
 							</CardHeader>
 							<CardContent>
 								{#snippet children()}
-									<ul class="space-y-2">
-										{#each paginatedCollectionItems as item}
-											<CollectionItemRow {item}>
-												{#snippet extraMetadata()}
-													{#if getPersonRole(item, selectedPerson.name)}
-														<Badge variant="outline" class="text-[10px]">
-															{#snippet children()}{getPersonRole(item, selectedPerson.name)}{/snippet}
-														</Badge>
-													{/if}
-												{/snippet}
-											</CollectionItemRow>
-										{/each}
-									</ul>
-									<Pagination
-										currentPage={collectionPage}
-										totalItems={personCollectionItems.length}
-										itemsPerPage={collectionItemsPerPage}
-										onPageChange={(p) => collectionPage = p}
-									/>
+									<!-- Search & Filters -->
+									<div class="flex flex-col sm:flex-row gap-3 mb-4">
+										<div class="relative flex-1">
+											<Search class="absolute left-2.5 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
+											<Input placeholder="Search items..." bind:value={itemSearchQuery} class="pl-9" />
+										</div>
+										<select
+											bind:value={itemTypeFilter}
+											class="h-9 rounded-md border border-input bg-background px-3 text-sm ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring"
+										>
+											<option value="">All types</option>
+											{#each itemResourceTypes as type}
+												<option value={type}>{type}</option>
+											{/each}
+										</select>
+									</div>
+
+									<!-- Sort Controls -->
+									<div class="flex items-center gap-1 mb-4 text-xs text-muted-foreground">
+										<ArrowUpDown class="h-3.5 w-3.5" />
+										<span>Sort by:</span>
+										<button
+											onclick={() => toggleItemSort('title')}
+											class="px-2 py-0.5 rounded transition-colors {itemSortBy === 'title' ? 'bg-primary/10 text-primary font-medium' : 'hover:bg-muted'}"
+										>
+											Title {itemSortBy === 'title' ? (itemSortAsc ? '↑' : '↓') : ''}
+										</button>
+										<button
+											onclick={() => toggleItemSort('date')}
+											class="px-2 py-0.5 rounded transition-colors {itemSortBy === 'date' ? 'bg-primary/10 text-primary font-medium' : 'hover:bg-muted'}"
+										>
+											Date {itemSortBy === 'date' ? (itemSortAsc ? '↑' : '↓') : ''}
+										</button>
+										<button
+											onclick={() => toggleItemSort('type')}
+											class="px-2 py-0.5 rounded transition-colors {itemSortBy === 'type' ? 'bg-primary/10 text-primary font-medium' : 'hover:bg-muted'}"
+										>
+											Type {itemSortBy === 'type' ? (itemSortAsc ? '↑' : '↓') : ''}
+										</button>
+									</div>
+
+									{#if filteredCollectionItems.length === 0}
+										<EmptyState message="No items match your filters" icon={Search} />
+									{:else}
+										<ul class="space-y-2">
+											{#each paginatedCollectionItems as item}
+												<CollectionItemRow {item}>
+													{#snippet extraMetadata()}
+														{#if getPersonRole(item, selectedPerson.name)}
+															<Badge variant="outline" class="text-[10px]">
+																{#snippet children()}{getPersonRole(item, selectedPerson.name)}{/snippet}
+															</Badge>
+														{/if}
+														{#if formatDateInfo(item)}
+															<span class="text-xs text-muted-foreground">· {formatDateInfo(item)}</span>
+														{/if}
+													{/snippet}
+												</CollectionItemRow>
+											{/each}
+										</ul>
+										<Pagination
+											currentPage={collectionPage}
+											totalItems={filteredCollectionItems.length}
+											itemsPerPage={collectionItemsPerPage}
+											onPageChange={(p) => collectionPage = p}
+										/>
+									{/if}
 								{/snippet}
 							</CardContent>
 						{/snippet}
