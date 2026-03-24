@@ -7,7 +7,9 @@
 	import { createUrlSelection, scrollToElement, scrollToTop } from '$lib/utils/urlSelection';
 	import { createSearchFilter } from '$lib/utils/search';
 	import { paginate } from '$lib/utils/pagination';
-	import type { CollectionItem, WordCloudDataPoint } from '$lib/types';
+	import { DEFAULT_ITEMS_PER_PAGE } from '$lib/utils/constants';
+	import { buildCategoryIndex, sortedCategoryList, categoryToChartData } from '$lib/utils/categoryIndex';
+	import type { CollectionItem, WordCloudDataPoint, CategoryEntry } from '$lib/types';
 	import { BookOpen, Tag, FileText } from '@lucide/svelte';
 	import { WissKILink } from '$lib/components/ui';
 
@@ -26,64 +28,37 @@
 		if (urlName) selectedName = urlName;
 	});
 
-	interface TermData {
-		name: string;
-		count: number;
-		items: CollectionItem[];
-	}
-
 	// Build subject index (LCSH controlled vocabulary)
-	let subjectMap = $derived.by(() => {
-		const map = new Map<string, TermData>();
-		$allCollections.forEach((item) => {
-			if (!Array.isArray(item.subject)) return;
-			item.subject.forEach((s) => {
-				const label = s.authLabel || s.origLabel;
-				if (!label) return;
-				if (!map.has(label)) map.set(label, { name: label, count: 0, items: [] });
-				const entry = map.get(label)!;
-				entry.count++;
-				entry.items.push(item);
-			});
-		});
-		return map;
-	});
+	let subjectMap = $derived(buildCategoryIndex($allCollections, (item) => {
+		if (!Array.isArray(item.subject)) return [];
+		return item.subject.map((s) => s.authLabel || s.origLabel).filter(Boolean) as string[];
+	}));
 
 	// Build tag index (free-form keywords)
-	let tagMap = $derived.by(() => {
-		const map = new Map<string, TermData>();
-		$allCollections.forEach((item) => {
-			if (!Array.isArray(item.tags)) return;
-			item.tags.forEach((t) => {
-				if (!t) return;
-				if (!map.has(t)) map.set(t, { name: t, count: 0, items: [] });
-				const entry = map.get(t)!;
-				entry.count++;
-				entry.items.push(item);
-			});
-		});
-		return map;
-	});
+	let tagMap = $derived(buildCategoryIndex($allCollections, (item) => {
+		if (!Array.isArray(item.tags)) return [];
+		return item.tags.filter(Boolean) as string[];
+	}));
 
-	let subjectList = $derived(Array.from(subjectMap.values()).sort((a, b) => b.count - a.count));
-	let tagList = $derived(Array.from(tagMap.values()).sort((a, b) => b.count - a.count));
+	let subjectList = $derived(sortedCategoryList(subjectMap));
+	let tagList = $derived(sortedCategoryList(tagMap));
 
 	// Word cloud data
 	let wordCloudData = $derived.by((): WordCloudDataPoint[] => {
 		const list = viewMode === 'subjects' ? subjectList : tagList;
-		return list.slice(0, 100).map((t) => ({ name: t.name, value: t.count }));
+		return categoryToChartData(list, 100);
 	});
 	let currentList = $derived(viewMode === 'subjects' ? subjectList : tagList);
 	let currentMap = $derived(viewMode === 'subjects' ? subjectMap : tagMap);
 
-	const searchTerms = createSearchFilter<TermData>([(t) => t.name]);
+	const searchTerms = createSearchFilter<CategoryEntry>([(t) => t.name]);
 
 	let filteredTerms = $derived(searchTerms(currentList, searchQuery));
 
 	let selectedTerm = $derived(selectedName ? currentMap.get(selectedName) || null : null);
 
 	// Pagination
-	const itemsPerPage = 10;
+	const itemsPerPage = DEFAULT_ITEMS_PER_PAGE;
 	let itemPage = $state(0);
 	let paginatedItems = $derived.by(() => {
 		if (!selectedTerm) return [];
@@ -132,7 +107,7 @@
 	</div>
 
 	<!-- Word Cloud -->
-	<ChartCard title="{viewMode === 'subjects' ? 'Subject' : 'Tag'} Cloud" subtitle="Click on a word to view its associated items" contentHeight="h-[350px]">
+	<ChartCard title="{viewMode === 'subjects' ? 'Subject' : 'Tag'} Cloud" subtitle="Click on a word to view its associated items" contentHeight="h-chart-md">
 		{#if wordCloudData.length > 0}
 			<WordCloud data={wordCloudData} onclick={(word) => selectTerm(word)} />
 		{/if}
@@ -178,16 +153,16 @@
 
 							<Input placeholder="Search {viewMode}..." bind:value={searchQuery} />
 
-							<div class="space-y-0.5 max-h-[55vh] overflow-y-auto">
+							<div class="space-y-0.5 max-h-list-scroll overflow-y-auto">
 								{#each filteredTerms as term}
 									{@const isSelected = selectedName === term.name}
 									<button
 										onclick={() => selectTerm(term.name)}
-										class="w-full text-left px-3 py-2 text-sm rounded-lg hover:bg-muted transition-colors {isSelected ? 'bg-primary/10 text-primary font-medium' : ''}"
+										class="list-item-btn {isSelected ? 'active' : ''}"
 									>
 										<span class="flex items-center justify-between gap-2">
 											<span class="truncate">{term.name}</span>
-											<Badge variant="secondary" class="text-[10px] px-1.5 py-0 shrink-0">
+											<Badge variant="secondary" class="text-2xs px-1.5 py-0 shrink-0">
 												{#snippet children()}{term.count}{/snippet}
 											</Badge>
 										</span>

@@ -424,12 +424,12 @@
 									Hide {noDataCount} with no data
 								</label>
 							{/if}
-							<div class="space-y-0.5 max-h-[60vh] overflow-y-auto">
+							<div class="space-y-0.5 max-h-list-scroll overflow-y-auto">
 								{#each filteredPeople as person}
 									{@const isSelected = selectedName === person.name}
 									<button
 										onclick={() => selectPerson(person.name)}
-										class="w-full text-left px-3 py-2 text-sm rounded-lg hover:bg-muted transition-colors flex items-center justify-between gap-2 {isSelected ? 'bg-primary/10 text-primary font-medium' : ''}"
+										class="list-item-btn flex items-center justify-between gap-2 {isSelected ? 'active' : ''}"
 									>
 										<span class="truncate">{person.name}</span>
 										<span class="flex items-center gap-1.5 shrink-0">
@@ -437,7 +437,7 @@
 												<BookOpen class="h-3 w-3 text-primary" />
 											{/if}
 											{#if person.piOf.length > 0}
-												<Badge variant="secondary" class="text-[10px] px-1.5 py-0">
+												<Badge variant="secondary" class="text-2xs px-1.5 py-0">
 													{#snippet children()}PI{/snippet}
 												</Badge>
 											{/if}
@@ -861,7 +861,7 @@
 												<CollectionItemRow {item}>
 													{#snippet extraMetadata()}
 														{#if getPersonRole(item, selectedPerson.name)}
-															<Badge variant="outline" class="text-[10px]">
+															<Badge variant="outline" class="text-2xs">
 																{#snippet children()}{getPersonRole(item, selectedPerson.name)}{/snippet}
 															</Badge>
 														{/if}

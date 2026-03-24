@@ -11,7 +11,7 @@
 	let { section, class: className = '', small = false }: Props = $props();
 </script>
 
-<Badge variant="outline" class="{small ? 'text-[10px]' : ''} {className}">
+<Badge variant="outline" class="{small ? 'text-2xs' : ''} {className}">
 	{#snippet children()}
 		<span
 			class="inline-block w-2 h-2 rounded-full mr-1 shrink-0"

@@ -331,7 +331,7 @@
 
 	<!-- Timeline Comparison -->
 	<div class="grid gap-6 lg:grid-cols-2">
-		<ChartCard title="{getSelectionName(leftUniversity, leftProject)} Timeline" contentHeight="h-[350px]">
+		<ChartCard title="{getSelectionName(leftUniversity, leftProject)} Timeline" contentHeight="h-chart-md">
 			{#if leftTimeline.length > 0}
 				<StackedTimeline data={leftTimeline} />
 			{:else}
@@ -339,7 +339,7 @@
 			{/if}
 		</ChartCard>
 
-		<ChartCard title="{getSelectionName(rightUniversity, rightProject)} Timeline" contentHeight="h-[350px]">
+		<ChartCard title="{getSelectionName(rightUniversity, rightProject)} Timeline" contentHeight="h-chart-md">
 			{#if rightTimeline.length > 0}
 				<StackedTimeline data={rightTimeline} />
 			{:else}
@@ -350,7 +350,7 @@
 
 	<!-- Resource Types Comparison -->
 	<div class="grid gap-6 lg:grid-cols-2">
-		<ChartCard title="{getSelectionName(leftUniversity, leftProject)} Resource Types" contentHeight="h-[350px]">
+		<ChartCard title="{getSelectionName(leftUniversity, leftProject)} Resource Types" contentHeight="h-chart-md">
 			{#if leftResourceTypes.length > 0}
 				<PieChart data={leftResourceTypes} />
 			{:else}
@@ -358,7 +358,7 @@
 			{/if}
 		</ChartCard>
 
-		<ChartCard title="{getSelectionName(rightUniversity, rightProject)} Resource Types" contentHeight="h-[350px]">
+		<ChartCard title="{getSelectionName(rightUniversity, rightProject)} Resource Types" contentHeight="h-chart-md">
 			{#if rightResourceTypes.length > 0}
 				<PieChart data={rightResourceTypes} />
 			{:else}
@@ -369,7 +369,7 @@
 
 	<!-- Top Subjects Comparison -->
 	<div class="grid gap-6 lg:grid-cols-2">
-		<ChartCard title="{getSelectionName(leftUniversity, leftProject)} Top Subjects" contentHeight="h-[350px]">
+		<ChartCard title="{getSelectionName(leftUniversity, leftProject)} Top Subjects" contentHeight="h-chart-md">
 			{#if leftSubjects.length > 0}
 				<BarChart data={leftSubjects} maxItems={8} />
 			{:else}
@@ -377,7 +377,7 @@
 			{/if}
 		</ChartCard>
 
-		<ChartCard title="{getSelectionName(rightUniversity, rightProject)} Top Subjects" contentHeight="h-[350px]">
+		<ChartCard title="{getSelectionName(rightUniversity, rightProject)} Top Subjects" contentHeight="h-chart-md">
 			{#if rightSubjects.length > 0}
 				<BarChart data={rightSubjects} maxItems={8} />
 			{:else}
@@ -388,7 +388,7 @@
 
 	<!-- Languages Comparison -->
 	<div class="grid gap-6 lg:grid-cols-2">
-		<ChartCard title="{getSelectionName(leftUniversity, leftProject)} Languages" contentHeight="h-[300px]">
+		<ChartCard title="{getSelectionName(leftUniversity, leftProject)} Languages" contentHeight="h-chart-sm">
 			{#if leftLanguages.length > 0}
 				<BarChart data={leftLanguages} maxItems={6} />
 			{:else}
@@ -396,7 +396,7 @@
 			{/if}
 		</ChartCard>
 
-		<ChartCard title="{getSelectionName(rightUniversity, rightProject)} Languages" contentHeight="h-[300px]">
+		<ChartCard title="{getSelectionName(rightUniversity, rightProject)} Languages" contentHeight="h-chart-sm">
 			{#if rightLanguages.length > 0}
 				<BarChart data={rightLanguages} maxItems={6} />
 			{:else}

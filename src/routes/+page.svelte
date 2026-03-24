@@ -201,7 +201,7 @@
 		<ChartCard
 			title="Research Section × University"
 			subtitle="Research items by research section and university"
-			contentHeight="h-[400px]"
+			contentHeight="h-chart-lg"
 			class="col-span-full"
 		>
 			{#if sectionUniversityHeatmap.length > 0}
@@ -223,7 +223,7 @@
 
 	<!-- Filtered Charts Grid -->
 	<div class="grid gap-6 lg:grid-cols-2">
-		<ChartCard title="Research Items Timeline by Type" contentHeight="h-[400px]" class="col-span-full">
+		<ChartCard title="Research Items Timeline by Type" contentHeight="h-chart-lg" class="col-span-full">
 			{#if stackedTimelineData.length > 0}
 				<StackedTimeline data={stackedTimelineData} />
 			{:else}
@@ -247,7 +247,7 @@
 			{/if}
 		</ChartCard>
 
-		<ChartCard title="Tags & Subjects" contentHeight="h-[450px]" class="col-span-full">
+		<ChartCard title="Tags & Subjects" contentHeight="h-chart-xl" class="col-span-full">
 			{#snippet headerExtra()}
 				<div class="flex items-center gap-4">
 					<label for="home-wordcloud-slider" class="text-sm text-muted-foreground whitespace-nowrap">

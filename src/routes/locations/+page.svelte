@@ -6,6 +6,7 @@
 	import { createUrlSelection, scrollToTop } from '$lib/utils/urlSelection';
 	import { createSearchFilter } from '$lib/utils/search';
 	import { paginate } from '$lib/utils/pagination';
+	import { DEFAULT_ITEMS_PER_PAGE } from '$lib/utils/constants';
 	import type { CollectionItem } from '$lib/types';
 	import { MapPin, Globe, FileText, Building2 } from '@lucide/svelte';
 	import { WissKILink } from '$lib/components/ui';
@@ -123,7 +124,7 @@
 	});
 
 	// Pagination for items
-	const itemsPerPage = 10;
+	const itemsPerPage = DEFAULT_ITEMS_PER_PAGE;
 	let itemPage = $state(0);
 	let paginatedItems = $derived.by(() => {
 		if (!selectedLocation) return [];
@@ -288,12 +289,12 @@
 
 							<Input placeholder="Search locations..." bind:value={searchQuery} />
 
-							<div class="space-y-0.5 max-h-[55vh] overflow-y-auto">
+							<div class="space-y-0.5 max-h-list-scroll overflow-y-auto">
 								{#each filteredLocations as loc}
 									{@const isSelected = selectedName === loc.name}
 									<button
 										onclick={() => selectLocation(loc)}
-										class="w-full text-left px-3 py-2 text-sm rounded-lg hover:bg-muted transition-colors {isSelected ? 'bg-primary/10 text-primary font-medium' : ''}"
+										class="list-item-btn {isSelected ? 'active' : ''}"
 									>
 										<span class="flex items-center justify-between gap-2">
 											<span class="truncate">
@@ -302,7 +303,7 @@
 													<span class="text-muted-foreground text-xs">({loc.country})</span>
 												{/if}
 											</span>
-											<Badge variant="secondary" class="text-[10px] px-1.5 py-0 shrink-0">
+											<Badge variant="secondary" class="text-2xs px-1.5 py-0 shrink-0">
 												{#snippet children()}{loc.count}{/snippet}
 											</Badge>
 										</span>
@@ -377,7 +378,7 @@
 
 				<!-- Map -->
 				{#if locationMapMarkers.length > 0}
-					<MiniMap markers={locationMapMarkers} class="h-[300px]" />
+					<MiniMap markers={locationMapMarkers} class="h-chart-sm" />
 				{/if}
 
 				<!-- Regions in this country -->

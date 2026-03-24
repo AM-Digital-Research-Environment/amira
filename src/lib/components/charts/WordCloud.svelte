@@ -129,4 +129,4 @@
 	});
 </script>
 
-<div bind:this={chartContainer} class={cn('w-full h-full min-h-[300px]', className)}></div>
+<div bind:this={chartContainer} class={cn('w-full h-full min-h-chart-sm', className)}></div>

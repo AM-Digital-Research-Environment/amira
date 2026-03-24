@@ -6,6 +6,7 @@
 	import { languageName, normalizeLanguageCode } from '$lib/utils/languages';
 	import { createSearchFilter } from '$lib/utils/search';
 	import { paginate } from '$lib/utils/pagination';
+	import { DEFAULT_ITEMS_PER_PAGE } from '$lib/utils/constants';
 	import type { CollectionItem } from '$lib/types';
 	import { Languages, FileText } from '@lucide/svelte';
 	import { WissKILink } from '$lib/components/ui';
@@ -57,7 +58,7 @@
 	let selectedLanguage = $derived(selectedCode ? languageMap.get(selectedCode) || null : null);
 
 	// Pagination
-	const itemsPerPage = 10;
+	const itemsPerPage = DEFAULT_ITEMS_PER_PAGE;
 	let itemPage = $state(0);
 	let paginatedItems = $derived.by(() => {
 		if (!selectedLanguage) return [];
@@ -119,19 +120,19 @@
 					{#snippet children()}
 						<div class="space-y-3">
 							<Input placeholder="Search languages..." bind:value={searchQuery} />
-							<div class="space-y-0.5 max-h-[60vh] overflow-y-auto">
+							<div class="space-y-0.5 max-h-list-scroll overflow-y-auto">
 								{#each filteredLanguages as lang}
 									{@const isSelected = selectedCode === lang.code}
 									<button
 										onclick={() => selectLanguage(lang.code)}
-										class="w-full text-left px-3 py-2 text-sm rounded-lg hover:bg-muted transition-colors {isSelected ? 'bg-primary/10 text-primary font-medium' : ''}"
+										class="list-item-btn {isSelected ? 'active' : ''}"
 									>
 										<span class="flex items-center justify-between gap-2">
 											<span>
 												{lang.name}
 												<span class="text-xs text-muted-foreground">({lang.code})</span>
 											</span>
-											<Badge variant="secondary" class="text-[10px] px-1.5 py-0 shrink-0">
+											<Badge variant="secondary" class="text-2xs px-1.5 py-0 shrink-0">
 												{#snippet children()}{lang.count}{/snippet}
 											</Badge>
 										</span>

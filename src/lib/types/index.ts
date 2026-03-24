@@ -4,6 +4,7 @@ export * from './domain';
 export * from './collection';
 export * from './charts';
 export * from './geo';
+export * from './category-index';
 
 // Cross-cutting types kept here
 

@@ -163,7 +163,7 @@
 
 	<!-- Charts Grid -->
 	<div class="grid gap-6 lg:grid-cols-2">
-		<ChartCard title="Items by Year" contentHeight="h-[420px]" class="col-span-full">
+		<ChartCard title="Items by Year" contentHeight="h-chart-lg" class="col-span-full">
 			{#if timelineData.length > 0}
 				<StackedTimeline data={timelineData} />
 			{:else}
@@ -179,7 +179,7 @@
 			{/if}
 		</ChartCard>
 
-		<ChartCard title="Subject Word Cloud" contentHeight="h-[450px]" class="col-span-full">
+		<ChartCard title="Subject Word Cloud" contentHeight="h-chart-xl" class="col-span-full">
 			{#snippet headerExtra()}
 				<div class="flex items-center gap-4">
 					<label for="wordcloud-slider" class="text-sm text-muted-foreground whitespace-nowrap">
@@ -234,7 +234,7 @@
 		<ChartCard
 			title="Resource Type × Language"
 			subtitle="Cross-tabulation showing which resource types exist in which languages"
-			contentHeight="h-[450px]"
+			contentHeight="h-chart-xl"
 			class="col-span-full"
 		>
 			{#if resourceLanguageHeatmap.length > 0}
@@ -244,7 +244,7 @@
 			{/if}
 		</ChartCard>
 
-		<ChartCard title="Top Subjects" contentHeight="h-[300px]" class="col-span-full">
+		<ChartCard title="Top Subjects" contentHeight="h-chart-sm" class="col-span-full">
 			{#if subjectsData.length > 0}
 				<BarChart data={subjectsData} maxItems={15} horizontal={false} />
 			{:else}
@@ -265,7 +265,7 @@
 			{/if}
 		</ChartCard>
 
-		<ChartCard title="Contributor &rarr; Project &rarr; Resource Type Flow" contentHeight="h-[450px]" class="col-span-full">
+		<ChartCard title="Contributor &rarr; Project &rarr; Resource Type Flow" contentHeight="h-chart-xl" class="col-span-full">
 			{#if sankeyData.links.length > 0}
 				<SankeyChart nodes={sankeyData.nodes} links={sankeyData.links} />
 			{:else}
@@ -273,7 +273,7 @@
 			{/if}
 		</ChartCard>
 
-		<ChartCard title="Resource Type &rarr; Language &rarr; Subject Hierarchy" contentHeight="h-[500px]" class="col-span-full">
+		<ChartCard title="Resource Type &rarr; Language &rarr; Subject Hierarchy" contentHeight="h-chart-xl" class="col-span-full">
 			{#if sunburstData.length > 0}
 				<SunburstChart data={sunburstData} />
 			{:else}

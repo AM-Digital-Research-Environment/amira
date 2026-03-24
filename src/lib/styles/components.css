@@ -251,3 +251,28 @@
 		padding: var(--space-4) var(--space-6) var(--space-6);
 	}
 }
+
+/* =============================================================================
+   LIST ITEM BUTTON
+   ============================================================================= */
+
+@layer components {
+	.list-item-btn {
+		width: 100%;
+		text-align: left;
+		padding: var(--space-2) var(--space-3);
+		font-size: var(--font-size-sm);
+		border-radius: var(--radius-lg);
+		transition: background-color var(--duration-fast);
+	}
+
+	.list-item-btn:hover {
+		background: hsl(var(--muted));
+	}
+
+	.list-item-btn.active {
+		background: hsl(var(--primary) / 0.1);
+		color: hsl(var(--primary));
+		font-weight: var(--font-weight-medium);
+	}
+}

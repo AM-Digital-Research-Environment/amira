@@ -14,7 +14,7 @@
 	let {
 		title,
 		subtitle,
-		contentHeight = 'h-[350px]',
+		contentHeight = 'h-chart-md',
 		class: className = '',
 		children,
 		headerExtra

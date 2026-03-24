@@ -199,12 +199,12 @@
 										</a>
 										<div class="flex items-center gap-1.5 shrink-0">
 											{#if contributor.qualifier !== 'person'}
-												<Badge variant="secondary" class="text-[10px]">
+												<Badge variant="secondary" class="text-2xs">
 													{#snippet children()}{contributor.qualifier}{/snippet}
 												</Badge>
 											{/if}
 											{#if contributor.role}
-												<Badge variant="outline" class="text-[10px]">
+												<Badge variant="outline" class="text-2xs">
 													{#snippet children()}{contributor.role}{/snippet}
 												</Badge>
 											{/if}

@@ -5,6 +5,8 @@
 	import { page } from '$app/stores';
 	import { createUrlSelection, scrollToElement } from '$lib/utils/urlSelection';
 	import { paginate } from '$lib/utils/pagination';
+	import { DEFAULT_ITEMS_PER_PAGE } from '$lib/utils/constants';
+	import { buildCategoryIndex, sortedCategoryList, categoryToChartData } from '$lib/utils/categoryIndex';
 	import type { CollectionItem } from '$lib/types';
 	import { FileText, Layers } from '@lucide/svelte';
 	import { WissKILink } from '$lib/components/ui';
@@ -20,34 +22,18 @@
 	});
 
 	// Build resource type index
-	interface TypeData {
-		name: string;
-		count: number;
-		items: CollectionItem[];
-	}
+	let typeMap = $derived(buildCategoryIndex($allCollections, (item) => [item.typeOfResource || 'Unknown']));
 
-	let typeMap = $derived.by(() => {
-		const map = new Map<string, TypeData>();
-		$allCollections.forEach((item) => {
-			const type = item.typeOfResource || 'Unknown';
-			if (!map.has(type)) map.set(type, { name: type, count: 0, items: [] });
-			const entry = map.get(type)!;
-			entry.count++;
-			entry.items.push(item);
-		});
-		return map;
-	});
-
-	let types = $derived(Array.from(typeMap.values()).sort((a, b) => b.count - a.count));
+	let types = $derived(sortedCategoryList(typeMap));
 
 	let selectedTypeData = $derived(selectedType ? typeMap.get(selectedType) || null : null);
 
 	// Chart data
-	let pieData = $derived(types.map((t) => ({ name: t.name, value: t.count })));
-	let barData = $derived(types.map((t) => ({ name: t.name, value: t.count })));
+	let pieData = $derived(categoryToChartData(types));
+	let barData = $derived(categoryToChartData(types));
 
 	// Pagination
-	const itemsPerPage = 10;
+	const itemsPerPage = DEFAULT_ITEMS_PER_PAGE;
 	let itemPage = $state(0);
 	let paginatedItems = $derived.by(() => {
 		if (!selectedTypeData) return [];
@@ -89,12 +75,12 @@
 
 	<!-- Charts -->
 	<div class="grid gap-6 md:grid-cols-2">
-		<ChartCard title="Distribution" subtitle="Click a segment to view items" contentHeight="h-[350px]">
+		<ChartCard title="Distribution" subtitle="Click a segment to view items" contentHeight="h-chart-md">
 			{#if pieData.length > 0}
 				<PieChart data={pieData} onclick={(name) => selectType(name)} />
 			{/if}
 		</ChartCard>
-		<ChartCard title="Item Counts" subtitle="Click a bar to view items" contentHeight="h-[350px]">
+		<ChartCard title="Item Counts" subtitle="Click a bar to view items" contentHeight="h-chart-md">
 			{#if barData.length > 0}
 				<BarChart data={barData} onclick={(name) => selectType(name)} />
 			{/if}
@@ -127,11 +113,11 @@
 								{@const isSelected = selectedType === type.name}
 								<button
 									onclick={() => selectType(type.name)}
-									class="w-full text-left px-3 py-2 text-sm rounded-lg hover:bg-muted transition-colors {isSelected ? 'bg-primary/10 text-primary font-medium' : ''}"
+									class="list-item-btn {isSelected ? 'active' : ''}"
 								>
 									<span class="flex items-center justify-between gap-2">
 										<span>{type.name}</span>
-										<Badge variant="secondary" class="text-[10px] px-1.5 py-0 shrink-0">
+										<Badge variant="secondary" class="text-2xs px-1.5 py-0 shrink-0">
 											{#snippet children()}{type.count}{/snippet}
 										</Badge>
 									</span>

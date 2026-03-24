@@ -9,7 +9,11 @@
  * - Dynamic styling calculations
  * - Runtime color manipulations
  *
- * All values here should match the CSS custom properties in tokens.css
+ * SOURCE OF TRUTH: tokens.css defines all design tokens as CSS custom properties.
+ * This file provides hex equivalents for contexts that require concrete values
+ * (e.g., ECharts config). When updating, always derive values from tokens.css.
+ *
+ * HSL-to-hex conversion: values computed from the HSL definitions in tokens.css.
  * =============================================================================
  */
 
@@ -69,72 +73,72 @@ export const CHART_COLORS_SIMPLE = [
 
 export const THEME_COLORS = {
 	light: {
-		// Surfaces
-		background: '#ffffff',
-		foreground: '#020617',
-		card: '#ffffff',
-		cardForeground: '#020617',
-		popover: '#ffffff',
-		popoverForeground: '#020617',
+		// Surfaces (warm stone neutrals — "Scholarly Modernism")
+		background: '#fdfdfc',       // --color-neutral-0:  hsl(40, 20%, 99%)
+		foreground: '#221a16',       // --color-neutral-900: hsl(18, 22%, 11%)
+		card: '#fdfdfc',             // --color-neutral-0
+		cardForeground: '#221a16',   // --color-neutral-900
+		popover: '#fdfdfc',          // --color-neutral-0
+		popoverForeground: '#221a16',// --color-neutral-900
 
-		// Semantic
-		primary: '#2563eb',
-		primaryForeground: '#f8fafc',
-		secondary: '#f1f5f9',
-		secondaryForeground: '#0f172a',
-		muted: '#f1f5f9',
-		mutedForeground: '#64748b',
-		accent: '#f1f5f9',
-		accentForeground: '#0f172a',
-		destructive: '#ef4444',
-		destructiveForeground: '#f8fafc',
+		// Semantic (deep viridian/teal primary, copper accent)
+		primary: '#22817b',          // --color-primary-600: hsl(176, 58%, 32%)
+		primaryForeground: '#f9f8f6',// --color-neutral-50:  hsl(40, 18%, 97%)
+		secondary: '#f2f0ee',        // --color-neutral-100: hsl(36, 14%, 94%)
+		secondaryForeground: '#302621',// --color-neutral-800: hsl(20, 18%, 16%)
+		muted: '#f2f0ee',            // --color-neutral-100
+		mutedForeground: '#766960',  // --color-neutral-500: hsl(25, 10%, 42%)
+		accent: '#f9e8d2',           // --color-accent-100:  hsl(34, 78%, 90%)
+		accentForeground: '#65230b', // --color-accent-800:  hsl(16, 80%, 22%)
+		destructive: '#f43e5c',      // --color-danger-500:  hsl(350, 89%, 60%)
+		destructiveForeground: '#f9f8f6',// --color-neutral-50
 
 		// UI Elements
-		border: '#e2e8f0',
-		input: '#e2e8f0',
-		ring: '#3b82f6',
+		border: '#e4e1dd',           // --color-neutral-200: hsl(34, 12%, 88%)
+		input: '#e4e1dd',            // --color-neutral-200
+		ring: '#2f9389',             // --color-primary-500: hsl(174, 52%, 38%)
 
 		// Chart specific
-		chartText: '#374151',
-		chartTextMuted: '#6b7280',
-		chartAxis: '#9ca3af',
-		chartGrid: '#e5e7eb',
-		chartTooltipBg: 'rgba(255, 255, 255, 0.95)',
-		chartTooltipBorder: '#e5e7eb'
+		chartText: '#463b35',        // --color-neutral-700: hsl(22, 14%, 24%)
+		chartTextMuted: '#766960',   // --color-neutral-500: hsl(25, 10%, 42%)
+		chartAxis: '#938980',        // --color-neutral-400: hsl(28, 8%, 54%)
+		chartGrid: '#e4e1dd',        // --color-neutral-200
+		chartTooltipBg: 'rgba(253, 253, 252, 0.95)', // --color-neutral-0 with alpha
+		chartTooltipBorder: '#e4e1dd'// --color-neutral-200
 	},
 	dark: {
-		// Surfaces
-		background: '#020617',
-		foreground: '#f8fafc',
-		card: '#0f172a',
-		cardForeground: '#f8fafc',
-		popover: '#0f172a',
-		popoverForeground: '#f8fafc',
+		// Surfaces (dark warm stone)
+		background: '#140d0b',       // --color-neutral-950: hsl(16, 30%, 6%)
+		foreground: '#f2f0ee',       // --color-neutral-100: hsl(36, 14%, 94%)
+		card: '#221a16',             // --color-neutral-900: hsl(18, 22%, 11%)
+		cardForeground: '#f2f0ee',   // --color-neutral-100
+		popover: '#221a16',          // --color-neutral-900
+		popoverForeground: '#f2f0ee',// --color-neutral-100
 
 		// Semantic
-		primary: '#3b82f6',
-		primaryForeground: '#020617',
-		secondary: '#1e293b',
-		secondaryForeground: '#f8fafc',
-		muted: '#1e293b',
-		mutedForeground: '#94a3b8',
-		accent: '#1e293b',
-		accentForeground: '#f8fafc',
-		destructive: '#dc2626',
-		destructiveForeground: '#f8fafc',
+		primary: '#4ab5ae',          // --color-primary-400: hsl(176, 42%, 50%)
+		primaryForeground: '#140d0b',// --color-neutral-950
+		secondary: '#302621',        // --color-neutral-800: hsl(20, 18%, 16%)
+		secondaryForeground: '#f2f0ee',// --color-neutral-100
+		muted: '#302621',            // --color-neutral-800
+		mutedForeground: '#938980',  // --color-neutral-400: hsl(28, 8%, 54%)
+		accent: '#541a08',           // --color-accent-900:  hsl(14, 82%, 18%)
+		accentForeground: '#f2cfa6', // --color-accent-200:  hsl(32, 74%, 80%)
+		destructive: '#e21d48',      // --color-danger-600:  hsl(347, 77%, 50%)
+		destructiveForeground: '#f9f8f6',// --color-neutral-50
 
 		// UI Elements
-		border: '#1e293b',
-		input: '#1e293b',
-		ring: '#3b82f6',
+		border: '#302621',           // --color-neutral-800
+		input: '#302621',            // --color-neutral-800
+		ring: '#2f9389',             // --color-primary-500
 
 		// Chart specific
-		chartText: '#e5e7eb',
-		chartTextMuted: '#9ca3af',
-		chartAxis: '#4b5563',
-		chartGrid: '#1f2937',
-		chartTooltipBg: 'rgba(17, 24, 39, 0.95)',
-		chartTooltipBorder: '#374151'
+		chartText: '#e4e1dd',        // --color-neutral-200
+		chartTextMuted: '#938980',   // --color-neutral-400
+		chartAxis: '#5b5048',        // --color-neutral-600: hsl(24, 12%, 32%)
+		chartGrid: '#302621',        // --color-neutral-800
+		chartTooltipBg: 'rgba(34, 26, 22, 0.95)', // --color-neutral-900 with alpha
+		chartTooltipBorder: '#463b35'// --color-neutral-700
 	}
 } as const;
 
@@ -143,9 +147,10 @@ export const THEME_COLORS = {
    ============================================================================= */
 
 export const FONT_FAMILY = {
-	sans: "'Inter', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
-	serif: "'Crimson Pro', 'Georgia', 'Cambria', 'Times New Roman', serif",
-	mono: "'JetBrains Mono', 'Fira Code', ui-monospace, 'Cascadia Code', 'Source Code Pro', monospace"
+	display: "'Fraunces', 'Playfair Display', 'Georgia', serif",
+	sans: "'Plus Jakarta Sans', 'DM Sans', ui-sans-serif, system-ui, sans-serif",
+	serif: "'Source Serif 4', 'Crimson Pro', 'Georgia', serif",
+	mono: "'IBM Plex Mono', 'JetBrains Mono', ui-monospace, monospace"
 } as const;
 
 const FONT_WEIGHT = {
@@ -181,13 +186,13 @@ const BORDER_RADIUS = {
    ============================================================================= */
 
 const SHADOW = {
-	xs: '0 1px 2px 0 rgb(0 0 0 / 0.05)',
-	sm: '0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)',
-	md: '0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)',
-	lg: '0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)',
-	xl: '0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)',
-	'2xl': '0 25px 50px -12px rgb(0 0 0 / 0.25)',
-	inner: 'inset 0 2px 4px 0 rgb(0 0 0 / 0.05)',
+	xs: '0 1px 2px 0 rgb(24 16 8 / 0.04)',
+	sm: '0 1px 3px 0 rgb(24 16 8 / 0.06), 0 1px 2px -1px rgb(24 16 8 / 0.06)',
+	md: '0 4px 6px -1px rgb(24 16 8 / 0.08), 0 2px 4px -2px rgb(24 16 8 / 0.06)',
+	lg: '0 10px 15px -3px rgb(24 16 8 / 0.1), 0 4px 6px -4px rgb(24 16 8 / 0.08)',
+	xl: '0 20px 25px -5px rgb(24 16 8 / 0.12), 0 8px 10px -6px rgb(24 16 8 / 0.08)',
+	'2xl': '0 25px 50px -12px rgb(24 16 8 / 0.2)',
+	inner: 'inset 0 2px 4px 0 rgb(24 16 8 / 0.04)',
 	none: '0 0 #0000'
 } as const;
 

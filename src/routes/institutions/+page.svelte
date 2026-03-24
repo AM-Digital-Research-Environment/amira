@@ -227,14 +227,14 @@
 					{#snippet children()}
 						<div class="space-y-3">
 							<Input placeholder="Search institutions..." bind:value={searchQuery} />
-							<div class="space-y-1 max-h-[60vh] overflow-y-auto">
+							<div class="space-y-1 max-h-list-scroll overflow-y-auto">
 								{#if filteredPartner.length > 0}
 									<p class="text-xs font-semibold text-muted-foreground uppercase tracking-wider px-3 pt-1 pb-1">Partner Institutions</p>
 									{#each filteredPartner as inst}
 										{@const isSelected = selectedName === inst.name}
 										<button
 											onclick={() => selectInstitution(inst.name)}
-											class="w-full text-left px-3 py-2 text-sm rounded-lg hover:bg-muted transition-colors {isSelected ? 'bg-primary/10 text-primary font-medium' : ''}"
+											class="list-item-btn {isSelected ? 'active' : ''}"
 										>
 											<span class="break-words">{inst.name}</span>
 											<span class="flex items-center gap-2 mt-0.5">
@@ -251,7 +251,7 @@
 										{@const isSelected = selectedName === inst.name}
 										<button
 											onclick={() => selectInstitution(inst.name)}
-											class="w-full text-left px-3 py-2 text-sm rounded-lg hover:bg-muted transition-colors {isSelected ? 'bg-primary/10 text-primary font-medium' : ''}"
+											class="list-item-btn {isSelected ? 'active' : ''}"
 										>
 											<span class="break-words">{inst.name}</span>
 											<span class="text-xs text-muted-foreground mt-0.5 block">

@@ -6,6 +6,8 @@
 	import { createUrlSelection, scrollToElement } from '$lib/utils/urlSelection';
 	import { createSearchFilter } from '$lib/utils/search';
 	import { paginate } from '$lib/utils/pagination';
+	import { DEFAULT_ITEMS_PER_PAGE } from '$lib/utils/constants';
+	import { buildCategoryIndex, sortedCategoryList, categoryToChartData } from '$lib/utils/categoryIndex';
 	import type { CollectionItem } from '$lib/types';
 	import { BookType, FileText } from '@lucide/svelte';
 	import { WissKILink } from '$lib/components/ui';
@@ -32,27 +34,9 @@
 	}
 
 	// Build genre index
-	interface GenreData {
-		name: string;
-		count: number;
-		items: CollectionItem[];
-	}
+	let genreMap = $derived(buildCategoryIndex($allCollections, getItemGenres));
 
-	let genreMap = $derived.by(() => {
-		const map = new Map<string, GenreData>();
-		$allCollections.forEach((item) => {
-			const genres = getItemGenres(item);
-			genres.forEach((g) => {
-				if (!map.has(g)) map.set(g, { name: g, count: 0, items: [] });
-				const entry = map.get(g)!;
-				entry.count++;
-				entry.items.push(item);
-			});
-		});
-		return map;
-	});
-
-	let genres = $derived(Array.from(genreMap.values()).sort((a, b) => b.count - a.count));
+	let genres = $derived(sortedCategoryList(genreMap));
 
 	let selectedGenreData = $derived(selectedGenre ? genreMap.get(selectedGenre) || null : null);
 
@@ -64,10 +48,10 @@
 	});
 
 	// Chart data (top 20)
-	let barData = $derived(genres.slice(0, 20).map((g) => ({ name: g.name, value: g.count })));
+	let barData = $derived(categoryToChartData(genres, 20));
 
 	// Pagination
-	const itemsPerPage = 10;
+	const itemsPerPage = DEFAULT_ITEMS_PER_PAGE;
 	let itemPage = $state(0);
 	let paginatedItems = $derived.by(() => {
 		if (!selectedGenreData) return [];
@@ -107,7 +91,7 @@
 	</div>
 
 	<!-- Chart -->
-	<ChartCard title="Top 20 Genres" subtitle="Click a bar to view items" contentHeight="h-[400px]">
+	<ChartCard title="Top 20 Genres" subtitle="Click a bar to view items" contentHeight="h-chart-lg">
 		{#if barData.length > 0}
 			<BarChart data={barData} onclick={(name) => selectGenre(name)} />
 		{/if}
@@ -138,16 +122,16 @@
 							placeholder="Search genres..."
 							bind:value={searchQuery}
 						/>
-						<div class="space-y-0.5 mt-3 max-h-[50vh] overflow-y-auto">
+						<div class="space-y-0.5 mt-3 max-h-list-scroll overflow-y-auto">
 							{#each filteredGenres as genre}
 								{@const isSelected = selectedGenre === genre.name}
 								<button
 									onclick={() => selectGenre(genre.name)}
-									class="w-full text-left px-3 py-2 text-sm rounded-lg hover:bg-muted transition-colors {isSelected ? 'bg-primary/10 text-primary font-medium' : ''}"
+									class="list-item-btn {isSelected ? 'active' : ''}"
 								>
 									<span class="flex items-center justify-between gap-2">
 										<span class="truncate">{genre.name}</span>
-										<Badge variant="secondary" class="text-[10px] px-1.5 py-0 shrink-0">
+										<Badge variant="secondary" class="text-2xs px-1.5 py-0 shrink-0">
 											{#snippet children()}{genre.count}{/snippet}
 										</Badge>
 									</span>

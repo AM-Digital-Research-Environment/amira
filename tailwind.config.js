@@ -257,7 +257,22 @@ export default {
 			},
 			height: {
 				header: 'var(--layout-header-height)',
-				footer: 'var(--layout-footer-height)'
+				footer: 'var(--layout-footer-height)',
+				'chart-sm': 'var(--chart-h-sm)',
+				'chart-md': 'var(--chart-h-md)',
+				'chart-lg': 'var(--chart-h-lg)',
+				'chart-xl': 'var(--chart-h-xl)',
+				'chart-2xl': 'var(--chart-h-2xl)'
+			},
+			minHeight: {
+				'chart-sm': 'var(--chart-h-sm)',
+				'chart-md': 'var(--chart-h-md)',
+				'chart-lg': 'var(--chart-h-lg)',
+				'chart-xl': 'var(--chart-h-xl)',
+				'chart-2xl': 'var(--chart-h-2xl)'
+			},
+			maxHeight: {
+				'list-scroll': 'var(--list-scroll-max-h)'
 			},
 			maxWidth: {
 				'container-xs': 'var(--container-xs)',

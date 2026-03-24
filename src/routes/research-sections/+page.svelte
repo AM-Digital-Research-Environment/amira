@@ -252,7 +252,7 @@
 			<ChartCard
 				title="Project Timelines"
 				subtitle="Duration of projects in this research section"
-				contentHeight="h-[450px]"
+				contentHeight="h-chart-xl"
 			>
 				<GanttChart
 					data={sectionGanttData}
@@ -326,7 +326,7 @@
 		</div>
 
 		<!-- Chart -->
-		<ChartCard title="Projects per Research Section" subtitle="Click a bar to view section details" contentHeight="h-[300px]">
+		<ChartCard title="Projects per Research Section" subtitle="Click a bar to view section details" contentHeight="h-chart-sm">
 			{#if chartData.length > 0}
 				<BarChart data={chartData} onclick={(name) => selectSection(name)} />
 			{:else}

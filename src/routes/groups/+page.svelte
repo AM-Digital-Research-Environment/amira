@@ -145,12 +145,12 @@
 					{#snippet children()}
 						<div class="space-y-3">
 							<Input placeholder="Search groups..." bind:value={searchQuery} />
-							<div class="space-y-1 max-h-[60vh] overflow-y-auto">
+							<div class="space-y-1 max-h-list-scroll overflow-y-auto">
 								{#each filteredGroups as grp}
 									{@const isSelected = selectedName === grp.name}
 									<button
 										onclick={() => selectGroup(grp.name)}
-										class="w-full text-left px-3 py-2 text-sm rounded-lg hover:bg-muted transition-colors {isSelected ? 'bg-primary/10 text-primary font-medium' : ''}"
+										class="list-item-btn {isSelected ? 'active' : ''}"
 									>
 										<span class="break-words">{grp.name}</span>
 										{#if grp.collectionItemCount > 0}

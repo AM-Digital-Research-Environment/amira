@@ -22,6 +22,7 @@
 	import { formatDate, getItemTitle } from '$lib/utils/helpers';
 	import { formatDateInfo } from '$lib/components/research-items/itemHelpers';
 	import { paginate } from '$lib/utils/pagination';
+	import { DEFAULT_ITEMS_PER_PAGE } from '$lib/utils/constants';
 	import { X, Briefcase, BookOpen, Building2, Calendar, Users, FileText, ArrowLeft, Hash, GraduationCap, ExternalLink, Tag, Edit3, ArrowUpDown, Search, Languages } from '@lucide/svelte';
 	import { languageName } from '$lib/utils/languages';
 	import { WissKILink } from '$lib/components/ui';
@@ -47,7 +48,7 @@
 
 	// Pagination
 	let currentPage = $state(0);
-	const itemsPerPage = 10;
+	const itemsPerPage = DEFAULT_ITEMS_PER_PAGE;
 
 	// Get unique values for facets
 	let allResearchSections = $derived.by(() => {
@@ -481,25 +482,25 @@
 			{#if projectWordCloudData.length > 0 || projectLanguagesData.length > 0 || projectResourceTypesData.length > 0}
 				<div class="grid gap-6 lg:grid-cols-2">
 					{#if projectWordCloudData.length > 0}
-						<ChartCard title="Subjects & Tags" contentHeight="h-[350px]">
+						<ChartCard title="Subjects & Tags" contentHeight="h-chart-md">
 							<WordCloud data={projectWordCloudData} maxWords={80} />
 						</ChartCard>
 					{/if}
 
 					{#if projectSubjectsData.length > 0}
-						<ChartCard title="Top Subjects" contentHeight="h-[350px]">
+						<ChartCard title="Top Subjects" contentHeight="h-chart-md">
 							<BarChart data={projectSubjectsData} maxItems={8} />
 						</ChartCard>
 					{/if}
 
 					{#if projectLanguagesData.length > 0}
-						<ChartCard title="Languages" contentHeight="h-[350px]">
+						<ChartCard title="Languages" contentHeight="h-chart-md">
 							<PieChart data={projectLanguagesData} />
 						</ChartCard>
 					{/if}
 
 					{#if projectResourceTypesData.length > 0}
-						<ChartCard title="Resource Types" contentHeight="h-[350px]">
+						<ChartCard title="Resource Types" contentHeight="h-chart-md">
 							<PieChart data={projectResourceTypesData} />
 						</ChartCard>
 					{/if}
@@ -638,7 +639,7 @@
 
 		<!-- Charts -->
 		<div class="grid gap-6 lg:grid-cols-2">
-			<ChartCard title="Projects by Year" contentHeight="h-[300px]">
+			<ChartCard title="Projects by Year" contentHeight="h-chart-sm">
 				{#if timelineData.length > 0}
 					<Timeline data={timelineData} />
 				{:else}
@@ -646,7 +647,7 @@
 				{/if}
 			</ChartCard>
 
-			<ChartCard title="Research Sections" contentHeight="h-[300px]">
+			<ChartCard title="Research Sections" contentHeight="h-chart-sm">
 				{#if researchSectionsData.length > 0}
 					<BarChart data={researchSectionsData} maxItems={6} />
 				{:else}
@@ -654,7 +655,7 @@
 				{/if}
 			</ChartCard>
 
-			<ChartCard title="Top Institutions" contentHeight="h-[300px]" class="lg:col-span-2">
+			<ChartCard title="Top Institutions" contentHeight="h-chart-sm" class="lg:col-span-2">
 				{#if institutionsData.length > 0}
 					<BarChart data={institutionsData} maxItems={10} />
 				{:else}
@@ -665,7 +666,7 @@
 			<ChartCard
 				title="Project Timeline (Gantt)"
 				subtitle="Project lifespans grouped by research section"
-				contentHeight="h-[500px]"
+				contentHeight="h-chart-xl"
 				class="lg:col-span-2"
 			>
 				{#if ganttData.length > 0}
@@ -685,7 +686,7 @@
 			<ChartCard
 				title="Projects by Research Section &amp; Year"
 				subtitle="Each dot is a project — size indicates research items"
-				contentHeight="h-[400px]"
+				contentHeight="h-chart-lg"
 				class="lg:col-span-2"
 			>
 				{#if beeswarmData.length > 0}

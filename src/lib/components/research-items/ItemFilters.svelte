@@ -210,7 +210,7 @@
 								<Globe class="h-3 w-3" />
 								Country
 								{#if selectedCountries.length > 0}
-									<Badge variant="secondary" class="text-[10px] px-1.5 py-0">
+									<Badge variant="secondary" class="text-2xs px-1.5 py-0">
 										{#snippet children()}{selectedCountries.length}{/snippet}
 									</Badge>
 								{/if}
@@ -235,7 +235,7 @@
 								{/each}
 								<button
 									onclick={onClearCountries}
-									class="text-[10px] text-muted-foreground hover:text-foreground transition-colors px-1"
+									class="text-2xs text-muted-foreground hover:text-foreground transition-colors px-1"
 								>
 									Clear
 								</button>
@@ -273,7 +273,7 @@
 								<Briefcase class="h-3 w-3" />
 								Project
 								{#if selectedProjects.length > 0}
-									<Badge variant="secondary" class="text-[10px] px-1.5 py-0">
+									<Badge variant="secondary" class="text-2xs px-1.5 py-0">
 										{#snippet children()}{selectedProjects.length}{/snippet}
 									</Badge>
 								{/if}
@@ -298,7 +298,7 @@
 								{/each}
 								<button
 									onclick={onClearProjects}
-									class="text-[10px] text-muted-foreground hover:text-foreground transition-colors px-1"
+									class="text-2xs text-muted-foreground hover:text-foreground transition-colors px-1"
 								>
 									Clear
 								</button>
@@ -336,7 +336,7 @@
 								<Languages class="h-3 w-3" />
 								Language
 								{#if selectedLanguages.length > 0}
-									<Badge variant="secondary" class="text-[10px] px-1.5 py-0">
+									<Badge variant="secondary" class="text-2xs px-1.5 py-0">
 										{#snippet children()}{selectedLanguages.length}{/snippet}
 									</Badge>
 								{/if}
@@ -361,7 +361,7 @@
 								{/each}
 								<button
 									onclick={onClearLanguages}
-									class="text-[10px] text-muted-foreground hover:text-foreground transition-colors px-1"
+									class="text-2xs text-muted-foreground hover:text-foreground transition-colors px-1"
 								>
 									Clear
 								</button>
@@ -399,7 +399,7 @@
 								<BookOpen class="h-3 w-3" />
 								Subjects
 								{#if selectedSubjects.length > 0}
-									<Badge variant="secondary" class="text-[10px] px-1.5 py-0">
+									<Badge variant="secondary" class="text-2xs px-1.5 py-0">
 										{#snippet children()}{selectedSubjects.length}{/snippet}
 									</Badge>
 								{/if}
@@ -424,7 +424,7 @@
 								{/each}
 								<button
 									onclick={onClearSubjects}
-									class="text-[10px] text-muted-foreground hover:text-foreground transition-colors px-1"
+									class="text-2xs text-muted-foreground hover:text-foreground transition-colors px-1"
 								>
 									Clear
 								</button>
@@ -463,7 +463,7 @@
 								<Tag class="h-3 w-3" />
 								Tags
 								{#if selectedTags.length > 0}
-									<Badge variant="secondary" class="text-[10px] px-1.5 py-0">
+									<Badge variant="secondary" class="text-2xs px-1.5 py-0">
 										{#snippet children()}{selectedTags.length}{/snippet}
 									</Badge>
 								{/if}
@@ -488,7 +488,7 @@
 								{/each}
 								<button
 									onclick={onClearTags}
-									class="text-[10px] text-muted-foreground hover:text-foreground transition-colors px-1"
+									class="text-2xs text-muted-foreground hover:text-foreground transition-colors px-1"
 								>
 									Clear
 								</button>
@@ -527,7 +527,7 @@
 								<Target class="h-3 w-3" />
 								Target Audience
 								{#if selectedAudiences.length > 0}
-									<Badge variant="secondary" class="text-[10px] px-1.5 py-0">
+									<Badge variant="secondary" class="text-2xs px-1.5 py-0">
 										{#snippet children()}{selectedAudiences.length}{/snippet}
 									</Badge>
 								{/if}
@@ -552,7 +552,7 @@
 								{/each}
 								<button
 									onclick={onClearAudiences}
-									class="text-[10px] text-muted-foreground hover:text-foreground transition-colors px-1"
+									class="text-2xs text-muted-foreground hover:text-foreground transition-colors px-1"
 								>
 									Clear
 								</button>
@@ -590,7 +590,7 @@
 								<HardDrive class="h-3 w-3" />
 								Digitization Method
 								{#if selectedMethods.length > 0}
-									<Badge variant="secondary" class="text-[10px] px-1.5 py-0">
+									<Badge variant="secondary" class="text-2xs px-1.5 py-0">
 										{#snippet children()}{selectedMethods.length}{/snippet}
 									</Badge>
 								{/if}
@@ -615,7 +615,7 @@
 								{/each}
 								<button
 									onclick={onClearMethods}
-									class="text-[10px] text-muted-foreground hover:text-foreground transition-colors px-1"
+									class="text-2xs text-muted-foreground hover:text-foreground transition-colors px-1"
 								>
 									Clear
 								</button>

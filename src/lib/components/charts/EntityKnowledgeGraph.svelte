@@ -20,7 +20,7 @@
 		height?: string;
 	}
 
-	let { entityType, entityId, height = 'h-[600px]' }: Props = $props();
+	let { entityType, entityId, height = 'h-chart-2xl' }: Props = $props();
 
 	let graphData: NetworkData | null = $state(null);
 	let loading = $state(false);

@@ -252,6 +252,16 @@
     --layout-header-height: 3.5rem;      /* 56px */
     --layout-footer-height: 3rem;        /* 48px */
 
+    /* --- Scrollable List Heights --- */
+    --list-scroll-max-h: 60vh;
+
+    /* --- Chart Container Heights --- */
+    --chart-h-sm: 300px;
+    --chart-h-md: 350px;
+    --chart-h-lg: 400px;
+    --chart-h-xl: 500px;
+    --chart-h-2xl: 600px;
+
     /* --- Sidebar Semantic Colors --- */
     --sidebar: var(--color-neutral-900);
     --sidebar-foreground: var(--color-neutral-100);

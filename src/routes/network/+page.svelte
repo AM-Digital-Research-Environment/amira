@@ -135,7 +135,7 @@
 					/>
 				</div>
 
-				<ChartCard title="Contributor-Project Network" contentHeight="h-[600px]">
+				<ChartCard title="Contributor-Project Network" contentHeight="h-chart-2xl">
 					{#if contributorNetwork.nodes.length > 0}
 						<NetworkGraph data={contributorNetwork} />
 					{:else}
@@ -182,7 +182,7 @@
 					/>
 				</div>
 
-				<ChartCard title="Person-Institution Network" contentHeight="h-[600px]">
+				<ChartCard title="Person-Institution Network" contentHeight="h-chart-2xl">
 					{#if affiliationNetwork.nodes.length > 0}
 						<NetworkGraph data={affiliationNetwork} />
 					{:else}
@@ -229,7 +229,7 @@
 					/>
 				</div>
 
-				<ChartCard title="Institution Collaboration Network" contentHeight="h-[600px]">
+				<ChartCard title="Institution Collaboration Network" contentHeight="h-chart-2xl">
 					{#if institutionNetwork.nodes.length > 0}
 						<NetworkGraph data={institutionNetwork} />
 					{:else}
