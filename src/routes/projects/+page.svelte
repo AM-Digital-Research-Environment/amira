@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { StatCard, ChartCard, EmptyState, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination, SEO, SectionBadge } from '$lib/components/ui';
 	import { getSectionColor } from '$lib/utils/helpers';
-	import { BarChart, Timeline, BeeswarmChart, GanttChart, WordCloud } from '$lib/components/charts';
+	import { BarChart, Timeline, BeeswarmChart, GanttChart, WordCloud, PieChart } from '$lib/components/charts';
 	import { projects, allCollections } from '$lib/stores/data';
 	import {
 		groupProjectsByYear,
@@ -9,16 +9,21 @@
 		extractInstitutions,
 		extractSubjects,
 		extractTags,
+		extractLanguages,
+		extractResourceTypes,
 		buildProjectBeeswarm,
 		buildProjectGantt
 	} from '$lib/utils/dataTransform';
 	import { page } from '$app/stores';
+	import { tick } from 'svelte';
 	import { personUrl, researchSectionsUrl, researchItemUrl, institutionUrl } from '$lib/utils/urls';
 	import { createUrlSelection, scrollToTop } from '$lib/utils/urlSelection';
 	import type { Project, CollectionItem } from '$lib/types';
 	import { formatDate, getItemTitle } from '$lib/utils/helpers';
+	import { formatDateInfo } from '$lib/components/research-items/itemHelpers';
 	import { paginate } from '$lib/utils/pagination';
-	import { X, Briefcase, BookOpen, Building2, Calendar, Users, FileText, ArrowLeft, Hash, GraduationCap, ExternalLink, Tag, Edit3 } from '@lucide/svelte';
+	import { X, Briefcase, BookOpen, Building2, Calendar, Users, FileText, ArrowLeft, Hash, GraduationCap, ExternalLink, Tag, Edit3, ArrowUpDown, Search, Languages } from '@lucide/svelte';
+	import { languageName } from '$lib/utils/languages';
 	import { WissKILink } from '$lib/components/ui';
 	import { base } from '$app/paths';
 
@@ -30,7 +35,10 @@
 	// Sync from URL query param
 	$effect(() => {
 		const urlId = $page.url.searchParams.get('id');
-		if (urlId) selectedId = urlId;
+		if (urlId) {
+			selectedId = urlId;
+			tick().then(() => window.scrollTo({ top: 0, behavior: 'instant' }));
+		}
 	});
 
 	// Facet filters
@@ -56,11 +64,13 @@
 
 	let filteredProjects = $derived(
 		$projects.filter((p) => {
+			const query = searchQuery.toLowerCase();
 			const matchesSearch =
 				searchQuery === '' ||
-				p.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-				p.id.toLowerCase().includes(searchQuery.toLowerCase()) ||
-				p.locale.toLowerCase().includes(searchQuery.toLowerCase());
+				p.name.toLowerCase().includes(query) ||
+				p.id.toLowerCase().includes(query) ||
+				p.locale.toLowerCase().includes(query) ||
+				p.pi?.some((pi) => pi.toLowerCase().includes(query));
 
 			const matchesSection =
 				selectedResearchSections.length === 0 ||
@@ -104,27 +114,103 @@
 	// Word cloud data for selected project's subjects & tags
 	let projectWordCloudData = $derived(extractTags(projectCollectionItems));
 	let projectSubjectsData = $derived(extractSubjects(projectCollectionItems));
+	let projectLanguagesData = $derived(extractLanguages(projectCollectionItems));
+	let projectResourceTypesData = $derived(extractResourceTypes(projectCollectionItems));
+
+	// Research items filter/sort state
+	let itemSearchQuery = $state('');
+	let itemTypeFilter = $state('');
+	let itemSortBy = $state<'title' | 'date' | 'type'>('title');
+	let itemSortAsc = $state(true);
+
+	// Unique resource types for filter dropdown
+	let itemResourceTypes = $derived.by(() => {
+		const types = new Set<string>();
+		projectCollectionItems.forEach((item) => {
+			if (item.typeOfResource) types.add(item.typeOfResource);
+		});
+		return Array.from(types).sort();
+	});
+
+	// Filtered and sorted collection items
+	let filteredCollectionItems = $derived.by((): CollectionItem[] => {
+		let items = projectCollectionItems;
+
+		// Search filter
+		if (itemSearchQuery) {
+			const q = itemSearchQuery.toLowerCase();
+			items = items.filter((item) =>
+				getItemTitle(item).toLowerCase().includes(q) ||
+				item.typeOfResource?.toLowerCase().includes(q) ||
+				item.language?.some((l) => languageName(l).toLowerCase().includes(q))
+			);
+		}
+
+		// Type filter
+		if (itemTypeFilter) {
+			items = items.filter((item) => item.typeOfResource === itemTypeFilter);
+		}
+
+		// Sort
+		items = [...items].sort((a, b) => {
+			let cmp = 0;
+			if (itemSortBy === 'title') {
+				cmp = getItemTitle(a).localeCompare(getItemTitle(b));
+			} else if (itemSortBy === 'type') {
+				cmp = (a.typeOfResource || '').localeCompare(b.typeOfResource || '');
+			} else if (itemSortBy === 'date') {
+				const dateA = a.dateInfo?.issue?.start || a.dateInfo?.created?.start;
+				const dateB = b.dateInfo?.issue?.start || b.dateInfo?.created?.start;
+				cmp = (dateA ? new Date(dateA).getTime() : 0) - (dateB ? new Date(dateB).getTime() : 0);
+			}
+			return itemSortAsc ? cmp : -cmp;
+		});
+
+		return items;
+	});
 
 	// Pagination for collection items
 	const collectionPerPage = 10;
 	let collectionPage = $state(0);
-	let paginatedCollectionItems = $derived(paginate(projectCollectionItems, collectionPage, collectionPerPage));
+	let paginatedCollectionItems = $derived(paginate(filteredCollectionItems, collectionPage, collectionPerPage));
 
 	$effect(() => {
 		selectedId;
+		itemSearchQuery = '';
+		itemTypeFilter = '';
 		collectionPage = 0;
 	});
 
-	function selectProject(project: Project) {
-		selectedId = project.id;
-		urlSelection.pushToUrl(project.id);
-		scrollToTop();
+	// Reset pagination when filters change
+	$effect(() => {
+		itemSearchQuery;
+		itemTypeFilter;
+		itemSortBy;
+		itemSortAsc;
+		collectionPage = 0;
+	});
+
+	function toggleSort(field: 'title' | 'date' | 'type') {
+		if (itemSortBy === field) {
+			itemSortAsc = !itemSortAsc;
+		} else {
+			itemSortBy = field;
+			itemSortAsc = true;
+		}
 	}
 
-	function clearSelection() {
+	async function selectProject(project: Project) {
+		selectedId = project.id;
+		urlSelection.pushToUrl(project.id);
+		await tick();
+		window.scrollTo({ top: 0, behavior: 'instant' });
+	}
+
+	async function clearSelection() {
 		selectedId = '';
 		urlSelection.removeFromUrl();
-		scrollToTop();
+		await tick();
+		window.scrollTo({ top: 0, behavior: 'instant' });
 	}
 
 	function getDescription(project: Project): string {
@@ -385,20 +471,32 @@
 				</Card>
 			{/if}
 
-			<!-- Subjects & Tags Word Cloud -->
-			{#if projectWordCloudData.length > 0}
+			<!-- Subjects, Tags & Languages -->
+			{#if projectWordCloudData.length > 0 || projectLanguagesData.length > 0 || projectResourceTypesData.length > 0}
 				<div class="grid gap-6 lg:grid-cols-2">
-					<ChartCard title="Subjects & Tags" contentHeight="h-[350px]">
-						<WordCloud data={projectWordCloudData} maxWords={80} />
-					</ChartCard>
+					{#if projectWordCloudData.length > 0}
+						<ChartCard title="Subjects & Tags" contentHeight="h-[350px]">
+							<WordCloud data={projectWordCloudData} maxWords={80} />
+						</ChartCard>
+					{/if}
 
-					<ChartCard title="Top Subjects" contentHeight="h-[350px]">
-						{#if projectSubjectsData.length > 0}
+					{#if projectSubjectsData.length > 0}
+						<ChartCard title="Top Subjects" contentHeight="h-[350px]">
 							<BarChart data={projectSubjectsData} maxItems={8} />
-						{:else}
-							<EmptyState icon={Tag} />
-						{/if}
-					</ChartCard>
+						</ChartCard>
+					{/if}
+
+					{#if projectLanguagesData.length > 0}
+						<ChartCard title="Languages" contentHeight="h-[350px]">
+							<PieChart data={projectLanguagesData} />
+						</ChartCard>
+					{/if}
+
+					{#if projectResourceTypesData.length > 0}
+						<ChartCard title="Resource Types" contentHeight="h-[350px]">
+							<PieChart data={projectResourceTypesData} />
+						</ChartCard>
+					{/if}
 				</div>
 			{/if}
 
@@ -414,7 +512,7 @@
 											<FileText class="h-5 w-5 text-primary" />
 											Research Items
 											<Badge variant="secondary">
-												{#snippet children()}{projectCollectionItems.length}{/snippet}
+												{#snippet children()}{filteredCollectionItems.length}{#if filteredCollectionItems.length !== projectCollectionItems.length} / {projectCollectionItems.length}{/if}{/snippet}
 											</Badge>
 										</span>
 									{/snippet}
@@ -423,30 +521,83 @@
 						</CardHeader>
 						<CardContent>
 							{#snippet children()}
-								<ul class="space-y-2">
-									{#each paginatedCollectionItems as item}
-										<li class="flex items-start gap-3 p-3 rounded-lg bg-muted/30">
-											<FileText class="h-4 w-4 mt-0.5 text-muted-foreground shrink-0" />
-											<div class="min-w-0">
-												<a
-													href={researchItemUrl(item._id || item.dre_id)}
-													class="text-sm font-medium text-foreground hover:text-primary transition-colors break-words"
-												>
-													{getItemTitle(item)}
-												</a>
-												{#if item.typeOfResource}
-													<span class="text-xs text-muted-foreground block mt-0.5">{item.typeOfResource}</span>
-												{/if}
-											</div>
-										</li>
-									{/each}
-								</ul>
-								<Pagination
-									currentPage={collectionPage}
-									totalItems={projectCollectionItems.length}
-									itemsPerPage={collectionPerPage}
-									onPageChange={(p) => collectionPage = p}
-								/>
+								<!-- Search & Filters -->
+								<div class="flex flex-col sm:flex-row gap-3 mb-4">
+									<div class="relative flex-1">
+										<Search class="absolute left-2.5 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
+										<Input placeholder="Search items..." bind:value={itemSearchQuery} class="pl-9" />
+									</div>
+									<select
+										bind:value={itemTypeFilter}
+										class="h-9 rounded-md border border-input bg-background px-3 text-sm ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring"
+									>
+										<option value="">All types</option>
+										{#each itemResourceTypes as type}
+											<option value={type}>{type}</option>
+										{/each}
+									</select>
+								</div>
+
+								<!-- Sort Controls -->
+								<div class="flex items-center gap-1 mb-4 text-xs text-muted-foreground">
+									<ArrowUpDown class="h-3.5 w-3.5" />
+									<span>Sort by:</span>
+									<button
+										onclick={() => toggleSort('title')}
+										class="px-2 py-0.5 rounded transition-colors {itemSortBy === 'title' ? 'bg-primary/10 text-primary font-medium' : 'hover:bg-muted'}"
+									>
+										Title {itemSortBy === 'title' ? (itemSortAsc ? '↑' : '↓') : ''}
+									</button>
+									<button
+										onclick={() => toggleSort('date')}
+										class="px-2 py-0.5 rounded transition-colors {itemSortBy === 'date' ? 'bg-primary/10 text-primary font-medium' : 'hover:bg-muted'}"
+									>
+										Date {itemSortBy === 'date' ? (itemSortAsc ? '↑' : '↓') : ''}
+									</button>
+									<button
+										onclick={() => toggleSort('type')}
+										class="px-2 py-0.5 rounded transition-colors {itemSortBy === 'type' ? 'bg-primary/10 text-primary font-medium' : 'hover:bg-muted'}"
+									>
+										Type {itemSortBy === 'type' ? (itemSortAsc ? '↑' : '↓') : ''}
+									</button>
+								</div>
+
+								{#if filteredCollectionItems.length === 0}
+									<EmptyState message="No items match your filters" icon={Search} />
+								{:else}
+									<ul class="space-y-2">
+										{#each paginatedCollectionItems as item}
+											<li class="flex items-start gap-3 p-3 rounded-lg bg-muted/30">
+												<FileText class="h-4 w-4 mt-0.5 text-muted-foreground shrink-0" />
+												<div class="min-w-0 flex-1">
+													<a
+														href={researchItemUrl(item._id || item.dre_id)}
+														class="text-sm font-medium text-foreground hover:text-primary transition-colors break-words"
+													>
+														{getItemTitle(item)}
+													</a>
+													<div class="flex flex-wrap gap-x-2 gap-y-0.5 mt-0.5 text-xs text-muted-foreground">
+														{#if item.typeOfResource}
+															<span>{item.typeOfResource}</span>
+														{/if}
+														{#if formatDateInfo(item)}
+															<span>· {formatDateInfo(item)}</span>
+														{/if}
+														{#if item.language?.length > 0}
+															<span>· {item.language.map((l) => languageName(l)).join(', ')}</span>
+														{/if}
+													</div>
+												</div>
+											</li>
+										{/each}
+									</ul>
+									<Pagination
+										currentPage={collectionPage}
+										totalItems={filteredCollectionItems.length}
+										itemsPerPage={collectionPerPage}
+										onPageChange={(p) => collectionPage = p}
+									/>
+								{/if}
 							{/snippet}
 						</CardContent>
 					{/snippet}
@@ -573,7 +724,7 @@
 							<div class="space-y-6">
 								<div>
 									<label class="text-sm font-medium mb-2 block">Search</label>
-									<Input placeholder="Search projects..." bind:value={searchQuery} />
+									<Input placeholder="Search by name, locale, or PI..." bind:value={searchQuery} />
 								</div>
 
 								<div>
