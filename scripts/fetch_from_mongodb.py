@@ -40,6 +40,7 @@ DEV_COLLECTIONS = [
     ("dev", "geoloc_countries", "dev", "dev.geoloc_countries.json"),
     ("dev", "geoloc_regions", "dev", "dev.geoloc_regions.json"),
     ("dev", "geoloc_subregions", "dev", "dev.geoloc_subregions.json"),
+    ("dev", "geoloc_cities", "dev", "dev.geoloc_cities.json"),
 ]
 
 # University project databases to auto-discover collections from

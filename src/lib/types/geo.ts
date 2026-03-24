@@ -51,14 +51,13 @@ export interface RawGeolocSubregion {
 }
 
 export interface RawGeolocCity {
-	name: string;
-	country: string;
+	_id: MongoOid;
 	country_uri: string;
-	uri: string | null;
-	wikidata_label: string | null;
+	uri: string;
+	name: string;
 	coordinates: {
-		lat: number | null;
-		long: number | null;
+		latitude: number;
+		longitude: number;
 	};
 }
 

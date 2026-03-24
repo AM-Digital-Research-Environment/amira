@@ -69,19 +69,19 @@ function transformSubregion(subregion: RawGeolocSubregion): WikidataLocation {
 }
 
 /**
- * Transform raw geoloc city (from curated cities file) to WikidataLocation format
+ * Transform raw geoloc city (from MongoDB) to WikidataLocation format
  */
 function transformCity(city: RawGeolocCity): WikidataLocation {
 	return {
 		original_name: city.name,
-		wikidata_id: city.uri ? extractWikidataId(city.uri) : null,
-		wikidata_label: city.wikidata_label ?? city.name,
-		latitude: city.coordinates?.lat ?? null,
-		longitude: city.coordinates?.long ?? null,
+		wikidata_id: extractWikidataId(city.uri),
+		wikidata_label: city.name,
+		latitude: city.coordinates?.latitude ?? null,
+		longitude: city.coordinates?.longitude ?? null,
 		country_code: null,
 		geonames_id: null,
 		description: null,
-		match_confidence: city.uri ? 'exact' : 'manual'
+		match_confidence: 'exact'
 	};
 }
 
@@ -106,9 +106,9 @@ function buildUriToNameMaps(
 }
 
 /**
- * Load enriched location data from pre-reconciled geoloc files
+ * Load enriched location data from MongoDB geoloc files
  * Uses dev.geoloc_countries.json, dev.geoloc_regions.json, dev.geoloc_subregions.json,
- * and dev.geoloc_cities.json (curated city data with Wikidata reconciliation)
+ * and dev.geoloc_cities.json
  */
 export async function loadEnrichedLocations(
 	basePath: string = ''
@@ -118,7 +118,7 @@ export async function loadEnrichedLocations(
 			loadJSON<RawGeolocCountry[]>(`${basePath}/data/dev/dev.geoloc_countries.json`),
 			loadJSON<RawGeolocRegion[]>(`${basePath}/data/dev/dev.geoloc_regions.json`),
 			loadJSON<RawGeolocSubregion[]>(`${basePath}/data/dev/dev.geoloc_subregions.json`),
-			loadJSON<RawGeolocCity[]>(`${basePath}/data/dev/dev.geoloc_cities.json`).catch(() => [] as RawGeolocCity[])
+			loadJSON<RawGeolocCity[]>(`${basePath}/data/dev/dev.geoloc_cities.json`)
 		]);
 
 		// Build URI to name lookup maps
@@ -146,9 +146,10 @@ export async function loadEnrichedLocations(
 			cities[key] = transformSubregion(subregion);
 		}
 
-		// Overlay curated cities (takes priority over subregions)
+		// Overlay cities (takes priority over subregions)
 		for (const city of citiesRaw) {
-			const key = city.country ? `${city.name}|${city.country}` : city.name;
+			const countryName = countryUriToName.get(city.country_uri) || '';
+			const key = countryName ? `${city.name}|${countryName}` : city.name;
 			cities[key] = transformCity(city);
 		}
 
