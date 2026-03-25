@@ -4889,7 +4889,7 @@
         "admins": "All"
       }
     },
-    "typeOfResource": "Audio",
+    "typeOfResource": "Moving image",
     "genre": {
       "marc": [
         "interview"
@@ -5197,7 +5197,7 @@
         "admins": "All"
       }
     },
-    "typeOfResource": "Audio",
+    "typeOfResource": "Moving image",
     "genre": {
       "marc": [
         "interview"
@@ -9206,7 +9206,7 @@
     "security": "DSL3",
     "collection": [],
     "sponsor": [
-      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 390713902"
+      "EXC2052/1 Africa Multiple,\nDFG Projektnummber 3907139894"
     ],
     "project": {
       "id": "UJKZ_filmBF2022",
@@ -10221,7 +10221,7 @@
         "affl": [
           "University Joseph Ki-Zerbo"
         ],
-        "role": ""
+        "role": "Author"
       },
       {
         "name": {
@@ -10299,9 +10299,7 @@
       "fra"
     ],
     "physicalDescription": {
-      "type": {
-        "$numberDouble": "NaN"
-      },
+      "type": "Digital",
       "method": "born digital",
       "desc": [
         "Dossier"
