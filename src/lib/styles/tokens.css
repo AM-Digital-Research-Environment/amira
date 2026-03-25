@@ -506,8 +506,8 @@
 
     /* --- Chart Text Colors (dark mode) --- */
     --chart-text: var(--color-neutral-200);
-    --chart-text-muted: var(--color-neutral-400);
-    --chart-axis: var(--color-neutral-600);
+    --chart-text-muted: var(--color-neutral-300);
+    --chart-axis: var(--color-neutral-500);
     --chart-grid: var(--color-neutral-800);
     --chart-tooltip-bg: var(--color-neutral-900);
     --chart-tooltip-border: var(--color-neutral-700);

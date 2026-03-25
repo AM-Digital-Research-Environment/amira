@@ -134,8 +134,8 @@ export const THEME_COLORS = {
 
 		// Chart specific
 		chartText: '#e4e1dd',        // --color-neutral-200
-		chartTextMuted: '#938980',   // --color-neutral-400
-		chartAxis: '#5b5048',        // --color-neutral-600: hsl(24, 12%, 32%)
+		chartTextMuted: '#c8c2bc',   // --color-neutral-300: hsl(32, 10%, 76%)
+		chartAxis: '#766960',        // --color-neutral-500: hsl(25, 10%, 42%)
 		chartGrid: '#302621',        // --color-neutral-800
 		chartTooltipBg: 'rgba(34, 26, 22, 0.95)', // --color-neutral-900 with alpha
 		chartTooltipBorder: '#463b35'// --color-neutral-700
