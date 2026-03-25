@@ -9,7 +9,8 @@
 	import type { LocationData } from './map/markerBuilder';
 	import { buildAggregatedMarkers } from './map/markerBuilder';
 	import { buildPopupHtml } from './map/popupBuilder';
-	import { getMarkerRadius, getMarkerColor, ITEMS_PER_PAGE } from './map/mapHelpers';
+	import { getMarkerRadius, getMarkerColor, ITEMS_PER_PAGE, MAP_STYLE } from './map/mapHelpers';
+	import { theme } from '$lib/stores/data';
 
 	interface Props {
 		data: LocationData[];
@@ -94,7 +95,7 @@
 
 		map = new maplibregl.Map({
 			container: mapContainer,
-			style: 'https://demotiles.maplibre.org/style.json',
+			style: $theme === 'dark' ? MAP_STYLE.dark : MAP_STYLE.light,
 			center: [10, 20],
 			zoom: 2
 		});
@@ -184,6 +185,18 @@
 			map.fitBounds(bounds, { padding: 80, maxZoom: 6 });
 		}
 	}
+
+	// Switch map style when theme changes
+	$effect(() => {
+		if (map && mapReady) {
+			const style = $theme === 'dark' ? MAP_STYLE.dark : MAP_STYLE.light;
+			map.setStyle(style);
+			// Re-add markers after style loads
+			map.once('style.load', () => {
+				updateMarkers();
+			});
+		}
+	});
 
 	// Watch for marker changes and update when ready
 	$effect(() => {

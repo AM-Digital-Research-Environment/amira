@@ -2,6 +2,8 @@
 	import { onDestroy } from 'svelte';
 	import maplibregl from 'maplibre-gl';
 	import { CHART_COLORS } from '$lib/styles';
+	import { MAP_STYLE } from './map/mapHelpers';
+	import { theme } from '$lib/stores/data';
 
 	interface Marker {
 		latitude: number;
@@ -33,7 +35,7 @@
 
 		map = new maplibregl.Map({
 			container: mapContainer,
-			style: 'https://demotiles.maplibre.org/style.json',
+			style: $theme === 'dark' ? MAP_STYLE.dark : MAP_STYLE.light,
 			center,
 			zoom: initialZoom,
 			attributionControl: false
@@ -96,6 +98,17 @@
 	$effect(() => {
 		if (map && markers) {
 			addMarkers();
+		}
+	});
+
+	// Switch map style when theme changes
+	$effect(() => {
+		if (map) {
+			const style = $theme === 'dark' ? MAP_STYLE.dark : MAP_STYLE.light;
+			map.setStyle(style);
+			map.once('style.load', () => {
+				addMarkers();
+			});
 		}
 	});
 

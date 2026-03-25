@@ -4,6 +4,15 @@
 
 import { CHART_COLORS } from '$lib/styles';
 
+/**
+ * Map tile style URLs.
+ * CartoDB Positron: clean, muted basemap that doesn't compete with data markers.
+ */
+export const MAP_STYLE = {
+	light: 'https://basemaps.cartocdn.com/gl/positron-gl-style/style.json',
+	dark: 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json'
+} as const;
+
 /** Color mapping for marker types */
 export const MARKER_COLORS = {
 	city: CHART_COLORS[0],    // Blue
