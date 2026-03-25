@@ -2,8 +2,9 @@
 	import EChart from './EChart.svelte';
 	import type { EChartsOption } from 'echarts';
 	import { cn } from '$lib/utils/cn';
-	import { CHART_COLORS } from '$lib/styles';
+	import { CHART_COLORS, getThemeColors } from '$lib/styles';
 	import { buildTitle, hideAxes, pathFormatter } from './utils';
+	import { theme } from '$lib/stores/data';
 
 	interface SunburstNode {
 		name: string;
@@ -19,6 +20,8 @@
 	}
 
 	let { data, title = '', class: className = '', onclick }: Props = $props();
+
+	let themeColors = $derived(getThemeColors($theme === 'dark'));
 
 	let option: EChartsOption = $derived({
 		...buildTitle(title),
@@ -48,7 +51,8 @@
 						},
 						label: {
 							rotate: 'tangential',
-							fontSize: 11
+							fontSize: 11,
+							color: themeColors.chartText
 						}
 					},
 					{
@@ -56,7 +60,8 @@
 						r: '65%',
 						label: {
 							rotate: 'tangential',
-							fontSize: 10
+							fontSize: 10,
+							color: themeColors.chartText
 						}
 					},
 					{
@@ -66,7 +71,8 @@
 							position: 'outside',
 							padding: 3,
 							silent: false,
-							fontSize: 9
+							fontSize: 9,
+							color: themeColors.chartText
 						},
 						itemStyle: {
 							borderWidth: 1
@@ -80,7 +86,8 @@
 				},
 				label: {
 					show: true,
-					formatter: '{b}'
+					formatter: '{b}',
+					color: themeColors.chartText
 				}
 			}
 		],

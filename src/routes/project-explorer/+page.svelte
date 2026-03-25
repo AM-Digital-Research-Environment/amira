@@ -1,9 +1,8 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { base } from '$app/paths';
-	import { researchItemUrl, languageUrl } from '$lib/utils/urls';
 	import { languageName } from '$lib/utils/languages';
-	import { StatCard, ChartCard, EmptyState, Badge, Combobox, SEO } from '$lib/components/ui';
+	import { StatCard, ChartCard, EmptyState, Combobox, SEO } from '$lib/components/ui';
 	import { StackedTimeline, BarChart, PieChart, WordCloud, LocationMap, SankeyChart, SunburstChart, ChordDiagram, HeatmapChart } from '$lib/components/charts';
 	import { allCollections } from '$lib/stores/data';
 	import {
@@ -244,7 +243,7 @@
 			{/if}
 		</ChartCard>
 
-		<ChartCard title="Top Subjects" contentHeight="h-chart-sm" class="col-span-full">
+		<ChartCard title="Top Subjects" contentHeight="h-chart-xl" class="col-span-full">
 			{#if subjectsData.length > 0}
 				<BarChart data={subjectsData} maxItems={15} horizontal={false} />
 			{:else}
@@ -282,27 +281,4 @@
 		</ChartCard>
 	</div>
 
-	<!-- Recent Items -->
-	<ChartCard title="Recent Items" contentHeight="">
-		<div class="space-y-4">
-			{#each currentCollection.slice(0, 10) as item}
-				<a href={researchItemUrl(item._id || item.dre_id)} class="flex items-start gap-4 p-3 rounded-lg border bg-card hover:bg-accent/50 transition-colors">
-					<div class="flex-1 min-w-0">
-						<h4 class="font-medium truncate">
-							{item.titleInfo?.[0]?.title || 'Untitled'}
-						</h4>
-						<p class="text-sm text-muted-foreground truncate">
-							{item.project?.name || 'No project'}
-						</p>
-						<div class="flex flex-wrap gap-1 mt-2">
-							<Badge variant="secondary">{item.typeOfResource || 'Unknown'}</Badge>
-							{#each item.language?.slice(0, 2) || [] as lang}
-								<a href={languageUrl(lang)}><Badge variant="outline" class="hover:bg-primary/10 transition-colors">{languageName(lang)}</Badge></a>
-							{/each}
-						</div>
-					</div>
-				</a>
-			{/each}
-		</div>
-	</ChartCard>
 </div>

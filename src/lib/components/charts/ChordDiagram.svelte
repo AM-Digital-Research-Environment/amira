@@ -2,9 +2,10 @@
 	import EChart from './EChart.svelte';
 	import type { EChartsOption } from 'echarts';
 	import { cn } from '$lib/utils/cn';
-	import { CHART_COLORS_EXTENDED } from '$lib/styles';
+	import { CHART_COLORS_EXTENDED, getThemeColors } from '$lib/styles';
 	import { buildTitle, hideAxes } from './utils';
 	import type { ChordData } from '$lib/types';
+	import { theme } from '$lib/stores/data';
 
 	interface Props {
 		data: ChordData;
@@ -13,6 +14,8 @@
 	}
 
 	let { data, title = '', class: className = '' }: Props = $props();
+
+	let themeColors = $derived(getThemeColors($theme === 'dark'));
 
 	let option: EChartsOption = $derived({
 		...buildTitle(title),
@@ -43,6 +46,7 @@
 					show: true,
 					position: 'right',
 					fontSize: 10,
+					color: themeColors.chartText,
 					formatter: '{b}'
 				},
 				lineStyle: {

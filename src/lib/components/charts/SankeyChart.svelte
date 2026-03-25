@@ -2,8 +2,9 @@
 	import EChart from './EChart.svelte';
 	import type { EChartsOption } from 'echarts';
 	import { cn } from '$lib/utils/cn';
-	import { getChartColor } from '$lib/styles';
+	import { getChartColor, getThemeColors } from '$lib/styles';
 	import { buildTitle, hideAxes, linkFormatter } from './utils';
+	import { theme } from '$lib/stores/data';
 
 	interface SankeyNode {
 		name: string;
@@ -23,6 +24,8 @@
 	}
 
 	let { nodes, links, title = '', class: className = '' }: Props = $props();
+
+	let themeColors = $derived(getThemeColors($theme === 'dark'));
 
 	let option: EChartsOption = $derived({
 		...buildTitle(title),
@@ -55,7 +58,8 @@
 				},
 				label: {
 					position: 'right',
-					fontSize: 11
+					fontSize: 11,
+					color: themeColors.chartText
 				},
 				nodeWidth: 20,
 				nodeGap: 12,
