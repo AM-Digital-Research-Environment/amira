@@ -1,6 +1,9 @@
 /**
  * Marker aggregation logic — builds map markers from raw location data
  * and enriched Wikidata coordinates.
+ *
+ * Each location row is placed at the most precise level that has coordinates:
+ * city → region → country. Items are never double-counted across levels.
  */
 
 import type { EnrichedLocationsData, CollectionItem } from '$lib/types';
@@ -64,6 +67,9 @@ function itemMatchesLocation(
 /**
  * Aggregate location data rows into map markers by combining them with
  * enriched Wikidata coordinate data and matching collection items.
+ *
+ * Each row is placed at the most precise geographic level that has
+ * coordinates available: city → region → country.
  */
 export function buildAggregatedMarkers(
 	data: LocationData[],
@@ -76,91 +82,101 @@ export function buildAggregatedMarkers(
 
 	const markerMap = new Map<string, MarkerData>();
 
-	// Aggregate counts by location
-	const countryCounts = new Map<string, number>();
-	const cityCounts = new Map<string, number>();
+	// For each location row, resolve to the most precise level with coordinates
+	for (const d of data) {
+		let placed = false;
 
-	data.forEach((d) => {
-		if (d.country) {
-			countryCounts.set(d.country, (countryCounts.get(d.country) || 0) + d.count);
-		}
+		// 1. Try city level (most precise)
 		if (d.city && d.country) {
-			const key = `${d.city}|${d.country}`;
-			cityCounts.set(key, (cityCounts.get(key) || 0) + d.count);
-		}
-	});
+			const cityKey = `${d.city}|${d.country}`;
+			const cityData = enrichedLocations.cities[cityKey];
 
-	// Add city markers (more specific)
-	cityCounts.forEach((count, key) => {
-		const cityData = enrichedLocations.cities[key];
-		if (cityData?.latitude && cityData?.longitude) {
-			const [cityName, countryName] = key.split('|');
-			const matchingItems = items
-				.filter(item => itemMatchesLocation(item, 'city', cityName, countryName))
-				.map(item => ({ id: item._id || item.dre_id, title: getItemTitle(item), type: item.typeOfResource || 'Unknown' }));
+			if (cityData?.latitude && cityData?.longitude) {
+				const markerId = `city-${cityKey}`;
+				const existing = markerMap.get(markerId);
 
-			const markerId = `city-${key}`;
-			markerMap.set(markerId, {
-				id: markerId,
-				name: cityData.wikidata_label || cityName,
-				latitude: cityData.latitude,
-				longitude: cityData.longitude,
-				count,
-				type: 'city',
-				wikidataId: cityData.wikidata_id || undefined,
-				items: matchingItems
-			});
-		}
-	});
+				if (existing) {
+					existing.count += d.count;
+				} else {
+					const matchingItems = items
+						.filter(item => itemMatchesLocation(item, 'city', d.city, d.country))
+						.map(item => ({ id: item._id || item.dre_id, title: getItemTitle(item), type: item.typeOfResource || 'Unknown' }));
 
-	// Add country markers
-	countryCounts.forEach((count, country) => {
-		const hasCities = Array.from(cityCounts.keys()).some((key) => key.endsWith(`|${country}`));
-		const countryData = enrichedLocations.countries[country];
-
-		if (countryData?.latitude && countryData?.longitude) {
-			const adjustedCount = hasCities ? Math.ceil(count * 0.3) : count;
-			const matchingItems = items
-				.filter(item => itemMatchesLocation(item, 'country', country))
-				.map(item => ({ id: item._id || item.dre_id, title: getItemTitle(item), type: item.typeOfResource || 'Unknown' }));
-
-			const markerId = `country-${country}`;
-			markerMap.set(markerId, {
-				id: markerId,
-				name: countryData.wikidata_label || country,
-				latitude: countryData.latitude,
-				longitude: countryData.longitude,
-				count: adjustedCount,
-				type: 'country',
-				wikidataId: countryData.wikidata_id || undefined,
-				items: matchingItems
-			});
-		}
-	});
-
-	// Also check "other" locations (current locations)
-	data.forEach((d) => {
-		const currentLoc = enrichedLocations.other[d.city] || enrichedLocations.other[d.country];
-		if (currentLoc?.latitude && currentLoc?.longitude) {
-			const markerId = `other-${currentLoc.original_name}`;
-			if (!markerMap.has(markerId)) {
-				const matchingItems = items
-					.filter(item => itemMatchesLocation(item, 'other', currentLoc.original_name))
-					.map(item => ({ id: item._id || item.dre_id, title: getItemTitle(item), type: item.typeOfResource || 'Unknown' }));
-
-				markerMap.set(markerId, {
-					id: markerId,
-					name: currentLoc.wikidata_label || currentLoc.original_name,
-					latitude: currentLoc.latitude,
-					longitude: currentLoc.longitude,
-					count: d.count,
-					type: 'other',
-					wikidataId: currentLoc.wikidata_id || undefined,
-					items: matchingItems
-				});
+					markerMap.set(markerId, {
+						id: markerId,
+						name: cityData.wikidata_label || d.city,
+						latitude: cityData.latitude,
+						longitude: cityData.longitude,
+						count: d.count,
+						type: 'city',
+						wikidataId: cityData.wikidata_id || undefined,
+						items: matchingItems
+					});
+				}
+				placed = true;
 			}
 		}
-	});
+
+		// 2. Try region level
+		if (!placed && d.region && d.country) {
+			const regionKey = `${d.region}|${d.country}`;
+			const regionData = enrichedLocations.regions[regionKey];
+
+			if (regionData?.latitude && regionData?.longitude) {
+				const markerId = `region-${regionKey}`;
+				const existing = markerMap.get(markerId);
+
+				if (existing) {
+					existing.count += d.count;
+				} else {
+					const matchingItems = items
+						.filter(item => itemMatchesLocation(item, 'region', d.region, d.country))
+						.map(item => ({ id: item._id || item.dre_id, title: getItemTitle(item), type: item.typeOfResource || 'Unknown' }));
+
+					markerMap.set(markerId, {
+						id: markerId,
+						name: regionData.wikidata_label || d.region,
+						latitude: regionData.latitude,
+						longitude: regionData.longitude,
+						count: d.count,
+						type: 'region',
+						wikidataId: regionData.wikidata_id || undefined,
+						items: matchingItems
+					});
+				}
+				placed = true;
+			}
+		}
+
+		// 3. Fall back to country level (least precise)
+		if (!placed && d.country) {
+			const countryData = enrichedLocations.countries[d.country];
+
+			if (countryData?.latitude && countryData?.longitude) {
+				const markerId = `country-${d.country}`;
+				const existing = markerMap.get(markerId);
+
+				if (existing) {
+					existing.count += d.count;
+				} else {
+					const matchingItems = items
+						.filter(item => itemMatchesLocation(item, 'country', d.country))
+						.map(item => ({ id: item._id || item.dre_id, title: getItemTitle(item), type: item.typeOfResource || 'Unknown' }));
+
+					markerMap.set(markerId, {
+						id: markerId,
+						name: countryData.wikidata_label || d.country,
+						latitude: countryData.latitude,
+						longitude: countryData.longitude,
+						count: d.count,
+						type: 'country',
+						wikidataId: countryData.wikidata_id || undefined,
+						items: matchingItems
+					});
+				}
+			}
+		}
+	}
 
 	return Array.from(markerMap.values());
 }

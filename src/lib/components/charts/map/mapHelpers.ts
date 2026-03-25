@@ -16,6 +16,7 @@ export const MAP_STYLE = {
 /** Color mapping for marker types */
 export const MARKER_COLORS = {
 	city: CHART_COLORS[0],    // Blue
+	region: CHART_COLORS[2],  // Amber
 	country: CHART_COLORS[1], // Emerald
 	other: CHART_COLORS[4]    // Purple
 } as const;
@@ -41,6 +42,8 @@ export function getMarkerColor(type: string): string {
 	switch (type) {
 		case 'city':
 			return MARKER_COLORS.city;
+		case 'region':
+			return MARKER_COLORS.region;
 		case 'country':
 			return MARKER_COLORS.country;
 		default:

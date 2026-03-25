@@ -27,6 +27,7 @@
 	let map: maplibregl.Map | null = null;
 	let mapReady = $state(false);
 	let isFullscreen = $state(false);
+	let initialTheme: string | null = null;
 
 	// Store pagination state for each marker
 	const paginationState = new Map<string, number>();
@@ -186,12 +187,20 @@
 		}
 	}
 
-	// Switch map style when theme changes
+	// Switch map style when theme changes (skip initial render)
 	$effect(() => {
-		if (map && mapReady) {
-			const style = $theme === 'dark' ? MAP_STYLE.dark : MAP_STYLE.light;
+		const currentTheme = $theme;
+		if (!map || !mapReady) return;
+
+		if (initialTheme === null) {
+			initialTheme = currentTheme;
+			return;
+		}
+
+		if (currentTheme !== initialTheme) {
+			initialTheme = currentTheme;
+			const style = currentTheme === 'dark' ? MAP_STYLE.dark : MAP_STYLE.light;
 			map.setStyle(style);
-			// Re-add markers after style loads
 			map.once('style.load', () => {
 				updateMarkers();
 			});
@@ -281,6 +290,10 @@
 			<div class="flex items-center gap-2">
 				<div class="w-4 h-4 rounded-full bg-chart-1 opacity-70"></div>
 				<span class="text-muted-foreground">City</span>
+			</div>
+			<div class="flex items-center gap-2">
+				<div class="w-4 h-4 rounded-full bg-chart-3 opacity-70"></div>
+				<span class="text-muted-foreground">Region</span>
 			</div>
 			<div class="flex items-center gap-2">
 				<div class="w-4 h-4 rounded-full bg-chart-2 opacity-70"></div>

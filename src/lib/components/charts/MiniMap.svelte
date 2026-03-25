@@ -23,6 +23,7 @@
 	let mapContainer: HTMLDivElement | undefined = $state();
 	let map: maplibregl.Map | null = null;
 	let mapMarkers: maplibregl.Marker[] = [];
+	let initialTheme: string | null = null;
 
 	function initializeMap() {
 		if (!mapContainer || map) return;
@@ -101,10 +102,19 @@
 		}
 	});
 
-	// Switch map style when theme changes
+	// Switch map style when theme changes (skip initial render)
 	$effect(() => {
-		if (map) {
-			const style = $theme === 'dark' ? MAP_STYLE.dark : MAP_STYLE.light;
+		const currentTheme = $theme;
+		if (!map) return;
+
+		if (initialTheme === null) {
+			initialTheme = currentTheme;
+			return;
+		}
+
+		if (currentTheme !== initialTheme) {
+			initialTheme = currentTheme;
+			const style = currentTheme === 'dark' ? MAP_STYLE.dark : MAP_STYLE.light;
 			map.setStyle(style);
 			map.once('style.load', () => {
 				addMarkers();
