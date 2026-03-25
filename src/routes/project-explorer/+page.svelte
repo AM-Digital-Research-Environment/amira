@@ -157,7 +157,7 @@
 		<StatCard value={currentCollection.length} label="Total Items" icon={FileText} animationDelay="75ms" />
 		<StatCard value={resourceTypesData.length} label="Resource Types" icon={Layers} iconBgClass="bg-chart-2/10" animationDelay="100ms" />
 		<StatCard value={contributorsData.length} label="Contributors" icon={Users} iconBgClass="bg-chart-1/10" animationDelay="150ms" />
-		<StatCard value={locationsData.length} label="Locations" icon={MapPin} iconBgClass="bg-chart-3/10" animationDelay="200ms" />
+		<StatCard value={locationsData.length} label="Locations" icon={MapPin} iconBgClass="bg-location-country/10" animationDelay="200ms" />
 	</div>
 
 	<!-- Charts Grid -->

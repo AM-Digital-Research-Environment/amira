@@ -408,6 +408,12 @@
     --chart-tooltip-bg: var(--color-neutral-0);
     --chart-tooltip-border: var(--color-neutral-200);
 
+    /* --- Location Type Colors (consistent across all pages) --- */
+    --location-city: var(--chart-1);
+    --location-region: var(--chart-3);
+    --location-country: var(--chart-2);
+    --location-current: var(--chart-5);
+
     /* --- Research Section Colors --- */
     --rs-affiliations: 217 91% 60%;        /* Blue */
     --rs-arts-aesthetics: 258 90% 66%;     /* Purple */

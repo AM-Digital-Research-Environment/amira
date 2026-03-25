@@ -10,6 +10,7 @@
 	import type { CollectionItem } from '$lib/types';
 	import { MapPin, Globe, FileText, Building2 } from '@lucide/svelte';
 	import { WissKILink } from '$lib/components/ui';
+	import { getLocationColor } from '$lib/styles';
 
 	const urlSelection = createUrlSelection('name');
 
@@ -152,43 +153,43 @@
 	let locationMapMarkers = $derived.by(() => {
 		if (!selectedLocation || !$enrichedLocations) return [];
 		const name = selectedLocation.name;
-		const markers: { latitude: number; longitude: number; label: string }[] = [];
+		const markers: { latitude: number; longitude: number; label: string; color?: string }[] = [];
 
 		if (selectedLocation.type === 'country') {
 			const loc = $enrichedLocations.countries[name];
 			if (loc?.latitude && loc?.longitude) {
-				markers.push({ latitude: loc.latitude, longitude: loc.longitude, label: name });
+				markers.push({ latitude: loc.latitude, longitude: loc.longitude, label: name, color: getLocationColor('country') });
 			}
 			// Also show cities
 			citiesInLocation.forEach((city) => {
 				const key = `${city.name}|${city.country}`;
 				const cityLoc = $enrichedLocations!.cities[key];
 				if (cityLoc?.latitude && cityLoc?.longitude) {
-					markers.push({ latitude: cityLoc.latitude, longitude: cityLoc.longitude, label: city.name });
+					markers.push({ latitude: cityLoc.latitude, longitude: cityLoc.longitude, label: city.name, color: getLocationColor('city') });
 				}
 			});
 		} else if (selectedLocation.type === 'city' && selectedLocation.country) {
 			const key = `${name}|${selectedLocation.country}`;
 			const loc = $enrichedLocations.cities[key];
 			if (loc?.latitude && loc?.longitude) {
-				markers.push({ latitude: loc.latitude, longitude: loc.longitude, label: name });
+				markers.push({ latitude: loc.latitude, longitude: loc.longitude, label: name, color: getLocationColor('city') });
 			} else {
 				// Fallback to country coordinates
 				const countryLoc = $enrichedLocations.countries[selectedLocation.country];
 				if (countryLoc?.latitude && countryLoc?.longitude) {
-					markers.push({ latitude: countryLoc.latitude, longitude: countryLoc.longitude, label: `${name} (${selectedLocation.country})` });
+					markers.push({ latitude: countryLoc.latitude, longitude: countryLoc.longitude, label: `${name} (${selectedLocation.country})`, color: getLocationColor('city') });
 				}
 			}
 		} else if (selectedLocation.type === 'region' && selectedLocation.country) {
 			const key = `${name}|${selectedLocation.country}`;
 			const loc = $enrichedLocations.regions[key];
 			if (loc?.latitude && loc?.longitude) {
-				markers.push({ latitude: loc.latitude, longitude: loc.longitude, label: name });
+				markers.push({ latitude: loc.latitude, longitude: loc.longitude, label: name, color: getLocationColor('region') });
 			} else {
 				// Fallback to country coordinates
 				const countryLoc = $enrichedLocations.countries[selectedLocation.country];
 				if (countryLoc?.latitude && countryLoc?.longitude) {
-					markers.push({ latitude: countryLoc.latitude, longitude: countryLoc.longitude, label: `${name} (${selectedLocation.country})` });
+					markers.push({ latitude: countryLoc.latitude, longitude: countryLoc.longitude, label: `${name} (${selectedLocation.country})`, color: getLocationColor('region') });
 				}
 			}
 			// Also show cities in this region
@@ -196,7 +197,7 @@
 				const cityKey = `${city.name}|${city.country}`;
 				const cityLoc = $enrichedLocations!.cities[cityKey];
 				if (cityLoc?.latitude && cityLoc?.longitude) {
-					markers.push({ latitude: cityLoc.latitude, longitude: cityLoc.longitude, label: city.name });
+					markers.push({ latitude: cityLoc.latitude, longitude: cityLoc.longitude, label: city.name, color: getLocationColor('city') });
 				}
 			});
 		}
@@ -231,10 +232,10 @@
 	</div>
 
 	<div class="grid gap-4 sm:grid-cols-4">
-		<StatCard label="Countries" value={countryList.length} icon={Globe} />
-		<StatCard label="Regions" value={regionList.length} icon={MapPin} />
-		<StatCard label="Cities" value={cityList.length} icon={MapPin} />
-		<StatCard label="Current Locations" value={currentLocationList.length} icon={Building2} />
+		<StatCard label="Countries" value={countryList.length} icon={Globe} iconBgClass="bg-location-country/10" />
+		<StatCard label="Regions" value={regionList.length} icon={MapPin} iconBgClass="bg-location-region/10" />
+		<StatCard label="Cities" value={cityList.length} icon={MapPin} iconBgClass="bg-location-city/10" />
+		<StatCard label="Current Locations" value={currentLocationList.length} icon={Building2} iconBgClass="bg-location-current/10" />
 	</div>
 
 	<div class="grid gap-6 lg:grid-cols-3">
@@ -330,11 +331,13 @@
 								<div class="min-w-0">
 									<div class="flex items-center gap-2">
 										{#if selectedLocation.type === 'country'}
-											<Globe class="h-6 w-6 text-primary shrink-0" />
-										{:else if selectedLocation.type === 'current'}
-											<Building2 class="h-6 w-6 text-primary shrink-0" />
+											<Globe class="h-6 w-6 text-location-country shrink-0" />
+										{:else if selectedLocation.type === 'region'}
+											<MapPin class="h-6 w-6 text-location-region shrink-0" />
+										{:else if selectedLocation.type === 'city'}
+											<MapPin class="h-6 w-6 text-location-city shrink-0" />
 										{:else}
-											<MapPin class="h-6 w-6 text-primary shrink-0" />
+											<Building2 class="h-6 w-6 text-location-current shrink-0" />
 										{/if}
 
 										<CardTitle class="break-words">
@@ -390,7 +393,7 @@
 									<CardTitle class="text-lg">
 										{#snippet children()}
 											<span class="flex items-center gap-2">
-												<MapPin class="h-5 w-5 text-primary" />
+												<MapPin class="h-5 w-5 text-location-region" />
 												Regions
 												<Badge variant="secondary">
 													{#snippet children()}{regionsInCountry.length}{/snippet}
@@ -428,7 +431,7 @@
 									<CardTitle class="text-lg">
 										{#snippet children()}
 											<span class="flex items-center gap-2">
-												<MapPin class="h-5 w-5 text-muted-foreground" />
+												<MapPin class="h-5 w-5 text-location-city" />
 												Cities
 												<Badge variant="secondary">
 													{#snippet children()}{citiesInLocation.length}{/snippet}

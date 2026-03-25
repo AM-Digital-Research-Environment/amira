@@ -67,6 +67,14 @@ export default {
 				},
 
 				// Chart colors (for use in Tailwind classes)
+				// Location type colors (consistent across all pages)
+				location: {
+					city: 'hsl(var(--location-city))',
+					region: 'hsl(var(--location-region))',
+					country: 'hsl(var(--location-country))',
+					current: 'hsl(var(--location-current))'
+				},
+
 				chart: {
 					1: 'hsl(var(--chart-1))',
 					2: 'hsl(var(--chart-2))',

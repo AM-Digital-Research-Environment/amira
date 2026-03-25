@@ -68,6 +68,32 @@ export const CHART_COLORS_SIMPLE = [
 ] as const;
 
 /* =============================================================================
+   LOCATION TYPE COLORS
+   Consistent color mapping for geographic location types across all pages.
+   Maps to CSS variables --location-city, --location-region, etc.
+   ============================================================================= */
+
+export const LOCATION_COLORS = {
+	city: CHART_COLORS[0],      // Blue — matches --location-city / --chart-1
+	region: CHART_COLORS[2],    // Amber — matches --location-region / --chart-3
+	country: CHART_COLORS[1],   // Emerald — matches --location-country / --chart-2
+	current: CHART_COLORS[4]    // Purple — matches --location-current / --chart-5
+} as const;
+
+/**
+ * Get location type color by type string
+ */
+export function getLocationColor(type: string): string {
+	switch (type) {
+		case 'city': return LOCATION_COLORS.city;
+		case 'region': return LOCATION_COLORS.region;
+		case 'country': return LOCATION_COLORS.country;
+		case 'current': return LOCATION_COLORS.current;
+		default: return LOCATION_COLORS.current;
+	}
+}
+
+/* =============================================================================
    THEME COLORS (Light/Dark aware hex values)
    ============================================================================= */
 

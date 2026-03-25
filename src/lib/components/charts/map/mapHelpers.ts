@@ -2,7 +2,7 @@
  * Map helper utilities — marker sizing, coloring, and constants.
  */
 
-import { CHART_COLORS } from '$lib/styles';
+import { LOCATION_COLORS, getLocationColor } from '$lib/styles';
 
 /**
  * Map tile style URLs.
@@ -13,13 +13,10 @@ export const MAP_STYLE = {
 	dark: 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json'
 } as const;
 
-/** Color mapping for marker types */
-export const MARKER_COLORS = {
-	city: CHART_COLORS[0],    // Blue
-	region: CHART_COLORS[2],  // Amber
-	country: CHART_COLORS[1], // Emerald
-	other: CHART_COLORS[4]    // Purple
-} as const;
+/**
+ * @deprecated Use LOCATION_COLORS from '$lib/styles' directly
+ */
+export const MARKER_COLORS = LOCATION_COLORS;
 
 /** Number of items shown per page in marker popups */
 export const ITEMS_PER_PAGE = 5;
@@ -37,16 +34,8 @@ export function getMarkerRadius(count: number, maxCount: number): number {
 
 /**
  * Get the marker color for a given location type.
+ * Delegates to the centralized getLocationColor from design tokens.
  */
 export function getMarkerColor(type: string): string {
-	switch (type) {
-		case 'city':
-			return MARKER_COLORS.city;
-		case 'region':
-			return MARKER_COLORS.region;
-		case 'country':
-			return MARKER_COLORS.country;
-		default:
-			return MARKER_COLORS.other;
-	}
+	return getLocationColor(type);
 }

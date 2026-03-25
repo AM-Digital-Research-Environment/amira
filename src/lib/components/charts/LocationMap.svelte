@@ -288,19 +288,19 @@
 		<!-- Legend -->
 		<div class={cn('flex flex-wrap gap-4 justify-center text-sm', isFullscreen ? 'mt-4' : 'mt-3')}>
 			<div class="flex items-center gap-2">
-				<div class="w-4 h-4 rounded-full bg-chart-1 opacity-70"></div>
+				<div class="w-4 h-4 rounded-full bg-location-city opacity-70"></div>
 				<span class="text-muted-foreground">City</span>
 			</div>
 			<div class="flex items-center gap-2">
-				<div class="w-4 h-4 rounded-full bg-chart-3 opacity-70"></div>
+				<div class="w-4 h-4 rounded-full bg-location-region opacity-70"></div>
 				<span class="text-muted-foreground">Region</span>
 			</div>
 			<div class="flex items-center gap-2">
-				<div class="w-4 h-4 rounded-full bg-chart-2 opacity-70"></div>
+				<div class="w-4 h-4 rounded-full bg-location-country opacity-70"></div>
 				<span class="text-muted-foreground">Country</span>
 			</div>
 			<div class="flex items-center gap-2">
-				<div class="w-4 h-4 rounded-full bg-chart-5 opacity-70"></div>
+				<div class="w-4 h-4 rounded-full bg-location-current opacity-70"></div>
 				<span class="text-muted-foreground">Other</span>
 			</div>
 			<div class="text-muted-foreground">
