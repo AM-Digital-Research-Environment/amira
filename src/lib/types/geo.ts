@@ -33,8 +33,8 @@ export interface RawGeolocRegion {
 	uri: string;
 	name: string;
 	coordinates: {
-		latitude: number;
-		longitude: number;
+		lat: number;
+		long: number;
 	};
 }
 
@@ -56,8 +56,8 @@ export interface RawGeolocCity {
 	uri: string | null;
 	name: string;
 	coordinates: {
-		latitude: number;
-		longitude: number;
+		lat: number;
+		long: number;
 	};
 }
 
