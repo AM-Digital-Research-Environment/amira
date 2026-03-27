@@ -238,13 +238,31 @@ export async function loadAllCollections(basePath: string = ''): Promise<Collect
 }
 
 /**
- * Load manually curated research sections data
+ * Raw research section document from MongoDB
+ */
+interface RawResearchSection {
+	_id: string;
+	name: string;
+	url: string;
+	description: string;
+	objectives: string;
+	workProgramme: string;
+	principalInvestigators: string[];
+	members: string[];
+}
+
+/**
+ * Load research sections data from MongoDB export
  */
 export async function loadResearchSections(basePath: string = ''): Promise<Record<string, ResearchSectionInfo>> {
 	try {
-		const response = await fetch(`${basePath}/data/manual/researchSections.json`);
-		if (!response.ok) return {};
-		return response.json();
+		const docs = await loadJSON<RawResearchSection[]>(`${basePath}/data/dev/dev.researchSections.json`);
+		const result: Record<string, ResearchSectionInfo> = {};
+		for (const doc of docs) {
+			const { _id, name, ...info } = doc;
+			result[name] = info;
+		}
+		return result;
 	} catch {
 		console.warn('Could not load research sections data');
 		return {};

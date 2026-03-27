@@ -37,6 +37,7 @@ DEV_COLLECTIONS = [
     ("dev", "institutions", "dev", "dev.institutions.json"),
     ("dev", "projectsData", "dev", "dev.projectsData.json"),
     ("dev", "collections", "dev", "dev.collections.json"),
+    ("dev", "researchSections", "dev", "dev.researchSections.json"),
     ("dev", "geoloc_countries", "dev", "dev.geoloc_countries.json"),
     ("dev", "geoloc_regions", "dev", "dev.geoloc_regions.json"),
     ("dev", "geoloc_subregions", "dev", "dev.geoloc_subregions.json"),
