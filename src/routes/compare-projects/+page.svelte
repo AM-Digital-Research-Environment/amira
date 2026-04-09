@@ -1,5 +1,16 @@
 <script lang="ts">
-	import { ChartCard, EmptyState, Card, CardHeader, CardTitle, CardContent, Select, Combobox, Badge, SEO } from '$lib/components/ui';
+	import {
+		ChartCard,
+		EmptyState,
+		Card,
+		CardHeader,
+		CardTitle,
+		CardContent,
+		Select,
+		Combobox,
+		Badge,
+		SEO
+	} from '$lib/components/ui';
 	import { StackedTimeline, BarChart, PieChart } from '$lib/components/charts';
 	import { allCollections } from '$lib/stores/data';
 	import {
@@ -158,7 +169,11 @@
 		return fullName || projKey || projectId;
 	}
 </script>
-<SEO title="Compare Projects" description="Side-by-side comparison of research data across universities and projects" />
+
+<SEO
+	title="Compare Projects"
+	description="Side-by-side comparison of research data across universities and projects"
+/>
 
 <div class="space-y-6">
 	<!-- Page Header -->
@@ -251,12 +266,16 @@
 							<div class="flex items-center justify-center gap-4">
 								<div>
 									<div class="text-2xl font-bold text-chart-1">{leftData.length}</div>
-									<p class="text-xs text-muted-foreground max-w-[120px] truncate">{getSelectionName(leftUniversity, leftProject)}</p>
+									<p class="text-xs text-muted-foreground max-w-[120px] truncate">
+										{getSelectionName(leftUniversity, leftProject)}
+									</p>
 								</div>
 								<span class="text-muted-foreground">vs</span>
 								<div>
 									<div class="text-2xl font-bold text-chart-2">{rightData.length}</div>
-									<p class="text-xs text-muted-foreground max-w-[120px] truncate">{getSelectionName(rightUniversity, rightProject)}</p>
+									<p class="text-xs text-muted-foreground max-w-[120px] truncate">
+										{getSelectionName(rightUniversity, rightProject)}
+									</p>
 								</div>
 							</div>
 						</div>
@@ -274,12 +293,16 @@
 							<div class="flex items-center justify-center gap-4">
 								<div>
 									<div class="text-2xl font-bold text-chart-1">{leftResourceTypes.length}</div>
-									<p class="text-xs text-muted-foreground max-w-[120px] truncate">{getSelectionName(leftUniversity, leftProject)}</p>
+									<p class="text-xs text-muted-foreground max-w-[120px] truncate">
+										{getSelectionName(leftUniversity, leftProject)}
+									</p>
 								</div>
 								<span class="text-muted-foreground">vs</span>
 								<div>
 									<div class="text-2xl font-bold text-chart-2">{rightResourceTypes.length}</div>
-									<p class="text-xs text-muted-foreground max-w-[120px] truncate">{getSelectionName(rightUniversity, rightProject)}</p>
+									<p class="text-xs text-muted-foreground max-w-[120px] truncate">
+										{getSelectionName(rightUniversity, rightProject)}
+									</p>
 								</div>
 							</div>
 						</div>
@@ -331,7 +354,10 @@
 
 	<!-- Timeline Comparison -->
 	<div class="grid gap-6 lg:grid-cols-2">
-		<ChartCard title="{getSelectionName(leftUniversity, leftProject)} Timeline" contentHeight="h-chart-md">
+		<ChartCard
+			title="{getSelectionName(leftUniversity, leftProject)} Timeline"
+			contentHeight="h-chart-md"
+		>
 			{#if leftTimeline.length > 0}
 				<StackedTimeline data={leftTimeline} />
 			{:else}
@@ -339,7 +365,10 @@
 			{/if}
 		</ChartCard>
 
-		<ChartCard title="{getSelectionName(rightUniversity, rightProject)} Timeline" contentHeight="h-chart-md">
+		<ChartCard
+			title="{getSelectionName(rightUniversity, rightProject)} Timeline"
+			contentHeight="h-chart-md"
+		>
 			{#if rightTimeline.length > 0}
 				<StackedTimeline data={rightTimeline} />
 			{:else}
@@ -350,7 +379,10 @@
 
 	<!-- Resource Types Comparison -->
 	<div class="grid gap-6 lg:grid-cols-2">
-		<ChartCard title="{getSelectionName(leftUniversity, leftProject)} Resource Types" contentHeight="h-chart-md">
+		<ChartCard
+			title="{getSelectionName(leftUniversity, leftProject)} Resource Types"
+			contentHeight="h-chart-md"
+		>
 			{#if leftResourceTypes.length > 0}
 				<PieChart data={leftResourceTypes} />
 			{:else}
@@ -358,7 +390,10 @@
 			{/if}
 		</ChartCard>
 
-		<ChartCard title="{getSelectionName(rightUniversity, rightProject)} Resource Types" contentHeight="h-chart-md">
+		<ChartCard
+			title="{getSelectionName(rightUniversity, rightProject)} Resource Types"
+			contentHeight="h-chart-md"
+		>
 			{#if rightResourceTypes.length > 0}
 				<PieChart data={rightResourceTypes} />
 			{:else}
@@ -369,7 +404,10 @@
 
 	<!-- Top Subjects Comparison -->
 	<div class="grid gap-6 lg:grid-cols-2">
-		<ChartCard title="{getSelectionName(leftUniversity, leftProject)} Top Subjects" contentHeight="h-chart-md">
+		<ChartCard
+			title="{getSelectionName(leftUniversity, leftProject)} Top Subjects"
+			contentHeight="h-chart-md"
+		>
 			{#if leftSubjects.length > 0}
 				<BarChart data={leftSubjects} maxItems={8} />
 			{:else}
@@ -377,7 +415,10 @@
 			{/if}
 		</ChartCard>
 
-		<ChartCard title="{getSelectionName(rightUniversity, rightProject)} Top Subjects" contentHeight="h-chart-md">
+		<ChartCard
+			title="{getSelectionName(rightUniversity, rightProject)} Top Subjects"
+			contentHeight="h-chart-md"
+		>
 			{#if rightSubjects.length > 0}
 				<BarChart data={rightSubjects} maxItems={8} />
 			{:else}
@@ -388,7 +429,10 @@
 
 	<!-- Languages Comparison -->
 	<div class="grid gap-6 lg:grid-cols-2">
-		<ChartCard title="{getSelectionName(leftUniversity, leftProject)} Languages" contentHeight="h-chart-sm">
+		<ChartCard
+			title="{getSelectionName(leftUniversity, leftProject)} Languages"
+			contentHeight="h-chart-sm"
+		>
 			{#if leftLanguages.length > 0}
 				<BarChart data={leftLanguages} maxItems={6} />
 			{:else}
@@ -396,7 +440,10 @@
 			{/if}
 		</ChartCard>
 
-		<ChartCard title="{getSelectionName(rightUniversity, rightProject)} Languages" contentHeight="h-chart-sm">
+		<ChartCard
+			title="{getSelectionName(rightUniversity, rightProject)} Languages"
+			contentHeight="h-chart-sm"
+		>
 			{#if rightLanguages.length > 0}
 				<BarChart data={rightLanguages} maxItems={6} />
 			{:else}

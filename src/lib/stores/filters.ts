@@ -77,9 +77,7 @@ export const filteredCollections: Readable<CollectionItem[]> = derived(
 
 		// Apply date range filter
 		if ($filters.dateRange.start || $filters.dateRange.end) {
-			const startYear = $filters.dateRange.start
-				? extractYear($filters.dateRange.start)
-				: null;
+			const startYear = $filters.dateRange.start ? extractYear($filters.dateRange.start) : null;
 			const endYear = $filters.dateRange.end ? extractYear($filters.dateRange.end) : null;
 			result = filterByDateRange(result, startYear, endYear);
 		}

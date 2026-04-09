@@ -30,7 +30,9 @@
 </script>
 
 <div class={cn('w-full', className)}>
-	<div class="inline-flex h-10 items-center justify-center rounded-md bg-muted p-1 text-muted-foreground">
+	<div
+		class="inline-flex h-10 items-center justify-center rounded-md bg-muted p-1 text-muted-foreground"
+	>
 		{#each tabs as tab}
 			<button
 				type="button"

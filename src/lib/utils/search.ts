@@ -10,8 +10,6 @@ export function createSearchFilter<T>(
 		const trimmed = query.trim();
 		if (!trimmed) return items;
 		const q = trimmed.toLowerCase();
-		return items.filter((item) =>
-			fields.some((field) => field(item)?.toLowerCase().includes(q))
-		);
+		return items.filter((item) => fields.some((field) => field(item)?.toLowerCase().includes(q)));
 	};
 }

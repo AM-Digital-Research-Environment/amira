@@ -2,14 +2,38 @@
 	import { Card, CardHeader, CardTitle, CardContent, Badge } from '$lib/components/ui';
 	import { MiniMap, EntityKnowledgeGraph } from '$lib/components/charts';
 	import { base } from '$app/paths';
-	import { locationUrl, institutionUrl, projectUrl, languageUrl, resourceTypeUrl, subjectUrl, tagUrl, genreUrl } from '$lib/utils/urls';
+	import {
+		locationUrl,
+		institutionUrl,
+		projectUrl,
+		languageUrl,
+		resourceTypeUrl,
+		subjectUrl,
+		tagUrl,
+		genreUrl
+	} from '$lib/utils/urls';
 	import { languageName } from '$lib/utils/languages';
 	import type { CollectionItem } from '$lib/types';
 	import { universities } from '$lib/types';
 	import { getItemTitle } from '$lib/utils/helpers';
 	import {
-		FileText, Users, Tag, Calendar, MapPin, Languages, Building2, Briefcase,
-		ExternalLink, BookType, HardDrive, StickyNote, Heart, Link, Archive, Target, Hash
+		FileText,
+		Users,
+		Tag,
+		Calendar,
+		MapPin,
+		Languages,
+		Building2,
+		Briefcase,
+		ExternalLink,
+		BookType,
+		HardDrive,
+		StickyNote,
+		Heart,
+		Link,
+		Archive,
+		Target,
+		Hash
 	} from '@lucide/svelte';
 	import { WissKILink } from '$lib/components/ui';
 	import {
@@ -79,7 +103,10 @@
 					{#if item.project?.name}
 						<p class="text-sm text-muted-foreground mt-2 flex items-center gap-1.5">
 							<Briefcase class="h-3.5 w-3.5 shrink-0" />
-							Project: <a href={projectUrl(item.project.id)} class="hover:text-primary transition-colors">{item.project.name}</a>
+							Project:
+							<a href={projectUrl(item.project.id)} class="hover:text-primary transition-colors"
+								>{item.project.name}</a
+							>
 						</p>
 					{/if}
 				</div>
@@ -92,7 +119,11 @@
 						<div class="flex items-center gap-2">
 							<FileText class="h-4 w-4 text-muted-foreground shrink-0" />
 							<span class="text-muted-foreground shrink-0">Type</span>
-							<a href={resourceTypeUrl(item.typeOfResource)} class="text-foreground hover:text-primary transition-colors">{item.typeOfResource}</a>
+							<a
+								href={resourceTypeUrl(item.typeOfResource)}
+								class="text-foreground hover:text-primary transition-colors"
+								>{item.typeOfResource}</a
+							>
 						</div>
 					{/if}
 					{#if genre.length > 0}
@@ -101,7 +132,8 @@
 							<span class="text-muted-foreground shrink-0">Genre</span>
 							<span class="text-foreground">
 								{#each genre as g, i}
-									<a href={genreUrl(g)} class="hover:text-primary transition-colors">{g}</a>{#if i < genre.length - 1},&nbsp;{/if}
+									<a href={genreUrl(g)} class="hover:text-primary transition-colors">{g}</a
+									>{#if i < genre.length - 1},&nbsp;{/if}
 								{/each}
 							</span>
 						</div>
@@ -112,7 +144,10 @@
 							<div class="flex items-center gap-2">
 								<Building2 class="h-4 w-4 text-muted-foreground shrink-0" />
 								<span class="text-muted-foreground shrink-0">Institution</span>
-								<a href={institutionUrl(uni.name)} class="text-foreground hover:text-primary transition-colors truncate">
+								<a
+									href={institutionUrl(uni.name)}
+									class="text-foreground hover:text-primary transition-colors truncate"
+								>
 									{uni.name}
 								</a>
 							</div>
@@ -124,7 +159,9 @@
 							<span class="text-muted-foreground shrink-0">Language</span>
 							<span class="text-foreground">
 								{#each getLanguages(item) as lang, i}
-									<a href={languageUrl(lang)} class="hover:text-primary transition-colors">{languageName(lang)}</a>{#if i < getLanguages(item).length - 1},&nbsp;{/if}
+									<a href={languageUrl(lang)} class="hover:text-primary transition-colors"
+										>{languageName(lang)}</a
+									>{#if i < getLanguages(item).length - 1},&nbsp;{/if}
 								{/each}
 							</span>
 						</div>
@@ -160,7 +197,9 @@
 			</CardHeader>
 			<CardContent>
 				{#snippet children()}
-					<p class="text-sm text-muted-foreground leading-relaxed break-words whitespace-pre-line">{abstract}</p>
+					<p class="text-sm text-muted-foreground leading-relaxed break-words whitespace-pre-line">
+						{abstract}
+					</p>
 				{/snippet}
 			</CardContent>
 		{/snippet}
@@ -259,19 +298,31 @@
 										{#if origin.country}
 											<div class="flex items-center gap-2 text-sm">
 												<span class="text-muted-foreground min-w-[80px] shrink-0">Country</span>
-												<a href={locationUrl(origin.country)} class="text-foreground hover:text-primary transition-colors">{origin.country}</a>
+												<a
+													href={locationUrl(origin.country)}
+													class="text-foreground hover:text-primary transition-colors"
+													>{origin.country}</a
+												>
 											</div>
 										{/if}
 										{#if origin.region}
 											<div class="flex items-center gap-2 text-sm">
 												<span class="text-muted-foreground min-w-[80px] shrink-0">Region</span>
-												<a href={locationUrl(origin.region)} class="text-foreground hover:text-primary transition-colors">{origin.region}</a>
+												<a
+													href={locationUrl(origin.region)}
+													class="text-foreground hover:text-primary transition-colors"
+													>{origin.region}</a
+												>
 											</div>
 										{/if}
 										{#if origin.city}
 											<div class="flex items-center gap-2 text-sm">
 												<span class="text-muted-foreground min-w-[80px] shrink-0">Subregion</span>
-												<a href={locationUrl(origin.city)} class="text-foreground hover:text-primary transition-colors">{origin.city}</a>
+												<a
+													href={locationUrl(origin.city)}
+													class="text-foreground hover:text-primary transition-colors"
+													>{origin.city}</a
+												>
 											</div>
 										{/if}
 									</div>
@@ -386,7 +437,11 @@
 							{#if physicalDesc.method}
 								<div class="flex gap-2">
 									<span class="text-muted-foreground shrink-0 min-w-[80px]">Method</span>
-									<a href="{base}/research-items?method={encodeURIComponent(physicalDesc.method)}" class="text-foreground hover:text-primary transition-colors">{physicalDesc.method}</a>
+									<a
+										href="{base}/research-items?method={encodeURIComponent(physicalDesc.method)}"
+										class="text-foreground hover:text-primary transition-colors"
+										>{physicalDesc.method}</a
+									>
 								</div>
 							{/if}
 							{#if physicalDesc.descriptions.length > 0}
@@ -397,7 +452,8 @@
 							{/if}
 							{#if physicalDesc.technical.length > 0}
 								<div class="flex gap-2">
-									<span class="text-muted-foreground shrink-0 min-w-[80px]">Technical property</span>
+									<span class="text-muted-foreground shrink-0 min-w-[80px]">Technical property</span
+									>
 									<span class="text-foreground">{physicalDesc.technical.join(', ')}</span>
 								</div>
 							{/if}
@@ -437,7 +493,12 @@
 								<div class="flex items-start gap-3 text-sm">
 									<span class="text-muted-foreground shrink-0 min-w-[80px]">{id.type}</span>
 									{#if id.value.startsWith('http')}
-										<a href={id.value} target="_blank" rel="noopener noreferrer" class="text-primary hover:underline font-mono text-xs break-all inline-flex items-center gap-1">
+										<a
+											href={id.value}
+											target="_blank"
+											rel="noopener noreferrer"
+											class="text-primary hover:underline font-mono text-xs break-all inline-flex items-center gap-1"
+										>
 											{id.value}<ExternalLink class="h-3 w-3 shrink-0" />
 										</a>
 									{:else}
@@ -538,8 +599,14 @@
 					{#snippet children()}
 						<div class="flex flex-wrap gap-2">
 							{#each targetAudience as audience}
-								<a href="{base}/research-items?audience={encodeURIComponent(audience)}" class="hover:opacity-80 transition-opacity">
-									<Badge variant="secondary" class="hover:bg-primary/20 transition-colors cursor-pointer">
+								<a
+									href="{base}/research-items?audience={encodeURIComponent(audience)}"
+									class="hover:opacity-80 transition-opacity"
+								>
+									<Badge
+										variant="secondary"
+										class="hover:bg-primary/20 transition-colors cursor-pointer"
+									>
 										{#snippet children()}{audience}{/snippet}
 									</Badge>
 								</a>
@@ -591,7 +658,9 @@
 							</span>
 						{/snippet}
 					</CardTitle>
-					<p class="text-xs text-muted-foreground mt-1">Showing origin location{mapMarkers.length > 1 ? 's' : ''} of this item</p>
+					<p class="text-xs text-muted-foreground mt-1">
+						Showing origin location{mapMarkers.length > 1 ? 's' : ''} of this item
+					</p>
 				{/snippet}
 			</CardHeader>
 			<CardContent>

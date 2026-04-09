@@ -94,9 +94,7 @@
 			min: 'dataMin',
 			max: 'dataMax',
 			axisLabel: {
-				formatter: formatAsYear
-					? (val: number) => String(Math.round(val))
-					: undefined
+				formatter: formatAsYear ? (val: number) => String(Math.round(val)) : undefined
 			}
 		},
 		yAxis: {
@@ -109,22 +107,23 @@
 			},
 			inverse: true
 		},
-		dataZoom: data.length > 15
-			? [
-					{
-						type: 'slider',
-						yAxisIndex: 0,
-						right: 0,
-						width: 20,
-						start: 0,
-						end: Math.min(100, (15 / data.length) * 100)
-					},
-					{
-						type: 'inside',
-						yAxisIndex: 0
-					}
-				]
-			: undefined,
+		dataZoom:
+			data.length > 15
+				? [
+						{
+							type: 'slider',
+							yAxisIndex: 0,
+							right: 0,
+							width: 20,
+							start: 0,
+							end: Math.min(100, (15 / data.length) * 100)
+						},
+						{
+							type: 'inside',
+							yAxisIndex: 0
+						}
+					]
+				: undefined,
 		series: [
 			{
 				type: 'custom',
@@ -135,7 +134,9 @@
 						size: (val: [number, number]) => [number, number];
 						style: () => Record<string, unknown>;
 					};
-					const coordSys = (params as { coordSys: { x: number; y: number; width: number; height: number } }).coordSys;
+					const coordSys = (
+						params as { coordSys: { x: number; y: number; width: number; height: number } }
+					).coordSys;
 
 					const categoryIndex = apiFn.value(0);
 					const start = apiFn.coord([apiFn.value(1), categoryIndex]);
@@ -195,19 +196,20 @@
 				clip: true
 			}
 		],
-		legend: allCategories.length > 1
-			? {
-					show: true,
-					bottom: 0,
-					data: allCategories.map((cat) => ({
-						name: cat,
-						icon: 'roundRect',
-						itemStyle: {
-							color: categoryColorMap.get(cat) ?? CHART_COLORS[0]
-						}
-					}))
-				}
-			: undefined
+		legend:
+			allCategories.length > 1
+				? {
+						show: true,
+						bottom: 0,
+						data: allCategories.map((cat) => ({
+							name: cat,
+							icon: 'roundRect',
+							itemStyle: {
+								color: categoryColorMap.get(cat) ?? CHART_COLORS[0]
+							}
+						}))
+					}
+				: undefined
 	});
 
 	function handleClick(params: unknown) {
@@ -219,5 +221,11 @@
 </script>
 
 <div class={cn('h-full w-full', className)}>
-	<EChart {option} class="h-full w-full" onclick={handleClick} showZoomControls={false} notMerge={true} />
+	<EChart
+		{option}
+		class="h-full w-full"
+		onclick={handleClick}
+		showZoomControls={false}
+		notMerge={true}
+	/>
 </div>

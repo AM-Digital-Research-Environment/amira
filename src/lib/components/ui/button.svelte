@@ -23,9 +23,12 @@
 	}: Props = $props();
 
 	const variants = {
-		default: 'bg-primary text-primary-foreground hover:bg-primary-hover shadow-sm hover:shadow-md active:shadow-sm transition-all duration-200',
-		destructive: 'bg-destructive text-destructive-foreground hover:bg-destructive-hover shadow-sm hover:shadow-md',
-		outline: 'border border-border bg-transparent hover:bg-accent hover:text-accent-foreground transition-colors',
+		default:
+			'bg-primary text-primary-foreground hover:bg-primary-hover shadow-sm hover:shadow-md active:shadow-sm transition-all duration-200',
+		destructive:
+			'bg-destructive text-destructive-foreground hover:bg-destructive-hover shadow-sm hover:shadow-md',
+		outline:
+			'border border-border bg-transparent hover:bg-accent hover:text-accent-foreground transition-colors',
 		secondary: 'bg-secondary text-secondary-foreground hover:bg-secondary-hover transition-colors',
 		ghost: 'hover:bg-accent/80 hover:text-accent-foreground transition-colors',
 		link: 'text-primary underline-offset-4 hover:underline'

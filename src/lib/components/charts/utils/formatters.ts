@@ -88,7 +88,11 @@ export function stackedFormatter(params: unknown): string {
  */
 export function pathFormatter(params: unknown): string {
 	const p = params as PathParams;
-	const path = p.treePathInfo?.map((n) => n.name).filter((n) => n).join(' → ') || p.name;
+	const path =
+		p.treePathInfo
+			?.map((n) => n.name)
+			.filter((n) => n)
+			.join(' → ') || p.name;
 	return `${path}<br/>Count: ${p.value}`;
 }
 

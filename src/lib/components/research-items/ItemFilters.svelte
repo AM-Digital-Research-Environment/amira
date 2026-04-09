@@ -1,6 +1,17 @@
 <script lang="ts">
 	import { Card, CardHeader, CardTitle, CardContent, Badge, Input } from '$lib/components/ui';
-	import { Tag, BookOpen, X, ChevronDown, ChevronUp, Globe, Briefcase, Languages, Target, HardDrive } from '@lucide/svelte';
+	import {
+		Tag,
+		BookOpen,
+		X,
+		ChevronDown,
+		ChevronUp,
+		Globe,
+		Briefcase,
+		Languages,
+		Target,
+		HardDrive
+	} from '@lucide/svelte';
 	import { languageName } from '$lib/utils/languages';
 
 	interface SubjectOrTag {
@@ -203,7 +214,7 @@
 					<!-- Country/Origin filter -->
 					<div class="border-t border-border pt-2">
 						<button
-							onclick={() => countriesExpanded = !countriesExpanded}
+							onclick={() => (countriesExpanded = !countriesExpanded)}
 							class="flex items-center justify-between w-full text-xs font-medium text-muted-foreground"
 						>
 							<span class="flex items-center gap-1.5">
@@ -252,7 +263,9 @@
 										{@const isActive = selectedCountries.includes(country.name)}
 										<button
 											onclick={() => onToggleCountry(country.name)}
-											class="w-full text-left px-2 py-1 text-xs rounded hover:bg-muted transition-colors flex items-center justify-between gap-2 {isActive ? 'bg-chart-3/10 text-foreground font-medium' : ''}"
+											class="w-full text-left px-2 py-1 text-xs rounded hover:bg-muted transition-colors flex items-center justify-between gap-2 {isActive
+												? 'bg-chart-3/10 text-foreground font-medium'
+												: ''}"
 										>
 											<span class="truncate">{country.name}</span>
 											<span class="text-muted-foreground shrink-0">{country.count}</span>
@@ -266,7 +279,7 @@
 					<!-- Project filter -->
 					<div class="border-t border-border pt-2">
 						<button
-							onclick={() => projectsExpanded = !projectsExpanded}
+							onclick={() => (projectsExpanded = !projectsExpanded)}
 							class="flex items-center justify-between w-full text-xs font-medium text-muted-foreground"
 						>
 							<span class="flex items-center gap-1.5">
@@ -315,7 +328,9 @@
 										{@const isActive = selectedProjects.includes(project.name)}
 										<button
 											onclick={() => onToggleProject(project.name)}
-											class="w-full text-left px-2 py-1 text-xs rounded hover:bg-muted transition-colors flex items-center justify-between gap-2 {isActive ? 'bg-chart-4/10 text-foreground font-medium' : ''}"
+											class="w-full text-left px-2 py-1 text-xs rounded hover:bg-muted transition-colors flex items-center justify-between gap-2 {isActive
+												? 'bg-chart-4/10 text-foreground font-medium'
+												: ''}"
 										>
 											<span class="truncate">{project.name}</span>
 											<span class="text-muted-foreground shrink-0">{project.count}</span>
@@ -329,7 +344,7 @@
 					<!-- Language filter -->
 					<div class="border-t border-border pt-2">
 						<button
-							onclick={() => languagesExpanded = !languagesExpanded}
+							onclick={() => (languagesExpanded = !languagesExpanded)}
 							class="flex items-center justify-between w-full text-xs font-medium text-muted-foreground"
 						>
 							<span class="flex items-center gap-1.5">
@@ -378,7 +393,9 @@
 										{@const isActive = selectedLanguages.includes(lang.name)}
 										<button
 											onclick={() => onToggleLanguage(lang.name)}
-											class="w-full text-left px-2 py-1 text-xs rounded hover:bg-muted transition-colors flex items-center justify-between gap-2 {isActive ? 'bg-chart-5/10 text-foreground font-medium' : ''}"
+											class="w-full text-left px-2 py-1 text-xs rounded hover:bg-muted transition-colors flex items-center justify-between gap-2 {isActive
+												? 'bg-chart-5/10 text-foreground font-medium'
+												: ''}"
 										>
 											<span class="truncate">{languageName(lang.name)}</span>
 											<span class="text-muted-foreground shrink-0">{lang.count}</span>
@@ -392,7 +409,7 @@
 					<!-- Subjects filter (LCSH controlled vocabulary) -->
 					<div class="border-t border-border pt-2">
 						<button
-							onclick={() => subjectsExpanded = !subjectsExpanded}
+							onclick={() => (subjectsExpanded = !subjectsExpanded)}
 							class="flex items-center justify-between w-full text-xs font-medium text-muted-foreground"
 						>
 							<span class="flex items-center gap-1.5">
@@ -433,16 +450,15 @@
 
 						{#if subjectsExpanded}
 							<div class="mt-2 space-y-2">
-								<Input
-									placeholder="Search subjects..."
-									bind:value={subjectSearch}
-								/>
+								<Input placeholder="Search subjects..." bind:value={subjectSearch} />
 								<div class="space-y-0.5 max-h-32 overflow-y-auto">
 									{#each filteredSubjectOptions as subject}
 										{@const isActive = selectedSubjects.includes(subject.name)}
 										<button
 											onclick={() => onToggleSubject(subject.name)}
-											class="w-full text-left px-2 py-1 text-xs rounded hover:bg-muted transition-colors flex items-center justify-between gap-2 {isActive ? 'bg-primary/10 text-primary' : ''}"
+											class="w-full text-left px-2 py-1 text-xs rounded hover:bg-muted transition-colors flex items-center justify-between gap-2 {isActive
+												? 'bg-primary/10 text-primary'
+												: ''}"
 										>
 											<span class="truncate">{subject.name}</span>
 											<span class="text-muted-foreground shrink-0">{subject.count}</span>
@@ -456,7 +472,7 @@
 					<!-- Tags filter (free-form keywords) -->
 					<div class="border-t border-border pt-2">
 						<button
-							onclick={() => tagsExpanded = !tagsExpanded}
+							onclick={() => (tagsExpanded = !tagsExpanded)}
 							class="flex items-center justify-between w-full text-xs font-medium text-muted-foreground"
 						>
 							<span class="flex items-center gap-1.5">
@@ -497,16 +513,15 @@
 
 						{#if tagsExpanded}
 							<div class="mt-2 space-y-2">
-								<Input
-									placeholder="Search tags..."
-									bind:value={tagSearch}
-								/>
+								<Input placeholder="Search tags..." bind:value={tagSearch} />
 								<div class="space-y-0.5 max-h-32 overflow-y-auto">
 									{#each filteredTagOptions as tag}
 										{@const isActive = selectedTags.includes(tag.name)}
 										<button
 											onclick={() => onToggleTag(tag.name)}
-											class="w-full text-left px-2 py-1 text-xs rounded hover:bg-muted transition-colors flex items-center justify-between gap-2 {isActive ? 'bg-accent/20 text-accent-foreground' : ''}"
+											class="w-full text-left px-2 py-1 text-xs rounded hover:bg-muted transition-colors flex items-center justify-between gap-2 {isActive
+												? 'bg-accent/20 text-accent-foreground'
+												: ''}"
 										>
 											<span class="truncate">{tag.name}</span>
 											<span class="text-muted-foreground shrink-0">{tag.count}</span>
@@ -520,7 +535,7 @@
 					<!-- Target Audience filter -->
 					<div class="border-t border-border pt-2">
 						<button
-							onclick={() => audiencesExpanded = !audiencesExpanded}
+							onclick={() => (audiencesExpanded = !audiencesExpanded)}
 							class="flex items-center justify-between w-full text-xs font-medium text-muted-foreground"
 						>
 							<span class="flex items-center gap-1.5">
@@ -569,7 +584,9 @@
 										{@const isActive = selectedAudiences.includes(audience.name)}
 										<button
 											onclick={() => onToggleAudience(audience.name)}
-											class="w-full text-left px-2 py-1 text-xs rounded hover:bg-muted transition-colors flex items-center justify-between gap-2 {isActive ? 'bg-chart-2/10 text-foreground font-medium' : ''}"
+											class="w-full text-left px-2 py-1 text-xs rounded hover:bg-muted transition-colors flex items-center justify-between gap-2 {isActive
+												? 'bg-chart-2/10 text-foreground font-medium'
+												: ''}"
 										>
 											<span class="truncate">{audience.name}</span>
 											<span class="text-muted-foreground shrink-0">{audience.count}</span>
@@ -583,7 +600,7 @@
 					<!-- Digitization Method filter -->
 					<div class="border-t border-border pt-2">
 						<button
-							onclick={() => methodsExpanded = !methodsExpanded}
+							onclick={() => (methodsExpanded = !methodsExpanded)}
 							class="flex items-center justify-between w-full text-xs font-medium text-muted-foreground"
 						>
 							<span class="flex items-center gap-1.5">
@@ -629,7 +646,9 @@
 										{@const isActive = selectedMethods.includes(method.name)}
 										<button
 											onclick={() => onToggleMethod(method.name)}
-											class="w-full text-left px-2 py-1 text-xs rounded hover:bg-muted transition-colors flex items-center justify-between gap-2 {isActive ? 'bg-chart-1/10 text-foreground font-medium' : ''}"
+											class="w-full text-left px-2 py-1 text-xs rounded hover:bg-muted transition-colors flex items-center justify-between gap-2 {isActive
+												? 'bg-chart-1/10 text-foreground font-medium'
+												: ''}"
 										>
 											<span class="truncate">{method.name}</span>
 											<span class="text-muted-foreground shrink-0">{method.count}</span>

@@ -1,5 +1,17 @@
 <script lang="ts">
-	import { StatCard, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination, CollectionItemRow, BackToList, SEO } from '$lib/components/ui';
+	import {
+		StatCard,
+		Card,
+		CardHeader,
+		CardTitle,
+		CardContent,
+		Badge,
+		Input,
+		Pagination,
+		CollectionItemRow,
+		BackToList,
+		SEO
+	} from '$lib/components/ui';
 	import { allCollections } from '$lib/stores/data';
 	import { page } from '$app/stores';
 	import { createUrlSelection, scrollToTop } from '$lib/utils/urlSelection';
@@ -47,9 +59,7 @@
 		return map;
 	});
 
-	let languages = $derived(
-		Array.from(languageMap.values()).sort((a, b) => b.count - a.count)
-	);
+	let languages = $derived(Array.from(languageMap.values()).sort((a, b) => b.count - a.count));
 
 	const searchLanguages = createSearchFilter<LanguageData>([(l) => l.name, (l) => l.code]);
 
@@ -81,19 +91,28 @@
 		urlSelection.removeFromUrl();
 		scrollToTop();
 	}
-
 </script>
-<SEO title="Languages" description="Explore the languages represented in the research collections" />
+
+<SEO
+	title="Languages"
+	description="Explore the languages represented in the research collections"
+/>
 
 <div class="space-y-8 animate-slide-in-up">
 	<div>
 		<h1 class="page-title">Languages</h1>
-		<p class="page-subtitle">Browse research items by language across all universities and projects</p>
+		<p class="page-subtitle">
+			Browse research items by language across all universities and projects
+		</p>
 	</div>
 
 	<div class="grid gap-4 sm:grid-cols-3">
 		<StatCard label="Languages" value={languages.length} icon={Languages} />
-		<StatCard label="Items with Language" value={$allCollections.filter((i) => i.language?.length > 0).length} icon={FileText} />
+		<StatCard
+			label="Items with Language"
+			value={$allCollections.filter((i) => i.language?.length > 0).length}
+			icon={FileText}
+		/>
 		<StatCard label="Most Common" value={languages[0]?.name || '—'} icon={Languages} />
 	</div>
 
@@ -164,7 +183,10 @@
 											{#snippet children()}Code: {selectedLanguage.code}{/snippet}
 										</Badge>
 										<Badge variant="secondary">
-											{#snippet children()}{selectedLanguage.count} item{selectedLanguage.count !== 1 ? 's' : ''}{/snippet}
+											{#snippet children()}{selectedLanguage.count} item{selectedLanguage.count !==
+												1
+													? 's'
+													: ''}{/snippet}
 										</Badge>
 										<WissKILink category="languages" entityKey={selectedLanguage.name} />
 									</div>
@@ -202,7 +224,7 @@
 									currentPage={itemPage}
 									totalItems={selectedLanguage.items.length}
 									{itemsPerPage}
-									onPageChange={(p) => itemPage = p}
+									onPageChange={(p) => (itemPage = p)}
 								/>
 							{/snippet}
 						</CardContent>

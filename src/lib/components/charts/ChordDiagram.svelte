@@ -23,7 +23,11 @@
 			confine: true,
 			trigger: 'item',
 			formatter: (params: unknown) => {
-				const p = params as { data?: { source?: string; target?: string; value?: number }; name?: string; value?: number };
+				const p = params as {
+					data?: { source?: string; target?: string; value?: number };
+					name?: string;
+					value?: number;
+				};
 				if (p.data?.source && p.data?.target) {
 					return `<strong>${p.data.source}</strong> ↔ <strong>${p.data.target}</strong><br/>Co-occurrences: <strong>${p.data.value}</strong>`;
 				}
@@ -86,7 +90,8 @@
 	});
 
 	function buildLinks(names: string[], matrix: number[][]) {
-		const links: { source: string; target: string; value: number; lineStyle: { width: number } }[] = [];
+		const links: { source: string; target: string; value: number; lineStyle: { width: number } }[] =
+			[];
 
 		for (let i = 0; i < names.length; i++) {
 			for (let j = i + 1; j < names.length; j++) {

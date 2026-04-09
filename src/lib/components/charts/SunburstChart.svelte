@@ -97,7 +97,7 @@
 	function handleClick(params: unknown) {
 		const p = params as { name: string; treePathInfo: { name: string }[] };
 		if (onclick && p.name) {
-			const path = p.treePathInfo?.map(n => n.name).filter(n => n) || [p.name];
+			const path = p.treePathInfo?.map((n) => n.name).filter((n) => n) || [p.name];
 			onclick(p.name, path);
 		}
 	}

@@ -49,8 +49,18 @@ function itemMatchesLocation(
 
 	for (const origin of origins) {
 		if (locationType === 'country' && origin.l1 === locationName) return true;
-		if (locationType === 'city' && origin.l3 === locationName && (!country || origin.l1 === country)) return true;
-		if (locationType === 'region' && origin.l2 === locationName && (!country || origin.l1 === country)) return true;
+		if (
+			locationType === 'city' &&
+			origin.l3 === locationName &&
+			(!country || origin.l1 === country)
+		)
+			return true;
+		if (
+			locationType === 'region' &&
+			origin.l2 === locationName &&
+			(!country || origin.l1 === country)
+		)
+			return true;
 	}
 
 	if (locationType === 'other') {
@@ -99,8 +109,12 @@ export function buildAggregatedMarkers(
 					existing.count += d.count;
 				} else {
 					const matchingItems = items
-						.filter(item => itemMatchesLocation(item, 'city', d.city, d.country))
-						.map(item => ({ id: item._id || item.dre_id, title: getItemTitle(item), type: item.typeOfResource || 'Unknown' }));
+						.filter((item) => itemMatchesLocation(item, 'city', d.city, d.country))
+						.map((item) => ({
+							id: item._id || item.dre_id,
+							title: getItemTitle(item),
+							type: item.typeOfResource || 'Unknown'
+						}));
 
 					markerMap.set(markerId, {
 						id: markerId,
@@ -130,8 +144,12 @@ export function buildAggregatedMarkers(
 					existing.count += d.count;
 				} else {
 					const matchingItems = items
-						.filter(item => itemMatchesLocation(item, 'region', d.region, d.country))
-						.map(item => ({ id: item._id || item.dre_id, title: getItemTitle(item), type: item.typeOfResource || 'Unknown' }));
+						.filter((item) => itemMatchesLocation(item, 'region', d.region, d.country))
+						.map((item) => ({
+							id: item._id || item.dre_id,
+							title: getItemTitle(item),
+							type: item.typeOfResource || 'Unknown'
+						}));
 
 					markerMap.set(markerId, {
 						id: markerId,
@@ -160,8 +178,12 @@ export function buildAggregatedMarkers(
 					existing.count += d.count;
 				} else {
 					const matchingItems = items
-						.filter(item => itemMatchesLocation(item, 'country', d.country))
-						.map(item => ({ id: item._id || item.dre_id, title: getItemTitle(item), type: item.typeOfResource || 'Unknown' }));
+						.filter((item) => itemMatchesLocation(item, 'country', d.country))
+						.map((item) => ({
+							id: item._id || item.dre_id,
+							title: getItemTitle(item),
+							type: item.typeOfResource || 'Unknown'
+						}));
 
 					markerMap.set(markerId, {
 						id: markerId,

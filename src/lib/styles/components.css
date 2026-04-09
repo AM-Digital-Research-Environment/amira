@@ -194,12 +194,20 @@
 		right: 0;
 		width: 80px;
 		height: 80px;
-		background: radial-gradient(circle at top right, hsl(var(--color-primary-100) / 0.5), transparent 70%);
+		background: radial-gradient(
+			circle at top right,
+			hsl(var(--color-primary-100) / 0.5),
+			transparent 70%
+		);
 		pointer-events: none;
 	}
 
 	.dark .stat-card::after {
-		background: radial-gradient(circle at top right, hsl(var(--color-primary-900) / 0.3), transparent 70%);
+		background: radial-gradient(
+			circle at top right,
+			hsl(var(--color-primary-900) / 0.3),
+			transparent 70%
+		);
 	}
 
 	.stat-value {

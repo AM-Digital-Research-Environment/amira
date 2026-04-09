@@ -167,7 +167,8 @@ export async function loadEnrichedLocations(
 					'dev.geoloc_subregions.json',
 					'dev.geoloc_cities.json'
 				],
-				total_locations: countriesRaw.length + regionsRaw.length + subregionsRaw.length + citiesRaw.length
+				total_locations:
+					countriesRaw.length + regionsRaw.length + subregionsRaw.length + citiesRaw.length
 			}
 		};
 	} catch (error) {

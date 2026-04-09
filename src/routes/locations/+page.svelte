@@ -1,5 +1,17 @@
 <script lang="ts">
-	import { StatCard, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination, CollectionItemRow, BackToList, SEO } from '$lib/components/ui';
+	import {
+		StatCard,
+		Card,
+		CardHeader,
+		CardTitle,
+		CardContent,
+		Badge,
+		Input,
+		Pagination,
+		CollectionItemRow,
+		BackToList,
+		SEO
+	} from '$lib/components/ui';
 	import { allCollections, enrichedLocations } from '$lib/stores/data';
 	import { MiniMap } from '$lib/components/charts';
 	import { page } from '$app/stores';
@@ -62,7 +74,14 @@
 				if (o.l3 && o.l1) {
 					const key = `${o.l3}|${o.l1}`;
 					if (!cities.has(key)) {
-						cities.set(key, { name: o.l3, type: 'city', country: o.l1, region: o.l2 || undefined, count: 0, items: [] });
+						cities.set(key, {
+							name: o.l3,
+							type: 'city',
+							country: o.l1,
+							region: o.l2 || undefined,
+							count: 0,
+							items: []
+						});
 					}
 					const c = cities.get(key)!;
 					c.count++;
@@ -101,7 +120,13 @@
 	);
 
 	let currentList = $derived(
-		viewMode === 'countries' ? countryList : viewMode === 'regions' ? regionList : viewMode === 'cities' ? cityList : currentLocationList
+		viewMode === 'countries'
+			? countryList
+			: viewMode === 'regions'
+				? regionList
+				: viewMode === 'cities'
+					? cityList
+					: currentLocationList
 	);
 
 	const searchLocations = createSearchFilter<LocationData>([(l) => l.name, (l) => l.country]);
@@ -111,7 +136,8 @@
 	// Selected location
 	let selectedLocation = $derived.by((): LocationData | null => {
 		if (!selectedName) return null;
-		if (locationIndex.countries.has(selectedName)) return locationIndex.countries.get(selectedName)!;
+		if (locationIndex.countries.has(selectedName))
+			return locationIndex.countries.get(selectedName)!;
 		for (const region of locationIndex.regions.values()) {
 			if (region.name === selectedName) return region;
 		}
@@ -158,38 +184,68 @@
 		if (selectedLocation.type === 'country') {
 			const loc = $enrichedLocations.countries[name];
 			if (loc?.latitude && loc?.longitude) {
-				markers.push({ latitude: loc.latitude, longitude: loc.longitude, label: name, color: getLocationColor('country') });
+				markers.push({
+					latitude: loc.latitude,
+					longitude: loc.longitude,
+					label: name,
+					color: getLocationColor('country')
+				});
 			}
 			// Also show cities
 			citiesInLocation.forEach((city) => {
 				const key = `${city.name}|${city.country}`;
 				const cityLoc = $enrichedLocations!.cities[key];
 				if (cityLoc?.latitude && cityLoc?.longitude) {
-					markers.push({ latitude: cityLoc.latitude, longitude: cityLoc.longitude, label: city.name, color: getLocationColor('city') });
+					markers.push({
+						latitude: cityLoc.latitude,
+						longitude: cityLoc.longitude,
+						label: city.name,
+						color: getLocationColor('city')
+					});
 				}
 			});
 		} else if (selectedLocation.type === 'city' && selectedLocation.country) {
 			const key = `${name}|${selectedLocation.country}`;
 			const loc = $enrichedLocations.cities[key];
 			if (loc?.latitude && loc?.longitude) {
-				markers.push({ latitude: loc.latitude, longitude: loc.longitude, label: name, color: getLocationColor('city') });
+				markers.push({
+					latitude: loc.latitude,
+					longitude: loc.longitude,
+					label: name,
+					color: getLocationColor('city')
+				});
 			} else {
 				// Fallback to country coordinates
 				const countryLoc = $enrichedLocations.countries[selectedLocation.country];
 				if (countryLoc?.latitude && countryLoc?.longitude) {
-					markers.push({ latitude: countryLoc.latitude, longitude: countryLoc.longitude, label: `${name} (${selectedLocation.country})`, color: getLocationColor('city') });
+					markers.push({
+						latitude: countryLoc.latitude,
+						longitude: countryLoc.longitude,
+						label: `${name} (${selectedLocation.country})`,
+						color: getLocationColor('city')
+					});
 				}
 			}
 		} else if (selectedLocation.type === 'region' && selectedLocation.country) {
 			const key = `${name}|${selectedLocation.country}`;
 			const loc = $enrichedLocations.regions[key];
 			if (loc?.latitude && loc?.longitude) {
-				markers.push({ latitude: loc.latitude, longitude: loc.longitude, label: name, color: getLocationColor('region') });
+				markers.push({
+					latitude: loc.latitude,
+					longitude: loc.longitude,
+					label: name,
+					color: getLocationColor('region')
+				});
 			} else {
 				// Fallback to country coordinates
 				const countryLoc = $enrichedLocations.countries[selectedLocation.country];
 				if (countryLoc?.latitude && countryLoc?.longitude) {
-					markers.push({ latitude: countryLoc.latitude, longitude: countryLoc.longitude, label: `${name} (${selectedLocation.country})`, color: getLocationColor('region') });
+					markers.push({
+						latitude: countryLoc.latitude,
+						longitude: countryLoc.longitude,
+						label: `${name} (${selectedLocation.country})`,
+						color: getLocationColor('region')
+					});
 				}
 			}
 			// Also show cities in this region
@@ -197,7 +253,12 @@
 				const cityKey = `${city.name}|${city.country}`;
 				const cityLoc = $enrichedLocations!.cities[cityKey];
 				if (cityLoc?.latitude && cityLoc?.longitude) {
-					markers.push({ latitude: cityLoc.latitude, longitude: cityLoc.longitude, label: city.name, color: getLocationColor('city') });
+					markers.push({
+						latitude: cityLoc.latitude,
+						longitude: cityLoc.longitude,
+						label: city.name,
+						color: getLocationColor('city')
+					});
 				}
 			});
 		}
@@ -218,24 +279,52 @@
 			return cityList.filter((c) => c.country === selectedLocation.name);
 		}
 		if (selectedLocation.type === 'region') {
-			return cityList.filter((c) => c.region === selectedLocation.name && c.country === selectedLocation.country);
+			return cityList.filter(
+				(c) => c.region === selectedLocation.name && c.country === selectedLocation.country
+			);
 		}
 		return [];
 	});
 </script>
-<SEO title="Locations" description="Explore geographic origins and current holding locations of research items" />
+
+<SEO
+	title="Locations"
+	description="Explore geographic origins and current holding locations of research items"
+/>
 
 <div class="space-y-8 animate-slide-in-up">
 	<div>
 		<h1 class="page-title">Locations</h1>
-		<p class="page-subtitle">Explore geographic origins and current holding locations of research items</p>
+		<p class="page-subtitle">
+			Explore geographic origins and current holding locations of research items
+		</p>
 	</div>
 
 	<div class="grid gap-4 sm:grid-cols-4">
-		<StatCard label="Countries" value={countryList.length} icon={Globe} iconBgClass="bg-location-country/10" />
-		<StatCard label="Regions" value={regionList.length} icon={MapPin} iconBgClass="bg-location-region/10" />
-		<StatCard label="Cities" value={cityList.length} icon={MapPin} iconBgClass="bg-location-city/10" />
-		<StatCard label="Current Locations" value={currentLocationList.length} icon={Building2} iconBgClass="bg-location-current/10" />
+		<StatCard
+			label="Countries"
+			value={countryList.length}
+			icon={Globe}
+			iconBgClass="bg-location-country/10"
+		/>
+		<StatCard
+			label="Regions"
+			value={regionList.length}
+			icon={MapPin}
+			iconBgClass="bg-location-region/10"
+		/>
+		<StatCard
+			label="Cities"
+			value={cityList.length}
+			icon={MapPin}
+			iconBgClass="bg-location-city/10"
+		/>
+		<StatCard
+			label="Current Locations"
+			value={currentLocationList.length}
+			icon={Building2}
+			iconBgClass="bg-location-current/10"
+		/>
 	</div>
 
 	<div class="grid gap-6 lg:grid-cols-3">
@@ -263,26 +352,38 @@
 							<!-- View mode toggle -->
 							<div class="flex rounded-lg border border-input overflow-hidden">
 								<button
-									onclick={() => viewMode = 'countries'}
-									class="flex-1 px-2 py-1.5 text-xs font-medium transition-colors {viewMode === 'countries' ? 'bg-primary text-primary-foreground' : 'hover:bg-muted'}"
+									onclick={() => (viewMode = 'countries')}
+									class="flex-1 px-2 py-1.5 text-xs font-medium transition-colors {viewMode ===
+									'countries'
+										? 'bg-primary text-primary-foreground'
+										: 'hover:bg-muted'}"
 								>
 									Countries
 								</button>
 								<button
-									onclick={() => viewMode = 'regions'}
-									class="flex-1 px-2 py-1.5 text-xs font-medium transition-colors {viewMode === 'regions' ? 'bg-primary text-primary-foreground' : 'hover:bg-muted'}"
+									onclick={() => (viewMode = 'regions')}
+									class="flex-1 px-2 py-1.5 text-xs font-medium transition-colors {viewMode ===
+									'regions'
+										? 'bg-primary text-primary-foreground'
+										: 'hover:bg-muted'}"
 								>
 									Regions
 								</button>
 								<button
-									onclick={() => viewMode = 'cities'}
-									class="flex-1 px-2 py-1.5 text-xs font-medium transition-colors {viewMode === 'cities' ? 'bg-primary text-primary-foreground' : 'hover:bg-muted'}"
+									onclick={() => (viewMode = 'cities')}
+									class="flex-1 px-2 py-1.5 text-xs font-medium transition-colors {viewMode ===
+									'cities'
+										? 'bg-primary text-primary-foreground'
+										: 'hover:bg-muted'}"
 								>
 									Cities
 								</button>
 								<button
-									onclick={() => viewMode = 'current'}
-									class="flex-1 px-2 py-1.5 text-xs font-medium transition-colors {viewMode === 'current' ? 'bg-primary text-primary-foreground' : 'hover:bg-muted'}"
+									onclick={() => (viewMode = 'current')}
+									class="flex-1 px-2 py-1.5 text-xs font-medium transition-colors {viewMode ===
+									'current'
+										? 'bg-primary text-primary-foreground'
+										: 'hover:bg-muted'}"
 								>
 									Current
 								</button>
@@ -346,28 +447,51 @@
 									</div>
 									<div class="flex flex-wrap gap-2 mt-3">
 										<Badge>
-											{#snippet children()}{selectedLocation.type === 'country' ? 'Country' : selectedLocation.type === 'region' ? 'Region' : selectedLocation.type === 'current' ? 'Current Location' : 'City'}{/snippet}
+											{#snippet children()}{selectedLocation.type === 'country'
+													? 'Country'
+													: selectedLocation.type === 'region'
+														? 'Region'
+														: selectedLocation.type === 'current'
+															? 'Current Location'
+															: 'City'}{/snippet}
 										</Badge>
 										{#if selectedLocation.country}
-											<button onclick={() => { selectedName = selectedLocation.country || ''; }} class="hover:opacity-80 transition-opacity">
+											<button
+												onclick={() => {
+													selectedName = selectedLocation.country || '';
+												}}
+												class="hover:opacity-80 transition-opacity"
+											>
 												<Badge variant="secondary" class="hover:bg-primary/20 transition-colors">
 													{#snippet children()}{selectedLocation.country}{/snippet}
 												</Badge>
 											</button>
 										{/if}
 										<Badge variant="outline">
-											{#snippet children()}{selectedLocation.count} item{selectedLocation.count !== 1 ? 's' : ''}{/snippet}
+											{#snippet children()}{selectedLocation.count} item{selectedLocation.count !==
+												1
+													? 's'
+													: ''}{/snippet}
 										</Badge>
 										{#if selectedLocation.type === 'country'}
 											<WissKILink category="countries" entityKey={selectedLocation.name} />
 										{:else if selectedLocation.type === 'region' && selectedLocation.country}
-											<WissKILink category="regions" entityKey="{selectedLocation.name}|{selectedLocation.country}" />
+											<WissKILink
+												category="regions"
+												entityKey="{selectedLocation.name}|{selectedLocation.country}"
+											/>
 										{:else if selectedLocation.type === 'city'}
 											<!-- Cities in WissKI are keyed by "CityName|RegionName", try region first then country -->
 											{#if selectedLocation.region}
-												<WissKILink category="cities" entityKey="{selectedLocation.name}|{selectedLocation.region}" />
+												<WissKILink
+													category="cities"
+													entityKey="{selectedLocation.name}|{selectedLocation.region}"
+												/>
 											{:else if selectedLocation.country}
-												<WissKILink category="cities" entityKey="{selectedLocation.name}|{selectedLocation.country}" />
+												<WissKILink
+													category="cities"
+													entityKey="{selectedLocation.name}|{selectedLocation.country}"
+												/>
 											{/if}
 										{:else if selectedLocation.type === 'current'}
 											<WissKILink category="institutions" entityKey={selectedLocation.name} />
@@ -489,13 +613,12 @@
 									currentPage={itemPage}
 									totalItems={selectedLocation.items.length}
 									{itemsPerPage}
-									onPageChange={(p) => itemPage = p}
+									onPageChange={(p) => (itemPage = p)}
 								/>
 							{/snippet}
 						</CardContent>
 					{/snippet}
 				</Card>
-
 			{:else}
 				<Card class="overflow-hidden">
 					{#snippet children()}

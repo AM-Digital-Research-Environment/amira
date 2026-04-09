@@ -1,11 +1,14 @@
 <script lang="ts">
 	import { StatCard, ChartCard, EmptyState, SEO } from '$lib/components/ui';
-	import { StackedTimeline, BarChart, PieChart, WordCloud, HeatmapChart } from '$lib/components/charts';
-	import { FilterPanel } from '$lib/components/layout';
 	import {
-		projects,
-		allCollections
-	} from '$lib/stores/data';
+		StackedTimeline,
+		BarChart,
+		PieChart,
+		WordCloud,
+		HeatmapChart
+	} from '$lib/components/charts';
+	import { FilterPanel } from '$lib/components/layout';
+	import { projects, allCollections } from '$lib/stores/data';
 	import { filteredCollections } from '$lib/stores/filters';
 	import {
 		groupByYearAndType,
@@ -15,7 +18,22 @@
 		extractResearchSections,
 		buildResearchSectionUniversityHeatmap
 	} from '$lib/utils/dataTransform';
-	import { FileText, Briefcase, Users, Building2, MapPin, Languages, Tag, Layers, Calendar, PieChart as PieChartIcon, BarChart3, Edit3, BookOpen, ExternalLink } from '@lucide/svelte';
+	import {
+		FileText,
+		Briefcase,
+		Users,
+		Building2,
+		MapPin,
+		Languages,
+		Tag,
+		Layers,
+		Calendar,
+		PieChart as PieChartIcon,
+		BarChart3,
+		Edit3,
+		BookOpen,
+		ExternalLink
+	} from '@lucide/svelte';
 	import { normalizeLanguageCode } from '$lib/utils/languages';
 
 	// Word cloud controls
@@ -27,7 +45,9 @@
 	let resourceTypesData = $derived(extractResourceTypes($filteredCollections));
 	let wordCloudData = $derived(extractTags($filteredCollections));
 	let researchSectionsData = $derived(extractResearchSections($projects));
-	let sectionUniversityHeatmap = $derived(buildResearchSectionUniversityHeatmap($projects, $allCollections));
+	let sectionUniversityHeatmap = $derived(
+		buildResearchSectionUniversityHeatmap($projects, $allCollections)
+	);
 
 	// Calculate unique projects from filtered collections
 	let uniqueProjects = $derived.by(() => {
@@ -57,8 +77,12 @@
 		$filteredCollections.forEach((item) => {
 			if (Array.isArray(item.name)) {
 				item.name.forEach((entry) => {
-					if (entry.name?.qualifier === 'institution' && entry.name?.label) inst.add(entry.name.label);
-					if (Array.isArray(entry.affl)) entry.affl.forEach((a) => { if (a) inst.add(a); });
+					if (entry.name?.qualifier === 'institution' && entry.name?.label)
+						inst.add(entry.name.label);
+					if (Array.isArray(entry.affl))
+						entry.affl.forEach((a) => {
+							if (a) inst.add(a);
+						});
 				});
 			}
 		});
@@ -83,7 +107,9 @@
 	let uniqueLanguages = $derived.by(() => {
 		const langs = new Set<string>();
 		$filteredCollections.forEach((item) => {
-			item.language?.forEach((l) => { if (l) langs.add(normalizeLanguageCode(l)); });
+			item.language?.forEach((l) => {
+				if (l) langs.add(normalizeLanguageCode(l));
+			});
 		});
 		return langs.size;
 	});
@@ -96,7 +122,9 @@
 				const label = s.authLabel || s.origLabel;
 				if (label) terms.add(label);
 			});
-			item.tags?.forEach((t) => { if (t) terms.add(t); });
+			item.tags?.forEach((t) => {
+				if (t) terms.add(t);
+			});
 		});
 		return terms.size;
 	});
@@ -110,7 +138,11 @@
 		return types.size;
 	});
 </script>
-<SEO title="Overview" description="Dashboard overview of research data from the Africa Multiple Cluster of Excellence" />
+
+<SEO
+	title="Overview"
+	description="Dashboard overview of research data from the Africa Multiple Cluster of Excellence"
+/>
 
 <div class="space-y-8">
 	<!-- Page Header -->
@@ -118,12 +150,41 @@
 		<h1 class="page-title">Dashboard Overview</h1>
 		<p class="page-subtitle">
 			Browse and visualize research data from
-			<a href="https://wiss-ki.eu/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-0.5 underline underline-offset-2 decoration-primary/40 hover:decoration-primary font-medium">WissKI<ExternalLink class="inline size-3" /></a>
-			(<em>Wissenschaftliche Kommunikations-Infrastruktur</em>), the research data management system of the
-			<a href="https://www.africamultiple.uni-bayreuth.de/en/index.html" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-0.5 underline underline-offset-2 decoration-primary/40 hover:decoration-primary font-medium">Africa Multiple Cluster of Excellence<ExternalLink class="inline size-3" /></a>
-			at the University of Bayreuth. The Cluster is an international research consortium funded by the <a href="https://www.dfg.de/en" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-0.5 underline underline-offset-2 decoration-primary/40 hover:decoration-primary font-medium">German Research Foundation (DFG)<ExternalLink class="inline size-3" /></a> that connects five centres in Africa, Brazil, and Germany to reconfigure African Studies and address global inequalities in knowledge production.
-			<a href="https://www.wisski.uni-bayreuth.de/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-0.5 underline underline-offset-2 decoration-primary/40 hover:decoration-primary font-medium">WissKI@UBT<ExternalLink class="inline size-3" /></a>
-			enables researchers to search and explore research data across affiliated institutions, facilitating the discovery of collaboration opportunities.
+			<a
+				href="https://wiss-ki.eu/"
+				target="_blank"
+				rel="noopener noreferrer"
+				class="inline-flex items-center gap-0.5 underline underline-offset-2 decoration-primary/40 hover:decoration-primary font-medium"
+				>WissKI<ExternalLink class="inline size-3" /></a
+			>
+			(<em>Wissenschaftliche Kommunikations-Infrastruktur</em>), the research data management system
+			of the
+			<a
+				href="https://www.africamultiple.uni-bayreuth.de/en/index.html"
+				target="_blank"
+				rel="noopener noreferrer"
+				class="inline-flex items-center gap-0.5 underline underline-offset-2 decoration-primary/40 hover:decoration-primary font-medium"
+				>Africa Multiple Cluster of Excellence<ExternalLink class="inline size-3" /></a
+			>
+			at the University of Bayreuth. The Cluster is an international research consortium funded by the
+			<a
+				href="https://www.dfg.de/en"
+				target="_blank"
+				rel="noopener noreferrer"
+				class="inline-flex items-center gap-0.5 underline underline-offset-2 decoration-primary/40 hover:decoration-primary font-medium"
+				>German Research Foundation (DFG)<ExternalLink class="inline size-3" /></a
+			>
+			that connects five centres in Africa, Brazil, and Germany to reconfigure African Studies and address
+			global inequalities in knowledge production.
+			<a
+				href="https://www.wisski.uni-bayreuth.de/"
+				target="_blank"
+				rel="noopener noreferrer"
+				class="inline-flex items-center gap-0.5 underline underline-offset-2 decoration-primary/40 hover:decoration-primary font-medium"
+				>WissKI@UBT<ExternalLink class="inline size-3" /></a
+			>
+			enables researchers to search and explore research data across affiliated institutions, facilitating
+			the discovery of collaboration opportunities.
 		</p>
 	</div>
 
@@ -223,7 +284,11 @@
 
 	<!-- Filtered Charts Grid -->
 	<div class="grid gap-6 lg:grid-cols-2">
-		<ChartCard title="Research Items Timeline by Type" contentHeight="h-chart-lg" class="col-span-full">
+		<ChartCard
+			title="Research Items Timeline by Type"
+			contentHeight="h-chart-lg"
+			class="col-span-full"
+		>
 			{#if stackedTimelineData.length > 0}
 				<StackedTimeline data={stackedTimelineData} />
 			{:else}
@@ -250,7 +315,10 @@
 		<ChartCard title="Tags & Subjects" contentHeight="h-chart-xl" class="col-span-full">
 			{#snippet headerExtra()}
 				<div class="flex items-center gap-4">
-					<label for="home-wordcloud-slider" class="text-sm text-muted-foreground whitespace-nowrap">
+					<label
+						for="home-wordcloud-slider"
+						class="text-sm text-muted-foreground whitespace-nowrap"
+					>
 						Words: <span class="font-medium text-foreground">{wordCloudMaxWords}</span>
 					</label>
 					<input

@@ -4,12 +4,12 @@ import type { CollectionItem, Project } from '$lib/types';
  * Map research section names to their CSS variable colors
  */
 const SECTION_COLOR_MAP: Record<string, string> = {
-	'Affiliations': 'var(--rs-affiliations)',
+	Affiliations: 'var(--rs-affiliations)',
 	'Arts & Aesthetics': 'var(--rs-arts-aesthetics)',
-	'Knowledges': 'var(--rs-knowledges)',
-	'Learning': 'var(--rs-learning)',
-	'Mobilities': 'var(--rs-mobilities)',
-	'Moralities': 'var(--rs-moralities)'
+	Knowledges: 'var(--rs-knowledges)',
+	Learning: 'var(--rs-learning)',
+	Mobilities: 'var(--rs-mobilities)',
+	Moralities: 'var(--rs-moralities)'
 };
 
 export function getSectionColor(sectionName: string): string {

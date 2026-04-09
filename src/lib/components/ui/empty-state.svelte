@@ -8,11 +8,7 @@
 		class?: string;
 	}
 
-	let {
-		message = 'No data available',
-		icon,
-		class: className = ''
-	}: Props = $props();
+	let { message = 'No data available', icon, class: className = '' }: Props = $props();
 </script>
 
 <div class={cn('h-full flex items-center justify-center text-muted-foreground', className)}>

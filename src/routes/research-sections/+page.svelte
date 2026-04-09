@@ -1,5 +1,16 @@
 <script lang="ts">
-	import { StatCard, ChartCard, EmptyState, Card, CardHeader, CardTitle, CardContent, Badge, BackToList, SEO } from '$lib/components/ui';
+	import {
+		StatCard,
+		ChartCard,
+		EmptyState,
+		Card,
+		CardHeader,
+		CardTitle,
+		CardContent,
+		Badge,
+		BackToList,
+		SEO
+	} from '$lib/components/ui';
 	import { BarChart, GanttChart } from '$lib/components/charts';
 	import { projects, researchSections } from '$lib/stores/data';
 	import { page } from '$app/stores';
@@ -8,7 +19,16 @@
 	import { createUrlSelection, scrollToTop } from '$lib/utils/urlSelection';
 	import type { Project } from '$lib/types';
 	import { formatDate, getProjectTitle, getSectionColor } from '$lib/utils/helpers';
-	import { BookOpen, Briefcase, Layers, ExternalLink, Users, ArrowRight, GraduationCap, Calendar } from '@lucide/svelte';
+	import {
+		BookOpen,
+		Briefcase,
+		Layers,
+		ExternalLink,
+		Users,
+		ArrowRight,
+		GraduationCap,
+		Calendar
+	} from '@lucide/svelte';
 	import { WissKILink } from '$lib/components/ui';
 
 	const urlSelection = createUrlSelection('section');
@@ -65,7 +85,9 @@
 
 	let chartData = $derived(extractResearchSections($projects));
 	let totalProjects = $derived(new Set($projects.flatMap((p) => p._id)).size);
-	let avgPerSection = $derived(sections.length > 0 ? Math.round(totalProjects / sections.length) : 0);
+	let avgPerSection = $derived(
+		sections.length > 0 ? Math.round(totalProjects / sections.length) : 0
+	);
 
 	function selectSection(name: string) {
 		selectedSection = name;
@@ -78,13 +100,20 @@
 		urlSelection.removeFromUrl();
 	}
 </script>
-<SEO title="Research Sections" description="Explore the six thematic research sections of the cluster" />
+
+<SEO
+	title="Research Sections"
+	description="Explore the six thematic research sections of the cluster"
+/>
 
 <div class="space-y-8 animate-slide-in-up">
 	<!-- Header -->
 	<div>
 		<h1 class="page-title">Research Sections</h1>
-		<p class="page-subtitle">Six thematic fields providing a coherent structure to research projects across Bayreuth, Africa, and a global network</p>
+		<p class="page-subtitle">
+			Six thematic fields providing a coherent structure to research projects across Bayreuth,
+			Africa, and a global network
+		</p>
 	</div>
 
 	{#if selectedSectionData}
@@ -92,7 +121,10 @@
 		<BackToList show={true} onclick={clearSelection} label="Back to all sections" />
 
 		<!-- Section header -->
-		<Card class="overflow-hidden" style="border-left: 3px solid {getSectionColor(selectedSectionData.name)}">
+		<Card
+			class="overflow-hidden"
+			style="border-left: 3px solid {getSectionColor(selectedSectionData.name)}"
+		>
 			{#snippet children()}
 				<CardHeader>
 					{#snippet children()}
@@ -114,7 +146,10 @@
 								{/if}
 								<WissKILink category="researchSections" entityKey={selectedSectionData.name} />
 								<Badge variant="secondary">
-									{#snippet children()}{selectedSectionData.projects.length} project{selectedSectionData.projects.length !== 1 ? 's' : ''}{/snippet}
+									{#snippet children()}{selectedSectionData.projects.length} project{selectedSectionData
+											.projects.length !== 1
+											? 's'
+											: ''}{/snippet}
 								</Badge>
 							</div>
 						</div>
@@ -190,7 +225,8 @@
 									<a
 										href={personUrl(member)}
 										class="text-sm text-foreground hover:text-primary transition-colors truncate"
-									>{member}</a>
+										>{member}</a
+									>
 								{/each}
 							</div>
 						{/snippet}
@@ -258,7 +294,9 @@
 					data={sectionGanttData}
 					formatAsYear={true}
 					onclick={(name) => {
-						const project = selectedSectionData?.projects.find((p) => p.name.startsWith(name.replace('...', '')));
+						const project = selectedSectionData?.projects.find((p) =>
+							p.name.startsWith(name.replace('...', ''))
+						);
 						if (project) window.location.href = projectUrl(project.id);
 					}}
 				/>
@@ -288,7 +326,9 @@
 						{#snippet children()}
 							<ul class="space-y-2">
 								{#each selectedSectionData.projects as project}
-									<li class="flex items-start gap-3 p-2 rounded-lg hover:bg-muted/50 transition-colors">
+									<li
+										class="flex items-start gap-3 p-2 rounded-lg hover:bg-muted/50 transition-colors"
+									>
 										<Briefcase class="h-4 w-4 mt-0.5 text-muted-foreground shrink-0" />
 										<div class="min-w-0">
 											<a
@@ -299,12 +339,18 @@
 											</a>
 											{#if project.date?.start || project.date?.end}
 												<span class="text-xs text-muted-foreground">
-													{formatDate(project.date.start)}{project.date.end ? ` – ${formatDate(project.date.end)}` : ''}
+													{formatDate(project.date.start)}{project.date.end
+														? ` – ${formatDate(project.date.end)}`
+														: ''}
 												</span>
 											{/if}
 											{#if project.pi?.length}
 												<p class="text-xs text-muted-foreground mt-0.5">
-													PI: {#each project.pi as pi, i}{#if i > 0}, {/if}<a href={personUrl(typeof pi === 'string' ? pi : '')} class="hover:text-primary transition-colors">{pi}</a>{/each}
+													PI: {#each project.pi as pi, i}{#if i > 0},
+														{/if}<a
+															href={personUrl(typeof pi === 'string' ? pi : '')}
+															class="hover:text-primary transition-colors">{pi}</a
+														>{/each}
 												</p>
 											{/if}
 										</div>
@@ -316,7 +362,6 @@
 				{/snippet}
 			</Card>
 		{/if}
-
 	{:else}
 		<!-- Overview mode -->
 		<div class="grid gap-4 sm:grid-cols-3">
@@ -326,7 +371,11 @@
 		</div>
 
 		<!-- Chart -->
-		<ChartCard title="Projects per Research Section" subtitle="Click a bar to view section details" contentHeight="h-chart-sm">
+		<ChartCard
+			title="Projects per Research Section"
+			subtitle="Click a bar to view section details"
+			contentHeight="h-chart-sm"
+		>
 			{#if chartData.length > 0}
 				<BarChart data={chartData} onclick={(name) => selectSection(name)} />
 			{:else}
@@ -337,11 +386,11 @@
 		<!-- Section Cards Grid -->
 		<div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
 			{#each sections as section}
-				<button
-					onclick={() => selectSection(section.name)}
-					class="text-left"
-				>
-					<Card class="overflow-hidden h-full hover:shadow-lg transition-shadow cursor-pointer group" style="border-left: 3px solid {getSectionColor(section.name)}">
+				<button onclick={() => selectSection(section.name)} class="text-left">
+					<Card
+						class="overflow-hidden h-full hover:shadow-lg transition-shadow cursor-pointer group"
+						style="border-left: 3px solid {getSectionColor(section.name)}"
+					>
 						{#snippet children()}
 							<CardHeader>
 								{#snippet children()}
@@ -354,20 +403,30 @@
 								{#snippet children()}
 									<div class="space-y-3">
 										{#if section.description}
-											<p class="text-xs text-muted-foreground line-clamp-3 leading-relaxed">{section.description}</p>
+											<p class="text-xs text-muted-foreground line-clamp-3 leading-relaxed">
+												{section.description}
+											</p>
 										{/if}
 										<div class="flex items-center justify-between">
 											<div class="flex items-center gap-3">
 												<Badge variant="secondary" class="text-xs">
-													{#snippet children()}{section.projects.length} project{section.projects.length !== 1 ? 's' : ''}{/snippet}
+													{#snippet children()}{section.projects.length} project{section.projects
+															.length !== 1
+															? 's'
+															: ''}{/snippet}
 												</Badge>
 												{#if section.principalInvestigators.length > 0}
 													<span class="text-xs text-muted-foreground">
-														{section.principalInvestigators.length} PI{section.principalInvestigators.length !== 1 ? 's' : ''}
+														{section.principalInvestigators.length} PI{section
+															.principalInvestigators.length !== 1
+															? 's'
+															: ''}
 													</span>
 												{/if}
 											</div>
-											<ArrowRight class="h-4 w-4 text-muted-foreground group-hover:text-primary transition-colors" />
+											<ArrowRight
+												class="h-4 w-4 text-muted-foreground group-hover:text-primary transition-colors"
+											/>
 										</div>
 									</div>
 								{/snippet}

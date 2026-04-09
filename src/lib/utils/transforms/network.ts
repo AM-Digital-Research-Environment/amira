@@ -50,7 +50,10 @@ export function buildPersonInstitutionNetwork(
 /**
  * Build network data for contributors in collections
  */
-export function buildContributorNetwork(items: CollectionItem[], maxNodes: number = 100): NetworkData {
+export function buildContributorNetwork(
+	items: CollectionItem[],
+	maxNodes: number = 100
+): NetworkData {
 	const nodes: NetworkData['nodes'] = [];
 	const links: NetworkData['links'] = [];
 	const personSet = new Set<string>();
@@ -194,9 +197,10 @@ export function buildSubjectCoOccurrence(
 	const matrix: number[][] = Array.from({ length: n }, () => Array(n).fill(0));
 
 	items.forEach((item) => {
-		const subjects = item.subject
-			?.map((s) => s.authLabel || s.origLabel)
-			.filter((s): s is string => Boolean(s) && subjectIndex.has(s)) || [];
+		const subjects =
+			item.subject
+				?.map((s) => s.authLabel || s.origLabel)
+				.filter((s): s is string => Boolean(s) && subjectIndex.has(s)) || [];
 
 		// Count co-occurrences (pairs that appear in the same item)
 		for (let i = 0; i < subjects.length; i++) {
@@ -336,7 +340,9 @@ export function buildSunburstData(
 
 	items.forEach((item) => {
 		const resourceType = item.typeOfResource || 'Unknown';
-		const languages = item.language?.length ? item.language.map(normalizeLanguageCode) : ['Unknown'];
+		const languages = item.language?.length
+			? item.language.map(normalizeLanguageCode)
+			: ['Unknown'];
 		const subjects = item.subject?.map((s) => s.authLabel || s.origLabel).filter(Boolean) || [];
 
 		if (!typeMap.has(resourceType)) {
@@ -396,8 +402,14 @@ export function buildSunburstData(
 
 	// Sort by total count
 	return result.sort((a, b) => {
-		const aTotal = a.children.reduce((sum, lang) => sum + lang.children.reduce((s, subj) => s + (subj.value ?? 0), 0), 0);
-		const bTotal = b.children.reduce((sum, lang) => sum + lang.children.reduce((s, subj) => s + (subj.value ?? 0), 0), 0);
+		const aTotal = a.children.reduce(
+			(sum, lang) => sum + lang.children.reduce((s, subj) => s + (subj.value ?? 0), 0),
+			0
+		);
+		const bTotal = b.children.reduce(
+			(sum, lang) => sum + lang.children.reduce((s, subj) => s + (subj.value ?? 0), 0),
+			0
+		);
 		return bTotal - aTotal;
 	});
 }

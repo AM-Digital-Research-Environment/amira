@@ -7,7 +7,15 @@
 	import { getItemTitle } from '$lib/utils/helpers';
 	import { paginate } from '$lib/utils/pagination';
 	import { FileText, Layers, BookOpen, SlidersHorizontal, Target, HardDrive } from '@lucide/svelte';
-	import { ItemDetail, ItemFilters, ItemTable, getContributors, getSubjects, getOrigins, getLanguages } from '$lib/components/research-items';
+	import {
+		ItemDetail,
+		ItemFilters,
+		ItemTable,
+		getContributors,
+		getSubjects,
+		getOrigins,
+		getLanguages
+	} from '$lib/components/research-items';
 	import { BackToList } from '$lib/components/ui';
 
 	let searchQuery = $state('');
@@ -254,7 +262,9 @@
 			const q = searchQuery.toLowerCase();
 			items = items.filter((item) => {
 				const title = getItemTitle(item).toLowerCase();
-				const contributors = getContributors(item).map((c) => c.name.toLowerCase()).join(' ');
+				const contributors = getContributors(item)
+					.map((c) => c.name.toLowerCase())
+					.join(' ');
 				const subjects = getSubjects(item).join(' ').toLowerCase();
 				return title.includes(q) || contributors.includes(q) || subjects.includes(q);
 			});
@@ -265,14 +275,14 @@
 	// Whether any filter is active
 	let hasActiveFilters = $derived(
 		searchQuery.trim() !== '' ||
-		selectedType !== 'all' ||
-		selectedSubjects.length > 0 ||
-		selectedTags.length > 0 ||
-		selectedCountries.length > 0 ||
-		selectedProjects.length > 0 ||
-		selectedLanguages.length > 0 ||
-		selectedAudiences.length > 0 ||
-		selectedMethods.length > 0
+			selectedType !== 'all' ||
+			selectedSubjects.length > 0 ||
+			selectedTags.length > 0 ||
+			selectedCountries.length > 0 ||
+			selectedProjects.length > 0 ||
+			selectedLanguages.length > 0 ||
+			selectedAudiences.length > 0 ||
+			selectedMethods.length > 0
 	);
 
 	function clearAllFilters() {
@@ -307,7 +317,9 @@
 	// Selected item
 	let selectedItem = $derived.by((): CollectionItem | null => {
 		if (!selectedId) return null;
-		return $allCollections.find((item) => item._id === selectedId || item.dre_id === selectedId) || null;
+		return (
+			$allCollections.find((item) => item._id === selectedId || item.dre_id === selectedId) || null
+		);
 	});
 
 	function selectItem(item: CollectionItem) {
@@ -352,25 +364,27 @@
 		});
 		return markers;
 	});
-
 </script>
-<SEO title="Research Items" description="Browse and filter the full catalog of digitized research items" />
+
+<SEO
+	title="Research Items"
+	description="Browse and filter the full catalog of digitized research items"
+/>
 
 <div class="space-y-8 animate-slide-in-up">
 	<!-- Header -->
 	<div>
 		<h1 class="page-title">Research Items</h1>
-		<p class="page-subtitle">Browse and explore research items across all universities and projects</p>
+		<p class="page-subtitle">
+			Browse and explore research items across all universities and projects
+		</p>
 	</div>
 
 	{#if selectedItem}
 		<!-- Detail mode: full-width -->
 		<div class="space-y-6">
 			<BackToList show={true} onclick={clearSelection} label="Back to results" />
-			<ItemDetail
-				item={selectedItem}
-				mapMarkers={itemMapMarkers}
-			/>
+			<ItemDetail item={selectedItem} mapMarkers={itemMapMarkers} />
 		</div>
 	{:else}
 		<!-- Stats -->
@@ -384,13 +398,16 @@
 
 		<!-- Mobile filter toggle -->
 		<button
-			onclick={() => showMobileFilters = !showMobileFilters}
+			onclick={() => (showMobileFilters = !showMobileFilters)}
 			class="lg:hidden flex items-center gap-2 px-4 py-2 rounded-lg border border-border text-sm font-medium hover:bg-muted transition-colors"
 		>
 			<SlidersHorizontal class="h-4 w-4" />
 			Filters
 			{#if hasActiveFilters}
-				<span class="bg-primary text-primary-foreground text-xs rounded-full px-1.5 py-0.5 leading-none">{filteredItems.length}</span>
+				<span
+					class="bg-primary text-primary-foreground text-xs rounded-full px-1.5 py-0.5 leading-none"
+					>{filteredItems.length}</span
+				>
 			{/if}
 		</button>
 
@@ -417,22 +434,22 @@
 					{selectedLanguages}
 					{selectedAudiences}
 					{selectedMethods}
-					onSearchQueryChange={(v) => searchQuery = v}
-					onSelectedTypeChange={(v) => selectedType = v}
+					onSearchQueryChange={(v) => (searchQuery = v)}
+					onSelectedTypeChange={(v) => (selectedType = v)}
 					onToggleSubject={toggleSubject}
-					onClearSubjects={() => selectedSubjects = []}
+					onClearSubjects={() => (selectedSubjects = [])}
 					onToggleTag={toggleTag}
-					onClearTags={() => selectedTags = []}
+					onClearTags={() => (selectedTags = [])}
 					onToggleCountry={toggleCountry}
-					onClearCountries={() => selectedCountries = []}
+					onClearCountries={() => (selectedCountries = [])}
 					onToggleProject={toggleProject}
-					onClearProjects={() => selectedProjects = []}
+					onClearProjects={() => (selectedProjects = [])}
 					onToggleLanguage={toggleLanguage}
-					onClearLanguages={() => selectedLanguages = []}
+					onClearLanguages={() => (selectedLanguages = [])}
 					onToggleAudience={toggleAudience}
-					onClearAudiences={() => selectedAudiences = []}
+					onClearAudiences={() => (selectedAudiences = [])}
 					onToggleMethod={toggleMethod}
-					onClearMethods={() => selectedMethods = []}
+					onClearMethods={() => (selectedMethods = [])}
 					onClearAll={clearAllFilters}
 					{hasActiveFilters}
 				/>
@@ -444,7 +461,7 @@
 					currentPage={listPage}
 					totalItems={filteredItems.length}
 					itemsPerPage={listPerPage}
-					onPageChange={(p) => listPage = p}
+					onPageChange={(p) => (listPage = p)}
 				/>
 			</div>
 		</div>

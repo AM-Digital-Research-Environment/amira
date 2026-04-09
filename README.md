@@ -31,6 +31,7 @@ Interactive visualization dashboard for WissKI/MongoDB research data from the [A
 ### Cross-linking & WissKI Integration
 
 All entities are deeply cross-linked throughout the dashboard:
+
 - PI and member names link to People profiles
 - Project names link to project detail views
 - Research item titles link to item detail with knowledge graph
@@ -59,26 +60,27 @@ All entities are deeply cross-linked throughout the dashboard:
 
 ## Chart Components
 
-| Component | Type | Description |
-|---|---|---|
-| `Timeline` | Line | Simple count-by-year timeline |
-| `StackedTimeline` | Stacked bar | Items by year broken down by resource type |
-| `BarChart` | Bar | Horizontal/vertical bar with pagination for long lists |
-| `PieChart` | Pie/donut | Categorical distribution with click selection |
-| `WordCloud` | Word cloud | Animated tag/subject cloud with adjustable max words |
-| `HeatmapChart` | Heatmap | Matrix cross-tabulation with color intensity (ECharts 6) |
-| `BeeswarmChart` | Scatter/jitter | Beeswarm distribution using ECharts 6 axis jitter |
-| `GanttChart` | Custom bar range | Project timelines with start/end bars, category coloring |
-| `SankeyChart` | Sankey | Multi-level flow diagram (e.g. contributor → project → type) |
-| `SunburstChart` | Sunburst | Hierarchical drill-down visualization |
-| `ChordDiagram` | Chord | Co-occurrence relationships between categories |
-| `NetworkGraph` | Force graph | Force-directed network with nodes, edges, and categories |
-| `LocationMap` | Map | MapLibre GL multi-marker map with clustered popups |
-| `MiniMap` | Map | Lightweight single-location map with marker |
-| `EntityKnowledgeGraph` | Force graph | Per-item knowledge graph with fullscreen mode |
-| `EChart` | Base wrapper | Shared ECharts wrapper with theme, zoom, resize, and performance optimization |
+| Component              | Type             | Description                                                                   |
+| ---------------------- | ---------------- | ----------------------------------------------------------------------------- |
+| `Timeline`             | Line             | Simple count-by-year timeline                                                 |
+| `StackedTimeline`      | Stacked bar      | Items by year broken down by resource type                                    |
+| `BarChart`             | Bar              | Horizontal/vertical bar with pagination for long lists                        |
+| `PieChart`             | Pie/donut        | Categorical distribution with click selection                                 |
+| `WordCloud`            | Word cloud       | Animated tag/subject cloud with adjustable max words                          |
+| `HeatmapChart`         | Heatmap          | Matrix cross-tabulation with color intensity (ECharts 6)                      |
+| `BeeswarmChart`        | Scatter/jitter   | Beeswarm distribution using ECharts 6 axis jitter                             |
+| `GanttChart`           | Custom bar range | Project timelines with start/end bars, category coloring                      |
+| `SankeyChart`          | Sankey           | Multi-level flow diagram (e.g. contributor → project → type)                  |
+| `SunburstChart`        | Sunburst         | Hierarchical drill-down visualization                                         |
+| `ChordDiagram`         | Chord            | Co-occurrence relationships between categories                                |
+| `NetworkGraph`         | Force graph      | Force-directed network with nodes, edges, and categories                      |
+| `LocationMap`          | Map              | MapLibre GL multi-marker map with clustered popups                            |
+| `MiniMap`              | Map              | Lightweight single-location map with marker                                   |
+| `EntityKnowledgeGraph` | Force graph      | Per-item knowledge graph with fullscreen mode                                 |
+| `EChart`               | Base wrapper     | Shared ECharts wrapper with theme, zoom, resize, and performance optimization |
 
 All chart components use the shared `EChart` base wrapper which provides:
+
 - Dynamic theme switching via ECharts 6 `setTheme()` API
 - Automatic performance optimization for large datasets
 - Zoom controls and resize handling
@@ -215,6 +217,7 @@ static/
 ### MongoDB exports (`static/data/dev/`)
 
 Core research data exported from the WissKI MongoDB database:
+
 - **Projects**: Research projects with PIs, members, dates, research sections, institutions, and RDSpace references
 - **Persons**: Person records with institutional affiliations
 - **Institutions**: Institution and organization records
@@ -233,11 +236,13 @@ Core research data exported from the WissKI MongoDB database:
 ### Manual data (`static/data/manual/`)
 
 Hand-curated data not sourced from MongoDB:
+
 - `researchSections.json` — Research section descriptions, objectives, work programmes, principal investigators, and members for all six thematic sections
 
 ## Deployment
 
 The project deploys automatically to GitHub Pages:
+
 - **Trigger**: Push to `main` branch (or manual dispatch)
 - **Workflow**: `.github/workflows/deploy.yml` — builds with `npm run build`, sets `BASE_PATH` for subpath deployment, uploads to GitHub Pages
 - **Adapter**: `@sveltejs/adapter-static` pre-renders all routes to the `build/` directory

@@ -1,8 +1,21 @@
 <script lang="ts">
-	import { StatCard, ChartCard, EmptyState, Card, CardContent, Tabs, Select, SEO } from '$lib/components/ui';
+	import {
+		StatCard,
+		ChartCard,
+		EmptyState,
+		Card,
+		CardContent,
+		Tabs,
+		Select,
+		SEO
+	} from '$lib/components/ui';
 	import { NetworkGraph } from '$lib/components/charts';
 	import { allCollections, persons, projects } from '$lib/stores/data';
-	import { buildContributorNetwork, buildPersonInstitutionNetwork, buildInstitutionCollaborationNetwork } from '$lib/utils/dataTransform';
+	import {
+		buildContributorNetwork,
+		buildPersonInstitutionNetwork,
+		buildInstitutionCollaborationNetwork
+	} from '$lib/utils/dataTransform';
 	import { universityOptions } from '$lib/types';
 	import type { CollectionItem } from '$lib/types';
 	import { Circle, Link, Tag, Building2, Users, Briefcase } from '@lucide/svelte';
@@ -28,7 +41,9 @@
 		});
 		return [
 			{ value: 'all', label: 'All Resource Types' },
-			...Array.from(types).sort().map((t) => ({ value: t, label: t }))
+			...Array.from(types)
+				.sort()
+				.map((t) => ({ value: t, label: t }))
 		];
 	});
 
@@ -49,13 +64,19 @@
 
 	let contributorNetwork = $derived(buildContributorNetwork(filteredCollections, maxNodes));
 	let affiliationNetwork = $derived(buildPersonInstitutionNetwork($persons, 50));
-	let institutionNetwork = $derived(buildInstitutionCollaborationNetwork($projects, $persons, maxNodes));
+	let institutionNetwork = $derived(
+		buildInstitutionCollaborationNetwork($projects, $persons, maxNodes)
+	);
 
 	function handleTabChange(tabId: string) {
 		activeTab = tabId;
 	}
 </script>
-<SEO title="Network" description="Explore relationships between contributors, projects, and institutions" />
+
+<SEO
+	title="Network"
+	description="Explore relationships between contributors, projects, and institutions"
+/>
 
 <div class="space-y-6">
 	<!-- Page Header -->
@@ -149,7 +170,9 @@
 							<div class="flex items-center gap-2">
 								<div
 									class="w-4 h-4 rounded-full"
-									style="background-color: {i === 0 ? 'hsl(var(--chart-1))' : 'hsl(var(--chart-2))'}"
+									style="background-color: {i === 0
+										? 'hsl(var(--chart-1))'
+										: 'hsl(var(--chart-2))'}"
 								></div>
 								<span class="text-sm">{category.name}</span>
 							</div>
@@ -186,7 +209,9 @@
 					{#if affiliationNetwork.nodes.length > 0}
 						<NetworkGraph data={affiliationNetwork} />
 					{:else}
-						<EmptyState message="No affiliation data available. Persons may not have institutional affiliations recorded." />
+						<EmptyState
+							message="No affiliation data available. Persons may not have institutional affiliations recorded."
+						/>
 					{/if}
 				</ChartCard>
 
@@ -196,7 +221,9 @@
 							<div class="flex items-center gap-2">
 								<div
 									class="w-4 h-4 rounded-full"
-									style="background-color: {i === 0 ? 'hsl(var(--chart-1))' : 'hsl(var(--chart-2))'}"
+									style="background-color: {i === 0
+										? 'hsl(var(--chart-1))'
+										: 'hsl(var(--chart-2))'}"
 								></div>
 								<span class="text-sm">{category.name}</span>
 							</div>
@@ -233,7 +260,9 @@
 					{#if institutionNetwork.nodes.length > 0}
 						<NetworkGraph data={institutionNetwork} />
 					{:else}
-						<EmptyState message="No collaboration data available. Institutions may not have shared projects." />
+						<EmptyState
+							message="No collaboration data available. Institutions may not have shared projects."
+						/>
 					{/if}
 				</ChartCard>
 
@@ -241,7 +270,8 @@
 					<p class="text-sm text-muted-foreground">
 						This network shows institutions that collaborate through shared research projects.
 						Connections are formed when institutions have team members working on the same project.
-						Node size reflects the number of collaborations. Thicker lines indicate more shared projects.
+						Node size reflects the number of collaborations. Thicker lines indicate more shared
+						projects.
 					</p>
 					<p class="text-sm text-muted-foreground mt-4">
 						Drag nodes to rearrange. Scroll to zoom. Click and drag background to pan.

@@ -122,10 +122,7 @@ export async function loadManifest(basePath: string = ''): Promise<Manifest | nu
 /**
  * Get collection names for a university, trying manifest first then falling back to hardcoded list
  */
-async function getCollectionNames(
-	universityId: string,
-	basePath: string = ''
-): Promise<string[]> {
+async function getCollectionNames(universityId: string, basePath: string = ''): Promise<string[]> {
 	const manifest = await loadManifest(basePath);
 	if (manifest?.universities[universityId]) {
 		return manifest.universities[universityId];
@@ -254,9 +251,13 @@ interface RawResearchSection {
 /**
  * Load research sections data from MongoDB export
  */
-export async function loadResearchSections(basePath: string = ''): Promise<Record<string, ResearchSectionInfo>> {
+export async function loadResearchSections(
+	basePath: string = ''
+): Promise<Record<string, ResearchSectionInfo>> {
 	try {
-		const docs = await loadJSON<RawResearchSection[]>(`${basePath}/data/dev/dev.researchSections.json`);
+		const docs = await loadJSON<RawResearchSection[]>(
+			`${basePath}/data/dev/dev.researchSections.json`
+		);
 		const result: Record<string, ResearchSectionInfo> = {};
 		for (const doc of docs) {
 			const { _id, name, ...info } = doc;

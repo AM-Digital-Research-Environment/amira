@@ -20,7 +20,13 @@
 		class?: string;
 	}
 
-	let { data, items = [], enrichedLocations = null, title = '', class: className = '' }: Props = $props();
+	let {
+		data,
+		items = [],
+		enrichedLocations = null,
+		title = '',
+		class: className = ''
+	}: Props = $props();
 
 	let mapContainer: HTMLDivElement | undefined = $state();
 	let mapWrapper: HTMLDivElement | undefined = $state();
@@ -50,9 +56,11 @@
 
 			if (markerId) {
 				paginationState.set(markerId, page);
-				const marker = markers.find(m => m.id === markerId);
+				const marker = markers.find((m) => m.id === markerId);
 				if (marker) {
-					const popupContainer = document.querySelector(`.popup-container[data-marker-id="${markerId}"]`);
+					const popupContainer = document.querySelector(
+						`.popup-container[data-marker-id="${markerId}"]`
+					);
 					if (popupContainer) {
 						popupContainer.outerHTML = buildPopupHtml(marker, page);
 					}
@@ -63,7 +71,7 @@
 
 	// Close all popups except the one being opened
 	function closeOtherPopups(currentMarker?: maplibregl.Marker) {
-		mapMarkers.forEach(marker => {
+		mapMarkers.forEach((marker) => {
 			if (marker !== currentMarker) {
 				const popup = marker.getPopup();
 				if (popup && popup.isOpen()) {
@@ -122,7 +130,7 @@
 		if (!map || !mapReady) return;
 
 		// Remove existing markers from map and clear array
-		mapMarkers.forEach(marker => marker.remove());
+		mapMarkers.forEach((marker) => marker.remove());
 		mapMarkers = [];
 
 		// Add new markers
@@ -224,7 +232,7 @@
 	onDestroy(() => {
 		document.removeEventListener('click', handlePaginationClick);
 		document.removeEventListener('keydown', handleKeydown);
-		mapMarkers.forEach(marker => marker.remove());
+		mapMarkers.forEach((marker) => marker.remove());
 		mapMarkers = [];
 		if (map) {
 			map.remove();
@@ -237,9 +245,7 @@
 	bind:this={mapWrapper}
 	class={cn(
 		'flex flex-col',
-		isFullscreen
-			? 'fixed inset-0 z-50 bg-background p-4'
-			: 'w-full h-full min-h-[550px]',
+		isFullscreen ? 'fixed inset-0 z-50 bg-background p-4' : 'w-full h-full min-h-[550px]',
 		className
 	)}
 >
@@ -251,9 +257,7 @@
 		<div class="flex-1 flex items-center justify-center bg-muted rounded-lg">
 			<div class="text-center text-muted-foreground p-4">
 				<p class="mb-2">Location data not available.</p>
-				<p class="text-sm">
-					Geolocation data files (dev.geoloc_*.json) could not be loaded.
-				</p>
+				<p class="text-sm">Geolocation data files (dev.geoloc_*.json) could not be loaded.</p>
 			</div>
 		</div>
 	{:else if markers.length === 0 && mapReady}
@@ -261,8 +265,14 @@
 			<p class="text-muted-foreground">No locations with coordinates found</p>
 		</div>
 	{:else}
-		<div class="flex-1 relative rounded-lg border" style={isFullscreen ? '' : 'min-height: 550px; overflow: visible;'}>
-			<div bind:this={mapContainer} class="absolute inset-0 w-full h-full rounded-lg overflow-hidden"></div>
+		<div
+			class="flex-1 relative rounded-lg border"
+			style={isFullscreen ? '' : 'min-height: 550px; overflow: visible;'}
+		>
+			<div
+				bind:this={mapContainer}
+				class="absolute inset-0 w-full h-full rounded-lg overflow-hidden"
+			></div>
 
 			<!-- Fullscreen button -->
 			<button
@@ -279,7 +289,9 @@
 
 			<!-- Fullscreen title -->
 			{#if isFullscreen && title}
-				<div class="absolute top-2 left-1/2 -translate-x-1/2 z-10 bg-background/90 border rounded-md px-4 py-2 shadow-sm">
+				<div
+					class="absolute top-2 left-1/2 -translate-x-1/2 z-10 bg-background/90 border rounded-md px-4 py-2 shadow-sm"
+				>
 					<h3 class="text-lg font-semibold">{title}</h3>
 				</div>
 			{/if}

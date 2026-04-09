@@ -4,7 +4,7 @@
  */
 const CODE_ALIASES: Record<string, string> = {
 	fre: 'fra', // French: bibliographic → terminology
-	ger: 'deu', // German: bibliographic → terminology (if needed later)
+	ger: 'deu' // German: bibliographic → terminology (if needed later)
 };
 
 /**

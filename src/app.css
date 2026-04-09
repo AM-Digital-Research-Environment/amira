@@ -23,7 +23,7 @@
 @import 'maplibre-gl/dist/maplibre-gl.css';
 
 /* Tailwind CSS v4 */
-@import "tailwindcss";
+@import 'tailwindcss';
 
 /* Load existing JS config for theme extensions */
 @config "../tailwind.config.js";
@@ -51,7 +51,7 @@
 
 	/* Restore pointer cursor on buttons (Tailwind v4 changed default to cursor: default) */
 	button:not(:disabled),
-	[role="button"]:not(:disabled) {
+	[role='button']:not(:disabled) {
 		cursor: pointer;
 	}
 
@@ -86,7 +86,12 @@
 	}
 
 	/* Typography — Scholarly hierarchy */
-	h1, h2, h3, h4, h5, h6 {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
 		font-family: var(--font-display);
 		font-weight: 600;
 		letter-spacing: -0.02em;
@@ -132,7 +137,10 @@
 	}
 
 	/* Smoother font rendering */
-	p, li, span, label {
+	p,
+	li,
+	span,
+	label {
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
 	}

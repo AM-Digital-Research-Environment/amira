@@ -31,12 +31,30 @@
 	<table class="w-full text-sm" style="min-width: 800px;">
 		<thead>
 			<tr class="border-b border-border bg-muted/50">
-				<th class="text-left px-4 py-3 font-medium text-muted-foreground whitespace-nowrap" style="width:30%">Title</th>
-				<th class="text-left px-4 py-3 font-medium text-muted-foreground whitespace-nowrap" style="width:8%">Type</th>
-				<th class="text-left px-4 py-3 font-medium text-muted-foreground whitespace-nowrap" style="width:22%">Project</th>
-				<th class="text-left px-4 py-3 font-medium text-muted-foreground whitespace-nowrap" style="width:18%">Contributors</th>
-				<th class="text-left px-4 py-3 font-medium text-muted-foreground whitespace-nowrap" style="width:12%">Origin</th>
-				<th class="text-left px-4 py-3 font-medium text-muted-foreground whitespace-nowrap" style="width:10%">Date</th>
+				<th
+					class="text-left px-4 py-3 font-medium text-muted-foreground whitespace-nowrap"
+					style="width:30%">Title</th
+				>
+				<th
+					class="text-left px-4 py-3 font-medium text-muted-foreground whitespace-nowrap"
+					style="width:8%">Type</th
+				>
+				<th
+					class="text-left px-4 py-3 font-medium text-muted-foreground whitespace-nowrap"
+					style="width:22%">Project</th
+				>
+				<th
+					class="text-left px-4 py-3 font-medium text-muted-foreground whitespace-nowrap"
+					style="width:18%">Contributors</th
+				>
+				<th
+					class="text-left px-4 py-3 font-medium text-muted-foreground whitespace-nowrap"
+					style="width:12%">Origin</th
+				>
+				<th
+					class="text-left px-4 py-3 font-medium text-muted-foreground whitespace-nowrap"
+					style="width:10%">Date</th
+				>
 			</tr>
 		</thead>
 		<tbody>
@@ -59,7 +77,9 @@
 						{/if}
 					</td>
 					<td class="px-4 py-3" title={projName}>
-						<span class="text-muted-foreground truncate block">{projName ? projectShort(projName) : '—'}</span>
+						<span class="text-muted-foreground truncate block"
+							>{projName ? projectShort(projName) : '—'}</span
+						>
 					</td>
 					<td class="px-4 py-3" title={contributors.full}>
 						<span class="text-muted-foreground truncate block">{contributors.display}</span>
@@ -74,15 +94,15 @@
 						{/if}
 					</td>
 					<td class="px-4 py-3">
-						<span class="text-muted-foreground whitespace-nowrap">{formatDateInfo(item) || '—'}</span>
+						<span class="text-muted-foreground whitespace-nowrap"
+							>{formatDateInfo(item) || '—'}</span
+						>
 					</td>
 				</tr>
 			{/each}
 			{#if items.length === 0}
 				<tr>
-					<td colspan="6" class="px-4 py-8 text-center text-muted-foreground">
-						No items found
-					</td>
+					<td colspan="6" class="px-4 py-8 text-center text-muted-foreground"> No items found </td>
 				</tr>
 			{/if}
 		</tbody>

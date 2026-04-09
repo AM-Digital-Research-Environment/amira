@@ -12,7 +12,11 @@ export function getContributors(item: CollectionItem): Contributor[] {
 	if (!Array.isArray(item.name)) return [];
 	return item.name
 		.filter((n) => n?.name?.label)
-		.map((n) => ({ name: n.name.label, role: n.role || '', qualifier: n.name.qualifier || 'person' }));
+		.map((n) => ({
+			name: n.name.label,
+			role: n.role || '',
+			qualifier: n.name.qualifier || 'person'
+		}));
 }
 
 export function contributorUrl(contributor: { name: string; qualifier: string }): string {
@@ -47,9 +51,15 @@ export function getIdentifiers(item: CollectionItem): { type: string; value: str
 		.map((id) => ({ type: id.identifier_type, value: id.identifier }));
 }
 
-export function getOrigins(item: CollectionItem): { city?: string; region?: string; country?: string }[] {
+export function getOrigins(
+	item: CollectionItem
+): { city?: string; region?: string; country?: string }[] {
 	if (!item.location?.origin) return [];
-	return item.location.origin.map((o) => ({ city: o.l3 || undefined, region: o.l2 || undefined, country: o.l1 || undefined }));
+	return item.location.origin.map((o) => ({
+		city: o.l3 || undefined,
+		region: o.l2 || undefined,
+		country: o.l1 || undefined
+	}));
 }
 
 export function getTags(item: CollectionItem): string[] {
@@ -113,8 +123,8 @@ export interface PhysicalInfo {
 export function getPhysicalDescription(item: CollectionItem): PhysicalInfo | null {
 	if (!item.physicalDescription) return null;
 	const pd = item.physicalDescription;
-	const hasContent = pd.type || pd.method ||
-		(pd.desc?.length > 0) || (pd.tech?.length > 0) || (pd.note?.length > 0);
+	const hasContent =
+		pd.type || pd.method || pd.desc?.length > 0 || pd.tech?.length > 0 || pd.note?.length > 0;
 	if (!hasContent) return null;
 	return {
 		type: pd.type || undefined,

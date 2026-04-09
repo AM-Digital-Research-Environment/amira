@@ -4,7 +4,8 @@
 
 	const SITE_NAME = 'Africa Multiple WissKI Explorer';
 	const SITE_URL = 'https://am-digital-research-environment.github.io/WissKI-dashboard';
-	const DEFAULT_DESCRIPTION = 'Browse and visualize research data from the Africa Multiple Cluster of Excellence WissKI system';
+	const DEFAULT_DESCRIPTION =
+		'Browse and visualize research data from the Africa Multiple Cluster of Excellence WissKI system';
 
 	interface Props {
 		title?: string;

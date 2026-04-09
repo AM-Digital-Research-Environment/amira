@@ -60,7 +60,9 @@ export function filterByResourceType(items: CollectionItem[], types: string[]): 
  */
 export function filterByLanguage(items: CollectionItem[], languages: string[]): CollectionItem[] {
 	if (!languages.length) return items;
-	return items.filter((item) => item.language?.some((lang) => languages.includes(normalizeLanguageCode(lang))));
+	return items.filter((item) =>
+		item.language?.some((lang) => languages.includes(normalizeLanguageCode(lang)))
+	);
 }
 
 /**

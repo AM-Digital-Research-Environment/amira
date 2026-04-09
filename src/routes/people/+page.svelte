@@ -1,15 +1,50 @@
 <script lang="ts">
-	import { StatCard, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination, BackToList, CollectionItemRow, SEO, SectionBadge, EmptyState } from '$lib/components/ui';
+	import {
+		StatCard,
+		Card,
+		CardHeader,
+		CardTitle,
+		CardContent,
+		Badge,
+		Input,
+		Pagination,
+		BackToList,
+		CollectionItemRow,
+		SEO,
+		SectionBadge,
+		EmptyState
+	} from '$lib/components/ui';
 	import { projects, allCollections, researchSections, persons } from '$lib/stores/data';
 	import { page } from '$app/stores';
-	import { researchSectionsUrl, projectUrl, subjectUrl, locationUrl, languageUrl, resourceTypeUrl } from '$lib/utils/urls';
+	import {
+		researchSectionsUrl,
+		projectUrl,
+		subjectUrl,
+		locationUrl,
+		languageUrl,
+		resourceTypeUrl
+	} from '$lib/utils/urls';
 	import { createUrlSelection, scrollToTop } from '$lib/utils/urlSelection';
 	import type { Project, CollectionItem } from '$lib/types';
 	import { formatDate, getProjectTitle } from '$lib/utils/helpers';
 	import { languageName } from '$lib/utils/languages';
 	import { createSearchFilter } from '$lib/utils/search';
 	import { paginate } from '$lib/utils/pagination';
-	import { Users, Briefcase, BookOpen, FileText, Building2, Tag, MapPin, Languages, Layers, UserCheck, ExternalLink, ArrowUpDown, Search } from '@lucide/svelte';
+	import {
+		Users,
+		Briefcase,
+		BookOpen,
+		FileText,
+		Building2,
+		Tag,
+		MapPin,
+		Languages,
+		Layers,
+		UserCheck,
+		ExternalLink,
+		ArrowUpDown,
+		Search
+	} from '@lucide/svelte';
 	import { formatDateInfo } from '$lib/components/research-items/itemHelpers';
 	import { getItemTitle } from '$lib/utils/helpers';
 	import { institutionUrl } from '$lib/utils/urls';
@@ -42,7 +77,14 @@
 
 		const getOrCreate = (name: string): PersonData => {
 			if (!map.has(name)) {
-				map.set(name, { name, piOf: [], memberOf: [], sections: new Set(), affiliations: new Set(), isSectionPI: false });
+				map.set(name, {
+					name,
+					piOf: [],
+					memberOf: [],
+					sections: new Set(),
+					affiliations: new Set(),
+					isSectionPI: false
+				});
 			}
 			return map.get(name)!;
 		};
@@ -72,7 +114,9 @@
 				if (n?.name?.label && n?.name?.qualifier === 'person') {
 					const person = getOrCreate(n.name.label);
 					if (Array.isArray(n.affl)) {
-						n.affl.forEach((a) => { if (a) person.affiliations.add(a); });
+						n.affl.forEach((a) => {
+							if (a) person.affiliations.add(a);
+						});
 					}
 				}
 			});
@@ -82,7 +126,9 @@
 		$persons.forEach((p) => {
 			if (p.name && Array.isArray(p.affiliation)) {
 				const person = getOrCreate(p.name);
-				p.affiliation.forEach((a) => { if (a) person.affiliations.add(a); });
+				p.affiliation.forEach((a) => {
+					if (a) person.affiliations.add(a);
+				});
 			}
 		});
 
@@ -104,11 +150,13 @@
 
 	/** Check if a person has any dashboard data beyond just existing in the persons store */
 	function personHasData(p: PersonData): boolean {
-		return p.piOf.length > 0
-			|| p.memberOf.length > 0
-			|| p.sections.size > 0
-			|| p.affiliations.size > 0
-			|| p.isSectionPI;
+		return (
+			p.piOf.length > 0 ||
+			p.memberOf.length > 0 ||
+			p.sections.size > 0 ||
+			p.affiliations.size > 0 ||
+			p.isSectionPI
+		);
 	}
 
 	// Also check collection items for people that otherwise have no data
@@ -185,8 +233,8 @@
 	let personCollectionItems = $derived.by((): CollectionItem[] => {
 		if (!selectedPerson) return [];
 		const name = selectedPerson.name;
-		return $allCollections.filter((item) =>
-			Array.isArray(item.name) && item.name.some((n) => n?.name?.label === name)
+		return $allCollections.filter(
+			(item) => Array.isArray(item.name) && item.name.some((n) => n?.name?.label === name)
 		);
 	});
 
@@ -211,10 +259,11 @@
 
 		if (itemSearchQuery) {
 			const q = itemSearchQuery.toLowerCase();
-			items = items.filter((item) =>
-				getItemTitle(item).toLowerCase().includes(q) ||
-				item.typeOfResource?.toLowerCase().includes(q) ||
-				item.language?.some((l) => languageName(l).toLowerCase().includes(q))
+			items = items.filter(
+				(item) =>
+					getItemTitle(item).toLowerCase().includes(q) ||
+					item.typeOfResource?.toLowerCase().includes(q) ||
+					item.language?.some((l) => languageName(l).toLowerCase().includes(q))
 			);
 		}
 
@@ -230,7 +279,11 @@
 				cmp = (a.typeOfResource || '').localeCompare(b.typeOfResource || '');
 			} else if (itemSortBy === 'date') {
 				const getTime = (item: CollectionItem) => {
-					const d = item.dateInfo?.issue?.start || item.dateInfo?.created?.start || item.dateInfo?.captured?.start || item.dateInfo?.other?.start;
+					const d =
+						item.dateInfo?.issue?.start ||
+						item.dateInfo?.created?.start ||
+						item.dateInfo?.captured?.start ||
+						item.dateInfo?.other?.start;
 					return d ? new Date(d).getTime() : 0;
 				};
 				cmp = getTime(a) - getTime(b);
@@ -248,7 +301,9 @@
 	// Pagination for collection items
 	const collectionItemsPerPage = 10;
 	let collectionPage = $state(0);
-	let paginatedCollectionItems = $derived(paginate(filteredCollectionItems, collectionPage, collectionItemsPerPage));
+	let paginatedCollectionItems = $derived(
+		paginate(filteredCollectionItems, collectionPage, collectionItemsPerPage)
+	);
 
 	// Reset filters and pagination when person changes
 	$effect(() => {
@@ -337,8 +392,7 @@
 			}
 		}
 
-		const sortDesc = (map: Map<string, number>) =>
-			[...map.entries()].sort((a, b) => b[1] - a[1]);
+		const sortDesc = (map: Map<string, number>) => [...map.entries()].sort((a, b) => b[1] - a[1]);
 
 		return {
 			roles: sortDesc(roles),
@@ -349,13 +403,16 @@
 		};
 	});
 </script>
+
 <SEO title="People" description="Browse researchers, contributors, and their affiliations" />
 
 <div class="space-y-8 animate-slide-in-up">
 	<!-- Header -->
 	<div>
 		<h1 class="page-title">People</h1>
-		<p class="page-subtitle">Browse researchers, principal investigators, and project members across the cluster</p>
+		<p class="page-subtitle">
+			Browse researchers, principal investigators, and project members across the cluster
+		</p>
 	</div>
 
 	<!-- Stats -->
@@ -371,11 +428,7 @@
 			value={people.filter((p) => p.isSectionPI).length}
 			icon={BookOpen}
 		/>
-		<StatCard
-			label="Roles"
-			value={allRolesWithCounts.length}
-			icon={UserCheck}
-		/>
+		<StatCard label="Roles" value={allRolesWithCounts.length} icon={UserCheck} />
 	</div>
 
 	<div class="grid gap-6 lg:grid-cols-3">
@@ -400,13 +453,10 @@
 				<CardContent>
 					{#snippet children()}
 						<div class="space-y-3">
-							<Input
-								placeholder="Search people..."
-								bind:value={searchQuery}
-							/>
+							<Input placeholder="Search people..." bind:value={searchQuery} />
 							<select
 								value={selectedRole}
-								onchange={(e) => selectedRole = (e.currentTarget as HTMLSelectElement).value}
+								onchange={(e) => (selectedRole = (e.currentTarget as HTMLSelectElement).value)}
 								class="w-full h-9 rounded-md border border-input bg-background px-3 py-1.5 text-sm"
 							>
 								<option value="">All roles</option>
@@ -415,7 +465,9 @@
 								{/each}
 							</select>
 							{#if noDataCount > 0}
-								<label class="flex items-center gap-2 text-xs text-muted-foreground cursor-pointer select-none">
+								<label
+									class="flex items-center gap-2 text-xs text-muted-foreground cursor-pointer select-none"
+								>
 									<input
 										type="checkbox"
 										bind:checked={hideNoData}
@@ -429,7 +481,9 @@
 									{@const isSelected = selectedName === person.name}
 									<button
 										onclick={() => selectPerson(person.name)}
-										class="list-item-btn flex items-center justify-between gap-2 {isSelected ? 'active' : ''}"
+										class="list-item-btn flex items-center justify-between gap-2 {isSelected
+											? 'active'
+											: ''}"
 									>
 										<span class="truncate">{person.name}</span>
 										<span class="flex items-center gap-1.5 shrink-0">
@@ -472,17 +526,26 @@
 											{/if}
 											{#if selectedPerson.piOf.length > 0}
 												<Badge variant="secondary">
-													{#snippet children()}PI of {selectedPerson.piOf.length} project{selectedPerson.piOf.length !== 1 ? 's' : ''}{/snippet}
+													{#snippet children()}PI of {selectedPerson.piOf.length} project{selectedPerson
+															.piOf.length !== 1
+															? 's'
+															: ''}{/snippet}
 												</Badge>
 											{/if}
 											{#if selectedPerson.memberOf.length > 0}
 												<Badge variant="secondary">
-													{#snippet children()}Member of {selectedPerson.memberOf.length} project{selectedPerson.memberOf.length !== 1 ? 's' : ''}{/snippet}
+													{#snippet children()}Member of {selectedPerson.memberOf.length} project{selectedPerson
+															.memberOf.length !== 1
+															? 's'
+															: ''}{/snippet}
 												</Badge>
 											{/if}
 											{#if personCollectionItems.length > 0}
 												<Badge variant="outline">
-													{#snippet children()}{personCollectionItems.length} research item{personCollectionItems.length !== 1 ? 's' : ''}{/snippet}
+													{#snippet children()}{personCollectionItems.length} research item{personCollectionItems.length !==
+														1
+															? 's'
+															: ''}{/snippet}
 												</Badge>
 											{/if}
 											<WissKILink category="persons" entityKey={selectedPerson.name} />
@@ -504,7 +567,8 @@
 									<div class="flex flex-col items-center justify-center py-8 text-center">
 										<Users class="h-10 w-10 text-muted-foreground/40 mb-3" />
 										<p class="text-sm text-muted-foreground">
-											No project, research item, or affiliation data is available for this person in the dashboard.
+											No project, research item, or affiliation data is available for this person in
+											the dashboard.
 										</p>
 										{#if wisskiHref}
 											<a
@@ -579,11 +643,16 @@
 										<!-- Roles -->
 										{#if personProfile.roles.length > 0}
 											<div>
-												<h4 class="text-xs font-medium text-muted-foreground uppercase tracking-wider mb-2">Roles</h4>
+												<h4
+													class="text-xs font-medium text-muted-foreground uppercase tracking-wider mb-2"
+												>
+													Roles
+												</h4>
 												<div class="flex flex-wrap gap-1.5">
 													{#each personProfile.roles as [role, count]}
 														<Badge variant="secondary" class="text-xs">
-															{#snippet children()}{role} <span class="text-muted-foreground ml-1">({count})</span>{/snippet}
+															{#snippet children()}{role}
+																<span class="text-muted-foreground ml-1">({count})</span>{/snippet}
 														</Badge>
 													{/each}
 												</div>
@@ -593,12 +662,24 @@
 										<!-- Resource Types -->
 										{#if personProfile.resourceTypes.length > 0}
 											<div>
-												<h4 class="text-xs font-medium text-muted-foreground uppercase tracking-wider mb-2">Resource Types</h4>
+												<h4
+													class="text-xs font-medium text-muted-foreground uppercase tracking-wider mb-2"
+												>
+													Resource Types
+												</h4>
 												<div class="flex flex-wrap gap-1.5">
 													{#each personProfile.resourceTypes as [type, count]}
-														<a href={resourceTypeUrl(type)} class="hover:opacity-80 transition-opacity">
-															<Badge variant="outline" class="text-xs hover:bg-primary/10 transition-colors">
-																{#snippet children()}<Layers class="h-3 w-3 mr-1" />{type} <span class="text-muted-foreground ml-1">({count})</span>{/snippet}
+														<a
+															href={resourceTypeUrl(type)}
+															class="hover:opacity-80 transition-opacity"
+														>
+															<Badge
+																variant="outline"
+																class="text-xs hover:bg-primary/10 transition-colors"
+															>
+																{#snippet children()}<Layers class="h-3 w-3 mr-1" />{type}
+																	<span class="text-muted-foreground ml-1">({count})</span
+																	>{/snippet}
 															</Badge>
 														</a>
 													{/each}
@@ -609,12 +690,23 @@
 										<!-- Languages -->
 										{#if personProfile.languages.length > 0}
 											<div>
-												<h4 class="text-xs font-medium text-muted-foreground uppercase tracking-wider mb-2">Languages</h4>
+												<h4
+													class="text-xs font-medium text-muted-foreground uppercase tracking-wider mb-2"
+												>
+													Languages
+												</h4>
 												<div class="flex flex-wrap gap-1.5">
 													{#each personProfile.languages as [lang, count]}
 														<a href={languageUrl(lang)} class="hover:opacity-80 transition-opacity">
-															<Badge variant="outline" class="text-xs hover:bg-primary/10 transition-colors">
-																{#snippet children()}<Languages class="h-3 w-3 mr-1" />{languageName(lang)} <span class="text-muted-foreground ml-1">({count})</span>{/snippet}
+															<Badge
+																variant="outline"
+																class="text-xs hover:bg-primary/10 transition-colors"
+															>
+																{#snippet children()}<Languages
+																		class="h-3 w-3 mr-1"
+																	/>{languageName(lang)}
+																	<span class="text-muted-foreground ml-1">({count})</span
+																	>{/snippet}
 															</Badge>
 														</a>
 													{/each}
@@ -625,12 +717,24 @@
 										<!-- Countries -->
 										{#if personProfile.countries.length > 0}
 											<div>
-												<h4 class="text-xs font-medium text-muted-foreground uppercase tracking-wider mb-2">Countries</h4>
+												<h4
+													class="text-xs font-medium text-muted-foreground uppercase tracking-wider mb-2"
+												>
+													Countries
+												</h4>
 												<div class="flex flex-wrap gap-1.5">
 													{#each personProfile.countries as [country, count]}
-														<a href={locationUrl(country)} class="hover:opacity-80 transition-opacity">
-															<Badge variant="outline" class="text-xs hover:bg-primary/10 transition-colors">
-																{#snippet children()}<MapPin class="h-3 w-3 mr-1" />{country} <span class="text-muted-foreground ml-1">({count})</span>{/snippet}
+														<a
+															href={locationUrl(country)}
+															class="hover:opacity-80 transition-opacity"
+														>
+															<Badge
+																variant="outline"
+																class="text-xs hover:bg-primary/10 transition-colors"
+															>
+																{#snippet children()}<MapPin class="h-3 w-3 mr-1" />{country}
+																	<span class="text-muted-foreground ml-1">({count})</span
+																	>{/snippet}
 															</Badge>
 														</a>
 													{/each}
@@ -642,12 +746,20 @@
 									<!-- Subjects (full width below) -->
 									{#if personProfile.subjects.length > 0}
 										<div class="mt-4 pt-4 border-t">
-											<h4 class="text-xs font-medium text-muted-foreground uppercase tracking-wider mb-2">Top Subjects</h4>
+											<h4
+												class="text-xs font-medium text-muted-foreground uppercase tracking-wider mb-2"
+											>
+												Top Subjects
+											</h4>
 											<div class="flex flex-wrap gap-1.5">
 												{#each personProfile.subjects as [subject, count]}
 													<a href={subjectUrl(subject)} class="hover:opacity-80 transition-opacity">
-														<Badge variant="outline" class="text-xs hover:bg-primary/10 transition-colors">
-															{#snippet children()}{subject} <span class="text-muted-foreground ml-1">({count})</span>{/snippet}
+														<Badge
+															variant="outline"
+															class="text-xs hover:bg-primary/10 transition-colors"
+														>
+															{#snippet children()}{subject}
+																<span class="text-muted-foreground ml-1">({count})</span>{/snippet}
 														</Badge>
 													</a>
 												{/each}
@@ -680,7 +792,10 @@
 								{#snippet children()}
 									<div class="flex flex-wrap gap-2">
 										{#each [...selectedPerson.sections].sort() as section}
-											<a href={researchSectionsUrl(section)} class="hover:opacity-80 transition-opacity">
+											<a
+												href={researchSectionsUrl(section)}
+												class="hover:opacity-80 transition-opacity"
+											>
 												<SectionBadge {section} />
 											</a>
 										{/each}
@@ -722,18 +837,25 @@
 													</a>
 													<div class="flex flex-wrap items-center gap-2 mt-1">
 														{#if project.idShort}
-															<span class="text-xs text-muted-foreground font-mono">{project.idShort}</span>
+															<span class="text-xs text-muted-foreground font-mono"
+																>{project.idShort}</span
+															>
 														{/if}
 														{#if project.date?.start || project.date?.end}
 															<span class="text-xs text-muted-foreground">
-																{formatDate(project.date.start)}{project.date.end ? ` – ${formatDate(project.date.end)}` : ''}
+																{formatDate(project.date.start)}{project.date.end
+																	? ` – ${formatDate(project.date.end)}`
+																	: ''}
 															</span>
 														{/if}
 													</div>
 													{#if project.researchSection?.length}
 														<div class="flex flex-wrap gap-1 mt-1.5">
 															{#each project.researchSection as section}
-																<a href={researchSectionsUrl(section)} class="hover:opacity-80 transition-opacity">
+																<a
+																	href={researchSectionsUrl(section)}
+																	class="hover:opacity-80 transition-opacity"
+																>
 																	<SectionBadge {section} small />
 																</a>
 															{/each}
@@ -779,7 +901,9 @@
 														{getProjectTitle(project)}
 													</a>
 													{#if project.idShort}
-														<span class="text-xs text-muted-foreground font-mono block mt-0.5">{project.idShort}</span>
+														<span class="text-xs text-muted-foreground font-mono block mt-0.5"
+															>{project.idShort}</span
+														>
 													{/if}
 												</div>
 											</li>
@@ -803,7 +927,8 @@
 												<FileText class="h-5 w-5 text-muted-foreground" />
 												Research Items
 												<Badge variant="secondary">
-													{#snippet children()}{filteredCollectionItems.length}{#if filteredCollectionItems.length !== personCollectionItems.length} / {personCollectionItems.length}{/if}{/snippet}
+													{#snippet children()}{filteredCollectionItems.length}{#if filteredCollectionItems.length !== personCollectionItems.length}
+															/ {personCollectionItems.length}{/if}{/snippet}
 												</Badge>
 											</span>
 										{/snippet}
@@ -815,8 +940,14 @@
 									<!-- Search & Filters -->
 									<div class="flex flex-col sm:flex-row gap-3 mb-4">
 										<div class="relative flex-1">
-											<Search class="absolute left-2.5 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
-											<Input placeholder="Search items..." bind:value={itemSearchQuery} class="pl-9" />
+											<Search
+												class="absolute left-2.5 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground"
+											/>
+											<Input
+												placeholder="Search items..."
+												bind:value={itemSearchQuery}
+												class="pl-9"
+											/>
 										</div>
 										<select
 											bind:value={itemTypeFilter}
@@ -835,19 +966,25 @@
 										<span>Sort by:</span>
 										<button
 											onclick={() => toggleItemSort('title')}
-											class="px-2 py-0.5 rounded transition-colors {itemSortBy === 'title' ? 'bg-primary/10 text-primary font-medium' : 'hover:bg-muted'}"
+											class="px-2 py-0.5 rounded transition-colors {itemSortBy === 'title'
+												? 'bg-primary/10 text-primary font-medium'
+												: 'hover:bg-muted'}"
 										>
 											Title {itemSortBy === 'title' ? (itemSortAsc ? '↑' : '↓') : ''}
 										</button>
 										<button
 											onclick={() => toggleItemSort('date')}
-											class="px-2 py-0.5 rounded transition-colors {itemSortBy === 'date' ? 'bg-primary/10 text-primary font-medium' : 'hover:bg-muted'}"
+											class="px-2 py-0.5 rounded transition-colors {itemSortBy === 'date'
+												? 'bg-primary/10 text-primary font-medium'
+												: 'hover:bg-muted'}"
 										>
 											Date {itemSortBy === 'date' ? (itemSortAsc ? '↑' : '↓') : ''}
 										</button>
 										<button
 											onclick={() => toggleItemSort('type')}
-											class="px-2 py-0.5 rounded transition-colors {itemSortBy === 'type' ? 'bg-primary/10 text-primary font-medium' : 'hover:bg-muted'}"
+											class="px-2 py-0.5 rounded transition-colors {itemSortBy === 'type'
+												? 'bg-primary/10 text-primary font-medium'
+												: 'hover:bg-muted'}"
 										>
 											Type {itemSortBy === 'type' ? (itemSortAsc ? '↑' : '↓') : ''}
 										</button>
@@ -862,11 +999,16 @@
 													{#snippet extraMetadata()}
 														{#if getPersonRole(item, selectedPerson.name)}
 															<Badge variant="outline" class="text-2xs">
-																{#snippet children()}{getPersonRole(item, selectedPerson.name)}{/snippet}
+																{#snippet children()}{getPersonRole(
+																		item,
+																		selectedPerson.name
+																	)}{/snippet}
 															</Badge>
 														{/if}
 														{#if formatDateInfo(item)}
-															<span class="text-xs text-muted-foreground">· {formatDateInfo(item)}</span>
+															<span class="text-xs text-muted-foreground"
+																>· {formatDateInfo(item)}</span
+															>
 														{/if}
 													{/snippet}
 												</CollectionItemRow>
@@ -876,7 +1018,7 @@
 											currentPage={collectionPage}
 											totalItems={filteredCollectionItems.length}
 											itemsPerPage={collectionItemsPerPage}
-											onPageChange={(p) => collectionPage = p}
+											onPageChange={(p) => (collectionPage = p)}
 										/>
 									{/if}
 								{/snippet}
@@ -884,7 +1026,6 @@
 						{/snippet}
 					</Card>
 				{/if}
-
 			{:else}
 				<!-- No person selected -->
 				<Card class="overflow-hidden">
@@ -895,7 +1036,8 @@
 									<Users class="h-12 w-12 text-muted-foreground/50 mb-4" />
 									<p class="text-lg font-medium text-muted-foreground">Select a person</p>
 									<p class="text-sm text-muted-foreground/70 mt-1">
-										Choose someone from the list to view their projects, research sections, and research items
+										Choose someone from the list to view their projects, research sections, and
+										research items
 									</p>
 								</div>
 							{/snippet}

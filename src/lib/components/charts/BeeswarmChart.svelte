@@ -59,7 +59,7 @@
 		tooltip: {
 			confine: true,
 			formatter: (params: unknown) => {
-				const p = params as { data: [number, number, string, number]; };
+				const p = params as { data: [number, number, string, number] };
 				const cat = categories[p.data[1]];
 				const val = p.data[0];
 				const label = p.data[2];

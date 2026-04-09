@@ -3,7 +3,17 @@
 	import { base } from '$app/paths';
 	import { languageName } from '$lib/utils/languages';
 	import { StatCard, ChartCard, EmptyState, Combobox, SEO } from '$lib/components/ui';
-	import { StackedTimeline, BarChart, PieChart, WordCloud, LocationMap, SankeyChart, SunburstChart, ChordDiagram, HeatmapChart } from '$lib/components/charts';
+	import {
+		StackedTimeline,
+		BarChart,
+		PieChart,
+		WordCloud,
+		LocationMap,
+		SankeyChart,
+		SunburstChart,
+		ChordDiagram,
+		HeatmapChart
+	} from '$lib/components/charts';
 	import { allCollections } from '$lib/stores/data';
 	import {
 		groupByYearAndType,
@@ -32,19 +42,20 @@
 
 	// Build a map of project IDs to full project names from the data
 	let projectNameMap = $derived(
-		$allCollections.reduce((acc, item) => {
-			if (item.project?.id && item.project?.name) {
-				acc[item.project.id] = item.project.name;
-			}
-			return acc;
-		}, {} as Record<string, string>)
+		$allCollections.reduce(
+			(acc, item) => {
+				if (item.project?.id && item.project?.name) {
+					acc[item.project.id] = item.project.name;
+				}
+				return acc;
+			},
+			{} as Record<string, string>
+		)
 	);
 
 	// Format collection ID to readable label
 	function formatCollectionLabel(name: string): string {
-		return name
-			.replace(/^(UBT|ULG|UJKZ|UFB)_/, '')
-			.replace(/(\d{4})$/, ' $1');
+		return name.replace(/^(UBT|ULG|UJKZ|UFB)_/, '').replace(/(\d{4})$/, ' $1');
 	}
 
 	function trimLabel(text: string, max = 60): string {
@@ -53,19 +64,21 @@
 
 	// Build grouped and sorted collection options
 	let collectionGroups = $derived(
-		universities.map(uni => ({
-			label: uni.name,
-			options: (UNIVERSITY_COLLECTIONS[uni.id] || [])
-				.map(name => {
-					const fullName = projectNameMap[name] || formatCollectionLabel(name);
-					return {
-						value: name,
-						label: trimLabel(fullName),
-						title: fullName
-					};
-				})
-				.sort((a, b) => a.label.localeCompare(b.label))
-		})).filter(group => group.options.length > 0)
+		universities
+			.map((uni) => ({
+				label: uni.name,
+				options: (UNIVERSITY_COLLECTIONS[uni.id] || [])
+					.map((name) => {
+						const fullName = projectNameMap[name] || formatCollectionLabel(name);
+						return {
+							value: name,
+							label: trimLabel(fullName),
+							title: fullName
+						};
+					})
+					.sort((a, b) => a.label.localeCompare(b.label))
+			}))
+			.filter((group) => group.options.length > 0)
 	);
 
 	let selectedCollection = $state('all');
@@ -74,7 +87,7 @@
 	// Get current collection based on selection
 	function getFilteredCollection(id: string): CollectionItem[] {
 		if (id === 'all') return $allCollections;
-		return $allCollections.filter(item => item.project?.id === id);
+		return $allCollections.filter((item) => item.project?.id === id);
 	}
 
 	let currentCollection = $derived<CollectionItem[]>(getFilteredCollection(selectedCollection));
@@ -125,11 +138,17 @@
 		return raw;
 	});
 </script>
-<SEO title="Project Explorer" description="Explore research data and visualizations by project across partner universities" />
+
+<SEO
+	title="Project Explorer"
+	description="Explore research data and visualizations by project across partner universities"
+/>
 
 <div class="space-y-6">
 	<!-- Page Header with Collection Selector -->
-	<div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 animate-slide-in-up">
+	<div
+		class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 animate-slide-in-up"
+	>
 		<div class="flex-1 min-w-0">
 			<h1 class="page-title">Project Explorer</h1>
 			{#if selectedCollection !== 'all' && projectNameMap[selectedCollection]}
@@ -137,9 +156,7 @@
 					{projectNameMap[selectedCollection]}
 				</p>
 			{:else}
-				<p class="page-subtitle mt-1">
-					Browse project data and visualizations across universities
-				</p>
+				<p class="page-subtitle mt-1">Browse project data and visualizations across universities</p>
 			{/if}
 		</div>
 		<div class="w-full sm:w-80 flex-shrink-0">
@@ -154,10 +171,33 @@
 
 	<!-- Stats Cards -->
 	<div class="grid gap-4 md:grid-cols-4">
-		<StatCard value={currentCollection.length} label="Total Items" icon={FileText} animationDelay="75ms" />
-		<StatCard value={resourceTypesData.length} label="Resource Types" icon={Layers} iconBgClass="bg-chart-2/10" animationDelay="100ms" />
-		<StatCard value={contributorsData.length} label="Contributors" icon={Users} iconBgClass="bg-chart-1/10" animationDelay="150ms" />
-		<StatCard value={locationsData.length} label="Locations" icon={MapPin} iconBgClass="bg-location-country/10" animationDelay="200ms" />
+		<StatCard
+			value={currentCollection.length}
+			label="Total Items"
+			icon={FileText}
+			animationDelay="75ms"
+		/>
+		<StatCard
+			value={resourceTypesData.length}
+			label="Resource Types"
+			icon={Layers}
+			iconBgClass="bg-chart-2/10"
+			animationDelay="100ms"
+		/>
+		<StatCard
+			value={contributorsData.length}
+			label="Contributors"
+			icon={Users}
+			iconBgClass="bg-chart-1/10"
+			animationDelay="150ms"
+		/>
+		<StatCard
+			value={locationsData.length}
+			label="Locations"
+			icon={MapPin}
+			iconBgClass="bg-location-country/10"
+			animationDelay="200ms"
+		/>
 	</div>
 
 	<!-- Charts Grid -->
@@ -202,7 +242,11 @@
 			{/if}
 		</ChartCard>
 
-		<ChartCard title="Geographic Origins (Map)" contentHeight="h-[650px]" class="col-span-full overflow-visible">
+		<ChartCard
+			title="Geographic Origins (Map)"
+			contentHeight="h-[650px]"
+			class="col-span-full overflow-visible"
+		>
 			<LocationMap data={locationsData} items={currentCollection} {enrichedLocations} />
 		</ChartCard>
 
@@ -264,7 +308,11 @@
 			{/if}
 		</ChartCard>
 
-		<ChartCard title="Contributor &rarr; Project &rarr; Resource Type Flow" contentHeight="h-chart-xl" class="col-span-full">
+		<ChartCard
+			title="Contributor &rarr; Project &rarr; Resource Type Flow"
+			contentHeight="h-chart-xl"
+			class="col-span-full"
+		>
 			{#if sankeyData.links.length > 0}
 				<SankeyChart nodes={sankeyData.nodes} links={sankeyData.links} />
 			{:else}
@@ -272,7 +320,11 @@
 			{/if}
 		</ChartCard>
 
-		<ChartCard title="Resource Type &rarr; Language &rarr; Subject Hierarchy" contentHeight="h-chart-xl" class="col-span-full">
+		<ChartCard
+			title="Resource Type &rarr; Language &rarr; Subject Hierarchy"
+			contentHeight="h-chart-xl"
+			class="col-span-full"
+		>
 			{#if sunburstData.length > 0}
 				<SunburstChart data={sunburstData} />
 			{:else}
@@ -280,5 +332,4 @@
 			{/if}
 		</ChartCard>
 	</div>
-
 </div>

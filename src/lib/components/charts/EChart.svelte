@@ -48,7 +48,12 @@
 					count += s.data.length;
 				}
 			}
-		} else if (series && typeof series === 'object' && 'data' in series && Array.isArray(series.data)) {
+		} else if (
+			series &&
+			typeof series === 'object' &&
+			'data' in series &&
+			Array.isArray(series.data)
+		) {
 			count += series.data.length;
 		}
 
@@ -218,15 +223,17 @@
 		// For graph, sankey, sunburst - use roam zoom
 		if (['graph', 'sankey', 'sunburst', 'tree', 'treemap'].includes(seriesType)) {
 			chartInstance.setOption({
-				series: [{
-					zoom: zoomLevel,
-					center: ['50%', '50%']
-				}]
+				series: [
+					{
+						zoom: zoomLevel,
+						center: ['50%', '50%']
+					}
+				]
 			});
 		} else {
 			// For other charts, use dataZoom
-			const zoomStart = Math.max(0, 50 - (50 / zoomLevel));
-			const zoomEnd = Math.min(100, 50 + (50 / zoomLevel));
+			const zoomStart = Math.max(0, 50 - 50 / zoomLevel);
+			const zoomEnd = Math.min(100, 50 + 50 / zoomLevel);
 			chartInstance.dispatchAction({
 				type: 'dataZoom',
 				start: zoomStart,

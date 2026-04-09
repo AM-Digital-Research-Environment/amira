@@ -125,9 +125,7 @@
 		itemsPage = 0;
 	});
 
-	let paginatedItems: CollectionItem[] = $derived(
-		paginate(recentItems, itemsPage, itemsPerPage)
-	);
+	let paginatedItems: CollectionItem[] = $derived(paginate(recentItems, itemsPage, itemsPerPage));
 </script>
 
 <SEO
@@ -143,16 +141,15 @@
 				<h1 class="page-title">What's New</h1>
 				<p class="page-subtitle">Recently added projects and research items</p>
 			</div>
-			<Select
-				options={timeWindowOptions}
-				bind:value={timeWindow}
-				class="w-44 shrink-0"
-			/>
+			<Select options={timeWindowOptions} bind:value={timeWindow} class="w-44 shrink-0" />
 		</div>
 	</div>
 
 	<!-- Stat cards -->
-	<div class="grid gap-4 grid-cols-2 lg:grid-cols-3 animate-slide-in-up" style="animation-delay: 50ms">
+	<div
+		class="grid gap-4 grid-cols-2 lg:grid-cols-3 animate-slide-in-up"
+		style="animation-delay: 50ms"
+	>
 		<StatCard
 			value={$projects.length}
 			label="Total Projects"
@@ -264,7 +261,7 @@
 						<Pagination
 							currentPage={itemsPage}
 							totalItems={recentItems.length}
-							itemsPerPage={itemsPerPage}
+							{itemsPerPage}
 							onPageChange={(p) => (itemsPage = p)}
 						/>
 					</div>

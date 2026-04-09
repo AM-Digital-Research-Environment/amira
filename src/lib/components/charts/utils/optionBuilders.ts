@@ -110,4 +110,3 @@ export function hideAxes(): { xAxis: { show: false }; yAxis: { show: false } } {
 		yAxis: { show: false }
 	};
 }
-

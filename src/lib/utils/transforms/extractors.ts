@@ -83,7 +83,10 @@ export function extractTags(items: CollectionItem[]): WordCloudDataPoint[] {
 export function extractLocations(
 	items: CollectionItem[]
 ): { country: string; region: string; city: string; count: number }[] {
-	const locationMap = new Map<string, { country: string; region: string; city: string; count: number }>();
+	const locationMap = new Map<
+		string,
+		{ country: string; region: string; city: string; count: number }
+	>();
 
 	items.forEach((item) => {
 		item.location?.origin?.forEach((origin) => {

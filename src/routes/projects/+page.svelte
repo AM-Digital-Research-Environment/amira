@@ -1,7 +1,27 @@
 <script lang="ts">
-	import { StatCard, ChartCard, EmptyState, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination, SEO, SectionBadge } from '$lib/components/ui';
+	import {
+		StatCard,
+		ChartCard,
+		EmptyState,
+		Card,
+		CardHeader,
+		CardTitle,
+		CardContent,
+		Badge,
+		Input,
+		Pagination,
+		SEO,
+		SectionBadge
+	} from '$lib/components/ui';
 	import { getSectionColor } from '$lib/utils/helpers';
-	import { BarChart, Timeline, BeeswarmChart, GanttChart, WordCloud, PieChart } from '$lib/components/charts';
+	import {
+		BarChart,
+		Timeline,
+		BeeswarmChart,
+		GanttChart,
+		WordCloud,
+		PieChart
+	} from '$lib/components/charts';
 	import { projects, allCollections } from '$lib/stores/data';
 	import {
 		groupProjectsByYear,
@@ -23,7 +43,24 @@
 	import { formatDateInfo } from '$lib/components/research-items/itemHelpers';
 	import { paginate } from '$lib/utils/pagination';
 	import { DEFAULT_ITEMS_PER_PAGE } from '$lib/utils/constants';
-	import { X, Briefcase, BookOpen, Building2, Calendar, Users, FileText, ArrowLeft, Hash, GraduationCap, ExternalLink, Tag, Edit3, ArrowUpDown, Search, Languages } from '@lucide/svelte';
+	import {
+		X,
+		Briefcase,
+		BookOpen,
+		Building2,
+		Calendar,
+		Users,
+		FileText,
+		ArrowLeft,
+		Hash,
+		GraduationCap,
+		ExternalLink,
+		Tag,
+		Edit3,
+		ArrowUpDown,
+		Search,
+		Languages
+	} from '@lucide/svelte';
 	import { languageName } from '$lib/utils/languages';
 	import { WissKILink } from '$lib/components/ui';
 	import { base } from '$app/paths';
@@ -103,7 +140,11 @@
 	// Selected project
 	let selectedProject = $derived.by((): Project | null => {
 		if (!selectedId) return null;
-		return $projects.find((p) => p.id === selectedId || p._id === selectedId || p.idShort === selectedId) || null;
+		return (
+			$projects.find(
+				(p) => p.id === selectedId || p._id === selectedId || p.idShort === selectedId
+			) || null
+		);
 	});
 
 	// Collection items for selected project
@@ -140,10 +181,11 @@
 		// Search filter
 		if (itemSearchQuery) {
 			const q = itemSearchQuery.toLowerCase();
-			items = items.filter((item) =>
-				getItemTitle(item).toLowerCase().includes(q) ||
-				item.typeOfResource?.toLowerCase().includes(q) ||
-				item.language?.some((l) => languageName(l).toLowerCase().includes(q))
+			items = items.filter(
+				(item) =>
+					getItemTitle(item).toLowerCase().includes(q) ||
+					item.typeOfResource?.toLowerCase().includes(q) ||
+					item.language?.some((l) => languageName(l).toLowerCase().includes(q))
 			);
 		}
 
@@ -161,7 +203,11 @@
 				cmp = (a.typeOfResource || '').localeCompare(b.typeOfResource || '');
 			} else if (itemSortBy === 'date') {
 				const getTime = (item: CollectionItem) => {
-					const d = item.dateInfo?.issue?.start || item.dateInfo?.created?.start || item.dateInfo?.captured?.start || item.dateInfo?.other?.start;
+					const d =
+						item.dateInfo?.issue?.start ||
+						item.dateInfo?.created?.start ||
+						item.dateInfo?.captured?.start ||
+						item.dateInfo?.other?.start;
 					return d ? new Date(d).getTime() : 0;
 				};
 				cmp = getTime(a) - getTime(b);
@@ -179,7 +225,9 @@
 	// Pagination for collection items
 	const collectionPerPage = 10;
 	let collectionPage = $state(0);
-	let paginatedCollectionItems = $derived(paginate(filteredCollectionItems, collectionPage, collectionPerPage));
+	let paginatedCollectionItems = $derived(
+		paginate(filteredCollectionItems, collectionPage, collectionPerPage)
+	);
 
 	$effect(() => {
 		selectedId;
@@ -266,7 +314,7 @@
 
 	$effect(() => {
 		fetch(`${base}/data/manual/projectLinks.json`)
-			.then((r) => r.ok ? r.json() : [])
+			.then((r) => (r.ok ? r.json() : []))
 			.then((links: ProjectLink[]) => {
 				const map = new Map<string, string>();
 				links.forEach((l) => map.set(l.id, l.url));
@@ -279,7 +327,11 @@
 		return projectLinksMap.get(projectId);
 	}
 </script>
-<SEO title="Projects" description="Browse and explore research projects from the Africa Multiple Cluster of Excellence" />
+
+<SEO
+	title="Projects"
+	description="Browse and explore research projects from the Africa Multiple Cluster of Excellence"
+/>
 
 <div class="space-y-6">
 	<!-- Page Header -->
@@ -291,7 +343,10 @@
 	{#if selectedProject}
 		<!-- Project Detail View -->
 		<div class="space-y-6 animate-slide-in-up">
-			<button onclick={clearSelection} class="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors">
+			<button
+				onclick={clearSelection}
+				class="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
+			>
 				<ArrowLeft class="h-4 w-4" />
 				Back to projects
 			</button>
@@ -322,7 +377,10 @@
 										<span class="text-muted-foreground shrink-0">Research Section</span>
 										<span class="text-foreground">
 											{#each selectedProject.researchSection as section, i}
-												<a href={researchSectionsUrl(section)} class="hover:text-primary transition-colors">{section}</a>{#if i < selectedProject.researchSection.length - 1},&nbsp;{/if}
+												<a
+													href={researchSectionsUrl(section)}
+													class="hover:text-primary transition-colors">{section}</a
+												>{#if i < selectedProject.researchSection.length - 1},&nbsp;{/if}
 											{/each}
 										</span>
 									</div>
@@ -331,7 +389,11 @@
 									<div class="flex items-center gap-2">
 										<Calendar class="h-4 w-4 text-muted-foreground shrink-0" />
 										<span class="text-muted-foreground shrink-0">Duration</span>
-										<span class="text-foreground">{formatDate(selectedProject.date?.start)} – {formatDate(selectedProject.date?.end)}</span>
+										<span class="text-foreground"
+											>{formatDate(selectedProject.date?.start)} – {formatDate(
+												selectedProject.date?.end
+											)}</span
+										>
 									</div>
 								{/if}
 								<div class="flex items-center gap-2">
@@ -436,7 +498,8 @@
 										<a
 											href={personUrl(member)}
 											class="text-sm text-foreground hover:text-primary transition-colors truncate"
-										>{member}</a>
+											>{member}</a
+										>
 									{/each}
 								</div>
 							{/snippet}
@@ -465,7 +528,10 @@
 							{#snippet children()}
 								<div class="flex flex-wrap gap-2">
 									{#each selectedProject.institutions as institution}
-										<a href={institutionUrl(institution)} class="hover:opacity-80 transition-opacity">
+										<a
+											href={institutionUrl(institution)}
+											class="hover:opacity-80 transition-opacity"
+										>
 											<Badge variant="outline" class="hover:bg-primary/10 transition-colors">
 												{#snippet children()}{institution}{/snippet}
 											</Badge>
@@ -519,7 +585,8 @@
 											<FileText class="h-5 w-5 text-primary" />
 											Research Items
 											<Badge variant="secondary">
-												{#snippet children()}{filteredCollectionItems.length}{#if filteredCollectionItems.length !== projectCollectionItems.length} / {projectCollectionItems.length}{/if}{/snippet}
+												{#snippet children()}{filteredCollectionItems.length}{#if filteredCollectionItems.length !== projectCollectionItems.length}
+														/ {projectCollectionItems.length}{/if}{/snippet}
 											</Badge>
 										</span>
 									{/snippet}
@@ -531,8 +598,14 @@
 								<!-- Search & Filters -->
 								<div class="flex flex-col sm:flex-row gap-3 mb-4">
 									<div class="relative flex-1">
-										<Search class="absolute left-2.5 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
-										<Input placeholder="Search items..." bind:value={itemSearchQuery} class="pl-9" />
+										<Search
+											class="absolute left-2.5 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground"
+										/>
+										<Input
+											placeholder="Search items..."
+											bind:value={itemSearchQuery}
+											class="pl-9"
+										/>
 									</div>
 									<select
 										bind:value={itemTypeFilter}
@@ -551,19 +624,25 @@
 									<span>Sort by:</span>
 									<button
 										onclick={() => toggleSort('title')}
-										class="px-2 py-0.5 rounded transition-colors {itemSortBy === 'title' ? 'bg-primary/10 text-primary font-medium' : 'hover:bg-muted'}"
+										class="px-2 py-0.5 rounded transition-colors {itemSortBy === 'title'
+											? 'bg-primary/10 text-primary font-medium'
+											: 'hover:bg-muted'}"
 									>
 										Title {itemSortBy === 'title' ? (itemSortAsc ? '↑' : '↓') : ''}
 									</button>
 									<button
 										onclick={() => toggleSort('date')}
-										class="px-2 py-0.5 rounded transition-colors {itemSortBy === 'date' ? 'bg-primary/10 text-primary font-medium' : 'hover:bg-muted'}"
+										class="px-2 py-0.5 rounded transition-colors {itemSortBy === 'date'
+											? 'bg-primary/10 text-primary font-medium'
+											: 'hover:bg-muted'}"
 									>
 										Date {itemSortBy === 'date' ? (itemSortAsc ? '↑' : '↓') : ''}
 									</button>
 									<button
 										onclick={() => toggleSort('type')}
-										class="px-2 py-0.5 rounded transition-colors {itemSortBy === 'type' ? 'bg-primary/10 text-primary font-medium' : 'hover:bg-muted'}"
+										class="px-2 py-0.5 rounded transition-colors {itemSortBy === 'type'
+											? 'bg-primary/10 text-primary font-medium'
+											: 'hover:bg-muted'}"
 									>
 										Type {itemSortBy === 'type' ? (itemSortAsc ? '↑' : '↓') : ''}
 									</button>
@@ -583,7 +662,9 @@
 													>
 														{getItemTitle(item)}
 													</a>
-													<div class="flex flex-wrap gap-x-2 gap-y-0.5 mt-0.5 text-xs text-muted-foreground">
+													<div
+														class="flex flex-wrap gap-x-2 gap-y-0.5 mt-0.5 text-xs text-muted-foreground"
+													>
 														{#if item.typeOfResource}
 															<span>{item.typeOfResource}</span>
 														{/if}
@@ -602,7 +683,7 @@
 										currentPage={collectionPage}
 										totalItems={filteredCollectionItems.length}
 										itemsPerPage={collectionPerPage}
-										onPageChange={(p) => collectionPage = p}
+										onPageChange={(p) => (collectionPage = p)}
 									/>
 								{/if}
 							{/snippet}
@@ -738,10 +819,12 @@
 									<label class="text-sm font-medium mb-2 block">Research Section</label>
 									<div class="space-y-1">
 										{#each allResearchSections as section}
-										{@const isSelected = selectedResearchSections.includes(section)}
+											{@const isSelected = selectedResearchSections.includes(section)}
 											<button
 												onclick={() => toggleResearchSection(section)}
-												class="w-full text-left px-2 py-1.5 text-sm rounded hover:bg-muted transition-colors flex items-center justify-between gap-2 {isSelected ? 'bg-primary/10 text-primary' : ''}"
+												class="w-full text-left px-2 py-1.5 text-sm rounded hover:bg-muted transition-colors flex items-center justify-between gap-2 {isSelected
+													? 'bg-primary/10 text-primary'
+													: ''}"
 											>
 												<span class="flex items-center gap-1.5 truncate">
 													<span
@@ -762,10 +845,12 @@
 									<label class="text-sm font-medium mb-2 block">Institution</label>
 									<div class="space-y-1">
 										{#each allInstitutions as institution}
-										{@const isSelected = selectedInstitutions.includes(institution)}
+											{@const isSelected = selectedInstitutions.includes(institution)}
 											<button
 												onclick={() => toggleInstitution(institution)}
-												class="w-full text-left px-2 py-1.5 text-sm rounded hover:bg-muted transition-colors flex items-center justify-between gap-2 {isSelected ? 'bg-primary/10 text-primary' : ''}"
+												class="w-full text-left px-2 py-1.5 text-sm rounded hover:bg-muted transition-colors flex items-center justify-between gap-2 {isSelected
+													? 'bg-primary/10 text-primary'
+													: ''}"
 											>
 												<span class="truncate">{institution}</span>
 												{#if isSelected}
@@ -810,7 +895,10 @@
 													style="background-color: {getSectionColor(section)}"
 												></span>
 												{section}
-												<button onclick={() => toggleResearchSection(section)} class="hover:text-destructive">
+												<button
+													onclick={() => toggleResearchSection(section)}
+													class="hover:text-destructive"
+												>
 													<X class="h-3 w-3" />
 												</button>
 											{/snippet}
@@ -819,7 +907,10 @@
 									{#each selectedInstitutions as institution}
 										<Badge variant="outline" class="gap-1">
 											{institution}
-											<button onclick={() => toggleInstitution(institution)} class="hover:text-destructive">
+											<button
+												onclick={() => toggleInstitution(institution)}
+												class="hover:text-destructive"
+											>
 												<X class="h-3 w-3" />
 											</button>
 										</Badge>
@@ -833,7 +924,10 @@
 										<div class="flex items-start justify-between gap-4">
 											<div class="flex-1 min-w-0">
 												<div class="flex items-start gap-2">
-													<button onclick={() => selectProject(project)} class="font-medium text-left hover:text-primary transition-colors">
+													<button
+														onclick={() => selectProject(project)}
+														class="font-medium text-left hover:text-primary transition-colors"
+													>
 														{project.name}
 													</button>
 													{#if getProjectLink(project.id)}
@@ -849,18 +943,26 @@
 													{/if}
 												</div>
 												<p class="text-sm text-muted-foreground mt-1">
-													{project.id}{#if project.institutions?.length} • {project.institutions.join(', ')}{:else if project.locale} • {project.locale}{/if}
+													{project.id}{#if project.institutions?.length}
+														• {project.institutions.join(', ')}{:else if project.locale}
+														• {project.locale}{/if}
 												</p>
 												<div class="flex flex-wrap gap-2 mt-2">
 													{#each project.researchSection || [] as section}
-														<a href={researchSectionsUrl(section)} class="hover:opacity-80 transition-opacity">
+														<a
+															href={researchSectionsUrl(section)}
+															class="hover:opacity-80 transition-opacity"
+														>
 															<SectionBadge {section} />
 														</a>
 													{/each}
 												</div>
 												{#if project.pi && project.pi.length > 0}
 													<p class="text-sm text-muted-foreground mt-2">
-														PI: {#each project.pi as pi, i}{#if i > 0},&nbsp;{/if}<a href={personUrl(pi)} class="hover:text-primary transition-colors">{pi}</a>{/each}
+														PI: {#each project.pi as pi, i}{#if i > 0},&nbsp;{/if}<a
+																href={personUrl(pi)}
+																class="hover:text-primary transition-colors">{pi}</a
+															>{/each}
 													</p>
 												{/if}
 											</div>
@@ -881,7 +983,7 @@
 								{currentPage}
 								totalItems={filteredProjects.length}
 								{itemsPerPage}
-								onPageChange={(p) => currentPage = p}
+								onPageChange={(p) => (currentPage = p)}
 							/>
 						{/snippet}
 					</CardContent>

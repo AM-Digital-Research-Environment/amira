@@ -1,5 +1,18 @@
 <script lang="ts">
-	import { StatCard, ChartCard, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination, CollectionItemRow, BackToList, SEO } from '$lib/components/ui';
+	import {
+		StatCard,
+		ChartCard,
+		Card,
+		CardHeader,
+		CardTitle,
+		CardContent,
+		Badge,
+		Input,
+		Pagination,
+		CollectionItemRow,
+		BackToList,
+		SEO
+	} from '$lib/components/ui';
 	import { WordCloud } from '$lib/components/charts';
 	import { allCollections } from '$lib/stores/data';
 	import { page } from '$app/stores';
@@ -8,7 +21,11 @@
 	import { createSearchFilter } from '$lib/utils/search';
 	import { paginate } from '$lib/utils/pagination';
 	import { DEFAULT_ITEMS_PER_PAGE } from '$lib/utils/constants';
-	import { buildCategoryIndex, sortedCategoryList, categoryToChartData } from '$lib/utils/categoryIndex';
+	import {
+		buildCategoryIndex,
+		sortedCategoryList,
+		categoryToChartData
+	} from '$lib/utils/categoryIndex';
 	import type { CollectionItem, WordCloudDataPoint, CategoryEntry } from '$lib/types';
 	import { BookOpen, Tag, FileText } from '@lucide/svelte';
 	import { WissKILink } from '$lib/components/ui';
@@ -29,16 +46,20 @@
 	});
 
 	// Build subject index (LCSH controlled vocabulary)
-	let subjectMap = $derived(buildCategoryIndex($allCollections, (item) => {
-		if (!Array.isArray(item.subject)) return [];
-		return item.subject.map((s) => s.authLabel || s.origLabel).filter(Boolean) as string[];
-	}));
+	let subjectMap = $derived(
+		buildCategoryIndex($allCollections, (item) => {
+			if (!Array.isArray(item.subject)) return [];
+			return item.subject.map((s) => s.authLabel || s.origLabel).filter(Boolean) as string[];
+		})
+	);
 
 	// Build tag index (free-form keywords)
-	let tagMap = $derived(buildCategoryIndex($allCollections, (item) => {
-		if (!Array.isArray(item.tags)) return [];
-		return item.tags.filter(Boolean) as string[];
-	}));
+	let tagMap = $derived(
+		buildCategoryIndex($allCollections, (item) => {
+			if (!Array.isArray(item.tags)) return [];
+			return item.tags.filter(Boolean) as string[];
+		})
+	);
 
 	let subjectList = $derived(sortedCategoryList(subjectMap));
 	let tagList = $derived(sortedCategoryList(tagMap));
@@ -90,14 +111,16 @@
 		searchQuery = '';
 		goto(`?view=${mode}`, { noScroll: true });
 	}
-
 </script>
+
 <SEO title="Subjects and Tags" description="Browse research items by subject headings and tags" />
 
 <div class="space-y-8 animate-slide-in-up">
 	<div>
 		<h1 class="page-title">Subjects & Tags</h1>
-		<p class="page-subtitle">Browse research items by controlled subjects (LCSH) and free-form tags</p>
+		<p class="page-subtitle">
+			Browse research items by controlled subjects (LCSH) and free-form tags
+		</p>
 	</div>
 
 	<div class="grid gap-4 sm:grid-cols-3">
@@ -107,7 +130,11 @@
 	</div>
 
 	<!-- Word Cloud -->
-	<ChartCard title="{viewMode === 'subjects' ? 'Subject' : 'Tag'} Cloud" subtitle="Click on a word to view its associated items" contentHeight="h-chart-md">
+	<ChartCard
+		title="{viewMode === 'subjects' ? 'Subject' : 'Tag'} Cloud"
+		subtitle="Click on a word to view its associated items"
+		contentHeight="h-chart-md"
+	>
 		{#if wordCloudData.length > 0}
 			<WordCloud data={wordCloudData} onclick={(word) => selectTerm(word)} />
 		{/if}
@@ -139,13 +166,19 @@
 							<div class="flex rounded-lg border border-input overflow-hidden">
 								<button
 									onclick={() => switchView('subjects')}
-									class="flex-1 px-3 py-1.5 text-sm font-medium transition-colors {viewMode === 'subjects' ? 'bg-primary text-primary-foreground' : 'hover:bg-muted'}"
+									class="flex-1 px-3 py-1.5 text-sm font-medium transition-colors {viewMode ===
+									'subjects'
+										? 'bg-primary text-primary-foreground'
+										: 'hover:bg-muted'}"
 								>
 									Subjects
 								</button>
 								<button
 									onclick={() => switchView('tags')}
-									class="flex-1 px-3 py-1.5 text-sm font-medium transition-colors {viewMode === 'tags' ? 'bg-primary text-primary-foreground' : 'hover:bg-muted'}"
+									class="flex-1 px-3 py-1.5 text-sm font-medium transition-colors {viewMode ===
+									'tags'
+										? 'bg-primary text-primary-foreground'
+										: 'hover:bg-muted'}"
 								>
 									Tags
 								</button>
@@ -201,7 +234,9 @@
 											{#snippet children()}{viewMode === 'subjects' ? 'Subject' : 'Tag'}{/snippet}
 										</Badge>
 										<Badge variant="secondary">
-											{#snippet children()}{selectedTerm.count} item{selectedTerm.count !== 1 ? 's' : ''}{/snippet}
+											{#snippet children()}{selectedTerm.count} item{selectedTerm.count !== 1
+													? 's'
+													: ''}{/snippet}
 										</Badge>
 										{#if viewMode === 'subjects'}
 											<WissKILink category="subjects" entityKey={selectedTerm.name} />
@@ -243,7 +278,7 @@
 									currentPage={itemPage}
 									totalItems={selectedTerm.items.length}
 									{itemsPerPage}
-									onPageChange={(p) => itemPage = p}
+									onPageChange={(p) => (itemPage = p)}
 								/>
 							{/snippet}
 						</CardContent>
@@ -260,7 +295,9 @@
 									{:else}
 										<Tag class="h-12 w-12 text-muted-foreground/50 mb-4" />
 									{/if}
-									<p class="text-lg font-medium text-muted-foreground">Select a {viewMode === 'subjects' ? 'subject' : 'tag'}</p>
+									<p class="text-lg font-medium text-muted-foreground">
+										Select a {viewMode === 'subjects' ? 'subject' : 'tag'}
+									</p>
 									<p class="text-sm text-muted-foreground/70 mt-1">
 										Choose from the list to view associated research items
 									</p>

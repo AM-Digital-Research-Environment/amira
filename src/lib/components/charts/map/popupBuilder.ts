@@ -24,19 +24,24 @@ export function buildPopupHtml(
 	const endIdx = Math.min(startIdx + itemsPerPage, totalItems);
 	const pageItems = markerData.items.slice(startIdx, endIdx);
 
-	const itemsHtml = pageItems.length > 0
-		? `<ul class="popup-items-list">
-			${pageItems.map(item =>
-				`<li class="popup-item">
+	const itemsHtml =
+		pageItems.length > 0
+			? `<ul class="popup-items-list">
+			${pageItems
+				.map(
+					(item) =>
+						`<li class="popup-item">
 					<a href="${researchItemUrl(item.id)}" class="popup-item-link">${item.title.length > 45 ? item.title.substring(0, 45) + '...' : item.title}</a>
 					<span class="popup-item-type">(${item.type})</span>
 				</li>`
-			).join('')}
+				)
+				.join('')}
 		</ul>`
-		: '<p class="popup-no-items">No documents found</p>';
+			: '<p class="popup-no-items">No documents found</p>';
 
-	const paginationHtml = totalPages > 1
-		? `<div class="popup-pagination">
+	const paginationHtml =
+		totalPages > 1
+			? `<div class="popup-pagination">
 			<button class="popup-page-btn" data-marker-id="${markerData.id}" data-page="${page - 1}" ${page === 0 ? 'disabled' : ''}>
 				&larr; Prev
 			</button>
@@ -45,7 +50,7 @@ export function buildPopupHtml(
 				Next &rarr;
 			</button>
 		</div>`
-		: '';
+			: '';
 
 	return `
 		<div class="popup-container" data-marker-id="${markerData.id}">

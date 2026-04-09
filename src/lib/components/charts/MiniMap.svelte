@@ -28,9 +28,8 @@
 	function initializeMap() {
 		if (!mapContainer || map) return;
 
-		const center: [number, number] = markers.length === 1
-			? [markers[0].longitude, markers[0].latitude]
-			: [10, 20];
+		const center: [number, number] =
+			markers.length === 1 ? [markers[0].longitude, markers[0].latitude] : [10, 20];
 
 		const initialZoom = zoom ?? (markers.length === 1 ? 5 : 2);
 
@@ -69,10 +68,7 @@
 				.addTo(map!);
 
 			if (m.label) {
-				marker.setPopup(
-					new maplibregl.Popup({ offset: 12, closeButton: false })
-						.setText(m.label)
-				);
+				marker.setPopup(new maplibregl.Popup({ offset: 12, closeButton: false }).setText(m.label));
 			}
 
 			mapMarkers.push(marker);

@@ -44,7 +44,7 @@
 					}
 				: undefined,
 			tooltip: {
-			confine: true,
+				confine: true,
 				show: true,
 				formatter: (params: unknown) => {
 					const p = params as { name: string; value: number };

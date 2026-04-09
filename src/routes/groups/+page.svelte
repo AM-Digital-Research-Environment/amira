@@ -1,5 +1,17 @@
 <script lang="ts">
-	import { StatCard, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination, CollectionItemRow, BackToList, SEO } from '$lib/components/ui';
+	import {
+		StatCard,
+		Card,
+		CardHeader,
+		CardTitle,
+		CardContent,
+		Badge,
+		Input,
+		Pagination,
+		CollectionItemRow,
+		BackToList,
+		SEO
+	} from '$lib/components/ui';
 	import { allCollections, groups as groupsStore } from '$lib/stores/data';
 	import { page } from '$app/stores';
 	import { createUrlSelection, scrollToTop } from '$lib/utils/urlSelection';
@@ -55,8 +67,9 @@
 	});
 
 	let allGroups = $derived(
-		Array.from(groupMap.values())
-			.sort((a, b) => b.collectionItemCount - a.collectionItemCount || a.name.localeCompare(b.name))
+		Array.from(groupMap.values()).sort(
+			(a, b) => b.collectionItemCount - a.collectionItemCount || a.name.localeCompare(b.name)
+		)
 	);
 
 	let groupsWithItems = $derived(allGroups.filter((g) => g.collectionItemCount > 0));
@@ -90,7 +103,9 @@
 
 	const collectionPerPage = 10;
 	let collectionPage = $state(0);
-	let paginatedCollectionItems = $derived(paginate(groupCollectionItems, collectionPage, collectionPerPage));
+	let paginatedCollectionItems = $derived(
+		paginate(groupCollectionItems, collectionPage, collectionPerPage)
+	);
 
 	$effect(() => {
 		selectedName;
@@ -109,6 +124,7 @@
 		scrollToTop();
 	}
 </script>
+
 <SEO title="Groups" description="Browse groups featured in the research items" />
 
 <div class="space-y-8 animate-slide-in-up">
@@ -185,7 +201,10 @@
 									<div class="flex flex-wrap gap-2 mt-3">
 										{#if selectedGroup.collectionItemCount > 0}
 											<Badge variant="outline">
-												{#snippet children()}{selectedGroup.collectionItemCount} collection item{selectedGroup.collectionItemCount !== 1 ? 's' : ''}{/snippet}
+												{#snippet children()}{selectedGroup.collectionItemCount} collection item{selectedGroup.collectionItemCount !==
+													1
+														? 's'
+														: ''}{/snippet}
 											</Badge>
 										{/if}
 										<WissKILink category="groups" entityKey={selectedGroup.name} />
@@ -226,7 +245,7 @@
 										currentPage={collectionPage}
 										totalItems={groupCollectionItems.length}
 										itemsPerPage={collectionPerPage}
-										onPageChange={(p) => collectionPage = p}
+										onPageChange={(p) => (collectionPage = p)}
 									/>
 								{/snippet}
 							</CardContent>
@@ -245,7 +264,6 @@
 						{/snippet}
 					</Card>
 				{/if}
-
 			{:else}
 				<Card class="overflow-hidden">
 					{#snippet children()}

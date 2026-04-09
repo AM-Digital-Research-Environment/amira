@@ -36,7 +36,9 @@
 					<span class="text-xs text-muted-foreground">{item.typeOfResource}</span>
 				{/if}
 				{#if showProject && item.project?.name}
-					<span class="text-xs text-muted-foreground">{showType && item.typeOfResource ? '·' : ''} {item.project.name}</span>
+					<span class="text-xs text-muted-foreground"
+						>{showType && item.typeOfResource ? '·' : ''} {item.project.name}</span
+					>
 				{/if}
 			</div>
 		{/if}

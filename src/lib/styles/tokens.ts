@@ -36,7 +36,7 @@ export const CHART_COLORS = [
 	'#06b6d4', // Cyan
 	'#84cc16', // Lime
 	'#f97316', // Orange
-	'#6366f1'  // Indigo
+	'#6366f1' // Indigo
 ] as const;
 
 /**
@@ -53,7 +53,7 @@ export const CHART_COLORS_EXTENDED = [
 	'#64748b', // Slate
 	'#78716c', // Stone
 	'#0d9488', // Teal dark
-	'#7c3aed'  // Violet dark
+	'#7c3aed' // Violet dark
 ] as const;
 
 /**
@@ -64,7 +64,7 @@ export const CHART_COLORS_SIMPLE = [
 	'#10b981', // Emerald
 	'#f59e0b', // Amber
 	'#ef4444', // Red
-	'#8b5cf6'  // Purple
+	'#8b5cf6' // Purple
 ] as const;
 
 /* =============================================================================
@@ -74,10 +74,10 @@ export const CHART_COLORS_SIMPLE = [
    ============================================================================= */
 
 export const LOCATION_COLORS = {
-	city: CHART_COLORS[0],      // Blue — matches --location-city / --chart-1
-	region: CHART_COLORS[2],    // Amber — matches --location-region / --chart-3
-	country: CHART_COLORS[1],   // Emerald — matches --location-country / --chart-2
-	current: CHART_COLORS[4]    // Purple — matches --location-current / --chart-5
+	city: CHART_COLORS[0], // Blue — matches --location-city / --chart-1
+	region: CHART_COLORS[2], // Amber — matches --location-region / --chart-3
+	country: CHART_COLORS[1], // Emerald — matches --location-country / --chart-2
+	current: CHART_COLORS[4] // Purple — matches --location-current / --chart-5
 } as const;
 
 /**
@@ -85,11 +85,16 @@ export const LOCATION_COLORS = {
  */
 export function getLocationColor(type: string): string {
 	switch (type) {
-		case 'city': return LOCATION_COLORS.city;
-		case 'region': return LOCATION_COLORS.region;
-		case 'country': return LOCATION_COLORS.country;
-		case 'current': return LOCATION_COLORS.current;
-		default: return LOCATION_COLORS.current;
+		case 'city':
+			return LOCATION_COLORS.city;
+		case 'region':
+			return LOCATION_COLORS.region;
+		case 'country':
+			return LOCATION_COLORS.country;
+		case 'current':
+			return LOCATION_COLORS.current;
+		default:
+			return LOCATION_COLORS.current;
 	}
 }
 
@@ -100,71 +105,71 @@ export function getLocationColor(type: string): string {
 export const THEME_COLORS = {
 	light: {
 		// Surfaces (warm stone neutrals — "Scholarly Modernism")
-		background: '#fdfdfc',       // --color-neutral-0:  hsl(40, 20%, 99%)
-		foreground: '#221a16',       // --color-neutral-900: hsl(18, 22%, 11%)
-		card: '#fdfdfc',             // --color-neutral-0
-		cardForeground: '#221a16',   // --color-neutral-900
-		popover: '#fdfdfc',          // --color-neutral-0
-		popoverForeground: '#221a16',// --color-neutral-900
+		background: '#fdfdfc', // --color-neutral-0:  hsl(40, 20%, 99%)
+		foreground: '#221a16', // --color-neutral-900: hsl(18, 22%, 11%)
+		card: '#fdfdfc', // --color-neutral-0
+		cardForeground: '#221a16', // --color-neutral-900
+		popover: '#fdfdfc', // --color-neutral-0
+		popoverForeground: '#221a16', // --color-neutral-900
 
 		// Semantic (deep viridian/teal primary, copper accent)
-		primary: '#22817b',          // --color-primary-600: hsl(176, 58%, 32%)
-		primaryForeground: '#f9f8f6',// --color-neutral-50:  hsl(40, 18%, 97%)
-		secondary: '#f2f0ee',        // --color-neutral-100: hsl(36, 14%, 94%)
-		secondaryForeground: '#302621',// --color-neutral-800: hsl(20, 18%, 16%)
-		muted: '#f2f0ee',            // --color-neutral-100
-		mutedForeground: '#766960',  // --color-neutral-500: hsl(25, 10%, 42%)
-		accent: '#f9e8d2',           // --color-accent-100:  hsl(34, 78%, 90%)
+		primary: '#22817b', // --color-primary-600: hsl(176, 58%, 32%)
+		primaryForeground: '#f9f8f6', // --color-neutral-50:  hsl(40, 18%, 97%)
+		secondary: '#f2f0ee', // --color-neutral-100: hsl(36, 14%, 94%)
+		secondaryForeground: '#302621', // --color-neutral-800: hsl(20, 18%, 16%)
+		muted: '#f2f0ee', // --color-neutral-100
+		mutedForeground: '#766960', // --color-neutral-500: hsl(25, 10%, 42%)
+		accent: '#f9e8d2', // --color-accent-100:  hsl(34, 78%, 90%)
 		accentForeground: '#65230b', // --color-accent-800:  hsl(16, 80%, 22%)
-		destructive: '#f43e5c',      // --color-danger-500:  hsl(350, 89%, 60%)
-		destructiveForeground: '#f9f8f6',// --color-neutral-50
+		destructive: '#f43e5c', // --color-danger-500:  hsl(350, 89%, 60%)
+		destructiveForeground: '#f9f8f6', // --color-neutral-50
 
 		// UI Elements
-		border: '#e4e1dd',           // --color-neutral-200: hsl(34, 12%, 88%)
-		input: '#e4e1dd',            // --color-neutral-200
-		ring: '#2f9389',             // --color-primary-500: hsl(174, 52%, 38%)
+		border: '#e4e1dd', // --color-neutral-200: hsl(34, 12%, 88%)
+		input: '#e4e1dd', // --color-neutral-200
+		ring: '#2f9389', // --color-primary-500: hsl(174, 52%, 38%)
 
 		// Chart specific
-		chartText: '#463b35',        // --color-neutral-700: hsl(22, 14%, 24%)
-		chartTextMuted: '#766960',   // --color-neutral-500: hsl(25, 10%, 42%)
-		chartAxis: '#938980',        // --color-neutral-400: hsl(28, 8%, 54%)
-		chartGrid: '#e4e1dd',        // --color-neutral-200
+		chartText: '#463b35', // --color-neutral-700: hsl(22, 14%, 24%)
+		chartTextMuted: '#766960', // --color-neutral-500: hsl(25, 10%, 42%)
+		chartAxis: '#938980', // --color-neutral-400: hsl(28, 8%, 54%)
+		chartGrid: '#e4e1dd', // --color-neutral-200
 		chartTooltipBg: 'rgba(253, 253, 252, 0.95)', // --color-neutral-0 with alpha
-		chartTooltipBorder: '#e4e1dd'// --color-neutral-200
+		chartTooltipBorder: '#e4e1dd' // --color-neutral-200
 	},
 	dark: {
 		// Surfaces (dark warm stone)
-		background: '#140d0b',       // --color-neutral-950: hsl(16, 30%, 6%)
-		foreground: '#f2f0ee',       // --color-neutral-100: hsl(36, 14%, 94%)
-		card: '#221a16',             // --color-neutral-900: hsl(18, 22%, 11%)
-		cardForeground: '#f2f0ee',   // --color-neutral-100
-		popover: '#221a16',          // --color-neutral-900
-		popoverForeground: '#f2f0ee',// --color-neutral-100
+		background: '#140d0b', // --color-neutral-950: hsl(16, 30%, 6%)
+		foreground: '#f2f0ee', // --color-neutral-100: hsl(36, 14%, 94%)
+		card: '#221a16', // --color-neutral-900: hsl(18, 22%, 11%)
+		cardForeground: '#f2f0ee', // --color-neutral-100
+		popover: '#221a16', // --color-neutral-900
+		popoverForeground: '#f2f0ee', // --color-neutral-100
 
 		// Semantic
-		primary: '#4ab5ae',          // --color-primary-400: hsl(176, 42%, 50%)
-		primaryForeground: '#140d0b',// --color-neutral-950
-		secondary: '#302621',        // --color-neutral-800: hsl(20, 18%, 16%)
-		secondaryForeground: '#f2f0ee',// --color-neutral-100
-		muted: '#302621',            // --color-neutral-800
-		mutedForeground: '#938980',  // --color-neutral-400: hsl(28, 8%, 54%)
-		accent: '#541a08',           // --color-accent-900:  hsl(14, 82%, 18%)
+		primary: '#4ab5ae', // --color-primary-400: hsl(176, 42%, 50%)
+		primaryForeground: '#140d0b', // --color-neutral-950
+		secondary: '#302621', // --color-neutral-800: hsl(20, 18%, 16%)
+		secondaryForeground: '#f2f0ee', // --color-neutral-100
+		muted: '#302621', // --color-neutral-800
+		mutedForeground: '#938980', // --color-neutral-400: hsl(28, 8%, 54%)
+		accent: '#541a08', // --color-accent-900:  hsl(14, 82%, 18%)
 		accentForeground: '#f2cfa6', // --color-accent-200:  hsl(32, 74%, 80%)
-		destructive: '#e21d48',      // --color-danger-600:  hsl(347, 77%, 50%)
-		destructiveForeground: '#f9f8f6',// --color-neutral-50
+		destructive: '#e21d48', // --color-danger-600:  hsl(347, 77%, 50%)
+		destructiveForeground: '#f9f8f6', // --color-neutral-50
 
 		// UI Elements
-		border: '#302621',           // --color-neutral-800
-		input: '#302621',            // --color-neutral-800
-		ring: '#2f9389',             // --color-primary-500
+		border: '#302621', // --color-neutral-800
+		input: '#302621', // --color-neutral-800
+		ring: '#2f9389', // --color-primary-500
 
 		// Chart specific
-		chartText: '#e4e1dd',        // --color-neutral-200
-		chartTextMuted: '#c8c2bc',   // --color-neutral-300: hsl(32, 10%, 76%)
-		chartAxis: '#766960',        // --color-neutral-500: hsl(25, 10%, 42%)
-		chartGrid: '#302621',        // --color-neutral-800
+		chartText: '#e4e1dd', // --color-neutral-200
+		chartTextMuted: '#c8c2bc', // --color-neutral-300: hsl(32, 10%, 76%)
+		chartAxis: '#766960', // --color-neutral-500: hsl(25, 10%, 42%)
+		chartGrid: '#302621', // --color-neutral-800
 		chartTooltipBg: 'rgba(34, 26, 22, 0.95)', // --color-neutral-900 with alpha
-		chartTooltipBorder: '#463b35'// --color-neutral-700
+		chartTooltipBorder: '#463b35' // --color-neutral-700
 	}
 } as const;
 

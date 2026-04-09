@@ -130,7 +130,13 @@
 				<NetworkGraph
 					data={graphData}
 					onclick={handleNodeClick}
-					forceConfig={{ repulsion: 300, gravity: 0.05, edgeLength: [100, 250], friction: 0.3, layoutAnimation: false }}
+					forceConfig={{
+						repulsion: 300,
+						gravity: 0.05,
+						edgeLength: [100, 250],
+						friction: 0.3,
+						layoutAnimation: false
+					}}
 					class="w-full h-full"
 				/>
 			{/if}
@@ -181,7 +187,13 @@
 						<NetworkGraph
 							data={graphData}
 							onclick={handleNodeClick}
-							forceConfig={{ repulsion: 200, gravity: 0.08, edgeLength: [80, 200], friction: 0.3, layoutAnimation: false }}
+							forceConfig={{
+								repulsion: 200,
+								gravity: 0.08,
+								edgeLength: [80, 200],
+								friction: 0.3,
+								layoutAnimation: false
+							}}
 							class="w-full h-full"
 						/>
 					</div>

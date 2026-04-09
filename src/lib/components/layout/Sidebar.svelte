@@ -2,7 +2,26 @@
 	import { cn } from '$lib/utils/cn';
 	import { page } from '$app/stores';
 	import { base } from '$app/paths';
-	import { Layers, ChevronsLeft, X, Home, Folder, BarChart3, Briefcase, Share2, BookOpen, Users, FileText, Building2, UsersRound, MapPin, Languages, Tag, BookType, Sparkles } from '@lucide/svelte';
+	import {
+		Layers,
+		ChevronsLeft,
+		X,
+		Home,
+		Folder,
+		BarChart3,
+		Briefcase,
+		Share2,
+		BookOpen,
+		Users,
+		FileText,
+		Building2,
+		UsersRound,
+		MapPin,
+		Languages,
+		Tag,
+		BookType,
+		Sparkles
+	} from '@lucide/svelte';
 	import type { Component } from 'svelte';
 
 	interface Props {
@@ -12,12 +31,7 @@
 		onToggleCollapse?: () => void;
 	}
 
-	let {
-		isOpen = false,
-		isCollapsed = false,
-		onClose,
-		onToggleCollapse
-	}: Props = $props();
+	let { isOpen = false, isCollapsed = false, onClose, onToggleCollapse }: Props = $props();
 
 	interface NavGroup {
 		label: string;
@@ -79,19 +93,12 @@
 ></button>
 
 <!-- Sidebar wrapper for layout spacing -->
-<div
-	class="sidebar-wrapper hidden lg:block"
-	data-collapsed={isCollapsed}
->
+<div class="sidebar-wrapper hidden lg:block" data-collapsed={isCollapsed}>
 	<!-- This div takes up space in the layout -->
 </div>
 
 <!-- Sidebar -->
-<aside
-	class="sidebar"
-	data-collapsed={isCollapsed}
-	data-open={isOpen}
->
+<aside class="sidebar" data-collapsed={isCollapsed} data-open={isOpen}>
 	<!-- Header -->
 	<div class="sidebar-header">
 		<a href="{base}/" class="sidebar-logo">

@@ -71,9 +71,7 @@
 			.map((g) => ({
 				...g,
 				options: g.options.filter(
-					(o) =>
-						o.label.toLowerCase().includes(q) ||
-						(o.title && o.title.toLowerCase().includes(q))
+					(o) => o.label.toLowerCase().includes(q) || (o.title && o.title.toLowerCase().includes(q))
 				)
 			}))
 			.filter((g) => g.options.length > 0);
@@ -179,9 +177,7 @@
 							}}
 							title={option.title || option.label}
 							class="w-full text-left px-3 py-2 text-sm cursor-pointer transition-colors truncate
-								{option.value === value
-								? 'bg-primary/10 text-primary font-medium'
-								: ''}
+								{option.value === value ? 'bg-primary/10 text-primary font-medium' : ''}
 								{i === highlightIndex ? 'bg-muted' : 'hover:bg-muted'}"
 						>
 							{option.label}
@@ -204,9 +200,7 @@
 							}}
 							title={option.title || option.label}
 							class="w-full text-left px-3 py-2 text-sm cursor-pointer transition-colors truncate
-								{option.value === value
-								? 'bg-primary/10 text-primary font-medium'
-								: ''}
+								{option.value === value ? 'bg-primary/10 text-primary font-medium' : ''}
 								{flatIndex === highlightIndex ? 'bg-muted' : 'hover:bg-muted'}"
 						>
 							{option.label}
@@ -223,9 +217,7 @@
 						}}
 						title={option.title || option.label}
 						class="w-full text-left px-3 py-2 text-sm cursor-pointer transition-colors truncate
-							{option.value === value
-							? 'bg-primary/10 text-primary font-medium'
-							: ''}
+							{option.value === value ? 'bg-primary/10 text-primary font-medium' : ''}
 							{i === highlightIndex ? 'bg-muted' : 'hover:bg-muted'}"
 					>
 						{option.label}

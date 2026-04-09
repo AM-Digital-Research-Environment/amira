@@ -1,5 +1,18 @@
 <script lang="ts">
-	import { StatCard, ChartCard, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination, BackToList, CollectionItemRow, SEO } from '$lib/components/ui';
+	import {
+		StatCard,
+		ChartCard,
+		Card,
+		CardHeader,
+		CardTitle,
+		CardContent,
+		Badge,
+		Input,
+		Pagination,
+		BackToList,
+		CollectionItemRow,
+		SEO
+	} from '$lib/components/ui';
 	import { BarChart } from '$lib/components/charts';
 	import { allCollections } from '$lib/stores/data';
 	import { page } from '$app/stores';
@@ -7,7 +20,11 @@
 	import { createSearchFilter } from '$lib/utils/search';
 	import { paginate } from '$lib/utils/pagination';
 	import { DEFAULT_ITEMS_PER_PAGE } from '$lib/utils/constants';
-	import { buildCategoryIndex, sortedCategoryList, categoryToChartData } from '$lib/utils/categoryIndex';
+	import {
+		buildCategoryIndex,
+		sortedCategoryList,
+		categoryToChartData
+	} from '$lib/utils/categoryIndex';
 	import type { CollectionItem } from '$lib/types';
 	import { BookType, FileText } from '@lucide/svelte';
 	import { WissKILink } from '$lib/components/ui';
@@ -76,6 +93,7 @@
 		urlSelection.removeFromUrl();
 	}
 </script>
+
 <SEO title="Genres" description="Browse research items by genre classification" />
 
 <div class="space-y-8 animate-slide-in-up">
@@ -118,10 +136,7 @@
 				</CardHeader>
 				<CardContent>
 					{#snippet children()}
-						<Input
-							placeholder="Search genres..."
-							bind:value={searchQuery}
-						/>
+						<Input placeholder="Search genres..." bind:value={searchQuery} />
 						<div class="space-y-0.5 mt-3 max-h-list-scroll overflow-y-auto">
 							{#each filteredGenres as genre}
 								{@const isSelected = selectedGenre === genre.name}
@@ -162,10 +177,16 @@
 									</div>
 									<div class="flex flex-wrap gap-2 mt-3">
 										<Badge variant="secondary">
-											{#snippet children()}{selectedGenreData.count} item{selectedGenreData.count !== 1 ? 's' : ''}{/snippet}
+											{#snippet children()}{selectedGenreData.count} item{selectedGenreData.count !==
+												1
+													? 's'
+													: ''}{/snippet}
 										</Badge>
 										<Badge variant="outline">
-											{#snippet children()}{(selectedGenreData.count / $allCollections.length * 100).toFixed(1)}% of total{/snippet}
+											{#snippet children()}{(
+													(selectedGenreData.count / $allCollections.length) *
+													100
+												).toFixed(1)}% of total{/snippet}
 										</Badge>
 										<WissKILink category="genres" entityKey={selectedGenreData.name} />
 									</div>
@@ -203,7 +224,7 @@
 									currentPage={itemPage}
 									totalItems={selectedGenreData.items.length}
 									{itemsPerPage}
-									onPageChange={(p) => itemPage = p}
+									onPageChange={(p) => (itemPage = p)}
 								/>
 							{/snippet}
 						</CardContent>

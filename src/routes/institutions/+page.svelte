@@ -1,5 +1,18 @@
 <script lang="ts">
-	import { StatCard, Card, CardHeader, CardTitle, CardContent, Badge, Input, Pagination, CollectionItemRow, BackToList, SEO, SectionBadge } from '$lib/components/ui';
+	import {
+		StatCard,
+		Card,
+		CardHeader,
+		CardTitle,
+		CardContent,
+		Badge,
+		Input,
+		Pagination,
+		CollectionItemRow,
+		BackToList,
+		SEO,
+		SectionBadge
+	} from '$lib/components/ui';
 	import { projects, allCollections, persons, universitiesData } from '$lib/stores/data';
 	import { page } from '$app/stores';
 	import { personUrl, projectUrl, researchSectionsUrl } from '$lib/utils/urls';
@@ -37,7 +50,13 @@
 
 		const getOrCreate = (name: string): InstitutionData => {
 			if (!map.has(name)) {
-				map.set(name, { name, projects: [], people: new Set(), collectionItemCount: 0, isPartner: false });
+				map.set(name, {
+					name,
+					projects: [],
+					people: new Set(),
+					collectionItemCount: 0,
+					isPartner: false
+				});
 			}
 			return map.get(name)!;
 		};
@@ -48,9 +67,13 @@
 				const inst = getOrCreate(instName);
 				inst.isPartner = true;
 				inst.projects.push(p);
-				(p.pi || []).forEach((pi) => { if (typeof pi === 'string') inst.people.add(pi); });
+				(p.pi || []).forEach((pi) => {
+					if (typeof pi === 'string') inst.people.add(pi);
+				});
 				if (Array.isArray(p.members)) {
-					p.members.forEach((m) => { if (typeof m === 'string') inst.people.add(m); });
+					p.members.forEach((m) => {
+						if (typeof m === 'string') inst.people.add(m);
+					});
 				}
 			});
 		});
@@ -122,7 +145,9 @@
 
 	let filteredContributor = $derived(searchInstitutions(contributorInstitutions, searchQuery));
 
-	let selectedInstitution = $derived(selectedName ? institutionMap.get(selectedName) || null : null);
+	let selectedInstitution = $derived(
+		selectedName ? institutionMap.get(selectedName) || null : null
+	);
 
 	// Collection items for selected institution (via project association OR contributor name)
 	let institutionCollectionItems = $derived.by((): CollectionItem[] => {
@@ -135,9 +160,9 @@
 			const id = item._id || item.dre_id;
 			if (seen.has(id)) return;
 			const byProject = projectIds.has(item.project?.id || '');
-			const byContributor = Array.isArray(item.name) && item.name.some(
-				(n) => n?.name?.label === name && n?.name?.qualifier === 'institution'
-			);
+			const byContributor =
+				Array.isArray(item.name) &&
+				item.name.some((n) => n?.name?.label === name && n?.name?.qualifier === 'institution');
 			if (byProject || byContributor) {
 				seen.add(id);
 				results.push(item);
@@ -148,7 +173,9 @@
 
 	const collectionPerPage = 10;
 	let collectionPage = $state(0);
-	let paginatedCollectionItems = $derived(paginate(institutionCollectionItems, collectionPage, collectionPerPage));
+	let paginatedCollectionItems = $derived(
+		paginate(institutionCollectionItems, collectionPage, collectionPerPage)
+	);
 
 	$effect(() => {
 		selectedName;
@@ -166,20 +193,29 @@
 		urlSelection.removeFromUrl();
 		scrollToTop();
 	}
-
 </script>
-<SEO title="Institutions" description="Browse partner institutions and their associated projects, researchers, and research items" />
+
+<SEO
+	title="Institutions"
+	description="Browse partner institutions and their associated projects, researchers, and research items"
+/>
 
 <div class="space-y-8 animate-slide-in-up">
 	<div>
 		<h1 class="page-title">Institutions</h1>
-		<p class="page-subtitle">Browse partner institutions and their associated projects, researchers, and research items</p>
+		<p class="page-subtitle">
+			Browse partner institutions and their associated projects, researchers, and research items
+		</p>
 	</div>
 
 	<div class="grid gap-4 sm:grid-cols-3">
 		<StatCard label="Partner Institutions" value={partnerInstitutions.length} icon={Building2} />
 		<StatCard label="Contributor Orgs" value={contributorInstitutions.length} icon={Building2} />
-		<StatCard label="Total People" value={new Set(institutions.flatMap((i) => [...i.people])).size} icon={Users} />
+		<StatCard
+			label="Total People"
+			value={new Set(institutions.flatMap((i) => [...i.people])).size}
+			icon={Users}
+		/>
 	</div>
 
 	<!-- University Breakdown Cards -->
@@ -190,9 +226,13 @@
 					<div class="min-w-0 flex-1">
 						<p class="text-sm font-medium text-muted-foreground">{uniData.university.code}</p>
 						<p class="stat-value mt-2">{uniData.count}</p>
-						<p class="stat-label truncate" title={uniData.university.name}>{uniData.university.name}</p>
+						<p class="stat-label truncate" title={uniData.university.name}>
+							{uniData.university.name}
+						</p>
 					</div>
-					<div class="size-9 sm:size-10 rounded-lg bg-white flex items-center justify-center p-1.5 shadow-sm flex-shrink-0">
+					<div
+						class="size-9 sm:size-10 rounded-lg bg-white flex items-center justify-center p-1.5 shadow-sm flex-shrink-0"
+					>
 						<img
 							src="{base}/{uniData.university.logo}"
 							alt="{uniData.university.name} logo"
@@ -216,7 +256,8 @@
 								<span class="flex items-center justify-between">
 									Institutions
 									<Badge variant="secondary">
-										{#snippet children()}{filteredPartner.length + filteredContributor.length}{/snippet}
+										{#snippet children()}{filteredPartner.length +
+												filteredContributor.length}{/snippet}
 									</Badge>
 								</span>
 							{/snippet}
@@ -229,7 +270,11 @@
 							<Input placeholder="Search institutions..." bind:value={searchQuery} />
 							<div class="space-y-1 max-h-list-scroll overflow-y-auto">
 								{#if filteredPartner.length > 0}
-									<p class="text-xs font-semibold text-muted-foreground uppercase tracking-wider px-3 pt-1 pb-1">Partner Institutions</p>
+									<p
+										class="text-xs font-semibold text-muted-foreground uppercase tracking-wider px-3 pt-1 pb-1"
+									>
+										Partner Institutions
+									</p>
 									{#each filteredPartner as inst}
 										{@const isSelected = selectedName === inst.name}
 										<button
@@ -238,15 +283,25 @@
 										>
 											<span class="break-words">{inst.name}</span>
 											<span class="flex items-center gap-2 mt-0.5">
-												<span class="text-xs text-muted-foreground">{inst.projects.length} project{inst.projects.length !== 1 ? 's' : ''}</span>
-												<span class="text-xs text-muted-foreground">· {inst.people.size} people</span>
+												<span class="text-xs text-muted-foreground"
+													>{inst.projects.length} project{inst.projects.length !== 1
+														? 's'
+														: ''}</span
+												>
+												<span class="text-xs text-muted-foreground"
+													>· {inst.people.size} people</span
+												>
 											</span>
 										</button>
 									{/each}
 								{/if}
 
 								{#if filteredContributor.length > 0}
-									<p class="text-xs font-semibold text-muted-foreground uppercase tracking-wider px-3 pt-3 pb-1 border-t border-border mt-2">Contributor Organizations</p>
+									<p
+										class="text-xs font-semibold text-muted-foreground uppercase tracking-wider px-3 pt-3 pb-1 border-t border-border mt-2"
+									>
+										Contributor Organizations
+									</p>
 									{#each filteredContributor as inst}
 										{@const isSelected = selectedName === inst.name}
 										<button
@@ -281,14 +336,20 @@
 									</CardTitle>
 									<div class="flex flex-wrap gap-2 mt-3">
 										<Badge variant="secondary">
-											{#snippet children()}{selectedInstitution.projects.length} project{selectedInstitution.projects.length !== 1 ? 's' : ''}{/snippet}
+											{#snippet children()}{selectedInstitution.projects.length} project{selectedInstitution
+													.projects.length !== 1
+													? 's'
+													: ''}{/snippet}
 										</Badge>
 										<Badge variant="secondary">
 											{#snippet children()}{selectedInstitution.people.size} people{/snippet}
 										</Badge>
 										{#if selectedInstitution.collectionItemCount > 0}
 											<Badge variant="outline">
-												{#snippet children()}{selectedInstitution.collectionItemCount} collection item{selectedInstitution.collectionItemCount !== 1 ? 's' : ''}{/snippet}
+												{#snippet children()}{selectedInstitution.collectionItemCount} collection item{selectedInstitution.collectionItemCount !==
+													1
+														? 's'
+														: ''}{/snippet}
 											</Badge>
 										{/if}
 										<WissKILink category="institutions" entityKey={selectedInstitution.name} />
@@ -328,18 +389,24 @@
 												</a>
 												<div class="flex flex-wrap items-center gap-2 mt-1">
 													{#if project.idShort}
-														<span class="text-xs text-muted-foreground font-mono">{project.id}</span>
+														<span class="text-xs text-muted-foreground font-mono">{project.id}</span
+														>
 													{/if}
 													{#if project.date?.start || project.date?.end}
 														<span class="text-xs text-muted-foreground">
-															{formatDate(project.date.start)}{project.date.end ? ` – ${formatDate(project.date.end)}` : ''}
+															{formatDate(project.date.start)}{project.date.end
+																? ` – ${formatDate(project.date.end)}`
+																: ''}
 														</span>
 													{/if}
 												</div>
 												{#if project.researchSection?.length}
 													<div class="flex flex-wrap gap-1 mt-1.5">
 														{#each project.researchSection as section}
-															<a href={researchSectionsUrl(section)} class="hover:opacity-80 transition-opacity">
+															<a
+																href={researchSectionsUrl(section)}
+																class="hover:opacity-80 transition-opacity"
+															>
 																<SectionBadge {section} small />
 															</a>
 														{/each}
@@ -347,7 +414,10 @@
 												{/if}
 												{#if project.pi?.length}
 													<p class="text-xs text-muted-foreground mt-1.5">
-														PI: {#each project.pi as pi, i}{#if i > 0},&nbsp;{/if}<a href={personUrl(pi)} class="hover:text-primary transition-colors">{pi}</a>{/each}
+														PI: {#each project.pi as pi, i}{#if i > 0},&nbsp;{/if}<a
+																href={personUrl(pi)}
+																class="hover:text-primary transition-colors">{pi}</a
+															>{/each}
 													</p>
 												{/if}
 											</li>
@@ -426,14 +496,13 @@
 										currentPage={collectionPage}
 										totalItems={institutionCollectionItems.length}
 										itemsPerPage={collectionPerPage}
-										onPageChange={(p) => collectionPage = p}
+										onPageChange={(p) => (collectionPage = p)}
 									/>
 								{/snippet}
 							</CardContent>
 						{/snippet}
 					</Card>
 				{/if}
-
 			{:else}
 				<Card class="overflow-hidden">
 					{#snippet children()}
@@ -443,7 +512,8 @@
 									<Building2 class="h-12 w-12 text-muted-foreground/50 mb-4" />
 									<p class="text-lg font-medium text-muted-foreground">Select an institution</p>
 									<p class="text-sm text-muted-foreground/70 mt-1">
-										Choose an institution from the list to view its projects, people, and research items
+										Choose an institution from the list to view its projects, people, and research
+										items
 									</p>
 								</div>
 							{/snippet}

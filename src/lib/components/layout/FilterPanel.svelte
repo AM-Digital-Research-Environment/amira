@@ -41,7 +41,7 @@
 					{#snippet children()}Clear{/snippet}
 				</Button>
 			{/if}
-			<Button variant="ghost" size="sm" onclick={() => isExpanded = !isExpanded}>
+			<Button variant="ghost" size="sm" onclick={() => (isExpanded = !isExpanded)}>
 				{#snippet children()}
 					{isExpanded ? 'Collapse' : 'Expand'}
 				{/snippet}

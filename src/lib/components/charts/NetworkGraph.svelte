@@ -12,7 +12,13 @@
 		title?: string;
 		class?: string;
 		onclick?: (id: string, category: number) => void;
-		forceConfig?: { repulsion?: number; gravity?: number; edgeLength?: [number, number]; friction?: number; layoutAnimation?: boolean };
+		forceConfig?: {
+			repulsion?: number;
+			gravity?: number;
+			edgeLength?: [number, number];
+			friction?: number;
+			layoutAnimation?: boolean;
+		};
 	}
 
 	let { data, title = '', class: className = '', onclick, forceConfig }: Props = $props();
@@ -27,14 +33,17 @@
 		const d = params.data as { name?: string; category?: number };
 		const name = d?.name || (params.name as string) || '';
 		const catIdx = d?.category ?? -1;
-		const catName = catIdx >= 0 && catIdx < data.categories.length ? data.categories[catIdx].name : '';
+		const catName =
+			catIdx >= 0 && catIdx < data.categories.length ? data.categories[catIdx].name : '';
 		if (catName) return `<b>${catName}</b><br/>${name}`;
 		return name;
 	}
 
 	let isDark = $derived($theme === 'dark');
 	let labelColor = $derived(isDark ? THEME_COLORS.dark.chartText : THEME_COLORS.light.chartText);
-	let legendColor = $derived(isDark ? THEME_COLORS.dark.chartTextMuted : THEME_COLORS.light.chartTextMuted);
+	let legendColor = $derived(
+		isDark ? THEME_COLORS.dark.chartTextMuted : THEME_COLORS.light.chartTextMuted
+	);
 
 	let option: EChartsOption = $derived({
 		...buildTitle(title),

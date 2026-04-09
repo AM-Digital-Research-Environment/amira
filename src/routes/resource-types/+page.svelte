@@ -1,12 +1,28 @@
 <script lang="ts">
-	import { StatCard, ChartCard, Card, CardHeader, CardTitle, CardContent, Badge, Pagination, BackToList, CollectionItemRow, SEO } from '$lib/components/ui';
+	import {
+		StatCard,
+		ChartCard,
+		Card,
+		CardHeader,
+		CardTitle,
+		CardContent,
+		Badge,
+		Pagination,
+		BackToList,
+		CollectionItemRow,
+		SEO
+	} from '$lib/components/ui';
 	import { PieChart, BarChart } from '$lib/components/charts';
 	import { allCollections } from '$lib/stores/data';
 	import { page } from '$app/stores';
 	import { createUrlSelection, scrollToElement } from '$lib/utils/urlSelection';
 	import { paginate } from '$lib/utils/pagination';
 	import { DEFAULT_ITEMS_PER_PAGE } from '$lib/utils/constants';
-	import { buildCategoryIndex, sortedCategoryList, categoryToChartData } from '$lib/utils/categoryIndex';
+	import {
+		buildCategoryIndex,
+		sortedCategoryList,
+		categoryToChartData
+	} from '$lib/utils/categoryIndex';
 	import type { CollectionItem } from '$lib/types';
 	import { FileText, Layers } from '@lucide/svelte';
 	import { WissKILink } from '$lib/components/ui';
@@ -22,7 +38,9 @@
 	});
 
 	// Build resource type index
-	let typeMap = $derived(buildCategoryIndex($allCollections, (item) => [item.typeOfResource || 'Unknown']));
+	let typeMap = $derived(
+		buildCategoryIndex($allCollections, (item) => [item.typeOfResource || 'Unknown'])
+	);
 
 	let types = $derived(sortedCategoryList(typeMap));
 
@@ -57,8 +75,8 @@
 		selectedType = '';
 		urlSelection.removeFromUrl();
 	}
-
 </script>
+
 <SEO title="Resource Types" description="Browse research items organized by resource type" />
 
 <div class="space-y-8 animate-slide-in-up">
@@ -75,7 +93,11 @@
 
 	<!-- Charts -->
 	<div class="grid gap-6 md:grid-cols-2">
-		<ChartCard title="Distribution" subtitle="Click a segment to view items" contentHeight="h-chart-md">
+		<ChartCard
+			title="Distribution"
+			subtitle="Click a segment to view items"
+			contentHeight="h-chart-md"
+		>
 			{#if pieData.length > 0}
 				<PieChart data={pieData} onclick={(name) => selectType(name)} />
 			{/if}
@@ -145,10 +167,16 @@
 									</div>
 									<div class="flex flex-wrap gap-2 mt-3">
 										<Badge variant="secondary">
-											{#snippet children()}{selectedTypeData.count} item{selectedTypeData.count !== 1 ? 's' : ''}{/snippet}
+											{#snippet children()}{selectedTypeData.count} item{selectedTypeData.count !==
+												1
+													? 's'
+													: ''}{/snippet}
 										</Badge>
 										<Badge variant="outline">
-											{#snippet children()}{(selectedTypeData.count / $allCollections.length * 100).toFixed(1)}% of total{/snippet}
+											{#snippet children()}{(
+													(selectedTypeData.count / $allCollections.length) *
+													100
+												).toFixed(1)}% of total{/snippet}
 										</Badge>
 										<WissKILink category="resourceTypes" entityKey={selectedTypeData.name} />
 									</div>
@@ -186,7 +214,7 @@
 									currentPage={itemPage}
 									totalItems={selectedTypeData.items.length}
 									{itemsPerPage}
-									onPageChange={(p) => itemPage = p}
+									onPageChange={(p) => (itemPage = p)}
 								/>
 							{/snippet}
 						</CardContent>
