@@ -813,10 +813,7 @@
 								</label>
 
 								<div role="group" aria-labelledby="filter-research-section-label">
-									<div
-										id="filter-research-section-label"
-										class="text-sm font-medium mb-2 block"
-									>
+									<div id="filter-research-section-label" class="text-sm font-medium mb-2 block">
 										Research Section
 									</div>
 									<div class="space-y-1">
