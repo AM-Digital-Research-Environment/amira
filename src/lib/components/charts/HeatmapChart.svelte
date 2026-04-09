@@ -1,9 +1,25 @@
 <script lang="ts">
 	import EChart from './EChart.svelte';
+	import { echarts } from '$lib/utils/echarts';
+	import { HeatmapChart as EHeatmapChart } from 'echarts/charts';
+	import {
+		TitleComponent,
+		TooltipComponent,
+		GridComponent,
+		VisualMapComponent
+	} from 'echarts/components';
 	import type { EChartsOption } from 'echarts';
 	import { cn } from '$lib/utils/cn';
 	import { CHART_COLORS } from '$lib/styles';
 	import { buildTitle, buildGrid } from './utils';
+
+	echarts.use([
+		EHeatmapChart,
+		TitleComponent,
+		TooltipComponent,
+		GridComponent,
+		VisualMapComponent
+	]);
 
 	export interface HeatmapDataPoint {
 		x: string;

@@ -1,10 +1,15 @@
 <script lang="ts">
 	import EChart from './EChart.svelte';
+	import { echarts } from '$lib/utils/echarts';
+	import { SunburstChart as ESunburstChart } from 'echarts/charts';
+	import { TitleComponent, TooltipComponent } from 'echarts/components';
 	import type { EChartsOption } from 'echarts';
 	import { cn } from '$lib/utils/cn';
 	import { CHART_COLORS, getThemeColors } from '$lib/styles';
 	import { buildTitle, hideAxes, pathFormatter } from './utils';
 	import { theme } from '$lib/stores/data';
+
+	echarts.use([ESunburstChart, TitleComponent, TooltipComponent]);
 
 	interface SunburstNode {
 		name: string;

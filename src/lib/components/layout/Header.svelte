@@ -18,7 +18,13 @@
 
 <header class="header gap-2 lg:gap-4">
 	<!-- Mobile menu button -->
-	<Button variant="ghost" size="icon" class="lg:hidden flex-shrink-0" onclick={onMenuClick}>
+	<Button
+		variant="ghost"
+		size="icon"
+		class="lg:hidden flex-shrink-0"
+		onclick={onMenuClick}
+		aria-label="Open navigation menu"
+	>
 		{#snippet children()}
 			<Menu class="h-5 w-5" />
 		{/snippet}
@@ -38,7 +44,13 @@
 	</div>
 
 	<!-- Theme toggle -->
-	<Button variant="ghost" size="icon" onclick={toggleTheme} class="flex-shrink-0">
+	<Button
+		variant="ghost"
+		size="icon"
+		onclick={toggleTheme}
+		class="flex-shrink-0"
+		aria-label={$theme === 'dark' ? 'Switch to light theme' : 'Switch to dark theme'}
+	>
 		{#snippet children()}
 			<div class="relative w-5 h-5">
 				{#if $theme === 'dark'}

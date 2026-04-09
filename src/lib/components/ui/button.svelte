@@ -10,6 +10,8 @@
 		type?: 'button' | 'submit' | 'reset';
 		children: Snippet;
 		onclick?: (e: MouseEvent) => void;
+		'aria-label'?: string;
+		title?: string;
 	}
 
 	let {
@@ -19,7 +21,9 @@
 		disabled = false,
 		type = 'button',
 		children,
-		onclick
+		onclick,
+		'aria-label': ariaLabel,
+		title
 	}: Props = $props();
 
 	const variants = {
@@ -46,6 +50,8 @@
 	{type}
 	{disabled}
 	{onclick}
+	aria-label={ariaLabel}
+	{title}
 	class={cn(
 		'inline-flex items-center justify-center whitespace-nowrap rounded-xl text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50',
 		variants[variant],

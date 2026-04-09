@@ -1,12 +1,10 @@
 <script lang="ts">
 	import { StatCard, ChartCard, EmptyState, SEO } from '$lib/components/ui';
-	import {
-		StackedTimeline,
-		BarChart,
-		PieChart,
-		WordCloud,
-		HeatmapChart
-	} from '$lib/components/charts';
+	import StackedTimeline from '$lib/components/charts/StackedTimeline.svelte';
+	import BarChart from '$lib/components/charts/BarChart.svelte';
+	import PieChart from '$lib/components/charts/PieChart.svelte';
+	import WordCloud from '$lib/components/charts/WordCloud.svelte';
+	import HeatmapChart from '$lib/components/charts/HeatmapChart.svelte';
 	import { FilterPanel } from '$lib/components/layout';
 	import { projects, allCollections } from '$lib/stores/data';
 	import { filteredCollections } from '$lib/stores/filters';

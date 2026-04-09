@@ -1,10 +1,15 @@
 <script lang="ts">
 	import EChart from './EChart.svelte';
+	import { echarts } from '$lib/utils/echarts';
+	import { PieChart as EPieChart } from 'echarts/charts';
+	import { TitleComponent, TooltipComponent, LegendComponent } from 'echarts/components';
 	import type { EChartsOption } from 'echarts';
 	import type { PieChartDataPoint } from '$lib/types';
 	import { cn } from '$lib/utils/cn';
 	import { getChartColor } from '$lib/styles';
 	import { buildTitle, hideAxes, PIE_FORMAT_STRING } from './utils';
+
+	echarts.use([EPieChart, TitleComponent, TooltipComponent, LegendComponent]);
 
 	interface Props {
 		data: PieChartDataPoint[];

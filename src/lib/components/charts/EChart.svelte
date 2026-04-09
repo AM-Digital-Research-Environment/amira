@@ -1,11 +1,18 @@
 <script lang="ts">
 	import { onMount, onDestroy } from 'svelte';
-	import * as echarts from 'echarts';
-	import type { EChartsOption, ECharts } from 'echarts';
+	import { echarts } from '$lib/utils/echarts';
+	import { CanvasRenderer } from 'echarts/renderers';
+	import type { EChartsType } from 'echarts/core';
+	import type { EChartsOption } from 'echarts';
 	import { theme } from '$lib/stores/data';
 	import { cn } from '$lib/utils/cn';
 	import { getEChartsTheme, ECHARTS_PERFORMANCE } from '$lib/styles';
 	import { ZoomIn, ZoomOut, RotateCcw } from '@lucide/svelte';
+
+	// Every chart routed through this wrapper needs the canvas renderer.
+	// Series & feature components are registered by the individual chart
+	// modules so the bundler can drop ones the current page doesn't use.
+	echarts.use([CanvasRenderer]);
 
 	interface Props {
 		option: EChartsOption;
@@ -31,9 +38,11 @@
 	}: Props = $props();
 
 	let chartContainer: HTMLDivElement;
-	let chartInstance: ECharts | null = null;
+	let chartInstance: EChartsType | null = null;
 	let zoomLevel = $state(1);
 	let resizeTimeout: ReturnType<typeof setTimeout> | null = null;
+	let initRaf: number | null = null;
+	let resizeObserver: ResizeObserver | null = null;
 
 	/**
 	 * Count total data points in the option to determine if large mode is needed
@@ -99,7 +108,11 @@
 	}
 
 	/**
-	 * Throttled resize handler for better performance
+	 * Throttled resize handler. Coalescing through setTimeout already
+	 * collapses bursty ResizeObserver callbacks; the resize() call itself
+	 * is the layout-querying step we want to defer off the synchronous
+	 * observer callback so it doesn't force a reflow on the same frame
+	 * that mutated the DOM.
 	 */
 	function handleResize() {
 		if (resizeTimeout) {
@@ -122,15 +135,8 @@
 		}
 
 		// Handle resize with throttling via ResizeObserver
-		const resizeObserver = new ResizeObserver(handleResize);
+		resizeObserver = new ResizeObserver(handleResize);
 		resizeObserver.observe(chartContainer);
-
-		return () => {
-			resizeObserver.disconnect();
-			if (resizeTimeout) {
-				clearTimeout(resizeTimeout);
-			}
-		};
 	}
 
 	/**
@@ -179,15 +185,30 @@
 	});
 
 	onMount(() => {
-		const cleanup = initChart();
-		return cleanup;
+		// Defer init off the mount task so the browser can finish painting
+		// the surrounding layout (page header, stat cards, etc.) before
+		// ECharts queries `offsetWidth`/`offsetHeight` and forces a reflow.
+		// Multiple charts that mount in the same tick all wait until the
+		// next animation frame, batching their layout reads together.
+		initRaf = requestAnimationFrame(() => {
+			initRaf = null;
+			initChart();
+		});
 	});
 
 	onDestroy(() => {
+		if (initRaf !== null) {
+			cancelAnimationFrame(initRaf);
+			initRaf = null;
+		}
 		if (resizeTimeout) {
 			clearTimeout(resizeTimeout);
+			resizeTimeout = null;
 		}
+		resizeObserver?.disconnect();
+		resizeObserver = null;
 		chartInstance?.dispose();
+		chartInstance = null;
 	});
 
 	function zoomIn() {

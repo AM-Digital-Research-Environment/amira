@@ -1,11 +1,28 @@
 <script lang="ts">
 	import EChart from './EChart.svelte';
-	import * as echarts from 'echarts';
-	import type { EChartsOption } from 'echarts';
+	import { echarts } from '$lib/utils/echarts';
+	import { CustomChart } from 'echarts/charts';
+	import {
+		TitleComponent,
+		TooltipComponent,
+		GridComponent,
+		LegendComponent,
+		DataZoomComponent
+	} from 'echarts/components';
+	import type { EChartsOption, CustomSeriesOption } from 'echarts';
 	import { cn } from '$lib/utils/cn';
 	import { CHART_COLORS } from '$lib/styles';
 	import { buildTitle, buildGrid } from './utils';
 	import { SvelteMap } from 'svelte/reactivity';
+
+	echarts.use([
+		CustomChart,
+		TitleComponent,
+		TooltipComponent,
+		GridComponent,
+		LegendComponent,
+		DataZoomComponent
+	]);
 
 	export interface GanttDataPoint {
 		/** Display name (y-axis label) */
@@ -180,7 +197,7 @@
 							}
 						}
 					);
-				}) as unknown as echarts.CustomSeriesOption['renderItem'],
+				}) as unknown as CustomSeriesOption['renderItem'],
 				encode: {
 					x: [1, 2],
 					y: 0,

@@ -1,11 +1,31 @@
 <script lang="ts">
 	import EChart from './EChart.svelte';
+	import { echarts } from '$lib/utils/echarts';
+	import { BarChart as EBarChart } from 'echarts/charts';
+	import {
+		TitleComponent,
+		TooltipComponent,
+		GridComponent,
+		LegendComponent,
+		DataZoomComponent,
+		AxisPointerComponent
+	} from 'echarts/components';
 	import type { EChartsOption } from 'echarts';
 	import type { StackedTimelineDataPoint } from '$lib/utils/dataTransform';
 	import { getResourceTypesFromStackedData } from '$lib/utils/dataTransform';
 	import { cn } from '$lib/utils/cn';
 	import { CHART_COLORS } from '$lib/styles';
 	import { buildTitle, buildGrid, buildDataZoom, stackedFormatter } from './utils';
+
+	echarts.use([
+		EBarChart,
+		TitleComponent,
+		TooltipComponent,
+		GridComponent,
+		LegendComponent,
+		DataZoomComponent,
+		AxisPointerComponent
+	]);
 
 	interface Props {
 		data: StackedTimelineDataPoint[];

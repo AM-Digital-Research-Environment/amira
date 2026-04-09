@@ -1,10 +1,20 @@
 <script lang="ts">
 	import EChart from './EChart.svelte';
+	import { echarts } from '$lib/utils/echarts';
+	import { BarChart as EBarChart } from 'echarts/charts';
+	import {
+		TitleComponent,
+		TooltipComponent,
+		GridComponent,
+		AxisPointerComponent
+	} from 'echarts/components';
 	import type { EChartsOption } from 'echarts';
 	import type { TimelineDataPoint } from '$lib/types';
 	import { cn } from '$lib/utils/cn';
 	import { CHART_COLORS } from '$lib/styles';
 	import { buildTitle, buildGrid, itemCountFormatter } from './utils';
+
+	echarts.use([EBarChart, TitleComponent, TooltipComponent, GridComponent, AxisPointerComponent]);
 
 	interface Props {
 		data: TimelineDataPoint[];

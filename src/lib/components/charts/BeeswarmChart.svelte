@@ -1,10 +1,20 @@
 <script lang="ts">
 	import EChart from './EChart.svelte';
+	import { echarts } from '$lib/utils/echarts';
+	import { ScatterChart } from 'echarts/charts';
+	import {
+		TitleComponent,
+		TooltipComponent,
+		GridComponent,
+		LegendComponent
+	} from 'echarts/components';
 	import type { EChartsOption } from 'echarts';
 	import { cn } from '$lib/utils/cn';
 	import { CHART_COLORS } from '$lib/styles';
 	import { buildTitle, buildGrid } from './utils';
 	import { SvelteMap } from 'svelte/reactivity';
+
+	echarts.use([ScatterChart, TitleComponent, TooltipComponent, GridComponent, LegendComponent]);
 
 	export interface BeeswarmDataPoint {
 		/** Category label (y-axis) */

@@ -1,12 +1,17 @@
 <script lang="ts">
 	import { onMount, onDestroy } from 'svelte';
-	import * as echarts from 'echarts';
+	import { echarts } from '$lib/utils/echarts';
+	import { CanvasRenderer } from 'echarts/renderers';
+	import { TitleComponent, TooltipComponent } from 'echarts/components';
 	import 'echarts-wordcloud';
-	import type { ECharts } from 'echarts';
+	import type { EChartsType } from 'echarts/core';
 	import type { WordCloudDataPoint } from '$lib/types';
 	import { theme } from '$lib/stores/data';
 	import { cn } from '$lib/utils/cn';
 	import { CHART_COLORS, FONT_FAMILY, getThemeColors } from '$lib/styles';
+
+	// echarts-wordcloud registers its own series; we just need the renderer + components.
+	echarts.use([CanvasRenderer, TitleComponent, TooltipComponent]);
 
 	interface Props {
 		data: WordCloudDataPoint[];
@@ -19,7 +24,10 @@
 	let { data, title = '', class: className = '', maxWords = 100, onclick }: Props = $props();
 
 	let chartContainer: HTMLDivElement;
-	let chartInstance: ECharts | null = null;
+	let chartInstance: EChartsType | null = null;
+	let initRaf: number | null = null;
+	let resizeObserver: ResizeObserver | null = null;
+	let resizeTimeout: ReturnType<typeof setTimeout> | null = null;
 
 	function getOption() {
 		const slicedData = data.slice(0, maxWords);
@@ -100,14 +108,13 @@
 			});
 		}
 
-		const resizeObserver = new ResizeObserver(() => {
-			chartInstance?.resize();
+		// Throttle resize callbacks so bursty observer fires don't each
+		// trigger a synchronous layout query / render pass.
+		resizeObserver = new ResizeObserver(() => {
+			if (resizeTimeout) clearTimeout(resizeTimeout);
+			resizeTimeout = setTimeout(() => chartInstance?.resize(), 100);
 		});
 		resizeObserver.observe(chartContainer);
-
-		return () => {
-			resizeObserver.disconnect();
-		};
 	}
 
 	$effect(() => {
@@ -120,12 +127,27 @@
 	});
 
 	onMount(() => {
-		const cleanup = initChart();
-		return cleanup;
+		// Defer init to next frame so the surrounding layout paints first
+		// before ECharts queries `offsetWidth` and forces a reflow.
+		initRaf = requestAnimationFrame(() => {
+			initRaf = null;
+			initChart();
+		});
 	});
 
 	onDestroy(() => {
+		if (initRaf !== null) {
+			cancelAnimationFrame(initRaf);
+			initRaf = null;
+		}
+		if (resizeTimeout) {
+			clearTimeout(resizeTimeout);
+			resizeTimeout = null;
+		}
+		resizeObserver?.disconnect();
+		resizeObserver = null;
 		chartInstance?.dispose();
+		chartInstance = null;
 	});
 </script>
 

@@ -56,20 +56,7 @@
 		/>
 
 		<main class="flex-1 p-4 lg:p-6 overflow-auto">
-			{#if $isLoading}
-				<div class="flex items-center justify-center h-64 animate-fade-in">
-					<div class="text-center">
-						<div class="relative">
-							<div class="h-14 w-14 rounded-full border-4 border-primary/20 mx-auto"></div>
-							<div
-								class="absolute inset-0 h-14 w-14 rounded-full border-4 border-transparent border-t-primary mx-auto animate-spin"
-							></div>
-						</div>
-						<p class="text-muted-foreground mt-6 font-medium">Loading data...</p>
-						<p class="text-sm text-muted-foreground/70 mt-1">Preparing your research dashboard</p>
-					</div>
-				</div>
-			{:else if $loadError}
+			{#if $loadError}
 				<div class="flex items-center justify-center h-64 animate-fade-in">
 					<div class="text-center max-w-md">
 						<div
@@ -88,6 +75,25 @@
 					</div>
 				</div>
 			{:else}
+				<!--
+					Children render unconditionally so the page header (the LCP
+					element on most routes) paints immediately. While data is in
+					flight, stores hold empty arrays and downstream components
+					show their empty states; once `initializeData` resolves the
+					stores update reactively. A non-blocking inline indicator
+					reassures users that work is happening above the fold.
+				-->
+				{#if $isLoading}
+					<div
+						class="flex items-center justify-center gap-2 mb-4 text-sm text-muted-foreground animate-fade-in"
+						aria-live="polite"
+					>
+						<div
+							class="h-3 w-3 rounded-full border-2 border-primary/30 border-t-primary animate-spin"
+						></div>
+						<span>Loading research data…</span>
+					</div>
+				{/if}
 				<div class="animate-fade-in">
 					{@render children()}
 				</div>

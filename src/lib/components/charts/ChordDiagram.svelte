@@ -1,11 +1,16 @@
 <script lang="ts">
 	import EChart from './EChart.svelte';
+	import { echarts } from '$lib/utils/echarts';
+	import { GraphChart } from 'echarts/charts';
+	import { TitleComponent, TooltipComponent } from 'echarts/components';
 	import type { EChartsOption } from 'echarts';
 	import { cn } from '$lib/utils/cn';
 	import { CHART_COLORS_EXTENDED, getThemeColors } from '$lib/styles';
 	import { buildTitle, hideAxes } from './utils';
 	import type { ChordData } from '$lib/types';
 	import { theme } from '$lib/stores/data';
+
+	echarts.use([GraphChart, TitleComponent, TooltipComponent]);
 
 	interface Props {
 		data: ChordData;

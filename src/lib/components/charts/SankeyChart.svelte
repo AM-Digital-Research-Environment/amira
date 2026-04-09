@@ -1,10 +1,15 @@
 <script lang="ts">
 	import EChart from './EChart.svelte';
+	import { echarts } from '$lib/utils/echarts';
+	import { SankeyChart as ESankeyChart } from 'echarts/charts';
+	import { TitleComponent, TooltipComponent } from 'echarts/components';
 	import type { EChartsOption } from 'echarts';
 	import { cn } from '$lib/utils/cn';
 	import { getChartColor, getThemeColors } from '$lib/styles';
 	import { buildTitle, hideAxes, linkFormatter } from './utils';
 	import { theme } from '$lib/stores/data';
+
+	echarts.use([ESankeyChart, TitleComponent, TooltipComponent]);
 
 	interface SankeyNode {
 		name: string;

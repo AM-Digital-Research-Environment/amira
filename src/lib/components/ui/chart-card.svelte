@@ -25,7 +25,7 @@
 	<div class="chart-card-header">
 		<div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 w-full">
 			<div>
-				<h3 class="chart-card-title">{title}</h3>
+				<h2 class="chart-card-title">{title}</h2>
 				{#if subtitle}
 					<p class="text-sm text-muted-foreground mt-0.5">{subtitle}</p>
 				{/if}
