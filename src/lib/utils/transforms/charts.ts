@@ -5,7 +5,7 @@ import type {
 	BeeswarmDataPoint,
 	GanttDataPoint
 } from '$lib/types';
-import { extractYear, extractItemYear } from './dates';
+import { extractYear } from './dates';
 
 /**
  * Build a heatmap matrix crossing two categorical dimensions from collection items.

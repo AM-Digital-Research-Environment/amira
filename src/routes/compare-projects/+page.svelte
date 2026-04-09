@@ -23,13 +23,14 @@
 	import type { CollectionItem } from '$lib/types';
 	import { universityOptions } from '$lib/types';
 	import { FileQuestion } from '@lucide/svelte';
+	import { SvelteMap } from 'svelte/reactivity';
 
 	// Get all universities
 	const allUniversities = getUniversities();
 
 	// Build a lookup of project ID → full project name from collection items
 	let projectNameMap = $derived.by(() => {
-		const map = new Map<string, string>();
+		const map = new SvelteMap<string, string>();
 		$allCollections.forEach((item) => {
 			if (item.project?.id && item.project?.name && !map.has(item.project.id)) {
 				map.set(item.project.id, item.project.name);
@@ -342,7 +343,7 @@
 				<CardContent>
 					{#snippet children()}
 						<div class="flex flex-wrap gap-2">
-							{#each subjectOverlap.shared as subject}
+							{#each subjectOverlap.shared as subject (subject)}
 								<Badge variant="secondary">{subject}</Badge>
 							{/each}
 						</div>

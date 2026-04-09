@@ -15,6 +15,7 @@
 		HeatmapChart
 	} from '$lib/components/charts';
 	import { allCollections } from '$lib/stores/data';
+	import { SvelteMap } from 'svelte/reactivity';
 	import {
 		groupByYearAndType,
 		extractSubjects,
@@ -102,7 +103,7 @@
 
 	// Convert locations to bar chart format (grouped by country)
 	let locationsByCountry = $derived.by(() => {
-		const countryMap = new Map<string, number>();
+		const countryMap = new SvelteMap<string, number>();
 		locationsData.forEach((d) => {
 			if (d.country) {
 				countryMap.set(d.country, (countryMap.get(d.country) || 0) + d.count);

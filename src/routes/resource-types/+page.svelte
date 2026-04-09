@@ -23,7 +23,6 @@
 		sortedCategoryList,
 		categoryToChartData
 	} from '$lib/utils/categoryIndex';
-	import type { CollectionItem } from '$lib/types';
 	import { FileText, Layers } from '@lucide/svelte';
 	import { WissKILink } from '$lib/components/ui';
 
@@ -131,7 +130,7 @@
 				<CardContent>
 					{#snippet children()}
 						<div class="space-y-0.5">
-							{#each types as type}
+							{#each types as type (type.name)}
 								{@const isSelected = selectedType === type.name}
 								<button
 									onclick={() => selectType(type.name)}
@@ -206,7 +205,7 @@
 						<CardContent>
 							{#snippet children()}
 								<ul class="space-y-2">
-									{#each paginatedItems as item}
+									{#each paginatedItems as item (item._id || item.dre_id)}
 										<CollectionItemRow {item} showType={false} showProject={true} />
 									{/each}
 								</ul>

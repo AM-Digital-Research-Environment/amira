@@ -23,6 +23,7 @@
 	import { paginate } from '$lib/utils/pagination';
 	import { base } from '$app/paths';
 	import { Building2, Briefcase, Users, FileText } from '@lucide/svelte';
+	import { SvelteMap, SvelteSet } from 'svelte/reactivity';
 	import { WissKILink } from '$lib/components/ui';
 
 	const urlSelection = createUrlSelection('name');
@@ -46,7 +47,7 @@
 	}
 
 	let institutionMap = $derived.by(() => {
-		const map = new Map<string, InstitutionData>();
+		const map = new SvelteMap<string, InstitutionData>();
 
 		const getOrCreate = (name: string): InstitutionData => {
 			if (!map.has(name)) {
@@ -109,7 +110,7 @@
 		});
 
 		// Also count collection items per project-level institution
-		const projectInstitutions = new Map<string, string[]>();
+		const projectInstitutions = new SvelteMap<string, string[]>();
 		$projects.forEach((p) => {
 			projectInstitutions.set(p.id, p.institutions || []);
 		});
@@ -154,7 +155,7 @@
 		if (!selectedInstitution) return [];
 		const name = selectedInstitution.name;
 		const projectIds = new Set(selectedInstitution.projects.map((p) => p.id));
-		const seen = new Set<string>();
+		const seen = new SvelteSet<string>();
 		const results: CollectionItem[] = [];
 		$allCollections.forEach((item) => {
 			const id = item._id || item.dre_id;
@@ -220,7 +221,7 @@
 
 	<!-- University Breakdown Cards -->
 	<div class="grid gap-4 grid-cols-2 lg:grid-cols-4">
-		{#each $universitiesData as uniData, index}
+		{#each $universitiesData as uniData, index (uniData.university.code)}
 			<div class="stat-card animate-slide-in-up" style="animation-delay: {75 + index * 50}ms">
 				<div class="flex items-start justify-between gap-2">
 					<div class="min-w-0 flex-1">
@@ -275,7 +276,7 @@
 									>
 										Partner Institutions
 									</p>
-									{#each filteredPartner as inst}
+									{#each filteredPartner as inst (inst.name)}
 										{@const isSelected = selectedName === inst.name}
 										<button
 											onclick={() => selectInstitution(inst.name)}
@@ -302,7 +303,7 @@
 									>
 										Contributor Organizations
 									</p>
-									{#each filteredContributor as inst}
+									{#each filteredContributor as inst (inst.name)}
 										{@const isSelected = selectedName === inst.name}
 										<button
 											onclick={() => selectInstitution(inst.name)}
@@ -379,7 +380,7 @@
 							<CardContent>
 								{#snippet children()}
 									<ul class="space-y-3">
-										{#each selectedInstitution.projects as project}
+										{#each selectedInstitution.projects as project (project.id)}
 											<li class="p-3 rounded-lg bg-muted/30">
 												<a
 													href={projectUrl(project.id)}
@@ -402,7 +403,7 @@
 												</div>
 												{#if project.researchSection?.length}
 													<div class="flex flex-wrap gap-1 mt-1.5">
-														{#each project.researchSection as section}
+														{#each project.researchSection as section (section)}
 															<a
 																href={researchSectionsUrl(section)}
 																class="hover:opacity-80 transition-opacity"
@@ -414,7 +415,7 @@
 												{/if}
 												{#if project.pi?.length}
 													<p class="text-xs text-muted-foreground mt-1.5">
-														PI: {#each project.pi as pi, i}{#if i > 0},&nbsp;{/if}<a
+														PI: {#each project.pi as pi, i (pi)}{#if i > 0},&nbsp;{/if}<a
 																href={personUrl(pi)}
 																class="hover:text-primary transition-colors">{pi}</a
 															>{/each}
@@ -451,7 +452,7 @@
 							<CardContent>
 								{#snippet children()}
 									<div class="flex flex-wrap gap-2">
-										{#each [...selectedInstitution.people].sort() as person}
+										{#each [...selectedInstitution.people].sort() as person (person)}
 											<a
 												href={personUrl(person)}
 												class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-muted/50 text-sm text-foreground hover:text-primary hover:bg-muted transition-colors"
@@ -488,7 +489,7 @@
 							<CardContent>
 								{#snippet children()}
 									<ul class="space-y-2">
-										{#each paginatedCollectionItems as item}
+										{#each paginatedCollectionItems as item (item._id || item.dre_id)}
 											<CollectionItemRow {item} showProject={false} />
 										{/each}
 									</ul>

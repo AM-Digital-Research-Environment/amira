@@ -26,10 +26,10 @@
 		ExternalLink,
 		Users,
 		ArrowRight,
-		GraduationCap,
-		Calendar
+		GraduationCap
 	} from '@lucide/svelte';
 	import { WissKILink } from '$lib/components/ui';
+	import { SvelteMap, SvelteSet } from 'svelte/reactivity';
 
 	const urlSelection = createUrlSelection('section');
 
@@ -43,7 +43,7 @@
 
 	// Group projects by research section
 	let projectsBySection = $derived.by(() => {
-		const map = new Map<string, Project[]>();
+		const map = new SvelteMap<string, Project[]>();
 		$projects.forEach((p) => {
 			p.researchSection?.forEach((s) => {
 				if (!map.has(s)) map.set(s, []);
@@ -55,7 +55,7 @@
 
 	// Combined data: merge manual info with project associations
 	let sections = $derived.by(() => {
-		const sectionNames = new Set<string>();
+		const sectionNames = new SvelteSet<string>();
 		Object.keys($researchSections).forEach((name) => sectionNames.add(name));
 		$projects.forEach((p) => p.researchSection?.forEach((s) => sectionNames.add(s)));
 
@@ -159,7 +159,7 @@
 					<CardContent>
 						{#snippet children()}
 							<div class="text-sm text-muted-foreground leading-relaxed break-words">
-								{#each selectedSectionData.description.split('\n\n') as paragraph}
+								{#each selectedSectionData.description.split('\n\n') as paragraph, i (i)}
 									<p class="mb-2 last:mb-0">{paragraph}</p>
 								{/each}
 							</div>
@@ -188,7 +188,7 @@
 					<CardContent>
 						{#snippet children()}
 							<p class="text-sm text-foreground">
-								{#each selectedSectionData.principalInvestigators as pi, i}
+								{#each selectedSectionData.principalInvestigators as pi, i (pi)}
 									{#if i > 0}<span class="text-muted-foreground"> · </span>{/if}
 									<a href={personUrl(pi)} class="hover:text-primary transition-colors">{pi}</a>
 								{/each}
@@ -221,7 +221,7 @@
 					<CardContent>
 						{#snippet children()}
 							<div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-4 gap-y-1.5">
-								{#each selectedSectionData.members as member}
+								{#each selectedSectionData.members as member (member)}
 									<a
 										href={personUrl(member)}
 										class="text-sm text-foreground hover:text-primary transition-colors truncate"
@@ -249,7 +249,7 @@
 					<CardContent>
 						{#snippet children()}
 							<div class="text-sm text-muted-foreground leading-relaxed break-words">
-								{#each selectedSectionData.objectives.split('\n\n') as paragraph}
+								{#each selectedSectionData.objectives.split('\n\n') as paragraph, i (i)}
 									<p class="mb-2 last:mb-0">{paragraph}</p>
 								{/each}
 							</div>
@@ -273,7 +273,7 @@
 					<CardContent>
 						{#snippet children()}
 							<div class="text-sm text-muted-foreground leading-relaxed break-words">
-								{#each selectedSectionData.workProgramme.split('\n\n') as paragraph}
+								{#each selectedSectionData.workProgramme.split('\n\n') as paragraph, i (i)}
 									<p class="mb-2 last:mb-0">{paragraph}</p>
 								{/each}
 							</div>
@@ -325,7 +325,7 @@
 					<CardContent>
 						{#snippet children()}
 							<ul class="space-y-2">
-								{#each selectedSectionData.projects as project}
+								{#each selectedSectionData.projects as project (project.id)}
 									<li
 										class="flex items-start gap-3 p-2 rounded-lg hover:bg-muted/50 transition-colors"
 									>
@@ -346,7 +346,7 @@
 											{/if}
 											{#if project.pi?.length}
 												<p class="text-xs text-muted-foreground mt-0.5">
-													PI: {#each project.pi as pi, i}{#if i > 0},
+													PI: {#each project.pi as pi, i (typeof pi === 'string' ? pi : i)}{#if i > 0},
 														{/if}<a
 															href={personUrl(typeof pi === 'string' ? pi : '')}
 															class="hover:text-primary transition-colors">{pi}</a
@@ -385,7 +385,7 @@
 
 		<!-- Section Cards Grid -->
 		<div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-			{#each sections as section}
+			{#each sections as section (section.name)}
 				<button onclick={() => selectSection(section.name)} class="text-left">
 					<Card
 						class="overflow-hidden h-full hover:shadow-lg transition-shadow cursor-pointer group"

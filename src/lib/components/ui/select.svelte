@@ -46,12 +46,12 @@
 	)}
 >
 	<option value="" disabled>{placeholder}</option>
-	{#each options as option}
+	{#each options as option (option.value)}
 		<option value={option.value} title={option.title}>{option.label}</option>
 	{/each}
-	{#each groups as group}
+	{#each groups as group (group.label)}
 		<optgroup label={group.label}>
-			{#each group.options as option}
+			{#each group.options as option (option.value)}
 				<option value={option.value} title={option.title}>{option.label}</option>
 			{/each}
 		</optgroup>

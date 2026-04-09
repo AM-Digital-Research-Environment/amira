@@ -37,7 +37,7 @@
 	import { page } from '$app/stores';
 	import { tick } from 'svelte';
 	import { personUrl, researchSectionsUrl, researchItemUrl, institutionUrl } from '$lib/utils/urls';
-	import { createUrlSelection, scrollToTop } from '$lib/utils/urlSelection';
+	import { createUrlSelection } from '$lib/utils/urlSelection';
 	import type { Project, CollectionItem } from '$lib/types';
 	import { formatDate, getItemTitle } from '$lib/utils/helpers';
 	import { formatDateInfo } from '$lib/components/research-items/itemHelpers';
@@ -55,15 +55,13 @@
 		Hash,
 		GraduationCap,
 		ExternalLink,
-		Tag,
-		Edit3,
 		ArrowUpDown,
-		Search,
-		Languages
+		Search
 	} from '@lucide/svelte';
 	import { languageName } from '$lib/utils/languages';
 	import { WissKILink } from '$lib/components/ui';
 	import { base } from '$app/paths';
+	import { SvelteMap, SvelteSet } from 'svelte/reactivity';
 
 	const urlSelection = createUrlSelection('id');
 
@@ -89,13 +87,13 @@
 
 	// Get unique values for facets
 	let allResearchSections = $derived.by(() => {
-		const sections = new Set<string>();
+		const sections = new SvelteSet<string>();
 		$projects.forEach((p) => p.researchSection?.forEach((s) => sections.add(s)));
 		return Array.from(sections).sort();
 	});
 
 	let allInstitutions = $derived.by(() => {
-		const institutions = new Set<string>();
+		const institutions = new SvelteSet<string>();
 		$projects.forEach((p) => p.institutions?.forEach((i) => institutions.add(i)));
 		return Array.from(institutions).sort();
 	});
@@ -167,7 +165,7 @@
 
 	// Unique resource types for filter dropdown
 	let itemResourceTypes = $derived.by(() => {
-		const types = new Set<string>();
+		const types = new SvelteSet<string>();
 		projectCollectionItems.forEach((item) => {
 			if (item.typeOfResource) types.add(item.typeOfResource);
 		});
@@ -310,15 +308,14 @@
 		url: string;
 	}
 
-	let projectLinksMap = $state<Map<string, string>>(new Map());
+	const projectLinksMap = new SvelteMap<string, string>();
 
 	$effect(() => {
 		fetch(`${base}/data/manual/projectLinks.json`)
 			.then((r) => (r.ok ? r.json() : []))
 			.then((links: ProjectLink[]) => {
-				const map = new Map<string, string>();
-				links.forEach((l) => map.set(l.id, l.url));
-				projectLinksMap = map;
+				projectLinksMap.clear();
+				links.forEach((l) => projectLinksMap.set(l.id, l.url));
 			})
 			.catch(() => {});
 	});
@@ -376,7 +373,7 @@
 										<BookOpen class="h-4 w-4 text-muted-foreground shrink-0" />
 										<span class="text-muted-foreground shrink-0">Research Section</span>
 										<span class="text-foreground">
-											{#each selectedProject.researchSection as section, i}
+											{#each selectedProject.researchSection as section, i (section)}
 												<a
 													href={researchSectionsUrl(section)}
 													class="hover:text-primary transition-colors">{section}</a
@@ -432,7 +429,7 @@
 						<CardContent>
 							{#snippet children()}
 								<div class="text-sm text-muted-foreground leading-relaxed break-words">
-									{#each getDescription(selectedProject).split('\n\n') as paragraph}
+									{#each getDescription(selectedProject).split('\n\n') as paragraph, i (i)}
 										<p class="mb-3 last:mb-0">{paragraph}</p>
 									{/each}
 								</div>
@@ -461,7 +458,7 @@
 						<CardContent>
 							{#snippet children()}
 								<p class="text-sm text-foreground">
-									{#each selectedProject.pi as pi, i}
+									{#each selectedProject.pi as pi, i (pi)}
 										{#if i > 0}<span class="text-muted-foreground"> · </span>{/if}
 										<a href={personUrl(pi)} class="hover:text-primary transition-colors">{pi}</a>
 									{/each}
@@ -494,7 +491,7 @@
 						<CardContent>
 							{#snippet children()}
 								<div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-4 gap-y-1.5">
-									{#each getMembers(selectedProject) as member}
+									{#each getMembers(selectedProject) as member (member)}
 										<a
 											href={personUrl(member)}
 											class="text-sm text-foreground hover:text-primary transition-colors truncate"
@@ -527,7 +524,7 @@
 						<CardContent>
 							{#snippet children()}
 								<div class="flex flex-wrap gap-2">
-									{#each selectedProject.institutions as institution}
+									{#each selectedProject.institutions as institution (institution)}
 										<a
 											href={institutionUrl(institution)}
 											class="hover:opacity-80 transition-opacity"
@@ -612,7 +609,7 @@
 										class="h-9 rounded-md border border-input bg-background px-3 text-sm ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring"
 									>
 										<option value="">All types</option>
-										{#each itemResourceTypes as type}
+										{#each itemResourceTypes as type (type)}
 											<option value={type}>{type}</option>
 										{/each}
 									</select>
@@ -652,7 +649,7 @@
 									<EmptyState message="No items match your filters" icon={Search} />
 								{:else}
 									<ul class="space-y-2">
-										{#each paginatedCollectionItems as item}
+										{#each paginatedCollectionItems as item (item._id || item.dre_id)}
 											<li class="flex items-start gap-3 p-3 rounded-lg bg-muted/30">
 												<FileText class="h-4 w-4 mt-0.5 text-muted-foreground shrink-0" />
 												<div class="min-w-0 flex-1">
@@ -818,7 +815,7 @@
 								<div>
 									<label class="text-sm font-medium mb-2 block">Research Section</label>
 									<div class="space-y-1">
-										{#each allResearchSections as section}
+										{#each allResearchSections as section (section)}
 											{@const isSelected = selectedResearchSections.includes(section)}
 											<button
 												onclick={() => toggleResearchSection(section)}
@@ -844,7 +841,7 @@
 								<div>
 									<label class="text-sm font-medium mb-2 block">Institution</label>
 									<div class="space-y-1">
-										{#each allInstitutions as institution}
+										{#each allInstitutions as institution (institution)}
 											{@const isSelected = selectedInstitutions.includes(institution)}
 											<button
 												onclick={() => toggleInstitution(institution)}
@@ -887,7 +884,7 @@
 						{#snippet children()}
 							{#if hasActiveFilters}
 								<div class="flex flex-wrap gap-2 mb-4">
-									{#each selectedResearchSections as section}
+									{#each selectedResearchSections as section (section)}
 										<Badge variant="outline" class="gap-1">
 											{#snippet children()}
 												<span
@@ -904,7 +901,7 @@
 											{/snippet}
 										</Badge>
 									{/each}
-									{#each selectedInstitutions as institution}
+									{#each selectedInstitutions as institution (institution)}
 										<Badge variant="outline" class="gap-1">
 											{institution}
 											<button
@@ -919,7 +916,7 @@
 							{/if}
 
 							<div class="space-y-4">
-								{#each paginatedProjects as project}
+								{#each paginatedProjects as project (project.id)}
 									<div class="p-4 rounded-lg border bg-card hover:bg-accent/50 transition-colors">
 										<div class="flex items-start justify-between gap-4">
 											<div class="flex-1 min-w-0">
@@ -948,7 +945,7 @@
 														• {project.locale}{/if}
 												</p>
 												<div class="flex flex-wrap gap-2 mt-2">
-													{#each project.researchSection || [] as section}
+													{#each project.researchSection || [] as section (section)}
 														<a
 															href={researchSectionsUrl(section)}
 															class="hover:opacity-80 transition-opacity"
@@ -959,7 +956,7 @@
 												</div>
 												{#if project.pi && project.pi.length > 0}
 													<p class="text-sm text-muted-foreground mt-2">
-														PI: {#each project.pi as pi, i}{#if i > 0},&nbsp;{/if}<a
+														PI: {#each project.pi as pi, i (pi)}{#if i > 0},&nbsp;{/if}<a
 																href={personUrl(pi)}
 																class="hover:text-primary transition-colors">{pi}</a
 															>{/each}

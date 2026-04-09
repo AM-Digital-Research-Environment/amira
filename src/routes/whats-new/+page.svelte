@@ -16,6 +16,7 @@
 	import Pagination from '$lib/components/ui/pagination.svelte';
 	import EmptyState from '$lib/components/ui/empty-state.svelte';
 	import { BarChart } from '$lib/components/charts';
+	import { SvelteDate, SvelteMap, SvelteSet } from 'svelte/reactivity';
 
 	// Parse a date-like value into a Date or null
 	function parseDate(val: Date | string | null | undefined): Date | null {
@@ -35,7 +36,7 @@
 
 	let cutoffDate: Date | null = $derived.by(() => {
 		if (timeWindow === 'all') return null;
-		const d = new Date();
+		const d = new SvelteDate();
 		d.setMonth(d.getMonth() - parseInt(timeWindow));
 		return d;
 	});
@@ -64,7 +65,7 @@
 	}
 
 	let projectsByNewItems: ProjectNewInfo[] = $derived.by(() => {
-		const map = new Map<string, { latest: Date; count: number }>();
+		const map = new SvelteMap<string, { latest: Date; count: number }>();
 		for (const item of recentItems) {
 			const pid = item.project?.id;
 			if (!pid) continue;
@@ -96,7 +97,7 @@
 
 	// Count of projects that have items within time window
 	let projectsWithNewItems: number = $derived.by(() => {
-		const pids = new Set<string>();
+		const pids = new SvelteSet<string>();
 		for (const item of recentItems) {
 			if (item.project?.id) pids.add(item.project.id);
 		}
@@ -105,7 +106,7 @@
 
 	// Recently added items grouped by resource type
 	let itemsByType: BarChartDataPoint[] = $derived.by(() => {
-		const counts = new Map<string, number>();
+		const counts = new SvelteMap<string, number>();
 		for (const item of recentItems) {
 			const type = item.typeOfResource || 'Unknown';
 			counts.set(type, (counts.get(type) ?? 0) + 1);
@@ -189,7 +190,7 @@
 		</h2>
 		{#if projectsByNewItems.length > 0}
 			<div class="grid gap-3 sm:grid-cols-2">
-				{#each projectsByNewItems as { project, latestItemDate, newItemCount, totalItemCount }}
+				{#each projectsByNewItems as { project, latestItemDate, newItemCount, totalItemCount } (project.id)}
 					<Card>
 						<CardContent class="p-4">
 							<div class="flex items-start justify-between gap-2">
@@ -206,7 +207,7 @@
 										</p>
 									{/if}
 									<div class="flex flex-wrap items-center gap-1.5 mt-2">
-										{#each project.researchSection ?? [] as section}
+										{#each project.researchSection ?? [] as section (section)}
 											<Badge variant="outline">
 												<span
 													class="inline-block w-2 h-2 rounded-full mr-1"
@@ -245,7 +246,7 @@
 			<Card>
 				<CardContent class="p-4">
 					<ul class="space-y-2">
-						{#each paginatedItems as item}
+						{#each paginatedItems as item (item._id || item.dre_id)}
 							<CollectionItemRow {item} showType={true} showProject={true}>
 								{#snippet extraMetadata()}
 									{#if item.createdAt}

@@ -21,6 +21,7 @@
 	import { DEFAULT_ITEMS_PER_PAGE } from '$lib/utils/constants';
 	import type { CollectionItem } from '$lib/types';
 	import { MapPin, Globe, FileText, Building2 } from '@lucide/svelte';
+	import { SvelteMap } from 'svelte/reactivity';
 	import { WissKILink } from '$lib/components/ui';
 	import { getLocationColor } from '$lib/styles';
 
@@ -47,10 +48,10 @@
 	}
 
 	let locationIndex = $derived.by(() => {
-		const countries = new Map<string, LocationData>();
-		const regions = new Map<string, LocationData>();
-		const cities = new Map<string, LocationData>();
-		const current = new Map<string, LocationData>();
+		const countries = new SvelteMap<string, LocationData>();
+		const regions = new SvelteMap<string, LocationData>();
+		const cities = new SvelteMap<string, LocationData>();
+		const current = new SvelteMap<string, LocationData>();
 
 		$allCollections.forEach((item) => {
 			(item.location?.origin || []).forEach((o) => {
@@ -392,7 +393,7 @@
 							<Input placeholder="Search locations..." bind:value={searchQuery} />
 
 							<div class="space-y-0.5 max-h-list-scroll overflow-y-auto">
-								{#each filteredLocations as loc}
+								{#each filteredLocations as loc (`${loc.type}:${loc.name}|${loc.country ?? ''}|${loc.region ?? ''}`)}
 									{@const isSelected = selectedName === loc.name}
 									<button
 										onclick={() => selectLocation(loc)}
@@ -530,7 +531,7 @@
 							<CardContent>
 								{#snippet children()}
 									<div class="flex flex-wrap gap-2">
-										{#each regionsInCountry as region}
+										{#each regionsInCountry as region (`${region.name}|${region.country ?? ''}`)}
 											<button
 												onclick={() => selectLocation(region)}
 												class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-muted/50 text-sm text-foreground hover:text-primary hover:bg-muted transition-colors"
@@ -568,7 +569,7 @@
 							<CardContent>
 								{#snippet children()}
 									<div class="flex flex-wrap gap-2">
-										{#each citiesInLocation as city}
+										{#each citiesInLocation as city (`${city.name}|${city.country ?? ''}|${city.region ?? ''}`)}
 											<button
 												onclick={() => selectLocation(city)}
 												class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-muted/50 text-sm text-foreground hover:text-primary hover:bg-muted transition-colors"
@@ -605,7 +606,7 @@
 						<CardContent>
 							{#snippet children()}
 								<ul class="space-y-2">
-									{#each paginatedItems as item}
+									{#each paginatedItems as item (item._id || item.dre_id)}
 										<CollectionItemRow {item} showProject={true} />
 									{/each}
 								</ul>

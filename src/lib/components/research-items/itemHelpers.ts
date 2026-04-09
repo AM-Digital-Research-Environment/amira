@@ -190,9 +190,7 @@ export function getAllDates(item: CollectionItem): DateEntry[] {
 		if (!range || typeof range !== 'object') continue;
 		const start = fmtDate(range.start);
 		const end = fmtDate(range.end);
-		let value = '';
-		if (start && end) value = `${start} – ${end}`;
-		else value = start || end;
+		const value = start && end ? `${start} – ${end}` : start || end;
 		if (value) {
 			entries.push({ label: DATE_LABELS[key] || key, value });
 		}

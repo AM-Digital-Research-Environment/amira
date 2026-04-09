@@ -5,6 +5,7 @@
 	import { cn } from '$lib/utils/cn';
 	import { CHART_COLORS } from '$lib/styles';
 	import { buildTitle, buildGrid } from './utils';
+	import { SvelteMap } from 'svelte/reactivity';
 
 	export interface GanttDataPoint {
 		/** Display name (y-axis label) */
@@ -45,7 +46,7 @@
 	);
 
 	let categoryColorMap = $derived.by(() => {
-		const map = new Map<string, string>();
+		const map = new SvelteMap<string, string>();
 		allCategories.forEach((cat, i) => {
 			map.set(cat, CHART_COLORS[i % CHART_COLORS.length]);
 		});

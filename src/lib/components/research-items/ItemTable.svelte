@@ -58,7 +58,7 @@
 			</tr>
 		</thead>
 		<tbody>
-			{#each items as item}
+			{#each items as item (item._id || item.dre_id)}
 				{@const contributors = contributorSummary(item)}
 				{@const origins = getOrigins(item)}
 				{@const projName = item.project?.name || ''}

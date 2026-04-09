@@ -17,7 +17,6 @@
 	import { allCollections } from '$lib/stores/data';
 	import { page } from '$app/stores';
 	import { createUrlSelection, scrollToElement } from '$lib/utils/urlSelection';
-	import { createSearchFilter } from '$lib/utils/search';
 	import { paginate } from '$lib/utils/pagination';
 	import { DEFAULT_ITEMS_PER_PAGE } from '$lib/utils/constants';
 	import {
@@ -138,7 +137,7 @@
 					{#snippet children()}
 						<Input placeholder="Search genres..." bind:value={searchQuery} />
 						<div class="space-y-0.5 mt-3 max-h-list-scroll overflow-y-auto">
-							{#each filteredGenres as genre}
+							{#each filteredGenres as genre (genre.name)}
 								{@const isSelected = selectedGenre === genre.name}
 								<button
 									onclick={() => selectGenre(genre.name)}
@@ -216,7 +215,7 @@
 						<CardContent>
 							{#snippet children()}
 								<ul class="space-y-2">
-									{#each paginatedItems as item}
+									{#each paginatedItems as item (item._id || item.dre_id)}
 										<CollectionItemRow {item} showType={true} showProject={true} />
 									{/each}
 								</ul>

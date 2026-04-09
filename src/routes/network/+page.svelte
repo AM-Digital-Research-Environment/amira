@@ -19,6 +19,7 @@
 	import { universityOptions } from '$lib/types';
 	import type { CollectionItem } from '$lib/types';
 	import { Circle, Link, Tag, Building2, Users, Briefcase } from '@lucide/svelte';
+	import { SvelteSet } from 'svelte/reactivity';
 
 	const tabs = [
 		{ id: 'contributors', label: 'Contributors' },
@@ -35,7 +36,7 @@
 
 	// Get unique resource types from all collections
 	let resourceTypeOptions = $derived.by(() => {
-		const types = new Set<string>();
+		const types = new SvelteSet<string>();
 		$allCollections.forEach((item) => {
 			if (item.typeOfResource) types.add(item.typeOfResource);
 		});
@@ -166,7 +167,7 @@
 
 				<ChartCard title="Network Legend" class="mt-6">
 					<div class="flex gap-6">
-						{#each contributorNetwork.categories as category, i}
+						{#each contributorNetwork.categories as category, i (category.name ?? i)}
 							<div class="flex items-center gap-2">
 								<div
 									class="w-4 h-4 rounded-full"
@@ -217,7 +218,7 @@
 
 				<ChartCard title="Network Legend" class="mt-6">
 					<div class="flex gap-6">
-						{#each affiliationNetwork.categories as category, i}
+						{#each affiliationNetwork.categories as category, i (category.name ?? i)}
 							<div class="flex items-center gap-2">
 								<div
 									class="w-4 h-4 rounded-full"

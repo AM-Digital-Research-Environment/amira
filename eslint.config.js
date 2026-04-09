@@ -14,7 +14,8 @@ export default ts.config(
 		languageOptions: {
 			globals: {
 				...globals.browser,
-				...globals.node
+				...globals.node,
+				__APP_VERSION__: 'readonly'
 			}
 		}
 	},
@@ -45,6 +46,6 @@ export default ts.config(
 		}
 	},
 	{
-		ignores: ['build/', '.svelte-kit/', 'dist/', 'node_modules/', 'static/']
+		ignores: ['build/', '.svelte-kit/', 'dist/', 'node_modules/', 'static/', '.venv/', 'venv/']
 	}
 );

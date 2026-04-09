@@ -26,7 +26,7 @@
 		sortedCategoryList,
 		categoryToChartData
 	} from '$lib/utils/categoryIndex';
-	import type { CollectionItem, WordCloudDataPoint, CategoryEntry } from '$lib/types';
+	import type { WordCloudDataPoint, CategoryEntry } from '$lib/types';
 	import { BookOpen, Tag, FileText } from '@lucide/svelte';
 	import { WissKILink } from '$lib/components/ui';
 
@@ -187,7 +187,7 @@
 							<Input placeholder="Search {viewMode}..." bind:value={searchQuery} />
 
 							<div class="space-y-0.5 max-h-list-scroll overflow-y-auto">
-								{#each filteredTerms as term}
+								{#each filteredTerms as term (term.name)}
 									{@const isSelected = selectedName === term.name}
 									<button
 										onclick={() => selectTerm(term.name)}
@@ -270,7 +270,7 @@
 						<CardContent>
 							{#snippet children()}
 								<ul class="space-y-2">
-									{#each paginatedItems as item}
+									{#each paginatedItems as item (item._id || item.dre_id)}
 										<CollectionItemRow {item} showProject={true} />
 									{/each}
 								</ul>

@@ -21,6 +21,7 @@
 	import { DEFAULT_ITEMS_PER_PAGE } from '$lib/utils/constants';
 	import type { CollectionItem } from '$lib/types';
 	import { Languages, FileText } from '@lucide/svelte';
+	import { SvelteMap } from 'svelte/reactivity';
 	import { WissKILink } from '$lib/components/ui';
 
 	const urlSelection = createUrlSelection('code');
@@ -43,7 +44,7 @@
 	}
 
 	let languageMap = $derived.by(() => {
-		const map = new Map<string, LanguageData>();
+		const map = new SvelteMap<string, LanguageData>();
 		$allCollections.forEach((item) => {
 			(item.language || []).forEach((rawCode) => {
 				if (!rawCode) return;
@@ -140,7 +141,7 @@
 						<div class="space-y-3">
 							<Input placeholder="Search languages..." bind:value={searchQuery} />
 							<div class="space-y-0.5 max-h-list-scroll overflow-y-auto">
-								{#each filteredLanguages as lang}
+								{#each filteredLanguages as lang (lang.code)}
 									{@const isSelected = selectedCode === lang.code}
 									<button
 										onclick={() => selectLanguage(lang.code)}
@@ -216,7 +217,7 @@
 						<CardContent>
 							{#snippet children()}
 								<ul class="space-y-2">
-									{#each paginatedItems as item}
+									{#each paginatedItems as item (item._id || item.dre_id)}
 										<CollectionItemRow {item} showProject={true} />
 									{/each}
 								</ul>

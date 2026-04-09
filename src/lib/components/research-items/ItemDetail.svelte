@@ -31,7 +31,6 @@
 		StickyNote,
 		Heart,
 		Link,
-		Archive,
 		Target,
 		Hash
 	} from '@lucide/svelte';
@@ -51,8 +50,7 @@
 		getGenre,
 		getPhysicalDescription,
 		getCurrentLocations,
-		getAllDates,
-		formatDateInfo
+		getAllDates
 	} from './itemHelpers';
 
 	interface Props {
@@ -78,7 +76,6 @@
 	let physicalDesc = $derived(getPhysicalDescription(item));
 	let currentLocations = $derived(getCurrentLocations(item));
 	let allDates = $derived(getAllDates(item));
-	let dateStr = $derived(formatDateInfo(item));
 </script>
 
 <!-- Title & Metadata — full width -->
@@ -92,7 +89,7 @@
 					</CardTitle>
 					{#if item.titleInfo?.length > 1}
 						<div class="mt-2 space-y-1">
-							{#each item.titleInfo.slice(1) as alt}
+							{#each item.titleInfo.slice(1) as alt (alt.title)}
 								<p class="text-sm break-words">
 									<span class="text-muted-foreground font-medium">{alt.title_type} title:</span>
 									<span class="text-foreground/80">{alt.title}</span>
@@ -131,7 +128,7 @@
 							<BookType class="h-4 w-4 text-muted-foreground shrink-0" />
 							<span class="text-muted-foreground shrink-0">Genre</span>
 							<span class="text-foreground">
-								{#each genre as g, i}
+								{#each genre as g, i (g)}
 									<a href={genreUrl(g)} class="hover:text-primary transition-colors">{g}</a
 									>{#if i < genre.length - 1},&nbsp;{/if}
 								{/each}
@@ -158,7 +155,7 @@
 							<Languages class="h-4 w-4 text-muted-foreground shrink-0" />
 							<span class="text-muted-foreground shrink-0">Language</span>
 							<span class="text-foreground">
-								{#each getLanguages(item) as lang, i}
+								{#each getLanguages(item) as lang, i (lang)}
 									<a href={languageUrl(lang)} class="hover:text-primary transition-colors"
 										>{languageName(lang)}</a
 									>{#if i < getLanguages(item).length - 1},&nbsp;{/if}
@@ -166,7 +163,7 @@
 							</span>
 						</div>
 					{/if}
-					{#each allDates as dateEntry}
+					{#each allDates as dateEntry (dateEntry.label)}
 						<div class="flex items-center gap-2">
 							<Calendar class="h-4 w-4 text-muted-foreground shrink-0" />
 							<span class="text-muted-foreground shrink-0">{dateEntry.label}</span>
@@ -227,7 +224,7 @@
 				<CardContent>
 					{#snippet children()}
 						<ul class="space-y-2">
-							{#each contributors as contributor}
+							{#each contributors as contributor (contributor.name + (contributor.role ?? ''))}
 								<li class="p-2 rounded-lg bg-muted/30">
 									<div class="flex items-center justify-between gap-2">
 										<a
@@ -251,7 +248,7 @@
 									</div>
 									{#if contributor.affiliations.length > 0}
 										<div class="mt-1">
-											{#each contributor.affiliations as affl}
+											{#each contributor.affiliations as affl (affl)}
 												<a
 													href={institutionUrl(affl)}
 													class="text-xs text-muted-foreground hover:text-primary transition-colors block"
@@ -290,7 +287,7 @@
 					{#snippet children()}
 						<div class="space-y-4">
 							{#if origins.length > 0}
-								{#each origins as origin, i}
+								{#each origins as origin, i (i)}
 									<div class="space-y-1.5">
 										{#if origins.length > 1}
 											<p class="text-xs font-semibold text-muted-foreground">Origin {i + 1}</p>
@@ -331,7 +328,7 @@
 							{#if currentLocations.length > 0}
 								<div class="space-y-1">
 									<p class="text-xs font-semibold text-muted-foreground">Located at</p>
-									{#each currentLocations as loc}
+									{#each currentLocations as loc (loc)}
 										<p class="text-sm text-foreground">{loc}</p>
 									{/each}
 								</div>
@@ -362,7 +359,7 @@
 				<CardContent>
 					{#snippet children()}
 						<div class="flex flex-wrap gap-2">
-							{#each subjects as subject}
+							{#each subjects as subject (subject)}
 								<a href={subjectUrl(subject)} class="hover:opacity-80 transition-opacity">
 									<Badge variant="secondary" class="hover:bg-primary/20 transition-colors">
 										{#snippet children()}{subject}{/snippet}
@@ -395,7 +392,7 @@
 				<CardContent>
 					{#snippet children()}
 						<div class="flex flex-wrap gap-1.5">
-							{#each tags as tag}
+							{#each tags as tag (tag)}
 								<a href={tagUrl(tag)} class="hover:opacity-80 transition-opacity">
 									<Badge variant="outline" class="text-xs hover:bg-accent/20 transition-colors">
 										{#snippet children()}{tag}{/snippet}
@@ -489,7 +486,7 @@
 				<CardContent>
 					{#snippet children()}
 						<div class="space-y-2">
-							{#each identifiers as id}
+							{#each identifiers as id (id.type + id.value)}
 								<div class="flex items-start gap-3 text-sm">
 									<span class="text-muted-foreground shrink-0 min-w-[80px]">{id.type}</span>
 									{#if id.value.startsWith('http')}
@@ -532,7 +529,7 @@
 				<CardContent>
 					{#snippet children()}
 						<div class="space-y-2">
-							{#each urls as url}
+							{#each urls as url (url)}
 								<a
 									href={url}
 									target="_blank"
@@ -569,7 +566,7 @@
 				<CardContent>
 					{#snippet children()}
 						<ul class="space-y-1.5">
-							{#each sponsors as sponsor}
+							{#each sponsors as sponsor (sponsor)}
 								<li class="text-sm text-muted-foreground">{sponsor}</li>
 							{/each}
 						</ul>
@@ -598,7 +595,7 @@
 				<CardContent>
 					{#snippet children()}
 						<div class="flex flex-wrap gap-2">
-							{#each targetAudience as audience}
+							{#each targetAudience as audience (audience)}
 								<a
 									href="{base}/research-items?audience={encodeURIComponent(audience)}"
 									class="hover:opacity-80 transition-opacity"

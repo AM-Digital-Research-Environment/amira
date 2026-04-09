@@ -4,6 +4,7 @@
 	import NetworkGraph from './NetworkGraph.svelte';
 	import type { NetworkData } from '$lib/types';
 	import { Share2, Maximize2, Minimize2 } from '@lucide/svelte';
+	import { SvelteMap } from 'svelte/reactivity';
 	import {
 		researchItemUrl,
 		personUrl,
@@ -28,7 +29,7 @@
 	let fullscreen = $state(false);
 
 	// Cache loaded graphs in memory to avoid refetching
-	const cache = new Map<string, NetworkData>();
+	const cache = new SvelteMap<string, NetworkData>();
 
 	async function loadGraph(type: string, id: string) {
 		if (!id) return;

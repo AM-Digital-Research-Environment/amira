@@ -133,11 +133,11 @@
 
 	<!-- Content -->
 	<div class="sidebar-content">
-		{#each navGroups as group}
+		{#each navGroups as group (group.label)}
 			<div class="sidebar-group">
 				<div class="sidebar-group-label">{group.label}</div>
 				<nav>
-					{#each group.items as item}
+					{#each group.items as item (item.href)}
 						{@const Icon = item.icon}
 						<a
 							href={item.href}

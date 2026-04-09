@@ -206,7 +206,7 @@
 						onchange={(e) => onSelectedTypeChange(e.currentTarget.value)}
 						class="w-full h-10 rounded-md border border-input bg-background px-3 py-2 text-sm"
 					>
-						{#each resourceTypes as type}
+						{#each resourceTypes as type (type)}
 							<option value={type}>{type === 'all' ? 'All types' : type}</option>
 						{/each}
 					</select>
@@ -235,7 +235,7 @@
 
 						{#if selectedCountries.length > 0}
 							<div class="flex flex-wrap gap-1.5 mt-2">
-								{#each selectedCountries as country}
+								{#each selectedCountries as country (country)}
 									<button
 										onclick={() => onToggleCountry(country)}
 										class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-chart-3/15 text-foreground text-xs font-medium hover:bg-chart-3/25 transition-colors"
@@ -259,7 +259,7 @@
 									<Input placeholder="Search countries..." bind:value={countrySearch} />
 								{/if}
 								<div class="space-y-0.5 max-h-32 overflow-y-auto">
-									{#each filteredCountryOptions as country}
+									{#each filteredCountryOptions as country (country.name)}
 										{@const isActive = selectedCountries.includes(country.name)}
 										<button
 											onclick={() => onToggleCountry(country.name)}
@@ -300,7 +300,7 @@
 
 						{#if selectedProjects.length > 0}
 							<div class="flex flex-wrap gap-1.5 mt-2">
-								{#each selectedProjects as project}
+								{#each selectedProjects as project (project)}
 									<button
 										onclick={() => onToggleProject(project)}
 										class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-chart-4/15 text-foreground text-xs font-medium hover:bg-chart-4/25 transition-colors"
@@ -324,7 +324,7 @@
 									<Input placeholder="Search projects..." bind:value={projectSearch} />
 								{/if}
 								<div class="space-y-0.5 max-h-32 overflow-y-auto">
-									{#each filteredProjectOptions as project}
+									{#each filteredProjectOptions as project (project.name)}
 										{@const isActive = selectedProjects.includes(project.name)}
 										<button
 											onclick={() => onToggleProject(project.name)}
@@ -365,7 +365,7 @@
 
 						{#if selectedLanguages.length > 0}
 							<div class="flex flex-wrap gap-1.5 mt-2">
-								{#each selectedLanguages as lang}
+								{#each selectedLanguages as lang (lang)}
 									<button
 										onclick={() => onToggleLanguage(lang)}
 										class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-chart-5/15 text-foreground text-xs font-medium hover:bg-chart-5/25 transition-colors"
@@ -389,7 +389,7 @@
 									<Input placeholder="Search languages..." bind:value={languageSearch} />
 								{/if}
 								<div class="space-y-0.5 max-h-32 overflow-y-auto">
-									{#each filteredLanguageOptions as lang}
+									{#each filteredLanguageOptions as lang (lang.name)}
 										{@const isActive = selectedLanguages.includes(lang.name)}
 										<button
 											onclick={() => onToggleLanguage(lang.name)}
@@ -430,7 +430,7 @@
 
 						{#if selectedSubjects.length > 0}
 							<div class="flex flex-wrap gap-1.5 mt-2">
-								{#each selectedSubjects as subject}
+								{#each selectedSubjects as subject (subject)}
 									<button
 										onclick={() => onToggleSubject(subject)}
 										class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-primary/15 text-primary text-xs font-medium hover:bg-primary/25 transition-colors"
@@ -452,7 +452,7 @@
 							<div class="mt-2 space-y-2">
 								<Input placeholder="Search subjects..." bind:value={subjectSearch} />
 								<div class="space-y-0.5 max-h-32 overflow-y-auto">
-									{#each filteredSubjectOptions as subject}
+									{#each filteredSubjectOptions as subject (subject.name)}
 										{@const isActive = selectedSubjects.includes(subject.name)}
 										<button
 											onclick={() => onToggleSubject(subject.name)}
@@ -493,7 +493,7 @@
 
 						{#if selectedTags.length > 0}
 							<div class="flex flex-wrap gap-1.5 mt-2">
-								{#each selectedTags as tag}
+								{#each selectedTags as tag (tag)}
 									<button
 										onclick={() => onToggleTag(tag)}
 										class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-accent/30 text-accent-foreground text-xs font-medium hover:bg-accent/50 transition-colors"
@@ -515,7 +515,7 @@
 							<div class="mt-2 space-y-2">
 								<Input placeholder="Search tags..." bind:value={tagSearch} />
 								<div class="space-y-0.5 max-h-32 overflow-y-auto">
-									{#each filteredTagOptions as tag}
+									{#each filteredTagOptions as tag (tag.name)}
 										{@const isActive = selectedTags.includes(tag.name)}
 										<button
 											onclick={() => onToggleTag(tag.name)}
@@ -556,7 +556,7 @@
 
 						{#if selectedAudiences.length > 0}
 							<div class="flex flex-wrap gap-1.5 mt-2">
-								{#each selectedAudiences as audience}
+								{#each selectedAudiences as audience (audience)}
 									<button
 										onclick={() => onToggleAudience(audience)}
 										class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-chart-2/15 text-foreground text-xs font-medium hover:bg-chart-2/25 transition-colors"
@@ -580,7 +580,7 @@
 									<Input placeholder="Search audiences..." bind:value={audienceSearch} />
 								{/if}
 								<div class="space-y-0.5 max-h-32 overflow-y-auto">
-									{#each filteredAudienceOptions as audience}
+									{#each filteredAudienceOptions as audience (audience.name)}
 										{@const isActive = selectedAudiences.includes(audience.name)}
 										<button
 											onclick={() => onToggleAudience(audience.name)}
@@ -621,7 +621,7 @@
 
 						{#if selectedMethods.length > 0}
 							<div class="flex flex-wrap gap-1.5 mt-2">
-								{#each selectedMethods as method}
+								{#each selectedMethods as method (method)}
 									<button
 										onclick={() => onToggleMethod(method)}
 										class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-chart-1/15 text-foreground text-xs font-medium hover:bg-chart-1/25 transition-colors"
@@ -642,7 +642,7 @@
 						{#if methodsExpanded}
 							<div class="mt-2 space-y-2">
 								<div class="space-y-0.5 max-h-32 overflow-y-auto">
-									{#each filteredMethodOptions as method}
+									{#each filteredMethodOptions as method (method.name)}
 										{@const isActive = selectedMethods.includes(method.name)}
 										<button
 											onclick={() => onToggleMethod(method.name)}

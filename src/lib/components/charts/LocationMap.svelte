@@ -4,12 +4,13 @@
 	import type { EnrichedLocationsData, CollectionItem } from '$lib/types';
 	import maplibregl from 'maplibre-gl';
 	import { Maximize2, Minimize2 } from '@lucide/svelte';
+	import { SvelteMap } from 'svelte/reactivity';
 
 	// Extracted sub-modules
 	import type { LocationData } from './map/markerBuilder';
 	import { buildAggregatedMarkers } from './map/markerBuilder';
 	import { buildPopupHtml } from './map/popupBuilder';
-	import { getMarkerRadius, getMarkerColor, ITEMS_PER_PAGE, MAP_STYLE } from './map/mapHelpers';
+	import { getMarkerRadius, getMarkerColor, MAP_STYLE } from './map/mapHelpers';
 	import { theme } from '$lib/stores/data';
 
 	interface Props {
@@ -36,7 +37,7 @@
 	let initialTheme: string | null = null;
 
 	// Store pagination state for each marker
-	const paginationState = new Map<string, number>();
+	const paginationState = new SvelteMap<string, number>();
 
 	// Store all markers to manage popups
 	let mapMarkers: maplibregl.Marker[] = [];

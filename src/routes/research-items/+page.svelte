@@ -17,6 +17,7 @@
 		getLanguages
 	} from '$lib/components/research-items';
 	import { BackToList } from '$lib/components/ui';
+	import { SvelteMap, SvelteSet } from 'svelte/reactivity';
 
 	let searchQuery = $state('');
 	let selectedType = $state('all');
@@ -51,7 +52,7 @@
 
 	// Unique resource types for filter
 	let resourceTypes = $derived.by(() => {
-		const types = new Set<string>();
+		const types = new SvelteSet<string>();
 		$allCollections.forEach((item) => {
 			if (item.typeOfResource) types.add(item.typeOfResource);
 		});
@@ -60,7 +61,7 @@
 
 	// Subjects (LCSH controlled vocabulary) with counts
 	let allSubjectsWithCounts = $derived.by(() => {
-		const counts = new Map<string, number>();
+		const counts = new SvelteMap<string, number>();
 		$allCollections.forEach((item) => {
 			if (!Array.isArray(item.subject)) return;
 			item.subject.forEach((s) => {
@@ -75,7 +76,7 @@
 
 	// Tags (free-form keywords) with counts
 	let allTagsWithCounts = $derived.by(() => {
-		const counts = new Map<string, number>();
+		const counts = new SvelteMap<string, number>();
 		$allCollections.forEach((item) => {
 			if (!Array.isArray(item.tags)) return;
 			item.tags.forEach((t) => {
@@ -89,7 +90,7 @@
 
 	// Countries with counts
 	let allCountriesWithCounts = $derived.by(() => {
-		const counts = new Map<string, number>();
+		const counts = new SvelteMap<string, number>();
 		$allCollections.forEach((item) => {
 			const origins = getOrigins(item);
 			origins.forEach((o) => {
@@ -103,7 +104,7 @@
 
 	// Projects with counts
 	let allProjectsWithCounts = $derived.by(() => {
-		const counts = new Map<string, number>();
+		const counts = new SvelteMap<string, number>();
 		$allCollections.forEach((item) => {
 			if (item.project?.name) {
 				counts.set(item.project.name, (counts.get(item.project.name) || 0) + 1);
@@ -116,7 +117,7 @@
 
 	// Languages with counts
 	let allLanguagesWithCounts = $derived.by(() => {
-		const counts = new Map<string, number>();
+		const counts = new SvelteMap<string, number>();
 		$allCollections.forEach((item) => {
 			const langs = getLanguages(item);
 			langs.forEach((l) => {
@@ -129,7 +130,7 @@
 	});
 
 	let allAudiencesWithCounts = $derived.by(() => {
-		const counts = new Map<string, number>();
+		const counts = new SvelteMap<string, number>();
 		$allCollections.forEach((item) => {
 			if (Array.isArray(item.targetAudience)) {
 				item.targetAudience.forEach((a) => {
@@ -143,7 +144,7 @@
 	});
 
 	let allMethodsWithCounts = $derived.by(() => {
-		const counts = new Map<string, number>();
+		const counts = new SvelteMap<string, number>();
 		$allCollections.forEach((item) => {
 			const method = item.physicalDescription?.method;
 			if (method && typeof method === 'string') counts.set(method, (counts.get(method) || 0) + 1);

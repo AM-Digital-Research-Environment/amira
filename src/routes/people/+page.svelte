@@ -36,7 +36,6 @@
 		BookOpen,
 		FileText,
 		Building2,
-		Tag,
 		MapPin,
 		Languages,
 		Layers,
@@ -46,6 +45,7 @@
 		Search
 	} from '@lucide/svelte';
 	import { formatDateInfo } from '$lib/components/research-items/itemHelpers';
+	import { SvelteMap, SvelteSet } from 'svelte/reactivity';
 	import { getItemTitle } from '$lib/utils/helpers';
 	import { institutionUrl } from '$lib/utils/urls';
 	import { WissKILink } from '$lib/components/ui';
@@ -73,7 +73,7 @@
 	}
 
 	let peopleMap = $derived.by(() => {
-		const map = new Map<string, PersonData>();
+		const map = new SvelteMap<string, PersonData>();
 
 		const getOrCreate = (name: string): PersonData => {
 			if (!map.has(name)) {
@@ -161,7 +161,7 @@
 
 	// Also check collection items for people that otherwise have no data
 	let peopleWithCollectionItems = $derived.by(() => {
-		const names = new Set<string>();
+		const names = new SvelteSet<string>();
 		$allCollections.forEach((item) => {
 			if (Array.isArray(item.name)) {
 				item.name.forEach((n) => {
@@ -179,12 +179,12 @@
 	}
 
 	let personRolesMap = $derived.by(() => {
-		const map = new Map<string, Set<string>>();
+		const map = new SvelteMap<string, Set<string>>();
 		$allCollections.forEach((item) => {
 			if (!Array.isArray(item.name)) return;
 			item.name.forEach((n) => {
 				if (n?.name?.label && n?.name?.qualifier === 'person' && n.role) {
-					if (!map.has(n.name.label)) map.set(n.name.label, new Set());
+					if (!map.has(n.name.label)) map.set(n.name.label, new SvelteSet());
 					map.get(n.name.label)!.add(n.role);
 				}
 			});
@@ -193,7 +193,7 @@
 	});
 
 	let allRolesWithCounts = $derived.by(() => {
-		const counts = new Map<string, number>();
+		const counts = new SvelteMap<string, number>();
 		for (const roles of personRolesMap.values()) {
 			for (const role of roles) {
 				counts.set(role, (counts.get(role) || 0) + 1);
@@ -246,7 +246,7 @@
 
 	// Unique resource types for the person's items
 	let itemResourceTypes = $derived.by(() => {
-		const types = new Set<string>();
+		const types = new SvelteSet<string>();
 		personCollectionItems.forEach((item) => {
 			if (item.typeOfResource) types.add(item.typeOfResource);
 		});
@@ -353,11 +353,11 @@
 	let personProfile = $derived.by(() => {
 		if (!selectedPerson || personCollectionItems.length === 0) return null;
 
-		const roles = new Map<string, number>();
-		const subjects = new Map<string, number>();
-		const languages = new Map<string, number>();
-		const countries = new Map<string, number>();
-		const resourceTypes = new Map<string, number>();
+		const roles = new SvelteMap<string, number>();
+		const subjects = new SvelteMap<string, number>();
+		const languages = new SvelteMap<string, number>();
+		const countries = new SvelteMap<string, number>();
+		const resourceTypes = new SvelteMap<string, number>();
 
 		for (const item of personCollectionItems) {
 			// Roles
@@ -460,7 +460,7 @@
 								class="w-full h-9 rounded-md border border-input bg-background px-3 py-1.5 text-sm"
 							>
 								<option value="">All roles</option>
-								{#each allRolesWithCounts as role}
+								{#each allRolesWithCounts as role (role.name)}
 									<option value={role.name}>{role.name} ({role.count})</option>
 								{/each}
 							</select>
@@ -477,7 +477,7 @@
 								</label>
 							{/if}
 							<div class="space-y-0.5 max-h-list-scroll overflow-y-auto">
-								{#each filteredPeople as person}
+								{#each filteredPeople as person (person.name)}
 									{@const isSelected = selectedName === person.name}
 									<button
 										onclick={() => selectPerson(person.name)}
@@ -607,7 +607,7 @@
 							<CardContent>
 								{#snippet children()}
 									<div class="flex flex-wrap gap-2">
-										{#each [...selectedPerson.affiliations].sort() as aff}
+										{#each [...selectedPerson.affiliations].sort() as aff (aff)}
 											<a href={institutionUrl(aff)} class="hover:opacity-80 transition-opacity">
 												<Badge variant="outline" class="hover:bg-primary/10 transition-colors">
 													{#snippet children()}{aff}{/snippet}
@@ -649,7 +649,7 @@
 													Roles
 												</h4>
 												<div class="flex flex-wrap gap-1.5">
-													{#each personProfile.roles as [role, count]}
+													{#each personProfile.roles as [role, count] (role)}
 														<Badge variant="secondary" class="text-xs">
 															{#snippet children()}{role}
 																<span class="text-muted-foreground ml-1">({count})</span>{/snippet}
@@ -668,7 +668,7 @@
 													Resource Types
 												</h4>
 												<div class="flex flex-wrap gap-1.5">
-													{#each personProfile.resourceTypes as [type, count]}
+													{#each personProfile.resourceTypes as [type, count] (type)}
 														<a
 															href={resourceTypeUrl(type)}
 															class="hover:opacity-80 transition-opacity"
@@ -696,7 +696,7 @@
 													Languages
 												</h4>
 												<div class="flex flex-wrap gap-1.5">
-													{#each personProfile.languages as [lang, count]}
+													{#each personProfile.languages as [lang, count] (lang)}
 														<a href={languageUrl(lang)} class="hover:opacity-80 transition-opacity">
 															<Badge
 																variant="outline"
@@ -723,7 +723,7 @@
 													Countries
 												</h4>
 												<div class="flex flex-wrap gap-1.5">
-													{#each personProfile.countries as [country, count]}
+													{#each personProfile.countries as [country, count] (country)}
 														<a
 															href={locationUrl(country)}
 															class="hover:opacity-80 transition-opacity"
@@ -752,7 +752,7 @@
 												Top Subjects
 											</h4>
 											<div class="flex flex-wrap gap-1.5">
-												{#each personProfile.subjects as [subject, count]}
+												{#each personProfile.subjects as [subject, count] (subject)}
 													<a href={subjectUrl(subject)} class="hover:opacity-80 transition-opacity">
 														<Badge
 															variant="outline"
@@ -791,7 +791,7 @@
 							<CardContent>
 								{#snippet children()}
 									<div class="flex flex-wrap gap-2">
-										{#each [...selectedPerson.sections].sort() as section}
+										{#each [...selectedPerson.sections].sort() as section (section)}
 											<a
 												href={researchSectionsUrl(section)}
 												class="hover:opacity-80 transition-opacity"
@@ -825,7 +825,7 @@
 							<CardContent>
 								{#snippet children()}
 									<ul class="space-y-3">
-										{#each selectedPerson.piOf as project}
+										{#each selectedPerson.piOf as project (project.id)}
 											<li class="flex items-start gap-3 p-3 rounded-lg bg-muted/30">
 												<Briefcase class="h-4 w-4 mt-0.5 text-muted-foreground shrink-0" />
 												<div class="min-w-0">
@@ -851,7 +851,7 @@
 													</div>
 													{#if project.researchSection?.length}
 														<div class="flex flex-wrap gap-1 mt-1.5">
-															{#each project.researchSection as section}
+															{#each project.researchSection as section (section)}
 																<a
 																	href={researchSectionsUrl(section)}
 																	class="hover:opacity-80 transition-opacity"
@@ -890,7 +890,7 @@
 							<CardContent>
 								{#snippet children()}
 									<ul class="space-y-3">
-										{#each selectedPerson.memberOf as project}
+										{#each selectedPerson.memberOf as project (project.id)}
 											<li class="flex items-start gap-3 p-3 rounded-lg bg-muted/30">
 												<Briefcase class="h-4 w-4 mt-0.5 text-muted-foreground shrink-0" />
 												<div class="min-w-0">
@@ -954,7 +954,7 @@
 											class="h-9 rounded-md border border-input bg-background px-3 text-sm ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring"
 										>
 											<option value="">All types</option>
-											{#each itemResourceTypes as type}
+											{#each itemResourceTypes as type (type)}
 												<option value={type}>{type}</option>
 											{/each}
 										</select>
@@ -994,7 +994,7 @@
 										<EmptyState message="No items match your filters" icon={Search} />
 									{:else}
 										<ul class="space-y-2">
-											{#each paginatedCollectionItems as item}
+											{#each paginatedCollectionItems as item (item._id || item.dre_id)}
 												<CollectionItemRow {item}>
 													{#snippet extraMetadata()}
 														{#if getPersonRole(item, selectedPerson.name)}

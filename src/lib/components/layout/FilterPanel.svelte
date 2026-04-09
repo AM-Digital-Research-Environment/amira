@@ -55,7 +55,7 @@
 			<div>
 				<h4 class="text-sm font-medium mb-2 text-muted-foreground">University</h4>
 				<div class="flex flex-wrap gap-2">
-					{#each universities as uni}
+					{#each universities as uni (uni.id)}
 						<button
 							type="button"
 							onclick={() => toggleUniversity(uni.id)}
@@ -77,7 +77,7 @@
 			<div>
 				<h4 class="text-sm font-medium mb-2 text-muted-foreground">Resource Type</h4>
 				<div class="flex flex-wrap gap-2">
-					{#each resourceTypes as type}
+					{#each resourceTypes as type (type)}
 						<button
 							type="button"
 							onclick={() => toggleResourceType(type)}
@@ -98,7 +98,7 @@
 			<div>
 				<h4 class="text-sm font-medium mb-2 text-muted-foreground">Language</h4>
 				<div class="flex flex-wrap gap-2">
-					{#each languages as lang}
+					{#each languages as lang (lang)}
 						<button
 							type="button"
 							onclick={() => toggleLanguage(lang)}
@@ -118,7 +118,7 @@
 	{:else}
 		<!-- Quick filter summary -->
 		<div class="flex flex-wrap gap-2">
-			{#each $filters.universities as uniId}
+			{#each $filters.universities as uniId (uniId)}
 				{@const uni = universities.find((u) => u.id === uniId)}
 				{#if uni}
 					<Badge variant="outline">
@@ -133,7 +133,7 @@
 					</Badge>
 				{/if}
 			{/each}
-			{#each $filters.resourceTypes as type}
+			{#each $filters.resourceTypes as type (type)}
 				<Badge variant="outline">
 					{type}
 					<button
@@ -145,7 +145,7 @@
 					</button>
 				</Badge>
 			{/each}
-			{#each $filters.languages as lang}
+			{#each $filters.languages as lang (lang)}
 				<Badge variant="outline">
 					{languageName(lang)}
 					<button

@@ -19,6 +19,7 @@
 	import { createSearchFilter } from '$lib/utils/search';
 	import { paginate } from '$lib/utils/pagination';
 	import { UsersRound, FileText } from '@lucide/svelte';
+	import { SvelteMap, SvelteSet } from 'svelte/reactivity';
 	import { WissKILink } from '$lib/components/ui';
 
 	const urlSelection = createUrlSelection('name');
@@ -38,7 +39,7 @@
 	}
 
 	let groupMap = $derived.by(() => {
-		const map = new Map<string, GroupData>();
+		const map = new SvelteMap<string, GroupData>();
 
 		const getOrCreate = (name: string): GroupData => {
 			if (!map.has(name)) {
@@ -84,7 +85,7 @@
 	let groupCollectionItems = $derived.by((): CollectionItem[] => {
 		if (!selectedGroup) return [];
 		const name = selectedGroup.name;
-		const seen = new Set<string>();
+		const seen = new SvelteSet<string>();
 		const results: CollectionItem[] = [];
 		$allCollections.forEach((item) => {
 			const id = item._id || item.dre_id;
@@ -162,7 +163,7 @@
 						<div class="space-y-3">
 							<Input placeholder="Search groups..." bind:value={searchQuery} />
 							<div class="space-y-1 max-h-list-scroll overflow-y-auto">
-								{#each filteredGroups as grp}
+								{#each filteredGroups as grp (grp.name)}
 									{@const isSelected = selectedName === grp.name}
 									<button
 										onclick={() => selectGroup(grp.name)}
@@ -237,7 +238,7 @@
 							<CardContent>
 								{#snippet children()}
 									<ul class="space-y-2">
-										{#each paginatedCollectionItems as item}
+										{#each paginatedCollectionItems as item (item._id || item.dre_id)}
 											<CollectionItemRow {item} showProject={false} />
 										{/each}
 									</ul>

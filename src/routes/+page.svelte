@@ -35,6 +35,7 @@
 		ExternalLink
 	} from '@lucide/svelte';
 	import { normalizeLanguageCode } from '$lib/utils/languages';
+	import { SvelteSet } from 'svelte/reactivity';
 
 	// Word cloud controls
 	let wordCloudMaxWords = $state(50);
@@ -51,7 +52,7 @@
 
 	// Calculate unique projects from filtered collections
 	let uniqueProjects = $derived.by(() => {
-		const projectIds = new Set<string>();
+		const projectIds = new SvelteSet<string>();
 		$filteredCollections.forEach((item) => {
 			if (item.project?.id) projectIds.add(item.project.id);
 		});
@@ -60,7 +61,7 @@
 
 	// Calculate unique contributors
 	let uniqueContributors = $derived.by(() => {
-		const contributors = new Set<string>();
+		const contributors = new SvelteSet<string>();
 		$filteredCollections.forEach((item) => {
 			if (Array.isArray(item.name)) {
 				item.name.forEach((entry) => {
@@ -73,7 +74,7 @@
 
 	// Calculate unique institutions from filtered collection items
 	let uniqueInstitutions = $derived.by(() => {
-		const inst = new Set<string>();
+		const inst = new SvelteSet<string>();
 		$filteredCollections.forEach((item) => {
 			if (Array.isArray(item.name)) {
 				item.name.forEach((entry) => {
@@ -91,8 +92,8 @@
 
 	// Calculate unique locations and countries from filtered collection items
 	let locationStats = $derived.by(() => {
-		const countries = new Set<string>();
-		const locations = new Set<string>();
+		const countries = new SvelteSet<string>();
+		const locations = new SvelteSet<string>();
 		$filteredCollections.forEach((item) => {
 			item.location?.origin?.forEach((o) => {
 				if (o.l1) countries.add(o.l1);
@@ -105,7 +106,7 @@
 
 	// Calculate unique languages from filtered collection items
 	let uniqueLanguages = $derived.by(() => {
-		const langs = new Set<string>();
+		const langs = new SvelteSet<string>();
 		$filteredCollections.forEach((item) => {
 			item.language?.forEach((l) => {
 				if (l) langs.add(normalizeLanguageCode(l));
@@ -116,7 +117,7 @@
 
 	// Calculate unique subjects & tags from filtered collection items
 	let uniqueSubjectsAndTags = $derived.by(() => {
-		const terms = new Set<string>();
+		const terms = new SvelteSet<string>();
 		$filteredCollections.forEach((item) => {
 			item.subject?.forEach((s) => {
 				const label = s.authLabel || s.origLabel;
@@ -131,7 +132,7 @@
 
 	// Calculate unique resource types from filtered collection items
 	let uniqueResourceTypes = $derived.by(() => {
-		const types = new Set<string>();
+		const types = new SvelteSet<string>();
 		$filteredCollections.forEach((item) => {
 			if (item.typeOfResource) types.add(item.typeOfResource);
 		});

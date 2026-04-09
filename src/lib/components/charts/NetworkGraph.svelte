@@ -5,7 +5,7 @@
 	import { cn } from '$lib/utils/cn';
 	import { CHART_COLORS, THEME_COLORS } from '$lib/styles';
 	import { theme } from '$lib/stores/data';
-	import { buildTitle, hideAxes, nodeFormatter } from './utils';
+	import { buildTitle, hideAxes } from './utils';
 
 	interface Props {
 		data: NetworkData;

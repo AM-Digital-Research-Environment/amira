@@ -168,7 +168,7 @@
 		>
 			{#if groups.length > 0}
 				{#if filteredOptions.length > 0}
-					{#each filteredOptions as option, i}
+					{#each filteredOptions as option, i (option.value)}
 						<button
 							type="button"
 							onmousedown={(e) => {
@@ -184,13 +184,13 @@
 						</button>
 					{/each}
 				{/if}
-				{#each filteredGroups as group}
+				{#each filteredGroups as group (group.label)}
 					<div
 						class="px-2 py-1.5 text-xs font-semibold text-muted-foreground uppercase tracking-wider sticky top-0 bg-popover border-b border-border/50"
 					>
 						{group.label}
 					</div>
-					{#each group.options as option}
+					{#each group.options as option (option.value)}
 						{@const flatIndex = flatFiltered.indexOf(option)}
 						<button
 							type="button"
@@ -208,7 +208,7 @@
 					{/each}
 				{/each}
 			{:else}
-				{#each filteredOptions as option, i}
+				{#each filteredOptions as option, i (option.value)}
 					<button
 						type="button"
 						onmousedown={(e) => {
