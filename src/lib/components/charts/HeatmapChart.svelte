@@ -13,13 +13,7 @@
 	import { CHART_COLORS } from '$lib/styles';
 	import { buildTitle, buildGrid } from './utils';
 
-	echarts.use([
-		EHeatmapChart,
-		TitleComponent,
-		TooltipComponent,
-		GridComponent,
-		VisualMapComponent
-	]);
+	echarts.use([EHeatmapChart, TitleComponent, TooltipComponent, GridComponent, VisualMapComponent]);
 
 	export interface HeatmapDataPoint {
 		x: string;

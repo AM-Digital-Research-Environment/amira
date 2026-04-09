@@ -33,7 +33,8 @@ while (queue.length) {
 	const size = statSync(file).size;
 	total += size;
 	list.push({ file: basename(file), size });
-	const fileDir = file.substring(0, file.lastIndexOf('/')) || file.substring(0, file.lastIndexOf('\\'));
+	const fileDir =
+		file.substring(0, file.lastIndexOf('/')) || file.substring(0, file.lastIndexOf('\\'));
 	let m;
 	while ((m = importRegex.exec(content)) !== null) {
 		queue.push(pathResolve(fileDir, m[1]));
