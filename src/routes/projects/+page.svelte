@@ -807,13 +807,18 @@
 					<CardContent>
 						{#snippet children()}
 							<div class="space-y-6">
-								<div>
-									<label class="text-sm font-medium mb-2 block">Search</label>
+								<label class="block">
+									<span class="text-sm font-medium mb-2 block">Search</span>
 									<Input placeholder="Search by name, locale, or PI..." bind:value={searchQuery} />
-								</div>
+								</label>
 
-								<div>
-									<label class="text-sm font-medium mb-2 block">Research Section</label>
+								<div role="group" aria-labelledby="filter-research-section-label">
+									<div
+										id="filter-research-section-label"
+										class="text-sm font-medium mb-2 block"
+									>
+										Research Section
+									</div>
 									<div class="space-y-1">
 										{#each allResearchSections as section (section)}
 											{@const isSelected = selectedResearchSections.includes(section)}
@@ -838,8 +843,10 @@
 									</div>
 								</div>
 
-								<div>
-									<label class="text-sm font-medium mb-2 block">Institution</label>
+								<div role="group" aria-labelledby="filter-institution-label">
+									<div id="filter-institution-label" class="text-sm font-medium mb-2 block">
+										Institution
+									</div>
 									<div class="space-y-1">
 										{#each allInstitutions as institution (institution)}
 											{@const isSelected = selectedInstitutions.includes(institution)}

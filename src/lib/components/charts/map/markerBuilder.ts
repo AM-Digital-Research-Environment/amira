@@ -24,7 +24,6 @@ export interface MarkerData {
 	longitude: number;
 	count: number;
 	type: 'country' | 'region' | 'city' | 'other';
-	wikidataId?: string;
 	items: { id: string; title: string; type: string }[];
 }
 
@@ -118,12 +117,11 @@ export function buildAggregatedMarkers(
 
 					markerMap.set(markerId, {
 						id: markerId,
-						name: cityData.wikidata_label || d.city,
+						name: d.city,
 						latitude: cityData.latitude,
 						longitude: cityData.longitude,
 						count: d.count,
 						type: 'city',
-						wikidataId: cityData.wikidata_id || undefined,
 						items: matchingItems
 					});
 				}
@@ -153,12 +151,11 @@ export function buildAggregatedMarkers(
 
 					markerMap.set(markerId, {
 						id: markerId,
-						name: regionData.wikidata_label || d.region,
+						name: d.region,
 						latitude: regionData.latitude,
 						longitude: regionData.longitude,
 						count: d.count,
 						type: 'region',
-						wikidataId: regionData.wikidata_id || undefined,
 						items: matchingItems
 					});
 				}
@@ -187,12 +184,11 @@ export function buildAggregatedMarkers(
 
 					markerMap.set(markerId, {
 						id: markerId,
-						name: countryData.wikidata_label || d.country,
+						name: d.country,
 						latitude: countryData.latitude,
 						longitude: countryData.longitude,
 						count: d.count,
 						type: 'country',
-						wikidataId: countryData.wikidata_id || undefined,
 						items: matchingItems
 					});
 				}

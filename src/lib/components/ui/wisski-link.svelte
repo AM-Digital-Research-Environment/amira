@@ -1,6 +1,7 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
 	import { ExternalLink } from '@lucide/svelte';
-	import { getWisskiUrl } from '$lib/utils/wisskiUrl';
+	import { getWisskiUrl, loadWisskiUrls } from '$lib/utils/wisskiUrl.svelte';
 
 	interface Props {
 		category: string;
@@ -9,6 +10,13 @@
 	}
 
 	let { category, entityKey, class: className = '' }: Props = $props();
+
+	// Lazy-load this category's URL map the first time the link is rendered.
+	// loadWisskiUrls is idempotent and per-category, so multiple links share
+	// the same fetch.
+	onMount(() => {
+		void loadWisskiUrls(category);
+	});
 
 	let href = $derived(getWisskiUrl(category, entityKey));
 </script>

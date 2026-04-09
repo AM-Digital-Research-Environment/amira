@@ -1,175 +1,46 @@
-import type {
-	EnrichedLocationsData,
-	WikidataLocation,
-	RawGeolocCountry,
-	RawGeolocRegion,
-	RawGeolocSubregion,
-	RawGeolocCity
-} from '$lib/types';
-import { loadJSON } from './mongoJSON';
+import type { EnrichedLocationsData, WikidataLocation } from '$lib/types';
 
 /**
- * Extract Wikidata ID from a Wikidata URI
- * e.g., "http://www.wikidata.org/entity/Q16" -> "Q16"
+ * Slim format produced by scripts/slim_data.py: each location is stored as a
+ * compact [lat, lon] tuple keyed by name (or "name|country" for regions and
+ * cities). Only locations actually referenced by collection items are kept.
  */
-function extractWikidataId(uri: string | null | undefined): string | null {
-	if (!uri) return null;
-	const match = uri.match(/entity\/(Q\d+)$/);
-	return match ? match[1] : null;
+interface SlimGeoFile {
+	countries: Record<string, [number, number]>;
+	regions: Record<string, [number, number]>;
+	cities: Record<string, [number, number]>;
 }
 
-/**
- * Transform raw geoloc country to WikidataLocation format
- */
-function transformCountry(country: RawGeolocCountry): WikidataLocation {
-	return {
-		original_name: country.name,
-		wikidata_id: extractWikidataId(country.uri),
-		wikidata_label: country.name,
-		latitude: country.coordinates?.lat ?? null,
-		longitude: country.coordinates?.long ?? null,
-		country_code: null,
-		geonames_id: null,
-		description: null,
-		match_confidence: 'exact'
-	};
-}
-
-/**
- * Transform raw geoloc region to WikidataLocation format
- */
-function transformRegion(region: RawGeolocRegion): WikidataLocation {
-	return {
-		original_name: region.name,
-		wikidata_id: extractWikidataId(region.uri),
-		wikidata_label: region.name,
-		latitude: region.coordinates?.lat ?? null,
-		longitude: region.coordinates?.long ?? null,
-		country_code: null,
-		geonames_id: null,
-		description: null,
-		match_confidence: 'exact'
-	};
-}
-
-/**
- * Transform raw geoloc subregion (city) to WikidataLocation format
- */
-function transformSubregion(subregion: RawGeolocSubregion): WikidataLocation {
-	return {
-		original_name: subregion.name,
-		wikidata_id: extractWikidataId(subregion.uri),
-		wikidata_label: subregion.name,
-		latitude: subregion.coordinates?.latitude ?? null,
-		longitude: subregion.coordinates?.longitude ?? null,
-		country_code: null,
-		geonames_id: null,
-		description: null,
-		match_confidence: 'exact'
-	};
-}
-
-/**
- * Transform raw geoloc city (from MongoDB) to WikidataLocation format
- */
-function transformCity(city: RawGeolocCity): WikidataLocation {
-	return {
-		original_name: city.name,
-		wikidata_id: extractWikidataId(city.uri),
-		wikidata_label: city.name,
-		latitude: city.coordinates?.lat ?? null,
-		longitude: city.coordinates?.long ?? null,
-		country_code: null,
-		geonames_id: null,
-		description: null,
-		match_confidence: 'exact'
-	};
-}
-
-/**
- * Build lookup maps from URI to name for countries and regions
- */
-function buildUriToNameMaps(
-	countries: RawGeolocCountry[],
-	regions: RawGeolocRegion[]
-): { countryUriToName: Map<string, string>; regionUriToName: Map<string, string> } {
-	const countryUriToName = new Map<string, string>();
-	const regionUriToName = new Map<string, string>();
-
-	for (const country of countries) {
-		countryUriToName.set(country.uri, country.name);
+function expand(map: Record<string, [number, number]>): Record<string, WikidataLocation> {
+	const out: Record<string, WikidataLocation> = {};
+	for (const key in map) {
+		const tuple = map[key];
+		if (Array.isArray(tuple) && tuple.length >= 2) {
+			out[key] = { latitude: tuple[0], longitude: tuple[1] };
+		}
 	}
-	for (const region of regions) {
-		regionUriToName.set(region.uri, region.name);
-	}
-
-	return { countryUriToName, regionUriToName };
+	return out;
 }
 
 /**
- * Load enriched location data from MongoDB geoloc files
- * Uses dev.geoloc_countries.json, dev.geoloc_regions.json, dev.geoloc_subregions.json,
- * and dev.geoloc_cities.json
+ * Load enriched location data from the slim dev.geo.json file.
+ *
+ * Returns null if the file is missing or unreadable; map components handle
+ * that case by hiding markers.
  */
 export async function loadEnrichedLocations(
 	basePath: string = ''
 ): Promise<EnrichedLocationsData | null> {
 	try {
-		const [countriesRaw, regionsRaw, subregionsRaw, citiesRaw] = await Promise.all([
-			loadJSON<RawGeolocCountry[]>(`${basePath}/data/dev/dev.geoloc_countries.json`),
-			loadJSON<RawGeolocRegion[]>(`${basePath}/data/dev/dev.geoloc_regions.json`),
-			loadJSON<RawGeolocSubregion[]>(`${basePath}/data/dev/dev.geoloc_subregions.json`),
-			loadJSON<RawGeolocCity[]>(`${basePath}/data/dev/dev.geoloc_cities.json`)
-		]);
-
-		// Build URI to name lookup maps
-		const { countryUriToName } = buildUriToNameMaps(countriesRaw, regionsRaw);
-
-		// Transform countries: keyed by name
-		const countries: Record<string, WikidataLocation> = {};
-		for (const country of countriesRaw) {
-			countries[country.name] = transformCountry(country);
+		const response = await fetch(`${basePath}/data/dev/dev.geo.json`);
+		if (!response.ok) {
+			throw new Error(`Failed to load dev.geo.json: ${response.statusText}`);
 		}
-
-		// Transform regions: keyed by "name|country"
-		const regions: Record<string, WikidataLocation> = {};
-		for (const region of regionsRaw) {
-			const countryName = countryUriToName.get(region.country_uri) || '';
-			const key = countryName ? `${region.name}|${countryName}` : region.name;
-			regions[key] = transformRegion(region);
-		}
-
-		// Transform subregions as base city data: keyed by "name|country"
-		const cities: Record<string, WikidataLocation> = {};
-		for (const subregion of subregionsRaw) {
-			const countryName = countryUriToName.get(subregion.country_uri) || '';
-			const key = countryName ? `${subregion.name}|${countryName}` : subregion.name;
-			cities[key] = transformSubregion(subregion);
-		}
-
-		// Overlay cities (takes priority over subregions)
-		for (const city of citiesRaw) {
-			const countryName = countryUriToName.get(city.country_uri) || '';
-			const key = countryName ? `${city.name}|${countryName}` : city.name;
-			cities[key] = transformCity(city);
-		}
-
+		const raw = (await response.json()) as SlimGeoFile;
 		return {
-			countries,
-			regions,
-			cities,
-			other: {},
-			metadata: {
-				generated_at: new Date().toISOString(),
-				source_files: [
-					'dev.geoloc_countries.json',
-					'dev.geoloc_regions.json',
-					'dev.geoloc_subregions.json',
-					'dev.geoloc_cities.json'
-				],
-				total_locations:
-					countriesRaw.length + regionsRaw.length + subregionsRaw.length + citiesRaw.length
-			}
+			countries: expand(raw.countries || {}),
+			regions: expand(raw.regions || {}),
+			cities: expand(raw.cities || {})
 		};
 	} catch (error) {
 		console.warn('Failed to load geoloc data:', error);

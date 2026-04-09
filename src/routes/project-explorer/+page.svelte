@@ -14,7 +14,7 @@
 		ChordDiagram,
 		HeatmapChart
 	} from '$lib/components/charts';
-	import { allCollections } from '$lib/stores/data';
+	import { allCollections, enrichedLocations, ensureEnrichedLocations } from '$lib/stores/data';
 	import { SvelteMap } from 'svelte/reactivity';
 	import {
 		groupByYearAndType,
@@ -29,16 +29,14 @@
 		buildSubjectCoOccurrence,
 		buildHeatmapData
 	} from '$lib/utils/dataTransform';
-	import { loadEnrichedLocations, UNIVERSITY_COLLECTIONS } from '$lib/utils/dataLoader';
+	import { UNIVERSITY_COLLECTIONS } from '$lib/utils/dataLoader';
 	import { universities } from '$lib/types';
-	import type { CollectionItem, EnrichedLocationsData } from '$lib/types';
+	import type { CollectionItem } from '$lib/types';
 	import { FileText, Layers, Users, MapPin, Calendar, BarChart3 } from '@lucide/svelte';
 
-	// Enriched location data for the map
-	let enrichedLocations = $state<EnrichedLocationsData | null>(null);
-
-	onMount(async () => {
-		enrichedLocations = await loadEnrichedLocations(base);
+	// Lazy-load geolocation data on mount — the home page never pays for it.
+	onMount(() => {
+		void ensureEnrichedLocations(base);
 	});
 
 	// Build a map of project IDs to full project names from the data
@@ -248,7 +246,11 @@
 			contentHeight="h-[650px]"
 			class="col-span-full overflow-visible"
 		>
-			<LocationMap data={locationsData} items={currentCollection} {enrichedLocations} />
+			<LocationMap
+				data={locationsData}
+				items={currentCollection}
+				enrichedLocations={$enrichedLocations}
+			/>
 		</ChartCard>
 
 		<ChartCard title="Geographic Origins (Chart)">

@@ -49,7 +49,15 @@
 	import { getItemTitle } from '$lib/utils/helpers';
 	import { institutionUrl } from '$lib/utils/urls';
 	import { WissKILink } from '$lib/components/ui';
-	import { getWisskiUrl } from '$lib/utils/wisskiUrl';
+	import { getWisskiUrl, loadWisskiUrls } from '$lib/utils/wisskiUrl.svelte';
+	import { onMount } from 'svelte';
+
+	// Load the persons URL map up-front: getWisskiUrl is called below in the
+	// "no data" branch where <WissKILink> is not rendered, so we cannot rely on
+	// the link component to trigger the lazy load.
+	onMount(() => {
+		void loadWisskiUrls('persons');
+	});
 
 	const urlSelection = createUrlSelection('name');
 

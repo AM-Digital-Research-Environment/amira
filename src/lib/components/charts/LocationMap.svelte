@@ -258,7 +258,7 @@
 		<div class="flex-1 flex items-center justify-center bg-muted rounded-lg">
 			<div class="text-center text-muted-foreground p-4">
 				<p class="mb-2">Location data not available.</p>
-				<p class="text-sm">Geolocation data files (dev.geoloc_*.json) could not be loaded.</p>
+				<p class="text-sm">Geolocation data file (dev.geo.json) could not be loaded.</p>
 			</div>
 		</div>
 	{:else if markers.length === 0 && mapReady}

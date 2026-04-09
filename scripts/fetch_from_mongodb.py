@@ -172,6 +172,16 @@ def main():
 
     print(f"\nDone! Exported {total_documents} documents from {total_collections} collections.")
 
+    # Slim heavy payloads (geo + wisski_urls) so the dashboard ships only the
+    # rows it actually needs. Imported here to keep the script self-contained.
+    print("\n=== Slimming heavy payloads ===")
+    try:
+        from slim_data import main as slim_main
+
+        slim_main()
+    except Exception as exc:
+        print(f"  WARN: slim_data step failed: {exc}")
+
 
 if __name__ == "__main__":
     main()

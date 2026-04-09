@@ -12,7 +12,9 @@
 		BackToList,
 		SEO
 	} from '$lib/components/ui';
-	import { allCollections, enrichedLocations } from '$lib/stores/data';
+	import { allCollections, enrichedLocations, ensureEnrichedLocations } from '$lib/stores/data';
+	import { onMount } from 'svelte';
+	import { base } from '$app/paths';
 	import { MiniMap } from '$lib/components/charts';
 	import { page } from '$app/stores';
 	import { createUrlSelection, scrollToTop } from '$lib/utils/urlSelection';
@@ -26,6 +28,11 @@
 	import { getLocationColor } from '$lib/styles';
 
 	const urlSelection = createUrlSelection('name');
+
+	// Lazy-load enriched geolocation on mount (used for the mini-map markers).
+	onMount(() => {
+		void ensureEnrichedLocations(base);
+	});
 
 	let searchQuery = $state('');
 	let selectedName = $state('');

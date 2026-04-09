@@ -13,7 +13,6 @@ import type {
 import { universities } from '$lib/types';
 import { loadAllData, loadResearchSections, loadEnrichedLocations } from '$lib/utils/dataLoader';
 import { calculateStats } from '$lib/utils/dataTransform';
-import { loadWisskiUrls } from '$lib/utils/wisskiUrl';
 
 // Loading state
 export const isLoading = writable(true);
@@ -81,17 +80,18 @@ export const dashboardStats: Readable<DashboardStats> = derived(
 		calculateStats($projects, $persons, $institutions, { all: $allCollections })
 );
 
-// Initialize data from JSON files
+// Initialize data from JSON files. Note: enriched geolocation data and the
+// per-category WissKI URL maps are NOT loaded here — they are fetched lazily
+// by the routes that actually need them, so the home page does not pay for
+// 13+ MB of payload it never reads.
 export async function initializeData(basePath: string = '') {
 	isLoading.set(true);
 	loadError.set(null);
 
 	try {
-		const [data, researchSectionsData, locationsData] = await Promise.all([
+		const [data, researchSectionsData] = await Promise.all([
 			loadAllData(basePath),
-			loadResearchSections(basePath),
-			loadEnrichedLocations(basePath),
-			loadWisskiUrls(basePath)
+			loadResearchSections(basePath)
 		]);
 
 		projects.set(data.projects);
@@ -100,7 +100,6 @@ export async function initializeData(basePath: string = '') {
 		groups.set(data.groups);
 		allCollections.set(data.collections.all);
 		researchSections.set(researchSectionsData);
-		enrichedLocations.set(locationsData);
 
 		isLoading.set(false);
 	} catch (error) {
@@ -108,6 +107,18 @@ export async function initializeData(basePath: string = '') {
 		loadError.set(error instanceof Error ? error.message : 'Failed to load data');
 		isLoading.set(false);
 	}
+}
+
+// Lazy-loaded geolocation. Routes that render the map call this from onMount;
+// it caches the result so multiple consumers share a single fetch.
+let geolocPromise: Promise<void> | null = null;
+export function ensureEnrichedLocations(basePath: string = '') {
+	if (geolocPromise) return geolocPromise;
+	geolocPromise = (async () => {
+		const data = await loadEnrichedLocations(basePath);
+		enrichedLocations.set(data);
+	})();
+	return geolocPromise;
 }
 
 // Theme store
