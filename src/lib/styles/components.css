@@ -10,12 +10,12 @@
 
 	::-webkit-scrollbar-track {
 		background: hsl(var(--color-neutral-100));
-		border-radius: 6px;
+		border-radius: var(--radius-md);
 	}
 
 	::-webkit-scrollbar-thumb {
 		background: hsl(var(--color-neutral-300));
-		border-radius: 6px;
+		border-radius: var(--radius-md);
 		border: 2px solid hsl(var(--color-neutral-100));
 		transition: background var(--duration-fast);
 	}
@@ -43,7 +43,7 @@
    ============================================================================= */
 
 @layer components {
-	/* Base card with subtle shine effect */
+	/* Elevated card — used for hero-level cards on content pages */
 	.card-elevated {
 		position: relative;
 		background: hsl(var(--card));
@@ -52,16 +52,7 @@
 		overflow: hidden;
 	}
 
-	.card-elevated::before {
-		content: '';
-		position: absolute;
-		inset: 0;
-		background: var(--gradient-card-shine);
-		pointer-events: none;
-		border-radius: inherit;
-	}
-
-	/* Card with decorative top border */
+	/* Card with a thin brand rule at the top — reserved for "accent" variant */
 	.card-accent {
 		position: relative;
 	}
@@ -72,12 +63,12 @@
 		top: 0;
 		left: 0;
 		right: 0;
-		height: 3px;
-		background: var(--gradient-primary);
+		height: 2px;
+		background: hsl(var(--primary));
 		border-radius: var(--radius-xl) var(--radius-xl) 0 0;
 	}
 
-	/* Interactive card hover state */
+	/* Interactive card hover state — subtle lift, no scale */
 	.card-interactive {
 		transition:
 			transform var(--duration-normal) var(--ease-expo-out),
@@ -86,7 +77,7 @@
 
 	.card-interactive:hover {
 		transform: translateY(-2px);
-		box-shadow: var(--shadow-xl);
+		box-shadow: var(--shadow-lg);
 	}
 }
 
@@ -103,7 +94,7 @@
 		display: flex;
 		align-items: center;
 		padding: 0 var(--space-3);
-		background: hsl(var(--background) / 0.85);
+		background: hsl(var(--background) / 0.88);
 		backdrop-filter: blur(12px) saturate(180%);
 		border-bottom: var(--border-subtle);
 	}
@@ -119,7 +110,7 @@
 		font-size: var(--font-size-xl);
 		font-weight: 600;
 		color: hsl(var(--foreground));
-		letter-spacing: -0.02em;
+		letter-spacing: var(--tracking-tight);
 	}
 }
 
@@ -128,25 +119,7 @@
    ============================================================================= */
 
 @layer components {
-	.btn-primary {
-		background: var(--gradient-primary);
-		color: hsl(var(--primary-foreground));
-		font-weight: 600;
-		box-shadow: var(--shadow-sm), var(--shadow-primary);
-		transition:
-			transform var(--duration-fast) var(--ease-expo-out),
-			box-shadow var(--duration-fast);
-	}
-
-	.btn-primary:hover {
-		transform: translateY(-1px);
-		box-shadow: var(--shadow-md), var(--shadow-primary);
-	}
-
-	.btn-primary:active {
-		transform: translateY(0);
-	}
-
+	/* Optional helper for primary CTAs — .btn-ghost provides an overlay-style hover */
 	.btn-ghost {
 		position: relative;
 		overflow: hidden;
@@ -157,8 +130,9 @@
 		position: absolute;
 		inset: 0;
 		background: hsl(var(--foreground) / 0);
-		transition: background var(--duration-fast);
+		transition: background var(--duration-fast) var(--ease-out);
 		border-radius: inherit;
+		pointer-events: none;
 	}
 
 	.btn-ghost:hover::before {
@@ -168,6 +142,8 @@
 
 /* =============================================================================
    STAT CARD STYLES
+   Simple, calm cards — no decorative corner accent, no per-card radial gradient.
+   The value typography carries the weight.
    ============================================================================= */
 
 @layer components {
@@ -176,38 +152,17 @@
 		padding: var(--space-5) var(--space-6);
 		background: hsl(var(--card));
 		border-radius: var(--radius-xl);
-		border: var(--border-subtle);
-		box-shadow: var(--shadow-sm);
-		overflow: hidden;
-		transition: box-shadow var(--duration-normal) var(--ease-expo-out);
+		border: 1px solid hsl(var(--border) / 0.6);
+		box-shadow: var(--shadow-xs);
+		transition:
+			border-color var(--duration-fast) var(--ease-out),
+			box-shadow var(--duration-normal) var(--ease-expo-out),
+			transform var(--duration-normal) var(--ease-expo-out);
 	}
 
 	.stat-card:hover {
-		box-shadow: var(--shadow-md);
-	}
-
-	/* Decorative corner accent */
-	.stat-card::after {
-		content: '';
-		position: absolute;
-		top: 0;
-		right: 0;
-		width: 80px;
-		height: 80px;
-		background: radial-gradient(
-			circle at top right,
-			hsl(var(--color-primary-100) / 0.5),
-			transparent 70%
-		);
-		pointer-events: none;
-	}
-
-	.dark .stat-card::after {
-		background: radial-gradient(
-			circle at top right,
-			hsl(var(--color-primary-900) / 0.3),
-			transparent 70%
-		);
+		border-color: hsl(var(--border));
+		box-shadow: var(--shadow-sm);
 	}
 
 	.stat-value {
@@ -215,7 +170,8 @@
 		font-size: var(--font-size-3xl);
 		font-weight: 700;
 		color: hsl(var(--foreground));
-		letter-spacing: -0.02em;
+		letter-spacing: var(--tracking-tight);
+		line-height: var(--line-height-tight);
 	}
 
 	.stat-label {
@@ -234,8 +190,8 @@
 	.chart-card {
 		background: hsl(var(--card));
 		border-radius: var(--radius-xl);
-		border: var(--border-subtle);
-		box-shadow: var(--shadow-sm);
+		border: 1px solid hsl(var(--border) / 0.6);
+		box-shadow: var(--shadow-xs);
 		overflow: hidden;
 	}
 
@@ -252,7 +208,7 @@
 		font-size: var(--font-size-lg);
 		font-weight: 600;
 		color: hsl(var(--foreground));
-		letter-spacing: -0.01em;
+		letter-spacing: var(--tracking-tight);
 	}
 
 	.chart-card-content {
@@ -270,8 +226,8 @@
 		text-align: left;
 		padding: var(--space-2) var(--space-3);
 		font-size: var(--font-size-sm);
-		border-radius: var(--radius-lg);
-		transition: background-color var(--duration-fast);
+		border-radius: var(--radius-md);
+		transition: background-color var(--duration-fast) var(--ease-out);
 	}
 
 	.list-item-btn:hover {
@@ -280,7 +236,7 @@
 
 	.list-item-btn.active {
 		background: hsl(var(--primary) / 0.1);
-		color: hsl(var(--primary));
+		color: hsl(var(--primary-text));
 		font-weight: var(--font-weight-medium);
 	}
 }

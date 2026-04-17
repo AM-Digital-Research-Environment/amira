@@ -5,33 +5,34 @@
  *
  * "Scholarly Modernism" Design System
  *
- * This file:
- * 1. Imports Google Fonts for distinctive typography
- * 2. Imports design tokens (single source of truth)
- * 3. Imports external libraries (MapLibre GL)
- * 4. Sets up Tailwind CSS layers
- * 5. Imports modular CSS (sidebar, components, animations, maplibre)
- * 6. Defines global base styles with refined aesthetics
- * 7. Defines utility classes
+ * Order of imports matters:
+ *   1. Google Fonts (external)
+ *   2. External library CSS (MapLibre)
+ *   3. Tailwind core
+ *   4. Tailwind v4 config bridge (exposes JS-defined tokens to Tailwind)
+ *   5. Design tokens — single source of truth
+ *   6. Modular CSS (sidebar / components / animations / maplibre)
+ *   7. Global base styles
+ *   8. Small, used-everywhere utilities
  * =============================================================================
  */
 
-/* Google Fonts — distinctive typography */
+/* 1. Google Fonts — distinctive typography */
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&display=swap');
 
-/* External library styles */
+/* 2. External library styles */
 @import 'maplibre-gl/dist/maplibre-gl.css';
 
-/* Tailwind CSS v4 */
+/* 3. Tailwind CSS v4 */
 @import 'tailwindcss';
 
-/* Load existing JS config for theme extensions */
+/* 4. Load existing JS config for theme extensions */
 @config "../tailwind.config.js";
 
-/* Design tokens */
+/* 5. Design tokens */
 @import './lib/styles/tokens.css';
 
-/* Modular CSS */
+/* 6. Modular CSS */
 @import './lib/styles/sidebar.css';
 @import './lib/styles/components.css';
 @import './lib/styles/animations.css';
@@ -49,7 +50,7 @@
 		@apply border-border;
 	}
 
-	/* Restore pointer cursor on buttons (Tailwind v4 changed default to cursor: default) */
+	/* Tailwind v4 changed the button default to `cursor: default` — restore pointer */
 	button:not(:disabled),
 	[role='button']:not(:disabled) {
 		cursor: pointer;
@@ -58,7 +59,6 @@
 	html {
 		scroll-behavior: smooth;
 		scrollbar-gutter: stable;
-		/* Subtle warm tint to everything */
 		background: hsl(var(--background));
 	}
 
@@ -66,26 +66,25 @@
 		@apply bg-background text-foreground antialiased;
 		font-family: var(--font-sans);
 		font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11', 'ss01', 'ss02';
-		/* Subtle noise texture overlay */
 		position: relative;
 	}
 
-	/* Add subtle texture to body */
+	/* Subtle warm noise texture — adds character without being decorative "slop" */
 	body::before {
 		content: '';
 		position: fixed;
 		inset: 0;
 		background-image: var(--texture-noise);
-		opacity: 0.025;
+		opacity: 0.02;
 		pointer-events: none;
 		z-index: var(--z-max);
 	}
 
 	.dark body::before {
-		opacity: 0.04;
+		opacity: 0.035;
 	}
 
-	/* Typography — Scholarly hierarchy */
+	/* Typography — scholarly hierarchy */
 	h1,
 	h2,
 	h3,
@@ -94,7 +93,7 @@
 	h6 {
 		font-family: var(--font-display);
 		font-weight: 600;
-		letter-spacing: -0.02em;
+		letter-spacing: var(--tracking-tight);
 		color: hsl(var(--foreground));
 	}
 
@@ -102,7 +101,7 @@
 		font-size: var(--font-size-4xl);
 		line-height: var(--line-height-tight);
 		font-weight: 700;
-		letter-spacing: -0.03em;
+		letter-spacing: var(--tracking-tighter);
 	}
 
 	h2 {
@@ -120,12 +119,12 @@
 		font-weight: 500;
 	}
 
-	/* Focus visible styles for accessibility */
+	/* Focus-visible styles for accessibility */
 	:focus-visible {
 		@apply outline-none ring-2 ring-primary ring-offset-2 ring-offset-background;
 	}
 
-	/* Selection styles with brand color */
+	/* Selection — uses brand primary */
 	::selection {
 		background: hsl(var(--color-primary-200));
 		color: hsl(var(--color-primary-900));
@@ -135,28 +134,18 @@
 		background: hsl(var(--color-primary-800));
 		color: hsl(var(--color-primary-100));
 	}
-
-	/* Smoother font rendering */
-	p,
-	li,
-	span,
-	label {
-		-webkit-font-smoothing: antialiased;
-		-moz-osx-font-smoothing: grayscale;
-	}
 }
 
 /* =============================================================================
-   UTILITY CLASSES
+   UTILITY CLASSES — only the ones actually used across the app
    ============================================================================= */
 
 @layer utilities {
-	/* Text balance for better typography */
 	.text-balance {
 		text-wrap: balance;
 	}
 
-	/* Hide scrollbar but keep functionality */
+	/* Hide scrollbar but keep scrolling functional */
 	.scrollbar-hide {
 		-ms-overflow-style: none;
 		scrollbar-width: none;
@@ -164,58 +153,6 @@
 
 	.scrollbar-hide::-webkit-scrollbar {
 		display: none;
-	}
-
-	/* Gradient text with primary colors */
-	.text-gradient {
-		@apply bg-clip-text text-transparent;
-		background-image: var(--gradient-primary);
-	}
-
-	/* Gradient text with accent */
-	.text-gradient-accent {
-		@apply bg-clip-text text-transparent;
-		background-image: var(--gradient-accent);
-	}
-
-	/* Glass effect — more refined */
-	.glass {
-		background: hsl(var(--background) / 0.8);
-		backdrop-filter: blur(12px) saturate(180%);
-	}
-
-	.glass-dark {
-		background: hsl(var(--color-neutral-900) / 0.85);
-		backdrop-filter: blur(12px) saturate(180%);
-	}
-
-	/* Animated gradient border */
-	.border-gradient {
-		position: relative;
-		background: hsl(var(--card));
-		border-radius: var(--radius-xl);
-	}
-
-	.border-gradient::before {
-		content: '';
-		position: absolute;
-		inset: -1px;
-		border-radius: inherit;
-		padding: 1px;
-		background: var(--gradient-primary);
-		-webkit-mask:
-			linear-gradient(#fff 0 0) content-box,
-			linear-gradient(#fff 0 0);
-		mask:
-			linear-gradient(#fff 0 0) content-box,
-			linear-gradient(#fff 0 0);
-		-webkit-mask-composite: xor;
-		mask-composite: exclude;
-	}
-
-	/* Subtle glow effect */
-	.glow {
-		box-shadow: var(--shadow-glow);
 	}
 
 	/* Page section */
@@ -232,7 +169,7 @@
 		font-family: var(--font-display);
 		font-size: var(--font-size-4xl);
 		font-weight: 700;
-		letter-spacing: -0.03em;
+		letter-spacing: var(--tracking-tighter);
 		color: hsl(var(--foreground));
 		line-height: var(--line-height-tight);
 	}
@@ -241,20 +178,10 @@
 		font-size: var(--font-size-lg);
 		color: hsl(var(--muted-foreground));
 		max-width: 42rem;
+		line-height: var(--line-height-relaxed);
 	}
 
-	/* Accent dot decoration */
-	.accent-dot::before {
-		content: '';
-		display: inline-block;
-		width: 8px;
-		height: 8px;
-		background: var(--gradient-accent);
-		border-radius: 50%;
-		margin-right: var(--space-3);
-	}
-
-	/* Divider with fade */
+	/* Horizontal rule that fades at the edges — used for soft section breaks */
 	.divider-fade {
 		height: 1px;
 		background: linear-gradient(90deg, transparent, hsl(var(--border)), transparent);

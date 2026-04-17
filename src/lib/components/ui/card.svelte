@@ -14,9 +14,9 @@
 
 	const variants = {
 		default:
-			'rounded-xl border border-border/50 bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow duration-300',
+			'rounded-xl border border-border/60 bg-card text-card-foreground shadow-xs hover:shadow-sm transition-shadow duration-normal ease-expo-out',
 		elevated: 'card-elevated text-card-foreground',
-		accent: 'rounded-xl border border-border/50 bg-card text-card-foreground shadow-sm card-accent'
+		accent: 'rounded-xl border border-border/60 bg-card text-card-foreground shadow-xs card-accent'
 	};
 </script>
 

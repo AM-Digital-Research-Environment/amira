@@ -18,7 +18,9 @@ export default {
 					foreground: 'hsl(var(--primary-foreground))',
 					hover: 'hsl(var(--primary-hover))',
 					active: 'hsl(var(--primary-active))',
-					muted: 'hsl(var(--primary-muted))'
+					muted: 'hsl(var(--primary-muted))',
+					// Dedicated hue for primary-coloured text (links) — darker for legibility
+					text: 'hsl(var(--primary-text))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -66,7 +68,6 @@ export default {
 					overlay: 'hsl(var(--surface-overlay))'
 				},
 
-				// Chart colors (for use in Tailwind classes)
 				// Location type colors (consistent across all pages)
 				location: {
 					city: 'hsl(var(--location-city))',
@@ -93,9 +94,9 @@ export default {
 			   BORDER RADIUS
 			   ================================================================= */
 			borderRadius: {
-				lg: 'var(--radius-lg)',
-				md: 'var(--radius-md)',
 				sm: 'var(--radius-sm)',
+				md: 'var(--radius-md)',
+				lg: 'var(--radius-lg)',
 				xl: 'var(--radius-xl)',
 				'2xl': 'var(--radius-2xl)',
 				'3xl': 'var(--radius-3xl)'
@@ -114,22 +115,16 @@ export default {
 				'2xs': ['var(--font-size-2xs)', { lineHeight: 'var(--line-height-normal)' }]
 			},
 			fontWeight: {
-				thin: 'var(--font-weight-thin)',
-				extralight: 'var(--font-weight-extralight)',
-				light: 'var(--font-weight-light)',
 				normal: 'var(--font-weight-normal)',
 				medium: 'var(--font-weight-medium)',
 				semibold: 'var(--font-weight-semibold)',
-				bold: 'var(--font-weight-bold)',
-				extrabold: 'var(--font-weight-extrabold)',
-				black: 'var(--font-weight-black)'
+				bold: 'var(--font-weight-bold)'
 			},
 			letterSpacing: {
 				tighter: 'var(--tracking-tighter)',
 				tight: 'var(--tracking-tight)',
 				normal: 'var(--tracking-normal)',
 				wide: 'var(--tracking-wide)',
-				wider: 'var(--tracking-wider)',
 				widest: 'var(--tracking-widest)'
 			},
 			lineHeight: {
@@ -137,20 +132,23 @@ export default {
 				tight: 'var(--line-height-tight)',
 				snug: 'var(--line-height-snug)',
 				normal: 'var(--line-height-normal)',
-				relaxed: 'var(--line-height-relaxed)',
-				loose: 'var(--line-height-loose)'
+				relaxed: 'var(--line-height-relaxed)'
 			},
 
 			/* =================================================================
-			   SPACING
+			   SPACING — mirrors tokens.css, extended for page-level gaps
 			   ================================================================= */
 			spacing: {
-				4.5: 'var(--space-4-5, 1.125rem)',
-				5.5: 'var(--space-5-5, 1.375rem)',
-				13: 'var(--space-13, 3.25rem)',
-				15: 'var(--space-15, 3.75rem)',
-				18: 'var(--space-18, 4.5rem)',
-				22: 'var(--space-22, 5.5rem)'
+				0.5: 'var(--space-0-5)',
+				2.5: 'var(--space-2-5)',
+				7: 'var(--space-7)',
+				8: 'var(--space-8)',
+				10: 'var(--space-10)',
+				12: 'var(--space-12)',
+				14: 'var(--space-14)',
+				16: 'var(--space-16)',
+				20: 'var(--space-20)',
+				24: 'var(--space-24)'
 			},
 
 			/* =================================================================
@@ -163,16 +161,8 @@ export default {
 				lg: 'var(--shadow-lg)',
 				xl: 'var(--shadow-xl)',
 				'2xl': 'var(--shadow-2xl)',
-				inner: 'var(--shadow-inner)',
-				none: 'var(--shadow-none)',
 				elevated: 'var(--shadow-elevated)',
-				glow: 'var(--shadow-glow)',
-				// Colored shadows
-				primary: 'var(--shadow-primary)',
-				success: 'var(--shadow-success)',
-				warning: 'var(--shadow-warning)',
-				danger: 'var(--shadow-danger)',
-				accent: 'var(--shadow-accent)'
+				glow: 'var(--shadow-glow)'
 			},
 
 			/* =================================================================
@@ -194,7 +184,7 @@ export default {
 			},
 
 			/* =================================================================
-			   ANIMATIONS
+			   MOTION — pruned to what tokens.css actually defines
 			   ================================================================= */
 			transitionDuration: {
 				instant: 'var(--duration-instant)',
@@ -202,18 +192,13 @@ export default {
 				normal: 'var(--duration-normal)',
 				slow: 'var(--duration-slow)',
 				slower: 'var(--duration-slower)',
-				slowest: 'var(--duration-slowest)',
-				chart: 'var(--duration-chart)',
-				page: 'var(--duration-page)'
+				chart: 'var(--duration-chart)'
 			},
 			transitionTimingFunction: {
 				linear: 'var(--ease-linear)',
 				in: 'var(--ease-in)',
 				out: 'var(--ease-out)',
 				'in-out': 'var(--ease-in-out)',
-				bounce: 'var(--ease-bounce)',
-				smooth: 'var(--ease-smooth)',
-				spring: 'var(--ease-spring)',
 				'expo-out': 'var(--ease-expo-out)',
 				'back-out': 'var(--ease-back-out)'
 			},
@@ -227,34 +212,34 @@ export default {
 					'100%': { opacity: '0' }
 				},
 				'slide-in-up': {
-					'0%': { opacity: '0', transform: 'translateY(10px)' },
+					'0%': { opacity: '0', transform: 'translateY(12px)' },
 					'100%': { opacity: '1', transform: 'translateY(0)' }
 				},
 				'slide-in-down': {
-					'0%': { opacity: '0', transform: 'translateY(-10px)' },
+					'0%': { opacity: '0', transform: 'translateY(-12px)' },
 					'100%': { opacity: '1', transform: 'translateY(0)' }
 				},
 				'slide-in-left': {
-					'0%': { opacity: '0', transform: 'translateX(-10px)' },
+					'0%': { opacity: '0', transform: 'translateX(-12px)' },
 					'100%': { opacity: '1', transform: 'translateX(0)' }
 				},
 				'slide-in-right': {
-					'0%': { opacity: '0', transform: 'translateX(10px)' },
+					'0%': { opacity: '0', transform: 'translateX(12px)' },
 					'100%': { opacity: '1', transform: 'translateX(0)' }
 				},
 				'scale-in': {
-					'0%': { opacity: '0', transform: 'scale(0.95)' },
+					'0%': { opacity: '0', transform: 'scale(0.96)' },
 					'100%': { opacity: '1', transform: 'scale(1)' }
 				}
 			},
 			animation: {
 				'fade-in': 'fade-in var(--duration-normal) var(--ease-out)',
 				'fade-out': 'fade-out var(--duration-normal) var(--ease-in)',
-				'slide-in-up': 'slide-in-up var(--duration-normal) var(--ease-out)',
-				'slide-in-down': 'slide-in-down var(--duration-normal) var(--ease-out)',
-				'slide-in-left': 'slide-in-left var(--duration-normal) var(--ease-out)',
-				'slide-in-right': 'slide-in-right var(--duration-normal) var(--ease-out)',
-				'scale-in': 'scale-in var(--duration-normal) var(--ease-out)'
+				'slide-in-up': 'slide-in-up var(--duration-slow) var(--ease-expo-out)',
+				'slide-in-down': 'slide-in-down var(--duration-slow) var(--ease-expo-out)',
+				'slide-in-left': 'slide-in-left var(--duration-slow) var(--ease-expo-out)',
+				'slide-in-right': 'slide-in-right var(--duration-slow) var(--ease-expo-out)',
+				'scale-in': 'scale-in var(--duration-normal) var(--ease-back-out)'
 			},
 
 			/* =================================================================

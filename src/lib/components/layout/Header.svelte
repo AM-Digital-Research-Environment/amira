@@ -54,9 +54,9 @@
 		{#snippet children()}
 			<div class="relative w-5 h-5">
 				{#if $theme === 'dark'}
-					<Sun class="h-5 w-5 transition-transform duration-300" />
+					<Sun class="h-5 w-5 transition-transform duration-normal ease-out" />
 				{:else}
-					<Moon class="h-5 w-5 transition-transform duration-300" />
+					<Moon class="h-5 w-5 transition-transform duration-normal ease-out" />
 				{/if}
 			</div>
 		{/snippet}

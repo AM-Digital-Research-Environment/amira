@@ -3,81 +3,70 @@
  * WISSKI DASHBOARD — DESIGN TOKENS (TypeScript)
  * =============================================================================
  *
- * This file provides typed access to design tokens for use in JavaScript/TypeScript.
- * Primary use cases:
- * - ECharts theme configuration
- * - Dynamic styling calculations
- * - Runtime color manipulations
+ * Typed access to design tokens for ECharts and runtime styling.
  *
- * SOURCE OF TRUTH: tokens.css defines all design tokens as CSS custom properties.
- * This file provides hex equivalents for contexts that require concrete values
- * (e.g., ECharts config). When updating, always derive values from tokens.css.
- *
- * HSL-to-hex conversion: values computed from the HSL definitions in tokens.css.
+ * SOURCE OF TRUTH: tokens.css defines every design token as a CSS custom
+ * property. This file mirrors the chart palette and theme colors as hex, which
+ * ECharts requires as concrete strings. When editing a color, update the HSL
+ * in tokens.css AND the hex here together.
  * =============================================================================
  */
 
 /* =============================================================================
-   CHART COLOR PALETTE
+   CHART COLOR PALETTE — "Scholarly Modernism"
+   Categorical palette aligned to the brand identity (teal + copper roots).
+   Hex values derived from the HSL definitions of --chart-1..--chart-10 in tokens.css.
    ============================================================================= */
 
-/**
- * Primary categorical color palette for data visualization.
- * Designed for accessibility and visual distinction.
- * Use in order for consistent visual hierarchy.
- */
 export const CHART_COLORS = [
-	'#3b82f6', // Blue
-	'#10b981', // Emerald
-	'#f59e0b', // Amber
-	'#ef4444', // Red
-	'#8b5cf6', // Purple
-	'#ec4899', // Pink
-	'#06b6d4', // Cyan
-	'#84cc16', // Lime
-	'#f97316', // Orange
-	'#6366f1' // Indigo
+	'#2f9389', // 1  Teal       — brand
+	'#c15b1f', // 2  Copper     — accent
+	'#d3840d', // 3  Honey
+	'#764fba', // 4  Iris
+	'#d9264a', // 5  Garnet
+	'#297dae', // 6  Slate blue
+	'#3f8d66', // 7  Moss
+	'#b84792', // 8  Plum
+	'#c15533', // 9  Brick
+	'#826e40' // 10 Ochre
 ] as const;
 
 /**
- * Extended palette (20 colors) for visualizations with many categories
+ * Extended palette (16 colors) for visualizations with many categories.
+ * Extends the core palette with complementary desaturated/muted variants.
  */
 export const CHART_COLORS_EXTENDED = [
 	...CHART_COLORS,
-	'#14b8a6', // Teal
-	'#a855f7', // Violet
-	'#f43f5e', // Rose
-	'#0ea5e9', // Sky
-	'#22c55e', // Green
-	'#eab308', // Yellow
-	'#64748b', // Slate
-	'#78716c', // Stone
-	'#0d9488', // Teal dark
-	'#7c3aed' // Violet dark
+	'#52a8a1', // Teal light
+	'#d98559', // Copper light
+	'#e0a544', // Honey light
+	'#9a82cf', // Iris light
+	'#e36079', // Garnet light
+	'#5a9cc5' // Slate blue light
 ] as const;
 
 /**
  * Reduced palette (5 colors) for simple visualizations
  */
 export const CHART_COLORS_SIMPLE = [
-	'#3b82f6', // Blue
-	'#10b981', // Emerald
-	'#f59e0b', // Amber
-	'#ef4444', // Red
-	'#8b5cf6' // Purple
+	'#2f9389', // Teal
+	'#c15b1f', // Copper
+	'#d3840d', // Honey
+	'#764fba', // Iris
+	'#d9264a' // Garnet
 ] as const;
 
 /* =============================================================================
    LOCATION TYPE COLORS
    Consistent color mapping for geographic location types across all pages.
-   Maps to CSS variables --location-city, --location-region, etc.
+   Maps to CSS variables --location-city / --location-region / --location-country / --location-current.
    ============================================================================= */
 
 export const LOCATION_COLORS = {
-	city: CHART_COLORS[0], // Blue — matches --location-city / --chart-1
-	region: CHART_COLORS[2], // Amber — matches --location-region / --chart-3
-	country: CHART_COLORS[1], // Emerald — matches --location-country / --chart-2
-	current: CHART_COLORS[4] // Purple — matches --location-current / --chart-5
+	city: CHART_COLORS[0], // Teal    — matches --location-city / --chart-1
+	region: CHART_COLORS[2], // Honey   — matches --location-region / --chart-3
+	country: CHART_COLORS[6], // Moss    — matches --location-country / --chart-7
+	current: CHART_COLORS[3] // Iris    — matches --location-current / --chart-4
 } as const;
 
 /**
@@ -104,72 +93,72 @@ export function getLocationColor(type: string): string {
 
 export const THEME_COLORS = {
 	light: {
-		// Surfaces (warm stone neutrals — "Scholarly Modernism")
-		background: '#fdfdfc', // --color-neutral-0:  hsl(40, 20%, 99%)
-		foreground: '#221a16', // --color-neutral-900: hsl(18, 22%, 11%)
-		card: '#fdfdfc', // --color-neutral-0
-		cardForeground: '#221a16', // --color-neutral-900
-		popover: '#fdfdfc', // --color-neutral-0
-		popoverForeground: '#221a16', // --color-neutral-900
+		// Surfaces (warm stone neutrals)
+		background: '#fdfdfc', // --color-neutral-0
+		foreground: '#221a16', // --color-neutral-900
+		card: '#fdfdfc',
+		cardForeground: '#221a16',
+		popover: '#fdfdfc',
+		popoverForeground: '#221a16',
 
-		// Semantic (deep viridian/teal primary, copper accent)
-		primary: '#22817b', // --color-primary-600: hsl(176, 58%, 32%)
-		primaryForeground: '#f9f8f6', // --color-neutral-50:  hsl(40, 18%, 97%)
-		secondary: '#f2f0ee', // --color-neutral-100: hsl(36, 14%, 94%)
-		secondaryForeground: '#302621', // --color-neutral-800: hsl(20, 18%, 16%)
-		muted: '#f2f0ee', // --color-neutral-100
-		mutedForeground: '#766960', // --color-neutral-500: hsl(25, 10%, 42%)
-		accent: '#f9e8d2', // --color-accent-100:  hsl(34, 78%, 90%)
-		accentForeground: '#65230b', // --color-accent-800:  hsl(16, 80%, 22%)
-		destructive: '#f43e5c', // --color-danger-500:  hsl(350, 89%, 60%)
-		destructiveForeground: '#f9f8f6', // --color-neutral-50
+		// Semantic (deep viridian primary — darkened for AA, copper accent)
+		primary: '#196b69', // --color-primary-700
+		primaryForeground: '#f9f8f6', // --color-neutral-50
+		secondary: '#f2f0ee', // --color-neutral-100
+		secondaryForeground: '#302621', // --color-neutral-800
+		muted: '#f2f0ee',
+		mutedForeground: '#766960', // --color-neutral-500
+		accent: '#f9e8d2', // --color-accent-100
+		accentForeground: '#65230b', // --color-accent-800
+		destructive: '#a91936', // --color-danger-600 — AA-safe
+		destructiveForeground: '#f9f8f6',
 
-		// UI Elements
-		border: '#e4e1dd', // --color-neutral-200: hsl(34, 12%, 88%)
-		input: '#e4e1dd', // --color-neutral-200
-		ring: '#2f9389', // --color-primary-500: hsl(174, 52%, 38%)
-
-		// Chart specific
-		chartText: '#463b35', // --color-neutral-700: hsl(22, 14%, 24%)
-		chartTextMuted: '#766960', // --color-neutral-500: hsl(25, 10%, 42%)
-		chartAxis: '#938980', // --color-neutral-400: hsl(28, 8%, 54%)
-		chartGrid: '#e4e1dd', // --color-neutral-200
-		chartTooltipBg: 'rgba(253, 253, 252, 0.95)', // --color-neutral-0 with alpha
-		chartTooltipBorder: '#e4e1dd' // --color-neutral-200
-	},
-	dark: {
-		// Surfaces (dark warm stone)
-		background: '#140d0b', // --color-neutral-950: hsl(16, 30%, 6%)
-		foreground: '#f2f0ee', // --color-neutral-100: hsl(36, 14%, 94%)
-		card: '#221a16', // --color-neutral-900: hsl(18, 22%, 11%)
-		cardForeground: '#f2f0ee', // --color-neutral-100
-		popover: '#221a16', // --color-neutral-900
-		popoverForeground: '#f2f0ee', // --color-neutral-100
-
-		// Semantic
-		primary: '#4ab5ae', // --color-primary-400: hsl(176, 42%, 50%)
-		primaryForeground: '#140d0b', // --color-neutral-950
-		secondary: '#302621', // --color-neutral-800: hsl(20, 18%, 16%)
-		secondaryForeground: '#f2f0ee', // --color-neutral-100
-		muted: '#302621', // --color-neutral-800
-		mutedForeground: '#938980', // --color-neutral-400: hsl(28, 8%, 54%)
-		accent: '#541a08', // --color-accent-900:  hsl(14, 82%, 18%)
-		accentForeground: '#f2cfa6', // --color-accent-200:  hsl(32, 74%, 80%)
-		destructive: '#e21d48', // --color-danger-600:  hsl(347, 77%, 50%)
-		destructiveForeground: '#f9f8f6', // --color-neutral-50
-
-		// UI Elements
-		border: '#302621', // --color-neutral-800
-		input: '#302621', // --color-neutral-800
+		// UI elements
+		border: '#e4e1dd', // --color-neutral-200
+		input: '#e4e1dd',
 		ring: '#2f9389', // --color-primary-500
 
 		// Chart specific
+		chartText: '#463b35', // --color-neutral-700
+		chartTextMuted: '#766960', // --color-neutral-500
+		chartAxis: '#938980', // --color-neutral-400
+		chartGrid: '#e4e1dd', // --color-neutral-200
+		chartTooltipBg: 'rgba(253, 253, 252, 0.96)',
+		chartTooltipBorder: '#e4e1dd'
+	},
+	dark: {
+		// Surfaces
+		background: '#140d0b', // --color-neutral-950
+		foreground: '#f2f0ee', // --color-neutral-100
+		card: '#221a16', // --color-neutral-900
+		cardForeground: '#f2f0ee',
+		popover: '#221a16',
+		popoverForeground: '#f2f0ee',
+
+		// Semantic
+		primary: '#4ab5ae', // --color-primary-400
+		primaryForeground: '#140d0b',
+		secondary: '#302621', // --color-neutral-800
+		secondaryForeground: '#f2f0ee',
+		muted: '#302621',
+		mutedForeground: '#c8c2bc', // --color-neutral-300 — AA on neutral-900
+		accent: '#541a08', // --color-accent-900
+		accentForeground: '#f2cfa6', // --color-accent-200
+		destructive: '#c7233f', // --color-danger-500
+		destructiveForeground: '#f9f8f6',
+
+		// UI elements
+		border: '#302621',
+		input: '#302621',
+		ring: '#4ab5ae',
+
+		// Chart specific
 		chartText: '#e4e1dd', // --color-neutral-200
-		chartTextMuted: '#c8c2bc', // --color-neutral-300: hsl(32, 10%, 76%)
-		chartAxis: '#766960', // --color-neutral-500: hsl(25, 10%, 42%)
+		chartTextMuted: '#c8c2bc', // --color-neutral-300
+		chartAxis: '#766960', // --color-neutral-500
 		chartGrid: '#302621', // --color-neutral-800
-		chartTooltipBg: 'rgba(34, 26, 22, 0.95)', // --color-neutral-900 with alpha
-		chartTooltipBorder: '#463b35' // --color-neutral-700
+		chartTooltipBg: 'rgba(34, 26, 22, 0.96)',
+		chartTooltipBorder: '#463b35'
 	}
 } as const;
 
@@ -185,15 +174,10 @@ export const FONT_FAMILY = {
 } as const;
 
 const FONT_WEIGHT = {
-	thin: 100,
-	extralight: 200,
-	light: 300,
 	normal: 400,
 	medium: 500,
 	semibold: 600,
-	bold: 700,
-	extrabold: 800,
-	black: 900
+	bold: 700
 } as const;
 
 /* =============================================================================
@@ -202,8 +186,7 @@ const FONT_WEIGHT = {
 
 const BORDER_RADIUS = {
 	none: '0',
-	sm: '0.125rem',
-	default: '0.25rem',
+	sm: '0.25rem',
 	md: '0.375rem',
 	lg: '0.5rem',
 	xl: '0.75rem',
@@ -213,27 +196,19 @@ const BORDER_RADIUS = {
 } as const;
 
 /* =============================================================================
-   SHADOWS
+   SHADOWS (mirrors tokens.css, kept lightweight for ECharts extraCssText)
    ============================================================================= */
 
 const SHADOW = {
-	xs: '0 1px 2px 0 rgb(24 16 8 / 0.04)',
-	sm: '0 1px 3px 0 rgb(24 16 8 / 0.06), 0 1px 2px -1px rgb(24 16 8 / 0.06)',
-	md: '0 4px 6px -1px rgb(24 16 8 / 0.08), 0 2px 4px -2px rgb(24 16 8 / 0.06)',
-	lg: '0 10px 15px -3px rgb(24 16 8 / 0.1), 0 4px 6px -4px rgb(24 16 8 / 0.08)',
-	xl: '0 20px 25px -5px rgb(24 16 8 / 0.12), 0 8px 10px -6px rgb(24 16 8 / 0.08)',
-	'2xl': '0 25px 50px -12px rgb(24 16 8 / 0.2)',
-	inner: 'inset 0 2px 4px 0 rgb(24 16 8 / 0.04)',
-	none: '0 0 #0000'
+	sm: '0 1px 2px 0 rgb(24 16 8 / 0.04), 0 1px 3px 0 rgb(24 16 8 / 0.06)',
+	md: '0 2px 4px -1px rgb(24 16 8 / 0.06), 0 4px 8px -2px rgb(24 16 8 / 0.08)',
+	lg: '0 4px 6px -2px rgb(24 16 8 / 0.05), 0 12px 20px -4px rgb(24 16 8 / 0.1)'
 } as const;
 
 /* =============================================================================
    ECHARTS THEME CONFIGURATIONS
    ============================================================================= */
 
-/**
- * ECharts theme configuration for light mode
- */
 export const ECHARTS_THEME_LIGHT = {
 	backgroundColor: 'transparent',
 	textStyle: {
@@ -285,9 +260,6 @@ export const ECHARTS_THEME_LIGHT = {
 	color: CHART_COLORS
 } as const;
 
-/**
- * ECharts theme configuration for dark mode
- */
 export const ECHARTS_THEME_DARK = {
 	backgroundColor: 'transparent',
 	textStyle: {
@@ -339,42 +311,28 @@ export const ECHARTS_THEME_DARK = {
 	color: CHART_COLORS
 } as const;
 
-/**
- * Helper to get ECharts theme based on current theme mode
- */
 export function getEChartsTheme(isDark: boolean) {
 	return isDark ? ECHARTS_THEME_DARK : ECHARTS_THEME_LIGHT;
 }
 
-/**
- * Helper to get a color from the chart palette by index (with wrapping)
- */
 export function getChartColor(index: number): string {
 	return CHART_COLORS[index % CHART_COLORS.length];
 }
 
-/**
- * Helper to get theme colors based on mode
- */
 export function getThemeColors(isDark: boolean) {
 	return isDark ? THEME_COLORS.dark : THEME_COLORS.light;
 }
+
+// Shadow constants for cases outside ECharts
+export { SHADOW, BORDER_RADIUS };
 
 /* =============================================================================
    ECHARTS PERFORMANCE SETTINGS
    ============================================================================= */
 
-/**
- * Performance thresholds and settings for ECharts
- * Used to automatically optimize large dataset rendering
- */
 export const ECHARTS_PERFORMANCE = {
-	/** Dataset size threshold for enabling large mode optimizations */
 	LARGE_DATASET_THRESHOLD: 1000,
-	/** Dataset size threshold for enabling progressive rendering */
 	PROGRESSIVE_THRESHOLD: 5000,
-	/** Number of data points to render per frame in progressive mode */
 	PROGRESSIVE_CHUNK_SIZE: 500,
-	/** Milliseconds to throttle resize event handlers */
 	RESIZE_THROTTLE_MS: 100
 } as const;
