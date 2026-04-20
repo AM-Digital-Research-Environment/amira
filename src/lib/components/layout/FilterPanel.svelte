@@ -14,6 +14,7 @@
 	import { getUniqueResourceTypes, getUniqueLanguages } from '$lib/utils/dataTransform';
 	import { languageName } from '$lib/utils/languages';
 	import { universities } from '$lib/types';
+	import { EXTERNAL_SOURCE_ID } from '$lib/utils/dataLoader';
 
 	interface Props {
 		class?: string;
@@ -23,6 +24,9 @@
 
 	let resourceTypes = $derived(getUniqueResourceTypes($allCollections));
 	let languages = $derived(getUniqueLanguages($allCollections));
+	let externalCount = $derived(
+		$allCollections.filter((i) => i.university === EXTERNAL_SOURCE_ID).length
+	);
 
 	let isExpanded = $state(false);
 </script>
@@ -77,6 +81,21 @@
 							<span class="opacity-70 tabular-nums">({$universityItemCounts[uni.id] || 0})</span>
 						</button>
 					{/each}
+					{#if externalCount > 0}
+						<button
+							type="button"
+							onclick={() => toggleUniversity(EXTERNAL_SOURCE_ID)}
+							class={cn(
+								'px-2.5 py-1 rounded-full text-xs font-medium transition-all duration-fast ease-out flex items-center gap-1.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-1',
+								$filters.universities.includes(EXTERNAL_SOURCE_ID)
+									? 'bg-primary text-primary-foreground shadow-xs'
+									: 'bg-secondary text-secondary-foreground hover:bg-secondary-hover'
+							)}
+						>
+							<span>External</span>
+							<span class="opacity-70 tabular-nums">({externalCount})</span>
+						</button>
+					{/if}
 				</div>
 			</div>
 
@@ -131,9 +150,10 @@
 		<div class="flex flex-wrap gap-1.5 px-5 pb-4 border-t border-border/50 pt-4">
 			{#each $filters.universities as uniId (uniId)}
 				{@const uni = universities.find((u) => u.id === uniId)}
-				{#if uni}
+				{@const label = uni?.name ?? (uniId === EXTERNAL_SOURCE_ID ? 'External' : null)}
+				{#if label}
 					<Badge variant="outline">
-						{uni.name}
+						{label}
 						<button
 							type="button"
 							class="ml-1 hover:text-destructive"

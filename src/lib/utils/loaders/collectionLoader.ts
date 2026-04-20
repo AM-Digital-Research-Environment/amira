@@ -100,7 +100,16 @@ export const UNIVERSITY_COLLECTIONS: Record<string, string[]> = {
 interface Manifest {
 	generatedAt: string;
 	universities: Record<string, string[]>;
+	external?: Record<string, string[]>;
 }
+
+/**
+ * Non-cluster metadata databases exported from MongoDB. Items carry
+ * `university: 'external'` so they can be included in global totals but
+ * excluded from partner-university views. Keyed by folder under static/data/.
+ */
+export const EXTERNAL_SOURCE_ID = 'external';
+const EXTERNAL_FOLDERS = ['external_metadata'];
 
 let manifestCache: Manifest | null = null;
 
@@ -210,19 +219,56 @@ export async function loadAllUniversityCollections(
 }
 
 /**
- * Load all collection items from all sources (all universities + dev)
+ * Load a single external collection (e.g. external_metadata/ILAM.json).
+ * Items are tagged with `university: 'external'` so global stats include them
+ * while per-university views filter them out.
+ */
+async function loadExternalCollection(
+	folder: string,
+	collectionName: string,
+	basePath: string = ''
+): Promise<CollectionItem[]> {
+	const items = await tryLoadJSON<CollectionItem>(
+		`${basePath}/data/${folder}/${folder}.${collectionName}.json`
+	);
+	return items.map((item) => ({ ...item, university: EXTERNAL_SOURCE_ID }));
+}
+
+/**
+ * Load every external collection listed under manifest.external. Falls back to
+ * an empty list if the manifest is missing or the `external` key is absent.
+ */
+export async function loadAllExternalCollections(basePath: string = ''): Promise<CollectionItem[]> {
+	const manifest = await loadManifest(basePath);
+	const external = manifest?.external ?? {};
+	const tasks: Promise<CollectionItem[]>[] = [];
+	for (const folder of EXTERNAL_FOLDERS) {
+		const names = external[folder] ?? [];
+		for (const name of names) {
+			tasks.push(loadExternalCollection(folder, name, basePath));
+		}
+	}
+	const results = await Promise.all(tasks);
+	return results.flat();
+}
+
+/**
+ * Load all collection items from all sources (universities + dev + external)
  */
 export async function loadAllCollections(basePath: string = ''): Promise<CollectionItem[]> {
-	const [universityCollections, devCollections] = await Promise.all([
+	const [universityCollections, devCollections, externalCollections] = await Promise.all([
 		loadAllUniversityCollections(basePath),
-		loadDevCollections(basePath)
+		loadDevCollections(basePath),
+		loadAllExternalCollections(basePath)
 	]);
 	// Filter out empty/untitled items (no title and no meaningful content)
-	const all = [...universityCollections, ...devCollections].filter((item) => {
-		const hasTitle = item.titleInfo?.some((t) => t.title?.trim());
-		const hasType = !!item.typeOfResource?.trim();
-		return hasTitle || hasType;
-	});
+	const all = [...universityCollections, ...devCollections, ...externalCollections].filter(
+		(item) => {
+			const hasTitle = item.titleInfo?.some((t) => t.title?.trim());
+			const hasType = !!item.typeOfResource?.trim();
+			return hasTitle || hasType;
+		}
+	);
 	// Normalize location origin fields: arrays → first string value
 	for (const item of all) {
 		item.location?.origin?.forEach((o) => {

@@ -94,8 +94,12 @@ def collect_referenced_locations() -> tuple[set[str], set[str], set[str]]:
     regions: set[str] = set()
     cities: set[str] = set()
 
-    pattern = os.path.join(DATA_DIR, "projects_metadata_*", "*.json")
-    for path in glob.glob(pattern):
+    patterns = [
+        os.path.join(DATA_DIR, "projects_metadata_*", "*.json"),
+        os.path.join(DATA_DIR, "external_metadata", "*.json"),
+    ]
+    paths = [p for pattern in patterns for p in glob.glob(pattern)]
+    for path in paths:
         try:
             items = _load_json(path)
         except Exception as exc:

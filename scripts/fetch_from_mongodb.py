@@ -52,6 +52,12 @@ UNIVERSITY_DATABASES = [
     "projects_metadata_ufba",
 ]
 
+# External (non-university) metadata databases to auto-discover collections from.
+# Exported to static/data/<db>/<db>.<coll>.json and recorded under manifest["external"].
+EXTERNAL_DATABASES = [
+    "external_metadata",
+]
+
 # Collections to skip during auto-discovery (e.g. MongoDB system collections)
 SKIP_COLLECTIONS = {"system.views", "system.buckets", "system.profile"}
 
@@ -156,6 +162,33 @@ def main():
         except Exception as e:
             print(f"  ERROR listing collections: {e}")
 
+    # Export external (non-university) databases (auto-discovered)
+    manifest_external = {}
+
+    for db_name in EXTERNAL_DATABASES:
+        print(f"\n=== {db_name} ===")
+        try:
+            db = client[db_name]
+            collections = sorted(db.list_collection_names())
+            collections = [c for c in collections if c not in SKIP_COLLECTIONS]
+            if not collections:
+                print("  (no collections found)")
+                continue
+            print(f"  Found {len(collections)} collections")
+            manifest_external[db_name] = collections
+            for coll_name in collections:
+                filename = f"{db_name}.{coll_name}.json"
+                output_path = os.path.join(DATA_DIR, db_name, filename)
+                try:
+                    count = export_collection(client, db_name, coll_name, output_path)
+                    print(f"  {filename}: {count} documents")
+                    total_collections += 1
+                    total_documents += count
+                except Exception as e:
+                    print(f"  {filename}: ERROR - {e}")
+        except Exception as e:
+            print(f"  ERROR listing collections: {e}")
+
     client.close()
 
     # Write manifest.json with discovered collection names
@@ -164,6 +197,7 @@ def main():
     manifest = {
         "generatedAt": datetime.now(timezone.utc).isoformat(),
         "universities": manifest_universities,
+        "external": manifest_external,
     }
     manifest_path = os.path.join(DATA_DIR, "manifest.json")
     with open(manifest_path, "w", encoding="utf-8") as f:

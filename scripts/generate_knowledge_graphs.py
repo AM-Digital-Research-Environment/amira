@@ -49,9 +49,10 @@ CATEGORIES = [
 
 
 def load_items():
-    """Load all collection items from all projects_metadata_* directories."""
+    """Load all collection items from projects_metadata_* and external_metadata/."""
     items = []
-    for data_dir in sorted(STATIC_DATA.glob("projects_metadata_*")):
+    data_dirs = sorted(STATIC_DATA.glob("projects_metadata_*")) + [STATIC_DATA / "external_metadata"]
+    for data_dir in data_dirs:
         if not data_dir.is_dir():
             continue
         for f in sorted(data_dir.glob("*.json")):
