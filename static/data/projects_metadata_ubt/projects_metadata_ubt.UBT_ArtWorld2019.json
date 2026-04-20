@@ -131,7 +131,7 @@
       "Artists"
     ],
     "tags": [
-      "Yoruba",
+      "Yoruba Art",
       "Wall Painting"
     ],
     "updatedBy": "jy"
@@ -179,12 +179,6 @@
     "note": "Copyright held by Iwalewahaus, CBCIU.",
     "subject": [
       {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85136889",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Transcription",
-        "authLabel": "Transcription"
-      },
-      {
         "uri": "http://id.loc.gov/authorities/subjects/sh85006913",
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Archives",
@@ -195,6 +189,12 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Books",
         "authLabel": "Books"
+      },
+      {
+        "URI": "http://id.loc.gov/authorities/subjects/sh85136889",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Transcription",
+        "authLabel": "Transcription"
       }
     ],
     "relatedItems": {},
@@ -634,7 +634,7 @@
     ],
     "tags": [
       "Art Collection",
-      "Yoruba",
+      "Yoruba Art",
       "Yoruba Pottery"
     ],
     "updatedBy": "jy"
@@ -880,6 +880,12 @@
         "authLabel": "Yoruba (African people)"
       },
       {
+        "uri": "http://id.loc.gov/authorities/subjects/sh85149243",
+        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
+        "origLabel": "Yoruba (African people)--Religion",
+        "authLabel": "Yoruba (African people)--Religion"
+      },
+      {
         "uri": "http://id.loc.gov/authorities/subjects/sh85114228",
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Ritual",
@@ -890,18 +896,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Orisha religion",
         "authLabel": "Orisha religion"
-      },
-      {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85149243",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Yoruba (African people)--Religion",
-        "authLabel": "Yoruba (African people)--Religion"
-      },
-      {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85149244",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Yoruba (African people)--Rites and ceremonies",
-        "authLabel": "Yoruba (African people)--Rites and ceremonies"
       },
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85003250",
@@ -986,10 +980,12 @@
     ],
     "tags": [
       "Shango",
-      "Yoruba",
+      "Yoruba Art",
       "Orisha",
       "Orisha Art",
-      "Yoruba Rituals"
+      "Yoruba Rituals",
+      "Yoruba Rites",
+      "Yoruba Ceremony"
     ],
     "updatedBy": "jy"
   },
@@ -2047,7 +2043,7 @@
       "Artists"
     ],
     "tags": [
-      "Yoruba",
+      "Yoruba Art",
       "Ijala"
     ],
     "updatedBy": "jy"
@@ -3113,7 +3109,7 @@
     "tags": [
       "Contact Sheet",
       "Ceremony",
-      "Yoruba",
+      "Yoruba Art",
       "Yoruba Ceremony",
       "Osogbo",
       "Nigeria"
@@ -3242,7 +3238,7 @@
     "tags": [
       "Contact Sheet",
       "Ceremony",
-      "Yoruba",
+      "Yoruba Art",
       "Yoruba Ceremony",
       "Osogbo",
       "Nigeria"
@@ -3382,7 +3378,6 @@
     ],
     "tags": [
       "The Mbari Club",
-      "Ika",
       "Ibadan",
       "Nigeria",
       "Ritual Dance",
@@ -3506,7 +3501,7 @@
     "tags": [
       "Recording",
       "Ceremony",
-      "Yoruba",
+      "Yoruba Art",
       "Yoruba Ceremony"
     ],
     "updatedBy": "jy"
@@ -4037,7 +4032,7 @@
     ],
     "tags": [
       "Nigeria",
-      "Yoruba",
+      "Yoruba Art",
       "Royalty"
     ],
     "updatedBy": "jy"
@@ -4305,12 +4300,6 @@
         "authLabel": "Artists"
       },
       {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
-      },
-      {
         "uri": "http://id.loc.gov/authorities/subjects/sh86006388",
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Invitation cards",
@@ -4383,7 +4372,9 @@
     "tags": [
       "Art Exhibition",
       "Ibadan",
-      "Nigeria"
+      "Nigeria",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -4598,12 +4589,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Artists",
         "authLabel": "Artists"
-      },
-      {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
       }
     ],
     "relatedItems": {},
@@ -4676,7 +4661,9 @@
       "Nigeria",
       "Cultural Centre",
       "Invitation",
-      "Performing Arts Center"
+      "Performing Arts Center",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -4768,12 +4755,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Artists",
         "authLabel": "Artists"
-      },
-      {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
       }
     ],
     "relatedItems": {},
@@ -4846,7 +4827,9 @@
       "Nigeria",
       "Cultural Centre",
       "Site Plan",
-      "Performing Arts Center"
+      "Performing Arts Center",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -4946,12 +4929,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Artists",
         "authLabel": "Artists"
-      },
-      {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
       }
     ],
     "relatedItems": {},
@@ -5023,7 +5000,9 @@
       "Ibadan",
       "Nigeria",
       "Invitation",
-      "Performing Arts Center"
+      "Performing Arts Center",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -5115,12 +5094,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Artists",
         "authLabel": "Artists"
-      },
-      {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
       }
     ],
     "relatedItems": {},
@@ -5193,7 +5166,9 @@
       "Folk Art",
       "Nigeria",
       "Invitation",
-      "Performing Arts Center"
+      "Performing Arts Center",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -6477,7 +6452,7 @@
       "Artists"
     ],
     "tags": [
-      "Yoruba"
+      "Yoruba Art"
     ],
     "updatedBy": "jy"
   },
@@ -6780,7 +6755,6 @@
       "Ataoja",
       "Osogbo",
       "Nigeria",
-      "Hausa",
       "Cultural Centre"
     ],
     "updatedBy": "jy"
@@ -6934,7 +6908,7 @@
       "Ataoja",
       "Osogbo",
       "Nigeria",
-      "Yoruba",
+      "Yoruba Art",
       "Cultural Centre"
     ],
     "updatedBy": "jy"
@@ -7262,7 +7236,7 @@
     "tags": [
       "Art Exhibition",
       "Cultural Centre",
-      "Yoruba",
+      "Yoruba Art",
       "Yoruba Priest",
       "Performing Arts Center"
     ],
@@ -7418,7 +7392,7 @@
     "tags": [
       "Art Exhibition",
       "Cultural Centre",
-      "Yoruba",
+      "Yoruba Art",
       "Yoruba Priest",
       "Performing Arts Center"
     ],
@@ -10171,7 +10145,7 @@
     ],
     "tags": [
       "Hohao (Spirit Board)",
-      "Yoruba",
+      "Yoruba Art",
       "Papua New Guinea",
       "New Guinea"
     ],
@@ -10330,7 +10304,7 @@
       "Artists"
     ],
     "tags": [
-      "Yoruba",
+      "Yoruba Art",
       "Papua New Guinea",
       "New Guinea"
     ],
@@ -10489,7 +10463,7 @@
       "Artists"
     ],
     "tags": [
-      "Yoruba",
+      "Yoruba Art",
       "Papua New Guinea",
       "New Guinea"
     ],
@@ -10956,7 +10930,7 @@
       "Esu Figure",
       "Orisha",
       "Orisha Art",
-      "Yoruba"
+      "Yoruba Art"
     ],
     "updatedBy": "jy"
   },
@@ -11128,7 +11102,7 @@
       "Ibeji Figure",
       "Orisha",
       "Orisha Art",
-      "Yoruba"
+      "Yoruba Art"
     ],
     "updatedBy": "jy"
   },
@@ -11300,7 +11274,7 @@
       "Ibeji Figure",
       "Orisha",
       "Orisha Art",
-      "Yoruba"
+      "Yoruba Art"
     ],
     "updatedBy": "jy"
   },
@@ -11477,7 +11451,7 @@
       "Esu Figure",
       "Orisha",
       "Orisha Art",
-      "Yoruba"
+      "Yoruba Art"
     ],
     "updatedBy": "jy"
   },
@@ -11649,7 +11623,7 @@
       "Ibeji Figure",
       "Orisha",
       "Orisha Art",
-      "Yoruba"
+      "Yoruba Art"
     ],
     "updatedBy": "jy"
   },
@@ -11821,7 +11795,7 @@
       "Ibeji Figure",
       "Orisha",
       "Orisha Art",
-      "Yoruba"
+      "Yoruba Art"
     ],
     "updatedBy": "jy"
   },
@@ -11993,7 +11967,7 @@
       "Ibeji Figure",
       "Orisha",
       "Orisha Art",
-      "Yoruba"
+      "Yoruba Art"
     ],
     "updatedBy": "jy"
   },
@@ -12164,7 +12138,7 @@
       "Opon Ifá",
       "Orisha",
       "Orisha Art",
-      "Yoruba"
+      "Yoruba Art"
     ],
     "updatedBy": "jy"
   },
@@ -12335,7 +12309,7 @@
       "Ibori",
       "Orisha",
       "Orisha Art",
-      "Yoruba"
+      "Yoruba Art"
     ],
     "updatedBy": "jy"
   },
@@ -12504,10 +12478,10 @@
     ],
     "tags": [
       "Shango",
-      "Yoruba",
+      "Yoruba Art",
       "Orisha",
       "Orisha Art",
-      "Yoruba"
+      "Yoruba Art"
     ],
     "updatedBy": "jy"
   },
@@ -15113,12 +15087,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Artists",
         "authLabel": "Artists"
-      },
-      {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
       }
     ],
     "relatedItems": {},
@@ -15185,7 +15153,9 @@
       "Art Exhibition",
       "Iwalewahaus",
       "Cultural Centre",
-      "Performing Arts Center"
+      "Performing Arts Center",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -17103,12 +17073,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Artists",
         "authLabel": "Artists"
-      },
-      {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
       }
     ],
     "relatedItems": {},
@@ -17180,7 +17144,9 @@
     "tags": [
       "Nigeria",
       "Papua New Guinea",
-      "New Guinea"
+      "New Guinea",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -17252,12 +17218,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Artists",
         "authLabel": "Artists"
-      },
-      {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
       }
     ],
     "relatedItems": {},
@@ -17325,7 +17285,9 @@
     "tags": [
       "Nigeria",
       "Papua New Guinea",
-      "New Guinea"
+      "New Guinea",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -17403,12 +17365,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Artists",
         "authLabel": "Artists"
-      },
-      {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
       }
     ],
     "relatedItems": {},
@@ -17476,7 +17432,9 @@
     "tags": [
       "Nigeria",
       "Papua New Guinea",
-      "New Guinea"
+      "New Guinea",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -17554,12 +17512,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Artists",
         "authLabel": "Artists"
-      },
-      {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
       }
     ],
     "relatedItems": {},
@@ -17627,7 +17579,9 @@
     "tags": [
       "Nigeria",
       "Papua New Guinea",
-      "New Guinea"
+      "New Guinea",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -17705,12 +17659,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Artists",
         "authLabel": "Artists"
-      },
-      {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
       }
     ],
     "relatedItems": {},
@@ -17778,7 +17726,9 @@
     "tags": [
       "Nigeria",
       "Papua New Guinea",
-      "New Guinea"
+      "New Guinea",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -17856,12 +17806,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Artists",
         "authLabel": "Artists"
-      },
-      {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
       }
     ],
     "relatedItems": {},
@@ -17929,7 +17873,9 @@
     "tags": [
       "Nigeria",
       "Papua New Guinea",
-      "New Guinea"
+      "New Guinea",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -18007,12 +17953,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Artists",
         "authLabel": "Artists"
-      },
-      {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
       }
     ],
     "relatedItems": {},
@@ -18080,7 +18020,9 @@
     "tags": [
       "Nigeria",
       "Papua New Guinea",
-      "New Guinea"
+      "New Guinea",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -18158,12 +18100,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Artists",
         "authLabel": "Artists"
-      },
-      {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
       }
     ],
     "relatedItems": {},
@@ -18231,7 +18167,9 @@
     "tags": [
       "Nigeria",
       "Papua New Guinea",
-      "New Guinea"
+      "New Guinea",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -18309,12 +18247,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Artists",
         "authLabel": "Artists"
-      },
-      {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
       }
     ],
     "relatedItems": {},
@@ -18382,7 +18314,9 @@
     "tags": [
       "Nigeria",
       "Papua New Guinea",
-      "New Guinea"
+      "New Guinea",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -18460,12 +18394,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Artists",
         "authLabel": "Artists"
-      },
-      {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
       }
     ],
     "relatedItems": {},
@@ -18533,7 +18461,9 @@
     "tags": [
       "Nigeria",
       "Papua New Guinea",
-      "New Guinea"
+      "New Guinea",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -18611,12 +18541,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Artists",
         "authLabel": "Artists"
-      },
-      {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
       }
     ],
     "relatedItems": {},
@@ -18684,7 +18608,9 @@
     "tags": [
       "Nigeria",
       "Papua New Guinea",
-      "New Guinea"
+      "New Guinea",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -18762,12 +18688,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Artists",
         "authLabel": "Artists"
-      },
-      {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
       }
     ],
     "relatedItems": {},
@@ -18835,7 +18755,9 @@
     "tags": [
       "Nigeria",
       "Papua New Guinea",
-      "New Guinea"
+      "New Guinea",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -18913,12 +18835,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Artists",
         "authLabel": "Artists"
-      },
-      {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
       }
     ],
     "relatedItems": {},
@@ -18986,7 +18902,9 @@
     "tags": [
       "Nigeria",
       "Papua New Guinea",
-      "New Guinea"
+      "New Guinea",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -19064,12 +18982,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Artists",
         "authLabel": "Artists"
-      },
-      {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
       }
     ],
     "relatedItems": {},
@@ -19137,7 +19049,9 @@
     "tags": [
       "Nigeria",
       "Papua New Guinea",
-      "New Guinea"
+      "New Guinea",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -19223,22 +19137,10 @@
         "authLabel": "Artists"
       },
       {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
-      },
-      {
         "uri": "http://id.loc.gov/authorities/subjects/sh85046354",
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Exhibitions",
         "authLabel": "Exhibitions"
-      },
-      {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
       }
     ],
     "relatedItems": {},
@@ -19306,7 +19208,9 @@
     "tags": [
       "Art Exhibition",
       "Cultural Centre",
-      "Performing Arts Center"
+      "Performing Arts Center",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -19408,22 +19312,10 @@
         "authLabel": "Artists"
       },
       {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
-      },
-      {
         "uri": "http://id.loc.gov/authorities/subjects/sh85046354",
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Exhibitions",
         "authLabel": "Exhibitions"
-      },
-      {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
       }
     ],
     "relatedItems": {},
@@ -19492,7 +19384,9 @@
       "Art Exhibition",
       "Nigeria",
       "Cultural Centre",
-      "Performing Arts Center"
+      "Performing Arts Center",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -19725,22 +19619,10 @@
         "authLabel": "Artists"
       },
       {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
-      },
-      {
         "uri": "http://id.loc.gov/authorities/subjects/sh85046354",
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Exhibitions",
         "authLabel": "Exhibitions"
-      },
-      {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
       }
     ],
     "relatedItems": {},
@@ -19815,7 +19697,9 @@
       "Email",
       "Nigeria",
       "Cultural Centre",
-      "Performing Arts Center"
+      "Performing Arts Center",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -19911,22 +19795,10 @@
         "authLabel": "Artists"
       },
       {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
-      },
-      {
         "uri": "http://id.loc.gov/authorities/subjects/sh85046354",
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Exhibitions",
         "authLabel": "Exhibitions"
-      },
-      {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
       },
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85088762",
@@ -20008,7 +19880,9 @@
       "Nigeria",
       "New Zeland",
       "Cultural Centre",
-      "Performing Arts Center"
+      "Performing Arts Center",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -20080,12 +19954,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Artists",
         "authLabel": "Artists"
-      },
-      {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
       }
     ],
     "relatedItems": {},
@@ -20157,7 +20025,9 @@
     ],
     "tags": [
       "Email",
-      "Pentax Camera"
+      "Pentax Camera",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -20229,12 +20099,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Artists",
         "authLabel": "Artists"
-      },
-      {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
       }
     ],
     "relatedItems": {},
@@ -20307,7 +20171,9 @@
     "tags": [
       "Email",
       "Lagos",
-      "Nigeria"
+      "Nigeria",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -20379,12 +20245,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Artists",
         "authLabel": "Artists"
-      },
-      {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
       }
     ],
     "relatedItems": {},
@@ -20456,7 +20316,9 @@
     ],
     "tags": [
       "Email",
-      "Nigeria"
+      "Nigeria",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -20522,12 +20384,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Artists",
         "authLabel": "Artists"
-      },
-      {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
       }
     ],
     "relatedItems": {},
@@ -20599,7 +20455,9 @@
     ],
     "tags": [
       "Email",
-      "Glowitz"
+      "Glowitz",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -20671,12 +20529,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Artists",
         "authLabel": "Artists"
-      },
-      {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
       },
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh94001586",
@@ -20758,7 +20610,9 @@
       "Port Moresby",
       "Papua New Guinea",
       "New Guinea",
-      "Yoruba"
+      "Yoruba Art",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -20824,12 +20678,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Artists",
         "authLabel": "Artists"
-      },
-      {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
       },
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh94001586",
@@ -20911,7 +20759,9 @@
       "Port Moresby",
       "Papua New Guinea",
       "New Guinea",
-      "Yoruba"
+      "Yoruba Art",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -20977,12 +20827,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Artists",
         "authLabel": "Artists"
-      },
-      {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
       },
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh94001586",
@@ -21061,7 +20905,9 @@
     "tags": [
       "Email",
       "Correspondence School",
-      "Home Study School"
+      "Home Study School",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -21127,12 +20973,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Artists",
         "authLabel": "Artists"
-      },
-      {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
       }
     ],
     "relatedItems": {},
@@ -21203,7 +21043,9 @@
       "Artists"
     ],
     "tags": [
-      "Email"
+      "Email",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -21281,12 +21123,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Artists",
         "authLabel": "Artists"
-      },
-      {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
       },
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85046354",
@@ -21370,7 +21206,9 @@
       "The Mbari Club",
       "Nigeria",
       "Cultural Centre",
-      "Performing Arts Center"
+      "Performing Arts Center",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -21468,12 +21306,6 @@
         "authLabel": "Artists"
       },
       {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
-      },
-      {
         "uri": "http://id.loc.gov/authorities/subjects/sh85046354",
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Exhibitions",
@@ -21551,7 +21383,9 @@
       "Art Exhibition",
       "Email",
       "Cultural Centre",
-      "Performing Arts Center"
+      "Performing Arts Center",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -21635,12 +21469,6 @@
         "authLabel": "Artists"
       },
       {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
-      },
-      {
         "uri": "http://id.loc.gov/authorities/subjects/sh94001586",
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Wood-carving, Yoruba",
@@ -21719,7 +21547,9 @@
       "Papua New Guinea",
       "New Guinea",
       "Port Moresby",
-      "Yoruba"
+      "Yoruba Art",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -21957,12 +21787,6 @@
         "authLabel": "Artists"
       },
       {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
-      },
-      {
         "uri": "http://id.loc.gov/authorities/subjects/sh85007461",
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Art",
@@ -22056,7 +21880,9 @@
       "Art Exhibition",
       "Iwalewahaus",
       "Cultural Centre",
-      "Performing Arts Center"
+      "Performing Arts Center",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -22136,12 +21962,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Artists",
         "authLabel": "Artists"
-      },
-      {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
       },
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85007461",
@@ -22228,7 +22048,9 @@
       "Art Exhibition",
       "Iwalewahaus",
       "Cultural Centre",
-      "Performing Arts Center"
+      "Performing Arts Center",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -22316,12 +22138,6 @@
         "authLabel": "Interior decoration"
       },
       {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
-      },
-      {
         "uri": "http://id.loc.gov/authorities/subjects/sh85007461",
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Art",
@@ -22403,9 +22219,11 @@
       "Artists"
     ],
     "tags": [
-      "Yoruba",
+      "Yoruba Art",
       "Osogbo",
-      "Nigeria"
+      "Nigeria",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -22499,12 +22317,6 @@
         "authLabel": "Women artists"
       },
       {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
-      },
-      {
         "uri": "http://id.loc.gov/authorities/subjects/sh85087419",
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Mosaics",
@@ -22580,7 +22392,9 @@
     ],
     "tags": [
       "Osogbo",
-      "Nigeria"
+      "Nigeria",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -22668,12 +22482,6 @@
         "authLabel": "Interior decoration"
       },
       {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
-      },
-      {
         "uri": "http://id.loc.gov/authorities/subjects/sh85087419",
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Mosaics",
@@ -22751,7 +22559,9 @@
     ],
     "tags": [
       "Osogbo",
-      "Nigeria"
+      "Nigeria",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -22839,12 +22649,6 @@
         "authLabel": "Interior decoration"
       },
       {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
-      },
-      {
         "uri": "http://id.loc.gov/authorities/subjects/sh85087419",
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Mosaics",
@@ -22924,7 +22728,9 @@
     ],
     "tags": [
       "Osogbo",
-      "Nigeria"
+      "Nigeria",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -23012,12 +22818,6 @@
         "authLabel": "Interior decoration"
       },
       {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
-      },
-      {
         "uri": "http://id.loc.gov/authorities/subjects/sh85087419",
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Mosaics",
@@ -23093,7 +22893,9 @@
     ],
     "tags": [
       "Osogbo",
-      "Nigeria"
+      "Nigeria",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -23181,12 +22983,6 @@
         "authLabel": "Interior decoration"
       },
       {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
-      },
-      {
         "uri": "http://id.loc.gov/authorities/subjects/sh85087419",
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Mosaics",
@@ -23267,7 +23063,9 @@
     ],
     "tags": [
       "Osogbo",
-      "Nigeria"
+      "Nigeria",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -23355,12 +23153,6 @@
         "authLabel": "Interior decoration"
       },
       {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
-      },
-      {
         "uri": "http://id.loc.gov/authorities/subjects/sh85087419",
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Mosaics",
@@ -23436,7 +23228,9 @@
     ],
     "tags": [
       "Osogbo",
-      "Nigeria"
+      "Nigeria",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -23524,12 +23318,6 @@
         "authLabel": "Interior decoration"
       },
       {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
-      },
-      {
         "uri": "http://id.loc.gov/authorities/subjects/sh85119004",
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Sculpture",
@@ -23612,9 +23400,11 @@
       "Artists"
     ],
     "tags": [
-      "Yoruba",
+      "Yoruba Art",
       "Osogbo",
-      "Nigeria"
+      "Nigeria",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -23702,12 +23492,6 @@
         "authLabel": "Interior decoration"
       },
       {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
-      },
-      {
         "uri": "http://id.loc.gov/authorities/subjects/sh85096661",
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Painting",
@@ -23784,7 +23568,9 @@
       "Artists"
     ],
     "tags": [
-      "Sydney"
+      "Sydney",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -23870,12 +23656,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Interior decoration",
         "authLabel": "Interior decoration"
-      },
-      {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
       },
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh97002408",
@@ -23981,7 +23761,9 @@
       "National Archives",
       "Papua New Guinea",
       "New Guinea",
-      "Slit Drum (Instrument)"
+      "Slit Drum (Instrument)",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -24075,12 +23857,6 @@
         "authLabel": "Interior decoration"
       },
       {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
-      },
-      {
         "uri": "http://id.loc.gov/authorities/subjects/sh99003069",
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Wood sculpture, Yoruba",
@@ -24168,8 +23944,10 @@
     ],
     "tags": [
       "Shrine",
-      "Yoruba",
-      "Sydney"
+      "Yoruba Art",
+      "Sydney",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -24263,12 +24041,6 @@
         "authLabel": "Interior decoration"
       },
       {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
-      },
-      {
         "uri": "http://id.loc.gov/authorities/subjects/sh99003069",
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Wood sculpture, Yoruba",
@@ -24350,7 +24122,9 @@
     ],
     "tags": [
       "Shrine",
-      "Yoruba"
+      "Yoruba Art",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -24444,12 +24218,6 @@
         "authLabel": "Interior decoration"
       },
       {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
-      },
-      {
         "uri": "http://id.loc.gov/authorities/subjects/sh99003069",
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Wood sculpture, Yoruba",
@@ -24527,7 +24295,9 @@
     ],
     "tags": [
       "Shrine",
-      "Yoruba"
+      "Yoruba Art",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -24621,12 +24391,6 @@
         "authLabel": "Interior decoration"
       },
       {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
-      },
-      {
         "uri": "http://id.loc.gov/authorities/subjects/sh99003069",
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Wood sculpture, Yoruba",
@@ -24708,7 +24472,9 @@
     ],
     "tags": [
       "Shrine",
-      "Yoruba"
+      "Yoruba Art",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -24802,12 +24568,6 @@
         "authLabel": "Interior decoration"
       },
       {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
-      },
-      {
         "uri": "http://id.loc.gov/authorities/subjects/sh99003069",
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Wood sculpture, Yoruba",
@@ -24887,7 +24647,9 @@
     ],
     "tags": [
       "Shrine",
-      "Yoruba"
+      "Yoruba Art",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -24973,12 +24735,6 @@
         "authLabel": "Interior decoration"
       },
       {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
-      },
-      {
         "uri": "http://id.loc.gov/authorities/subjects/sh99003069",
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Wood sculpture, Yoruba",
@@ -25060,7 +24816,9 @@
     ],
     "tags": [
       "Shrine",
-      "Yoruba"
+      "Yoruba Art",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -25154,12 +24912,6 @@
         "authLabel": "Interior decoration"
       },
       {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
-      },
-      {
         "uri": "http://id.loc.gov/authorities/subjects/sh99003069",
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Wood sculpture, Yoruba",
@@ -25241,8 +24993,10 @@
     ],
     "tags": [
       "Shrine",
-      "Yoruba",
-      "Bangle"
+      "Yoruba Art",
+      "Bangle",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -25336,12 +25090,6 @@
         "authLabel": "Interior decoration"
       },
       {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
-      },
-      {
         "uri": "http://id.loc.gov/authorities/subjects/sh99003069",
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Wood sculpture, Yoruba",
@@ -25423,7 +25171,9 @@
     ],
     "tags": [
       "Shrine",
-      "Yoruba"
+      "Yoruba Art",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -25517,12 +25267,6 @@
         "authLabel": "Interior decoration"
       },
       {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
-      },
-      {
         "uri": "http://id.loc.gov/authorities/subjects/sh99003069",
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Wood sculpture, Yoruba",
@@ -25604,7 +25348,9 @@
     ],
     "tags": [
       "Shrine",
-      "Yoruba"
+      "Yoruba Art",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -25698,12 +25444,6 @@
         "authLabel": "Interior decoration"
       },
       {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
-      },
-      {
         "uri": "http://id.loc.gov/authorities/subjects/sh99003069",
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Wood sculpture, Yoruba",
@@ -25785,7 +25525,9 @@
     ],
     "tags": [
       "Shrine",
-      "Yoruba"
+      "Yoruba Art",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -25879,12 +25621,6 @@
         "authLabel": "Interior decoration"
       },
       {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
-      },
-      {
         "uri": "http://id.loc.gov/authorities/subjects/sh99003069",
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Wood sculpture, Yoruba",
@@ -25966,7 +25702,9 @@
     ],
     "tags": [
       "Shrine",
-      "Yoruba"
+      "Yoruba Art",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -26058,12 +25796,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Interior decoration",
         "authLabel": "Interior decoration"
-      },
-      {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
       },
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh99003069",
@@ -26163,7 +25895,9 @@
       "Opon Ifá",
       "Orisha",
       "Orisha Art",
-      "Yoruba"
+      "Yoruba Art",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -26255,12 +25989,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Interior decoration",
         "authLabel": "Interior decoration"
-      },
-      {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
       },
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh99003069",
@@ -26356,7 +26084,9 @@
     ],
     "tags": [
       "Shrine",
-      "Yoruba"
+      "Yoruba Art",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -26448,12 +26178,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Interior decoration",
         "authLabel": "Interior decoration"
-      },
-      {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
       },
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh99003069",
@@ -26549,7 +26273,9 @@
     ],
     "tags": [
       "Shrine",
-      "Yoruba"
+      "Yoruba Art",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -26641,12 +26367,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Interior decoration",
         "authLabel": "Interior decoration"
-      },
-      {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
       },
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh99003069",
@@ -26742,7 +26462,9 @@
     ],
     "tags": [
       "Shrine",
-      "Yoruba"
+      "Yoruba Art",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -26826,12 +26548,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Interior decoration",
         "authLabel": "Interior decoration"
-      },
-      {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
       },
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh99003069",
@@ -26924,7 +26640,9 @@
     ],
     "tags": [
       "Shrine",
-      "Yoruba"
+      "Yoruba Art",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -26990,12 +26708,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Children",
         "authLabel": "Children"
-      },
-      {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85050405",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Football",
-        "authLabel": "Football"
       },
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85101195",
@@ -27169,12 +26881,6 @@
         "authLabel": "Artists"
       },
       {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
-      },
-      {
         "uri": "http://id.loc.gov/authorities/subjects/sh85121112",
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Orisha religion",
@@ -27269,9 +26975,11 @@
     "tags": [
       "Shrine",
       "Shango",
-      "Yoruba",
+      "Yoruba Art",
       "Orisha",
-      "Orisha Art"
+      "Orisha Art",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -27509,12 +27217,6 @@
         "authLabel": "Interior decoration"
       },
       {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
-      },
-      {
         "uri": "http://id.loc.gov/authorities/subjects/sh99003069",
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Wood sculpture, Yoruba",
@@ -27597,8 +27299,10 @@
       "Artists"
     ],
     "tags": [
-      "Yoruba",
-      "Sydney"
+      "Yoruba Art",
+      "Sydney",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },
@@ -27684,12 +27388,6 @@
         "authLabel": "Interior decoration"
       },
       {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85007472",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Art--Collectors and collecting",
-        "authLabel": "Art--Collectors and collecting"
-      },
-      {
         "uri": "http://id.loc.gov/authorities/subjects/sh99003069",
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Wood sculpture, Yoruba",
@@ -27772,8 +27470,10 @@
       "Artists"
     ],
     "tags": [
-      "Yoruba",
-      "Sydney"
+      "Yoruba Art",
+      "Sydney",
+      "Art Collector",
+      "Art Collecting"
     ],
     "updatedBy": "jy"
   },

@@ -61,12 +61,6 @@
         "authLabel": "Social media"
       },
       {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85056036",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Government, Resistance to",
-        "authLabel": "Government, Resistance to"
-      },
-      {
         "uri": "http://id.loc.gov/authorities/subjects/sh85036220",
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Decolonization",
@@ -137,7 +131,8 @@
     "tags": [
       "Fluid Ontologies",
       "Manifestants",
-      "Protesters"
+      "Protesters",
+      "Right to Resist"
     ],
     "createdAt": {
       "$date": "2026-03-20T15:58:09.190Z"
@@ -207,12 +202,6 @@
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Social media",
         "authLabel": "Social media"
-      },
-      {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85056036",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Government, Resistance to",
-        "authLabel": "Government, Resistance to"
       },
       {
         "uri": "http://id.loc.gov/authorities/subjects/sh85036220",
@@ -285,7 +274,8 @@
     "tags": [
       "Basic Soul",
       "Manifestants",
-      "Protesters"
+      "Protesters",
+      "Right to Resist"
     ],
     "createdAt": {
       "$date": "2026-03-20T15:58:09.230Z"
@@ -357,22 +347,10 @@
         "authLabel": "Social media"
       },
       {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85056036",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Government, Resistance to",
-        "authLabel": "Government, Resistance to"
-      },
-      {
         "uri": "http://id.loc.gov/authorities/subjects/sh85036220",
         "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
         "origLabel": "Decolonization",
         "authLabel": "Decolonization"
-      },
-      {
-        "uri": "http://id.loc.gov/authorities/subjects/sh85087207",
-        "authority": "http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings",
-        "origLabel": "Moralities",
-        "authLabel": "Moralities"
       }
     ],
     "relatedItems": {},
@@ -437,7 +415,8 @@
       "General Public"
     ],
     "tags": [
-      "Moralities"
+      "Right to Resist",
+      "Morality"
     ],
     "createdAt": {
       "$date": "2026-03-20T15:58:09.257Z"
