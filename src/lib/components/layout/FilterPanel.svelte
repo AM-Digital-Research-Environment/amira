@@ -27,15 +27,20 @@
 	let isExpanded = $state(false);
 </script>
 
-<div class={cn('rounded-lg border bg-card p-4', className)}>
-	<div class="flex items-center justify-between mb-4">
+<div
+	class={cn(
+		'rounded-xl border border-border/60 bg-card shadow-xs transition-shadow duration-normal ease-expo-out hover:shadow-sm',
+		className
+	)}
+>
+	<div class="flex items-center justify-between px-5 py-4">
 		<div class="flex items-center gap-2">
-			<h3 class="font-semibold">Filters</h3>
+			<h3 class="font-display font-semibold tracking-tight">Filters</h3>
 			{#if $activeFilterCount > 0}
 				<Badge variant="secondary">{$activeFilterCount}</Badge>
 			{/if}
 		</div>
-		<div class="flex gap-2">
+		<div class="flex gap-1">
 			{#if $activeFilterCount > 0}
 				<Button variant="ghost" size="sm" onclick={() => resetFilters()}>
 					{#snippet children()}Clear{/snippet}
@@ -50,24 +55,26 @@
 	</div>
 
 	{#if isExpanded}
-		<div class="space-y-4">
+		<div class="px-5 pb-5 space-y-5 border-t border-border/50 pt-4">
 			<!-- Universities -->
 			<div>
-				<h4 class="text-sm font-medium mb-2 text-muted-foreground">University</h4>
-				<div class="flex flex-wrap gap-2">
+				<h4 class="text-2xs font-semibold mb-2.5 text-muted-foreground uppercase tracking-widest">
+					University
+				</h4>
+				<div class="flex flex-wrap gap-1.5">
 					{#each universities as uni (uni.id)}
 						<button
 							type="button"
 							onclick={() => toggleUniversity(uni.id)}
 							class={cn(
-								'px-2 py-1 rounded-md text-xs transition-colors flex items-center gap-1.5',
+								'px-2.5 py-1 rounded-full text-xs font-medium transition-all duration-fast ease-out flex items-center gap-1.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-1',
 								$filters.universities.includes(uni.id)
-									? 'bg-primary text-primary-foreground'
-									: 'bg-secondary text-secondary-foreground hover:bg-secondary/80'
+									? 'bg-primary text-primary-foreground shadow-xs'
+									: 'bg-secondary text-secondary-foreground hover:bg-secondary-hover'
 							)}
 						>
 							<span>{uni.name}</span>
-							<span class="opacity-70">({$universityItemCounts[uni.id] || 0})</span>
+							<span class="opacity-70 tabular-nums">({$universityItemCounts[uni.id] || 0})</span>
 						</button>
 					{/each}
 				</div>
@@ -75,17 +82,19 @@
 
 			<!-- Resource Types -->
 			<div>
-				<h4 class="text-sm font-medium mb-2 text-muted-foreground">Resource Type</h4>
-				<div class="flex flex-wrap gap-2">
+				<h4 class="text-2xs font-semibold mb-2.5 text-muted-foreground uppercase tracking-widest">
+					Resource Type
+				</h4>
+				<div class="flex flex-wrap gap-1.5">
 					{#each resourceTypes as type (type)}
 						<button
 							type="button"
 							onclick={() => toggleResourceType(type)}
 							class={cn(
-								'px-2 py-1 rounded-md text-xs transition-colors',
+								'px-2.5 py-1 rounded-full text-xs font-medium transition-all duration-fast ease-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-1',
 								$filters.resourceTypes.includes(type)
-									? 'bg-primary text-primary-foreground'
-									: 'bg-secondary text-secondary-foreground hover:bg-secondary/80'
+									? 'bg-primary text-primary-foreground shadow-xs'
+									: 'bg-secondary text-secondary-foreground hover:bg-secondary-hover'
 							)}
 						>
 							{type}
@@ -96,17 +105,19 @@
 
 			<!-- Languages -->
 			<div>
-				<h4 class="text-sm font-medium mb-2 text-muted-foreground">Language</h4>
-				<div class="flex flex-wrap gap-2">
+				<h4 class="text-2xs font-semibold mb-2.5 text-muted-foreground uppercase tracking-widest">
+					Language
+				</h4>
+				<div class="flex flex-wrap gap-1.5">
 					{#each languages as lang (lang)}
 						<button
 							type="button"
 							onclick={() => toggleLanguage(lang)}
 							class={cn(
-								'px-2 py-1 rounded-md text-xs transition-colors',
+								'px-2.5 py-1 rounded-full text-xs font-medium transition-all duration-fast ease-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-1',
 								$filters.languages.includes(lang)
-									? 'bg-primary text-primary-foreground'
-									: 'bg-secondary text-secondary-foreground hover:bg-secondary/80'
+									? 'bg-primary text-primary-foreground shadow-xs'
+									: 'bg-secondary text-secondary-foreground hover:bg-secondary-hover'
 							)}
 						>
 							{languageName(lang)}
@@ -117,7 +128,7 @@
 		</div>
 	{:else}
 		<!-- Quick filter summary -->
-		<div class="flex flex-wrap gap-2">
+		<div class="flex flex-wrap gap-1.5 px-5 pb-4 border-t border-border/50 pt-4">
 			{#each $filters.universities as uniId (uniId)}
 				{@const uni = universities.find((u) => u.id === uniId)}
 				{#if uni}

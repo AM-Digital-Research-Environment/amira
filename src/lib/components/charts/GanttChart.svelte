@@ -11,7 +11,8 @@
 	} from 'echarts/components';
 	import type { EChartsOption, CustomSeriesOption } from 'echarts';
 	import { cn } from '$lib/utils/cn';
-	import { CHART_COLORS } from '$lib/styles';
+	import { CHART_COLORS, getChartEmphasisShadow } from '$lib/styles';
+	import { theme } from '$lib/stores/data';
 	import { buildTitle, buildGrid } from './utils';
 	import { SvelteMap } from 'svelte/reactivity';
 
@@ -77,6 +78,8 @@
 			return catCmp !== 0 ? catCmp : a.start - b.start;
 		})
 	);
+
+	let emphasisShadow = $derived(getChartEmphasisShadow($theme === 'dark'));
 
 	let option: EChartsOption = $derived({
 		...buildTitle(title),
@@ -191,8 +194,8 @@
 							emphasis: {
 								style: {
 									opacity: 1,
-									shadowBlur: 6,
-									shadowColor: 'rgba(0, 0, 0, 0.3)'
+									shadowBlur: 8,
+									shadowColor: emphasisShadow
 								}
 							}
 						}

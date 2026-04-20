@@ -7,7 +7,11 @@ export default {
 			   ================================================================= */
 			colors: {
 				// Semantic colors mapped to CSS variables
-				border: 'hsl(var(--border))',
+				border: {
+					DEFAULT: 'hsl(var(--border))',
+					muted: 'hsl(var(--border-muted))',
+					strong: 'hsl(var(--border-strong))'
+				},
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',

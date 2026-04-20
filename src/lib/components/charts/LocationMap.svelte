@@ -12,6 +12,7 @@
 	import { buildPopupHtml } from './map/popupBuilder';
 	import { getMarkerRadius, getMarkerColor, MAP_STYLE } from './map/mapHelpers';
 	import { theme } from '$lib/stores/data';
+	import { getThemeShadow, getMarkerTextShadow } from '$lib/styles';
 
 	interface Props {
 		data: LocationData[];
@@ -134,6 +135,10 @@
 		mapMarkers.forEach((marker) => marker.remove());
 		mapMarkers = [];
 
+		const isDark = $theme === 'dark';
+		const markerShadow = getThemeShadow(isDark).sm;
+		const textShadow = getMarkerTextShadow(isDark);
+
 		// Add new markers
 		markers.forEach((markerData) => {
 			const radius = getMarkerRadius(markerData.count, maxCount);
@@ -145,18 +150,19 @@
 			el.style.width = `${radius * 2}px`;
 			el.style.height = `${radius * 2}px`;
 			el.style.backgroundColor = color;
-			el.style.opacity = '0.7';
+			el.style.opacity = '0.75';
 			el.style.borderRadius = '50%';
 			el.style.border = '2px solid hsl(var(--background))';
-			el.style.boxShadow = 'var(--shadow-sm, 0 1px 3px 0 rgb(0 0 0 / 0.1))';
+			el.style.boxShadow = markerShadow;
 			el.style.cursor = 'pointer';
 			el.style.display = 'flex';
 			el.style.alignItems = 'center';
 			el.style.justifyContent = 'center';
 			el.style.color = 'hsl(var(--background))';
 			el.style.fontSize = radius > 20 ? '12px' : '10px';
-			el.style.fontWeight = 'bold';
-			el.style.textShadow = '0 1px 2px rgb(0 0 0 / 0.5)';
+			el.style.fontWeight = '600';
+			el.style.textShadow = textShadow;
+			el.style.transition = 'transform 180ms cubic-bezier(0.16, 1, 0.3, 1), opacity 180ms';
 
 			if (radius > 15) {
 				el.textContent = markerData.count.toString();

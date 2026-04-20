@@ -154,7 +154,7 @@
 			onfocus={handleFocus}
 			onblur={handleBlur}
 			onkeydown={handleKeydown}
-			class="flex h-10 w-full rounded-md border border-input bg-background pl-3 pr-8 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+			class="flex h-10 w-full rounded-lg border border-input bg-background pl-3 pr-8 py-2 text-sm ring-offset-background transition-[border-color,box-shadow] duration-fast ease-out placeholder:text-muted-foreground hover:border-border-strong focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:border-transparent"
 		/>
 		<ChevronDown
 			class="absolute right-2.5 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground pointer-events-none"
@@ -164,7 +164,7 @@
 	{#if open}
 		<div
 			bind:this={listEl}
-			class="absolute z-50 mt-1 w-full max-h-60 overflow-auto rounded-md border border-border bg-popover text-popover-foreground shadow-md"
+			class="absolute z-dropdown mt-1 w-full max-h-60 overflow-auto rounded-lg border border-border bg-popover text-popover-foreground shadow-lg"
 		>
 			{#if groups.length > 0}
 				{#if filteredOptions.length > 0}

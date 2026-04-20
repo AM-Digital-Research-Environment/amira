@@ -16,28 +16,31 @@
 </script>
 
 {#if totalPages > 1}
-	<div class="flex items-center justify-between mt-6 pt-4 border-t">
+	<div class="flex items-center justify-between mt-6 pt-4 border-t border-border/60">
 		<p class="text-sm text-muted-foreground">
-			Showing {startItem}–{endItem} of {totalItems}
+			Showing <span class="font-medium text-foreground">{startItem}–{endItem}</span> of
+			<span class="font-medium text-foreground">{totalItems}</span>
 		</p>
-		<div class="flex items-center gap-2">
+		<div class="flex items-center gap-1">
 			<button
 				onclick={() => onPageChange(currentPage - 1)}
 				disabled={currentPage === 0}
-				class="p-2 rounded hover:bg-muted disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+				class="p-2 rounded-lg hover:bg-muted disabled:opacity-30 disabled:cursor-not-allowed transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
 				aria-label="Previous page"
 			>
 				<ChevronLeft class="h-4 w-4" />
 			</button>
 
-			<span class="text-sm text-muted-foreground min-w-[80px] text-center">
-				{currentPage + 1} / {totalPages}
+			<span class="text-sm text-muted-foreground tabular-nums min-w-[4.5rem] text-center">
+				<span class="font-medium text-foreground">{currentPage + 1}</span>
+				<span class="opacity-60 mx-0.5">/</span>
+				{totalPages}
 			</span>
 
 			<button
 				onclick={() => onPageChange(currentPage + 1)}
 				disabled={currentPage >= totalPages - 1}
-				class="p-2 rounded hover:bg-muted disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+				class="p-2 rounded-lg hover:bg-muted disabled:opacity-30 disabled:cursor-not-allowed transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
 				aria-label="Next page"
 			>
 				<ChevronRight class="h-4 w-4" />

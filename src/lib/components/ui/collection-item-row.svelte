@@ -18,8 +18,12 @@
 	} = $props();
 </script>
 
-<li class="flex items-start gap-3 p-3 rounded-lg bg-muted/30">
-	<FileText class="h-4 w-4 mt-0.5 text-muted-foreground shrink-0" />
+<li
+	class="group flex items-start gap-3 p-3 rounded-lg bg-muted/30 border border-transparent transition-all duration-fast ease-out hover:bg-muted/60 hover:border-border/60"
+>
+	<FileText
+		class="h-4 w-4 mt-0.5 text-muted-foreground shrink-0 transition-colors group-hover:text-primary"
+	/>
 	<div class="min-w-0">
 		<a
 			href={researchItemUrl(item._id || item.dre_id)}

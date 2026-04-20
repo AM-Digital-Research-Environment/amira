@@ -10,7 +10,8 @@
 	} from 'echarts/components';
 	import type { EChartsOption } from 'echarts';
 	import { cn } from '$lib/utils/cn';
-	import { CHART_COLORS } from '$lib/styles';
+	import { getChartEmphasisShadow, getHeatmapRange } from '$lib/styles';
+	import { theme } from '$lib/stores/data';
 	import { buildTitle, buildGrid } from './utils';
 
 	echarts.use([EHeatmapChart, TitleComponent, TooltipComponent, GridComponent, VisualMapComponent]);
@@ -38,9 +39,13 @@
 		xLabels,
 		yLabels,
 		class: className = '',
-		colorRange = ['#f0f4ff', CHART_COLORS[0]],
+		colorRange,
 		onclick
 	}: Props = $props();
+
+	let isDark = $derived($theme === 'dark');
+	let effectiveColorRange = $derived<[string, string]>(colorRange ?? getHeatmapRange(isDark));
+	let emphasisShadow = $derived(getChartEmphasisShadow(isDark));
 
 	// Derive labels from data if not provided
 	let xAxisLabels = $derived(xLabels ?? [...new Set(data.map((d) => d.x))]);
@@ -96,7 +101,7 @@
 			top: 'center',
 			itemHeight: 120,
 			inRange: {
-				color: colorRange
+				color: effectiveColorRange
 			},
 			textStyle: {
 				fontSize: 11
@@ -118,7 +123,7 @@
 				emphasis: {
 					itemStyle: {
 						shadowBlur: 10,
-						shadowColor: 'rgba(0, 0, 0, 0.5)'
+						shadowColor: emphasisShadow
 					}
 				}
 			}

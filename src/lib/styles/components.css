@@ -154,15 +154,39 @@
 		border-radius: var(--radius-xl);
 		border: 1px solid hsl(var(--border) / 0.6);
 		box-shadow: var(--shadow-xs);
+		overflow: hidden;
 		transition:
 			border-color var(--duration-fast) var(--ease-out),
 			box-shadow var(--duration-normal) var(--ease-expo-out),
 			transform var(--duration-normal) var(--ease-expo-out);
 	}
 
+	/* Hairline top accent — picks up the icon-bg color assigned per card.
+	   Uses currentColor so the bar inherits whatever text-color utility the
+	   consumer passes; fades to transparent so it reads as a highlight, not a rule. */
+	.stat-card::before {
+		content: '';
+		position: absolute;
+		inset: 0 0 auto 0;
+		height: 1px;
+		background: linear-gradient(
+			90deg,
+			transparent 0%,
+			hsl(var(--border)) 30%,
+			hsl(var(--border)) 70%,
+			transparent 100%
+		);
+		opacity: 0;
+		transition: opacity var(--duration-normal) var(--ease-expo-out);
+	}
+
 	.stat-card:hover {
 		border-color: hsl(var(--border));
 		box-shadow: var(--shadow-sm);
+	}
+
+	.stat-card:hover::before {
+		opacity: 1;
 	}
 
 	.stat-value {
@@ -172,6 +196,7 @@
 		color: hsl(var(--foreground));
 		letter-spacing: var(--tracking-tight);
 		line-height: var(--line-height-tight);
+		font-variant-numeric: tabular-nums lining-nums;
 	}
 
 	.stat-label {
@@ -193,10 +218,18 @@
 		border: 1px solid hsl(var(--border) / 0.6);
 		box-shadow: var(--shadow-xs);
 		overflow: hidden;
+		transition:
+			border-color var(--duration-fast) var(--ease-out),
+			box-shadow var(--duration-normal) var(--ease-expo-out);
+	}
+
+	.chart-card:hover {
+		border-color: hsl(var(--border));
+		box-shadow: var(--shadow-sm);
 	}
 
 	.chart-card-header {
-		padding: var(--space-5) var(--space-6);
+		padding: var(--space-5) var(--space-6) var(--space-4);
 		border-bottom: var(--border-subtle);
 		display: flex;
 		align-items: center;
@@ -209,10 +242,17 @@
 		font-weight: 600;
 		color: hsl(var(--foreground));
 		letter-spacing: var(--tracking-tight);
+		line-height: var(--line-height-snug);
 	}
 
 	.chart-card-content {
-		padding: var(--space-4) var(--space-6) var(--space-6);
+		padding: var(--space-5) var(--space-5) var(--space-5);
+	}
+
+	@media (min-width: 640px) {
+		.chart-card-content {
+			padding: var(--space-5) var(--space-6) var(--space-6);
+		}
 	}
 }
 

@@ -10,7 +10,8 @@
 	} from 'echarts/components';
 	import type { EChartsOption } from 'echarts';
 	import { cn } from '$lib/utils/cn';
-	import { CHART_COLORS } from '$lib/styles';
+	import { CHART_COLORS, getChartEmphasisShadow, getMarkerBorderColor } from '$lib/styles';
+	import { theme } from '$lib/stores/data';
 	import { buildTitle, buildGrid } from './utils';
 	import { SvelteMap } from 'svelte/reactivity';
 
@@ -64,6 +65,10 @@
 	let maxSize = $derived(Math.max(...data.map((d) => d.size ?? 1), 1));
 	let minValue = $derived(Math.min(...data.map((d) => d.value)));
 	let maxValue = $derived(Math.max(...data.map((d) => d.value)));
+
+	let isDark = $derived($theme === 'dark');
+	let markerBorder = $derived(getMarkerBorderColor(isDark));
+	let emphasisShadow = $derived(getChartEmphasisShadow(isDark));
 
 	let option: EChartsOption = $derived({
 		...buildTitle(title),
@@ -143,15 +148,15 @@
 						const catIndex = d[1];
 						return categoryColorMap.get(categories[catIndex]) ?? CHART_COLORS[0];
 					}) as unknown as string,
-					opacity: 0.8,
-					borderColor: 'rgba(255,255,255,0.3)',
-					borderWidth: 1
+					opacity: 0.85,
+					borderColor: markerBorder,
+					borderWidth: 1.25
 				},
 				emphasis: {
 					itemStyle: {
 						opacity: 1,
-						shadowBlur: 8,
-						shadowColor: 'rgba(0, 0, 0, 0.3)'
+						shadowBlur: 10,
+						shadowColor: emphasisShadow
 					}
 				}
 			}

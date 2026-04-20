@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { onDestroy } from 'svelte';
 	import maplibregl from 'maplibre-gl';
-	import { CHART_COLORS } from '$lib/styles';
+	import { CHART_COLORS, getThemeShadow } from '$lib/styles';
 	import { MAP_STYLE } from './map/mapHelpers';
 	import { theme } from '$lib/stores/data';
 
@@ -54,6 +54,7 @@
 		mapMarkers.forEach((m) => m.remove());
 		mapMarkers = [];
 
+		const shadow = getThemeShadow($theme === 'dark').sm;
 		markers.forEach((m) => {
 			const el = document.createElement('div');
 			el.style.width = '16px';
@@ -61,7 +62,7 @@
 			el.style.backgroundColor = m.color || CHART_COLORS[0];
 			el.style.borderRadius = '50%';
 			el.style.border = '2px solid hsl(var(--background))';
-			el.style.boxShadow = 'var(--shadow-sm, 0 1px 3px 0 rgb(0 0 0 / 0.1))';
+			el.style.boxShadow = shadow;
 
 			const marker = new maplibregl.Marker({ element: el })
 				.setLngLat([m.longitude, m.latitude])

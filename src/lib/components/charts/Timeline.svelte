@@ -69,14 +69,24 @@
 						y2: 1,
 						colorStops: [
 							{ offset: 0, color: CHART_COLORS[0] },
-							{ offset: 1, color: CHART_COLORS[0] + 'bb' }
+							{ offset: 1, color: CHART_COLORS[0] + 'aa' }
 						]
 					},
-					borderRadius: [4, 4, 0, 0]
+					borderRadius: [6, 6, 0, 0]
 				},
 				emphasis: {
 					itemStyle: {
-						color: CHART_COLORS[0] + 'cc'
+						color: {
+							type: 'linear',
+							x: 0,
+							y: 0,
+							x2: 0,
+							y2: 1,
+							colorStops: [
+								{ offset: 0, color: CHART_COLORS[1] },
+								{ offset: 1, color: CHART_COLORS[0] }
+							]
+						}
 					}
 				}
 			}

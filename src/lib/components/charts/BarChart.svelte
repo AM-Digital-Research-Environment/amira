@@ -114,12 +114,34 @@
 					? displayData.map((d) => d.value).reverse()
 					: displayData.map((d) => d.value),
 				itemStyle: {
-					color: CHART_COLORS[0],
-					borderRadius: horizontal ? [0, 4, 4, 0] : [4, 4, 0, 0]
+					color: horizontal
+						? {
+								type: 'linear',
+								x: 0,
+								y: 0,
+								x2: 1,
+								y2: 0,
+								colorStops: [
+									{ offset: 0, color: CHART_COLORS[0] + 'd9' },
+									{ offset: 1, color: CHART_COLORS[0] }
+								]
+							}
+						: {
+								type: 'linear',
+								x: 0,
+								y: 0,
+								x2: 0,
+								y2: 1,
+								colorStops: [
+									{ offset: 0, color: CHART_COLORS[0] },
+									{ offset: 1, color: CHART_COLORS[0] + 'aa' }
+								]
+							},
+					borderRadius: horizontal ? [0, 6, 6, 0] : [6, 6, 0, 0]
 				},
 				emphasis: {
 					itemStyle: {
-						color: CHART_COLORS[0] + 'cc'
+						color: CHART_COLORS[1]
 					}
 				}
 			}
@@ -140,24 +162,26 @@
 	</div>
 
 	{#if needsPagination}
-		<div class="flex-shrink-0 h-8 flex items-center justify-center gap-2">
+		<div class="flex-shrink-0 h-8 flex items-center justify-center gap-1">
 			<button
 				onclick={prevPage}
 				disabled={currentPage === 0}
-				class="p-1 rounded hover:bg-muted disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+				class="p-1.5 rounded-md hover:bg-muted disabled:opacity-30 disabled:cursor-not-allowed transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
 				aria-label="Previous page"
 			>
 				<ChevronLeft class="h-4 w-4" />
 			</button>
 
-			<span class="text-sm text-muted-foreground min-w-[60px] text-center">
-				{currentPage + 1} / {totalPages}
+			<span class="text-sm text-muted-foreground tabular-nums min-w-[4rem] text-center">
+				<span class="font-medium text-foreground">{currentPage + 1}</span>
+				<span class="opacity-60 mx-0.5">/</span>
+				{totalPages}
 			</span>
 
 			<button
 				onclick={nextPage}
 				disabled={currentPage === totalPages - 1}
-				class="p-1 rounded hover:bg-muted disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+				class="p-1.5 rounded-md hover:bg-muted disabled:opacity-30 disabled:cursor-not-allowed transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
 				aria-label="Next page"
 			>
 				<ChevronRight class="h-4 w-4" />

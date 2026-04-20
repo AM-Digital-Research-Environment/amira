@@ -197,13 +197,61 @@ const BORDER_RADIUS = {
 
 /* =============================================================================
    SHADOWS (mirrors tokens.css, kept lightweight for ECharts extraCssText)
+
+   Two variants: warm-tinted for light mode (stone 20 18% 16%), pure dark for
+   dark mode. ECharts can't read CSS variables at init time, so we expose both
+   via getThemeShadow() below.
    ============================================================================= */
 
-const SHADOW = {
+const SHADOW_LIGHT = {
+	xs: '0 1px 2px 0 rgb(24 16 8 / 0.04)',
 	sm: '0 1px 2px 0 rgb(24 16 8 / 0.04), 0 1px 3px 0 rgb(24 16 8 / 0.06)',
 	md: '0 2px 4px -1px rgb(24 16 8 / 0.06), 0 4px 8px -2px rgb(24 16 8 / 0.08)',
 	lg: '0 4px 6px -2px rgb(24 16 8 / 0.05), 0 12px 20px -4px rgb(24 16 8 / 0.1)'
 } as const;
+
+const SHADOW_DARK = {
+	xs: '0 1px 2px 0 rgb(0 0 0 / 0.3)',
+	sm: '0 1px 2px 0 rgb(0 0 0 / 0.4), 0 1px 3px 0 rgb(0 0 0 / 0.4)',
+	md: '0 2px 4px -1px rgb(0 0 0 / 0.4), 0 4px 8px -2px rgb(0 0 0 / 0.5)',
+	lg: '0 4px 6px -2px rgb(0 0 0 / 0.4), 0 12px 20px -4px rgb(0 0 0 / 0.55)'
+} as const;
+
+const SHADOW = SHADOW_LIGHT;
+
+export function getThemeShadow(isDark: boolean) {
+	return isDark ? SHADOW_DARK : SHADOW_LIGHT;
+}
+
+/* =============================================================================
+   CHART EMPHASIS / INTERACTION STYLES
+   Centralised theme-aware values for hover shadow, marker borders, and
+   heatmap color ranges so individual chart components don't hardcode them.
+   ============================================================================= */
+
+export function getChartEmphasisShadow(isDark: boolean): string {
+	// Hover glow behind data marks — softer in light mode, slightly stronger in dark.
+	return isDark ? 'rgb(0 0 0 / 0.55)' : 'rgb(24 16 8 / 0.22)';
+}
+
+export function getMarkerBorderColor(isDark: boolean): string {
+	// Thin ring around map markers / scatter dots — matches surface color.
+	return isDark ? 'rgba(34, 26, 22, 0.65)' : 'rgba(253, 253, 252, 0.7)';
+}
+
+export function getMarkerTextShadow(isDark: boolean): string {
+	return isDark ? '0 1px 2px rgb(0 0 0 / 0.65)' : '0 1px 2px rgb(0 0 0 / 0.45)';
+}
+
+/**
+ * Sequential color ramp endpoints for heatmap-like visualisations.
+ * Light end fades to a warm neutral; dark end is the brand teal.
+ */
+export function getHeatmapRange(isDark: boolean): [string, string] {
+	return isDark
+		? ['#302621' /* neutral-800 */, '#4ab5ae' /* primary-400 */]
+		: ['#f2f0ee' /* neutral-100 */, '#196b69' /* primary-700 */];
+}
 
 /* =============================================================================
    ECHARTS THEME CONFIGURATIONS
@@ -230,20 +278,25 @@ export const ECHARTS_THEME_LIGHT = {
 		backgroundColor: THEME_COLORS.light.chartTooltipBg,
 		borderColor: THEME_COLORS.light.chartTooltipBorder,
 		borderWidth: 1,
+		padding: [8, 12],
 		textStyle: {
-			color: THEME_COLORS.light.chartText
+			color: THEME_COLORS.light.chartText,
+			fontFamily: FONT_FAMILY.sans,
+			fontSize: 12,
+			lineHeight: 18
 		},
-		extraCssText: `border-radius: ${BORDER_RADIUS.lg}; box-shadow: ${SHADOW.lg};`
+		extraCssText: `border-radius: ${BORDER_RADIUS.lg}; box-shadow: ${SHADOW_LIGHT.lg}; backdrop-filter: blur(8px);`
 	},
 	xAxis: {
 		axisLine: {
 			lineStyle: { color: THEME_COLORS.light.chartAxis }
 		},
 		axisLabel: {
-			color: THEME_COLORS.light.chartTextMuted
+			color: THEME_COLORS.light.chartTextMuted,
+			fontFamily: FONT_FAMILY.sans
 		},
 		splitLine: {
-			lineStyle: { color: THEME_COLORS.light.chartGrid }
+			lineStyle: { color: THEME_COLORS.light.chartGrid, type: 'dashed' }
 		}
 	},
 	yAxis: {
@@ -251,10 +304,11 @@ export const ECHARTS_THEME_LIGHT = {
 			lineStyle: { color: THEME_COLORS.light.chartAxis }
 		},
 		axisLabel: {
-			color: THEME_COLORS.light.chartTextMuted
+			color: THEME_COLORS.light.chartTextMuted,
+			fontFamily: FONT_FAMILY.sans
 		},
 		splitLine: {
-			lineStyle: { color: THEME_COLORS.light.chartGrid }
+			lineStyle: { color: THEME_COLORS.light.chartGrid, type: 'dashed' }
 		}
 	},
 	color: CHART_COLORS
@@ -281,20 +335,25 @@ export const ECHARTS_THEME_DARK = {
 		backgroundColor: THEME_COLORS.dark.chartTooltipBg,
 		borderColor: THEME_COLORS.dark.chartTooltipBorder,
 		borderWidth: 1,
+		padding: [8, 12],
 		textStyle: {
-			color: THEME_COLORS.dark.chartText
+			color: THEME_COLORS.dark.chartText,
+			fontFamily: FONT_FAMILY.sans,
+			fontSize: 12,
+			lineHeight: 18
 		},
-		extraCssText: `border-radius: ${BORDER_RADIUS.lg}; box-shadow: ${SHADOW.lg};`
+		extraCssText: `border-radius: ${BORDER_RADIUS.lg}; box-shadow: ${SHADOW_DARK.lg}; backdrop-filter: blur(8px);`
 	},
 	xAxis: {
 		axisLine: {
 			lineStyle: { color: THEME_COLORS.dark.chartAxis }
 		},
 		axisLabel: {
-			color: THEME_COLORS.dark.chartTextMuted
+			color: THEME_COLORS.dark.chartTextMuted,
+			fontFamily: FONT_FAMILY.sans
 		},
 		splitLine: {
-			lineStyle: { color: THEME_COLORS.dark.chartGrid }
+			lineStyle: { color: THEME_COLORS.dark.chartGrid, type: 'dashed' }
 		}
 	},
 	yAxis: {
@@ -302,10 +361,11 @@ export const ECHARTS_THEME_DARK = {
 			lineStyle: { color: THEME_COLORS.dark.chartAxis }
 		},
 		axisLabel: {
-			color: THEME_COLORS.dark.chartTextMuted
+			color: THEME_COLORS.dark.chartTextMuted,
+			fontFamily: FONT_FAMILY.sans
 		},
 		splitLine: {
-			lineStyle: { color: THEME_COLORS.dark.chartGrid }
+			lineStyle: { color: THEME_COLORS.dark.chartGrid, type: 'dashed' }
 		}
 	},
 	color: CHART_COLORS

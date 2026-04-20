@@ -69,4 +69,9 @@
 	.maplibregl-ctrl-group button:hover {
 		background: hsl(var(--muted)) !important;
 	}
+
+	.location-marker:hover {
+		opacity: 1 !important;
+		transform: scale(1.08);
+	}
 }

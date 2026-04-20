@@ -38,18 +38,20 @@
 			{
 				name: 'Distribution',
 				type: 'pie',
-				radius: ['40%', '70%'],
+				radius: ['48%', '72%'],
 				center: ['60%', '50%'],
 				avoidLabelOverlap: true,
 				itemStyle: {
-					borderRadius: 4,
+					borderRadius: 6,
 					borderColor: 'transparent',
-					borderWidth: 2
+					borderWidth: 3
 				},
 				label: {
 					show: false
 				},
 				emphasis: {
+					scale: true,
+					scaleSize: 6,
 					label: {
 						show: false
 					}
