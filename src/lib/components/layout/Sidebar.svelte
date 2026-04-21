@@ -38,28 +38,51 @@
 		items: { href: string; label: string; icon: Component }[];
 	}
 
+	// Sidebar groups. Ordering reflects the user's likely journey through the
+	// archive: start at the Dashboard landing, then drill into the Research
+	// hierarchy (sections → projects → items), then the Directory of named
+	// actors, then pivot into Categories that slice the archive horizontally,
+	// and finally the cross-cutting analysis views in Visualize. Overview is
+	// the main entry point so it is always the first item.
 	const navGroups: NavGroup[] = [
 		{
-			label: 'Browse',
+			label: 'Dashboard',
 			items: [
-				{ href: `${base}/whats-new`, label: "What's New", icon: Sparkles },
+				{ href: `${base}/`, label: 'Overview', icon: Home },
+				{ href: `${base}/whats-new`, label: "What's New", icon: Sparkles }
+			]
+		},
+		{
+			label: 'Research',
+			items: [
 				{ href: `${base}/research-sections`, label: 'Research Sections', icon: BookOpen },
 				{ href: `${base}/projects`, label: 'Projects', icon: Briefcase },
-				{ href: `${base}/research-items`, label: 'Research Items', icon: FileText },
+				{ href: `${base}/research-items`, label: 'Research Items', icon: FileText }
+			]
+		},
+		{
+			label: 'Directory',
+			items: [
 				{ href: `${base}/people`, label: 'People', icon: Users },
 				{ href: `${base}/groups`, label: 'Groups', icon: UsersRound },
-				{ href: `${base}/institutions`, label: 'Institutions', icon: Building2 },
-				{ href: `${base}/locations`, label: 'Locations', icon: MapPin },
+				{ href: `${base}/institutions`, label: 'Institutions', icon: Building2 }
+			]
+		},
+		{
+			// Categories don't have an obvious semantic ordering, so we sort
+			// alphabetically for predictability.
+			label: 'Categories',
+			items: [
+				{ href: `${base}/genres`, label: 'Genres', icon: BookType },
 				{ href: `${base}/languages`, label: 'Languages', icon: Languages },
-				{ href: `${base}/subjects`, label: 'Subjects & Tags', icon: Tag },
+				{ href: `${base}/locations`, label: 'Locations', icon: MapPin },
 				{ href: `${base}/resource-types`, label: 'Resource Types', icon: Layers },
-				{ href: `${base}/genres`, label: 'Genres', icon: BookType }
+				{ href: `${base}/subjects`, label: 'Subjects & Tags', icon: Tag }
 			]
 		},
 		{
 			label: 'Visualize',
 			items: [
-				{ href: `${base}/`, label: 'Overview', icon: Home },
 				{ href: `${base}/project-explorer`, label: 'Project Explorer', icon: Folder },
 				{ href: `${base}/compare-projects`, label: 'Compare Projects', icon: BarChart3 },
 				{ href: `${base}/network`, label: 'Network', icon: Share2 }
@@ -107,7 +130,7 @@
 				alt="University of Bayreuth"
 				class="sidebar-logo-icon-img"
 			/>
-			<span class="sidebar-logo-text">Africa Multiple WissKI Explorer</span>
+			<span class="sidebar-logo-text">Africa Multiple</span>
 		</a>
 
 		<!-- Desktop collapse toggle -->
@@ -158,31 +181,56 @@
 
 	<!-- Footer -->
 	<div class="sidebar-footer">
-		<a
-			href="https://www.africamultiple.uni-bayreuth.de/"
-			target="_blank"
-			rel="noopener noreferrer"
-			class="block mx-auto mb-2 opacity-80 hover:opacity-100 transition-opacity"
-			style="max-width: 140px;"
-		>
-			<img
-				src="{base}/logos/africamultiple.jpg"
-				alt="Africa Multiple"
-				class="w-full h-auto rounded-md"
-			/>
-		</a>
-		<p class="text-2xs text-center" style="color: hsl(var(--sidebar-muted-foreground))">
-			v{__APP_VERSION__}
-		</p>
-		<a
-			href="https://www.frederickmadore.com/"
-			target="_blank"
-			rel="noopener noreferrer"
-			class="text-2xs text-center block mt-1 hover:text-primary transition-colors"
-			style="color: hsl(var(--sidebar-muted-foreground))"
-		>
-			Frédérick Madore
-		</a>
+		{#if isCollapsed}
+			<!-- Collapsed: just a compact DRE badge so the rail stays uncluttered. -->
+			<a
+				href="https://www.africamultiple.uni-bayreuth.de/en/1_5-Digital-Solutions1/index.html"
+				target="_blank"
+				rel="noopener noreferrer"
+				class="block text-center text-2xs font-semibold tracking-wide hover:text-primary transition-colors"
+				style="color: hsl(var(--sidebar-muted-foreground))"
+				title="Digital Research Environment (DRE)"
+			>
+				DRE
+			</a>
+		{:else}
+			<a
+				href="https://www.africamultiple.uni-bayreuth.de/"
+				target="_blank"
+				rel="noopener noreferrer"
+				class="block mx-auto mb-2 opacity-80 hover:opacity-100 transition-opacity"
+				style="max-width: 140px;"
+			>
+				<img
+					src="{base}/logos/africamultiple.jpg"
+					alt="Africa Multiple"
+					class="w-full h-auto rounded-md"
+				/>
+			</a>
+			<p class="text-2xs text-center" style="color: hsl(var(--sidebar-muted-foreground))">
+				v{__APP_VERSION__}
+			</p>
+			<p class="text-2xs text-center mt-1" style="color: hsl(var(--sidebar-muted-foreground))">
+				&copy; {new Date().getFullYear()}
+				<a
+					href="https://www.frederickmadore.com/"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="hover:text-primary transition-colors"
+				>
+					Frédérick Madore
+				</a>
+			</p>
+			<a
+				href="https://www.africamultiple.uni-bayreuth.de/en/1_5-Digital-Solutions1/index.html"
+				target="_blank"
+				rel="noopener noreferrer"
+				class="text-2xs text-center block mt-1 hover:text-primary transition-colors"
+				style="color: hsl(var(--sidebar-muted-foreground))"
+			>
+				Digital Research Environment (DRE)
+			</a>
+		{/if}
 	</div>
 
 	<!-- Rail for resize/toggle (desktop only) -->

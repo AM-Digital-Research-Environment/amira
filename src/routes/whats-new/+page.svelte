@@ -25,17 +25,16 @@
 		return isNaN(d.getTime()) ? null : d;
 	}
 
-	// Time window filter
+	// Time window filter. No "All time" option -- What's New is specifically
+	// about recent additions, so an unbounded window defeats the page's purpose.
 	const timeWindowOptions = [
 		{ value: '3', label: 'Last 3 months' },
 		{ value: '6', label: 'Last 6 months' },
-		{ value: '12', label: 'Last 12 months' },
-		{ value: 'all', label: 'All time' }
+		{ value: '12', label: 'Last 12 months' }
 	];
 	let timeWindow = $state('6');
 
-	let cutoffDate: Date | null = $derived.by(() => {
-		if (timeWindow === 'all') return null;
+	let cutoffDate: Date = $derived.by(() => {
 		const d = new SvelteDate();
 		d.setMonth(d.getMonth() - parseInt(timeWindow));
 		return d;
@@ -47,7 +46,7 @@
 			.filter((item) => {
 				const d = parseDate(item.createdAt);
 				if (!d) return false;
-				return !cutoffDate || d >= cutoffDate;
+				return d >= cutoffDate;
 			})
 			.sort((a, b) => {
 				const da = parseDate(a.createdAt);

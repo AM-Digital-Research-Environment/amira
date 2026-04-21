@@ -38,6 +38,12 @@
 		categoryFilter?: Set<number>;
 		/** Only show nodes whose cluster is in this set. Empty set = all. */
 		clusterFilter?: Set<number>;
+		/**
+		 * Scale factor applied to every node's `symbolSize` before handing it
+		 * to ECharts. Useful when pre-computed graphs were authored at a size
+		 * that feels too thick in-page.
+		 */
+		nodeSizeScale?: number;
 	}
 
 	let {
@@ -50,7 +56,8 @@
 		minEdgeValue = 0,
 		relationFilter = undefined,
 		categoryFilter,
-		clusterFilter
+		clusterFilter,
+		nodeSizeScale = 1
 	}: Props = $props();
 
 	let isDark = $derived($theme === 'dark');
@@ -160,6 +167,7 @@
 			const halo = showCommunityHalo ? clusterColor(node.cluster) : undefined;
 			return {
 				...node,
+				symbolSize: Math.max(4, node.symbolSize * nodeSizeScale),
 				itemStyle: {
 					color: baseColor,
 					borderColor: halo ?? 'transparent',

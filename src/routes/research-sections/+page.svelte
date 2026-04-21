@@ -57,10 +57,11 @@
 		return map;
 	});
 
-	// Combined data: merge manual info with project associations. "External"
-	// is a pseudo-section for projects that don't belong to the cluster's six
-	// official research sections — sort it to the end to keep the thematic
-	// sections visually grouped at the top.
+	// Combined data: merge manual info with project associations. The cluster
+	// has exactly six thematic research sections; "External" is a pseudo-section
+	// for datasets that don't belong to them (BayGlo2025, ILAM). We keep the
+	// two groups separate below so the overview never implies External is one
+	// of the cluster's sections.
 	let sections = $derived.by(() => {
 		const sectionNames = new SvelteSet<string>();
 		Object.keys($researchSections).forEach((name) => sectionNames.add(name));
@@ -79,9 +80,13 @@
 			workProgramme: $researchSections[name]?.workProgramme || '',
 			principalInvestigators: $researchSections[name]?.principalInvestigators || [],
 			members: $researchSections[name]?.members || [],
-			projects: projectsBySection.get(name) || []
+			projects: projectsBySection.get(name) || [],
+			isExternal: name === EXTERNAL_SECTION
 		}));
 	});
+
+	let thematicSections = $derived(sections.filter((s) => !s.isExternal));
+	let externalSections = $derived(sections.filter((s) => s.isExternal));
 
 	let selectedSectionData = $derived(
 		selectedSection ? sections.find((s) => s.name === selectedSection) || null : null
@@ -95,8 +100,14 @@
 
 	let chartData = $derived(extractResearchSections($projects));
 	let totalProjects = $derived(new Set($projects.flatMap((p) => p._id)).size);
+	// Stats reflect only the cluster's thematic sections -- counting External
+	// against "avg. projects per section" would misrepresent the cluster's
+	// actual structure.
+	let thematicProjectCount = $derived(
+		thematicSections.reduce((sum, s) => sum + s.projects.length, 0)
+	);
 	let avgPerSection = $derived(
-		sections.length > 0 ? Math.round(totalProjects / sections.length) : 0
+		thematicSections.length > 0 ? Math.round(thematicProjectCount / thematicSections.length) : 0
 	);
 
 	function selectSection(name: string) {
@@ -293,8 +304,13 @@
 			</Card>
 		{/if}
 
-		<!-- Project Timeline Gantt -->
-		{#if sectionGanttData.length > 0}
+		<!--
+			Project Timeline Gantt -- hidden for External because the pseudo
+			section's projects have unreliable/sparse dates that make the axis
+			blow out (e.g. ILAM's 1013 founding date stretching the timeline
+			back a millennium). Thematic sections render it normally.
+		-->
+		{#if sectionGanttData.length > 0 && !selectedSectionData.isExternal}
 			<ChartCard
 				title="Project Timelines"
 				subtitle="Duration of projects in this research section"
@@ -375,7 +391,7 @@
 	{:else}
 		<!-- Overview mode -->
 		<div class="grid gap-4 sm:grid-cols-3">
-			<StatCard label="Research Sections" value={sections.length} icon={BookOpen} />
+			<StatCard label="Research Sections" value={thematicSections.length} icon={BookOpen} />
 			<StatCard label="Total Projects" value={totalProjects} icon={Briefcase} />
 			<StatCard label="Avg. Projects / Section" value={avgPerSection} icon={Layers} />
 		</div>
@@ -393,58 +409,118 @@
 			{/if}
 		</ChartCard>
 
-		<!-- Section Cards Grid -->
-		<div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-			{#each sections as section (section.name)}
-				<button onclick={() => selectSection(section.name)} class="text-left">
-					<Card
-						class="overflow-hidden h-full hover:shadow-lg transition-shadow cursor-pointer group"
-						style="border-left: 3px solid {getSectionColor(section.name)}"
-					>
-						{#snippet children()}
-							<CardHeader>
-								{#snippet children()}
-									<CardTitle class="text-base group-hover:text-primary transition-colors">
-										{#snippet children()}{section.name}{/snippet}
-									</CardTitle>
-								{/snippet}
-							</CardHeader>
-							<CardContent>
-								{#snippet children()}
-									<div class="space-y-3">
-										{#if section.description}
-											<p class="text-xs text-muted-foreground line-clamp-3 leading-relaxed">
-												{section.description}
-											</p>
-										{/if}
-										<div class="flex items-center justify-between">
-											<div class="flex items-center gap-3">
-												<Badge variant="secondary" class="text-xs">
-													{#snippet children()}{section.projects.length} project{section.projects
-															.length !== 1
-															? 's'
-															: ''}{/snippet}
-												</Badge>
-												{#if section.principalInvestigators.length > 0}
-													<span class="text-xs text-muted-foreground">
-														{section.principalInvestigators.length} PI{section
-															.principalInvestigators.length !== 1
-															? 's'
-															: ''}
-													</span>
-												{/if}
+		<!-- Thematic Section Cards Grid (the cluster's six official sections) -->
+		<div>
+			<h2 class="text-sm font-semibold uppercase tracking-wider text-muted-foreground mb-3">
+				Six thematic research sections
+			</h2>
+			<div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+				{#each thematicSections as section (section.name)}
+					<button onclick={() => selectSection(section.name)} class="text-left">
+						<Card
+							class="overflow-hidden h-full hover:shadow-lg transition-shadow cursor-pointer group"
+							style="border-left: 3px solid {getSectionColor(section.name)}"
+						>
+							{#snippet children()}
+								<CardHeader>
+									{#snippet children()}
+										<CardTitle class="text-base group-hover:text-primary transition-colors">
+											{#snippet children()}{section.name}{/snippet}
+										</CardTitle>
+									{/snippet}
+								</CardHeader>
+								<CardContent>
+									{#snippet children()}
+										<div class="space-y-3">
+											{#if section.description}
+												<p class="text-xs text-muted-foreground line-clamp-3 leading-relaxed">
+													{section.description}
+												</p>
+											{/if}
+											<div class="flex items-center justify-between">
+												<div class="flex items-center gap-3">
+													<Badge variant="secondary" class="text-xs">
+														{#snippet children()}{section.projects.length} project{section.projects
+																.length !== 1
+																? 's'
+																: ''}{/snippet}
+													</Badge>
+													{#if section.principalInvestigators.length > 0}
+														<span class="text-xs text-muted-foreground">
+															{section.principalInvestigators.length} PI{section
+																.principalInvestigators.length !== 1
+																? 's'
+																: ''}
+														</span>
+													{/if}
+												</div>
+												<ArrowRight
+													class="h-4 w-4 text-muted-foreground group-hover:text-primary transition-colors"
+												/>
 											</div>
-											<ArrowRight
-												class="h-4 w-4 text-muted-foreground group-hover:text-primary transition-colors"
-											/>
 										</div>
-									</div>
-								{/snippet}
-							</CardContent>
-						{/snippet}
-					</Card>
-				</button>
-			{/each}
+									{/snippet}
+								</CardContent>
+							{/snippet}
+						</Card>
+					</button>
+				{/each}
+			</div>
 		</div>
+
+		<!--
+			External collections -- rendered separately with a dashed outline and
+			muted styling so they never read as one of the cluster's research
+			sections. The heading + distinct card treatment carry the signal;
+			we don't need badges or extra explanatory copy.
+		-->
+		{#if externalSections.length > 0}
+			<div class="pt-2">
+				<h2 class="text-sm font-semibold uppercase tracking-wider text-muted-foreground mb-3">
+					Outside the cluster's research sections
+				</h2>
+				<div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+					{#each externalSections as section (section.name)}
+						<button onclick={() => selectSection(section.name)} class="text-left">
+							<Card
+								class="overflow-hidden h-full hover:shadow-md transition-shadow cursor-pointer group border-dashed bg-muted/30"
+							>
+								{#snippet children()}
+									<CardHeader>
+										{#snippet children()}
+											<CardTitle class="text-base group-hover:text-primary transition-colors">
+												{#snippet children()}{section.name}{/snippet}
+											</CardTitle>
+										{/snippet}
+									</CardHeader>
+									<CardContent>
+										{#snippet children()}
+											<div class="space-y-3">
+												{#if section.description}
+													<p class="text-xs text-muted-foreground line-clamp-3 leading-relaxed">
+														{section.description}
+													</p>
+												{/if}
+												<div class="flex items-center justify-between">
+													<Badge variant="secondary" class="text-xs">
+														{#snippet children()}{section.projects.length} project{section.projects
+																.length !== 1
+																? 's'
+																: ''}{/snippet}
+													</Badge>
+													<ArrowRight
+														class="h-4 w-4 text-muted-foreground group-hover:text-primary transition-colors"
+													/>
+												</div>
+											</div>
+										{/snippet}
+									</CardContent>
+								{/snippet}
+							</Card>
+						</button>
+					{/each}
+				</div>
+			</div>
+		{/if}
 	{/if}
 </div>

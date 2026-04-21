@@ -398,6 +398,7 @@
 				relationFilter={effectiveRelationFilter}
 				categoryFilter={visibleCategories}
 				clusterFilter={visibleClusters}
+				nodeSizeScale={0.7}
 				forceConfig={{
 					repulsion: inFullscreen ? 320 : 200,
 					gravity: 0.08,
@@ -471,10 +472,27 @@
 						</div>
 					{/if}
 				</div>
-				<p class="text-xs text-muted-foreground mt-1">
-					Click a node to navigate &middot; dashed edges = latent structural ties &middot; size =
-					centrality
-				</p>
+				<div class="text-xs text-muted-foreground mt-1 space-y-0.5 leading-relaxed">
+					<p>
+						Nodes are entities in the archive (items, people, subjects, projects,
+						institutions&hellip;). Click any node to navigate to its page.
+					</p>
+					<p>
+						<span class="font-medium text-foreground">Solid edges</span> are direct metadata links
+						(e.g. "has subject", "contributor").
+						<span class="font-medium text-foreground">Dashed edges</span> are latent ties surfaced by
+						structural similarity &mdash; two entities that share a neighbourhood without sharing an explicit
+						tag.
+					</p>
+					<p>
+						<span class="font-medium text-foreground">Node size</span> reflects how central the
+						entity is across the whole archive (PageRank).
+						<span class="font-medium text-foreground">Halo colour</span> marks its
+						<span class="font-medium text-foreground">community</span> &mdash; a cluster of entities that
+						are densely inter-connected, which we read as a recurring "discursive mode" in how the archive
+						organises meaning (Louvain community detection).
+					</p>
+				</div>
 			{/snippet}
 		</CardHeader>
 		<CardContent>

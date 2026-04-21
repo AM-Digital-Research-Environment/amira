@@ -111,10 +111,17 @@ export function extractLocations(
 }
 
 /**
- * Extract research sections from projects
+ * Extract research sections from projects.
+ *
+ * The Africa Multiple cluster has exactly six thematic research sections; the
+ * "External" label on dashboard projects is a pseudo-section used to group
+ * datasets that live outside the cluster's structure. Filtering it out here
+ * keeps stat cards and bar charts honest -- e.g. "Research Sections: 6".
  */
 export function extractResearchSections(projects: Project[]): BarChartDataPoint[] {
-	return countOccurrences(projects, (project) => project.researchSection);
+	return countOccurrences(projects, (project) => project.researchSection).filter(
+		(entry) => entry.name !== 'External'
+	);
 }
 
 /**
