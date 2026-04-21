@@ -14,7 +14,7 @@
 	import type { StackedTimelineDataPoint } from '$lib/utils/dataTransform';
 	import { getResourceTypesFromStackedData } from '$lib/utils/dataTransform';
 	import { cn } from '$lib/utils/cn';
-	import { CHART_COLORS, axisLabelStyle } from '$lib/styles';
+	import { CHART_COLORS, axisLabelStyle, legendTextStyle } from '$lib/styles';
 	import { theme } from '$lib/stores/data';
 	import { buildTitle, buildGrid, buildDataZoom, stackedFormatter } from './utils';
 
@@ -40,7 +40,9 @@
 	// Get all resource types present in the data
 	let resourceTypes = $derived(getResourceTypesFromStackedData(data));
 
-	let labelStyle = $derived(axisLabelStyle($theme === 'dark'));
+	let isDark = $derived($theme === 'dark');
+	let labelStyle = $derived(axisLabelStyle(isDark));
+	let legendStyle = $derived(legendTextStyle(isDark));
 
 	let option: EChartsOption = $derived({
 		...buildTitle(title),
@@ -55,7 +57,8 @@
 		legend: {
 			type: 'scroll',
 			bottom: 65,
-			data: resourceTypes
+			data: resourceTypes,
+			textStyle: { ...legendStyle }
 		},
 		grid: buildGrid({
 			left: '3%',
@@ -74,7 +77,8 @@
 		yAxis: {
 			type: 'value',
 			name: 'Count',
-			axisLabel: { ...labelStyle }
+			axisLabel: { ...labelStyle },
+			nameTextStyle: { ...labelStyle }
 		},
 		dataZoom: buildDataZoom({
 			start: 0,

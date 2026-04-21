@@ -6,7 +6,8 @@
 	import type { EChartsOption } from 'echarts';
 	import type { PieChartDataPoint } from '$lib/types';
 	import { cn } from '$lib/utils/cn';
-	import { getChartColor } from '$lib/styles';
+	import { getChartColor, legendTextStyle } from '$lib/styles';
+	import { theme } from '$lib/stores/data';
 	import { buildTitle, hideAxes, PIE_FORMAT_STRING } from './utils';
 
 	echarts.use([EPieChart, TitleComponent, TooltipComponent, LegendComponent]);
@@ -20,6 +21,8 @@
 
 	let { data, title = '', class: className = '', onclick }: Props = $props();
 
+	let legendStyle = $derived(legendTextStyle($theme === 'dark'));
+
 	let option: EChartsOption = $derived({
 		...buildTitle(title),
 		tooltip: {
@@ -32,7 +35,8 @@
 			orient: 'vertical',
 			left: 'left',
 			top: 'middle',
-			type: 'scroll'
+			type: 'scroll',
+			textStyle: { ...legendStyle }
 		},
 		series: [
 			{

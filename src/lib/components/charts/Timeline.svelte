@@ -58,7 +58,8 @@
 		yAxis: {
 			type: 'value',
 			name: 'Count',
-			axisLabel: { ...labelStyle }
+			axisLabel: { ...labelStyle },
+			nameTextStyle: { ...labelStyle }
 		},
 		series: [
 			{

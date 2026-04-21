@@ -14,7 +14,8 @@
 		CHART_COLORS,
 		getChartEmphasisShadow,
 		getMarkerBorderColor,
-		axisLabelStyle
+		axisLabelStyle,
+		legendTextStyle
 	} from '$lib/styles';
 	import { theme } from '$lib/stores/data';
 	import { buildTitle, buildGrid } from './utils';
@@ -115,6 +116,7 @@
 			name: valueAxisLabel,
 			nameLocation: 'center',
 			nameGap: 30,
+			nameTextStyle: { ...labelStyle },
 			min: minValue - 1,
 			max: maxValue + 1,
 			axisLabel: {
@@ -175,7 +177,8 @@
 			data: categories.map((cat) => ({
 				name: cat,
 				icon: 'circle'
-			}))
+			})),
+			textStyle: { ...legendTextStyle(isDark) }
 		}
 	});
 

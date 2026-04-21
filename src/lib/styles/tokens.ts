@@ -260,6 +260,20 @@ export function axisLabelStyle(isDark: boolean) {
 }
 
 /**
+ * Theme-correct legend textStyle. Same merge gotcha as axisLabelStyle —
+ * spread this into any local `legend.textStyle` (or use as the textStyle
+ * itself) so legend labels keep theme color / weight.
+ */
+export function legendTextStyle(isDark: boolean) {
+	const colors = isDark ? THEME_COLORS.dark : THEME_COLORS.light;
+	return {
+		color: colors.chartText,
+		fontFamily: FONT_FAMILY.sans,
+		fontWeight: FONT_WEIGHT.medium
+	} as const;
+}
+
+/**
  * Sequential color ramp endpoints for heatmap-like visualisations.
  * Light end fades to a warm neutral; dark end is the brand teal.
  *

@@ -6,7 +6,7 @@
 	import type { EChartsOption } from 'echarts';
 	import type { NetworkData } from '$lib/types';
 	import { cn } from '$lib/utils/cn';
-	import { CHART_COLORS, THEME_COLORS } from '$lib/styles';
+	import { CHART_COLORS, THEME_COLORS, legendTextStyle } from '$lib/styles';
 	import { theme } from '$lib/stores/data';
 	import { buildTitle, hideAxes } from './utils';
 
@@ -46,9 +46,7 @@
 
 	let isDark = $derived($theme === 'dark');
 	let labelColor = $derived(isDark ? THEME_COLORS.dark.chartText : THEME_COLORS.light.chartText);
-	let legendColor = $derived(
-		isDark ? THEME_COLORS.dark.chartTextMuted : THEME_COLORS.light.chartTextMuted
-	);
+	let legendStyle = $derived(legendTextStyle(isDark));
 
 	let option: EChartsOption = $derived({
 		...buildTitle(title),
@@ -63,7 +61,7 @@
 			orient: 'vertical',
 			left: 'left',
 			top: 'middle',
-			textStyle: { color: legendColor }
+			textStyle: { ...legendStyle }
 		},
 		animationDuration: 1500,
 		animationEasingUpdate: 'quinticInOut',
