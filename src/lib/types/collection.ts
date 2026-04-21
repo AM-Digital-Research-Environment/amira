@@ -110,4 +110,7 @@ export interface CollectionItem {
 	updatedAt?: Date | string | null;
 	updatedBy: string;
 	university?: string; // University ID that this item belongs to
+	/** External preview image URLs (e.g. collections.uni-bayreuth.de/eas/...).
+	 *  Populated for UBT items; loaded as-is from MongoDB. */
+	previewImage?: string[];
 }

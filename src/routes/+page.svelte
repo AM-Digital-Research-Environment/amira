@@ -7,6 +7,8 @@
 	import HeatmapChart from '$lib/components/charts/HeatmapChart.svelte';
 	import MiniMap from '$lib/components/charts/MiniMap.svelte';
 	import { FilterPanel } from '$lib/components/layout';
+	import CollectionIndexCard from '$lib/components/collections/CollectionIndexCard.svelte';
+	import { buildCollectionCards } from '$lib/utils/featuredCollectionLoader';
 	import { projects, allCollections } from '$lib/stores/data';
 	import { filteredCollections } from '$lib/stores/filters';
 	import {
@@ -32,7 +34,9 @@
 		Edit3,
 		BookOpen,
 		ExternalLink,
-		SlidersHorizontal
+		SlidersHorizontal,
+		Images,
+		ArrowRight
 	} from '@lucide/svelte';
 	import { normalizeLanguageCode } from '$lib/utils/languages';
 	import { institutionUrl } from '$lib/utils/urls';
@@ -103,6 +107,11 @@
 	let sectionUniversityHeatmap = $derived(
 		buildResearchSectionUniversityHeatmap($projects, $allCollections)
 	);
+
+	// Sneak-peek of featured collections for the overview. Capped at 4 so
+	// the compact grid fills on desktop without becoming a second /collections
+	// page — the "See all" link takes users to the full index.
+	let collectionCards = $derived(buildCollectionCards($allCollections, 3).slice(0, 4));
 
 	// Calculate unique projects from filtered collections
 	let uniqueProjects = $derived.by(() => {
@@ -318,6 +327,46 @@
 			{/if}
 		</ChartCard>
 	</div>
+
+	{#if collectionCards.length > 0}
+		<section class="pt-8 mt-4 border-t border-border/60 space-y-6">
+			<div class="flex flex-wrap items-start justify-between gap-4">
+				<div class="flex items-start gap-3 min-w-0">
+					<div class="shrink-0 p-2 rounded-lg bg-primary/10 text-primary">
+						<Images class="h-5 w-5" />
+					</div>
+					<div class="min-w-0">
+						<h2 class="font-display text-2xl font-semibold tracking-tight text-foreground">
+							Collections
+						</h2>
+						<p class="text-sm text-muted-foreground mt-0.5">
+							Browse curated collections — photos, texts, audio and video — by masonry, map or
+							timeline.
+						</p>
+					</div>
+				</div>
+				<a
+					href="{base}/collections"
+					class="inline-flex items-center gap-1.5 text-sm font-medium text-primary hover:underline"
+				>
+					See all <ArrowRight class="h-4 w-4" />
+				</a>
+			</div>
+
+			<div class="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+				{#each collectionCards as card, index (card.meta.slug)}
+					<CollectionIndexCard
+						meta={card.meta}
+						itemCount={card.itemCount}
+						photoCount={card.photoCount}
+						coverUrls={card.coverUrls}
+						revealDelay={index * 80}
+						compact
+					/>
+				{/each}
+			</div>
+		</section>
+	{/if}
 
 	<!-- Section heading: shifts focus from cluster-level stats to the filterable
 	     research-items explorer below. -->

@@ -21,7 +21,8 @@
 		Tag,
 		BookType,
 		Sparkles,
-		Compass
+		Compass,
+		Images
 	} from '@lucide/svelte';
 	import type { Component } from 'svelte';
 
@@ -68,6 +69,10 @@
 				{ href: `${base}/groups`, label: 'Groups', icon: UsersRound },
 				{ href: `${base}/institutions`, label: 'Institutions', icon: Building2 }
 			]
+		},
+		{
+			label: 'Collections',
+			items: [{ href: `${base}/collections`, label: 'Featured Collections', icon: Images }]
 		},
 		{
 			// Categories don't have an obvious semantic ordering, so we sort

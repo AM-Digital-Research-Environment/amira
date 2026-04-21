@@ -503,19 +503,20 @@
 					{#snippet children()}
 						<div class="space-y-2">
 							{#each identifiers as id (id.type + id.value)}
+								{@const idValue = String(id.value ?? '')}
 								<div class="flex items-start gap-3 text-sm">
 									<span class="text-muted-foreground shrink-0 min-w-[80px]">{id.type}</span>
-									{#if id.value.startsWith('http')}
+									{#if idValue.startsWith('http')}
 										<a
-											href={id.value}
+											href={idValue}
 											target="_blank"
 											rel="noopener noreferrer"
 											class="text-primary hover:underline font-mono text-xs break-all inline-flex items-center gap-1"
 										>
-											{id.value}<ExternalLink class="h-3 w-3 shrink-0" />
+											{idValue}<ExternalLink class="h-3 w-3 shrink-0" />
 										</a>
 									{:else}
-										<span class="text-foreground font-mono text-xs break-all">{id.value}</span>
+										<span class="text-foreground font-mono text-xs break-all">{idValue}</span>
 									{/if}
 								</div>
 							{/each}

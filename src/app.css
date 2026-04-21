@@ -190,6 +190,30 @@
 		height: 1px;
 		background: linear-gradient(90deg, transparent, hsl(var(--border)), transparent);
 	}
+
+	/* Scroll-reveal: elements marked by the revealOnScroll Svelte action
+	   fade + lift into place as they enter the viewport. Timings and
+	   easing pulled from design tokens so any global motion tweak
+	   cascades here. */
+	[data-reveal='hidden'] {
+		opacity: 0;
+		transform: translateY(12px);
+		transition:
+			opacity var(--duration-slow) var(--ease-expo-out),
+			transform var(--duration-slow) var(--ease-expo-out);
+		will-change: opacity, transform;
+	}
+	[data-reveal='shown'] {
+		opacity: 1;
+		transform: translateY(0);
+	}
+	@media (prefers-reduced-motion: reduce) {
+		[data-reveal] {
+			transition: none !important;
+			transform: none !important;
+			opacity: 1 !important;
+		}
+	}
 }
 
 /* =============================================================================
