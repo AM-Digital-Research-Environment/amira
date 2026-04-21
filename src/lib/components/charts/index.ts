@@ -14,3 +14,4 @@ export { default as EntityKnowledgeGraph } from './EntityKnowledgeGraph.svelte';
 export { default as HeatmapChart } from './HeatmapChart.svelte';
 export { default as BeeswarmChart } from './BeeswarmChart.svelte';
 export { default as GanttChart } from './GanttChart.svelte';
+export { default as SemanticScatter } from './SemanticScatter.svelte';

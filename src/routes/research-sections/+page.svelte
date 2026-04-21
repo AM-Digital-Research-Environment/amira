@@ -132,8 +132,9 @@
 	<div>
 		<h1 class="page-title">Research Sections</h1>
 		<p class="page-subtitle">
-			Six thematic fields providing a coherent structure to research projects across Bayreuth,
-			Africa, and a global network
+			Six thematic fields, organized into Research Sections, provide a coherent structure to the
+			Cluster's research projects. Most projects pursue an inter- and/or transdisciplinary agenda
+			and involve close cooperation between researchers from Bayreuth, Africa, and a global network.
 		</p>
 	</div>
 
@@ -208,12 +209,15 @@
 					</CardHeader>
 					<CardContent>
 						{#snippet children()}
-							<p class="text-sm text-foreground">
-								{#each selectedSectionData.principalInvestigators as pi, i (pi)}
-									{#if i > 0}<span class="text-muted-foreground"> · </span>{/if}
-									<a href={personUrl(pi)} class="hover:text-primary transition-colors">{pi}</a>
+							<ul class="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-foreground">
+								{#each selectedSectionData.principalInvestigators as pi (pi)}
+									<li>
+										<a href={personUrl(pi)} class="hover:text-primary transition-colors">
+											{pi}
+										</a>
+									</li>
 								{/each}
-							</p>
+							</ul>
 						{/snippet}
 					</CardContent>
 				{/snippet}

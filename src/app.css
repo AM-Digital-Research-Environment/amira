@@ -177,7 +177,11 @@
 	.page-subtitle {
 		font-size: var(--font-size-lg);
 		color: hsl(var(--muted-foreground));
-		max-width: 42rem;
+		/* Cap line length at ~65 characters (the classic readability sweet
+		   spot). Was 42rem which resolved to ~40ch and left wide viewports
+		   looking sparse. Using `ch` keeps the cap right if the font-size
+		   ever changes. */
+		max-width: 65ch;
 		line-height: var(--line-height-relaxed);
 	}
 

@@ -3,7 +3,7 @@
 	import { projects, allCollections } from '$lib/stores/data';
 	import type { Project, CollectionItem, BarChartDataPoint } from '$lib/types';
 	import { formatDate, getProjectTitle, getSectionColor } from '$lib/utils/helpers';
-	import { projectUrl } from '$lib/utils/urls';
+	import { projectUrl, personUrl, researchSectionsUrl } from '$lib/utils/urls';
 	import { paginate } from '$lib/utils/pagination';
 	import SEO from '$lib/components/ui/seo.svelte';
 	import StatCard from '$lib/components/ui/stat-card.svelte';
@@ -130,7 +130,7 @@
 
 <SEO
 	title="What's New"
-	description="Recently added and updated projects and research items in the Africa Multiple WissKI Explorer."
+	description="Recently added and updated projects and research items across the Africa Multiple Cluster of Excellence."
 />
 
 <div class="space-y-8">
@@ -190,30 +190,38 @@
 		{#if projectsByNewItems.length > 0}
 			<div class="grid gap-3 sm:grid-cols-2">
 				{#each projectsByNewItems as { project, latestItemDate, newItemCount, totalItemCount } (project.id)}
-					<Card>
+					<Card class="min-w-0">
 						<CardContent class="p-4">
 							<div class="flex items-start justify-between gap-2">
 								<div class="min-w-0 flex-1">
 									<a
 										href={projectUrl(project.id)}
-										class="text-sm font-medium text-foreground hover:text-primary transition-colors line-clamp-2"
+										class="text-sm font-medium text-foreground hover:text-primary transition-colors line-clamp-2 break-words"
 									>
 										{getProjectTitle(project)}
 									</a>
 									{#if project.pi?.length}
 										<p class="text-xs text-muted-foreground mt-1 truncate">
-											PI: {project.pi.join(', ')}
+											PI: {#each project.pi as pi, i (pi)}{#if i > 0},
+												{/if}<a href={personUrl(pi)} class="hover:text-primary transition-colors"
+													>{pi}</a
+												>{/each}
 										</p>
 									{/if}
 									<div class="flex flex-wrap items-center gap-1.5 mt-2">
 										{#each project.researchSection ?? [] as section (section)}
-											<Badge variant="outline">
-												<span
-													class="inline-block w-2 h-2 rounded-full mr-1"
-													style="background-color: {getSectionColor(section)}"
-												></span>
-												{section}
-											</Badge>
+											<a
+												href={researchSectionsUrl(section)}
+												class="hover:opacity-80 transition-opacity"
+											>
+												<Badge variant="outline">
+													<span
+														class="inline-block w-2 h-2 rounded-full mr-1"
+														style="background-color: {getSectionColor(section)}"
+													></span>
+													{section}
+												</Badge>
+											</a>
 										{/each}
 									</div>
 								</div>

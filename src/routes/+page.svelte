@@ -140,7 +140,7 @@
 
 <SEO
 	title="Overview"
-	description="Dashboard overview of research data from the Africa Multiple Cluster of Excellence"
+	description="Research data from the Africa Multiple Cluster of Excellence and its Africa Multiple Research Centres (AMRCs) — an international research consortium at the University of Bayreuth linking partner centres across Africa, Brazil, and Germany."
 />
 
 <div class="space-y-8">
@@ -148,16 +148,7 @@
 	<div class="page-header animate-slide-in-up">
 		<h1 class="page-title">Dashboard Overview</h1>
 		<p class="page-subtitle">
-			Browse and visualize research data from
-			<a
-				href="https://wiss-ki.eu/"
-				target="_blank"
-				rel="noopener noreferrer"
-				class="inline-flex items-center gap-0.5 underline underline-offset-2 decoration-primary/40 hover:decoration-primary font-medium"
-				>WissKI<ExternalLink class="inline size-3" /></a
-			>
-			(<em>Wissenschaftliche Kommunikations-Infrastruktur</em>), the research data management system
-			of the
+			Browse and visualize research data from the
 			<a
 				href="https://www.africamultiple.uni-bayreuth.de/en/index.html"
 				target="_blank"
@@ -165,25 +156,16 @@
 				class="inline-flex items-center gap-0.5 underline underline-offset-2 decoration-primary/40 hover:decoration-primary font-medium"
 				>Africa Multiple Cluster of Excellence<ExternalLink class="inline size-3" /></a
 			>
-			at the University of Bayreuth. The Cluster is an international research consortium funded by the
+			and its
 			<a
-				href="https://www.dfg.de/en"
+				href="https://www.africamultiple.uni-bayreuth.de/en/1_1-About-Us/african-cluster-centres/index.html"
 				target="_blank"
 				rel="noopener noreferrer"
 				class="inline-flex items-center gap-0.5 underline underline-offset-2 decoration-primary/40 hover:decoration-primary font-medium"
-				>German Research Foundation (DFG)<ExternalLink class="inline size-3" /></a
+				>Africa Multiple Research Centres (AMRCs)<ExternalLink class="inline size-3" /></a
 			>
-			that connects five centres in Africa, Brazil, and Germany to reconfigure African Studies and address
-			global inequalities in knowledge production.
-			<a
-				href="https://www.wisski.uni-bayreuth.de/"
-				target="_blank"
-				rel="noopener noreferrer"
-				class="inline-flex items-center gap-0.5 underline underline-offset-2 decoration-primary/40 hover:decoration-primary font-medium"
-				>WissKI@UBT<ExternalLink class="inline size-3" /></a
-			>
-			enables researchers to search and explore research data across affiliated institutions, facilitating
-			the discovery of collaboration opportunities.
+			— an international research consortium at the University of Bayreuth linking partner centres across
+			Africa, Brazil, and Germany to reconfigure African Studies.
 		</p>
 	</div>
 

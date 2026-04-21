@@ -102,6 +102,73 @@ curated entries. Run after `reconcile_cities.py`.
 python scripts/fix_cities.py
 ```
 
+### `generate_embeddings.py`
+
+Computes a Gemini Embedding vector per research item, projects the full
+corpus down to 2D with UMAP for the scatter viz on `/semantic-map`, and
+pre-computes a top-K cosine-similarity table that powers the "similar
+items" panel.
+
+**What it does**
+
+1. Walks `static/data/projects_metadata_*/` and
+   `static/data/external_metadata/`, concatenating each item's metadata
+   fields (title, abstract, note, subjects, contributors, tags, type,
+   genre, location, language, audience, project, physical description)
+   into a single labelled blob.
+2. SHA-256 hashes each blob. On subsequent runs, only items whose hash
+   has changed (or are absent from the cache) are re-embedded.
+3. Calls `gemini-embedding-2-preview` ([Gemini Embedding 2](https://docs.cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/embedding-2?hl=en),
+   preview, released 2026-03-10) with `output_dimensionality=768`
+   (Matryoshka truncation). The task is encoded as a text prefix on every
+   input — `task: clustering | query: ...` — because Gemini 2 does not
+   accept the old `task_type` parameter.
+4. Runs UMAP to reduce the 768-dim vectors to 2D coordinates.
+5. Computes the top-12 cosine-nearest neighbours for every item.
+
+**Interactive prompt**
+
+On start the script asks whether to embed only missing/changed items
+(default, cheap) or to re-embed ALL items (useful after a model or
+dimension change). Pass `--scope missing` or `--scope all` to skip the
+prompt (e.g. from CI).
+
+**Output**
+
+- `static/data/embeddings/cache.json` — full vectors + hashes. Gitignored
+  (~20 MB for ~4k items at 768-dim). Source of truth for incremental runs.
+- `static/data/embeddings/map.json` — per-item `{id, x, y, lowSignal, title,
+project, university, typeOfResource}` (shipped to the browser).
+- `static/data/embeddings/similar.json` — per-item top-12 cosine neighbours
+  keyed by `dre_id` (shipped).
+
+**Setup**
+
+1. Copy your Gemini API key into `.env` as `GEMINI_API_KEY=...` (the
+   file is already gitignored).
+2. Install the extra deps:
+
+   ```bash
+   .venv/Scripts/pip install -r scripts/requirements.txt
+   ```
+
+**Usage**
+
+```bash
+# Interactive
+.venv/Scripts/python scripts/generate_embeddings.py
+
+# Non-interactive
+.venv/Scripts/python scripts/generate_embeddings.py --scope missing
+.venv/Scripts/python scripts/generate_embeddings.py --scope all
+
+# Preview plan without calling the API
+.venv/Scripts/python scripts/generate_embeddings.py --dry-run
+```
+
+Re-run after every metadata refresh; runs of only missing/changed items
+finish in seconds.
+
 ### `reconcile_locations.py` (DEPRECATED)
 
 > **Note:** This script is no longer needed. Location data is now loaded

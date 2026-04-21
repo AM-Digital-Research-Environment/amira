@@ -98,22 +98,29 @@ export function buildResearchSectionUniversityHeatmap(
 	}
 
 	// Full institution names on the axis (more readable than UBT/UNILAG/...).
+	// `rhodes` is a synthetic axis for ILAM (housed at Rhodes University) so
+	// those items show up under their actual home institution instead of an
+	// opaque "External" bucket.
 	const uniLabelMap: Record<string, string> = {
 		ubt: 'University of Bayreuth',
 		unilag: 'University of Lagos',
 		ujkz: 'Université Joseph Ki-Zerbo',
 		ufba: 'Federal University of Bahia',
+		rhodes: 'Rhodes University',
 		external: 'External'
 	};
 
-	// Institutions listed on projects that belong to a partner university.
-	// Used to reclassify external-tagged items (e.g. BayGlo → UBT).
+	// Institutions listed on projects that, when matched, reclassify the
+	// axis bucket for external-tagged items. BayGlo lists "University of
+	// Bayreuth" and routes back to UBT; ILAM lists "Rhodes University" and
+	// now gets its own axis instead of falling through to "External".
 	const partnerInstitutionToUniId: Record<string, string> = {
 		'University of Bayreuth': 'ubt',
 		'University of Lagos African Cluster Centre (LACC)': 'unilag',
 		'University Joseph Ki-Zerbo': 'ujkz',
 		'Universidade Federal da Bahia': 'ufba',
-		'CEAO Centro de Estudos Afro-Orientais': 'ufba'
+		'CEAO Centro de Estudos Afro-Orientais': 'ufba',
+		'Rhodes University': 'rhodes'
 	};
 
 	const matrix = new Map<string, number>();

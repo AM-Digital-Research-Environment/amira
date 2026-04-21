@@ -1,10 +1,22 @@
 # Python dependencies for WissKI Dashboard data enrichment scripts
-requests>=2.28.0
-pymongo>=4.14.0
+# (pins verified against PyPI latest at time of writing)
+requests>=2.33.1
+pymongo>=4.17.0
 
 # Knowledge-graph pipeline (scripts/generate_knowledge_graphs.py):
 # networkx provides the graph data structure, Louvain community detection,
 # and PageRank. scipy is optional but strongly recommended -- networkx uses
 # it to speed up PageRank by an order of magnitude on mid-sized graphs.
-networkx>=3.3
-scipy>=1.11
+networkx>=3.6.1
+scipy>=1.17.1
+
+# Semantic embeddings pipeline (scripts/generate_embeddings.py):
+# Versions verified against PyPI (latest at time of writing). google-genai is
+# the Gemini Python SDK; umap-learn projects the 768-dim embeddings down to
+# 2D for the scatter viz; numpy is the numeric backbone (transitive for
+# umap-learn, pinned here for clarity); python-dotenv loads the API key from
+# the repo's .env file so the script doesn't depend on shell exports.
+google-genai>=1.73.1
+umap-learn>=0.5.12
+numpy>=2.4.4
+python-dotenv>=1.2.2

@@ -77,6 +77,10 @@
 		piOf: Project[];
 		memberOf: Project[];
 		sections: Set<string>;
+		/** Subset of `sections` where this person is a PI of the section itself
+		 * (vs. just a member or a project contributor whose project belongs to
+		 * the section). */
+		piOfSections: Set<string>;
 		affiliations: Set<string>;
 		isSectionPI: boolean;
 	}
@@ -90,8 +94,9 @@
 					name,
 					piOf: [],
 					memberOf: [],
-					sections: new Set(),
-					affiliations: new Set(),
+					sections: new SvelteSet(),
+					piOfSections: new SvelteSet(),
+					affiliations: new SvelteSet(),
 					isSectionPI: false
 				});
 			}
@@ -159,6 +164,7 @@
 				const person = getOrCreate(name);
 				person.isSectionPI = true;
 				person.sections.add(sectionName);
+				person.piOfSections.add(sectionName);
 			});
 			(info.members || []).forEach((name) => {
 				const person = getOrCreate(name);
@@ -815,9 +821,17 @@
 										{#each [...selectedPerson.sections].sort() as section (section)}
 											<a
 												href={researchSectionsUrl(section)}
-												class="hover:opacity-80 transition-opacity"
+												class="inline-flex items-center gap-1.5 hover:opacity-80 transition-opacity"
+												title={selectedPerson.piOfSections.has(section)
+													? `PI of the ${section} section`
+													: section}
 											>
 												<SectionBadge {section} />
+												{#if selectedPerson.piOfSections.has(section)}
+													<Badge class="text-2xs">
+														{#snippet children()}PI{/snippet}
+													</Badge>
+												{/if}
 											</a>
 										{/each}
 									</div>

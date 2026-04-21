@@ -191,7 +191,7 @@
 
 <SEO
 	title="Compare Projects"
-	description="Side-by-side comparison of research data across universities and projects"
+	description="Side-by-side comparison of research metadata across universities and projects"
 />
 
 <div class="space-y-6">
@@ -199,7 +199,7 @@
 	<div class="animate-slide-in-up">
 		<h1 class="page-title">Compare Projects</h1>
 		<p class="page-subtitle">
-			Side-by-side comparison of research data across universities and projects
+			Side-by-side comparison of research metadata across universities and projects
 		</p>
 	</div>
 

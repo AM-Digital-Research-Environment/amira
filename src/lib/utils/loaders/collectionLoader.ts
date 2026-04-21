@@ -303,8 +303,10 @@ interface RawResearchSection {
 	description: string;
 	objectives: string;
 	workProgramme: string;
-	principalInvestigators: string[];
-	members: string[];
+	// MongoDB stores the PI list as `pi` (same as on projects); the frontend
+	// exposes it as `principalInvestigators` for readability.
+	pi?: string[];
+	members?: string[];
 }
 
 /**
@@ -319,8 +321,12 @@ export async function loadResearchSections(
 		);
 		const result: Record<string, ResearchSectionInfo> = {};
 		for (const doc of docs) {
-			const { _id, name, ...info } = doc;
-			result[name] = info;
+			const { _id, name, pi, members, ...rest } = doc;
+			result[name] = {
+				...rest,
+				principalInvestigators: pi ?? [],
+				members: members ?? []
+			};
 		}
 		return result;
 	} catch {

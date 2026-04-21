@@ -8,7 +8,7 @@
 	// to avoid duplicating it (e.g. /WissKI-dashboard/WissKI-dashboard/people).
 	const SITE_URL = 'https://am-digital-research-environment.github.io/WissKI-dashboard';
 	const DEFAULT_DESCRIPTION =
-		'Browse and visualize research data from the Africa Multiple Cluster of Excellence WissKI system';
+		'Research metadata from the Africa Multiple Cluster of Excellence — an international research consortium at the University of Bayreuth linking partner centres across Africa, Brazil, and Germany.';
 
 	interface Props {
 		title?: string;

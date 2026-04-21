@@ -154,7 +154,7 @@
 
 <SEO
 	title="Project Explorer"
-	description="Explore research data and visualizations by project across partner universities"
+	description="Explore research metadata and visualizations by project across partner universities"
 />
 
 <div class="space-y-6">

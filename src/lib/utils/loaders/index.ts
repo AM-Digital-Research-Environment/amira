@@ -14,3 +14,4 @@ export {
 	loadAllData
 } from './collectionLoader';
 export { loadEnrichedLocations } from './geolocLoader';
+export { loadSemanticMap, loadSimilarItems } from './embeddingsLoader';
