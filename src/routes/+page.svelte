@@ -5,6 +5,7 @@
 	import PieChart from '$lib/components/charts/PieChart.svelte';
 	import WordCloud from '$lib/components/charts/WordCloud.svelte';
 	import HeatmapChart from '$lib/components/charts/HeatmapChart.svelte';
+	import MiniMap from '$lib/components/charts/MiniMap.svelte';
 	import { FilterPanel } from '$lib/components/layout';
 	import { projects, allCollections } from '$lib/stores/data';
 	import { filteredCollections } from '$lib/stores/filters';
@@ -38,6 +39,38 @@
 
 	// Word cloud controls
 	let wordCloudMaxWords = $state(120);
+
+	// Cluster locations: the University of Bayreuth (lead) and the four
+	// Africa Multiple Research Centres (AMRCs). Coordinates are for each host
+	// city — shown on the overview map so the geographic reach of the cluster
+	// is visible without having to click through to individual locations.
+	const clusterLocations = [
+		{
+			latitude: 49.9457,
+			longitude: 11.5775,
+			label: 'University of Bayreuth — Bayreuth, Germany'
+		},
+		{
+			latitude: 12.3714,
+			longitude: -1.5197,
+			label: 'Université Joseph Ki-Zerbo — Ouagadougou, Burkina Faso'
+		},
+		{
+			latitude: 6.5244,
+			longitude: 3.3792,
+			label: 'University of Lagos — Lagos, Nigeria'
+		},
+		{
+			latitude: 0.5143,
+			longitude: 35.2698,
+			label: 'Moi University — Eldoret, Kenya'
+		},
+		{
+			latitude: -33.3117,
+			longitude: 26.5197,
+			label: 'Rhodes University — Makhanda (Grahamstown), South Africa'
+		}
+	];
 
 	// Derived chart data
 	let stackedTimelineData = $derived(groupByYearAndType($filteredCollections));
@@ -230,6 +263,15 @@
 			animationDelay="250ms"
 		/>
 	</div>
+
+	<!-- Cluster geography: University of Bayreuth (lead) + four AMRCs -->
+	<ChartCard
+		title="Cluster Locations"
+		subtitle="The University of Bayreuth and the four Africa Multiple Research Centres (AMRCs)"
+		contentHeight="h-chart-md"
+	>
+		<MiniMap markers={clusterLocations} zoom={2} class="h-full" />
+	</ChartCard>
 
 	<!-- Research Sections (project-level, unfiltered) -->
 	<div class="grid gap-6 lg:grid-cols-2">
