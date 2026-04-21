@@ -10,7 +10,7 @@
 	} from 'echarts/components';
 	import type { EChartsOption } from 'echarts';
 	import { cn } from '$lib/utils/cn';
-	import { getChartEmphasisShadow, getHeatmapRange } from '$lib/styles';
+	import { getChartEmphasisShadow, getHeatmapRange, axisLabelStyle } from '$lib/styles';
 	import { theme } from '$lib/stores/data';
 	import { buildTitle, buildGrid } from './utils';
 
@@ -46,6 +46,7 @@
 	let isDark = $derived($theme === 'dark');
 	let effectiveColorRange = $derived<[string, string]>(colorRange ?? getHeatmapRange(isDark));
 	let emphasisShadow = $derived(getChartEmphasisShadow(isDark));
+	let labelStyle = $derived(axisLabelStyle(isDark));
 
 	// Derive labels from data if not provided
 	let xAxisLabels = $derived(xLabels ?? [...new Set(data.map((d) => d.x))]);
@@ -69,14 +70,18 @@
 		grid: buildGrid({
 			left: '3%',
 			right: '8%',
-			top: title ? '12%' : '5%',
-			bottom: '18%'
+			top: title ? '12%' : '3%',
+			// `containLabel: true` (default in buildGrid) already reserves space
+			// for the rotated x-axis labels; a small bottom keeps the plot tall
+			// without leaving dead space below the tick labels.
+			bottom: '3%'
 		}),
 		xAxis: {
 			type: 'category',
 			data: xAxisLabels,
 			splitArea: { show: true },
 			axisLabel: {
+				...labelStyle,
 				rotate: 35,
 				interval: 0,
 				fontSize: 11
@@ -87,6 +92,7 @@
 			data: yAxisLabels,
 			splitArea: { show: true },
 			axisLabel: {
+				...labelStyle,
 				width: 140,
 				overflow: 'truncate',
 				fontSize: 11

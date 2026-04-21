@@ -10,7 +10,12 @@
 	} from 'echarts/components';
 	import type { EChartsOption } from 'echarts';
 	import { cn } from '$lib/utils/cn';
-	import { CHART_COLORS, getChartEmphasisShadow, getMarkerBorderColor } from '$lib/styles';
+	import {
+		CHART_COLORS,
+		getChartEmphasisShadow,
+		getMarkerBorderColor,
+		axisLabelStyle
+	} from '$lib/styles';
 	import { theme } from '$lib/stores/data';
 	import { buildTitle, buildGrid } from './utils';
 	import { SvelteMap } from 'svelte/reactivity';
@@ -69,6 +74,7 @@
 	let isDark = $derived($theme === 'dark');
 	let markerBorder = $derived(getMarkerBorderColor(isDark));
 	let emphasisShadow = $derived(getChartEmphasisShadow(isDark));
+	let labelStyle = $derived(axisLabelStyle(isDark));
 
 	let option: EChartsOption = $derived({
 		...buildTitle(title),
@@ -112,6 +118,7 @@
 			min: minValue - 1,
 			max: maxValue + 1,
 			axisLabel: {
+				...labelStyle,
 				formatter: (val: number) => String(Math.round(val))
 			},
 			// ECharts 6 jitter on the non-data axis
@@ -121,6 +128,7 @@
 			type: 'category',
 			data: categories,
 			axisLabel: {
+				...labelStyle,
 				width: 140,
 				overflow: 'truncate',
 				fontSize: 11

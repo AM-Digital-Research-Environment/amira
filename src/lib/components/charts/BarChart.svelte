@@ -11,7 +11,8 @@
 	import type { EChartsOption } from 'echarts';
 	import type { BarChartDataPoint } from '$lib/types';
 	import { cn } from '$lib/utils/cn';
-	import { CHART_COLORS } from '$lib/styles';
+	import { CHART_COLORS, axisLabelStyle } from '$lib/styles';
+	import { theme } from '$lib/stores/data';
 	import { ChevronLeft, ChevronRight } from '@lucide/svelte';
 	import { buildTitle, buildGrid } from './utils';
 
@@ -64,6 +65,8 @@
 		currentPage = 0;
 	});
 
+	let labelStyle = $derived(axisLabelStyle($theme === 'dark'));
+
 	let option: EChartsOption = $derived({
 		...buildTitle(title),
 		legend: {
@@ -84,12 +87,14 @@
 		}),
 		xAxis: horizontal
 			? {
-					type: 'value'
+					type: 'value',
+					axisLabel: { ...labelStyle }
 				}
 			: {
 					type: 'category',
 					data: displayData.map((d) => d.name),
 					axisLabel: {
+						...labelStyle,
 						rotate: 45,
 						interval: 0
 					}
@@ -99,12 +104,14 @@
 					type: 'category',
 					data: displayData.map((d) => d.name).reverse(),
 					axisLabel: {
+						...labelStyle,
 						width: 120,
 						overflow: 'truncate'
 					}
 				}
 			: {
-					type: 'value'
+					type: 'value',
+					axisLabel: { ...labelStyle }
 				},
 		series: [
 			{

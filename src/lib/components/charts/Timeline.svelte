@@ -11,7 +11,8 @@
 	import type { EChartsOption } from 'echarts';
 	import type { TimelineDataPoint } from '$lib/types';
 	import { cn } from '$lib/utils/cn';
-	import { CHART_COLORS } from '$lib/styles';
+	import { CHART_COLORS, axisLabelStyle } from '$lib/styles';
+	import { theme } from '$lib/stores/data';
 	import { buildTitle, buildGrid, itemCountFormatter } from './utils';
 
 	echarts.use([EBarChart, TitleComponent, TooltipComponent, GridComponent, AxisPointerComponent]);
@@ -24,6 +25,8 @@
 	}
 
 	let { data, title = '', class: className = '', onclick }: Props = $props();
+
+	let labelStyle = $derived(axisLabelStyle($theme === 'dark'));
 
 	let option: EChartsOption = $derived({
 		...buildTitle(title),
@@ -48,12 +51,14 @@
 			type: 'category',
 			data: data.map((d) => d.year.toString()),
 			axisLabel: {
+				...labelStyle,
 				rotate: 45
 			}
 		},
 		yAxis: {
 			type: 'value',
-			name: 'Count'
+			name: 'Count',
+			axisLabel: { ...labelStyle }
 		},
 		series: [
 			{

@@ -144,7 +144,9 @@
 	});
 </script>
 
-<div class={cn('relative', className)}>
+<!-- isolate keeps the dropdown above sibling stacking contexts (stat cards,
+	chart cards) that animate with transforms. -->
+<div class={cn('relative isolate', className)} style="z-index: 50;">
 	<div class="relative">
 		<input
 			bind:this={inputEl}

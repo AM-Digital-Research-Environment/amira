@@ -152,10 +152,10 @@ export const THEME_COLORS = {
 		input: '#302621',
 		ring: '#4ab5ae',
 
-		// Chart specific
-		chartText: '#e4e1dd', // --color-neutral-200
-		chartTextMuted: '#c8c2bc', // --color-neutral-300
-		chartAxis: '#766960', // --color-neutral-500
+		// Chart specific — bumped for legibility on dark surfaces
+		chartText: '#f2f0ee', // --color-neutral-100 (was 200)
+		chartTextMuted: '#e4e1dd', // --color-neutral-200 (was 300)
+		chartAxis: '#938980', // --color-neutral-400 (was 500 — too dim)
 		chartGrid: '#302621', // --color-neutral-800
 		chartTooltipBg: 'rgba(34, 26, 22, 0.96)',
 		chartTooltipBorder: '#463b35'
@@ -244,12 +244,31 @@ export function getMarkerTextShadow(isDark: boolean): string {
 }
 
 /**
+ * Theme-correct axisLabel style. ECharts replaces (does not merge) the
+ * axisLabel object when a chart sets its own properties — so any chart that
+ * customises axisLabel must spread this in to keep the theme color / weight.
+ *
+ * Usage: `axisLabel: { ...axisLabelStyle(isDark), rotate: 45, fontSize: 11 }`
+ */
+export function axisLabelStyle(isDark: boolean) {
+	const colors = isDark ? THEME_COLORS.dark : THEME_COLORS.light;
+	return {
+		color: colors.chartText,
+		fontFamily: FONT_FAMILY.sans,
+		fontWeight: FONT_WEIGHT.medium
+	} as const;
+}
+
+/**
  * Sequential color ramp endpoints for heatmap-like visualisations.
  * Light end fades to a warm neutral; dark end is the brand teal.
+ *
+ * Dark mode start uses neutral-700 (not 800) so empty / low-value cells
+ * stay visibly distinct from the surrounding card background (neutral-900).
  */
 export function getHeatmapRange(isDark: boolean): [string, string] {
 	return isDark
-		? ['#302621' /* neutral-800 */, '#4ab5ae' /* primary-400 */]
+		? ['#463b35' /* neutral-700 */, '#4ab5ae' /* primary-400 */]
 		: ['#f2f0ee' /* neutral-100 */, '#196b69' /* primary-700 */];
 }
 
@@ -271,7 +290,8 @@ export const ECHARTS_THEME_LIGHT = {
 	},
 	legend: {
 		textStyle: {
-			color: THEME_COLORS.light.chartTextMuted
+			color: THEME_COLORS.light.chartText,
+			fontFamily: FONT_FAMILY.sans
 		}
 	},
 	tooltip: {
@@ -292,8 +312,9 @@ export const ECHARTS_THEME_LIGHT = {
 			lineStyle: { color: THEME_COLORS.light.chartAxis }
 		},
 		axisLabel: {
-			color: THEME_COLORS.light.chartTextMuted,
-			fontFamily: FONT_FAMILY.sans
+			color: THEME_COLORS.light.chartText,
+			fontFamily: FONT_FAMILY.sans,
+			fontWeight: FONT_WEIGHT.medium
 		},
 		splitLine: {
 			lineStyle: { color: THEME_COLORS.light.chartGrid, type: 'dashed' }
@@ -304,8 +325,9 @@ export const ECHARTS_THEME_LIGHT = {
 			lineStyle: { color: THEME_COLORS.light.chartAxis }
 		},
 		axisLabel: {
-			color: THEME_COLORS.light.chartTextMuted,
-			fontFamily: FONT_FAMILY.sans
+			color: THEME_COLORS.light.chartText,
+			fontFamily: FONT_FAMILY.sans,
+			fontWeight: FONT_WEIGHT.medium
 		},
 		splitLine: {
 			lineStyle: { color: THEME_COLORS.light.chartGrid, type: 'dashed' }
@@ -349,8 +371,9 @@ export const ECHARTS_THEME_DARK = {
 			lineStyle: { color: THEME_COLORS.dark.chartAxis }
 		},
 		axisLabel: {
-			color: THEME_COLORS.dark.chartTextMuted,
-			fontFamily: FONT_FAMILY.sans
+			color: THEME_COLORS.dark.chartText,
+			fontFamily: FONT_FAMILY.sans,
+			fontWeight: FONT_WEIGHT.medium
 		},
 		splitLine: {
 			lineStyle: { color: THEME_COLORS.dark.chartGrid, type: 'dashed' }
@@ -361,8 +384,9 @@ export const ECHARTS_THEME_DARK = {
 			lineStyle: { color: THEME_COLORS.dark.chartAxis }
 		},
 		axisLabel: {
-			color: THEME_COLORS.dark.chartTextMuted,
-			fontFamily: FONT_FAMILY.sans
+			color: THEME_COLORS.dark.chartText,
+			fontFamily: FONT_FAMILY.sans,
+			fontWeight: FONT_WEIGHT.medium
 		},
 		splitLine: {
 			lineStyle: { color: THEME_COLORS.dark.chartGrid, type: 'dashed' }

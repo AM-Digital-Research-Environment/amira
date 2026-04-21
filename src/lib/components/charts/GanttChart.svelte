@@ -11,7 +11,7 @@
 	} from 'echarts/components';
 	import type { EChartsOption, CustomSeriesOption } from 'echarts';
 	import { cn } from '$lib/utils/cn';
-	import { CHART_COLORS, getChartEmphasisShadow } from '$lib/styles';
+	import { CHART_COLORS, getChartEmphasisShadow, axisLabelStyle } from '$lib/styles';
 	import { theme } from '$lib/stores/data';
 	import { buildTitle, buildGrid } from './utils';
 	import { SvelteMap } from 'svelte/reactivity';
@@ -80,6 +80,7 @@
 	);
 
 	let emphasisShadow = $derived(getChartEmphasisShadow($theme === 'dark'));
+	let labelStyle = $derived(axisLabelStyle($theme === 'dark'));
 
 	let option: EChartsOption = $derived({
 		...buildTitle(title),
@@ -115,6 +116,7 @@
 			min: 'dataMin',
 			max: 'dataMax',
 			axisLabel: {
+				...labelStyle,
 				formatter: formatAsYear ? (val: number) => String(Math.round(val)) : undefined
 			}
 		},
@@ -122,6 +124,7 @@
 			type: 'category',
 			data: sortedData.map((d) => d.name),
 			axisLabel: {
+				...labelStyle,
 				width: 180,
 				overflow: 'truncate',
 				fontSize: 11

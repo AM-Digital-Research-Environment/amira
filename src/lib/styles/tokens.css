@@ -224,7 +224,7 @@
 		--z-below: -1;
 		--z-base: 0;
 		--z-raised: 10;
-		--z-dropdown: 20;
+		--z-dropdown: 50;
 		--z-sticky: 30;
 		--z-fixed: 40;
 		--z-overlay: 50;
@@ -443,6 +443,7 @@
 		--rs-learning: var(--chart-3); /* Honey */
 		--rs-mobilities: var(--chart-1); /* Teal */
 		--rs-moralities: var(--chart-5); /* Garnet */
+		--rs-external: var(--chart-10); /* Ochre — neutral, set apart from the 6 sections */
 	}
 
 	/* ===========================================================================
@@ -542,10 +543,10 @@
 		--chart-9: 14 68% 64%; /* Brick */
 		--chart-10: 42 44% 58%; /* Ochre */
 
-		/* --- Chart text / grid --- */
-		--chart-text: var(--color-neutral-200);
-		--chart-text-muted: var(--color-neutral-300);
-		--chart-axis: var(--color-neutral-500);
+		/* --- Chart text / grid (bumped for dark-bg legibility) --- */
+		--chart-text: var(--color-neutral-100);
+		--chart-text-muted: var(--color-neutral-200);
+		--chart-axis: var(--color-neutral-400);
 		--chart-grid: var(--color-neutral-800);
 		--chart-tooltip-bg: var(--color-neutral-900);
 		--chart-tooltip-border: var(--color-neutral-700);
