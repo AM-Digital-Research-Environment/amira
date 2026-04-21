@@ -37,6 +37,11 @@
 	let similarData = $state<SimilarItemsData | null>(null);
 	let loading = $state(true);
 	let loadFailed = $state(false);
+	// Tracks the in-flight fetch for similar.json so concurrent clicks don't
+	// kick off duplicate requests, and so the panel can show a loading state
+	// while the ~2.4 MB payload is on the wire.
+	let similarPromise = $state<Promise<SimilarItemsData | null> | null>(null);
+	let similarLoading = $state(false);
 
 	let colorBy = $state<ColorBy>('university');
 	let universityFilter = $state('all');
@@ -60,16 +65,37 @@
 	}
 
 	onMount(async () => {
+		// Only load map.json up-front; similar.json (~2.4 MB) is deferred
+		// until the first item is selected so the scatter renders sooner.
 		try {
-			const [m, s] = await Promise.all([loadSemanticMap(base), loadSimilarItems(base)]);
-			mapData = m;
-			similarData = s;
-			if (!m) loadFailed = true;
+			mapData = await loadSemanticMap(base);
+			if (!mapData) loadFailed = true;
 		} catch {
 			loadFailed = true;
 		} finally {
 			loading = false;
 		}
+	});
+
+	async function ensureSimilar() {
+		if (similarData) return similarData;
+		if (similarPromise) return similarPromise;
+		similarLoading = true;
+		similarPromise = loadSimilarItems(base)
+			.then((s) => {
+				similarData = s;
+				return s;
+			})
+			.finally(() => {
+				similarLoading = false;
+			});
+		return similarPromise;
+	}
+
+	// Kick off the similar.json fetch the first time the user selects an item
+	// (and on deep-links arriving with ?id=... in the URL).
+	$effect(() => {
+		if (selectedId) void ensureSimilar();
 	});
 
 	// Quick lookup from collection items by dre_id → CollectionItem.
@@ -358,7 +384,14 @@
 							<Sparkles class="h-4 w-4 text-primary" />
 							Similar items
 						</h3>
-						{#if similarForSelected.length > 0}
+						{#if similarLoading && !similarData}
+							<div class="flex items-center gap-2 text-sm text-muted-foreground py-4">
+								<div
+									class="h-3 w-3 rounded-full border-2 border-primary/30 border-t-primary animate-spin"
+								></div>
+								<span>Loading similar items…</span>
+							</div>
+						{:else if similarForSelected.length > 0}
 							<ul class="space-y-2">
 								{#each similarForSelected as neighbour (neighbour.id)}
 									<li>
