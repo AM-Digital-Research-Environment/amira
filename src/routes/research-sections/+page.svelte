@@ -27,7 +27,8 @@
 		ExternalLink,
 		Users,
 		ArrowRight,
-		GraduationCap
+		GraduationCap,
+		UserCheck
 	} from '@lucide/svelte';
 	import { WissKILink } from '$lib/components/ui';
 	import { SvelteMap, SvelteSet } from 'svelte/reactivity';
@@ -70,22 +71,33 @@
 		const thematic = [...sectionNames].filter((n) => n !== EXTERNAL_SECTION).sort();
 		const ordered = sectionNames.has(EXTERNAL_SECTION) ? [...thematic, EXTERNAL_SECTION] : thematic;
 
-		return ordered.map((name) => ({
-			name,
-			url: $researchSections[name]?.url || '',
-			description:
-				$researchSections[name]?.description ||
-				(name === EXTERNAL_SECTION ? EXTERNAL_SECTION_DESCRIPTION : ''),
-			objectives: $researchSections[name]?.objectives || '',
-			workProgramme: $researchSections[name]?.workProgramme || '',
-			principalInvestigators: $researchSections[name]?.principalInvestigators || [],
-			members: $researchSections[name]?.members || [],
-			projects: projectsBySection.get(name) || [],
-			isExternal: name === EXTERNAL_SECTION
-		}));
+		return ordered.map((name) => {
+			const info = $researchSections[name];
+			const startYear = info?.date?.start ? new Date(info.date.start).getUTCFullYear() : null;
+			// Phase 2 (Africa Multiple 2.0) sections begin in 2026; everything
+			// earlier is Phase 1. External is not tied to a phase.
+			const phase = name === EXTERNAL_SECTION ? null : startYear && startYear >= 2026 ? 2 : 1;
+			return {
+				name,
+				url: info?.url || '',
+				description:
+					info?.description || (name === EXTERNAL_SECTION ? EXTERNAL_SECTION_DESCRIPTION : ''),
+				objectives: info?.objectives || '',
+				workProgramme: info?.workProgramme || '',
+				principalInvestigators: info?.principalInvestigators || [],
+				members: info?.members || [],
+				spokesperson: info?.spokesperson || '',
+				date: info?.date,
+				phase,
+				projects: projectsBySection.get(name) || [],
+				isExternal: name === EXTERNAL_SECTION
+			};
+		});
 	});
 
 	let thematicSections = $derived(sections.filter((s) => !s.isExternal));
+	let phase1Sections = $derived(thematicSections.filter((s) => s.phase === 1));
+	let phase2Sections = $derived(thematicSections.filter((s) => s.phase === 2));
 	let externalSections = $derived(sections.filter((s) => s.isExternal));
 
 	let selectedSectionData = $derived(
@@ -102,12 +114,11 @@
 	let totalProjects = $derived(new Set($projects.flatMap((p) => p._id)).size);
 	// Stats reflect only the cluster's thematic sections -- counting External
 	// against "avg. projects per section" would misrepresent the cluster's
-	// actual structure.
-	let thematicProjectCount = $derived(
-		thematicSections.reduce((sum, s) => sum + s.projects.length, 0)
-	);
+	// actual structure. Phase 2 sections have no projects yet (they begin in
+	// June 2026), so they're excluded from the average to avoid halving it.
+	let phase1ProjectCount = $derived(phase1Sections.reduce((sum, s) => sum + s.projects.length, 0));
 	let avgPerSection = $derived(
-		thematicSections.length > 0 ? Math.round(thematicProjectCount / thematicSections.length) : 0
+		phase1Sections.length > 0 ? Math.round(phase1ProjectCount / phase1Sections.length) : 0
 	);
 
 	function selectSection(name: string) {
@@ -132,9 +143,10 @@
 	<div>
 		<h1 class="page-title">Research Sections</h1>
 		<p class="page-subtitle">
-			Six thematic fields, organized into Research Sections, provide a coherent structure to the
-			Cluster's research projects. Most projects pursue an inter- and/or transdisciplinary agenda
-			and involve close cooperation between researchers from Bayreuth, Africa, and a global network.
+			The Cluster's research is organised into Research Sections, providing a coherent structure for
+			inter- and transdisciplinary collaboration between researchers from Bayreuth, Africa, and a
+			global network. Africa Multiple 1.0 ran six Sections from 2019 to 2025; Africa Multiple 2.0
+			pursues research in six new Sections starting in June 2026.
 		</p>
 	</div>
 
@@ -190,6 +202,36 @@
 				{/if}
 			{/snippet}
 		</Card>
+
+		<!-- Spokesperson (Phase 2 sections) -->
+		{#if selectedSectionData.spokesperson}
+			<Card class="overflow-hidden">
+				{#snippet children()}
+					<CardHeader>
+						{#snippet children()}
+							<CardTitle class="text-lg">
+								{#snippet children()}
+									<span class="flex items-center gap-2">
+										<UserCheck class="h-5 w-5 text-primary" />
+										Spokesperson
+									</span>
+								{/snippet}
+							</CardTitle>
+						{/snippet}
+					</CardHeader>
+					<CardContent>
+						{#snippet children()}
+							<a
+								href={personUrl(selectedSectionData.spokesperson)}
+								class="text-sm text-foreground hover:text-primary transition-colors"
+							>
+								{selectedSectionData.spokesperson}
+							</a>
+						{/snippet}
+					</CardContent>
+				{/snippet}
+			</Card>
+		{/if}
 
 		<!-- Principal Investigators — full-width inline -->
 		{#if selectedSectionData.principalInvestigators.length > 0}
@@ -400,10 +442,10 @@
 			<StatCard label="Avg. Projects / Section" value={avgPerSection} icon={Layers} />
 		</div>
 
-		<!-- Chart -->
+		<!-- Chart (Phase 1 sections only — Phase 2 starts June 2026) -->
 		<ChartCard
 			title="Projects per Research Section"
-			subtitle="Click a bar to view section details"
+			subtitle="Phase 1 sections · click a bar to view details"
 			contentHeight="h-chart-sm"
 		>
 			{#if chartData.length > 0}
@@ -413,64 +455,148 @@
 			{/if}
 		</ChartCard>
 
-		<!-- Thematic Section Cards Grid (the cluster's six official sections) -->
-		<div>
-			<h2 class="text-sm font-semibold uppercase tracking-wider text-muted-foreground mb-3">
-				Six thematic research sections
-			</h2>
-			<div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-				{#each thematicSections as section (section.name)}
-					<button onclick={() => selectSection(section.name)} class="text-left">
-						<Card
-							class="overflow-hidden h-full hover:shadow-lg transition-shadow cursor-pointer group"
-							style="border-left: 3px solid {getSectionColor(section.name)}"
-						>
-							{#snippet children()}
-								<CardHeader>
-									{#snippet children()}
-										<CardTitle class="text-base group-hover:text-primary transition-colors">
-											{#snippet children()}{section.name}{/snippet}
-										</CardTitle>
-									{/snippet}
-								</CardHeader>
-								<CardContent>
-									{#snippet children()}
-										<div class="space-y-3">
-											{#if section.description}
-												<p class="text-xs text-muted-foreground line-clamp-3 leading-relaxed">
-													{section.description}
-												</p>
-											{/if}
-											<div class="flex items-center justify-between">
-												<div class="flex items-center gap-3">
-													<Badge variant="secondary" class="text-xs">
-														{#snippet children()}{section.projects.length} project{section.projects
-																.length !== 1
-																? 's'
-																: ''}{/snippet}
-													</Badge>
-													{#if section.principalInvestigators.length > 0}
-														<span class="text-xs text-muted-foreground">
-															{section.principalInvestigators.length} PI{section
-																.principalInvestigators.length !== 1
-																? 's'
-																: ''}
-														</span>
-													{/if}
+		<!-- Phase 1: Africa Multiple 1.0 (2019–2025) -->
+		{#if phase1Sections.length > 0}
+			<div>
+				<div class="flex items-baseline justify-between gap-3 mb-3 flex-wrap">
+					<h2 class="text-sm font-semibold uppercase tracking-wider text-muted-foreground">
+						Africa Multiple 1.0 — Phase 1
+					</h2>
+					<span class="text-xs text-muted-foreground">2019 – 2025</span>
+				</div>
+				<div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+					{#each phase1Sections as section (section.name)}
+						<button onclick={() => selectSection(section.name)} class="text-left">
+							<Card
+								class="overflow-hidden h-full hover:shadow-lg transition-shadow cursor-pointer group"
+								style="border-left: 3px solid {getSectionColor(section.name)}"
+							>
+								{#snippet children()}
+									<CardHeader>
+										{#snippet children()}
+											<CardTitle class="text-base group-hover:text-primary transition-colors">
+												{#snippet children()}{section.name}{/snippet}
+											</CardTitle>
+										{/snippet}
+									</CardHeader>
+									<CardContent>
+										{#snippet children()}
+											<div class="space-y-3">
+												{#if section.description}
+													<p class="text-xs text-muted-foreground line-clamp-3 leading-relaxed">
+														{section.description}
+													</p>
+												{/if}
+												<div class="flex items-center justify-between">
+													<div class="flex items-center gap-3 flex-wrap">
+														<Badge variant="secondary" class="text-xs">
+															{#snippet children()}{section.projects.length} project{section
+																	.projects.length !== 1
+																	? 's'
+																	: ''}{/snippet}
+														</Badge>
+														{#if section.principalInvestigators.length > 0}
+															<span class="text-xs text-muted-foreground">
+																{section.principalInvestigators.length} PI{section
+																	.principalInvestigators.length !== 1
+																	? 's'
+																	: ''}
+															</span>
+														{/if}
+														{#if section.members.length > 0}
+															<span class="text-xs text-muted-foreground">
+																{section.members.length} member{section.members.length !== 1
+																	? 's'
+																	: ''}
+															</span>
+														{/if}
+													</div>
+													<ArrowRight
+														class="h-4 w-4 text-muted-foreground group-hover:text-primary transition-colors shrink-0"
+													/>
 												</div>
-												<ArrowRight
-													class="h-4 w-4 text-muted-foreground group-hover:text-primary transition-colors"
-												/>
 											</div>
-										</div>
-									{/snippet}
-								</CardContent>
-							{/snippet}
-						</Card>
-					</button>
-				{/each}
+										{/snippet}
+									</CardContent>
+								{/snippet}
+							</Card>
+						</button>
+					{/each}
+				</div>
 			</div>
-		</div>
+		{/if}
+
+		<!-- Phase 2: Africa Multiple 2.0 (from June 2026) -->
+		{#if phase2Sections.length > 0}
+			<div>
+				<div class="flex items-baseline justify-between gap-3 mb-3 flex-wrap">
+					<h2 class="text-sm font-semibold uppercase tracking-wider text-muted-foreground">
+						Africa Multiple 2.0 — Phase 2
+					</h2>
+					<span class="text-xs text-muted-foreground">from June 2026</span>
+				</div>
+				<p class="text-sm text-muted-foreground mb-4 leading-relaxed">
+					Africa Multiple 2.0 pursues research in six new Research Sections: Accumulation,
+					Digitalities, Ecologies, In/securities, Re:membering, and Translating. Led by Principal
+					Investigators and Key Researchers, these Sections are the organisational framework within
+					which Cluster members will conduct joint research projects across academic disciplines and
+					Cluster locations. The six Sections are the fruit of collaborative work involving over 80
+					scholars from all five Cluster locations. The new projects will start in June 2026.
+				</p>
+				<div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+					{#each phase2Sections as section (section.name)}
+						<button onclick={() => selectSection(section.name)} class="text-left">
+							<Card
+								class="overflow-hidden h-full hover:shadow-lg transition-shadow cursor-pointer group"
+								style="border-left: 3px solid {getSectionColor(section.name)}"
+							>
+								{#snippet children()}
+									<CardHeader>
+										{#snippet children()}
+											<CardTitle class="text-base group-hover:text-primary transition-colors">
+												{#snippet children()}{section.name}{/snippet}
+											</CardTitle>
+										{/snippet}
+									</CardHeader>
+									<CardContent>
+										{#snippet children()}
+											<div class="space-y-3">
+												{#if section.description}
+													<p class="text-xs text-muted-foreground line-clamp-3 leading-relaxed">
+														{section.description}
+													</p>
+												{/if}
+												<div class="flex items-center justify-between">
+													<div class="flex items-center gap-3 flex-wrap">
+														{#if section.spokesperson}
+															<span class="text-xs text-muted-foreground truncate">
+																Spokesperson: <span class="text-foreground"
+																	>{section.spokesperson}</span
+																>
+															</span>
+														{/if}
+														{#if section.members.length > 0}
+															<span class="text-xs text-muted-foreground">
+																{section.members.length} member{section.members.length !== 1
+																	? 's'
+																	: ''}
+															</span>
+														{/if}
+													</div>
+													<ArrowRight
+														class="h-4 w-4 text-muted-foreground group-hover:text-primary transition-colors shrink-0"
+													/>
+												</div>
+											</div>
+										{/snippet}
+									</CardContent>
+								{/snippet}
+							</Card>
+						</button>
+					{/each}
+				</div>
+			</div>
+		{/if}
 
 		<!--
 			External collections -- rendered separately with a dashed outline and

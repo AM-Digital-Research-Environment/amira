@@ -2,7 +2,7 @@
 	import { page } from '$app/stores';
 	import { base } from '$app/paths';
 
-	const SITE_NAME = 'Africa Multiple WissKI Explorer';
+	const SITE_NAME = 'Africa Multiple Interactive Research Atlas (AMIRA)';
 	// SITE_URL already includes the base path (/WissKI-dashboard), so when we
 	// build the canonical URL we strip the same base from $page.url.pathname
 	// to avoid duplicating it (e.g. /WissKI-dashboard/WissKI-dashboard/people).

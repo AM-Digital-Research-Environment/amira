@@ -132,7 +132,7 @@
 				alt="University of Bayreuth"
 				class="sidebar-logo-icon-img"
 			/>
-			<span class="sidebar-logo-text">Africa Multiple</span>
+			<span class="sidebar-logo-text">AMIRA</span>
 		</a>
 
 		<!-- Desktop collapse toggle -->
@@ -185,16 +185,20 @@
 	<div class="sidebar-footer">
 		{#if isCollapsed}
 			<!-- Collapsed: just a compact DRE badge so the rail stays uncluttered. -->
-			<a
-				href="https://www.africamultiple.uni-bayreuth.de/en/1_5-Digital-Solutions1/index.html"
-				target="_blank"
-				rel="noopener noreferrer"
-				class="block text-center text-2xs font-semibold tracking-wide hover:text-primary transition-colors"
+			<p
+				class="text-center text-2xs font-semibold tracking-wide"
 				style="color: hsl(var(--sidebar-muted-foreground))"
-				title="Digital Research Environment (DRE)"
 			>
-				DRE
-			</a>
+				<a
+					href="https://www.africamultiple.uni-bayreuth.de/en/1_5-Digital-Solutions1/index.html"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="hover:text-primary transition-colors"
+					title="Digital Research Environment (DRE)"
+				>
+					DRE
+				</a>
+			</p>
 		{:else}
 			<a
 				href="https://www.africamultiple.uni-bayreuth.de/"
@@ -223,15 +227,16 @@
 					Frédérick Madore
 				</a>
 			</p>
-			<a
-				href="https://www.africamultiple.uni-bayreuth.de/en/1_5-Digital-Solutions1/index.html"
-				target="_blank"
-				rel="noopener noreferrer"
-				class="text-2xs text-center block mt-1 hover:text-primary transition-colors"
-				style="color: hsl(var(--sidebar-muted-foreground))"
-			>
-				Digital Research Environment (DRE)
-			</a>
+			<p class="text-2xs text-center mt-1" style="color: hsl(var(--sidebar-muted-foreground))">
+				<a
+					href="https://www.africamultiple.uni-bayreuth.de/en/1_5-Digital-Solutions1/index.html"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="hover:text-primary transition-colors"
+				>
+					Digital Research Environment (DRE)
+				</a>
+			</p>
 		{/if}
 	</div>
 

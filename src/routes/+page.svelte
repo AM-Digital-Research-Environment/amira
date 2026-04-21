@@ -30,7 +30,8 @@
 		BarChart3,
 		Edit3,
 		BookOpen,
-		ExternalLink
+		ExternalLink,
+		SlidersHorizontal
 	} from '@lucide/svelte';
 	import { normalizeLanguageCode } from '$lib/utils/languages';
 	import { SvelteSet } from 'svelte/reactivity';
@@ -146,7 +147,7 @@
 <div class="space-y-8">
 	<!-- Page Header -->
 	<div class="page-header animate-slide-in-up">
-		<h1 class="page-title">Dashboard Overview</h1>
+		<h1 class="page-title">Overview</h1>
 		<p class="page-subtitle">
 			Browse and visualize research data from the
 			<a
@@ -254,9 +255,23 @@
 		</ChartCard>
 	</div>
 
-	<!-- Separator -->
-	<div class="divider-fade my-2"></div>
-	<p class="text-sm text-muted-foreground text-center">Research items — use filters to refine</p>
+	<!-- Section heading: shifts focus from cluster-level stats to the filterable
+	     research-items explorer below. -->
+	<div class="pt-8 mt-4 border-t border-border/60">
+		<div class="flex items-start gap-3">
+			<div class="shrink-0 p-2 rounded-lg bg-primary/10 text-primary">
+				<SlidersHorizontal class="h-5 w-5" />
+			</div>
+			<div class="min-w-0">
+				<h2 class="font-display text-2xl font-semibold tracking-tight text-foreground">
+					Research Items Explorer
+				</h2>
+				<p class="text-sm text-muted-foreground mt-0.5">
+					Apply filters to refine the charts and timelines below.
+				</p>
+			</div>
+		</div>
+	</div>
 
 	<!-- Filters -->
 	<div class="animate-slide-in-up delay-300">

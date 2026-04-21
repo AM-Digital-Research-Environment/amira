@@ -27,10 +27,16 @@ export function createUrlSelection(paramName: string) {
 }
 
 /**
- * Scroll to top of page smoothly
+ * Scroll to top of page. Uses instant behavior and re-applies after the
+ * next frame so the scroll survives the DOM swap when an overview view
+ * is replaced by a taller detail view (the original smooth-scroll got
+ * cut short when the document height changed, landing you mid-page).
  */
 export function scrollToTop() {
-	window.scrollTo({ top: 0, behavior: 'smooth' });
+	window.scrollTo({ top: 0, behavior: 'instant' as ScrollBehavior });
+	requestAnimationFrame(() => {
+		window.scrollTo({ top: 0, behavior: 'instant' as ScrollBehavior });
+	});
 }
 
 /**

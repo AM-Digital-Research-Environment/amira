@@ -47,6 +47,13 @@ export const universities: University[] = [
 		code: 'UFB',
 		folder: 'projects_metadata_ufba',
 		logo: 'logos/UFBA.png'
+	},
+	{
+		id: 'rhodes',
+		name: 'Rhodes University',
+		code: 'RU',
+		folder: 'projects_metadata_rhodes',
+		logo: 'logos/Rhodes_University.png'
 	}
 ];
 

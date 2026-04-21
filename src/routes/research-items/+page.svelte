@@ -342,35 +342,105 @@
 		window.scrollTo({ top: 0, behavior: 'smooth' });
 	}
 
-	// Map markers for selected item
+	// Map markers for selected item. Origin markers use the default chart
+	// color; "located at" (location.current) markers use an accent color so
+	// they're visually distinguishable. Current locations are often bare
+	// strings (e.g. institution or city names); we try country first, then
+	// city/region by name match, and skip any string we can't geolocate.
 	let itemMapMarkers = $derived.by(() => {
 		if (!selectedItem || !$enrichedLocations) return [];
+		const enriched = $enrichedLocations;
+		const markers: {
+			latitude: number;
+			longitude: number;
+			label: string;
+			color?: string;
+			kind: 'origin' | 'current';
+		}[] = [];
+
 		const origins = selectedItem.location?.origin || [];
-		const markers: { latitude: number; longitude: number; label: string }[] = [];
 		origins.forEach((o) => {
 			if (o.l3 && o.l1) {
-				const key = `${o.l3}|${o.l1}`;
-				const loc = $enrichedLocations!.cities[key];
+				const loc = enriched.cities[`${o.l3}|${o.l1}`];
 				if (loc?.latitude && loc?.longitude) {
-					markers.push({ latitude: loc.latitude, longitude: loc.longitude, label: o.l3 });
+					markers.push({
+						latitude: loc.latitude,
+						longitude: loc.longitude,
+						label: `Origin: ${o.l3}`,
+						kind: 'origin'
+					});
 					return;
 				}
 			}
 			if (o.l2 && o.l1) {
-				const key = `${o.l2}|${o.l1}`;
-				const loc = $enrichedLocations!.regions[key];
+				const loc = enriched.regions[`${o.l2}|${o.l1}`];
 				if (loc?.latitude && loc?.longitude) {
-					markers.push({ latitude: loc.latitude, longitude: loc.longitude, label: o.l2 });
+					markers.push({
+						latitude: loc.latitude,
+						longitude: loc.longitude,
+						label: `Origin: ${o.l2}`,
+						kind: 'origin'
+					});
 					return;
 				}
 			}
 			if (o.l1) {
-				const loc = $enrichedLocations!.countries[o.l1];
+				const loc = enriched.countries[o.l1];
 				if (loc?.latitude && loc?.longitude) {
-					markers.push({ latitude: loc.latitude, longitude: loc.longitude, label: o.l1 });
+					markers.push({
+						latitude: loc.latitude,
+						longitude: loc.longitude,
+						label: `Origin: ${o.l1}`,
+						kind: 'origin'
+					});
 				}
 			}
 		});
+
+		const currents = selectedItem.location?.current || [];
+		const currentColor = 'hsl(var(--chart-2))';
+		currents.forEach((name) => {
+			if (!name) return;
+			// Country name directly
+			const country = enriched.countries[name];
+			if (country?.latitude && country?.longitude) {
+				markers.push({
+					latitude: country.latitude,
+					longitude: country.longitude,
+					label: `Located at: ${name}`,
+					color: currentColor,
+					kind: 'current'
+				});
+				return;
+			}
+			// City name (keys are "City|Country")
+			for (const [key, loc] of Object.entries(enriched.cities)) {
+				if (key.split('|')[0] === name && loc.latitude && loc.longitude) {
+					markers.push({
+						latitude: loc.latitude,
+						longitude: loc.longitude,
+						label: `Located at: ${name}`,
+						color: currentColor,
+						kind: 'current'
+					});
+					return;
+				}
+			}
+			// Region name (keys are "Region|Country")
+			for (const [key, loc] of Object.entries(enriched.regions)) {
+				if (key.split('|')[0] === name && loc.latitude && loc.longitude) {
+					markers.push({
+						latitude: loc.latitude,
+						longitude: loc.longitude,
+						label: `Located at: ${name}`,
+						color: currentColor,
+						kind: 'current'
+					});
+					return;
+				}
+			}
+		});
+
 		return markers;
 	});
 </script>

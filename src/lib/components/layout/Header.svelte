@@ -65,10 +65,10 @@
 			<div
 				class="h-6 w-1 rounded-full bg-gradient-to-b from-primary to-primary/40 flex-shrink-0"
 			></div>
-			<h1 class="header-title truncate">Africa Multiple WissKI Explorer</h1>
+			<h1 class="header-title truncate">Africa Multiple Interactive Research Atlas</h1>
 		</div>
 		<h1 class="lg:hidden text-lg font-semibold font-display truncate text-center w-full">
-			Africa Multiple WissKI Explorer
+			Africa Multiple Interactive Research Atlas
 		</h1>
 	</div>
 

@@ -205,6 +205,8 @@
 		align-items: center;
 		gap: var(--space-3);
 		overflow: hidden;
+		flex: 1;
+		min-width: 0;
 	}
 
 	.sidebar-logo-icon-img {
@@ -223,10 +225,16 @@
 		letter-spacing: -0.02em;
 		line-height: 1.2;
 		white-space: nowrap;
+		flex: 1;
+		text-align: center;
+		/* Compensate for the toggle button on the right so the text reads as
+		   visually centred between the logo icon and the right edge. */
+		padding-right: var(--space-8);
 		transition:
 			opacity var(--duration-slow) var(--ease-expo-out),
 			width var(--duration-slow) var(--ease-expo-out),
-			margin var(--duration-slow) var(--ease-expo-out);
+			margin var(--duration-slow) var(--ease-expo-out),
+			padding var(--duration-slow) var(--ease-expo-out);
 	}
 
 	[data-collapsed='true'] .sidebar-logo-text {

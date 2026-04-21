@@ -56,10 +56,19 @@
 
 	interface Props {
 		item: CollectionItem;
-		mapMarkers?: { latitude: number; longitude: number; label: string }[];
+		mapMarkers?: {
+			latitude: number;
+			longitude: number;
+			label: string;
+			color?: string;
+			kind?: 'origin' | 'current';
+		}[];
 	}
 
 	let { item, mapMarkers = [] }: Props = $props();
+
+	let originMarkerCount = $derived(mapMarkers.filter((m) => m.kind !== 'current').length);
+	let currentMarkerCount = $derived(mapMarkers.filter((m) => m.kind === 'current').length);
 
 	let contributors = $derived(getContributorsFull(item));
 	let subjects = $derived(getSubjects(item));
@@ -658,13 +667,32 @@
 						{#snippet children()}
 							<span class="flex items-center gap-2">
 								<MapPin class="h-5 w-5 text-primary" />
-								Origin Map
+								Location Map
 							</span>
 						{/snippet}
 					</CardTitle>
-					<p class="text-xs text-muted-foreground mt-1">
-						Showing origin location{mapMarkers.length > 1 ? 's' : ''} of this item
-					</p>
+					<div
+						class="flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-muted-foreground mt-1"
+					>
+						{#if originMarkerCount > 0}
+							<span class="inline-flex items-center gap-1.5">
+								<span
+									class="inline-block w-2.5 h-2.5 rounded-full border border-background"
+									style="background-color: hsl(var(--chart-1))"
+								></span>
+								Origin{originMarkerCount > 1 ? 's' : ''} ({originMarkerCount})
+							</span>
+						{/if}
+						{#if currentMarkerCount > 0}
+							<span class="inline-flex items-center gap-1.5">
+								<span
+									class="inline-block w-2.5 h-2.5 rounded-full border border-background"
+									style="background-color: hsl(var(--chart-2))"
+								></span>
+								Located at ({currentMarkerCount})
+							</span>
+						{/if}
+					</div>
 				{/snippet}
 			</CardHeader>
 			<CardContent>

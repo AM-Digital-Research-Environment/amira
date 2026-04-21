@@ -20,4 +20,9 @@ export interface ResearchSectionInfo {
 	workProgramme: string;
 	principalInvestigators: string[];
 	members: string[];
+	spokesperson?: string;
+	date?: {
+		start?: Date;
+		end?: Date;
+	};
 }

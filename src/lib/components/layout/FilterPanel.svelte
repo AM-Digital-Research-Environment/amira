@@ -24,9 +24,6 @@
 
 	let resourceTypes = $derived(getUniqueResourceTypes($allCollections));
 	let languages = $derived(getUniqueLanguages($allCollections));
-	let externalCount = $derived(
-		$allCollections.filter((i) => i.university === EXTERNAL_SOURCE_ID).length
-	);
 
 	let isExpanded = $state(false);
 </script>
@@ -67,35 +64,23 @@
 				</h4>
 				<div class="flex flex-wrap gap-1.5">
 					{#each universities as uni (uni.id)}
-						<button
-							type="button"
-							onclick={() => toggleUniversity(uni.id)}
-							class={cn(
-								'px-2.5 py-1 rounded-full text-xs font-medium transition-all duration-fast ease-out flex items-center gap-1.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-1',
-								$filters.universities.includes(uni.id)
-									? 'bg-primary text-primary-foreground shadow-xs'
-									: 'bg-secondary text-secondary-foreground hover:bg-secondary-hover'
-							)}
-						>
-							<span>{uni.name}</span>
-							<span class="opacity-70 tabular-nums">({$universityItemCounts[uni.id] || 0})</span>
-						</button>
+						{@const count = $universityItemCounts[uni.id] || 0}
+						{#if count > 0}
+							<button
+								type="button"
+								onclick={() => toggleUniversity(uni.id)}
+								class={cn(
+									'px-2.5 py-1 rounded-full text-xs font-medium transition-all duration-fast ease-out flex items-center gap-1.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-1',
+									$filters.universities.includes(uni.id)
+										? 'bg-primary text-primary-foreground shadow-xs'
+										: 'bg-secondary text-secondary-foreground hover:bg-secondary-hover'
+								)}
+							>
+								<span>{uni.name}</span>
+								<span class="opacity-70 tabular-nums">({count})</span>
+							</button>
+						{/if}
 					{/each}
-					{#if externalCount > 0}
-						<button
-							type="button"
-							onclick={() => toggleUniversity(EXTERNAL_SOURCE_ID)}
-							class={cn(
-								'px-2.5 py-1 rounded-full text-xs font-medium transition-all duration-fast ease-out flex items-center gap-1.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-1',
-								$filters.universities.includes(EXTERNAL_SOURCE_ID)
-									? 'bg-primary text-primary-foreground shadow-xs'
-									: 'bg-secondary text-secondary-foreground hover:bg-secondary-hover'
-							)}
-						>
-							<span>External</span>
-							<span class="opacity-70 tabular-nums">({externalCount})</span>
-						</button>
-					{/if}
 				</div>
 			</div>
 

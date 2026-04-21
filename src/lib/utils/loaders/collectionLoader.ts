@@ -236,6 +236,12 @@ async function loadExternalCollection(
 	// an empty `project: {}` (ILAM does). Without this, these items would be
 	// orphaned from the /projects listing and project-level breakdowns.
 	const virtualProject = EXTERNAL_COLLECTION_TO_PROJECT[collectionName];
+	// Resolve the hosting university from the virtual project's institutions
+	// (e.g. ILAM → Rhodes, BayGlo → Bayreuth). Falls back to EXTERNAL_SOURCE_ID
+	// when no known university matches so the filter still surfaces the item.
+	const institutions = virtualProject?.institutions ?? [];
+	const resolvedUniversity =
+		universities.find((u) => institutions.includes(u.name))?.id ?? EXTERNAL_SOURCE_ID;
 	return items.map((item) => {
 		const hasProjectId = !!item.project?.id;
 		const project = hasProjectId
@@ -243,7 +249,7 @@ async function loadExternalCollection(
 			: virtualProject
 				? { id: virtualProject.id, name: virtualProject.name }
 				: item.project;
-		return { ...item, project, university: EXTERNAL_SOURCE_ID };
+		return { ...item, project, university: resolvedUniversity };
 	});
 }
 
@@ -307,6 +313,11 @@ interface RawResearchSection {
 	// exposes it as `principalInvestigators` for readability.
 	pi?: string[];
 	members?: string[];
+	spokesperson?: string;
+	date?: {
+		start?: Date;
+		end?: Date;
+	};
 }
 
 /**

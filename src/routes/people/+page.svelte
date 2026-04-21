@@ -81,8 +81,12 @@
 		 * (vs. just a member or a project contributor whose project belongs to
 		 * the section). */
 		piOfSections: Set<string>;
+		/** Subset of `sections` where this person is the spokesperson of the
+		 * section (used by Africa Multiple 2.0 / Phase 2 sections). */
+		spokespersonOfSections: Set<string>;
 		affiliations: Set<string>;
 		isSectionPI: boolean;
+		isSectionSpokesperson: boolean;
 	}
 
 	let peopleMap = $derived.by(() => {
@@ -96,8 +100,10 @@
 					memberOf: [],
 					sections: new SvelteSet(),
 					piOfSections: new SvelteSet(),
+					spokespersonOfSections: new SvelteSet(),
 					affiliations: new SvelteSet(),
-					isSectionPI: false
+					isSectionPI: false,
+					isSectionSpokesperson: false
 				});
 			}
 			return map.get(name)!;
@@ -158,7 +164,7 @@
 			}
 		});
 
-		// Mark research section PIs and members
+		// Mark research section PIs, spokespersons, and members
 		Object.entries($researchSections).forEach(([sectionName, info]) => {
 			(info.principalInvestigators || []).forEach((name) => {
 				const person = getOrCreate(name);
@@ -166,6 +172,12 @@
 				person.sections.add(sectionName);
 				person.piOfSections.add(sectionName);
 			});
+			if (info.spokesperson) {
+				const person = getOrCreate(info.spokesperson);
+				person.isSectionSpokesperson = true;
+				person.sections.add(sectionName);
+				person.spokespersonOfSections.add(sectionName);
+			}
 			(info.members || []).forEach((name) => {
 				const person = getOrCreate(name);
 				person.sections.add(sectionName);
@@ -182,7 +194,8 @@
 			p.memberOf.length > 0 ||
 			p.sections.size > 0 ||
 			p.affiliations.size > 0 ||
-			p.isSectionPI
+			p.isSectionPI ||
+			p.isSectionSpokesperson
 		);
 	}
 
@@ -514,7 +527,9 @@
 									>
 										<span class="truncate">{person.name}</span>
 										<span class="flex items-center gap-1.5 shrink-0">
-											{#if person.isSectionPI}
+											{#if person.isSectionSpokesperson}
+												<UserCheck class="h-3 w-3 text-primary" />
+											{:else if person.isSectionPI}
 												<BookOpen class="h-3 w-3 text-primary" />
 											{/if}
 											{#if person.piOf.length > 0}
@@ -549,6 +564,11 @@
 											{#if selectedPerson.isSectionPI}
 												<Badge>
 													{#snippet children()}Section PI{/snippet}
+												</Badge>
+											{/if}
+											{#if selectedPerson.isSectionSpokesperson}
+												<Badge>
+													{#snippet children()}Spokesperson{/snippet}
 												</Badge>
 											{/if}
 											{#if selectedPerson.piOf.length > 0}
@@ -819,15 +839,24 @@
 								{#snippet children()}
 									<div class="flex flex-wrap gap-2">
 										{#each [...selectedPerson.sections].sort() as section (section)}
+											{@const isSectionPi = selectedPerson.piOfSections.has(section)}
+											{@const isSectionSpokesperson =
+												selectedPerson.spokespersonOfSections.has(section)}
 											<a
 												href={researchSectionsUrl(section)}
 												class="inline-flex items-center gap-1.5 hover:opacity-80 transition-opacity"
-												title={selectedPerson.piOfSections.has(section)
-													? `PI of the ${section} section`
-													: section}
+												title={isSectionSpokesperson
+													? `Spokesperson of the ${section} section`
+													: isSectionPi
+														? `PI of the ${section} section`
+														: section}
 											>
 												<SectionBadge {section} />
-												{#if selectedPerson.piOfSections.has(section)}
+												{#if isSectionSpokesperson}
+													<Badge class="text-2xs">
+														{#snippet children()}Spokesperson{/snippet}
+													</Badge>
+												{:else if isSectionPi}
 													<Badge class="text-2xs">
 														{#snippet children()}PI{/snippet}
 													</Badge>
