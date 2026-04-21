@@ -41,7 +41,12 @@
 	}
 </script>
 
-<div class="flex min-h-screen bg-background">
+<div
+	class="flex min-h-screen bg-background"
+	style:--sidebar-offset={sidebarCollapsed
+		? 'var(--layout-sidebar-width-icon)'
+		: 'var(--layout-sidebar-width)'}
+>
 	<Sidebar
 		isOpen={sidebarOpen}
 		isCollapsed={sidebarCollapsed}

@@ -169,7 +169,10 @@
 <style>
 	.lightbox-backdrop {
 		position: fixed;
-		inset: 0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
 		z-index: 80;
 		background: hsl(var(--background) / 0.92);
 		backdrop-filter: blur(6px);
@@ -177,6 +180,17 @@
 		align-items: center;
 		justify-content: center;
 		padding: 2rem;
+		transition: left var(--duration-slow) var(--ease-expo-out);
+	}
+
+	/* Desktop: inset by the current sidebar width so the lightbox frame
+	   is centered within the visible content area, not the raw viewport.
+	   The `--sidebar-offset` variable comes from +layout.svelte and
+	   updates live when the user collapses / expands the rail. */
+	@media (min-width: 1024px) {
+		.lightbox-backdrop {
+			left: var(--sidebar-offset, 0px);
+		}
 	}
 
 	.lightbox-close,

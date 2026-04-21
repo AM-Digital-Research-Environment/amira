@@ -26,6 +26,18 @@
 	let location = $derived(getLocationLabel(item));
 
 	let failed = $state(false);
+	// Natural aspect-ratio is filled in on image load so the frame can
+	// shrink-wrap to the actual photo shape. Until load, a 4:3 placeholder
+	// reserves space so infinite-scroll doesn't cause neighbouring cards
+	// to jump as images arrive.
+	let naturalRatio = $state<number | null>(null);
+
+	function onImageLoad(event: Event) {
+		const img = event.currentTarget as HTMLImageElement;
+		if (img.naturalWidth > 0 && img.naturalHeight > 0) {
+			naturalRatio = img.naturalWidth / img.naturalHeight;
+		}
+	}
 
 	function handleClick() {
 		onSelect?.(item);
@@ -40,7 +52,7 @@
 </script>
 
 <button type="button" class="photo-card" onclick={handleClick} onkeydown={handleKey}>
-	<div class="photo-card-frame">
+	<div class="photo-card-frame" style:aspect-ratio={naturalRatio ? naturalRatio : '4 / 3'}>
 		{#if previewUrl && !failed}
 			<img
 				src={previewUrl}
@@ -48,6 +60,7 @@
 				loading="lazy"
 				draggable="false"
 				onerror={() => (failed = true)}
+				onload={onImageLoad}
 			/>
 		{:else}
 			<div class="photo-card-fallback">No image</div>
@@ -114,6 +127,21 @@
 		background: hsl(var(--muted));
 		overflow: hidden;
 		display: flex;
+		/* aspect-ratio comes from the inline style (natural ratio once
+		   the image loads; 4/3 placeholder before). Smooth transition so
+		   the snap from placeholder to natural isn't jarring. */
+		transition: aspect-ratio var(--duration-fast) ease-out;
+	}
+
+	.photo-card-frame :global(img) {
+		width: 100%;
+		height: 100%;
+		display: block;
+		/* Once `aspect-ratio` is the natural one, `cover` and `contain`
+		   are identical — no cropping happens. During the brief window
+		   before load when the 4:3 placeholder is active, `cover` keeps
+		   the frame filled rather than leaving letterbox bars. */
+		object-fit: cover;
 	}
 
 	.photo-card-count {
@@ -129,9 +157,6 @@
 		backdrop-filter: blur(4px);
 	}
 	.photo-card-frame :global(img) {
-		width: 100%;
-		height: auto;
-		display: block;
 		transition: transform 300ms cubic-bezier(0.16, 1, 0.3, 1);
 	}
 

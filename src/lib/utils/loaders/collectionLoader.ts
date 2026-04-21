@@ -196,10 +196,11 @@ export async function loadUniversityCollections(
 	basePath: string = ''
 ): Promise<CollectionItem[]> {
 	const collectionNames = await getCollectionNames(universityId, basePath);
-	if (!collectionNames.length) {
-		console.warn(`No collections found for university: ${universityId}`);
-		return [];
-	}
+	// Empty is a valid state — e.g. Rhodes has no projects_metadata_rhodes
+	// folder because its items arrive via the external_metadata/ILAM
+	// pipeline and get tagged `university: 'rhodes'` downstream. Silently
+	// return [] rather than warning.
+	if (!collectionNames.length) return [];
 
 	const results = await Promise.all(
 		collectionNames.map((name) => loadUniversityCollection(universityId, name, basePath))

@@ -2,7 +2,7 @@
 	import type { CollectionItem } from '$lib/types';
 	import PhotoCard from './PhotoCard.svelte';
 	import { revealOnScroll } from '$lib/utils/revealOnScroll';
-	import { onDestroy } from 'svelte';
+	import { onDestroy, onMount } from 'svelte';
 	import { Loader2 } from '@lucide/svelte';
 
 	interface Props {
@@ -34,6 +34,35 @@
 	let visible = $derived(items.slice(0, shown));
 	let hasMore = $derived(shown < items.length);
 
+	// Responsive column count, tracked via a resize listener. Using a live
+	// viewport width means newly-appended items get placed into the same
+	// column bucket their index implies, so existing items never jump.
+	let viewportWidth = $state(1024);
+	onMount(() => {
+		viewportWidth = window.innerWidth;
+		const onResize = () => {
+			viewportWidth = window.innerWidth;
+		};
+		window.addEventListener('resize', onResize, { passive: true });
+		return () => window.removeEventListener('resize', onResize);
+	});
+
+	let numCols = $derived(
+		viewportWidth >= 1440 ? 5 : viewportWidth >= 1024 ? 4 : viewportWidth >= 640 ? 3 : 2
+	);
+
+	// Round-robin items into N vertical columns. The trick that makes true
+	// masonry work without reshuffle: each item's column is determined
+	// purely by its *index*, not by which column is currently shortest.
+	// Appending new items only grows the existing columns — never rewrites
+	// them. Columns end up roughly balanced over many items; for short
+	// lists some unevenness is acceptable.
+	let columns = $derived.by<CollectionItem[][]>(() => {
+		const out: CollectionItem[][] = Array.from({ length: numCols }, () => []);
+		visible.forEach((item, i) => out[i % numCols].push(item));
+		return out;
+	});
+
 	$effect(() => {
 		if (typeof IntersectionObserver === 'undefined') return;
 		sentinelObserver?.disconnect();
@@ -58,9 +87,13 @@
 
 <div>
 	<div class="masonry">
-		{#each visible as item, index (item._id)}
-			<div class="masonry-item" use:revealOnScroll={{ delay: (index % 12) * 25 }}>
-				<PhotoCard {item} {onSelect} {density} count={countsById?.get(item._id) ?? 1} />
+		{#each columns as column, colIndex (colIndex)}
+			<div class="masonry-col">
+				{#each column as item, rowIndex (item._id)}
+					<div class="masonry-item" use:revealOnScroll={{ delay: (rowIndex % 8) * 25 }}>
+						<PhotoCard {item} {onSelect} {density} count={countsById?.get(item._id) ?? 1} />
+					</div>
+				{/each}
 			</div>
 		{/each}
 	</div>
@@ -80,35 +113,28 @@
 </div>
 
 <style>
+	/* Flex-columns masonry: each column is an independent vertical stack
+	   with items placed by their list index. Appending new items only
+	   lengthens existing columns — there is no layout-driven rebalancing,
+	   so scrolling doesn't cause old cards to jump the way CSS `columns`
+	   or auto-placed grids do. */
 	.masonry {
-		column-count: 2;
-		column-gap: 1rem;
+		display: flex;
+		align-items: flex-start;
+		gap: 1rem;
 	}
 
-	@media (min-width: 640px) {
-		.masonry {
-			column-count: 3;
-		}
-	}
-	@media (min-width: 1024px) {
-		.masonry {
-			column-count: 4;
-		}
-	}
-	@media (min-width: 1440px) {
-		.masonry {
-			column-count: 5;
-		}
+	.masonry-col {
+		flex: 1 1 0;
+		min-width: 0;
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
 	}
 
 	.masonry-item {
-		break-inside: avoid;
-		margin-bottom: 1rem;
 		display: block;
-		/* Skip layout + paint for offscreen cards — huge win when the
-		   window grows past a few hundred items. */
-		content-visibility: auto;
-		contain-intrinsic-size: auto 240px;
+		min-width: 0;
 	}
 
 	.masonry-sentinel {
