@@ -35,6 +35,8 @@
 		SlidersHorizontal
 	} from '@lucide/svelte';
 	import { normalizeLanguageCode } from '$lib/utils/languages';
+	import { institutionUrl } from '$lib/utils/urls';
+	import { base } from '$app/paths';
 	import { SvelteSet } from 'svelte/reactivity';
 
 	// Word cloud controls
@@ -48,27 +50,46 @@
 		{
 			latitude: 49.9457,
 			longitude: 11.5775,
-			label: 'University of Bayreuth — Bayreuth, Germany'
+			label: 'University of Bayreuth',
+			iconUrl: `${base}/logos/UBT.png`,
+			href: institutionUrl('University of Bayreuth')
 		},
 		{
 			latitude: 12.3714,
 			longitude: -1.5197,
-			label: 'Université Joseph Ki-Zerbo — Ouagadougou, Burkina Faso'
+			label: 'Université Joseph Ki-Zerbo',
+			iconUrl: `${base}/logos/UJKZ.png`,
+			href: institutionUrl('Universite Joseph Ki-Zerbo')
 		},
 		{
 			latitude: 6.5244,
 			longitude: 3.3792,
-			label: 'University of Lagos — Lagos, Nigeria'
+			label: 'University of Lagos',
+			iconUrl: `${base}/logos/ULG.png`,
+			href: institutionUrl('University of Lagos')
 		},
 		{
 			latitude: 0.5143,
 			longitude: 35.2698,
-			label: 'Moi University — Eldoret, Kenya'
+			label: 'Moi University',
+			iconUrl: `${base}/logos/Moi.jpg`,
+			href: institutionUrl('Moi University')
 		},
 		{
 			latitude: -33.3117,
 			longitude: 26.5197,
-			label: 'Rhodes University — Makhanda (Grahamstown), South Africa'
+			label: 'Rhodes University',
+			iconUrl: `${base}/logos/Rhodes_University.png`,
+			href: institutionUrl('Rhodes University')
+		},
+		// Privileged partner — shown as a coloured dot (no logo) so it reads
+		// visually as a different category from the five AMRC sites above.
+		{
+			latitude: -12.9974,
+			longitude: -38.5124,
+			label: 'Centro de Estudos Afro-Orientais (CEAO) — Privileged partner',
+			color: 'hsl(var(--chart-2))',
+			href: institutionUrl('Universidade Federal da Bahia')
 		}
 	];
 
@@ -264,11 +285,12 @@
 		/>
 	</div>
 
-	<!-- Cluster geography: University of Bayreuth (lead) + four AMRCs -->
+	<!-- Cluster geography: University of Bayreuth (lead), four AMRCs, plus
+	     CEAO at UFBA as a privileged partner (distinct colour). -->
 	<ChartCard
 		title="Cluster Locations"
-		subtitle="The University of Bayreuth and the four Africa Multiple Research Centres (AMRCs)"
-		contentHeight="h-chart-md"
+		subtitle="The University of Bayreuth, the four Africa Multiple Research Centres (AMRCs), and the privileged partner CEAO at Universidade Federal da Bahia"
+		contentHeight="h-chart-xl"
 	>
 		<MiniMap markers={clusterLocations} zoom={2} class="h-full" />
 	</ChartCard>

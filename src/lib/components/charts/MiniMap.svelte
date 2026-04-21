@@ -10,6 +10,11 @@
 		longitude: number;
 		label?: string;
 		color?: string;
+		/** Optional image URL — when set, the marker renders as a circular badge
+		 *  using the image instead of the default coloured dot. */
+		iconUrl?: string;
+		/** Optional URL — when set, the popup label becomes a clickable link. */
+		href?: string;
 	}
 
 	interface Props {
@@ -57,19 +62,51 @@
 		const shadow = getThemeShadow($theme === 'dark').sm;
 		markers.forEach((m) => {
 			const el = document.createElement('div');
-			el.style.width = '16px';
-			el.style.height = '16px';
-			el.style.backgroundColor = m.color || CHART_COLORS[0];
-			el.style.borderRadius = '50%';
 			el.style.border = '2px solid hsl(var(--background))';
 			el.style.boxShadow = shadow;
+			el.style.borderRadius = '50%';
+			if (m.iconUrl) {
+				el.style.width = '36px';
+				el.style.height = '36px';
+				el.style.backgroundColor = 'hsl(var(--background))';
+				el.style.overflow = 'hidden';
+				el.style.display = 'flex';
+				el.style.alignItems = 'center';
+				el.style.justifyContent = 'center';
+				el.style.cursor = 'pointer';
+				const img = document.createElement('img');
+				img.src = m.iconUrl;
+				img.alt = m.label ?? '';
+				img.style.width = '100%';
+				img.style.height = '100%';
+				img.style.objectFit = 'contain';
+				img.draggable = false;
+				el.appendChild(img);
+			} else {
+				el.style.width = '16px';
+				el.style.height = '16px';
+				el.style.backgroundColor = m.color || CHART_COLORS[0];
+			}
 
 			const marker = new maplibregl.Marker({ element: el })
 				.setLngLat([m.longitude, m.latitude])
 				.addTo(map!);
 
 			if (m.label) {
-				marker.setPopup(new maplibregl.Popup({ offset: 12, closeButton: false }).setText(m.label));
+				const popup = new maplibregl.Popup({ offset: 16, closeButton: false });
+				if (m.href) {
+					const escapedLabel = m.label
+						.replace(/&/g, '&amp;')
+						.replace(/</g, '&lt;')
+						.replace(/>/g, '&gt;');
+					const escapedHref = m.href.replace(/"/g, '&quot;');
+					popup.setHTML(
+						`<a href="${escapedHref}" class="font-medium hover:underline" style="color: hsl(var(--primary))">${escapedLabel}</a>`
+					);
+				} else {
+					popup.setText(m.label);
+				}
+				marker.setPopup(popup);
 			}
 
 			mapMarkers.push(marker);
