@@ -6,7 +6,7 @@ Interactive visualization dashboard for WissKI/MongoDB research data from the [A
 
 ### Browse
 
-- **Research Sections**: Browse the six thematic research areas (Affiliations, Arts & Aesthetics, Knowledges, Learning, Mobilities, Moralities) with descriptions, objectives, work programmes, PIs, and members. Section detail view includes a Gantt chart showing project timelines within that section.
+- **Research Sections**: Browse the six thematic research areas (Affiliations, Arts & Aesthetics, Knowledges, Learning, Mobilities, Moralities) with descriptions, objectives, work programmes, PIs, and members. An additional **External** pseudo-section groups collections that don't belong to the six thematic fields (e.g. BayGlo2025, ILAM). Section detail view includes a Gantt chart showing project timelines within that section.
 - **Projects**: Browse research projects with faceted filtering by research section and institution. Detail views show description, PIs (linked), members (linked), institutions (linked), and paginated research items. Overview includes a Gantt timeline, beeswarm chart (projects by section and year, sized by item count), and bar charts for research sections and institutions.
 - **Research Items**: Browse 2,200+ research items with full-text search, resource type filter, and collapsible facets for subjects (LCSH), tags, countries, projects, and languages. Table view with sortable columns. Detail view shows title, abstract, contributors (person/institution/group with roles), subjects, tags, origin locations with interactive map, dates, language, identifiers, project, and per-item knowledge graph with fullscreen mode.
 - **People**: Searchable directory of researchers, PIs, and research item contributors with affiliations. Profile view shows research sections, projects (as PI or member), and paginated research items.
@@ -164,6 +164,7 @@ src/
 │       │   ├── mongoJSON.ts     # Parse MongoDB JSON exports
 │       │   ├── collectionLoader.ts  # Load university collection metadata
 │       │   └── geolocLoader.ts  # Load enriched geolocation data
+│       ├── external.ts      # Virtual external projects (BayGlo2025, ILAM) + External pseudo-section
 │       ├── helpers.ts       # Display helpers (formatDate, getItemTitle, getProjectTitle, getSectionColor)
 │       ├── languages.ts     # ISO 639-2/3 language code to English name mapping
 │       ├── urls.ts          # Cross-linking URL builders for all entity types
@@ -209,7 +210,8 @@ static/
     ├── projects_metadata_ubt/        # University of Bayreuth (20 collections)
     ├── projects_metadata_unilag/     # University of Lagos (8 collections)
     ├── projects_metadata_ujkz/       # Université Joseph Ki-Zerbo (4 collections)
-    └── projects_metadata_ufba/       # Federal University of Bahia (1 collection)
+    ├── projects_metadata_ufba/       # Federal University of Bahia (1 collection)
+    └── external_metadata/            # External collections (BayGlo2025, ILAM)
 ```
 
 ## Data Sources
@@ -228,6 +230,15 @@ Core research data exported from the WissKI MongoDB database:
 ### University collections (`static/data/projects_metadata_*/`)
 
 2,200+ research item metadata from four partner universities: University of Bayreuth (UBT), University of Lagos (UNILAG), Université Joseph Ki-Zerbo (UJKZ), and Federal University of Bahia (UFBA). Each item includes title, contributors (with person/institution/group qualifier and roles), subjects (LCSH controlled vocabulary), tags, language (ISO 639-2/3), location (country/region/city), dates (created, issued, captured), identifiers, physical description, and access conditions.
+
+### External collections (`static/data/external_metadata/`)
+
+Research items contributed from sources outside the cluster's partner universities. Items carry `university: "external"` so they can be included in global totals but filtered out of per-university views:
+
+- **`BayGlo2025`** — Bayreuth Global / Bayreuth Postkolonial; affiliated with the University of Bayreuth.
+- **`ILAM`** — International Library of African Music (Rhodes University); standalone external source.
+
+External collections are surfaced across the dashboard as virtual projects (IDs `Ext_BayGlo2025`, `Ext_ILAM`) under an **External** pseudo research section, with a dedicated chip in the global filter panel and a dedicated group in the Project Explorer and Compare Projects selectors. The virtual project definitions (institution mapping, descriptions) live in `src/lib/utils/external.ts`.
 
 ### Knowledge graphs (`static/data/knowledge_graphs/`)
 

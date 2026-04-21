@@ -15,6 +15,7 @@
 	import { languageName } from '$lib/utils/languages';
 	import type { CollectionItem } from '$lib/types';
 	import { universities } from '$lib/types';
+	import { EXTERNAL_SOURCE_ID } from '$lib/utils/dataLoader';
 	import { getItemTitle } from '$lib/utils/helpers';
 	import {
 		FileText,
@@ -147,6 +148,12 @@
 								>
 									{uni.name}
 								</a>
+							</div>
+						{:else if item.university === EXTERNAL_SOURCE_ID}
+							<div class="flex items-center gap-2">
+								<Building2 class="h-4 w-4 text-muted-foreground shrink-0" />
+								<span class="text-muted-foreground shrink-0">Source</span>
+								<span class="text-foreground truncate">External collection</span>
 							</div>
 						{/if}
 					{/if}

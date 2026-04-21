@@ -9,7 +9,8 @@ const SECTION_COLOR_MAP: Record<string, string> = {
 	Knowledges: 'var(--rs-knowledges)',
 	Learning: 'var(--rs-learning)',
 	Mobilities: 'var(--rs-mobilities)',
-	Moralities: 'var(--rs-moralities)'
+	Moralities: 'var(--rs-moralities)',
+	External: 'var(--rs-external)'
 };
 
 export function getSectionColor(sectionName: string): string {

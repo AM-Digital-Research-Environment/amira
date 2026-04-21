@@ -727,7 +727,7 @@
 
 			<ChartCard title="Research Sections" contentHeight="h-chart-sm">
 				{#if researchSectionsData.length > 0}
-					<BarChart data={researchSectionsData} maxItems={6} />
+					<BarChart data={researchSectionsData} maxItems={10} />
 				{:else}
 					<EmptyState message="No data available" icon={BookOpen} />
 				{/if}

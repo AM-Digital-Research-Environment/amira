@@ -31,6 +31,7 @@
 	} from '$lib/utils/dataTransform';
 	import { UNIVERSITY_COLLECTIONS } from '$lib/utils/dataLoader';
 	import { universities } from '$lib/types';
+	import { EXTERNAL_PROJECTS } from '$lib/utils/external';
 	import type { CollectionItem } from '$lib/types';
 	import { FileText, Layers, Users, MapPin, Calendar, BarChart3 } from '@lucide/svelte';
 
@@ -39,18 +40,19 @@
 		void ensureEnrichedLocations(base);
 	});
 
-	// Build a map of project IDs to full project names from the data
-	let projectNameMap = $derived(
-		$allCollections.reduce(
-			(acc, item) => {
-				if (item.project?.id && item.project?.name) {
-					acc[item.project.id] = item.project.name;
-				}
-				return acc;
-			},
-			{} as Record<string, string>
-		)
-	);
+	// Build a map of project IDs to full project names from the data.
+	// Seed with virtual external projects so their labels render before
+	// collection items finish loading.
+	let projectNameMap = $derived.by(() => {
+		const acc: Record<string, string> = {};
+		for (const p of EXTERNAL_PROJECTS) acc[p.id] = p.name;
+		for (const item of $allCollections) {
+			if (item.project?.id && item.project?.name) {
+				acc[item.project.id] = item.project.name;
+			}
+		}
+		return acc;
+	});
 
 	// Format collection ID to readable label
 	function formatCollectionLabel(name: string): string {
@@ -61,9 +63,9 @@
 		return text.length > max ? text.slice(0, max - 1) + '\u2026' : text;
 	}
 
-	// Build grouped and sorted collection options
-	let collectionGroups = $derived(
-		universities
+	// Build grouped and sorted collection options (universities + External)
+	let collectionGroups = $derived.by(() => {
+		const groups = universities
 			.map((uni) => ({
 				label: uni.name,
 				options: (UNIVERSITY_COLLECTIONS[uni.id] || [])
@@ -77,11 +79,23 @@
 					})
 					.sort((a, b) => a.label.localeCompare(b.label))
 			}))
-			.filter((group) => group.options.length > 0)
-	);
+			.filter((group) => group.options.length > 0);
+
+		const externalOptions = EXTERNAL_PROJECTS.map((p) => ({
+			value: p.id,
+			label: trimLabel(projectNameMap[p.id] || p.name),
+			title: projectNameMap[p.id] || p.name
+		})).sort((a, b) => a.label.localeCompare(b.label));
+
+		if (externalOptions.length > 0) {
+			groups.push({ label: 'External', options: externalOptions });
+		}
+
+		return groups;
+	});
 
 	let selectedCollection = $state('all');
-	let wordCloudMaxWords = $state(50);
+	let wordCloudMaxWords = $state(120);
 
 	// Get current collection based on selection
 	function getFilteredCollection(id: string): CollectionItem[] {
@@ -144,9 +158,13 @@
 />
 
 <div class="space-y-6">
-	<!-- Page Header with Collection Selector -->
+	<!-- Page Header with Collection Selector.
+		`relative z-30` lifts this row's stacking context above the stat cards
+		and chart cards below, so the Combobox dropdown isn't painted under them.
+		Needed because `animate-slide-in-up` uses a transform and creates its
+		own stacking context. -->
 	<div
-		class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 animate-slide-in-up"
+		class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 animate-slide-in-up relative z-30"
 	>
 		<div class="flex-1 min-w-0">
 			<h1 class="page-title">Project Explorer</h1>
@@ -217,6 +235,14 @@
 			{/if}
 		</ChartCard>
 
+		<ChartCard title="Top Contributors">
+			{#if contributorsData.length > 0}
+				<BarChart data={contributorsData} maxItems={10} />
+			{:else}
+				<EmptyState />
+			{/if}
+		</ChartCard>
+
 		<ChartCard title="Subject Word Cloud" contentHeight="h-chart-xl" class="col-span-full">
 			{#snippet headerExtra()}
 				<div class="flex items-center gap-4">
@@ -269,14 +295,6 @@
 			{/if}
 		</ChartCard>
 
-		<ChartCard title="Top Contributors">
-			{#if contributorsData.length > 0}
-				<BarChart data={contributorsData} maxItems={10} />
-			{:else}
-				<EmptyState />
-			{/if}
-		</ChartCard>
-
 		<ChartCard
 			title="Resource Type × Language"
 			subtitle="Cross-tabulation showing which resource types exist in which languages"
@@ -292,7 +310,7 @@
 
 		<ChartCard title="Top Subjects" contentHeight="h-chart-xl" class="col-span-full">
 			{#if subjectsData.length > 0}
-				<BarChart data={subjectsData} maxItems={15} horizontal={false} />
+				<BarChart data={subjectsData} maxItems={15} horizontal={true} />
 			{:else}
 				<EmptyState icon={BarChart3} />
 			{/if}
@@ -311,17 +329,22 @@
 			{/if}
 		</ChartCard>
 
-		<ChartCard
-			title="Contributor &rarr; Project &rarr; Resource Type Flow"
-			contentHeight="h-chart-xl"
-			class="col-span-full"
-		>
-			{#if sankeyData.links.length > 0}
-				<SankeyChart nodes={sankeyData.nodes} links={sankeyData.links} />
-			{:else}
-				<EmptyState message="No flow data available" />
-			{/if}
-		</ChartCard>
+		<!-- Sankey only makes sense at the project level: the "All Collections"
+		view produces hundreds of contributors and every project as nodes,
+		which collapses into an unreadable tangle. -->
+		{#if selectedCollection !== 'all'}
+			<ChartCard
+				title="Contributor &rarr; Project &rarr; Resource Type Flow"
+				contentHeight="h-chart-xl"
+				class="col-span-full"
+			>
+				{#if sankeyData.links.length > 0}
+					<SankeyChart nodes={sankeyData.nodes} links={sankeyData.links} />
+				{:else}
+					<EmptyState message="No flow data available" />
+				{/if}
+			</ChartCard>
+		{/if}
 
 		<ChartCard
 			title="Resource Type &rarr; Language &rarr; Subject Hierarchy"

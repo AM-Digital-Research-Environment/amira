@@ -9,6 +9,7 @@ import type {
 } from '$lib/types';
 import { universities } from '$lib/types';
 import { loadJSON, tryLoadJSON } from './mongoJSON';
+import { EXTERNAL_PROJECTS, EXTERNAL_COLLECTION_TO_PROJECT } from '$lib/utils/external';
 
 /**
  * Load projects data
@@ -231,7 +232,19 @@ async function loadExternalCollection(
 	const items = await tryLoadJSON<CollectionItem>(
 		`${basePath}/data/${folder}/${folder}.${collectionName}.json`
 	);
-	return items.map((item) => ({ ...item, university: EXTERNAL_SOURCE_ID }));
+	// Backfill a project reference for collections whose raw items ship with
+	// an empty `project: {}` (ILAM does). Without this, these items would be
+	// orphaned from the /projects listing and project-level breakdowns.
+	const virtualProject = EXTERNAL_COLLECTION_TO_PROJECT[collectionName];
+	return items.map((item) => {
+		const hasProjectId = !!item.project?.id;
+		const project = hasProjectId
+			? item.project
+			: virtualProject
+				? { id: virtualProject.id, name: virtualProject.name }
+				: item.project;
+		return { ...item, project, university: EXTERNAL_SOURCE_ID };
+	});
 }
 
 /**
@@ -317,7 +330,11 @@ export async function loadResearchSections(
 }
 
 /**
- * Load all data for the dashboard
+ * Load all data for the dashboard. External virtual projects (BayGlo, ILAM)
+ * are reconciled with the MongoDB-backed projects list: entries that already
+ * exist in MongoDB keep their authoritative fields (PI, dates, etc.) but get
+ * `researchSection: ['External']` filled in when empty so the External
+ * pseudo-section counts them. Entries missing from MongoDB are appended.
  */
 export async function loadAllData(basePath: string = '') {
 	const [projects, persons, institutions, groups, allCollections] = await Promise.all([
@@ -328,8 +345,26 @@ export async function loadAllData(basePath: string = '') {
 		loadAllCollections(basePath)
 	]);
 
+	const virtualById = new Map(EXTERNAL_PROJECTS.map((p) => [p.id, p]));
+	const reconciled: Project[] = projects.map((p) => {
+		const virtual = virtualById.get(p.id);
+		if (!virtual) return p;
+		// Preserve authoritative MongoDB fields; fall back to virtual values
+		// for the extras MongoDB doesn't supply (research section, richer
+		// institution list, description).
+		return {
+			...p,
+			researchSection: p.researchSection?.length ? p.researchSection : virtual.researchSection,
+			institutions: p.institutions?.length ? p.institutions : virtual.institutions,
+			description: p.description?.trim() ? p.description : virtual.description
+		};
+	});
+
+	const existingIds = new Set(reconciled.map((p) => p.id));
+	const externalToAppend = EXTERNAL_PROJECTS.filter((p) => !existingIds.has(p.id));
+
 	return {
-		projects,
+		projects: [...reconciled, ...externalToAppend],
 		persons,
 		institutions,
 		groups,

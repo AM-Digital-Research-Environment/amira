@@ -36,7 +36,7 @@
 	import { SvelteSet } from 'svelte/reactivity';
 
 	// Word cloud controls
-	let wordCloudMaxWords = $state(50);
+	let wordCloudMaxWords = $state(120);
 
 	// Derived chart data
 	let stackedTimelineData = $derived(groupByYearAndType($filteredCollections));
@@ -252,7 +252,7 @@
 	<div class="grid gap-6 lg:grid-cols-2">
 		<ChartCard title="Research Sections" class="col-span-full">
 			{#if researchSectionsData.length > 0}
-				<BarChart data={researchSectionsData} maxItems={6} />
+				<BarChart data={researchSectionsData} maxItems={10} />
 			{:else}
 				<EmptyState icon={BookOpen} />
 			{/if}
@@ -261,7 +261,7 @@
 		<ChartCard
 			title="Research Section × University"
 			subtitle="Research items by research section and university"
-			contentHeight="h-chart-lg"
+			contentHeight="h-chart-md"
 			class="col-span-full"
 		>
 			{#if sectionUniversityHeatmap.length > 0}

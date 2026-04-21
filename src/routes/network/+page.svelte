@@ -17,9 +17,15 @@
 		buildInstitutionCollaborationNetwork
 	} from '$lib/utils/dataTransform';
 	import { universityOptions } from '$lib/types';
+	import { EXTERNAL_SOURCE_ID } from '$lib/utils/dataLoader';
 	import type { CollectionItem } from '$lib/types';
 	import { Circle, Link, Tag, Building2, Users, Briefcase } from '@lucide/svelte';
 	import { SvelteSet } from 'svelte/reactivity';
+
+	const networkUniversityOptions = [
+		...universityOptions,
+		{ value: EXTERNAL_SOURCE_ID, label: 'External' }
+	];
 
 	const tabs = [
 		{ id: 'contributors', label: 'Contributors' },
@@ -95,7 +101,7 @@
 				<div class="w-48">
 					<span class="text-sm text-muted-foreground mb-1 block">University</span>
 					<Select
-						options={universityOptions}
+						options={networkUniversityOptions}
 						bind:value={selectedUniversity}
 						placeholder="Select university"
 					/>

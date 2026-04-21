@@ -75,30 +75,48 @@ export function buildHeatmapData(
 
 /**
  * Build a research-section × university heatmap from projects and collection items.
+ *
+ * External items (university='external') are routed onto a partner university
+ * axis when their project's institution matches one — BayGlo2025 lists
+ * 'University of Bayreuth', so its items count under UBT. External items whose
+ * project has no partner-institution match stay under "External".
  */
 export function buildResearchSectionUniversityHeatmap(
 	projects: Project[],
 	items: CollectionItem[]
 ): HeatmapDataPoint[] {
-	// Map project ID → research sections
+	// Map project ID → research sections & institutions
 	const projectSections = new Map<string, string[]>();
+	const projectInstitutions = new Map<string, string[]>();
 	for (const p of projects) {
 		if (p.researchSection?.length) {
 			projectSections.set(p.id, p.researchSection);
 		}
+		if (p.institutions?.length) {
+			projectInstitutions.set(p.id, p.institutions);
+		}
 	}
 
-	// Map university codes from item data
+	// Full institution names on the axis (more readable than UBT/UNILAG/...).
 	const uniLabelMap: Record<string, string> = {
-		ubt: 'UBT',
-		unilag: 'UNILAG',
-		ujkz: 'UJKZ',
-		ufba: 'UFBA'
+		ubt: 'University of Bayreuth',
+		unilag: 'University of Lagos',
+		ujkz: 'Université Joseph Ki-Zerbo',
+		ufba: 'Federal University of Bahia',
+		external: 'External'
+	};
+
+	// Institutions listed on projects that belong to a partner university.
+	// Used to reclassify external-tagged items (e.g. BayGlo → UBT).
+	const partnerInstitutionToUniId: Record<string, string> = {
+		'University of Bayreuth': 'ubt',
+		'University of Lagos African Cluster Centre (LACC)': 'unilag',
+		'University Joseph Ki-Zerbo': 'ujkz',
+		'Universidade Federal da Bahia': 'ufba',
+		'CEAO Centro de Estudos Afro-Orientais': 'ufba'
 	};
 
 	const matrix = new Map<string, number>();
-	const sectionCounts = new Map<string, number>();
-	const uniCounts = new Map<string, number>();
 
 	for (const item of items) {
 		const projectId = item.project?.id;
@@ -108,13 +126,22 @@ export function buildResearchSectionUniversityHeatmap(
 		const sections = projectSections.get(projectId);
 		if (!sections?.length) continue;
 
-		const uniLabel = uniLabelMap[uni] || uni;
+		// Resolve the axis bucket. External items route to a partner axis
+		// when their project's institutions name one; otherwise fall back to
+		// the generic "External" bucket.
+		let axisKey = uni;
+		if (uni === 'external') {
+			const insts = projectInstitutions.get(projectId) ?? [];
+			const matchedUni = insts
+				.map((i) => partnerInstitutionToUniId[i])
+				.find((v): v is string => !!v);
+			if (matchedUni) axisKey = matchedUni;
+		}
+		const uniLabel = uniLabelMap[axisKey] || axisKey;
 
 		for (const section of sections) {
 			const key = `${uniLabel}||${section}`;
 			matrix.set(key, (matrix.get(key) || 0) + 1);
-			sectionCounts.set(section, (sectionCounts.get(section) || 0) + 1);
-			uniCounts.set(uniLabel, (uniCounts.get(uniLabel) || 0) + 1);
 		}
 	}
 

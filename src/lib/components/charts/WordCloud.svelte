@@ -33,12 +33,13 @@
 		const slicedData = data.slice(0, maxWords);
 		const themeColors = getThemeColors($theme === 'dark');
 
-		// Dynamic font size based on word count - fewer words = bigger fonts
-		const minFontSize = maxWords <= 30 ? 14 : maxWords <= 60 ? 12 : 10;
-		const maxFontSize = maxWords <= 30 ? 64 : maxWords <= 60 ? 52 : maxWords <= 100 ? 44 : 36;
+		// Dynamic font size based on word count - fewer words = bigger fonts.
+		// Sizes bumped up for readability.
+		const minFontSize = maxWords <= 30 ? 18 : maxWords <= 60 ? 15 : 12;
+		const maxFontSize = maxWords <= 30 ? 72 : maxWords <= 60 ? 60 : maxWords <= 100 ? 52 : 44;
 
-		// Dynamic grid size - more words need tighter packing
-		const gridSize = maxWords <= 50 ? 4 : maxWords <= 100 ? 3 : 2;
+		// Dynamic grid size — tighter packing so more words fit without gaps.
+		const gridSize = maxWords <= 50 ? 3 : maxWords <= 100 ? 2 : 2;
 
 		return {
 			title: title
@@ -62,16 +63,22 @@
 			series: [
 				{
 					type: 'wordCloud',
-					shape: 'circle',
-					left: 'center',
-					top: 'center',
-					width: '100%',
-					height: '100%',
+					// 'pentagon' fills the rectangle more evenly than the default
+					// 'circle', which tends to cluster in the middle and leave
+					// the top/bottom of wide containers blank. Inset slightly so
+					// rotated edge words stay within the card rather than being
+					// clipped by its border.
+					shape: 'pentagon',
+					left: '2%',
+					top: '2%',
+					width: '96%',
+					height: '96%',
 					sizeRange: [minFontSize, maxFontSize],
 					rotationRange: [-45, 45],
 					rotationStep: 15,
 					gridSize: gridSize,
 					drawOutOfBound: false,
+					shrinkToFit: true,
 					textStyle: {
 						fontFamily: FONT_FAMILY.sans,
 						fontWeight: 'bold',

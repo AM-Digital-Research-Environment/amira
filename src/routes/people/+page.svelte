@@ -115,9 +115,20 @@
 			}
 		});
 
+		// Build a projectId → research sections lookup so item contributors
+		// inherit the sections of their project (including "External" for
+		// virtual external projects whose pi/members arrays are empty).
+		const projectSectionsById = new SvelteMap<string, string[]>();
+		$projects.forEach((p) => {
+			if (p.id && p.researchSection?.length) {
+				projectSectionsById.set(p.id, p.researchSection);
+			}
+		});
+
 		// From collection item contributors (persons only) + their affiliations
 		$allCollections.forEach((item) => {
 			if (!Array.isArray(item.name)) return;
+			const itemSections = projectSectionsById.get(item.project?.id || '') ?? [];
 			item.name.forEach((n) => {
 				if (n?.name?.label && n?.name?.qualifier === 'person') {
 					const person = getOrCreate(n.name.label);
@@ -126,6 +137,7 @@
 							if (a) person.affiliations.add(a);
 						});
 					}
+					itemSections.forEach((s) => person.sections.add(s));
 				}
 			});
 		});

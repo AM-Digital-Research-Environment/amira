@@ -19,6 +19,7 @@
 	import { createUrlSelection, scrollToTop } from '$lib/utils/urlSelection';
 	import type { Project } from '$lib/types';
 	import { formatDate, getProjectTitle, getSectionColor } from '$lib/utils/helpers';
+	import { EXTERNAL_SECTION } from '$lib/utils/external';
 	import {
 		BookOpen,
 		Briefcase,
@@ -30,6 +31,9 @@
 	} from '@lucide/svelte';
 	import { WissKILink } from '$lib/components/ui';
 	import { SvelteMap, SvelteSet } from 'svelte/reactivity';
+
+	const EXTERNAL_SECTION_DESCRIPTION =
+		'External collections contributed to the dashboard from outside the cluster’s six thematic research sections. These datasets extend the research environment with related archival and publication material.';
 
 	const urlSelection = createUrlSelection('section');
 
@@ -53,24 +57,30 @@
 		return map;
 	});
 
-	// Combined data: merge manual info with project associations
+	// Combined data: merge manual info with project associations. "External"
+	// is a pseudo-section for projects that don't belong to the cluster's six
+	// official research sections — sort it to the end to keep the thematic
+	// sections visually grouped at the top.
 	let sections = $derived.by(() => {
 		const sectionNames = new SvelteSet<string>();
 		Object.keys($researchSections).forEach((name) => sectionNames.add(name));
 		$projects.forEach((p) => p.researchSection?.forEach((s) => sectionNames.add(s)));
 
-		return Array.from(sectionNames)
-			.sort()
-			.map((name) => ({
-				name,
-				url: $researchSections[name]?.url || '',
-				description: $researchSections[name]?.description || '',
-				objectives: $researchSections[name]?.objectives || '',
-				workProgramme: $researchSections[name]?.workProgramme || '',
-				principalInvestigators: $researchSections[name]?.principalInvestigators || [],
-				members: $researchSections[name]?.members || [],
-				projects: projectsBySection.get(name) || []
-			}));
+		const thematic = [...sectionNames].filter((n) => n !== EXTERNAL_SECTION).sort();
+		const ordered = sectionNames.has(EXTERNAL_SECTION) ? [...thematic, EXTERNAL_SECTION] : thematic;
+
+		return ordered.map((name) => ({
+			name,
+			url: $researchSections[name]?.url || '',
+			description:
+				$researchSections[name]?.description ||
+				(name === EXTERNAL_SECTION ? EXTERNAL_SECTION_DESCRIPTION : ''),
+			objectives: $researchSections[name]?.objectives || '',
+			workProgramme: $researchSections[name]?.workProgramme || '',
+			principalInvestigators: $researchSections[name]?.principalInvestigators || [],
+			members: $researchSections[name]?.members || [],
+			projects: projectsBySection.get(name) || []
+		}));
 	});
 
 	let selectedSectionData = $derived(

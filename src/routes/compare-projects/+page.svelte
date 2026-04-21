@@ -19,18 +19,31 @@
 		extractResourceTypes,
 		extractLanguages
 	} from '$lib/utils/dataTransform';
-	import { UNIVERSITY_COLLECTIONS, getUniversities } from '$lib/utils/dataLoader';
+	import {
+		UNIVERSITY_COLLECTIONS,
+		getUniversities,
+		EXTERNAL_SOURCE_ID
+	} from '$lib/utils/dataLoader';
+	import { EXTERNAL_PROJECTS } from '$lib/utils/external';
 	import type { CollectionItem } from '$lib/types';
 	import { universityOptions } from '$lib/types';
 	import { FileQuestion } from '@lucide/svelte';
 	import { SvelteMap } from 'svelte/reactivity';
 
+	const compareUniversityOptions = [
+		...universityOptions,
+		{ value: EXTERNAL_SOURCE_ID, label: 'External' }
+	];
+
 	// Get all universities
 	const allUniversities = getUniversities();
 
-	// Build a lookup of project ID → full project name from collection items
+	// Build a lookup of project ID → full project name from collection items.
+	// Seed with the virtual external projects so selectors label them
+	// correctly even before any items have been loaded.
 	let projectNameMap = $derived.by(() => {
 		const map = new SvelteMap<string, string>();
+		EXTERNAL_PROJECTS.forEach((p) => map.set(p.id, p.name));
 		$allCollections.forEach((item) => {
 			if (item.project?.id && item.project?.name && !map.has(item.project.id)) {
 				map.set(item.project.id, item.project.name);
@@ -43,7 +56,9 @@
 		return text.length > max ? text.slice(0, max - 1) + '\u2026' : text;
 	}
 
-	// Build project options for a given university
+	// Build project options for a given university. The `value` encodes
+	// `<universityId>:<projectId>` so downstream filtering can match on the
+	// exact project id rather than a fragile substring.
 	function getProjectOptions(universityId: string, nameMap: Map<string, string>) {
 		const buildOption = (uniId: string, proj: string) => {
 			const fullName = nameMap.get(proj) || proj;
@@ -57,9 +72,14 @@
 		let projectList: { value: string; label: string; title?: string }[];
 
 		if (universityId === 'all') {
-			projectList = allUniversities.flatMap((uni) =>
-				(UNIVERSITY_COLLECTIONS[uni.id] || []).map((proj) => buildOption(uni.id, proj))
-			);
+			projectList = [
+				...allUniversities.flatMap((uni) =>
+					(UNIVERSITY_COLLECTIONS[uni.id] || []).map((proj) => buildOption(uni.id, proj))
+				),
+				...EXTERNAL_PROJECTS.map((p) => buildOption(EXTERNAL_SOURCE_ID, p.id))
+			];
+		} else if (universityId === EXTERNAL_SOURCE_ID) {
+			projectList = EXTERNAL_PROJECTS.map((p) => buildOption(EXTERNAL_SOURCE_ID, p.id));
 		} else {
 			projectList = (UNIVERSITY_COLLECTIONS[universityId] || []).map((proj) =>
 				buildOption(universityId, proj)
@@ -108,16 +128,13 @@
 			result = result.filter((item) => item.university === universityId);
 		}
 
-		// Filter by project if not "all"
+		// Filter by project if not "all". The encoded value is
+		// "<universityId>:<projectId>" — match exactly on project.id so the
+		// Ext_* projects don't false-match other collections.
 		if (projectId !== 'all') {
-			// projectId format: "universityId:projectName"
-			const [, projectName] = projectId.split(':');
-			if (projectName) {
-				result = result.filter(
-					(item) =>
-						item.project?.name?.includes(projectName.replace(/(\d{4})$/, '')) ||
-						item.project?.id?.includes(projectName)
-				);
+			const [, projKey] = projectId.split(':');
+			if (projKey) {
+				result = result.filter((item) => item.project?.id === projKey);
 			}
 		}
 
@@ -159,7 +176,7 @@
 		}
 
 		const uni = allUniversities.find((u) => u.id === universityId);
-		const uniName = uni?.name || 'All';
+		const uniName = uni?.name ?? (universityId === EXTERNAL_SOURCE_ID ? 'External' : 'All');
 
 		if (projectId === 'all') {
 			return uniName;
@@ -167,7 +184,8 @@
 
 		const [, projKey] = projectId.split(':');
 		const fullName = projKey ? projectNameMap.get(projKey) : null;
-		return fullName || projKey || projectId;
+		const externalMatch = projKey ? EXTERNAL_PROJECTS.find((p) => p.id === projKey) : null;
+		return fullName || externalMatch?.name || projKey || projectId;
 	}
 </script>
 
@@ -202,7 +220,7 @@
 							<div>
 								<span class="text-sm text-muted-foreground mb-1 block">University</span>
 								<Select
-									options={universityOptions}
+									options={compareUniversityOptions}
 									bind:value={leftUniversity}
 									placeholder="Select university"
 								/>
@@ -236,7 +254,7 @@
 							<div>
 								<span class="text-sm text-muted-foreground mb-1 block">University</span>
 								<Select
-									options={universityOptions}
+									options={compareUniversityOptions}
 									bind:value={rightUniversity}
 									placeholder="Select university"
 								/>
