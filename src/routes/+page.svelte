@@ -290,7 +290,6 @@
 	     CEAO at UFBA as a privileged partner. -->
 	<ChartCard
 		title="Africa Multiple Research Centres (AMRCs) and the privileged partner"
-		subtitle="The University of Bayreuth, the four AMRC host universities, and CEAO at Universidade Federal da Bahia"
 		contentHeight="h-chart-xl"
 	>
 		<MiniMap markers={clusterLocations} zoom={2} class="h-full" />
