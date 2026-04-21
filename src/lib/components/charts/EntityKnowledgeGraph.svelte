@@ -212,6 +212,21 @@
 		return CLUSTER_PALETTE[id % CLUSTER_PALETTE.length];
 	}
 
+	// Portal the fullscreen overlay to <body>. Without this, an ancestor with
+	// `transform`, `filter`, `backdrop-filter`, or `will-change` creates a new
+	// containing block for `position: fixed` descendants -- so `inset-0` is
+	// relative to that ancestor rather than the viewport, and z-index wars are
+	// fought inside a parent stacking context that the sticky header/sidebar
+	// also participate in. Re-parenting to <body> side-steps both.
+	function toBody(node: HTMLElement) {
+		document.body.appendChild(node);
+		return {
+			destroy() {
+				node.remove();
+			}
+		};
+	}
+
 	// Navigate to entity page on node click
 	function handleNodeClick(id: string, _category: number) {
 		const colonIdx = id.indexOf(':');
@@ -397,8 +412,8 @@
 {/snippet}
 
 {#if fullscreen}
-	<!-- Fullscreen overlay -->
-	<div class="fixed inset-0 z-50 bg-background flex">
+	<!-- Fullscreen overlay -- portalled to <body> to escape containing-block traps -->
+	<div class="fixed inset-0 z-[100] bg-background flex" use:toBody>
 		<aside class="w-80 border-r border-border overflow-y-auto p-4 space-y-4">
 			<h2 class="text-lg font-semibold flex items-center gap-2">
 				<Share2 class="h-5 w-5 text-primary" />

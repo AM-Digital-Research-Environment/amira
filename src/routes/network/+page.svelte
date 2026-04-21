@@ -243,6 +243,17 @@
 				return null;
 		}
 	});
+
+	// Portal the overlay to <body> so `position: fixed` is guaranteed to be
+	// viewport-relative regardless of ancestor containing blocks.
+	function toBody(node: HTMLElement) {
+		document.body.appendChild(node);
+		return {
+			destroy() {
+				node.remove();
+			}
+		};
+	}
 </script>
 
 <SEO
@@ -671,7 +682,7 @@
 </div>
 
 {#if fullscreenId && fullscreenData}
-	<div class="fixed inset-0 z-50 bg-background flex flex-col">
+	<div class="fixed inset-0 z-[100] bg-background flex flex-col" use:toBody>
 		<div class="flex items-center justify-between px-4 py-3 border-b border-border">
 			<h2 class="text-lg font-semibold flex items-center gap-2">
 				<NetworkIcon class="h-5 w-5 text-primary" />
