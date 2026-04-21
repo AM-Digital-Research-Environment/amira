@@ -22,11 +22,13 @@ Interactive visualization dashboard for WissKI/MongoDB research data from the [A
 - **Overview Dashboard**: Summary stat cards (documents, projects, contributors, universities), university breakdown with logos, global filter panel (resource type, language, university), stacked timeline by type, resource type pie chart, subject bar chart, tag word cloud, research section distribution, and a Research Section × University heatmap matrix.
 - **Collections**: Explore collections across four partner universities with collection/project selector. Includes geographic map (clickable marker popups), stacked timeline, bar/pie charts, word cloud, Sankey flow diagram (contributor → project → resource type), sunburst hierarchy (resource type → language → subject), chord diagram (subject co-occurrence), and Resource Type × Language heatmap matrix.
 - **Compare**: Side-by-side comparison of two university/project selections with synchronized stacked timelines, subject distributions, resource type breakdowns, and language distributions.
-- **Network**: Three interactive force-directed graph tabs:
-  - **Contributors**: Person-to-project relationships from research items
-  - **Affiliations**: Person-to-institution relationships
-  - **Institution Collaborations**: Institution-to-institution connections via shared projects/people
-  - Filters: University, max nodes, resource type
+- **Network**: Five interactive force-directed graph tabs, all weighted (edge thickness = strength of tie) and community-coloured:
+  - **Contributors ↔ Projects**: weighted bipartite graph — edge width equals the number of items a person contributed to that project
+  - **Co-authorship**: person ↔ person projection of the contributor graph, edges for pairs with ≥ 2 shared items
+  - **People ↔ Institutions**: bipartite affiliations view
+  - **Institution collaborations**: institutions joined when they share people on the same project
+  - **Discursive communities**: the Louvain communities detected across the whole archive, with the top-PageRank anchor of each cluster. Built from the precomputed `_meta.json`.
+  - Filters: university, max nodes, resource type
 
 ### Cross-linking & WissKI Integration
 
@@ -60,24 +62,24 @@ All entities are deeply cross-linked throughout the dashboard:
 
 ## Chart Components
 
-| Component              | Type             | Description                                                                   |
-| ---------------------- | ---------------- | ----------------------------------------------------------------------------- |
-| `Timeline`             | Line             | Simple count-by-year timeline                                                 |
-| `StackedTimeline`      | Stacked bar      | Items by year broken down by resource type                                    |
-| `BarChart`             | Bar              | Horizontal/vertical bar with pagination for long lists                        |
-| `PieChart`             | Pie/donut        | Categorical distribution with click selection                                 |
-| `WordCloud`            | Word cloud       | Animated tag/subject cloud with adjustable max words                          |
-| `HeatmapChart`         | Heatmap          | Matrix cross-tabulation with color intensity (ECharts 6)                      |
-| `BeeswarmChart`        | Scatter/jitter   | Beeswarm distribution using ECharts 6 axis jitter                             |
-| `GanttChart`           | Custom bar range | Project timelines with start/end bars, category coloring                      |
-| `SankeyChart`          | Sankey           | Multi-level flow diagram (e.g. contributor → project → type)                  |
-| `SunburstChart`        | Sunburst         | Hierarchical drill-down visualization                                         |
-| `ChordDiagram`         | Chord            | Co-occurrence relationships between categories                                |
-| `NetworkGraph`         | Force graph      | Force-directed network with nodes, edges, and categories                      |
-| `LocationMap`          | Map              | MapLibre GL multi-marker map with clustered popups                            |
-| `MiniMap`              | Map              | Lightweight single-location map with marker                                   |
-| `EntityKnowledgeGraph` | Force graph      | Per-item knowledge graph with fullscreen mode                                 |
-| `EChart`               | Base wrapper     | Shared ECharts wrapper with theme, zoom, resize, and performance optimization |
+| Component              | Type             | Description                                                                                                                                                                                                                                                                                                                    |
+| ---------------------- | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `Timeline`             | Line             | Simple count-by-year timeline                                                                                                                                                                                                                                                                                                  |
+| `StackedTimeline`      | Stacked bar      | Items by year broken down by resource type                                                                                                                                                                                                                                                                                     |
+| `BarChart`             | Bar              | Horizontal/vertical bar with pagination for long lists                                                                                                                                                                                                                                                                         |
+| `PieChart`             | Pie/donut        | Categorical distribution with click selection                                                                                                                                                                                                                                                                                  |
+| `WordCloud`            | Word cloud       | Animated tag/subject cloud with adjustable max words                                                                                                                                                                                                                                                                           |
+| `HeatmapChart`         | Heatmap          | Matrix cross-tabulation with color intensity (ECharts 6)                                                                                                                                                                                                                                                                       |
+| `BeeswarmChart`        | Scatter/jitter   | Beeswarm distribution using ECharts 6 axis jitter                                                                                                                                                                                                                                                                              |
+| `GanttChart`           | Custom bar range | Project timelines with start/end bars, category coloring                                                                                                                                                                                                                                                                       |
+| `SankeyChart`          | Sankey           | Multi-level flow diagram (e.g. contributor → project → type)                                                                                                                                                                                                                                                                   |
+| `SunburstChart`        | Sunburst         | Hierarchical drill-down visualization                                                                                                                                                                                                                                                                                          |
+| `ChordDiagram`         | Chord            | Co-occurrence relationships between categories                                                                                                                                                                                                                                                                                 |
+| `NetworkGraph`         | Force graph      | Weighted force-directed network: edge width follows edge value, dashed for latent/structural ties, solid for direct metadata edges; optional community halos                                                                                                                                                                   |
+| `LocationMap`          | Map              | MapLibre GL multi-marker map with clustered popups                                                                                                                                                                                                                                                                             |
+| `MiniMap`              | Map              | Lightweight single-location map with marker                                                                                                                                                                                                                                                                                    |
+| `EntityKnowledgeGraph` | Force graph      | Per-entity ego graph (items, persons, projects, institutions, subjects, tags, locations, genres) with IDF-weighted direct edges + latent edges via Jaccard / personalised PageRank, discursive communities, PageRank-sized nodes, facet panel (entity-type / community / weight threshold / direct-vs-latent), fullscreen mode |
+| `EChart`               | Base wrapper     | Shared ECharts wrapper with theme, zoom, resize, and performance optimization                                                                                                                                                                                                                                                  |
 
 All chart components use the shared `EChart` base wrapper which provides:
 
@@ -242,7 +244,28 @@ External collections are surfaced across the dashboard as virtual projects (IDs 
 
 ### Knowledge graphs (`static/data/knowledge_graphs/`)
 
-2,228 pre-generated per-item knowledge graph files used by the EntityKnowledgeGraph component to render interactive relationship visualizations for individual research items, with fullscreen support.
+Structural ego graphs pre-computed by [`scripts/generate_knowledge_graphs.py`](scripts/generate_knowledge_graphs.py). One JSON file per entity, organised by type:
+
+```
+static/data/knowledge_graphs/
+├── _meta.json            # Global community labels + top-PageRank nodes
+├── items/                # Research-item ego graphs
+├── persons/              # Person ego graphs
+├── projects/             # Project ego graphs
+├── institutions/
+├── subjects/
+├── tags/
+├── locations/
+└── genres/
+```
+
+Each graph combines **direct** metadata edges (IDF-weighted so distinctive relationships look heavier than ubiquitous ones), **latent** structural edges (Jaccard on shared neighbourhoods + personalised PageRank for multi-hop relevance), and global analysis results (Louvain community membership, PageRank-based centrality) so the UI can reveal discursive communities and key discursive nodes that local co-occurrence alone would miss. Regenerate after any metadata change:
+
+```bash
+.venv/Scripts/python scripts/generate_knowledge_graphs.py
+```
+
+See [scripts/README.md](scripts/README.md) for the algorithm details.
 
 ### Manual data (`static/data/manual/`)
 

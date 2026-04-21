@@ -13,7 +13,7 @@
 		BackToList,
 		SEO
 	} from '$lib/components/ui';
-	import { WordCloud } from '$lib/components/charts';
+	import { WordCloud, EntityKnowledgeGraph } from '$lib/components/charts';
 	import { allCollections } from '$lib/stores/data';
 	import { page } from '$app/stores';
 	import { goto } from '$app/navigation';
@@ -284,6 +284,14 @@
 						</CardContent>
 					{/snippet}
 				</Card>
+
+				<EntityKnowledgeGraph
+					entityType={viewMode === 'subjects' ? 'subject' : 'tag'}
+					entityId={selectedTerm.name}
+					title={viewMode === 'subjects'
+						? 'Subject co-occurrence graph'
+						: 'Tag neighbourhood graph'}
+				/>
 			{:else}
 				<Card class="overflow-hidden">
 					{#snippet children()}

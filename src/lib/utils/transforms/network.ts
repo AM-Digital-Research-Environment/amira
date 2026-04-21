@@ -48,61 +48,167 @@ export function buildPersonInstitutionNetwork(
 }
 
 /**
- * Build network data for contributors in collections
+ * Contributor-project network where an edge's weight reflects how often the
+ * person contributed to the project. Nodes are sized by activity (persons by
+ * distinct-project count, projects by contributor count).
+ *
+ * Compared to the previous un-weighted version this exposes the "heavy
+ * collaborators" -- people who appear repeatedly in a project's record --
+ * which is the signal users actually want when asking "who drives this
+ * project?"
  */
 export function buildContributorNetwork(
 	items: CollectionItem[],
 	maxNodes: number = 100
 ): NetworkData {
-	const nodes: NetworkData['nodes'] = [];
-	const links: NetworkData['links'] = [];
-	const personSet = new Set<string>();
-	const projectSet = new Set<string>();
-	const linkSet = new Set<string>();
+	const personProjectCount = new Map<string, number>();
+	const personProjects = new Map<string, Set<string>>();
+	const projectContributors = new Map<string, Set<string>>();
+	const projectNames = new Map<string, string>();
 
-	items.slice(0, maxNodes * 2).forEach((item) => {
+	items.forEach((item) => {
 		const projectId = item.project?.id;
 		if (!projectId) return;
-
-		if (!projectSet.has(projectId)) {
-			projectSet.add(projectId);
-			nodes.push({
-				id: projectId,
-				name: item.project.name || projectId,
-				category: 0,
-				symbolSize: 30
-			});
-		}
-
+		projectNames.set(projectId, item.project.name || projectId);
+		const contribs = projectContributors.get(projectId) ?? new Set<string>();
 		item.name?.forEach((entry) => {
 			const personName = entry.name?.label;
 			if (!personName) return;
-
-			if (!personSet.has(personName)) {
-				personSet.add(personName);
-				nodes.push({
-					id: personName,
-					name: personName,
-					category: 1,
-					symbolSize: 15
-				});
-			}
-
-			const linkKey = `${personName}-${projectId}`;
-			if (!linkSet.has(linkKey)) {
-				linkSet.add(linkKey);
-				links.push({
-					source: personName,
-					target: projectId
-				});
-			}
+			const key = `${personName}|||${projectId}`;
+			personProjectCount.set(key, (personProjectCount.get(key) ?? 0) + 1);
+			contribs.add(personName);
+			const pProjects = personProjects.get(personName) ?? new Set<string>();
+			pProjects.add(projectId);
+			personProjects.set(personName, pProjects);
 		});
+		projectContributors.set(projectId, contribs);
 	});
 
+	// Pick the top projects and their contributors up to maxNodes total.
+	const rankedProjects = [...projectContributors.entries()].sort((a, b) => b[1].size - a[1].size);
+	const rankedPersons = [...personProjects.entries()].sort((a, b) => b[1].size - a[1].size);
+
+	const projectQuota = Math.max(10, Math.floor(maxNodes * 0.4));
+	const personQuota = maxNodes - projectQuota;
+
+	const includedProjects = new Set(rankedProjects.slice(0, projectQuota).map((e) => e[0]));
+	const includedPersons = new Set(rankedPersons.slice(0, personQuota).map((e) => e[0]));
+
+	const nodes: NetworkData['nodes'] = [];
+	for (const pid of includedProjects) {
+		const contribCount = projectContributors.get(pid)?.size ?? 0;
+		nodes.push({
+			id: pid,
+			name: projectNames.get(pid) ?? pid,
+			category: 0,
+			symbolSize: Math.min(48, 14 + Math.sqrt(contribCount) * 4)
+		});
+	}
+	for (const pname of includedPersons) {
+		const projCount = personProjects.get(pname)?.size ?? 0;
+		nodes.push({
+			id: pname,
+			name: pname,
+			category: 1,
+			symbolSize: Math.min(32, 10 + Math.sqrt(projCount) * 3)
+		});
+	}
+
+	const links: NetworkData['links'] = [];
+	for (const [key, count] of personProjectCount) {
+		const [personName, projectId] = key.split('|||');
+		if (!includedPersons.has(personName) || !includedProjects.has(projectId)) continue;
+		links.push({
+			source: personName,
+			target: projectId,
+			value: count,
+			label: count === 1 ? 'contributed to 1 item' : `contributed to ${count} items`,
+			relation: 'direct'
+		});
+	}
+
 	return {
-		nodes: nodes.slice(0, maxNodes),
+		nodes,
 		links,
 		categories: [{ name: 'Project' }, { name: 'Contributor' }]
+	};
+}
+
+/**
+ * Person-person collaboration network: an edge between two people when they
+ * contribute to the same research item, weighted by the number of shared
+ * items. Captures "who co-authors with whom" -- something the
+ * contributor-project bipartite view only hints at.
+ */
+export function buildPersonCollaborationNetwork(
+	items: CollectionItem[],
+	maxNodes: number = 80
+): NetworkData {
+	const pairCount = new Map<string, number>();
+	const personItemCount = new Map<string, number>();
+
+	for (const item of items) {
+		const names = (item.name ?? [])
+			.map((e) => e.name?.label)
+			.filter((s): s is string => Boolean(s));
+		for (const n of names) personItemCount.set(n, (personItemCount.get(n) ?? 0) + 1);
+		for (let i = 0; i < names.length; i++) {
+			for (let j = i + 1; j < names.length; j++) {
+				const [a, b] = [names[i], names[j]].sort();
+				const key = `${a}|||${b}`;
+				pairCount.set(key, (pairCount.get(key) ?? 0) + 1);
+			}
+		}
+	}
+
+	// Rank persons by collaboration degree (sum of pair weights they're in).
+	const collabDegree = new Map<string, number>();
+	for (const [key, count] of pairCount) {
+		const [a, b] = key.split('|||');
+		collabDegree.set(a, (collabDegree.get(a) ?? 0) + count);
+		collabDegree.set(b, (collabDegree.get(b) ?? 0) + count);
+	}
+	const topPersons = new Set(
+		[...collabDegree.entries()]
+			.sort((a, b) => b[1] - a[1])
+			.slice(0, maxNodes)
+			.map((e) => e[0])
+	);
+
+	// Compact node sizing -- the collaboration graph is dense, so we keep nodes
+	// small enough to breathe. The log-scale keeps superstars visually distinct
+	// without letting them swamp the layout.
+	const nodes: NetworkData['nodes'] = [];
+	for (const name of topPersons) {
+		const deg = collabDegree.get(name) ?? 0;
+		nodes.push({
+			id: name,
+			name,
+			category: 0,
+			symbolSize: Math.min(22, 6 + Math.log2(deg + 1) * 2)
+		});
+	}
+
+	const links: NetworkData['links'] = [];
+	for (const [key, count] of pairCount) {
+		const [a, b] = key.split('|||');
+		if (!topPersons.has(a) || !topPersons.has(b)) continue;
+		// Require at least 3 co-authored items -- 2 was noisy because lots of
+		// items list three-plus contributors, creating dense webs of weak ties.
+		if (count < 3) continue;
+		links.push({
+			source: a,
+			target: b,
+			value: count,
+			label: `co-authored ${count} item${count !== 1 ? 's' : ''}`,
+			relation: 'direct'
+		});
+	}
+
+	return {
+		nodes,
+		links,
+		categories: [{ name: 'Contributor' }]
 	};
 }
 

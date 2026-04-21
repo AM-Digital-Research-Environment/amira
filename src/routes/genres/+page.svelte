@@ -13,7 +13,7 @@
 		CollectionItemRow,
 		SEO
 	} from '$lib/components/ui';
-	import { BarChart } from '$lib/components/charts';
+	import { BarChart, EntityKnowledgeGraph } from '$lib/components/charts';
 	import { allCollections } from '$lib/stores/data';
 	import { page } from '$app/stores';
 	import { createUrlSelection, scrollToElement } from '$lib/utils/urlSelection';
@@ -229,6 +229,12 @@
 						</CardContent>
 					{/snippet}
 				</Card>
+
+				<EntityKnowledgeGraph
+					entityType="genre"
+					entityId={selectedGenreData.name}
+					title="Genre knowledge graph"
+				/>
 			{:else}
 				<Card class="overflow-hidden">
 					{#snippet children()}

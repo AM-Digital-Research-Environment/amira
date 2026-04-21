@@ -15,7 +15,7 @@
 	import { allCollections, enrichedLocations, ensureEnrichedLocations } from '$lib/stores/data';
 	import { onMount } from 'svelte';
 	import { base } from '$app/paths';
-	import { MiniMap } from '$lib/components/charts';
+	import { MiniMap, EntityKnowledgeGraph } from '$lib/components/charts';
 	import { page } from '$app/stores';
 	import { createUrlSelection, scrollToTop } from '$lib/utils/urlSelection';
 	import { createSearchFilter } from '$lib/utils/search';
@@ -627,6 +627,12 @@
 						</CardContent>
 					{/snippet}
 				</Card>
+
+				<EntityKnowledgeGraph
+					entityType="location"
+					entityId={selectedLocation.name}
+					title="Place-based knowledge graph"
+				/>
 			{:else}
 				<Card class="overflow-hidden">
 					{#snippet children()}

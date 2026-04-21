@@ -51,6 +51,7 @@
 	import { WissKILink } from '$lib/components/ui';
 	import { getWisskiUrl, loadWisskiUrls } from '$lib/utils/wisskiUrl.svelte';
 	import { onMount } from 'svelte';
+	import { EntityKnowledgeGraph } from '$lib/components/charts';
 
 	// Load the persons URL map up-front: getWisskiUrl is called below in the
 	// "no data" branch where <WissKILink> is not rendered, so we cannot rely on
@@ -1046,6 +1047,13 @@
 						{/snippet}
 					</Card>
 				{/if}
+
+				<!-- Knowledge Graph (latent + direct relationships) -->
+				<EntityKnowledgeGraph
+					entityType="person"
+					entityId={selectedPerson.name}
+					title="Collaboration & influence graph"
+				/>
 			{:else}
 				<!-- No person selected -->
 				<Card class="overflow-hidden">

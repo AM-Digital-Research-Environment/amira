@@ -28,18 +28,40 @@ export interface NetworkNode {
 	name: string;
 	category: number;
 	symbolSize: number;
+	/** Community / discursive-mode id (Louvain). -1 if no cluster. */
+	cluster?: number;
+	/** Global PageRank, normalised to [0, 1]. Higher = more central. */
+	importance?: number;
 }
 
 export interface NetworkLink {
 	source: string;
 	target: string;
+	/** Edge weight (IDF-derived for direct edges, similarity-derived for latent). */
 	value?: number;
+	/** Human-readable label ("contributor", "shares neighbourhood (42%)", ...). */
+	label?: string;
+	/**
+	 * "direct" = observed metadata triple (contributor/tagged/...).
+	 * "latent" = derived from shared neighbourhood / personalised PageRank.
+	 */
+	relation?: 'direct' | 'latent';
+}
+
+export interface NetworkCluster {
+	id: number;
+	label: string;
+	count: number;
 }
 
 export interface NetworkData {
 	nodes: NetworkNode[];
 	links: NetworkLink[];
 	categories: { name: string }[];
+	/** Communities represented in this ego graph (Louvain). Optional. */
+	clusters?: NetworkCluster[];
+	/** Node id of the ego centre, if this is an ego graph. */
+	center?: string;
 }
 
 export interface ChordData {

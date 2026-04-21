@@ -38,6 +38,7 @@
 	import { tick } from 'svelte';
 	import { personUrl, researchSectionsUrl, researchItemUrl, institutionUrl } from '$lib/utils/urls';
 	import { createUrlSelection } from '$lib/utils/urlSelection';
+	import { EntityKnowledgeGraph } from '$lib/components/charts';
 	import type { Project, CollectionItem } from '$lib/types';
 	import { formatDate, getItemTitle } from '$lib/utils/helpers';
 	import { formatDateInfo } from '$lib/components/research-items/itemHelpers';
@@ -688,6 +689,13 @@
 					{/snippet}
 				</Card>
 			{/if}
+
+			<!-- Knowledge Graph — shared neighbourhoods, contributors, communities -->
+			<EntityKnowledgeGraph
+				entityType="project"
+				entityId={selectedProject.name}
+				title="Project knowledge graph"
+			/>
 		</div>
 	{:else}
 		<!-- Stats -->

@@ -25,6 +25,7 @@
 	import { Building2, Briefcase, Users, FileText } from '@lucide/svelte';
 	import { SvelteMap, SvelteSet } from 'svelte/reactivity';
 	import { WissKILink } from '$lib/components/ui';
+	import { EntityKnowledgeGraph } from '$lib/components/charts';
 
 	const urlSelection = createUrlSelection('name');
 
@@ -504,6 +505,12 @@
 						{/snippet}
 					</Card>
 				{/if}
+
+				<EntityKnowledgeGraph
+					entityType="institution"
+					entityId={selectedInstitution.name}
+					title="Institution knowledge graph"
+				/>
 			{:else}
 				<Card class="overflow-hidden">
 					{#snippet children()}

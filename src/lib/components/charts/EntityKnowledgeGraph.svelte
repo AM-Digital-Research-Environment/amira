@@ -3,8 +3,8 @@
 	import { Card, CardHeader, CardTitle, CardContent } from '$lib/components/ui';
 	import NetworkGraph from './NetworkGraph.svelte';
 	import type { NetworkData } from '$lib/types';
-	import { Share2, Maximize2, Minimize2 } from '@lucide/svelte';
-	import { SvelteMap } from 'svelte/reactivity';
+	import { Share2, Maximize2, Minimize2, Filter, SlidersHorizontal } from '@lucide/svelte';
+	import { SvelteMap, SvelteSet } from 'svelte/reactivity';
 	import {
 		researchItemUrl,
 		personUrl,
@@ -12,42 +12,124 @@
 		tagUrl,
 		locationUrl,
 		genreUrl,
-		institutionUrl
+		institutionUrl,
+		projectUrl
 	} from '$lib/utils/urls';
 
+	type EntityType =
+		| 'researchItems'
+		| 'items'
+		| 'person'
+		| 'persons'
+		| 'subject'
+		| 'subjects'
+		| 'tag'
+		| 'tags'
+		| 'location'
+		| 'locations'
+		| 'project'
+		| 'projects'
+		| 'genre'
+		| 'genres'
+		| 'institution'
+		| 'institutions';
+
 	interface Props {
-		entityType: string;
+		entityType: EntityType | string;
 		entityId: string;
 		height?: string;
+		/** Label shown in the card header. */
+		title?: string;
 	}
 
-	let { entityType, entityId, height = 'h-chart-2xl' }: Props = $props();
+	let { entityType, entityId, height = 'h-chart-2xl', title = 'Knowledge Graph' }: Props = $props();
 
-	let graphData: NetworkData | null = $state(null);
+	// Map front-end entity-type values to the directory the precompute script
+	// writes to. Keeping this mapping in one place avoids a stream of small
+	// bugs when a new entity page is wired up.
+	const TYPE_DIR: Record<string, string> = {
+		researchItems: 'items',
+		items: 'items',
+		item: 'items',
+		person: 'persons',
+		persons: 'persons',
+		subject: 'subjects',
+		subjects: 'subjects',
+		tag: 'tags',
+		tags: 'tags',
+		location: 'locations',
+		locations: 'locations',
+		project: 'projects',
+		projects: 'projects',
+		genre: 'genres',
+		genres: 'genres',
+		institution: 'institutions',
+		institutions: 'institutions'
+	};
+
+	function slugify(s: string): string {
+		return s
+			.toLowerCase()
+			.trim()
+			.replace(/[\\/]/g, '-')
+			.replace(/[^a-z0-9-]+/g, '-')
+			.replace(/-+/g, '-')
+			.replace(/^-|-$/g, '')
+			.slice(0, 120);
+	}
+
+	let graphData = $state<NetworkData | null>(null);
 	let loading = $state(false);
 	let error = $state(false);
 	let fullscreen = $state(false);
+	let showFacets = $state(false);
+
+	// Facet state. Kept in $state so the UI stays reactive without forcing a
+	// re-fetch.
+	let minEdgeValue = $state(0);
+	let relationFilter = $state<'all' | 'direct' | 'latent'>('all');
+	let hiddenCategories = new SvelteSet<number>();
+	let focusedCluster = $state<number | null>(null);
+	let showCommunityHalo = $state(true);
 
 	// Cache loaded graphs in memory to avoid refetching
-	const cache = new SvelteMap<string, NetworkData>();
+	const cache = new SvelteMap<string, NetworkData | 'error'>();
 
 	async function loadGraph(type: string, id: string) {
 		if (!id) return;
-		const cacheKey = `${type}:${id}`;
-		if (cache.has(cacheKey)) {
-			graphData = cache.get(cacheKey)!;
+		const dir = TYPE_DIR[type] ?? type;
+		const slug = dir === 'items' ? id : slugify(id);
+		const cacheKey = `${dir}:${slug}`;
+
+		const cached = cache.get(cacheKey);
+		if (cached === 'error') {
+			error = true;
+			graphData = null;
+			return;
+		}
+		if (cached) {
+			graphData = cached;
+			error = false;
 			return;
 		}
 
 		loading = true;
 		error = false;
 		try {
-			const resp = await fetch(`${base}/data/knowledge_graphs/${encodeURIComponent(id)}.json`);
+			// Try typed path first (new layout).
+			let resp = await fetch(
+				`${base}/data/knowledge_graphs/${dir}/${encodeURIComponent(slug)}.json`
+			);
+			// Fall back to legacy flat layout for items if we ever re-introduce it.
+			if (!resp.ok && dir === 'items') {
+				resp = await fetch(`${base}/data/knowledge_graphs/${encodeURIComponent(slug)}.json`);
+			}
 			if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
 			const data: NetworkData = await resp.json();
 			cache.set(cacheKey, data);
 			graphData = data;
 		} catch {
+			cache.set(cacheKey, 'error');
 			error = true;
 			graphData = null;
 		} finally {
@@ -59,13 +141,75 @@
 		loadGraph(entityType, entityId);
 	});
 
+	// Reset facet state whenever a new graph loads so we don't carry user
+	// selections from one entity to another.
+	$effect(() => {
+		if (graphData) {
+			minEdgeValue = 0;
+			relationFilter = 'all';
+			hiddenCategories.clear();
+			focusedCluster = null;
+		}
+	});
+
+	let visibleCategories = $derived.by(() => {
+		const out = new SvelteSet<number>();
+		if (!graphData) return out;
+		for (let i = 0; i < graphData.categories.length; i++) {
+			if (!hiddenCategories.has(i)) out.add(i);
+		}
+		return out;
+	});
+
+	let visibleClusters = $derived.by(() => {
+		const out = new SvelteSet<number>();
+		if (focusedCluster !== null) out.add(focusedCluster);
+		return out;
+	});
+
+	let effectiveRelationFilter = $derived(relationFilter === 'all' ? undefined : relationFilter);
+
+	// Stats for the facet header.
+	let nodeCount = $derived(graphData?.nodes.length ?? 0);
+	let edgeCount = $derived(graphData?.links.length ?? 0);
+	let maxEdgeWeight = $derived.by(() => {
+		if (!graphData) return 0;
+		let m = 0;
+		for (const e of graphData.links) m = Math.max(m, e.value ?? 0);
+		return m;
+	});
+
 	function toggleFullscreen() {
 		fullscreen = !fullscreen;
-		if (fullscreen) {
-			document.body.style.overflow = 'hidden';
-		} else {
-			document.body.style.overflow = '';
+		if (typeof document !== 'undefined') {
+			document.body.style.overflow = fullscreen ? 'hidden' : '';
 		}
+	}
+
+	function toggleCategory(idx: number) {
+		if (hiddenCategories.has(idx)) hiddenCategories.delete(idx);
+		else hiddenCategories.add(idx);
+	}
+
+	function selectCluster(id: number) {
+		focusedCluster = focusedCluster === id ? null : id;
+	}
+
+	const CLUSTER_PALETTE = [
+		'#6366f1',
+		'#14b8a6',
+		'#f59e0b',
+		'#ec4899',
+		'#84cc16',
+		'#0ea5e9',
+		'#a855f7',
+		'#f43f5e',
+		'#22c55e',
+		'#eab308'
+	];
+
+	function clusterColor(id: number): string {
+		return CLUSTER_PALETTE[id % CLUSTER_PALETTE.length];
 	}
 
 	// Navigate to entity page on node click
@@ -94,7 +238,7 @@
 				url = locationUrl(nodeKey);
 				break;
 			case 'proj':
-				url = `${base}/projects`;
+				url = projectUrl(nodeKey);
 				break;
 			case 'genre':
 				url = genreUrl(nodeKey);
@@ -110,37 +254,169 @@
 	}
 </script>
 
+{#snippet facetPanel()}
+	{#if graphData}
+		<div class="space-y-4 p-4 rounded-lg border border-border bg-muted/30 text-sm">
+			<div class="flex items-center justify-between">
+				<span class="font-medium flex items-center gap-1.5">
+					<Filter class="h-4 w-4" /> Entity types
+				</span>
+				<span class="text-xs text-muted-foreground">
+					{nodeCount} nodes &middot; {edgeCount} edges
+				</span>
+			</div>
+			<div class="flex flex-wrap gap-1.5">
+				{#each graphData.categories as cat, idx (cat.name)}
+					{@const active = !hiddenCategories.has(idx)}
+					<button
+						type="button"
+						onclick={() => toggleCategory(idx)}
+						class="px-2.5 py-1 rounded-full text-xs border transition-colors {active
+							? 'bg-primary/15 border-primary/40 text-foreground'
+							: 'bg-background border-border text-muted-foreground'}"
+					>
+						{cat.name}
+					</button>
+				{/each}
+			</div>
+
+			{#if graphData.clusters && graphData.clusters.length > 0}
+				<div class="flex items-center justify-between">
+					<span class="font-medium">Discursive communities</span>
+					<button
+						type="button"
+						onclick={() => (focusedCluster = null)}
+						class="text-xs text-muted-foreground hover:text-foreground disabled:opacity-40"
+						disabled={focusedCluster === null}
+					>
+						Show all
+					</button>
+				</div>
+				<div class="flex flex-wrap gap-1.5">
+					{#each graphData.clusters as cluster (cluster.id)}
+						{@const active = focusedCluster === cluster.id}
+						<button
+							type="button"
+							onclick={() => selectCluster(cluster.id)}
+							class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs border transition-colors {active
+								? 'border-foreground/60 text-foreground'
+								: 'border-border text-muted-foreground hover:text-foreground'}"
+							style="background-color:{clusterColor(cluster.id)}22;"
+						>
+							<span
+								class="inline-block w-2.5 h-2.5 rounded-full"
+								style="background-color:{clusterColor(cluster.id)}"
+							></span>
+							{cluster.label}
+							<span class="opacity-60">{cluster.count}</span>
+						</button>
+					{/each}
+				</div>
+			{/if}
+
+			<div>
+				<div class="flex items-center justify-between mb-1.5">
+					<span class="font-medium">Edge relation</span>
+					<span class="text-xs text-muted-foreground">
+						direct = metadata, latent = structural
+					</span>
+				</div>
+				<div class="flex gap-1">
+					{#each [{ value: 'all' as const, label: 'All' }, { value: 'direct' as const, label: 'Direct only' }, { value: 'latent' as const, label: 'Latent only' }] as opt (opt.value)}
+						{@const active = relationFilter === opt.value}
+						<button
+							type="button"
+							onclick={() => (relationFilter = opt.value)}
+							class="px-2.5 py-1 rounded-md text-xs border transition-colors {active
+								? 'bg-primary/15 border-primary/40'
+								: 'bg-background border-border text-muted-foreground'}"
+						>
+							{opt.label}
+						</button>
+					{/each}
+				</div>
+			</div>
+
+			<div>
+				<div class="flex items-center justify-between mb-1.5">
+					<span class="font-medium">
+						Minimum edge weight: <span class="font-mono">{minEdgeValue.toFixed(1)}</span>
+					</span>
+					<label class="inline-flex items-center gap-1.5 text-xs text-muted-foreground">
+						<input
+							type="checkbox"
+							bind:checked={showCommunityHalo}
+							class="rounded border-border accent-primary"
+						/>
+						Community halo
+					</label>
+				</div>
+				<input
+					type="range"
+					min="0"
+					max={Math.max(1, maxEdgeWeight)}
+					step="0.1"
+					bind:value={minEdgeValue}
+					class="w-full h-2 bg-muted rounded-lg appearance-none cursor-pointer accent-primary"
+				/>
+			</div>
+		</div>
+	{/if}
+{/snippet}
+
+{#snippet graphBody(inFullscreen: boolean)}
+	{#if loading}
+		<div class="flex items-center justify-center {inFullscreen ? 'flex-1' : height}">
+			<p class="text-sm text-muted-foreground animate-pulse">Loading knowledge graph...</p>
+		</div>
+	{:else if error || !graphData || graphData.nodes.length === 0}
+		<div class="flex items-center justify-center {inFullscreen ? 'flex-1' : height}">
+			<p class="text-sm text-muted-foreground">No knowledge graph available</p>
+		</div>
+	{:else}
+		<div class={inFullscreen ? 'flex-1' : height}>
+			<NetworkGraph
+				data={graphData}
+				onclick={handleNodeClick}
+				{showCommunityHalo}
+				{minEdgeValue}
+				relationFilter={effectiveRelationFilter}
+				categoryFilter={visibleCategories}
+				clusterFilter={visibleClusters}
+				forceConfig={{
+					repulsion: inFullscreen ? 320 : 200,
+					gravity: 0.08,
+					edgeLength: inFullscreen ? [110, 240] : [80, 200],
+					friction: 0.3,
+					layoutAnimation: false
+				}}
+				class="w-full h-full"
+			/>
+		</div>
+	{/if}
+{/snippet}
+
 {#if fullscreen}
 	<!-- Fullscreen overlay -->
-	<div class="fixed inset-0 z-50 bg-background flex flex-col">
-		<div class="flex items-center justify-between px-4 py-3 border-b border-border">
+	<div class="fixed inset-0 z-50 bg-background flex">
+		<aside class="w-80 border-r border-border overflow-y-auto p-4 space-y-4">
 			<h2 class="text-lg font-semibold flex items-center gap-2">
 				<Share2 class="h-5 w-5 text-primary" />
-				Knowledge Graph
+				{title}
 			</h2>
-			<button
-				onclick={toggleFullscreen}
-				class="p-2 rounded-lg hover:bg-muted transition-colors"
-				aria-label="Exit fullscreen"
-			>
-				<Minimize2 class="h-5 w-5" />
-			</button>
-		</div>
-		<div class="flex-1">
-			{#if graphData}
-				<NetworkGraph
-					data={graphData}
-					onclick={handleNodeClick}
-					forceConfig={{
-						repulsion: 300,
-						gravity: 0.05,
-						edgeLength: [100, 250],
-						friction: 0.3,
-						layoutAnimation: false
-					}}
-					class="w-full h-full"
-				/>
-			{/if}
+			{@render facetPanel()}
+		</aside>
+		<div class="flex-1 flex flex-col">
+			<div class="flex items-center justify-end px-4 py-3 border-b border-border">
+				<button
+					onclick={toggleFullscreen}
+					class="p-2 rounded-lg hover:bg-muted transition-colors"
+					aria-label="Exit fullscreen"
+				>
+					<Minimize2 class="h-5 w-5" />
+				</button>
+			</div>
+			{@render graphBody(true)}
 		</div>
 	</div>
 {/if}
@@ -154,51 +430,46 @@
 						{#snippet children()}
 							<span class="flex items-center gap-2">
 								<Share2 class="h-5 w-5 text-primary" />
-								Knowledge Graph
+								{title}
 							</span>
 						{/snippet}
 					</CardTitle>
 					{#if graphData}
-						<button
-							onclick={toggleFullscreen}
-							class="p-2 rounded-lg hover:bg-muted transition-colors"
-							aria-label="Fullscreen"
-						>
-							<Maximize2 class="h-4 w-4 text-muted-foreground" />
-						</button>
+						<div class="flex items-center gap-1">
+							<button
+								onclick={() => (showFacets = !showFacets)}
+								class="p-2 rounded-lg hover:bg-muted transition-colors {showFacets
+									? 'bg-muted'
+									: ''}"
+								aria-label="Toggle facets"
+								aria-pressed={showFacets}
+							>
+								<SlidersHorizontal class="h-4 w-4 text-muted-foreground" />
+							</button>
+							<button
+								onclick={toggleFullscreen}
+								class="p-2 rounded-lg hover:bg-muted transition-colors"
+								aria-label="Fullscreen"
+							>
+								<Maximize2 class="h-4 w-4 text-muted-foreground" />
+							</button>
+						</div>
 					{/if}
 				</div>
 				<p class="text-xs text-muted-foreground mt-1">
-					Click a node to navigate. Drag to rearrange, scroll to zoom.
+					Click a node to navigate &middot; dashed edges = latent structural ties &middot; size =
+					centrality
 				</p>
 			{/snippet}
 		</CardHeader>
 		<CardContent>
 			{#snippet children()}
-				{#if loading}
-					<div class="flex items-center justify-center {height}">
-						<p class="text-sm text-muted-foreground animate-pulse">Loading knowledge graph...</p>
-					</div>
-				{:else if error || !graphData}
-					<div class="flex items-center justify-center {height}">
-						<p class="text-sm text-muted-foreground">No knowledge graph available</p>
-					</div>
-				{:else}
-					<div class={height}>
-						<NetworkGraph
-							data={graphData}
-							onclick={handleNodeClick}
-							forceConfig={{
-								repulsion: 200,
-								gravity: 0.08,
-								edgeLength: [80, 200],
-								friction: 0.3,
-								layoutAnimation: false
-							}}
-							class="w-full h-full"
-						/>
+				{#if showFacets}
+					<div class="mb-4">
+						{@render facetPanel()}
 					</div>
 				{/if}
+				{@render graphBody(false)}
 			{/snippet}
 		</CardContent>
 	{/snippet}
