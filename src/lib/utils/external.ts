@@ -27,7 +27,7 @@ export const EXTERNAL_PROJECTS: Project[] = [
 		members: [],
 		emails: [],
 		description:
-			'External collection contributed by the Bayreuth Global / Bayreuth Postkolonial initiative at the University of Bayreuth. Items describe scholarly publications on East African trade, glass-bead exchange, and related postcolonial topics.',
+			'External collection contributed by the Bayreuth Global / Bayreuth Postkolonial project at the University of Bayreuth.',
 		date: { start: null, end: null },
 		rdspace: {
 			collection: { uuid: null, handle: null },
@@ -50,7 +50,7 @@ export const EXTERNAL_PROJECTS: Project[] = [
 		members: [],
 		emails: [],
 		description:
-			'External collection sourced from the International Library of African Music (ILAM) at Rhodes University. Items cover the African Music journal and related musicological publications on the cultures and peoples of Africa.',
+			'External collection sourced from the International Library of African Music (ILAM) at Rhodes University.',
 		date: { start: null, end: null },
 		rdspace: {
 			collection: { uuid: null, handle: null },
