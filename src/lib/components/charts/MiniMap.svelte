@@ -2,9 +2,9 @@
 	import { onDestroy } from 'svelte';
 	import maplibregl from 'maplibre-gl';
 	import { goto } from '$app/navigation';
-	import { Globe, Map as MapIcon } from '@lucide/svelte';
 	import { CHART_COLORS, getThemeShadow } from '$lib/styles';
 	import { MAP_STYLE } from './map/mapHelpers';
+	import MapProjectionToggle from './map/MapProjectionToggle.svelte';
 	import { theme } from '$lib/stores/data';
 	import { scrollToTop } from '$lib/utils/urlSelection';
 
@@ -32,16 +32,11 @@
 	let { markers, zoom, class: className = '' }: Props = $props();
 
 	let mapContainer: HTMLDivElement | undefined = $state();
-	let map: maplibregl.Map | null = null;
+	// Tracked via $state so the projection-toggle button reactively picks
+	// up the live map instance once it's initialised.
+	let map: maplibregl.Map | null = $state(null);
 	let mapMarkers: maplibregl.Marker[] = [];
 	let initialTheme: string | null = null;
-	let isGlobe = $state(false);
-
-	function toggleProjection() {
-		if (!map) return;
-		isGlobe = !isGlobe;
-		map.setProjection({ type: isGlobe ? 'globe' : 'mercator' });
-	}
 
 	function initializeMap() {
 		if (!mapContainer || map) return;
@@ -208,18 +203,5 @@
 
 <div class="relative rounded-lg border overflow-hidden {className}" style="min-height: 250px;">
 	<div bind:this={mapContainer} class="w-full h-full" style="min-height: 250px;"></div>
-	<button
-		type="button"
-		onclick={toggleProjection}
-		class="absolute top-2 left-2 z-10 inline-flex items-center gap-1.5 bg-background/90 hover:bg-background border rounded-md px-2.5 py-1.5 text-xs font-medium shadow-sm transition-colors"
-		title={isGlobe ? 'Switch to flat (Mercator) view' : 'Switch to globe view'}
-	>
-		{#if isGlobe}
-			<MapIcon class="h-3.5 w-3.5" />
-			Flat
-		{:else}
-			<Globe class="h-3.5 w-3.5" />
-			Globe
-		{/if}
-	</button>
+	<MapProjectionToggle {map} />
 </div>

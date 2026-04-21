@@ -3,7 +3,8 @@
 	import { cn } from '$lib/utils/cn';
 	import type { EnrichedLocationsData, CollectionItem } from '$lib/types';
 	import maplibregl from 'maplibre-gl';
-	import { Maximize2, Minimize2, Globe, Map as MapIcon } from '@lucide/svelte';
+	import { Maximize2, Minimize2 } from '@lucide/svelte';
+	import MapProjectionToggle from './map/MapProjectionToggle.svelte';
 	import { SvelteMap } from 'svelte/reactivity';
 
 	// Extracted sub-modules
@@ -32,17 +33,11 @@
 
 	let mapContainer: HTMLDivElement | undefined = $state();
 	let mapWrapper: HTMLDivElement | undefined = $state();
-	let map: maplibregl.Map | null = null;
+	// $state-tracked so MapProjectionToggle picks up the instance once ready.
+	let map: maplibregl.Map | null = $state(null);
 	let mapReady = $state(false);
 	let isFullscreen = $state(false);
 	let initialTheme: string | null = null;
-	let isGlobe = $state(false);
-
-	function toggleProjection() {
-		if (!map) return;
-		isGlobe = !isGlobe;
-		map.setProjection({ type: isGlobe ? 'globe' : 'mercator' });
-	}
 
 	// Store pagination state for each marker
 	const paginationState = new SvelteMap<string, number>();
@@ -302,19 +297,7 @@
 			</button>
 
 			<!-- Globe / Flat toggle -->
-			<button
-				onclick={toggleProjection}
-				class="absolute top-2 left-14 z-10 inline-flex items-center gap-1.5 bg-background/90 hover:bg-background border rounded-md px-2.5 py-2 text-xs font-medium shadow-sm transition-colors"
-				title={isGlobe ? 'Switch to flat (Mercator) view' : 'Switch to globe view'}
-			>
-				{#if isGlobe}
-					<MapIcon class="h-[14px] w-[14px]" />
-					Flat
-				{:else}
-					<Globe class="h-[14px] w-[14px]" />
-					Globe
-				{/if}
-			</button>
+			<MapProjectionToggle {map} class="absolute top-2 left-14 z-10" />
 
 			<!-- Fullscreen title -->
 			{#if isFullscreen && title}
