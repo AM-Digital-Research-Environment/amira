@@ -1,9 +1,11 @@
 <script lang="ts">
 	import { onDestroy } from 'svelte';
 	import maplibregl from 'maplibre-gl';
+	import { goto } from '$app/navigation';
 	import { CHART_COLORS, getThemeShadow } from '$lib/styles';
 	import { MAP_STYLE } from './map/mapHelpers';
 	import { theme } from '$lib/stores/data';
+	import { scrollToTop } from '$lib/utils/urlSelection';
 
 	interface Marker {
 		latitude: number;
@@ -13,8 +15,11 @@
 		/** Optional image URL — when set, the marker renders as a circular badge
 		 *  using the image instead of the default coloured dot. */
 		iconUrl?: string;
-		/** Optional URL — when set, the popup label becomes a clickable link. */
+		/** Optional URL — when set, the popup label becomes a clickable link
+		 *  handled via SvelteKit's client-side router (no full reload). */
 		href?: string;
+		/** Optional secondary line rendered below the label, always unlinked. */
+		sublabel?: string;
 	}
 
 	interface Props {
@@ -94,18 +99,45 @@
 
 			if (m.label) {
 				const popup = new maplibregl.Popup({ offset: 16, closeButton: false });
+				const container = document.createElement('div');
+				container.style.display = 'flex';
+				container.style.flexDirection = 'column';
+				container.style.gap = '2px';
+
+				// Primary line: clickable link when href is set, otherwise plain text.
 				if (m.href) {
-					const escapedLabel = m.label
-						.replace(/&/g, '&amp;')
-						.replace(/</g, '&lt;')
-						.replace(/>/g, '&gt;');
-					const escapedHref = m.href.replace(/"/g, '&quot;');
-					popup.setHTML(
-						`<a href="${escapedHref}" class="font-medium hover:underline" style="color: hsl(var(--primary))">${escapedLabel}</a>`
-					);
+					const link = document.createElement('a');
+					link.href = m.href;
+					link.textContent = m.label;
+					link.className = 'font-medium hover:underline';
+					link.style.color = 'hsl(var(--primary))';
+					const href = m.href;
+					link.addEventListener('click', (e) => {
+						// Keep navigation inside SvelteKit's SPA router so the target
+						// route's $effect(page.url) hooks fire and reactive state
+						// (e.g. selected institution) actually updates. Scroll to
+						// top after the route resolves so the detail panel lands at
+						// the top of the viewport rather than wherever the user
+						// was scrolled when they clicked the map.
+						e.preventDefault();
+						void goto(href).then(() => scrollToTop());
+					});
+					container.appendChild(link);
 				} else {
-					popup.setText(m.label);
+					const text = document.createElement('span');
+					text.textContent = m.label;
+					text.className = 'font-medium';
+					container.appendChild(text);
 				}
+
+				if (m.sublabel) {
+					const sub = document.createElement('span');
+					sub.textContent = m.sublabel;
+					sub.className = 'text-xs text-muted-foreground';
+					container.appendChild(sub);
+				}
+
+				popup.setDOMContent(container);
 				marker.setPopup(popup);
 			}
 

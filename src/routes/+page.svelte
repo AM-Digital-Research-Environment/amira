@@ -82,13 +82,14 @@
 			iconUrl: `${base}/logos/Rhodes_University.png`,
 			href: institutionUrl('Rhodes University')
 		},
-		// Privileged partner — shown as a coloured dot (no logo) so it reads
-		// visually as a different category from the five AMRC sites above.
+		// Privileged partner. Uses the UFBA logo as marker; the second popup
+		// line reads "Privileged partner" so the category is clear.
 		{
 			latitude: -12.9974,
 			longitude: -38.5124,
-			label: 'Centro de Estudos Afro-Orientais (CEAO) — Privileged partner',
-			color: 'hsl(var(--chart-2))',
+			label: 'Centro de Estudos Afro-Orientais (CEAO) at the Universidade Federal da Bahia (UFBA)',
+			sublabel: 'Privileged partner',
+			iconUrl: `${base}/logos/UFBA.png`,
 			href: institutionUrl('Universidade Federal da Bahia')
 		}
 	];
@@ -286,10 +287,10 @@
 	</div>
 
 	<!-- Cluster geography: University of Bayreuth (lead), four AMRCs, plus
-	     CEAO at UFBA as a privileged partner (distinct colour). -->
+	     CEAO at UFBA as a privileged partner. -->
 	<ChartCard
-		title="Cluster Locations"
-		subtitle="The University of Bayreuth, the four Africa Multiple Research Centres (AMRCs), and the privileged partner CEAO at Universidade Federal da Bahia"
+		title="Africa Multiple Research Centres (AMRCs) and the privileged partner"
+		subtitle="The University of Bayreuth, the four AMRC host universities, and CEAO at Universidade Federal da Bahia"
 		contentHeight="h-chart-xl"
 	>
 		<MiniMap markers={clusterLocations} zoom={2} class="h-full" />
