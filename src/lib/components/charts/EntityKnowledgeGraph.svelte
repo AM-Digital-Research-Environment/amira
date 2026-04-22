@@ -2,6 +2,8 @@
 	import { base } from '$app/paths';
 	import { Card, CardHeader, CardTitle, CardContent } from '$lib/components/ui';
 	import NetworkGraph from './NetworkGraph.svelte';
+	import ChartDownloadButton from './ChartDownloadButton.svelte';
+	import { setChartRegistry, type ChartRegistry } from './chart-registry';
 	import type { NetworkData } from '$lib/types';
 	import { Share2, Maximize2, Minimize2, Filter, SlidersHorizontal } from '@lucide/svelte';
 	import { SvelteMap, SvelteSet } from 'svelte/reactivity';
@@ -43,6 +45,11 @@
 	}
 
 	let { entityType, entityId, height = 'h-chart-2xl', title = 'Knowledge Graph' }: Props = $props();
+
+	// Share the underlying NetworkGraph's ECharts instance with the header
+	// download button. NetworkGraph registers into this via EChart.svelte.
+	const chartRegistry = $state<ChartRegistry>({ instance: null });
+	setChartRegistry(chartRegistry);
 
 	// Map front-end entity-type values to the directory the precompute script
 	// writes to. Keeping this mapping in one place avoids a stream of small
@@ -462,6 +469,14 @@
 							>
 								<SlidersHorizontal class="h-4 w-4 text-muted-foreground" />
 							</button>
+							{#if chartRegistry.instance}
+								<ChartDownloadButton
+									getChart={() => chartRegistry.instance}
+									filename={title}
+									{title}
+									subtitle="{nodeCount} nodes · {edgeCount} edges"
+								/>
+							{/if}
 							<button
 								onclick={toggleFullscreen}
 								class="p-2 rounded-lg hover:bg-muted transition-colors"

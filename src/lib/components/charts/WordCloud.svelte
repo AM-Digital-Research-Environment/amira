@@ -9,6 +9,7 @@
 	import { theme } from '$lib/stores/data';
 	import { cn } from '$lib/utils/cn';
 	import { CHART_COLORS, FONT_FAMILY, getEChartsTheme, getThemeColors } from '$lib/styles';
+	import { getChartRegistry } from './chart-registry';
 
 	// echarts-wordcloud registers its own series; we just need the renderer + components.
 	echarts.use([CanvasRenderer, TitleComponent, TooltipComponent]);
@@ -28,6 +29,7 @@
 	let initRaf: number | null = null;
 	let resizeObserver: ResizeObserver | null = null;
 	let resizeTimeout: ReturnType<typeof setTimeout> | null = null;
+	const chartRegistry = getChartRegistry();
 
 	function getOption() {
 		const slicedData = data.slice(0, maxWords);
@@ -142,6 +144,10 @@
 			});
 		}
 
+		if (chartRegistry && !chartRegistry.instance) {
+			chartRegistry.instance = chartInstance;
+		}
+
 		// Throttle resize callbacks so bursty observer fires don't each
 		// trigger a synchronous layout query / render pass.
 		resizeObserver = new ResizeObserver(() => {
@@ -181,6 +187,9 @@
 		}
 		resizeObserver?.disconnect();
 		resizeObserver = null;
+		if (chartRegistry && chartRegistry.instance === chartInstance) {
+			chartRegistry.instance = null;
+		}
 		chartInstance?.dispose();
 		chartInstance = null;
 	});

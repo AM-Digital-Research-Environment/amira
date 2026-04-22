@@ -8,6 +8,7 @@
 	import { cn } from '$lib/utils/cn';
 	import { getEChartsTheme, ECHARTS_PERFORMANCE } from '$lib/styles';
 	import { ZoomIn, ZoomOut, RotateCcw } from '@lucide/svelte';
+	import { getChartRegistry } from './chart-registry';
 
 	// Every chart routed through this wrapper needs the canvas renderer.
 	// Series & feature components are registered by the individual chart
@@ -43,6 +44,10 @@
 	let resizeTimeout: ReturnType<typeof setTimeout> | null = null;
 	let initRaf: number | null = null;
 	let resizeObserver: ResizeObserver | null = null;
+	// Parent ChartCard (if any) exposes a registry so its header can wire a
+	// download button to this chart without the page passing the instance
+	// through props.
+	const chartRegistry = getChartRegistry();
 
 	/**
 	 * Count total data points in the option to determine if large mode is needed
@@ -134,6 +139,14 @@
 			chartInstance.on('click', onclick);
 		}
 
+		// First-wins: when a host (e.g. EntityKnowledgeGraph) renders two
+		// NetworkGraphs simultaneously (inline + fullscreen portal), the
+		// first to mount claims the registry so the header button keeps
+		// pointing at the always-mounted inline chart.
+		if (chartRegistry && !chartRegistry.instance) {
+			chartRegistry.instance = chartInstance;
+		}
+
 		// Handle resize with throttling via ResizeObserver
 		resizeObserver = new ResizeObserver(handleResize);
 		resizeObserver.observe(chartContainer);
@@ -210,6 +223,9 @@
 		}
 		resizeObserver?.disconnect();
 		resizeObserver = null;
+		if (chartRegistry && chartRegistry.instance === chartInstance) {
+			chartRegistry.instance = null;
+		}
 		chartInstance?.dispose();
 		chartInstance = null;
 	});

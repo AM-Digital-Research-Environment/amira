@@ -76,6 +76,8 @@ Every named entity is a link:
 
 **WissKI Navigate** — Optional deep-links to WissKI entities surface throughout the dashboard via pre-computed URL mappings (`dev.wisski_urls.*.json`), connecting every dashboard record back to its source in the WissKI knowledge base.
 
+**Chart downloads** — Every ECharts visualisation exposes a download button in its card header that exports the chart as a PNG with the card title, subtitle, and export date composited on top, using the site's typography and theme (light or dark).
+
 ## Tech Stack
 
 - **Framework** — [SvelteKit](https://svelte.dev/docs/kit) 5 with [Svelte 5 runes](https://svelte.dev/docs/svelte/what-are-runes) (`$state`, `$derived`, `$derived.by`, `$effect`, `$props`)
@@ -111,6 +113,7 @@ Every named entity is a link:
 | `LocationMap`          | Map              | MapLibre GL multi-marker map with clustered popups, Flat / Globe projection toggle                                                                                                 |
 | `MiniMap`              | Map              | Lightweight single-location map with marker                                                                                                                                        |
 | `EChart`               | Base wrapper     | Shared ECharts wrapper: dynamic theme switching via `setTheme()`, zoom controls, resize handling, performance heuristics                                                           |
+| `ChartDownloadButton`  | Action           | Exports the parent chart as a PNG with title, subtitle, and export date composited on top; auto-wired to any chart hosted inside a `ChartCard`                                     |
 
 ## Development
 
@@ -140,6 +143,8 @@ src/
 │   │   │   ├── section-badge, wisski-link, scroll-to-top, seo
 │   │   ├── charts/          # ECharts + MapLibre chart components
 │   │   │   ├── EChart.svelte              # Base wrapper
+│   │   │   ├── ChartDownloadButton.svelte # PNG export with title / subtitle composited
+│   │   │   ├── chart-registry.ts          # Context bridge: chart instance ↔ ChartCard header
 │   │   │   ├── Timeline, StackedTimeline
 │   │   │   ├── BarChart, PieChart, WordCloud
 │   │   │   ├── HeatmapChart, BeeswarmChart, GanttChart
