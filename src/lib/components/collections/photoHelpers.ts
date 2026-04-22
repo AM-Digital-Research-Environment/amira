@@ -8,6 +8,7 @@
  */
 
 import type { CollectionItem, DateRange } from '$lib/types';
+import type { ThumbnailManifest } from '$lib/stores/data';
 
 /**
  * Best available preview image URL for an item, or null if none.
@@ -15,6 +16,26 @@ import type { CollectionItem, DateRange } from '$lib/types';
  */
 export function getPreviewImage(item: CollectionItem): string | null {
 	return item.previewImage?.[0] ?? null;
+}
+
+/**
+ * Resolve a remote preview URL to a locally-served WebP thumbnail when one
+ * is available in the manifest. Falls back to the original URL when the
+ * manifest hasn't loaded yet, when the URL is absent from it, or when the
+ * URL is null. Components subscribe to `$thumbnailManifest` so the resolved
+ * URL becomes reactive — once the manifest arrives, masonry / lightbox
+ * cards swap from the remote source to the local thumbnail without
+ * re-rendering anything else.
+ */
+export function resolveThumbnailUrl(
+	originalUrl: string | null,
+	manifest: ThumbnailManifest | null,
+	basePath: string
+): string | null {
+	if (!originalUrl) return null;
+	const entry = manifest?.[originalUrl];
+	if (!entry) return originalUrl;
+	return `${basePath}/thumbnails/${entry.file}`;
 }
 
 /**

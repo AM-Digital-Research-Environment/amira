@@ -3,6 +3,11 @@
 requests>=2.33.1
 pymongo>=4.17.0
 
+# Thumbnail fetcher (scripts/fetch_thumbnails.py): downloads each unique
+# previewImage URL once, downsizes, and writes a WebP under static/thumbnails/.
+# Pillow is the only new requirement; requests is already pinned above.
+pillow>=12.2.0
+
 # Knowledge-graph pipeline (scripts/generate_knowledge_graphs.py):
 # networkx provides the graph data structure, Louvain community detection,
 # and PageRank. scipy is optional but strongly recommended -- networkx uses

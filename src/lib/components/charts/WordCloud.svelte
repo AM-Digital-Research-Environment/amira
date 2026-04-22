@@ -8,7 +8,7 @@
 	import type { WordCloudDataPoint } from '$lib/types';
 	import { theme } from '$lib/stores/data';
 	import { cn } from '$lib/utils/cn';
-	import { CHART_COLORS, FONT_FAMILY, getThemeColors } from '$lib/styles';
+	import { CHART_COLORS, FONT_FAMILY, getEChartsTheme, getThemeColors } from '$lib/styles';
 
 	// echarts-wordcloud registers its own series; we just need the renderer + components.
 	echarts.use([CanvasRenderer, TitleComponent, TooltipComponent]);
@@ -55,6 +55,21 @@
 			tooltip: {
 				confine: true,
 				show: true,
+				// Set the tooltip palette inline. echarts-wordcloud renders
+				// its own tooltip path that doesn't merge the global theme's
+				// tooltip styles, so we have to spell out backgroundColor /
+				// borderColor / textStyle here. Without this the tooltip
+				// stays white-on-light even in dark mode.
+				backgroundColor: themeColors.chartTooltipBg,
+				borderColor: themeColors.chartTooltipBorder,
+				borderWidth: 1,
+				padding: [8, 12],
+				textStyle: {
+					color: themeColors.chartText,
+					fontFamily: FONT_FAMILY.sans,
+					fontSize: 12
+				},
+				extraCssText: 'border-radius: 8px; box-shadow: 0 10px 30px -10px hsl(0 0% 0% / 0.4);',
 				formatter: (params: unknown) => {
 					const p = params as { name: string; value: number };
 					return `${p.name}: ${p.value}`;
@@ -102,10 +117,22 @@
 		};
 	}
 
+	function applyTheme() {
+		if (!chartInstance) return;
+		const themeConfig = getEChartsTheme($theme === 'dark');
+		// ECharts 6: setTheme() lets us swap the tooltip / text palette
+		// without disposing the chart. WordCloud previously skipped this
+		// call, so its tooltip stayed light-on-light in dark mode.
+		if (typeof chartInstance.setTheme === 'function') {
+			chartInstance.setTheme(themeConfig);
+		}
+	}
+
 	function initChart() {
 		if (!chartContainer) return;
 
 		chartInstance = echarts.init(chartContainer);
+		applyTheme();
 		chartInstance.setOption(getOption());
 
 		if (onclick) {
@@ -129,6 +156,7 @@
 		data;
 		maxWords;
 		if (chartInstance) {
+			applyTheme();
 			chartInstance.setOption(getOption(), true);
 		}
 	});

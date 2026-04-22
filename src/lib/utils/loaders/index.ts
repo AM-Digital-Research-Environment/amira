@@ -9,9 +9,10 @@ export {
 	loadAllUniversityCollections,
 	loadAllExternalCollections,
 	loadAllCollections,
+	loadAllCollectionsTagged,
+	loadLightData,
 	getUniversities,
-	loadResearchSections,
-	loadAllData
+	loadResearchSections
 } from './collectionLoader';
 export { loadEnrichedLocations } from './geolocLoader';
 export { loadSemanticMap, loadSimilarItems } from './embeddingsLoader';

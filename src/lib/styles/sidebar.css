@@ -62,10 +62,17 @@
 		}
 	}
 
-	/* Sidebar header */
+	/* Sidebar header. Three "tracks" share the row:
+	     - the logo image, in the natural flex flow on the left
+	     - the brand text, absolute-centred to the header so it sits at the
+	       true horizontal midpoint regardless of the icon / toggle widths
+	     - the collapse toggle, absolute-pinned to the right edge
+	   When collapsed, the brand text fades, the toggle hides, and the logo
+	   image centres via `justify-content: center`. */
 	.sidebar-header {
 		display: flex;
 		align-items: center;
+		position: relative;
 		height: var(--layout-header-height);
 		padding: 0 var(--space-4);
 		border-bottom: 1px solid hsl(var(--sidebar-border));
@@ -74,8 +81,8 @@
 	}
 
 	[data-collapsed='true'] .sidebar-header {
-		padding: 0 var(--space-3);
 		justify-content: center;
+		padding: 0 var(--space-3);
 	}
 
 	/* Sidebar content - scrollable */
@@ -108,6 +115,13 @@
 		padding: var(--space-2) 0;
 	}
 
+	/* Tighter group spacing when collapsed — the labels are gone, so the
+	   default vertical padding produces visible gaps that read as random
+	   whitespace between section icons. */
+	[data-collapsed='true'] .sidebar-group {
+		padding: var(--space-1) 0;
+	}
+
 	.sidebar-group-label {
 		padding: var(--space-2) var(--space-3);
 		font-size: var(--font-size-xs);
@@ -118,9 +132,16 @@
 		transition: opacity var(--duration-fast);
 	}
 
+	/* When collapsed, the section header text is hidden but its padding still
+	   produced a tall visible gap between icon groups. Collapse it to zero
+	   height so the sidebar reads as a tighter, continuous icon rail. */
 	[data-collapsed='true'] .sidebar-group-label {
 		opacity: 0;
 		pointer-events: none;
+		padding: 0;
+		height: 0;
+		margin: 0;
+		overflow: hidden;
 	}
 
 	/* Navigation item */
@@ -144,9 +165,12 @@
 			justify-content var(--duration-slow);
 	}
 
-	/* Collapsed: center the icon */
+	/* Collapsed: center the icon. Drop the inter-flex `gap` to 0 — the label
+	   shrinks to width 0 but the gap between flex items remains, which would
+	   otherwise push the icon visually off-centre to the left of the row. */
 	[data-collapsed='true'] .sidebar-nav-item {
 		justify-content: center;
+		gap: 0;
 		padding: var(--space-2-5) var(--space-2);
 	}
 
@@ -205,7 +229,6 @@
 		align-items: center;
 		gap: var(--space-3);
 		overflow: hidden;
-		flex: 1;
 		min-width: 0;
 	}
 
@@ -217,7 +240,16 @@
 		object-fit: contain;
 	}
 
+	/* Absolute-centred to the .sidebar-header. Removing the text from the
+	   flex flow means it sits at the true horizontal midpoint of the
+	   sidebar instead of being pushed off-centre by the icon on the left
+	   and the toggle on the right. Clicks still trigger the parent <a> link
+	   because the text remains inside it in the DOM. */
 	.sidebar-logo-text {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
 		font-family: var(--font-display);
 		font-size: var(--font-size-lg);
 		font-weight: 700;
@@ -225,37 +257,12 @@
 		letter-spacing: -0.02em;
 		line-height: 1.2;
 		white-space: nowrap;
-		flex: 1;
-		text-align: center;
-		/* Compensate for the toggle button on the right so the text reads as
-		   visually centred between the logo icon and the right edge. */
-		padding-right: var(--space-8);
-		transition:
-			opacity var(--duration-slow) var(--ease-expo-out),
-			width var(--duration-slow) var(--ease-expo-out),
-			margin var(--duration-slow) var(--ease-expo-out),
-			padding var(--duration-slow) var(--ease-expo-out);
+		transition: opacity var(--duration-slow) var(--ease-expo-out);
 	}
 
 	[data-collapsed='true'] .sidebar-logo-text {
 		opacity: 0;
-		width: 0;
-		margin-left: 0;
 		pointer-events: none;
-		overflow: hidden;
-	}
-
-	/* Hide toggle button when collapsed - logo icon becomes the only element */
-	[data-collapsed='true'] .sidebar-toggle {
-		position: absolute;
-		right: var(--space-2);
-		opacity: 0;
-		pointer-events: none;
-	}
-
-	[data-collapsed='true']:hover .sidebar-toggle {
-		opacity: 1;
-		pointer-events: auto;
 	}
 
 	/* Sidebar toggle/rail button */
@@ -292,8 +299,15 @@
 		background: hsl(var(--sidebar-primary));
 	}
 
-	/* Collapse toggle button */
+	/* Collapse toggle button. Pinned absolutely to the right edge of the
+	   header so the logo group can sit centred in the remaining space.
+	   Hidden when the sidebar is collapsed (the icon takes the centre slot)
+	   and revealed on hover so the user can still expand it. */
 	.sidebar-toggle {
+		position: absolute;
+		right: var(--space-3);
+		top: 50%;
+		transform: translateY(-50%);
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -306,7 +320,8 @@
 		cursor: pointer;
 		transition:
 			color var(--duration-fast),
-			background var(--duration-fast);
+			background var(--duration-fast),
+			opacity var(--duration-fast);
 	}
 
 	.sidebar-toggle:hover {
@@ -318,6 +333,16 @@
 		width: 16px;
 		height: 16px;
 		transition: transform var(--duration-slow) var(--ease-expo-out);
+	}
+
+	[data-collapsed='true'] .sidebar-toggle {
+		opacity: 0;
+		pointer-events: none;
+	}
+
+	[data-collapsed='true']:hover .sidebar-toggle {
+		opacity: 1;
+		pointer-events: auto;
 	}
 
 	[data-collapsed='true'] .sidebar-toggle-icon {

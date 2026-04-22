@@ -348,28 +348,17 @@ export async function loadResearchSections(
 }
 
 /**
- * Load all data for the dashboard. External virtual projects (BayGlo, ILAM)
- * are reconciled with the MongoDB-backed projects list: entries that already
- * exist in MongoDB keep their authoritative fields (PI, dates, etc.) but get
- * `researchSection: ['External']` filled in when empty so the External
- * pseudo-section counts them. Entries missing from MongoDB are appended.
+ * Reconcile MongoDB-backed projects with the hand-maintained EXTERNAL_PROJECTS
+ * list (BayGlo, ILAM, etc). Entries that already exist in MongoDB keep their
+ * authoritative fields but get `researchSection: ['External']` filled in when
+ * empty so the External pseudo-section counts them. Entries missing from
+ * MongoDB are appended.
  */
-export async function loadAllData(basePath: string = '') {
-	const [projects, persons, institutions, groups, allCollections] = await Promise.all([
-		loadProjects(basePath),
-		loadPersons(basePath),
-		loadInstitutions(basePath),
-		loadGroups(basePath),
-		loadAllCollections(basePath)
-	]);
-
+function reconcileExternalProjects(projects: Project[]): Project[] {
 	const virtualById = new Map(EXTERNAL_PROJECTS.map((p) => [p.id, p]));
 	const reconciled: Project[] = projects.map((p) => {
 		const virtual = virtualById.get(p.id);
 		if (!virtual) return p;
-		// Preserve authoritative MongoDB fields; fall back to virtual values
-		// for the extras MongoDB doesn't supply (research section, richer
-		// institution list, description).
 		return {
 			...p,
 			researchSection: p.researchSection?.length ? p.researchSection : virtual.researchSection,
@@ -377,17 +366,37 @@ export async function loadAllData(basePath: string = '') {
 			description: p.description?.trim() ? p.description : virtual.description
 		};
 	});
-
 	const existingIds = new Set(reconciled.map((p) => p.id));
 	const externalToAppend = EXTERNAL_PROJECTS.filter((p) => !existingIds.has(p.id));
+	return [...reconciled, ...externalToAppend];
+}
 
+/**
+ * Load only the lightweight stores (~500 kB combined) needed for the app
+ * shell and the routes that don't depend on collection items.
+ *
+ * Pairs with `loadAllCollectionsTagged()` which is fired in parallel and
+ * resolves the heavier `allCollections` store separately.
+ */
+export async function loadLightData(basePath: string = '') {
+	const [projects, persons, institutions, groups] = await Promise.all([
+		loadProjects(basePath),
+		loadPersons(basePath),
+		loadInstitutions(basePath),
+		loadGroups(basePath)
+	]);
 	return {
-		projects: [...reconciled, ...externalToAppend],
+		projects: reconcileExternalProjects(projects),
 		persons,
 		institutions,
-		groups,
-		collections: {
-			all: allCollections
-		}
+		groups
 	};
+}
+
+/**
+ * Tier-2 collections fetch. Just an alias of `loadAllCollections` named to
+ * pair with `loadLightData` at the call site in `data.ts`.
+ */
+export async function loadAllCollectionsTagged(basePath: string = ''): Promise<CollectionItem[]> {
+	return loadAllCollections(basePath);
 }

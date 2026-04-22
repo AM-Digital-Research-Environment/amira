@@ -4,9 +4,12 @@
 		getPreviewImage,
 		getDescriptiveTitle,
 		getPrimaryDate,
-		getLocationLabel
+		getLocationLabel,
+		resolveThumbnailUrl
 	} from './photoHelpers';
 	import { MapPin, Calendar } from '@lucide/svelte';
+	import { thumbnailManifest } from '$lib/stores/data';
+	import { base } from '$app/paths';
 
 	interface Props {
 		item: CollectionItem;
@@ -20,12 +23,20 @@
 
 	let { item, onSelect, density = 'default', count = 1 }: Props = $props();
 
-	let previewUrl = $derived(getPreviewImage(item));
+	// Prefer the locally-served WebP thumbnail when the manifest knows about
+	// this URL. Falls back to the original remote URL until the manifest
+	// arrives (or for items that aren't in it).
+	let originalUrl = $derived(getPreviewImage(item));
+	let previewUrl = $derived(resolveThumbnailUrl(originalUrl, $thumbnailManifest, base));
 	let title = $derived(getDescriptiveTitle(item));
 	let date = $derived(getPrimaryDate(item));
 	let location = $derived(getLocationLabel(item));
 
 	let failed = $state(false);
+	// If the local thumbnail 404s (e.g. manifest stale relative to disk),
+	// retry once with the original remote URL before giving up entirely.
+	let triedRemote = $state(false);
+	let displayUrl = $derived(triedRemote ? originalUrl : previewUrl);
 	// Natural aspect-ratio is filled in on image load so the frame can
 	// shrink-wrap to the actual photo shape. Until load, a 4:3 placeholder
 	// reserves space so infinite-scroll doesn't cause neighbouring cards
@@ -36,6 +47,16 @@
 		const img = event.currentTarget as HTMLImageElement;
 		if (img.naturalWidth > 0 && img.naturalHeight > 0) {
 			naturalRatio = img.naturalWidth / img.naturalHeight;
+		}
+	}
+
+	function onImageError() {
+		// First failure on the local thumbnail → retry with the remote source.
+		// Second failure → show the "No image" fallback.
+		if (!triedRemote && previewUrl !== originalUrl) {
+			triedRemote = true;
+		} else {
+			failed = true;
 		}
 	}
 
@@ -53,13 +74,13 @@
 
 <button type="button" class="photo-card" onclick={handleClick} onkeydown={handleKey}>
 	<div class="photo-card-frame" style:aspect-ratio={naturalRatio ? naturalRatio : '4 / 3'}>
-		{#if previewUrl && !failed}
+		{#if displayUrl && !failed}
 			<img
-				src={previewUrl}
+				src={displayUrl}
 				alt={title}
 				loading="lazy"
 				draggable="false"
-				onerror={() => (failed = true)}
+				onerror={onImageError}
 				onload={onImageLoad}
 			/>
 		{:else}

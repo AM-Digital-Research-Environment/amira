@@ -157,18 +157,21 @@
 
 		const optimizedOption = applyPerformanceOptimizations(option);
 
-		// ECharts 6: if setTheme is not available, fall back to manual merge
-		if (typeof chartInstance.setTheme !== 'function') {
-			const themeConfig = getEChartsTheme($theme === 'dark');
-			const mergedOption = echarts.util.merge(
-				echarts.util.clone(themeConfig),
-				optimizedOption,
-				true
-			);
-			chartInstance.setOption(mergedOption, notMerge);
-		} else {
-			chartInstance.setOption(optimizedOption, notMerge);
-		}
+		// Merge a SUBSET of the theme into the option — specifically the
+		// `tooltip` defaults, since ECharts 6's `setTheme()` does not
+		// propagate `theme.tooltip` styling onto the floating tooltip DOM
+		// (it stays white in dark mode otherwise). Other theme keys
+		// (`legend`, `title`, axes, colors) continue to flow through
+		// `setTheme()` and don't need merging here — and crucially we must
+		// NOT merge `legend` from the theme into every option, or charts
+		// that never declared a legend (e.g. heatmap) would suddenly grow
+		// one because LegendComponent is registered globally by other
+		// chart modules. Per-chart `tooltip` overrides still win because
+		// the option's keys overwrite the theme's during the deep merge.
+		const themeConfig = getEChartsTheme($theme === 'dark');
+		const tooltipBase = { tooltip: echarts.util.clone(themeConfig.tooltip) };
+		const mergedOption = echarts.util.merge(tooltipBase, optimizedOption, true);
+		chartInstance.setOption(mergedOption, notMerge);
 	}
 
 	// React to theme changes — use setTheme for ECharts 6 dynamic switching

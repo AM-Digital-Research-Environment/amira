@@ -4,7 +4,14 @@
 	import { browser } from '$app/environment';
 	import { base } from '$app/paths';
 	import { Sidebar, Header } from '$lib/components/layout';
-	import { initializeData, theme, isLoading, loadError } from '$lib/stores/data';
+	import { ScrollToTop } from '$lib/components/ui';
+	import {
+		initializeData,
+		theme,
+		isLoading,
+		collectionsLoading,
+		loadError
+	} from '$lib/stores/data';
 	import type { Snippet } from 'svelte';
 	import { AlertCircle } from '@lucide/svelte';
 
@@ -60,7 +67,7 @@
 			isSidebarCollapsed={sidebarCollapsed}
 		/>
 
-		<main class="flex-1 p-4 lg:p-6 overflow-auto">
+		<main id="app-scroll" class="flex-1 p-4 lg:p-6 overflow-auto">
 			{#if $loadError}
 				<div class="flex items-center justify-center h-64 animate-fade-in">
 					<div class="text-center max-w-md">
@@ -82,13 +89,17 @@
 			{:else}
 				<!--
 					Children render unconditionally so the page header (the LCP
-					element on most routes) paints immediately. While data is in
-					flight, stores hold empty arrays and downstream components
-					show their empty states; once `initializeData` resolves the
-					stores update reactively. A non-blocking inline indicator
-					reassures users that work is happening above the fold.
+					element on most routes) paints immediately. Two-tier load:
+					`isLoading` covers the lightweight stores (~500 kB) and
+					flips false within a few hundred ms. `collectionsLoading`
+					covers the heavier per-university dumps (~13 MB) and stays
+					true while they trickle in — the banner stays up so the
+					user knows charts will fill in shortly. Routes that don't
+					need collections (people, institutions, groups,
+					project-explorer) are fully interactive once `isLoading`
+					flips, regardless of `collectionsLoading`.
 				-->
-				{#if $isLoading}
+				{#if $isLoading || $collectionsLoading}
 					<div
 						class="flex items-center justify-center gap-2 mb-4 text-sm text-muted-foreground animate-fade-in"
 						aria-live="polite"
@@ -96,7 +107,7 @@
 						<div
 							class="h-3 w-3 rounded-full border-2 border-primary/30 border-t-primary animate-spin"
 						></div>
-						<span>Loading research data…</span>
+						<span>{$isLoading ? 'Loading research data…' : 'Indexing collections…'}</span>
 					</div>
 				{/if}
 				<div class="animate-fade-in">
@@ -105,4 +116,5 @@
 			{/if}
 		</main>
 	</div>
+	<ScrollToTop target="#app-scroll" />
 </div>

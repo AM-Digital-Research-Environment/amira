@@ -180,7 +180,18 @@
 		align-items: center;
 		justify-content: center;
 		padding: 2rem;
+		/* On mobile the backdrop itself scrolls so a tall metadata card
+		   never clips off the bottom of the viewport. The frame grows
+		   naturally; the backdrop is the scroll container. */
+		overflow-y: auto;
 		transition: left var(--duration-slow) var(--ease-expo-out);
+	}
+
+	@media (max-width: 900px) {
+		.lightbox-backdrop {
+			padding: 1rem;
+			align-items: flex-start;
+		}
 	}
 
 	/* Desktop: inset by the current sidebar width so the lightbox frame
@@ -249,9 +260,9 @@
 	@media (max-width: 900px) {
 		.lightbox-frame {
 			grid-template-columns: 1fr;
-			grid-template-rows: 1fr auto;
-			max-height: 100%;
-			overflow: auto;
+			grid-template-rows: auto auto;
+			max-height: none;
+			overflow: visible;
 		}
 	}
 
@@ -269,9 +280,33 @@
 		display: block;
 	}
 
+	/* On mobile — especially portrait phones — tall photos previously filled
+	   the screen and pushed the metadata card below the fold. Cap the image
+	   at roughly half the viewport so title, date, topics etc. are visible
+	   without scrolling inside the modal. */
+	@media (max-width: 900px) {
+		.lightbox-image :global(img) {
+			max-height: 55vh;
+		}
+	}
+	@media (max-width: 640px) and (orientation: portrait) {
+		.lightbox-image :global(img) {
+			max-height: 50vh;
+		}
+	}
+
 	.lightbox-meta {
 		padding: 1.5rem;
 		overflow-y: auto;
+	}
+
+	/* On mobile meta flows naturally and the backdrop scrolls the whole
+	   modal — nested scrollers inside a scrollable backdrop are awkward
+	   on touch devices. */
+	@media (max-width: 900px) {
+		.lightbox-meta {
+			overflow-y: visible;
+		}
 	}
 
 	.lightbox-meta-inner {

@@ -97,14 +97,20 @@
 			left: '3%',
 			right: '6%',
 			top: title ? '12%' : '5%',
-			bottom: '18%'
+			// Reserve enough room below the plot area for the x-axis name AND
+			// the dataZoom slider stacked beneath it. Without this the slider
+			// sits over the "Start Year" label and the page looks cramped.
+			bottom: '22%'
 		}),
 		dataZoom: [
 			{
 				type: 'slider',
 				xAxisIndex: 0,
-				bottom: 30,
-				height: 20,
+				// Pin the slider to the very bottom — the axis name lives
+				// between the tick labels and the slider, with breathing room
+				// above and below.
+				bottom: 6,
+				height: 18,
 				startValue: minValue - 1,
 				endValue: maxValue + 1,
 				labelFormatter: (val: number) => String(Math.round(val)),
@@ -114,8 +120,10 @@
 		xAxis: {
 			type: 'value',
 			name: valueAxisLabel,
-			nameLocation: 'center',
-			nameGap: 30,
+			nameLocation: 'middle',
+			// Tighter gap so the name stays close to the axis ticks instead of
+			// drifting down into the slider area below.
+			nameGap: 28,
 			nameTextStyle: { ...labelStyle },
 			min: minValue - 1,
 			max: maxValue + 1,
