@@ -186,65 +186,6 @@
 		{/each}
 	</div>
 
-	<!-- Footer -->
-	<div class="sidebar-footer">
-		{#if isCollapsed}
-			<!-- Collapsed: just a compact DRE badge so the rail stays uncluttered. -->
-			<p
-				class="text-center text-2xs font-semibold tracking-wide"
-				style="color: hsl(var(--sidebar-muted-foreground))"
-			>
-				<a
-					href="https://www.africamultiple.uni-bayreuth.de/en/1_5-Digital-Solutions1/index.html"
-					target="_blank"
-					rel="noopener noreferrer"
-					class="hover:text-primary transition-colors"
-					title="Digital Research Environment (DRE)"
-				>
-					DRE
-				</a>
-			</p>
-		{:else}
-			<a
-				href="https://www.africamultiple.uni-bayreuth.de/"
-				target="_blank"
-				rel="noopener noreferrer"
-				class="block mx-auto mb-2 opacity-80 hover:opacity-100 transition-opacity"
-				style="max-width: 140px;"
-			>
-				<img
-					src="{base}/logos/africamultiple.jpg"
-					alt="Africa Multiple"
-					class="w-full h-auto rounded-md"
-				/>
-			</a>
-			<p class="text-2xs text-center" style="color: hsl(var(--sidebar-muted-foreground))">
-				v{__APP_VERSION__}
-			</p>
-			<p class="text-2xs text-center mt-1" style="color: hsl(var(--sidebar-muted-foreground))">
-				&copy; {new Date().getFullYear()}
-				<a
-					href="https://www.frederickmadore.com/"
-					target="_blank"
-					rel="noopener noreferrer"
-					class="hover:text-primary transition-colors"
-				>
-					Frédérick Madore
-				</a>
-			</p>
-			<p class="text-2xs text-center mt-1" style="color: hsl(var(--sidebar-muted-foreground))">
-				<a
-					href="https://www.africamultiple.uni-bayreuth.de/en/1_5-Digital-Solutions1/index.html"
-					target="_blank"
-					rel="noopener noreferrer"
-					class="hover:text-primary transition-colors"
-				>
-					Digital Research Environment (DRE)
-				</a>
-			</p>
-		{/if}
-	</div>
-
 	<!-- Rail for resize/toggle (desktop only) -->
 	<button
 		type="button"

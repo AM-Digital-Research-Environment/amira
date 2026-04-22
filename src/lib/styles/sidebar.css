@@ -98,18 +98,6 @@
 		padding: var(--space-2);
 	}
 
-	/* Sidebar footer */
-	.sidebar-footer {
-		padding: var(--space-3);
-		border-top: 1px solid hsl(var(--sidebar-border));
-		flex-shrink: 0;
-		transition: padding var(--duration-slow) var(--ease-expo-out);
-	}
-
-	[data-collapsed='true'] .sidebar-footer {
-		padding: var(--space-2);
-	}
-
 	/* Sidebar group */
 	.sidebar-group {
 		padding: var(--space-2) 0;
@@ -364,18 +352,5 @@
 	.sidebar-overlay[data-visible='true'] {
 		opacity: 1;
 		pointer-events: auto;
-	}
-
-	/* Footer card in sidebar */
-	.sidebar-footer-card {
-		padding: var(--space-3);
-		background: hsl(var(--sidebar-accent));
-		border-radius: var(--radius-lg);
-		transition: opacity var(--duration-fast);
-	}
-
-	[data-collapsed='true'] .sidebar-footer-card {
-		opacity: 0;
-		pointer-events: none;
 	}
 }

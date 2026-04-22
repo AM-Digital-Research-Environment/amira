@@ -3,7 +3,7 @@
 	import { onMount } from 'svelte';
 	import { browser } from '$app/environment';
 	import { base } from '$app/paths';
-	import { Sidebar, Header } from '$lib/components/layout';
+	import { Sidebar, Header, Footer } from '$lib/components/layout';
 	import { ScrollToTop } from '$lib/components/ui';
 	import {
 		initializeData,
@@ -115,6 +115,7 @@
 				</div>
 			{/if}
 		</main>
+		<Footer />
 	</div>
 	<ScrollToTop target="#app-scroll" />
 </div>
