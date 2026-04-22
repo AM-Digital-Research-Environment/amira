@@ -91,6 +91,12 @@
 		transform: translateY(-2px);
 	}
 
+	/* Hide when a modal dialog (e.g. the photo lightbox) is open — the
+	   translucent backdrop lets the button bleed through otherwise. */
+	:global(body:has([role='dialog'][aria-modal='true'])) .scroll-top-btn {
+		display: none;
+	}
+
 	@media (min-width: 640px) {
 		.scroll-top-btn {
 			right: 1.5rem;
