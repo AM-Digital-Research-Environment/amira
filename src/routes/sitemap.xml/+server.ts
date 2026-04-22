@@ -14,7 +14,7 @@ import type { RequestHandler } from './$types';
 
 export const prerender = true;
 
-const SITE = 'https://am-digital-research-environment.github.io/WissKI-dashboard';
+const SITE = 'https://am-digital-research-environment.github.io/amira';
 
 interface Route {
 	path: string;

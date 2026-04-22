@@ -3,10 +3,10 @@
 	import { base } from '$app/paths';
 
 	const SITE_NAME = 'Africa Multiple Interactive Research Atlas (AMIRA)';
-	// SITE_URL already includes the base path (/WissKI-dashboard), so when we
-	// build the canonical URL we strip the same base from $page.url.pathname
-	// to avoid duplicating it (e.g. /WissKI-dashboard/WissKI-dashboard/people).
-	const SITE_URL = 'https://am-digital-research-environment.github.io/WissKI-dashboard';
+	// SITE_URL already includes the base path (/amira), so when we build the
+	// canonical URL we strip the same base from $page.url.pathname to avoid
+	// duplicating it (e.g. /amira/amira/people).
+	const SITE_URL = 'https://am-digital-research-environment.github.io/amira';
 	const DEFAULT_DESCRIPTION =
 		'Research metadata from the Africa Multiple Cluster of Excellence — an international research consortium at the University of Bayreuth linking partner centres across Africa, Brazil, and Germany.';
 
