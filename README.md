@@ -299,6 +299,10 @@ Deploys automatically to GitHub Pages on push to `main`:
 - **Live URL:** <https://am-digital-research-environment.github.io/amira/>
 - **CI:** [.github/workflows/ci.yml](.github/workflows/ci.yml) runs `npm run format:check`, `npm run lint`, `npm run check`, and `npm run build` on every push and PR
 
+## Credits
+
+Developed by [Frédérick Madore](https://www.frederickmadore.com/) for the [Digital Research Environment (DRE)](https://www.africamultiple.uni-bayreuth.de/en/1_5-Digital-Solutions1/index.html) of the [Africa Multiple Cluster of Excellence](https://www.africamultiple.uni-bayreuth.de/), University of Bayreuth.
+
 ## License
 
 MIT
