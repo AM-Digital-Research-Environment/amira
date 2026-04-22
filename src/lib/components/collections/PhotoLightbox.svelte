@@ -280,18 +280,14 @@
 		display: block;
 	}
 
-	/* On mobile — especially portrait phones — tall photos previously filled
-	   the screen and pushed the metadata card below the fold. Cap the image
-	   at roughly half the viewport so title, date, topics etc. are visible
-	   without scrolling inside the modal. */
+	/* On mobile the backdrop itself scrolls (see `.lightbox-backdrop`), so
+	   the image can occupy close to the full viewport height without
+	   hiding the metadata — users reach the title / date / topics by
+	   scrolling the modal. Keep a small gap at the bottom so the start of
+	   the metadata peeks in and hints that more content is below. */
 	@media (max-width: 900px) {
 		.lightbox-image :global(img) {
-			max-height: 55vh;
-		}
-	}
-	@media (max-width: 640px) and (orientation: portrait) {
-		.lightbox-image :global(img) {
-			max-height: 50vh;
+			max-height: calc(100vh - 6rem);
 		}
 	}
 

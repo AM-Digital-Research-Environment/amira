@@ -99,6 +99,14 @@
 		border-bottom: var(--border-subtle);
 	}
 
+	/* Hide the sticky header while a modal dialog (e.g. the photo lightbox)
+	   is open. Without this, the header's translucent / blurred background
+	   bleeds through the backdrop on mobile and the menu icons remain
+	   visible above the image. */
+	body:has([role='dialog'][aria-modal='true']) .header {
+		display: none;
+	}
+
 	@media (min-width: 1024px) {
 		.header {
 			padding: 0 var(--space-6);

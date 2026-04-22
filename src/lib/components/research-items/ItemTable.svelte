@@ -12,6 +12,8 @@
 
 	let { items, onSelectItem }: Props = $props();
 
+	// Mobile cards still show a contributors chip — desktop table dropped the
+	// column to reduce density (contributors visible on the detail page).
 	function contributorSummary(item: CollectionItem): { display: string; full: string } {
 		const c = getContributors(item);
 		if (c.length === 0) return { display: '—', full: '' };
@@ -116,40 +118,35 @@
 					<tr class="border-b border-border bg-muted/50">
 						<th
 							class="text-left px-4 py-3 font-medium text-muted-foreground whitespace-nowrap"
-							style="width:30%">Title</th
+							style="width:36%">Title</th
 						>
 						<th
 							class="text-left px-4 py-3 font-medium text-muted-foreground whitespace-nowrap"
-							style="width:8%">Type</th
+							style="width:10%">Type</th
 						>
 						<th
 							class="text-left px-4 py-3 font-medium text-muted-foreground whitespace-nowrap"
-							style="width:22%">Project</th
+							style="width:28%">Project</th
 						>
 						<th
 							class="text-left px-4 py-3 font-medium text-muted-foreground whitespace-nowrap"
-							style="width:18%">Contributors</th
+							style="width:14%">Origin</th
 						>
 						<th
 							class="text-left px-4 py-3 font-medium text-muted-foreground whitespace-nowrap"
-							style="width:12%">Origin</th
-						>
-						<th
-							class="text-left px-4 py-3 font-medium text-muted-foreground whitespace-nowrap"
-							style="width:10%">Date</th
+							style="width:12%">Date</th
 						>
 					</tr>
 				</thead>
 				<tbody>
 					{#each items as item (item._id || item.dre_id)}
-						{@const contributors = contributorSummary(item)}
 						{@const origins = getOrigins(item)}
 						{@const projName = item.project?.name || ''}
 						<tr
 							onclick={() => onSelectItem(item)}
 							class="border-b border-border last:border-b-0 hover:bg-muted/40 cursor-pointer transition-colors"
 						>
-							<td class="px-4 py-3">
+							<td class="px-4 py-3" title={getItemTitle(item)}>
 								<span class="line-clamp-2 font-medium text-foreground">{getItemTitle(item)}</span>
 							</td>
 							<td class="px-4 py-3 whitespace-nowrap">
@@ -163,9 +160,6 @@
 								<span class="text-muted-foreground truncate block"
 									>{projName ? projectShort(projName) : '—'}</span
 								>
-							</td>
-							<td class="px-4 py-3" title={contributors.full}>
-								<span class="text-muted-foreground truncate block">{contributors.display}</span>
 							</td>
 							<td class="px-4 py-3">
 								{#if origins.length > 0}
@@ -185,7 +179,7 @@
 					{/each}
 					{#if items.length === 0}
 						<tr>
-							<td colspan="6" class="px-4 py-8 text-center text-muted-foreground">
+							<td colspan="5" class="px-4 py-8 text-center text-muted-foreground">
 								No items found
 							</td>
 						</tr>

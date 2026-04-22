@@ -17,6 +17,8 @@
 	import { universities } from '$lib/types';
 	import { EXTERNAL_SOURCE_ID } from '$lib/utils/dataLoader';
 	import { getItemTitle } from '$lib/utils/helpers';
+	import { getPreviewImage, resolveThumbnailUrl } from '$lib/components/collections/photoHelpers';
+	import { thumbnailManifest } from '$lib/stores/data';
 	import {
 		FileText,
 		Users,
@@ -86,7 +88,48 @@
 	let physicalDesc = $derived(getPhysicalDescription(item));
 	let currentLocations = $derived(getCurrentLocations(item));
 	let allDates = $derived(getAllDates(item));
+
+	// Preview image — collection items surface a `previewImage[0]`; for items
+	// that aren't photo-backed this is null and the image block is skipped.
+	// The thumbnail manifest swaps the remote URL for a local WebP once it
+	// loads (same pattern as the masonry card / lightbox).
+	let originalPreviewUrl = $derived(getPreviewImage(item));
+	let previewUrl = $derived(resolveThumbnailUrl(originalPreviewUrl, $thumbnailManifest, base));
+	let imageFailed = $state(false);
+	let triedRemote = $state(false);
+	let displayImageUrl = $derived(triedRemote ? originalPreviewUrl : previewUrl);
+
+	function onImageError() {
+		if (!triedRemote && previewUrl !== originalPreviewUrl) {
+			triedRemote = true;
+		} else {
+			imageFailed = true;
+		}
+	}
+
+	$effect(() => {
+		// Reset image fallback state when the selected item changes so a
+		// previous item's failed-load state doesn't suppress the new image.
+		item;
+		imageFailed = false;
+		triedRemote = false;
+	});
 </script>
+
+<!-- Preview image — shown when the item has one (typically collection-backed
+     photo records). Presented at its natural size with a subtle frame so
+     small thumbnails don't get stretched across the full card width. -->
+{#if displayImageUrl && !imageFailed}
+	<figure class="item-image">
+		<img
+			src={displayImageUrl}
+			alt={getItemTitle(item)}
+			loading="lazy"
+			draggable="false"
+			onerror={onImageError}
+		/>
+	</figure>
+{/if}
 
 <!-- Title & Metadata — full width -->
 <Card class="overflow-hidden">
@@ -709,3 +752,26 @@
 {#if item.dre_id}
 	<EntityKnowledgeGraph entityType="researchItems" entityId={item.dre_id} />
 {/if}
+
+<style>
+	.item-image {
+		display: flex;
+		justify-content: center;
+		/* Parent uses Tailwind's `space-y-6` which adds `margin-top: 1.5rem`
+		   to sibling cards. Vertical margins collapse, so this margin-bottom
+		   has to exceed 1.5rem to actually add gap — 2.5rem yields ~40px
+		   between the image and the title card. */
+		margin: 0 0 2.5rem;
+		padding: 0;
+	}
+	.item-image img {
+		display: block;
+		max-width: 100%;
+		max-height: 60vh;
+		width: auto;
+		height: auto;
+		border: 1px solid hsl(var(--border));
+		border-radius: var(--radius);
+		background: hsl(var(--muted));
+	}
+</style>
