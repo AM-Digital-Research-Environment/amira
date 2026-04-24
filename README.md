@@ -25,12 +25,6 @@ Interactive research atlas for the [Africa Multiple Cluster of Excellence](https
 - **Projects** — faceted browser (research section, institution) with detail views showing description, PIs, members, institutions, paginated items, and WissKI links. Overview adds a Gantt timeline, beeswarm (projects by section and year, sized by item count), and bar charts for sections and institutions.
 - **Research Items** — full-text search and collapsible facets (subject, tag, country, project, language, resource type) over all 3,975 items, with a sortable table view. Detail view exposes title, abstract, contributors (role-qualified persons / institutions / groups), subjects (LCSH), tags, origin locations on a MiniMap, dates, language, identifiers, project, and a per-item entity knowledge graph with fullscreen mode.
 
-### Directory
-
-- **People** — searchable directory of researchers, PIs, and item contributors with affiliations. Profile view shows research sections, projects (as PI or member), and paginated items.
-- **Groups** — research groups and organisational units that author items.
-- **Institutions** — partner institutions (from projects) and contributor organisations (from items) with associated projects, people, and item counts.
-
 ### Collections
 
 - **Featured Collections** — curated showcase of photography and multimedia collections. Detail pages offer three synchronised views of the same deduped item set:
@@ -38,14 +32,27 @@ Interactive research atlas for the [Africa Multiple Cluster of Excellence](https
   - **Map** — MapLibre GL cluster map of capture locations with SPA-routed popups.
   - **Timeline** — chronological stacked view with zoom and type breakdown.
   - Faceted filters (creator, subject, tag, country, year), WebP thumbnails shipped with the build for fast first paint, and deduped `alias` counts for photos that appear in multiple records.
+  - **History-aware navigation** — tab switches push to browser history and the open photo is mirrored to the URL (`?photo=…`), so browser Back closes the lightbox and steps through tab changes instead of jumping to the collections list.
 
-### Categories
+### Directory and Categories — unified card-based browse
 
-- **Genres** — MARC genre classification with word cloud and item counts.
-- **Languages** — items by language, ISO 639-2/3 codes rendered as full English names throughout the app.
-- **Locations** — country / region / city browser with an interactive map (falls back to country centroid when no finer coordinates exist) and paginated items.
+All directory and category pages (**People**, **Groups**, **Institutions**, **Genres**, **Languages**, **Locations**, **Resource Types**, **Subjects & Tags**) share a consistent card-grid layout backed by reusable components (`EntityCard`, `EntityBrowseGrid`, `EntityToolbar`, `EntityDetailHeader`, `EntityItemsCard`) and utilities (`applyEntitySort`). Each card shows the entity name, descriptor, icon, count with label ("items", "projects", etc.), and type-specific meta chips; pages use a single toolbar with full-text search, count / alphabetical sort toggles, and a results badge. The grid paginates at 48 cards per page to keep long lists (1 000+ subjects, tags, cities) fast.
+
+Detail views are opened via URL query params (e.g. `/people?name=John%20Doe`, `/genres?genre=Broadcast`) and the selection is driven by a writable `$derived` over `$page.url.searchParams` — so browser Back automatically clears the detail view and restores the card grid, deep links are shareable, and reload preserves state.
+
+#### Directory
+
+- **People** — affiliation filter (searchable combobox), role filter, "hide empty" toggle, and rich profile views with research sections, projects (as PI or member), affiliations, research profile (roles / resource types / languages / countries / subjects), paginated items with a per-item role badge, and a collaboration & influence knowledge graph.
+- **Groups** — research groups and organisational units that author items, with per-group item lists and knowledge graph.
+- **Institutions** — partner / contributor filter toggle, per-institution projects (with PIs, dates, sections), people, items, and knowledge graph.
+
+#### Categories
+
+- **Genres** — MARC genre classification with a top-20 bar chart and card grid.
+- **Languages** — ISO 639-2/3 codes rendered as full English names throughout.
+- **Locations** — country / region / city browser with a **MapLibre GL browse map on top of the list** (markers coloured by type, clickable popups that SPA-route into the detail page), plus a detail map per location.
 - **Resource Types** — text, sound recording, still image, moving image, cartographic, mixed material, etc., with pie and bar charts — click to filter.
-- **Subjects & Tags** — toggle between LCSH controlled vocabulary and free-form tags. Animated word cloud (up to 200 terms, adjustable size) with click-through, plus a searchable paginated list.
+- **Subjects & Tags** — toggle between LCSH controlled vocabulary and free-form tags, unified tag icon across both views, animated word cloud (up to 200 terms, adjustable size) with click-through, plus the searchable paginated card grid.
 
 ### Visualize
 
@@ -159,6 +166,11 @@ src/
 │   │   │   ├── PhotoCard, PhotoFacets, PhotoLightbox
 │   │   │   ├── PhotoMasonry, PhotoMap, PhotoTimeline
 │   │   │   ├── ViewModeTabs, photoHelpers.ts
+│   │   ├── entity-browse/   # Unified card-grid components for directory / categories
+│   │   │   ├── EntityCard, EntityCardGrid, EntityBrowseGrid (grid + pagination)
+│   │   │   ├── EntityToolbar (search + sort + total), EntityDetailHeader
+│   │   │   ├── EntityItemsCard (research-items list + pagination)
+│   │   │   ├── EntityEmptyHint, sort.ts (applyEntitySort)
 │   │   ├── layout/          # Sidebar (grouped nav), Header, FilterPanel
 │   │   └── research-items/  # ItemDetail, ItemFilters, ItemTable, itemHelpers
 │   ├── stores/

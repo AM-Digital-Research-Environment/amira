@@ -1,41 +1,32 @@
 <script lang="ts">
+	import { StatCard, BackToList, SEO } from '$lib/components/ui';
 	import {
-		StatCard,
-		Card,
-		CardHeader,
-		CardTitle,
-		CardContent,
-		Badge,
-		Input,
-		Pagination,
-		CollectionItemRow,
-		BackToList,
-		SEO
-	} from '$lib/components/ui';
+		EntityCard,
+		EntityBrowseGrid,
+		EntityToolbar,
+		EntityDetailHeader,
+		EntityItemsCard,
+		applyEntitySort,
+		type EntitySort
+	} from '$lib/components/entity-browse';
 	import { allCollections } from '$lib/stores/data';
 	import { page } from '$app/stores';
 	import { createUrlSelection, scrollToTop } from '$lib/utils/urlSelection';
 	import { languageName, normalizeLanguageCode } from '$lib/utils/languages';
 	import { createSearchFilter } from '$lib/utils/search';
-	import { paginate } from '$lib/utils/pagination';
-	import { DEFAULT_ITEMS_PER_PAGE } from '$lib/utils/constants';
 	import type { CollectionItem } from '$lib/types';
 	import { Languages, FileText } from '@lucide/svelte';
 	import { SvelteMap } from 'svelte/reactivity';
-	import { WissKILink } from '$lib/components/ui';
 
 	const urlSelection = createUrlSelection('code');
 
 	let searchQuery = $state('');
-	let selectedCode = $state('');
+	let sort = $state<EntitySort>('count-desc');
 
-	// Sync from URL query param
-	$effect(() => {
-		const urlCode = $page.url.searchParams.get('code');
-		if (urlCode) selectedCode = urlCode;
-	});
+	// Writable $derived — URL is the source of truth for the selected code
+	// so browser Back clears the detail view automatically.
+	let selectedCode = $derived($page.url.searchParams.get('code') ?? '');
 
-	// Build language index
 	interface LanguageData {
 		code: string;
 		name: string;
@@ -60,35 +51,20 @@
 		return map;
 	});
 
-	let languages = $derived(Array.from(languageMap.values()).sort((a, b) => b.count - a.count));
+	let languages = $derived(Array.from(languageMap.values()));
 
 	const searchLanguages = createSearchFilter<LanguageData>([(l) => l.name, (l) => l.code]);
-
-	let filteredLanguages = $derived(searchLanguages(languages, searchQuery));
+	let visibleLanguages = $derived(applyEntitySort(searchLanguages(languages, searchQuery), sort));
 
 	let selectedLanguage = $derived(selectedCode ? languageMap.get(selectedCode) || null : null);
-
-	// Pagination
-	const itemsPerPage = DEFAULT_ITEMS_PER_PAGE;
-	let itemPage = $state(0);
-	let paginatedItems = $derived.by(() => {
-		if (!selectedLanguage) return [];
-		return paginate(selectedLanguage.items, itemPage, itemsPerPage);
-	});
-
-	$effect(() => {
-		selectedCode;
-		itemPage = 0;
-	});
+	let mostCommon = $derived(applyEntitySort(languages, 'count-desc')[0]?.name ?? '—');
 
 	function selectLanguage(code: string) {
-		selectedCode = code;
 		urlSelection.pushToUrl(code);
 		scrollToTop();
 	}
 
 	function clearSelection() {
-		selectedCode = '';
 		urlSelection.removeFromUrl();
 		scrollToTop();
 	}
@@ -107,147 +83,56 @@
 		</p>
 	</div>
 
-	<div class="grid gap-4 sm:grid-cols-3">
-		<StatCard label="Languages" value={languages.length} icon={Languages} />
-		<StatCard
-			label="Items with Language"
-			value={$allCollections.filter((i) => i.language?.length > 0).length}
-			icon={FileText}
-		/>
-		<StatCard label="Most Common" value={languages[0]?.name || '—'} icon={Languages} />
-	</div>
-
-	<div class="grid gap-6 lg:grid-cols-3">
-		<!-- Language List -->
-		<Card class="lg:col-span-1 lg:sticky lg:top-20 lg:self-start overflow-hidden">
-			{#snippet children()}
-				<CardHeader>
-					{#snippet children()}
-						<CardTitle>
-							{#snippet children()}
-								<BackToList show={!!selectedCode} onclick={clearSelection} />
-								<span class="flex items-center justify-between">
-									Languages
-									<Badge variant="secondary">
-										{#snippet children()}{filteredLanguages.length}{/snippet}
-									</Badge>
-								</span>
-							{/snippet}
-						</CardTitle>
-					{/snippet}
-				</CardHeader>
-				<CardContent>
-					{#snippet children()}
-						<div class="space-y-3">
-							<Input placeholder="Search languages..." bind:value={searchQuery} />
-							<div class="space-y-0.5 max-h-list-scroll overflow-y-auto">
-								{#each filteredLanguages as lang (lang.code)}
-									{@const isSelected = selectedCode === lang.code}
-									<button
-										onclick={() => selectLanguage(lang.code)}
-										class="list-item-btn {isSelected ? 'active' : ''}"
-									>
-										<span class="flex items-center justify-between gap-2">
-											<span>
-												{lang.name}
-												<span class="text-xs text-muted-foreground">({lang.code})</span>
-											</span>
-											<Badge variant="secondary" class="text-2xs px-1.5 py-0 shrink-0">
-												{#snippet children()}{lang.count}{/snippet}
-											</Badge>
-										</span>
-									</button>
-								{/each}
-							</div>
-						</div>
-					{/snippet}
-				</CardContent>
-			{/snippet}
-		</Card>
-
-		<!-- Language Detail -->
-		<div class="lg:col-span-2 space-y-6">
-			{#if selectedLanguage}
-				<Card class="overflow-hidden">
-					{#snippet children()}
-						<CardHeader>
-							{#snippet children()}
-								<div class="min-w-0">
-									<div class="flex items-center gap-2">
-										<Languages class="h-6 w-6 text-primary shrink-0" />
-										<CardTitle class="break-words">
-											{#snippet children()}{selectedLanguage.name}{/snippet}
-										</CardTitle>
-									</div>
-									<div class="flex flex-wrap gap-2 mt-3">
-										<Badge variant="outline">
-											{#snippet children()}Code: {selectedLanguage.code}{/snippet}
-										</Badge>
-										<Badge variant="secondary">
-											{#snippet children()}{selectedLanguage.count} item{selectedLanguage.count !==
-												1
-													? 's'
-													: ''}{/snippet}
-										</Badge>
-										<WissKILink category="languages" entityKey={selectedLanguage.name} />
-									</div>
-								</div>
-							{/snippet}
-						</CardHeader>
-					{/snippet}
-				</Card>
-
-				<Card class="overflow-hidden">
-					{#snippet children()}
-						<CardHeader>
-							{#snippet children()}
-								<CardTitle class="text-lg">
-									{#snippet children()}
-										<span class="flex items-center gap-2">
-											<FileText class="h-5 w-5 text-muted-foreground" />
-											Research Items
-											<Badge variant="secondary">
-												{#snippet children()}{selectedLanguage.items.length}{/snippet}
-											</Badge>
-										</span>
-									{/snippet}
-								</CardTitle>
-							{/snippet}
-						</CardHeader>
-						<CardContent>
-							{#snippet children()}
-								<ul class="space-y-2">
-									{#each paginatedItems as item (item._id || item.dre_id)}
-										<CollectionItemRow {item} showProject={true} />
-									{/each}
-								</ul>
-								<Pagination
-									currentPage={itemPage}
-									totalItems={selectedLanguage.items.length}
-									{itemsPerPage}
-									onPageChange={(p) => (itemPage = p)}
-								/>
-							{/snippet}
-						</CardContent>
-					{/snippet}
-				</Card>
-			{:else}
-				<Card class="overflow-hidden">
-					{#snippet children()}
-						<CardContent>
-							{#snippet children()}
-								<div class="flex flex-col items-center justify-center py-16 text-center">
-									<Languages class="h-12 w-12 text-muted-foreground/50 mb-4" />
-									<p class="text-lg font-medium text-muted-foreground">Select a language</p>
-									<p class="text-sm text-muted-foreground/70 mt-1">
-										Choose a language from the list to view its associated research items
-									</p>
-								</div>
-							{/snippet}
-						</CardContent>
-					{/snippet}
-				</Card>
-			{/if}
+	{#if selectedLanguage}
+		<div class="space-y-6">
+			<BackToList show={true} onclick={clearSelection} label="Back to languages" />
+			<EntityDetailHeader
+				title={selectedLanguage.name}
+				icon={Languages}
+				subtitle={`Code: ${selectedLanguage.code}`}
+				count={selectedLanguage.count}
+				wisskiCategory="languages"
+				wisskiKey={selectedLanguage.name}
+			/>
+			<EntityItemsCard items={selectedLanguage.items} showProject={true} />
 		</div>
-	</div>
+	{:else}
+		<div class="grid gap-4 sm:grid-cols-3">
+			<StatCard label="Languages" value={languages.length} icon={Languages} />
+			<StatCard
+				label="Items with language"
+				value={$allCollections.filter((i) => i.language?.length > 0).length}
+				icon={FileText}
+			/>
+			<StatCard label="Most common" value={mostCommon} icon={Languages} />
+		</div>
+
+		<EntityToolbar
+			{searchQuery}
+			onSearchChange={(v) => (searchQuery = v)}
+			searchPlaceholder="Search languages..."
+			{sort}
+			onSortChange={(v) => (sort = v)}
+			totalCount={visibleLanguages.length}
+			totalLabel="languages"
+		/>
+
+		<EntityBrowseGrid
+			items={visibleLanguages}
+			getKey={(l) => l.code}
+			emptyMessage="No languages match your search"
+		>
+			{#snippet card(lang)}
+				<EntityCard
+					name={lang.name}
+					subtitle={lang.code.toUpperCase()}
+					description="Language"
+					count={lang.count}
+					countLabel="item"
+					icon={Languages}
+					onclick={() => selectLanguage(lang.code)}
+				/>
+			{/snippet}
+		</EntityBrowseGrid>
+	{/if}
 </div>

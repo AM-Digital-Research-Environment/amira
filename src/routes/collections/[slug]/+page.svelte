@@ -156,25 +156,63 @@
 		const url = new URL($page.url);
 		if (next === 'masonry') url.searchParams.delete('view');
 		else url.searchParams.set('view', next);
-		goto(url.pathname + url.search, { replaceState: true, noScroll: true });
+		// Push (don't replace) so browser Back steps through tab changes —
+		// otherwise Back from a timeline view jumps all the way to the
+		// collections list, losing the user's place.
+		goto(url.pathname + url.search, { noScroll: true });
 	}
 
 	// Lightbox state — indexes into the *visible* list so keyboard nav
-	// respects the user's filter+sort.
+	// respects the user's filter+sort. The current photo id is mirrored to
+	// the URL (?photo=…) so browser Back closes the lightbox and returns to
+	// the tab the user was on, rather than skipping back to /collections.
 	let lightboxIndex = $state<number | null>(null);
+	let syncingLightboxFromUrl = false;
+
+	$effect(() => {
+		const photoId = $page.url.searchParams.get('photo');
+		if (!photoId) {
+			syncingLightboxFromUrl = true;
+			lightboxIndex = null;
+			syncingLightboxFromUrl = false;
+			return;
+		}
+		const idx = visibleItems.findIndex((p) => p._id === photoId);
+		syncingLightboxFromUrl = true;
+		lightboxIndex = idx >= 0 ? idx : null;
+		syncingLightboxFromUrl = false;
+	});
+
+	function pushPhotoToUrl(photoId: string | null) {
+		if (syncingLightboxFromUrl) return;
+		const url = new URL($page.url);
+		if (photoId) url.searchParams.set('photo', photoId);
+		else url.searchParams.delete('photo');
+		goto(url.pathname + url.search, { noScroll: true, keepFocus: true });
+	}
 
 	function openLightbox(item: CollectionItem) {
 		const idx = visibleItems.findIndex((p) => p._id === item._id);
-		if (idx >= 0) lightboxIndex = idx;
+		if (idx >= 0) {
+			lightboxIndex = idx;
+			pushPhotoToUrl(item._id);
+		}
+	}
+
+	function closeLightbox() {
+		lightboxIndex = null;
+		pushPhotoToUrl(null);
 	}
 
 	function prev() {
 		if (lightboxIndex === null || visibleItems.length === 0) return;
 		lightboxIndex = (lightboxIndex - 1 + visibleItems.length) % visibleItems.length;
+		pushPhotoToUrl(visibleItems[lightboxIndex]._id);
 	}
 	function next() {
 		if (lightboxIndex === null || visibleItems.length === 0) return;
 		lightboxIndex = (lightboxIndex + 1) % visibleItems.length;
+		pushPhotoToUrl(visibleItems[lightboxIndex]._id);
 	}
 
 	// Map view needs enriched coordinates — fetch lazily.
@@ -282,7 +320,7 @@
 		items={visibleItems}
 		index={lightboxIndex}
 		countsById={dedupeMap?.byId ?? null}
-		onClose={() => (lightboxIndex = null)}
+		onClose={closeLightbox}
 		onPrev={prev}
 		onNext={next}
 	/>

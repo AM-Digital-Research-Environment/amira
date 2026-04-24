@@ -42,10 +42,11 @@
 
 	// Sidebar groups. Ordering reflects the user's likely journey through the
 	// archive: start at the Dashboard landing, then drill into the Research
-	// hierarchy (sections → projects → items), then the Directory of named
-	// actors, then pivot into Categories that slice the archive horizontally,
-	// and finally the cross-cutting analysis views in Visualize. Overview is
-	// the main entry point so it is always the first item.
+	// hierarchy (sections → projects → items), then browse curated Collections,
+	// then the Directory of named actors, then pivot into Categories that slice
+	// the archive horizontally, and finally the cross-cutting analysis views in
+	// Visualize. Overview is the main entry point so it is always the first
+	// item.
 	const navGroups: NavGroup[] = [
 		{
 			label: 'Dashboard',
@@ -63,16 +64,16 @@
 			]
 		},
 		{
+			label: 'Collections',
+			items: [{ href: `${base}/collections`, label: 'Featured Collections', icon: Images }]
+		},
+		{
 			label: 'Directory',
 			items: [
 				{ href: `${base}/people`, label: 'People', icon: Users },
 				{ href: `${base}/groups`, label: 'Groups', icon: UsersRound },
 				{ href: `${base}/institutions`, label: 'Institutions', icon: Building2 }
 			]
-		},
-		{
-			label: 'Collections',
-			items: [{ href: `${base}/collections`, label: 'Featured Collections', icon: Images }]
 		},
 		{
 			// Categories don't have an obvious semantic ordering, so we sort

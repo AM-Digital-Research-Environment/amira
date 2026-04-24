@@ -1,26 +1,20 @@
 <script lang="ts">
-	import {
-		StatCard,
-		ChartCard,
-		Card,
-		CardHeader,
-		CardTitle,
-		CardContent,
-		Badge,
-		Input,
-		Pagination,
-		CollectionItemRow,
-		BackToList,
-		SEO
-	} from '$lib/components/ui';
+	import { StatCard, ChartCard, BackToList, SEO } from '$lib/components/ui';
 	import { WordCloud, EntityKnowledgeGraph } from '$lib/components/charts';
+	import {
+		EntityCard,
+		EntityBrowseGrid,
+		EntityToolbar,
+		EntityDetailHeader,
+		EntityItemsCard,
+		applyEntitySort,
+		type EntitySort
+	} from '$lib/components/entity-browse';
 	import { allCollections } from '$lib/stores/data';
 	import { page } from '$app/stores';
 	import { goto } from '$app/navigation';
-	import { createUrlSelection, scrollToElement, scrollToTop } from '$lib/utils/urlSelection';
+	import { scrollToTop } from '$lib/utils/urlSelection';
 	import { createSearchFilter } from '$lib/utils/search';
-	import { paginate } from '$lib/utils/pagination';
-	import { DEFAULT_ITEMS_PER_PAGE } from '$lib/utils/constants';
 	import {
 		buildCategoryIndex,
 		sortedCategoryList,
@@ -28,24 +22,16 @@
 	} from '$lib/utils/categoryIndex';
 	import type { WordCloudDataPoint, CategoryEntry } from '$lib/types';
 	import { BookOpen, Tag, FileText } from '@lucide/svelte';
-	import { WissKILink } from '$lib/components/ui';
-
-	const urlSelection = createUrlSelection('name');
 
 	let searchQuery = $state('');
-	let selectedName = $state('');
-	let viewMode = $state<'subjects' | 'tags'>('subjects');
+	let sort = $state<EntitySort>('count-desc');
 
-	// Sync from URL query params
-	$effect(() => {
-		const urlName = $page.url.searchParams.get('name');
-		const urlView = $page.url.searchParams.get('view');
-		if (urlView === 'tags') viewMode = 'tags';
-		else if (urlView === 'subjects') viewMode = 'subjects';
-		if (urlName) selectedName = urlName;
-	});
+	// URL-derived state — browser Back auto-restores list / clears selection.
+	let viewMode = $derived(
+		($page.url.searchParams.get('view') === 'tags' ? 'tags' : 'subjects') as 'subjects' | 'tags'
+	);
+	let selectedName = $derived($page.url.searchParams.get('name') ?? '');
 
-	// Build subject index (LCSH controlled vocabulary)
 	let subjectMap = $derived(
 		buildCategoryIndex($allCollections, (item) => {
 			if (!Array.isArray(item.subject)) return [];
@@ -53,7 +39,6 @@
 		})
 	);
 
-	// Build tag index (free-form keywords)
 	let tagMap = $derived(
 		buildCategoryIndex($allCollections, (item) => {
 			if (!Array.isArray(item.tags)) return [];
@@ -64,7 +49,6 @@
 	let subjectList = $derived(sortedCategoryList(subjectMap));
 	let tagList = $derived(sortedCategoryList(tagMap));
 
-	// Word cloud data
 	let wordCloudData = $derived.by((): WordCloudDataPoint[] => {
 		const list = viewMode === 'subjects' ? subjectList : tagList;
 		return categoryToChartData(list, 100);
@@ -73,41 +57,21 @@
 	let currentMap = $derived(viewMode === 'subjects' ? subjectMap : tagMap);
 
 	const searchTerms = createSearchFilter<CategoryEntry>([(t) => t.name]);
-
-	let filteredTerms = $derived(searchTerms(currentList, searchQuery));
+	let visibleTerms = $derived(applyEntitySort(searchTerms(currentList, searchQuery), sort));
 
 	let selectedTerm = $derived(selectedName ? currentMap.get(selectedName) || null : null);
 
-	// Pagination
-	const itemsPerPage = DEFAULT_ITEMS_PER_PAGE;
-	let itemPage = $state(0);
-	let paginatedItems = $derived.by(() => {
-		if (!selectedTerm) return [];
-		return paginate(selectedTerm.items, itemPage, itemsPerPage);
-	});
-
-	$effect(() => {
-		selectedName;
-		itemPage = 0;
-	});
-
-	let detailSection: HTMLDivElement | undefined = $state();
-
 	function selectTerm(name: string) {
-		selectedName = name;
 		goto(`?name=${encodeURIComponent(name)}&view=${viewMode}`, { noScroll: true });
-		scrollToElement(detailSection);
+		scrollToTop();
 	}
 
 	function clearSelection() {
-		selectedName = '';
-		urlSelection.removeFromUrl();
+		goto(`?view=${viewMode}`, { noScroll: true });
 		scrollToTop();
 	}
 
 	function switchView(mode: 'subjects' | 'tags') {
-		viewMode = mode;
-		selectedName = '';
 		searchQuery = '';
 		goto(`?view=${mode}`, { noScroll: true });
 	}
@@ -123,198 +87,90 @@
 		</p>
 	</div>
 
-	<div class="grid gap-4 sm:grid-cols-3">
-		<StatCard label="Subjects (LCSH)" value={subjectList.length} icon={BookOpen} />
-		<StatCard label="Tags" value={tagList.length} icon={Tag} />
-		<StatCard label="Total Items" value={$allCollections.length} icon={FileText} />
-	</div>
-
-	<!-- Word Cloud -->
-	<ChartCard
-		title="{viewMode === 'subjects' ? 'Subject' : 'Tag'} Cloud"
-		subtitle="Click on a word to view its associated items"
-		contentHeight="h-chart-md"
-	>
-		{#if wordCloudData.length > 0}
-			<WordCloud data={wordCloudData} onclick={(word) => selectTerm(word)} />
-		{/if}
-	</ChartCard>
-
-	<div class="grid gap-6 lg:grid-cols-3">
-		<!-- Term List -->
-		<Card class="lg:col-span-1 lg:sticky lg:top-20 lg:self-start overflow-hidden">
-			{#snippet children()}
-				<CardHeader>
-					{#snippet children()}
-						<CardTitle>
-							{#snippet children()}
-								<BackToList show={!!selectedName} onclick={clearSelection} />
-								<span class="flex items-center justify-between">
-									{viewMode === 'subjects' ? 'Subjects' : 'Tags'}
-									<Badge variant="secondary">
-										{#snippet children()}{filteredTerms.length}{/snippet}
-									</Badge>
-								</span>
-							{/snippet}
-						</CardTitle>
-					{/snippet}
-				</CardHeader>
-				<CardContent>
-					{#snippet children()}
-						<div class="space-y-3">
-							<!-- View mode toggle -->
-							<div class="flex rounded-lg border border-input overflow-hidden">
-								<button
-									onclick={() => switchView('subjects')}
-									class="flex-1 px-3 py-1.5 text-sm font-medium transition-colors {viewMode ===
-									'subjects'
-										? 'bg-primary text-primary-foreground'
-										: 'hover:bg-muted'}"
-								>
-									Subjects
-								</button>
-								<button
-									onclick={() => switchView('tags')}
-									class="flex-1 px-3 py-1.5 text-sm font-medium transition-colors {viewMode ===
-									'tags'
-										? 'bg-primary text-primary-foreground'
-										: 'hover:bg-muted'}"
-								>
-									Tags
-								</button>
-							</div>
-
-							<Input placeholder="Search {viewMode}..." bind:value={searchQuery} />
-
-							<div class="space-y-0.5 max-h-list-scroll overflow-y-auto">
-								{#each filteredTerms as term (term.name)}
-									{@const isSelected = selectedName === term.name}
-									<button
-										onclick={() => selectTerm(term.name)}
-										class="list-item-btn {isSelected ? 'active' : ''}"
-									>
-										<span class="flex items-center justify-between gap-2">
-											<span class="truncate">{term.name}</span>
-											<Badge variant="secondary" class="text-2xs px-1.5 py-0 shrink-0">
-												{#snippet children()}{term.count}{/snippet}
-											</Badge>
-										</span>
-									</button>
-								{/each}
-								{#if filteredTerms.length === 0}
-									<p class="text-sm text-muted-foreground text-center py-4">No {viewMode} found</p>
-								{/if}
-							</div>
-						</div>
-					{/snippet}
-				</CardContent>
-			{/snippet}
-		</Card>
-
-		<!-- Term Detail -->
-		<div bind:this={detailSection} class="lg:col-span-2 space-y-6 scroll-mt-20">
-			{#if selectedTerm}
-				<Card class="overflow-hidden">
-					{#snippet children()}
-						<CardHeader>
-							{#snippet children()}
-								<div class="min-w-0">
-									<div class="flex items-center gap-2">
-										{#if viewMode === 'subjects'}
-											<BookOpen class="h-6 w-6 text-primary shrink-0" />
-										{:else}
-											<Tag class="h-6 w-6 text-primary shrink-0" />
-										{/if}
-										<CardTitle class="break-words">
-											{#snippet children()}{selectedTerm.name}{/snippet}
-										</CardTitle>
-									</div>
-									<div class="flex flex-wrap gap-2 mt-3">
-										<Badge>
-											{#snippet children()}{viewMode === 'subjects' ? 'Subject' : 'Tag'}{/snippet}
-										</Badge>
-										<Badge variant="secondary">
-											{#snippet children()}{selectedTerm.count} item{selectedTerm.count !== 1
-													? 's'
-													: ''}{/snippet}
-										</Badge>
-										{#if viewMode === 'subjects'}
-											<WissKILink category="subjects" entityKey={selectedTerm.name} />
-										{:else}
-											<WissKILink category="tags" entityKey={selectedTerm.name} />
-										{/if}
-									</div>
-								</div>
-							{/snippet}
-						</CardHeader>
-					{/snippet}
-				</Card>
-
-				<Card class="overflow-hidden">
-					{#snippet children()}
-						<CardHeader>
-							{#snippet children()}
-								<CardTitle class="text-lg">
-									{#snippet children()}
-										<span class="flex items-center gap-2">
-											<FileText class="h-5 w-5 text-muted-foreground" />
-											Research Items
-											<Badge variant="secondary">
-												{#snippet children()}{selectedTerm.items.length}{/snippet}
-											</Badge>
-										</span>
-									{/snippet}
-								</CardTitle>
-							{/snippet}
-						</CardHeader>
-						<CardContent>
-							{#snippet children()}
-								<ul class="space-y-2">
-									{#each paginatedItems as item (item._id || item.dre_id)}
-										<CollectionItemRow {item} showProject={true} />
-									{/each}
-								</ul>
-								<Pagination
-									currentPage={itemPage}
-									totalItems={selectedTerm.items.length}
-									{itemsPerPage}
-									onPageChange={(p) => (itemPage = p)}
-								/>
-							{/snippet}
-						</CardContent>
-					{/snippet}
-				</Card>
-
-				<EntityKnowledgeGraph
-					entityType={viewMode === 'subjects' ? 'subject' : 'tag'}
-					entityId={selectedTerm.name}
-					title={viewMode === 'subjects'
-						? 'Subject co-occurrence graph'
-						: 'Tag neighbourhood graph'}
-				/>
-			{:else}
-				<Card class="overflow-hidden">
-					{#snippet children()}
-						<CardContent>
-							{#snippet children()}
-								<div class="flex flex-col items-center justify-center py-16 text-center">
-									{#if viewMode === 'subjects'}
-										<BookOpen class="h-12 w-12 text-muted-foreground/50 mb-4" />
-									{:else}
-										<Tag class="h-12 w-12 text-muted-foreground/50 mb-4" />
-									{/if}
-									<p class="text-lg font-medium text-muted-foreground">
-										Select a {viewMode === 'subjects' ? 'subject' : 'tag'}
-									</p>
-									<p class="text-sm text-muted-foreground/70 mt-1">
-										Choose from the list to view associated research items
-									</p>
-								</div>
-							{/snippet}
-						</CardContent>
-					{/snippet}
-				</Card>
-			{/if}
+	{#if selectedTerm}
+		<div class="space-y-6">
+			<BackToList
+				show={true}
+				onclick={clearSelection}
+				label={`Back to ${viewMode === 'subjects' ? 'subjects' : 'tags'}`}
+			/>
+			<EntityDetailHeader
+				title={selectedTerm.name}
+				icon={Tag}
+				subtitle={viewMode === 'subjects' ? 'LCSH subject heading' : 'Free-form tag'}
+				count={selectedTerm.count}
+				wisskiCategory={viewMode === 'subjects' ? 'subjects' : 'tags'}
+				wisskiKey={selectedTerm.name}
+			/>
+			<EntityItemsCard items={selectedTerm.items} showProject={true} />
+			<EntityKnowledgeGraph
+				entityType={viewMode === 'subjects' ? 'subject' : 'tag'}
+				entityId={selectedTerm.name}
+				title={viewMode === 'subjects' ? 'Subject co-occurrence graph' : 'Tag neighbourhood graph'}
+			/>
 		</div>
-	</div>
+	{:else}
+		<div class="grid gap-4 sm:grid-cols-3">
+			<StatCard label="Subjects (LCSH)" value={subjectList.length} icon={BookOpen} />
+			<StatCard label="Tags" value={tagList.length} icon={Tag} />
+			<StatCard label="Total Items" value={$allCollections.length} icon={FileText} />
+		</div>
+
+		<ChartCard
+			title="{viewMode === 'subjects' ? 'Subject' : 'Tag'} Cloud"
+			subtitle="Click a word to open its page"
+			contentHeight="h-chart-md"
+		>
+			{#if wordCloudData.length > 0}
+				<WordCloud data={wordCloudData} onclick={(word) => selectTerm(word)} />
+			{/if}
+		</ChartCard>
+
+		<!-- View switcher -->
+		<div class="flex rounded-lg border border-input overflow-hidden w-fit">
+			<button
+				onclick={() => switchView('subjects')}
+				class="px-4 py-2 text-sm font-medium transition-colors {viewMode === 'subjects'
+					? 'bg-primary text-primary-foreground'
+					: 'hover:bg-muted'}"
+			>
+				Subjects
+			</button>
+			<button
+				onclick={() => switchView('tags')}
+				class="px-4 py-2 text-sm font-medium transition-colors {viewMode === 'tags'
+					? 'bg-primary text-primary-foreground'
+					: 'hover:bg-muted'}"
+			>
+				Tags
+			</button>
+		</div>
+
+		<EntityToolbar
+			{searchQuery}
+			onSearchChange={(v) => (searchQuery = v)}
+			searchPlaceholder="Search {viewMode}..."
+			{sort}
+			onSortChange={(v) => (sort = v)}
+			totalCount={visibleTerms.length}
+			totalLabel={viewMode}
+		/>
+
+		<EntityBrowseGrid
+			items={visibleTerms}
+			getKey={(t) => t.name}
+			emptyMessage="No {viewMode} match your search"
+		>
+			{#snippet card(term)}
+				<EntityCard
+					name={term.name}
+					description={viewMode === 'subjects' ? 'LCSH heading' : 'Free-form tag'}
+					count={term.count}
+					countLabel="item"
+					icon={Tag}
+					onclick={() => selectTerm(term.name)}
+				/>
+			{/snippet}
+		</EntityBrowseGrid>
+	{/if}
 </div>

@@ -6,13 +6,19 @@
 		CardTitle,
 		CardContent,
 		Badge,
-		Input,
-		Pagination,
-		CollectionItemRow,
 		BackToList,
 		SEO,
 		SectionBadge
 	} from '$lib/components/ui';
+	import {
+		EntityCard,
+		EntityBrowseGrid,
+		EntityToolbar,
+		EntityDetailHeader,
+		EntityItemsCard,
+		applyEntitySort,
+		type EntitySort
+	} from '$lib/components/entity-browse';
 	import { projects, allCollections, persons, universitiesData } from '$lib/stores/data';
 	import { page } from '$app/stores';
 	import { personUrl, projectUrl, researchSectionsUrl } from '$lib/utils/urls';
@@ -20,27 +26,22 @@
 	import type { Project, CollectionItem } from '$lib/types';
 	import { formatDate, getProjectTitle } from '$lib/utils/helpers';
 	import { createSearchFilter } from '$lib/utils/search';
-	import { paginate } from '$lib/utils/pagination';
 	import { base } from '$app/paths';
-	import { Building2, Briefcase, Users, FileText } from '@lucide/svelte';
+	import { Building2, Briefcase, Users } from '@lucide/svelte';
 	import { SvelteMap, SvelteSet } from 'svelte/reactivity';
-	import { WissKILink } from '$lib/components/ui';
 	import { EntityKnowledgeGraph } from '$lib/components/charts';
 
 	const urlSelection = createUrlSelection('name');
 
 	let searchQuery = $state('');
-	let selectedName = $state('');
+	let sort = $state<EntitySort>('count-desc');
+	let partnerFilter = $state<'all' | 'partner' | 'contributor'>('all');
 
-	// Sync from URL query param
-	$effect(() => {
-		const urlName = $page.url.searchParams.get('name');
-		if (urlName) selectedName = urlName;
-	});
+	let selectedName = $derived($page.url.searchParams.get('name') ?? '');
 
-	// Build institution index from projects + persons + collection item affiliations
 	interface InstitutionData {
 		name: string;
+		count: number; // total reach (projects + people + items) — used for sorting and the card badge
 		projects: Project[];
 		people: Set<string>;
 		collectionItemCount: number;
@@ -54,6 +55,7 @@
 			if (!map.has(name)) {
 				map.set(name, {
 					name,
+					count: 0,
 					projects: [],
 					people: new Set(),
 					collectionItemCount: 0,
@@ -63,7 +65,6 @@
 			return map.get(name)!;
 		};
 
-		// From projects (partner institutions)
 		$projects.forEach((p) => {
 			(p.institutions || []).forEach((instName) => {
 				const inst = getOrCreate(instName);
@@ -80,41 +81,28 @@
 			});
 		});
 
-		// From person affiliations
 		$persons.forEach((p) => {
 			(p.affiliation || []).forEach((aff) => {
-				if (aff) {
-					const inst = getOrCreate(aff);
-					inst.people.add(p.name);
-				}
+				if (aff) getOrCreate(aff).people.add(p.name);
 			});
 		});
 
-		// From collection item contributors — only qualifier 'institution' (not 'group')
 		$allCollections.forEach((item) => {
 			if (!Array.isArray(item.name)) return;
 			item.name.forEach((n) => {
 				if (n?.name?.label && n?.name?.qualifier === 'institution') {
-					const inst = getOrCreate(n.name.label);
-					inst.collectionItemCount++;
+					getOrCreate(n.name.label).collectionItemCount++;
 				}
-				// Also index person affiliations from collection items
 				if (n?.name?.label && Array.isArray(n.affl)) {
 					n.affl.forEach((aff) => {
-						if (aff) {
-							const inst = getOrCreate(aff);
-							inst.people.add(n.name.label);
-						}
+						if (aff) getOrCreate(aff).people.add(n.name.label);
 					});
 				}
 			});
 		});
 
-		// Also count collection items per project-level institution
 		const projectInstitutions = new SvelteMap<string, string[]>();
-		$projects.forEach((p) => {
-			projectInstitutions.set(p.id, p.institutions || []);
-		});
+		$projects.forEach((p) => projectInstitutions.set(p.id, p.institutions || []));
 		$allCollections.forEach((item) => {
 			const instNames = projectInstitutions.get(item.project?.id || '');
 			if (instNames) {
@@ -124,35 +112,39 @@
 			}
 		});
 
+		// Finalize count: used by toolbar sort and card badge. We use collectionItemCount
+		// as the "item count" (primary), falling back to project count for partner-only orgs.
+		map.forEach((inst) => {
+			inst.count = inst.collectionItemCount || inst.projects.length;
+		});
+
 		return map;
 	});
 
-	let partnerInstitutions = $derived(
-		Array.from(institutionMap.values())
-			.filter((i) => i.isPartner)
-			.sort((a, b) => b.projects.length - a.projects.length)
-	);
-
-	let contributorInstitutions = $derived(
-		Array.from(institutionMap.values())
-			.filter((i) => !i.isPartner)
-			.sort((a, b) => b.collectionItemCount - a.collectionItemCount)
-	);
-
-	let institutions = $derived([...partnerInstitutions, ...contributorInstitutions]);
+	let allInstitutions = $derived(Array.from(institutionMap.values()));
+	let partnerCount = $derived(allInstitutions.filter((i) => i.isPartner).length);
+	let contributorCount = $derived(allInstitutions.filter((i) => !i.isPartner).length);
+	let totalPeople = $derived(new Set(allInstitutions.flatMap((i) => [...i.people])).size);
 
 	const searchInstitutions = createSearchFilter<InstitutionData>([(i) => i.name]);
 
-	let filteredPartner = $derived(searchInstitutions(partnerInstitutions, searchQuery));
+	let filteredByPartner = $derived(
+		partnerFilter === 'partner'
+			? allInstitutions.filter((i) => i.isPartner)
+			: partnerFilter === 'contributor'
+				? allInstitutions.filter((i) => !i.isPartner)
+				: allInstitutions
+	);
 
-	let filteredContributor = $derived(searchInstitutions(contributorInstitutions, searchQuery));
+	let visibleInstitutions = $derived(
+		applyEntitySort(searchInstitutions(filteredByPartner, searchQuery), sort)
+	);
 
 	let selectedInstitution = $derived(
 		selectedName ? institutionMap.get(selectedName) || null : null
 	);
 
-	// Collection items for selected institution (via project association OR contributor name)
-	let institutionCollectionItems = $derived.by((): CollectionItem[] => {
+	let institutionItems = $derived.by((): CollectionItem[] => {
 		if (!selectedInstitution) return [];
 		const name = selectedInstitution.name;
 		const projectIds = new Set(selectedInstitution.projects.map((p) => p.id));
@@ -173,25 +165,12 @@
 		return results;
 	});
 
-	const collectionPerPage = 10;
-	let collectionPage = $state(0);
-	let paginatedCollectionItems = $derived(
-		paginate(institutionCollectionItems, collectionPage, collectionPerPage)
-	);
-
-	$effect(() => {
-		selectedName;
-		collectionPage = 0;
-	});
-
 	function selectInstitution(name: string) {
-		selectedName = name;
 		urlSelection.pushToUrl(name);
 		scrollToTop();
 	}
 
 	function clearSelection() {
-		selectedName = '';
 		urlSelection.removeFromUrl();
 		scrollToTop();
 	}
@@ -210,325 +189,260 @@
 		</p>
 	</div>
 
-	<div class="grid gap-4 sm:grid-cols-3">
-		<StatCard label="Partner Institutions" value={partnerInstitutions.length} icon={Building2} />
-		<StatCard label="Contributor Orgs" value={contributorInstitutions.length} icon={Building2} />
-		<StatCard
-			label="Total People"
-			value={new Set(institutions.flatMap((i) => [...i.people])).size}
-			icon={Users}
-		/>
-	</div>
+	{#if selectedInstitution}
+		<div class="space-y-6">
+			<BackToList show={true} onclick={clearSelection} label="Back to institutions" />
+			<EntityDetailHeader
+				title={selectedInstitution.name}
+				icon={Building2}
+				wisskiCategory="institutions"
+				wisskiKey={selectedInstitution.name}
+			>
+				{#snippet badges()}
+					{#if selectedInstitution.isPartner}
+						<Badge>{#snippet children()}Partner{/snippet}</Badge>
+					{/if}
+					<Badge variant="secondary">
+						{#snippet children()}{selectedInstitution.projects.length} project{selectedInstitution
+								.projects.length !== 1
+								? 's'
+								: ''}{/snippet}
+					</Badge>
+					<Badge variant="secondary">
+						{#snippet children()}{selectedInstitution.people.size} people{/snippet}
+					</Badge>
+					{#if selectedInstitution.collectionItemCount > 0}
+						<Badge variant="outline">
+							{#snippet children()}{selectedInstitution.collectionItemCount} item{selectedInstitution.collectionItemCount !==
+								1
+									? 's'
+									: ''}{/snippet}
+						</Badge>
+					{/if}
+				{/snippet}
+			</EntityDetailHeader>
 
-	<!-- University Breakdown Cards -->
-	<div class="grid gap-4 grid-cols-2 lg:grid-cols-4">
-		{#each $universitiesData as uniData, index (uniData.university.code)}
-			<div class="stat-card animate-slide-in-up" style="animation-delay: {75 + index * 50}ms">
-				<div class="flex items-start justify-between gap-2">
-					<div class="min-w-0 flex-1">
-						<p class="text-sm font-medium text-muted-foreground">{uniData.university.code}</p>
-						<p class="stat-value mt-2">{uniData.count}</p>
-						<p class="stat-label truncate" title={uniData.university.name}>
-							{uniData.university.name}
-						</p>
-					</div>
-					<div
-						class="size-9 sm:size-10 rounded-lg bg-white flex items-center justify-center p-1.5 shadow-sm flex-shrink-0"
-					>
-						<img
-							src="{base}/{uniData.university.logo}"
-							alt="{uniData.university.name} logo"
-							class="h-full w-full object-contain"
-						/>
-					</div>
-				</div>
-			</div>
-		{/each}
-	</div>
-
-	<div class="grid gap-6 lg:grid-cols-3">
-		<!-- Institution List -->
-		<Card class="lg:col-span-1 lg:sticky lg:top-20 lg:self-start overflow-hidden">
-			{#snippet children()}
-				<CardHeader>
-					{#snippet children()}
-						<CardTitle>
-							{#snippet children()}
-								<BackToList show={!!selectedName} onclick={clearSelection} />
-								<span class="flex items-center justify-between">
-									Institutions
-									<Badge variant="secondary">
-										{#snippet children()}{filteredPartner.length +
-												filteredContributor.length}{/snippet}
-									</Badge>
-								</span>
-							{/snippet}
-						</CardTitle>
-					{/snippet}
-				</CardHeader>
-				<CardContent>
-					{#snippet children()}
-						<div class="space-y-3">
-							<Input placeholder="Search institutions..." bind:value={searchQuery} />
-							<div class="space-y-1 max-h-list-scroll overflow-y-auto">
-								{#if filteredPartner.length > 0}
-									<p
-										class="text-xs font-semibold text-muted-foreground uppercase tracking-wider px-3 pt-1 pb-1"
-									>
-										Partner Institutions
-									</p>
-									{#each filteredPartner as inst (inst.name)}
-										{@const isSelected = selectedName === inst.name}
-										<button
-											onclick={() => selectInstitution(inst.name)}
-											class="list-item-btn {isSelected ? 'active' : ''}"
-										>
-											<span class="break-words">{inst.name}</span>
-											<span class="flex items-center gap-2 mt-0.5">
-												<span class="text-xs text-muted-foreground"
-													>{inst.projects.length} project{inst.projects.length !== 1
-														? 's'
-														: ''}</span
-												>
-												<span class="text-xs text-muted-foreground"
-													>· {inst.people.size} people</span
-												>
-											</span>
-										</button>
-									{/each}
-								{/if}
-
-								{#if filteredContributor.length > 0}
-									<p
-										class="text-xs font-semibold text-muted-foreground uppercase tracking-wider px-3 pt-3 pb-1 border-t border-border mt-2"
-									>
-										Contributor Organizations
-									</p>
-									{#each filteredContributor as inst (inst.name)}
-										{@const isSelected = selectedName === inst.name}
-										<button
-											onclick={() => selectInstitution(inst.name)}
-											class="list-item-btn {isSelected ? 'active' : ''}"
-										>
-											<span class="break-words">{inst.name}</span>
-											<span class="text-xs text-muted-foreground mt-0.5 block">
-												{inst.collectionItemCount} item{inst.collectionItemCount !== 1 ? 's' : ''}
-											</span>
-										</button>
-									{/each}
-								{/if}
-							</div>
-						</div>
-					{/snippet}
-				</CardContent>
-			{/snippet}
-		</Card>
-
-		<!-- Institution Detail -->
-		<div class="lg:col-span-2 space-y-6">
-			{#if selectedInstitution}
-				<!-- Header -->
+			{#if selectedInstitution.projects.length > 0}
 				<Card class="overflow-hidden">
 					{#snippet children()}
 						<CardHeader>
 							{#snippet children()}
-								<div class="min-w-0">
-									<CardTitle class="break-words">
-										{#snippet children()}{selectedInstitution.name}{/snippet}
-									</CardTitle>
-									<div class="flex flex-wrap gap-2 mt-3">
-										<Badge variant="secondary">
-											{#snippet children()}{selectedInstitution.projects.length} project{selectedInstitution
-													.projects.length !== 1
-													? 's'
-													: ''}{/snippet}
-										</Badge>
-										<Badge variant="secondary">
-											{#snippet children()}{selectedInstitution.people.size} people{/snippet}
-										</Badge>
-										{#if selectedInstitution.collectionItemCount > 0}
-											<Badge variant="outline">
-												{#snippet children()}{selectedInstitution.collectionItemCount} collection item{selectedInstitution.collectionItemCount !==
-													1
-														? 's'
-														: ''}{/snippet}
+								<CardTitle class="text-lg">
+									{#snippet children()}
+										<span class="flex items-center gap-2">
+											<Briefcase class="h-5 w-5 text-primary" />
+											Projects
+											<Badge variant="secondary">
+												{#snippet children()}{selectedInstitution.projects.length}{/snippet}
 											</Badge>
-										{/if}
-										<WissKILink category="institutions" entityKey={selectedInstitution.name} />
-									</div>
-								</div>
+										</span>
+									{/snippet}
+								</CardTitle>
 							{/snippet}
 						</CardHeader>
-					{/snippet}
-				</Card>
-
-				<!-- Projects -->
-				{#if selectedInstitution.projects.length > 0}
-					<Card class="overflow-hidden">
-						{#snippet children()}
-							<CardHeader>
-								{#snippet children()}
-									<CardTitle class="text-lg">
-										{#snippet children()}
-											<span class="flex items-center gap-2">
-												<Briefcase class="h-5 w-5 text-primary" />
-												Projects
-											</span>
-										{/snippet}
-									</CardTitle>
-								{/snippet}
-							</CardHeader>
-							<CardContent>
-								{#snippet children()}
-									<ul class="space-y-3">
-										{#each selectedInstitution.projects as project (project.id)}
-											<li class="p-3 rounded-lg bg-muted/30">
-												<a
-													href={projectUrl(project.id)}
-													class="text-sm font-medium text-foreground hover:text-primary transition-colors break-words"
-												>
-													{getProjectTitle(project)}
-												</a>
-												<div class="flex flex-wrap items-center gap-2 mt-1">
-													{#if project.idShort}
-														<span class="text-xs text-muted-foreground font-mono">{project.id}</span
-														>
-													{/if}
-													{#if project.date?.start || project.date?.end}
-														<span class="text-xs text-muted-foreground">
-															{formatDate(project.date.start)}{project.date.end
-																? ` – ${formatDate(project.date.end)}`
-																: ''}
-														</span>
-													{/if}
-												</div>
-												{#if project.researchSection?.length}
-													<div class="flex flex-wrap gap-1 mt-1.5">
-														{#each project.researchSection as section (section)}
-															<a
-																href={researchSectionsUrl(section)}
-																class="hover:opacity-80 transition-opacity"
-															>
-																<SectionBadge {section} small />
-															</a>
-														{/each}
-													</div>
-												{/if}
-												{#if project.pi?.length}
-													<p class="text-xs text-muted-foreground mt-1.5">
-														PI: {#each project.pi as pi, i (pi)}{#if i > 0},&nbsp;{/if}<a
-																href={personUrl(pi)}
-																class="hover:text-primary transition-colors">{pi}</a
-															>{/each}
-													</p>
-												{/if}
-											</li>
-										{/each}
-									</ul>
-								{/snippet}
-							</CardContent>
-						{/snippet}
-					</Card>
-				{/if}
-
-				<!-- People -->
-				{#if selectedInstitution.people.size > 0}
-					<Card class="overflow-hidden">
-						{#snippet children()}
-							<CardHeader>
-								{#snippet children()}
-									<CardTitle class="text-lg">
-										{#snippet children()}
-											<span class="flex items-center gap-2">
-												<Users class="h-5 w-5 text-muted-foreground" />
-												People
-												<Badge variant="secondary">
-													{#snippet children()}{selectedInstitution.people.size}{/snippet}
-												</Badge>
-											</span>
-										{/snippet}
-									</CardTitle>
-								{/snippet}
-							</CardHeader>
-							<CardContent>
-								{#snippet children()}
-									<div class="flex flex-wrap gap-2">
-										{#each [...selectedInstitution.people].sort() as person (person)}
-											<a
-												href={personUrl(person)}
-												class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-muted/50 text-sm text-foreground hover:text-primary hover:bg-muted transition-colors"
-											>
-												{person}
-											</a>
-										{/each}
-									</div>
-								{/snippet}
-							</CardContent>
-						{/snippet}
-					</Card>
-				{/if}
-
-				<!-- Research Items -->
-				{#if institutionCollectionItems.length > 0}
-					<Card class="overflow-hidden">
-						{#snippet children()}
-							<CardHeader>
-								{#snippet children()}
-									<CardTitle class="text-lg">
-										{#snippet children()}
-											<span class="flex items-center gap-2">
-												<FileText class="h-5 w-5 text-muted-foreground" />
-												Research Items
-												<Badge variant="secondary">
-													{#snippet children()}{institutionCollectionItems.length}{/snippet}
-												</Badge>
-											</span>
-										{/snippet}
-									</CardTitle>
-								{/snippet}
-							</CardHeader>
-							<CardContent>
-								{#snippet children()}
-									<ul class="space-y-2">
-										{#each paginatedCollectionItems as item (item._id || item.dre_id)}
-											<CollectionItemRow {item} showProject={false} />
-										{/each}
-									</ul>
-									<Pagination
-										currentPage={collectionPage}
-										totalItems={institutionCollectionItems.length}
-										itemsPerPage={collectionPerPage}
-										onPageChange={(p) => (collectionPage = p)}
-									/>
-								{/snippet}
-							</CardContent>
-						{/snippet}
-					</Card>
-				{/if}
-
-				<EntityKnowledgeGraph
-					entityType="institution"
-					entityId={selectedInstitution.name}
-					title="Institution knowledge graph"
-				/>
-			{:else}
-				<Card class="overflow-hidden">
-					{#snippet children()}
 						<CardContent>
 							{#snippet children()}
-								<div class="flex flex-col items-center justify-center py-16 text-center">
-									<Building2 class="h-12 w-12 text-muted-foreground/50 mb-4" />
-									<p class="text-lg font-medium text-muted-foreground">Select an institution</p>
-									<p class="text-sm text-muted-foreground/70 mt-1">
-										Choose an institution from the list to view its projects, people, and research
-										items
-									</p>
+								<ul class="space-y-3">
+									{#each selectedInstitution.projects as project (project.id)}
+										<li class="p-3 rounded-lg bg-muted/30">
+											<a
+												href={projectUrl(project.id)}
+												class="text-sm font-medium text-foreground hover:text-primary transition-colors break-words"
+											>
+												{getProjectTitle(project)}
+											</a>
+											<div class="flex flex-wrap items-center gap-2 mt-1">
+												{#if project.idShort}
+													<span class="text-xs text-muted-foreground font-mono">{project.id}</span>
+												{/if}
+												{#if project.date?.start || project.date?.end}
+													<span class="text-xs text-muted-foreground">
+														{formatDate(project.date.start)}{project.date.end
+															? ` – ${formatDate(project.date.end)}`
+															: ''}
+													</span>
+												{/if}
+											</div>
+											{#if project.researchSection?.length}
+												<div class="flex flex-wrap gap-1 mt-1.5">
+													{#each project.researchSection as section (section)}
+														<a
+															href={researchSectionsUrl(section)}
+															class="hover:opacity-80 transition-opacity"
+														>
+															<SectionBadge {section} small />
+														</a>
+													{/each}
+												</div>
+											{/if}
+											{#if project.pi?.length}
+												<p class="text-xs text-muted-foreground mt-1.5">
+													PI: {#each project.pi as pi, i (pi)}{#if i > 0},&nbsp;{/if}<a
+															href={personUrl(pi)}
+															class="hover:text-primary transition-colors">{pi}</a
+														>{/each}
+												</p>
+											{/if}
+										</li>
+									{/each}
+								</ul>
+							{/snippet}
+						</CardContent>
+					{/snippet}
+				</Card>
+			{/if}
+
+			{#if selectedInstitution.people.size > 0}
+				<Card class="overflow-hidden">
+					{#snippet children()}
+						<CardHeader>
+							{#snippet children()}
+								<CardTitle class="text-lg">
+									{#snippet children()}
+										<span class="flex items-center gap-2">
+											<Users class="h-5 w-5 text-muted-foreground" />
+											People
+											<Badge variant="secondary">
+												{#snippet children()}{selectedInstitution.people.size}{/snippet}
+											</Badge>
+										</span>
+									{/snippet}
+								</CardTitle>
+							{/snippet}
+						</CardHeader>
+						<CardContent>
+							{#snippet children()}
+								<div class="flex flex-wrap gap-2">
+									{#each [...selectedInstitution.people].sort() as person (person)}
+										<a
+											href={personUrl(person)}
+											class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-muted/50 text-sm text-foreground hover:text-primary hover:bg-muted transition-colors"
+										>
+											{person}
+										</a>
+									{/each}
 								</div>
 							{/snippet}
 						</CardContent>
 					{/snippet}
 				</Card>
 			{/if}
+
+			{#if institutionItems.length > 0}
+				<EntityItemsCard items={institutionItems} showProject={false} />
+			{/if}
+
+			<EntityKnowledgeGraph
+				entityType="institution"
+				entityId={selectedInstitution.name}
+				title="Institution knowledge graph"
+			/>
 		</div>
-	</div>
+	{:else}
+		<div class="grid gap-4 sm:grid-cols-3">
+			<StatCard label="Partner Institutions" value={partnerCount} icon={Building2} />
+			<StatCard label="Contributor Orgs" value={contributorCount} icon={Building2} />
+			<StatCard label="Total People" value={totalPeople} icon={Users} />
+		</div>
+
+		<div class="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+			{#each $universitiesData as uniData, index (uniData.university.code)}
+				<div class="stat-card animate-slide-in-up" style="animation-delay: {75 + index * 50}ms">
+					<div class="flex items-start justify-between gap-2">
+						<div class="min-w-0 flex-1">
+							<p class="text-sm font-medium text-muted-foreground">{uniData.university.code}</p>
+							<p class="stat-value mt-2">{uniData.count}</p>
+							<p class="stat-label truncate" title={uniData.university.name}>
+								{uniData.university.name}
+							</p>
+						</div>
+						<div
+							class="size-9 sm:size-10 rounded-lg bg-white flex items-center justify-center p-1.5 shadow-sm flex-shrink-0"
+						>
+							<img
+								src="{base}/{uniData.university.logo}"
+								alt="{uniData.university.name} logo"
+								class="h-full w-full object-contain"
+							/>
+						</div>
+					</div>
+				</div>
+			{/each}
+		</div>
+
+		<!-- Partner/contributor filter -->
+		<div class="flex rounded-lg border border-input overflow-hidden w-fit">
+			<button
+				onclick={() => (partnerFilter = 'all')}
+				class="px-4 py-2 text-sm font-medium transition-colors {partnerFilter === 'all'
+					? 'bg-primary text-primary-foreground'
+					: 'hover:bg-muted'}"
+			>
+				All ({allInstitutions.length})
+			</button>
+			<button
+				onclick={() => (partnerFilter = 'partner')}
+				class="px-4 py-2 text-sm font-medium transition-colors {partnerFilter === 'partner'
+					? 'bg-primary text-primary-foreground'
+					: 'hover:bg-muted'}"
+			>
+				Partners ({partnerCount})
+			</button>
+			<button
+				onclick={() => (partnerFilter = 'contributor')}
+				class="px-4 py-2 text-sm font-medium transition-colors {partnerFilter === 'contributor'
+					? 'bg-primary text-primary-foreground'
+					: 'hover:bg-muted'}"
+			>
+				Contributors ({contributorCount})
+			</button>
+		</div>
+
+		<EntityToolbar
+			{searchQuery}
+			onSearchChange={(v) => (searchQuery = v)}
+			searchPlaceholder="Search institutions..."
+			{sort}
+			onSortChange={(v) => (sort = v)}
+			totalCount={visibleInstitutions.length}
+			totalLabel="institutions"
+		/>
+
+		<EntityBrowseGrid
+			items={visibleInstitutions}
+			getKey={(i) => i.name}
+			emptyMessage="No institutions match your search"
+			density="comfortable"
+		>
+			{#snippet card(inst)}
+				<EntityCard
+					name={inst.name}
+					description={inst.isPartner ? 'Partner institution' : 'Contributor organisation'}
+					count={inst.count || undefined}
+					countLabel="item"
+					icon={Building2}
+					onclick={() => selectInstitution(inst.name)}
+				>
+					{#snippet meta()}
+						{#if inst.isPartner}
+							<Badge class="text-2xs">{#snippet children()}Partner{/snippet}</Badge>
+						{/if}
+						{#if inst.projects.length > 0}
+							<span class="inline-flex items-center gap-1" title="Projects">
+								<Briefcase class="h-3 w-3" />
+								{inst.projects.length} project{inst.projects.length === 1 ? '' : 's'}
+							</span>
+						{/if}
+						{#if inst.people.size > 0}
+							<span class="inline-flex items-center gap-1" title="People">
+								<Users class="h-3 w-3" />
+								{inst.people.size}
+								{inst.people.size === 1 ? 'person' : 'people'}
+							</span>
+						{/if}
+					{/snippet}
+				</EntityCard>
+			{/snippet}
+		</EntityBrowseGrid>
+	{/if}
 </div>
