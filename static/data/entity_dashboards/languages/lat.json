@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "type": "language",
+    "id": "lat",
+    "name": "Latin",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2014,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2014,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    },
+    {
+      "name": "German",
+      "value": 1
+    }
+  ],
+  "heatmap": [
+    {
+      "x": "2010s",
+      "y": "Image",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Artists",
+      "value": 1
+    },
+    {
+      "name": "Interior decoration",
+      "value": 1
+    },
+    {
+      "name": "Mosaics",
+      "value": 1
+    },
+    {
+      "name": "Photographs",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Artists",
+      "value": 1
+    },
+    {
+      "name": "Interior decoration",
+      "value": 1
+    },
+    {
+      "name": "Mosaics",
+      "value": 1
+    },
+    {
+      "name": "Photographs",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Greven, Katharina",
+      "value": 1
+    },
+    {
+      "name": "Beier, Ulli",
+      "value": 1
+    },
+    {
+      "name": "Beier, Georgina",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Nigeria",
+      "region": "Osun State",
+      "city": "Osogbo",
+      "count": 1
+    }
+  ]
+}

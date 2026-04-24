@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "type": "language",
+    "id": "mas",
+    "name": "Maasai",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 2021,
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2021,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 2022,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    },
+    {
+      "name": "Swahili",
+      "value": 1
+    }
+  ],
+  "heatmap": [
+    {
+      "x": "2020s",
+      "y": "Text",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Arid regions",
+      "value": 3
+    },
+    {
+      "name": "Maasai (African people)",
+      "value": 3
+    },
+    {
+      "name": "East Africa",
+      "value": 3
+    },
+    {
+      "name": "Vaccination",
+      "value": 2
+    },
+    {
+      "name": "Sustainable tourism",
+      "value": 1
+    },
+    {
+      "name": "Livestock",
+      "value": 1
+    },
+    {
+      "name": "Corruption",
+      "value": 1
+    },
+    {
+      "name": "Political corruption",
+      "value": 1
+    },
+    {
+      "name": "Households",
+      "value": 1
+    },
+    {
+      "name": "Naturopathy",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Arid regions",
+      "value": 3
+    },
+    {
+      "name": "Maasai (African people)",
+      "value": 3
+    },
+    {
+      "name": "East Africa",
+      "value": 3
+    },
+    {
+      "name": "Vaccination",
+      "value": 2
+    },
+    {
+      "name": "Sustainable tourism",
+      "value": 1
+    },
+    {
+      "name": "Livestock",
+      "value": 1
+    },
+    {
+      "name": "Corruption",
+      "value": 1
+    },
+    {
+      "name": "Political corruption",
+      "value": 1
+    },
+    {
+      "name": "Households",
+      "value": 1
+    },
+    {
+      "name": "Naturopathy",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kronenburg García, Angela",
+      "value": 2
+    },
+    {
+      "name": "Seenoi, Debra",
+      "value": 1
+    },
+    {
+      "name": "Samimi, Cyrus",
+      "value": 1
+    },
+    {
+      "name": "Heita, Jona",
+      "value": 1
+    },
+    {
+      "name": "Gambiza, James",
+      "value": 1
+    },
+    {
+      "name": "Nurudong, Primus",
+      "value": 1
+    },
+    {
+      "name": "Roque de Pinho, Joana",
+      "value": 1
+    },
+    {
+      "name": "Behrends, Andrea",
+      "value": 1
+    },
+    {
+      "name": "Hashimshony Yaffe, Nurit",
+      "value": 1
+    },
+    {
+      "name": "ole Mowuo, Lenaai",
+      "value": 1
+    },
+    {
+      "name": "Goldman, Mara",
+      "value": 1
+    },
+    {
+      "name": "Toima, Mamus Litan",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Kenya",
+      "region": "Narok",
+      "city": "Mpuaai",
+      "count": 1
+    },
+    {
+      "country": "Kenya",
+      "region": "Narok",
+      "city": "Loita Hills",
+      "count": 1
+    },
+    {
+      "country": "Tanzania",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ]
+}

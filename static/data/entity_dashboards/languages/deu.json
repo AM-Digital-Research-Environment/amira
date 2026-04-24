@@ -1,0 +1,934 @@
+{
+  "meta": {
+    "type": "language",
+    "id": "deu",
+    "name": "German",
+    "count": 177
+  },
+  "timeline": [
+    {
+      "year": 1916,
+      "count": 1
+    },
+    {
+      "year": 1917,
+      "count": 1
+    },
+    {
+      "year": 1921,
+      "count": 1
+    },
+    {
+      "year": 1935,
+      "count": 1
+    },
+    {
+      "year": 1936,
+      "count": 1
+    },
+    {
+      "year": 1964,
+      "count": 12
+    },
+    {
+      "year": 1965,
+      "count": 58
+    },
+    {
+      "year": 1971,
+      "count": 1
+    },
+    {
+      "year": 1981,
+      "count": 2
+    },
+    {
+      "year": 1984,
+      "count": 2
+    },
+    {
+      "year": 1985,
+      "count": 2
+    },
+    {
+      "year": 1992,
+      "count": 1
+    },
+    {
+      "year": 2001,
+      "count": 4
+    },
+    {
+      "year": 2004,
+      "count": 1
+    },
+    {
+      "year": 2007,
+      "count": 1
+    },
+    {
+      "year": 2008,
+      "count": 1
+    },
+    {
+      "year": 2009,
+      "count": 1
+    },
+    {
+      "year": 2013,
+      "count": 3
+    },
+    {
+      "year": 2014,
+      "count": 2
+    },
+    {
+      "year": 2015,
+      "count": 2
+    },
+    {
+      "year": 2016,
+      "count": 1
+    },
+    {
+      "year": 2017,
+      "count": 5
+    },
+    {
+      "year": 2018,
+      "count": 2
+    },
+    {
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "count": 15
+    },
+    {
+      "year": 2021,
+      "count": 5
+    },
+    {
+      "year": 2022,
+      "count": 4
+    },
+    {
+      "year": 2023,
+      "count": 27
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1916,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1917,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1921,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1935,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1936,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 1964,
+      "total": 12,
+      "byType": {
+        "Text": 12
+      }
+    },
+    {
+      "year": 1965,
+      "total": 58,
+      "byType": {
+        "Text": 58
+      }
+    },
+    {
+      "year": 1971,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 1981,
+      "total": 2,
+      "byType": {
+        "Image": 2
+      }
+    },
+    {
+      "year": 1984,
+      "total": 2,
+      "byType": {
+        "Image": 2
+      }
+    },
+    {
+      "year": 1985,
+      "total": 2,
+      "byType": {
+        "Moving image": 2
+      }
+    },
+    {
+      "year": 1992,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2001,
+      "total": 4,
+      "byType": {
+        "Text": 4
+      }
+    },
+    {
+      "year": 2004,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2007,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2008,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2009,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2013,
+      "total": 3,
+      "byType": {
+        "Image": 2,
+        "Text": 1
+      }
+    },
+    {
+      "year": 2014,
+      "total": 2,
+      "byType": {
+        "Image": 1,
+        "Text": 1
+      }
+    },
+    {
+      "year": 2015,
+      "total": 2,
+      "byType": {
+        "Text": 1,
+        "Digital": 1
+      }
+    },
+    {
+      "year": 2016,
+      "total": 1,
+      "byType": {
+        "Audio": 1
+      }
+    },
+    {
+      "year": 2017,
+      "total": 5,
+      "byType": {
+        "Text": 4,
+        "Image": 1
+      }
+    },
+    {
+      "year": 2018,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 2019,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 2020,
+      "total": 15,
+      "byType": {
+        "Image": 14,
+        "Text": 1
+      }
+    },
+    {
+      "year": 2021,
+      "total": 5,
+      "byType": {
+        "Digital": 1,
+        "Text": 4
+      }
+    },
+    {
+      "year": 2022,
+      "total": 4,
+      "byType": {
+        "Text": 4
+      }
+    },
+    {
+      "year": 2023,
+      "total": 27,
+      "byType": {
+        "Text": 26,
+        "Image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 129
+    },
+    {
+      "name": "Image",
+      "value": 32
+    },
+    {
+      "name": "Moving image",
+      "value": 13
+    },
+    {
+      "name": "Digital",
+      "value": 2
+    },
+    {
+      "name": "Audio",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 20
+    },
+    {
+      "name": "Spanish",
+      "value": 6
+    },
+    {
+      "name": "French",
+      "value": 2
+    },
+    {
+      "name": "Hebrew",
+      "value": 1
+    },
+    {
+      "name": "Latin",
+      "value": 1
+    }
+  ],
+  "heatmap": [
+    {
+      "x": "1910s",
+      "y": "Text",
+      "value": 2
+    },
+    {
+      "x": "1920s",
+      "y": "Text",
+      "value": 1
+    },
+    {
+      "x": "1930s",
+      "y": "Image",
+      "value": 1
+    },
+    {
+      "x": "1930s",
+      "y": "Text",
+      "value": 1
+    },
+    {
+      "x": "1960s",
+      "y": "Text",
+      "value": 70
+    },
+    {
+      "x": "1970s",
+      "y": "Image",
+      "value": 1
+    },
+    {
+      "x": "1980s",
+      "y": "Image",
+      "value": 4
+    },
+    {
+      "x": "1980s",
+      "y": "Moving image",
+      "value": 2
+    },
+    {
+      "x": "1990s",
+      "y": "Text",
+      "value": 1
+    },
+    {
+      "x": "2000s",
+      "y": "Text",
+      "value": 8
+    },
+    {
+      "x": "2010s",
+      "y": "Audio",
+      "value": 1
+    },
+    {
+      "x": "2010s",
+      "y": "Digital",
+      "value": 1
+    },
+    {
+      "x": "2010s",
+      "y": "Image",
+      "value": 5
+    },
+    {
+      "x": "2010s",
+      "y": "Text",
+      "value": 9
+    },
+    {
+      "x": "2020s",
+      "y": "Digital",
+      "value": 1
+    },
+    {
+      "x": "2020s",
+      "y": "Image",
+      "value": 15
+    },
+    {
+      "x": "2020s",
+      "y": "Text",
+      "value": 35
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Literacy",
+      "value": 29
+    },
+    {
+      "name": "Racism",
+      "value": 24
+    },
+    {
+      "name": "Africa",
+      "value": 9
+    },
+    {
+      "name": "History",
+      "value": 8
+    },
+    {
+      "name": "Archives",
+      "value": 6
+    },
+    {
+      "name": "Culture",
+      "value": 6
+    },
+    {
+      "name": "Photographs",
+      "value": 5
+    },
+    {
+      "name": "Art",
+      "value": 5
+    },
+    {
+      "name": "Exhibitions",
+      "value": 5
+    },
+    {
+      "name": "Education",
+      "value": 5
+    },
+    {
+      "name": "National socialism",
+      "value": 5
+    },
+    {
+      "name": "Newspapers",
+      "value": 4
+    },
+    {
+      "name": "Painting",
+      "value": 4
+    },
+    {
+      "name": "Artists",
+      "value": 4
+    },
+    {
+      "name": "Colonisation",
+      "value": 4
+    },
+    {
+      "name": "Letters",
+      "value": 4
+    },
+    {
+      "name": "Social norms",
+      "value": 4
+    },
+    {
+      "name": "Discourse analysis",
+      "value": 4
+    },
+    {
+      "name": "Albums",
+      "value": 3
+    },
+    {
+      "name": "Sports",
+      "value": 3
+    },
+    {
+      "name": "Arts",
+      "value": 3
+    },
+    {
+      "name": "Music",
+      "value": 3
+    },
+    {
+      "name": "Antisemitism",
+      "value": 3
+    },
+    {
+      "name": "Science",
+      "value": 3
+    },
+    {
+      "name": "International trade",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Literacy",
+      "value": 29
+    },
+    {
+      "name": "Racism",
+      "value": 24
+    },
+    {
+      "name": "Africa",
+      "value": 9
+    },
+    {
+      "name": "History",
+      "value": 8
+    },
+    {
+      "name": "Archives",
+      "value": 6
+    },
+    {
+      "name": "Culture",
+      "value": 6
+    },
+    {
+      "name": "Photographs",
+      "value": 5
+    },
+    {
+      "name": "Art",
+      "value": 5
+    },
+    {
+      "name": "Exhibitions",
+      "value": 5
+    },
+    {
+      "name": "Education",
+      "value": 5
+    },
+    {
+      "name": "National socialism",
+      "value": 5
+    },
+    {
+      "name": "Newspapers",
+      "value": 4
+    },
+    {
+      "name": "Painting",
+      "value": 4
+    },
+    {
+      "name": "Artists",
+      "value": 4
+    },
+    {
+      "name": "Colonisation",
+      "value": 4
+    },
+    {
+      "name": "Letters",
+      "value": 4
+    },
+    {
+      "name": "Social norms",
+      "value": 4
+    },
+    {
+      "name": "Discourse analysis",
+      "value": 4
+    },
+    {
+      "name": "Albums",
+      "value": 3
+    },
+    {
+      "name": "Sports",
+      "value": 3
+    },
+    {
+      "name": "Arts",
+      "value": 3
+    },
+    {
+      "name": "Music",
+      "value": 3
+    },
+    {
+      "name": "Antisemitism",
+      "value": 3
+    },
+    {
+      "name": "Science",
+      "value": 3
+    },
+    {
+      "name": "International trade",
+      "value": 2
+    },
+    {
+      "name": "East Africa",
+      "value": 2
+    },
+    {
+      "name": "Slavery",
+      "value": 2
+    },
+    {
+      "name": "Jews",
+      "value": 2
+    },
+    {
+      "name": "Photography",
+      "value": 2
+    },
+    {
+      "name": "Horsemanship",
+      "value": 1
+    },
+    {
+      "name": "Women artists",
+      "value": 1
+    },
+    {
+      "name": "Poets",
+      "value": 1
+    },
+    {
+      "name": "Interviews",
+      "value": 1
+    },
+    {
+      "name": "Wood-carving, Yoruba",
+      "value": 1
+    },
+    {
+      "name": "Interior decoration",
+      "value": 1
+    },
+    {
+      "name": "Mosaics",
+      "value": 1
+    },
+    {
+      "name": "Decolonisation",
+      "value": 1
+    },
+    {
+      "name": "Glass",
+      "value": 1
+    },
+    {
+      "name": "Cotton",
+      "value": 1
+    },
+    {
+      "name": "Opera",
+      "value": 1
+    },
+    {
+      "name": "Subconsciousness",
+      "value": 1
+    },
+    {
+      "name": "Postcolonialism",
+      "value": 1
+    },
+    {
+      "name": "Industrialization",
+      "value": 1
+    },
+    {
+      "name": "Travel",
+      "value": 1
+    },
+    {
+      "name": "Nobility",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Stephan, Klaus",
+      "value": 56
+    },
+    {
+      "name": "Krauß, Rebekka",
+      "value": 29
+    },
+    {
+      "name": "Government of Liberia",
+      "value": 13
+    },
+    {
+      "name": "Greven, Katharina",
+      "value": 11
+    },
+    {
+      "name": "Münster, Clemens",
+      "value": 10
+    },
+    {
+      "name": "Beier, Ulli",
+      "value": 7
+    },
+    {
+      "name": "Wallenreiter, Christian",
+      "value": 6
+    },
+    {
+      "name": "Wild, Franz Josef",
+      "value": 6
+    },
+    {
+      "name": "Otung, Glory Essien",
+      "value": 4
+    },
+    {
+      "name": "Anchimbe, Eric",
+      "value": 4
+    },
+    {
+      "name": "Chiangong, Pepetual Mforbe",
+      "value": 4
+    },
+    {
+      "name": "Marjie, Sarah",
+      "value": 4
+    },
+    {
+      "name": "Kengo, Emmanuel",
+      "value": 4
+    },
+    {
+      "name": "Atindogbe, Gratien",
+      "value": 4
+    },
+    {
+      "name": "Ubanako, Valentine",
+      "value": 4
+    },
+    {
+      "name": "Mforteh, Stephen",
+      "value": 4
+    },
+    {
+      "name": "Eyoh, Julius",
+      "value": 4
+    },
+    {
+      "name": "Oyali, Uchenna",
+      "value": 4
+    },
+    {
+      "name": "Mbah, Boniface",
+      "value": 4
+    },
+    {
+      "name": "TransTel",
+      "value": 4
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "",
+      "city": "",
+      "count": 29
+    },
+    {
+      "country": "Bolivia",
+      "region": "La Paz Department",
+      "city": "",
+      "count": 29
+    },
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 26
+    },
+    {
+      "country": "Nigeria",
+      "region": "Oyo State",
+      "city": "Ibadan",
+      "count": 24
+    },
+    {
+      "country": "Nigeria",
+      "region": "",
+      "city": "",
+      "count": 16
+    },
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Munich",
+      "count": 15
+    },
+    {
+      "country": "Liberia",
+      "region": "Montserrado County",
+      "city": "Monrovia",
+      "count": 13
+    },
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "",
+      "count": 6
+    },
+    {
+      "country": "Cameroon",
+      "region": "Southwest",
+      "city": "Buea",
+      "count": 3
+    },
+    {
+      "country": "Germany",
+      "region": "Berlin",
+      "city": "Berlin",
+      "count": 2
+    },
+    {
+      "country": "Germany",
+      "region": "North Rhine-Westphalia",
+      "city": "Cologne",
+      "count": 2
+    },
+    {
+      "country": "Germany",
+      "region": "North Rhine-Westphalia",
+      "city": "Essen",
+      "count": 2
+    },
+    {
+      "country": "Egypt",
+      "region": "Port Said Governorate",
+      "city": "Port Said",
+      "count": 2
+    },
+    {
+      "country": "Nigeria",
+      "region": "Lagos State",
+      "city": "Lagos",
+      "count": 2
+    },
+    {
+      "country": "France",
+      "region": "Île-de-France",
+      "city": "Paris",
+      "count": 2
+    },
+    {
+      "country": "Germany",
+      "region": "Rhineland-Palatinate",
+      "city": "Mainz",
+      "count": 1
+    },
+    {
+      "country": "Nigeria",
+      "region": "Osun State",
+      "city": "Osogbo",
+      "count": 1
+    },
+    {
+      "country": "Nigeria",
+      "region": "Enugu State",
+      "city": "Enugu",
+      "count": 1
+    }
+  ]
+}

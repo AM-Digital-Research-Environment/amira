@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "type": "language",
+    "id": "pcm",
+    "name": "Nigerian Pidgin",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1950,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1950,
+      "total": 1,
+      "byType": {
+        "Audio": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Audio",
+      "value": 1
+    }
+  ],
+  "languages": [],
+  "heatmap": [
+    {
+      "x": "1950s",
+      "y": "Audio",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Highlife (Music)",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Highlife (Music)",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Charles Iwegbue & His Orchibogs",
+      "value": 1
+    },
+    {
+      "name": "DECCA",
+      "value": 1
+    },
+    {
+      "name": "Ghana Broadcasting Corporation Gramophone Library",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Nigeria",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ]
+}

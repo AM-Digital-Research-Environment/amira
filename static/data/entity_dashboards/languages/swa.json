@@ -1,0 +1,343 @@
+{
+  "meta": {
+    "type": "language",
+    "id": "swa",
+    "name": "Swahili",
+    "count": 63
+  },
+  "timeline": [
+    {
+      "year": 1950,
+      "count": 57
+    },
+    {
+      "year": 2020,
+      "count": 4
+    },
+    {
+      "year": 2021,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1950,
+      "total": 57,
+      "byType": {
+        "Audio": 57
+      }
+    },
+    {
+      "year": 2020,
+      "total": 4,
+      "byType": {
+        "Text": 3,
+        "Audio": 1
+      }
+    },
+    {
+      "year": 2021,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Audio",
+      "value": 58
+    },
+    {
+      "name": "Text",
+      "value": 5
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 6
+    },
+    {
+      "name": "Spanish",
+      "value": 1
+    },
+    {
+      "name": "Catalan",
+      "value": 1
+    },
+    {
+      "name": "Maasai",
+      "value": 1
+    }
+  ],
+  "heatmap": [
+    {
+      "x": "1950s",
+      "y": "Audio",
+      "value": 57
+    },
+    {
+      "x": "2020s",
+      "y": "Audio",
+      "value": 1
+    },
+    {
+      "x": "2020s",
+      "y": "Text",
+      "value": 5
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 57
+    },
+    {
+      "name": "Swahili language",
+      "value": 57
+    },
+    {
+      "name": "Arid regions",
+      "value": 3
+    },
+    {
+      "name": "Maasai (African people)",
+      "value": 3
+    },
+    {
+      "name": "Food security",
+      "value": 3
+    },
+    {
+      "name": "East Africa",
+      "value": 3
+    },
+    {
+      "name": "Livestock",
+      "value": 2
+    },
+    {
+      "name": "Sustainable tourism",
+      "value": 1
+    },
+    {
+      "name": "Travel",
+      "value": 1
+    },
+    {
+      "name": "Herders",
+      "value": 1
+    },
+    {
+      "name": "Naturopathy",
+      "value": 1
+    },
+    {
+      "name": "Mass media",
+      "value": 1
+    },
+    {
+      "name": "Hygiene",
+      "value": 1
+    },
+    {
+      "name": "Water",
+      "value": 1
+    },
+    {
+      "name": "Social distancing (Public health)",
+      "value": 1
+    },
+    {
+      "name": "Ecology",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Ethnomusicology",
+      "value": 57
+    },
+    {
+      "name": "Swahili language",
+      "value": 57
+    },
+    {
+      "name": "Arid regions",
+      "value": 3
+    },
+    {
+      "name": "Maasai (African people)",
+      "value": 3
+    },
+    {
+      "name": "Food security",
+      "value": 3
+    },
+    {
+      "name": "East Africa",
+      "value": 3
+    },
+    {
+      "name": "Livestock",
+      "value": 2
+    },
+    {
+      "name": "Sustainable tourism",
+      "value": 1
+    },
+    {
+      "name": "Travel",
+      "value": 1
+    },
+    {
+      "name": "Herders",
+      "value": 1
+    },
+    {
+      "name": "Naturopathy",
+      "value": 1
+    },
+    {
+      "name": "Mass media",
+      "value": 1
+    },
+    {
+      "name": "Hygiene",
+      "value": 1
+    },
+    {
+      "name": "Water",
+      "value": 1
+    },
+    {
+      "name": "Social distancing (Public health)",
+      "value": 1
+    },
+    {
+      "name": "Ecology",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Jambo",
+      "value": 57
+    },
+    {
+      "name": "Ghana Broadcasting Corporation Gramophone Library",
+      "value": 57
+    },
+    {
+      "name": "East African Records Limited",
+      "value": 57
+    },
+    {
+      "name": "Jambo Boys",
+      "value": 15
+    },
+    {
+      "name": "The Kiko Kids",
+      "value": 11
+    },
+    {
+      "name": "Sheila",
+      "value": 11
+    },
+    {
+      "name": "Frank and Jambo Boys Band",
+      "value": 6
+    },
+    {
+      "name": "Humplick, Frank",
+      "value": 6
+    },
+    {
+      "name": "Jambo Band",
+      "value": 6
+    },
+    {
+      "name": "Callist, Charles",
+      "value": 4
+    },
+    {
+      "name": "Williams, Fadhili",
+      "value": 4
+    },
+    {
+      "name": "Hamisi, Henry",
+      "value": 3
+    },
+    {
+      "name": "Masengo, Edouard",
+      "value": 3
+    },
+    {
+      "name": "Mrisho Kitaar, B. Jumu",
+      "value": 3
+    },
+    {
+      "name": "Hashimshony Yaffe, Nurit",
+      "value": 2
+    },
+    {
+      "name": "Goldman, Mara",
+      "value": 2
+    },
+    {
+      "name": "Andrea",
+      "value": 2
+    },
+    {
+      "name": "Grand Charo",
+      "value": 2
+    },
+    {
+      "name": "Bernard, Peter",
+      "value": 2
+    },
+    {
+      "name": "Frank & His Sisters with Jambo Band",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "Kenya",
+      "region": "",
+      "city": "",
+      "count": 57
+    },
+    {
+      "country": "Kenya",
+      "region": "Turkana",
+      "city": "Turkana South",
+      "count": 2
+    },
+    {
+      "country": "Kenya",
+      "region": "Narok",
+      "city": "Maasai Mara National Reserve",
+      "count": 1
+    },
+    {
+      "country": "Kenya",
+      "region": "Narok",
+      "city": "Mpuaai",
+      "count": 1
+    },
+    {
+      "country": "Tanzania",
+      "region": "",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "Tanzania",
+      "region": "Iringa",
+      "city": "",
+      "count": 1
+    }
+  ]
+}

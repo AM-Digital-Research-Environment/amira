@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "type": "language",
+    "id": "heb",
+    "name": "Hebrew",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2013,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2013,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "value": 1
+    }
+  ],
+  "heatmap": [
+    {
+      "x": "2010s",
+      "y": "Image",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Horsemanship",
+      "value": 1
+    },
+    {
+      "name": "Newspapers",
+      "value": 1
+    },
+    {
+      "name": "Archives",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Horsemanship",
+      "value": 1
+    },
+    {
+      "name": "Newspapers",
+      "value": 1
+    },
+    {
+      "name": "Archives",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Beier, Ulli",
+      "value": 1
+    },
+    {
+      "name": "Greven, Katharina",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 1
+    }
+  ]
+}

@@ -17,6 +17,9 @@
 	import type { CollectionItem } from '$lib/types';
 	import { Languages, FileText } from '@lucide/svelte';
 	import { SvelteMap } from 'svelte/reactivity';
+	import { EntityDashboard, getEntityLayout } from '$lib/components/dashboards';
+	import type { EntityDashboardData } from '$lib/components/dashboards';
+	import { loadEntityDashboard } from '$lib/utils/loaders/entityDashboardLoader';
 
 	const urlSelection = createUrlSelection('code');
 
@@ -68,6 +71,30 @@
 		urlSelection.removeFromUrl();
 		scrollToTop();
 	}
+
+	// Per-language dashboard: loads precomputed JSON emitted by
+	// `scripts/precompute_entity_dashboards.py --entity language`. When the
+	// file is missing (pre-pipeline runs, or a language without precomputed
+	// data), we silently fall back to the existing items-list view.
+	const languageLayout = getEntityLayout('language');
+	let dashboardData = $state<EntityDashboardData | null>(null);
+	let dashboardLoading = $state(false);
+
+	$effect(() => {
+		if (!selectedCode) {
+			dashboardData = null;
+			return;
+		}
+		// Capture the code so a stale fetch doesn't clobber newer state.
+		const requestedCode = selectedCode;
+		dashboardLoading = true;
+		loadEntityDashboard('language', requestedCode).then((data) => {
+			if (requestedCode === selectedCode) {
+				dashboardData = data;
+				dashboardLoading = false;
+			}
+		});
+	});
 </script>
 
 <SEO
@@ -95,6 +122,15 @@
 				wisskiKey={selectedLanguage.name}
 			/>
 			<EntityItemsCard items={selectedLanguage.items} showProject={true} />
+			{#if languageLayout && dashboardData}
+				<EntityDashboard
+					layout={languageLayout}
+					data={dashboardData}
+					items={selectedLanguage.items}
+				/>
+			{:else if dashboardLoading}
+				<p class="text-sm text-muted-foreground">Loading dashboard…</p>
+			{/if}
 		</div>
 	{:else}
 		<div class="grid gap-4 sm:grid-cols-3">

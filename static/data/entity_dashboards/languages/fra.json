@@ -1,0 +1,1080 @@
+{
+  "meta": {
+    "type": "language",
+    "id": "fra",
+    "name": "French",
+    "count": 662
+  },
+  "timeline": [
+    {
+      "year": 1954,
+      "count": 1
+    },
+    {
+      "year": 1966,
+      "count": 1
+    },
+    {
+      "year": 1971,
+      "count": 2
+    },
+    {
+      "year": 1973,
+      "count": 2
+    },
+    {
+      "year": 1975,
+      "count": 2
+    },
+    {
+      "year": 1985,
+      "count": 2
+    },
+    {
+      "year": 1987,
+      "count": 1
+    },
+    {
+      "year": 1996,
+      "count": 1
+    },
+    {
+      "year": 2014,
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "count": 236
+    },
+    {
+      "year": 2020,
+      "count": 53
+    },
+    {
+      "year": 2021,
+      "count": 98
+    },
+    {
+      "year": 2022,
+      "count": 106
+    },
+    {
+      "year": 2023,
+      "count": 128
+    },
+    {
+      "year": 2024,
+      "count": 14
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1954,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1966,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1971,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1973,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1975,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1985,
+      "total": 2,
+      "byType": {
+        "Moving image": 2
+      }
+    },
+    {
+      "year": 1987,
+      "total": 1,
+      "byType": {
+        "Moving image": 1
+      }
+    },
+    {
+      "year": 1996,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2014,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2019,
+      "total": 236,
+      "byType": {
+        "Image": 236
+      }
+    },
+    {
+      "year": 2020,
+      "total": 53,
+      "byType": {
+        "Text": 12,
+        "Audio": 40,
+        "Moving image": 1
+      }
+    },
+    {
+      "year": 2021,
+      "total": 98,
+      "byType": {
+        "Audio": 65,
+        "Text": 33
+      }
+    },
+    {
+      "year": 2022,
+      "total": 106,
+      "byType": {
+        "Text": 83,
+        "Audio": 14,
+        "Moving image": 9
+      }
+    },
+    {
+      "year": 2023,
+      "total": 128,
+      "byType": {
+        "Audio": 30,
+        "Dataset": 1,
+        "Text": 95,
+        "Moving image": 1,
+        "Multimedia": 1
+      }
+    },
+    {
+      "year": 2024,
+      "total": 14,
+      "byType": {
+        "Bibliography": 13,
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 236
+    },
+    {
+      "name": "Text",
+      "value": 234
+    },
+    {
+      "name": "Audio",
+      "value": 151
+    },
+    {
+      "name": "Moving image",
+      "value": 26
+    },
+    {
+      "name": "Bibliography",
+      "value": 13
+    },
+    {
+      "name": "Dataset",
+      "value": 1
+    },
+    {
+      "name": "Multimedia",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 30
+    },
+    {
+      "name": "German",
+      "value": 2
+    },
+    {
+      "name": "Arabic",
+      "value": 1
+    }
+  ],
+  "heatmap": [
+    {
+      "x": "1950s",
+      "y": "Text",
+      "value": 1
+    },
+    {
+      "x": "1960s",
+      "y": "Text",
+      "value": 1
+    },
+    {
+      "x": "1970s",
+      "y": "Text",
+      "value": 6
+    },
+    {
+      "x": "1980s",
+      "y": "Moving image",
+      "value": 3
+    },
+    {
+      "x": "1990s",
+      "y": "Text",
+      "value": 1
+    },
+    {
+      "x": "2010s",
+      "y": "Image",
+      "value": 236
+    },
+    {
+      "x": "2010s",
+      "y": "Text",
+      "value": 1
+    },
+    {
+      "x": "2020s",
+      "y": "Audio",
+      "value": 149
+    },
+    {
+      "x": "2020s",
+      "y": "Bibliography",
+      "value": 13
+    },
+    {
+      "x": "2020s",
+      "y": "Dataset",
+      "value": 1
+    },
+    {
+      "x": "2020s",
+      "y": "Moving image",
+      "value": 11
+    },
+    {
+      "x": "2020s",
+      "y": "Multimedia",
+      "value": 1
+    },
+    {
+      "x": "2020s",
+      "y": "Text",
+      "value": 224
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Youth",
+      "value": 256
+    },
+    {
+      "name": "Learning",
+      "value": 236
+    },
+    {
+      "name": "Ethics",
+      "value": 106
+    },
+    {
+      "name": "Africa",
+      "value": 106
+    },
+    {
+      "name": "Actors",
+      "value": 83
+    },
+    {
+      "name": "Aesthetics",
+      "value": 83
+    },
+    {
+      "name": "Experience",
+      "value": 83
+    },
+    {
+      "name": "Terrorism",
+      "value": 78
+    },
+    {
+      "name": "Women",
+      "value": 68
+    },
+    {
+      "name": "Communication",
+      "value": 67
+    },
+    {
+      "name": "Pregnancy",
+      "value": 67
+    },
+    {
+      "name": "Reproductive health",
+      "value": 67
+    },
+    {
+      "name": "Teenage pregnancy",
+      "value": 67
+    },
+    {
+      "name": "Abortion",
+      "value": 67
+    },
+    {
+      "name": "Contraception",
+      "value": 67
+    },
+    {
+      "name": "Prevention",
+      "value": 67
+    },
+    {
+      "name": "Applied ethics",
+      "value": 67
+    },
+    {
+      "name": "Violence",
+      "value": 67
+    },
+    {
+      "name": "Emigration and immigration",
+      "value": 66
+    },
+    {
+      "name": "Border security",
+      "value": 66
+    },
+    {
+      "name": "COVID-19 (Disease)",
+      "value": 40
+    },
+    {
+      "name": "French",
+      "value": 38
+    },
+    {
+      "name": "Health",
+      "value": 36
+    },
+    {
+      "name": "Punishment",
+      "value": 30
+    },
+    {
+      "name": "Discourse analysis",
+      "value": 24
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Youth",
+      "value": 256
+    },
+    {
+      "name": "Learning",
+      "value": 236
+    },
+    {
+      "name": "Ethics",
+      "value": 106
+    },
+    {
+      "name": "Africa",
+      "value": 106
+    },
+    {
+      "name": "Actors",
+      "value": 83
+    },
+    {
+      "name": "Aesthetics",
+      "value": 83
+    },
+    {
+      "name": "Experience",
+      "value": 83
+    },
+    {
+      "name": "Terrorism",
+      "value": 78
+    },
+    {
+      "name": "Women",
+      "value": 68
+    },
+    {
+      "name": "Communication",
+      "value": 67
+    },
+    {
+      "name": "Pregnancy",
+      "value": 67
+    },
+    {
+      "name": "Reproductive health",
+      "value": 67
+    },
+    {
+      "name": "Teenage pregnancy",
+      "value": 67
+    },
+    {
+      "name": "Abortion",
+      "value": 67
+    },
+    {
+      "name": "Contraception",
+      "value": 67
+    },
+    {
+      "name": "Prevention",
+      "value": 67
+    },
+    {
+      "name": "Applied ethics",
+      "value": 67
+    },
+    {
+      "name": "Violence",
+      "value": 67
+    },
+    {
+      "name": "Emigration and immigration",
+      "value": 66
+    },
+    {
+      "name": "Border security",
+      "value": 66
+    },
+    {
+      "name": "COVID-19 (Disease)",
+      "value": 40
+    },
+    {
+      "name": "French",
+      "value": 38
+    },
+    {
+      "name": "Health",
+      "value": 36
+    },
+    {
+      "name": "Punishment",
+      "value": 30
+    },
+    {
+      "name": "Discourse analysis",
+      "value": 24
+    },
+    {
+      "name": "Literacy",
+      "value": 23
+    },
+    {
+      "name": "World health",
+      "value": 23
+    },
+    {
+      "name": "West Africa",
+      "value": 23
+    },
+    {
+      "name": "Administration of Justice",
+      "value": 22
+    },
+    {
+      "name": "Teenagers",
+      "value": 21
+    },
+    {
+      "name": "Children",
+      "value": 20
+    },
+    {
+      "name": "Mediation",
+      "value": 19
+    },
+    {
+      "name": "Juvenile detention",
+      "value": 17
+    },
+    {
+      "name": "Juvenile delinquency",
+      "value": 16
+    },
+    {
+      "name": "Humanities",
+      "value": 13
+    },
+    {
+      "name": "Gender",
+      "value": 13
+    },
+    {
+      "name": "Sources",
+      "value": 12
+    },
+    {
+      "name": "Dialogue",
+      "value": 12
+    },
+    {
+      "name": "Peace",
+      "value": 12
+    },
+    {
+      "name": "Social conflict",
+      "value": 11
+    },
+    {
+      "name": "Land tenure",
+      "value": 9
+    },
+    {
+      "name": "Migration",
+      "value": 9
+    },
+    {
+      "name": "Education",
+      "value": 8
+    },
+    {
+      "name": "Prisons",
+      "value": 8
+    },
+    {
+      "name": "Reconciliation",
+      "value": 7
+    },
+    {
+      "name": "Communities",
+      "value": 6
+    },
+    {
+      "name": "Justice",
+      "value": 6
+    },
+    {
+      "name": "Music",
+      "value": 5
+    },
+    {
+      "name": "Diseases",
+      "value": 5
+    },
+    {
+      "name": "Maintenance",
+      "value": 5
+    },
+    {
+      "name": "Correctional institutions",
+      "value": 3
+    },
+    {
+      "name": "Mass media",
+      "value": 2
+    },
+    {
+      "name": "Travel",
+      "value": 2
+    },
+    {
+      "name": "Prices",
+      "value": 2
+    },
+    {
+      "name": "Livestock",
+      "value": 2
+    },
+    {
+      "name": "Medical care",
+      "value": 2
+    },
+    {
+      "name": "Religion",
+      "value": 2
+    },
+    {
+      "name": "Dance",
+      "value": 2
+    },
+    {
+      "name": "Refugees",
+      "value": 2
+    },
+    {
+      "name": "Social media",
+      "value": 2
+    },
+    {
+      "name": "Decolonisation",
+      "value": 2
+    },
+    {
+      "name": "Sustainability",
+      "value": 2
+    },
+    {
+      "name": "Finance",
+      "value": 2
+    },
+    {
+      "name": "Imams (Shiites)",
+      "value": 2
+    },
+    {
+      "name": "Social groups",
+      "value": 2
+    },
+    {
+      "name": "Employability",
+      "value": 2
+    },
+    {
+      "name": "Business",
+      "value": 2
+    },
+    {
+      "name": "Crime",
+      "value": 2
+    },
+    {
+      "name": "Practical judgment",
+      "value": 2
+    },
+    {
+      "name": "Nation state",
+      "value": 2
+    },
+    {
+      "name": "Teachers",
+      "value": 2
+    },
+    {
+      "name": "Public administration",
+      "value": 2
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "Central Africa",
+      "value": 2
+    },
+    {
+      "name": "Performance",
+      "value": 1
+    },
+    {
+      "name": "Singing",
+      "value": 1
+    },
+    {
+      "name": "Sports",
+      "value": 1
+    },
+    {
+      "name": "Islam",
+      "value": 1
+    },
+    {
+      "name": "Neoliberalism",
+      "value": 1
+    },
+    {
+      "name": "Capitalism",
+      "value": 1
+    },
+    {
+      "name": "Sociology",
+      "value": 1
+    },
+    {
+      "name": "Wars",
+      "value": 1
+    },
+    {
+      "name": "Corruption",
+      "value": 1
+    },
+    {
+      "name": "Anthropology",
+      "value": 1
+    },
+    {
+      "name": "Massacres",
+      "value": 1
+    },
+    {
+      "name": "Refugee camps",
+      "value": 1
+    },
+    {
+      "name": "Racism",
+      "value": 1
+    },
+    {
+      "name": "Feminism",
+      "value": 1
+    },
+    {
+      "name": "Statistics",
+      "value": 1
+    },
+    {
+      "name": "Disasters",
+      "value": 1
+    },
+    {
+      "name": "Surveys",
+      "value": 1
+    },
+    {
+      "name": "Government executives",
+      "value": 1
+    },
+    {
+      "name": "Child welfare",
+      "value": 1
+    },
+    {
+      "name": "Judges",
+      "value": 1
+    },
+    {
+      "name": "Juvenile courts",
+      "value": 1
+    },
+    {
+      "name": "Bobo (African people)",
+      "value": 1
+    },
+    {
+      "name": "Conflict management",
+      "value": 1
+    },
+    {
+      "name": "Corrections",
+      "value": 1
+    },
+    {
+      "name": "Rehabilitation",
+      "value": 1
+    },
+    {
+      "name": "Courts",
+      "value": 1
+    },
+    {
+      "name": "Conduct of life",
+      "value": 1
+    },
+    {
+      "name": "Police",
+      "value": 1
+    },
+    {
+      "name": "Minors",
+      "value": 1
+    },
+    {
+      "name": "Rumor",
+      "value": 1
+    },
+    {
+      "name": "Truth",
+      "value": 1
+    },
+    {
+      "name": "Uncertainty",
+      "value": 1
+    },
+    {
+      "name": "Internally displaced persons",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Pende (African people)",
+      "value": 1
+    },
+    {
+      "name": "Mpiemo (African people)",
+      "value": 1
+    },
+    {
+      "name": "Stringed instruments",
+      "value": 1
+    },
+    {
+      "name": "Luba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Musical bow",
+      "value": 1
+    },
+    {
+      "name": "South Africa",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tamou, Issa",
+      "value": 236
+    },
+    {
+      "name": "Guadagnano, Laura",
+      "value": 134
+    },
+    {
+      "name": "Onadja, Joachim",
+      "value": 57
+    },
+    {
+      "name": "Drabo, Adama",
+      "value": 48
+    },
+    {
+      "name": "Palm-Sanou, Valentine",
+      "value": 45
+    },
+    {
+      "name": "Fendler, Ute",
+      "value": 45
+    },
+    {
+      "name": "Ouoro, Justin",
+      "value": 44
+    },
+    {
+      "name": "Drescher, Martina",
+      "value": 38
+    },
+    {
+      "name": "Ngawa Mbaho, Carline Liliane",
+      "value": 38
+    },
+    {
+      "name": "Sore, Daouda",
+      "value": 27
+    },
+    {
+      "name": "Abou Moumouni, Issifou",
+      "value": 22
+    },
+    {
+      "name": "Sebudandi, Christophe",
+      "value": 18
+    },
+    {
+      "name": "Kaganda Mulume Oderhwa, Philippe",
+      "value": 18
+    },
+    {
+      "name": "Government of Liberia",
+      "value": 15
+    },
+    {
+      "name": "Tapsoba, Tatiana Nadine",
+      "value": 14
+    },
+    {
+      "name": "Glasman, Joël",
+      "value": 13
+    },
+    {
+      "name": "Doevenspeck, Martin",
+      "value": 9
+    },
+    {
+      "name": "Mwanabiningo, Nene Morisho",
+      "value": 9
+    },
+    {
+      "name": "Tegera, Aloy",
+      "value": 9
+    },
+    {
+      "name": "Bationo, Bouma Fernand",
+      "value": 9
+    }
+  ],
+  "locations": [
+    {
+      "country": "Benin",
+      "region": "",
+      "city": "",
+      "count": 236
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "Centre",
+      "city": "Ouagadougou",
+      "count": 83
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "Est Region",
+      "city": "Fada N'Gourma",
+      "count": 62
+    },
+    {
+      "country": "Ivory Coast",
+      "region": "Lagunes region",
+      "city": "Abidjan",
+      "count": 52
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "",
+      "city": "",
+      "count": 41
+    },
+    {
+      "country": "Cameroon",
+      "region": "",
+      "city": "",
+      "count": 38
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "Centre-Ouest Region",
+      "city": "Koudougou",
+      "count": 31
+    },
+    {
+      "country": "Ivory Coast",
+      "region": "Vallée du Bandama Region",
+      "city": "",
+      "count": 24
+    },
+    {
+      "country": "Benin",
+      "region": "Borgou Department",
+      "city": "",
+      "count": 22
+    },
+    {
+      "country": "Liberia",
+      "region": "Montserrado County",
+      "city": "Monrovia",
+      "count": 15
+    },
+    {
+      "country": "Germany",
+      "region": "",
+      "city": "",
+      "count": 13
+    },
+    {
+      "country": "Ivory Coast",
+      "region": "Vallée du Bandama Region",
+      "city": "Bouaké",
+      "count": 10
+    },
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 10
+    },
+    {
+      "country": "Democratic Republic of the Congo",
+      "region": "Ituri",
+      "city": "Geti",
+      "count": 9
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "Hauts-Bassins Region",
+      "city": "Bobo-Dioulasso",
+      "count": 5
+    },
+    {
+      "country": "Ivory Coast",
+      "region": "Lacs Region",
+      "city": "Yamoussoukro",
+      "count": 4
+    },
+    {
+      "country": "Senegal",
+      "region": "Thiès Region",
+      "city": "Ndengler (Dingler)",
+      "count": 1
+    },
+    {
+      "country": "Senegal",
+      "region": "",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "Ivory Coast",
+      "region": "Savanes Region",
+      "city": "Korhogo",
+      "count": 1
+    },
+    {
+      "country": "Bolivia",
+      "region": "La Paz Department",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "Centre-Ouest Region",
+      "city": "Dano",
+      "count": 1
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "Sud-Ouest Region",
+      "city": "Gaoua",
+      "count": 1
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "Sud-Ouest Region",
+      "city": "Dano",
+      "count": 1
+    }
+  ]
+}

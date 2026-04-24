@@ -16,3 +16,9 @@ export {
 } from './collectionLoader';
 export { loadEnrichedLocations } from './geolocLoader';
 export { loadSemanticMap, loadSimilarItems } from './embeddingsLoader';
+export {
+	loadEntityDashboard,
+	loadEntityDashboardManifest,
+	type EntityDashboardManifest,
+	type EntityDashboardManifestEntry
+} from './entityDashboardLoader';

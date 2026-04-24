@@ -6,6 +6,7 @@
 		TitleComponent,
 		TooltipComponent,
 		GridComponent,
+		DataZoomComponent,
 		AxisPointerComponent
 	} from 'echarts/components';
 	import type { EChartsOption } from 'echarts';
@@ -13,9 +14,16 @@
 	import { cn } from '$lib/utils/cn';
 	import { CHART_COLORS, axisLabelStyle } from '$lib/styles';
 	import { theme } from '$lib/stores/data';
-	import { buildTitle, buildGrid, itemCountFormatter } from './utils';
+	import { buildTitle, buildGrid, buildDataZoom, itemCountFormatter } from './utils';
 
-	echarts.use([EBarChart, TitleComponent, TooltipComponent, GridComponent, AxisPointerComponent]);
+	echarts.use([
+		EBarChart,
+		TitleComponent,
+		TooltipComponent,
+		GridComponent,
+		DataZoomComponent,
+		AxisPointerComponent
+	]);
 
 	interface Props {
 		data: TimelineDataPoint[];
@@ -44,9 +52,17 @@
 		grid: buildGrid({
 			left: '3%',
 			right: '4%',
-			bottom: '15%',
+			// Match StackedTimeline: leave room for the DataZoom slider plus
+			// the rotated year labels when the slider is active.
+			bottom: data.length > 15 ? '22%' : '15%',
 			top: title ? '15%' : '3%'
 		}),
+		// Year slider appears once we have more than ~15 years to browse,
+		// matching StackedTimeline's behaviour so the two charts feel uniform.
+		dataZoom:
+			data.length > 15
+				? buildDataZoom({ start: 0, end: 100, showSlider: true, showInside: true })
+				: undefined,
 		xAxis: {
 			type: 'category',
 			data: data.map((d) => d.year.toString()),

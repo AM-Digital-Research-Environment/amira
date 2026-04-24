@@ -3,7 +3,6 @@
 	import { cn } from '$lib/utils/cn';
 	import type { EnrichedLocationsData, CollectionItem } from '$lib/types';
 	import maplibregl from 'maplibre-gl';
-	import { Maximize2, Minimize2 } from '@lucide/svelte';
 	import MapProjectionToggle from './map/MapProjectionToggle.svelte';
 	import { SvelteMap } from 'svelte/reactivity';
 
@@ -32,11 +31,9 @@
 	}: Props = $props();
 
 	let mapContainer: HTMLDivElement | undefined = $state();
-	let mapWrapper: HTMLDivElement | undefined = $state();
 	// $state-tracked so MapProjectionToggle picks up the instance once ready.
 	let map: maplibregl.Map | null = $state(null);
 	let mapReady = $state(false);
-	let isFullscreen = $state(false);
 	let initialTheme: string | null = null;
 
 	// Store pagination state for each marker
@@ -51,25 +48,34 @@
 	// Calculate max count for scaling
 	let maxCount = $derived(Math.max(...markers.map((m) => m.count), 1));
 
-	// Handle pagination click
+	// Handle pagination click.
+	//
+	// Uses `closest()` so clicks on a button's descendant (text, arrow entity,
+	// …) still resolve to the button. Updates the popup via the MapLibre
+	// Popup API (`setHTML`) instead of mutating the DOM directly — direct
+	// `outerHTML` replacement destroyed the click target mid-handler and
+	// caused MapLibre to treat the subsequent bubble as an outside-click,
+	// silently closing the popup.
 	function handlePaginationClick(event: Event) {
-		const target = event.target as HTMLElement;
-		if (target.classList.contains('popup-page-btn') && !target.hasAttribute('disabled')) {
-			const markerId = target.dataset.markerId;
-			const page = parseInt(target.dataset.page || '0', 10);
+		const raw = event.target as HTMLElement | null;
+		const btn = raw?.closest<HTMLButtonElement>('.popup-page-btn');
+		if (!btn || btn.hasAttribute('disabled')) return;
 
-			if (markerId) {
-				paginationState.set(markerId, page);
-				const marker = markers.find((m) => m.id === markerId);
-				if (marker) {
-					const popupContainer = document.querySelector(
-						`.popup-container[data-marker-id="${markerId}"]`
-					);
-					if (popupContainer) {
-						popupContainer.outerHTML = buildPopupHtml(marker, page);
-					}
-				}
-			}
+		// Prevent any parent close-on-click logic from firing on this click.
+		event.stopPropagation();
+
+		const markerId = btn.dataset.markerId;
+		if (!markerId) return;
+		const page = parseInt(btn.dataset.page || '0', 10);
+
+		paginationState.set(markerId, page);
+		const mapMarker = mapMarkers.find((m, i) => markers[i]?.id === markerId);
+		const markerData = markers.find((m) => m.id === markerId);
+		if (!markerData || !mapMarker) return;
+
+		const popup = mapMarker.getPopup();
+		if (popup) {
+			popup.setHTML(buildPopupHtml(markerData, page));
 		}
 	}
 
@@ -85,24 +91,6 @@
 		});
 	}
 
-	// Toggle fullscreen mode
-	function toggleFullscreen() {
-		isFullscreen = !isFullscreen;
-
-		// Resize map after fullscreen transition
-		setTimeout(() => {
-			map?.resize();
-		}, 100);
-	}
-
-	// Handle escape key to exit fullscreen
-	function handleKeydown(event: KeyboardEvent) {
-		if (event.key === 'Escape' && isFullscreen) {
-			isFullscreen = false;
-			setTimeout(() => map?.resize(), 100);
-		}
-	}
-
 	function initializeMap() {
 		if (!mapContainer || map) return;
 
@@ -114,20 +102,42 @@
 		});
 
 		map.addControl(new maplibregl.NavigationControl(), 'top-right');
+		// Native HTML5 Fullscreen API — lives inside the map canvas container,
+		// so it escapes parent overflow / containment (e.g. ChartCard's
+		// `overflow: hidden`) and stays consistent with other MapLibre
+		// implementations across the codebase.
+		map.addControl(new maplibregl.FullscreenControl(), 'top-right');
 
-		map.on('load', () => {
+		// MapLibre's `load` event can silently stall when the container is
+		// inside a deeply-nested flex parent (seen on /languages?code=eng
+		// where `styledata` fires but `load` doesn't). `idle` fires after
+		// the first render settles, so we accept whichever comes first.
+		let firstReadyFired = false;
+		const markReady = () => {
+			if (firstReadyFired) return;
+			firstReadyFired = true;
 			mapReady = true;
 			updateMarkers();
-		});
+		};
+		map.once('load', markReady);
+		map.once('idle', markReady);
 
-		// Close popups when clicking on the map (not on a marker)
-		map.on('click', () => {
+		// Close popups when clicking on the map background (not on a marker
+		// and NOT inside an open popup). The popup check is needed because
+		// clicks on popup content bubble through MapLibre's internal click
+		// dispatcher; without it, clicking Prev/Next closes the popup.
+		// NOTE: even with this guard the pagination still closes the popup
+		// in some cases — tracked as a known issue in ROADMAP-parity.md.
+		map.on('click', (e) => {
+			const target = (e.originalEvent?.target as HTMLElement | null) ?? null;
+			if (target?.closest('.maplibregl-popup')) {
+				return;
+			}
 			closeOtherPopups();
 		});
 
 		// Add global click listener for pagination
 		document.addEventListener('click', handlePaginationClick);
-		document.addEventListener('keydown', handleKeydown);
 	}
 
 	function updateMarkers() {
@@ -240,7 +250,6 @@
 
 	onDestroy(() => {
 		document.removeEventListener('click', handlePaginationClick);
-		document.removeEventListener('keydown', handleKeydown);
 		mapMarkers.forEach((marker) => marker.remove());
 		mapMarkers = [];
 		if (map) {
@@ -250,15 +259,8 @@
 	});
 </script>
 
-<div
-	bind:this={mapWrapper}
-	class={cn(
-		'flex flex-col',
-		isFullscreen ? 'fixed inset-0 z-50 bg-background p-4' : 'w-full h-full min-h-[550px]',
-		className
-	)}
->
-	{#if title && !isFullscreen}
+<div class={cn('flex flex-col w-full h-full', className)}>
+	{#if title}
 		<h3 class="text-lg font-semibold text-center mb-4">{title}</h3>
 	{/if}
 
@@ -274,43 +276,25 @@
 			<p class="text-muted-foreground">No locations with coordinates found</p>
 		</div>
 	{:else}
-		<div
-			class="flex-1 relative rounded-lg border"
-			style={isFullscreen ? '' : 'min-height: 550px; overflow: visible;'}
-		>
+		<!-- The map canvas owns the native MapLibre controls (Navigation,
+			 Fullscreen, Projection). Keeping them INSIDE the canvas means the
+			 Fullscreen API target is the canvas itself, so ChartCard's
+			 `overflow: hidden` can't clip it.
+			 No hardcoded min-height: flex-1 claims the remaining card height
+			 after the legend reserves its space, so the legend is always
+			 visible (no clipping even in tightly sized cards). -->
+		<div class="flex-1 relative rounded-lg border">
 			<div
 				bind:this={mapContainer}
 				class="absolute inset-0 w-full h-full rounded-lg overflow-hidden"
 			></div>
 
-			<!-- Fullscreen button -->
-			<button
-				onclick={toggleFullscreen}
-				class="absolute top-2 left-2 z-10 bg-background/90 hover:bg-background border rounded-md p-2 shadow-sm transition-colors"
-				title={isFullscreen ? 'Exit fullscreen (Esc)' : 'Enter fullscreen'}
-			>
-				{#if isFullscreen}
-					<Minimize2 class="w-[18px] h-[18px]" />
-				{:else}
-					<Maximize2 class="w-[18px] h-[18px]" />
-				{/if}
-			</button>
-
-			<!-- Globe / Flat toggle -->
-			<MapProjectionToggle {map} class="absolute top-2 left-14 z-10" />
-
-			<!-- Fullscreen title -->
-			{#if isFullscreen && title}
-				<div
-					class="absolute top-2 left-1/2 -translate-x-1/2 z-10 bg-background/90 border rounded-md px-4 py-2 shadow-sm"
-				>
-					<h3 class="text-lg font-semibold">{title}</h3>
-				</div>
-			{/if}
+			<!-- Globe / Flat toggle stacks below the built-in NavigationControl. -->
+			<MapProjectionToggle {map} class="absolute top-2 left-2 z-10" />
 		</div>
 
-		<!-- Legend -->
-		<div class={cn('flex flex-wrap gap-4 justify-center text-sm', isFullscreen ? 'mt-4' : 'mt-3')}>
+		<!-- Legend — shrink-0 keeps it visible regardless of flex pressure. -->
+		<div class="shrink-0 flex flex-wrap gap-4 justify-center text-sm mt-3">
 			<div class="flex items-center gap-2">
 				<div class="w-4 h-4 rounded-full bg-location-city opacity-70"></div>
 				<span class="text-muted-foreground">City</span>
@@ -331,14 +315,6 @@
 				<span class="font-medium">{markers.length}</span> locations |
 				<span class="font-medium">{data.reduce((sum, d) => sum + d.count, 0)}</span> items
 			</div>
-			{#if isFullscreen}
-				<button
-					onclick={toggleFullscreen}
-					class="text-muted-foreground hover:text-foreground transition-colors"
-				>
-					Press Esc to exit
-				</button>
-			{/if}
 		</div>
 	{/if}
 </div>

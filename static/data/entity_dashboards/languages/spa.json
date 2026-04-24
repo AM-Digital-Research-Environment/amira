@@ -1,0 +1,230 @@
+{
+  "meta": {
+    "type": "language",
+    "id": "spa",
+    "name": "Spanish",
+    "count": 8
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "count": 4
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2022,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2023,
+      "total": 4,
+      "byType": {
+        "Text": 4
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 6
+    },
+    {
+      "name": "Moving image",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "value": 6
+    },
+    {
+      "name": "English",
+      "value": 3
+    },
+    {
+      "name": "Swahili",
+      "value": 1
+    },
+    {
+      "name": "Catalan",
+      "value": 1
+    }
+  ],
+  "heatmap": [
+    {
+      "x": "2020s",
+      "y": "Text",
+      "value": 6
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Literacy",
+      "value": 5
+    },
+    {
+      "name": "Arid regions",
+      "value": 1
+    },
+    {
+      "name": "Maasai (African people)",
+      "value": 1
+    },
+    {
+      "name": "Food security",
+      "value": 1
+    },
+    {
+      "name": "Livestock",
+      "value": 1
+    },
+    {
+      "name": "East Africa",
+      "value": 1
+    },
+    {
+      "name": "Religion",
+      "value": 1
+    },
+    {
+      "name": "Christianity",
+      "value": 1
+    },
+    {
+      "name": "Christmas",
+      "value": 1
+    },
+    {
+      "name": "Education",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Literacy",
+      "value": 5
+    },
+    {
+      "name": "Arid regions",
+      "value": 1
+    },
+    {
+      "name": "Maasai (African people)",
+      "value": 1
+    },
+    {
+      "name": "Food security",
+      "value": 1
+    },
+    {
+      "name": "Livestock",
+      "value": 1
+    },
+    {
+      "name": "East Africa",
+      "value": 1
+    },
+    {
+      "name": "Religion",
+      "value": 1
+    },
+    {
+      "name": "Christianity",
+      "value": 1
+    },
+    {
+      "name": "Christmas",
+      "value": 1
+    },
+    {
+      "name": "Education",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Krauß, Rebekka",
+      "value": 5
+    },
+    {
+      "name": "Government of Liberia",
+      "value": 2
+    },
+    {
+      "name": "Kronenburg García, Angela",
+      "value": 1
+    },
+    {
+      "name": "ole Mowuo, Matinkoi",
+      "value": 1
+    },
+    {
+      "name": "ole Mowuo, Lenaai",
+      "value": 1
+    },
+    {
+      "name": "Mayiani, Daniel",
+      "value": 1
+    },
+    {
+      "name": "Tallio, Virginie",
+      "value": 1
+    },
+    {
+      "name": "Hashimshony Yaffe, Nurit",
+      "value": 1
+    },
+    {
+      "name": "Gargallo, Eduard",
+      "value": 1
+    },
+    {
+      "name": "Roque de Pinho, Joana",
+      "value": 1
+    },
+    {
+      "name": "TransTel",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Bolivia",
+      "region": "La Paz Department",
+      "city": "",
+      "count": 5
+    },
+    {
+      "country": "Liberia",
+      "region": "Montserrado County",
+      "city": "Monrovia",
+      "count": 2
+    },
+    {
+      "country": "Kenya",
+      "region": "Narok",
+      "city": "Maasai Mara National Reserve",
+      "count": 1
+    }
+  ]
+}
