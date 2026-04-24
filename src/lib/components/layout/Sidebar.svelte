@@ -134,7 +134,7 @@
 	<div class="sidebar-header">
 		<a href="{base}/" class="sidebar-logo">
 			<img
-				src="{base}/logos/UBT logo.jpg"
+				src="{base}/logos/UBT_logo.webp"
 				alt="University of Bayreuth"
 				class="sidebar-logo-icon-img"
 			/>

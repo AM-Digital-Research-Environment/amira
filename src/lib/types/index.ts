@@ -25,42 +25,42 @@ export const universities: University[] = [
 		name: 'University of Lagos',
 		code: 'ULG',
 		folder: 'projects_metadata_unilag',
-		logo: 'logos/ULG.png'
+		logo: 'logos/ULG.webp'
 	},
 	{
 		id: 'ujkz',
 		name: 'Universite Joseph Ki-Zerbo',
 		code: 'UJKZ',
 		folder: 'projects_metadata_ujkz',
-		logo: 'logos/UJKZ.png'
+		logo: 'logos/UJKZ.webp'
 	},
 	{
 		id: 'ubt',
 		name: 'University of Bayreuth',
 		code: 'UBT',
 		folder: 'projects_metadata_ubt',
-		logo: 'logos/UBT.png'
+		logo: 'logos/UBT.webp'
 	},
 	{
 		id: 'ufba',
 		name: 'Federal University of Bahia',
 		code: 'UFB',
 		folder: 'projects_metadata_ufba',
-		logo: 'logos/UFBA.png'
+		logo: 'logos/UFBA.webp'
 	},
 	{
 		id: 'moi',
 		name: 'Moi University',
 		code: 'MU',
 		folder: 'projects_metadata_moi',
-		logo: 'logos/Moi.jpg'
+		logo: 'logos/Moi.webp'
 	},
 	{
 		id: 'rhodes',
 		name: 'Rhodes University',
 		code: 'RU',
 		folder: 'projects_metadata_rhodes',
-		logo: 'logos/Rhodes_University.png'
+		logo: 'logos/Rhodes_University.webp'
 	}
 ];
 

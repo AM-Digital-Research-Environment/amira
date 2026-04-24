@@ -5,16 +5,6 @@
 </script>
 
 <footer class="app-footer">
-	<a
-		href="https://www.africamultiple.uni-bayreuth.de/"
-		target="_blank"
-		rel="noopener noreferrer"
-		class="app-footer-logo"
-		aria-label="Africa Multiple Cluster of Excellence"
-	>
-		<img src="{base}/logos/africamultiple.jpg" alt="Africa Multiple" />
-	</a>
-
 	<div class="app-footer-text">
 		<span class="app-footer-version">v{__APP_VERSION__}</span>
 		<span aria-hidden="true" class="app-footer-sep">·</span>
@@ -39,6 +29,27 @@
 			Digital Research Environment (DRE)
 		</a>
 	</div>
+
+	<div class="app-footer-logos">
+		<a
+			href="https://www.africamultiple.uni-bayreuth.de/"
+			target="_blank"
+			rel="noopener noreferrer"
+			class="app-footer-logo"
+			aria-label="Africa Multiple Cluster of Excellence"
+		>
+			<img src="{base}/logos/africamultiple.webp" alt="Africa Multiple" />
+		</a>
+		<a
+			href="https://www.uni-bayreuth.de/"
+			target="_blank"
+			rel="noopener noreferrer"
+			class="app-footer-logo"
+			aria-label="University of Bayreuth"
+		>
+			<img src="{base}/logos/UBT_logo.webp" alt="University of Bayreuth" />
+		</a>
+	</div>
 </footer>
 
 <style>
@@ -60,6 +71,14 @@
 		.app-footer {
 			padding: var(--space-3) var(--space-6);
 		}
+	}
+
+	.app-footer-logos {
+		display: inline-flex;
+		align-items: center;
+		gap: var(--space-3);
+		margin-left: auto;
+		flex-shrink: 0;
 	}
 
 	.app-footer-logo {

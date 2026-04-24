@@ -55,35 +55,35 @@
 			latitude: 49.9457,
 			longitude: 11.5775,
 			label: 'University of Bayreuth',
-			iconUrl: `${base}/logos/UBT.png`,
+			iconUrl: `${base}/logos/UBT.webp`,
 			href: institutionUrl('University of Bayreuth')
 		},
 		{
 			latitude: 12.3714,
 			longitude: -1.5197,
 			label: 'Université Joseph Ki-Zerbo',
-			iconUrl: `${base}/logos/UJKZ.png`,
+			iconUrl: `${base}/logos/UJKZ.webp`,
 			href: institutionUrl('Universite Joseph Ki-Zerbo')
 		},
 		{
 			latitude: 6.5244,
 			longitude: 3.3792,
 			label: 'University of Lagos',
-			iconUrl: `${base}/logos/ULG.png`,
+			iconUrl: `${base}/logos/ULG.webp`,
 			href: institutionUrl('University of Lagos')
 		},
 		{
 			latitude: 0.5143,
 			longitude: 35.2698,
 			label: 'Moi University',
-			iconUrl: `${base}/logos/Moi.jpg`,
+			iconUrl: `${base}/logos/Moi.webp`,
 			href: institutionUrl('Moi University')
 		},
 		{
 			latitude: -33.3117,
 			longitude: 26.5197,
 			label: 'Rhodes University',
-			iconUrl: `${base}/logos/Rhodes_University.png`,
+			iconUrl: `${base}/logos/Rhodes_University.webp`,
 			href: institutionUrl('Rhodes University')
 		},
 		// Privileged partner. Uses the UFBA logo as marker; the second popup
@@ -93,7 +93,7 @@
 			longitude: -38.5124,
 			label: 'Centro de Estudos Afro-Orientais (CEAO) at the Universidade Federal da Bahia (UFBA)',
 			sublabel: 'Privileged partner',
-			iconUrl: `${base}/logos/UFBA.png`,
+			iconUrl: `${base}/logos/UFBA.webp`,
 			href: institutionUrl('Universidade Federal da Bahia')
 		}
 	];

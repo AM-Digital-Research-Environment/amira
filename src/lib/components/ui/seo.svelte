@@ -38,11 +38,11 @@
 	<meta property="og:title" content={fullTitle} />
 	<meta property="og:description" content={description} />
 	<meta property="og:url" content={canonicalUrl} />
-	<meta property="og:image" content="{SITE_URL}{base}/logos/africamultiple.jpg" />
+	<meta property="og:image" content="{SITE_URL}{base}/logos/africamultiple.webp" />
 
 	<!-- Twitter Card -->
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:title" content={fullTitle} />
 	<meta name="twitter:description" content={description} />
-	<meta name="twitter:image" content="{SITE_URL}{base}/logos/africamultiple.jpg" />
+	<meta name="twitter:image" content="{SITE_URL}{base}/logos/africamultiple.webp" />
 </svelte:head>
