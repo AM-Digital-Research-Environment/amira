@@ -56,6 +56,7 @@
 	.app-footer {
 		display: flex;
 		align-items: center;
+		justify-content: center;
 		gap: var(--space-4);
 		padding: var(--space-3) var(--space-4);
 		border-top: 1px solid hsl(var(--border));
@@ -77,7 +78,6 @@
 		display: inline-flex;
 		align-items: center;
 		gap: var(--space-3);
-		margin-left: auto;
 		flex-shrink: 0;
 	}
 
