@@ -592,7 +592,32 @@
         "id": "UBT_Covid192021",
         "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
       },
-      "dre_id": "abz-01-000b"
+      "dre_id": "abz-01-000b",
+      "location": {
+        "origin": [
+          {
+            "l1": "Kenya",
+            "l2": "Narok",
+            "l3": "Loita Hills"
+          },
+          {
+            "l1": "Kenya",
+            "l2": "Narok",
+            "l3": "Loita Naimina Enkiyio Forest"
+          },
+          {
+            "l1": "Kenya",
+            "l2": "Narok",
+            "l3": "Entasekera"
+          },
+          {
+            "l1": "Tanzania"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
     },
     {
       "_id": "66cefaf495a000d4c7bf3711",
@@ -606,7 +631,30 @@
         "id": "UBT_Covid192021",
         "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
       },
-      "dre_id": "abz-01-000c"
+      "dre_id": "abz-01-000c",
+      "location": {
+        "origin": [
+          {
+            "l1": "Kenya"
+          },
+          {
+            "l1": "Tanzania",
+            "l2": "Morogoro",
+            "l3": "Dakawa"
+          },
+          {
+            "l1": "Tanzania",
+            "l2": "Morogoro",
+            "l3": "Morogoro City"
+          },
+          {
+            "l1": "China"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
     },
     {
       "_id": "66cefaf495a000d4c7bf3716",
@@ -620,7 +668,17 @@
         "id": "UBT_Covid192021",
         "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
       },
-      "dre_id": "abz-01-0011"
+      "dre_id": "abz-01-0011",
+      "location": {
+        "origin": [
+          {
+            "l1": "Tanzania"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
     },
     {
       "_id": "66cefaf495a000d4c7bf3722",
@@ -634,7 +692,22 @@
         "id": "UBT_Covid192021",
         "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
       },
-      "dre_id": "abz-01-001d"
+      "dre_id": "abz-01-001d",
+      "location": {
+        "origin": [
+          {
+            "l1": "Kenya",
+            "l2": "Narok",
+            "l3": "Maasai Mara National Reserve"
+          },
+          {
+            "l1": "Tanzania"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
     },
     {
       "_id": "66cefaf495a000d4c7bf3726",
@@ -648,7 +721,18 @@
         "id": "UBT_Covid192021",
         "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
       },
-      "dre_id": "abz-01-0021"
+      "dre_id": "abz-01-0021",
+      "location": {
+        "origin": [
+          {
+            "l1": "Tanzania",
+            "l2": "Iringa"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
     },
     {
       "_id": "685a631ec25a5271e0a9eae2",
@@ -658,7 +742,17 @@
         }
       ],
       "typeOfResource": "Text",
-      "dre_id": "eaa-99-00fd"
+      "dre_id": "eaa-99-00fd",
+      "location": {
+        "origin": [
+          {
+            "l1": "South Africa"
+          }
+        ],
+        "current": [
+          "Rhodes University"
+        ]
+      }
     },
     {
       "_id": "685a631ec25a5271e0a9ebfc",
@@ -668,7 +762,17 @@
         }
       ],
       "typeOfResource": "Text",
-      "dre_id": "eaa-99-0217"
+      "dre_id": "eaa-99-0217",
+      "location": {
+        "origin": [
+          {
+            "l1": "South Africa"
+          }
+        ],
+        "current": [
+          "Rhodes University"
+        ]
+      }
     },
     {
       "_id": "685a631ec25a5271e0a9ec8c",
@@ -678,7 +782,17 @@
         }
       ],
       "typeOfResource": "Text",
-      "dre_id": "eaa-99-02a7"
+      "dre_id": "eaa-99-02a7",
+      "location": {
+        "origin": [
+          {
+            "l1": "South Africa"
+          }
+        ],
+        "current": [
+          "Rhodes University"
+        ]
+      }
     },
     {
       "_id": "685a631ec25a5271e0a9ecce",
@@ -688,7 +802,17 @@
         }
       ],
       "typeOfResource": "Text",
-      "dre_id": "eaa-99-02e9"
+      "dre_id": "eaa-99-02e9",
+      "location": {
+        "origin": [
+          {
+            "l1": "South Africa"
+          }
+        ],
+        "current": [
+          "Rhodes University"
+        ]
+      }
     },
     {
       "_id": "685a631ec25a5271e0a9ecf4",
@@ -698,7 +822,17 @@
         }
       ],
       "typeOfResource": "Text",
-      "dre_id": "eaa-99-030f"
+      "dre_id": "eaa-99-030f",
+      "location": {
+        "origin": [
+          {
+            "l1": "South Africa"
+          }
+        ],
+        "current": [
+          "Rhodes University"
+        ]
+      }
     },
     {
       "_id": "685a631ec25a5271e0a9ed04",
@@ -708,7 +842,17 @@
         }
       ],
       "typeOfResource": "Text",
-      "dre_id": "eaa-99-031f"
+      "dre_id": "eaa-99-031f",
+      "location": {
+        "origin": [
+          {
+            "l1": "South Africa"
+          }
+        ],
+        "current": [
+          "Rhodes University"
+        ]
+      }
     },
     {
       "_id": "685a631ec25a5271e0a9ed14",
@@ -718,7 +862,17 @@
         }
       ],
       "typeOfResource": "Text",
-      "dre_id": "eaa-99-032f"
+      "dre_id": "eaa-99-032f",
+      "location": {
+        "origin": [
+          {
+            "l1": "South Africa"
+          }
+        ],
+        "current": [
+          "Rhodes University"
+        ]
+      }
     },
     {
       "_id": "685a631ec25a5271e0a9ed77",
@@ -728,7 +882,17 @@
         }
       ],
       "typeOfResource": "Text",
-      "dre_id": "eaa-99-0392"
+      "dre_id": "eaa-99-0392",
+      "location": {
+        "origin": [
+          {
+            "l1": "South Africa"
+          }
+        ],
+        "current": [
+          "Rhodes University"
+        ]
+      }
     }
   ]
 }

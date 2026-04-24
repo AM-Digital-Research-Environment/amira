@@ -145,7 +145,19 @@
         "id": "UBT_ArtWorld2019",
         "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
       },
-      "dre_id": "abg-01-0024"
+      "dre_id": "abg-01-0024",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Osun State",
+            "l3": "Osogbo"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
     },
     {
       "_id": "6705340c4b98fee5873b4415",
@@ -159,7 +171,14 @@
         "id": "UBT_TaiSha2021",
         "name": "Taiwo Shango"
       },
-      "dre_id": "aan-99-0008"
+      "dre_id": "aan-99-0008",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria"
+          }
+        ]
+      }
     },
     {
       "_id": "6705340c4b98fee5873b444d",
@@ -173,7 +192,14 @@
         "id": "UBT_TaiSha2021",
         "name": "Taiwo Shango"
       },
-      "dre_id": "aan-99-0040"
+      "dre_id": "aan-99-0040",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria"
+          }
+        ]
+      }
     }
   ]
 }

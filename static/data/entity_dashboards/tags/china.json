@@ -208,7 +208,30 @@
         "id": "UBT_Covid192021",
         "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
       },
-      "dre_id": "abz-01-000c"
+      "dre_id": "abz-01-000c",
+      "location": {
+        "origin": [
+          {
+            "l1": "Kenya"
+          },
+          {
+            "l1": "Tanzania",
+            "l2": "Morogoro",
+            "l3": "Dakawa"
+          },
+          {
+            "l1": "Tanzania",
+            "l2": "Morogoro",
+            "l3": "Morogoro City"
+          },
+          {
+            "l1": "China"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
     },
     {
       "_id": "685a631ec25a5271e0a9edab",
@@ -218,7 +241,17 @@
         }
       ],
       "typeOfResource": "Text",
-      "dre_id": "eaa-99-03c6"
+      "dre_id": "eaa-99-03c6",
+      "location": {
+        "origin": [
+          {
+            "l1": "South Africa"
+          }
+        ],
+        "current": [
+          "Rhodes University"
+        ]
+      }
     }
   ]
 }

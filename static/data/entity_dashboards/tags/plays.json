@@ -170,7 +170,19 @@
         "id": "UBT_ELTVTapes2021",
         "name": "U-Matic Tapes of the Liberia Broadcasting System"
       },
-      "dre_id": "abn-99-00e5"
+      "dre_id": "abn-99-00e5",
+      "location": {
+        "origin": [
+          {
+            "l1": "Liberia",
+            "l2": "Montserrado County",
+            "l3": "Monrovia"
+          }
+        ],
+        "current": [
+          "University of Bayreuth"
+        ]
+      }
     },
     {
       "_id": "67fe63a8ab2c85fe8df870fe",
@@ -184,7 +196,16 @@
         "id": "UBT_TravKnowl2019",
         "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
       },
-      "dre_id": "abm-01-0007"
+      "dre_id": "abm-01-0007",
+      "location": {
+        "origin": [
+          {
+            "l1": "United Kingdom",
+            "l2": "England",
+            "l3": "Cambridge"
+          }
+        ]
+      }
     },
     {
       "_id": "67fe63a8ab2c85fe8df87110",
@@ -198,7 +219,16 @@
         "id": "UBT_TravKnowl2019",
         "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
       },
-      "dre_id": "abm-01-0019"
+      "dre_id": "abm-01-0019",
+      "location": {
+        "origin": [
+          {
+            "l1": "Canada",
+            "l2": "Ontario",
+            "l3": "Hamilton"
+          }
+        ]
+      }
     }
   ]
 }

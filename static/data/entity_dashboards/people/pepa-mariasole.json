@@ -276,7 +276,24 @@
         "id": "UBT_Covid192021",
         "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
       },
-      "dre_id": "abz-01-0001"
+      "dre_id": "abz-01-0001",
+      "location": {
+        "origin": [
+          {
+            "l1": "Kenya",
+            "l2": "Samburu",
+            "l3": "Archers Post"
+          },
+          {
+            "l1": "Kenya",
+            "l2": "Isiolo",
+            "l3": "Isiolo"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
     },
     {
       "_id": "66cefaf495a000d4c7bf3711",
@@ -290,7 +307,30 @@
         "id": "UBT_Covid192021",
         "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
       },
-      "dre_id": "abz-01-000c"
+      "dre_id": "abz-01-000c",
+      "location": {
+        "origin": [
+          {
+            "l1": "Kenya"
+          },
+          {
+            "l1": "Tanzania",
+            "l2": "Morogoro",
+            "l3": "Dakawa"
+          },
+          {
+            "l1": "Tanzania",
+            "l2": "Morogoro",
+            "l3": "Morogoro City"
+          },
+          {
+            "l1": "China"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
     },
     {
       "_id": "66cefaf495a000d4c7bf3728",
@@ -304,7 +344,32 @@
         "id": "UBT_Covid192021",
         "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
       },
-      "dre_id": "abz-01-0023"
+      "dre_id": "abz-01-0023",
+      "location": {
+        "origin": [
+          {
+            "l1": "Mozambique",
+            "l2": "Maputo Province",
+            "l3": "Maputo National Park"
+          },
+          {
+            "l1": "Eswatini",
+            "l2": "Lubombo Region",
+            "l3": "Lubombo Transfrontier Conservation and Resource Area"
+          },
+          {
+            "l1": "Mozambique",
+            "l2": "Maputo Province",
+            "l3": "Ponta do Ouro"
+          },
+          {
+            "l1": "South Africa"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
     }
   ]
 }

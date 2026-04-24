@@ -248,7 +248,19 @@
         "id": "UBT_ELTVTapes2021",
         "name": "U-Matic Tapes of the Liberia Broadcasting System"
       },
-      "dre_id": "abn-99-0125"
+      "dre_id": "abn-99-0125",
+      "location": {
+        "origin": [
+          {
+            "l1": "Liberia",
+            "l2": "Montserrado County",
+            "l3": "Monrovia"
+          }
+        ],
+        "current": [
+          "University of Bayreuth"
+        ]
+      }
     },
     {
       "_id": "685a631ec25a5271e0a9edd6",
@@ -258,7 +270,17 @@
         }
       ],
       "typeOfResource": "Text",
-      "dre_id": "eaa-99-03f1"
+      "dre_id": "eaa-99-03f1",
+      "location": {
+        "origin": [
+          {
+            "l1": "South Africa"
+          }
+        ],
+        "current": [
+          "Rhodes University"
+        ]
+      }
     },
     {
       "_id": "685a631ec25a5271e0a9ede4",
@@ -268,7 +290,17 @@
         }
       ],
       "typeOfResource": "Text",
-      "dre_id": "eaa-99-03ff"
+      "dre_id": "eaa-99-03ff",
+      "location": {
+        "origin": [
+          {
+            "l1": "South Africa"
+          }
+        ],
+        "current": [
+          "Rhodes University"
+        ]
+      }
     }
   ]
 }

@@ -1,0 +1,672 @@
+{
+  "meta": {
+    "type": "project",
+    "id": "UBT_Humanitar2019",
+    "name": "Humanities for Humanitarians. An Experiment in the Public Implications of Multiple Ontology",
+    "count": 13
+  },
+  "timeline": [
+    {
+      "year": 2024,
+      "count": 13
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2024,
+      "total": 13,
+      "byType": {
+        "Bibliography": 13
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Bibliography",
+      "value": 13
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 13
+    },
+    {
+      "name": "French",
+      "value": 13
+    }
+  ],
+  "roles": [],
+  "heatmap": [
+    {
+      "x": "2020s",
+      "y": "Bibliography",
+      "value": 13
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Humanities",
+      "value": 13
+    },
+    {
+      "name": "Neoliberalism",
+      "value": 1
+    },
+    {
+      "name": "Capitalism",
+      "value": 1
+    },
+    {
+      "name": "Sociology",
+      "value": 1
+    },
+    {
+      "name": "Ethics",
+      "value": 1
+    },
+    {
+      "name": "Wars",
+      "value": 1
+    },
+    {
+      "name": "Corruption",
+      "value": 1
+    },
+    {
+      "name": "Anthropology",
+      "value": 1
+    },
+    {
+      "name": "Massacres",
+      "value": 1
+    },
+    {
+      "name": "Violence",
+      "value": 1
+    },
+    {
+      "name": "Refugees",
+      "value": 1
+    },
+    {
+      "name": "Refugee camps",
+      "value": 1
+    },
+    {
+      "name": "Diseases",
+      "value": 1
+    },
+    {
+      "name": "Health",
+      "value": 1
+    },
+    {
+      "name": "Racism",
+      "value": 1
+    },
+    {
+      "name": "Women",
+      "value": 1
+    },
+    {
+      "name": "Feminism",
+      "value": 1
+    },
+    {
+      "name": "Gender",
+      "value": 1
+    },
+    {
+      "name": "Statistics",
+      "value": 1
+    },
+    {
+      "name": "Disasters",
+      "value": 1
+    },
+    {
+      "name": "Surveys",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Humanities",
+      "value": 13
+    },
+    {
+      "name": "Humanitarian Studies",
+      "value": 13
+    },
+    {
+      "name": "Humanitarian",
+      "value": 13
+    },
+    {
+      "name": "Aid",
+      "value": 1
+    },
+    {
+      "name": "Power",
+      "value": 1
+    },
+    {
+      "name": "Neoliberalism",
+      "value": 1
+    },
+    {
+      "name": "Capitalism",
+      "value": 1
+    },
+    {
+      "name": "Sociology",
+      "value": 1
+    },
+    {
+      "name": "Ethics",
+      "value": 1
+    },
+    {
+      "name": "Wars",
+      "value": 1
+    },
+    {
+      "name": "Corruption",
+      "value": 1
+    },
+    {
+      "name": "Anthropology",
+      "value": 1
+    },
+    {
+      "name": "Massacres",
+      "value": 1
+    },
+    {
+      "name": "Violence",
+      "value": 1
+    },
+    {
+      "name": "Refugees",
+      "value": 1
+    },
+    {
+      "name": "Refugee camps",
+      "value": 1
+    },
+    {
+      "name": "Diseases",
+      "value": 1
+    },
+    {
+      "name": "Health",
+      "value": 1
+    },
+    {
+      "name": "Racism",
+      "value": 1
+    },
+    {
+      "name": "Racialisation",
+      "value": 1
+    },
+    {
+      "name": "Women",
+      "value": 1
+    },
+    {
+      "name": "Feminism",
+      "value": 1
+    },
+    {
+      "name": "Gender",
+      "value": 1
+    },
+    {
+      "name": "Statistics",
+      "value": 1
+    },
+    {
+      "name": "Data",
+      "value": 1
+    },
+    {
+      "name": "Disasters",
+      "value": 1
+    },
+    {
+      "name": "Environment",
+      "value": 1
+    },
+    {
+      "name": "Surveys",
+      "value": 1
+    },
+    {
+      "name": "Invitation",
+      "value": 1
+    }
+  ],
+  "sunburst": [
+    {
+      "name": "Bibliography",
+      "children": [
+        {
+          "name": "English",
+          "children": [
+            {
+              "name": "Humanities",
+              "value": 13,
+              "children": []
+            },
+            {
+              "name": "Neoliberalism",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Capitalism",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Sociology",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Ethics",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Wars",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Corruption",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Anthropology",
+              "value": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "French",
+          "children": [
+            {
+              "name": "Humanities",
+              "value": 13,
+              "children": []
+            },
+            {
+              "name": "Neoliberalism",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Capitalism",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Sociology",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Ethics",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Wars",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Corruption",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Anthropology",
+              "value": 1,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sankey": {
+    "nodes": [
+      {
+        "name": "Bibliography"
+      },
+      {
+        "name": "Glasman, Joël"
+      },
+      {
+        "name": "Humanities for Humanitarians. An Experiment in the Public Implications of Multiple Ontology"
+      }
+    ],
+    "links": [
+      {
+        "source": "Humanities for Humanitarians. An Experiment in the Public Implications of Multiple Ontology",
+        "target": "Bibliography",
+        "value": 13
+      },
+      {
+        "source": "Glasman, Joël",
+        "target": "Humanities for Humanitarians. An Experiment in the Public Implications of Multiple Ontology",
+        "value": 13
+      }
+    ]
+  },
+  "chord": {
+    "names": [
+      "Humanities"
+    ],
+    "matrix": [
+      [
+        0
+      ]
+    ]
+  },
+  "contributors": [
+    {
+      "name": "Glasman, Joël",
+      "value": 13
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "",
+      "city": "",
+      "count": 13
+    }
+  ],
+  "items": [
+    {
+      "_id": "672b6332248362c6205092d0",
+      "titleInfo": [
+        {
+          "title": "Introduction: Les humanités humanitaires"
+        }
+      ],
+      "typeOfResource": "Bibliography",
+      "project": {
+        "id": "UBT_Humanitar2019",
+        "name": "Humanities for Humanitarians. An Experiment in the Public Implications of Multiple Ontology"
+      },
+      "dre_id": "abv-01-0000",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany"
+          }
+        ]
+      }
+    },
+    {
+      "_id": "672b6332248362c6205092d1",
+      "titleInfo": [
+        {
+          "title": "Chapter One: Pouvoir. Une autre histoire de l'humanitaire"
+        }
+      ],
+      "typeOfResource": "Bibliography",
+      "project": {
+        "id": "UBT_Humanitar2019",
+        "name": "Humanities for Humanitarians. An Experiment in the Public Implications of Multiple Ontology"
+      },
+      "dre_id": "abv-01-0001",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany"
+          }
+        ]
+      }
+    },
+    {
+      "_id": "672b6332248362c6205092d2",
+      "titleInfo": [
+        {
+          "title": "Chapter Two: Néolibéralisme.Histoire, capitalisme, humanitaire"
+        }
+      ],
+      "typeOfResource": "Bibliography",
+      "project": {
+        "id": "UBT_Humanitar2019",
+        "name": "Humanities for Humanitarians. An Experiment in the Public Implications of Multiple Ontology"
+      },
+      "dre_id": "abv-01-0002",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany"
+          }
+        ]
+      }
+    },
+    {
+      "_id": "672b6332248362c6205092d3",
+      "titleInfo": [
+        {
+          "title": "Chapter Three: Guerres. Sociologie des conflits"
+        }
+      ],
+      "typeOfResource": "Bibliography",
+      "project": {
+        "id": "UBT_Humanitar2019",
+        "name": "Humanities for Humanitarians. An Experiment in the Public Implications of Multiple Ontology"
+      },
+      "dre_id": "abv-01-0003",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany"
+          }
+        ]
+      }
+    },
+    {
+      "_id": "672b6332248362c6205092d4",
+      "titleInfo": [
+        {
+          "title": "Chapter Four: Corruption. Anthropologie de l’État"
+        }
+      ],
+      "typeOfResource": "Bibliography",
+      "project": {
+        "id": "UBT_Humanitar2019",
+        "name": "Humanities for Humanitarians. An Experiment in the Public Implications of Multiple Ontology"
+      },
+      "dre_id": "abv-01-0004",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany"
+          }
+        ]
+      }
+    },
+    {
+      "_id": "672b6332248362c6205092d5",
+      "titleInfo": [
+        {
+          "title": "Chapter Five: Massacres. Sociologie des violences de masse"
+        }
+      ],
+      "typeOfResource": "Bibliography",
+      "project": {
+        "id": "UBT_Humanitar2019",
+        "name": "Humanities for Humanitarians. An Experiment in the Public Implications of Multiple Ontology"
+      },
+      "dre_id": "abv-01-0005",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany"
+          }
+        ]
+      }
+    },
+    {
+      "_id": "672b6332248362c6205092d6",
+      "titleInfo": [
+        {
+          "title": "Chapter Six: Camps de réfugiés. Refugee Studies"
+        }
+      ],
+      "typeOfResource": "Bibliography",
+      "project": {
+        "id": "UBT_Humanitar2019",
+        "name": "Humanities for Humanitarians. An Experiment in the Public Implications of Multiple Ontology"
+      },
+      "dre_id": "abv-01-0006",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany"
+          }
+        ]
+      }
+    },
+    {
+      "_id": "672b6332248362c6205092d7",
+      "titleInfo": [
+        {
+          "title": "Chapter Seven: Maladies. Anthropologie de la santé globale"
+        }
+      ],
+      "typeOfResource": "Bibliography",
+      "project": {
+        "id": "UBT_Humanitar2019",
+        "name": "Humanities for Humanitarians. An Experiment in the Public Implications of Multiple Ontology"
+      },
+      "dre_id": "abv-01-0007",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany"
+          }
+        ]
+      }
+    },
+    {
+      "_id": "672b6332248362c6205092d8",
+      "titleInfo": [
+        {
+          "title": "Chapter Eight: Racisme. Sociologie de la racialisation"
+        }
+      ],
+      "typeOfResource": "Bibliography",
+      "project": {
+        "id": "UBT_Humanitar2019",
+        "name": "Humanities for Humanitarians. An Experiment in the Public Implications of Multiple Ontology"
+      },
+      "dre_id": "abv-01-0008",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany"
+          }
+        ]
+      }
+    },
+    {
+      "_id": "672b6332248362c6205092d9",
+      "titleInfo": [
+        {
+          "title": "Chapter Nine: Les femmes et les enfants d’abord. Féminisme et études de genre"
+        }
+      ],
+      "typeOfResource": "Bibliography",
+      "project": {
+        "id": "UBT_Humanitar2019",
+        "name": "Humanities for Humanitarians. An Experiment in the Public Implications of Multiple Ontology"
+      },
+      "dre_id": "abv-01-0009",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany"
+          }
+        ]
+      }
+    },
+    {
+      "_id": "672b6332248362c6205092da",
+      "titleInfo": [
+        {
+          "title": "Chapter Ten: Statistiques. Critical Data Studies"
+        }
+      ],
+      "typeOfResource": "Bibliography",
+      "project": {
+        "id": "UBT_Humanitar2019",
+        "name": "Humanities for Humanitarians. An Experiment in the Public Implications of Multiple Ontology"
+      },
+      "dre_id": "abv-01-000a",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany"
+          }
+        ]
+      }
+    },
+    {
+      "_id": "672b6332248362c6205092db",
+      "titleInfo": [
+        {
+          "title": "Chapter Eleven: Catastrophes. Sociologie de l’environnement"
+        }
+      ],
+      "typeOfResource": "Bibliography",
+      "project": {
+        "id": "UBT_Humanitar2019",
+        "name": "Humanities for Humanitarians. An Experiment in the Public Implications of Multiple Ontology"
+      },
+      "dre_id": "abv-01-000b",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany"
+          }
+        ]
+      }
+    },
+    {
+      "_id": "672b6332248362c6205092dc",
+      "titleInfo": [
+        {
+          "title": "Conclusion: Invitation à l’enquête"
+        }
+      ],
+      "typeOfResource": "Bibliography",
+      "project": {
+        "id": "UBT_Humanitar2019",
+        "name": "Humanities for Humanitarians. An Experiment in the Public Implications of Multiple Ontology"
+      },
+      "dre_id": "abv-01-000c",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany"
+          }
+        ]
+      }
+    }
+  ]
+}

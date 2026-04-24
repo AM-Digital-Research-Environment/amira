@@ -156,7 +156,18 @@
         "id": "Ext_BayGlo2025",
         "name": "Bayreuth Global/Bayreuth Postkolonial"
       },
-      "dre_id": "eab-01-000b"
+      "dre_id": "eab-01-000b",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany",
+            "l2": "Bavaria"
+          }
+        ],
+        "current": [
+          "University of Bayreuth"
+        ]
+      }
     },
     {
       "_id": "692db49707481a28c72155c1",
@@ -170,7 +181,19 @@
         "id": "Ext_BayGlo2025",
         "name": "Bayreuth Global/Bayreuth Postkolonial"
       },
-      "dre_id": "eab-01-0019"
+      "dre_id": "eab-01-0019",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany",
+            "l2": "Bavaria",
+            "l3": "Bayreuth"
+          }
+        ],
+        "current": [
+          "University of Bayreuth"
+        ]
+      }
     }
   ]
 }

@@ -256,7 +256,19 @@
         "id": "Ext_BayGlo2025",
         "name": "Bayreuth Global/Bayreuth Postkolonial"
       },
-      "dre_id": "eab-01-0004"
+      "dre_id": "eab-01-0004",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany",
+            "l2": "Bavaria",
+            "l3": "Bayreuth"
+          }
+        ],
+        "current": [
+          "University of Bayreuth"
+        ]
+      }
     },
     {
       "_id": "692db49707481a28c72155b1",
@@ -270,7 +282,17 @@
         "id": "Ext_BayGlo2025",
         "name": "Bayreuth Global/Bayreuth Postkolonial"
       },
-      "dre_id": "eab-01-0009"
+      "dre_id": "eab-01-0009",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany"
+          }
+        ],
+        "current": [
+          "University of Bayreuth"
+        ]
+      }
     },
     {
       "_id": "685a631ec25a5271e0a9e9fb",
@@ -280,7 +302,17 @@
         }
       ],
       "typeOfResource": "Text",
-      "dre_id": "eaa-99-0016"
+      "dre_id": "eaa-99-0016",
+      "location": {
+        "origin": [
+          {
+            "l1": "South Africa"
+          }
+        ],
+        "current": [
+          "Rhodes University"
+        ]
+      }
     },
     {
       "_id": "685a631ec25a5271e0a9edc4",
@@ -290,7 +322,17 @@
         }
       ],
       "typeOfResource": "Text",
-      "dre_id": "eaa-99-03df"
+      "dre_id": "eaa-99-03df",
+      "location": {
+        "origin": [
+          {
+            "l1": "South Africa"
+          }
+        ],
+        "current": [
+          "Rhodes University"
+        ]
+      }
     }
   ]
 }

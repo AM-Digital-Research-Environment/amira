@@ -197,7 +197,24 @@
         "id": "UBT_Covid192021",
         "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
       },
-      "dre_id": "abz-01-0000"
+      "dre_id": "abz-01-0000",
+      "location": {
+        "origin": [
+          {
+            "l1": "Kenya",
+            "l2": "Narok",
+            "l3": "Maasai Mara National Reserve"
+          },
+          {
+            "l1": "Kenya",
+            "l2": "Narok",
+            "l3": "Loita Hills"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
     },
     {
       "_id": "66cefaf495a000d4c7bf3710",
@@ -211,7 +228,32 @@
         "id": "UBT_Covid192021",
         "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
       },
-      "dre_id": "abz-01-000b"
+      "dre_id": "abz-01-000b",
+      "location": {
+        "origin": [
+          {
+            "l1": "Kenya",
+            "l2": "Narok",
+            "l3": "Loita Hills"
+          },
+          {
+            "l1": "Kenya",
+            "l2": "Narok",
+            "l3": "Loita Naimina Enkiyio Forest"
+          },
+          {
+            "l1": "Kenya",
+            "l2": "Narok",
+            "l3": "Entasekera"
+          },
+          {
+            "l1": "Tanzania"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
     }
   ]
 }

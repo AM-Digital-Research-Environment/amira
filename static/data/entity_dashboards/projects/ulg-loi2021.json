@@ -1,0 +1,713 @@
+{
+  "meta": {
+    "type": "project",
+    "id": "ULG_LOI2021",
+    "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)",
+    "count": 15
+  },
+  "timeline": [
+    {
+      "year": 2021,
+      "count": 8
+    },
+    {
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "count": 6
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2021,
+      "total": 8,
+      "byType": {
+        "Text": 3,
+        "Image": 3,
+        "Moving image": 2
+      }
+    },
+    {
+      "year": 2022,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 2023,
+      "total": 6,
+      "byType": {
+        "Image": 2,
+        "Moving image": 1,
+        "Text": 1,
+        "Audio": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 6
+    },
+    {
+      "name": "Text",
+      "value": 4
+    },
+    {
+      "name": "Moving image",
+      "value": 3
+    },
+    {
+      "name": "Audio",
+      "value": 2
+    }
+  ],
+  "languages": [],
+  "roles": [],
+  "heatmap": [
+    {
+      "x": "2020s",
+      "y": "Audio",
+      "value": 2
+    },
+    {
+      "x": "2020s",
+      "y": "Image",
+      "value": 6
+    },
+    {
+      "x": "2020s",
+      "y": "Moving image",
+      "value": 3
+    },
+    {
+      "x": "2020s",
+      "y": "Text",
+      "value": 4
+    }
+  ],
+  "subjects": [
+    {
+      "name": "History",
+      "value": 15
+    },
+    {
+      "name": "Migration",
+      "value": 15
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "History",
+      "value": 15
+    },
+    {
+      "name": "Migration",
+      "value": 15
+    },
+    {
+      "name": "African Studies",
+      "value": 15
+    },
+    {
+      "name": "Lagos",
+      "value": 15
+    },
+    {
+      "name": "Knowledge",
+      "value": 15
+    }
+  ],
+  "sunburst": [
+    {
+      "name": "Image",
+      "children": [
+        {
+          "name": "Unknown",
+          "children": [
+            {
+              "name": "History",
+              "value": 6,
+              "children": []
+            },
+            {
+              "name": "Migration",
+              "value": 6,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Text",
+      "children": [
+        {
+          "name": "Unknown",
+          "children": [
+            {
+              "name": "History",
+              "value": 4,
+              "children": []
+            },
+            {
+              "name": "Migration",
+              "value": 4,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Moving image",
+      "children": [
+        {
+          "name": "Unknown",
+          "children": [
+            {
+              "name": "History",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "Migration",
+              "value": 3,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Audio",
+      "children": [
+        {
+          "name": "Unknown",
+          "children": [
+            {
+              "name": "History",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Migration",
+              "value": 2,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sankey": {
+    "nodes": [
+      {
+        "name": "Akinpelu, Deji"
+      },
+      {
+        "name": "Audio"
+      },
+      {
+        "name": "Eleshin, Abisoye"
+      },
+      {
+        "name": "Image"
+      },
+      {
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      {
+        "name": "Lawanson, Taibat"
+      },
+      {
+        "name": "Moving image"
+      },
+      {
+        "name": "Text"
+      }
+    ],
+    "links": [
+      {
+        "source": "Lawanson, Taibat",
+        "target": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)",
+        "value": 15
+      },
+      {
+        "source": "Eleshin, Abisoye",
+        "target": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)",
+        "value": 15
+      },
+      {
+        "source": "Akinpelu, Deji",
+        "target": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)",
+        "value": 15
+      },
+      {
+        "source": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)",
+        "target": "Image",
+        "value": 6
+      },
+      {
+        "source": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)",
+        "target": "Text",
+        "value": 4
+      },
+      {
+        "source": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)",
+        "target": "Moving image",
+        "value": 3
+      },
+      {
+        "source": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)",
+        "target": "Audio",
+        "value": 2
+      }
+    ]
+  },
+  "chord": {
+    "names": [
+      "History",
+      "Migration"
+    ],
+    "matrix": [
+      [
+        0,
+        15
+      ],
+      [
+        15,
+        0
+      ]
+    ]
+  },
+  "contributors": [
+    {
+      "name": "Lawanson, Taibat",
+      "value": 15
+    },
+    {
+      "name": "Eleshin, Abisoye",
+      "value": 15
+    },
+    {
+      "name": "Akinpelu, Deji",
+      "value": 15
+    },
+    {
+      "name": "Enitan, Adewale",
+      "value": 15
+    },
+    {
+      "name": "Odubawo, Orinayo",
+      "value": 15
+    },
+    {
+      "name": "Bitrus, Byenyen",
+      "value": 15
+    }
+  ],
+  "locations": [
+    {
+      "country": "Nigeria",
+      "region": "Lagos State",
+      "city": "Lagos",
+      "count": 15
+    }
+  ],
+  "items": [
+    {
+      "_id": "6718f516c327cde4b57d86b5",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Concept Note"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-0000",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Lagos State",
+            "l3": "Lagos"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6718f516c327cde4b57d86b6",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Interview"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-0001",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Lagos State",
+            "l3": "Lagos"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6718f516c327cde4b57d86b7",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-0002",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Lagos State",
+            "l3": "Lagos"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6718f516c327cde4b57d86b8",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Exhibition"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-99-0003",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Lagos State",
+            "l3": "Lagos"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6718f516c327cde4b57d86b9",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Workshop"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-0004",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Lagos State",
+            "l3": "Lagos"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6718f516c327cde4b57d86ba",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Exhibition Essay"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-0005",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Lagos State",
+            "l3": "Lagos"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6718f516c327cde4b57d86bb",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Workshop Picture 1"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-0006",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Lagos State",
+            "l3": "Lagos"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6718f516c327cde4b57d86bc",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Workshop Picture 2"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-0007",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Lagos State",
+            "l3": "Lagos"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6718f516c327cde4b57d86bd",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Picture 3"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-0008",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Lagos State",
+            "l3": "Lagos"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6718f516c327cde4b57d86be",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Picture 4"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-0009",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Lagos State",
+            "l3": "Lagos"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6718f516c327cde4b57d86bf",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Picture 5"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-000a",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Lagos State",
+            "l3": "Lagos"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6718f516c327cde4b57d86c0",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Documentary"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-000b",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Lagos State",
+            "l3": "Lagos"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6718f516c327cde4b57d86c1",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Brochure"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-000c",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Lagos State",
+            "l3": "Lagos"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6718f516c327cde4b57d86c2",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Audio Interview 1"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-000d",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Lagos State",
+            "l3": "Lagos"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6718f516c327cde4b57d86c3",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Audio Interview 2"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-000e",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Lagos State",
+            "l3": "Lagos"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    }
+  ]
+}

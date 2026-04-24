@@ -189,7 +189,17 @@
         "id": "UBT_ArtWorld2019",
         "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
       },
-      "dre_id": "abg-99-0006"
+      "dre_id": "abg-99-0006",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
     },
     {
       "_id": "68c2f8e1f102814baee7b49d",
@@ -203,7 +213,19 @@
         "id": "UBT_ArtWorld2019",
         "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
       },
-      "dre_id": "abg-01-0015"
+      "dre_id": "abg-01-0015",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Osun State",
+            "l3": "Osogbo"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
     },
     {
       "_id": "68c2f8e1f102814baee7b49e",
@@ -217,7 +239,19 @@
         "id": "UBT_ArtWorld2019",
         "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
       },
-      "dre_id": "abg-01-0016"
+      "dre_id": "abg-01-0016",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Osun State",
+            "l3": "Osogbo"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
     },
     {
       "_id": "68c2f8e1f102814baee7b4a0",
@@ -231,7 +265,12 @@
         "id": "UBT_ArtWorld2019",
         "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
       },
-      "dre_id": "abg-01-0018"
+      "dre_id": "abg-01-0018",
+      "location": {
+        "current": [
+          "Bayreuth"
+        ]
+      }
     }
   ]
 }

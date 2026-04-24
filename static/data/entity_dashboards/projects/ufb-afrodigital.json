@@ -1,0 +1,3203 @@
+{
+  "meta": {
+    "type": "project",
+    "id": "UFB_AfroDigital",
+    "name": "Museu Afro-Digital",
+    "count": 110
+  },
+  "timeline": [
+    {
+      "year": 2024,
+      "count": 44
+    },
+    {
+      "year": 2025,
+      "count": 66
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2024,
+      "total": 44,
+      "byType": {
+        "Image": 44
+      }
+    },
+    {
+      "year": 2025,
+      "total": 66,
+      "byType": {
+        "Image": 66
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 110
+    }
+  ],
+  "languages": [
+    {
+      "name": "Portuguese",
+      "value": 17
+    },
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "roles": [],
+  "heatmap": [
+    {
+      "x": "2020s",
+      "y": "Image",
+      "value": 110
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Working class--Brazil--History",
+      "value": 52
+    },
+    {
+      "name": "Black people--Brazil--History",
+      "value": 52
+    },
+    {
+      "name": "Black people--Brazil--Social conditions",
+      "value": 52
+    },
+    {
+      "name": "Capoeira (Dance)",
+      "value": 44
+    },
+    {
+      "name": "Photographs",
+      "value": 38
+    },
+    {
+      "name": "Documentation",
+      "value": 14
+    },
+    {
+      "name": "Orisha religion",
+      "value": 14
+    },
+    {
+      "name": "Candomblé",
+      "value": 14
+    },
+    {
+      "name": "Yoruba (African people)--Religion",
+      "value": 14
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 14
+    },
+    {
+      "name": "Letters",
+      "value": 6
+    },
+    {
+      "name": "Commercial correspondence",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Working class--Brazil--History",
+      "value": 52
+    },
+    {
+      "name": "Black people--Brazil--History",
+      "value": 52
+    },
+    {
+      "name": "Black people--Brazil--Social conditions",
+      "value": 52
+    },
+    {
+      "name": "Black Workers",
+      "value": 52
+    },
+    {
+      "name": "Labour History",
+      "value": 52
+    },
+    {
+      "name": "Capoeira (Dance)",
+      "value": 44
+    },
+    {
+      "name": "Memory of Capoeira Angola",
+      "value": 44
+    },
+    {
+      "name": "Mestre Nô",
+      "value": 44
+    },
+    {
+      "name": "Photographs",
+      "value": 38
+    },
+    {
+      "name": "Documentation",
+      "value": 14
+    },
+    {
+      "name": "Orisha religion",
+      "value": 14
+    },
+    {
+      "name": "Candomblé",
+      "value": 14
+    },
+    {
+      "name": "Yoruba (African people)--Religion",
+      "value": 14
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 14
+    },
+    {
+      "name": "Yoruba Art",
+      "value": 14
+    },
+    {
+      "name": "Letters",
+      "value": 6
+    },
+    {
+      "name": "Commercial correspondence",
+      "value": 2
+    }
+  ],
+  "sunburst": [
+    {
+      "name": "Image",
+      "children": [
+        {
+          "name": "Unknown",
+          "children": [
+            {
+              "name": "Working class--Brazil--History",
+              "value": 52,
+              "children": []
+            },
+            {
+              "name": "Black people--Brazil--History",
+              "value": 52,
+              "children": []
+            },
+            {
+              "name": "Black people--Brazil--Social conditions",
+              "value": 52,
+              "children": []
+            },
+            {
+              "name": "Photographs",
+              "value": 38,
+              "children": []
+            },
+            {
+              "name": "Capoeira (Dance)",
+              "value": 25,
+              "children": []
+            },
+            {
+              "name": "Orisha religion",
+              "value": 14,
+              "children": []
+            },
+            {
+              "name": "Candomblé",
+              "value": 14,
+              "children": []
+            },
+            {
+              "name": "Yoruba (African people)--Religion",
+              "value": 14,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Portuguese",
+          "children": [
+            {
+              "name": "Capoeira (Dance)",
+              "value": 17,
+              "children": []
+            },
+            {
+              "name": "Documentation",
+              "value": 11,
+              "children": []
+            },
+            {
+              "name": "Letters",
+              "value": 6,
+              "children": []
+            },
+            {
+              "name": "Commercial correspondence",
+              "value": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "English",
+          "children": [
+            {
+              "name": "Capoeira (Dance)",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "Documentation",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Letters",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Commercial correspondence",
+              "value": 1,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sankey": {
+    "nodes": [
+      {
+        "name": "Fundação Gregório De Mattos"
+      },
+      {
+        "name": "Image"
+      },
+      {
+        "name": "Museu Afro-Digital"
+      },
+      {
+        "name": "Vasconcellos, Christiane"
+      },
+      {
+        "name": "de Oliveira, Norival Moreira"
+      }
+    ],
+    "links": [
+      {
+        "source": "Museu Afro-Digital",
+        "target": "Image",
+        "value": 110
+      },
+      {
+        "source": "Vasconcellos, Christiane",
+        "target": "Museu Afro-Digital",
+        "value": 52
+      },
+      {
+        "source": "de Oliveira, Norival Moreira",
+        "target": "Museu Afro-Digital",
+        "value": 44
+      },
+      {
+        "source": "Fundação Gregório De Mattos",
+        "target": "Museu Afro-Digital",
+        "value": 14
+      }
+    ]
+  },
+  "chord": {
+    "names": [
+      "Working class--Brazil--History",
+      "Black people--Brazil--History",
+      "Black people--Brazil--Social conditions",
+      "Capoeira (Dance)",
+      "Photographs",
+      "Documentation",
+      "Orisha religion",
+      "Candomblé",
+      "Yoruba (African people)--Religion",
+      "Yoruba (African people)",
+      "Letters"
+    ],
+    "matrix": [
+      [
+        0,
+        52,
+        52,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        52,
+        0,
+        52,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        52,
+        52,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        24,
+        14,
+        0,
+        0,
+        0,
+        0,
+        6
+      ],
+      [
+        0,
+        0,
+        0,
+        24,
+        0,
+        0,
+        14,
+        14,
+        14,
+        14,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        14,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        14,
+        0,
+        0,
+        14,
+        14,
+        14,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        14,
+        0,
+        14,
+        0,
+        14,
+        14,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        14,
+        0,
+        14,
+        14,
+        0,
+        14,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        14,
+        0,
+        14,
+        14,
+        14,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "contributors": [
+    {
+      "name": "Vasconcellos, Christiane",
+      "value": 52
+    },
+    {
+      "name": "de Oliveira, Norival Moreira",
+      "value": 44
+    },
+    {
+      "name": "Fundação Gregório De Mattos",
+      "value": 14
+    }
+  ],
+  "locations": [
+    {
+      "country": "Brazil",
+      "region": "",
+      "city": "",
+      "count": 58
+    },
+    {
+      "country": "Brazil",
+      "region": "Bahia",
+      "city": "",
+      "count": 52
+    }
+  ],
+  "items": [
+    {
+      "_id": "67d192720fec557b9a445c17",
+      "titleInfo": [
+        {
+          "title": "Jovem Mestre Nô acompanhado"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0000",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192720fec557b9a445c18",
+      "titleInfo": [
+        {
+          "title": "Cartão postal enviado por seu primo de Kingston na Jamaica"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0001",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192720fec557b9a445c19",
+      "titleInfo": [
+        {
+          "title": "Cartão postal enviado de Nova York por Mestre No para sua filha Guia"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0002",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192720fec557b9a445c1a",
+      "titleInfo": [
+        {
+          "title": "Fotografia com carta do Mestre No para o seu filho"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0003",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192720fec557b9a445c1b",
+      "titleInfo": [
+        {
+          "title": "Cartas de amor enviadas para o Mestre No"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0004",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192720fec557b9a445c1c",
+      "titleInfo": [
+        {
+          "title": "Carta do Mestre No enviada para os seus alunos"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0005",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192720fec557b9a445c1d",
+      "titleInfo": [
+        {
+          "title": "Carta enviada por Mestre Nô para Sônia"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0006",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192720fec557b9a445c1e",
+      "titleInfo": [
+        {
+          "title": "Fotografia de uma luta em roda de capoeira"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0007",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192720fec557b9a445c1f",
+      "titleInfo": [
+        {
+          "title": "Lista de Crianças batizadas na capoeira Angola pelo Mestre No no ano de 1987"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0008",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192720fec557b9a445c20",
+      "titleInfo": [
+        {
+          "title": "Lista de alunos a serem batizados na Associação de Capoeira de Palmares da Bahia"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0009",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192720fec557b9a445c21",
+      "titleInfo": [
+        {
+          "title": "Mapa de notas do exame de graduação na capoeira do ano 1980"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-000a",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192720fec557b9a445c22",
+      "titleInfo": [
+        {
+          "title": "Fotografia de recordação da cerimónia de formatura a preto e branco"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-000b",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192720fec557b9a445c23",
+      "titleInfo": [
+        {
+          "title": "Fotografia colorida de recordação da cerimônia de graduação"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-000c",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192720fec557b9a445c24",
+      "titleInfo": [
+        {
+          "title": "Fotografia em preto e branco de uma roda de capoeira com o Mestre No"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-000d",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192720fec557b9a445c25",
+      "titleInfo": [
+        {
+          "title": "Roda de capoeira angola de Palmares da Bahia in Pelourinho"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-000e",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192720fec557b9a445c26",
+      "titleInfo": [
+        {
+          "title": "Página de registro do Mestre No"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-000f",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192720fec557b9a445c27",
+      "titleInfo": [
+        {
+          "title": "Documentos pessoais do Mestre No"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0010",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192730fec557b9a445c28",
+      "titleInfo": [
+        {
+          "title": "Capa do Livro de Registro de Alunos"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0011",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192730fec557b9a445c29",
+      "titleInfo": [
+        {
+          "title": "Diploma emitido ao Mestre No pela Academia de Capoeira Angola"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0012",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192730fec557b9a445c2a",
+      "titleInfo": [
+        {
+          "title": "Ata da Sessão Solene de comemorção aos 25 anos da Associação de Capoeira Angola de Palmares da Bahia"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0013",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192730fec557b9a445c2b",
+      "titleInfo": [
+        {
+          "title": "Extrato do Estatuto da Associação de Capoeira Orixás da Bahia - Palmares da Bahia"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0014",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192730fec557b9a445c2c",
+      "titleInfo": [
+        {
+          "title": "Roda de capoeira ao ar livre proximo ao mar"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0015",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192730fec557b9a445c2d",
+      "titleInfo": [
+        {
+          "title": "Mestre Nô tocando berimbau"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0016",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192730fec557b9a445c2e",
+      "titleInfo": [
+        {
+          "title": "Mestre Nô e amigos"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0017",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192730fec557b9a445c2f",
+      "titleInfo": [
+        {
+          "title": "Mestre Nô em recebendo seu título de Doutor Honoris Causa"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0018",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192730fec557b9a445c30",
+      "titleInfo": [
+        {
+          "title": "Roda de Capoeira ao ar livre"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0019",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192730fec557b9a445c31",
+      "titleInfo": [
+        {
+          "title": "Mestre Nô  orientando uma pessoa da Educação Física"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-001a",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192730fec557b9a445c32",
+      "titleInfo": [
+        {
+          "title": "Mestre No em comemoração"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-001b",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192730fec557b9a445c33",
+      "titleInfo": [
+        {
+          "title": "Mestre Nô e colegas posando em frente a ponte Golden Gate"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-001c",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192730fec557b9a445c34",
+      "titleInfo": [
+        {
+          "title": "Mestre Nô e colegas em Londres"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-001d",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192730fec557b9a445c35",
+      "titleInfo": [
+        {
+          "title": "Mestre Nô realizando roda de capoeira nos Estados Unidos"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-001e",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192730fec557b9a445c36",
+      "titleInfo": [
+        {
+          "title": "Mestre Nô em roda de capoeira realizada fora do Brasil"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-001f",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192730fec557b9a445c37",
+      "titleInfo": [
+        {
+          "title": "Carta de suporte ao pedido de expedição do visa de Mestre Nô"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0020",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192730fec557b9a445c38",
+      "titleInfo": [
+        {
+          "title": "Mestre Nô na Russia"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0021",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192730fec557b9a445c39",
+      "titleInfo": [
+        {
+          "title": "Declaração de afastamento do trabalho regular para viajar para os estados unidos para dar aulas de capoeira"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0022",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192730fec557b9a445c3a",
+      "titleInfo": [
+        {
+          "title": "Flyer de divulgação das aulas de capoeira do Mestre Nô em Inglês"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0023",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192730fec557b9a445c3b",
+      "titleInfo": [
+        {
+          "title": "Cartão de inscrição de chapa para concorrer a Diretoria da Associação Brasileira de Capoeira Angola"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0024",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192730fec557b9a445c3c",
+      "titleInfo": [
+        {
+          "title": "Mestre Nô posando com colegas e amigos"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0025",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192730fec557b9a445c3d",
+      "titleInfo": [
+        {
+          "title": "Certificação de participação da Associação Palmares da Bahia no Festival Ritmo de Capoeira de 1980"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0026",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192730fec557b9a445c3e",
+      "titleInfo": [
+        {
+          "title": "Mestre Nô jogando capoeira em uma liga de mestres"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0027",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192730fec557b9a445c3f",
+      "titleInfo": [
+        {
+          "title": "Mestre Nô tocando atabaque em uma roda de capoeira"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0028",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192730fec557b9a445c40",
+      "titleInfo": [
+        {
+          "title": "Mestre Nô e colegas"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0029",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192730fec557b9a445c41",
+      "titleInfo": [
+        {
+          "title": "Mestre Nô em uma roda de capoeira"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-002a",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192730fec557b9a445c42",
+      "titleInfo": [
+        {
+          "title": "Mestre Nô e outros mestres em roda de capoeira"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-002b",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192730fec557b9a445c43",
+      "titleInfo": [
+        {
+          "title": "Obaluaiyê por Evan Alvez"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-002c",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192730fec557b9a445c44",
+      "titleInfo": [
+        {
+          "title": "Oxum por Evan Alvez"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-002d",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192730fec557b9a445c45",
+      "titleInfo": [
+        {
+          "title": "Oyá por Evan Alvez"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-002e",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192730fec557b9a445c46",
+      "titleInfo": [
+        {
+          "title": "Iansã por Evan Alvez"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-002f",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192730fec557b9a445c47",
+      "titleInfo": [
+        {
+          "title": "Oxóssi por Evan Alvez"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0030",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192740fec557b9a445c48",
+      "titleInfo": [
+        {
+          "title": "Ogum por Evan Alvez"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0031",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192740fec557b9a445c49",
+      "titleInfo": [
+        {
+          "title": "Fotografia de uma candomblecista com flores"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0032",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192740fec557b9a445c4a",
+      "titleInfo": [
+        {
+          "title": "Candomblecista com um cachimbo"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0033",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192740fec557b9a445c4b",
+      "titleInfo": [
+        {
+          "title": "Mulheres candomblecistas em roda"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0034",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192740fec557b9a445c4c",
+      "titleInfo": [
+        {
+          "title": "Fotografia com representação de Oxalá"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0035",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192740fec557b9a445c4d",
+      "titleInfo": [
+        {
+          "title": "Representação dos Orixás, junto com Ogans"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0036",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192740fec557b9a445c4e",
+      "titleInfo": [
+        {
+          "title": "Mulheres de Santo"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0037",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192740fec557b9a445c4f",
+      "titleInfo": [
+        {
+          "title": "Mulheres candomblecistas usando saia de chita"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0038",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192740fec557b9a445c50",
+      "titleInfo": [
+        {
+          "title": "Cartão postal de uma baiana"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0039",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192740fec557b9a445c51",
+      "titleInfo": [
+        {
+          "title": "Trabalhadores negros conduzindo uma locomotiva"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-003a",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192740fec557b9a445c52",
+      "titleInfo": [
+        {
+          "title": "Trabalhadores negros utilizando uma carruagem puxada por animais"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-003b",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192740fec557b9a445c53",
+      "titleInfo": [
+        {
+          "title": "Trabalhadores negros construindo um prédio"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-003c",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192740fec557b9a445c54",
+      "titleInfo": [
+        {
+          "title": "Trabalhadores negros construindo"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-003d",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192740fec557b9a445c55",
+      "titleInfo": [
+        {
+          "title": "Trabalhadores negros trabalhando em um prédio"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-003e",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192740fec557b9a445c56",
+      "titleInfo": [
+        {
+          "title": "Trabalhadores negros posando para uma foto em uma construção"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-003f",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192740fec557b9a445c57",
+      "titleInfo": [
+        {
+          "title": "Rua comercial com pessoas negras fazendo compras e vendas"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0040",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192740fec557b9a445c58",
+      "titleInfo": [
+        {
+          "title": "Construção da segunda torre do Elevador Lacerda"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0041",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192740fec557b9a445c59",
+      "titleInfo": [
+        {
+          "title": "Recepcionista e cobrador do Elevador Lacerda"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0042",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192740fec557b9a445c5a",
+      "titleInfo": [
+        {
+          "title": "Trabalhadores do Plano Inclinado Gonçalves posando para uma foto."
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0043",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192740fec557b9a445c5b",
+      "titleInfo": [
+        {
+          "title": "Trabalhadores negros construindo os trilhos de elevação do Plano Inclinado Gonçalves"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0044",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192740fec557b9a445c5c",
+      "titleInfo": [
+        {
+          "title": "Trabalhadores no Plano Inclinado Gonçalves"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0045",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192740fec557b9a445c5d",
+      "titleInfo": [
+        {
+          "title": "Trabalhadores na orla da Ribeira"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0046",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192740fec557b9a445c5e",
+      "titleInfo": [
+        {
+          "title": "Trabalhadores a beira-mar"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0047",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192740fec557b9a445c5f",
+      "titleInfo": [
+        {
+          "title": "Trabalhadores negros em paisagem rochosa"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0048",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192740fec557b9a445c60",
+      "titleInfo": [
+        {
+          "title": "Trabalhadores negros construindo caminhos"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0049",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192740fec557b9a445c61",
+      "titleInfo": [
+        {
+          "title": "Trabalhadores negros construindo em superfícies inclinadas"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-004a",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192740fec557b9a445c62",
+      "titleInfo": [
+        {
+          "title": "Rua com um bonde e trabalhadores negros construindo uma linha ferroviária"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-004b",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192740fec557b9a445c63",
+      "titleInfo": [
+        {
+          "title": "Trabalhador próximo a um pier"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-004c",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192740fec557b9a445c64",
+      "titleInfo": [
+        {
+          "title": "Trabalhadores do Plano Inclinado Gonçalves"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-004d",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192740fec557b9a445c65",
+      "titleInfo": [
+        {
+          "title": "Trabalhadores descarregando carroça em armazém"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-004e",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192740fec557b9a445c66",
+      "titleInfo": [
+        {
+          "title": "Trabalhadores negros carregando navio"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-004f",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192740fec557b9a445c67",
+      "titleInfo": [
+        {
+          "title": "Trabalhadores negros descarregando caminhão em armazém"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0050",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192740fec557b9a445c68",
+      "titleInfo": [
+        {
+          "title": "Trabalhadores negros construindo sistema no solo."
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0051",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192740fec557b9a445c69",
+      "titleInfo": [
+        {
+          "title": "Trabalhadores construindo um prédio"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0052",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192750fec557b9a445c6a",
+      "titleInfo": [
+        {
+          "title": "Trabalhadores negros construindo um sobrado"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0053",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192750fec557b9a445c6b",
+      "titleInfo": [
+        {
+          "title": "Trabalhadoras em fábrica"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0054",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192750fec557b9a445c6c",
+      "titleInfo": [
+        {
+          "title": "Trabalhador em frente a um prédio"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0055",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192750fec557b9a445c6d",
+      "titleInfo": [
+        {
+          "title": "Baiana preparando um acarajé"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0056",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192750fec557b9a445c6e",
+      "titleInfo": [
+        {
+          "title": "Vendedor de grãos"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0057",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192750fec557b9a445c6f",
+      "titleInfo": [
+        {
+          "title": "Vendedor de grãos"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0058",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192750fec557b9a445c70",
+      "titleInfo": [
+        {
+          "title": "Mercado a céu aberto"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0059",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192750fec557b9a445c71",
+      "titleInfo": [
+        {
+          "title": "Vendedor de milho"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-005a",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192750fec557b9a445c72",
+      "titleInfo": [
+        {
+          "title": "Lavadeira quarando roupas"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-005b",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192750fec557b9a445c73",
+      "titleInfo": [
+        {
+          "title": "Vendedor de abacaxi"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-005c",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192750fec557b9a445c74",
+      "titleInfo": [
+        {
+          "title": "Pescadores atracando"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-005d",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192750fec557b9a445c75",
+      "titleInfo": [
+        {
+          "title": "Marisqueiro segurando lagostas"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-005e",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192750fec557b9a445c76",
+      "titleInfo": [
+        {
+          "title": "Trabalhadores negros  trabalhando em área ribeirinha"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-005f",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192750fec557b9a445c77",
+      "titleInfo": [
+        {
+          "title": "Lavadeiras em ofício em um córrego"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0060",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192750fec557b9a445c78",
+      "titleInfo": [
+        {
+          "title": "Trabalhadores negros trabalhando no campo e utilizando máquinas"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0061",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192750fec557b9a445c79",
+      "titleInfo": [
+        {
+          "title": "Terminal de ônibus da Barroquinha"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0062",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192750fec557b9a445c7a",
+      "titleInfo": [
+        {
+          "title": "Trabalhador negro reparando máquina"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0063",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192750fec557b9a445c7b",
+      "titleInfo": [
+        {
+          "title": "Trabalhador negro lidando com metais"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0064",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192750fec557b9a445c7c",
+      "titleInfo": [
+        {
+          "title": "Foco de incêndio no polo petroquímico de Camaçari"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0065",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192750fec557b9a445c7d",
+      "titleInfo": [
+        {
+          "title": "Brigada de trabalhadores negros"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0066",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192750fec557b9a445c7e",
+      "titleInfo": [
+        {
+          "title": "Workers at the petrochemical complex posing for a photo"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0067",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192750fec557b9a445c7f",
+      "titleInfo": [
+        {
+          "title": "Trabalhadores a caminho"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0068",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192750fec557b9a445c80",
+      "titleInfo": [
+        {
+          "title": "Trabalhadores no pólo petroquímico"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0069",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192750fec557b9a445c81",
+      "titleInfo": [
+        {
+          "title": "Trabalhadores negros do polo petroquímico de Camaçari posando para a foto"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-006a",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192750fec557b9a445c82",
+      "titleInfo": [
+        {
+          "title": "Trabalhadores em protesto público com apoio da CUT"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-006b",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192750fec557b9a445c83",
+      "titleInfo": [
+        {
+          "title": "Trabalhadores em assembléia 8º CECUT"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-006c",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    },
+    {
+      "_id": "67d192750fec557b9a445c84",
+      "titleInfo": [
+        {
+          "title": "Trabalhadores em atividade no 8º CECUT"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-006d",
+      "location": {
+        "origin": [
+          {
+            "l1": "Brazil",
+            "l2": "Bahia"
+          }
+        ],
+        "current": [
+          "Universidade Federal da Bahia"
+        ]
+      }
+    }
+  ]
+}

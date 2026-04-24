@@ -88,7 +88,14 @@
         "id": "UBT_TaiSha2021",
         "name": "Taiwo Shango"
       },
-      "dre_id": "aan-99-0009"
+      "dre_id": "aan-99-0009",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria"
+          }
+        ]
+      }
     },
     {
       "_id": "6705340c4b98fee5873b4417",
@@ -102,7 +109,16 @@
         "id": "UBT_TaiSha2021",
         "name": "Taiwo Shango"
       },
-      "dre_id": "aan-99-000a"
+      "dre_id": "aan-99-000a",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Lagos State",
+            "l3": "Lagos"
+          }
+        ]
+      }
     },
     {
       "_id": "6705340c4b98fee5873b444e",
@@ -116,7 +132,16 @@
         "id": "UBT_TaiSha2021",
         "name": "Taiwo Shango"
       },
-      "dre_id": "aan-99-0041"
+      "dre_id": "aan-99-0041",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Lagos State",
+            "l3": "Lagos"
+          }
+        ]
+      }
     }
   ]
 }

@@ -1,0 +1,3253 @@
+{
+  "meta": {
+    "type": "project",
+    "id": "UBT_Covid192021",
+    "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond",
+    "count": 38
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 6
+    },
+    {
+      "year": 2021,
+      "count": 17
+    },
+    {
+      "year": 2022,
+      "count": 14
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 6,
+      "byType": {
+        "Text": 6
+      }
+    },
+    {
+      "year": 2021,
+      "total": 17,
+      "byType": {
+        "Text": 17
+      }
+    },
+    {
+      "year": 2022,
+      "total": 14,
+      "byType": {
+        "Text": 14
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 38
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 37
+    },
+    {
+      "name": "Mongolian",
+      "value": 6
+    },
+    {
+      "name": "Swahili",
+      "value": 4
+    },
+    {
+      "name": "Maasai",
+      "value": 3
+    },
+    {
+      "name": "French",
+      "value": 2
+    },
+    {
+      "name": "Spanish",
+      "value": 1
+    },
+    {
+      "name": "Catalan",
+      "value": 1
+    },
+    {
+      "name": "Samburu",
+      "value": 1
+    },
+    {
+      "name": "Herero",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "heatmap": [
+    {
+      "x": "2020s",
+      "y": "Text",
+      "value": 37
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Arid regions",
+      "value": 25
+    },
+    {
+      "name": "Herders",
+      "value": 19
+    },
+    {
+      "name": "Livestock",
+      "value": 17
+    },
+    {
+      "name": "Vaccination",
+      "value": 14
+    },
+    {
+      "name": "Travel",
+      "value": 12
+    },
+    {
+      "name": "East Africa",
+      "value": 11
+    },
+    {
+      "name": "Maasai (African people)",
+      "value": 10
+    },
+    {
+      "name": "Food security",
+      "value": 9
+    },
+    {
+      "name": "Schools",
+      "value": 9
+    },
+    {
+      "name": "Tourism",
+      "value": 9
+    },
+    {
+      "name": "Education",
+      "value": 7
+    },
+    {
+      "name": "Households",
+      "value": 6
+    },
+    {
+      "name": "Prices",
+      "value": 6
+    },
+    {
+      "name": "Mass media",
+      "value": 4
+    },
+    {
+      "name": "Disasters",
+      "value": 4
+    },
+    {
+      "name": "Weather",
+      "value": 4
+    },
+    {
+      "name": "Local government",
+      "value": 4
+    },
+    {
+      "name": "Diseases",
+      "value": 3
+    },
+    {
+      "name": "Agriculture",
+      "value": 3
+    },
+    {
+      "name": "Elections",
+      "value": 3
+    },
+    {
+      "name": "Religion",
+      "value": 3
+    },
+    {
+      "name": "Hygiene",
+      "value": 3
+    },
+    {
+      "name": "Social distancing (Public health)",
+      "value": 3
+    },
+    {
+      "name": "Samburu (African people)",
+      "value": 2
+    },
+    {
+      "name": "Sustainable tourism",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 38
+    },
+    {
+      "name": "Arid regions",
+      "value": 25
+    },
+    {
+      "name": "Herders",
+      "value": 19
+    },
+    {
+      "name": "Livestock",
+      "value": 17
+    },
+    {
+      "name": "Lockdown",
+      "value": 17
+    },
+    {
+      "name": "Pastoralist",
+      "value": 16
+    },
+    {
+      "name": "Mongolia",
+      "value": 15
+    },
+    {
+      "name": "Vaccination",
+      "value": 14
+    },
+    {
+      "name": "Mobility",
+      "value": 13
+    },
+    {
+      "name": "Travel",
+      "value": 12
+    },
+    {
+      "name": "East Africa",
+      "value": 11
+    },
+    {
+      "name": "Maasai (African people)",
+      "value": 10
+    },
+    {
+      "name": "Food security",
+      "value": 9
+    },
+    {
+      "name": "Schools",
+      "value": 9
+    },
+    {
+      "name": "Sociality",
+      "value": 9
+    },
+    {
+      "name": "Tourism",
+      "value": 9
+    },
+    {
+      "name": "Kenya",
+      "value": 8
+    },
+    {
+      "name": "Conservancy",
+      "value": 8
+    },
+    {
+      "name": "Education",
+      "value": 7
+    },
+    {
+      "name": "Household Income",
+      "value": 6
+    },
+    {
+      "name": "Households",
+      "value": 6
+    },
+    {
+      "name": "Prices",
+      "value": 6
+    },
+    {
+      "name": "Tanzania",
+      "value": 5
+    },
+    {
+      "name": "Mass media",
+      "value": 4
+    },
+    {
+      "name": "Ghana",
+      "value": 4
+    },
+    {
+      "name": "Disasters",
+      "value": 4
+    },
+    {
+      "name": "Weather",
+      "value": 4
+    },
+    {
+      "name": "Local government",
+      "value": 4
+    },
+    {
+      "name": "Diseases",
+      "value": 3
+    },
+    {
+      "name": "Border",
+      "value": 3
+    },
+    {
+      "name": "Agriculture",
+      "value": 3
+    },
+    {
+      "name": "Elections",
+      "value": 3
+    },
+    {
+      "name": "Dzud (Mongolia)",
+      "value": 3
+    },
+    {
+      "name": "Religion",
+      "value": 3
+    },
+    {
+      "name": "Hygiene",
+      "value": 3
+    },
+    {
+      "name": "Trade Practices",
+      "value": 3
+    },
+    {
+      "name": "Trade Regulations",
+      "value": 3
+    },
+    {
+      "name": "Senegal",
+      "value": 3
+    },
+    {
+      "name": "Social distancing (Public health)",
+      "value": 3
+    },
+    {
+      "name": "Samburu (African people)",
+      "value": 2
+    },
+    {
+      "name": "COVID-19",
+      "value": 2
+    },
+    {
+      "name": "Sustainable tourism",
+      "value": 2
+    },
+    {
+      "name": "Livelihood",
+      "value": 2
+    },
+    {
+      "name": "Namibia",
+      "value": 2
+    },
+    {
+      "name": "Festivals",
+      "value": 2
+    },
+    {
+      "name": "Tsagaan Sar",
+      "value": 2
+    },
+    {
+      "name": "Subsidies",
+      "value": 2
+    },
+    {
+      "name": "Youth",
+      "value": 2
+    },
+    {
+      "name": "Funeral Custom",
+      "value": 2
+    },
+    {
+      "name": "Funeral Rite",
+      "value": 2
+    },
+    {
+      "name": "Grazing",
+      "value": 2
+    },
+    {
+      "name": "Medical care",
+      "value": 2
+    },
+    {
+      "name": "Water Rights",
+      "value": 2
+    },
+    {
+      "name": "Access to Water",
+      "value": 2
+    },
+    {
+      "name": "Corruption",
+      "value": 1
+    },
+    {
+      "name": "Political corruption",
+      "value": 1
+    },
+    {
+      "name": "Conflict",
+      "value": 1
+    },
+    {
+      "name": "Religious leaders",
+      "value": 1
+    },
+    {
+      "name": "Community-based conservation",
+      "value": 1
+    },
+    {
+      "name": "Drylands",
+      "value": 1
+    },
+    {
+      "name": "Police",
+      "value": 1
+    },
+    {
+      "name": "Government",
+      "value": 1
+    },
+    {
+      "name": "Bible",
+      "value": 1
+    },
+    {
+      "name": "Farm corporations",
+      "value": 1
+    },
+    {
+      "name": "China",
+      "value": 1
+    },
+    {
+      "name": "Economy",
+      "value": 1
+    },
+    {
+      "name": "Democracy",
+      "value": 1
+    },
+    {
+      "name": "Naadam",
+      "value": 1
+    },
+    {
+      "name": "Gabbra (African people)",
+      "value": 1
+    },
+    {
+      "name": "Oromo (African people)",
+      "value": 1
+    },
+    {
+      "name": "Gender",
+      "value": 1
+    },
+    {
+      "name": "Sexuality",
+      "value": 1
+    },
+    {
+      "name": "Chalbi Desert",
+      "value": 1
+    },
+    {
+      "name": "Burkina Faso",
+      "value": 1
+    },
+    {
+      "name": "Naturopathy",
+      "value": 1
+    },
+    {
+      "name": "Endundulu",
+      "value": 1
+    },
+    {
+      "name": "Internal migration",
+      "value": 1
+    },
+    {
+      "name": "Otor (Mongolia)",
+      "value": 1
+    },
+    {
+      "name": "Labor",
+      "value": 1
+    },
+    {
+      "name": "International Trade",
+      "value": 1
+    },
+    {
+      "name": "Communication",
+      "value": 1
+    },
+    {
+      "name": "Higher education",
+      "value": 1
+    },
+    {
+      "name": "Energy Shortages",
+      "value": 1
+    },
+    {
+      "name": "Animal Disease",
+      "value": 1
+    },
+    {
+      "name": "Elderly People",
+      "value": 1
+    },
+    {
+      "name": "Sudanese Resistance Committees",
+      "value": 1
+    },
+    {
+      "name": "Protest",
+      "value": 1
+    },
+    {
+      "name": "Sudan",
+      "value": 1
+    },
+    {
+      "name": "Politics",
+      "value": 1
+    },
+    {
+      "name": "Water",
+      "value": 1
+    },
+    {
+      "name": "Ecology",
+      "value": 1
+    },
+    {
+      "name": "Local Understanding",
+      "value": 1
+    },
+    {
+      "name": "Environment",
+      "value": 1
+    },
+    {
+      "name": "Cash",
+      "value": 1
+    },
+    {
+      "name": "Conservation",
+      "value": 1
+    },
+    {
+      "name": "Maputo National Park",
+      "value": 1
+    },
+    {
+      "name": "Management Impact",
+      "value": 1
+    },
+    {
+      "name": "Mozambique",
+      "value": 1
+    }
+  ],
+  "sunburst": [
+    {
+      "name": "Text",
+      "children": [
+        {
+          "name": "English",
+          "children": [
+            {
+              "name": "Arid regions",
+              "value": 25,
+              "children": []
+            },
+            {
+              "name": "Herders",
+              "value": 19,
+              "children": []
+            },
+            {
+              "name": "Livestock",
+              "value": 16,
+              "children": []
+            },
+            {
+              "name": "Vaccination",
+              "value": 14,
+              "children": []
+            },
+            {
+              "name": "East Africa",
+              "value": 11,
+              "children": []
+            },
+            {
+              "name": "Travel",
+              "value": 11,
+              "children": []
+            },
+            {
+              "name": "Maasai (African people)",
+              "value": 10,
+              "children": []
+            },
+            {
+              "name": "Food security",
+              "value": 9,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Swahili",
+          "children": [
+            {
+              "name": "Arid regions",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "Maasai (African people)",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "Food security",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "East Africa",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "Livestock",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Sustainable tourism",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Travel",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Herders",
+              "value": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Spanish",
+          "children": [
+            {
+              "name": "Arid regions",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Maasai (African people)",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Food security",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Livestock",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "East Africa",
+              "value": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Catalan",
+          "children": [
+            {
+              "name": "Arid regions",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Maasai (African people)",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Food security",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Livestock",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "East Africa",
+              "value": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Samburu",
+          "children": [
+            {
+              "name": "Diseases",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Samburu (African people)",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Vaccination",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Schools",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Herders",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Livestock",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Food security",
+              "value": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Mongolian",
+          "children": [
+            {
+              "name": "Herders",
+              "value": 5,
+              "children": []
+            },
+            {
+              "name": "Livestock",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "Schools",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "Travel",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "Arid regions",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "Disasters",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "Vaccination",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Food security",
+              "value": 2,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Maasai",
+          "children": [
+            {
+              "name": "Arid regions",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "Maasai (African people)",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "East Africa",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "Vaccination",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Sustainable tourism",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Livestock",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Corruption",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Political corruption",
+              "value": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Herero",
+          "children": [
+            {
+              "name": "Arid regions",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Tourism",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Vaccination",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Religious leaders",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Mass media",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Households",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Community-based conservation",
+              "value": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "French",
+          "children": [
+            {
+              "name": "Education",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "Mass media",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Travel",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Prices",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Livestock",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Medical care",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Religion",
+              "value": 2,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sankey": {
+    "nodes": [
+      {
+        "name": "Abd ElWahid Abd ElRahim, Ahmed"
+      },
+      {
+        "name": "Agyei-Mensah, Juliana"
+      },
+      {
+        "name": "Amarbat, Byambasuren"
+      },
+      {
+        "name": "Baasankhorloo, Ts"
+      },
+      {
+        "name": "Batjav, Batbuyan"
+      },
+      {
+        "name": "Behrends, Andrea"
+      },
+      {
+        "name": "Beye, Amadou Kane"
+      },
+      {
+        "name": "Gargallo, Eduard"
+      },
+      {
+        "name": "Goldman, Mara"
+      },
+      {
+        "name": "Haller, Tobias"
+      },
+      {
+        "name": "Hashimshony Yaffe, Nurit"
+      },
+      {
+        "name": "Heita, Jona"
+      },
+      {
+        "name": "Kronenburg García, Angela"
+      },
+      {
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      {
+        "name": "Neboo, Stanley ole"
+      },
+      {
+        "name": "Nurudong, Primus"
+      },
+      {
+        "name": "Pase, Andrea"
+      },
+      {
+        "name": "Pepa, Mariasole"
+      },
+      {
+        "name": "Roque de Pinho, Joana"
+      },
+      {
+        "name": "Samimi, Cyrus"
+      },
+      {
+        "name": "Schrijver, Annemiek Pas"
+      },
+      {
+        "name": "Seenoi, Debra"
+      },
+      {
+        "name": "Sternberg, Troy"
+      },
+      {
+        "name": "Tas Kronenburg, Zaira"
+      },
+      {
+        "name": "Text"
+      },
+      {
+        "name": "Toima, Mamus Litan"
+      },
+      {
+        "name": "Yasin, Apin"
+      },
+      {
+        "name": "ole Mowuo, Lenaai"
+      },
+      {
+        "name": "ole Mowuo, Matinkoi"
+      }
+    ],
+    "links": [
+      {
+        "source": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond",
+        "target": "Text",
+        "value": 38
+      },
+      {
+        "source": "Kronenburg García, Angela",
+        "target": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond",
+        "value": 18
+      },
+      {
+        "source": "Batjav, Batbuyan",
+        "target": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond",
+        "value": 14
+      },
+      {
+        "source": "Amarbat, Byambasuren",
+        "target": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond",
+        "value": 9
+      },
+      {
+        "source": "Baasankhorloo, Ts",
+        "target": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond",
+        "value": 8
+      },
+      {
+        "source": "Hashimshony Yaffe, Nurit",
+        "target": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond",
+        "value": 5
+      },
+      {
+        "source": "Roque de Pinho, Joana",
+        "target": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond",
+        "value": 4
+      },
+      {
+        "source": "Seenoi, Debra",
+        "target": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond",
+        "value": 3
+      },
+      {
+        "source": "Goldman, Mara",
+        "target": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond",
+        "value": 3
+      },
+      {
+        "source": "Pase, Andrea",
+        "target": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond",
+        "value": 3
+      },
+      {
+        "source": "ole Mowuo, Lenaai",
+        "target": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond",
+        "value": 2
+      },
+      {
+        "source": "Agyei-Mensah, Juliana",
+        "target": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond",
+        "value": 2
+      },
+      {
+        "source": "Samimi, Cyrus",
+        "target": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond",
+        "value": 2
+      },
+      {
+        "source": "Gargallo, Eduard",
+        "target": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond",
+        "value": 2
+      },
+      {
+        "source": "Heita, Jona",
+        "target": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond",
+        "value": 2
+      },
+      {
+        "source": "Nurudong, Primus",
+        "target": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond",
+        "value": 2
+      },
+      {
+        "source": "Neboo, Stanley ole",
+        "target": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond",
+        "value": 2
+      },
+      {
+        "source": "Beye, Amadou Kane",
+        "target": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond",
+        "value": 2
+      },
+      {
+        "source": "ole Mowuo, Matinkoi",
+        "target": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond",
+        "value": 1
+      },
+      {
+        "source": "Yasin, Apin",
+        "target": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond",
+        "value": 1
+      },
+      {
+        "source": "Schrijver, Annemiek Pas",
+        "target": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond",
+        "value": 1
+      },
+      {
+        "source": "Behrends, Andrea",
+        "target": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond",
+        "value": 1
+      },
+      {
+        "source": "Pepa, Mariasole",
+        "target": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond",
+        "value": 1
+      },
+      {
+        "source": "Toima, Mamus Litan",
+        "target": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond",
+        "value": 1
+      },
+      {
+        "source": "Abd ElWahid Abd ElRahim, Ahmed",
+        "target": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond",
+        "value": 1
+      },
+      {
+        "source": "Sternberg, Troy",
+        "target": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond",
+        "value": 1
+      },
+      {
+        "source": "Haller, Tobias",
+        "target": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond",
+        "value": 1
+      },
+      {
+        "source": "Tas Kronenburg, Zaira",
+        "target": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond",
+        "value": 1
+      }
+    ]
+  },
+  "chord": {
+    "names": [
+      "Arid regions",
+      "Herders",
+      "Livestock",
+      "Vaccination",
+      "Travel",
+      "East Africa",
+      "Maasai (African people)",
+      "Food security",
+      "Schools",
+      "Tourism",
+      "Education",
+      "Households",
+      "Prices",
+      "Mass media",
+      "Disasters",
+      "Weather",
+      "Local government",
+      "Diseases",
+      "Agriculture",
+      "Elections",
+      "Religion",
+      "Hygiene",
+      "Social distancing (Public health)"
+    ],
+    "matrix": [
+      [
+        0,
+        13,
+        11,
+        7,
+        6,
+        11,
+        10,
+        5,
+        5,
+        8,
+        2,
+        4,
+        4,
+        1,
+        4,
+        4,
+        4,
+        2,
+        3,
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        13,
+        0,
+        11,
+        8,
+        5,
+        5,
+        4,
+        6,
+        8,
+        4,
+        4,
+        1,
+        1,
+        0,
+        3,
+        3,
+        4,
+        3,
+        2,
+        3,
+        1,
+        1,
+        0
+      ],
+      [
+        11,
+        11,
+        0,
+        8,
+        7,
+        5,
+        6,
+        5,
+        4,
+        4,
+        6,
+        0,
+        4,
+        2,
+        3,
+        2,
+        2,
+        3,
+        1,
+        2,
+        3,
+        1,
+        0
+      ],
+      [
+        7,
+        8,
+        8,
+        0,
+        4,
+        3,
+        4,
+        3,
+        5,
+        4,
+        3,
+        3,
+        1,
+        1,
+        1,
+        0,
+        0,
+        2,
+        0,
+        3,
+        1,
+        1,
+        0
+      ],
+      [
+        6,
+        5,
+        7,
+        4,
+        0,
+        1,
+        2,
+        3,
+        1,
+        2,
+        4,
+        3,
+        4,
+        2,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0
+      ],
+      [
+        11,
+        5,
+        5,
+        3,
+        1,
+        0,
+        9,
+        2,
+        0,
+        4,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        10,
+        4,
+        6,
+        4,
+        2,
+        9,
+        0,
+        2,
+        0,
+        5,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        5,
+        6,
+        5,
+        3,
+        3,
+        2,
+        2,
+        0,
+        5,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        2,
+        3,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        5,
+        8,
+        4,
+        5,
+        1,
+        0,
+        0,
+        5,
+        0,
+        0,
+        3,
+        0,
+        1,
+        0,
+        1,
+        3,
+        3,
+        1,
+        2,
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        8,
+        4,
+        4,
+        4,
+        2,
+        4,
+        5,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        2,
+        4,
+        6,
+        3,
+        4,
+        0,
+        0,
+        0,
+        3,
+        0,
+        2,
+        0,
+        3,
+        3,
+        1,
+        1,
+        1,
+        0,
+        1,
+        2,
+        4,
+        1,
+        0
+      ],
+      [
+        4,
+        1,
+        0,
+        3,
+        3,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        1,
+        4,
+        1,
+        4,
+        0,
+        1,
+        1,
+        1,
+        1,
+        3,
+        1,
+        0,
+        2,
+        0,
+        2,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        1,
+        3,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        1
+      ],
+      [
+        4,
+        3,
+        3,
+        1,
+        2,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        2,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        3,
+        2,
+        0,
+        0,
+        0,
+        0,
+        2,
+        3,
+        0,
+        1,
+        0,
+        2,
+        0,
+        1,
+        0,
+        3,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        4,
+        2,
+        0,
+        1,
+        0,
+        0,
+        3,
+        3,
+        0,
+        1,
+        0,
+        1,
+        0,
+        2,
+        3,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        3,
+        3,
+        2,
+        0,
+        1,
+        1,
+        1,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        2,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        3,
+        2,
+        3,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        3,
+        1,
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        4,
+        0,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    ]
+  },
+  "contributors": [
+    {
+      "name": "Kronenburg García, Angela",
+      "value": 18
+    },
+    {
+      "name": "Roque de Pinho, Joana",
+      "value": 15
+    },
+    {
+      "name": "Batjav, Batbuyan",
+      "value": 14
+    },
+    {
+      "name": "Hashimshony Yaffe, Nurit",
+      "value": 12
+    },
+    {
+      "name": "Gargallo, Eduard",
+      "value": 10
+    },
+    {
+      "name": "Amarbat, Byambasuren",
+      "value": 9
+    },
+    {
+      "name": "Pase, Andrea",
+      "value": 9
+    },
+    {
+      "name": "Baasankhorloo, Ts",
+      "value": 8
+    },
+    {
+      "name": "Goldman, Mara",
+      "value": 8
+    },
+    {
+      "name": "Heita, Jona",
+      "value": 7
+    },
+    {
+      "name": "Behrends, Andrea",
+      "value": 6
+    },
+    {
+      "name": "Schrijver, Annemiek Pas",
+      "value": 5
+    },
+    {
+      "name": "Gambiza, James",
+      "value": 5
+    },
+    {
+      "name": "Samimi, Cyrus",
+      "value": 5
+    },
+    {
+      "name": "Nurudong, Primus",
+      "value": 5
+    },
+    {
+      "name": "Sternberg, Troy",
+      "value": 4
+    },
+    {
+      "name": "Tallio, Virginie",
+      "value": 3
+    },
+    {
+      "name": "Pepa, Mariasole",
+      "value": 3
+    },
+    {
+      "name": "Agyei-Mensah, Juliana",
+      "value": 3
+    },
+    {
+      "name": "Seenoi, Debra",
+      "value": 3
+    }
+  ],
+  "locations": [
+    {
+      "country": "Kenya",
+      "region": "Narok",
+      "city": "Mpuaai",
+      "count": 5
+    },
+    {
+      "country": "Mongolia",
+      "region": "Bayankhongor Province",
+      "city": "",
+      "count": 5
+    },
+    {
+      "country": "Mongolia",
+      "region": "Bulgan Province",
+      "city": "",
+      "count": 3
+    },
+    {
+      "country": "Kenya",
+      "region": "Narok",
+      "city": "Maasai Mara National Reserve",
+      "count": 2
+    },
+    {
+      "country": "Mongolia",
+      "region": "Khentii Province",
+      "city": "Delgerhan Soum",
+      "count": 2
+    },
+    {
+      "country": "Ghana",
+      "region": "Upper West Region",
+      "city": "Nandom",
+      "count": 2
+    },
+    {
+      "country": "Mongolia",
+      "region": "Övörkhangai Province",
+      "city": "Ulziit Soum",
+      "count": 2
+    },
+    {
+      "country": "Kenya",
+      "region": "Samburu",
+      "city": "Archers Post",
+      "count": 1
+    },
+    {
+      "country": "Mongolia",
+      "region": "Bayankhongor Province",
+      "city": "Tsagaan-Üür",
+      "count": 1
+    },
+    {
+      "country": "Namibia",
+      "region": "Kunene Region",
+      "city": "Anabeb Conservancy",
+      "count": 1
+    },
+    {
+      "country": "Namibia",
+      "region": "Erongo Region",
+      "city": "Walvis Bay",
+      "count": 1
+    },
+    {
+      "country": "Ghana",
+      "region": "",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "Kenya",
+      "region": "Narok",
+      "city": "Loita Hills",
+      "count": 1
+    },
+    {
+      "country": "Kenya",
+      "region": "",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "Kenya",
+      "region": "Marsabit",
+      "city": "Kalacha",
+      "count": 1
+    },
+    {
+      "country": "Tanzania",
+      "region": "",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "Mongolia",
+      "region": "Arkhangai Province",
+      "city": "Battsengel Soum",
+      "count": 1
+    },
+    {
+      "country": "Kenya",
+      "region": "Kajiado",
+      "city": "Olepolos",
+      "count": 1
+    },
+    {
+      "country": "Sudan",
+      "region": "",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "Mongolia",
+      "region": "",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "Senegal",
+      "region": "Thiès Region",
+      "city": "Ndengler (Dingler)",
+      "count": 1
+    },
+    {
+      "country": "Tanzania",
+      "region": "Iringa",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "Mozambique",
+      "region": "Maputo Province",
+      "city": "Maputo National Park",
+      "count": 1
+    },
+    {
+      "country": "Senegal",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "66cefaf495a000d4c7bf3705",
+      "titleInfo": [
+        {
+          "title": "Angela Kronenburg Garcia's Zoom meeting transcript and report on Kenya, September 15, 2020"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0000",
+      "location": {
+        "origin": [
+          {
+            "l1": "Kenya",
+            "l2": "Narok",
+            "l3": "Maasai Mara National Reserve"
+          },
+          {
+            "l1": "Kenya",
+            "l2": "Narok",
+            "l3": "Loita Hills"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3706",
+      "titleInfo": [
+        {
+          "title": "Annemiek Pas' Zoom transcript, Kenya (Archer’s Post), February 21, 2022"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0001",
+      "location": {
+        "origin": [
+          {
+            "l1": "Kenya",
+            "l2": "Samburu",
+            "l3": "Archers Post"
+          },
+          {
+            "l1": "Kenya",
+            "l2": "Isiolo",
+            "l3": "Isiolo"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3707",
+      "titleInfo": [
+        {
+          "title": "Batbuyan Batjav's report, Mongolia, September 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0002",
+      "location": {
+        "origin": [
+          {
+            "l1": "Mongolia",
+            "l2": "Khentii Province",
+            "l3": "Delgerhan Soum"
+          },
+          {
+            "l1": "Mongolia",
+            "l2": "Ulaanbaatar",
+            "l3": "Ulaanbaatar"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3708",
+      "titleInfo": [
+        {
+          "title": "Batbuyan Batjav's report, Mongolia, October 15, 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0003",
+      "location": {
+        "origin": [
+          {
+            "l1": "Mongolia",
+            "l2": "Bayankhongor Province",
+            "l3": "Tsagaan-Üür"
+          },
+          {
+            "l1": "Mongolia",
+            "l2": "Bulgan Province"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3709",
+      "titleInfo": [
+        {
+          "title": "Debra Seenoi's Zoom transcript, Kenya, January 26, 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0004",
+      "location": {
+        "origin": [
+          {
+            "l1": "Kenya",
+            "l2": "Narok",
+            "l3": "Mpuaai"
+          },
+          {
+            "l1": "Kenya",
+            "l2": "Narok",
+            "l3": "Talek"
+          },
+          {
+            "l1": "Kenya",
+            "l2": "Narok",
+            "l3": "Maasai Mara National Reserve"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf370a",
+      "titleInfo": [
+        {
+          "title": "Debra Seenoi's Zoom transcript, Kenya, September 29, 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0005",
+      "location": {
+        "origin": [
+          {
+            "l1": "Kenya",
+            "l2": "Narok",
+            "l3": "Mpuaai"
+          },
+          {
+            "l1": "Kenya",
+            "l2": "Narok",
+            "l3": "Talek"
+          },
+          {
+            "l1": "Kenya",
+            "l2": "Narok",
+            "l3": "Maasai Mara National Reserve"
+          },
+          {
+            "l1": "Tanzania",
+            "l2": "Arusha"
+          },
+          {
+            "l1": "Uganda"
+          },
+          {
+            "l1": "South Africa"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf370b",
+      "titleInfo": [
+        {
+          "title": "Debra Seenoi's transcript, Kenya, June 13, 2022"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0006",
+      "location": {
+        "origin": [
+          {
+            "l1": "Kenya",
+            "l2": "Narok",
+            "l3": "Mpuaai"
+          },
+          {
+            "l1": "Kenya",
+            "l2": "Narok",
+            "l3": "Talek"
+          },
+          {
+            "l1": "Kenya",
+            "l2": "Narok",
+            "l3": "Maasai Mara National Reserve"
+          },
+          {
+            "l1": "Tanzania",
+            "l2": "Arusha",
+            "l3": "Loliondo"
+          },
+          {
+            "l1": "Tanzania",
+            "l2": "Arusha",
+            "l3": "Ngorongoro"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf370c",
+      "titleInfo": [
+        {
+          "title": "Eduard Gargallo and Jona Heita's transcript, Namibia, May 02, 2022"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0007",
+      "location": {
+        "origin": [
+          {
+            "l1": "Namibia",
+            "l2": "Kunene Region",
+            "l3": "Anabeb Conservancy"
+          },
+          {
+            "l1": "Namibia",
+            "l2": "Kunene Region",
+            "l3": "Sesfontein Conservancy"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf370d",
+      "titleInfo": [
+        {
+          "title": "Joana Roque de Pinho Zoom's transcript, Kenya, October 10, 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0008",
+      "location": {
+        "origin": [
+          {
+            "l1": "Kenya",
+            "l2": "Narok",
+            "l3": "Mpuaai"
+          },
+          {
+            "l1": "Kenya",
+            "l2": "Narok",
+            "l3": "Talek"
+          },
+          {
+            "l1": "Kenya",
+            "l2": "Narok",
+            "l3": "Maasai Mara National Reserve"
+          },
+          {
+            "l1": "Israel"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf370e",
+      "titleInfo": [
+        {
+          "title": "Jona Heita's transcript, Namibia, July 20"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0009",
+      "location": {
+        "origin": [
+          {
+            "l1": "Namibia",
+            "l2": "Erongo Region",
+            "l3": "Walvis Bay"
+          },
+          {
+            "l1": "Gabon",
+            "l2": "Ogooué-Ivindo Province",
+            "l3": "Ivindu"
+          },
+          {
+            "l1": "Namibia",
+            "l2": "Khomas Region",
+            "l3": "Windhoek"
+          },
+          {
+            "l1": "South Africa"
+          },
+          {
+            "l1": "Mozambique"
+          },
+          {
+            "l1": "Zambia"
+          },
+          {
+            "l1": "Zimbabwe"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf370f",
+      "titleInfo": [
+        {
+          "title": "Juliana Agyei-Mensah's transcript, Ghana, February 22, 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-000a",
+      "location": {
+        "origin": [
+          {
+            "l1": "Ghana"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3710",
+      "titleInfo": [
+        {
+          "title": "Lenaai ole Mowuo's Zoom transcript, Kenya, June 27, 2022"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-000b",
+      "location": {
+        "origin": [
+          {
+            "l1": "Kenya",
+            "l2": "Narok",
+            "l3": "Loita Hills"
+          },
+          {
+            "l1": "Kenya",
+            "l2": "Narok",
+            "l3": "Loita Naimina Enkiyio Forest"
+          },
+          {
+            "l1": "Kenya",
+            "l2": "Narok",
+            "l3": "Entasekera"
+          },
+          {
+            "l1": "Tanzania"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3711",
+      "titleInfo": [
+        {
+          "title": "Mariasole Pepa's transcript, Tanzania, March 14, 2022"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-000c",
+      "location": {
+        "origin": [
+          {
+            "l1": "Kenya"
+          },
+          {
+            "l1": "Tanzania",
+            "l2": "Morogoro",
+            "l3": "Dakawa"
+          },
+          {
+            "l1": "Tanzania",
+            "l2": "Morogoro",
+            "l3": "Morogoro City"
+          },
+          {
+            "l1": "China"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3712",
+      "titleInfo": [
+        {
+          "title": "Interview of co-researcher from Bayankhongor aimag, February 1, 2022"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-000d",
+      "location": {
+        "origin": [
+          {
+            "l1": "Mongolia",
+            "l2": "Bayankhongor Province"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3713",
+      "titleInfo": [
+        {
+          "title": "Interview of co-researcher from Bulgan aimag, January 5 and 11, 2022"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-000e",
+      "location": {
+        "origin": [
+          {
+            "l1": "Mongolia",
+            "l2": "Bulgan Province"
+          },
+          {
+            "l1": "Mongolia",
+            "l2": "Bayankhongor Province"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3714",
+      "titleInfo": [
+        {
+          "title": "Nurit Hashimshony Yaffe's Zoom transcript, November 15, 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-000f",
+      "location": {
+        "origin": [
+          {
+            "l1": "Kenya",
+            "l2": "Marsabit",
+            "l3": "Kalacha"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3715",
+      "titleInfo": [
+        {
+          "title": "Primus Nurudong's Ghana Zoom transcript, September 13, 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0010",
+      "location": {
+        "origin": [
+          {
+            "l1": "Ghana",
+            "l2": "Upper West Region",
+            "l3": "Nandom"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3716",
+      "titleInfo": [
+        {
+          "title": "Mamus Litan Toima's report on Tanzania, November 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0011",
+      "location": {
+        "origin": [
+          {
+            "l1": "Tanzania"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3717",
+      "titleInfo": [
+        {
+          "title": "Covid-19 resilience in Mongolian pastoralist communities. Preliminary Narrative Report on Fieldwork in\n Mongolia, April 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0012",
+      "location": {
+        "origin": [
+          {
+            "l1": "Mongolia",
+            "l2": "Bulgan Province"
+          },
+          {
+            "l1": "Mongolia",
+            "l2": "Zavkhan Province"
+          },
+          {
+            "l1": "Mongolia",
+            "l2": "Khentii Province"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3718",
+      "titleInfo": [
+        {
+          "title": "Photo report of Mongolian pastoralists in the time of the Covid-19, February 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0013",
+      "location": {
+        "origin": [
+          {
+            "l1": "Mongolia",
+            "l2": "Arkhangai Province",
+            "l3": "Battsengel Soum"
+          },
+          {
+            "l1": "Mongolia",
+            "l2": "Dornod Province",
+            "l3": "Tsagaan-Ovoo Soum"
+          },
+          {
+            "l1": "Mongolia",
+            "l2": "Sükhbaatar Province"
+          },
+          {
+            "l1": "Mongolia",
+            "l2": "Govi-Altai Province"
+          },
+          {
+            "l1": "China"
+          },
+          {
+            "l1": "Russia"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3719",
+      "titleInfo": [
+        {
+          "title": "Research notes from interview in Bayankhongor aimag, March 13, 2022"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0014",
+      "location": {
+        "origin": [
+          {
+            "l1": "Mongolia",
+            "l2": "Bayankhongor Province"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf371a",
+      "titleInfo": [
+        {
+          "title": "Research report of Mongolia, April-May, 2022"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0015",
+      "location": {
+        "origin": [
+          {
+            "l1": "Mongolia",
+            "l2": "Bulgan Province"
+          },
+          {
+            "l1": "Mongolia",
+            "l2": "Bayankhongor Province"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf371b",
+      "titleInfo": [
+        {
+          "title": "Batbuyan Batjav's research comments on Mongolia, November 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0016",
+      "location": {
+        "origin": [
+          {
+            "l1": "Mongolia",
+            "l2": "Övörkhangai Province",
+            "l3": "Ulziit Soum"
+          },
+          {
+            "l1": "Mongolia",
+            "l2": "Khentii Province",
+            "l3": "Delgerkhaan Soum"
+          },
+          {
+            "l1": "Mongolia",
+            "l2": "Bulgan Province",
+            "l3": "Khishig-Öndör Soum"
+          },
+          {
+            "l1": "Mongolia",
+            "l2": "Bayankhongor Province"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf371c",
+      "titleInfo": [
+        {
+          "title": "Batbuyan Batjav's research comments on Mongolia, November 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0017",
+      "location": {
+        "origin": [
+          {
+            "l1": "Mongolia",
+            "l2": "Övörkhangai Province",
+            "l3": "Ulziit Soum"
+          },
+          {
+            "l1": "Mongolia",
+            "l2": "Khentii Province",
+            "l3": "Delgerkhaan Soum"
+          },
+          {
+            "l1": "Mongolia",
+            "l2": "Bulgan Province",
+            "l3": "Khishig-Öndör Soum"
+          },
+          {
+            "l1": "Mongolia",
+            "l2": "Bayankhongor Province"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf371d",
+      "titleInfo": [
+        {
+          "title": "Batbuyan Batjav's research comments on Mongolia, October 15, 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0018",
+      "location": {
+        "origin": [
+          {
+            "l1": "Mongolia",
+            "l2": "Bayankhongor Province"
+          },
+          {
+            "l1": "Mongolia",
+            "l2": "Bulga Province"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf371e",
+      "titleInfo": [
+        {
+          "title": "Batbuyan Batjav's research comments on Mongolia, September 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0019",
+      "location": {
+        "origin": [
+          {
+            "l1": "Mongolia",
+            "l2": "Khentii Province",
+            "l3": "Delgerhan Soum"
+          },
+          {
+            "l1": "Mongolia",
+            "l2": "Bayan-Ölgii Province"
+          },
+          {
+            "l1": "Mongolia",
+            "l2": "Ulaanbaatar",
+            "l3": "Ulaanbaatar"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf371f",
+      "titleInfo": [
+        {
+          "title": "Mongolia's report, December 12, 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-001a",
+      "location": {
+        "origin": [
+          {
+            "l1": "Mongolia",
+            "l2": "Bayankhongor Province"
+          },
+          {
+            "l1": "Mongolia",
+            "l2": "Bulgan Province"
+          },
+          {
+            "l1": "Mongolia",
+            "l2": "Ulaanbaatar",
+            "l3": "Ulaanbaatar"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3720",
+      "titleInfo": [
+        {
+          "title": "Mongolia's Covid-19 Questionary, March 2022"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-001b",
+      "location": {
+        "origin": [
+          {
+            "l1": "Mongolia",
+            "l2": "Bayankhongor Province"
+          },
+          {
+            "l1": "Mongolia",
+            "l2": "Bulgan Province"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3721",
+      "titleInfo": [
+        {
+          "title": "Stanley ole Neboo's Zoom meeting transcript on Kenya, October 26, 2020"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-001c",
+      "location": {
+        "origin": [
+          {
+            "l1": "Kenya",
+            "l2": "Kajiado",
+            "l3": "Olepolos"
+          },
+          {
+            "l1": "Kenya",
+            "l2": "Narok",
+            "l3": "Maasai Mara National Reserve"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3722",
+      "titleInfo": [
+        {
+          "title": "Stanley ole Neboo's Zoom meeting transcript on Kenya, January 31, 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-001d",
+      "location": {
+        "origin": [
+          {
+            "l1": "Kenya",
+            "l2": "Narok",
+            "l3": "Maasai Mara National Reserve"
+          },
+          {
+            "l1": "Tanzania"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3723",
+      "titleInfo": [
+        {
+          "title": "Ahmed Abd ElWahid Abd ElRahim's transcript (report) on Sudan, March 22, 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-001e",
+      "location": {
+        "origin": [
+          {
+            "l1": "Sudan"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3724",
+      "titleInfo": [
+        {
+          "title": "Troy Sternberg's Zoom meeting transcript on Mongolia, November 30, 2020"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-001f",
+      "location": {
+        "origin": [
+          {
+            "l1": "Mongolia"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3725",
+      "titleInfo": [
+        {
+          "title": "Réponses aux questions de recherche pour les chercheurs collaboratifs au Senegal"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0020",
+      "location": {
+        "origin": [
+          {
+            "l1": "Senegal",
+            "l2": "Thiès Region",
+            "l3": "Ndengler (Dingler)"
+          },
+          {
+            "l1": "Senegal",
+            "l2": "Ziguinchor"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3726",
+      "titleInfo": [
+        {
+          "title": "Anonymus questionary of Tanzania's Covid-19 situation, September 2020"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0021",
+      "location": {
+        "origin": [
+          {
+            "l1": "Tanzania",
+            "l2": "Iringa"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3727",
+      "titleInfo": [
+        {
+          "title": "Primus Nurudong's report on Ghana"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0022",
+      "location": {
+        "origin": [
+          {
+            "l1": "Ghana",
+            "l2": "Upper West Region",
+            "l3": "Nandom"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3728",
+      "titleInfo": [
+        {
+          "title": "Zaira Tas Kronenburg's Zoom meeting on Mozambique, July 18, 2022"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0023",
+      "location": {
+        "origin": [
+          {
+            "l1": "Mozambique",
+            "l2": "Maputo Province",
+            "l3": "Maputo National Park"
+          },
+          {
+            "l1": "Eswatini",
+            "l2": "Lubombo Region",
+            "l3": "Lubombo Transfrontier Conservation and Resource Area"
+          },
+          {
+            "l1": "Mozambique",
+            "l2": "Maputo Province",
+            "l3": "Ponta do Ouro"
+          },
+          {
+            "l1": "South Africa"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3729",
+      "titleInfo": [
+        {
+          "title": "Réponses aux questions de recherche pour les chercheurs collaboratifs\nPartie II : Mesure de confinement"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0024",
+      "location": {
+        "origin": [
+          {
+            "l1": "Senegal"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "67ab2add0bfd6faab62399d8",
+      "titleInfo": [
+        {
+          "title": "Joana Roque de Pinho's Zoom transcript, Kenya, July 26, 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0025",
+      "location": {
+        "origin": [
+          {
+            "l1": "Kenya",
+            "l2": "Narok",
+            "l3": "Mpuaai"
+          },
+          {
+            "l1": "Kenya",
+            "l2": "Narok",
+            "l3": "Talek"
+          },
+          {
+            "l1": "Kenya",
+            "l2": "Narok",
+            "l3": "Maasai Mara National Reserve"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    }
+  ]
+}

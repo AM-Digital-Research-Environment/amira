@@ -1,0 +1,1535 @@
+{
+  "meta": {
+    "type": "project",
+    "id": "UBT_LearnClass2019",
+    "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia",
+    "count": 52
+  },
+  "timeline": [
+    {
+      "year": 2022,
+      "count": 25
+    },
+    {
+      "year": 2023,
+      "count": 27
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2022,
+      "total": 25,
+      "byType": {
+        "Text": 25
+      }
+    },
+    {
+      "year": 2023,
+      "total": 27,
+      "byType": {
+        "Text": 26,
+        "Dataset": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 51
+    },
+    {
+      "name": "Dataset",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "value": 29
+    },
+    {
+      "name": "French",
+      "value": 23
+    },
+    {
+      "name": "Spanish",
+      "value": 5
+    },
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "heatmap": [
+    {
+      "x": "2020s",
+      "y": "Dataset",
+      "value": 1
+    },
+    {
+      "x": "2020s",
+      "y": "Text",
+      "value": 51
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Literacy",
+      "value": 52
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Literacy",
+      "value": 52
+    },
+    {
+      "name": "Interaction",
+      "value": 52
+    },
+    {
+      "name": "Illiteracy",
+      "value": 52
+    }
+  ],
+  "sunburst": [
+    {
+      "name": "Text",
+      "children": [
+        {
+          "name": "French",
+          "children": [
+            {
+              "name": "Literacy",
+              "value": 22,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "German",
+          "children": [
+            {
+              "name": "Literacy",
+              "value": 29,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "English",
+          "children": [
+            {
+              "name": "Literacy",
+              "value": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Spanish",
+          "children": [
+            {
+              "name": "Literacy",
+              "value": 5,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dataset",
+      "children": [
+        {
+          "name": "French",
+          "children": [
+            {
+              "name": "Literacy",
+              "value": 1,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sankey": {
+    "nodes": [
+      {
+        "name": "Abou Moumouni, Issifou"
+      },
+      {
+        "name": "Dataset"
+      },
+      {
+        "name": "Krauß, Rebekka"
+      },
+      {
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      {
+        "name": "Text"
+      }
+    ],
+    "links": [
+      {
+        "source": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia",
+        "target": "Text",
+        "value": 51
+      },
+      {
+        "source": "Krauß, Rebekka",
+        "target": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia",
+        "value": 30
+      },
+      {
+        "source": "Abou Moumouni, Issifou",
+        "target": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia",
+        "value": 22
+      },
+      {
+        "source": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia",
+        "target": "Dataset",
+        "value": 1
+      }
+    ]
+  },
+  "chord": {
+    "names": [
+      "Literacy"
+    ],
+    "matrix": [
+      [
+        0
+      ]
+    ]
+  },
+  "contributors": [
+    {
+      "name": "Krauß, Rebekka",
+      "value": 30
+    },
+    {
+      "name": "Abou Moumouni, Issifou",
+      "value": 22
+    }
+  ],
+  "locations": [
+    {
+      "country": "Bolivia",
+      "region": "La Paz Department",
+      "city": "",
+      "count": 30
+    },
+    {
+      "country": "Benin",
+      "region": "Borgou Department",
+      "city": "",
+      "count": 22
+    }
+  ],
+  "items": [
+    {
+      "_id": "6877e287b542f8b9f8940ba4",
+      "titleInfo": [
+        {
+          "title": "Description du Micro-field Artisanat"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-0000",
+      "location": {
+        "origin": [
+          {
+            "l1": "Benin",
+            "l2": "Borgou Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940ba5",
+      "titleInfo": [
+        {
+          "title": "Overview Microfield Adult education"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-0001",
+      "location": {
+        "origin": [
+          {
+            "l1": "Bolivia",
+            "l2": "La Paz Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940ba6",
+      "titleInfo": [
+        {
+          "title": "Microfield Cemeteries"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-0002",
+      "location": {
+        "origin": [
+          {
+            "l1": "Bolivia",
+            "l2": "La Paz Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940ba7",
+      "titleInfo": [
+        {
+          "title": "Overview Microfield Handwerker"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-0003",
+      "location": {
+        "origin": [
+          {
+            "l1": "Bolivia",
+            "l2": "La Paz Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940ba8",
+      "titleInfo": [
+        {
+          "title": "Documentation of Microfield Churches"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-0004",
+      "location": {
+        "origin": [
+          {
+            "l1": "Bolivia",
+            "l2": "La Paz Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940ba9",
+      "titleInfo": [
+        {
+          "title": "Microfield Overview MERCADOS (Markets)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-0005",
+      "location": {
+        "origin": [
+          {
+            "l1": "Bolivia",
+            "l2": "La Paz Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940baa",
+      "titleInfo": [
+        {
+          "title": "Microfield Overview MERCADOS (Markets)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-0006",
+      "location": {
+        "origin": [
+          {
+            "l1": "Bolivia",
+            "l2": "La Paz Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940bab",
+      "titleInfo": [
+        {
+          "title": "Overview Microfield Gesundheit"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-0007",
+      "location": {
+        "origin": [
+          {
+            "l1": "Bolivia",
+            "l2": "La Paz Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940bac",
+      "titleInfo": [
+        {
+          "title": "Microfield State Institution/ Administration etc."
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-0008",
+      "location": {
+        "origin": [
+          {
+            "l1": "Bolivia",
+            "l2": "La Paz Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940bad",
+      "titleInfo": [
+        {
+          "title": "Overview Microfield Urban-Rural Relations"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-0009",
+      "location": {
+        "origin": [
+          {
+            "l1": "Bolivia",
+            "l2": "La Paz Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940bae",
+      "titleInfo": [
+        {
+          "title": "DOCUMENTATION AMARU 1"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-000a",
+      "location": {
+        "origin": [
+          {
+            "l1": "Bolivia",
+            "l2": "La Paz Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940baf",
+      "titleInfo": [
+        {
+          "title": "BENEDICTA"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-000b",
+      "location": {
+        "origin": [
+          {
+            "l1": "Bolivia",
+            "l2": "La Paz Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940bb0",
+      "titleInfo": [
+        {
+          "title": "Dokumentation Bernado 1"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-000c",
+      "location": {
+        "origin": [
+          {
+            "l1": "Bolivia",
+            "l2": "La Paz Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940bb1",
+      "titleInfo": [
+        {
+          "title": "Dokumentation Doña Clemencia 1"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-000d",
+      "location": {
+        "origin": [
+          {
+            "l1": "Bolivia",
+            "l2": "La Paz Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940bb2",
+      "titleInfo": [
+        {
+          "title": "Dokumentation Doña Adriana 1"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-000e",
+      "location": {
+        "origin": [
+          {
+            "l1": "Bolivia",
+            "l2": "La Paz Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940bb3",
+      "titleInfo": [
+        {
+          "title": "Dokumentation Doña Anita 1"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-000f",
+      "location": {
+        "origin": [
+          {
+            "l1": "Bolivia",
+            "l2": "La Paz Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940bb4",
+      "titleInfo": [
+        {
+          "title": "Dokumentation Doña Margarita 1"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-0010",
+      "location": {
+        "origin": [
+          {
+            "l1": "Bolivia",
+            "l2": "La Paz Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940bb5",
+      "titleInfo": [
+        {
+          "title": "Emilia - Mutter von Juan Carlos"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-0011",
+      "location": {
+        "origin": [
+          {
+            "l1": "Bolivia",
+            "l2": "La Paz Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940bb6",
+      "titleInfo": [
+        {
+          "title": "Dokumentation Guillerma 1"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-0012",
+      "location": {
+        "origin": [
+          {
+            "l1": "Bolivia",
+            "l2": "La Paz Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940bb7",
+      "titleInfo": [
+        {
+          "title": "Dokumentation Inéz 1"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-0013",
+      "location": {
+        "origin": [
+          {
+            "l1": "Bolivia",
+            "l2": "La Paz Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940bb8",
+      "titleInfo": [
+        {
+          "title": "Dokumentation Jairo 1"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-0014",
+      "location": {
+        "origin": [
+          {
+            "l1": "Bolivia",
+            "l2": "La Paz Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940bb9",
+      "titleInfo": [
+        {
+          "title": "Documentation Juliana (Schwester von Ruben) und Javier (Ehemann)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-0015",
+      "location": {
+        "origin": [
+          {
+            "l1": "Bolivia",
+            "l2": "La Paz Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940bba",
+      "titleInfo": [
+        {
+          "title": "Dokumentation Doña Lucia 1"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-0016",
+      "location": {
+        "origin": [
+          {
+            "l1": "Bolivia",
+            "l2": "La Paz Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940bbb",
+      "titleInfo": [
+        {
+          "title": "Dokumentation Magdalena 1"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-0017",
+      "location": {
+        "origin": [
+          {
+            "l1": "Bolivia",
+            "l2": "La Paz Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940bbc",
+      "titleInfo": [
+        {
+          "title": "Dokumentation Marcelina 1"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-0018",
+      "location": {
+        "origin": [
+          {
+            "l1": "Bolivia",
+            "l2": "La Paz Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940bbd",
+      "titleInfo": [
+        {
+          "title": "Dokumentation Maximiliana 1"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-0019",
+      "location": {
+        "origin": [
+          {
+            "l1": "Bolivia",
+            "l2": "La Paz Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940bbe",
+      "titleInfo": [
+        {
+          "title": "Dokumentation Octavia 1"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-001a",
+      "location": {
+        "origin": [
+          {
+            "l1": "Bolivia",
+            "l2": "La Paz Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940bbf",
+      "titleInfo": [
+        {
+          "title": "Dokumentation Doña Rigoberta 1"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-001b",
+      "location": {
+        "origin": [
+          {
+            "l1": "Bolivia",
+            "l2": "La Paz Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940bc0",
+      "titleInfo": [
+        {
+          "title": "Dokumentation Valentina 1"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-001c",
+      "location": {
+        "origin": [
+          {
+            "l1": "Bolivia",
+            "l2": "La Paz Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940bc1",
+      "titleInfo": [
+        {
+          "title": "Dokumentation Doña Seferina 1"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-001d",
+      "location": {
+        "origin": [
+          {
+            "l1": "Bolivia",
+            "l2": "La Paz Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940bc2",
+      "titleInfo": [
+        {
+          "title": "DESCRIPTION DU MICRO-TERRAIN AUTO-ECOLE"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-001e",
+      "location": {
+        "origin": [
+          {
+            "l1": "Benin",
+            "l2": "Borgou Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940bc3",
+      "titleInfo": [
+        {
+          "title": "DESCRIPTION DU MICRO-FIELD MARCHE"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-001f",
+      "location": {
+        "origin": [
+          {
+            "l1": "Benin",
+            "l2": "Borgou Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940bc4",
+      "titleInfo": [
+        {
+          "title": "DEACRIPTION DU MICRO-TERRAIN TRIBUNAL"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-0020",
+      "location": {
+        "origin": [
+          {
+            "l1": "Benin",
+            "l2": "Borgou Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940bc5",
+      "titleInfo": [
+        {
+          "title": "DESCRIPTION DU MICRO-FIELD HOPITAL"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-0021",
+      "location": {
+        "origin": [
+          {
+            "l1": "Benin",
+            "l2": "Borgou Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940bc6",
+      "titleInfo": [
+        {
+          "title": "FICHE SIGNALETIQUE AiFloCom"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-0022",
+      "location": {
+        "origin": [
+          {
+            "l1": "Benin",
+            "l2": "Borgou Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940bc7",
+      "titleInfo": [
+        {
+          "title": "FICHE SIGNALETIQUE AzCout"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-0023",
+      "location": {
+        "origin": [
+          {
+            "l1": "Benin",
+            "l2": "Borgou Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940bc8",
+      "titleInfo": [
+        {
+          "title": "FICHE SIGNALETIQUE CeDagVit"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-0024",
+      "location": {
+        "origin": [
+          {
+            "l1": "Benin",
+            "l2": "Borgou Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940bc9",
+      "titleInfo": [
+        {
+          "title": "FICHE SIGNALETIQUE DjibAlFer"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-0025",
+      "location": {
+        "origin": [
+          {
+            "l1": "Benin",
+            "l2": "Borgou Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940bca",
+      "titleInfo": [
+        {
+          "title": "FICHE SIGNALETIQUE DjTis"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-0026",
+      "location": {
+        "origin": [
+          {
+            "l1": "Benin",
+            "l2": "Borgou Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940bcb",
+      "titleInfo": [
+        {
+          "title": "FICHE SIGNALETIQUE FaTib"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-0027",
+      "location": {
+        "origin": [
+          {
+            "l1": "Benin",
+            "l2": "Borgou Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940bcc",
+      "titleInfo": [
+        {
+          "title": "FICHE SIGNALETIQUE KiYeCult"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-0028",
+      "location": {
+        "origin": [
+          {
+            "l1": "Benin",
+            "l2": "Borgou Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940bcd",
+      "titleInfo": [
+        {
+          "title": "FICHE SIGNALETIQUE MaAbDep"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-0029",
+      "location": {
+        "origin": [
+          {
+            "l1": "Benin",
+            "l2": "Borgou Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940bce",
+      "titleInfo": [
+        {
+          "title": "FICHE SIGNALETIQUE RaTisNago"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-002a",
+      "location": {
+        "origin": [
+          {
+            "l1": "Benin",
+            "l2": "Borgou Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940bcf",
+      "titleInfo": [
+        {
+          "title": "FICHE SIGNALETIQUE SaAbMec"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-002b",
+      "location": {
+        "origin": [
+          {
+            "l1": "Benin",
+            "l2": "Borgou Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940bd0",
+      "titleInfo": [
+        {
+          "title": "FICHE SIGNALETIQUE Sikongo"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-002c",
+      "location": {
+        "origin": [
+          {
+            "l1": "Benin",
+            "l2": "Borgou Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940bd1",
+      "titleInfo": [
+        {
+          "title": "FICHE SIGNALETIQUE WahMa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-002d",
+      "location": {
+        "origin": [
+          {
+            "l1": "Benin",
+            "l2": "Borgou Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940bd2",
+      "titleInfo": [
+        {
+          "title": "FICHE SIGNALETIQUE YaDog"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-002e",
+      "location": {
+        "origin": [
+          {
+            "l1": "Benin",
+            "l2": "Borgou Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940bd3",
+      "titleInfo": [
+        {
+          "title": "FICHE SIGNALETIQUE  YasCo"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-002f",
+      "location": {
+        "origin": [
+          {
+            "l1": "Benin",
+            "l2": "Borgou Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940bd4",
+      "titleInfo": [
+        {
+          "title": "FICHE SIGNALETIQUE ZiMoCo"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-0030",
+      "location": {
+        "origin": [
+          {
+            "l1": "Benin",
+            "l2": "Borgou Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940bd5",
+      "titleInfo": [
+        {
+          "title": "FICHE SIGNALETIQUE ZoulAbaChau"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-0031",
+      "location": {
+        "origin": [
+          {
+            "l1": "Benin",
+            "l2": "Borgou Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940bd6",
+      "titleInfo": [
+        {
+          "title": "FICHE SIGNALETIQUE ZéCou"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-0032",
+      "location": {
+        "origin": [
+          {
+            "l1": "Benin",
+            "l2": "Borgou Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "6877e287b542f8b9f8940bd7",
+      "titleInfo": [
+        {
+          "title": "PARTICIPANTS"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-0033",
+      "location": {
+        "origin": [
+          {
+            "l1": "Bolivia",
+            "l2": "La Paz Department"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    }
+  ]
+}

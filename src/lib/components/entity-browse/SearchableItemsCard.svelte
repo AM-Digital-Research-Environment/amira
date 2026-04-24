@@ -184,17 +184,21 @@
 				{:else}
 					{#if showControls}
 						<!-- Search + type filter -->
-						<div class="flex flex-col sm:flex-row gap-3 mb-4">
-							<div class="relative flex-1">
+						<div class="flex flex-col sm:flex-row sm:items-center gap-3 mb-4">
+							<div class="relative flex-1 min-w-0">
 								<Search
-									class="absolute left-2.5 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground"
+									class="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground pointer-events-none"
 								/>
-								<Input placeholder={searchPlaceholder} bind:value={searchQuery} class="pl-9" />
+								<Input placeholder={searchPlaceholder} bind:value={searchQuery} class="pl-10" />
 							</div>
 							{#if resourceTypes.length > 1}
+								<!-- Height / border radius match `<Input>` so the two controls sit
+								     flush beside each other. `min-w-[9rem]` + `max-w-[14rem]`
+								     keeps the dropdown readable without letting long resource
+								     type names stretch it past the card edge. -->
 								<select
 									bind:value={typeFilter}
-									class="h-9 rounded-md border border-input bg-background px-3 text-sm ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring"
+									class="h-10 rounded-lg border border-input bg-background px-3 pr-8 text-sm ring-offset-background transition-[border-color,box-shadow] duration-fast ease-out hover:border-border-strong focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:border-transparent sm:min-w-[9rem] sm:max-w-[14rem]"
 								>
 									<option value="">All types</option>
 									{#each resourceTypes as type (type)}

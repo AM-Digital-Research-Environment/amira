@@ -162,7 +162,12 @@
         "id": "UBT_Plura2021",
         "name": "Plura 2.0: Project Learning and Resource Platform Africa"
       },
-      "dre_id": "abs-01-0000"
+      "dre_id": "abs-01-0000",
+      "location": {
+        "current": [
+          "University of Bayreuth"
+        ]
+      }
     },
     {
       "_id": "685a631ec25a5271e0a9edb1",
@@ -172,7 +177,17 @@
         }
       ],
       "typeOfResource": "Text",
-      "dre_id": "eaa-99-03cc"
+      "dre_id": "eaa-99-03cc",
+      "location": {
+        "origin": [
+          {
+            "l1": "South Africa"
+          }
+        ],
+        "current": [
+          "Rhodes University"
+        ]
+      }
     }
   ]
 }

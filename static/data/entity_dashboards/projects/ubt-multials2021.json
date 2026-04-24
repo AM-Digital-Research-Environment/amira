@@ -1,0 +1,308 @@
+{
+  "meta": {
+    "type": "project",
+    "id": "UBT_MultiALS2021",
+    "name": "Multilingual African Learning Spaces: Translanguaging Practices in the Kenyan Classroom",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2024,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2024,
+      "total": 2,
+      "byType": {
+        "Dataset": 1,
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Dataset",
+      "value": 1
+    },
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "roles": [],
+  "heatmap": [
+    {
+      "x": "2020s",
+      "y": "Dataset",
+      "value": 1
+    },
+    {
+      "x": "2020s",
+      "y": "Text",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Attitudes",
+      "value": 2
+    },
+    {
+      "name": "Education",
+      "value": 2
+    },
+    {
+      "name": "Multilingualism",
+      "value": 2
+    },
+    {
+      "name": "Translanguaging (Linguistics)",
+      "value": 2
+    },
+    {
+      "name": "Perception",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Attitudes",
+      "value": 2
+    },
+    {
+      "name": "Education",
+      "value": 2
+    },
+    {
+      "name": "Multilingualism",
+      "value": 2
+    },
+    {
+      "name": "Translanguaging (Linguistics)",
+      "value": 2
+    },
+    {
+      "name": "Perception",
+      "value": 2
+    },
+    {
+      "name": "Formal Learning",
+      "value": 2
+    },
+    {
+      "name": "Informal Interaction",
+      "value": 2
+    },
+    {
+      "name": "Pedagogy",
+      "value": 2
+    }
+  ],
+  "sunburst": [
+    {
+      "name": "Dataset",
+      "children": [
+        {
+          "name": "English",
+          "children": [
+            {
+              "name": "Attitudes",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Education",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Multilingualism",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Translanguaging (Linguistics)",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Perception",
+              "value": 1,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Text",
+      "children": [
+        {
+          "name": "English",
+          "children": [
+            {
+              "name": "Attitudes",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Education",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Multilingualism",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Translanguaging (Linguistics)",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Perception",
+              "value": 1,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sankey": {
+    "nodes": [
+      {
+        "name": "Dataset"
+      },
+      {
+        "name": "Multilingual African Learning Spaces: Translanguaging Practices in the Kenyan Classroom"
+      },
+      {
+        "name": "Mühleisen, Susanne"
+      },
+      {
+        "name": "Orero, Sheila"
+      },
+      {
+        "name": "Otundo, Khalayi Billian"
+      },
+      {
+        "name": "Text"
+      }
+    ],
+    "links": [
+      {
+        "source": "Otundo, Khalayi Billian",
+        "target": "Multilingual African Learning Spaces: Translanguaging Practices in the Kenyan Classroom",
+        "value": 2
+      },
+      {
+        "source": "Orero, Sheila",
+        "target": "Multilingual African Learning Spaces: Translanguaging Practices in the Kenyan Classroom",
+        "value": 2
+      },
+      {
+        "source": "Mühleisen, Susanne",
+        "target": "Multilingual African Learning Spaces: Translanguaging Practices in the Kenyan Classroom",
+        "value": 2
+      },
+      {
+        "source": "Multilingual African Learning Spaces: Translanguaging Practices in the Kenyan Classroom",
+        "target": "Dataset",
+        "value": 1
+      },
+      {
+        "source": "Multilingual African Learning Spaces: Translanguaging Practices in the Kenyan Classroom",
+        "target": "Text",
+        "value": 1
+      }
+    ]
+  },
+  "chord": {
+    "names": [],
+    "matrix": []
+  },
+  "contributors": [
+    {
+      "name": "Otundo, Khalayi Billian",
+      "value": 2
+    },
+    {
+      "name": "Orero, Sheila",
+      "value": 2
+    },
+    {
+      "name": "Mühleisen, Susanne",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "Kenya",
+      "region": "Nandi",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "67a3500526e222e7e827a3d2",
+      "titleInfo": [
+        {
+          "title": "SPSS Results"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MultiALS2021",
+        "name": "Multilingual African Learning Spaces: Translanguaging Practices in the Kenyan Classroom"
+      },
+      "dre_id": "abr-01-0000",
+      "location": {
+        "origin": [
+          {
+            "l1": "Kenya",
+            "l2": "Nandi"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    },
+    {
+      "_id": "67a3500526e222e7e827a3d3",
+      "titleInfo": [
+        {
+          "title": "Survey"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MultiALS2021",
+        "name": "Multilingual African Learning Spaces: Translanguaging Practices in the Kenyan Classroom"
+      },
+      "dre_id": "abr-01-0001",
+      "location": {
+        "origin": [
+          {
+            "l1": "Kenya",
+            "l2": "Nandi"
+          }
+        ],
+        "current": [
+          "Germany"
+        ]
+      }
+    }
+  ]
+}

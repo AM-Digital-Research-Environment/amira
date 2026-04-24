@@ -1,0 +1,919 @@
+{
+  "meta": {
+    "type": "project",
+    "id": "ULG_WOPP2021",
+    "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa",
+    "count": 21
+  },
+  "timeline": [
+    {
+      "year": 2021,
+      "count": 21
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2021,
+      "total": 21,
+      "byType": {
+        "Text": 1,
+        "Image": 11,
+        "Moving image": 9
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 11
+    },
+    {
+      "name": "Moving image",
+      "value": 9
+    },
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 21
+    }
+  ],
+  "roles": [],
+  "heatmap": [
+    {
+      "x": "2020s",
+      "y": "Image",
+      "value": 11
+    },
+    {
+      "x": "2020s",
+      "y": "Moving image",
+      "value": 9
+    },
+    {
+      "x": "2020s",
+      "y": "Text",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Women",
+      "value": 21
+    },
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 21
+    },
+    {
+      "name": "Political rights",
+      "value": 21
+    },
+    {
+      "name": "Political participation",
+      "value": 21
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Women",
+      "value": 21
+    },
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 21
+    },
+    {
+      "name": "Political rights",
+      "value": 21
+    },
+    {
+      "name": "Political participation",
+      "value": 21
+    },
+    {
+      "name": "Structural Barriers",
+      "value": 21
+    },
+    {
+      "name": "Political Barriers",
+      "value": 21
+    },
+    {
+      "name": "Politics",
+      "value": 21
+    }
+  ],
+  "sunburst": [
+    {
+      "name": "Image",
+      "children": [
+        {
+          "name": "English",
+          "children": [
+            {
+              "name": "Women",
+              "value": 11,
+              "children": []
+            },
+            {
+              "name": "Sub-Saharan Africa",
+              "value": 11,
+              "children": []
+            },
+            {
+              "name": "Political rights",
+              "value": 11,
+              "children": []
+            },
+            {
+              "name": "Political participation",
+              "value": 11,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Moving image",
+      "children": [
+        {
+          "name": "English",
+          "children": [
+            {
+              "name": "Women",
+              "value": 9,
+              "children": []
+            },
+            {
+              "name": "Sub-Saharan Africa",
+              "value": 9,
+              "children": []
+            },
+            {
+              "name": "Political rights",
+              "value": 9,
+              "children": []
+            },
+            {
+              "name": "Political participation",
+              "value": 9,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Text",
+      "children": [
+        {
+          "name": "English",
+          "children": [
+            {
+              "name": "Women",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Sub-Saharan Africa",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Political rights",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Political participation",
+              "value": 1,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sankey": {
+    "nodes": [
+      {
+        "name": "Ademola-Adeoye, Feyisayo"
+      },
+      {
+        "name": "Attoh, Franca"
+      },
+      {
+        "name": "Image"
+      },
+      {
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      {
+        "name": "Moving image"
+      },
+      {
+        "name": "Text"
+      },
+      {
+        "name": "Yakubu, Moses"
+      }
+    ],
+    "links": [
+      {
+        "source": "Ademola-Adeoye, Feyisayo",
+        "target": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa",
+        "value": 21
+      },
+      {
+        "source": "Attoh, Franca",
+        "target": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa",
+        "value": 21
+      },
+      {
+        "source": "Yakubu, Moses",
+        "target": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa",
+        "value": 21
+      },
+      {
+        "source": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa",
+        "target": "Image",
+        "value": 11
+      },
+      {
+        "source": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa",
+        "target": "Moving image",
+        "value": 9
+      },
+      {
+        "source": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa",
+        "target": "Text",
+        "value": 1
+      }
+    ]
+  },
+  "chord": {
+    "names": [
+      "Women",
+      "Sub-Saharan Africa",
+      "Political rights",
+      "Political participation"
+    ],
+    "matrix": [
+      [
+        0,
+        21,
+        21,
+        21
+      ],
+      [
+        21,
+        0,
+        21,
+        21
+      ],
+      [
+        21,
+        21,
+        0,
+        21
+      ],
+      [
+        21,
+        21,
+        21,
+        0
+      ]
+    ]
+  },
+  "contributors": [
+    {
+      "name": "Ademola-Adeoye, Feyisayo",
+      "value": 21
+    },
+    {
+      "name": "Attoh, Franca",
+      "value": 21
+    },
+    {
+      "name": "Yakubu, Moses",
+      "value": 21
+    },
+    {
+      "name": "Eesuola, Kayode",
+      "value": 21
+    },
+    {
+      "name": "Olukuade, Tomide",
+      "value": 21
+    },
+    {
+      "name": "Ademola, Lydia",
+      "value": 21
+    },
+    {
+      "name": "Anyanwu, Beatrice",
+      "value": 21
+    },
+    {
+      "name": "Akintola, Folashade",
+      "value": 21
+    },
+    {
+      "name": "Adeniran, Samuel",
+      "value": 21
+    },
+    {
+      "name": "Adebayo, Bukola",
+      "value": 21
+    }
+  ],
+  "locations": [
+    {
+      "country": "Kenya",
+      "region": "Nairobi Province",
+      "city": "Nairobi",
+      "count": 8
+    },
+    {
+      "country": "Nigeria",
+      "region": "Enugu State",
+      "city": "Enugu",
+      "count": 4
+    },
+    {
+      "country": "Nigeria",
+      "region": "Oyo State",
+      "city": "Ibadan",
+      "count": 4
+    },
+    {
+      "country": "Nigeria",
+      "region": "Kaduna State",
+      "city": "Kaduna",
+      "count": 4
+    },
+    {
+      "country": "Nigeria",
+      "region": "Lagos State",
+      "city": "Lagos",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "6718f5fac327cde4b57d86d9",
+      "titleInfo": [
+        {
+          "title": "Locating the Albatross in Women’s Political Participation in Sub-Saharan Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-0000",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Lagos State",
+            "l3": "Lagos"
+          },
+          {
+            "l1": "Kenya"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86da",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Image 1 of Respondent taken during the Field Work in Enugu"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-0001",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Enugu State",
+            "l3": "Enugu"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86db",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Image 2 of Respondent taken during the Field Work in Enugu"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-0002",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Enugu State",
+            "l3": "Enugu"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86dc",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Image 1 of Political Respondent taken during the Field Work in Ibadan"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-0003",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Oyo State",
+            "l3": "Ibadan"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86dd",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Image 2 of Political Respondent taken during the Field Work in Ibadan"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-0004",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Oyo State",
+            "l3": "Ibadan"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86de",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Image 1 of Political Respondent taken during the Field Work in Kaduna"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-0005",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Kaduna State",
+            "l3": "Kaduna"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86df",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Image 2 of Political Respondent taken during the Field Work in Kaduna"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-0006",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Kaduna State",
+            "l3": "Kaduna"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86e0",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Image 1 of Political Respondent taken during the Field Work in Nairobi"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-0007",
+      "location": {
+        "origin": [
+          {
+            "l1": "Kenya",
+            "l2": "Nairobi Province",
+            "l3": "Nairobi"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86e1",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Image 2 of Political Respondent taken during the Field Work in Nairobi"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-0008",
+      "location": {
+        "origin": [
+          {
+            "l1": "Kenya",
+            "l2": "Nairobi Province",
+            "l3": "Nairobi"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86e2",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Image 3 of Political Respondent taken during the Field Work in Nairobi"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-0009",
+      "location": {
+        "origin": [
+          {
+            "l1": "Kenya",
+            "l2": "Nairobi Province",
+            "l3": "Nairobi"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86e3",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Image 4 of Political Respondent taken during the Field Work in Nairobi"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-000a",
+      "location": {
+        "origin": [
+          {
+            "l1": "Kenya",
+            "l2": "Nairobi Province",
+            "l3": "Nairobi"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86e4",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Video of Researcher and some Women in FGD in Enugu"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-000b",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Enugu State",
+            "l3": "Enugu"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86e5",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Team of Researchers and some Men in FGD Video in Enugu"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-000c",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Enugu State",
+            "l3": "Enugu"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86e6",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Video showing Team of Researchers with a Woman Politician in an Interview in Ibadan"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-000d",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Oyo State",
+            "l3": "Ibadan"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86e7",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Team of Researchers with a Woman Politician in Ibadan"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-000e",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Oyo State",
+            "l3": "Ibadan"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86e8",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Team of Researchers with a Woman Politician in an Interview in Kaduna"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-000f",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Kaduna State",
+            "l3": "Kaduna"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86e9",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Team of Researchers with a Politician in an Interview in Kaduna"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-0010",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Kaduna State",
+            "l3": "Kaduna"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86ea",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Researcher with a Male Respondent in an Interview in Nairobi"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-0011",
+      "location": {
+        "origin": [
+          {
+            "l1": "Kenya",
+            "l2": "Nairobi Province",
+            "l3": "Nairobi"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86eb",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Researcher with a Female Respondent in an Interview in Nairobi"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-0012",
+      "location": {
+        "origin": [
+          {
+            "l1": "Kenya",
+            "l2": "Nairobi Province",
+            "l3": "Nairobi"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86ec",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Researcher with a Female Respondent in an interview in Nairobi"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-0013",
+      "location": {
+        "origin": [
+          {
+            "l1": "Kenya",
+            "l2": "Nairobi Province",
+            "l3": "Nairobi"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86ed",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Researcher with a Male Respondent in an Interview in Nairobi"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-0014",
+      "location": {
+        "origin": [
+          {
+            "l1": "Kenya",
+            "l2": "Nairobi Province",
+            "l3": "Nairobi"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    }
+  ]
+}

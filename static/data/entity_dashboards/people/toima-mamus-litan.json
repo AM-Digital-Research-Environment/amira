@@ -237,7 +237,17 @@
         "id": "UBT_Covid192021",
         "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
       },
-      "dre_id": "abz-01-0011"
+      "dre_id": "abz-01-0011",
+      "location": {
+        "origin": [
+          {
+            "l1": "Tanzania"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
     },
     {
       "_id": "66cefaf495a000d4c7bf3722",
@@ -251,7 +261,22 @@
         "id": "UBT_Covid192021",
         "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
       },
-      "dre_id": "abz-01-001d"
+      "dre_id": "abz-01-001d",
+      "location": {
+        "origin": [
+          {
+            "l1": "Kenya",
+            "l2": "Narok",
+            "l3": "Maasai Mara National Reserve"
+          },
+          {
+            "l1": "Tanzania"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
     }
   ]
 }

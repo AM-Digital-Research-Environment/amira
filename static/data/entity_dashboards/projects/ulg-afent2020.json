@@ -1,0 +1,589 @@
+{
+  "meta": {
+    "type": "project",
+    "id": "ULG_AfEnt2020",
+    "name": "Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment",
+    "count": 10
+  },
+  "timeline": [
+    {
+      "year": 2021,
+      "count": 10
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2021,
+      "total": 10,
+      "byType": {
+        "Audio": 3,
+        "Text": 6,
+        "Image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 6
+    },
+    {
+      "name": "Audio",
+      "value": 3
+    },
+    {
+      "name": "Image",
+      "value": 1
+    }
+  ],
+  "languages": [],
+  "roles": [],
+  "heatmap": [
+    {
+      "x": "2020s",
+      "y": "Audio",
+      "value": 3
+    },
+    {
+      "x": "2020s",
+      "y": "Image",
+      "value": 1
+    },
+    {
+      "x": "2020s",
+      "y": "Text",
+      "value": 6
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Arts",
+      "value": 10
+    },
+    {
+      "name": "Aesthetics",
+      "value": 10
+    },
+    {
+      "name": "Music",
+      "value": 10
+    },
+    {
+      "name": "Scholars",
+      "value": 10
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Arts",
+      "value": 10
+    },
+    {
+      "name": "Aesthetics",
+      "value": 10
+    },
+    {
+      "name": "Music",
+      "value": 10
+    },
+    {
+      "name": "Scholars",
+      "value": 10
+    },
+    {
+      "name": "African Studies",
+      "value": 10
+    },
+    {
+      "name": "Popular Music Studies",
+      "value": 10
+    },
+    {
+      "name": "African Music",
+      "value": 10
+    },
+    {
+      "name": "Cultural Economy",
+      "value": 10
+    }
+  ],
+  "sunburst": [
+    {
+      "name": "Text",
+      "children": [
+        {
+          "name": "Unknown",
+          "children": [
+            {
+              "name": "Arts",
+              "value": 6,
+              "children": []
+            },
+            {
+              "name": "Aesthetics",
+              "value": 6,
+              "children": []
+            },
+            {
+              "name": "Music",
+              "value": 6,
+              "children": []
+            },
+            {
+              "name": "Scholars",
+              "value": 6,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Audio",
+      "children": [
+        {
+          "name": "Unknown",
+          "children": [
+            {
+              "name": "Arts",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "Aesthetics",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "Music",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "Scholars",
+              "value": 3,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Image",
+      "children": [
+        {
+          "name": "Unknown",
+          "children": [
+            {
+              "name": "Arts",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Aesthetics",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Music",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Scholars",
+              "value": 1,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sankey": {
+    "nodes": [
+      {
+        "name": "Ademola-Adeoye, Feyisayo"
+      },
+      {
+        "name": "Audio"
+      },
+      {
+        "name": "Image"
+      },
+      {
+        "name": "Kibora, Ludovic"
+      },
+      {
+        "name": "Oloko, Patrick"
+      },
+      {
+        "name": "Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment"
+      },
+      {
+        "name": "Text"
+      }
+    ],
+    "links": [
+      {
+        "source": "Oloko, Patrick",
+        "target": "Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment",
+        "value": 10
+      },
+      {
+        "source": "Kibora, Ludovic",
+        "target": "Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment",
+        "value": 10
+      },
+      {
+        "source": "Ademola-Adeoye, Feyisayo",
+        "target": "Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment",
+        "value": 10
+      },
+      {
+        "source": "Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment",
+        "target": "Text",
+        "value": 6
+      },
+      {
+        "source": "Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment",
+        "target": "Audio",
+        "value": 3
+      },
+      {
+        "source": "Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment",
+        "target": "Image",
+        "value": 1
+      }
+    ]
+  },
+  "chord": {
+    "names": [
+      "Arts",
+      "Aesthetics",
+      "Music",
+      "Scholars"
+    ],
+    "matrix": [
+      [
+        0,
+        10,
+        10,
+        10
+      ],
+      [
+        10,
+        0,
+        10,
+        10
+      ],
+      [
+        10,
+        10,
+        0,
+        10
+      ],
+      [
+        10,
+        10,
+        10,
+        0
+      ]
+    ]
+  },
+  "contributors": [
+    {
+      "name": "Oloko, Patrick",
+      "value": 10
+    },
+    {
+      "name": "Kibora, Ludovic",
+      "value": 10
+    },
+    {
+      "name": "Ademola-Adeoye, Feyisayo",
+      "value": 10
+    },
+    {
+      "name": "Olokodana-James, Oluwatoyin",
+      "value": 10
+    },
+    {
+      "name": "Oni, Peter",
+      "value": 10
+    },
+    {
+      "name": "Muo, Adaobi",
+      "value": 10
+    }
+  ],
+  "locations": [
+    {
+      "country": "Nigeria",
+      "region": "Lagos State",
+      "city": "Lagos",
+      "count": 10
+    }
+  ],
+  "items": [
+    {
+      "_id": "66c85ad6f75816be2871ce5f",
+      "titleInfo": [
+        {
+          "title": "Interview with Charles, Ifeanyi, Uche and Joe Oloko"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "ULG_AfEnt2020",
+        "name": "Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment"
+      },
+      "dre_id": "aah-02-0000",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Lagos State",
+            "l3": "Lagos"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "66c85ad6f75816be2871ce60",
+      "titleInfo": [
+        {
+          "title": "Oral Interview with Mrs. Nebolisa"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "ULG_AfEnt2020",
+        "name": "Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment"
+      },
+      "dre_id": "aah-02-0001",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Lagos State",
+            "l3": "Lagos"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "66c85ad6f75816be2871ce61",
+      "titleInfo": [
+        {
+          "title": "Interview with Sammy Sparkle"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "ULG_AfEnt2020",
+        "name": "Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment"
+      },
+      "dre_id": "aah-02-0002",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Lagos State",
+            "l3": "Lagos"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "66c85ad6f75816be2871ce62",
+      "titleInfo": [
+        {
+          "title": "Translation of Sammy Sparkle Interview"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_AfEnt2020",
+        "name": "Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment"
+      },
+      "dre_id": "aah-02-0003",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Lagos State",
+            "l3": "Lagos"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "66c85ad6f75816be2871ce63",
+      "titleInfo": [
+        {
+          "title": "Translation of Charles, Ifeanyi, Uche and Joe Oloko"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_AfEnt2020",
+        "name": "Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment"
+      },
+      "dre_id": "aah-02-0004",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Lagos State",
+            "l3": "Lagos"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "66c85ad6f75816be2871ce64",
+      "titleInfo": [
+        {
+          "title": "Translation of Sammy Sparkle Interview"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_AfEnt2020",
+        "name": "Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment"
+      },
+      "dre_id": "aah-02-0005",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Lagos State",
+            "l3": "Lagos"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "66c85ad6f75816be2871ce65",
+      "titleInfo": [
+        {
+          "title": "Transcription of the Recorded Oral Interview with Mrs. Nebolisa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_AfEnt2020",
+        "name": "Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment"
+      },
+      "dre_id": "aah-02-0006",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Lagos State",
+            "l3": "Lagos"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "66c85ad6f75816be2871ce66",
+      "titleInfo": [
+        {
+          "title": "Selected Albums and Tracks of Morocco Maduka"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_AfEnt2020",
+        "name": "Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment"
+      },
+      "dre_id": "aah-02-0007",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Lagos State",
+            "l3": "Lagos"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "66c85ad6f75816be2871ce67",
+      "titleInfo": [
+        {
+          "title": "Field Trip Picture"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_AfEnt2020",
+        "name": "Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment"
+      },
+      "dre_id": "aah-02-0008",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Lagos State",
+            "l3": "Lagos"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "66c85ad6f75816be2871ce68",
+      "titleInfo": [
+        {
+          "title": "Translation of Skit"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_AfEnt2020",
+        "name": "Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment"
+      },
+      "dre_id": "aah-02-0009",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Lagos State",
+            "l3": "Lagos"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    }
+  ]
+}

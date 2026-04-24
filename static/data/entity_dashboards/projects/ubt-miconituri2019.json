@@ -1,0 +1,461 @@
+{
+  "meta": {
+    "type": "project",
+    "id": "UBT_MiConIturi2019",
+    "name": "Uhamaji wa wanyerwanda: Migration and Conflict in Ituri, DR Congo",
+    "count": 9
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 9
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 9,
+      "byType": {
+        "Text": 9
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 9
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 9
+    },
+    {
+      "name": "English",
+      "value": 4
+    }
+  ],
+  "roles": [],
+  "heatmap": [
+    {
+      "x": "2020s",
+      "y": "Text",
+      "value": 9
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Land tenure",
+      "value": 9
+    },
+    {
+      "name": "Migration",
+      "value": 9
+    },
+    {
+      "name": "Social conflict",
+      "value": 9
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Land tenure",
+      "value": 9
+    },
+    {
+      "name": "Migration",
+      "value": 9
+    },
+    {
+      "name": "Social conflict",
+      "value": 9
+    },
+    {
+      "name": "Conflict Theory",
+      "value": 9
+    }
+  ],
+  "sunburst": [
+    {
+      "name": "Text",
+      "children": [
+        {
+          "name": "French",
+          "children": [
+            {
+              "name": "Land tenure",
+              "value": 9,
+              "children": []
+            },
+            {
+              "name": "Migration",
+              "value": 9,
+              "children": []
+            },
+            {
+              "name": "Social conflict",
+              "value": 9,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "English",
+          "children": [
+            {
+              "name": "Land tenure",
+              "value": 4,
+              "children": []
+            },
+            {
+              "name": "Migration",
+              "value": 4,
+              "children": []
+            },
+            {
+              "name": "Social conflict",
+              "value": 4,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sankey": {
+    "nodes": [
+      {
+        "name": "Doevenspeck, Martin"
+      },
+      {
+        "name": "Mwanabiningo, Nene Morisho"
+      },
+      {
+        "name": "Sebudandi, Christophe"
+      },
+      {
+        "name": "Text"
+      },
+      {
+        "name": "Uhamaji wa wanyerwanda: Migration and Conflict in Ituri, DR Congo"
+      }
+    ],
+    "links": [
+      {
+        "source": "Uhamaji wa wanyerwanda: Migration and Conflict in Ituri, DR Congo",
+        "target": "Text",
+        "value": 9
+      },
+      {
+        "source": "Doevenspeck, Martin",
+        "target": "Uhamaji wa wanyerwanda: Migration and Conflict in Ituri, DR Congo",
+        "value": 9
+      },
+      {
+        "source": "Mwanabiningo, Nene Morisho",
+        "target": "Uhamaji wa wanyerwanda: Migration and Conflict in Ituri, DR Congo",
+        "value": 9
+      },
+      {
+        "source": "Sebudandi, Christophe",
+        "target": "Uhamaji wa wanyerwanda: Migration and Conflict in Ituri, DR Congo",
+        "value": 9
+      }
+    ]
+  },
+  "chord": {
+    "names": [
+      "Land tenure",
+      "Migration",
+      "Social conflict"
+    ],
+    "matrix": [
+      [
+        0,
+        9,
+        9
+      ],
+      [
+        9,
+        0,
+        9
+      ],
+      [
+        9,
+        9,
+        0
+      ]
+    ]
+  },
+  "contributors": [
+    {
+      "name": "Sebudandi, Christophe",
+      "value": 18
+    },
+    {
+      "name": "Kaganda Mulume Oderhwa, Philippe",
+      "value": 18
+    },
+    {
+      "name": "Doevenspeck, Martin",
+      "value": 9
+    },
+    {
+      "name": "Mwanabiningo, Nene Morisho",
+      "value": 9
+    },
+    {
+      "name": "Tegera, Aloy",
+      "value": 9
+    },
+    {
+      "name": "Lankes, Maximilian",
+      "value": 4
+    }
+  ],
+  "locations": [
+    {
+      "country": "Democratic Republic of the Congo",
+      "region": "Ituri",
+      "city": "Geti",
+      "count": 9
+    }
+  ],
+  "items": [
+    {
+      "_id": "674dc0432e70d1e383d18afc",
+      "titleInfo": [
+        {
+          "title": "Recherche sur mobilité et conflits dans les grand lacs/cas de Hutu en Ituri"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MiConIturi2019",
+        "name": "Uhamaji wa wanyerwanda: Migration and Conflict in Ituri, DR Congo"
+      },
+      "dre_id": "acd-01-0000",
+      "location": {
+        "origin": [
+          {
+            "l1": "Democratic Republic of the Congo",
+            "l2": "Ituri",
+            "l3": "Geti"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "674dc0432e70d1e383d18afd",
+      "titleInfo": [
+        {
+          "title": "Focus groupe: Membres communautés locales mixte (adultes, jeunes et vieillard)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MiConIturi2019",
+        "name": "Uhamaji wa wanyerwanda: Migration and Conflict in Ituri, DR Congo"
+      },
+      "dre_id": "acd-01-0001",
+      "location": {
+        "origin": [
+          {
+            "l1": "Democratic Republic of the Congo",
+            "l2": "Ituri",
+            "l3": "Geti"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "674dc0432e70d1e383d18afe",
+      "titleInfo": [
+        {
+          "title": "Focus groupe: communauté Hutu mixte (adultes, jeunes et vieillard)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MiConIturi2019",
+        "name": "Uhamaji wa wanyerwanda: Migration and Conflict in Ituri, DR Congo"
+      },
+      "dre_id": "acd-01-0002",
+      "location": {
+        "origin": [
+          {
+            "l1": "Democratic Republic of the Congo",
+            "l2": "Ituri",
+            "l3": "Geti"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "674dc0432e70d1e383d18aff",
+      "titleInfo": [
+        {
+          "title": "Focus groupe mixte pour Jeune autochtone et Hutu"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MiConIturi2019",
+        "name": "Uhamaji wa wanyerwanda: Migration and Conflict in Ituri, DR Congo"
+      },
+      "dre_id": "acd-01-0003",
+      "location": {
+        "origin": [
+          {
+            "l1": "Democratic Republic of the Congo",
+            "l2": "Ituri",
+            "l3": "Geti"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "674dc0432e70d1e383d18b00",
+      "titleInfo": [
+        {
+          "title": "Research on mobility and conflict in the great lakes region/the case of the Hutu in Ituri"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MiConIturi2019",
+        "name": "Uhamaji wa wanyerwanda: Migration and Conflict in Ituri, DR Congo"
+      },
+      "dre_id": "acd-01-0004",
+      "location": {
+        "origin": [
+          {
+            "l1": "Democratic Republic of the Congo",
+            "l2": "Ituri",
+            "l3": "Geti"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "674dc0432e70d1e383d18b01",
+      "titleInfo": [
+        {
+          "title": "Recherche sur mobilité et conflits dans les grand lacs/cas de Hutu en Ituri"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MiConIturi2019",
+        "name": "Uhamaji wa wanyerwanda: Migration and Conflict in Ituri, DR Congo"
+      },
+      "dre_id": "acd-01-0005",
+      "location": {
+        "origin": [
+          {
+            "l1": "Democratic Republic of the Congo",
+            "l2": "Ituri",
+            "l3": "Geti"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "674dc0432e70d1e383d18b02",
+      "titleInfo": [
+        {
+          "title": "Focus group: mixed members of local communities (adults, young ones and the elderly)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MiConIturi2019",
+        "name": "Uhamaji wa wanyerwanda: Migration and Conflict in Ituri, DR Congo"
+      },
+      "dre_id": "acd-01-0006",
+      "location": {
+        "origin": [
+          {
+            "l1": "Democratic Republic of the Congo",
+            "l2": "Ituri",
+            "l3": "Geti"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "674dc0432e70d1e383d18b03",
+      "titleInfo": [
+        {
+          "title": "Focus group: mixed Hutu community (adults, young people and the elderly)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MiConIturi2019",
+        "name": "Uhamaji wa wanyerwanda: Migration and Conflict in Ituri, DR Congo"
+      },
+      "dre_id": "acd-01-0007",
+      "location": {
+        "origin": [
+          {
+            "l1": "Democratic Republic of the Congo",
+            "l2": "Ituri",
+            "l3": "Geti"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "674dc0432e70d1e383d18b04",
+      "titleInfo": [
+        {
+          "title": "Focus group: mixed young indigenous and Hutu people"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MiConIturi2019",
+        "name": "Uhamaji wa wanyerwanda: Migration and Conflict in Ituri, DR Congo"
+      },
+      "dre_id": "acd-01-0008",
+      "location": {
+        "origin": [
+          {
+            "l1": "Democratic Republic of the Congo",
+            "l2": "Ituri",
+            "l3": "Geti"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
+    }
+  ]
+}

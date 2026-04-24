@@ -1,0 +1,621 @@
+{
+  "meta": {
+    "type": "project",
+    "id": "UBT_MoCapIE2021",
+    "name": "Mobile Capital and (Im)Mobile Entrepreneurs: Start-up Success, Institutional Context and the “Laws of Start-up Money” in Silicon Savannah",
+    "count": 5
+  },
+  "timeline": [
+    {
+      "year": 2022,
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2022,
+      "total": 3,
+      "byType": {
+        "Text": 1,
+        "Audio": 1,
+        "Dataset": 1
+      }
+    },
+    {
+      "year": 2023,
+      "total": 2,
+      "byType": {
+        "Text": 1,
+        "Dataset": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    },
+    {
+      "name": "Dataset",
+      "value": 2
+    },
+    {
+      "name": "Audio",
+      "value": 1
+    }
+  ],
+  "languages": [],
+  "roles": [],
+  "heatmap": [
+    {
+      "x": "2020s",
+      "y": "Audio",
+      "value": 1
+    },
+    {
+      "x": "2020s",
+      "y": "Dataset",
+      "value": 2
+    },
+    {
+      "x": "2020s",
+      "y": "Text",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Economic geography",
+      "value": 5
+    },
+    {
+      "name": "Social justice",
+      "value": 5
+    },
+    {
+      "name": "Venture capital",
+      "value": 5
+    },
+    {
+      "name": "Regional disparities",
+      "value": 5
+    },
+    {
+      "name": "Gender",
+      "value": 5
+    },
+    {
+      "name": "Race",
+      "value": 5
+    },
+    {
+      "name": "Intersectionality (Sociology)",
+      "value": 5
+    },
+    {
+      "name": "Interviews",
+      "value": 5
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Economic geography",
+      "value": 5
+    },
+    {
+      "name": "Social justice",
+      "value": 5
+    },
+    {
+      "name": "Venture capital",
+      "value": 5
+    },
+    {
+      "name": "Regional disparities",
+      "value": 5
+    },
+    {
+      "name": "Gender",
+      "value": 5
+    },
+    {
+      "name": "Race",
+      "value": 5
+    },
+    {
+      "name": "Intersectionality (Sociology)",
+      "value": 5
+    },
+    {
+      "name": "Interviews",
+      "value": 5
+    },
+    {
+      "name": "Startup Founder",
+      "value": 5
+    },
+    {
+      "name": "Geographic Inequity",
+      "value": 5
+    },
+    {
+      "name": "Silicon Savannah",
+      "value": 5
+    },
+    {
+      "name": "Inequality",
+      "value": 5
+    },
+    {
+      "name": "Entrepreneurial Mobility",
+      "value": 5
+    },
+    {
+      "name": "Startup Ecosystem",
+      "value": 5
+    },
+    {
+      "name": "Financial Geography",
+      "value": 5
+    },
+    {
+      "name": "Structural Barrier",
+      "value": 5
+    },
+    {
+      "name": "Barriers to Entry (Economic Theory)",
+      "value": 5
+    }
+  ],
+  "sunburst": [
+    {
+      "name": "Text",
+      "children": [
+        {
+          "name": "Unknown",
+          "children": [
+            {
+              "name": "Economic geography",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Social justice",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Venture capital",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Regional disparities",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Gender",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Race",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Intersectionality (Sociology)",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Interviews",
+              "value": 2,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dataset",
+      "children": [
+        {
+          "name": "Unknown",
+          "children": [
+            {
+              "name": "Economic geography",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Social justice",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Venture capital",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Regional disparities",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Gender",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Race",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Intersectionality (Sociology)",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Interviews",
+              "value": 2,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Audio",
+      "children": [
+        {
+          "name": "Unknown",
+          "children": [
+            {
+              "name": "Economic geography",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Social justice",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Venture capital",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Regional disparities",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Gender",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Race",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Intersectionality (Sociology)",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Interviews",
+              "value": 1,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sankey": {
+    "nodes": [
+      {
+        "name": "Abbas, Nasir"
+      },
+      {
+        "name": "Audio"
+      },
+      {
+        "name": "Dataset"
+      },
+      {
+        "name": "Mkalama, Benedict Wandera"
+      },
+      {
+        "name": "Mobile Capital and (Im)Mobile Entrepreneurs: Start-up Success, Institutional Context and the “Laws of Start-up Money” in Silicon Savannah"
+      },
+      {
+        "name": "Ouma, Stefan"
+      },
+      {
+        "name": "Text"
+      }
+    ],
+    "links": [
+      {
+        "source": "Mkalama, Benedict Wandera",
+        "target": "Mobile Capital and (Im)Mobile Entrepreneurs: Start-up Success, Institutional Context and the “Laws of Start-up Money” in Silicon Savannah",
+        "value": 5
+      },
+      {
+        "source": "Ouma, Stefan",
+        "target": "Mobile Capital and (Im)Mobile Entrepreneurs: Start-up Success, Institutional Context and the “Laws of Start-up Money” in Silicon Savannah",
+        "value": 4
+      },
+      {
+        "source": "Mobile Capital and (Im)Mobile Entrepreneurs: Start-up Success, Institutional Context and the “Laws of Start-up Money” in Silicon Savannah",
+        "target": "Text",
+        "value": 2
+      },
+      {
+        "source": "Abbas, Nasir",
+        "target": "Mobile Capital and (Im)Mobile Entrepreneurs: Start-up Success, Institutional Context and the “Laws of Start-up Money” in Silicon Savannah",
+        "value": 2
+      },
+      {
+        "source": "Mobile Capital and (Im)Mobile Entrepreneurs: Start-up Success, Institutional Context and the “Laws of Start-up Money” in Silicon Savannah",
+        "target": "Dataset",
+        "value": 2
+      },
+      {
+        "source": "Mobile Capital and (Im)Mobile Entrepreneurs: Start-up Success, Institutional Context and the “Laws of Start-up Money” in Silicon Savannah",
+        "target": "Audio",
+        "value": 1
+      }
+    ]
+  },
+  "chord": {
+    "names": [
+      "Economic geography",
+      "Social justice",
+      "Venture capital",
+      "Regional disparities",
+      "Gender",
+      "Race",
+      "Intersectionality (Sociology)",
+      "Interviews"
+    ],
+    "matrix": [
+      [
+        0,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      [
+        5,
+        0,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      [
+        5,
+        5,
+        0,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      [
+        5,
+        5,
+        5,
+        0,
+        5,
+        5,
+        5,
+        5
+      ],
+      [
+        5,
+        5,
+        5,
+        5,
+        0,
+        5,
+        5,
+        5
+      ],
+      [
+        5,
+        5,
+        5,
+        5,
+        5,
+        0,
+        5,
+        5
+      ],
+      [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        0,
+        5
+      ],
+      [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        0
+      ]
+    ]
+  },
+  "contributors": [
+    {
+      "name": "Mkalama, Benedict Wandera",
+      "value": 5
+    },
+    {
+      "name": "Ouma, Stefan",
+      "value": 4
+    },
+    {
+      "name": "Abbas, Nasir",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "Kenya",
+      "region": "",
+      "city": "",
+      "count": 5
+    }
+  ],
+  "items": [
+    {
+      "_id": "673ca0aecd28e4b91ff9d13d",
+      "titleInfo": [
+        {
+          "title": "Transcription of interviews with startup founders: East Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MoCapIE2021",
+        "name": "Mobile Capital and (Im)Mobile Entrepreneurs: Start-up Success, Institutional Context and the “Laws of Start-up Money” in Silicon Savannah"
+      },
+      "dre_id": "aby-01-0000",
+      "location": {
+        "origin": [
+          {
+            "l1": "Kenya"
+          }
+        ],
+        "current": [
+          "East Africa"
+        ]
+      }
+    },
+    {
+      "_id": "673ca0aecd28e4b91ff9d13e",
+      "titleInfo": [
+        {
+          "title": "Recordings of interviews with startup founders: East Africa"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_MoCapIE2021",
+        "name": "Mobile Capital and (Im)Mobile Entrepreneurs: Start-up Success, Institutional Context and the “Laws of Start-up Money” in Silicon Savannah"
+      },
+      "dre_id": "aby-01-0001",
+      "location": {
+        "origin": [
+          {
+            "l1": "Kenya"
+          }
+        ],
+        "current": [
+          "East Africa"
+        ]
+      }
+    },
+    {
+      "_id": "673ca0aecd28e4b91ff9d13f",
+      "titleInfo": [
+        {
+          "title": "Anonymised transcription of interviews with startup founders: East Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MoCapIE2021",
+        "name": "Mobile Capital and (Im)Mobile Entrepreneurs: Start-up Success, Institutional Context and the “Laws of Start-up Money” in Silicon Savannah"
+      },
+      "dre_id": "aby-01-0002",
+      "location": {
+        "origin": [
+          {
+            "l1": "Kenya"
+          }
+        ],
+        "current": [
+          "East Africa"
+        ]
+      }
+    },
+    {
+      "_id": "673ca0aecd28e4b91ff9d140",
+      "titleInfo": [
+        {
+          "title": "Dataset with information on the start-ups and founders"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MoCapIE2021",
+        "name": "Mobile Capital and (Im)Mobile Entrepreneurs: Start-up Success, Institutional Context and the “Laws of Start-up Money” in Silicon Savannah"
+      },
+      "dre_id": "aby-01-0003",
+      "location": {
+        "origin": [
+          {
+            "l1": "Kenya"
+          }
+        ],
+        "current": [
+          "East Africa"
+        ]
+      }
+    },
+    {
+      "_id": "673ca0aecd28e4b91ff9d141",
+      "titleInfo": [
+        {
+          "title": "Anonymised dataset with information on the start ups and founders"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MoCapIE2021",
+        "name": "Mobile Capital and (Im)Mobile Entrepreneurs: Start-up Success, Institutional Context and the “Laws of Start-up Money” in Silicon Savannah"
+      },
+      "dre_id": "aby-01-0004",
+      "location": {
+        "origin": [
+          {
+            "l1": "Kenya"
+          }
+        ],
+        "current": [
+          "East Africa"
+        ]
+      }
+    }
+  ]
+}

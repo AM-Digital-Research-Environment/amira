@@ -1,0 +1,1753 @@
+{
+  "meta": {
+    "type": "project",
+    "id": "UBT_MuDAIMa2019",
+    "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)",
+    "count": 28
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "count": 9
+    },
+    {
+      "year": 2022,
+      "count": 10
+    },
+    {
+      "year": 2023,
+      "count": 7
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 2,
+      "byType": {
+        "Digital": 1,
+        "Text": 1
+      }
+    },
+    {
+      "year": 2021,
+      "total": 9,
+      "byType": {
+        "Text": 2,
+        "Dataset": 6,
+        "Digital": 1
+      }
+    },
+    {
+      "year": 2022,
+      "total": 10,
+      "byType": {
+        "Text": 1,
+        "Dataset": 5,
+        "Image": 2,
+        "Digital": 2
+      }
+    },
+    {
+      "year": 2023,
+      "total": 7,
+      "byType": {
+        "Text": 2,
+        "Digital": 1,
+        "Dataset": 4
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Dataset",
+      "value": 15
+    },
+    {
+      "name": "Text",
+      "value": 6
+    },
+    {
+      "name": "Digital",
+      "value": 5
+    },
+    {
+      "name": "Image",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 28
+    }
+  ],
+  "roles": [],
+  "heatmap": [
+    {
+      "x": "2020s",
+      "y": "Dataset",
+      "value": 15
+    },
+    {
+      "x": "2020s",
+      "y": "Digital",
+      "value": 5
+    },
+    {
+      "x": "2020s",
+      "y": "Image",
+      "value": 2
+    },
+    {
+      "x": "2020s",
+      "y": "Text",
+      "value": 6
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 18
+    },
+    {
+      "name": "Geography",
+      "value": 10
+    },
+    {
+      "name": "Mediation (Statistics)",
+      "value": 10
+    },
+    {
+      "name": "Economic development",
+      "value": 10
+    },
+    {
+      "name": "Child care",
+      "value": 8
+    },
+    {
+      "name": "Children",
+      "value": 8
+    },
+    {
+      "name": "Fertility",
+      "value": 8
+    },
+    {
+      "name": "Income distribution",
+      "value": 8
+    },
+    {
+      "name": "Youth",
+      "value": 8
+    },
+    {
+      "name": "Education",
+      "value": 8
+    },
+    {
+      "name": "Family planning",
+      "value": 8
+    },
+    {
+      "name": "Migration",
+      "value": 8
+    },
+    {
+      "name": "Natural disasters",
+      "value": 7
+    },
+    {
+      "name": "Global warming",
+      "value": 7
+    },
+    {
+      "name": "Sustainability",
+      "value": 7
+    },
+    {
+      "name": "COVID-19 (Disease)",
+      "value": 2
+    },
+    {
+      "name": "Developing countries",
+      "value": 2
+    },
+    {
+      "name": "Public health",
+      "value": 2
+    },
+    {
+      "name": "Well-being",
+      "value": 1
+    },
+    {
+      "name": "Health",
+      "value": 1
+    },
+    {
+      "name": "Life expectancy",
+      "value": 1
+    },
+    {
+      "name": "Mortality",
+      "value": 1
+    },
+    {
+      "name": "COVID-19 vaccines",
+      "value": 1
+    },
+    {
+      "name": "Herd immunity",
+      "value": 1
+    },
+    {
+      "name": "International relations",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 18
+    },
+    {
+      "name": "Econometric Evidence",
+      "value": 17
+    },
+    {
+      "name": "Geography",
+      "value": 10
+    },
+    {
+      "name": "Mediation (Statistics)",
+      "value": 10
+    },
+    {
+      "name": "Coastal Proximity",
+      "value": 10
+    },
+    {
+      "name": "Mediation Analysis",
+      "value": 10
+    },
+    {
+      "name": "Coastal Countries",
+      "value": 10
+    },
+    {
+      "name": "Household Survey",
+      "value": 10
+    },
+    {
+      "name": "Economic development",
+      "value": 10
+    },
+    {
+      "name": "Child care",
+      "value": 8
+    },
+    {
+      "name": "Children",
+      "value": 8
+    },
+    {
+      "name": "Fertility",
+      "value": 8
+    },
+    {
+      "name": "Income distribution",
+      "value": 8
+    },
+    {
+      "name": "Youth",
+      "value": 8
+    },
+    {
+      "name": "Education",
+      "value": 8
+    },
+    {
+      "name": "Family planning",
+      "value": 8
+    },
+    {
+      "name": "Migration",
+      "value": 8
+    },
+    {
+      "name": "Female Education",
+      "value": 8
+    },
+    {
+      "name": "Human Development",
+      "value": 8
+    },
+    {
+      "name": "Education Policy",
+      "value": 8
+    },
+    {
+      "name": "Educational Influence",
+      "value": 8
+    },
+    {
+      "name": "Child Development",
+      "value": 8
+    },
+    {
+      "name": "Human Resources",
+      "value": 8
+    },
+    {
+      "name": "Natural disasters",
+      "value": 7
+    },
+    {
+      "name": "Global warming",
+      "value": 7
+    },
+    {
+      "name": "Sustainability",
+      "value": 7
+    },
+    {
+      "name": "Disaster Management",
+      "value": 7
+    },
+    {
+      "name": "Environmental Accounts",
+      "value": 7
+    },
+    {
+      "name": "Environmental Accounting",
+      "value": 7
+    },
+    {
+      "name": "Environmental Equity",
+      "value": 7
+    },
+    {
+      "name": "Population Growth",
+      "value": 7
+    },
+    {
+      "name": "Regional Economic Development",
+      "value": 7
+    },
+    {
+      "name": "Regional Economic Change",
+      "value": 7
+    },
+    {
+      "name": "Economic-Environmental Interactions",
+      "value": 7
+    },
+    {
+      "name": "Trade",
+      "value": 7
+    },
+    {
+      "name": "Environment",
+      "value": 7
+    },
+    {
+      "name": "Climate Change",
+      "value": 7
+    },
+    {
+      "name": "COVID-19 (Disease)",
+      "value": 2
+    },
+    {
+      "name": "Developing countries",
+      "value": 2
+    },
+    {
+      "name": "Public health",
+      "value": 2
+    },
+    {
+      "name": "COVID-19",
+      "value": 2
+    },
+    {
+      "name": "Healthcare",
+      "value": 2
+    },
+    {
+      "name": "Well-being",
+      "value": 1
+    },
+    {
+      "name": "Health",
+      "value": 1
+    },
+    {
+      "name": "Microeconomics",
+      "value": 1
+    },
+    {
+      "name": "General Welfare",
+      "value": 1
+    },
+    {
+      "name": "Health Development",
+      "value": 1
+    },
+    {
+      "name": "Water Project",
+      "value": 1
+    },
+    {
+      "name": "Life expectancy",
+      "value": 1
+    },
+    {
+      "name": "Mortality",
+      "value": 1
+    },
+    {
+      "name": "Lockdown",
+      "value": 1
+    },
+    {
+      "name": "Sustainable Solution",
+      "value": 1
+    },
+    {
+      "name": "Emerging Economies",
+      "value": 1
+    },
+    {
+      "name": "Ghana",
+      "value": 1
+    },
+    {
+      "name": "Economy",
+      "value": 1
+    },
+    {
+      "name": "COVID-19 vaccines",
+      "value": 1
+    },
+    {
+      "name": "Herd immunity",
+      "value": 1
+    },
+    {
+      "name": "International relations",
+      "value": 1
+    },
+    {
+      "name": "European Union",
+      "value": 1
+    },
+    {
+      "name": "European Community",
+      "value": 1
+    },
+    {
+      "name": "India",
+      "value": 1
+    }
+  ],
+  "sunburst": [
+    {
+      "name": "Dataset",
+      "children": [
+        {
+          "name": "English",
+          "children": [
+            {
+              "name": "Sub-Saharan Africa",
+              "value": 9,
+              "children": []
+            },
+            {
+              "name": "Natural disasters",
+              "value": 6,
+              "children": []
+            },
+            {
+              "name": "Global warming",
+              "value": 6,
+              "children": []
+            },
+            {
+              "name": "Sustainability",
+              "value": 6,
+              "children": []
+            },
+            {
+              "name": "Geography",
+              "value": 5,
+              "children": []
+            },
+            {
+              "name": "Mediation (Statistics)",
+              "value": 5,
+              "children": []
+            },
+            {
+              "name": "Child care",
+              "value": 4,
+              "children": []
+            },
+            {
+              "name": "Children",
+              "value": 4,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Text",
+      "children": [
+        {
+          "name": "English",
+          "children": [
+            {
+              "name": "Sub-Saharan Africa",
+              "value": 5,
+              "children": []
+            },
+            {
+              "name": "Child care",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "Children",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "Fertility",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "Income distribution",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "Youth",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "Education",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "Family planning",
+              "value": 3,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Digital",
+      "children": [
+        {
+          "name": "English",
+          "children": [
+            {
+              "name": "Economic development",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "Sub-Saharan Africa",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "COVID-19 (Disease)",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Developing countries",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Public health",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Geography",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Mediation (Statistics)",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Well-being",
+              "value": 1,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Image",
+      "children": [
+        {
+          "name": "English",
+          "children": [
+            {
+              "name": "Geography",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Sub-Saharan Africa",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Mediation (Statistics)",
+              "value": 2,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sankey": {
+    "nodes": [
+      {
+        "name": "Dataset"
+      },
+      {
+        "name": "Digital"
+      },
+      {
+        "name": "Frempong, Raymond Boadi"
+      },
+      {
+        "name": "Greßer, Christina"
+      },
+      {
+        "name": "Image"
+      },
+      {
+        "name": "Meierrieks, Daniel"
+      },
+      {
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      {
+        "name": "Stadelmann, David"
+      },
+      {
+        "name": "Text"
+      },
+      {
+        "name": "Wild, Frederik"
+      }
+    ],
+    "links": [
+      {
+        "source": "Stadelmann, David",
+        "target": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)",
+        "value": 28
+      },
+      {
+        "source": "Wild, Frederik",
+        "target": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)",
+        "value": 20
+      },
+      {
+        "source": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)",
+        "target": "Dataset",
+        "value": 15
+      },
+      {
+        "source": "Greßer, Christina",
+        "target": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)",
+        "value": 7
+      },
+      {
+        "source": "Meierrieks, Daniel",
+        "target": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)",
+        "value": 7
+      },
+      {
+        "source": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)",
+        "target": "Text",
+        "value": 6
+      },
+      {
+        "source": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)",
+        "target": "Digital",
+        "value": 5
+      },
+      {
+        "source": "Frempong, Raymond Boadi",
+        "target": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)",
+        "value": 3
+      },
+      {
+        "source": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)",
+        "target": "Image",
+        "value": 2
+      }
+    ]
+  },
+  "chord": {
+    "names": [
+      "Sub-Saharan Africa",
+      "Geography",
+      "Mediation (Statistics)",
+      "Economic development",
+      "Child care",
+      "Children",
+      "Fertility",
+      "Income distribution",
+      "Youth",
+      "Education",
+      "Family planning",
+      "Migration",
+      "Natural disasters",
+      "Global warming",
+      "Sustainability"
+    ],
+    "matrix": [
+      [
+        0,
+        10,
+        10,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        0,
+        0,
+        0
+      ],
+      [
+        10,
+        0,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        10,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        8,
+        0,
+        0,
+        2,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        0,
+        0,
+        0
+      ],
+      [
+        8,
+        0,
+        0,
+        8,
+        0,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        0,
+        0,
+        0
+      ],
+      [
+        8,
+        0,
+        0,
+        8,
+        8,
+        0,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        0,
+        0,
+        0
+      ],
+      [
+        8,
+        0,
+        0,
+        8,
+        8,
+        8,
+        0,
+        8,
+        8,
+        8,
+        8,
+        8,
+        0,
+        0,
+        0
+      ],
+      [
+        8,
+        0,
+        0,
+        8,
+        8,
+        8,
+        8,
+        0,
+        8,
+        8,
+        8,
+        8,
+        0,
+        0,
+        0
+      ],
+      [
+        8,
+        0,
+        0,
+        8,
+        8,
+        8,
+        8,
+        8,
+        0,
+        8,
+        8,
+        8,
+        0,
+        0,
+        0
+      ],
+      [
+        8,
+        0,
+        0,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        0,
+        8,
+        8,
+        0,
+        0,
+        0
+      ],
+      [
+        8,
+        0,
+        0,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        0,
+        8,
+        0,
+        0,
+        0
+      ],
+      [
+        8,
+        0,
+        0,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        7,
+        7
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        7,
+        0,
+        7
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        7,
+        7,
+        0
+      ]
+    ]
+  },
+  "contributors": [
+    {
+      "name": "Stadelmann, David",
+      "value": 28
+    },
+    {
+      "name": "Wild, Frederik",
+      "value": 20
+    },
+    {
+      "name": "Greßer, Christina",
+      "value": 7
+    },
+    {
+      "name": "Meierrieks, Daniel",
+      "value": 7
+    },
+    {
+      "name": "Frempong, Raymond Boadi",
+      "value": 3
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 28
+    }
+  ],
+  "items": [
+    {
+      "_id": "67211011e6fbc830d02e6af1",
+      "titleInfo": [
+        {
+          "title": "Coastal proximity and individual living standards: Econometric evidence from georeferenced household surveys in sub-Saharan Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-0000",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany",
+            "l2": "Bavaria",
+            "l3": "Bayreuth"
+          }
+        ],
+        "current": [
+          "Faculty of Law, Business & Economics, University of Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "67211011e6fbc830d02e6af2",
+      "titleInfo": [
+        {
+          "title": "Coastal proximity and individual living standards: Econometric evidence from georeferenced household surveys in sub-Saharan Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-0001",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany",
+            "l2": "Bavaria",
+            "l3": "Bayreuth"
+          }
+        ],
+        "current": [
+          "Faculty of Law, Business & Economics, University of Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "67211011e6fbc830d02e6af3",
+      "titleInfo": [
+        {
+          "title": "Online Appendix - Supporting Information"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-0002",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany",
+            "l2": "Bavaria",
+            "l3": "Bayreuth"
+          }
+        ],
+        "current": [
+          "Faculty of Law, Business & Economics, University of Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "67211011e6fbc830d02e6af4",
+      "titleInfo": [
+        {
+          "title": "Figure S1"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-0003",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany",
+            "l2": "Bavaria",
+            "l3": "Bayreuth"
+          }
+        ],
+        "current": [
+          "Faculty of Law, Business & Economics, University of Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "67211011e6fbc830d02e6af5",
+      "titleInfo": [
+        {
+          "title": "Figure S2"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-0004",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany",
+            "l2": "Bavaria",
+            "l3": "Bayreuth"
+          }
+        ],
+        "current": [
+          "Faculty of Law, Business & Economics, University of Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "67211011e6fbc830d02e6af6",
+      "titleInfo": [
+        {
+          "title": "Replication script for table 4"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-0005",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany",
+            "l2": "Bavaria",
+            "l3": "Bayreuth"
+          }
+        ],
+        "current": [
+          "Faculty of Law, Business & Economics, University of Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "67211011e6fbc830d02e6af7",
+      "titleInfo": [
+        {
+          "title": "Replication dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-0006",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany",
+            "l2": "Bavaria",
+            "l3": "Bayreuth"
+          }
+        ],
+        "current": [
+          "Faculty of Law, Business & Economics, University of Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "67211011e6fbc830d02e6af8",
+      "titleInfo": [
+        {
+          "title": "Replication dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-0007",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany",
+            "l2": "Bavaria",
+            "l3": "Bayreuth"
+          }
+        ],
+        "current": [
+          "Faculty of Law, Business & Economics, University of Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "67211011e6fbc830d02e6af9",
+      "titleInfo": [
+        {
+          "title": "Replication R script"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-0008",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany",
+            "l2": "Bavaria",
+            "l3": "Bayreuth"
+          }
+        ],
+        "current": [
+          "Faculty of Law, Business & Economics, University of Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "67211011e6fbc830d02e6afa",
+      "titleInfo": [
+        {
+          "title": "Presentation slides"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0009",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany",
+            "l2": "Bavaria",
+            "l3": "Bayreuth"
+          }
+        ],
+        "current": [
+          "Faculty of Law, Business & Economics, University of Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "67211011e6fbc830d02e6afb",
+      "titleInfo": [
+        {
+          "title": "The link between regional temperature and regional incomes: Econometric evidence with sub-national data"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-000a",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany",
+            "l2": "Bavaria",
+            "l3": "Bayreuth"
+          }
+        ],
+        "current": [
+          "Faculty of Law, Business & Economics, University of Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "67211011e6fbc830d02e6afc",
+      "titleInfo": [
+        {
+          "title": "Supplementary Information"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-000b",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany",
+            "l2": "Bavaria",
+            "l3": "Bayreuth"
+          }
+        ],
+        "current": [
+          "Faculty of Law, Business & Economics, University of Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "67211011e6fbc830d02e6afd",
+      "titleInfo": [
+        {
+          "title": "Replication Gennaioli climate growth dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-000c",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany",
+            "l2": "Bavaria",
+            "l3": "Bayreuth"
+          }
+        ],
+        "current": [
+          "Faculty of Law, Business & Economics, University of Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "67211011e6fbc830d02e6afe",
+      "titleInfo": [
+        {
+          "title": "A micro-based evaluation of water projects"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-000d",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany",
+            "l2": "Bavaria",
+            "l3": "Bayreuth"
+          }
+        ],
+        "current": [
+          "Faculty of Law, Business & Economics, University of Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "67211011e6fbc830d02e6aff",
+      "titleInfo": [
+        {
+          "title": "A perspective on secondary effects of the spread of COVID-19 in emerging economies"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-000e",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany",
+            "l2": "Bavaria",
+            "l3": "Bayreuth"
+          }
+        ],
+        "current": [
+          "Faculty of Law, Business & Economics, University of Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b00",
+      "titleInfo": [
+        {
+          "title": "Every (immune) person counts, especially in developing countries"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-000f",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany",
+            "l2": "Bavaria",
+            "l3": "Bayreuth"
+          }
+        ],
+        "current": [
+          "Faculty of Law, Business & Economics, University of Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b01",
+      "titleInfo": [
+        {
+          "title": "Heterogeneous Effects of Women’s Schooling on Fertility, Literacy and Work: Evidence from Burundi’s Free Primary Education Policy"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-0010",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany",
+            "l2": "Bavaria",
+            "l3": "Bayreuth"
+          }
+        ],
+        "current": [
+          "Faculty of Law, Business & Economics, University of Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b02",
+      "titleInfo": [
+        {
+          "title": "Heterogeneous Effects of Women’s Schooling on Fertility, Literacy and Work: Evidence from Burundi’s Free Primary Education Policy"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-0011",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany",
+            "l2": "Bavaria",
+            "l3": "Bayreuth"
+          }
+        ],
+        "current": [
+          "Faculty of Law, Business & Economics, University of Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b03",
+      "titleInfo": [
+        {
+          "title": "Heterogeneous Effects of Women’s Schooling on Fertility, Literacy and Work: Evidence from Burundi’s Free Primary Education Policy"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0012",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany",
+            "l2": "Bavaria",
+            "l3": "Bayreuth"
+          }
+        ],
+        "current": [
+          "Faculty of Law, Business & Economics, University of Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b04",
+      "titleInfo": [
+        {
+          "title": "Appendix: Heterogeneous Effects of Women’s Schooling on Fertility, Literacy and Work: Evidence from Burundi’s Free Primary Education Policy"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0013",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany",
+            "l2": "Bavaria",
+            "l3": "Bayreuth"
+          }
+        ],
+        "current": [
+          "Faculty of Law, Business & Economics, University of Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b05",
+      "titleInfo": [
+        {
+          "title": "Replication R script"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0014",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany",
+            "l2": "Bavaria",
+            "l3": "Bayreuth"
+          }
+        ],
+        "current": [
+          "Faculty of Law, Business & Economics, University of Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b06",
+      "titleInfo": [
+        {
+          "title": "Replication dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0015",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany",
+            "l2": "Bavaria",
+            "l3": "Bayreuth"
+          }
+        ],
+        "current": [
+          "Faculty of Law, Business & Economics, University of Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b07",
+      "titleInfo": [
+        {
+          "title": "Replication dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0016",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany",
+            "l2": "Bavaria",
+            "l3": "Bayreuth"
+          }
+        ],
+        "current": [
+          "Faculty of Law, Business & Economics, University of Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b08",
+      "titleInfo": [
+        {
+          "title": "Replication dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0017",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany",
+            "l2": "Bavaria",
+            "l3": "Bayreuth"
+          }
+        ],
+        "current": [
+          "Faculty of Law, Business & Economics, University of Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b09",
+      "titleInfo": [
+        {
+          "title": "Replication Gennaioli climate dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0018",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany",
+            "l2": "Bavaria",
+            "l3": "Bayreuth"
+          }
+        ],
+        "current": [
+          "Faculty of Law, Business & Economics, University of Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b0a",
+      "titleInfo": [
+        {
+          "title": "Replication DHS 2015 climate dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0019",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany",
+            "l2": "Bavaria",
+            "l3": "Bayreuth"
+          }
+        ],
+        "current": [
+          "Faculty of Law, Business & Economics, University of Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b0b",
+      "titleInfo": [
+        {
+          "title": "Replication DHS 2005 climate dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-001a",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany",
+            "l2": "Bavaria",
+            "l3": "Bayreuth"
+          }
+        ],
+        "current": [
+          "Faculty of Law, Business & Economics, University of Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b0c",
+      "titleInfo": [
+        {
+          "title": "Replication climate R script"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-001b",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany",
+            "l2": "Bavaria",
+            "l3": "Bayreuth"
+          }
+        ],
+        "current": [
+          "Faculty of Law, Business & Economics, University of Bayreuth"
+        ]
+      }
+    }
+  ]
+}

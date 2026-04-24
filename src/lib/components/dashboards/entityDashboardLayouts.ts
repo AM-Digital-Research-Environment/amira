@@ -293,9 +293,28 @@ export const ENTITY_LAYOUTS: Partial<Record<EntityType, EntityLayout>> = {
 			{ chart: 'contributors' },
 			{ chart: 'locations', wide: true, tall: true }
 		]
+	},
+	project: {
+		entity: 'project',
+		showUniversityFilter: false,
+		charts: [
+			{ chart: 'timeline', wide: true },
+			{ chart: 'stackedTimeline', wide: true },
+			{ chart: 'types' },
+			{ chart: 'languages' },
+			{ chart: 'roles' },
+			{ chart: 'heatmap', wide: true, title: 'Resource type × decade' },
+			{ chart: 'subjects' },
+			{ chart: 'wordCloud', tall: true },
+			{ chart: 'sunburst', wide: true, title: 'Type → language → subject' },
+			{ chart: 'chord', wide: true, tall: true, title: 'Subject co-occurrence' },
+			{ chart: 'sankey', wide: true, title: 'Contributor → project → type' },
+			{ chart: 'contributors' },
+			{ chart: 'locations', wide: true, tall: true }
+		]
 	}
-	// Remaining Phase 2 layouts (project full parity, research-item KG +
-	// context strip) land as separate follow-ups — see ROADMAP-parity.md.
+	// Remaining Phase 2 layouts (research-item KG + context strip) land as
+	// separate follow-ups — see ROADMAP-parity.md.
 };
 
 /** Whether to offer the university filter on this entity's detail page. */

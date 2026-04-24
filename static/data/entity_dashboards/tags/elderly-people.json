@@ -329,7 +329,24 @@
         "id": "UBT_Covid192021",
         "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
       },
-      "dre_id": "abz-01-001c"
+      "dre_id": "abz-01-001c",
+      "location": {
+        "origin": [
+          {
+            "l1": "Kenya",
+            "l2": "Kajiado",
+            "l3": "Olepolos"
+          },
+          {
+            "l1": "Kenya",
+            "l2": "Narok",
+            "l3": "Maasai Mara National Reserve"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
     },
     {
       "_id": "69c1568e666e5b9f92cf9f71",
@@ -343,7 +360,19 @@
         "id": "UJKZ_JITBF2020",
         "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
       },
-      "dre_id": "acs-03-0019"
+      "dre_id": "acs-03-0019",
+      "location": {
+        "origin": [
+          {
+            "l1": "Burkina Faso",
+            "l2": "Sud-Ouest Region",
+            "l3": "Dano"
+          }
+        ],
+        "current": [
+          "Université Joseph Ki-Zerbo"
+        ]
+      }
     },
     {
       "_id": "69c1568e666e5b9f92cf9f73",
@@ -357,7 +386,19 @@
         "id": "UJKZ_JITBF2020",
         "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
       },
-      "dre_id": "acs-03-001b"
+      "dre_id": "acs-03-001b",
+      "location": {
+        "origin": [
+          {
+            "l1": "Burkina Faso",
+            "l2": "Hauts-Bassins Region",
+            "l3": "Bobo-Dioulasso"
+          }
+        ],
+        "current": [
+          "Université Joseph Ki-Zerbo"
+        ]
+      }
     },
     {
       "_id": "69c1568e666e5b9f92cf9f76",
@@ -371,7 +412,19 @@
         "id": "UJKZ_JITBF2020",
         "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
       },
-      "dre_id": "acs-03-001e"
+      "dre_id": "acs-03-001e",
+      "location": {
+        "origin": [
+          {
+            "l1": "Burkina Faso",
+            "l2": "Hauts-Bassins Region",
+            "l3": "Bobo-Dioulasso"
+          }
+        ],
+        "current": [
+          "Université Joseph Ki-Zerbo"
+        ]
+      }
     }
   ]
 }

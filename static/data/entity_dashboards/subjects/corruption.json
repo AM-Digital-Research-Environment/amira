@@ -220,7 +220,39 @@
         "id": "UBT_Covid192021",
         "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
       },
-      "dre_id": "abz-01-0005"
+      "dre_id": "abz-01-0005",
+      "location": {
+        "origin": [
+          {
+            "l1": "Kenya",
+            "l2": "Narok",
+            "l3": "Mpuaai"
+          },
+          {
+            "l1": "Kenya",
+            "l2": "Narok",
+            "l3": "Talek"
+          },
+          {
+            "l1": "Kenya",
+            "l2": "Narok",
+            "l3": "Maasai Mara National Reserve"
+          },
+          {
+            "l1": "Tanzania",
+            "l2": "Arusha"
+          },
+          {
+            "l1": "Uganda"
+          },
+          {
+            "l1": "South Africa"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
     },
     {
       "_id": "672b6332248362c6205092d4",
@@ -234,7 +266,14 @@
         "id": "UBT_Humanitar2019",
         "name": "Humanities for Humanitarians. An Experiment in the Public Implications of Multiple Ontology"
       },
-      "dre_id": "abv-01-0004"
+      "dre_id": "abv-01-0004",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany"
+          }
+        ]
+      }
     }
   ]
 }

@@ -267,7 +267,17 @@
         "id": "UBT_ArtWorld2019",
         "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
       },
-      "dre_id": "abg-01-002b"
+      "dre_id": "abg-01-002b",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
     },
     {
       "_id": "68c2f8e1f102814baee7b4cd",
@@ -281,7 +291,19 @@
         "id": "UBT_ArtWorld2019",
         "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
       },
-      "dre_id": "abg-01-0045"
+      "dre_id": "abg-01-0045",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany",
+            "l2": "Bavaria",
+            "l3": "Bayreuth"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
     },
     {
       "_id": "68c2f8e1f102814baee7b521",
@@ -295,7 +317,19 @@
         "id": "UBT_ArtWorld2019",
         "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
       },
-      "dre_id": "abg-01-0099"
+      "dre_id": "abg-01-0099",
+      "location": {
+        "origin": [
+          {
+            "l1": "Australia",
+            "l2": "New South Wales",
+            "l3": "Sydney"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
     },
     {
       "_id": "68c2f8e1f102814baee7b53d",
@@ -309,7 +343,12 @@
         "id": "UBT_ArtWorld2019",
         "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
       },
-      "dre_id": "abg-99-00b5"
+      "dre_id": "abg-99-00b5",
+      "location": {
+        "current": [
+          "Bayreuth"
+        ]
+      }
     },
     {
       "_id": "685a631ec25a5271e0a9ed8e",
@@ -319,7 +358,17 @@
         }
       ],
       "typeOfResource": "Text",
-      "dre_id": "eaa-99-03a9"
+      "dre_id": "eaa-99-03a9",
+      "location": {
+        "origin": [
+          {
+            "l1": "South Africa"
+          }
+        ],
+        "current": [
+          "Rhodes University"
+        ]
+      }
     }
   ]
 }

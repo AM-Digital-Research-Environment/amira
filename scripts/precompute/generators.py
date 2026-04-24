@@ -475,10 +475,77 @@ def generate_research_section_dashboard(
 
 
 # --------------------------------------------------------------------------
+# Projects
+# --------------------------------------------------------------------------
+
+
+def project_index(items: list[dict]) -> dict[str, list[dict]]:
+    """Group items by their containing project id."""
+    index: dict[str, list[dict]] = defaultdict(list)
+    for item in items:
+        project = item.get("project") or {}
+        if not isinstance(project, dict):
+            continue
+        pid = agg._as_str(project.get("id"))
+        if not pid:
+            continue
+        index[pid].append(item)
+    return index
+
+
+def project_name_lookup(items: list[dict]) -> dict[str, str]:
+    """Map each project id to its human-readable name, falling back to id."""
+    out: dict[str, str] = {}
+    for item in items:
+        project = item.get("project") or {}
+        if not isinstance(project, dict):
+            continue
+        pid = agg._as_str(project.get("id"))
+        name = agg._as_str(project.get("name"))
+        if pid and name and pid not in out:
+            out[pid] = name
+    return out
+
+
+def generate_project_dashboard(
+    project_id: str,
+    items: list[dict],
+    display_name: str | None = None,
+) -> dict:
+    """Dashboard for a single project — every item whose `project.id` matches."""
+    filtered = [
+        item
+        for item in items
+        if agg._as_str(((item.get("project") or {}) or {}).get("id")) == project_id
+    ]
+    name = display_name or (
+        agg._as_str(((filtered[0].get("project") or {}) if filtered else {}).get("name"))
+        or project_id
+    )
+
+    return {
+        "meta": agg.build_meta("project", project_id, name, filtered),
+        "timeline": agg.build_timeline(filtered),
+        "stackedTimeline": agg.build_stacked_timeline(filtered),
+        "types": agg.build_types(filtered),
+        "languages": agg.build_languages(filtered),
+        "roles": agg.build_roles(filtered),
+        "heatmap": agg.build_heatmap_type_decade(filtered),
+        "subjects": agg.build_subjects(filtered),
+        "wordCloud": agg.build_word_cloud(filtered),
+        "sunburst": agg.build_sunburst(filtered),
+        "sankey": agg.build_sankey(filtered),
+        "chord": agg.build_chord(filtered),
+        "contributors": agg.build_contributors(filtered),
+        "locations": agg.build_locations(filtered),
+        "items": agg.build_item_summaries(filtered),
+    }
+
+
+# --------------------------------------------------------------------------
 # Placeholders for upcoming entity generators (Phase 2 tail)
 # --------------------------------------------------------------------------
 #
-# generate_project_dashboard(...)    — /projects/[id] full-parity layout
 # generate_research_item_dashboard() — /research-items/[id] context strip
 #
 # Each becomes its own follow-up under AM-Digital-Research-Environment/amira#10.

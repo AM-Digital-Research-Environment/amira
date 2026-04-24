@@ -168,7 +168,16 @@
         "id": "UBT_TravKnowl2019",
         "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
       },
-      "dre_id": "abm-01-002d"
+      "dre_id": "abm-01-002d",
+      "location": {
+        "origin": [
+          {
+            "l1": "United Kingdom",
+            "l2": "England",
+            "l3": "London"
+          }
+        ]
+      }
     },
     {
       "_id": "685a631ec25a5271e0a9edbb",
@@ -178,7 +187,17 @@
         }
       ],
       "typeOfResource": "Text",
-      "dre_id": "eaa-99-03d6"
+      "dre_id": "eaa-99-03d6",
+      "location": {
+        "origin": [
+          {
+            "l1": "South Africa"
+          }
+        ],
+        "current": [
+          "Rhodes University"
+        ]
+      }
     }
   ]
 }

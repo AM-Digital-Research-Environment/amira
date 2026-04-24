@@ -353,7 +353,38 @@
         "id": "UBT_Covid192021",
         "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
       },
-      "dre_id": "abz-01-0013"
+      "dre_id": "abz-01-0013",
+      "location": {
+        "origin": [
+          {
+            "l1": "Mongolia",
+            "l2": "Arkhangai Province",
+            "l3": "Battsengel Soum"
+          },
+          {
+            "l1": "Mongolia",
+            "l2": "Dornod Province",
+            "l3": "Tsagaan-Ovoo Soum"
+          },
+          {
+            "l1": "Mongolia",
+            "l2": "Sükhbaatar Province"
+          },
+          {
+            "l1": "Mongolia",
+            "l2": "Govi-Altai Province"
+          },
+          {
+            "l1": "China"
+          },
+          {
+            "l1": "Russia"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
     },
     {
       "_id": "66cefaf495a000d4c7bf371d",
@@ -367,7 +398,22 @@
         "id": "UBT_Covid192021",
         "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
       },
-      "dre_id": "abz-01-0018"
+      "dre_id": "abz-01-0018",
+      "location": {
+        "origin": [
+          {
+            "l1": "Mongolia",
+            "l2": "Bayankhongor Province"
+          },
+          {
+            "l1": "Mongolia",
+            "l2": "Bulga Province"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
     },
     {
       "_id": "66cefaf495a000d4c7bf371e",
@@ -381,7 +427,28 @@
         "id": "UBT_Covid192021",
         "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
       },
-      "dre_id": "abz-01-0019"
+      "dre_id": "abz-01-0019",
+      "location": {
+        "origin": [
+          {
+            "l1": "Mongolia",
+            "l2": "Khentii Province",
+            "l3": "Delgerhan Soum"
+          },
+          {
+            "l1": "Mongolia",
+            "l2": "Bayan-Ölgii Province"
+          },
+          {
+            "l1": "Mongolia",
+            "l2": "Ulaanbaatar",
+            "l3": "Ulaanbaatar"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
     },
     {
       "_id": "66cefaf495a000d4c7bf3724",
@@ -395,7 +462,17 @@
         "id": "UBT_Covid192021",
         "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
       },
-      "dre_id": "abz-01-001f"
+      "dre_id": "abz-01-001f",
+      "location": {
+        "origin": [
+          {
+            "l1": "Mongolia"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
     },
     {
       "_id": "672b6332248362c6205092db",
@@ -409,7 +486,14 @@
         "id": "UBT_Humanitar2019",
         "name": "Humanities for Humanitarians. An Experiment in the Public Implications of Multiple Ontology"
       },
-      "dre_id": "abv-01-000b"
+      "dre_id": "abv-01-000b",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany"
+          }
+        ]
+      }
     }
   ]
 }

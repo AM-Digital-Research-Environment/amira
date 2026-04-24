@@ -539,13 +539,157 @@ def build_heatmap_type_decade(items: Iterable[dict]) -> list[dict]:
 build_heatmap_type_year = build_heatmap_type_decade
 
 
+def build_sankey(
+    items: Iterable[dict],
+    max_items: int = 200,
+    max_links: int = 100,
+) -> dict:
+    """Chart: `sankey` -> Contributor → Project → Resource Type flows.
+
+    Port of `buildSankeyData()` from `src/lib/utils/transforms/network.ts`.
+    """
+    node_set: set[str] = set()
+    link_map: Counter[tuple[str, str]] = Counter()
+
+    for item in list(items)[:max_items]:
+        project = item.get("project") or {}
+        project_name = _as_str(project.get("name")) or _as_str(project.get("id"))
+        resource_type = _as_str(item.get("typeOfResource"))
+        if not project_name or not resource_type:
+            continue
+
+        node_set.add(project_name)
+        node_set.add(resource_type)
+        link_map[(project_name, resource_type)] += 1
+
+        # Top-3 contributors only, matching the TS version.
+        for block in (item.get("name") or [])[:3]:
+            if not isinstance(block, dict):
+                continue
+            nm = block.get("name") or {}
+            label = _as_str(nm.get("label"))
+            if not label:
+                continue
+            node_set.add(label)
+            link_map[(label, project_name)] += 1
+
+    nodes = [{"name": n} for n in sorted(node_set)]
+    links = [
+        {"source": src, "target": tgt, "value": val}
+        for (src, tgt), val in link_map.most_common(max_links)
+    ]
+    return {"nodes": nodes, "links": links}
+
+
+def build_sunburst(
+    items: Iterable[dict],
+    max_subjects: int = 8,
+) -> list[dict]:
+    """Chart: `sunburst` -> Resource Type → Language → Subject hierarchy.
+
+    Port of `buildSunburstData()` from `src/lib/utils/transforms/network.ts`.
+    """
+    type_map: dict[str, dict[str, Counter[str]]] = {}
+
+    for item in items:
+        resource_type = _as_str(item.get("typeOfResource")) or "Unknown"
+        language_codes = _language_codes(item)
+        languages = (
+            [language_name(c) for c in language_codes] if language_codes else ["Unknown"]
+        )
+        subjects = _subject_labels(item)
+
+        lang_bucket = type_map.setdefault(resource_type, {})
+        for lang in languages:
+            subj_bucket = lang_bucket.setdefault(lang, Counter())
+            if not subjects:
+                subj_bucket["(no subject)"] += 1
+            else:
+                for subj in subjects:
+                    subj_bucket[subj] += 1
+
+    result: list[dict] = []
+    for resource_type, lang_bucket in type_map.items():
+        lang_children: list[dict] = []
+        for lang, subj_counter in lang_bucket.items():
+            top = subj_counter.most_common(max_subjects)
+            if not top:
+                continue
+            lang_children.append(
+                {
+                    "name": lang,
+                    "children": [
+                        {"name": subj, "value": count, "children": []}
+                        for subj, count in top
+                    ],
+                }
+            )
+        if lang_children:
+            result.append({"name": resource_type, "children": lang_children})
+
+    def _total(node: dict) -> int:
+        total = 0
+        for lang_node in node.get("children") or []:
+            for subj_node in lang_node.get("children") or []:
+                total += int(subj_node.get("value") or 0)
+        return total
+
+    result.sort(key=_total, reverse=True)
+    return result
+
+
+def build_chord(
+    items: Iterable[dict],
+    min_occurrences: int = 3,
+    max_subjects: int = 25,
+) -> dict:
+    """Chart: `chord` (subject co-occurrence) -> `{names, matrix}`.
+
+    Port of `buildSubjectCoOccurrence()` from
+    `src/lib/utils/transforms/network.ts`.
+    """
+    subject_counts: Counter[str] = Counter()
+    per_item_subjects: list[list[str]] = []
+
+    for item in items:
+        labels = _subject_labels(item)
+        per_item_subjects.append(labels)
+        for subj in labels:
+            subject_counts[subj] += 1
+
+    top = [
+        name
+        for name, count in subject_counts.most_common(max_subjects)
+        if count >= min_occurrences
+    ]
+    if not top:
+        return {"names": [], "matrix": []}
+
+    idx = {name: i for i, name in enumerate(top)}
+    n = len(top)
+    matrix = [[0] * n for _ in range(n)]
+
+    for labels in per_item_subjects:
+        known = [name for name in labels if name in idx]
+        for i in range(len(known)):
+            for j in range(i + 1, len(known)):
+                a = idx[known[i]]
+                b = idx[known[j]]
+                matrix[a][b] += 1
+                matrix[b][a] += 1
+
+    return {"names": top, "matrix": matrix}
+
+
 def build_item_summaries(items: Iterable[dict]) -> list[dict]:
     """Slim per-item record shaped like `CollectionItem` subset used by
-    `EntityItemsCard` / `CollectionItemRow`.
+    `EntityItemsCard` / `CollectionItemRow` **and** the LocationMap
+    clustered-marker popups.
 
     Allows detail-view rendering to work without loading the full 13 MB
     collections dump — the entity's dashboard JSON carries everything the
-    list needs: id, title, type, and project label.
+    list + map need: id, title, type, project label, and origin/current
+    location coordinates (so marker popups can match items to clusters).
     """
     out: list[dict] = []
     seen: set[str] = set()
@@ -597,6 +741,38 @@ def build_item_summaries(items: Iterable[dict]) -> list[dict]:
         dre = _as_str(item.get("dre_id"))
         if dre and dre != item_id:
             record["dre_id"] = dre
+
+        # Location block (origins + current) — needed by the LocationMap
+        # cluster-popup matcher in `src/lib/components/charts/map/markerBuilder.ts`,
+        # which filters items by `location.origin[].l1/l2/l3` and
+        # `location.current[]`. Kept slim: only the three origin levels
+        # and the current-location list, nothing else.
+        location = item.get("location") or {}
+        if isinstance(location, dict):
+            origin_out: list[dict] = []
+            for origin in location.get("origin") or []:
+                if not isinstance(origin, dict):
+                    continue
+                parts: dict[str, str] = {}
+                for key in ("l1", "l2", "l3"):
+                    v = _as_str(origin.get(key))
+                    if v:
+                        parts[key] = v
+                if parts:
+                    origin_out.append(parts)
+            current_out: list[str] = []
+            for current in location.get("current") or []:
+                label = _as_str(current)
+                if label:
+                    current_out.append(label)
+            loc_block: dict = {}
+            if origin_out:
+                loc_block["origin"] = origin_out
+            if current_out:
+                loc_block["current"] = current_out
+            if loc_block:
+                record["location"] = loc_block
+
         out.append(record)
     return out
 

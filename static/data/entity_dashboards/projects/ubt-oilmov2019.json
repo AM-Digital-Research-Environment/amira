@@ -1,0 +1,372 @@
+{
+  "meta": {
+    "type": "project",
+    "id": "UBT_OilMov2019",
+    "name": "Oil Movements: The Production and Government of Petro-(im)mobilities in East Africa",
+    "count": 6
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 5
+    },
+    {
+      "year": 2021,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 5,
+      "byType": {
+        "Text": 4,
+        "Audio": 1
+      }
+    },
+    {
+      "year": 2021,
+      "total": 1,
+      "byType": {
+        "Audio": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 4
+    },
+    {
+      "name": "Audio",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 6
+    },
+    {
+      "name": "Swahili",
+      "value": 2
+    }
+  ],
+  "roles": [],
+  "heatmap": [
+    {
+      "x": "2020s",
+      "y": "Audio",
+      "value": 2
+    },
+    {
+      "x": "2020s",
+      "y": "Text",
+      "value": 4
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "Oil Infrastructure",
+      "value": 3
+    },
+    {
+      "name": "East African Crude Oil Pipeline",
+      "value": 3
+    },
+    {
+      "name": "Uganda",
+      "value": 3
+    },
+    {
+      "name": "Mega Infrastructure",
+      "value": 3
+    },
+    {
+      "name": "Lamu Port and Lamu-Southern Sudan-Ethiopia Transport Corridor",
+      "value": 3
+    },
+    {
+      "name": "Kenya",
+      "value": 3
+    }
+  ],
+  "sunburst": [
+    {
+      "name": "Text",
+      "children": [
+        {
+          "name": "English",
+          "children": [
+            {
+              "name": "(no subject)",
+              "value": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Swahili",
+          "children": [
+            {
+              "name": "(no subject)",
+              "value": 1,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Audio",
+      "children": [
+        {
+          "name": "English",
+          "children": [
+            {
+              "name": "(no subject)",
+              "value": 2,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Swahili",
+          "children": [
+            {
+              "name": "(no subject)",
+              "value": 1,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sankey": {
+    "nodes": [
+      {
+        "name": "Audio"
+      },
+      {
+        "name": "Doevenspeck, Martin"
+      },
+      {
+        "name": "Kinyera, Paddy Banya"
+      },
+      {
+        "name": "Oil Movements: The Production and Government of Petro-(im)mobilities in East Africa"
+      },
+      {
+        "name": "Text"
+      }
+    ],
+    "links": [
+      {
+        "source": "Kinyera, Paddy Banya",
+        "target": "Oil Movements: The Production and Government of Petro-(im)mobilities in East Africa",
+        "value": 6
+      },
+      {
+        "source": "Doevenspeck, Martin",
+        "target": "Oil Movements: The Production and Government of Petro-(im)mobilities in East Africa",
+        "value": 6
+      },
+      {
+        "source": "Oil Movements: The Production and Government of Petro-(im)mobilities in East Africa",
+        "target": "Text",
+        "value": 4
+      },
+      {
+        "source": "Oil Movements: The Production and Government of Petro-(im)mobilities in East Africa",
+        "target": "Audio",
+        "value": 2
+      }
+    ]
+  },
+  "chord": {
+    "names": [],
+    "matrix": []
+  },
+  "contributors": [
+    {
+      "name": "Kinyera, Paddy Banya",
+      "value": 6
+    },
+    {
+      "name": "Doevenspeck, Martin",
+      "value": 6
+    }
+  ],
+  "locations": [
+    {
+      "country": "Kenya",
+      "region": "Turkana",
+      "city": "Turkana South",
+      "count": 4
+    },
+    {
+      "country": "Uganda",
+      "region": "Lwengo District",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "66e30b89f27a094a184204b0",
+      "titleInfo": [
+        {
+          "title": "Transcript of Interview with a local leader in Lwengo district"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_OilMov2019",
+        "name": "Oil Movements: The Production and Government of Petro-(im)mobilities in East Africa"
+      },
+      "dre_id": "aca-01-0000",
+      "location": {
+        "origin": [
+          {
+            "l1": "Uganda",
+            "l2": "Lwengo District"
+          }
+        ],
+        "current": [
+          "University of Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "66e30b89f27a094a184204b1",
+      "titleInfo": [
+        {
+          "title": "Transcript of Interview with a Sub-county official - Turkana South, Lokichar"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_OilMov2019",
+        "name": "Oil Movements: The Production and Government of Petro-(im)mobilities in East Africa"
+      },
+      "dre_id": "aca-01-0001",
+      "location": {
+        "origin": [
+          {
+            "l1": "Kenya",
+            "l2": "Turkana",
+            "l3": "Turkana South"
+          }
+        ],
+        "current": [
+          "University of Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "66e30b89f27a094a184204b2",
+      "titleInfo": [
+        {
+          "title": "Transcript of Interview with a local leader in Lwengo district"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_OilMov2019",
+        "name": "Oil Movements: The Production and Government of Petro-(im)mobilities in East Africa"
+      },
+      "dre_id": "aca-01-0002",
+      "location": {
+        "origin": [
+          {
+            "l1": "Uganda",
+            "l2": "Lwengo District"
+          }
+        ],
+        "current": [
+          "University of Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "66e30b89f27a094a184204b3",
+      "titleInfo": [
+        {
+          "title": "Transcript of Interview Chair of COE - Turkana South, Lokichar"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_OilMov2019",
+        "name": "Oil Movements: The Production and Government of Petro-(im)mobilities in East Africa"
+      },
+      "dre_id": "aca-01-0003",
+      "location": {
+        "origin": [
+          {
+            "l1": "Kenya",
+            "l2": "Turkana",
+            "l3": "Turkana South"
+          }
+        ],
+        "current": [
+          "University of Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "66e30b89f27a094a184204b4",
+      "titleInfo": [
+        {
+          "title": "Transcript of Interview with 2 PAPs in Lwengo district"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_OilMov2019",
+        "name": "Oil Movements: The Production and Government of Petro-(im)mobilities in East Africa"
+      },
+      "dre_id": "aca-01-0004",
+      "location": {
+        "origin": [
+          {
+            "l1": "Kenya",
+            "l2": "Turkana",
+            "l3": "Turkana South"
+          }
+        ],
+        "current": [
+          "University of Bayreuth"
+        ]
+      }
+    },
+    {
+      "_id": "66e30b89f27a094a184204b5",
+      "titleInfo": [
+        {
+          "title": "Audio recording of an interview with LAPSSET project activist in Lokichar, Turkana South, Kenya"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_OilMov2019",
+        "name": "Oil Movements: The Production and Government of Petro-(im)mobilities in East Africa"
+      },
+      "dre_id": "aca-01-0005",
+      "location": {
+        "origin": [
+          {
+            "l1": "Kenya",
+            "l2": "Turkana",
+            "l3": "Turkana South"
+          }
+        ],
+        "current": [
+          "University of Bayreuth"
+        ]
+      }
+    }
+  ]
+}

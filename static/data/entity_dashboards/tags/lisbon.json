@@ -121,7 +121,19 @@
         "id": "UBT_ArtWorld2019",
         "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
       },
-      "dre_id": "abg-01-00b0"
+      "dre_id": "abg-01-00b0",
+      "location": {
+        "origin": [
+          {
+            "l1": "Portugal",
+            "l2": "Lisbon",
+            "l3": "Sintra"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
     },
     {
       "_id": "68c2f8e1f102814baee7b539",
@@ -135,7 +147,19 @@
         "id": "UBT_ArtWorld2019",
         "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
       },
-      "dre_id": "abg-01-00b1"
+      "dre_id": "abg-01-00b1",
+      "location": {
+        "origin": [
+          {
+            "l1": "Portugal",
+            "l2": "Lisbon",
+            "l3": "Lisbon"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
     },
     {
       "_id": "68c2f8e1f102814baee7b53a",
@@ -149,7 +173,19 @@
         "id": "UBT_ArtWorld2019",
         "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
       },
-      "dre_id": "abg-01-00b2"
+      "dre_id": "abg-01-00b2",
+      "location": {
+        "origin": [
+          {
+            "l1": "Portugal",
+            "l2": "Lisbon",
+            "l3": "Lisbon"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
     },
     {
       "_id": "68c2f8e1f102814baee7b53d",
@@ -163,7 +199,12 @@
         "id": "UBT_ArtWorld2019",
         "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
       },
-      "dre_id": "abg-99-00b5"
+      "dre_id": "abg-99-00b5",
+      "location": {
+        "current": [
+          "Bayreuth"
+        ]
+      }
     }
   ]
 }

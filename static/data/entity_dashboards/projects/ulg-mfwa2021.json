@@ -1,0 +1,652 @@
+{
+  "meta": {
+    "type": "project",
+    "id": "ULG_MFWA2021",
+    "name": "Youth and Informal Labour Migration in West Africa Urban Corridors",
+    "count": 16
+  },
+  "timeline": [
+    {
+      "year": 2022,
+      "count": 16
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2022,
+      "total": 16,
+      "byType": {
+        "Text": 8,
+        "Image": 7,
+        "Dataset": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 8
+    },
+    {
+      "name": "Image",
+      "value": 7
+    },
+    {
+      "name": "Dataset",
+      "value": 1
+    }
+  ],
+  "languages": [],
+  "roles": [],
+  "heatmap": [
+    {
+      "x": "2020s",
+      "y": "Dataset",
+      "value": 1
+    },
+    {
+      "x": "2020s",
+      "y": "Image",
+      "value": 7
+    },
+    {
+      "x": "2020s",
+      "y": "Text",
+      "value": 8
+    }
+  ],
+  "subjects": [
+    {
+      "name": "West Africa",
+      "value": 16
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "West Africa",
+      "value": 16
+    },
+    {
+      "name": "African Studies",
+      "value": 16
+    },
+    {
+      "name": "Immigration Studies",
+      "value": 16
+    },
+    {
+      "name": "Immigration",
+      "value": 16
+    },
+    {
+      "name": "Knowledge",
+      "value": 16
+    }
+  ],
+  "sunburst": [
+    {
+      "name": "Text",
+      "children": [
+        {
+          "name": "Unknown",
+          "children": [
+            {
+              "name": "West Africa",
+              "value": 8,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Image",
+      "children": [
+        {
+          "name": "Unknown",
+          "children": [
+            {
+              "name": "West Africa",
+              "value": 7,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dataset",
+      "children": [
+        {
+          "name": "Unknown",
+          "children": [
+            {
+              "name": "West Africa",
+              "value": 1,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sankey": {
+    "nodes": [
+      {
+        "name": "Attoh, Franca"
+      },
+      {
+        "name": "Dataset"
+      },
+      {
+        "name": "Eleshin, Abisoye"
+      },
+      {
+        "name": "Image"
+      },
+      {
+        "name": "Lawanson, Taibat"
+      },
+      {
+        "name": "Text"
+      },
+      {
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      }
+    ],
+    "links": [
+      {
+        "source": "Lawanson, Taibat",
+        "target": "Youth and Informal Labour Migration in West Africa Urban Corridors",
+        "value": 16
+      },
+      {
+        "source": "Eleshin, Abisoye",
+        "target": "Youth and Informal Labour Migration in West Africa Urban Corridors",
+        "value": 16
+      },
+      {
+        "source": "Attoh, Franca",
+        "target": "Youth and Informal Labour Migration in West Africa Urban Corridors",
+        "value": 16
+      },
+      {
+        "source": "Youth and Informal Labour Migration in West Africa Urban Corridors",
+        "target": "Text",
+        "value": 8
+      },
+      {
+        "source": "Youth and Informal Labour Migration in West Africa Urban Corridors",
+        "target": "Image",
+        "value": 7
+      },
+      {
+        "source": "Youth and Informal Labour Migration in West Africa Urban Corridors",
+        "target": "Dataset",
+        "value": 1
+      }
+    ]
+  },
+  "chord": {
+    "names": [
+      "West Africa"
+    ],
+    "matrix": [
+      [
+        0
+      ]
+    ]
+  },
+  "contributors": [
+    {
+      "name": "Lawanson, Taibat",
+      "value": 16
+    },
+    {
+      "name": "Eleshin, Abisoye",
+      "value": 16
+    },
+    {
+      "name": "Attoh, Franca",
+      "value": 16
+    },
+    {
+      "name": "Eesuola, Kayode",
+      "value": 16
+    },
+    {
+      "name": "Olalekan, Damilola",
+      "value": 16
+    },
+    {
+      "name": "Oyewumi, Masudi",
+      "value": 16
+    }
+  ],
+  "locations": [
+    {
+      "country": "Nigeria",
+      "region": "Lagos State",
+      "city": "Lagos",
+      "count": 16
+    }
+  ],
+  "items": [
+    {
+      "_id": "6821dfd88e03cbaae0b0d0d7",
+      "titleInfo": [
+        {
+          "title": "Ethnographic profiling of the migrant  in four case study sites"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-0000",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Lagos State",
+            "l3": "Lagos"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0d8",
+      "titleInfo": [
+        {
+          "title": "Expert Group Meeting on Youth and Informal Labour Migration in West Africa Urban Corridors"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-0001",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Lagos State",
+            "l3": "Lagos"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0d9",
+      "titleInfo": [
+        {
+          "title": "Systematic focus group discussion on Youth and Informal Labour Migration in West Africa Urban Corridors"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-0002",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Lagos State",
+            "l3": "Lagos"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0da",
+      "titleInfo": [
+        {
+          "title": "Cotonou city profiling on Youth and Informal Labour Migration in West Africa Urban Corridors"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-0003",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Lagos State",
+            "l3": "Lagos"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0db",
+      "titleInfo": [
+        {
+          "title": "A Togolese woman sells Togolese food at Missebo market, Benin Republic"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-0004",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Lagos State",
+            "l3": "Lagos"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0dc",
+      "titleInfo": [
+        {
+          "title": "Copy of Etoile Rouge, Cotonou, Benin Republic"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-0005",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Lagos State",
+            "l3": "Lagos"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0dd",
+      "titleInfo": [
+        {
+          "title": "Photo of a market in cotonou, Benin Republic"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-0006",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Lagos State",
+            "l3": "Lagos"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0de",
+      "titleInfo": [
+        {
+          "title": "Presentation of the initial findings of the project"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-0007",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Lagos State",
+            "l3": "Lagos"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0df",
+      "titleInfo": [
+        {
+          "title": "Photo of Shrine, brought by Benin Republic migrants to Lagos"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-0008",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Lagos State",
+            "l3": "Lagos"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0e0",
+      "titleInfo": [
+        {
+          "title": "Validation Workshop Urban Corridors"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-0009",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Lagos State",
+            "l3": "Lagos"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0e1",
+      "titleInfo": [
+        {
+          "title": "Lagos-City Profile"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-000a",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Lagos State",
+            "l3": "Lagos"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0e2",
+      "titleInfo": [
+        {
+          "title": "Mobility route of West Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-000b",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Lagos State",
+            "l3": "Lagos"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0e3",
+      "titleInfo": [
+        {
+          "title": "Some migrants at Ajegunle, Ikorodu, Lagos"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-000c",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Lagos State",
+            "l3": "Lagos"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0e4",
+      "titleInfo": [
+        {
+          "title": "Lagos Immigration Map"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-000d",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Lagos State",
+            "l3": "Lagos"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0e5",
+      "titleInfo": [
+        {
+          "title": "Photo of Makoko Community, Lagos"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-000e",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Lagos State",
+            "l3": "Lagos"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0e6",
+      "titleInfo": [
+        {
+          "title": "Transnational Routes in West Africa"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-000f",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Lagos State",
+            "l3": "Lagos"
+          }
+        ],
+        "current": [
+          "Institute of African and Diaspora Studies (IADS)"
+        ]
+      }
+    }
+  ]
+}

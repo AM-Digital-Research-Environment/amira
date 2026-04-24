@@ -232,7 +232,32 @@
         "id": "UBT_Covid192021",
         "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
       },
-      "dre_id": "abz-01-0023"
+      "dre_id": "abz-01-0023",
+      "location": {
+        "origin": [
+          {
+            "l1": "Mozambique",
+            "l2": "Maputo Province",
+            "l3": "Maputo National Park"
+          },
+          {
+            "l1": "Eswatini",
+            "l2": "Lubombo Region",
+            "l3": "Lubombo Transfrontier Conservation and Resource Area"
+          },
+          {
+            "l1": "Mozambique",
+            "l2": "Maputo Province",
+            "l3": "Ponta do Ouro"
+          },
+          {
+            "l1": "South Africa"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
     },
     {
       "_id": "67ab2add0bfd6faab62399d8",
@@ -246,7 +271,29 @@
         "id": "UBT_Covid192021",
         "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
       },
-      "dre_id": "abz-01-0025"
+      "dre_id": "abz-01-0025",
+      "location": {
+        "origin": [
+          {
+            "l1": "Kenya",
+            "l2": "Narok",
+            "l3": "Mpuaai"
+          },
+          {
+            "l1": "Kenya",
+            "l2": "Narok",
+            "l3": "Talek"
+          },
+          {
+            "l1": "Kenya",
+            "l2": "Narok",
+            "l3": "Maasai Mara National Reserve"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
     }
   ]
 }

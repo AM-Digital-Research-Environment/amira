@@ -265,7 +265,19 @@
         "id": "UBT_ArtWorld2019",
         "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
       },
-      "dre_id": "abg-99-0001"
+      "dre_id": "abg-99-0001",
+      "location": {
+        "origin": [
+          {
+            "l1": "Australia",
+            "l2": "Australian Capital Territory",
+            "l3": "Canberra"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
     },
     {
       "_id": "68c2f8e1f102814baee7b48b",
@@ -279,7 +291,19 @@
         "id": "UBT_ArtWorld2019",
         "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
       },
-      "dre_id": "abg-99-0003"
+      "dre_id": "abg-99-0003",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany",
+            "l2": "Bavaria",
+            "l3": "Bayreuth"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
     },
     {
       "_id": "68c2f8e1f102814baee7b48d",
@@ -293,7 +317,19 @@
         "id": "UBT_ArtWorld2019",
         "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
       },
-      "dre_id": "abg-99-0005"
+      "dre_id": "abg-99-0005",
+      "location": {
+        "origin": [
+          {
+            "l1": "Germany",
+            "l2": "Bavaria",
+            "l3": "Bayreuth"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
     },
     {
       "_id": "685a631ec25a5271e0a9eda7",
@@ -303,7 +339,17 @@
         }
       ],
       "typeOfResource": "Text",
-      "dre_id": "eaa-99-03c2"
+      "dre_id": "eaa-99-03c2",
+      "location": {
+        "origin": [
+          {
+            "l1": "South Africa"
+          }
+        ],
+        "current": [
+          "Rhodes University"
+        ]
+      }
     },
     {
       "_id": "685a631ec25a5271e0a9edd9",
@@ -313,7 +359,17 @@
         }
       ],
       "typeOfResource": "Text",
-      "dre_id": "eaa-99-03f4"
+      "dre_id": "eaa-99-03f4",
+      "location": {
+        "origin": [
+          {
+            "l1": "South Africa"
+          }
+        ],
+        "current": [
+          "Rhodes University"
+        ]
+      }
     }
   ]
 }

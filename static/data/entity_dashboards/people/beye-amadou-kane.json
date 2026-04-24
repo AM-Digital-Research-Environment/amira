@@ -176,7 +176,23 @@
         "id": "UBT_Covid192021",
         "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
       },
-      "dre_id": "abz-01-0020"
+      "dre_id": "abz-01-0020",
+      "location": {
+        "origin": [
+          {
+            "l1": "Senegal",
+            "l2": "Thiès Region",
+            "l3": "Ndengler (Dingler)"
+          },
+          {
+            "l1": "Senegal",
+            "l2": "Ziguinchor"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
     },
     {
       "_id": "66cefaf495a000d4c7bf3729",
@@ -190,7 +206,17 @@
         "id": "UBT_Covid192021",
         "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
       },
-      "dre_id": "abz-01-0024"
+      "dre_id": "abz-01-0024",
+      "location": {
+        "origin": [
+          {
+            "l1": "Senegal"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
     }
   ]
 }

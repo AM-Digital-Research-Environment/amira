@@ -236,7 +236,24 @@
         "id": "UBT_Covid192021",
         "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
       },
-      "dre_id": "abz-01-0001"
+      "dre_id": "abz-01-0001",
+      "location": {
+        "origin": [
+          {
+            "l1": "Kenya",
+            "l2": "Samburu",
+            "l3": "Archers Post"
+          },
+          {
+            "l1": "Kenya",
+            "l2": "Isiolo",
+            "l3": "Isiolo"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
     },
     {
       "_id": "66cefaf495a000d4c7bf3714",
@@ -250,7 +267,19 @@
         "id": "UBT_Covid192021",
         "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
       },
-      "dre_id": "abz-01-000f"
+      "dre_id": "abz-01-000f",
+      "location": {
+        "origin": [
+          {
+            "l1": "Kenya",
+            "l2": "Marsabit",
+            "l3": "Kalacha"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
     }
   ]
 }

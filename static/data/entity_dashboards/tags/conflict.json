@@ -200,7 +200,39 @@
         "id": "UBT_Covid192021",
         "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
       },
-      "dre_id": "abz-01-0006"
+      "dre_id": "abz-01-0006",
+      "location": {
+        "origin": [
+          {
+            "l1": "Kenya",
+            "l2": "Narok",
+            "l3": "Mpuaai"
+          },
+          {
+            "l1": "Kenya",
+            "l2": "Narok",
+            "l3": "Talek"
+          },
+          {
+            "l1": "Kenya",
+            "l2": "Narok",
+            "l3": "Maasai Mara National Reserve"
+          },
+          {
+            "l1": "Tanzania",
+            "l2": "Arusha",
+            "l3": "Loliondo"
+          },
+          {
+            "l1": "Tanzania",
+            "l2": "Arusha",
+            "l3": "Ngorongoro"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
     },
     {
       "_id": "69c1568d666e5b9f92cf9f60",
@@ -214,7 +246,17 @@
         "id": "UJKZ_JITBF2020",
         "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
       },
-      "dre_id": "acs-03-0008"
+      "dre_id": "acs-03-0008",
+      "location": {
+        "origin": [
+          {
+            "l1": "Burkina Faso"
+          }
+        ],
+        "current": [
+          "Université Joseph Ki-Zerbo"
+        ]
+      }
     }
   ]
 }

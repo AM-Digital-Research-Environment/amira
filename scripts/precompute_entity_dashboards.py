@@ -207,6 +207,38 @@ def generate_location_dashboards(items: list[dict], out_root: str) -> list[dict]
     )
 
 
+def generate_project_dashboards(items: list[dict], out_root: str) -> list[dict]:
+    """One JSON per project id. Filenames are slugified so the runtime
+    loader — which calls `slugify(id)` for every non-language entity —
+    lands on the correct file regardless of casing/underscores."""
+    dir_name = config.ENTITY_DIRS["project"]
+    out_dir = os.path.join(out_root, dir_name)
+    os.makedirs(out_dir, exist_ok=True)
+
+    index = generators.project_index(items)
+    names = generators.project_name_lookup(items)
+    entries: list[dict] = []
+
+    for pid, bucket in sorted(index.items()):
+        if not bucket:
+            continue
+        slug = agg.slugify(pid)
+        if not slug:
+            continue
+        payload = generators.generate_project_dashboard(pid, items, names.get(pid))
+        out_path = os.path.join(out_dir, f"{slug}.json")
+        _write_json(out_path, payload)
+        entries.append(
+            {
+                "id": slug,
+                "name": payload["meta"]["name"],
+                "count": payload["meta"]["count"],
+            }
+        )
+        print(f"  {dir_name}/{slug}.json  ({payload['meta']['count']} items)")
+    return entries
+
+
 def generate_research_section_dashboards(items: list[dict], out_root: str) -> list[dict]:
     """Research sections aren't in the items stream directly — they're a project
     attribute — so we load `dev.projectsData.json` and resolve items ∈ section
@@ -251,6 +283,7 @@ ENTITY_DISPATCH: dict[str, Callable[[list[dict], str], list[dict]]] = {
     "institution": generate_institution_dashboards,
     "location": generate_location_dashboards,
     "research-section": generate_research_section_dashboards,
+    "project": generate_project_dashboards,
 }
 
 
@@ -357,6 +390,8 @@ def main() -> int:
                 index = generators.research_section_index(
                     items, db.load_projects_from_local()
                 )
+            elif entity == "project":
+                index = generators.project_index(items)
             else:
                 print(f"  (no dry-run inventory for '{entity}')")
                 continue

@@ -234,7 +234,18 @@
         "id": "UBT_Covid192021",
         "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
       },
-      "dre_id": "abz-01-0021"
+      "dre_id": "abz-01-0021",
+      "location": {
+        "origin": [
+          {
+            "l1": "Tanzania",
+            "l2": "Iringa"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
     },
     {
       "_id": "66cefaf495a000d4c7bf3727",
@@ -248,7 +259,19 @@
         "id": "UBT_Covid192021",
         "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
       },
-      "dre_id": "abz-01-0022"
+      "dre_id": "abz-01-0022",
+      "location": {
+        "origin": [
+          {
+            "l1": "Ghana",
+            "l2": "Upper West Region",
+            "l3": "Nandom"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
     },
     {
       "_id": "66cefaf495a000d4c7bf3728",
@@ -262,7 +285,32 @@
         "id": "UBT_Covid192021",
         "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
       },
-      "dre_id": "abz-01-0023"
+      "dre_id": "abz-01-0023",
+      "location": {
+        "origin": [
+          {
+            "l1": "Mozambique",
+            "l2": "Maputo Province",
+            "l3": "Maputo National Park"
+          },
+          {
+            "l1": "Eswatini",
+            "l2": "Lubombo Region",
+            "l3": "Lubombo Transfrontier Conservation and Resource Area"
+          },
+          {
+            "l1": "Mozambique",
+            "l2": "Maputo Province",
+            "l3": "Ponta do Ouro"
+          },
+          {
+            "l1": "South Africa"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
     }
   ]
 }

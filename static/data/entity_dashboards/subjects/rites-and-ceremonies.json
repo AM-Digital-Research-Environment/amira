@@ -243,7 +243,19 @@
         "id": "UBT_ArtWorld2019",
         "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
       },
-      "dre_id": "abg-01-0015"
+      "dre_id": "abg-01-0015",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Osun State",
+            "l3": "Osogbo"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
     },
     {
       "_id": "68c2f8e1f102814baee7b49e",
@@ -257,7 +269,19 @@
         "id": "UBT_ArtWorld2019",
         "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
       },
-      "dre_id": "abg-01-0016"
+      "dre_id": "abg-01-0016",
+      "location": {
+        "origin": [
+          {
+            "l1": "Nigeria",
+            "l2": "Osun State",
+            "l3": "Osogbo"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
     },
     {
       "_id": "68c2f8e1f102814baee7b4a0",
@@ -271,7 +295,12 @@
         "id": "UBT_ArtWorld2019",
         "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
       },
-      "dre_id": "abg-01-0018"
+      "dre_id": "abg-01-0018",
+      "location": {
+        "current": [
+          "Bayreuth"
+        ]
+      }
     },
     {
       "_id": "685a631ec25a5271e0a9ea93",
@@ -281,7 +310,17 @@
         }
       ],
       "typeOfResource": "Text",
-      "dre_id": "eaa-99-00ae"
+      "dre_id": "eaa-99-00ae",
+      "location": {
+        "origin": [
+          {
+            "l1": "South Africa"
+          }
+        ],
+        "current": [
+          "Rhodes University"
+        ]
+      }
     },
     {
       "_id": "685a631ec25a5271e0a9eb24",
@@ -291,7 +330,17 @@
         }
       ],
       "typeOfResource": "Text",
-      "dre_id": "eaa-99-013f"
+      "dre_id": "eaa-99-013f",
+      "location": {
+        "origin": [
+          {
+            "l1": "South Africa"
+          }
+        ],
+        "current": [
+          "Rhodes University"
+        ]
+      }
     },
     {
       "_id": "685a631ec25a5271e0a9ebad",
@@ -301,7 +350,17 @@
         }
       ],
       "typeOfResource": "Text",
-      "dre_id": "eaa-99-01c8"
+      "dre_id": "eaa-99-01c8",
+      "location": {
+        "origin": [
+          {
+            "l1": "South Africa"
+          }
+        ],
+        "current": [
+          "Rhodes University"
+        ]
+      }
     }
   ]
 }

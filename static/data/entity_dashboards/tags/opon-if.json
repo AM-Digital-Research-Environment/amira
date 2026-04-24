@@ -178,7 +178,12 @@
         "id": "UBT_ArtWorld2019",
         "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
       },
-      "dre_id": "abg-01-004e"
+      "dre_id": "abg-01-004e",
+      "location": {
+        "current": [
+          "Bayreuth"
+        ]
+      }
     },
     {
       "_id": "68c2f8e1f102814baee7b52c",
@@ -192,7 +197,19 @@
         "id": "UBT_ArtWorld2019",
         "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
       },
-      "dre_id": "abg-01-00a4"
+      "dre_id": "abg-01-00a4",
+      "location": {
+        "origin": [
+          {
+            "l1": "Australia",
+            "l2": "New South Wales",
+            "l3": "Sydney"
+          }
+        ],
+        "current": [
+          "Bayreuth"
+        ]
+      }
     }
   ]
 }

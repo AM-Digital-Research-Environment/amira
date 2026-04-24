@@ -14,24 +14,15 @@
 		SectionBadge
 	} from '$lib/components/ui';
 	import { getSectionColor } from '$lib/utils/helpers';
-	import {
-		BarChart,
-		Timeline,
-		BeeswarmChart,
-		GanttChart,
-		WordCloud,
-		PieChart
-	} from '$lib/components/charts';
+	import { BarChart, Timeline, BeeswarmChart, GanttChart } from '$lib/components/charts';
 	import { SearchableItemsCard } from '$lib/components/entity-browse';
+	import { EntityDashboardSection } from '$lib/components/dashboards';
+	import { createEntityDetailState } from '$lib/utils/loaders';
 	import { projects, allCollections, ensureCollections } from '$lib/stores/data';
 	import {
 		groupProjectsByYear,
 		extractResearchSections,
 		extractInstitutions,
-		extractSubjects,
-		extractTags,
-		extractLanguages,
-		extractResourceTypes,
 		buildProjectBeeswarm,
 		buildProjectGantt
 	} from '$lib/utils/dataTransform';
@@ -146,20 +137,22 @@
 		);
 	});
 
-	// Collection items for selected project
+	// Per-project JSON (items + aggregates). Direct detail-URL hits skip
+	// the 13 MB collections dump and render from this.
+	const detail = createEntityDetailState('project', () => selectedId);
+
+	// Collection items for selected project — prefer precomputed items
+	// so direct detail-URL navigation doesn't wait on $allCollections.
 	let projectCollectionItems = $derived.by((): CollectionItem[] => {
 		if (!selectedProject) return [];
+		if (detail.items.length > 0) return detail.items;
 		return $allCollections.filter((item) => item.project?.id === selectedProject.id);
 	});
 
-	// Word cloud data for selected project's subjects & tags
-	let projectWordCloudData = $derived(extractTags(projectCollectionItems));
-	let projectSubjectsData = $derived(extractSubjects(projectCollectionItems));
-	let projectLanguagesData = $derived(extractLanguages(projectCollectionItems));
-	let projectResourceTypesData = $derived(extractResourceTypes(projectCollectionItems));
-
-	// Research items filter/sort/pagination now live inside the shared
-	// <SearchableItemsCard>. The page only needs the raw items array.
+	// Per-project aggregate charts are now precomputed server-side and
+	// rendered by <EntityDashboardSection> — the page no longer derives
+	// any of them on the fly. Research-items filtering lives inside the
+	// shared <SearchableItemsCard>.
 
 	async function selectProject(project: Project) {
 		selectedId = project.id;
@@ -457,34 +450,17 @@
 				<SearchableItemsCard items={projectCollectionItems} />
 			{/if}
 
-			<!-- Subjects, Tags & Languages -->
-			{#if projectWordCloudData.length > 0 || projectLanguagesData.length > 0 || projectResourceTypesData.length > 0}
-				<div class="grid gap-6 lg:grid-cols-2">
-					{#if projectWordCloudData.length > 0}
-						<ChartCard title="Subjects & Tags" contentHeight="h-chart-md">
-							<WordCloud data={projectWordCloudData} maxWords={80} />
-						</ChartCard>
-					{/if}
-
-					{#if projectSubjectsData.length > 0}
-						<ChartCard title="Top Subjects" contentHeight="h-chart-md">
-							<BarChart data={projectSubjectsData} maxItems={8} />
-						</ChartCard>
-					{/if}
-
-					{#if projectLanguagesData.length > 0}
-						<ChartCard title="Languages" contentHeight="h-chart-md">
-							<PieChart data={projectLanguagesData} />
-						</ChartCard>
-					{/if}
-
-					{#if projectResourceTypesData.length > 0}
-						<ChartCard title="Resource Types" contentHeight="h-chart-md">
-							<PieChart data={projectResourceTypesData} />
-						</ChartCard>
-					{/if}
-				</div>
-			{/if}
+			<!-- Precomputed project dashboard: timelines, roles, heatmap,
+			     sunburst (type → language → subject), chord (subject
+			     co-occurrence), sankey (contributor → project → type),
+			     and more. Replaces the former hand-rolled
+			     WordCloud/BarChart/PieChart quartet. -->
+			<EntityDashboardSection
+				entityType="project"
+				entityId={selectedProject.id}
+				items={projectCollectionItems}
+				data={detail.data}
+			/>
 
 			<!-- Knowledge Graph — shared neighbourhoods, contributors, communities -->
 			<EntityKnowledgeGraph

@@ -371,7 +371,7 @@ Each bullet below becomes its own issue linked to #10:
 - [x] Detail-page dashboard for `/resource-types/[slug]` — includes language × decade heatmap
 - [x] Detail-page dashboard for `/groups/[slug]`
 - [x] Detail-page dashboard for `/research-sections/[slug]` — existing charts only; gantt/beeswarm/languageTimeline/subjectTrends/contributorNetwork/geoFlows land in Phase 4
-- [ ] Expand `/projects/[id]` to full module-parity layout
+- [x] Expand `/projects/[id]` to full module-parity layout — adds sunburst, sankey, chord, heatmap, roles on top of the existing timeline/stacked-timeline/types/languages/subjects/wordCloud/contributors/locations; languageTimeline/subjectTrends/treemap/geoFlows/contributorNetwork still pending Phase 4
 - [ ] Add `EntityKnowledgeGraph` to `/research-items/[id]` + context strip
 - [ ] List-page enrichment: `/languages`, `/subjects`, `/genres`, `/resource-types`, `/groups`, `/people`, `/institutions`, `/locations`
 - [ ] New chart: Calendar Heatmap
