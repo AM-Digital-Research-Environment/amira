@@ -213,7 +213,8 @@
 	<div class="page-header animate-slide-in-up">
 		<h1 class="page-title">Overview</h1>
 		<p class="page-subtitle">
-			Browse and visualize research data from the
+			The Africa Multiple Interactive Research Atlas (AMIRA) lets you browse and visualize research
+			data from the
 			<a
 				href="https://www.africamultiple.uni-bayreuth.de/en/index.html"
 				target="_blank"

@@ -5,6 +5,27 @@
 </script>
 
 <footer class="app-footer">
+	<div class="app-footer-logos">
+		<a
+			href="https://www.africamultiple.uni-bayreuth.de/"
+			target="_blank"
+			rel="noopener noreferrer"
+			class="app-footer-logo"
+			aria-label="Africa Multiple Cluster of Excellence"
+		>
+			<img src="{base}/logos/africamultiple.webp" alt="Africa Multiple" />
+		</a>
+		<a
+			href="https://www.uni-bayreuth.de/"
+			target="_blank"
+			rel="noopener noreferrer"
+			class="app-footer-logo app-footer-logo--on-light"
+			aria-label="University of Bayreuth"
+		>
+			<img src="{base}/logos/Universitat_Bayreuth.webp" alt="University of Bayreuth" />
+		</a>
+	</div>
+
 	<div class="app-footer-text">
 		<span class="app-footer-version">v{__APP_VERSION__}</span>
 		<span aria-hidden="true" class="app-footer-sep">·</span>
@@ -27,27 +48,6 @@
 			class="app-footer-link"
 		>
 			Digital Research Environment (DRE)
-		</a>
-	</div>
-
-	<div class="app-footer-logos">
-		<a
-			href="https://www.africamultiple.uni-bayreuth.de/"
-			target="_blank"
-			rel="noopener noreferrer"
-			class="app-footer-logo"
-			aria-label="Africa Multiple Cluster of Excellence"
-		>
-			<img src="{base}/logos/africamultiple.webp" alt="Africa Multiple" />
-		</a>
-		<a
-			href="https://www.uni-bayreuth.de/"
-			target="_blank"
-			rel="noopener noreferrer"
-			class="app-footer-logo"
-			aria-label="University of Bayreuth"
-		>
-			<img src="{base}/logos/UBT_logo.webp" alt="University of Bayreuth" />
 		</a>
 	</div>
 </footer>
@@ -95,6 +95,19 @@
 		width: auto;
 		display: block;
 		border-radius: calc(var(--radius) - 4px);
+	}
+
+	/* Logos with dark artwork on transparent backgrounds (e.g. Universität
+	   Bayreuth, whose wordmark is black) sit on a small white plaque so they
+	   stay legible against the dark footer background. */
+	.app-footer-logo--on-light {
+		background: #fff;
+		padding: 2px 6px;
+		border-radius: calc(var(--radius) - 4px);
+	}
+	.app-footer-logo--on-light img {
+		height: 24px;
+		border-radius: 0;
 	}
 
 	.app-footer-text {
