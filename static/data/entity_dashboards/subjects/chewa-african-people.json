@@ -1,0 +1,219 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "chewa-african-people",
+    "name": "Chewa (African people)",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 1958,
+      "count": 1
+    },
+    {
+      "year": 1968,
+      "count": 1
+    },
+    {
+      "year": 1970,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1958,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1968,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1970,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "Nyanja (African people)",
+      "value": 2
+    },
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Musical instruments",
+      "value": 2
+    },
+    {
+      "name": "Christianity",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Education",
+      "value": 1
+    },
+    {
+      "name": "Drum",
+      "value": 1
+    },
+    {
+      "name": "Nyanja language",
+      "value": 1
+    },
+    {
+      "name": "Drum music",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 3
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "Nyanja (African people)",
+      "value": 2
+    },
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Musical instruments",
+      "value": 2
+    },
+    {
+      "name": "Christianity",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Education",
+      "value": 1
+    },
+    {
+      "name": "Church Worship",
+      "value": 1
+    },
+    {
+      "name": "Religious Aspects",
+      "value": 1
+    },
+    {
+      "name": "Drum",
+      "value": 1
+    },
+    {
+      "name": "Nyanja language",
+      "value": 1
+    },
+    {
+      "name": "Drum music",
+      "value": 1
+    },
+    {
+      "name": "Ideophone",
+      "value": 1
+    },
+    {
+      "name": "Zambia",
+      "value": 1
+    },
+    {
+      "name": "Drum (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Malawi",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Nurse, G. T.",
+      "value": 2
+    },
+    {
+      "name": "Louw, Johan K.",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ea67",
+      "titleInfo": [
+        {
+          "title": "African music in Christian worship"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0082"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb4c",
+      "titleInfo": [
+        {
+          "title": "Ideophonic aspects of some Nyanja drum names"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0167"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb86",
+      "titleInfo": [
+        {
+          "title": "Cewa concepts of musical instruments"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01a1"
+    }
+  ]
+}

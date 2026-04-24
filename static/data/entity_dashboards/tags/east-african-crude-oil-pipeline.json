@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "east-african-crude-oil-pipeline",
+    "name": "East African Crude Oil Pipeline",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 2021,
+      "total": 1,
+      "byType": {
+        "Audio": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    },
+    {
+      "name": "Audio",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "Oil Infrastructure",
+      "value": 3
+    },
+    {
+      "name": "Uganda",
+      "value": 3
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kinyera, Paddy Banya",
+      "value": 3
+    },
+    {
+      "name": "Doevenspeck, Martin",
+      "value": 3
+    }
+  ],
+  "locations": [
+    {
+      "country": "Uganda",
+      "region": "Lwengo District",
+      "city": "",
+      "count": 2
+    },
+    {
+      "country": "Kenya",
+      "region": "Turkana",
+      "city": "Turkana South",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "66e30b89f27a094a184204b0",
+      "titleInfo": [
+        {
+          "title": "Transcript of Interview with a local leader in Lwengo district"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_OilMov2019",
+        "name": "Oil Movements: The Production and Government of Petro-(im)mobilities in East Africa"
+      },
+      "dre_id": "aca-01-0000"
+    },
+    {
+      "_id": "66e30b89f27a094a184204b2",
+      "titleInfo": [
+        {
+          "title": "Transcript of Interview with a local leader in Lwengo district"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_OilMov2019",
+        "name": "Oil Movements: The Production and Government of Petro-(im)mobilities in East Africa"
+      },
+      "dre_id": "aca-01-0002"
+    },
+    {
+      "_id": "66e30b89f27a094a184204b4",
+      "titleInfo": [
+        {
+          "title": "Transcript of Interview with 2 PAPs in Lwengo district"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_OilMov2019",
+        "name": "Oil Movements: The Production and Government of Petro-(im)mobilities in East Africa"
+      },
+      "dre_id": "aca-01-0004"
+    }
+  ]
+}

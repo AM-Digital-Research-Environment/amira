@@ -97,6 +97,14 @@
     {
       "name": "Food security",
       "value": 1
+    },
+    {
+      "name": "Pastoralist",
+      "value": 1
+    },
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 1
     }
   ],
   "contributors": [
@@ -143,6 +151,22 @@
       "region": "Samburu",
       "city": "Archers Post",
       "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "66cefaf495a000d4c7bf3706",
+      "titleInfo": [
+        {
+          "title": "Annemiek Pas' Zoom transcript, Kenya (Archer’s Post), February 21, 2022"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0001"
     }
   ]
 }

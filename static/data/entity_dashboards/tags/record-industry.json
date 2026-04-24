@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "record-industry",
+    "name": "Record Industry",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1963,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1963,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Black People",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tracey, Hugh",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ead9",
+      "titleInfo": [
+        {
+          "title": "African music from the point of view of the record industry. From a Special Correspondent of The Star, Johannesburg"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00f4"
+    }
+  ]
+}

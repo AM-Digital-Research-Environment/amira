@@ -1,0 +1,209 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "national-archives",
+    "name": "National Archives",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2014,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2014,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    },
+    {
+      "name": "Image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Archives",
+      "value": 2
+    },
+    {
+      "name": "Books",
+      "value": 1
+    },
+    {
+      "name": "Transcription",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Artists",
+      "value": 1
+    },
+    {
+      "name": "Interior decoration",
+      "value": 1
+    },
+    {
+      "name": "Slit drums",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Museums",
+      "value": 1
+    },
+    {
+      "name": "Photographs",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Archives",
+      "value": 2
+    },
+    {
+      "name": "Books",
+      "value": 1
+    },
+    {
+      "name": "Transcription",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Artists",
+      "value": 1
+    },
+    {
+      "name": "Interior decoration",
+      "value": 1
+    },
+    {
+      "name": "Slit drums",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Museums",
+      "value": 1
+    },
+    {
+      "name": "Photographs",
+      "value": 1
+    },
+    {
+      "name": "Iragbiji",
+      "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    },
+    {
+      "name": "Papua New Guinea",
+      "value": 1
+    },
+    {
+      "name": "New Guinea",
+      "value": 1
+    },
+    {
+      "name": "Slit Drum (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Art Collector",
+      "value": 1
+    },
+    {
+      "name": "Art Collecting",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Beier, Ulli",
+      "value": 2
+    },
+    {
+      "name": "Greven, Katharina",
+      "value": 1
+    },
+    {
+      "name": "Beier, Georgina",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Australia",
+      "region": "Australian Capital Territory",
+      "city": "Canberra",
+      "count": 1
+    },
+    {
+      "country": "Nigeria",
+      "region": "Osun State",
+      "city": "Iragbiji",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b489",
+      "titleInfo": [
+        {
+          "title": "Abschrift von das Buch: Leopold Sedar Senghor (befindet sich in die National Archives, Canberra)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-99-0001"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b520",
+      "titleInfo": [
+        {
+          "title": "Schlitztrommel aus Papua Neuguinea im Ile-Ona Museum of Art and Archival Materials in Iragbiji"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0098"
+    }
+  ]
+}

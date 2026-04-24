@@ -1,0 +1,220 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "conflict",
+    "name": "Conflict",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2021,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2022,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    },
+    {
+      "name": "French",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Arid regions",
+      "value": 1
+    },
+    {
+      "name": "Maasai (African people)",
+      "value": 1
+    },
+    {
+      "name": "Tourism",
+      "value": 1
+    },
+    {
+      "name": "East Africa",
+      "value": 1
+    },
+    {
+      "name": "Administration of Justice",
+      "value": 1
+    },
+    {
+      "name": "Teenagers",
+      "value": 1
+    },
+    {
+      "name": "Youth",
+      "value": 1
+    },
+    {
+      "name": "Punishment",
+      "value": 1
+    },
+    {
+      "name": "Maintenance",
+      "value": 1
+    },
+    {
+      "name": "Children",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Arid regions",
+      "value": 1
+    },
+    {
+      "name": "Maasai (African people)",
+      "value": 1
+    },
+    {
+      "name": "Tourism",
+      "value": 1
+    },
+    {
+      "name": "East Africa",
+      "value": 1
+    },
+    {
+      "name": "Kenya",
+      "value": 1
+    },
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 1
+    },
+    {
+      "name": "Administration of Justice",
+      "value": 1
+    },
+    {
+      "name": "Teenagers",
+      "value": 1
+    },
+    {
+      "name": "Youth",
+      "value": 1
+    },
+    {
+      "name": "Punishment",
+      "value": 1
+    },
+    {
+      "name": "Maintenance",
+      "value": 1
+    },
+    {
+      "name": "Children",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kronenburg García, Angela",
+      "value": 1
+    },
+    {
+      "name": "Seenoi, Debra",
+      "value": 1
+    },
+    {
+      "name": "Goldman, Mara",
+      "value": 1
+    },
+    {
+      "name": "Heita, Jona",
+      "value": 1
+    },
+    {
+      "name": "Schrijver, Annemiek Pas",
+      "value": 1
+    },
+    {
+      "name": "Gargallo, Eduard",
+      "value": 1
+    },
+    {
+      "name": "Tapsoba, Tatiana Nadine",
+      "value": 1
+    },
+    {
+      "name": "Somé, Alban Balanoé",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Kenya",
+      "region": "Narok",
+      "city": "Mpuaai",
+      "count": 1
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "66cefaf495a000d4c7bf370b",
+      "titleInfo": [
+        {
+          "title": "Debra Seenoi's transcript, Kenya, June 13, 2022"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0006"
+    },
+    {
+      "_id": "69c1568d666e5b9f92cf9f60",
+      "titleInfo": [
+        {
+          "title": "Synthese d’entretien le juge d’instruction du cabinet en charge des questions des enfants en conflits avec la loi; du Tribunal de Grande Instance de Ouaga 1"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0008"
+    }
+  ]
+}

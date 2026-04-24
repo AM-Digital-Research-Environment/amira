@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "folk-dancing",
+    "name": "Folk dancing",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1962,
+      "count": 1
+    },
+    {
+      "year": 1964,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1962,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1964,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Venda (African people)",
+      "value": 1
+    },
+    {
+      "name": "National songs",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Mbira",
+      "value": 1
+    },
+    {
+      "name": "Patriotic music",
+      "value": 1
+    },
+    {
+      "name": "Mbira music",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Venda (African people)",
+      "value": 1
+    },
+    {
+      "name": "Venda Dance",
+      "value": 1
+    },
+    {
+      "name": "Social Life",
+      "value": 1
+    },
+    {
+      "name": "Social Customs",
+      "value": 1
+    },
+    {
+      "name": "National songs",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Mbira",
+      "value": 1
+    },
+    {
+      "name": "Patriotic music",
+      "value": 1
+    },
+    {
+      "name": "Mbira music",
+      "value": 1
+    },
+    {
+      "name": "Zambia",
+      "value": 1
+    },
+    {
+      "name": "Malawi",
+      "value": 1
+    },
+    {
+      "name": "Mozambique",
+      "value": 1
+    },
+    {
+      "name": "Mbira (Instrument)",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Blacking, John",
+      "value": 1
+    },
+    {
+      "name": "Nurse, George T.",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9eac0",
+      "titleInfo": [
+        {
+          "title": "Musical expeditions of the Venda"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00db"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eaf7",
+      "titleInfo": [
+        {
+          "title": "Popular songs and national identity in Malawi"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0112"
+    }
+  ]
+}

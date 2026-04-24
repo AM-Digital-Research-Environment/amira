@@ -1,0 +1,335 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "elections",
+    "name": "Elections",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 2004,
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2004,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2020,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2022,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 4
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    },
+    {
+      "name": "Mongolian",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Herders",
+      "value": 3
+    },
+    {
+      "name": "Vaccination",
+      "value": 3
+    },
+    {
+      "name": "Education",
+      "value": 2
+    },
+    {
+      "name": "Livestock",
+      "value": 2
+    },
+    {
+      "name": "Schools",
+      "value": 1
+    },
+    {
+      "name": "Travel",
+      "value": 1
+    },
+    {
+      "name": "Democracy",
+      "value": 1
+    },
+    {
+      "name": "Festivals",
+      "value": 1
+    },
+    {
+      "name": "Arid regions",
+      "value": 1
+    },
+    {
+      "name": "Disasters",
+      "value": 1
+    },
+    {
+      "name": "Tourism",
+      "value": 1
+    },
+    {
+      "name": "Diseases",
+      "value": 1
+    },
+    {
+      "name": "South Africa",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Herders",
+      "value": 3
+    },
+    {
+      "name": "Vaccination",
+      "value": 3
+    },
+    {
+      "name": "Pastoralist",
+      "value": 3
+    },
+    {
+      "name": "Mongolia",
+      "value": 3
+    },
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 3
+    },
+    {
+      "name": "Education",
+      "value": 2
+    },
+    {
+      "name": "Livestock",
+      "value": 2
+    },
+    {
+      "name": "Schools",
+      "value": 1
+    },
+    {
+      "name": "Sociality",
+      "value": 1
+    },
+    {
+      "name": "Economy",
+      "value": 1
+    },
+    {
+      "name": "Travel",
+      "value": 1
+    },
+    {
+      "name": "Democracy",
+      "value": 1
+    },
+    {
+      "name": "Festivals",
+      "value": 1
+    },
+    {
+      "name": "Tsagaan Sar",
+      "value": 1
+    },
+    {
+      "name": "Naadam",
+      "value": 1
+    },
+    {
+      "name": "Mobility",
+      "value": 1
+    },
+    {
+      "name": "Arid regions",
+      "value": 1
+    },
+    {
+      "name": "Disasters",
+      "value": 1
+    },
+    {
+      "name": "Tourism",
+      "value": 1
+    },
+    {
+      "name": "Diseases",
+      "value": 1
+    },
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Shakespeare",
+      "value": 1
+    },
+    {
+      "name": "Article",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Batjav, Batbuyan",
+      "value": 2
+    },
+    {
+      "name": "Amarbat, Byambasuren",
+      "value": 1
+    },
+    {
+      "name": "Sternberg, Troy",
+      "value": 1
+    },
+    {
+      "name": "Kronenburg García, Angela",
+      "value": 1
+    },
+    {
+      "name": "Hashimshony Yaffe, Nurit",
+      "value": 1
+    },
+    {
+      "name": "Pase, Andrea",
+      "value": 1
+    },
+    {
+      "name": "Roque de Pinho, Joana",
+      "value": 1
+    },
+    {
+      "name": "Bautdinova, Iuliia",
+      "value": 1
+    },
+    {
+      "name": "Wright, Laurence",
+      "value": 1
+    },
+    {
+      "name": "Shakespeare Society of Southern Africa",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Mongolia",
+      "region": "Bayankhongor Province",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "Mongolia",
+      "region": "Bulgan Province",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "Mongolia",
+      "region": "",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "South Africa",
+      "region": "Eastern Cape",
+      "city": "Makhanda",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "66cefaf495a000d4c7bf3712",
+      "titleInfo": [
+        {
+          "title": "Interview of co-researcher from Bayankhongor aimag, February 1, 2022"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-000d"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3713",
+      "titleInfo": [
+        {
+          "title": "Interview of co-researcher from Bulgan aimag, January 5 and 11, 2022"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-000e"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3724",
+      "titleInfo": [
+        {
+          "title": "Troy Sternberg's Zoom meeting transcript on Mongolia, November 30, 2020"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-001f"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87127",
+      "titleInfo": [
+        {
+          "title": "Shakespeare in South Africa: Alpha and 'Omega'"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0030"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "albright-college",
+    "name": "Albright College",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1999,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1999,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 1
+    },
+    {
+      "name": "Ghana",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kaye, Andrew L.",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ec7f",
+      "titleInfo": [
+        {
+          "title": "Koo Nimo: a contemporary Ghanaian musician"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-029a"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "nikiema",
+    "name": "Nikiema",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2023,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2023,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Actors",
+      "value": 2
+    },
+    {
+      "name": "Aesthetics",
+      "value": 2
+    },
+    {
+      "name": "Experience",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Actors",
+      "value": 2
+    },
+    {
+      "name": "Aesthetics",
+      "value": 2
+    },
+    {
+      "name": "Experience",
+      "value": 2
+    },
+    {
+      "name": "Cinema",
+      "value": 2
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Sore, Daouda",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "Burkina Faso",
+      "region": "Centre",
+      "city": "Ouagadougou",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "69bd30d562fdff17d6fc73ba",
+      "titleInfo": [
+        {
+          "title": "Entretien avec M. Nikiema [producteur]"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0010"
+    },
+    {
+      "_id": "69bd30d562fdff17d6fc73bf",
+      "titleInfo": [
+        {
+          "title": "Entretien avec M. Nikiema [producteur]"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0015"
+    }
+  ]
+}

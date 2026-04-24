@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "urban-music",
+    "name": "Urban Music",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1999,
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1999,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2022,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Hip-hop",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Democratic Republic of the Congo",
+      "value": 1
+    },
+    {
+      "name": "Zaire",
+      "value": 1
+    },
+    {
+      "name": "Hip-hop",
+      "value": 1
+    },
+    {
+      "name": "Urban Youth Culture",
+      "value": 1
+    },
+    {
+      "name": "Political Expression",
+      "value": 1
+    },
+    {
+      "name": "Identity",
+      "value": 1
+    },
+    {
+      "name": "Postcolonial Identity",
+      "value": 1
+    },
+    {
+      "name": "Postcolonial Studies",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "wa Mukuna, Kazadi",
+      "value": 1
+    },
+    {
+      "name": "Laboe, Amy E.",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ec84",
+      "titleInfo": [
+        {
+          "title": "The evolution of urban music in Democratic Republic of the Congo during the 2nd and 3rd decades (1975-1995) of the Second Republic-Zaire"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-029f"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edd4",
+      "titleInfo": [
+        {
+          "title": "Hip Hop in Africa: Prophets of the City and Dustyfoot Philosophers. Msia Kibona Clark, 2018. Athens, Ohio: Ohio University Press. 25 illustrations b&w, bibliography, index, 266 pp."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03ef"
+    }
+  ]
+}

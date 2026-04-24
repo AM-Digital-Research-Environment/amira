@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "cambridge-university-press",
+    "name": "Cambridge University Press",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2018,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2018,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Context (Linguistics)",
+      "value": 1
+    },
+    {
+      "name": "Books",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Context (Linguistics)",
+      "value": 1
+    },
+    {
+      "name": "Books",
+      "value": 1
+    },
+    {
+      "name": "Shakespeare",
+      "value": 1
+    },
+    {
+      "name": "Plays",
+      "value": 1
+    },
+    {
+      "name": "Debate",
+      "value": 1
+    },
+    {
+      "name": "Chapter",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Klein, Bernhard",
+      "value": 1
+    },
+    {
+      "name": "Richmond, Barbour",
+      "value": 1
+    },
+    {
+      "name": "Cambridge University Press",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "United Kingdom",
+      "region": "England",
+      "city": "Cambridge",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a8ab2c85fe8df870fe",
+      "titleInfo": [
+        {
+          "title": "Drama at Sea: A New Look at Shakespeare on the Dragon, 1607-08"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0007"
+    }
+  ]
+}

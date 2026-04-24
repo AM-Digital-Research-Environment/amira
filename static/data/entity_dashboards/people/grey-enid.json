@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "grey-enid",
+    "name": "Grey, Enid",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1989,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1989,
+      "total": 1,
+      "byType": {
+        "Moving image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Moving image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Religion",
+      "value": 1
+    },
+    {
+      "name": "Christianity",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Religion",
+      "value": 1
+    },
+    {
+      "name": "Christianity",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Marwieh, Bishop Augustus B.",
+      "value": 3
+    },
+    {
+      "name": "McCrumada, Charles",
+      "value": 2
+    },
+    {
+      "name": "Saydee, Rev. Charles",
+      "value": 1
+    },
+    {
+      "name": "Piwang, Evang. George",
+      "value": 1
+    },
+    {
+      "name": "Bishop Sky Zibani Banda",
+      "value": 1
+    },
+    {
+      "name": "Liberia Broadcasting System (LBS)",
+      "value": 1
+    },
+    {
+      "name": "Wessehutes, Jimmy",
+      "value": 1
+    },
+    {
+      "name": "Taylor, Adolphus",
+      "value": 1
+    },
+    {
+      "name": "Fakay, Soko",
+      "value": 1
+    },
+    {
+      "name": "Wegee, Presley",
+      "value": 1
+    },
+    {
+      "name": "Mensah, Sam",
+      "value": 1
+    },
+    {
+      "name": "Eastman, John",
+      "value": 1
+    },
+    {
+      "name": "Gilbert, Thomas",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Liberia",
+      "region": "Montserrado County",
+      "city": "Monrovia",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "6982337057a8e0353b0b1c6c",
+      "titleInfo": [
+        {
+          "title": "Ministry of Hope"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-002f"
+    }
+  ]
+}

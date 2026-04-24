@@ -1,0 +1,247 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "flute-music",
+    "name": "Flute music",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 1955,
+      "count": 1
+    },
+    {
+      "year": 1958,
+      "count": 1
+    },
+    {
+      "year": 1962,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1955,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1958,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1962,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Music",
+      "value": 3
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 3
+    },
+    {
+      "name": "Flute",
+      "value": 3
+    },
+    {
+      "name": "Musical instruments",
+      "value": 3
+    },
+    {
+      "name": "South Africa",
+      "value": 2
+    },
+    {
+      "name": "Musical analysis",
+      "value": 1
+    },
+    {
+      "name": "Nande (Congolese (Democratic Republic) and Ugandan people)",
+      "value": 1
+    },
+    {
+      "name": "History",
+      "value": 1
+    },
+    {
+      "name": "Criticism",
+      "value": 1
+    },
+    {
+      "name": "Zulu (African people)",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Venda (African people)",
+      "value": 1
+    },
+    {
+      "name": "Xylophone music",
+      "value": 1
+    },
+    {
+      "name": "Xylophone",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Music",
+      "value": 3
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 3
+    },
+    {
+      "name": "Flute",
+      "value": 3
+    },
+    {
+      "name": "Musical instruments",
+      "value": 3
+    },
+    {
+      "name": "African Music",
+      "value": 3
+    },
+    {
+      "name": "Flute (Instrument)",
+      "value": 3
+    },
+    {
+      "name": "South Africa",
+      "value": 2
+    },
+    {
+      "name": "Musical analysis",
+      "value": 1
+    },
+    {
+      "name": "Nande (Congolese (Democratic Republic) and Ugandan people)",
+      "value": 1
+    },
+    {
+      "name": "History",
+      "value": 1
+    },
+    {
+      "name": "Criticism",
+      "value": 1
+    },
+    {
+      "name": "Belgian Congo",
+      "value": 1
+    },
+    {
+      "name": "Zulu (African people)",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Instrument Construction",
+      "value": 1
+    },
+    {
+      "name": "Venda (African people)",
+      "value": 1
+    },
+    {
+      "name": "Xylophone music",
+      "value": 1
+    },
+    {
+      "name": "Xylophone",
+      "value": 1
+    },
+    {
+      "name": "Xylophone (Instrument)",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Blacking, John",
+      "value": 1
+    },
+    {
+      "name": "Veenstra, A. J. F.",
+      "value": 1
+    },
+    {
+      "name": "Jones, A. M.",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ea0a",
+      "titleInfo": [
+        {
+          "title": "Eight flute tunes from Butembo, east Belgian Congo: an analysis in two parts, musical and physical: Part 1"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0025"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea65",
+      "titleInfo": [
+        {
+          "title": "The Begu Zulu vertical flute"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0080"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eac7",
+      "titleInfo": [
+        {
+          "title": "Venda note-names"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00e2"
+    }
+  ]
+}

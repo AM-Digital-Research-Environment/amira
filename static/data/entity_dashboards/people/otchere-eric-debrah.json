@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "otchere-eric-debrah",
+    "name": "Otchere, Eric Debrah",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2016,
+      "count": 1
+    },
+    {
+      "year": 2017,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2016,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2017,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Popular music",
+      "value": 1
+    },
+    {
+      "name": "Social change",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Memory",
+      "value": 1
+    },
+    {
+      "name": "Anlo (African people)",
+      "value": 1
+    },
+    {
+      "name": "Fanti (African people)",
+      "value": 1
+    },
+    {
+      "name": "Migration",
+      "value": 1
+    },
+    {
+      "name": "Ewe (African people)",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Ghana",
+      "value": 2
+    },
+    {
+      "name": "Popular music",
+      "value": 1
+    },
+    {
+      "name": "Social change",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Memory",
+      "value": 1
+    },
+    {
+      "name": "Anlo (African people)",
+      "value": 1
+    },
+    {
+      "name": "Fanti (African people)",
+      "value": 1
+    },
+    {
+      "name": "Migration",
+      "value": 1
+    },
+    {
+      "name": "Ewe (African people)",
+      "value": 1
+    },
+    {
+      "name": "Identity",
+      "value": 1
+    },
+    {
+      "name": "Fishermen Songs",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ed69",
+      "titleInfo": [
+        {
+          "title": "Highlife Saturday Night: Popular Music and Social Change in Urban Ghana. Nate Plageman. 2013. Bloomington: Indiana University Press. 30 figures, glossary,\ndiscography, bibliography, index, 318 pp."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0384"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed94",
+      "titleInfo": [
+        {
+          "title": "IN A WORLD OF THEIR OWN: MEMORY AND IDENTITY IN THE FISHING SONGS OF A MIGRANT EWE COMMUNITY IN GHANA"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03af"
+    }
+  ]
+}

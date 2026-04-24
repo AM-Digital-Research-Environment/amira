@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "university-of-alaska-fairbanks",
+    "name": "University of Alaska Fairbanks",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 1970,
+      "count": 1
+    },
+    {
+      "year": 1971,
+      "count": 1
+    },
+    {
+      "year": 1973,
+      "count": 1
+    },
+    {
+      "year": 1987,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1970,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1971,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1973,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1987,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 4
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 4
+    }
+  ],
+  "subjects": [
+    {
+      "name": "South Africa",
+      "value": 2
+    },
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Tsonga (African people)",
+      "value": 2
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "Musical bow",
+      "value": 1
+    },
+    {
+      "name": "Percussion music",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 4
+    },
+    {
+      "name": "South Africa",
+      "value": 2
+    },
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Tsonga (African people)",
+      "value": 2
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "Shangana",
+      "value": 2
+    },
+    {
+      "name": "Musical bow",
+      "value": 1
+    },
+    {
+      "name": "Percussion music",
+      "value": 1
+    },
+    {
+      "name": "Musical Meter",
+      "value": 1
+    },
+    {
+      "name": "Musical Rhythm",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Johnston, Thomas F.",
+      "value": 4
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 4
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9eb7e",
+      "titleInfo": [
+        {
+          "title": "Xizambi friction-bow music of the Shangana-Tsonga"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0199"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb94",
+      "titleInfo": [
+        {
+          "title": "Shangana-Tsonga drum and bow rhythms"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01af"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ebc2",
+      "titleInfo": [
+        {
+          "title": "Mohambi xylophone music of the Shangana-Tsonga"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01dd"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec2a",
+      "titleInfo": [
+        {
+          "title": "Children's music of the Shangana-Tsonga"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0245"
+    }
+  ]
+}

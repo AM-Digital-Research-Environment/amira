@@ -1,0 +1,292 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "balogun-lekan",
+    "name": "Balogun, Lekan",
+    "count": 6
+  },
+  "timeline": [
+    {
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2017,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2018,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2021,
+      "total": 3,
+      "byType": {
+        "Text": 2,
+        "Image": 1
+      }
+    },
+    {
+      "year": 2022,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 5
+    },
+    {
+      "name": "Image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 4
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Igbo (African people)",
+      "value": 1
+    },
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Violence",
+      "value": 1
+    },
+    {
+      "name": "Zulu (African people)",
+      "value": 1
+    },
+    {
+      "name": "Oral tradition",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Nigeria",
+      "value": 5
+    },
+    {
+      "name": "Shakespeare",
+      "value": 2
+    },
+    {
+      "name": "Article",
+      "value": 2
+    },
+    {
+      "name": "Igbo (African people)",
+      "value": 1
+    },
+    {
+      "name": "Collaboration",
+      "value": 1
+    },
+    {
+      "name": "Othello",
+      "value": 1
+    },
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Violence",
+      "value": 1
+    },
+    {
+      "name": "Zulu (African people)",
+      "value": 1
+    },
+    {
+      "name": "Oral tradition",
+      "value": 1
+    },
+    {
+      "name": "Macbeth",
+      "value": 1
+    },
+    {
+      "name": "Adaptation",
+      "value": 1
+    },
+    {
+      "name": "Mofolo",
+      "value": 1
+    },
+    {
+      "name": "Msomi",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Gibbs, James",
+      "value": 2
+    },
+    {
+      "name": "Kolade, Christopher",
+      "value": 1
+    },
+    {
+      "name": "Matzke, Christine",
+      "value": 1
+    },
+    {
+      "name": "Omojola, Bode",
+      "value": 1
+    },
+    {
+      "name": "University of Zadar",
+      "value": 1
+    },
+    {
+      "name": "California Institute of Pan African Studies",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Nigeria",
+      "region": "",
+      "city": "",
+      "count": 3
+    },
+    {
+      "country": "Germany",
+      "region": "",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "Croatia",
+      "region": "Zadar County",
+      "city": "Zadar",
+      "count": 1
+    },
+    {
+      "country": "United States of America",
+      "region": "California",
+      "city": "Long Beach",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "6705340c4b98fee5873b4412",
+      "titleInfo": [
+        {
+          "title": "Re: Taiwo Shango"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-0005"
+    },
+    {
+      "_id": "6705340c4b98fee5873b4419",
+      "titleInfo": [
+        {
+          "title": "NOTES AND UPDATES ON TAIWO SHANGO (Fieldworks 2021-2022)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-000c"
+    },
+    {
+      "_id": "6705340c4b98fee5873b441b",
+      "titleInfo": [
+        {
+          "title": "Taiwo Shango Mindmap July 2021"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-000e"
+    },
+    {
+      "_id": "6705340c4b98fee5873b4427",
+      "titleInfo": [
+        {
+          "title": "Re: Next meetng, Friday, 5 Nov, new times: 5 pm Bristol, 6 pm Lagos/Bayreuth, 1 pmMassachusets (plus link to subtitled film!)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-001a"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df870fc",
+      "titleInfo": [
+        {
+          "title": "Collaborating with a Dead Man: The Cultural Politics of Ahmed Yerima's Otaelo"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0005"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87106",
+      "titleInfo": [
+        {
+          "title": "Violence and Xenophobia in South Africa: Shakespeare, Thomas Mofolo's Chaka, and Welcome Msomi's uMabatha: the Zulu Macbeth"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-000f"
+    }
+  ]
+}

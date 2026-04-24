@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "type": "genre",
+    "id": "map",
+    "name": "Map",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1926,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1926,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Archives",
+      "value": 1
+    },
+    {
+      "name": "Colonisation",
+      "value": 1
+    },
+    {
+      "name": "Letters",
+      "value": 1
+    },
+    {
+      "name": "Social norms",
+      "value": 1
+    },
+    {
+      "name": "Discourse analysis",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Archives",
+      "value": 1
+    },
+    {
+      "name": "Colonisation",
+      "value": 1
+    },
+    {
+      "name": "Letters",
+      "value": 1
+    },
+    {
+      "name": "Social norms",
+      "value": 1
+    },
+    {
+      "name": "Discourse analysis",
+      "value": 1
+    },
+    {
+      "name": "British Colonisation",
+      "value": 1
+    },
+    {
+      "name": "Colonial Records",
+      "value": 1
+    },
+    {
+      "name": "Bafut",
+      "value": 1
+    },
+    {
+      "name": "Southern Cameroons",
+      "value": 1
+    },
+    {
+      "name": "Postcolonial Heritage",
+      "value": 1
+    },
+    {
+      "name": "Great Britain",
+      "value": 1
+    },
+    {
+      "name": "Postcolonial Studies",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Otung, Glory Essien",
+      "value": 1
+    },
+    {
+      "name": "Anchimbe, Eric",
+      "value": 1
+    },
+    {
+      "name": "Chiangong, Pepetual Mforbe",
+      "value": 1
+    },
+    {
+      "name": "Marjie, Sarah",
+      "value": 1
+    },
+    {
+      "name": "Kengo, Emmanuel",
+      "value": 1
+    },
+    {
+      "name": "Atindogbe, Gratien",
+      "value": 1
+    },
+    {
+      "name": "Ubanako, Valentine",
+      "value": 1
+    },
+    {
+      "name": "Mforteh, Stephen",
+      "value": 1
+    },
+    {
+      "name": "Eyoh, Julius",
+      "value": 1
+    },
+    {
+      "name": "Oyali, Uchenna",
+      "value": 1
+    },
+    {
+      "name": "Mbah, Boniface",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Cameroon",
+      "region": "Southwest",
+      "city": "Buea",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "6877ced7b542f8b9f8940b23",
+      "titleInfo": [
+        {
+          "title": "Assessment Report on Bafut Area Bamenda Division Cameroons Province"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_CLnCK2019",
+        "name": "Colonial Letters and the Contact of Knowledges"
+      },
+      "dre_id": "abj-99-001e"
+    }
+  ]
+}

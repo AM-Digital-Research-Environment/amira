@@ -9,8 +9,10 @@
 	import { FilterPanel } from '$lib/components/layout';
 	import CollectionIndexCard from '$lib/components/collections/CollectionIndexCard.svelte';
 	import { buildCollectionCards } from '$lib/utils/featuredCollectionLoader';
-	import { projects, allCollections } from '$lib/stores/data';
+	import { projects, allCollections, ensureCollections } from '$lib/stores/data';
 	import { filteredCollections } from '$lib/stores/filters';
+	import { base } from '$app/paths';
+	import { onMount } from 'svelte';
 	import {
 		groupByYearAndType,
 		extractSubjects,
@@ -40,8 +42,11 @@
 	} from '@lucide/svelte';
 	import { normalizeLanguageCode } from '$lib/utils/languages';
 	import { institutionUrl } from '$lib/utils/urls';
-	import { base } from '$app/paths';
 	import { SvelteSet } from 'svelte/reactivity';
+
+	onMount(() => {
+		void ensureCollections(base);
+	});
 
 	// Word cloud controls
 	let wordCloudMaxWords = $state(120);

@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "renate-schafberg",
+    "name": "Renate, Schafberg",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2019,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2019,
+      "total": 1,
+      "byType": {
+        "Bibliography": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Bibliography",
+      "value": 1
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Archival materials",
+      "value": 1
+    },
+    {
+      "name": "Animal breeding",
+      "value": 1
+    },
+    {
+      "name": "Karakul sheep",
+      "value": 1
+    },
+    {
+      "name": "Karakul sheep industry",
+      "value": 1
+    },
+    {
+      "name": "Agriculture",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Archival materials",
+      "value": 1
+    },
+    {
+      "name": "Animal breeding",
+      "value": 1
+    },
+    {
+      "name": "Karakul sheep",
+      "value": 1
+    },
+    {
+      "name": "Karakul sheep industry",
+      "value": 1
+    },
+    {
+      "name": "Agriculture",
+      "value": 1
+    },
+    {
+      "name": "Germany",
+      "value": 1
+    },
+    {
+      "name": "Halle",
+      "value": 1
+    },
+    {
+      "name": "Karakul Farming",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "66cf0d9595a000d4c7bf375d",
+      "titleInfo": [
+        {
+          "title": "Documents from Halle - Haustierkundliche Sammlung"
+        }
+      ],
+      "typeOfResource": "Bibliography",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-01-0032"
+    }
+  ]
+}

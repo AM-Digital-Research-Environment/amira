@@ -1,0 +1,243 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "senegal",
+    "name": "Senegal",
+    "count": 9
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "count": 5
+    },
+    {
+      "year": 2023,
+      "count": 3
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2022,
+      "total": 5,
+      "byType": {
+        "Text": 5
+      }
+    },
+    {
+      "year": 2023,
+      "total": 3,
+      "byType": {
+        "Text": 3
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 9
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 8
+    },
+    {
+      "name": "French",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "West Africa",
+      "value": 7
+    },
+    {
+      "name": "Education",
+      "value": 3
+    },
+    {
+      "name": "Mass media",
+      "value": 2
+    },
+    {
+      "name": "Travel",
+      "value": 2
+    },
+    {
+      "name": "Prices",
+      "value": 2
+    },
+    {
+      "name": "Livestock",
+      "value": 2
+    },
+    {
+      "name": "Medical care",
+      "value": 2
+    },
+    {
+      "name": "Religion",
+      "value": 2
+    },
+    {
+      "name": "Debt",
+      "value": 1
+    },
+    {
+      "name": "Public finance",
+      "value": 1
+    },
+    {
+      "name": "Exports",
+      "value": 1
+    },
+    {
+      "name": "Imports",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Senegal",
+      "value": 9
+    },
+    {
+      "name": "West Africa",
+      "value": 7
+    },
+    {
+      "name": "Education",
+      "value": 3
+    },
+    {
+      "name": "Mass media",
+      "value": 2
+    },
+    {
+      "name": "Travel",
+      "value": 2
+    },
+    {
+      "name": "Prices",
+      "value": 2
+    },
+    {
+      "name": "Livestock",
+      "value": 2
+    },
+    {
+      "name": "Medical care",
+      "value": 2
+    },
+    {
+      "name": "Religion",
+      "value": 2
+    },
+    {
+      "name": "Household Income",
+      "value": 2
+    },
+    {
+      "name": "Water Rights",
+      "value": 2
+    },
+    {
+      "name": "Access to Water",
+      "value": 2
+    },
+    {
+      "name": "Trade Practices",
+      "value": 2
+    },
+    {
+      "name": "Trade Regulations",
+      "value": 2
+    },
+    {
+      "name": "Sociality",
+      "value": 2
+    },
+    {
+      "name": "Mobility",
+      "value": 2
+    },
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 2
+    },
+    {
+      "name": "Sovereign Bond",
+      "value": 2
+    },
+    {
+      "name": "Government Revenue",
+      "value": 2
+    },
+    {
+      "name": "Lockdown",
+      "value": 1
+    },
+    {
+      "name": "Debt",
+      "value": 1
+    },
+    {
+      "name": "Public finance",
+      "value": 1
+    },
+    {
+      "name": "Exports",
+      "value": 1
+    },
+    {
+      "name": "Export Data",
+      "value": 1
+    },
+    {
+      "name": "Imports",
+      "value": 1
+    },
+    {
+      "name": "Import Data",
+      "value": 1
+    },
+    {
+      "name": "Government Expenditure",
+      "value": 1
+    },
+    {
+      "name": "Government Budget",
+      "value": 1
+    },
+    {
+      "name": "Tax Revenue",
+      "value": 1
+    },
+    {
+      "name": "Total Revenue",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Koddenbrock, Kai",
+      "value": 7
+    },
+    {
+      "name": "Beye, Amadou Kane",
+      "value": 2
+    }
+  ]
+}

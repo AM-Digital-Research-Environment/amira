@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "type": "genre",
+    "id": "business-correspondence",
+    "name": "Business correspondence",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2024,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2024,
+      "total": 2,
+      "byType": {
+        "Image": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    },
+    {
+      "name": "Portuguese",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Commercial correspondence",
+      "value": 2
+    },
+    {
+      "name": "Documentation",
+      "value": 2
+    },
+    {
+      "name": "Capoeira (Dance)",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Commercial correspondence",
+      "value": 2
+    },
+    {
+      "name": "Documentation",
+      "value": 2
+    },
+    {
+      "name": "Capoeira (Dance)",
+      "value": 2
+    },
+    {
+      "name": "Memory of Capoeira Angola",
+      "value": 2
+    },
+    {
+      "name": "Mestre Nô",
+      "value": 2
+    }
+  ],
+  "contributors": [
+    {
+      "name": "de Oliveira, Norival Moreira",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "Brazil",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "67d192730fec557b9a445c37",
+      "titleInfo": [
+        {
+          "title": "Carta de suporte ao pedido de expedição do visa de Mestre Nô"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0020"
+    },
+    {
+      "_id": "67d192730fec557b9a445c39",
+      "titleInfo": [
+        {
+          "title": "Declaração de afastamento do trabalho regular para viajar para os estados unidos para dar aulas de capoeira"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0022"
+    }
+  ]
+}

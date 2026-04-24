@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "depauw-university",
+    "name": "DePauw University",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1980,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1980,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 1
+    },
+    {
+      "name": "African Hymnody",
+      "value": 1
+    },
+    {
+      "name": "Christian Worship",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kaemmer, John E.",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ebe9",
+      "titleInfo": [
+        {
+          "title": "AFRICAN HYMNODY IN CHRISTIAN WORSHIP: A CONTRIBUTION TO THE HISTORY OF ITS DEVELOPMENT by A.M. Jones, Mambo Press, Gwelo, Rhodesia, 1976 (Mambo Occasional Papers — Misso-Pastoral Series No. 8), pp. 64, RS0.65."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0204"
+    }
+  ]
+}

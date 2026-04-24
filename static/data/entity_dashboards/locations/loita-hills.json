@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "loita-hills",
+    "name": "Loita Hills",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2022,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    },
+    {
+      "name": "Swahili",
+      "value": 1
+    },
+    {
+      "name": "Spanish",
+      "value": 1
+    },
+    {
+      "name": "Catalan",
+      "value": 1
+    },
+    {
+      "name": "Maasai",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Arid regions",
+      "value": 2
+    },
+    {
+      "name": "Maasai (African people)",
+      "value": 2
+    },
+    {
+      "name": "East Africa",
+      "value": 2
+    },
+    {
+      "name": "Food security",
+      "value": 1
+    },
+    {
+      "name": "Livestock",
+      "value": 1
+    },
+    {
+      "name": "Households",
+      "value": 1
+    },
+    {
+      "name": "Vaccination",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Arid regions",
+      "value": 2
+    },
+    {
+      "name": "Maasai (African people)",
+      "value": 2
+    },
+    {
+      "name": "East Africa",
+      "value": 2
+    },
+    {
+      "name": "Kenya",
+      "value": 2
+    },
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 2
+    },
+    {
+      "name": "Food security",
+      "value": 1
+    },
+    {
+      "name": "Livestock",
+      "value": 1
+    },
+    {
+      "name": "Households",
+      "value": 1
+    },
+    {
+      "name": "Vaccination",
+      "value": 1
+    },
+    {
+      "name": "Lockdown",
+      "value": 1
+    },
+    {
+      "name": "Tanzania",
+      "value": 1
+    },
+    {
+      "name": "Border",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kronenburg García, Angela",
+      "value": 2
+    },
+    {
+      "name": "ole Mowuo, Lenaai",
+      "value": 2
+    },
+    {
+      "name": "ole Mowuo, Matinkoi",
+      "value": 1
+    },
+    {
+      "name": "Mayiani, Daniel",
+      "value": 1
+    },
+    {
+      "name": "Tallio, Virginie",
+      "value": 1
+    },
+    {
+      "name": "Hashimshony Yaffe, Nurit",
+      "value": 1
+    },
+    {
+      "name": "Gargallo, Eduard",
+      "value": 1
+    },
+    {
+      "name": "Roque de Pinho, Joana",
+      "value": 1
+    }
+  ]
+}

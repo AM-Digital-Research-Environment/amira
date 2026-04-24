@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "iyataoua",
+    "name": "Iyataoua",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1990,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1990,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 1
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Photography",
+      "value": 1
+    },
+    {
+      "name": "Anthropology",
+      "value": 1
+    },
+    {
+      "name": "Photographs",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Photography",
+      "value": 1
+    },
+    {
+      "name": "Anthropology",
+      "value": 1
+    },
+    {
+      "name": "Photographs",
+      "value": 1
+    },
+    {
+      "name": "Sammlung Gerd Spittler",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Collections@UBT",
+      "value": 1
+    },
+    {
+      "name": "Spittler, Gerd",
+      "value": 1
+    }
+  ]
+}

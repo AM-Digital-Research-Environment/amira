@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "fisk-university",
+    "name": "Fisk University",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2017,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2017,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Thieme, Darius L.",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ec35",
+      "titleInfo": [
+        {
+          "title": "The New Grove Dictionary of Musical Instruments. Edited by Stanley Sadie. London: Macmillan Press: New York: Grove's Dictionary of Music, 1984. [Vol.I, xxvi, 805p; Vol.II, xiii, 982p; Vol.HI, xiii, 921p]"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0250"
+    }
+  ]
+}

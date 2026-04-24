@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "bruchstein",
+    "name": "Bruchstein",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2005,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2005,
+      "total": 2,
+      "byType": {
+        "Image": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 2
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Photography",
+      "value": 2
+    },
+    {
+      "name": "Anthropology",
+      "value": 2
+    },
+    {
+      "name": "Photographs",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Photography",
+      "value": 2
+    },
+    {
+      "name": "Anthropology",
+      "value": 2
+    },
+    {
+      "name": "Photographs",
+      "value": 2
+    },
+    {
+      "name": "Wüstung",
+      "value": 2
+    },
+    {
+      "name": "Verlassenes Dorf",
+      "value": 2
+    },
+    {
+      "name": "Deserted Settlements",
+      "value": 2
+    },
+    {
+      "name": "Sammlung Gerd Spittler",
+      "value": 2
+    },
+    {
+      "name": "Fundament",
+      "value": 1
+    },
+    {
+      "name": "Trockenmauer",
+      "value": 1
+    },
+    {
+      "name": "Rubblework",
+      "value": 1
+    },
+    {
+      "name": "Dry Stone Wall",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Collections@UBT",
+      "value": 2
+    },
+    {
+      "name": "Spittler, Gerd",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "Niger",
+      "region": "Agadez Region",
+      "city": "Timia",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "66d97447c610a95a80dd9593",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-000a"
+    },
+    {
+      "_id": "66d97447c610a95a80dd9594",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-000b"
+    }
+  ]
+}

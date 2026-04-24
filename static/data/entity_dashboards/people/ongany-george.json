@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "ongany-george",
+    "name": "Ongany, George",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1950,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1950,
+      "total": 1,
+      "byType": {
+        "Audio": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Audio",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "Acholi",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "The Kiko Kids",
+      "value": 1
+    },
+    {
+      "name": "Jambo",
+      "value": 1
+    },
+    {
+      "name": "Ghana Broadcasting Corporation Gramophone Library",
+      "value": 1
+    },
+    {
+      "name": "East African Records Limited",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Kenya",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "66c34de8ba20a6d8a816acfc",
+      "titleInfo": [
+        {
+          "title": "Di Cwynyi"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-00fe"
+    }
+  ]
+}

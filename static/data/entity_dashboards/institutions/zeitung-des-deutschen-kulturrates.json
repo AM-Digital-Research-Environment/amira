@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "zeitung-des-deutschen-kulturrates",
+    "name": "Zeitung des Deutschen Kulturrates",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2014,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2014,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Racism",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Culture",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Racism",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Culture",
+      "value": 1
+    },
+    {
+      "name": "Race Theory",
+      "value": 1
+    },
+    {
+      "name": "Tradition",
+      "value": 1
+    },
+    {
+      "name": "Cultural Heritage",
+      "value": 1
+    },
+    {
+      "name": "Colonialism",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Vierke, Ulf",
+      "value": 1
+    },
+    {
+      "name": "Zeitung des Deutschen Kulturrates",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "692db49707481a28c72155aa",
+      "titleInfo": [
+        {
+          "title": "Kulturerbe muss nicht in Stein gemeißelt sein"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0002"
+    }
+  ]
+}

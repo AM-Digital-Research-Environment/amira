@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "sovereign-bond",
+    "name": "Sovereign Bond",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2022,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2022,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "West Africa",
+      "value": 2
+    },
+    {
+      "name": "Debt",
+      "value": 1
+    },
+    {
+      "name": "Public finance",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "West Africa",
+      "value": 2
+    },
+    {
+      "name": "Senegal",
+      "value": 2
+    },
+    {
+      "name": "Debt",
+      "value": 1
+    },
+    {
+      "name": "Public finance",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Koddenbrock, Kai",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "Senegal",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "674dba652e70d1e383d18aed",
+      "titleInfo": [
+        {
+          "title": "Historical statistics on Senegal public finance"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-000a"
+    },
+    {
+      "_id": "674dba652e70d1e383d18af0",
+      "titleInfo": [
+        {
+          "title": "Sovereign Bond Contracts, Senegal"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-000d"
+    }
+  ]
+}

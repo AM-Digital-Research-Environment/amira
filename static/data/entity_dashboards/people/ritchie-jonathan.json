@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "ritchie-jonathan",
+    "name": "Ritchie, Jonathan",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2009,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2009,
+      "total": 2,
+      "byType": {
+        "Audio": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Audio",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Interviews",
+      "value": 2
+    },
+    {
+      "name": "Artists",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Interviews",
+      "value": 2
+    },
+    {
+      "name": "Artists",
+      "value": 2
+    },
+    {
+      "name": "Nigeria",
+      "value": 2
+    },
+    {
+      "name": "Papua New Guinea",
+      "value": 2
+    },
+    {
+      "name": "New Guinea",
+      "value": 2
+    },
+    {
+      "name": "Art Collector",
+      "value": 2
+    },
+    {
+      "name": "Art Collecting",
+      "value": 2
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Beier, Georgina",
+      "value": 2
+    },
+    {
+      "name": "Beier, Ulli",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Australia",
+      "region": "New South Wales",
+      "city": "Sydney",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b4f6",
+      "titleInfo": [
+        {
+          "title": "Interview mit Ulli und Georgina Beier, und Jonathan Ritchie"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-006e"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4f7",
+      "titleInfo": [
+        {
+          "title": "Interview mit Georgina Beier und Jonathan Ritchie"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-006f"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "borgou-department",
+    "name": "Borgou Department",
+    "count": 22
+  },
+  "timeline": [
+    {
+      "year": 2022,
+      "count": 22
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2022,
+      "total": 22,
+      "byType": {
+        "Text": 22
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 22
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 22
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Literacy",
+      "value": 22
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Literacy",
+      "value": 22
+    },
+    {
+      "name": "Interaction",
+      "value": 22
+    },
+    {
+      "name": "Illiteracy",
+      "value": 22
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Abou Moumouni, Issifou",
+      "value": 22
+    }
+  ]
+}

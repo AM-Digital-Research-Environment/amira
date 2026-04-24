@@ -1,0 +1,522 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "criticism",
+    "name": "Criticism",
+    "count": 10
+  },
+  "timeline": [
+    {
+      "year": 1954,
+      "count": 7
+    },
+    {
+      "year": 1955,
+      "count": 3
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1954,
+      "total": 7,
+      "byType": {
+        "Text": 7
+      }
+    },
+    {
+      "year": 1955,
+      "total": 3,
+      "byType": {
+        "Text": 3
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 10
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 10
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 10
+    },
+    {
+      "name": "History",
+      "value": 9
+    },
+    {
+      "name": "Music",
+      "value": 8
+    },
+    {
+      "name": "Africa",
+      "value": 8
+    },
+    {
+      "name": "Musical instruments",
+      "value": 6
+    },
+    {
+      "name": "Drum",
+      "value": 3
+    },
+    {
+      "name": "Dance",
+      "value": 3
+    },
+    {
+      "name": "Polyrhythm",
+      "value": 3
+    },
+    {
+      "name": "Drum music",
+      "value": 3
+    },
+    {
+      "name": "Performance",
+      "value": 2
+    },
+    {
+      "name": "Folk songs",
+      "value": 2
+    },
+    {
+      "name": "Improvisation (Music)",
+      "value": 1
+    },
+    {
+      "name": "Singing",
+      "value": 1
+    },
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Music libraries",
+      "value": 1
+    },
+    {
+      "name": "Classification",
+      "value": 1
+    },
+    {
+      "name": "Tetela (African people)",
+      "value": 1
+    },
+    {
+      "name": "Pipe music",
+      "value": 1
+    },
+    {
+      "name": "Pipe (Musical instrument)",
+      "value": 1
+    },
+    {
+      "name": "Drum language",
+      "value": 1
+    },
+    {
+      "name": "Talking drum",
+      "value": 1
+    },
+    {
+      "name": "Akan (African people)",
+      "value": 1
+    },
+    {
+      "name": "Percussion instruments",
+      "value": 1
+    },
+    {
+      "name": "Folk music",
+      "value": 1
+    },
+    {
+      "name": "Transnationalism",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Ethnomusicology",
+      "value": 10
+    },
+    {
+      "name": "African Music",
+      "value": 10
+    },
+    {
+      "name": "History",
+      "value": 9
+    },
+    {
+      "name": "Music",
+      "value": 8
+    },
+    {
+      "name": "Africa",
+      "value": 8
+    },
+    {
+      "name": "Musical instruments",
+      "value": 6
+    },
+    {
+      "name": "Drum",
+      "value": 3
+    },
+    {
+      "name": "Dance",
+      "value": 3
+    },
+    {
+      "name": "Polyrhythm",
+      "value": 3
+    },
+    {
+      "name": "Drum music",
+      "value": 3
+    },
+    {
+      "name": "Drum (Instrument)",
+      "value": 3
+    },
+    {
+      "name": "Performance",
+      "value": 2
+    },
+    {
+      "name": "Belgian Congo",
+      "value": 2
+    },
+    {
+      "name": "Folk songs",
+      "value": 2
+    },
+    {
+      "name": "Interpretation",
+      "value": 2
+    },
+    {
+      "name": "Improvisation (Music)",
+      "value": 1
+    },
+    {
+      "name": "Singing",
+      "value": 1
+    },
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Music libraries",
+      "value": 1
+    },
+    {
+      "name": "Classification",
+      "value": 1
+    },
+    {
+      "name": "Tetela (African people)",
+      "value": 1
+    },
+    {
+      "name": "Pipe music",
+      "value": 1
+    },
+    {
+      "name": "Pipe (Musical instrument)",
+      "value": 1
+    },
+    {
+      "name": "Sankuru",
+      "value": 1
+    },
+    {
+      "name": "Pipe (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Drum language",
+      "value": 1
+    },
+    {
+      "name": "Talking drum",
+      "value": 1
+    },
+    {
+      "name": "Akan (African people)",
+      "value": 1
+    },
+    {
+      "name": "Percussion instruments",
+      "value": 1
+    },
+    {
+      "name": "Talking Drum (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Folk music",
+      "value": 1
+    },
+    {
+      "name": "Transnationalism",
+      "value": 1
+    },
+    {
+      "name": "Anthropology of Music",
+      "value": 1
+    },
+    {
+      "name": "Tiv (African people)",
+      "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    },
+    {
+      "name": "Musical Imitation",
+      "value": 1
+    },
+    {
+      "name": "Dynamics",
+      "value": 1
+    },
+    {
+      "name": "Ila (African people)",
+      "value": 1
+    },
+    {
+      "name": "Tonga (Zambezi people)",
+      "value": 1
+    },
+    {
+      "name": "Musical bow",
+      "value": 1
+    },
+    {
+      "name": "Zambia",
+      "value": 1
+    },
+    {
+      "name": "Tonga (Zambia)",
+      "value": 1
+    },
+    {
+      "name": "Flute music",
+      "value": 1
+    },
+    {
+      "name": "Musical analysis",
+      "value": 1
+    },
+    {
+      "name": "Nande (Congolese (Democratic Republic) and Ugandan people)",
+      "value": 1
+    },
+    {
+      "name": "Flute",
+      "value": 1
+    },
+    {
+      "name": "Flute (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Music festivals",
+      "value": 1
+    },
+    {
+      "name": "Songs",
+      "value": 1
+    },
+    {
+      "name": "Festivals",
+      "value": 1
+    },
+    {
+      "name": "Xylophone music",
+      "value": 1
+    },
+    {
+      "name": "Syncopation",
+      "value": 1
+    },
+    {
+      "name": "Xylophone",
+      "value": 1
+    },
+    {
+      "name": "Methods",
+      "value": 1
+    },
+    {
+      "name": "Xylophone (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Musical Meter",
+      "value": 1
+    },
+    {
+      "name": "Musical Rhythm",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tracey, Hugh",
+      "value": 2
+    },
+    {
+      "name": "Blacking, John",
+      "value": 2
+    },
+    {
+      "name": "Gbeho, Philip",
+      "value": 1
+    },
+    {
+      "name": "Shaffer, Jacquiline",
+      "value": 1
+    },
+    {
+      "name": "Nketia, J. H.",
+      "value": 1
+    },
+    {
+      "name": "Lane, Michael G. M.",
+      "value": 1
+    },
+    {
+      "name": "Rycroft, David K.",
+      "value": 1
+    },
+    {
+      "name": "Hyslop, Graham H.",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 10
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9e9f0",
+      "titleInfo": [
+        {
+          "title": "Music of the Gold Coast"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-000b"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9e9f3",
+      "titleInfo": [
+        {
+          "title": "The International Library of African Music"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-000e"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9e9f4",
+      "titleInfo": [
+        {
+          "title": "Bamboo pipes of the Batetela children"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-000f"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9e9f5",
+      "titleInfo": [
+        {
+          "title": "The role of the drummer in Akan society"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0010"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9e9fc",
+      "titleInfo": [
+        {
+          "title": "The state of folk music in Bantu Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0017"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9e9fd",
+      "titleInfo": [
+        {
+          "title": "The music of Tiv"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0018"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9e9fe",
+      "titleInfo": [
+        {
+          "title": "Tribal style and free expression"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0019"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea0a",
+      "titleInfo": [
+        {
+          "title": "Eight flute tunes from Butembo, east Belgian Congo: an analysis in two parts, musical and physical: Part 1"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0025"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea0b",
+      "titleInfo": [
+        {
+          "title": "Choice of music for festivals in Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0026"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea10",
+      "titleInfo": [
+        {
+          "title": "Some notes on a theory of African rhythm advanced by Erich von Hornbostel"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-002b"
+    }
+  ]
+}

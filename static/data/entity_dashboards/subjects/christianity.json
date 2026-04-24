@@ -1,0 +1,810 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "christianity",
+    "name": "Christianity",
+    "count": 36
+  },
+  "timeline": [
+    {
+      "year": 1958,
+      "count": 1
+    },
+    {
+      "year": 1989,
+      "count": 5
+    },
+    {
+      "year": 1990,
+      "count": 2
+    },
+    {
+      "year": 2014,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1958,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1989,
+      "total": 5,
+      "byType": {
+        "Moving image": 5
+      }
+    },
+    {
+      "year": 1990,
+      "total": 2,
+      "byType": {
+        "Moving image": 2
+      }
+    },
+    {
+      "year": 2014,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Moving image",
+      "value": 34
+    },
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 36
+    },
+    {
+      "name": "Spanish",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Religion",
+      "value": 32
+    },
+    {
+      "name": "Music",
+      "value": 11
+    },
+    {
+      "name": "Choirs (Music)",
+      "value": 10
+    },
+    {
+      "name": "Gospel music",
+      "value": 10
+    },
+    {
+      "name": "Singing",
+      "value": 10
+    },
+    {
+      "name": "Interviews",
+      "value": 2
+    },
+    {
+      "name": "Christmas",
+      "value": 2
+    },
+    {
+      "name": "Islam",
+      "value": 1
+    },
+    {
+      "name": "Judaism",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Chewa (African people)",
+      "value": 1
+    },
+    {
+      "name": "Nyanja (African people)",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Education",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Religion",
+      "value": 32
+    },
+    {
+      "name": "Music",
+      "value": 11
+    },
+    {
+      "name": "Choirs (Music)",
+      "value": 10
+    },
+    {
+      "name": "Gospel music",
+      "value": 10
+    },
+    {
+      "name": "Singing",
+      "value": 10
+    },
+    {
+      "name": "Live Music",
+      "value": 10
+    },
+    {
+      "name": "Interviews",
+      "value": 2
+    },
+    {
+      "name": "Christmas",
+      "value": 2
+    },
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Islam",
+      "value": 1
+    },
+    {
+      "name": "Judaism",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Chewa (African people)",
+      "value": 1
+    },
+    {
+      "name": "Nyanja (African people)",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Education",
+      "value": 1
+    },
+    {
+      "name": "Church Worship",
+      "value": 1
+    },
+    {
+      "name": "Religious Aspects",
+      "value": 1
+    },
+    {
+      "name": "Kenya",
+      "value": 1
+    },
+    {
+      "name": "Religious Song",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Government of Liberia",
+      "value": 31
+    },
+    {
+      "name": "McCrumada, Charles",
+      "value": 14
+    },
+    {
+      "name": "Taylor, Adolphus",
+      "value": 12
+    },
+    {
+      "name": "Urey, Khrushchev Borbor",
+      "value": 11
+    },
+    {
+      "name": "Fakay, Soko",
+      "value": 10
+    },
+    {
+      "name": "Wegee, Presley",
+      "value": 10
+    },
+    {
+      "name": "Gilbert, Thomas",
+      "value": 9
+    },
+    {
+      "name": "Liberia Broadcasting System (LBS)",
+      "value": 8
+    },
+    {
+      "name": "Wessehutes, Jimmy",
+      "value": 8
+    },
+    {
+      "name": "Eastman, John",
+      "value": 7
+    },
+    {
+      "name": "Bethel World Outreach Church",
+      "value": 6
+    },
+    {
+      "name": "Mensah, Sam",
+      "value": 6
+    },
+    {
+      "name": "Lampkins, Ralph",
+      "value": 6
+    },
+    {
+      "name": "Menyongai, Jeremiah B.",
+      "value": 5
+    },
+    {
+      "name": "Brent, Julius",
+      "value": 5
+    },
+    {
+      "name": "Korvah, James",
+      "value": 5
+    },
+    {
+      "name": "Marwieh, Bishop Augustus B.",
+      "value": 3
+    },
+    {
+      "name": "Bethel Presbyterian Church Choir",
+      "value": 3
+    },
+    {
+      "name": "Flomo, Korkulor",
+      "value": 2
+    },
+    {
+      "name": "George, Rev. Edet",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "Liberia",
+      "region": "Montserrado County",
+      "city": "Monrovia",
+      "count": 34
+    },
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "6982337057a8e0353b0b1c60",
+      "titleInfo": [
+        {
+          "title": "The Bethel Hour with Pastor Darlington Johnson"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0023"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c62",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0025"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c6c",
+      "titleInfo": [
+        {
+          "title": "Ministry of Hope"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-002f"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1ca2",
+      "titleInfo": [
+        {
+          "title": "Christofest"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0065"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1ca3",
+      "titleInfo": [
+        {
+          "title": "Christofest"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0066"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cb2",
+      "titleInfo": [
+        {
+          "title": "Christofest"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0075"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cb3",
+      "titleInfo": [
+        {
+          "title": "Christofest"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0076"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cb4",
+      "titleInfo": [
+        {
+          "title": "Christofest"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0077"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cc1",
+      "titleInfo": [
+        {
+          "title": "Special Feature"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0084"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cc4",
+      "titleInfo": [
+        {
+          "title": "Special"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0087"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cc9",
+      "titleInfo": [
+        {
+          "title": "The Gospel Time"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-008c"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1ce8",
+      "titleInfo": [
+        {
+          "title": "Christofest"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00ab"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cee",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00b1"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d04",
+      "titleInfo": [
+        {
+          "title": "Celebration of Victory"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00c7"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d1c",
+      "titleInfo": [
+        {
+          "title": "Gospel Time"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00df"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d21",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00e4"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d23",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00e6"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d24",
+      "titleInfo": [
+        {
+          "title": "The Gospel Time"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00e7"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d25",
+      "titleInfo": [
+        {
+          "title": "Sunday Religious Music"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00e8"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d26",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00e9"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d27",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00ea"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d28",
+      "titleInfo": [
+        {
+          "title": "Gospel Time"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00eb"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d74",
+      "titleInfo": [
+        {
+          "title": "All Christian Youth Organization"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0137"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d8c",
+      "titleInfo": [
+        {
+          "title": "Bethel World Outreach"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-014f"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d9e",
+      "titleInfo": [
+        {
+          "title": "Gospel Time"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0161"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d9f",
+      "titleInfo": [
+        {
+          "title": "The Trinity Cathedral Choral Singers Led By Albert Tackie"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0162"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1da1",
+      "titleInfo": [
+        {
+          "title": "Gospel Time"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0164"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1da3",
+      "titleInfo": [
+        {
+          "title": "Christmas Cantata"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0166"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1da4",
+      "titleInfo": [
+        {
+          "title": "Venusians from The Institute of Professional Studies"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0167"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1da5",
+      "titleInfo": [
+        {
+          "title": "Liberty Singers Paynesville"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0168"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1da6",
+      "titleInfo": [
+        {
+          "title": "The Gospel Time"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0169"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1dd9",
+      "titleInfo": [
+        {
+          "title": "Christofest"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-019c"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1dde",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-01a1"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1ddf",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-01a2"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea67",
+      "titleInfo": [
+        {
+          "title": "African music in Christian worship"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0082"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed3e",
+      "titleInfo": [
+        {
+          "title": "Music in Kenyan Christianity: Logooli Religious Song. Jean Ngoya Kidula. 2013. Bloomington: Indiana University Press. 17 bw illus., 53 music exs, index, 312pp."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0359"
+    }
+  ]
+}

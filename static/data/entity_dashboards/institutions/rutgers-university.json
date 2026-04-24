@@ -1,0 +1,265 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "rutgers-university",
+    "name": "Rutgers University",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 1989,
+      "count": 1
+    },
+    {
+      "year": 1996,
+      "count": 1
+    },
+    {
+      "year": 1997,
+      "count": 1
+    },
+    {
+      "year": 2006,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1989,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1996,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1997,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2006,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 4
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Africa",
+      "value": 3
+    },
+    {
+      "name": "Deportation",
+      "value": 1
+    },
+    {
+      "name": "Discrimination",
+      "value": 1
+    },
+    {
+      "name": "Colonisation",
+      "value": 1
+    },
+    {
+      "name": "Literature",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Article",
+      "value": 3
+    },
+    {
+      "name": "Africa",
+      "value": 3
+    },
+    {
+      "name": "Shakespeare",
+      "value": 3
+    },
+    {
+      "name": "Moors",
+      "value": 2
+    },
+    {
+      "name": "Deportation",
+      "value": 1
+    },
+    {
+      "name": "Discrimination",
+      "value": 1
+    },
+    {
+      "name": "Elizabeth I",
+      "value": 1
+    },
+    {
+      "name": "Elizabethan Era",
+      "value": 1
+    },
+    {
+      "name": "England",
+      "value": 1
+    },
+    {
+      "name": "Othello",
+      "value": 1
+    },
+    {
+      "name": "Colonisation",
+      "value": 1
+    },
+    {
+      "name": "Colonial Discourse",
+      "value": 1
+    },
+    {
+      "name": "Female Voice",
+      "value": 1
+    },
+    {
+      "name": "Literature",
+      "value": 1
+    },
+    {
+      "name": "English",
+      "value": 1
+    },
+    {
+      "name": "Swahili",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Bartels, Emily C.",
+      "value": 2
+    },
+    {
+      "name": "Johns Hopkins University Press",
+      "value": 1
+    },
+    {
+      "name": "Omohundro Instittute of Early American History and Culture",
+      "value": 1
+    },
+    {
+      "name": "Busia, Abena P. A.",
+      "value": 1
+    },
+    {
+      "name": "University of Minnesota Press",
+      "value": 1
+    },
+    {
+      "name": "Mazrui, Alamin M.",
+      "value": 1
+    },
+    {
+      "name": "Indiana University Press",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "United States of America",
+      "region": "Maryland",
+      "city": "Baltimore",
+      "count": 1
+    },
+    {
+      "country": "United States of America",
+      "region": "Virginia",
+      "city": "Williamsburg",
+      "count": 1
+    },
+    {
+      "country": "United States of America",
+      "region": "Minnesota",
+      "city": "Minneapolis",
+      "count": 1
+    },
+    {
+      "country": "United States of America",
+      "region": "Indiana",
+      "city": "Bloomington",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a8ab2c85fe8df870f9",
+      "titleInfo": [
+        {
+          "title": "Too Many Blackamoors: Deportation, Discrimination, and Elizabeth I"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0002"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8710c",
+      "titleInfo": [
+        {
+          "title": "Othello and Africa: Postcolonialism Reconsidered"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0015"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8710e",
+      "titleInfo": [
+        {
+          "title": "Silencing Sycorax: On African Colonial Discourse and the Unvoiced Female"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0017"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87118",
+      "titleInfo": [
+        {
+          "title": "Shakespeare in Africa: Between English and Swahili Literature"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0021"
+    }
+  ]
+}

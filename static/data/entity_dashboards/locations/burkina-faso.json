@@ -1,0 +1,835 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "burkina-faso",
+    "name": "Burkina Faso",
+    "count": 225
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "count": 33
+    },
+    {
+      "year": 2022,
+      "count": 70
+    },
+    {
+      "year": 2023,
+      "count": 118
+    },
+    {
+      "year": 2024,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 3,
+      "byType": {
+        "Text": 2,
+        "Moving image": 1
+      }
+    },
+    {
+      "year": 2021,
+      "total": 33,
+      "byType": {
+        "Text": 33
+      }
+    },
+    {
+      "year": 2022,
+      "total": 70,
+      "byType": {
+        "Text": 60,
+        "Audio": 1,
+        "Moving image": 9
+      }
+    },
+    {
+      "year": 2023,
+      "total": 118,
+      "byType": {
+        "Text": 95,
+        "Audio": 21,
+        "Moving image": 1,
+        "Multimedia": 1
+      }
+    },
+    {
+      "year": 2024,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 191
+    },
+    {
+      "name": "Audio",
+      "value": 22
+    },
+    {
+      "name": "Moving image",
+      "value": 11
+    },
+    {
+      "name": "Multimedia",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 225
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Actors",
+      "value": 83
+    },
+    {
+      "name": "Aesthetics",
+      "value": 83
+    },
+    {
+      "name": "Experience",
+      "value": 83
+    },
+    {
+      "name": "Terrorism",
+      "value": 78
+    },
+    {
+      "name": "Emigration and immigration",
+      "value": 66
+    },
+    {
+      "name": "Border security",
+      "value": 66
+    },
+    {
+      "name": "Violence",
+      "value": 66
+    },
+    {
+      "name": "Punishment",
+      "value": 30
+    },
+    {
+      "name": "World health",
+      "value": 23
+    },
+    {
+      "name": "West Africa",
+      "value": 23
+    },
+    {
+      "name": "Administration of Justice",
+      "value": 22
+    },
+    {
+      "name": "Teenagers",
+      "value": 21
+    },
+    {
+      "name": "Youth",
+      "value": 20
+    },
+    {
+      "name": "Children",
+      "value": 19
+    },
+    {
+      "name": "Mediation",
+      "value": 19
+    },
+    {
+      "name": "Juvenile detention",
+      "value": 17
+    },
+    {
+      "name": "Juvenile delinquency",
+      "value": 16
+    },
+    {
+      "name": "Gender",
+      "value": 12
+    },
+    {
+      "name": "Sources",
+      "value": 12
+    },
+    {
+      "name": "Dialogue",
+      "value": 12
+    },
+    {
+      "name": "Peace",
+      "value": 12
+    },
+    {
+      "name": "Health",
+      "value": 11
+    },
+    {
+      "name": "Prisons",
+      "value": 8
+    },
+    {
+      "name": "Reconciliation",
+      "value": 7
+    },
+    {
+      "name": "Communities",
+      "value": 6
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Actors",
+      "value": 83
+    },
+    {
+      "name": "Aesthetics",
+      "value": 83
+    },
+    {
+      "name": "Experience",
+      "value": 83
+    },
+    {
+      "name": "Cinema",
+      "value": 83
+    },
+    {
+      "name": "Terrorism",
+      "value": 78
+    },
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 68
+    },
+    {
+      "name": "Emigration and immigration",
+      "value": 66
+    },
+    {
+      "name": "Border security",
+      "value": 66
+    },
+    {
+      "name": "Violence",
+      "value": 66
+    },
+    {
+      "name": "Migration Control",
+      "value": 66
+    },
+    {
+      "name": "(Im)mobility",
+      "value": 66
+    },
+    {
+      "name": "Impact",
+      "value": 66
+    },
+    {
+      "name": "Border",
+      "value": 66
+    },
+    {
+      "name": "Migration",
+      "value": 66
+    },
+    {
+      "name": "Punishment",
+      "value": 30
+    },
+    {
+      "name": "Burkina Faso",
+      "value": 25
+    },
+    {
+      "name": "World health",
+      "value": 23
+    },
+    {
+      "name": "West Africa",
+      "value": 23
+    },
+    {
+      "name": "Global Health Policy",
+      "value": 23
+    },
+    {
+      "name": "Administration of Justice",
+      "value": 22
+    },
+    {
+      "name": "Teenagers",
+      "value": 21
+    },
+    {
+      "name": "Youth",
+      "value": 20
+    },
+    {
+      "name": "Children",
+      "value": 19
+    },
+    {
+      "name": "Mediation",
+      "value": 19
+    },
+    {
+      "name": "Juvenile detention",
+      "value": 17
+    },
+    {
+      "name": "Deprivation of Liberty",
+      "value": 17
+    },
+    {
+      "name": "Preliminary Investigation",
+      "value": 17
+    },
+    {
+      "name": "Investigation Phase",
+      "value": 17
+    },
+    {
+      "name": "Enforcement of Decisions",
+      "value": 17
+    },
+    {
+      "name": "Juvenile delinquency",
+      "value": 16
+    },
+    {
+      "name": "Global Health",
+      "value": 15
+    },
+    {
+      "name": "Gender",
+      "value": 12
+    },
+    {
+      "name": "Men who have Sex with Men",
+      "value": 12
+    },
+    {
+      "name": "The Global Fund to Fight AIDS, Tuberculosis and Malaria",
+      "value": 12
+    },
+    {
+      "name": "Joint United Nations Programme on HIV/AIDS",
+      "value": 12
+    },
+    {
+      "name": "Sources",
+      "value": 12
+    },
+    {
+      "name": "Dialogue",
+      "value": 12
+    },
+    {
+      "name": "Peace",
+      "value": 12
+    },
+    {
+      "name": "Health",
+      "value": 11
+    },
+    {
+      "name": "Prisons",
+      "value": 8
+    },
+    {
+      "name": "Reconciliation",
+      "value": 7
+    },
+    {
+      "name": "Manga",
+      "value": 6
+    },
+    {
+      "name": "Communities",
+      "value": 6
+    },
+    {
+      "name": "Justice",
+      "value": 6
+    },
+    {
+      "name": "Maintenance",
+      "value": 5
+    },
+    {
+      "name": "Diseases",
+      "value": 4
+    },
+    {
+      "name": "HIV/AIDS",
+      "value": 3
+    },
+    {
+      "name": "Bobo-Dioulasso",
+      "value": 3
+    },
+    {
+      "name": "Correctional institutions",
+      "value": 3
+    },
+    {
+      "name": "Elderly People",
+      "value": 3
+    },
+    {
+      "name": "Social media",
+      "value": 2
+    },
+    {
+      "name": "Decolonisation",
+      "value": 2
+    },
+    {
+      "name": "Manifestant",
+      "value": 2
+    },
+    {
+      "name": "Protester",
+      "value": 2
+    },
+    {
+      "name": "Right to Resist",
+      "value": 2
+    },
+    {
+      "name": "Sustainability",
+      "value": 2
+    },
+    {
+      "name": "Vertical Program",
+      "value": 2
+    },
+    {
+      "name": "Horizontal Program",
+      "value": 2
+    },
+    {
+      "name": "Legal Framework",
+      "value": 2
+    },
+    {
+      "name": "Finance",
+      "value": 2
+    },
+    {
+      "name": "Financing",
+      "value": 2
+    },
+    {
+      "name": "COVID-19 (Disease)",
+      "value": 2
+    },
+    {
+      "name": "World Health Organization",
+      "value": 2
+    },
+    {
+      "name": "Barrier Measure",
+      "value": 2
+    },
+    {
+      "name": "Mobility",
+      "value": 2
+    },
+    {
+      "name": "Global Health Governance",
+      "value": 2
+    },
+    {
+      "name": "Imams (Shiites)",
+      "value": 2
+    },
+    {
+      "name": "Social groups",
+      "value": 2
+    },
+    {
+      "name": "Employability",
+      "value": 2
+    },
+    {
+      "name": "Business",
+      "value": 2
+    },
+    {
+      "name": "University",
+      "value": 2
+    },
+    {
+      "name": "Crime",
+      "value": 2
+    },
+    {
+      "name": "Education",
+      "value": 2
+    },
+    {
+      "name": "Practical judgment",
+      "value": 2
+    },
+    {
+      "name": "Social conflict",
+      "value": 2
+    },
+    {
+      "name": "Vulnerability",
+      "value": 2
+    },
+    {
+      "name": "Protection",
+      "value": 2
+    },
+    {
+      "name": "Nation state",
+      "value": 2
+    },
+    {
+      "name": "Teachers",
+      "value": 2
+    },
+    {
+      "name": "Public administration",
+      "value": 2
+    },
+    {
+      "name": "Appointment",
+      "value": 2
+    },
+    {
+      "name": "Epistemology",
+      "value": 2
+    },
+    {
+      "name": "Survey Results",
+      "value": 2
+    },
+    {
+      "name": "Status Report",
+      "value": 2
+    },
+    {
+      "name": "Researcher",
+      "value": 2
+    },
+    {
+      "name": "Fluid Ontology",
+      "value": 1
+    },
+    {
+      "name": "Basic Soul",
+      "value": 1
+    },
+    {
+      "name": "Health Policy",
+      "value": 1
+    },
+    {
+      "name": "Legislation",
+      "value": 1
+    },
+    {
+      "name": "Foundation",
+      "value": 1
+    },
+    {
+      "name": "Health Organisation",
+      "value": 1
+    },
+    {
+      "name": "Typology",
+      "value": 1
+    },
+    {
+      "name": "Categorisation",
+      "value": 1
+    },
+    {
+      "name": "Common Market for Eastern and Southern Africa",
+      "value": 1
+    },
+    {
+      "name": "Regional Organisation",
+      "value": 1
+    },
+    {
+      "name": "Harmonisation",
+      "value": 1
+    },
+    {
+      "name": "ECOWAS",
+      "value": 1
+    },
+    {
+      "name": "Decentralisation",
+      "value": 1
+    },
+    {
+      "name": "Healthcare Privatisation",
+      "value": 1
+    },
+    {
+      "name": "Local Authority",
+      "value": 1
+    },
+    {
+      "name": "Kaya",
+      "value": 1
+    },
+    {
+      "name": "Health Cooperation",
+      "value": 1
+    },
+    {
+      "name": "Gender Policy",
+      "value": 1
+    },
+    {
+      "name": "Bill & Melinda Gates Foundation",
+      "value": 1
+    },
+    {
+      "name": "Health Care",
+      "value": 1
+    },
+    {
+      "name": "Kaam Naaba",
+      "value": 1
+    },
+    {
+      "name": "Government executives",
+      "value": 1
+    },
+    {
+      "name": "Child welfare",
+      "value": 1
+    },
+    {
+      "name": "Commissioner",
+      "value": 1
+    },
+    {
+      "name": "Kolgweogo",
+      "value": 1
+    },
+    {
+      "name": "Judges",
+      "value": 1
+    },
+    {
+      "name": "Juvenile courts",
+      "value": 1
+    },
+    {
+      "name": "Bobo (African people)",
+      "value": 1
+    },
+    {
+      "name": "Community Insider",
+      "value": 1
+    },
+    {
+      "name": "Conflict",
+      "value": 1
+    },
+    {
+      "name": "Conflict management",
+      "value": 1
+    },
+    {
+      "name": "Conseil Villageois de Développement",
+      "value": 1
+    },
+    {
+      "name": "Court",
+      "value": 1
+    },
+    {
+      "name": "Corrections",
+      "value": 1
+    },
+    {
+      "name": "Catholic Church",
+      "value": 1
+    },
+    {
+      "name": "Bishop's Chaplain",
+      "value": 1
+    },
+    {
+      "name": "Balm Naam",
+      "value": 1
+    },
+    {
+      "name": "Rehabilitation",
+      "value": 1
+    },
+    {
+      "name": "Courts",
+      "value": 1
+    },
+    {
+      "name": "Conduct of life",
+      "value": 1
+    },
+    {
+      "name": "Police",
+      "value": 1
+    },
+    {
+      "name": "Disagreement",
+      "value": 1
+    },
+    {
+      "name": "Legal Committee",
+      "value": 1
+    },
+    {
+      "name": "Gendarmerie",
+      "value": 1
+    },
+    {
+      "name": "Local Justice",
+      "value": 1
+    },
+    {
+      "name": "Minors",
+      "value": 1
+    },
+    {
+      "name": "Rumor",
+      "value": 1
+    },
+    {
+      "name": "Truth",
+      "value": 1
+    },
+    {
+      "name": "Uncertainty",
+      "value": 1
+    },
+    {
+      "name": "Anti-state Armed Group",
+      "value": 1
+    },
+    {
+      "name": "Refugees",
+      "value": 1
+    },
+    {
+      "name": "Internally displaced persons",
+      "value": 1
+    },
+    {
+      "name": "Emergency Health Management",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Onadja, Joachim",
+      "value": 57
+    },
+    {
+      "name": "Palm-Sanou, Valentine",
+      "value": 45
+    },
+    {
+      "name": "Fendler, Ute",
+      "value": 45
+    },
+    {
+      "name": "Ouoro, Justin",
+      "value": 44
+    },
+    {
+      "name": "Sore, Daouda",
+      "value": 27
+    },
+    {
+      "name": "Tapsoba, Tatiana Nadine",
+      "value": 14
+    },
+    {
+      "name": "Bationo, Bouma Fernand",
+      "value": 9
+    },
+    {
+      "name": "Baguian, Sidibewindé Romain",
+      "value": 8
+    },
+    {
+      "name": "Banhoro, Yacouba",
+      "value": 7
+    },
+    {
+      "name": "Hien, Frederic",
+      "value": 6
+    },
+    {
+      "name": "Traoré, Seydou",
+      "value": 6
+    },
+    {
+      "name": "Barry, Moussa",
+      "value": 5
+    },
+    {
+      "name": "Some, Désiré Boniface",
+      "value": 5
+    },
+    {
+      "name": "Ouedraogo",
+      "value": 5
+    },
+    {
+      "name": "Billa, Eugénie",
+      "value": 5
+    },
+    {
+      "name": "Ouédraogo, Serge Noel",
+      "value": 4
+    },
+    {
+      "name": "Samandoulgou, Basga",
+      "value": 3
+    },
+    {
+      "name": "Sanou, Issiaka",
+      "value": 3
+    },
+    {
+      "name": "Meda, Marc",
+      "value": 3
+    },
+    {
+      "name": "Konkobo, Rosalie",
+      "value": 3
+    }
+  ]
+}

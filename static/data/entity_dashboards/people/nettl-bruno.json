@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "nettl-bruno",
+    "name": "Nettl, Bruno",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1964,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1964,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9eaec",
+      "titleInfo": [
+        {
+          "title": "Report on the 1964 Annual Meeting of the Society of Ethnomusicology"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0107"
+    }
+  ]
+}

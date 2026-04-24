@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "public-relations",
+    "name": "Public relations",
+    "count": 2
+  },
+  "timeline": [],
+  "stackedTimeline": [],
+  "types": [
+    {
+      "name": "Moving image",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "News",
+      "value": 2
+    },
+    {
+      "name": "Politics",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "ELTV Action News (Liberia)",
+      "value": 2
+    },
+    {
+      "name": "Government of Liberia",
+      "value": 2
+    },
+    {
+      "name": "Doe, Samuel Kanyon",
+      "value": 1
+    },
+    {
+      "name": "Ward, Amelia",
+      "value": 1
+    },
+    {
+      "name": "Christopher, Victoria",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Liberia",
+      "region": "Montserrado County",
+      "city": "Monrovia",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "6982337057a8e0353b0b1e03",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-01c6"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1e13",
+      "titleInfo": [
+        {
+          "title": "ELTV Week-in-Review"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-01d6"
+    }
+  ]
+}

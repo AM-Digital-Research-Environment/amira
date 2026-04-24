@@ -1,0 +1,349 @@
+{
+  "meta": {
+    "type": "genre",
+    "id": "slide",
+    "name": "slide",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2021,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2022,
+      "total": 1,
+      "byType": {
+        "Digital": 1
+      }
+    },
+    {
+      "year": 2023,
+      "total": 1,
+      "byType": {
+        "Digital": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Digital",
+      "value": 2
+    },
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 3
+    },
+    {
+      "name": "Geography",
+      "value": 1
+    },
+    {
+      "name": "Mediation (Statistics)",
+      "value": 1
+    },
+    {
+      "name": "Child care",
+      "value": 1
+    },
+    {
+      "name": "Children",
+      "value": 1
+    },
+    {
+      "name": "Fertility",
+      "value": 1
+    },
+    {
+      "name": "Income distribution",
+      "value": 1
+    },
+    {
+      "name": "Youth",
+      "value": 1
+    },
+    {
+      "name": "Education",
+      "value": 1
+    },
+    {
+      "name": "Family planning",
+      "value": 1
+    },
+    {
+      "name": "Migration",
+      "value": 1
+    },
+    {
+      "name": "Economic development",
+      "value": 1
+    },
+    {
+      "name": "Women",
+      "value": 1
+    },
+    {
+      "name": "Political rights",
+      "value": 1
+    },
+    {
+      "name": "Political participation",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 3
+    },
+    {
+      "name": "Geography",
+      "value": 1
+    },
+    {
+      "name": "Mediation (Statistics)",
+      "value": 1
+    },
+    {
+      "name": "Coastal Proximity",
+      "value": 1
+    },
+    {
+      "name": "Mediation Analysis",
+      "value": 1
+    },
+    {
+      "name": "Coastal Countries",
+      "value": 1
+    },
+    {
+      "name": "Econometric Evidence",
+      "value": 1
+    },
+    {
+      "name": "Household Survey",
+      "value": 1
+    },
+    {
+      "name": "Child care",
+      "value": 1
+    },
+    {
+      "name": "Children",
+      "value": 1
+    },
+    {
+      "name": "Fertility",
+      "value": 1
+    },
+    {
+      "name": "Income distribution",
+      "value": 1
+    },
+    {
+      "name": "Youth",
+      "value": 1
+    },
+    {
+      "name": "Education",
+      "value": 1
+    },
+    {
+      "name": "Family planning",
+      "value": 1
+    },
+    {
+      "name": "Migration",
+      "value": 1
+    },
+    {
+      "name": "Economic development",
+      "value": 1
+    },
+    {
+      "name": "Female Education",
+      "value": 1
+    },
+    {
+      "name": "Human Development",
+      "value": 1
+    },
+    {
+      "name": "Education Policy",
+      "value": 1
+    },
+    {
+      "name": "Educational Influence",
+      "value": 1
+    },
+    {
+      "name": "Child Development",
+      "value": 1
+    },
+    {
+      "name": "Human Resources",
+      "value": 1
+    },
+    {
+      "name": "Women",
+      "value": 1
+    },
+    {
+      "name": "Political rights",
+      "value": 1
+    },
+    {
+      "name": "Political participation",
+      "value": 1
+    },
+    {
+      "name": "Structural Barriers",
+      "value": 1
+    },
+    {
+      "name": "Political Barriers",
+      "value": 1
+    },
+    {
+      "name": "Politics",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Wild, Frederik",
+      "value": 2
+    },
+    {
+      "name": "Stadelmann, David",
+      "value": 2
+    },
+    {
+      "name": "Ademola-Adeoye, Feyisayo",
+      "value": 1
+    },
+    {
+      "name": "Attoh, Franca",
+      "value": 1
+    },
+    {
+      "name": "Yakubu, Moses",
+      "value": 1
+    },
+    {
+      "name": "Eesuola, Kayode",
+      "value": 1
+    },
+    {
+      "name": "Olukuade, Tomide",
+      "value": 1
+    },
+    {
+      "name": "Ademola, Lydia",
+      "value": 1
+    },
+    {
+      "name": "Anyanwu, Beatrice",
+      "value": 1
+    },
+    {
+      "name": "Akintola, Folashade",
+      "value": 1
+    },
+    {
+      "name": "Adeniran, Samuel",
+      "value": 1
+    },
+    {
+      "name": "Adebayo, Bukola",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 2
+    },
+    {
+      "country": "Nigeria",
+      "region": "Lagos State",
+      "city": "Lagos",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "67211011e6fbc830d02e6afa",
+      "titleInfo": [
+        {
+          "title": "Presentation slides"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0009"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b03",
+      "titleInfo": [
+        {
+          "title": "Heterogeneous Effects of Women’s Schooling on Fertility, Literacy and Work: Evidence from Burundi’s Free Primary Education Policy"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0012"
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86d9",
+      "titleInfo": [
+        {
+          "title": "Locating the Albatross in Women’s Political Participation in Sub-Saharan Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-0000"
+    }
+  ]
+}

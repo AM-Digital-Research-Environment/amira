@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "extremism",
+    "name": "Extremism",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Racism",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Racism",
+      "value": 1
+    },
+    {
+      "name": "Rightwing Extremism",
+      "value": 1
+    },
+    {
+      "name": "Upper Franconia",
+      "value": 1
+    },
+    {
+      "name": "Politics",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Wunner, Alexander",
+      "value": 1
+    },
+    {
+      "name": "Bäumler, Matthias",
+      "value": 1
+    },
+    {
+      "name": "Becher, Martin",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "692db49707481a28c72155d3",
+      "titleInfo": [
+        {
+          "title": "Extremismus in Oberfranken: Es geht um unsere Demokratie"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-002b"
+    }
+  ]
+}

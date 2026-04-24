@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "verlassenes-dorf",
+    "name": "Verlassenes Dorf",
+    "count": 5
+  },
+  "timeline": [
+    {
+      "year": 2005,
+      "count": 5
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2005,
+      "total": 5,
+      "byType": {
+        "Image": 5
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 5
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Photography",
+      "value": 5
+    },
+    {
+      "name": "Anthropology",
+      "value": 5
+    },
+    {
+      "name": "Photographs",
+      "value": 5
+    },
+    {
+      "name": "Mosques",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Photography",
+      "value": 5
+    },
+    {
+      "name": "Anthropology",
+      "value": 5
+    },
+    {
+      "name": "Photographs",
+      "value": 5
+    },
+    {
+      "name": "Sammlung Gerd Spittler",
+      "value": 5
+    },
+    {
+      "name": "Wüstung",
+      "value": 4
+    },
+    {
+      "name": "Deserted Settlements",
+      "value": 4
+    },
+    {
+      "name": "Bruchstein",
+      "value": 2
+    },
+    {
+      "name": "Mosques",
+      "value": 1
+    },
+    {
+      "name": "Fundament",
+      "value": 1
+    },
+    {
+      "name": "Trockenmauer",
+      "value": 1
+    },
+    {
+      "name": "Rubblework",
+      "value": 1
+    },
+    {
+      "name": "Dry Stone Wall",
+      "value": 1
+    },
+    {
+      "name": "Ruined Settlements",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Collections@UBT",
+      "value": 5
+    },
+    {
+      "name": "Spittler, Gerd",
+      "value": 5
+    }
+  ],
+  "locations": [
+    {
+      "country": "Niger",
+      "region": "Agadez Region",
+      "city": "Timia",
+      "count": 5
+    }
+  ],
+  "items": [
+    {
+      "_id": "66d97447c610a95a80dd9589",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0000"
+    },
+    {
+      "_id": "66d97447c610a95a80dd958a",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0001"
+    },
+    {
+      "_id": "66d97447c610a95a80dd9593",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-000a"
+    },
+    {
+      "_id": "66d97447c610a95a80dd9594",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-000b"
+    },
+    {
+      "_id": "66d97447c610a95a80dd9596",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-000d"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "gallo-recording-company",
+    "name": "Gallo Recording Company",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2011,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2011,
+      "total": 1,
+      "byType": {
+        "Audio": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Audio",
+      "value": 1
+    }
+  ],
+  "languages": [],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Gallo Recording Company",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ece1",
+      "titleInfo": [
+        {
+          "title": "Chabana sa khomo"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "dre_id": "eaa-99-02fc"
+    }
+  ]
+}

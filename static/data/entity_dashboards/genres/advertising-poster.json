@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "type": "genre",
+    "id": "advertising-poster",
+    "name": "advertising poster",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2024,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2024,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Documentation",
+      "value": 1
+    },
+    {
+      "name": "Capoeira (Dance)",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Documentation",
+      "value": 1
+    },
+    {
+      "name": "Capoeira (Dance)",
+      "value": 1
+    },
+    {
+      "name": "Memory of Capoeira Angola",
+      "value": 1
+    },
+    {
+      "name": "Mestre Nô",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "de Oliveira, Norival Moreira",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Brazil",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "67d192730fec557b9a445c3a",
+      "titleInfo": [
+        {
+          "title": "Flyer de divulgação das aulas de capoeira do Mestre Nô em Inglês"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0023"
+    }
+  ]
+}

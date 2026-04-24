@@ -1,0 +1,319 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "transcription",
+    "name": "Transcription",
+    "count": 5
+  },
+  "timeline": [
+    {
+      "year": 2002,
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2002,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2018,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2022,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 5
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 5
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Books",
+      "value": 2
+    },
+    {
+      "name": "Archives",
+      "value": 1
+    },
+    {
+      "name": "Museums",
+      "value": 1
+    },
+    {
+      "name": "Interviews",
+      "value": 1
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    },
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Mbira",
+      "value": 1
+    },
+    {
+      "name": "Mbira music",
+      "value": 1
+    },
+    {
+      "name": "Shona (African people)",
+      "value": 1
+    },
+    {
+      "name": "Ndau (African people)",
+      "value": 1
+    },
+    {
+      "name": "Tsonga (African people)",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Books",
+      "value": 2
+    },
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Archives",
+      "value": 1
+    },
+    {
+      "name": "National Archives",
+      "value": 1
+    },
+    {
+      "name": "Museums",
+      "value": 1
+    },
+    {
+      "name": "Antiquities Dealer",
+      "value": 1
+    },
+    {
+      "name": "Interviews",
+      "value": 1
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    },
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Dinaka (Music)",
+      "value": 1
+    },
+    {
+      "name": "Pedi (Music)",
+      "value": 1
+    },
+    {
+      "name": "South African Music",
+      "value": 1
+    },
+    {
+      "name": "Drumming",
+      "value": 1
+    },
+    {
+      "name": "Pipe Ensembles",
+      "value": 1
+    },
+    {
+      "name": "Mbira",
+      "value": 1
+    },
+    {
+      "name": "Mbira music",
+      "value": 1
+    },
+    {
+      "name": "Shona (African people)",
+      "value": 1
+    },
+    {
+      "name": "Ndau (African people)",
+      "value": 1
+    },
+    {
+      "name": "Tsonga (African people)",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Musical Tuning",
+      "value": 1
+    },
+    {
+      "name": "Zimbabwe",
+      "value": 1
+    },
+    {
+      "name": "Hexatonic Scale",
+      "value": 1
+    },
+    {
+      "name": "Mozambique",
+      "value": 1
+    },
+    {
+      "name": "Mbira dzaVaNdau (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Mbira (Instrument)",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Beier, Ulli",
+      "value": 3
+    },
+    {
+      "name": "Riesz, János",
+      "value": 1
+    },
+    {
+      "name": "Greven, Katharina",
+      "value": 1
+    },
+    {
+      "name": "Chambers, Paul W.",
+      "value": 1
+    },
+    {
+      "name": "Tracey, Andrew",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 2
+    },
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    },
+    {
+      "country": "Australia",
+      "region": "Australian Capital Territory",
+      "city": "Canberra",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b489",
+      "titleInfo": [
+        {
+          "title": "Abschrift von das Buch: Leopold Sedar Senghor (befindet sich in die National Archives, Canberra)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-99-0001"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b48b",
+      "titleInfo": [
+        {
+          "title": "The Rietbeg Museum and the Antiquities Dealer"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-99-0003"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b48d",
+      "titleInfo": [
+        {
+          "title": "Ein Gespräch über das Iwalewahaus: János Riesz im Interview mit Ulli Beier (2002)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-99-0005"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eda7",
+      "titleInfo": [
+        {
+          "title": "STUDY OF THE DINAKA PIPE DANCE OF THE PEDI PEOPLE IN SOUTH AFRICA"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03c2"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edd9",
+      "titleInfo": [
+        {
+          "title": "Mbira of the Ndau"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03f4"
+    }
+  ]
+}

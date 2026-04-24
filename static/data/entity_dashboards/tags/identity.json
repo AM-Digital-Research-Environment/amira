@@ -1,0 +1,547 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "identity",
+    "name": "Identity",
+    "count": 9
+  },
+  "timeline": [
+    {
+      "year": 2013,
+      "count": 1
+    },
+    {
+      "year": 2017,
+      "count": 2
+    },
+    {
+      "year": 2018,
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2013,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2017,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 2018,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2020,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2022,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 2023,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2025,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 9
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 7
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Music",
+      "value": 6
+    },
+    {
+      "name": "South Africa",
+      "value": 2
+    },
+    {
+      "name": "Migration",
+      "value": 2
+    },
+    {
+      "name": "Colonisation",
+      "value": 2
+    },
+    {
+      "name": "Postcolonialism",
+      "value": 1
+    },
+    {
+      "name": "Popular music",
+      "value": 1
+    },
+    {
+      "name": "Memory",
+      "value": 1
+    },
+    {
+      "name": "Anlo (African people)",
+      "value": 1
+    },
+    {
+      "name": "Fanti (African people)",
+      "value": 1
+    },
+    {
+      "name": "Ewe (African people)",
+      "value": 1
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Colonies",
+      "value": 1
+    },
+    {
+      "name": "Hip-hop",
+      "value": 1
+    },
+    {
+      "name": "Musicians",
+      "value": 1
+    },
+    {
+      "name": "African diaspora",
+      "value": 1
+    },
+    {
+      "name": "Book reviews",
+      "value": 1
+    },
+    {
+      "name": "Culture",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 7
+    },
+    {
+      "name": "Music",
+      "value": 6
+    },
+    {
+      "name": "Shakespeare",
+      "value": 2
+    },
+    {
+      "name": "Article",
+      "value": 2
+    },
+    {
+      "name": "South Africa",
+      "value": 2
+    },
+    {
+      "name": "Postcolonial Studies",
+      "value": 2
+    },
+    {
+      "name": "Migration",
+      "value": 2
+    },
+    {
+      "name": "Colonisation",
+      "value": 2
+    },
+    {
+      "name": "Zimbabwe",
+      "value": 2
+    },
+    {
+      "name": "Warlikowski",
+      "value": 1
+    },
+    {
+      "name": "Polish Contemporary Theatre",
+      "value": 1
+    },
+    {
+      "name": "Exclusion",
+      "value": 1
+    },
+    {
+      "name": "Postcolonialism",
+      "value": 1
+    },
+    {
+      "name": "Popular music",
+      "value": 1
+    },
+    {
+      "name": "Ethnic Identity",
+      "value": 1
+    },
+    {
+      "name": "Regional Identity",
+      "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    },
+    {
+      "name": "Memory",
+      "value": 1
+    },
+    {
+      "name": "Anlo (African people)",
+      "value": 1
+    },
+    {
+      "name": "Fanti (African people)",
+      "value": 1
+    },
+    {
+      "name": "Ewe (African people)",
+      "value": 1
+    },
+    {
+      "name": "Ghana",
+      "value": 1
+    },
+    {
+      "name": "Fishermen Songs",
+      "value": 1
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Afrikaans",
+      "value": 1
+    },
+    {
+      "name": "Pretoria",
+      "value": 1
+    },
+    {
+      "name": "Pop Music",
+      "value": 1
+    },
+    {
+      "name": "Sokkie Dance",
+      "value": 1
+    },
+    {
+      "name": "Protest Music",
+      "value": 1
+    },
+    {
+      "name": "Colonies",
+      "value": 1
+    },
+    {
+      "name": "Colonial Zimbabwe",
+      "value": 1
+    },
+    {
+      "name": "Power Relations",
+      "value": 1
+    },
+    {
+      "name": "Hip-hop",
+      "value": 1
+    },
+    {
+      "name": "Urban Youth Culture",
+      "value": 1
+    },
+    {
+      "name": "Political Expression",
+      "value": 1
+    },
+    {
+      "name": "Urban Music",
+      "value": 1
+    },
+    {
+      "name": "Postcolonial Identity",
+      "value": 1
+    },
+    {
+      "name": "Musicians",
+      "value": 1
+    },
+    {
+      "name": "African diaspora",
+      "value": 1
+    },
+    {
+      "name": "Ethiopian American Diaspora",
+      "value": 1
+    },
+    {
+      "name": "Sentinel Musicians",
+      "value": 1
+    },
+    {
+      "name": "Diaspora Studies",
+      "value": 1
+    },
+    {
+      "name": "Ethiopia",
+      "value": 1
+    },
+    {
+      "name": "Book reviews",
+      "value": 1
+    },
+    {
+      "name": "Culture",
+      "value": 1
+    },
+    {
+      "name": "Cultural Identity",
+      "value": 1
+    },
+    {
+      "name": "Youth Culture",
+      "value": 1
+    },
+    {
+      "name": "Urban Youth Identity",
+      "value": 1
+    },
+    {
+      "name": "Ghetto",
+      "value": 1
+    },
+    {
+      "name": "Politics",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Figzał-Janikowska, Magdalena",
+      "value": 1
+    },
+    {
+      "name": "Fundación Universitaria Española",
+      "value": 1
+    },
+    {
+      "name": "Seeff, Adele",
+      "value": 1
+    },
+    {
+      "name": "ACMRS Press",
+      "value": 1
+    },
+    {
+      "name": "Emielu, Austin",
+      "value": 1
+    },
+    {
+      "name": "Otchere, Eric Debrah",
+      "value": 1
+    },
+    {
+      "name": "Holtzhausen, Cornelius A.",
+      "value": 1
+    },
+    {
+      "name": "Mohebbi, Siavash",
+      "value": 1
+    },
+    {
+      "name": "Laboe, Amy E.",
+      "value": 1
+    },
+    {
+      "name": "Kumar, Rakesh",
+      "value": 1
+    },
+    {
+      "name": "Vögele, Pius Jonas",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 7
+    },
+    {
+      "country": "Poland",
+      "region": "Silesian Voivodeship",
+      "city": "Katowice",
+      "count": 1
+    },
+    {
+      "country": "United States of America",
+      "region": "Arizona",
+      "city": "Tempe",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a8ab2c85fe8df87113",
+      "titleInfo": [
+        {
+          "title": "The circle of outcasts: Krzysztof Warlikowski’s ‘African tales by Shakespeare"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-001c"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8711a",
+      "titleInfo": [
+        {
+          "title": "Race, Post-Race, Shakespeare, and South Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0023"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed1f",
+      "titleInfo": [
+        {
+          "title": "Ethnic and regional identities in Nigerian popular music: a special focus on the Edo"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-033a"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed94",
+      "titleInfo": [
+        {
+          "title": "IN A WORLD OF THEIR OWN: MEMORY AND IDENTITY IN THE FISHING SONGS OF A MIGRANT EWE COMMUNITY IN GHANA"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03af"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edbb",
+      "titleInfo": [
+        {
+          "title": "SOKKIE DANCING IN PRETORIA: POPULAR AFRIKAANS MUSIC, DANCE, AND IDENTITY"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03d6"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edd2",
+      "titleInfo": [
+        {
+          "title": "African Music, Power, and Being in Colonial Zimbabwe. Mhoze Chikowero, 2015. Bloomington, Indiana: University of Indiana Press. 35 illustrations b & w, bibliography, index, 346 pp."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03ed"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edd4",
+      "titleInfo": [
+        {
+          "title": "Hip Hop in Africa: Prophets of the City and Dustyfoot Philosophers. Msia Kibona Clark, 2018. Athens, Ohio: Ohio University Press. 25 illustrations b&w, bibliography, index, 266 pp."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03ef"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edde",
+      "titleInfo": [
+        {
+          "title": "Sing and Sing On: Sentinel Musicians and the Making of the Ethiopian American Diaspora"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03f9"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ede6",
+      "titleInfo": [
+        {
+          "title": "Music and Urban Youth Identities. A Study of Ghetto Youth Identities in Contemporary Culture and Politics in Zimbabwe"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0401"
+    }
+  ]
+}

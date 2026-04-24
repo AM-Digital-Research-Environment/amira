@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "stewart-james",
+    "name": "Stewart, James",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1988,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1988,
+      "total": 1,
+      "byType": {
+        "Moving image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Moving image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "News",
+      "value": 1
+    },
+    {
+      "name": "Public Affairs",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Christopher, Victoria",
+      "value": 1
+    },
+    {
+      "name": "Government of Liberia",
+      "value": 1
+    },
+    {
+      "name": "Sahn, jonathan",
+      "value": 1
+    },
+    {
+      "name": "Johnson, Andrew",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Liberia",
+      "region": "Montserrado County",
+      "city": "Monrovia",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "6982337057a8e0353b0b1db1",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0174"
+    }
+  ]
+}

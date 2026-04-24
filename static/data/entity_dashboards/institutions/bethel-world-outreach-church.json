@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "bethel-world-outreach-church",
+    "name": "Bethel World Outreach Church",
+    "count": 3
+  },
+  "timeline": [],
+  "stackedTimeline": [],
+  "types": [
+    {
+      "name": "Moving image",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Religion",
+      "value": 3
+    },
+    {
+      "name": "Christianity",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Religion",
+      "value": 3
+    },
+    {
+      "name": "Christianity",
+      "value": 2
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Bethel World Outreach Church",
+      "value": 9
+    },
+    {
+      "name": "Liberia Broadcasting System (LBS)",
+      "value": 3
+    },
+    {
+      "name": "Flomo, Korkulor",
+      "value": 3
+    },
+    {
+      "name": "Johnson, Darlington",
+      "value": 2
+    },
+    {
+      "name": "Bedell, Cromwell",
+      "value": 2
+    },
+    {
+      "name": "Tatro, Russ",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Liberia",
+      "region": "Montserrado County",
+      "city": "Monrovia",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "6982337057a8e0353b0b1c5c",
+      "titleInfo": [
+        {
+          "title": "The Bethel Hour with Pastor Darlington Johnson"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-001f"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c60",
+      "titleInfo": [
+        {
+          "title": "The Bethel Hour with Pastor Darlington Johnson"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0023"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c62",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0025"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "free-university-of-berlin",
+    "name": "Free University of Berlin",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 1973,
+      "count": 1
+    },
+    {
+      "year": 1996,
+      "count": 3
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1973,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1996,
+      "total": 3,
+      "byType": {
+        "Text": 3
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 4
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 4
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 4
+    },
+    {
+      "name": "Western Sudan",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Erlmann, Veit",
+      "value": 4
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 4
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ebc8",
+      "titleInfo": [
+        {
+          "title": "Some sources of music in Western Sudan from 1300-1700"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01e3"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec60",
+      "titleInfo": [
+        {
+          "title": "CAPOEIRA, SAMBA, CANDOMBLÉ: AFRO-BRASILIANISCHE MUSIK IM RECÔNCAVO, BAHIA, by Tiago de Oliveira Pinto, Staatliche Museen Preußischer Kulturbesitz (Veröffentlichungen des Museums für Völkerkunde Berlin, Neue Folge 52, Abteilung Musikethnologie VII), Berlin, 1991, 264pp., ill., bibl., index."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-027b"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec66",
+      "titleInfo": [
+        {
+          "title": "WEST AFRIKA: MUSIKGESCHICHTE IN BILDERN, by Gerhard Kubik, VEB Deutscher Verlag fur Musik, Leipzig, 1989, Band I, Musikethnologie, Lieferung 11, ed. Werner Bachmann, 222pp, illustrations, appendix, bibliography."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0281"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec6a",
+      "titleInfo": [
+        {
+          "title": "AFRICAN MUSIC: A BIBLIOGRAPHICAL GUIDE TO THE TRADITIONAL, POPULAR, ART, AND LITURGICAL MUSICS OF SUB-SAHARAN AFRICA, by John Gray, Greenwood Press, New York, 1991, xii + 499pp, 3 appendixes, 4 indexes."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0285"
+    }
+  ]
+}

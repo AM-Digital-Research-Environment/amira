@@ -1,0 +1,707 @@
+{
+  "meta": {
+    "type": "genre",
+    "id": "notes-documents",
+    "name": "notes (documents)",
+    "count": 16
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "count": 8
+    },
+    {
+      "year": 2022,
+      "count": 4
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 3,
+      "byType": {
+        "Text": 3
+      }
+    },
+    {
+      "year": 2021,
+      "total": 8,
+      "byType": {
+        "Text": 8
+      }
+    },
+    {
+      "year": 2022,
+      "total": 4,
+      "byType": {
+        "Text": 4
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 16
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 15
+    },
+    {
+      "name": "Mongolian",
+      "value": 5
+    },
+    {
+      "name": "French",
+      "value": 2
+    },
+    {
+      "name": "Swahili",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Arid regions",
+      "value": 10
+    },
+    {
+      "name": "Herders",
+      "value": 9
+    },
+    {
+      "name": "Livestock",
+      "value": 7
+    },
+    {
+      "name": "Schools",
+      "value": 6
+    },
+    {
+      "name": "Travel",
+      "value": 6
+    },
+    {
+      "name": "Food security",
+      "value": 5
+    },
+    {
+      "name": "Prices",
+      "value": 5
+    },
+    {
+      "name": "Education",
+      "value": 5
+    },
+    {
+      "name": "Weather",
+      "value": 4
+    },
+    {
+      "name": "Local government",
+      "value": 4
+    },
+    {
+      "name": "Households",
+      "value": 3
+    },
+    {
+      "name": "Disasters",
+      "value": 3
+    },
+    {
+      "name": "Religion",
+      "value": 3
+    },
+    {
+      "name": "Hygiene",
+      "value": 3
+    },
+    {
+      "name": "Mass media",
+      "value": 3
+    },
+    {
+      "name": "Vaccination",
+      "value": 2
+    },
+    {
+      "name": "Subsidies",
+      "value": 2
+    },
+    {
+      "name": "Youth",
+      "value": 2
+    },
+    {
+      "name": "Agriculture",
+      "value": 2
+    },
+    {
+      "name": "Medical care",
+      "value": 2
+    },
+    {
+      "name": "Social distancing (Public health)",
+      "value": 2
+    },
+    {
+      "name": "Internal migration",
+      "value": 1
+    },
+    {
+      "name": "Labor",
+      "value": 1
+    },
+    {
+      "name": "Festivals",
+      "value": 1
+    },
+    {
+      "name": "Communication",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 16
+    },
+    {
+      "name": "Mongolia",
+      "value": 12
+    },
+    {
+      "name": "Arid regions",
+      "value": 10
+    },
+    {
+      "name": "Lockdown",
+      "value": 10
+    },
+    {
+      "name": "Herders",
+      "value": 9
+    },
+    {
+      "name": "Livestock",
+      "value": 7
+    },
+    {
+      "name": "Schools",
+      "value": 6
+    },
+    {
+      "name": "Household Income",
+      "value": 6
+    },
+    {
+      "name": "Travel",
+      "value": 6
+    },
+    {
+      "name": "Mobility",
+      "value": 6
+    },
+    {
+      "name": "Food security",
+      "value": 5
+    },
+    {
+      "name": "Prices",
+      "value": 5
+    },
+    {
+      "name": "Education",
+      "value": 5
+    },
+    {
+      "name": "Weather",
+      "value": 4
+    },
+    {
+      "name": "Local government",
+      "value": 4
+    },
+    {
+      "name": "Pastoralist",
+      "value": 3
+    },
+    {
+      "name": "Households",
+      "value": 3
+    },
+    {
+      "name": "Disasters",
+      "value": 3
+    },
+    {
+      "name": "Dzud (Mongolia)",
+      "value": 3
+    },
+    {
+      "name": "Religion",
+      "value": 3
+    },
+    {
+      "name": "Hygiene",
+      "value": 3
+    },
+    {
+      "name": "Trade Practices",
+      "value": 3
+    },
+    {
+      "name": "Trade Regulations",
+      "value": 3
+    },
+    {
+      "name": "Mass media",
+      "value": 3
+    },
+    {
+      "name": "Sociality",
+      "value": 3
+    },
+    {
+      "name": "Vaccination",
+      "value": 2
+    },
+    {
+      "name": "COVID-19",
+      "value": 2
+    },
+    {
+      "name": "Subsidies",
+      "value": 2
+    },
+    {
+      "name": "Youth",
+      "value": 2
+    },
+    {
+      "name": "Agriculture",
+      "value": 2
+    },
+    {
+      "name": "Funeral Custom",
+      "value": 2
+    },
+    {
+      "name": "Funeral Rite",
+      "value": 2
+    },
+    {
+      "name": "Medical care",
+      "value": 2
+    },
+    {
+      "name": "Water Rights",
+      "value": 2
+    },
+    {
+      "name": "Access to Water",
+      "value": 2
+    },
+    {
+      "name": "Senegal",
+      "value": 2
+    },
+    {
+      "name": "Social distancing (Public health)",
+      "value": 2
+    },
+    {
+      "name": "Internal migration",
+      "value": 1
+    },
+    {
+      "name": "Otor (Mongolia)",
+      "value": 1
+    },
+    {
+      "name": "Labor",
+      "value": 1
+    },
+    {
+      "name": "Festivals",
+      "value": 1
+    },
+    {
+      "name": "Tsagaan Sar",
+      "value": 1
+    },
+    {
+      "name": "International Trade",
+      "value": 1
+    },
+    {
+      "name": "Communication",
+      "value": 1
+    },
+    {
+      "name": "Higher education",
+      "value": 1
+    },
+    {
+      "name": "Border",
+      "value": 1
+    },
+    {
+      "name": "Energy Shortages",
+      "value": 1
+    },
+    {
+      "name": "Grazing",
+      "value": 1
+    },
+    {
+      "name": "Water",
+      "value": 1
+    },
+    {
+      "name": "Ecology",
+      "value": 1
+    },
+    {
+      "name": "Local Understanding",
+      "value": 1
+    },
+    {
+      "name": "Tanzania",
+      "value": 1
+    },
+    {
+      "name": "Environment",
+      "value": 1
+    },
+    {
+      "name": "Cash",
+      "value": 1
+    },
+    {
+      "name": "Ghana",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Batjav, Batbuyan",
+      "value": 12
+    },
+    {
+      "name": "Amarbat, Byambasuren",
+      "value": 8
+    },
+    {
+      "name": "Baasankhorloo, Ts",
+      "value": 8
+    },
+    {
+      "name": "Beye, Amadou Kane",
+      "value": 2
+    },
+    {
+      "name": "Haller, Tobias",
+      "value": 1
+    },
+    {
+      "name": "Nurudong, Primus",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Mongolia",
+      "region": "Bayankhongor Province",
+      "city": "",
+      "count": 4
+    },
+    {
+      "country": "Mongolia",
+      "region": "Khentii Province",
+      "city": "Delgerhan Soum",
+      "count": 2
+    },
+    {
+      "country": "Mongolia",
+      "region": "Bulgan Province",
+      "city": "",
+      "count": 2
+    },
+    {
+      "country": "Mongolia",
+      "region": "Övörkhangai Province",
+      "city": "Ulziit Soum",
+      "count": 2
+    },
+    {
+      "country": "Mongolia",
+      "region": "Bayankhongor Province",
+      "city": "Tsagaan-Üür",
+      "count": 1
+    },
+    {
+      "country": "Mongolia",
+      "region": "Arkhangai Province",
+      "city": "Battsengel Soum",
+      "count": 1
+    },
+    {
+      "country": "Senegal",
+      "region": "Thiès Region",
+      "city": "Ndengler (Dingler)",
+      "count": 1
+    },
+    {
+      "country": "Tanzania",
+      "region": "Iringa",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "Ghana",
+      "region": "Upper West Region",
+      "city": "Nandom",
+      "count": 1
+    },
+    {
+      "country": "Senegal",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "66cefaf495a000d4c7bf3707",
+      "titleInfo": [
+        {
+          "title": "Batbuyan Batjav's report, Mongolia, September 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0002"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3708",
+      "titleInfo": [
+        {
+          "title": "Batbuyan Batjav's report, Mongolia, October 15, 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0003"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3717",
+      "titleInfo": [
+        {
+          "title": "Covid-19 resilience in Mongolian pastoralist communities. Preliminary Narrative Report on Fieldwork in\n Mongolia, April 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0012"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3718",
+      "titleInfo": [
+        {
+          "title": "Photo report of Mongolian pastoralists in the time of the Covid-19, February 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0013"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3719",
+      "titleInfo": [
+        {
+          "title": "Research notes from interview in Bayankhongor aimag, March 13, 2022"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0014"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf371a",
+      "titleInfo": [
+        {
+          "title": "Research report of Mongolia, April-May, 2022"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0015"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf371b",
+      "titleInfo": [
+        {
+          "title": "Batbuyan Batjav's research comments on Mongolia, November 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0016"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf371c",
+      "titleInfo": [
+        {
+          "title": "Batbuyan Batjav's research comments on Mongolia, November 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0017"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf371d",
+      "titleInfo": [
+        {
+          "title": "Batbuyan Batjav's research comments on Mongolia, October 15, 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0018"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf371e",
+      "titleInfo": [
+        {
+          "title": "Batbuyan Batjav's research comments on Mongolia, September 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0019"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf371f",
+      "titleInfo": [
+        {
+          "title": "Mongolia's report, December 12, 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-001a"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3720",
+      "titleInfo": [
+        {
+          "title": "Mongolia's Covid-19 Questionary, March 2022"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-001b"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3725",
+      "titleInfo": [
+        {
+          "title": "Réponses aux questions de recherche pour les chercheurs collaboratifs au Senegal"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0020"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3726",
+      "titleInfo": [
+        {
+          "title": "Anonymus questionary of Tanzania's Covid-19 situation, September 2020"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0021"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3727",
+      "titleInfo": [
+        {
+          "title": "Primus Nurudong's report on Ghana"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0022"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3729",
+      "titleInfo": [
+        {
+          "title": "Réponses aux questions de recherche pour les chercheurs collaboratifs\nPartie II : Mesure de confinement"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0024"
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "banso",
+    "name": "Banso",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 1923,
+      "count": 1
+    },
+    {
+      "year": 1928,
+      "count": 1
+    },
+    {
+      "year": 1935,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1923,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1928,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1935,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Archives",
+      "value": 3
+    },
+    {
+      "name": "Colonisation",
+      "value": 3
+    },
+    {
+      "name": "Letters",
+      "value": 3
+    },
+    {
+      "name": "Social norms",
+      "value": 3
+    },
+    {
+      "name": "Discourse analysis",
+      "value": 3
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Archives",
+      "value": 3
+    },
+    {
+      "name": "Colonisation",
+      "value": 3
+    },
+    {
+      "name": "Letters",
+      "value": 3
+    },
+    {
+      "name": "Social norms",
+      "value": 3
+    },
+    {
+      "name": "Discourse analysis",
+      "value": 3
+    },
+    {
+      "name": "British Colonisation",
+      "value": 3
+    },
+    {
+      "name": "Colonial Records",
+      "value": 3
+    },
+    {
+      "name": "Southern Cameroons",
+      "value": 3
+    },
+    {
+      "name": "Postcolonial Heritage",
+      "value": 3
+    },
+    {
+      "name": "Great Britain",
+      "value": 3
+    },
+    {
+      "name": "Postcolonial Studies",
+      "value": 3
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Otung, Glory Essien",
+      "value": 3
+    },
+    {
+      "name": "Anchimbe, Eric",
+      "value": 3
+    },
+    {
+      "name": "Chiangong, Pepetual Mforbe",
+      "value": 3
+    },
+    {
+      "name": "Marjie, Sarah",
+      "value": 3
+    },
+    {
+      "name": "Kengo, Emmanuel",
+      "value": 3
+    },
+    {
+      "name": "Atindogbe, Gratien",
+      "value": 3
+    },
+    {
+      "name": "Ubanako, Valentine",
+      "value": 3
+    },
+    {
+      "name": "Mforteh, Stephen",
+      "value": 3
+    },
+    {
+      "name": "Eyoh, Julius",
+      "value": 3
+    },
+    {
+      "name": "Oyali, Uchenna",
+      "value": 3
+    },
+    {
+      "name": "Mbah, Boniface",
+      "value": 3
+    }
+  ],
+  "locations": [
+    {
+      "country": "Nigeria",
+      "region": "Oyo State",
+      "city": "Ibadan",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "6877ced7b542f8b9f8940b17",
+      "titleInfo": [
+        {
+          "title": "Assessment Report on Banso District, Bamenda Division, Cameroons Province"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_CLnCK2019",
+        "name": "Colonial Letters and the Contact of Knowledges"
+      },
+      "dre_id": "abj-99-0012"
+    },
+    {
+      "_id": "6877ced7b542f8b9f8940b2a",
+      "titleInfo": [
+        {
+          "title": "Assessment Report, Banso District, Cameroons Province"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_CLnCK2019",
+        "name": "Colonial Letters and the Contact of Knowledges"
+      },
+      "dre_id": "abj-99-0025"
+    },
+    {
+      "_id": "6877ced7b542f8b9f8940b42",
+      "titleInfo": [
+        {
+          "title": "Assessment Report, Banso District, Cameroons Province"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_CLnCK2019",
+        "name": "Colonial Letters and the Contact of Knowledges"
+      },
+      "dre_id": "abj-99-003d"
+    }
+  ]
+}

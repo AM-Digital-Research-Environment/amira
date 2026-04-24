@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "audio-metadata",
+    "name": "Audio Metadata",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2018,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2018,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Field recordings",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Field recordings",
+      "value": 1
+    },
+    {
+      "name": "Audio Production",
+      "value": 1
+    },
+    {
+      "name": "Checklist",
+      "value": 1
+    },
+    {
+      "name": "Data Capture",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Roux, Gerhard",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9edb7",
+      "titleInfo": [
+        {
+          "title": "STILL RECORDING AFRICAN MUSIC IN THE FIELD"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03d2"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "carnival-society",
+    "name": "Carnival Society",
+    "count": 5
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 5
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 5,
+      "byType": {
+        "Image": 4,
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 4
+    },
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "value": 5
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Racism",
+      "value": 5
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Racism",
+      "value": 5
+    },
+    {
+      "name": "Tradition",
+      "value": 5
+    },
+    {
+      "name": "Daily Racism",
+      "value": 5
+    },
+    {
+      "name": "Local Press",
+      "value": 5
+    },
+    {
+      "name": "Language",
+      "value": 5
+    },
+    {
+      "name": "M*wäscherverein",
+      "value": 4
+    },
+    {
+      "name": "Bayreuth",
+      "value": 4
+    },
+    {
+      "name": "Mohrenapotheke",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tensing, Patrizia",
+      "value": 1
+    },
+    {
+      "name": "Busster, Henry",
+      "value": 1
+    },
+    {
+      "name": "Stiefler, Herlmut",
+      "value": 1
+    },
+    {
+      "name": "Düngferlder, Siggi",
+      "value": 1
+    },
+    {
+      "name": "Müller, Stefan",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 5
+    }
+  ],
+  "items": [
+    {
+      "_id": "692db49707481a28c72155b8",
+      "titleInfo": [
+        {
+          "title": "M*wäscherverein: Umstrittener Vereinsname"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0010"
+    },
+    {
+      "_id": "692db49707481a28c72155b9",
+      "titleInfo": [
+        {
+          "title": "Zutiefst verletzt"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0011"
+    },
+    {
+      "_id": "692db49707481a28c72155ba",
+      "titleInfo": [
+        {
+          "title": "Die Kirche im Dorf lassen"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0012"
+    },
+    {
+      "_id": "692db49707481a28c72155bb",
+      "titleInfo": [
+        {
+          "title": "Gesellschaft sollte durch Floskeln nicht verblöden"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0013"
+    },
+    {
+      "_id": "692db49707481a28c72155bf",
+      "titleInfo": [
+        {
+          "title": "Bayreuther Mohrenwäscher: Vom Spottnamen zur Faschingsgesellschaft"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0017"
+    }
+  ]
+}

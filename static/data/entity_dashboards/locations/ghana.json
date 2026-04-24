@@ -1,0 +1,528 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "ghana",
+    "name": "Ghana",
+    "count": 208
+  },
+  "timeline": [
+    {
+      "year": 1950,
+      "count": 198
+    },
+    {
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "count": 3
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1950,
+      "total": 198,
+      "byType": {
+        "Audio": 198
+      }
+    },
+    {
+      "year": 2020,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2021,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 2022,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2023,
+      "total": 3,
+      "byType": {
+        "Text": 3
+      }
+    },
+    {
+      "year": 2024,
+      "total": 3,
+      "byType": {
+        "Text": 3
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Audio",
+      "value": 198
+    },
+    {
+      "name": "Text",
+      "value": 10
+    }
+  ],
+  "languages": [
+    {
+      "name": "Twi",
+      "value": 88
+    },
+    {
+      "name": "Fanti",
+      "value": 47
+    },
+    {
+      "name": "Ewe",
+      "value": 32
+    },
+    {
+      "name": "Ga",
+      "value": 23
+    },
+    {
+      "name": "English",
+      "value": 10
+    },
+    {
+      "name": "Kru",
+      "value": 4
+    },
+    {
+      "name": "Hausa",
+      "value": 4
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 198
+    },
+    {
+      "name": "Twi (African people)",
+      "value": 88
+    },
+    {
+      "name": "Twi language",
+      "value": 88
+    },
+    {
+      "name": "Highlife (Music)",
+      "value": 47
+    },
+    {
+      "name": "Fanti (African people)",
+      "value": 47
+    },
+    {
+      "name": "Fanti language",
+      "value": 47
+    },
+    {
+      "name": "Ewe (African people)",
+      "value": 32
+    },
+    {
+      "name": "Ewe language",
+      "value": 32
+    },
+    {
+      "name": "Ga (African people)",
+      "value": 23
+    },
+    {
+      "name": "Ga language",
+      "value": 23
+    },
+    {
+      "name": "Blues (Music)",
+      "value": 18
+    },
+    {
+      "name": "West Africa",
+      "value": 7
+    },
+    {
+      "name": "Kru language",
+      "value": 4
+    },
+    {
+      "name": "Kru (African people)",
+      "value": 4
+    },
+    {
+      "name": "Hausa (African people)",
+      "value": 4
+    },
+    {
+      "name": "Hausa language",
+      "value": 4
+    },
+    {
+      "name": "Vaccination",
+      "value": 2
+    },
+    {
+      "name": "Sacred music",
+      "value": 2
+    },
+    {
+      "name": "Interviews",
+      "value": 2
+    },
+    {
+      "name": "Bible",
+      "value": 1
+    },
+    {
+      "name": "Households",
+      "value": 1
+    },
+    {
+      "name": "Travel",
+      "value": 1
+    },
+    {
+      "name": "Schools",
+      "value": 1
+    },
+    {
+      "name": "Food security",
+      "value": 1
+    },
+    {
+      "name": "Hygiene",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Ethnomusicology",
+      "value": 198
+    },
+    {
+      "name": "Twi (African people)",
+      "value": 88
+    },
+    {
+      "name": "Twi language",
+      "value": 88
+    },
+    {
+      "name": "Highlife (Music)",
+      "value": 47
+    },
+    {
+      "name": "Fanti (African people)",
+      "value": 47
+    },
+    {
+      "name": "Fanti language",
+      "value": 47
+    },
+    {
+      "name": "Ewe (African people)",
+      "value": 32
+    },
+    {
+      "name": "Ewe language",
+      "value": 32
+    },
+    {
+      "name": "Ga (African people)",
+      "value": 23
+    },
+    {
+      "name": "Ga language",
+      "value": 23
+    },
+    {
+      "name": "Dance Song",
+      "value": 22
+    },
+    {
+      "name": "Blues (Music)",
+      "value": 18
+    },
+    {
+      "name": "Ghana",
+      "value": 10
+    },
+    {
+      "name": "West Africa",
+      "value": 7
+    },
+    {
+      "name": "Fort Christiansborg",
+      "value": 6
+    },
+    {
+      "name": "Kru language",
+      "value": 4
+    },
+    {
+      "name": "Kru (African people)",
+      "value": 4
+    },
+    {
+      "name": "Hausa (African people)",
+      "value": 4
+    },
+    {
+      "name": "Hausa language",
+      "value": 4
+    },
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 3
+    },
+    {
+      "name": "Vaccination",
+      "value": 2
+    },
+    {
+      "name": "Sacred music",
+      "value": 2
+    },
+    {
+      "name": "Interviews",
+      "value": 2
+    },
+    {
+      "name": "Bible",
+      "value": 1
+    },
+    {
+      "name": "Households",
+      "value": 1
+    },
+    {
+      "name": "Travel",
+      "value": 1
+    },
+    {
+      "name": "Schools",
+      "value": 1
+    },
+    {
+      "name": "Food security",
+      "value": 1
+    },
+    {
+      "name": "Lockdown",
+      "value": 1
+    },
+    {
+      "name": "Burkina Faso",
+      "value": 1
+    },
+    {
+      "name": "Border",
+      "value": 1
+    },
+    {
+      "name": "Mobility",
+      "value": 1
+    },
+    {
+      "name": "Hygiene",
+      "value": 1
+    },
+    {
+      "name": "Social distancing (Public health)",
+      "value": 1
+    },
+    {
+      "name": "Cash",
+      "value": 1
+    },
+    {
+      "name": "Sociality",
+      "value": 1
+    },
+    {
+      "name": "Earthquake Blues (Music)",
+      "value": 1
+    },
+    {
+      "name": "Tangos",
+      "value": 1
+    },
+    {
+      "name": "Rumbas",
+      "value": 1
+    },
+    {
+      "name": "Sambas",
+      "value": 1
+    },
+    {
+      "name": "Debt",
+      "value": 1
+    },
+    {
+      "name": "Public Debt",
+      "value": 1
+    },
+    {
+      "name": "Economic policy",
+      "value": 1
+    },
+    {
+      "name": "Structural adjustment (Economic policy)",
+      "value": 1
+    },
+    {
+      "name": "Political Economy",
+      "value": 1
+    },
+    {
+      "name": "Fintech",
+      "value": 1
+    },
+    {
+      "name": "Mobile Money",
+      "value": 1
+    },
+    {
+      "name": "Investment banking",
+      "value": 1
+    },
+    {
+      "name": "Securities",
+      "value": 1
+    },
+    {
+      "name": "Bank Investement",
+      "value": 1
+    },
+    {
+      "name": "Commercial Bank",
+      "value": 1
+    },
+    {
+      "name": "Lending Rates",
+      "value": 1
+    },
+    {
+      "name": "Bank Credit",
+      "value": 1
+    },
+    {
+      "name": "Private Sector",
+      "value": 1
+    },
+    {
+      "name": "Interest rates",
+      "value": 1
+    },
+    {
+      "name": "Central Bank",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "DECCA",
+      "value": 198
+    },
+    {
+      "name": "Ghana Broadcasting Corporation Gramophone Library",
+      "value": 198
+    },
+    {
+      "name": "Abeku's Band",
+      "value": 16
+    },
+    {
+      "name": "Kwasi Gatse's Band",
+      "value": 12
+    },
+    {
+      "name": "Van de Carga and His Strings",
+      "value": 10
+    },
+    {
+      "name": "The Denu Singers",
+      "value": 8
+    },
+    {
+      "name": "Appiah Adjekum's Band",
+      "value": 8
+    },
+    {
+      "name": "Manukure's Band",
+      "value": 8
+    },
+    {
+      "name": "D. O. Willie's Band",
+      "value": 8
+    },
+    {
+      "name": "Akolgo, Isaac Abotebuno",
+      "value": 8
+    },
+    {
+      "name": "Twumasi Band",
+      "value": 6
+    },
+    {
+      "name": "Ashong's Band",
+      "value": 6
+    },
+    {
+      "name": "Presbyterian Sunday School",
+      "value": 6
+    },
+    {
+      "name": "IBRA Singing Band",
+      "value": 6
+    },
+    {
+      "name": "Domingo's Band",
+      "value": 6
+    },
+    {
+      "name": "Boampon Kwahu Band",
+      "value": 6
+    },
+    {
+      "name": "Kwasi Bresah and His Band",
+      "value": 6
+    },
+    {
+      "name": "Obiba T. K. Band",
+      "value": 4
+    },
+    {
+      "name": "Ayi Hyde's Band",
+      "value": 4
+    },
+    {
+      "name": "Willie's Band",
+      "value": 4
+    }
+  ]
+}

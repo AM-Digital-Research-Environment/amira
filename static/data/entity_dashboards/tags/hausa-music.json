@@ -1,0 +1,186 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "hausa-music",
+    "name": "Hausa Music",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1955,
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1955,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2019,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Women musicians",
+      "value": 2
+    },
+    {
+      "name": "Hausa (African people)",
+      "value": 2
+    },
+    {
+      "name": "Musicians",
+      "value": 2
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Women",
+      "value": 1
+    },
+    {
+      "name": "Folk music",
+      "value": 1
+    },
+    {
+      "name": "Songs",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Popular music",
+      "value": 1
+    },
+    {
+      "name": "Book reviews",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Women musicians",
+      "value": 2
+    },
+    {
+      "name": "Hausa (African people)",
+      "value": 2
+    },
+    {
+      "name": "Musicians",
+      "value": 2
+    },
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Women",
+      "value": 1
+    },
+    {
+      "name": "Folk music",
+      "value": 1
+    },
+    {
+      "name": "Songs",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    },
+    {
+      "name": "Shantu (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Popular music",
+      "value": 1
+    },
+    {
+      "name": "Book reviews",
+      "value": 1
+    },
+    {
+      "name": "Muslim Women",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mackay, Mercedes",
+      "value": 1
+    },
+    {
+      "name": "Njoku, Obianuju Akunna",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ea0c",
+      "titleInfo": [
+        {
+          "title": "The Shantu music of the Harims of Nigeria"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0027"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edb0",
+      "titleInfo": [
+        {
+          "title": "Beverly B. Mack. Muslim Women Sing: Hausa Popular Song"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03cb"
+    }
+  ]
+}

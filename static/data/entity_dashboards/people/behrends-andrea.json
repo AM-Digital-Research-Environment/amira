@@ -1,0 +1,511 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "behrends-andrea",
+    "name": "Behrends, Andrea",
+    "count": 6
+  },
+  "timeline": [
+    {
+      "year": 2021,
+      "count": 4
+    },
+    {
+      "year": 2022,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2021,
+      "total": 4,
+      "byType": {
+        "Text": 4
+      }
+    },
+    {
+      "year": 2022,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 6
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 6
+    },
+    {
+      "name": "Maasai",
+      "value": 1
+    },
+    {
+      "name": "Herero",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Arid regions",
+      "value": 4
+    },
+    {
+      "name": "Vaccination",
+      "value": 4
+    },
+    {
+      "name": "East Africa",
+      "value": 3
+    },
+    {
+      "name": "Tourism",
+      "value": 3
+    },
+    {
+      "name": "Herders",
+      "value": 3
+    },
+    {
+      "name": "Maasai (African people)",
+      "value": 2
+    },
+    {
+      "name": "Livestock",
+      "value": 2
+    },
+    {
+      "name": "Sustainable tourism",
+      "value": 1
+    },
+    {
+      "name": "Corruption",
+      "value": 1
+    },
+    {
+      "name": "Political corruption",
+      "value": 1
+    },
+    {
+      "name": "Religious leaders",
+      "value": 1
+    },
+    {
+      "name": "Mass media",
+      "value": 1
+    },
+    {
+      "name": "Households",
+      "value": 1
+    },
+    {
+      "name": "Community-based conservation",
+      "value": 1
+    },
+    {
+      "name": "Police",
+      "value": 1
+    },
+    {
+      "name": "Gabbra (African people)",
+      "value": 1
+    },
+    {
+      "name": "Samburu (African people)",
+      "value": 1
+    },
+    {
+      "name": "Oromo (African people)",
+      "value": 1
+    },
+    {
+      "name": "Gender",
+      "value": 1
+    },
+    {
+      "name": "Travel",
+      "value": 1
+    },
+    {
+      "name": "Social distancing (Public health)",
+      "value": 1
+    },
+    {
+      "name": "Conservation",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 6
+    },
+    {
+      "name": "Arid regions",
+      "value": 4
+    },
+    {
+      "name": "Vaccination",
+      "value": 4
+    },
+    {
+      "name": "East Africa",
+      "value": 3
+    },
+    {
+      "name": "Tourism",
+      "value": 3
+    },
+    {
+      "name": "Conservancy",
+      "value": 3
+    },
+    {
+      "name": "Herders",
+      "value": 3
+    },
+    {
+      "name": "Pastoralist",
+      "value": 3
+    },
+    {
+      "name": "Maasai (African people)",
+      "value": 2
+    },
+    {
+      "name": "Livestock",
+      "value": 2
+    },
+    {
+      "name": "Mobility",
+      "value": 2
+    },
+    {
+      "name": "Lockdown",
+      "value": 2
+    },
+    {
+      "name": "Kenya",
+      "value": 2
+    },
+    {
+      "name": "Sustainable tourism",
+      "value": 1
+    },
+    {
+      "name": "Corruption",
+      "value": 1
+    },
+    {
+      "name": "Political corruption",
+      "value": 1
+    },
+    {
+      "name": "Sociality",
+      "value": 1
+    },
+    {
+      "name": "Religious leaders",
+      "value": 1
+    },
+    {
+      "name": "Mass media",
+      "value": 1
+    },
+    {
+      "name": "Households",
+      "value": 1
+    },
+    {
+      "name": "Community-based conservation",
+      "value": 1
+    },
+    {
+      "name": "Livelihood",
+      "value": 1
+    },
+    {
+      "name": "Drylands",
+      "value": 1
+    },
+    {
+      "name": "Namibia",
+      "value": 1
+    },
+    {
+      "name": "Police",
+      "value": 1
+    },
+    {
+      "name": "Gabbra (African people)",
+      "value": 1
+    },
+    {
+      "name": "Samburu (African people)",
+      "value": 1
+    },
+    {
+      "name": "Oromo (African people)",
+      "value": 1
+    },
+    {
+      "name": "Gender",
+      "value": 1
+    },
+    {
+      "name": "Sexuality",
+      "value": 1
+    },
+    {
+      "name": "Chalbi Desert",
+      "value": 1
+    },
+    {
+      "name": "Travel",
+      "value": 1
+    },
+    {
+      "name": "Sudanese Resistance Committees",
+      "value": 1
+    },
+    {
+      "name": "Protest",
+      "value": 1
+    },
+    {
+      "name": "Sudan",
+      "value": 1
+    },
+    {
+      "name": "Politics",
+      "value": 1
+    },
+    {
+      "name": "Social distancing (Public health)",
+      "value": 1
+    },
+    {
+      "name": "Conservation",
+      "value": 1
+    },
+    {
+      "name": "Maputo National Park",
+      "value": 1
+    },
+    {
+      "name": "Management Impact",
+      "value": 1
+    },
+    {
+      "name": "Mozambique",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Kronenburg García, Angela",
+      "value": 6
+    },
+    {
+      "name": "Roque de Pinho, Joana",
+      "value": 5
+    },
+    {
+      "name": "Hashimshony Yaffe, Nurit",
+      "value": 4
+    },
+    {
+      "name": "Pase, Andrea",
+      "value": 4
+    },
+    {
+      "name": "Heita, Jona",
+      "value": 3
+    },
+    {
+      "name": "Gargallo, Eduard",
+      "value": 3
+    },
+    {
+      "name": "Samimi, Cyrus",
+      "value": 2
+    },
+    {
+      "name": "Gambiza, James",
+      "value": 2
+    },
+    {
+      "name": "Nurudong, Primus",
+      "value": 2
+    },
+    {
+      "name": "Goldman, Mara",
+      "value": 2
+    },
+    {
+      "name": "Moschetti, Marta",
+      "value": 2
+    },
+    {
+      "name": "Braga, Carla",
+      "value": 2
+    },
+    {
+      "name": "Seenoi, Debra",
+      "value": 1
+    },
+    {
+      "name": "Kaisuma, Steve",
+      "value": 1
+    },
+    {
+      "name": "Sternberg, Troy",
+      "value": 1
+    },
+    {
+      "name": "Schrijver, Annemiek Pas",
+      "value": 1
+    },
+    {
+      "name": "Abd ElWahid Abd ElRahim, Ahmed",
+      "value": 1
+    },
+    {
+      "name": "Agyei-Mensah, Juliana",
+      "value": 1
+    },
+    {
+      "name": "Bautdinova, Iuliia",
+      "value": 1
+    },
+    {
+      "name": "Tas Kronenburg, Zaira",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Kenya",
+      "region": "Narok",
+      "city": "Mpuaai",
+      "count": 2
+    },
+    {
+      "country": "Namibia",
+      "region": "Kunene Region",
+      "city": "Anabeb Conservancy",
+      "count": 1
+    },
+    {
+      "country": "Kenya",
+      "region": "Marsabit",
+      "city": "Kalacha",
+      "count": 1
+    },
+    {
+      "country": "Sudan",
+      "region": "",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "Mozambique",
+      "region": "Maputo Province",
+      "city": "Maputo National Park",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "66cefaf495a000d4c7bf370a",
+      "titleInfo": [
+        {
+          "title": "Debra Seenoi's Zoom transcript, Kenya, September 29, 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0005"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf370c",
+      "titleInfo": [
+        {
+          "title": "Eduard Gargallo and Jona Heita's transcript, Namibia, May 02, 2022"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0007"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf370d",
+      "titleInfo": [
+        {
+          "title": "Joana Roque de Pinho Zoom's transcript, Kenya, October 10, 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0008"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3714",
+      "titleInfo": [
+        {
+          "title": "Nurit Hashimshony Yaffe's Zoom transcript, November 15, 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-000f"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3723",
+      "titleInfo": [
+        {
+          "title": "Ahmed Abd ElWahid Abd ElRahim's transcript (report) on Sudan, March 22, 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-001e"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3728",
+      "titleInfo": [
+        {
+          "title": "Zaira Tas Kronenburg's Zoom meeting on Mozambique, July 18, 2022"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0023"
+    }
+  ]
+}

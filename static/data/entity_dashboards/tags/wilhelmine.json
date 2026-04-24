@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "wilhelmine",
+    "name": "Wilhelmine",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2015,
+      "count": 1
+    },
+    {
+      "year": 2017,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2015,
+      "total": 1,
+      "byType": {
+        "Digital": 1
+      }
+    },
+    {
+      "year": 2017,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Digital",
+      "value": 1
+    },
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    },
+    {
+      "name": "German",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Slavery",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Slavery",
+      "value": 2
+    },
+    {
+      "name": "Alzire of Bayreuth",
+      "value": 2
+    },
+    {
+      "name": "Neues Schloss Bayreuth",
+      "value": 2
+    },
+    {
+      "name": "Bayreuth",
+      "value": 2
+    },
+    {
+      "name": "Suriname",
+      "value": 2
+    },
+    {
+      "name": "Colonialism",
+      "value": 2
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Lelliot, Kitso Lynn",
+      "value": 1
+    },
+    {
+      "name": "Fink, Katharina",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 1
+    },
+    {
+      "country": "Germany",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "692db49707481a28c72155c6",
+      "titleInfo": [
+        {
+          "title": "Alzire of Bayreuth"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-99-001e"
+    },
+    {
+      "_id": "692db49707481a28c72155c8",
+      "titleInfo": [
+        {
+          "title": "Ausstellungstext: Alzire of Bayreuth"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0020"
+    }
+  ]
+}

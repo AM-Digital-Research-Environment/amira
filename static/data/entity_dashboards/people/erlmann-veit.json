@@ -1,0 +1,336 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "erlmann-veit",
+    "name": "Erlmann, Veit",
+    "count": 12
+  },
+  "timeline": [
+    {
+      "year": 1973,
+      "count": 1
+    },
+    {
+      "year": 1983,
+      "count": 2
+    },
+    {
+      "year": 1987,
+      "count": 1
+    },
+    {
+      "year": 1996,
+      "count": 3
+    },
+    {
+      "year": 2008,
+      "count": 1
+    },
+    {
+      "year": 2009,
+      "count": 2
+    },
+    {
+      "year": 2012,
+      "count": 1
+    },
+    {
+      "year": 2013,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1973,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1983,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1987,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1996,
+      "total": 3,
+      "byType": {
+        "Text": 3
+      }
+    },
+    {
+      "year": 2008,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2009,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 2012,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2013,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 12
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 12
+    }
+  ],
+  "subjects": [
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Popular music",
+      "value": 1
+    },
+    {
+      "name": "Entrepreneurship",
+      "value": 1
+    },
+    {
+      "name": "Celebrities",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 12
+    },
+    {
+      "name": "Western Sudan",
+      "value": 1
+    },
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Cameroon",
+      "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    },
+    {
+      "name": "Musical Acculturation",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Angola",
+      "value": 1
+    },
+    {
+      "name": "Luanda",
+      "value": 1
+    },
+    {
+      "name": "Social History",
+      "value": 1
+    },
+    {
+      "name": "Popular music",
+      "value": 1
+    },
+    {
+      "name": "Entrepreneurship",
+      "value": 1
+    },
+    {
+      "name": "Celebrities",
+      "value": 1
+    },
+    {
+      "name": "Ghana",
+      "value": 1
+    },
+    {
+      "name": "Hiplife",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 12
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ebc8",
+      "titleInfo": [
+        {
+          "title": "Some sources of music in Western Sudan from 1300-1700"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01e3"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec11",
+      "titleInfo": [
+        {
+          "title": "SOUTH AFRICAN MUSIC ENCYCLOPEDIA. Volume II,E to I. Ed. by Jacques P. Malan. Cape Town; Oxford University Press; 1982, pp. 513, illus.. music."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-022c"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec1a",
+      "titleInfo": [
+        {
+          "title": "Notes on musical instruments among the Fulani of Diamare (north Cameroon)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0235"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec28",
+      "titleInfo": [
+        {
+          "title": "IKOLI HARCOURT WHYTE, THE MAN AND HIS MUSIC: A CASE OF MUSICAL ACCULTURATION IN NIGERIA by Achinivu Kanu Achinivu, 2 vols. Beitrage zur Ethnomusikologie, No.7. Hamberg: Verlag der Musikalienhandlung, Karl Dieter Wagner, 1979. Vol. 1: 456 p., music; vol.2: 194 p., music, texts."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0243"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec60",
+      "titleInfo": [
+        {
+          "title": "CAPOEIRA, SAMBA, CANDOMBLÉ: AFRO-BRASILIANISCHE MUSIK IM RECÔNCAVO, BAHIA, by Tiago de Oliveira Pinto, Staatliche Museen Preußischer Kulturbesitz (Veröffentlichungen des Museums für Völkerkunde Berlin, Neue Folge 52, Abteilung Musikethnologie VII), Berlin, 1991, 264pp., ill., bibl., index."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-027b"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec66",
+      "titleInfo": [
+        {
+          "title": "WEST AFRIKA: MUSIKGESCHICHTE IN BILDERN, by Gerhard Kubik, VEB Deutscher Verlag fur Musik, Leipzig, 1989, Band I, Musikethnologie, Lieferung 11, ed. Werner Bachmann, 222pp, illustrations, appendix, bibliography."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0281"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec6a",
+      "titleInfo": [
+        {
+          "title": "AFRICAN MUSIC: A BIBLIOGRAPHICAL GUIDE TO THE TRADITIONAL, POPULAR, ART, AND LITURGICAL MUSICS OF SUB-SAHARAN AFRICA, by John Gray, Greenwood Press, New York, 1991, xii + 499pp, 3 appendixes, 4 indexes."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0285"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ecb0",
+      "titleInfo": [
+        {
+          "title": "Popular Music Censorship in Africa, Edited by Martin Cloonan and Michael Drewett, Ashgate: London (2006), 228 pages, including index, Hardbound: ISBN-13: 978-075467291-5, ISBB-10: 0-7546-5291-2."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02cb"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ecb9",
+      "titleInfo": [
+        {
+          "title": "Rumba Rules: The Politics of Dance Music in Mobutu s Zaire, Bob W. White, Duke University Press, 2008, 300 pp., paperback: 978-0-8223-4112-3."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02d4"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ecc2",
+      "titleInfo": [
+        {
+          "title": "Intonations: A Social History of Music and Nation in Luanda, Angola, from 1945 to Recent Times, Marissa J. Moorman, Ohio University Press, 2008, 320 pp., CD, Paperback: 978-0-8214-1824-6."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02dd"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed0d",
+      "titleInfo": [
+        {
+          "title": "Cultural Globalization and Music. African Artists in Transnational Networks. Nadia Kiwan and Ulrike Hanna Meinhof. 2011. Palgrave Macmillan. 272 pp."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0328"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed1b",
+      "titleInfo": [
+        {
+          "title": "Living the Hiplife: Celebrity and Entrepreneurship in Ghanaian Popular Music. Jesse Weaver Shipley. 2013. London and Durham, NC: Duke University Press. 329pp."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0336"
+    }
+  ]
+}

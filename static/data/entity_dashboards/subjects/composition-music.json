@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "composition-music",
+    "name": "Composition (Music)",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1962,
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1962,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2023,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Igbo (African people)",
+      "value": 1
+    },
+    {
+      "name": "Oral tradition",
+      "value": 1
+    },
+    {
+      "name": "Choral music",
+      "value": 1
+    },
+    {
+      "name": "Art",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Musical Meter",
+      "value": 1
+    },
+    {
+      "name": "Musical Rhythm",
+      "value": 1
+    },
+    {
+      "name": "Igbo (African people)",
+      "value": 1
+    },
+    {
+      "name": "Oral tradition",
+      "value": 1
+    },
+    {
+      "name": "Choral music",
+      "value": 1
+    },
+    {
+      "name": "Art",
+      "value": 1
+    },
+    {
+      "name": "Artwork",
+      "value": 1
+    },
+    {
+      "name": "Igbo Choral Music",
+      "value": 1
+    },
+    {
+      "name": "Orchestration",
+      "value": 1
+    },
+    {
+      "name": "Traditional Music",
+      "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    },
+    {
+      "name": "Musical Hybridity",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kubik, Gerhard",
+      "value": 1
+    },
+    {
+      "name": "Obijiaku, Chidi",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9eac5",
+      "titleInfo": [
+        {
+          "title": "The phenomenon of inherent rhythms in East and Central African instrumental music"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00e0"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ede1",
+      "titleInfo": [
+        {
+          "title": "HYBRIDITY IN MODERN NIGERIAN MUSIC"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03fc"
+    }
+  ]
+}

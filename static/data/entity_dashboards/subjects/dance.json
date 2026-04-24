@@ -1,0 +1,1367 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "dance",
+    "name": "Dance",
+    "count": 33
+  },
+  "timeline": [
+    {
+      "year": 1954,
+      "count": 3
+    },
+    {
+      "year": 1955,
+      "count": 1
+    },
+    {
+      "year": 1961,
+      "count": 1
+    },
+    {
+      "year": 1962,
+      "count": 1
+    },
+    {
+      "year": 1964,
+      "count": 1
+    },
+    {
+      "year": 1966,
+      "count": 1
+    },
+    {
+      "year": 1970,
+      "count": 1
+    },
+    {
+      "year": 1971,
+      "count": 2
+    },
+    {
+      "year": 1972,
+      "count": 3
+    },
+    {
+      "year": 1990,
+      "count": 1
+    },
+    {
+      "year": 1992,
+      "count": 1
+    },
+    {
+      "year": 2007,
+      "count": 1
+    },
+    {
+      "year": 2012,
+      "count": 2
+    },
+    {
+      "year": 2013,
+      "count": 2
+    },
+    {
+      "year": 2018,
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1954,
+      "total": 3,
+      "byType": {
+        "Text": 3
+      }
+    },
+    {
+      "year": 1955,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1961,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1962,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1964,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1966,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1970,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1971,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1972,
+      "total": 3,
+      "byType": {
+        "Text": 3
+      }
+    },
+    {
+      "year": 1990,
+      "total": 1,
+      "byType": {
+        "Moving image": 1
+      }
+    },
+    {
+      "year": 1992,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2007,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2012,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 2013,
+      "total": 2,
+      "byType": {
+        "Image": 1,
+        "Text": 1
+      }
+    },
+    {
+      "year": 2018,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2020,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2022,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2025,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 23
+    },
+    {
+      "name": "Moving image",
+      "value": 7
+    },
+    {
+      "name": "Image",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 30
+    },
+    {
+      "name": "French",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Music",
+      "value": 16
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 15
+    },
+    {
+      "name": "Musical instruments",
+      "value": 9
+    },
+    {
+      "name": "Africa",
+      "value": 6
+    },
+    {
+      "name": "Performance",
+      "value": 6
+    },
+    {
+      "name": "Singing",
+      "value": 6
+    },
+    {
+      "name": "Drum",
+      "value": 4
+    },
+    {
+      "name": "Drum music",
+      "value": 4
+    },
+    {
+      "name": "Education",
+      "value": 3
+    },
+    {
+      "name": "History",
+      "value": 3
+    },
+    {
+      "name": "Criticism",
+      "value": 3
+    },
+    {
+      "name": "Ewe (African people)",
+      "value": 3
+    },
+    {
+      "name": "Anlo (African people)",
+      "value": 3
+    },
+    {
+      "name": "Gender",
+      "value": 3
+    },
+    {
+      "name": "Ritual",
+      "value": 2
+    },
+    {
+      "name": "Polyrhythm",
+      "value": 2
+    },
+    {
+      "name": "Songs",
+      "value": 2
+    },
+    {
+      "name": "South Africa",
+      "value": 2
+    },
+    {
+      "name": "Photographs",
+      "value": 1
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Yoruba (African people)--Religion",
+      "value": 1
+    },
+    {
+      "name": "Orisha religion",
+      "value": 1
+    },
+    {
+      "name": "Albums",
+      "value": 1
+    },
+    {
+      "name": "Artists",
+      "value": 1
+    },
+    {
+      "name": "Ika (African people)",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 23
+    },
+    {
+      "name": "Music",
+      "value": 16
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 15
+    },
+    {
+      "name": "Musical instruments",
+      "value": 9
+    },
+    {
+      "name": "Africa",
+      "value": 6
+    },
+    {
+      "name": "Performance",
+      "value": 6
+    },
+    {
+      "name": "Singing",
+      "value": 6
+    },
+    {
+      "name": "Ghana",
+      "value": 5
+    },
+    {
+      "name": "Drum",
+      "value": 4
+    },
+    {
+      "name": "Drum music",
+      "value": 4
+    },
+    {
+      "name": "Drum (Instrument)",
+      "value": 4
+    },
+    {
+      "name": "Nigeria",
+      "value": 3
+    },
+    {
+      "name": "Education",
+      "value": 3
+    },
+    {
+      "name": "History",
+      "value": 3
+    },
+    {
+      "name": "Criticism",
+      "value": 3
+    },
+    {
+      "name": "Musical Meter",
+      "value": 3
+    },
+    {
+      "name": "Musical Rhythm",
+      "value": 3
+    },
+    {
+      "name": "Ewe (African people)",
+      "value": 3
+    },
+    {
+      "name": "Anlo (African people)",
+      "value": 3
+    },
+    {
+      "name": "Gender",
+      "value": 3
+    },
+    {
+      "name": "Ritual",
+      "value": 2
+    },
+    {
+      "name": "Cultural Heritage",
+      "value": 2
+    },
+    {
+      "name": "African Cultural Heritage",
+      "value": 2
+    },
+    {
+      "name": "Polyrhythm",
+      "value": 2
+    },
+    {
+      "name": "Belgian Congo",
+      "value": 2
+    },
+    {
+      "name": "Mozambique",
+      "value": 2
+    },
+    {
+      "name": "Songs",
+      "value": 2
+    },
+    {
+      "name": "Malawi",
+      "value": 2
+    },
+    {
+      "name": "South Africa",
+      "value": 2
+    },
+    {
+      "name": "Photographs",
+      "value": 1
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Yoruba (African people)--Religion",
+      "value": 1
+    },
+    {
+      "name": "Orisha religion",
+      "value": 1
+    },
+    {
+      "name": "Albums",
+      "value": 1
+    },
+    {
+      "name": "Shango",
+      "value": 1
+    },
+    {
+      "name": "Yoruba Art",
+      "value": 1
+    },
+    {
+      "name": "Orisha",
+      "value": 1
+    },
+    {
+      "name": "Orisha Art",
+      "value": 1
+    },
+    {
+      "name": "Yoruba Rituals",
+      "value": 1
+    },
+    {
+      "name": "Yoruba Rites",
+      "value": 1
+    },
+    {
+      "name": "Yoruba Ceremony",
+      "value": 1
+    },
+    {
+      "name": "Artists",
+      "value": 1
+    },
+    {
+      "name": "Ika (African people)",
+      "value": 1
+    },
+    {
+      "name": "The Mbari Club",
+      "value": 1
+    },
+    {
+      "name": "Ibadan",
+      "value": 1
+    },
+    {
+      "name": "Ritual Dance",
+      "value": 1
+    },
+    {
+      "name": "Cultural Centre",
+      "value": 1
+    },
+    {
+      "name": "Culture",
+      "value": 1
+    },
+    {
+      "name": "Children",
+      "value": 1
+    },
+    {
+      "name": "Educational Show",
+      "value": 1
+    },
+    {
+      "name": "Art",
+      "value": 1
+    },
+    {
+      "name": "Painting",
+      "value": 1
+    },
+    {
+      "name": "Live Music",
+      "value": 1
+    },
+    {
+      "name": "Entertainment",
+      "value": 1
+    },
+    {
+      "name": "Youth Entertainment",
+      "value": 1
+    },
+    {
+      "name": "Improvisation (Music)",
+      "value": 1
+    },
+    {
+      "name": "Initiation rites",
+      "value": 1
+    },
+    {
+      "name": "Mba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Idiophones",
+      "value": 1
+    },
+    {
+      "name": "Folk songs",
+      "value": 1
+    },
+    {
+      "name": "Tiv (African people)",
+      "value": 1
+    },
+    {
+      "name": "Musical Imitation",
+      "value": 1
+    },
+    {
+      "name": "Xylophone music",
+      "value": 1
+    },
+    {
+      "name": "Syncopation",
+      "value": 1
+    },
+    {
+      "name": "Xylophone",
+      "value": 1
+    },
+    {
+      "name": "Methods",
+      "value": 1
+    },
+    {
+      "name": "Interpretation",
+      "value": 1
+    },
+    {
+      "name": "Xylophone (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Folk dance music",
+      "value": 1
+    },
+    {
+      "name": "Barotseland (Northern Rhodesia)",
+      "value": 1
+    },
+    {
+      "name": "Dance companies",
+      "value": 1
+    },
+    {
+      "name": "Côte d'Ivoire",
+      "value": 1
+    },
+    {
+      "name": "Musicology",
+      "value": 1
+    },
+    {
+      "name": "Sound recordings",
+      "value": 1
+    },
+    {
+      "name": "Sound Reproducing",
+      "value": 1
+    },
+    {
+      "name": "Field Recording",
+      "value": 1
+    },
+    {
+      "name": "Mpiemo (African people)",
+      "value": 1
+    },
+    {
+      "name": "Central African Republic",
+      "value": 1
+    },
+    {
+      "name": "Republic of the Congo",
+      "value": 1
+    },
+    {
+      "name": "Percussion music",
+      "value": 1
+    },
+    {
+      "name": "Panpipes",
+      "value": 1
+    },
+    {
+      "name": "Makina (African people)",
+      "value": 1
+    },
+    {
+      "name": "Chopi (African people)",
+      "value": 1
+    },
+    {
+      "name": "Tonga (Zambezi people)",
+      "value": 1
+    },
+    {
+      "name": "Tswana (African people)",
+      "value": 1
+    },
+    {
+      "name": "Shona (African people)",
+      "value": 1
+    },
+    {
+      "name": "Luba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Southern Africa",
+      "value": 1
+    },
+    {
+      "name": "Reed Pipe (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Panpipe (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Tonga (Zambia)",
+      "value": 1
+    },
+    {
+      "name": "Botswana",
+      "value": 1
+    },
+    {
+      "name": "Zambia",
+      "value": 1
+    },
+    {
+      "name": "Rhodesia",
+      "value": 1
+    },
+    {
+      "name": "Zimbabwe",
+      "value": 1
+    },
+    {
+      "name": "Democratic Republic of the Congo",
+      "value": 1
+    },
+    {
+      "name": "Societies",
+      "value": 1
+    },
+    {
+      "name": "Social Life",
+      "value": 1
+    },
+    {
+      "name": "Social Customs",
+      "value": 1
+    },
+    {
+      "name": "Dance therapy",
+      "value": 1
+    },
+    {
+      "name": "Chokwe (African people)",
+      "value": 1
+    },
+    {
+      "name": "Angola",
+      "value": 1
+    },
+    {
+      "name": "Ganda (African people)",
+      "value": 1
+    },
+    {
+      "name": "Uganda",
+      "value": 1
+    },
+    {
+      "name": "Women",
+      "value": 1
+    },
+    {
+      "name": "Dagbon",
+      "value": 1
+    },
+    {
+      "name": "Tanzania",
+      "value": 1
+    },
+    {
+      "name": "Musical Performance",
+      "value": 1
+    },
+    {
+      "name": "Politics",
+      "value": 1
+    },
+    {
+      "name": "Democratisation",
+      "value": 1
+    },
+    {
+      "name": "Transcription",
+      "value": 1
+    },
+    {
+      "name": "Dinaka (Music)",
+      "value": 1
+    },
+    {
+      "name": "Pedi (Music)",
+      "value": 1
+    },
+    {
+      "name": "South African Music",
+      "value": 1
+    },
+    {
+      "name": "Drumming",
+      "value": 1
+    },
+    {
+      "name": "Pipe Ensembles",
+      "value": 1
+    },
+    {
+      "name": "Afrikaans",
+      "value": 1
+    },
+    {
+      "name": "Pretoria",
+      "value": 1
+    },
+    {
+      "name": "Pop Music",
+      "value": 1
+    },
+    {
+      "name": "Sokkie Dance",
+      "value": 1
+    },
+    {
+      "name": "Identity",
+      "value": 1
+    },
+    {
+      "name": "Protest Music",
+      "value": 1
+    },
+    {
+      "name": "Gorilla",
+      "value": 1
+    },
+    {
+      "name": "Equality",
+      "value": 1
+    },
+    {
+      "name": "Masquerades",
+      "value": 1
+    },
+    {
+      "name": "Esan (African people)",
+      "value": 1
+    },
+    {
+      "name": "Gender Roles",
+      "value": 1
+    },
+    {
+      "name": "Dance Repertoire",
+      "value": 1
+    },
+    {
+      "name": "Gender Stereotypes",
+      "value": 1
+    },
+    {
+      "name": "Dance Gestures",
+      "value": 1
+    },
+    {
+      "name": "Musicality",
+      "value": 1
+    },
+    {
+      "name": "Youth",
+      "value": 1
+    },
+    {
+      "name": "Local government",
+      "value": 1
+    },
+    {
+      "name": "Kwaito (Music)",
+      "value": 1
+    },
+    {
+      "name": "Amapiano (Music)",
+      "value": 1
+    },
+    {
+      "name": "Post-apartheid",
+      "value": 1
+    },
+    {
+      "name": "Township",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Government of Liberia",
+      "value": 7
+    },
+    {
+      "name": "Liberia Broadcasting System (LBS)",
+      "value": 5
+    },
+    {
+      "name": "Beier, Ulli",
+      "value": 4
+    },
+    {
+      "name": "Pantaleoni, Hewitt",
+      "value": 3
+    },
+    {
+      "name": "Greven, Katharina",
+      "value": 2
+    },
+    {
+      "name": "Ladzekpo, Kobla",
+      "value": 2
+    },
+    {
+      "name": "Brooks, Marie",
+      "value": 1
+    },
+    {
+      "name": "Richards, Aura",
+      "value": 1
+    },
+    {
+      "name": "Collins, Hawa Andrews",
+      "value": 1
+    },
+    {
+      "name": "Duo, Jefferson",
+      "value": 1
+    },
+    {
+      "name": "Wallo, James",
+      "value": 1
+    },
+    {
+      "name": "Sambula, Richard",
+      "value": 1
+    },
+    {
+      "name": "Steiner, Charles",
+      "value": 1
+    },
+    {
+      "name": "Urey, Khrushchev Borbor",
+      "value": 1
+    },
+    {
+      "name": "Taylor, Adolphus",
+      "value": 1
+    },
+    {
+      "name": "Fakay, Soko",
+      "value": 1
+    },
+    {
+      "name": "Wegee, Presley",
+      "value": 1
+    },
+    {
+      "name": "Eastman, John",
+      "value": 1
+    },
+    {
+      "name": "Brent, Julius",
+      "value": 1
+    },
+    {
+      "name": "Gilbert, Thomas",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 23
+    },
+    {
+      "country": "Liberia",
+      "region": "Montserrado County",
+      "city": "Monrovia",
+      "count": 7
+    },
+    {
+      "country": "Nigeria",
+      "region": "",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "Nigeria",
+      "region": "Osun State",
+      "city": "Osogbo",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b48e",
+      "titleInfo": [
+        {
+          "title": "Auseinandergeschnittener Kontaktabzug Shango-Performance der Yoruba"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-99-0006"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b49f",
+      "titleInfo": [
+        {
+          "title": "Agbor Tänzer im Mbari Artists and Writers Club in Ibadan"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0017"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4d9",
+      "titleInfo": [
+        {
+          "title": "Baba Lebes Tanzaufführung"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0051"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c6e",
+      "titleInfo": [
+        {
+          "title": "Special Broadcast: Marie Brooks Caribbean Dance Theatre"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0031"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1ca6",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0069"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1ca7",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-006a"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1ca8",
+      "titleInfo": [
+        {
+          "title": "Spotlight"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-006b"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cd6",
+      "titleInfo": [
+        {
+          "title": "Heritage Productions"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0099"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cd7",
+      "titleInfo": [
+        {
+          "title": "Heritage Productions  - Artists' Spotlight"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-009a"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d30",
+      "titleInfo": [
+        {
+          "title": "Just For You"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00f3"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9e9f0",
+      "titleInfo": [
+        {
+          "title": "Music of the Gold Coast"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-000b"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9e9f9",
+      "titleInfo": [
+        {
+          "title": "Notes on an idiophone used in Kabile initiation rites by the Mbae"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0014"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9e9fd",
+      "titleInfo": [
+        {
+          "title": "The music of Tiv"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0018"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea10",
+      "titleInfo": [
+        {
+          "title": "Some notes on a theory of African rhythm advanced by Erich von Hornbostel"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-002b"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eaab",
+      "titleInfo": [
+        {
+          "title": "Music of my people (II): dances in Barotseland"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00c6"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eacc",
+      "titleInfo": [
+        {
+          "title": "Dancers of the Ivory Coast"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00e7"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eaf6",
+      "titleInfo": [
+        {
+          "title": "Recording and studying music in Northern Mozambique. (With drawings and photograph by Helmut Hillegeist)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0111"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb28",
+      "titleInfo": [
+        {
+          "title": "Les anciennes danses des Mpyo"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0143"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb85",
+      "titleInfo": [
+        {
+          "title": "Takada drumming"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01a0"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb95",
+      "titleInfo": [
+        {
+          "title": "The nyanga panpipe dance"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01b0"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb9c",
+      "titleInfo": [
+        {
+          "title": "The social mechanics of good music: a description of dance clubs among the Anlo Ewe-speaking people of Ghana"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01b7"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eba7",
+      "titleInfo": [
+        {
+          "title": "Three principles of timing in Anlo dance drumming"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01c2"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eba8",
+      "titleInfo": [
+        {
+          "title": "Towards understanding the play of Atsimevu in Atsiã"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01c3"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ebb2",
+      "titleInfo": [
+        {
+          "title": "Vimbuza or Mashawe: mystic therapy"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01cd"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec4e",
+      "titleInfo": [
+        {
+          "title": "Musical instruments, songs and dances of the Chokwe (Dundo region, Lunda district, Angola)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0269"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec92",
+      "titleInfo": [
+        {
+          "title": "Baakisimba: Gender in the Music and Dance of the Baganda People of Uganda. Sylvia A. Nannyonga-Tamusuza, 2005. 294 pp., 13 figures, 19 plates. New York: Routledge (Current Research in Ethnomusicology Series). Jennifer C. post, series editor."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02ad"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed0b",
+      "titleInfo": [
+        {
+          "title": "Performing advocacy: women's music and dance in Dagbon, northern Ghana"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0326"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed14",
+      "titleInfo": [
+        {
+          "title": "A woman can sing and dance but cannot dance with high leaps: musical performance of the Haya of Bukoba, Tanzania"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-032f"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed1c",
+      "titleInfo": [
+        {
+          "title": "The Dance of Politics: Gender, Performance, and Democratization in Malawi. Lisa Gilman. 2009. Philadelphia: Temple University Press. 252 pp."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0337"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eda7",
+      "titleInfo": [
+        {
+          "title": "STUDY OF THE DINAKA PIPE DANCE OF THE PEDI PEOPLE IN SOUTH AFRICA"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03c2"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edbb",
+      "titleInfo": [
+        {
+          "title": "SOKKIE DANCING IN PRETORIA: POPULAR AFRIKAANS MUSIC, DANCE, AND IDENTITY"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03d6"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edd6",
+      "titleInfo": [
+        {
+          "title": "Investigating gender stereotypes and musicality in Esan, Edo State, Nigeria"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03f1"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edea",
+      "titleInfo": [
+        {
+          "title": "Kwaito as history"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0405"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "stauffer-e-o",
+    "name": "Stauffer, E. O.",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1965,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1965,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "Nigeria",
+      "value": 2
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Stephan, Klaus",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Munich",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "6705340c4b98fee5873b4418",
+      "titleInfo": [
+        {
+          "title": "Re: Distribution of the production \"TAIWO SHANGO\""
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-000b"
+    },
+    {
+      "_id": "6705340c4b98fee5873b444f",
+      "titleInfo": [
+        {
+          "title": "Re: Distribution of the production \"TAIWO SHANGO\""
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-0042"
+    }
+  ]
+}

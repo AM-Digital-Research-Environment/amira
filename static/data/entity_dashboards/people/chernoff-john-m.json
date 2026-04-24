@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "chernoff-john-m",
+    "name": "Chernoff, John M.",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1996,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1996,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Shona (African people)",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Shona (African people)",
+      "value": 1
+    },
+    {
+      "name": "Zimbabwe",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ec58",
+      "titleInfo": [
+        {
+          "title": "THREE KILOS OF COFFEE: AN AUTOBIOGRAPHY, by Manu Dibango, in collaboration with Danielle Rouard, translated by Beth G. Raps, University of Chicago Press, Chicago and London, 1994, 146pp, index, discography, photographs."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0273"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec6c",
+      "titleInfo": [
+        {
+          "title": "THE SOUL OF MBIRA TWENTY YEARS ON: A RETROSPECT, Part 2: THE SOUL OF MBIRA: MUSIC AND TRADITIONS OF THE SHONA PEOPLE OF ZIMBABWE, by Paul Berliner, University of Chicago Press, Chicago and London, 1994 (first published Univ. of California Press, Berkeley, 1978), 312pp, illustrations, transcriptions, appendices, index."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0287"
+    }
+  ]
+}

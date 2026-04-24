@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "pop-music",
+    "name": "Pop Music",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    },
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    },
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Afrikaans",
+      "value": 1
+    },
+    {
+      "name": "Pretoria",
+      "value": 1
+    },
+    {
+      "name": "Sokkie Dance",
+      "value": 1
+    },
+    {
+      "name": "Identity",
+      "value": 1
+    },
+    {
+      "name": "Protest Music",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Holtzhausen, Cornelius A.",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9edbb",
+      "titleInfo": [
+        {
+          "title": "SOKKIE DANCING IN PRETORIA: POPULAR AFRIKAANS MUSIC, DANCE, AND IDENTITY"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03d6"
+    }
+  ]
+}

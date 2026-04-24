@@ -1,0 +1,2986 @@
+{
+  "meta": {
+    "type": "genre",
+    "id": "picture",
+    "name": "picture",
+    "count": 133
+  },
+  "timeline": [
+    {
+      "year": 1970,
+      "count": 1
+    },
+    {
+      "year": 1979,
+      "count": 4
+    },
+    {
+      "year": 1980,
+      "count": 5
+    },
+    {
+      "year": 1984,
+      "count": 7
+    },
+    {
+      "year": 1985,
+      "count": 1
+    },
+    {
+      "year": 1987,
+      "count": 6
+    },
+    {
+      "year": 1990,
+      "count": 6
+    },
+    {
+      "year": 1992,
+      "count": 1
+    },
+    {
+      "year": 1995,
+      "count": 1
+    },
+    {
+      "year": 2002,
+      "count": 2
+    },
+    {
+      "year": 2003,
+      "count": 4
+    },
+    {
+      "year": 2005,
+      "count": 46
+    },
+    {
+      "year": 2006,
+      "count": 2
+    },
+    {
+      "year": 2014,
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "count": 10
+    },
+    {
+      "year": 2021,
+      "count": 22
+    },
+    {
+      "year": 2022,
+      "count": 11
+    },
+    {
+      "year": 2023,
+      "count": 3
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1970,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 1979,
+      "total": 4,
+      "byType": {
+        "Image": 4
+      }
+    },
+    {
+      "year": 1980,
+      "total": 5,
+      "byType": {
+        "Image": 5
+      }
+    },
+    {
+      "year": 1984,
+      "total": 7,
+      "byType": {
+        "Image": 7
+      }
+    },
+    {
+      "year": 1985,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 1987,
+      "total": 6,
+      "byType": {
+        "Image": 6
+      }
+    },
+    {
+      "year": 1990,
+      "total": 6,
+      "byType": {
+        "Image": 6
+      }
+    },
+    {
+      "year": 1992,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 1995,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 2002,
+      "total": 2,
+      "byType": {
+        "Image": 2
+      }
+    },
+    {
+      "year": 2003,
+      "total": 4,
+      "byType": {
+        "Image": 4
+      }
+    },
+    {
+      "year": 2005,
+      "total": 46,
+      "byType": {
+        "Image": 46
+      }
+    },
+    {
+      "year": 2006,
+      "total": 2,
+      "byType": {
+        "Image": 2
+      }
+    },
+    {
+      "year": 2014,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2020,
+      "total": 10,
+      "byType": {
+        "Image": 10
+      }
+    },
+    {
+      "year": 2021,
+      "total": 22,
+      "byType": {
+        "Image": 16,
+        "Moving image": 6
+      }
+    },
+    {
+      "year": 2022,
+      "total": 11,
+      "byType": {
+        "Image": 8,
+        "Text": 2,
+        "Dataset": 1
+      }
+    },
+    {
+      "year": 2023,
+      "total": 3,
+      "byType": {
+        "Image": 2,
+        "Multimedia": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 122
+    },
+    {
+      "name": "Moving image",
+      "value": 6
+    },
+    {
+      "name": "Text",
+      "value": 3
+    },
+    {
+      "name": "Dataset",
+      "value": 1
+    },
+    {
+      "name": "Multimedia",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 21
+    },
+    {
+      "name": "French",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Photography",
+      "value": 86
+    },
+    {
+      "name": "Anthropology",
+      "value": 86
+    },
+    {
+      "name": "Photographs",
+      "value": 86
+    },
+    {
+      "name": "Festivals",
+      "value": 10
+    },
+    {
+      "name": "COVID-19 (Disease)",
+      "value": 10
+    },
+    {
+      "name": "Transport workers",
+      "value": 10
+    },
+    {
+      "name": "West Africa",
+      "value": 10
+    },
+    {
+      "name": "Women",
+      "value": 10
+    },
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 10
+    },
+    {
+      "name": "Political rights",
+      "value": 10
+    },
+    {
+      "name": "Political participation",
+      "value": 10
+    },
+    {
+      "name": "Tuaregs",
+      "value": 9
+    },
+    {
+      "name": "Municipal engineering",
+      "value": 6
+    },
+    {
+      "name": "Construction",
+      "value": 6
+    },
+    {
+      "name": "Infrastructure (Economics)",
+      "value": 6
+    },
+    {
+      "name": "Jewelry",
+      "value": 5
+    },
+    {
+      "name": "History",
+      "value": 5
+    },
+    {
+      "name": "Migration",
+      "value": 5
+    },
+    {
+      "name": "Mosques",
+      "value": 3
+    },
+    {
+      "name": "Learning",
+      "value": 3
+    },
+    {
+      "name": "Animation (Cinematography)",
+      "value": 3
+    },
+    {
+      "name": "Children",
+      "value": 3
+    },
+    {
+      "name": "Child psychology",
+      "value": 3
+    },
+    {
+      "name": "Curriculum planning",
+      "value": 3
+    },
+    {
+      "name": "Musical instruments",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Photography",
+      "value": 86
+    },
+    {
+      "name": "Anthropology",
+      "value": 86
+    },
+    {
+      "name": "Photographs",
+      "value": 86
+    },
+    {
+      "name": "Sammlung Gerd Spittler",
+      "value": 86
+    },
+    {
+      "name": "African Studies",
+      "value": 19
+    },
+    {
+      "name": "Nigeria",
+      "value": 16
+    },
+    {
+      "name": "Lagos",
+      "value": 15
+    },
+    {
+      "name": "Knowledge",
+      "value": 15
+    },
+    {
+      "name": "Festivals",
+      "value": 10
+    },
+    {
+      "name": "COVID-19 (Disease)",
+      "value": 10
+    },
+    {
+      "name": "Transport workers",
+      "value": 10
+    },
+    {
+      "name": "Marketer",
+      "value": 10
+    },
+    {
+      "name": "COVID-19",
+      "value": 10
+    },
+    {
+      "name": "West Africa",
+      "value": 10
+    },
+    {
+      "name": "Immigration Studies",
+      "value": 10
+    },
+    {
+      "name": "Immigration",
+      "value": 10
+    },
+    {
+      "name": "Women",
+      "value": 10
+    },
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 10
+    },
+    {
+      "name": "Political rights",
+      "value": 10
+    },
+    {
+      "name": "Political participation",
+      "value": 10
+    },
+    {
+      "name": "Structural Barriers",
+      "value": 10
+    },
+    {
+      "name": "Political Barriers",
+      "value": 10
+    },
+    {
+      "name": "Politics",
+      "value": 10
+    },
+    {
+      "name": "Tuaregs",
+      "value": 9
+    },
+    {
+      "name": "Festkleidung",
+      "value": 8
+    },
+    {
+      "name": "Municipal engineering",
+      "value": 6
+    },
+    {
+      "name": "Construction",
+      "value": 6
+    },
+    {
+      "name": "Infrastructure (Economics)",
+      "value": 6
+    },
+    {
+      "name": "Marginalised Communities",
+      "value": 6
+    },
+    {
+      "name": "Infrastructure Development",
+      "value": 6
+    },
+    {
+      "name": "Municipal Road",
+      "value": 6
+    },
+    {
+      "name": "Kenya",
+      "value": 6
+    },
+    {
+      "name": "Verlassenes Dorf",
+      "value": 5
+    },
+    {
+      "name": "Jewelry",
+      "value": 5
+    },
+    {
+      "name": "History",
+      "value": 5
+    },
+    {
+      "name": "Migration",
+      "value": 5
+    },
+    {
+      "name": "Wüstung",
+      "value": 4
+    },
+    {
+      "name": "Deserted Settlements",
+      "value": 4
+    },
+    {
+      "name": "Tagelmust",
+      "value": 4
+    },
+    {
+      "name": "Turban",
+      "value": 4
+    },
+    {
+      "name": "Silberschmuck",
+      "value": 4
+    },
+    {
+      "name": "Mosques",
+      "value": 3
+    },
+    {
+      "name": "Jeweler",
+      "value": 3
+    },
+    {
+      "name": "Sandwüste",
+      "value": 3
+    },
+    {
+      "name": "Learning",
+      "value": 3
+    },
+    {
+      "name": "Animation (Cinematography)",
+      "value": 3
+    },
+    {
+      "name": "Children",
+      "value": 3
+    },
+    {
+      "name": "Child psychology",
+      "value": 3
+    },
+    {
+      "name": "Curriculum planning",
+      "value": 3
+    },
+    {
+      "name": "Bruchstein",
+      "value": 2
+    },
+    {
+      "name": "Musical instruments",
+      "value": 2
+    },
+    {
+      "name": "Flute",
+      "value": 2
+    },
+    {
+      "name": "Flute (Instrument)",
+      "value": 2
+    },
+    {
+      "name": "Chech",
+      "value": 2
+    },
+    {
+      "name": "Litham",
+      "value": 2
+    },
+    {
+      "name": "Islam",
+      "value": 2
+    },
+    {
+      "name": "Kreuz von Agadès",
+      "value": 2
+    },
+    {
+      "name": "Eröffnungsfeier",
+      "value": 2
+    },
+    {
+      "name": "Karawane",
+      "value": 2
+    },
+    {
+      "name": "Dromedar",
+      "value": 2
+    },
+    {
+      "name": "Aesthetics",
+      "value": 2
+    },
+    {
+      "name": "Tortoise",
+      "value": 2
+    },
+    {
+      "name": "Email",
+      "value": 1
+    },
+    {
+      "name": "Fundament",
+      "value": 1
+    },
+    {
+      "name": "Trockenmauer",
+      "value": 1
+    },
+    {
+      "name": "Rubblework",
+      "value": 1
+    },
+    {
+      "name": "Dry Stone Wall",
+      "value": 1
+    },
+    {
+      "name": "Ruined Settlements",
+      "value": 1
+    },
+    {
+      "name": "Gebetsplatz",
+      "value": 1
+    },
+    {
+      "name": "Gebetmusallas",
+      "value": 1
+    },
+    {
+      "name": "Laden",
+      "value": 1
+    },
+    {
+      "name": "Öffnungszeit",
+      "value": 1
+    },
+    {
+      "name": "Mitteilung",
+      "value": 1
+    },
+    {
+      "name": "Konsumgüterwerbung",
+      "value": 1
+    },
+    {
+      "name": "Grüner Tee",
+      "value": 1
+    },
+    {
+      "name": "Lutscher",
+      "value": 1
+    },
+    {
+      "name": "Süßigkeit",
+      "value": 1
+    },
+    {
+      "name": "Süßware",
+      "value": 1
+    },
+    {
+      "name": "Abstammung",
+      "value": 1
+    },
+    {
+      "name": "Manuskript",
+      "value": 1
+    },
+    {
+      "name": "Geschichte",
+      "value": 1
+    },
+    {
+      "name": "Ahnenforschung",
+      "value": 1
+    },
+    {
+      "name": "Genealogie",
+      "value": 1
+    },
+    {
+      "name": "Fächerpalme",
+      "value": 1
+    },
+    {
+      "name": "Flechtarbeit",
+      "value": 1
+    },
+    {
+      "name": "Make-up",
+      "value": 1
+    },
+    {
+      "name": "Gruppenbildnis",
+      "value": 1
+    },
+    {
+      "name": "Talisman",
+      "value": 1
+    },
+    {
+      "name": "Silberkapsel",
+      "value": 1
+    },
+    {
+      "name": "Kapsel",
+      "value": 1
+    },
+    {
+      "name": "Wettbewerb",
+      "value": 1
+    },
+    {
+      "name": "Preisgericht",
+      "value": 1
+    },
+    {
+      "name": "Preisrichter",
+      "value": 1
+    },
+    {
+      "name": "Zuschauer",
+      "value": 1
+    },
+    {
+      "name": "Goldschmuck",
+      "value": 1
+    },
+    {
+      "name": "Wadis",
+      "value": 1
+    },
+    {
+      "name": "Kunsthandwerk",
+      "value": 1
+    },
+    {
+      "name": "Silberschmied",
+      "value": 1
+    },
+    {
+      "name": "Schmiedehandwerk",
+      "value": 1
+    },
+    {
+      "name": "Lehm",
+      "value": 1
+    },
+    {
+      "name": "Ziegelherstellung",
+      "value": 1
+    },
+    {
+      "name": "Baustoff",
+      "value": 1
+    },
+    {
+      "name": "Brick",
+      "value": 1
+    },
+    {
+      "name": "Building Material",
+      "value": 1
+    },
+    {
+      "name": "Gespräch",
+      "value": 1
+    },
+    {
+      "name": "Hausbau",
+      "value": 1
+    },
+    {
+      "name": "Mauerarbeit",
+      "value": 1
+    },
+    {
+      "name": "Dattelpalme",
+      "value": 1
+    },
+    {
+      "name": "Essensvorschriften",
+      "value": 1
+    },
+    {
+      "name": "Rituelle Reinheit",
+      "value": 1
+    },
+    {
+      "name": "Schächten",
+      "value": 1
+    },
+    {
+      "name": "Halal",
+      "value": 1
+    },
+    {
+      "name": "Rituelle Schlachtung",
+      "value": 1
+    },
+    {
+      "name": "Maulid an-Nabi",
+      "value": 1
+    },
+    {
+      "name": "Feiertag",
+      "value": 1
+    },
+    {
+      "name": "Fest",
+      "value": 1
+    },
+    {
+      "name": "Prophet",
+      "value": 1
+    },
+    {
+      "name": "Braut",
+      "value": 1
+    },
+    {
+      "name": "Hochzeit",
+      "value": 1
+    },
+    {
+      "name": "Kopfschmuck",
+      "value": 1
+    },
+    {
+      "name": "Bride",
+      "value": 1
+    },
+    {
+      "name": "Halskette",
+      "value": 1
+    },
+    {
+      "name": "Pendant",
+      "value": 1
+    },
+    {
+      "name": "Armschmuck",
+      "value": 1
+    },
+    {
+      "name": "Perlenarbeit",
+      "value": 1
+    },
+    {
+      "name": "Schmuckherstellung",
+      "value": 1
+    },
+    {
+      "name": "Familienfotografie",
+      "value": 1
+    },
+    {
+      "name": "Familienbildnis",
+      "value": 1
+    },
+    {
+      "name": "Schneiderhandwerk",
+      "value": 1
+    },
+    {
+      "name": "Schneider",
+      "value": 1
+    },
+    {
+      "name": "Nähmaschine",
+      "value": 1
+    },
+    {
+      "name": "Werkstatt",
+      "value": 1
+    },
+    {
+      "name": "Hirseverarbeitung",
+      "value": 1
+    },
+    {
+      "name": "Mahlen",
+      "value": 1
+    },
+    {
+      "name": "Mortars",
+      "value": 1
+    },
+    {
+      "name": "Opferfest",
+      "value": 1
+    },
+    {
+      "name": "Religiöses Fest",
+      "value": 1
+    },
+    {
+      "name": "Id al Adha",
+      "value": 1
+    },
+    {
+      "name": "Feast",
+      "value": 1
+    },
+    {
+      "name": "Arts",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Scholars",
+      "value": 1
+    },
+    {
+      "name": "Popular Music Studies",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    },
+    {
+      "name": "Cultural Economy",
+      "value": 1
+    },
+    {
+      "name": "Actors",
+      "value": 1
+    },
+    {
+      "name": "Experience",
+      "value": 1
+    },
+    {
+      "name": "Cinema",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Collections@UBT",
+      "value": 86
+    },
+    {
+      "name": "Spittler, Gerd",
+      "value": 86
+    },
+    {
+      "name": "Attoh, Franca",
+      "value": 26
+    },
+    {
+      "name": "Eesuola, Kayode",
+      "value": 20
+    },
+    {
+      "name": "Eleshin, Abisoye",
+      "value": 18
+    },
+    {
+      "name": "Ademola-Adeoye, Feyisayo",
+      "value": 17
+    },
+    {
+      "name": "Yakubu, Moses",
+      "value": 16
+    },
+    {
+      "name": "Adebayo, Bukola",
+      "value": 16
+    },
+    {
+      "name": "Adeniran, Samuel",
+      "value": 16
+    },
+    {
+      "name": "Anyanwu, Beatrice",
+      "value": 16
+    },
+    {
+      "name": "Akintola, Folashade",
+      "value": 16
+    },
+    {
+      "name": "Olukuade, Tomide",
+      "value": 16
+    },
+    {
+      "name": "Ademola, Lydia",
+      "value": 16
+    },
+    {
+      "name": "Lawanson, Taibat",
+      "value": 15
+    },
+    {
+      "name": "Akin-Otiko, Akinmayowa",
+      "value": 10
+    },
+    {
+      "name": "Fayemi, Kazeem",
+      "value": 10
+    },
+    {
+      "name": "Olalekan, Damilola",
+      "value": 10
+    },
+    {
+      "name": "Oyewumi, Masudi",
+      "value": 10
+    },
+    {
+      "name": "Akinpelu, Deji",
+      "value": 5
+    },
+    {
+      "name": "Enitan, Adewale",
+      "value": 5
+    }
+  ],
+  "locations": [
+    {
+      "country": "Niger",
+      "region": "Agadez Region",
+      "city": "Timia",
+      "count": 58
+    },
+    {
+      "country": "Nigeria",
+      "region": "Lagos State",
+      "city": "Lagos",
+      "count": 29
+    },
+    {
+      "country": "Niger",
+      "region": "Agadez Region",
+      "city": "Iférouane",
+      "count": 21
+    },
+    {
+      "country": "Kenya",
+      "region": "Nairobi Province",
+      "city": "Nairobi",
+      "count": 4
+    },
+    {
+      "country": "Niger",
+      "region": "Agadez Region",
+      "city": "Ténéré",
+      "count": 3
+    },
+    {
+      "country": "Niger",
+      "region": "Maradi Region",
+      "city": "Tibiri",
+      "count": 2
+    },
+    {
+      "country": "Nigeria",
+      "region": "Kaduna State",
+      "city": "",
+      "count": 2
+    },
+    {
+      "country": "Nigeria",
+      "region": "Edo State",
+      "city": "",
+      "count": 2
+    },
+    {
+      "country": "Nigeria",
+      "region": "Ondo State",
+      "city": "",
+      "count": 2
+    },
+    {
+      "country": "Nigeria",
+      "region": "Enugu State",
+      "city": "Enugu",
+      "count": 2
+    },
+    {
+      "country": "Nigeria",
+      "region": "Oyo State",
+      "city": "Ibadan",
+      "count": 2
+    },
+    {
+      "country": "Nigeria",
+      "region": "Kaduna State",
+      "city": "Kaduna",
+      "count": 2
+    },
+    {
+      "country": "Germany",
+      "region": "",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "Niger",
+      "region": "Maradi Region",
+      "city": "Iyataoua",
+      "count": 1
+    },
+    {
+      "country": "Niger",
+      "region": "Maradi Region",
+      "city": "Tessaoua",
+      "count": 1
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "Centre",
+      "city": "Ouagadougou",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b506",
+      "titleInfo": [
+        {
+          "title": "Email an Autorin Rowland Abiodun"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-007e"
+    },
+    {
+      "_id": "66d97447c610a95a80dd9589",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0000"
+    },
+    {
+      "_id": "66d97447c610a95a80dd958a",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0001"
+    },
+    {
+      "_id": "66d97447c610a95a80dd958b",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0002"
+    },
+    {
+      "_id": "66d97447c610a95a80dd958c",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0003"
+    },
+    {
+      "_id": "66d97447c610a95a80dd958d",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0004"
+    },
+    {
+      "_id": "66d97447c610a95a80dd958e",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0005"
+    },
+    {
+      "_id": "66d97447c610a95a80dd958f",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0006"
+    },
+    {
+      "_id": "66d97447c610a95a80dd9590",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0007"
+    },
+    {
+      "_id": "66d97447c610a95a80dd9591",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0008"
+    },
+    {
+      "_id": "66d97447c610a95a80dd9592",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0009"
+    },
+    {
+      "_id": "66d97447c610a95a80dd9593",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-000a"
+    },
+    {
+      "_id": "66d97447c610a95a80dd9594",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-000b"
+    },
+    {
+      "_id": "66d97447c610a95a80dd9595",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-000c"
+    },
+    {
+      "_id": "66d97447c610a95a80dd9596",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-000d"
+    },
+    {
+      "_id": "66d97447c610a95a80dd9597",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-000e"
+    },
+    {
+      "_id": "66d97447c610a95a80dd9598",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-000f"
+    },
+    {
+      "_id": "66d97447c610a95a80dd9599",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0010"
+    },
+    {
+      "_id": "66d97447c610a95a80dd959a",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0011"
+    },
+    {
+      "_id": "66d97447c610a95a80dd959b",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0012"
+    },
+    {
+      "_id": "66d97447c610a95a80dd959c",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0013"
+    },
+    {
+      "_id": "66d97447c610a95a80dd959d",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0014"
+    },
+    {
+      "_id": "66d97447c610a95a80dd959e",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0015"
+    },
+    {
+      "_id": "66d97447c610a95a80dd959f",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0016"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95a0",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0017"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95a1",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0018"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95a2",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0019"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95a3",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-001a"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95a4",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-001b"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95a5",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-001c"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95a6",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-001d"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95a7",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-001e"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95a8",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-001f"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95a9",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0020"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95aa",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0021"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95ab",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0022"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95ac",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0023"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95ad",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0024"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95ae",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0025"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95af",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0026"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95b0",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0027"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95b1",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0028"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95b2",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0029"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95b3",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-002a"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95b4",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-002b"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95b5",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-002c"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95b6",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-002d"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95b7",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-002e"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95b8",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-002f"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95b9",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0030"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95ba",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0031"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95bb",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0032"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95bc",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0033"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95bd",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0034"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95be",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0035"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95bf",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0036"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95c0",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0037"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95c1",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0038"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95c2",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0039"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95c3",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-003a"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95c4",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-003b"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95c5",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-003c"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95c6",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-003d"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95c7",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-003e"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95c8",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-003f"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95c9",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0040"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95ca",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0041"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95cb",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0042"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95cc",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0043"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95cd",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0044"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95ce",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0045"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95cf",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0046"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95d0",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0047"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95d1",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0048"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95d2",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0049"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95d3",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-004a"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95d4",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-004b"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95d5",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-004c"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95d6",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-004d"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95d7",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-004e"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95d8",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-004f"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95d9",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0050"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95da",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0051"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95db",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0052"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95dc",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0053"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95dd",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0054"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95de",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0055"
+    },
+    {
+      "_id": "66c85ad6f75816be2871ce67",
+      "titleInfo": [
+        {
+          "title": "Field Trip Picture"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_AfEnt2020",
+        "name": "Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment"
+      },
+      "dre_id": "aah-02-0008"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86a2",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Image 1, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-0003"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86a3",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Image 2, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-0004"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86a4",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Image 3, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-0005"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86a5",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Image 4, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-0006"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86a6",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Image 5, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-0007"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86a7",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Image 6, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-0008"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86a8",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Image 7, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-0009"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86a9",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Image 8, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-000a"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86aa",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Image 9, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-000b"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86ab",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Image 10, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-000c"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86bb",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Workshop Picture 1"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-0006"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86bc",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Workshop Picture 2"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-0007"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86bd",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Picture 3"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-0008"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86be",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Picture 4"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-0009"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86bf",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Picture 5"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-000a"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0db",
+      "titleInfo": [
+        {
+          "title": "A Togolese woman sells Togolese food at Missebo market, Benin Republic"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-0004"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0dc",
+      "titleInfo": [
+        {
+          "title": "Copy of Etoile Rouge, Cotonou, Benin Republic"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-0005"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0dd",
+      "titleInfo": [
+        {
+          "title": "Photo of a market in cotonou, Benin Republic"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-0006"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0de",
+      "titleInfo": [
+        {
+          "title": "Presentation of the initial findings of the project"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-0007"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0df",
+      "titleInfo": [
+        {
+          "title": "Photo of Shrine, brought by Benin Republic migrants to Lagos"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-0008"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0e2",
+      "titleInfo": [
+        {
+          "title": "Mobility route of West Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-000b"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0e3",
+      "titleInfo": [
+        {
+          "title": "Some migrants at Ajegunle, Ikorodu, Lagos"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-000c"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0e4",
+      "titleInfo": [
+        {
+          "title": "Lagos Immigration Map"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-000d"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0e5",
+      "titleInfo": [
+        {
+          "title": "Photo of Makoko Community, Lagos"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-000e"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0e6",
+      "titleInfo": [
+        {
+          "title": "Transnational Routes in West Africa"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-000f"
+    },
+    {
+      "_id": "6718f59ac327cde4b57d86cc",
+      "titleInfo": [
+        {
+          "title": "Image on Municipal Road Construction in Kenya and Nigeria: The Politics of Infrastructure Development (Image taken in Kaduna)"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_MRC2021",
+        "name": "Municipal Road Construction in Kenya and Nigeria: Investigating the Politics of Infrastructure Development"
+      },
+      "dre_id": "aac-02-0007"
+    },
+    {
+      "_id": "6718f59ac327cde4b57d86cd",
+      "titleInfo": [
+        {
+          "title": "Municipal Road Construction in Kenya and Nigeria: The Politics of Infrastructure Development (Image 2 taken in Kaduna)"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_MRC2021",
+        "name": "Municipal Road Construction in Kenya and Nigeria: Investigating the Politics of Infrastructure Development"
+      },
+      "dre_id": "aac-02-0008"
+    },
+    {
+      "_id": "6718f59ac327cde4b57d86ce",
+      "titleInfo": [
+        {
+          "title": "Municipal Road Construction in Kenya and Nigeria: The Politics of Infrastructure Development (Image 1 taken in, Benin Edo)"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_MRC2021",
+        "name": "Municipal Road Construction in Kenya and Nigeria: Investigating the Politics of Infrastructure Development"
+      },
+      "dre_id": "aac-02-0009"
+    },
+    {
+      "_id": "6718f59ac327cde4b57d86cf",
+      "titleInfo": [
+        {
+          "title": "Image on Municipal Road Construction in Kenya and Nigeria: The Politics of Infrastructure Development (Image 2, Benin Edo)"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_MRC2021",
+        "name": "Municipal Road Construction in Kenya and Nigeria: Investigating the Politics of Infrastructure Development"
+      },
+      "dre_id": "aac-02-000a"
+    },
+    {
+      "_id": "6718f59ac327cde4b57d86d0",
+      "titleInfo": [
+        {
+          "title": "Municipal Road Construction in Kenya and Nigeria: The Politics of Infrastructure Development (Image 1, Akure Ondo State)"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_MRC2021",
+        "name": "Municipal Road Construction in Kenya and Nigeria: Investigating the Politics of Infrastructure Development"
+      },
+      "dre_id": "aac-02-000b"
+    },
+    {
+      "_id": "6718f59ac327cde4b57d86d1",
+      "titleInfo": [
+        {
+          "title": "Municipal Road Construction in Kenya and Nigeria: The Politics of Infrastructure Development (Image 2, Akure Ondo State)"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_MRC2021",
+        "name": "Municipal Road Construction in Kenya and Nigeria: Investigating the Politics of Infrastructure Development"
+      },
+      "dre_id": "aac-02-000c"
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86da",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Image 1 of Respondent taken during the Field Work in Enugu"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-0001"
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86db",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Image 2 of Respondent taken during the Field Work in Enugu"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-0002"
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86dc",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Image 1 of Political Respondent taken during the Field Work in Ibadan"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-0003"
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86dd",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Image 2 of Political Respondent taken during the Field Work in Ibadan"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-0004"
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86de",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Image 1 of Political Respondent taken during the Field Work in Kaduna"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-0005"
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86df",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Image 2 of Political Respondent taken during the Field Work in Kaduna"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-0006"
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86e0",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Image 1 of Political Respondent taken during the Field Work in Nairobi"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-0007"
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86e1",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Image 2 of Political Respondent taken during the Field Work in Nairobi"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-0008"
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86e2",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Image 3 of Political Respondent taken during the Field Work in Nairobi"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-0009"
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86e3",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Image 4 of Political Respondent taken during the Field Work in Nairobi"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-000a"
+    },
+    {
+      "_id": "66c71c3d22a01f1d1ea08ee5",
+      "titleInfo": [
+        {
+          "title": "Digitising Folktales for Animation and Value Education - Igboho Field Location Image"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_YoruFolk2020",
+        "name": "Regenerating Non-Formal Learning in Africa: Digitizing Yoruba Folktales for Animation and Value Education"
+      },
+      "dre_id": "aag-02-0000"
+    },
+    {
+      "_id": "66c71c3d22a01f1d1ea08ee6",
+      "titleInfo": [
+        {
+          "title": "Digitising Folktales for Animation and Value Education - Oshogbo Field Location Image"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_YoruFolk2020",
+        "name": "Regenerating Non-Formal Learning in Africa: Digitizing Yoruba Folktales for Animation and Value Education"
+      },
+      "dre_id": "aag-02-0001"
+    },
+    {
+      "_id": "66c71c3d22a01f1d1ea08ee7",
+      "titleInfo": [
+        {
+          "title": "Digitising Folktales for Animation and Value Education - Ilase Field Location Image"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_YoruFolk2020",
+        "name": "Regenerating Non-Formal Learning in Africa: Digitizing Yoruba Folktales for Animation and Value Education"
+      },
+      "dre_id": "aag-02-0002"
+    },
+    {
+      "_id": "69bd30d762fdff17d6fc73ea",
+      "titleInfo": [
+        {
+          "title": "Images de l'enquête"
+        }
+      ],
+      "typeOfResource": "Multimedia",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0040"
+    }
+  ]
+}

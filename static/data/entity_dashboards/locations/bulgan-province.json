@@ -1,0 +1,304 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "bulgan-province",
+    "name": "Bulgan Province",
+    "count": 8
+  },
+  "timeline": [
+    {
+      "year": 2021,
+      "count": 4
+    },
+    {
+      "year": 2022,
+      "count": 3
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2021,
+      "total": 4,
+      "byType": {
+        "Text": 4
+      }
+    },
+    {
+      "year": 2022,
+      "total": 3,
+      "byType": {
+        "Text": 3
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 8
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 8
+    },
+    {
+      "name": "Mongolian",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Herders",
+      "value": 7
+    },
+    {
+      "name": "Arid regions",
+      "value": 6
+    },
+    {
+      "name": "Schools",
+      "value": 4
+    },
+    {
+      "name": "Livestock",
+      "value": 3
+    },
+    {
+      "name": "Weather",
+      "value": 3
+    },
+    {
+      "name": "Travel",
+      "value": 2
+    },
+    {
+      "name": "Vaccination",
+      "value": 2
+    },
+    {
+      "name": "Education",
+      "value": 2
+    },
+    {
+      "name": "Prices",
+      "value": 2
+    },
+    {
+      "name": "Youth",
+      "value": 2
+    },
+    {
+      "name": "Food security",
+      "value": 2
+    },
+    {
+      "name": "Local government",
+      "value": 2
+    },
+    {
+      "name": "Households",
+      "value": 1
+    },
+    {
+      "name": "Democracy",
+      "value": 1
+    },
+    {
+      "name": "Elections",
+      "value": 1
+    },
+    {
+      "name": "Festivals",
+      "value": 1
+    },
+    {
+      "name": "Subsidies",
+      "value": 1
+    },
+    {
+      "name": "Agriculture",
+      "value": 1
+    },
+    {
+      "name": "Communication",
+      "value": 1
+    },
+    {
+      "name": "Religion",
+      "value": 1
+    },
+    {
+      "name": "Hygiene",
+      "value": 1
+    },
+    {
+      "name": "Grazing",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Mongolia",
+      "value": 8
+    },
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 8
+    },
+    {
+      "name": "Herders",
+      "value": 7
+    },
+    {
+      "name": "Arid regions",
+      "value": 6
+    },
+    {
+      "name": "Lockdown",
+      "value": 5
+    },
+    {
+      "name": "Schools",
+      "value": 4
+    },
+    {
+      "name": "Pastoralist",
+      "value": 3
+    },
+    {
+      "name": "Livestock",
+      "value": 3
+    },
+    {
+      "name": "Weather",
+      "value": 3
+    },
+    {
+      "name": "Travel",
+      "value": 2
+    },
+    {
+      "name": "Mobility",
+      "value": 2
+    },
+    {
+      "name": "Vaccination",
+      "value": 2
+    },
+    {
+      "name": "Education",
+      "value": 2
+    },
+    {
+      "name": "Prices",
+      "value": 2
+    },
+    {
+      "name": "Youth",
+      "value": 2
+    },
+    {
+      "name": "Food security",
+      "value": 2
+    },
+    {
+      "name": "Local government",
+      "value": 2
+    },
+    {
+      "name": "Funeral Custom",
+      "value": 2
+    },
+    {
+      "name": "Funeral Rite",
+      "value": 2
+    },
+    {
+      "name": "Households",
+      "value": 1
+    },
+    {
+      "name": "COVID-19",
+      "value": 1
+    },
+    {
+      "name": "Democracy",
+      "value": 1
+    },
+    {
+      "name": "Elections",
+      "value": 1
+    },
+    {
+      "name": "Festivals",
+      "value": 1
+    },
+    {
+      "name": "Tsagaan Sar",
+      "value": 1
+    },
+    {
+      "name": "Naadam",
+      "value": 1
+    },
+    {
+      "name": "Subsidies",
+      "value": 1
+    },
+    {
+      "name": "Household Income",
+      "value": 1
+    },
+    {
+      "name": "Agriculture",
+      "value": 1
+    },
+    {
+      "name": "Communication",
+      "value": 1
+    },
+    {
+      "name": "Religion",
+      "value": 1
+    },
+    {
+      "name": "Hygiene",
+      "value": 1
+    },
+    {
+      "name": "Border",
+      "value": 1
+    },
+    {
+      "name": "Trade Practices",
+      "value": 1
+    },
+    {
+      "name": "Trade Regulations",
+      "value": 1
+    },
+    {
+      "name": "Energy Shortages",
+      "value": 1
+    },
+    {
+      "name": "Grazing",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Batjav, Batbuyan",
+      "value": 8
+    },
+    {
+      "name": "Amarbat, Byambasuren",
+      "value": 6
+    },
+    {
+      "name": "Baasankhorloo, Ts",
+      "value": 5
+    }
+  ]
+}

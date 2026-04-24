@@ -1,0 +1,269 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "medicine",
+    "name": "Medicine",
+    "count": 7
+  },
+  "timeline": [
+    {
+      "year": 1988,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1988,
+      "total": 1,
+      "byType": {
+        "Moving image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Moving image",
+      "value": 7
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 7
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Education",
+      "value": 6
+    },
+    {
+      "name": "Health",
+      "value": 5
+    },
+    {
+      "name": "Leprosy",
+      "value": 1
+    },
+    {
+      "name": "Religion",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Education",
+      "value": 6
+    },
+    {
+      "name": "Health",
+      "value": 5
+    },
+    {
+      "name": "HIV/AIDS",
+      "value": 2
+    },
+    {
+      "name": "Leprosy",
+      "value": 1
+    },
+    {
+      "name": "Environment",
+      "value": 1
+    },
+    {
+      "name": "Religion",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Government of Liberia",
+      "value": 7
+    },
+    {
+      "name": "Urey, Khrushchev Borbor",
+      "value": 5
+    },
+    {
+      "name": "Blidi, Francis Pupo",
+      "value": 4
+    },
+    {
+      "name": "Gilbert, Thomas",
+      "value": 4
+    },
+    {
+      "name": "Mensah, Sam",
+      "value": 3
+    },
+    {
+      "name": "McCrumada, Charles",
+      "value": 3
+    },
+    {
+      "name": "Eastman, John",
+      "value": 3
+    },
+    {
+      "name": "Taylor, Adolphus",
+      "value": 2
+    },
+    {
+      "name": "Brent, Julius",
+      "value": 2
+    },
+    {
+      "name": "Dunna, S. Folley",
+      "value": 1
+    },
+    {
+      "name": "Ghys, Peter",
+      "value": 1
+    },
+    {
+      "name": "Chitimba, Nicholas",
+      "value": 1
+    },
+    {
+      "name": "Taylor, Sen. H. Q.",
+      "value": 1
+    },
+    {
+      "name": "Belleh, Martha Sandolo",
+      "value": 1
+    },
+    {
+      "name": "Walker, Rev. Jeremiah W.",
+      "value": 1
+    },
+    {
+      "name": "Morgan, Thelma",
+      "value": 1
+    },
+    {
+      "name": "Walker, Florence K.",
+      "value": 1
+    },
+    {
+      "name": "Bowman, Joseph Jr.",
+      "value": 1
+    },
+    {
+      "name": "Zonoe, Daniel",
+      "value": 1
+    },
+    {
+      "name": "Zor, David",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Liberia",
+      "region": "Montserrado County",
+      "city": "Monrovia",
+      "count": 7
+    }
+  ],
+  "items": [
+    {
+      "_id": "6982337057a8e0353b0b1cce",
+      "titleInfo": [
+        {
+          "title": "Roadways to Health"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0091"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1ccf",
+      "titleInfo": [
+        {
+          "title": "Roadways to Health"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0092"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cd0",
+      "titleInfo": [
+        {
+          "title": "Spotlight"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0093"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cd3",
+      "titleInfo": [
+        {
+          "title": "Roadways to Health"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0096"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cd5",
+      "titleInfo": [
+        {
+          "title": "Roadways to Health"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0098"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d03",
+      "titleInfo": [
+        {
+          "title": "Traditional Medicine in Africa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00c6"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1de0",
+      "titleInfo": [
+        {
+          "title": "AIDS: South African Chamber of Mines Educational Video"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-01a3"
+    }
+  ]
+}

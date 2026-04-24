@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "type": "genre",
+    "id": "felt-tip-pens",
+    "name": "Felt-tip pens",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1995,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1995,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Art",
+      "value": 1
+    },
+    {
+      "name": "Photographs",
+      "value": 1
+    },
+    {
+      "name": "Artists",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Art",
+      "value": 1
+    },
+    {
+      "name": "Photographs",
+      "value": 1
+    },
+    {
+      "name": "Artists",
+      "value": 1
+    },
+    {
+      "name": "Papua New Guinea",
+      "value": 1
+    },
+    {
+      "name": "New Guinea",
+      "value": 1
+    },
+    {
+      "name": "Cultural Centre",
+      "value": 1
+    },
+    {
+      "name": "Performing Arts Center",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Beier, Ulli",
+      "value": 1
+    },
+    {
+      "name": "Greven, Katharina",
+      "value": 1
+    },
+    {
+      "name": "Kauage, Mathias",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Papua New Guinea",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b4c2",
+      "titleInfo": [
+        {
+          "title": "Mathias Kauage vor einer seiner Zeichnungen"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-003a"
+    }
+  ]
+}

@@ -1,0 +1,865 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "bayreuth",
+    "name": "Bayreuth",
+    "count": 25
+  },
+  "timeline": [
+    {
+      "year": 1936,
+      "count": 1
+    },
+    {
+      "year": 1984,
+      "count": 2
+    },
+    {
+      "year": 1992,
+      "count": 1
+    },
+    {
+      "year": 2007,
+      "count": 1
+    },
+    {
+      "year": 2008,
+      "count": 1
+    },
+    {
+      "year": 2013,
+      "count": 1
+    },
+    {
+      "year": 2015,
+      "count": 2
+    },
+    {
+      "year": 2017,
+      "count": 3
+    },
+    {
+      "year": 2020,
+      "count": 10
+    },
+    {
+      "year": 2023,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1936,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 1984,
+      "total": 2,
+      "byType": {
+        "Image": 2
+      }
+    },
+    {
+      "year": 1992,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2007,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2008,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2013,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 2015,
+      "total": 2,
+      "byType": {
+        "Digital": 2
+      }
+    },
+    {
+      "year": 2017,
+      "total": 3,
+      "byType": {
+        "Text": 2,
+        "Image": 1
+      }
+    },
+    {
+      "year": 2020,
+      "total": 10,
+      "byType": {
+        "Image": 10
+      }
+    },
+    {
+      "year": 2023,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 17
+    },
+    {
+      "name": "Text",
+      "value": 6
+    },
+    {
+      "name": "Digital",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "value": 24
+    },
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Racism",
+      "value": 12
+    },
+    {
+      "name": "National socialism",
+      "value": 5
+    },
+    {
+      "name": "History",
+      "value": 5
+    },
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Culture",
+      "value": 2
+    },
+    {
+      "name": "Slavery",
+      "value": 2
+    },
+    {
+      "name": "Science",
+      "value": 2
+    },
+    {
+      "name": "Antisemitism",
+      "value": 2
+    },
+    {
+      "name": "Jews",
+      "value": 2
+    },
+    {
+      "name": "International trade",
+      "value": 1
+    },
+    {
+      "name": "Cotton",
+      "value": 1
+    },
+    {
+      "name": "Subconsciousness",
+      "value": 1
+    },
+    {
+      "name": "Postcolonialism",
+      "value": 1
+    },
+    {
+      "name": "Nobility",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Racism",
+      "value": 12
+    },
+    {
+      "name": "Daily Racism",
+      "value": 12
+    },
+    {
+      "name": "Local Press",
+      "value": 12
+    },
+    {
+      "name": "Language",
+      "value": 9
+    },
+    {
+      "name": "Colonialism",
+      "value": 6
+    },
+    {
+      "name": "Tradition",
+      "value": 6
+    },
+    {
+      "name": "National socialism",
+      "value": 5
+    },
+    {
+      "name": "History",
+      "value": 5
+    },
+    {
+      "name": "Memory Culture",
+      "value": 5
+    },
+    {
+      "name": "Race Theory",
+      "value": 4
+    },
+    {
+      "name": "M*wäscherverein",
+      "value": 4
+    },
+    {
+      "name": "Carnival Society",
+      "value": 4
+    },
+    {
+      "name": "Local History",
+      "value": 4
+    },
+    {
+      "name": "Richard Wagner",
+      "value": 3
+    },
+    {
+      "name": "Houston Stewart Chamberlain",
+      "value": 3
+    },
+    {
+      "name": "Society",
+      "value": 3
+    },
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Heimatgeschichte",
+      "value": 2
+    },
+    {
+      "name": "Kallenberghaus",
+      "value": 2
+    },
+    {
+      "name": "Culture",
+      "value": 2
+    },
+    {
+      "name": "Slavery",
+      "value": 2
+    },
+    {
+      "name": "Alzire of Bayreuth",
+      "value": 2
+    },
+    {
+      "name": "Wilhelmine",
+      "value": 2
+    },
+    {
+      "name": "Neues Schloss Bayreuth",
+      "value": 2
+    },
+    {
+      "name": "Suriname",
+      "value": 2
+    },
+    {
+      "name": "Science",
+      "value": 2
+    },
+    {
+      "name": "Antisemitism",
+      "value": 2
+    },
+    {
+      "name": "Jews",
+      "value": 2
+    },
+    {
+      "name": "World War II",
+      "value": 2
+    },
+    {
+      "name": "Holocaust",
+      "value": 2
+    },
+    {
+      "name": "International trade",
+      "value": 1
+    },
+    {
+      "name": "Cotton",
+      "value": 1
+    },
+    {
+      "name": "Global History",
+      "value": 1
+    },
+    {
+      "name": "Wagnerianismus",
+      "value": 1
+    },
+    {
+      "name": "Geschichtswerkstatt",
+      "value": 1
+    },
+    {
+      "name": "History Workshop",
+      "value": 1
+    },
+    {
+      "name": "Subconsciousness",
+      "value": 1
+    },
+    {
+      "name": "Postcolonialism",
+      "value": 1
+    },
+    {
+      "name": "Cultural Heritage",
+      "value": 1
+    },
+    {
+      "name": "Asylum",
+      "value": 1
+    },
+    {
+      "name": "Agency",
+      "value": 1
+    },
+    {
+      "name": "Nobility",
+      "value": 1
+    },
+    {
+      "name": "Margrave",
+      "value": 1
+    },
+    {
+      "name": "Barock",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Researcher",
+      "value": 1
+    },
+    {
+      "name": "Mombasa Island",
+      "value": 1
+    },
+    {
+      "name": "Expedition",
+      "value": 1
+    },
+    {
+      "name": "Festspiele",
+      "value": 1
+    },
+    {
+      "name": "City Walk",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Waha, Eric",
+      "value": 2
+    },
+    {
+      "name": "Aas, Norbert",
+      "value": 2
+    },
+    {
+      "name": "Eschenbacher, Ute",
+      "value": 1
+    },
+    {
+      "name": "Unterburger, Florian",
+      "value": 1
+    },
+    {
+      "name": "Koepsell, Philipp Khabo",
+      "value": 1
+    },
+    {
+      "name": "Gräfe, Thomas",
+      "value": 1
+    },
+    {
+      "name": "Jahrbuch für Antisemitismusforschung",
+      "value": 1
+    },
+    {
+      "name": "Dippold, Günther",
+      "value": 1
+    },
+    {
+      "name": "Tensing, Patrizia",
+      "value": 1
+    },
+    {
+      "name": "Busster, Henry",
+      "value": 1
+    },
+    {
+      "name": "Stiefler, Herlmut",
+      "value": 1
+    },
+    {
+      "name": "Düngferlder, Siggi",
+      "value": 1
+    },
+    {
+      "name": "Arndt, Susan",
+      "value": 1
+    },
+    {
+      "name": "Redaktion",
+      "value": 1
+    },
+    {
+      "name": "Rothammel, Demian",
+      "value": 1
+    },
+    {
+      "name": "Söllner, Fritz",
+      "value": 1
+    },
+    {
+      "name": "Schmedt, Silas",
+      "value": 1
+    },
+    {
+      "name": "Krumpholz, Uwe",
+      "value": 1
+    },
+    {
+      "name": "Springfeld, Lars",
+      "value": 1
+    },
+    {
+      "name": "Haggeney, Henrike",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 15
+    },
+    {
+      "country": "Germany",
+      "region": "",
+      "city": "",
+      "count": 7
+    },
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "692db49707481a28c72155a9",
+      "titleInfo": [
+        {
+          "title": "Baumwollspinnerei: Gründung mit Kolonialkapital"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0001"
+    },
+    {
+      "_id": "692db49707481a28c72155ab",
+      "titleInfo": [
+        {
+          "title": "Zukunftsmusik"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-99-0003"
+    },
+    {
+      "_id": "692db49707481a28c72155ad",
+      "titleInfo": [
+        {
+          "title": "Der entnazifizierte chamberlain und der nazifizierte Wagner"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0005"
+    },
+    {
+      "_id": "692db49707481a28c72155b3",
+      "titleInfo": [
+        {
+          "title": "Bayreuth stellt sich der Geschichte"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-000b"
+    },
+    {
+      "_id": "692db49707481a28c72155b4",
+      "titleInfo": [
+        {
+          "title": "Erinnerung direkt am Ort des Hasses"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-000c"
+    },
+    {
+      "_id": "692db49707481a28c72155b8",
+      "titleInfo": [
+        {
+          "title": "M*wäscherverein: Umstrittener Vereinsname"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0010"
+    },
+    {
+      "_id": "692db49707481a28c72155b9",
+      "titleInfo": [
+        {
+          "title": "Zutiefst verletzt"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0011"
+    },
+    {
+      "_id": "692db49707481a28c72155ba",
+      "titleInfo": [
+        {
+          "title": "Die Kirche im Dorf lassen"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0012"
+    },
+    {
+      "_id": "692db49707481a28c72155bb",
+      "titleInfo": [
+        {
+          "title": "Gesellschaft sollte durch Floskeln nicht verblöden"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0013"
+    },
+    {
+      "_id": "692db49707481a28c72155bc",
+      "titleInfo": [
+        {
+          "title": "Nachdenken über Denkmäler"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0014"
+    },
+    {
+      "_id": "692db49707481a28c72155bd",
+      "titleInfo": [
+        {
+          "title": "Unbewusst ist jeder ein Rassist"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0015"
+    },
+    {
+      "_id": "692db49707481a28c72155c0",
+      "titleInfo": [
+        {
+          "title": "Protest gegen den Abbruch des Kallenberghauses"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0018"
+    },
+    {
+      "_id": "692db49707481a28c72155c1",
+      "titleInfo": [
+        {
+          "title": "Institution der Nacht: Die Mohre lebt"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0019"
+    },
+    {
+      "_id": "692db49707481a28c72155c2",
+      "titleInfo": [
+        {
+          "title": "Wir müssen reden"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-001a"
+    },
+    {
+      "_id": "692db49707481a28c72155c3",
+      "titleInfo": [
+        {
+          "title": "Hin zur Sprachpolizei"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-001b"
+    },
+    {
+      "_id": "692db49707481a28c72155c4",
+      "titleInfo": [
+        {
+          "title": "Lasst und reden!"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-001c"
+    },
+    {
+      "_id": "692db49707481a28c72155c5",
+      "titleInfo": [
+        {
+          "title": "Bayreuther Hinterlist"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-001d"
+    },
+    {
+      "_id": "692db49707481a28c72155c6",
+      "titleInfo": [
+        {
+          "title": "Alzire of Bayreuth"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-99-001e"
+    },
+    {
+      "_id": "692db49707481a28c72155c8",
+      "titleInfo": [
+        {
+          "title": "Ausstellungstext: Alzire of Bayreuth"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0020"
+    },
+    {
+      "_id": "692db49707481a28c72155c9",
+      "titleInfo": [
+        {
+          "title": "Der Pauker Christian Ferdinand"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0021"
+    },
+    {
+      "_id": "692db49707481a28c72155ca",
+      "titleInfo": [
+        {
+          "title": "Dr. Döring - ein Afrikaforscher in Bayreuth Teil I und II"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0022"
+    },
+    {
+      "_id": "692db49707481a28c72155cb",
+      "titleInfo": [
+        {
+          "title": "Das tragische Ende in Mombasaland"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0023"
+    },
+    {
+      "_id": "692db49707481a28c72155cc",
+      "titleInfo": [
+        {
+          "title": "Friedrich Kallenberg, der Urenkel Jean Pauls"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0024"
+    },
+    {
+      "_id": "692db49707481a28c72155ce",
+      "titleInfo": [
+        {
+          "title": "Juden in Bayreuth: Verfolgung, Vertreibung - und das Danach"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0026"
+    },
+    {
+      "_id": "692db49707481a28c72155cf",
+      "titleInfo": [
+        {
+          "title": "Bayreuth- umgeguckt und hinterfragt: Ein kritischer Spaziergang durch die Geschichte der Stadt Bayreuth"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0027"
+    }
+  ]
+}

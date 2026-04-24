@@ -1,0 +1,230 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "british-library",
+    "name": "British Library",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 2016,
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2016,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2024,
+      "total": 2,
+      "byType": {
+        "Manuscript": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Manuscript",
+      "value": 2
+    },
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Manuscripts",
+      "value": 2
+    },
+    {
+      "name": "Early modern, 1500-1700",
+      "value": 2
+    },
+    {
+      "name": "Literature",
+      "value": 2
+    },
+    {
+      "name": "Africa",
+      "value": 2
+    },
+    {
+      "name": "Bookbinding",
+      "value": 1
+    },
+    {
+      "name": "Books",
+      "value": 1
+    },
+    {
+      "name": "Sahrawi (African people)",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Refugees",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Manuscripts",
+      "value": 2
+    },
+    {
+      "name": "Early modern, 1500-1700",
+      "value": 2
+    },
+    {
+      "name": "Literature",
+      "value": 2
+    },
+    {
+      "name": "Africa",
+      "value": 2
+    },
+    {
+      "name": "England",
+      "value": 2
+    },
+    {
+      "name": "Knowledge",
+      "value": 2
+    },
+    {
+      "name": "Bookbinding",
+      "value": 1
+    },
+    {
+      "name": "Books",
+      "value": 1
+    },
+    {
+      "name": "Manuscript Rolls",
+      "value": 1
+    },
+    {
+      "name": "Sahrawi (African people)",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Refugees",
+      "value": 1
+    },
+    {
+      "name": "Sahrawi Refugee Camps",
+      "value": 1
+    },
+    {
+      "name": "Sahrawi Ministry of Culture",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    },
+    {
+      "name": "Sahrawi Music",
+      "value": 1
+    },
+    {
+      "name": "Western Sahara",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Aboluwade, Ifeoluwa",
+      "value": 2
+    },
+    {
+      "name": "Posada, Violeta Ruano",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "United Kingdom",
+      "region": "England",
+      "city": "London",
+      "count": 2
+    },
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a9ab2c85fe8df8723c",
+      "titleInfo": [
+        {
+          "title": "Book Binding_British Library"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0145"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872fc",
+      "titleInfo": [
+        {
+          "title": "British Library_Accounts and Manor"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0205"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed73",
+      "titleInfo": [
+        {
+          "title": "PORTRAITS OF SAHARAWI MUSIC: WHEN CULTURAL PRESERVATION MEETS POLITICAL ACTIVISM"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-038e"
+    }
+  ]
+}

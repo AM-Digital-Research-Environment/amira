@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "de-troch-daniel",
+    "name": "de Troch, Daniel",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1971,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1971,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 1
+    },
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Research",
+      "value": 1
+    },
+    {
+      "name": "Ethnology",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Research",
+      "value": 1
+    },
+    {
+      "name": "Ethnology",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9eb99",
+      "titleInfo": [
+        {
+          "title": "Questionnaire d'Enquêite sur les instruments de musique Africaine traditionelle"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01b4"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb9a",
+      "titleInfo": [
+        {
+          "title": "Questionnaire into traditional African musical instruments"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01b5"
+    }
+  ]
+}

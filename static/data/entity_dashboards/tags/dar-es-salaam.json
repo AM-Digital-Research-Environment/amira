@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "dar-es-salaam",
+    "name": "Dar es Salaam",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2010,
+      "count": 1
+    },
+    {
+      "year": 2012,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2010,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2012,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Church music",
+      "value": 1
+    },
+    {
+      "name": "Aesthetics",
+      "value": 1
+    },
+    {
+      "name": "Popular music",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Tanzania",
+      "value": 2
+    },
+    {
+      "name": "Church music",
+      "value": 1
+    },
+    {
+      "name": "Aesthetics",
+      "value": 1
+    },
+    {
+      "name": "Temporal Aesthetics",
+      "value": 1
+    },
+    {
+      "name": "Spatial Aesthetics",
+      "value": 1
+    },
+    {
+      "name": "Popular music",
+      "value": 1
+    },
+    {
+      "name": "Music Economy",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Jorritsma, Marie",
+      "value": 1
+    },
+    {
+      "name": "Coplan, David B.",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ecce",
+      "titleInfo": [
+        {
+          "title": "Sounds of Muziki wa Injili: Temporal and Spatial Aesthetics of Contemporary - Church Music in Dar es Salaam, Tanzania. Imani Sanga. 2010. Saarbrucken, Germany: Lap Lambert Academic Publishing. 231 pp. photos, transcriptions, ISBN 978-3-8383-6325-7."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02e9"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed04",
+      "titleInfo": [
+        {
+          "title": "Live From Dar es Salaam: Popular Music and Tanzania's Music Economy. Alex Perullo. 2011. Bloomington: Indiana University Press. 459 pp."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-031f"
+    }
+  ]
+}

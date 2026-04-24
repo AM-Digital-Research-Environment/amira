@@ -52,6 +52,14 @@
     {
       "name": "Highlife (Music)",
       "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    },
+    {
+      "name": "Nigerian Pidgin",
+      "value": 1
     }
   ],
   "contributors": [
@@ -74,6 +82,22 @@
       "region": "",
       "city": "",
       "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "66c34de7ba20a6d8a816ac0a",
+      "titleInfo": [
+        {
+          "title": "Go Inside Mami"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-000c"
     }
   ]
 }

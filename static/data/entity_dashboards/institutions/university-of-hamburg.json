@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "university-of-hamburg",
+    "name": "University of Hamburg",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2017,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2017,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "History",
+      "value": 1
+    },
+    {
+      "name": "Racism",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "History",
+      "value": 1
+    },
+    {
+      "name": "Racism",
+      "value": 1
+    },
+    {
+      "name": "Race Theory",
+      "value": 1
+    },
+    {
+      "name": "Germany",
+      "value": 1
+    },
+    {
+      "name": "Colonialism",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hund, Wulf D.",
+      "value": 1
+    },
+    {
+      "name": "J.B. Metzler Verlag",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "692db49707481a28c72155b2",
+      "titleInfo": [
+        {
+          "title": "Wie die Deutschen Weiss wurden"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-000a"
+    }
+  ]
+}

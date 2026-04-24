@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "mau-mau",
+    "name": "Mau Mau",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1954,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1954,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Race relations",
+      "value": 2
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "Colonies",
+      "value": 2
+    },
+    {
+      "name": "Colonisation",
+      "value": 2
+    },
+    {
+      "name": "History",
+      "value": 1
+    },
+    {
+      "name": "Hymns",
+      "value": 1
+    },
+    {
+      "name": "Kikuyu (African people)",
+      "value": 1
+    },
+    {
+      "name": "Religion",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Race relations",
+      "value": 2
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "Colonies",
+      "value": 2
+    },
+    {
+      "name": "Colonisation",
+      "value": 2
+    },
+    {
+      "name": "Great Britain",
+      "value": 2
+    },
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "History",
+      "value": 1
+    },
+    {
+      "name": "Mau Mau Rebellion",
+      "value": 1
+    },
+    {
+      "name": "Kenya",
+      "value": 1
+    },
+    {
+      "name": "Hymns",
+      "value": 1
+    },
+    {
+      "name": "Kikuyu (African people)",
+      "value": 1
+    },
+    {
+      "name": "Religion",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Alport, C. J. M.",
+      "value": 1
+    },
+    {
+      "name": "Leakey, L. S. B.",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9e9e7",
+      "titleInfo": [
+        {
+          "title": "Kenya's answer to the Mau Mau challenge"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0002"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9e9e8",
+      "titleInfo": [
+        {
+          "title": "The religious element in Mau Mau"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0003"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "methodist-church",
+    "name": "Methodist Church",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1960,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1960,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Hymns",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Choral music",
+      "value": 1
+    },
+    {
+      "name": "Musicians",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Hymns",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Choral music",
+      "value": 1
+    },
+    {
+      "name": "Musicians",
+      "value": 1
+    },
+    {
+      "name": "Zimbabwe",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kauffman, Robert A.",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ea98",
+      "titleInfo": [
+        {
+          "title": "Hymns of the Wabvuwi"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00b3"
+    }
+  ]
+}

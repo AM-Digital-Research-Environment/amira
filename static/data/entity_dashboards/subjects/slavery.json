@@ -1,0 +1,220 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "slavery",
+    "name": "Slavery",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 2015,
+      "count": 1
+    },
+    {
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2015,
+      "total": 1,
+      "byType": {
+        "Digital": 1
+      }
+    },
+    {
+      "year": 2017,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2020,
+      "total": 2,
+      "byType": {
+        "Digital": 1,
+        "Image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Digital",
+      "value": 2
+    },
+    {
+      "name": "Text",
+      "value": 1
+    },
+    {
+      "name": "Image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "value": 2
+    },
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Islam",
+      "value": 1
+    },
+    {
+      "name": "Race",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Colonialism",
+      "value": 3
+    },
+    {
+      "name": "Alzire of Bayreuth",
+      "value": 2
+    },
+    {
+      "name": "Wilhelmine",
+      "value": 2
+    },
+    {
+      "name": "Neues Schloss Bayreuth",
+      "value": 2
+    },
+    {
+      "name": "Bayreuth",
+      "value": 2
+    },
+    {
+      "name": "Suriname",
+      "value": 2
+    },
+    {
+      "name": "Islam",
+      "value": 1
+    },
+    {
+      "name": "Race",
+      "value": 1
+    },
+    {
+      "name": "Black Representations",
+      "value": 1
+    },
+    {
+      "name": "Prussia",
+      "value": 1
+    },
+    {
+      "name": "Germany",
+      "value": 1
+    },
+    {
+      "name": "Barock",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Elhanafy, Taghrid",
+      "value": 1
+    },
+    {
+      "name": "Lelliot, Kitso Lynn",
+      "value": 1
+    },
+    {
+      "name": "Fink, Katharina",
+      "value": 1
+    },
+    {
+      "name": "Overhoff, Jürgen",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 2
+    },
+    {
+      "country": "Germany",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a8ab2c85fe8df87102",
+      "titleInfo": [
+        {
+          "title": "Part II: Race, Slavery and Black Representations in Islam"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-000b"
+    },
+    {
+      "_id": "692db49707481a28c72155c6",
+      "titleInfo": [
+        {
+          "title": "Alzire of Bayreuth"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-99-001e"
+    },
+    {
+      "_id": "692db49707481a28c72155c8",
+      "titleInfo": [
+        {
+          "title": "Ausstellungstext: Alzire of Bayreuth"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0020"
+    },
+    {
+      "_id": "692db49707481a28c72155cd",
+      "titleInfo": [
+        {
+          "title": "Preußens verborgene Sklaven"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0025"
+    }
+  ]
+}

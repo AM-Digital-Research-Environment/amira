@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "portugal",
+    "name": "Portugal",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 2014,
+      "count": 3
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2014,
+      "total": 3,
+      "byType": {
+        "Image": 3
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 4
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Photographs",
+      "value": 3
+    },
+    {
+      "name": "Interior decoration",
+      "value": 2
+    },
+    {
+      "name": "Art",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Painting",
+      "value": 1
+    },
+    {
+      "name": "Museum registration methods",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Photographs",
+      "value": 3
+    },
+    {
+      "name": "Lisbon",
+      "value": 3
+    },
+    {
+      "name": "Interior decoration",
+      "value": 2
+    },
+    {
+      "name": "Art",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Painting",
+      "value": 1
+    },
+    {
+      "name": "African Women",
+      "value": 1
+    },
+    {
+      "name": "Museum registration methods",
+      "value": 1
+    },
+    {
+      "name": "Accessioning (Works of Art)",
+      "value": 1
+    },
+    {
+      "name": "Cataloging (Works of Art)",
+      "value": 1
+    },
+    {
+      "name": "Classification (Works of Art)",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Greven, Katharina",
+      "value": 4
+    },
+    {
+      "name": "Guedes, Pancho",
+      "value": 3
+    },
+    {
+      "name": "Beier, Ulli",
+      "value": 1
+    }
+  ]
+}

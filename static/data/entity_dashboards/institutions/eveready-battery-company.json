@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "eveready-battery-company",
+    "name": "Eveready Battery Company",
+    "count": 1
+  },
+  "timeline": [],
+  "stackedTimeline": [],
+  "types": [
+    {
+      "name": "Moving image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Television commercials",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Television commercials",
+      "value": 1
+    },
+    {
+      "name": "Advertisement",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Liberia Broadcasting System (LBS)",
+      "value": 2
+    },
+    {
+      "name": "Eveready Battery Company",
+      "value": 1
+    },
+    {
+      "name": "Liberian Red Cross Society",
+      "value": 1
+    },
+    {
+      "name": "Itter Pharmacy",
+      "value": 1
+    },
+    {
+      "name": "General Manufacturing & Trading Corporation",
+      "value": 1
+    },
+    {
+      "name": "Goodyear Tire and Rubber Company",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Liberia",
+      "region": "Montserrado County",
+      "city": "Monrovia",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "6982337057a8e0353b0b1c59",
+      "titleInfo": [
+        {
+          "title": "Commercials"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-001c"
+    }
+  ]
+}

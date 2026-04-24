@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "laussen-elisabeth",
+    "name": "Laussen, Elisabeth",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1965,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1965,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "value": 2
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "Nigeria",
+      "value": 2
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Stephan, Klaus",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "Egypt",
+      "region": "Port Said Governorate",
+      "city": "Port Said",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "6705340c4b98fee5873b442b",
+      "titleInfo": [
+        {
+          "title": "Letter Stephan_Laussen 1965"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-001e"
+    },
+    {
+      "_id": "6705340c4b98fee5873b445b",
+      "titleInfo": [
+        {
+          "title": "Letter Stephan_Laussen 1965"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-004e"
+    }
+  ]
+}

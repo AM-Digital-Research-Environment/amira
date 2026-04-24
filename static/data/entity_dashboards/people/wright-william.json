@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "wright-william",
+    "name": "Wright, William",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2015,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2015,
+      "total": 2,
+      "byType": {
+        "Audio": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Audio",
+      "value": 2
+    }
+  ],
+  "languages": [],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 2
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ed5d",
+      "titleInfo": [
+        {
+          "title": "Indjetadinha"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "dre_id": "eaa-99-0378"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed5e",
+      "titleInfo": [
+        {
+          "title": "Maria Adelaide"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "dre_id": "eaa-99-0379"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "music-of-congo",
+    "name": "Music of Congo",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1968,
+      "count": 1
+    },
+    {
+      "year": 2014,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1968,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2014,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    },
+    {
+      "name": "French",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Popular music",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Kenya",
+      "value": 2
+    },
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Popular music",
+      "value": 1
+    },
+    {
+      "name": "Benga Music",
+      "value": 1
+    },
+    {
+      "name": "Benga Beat",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Roberts, John Storm",
+      "value": 1
+    },
+    {
+      "name": "Eagleson, Ian",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9eb49",
+      "titleInfo": [
+        {
+          "title": "Popular music in Kenya"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0164"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed43",
+      "titleInfo": [
+        {
+          "title": "Continuities and innovation in Luo song style: creating the Benga Beat in Kenya 1960 to 1995"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-035e"
+    }
+  ]
+}

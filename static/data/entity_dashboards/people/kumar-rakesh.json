@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "kumar-rakesh",
+    "name": "Kumar, Rakesh",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2023,
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2023,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2025,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Migration",
+      "value": 1
+    },
+    {
+      "name": "Musicians",
+      "value": 1
+    },
+    {
+      "name": "African diaspora",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Book reviews",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Migration",
+      "value": 1
+    },
+    {
+      "name": "Musicians",
+      "value": 1
+    },
+    {
+      "name": "African diaspora",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Ethiopian American Diaspora",
+      "value": 1
+    },
+    {
+      "name": "Sentinel Musicians",
+      "value": 1
+    },
+    {
+      "name": "Diaspora Studies",
+      "value": 1
+    },
+    {
+      "name": "Identity",
+      "value": 1
+    },
+    {
+      "name": "Ethiopia",
+      "value": 1
+    },
+    {
+      "name": "Book reviews",
+      "value": 1
+    },
+    {
+      "name": "Afro-Asian Music",
+      "value": 1
+    },
+    {
+      "name": "Cultural Circulation",
+      "value": 1
+    },
+    {
+      "name": "Musical Imaginaries",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9edde",
+      "titleInfo": [
+        {
+          "title": "Sing and Sing On: Sentinel Musicians and the Making of the Ethiopian American Diaspora"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03f9"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ede5",
+      "titleInfo": [
+        {
+          "title": "AfroAsian Musical Imaginaries: Of Circulations and Interconnections"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0400"
+    }
+  ]
+}

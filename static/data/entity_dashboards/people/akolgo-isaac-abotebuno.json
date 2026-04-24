@@ -1,0 +1,284 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "akolgo-isaac-abotebuno",
+    "name": "Akolgo, Isaac Abotebuno",
+    "count": 7
+  },
+  "timeline": [
+    {
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "count": 3
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2022,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2023,
+      "total": 3,
+      "byType": {
+        "Text": 3
+      }
+    },
+    {
+      "year": 2024,
+      "total": 3,
+      "byType": {
+        "Text": 3
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 7
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 7
+    }
+  ],
+  "subjects": [
+    {
+      "name": "West Africa",
+      "value": 7
+    },
+    {
+      "name": "Interviews",
+      "value": 2
+    },
+    {
+      "name": "Debt",
+      "value": 1
+    },
+    {
+      "name": "Economic policy",
+      "value": 1
+    },
+    {
+      "name": "Structural adjustment (Economic policy)",
+      "value": 1
+    },
+    {
+      "name": "Investment banking",
+      "value": 1
+    },
+    {
+      "name": "Securities",
+      "value": 1
+    },
+    {
+      "name": "Interest rates",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "West Africa",
+      "value": 7
+    },
+    {
+      "name": "Ghana",
+      "value": 7
+    },
+    {
+      "name": "Interviews",
+      "value": 2
+    },
+    {
+      "name": "Debt",
+      "value": 1
+    },
+    {
+      "name": "Public Debt",
+      "value": 1
+    },
+    {
+      "name": "Economic policy",
+      "value": 1
+    },
+    {
+      "name": "Structural adjustment (Economic policy)",
+      "value": 1
+    },
+    {
+      "name": "Political Economy",
+      "value": 1
+    },
+    {
+      "name": "Fintech",
+      "value": 1
+    },
+    {
+      "name": "Mobile Money",
+      "value": 1
+    },
+    {
+      "name": "Investment banking",
+      "value": 1
+    },
+    {
+      "name": "Securities",
+      "value": 1
+    },
+    {
+      "name": "Bank Investement",
+      "value": 1
+    },
+    {
+      "name": "Commercial Bank",
+      "value": 1
+    },
+    {
+      "name": "Lending Rates",
+      "value": 1
+    },
+    {
+      "name": "Bank Credit",
+      "value": 1
+    },
+    {
+      "name": "Private Sector",
+      "value": 1
+    },
+    {
+      "name": "Interest rates",
+      "value": 1
+    },
+    {
+      "name": "Central Bank",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Graham, Yao",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Ghana",
+      "region": "",
+      "city": "",
+      "count": 7
+    }
+  ],
+  "items": [
+    {
+      "_id": "674dba652e70d1e383d18ae8",
+      "titleInfo": [
+        {
+          "title": "Ghanaian debt statistics"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0005"
+    },
+    {
+      "_id": "674dba652e70d1e383d18ae9",
+      "titleInfo": [
+        {
+          "title": "Interview on post-independence Ghanaian political economy"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0006"
+    },
+    {
+      "_id": "674dba652e70d1e383d18aea",
+      "titleInfo": [
+        {
+          "title": "Interview notes on mobile money usage in Ghana"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-99-0007"
+    },
+    {
+      "_id": "674dba652e70d1e383d18aeb",
+      "titleInfo": [
+        {
+          "title": "Shares of Banks' Investments in Ghana"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0008"
+    },
+    {
+      "_id": "674dba652e70d1e383d18aec",
+      "titleInfo": [
+        {
+          "title": "Average Commercial Banks Lending Rates in Ghana"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0009"
+    },
+    {
+      "_id": "674dba652e70d1e383d18af1",
+      "titleInfo": [
+        {
+          "title": "Sectoral Distribution of Bank Credit"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-000e"
+    },
+    {
+      "_id": "674dba652e70d1e383d18af2",
+      "titleInfo": [
+        {
+          "title": "Central Bank Policy Rates"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-000f"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "callist-charles",
+    "name": "Callist, Charles",
+    "count": 5
+  },
+  "timeline": [
+    {
+      "year": 1950,
+      "count": 5
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1950,
+      "total": 5,
+      "byType": {
+        "Audio": 5
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Audio",
+      "value": 5
+    }
+  ],
+  "languages": [
+    {
+      "name": "Swahili",
+      "value": 4
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 5
+    },
+    {
+      "name": "Swahili language",
+      "value": 4
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Ethnomusicology",
+      "value": 5
+    },
+    {
+      "name": "Swahili language",
+      "value": 4
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "The Kiko Kids",
+      "value": 5
+    },
+    {
+      "name": "Jambo",
+      "value": 5
+    },
+    {
+      "name": "Ghana Broadcasting Corporation Gramophone Library",
+      "value": 5
+    },
+    {
+      "name": "East African Records Limited",
+      "value": 5
+    }
+  ],
+  "locations": [
+    {
+      "country": "Kenya",
+      "region": "",
+      "city": "",
+      "count": 5
+    }
+  ],
+  "items": [
+    {
+      "_id": "66c34de8ba20a6d8a816ace0",
+      "titleInfo": [
+        {
+          "title": "Kidege Changu"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-00e2"
+    },
+    {
+      "_id": "66c34de8ba20a6d8a816ace2",
+      "titleInfo": [
+        {
+          "title": "Pendo Lako"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-00e4"
+    },
+    {
+      "_id": "66c34de8ba20a6d8a816acfa",
+      "titleInfo": [
+        {
+          "title": "Rebeka"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-00fc"
+    },
+    {
+      "_id": "66c34de8ba20a6d8a816acfb",
+      "titleInfo": [
+        {
+          "title": "Ndizi"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-00fd"
+    },
+    {
+      "_id": "66c34de8ba20a6d8a816acfd",
+      "titleInfo": [
+        {
+          "title": "Maringo"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-00ff"
+    }
+  ]
+}

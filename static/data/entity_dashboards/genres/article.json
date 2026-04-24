@@ -1,0 +1,908 @@
+{
+  "meta": {
+    "type": "genre",
+    "id": "article",
+    "name": "article",
+    "count": 16
+  },
+  "timeline": [
+    {
+      "year": 2016,
+      "count": 1
+    },
+    {
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "count": 6
+    },
+    {
+      "year": 2024,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2016,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2017,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2018,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 2020,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 2021,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 2022,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2023,
+      "total": 6,
+      "byType": {
+        "Text": 6
+      }
+    },
+    {
+      "year": 2024,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 16
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 8
+    },
+    {
+      "name": "French",
+      "value": 6
+    },
+    {
+      "name": "German",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "World health",
+      "value": 6
+    },
+    {
+      "name": "West Africa",
+      "value": 6
+    },
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 4
+    },
+    {
+      "name": "Geography",
+      "value": 2
+    },
+    {
+      "name": "Mediation (Statistics)",
+      "value": 2
+    },
+    {
+      "name": "Sustainability",
+      "value": 2
+    },
+    {
+      "name": "Child care",
+      "value": 2
+    },
+    {
+      "name": "Children",
+      "value": 2
+    },
+    {
+      "name": "Fertility",
+      "value": 2
+    },
+    {
+      "name": "Income distribution",
+      "value": 2
+    },
+    {
+      "name": "Youth",
+      "value": 2
+    },
+    {
+      "name": "Education",
+      "value": 2
+    },
+    {
+      "name": "Family planning",
+      "value": 2
+    },
+    {
+      "name": "Migration",
+      "value": 2
+    },
+    {
+      "name": "Economic development",
+      "value": 2
+    },
+    {
+      "name": "Diseases",
+      "value": 2
+    },
+    {
+      "name": "Natural disasters",
+      "value": 1
+    },
+    {
+      "name": "Global warming",
+      "value": 1
+    },
+    {
+      "name": "COVID-19 (Disease)",
+      "value": 1
+    },
+    {
+      "name": "Transport workers",
+      "value": 1
+    },
+    {
+      "name": "Gender",
+      "value": 1
+    },
+    {
+      "name": "Health",
+      "value": 1
+    },
+    {
+      "name": "Arts",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Opera",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "World health",
+      "value": 6
+    },
+    {
+      "name": "West Africa",
+      "value": 6
+    },
+    {
+      "name": "Burkina Faso",
+      "value": 6
+    },
+    {
+      "name": "Global Health Policy",
+      "value": 6
+    },
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 4
+    },
+    {
+      "name": "Econometric Evidence",
+      "value": 3
+    },
+    {
+      "name": "Global Health",
+      "value": 3
+    },
+    {
+      "name": "Geography",
+      "value": 2
+    },
+    {
+      "name": "Mediation (Statistics)",
+      "value": 2
+    },
+    {
+      "name": "Coastal Proximity",
+      "value": 2
+    },
+    {
+      "name": "Mediation Analysis",
+      "value": 2
+    },
+    {
+      "name": "Coastal Countries",
+      "value": 2
+    },
+    {
+      "name": "Household Survey",
+      "value": 2
+    },
+    {
+      "name": "Sustainability",
+      "value": 2
+    },
+    {
+      "name": "Child care",
+      "value": 2
+    },
+    {
+      "name": "Children",
+      "value": 2
+    },
+    {
+      "name": "Fertility",
+      "value": 2
+    },
+    {
+      "name": "Income distribution",
+      "value": 2
+    },
+    {
+      "name": "Youth",
+      "value": 2
+    },
+    {
+      "name": "Education",
+      "value": 2
+    },
+    {
+      "name": "Family planning",
+      "value": 2
+    },
+    {
+      "name": "Migration",
+      "value": 2
+    },
+    {
+      "name": "Economic development",
+      "value": 2
+    },
+    {
+      "name": "Female Education",
+      "value": 2
+    },
+    {
+      "name": "Human Development",
+      "value": 2
+    },
+    {
+      "name": "Education Policy",
+      "value": 2
+    },
+    {
+      "name": "Educational Influence",
+      "value": 2
+    },
+    {
+      "name": "Child Development",
+      "value": 2
+    },
+    {
+      "name": "Human Resources",
+      "value": 2
+    },
+    {
+      "name": "Diseases",
+      "value": 2
+    },
+    {
+      "name": "Legal Framework",
+      "value": 2
+    },
+    {
+      "name": "Race Theory",
+      "value": 2
+    },
+    {
+      "name": "Richard Wagner",
+      "value": 2
+    },
+    {
+      "name": "Natural disasters",
+      "value": 1
+    },
+    {
+      "name": "Global warming",
+      "value": 1
+    },
+    {
+      "name": "Disaster Management",
+      "value": 1
+    },
+    {
+      "name": "Environmental Accounts",
+      "value": 1
+    },
+    {
+      "name": "Environmental Accounting",
+      "value": 1
+    },
+    {
+      "name": "Environmental Equity",
+      "value": 1
+    },
+    {
+      "name": "Population Growth",
+      "value": 1
+    },
+    {
+      "name": "Regional Economic Development",
+      "value": 1
+    },
+    {
+      "name": "Regional Economic Change",
+      "value": 1
+    },
+    {
+      "name": "Economic-Environmental Interactions",
+      "value": 1
+    },
+    {
+      "name": "Trade",
+      "value": 1
+    },
+    {
+      "name": "Environment",
+      "value": 1
+    },
+    {
+      "name": "Climate Change",
+      "value": 1
+    },
+    {
+      "name": "COVID-19 (Disease)",
+      "value": 1
+    },
+    {
+      "name": "Transport workers",
+      "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    },
+    {
+      "name": "Lagos",
+      "value": 1
+    },
+    {
+      "name": "Marketer",
+      "value": 1
+    },
+    {
+      "name": "COVID-19",
+      "value": 1
+    },
+    {
+      "name": "Joint United Nations Programme on HIV/AIDS",
+      "value": 1
+    },
+    {
+      "name": "Vertical Program",
+      "value": 1
+    },
+    {
+      "name": "Horizontal Program",
+      "value": 1
+    },
+    {
+      "name": "Gender",
+      "value": 1
+    },
+    {
+      "name": "The Global Fund to Fight AIDS, Tuberculosis and Malaria",
+      "value": 1
+    },
+    {
+      "name": "Men who have Sex with Men",
+      "value": 1
+    },
+    {
+      "name": "HIV/AIDS",
+      "value": 1
+    },
+    {
+      "name": "Health Policy",
+      "value": 1
+    },
+    {
+      "name": "Legislation",
+      "value": 1
+    },
+    {
+      "name": "Foundation",
+      "value": 1
+    },
+    {
+      "name": "Health",
+      "value": 1
+    },
+    {
+      "name": "Health Organisation",
+      "value": 1
+    },
+    {
+      "name": "Typology",
+      "value": 1
+    },
+    {
+      "name": "Categorisation",
+      "value": 1
+    },
+    {
+      "name": "Common Market for Eastern and Southern Africa",
+      "value": 1
+    },
+    {
+      "name": "Regional Organisation",
+      "value": 1
+    },
+    {
+      "name": "Harmonisation",
+      "value": 1
+    },
+    {
+      "name": "ECOWAS",
+      "value": 1
+    },
+    {
+      "name": "Arts",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Opera",
+      "value": 1
+    },
+    {
+      "name": "Eurocentrism",
+      "value": 1
+    },
+    {
+      "name": "Theater",
+      "value": 1
+    },
+    {
+      "name": "Christoph Schlingensief",
+      "value": 1
+    },
+    {
+      "name": "Iwalewahaus",
+      "value": 1
+    },
+    {
+      "name": "Neocolonialism",
+      "value": 1
+    },
+    {
+      "name": "National socialism",
+      "value": 1
+    },
+    {
+      "name": "Wagner Society of Scotland",
+      "value": 1
+    },
+    {
+      "name": "Third Reich",
+      "value": 1
+    },
+    {
+      "name": "Industrialization",
+      "value": 1
+    },
+    {
+      "name": "Travel",
+      "value": 1
+    },
+    {
+      "name": "East Africa",
+      "value": 1
+    },
+    {
+      "name": "Steamship",
+      "value": 1
+    },
+    {
+      "name": "German East Africa",
+      "value": 1
+    },
+    {
+      "name": "Germany",
+      "value": 1
+    },
+    {
+      "name": "Colonialism",
+      "value": 1
+    },
+    {
+      "name": "Racism",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Banhoro, Yacouba",
+      "value": 6
+    },
+    {
+      "name": "Stadelmann, David",
+      "value": 5
+    },
+    {
+      "name": "Wild, Frederik",
+      "value": 4
+    },
+    {
+      "name": "Illy, Ousseni",
+      "value": 2
+    },
+    {
+      "name": "Greßer, Christina",
+      "value": 1
+    },
+    {
+      "name": "Meierrieks, Daniel",
+      "value": 1
+    },
+    {
+      "name": "Akin-Otiko, Akinmayowa",
+      "value": 1
+    },
+    {
+      "name": "Fayemi, Kazeem",
+      "value": 1
+    },
+    {
+      "name": "Hien, Frederic",
+      "value": 1
+    },
+    {
+      "name": "Sib, Sié Moise",
+      "value": 1
+    },
+    {
+      "name": "Baguian, Sidibewindé Romain",
+      "value": 1
+    },
+    {
+      "name": "Vierke, Ulf",
+      "value": 1
+    },
+    {
+      "name": "Williams, Derek",
+      "value": 1
+    },
+    {
+      "name": "Pesek, Michael",
+      "value": 1
+    },
+    {
+      "name": "Breuer, Andreas",
+      "value": 1
+    },
+    {
+      "name": "Grau, Julia Maria",
+      "value": 1
+    },
+    {
+      "name": "Springfeld, Lars",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 6
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "",
+      "city": "",
+      "count": 6
+    },
+    {
+      "country": "Germany",
+      "region": "",
+      "city": "",
+      "count": 2
+    },
+    {
+      "country": "Nigeria",
+      "region": "Lagos State",
+      "city": "Lagos",
+      "count": 1
+    },
+    {
+      "country": "United Kingdom",
+      "region": "Scotland",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "67211011e6fbc830d02e6af1",
+      "titleInfo": [
+        {
+          "title": "Coastal proximity and individual living standards: Econometric evidence from georeferenced household surveys in sub-Saharan Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-0000"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6af2",
+      "titleInfo": [
+        {
+          "title": "Coastal proximity and individual living standards: Econometric evidence from georeferenced household surveys in sub-Saharan Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-0001"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6afb",
+      "titleInfo": [
+        {
+          "title": "The link between regional temperature and regional incomes: Econometric evidence with sub-national data"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-000a"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b01",
+      "titleInfo": [
+        {
+          "title": "Heterogeneous Effects of Women’s Schooling on Fertility, Literacy and Work: Evidence from Burundi’s Free Primary Education Policy"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-0010"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b02",
+      "titleInfo": [
+        {
+          "title": "Heterogeneous Effects of Women’s Schooling on Fertility, Literacy and Work: Evidence from Burundi’s Free Primary Education Policy"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-0011"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86a1",
+      "titleInfo": [
+        {
+          "title": "Article on the Vulnerable also Fight COVID-19: Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-0002"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d867b",
+      "titleInfo": [
+        {
+          "title": "Article sur le VIH/SIDA"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-000a"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d867c",
+      "titleInfo": [
+        {
+          "title": "Article sur la santé globale"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-000b"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d867d",
+      "titleInfo": [
+        {
+          "title": "Article sur l'action du Fonds Mondial au Burkina Faso"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-000c"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d867e",
+      "titleInfo": [
+        {
+          "title": "Draft sur le cadre juridique des politiques sanitaires au Burkina Faso"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-000d"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d867f",
+      "titleInfo": [
+        {
+          "title": "Draft sur les organisations du domaine de la santé dans le système sanitaire au Burkina Faso"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-000e"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8680",
+      "titleInfo": [
+        {
+          "title": "Draft sur la cedeao et la santé globale"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-000f"
+    },
+    {
+      "_id": "692db49707481a28c72155ac",
+      "titleInfo": [
+        {
+          "title": "Practicing the Art of Wagnis"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0004"
+    },
+    {
+      "_id": "692db49707481a28c72155b0",
+      "titleInfo": [
+        {
+          "title": "Richard Wagner and the Third Reich"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0008"
+    },
+    {
+      "_id": "692db49707481a28c72155c7",
+      "titleInfo": [
+        {
+          "title": "Von Europa nach Afrika"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-001f"
+    },
+    {
+      "_id": "692db49707481a28c72155d0",
+      "titleInfo": [
+        {
+          "title": "Begletischrift zum Lehrbuch Ökonomik der Entwicklung"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0028"
+    }
+  ]
+}

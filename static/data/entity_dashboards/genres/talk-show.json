@@ -1,0 +1,412 @@
+{
+  "meta": {
+    "type": "genre",
+    "id": "talk-show",
+    "name": "Talk show",
+    "count": 13
+  },
+  "timeline": [
+    {
+      "year": 1987,
+      "count": 1
+    },
+    {
+      "year": 1989,
+      "count": 4
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1987,
+      "total": 1,
+      "byType": {
+        "Moving image": 1
+      }
+    },
+    {
+      "year": 1989,
+      "total": 4,
+      "byType": {
+        "Moving image": 4
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Moving image",
+      "value": 13
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 13
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Health",
+      "value": 6
+    },
+    {
+      "name": "Agriculture",
+      "value": 3
+    },
+    {
+      "name": "Education",
+      "value": 2
+    },
+    {
+      "name": "Religion",
+      "value": 2
+    },
+    {
+      "name": "Motherhood",
+      "value": 1
+    },
+    {
+      "name": "History",
+      "value": 1
+    },
+    {
+      "name": "Christianity",
+      "value": 1
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    },
+    {
+      "name": "Culture",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Health",
+      "value": 6
+    },
+    {
+      "name": "Agriculture",
+      "value": 3
+    },
+    {
+      "name": "Education",
+      "value": 2
+    },
+    {
+      "name": "Religion",
+      "value": 2
+    },
+    {
+      "name": "Motherhood",
+      "value": 1
+    },
+    {
+      "name": "History",
+      "value": 1
+    },
+    {
+      "name": "Consumer Advice",
+      "value": 1
+    },
+    {
+      "name": "Politics",
+      "value": 1
+    },
+    {
+      "name": "Environment",
+      "value": 1
+    },
+    {
+      "name": "Environmental Sanitation",
+      "value": 1
+    },
+    {
+      "name": "Christianity",
+      "value": 1
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    },
+    {
+      "name": "Culture",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Liberia Broadcasting System (LBS)",
+      "value": 24
+    },
+    {
+      "name": "Government of Liberia",
+      "value": 12
+    },
+    {
+      "name": "McCrumada, Charles",
+      "value": 5
+    },
+    {
+      "name": "Blidi, Francis Pupo",
+      "value": 4
+    },
+    {
+      "name": "Fakay, Soko",
+      "value": 3
+    },
+    {
+      "name": "Taylor, Adolphus",
+      "value": 3
+    },
+    {
+      "name": "Eastman, John",
+      "value": 3
+    },
+    {
+      "name": "Gilbert, Thomas",
+      "value": 3
+    },
+    {
+      "name": "Wegee, Presley",
+      "value": 3
+    },
+    {
+      "name": "Marwieh, Bishop Augustus B.",
+      "value": 3
+    },
+    {
+      "name": "Collins, Hawa Andrews",
+      "value": 2
+    },
+    {
+      "name": "Barh, S. Benson",
+      "value": 2
+    },
+    {
+      "name": "Johnson, T. Mac",
+      "value": 2
+    },
+    {
+      "name": "Wessehutes, Jimmy",
+      "value": 2
+    },
+    {
+      "name": "Mensah, Sam",
+      "value": 2
+    },
+    {
+      "name": "Boayue, Stella",
+      "value": 1
+    },
+    {
+      "name": "Pese, Patricia",
+      "value": 1
+    },
+    {
+      "name": "Sako, Marilyn",
+      "value": 1
+    },
+    {
+      "name": "Blemmer, Nils",
+      "value": 1
+    },
+    {
+      "name": "Tolbert, Isaac Emmanuel",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Liberia",
+      "region": "Montserrado County",
+      "city": "Monrovia",
+      "count": 13
+    }
+  ],
+  "items": [
+    {
+      "_id": "6982337057a8e0353b0b1c3d",
+      "titleInfo": [
+        {
+          "title": "Everyday Woman"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0000"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c3f",
+      "titleInfo": [
+        {
+          "title": "Special-The Educational Way"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0002"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c40",
+      "titleInfo": [
+        {
+          "title": "Special-Lofa County Agriculture Development Project"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0003"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c43",
+      "titleInfo": [
+        {
+          "title": "Food From the Soil"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0006"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c4b",
+      "titleInfo": [
+        {
+          "title": "Between Church and State"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-000e"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c5d",
+      "titleInfo": [
+        {
+          "title": "Roadways to Health"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0020"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c5e",
+      "titleInfo": [
+        {
+          "title": "Roadways to Health"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0021"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c5f",
+      "titleInfo": [
+        {
+          "title": "Roadways to Health"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0022"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c63",
+      "titleInfo": [
+        {
+          "title": "Roadways to Health"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0026"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c64",
+      "titleInfo": [
+        {
+          "title": "Roadways to Health"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0027"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c65",
+      "titleInfo": [
+        {
+          "title": "Roadways to Health"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0028"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c6c",
+      "titleInfo": [
+        {
+          "title": "Ministry of Hope"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-002f"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c6e",
+      "titleInfo": [
+        {
+          "title": "Special Broadcast: Marie Brooks Caribbean Dance Theatre"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0031"
+    }
+  ]
+}

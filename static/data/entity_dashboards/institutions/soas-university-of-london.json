@@ -1,0 +1,849 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "soas-university-of-london",
+    "name": "SOAS University of London",
+    "count": 29
+  },
+  "timeline": [
+    {
+      "year": 1954,
+      "count": 3
+    },
+    {
+      "year": 1957,
+      "count": 2
+    },
+    {
+      "year": 1960,
+      "count": 1
+    },
+    {
+      "year": 1961,
+      "count": 1
+    },
+    {
+      "year": 1962,
+      "count": 4
+    },
+    {
+      "year": 1963,
+      "count": 1
+    },
+    {
+      "year": 1964,
+      "count": 1
+    },
+    {
+      "year": 1970,
+      "count": 1
+    },
+    {
+      "year": 1972,
+      "count": 1
+    },
+    {
+      "year": 1973,
+      "count": 1
+    },
+    {
+      "year": 1975,
+      "count": 4
+    },
+    {
+      "year": 1980,
+      "count": 2
+    },
+    {
+      "year": 1982,
+      "count": 1
+    },
+    {
+      "year": 1983,
+      "count": 1
+    },
+    {
+      "year": 1996,
+      "count": 2
+    },
+    {
+      "year": 2009,
+      "count": 2
+    },
+    {
+      "year": 2017,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1954,
+      "total": 3,
+      "byType": {
+        "Text": 3
+      }
+    },
+    {
+      "year": 1957,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1960,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1961,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1962,
+      "total": 4,
+      "byType": {
+        "Text": 4
+      }
+    },
+    {
+      "year": 1963,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1964,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1970,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1972,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1973,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1975,
+      "total": 4,
+      "byType": {
+        "Text": 4
+      }
+    },
+    {
+      "year": 1980,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1982,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1983,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1996,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 2009,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 2017,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 29
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 28
+    },
+    {
+      "name": "French",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 11
+    },
+    {
+      "name": "Africa",
+      "value": 7
+    },
+    {
+      "name": "Musical instruments",
+      "value": 6
+    },
+    {
+      "name": "Music",
+      "value": 5
+    },
+    {
+      "name": "Xylophone music",
+      "value": 4
+    },
+    {
+      "name": "Xylophone",
+      "value": 4
+    },
+    {
+      "name": "South Africa",
+      "value": 3
+    },
+    {
+      "name": "Guitarists",
+      "value": 2
+    },
+    {
+      "name": "West Africa",
+      "value": 1
+    },
+    {
+      "name": "East Africa",
+      "value": 1
+    },
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 1
+    },
+    {
+      "name": "Dynamics",
+      "value": 1
+    },
+    {
+      "name": "Folk songs",
+      "value": 1
+    },
+    {
+      "name": "Ila (African people)",
+      "value": 1
+    },
+    {
+      "name": "Polyrhythm",
+      "value": 1
+    },
+    {
+      "name": "Tonga (Zambezi people)",
+      "value": 1
+    },
+    {
+      "name": "Musical bow",
+      "value": 1
+    },
+    {
+      "name": "History",
+      "value": 1
+    },
+    {
+      "name": "Criticism",
+      "value": 1
+    },
+    {
+      "name": "Chopi (African people)",
+      "value": 1
+    },
+    {
+      "name": "Adangme (African people)",
+      "value": 1
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Zulu (African people)",
+      "value": 1
+    },
+    {
+      "name": "Xhosa (African people)",
+      "value": 1
+    },
+    {
+      "name": "Laudatory poetry",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 29
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 11
+    },
+    {
+      "name": "Africa",
+      "value": 7
+    },
+    {
+      "name": "Musical instruments",
+      "value": 6
+    },
+    {
+      "name": "Music",
+      "value": 5
+    },
+    {
+      "name": "Xylophone music",
+      "value": 4
+    },
+    {
+      "name": "Xylophone",
+      "value": 4
+    },
+    {
+      "name": "Xylophone (Instrument)",
+      "value": 4
+    },
+    {
+      "name": "South Africa",
+      "value": 3
+    },
+    {
+      "name": "Musical Meter",
+      "value": 2
+    },
+    {
+      "name": "Musical Rhythm",
+      "value": 2
+    },
+    {
+      "name": "Guitarists",
+      "value": 2
+    },
+    {
+      "name": "Zaire",
+      "value": 2
+    },
+    {
+      "name": "West Africa",
+      "value": 1
+    },
+    {
+      "name": "East Africa",
+      "value": 1
+    },
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 1
+    },
+    {
+      "name": "Foreign Influences",
+      "value": 1
+    },
+    {
+      "name": "Dynamics",
+      "value": 1
+    },
+    {
+      "name": "Folk songs",
+      "value": 1
+    },
+    {
+      "name": "Ila (African people)",
+      "value": 1
+    },
+    {
+      "name": "Polyrhythm",
+      "value": 1
+    },
+    {
+      "name": "Tonga (Zambezi people)",
+      "value": 1
+    },
+    {
+      "name": "Musical bow",
+      "value": 1
+    },
+    {
+      "name": "History",
+      "value": 1
+    },
+    {
+      "name": "Criticism",
+      "value": 1
+    },
+    {
+      "name": "Zambia",
+      "value": 1
+    },
+    {
+      "name": "Tonga (Zambia)",
+      "value": 1
+    },
+    {
+      "name": "Interpretation",
+      "value": 1
+    },
+    {
+      "name": "Chopi (African people)",
+      "value": 1
+    },
+    {
+      "name": "Adangme (African people)",
+      "value": 1
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Yoruba Art",
+      "value": 1
+    },
+    {
+      "name": "Indonesia",
+      "value": 1
+    },
+    {
+      "name": "Ghana",
+      "value": 1
+    },
+    {
+      "name": "Zulu (African people)",
+      "value": 1
+    },
+    {
+      "name": "Xhosa (African people)",
+      "value": 1
+    },
+    {
+      "name": "Laudatory poetry",
+      "value": 1
+    },
+    {
+      "name": "Flute music",
+      "value": 1
+    },
+    {
+      "name": "Venda (African people)",
+      "value": 1
+    },
+    {
+      "name": "Flute",
+      "value": 1
+    },
+    {
+      "name": "Flute (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Instrument Construction",
+      "value": 1
+    },
+    {
+      "name": "Songs",
+      "value": 1
+    },
+    {
+      "name": "Tuning",
+      "value": 1
+    },
+    {
+      "name": "Musical pitch",
+      "value": 1
+    },
+    {
+      "name": "Measurement",
+      "value": 1
+    },
+    {
+      "name": "Elephantiasis",
+      "value": 1
+    },
+    {
+      "name": "Malawi",
+      "value": 1
+    },
+    {
+      "name": "Trumpet",
+      "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    },
+    {
+      "name": "Long Trumpet (Instrument)",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Rycroft, David K.",
+      "value": 13
+    },
+    {
+      "name": "Jones, A. M.",
+      "value": 13
+    },
+    {
+      "name": "Clausen, Raymond",
+      "value": 1
+    },
+    {
+      "name": "Gourlay, Ken A.",
+      "value": 1
+    },
+    {
+      "name": "Allingham, Rob",
+      "value": 1
+    },
+    {
+      "name": "O'Dubhda, Fiacha",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 29
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9e9ee",
+      "titleInfo": [
+        {
+          "title": "Some comments on THE ICILA DANCE OLD STYLE by A. M. Jones and L. Kombe, published by Longmans Green for the African Music Society, 1952, 49 pp."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0009"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9e9f8",
+      "titleInfo": [
+        {
+          "title": "East and West, North and South"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0013"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9e9fe",
+      "titleInfo": [
+        {
+          "title": "Tribal style and free expression"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0019"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea46",
+      "titleInfo": [
+        {
+          "title": "Zulu male traditional singing"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0061"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea4b",
+      "titleInfo": [
+        {
+          "title": "Drums down the centuries"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0066"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea92",
+      "titleInfo": [
+        {
+          "title": "Indonesia and Africa: the xylophone as a culture-indicator"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00ad"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eaac",
+      "titleInfo": [
+        {
+          "title": "The Guitar improvisations of Mwenda Jean Bosco"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00c7"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eabf",
+      "titleInfo": [
+        {
+          "title": "AFRICAN MUSIC IN GHANA by J. H. KWABENA NKETIA. Pp. 148 including 30 pp. music transcription and 2 maps. Longmans, 1962."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00da"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eac1",
+      "titleInfo": [
+        {
+          "title": "Zulu and Xhosa praise-poetry and song"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00dc"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eac2",
+      "titleInfo": [
+        {
+          "title": "The guitar improvisation of Mwenda Jean Bosco (Part II)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00dd"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eac7",
+      "titleInfo": [
+        {
+          "title": "Venda note-names"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00e2"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eae0",
+      "titleInfo": [
+        {
+          "title": "Experiment with a Xylophone key"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00fb"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eaf8",
+      "titleInfo": [
+        {
+          "title": "African metrical lyrics"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0113"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb82",
+      "titleInfo": [
+        {
+          "title": "On using the Stroboconn"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-019d"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eba6",
+      "titleInfo": [
+        {
+          "title": "Elephantiasis and music"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01c1"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ebca",
+      "titleInfo": [
+        {
+          "title": "Luo music and its rhythm"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01e5"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ebd2",
+      "titleInfo": [
+        {
+          "title": "Luo music"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01ed"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ebd5",
+      "titleInfo": [
+        {
+          "title": "THE KACHAMBA BROTHERS' BAND: a study of neo-traditional music in Malawi by Gerhard Kubik. University of Zambia, Institute for African Studies, Zambian Papers No. 9, P.O. Box 900, Lusaka, Zambia, 1974, pp. 75, x, plates, diagrams, bibliography, K2.50, £2.25"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01f0"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ebd6",
+      "titleInfo": [
+        {
+          "title": "Swahili epic poerty: a musical study"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01f1"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ebda",
+      "titleInfo": [
+        {
+          "title": "The Zulu bow songs of Princess Magogo"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01f5"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ebe5",
+      "titleInfo": [
+        {
+          "title": "LEAD US, LORD, a collection of African hymns. Compiled by Howard S. Olson, Augsburg Publishing House, U.S.A., 1977, pp. 22, $1.50."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0200"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ebf0",
+      "titleInfo": [
+        {
+          "title": "Panpipes and the equiheptatonic pitch"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-020b"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec00",
+      "titleInfo": [
+        {
+          "title": "Long trumpets of northern Nigeria - in history and today"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-021b"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec18",
+      "titleInfo": [
+        {
+          "title": "THE NEW GROVE DICTIONARY OF MUSIC AND MUSICIANS edited by Stanley Sadie, Macmillan Publishers Ltd., London, 1981, 20 vols., 18 000 pp., 4 500 illustrations, 3 000 music examples, £850.00."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0233"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec3e",
+      "titleInfo": [
+        {
+          "title": "Black South African urban music since the 1890's: some reminiscences of Alfred Assegai Kumalo (1879-1966)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0259"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec59",
+      "titleInfo": [
+        {
+          "title": "AFRICAN STARS: STUDIES IN BLACK SOUTH AFRICAN PERFORMANCE, by Veit Erlmann, Chicago Studies in Ethnomusicology, edited by Philip V. Bohlman and Bruno Nettl.) Chicago and London: University of Chicago Press, 1991, xxi plus 214 pp., music examples, photos, bibliography, index."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0274"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec5a",
+      "titleInfo": [
+        {
+          "title": "SHABA DIARY: A TRIP TO REDISCOVER THE 'KATANGA' GUITAR STYLES AND SONGS OF THE 1950s AND '60s, by John Low, Acta Ethnologica et Linguistica Nr.54, Ed. Engelbert Stiglmayr, Series Musicologica 4 Series Africana 16, Wien-Fohrenau, 1982. Co-eds: Franz Fodermayr, Anna Hohenwart-Gerlachstein, Gerhard Kubik, 125 pp., photo, music examples, bibliography, discography."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0275"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ecc3",
+      "titleInfo": [
+        {
+          "title": "From \"Noma Kumnyama\" to \"Pata Pata\": a history"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02de"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ecc6",
+      "titleInfo": [
+        {
+          "title": "On the musical patterning of sculpted words: exploring the relationship between melody and metre in a Somali poetic form"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02e1"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "bolivia",
+    "name": "Bolivia",
+    "count": 30
+  },
+  "timeline": [
+    {
+      "year": 2022,
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "count": 27
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2022,
+      "total": 3,
+      "byType": {
+        "Text": 3
+      }
+    },
+    {
+      "year": 2023,
+      "total": 27,
+      "byType": {
+        "Text": 26,
+        "Dataset": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 29
+    },
+    {
+      "name": "Dataset",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "value": 29
+    },
+    {
+      "name": "Spanish",
+      "value": 5
+    },
+    {
+      "name": "English",
+      "value": 1
+    },
+    {
+      "name": "French",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Literacy",
+      "value": 30
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Literacy",
+      "value": 30
+    },
+    {
+      "name": "Interaction",
+      "value": 30
+    },
+    {
+      "name": "Illiteracy",
+      "value": 30
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Krauß, Rebekka",
+      "value": 30
+    }
+  ]
+}

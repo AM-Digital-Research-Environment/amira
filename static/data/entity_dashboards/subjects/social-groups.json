@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "social-groups",
+    "name": "Social groups",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2021,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2021,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Administration of Justice",
+      "value": 2
+    },
+    {
+      "name": "Teenagers",
+      "value": 2
+    },
+    {
+      "name": "Youth",
+      "value": 2
+    },
+    {
+      "name": "Punishment",
+      "value": 2
+    },
+    {
+      "name": "Correctional institutions",
+      "value": 2
+    },
+    {
+      "name": "Juvenile delinquency",
+      "value": 2
+    },
+    {
+      "name": "Juvenile detention",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Administration of Justice",
+      "value": 2
+    },
+    {
+      "name": "Teenagers",
+      "value": 2
+    },
+    {
+      "name": "Youth",
+      "value": 2
+    },
+    {
+      "name": "Punishment",
+      "value": 2
+    },
+    {
+      "name": "Correctional institutions",
+      "value": 2
+    },
+    {
+      "name": "Juvenile delinquency",
+      "value": 2
+    },
+    {
+      "name": "Juvenile detention",
+      "value": 2
+    },
+    {
+      "name": "Deprivation of Liberty",
+      "value": 2
+    },
+    {
+      "name": "Preliminary Investigation",
+      "value": 2
+    },
+    {
+      "name": "Investigation Phase",
+      "value": 2
+    },
+    {
+      "name": "Enforcement of Decisions",
+      "value": 2
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Bationo, Bouma Fernand",
+      "value": 1
+    },
+    {
+      "name": "Bamouni, Pascal",
+      "value": 1
+    },
+    {
+      "name": "Samandoulgou, Basga",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Burkina Faso",
+      "region": "Centre",
+      "city": "Ouagadougou",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "69c1568e666e5b9f92cf9f6c",
+      "titleInfo": [
+        {
+          "title": "Rapport"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0014"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f7a",
+      "titleInfo": [
+        {
+          "title": "Communication"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0022"
+    }
+  ]
+}

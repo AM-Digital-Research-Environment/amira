@@ -1,0 +1,142 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "chech",
+    "name": "Chech",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2005,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2005,
+      "total": 2,
+      "byType": {
+        "Image": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 2
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Photography",
+      "value": 2
+    },
+    {
+      "name": "Anthropology",
+      "value": 2
+    },
+    {
+      "name": "Photographs",
+      "value": 2
+    },
+    {
+      "name": "Festivals",
+      "value": 1
+    },
+    {
+      "name": "Tuaregs",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Photography",
+      "value": 2
+    },
+    {
+      "name": "Anthropology",
+      "value": 2
+    },
+    {
+      "name": "Photographs",
+      "value": 2
+    },
+    {
+      "name": "Tagelmust",
+      "value": 2
+    },
+    {
+      "name": "Litham",
+      "value": 2
+    },
+    {
+      "name": "Turban",
+      "value": 2
+    },
+    {
+      "name": "Sammlung Gerd Spittler",
+      "value": 2
+    },
+    {
+      "name": "Festivals",
+      "value": 1
+    },
+    {
+      "name": "Festkleidung",
+      "value": 1
+    },
+    {
+      "name": "Tuaregs",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Collections@UBT",
+      "value": 2
+    },
+    {
+      "name": "Spittler, Gerd",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "Niger",
+      "region": "Agadez Region",
+      "city": "Iférouane",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "66d97447c610a95a80dd95ac",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0023"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95b6",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-002d"
+    }
+  ]
+}

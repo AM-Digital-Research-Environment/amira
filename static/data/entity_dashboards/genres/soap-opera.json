@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "type": "genre",
+    "id": "soap-opera",
+    "name": "Soap Opera",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1983,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1983,
+      "total": 1,
+      "byType": {
+        "Moving image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Moving image",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Love",
+      "value": 1
+    },
+    {
+      "name": "Arranged marriage",
+      "value": 1
+    },
+    {
+      "name": "Card games",
+      "value": 1
+    },
+    {
+      "name": "Travel",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Love",
+      "value": 1
+    },
+    {
+      "name": "Arranged marriage",
+      "value": 1
+    },
+    {
+      "name": "Card games",
+      "value": 1
+    },
+    {
+      "name": "Travel",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Soap Opera",
+      "value": 1
+    },
+    {
+      "name": "Live Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Liberia Broadcasting System (LBS)",
+      "value": 3
+    },
+    {
+      "name": "Government of Liberia",
+      "value": 2
+    },
+    {
+      "name": "Collins, Hawa Andrews",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Liberia",
+      "region": "Montserrado County",
+      "city": "Monrovia",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "6982337057a8e0353b0b1c3e",
+      "titleInfo": [
+        {
+          "title": "Dowry or Love, part 1"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0001"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cab",
+      "titleInfo": [
+        {
+          "title": "Spotlight"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-006e"
+    }
+  ]
+}

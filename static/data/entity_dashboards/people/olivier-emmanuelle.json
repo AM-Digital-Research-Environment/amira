@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "olivier-emmanuelle",
+    "name": "Olivier, Emmanuelle",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2007,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2007,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 1
+    },
+    {
+      "name": "Namibia",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ec9b",
+      "titleInfo": [
+        {
+          "title": "On polyphonic construction: An analysis of Ju|'hoan vocal music (Namibia)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02b6"
+    }
+  ]
+}

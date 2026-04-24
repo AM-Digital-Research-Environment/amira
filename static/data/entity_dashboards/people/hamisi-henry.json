@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "hamisi-henry",
+    "name": "Hamisi, Henry",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 1950,
+      "count": 3
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1950,
+      "total": 3,
+      "byType": {
+        "Audio": 3
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Audio",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "Swahili",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 3
+    },
+    {
+      "name": "Swahili language",
+      "value": 3
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Ethnomusicology",
+      "value": 3
+    },
+    {
+      "name": "Swahili language",
+      "value": 3
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "The Kiko Kids",
+      "value": 3
+    },
+    {
+      "name": "Jambo",
+      "value": 3
+    },
+    {
+      "name": "Ghana Broadcasting Corporation Gramophone Library",
+      "value": 3
+    },
+    {
+      "name": "East African Records Limited",
+      "value": 3
+    }
+  ],
+  "locations": [
+    {
+      "country": "Kenya",
+      "region": "",
+      "city": "",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "66c34de8ba20a6d8a816ace1",
+      "titleInfo": [
+        {
+          "title": "Peas"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-00e3"
+    },
+    {
+      "_id": "66c34de8ba20a6d8a816ace3",
+      "titleInfo": [
+        {
+          "title": "Dali Jongea"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-00e5"
+    },
+    {
+      "_id": "66c34de8ba20a6d8a816acf5",
+      "titleInfo": [
+        {
+          "title": "Majirani"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-00f7"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "chronological-trace",
+    "name": "Chronological Trace",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 1,
+      "byType": {
+        "Digital": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Digital",
+      "value": 1
+    }
+  ],
+  "languages": [],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "Curse of Ham",
+      "value": 1
+    },
+    {
+      "name": "Provenience",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Steppat, Michael",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a8ab2c85fe8df870fd",
+      "titleInfo": [
+        {
+          "title": "Tracing the Cure of Ham: A history of difference"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0006"
+    }
+  ]
+}

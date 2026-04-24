@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "hoesing-peter",
+    "name": "Hoesing, Peter",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2009,
+      "count": 1
+    },
+    {
+      "year": 2012,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2009,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2012,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Singing",
+      "value": 1
+    },
+    {
+      "name": "Ritual",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Singing",
+      "value": 1
+    },
+    {
+      "name": "Ritual",
+      "value": 1
+    },
+    {
+      "name": "Uganda",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ecbb",
+      "titleInfo": [
+        {
+          "title": "Kitaffe, 2007, Damascus Kafumbe, Endongo Records 751937326021. One compact disc (45:57) containing eight tracks, all composed, arranged and performed by Damascus Kafumbe. Liner notes include translations and interpretations by Damascus Kafumbe with eight colour photographs by Richard Duncan. Recorded, mixed and mastered by Troy Stoner at Ilmli Studios, Tallahassee, FL, USA. Available at Amazon, com, CDbaby.com, CDuniverse.com, musicimport.biz, and soon at endongo.com."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02d6"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed11",
+      "titleInfo": [
+        {
+          "title": "Kusamira: singing rituals of wellness in southern Uganda"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-032c"
+    }
+  ]
+}

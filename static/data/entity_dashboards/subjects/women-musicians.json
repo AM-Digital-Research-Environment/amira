@@ -1,0 +1,276 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "women-musicians",
+    "name": "Women musicians",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 1955,
+      "count": 1
+    },
+    {
+      "year": 2011,
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1955,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2011,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2019,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2023,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 4
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 4
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Musicians",
+      "value": 3
+    },
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Women",
+      "value": 2
+    },
+    {
+      "name": "Hausa (African people)",
+      "value": 2
+    },
+    {
+      "name": "Folk music",
+      "value": 1
+    },
+    {
+      "name": "Songs",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Dagaaba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Popular music",
+      "value": 1
+    },
+    {
+      "name": "Book reviews",
+      "value": 1
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Islamic music",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 4
+    },
+    {
+      "name": "Musicians",
+      "value": 3
+    },
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Women",
+      "value": 2
+    },
+    {
+      "name": "Hausa (African people)",
+      "value": 2
+    },
+    {
+      "name": "Hausa Music",
+      "value": 2
+    },
+    {
+      "name": "Nigeria",
+      "value": 2
+    },
+    {
+      "name": "Muslim Women",
+      "value": 2
+    },
+    {
+      "name": "Folk music",
+      "value": 1
+    },
+    {
+      "name": "Songs",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Shantu (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Dagaaba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Ghana",
+      "value": 1
+    },
+    {
+      "name": "Popular music",
+      "value": 1
+    },
+    {
+      "name": "Book reviews",
+      "value": 1
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Islamic music",
+      "value": 1
+    },
+    {
+      "name": "Yoruba Art",
+      "value": 1
+    },
+    {
+      "name": "Hausa-Fulani",
+      "value": 1
+    },
+    {
+      "name": "Ilorin",
+      "value": 1
+    },
+    {
+      "name": "Orin-kengbe (Music)",
+      "value": 1
+    },
+    {
+      "name": "Senwele (Music)",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Njoku, Obianuju Akunna",
+      "value": 2
+    },
+    {
+      "name": "Mackay, Mercedes",
+      "value": 1
+    },
+    {
+      "name": "Lawrence, Sidra",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 4
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ea0c",
+      "titleInfo": [
+        {
+          "title": "The Shantu music of the Harims of Nigeria"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0027"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ecfc",
+      "titleInfo": [
+        {
+          "title": "Sounds of development? race, authenticity, and tradition among Dagara female musicians in Northwestern Ghana"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0317"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edb0",
+      "titleInfo": [
+        {
+          "title": "Beverly B. Mack. Muslim Women Sing: Hausa Popular Song"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03cb"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ede0",
+      "titleInfo": [
+        {
+          "title": "TRANSCENDING THE SONIC AND THE TEXTUAL"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03fb"
+    }
+  ]
+}

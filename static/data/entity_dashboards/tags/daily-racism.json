@@ -1,0 +1,540 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "daily-racism",
+    "name": "Daily Racism",
+    "count": 17
+  },
+  "timeline": [
+    {
+      "year": 2008,
+      "count": 1
+    },
+    {
+      "year": 2013,
+      "count": 1
+    },
+    {
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "count": 11
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2008,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2013,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 2017,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 2018,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2020,
+      "total": 11,
+      "byType": {
+        "Image": 10,
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 13
+    },
+    {
+      "name": "Text",
+      "value": 4
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "value": 17
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Racism",
+      "value": 16
+    },
+    {
+      "name": "Culture",
+      "value": 5
+    },
+    {
+      "name": "Science",
+      "value": 1
+    },
+    {
+      "name": "Subconsciousness",
+      "value": 1
+    },
+    {
+      "name": "History",
+      "value": 1
+    },
+    {
+      "name": "Postcolonialism",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Local Press",
+      "value": 17
+    },
+    {
+      "name": "Racism",
+      "value": 16
+    },
+    {
+      "name": "Language",
+      "value": 14
+    },
+    {
+      "name": "Bayreuth",
+      "value": 12
+    },
+    {
+      "name": "Tradition",
+      "value": 10
+    },
+    {
+      "name": "Culture",
+      "value": 5
+    },
+    {
+      "name": "Carnival Society",
+      "value": 5
+    },
+    {
+      "name": "M*wäscherverein",
+      "value": 4
+    },
+    {
+      "name": "Society",
+      "value": 3
+    },
+    {
+      "name": "Colonialism",
+      "value": 2
+    },
+    {
+      "name": "Mohrenapotheke",
+      "value": 2
+    },
+    {
+      "name": "Memory Culture",
+      "value": 2
+    },
+    {
+      "name": "Science",
+      "value": 1
+    },
+    {
+      "name": "Geschichtswerkstatt",
+      "value": 1
+    },
+    {
+      "name": "History Workshop",
+      "value": 1
+    },
+    {
+      "name": "Subconsciousness",
+      "value": 1
+    },
+    {
+      "name": "History",
+      "value": 1
+    },
+    {
+      "name": "Kallenberghaus",
+      "value": 1
+    },
+    {
+      "name": "Local History",
+      "value": 1
+    },
+    {
+      "name": "Postcolonialism",
+      "value": 1
+    },
+    {
+      "name": "Cultural Heritage",
+      "value": 1
+    },
+    {
+      "name": "Asylum",
+      "value": 1
+    },
+    {
+      "name": "Agency",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kröniger, Arno",
+      "value": 1
+    },
+    {
+      "name": "Hutta, Jan",
+      "value": 1
+    },
+    {
+      "name": "Fink, Katharina",
+      "value": 1
+    },
+    {
+      "name": "Ouma, Stefan",
+      "value": 1
+    },
+    {
+      "name": "Tensing, Patrizia",
+      "value": 1
+    },
+    {
+      "name": "Busster, Henry",
+      "value": 1
+    },
+    {
+      "name": "Stiefler, Herlmut",
+      "value": 1
+    },
+    {
+      "name": "Düngferlder, Siggi",
+      "value": 1
+    },
+    {
+      "name": "Arndt, Susan",
+      "value": 1
+    },
+    {
+      "name": "Bowersox, Jeff",
+      "value": 1
+    },
+    {
+      "name": "Müller, Stefan",
+      "value": 1
+    },
+    {
+      "name": "Redaktion",
+      "value": 1
+    },
+    {
+      "name": "Waha, Eric",
+      "value": 1
+    },
+    {
+      "name": "Rothammel, Demian",
+      "value": 1
+    },
+    {
+      "name": "Söllner, Fritz",
+      "value": 1
+    },
+    {
+      "name": "Schmedt, Silas",
+      "value": 1
+    },
+    {
+      "name": "Krumpholz, Uwe",
+      "value": 1
+    },
+    {
+      "name": "Springfeld, Lars",
+      "value": 1
+    },
+    {
+      "name": "Haggeney, Henrike",
+      "value": 1
+    },
+    {
+      "name": "Müller-Jacquier, Bernd",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 15
+    },
+    {
+      "country": "Germany",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "692db49707481a28c72155b5",
+      "titleInfo": [
+        {
+          "title": "Erst der Mohr dann de Krippen"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-000d"
+    },
+    {
+      "_id": "692db49707481a28c72155b6",
+      "titleInfo": [
+        {
+          "title": "Die Konstruktion und Darstellung des \"Mohren\" in unterschiedlichen Räumen Bayreuths"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-000e"
+    },
+    {
+      "_id": "692db49707481a28c72155b7",
+      "titleInfo": [
+        {
+          "title": "Fehlende Selbsterkenntnis"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-000f"
+    },
+    {
+      "_id": "692db49707481a28c72155b8",
+      "titleInfo": [
+        {
+          "title": "M*wäscherverein: Umstrittener Vereinsname"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0010"
+    },
+    {
+      "_id": "692db49707481a28c72155b9",
+      "titleInfo": [
+        {
+          "title": "Zutiefst verletzt"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0011"
+    },
+    {
+      "_id": "692db49707481a28c72155ba",
+      "titleInfo": [
+        {
+          "title": "Die Kirche im Dorf lassen"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0012"
+    },
+    {
+      "_id": "692db49707481a28c72155bb",
+      "titleInfo": [
+        {
+          "title": "Gesellschaft sollte durch Floskeln nicht verblöden"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0013"
+    },
+    {
+      "_id": "692db49707481a28c72155bc",
+      "titleInfo": [
+        {
+          "title": "Nachdenken über Denkmäler"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0014"
+    },
+    {
+      "_id": "692db49707481a28c72155bd",
+      "titleInfo": [
+        {
+          "title": "Unbewusst ist jeder ein Rassist"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0015"
+    },
+    {
+      "_id": "692db49707481a28c72155be",
+      "titleInfo": [
+        {
+          "title": "Kritik an der Mohrenapotheke"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0016"
+    },
+    {
+      "_id": "692db49707481a28c72155bf",
+      "titleInfo": [
+        {
+          "title": "Bayreuther Mohrenwäscher: Vom Spottnamen zur Faschingsgesellschaft"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0017"
+    },
+    {
+      "_id": "692db49707481a28c72155c0",
+      "titleInfo": [
+        {
+          "title": "Protest gegen den Abbruch des Kallenberghauses"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0018"
+    },
+    {
+      "_id": "692db49707481a28c72155c1",
+      "titleInfo": [
+        {
+          "title": "Institution der Nacht: Die Mohre lebt"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0019"
+    },
+    {
+      "_id": "692db49707481a28c72155c2",
+      "titleInfo": [
+        {
+          "title": "Wir müssen reden"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-001a"
+    },
+    {
+      "_id": "692db49707481a28c72155c3",
+      "titleInfo": [
+        {
+          "title": "Hin zur Sprachpolizei"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-001b"
+    },
+    {
+      "_id": "692db49707481a28c72155c4",
+      "titleInfo": [
+        {
+          "title": "Lasst und reden!"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-001c"
+    },
+    {
+      "_id": "692db49707481a28c72155c5",
+      "titleInfo": [
+        {
+          "title": "Bayreuther Hinterlist"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-001d"
+    }
+  ]
+}

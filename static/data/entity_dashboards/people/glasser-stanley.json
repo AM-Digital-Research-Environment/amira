@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "glasser-stanley",
+    "name": "Glasser, Stanley",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1962,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1962,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9eabe",
+      "titleInfo": [
+        {
+          "title": "GRAHAM HYSLOP has written a magnificent and Nunc Dimittis (OUP, 1962) set to African melodies for S.A.T.B"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00d9"
+    }
+  ]
+}

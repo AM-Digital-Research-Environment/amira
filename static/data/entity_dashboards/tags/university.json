@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "university",
+    "name": "University",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2021,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2021,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Employability",
+      "value": 2
+    },
+    {
+      "name": "Business",
+      "value": 2
+    },
+    {
+      "name": "Communities",
+      "value": 2
+    },
+    {
+      "name": "Children",
+      "value": 2
+    },
+    {
+      "name": "Juvenile detention",
+      "value": 2
+    },
+    {
+      "name": "Juvenile delinquency",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Employability",
+      "value": 2
+    },
+    {
+      "name": "Business",
+      "value": 2
+    },
+    {
+      "name": "Communities",
+      "value": 2
+    },
+    {
+      "name": "Children",
+      "value": 2
+    },
+    {
+      "name": "Juvenile detention",
+      "value": 2
+    },
+    {
+      "name": "Juvenile delinquency",
+      "value": 2
+    },
+    {
+      "name": "Deprivation of Liberty",
+      "value": 2
+    },
+    {
+      "name": "Preliminary Investigation",
+      "value": 2
+    },
+    {
+      "name": "Investigation Phase",
+      "value": 2
+    },
+    {
+      "name": "Enforcement of Decisions",
+      "value": 2
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Bationo, Bouma Fernand",
+      "value": 2
+    },
+    {
+      "name": "Zerbo, Jeanna Amélie",
+      "value": 1
+    },
+    {
+      "name": "Traoré, Minata",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Burkina Faso",
+      "region": "Centre",
+      "city": "Ouagadougou",
+      "count": 1
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "Hauts-Bassins Region",
+      "city": "Bobo-Dioulasso",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "69c1568e666e5b9f92cf9f6d",
+      "titleInfo": [
+        {
+          "title": "Rapport"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0015"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f6f",
+      "titleInfo": [
+        {
+          "title": "Rapport"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0017"
+    }
+  ]
+}

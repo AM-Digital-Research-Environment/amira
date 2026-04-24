@@ -4,6 +4,7 @@ export { default as EntityBrowseGrid } from './EntityBrowseGrid.svelte';
 export { default as EntityToolbar } from './EntityToolbar.svelte';
 export { default as EntityDetailHeader } from './EntityDetailHeader.svelte';
 export { default as EntityItemsCard } from './EntityItemsCard.svelte';
+export { default as SearchableItemsCard } from './SearchableItemsCard.svelte';
 export { default as EntityEmptyHint } from './EntityEmptyHint.svelte';
 export type { EntitySort } from './EntityToolbar.svelte';
 export { applyEntitySort } from './sort.js';

@@ -1,0 +1,718 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "administration-of-justice",
+    "name": "Administration of Justice",
+    "count": 22
+  },
+  "timeline": [
+    {
+      "year": 2021,
+      "count": 20
+    },
+    {
+      "year": 2022,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2021,
+      "total": 20,
+      "byType": {
+        "Text": 20
+      }
+    },
+    {
+      "year": 2022,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 22
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 22
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Teenagers",
+      "value": 21
+    },
+    {
+      "name": "Punishment",
+      "value": 21
+    },
+    {
+      "name": "Youth",
+      "value": 20
+    },
+    {
+      "name": "Maintenance",
+      "value": 5
+    },
+    {
+      "name": "Prisons",
+      "value": 5
+    },
+    {
+      "name": "Children",
+      "value": 4
+    },
+    {
+      "name": "Juvenile detention",
+      "value": 4
+    },
+    {
+      "name": "Correctional institutions",
+      "value": 3
+    },
+    {
+      "name": "Juvenile delinquency",
+      "value": 3
+    },
+    {
+      "name": "Imams (Shiites)",
+      "value": 2
+    },
+    {
+      "name": "Social groups",
+      "value": 2
+    },
+    {
+      "name": "Government executives",
+      "value": 1
+    },
+    {
+      "name": "Child welfare",
+      "value": 1
+    },
+    {
+      "name": "Judges",
+      "value": 1
+    },
+    {
+      "name": "Juvenile courts",
+      "value": 1
+    },
+    {
+      "name": "Bobo (African people)",
+      "value": 1
+    },
+    {
+      "name": "Mediation",
+      "value": 1
+    },
+    {
+      "name": "Conflict management",
+      "value": 1
+    },
+    {
+      "name": "Corrections",
+      "value": 1
+    },
+    {
+      "name": "Communities",
+      "value": 1
+    },
+    {
+      "name": "Rehabilitation",
+      "value": 1
+    },
+    {
+      "name": "Reconciliation",
+      "value": 1
+    },
+    {
+      "name": "Courts",
+      "value": 1
+    },
+    {
+      "name": "Minors",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Teenagers",
+      "value": 21
+    },
+    {
+      "name": "Punishment",
+      "value": 21
+    },
+    {
+      "name": "Youth",
+      "value": 20
+    },
+    {
+      "name": "Manga",
+      "value": 6
+    },
+    {
+      "name": "Maintenance",
+      "value": 5
+    },
+    {
+      "name": "Prisons",
+      "value": 5
+    },
+    {
+      "name": "Children",
+      "value": 4
+    },
+    {
+      "name": "Juvenile detention",
+      "value": 4
+    },
+    {
+      "name": "Deprivation of Liberty",
+      "value": 4
+    },
+    {
+      "name": "Preliminary Investigation",
+      "value": 4
+    },
+    {
+      "name": "Investigation Phase",
+      "value": 4
+    },
+    {
+      "name": "Enforcement of Decisions",
+      "value": 4
+    },
+    {
+      "name": "Correctional institutions",
+      "value": 3
+    },
+    {
+      "name": "Juvenile delinquency",
+      "value": 3
+    },
+    {
+      "name": "Imams (Shiites)",
+      "value": 2
+    },
+    {
+      "name": "Bobo-Dioulasso",
+      "value": 2
+    },
+    {
+      "name": "Social groups",
+      "value": 2
+    },
+    {
+      "name": "Kaam Naaba",
+      "value": 1
+    },
+    {
+      "name": "Government executives",
+      "value": 1
+    },
+    {
+      "name": "Child welfare",
+      "value": 1
+    },
+    {
+      "name": "Commissioner",
+      "value": 1
+    },
+    {
+      "name": "Kolgweogo",
+      "value": 1
+    },
+    {
+      "name": "Judges",
+      "value": 1
+    },
+    {
+      "name": "Juvenile courts",
+      "value": 1
+    },
+    {
+      "name": "Bobo (African people)",
+      "value": 1
+    },
+    {
+      "name": "Community Insider",
+      "value": 1
+    },
+    {
+      "name": "Conflict",
+      "value": 1
+    },
+    {
+      "name": "Mediation",
+      "value": 1
+    },
+    {
+      "name": "Conflict management",
+      "value": 1
+    },
+    {
+      "name": "Conseil Villageois de Développement",
+      "value": 1
+    },
+    {
+      "name": "Court",
+      "value": 1
+    },
+    {
+      "name": "Corrections",
+      "value": 1
+    },
+    {
+      "name": "Catholic Church",
+      "value": 1
+    },
+    {
+      "name": "Bishop's Chaplain",
+      "value": 1
+    },
+    {
+      "name": "Balm Naam",
+      "value": 1
+    },
+    {
+      "name": "Communities",
+      "value": 1
+    },
+    {
+      "name": "Rehabilitation",
+      "value": 1
+    },
+    {
+      "name": "Reconciliation",
+      "value": 1
+    },
+    {
+      "name": "Courts",
+      "value": 1
+    },
+    {
+      "name": "Minors",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tapsoba, Tatiana Nadine",
+      "value": 13
+    },
+    {
+      "name": "Bationo, Bouma Fernand",
+      "value": 5
+    },
+    {
+      "name": "Samandoulgou, Basga",
+      "value": 3
+    },
+    {
+      "name": "Dipama, Emmanuel",
+      "value": 2
+    },
+    {
+      "name": "Bonkian, Bonfui",
+      "value": 2
+    },
+    {
+      "name": "Bouda, Bassirou",
+      "value": 2
+    },
+    {
+      "name": "Bourgou, Y. Gilbert",
+      "value": 2
+    },
+    {
+      "name": "Sawadogo, Hamidou",
+      "value": 2
+    },
+    {
+      "name": "Pitroipa, Clément",
+      "value": 2
+    },
+    {
+      "name": "Traoré, Seydou",
+      "value": 2
+    },
+    {
+      "name": "Sanon, Boukary",
+      "value": 2
+    },
+    {
+      "name": "Sanou, Issiaka",
+      "value": 2
+    },
+    {
+      "name": "Somé, Alban Balanoé",
+      "value": 2
+    },
+    {
+      "name": "Ouattara, Amadou",
+      "value": 2
+    },
+    {
+      "name": "Nana, Jean-Baptiste",
+      "value": 2
+    },
+    {
+      "name": "Compaoré, Ernest",
+      "value": 2
+    },
+    {
+      "name": "Ouédraogo, Djénéba",
+      "value": 2
+    },
+    {
+      "name": "Sanou, Doti Bruno",
+      "value": 2
+    },
+    {
+      "name": "Donatien, Millogo",
+      "value": 1
+    },
+    {
+      "name": "Sanou, Anselme Titiama",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Burkina Faso",
+      "region": "",
+      "city": "",
+      "count": 18
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "Centre",
+      "city": "Ouagadougou",
+      "count": 3
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "Sud-Ouest Region",
+      "city": "Gaoua",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "69c1568d666e5b9f92cf9f58",
+      "titleInfo": [
+        {
+          "title": "Synthèse d’entretien avec le kaam naaba"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0000"
+    },
+    {
+      "_id": "69c1568d666e5b9f92cf9f59",
+      "titleInfo": [
+        {
+          "title": "Synthèse d’entretien avec Monsieur Samandoulgou Basga"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0001"
+    },
+    {
+      "_id": "69c1568d666e5b9f92cf9f5a",
+      "titleInfo": [
+        {
+          "title": "Synthèse d'entretien avec le commissaire de la Brigade régionale de la protection de l’enfance (BRPE)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0002"
+    },
+    {
+      "_id": "69c1568d666e5b9f92cf9f5b",
+      "titleInfo": [
+        {
+          "title": "Synthèse d’entretien avec un élément du comité de Kolgweogo de Manga"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0003"
+    },
+    {
+      "_id": "69c1568d666e5b9f92cf9f5c",
+      "titleInfo": [
+        {
+          "title": "Synthèse d'entretien avec le magistrat, juge des enfants"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0004"
+    },
+    {
+      "_id": "69c1568d666e5b9f92cf9f5d",
+      "titleInfo": [
+        {
+          "title": "Synthèse d’entretien avec l'iman de Manga"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0005"
+    },
+    {
+      "_id": "69c1568d666e5b9f92cf9f5e",
+      "titleInfo": [
+        {
+          "title": "Synthèse d’entretien avec le Samandin Naaba de Ouagadougou"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0006"
+    },
+    {
+      "_id": "69c1568d666e5b9f92cf9f5f",
+      "titleInfo": [
+        {
+          "title": "Synthèse d’entretien avec un initié de la société Bobo"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0007"
+    },
+    {
+      "_id": "69c1568d666e5b9f92cf9f60",
+      "titleInfo": [
+        {
+          "title": "Synthese d’entretien le juge d’instruction du cabinet en charge des questions des enfants en conflits avec la loi; du Tribunal de Grande Instance de Ouaga 1"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0008"
+    },
+    {
+      "_id": "69c1568d666e5b9f92cf9f61",
+      "titleInfo": [
+        {
+          "title": "Synthèse de l’entretien avec Le  président CVD, intervenants dans la médiation et la gestion des conflits"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0009"
+    },
+    {
+      "_id": "69c1568d666e5b9f92cf9f62",
+      "titleInfo": [
+        {
+          "title": "Synthèse Générale des entretiens réalisés à Manga"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-000a"
+    },
+    {
+      "_id": "69c1568d666e5b9f92cf9f63",
+      "titleInfo": [
+        {
+          "title": "Synthèse Générale des entretiens réalisés à Ouaga"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-000b"
+    },
+    {
+      "_id": "69c1568d666e5b9f92cf9f64",
+      "titleInfo": [
+        {
+          "title": "Synthèse d’entretien avec madame la juge des enfants au tribunal de grande instance de Ouagadougou"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-000c"
+    },
+    {
+      "_id": "69c1568d666e5b9f92cf9f65",
+      "titleInfo": [
+        {
+          "title": "Synthèse d’entretien avec l’aumônier catholique au niveau de la maison d’arrêt et de correction de MANGA"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-000d"
+    },
+    {
+      "_id": "69c1568d666e5b9f92cf9f66",
+      "titleInfo": [
+        {
+          "title": "Synthèse d’entretien Balm Naaba de Manga"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-000e"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f67",
+      "titleInfo": [
+        {
+          "title": "Institutions judiciaires et adolescents au Burkina Faso:\ndes modèles de punitions endogènes et contemporaines"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-000f"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f68",
+      "titleInfo": [
+        {
+          "title": "Étude de recherche les modèles de punitions dans la communauté bobo de Bobo-Dioulasso"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0010"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f69",
+      "titleInfo": [
+        {
+          "title": "Réinsertion socio-professionnelle des détenus dans les maisons d’arrêt et de correction du Burkina Faso: cas de la Maison d’Arrêt et de Correction de Bobo-Dioulasso (MACB)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0011"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f6c",
+      "titleInfo": [
+        {
+          "title": "Rapport"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0014"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f6e",
+      "titleInfo": [
+        {
+          "title": "Rapport"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0016"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f78",
+      "titleInfo": [
+        {
+          "title": "Communication"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0020"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f7a",
+      "titleInfo": [
+        {
+          "title": "Communication"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0022"
+    }
+  ]
+}

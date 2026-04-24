@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "doblah-george",
+    "name": "Doblah, George",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1989,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1989,
+      "total": 1,
+      "byType": {
+        "Moving image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Moving image",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Religion",
+      "value": 2
+    },
+    {
+      "name": "Christianity",
+      "value": 2
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Choirs (Music)",
+      "value": 1
+    },
+    {
+      "name": "Gospel music",
+      "value": 1
+    },
+    {
+      "name": "Singing",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Religion",
+      "value": 2
+    },
+    {
+      "name": "Christianity",
+      "value": 2
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Choirs (Music)",
+      "value": 1
+    },
+    {
+      "name": "Gospel music",
+      "value": 1
+    },
+    {
+      "name": "Singing",
+      "value": 1
+    },
+    {
+      "name": "Live Music",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Government of Liberia",
+      "value": 2
+    },
+    {
+      "name": "Wessehutes, Jimmy",
+      "value": 2
+    },
+    {
+      "name": "Urey, Khrushchev Borbor",
+      "value": 2
+    },
+    {
+      "name": "McCrumada, Charles",
+      "value": 2
+    },
+    {
+      "name": "Wegee, Presley",
+      "value": 2
+    },
+    {
+      "name": "Taylor, Adolphus",
+      "value": 2
+    },
+    {
+      "name": "Kezele, Sumoiwuo",
+      "value": 1
+    },
+    {
+      "name": "Zonoe, Daniel",
+      "value": 1
+    },
+    {
+      "name": "Zor, David",
+      "value": 1
+    },
+    {
+      "name": "Flomo, Roland K.",
+      "value": 1
+    },
+    {
+      "name": "Bethel Presbyterian Church Choir",
+      "value": 1
+    },
+    {
+      "name": "Fakay, Soko",
+      "value": 1
+    },
+    {
+      "name": "Korvah, James",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Liberia",
+      "region": "Montserrado County",
+      "city": "Monrovia",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "6982337057a8e0353b0b1d25",
+      "titleInfo": [
+        {
+          "title": "Sunday Religious Music"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00e8"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1da6",
+      "titleInfo": [
+        {
+          "title": "The Gospel Time"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0169"
+    }
+  ]
+}

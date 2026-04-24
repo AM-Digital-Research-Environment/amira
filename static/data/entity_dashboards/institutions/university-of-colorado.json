@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "university-of-colorado",
+    "name": "University of Colorado",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2014,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2014,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "South Africa",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Okigbo, Austin",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ed41",
+      "titleInfo": [
+        {
+          "title": "Contesting cultural meaning in a post-apartheid South African HIV/AIDS music event"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-035c"
+    }
+  ]
+}

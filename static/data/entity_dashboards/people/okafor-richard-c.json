@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "okafor-richard-c",
+    "name": "Okafor, Richard C.",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1992,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1992,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Education",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Education",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ec52",
+      "titleInfo": [
+        {
+          "title": "Music in Nigerian education"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-026d"
+    }
+  ]
+}

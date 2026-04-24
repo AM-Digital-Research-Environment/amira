@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "acmrs-press",
+    "name": "ACMRS Press",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2017,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2023,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "South Africa",
+      "value": 2
+    },
+    {
+      "name": "Postcolonialism",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "South Africa",
+      "value": 2
+    },
+    {
+      "name": "Shakespeare",
+      "value": 2
+    },
+    {
+      "name": "Article",
+      "value": 2
+    },
+    {
+      "name": "Postcolonialism",
+      "value": 1
+    },
+    {
+      "name": "Postcolonial Studies",
+      "value": 1
+    },
+    {
+      "name": "Identity",
+      "value": 1
+    },
+    {
+      "name": "Titus Andronicus",
+      "value": 1
+    },
+    {
+      "name": "Post-apartheid",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Seeff, Adele",
+      "value": 2
+    },
+    {
+      "name": "ACMRS Press",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "United States of America",
+      "region": "Arizona",
+      "city": "Tempe",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a8ab2c85fe8df8711a",
+      "titleInfo": [
+        {
+          "title": "Race, Post-Race, Shakespeare, and South Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0023"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8711b",
+      "titleInfo": [
+        {
+          "title": "Titus Andronicus: South Africa's Shakespeare"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0024"
+    }
+  ]
+}

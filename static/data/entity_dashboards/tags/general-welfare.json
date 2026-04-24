@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "general-welfare",
+    "name": "General Welfare",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2022,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2022,
+      "total": 1,
+      "byType": {
+        "Digital": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Digital",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Economic development",
+      "value": 2
+    },
+    {
+      "name": "Well-being",
+      "value": 1
+    },
+    {
+      "name": "Health",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Economic development",
+      "value": 2
+    },
+    {
+      "name": "Well-being",
+      "value": 1
+    },
+    {
+      "name": "Health",
+      "value": 1
+    },
+    {
+      "name": "Microeconomics",
+      "value": 1
+    },
+    {
+      "name": "Health Development",
+      "value": 1
+    },
+    {
+      "name": "Water Project",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Frempong, Raymond Boadi",
+      "value": 1
+    },
+    {
+      "name": "Stadelmann, David",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "67211011e6fbc830d02e6afe",
+      "titleInfo": [
+        {
+          "title": "A micro-based evaluation of water projects"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-000d"
+    }
+  ]
+}

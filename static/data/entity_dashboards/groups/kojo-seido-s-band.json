@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "type": "group",
+    "id": "kojo-seido-s-band",
+    "name": "Kojo Seido's Band",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1950,
+      "count": 2
+    }
+  ],
+  "types": [
+    {
+      "name": "Audio",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "Twi",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "Twi (African people)",
+      "value": 2
+    },
+    {
+      "name": "Twi language",
+      "value": 2
+    },
+    {
+      "name": "Highlife (Music)",
+      "value": 1
+    },
+    {
+      "name": "Blues (Music)",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "Twi (African people)",
+      "value": 2
+    },
+    {
+      "name": "Twi language",
+      "value": 2
+    },
+    {
+      "name": "Highlife (Music)",
+      "value": 1
+    },
+    {
+      "name": "Blues (Music)",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "DECCA",
+      "value": 2
+    },
+    {
+      "name": "Ghana Broadcasting Corporation Gramophone Library",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "Ghana",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "66c34de8ba20a6d8a816acb4",
+      "titleInfo": [
+        {
+          "title": "Ankunam Ye Mo Bo"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-00b6"
+    },
+    {
+      "_id": "66c34de8ba20a6d8a816acb5",
+      "titleInfo": [
+        {
+          "title": "Akyikyiri Wasem Ye Mo Bo"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-00b7"
+    }
+  ]
+}

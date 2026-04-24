@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "music-trends",
+    "name": "Music Trends",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2013,
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2013,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2023,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Popular music",
+      "value": 1
+    },
+    {
+      "name": "Digital media",
+      "value": 1
+    },
+    {
+      "name": "Commodification",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Gospel music",
+      "value": 1
+    },
+    {
+      "name": "Islamic music",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Popular music",
+      "value": 1
+    },
+    {
+      "name": "Zimbabwe",
+      "value": 1
+    },
+    {
+      "name": "Postcolonial Zimbabwe",
+      "value": 1
+    },
+    {
+      "name": "Digital media",
+      "value": 1
+    },
+    {
+      "name": "Commodification",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Gospel music",
+      "value": 1
+    },
+    {
+      "name": "Islamic music",
+      "value": 1
+    },
+    {
+      "name": "Yoruba Art",
+      "value": 1
+    },
+    {
+      "name": "Yoruba Muslim",
+      "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    },
+    {
+      "name": "Musical Innovation",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Musiyiwa, Mickias",
+      "value": 1
+    },
+    {
+      "name": "Ogundipe, Stephen Toyin",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ed23",
+      "titleInfo": [
+        {
+          "title": "Hit songs and the dynamics of postcolonial Zimbabwe: a study in popular music trends, 1980-2009"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-033e"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ede2",
+      "titleInfo": [
+        {
+          "title": "CONTESTING NORMS"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03fd"
+    }
+  ]
+}

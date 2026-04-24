@@ -1,0 +1,664 @@
+{
+  "meta": {
+    "type": "genre",
+    "id": "book",
+    "name": "book",
+    "count": 12
+  },
+  "timeline": [
+    {
+      "year": 1973,
+      "count": 1
+    },
+    {
+      "year": 1992,
+      "count": 1
+    },
+    {
+      "year": 2004,
+      "count": 1
+    },
+    {
+      "year": 2007,
+      "count": 1
+    },
+    {
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1973,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1992,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2004,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2007,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2017,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2021,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2022,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2023,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 11
+    },
+    {
+      "name": "Image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 6
+    },
+    {
+      "name": "German",
+      "value": 4
+    },
+    {
+      "name": "French",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Books",
+      "value": 5
+    },
+    {
+      "name": "History",
+      "value": 3
+    },
+    {
+      "name": "Transcription",
+      "value": 2
+    },
+    {
+      "name": "Museums",
+      "value": 2
+    },
+    {
+      "name": "Sources",
+      "value": 2
+    },
+    {
+      "name": "Terrorism",
+      "value": 2
+    },
+    {
+      "name": "Dialogue",
+      "value": 2
+    },
+    {
+      "name": "Mediation",
+      "value": 2
+    },
+    {
+      "name": "Peace",
+      "value": 2
+    },
+    {
+      "name": "Antisemitism",
+      "value": 2
+    },
+    {
+      "name": "Jews",
+      "value": 2
+    },
+    {
+      "name": "National socialism",
+      "value": 2
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Architecture",
+      "value": 1
+    },
+    {
+      "name": "Painting",
+      "value": 1
+    },
+    {
+      "name": "Archives",
+      "value": 1
+    },
+    {
+      "name": "Antiquities",
+      "value": 1
+    },
+    {
+      "name": "Pottery",
+      "value": 1
+    },
+    {
+      "name": "West Africa",
+      "value": 1
+    },
+    {
+      "name": "International trade",
+      "value": 1
+    },
+    {
+      "name": "East Africa",
+      "value": 1
+    },
+    {
+      "name": "Glass",
+      "value": 1
+    },
+    {
+      "name": "Racism",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Books",
+      "value": 5
+    },
+    {
+      "name": "History",
+      "value": 3
+    },
+    {
+      "name": "Yoruba Art",
+      "value": 2
+    },
+    {
+      "name": "Transcription",
+      "value": 2
+    },
+    {
+      "name": "Museums",
+      "value": 2
+    },
+    {
+      "name": "Nigeria",
+      "value": 2
+    },
+    {
+      "name": "Sources",
+      "value": 2
+    },
+    {
+      "name": "Terrorism",
+      "value": 2
+    },
+    {
+      "name": "Dialogue",
+      "value": 2
+    },
+    {
+      "name": "Mediation",
+      "value": 2
+    },
+    {
+      "name": "Peace",
+      "value": 2
+    },
+    {
+      "name": "Germany",
+      "value": 2
+    },
+    {
+      "name": "Colonialism",
+      "value": 2
+    },
+    {
+      "name": "Antisemitism",
+      "value": 2
+    },
+    {
+      "name": "Jews",
+      "value": 2
+    },
+    {
+      "name": "National socialism",
+      "value": 2
+    },
+    {
+      "name": "Bayreuth",
+      "value": 2
+    },
+    {
+      "name": "World War II",
+      "value": 2
+    },
+    {
+      "name": "Holocaust",
+      "value": 2
+    },
+    {
+      "name": "Local History",
+      "value": 2
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Architecture",
+      "value": 1
+    },
+    {
+      "name": "Painting",
+      "value": 1
+    },
+    {
+      "name": "Wall Painting",
+      "value": 1
+    },
+    {
+      "name": "Archives",
+      "value": 1
+    },
+    {
+      "name": "National Archives",
+      "value": 1
+    },
+    {
+      "name": "Antiquities",
+      "value": 1
+    },
+    {
+      "name": "Osogbo",
+      "value": 1
+    },
+    {
+      "name": "African Studies",
+      "value": 1
+    },
+    {
+      "name": "Antiquities Dealer",
+      "value": 1
+    },
+    {
+      "name": "Pottery",
+      "value": 1
+    },
+    {
+      "name": "Art Collection",
+      "value": 1
+    },
+    {
+      "name": "Yoruba Pottery",
+      "value": 1
+    },
+    {
+      "name": "West Africa",
+      "value": 1
+    },
+    {
+      "name": "Currency",
+      "value": 1
+    },
+    {
+      "name": "Naira",
+      "value": 1
+    },
+    {
+      "name": "International trade",
+      "value": 1
+    },
+    {
+      "name": "East Africa",
+      "value": 1
+    },
+    {
+      "name": "Glass",
+      "value": 1
+    },
+    {
+      "name": "Global History",
+      "value": 1
+    },
+    {
+      "name": "Trade",
+      "value": 1
+    },
+    {
+      "name": "Glass Beads",
+      "value": 1
+    },
+    {
+      "name": "Racism",
+      "value": 1
+    },
+    {
+      "name": "Race Theory",
+      "value": 1
+    },
+    {
+      "name": "Richard Wagner",
+      "value": 1
+    },
+    {
+      "name": "Festspiele",
+      "value": 1
+    },
+    {
+      "name": "City Walk",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Beier, Ulli",
+      "value": 4
+    },
+    {
+      "name": "Some, Désiré Boniface",
+      "value": 2
+    },
+    {
+      "name": "Aas, Norbert",
+      "value": 2
+    },
+    {
+      "name": "Museum of Yoruba Pottery",
+      "value": 1
+    },
+    {
+      "name": "Coburger, Carla",
+      "value": 1
+    },
+    {
+      "name": "Harmattan",
+      "value": 1
+    },
+    {
+      "name": "Vierke, Ulf",
+      "value": 1
+    },
+    {
+      "name": "University of Bayreuth African Studies Online",
+      "value": 1
+    },
+    {
+      "name": "Hund, Wulf D.",
+      "value": 1
+    },
+    {
+      "name": "J.B. Metzler Verlag",
+      "value": 1
+    },
+    {
+      "name": "Paulus, Helmut",
+      "value": 1
+    },
+    {
+      "name": "Mayer, Bernd",
+      "value": 1
+    },
+    {
+      "name": "Pokorny, Siegfried",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 4
+    },
+    {
+      "country": "Germany",
+      "region": "",
+      "city": "",
+      "count": 4
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "Centre",
+      "city": "Ouagadougou",
+      "count": 2
+    },
+    {
+      "country": "Australia",
+      "region": "Australian Capital Territory",
+      "city": "Canberra",
+      "count": 1
+    },
+    {
+      "country": "Nigeria",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b488",
+      "titleInfo": [
+        {
+          "title": "Volume 8: Yoruba Architecture and Wall Painting. Digitaler Scan im Beier-Nachlass"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-99-0000"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b489",
+      "titleInfo": [
+        {
+          "title": "Abschrift von das Buch: Leopold Sedar Senghor (befindet sich in die National Archives, Canberra)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-99-0001"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b48a",
+      "titleInfo": [
+        {
+          "title": "Museum of Antiquities in Osogbo: A Project of the Institute of African Studies, University of Ife"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-99-0002"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b48b",
+      "titleInfo": [
+        {
+          "title": "The Rietbeg Museum and the Antiquities Dealer"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-99-0003"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b48c",
+      "titleInfo": [
+        {
+          "title": "Collection of Ulli and Georgina Beier"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-99-0004"
+    },
+    {
+      "_id": "674dba652e70d1e383d18ae4",
+      "titleInfo": [
+        {
+          "title": "Selected pages from Sven-Olof John's Nigerian currencies: Manillas cowries and others"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0001"
+    },
+    {
+      "_id": "6734bd18b9dbcc3cc179feb4",
+      "titleInfo": [
+        {
+          "title": "Le terrorisme au Burkina Faso: négocier ou pas?"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_SEDPaix2022",
+        "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
+      },
+      "dre_id": "acq-03-0000"
+    },
+    {
+      "_id": "6734bd19b9dbcc3cc179feb5",
+      "titleInfo": [
+        {
+          "title": "Le terrorisme au Burkina Faso: négocier ou pas?"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_SEDPaix2022",
+        "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
+      },
+      "dre_id": "acq-03-0001"
+    },
+    {
+      "_id": "692db49707481a28c72155a8",
+      "titleInfo": [
+        {
+          "title": "Die Spur der Glasperlen"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0000"
+    },
+    {
+      "_id": "692db49707481a28c72155b2",
+      "titleInfo": [
+        {
+          "title": "Wie die Deutschen Weiss wurden"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-000a"
+    },
+    {
+      "_id": "692db49707481a28c72155ce",
+      "titleInfo": [
+        {
+          "title": "Juden in Bayreuth: Verfolgung, Vertreibung - und das Danach"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0026"
+    },
+    {
+      "_id": "692db49707481a28c72155cf",
+      "titleInfo": [
+        {
+          "title": "Bayreuth- umgeguckt und hinterfragt: Ein kritischer Spaziergang durch die Geschichte der Stadt Bayreuth"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0027"
+    }
+  ]
+}

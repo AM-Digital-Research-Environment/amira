@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "poland",
+    "name": "Poland",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2018,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2018,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "Shakespeare",
+      "value": 1
+    },
+    {
+      "name": "Warlikowski",
+      "value": 1
+    },
+    {
+      "name": "Polish Contemporary Theatre",
+      "value": 1
+    },
+    {
+      "name": "Exclusion",
+      "value": 1
+    },
+    {
+      "name": "Identity",
+      "value": 1
+    },
+    {
+      "name": "Article",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Figzał-Janikowska, Magdalena",
+      "value": 1
+    },
+    {
+      "name": "Fundación Universitaria Española",
+      "value": 1
+    }
+  ]
+}

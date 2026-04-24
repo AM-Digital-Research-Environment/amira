@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "german-embassy-lagos",
+    "name": "German Embassy, Lagos",
+    "count": 6
+  },
+  "timeline": [
+    {
+      "year": 1965,
+      "count": 6
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1965,
+      "total": 6,
+      "byType": {
+        "Text": 6
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 6
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "value": 6
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "Nigeria",
+      "value": 6
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Stephan, Klaus",
+      "value": 6
+    },
+    {
+      "name": "Dreissig, Hans",
+      "value": 4
+    },
+    {
+      "name": "Wand, Karl",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "Nigeria",
+      "region": "Oyo State",
+      "city": "Ibadan",
+      "count": 4
+    },
+    {
+      "country": "Nigeria",
+      "region": "Lagos State",
+      "city": "Lagos",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "6705340c4b98fee5873b442a",
+      "titleInfo": [
+        {
+          "title": "Note Stephan_Wand"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-001d"
+    },
+    {
+      "_id": "6705340c4b98fee5873b4443",
+      "titleInfo": [
+        {
+          "title": "Letter Stephan_Dreissig 1965"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-0036"
+    },
+    {
+      "_id": "6705340c4b98fee5873b4447",
+      "titleInfo": [
+        {
+          "title": "Letter Dreissig_Stephan 1965"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-003a"
+    },
+    {
+      "_id": "6705340c4b98fee5873b445a",
+      "titleInfo": [
+        {
+          "title": "Note Stephan_Wand"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-004d"
+    },
+    {
+      "_id": "6705340c4b98fee5873b4473",
+      "titleInfo": [
+        {
+          "title": "Letter Stephan_Dreissig 1965"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-0066"
+    },
+    {
+      "_id": "6705340c4b98fee5873b4477",
+      "titleInfo": [
+        {
+          "title": "Letter Dreissig_Stephan 1965"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-006a"
+    }
+  ]
+}

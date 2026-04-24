@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "type": "genre",
+    "id": "postcard",
+    "name": "postcard",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2014,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2014,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Interior decoration",
+      "value": 1
+    },
+    {
+      "name": "Women",
+      "value": 1
+    },
+    {
+      "name": "Photographs",
+      "value": 1
+    },
+    {
+      "name": "Art",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Interior decoration",
+      "value": 1
+    },
+    {
+      "name": "Women",
+      "value": 1
+    },
+    {
+      "name": "Photographs",
+      "value": 1
+    },
+    {
+      "name": "Art",
+      "value": 1
+    },
+    {
+      "name": "Family Photograph",
+      "value": 1
+    },
+    {
+      "name": "Sydney",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Greven, Katharina",
+      "value": 1
+    },
+    {
+      "name": "Beier, Georgina",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Australia",
+      "region": "New South Wales",
+      "city": "Sydney",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b537",
+      "titleInfo": [
+        {
+          "title": "Wand in der Küche in Sydney mit Fotografien der Familie"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-00af"
+    }
+  ]
+}

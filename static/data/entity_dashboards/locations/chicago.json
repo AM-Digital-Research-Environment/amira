@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "chicago",
+    "name": "Chicago",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2004,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2004,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Drama",
+      "value": 1
+    },
+    {
+      "name": "Poetry",
+      "value": 1
+    },
+    {
+      "name": "Book reviews",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Drama",
+      "value": 1
+    },
+    {
+      "name": "Poetry",
+      "value": 1
+    },
+    {
+      "name": "Book reviews",
+      "value": 1
+    },
+    {
+      "name": "Elizabeth I",
+      "value": 1
+    },
+    {
+      "name": "Elizabethan Era",
+      "value": 1
+    },
+    {
+      "name": "Jacobean Era",
+      "value": 1
+    },
+    {
+      "name": "King James I",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Crouch, Patricia",
+      "value": 1
+    },
+    {
+      "name": "University of Chicago Press",
+      "value": 1
+    }
+  ]
+}

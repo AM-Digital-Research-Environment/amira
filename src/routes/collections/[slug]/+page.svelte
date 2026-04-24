@@ -4,7 +4,12 @@
 	import { base } from '$app/paths';
 	import { onMount } from 'svelte';
 	import { ArrowLeft, LayoutGrid, MapPin, Clock } from '@lucide/svelte';
-	import { allCollections, enrichedLocations, ensureEnrichedLocations } from '$lib/stores/data';
+	import {
+		allCollections,
+		enrichedLocations,
+		ensureEnrichedLocations,
+		ensureCollections
+	} from '$lib/stores/data';
 	import { filterItemsForCollection } from '$lib/utils/featuredCollectionLoader';
 	import {
 		itemsWithPreview,
@@ -215,8 +220,10 @@
 		pushPhotoToUrl(visibleItems[lightboxIndex]._id);
 	}
 
-	// Map view needs enriched coordinates — fetch lazily.
+	// Map view needs enriched coordinates + the full collections dump —
+	// fetch both lazily.
 	onMount(() => {
+		void ensureCollections(base);
 		ensureEnrichedLocations(base);
 	});
 

@@ -1,0 +1,233 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "music-education",
+    "name": "Music Education",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 1996,
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1996,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2019,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2025,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 4
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 4
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Education",
+      "value": 3
+    },
+    {
+      "name": "Decolonisation",
+      "value": 3
+    },
+    {
+      "name": "Book reviews",
+      "value": 1
+    },
+    {
+      "name": "Curriculum planning",
+      "value": 1
+    },
+    {
+      "name": "Brass bands",
+      "value": 1
+    },
+    {
+      "name": "Musicians",
+      "value": 1
+    },
+    {
+      "name": "Archives",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 4
+    },
+    {
+      "name": "Education",
+      "value": 3
+    },
+    {
+      "name": "Decolonisation",
+      "value": 3
+    },
+    {
+      "name": "Pedagogy",
+      "value": 2
+    },
+    {
+      "name": "Book reviews",
+      "value": 1
+    },
+    {
+      "name": "Curriculum planning",
+      "value": 1
+    },
+    {
+      "name": "Decolonial Practice",
+      "value": 1
+    },
+    {
+      "name": "Curriculum",
+      "value": 1
+    },
+    {
+      "name": "Brass bands",
+      "value": 1
+    },
+    {
+      "name": "Transgressive Learning",
+      "value": 1
+    },
+    {
+      "name": "Indigenous Knowledge System",
+      "value": 1
+    },
+    {
+      "name": "Musicians",
+      "value": 1
+    },
+    {
+      "name": "Archives",
+      "value": 1
+    },
+    {
+      "name": "Decolonial Music Education",
+      "value": 1
+    },
+    {
+      "name": "Community-based Music Knowledge",
+      "value": 1
+    },
+    {
+      "name": "Western Music Knowledge Frameworks",
+      "value": 1
+    },
+    {
+      "name": "Community Musicians",
+      "value": 1
+    },
+    {
+      "name": "Living Archives",
+      "value": 1
+    },
+    {
+      "name": "Uganda",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dargie, David",
+      "value": 1
+    },
+    {
+      "name": "Carver, Mandy",
+      "value": 1
+    },
+    {
+      "name": "Dordzro, John-Doe",
+      "value": 1
+    },
+    {
+      "name": "Makwa, Dominic D. B.",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 4
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ec71",
+      "titleInfo": [
+        {
+          "title": "African methods of music education: some reflections"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-028c"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edb1",
+      "titleInfo": [
+        {
+          "title": "Akuno, Emily Achieng'. Music Education in Africa: Concept, Process, and Practice"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03cc"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ede8",
+      "titleInfo": [
+        {
+          "title": "Adaptation of indigenous approaches to music pedagogy"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0403"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edeb",
+      "titleInfo": [
+        {
+          "title": "Harnessing community musicians as living archives for “sustainable” teaching and learning of Ugandan musics at Makerere University"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0406"
+    }
+  ]
+}

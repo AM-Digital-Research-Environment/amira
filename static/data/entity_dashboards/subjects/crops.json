@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "crops",
+    "name": "Crops",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1990,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1990,
+      "total": 1,
+      "byType": {
+        "Moving image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Moving image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Agriculture",
+      "value": 1
+    },
+    {
+      "name": "Food",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Agriculture",
+      "value": 1
+    },
+    {
+      "name": "Food",
+      "value": 1
+    },
+    {
+      "name": "Farming",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Liberia Broadcasting System (LBS)",
+      "value": 1
+    },
+    {
+      "name": "Forh, Juah",
+      "value": 1
+    },
+    {
+      "name": "Government of Liberia",
+      "value": 1
+    },
+    {
+      "name": "Collins, Hawa Andrews",
+      "value": 1
+    },
+    {
+      "name": "ELTV Productions (Liberia)",
+      "value": 1
+    },
+    {
+      "name": "Stevens, David F.",
+      "value": 1
+    },
+    {
+      "name": "Flomo, Korkulor",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Liberia",
+      "region": "Montserrado County",
+      "city": "Monrovia",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "6982337057a8e0353b0b1cb0",
+      "titleInfo": [
+        {
+          "title": "Food from the Soil"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0073"
+    }
+  ]
+}

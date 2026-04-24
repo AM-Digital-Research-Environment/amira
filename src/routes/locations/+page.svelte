@@ -14,14 +14,21 @@
 		EntityBrowseGrid,
 		EntityToolbar,
 		EntityDetailHeader,
-		EntityItemsCard,
+		SearchableItemsCard,
 		applyEntitySort,
 		type EntitySort
 	} from '$lib/components/entity-browse';
-	import { allCollections, enrichedLocations, ensureEnrichedLocations } from '$lib/stores/data';
+	import {
+		allCollections,
+		enrichedLocations,
+		ensureEnrichedLocations,
+		ensureCollections
+	} from '$lib/stores/data';
 	import { onMount } from 'svelte';
 	import { base } from '$app/paths';
+	import { createEntityDetailState } from '$lib/utils/loaders';
 	import { MiniMap, EntityKnowledgeGraph } from '$lib/components/charts';
+	import { EntityDashboardSection } from '$lib/components/dashboards';
 	import { page } from '$app/stores';
 	import { createUrlSelection, scrollToTop } from '$lib/utils/urlSelection';
 	import { createSearchFilter } from '$lib/utils/search';
@@ -35,6 +42,11 @@
 
 	onMount(() => {
 		void ensureEnrichedLocations(base);
+		if (!selectedName) void ensureCollections(base);
+	});
+
+	$effect(() => {
+		if (!selectedName) void ensureCollections(base);
 	});
 
 	let searchQuery = $state('');
@@ -127,6 +139,8 @@
 	const searchLocations = createSearchFilter<LocationData>([(l) => l.name, (l) => l.country]);
 	let visibleLocations = $derived(applyEntitySort(searchLocations(currentList, searchQuery), sort));
 
+	const detail = createEntityDetailState('location', () => selectedName);
+
 	let selectedLocation = $derived.by((): LocationData | null => {
 		if (!selectedName) return null;
 		if (locationIndex.countries.has(selectedName))
@@ -139,6 +153,18 @@
 		}
 		for (const loc of locationIndex.current.values()) {
 			if (loc.name === selectedName) return loc;
+		}
+		// Fallback when collections aren't loaded yet: synthesise the location
+		// from the per-entity JSON so the detail view can render immediately.
+		// The specific sub-type (country/region/city/current) is unknown here,
+		// so default to 'country' — the most common bucket in the dataset.
+		if (detail.data?.meta) {
+			return {
+				name: detail.data.meta.name ?? selectedName,
+				type: 'country',
+				count: detail.data.meta.count ?? 0,
+				items: detail.items
+			};
 		}
 		return null;
 	});
@@ -475,7 +501,15 @@
 				</Card>
 			{/if}
 
-			<EntityItemsCard items={selectedLocation.items} showProject={true} />
+			<SearchableItemsCard items={selectedLocation.items} />
+
+			<EntityDashboardSection
+				entityType="location"
+				entityId={selectedLocation.name}
+				items={selectedLocation.items}
+				enrichedLocations={$enrichedLocations}
+				data={detail.data}
+			/>
 
 			<EntityKnowledgeGraph
 				entityType="location"

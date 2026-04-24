@@ -1,0 +1,257 @@
+{
+  "meta": {
+    "type": "genre",
+    "id": "art-event-invitation",
+    "name": "Art event invitation",
+    "count": 5
+  },
+  "timeline": [
+    {
+      "year": 1961,
+      "count": 2
+    },
+    {
+      "year": 1962,
+      "count": 2
+    },
+    {
+      "year": 1983,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1961,
+      "total": 2,
+      "byType": {
+        "Image": 2
+      }
+    },
+    {
+      "year": 1962,
+      "total": 2,
+      "byType": {
+        "Image": 2
+      }
+    },
+    {
+      "year": 1983,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 5
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 5
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Art",
+      "value": 5
+    },
+    {
+      "name": "Painting",
+      "value": 5
+    },
+    {
+      "name": "Africa",
+      "value": 5
+    },
+    {
+      "name": "Exhibitions",
+      "value": 4
+    },
+    {
+      "name": "Artists",
+      "value": 4
+    },
+    {
+      "name": "Invitation cards",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Art",
+      "value": 5
+    },
+    {
+      "name": "Painting",
+      "value": 5
+    },
+    {
+      "name": "Africa",
+      "value": 5
+    },
+    {
+      "name": "Exhibitions",
+      "value": 4
+    },
+    {
+      "name": "Artists",
+      "value": 4
+    },
+    {
+      "name": "Art Exhibition",
+      "value": 4
+    },
+    {
+      "name": "Ibadan",
+      "value": 4
+    },
+    {
+      "name": "Nigeria",
+      "value": 4
+    },
+    {
+      "name": "Art Collector",
+      "value": 4
+    },
+    {
+      "name": "Art Collecting",
+      "value": 4
+    },
+    {
+      "name": "The Mbari Club",
+      "value": 3
+    },
+    {
+      "name": "Invitation",
+      "value": 3
+    },
+    {
+      "name": "Performing Arts Center",
+      "value": 3
+    },
+    {
+      "name": "Invitation cards",
+      "value": 2
+    },
+    {
+      "name": "Cultural Centre",
+      "value": 2
+    },
+    {
+      "name": "Iwalewahaus",
+      "value": 1
+    },
+    {
+      "name": "Folk Art",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Beier, Ulli",
+      "value": 5
+    },
+    {
+      "name": "Greven, Katharina",
+      "value": 5
+    },
+    {
+      "name": "Beier, Georgina",
+      "value": 1
+    },
+    {
+      "name": "Rossem, Ru van",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Nigeria",
+      "region": "Oyo State",
+      "city": "Ibadan",
+      "count": 4
+    },
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b4a5",
+      "titleInfo": [
+        {
+          "title": "Einladungskarte zu der Ausstellungseröffnung Glücklose Köpfe im Januar 1983 im Iwalewahaus, Bayreuth"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-001d"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4a6",
+      "titleInfo": [
+        {
+          "title": "Einladungskarte für Georgina Beiers Ausstellung in Ibadan"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-001e"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4a8",
+      "titleInfo": [
+        {
+          "title": "Einladung zur Eröffnung des Mbari Artists and Writers Club"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0020"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4aa",
+      "titleInfo": [
+        {
+          "title": "Einladung zur Eröffnung der Ausstellung von Ru van Rossem 1961 in Ibadan"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0022"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4ab",
+      "titleInfo": [
+        {
+          "title": "Einladung zur Eröffnung der Ausstellung von Nigerian Folk Art 1962"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0023"
+    }
+  ]
+}

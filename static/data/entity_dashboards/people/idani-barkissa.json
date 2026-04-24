@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "idani-barkissa",
+    "name": "Idani, Barkissa",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2023,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2023,
+      "total": 2,
+      "byType": {
+        "Text": 1,
+        "Audio": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    },
+    {
+      "name": "Audio",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Emigration and immigration",
+      "value": 2
+    },
+    {
+      "name": "Border security",
+      "value": 2
+    },
+    {
+      "name": "Violence",
+      "value": 2
+    },
+    {
+      "name": "Terrorism",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Emigration and immigration",
+      "value": 2
+    },
+    {
+      "name": "Border security",
+      "value": 2
+    },
+    {
+      "name": "Violence",
+      "value": 2
+    },
+    {
+      "name": "Terrorism",
+      "value": 2
+    },
+    {
+      "name": "Migration Control",
+      "value": 2
+    },
+    {
+      "name": "(Im)mobility",
+      "value": 2
+    },
+    {
+      "name": "Impact",
+      "value": 2
+    },
+    {
+      "name": "Border",
+      "value": 2
+    },
+    {
+      "name": "Migration",
+      "value": 2
+    },
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 2
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Onadja, Joachim",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "Burkina Faso",
+      "region": "Est Region",
+      "city": "Fada N'Gourma",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "69bd79b633f04aa0e9567f08",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Idani Barkissa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0008"
+    },
+    {
+      "_id": "69bd79b833f04aa0e9567f33",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Idani Barkissa"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0033"
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "braga-carla",
+    "name": "Braga, Carla",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2021,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2022,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Herders",
+      "value": 1
+    },
+    {
+      "name": "Vaccination",
+      "value": 1
+    },
+    {
+      "name": "Travel",
+      "value": 1
+    },
+    {
+      "name": "Livestock",
+      "value": 1
+    },
+    {
+      "name": "Tourism",
+      "value": 1
+    },
+    {
+      "name": "Social distancing (Public health)",
+      "value": 1
+    },
+    {
+      "name": "Conservation",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 2
+    },
+    {
+      "name": "Herders",
+      "value": 1
+    },
+    {
+      "name": "Vaccination",
+      "value": 1
+    },
+    {
+      "name": "Travel",
+      "value": 1
+    },
+    {
+      "name": "Livestock",
+      "value": 1
+    },
+    {
+      "name": "Lockdown",
+      "value": 1
+    },
+    {
+      "name": "Pastoralist",
+      "value": 1
+    },
+    {
+      "name": "Sudanese Resistance Committees",
+      "value": 1
+    },
+    {
+      "name": "Mobility",
+      "value": 1
+    },
+    {
+      "name": "Protest",
+      "value": 1
+    },
+    {
+      "name": "Sudan",
+      "value": 1
+    },
+    {
+      "name": "Politics",
+      "value": 1
+    },
+    {
+      "name": "Tourism",
+      "value": 1
+    },
+    {
+      "name": "Social distancing (Public health)",
+      "value": 1
+    },
+    {
+      "name": "Conservation",
+      "value": 1
+    },
+    {
+      "name": "Conservancy",
+      "value": 1
+    },
+    {
+      "name": "Maputo National Park",
+      "value": 1
+    },
+    {
+      "name": "Management Impact",
+      "value": 1
+    },
+    {
+      "name": "Mozambique",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Kronenburg García, Angela",
+      "value": 2
+    },
+    {
+      "name": "Pase, Andrea",
+      "value": 2
+    },
+    {
+      "name": "Behrends, Andrea",
+      "value": 2
+    },
+    {
+      "name": "Abd ElWahid Abd ElRahim, Ahmed",
+      "value": 1
+    },
+    {
+      "name": "Gargallo, Eduard",
+      "value": 1
+    },
+    {
+      "name": "Agyei-Mensah, Juliana",
+      "value": 1
+    },
+    {
+      "name": "Bautdinova, Iuliia",
+      "value": 1
+    },
+    {
+      "name": "Moschetti, Marta",
+      "value": 1
+    },
+    {
+      "name": "Tas Kronenburg, Zaira",
+      "value": 1
+    },
+    {
+      "name": "Hashimshony Yaffe, Nurit",
+      "value": 1
+    },
+    {
+      "name": "Pepa, Mariasole",
+      "value": 1
+    },
+    {
+      "name": "Roque de Pinho, Joana",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Sudan",
+      "region": "",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "Mozambique",
+      "region": "Maputo Province",
+      "city": "Maputo National Park",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "66cefaf495a000d4c7bf3723",
+      "titleInfo": [
+        {
+          "title": "Ahmed Abd ElWahid Abd ElRahim's transcript (report) on Sudan, March 22, 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-001e"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3728",
+      "titleInfo": [
+        {
+          "title": "Zaira Tas Kronenburg's Zoom meeting on Mozambique, July 18, 2022"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0023"
+    }
+  ]
+}

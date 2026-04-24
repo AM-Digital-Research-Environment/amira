@@ -1,0 +1,336 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "bayankhongor-province",
+    "name": "Bayankhongor Province",
+    "count": 10
+  },
+  "timeline": [
+    {
+      "year": 2021,
+      "count": 4
+    },
+    {
+      "year": 2022,
+      "count": 5
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2021,
+      "total": 4,
+      "byType": {
+        "Text": 4
+      }
+    },
+    {
+      "year": 2022,
+      "total": 5,
+      "byType": {
+        "Text": 5
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 10
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 10
+    },
+    {
+      "name": "Mongolian",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Herders",
+      "value": 8
+    },
+    {
+      "name": "Arid regions",
+      "value": 7
+    },
+    {
+      "name": "Travel",
+      "value": 4
+    },
+    {
+      "name": "Schools",
+      "value": 4
+    },
+    {
+      "name": "Livestock",
+      "value": 4
+    },
+    {
+      "name": "Vaccination",
+      "value": 3
+    },
+    {
+      "name": "Education",
+      "value": 3
+    },
+    {
+      "name": "Prices",
+      "value": 3
+    },
+    {
+      "name": "Weather",
+      "value": 3
+    },
+    {
+      "name": "Food security",
+      "value": 3
+    },
+    {
+      "name": "Local government",
+      "value": 3
+    },
+    {
+      "name": "Households",
+      "value": 2
+    },
+    {
+      "name": "Elections",
+      "value": 2
+    },
+    {
+      "name": "Festivals",
+      "value": 2
+    },
+    {
+      "name": "Youth",
+      "value": 2
+    },
+    {
+      "name": "Democracy",
+      "value": 1
+    },
+    {
+      "name": "Labor",
+      "value": 1
+    },
+    {
+      "name": "Agriculture",
+      "value": 1
+    },
+    {
+      "name": "Communication",
+      "value": 1
+    },
+    {
+      "name": "Disasters",
+      "value": 1
+    },
+    {
+      "name": "Higher education",
+      "value": 1
+    },
+    {
+      "name": "Religion",
+      "value": 1
+    },
+    {
+      "name": "Hygiene",
+      "value": 1
+    },
+    {
+      "name": "Grazing",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Mongolia",
+      "value": 10
+    },
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 10
+    },
+    {
+      "name": "Herders",
+      "value": 8
+    },
+    {
+      "name": "Arid regions",
+      "value": 7
+    },
+    {
+      "name": "Lockdown",
+      "value": 6
+    },
+    {
+      "name": "Travel",
+      "value": 4
+    },
+    {
+      "name": "Mobility",
+      "value": 4
+    },
+    {
+      "name": "Schools",
+      "value": 4
+    },
+    {
+      "name": "Livestock",
+      "value": 4
+    },
+    {
+      "name": "Pastoralist",
+      "value": 3
+    },
+    {
+      "name": "Vaccination",
+      "value": 3
+    },
+    {
+      "name": "Education",
+      "value": 3
+    },
+    {
+      "name": "Prices",
+      "value": 3
+    },
+    {
+      "name": "Weather",
+      "value": 3
+    },
+    {
+      "name": "Food security",
+      "value": 3
+    },
+    {
+      "name": "Local government",
+      "value": 3
+    },
+    {
+      "name": "Households",
+      "value": 2
+    },
+    {
+      "name": "Elections",
+      "value": 2
+    },
+    {
+      "name": "Festivals",
+      "value": 2
+    },
+    {
+      "name": "Tsagaan Sar",
+      "value": 2
+    },
+    {
+      "name": "Youth",
+      "value": 2
+    },
+    {
+      "name": "Funeral Custom",
+      "value": 2
+    },
+    {
+      "name": "Funeral Rite",
+      "value": 2
+    },
+    {
+      "name": "COVID-19",
+      "value": 1
+    },
+    {
+      "name": "Sociality",
+      "value": 1
+    },
+    {
+      "name": "Economy",
+      "value": 1
+    },
+    {
+      "name": "Democracy",
+      "value": 1
+    },
+    {
+      "name": "Naadam",
+      "value": 1
+    },
+    {
+      "name": "Labor",
+      "value": 1
+    },
+    {
+      "name": "International Trade",
+      "value": 1
+    },
+    {
+      "name": "Household Income",
+      "value": 1
+    },
+    {
+      "name": "Agriculture",
+      "value": 1
+    },
+    {
+      "name": "Communication",
+      "value": 1
+    },
+    {
+      "name": "Disasters",
+      "value": 1
+    },
+    {
+      "name": "Higher education",
+      "value": 1
+    },
+    {
+      "name": "Dzud (Mongolia)",
+      "value": 1
+    },
+    {
+      "name": "Religion",
+      "value": 1
+    },
+    {
+      "name": "Hygiene",
+      "value": 1
+    },
+    {
+      "name": "Border",
+      "value": 1
+    },
+    {
+      "name": "Trade Practices",
+      "value": 1
+    },
+    {
+      "name": "Trade Regulations",
+      "value": 1
+    },
+    {
+      "name": "Energy Shortages",
+      "value": 1
+    },
+    {
+      "name": "Grazing",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Batjav, Batbuyan",
+      "value": 10
+    },
+    {
+      "name": "Amarbat, Byambasuren",
+      "value": 6
+    },
+    {
+      "name": "Baasankhorloo, Ts",
+      "value": 5
+    }
+  ]
+}

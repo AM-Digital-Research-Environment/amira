@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "g-rtner",
+    "name": "Gärtner",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 1965,
+      "count": 4
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1965,
+      "total": 4,
+      "byType": {
+        "Text": 4
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 4
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    },
+    {
+      "name": "German",
+      "value": 2
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "Nigeria",
+      "value": 4
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Stephan, Klaus",
+      "value": 4
+    },
+    {
+      "name": "Jörs, Dieter",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "Nigeria",
+      "region": "",
+      "city": "",
+      "count": 4
+    }
+  ],
+  "items": [
+    {
+      "_id": "6705340c4b98fee5873b4430",
+      "titleInfo": [
+        {
+          "title": "Telegram Stephan_Gärtner"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-0023"
+    },
+    {
+      "_id": "6705340c4b98fee5873b443e",
+      "titleInfo": [
+        {
+          "title": "Letter Stephan_Gärtner 1965"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-0031"
+    },
+    {
+      "_id": "6705340c4b98fee5873b4460",
+      "titleInfo": [
+        {
+          "title": "Telegram Stephan_Gärtner"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-0053"
+    },
+    {
+      "_id": "6705340c4b98fee5873b446e",
+      "titleInfo": [
+        {
+          "title": "Letter Stephan_Gärtner 1965"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-0061"
+    }
+  ]
+}

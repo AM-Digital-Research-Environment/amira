@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "matzke-christine",
+    "name": "Matzke, Christine",
+    "count": 5
+  },
+  "timeline": [
+    {
+      "year": 2021,
+      "count": 5
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2021,
+      "total": 5,
+      "byType": {
+        "Text": 4,
+        "Image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 4
+    },
+    {
+      "name": "Image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    },
+    {
+      "name": "German",
+      "value": 2
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "Nigeria",
+      "value": 5
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Heinzl, Manuela",
+      "value": 1
+    },
+    {
+      "name": "Kolade, Christopher",
+      "value": 1
+    },
+    {
+      "name": "Balogun, Lekan",
+      "value": 1
+    },
+    {
+      "name": "Gibbs, James",
+      "value": 1
+    },
+    {
+      "name": "Omojola, Bode",
+      "value": 1
+    },
+    {
+      "name": "Ambros, Sabine",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "",
+      "city": "",
+      "count": 2
+    },
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "Nigeria",
+      "region": "",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Munich",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "6705340c4b98fee5873b440d",
+      "titleInfo": [
+        {
+          "title": "Nutzungsrechte Taiwo Shango BR"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-0000"
+    },
+    {
+      "_id": "6705340c4b98fee5873b4413",
+      "titleInfo": [
+        {
+          "title": "Questions for Dr Christopher Kolade re Taiwo Shango (1965)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-0006"
+    },
+    {
+      "_id": "6705340c4b98fee5873b4414",
+      "titleInfo": [
+        {
+          "title": "2nd Set of Questions for Dr Christopher Kolade March 2022"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-0007"
+    },
+    {
+      "_id": "6705340c4b98fee5873b441b",
+      "titleInfo": [
+        {
+          "title": "Taiwo Shango Mindmap July 2021"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-000e"
+    },
+    {
+      "_id": "6705340c4b98fee5873b4422",
+      "titleInfo": [
+        {
+          "title": "sam Anfrage: englische OV Taiwo Shango, dir Klaus Stephan, 1965; Filme von Nina Fischer(-Stephan)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-0015"
+    }
+  ]
+}

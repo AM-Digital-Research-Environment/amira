@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "omohundro-instittute-of-early-american-history-and-culture",
+    "name": "Omohundro Instittute of Early American History and Culture",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1997,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1997,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Africa",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Shakespeare",
+      "value": 1
+    },
+    {
+      "name": "Othello",
+      "value": 1
+    },
+    {
+      "name": "Moors",
+      "value": 1
+    },
+    {
+      "name": "Article",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Bartels, Emily C.",
+      "value": 1
+    },
+    {
+      "name": "Omohundro Instittute of Early American History and Culture",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "United States of America",
+      "region": "Virginia",
+      "city": "Williamsburg",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a8ab2c85fe8df8710c",
+      "titleInfo": [
+        {
+          "title": "Othello and Africa: Postcolonialism Reconsidered"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0015"
+    }
+  ]
+}

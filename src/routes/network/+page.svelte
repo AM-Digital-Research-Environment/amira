@@ -11,7 +11,7 @@
 	} from '$lib/components/ui';
 	import { NetworkGraph } from '$lib/components/charts';
 	import { base } from '$app/paths';
-	import { allCollections, persons, projects } from '$lib/stores/data';
+	import { allCollections, persons, projects, ensureCollections } from '$lib/stores/data';
 	import {
 		buildContributorNetwork,
 		buildPersonCollaborationNetwork,
@@ -118,6 +118,7 @@
 	let metaError = $state(false);
 
 	onMount(async () => {
+		void ensureCollections(base);
 		try {
 			const resp = await fetch(`${base}/data/knowledge_graphs/_meta.json`);
 			if (!resp.ok) throw new Error(`HTTP ${resp.status}`);

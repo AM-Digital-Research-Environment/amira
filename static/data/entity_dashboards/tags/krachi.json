@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "krachi",
+    "name": "Krachi",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 2015,
+      "count": 3
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2015,
+      "total": 3,
+      "byType": {
+        "Text": 3
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Tales",
+      "value": 3
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Tales",
+      "value": 3
+    },
+    {
+      "name": "African Folktales",
+      "value": 3
+    },
+    {
+      "name": "Folktales",
+      "value": 3
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Radin, Paul",
+      "value": 3
+    },
+    {
+      "name": "Princeton University Press",
+      "value": 3
+    }
+  ],
+  "locations": [
+    {
+      "country": "United States of America",
+      "region": "New Jersey",
+      "city": "Princeton",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a8ab2c85fe8df8712b",
+      "titleInfo": [
+        {
+          "title": "The Origin of Death"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0034"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87134",
+      "titleInfo": [
+        {
+          "title": "The Separation of God from Man"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-003d"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87137",
+      "titleInfo": [
+        {
+          "title": "The Creator Nyame and His Four Wives"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0040"
+    }
+  ]
+}

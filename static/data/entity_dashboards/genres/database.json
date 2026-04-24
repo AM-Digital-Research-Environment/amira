@@ -1,0 +1,1009 @@
+{
+  "meta": {
+    "type": "genre",
+    "id": "database",
+    "name": "database",
+    "count": 28
+  },
+  "timeline": [
+    {
+      "year": 2021,
+      "count": 5
+    },
+    {
+      "year": 2022,
+      "count": 9
+    },
+    {
+      "year": 2023,
+      "count": 11
+    },
+    {
+      "year": 2024,
+      "count": 3
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2021,
+      "total": 5,
+      "byType": {
+        "Dataset": 5
+      }
+    },
+    {
+      "year": 2022,
+      "total": 9,
+      "byType": {
+        "Dataset": 5,
+        "Text": 4
+      }
+    },
+    {
+      "year": 2023,
+      "total": 11,
+      "byType": {
+        "Dataset": 5,
+        "Text": 6
+      }
+    },
+    {
+      "year": 2024,
+      "total": 3,
+      "byType": {
+        "Dataset": 1,
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Dataset",
+      "value": 16
+    },
+    {
+      "name": "Text",
+      "value": 12
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 26
+    }
+  ],
+  "subjects": [
+    {
+      "name": "West Africa",
+      "value": 12
+    },
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 8
+    },
+    {
+      "name": "Natural disasters",
+      "value": 5
+    },
+    {
+      "name": "Global warming",
+      "value": 5
+    },
+    {
+      "name": "Sustainability",
+      "value": 5
+    },
+    {
+      "name": "Education",
+      "value": 5
+    },
+    {
+      "name": "Geography",
+      "value": 4
+    },
+    {
+      "name": "Mediation (Statistics)",
+      "value": 4
+    },
+    {
+      "name": "Child care",
+      "value": 4
+    },
+    {
+      "name": "Children",
+      "value": 4
+    },
+    {
+      "name": "Fertility",
+      "value": 4
+    },
+    {
+      "name": "Income distribution",
+      "value": 4
+    },
+    {
+      "name": "Youth",
+      "value": 4
+    },
+    {
+      "name": "Family planning",
+      "value": 4
+    },
+    {
+      "name": "Migration",
+      "value": 4
+    },
+    {
+      "name": "Economic development",
+      "value": 4
+    },
+    {
+      "name": "Economic geography",
+      "value": 2
+    },
+    {
+      "name": "Social justice",
+      "value": 2
+    },
+    {
+      "name": "Venture capital",
+      "value": 2
+    },
+    {
+      "name": "Regional disparities",
+      "value": 2
+    },
+    {
+      "name": "Gender",
+      "value": 2
+    },
+    {
+      "name": "Race",
+      "value": 2
+    },
+    {
+      "name": "Intersectionality (Sociology)",
+      "value": 2
+    },
+    {
+      "name": "Interviews",
+      "value": 2
+    },
+    {
+      "name": "Debt",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "West Africa",
+      "value": 12
+    },
+    {
+      "name": "Econometric Evidence",
+      "value": 9
+    },
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 8
+    },
+    {
+      "name": "Senegal",
+      "value": 6
+    },
+    {
+      "name": "Natural disasters",
+      "value": 5
+    },
+    {
+      "name": "Global warming",
+      "value": 5
+    },
+    {
+      "name": "Sustainability",
+      "value": 5
+    },
+    {
+      "name": "Disaster Management",
+      "value": 5
+    },
+    {
+      "name": "Environmental Accounts",
+      "value": 5
+    },
+    {
+      "name": "Environmental Accounting",
+      "value": 5
+    },
+    {
+      "name": "Environmental Equity",
+      "value": 5
+    },
+    {
+      "name": "Population Growth",
+      "value": 5
+    },
+    {
+      "name": "Regional Economic Development",
+      "value": 5
+    },
+    {
+      "name": "Regional Economic Change",
+      "value": 5
+    },
+    {
+      "name": "Economic-Environmental Interactions",
+      "value": 5
+    },
+    {
+      "name": "Trade",
+      "value": 5
+    },
+    {
+      "name": "Environment",
+      "value": 5
+    },
+    {
+      "name": "Climate Change",
+      "value": 5
+    },
+    {
+      "name": "Education",
+      "value": 5
+    },
+    {
+      "name": "Geography",
+      "value": 4
+    },
+    {
+      "name": "Mediation (Statistics)",
+      "value": 4
+    },
+    {
+      "name": "Coastal Proximity",
+      "value": 4
+    },
+    {
+      "name": "Mediation Analysis",
+      "value": 4
+    },
+    {
+      "name": "Coastal Countries",
+      "value": 4
+    },
+    {
+      "name": "Household Survey",
+      "value": 4
+    },
+    {
+      "name": "Child care",
+      "value": 4
+    },
+    {
+      "name": "Children",
+      "value": 4
+    },
+    {
+      "name": "Fertility",
+      "value": 4
+    },
+    {
+      "name": "Income distribution",
+      "value": 4
+    },
+    {
+      "name": "Youth",
+      "value": 4
+    },
+    {
+      "name": "Family planning",
+      "value": 4
+    },
+    {
+      "name": "Migration",
+      "value": 4
+    },
+    {
+      "name": "Economic development",
+      "value": 4
+    },
+    {
+      "name": "Female Education",
+      "value": 4
+    },
+    {
+      "name": "Human Development",
+      "value": 4
+    },
+    {
+      "name": "Education Policy",
+      "value": 4
+    },
+    {
+      "name": "Educational Influence",
+      "value": 4
+    },
+    {
+      "name": "Child Development",
+      "value": 4
+    },
+    {
+      "name": "Human Resources",
+      "value": 4
+    },
+    {
+      "name": "Ghana",
+      "value": 4
+    },
+    {
+      "name": "Economic geography",
+      "value": 2
+    },
+    {
+      "name": "Social justice",
+      "value": 2
+    },
+    {
+      "name": "Venture capital",
+      "value": 2
+    },
+    {
+      "name": "Regional disparities",
+      "value": 2
+    },
+    {
+      "name": "Gender",
+      "value": 2
+    },
+    {
+      "name": "Race",
+      "value": 2
+    },
+    {
+      "name": "Intersectionality (Sociology)",
+      "value": 2
+    },
+    {
+      "name": "Interviews",
+      "value": 2
+    },
+    {
+      "name": "Startup Founder",
+      "value": 2
+    },
+    {
+      "name": "Geographic Inequity",
+      "value": 2
+    },
+    {
+      "name": "Silicon Savannah",
+      "value": 2
+    },
+    {
+      "name": "Inequality",
+      "value": 2
+    },
+    {
+      "name": "Entrepreneurial Mobility",
+      "value": 2
+    },
+    {
+      "name": "Startup Ecosystem",
+      "value": 2
+    },
+    {
+      "name": "Financial Geography",
+      "value": 2
+    },
+    {
+      "name": "Structural Barrier",
+      "value": 2
+    },
+    {
+      "name": "Barriers to Entry (Economic Theory)",
+      "value": 2
+    },
+    {
+      "name": "Debt",
+      "value": 2
+    },
+    {
+      "name": "Exports",
+      "value": 2
+    },
+    {
+      "name": "Government Revenue",
+      "value": 2
+    },
+    {
+      "name": "Nigeria",
+      "value": 2
+    },
+    {
+      "name": "Attitudes",
+      "value": 1
+    },
+    {
+      "name": "Multilingualism",
+      "value": 1
+    },
+    {
+      "name": "Translanguaging (Linguistics)",
+      "value": 1
+    },
+    {
+      "name": "Perception",
+      "value": 1
+    },
+    {
+      "name": "Formal Learning",
+      "value": 1
+    },
+    {
+      "name": "Informal Interaction",
+      "value": 1
+    },
+    {
+      "name": "Pedagogy",
+      "value": 1
+    },
+    {
+      "name": "Public Debt",
+      "value": 1
+    },
+    {
+      "name": "Investment banking",
+      "value": 1
+    },
+    {
+      "name": "Securities",
+      "value": 1
+    },
+    {
+      "name": "Bank Investement",
+      "value": 1
+    },
+    {
+      "name": "Commercial Bank",
+      "value": 1
+    },
+    {
+      "name": "Lending Rates",
+      "value": 1
+    },
+    {
+      "name": "Public finance",
+      "value": 1
+    },
+    {
+      "name": "Sovereign Bond",
+      "value": 1
+    },
+    {
+      "name": "Export Data",
+      "value": 1
+    },
+    {
+      "name": "Imports",
+      "value": 1
+    },
+    {
+      "name": "Import Data",
+      "value": 1
+    },
+    {
+      "name": "Interest rates",
+      "value": 1
+    },
+    {
+      "name": "Central Bank",
+      "value": 1
+    },
+    {
+      "name": "Government Expenditure",
+      "value": 1
+    },
+    {
+      "name": "Government Budget",
+      "value": 1
+    },
+    {
+      "name": "Tax Revenue",
+      "value": 1
+    },
+    {
+      "name": "Total Revenue",
+      "value": 1
+    },
+    {
+      "name": "Government Reserves",
+      "value": 1
+    },
+    {
+      "name": "Government Trade",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Stadelmann, David",
+      "value": 13
+    },
+    {
+      "name": "Wild, Frederik",
+      "value": 8
+    },
+    {
+      "name": "Koddenbrock, Kai",
+      "value": 8
+    },
+    {
+      "name": "Greßer, Christina",
+      "value": 5
+    },
+    {
+      "name": "Meierrieks, Daniel",
+      "value": 5
+    },
+    {
+      "name": "Akolgo, Isaac Abotebuno",
+      "value": 4
+    },
+    {
+      "name": "Mkalama, Benedict Wandera",
+      "value": 2
+    },
+    {
+      "name": "Ouma, Stefan",
+      "value": 2
+    },
+    {
+      "name": "Abbas, Nasir",
+      "value": 1
+    },
+    {
+      "name": "Otundo, Khalayi Billian",
+      "value": 1
+    },
+    {
+      "name": "Orero, Sheila",
+      "value": 1
+    },
+    {
+      "name": "Mühleisen, Susanne",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 13
+    },
+    {
+      "country": "Senegal",
+      "region": "",
+      "city": "",
+      "count": 6
+    },
+    {
+      "country": "Ghana",
+      "region": "",
+      "city": "",
+      "count": 4
+    },
+    {
+      "country": "Kenya",
+      "region": "",
+      "city": "",
+      "count": 2
+    },
+    {
+      "country": "Nigeria",
+      "region": "",
+      "city": "",
+      "count": 2
+    },
+    {
+      "country": "Kenya",
+      "region": "Nandi",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "673ca0aecd28e4b91ff9d140",
+      "titleInfo": [
+        {
+          "title": "Dataset with information on the start-ups and founders"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MoCapIE2021",
+        "name": "Mobile Capital and (Im)Mobile Entrepreneurs: Start-up Success, Institutional Context and the “Laws of Start-up Money” in Silicon Savannah"
+      },
+      "dre_id": "aby-01-0003"
+    },
+    {
+      "_id": "673ca0aecd28e4b91ff9d141",
+      "titleInfo": [
+        {
+          "title": "Anonymised dataset with information on the start ups and founders"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MoCapIE2021",
+        "name": "Mobile Capital and (Im)Mobile Entrepreneurs: Start-up Success, Institutional Context and the “Laws of Start-up Money” in Silicon Savannah"
+      },
+      "dre_id": "aby-01-0004"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6af6",
+      "titleInfo": [
+        {
+          "title": "Replication script for table 4"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-0005"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6af7",
+      "titleInfo": [
+        {
+          "title": "Replication dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-0006"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6af8",
+      "titleInfo": [
+        {
+          "title": "Replication dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-0007"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6af9",
+      "titleInfo": [
+        {
+          "title": "Replication R script"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-0008"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6afd",
+      "titleInfo": [
+        {
+          "title": "Replication Gennaioli climate growth dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-000c"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b05",
+      "titleInfo": [
+        {
+          "title": "Replication R script"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0014"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b06",
+      "titleInfo": [
+        {
+          "title": "Replication dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0015"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b07",
+      "titleInfo": [
+        {
+          "title": "Replication dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0016"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b08",
+      "titleInfo": [
+        {
+          "title": "Replication dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0017"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b09",
+      "titleInfo": [
+        {
+          "title": "Replication Gennaioli climate dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0018"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b0a",
+      "titleInfo": [
+        {
+          "title": "Replication DHS 2015 climate dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0019"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b0b",
+      "titleInfo": [
+        {
+          "title": "Replication DHS 2005 climate dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-001a"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b0c",
+      "titleInfo": [
+        {
+          "title": "Replication climate R script"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-001b"
+    },
+    {
+      "_id": "67a3500526e222e7e827a3d2",
+      "titleInfo": [
+        {
+          "title": "SPSS Results"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MultiALS2021",
+        "name": "Multilingual African Learning Spaces: Translanguaging Practices in the Kenyan Classroom"
+      },
+      "dre_id": "abr-01-0000"
+    },
+    {
+      "_id": "674dba652e70d1e383d18ae8",
+      "titleInfo": [
+        {
+          "title": "Ghanaian debt statistics"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0005"
+    },
+    {
+      "_id": "674dba652e70d1e383d18aeb",
+      "titleInfo": [
+        {
+          "title": "Shares of Banks' Investments in Ghana"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0008"
+    },
+    {
+      "_id": "674dba652e70d1e383d18aec",
+      "titleInfo": [
+        {
+          "title": "Average Commercial Banks Lending Rates in Ghana"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0009"
+    },
+    {
+      "_id": "674dba652e70d1e383d18aed",
+      "titleInfo": [
+        {
+          "title": "Historical statistics on Senegal public finance"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-000a"
+    },
+    {
+      "_id": "674dba652e70d1e383d18aee",
+      "titleInfo": [
+        {
+          "title": "Historical Export Data, Senegal"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-000b"
+    },
+    {
+      "_id": "674dba652e70d1e383d18aef",
+      "titleInfo": [
+        {
+          "title": "Historical Import Data, Senegal"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-000c"
+    },
+    {
+      "_id": "674dba652e70d1e383d18af2",
+      "titleInfo": [
+        {
+          "title": "Central Bank Policy Rates"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-000f"
+    },
+    {
+      "_id": "674dba652e70d1e383d18af3",
+      "titleInfo": [
+        {
+          "title": "Government Expenditure"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0010"
+    },
+    {
+      "_id": "674dba652e70d1e383d18af4",
+      "titleInfo": [
+        {
+          "title": "Government Revenue"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0011"
+    },
+    {
+      "_id": "674dba652e70d1e383d18af5",
+      "titleInfo": [
+        {
+          "title": "Government Revenue"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0012"
+    },
+    {
+      "_id": "674dba652e70d1e383d18af6",
+      "titleInfo": [
+        {
+          "title": "Government Reserves"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0013"
+    },
+    {
+      "_id": "674dba652e70d1e383d18af7",
+      "titleInfo": [
+        {
+          "title": "Governement Trade"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0014"
+    }
+  ]
+}

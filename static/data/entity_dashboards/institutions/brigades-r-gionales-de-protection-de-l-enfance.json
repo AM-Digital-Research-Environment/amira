@@ -1,0 +1,178 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "brigades-r-gionales-de-protection-de-l-enfance",
+    "name": "Brigades Régionales de Protection de l’Enfance",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2021,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2022,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Administration of Justice",
+      "value": 2
+    },
+    {
+      "name": "Teenagers",
+      "value": 2
+    },
+    {
+      "name": "Youth",
+      "value": 2
+    },
+    {
+      "name": "Punishment",
+      "value": 2
+    },
+    {
+      "name": "Maintenance",
+      "value": 1
+    },
+    {
+      "name": "Government executives",
+      "value": 1
+    },
+    {
+      "name": "Child welfare",
+      "value": 1
+    },
+    {
+      "name": "Prisons",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Administration of Justice",
+      "value": 2
+    },
+    {
+      "name": "Teenagers",
+      "value": 2
+    },
+    {
+      "name": "Youth",
+      "value": 2
+    },
+    {
+      "name": "Punishment",
+      "value": 2
+    },
+    {
+      "name": "Maintenance",
+      "value": 1
+    },
+    {
+      "name": "Government executives",
+      "value": 1
+    },
+    {
+      "name": "Child welfare",
+      "value": 1
+    },
+    {
+      "name": "Prisons",
+      "value": 1
+    },
+    {
+      "name": "Commissioner",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tapsoba, Tatiana Nadine",
+      "value": 2
+    },
+    {
+      "name": "Bonkian, Bonfui",
+      "value": 2
+    },
+    {
+      "name": "Ouédraogo, Djénéba",
+      "value": 1
+    },
+    {
+      "name": "Somé, Alban Balanoé",
+      "value": 1
+    },
+    {
+      "name": "Pitroipa, Clément",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Burkina Faso",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "69c1568d666e5b9f92cf9f5a",
+      "titleInfo": [
+        {
+          "title": "Synthèse d'entretien avec le commissaire de la Brigade régionale de la protection de l’enfance (BRPE)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0002"
+    },
+    {
+      "_id": "69c1568d666e5b9f92cf9f63",
+      "titleInfo": [
+        {
+          "title": "Synthèse Générale des entretiens réalisés à Ouaga"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-000b"
+    }
+  ]
+}

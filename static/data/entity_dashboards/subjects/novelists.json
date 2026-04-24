@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "novelists",
+    "name": "Novelists",
+    "count": 1
+  },
+  "timeline": [],
+  "stackedTimeline": [],
+  "types": [
+    {
+      "name": "Moving image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Poets",
+      "value": 1
+    },
+    {
+      "name": "Interviews",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Concerts",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Poets",
+      "value": 1
+    },
+    {
+      "name": "Interviews",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Concerts",
+      "value": 1
+    },
+    {
+      "name": "Talk Show",
+      "value": 1
+    },
+    {
+      "name": "Live Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dibango, Manu",
+      "value": 1
+    },
+    {
+      "name": "Members of the Liberian Association of Writers",
+      "value": 1
+    },
+    {
+      "name": "Collins, Hawa Andrews",
+      "value": 1
+    },
+    {
+      "name": "Caranda, Doughba C., II",
+      "value": 1
+    },
+    {
+      "name": "Government of Liberia",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Liberia",
+      "region": "Montserrado County",
+      "city": "Monrovia",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "6982337057a8e0353b0b1cd8",
+      "titleInfo": [
+        {
+          "title": "Heritage Productions"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-009b"
+    }
+  ]
+}

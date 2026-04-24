@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "science",
+    "name": "Science",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 1984,
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1984,
+      "total": 2,
+      "byType": {
+        "Image": 2
+      }
+    },
+    {
+      "year": 2020,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Racism",
+      "value": 1
+    },
+    {
+      "name": "Culture",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Bayreuth",
+      "value": 2
+    },
+    {
+      "name": "Colonialism",
+      "value": 2
+    },
+    {
+      "name": "Racism",
+      "value": 1
+    },
+    {
+      "name": "Culture",
+      "value": 1
+    },
+    {
+      "name": "Daily Racism",
+      "value": 1
+    },
+    {
+      "name": "Local Press",
+      "value": 1
+    },
+    {
+      "name": "Tradition",
+      "value": 1
+    },
+    {
+      "name": "Language",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Researcher",
+      "value": 1
+    },
+    {
+      "name": "Mombasa Island",
+      "value": 1
+    },
+    {
+      "name": "Expedition",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Ouma, Stefan",
+      "value": 1
+    },
+    {
+      "name": "Kiel, Rainer-Maria",
+      "value": 1
+    },
+    {
+      "name": "Conrad, Herbert",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "",
+      "city": "",
+      "count": 2
+    },
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "692db49707481a28c72155b7",
+      "titleInfo": [
+        {
+          "title": "Fehlende Selbsterkenntnis"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-000f"
+    },
+    {
+      "_id": "692db49707481a28c72155ca",
+      "titleInfo": [
+        {
+          "title": "Dr. Döring - ein Afrikaforscher in Bayreuth Teil I und II"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0022"
+    },
+    {
+      "_id": "692db49707481a28c72155cb",
+      "titleInfo": [
+        {
+          "title": "Das tragische Ende in Mombasaland"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0023"
+    }
+  ]
+}

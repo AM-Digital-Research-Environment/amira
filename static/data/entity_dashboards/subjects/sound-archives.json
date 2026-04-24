@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "sound-archives",
+    "name": "Sound archives",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2023,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2023,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Storytelling",
+      "value": 1
+    },
+    {
+      "name": "Electronic music",
+      "value": 1
+    },
+    {
+      "name": "Archives",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Storytelling",
+      "value": 1
+    },
+    {
+      "name": "Electronic music",
+      "value": 1
+    },
+    {
+      "name": "Archives",
+      "value": 1
+    },
+    {
+      "name": "Field Recording",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "De Vries, Lee-Ann",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9edda",
+      "titleInfo": [
+        {
+          "title": "Sound Fragments: From Field Recording to African Electronic Stories"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03f5"
+    }
+  ]
+}

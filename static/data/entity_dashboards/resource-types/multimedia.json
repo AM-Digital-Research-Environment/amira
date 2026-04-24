@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "type": "resource-type",
+    "id": "multimedia",
+    "name": "Multimedia",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2023,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2023,
+      "total": 1,
+      "byType": {
+        "Multimedia": 1
+      }
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 1
+    }
+  ],
+  "heatmap": [
+    {
+      "x": "2020s",
+      "y": "French",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Actors",
+      "value": 1
+    },
+    {
+      "name": "Aesthetics",
+      "value": 1
+    },
+    {
+      "name": "Experience",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Actors",
+      "value": 1
+    },
+    {
+      "name": "Aesthetics",
+      "value": 1
+    },
+    {
+      "name": "Experience",
+      "value": 1
+    },
+    {
+      "name": "Cinema",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Sore, Daouda",
+      "value": 1
+    },
+    {
+      "name": "Palm-Sanou, Valentine",
+      "value": 1
+    },
+    {
+      "name": "Fendler, Ute",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Burkina Faso",
+      "region": "Centre",
+      "city": "Ouagadougou",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "69bd30d762fdff17d6fc73ea",
+      "titleInfo": [
+        {
+          "title": "Images de l'enquête"
+        }
+      ],
+      "typeOfResource": "Multimedia",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0040"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "public-life",
+    "name": "Public Life",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2007,
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2007,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2020,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Book reviews",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Cameroon",
+      "value": 2
+    },
+    {
+      "name": "Morality",
+      "value": 2
+    },
+    {
+      "name": "Book reviews",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Shrag, Brian",
+      "value": 1
+    },
+    {
+      "name": "Bradford, Abigail",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ec91",
+      "titleInfo": [
+        {
+          "title": "Journey of Song: Public Life and Morality in Cameroon. Clare A. Ignatowski. 2006. Bloomington: Indiana University press. xv. 223 pp., 36 black and white photographs, maps, bibliography, index."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02ac"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edc5",
+      "titleInfo": [
+        {
+          "title": "Journey of Song: Public Life and Morality in Cameroon"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03e0"
+    }
+  ]
+}

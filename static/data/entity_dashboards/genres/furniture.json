@@ -1,0 +1,287 @@
+{
+  "meta": {
+    "type": "genre",
+    "id": "furniture",
+    "name": "Furniture",
+    "count": 5
+  },
+  "timeline": [
+    {
+      "year": 2014,
+      "count": 4
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2014,
+      "total": 4,
+      "byType": {
+        "Image": 4
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 5
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Art",
+      "value": 5
+    },
+    {
+      "name": "Interior decoration",
+      "value": 5
+    },
+    {
+      "name": "Photographs",
+      "value": 4
+    },
+    {
+      "name": "Africa",
+      "value": 2
+    },
+    {
+      "name": "Artists",
+      "value": 2
+    },
+    {
+      "name": "Wood sculpture, Yoruba",
+      "value": 2
+    },
+    {
+      "name": "Sculpture",
+      "value": 2
+    },
+    {
+      "name": "Museums",
+      "value": 1
+    },
+    {
+      "name": "Exhibitions",
+      "value": 1
+    },
+    {
+      "name": "Leopard",
+      "value": 1
+    },
+    {
+      "name": "Hausa (African people)",
+      "value": 1
+    },
+    {
+      "name": "Painting",
+      "value": 1
+    },
+    {
+      "name": "Women",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Art",
+      "value": 5
+    },
+    {
+      "name": "Interior decoration",
+      "value": 5
+    },
+    {
+      "name": "Photographs",
+      "value": 4
+    },
+    {
+      "name": "Sydney",
+      "value": 4
+    },
+    {
+      "name": "Africa",
+      "value": 2
+    },
+    {
+      "name": "Artists",
+      "value": 2
+    },
+    {
+      "name": "Wood sculpture, Yoruba",
+      "value": 2
+    },
+    {
+      "name": "Sculpture",
+      "value": 2
+    },
+    {
+      "name": "Yoruba Art",
+      "value": 2
+    },
+    {
+      "name": "Art Collector",
+      "value": 2
+    },
+    {
+      "name": "Art Collecting",
+      "value": 2
+    },
+    {
+      "name": "Museums",
+      "value": 1
+    },
+    {
+      "name": "Exhibitions",
+      "value": 1
+    },
+    {
+      "name": "Leopard",
+      "value": 1
+    },
+    {
+      "name": "Hausa (African people)",
+      "value": 1
+    },
+    {
+      "name": "Art Exhibition",
+      "value": 1
+    },
+    {
+      "name": "Ataoja",
+      "value": 1
+    },
+    {
+      "name": "Osogbo",
+      "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    },
+    {
+      "name": "Cultural Centre",
+      "value": 1
+    },
+    {
+      "name": "Painting",
+      "value": 1
+    },
+    {
+      "name": "Women",
+      "value": 1
+    },
+    {
+      "name": "Family Photograph",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Greven, Katharina",
+      "value": 5
+    },
+    {
+      "name": "Beier, Georgina",
+      "value": 4
+    },
+    {
+      "name": "Beier, Ulli",
+      "value": 1
+    },
+    {
+      "name": "Idah, Ovia",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Australia",
+      "region": "New South Wales",
+      "city": "Sydney",
+      "count": 4
+    },
+    {
+      "country": "Nigeria",
+      "region": "Osun State",
+      "city": "Osogbo",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b4b5",
+      "titleInfo": [
+        {
+          "title": "Innenansicht des Museum of Popular Art im Palast des Ataoja in Osogbo"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-002d"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b534",
+      "titleInfo": [
+        {
+          "title": "Esszimmer in Sydney"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-00ac"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b535",
+      "titleInfo": [
+        {
+          "title": "Wohnzimmer in Sydney"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-00ad"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b536",
+      "titleInfo": [
+        {
+          "title": "Eingangsbereich in Sydney"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-00ae"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b537",
+      "titleInfo": [
+        {
+          "title": "Wand in der Küche in Sydney mit Fotografien der Familie"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-00af"
+    }
+  ]
+}

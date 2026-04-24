@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "petersen-alvin",
+    "name": "Petersen, Alvin",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Apartheid",
+      "value": 1
+    },
+    {
+      "name": "Opera",
+      "value": 1
+    },
+    {
+      "name": "Book reviews",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Apartheid",
+      "value": 1
+    },
+    {
+      "name": "Opera",
+      "value": 1
+    },
+    {
+      "name": "Book reviews",
+      "value": 1
+    },
+    {
+      "name": "Cultural Politics",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9edc4",
+      "titleInfo": [
+        {
+          "title": "The La Traviata Affair: Opera in the Age of Apartheid"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03df"
+    }
+  ]
+}

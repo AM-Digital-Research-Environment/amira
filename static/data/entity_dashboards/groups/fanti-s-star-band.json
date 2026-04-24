@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "type": "group",
+    "id": "fanti-s-star-band",
+    "name": "Fanti's Star Band",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1950,
+      "count": 2
+    }
+  ],
+  "types": [
+    {
+      "name": "Audio",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "Fanti",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "Fanti (African people)",
+      "value": 2
+    },
+    {
+      "name": "Fanti language",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "Fanti (African people)",
+      "value": 2
+    },
+    {
+      "name": "Fanti language",
+      "value": 2
+    }
+  ],
+  "contributors": [
+    {
+      "name": "DECCA",
+      "value": 2
+    },
+    {
+      "name": "Ghana Broadcasting Corporation Gramophone Library",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "Ghana",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "66c34de8ba20a6d8a816acda",
+      "titleInfo": [
+        {
+          "title": "Dr. Nkrumah Ko Liberia No. 2"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-00dc"
+    },
+    {
+      "_id": "66c34de8ba20a6d8a816acdb",
+      "titleInfo": [
+        {
+          "title": "Gyantra Nnye Adwuna"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-00dd"
+    }
+  ]
+}

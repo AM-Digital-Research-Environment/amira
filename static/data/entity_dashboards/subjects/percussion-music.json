@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "percussion-music",
+    "name": "Percussion music",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1970,
+      "count": 1
+    },
+    {
+      "year": 1971,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1970,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1971,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Ewe (African people)",
+      "value": 1
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Tsonga (African people)",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Ewe (African people)",
+      "value": 1
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Ghana",
+      "value": 1
+    },
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Tsonga (African people)",
+      "value": 1
+    },
+    {
+      "name": "Shangana",
+      "value": 1
+    },
+    {
+      "name": "Musical Meter",
+      "value": 1
+    },
+    {
+      "name": "Musical Rhythm",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Ladzekpo, Kobla",
+      "value": 1
+    },
+    {
+      "name": "Pantaleoni, Hewitt",
+      "value": 1
+    },
+    {
+      "name": "Johnston, Thomas F.",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9eb85",
+      "titleInfo": [
+        {
+          "title": "Takada drumming"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01a0"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb94",
+      "titleInfo": [
+        {
+          "title": "Shangana-Tsonga drum and bow rhythms"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01af"
+    }
+  ]
+}

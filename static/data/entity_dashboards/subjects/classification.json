@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "classification",
+    "name": "Classification",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1954,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1954,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Music libraries",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "History",
+      "value": 1
+    },
+    {
+      "name": "Criticism",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Music libraries",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "History",
+      "value": 1
+    },
+    {
+      "name": "Criticism",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tracey, Hugh",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9e9f3",
+      "titleInfo": [
+        {
+          "title": "The International Library of African Music"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-000e"
+    }
+  ]
+}

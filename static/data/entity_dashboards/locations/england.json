@@ -1,0 +1,673 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "england",
+    "name": "England",
+    "count": 402
+  },
+  "timeline": [
+    {
+      "year": 1939,
+      "count": 2
+    },
+    {
+      "year": 1941,
+      "count": 1
+    },
+    {
+      "year": 1967,
+      "count": 1
+    },
+    {
+      "year": 1987,
+      "count": 1
+    },
+    {
+      "year": 2006,
+      "count": 1
+    },
+    {
+      "year": 2016,
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "count": 394
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1939,
+      "total": 2,
+      "byType": {
+        "Image": 2
+      }
+    },
+    {
+      "year": 1941,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1967,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1987,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2006,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2016,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2018,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2024,
+      "total": 394,
+      "byType": {
+        "Manuscript": 382,
+        "Cartographic": 8,
+        "Image": 2,
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Manuscript",
+      "value": 382
+    },
+    {
+      "name": "Text",
+      "value": 8
+    },
+    {
+      "name": "Cartographic",
+      "value": 8
+    },
+    {
+      "name": "Image",
+      "value": 4
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Africa",
+      "value": 395
+    },
+    {
+      "name": "Manuscripts",
+      "value": 394
+    },
+    {
+      "name": "Early modern, 1500-1700",
+      "value": 394
+    },
+    {
+      "name": "Literature",
+      "value": 394
+    },
+    {
+      "name": "Courts",
+      "value": 55
+    },
+    {
+      "name": "Court records",
+      "value": 54
+    },
+    {
+      "name": "Letters",
+      "value": 25
+    },
+    {
+      "name": "Slave trade",
+      "value": 15
+    },
+    {
+      "name": "African diaspora",
+      "value": 13
+    },
+    {
+      "name": "West Africa",
+      "value": 12
+    },
+    {
+      "name": "Books",
+      "value": 9
+    },
+    {
+      "name": "Maps",
+      "value": 9
+    },
+    {
+      "name": "Trespass",
+      "value": 8
+    },
+    {
+      "name": "Cartography",
+      "value": 5
+    },
+    {
+      "name": "Bookbinding",
+      "value": 3
+    },
+    {
+      "name": "Scientific racism",
+      "value": 2
+    },
+    {
+      "name": "South Africa",
+      "value": 2
+    },
+    {
+      "name": "Cotton",
+      "value": 2
+    },
+    {
+      "name": "Archives",
+      "value": 1
+    },
+    {
+      "name": "Colonisation",
+      "value": 1
+    },
+    {
+      "name": "Social norms",
+      "value": 1
+    },
+    {
+      "name": "Discourse analysis",
+      "value": 1
+    },
+    {
+      "name": "Context (Linguistics)",
+      "value": 1
+    },
+    {
+      "name": "Multilingualism",
+      "value": 1
+    },
+    {
+      "name": "International relations",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Africa",
+      "value": 395
+    },
+    {
+      "name": "Manuscripts",
+      "value": 394
+    },
+    {
+      "name": "Early modern, 1500-1700",
+      "value": 394
+    },
+    {
+      "name": "Literature",
+      "value": 394
+    },
+    {
+      "name": "England",
+      "value": 394
+    },
+    {
+      "name": "Knowledge",
+      "value": 394
+    },
+    {
+      "name": "Handwritten",
+      "value": 319
+    },
+    {
+      "name": "Trade",
+      "value": 114
+    },
+    {
+      "name": "Voyages",
+      "value": 70
+    },
+    {
+      "name": "Courts",
+      "value": 55
+    },
+    {
+      "name": "Court records",
+      "value": 54
+    },
+    {
+      "name": "Public Record Office",
+      "value": 44
+    },
+    {
+      "name": "European",
+      "value": 32
+    },
+    {
+      "name": "Trade Relations",
+      "value": 32
+    },
+    {
+      "name": "Treasury",
+      "value": 30
+    },
+    {
+      "name": "Letters",
+      "value": 25
+    },
+    {
+      "name": "Acts",
+      "value": 24
+    },
+    {
+      "name": "Black People",
+      "value": 21
+    },
+    {
+      "name": "Early Modern England",
+      "value": 20
+    },
+    {
+      "name": "State Paper",
+      "value": 15
+    },
+    {
+      "name": "Slave trade",
+      "value": 15
+    },
+    {
+      "name": "Royal Africa Company",
+      "value": 15
+    },
+    {
+      "name": "Atlantic Slave Trade",
+      "value": 15
+    },
+    {
+      "name": "Diuision",
+      "value": 14
+    },
+    {
+      "name": "Forerign Relations",
+      "value": 14
+    },
+    {
+      "name": "Foreign Office",
+      "value": 14
+    },
+    {
+      "name": "African diaspora",
+      "value": 13
+    },
+    {
+      "name": "West Africa",
+      "value": 12
+    },
+    {
+      "name": "Property Records",
+      "value": 11
+    },
+    {
+      "name": "Royal Proclamation",
+      "value": 11
+    },
+    {
+      "name": "Ledger",
+      "value": 10
+    },
+    {
+      "name": "Books",
+      "value": 9
+    },
+    {
+      "name": "Maps",
+      "value": 9
+    },
+    {
+      "name": "London",
+      "value": 9
+    },
+    {
+      "name": "Trespass",
+      "value": 8
+    },
+    {
+      "name": "Memoir",
+      "value": 7
+    },
+    {
+      "name": "Augustus",
+      "value": 6
+    },
+    {
+      "name": "Kent",
+      "value": 5
+    },
+    {
+      "name": "Cartography",
+      "value": 5
+    },
+    {
+      "name": "Marine Cartography",
+      "value": 5
+    },
+    {
+      "name": "Drapery",
+      "value": 4
+    },
+    {
+      "name": "Shakespeare",
+      "value": 3
+    },
+    {
+      "name": "African Kingdoms",
+      "value": 3
+    },
+    {
+      "name": "Premodern",
+      "value": 3
+    },
+    {
+      "name": "Ancient",
+      "value": 3
+    },
+    {
+      "name": "Debtor List",
+      "value": 3
+    },
+    {
+      "name": "Bookbinding",
+      "value": 3
+    },
+    {
+      "name": "Scientific racism",
+      "value": 2
+    },
+    {
+      "name": "Elizabeth I",
+      "value": 2
+    },
+    {
+      "name": "Elizabethan Era",
+      "value": 2
+    },
+    {
+      "name": "South Africa",
+      "value": 2
+    },
+    {
+      "name": "Ship Blackmoore",
+      "value": 2
+    },
+    {
+      "name": "Expense List",
+      "value": 2
+    },
+    {
+      "name": "Guinea",
+      "value": 2
+    },
+    {
+      "name": "British Library",
+      "value": 2
+    },
+    {
+      "name": "Strangers",
+      "value": 2
+    },
+    {
+      "name": "Foreigners",
+      "value": 2
+    },
+    {
+      "name": "Description",
+      "value": 2
+    },
+    {
+      "name": "Cotton",
+      "value": 2
+    },
+    {
+      "name": "Archives",
+      "value": 1
+    },
+    {
+      "name": "Colonisation",
+      "value": 1
+    },
+    {
+      "name": "Social norms",
+      "value": 1
+    },
+    {
+      "name": "Discourse analysis",
+      "value": 1
+    },
+    {
+      "name": "British Colonisation",
+      "value": 1
+    },
+    {
+      "name": "Colonial Records",
+      "value": 1
+    },
+    {
+      "name": "Southern Cameroons",
+      "value": 1
+    },
+    {
+      "name": "Postcolonial Heritage",
+      "value": 1
+    },
+    {
+      "name": "Great Britain",
+      "value": 1
+    },
+    {
+      "name": "Postcolonial Studies",
+      "value": 1
+    },
+    {
+      "name": "Map Key",
+      "value": 1
+    },
+    {
+      "name": "Context (Linguistics)",
+      "value": 1
+    },
+    {
+      "name": "Plays",
+      "value": 1
+    },
+    {
+      "name": "Debate",
+      "value": 1
+    },
+    {
+      "name": "Chapter",
+      "value": 1
+    },
+    {
+      "name": "Anglo-African",
+      "value": 1
+    },
+    {
+      "name": "Commonwealth",
+      "value": 1
+    },
+    {
+      "name": "Multilingualism",
+      "value": 1
+    },
+    {
+      "name": "The Tempest",
+      "value": 1
+    },
+    {
+      "name": "Monolingualism",
+      "value": 1
+    },
+    {
+      "name": "International relations",
+      "value": 1
+    },
+    {
+      "name": "Italy",
+      "value": 1
+    },
+    {
+      "name": "Rome",
+      "value": 1
+    },
+    {
+      "name": "English Influence",
+      "value": 1
+    },
+    {
+      "name": "Portuguese Court",
+      "value": 1
+    },
+    {
+      "name": "Hakluyt",
+      "value": 1
+    },
+    {
+      "name": "English",
+      "value": 1
+    },
+    {
+      "name": "Portuguese",
+      "value": 1
+    },
+    {
+      "name": "Council Register",
+      "value": 1
+    },
+    {
+      "name": "Manuscript Rolls",
+      "value": 1
+    },
+    {
+      "name": "Notes",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Aboluwade, Ifeoluwa",
+      "value": 394
+    },
+    {
+      "name": "National Archives London",
+      "value": 14
+    },
+    {
+      "name": "British Library London",
+      "value": 3
+    },
+    {
+      "name": "Newnes, Georges",
+      "value": 2
+    },
+    {
+      "name": "Oxford University Press",
+      "value": 2
+    },
+    {
+      "name": "Hoppe, E. O.",
+      "value": 1
+    },
+    {
+      "name": "Greven, Katharina",
+      "value": 1
+    },
+    {
+      "name": "Otung, Glory Essien",
+      "value": 1
+    },
+    {
+      "name": "Anchimbe, Eric",
+      "value": 1
+    },
+    {
+      "name": "Chiangong, Pepetual Mforbe",
+      "value": 1
+    },
+    {
+      "name": "Marjie, Sarah",
+      "value": 1
+    },
+    {
+      "name": "Kengo, Emmanuel",
+      "value": 1
+    },
+    {
+      "name": "Atindogbe, Gratien",
+      "value": 1
+    },
+    {
+      "name": "Ubanako, Valentine",
+      "value": 1
+    },
+    {
+      "name": "Mforteh, Stephen",
+      "value": 1
+    },
+    {
+      "name": "Eyoh, Julius",
+      "value": 1
+    },
+    {
+      "name": "Oyali, Uchenna",
+      "value": 1
+    },
+    {
+      "name": "Mbah, Boniface",
+      "value": 1
+    },
+    {
+      "name": "Habib, Imtiaz",
+      "value": 1
+    },
+    {
+      "name": "Klein, Bernhard",
+      "value": 1
+    }
+  ]
+}

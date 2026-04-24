@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "steamship",
+    "name": "Steamship",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2017,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2017,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Industrialization",
+      "value": 1
+    },
+    {
+      "name": "Travel",
+      "value": 1
+    },
+    {
+      "name": "East Africa",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Industrialization",
+      "value": 1
+    },
+    {
+      "name": "Travel",
+      "value": 1
+    },
+    {
+      "name": "East Africa",
+      "value": 1
+    },
+    {
+      "name": "German East Africa",
+      "value": 1
+    },
+    {
+      "name": "Germany",
+      "value": 1
+    },
+    {
+      "name": "Colonialism",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Pesek, Michael",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "692db49707481a28c72155c7",
+      "titleInfo": [
+        {
+          "title": "Von Europa nach Afrika"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-001f"
+    }
+  ]
+}

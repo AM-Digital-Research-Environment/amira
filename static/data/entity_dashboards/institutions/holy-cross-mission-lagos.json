@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "holy-cross-mission-lagos",
+    "name": "Holy Cross Mission, Lagos",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 1956,
+      "count": 1
+    },
+    {
+      "year": 1966,
+      "count": 1
+    },
+    {
+      "year": 1970,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1956,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1966,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1970,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Sculpture",
+      "value": 1
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 3
+    },
+    {
+      "name": "Sculpture",
+      "value": 1
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    },
+    {
+      "name": "Dahomey",
+      "value": 1
+    },
+    {
+      "name": "Yoruba Art",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Carroll, Kevin",
+      "value": 3
+    },
+    {
+      "name": "Fagg, William",
+      "value": 1
+    },
+    {
+      "name": "Chapman, Geoffrey",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ea21",
+      "titleInfo": [
+        {
+          "title": "Yoruba religious music"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-003c"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb21",
+      "titleInfo": [
+        {
+          "title": "YORUBA RELIGIOUS CARVING. Pagan and Christian Sculpture in Nigeria and Dahomey, by KEVIN CARROLL. Foreword by WILLIAM FAGG, GEOFFREY CHAPMAN. 172 pp. £4 10s."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-013c"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb73",
+      "titleInfo": [
+        {
+          "title": "THE DEVELOPMENT OF YORUBA CHURCH MUSIC"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-018e"
+    }
+  ]
+}

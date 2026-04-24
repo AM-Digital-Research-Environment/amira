@@ -1,0 +1,900 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "migration",
+    "name": "Migration",
+    "count": 34
+  },
+  "timeline": [
+    {
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "count": 10
+    },
+    {
+      "year": 2021,
+      "count": 8
+    },
+    {
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "count": 14
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2017,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2020,
+      "total": 10,
+      "byType": {
+        "Text": 10
+      }
+    },
+    {
+      "year": 2021,
+      "total": 8,
+      "byType": {
+        "Text": 3,
+        "Image": 3,
+        "Moving image": 2
+      }
+    },
+    {
+      "year": 2022,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 2023,
+      "total": 14,
+      "byType": {
+        "Text": 4,
+        "Digital": 1,
+        "Dataset": 4,
+        "Image": 2,
+        "Moving image": 1,
+        "Audio": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 18
+    },
+    {
+      "name": "Image",
+      "value": 6
+    },
+    {
+      "name": "Dataset",
+      "value": 4
+    },
+    {
+      "name": "Moving image",
+      "value": 3
+    },
+    {
+      "name": "Audio",
+      "value": 2
+    },
+    {
+      "name": "Digital",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 14
+    },
+    {
+      "name": "French",
+      "value": 9
+    }
+  ],
+  "subjects": [
+    {
+      "name": "History",
+      "value": 15
+    },
+    {
+      "name": "Land tenure",
+      "value": 9
+    },
+    {
+      "name": "Social conflict",
+      "value": 9
+    },
+    {
+      "name": "Child care",
+      "value": 8
+    },
+    {
+      "name": "Children",
+      "value": 8
+    },
+    {
+      "name": "Fertility",
+      "value": 8
+    },
+    {
+      "name": "Income distribution",
+      "value": 8
+    },
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 8
+    },
+    {
+      "name": "Youth",
+      "value": 8
+    },
+    {
+      "name": "Education",
+      "value": 8
+    },
+    {
+      "name": "Family planning",
+      "value": 8
+    },
+    {
+      "name": "Economic development",
+      "value": 8
+    },
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Memory",
+      "value": 1
+    },
+    {
+      "name": "Anlo (African people)",
+      "value": 1
+    },
+    {
+      "name": "Fanti (African people)",
+      "value": 1
+    },
+    {
+      "name": "Ewe (African people)",
+      "value": 1
+    },
+    {
+      "name": "Musicians",
+      "value": 1
+    },
+    {
+      "name": "African diaspora",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "History",
+      "value": 15
+    },
+    {
+      "name": "African Studies",
+      "value": 15
+    },
+    {
+      "name": "Lagos",
+      "value": 15
+    },
+    {
+      "name": "Knowledge",
+      "value": 15
+    },
+    {
+      "name": "Land tenure",
+      "value": 9
+    },
+    {
+      "name": "Social conflict",
+      "value": 9
+    },
+    {
+      "name": "Conflict Theory",
+      "value": 9
+    },
+    {
+      "name": "Child care",
+      "value": 8
+    },
+    {
+      "name": "Children",
+      "value": 8
+    },
+    {
+      "name": "Fertility",
+      "value": 8
+    },
+    {
+      "name": "Income distribution",
+      "value": 8
+    },
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 8
+    },
+    {
+      "name": "Youth",
+      "value": 8
+    },
+    {
+      "name": "Education",
+      "value": 8
+    },
+    {
+      "name": "Family planning",
+      "value": 8
+    },
+    {
+      "name": "Economic development",
+      "value": 8
+    },
+    {
+      "name": "Female Education",
+      "value": 8
+    },
+    {
+      "name": "Human Development",
+      "value": 8
+    },
+    {
+      "name": "Education Policy",
+      "value": 8
+    },
+    {
+      "name": "Educational Influence",
+      "value": 8
+    },
+    {
+      "name": "Child Development",
+      "value": 8
+    },
+    {
+      "name": "Human Resources",
+      "value": 8
+    },
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Identity",
+      "value": 2
+    },
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Memory",
+      "value": 1
+    },
+    {
+      "name": "Anlo (African people)",
+      "value": 1
+    },
+    {
+      "name": "Fanti (African people)",
+      "value": 1
+    },
+    {
+      "name": "Ewe (African people)",
+      "value": 1
+    },
+    {
+      "name": "Ghana",
+      "value": 1
+    },
+    {
+      "name": "Fishermen Songs",
+      "value": 1
+    },
+    {
+      "name": "Musicians",
+      "value": 1
+    },
+    {
+      "name": "African diaspora",
+      "value": 1
+    },
+    {
+      "name": "Ethiopian American Diaspora",
+      "value": 1
+    },
+    {
+      "name": "Sentinel Musicians",
+      "value": 1
+    },
+    {
+      "name": "Diaspora Studies",
+      "value": 1
+    },
+    {
+      "name": "Ethiopia",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Sebudandi, Christophe",
+      "value": 18
+    },
+    {
+      "name": "Kaganda Mulume Oderhwa, Philippe",
+      "value": 18
+    },
+    {
+      "name": "Lawanson, Taibat",
+      "value": 15
+    },
+    {
+      "name": "Eleshin, Abisoye",
+      "value": 15
+    },
+    {
+      "name": "Akinpelu, Deji",
+      "value": 15
+    },
+    {
+      "name": "Enitan, Adewale",
+      "value": 15
+    },
+    {
+      "name": "Odubawo, Orinayo",
+      "value": 15
+    },
+    {
+      "name": "Bitrus, Byenyen",
+      "value": 15
+    },
+    {
+      "name": "Doevenspeck, Martin",
+      "value": 9
+    },
+    {
+      "name": "Mwanabiningo, Nene Morisho",
+      "value": 9
+    },
+    {
+      "name": "Tegera, Aloy",
+      "value": 9
+    },
+    {
+      "name": "Wild, Frederik",
+      "value": 8
+    },
+    {
+      "name": "Stadelmann, David",
+      "value": 8
+    },
+    {
+      "name": "Lankes, Maximilian",
+      "value": 4
+    },
+    {
+      "name": "Otchere, Eric Debrah",
+      "value": 1
+    },
+    {
+      "name": "Kumar, Rakesh",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Nigeria",
+      "region": "Lagos State",
+      "city": "Lagos",
+      "count": 15
+    },
+    {
+      "country": "Democratic Republic of the Congo",
+      "region": "Ituri",
+      "city": "Geti",
+      "count": 9
+    },
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 8
+    },
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "674dc0432e70d1e383d18afc",
+      "titleInfo": [
+        {
+          "title": "Recherche sur mobilité et conflits dans les grand lacs/cas de Hutu en Ituri"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MiConIturi2019",
+        "name": "Uhamaji wa wanyerwanda: Migration and Conflict in Ituri, DR Congo"
+      },
+      "dre_id": "acd-01-0000"
+    },
+    {
+      "_id": "674dc0432e70d1e383d18afd",
+      "titleInfo": [
+        {
+          "title": "Focus groupe: Membres communautés locales mixte (adultes, jeunes et vieillard)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MiConIturi2019",
+        "name": "Uhamaji wa wanyerwanda: Migration and Conflict in Ituri, DR Congo"
+      },
+      "dre_id": "acd-01-0001"
+    },
+    {
+      "_id": "674dc0432e70d1e383d18afe",
+      "titleInfo": [
+        {
+          "title": "Focus groupe: communauté Hutu mixte (adultes, jeunes et vieillard)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MiConIturi2019",
+        "name": "Uhamaji wa wanyerwanda: Migration and Conflict in Ituri, DR Congo"
+      },
+      "dre_id": "acd-01-0002"
+    },
+    {
+      "_id": "674dc0432e70d1e383d18aff",
+      "titleInfo": [
+        {
+          "title": "Focus groupe mixte pour Jeune autochtone et Hutu"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MiConIturi2019",
+        "name": "Uhamaji wa wanyerwanda: Migration and Conflict in Ituri, DR Congo"
+      },
+      "dre_id": "acd-01-0003"
+    },
+    {
+      "_id": "674dc0432e70d1e383d18b00",
+      "titleInfo": [
+        {
+          "title": "Research on mobility and conflict in the great lakes region/the case of the Hutu in Ituri"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MiConIturi2019",
+        "name": "Uhamaji wa wanyerwanda: Migration and Conflict in Ituri, DR Congo"
+      },
+      "dre_id": "acd-01-0004"
+    },
+    {
+      "_id": "674dc0432e70d1e383d18b01",
+      "titleInfo": [
+        {
+          "title": "Recherche sur mobilité et conflits dans les grand lacs/cas de Hutu en Ituri"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MiConIturi2019",
+        "name": "Uhamaji wa wanyerwanda: Migration and Conflict in Ituri, DR Congo"
+      },
+      "dre_id": "acd-01-0005"
+    },
+    {
+      "_id": "674dc0432e70d1e383d18b02",
+      "titleInfo": [
+        {
+          "title": "Focus group: mixed members of local communities (adults, young ones and the elderly)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MiConIturi2019",
+        "name": "Uhamaji wa wanyerwanda: Migration and Conflict in Ituri, DR Congo"
+      },
+      "dre_id": "acd-01-0006"
+    },
+    {
+      "_id": "674dc0432e70d1e383d18b03",
+      "titleInfo": [
+        {
+          "title": "Focus group: mixed Hutu community (adults, young people and the elderly)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MiConIturi2019",
+        "name": "Uhamaji wa wanyerwanda: Migration and Conflict in Ituri, DR Congo"
+      },
+      "dre_id": "acd-01-0007"
+    },
+    {
+      "_id": "674dc0432e70d1e383d18b04",
+      "titleInfo": [
+        {
+          "title": "Focus group: mixed young indigenous and Hutu people"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MiConIturi2019",
+        "name": "Uhamaji wa wanyerwanda: Migration and Conflict in Ituri, DR Congo"
+      },
+      "dre_id": "acd-01-0008"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b01",
+      "titleInfo": [
+        {
+          "title": "Heterogeneous Effects of Women’s Schooling on Fertility, Literacy and Work: Evidence from Burundi’s Free Primary Education Policy"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-0010"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b02",
+      "titleInfo": [
+        {
+          "title": "Heterogeneous Effects of Women’s Schooling on Fertility, Literacy and Work: Evidence from Burundi’s Free Primary Education Policy"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-0011"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b03",
+      "titleInfo": [
+        {
+          "title": "Heterogeneous Effects of Women’s Schooling on Fertility, Literacy and Work: Evidence from Burundi’s Free Primary Education Policy"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0012"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b04",
+      "titleInfo": [
+        {
+          "title": "Appendix: Heterogeneous Effects of Women’s Schooling on Fertility, Literacy and Work: Evidence from Burundi’s Free Primary Education Policy"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0013"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b05",
+      "titleInfo": [
+        {
+          "title": "Replication R script"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0014"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b06",
+      "titleInfo": [
+        {
+          "title": "Replication dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0015"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b07",
+      "titleInfo": [
+        {
+          "title": "Replication dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0016"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b08",
+      "titleInfo": [
+        {
+          "title": "Replication dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0017"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86b5",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Concept Note"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-0000"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86b6",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Interview"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-0001"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86b7",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-0002"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86b8",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Exhibition"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-99-0003"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86b9",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Workshop"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-0004"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86ba",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Exhibition Essay"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-0005"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86bb",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Workshop Picture 1"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-0006"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86bc",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Workshop Picture 2"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-0007"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86bd",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Picture 3"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-0008"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86be",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Picture 4"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-0009"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86bf",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Picture 5"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-000a"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86c0",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Documentary"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-000b"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86c1",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Brochure"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-000c"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86c2",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Audio Interview 1"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-000d"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86c3",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Audio Interview 2"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-000e"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed94",
+      "titleInfo": [
+        {
+          "title": "IN A WORLD OF THEIR OWN: MEMORY AND IDENTITY IN THE FISHING SONGS OF A MIGRANT EWE COMMUNITY IN GHANA"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03af"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edde",
+      "titleInfo": [
+        {
+          "title": "Sing and Sing On: Sentinel Musicians and the Making of the Ethiopian American Diaspora"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03f9"
+    }
+  ]
+}

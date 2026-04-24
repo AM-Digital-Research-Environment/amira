@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "university-of-free-state",
+    "name": "University of Free State",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2018,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2018,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Accordion music",
+      "value": 1
+    },
+    {
+      "name": "Evolution",
+      "value": 1
+    },
+    {
+      "name": "Sotho (African people)",
+      "value": 1
+    },
+    {
+      "name": "Social status",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Accordion music",
+      "value": 1
+    },
+    {
+      "name": "Evolution",
+      "value": 1
+    },
+    {
+      "name": "Sotho (African people)",
+      "value": 1
+    },
+    {
+      "name": "Social status",
+      "value": 1
+    },
+    {
+      "name": "Famo (Music)",
+      "value": 1
+    },
+    {
+      "name": "Focho (Music)",
+      "value": 1
+    },
+    {
+      "name": "Shebeen",
+      "value": 1
+    },
+    {
+      "name": "Koriana (Music)",
+      "value": 1
+    },
+    {
+      "name": "Basotho",
+      "value": 1
+    },
+    {
+      "name": "Lesotho",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Phafoli, Lehlohonolo",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9eda3",
+      "titleInfo": [
+        {
+          "title": "EVOLUTION OF SOTHO ACCORDION MUSIC IN LESOTHO: 1980—2005"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03be"
+    }
+  ]
+}

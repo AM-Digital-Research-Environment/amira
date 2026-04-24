@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "type": "genre",
+    "id": "slides",
+    "name": "Slides",
+    "count": 1
+  },
+  "timeline": [],
+  "stackedTimeline": [],
+  "types": [
+    {
+      "name": "Image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Art",
+      "value": 1
+    },
+    {
+      "name": "Archives",
+      "value": 1
+    },
+    {
+      "name": "Inuit",
+      "value": 1
+    },
+    {
+      "name": "Inuit art",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Art",
+      "value": 1
+    },
+    {
+      "name": "Archives",
+      "value": 1
+    },
+    {
+      "name": "Inuit",
+      "value": 1
+    },
+    {
+      "name": "Inuit art",
+      "value": 1
+    },
+    {
+      "name": "Personal Archives",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Beier, Ulli",
+      "value": 1
+    },
+    {
+      "name": "Greven, Katharina",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b49b",
+      "titleInfo": [
+        {
+          "title": "Einzelne Diapositive"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0013"
+    }
+  ]
+}

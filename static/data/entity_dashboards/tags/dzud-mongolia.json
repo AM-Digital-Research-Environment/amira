@@ -1,0 +1,265 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "dzud-mongolia",
+    "name": "Dzud (Mongolia)",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 2021,
+      "count": 3
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2021,
+      "total": 3,
+      "byType": {
+        "Text": 3
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    },
+    {
+      "name": "Mongolian",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Arid regions",
+      "value": 3
+    },
+    {
+      "name": "Disasters",
+      "value": 3
+    },
+    {
+      "name": "Travel",
+      "value": 2
+    },
+    {
+      "name": "Herders",
+      "value": 2
+    },
+    {
+      "name": "Livestock",
+      "value": 2
+    },
+    {
+      "name": "Local government",
+      "value": 2
+    },
+    {
+      "name": "Internal migration",
+      "value": 1
+    },
+    {
+      "name": "Households",
+      "value": 1
+    },
+    {
+      "name": "Food security",
+      "value": 1
+    },
+    {
+      "name": "Higher education",
+      "value": 1
+    },
+    {
+      "name": "Subsidies",
+      "value": 1
+    },
+    {
+      "name": "Weather",
+      "value": 1
+    },
+    {
+      "name": "Agriculture",
+      "value": 1
+    },
+    {
+      "name": "Education",
+      "value": 1
+    },
+    {
+      "name": "Schools",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Arid regions",
+      "value": 3
+    },
+    {
+      "name": "Disasters",
+      "value": 3
+    },
+    {
+      "name": "Lockdown",
+      "value": 3
+    },
+    {
+      "name": "Mongolia",
+      "value": 3
+    },
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 3
+    },
+    {
+      "name": "Travel",
+      "value": 2
+    },
+    {
+      "name": "Mobility",
+      "value": 2
+    },
+    {
+      "name": "Herders",
+      "value": 2
+    },
+    {
+      "name": "Livestock",
+      "value": 2
+    },
+    {
+      "name": "Local government",
+      "value": 2
+    },
+    {
+      "name": "Internal migration",
+      "value": 1
+    },
+    {
+      "name": "Households",
+      "value": 1
+    },
+    {
+      "name": "Otor (Mongolia)",
+      "value": 1
+    },
+    {
+      "name": "Food security",
+      "value": 1
+    },
+    {
+      "name": "Higher education",
+      "value": 1
+    },
+    {
+      "name": "Subsidies",
+      "value": 1
+    },
+    {
+      "name": "Weather",
+      "value": 1
+    },
+    {
+      "name": "Agriculture",
+      "value": 1
+    },
+    {
+      "name": "Education",
+      "value": 1
+    },
+    {
+      "name": "Schools",
+      "value": 1
+    },
+    {
+      "name": "Household Income",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Batjav, Batbuyan",
+      "value": 3
+    },
+    {
+      "name": "Amarbat, Byambasuren",
+      "value": 2
+    },
+    {
+      "name": "Baasankhorloo, Ts",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "Mongolia",
+      "region": "Arkhangai Province",
+      "city": "Battsengel Soum",
+      "count": 1
+    },
+    {
+      "country": "Mongolia",
+      "region": "Bayankhongor Province",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "Mongolia",
+      "region": "Khentii Province",
+      "city": "Delgerhan Soum",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "66cefaf495a000d4c7bf3718",
+      "titleInfo": [
+        {
+          "title": "Photo report of Mongolian pastoralists in the time of the Covid-19, February 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0013"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf371d",
+      "titleInfo": [
+        {
+          "title": "Batbuyan Batjav's research comments on Mongolia, October 15, 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0018"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf371e",
+      "titleInfo": [
+        {
+          "title": "Batbuyan Batjav's research comments on Mongolia, September 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0019"
+    }
+  ]
+}

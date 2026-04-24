@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "bernard-peter",
+    "name": "Bernard, Peter",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1950,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1950,
+      "total": 2,
+      "byType": {
+        "Audio": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Audio",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "Swahili",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "Swahili language",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "Swahili language",
+      "value": 2
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "The Kiko Kids",
+      "value": 2
+    },
+    {
+      "name": "Jambo",
+      "value": 2
+    },
+    {
+      "name": "Ghana Broadcasting Corporation Gramophone Library",
+      "value": 2
+    },
+    {
+      "name": "East African Records Limited",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "Kenya",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "66c34de8ba20a6d8a816acf2",
+      "titleInfo": [
+        {
+          "title": "Bibi Mzuri"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-00f4"
+    },
+    {
+      "_id": "66c34de8ba20a6d8a816acf3",
+      "titleInfo": [
+        {
+          "title": "Maria"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-00f5"
+    }
+  ]
+}

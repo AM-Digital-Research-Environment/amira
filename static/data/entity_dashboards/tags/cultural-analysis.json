@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "cultural-analysis",
+    "name": "Cultural Analysis",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "West Africa",
+      "value": 1
+    },
+    {
+      "name": "Book reviews",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "West Africa",
+      "value": 1
+    },
+    {
+      "name": "Book reviews",
+      "value": 1
+    },
+    {
+      "name": "West African Dance",
+      "value": 1
+    },
+    {
+      "name": "Communication Theory",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "van Niekerk, Heather",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9edc3",
+      "titleInfo": [
+        {
+          "title": "Dance in West Africa: Analysis and Description in Relation to Aspects of Communication Theory"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03de"
+    }
+  ]
+}

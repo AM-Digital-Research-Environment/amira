@@ -1,0 +1,767 @@
+{
+  "meta": {
+    "type": "genre",
+    "id": "educational-program",
+    "name": "Educational program",
+    "count": 35
+  },
+  "timeline": [
+    {
+      "year": 1988,
+      "count": 2
+    },
+    {
+      "year": 1989,
+      "count": 1
+    },
+    {
+      "year": 1990,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1988,
+      "total": 2,
+      "byType": {
+        "Moving image": 2
+      }
+    },
+    {
+      "year": 1989,
+      "total": 1,
+      "byType": {
+        "Moving image": 1
+      }
+    },
+    {
+      "year": 1990,
+      "total": 2,
+      "byType": {
+        "Moving image": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Moving image",
+      "value": 35
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 35
+    },
+    {
+      "name": "French",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Education",
+      "value": 31
+    },
+    {
+      "name": "Children",
+      "value": 24
+    },
+    {
+      "name": "Storytelling",
+      "value": 2
+    },
+    {
+      "name": "Singing",
+      "value": 1
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    },
+    {
+      "name": "Agriculture",
+      "value": 1
+    },
+    {
+      "name": "Food",
+      "value": 1
+    },
+    {
+      "name": "Crops",
+      "value": 1
+    },
+    {
+      "name": "History",
+      "value": 1
+    },
+    {
+      "name": "Christmas",
+      "value": 1
+    },
+    {
+      "name": "Medicine",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Education",
+      "value": 31
+    },
+    {
+      "name": "Children",
+      "value": 24
+    },
+    {
+      "name": "Educational Show",
+      "value": 24
+    },
+    {
+      "name": "Storytelling",
+      "value": 2
+    },
+    {
+      "name": "Recording Technology",
+      "value": 1
+    },
+    {
+      "name": "Singing",
+      "value": 1
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    },
+    {
+      "name": "Agriculture",
+      "value": 1
+    },
+    {
+      "name": "Food",
+      "value": 1
+    },
+    {
+      "name": "Crops",
+      "value": 1
+    },
+    {
+      "name": "Farming",
+      "value": 1
+    },
+    {
+      "name": "History",
+      "value": 1
+    },
+    {
+      "name": "National History",
+      "value": 1
+    },
+    {
+      "name": "Military",
+      "value": 1
+    },
+    {
+      "name": "Christmas",
+      "value": 1
+    },
+    {
+      "name": "Gender Roles",
+      "value": 1
+    },
+    {
+      "name": "Family",
+      "value": 1
+    },
+    {
+      "name": "Medicine",
+      "value": 1
+    },
+    {
+      "name": "HIV/AIDS",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Collins, Hawa Andrews",
+      "value": 39
+    },
+    {
+      "name": "Government of Liberia",
+      "value": 35
+    },
+    {
+      "name": "Liberia Broadcasting System (LBS)",
+      "value": 17
+    },
+    {
+      "name": "Mensah, Sam",
+      "value": 14
+    },
+    {
+      "name": "Taylor, Adolphus",
+      "value": 13
+    },
+    {
+      "name": "Gilbert, Thomas",
+      "value": 13
+    },
+    {
+      "name": "Urey, Khrushchev Borbor",
+      "value": 12
+    },
+    {
+      "name": "McCrumada, Charles",
+      "value": 12
+    },
+    {
+      "name": "Wegee, Presley",
+      "value": 10
+    },
+    {
+      "name": "Eastman, John",
+      "value": 9
+    },
+    {
+      "name": "Fakay, Soko",
+      "value": 8
+    },
+    {
+      "name": "Brent, Julius",
+      "value": 6
+    },
+    {
+      "name": "Kezele, Sumoiwuo",
+      "value": 5
+    },
+    {
+      "name": "Flomo, Korkulor",
+      "value": 5
+    },
+    {
+      "name": "Zeon, Jefferson",
+      "value": 4
+    },
+    {
+      "name": "Toby, Victor",
+      "value": 2
+    },
+    {
+      "name": "League of Red Cross Societies",
+      "value": 2
+    },
+    {
+      "name": "Big Sister Hawa",
+      "value": 2
+    },
+    {
+      "name": "Diggs, Rev. A. Momolu",
+      "value": 1
+    },
+    {
+      "name": "Snetter, Charles A.",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Liberia",
+      "region": "Montserrado County",
+      "city": "Monrovia",
+      "count": 35
+    }
+  ],
+  "items": [
+    {
+      "_id": "6982337057a8e0353b0b1c7e",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0041"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c8f",
+      "titleInfo": [
+        {
+          "title": "Take '15"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0052"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c92",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0055"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c93",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0056"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c94",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0057"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c95",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0058"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c96",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0059"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c97",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-005a"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c98",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-005b"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c9a",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-005d"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c9b",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-005e"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c9c",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-005f"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c9d",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0060"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1ca6",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0069"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cb0",
+      "titleInfo": [
+        {
+          "title": "Food from the Soil"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0073"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cd1",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0094"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d07",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00ca"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d09",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00cc"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d0a",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00cd"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d0c",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00cf"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d0d",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00d0"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d1d",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00e0"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d1e",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00e1"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d1f",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00e2"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d20",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00e3"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d62",
+      "titleInfo": [
+        {
+          "title": "Today's Woman"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0125"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1da7",
+      "titleInfo": [
+        {
+          "title": "Special Feature"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-016a"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1daa",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-016d"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1dab",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-016e"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1dae",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0171"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1db3",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0176"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1dcc",
+      "titleInfo": [
+        {
+          "title": "NHK Educational Film Segments"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-018f"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1de0",
+      "titleInfo": [
+        {
+          "title": "AIDS: South African Chamber of Mines Educational Video"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-01a3"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1df7",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-01ba"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1e06",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-01c9"
+    }
+  ]
+}

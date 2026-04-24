@@ -1,0 +1,167 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "smith-edna-m",
+    "name": "Smith, Edna M.",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1962,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1962,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Ashanti (African people)",
+      "value": 1
+    },
+    {
+      "name": "Folklore",
+      "value": 1
+    },
+    {
+      "name": "Education",
+      "value": 1
+    },
+    {
+      "name": "Highlife (Music)",
+      "value": 1
+    },
+    {
+      "name": "Popular music",
+      "value": 1
+    },
+    {
+      "name": "Jazz",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "West Africa",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Ashanti (African people)",
+      "value": 1
+    },
+    {
+      "name": "Folklore",
+      "value": 1
+    },
+    {
+      "name": "Education",
+      "value": 1
+    },
+    {
+      "name": "Ghana",
+      "value": 1
+    },
+    {
+      "name": "Social Life",
+      "value": 1
+    },
+    {
+      "name": "Social Customs",
+      "value": 1
+    },
+    {
+      "name": "Highlife (Music)",
+      "value": 1
+    },
+    {
+      "name": "Popular music",
+      "value": 1
+    },
+    {
+      "name": "Jazz",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "West Africa",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9eaca",
+      "titleInfo": [
+        {
+          "title": "Musical training in Tribal West Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00e5"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eacb",
+      "titleInfo": [
+        {
+          "title": "Popular music in West Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00e6"
+    }
+  ]
+}

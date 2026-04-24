@@ -1,0 +1,246 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "royal-museum-for-central-africa",
+    "name": "Royal Museum for Central Africa",
+    "count": 5
+  },
+  "timeline": [
+    {
+      "year": 1971,
+      "count": 2
+    },
+    {
+      "year": 1973,
+      "count": 1
+    },
+    {
+      "year": 1980,
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1971,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1973,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1980,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2023,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 5
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    },
+    {
+      "name": "French",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Research",
+      "value": 1
+    },
+    {
+      "name": "Ethnology",
+      "value": 1
+    },
+    {
+      "name": "Central Africa",
+      "value": 1
+    },
+    {
+      "name": "Electronic music",
+      "value": 1
+    },
+    {
+      "name": "Festivals",
+      "value": 1
+    },
+    {
+      "name": "Social networks",
+      "value": 1
+    },
+    {
+      "name": "Folk music",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 5
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Research",
+      "value": 1
+    },
+    {
+      "name": "Ethnology",
+      "value": 1
+    },
+    {
+      "name": "Central Africa",
+      "value": 1
+    },
+    {
+      "name": "Rwanda",
+      "value": 1
+    },
+    {
+      "name": "Electronic music",
+      "value": 1
+    },
+    {
+      "name": "Festivals",
+      "value": 1
+    },
+    {
+      "name": "Social networks",
+      "value": 1
+    },
+    {
+      "name": "Folk music",
+      "value": 1
+    },
+    {
+      "name": "Digital Technology",
+      "value": 1
+    },
+    {
+      "name": "Acholi Music",
+      "value": 1
+    },
+    {
+      "name": "Traditional Music",
+      "value": 1
+    },
+    {
+      "name": "Uganda",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "de Troch, Daniel",
+      "value": 2
+    },
+    {
+      "name": "Gansemans, Jos",
+      "value": 2
+    },
+    {
+      "name": "Jadinon, Rémy",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 5
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9eb99",
+      "titleInfo": [
+        {
+          "title": "Questionnaire d'Enquêite sur les instruments de musique Africaine traditionelle"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01b4"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb9a",
+      "titleInfo": [
+        {
+          "title": "Questionnaire into traditional African musical instruments"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01b5"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ebbf",
+      "titleInfo": [
+        {
+          "title": "Recherche ethnomusicologique au Rwanda"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01da"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ebe3",
+      "titleInfo": [
+        {
+          "title": "LES MENDZAN DES CHANTEURS DE YAOUNDE: Histoire - Organologie - Fabrication - Systeme de Transcription, by Pie-Claude Ngumu, No. 34, Acta Ethnoligica et Linguistica, Vienna, 1976„ pp. 81, photos, diagrams."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01fe"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eddf",
+      "titleInfo": [
+        {
+          "title": "LEO PALAYENG"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03fa"
+    }
+  ]
+}

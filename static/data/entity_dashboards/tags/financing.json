@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "financing",
+    "name": "Financing",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2021,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2022,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Finance",
+      "value": 2
+    },
+    {
+      "name": "World health",
+      "value": 1
+    },
+    {
+      "name": "West Africa",
+      "value": 1
+    },
+    {
+      "name": "Rumor",
+      "value": 1
+    },
+    {
+      "name": "Truth",
+      "value": 1
+    },
+    {
+      "name": "Uncertainty",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Finance",
+      "value": 2
+    },
+    {
+      "name": "World health",
+      "value": 1
+    },
+    {
+      "name": "West Africa",
+      "value": 1
+    },
+    {
+      "name": "Decentralisation",
+      "value": 1
+    },
+    {
+      "name": "Healthcare Privatisation",
+      "value": 1
+    },
+    {
+      "name": "Local Authority",
+      "value": 1
+    },
+    {
+      "name": "Global Health Policy",
+      "value": 1
+    },
+    {
+      "name": "Burkina Faso",
+      "value": 1
+    },
+    {
+      "name": "Kaya",
+      "value": 1
+    },
+    {
+      "name": "Bobo-Dioulasso",
+      "value": 1
+    },
+    {
+      "name": "Rumor",
+      "value": 1
+    },
+    {
+      "name": "Truth",
+      "value": 1
+    },
+    {
+      "name": "Uncertainty",
+      "value": 1
+    },
+    {
+      "name": "Anti-state Armed Group",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Banhoro, Yacouba",
+      "value": 1
+    },
+    {
+      "name": "Tougba, Paala",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Burkina Faso",
+      "region": "",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "Centre",
+      "city": "Ouagadougou",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "6718efd3c327cde4b57d8681",
+      "titleInfo": [
+        {
+          "title": "Rapports d'entretien"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0010"
+    },
+    {
+      "_id": "6734bd19b9dbcc3cc179feba",
+      "titleInfo": [
+        {
+          "title": "Financement des groupes armés anti-étatiques: rumeurs, vérités et incertitudes"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_SEDPaix2022",
+        "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
+      },
+      "dre_id": "acq-03-0006"
+    }
+  ]
+}

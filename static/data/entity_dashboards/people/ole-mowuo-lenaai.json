@@ -1,0 +1,217 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "ole-mowuo-lenaai",
+    "name": "ole Mowuo, Lenaai",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2022,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    },
+    {
+      "name": "Swahili",
+      "value": 1
+    },
+    {
+      "name": "Spanish",
+      "value": 1
+    },
+    {
+      "name": "Catalan",
+      "value": 1
+    },
+    {
+      "name": "Maasai",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Arid regions",
+      "value": 2
+    },
+    {
+      "name": "Maasai (African people)",
+      "value": 2
+    },
+    {
+      "name": "East Africa",
+      "value": 2
+    },
+    {
+      "name": "Food security",
+      "value": 1
+    },
+    {
+      "name": "Livestock",
+      "value": 1
+    },
+    {
+      "name": "Households",
+      "value": 1
+    },
+    {
+      "name": "Vaccination",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Arid regions",
+      "value": 2
+    },
+    {
+      "name": "Maasai (African people)",
+      "value": 2
+    },
+    {
+      "name": "East Africa",
+      "value": 2
+    },
+    {
+      "name": "Kenya",
+      "value": 2
+    },
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 2
+    },
+    {
+      "name": "Food security",
+      "value": 1
+    },
+    {
+      "name": "Livestock",
+      "value": 1
+    },
+    {
+      "name": "Households",
+      "value": 1
+    },
+    {
+      "name": "Vaccination",
+      "value": 1
+    },
+    {
+      "name": "Lockdown",
+      "value": 1
+    },
+    {
+      "name": "Tanzania",
+      "value": 1
+    },
+    {
+      "name": "Border",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Kronenburg García, Angela",
+      "value": 2
+    },
+    {
+      "name": "ole Mowuo, Matinkoi",
+      "value": 1
+    },
+    {
+      "name": "Mayiani, Daniel",
+      "value": 1
+    },
+    {
+      "name": "Tallio, Virginie",
+      "value": 1
+    },
+    {
+      "name": "Hashimshony Yaffe, Nurit",
+      "value": 1
+    },
+    {
+      "name": "Gargallo, Eduard",
+      "value": 1
+    },
+    {
+      "name": "Roque de Pinho, Joana",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Kenya",
+      "region": "Narok",
+      "city": "Maasai Mara National Reserve",
+      "count": 1
+    },
+    {
+      "country": "Kenya",
+      "region": "Narok",
+      "city": "Loita Hills",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "66cefaf495a000d4c7bf3705",
+      "titleInfo": [
+        {
+          "title": "Angela Kronenburg Garcia's Zoom meeting transcript and report on Kenya, September 15, 2020"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0000"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3710",
+      "titleInfo": [
+        {
+          "title": "Lenaai ole Mowuo's Zoom transcript, Kenya, June 27, 2022"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-000b"
+    }
+  ]
+}

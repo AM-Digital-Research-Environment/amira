@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "memory",
+    "name": "Memory",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2017,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2017,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Anlo (African people)",
+      "value": 1
+    },
+    {
+      "name": "Fanti (African people)",
+      "value": 1
+    },
+    {
+      "name": "Migration",
+      "value": 1
+    },
+    {
+      "name": "Ewe (African people)",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Anlo (African people)",
+      "value": 1
+    },
+    {
+      "name": "Fanti (African people)",
+      "value": 1
+    },
+    {
+      "name": "Migration",
+      "value": 1
+    },
+    {
+      "name": "Ewe (African people)",
+      "value": 1
+    },
+    {
+      "name": "Ghana",
+      "value": 1
+    },
+    {
+      "name": "Identity",
+      "value": 1
+    },
+    {
+      "name": "Fishermen Songs",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Otchere, Eric Debrah",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ed94",
+      "titleInfo": [
+        {
+          "title": "IN A WORLD OF THEIR OWN: MEMORY AND IDENTITY IN THE FISHING SONGS OF A MIGRANT EWE COMMUNITY IN GHANA"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03af"
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "fieldwork",
+    "name": "Fieldwork",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1999,
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1999,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2020,
+      "total": 1,
+      "byType": {
+        "Collection": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Collection",
+      "value": 1
+    },
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Education",
+      "value": 1
+    },
+    {
+      "name": "Agricultural laborers",
+      "value": 1
+    },
+    {
+      "name": "Karakul sheep",
+      "value": 1
+    },
+    {
+      "name": "Karakul sheep industry",
+      "value": 1
+    },
+    {
+      "name": "Agriculture",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Education",
+      "value": 1
+    },
+    {
+      "name": "Agricultural laborers",
+      "value": 1
+    },
+    {
+      "name": "Karakul sheep",
+      "value": 1
+    },
+    {
+      "name": "Karakul sheep industry",
+      "value": 1
+    },
+    {
+      "name": "Agriculture",
+      "value": 1
+    },
+    {
+      "name": "Germany",
+      "value": 1
+    },
+    {
+      "name": "Karakul Farming",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    },
+    {
+      "name": "Uganda",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Schaumann, Eleanor",
+      "value": 1
+    },
+    {
+      "name": "Cooke, Peter",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Namibia",
+      "region": "",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "66cf0d9595a000d4c7bf372d",
+      "titleInfo": [
+        {
+          "title": "Neudamm"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-0002"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec83",
+      "titleInfo": [
+        {
+          "title": "Fieldwork in Lango, northern Uganda Feb-Mar 1997"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-029e"
+    }
+  ]
+}

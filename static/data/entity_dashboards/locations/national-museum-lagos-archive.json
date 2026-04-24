@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "national-museum-lagos-archive",
+    "name": "National Museum Lagos Archive",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2022,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2023,
+      "total": 2,
+      "byType": {
+        "Image": 1,
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    },
+    {
+      "name": "Image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "West Africa",
+      "value": 3
+    },
+    {
+      "name": "Exports",
+      "value": 1
+    },
+    {
+      "name": "Finance",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "West Africa",
+      "value": 3
+    },
+    {
+      "name": "Nigeria",
+      "value": 3
+    },
+    {
+      "name": "Exports",
+      "value": 1
+    },
+    {
+      "name": "Old Naira",
+      "value": 1
+    },
+    {
+      "name": "Currency",
+      "value": 1
+    },
+    {
+      "name": "Finance",
+      "value": 1
+    },
+    {
+      "name": "Central Bank",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Coburger, Carla",
+      "value": 3
+    }
+  ]
+}

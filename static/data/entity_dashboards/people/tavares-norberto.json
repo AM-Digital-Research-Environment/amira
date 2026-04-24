@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "tavares-norberto",
+    "name": "Tavares, Norberto",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2015,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2015,
+      "total": 2,
+      "byType": {
+        "Audio": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Audio",
+      "value": 2
+    }
+  ],
+  "languages": [],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 2
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ed48",
+      "titleInfo": [
+        {
+          "title": "Gdeim Izik"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "dre_id": "eaa-99-0363"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed5f",
+      "titleInfo": [
+        {
+          "title": "Bu Sabura é un Disgraça"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "dre_id": "eaa-99-037a"
+    }
+  ]
+}

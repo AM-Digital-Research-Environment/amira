@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "nzewi-meki",
+    "name": "Nzewi, Meki",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1980,
+      "count": 1
+    },
+    {
+      "year": 1987,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1980,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1987,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Folk music",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Folk music",
+      "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ebf6",
+      "titleInfo": [
+        {
+          "title": "Folk music in Nigeria: a communion"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0211"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec30",
+      "titleInfo": [
+        {
+          "title": "Ese music: honours for the dead: status for the sponsor"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-024b"
+    }
+  ]
+}

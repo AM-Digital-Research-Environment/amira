@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "creole-dialects",
+    "name": "Creole dialects",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1960,
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1960,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2020,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "History",
+      "value": 1
+    },
+    {
+      "name": "Jazz",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Songs",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "History",
+      "value": 1
+    },
+    {
+      "name": "Jazz",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Songs",
+      "value": 1
+    },
+    {
+      "name": "Slave Music",
+      "value": 1
+    },
+    {
+      "name": "Musical Exchange",
+      "value": 1
+    },
+    {
+      "name": "Sega Dance",
+      "value": 1
+    },
+    {
+      "name": "Moutya Dance",
+      "value": 1
+    },
+    {
+      "name": "Mascarenes Islands",
+      "value": 1
+    },
+    {
+      "name": "Maloya Dance",
+      "value": 1
+    },
+    {
+      "name": "Seychelles",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Smith, Hugh L.",
+      "value": 1
+    },
+    {
+      "name": "Parent, Marie-Christine",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ea90",
+      "titleInfo": [
+        {
+          "title": "George W. Cable and two sources of jazz"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00ab"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edba",
+      "titleInfo": [
+        {
+          "title": "“MUSIC OF THE SLAVES” IN THE INDIAN OCEAN CREOLE ISLANDS: A PERSPECTIVE FROM THE SEYCHELLES"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03d5"
+    }
+  ]
+}

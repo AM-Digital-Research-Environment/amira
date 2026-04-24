@@ -1,0 +1,288 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "obafemi-awolowo-university",
+    "name": "Obafemi Awolowo University",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 1971,
+      "count": 1
+    },
+    {
+      "year": 1973,
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1971,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1973,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2019,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2023,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 4
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 4
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Drum language",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Drum",
+      "value": 1
+    },
+    {
+      "name": "Drum music",
+      "value": 1
+    },
+    {
+      "name": "Environmental degradation",
+      "value": 1
+    },
+    {
+      "name": "Popular music",
+      "value": 1
+    },
+    {
+      "name": "Ecomusicology",
+      "value": 1
+    },
+    {
+      "name": "Natural disasters",
+      "value": 1
+    },
+    {
+      "name": "Digital media",
+      "value": 1
+    },
+    {
+      "name": "Commodification",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Gospel music",
+      "value": 1
+    },
+    {
+      "name": "Islamic music",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 4
+    },
+    {
+      "name": "Nigeria",
+      "value": 3
+    },
+    {
+      "name": "Drum language",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Drum",
+      "value": 1
+    },
+    {
+      "name": "Drum music",
+      "value": 1
+    },
+    {
+      "name": "Drum (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Environmental degradation",
+      "value": 1
+    },
+    {
+      "name": "Popular music",
+      "value": 1
+    },
+    {
+      "name": "Ecomusicology",
+      "value": 1
+    },
+    {
+      "name": "Natural disasters",
+      "value": 1
+    },
+    {
+      "name": "Ibadan",
+      "value": 1
+    },
+    {
+      "name": "Flood",
+      "value": 1
+    },
+    {
+      "name": "Digital media",
+      "value": 1
+    },
+    {
+      "name": "Commodification",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Gospel music",
+      "value": 1
+    },
+    {
+      "name": "Islamic music",
+      "value": 1
+    },
+    {
+      "name": "Yoruba Art",
+      "value": 1
+    },
+    {
+      "name": "Yoruba Muslim",
+      "value": 1
+    },
+    {
+      "name": "Musical Innovation",
+      "value": 1
+    },
+    {
+      "name": "Music Trends",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Akpabot, Samuel",
+      "value": 1
+    },
+    {
+      "name": "Omibiyi, Mosunmola",
+      "value": 1
+    },
+    {
+      "name": "Titus, Olusegun Stephen",
+      "value": 1
+    },
+    {
+      "name": "Ogundipe, Stephen Toyin",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 4
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9eb98",
+      "titleInfo": [
+        {
+          "title": "Standard drum patterns in Nigeria"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01b3"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ebc6",
+      "titleInfo": [
+        {
+          "title": "A model for the study of African music"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01e1"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edad",
+      "titleInfo": [
+        {
+          "title": "ECOMUSICOLOGY, INDIGENOUS KNOWLEDGE AND ENVIRONMENTAL DEGRADATION IN IBADAN, NIGERIA"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03c8"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ede2",
+      "titleInfo": [
+        {
+          "title": "CONTESTING NORMS"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03fd"
+    }
+  ]
+}

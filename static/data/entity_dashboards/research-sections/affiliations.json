@@ -1,0 +1,1364 @@
+{
+  "meta": {
+    "type": "research-section",
+    "id": "affiliations",
+    "name": "Affiliations",
+    "count": 50
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "count": 30
+    },
+    {
+      "year": 2022,
+      "count": 10
+    },
+    {
+      "year": 2023,
+      "count": 7
+    },
+    {
+      "year": 2024,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 2,
+      "byType": {
+        "Digital": 1,
+        "Text": 1
+      }
+    },
+    {
+      "year": 2021,
+      "total": 30,
+      "byType": {
+        "Text": 3,
+        "Dataset": 6,
+        "Digital": 1,
+        "Image": 11,
+        "Moving image": 9
+      }
+    },
+    {
+      "year": 2022,
+      "total": 10,
+      "byType": {
+        "Text": 1,
+        "Dataset": 5,
+        "Image": 2,
+        "Digital": 2
+      }
+    },
+    {
+      "year": 2023,
+      "total": 7,
+      "byType": {
+        "Text": 2,
+        "Digital": 1,
+        "Dataset": 4
+      }
+    },
+    {
+      "year": 2024,
+      "total": 1,
+      "byType": {
+        "Dataset": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Dataset",
+      "value": 16
+    },
+    {
+      "name": "Image",
+      "value": 13
+    },
+    {
+      "name": "Moving image",
+      "value": 9
+    },
+    {
+      "name": "Text",
+      "value": 7
+    },
+    {
+      "name": "Digital",
+      "value": 5
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 50
+    }
+  ],
+  "heatmap": [
+    {
+      "x": "2020s",
+      "y": "Dataset",
+      "value": 16
+    },
+    {
+      "x": "2020s",
+      "y": "Digital",
+      "value": 5
+    },
+    {
+      "x": "2020s",
+      "y": "Image",
+      "value": 13
+    },
+    {
+      "x": "2020s",
+      "y": "Moving image",
+      "value": 9
+    },
+    {
+      "x": "2020s",
+      "y": "Text",
+      "value": 7
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 39
+    },
+    {
+      "name": "Women",
+      "value": 21
+    },
+    {
+      "name": "Political rights",
+      "value": 21
+    },
+    {
+      "name": "Political participation",
+      "value": 21
+    },
+    {
+      "name": "Geography",
+      "value": 10
+    },
+    {
+      "name": "Mediation (Statistics)",
+      "value": 10
+    },
+    {
+      "name": "Economic development",
+      "value": 10
+    },
+    {
+      "name": "Child care",
+      "value": 8
+    },
+    {
+      "name": "Children",
+      "value": 8
+    },
+    {
+      "name": "Fertility",
+      "value": 8
+    },
+    {
+      "name": "Income distribution",
+      "value": 8
+    },
+    {
+      "name": "Youth",
+      "value": 8
+    },
+    {
+      "name": "Education",
+      "value": 8
+    },
+    {
+      "name": "Family planning",
+      "value": 8
+    },
+    {
+      "name": "Migration",
+      "value": 8
+    },
+    {
+      "name": "Natural disasters",
+      "value": 7
+    },
+    {
+      "name": "Global warming",
+      "value": 7
+    },
+    {
+      "name": "Sustainability",
+      "value": 7
+    },
+    {
+      "name": "COVID-19 (Disease)",
+      "value": 2
+    },
+    {
+      "name": "Developing countries",
+      "value": 2
+    },
+    {
+      "name": "Public health",
+      "value": 2
+    },
+    {
+      "name": "Judges",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Treaties",
+      "value": 1
+    },
+    {
+      "name": "Courts",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 39
+    },
+    {
+      "name": "Women",
+      "value": 21
+    },
+    {
+      "name": "Political rights",
+      "value": 21
+    },
+    {
+      "name": "Political participation",
+      "value": 21
+    },
+    {
+      "name": "Structural Barriers",
+      "value": 21
+    },
+    {
+      "name": "Political Barriers",
+      "value": 21
+    },
+    {
+      "name": "Politics",
+      "value": 21
+    },
+    {
+      "name": "Econometric Evidence",
+      "value": 17
+    },
+    {
+      "name": "Geography",
+      "value": 10
+    },
+    {
+      "name": "Mediation (Statistics)",
+      "value": 10
+    },
+    {
+      "name": "Coastal Proximity",
+      "value": 10
+    },
+    {
+      "name": "Mediation Analysis",
+      "value": 10
+    },
+    {
+      "name": "Coastal Countries",
+      "value": 10
+    },
+    {
+      "name": "Household Survey",
+      "value": 10
+    },
+    {
+      "name": "Economic development",
+      "value": 10
+    },
+    {
+      "name": "Child care",
+      "value": 8
+    },
+    {
+      "name": "Children",
+      "value": 8
+    },
+    {
+      "name": "Fertility",
+      "value": 8
+    },
+    {
+      "name": "Income distribution",
+      "value": 8
+    },
+    {
+      "name": "Youth",
+      "value": 8
+    },
+    {
+      "name": "Education",
+      "value": 8
+    },
+    {
+      "name": "Family planning",
+      "value": 8
+    },
+    {
+      "name": "Migration",
+      "value": 8
+    },
+    {
+      "name": "Female Education",
+      "value": 8
+    },
+    {
+      "name": "Human Development",
+      "value": 8
+    },
+    {
+      "name": "Education Policy",
+      "value": 8
+    },
+    {
+      "name": "Educational Influence",
+      "value": 8
+    },
+    {
+      "name": "Child Development",
+      "value": 8
+    },
+    {
+      "name": "Human Resources",
+      "value": 8
+    },
+    {
+      "name": "Natural disasters",
+      "value": 7
+    },
+    {
+      "name": "Global warming",
+      "value": 7
+    },
+    {
+      "name": "Sustainability",
+      "value": 7
+    },
+    {
+      "name": "Disaster Management",
+      "value": 7
+    },
+    {
+      "name": "Environmental Accounts",
+      "value": 7
+    },
+    {
+      "name": "Environmental Accounting",
+      "value": 7
+    },
+    {
+      "name": "Environmental Equity",
+      "value": 7
+    },
+    {
+      "name": "Population Growth",
+      "value": 7
+    },
+    {
+      "name": "Regional Economic Development",
+      "value": 7
+    },
+    {
+      "name": "Regional Economic Change",
+      "value": 7
+    },
+    {
+      "name": "Economic-Environmental Interactions",
+      "value": 7
+    },
+    {
+      "name": "Trade",
+      "value": 7
+    },
+    {
+      "name": "Environment",
+      "value": 7
+    },
+    {
+      "name": "Climate Change",
+      "value": 7
+    },
+    {
+      "name": "COVID-19 (Disease)",
+      "value": 2
+    },
+    {
+      "name": "Developing countries",
+      "value": 2
+    },
+    {
+      "name": "Public health",
+      "value": 2
+    },
+    {
+      "name": "COVID-19",
+      "value": 2
+    },
+    {
+      "name": "Healthcare",
+      "value": 2
+    },
+    {
+      "name": "Judges",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Treaties",
+      "value": 1
+    },
+    {
+      "name": "Courts",
+      "value": 1
+    },
+    {
+      "name": "East African Community",
+      "value": 1
+    },
+    {
+      "name": "East African Court of Justice",
+      "value": 1
+    },
+    {
+      "name": "Common Market for Eastern and Southern Africa",
+      "value": 1
+    },
+    {
+      "name": "Southern African Development Community",
+      "value": 1
+    },
+    {
+      "name": "Regional Court",
+      "value": 1
+    },
+    {
+      "name": "Regional Organisation",
+      "value": 1
+    },
+    {
+      "name": "Appointment Rules",
+      "value": 1
+    },
+    {
+      "name": "Well-being",
+      "value": 1
+    },
+    {
+      "name": "Health",
+      "value": 1
+    },
+    {
+      "name": "Microeconomics",
+      "value": 1
+    },
+    {
+      "name": "General Welfare",
+      "value": 1
+    },
+    {
+      "name": "Health Development",
+      "value": 1
+    },
+    {
+      "name": "Water Project",
+      "value": 1
+    },
+    {
+      "name": "Life expectancy",
+      "value": 1
+    },
+    {
+      "name": "Mortality",
+      "value": 1
+    },
+    {
+      "name": "Lockdown",
+      "value": 1
+    },
+    {
+      "name": "Sustainable Solution",
+      "value": 1
+    },
+    {
+      "name": "Emerging Economies",
+      "value": 1
+    },
+    {
+      "name": "Ghana",
+      "value": 1
+    },
+    {
+      "name": "Economy",
+      "value": 1
+    },
+    {
+      "name": "COVID-19 vaccines",
+      "value": 1
+    },
+    {
+      "name": "Herd immunity",
+      "value": 1
+    },
+    {
+      "name": "International relations",
+      "value": 1
+    },
+    {
+      "name": "European Union",
+      "value": 1
+    },
+    {
+      "name": "European Community",
+      "value": 1
+    },
+    {
+      "name": "India",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Stadelmann, David",
+      "value": 28
+    },
+    {
+      "name": "Ademola-Adeoye, Feyisayo",
+      "value": 21
+    },
+    {
+      "name": "Attoh, Franca",
+      "value": 21
+    },
+    {
+      "name": "Yakubu, Moses",
+      "value": 21
+    },
+    {
+      "name": "Eesuola, Kayode",
+      "value": 21
+    },
+    {
+      "name": "Olukuade, Tomide",
+      "value": 21
+    },
+    {
+      "name": "Ademola, Lydia",
+      "value": 21
+    },
+    {
+      "name": "Anyanwu, Beatrice",
+      "value": 21
+    },
+    {
+      "name": "Akintola, Folashade",
+      "value": 21
+    },
+    {
+      "name": "Adeniran, Samuel",
+      "value": 21
+    },
+    {
+      "name": "Adebayo, Bukola",
+      "value": 21
+    },
+    {
+      "name": "Wild, Frederik",
+      "value": 20
+    },
+    {
+      "name": "Greßer, Christina",
+      "value": 7
+    },
+    {
+      "name": "Meierrieks, Daniel",
+      "value": 7
+    },
+    {
+      "name": "Frempong, Raymond Boadi",
+      "value": 3
+    },
+    {
+      "name": "Stroh-Steckelberg, Alexander",
+      "value": 1
+    },
+    {
+      "name": "Kisakye, Diana",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 28
+    },
+    {
+      "country": "Kenya",
+      "region": "Nairobi Province",
+      "city": "Nairobi",
+      "count": 8
+    },
+    {
+      "country": "Nigeria",
+      "region": "Enugu State",
+      "city": "Enugu",
+      "count": 4
+    },
+    {
+      "country": "Nigeria",
+      "region": "Oyo State",
+      "city": "Ibadan",
+      "count": 4
+    },
+    {
+      "country": "Nigeria",
+      "region": "Kaduna State",
+      "city": "Kaduna",
+      "count": 4
+    },
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "Nigeria",
+      "region": "Lagos State",
+      "city": "Lagos",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "6798e3067e0d400ed54ccc71",
+      "titleInfo": [
+        {
+          "title": "Major structural elements and appointment criteria to African Regional Courts with references to Treaty and protocol regulations"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa-PRJ2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "aco-01-0000"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6af1",
+      "titleInfo": [
+        {
+          "title": "Coastal proximity and individual living standards: Econometric evidence from georeferenced household surveys in sub-Saharan Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-0000"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6af2",
+      "titleInfo": [
+        {
+          "title": "Coastal proximity and individual living standards: Econometric evidence from georeferenced household surveys in sub-Saharan Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-0001"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6af3",
+      "titleInfo": [
+        {
+          "title": "Online Appendix - Supporting Information"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-0002"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6af4",
+      "titleInfo": [
+        {
+          "title": "Figure S1"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-0003"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6af5",
+      "titleInfo": [
+        {
+          "title": "Figure S2"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-0004"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6af6",
+      "titleInfo": [
+        {
+          "title": "Replication script for table 4"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-0005"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6af7",
+      "titleInfo": [
+        {
+          "title": "Replication dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-0006"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6af8",
+      "titleInfo": [
+        {
+          "title": "Replication dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-0007"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6af9",
+      "titleInfo": [
+        {
+          "title": "Replication R script"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-0008"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6afa",
+      "titleInfo": [
+        {
+          "title": "Presentation slides"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0009"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6afb",
+      "titleInfo": [
+        {
+          "title": "The link between regional temperature and regional incomes: Econometric evidence with sub-national data"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-000a"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6afc",
+      "titleInfo": [
+        {
+          "title": "Supplementary Information"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-000b"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6afd",
+      "titleInfo": [
+        {
+          "title": "Replication Gennaioli climate growth dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-000c"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6afe",
+      "titleInfo": [
+        {
+          "title": "A micro-based evaluation of water projects"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-000d"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6aff",
+      "titleInfo": [
+        {
+          "title": "A perspective on secondary effects of the spread of COVID-19 in emerging economies"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-000e"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b00",
+      "titleInfo": [
+        {
+          "title": "Every (immune) person counts, especially in developing countries"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-000f"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b01",
+      "titleInfo": [
+        {
+          "title": "Heterogeneous Effects of Women’s Schooling on Fertility, Literacy and Work: Evidence from Burundi’s Free Primary Education Policy"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-0010"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b02",
+      "titleInfo": [
+        {
+          "title": "Heterogeneous Effects of Women’s Schooling on Fertility, Literacy and Work: Evidence from Burundi’s Free Primary Education Policy"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-0011"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b03",
+      "titleInfo": [
+        {
+          "title": "Heterogeneous Effects of Women’s Schooling on Fertility, Literacy and Work: Evidence from Burundi’s Free Primary Education Policy"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0012"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b04",
+      "titleInfo": [
+        {
+          "title": "Appendix: Heterogeneous Effects of Women’s Schooling on Fertility, Literacy and Work: Evidence from Burundi’s Free Primary Education Policy"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0013"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b05",
+      "titleInfo": [
+        {
+          "title": "Replication R script"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0014"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b06",
+      "titleInfo": [
+        {
+          "title": "Replication dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0015"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b07",
+      "titleInfo": [
+        {
+          "title": "Replication dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0016"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b08",
+      "titleInfo": [
+        {
+          "title": "Replication dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0017"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b09",
+      "titleInfo": [
+        {
+          "title": "Replication Gennaioli climate dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0018"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b0a",
+      "titleInfo": [
+        {
+          "title": "Replication DHS 2015 climate dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0019"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b0b",
+      "titleInfo": [
+        {
+          "title": "Replication DHS 2005 climate dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-001a"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b0c",
+      "titleInfo": [
+        {
+          "title": "Replication climate R script"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-001b"
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86d9",
+      "titleInfo": [
+        {
+          "title": "Locating the Albatross in Women’s Political Participation in Sub-Saharan Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-0000"
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86da",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Image 1 of Respondent taken during the Field Work in Enugu"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-0001"
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86db",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Image 2 of Respondent taken during the Field Work in Enugu"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-0002"
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86dc",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Image 1 of Political Respondent taken during the Field Work in Ibadan"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-0003"
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86dd",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Image 2 of Political Respondent taken during the Field Work in Ibadan"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-0004"
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86de",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Image 1 of Political Respondent taken during the Field Work in Kaduna"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-0005"
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86df",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Image 2 of Political Respondent taken during the Field Work in Kaduna"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-0006"
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86e0",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Image 1 of Political Respondent taken during the Field Work in Nairobi"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-0007"
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86e1",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Image 2 of Political Respondent taken during the Field Work in Nairobi"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-0008"
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86e2",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Image 3 of Political Respondent taken during the Field Work in Nairobi"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-0009"
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86e3",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Image 4 of Political Respondent taken during the Field Work in Nairobi"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-000a"
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86e4",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Video of Researcher and some Women in FGD in Enugu"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-000b"
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86e5",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Team of Researchers and some Men in FGD Video in Enugu"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-000c"
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86e6",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Video showing Team of Researchers with a Woman Politician in an Interview in Ibadan"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-000d"
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86e7",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Team of Researchers with a Woman Politician in Ibadan"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-000e"
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86e8",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Team of Researchers with a Woman Politician in an Interview in Kaduna"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-000f"
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86e9",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Team of Researchers with a Politician in an Interview in Kaduna"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-0010"
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86ea",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Researcher with a Male Respondent in an Interview in Nairobi"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-0011"
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86eb",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Researcher with a Female Respondent in an Interview in Nairobi"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-0012"
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86ec",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Researcher with a Female Respondent in an interview in Nairobi"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-0013"
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86ed",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Researcher with a Male Respondent in an Interview in Nairobi"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-0014"
+    }
+  ]
+}

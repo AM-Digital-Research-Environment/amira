@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "gonga-e-othello",
+    "name": "Gonga, E. Othello",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1989,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1989,
+      "total": 1,
+      "byType": {
+        "Moving image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Moving image",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Education",
+      "value": 2
+    },
+    {
+      "name": "Schools",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Education",
+      "value": 2
+    },
+    {
+      "name": "Schools",
+      "value": 1
+    },
+    {
+      "name": "Nation Building",
+      "value": 1
+    },
+    {
+      "name": "Adult Education",
+      "value": 1
+    },
+    {
+      "name": "Politics",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Government of Liberia",
+      "value": 2
+    },
+    {
+      "name": "Ibrahim, Anwar",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Liberia",
+      "region": "Montserrado County",
+      "city": "Monrovia",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "6982337057a8e0353b0b1cbe",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0081"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1da0",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0163"
+    }
+  ]
+}

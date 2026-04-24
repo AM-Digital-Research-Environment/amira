@@ -1,0 +1,319 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "imperial-college-london",
+    "name": "Imperial College London",
+    "count": 6
+  },
+  "timeline": [
+    {
+      "year": 1954,
+      "count": 1
+    },
+    {
+      "year": 1956,
+      "count": 1
+    },
+    {
+      "year": 1957,
+      "count": 1
+    },
+    {
+      "year": 1966,
+      "count": 2
+    },
+    {
+      "year": 1971,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1954,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1956,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1957,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1966,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1971,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 6
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 6
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 4
+    },
+    {
+      "name": "Musical instruments",
+      "value": 2
+    },
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Talking drum",
+      "value": 2
+    },
+    {
+      "name": "Initiation rites",
+      "value": 1
+    },
+    {
+      "name": "Mba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    },
+    {
+      "name": "Percussion instruments",
+      "value": 1
+    },
+    {
+      "name": "Drum",
+      "value": 1
+    },
+    {
+      "name": "Drum language",
+      "value": 1
+    },
+    {
+      "name": "Popular music",
+      "value": 1
+    },
+    {
+      "name": "Songs",
+      "value": 1
+    },
+    {
+      "name": "Lingala language",
+      "value": 1
+    },
+    {
+      "name": "Tone color (Music)",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Central Africa",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 6
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 4
+    },
+    {
+      "name": "Belgian Congo",
+      "value": 3
+    },
+    {
+      "name": "Musical instruments",
+      "value": 2
+    },
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Idiophones",
+      "value": 2
+    },
+    {
+      "name": "Talking drum",
+      "value": 2
+    },
+    {
+      "name": "Initiation rites",
+      "value": 1
+    },
+    {
+      "name": "Mba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    },
+    {
+      "name": "Percussion instruments",
+      "value": 1
+    },
+    {
+      "name": "Drum",
+      "value": 1
+    },
+    {
+      "name": "Drum language",
+      "value": 1
+    },
+    {
+      "name": "Talking-gongs",
+      "value": 1
+    },
+    {
+      "name": "Drum (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Talking Drum (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Popular music",
+      "value": 1
+    },
+    {
+      "name": "Songs",
+      "value": 1
+    },
+    {
+      "name": "Lingala language",
+      "value": 1
+    },
+    {
+      "name": "Republic of the Congo (Léopoldville)",
+      "value": 1
+    },
+    {
+      "name": "Tone color (Music)",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Central Africa",
+      "value": 1
+    },
+    {
+      "name": "Zaire",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Carrington, John F.",
+      "value": 6
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 6
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9e9f9",
+      "titleInfo": [
+        {
+          "title": "Notes on an idiophone used in Kabile initiation rites by the Mbae"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0014"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea2e",
+      "titleInfo": [
+        {
+          "title": "Individual names given to talking-gongs in the Yalemba area of Belgian Congo"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0049"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea44",
+      "titleInfo": [
+        {
+          "title": "Four-toned announcements on Mbole talking gongs"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-005f"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb1e",
+      "titleInfo": [
+        {
+          "title": "CONGO EN MUSIQUE by Bwantsa-Kafungu S. Pierre: Louvanium, 1965.(pp. 52)."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0139"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb27",
+      "titleInfo": [
+        {
+          "title": "Tone and melody in a Congolese popular song"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0142"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb92",
+      "titleInfo": [
+        {
+          "title": "The musical dimension of perception in the upper Congo, Zae"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01ad"
+    }
+  ]
+}

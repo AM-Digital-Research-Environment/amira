@@ -1,0 +1,1106 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "bavaria",
+    "name": "Bavaria",
+    "count": 120
+  },
+  "timeline": [
+    {
+      "year": 1936,
+      "count": 1
+    },
+    {
+      "year": 1964,
+      "count": 8
+    },
+    {
+      "year": 1965,
+      "count": 8
+    },
+    {
+      "year": 1966,
+      "count": 1
+    },
+    {
+      "year": 1968,
+      "count": 1
+    },
+    {
+      "year": 1973,
+      "count": 1
+    },
+    {
+      "year": 1981,
+      "count": 2
+    },
+    {
+      "year": 1983,
+      "count": 1
+    },
+    {
+      "year": 1988,
+      "count": 1
+    },
+    {
+      "year": 1990,
+      "count": 1
+    },
+    {
+      "year": 2001,
+      "count": 4
+    },
+    {
+      "year": 2002,
+      "count": 1
+    },
+    {
+      "year": 2008,
+      "count": 1
+    },
+    {
+      "year": 2013,
+      "count": 12
+    },
+    {
+      "year": 2015,
+      "count": 2
+    },
+    {
+      "year": 2016,
+      "count": 3
+    },
+    {
+      "year": 2017,
+      "count": 3
+    },
+    {
+      "year": 2018,
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "count": 24
+    },
+    {
+      "year": 2021,
+      "count": 11
+    },
+    {
+      "year": 2022,
+      "count": 10
+    },
+    {
+      "year": 2023,
+      "count": 9
+    },
+    {
+      "year": 2024,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1936,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 1964,
+      "total": 8,
+      "byType": {
+        "Text": 8
+      }
+    },
+    {
+      "year": 1965,
+      "total": 8,
+      "byType": {
+        "Text": 8
+      }
+    },
+    {
+      "year": 1966,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 1968,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 1973,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1981,
+      "total": 2,
+      "byType": {
+        "Image": 2
+      }
+    },
+    {
+      "year": 1983,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 1988,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 1990,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 2001,
+      "total": 4,
+      "byType": {
+        "Text": 4
+      }
+    },
+    {
+      "year": 2002,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2008,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2013,
+      "total": 12,
+      "byType": {
+        "Image": 10,
+        "Audio": 1,
+        "Text": 1
+      }
+    },
+    {
+      "year": 2015,
+      "total": 2,
+      "byType": {
+        "Digital": 2
+      }
+    },
+    {
+      "year": 2016,
+      "total": 3,
+      "byType": {
+        "Audio": 1,
+        "Image": 2
+      }
+    },
+    {
+      "year": 2017,
+      "total": 3,
+      "byType": {
+        "Audio": 1,
+        "Text": 1,
+        "Image": 1
+      }
+    },
+    {
+      "year": 2018,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2020,
+      "total": 24,
+      "byType": {
+        "Digital": 10,
+        "Text": 2,
+        "Image": 12
+      }
+    },
+    {
+      "year": 2021,
+      "total": 11,
+      "byType": {
+        "Text": 4,
+        "Dataset": 6,
+        "Digital": 1
+      }
+    },
+    {
+      "year": 2022,
+      "total": 10,
+      "byType": {
+        "Text": 1,
+        "Dataset": 5,
+        "Image": 2,
+        "Digital": 2
+      }
+    },
+    {
+      "year": 2023,
+      "total": 9,
+      "byType": {
+        "Text": 3,
+        "Digital": 1,
+        "Dataset": 4,
+        "Image": 1
+      }
+    },
+    {
+      "year": 2024,
+      "total": 1,
+      "byType": {
+        "Dataset": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 46
+    },
+    {
+      "name": "Text",
+      "value": 39
+    },
+    {
+      "name": "Dataset",
+      "value": 16
+    },
+    {
+      "name": "Digital",
+      "value": 16
+    },
+    {
+      "name": "Audio",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 62
+    },
+    {
+      "name": "German",
+      "value": 47
+    },
+    {
+      "name": "Hebrew",
+      "value": 1
+    },
+    {
+      "name": "Turkish",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 18
+    },
+    {
+      "name": "Art",
+      "value": 17
+    },
+    {
+      "name": "Racism",
+      "value": 16
+    },
+    {
+      "name": "Africa",
+      "value": 13
+    },
+    {
+      "name": "Painting",
+      "value": 12
+    },
+    {
+      "name": "Photographs",
+      "value": 12
+    },
+    {
+      "name": "Archives",
+      "value": 11
+    },
+    {
+      "name": "Exhibitions",
+      "value": 11
+    },
+    {
+      "name": "Artists",
+      "value": 11
+    },
+    {
+      "name": "Geography",
+      "value": 10
+    },
+    {
+      "name": "Mediation (Statistics)",
+      "value": 10
+    },
+    {
+      "name": "Economic development",
+      "value": 10
+    },
+    {
+      "name": "Child care",
+      "value": 8
+    },
+    {
+      "name": "Children",
+      "value": 8
+    },
+    {
+      "name": "Fertility",
+      "value": 8
+    },
+    {
+      "name": "Income distribution",
+      "value": 8
+    },
+    {
+      "name": "Youth",
+      "value": 8
+    },
+    {
+      "name": "Education",
+      "value": 8
+    },
+    {
+      "name": "Family planning",
+      "value": 8
+    },
+    {
+      "name": "Migration",
+      "value": 8
+    },
+    {
+      "name": "Natural disasters",
+      "value": 7
+    },
+    {
+      "name": "Global warming",
+      "value": 7
+    },
+    {
+      "name": "Sustainability",
+      "value": 7
+    },
+    {
+      "name": "Newspapers",
+      "value": 6
+    },
+    {
+      "name": "Culture",
+      "value": 5
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Nigeria",
+      "value": 25
+    },
+    {
+      "name": "Cultural Centre",
+      "value": 18
+    },
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 18
+    },
+    {
+      "name": "Bayreuth",
+      "value": 18
+    },
+    {
+      "name": "Iwalewahaus",
+      "value": 17
+    },
+    {
+      "name": "Art",
+      "value": 17
+    },
+    {
+      "name": "Econometric Evidence",
+      "value": 17
+    },
+    {
+      "name": "Racism",
+      "value": 16
+    },
+    {
+      "name": "Daily Racism",
+      "value": 15
+    },
+    {
+      "name": "Local Press",
+      "value": 15
+    },
+    {
+      "name": "Africa",
+      "value": 13
+    },
+    {
+      "name": "Language",
+      "value": 13
+    },
+    {
+      "name": "Painting",
+      "value": 12
+    },
+    {
+      "name": "Photographs",
+      "value": 12
+    },
+    {
+      "name": "Art Exhibition",
+      "value": 12
+    },
+    {
+      "name": "Archives",
+      "value": 11
+    },
+    {
+      "name": "Exhibitions",
+      "value": 11
+    },
+    {
+      "name": "Performing Arts Center",
+      "value": 11
+    },
+    {
+      "name": "Artists",
+      "value": 11
+    },
+    {
+      "name": "Geography",
+      "value": 10
+    },
+    {
+      "name": "Mediation (Statistics)",
+      "value": 10
+    },
+    {
+      "name": "Coastal Proximity",
+      "value": 10
+    },
+    {
+      "name": "Mediation Analysis",
+      "value": 10
+    },
+    {
+      "name": "Coastal Countries",
+      "value": 10
+    },
+    {
+      "name": "Household Survey",
+      "value": 10
+    },
+    {
+      "name": "Economic development",
+      "value": 10
+    },
+    {
+      "name": "Tradition",
+      "value": 10
+    },
+    {
+      "name": "Child care",
+      "value": 8
+    },
+    {
+      "name": "Children",
+      "value": 8
+    },
+    {
+      "name": "Fertility",
+      "value": 8
+    },
+    {
+      "name": "Income distribution",
+      "value": 8
+    },
+    {
+      "name": "Youth",
+      "value": 8
+    },
+    {
+      "name": "Education",
+      "value": 8
+    },
+    {
+      "name": "Family planning",
+      "value": 8
+    },
+    {
+      "name": "Migration",
+      "value": 8
+    },
+    {
+      "name": "Female Education",
+      "value": 8
+    },
+    {
+      "name": "Human Development",
+      "value": 8
+    },
+    {
+      "name": "Education Policy",
+      "value": 8
+    },
+    {
+      "name": "Educational Influence",
+      "value": 8
+    },
+    {
+      "name": "Child Development",
+      "value": 8
+    },
+    {
+      "name": "Human Resources",
+      "value": 8
+    },
+    {
+      "name": "Personal Archives",
+      "value": 7
+    },
+    {
+      "name": "Natural disasters",
+      "value": 7
+    },
+    {
+      "name": "Global warming",
+      "value": 7
+    },
+    {
+      "name": "Sustainability",
+      "value": 7
+    },
+    {
+      "name": "Disaster Management",
+      "value": 7
+    },
+    {
+      "name": "Environmental Accounts",
+      "value": 7
+    },
+    {
+      "name": "Environmental Accounting",
+      "value": 7
+    },
+    {
+      "name": "Environmental Equity",
+      "value": 7
+    },
+    {
+      "name": "Population Growth",
+      "value": 7
+    },
+    {
+      "name": "Regional Economic Development",
+      "value": 7
+    },
+    {
+      "name": "Regional Economic Change",
+      "value": 7
+    },
+    {
+      "name": "Economic-Environmental Interactions",
+      "value": 7
+    },
+    {
+      "name": "Trade",
+      "value": 7
+    },
+    {
+      "name": "Environment",
+      "value": 7
+    },
+    {
+      "name": "Climate Change",
+      "value": 7
+    },
+    {
+      "name": "Newspapers",
+      "value": 6
+    },
+    {
+      "name": "Newspaper Article",
+      "value": 6
+    },
+    {
+      "name": "Race Theory",
+      "value": 6
+    },
+    {
+      "name": "Art Collector",
+      "value": 5
+    },
+    {
+      "name": "Art Collecting",
+      "value": 5
+    },
+    {
+      "name": "Memory Culture",
+      "value": 5
+    },
+    {
+      "name": "Culture",
+      "value": 5
+    },
+    {
+      "name": "Carnival Society",
+      "value": 5
+    },
+    {
+      "name": "Books",
+      "value": 4
+    },
+    {
+      "name": "Interviews",
+      "value": 4
+    },
+    {
+      "name": "Flyer",
+      "value": 4
+    },
+    {
+      "name": "Albums",
+      "value": 4
+    },
+    {
+      "name": "Papua New Guinea",
+      "value": 4
+    },
+    {
+      "name": "New Guinea",
+      "value": 4
+    },
+    {
+      "name": "Islam",
+      "value": 4
+    },
+    {
+      "name": "Black Representations",
+      "value": 4
+    },
+    {
+      "name": "Colonialism",
+      "value": 4
+    },
+    {
+      "name": "Richard Wagner",
+      "value": 4
+    },
+    {
+      "name": "M*wäscherverein",
+      "value": 4
+    },
+    {
+      "name": "West Africa",
+      "value": 3
+    },
+    {
+      "name": "National socialism",
+      "value": 3
+    },
+    {
+      "name": "Houston Stewart Chamberlain",
+      "value": 3
+    },
+    {
+      "name": "History",
+      "value": 3
+    },
+    {
+      "name": "Society",
+      "value": 3
+    },
+    {
+      "name": "Yoruba Art",
+      "value": 2
+    },
+    {
+      "name": "Museums",
+      "value": 2
+    },
+    {
+      "name": "Osogbo",
+      "value": 2
+    },
+    {
+      "name": "Transcription",
+      "value": 2
+    },
+    {
+      "name": "COVID-19 (Disease)",
+      "value": 2
+    },
+    {
+      "name": "Developing countries",
+      "value": 2
+    },
+    {
+      "name": "Public health",
+      "value": 2
+    },
+    {
+      "name": "COVID-19",
+      "value": 2
+    },
+    {
+      "name": "Healthcare",
+      "value": 2
+    },
+    {
+      "name": "Shakespeare",
+      "value": 2
+    },
+    {
+      "name": "Source Studies",
+      "value": 2
+    },
+    {
+      "name": "Slavery",
+      "value": 2
+    },
+    {
+      "name": "Mysticism",
+      "value": 2
+    },
+    {
+      "name": "Heimatgeschichte",
+      "value": 2
+    },
+    {
+      "name": "Kallenberghaus",
+      "value": 2
+    },
+    {
+      "name": "Local History",
+      "value": 2
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Architecture",
+      "value": 1
+    },
+    {
+      "name": "Wall Painting",
+      "value": 1
+    },
+    {
+      "name": "Antiquities",
+      "value": 1
+    },
+    {
+      "name": "African Studies",
+      "value": 1
+    },
+    {
+      "name": "Antiquities Dealer",
+      "value": 1
+    },
+    {
+      "name": "Pottery",
+      "value": 1
+    },
+    {
+      "name": "Art Collection",
+      "value": 1
+    },
+    {
+      "name": "Yoruba Pottery",
+      "value": 1
+    },
+    {
+      "name": "Ritual",
+      "value": 1
+    },
+    {
+      "name": "Art historians",
+      "value": 1
+    },
+    {
+      "name": "Painters",
+      "value": 1
+    },
+    {
+      "name": "Horsemanship",
+      "value": 1
+    },
+    {
+      "name": "Postcard",
+      "value": 1
+    },
+    {
+      "name": "Inuit",
+      "value": 1
+    },
+    {
+      "name": "Inuit art",
+      "value": 1
+    },
+    {
+      "name": "Patas Monkey",
+      "value": 1
+    },
+    {
+      "name": "Invitation cards",
+      "value": 1
+    },
+    {
+      "name": "Frankenpost",
+      "value": 1
+    },
+    {
+      "name": "Nordbayerischer Kurier",
+      "value": 1
+    },
+    {
+      "name": "Masks",
+      "value": 1
+    },
+    {
+      "name": "Filmstrips",
+      "value": 1
+    },
+    {
+      "name": "Zimbabwe",
+      "value": 1
+    },
+    {
+      "name": "Mural",
+      "value": 1
+    },
+    {
+      "name": "Judges",
+      "value": 1
+    },
+    {
+      "name": "Treaties",
+      "value": 1
+    },
+    {
+      "name": "Courts",
+      "value": 1
+    },
+    {
+      "name": "East African Community",
+      "value": 1
+    },
+    {
+      "name": "East African Court of Justice",
+      "value": 1
+    },
+    {
+      "name": "Common Market for Eastern and Southern Africa",
+      "value": 1
+    },
+    {
+      "name": "Southern African Development Community",
+      "value": 1
+    },
+    {
+      "name": "Regional Court",
+      "value": 1
+    },
+    {
+      "name": "Regional Organisation",
+      "value": 1
+    },
+    {
+      "name": "Appointment Rules",
+      "value": 1
+    },
+    {
+      "name": "Well-being",
+      "value": 1
+    },
+    {
+      "name": "Health",
+      "value": 1
+    },
+    {
+      "name": "Microeconomics",
+      "value": 1
+    },
+    {
+      "name": "General Welfare",
+      "value": 1
+    },
+    {
+      "name": "Health Development",
+      "value": 1
+    },
+    {
+      "name": "Water Project",
+      "value": 1
+    },
+    {
+      "name": "Life expectancy",
+      "value": 1
+    },
+    {
+      "name": "Mortality",
+      "value": 1
+    },
+    {
+      "name": "Lockdown",
+      "value": 1
+    },
+    {
+      "name": "Sustainable Solution",
+      "value": 1
+    },
+    {
+      "name": "Emerging Economies",
+      "value": 1
+    },
+    {
+      "name": "Ghana",
+      "value": 1
+    },
+    {
+      "name": "Economy",
+      "value": 1
+    },
+    {
+      "name": "COVID-19 vaccines",
+      "value": 1
+    },
+    {
+      "name": "Herd immunity",
+      "value": 1
+    },
+    {
+      "name": "International relations",
+      "value": 1
+    },
+    {
+      "name": "European Union",
+      "value": 1
+    },
+    {
+      "name": "European Community",
+      "value": 1
+    },
+    {
+      "name": "India",
+      "value": 1
+    },
+    {
+      "name": "Leo Africanus",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Greven, Katharina",
+      "value": 30
+    },
+    {
+      "name": "Stadelmann, David",
+      "value": 28
+    },
+    {
+      "name": "Beier, Ulli",
+      "value": 24
+    },
+    {
+      "name": "Wild, Frederik",
+      "value": 20
+    },
+    {
+      "name": "Stephan, Klaus",
+      "value": 14
+    },
+    {
+      "name": "Greßer, Christina",
+      "value": 7
+    },
+    {
+      "name": "Meierrieks, Daniel",
+      "value": 7
+    },
+    {
+      "name": "Beier, Georgina",
+      "value": 5
+    },
+    {
+      "name": "Steppat, Michael",
+      "value": 5
+    },
+    {
+      "name": "Bavarian Broadcasting Cooperation (BR) Fernseharchiv",
+      "value": 4
+    },
+    {
+      "name": "Pusl, Waltraud",
+      "value": 4
+    },
+    {
+      "name": "Elhanafy, Taghrid",
+      "value": 4
+    },
+    {
+      "name": "Kauage, Mathias",
+      "value": 3
+    },
+    {
+      "name": "Frempong, Raymond Boadi",
+      "value": 3
+    },
+    {
+      "name": "Oyelami, Muraina",
+      "value": 2
+    },
+    {
+      "name": "Matzke, Christine",
+      "value": 2
+    },
+    {
+      "name": "Stauffer, E. O.",
+      "value": 2
+    },
+    {
+      "name": "eho",
+      "value": 2
+    },
+    {
+      "name": "Wallenreiter, Christian",
+      "value": 2
+    },
+    {
+      "name": "Wild, Franz Josef",
+      "value": 2
+    }
+  ]
+}

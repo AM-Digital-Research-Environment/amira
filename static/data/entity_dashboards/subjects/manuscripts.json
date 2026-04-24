@@ -1,0 +1,5917 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "manuscripts",
+    "name": "Manuscripts",
+    "count": 394
+  },
+  "timeline": [
+    {
+      "year": 2024,
+      "count": 394
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2024,
+      "total": 394,
+      "byType": {
+        "Manuscript": 382,
+        "Cartographic": 8,
+        "Image": 2,
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Manuscript",
+      "value": 382
+    },
+    {
+      "name": "Cartographic",
+      "value": 8
+    },
+    {
+      "name": "Image",
+      "value": 2
+    },
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Early modern, 1500-1700",
+      "value": 394
+    },
+    {
+      "name": "Literature",
+      "value": 394
+    },
+    {
+      "name": "Africa",
+      "value": 394
+    },
+    {
+      "name": "Courts",
+      "value": 55
+    },
+    {
+      "name": "Court records",
+      "value": 54
+    },
+    {
+      "name": "Letters",
+      "value": 24
+    },
+    {
+      "name": "Slave trade",
+      "value": 15
+    },
+    {
+      "name": "African diaspora",
+      "value": 13
+    },
+    {
+      "name": "West Africa",
+      "value": 12
+    },
+    {
+      "name": "Maps",
+      "value": 8
+    },
+    {
+      "name": "Trespass",
+      "value": 8
+    },
+    {
+      "name": "Books",
+      "value": 5
+    },
+    {
+      "name": "Cartography",
+      "value": 5
+    },
+    {
+      "name": "Bookbinding",
+      "value": 3
+    },
+    {
+      "name": "Cotton",
+      "value": 2
+    },
+    {
+      "name": "International relations",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Early modern, 1500-1700",
+      "value": 394
+    },
+    {
+      "name": "Literature",
+      "value": 394
+    },
+    {
+      "name": "Africa",
+      "value": 394
+    },
+    {
+      "name": "England",
+      "value": 394
+    },
+    {
+      "name": "Knowledge",
+      "value": 394
+    },
+    {
+      "name": "Handwritten",
+      "value": 319
+    },
+    {
+      "name": "Trade",
+      "value": 114
+    },
+    {
+      "name": "Voyages",
+      "value": 70
+    },
+    {
+      "name": "Courts",
+      "value": 55
+    },
+    {
+      "name": "Court records",
+      "value": 54
+    },
+    {
+      "name": "Public Record Office",
+      "value": 44
+    },
+    {
+      "name": "European",
+      "value": 32
+    },
+    {
+      "name": "Trade Relations",
+      "value": 32
+    },
+    {
+      "name": "Treasury",
+      "value": 30
+    },
+    {
+      "name": "Letters",
+      "value": 24
+    },
+    {
+      "name": "Acts",
+      "value": 24
+    },
+    {
+      "name": "Black People",
+      "value": 20
+    },
+    {
+      "name": "Early Modern England",
+      "value": 20
+    },
+    {
+      "name": "State Paper",
+      "value": 15
+    },
+    {
+      "name": "Slave trade",
+      "value": 15
+    },
+    {
+      "name": "Royal Africa Company",
+      "value": 15
+    },
+    {
+      "name": "Atlantic Slave Trade",
+      "value": 15
+    },
+    {
+      "name": "Diuision",
+      "value": 14
+    },
+    {
+      "name": "Forerign Relations",
+      "value": 14
+    },
+    {
+      "name": "Foreign Office",
+      "value": 14
+    },
+    {
+      "name": "African diaspora",
+      "value": 13
+    },
+    {
+      "name": "West Africa",
+      "value": 12
+    },
+    {
+      "name": "Property Records",
+      "value": 11
+    },
+    {
+      "name": "Royal Proclamation",
+      "value": 11
+    },
+    {
+      "name": "Ledger",
+      "value": 10
+    },
+    {
+      "name": "Maps",
+      "value": 8
+    },
+    {
+      "name": "Trespass",
+      "value": 8
+    },
+    {
+      "name": "London",
+      "value": 8
+    },
+    {
+      "name": "Memoir",
+      "value": 7
+    },
+    {
+      "name": "Augustus",
+      "value": 6
+    },
+    {
+      "name": "Kent",
+      "value": 5
+    },
+    {
+      "name": "Books",
+      "value": 5
+    },
+    {
+      "name": "Cartography",
+      "value": 5
+    },
+    {
+      "name": "Marine Cartography",
+      "value": 5
+    },
+    {
+      "name": "Drapery",
+      "value": 4
+    },
+    {
+      "name": "African Kingdoms",
+      "value": 3
+    },
+    {
+      "name": "Premodern",
+      "value": 3
+    },
+    {
+      "name": "Ancient",
+      "value": 3
+    },
+    {
+      "name": "Debtor List",
+      "value": 3
+    },
+    {
+      "name": "Bookbinding",
+      "value": 3
+    },
+    {
+      "name": "Ship Blackmoore",
+      "value": 2
+    },
+    {
+      "name": "Expense List",
+      "value": 2
+    },
+    {
+      "name": "Guinea",
+      "value": 2
+    },
+    {
+      "name": "British Library",
+      "value": 2
+    },
+    {
+      "name": "Strangers",
+      "value": 2
+    },
+    {
+      "name": "Foreigners",
+      "value": 2
+    },
+    {
+      "name": "Description",
+      "value": 2
+    },
+    {
+      "name": "Cotton",
+      "value": 2
+    },
+    {
+      "name": "International relations",
+      "value": 1
+    },
+    {
+      "name": "Italy",
+      "value": 1
+    },
+    {
+      "name": "Rome",
+      "value": 1
+    },
+    {
+      "name": "English Influence",
+      "value": 1
+    },
+    {
+      "name": "Portuguese Court",
+      "value": 1
+    },
+    {
+      "name": "Hakluyt",
+      "value": 1
+    },
+    {
+      "name": "English",
+      "value": 1
+    },
+    {
+      "name": "Portuguese",
+      "value": 1
+    },
+    {
+      "name": "Council Register",
+      "value": 1
+    },
+    {
+      "name": "Elizabethan Era",
+      "value": 1
+    },
+    {
+      "name": "Elizabeth I",
+      "value": 1
+    },
+    {
+      "name": "Manuscript Rolls",
+      "value": 1
+    },
+    {
+      "name": "Notes",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Aboluwade, Ifeoluwa",
+      "value": 394
+    },
+    {
+      "name": "National Archives London",
+      "value": 14
+    },
+    {
+      "name": "British Library London",
+      "value": 3
+    }
+  ],
+  "locations": [
+    {
+      "country": "United Kingdom",
+      "region": "England",
+      "city": "London",
+      "count": 394
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a8ab2c85fe8df8717a",
+      "titleInfo": [
+        {
+          "title": "Cover/Binding S.P 85 5 Part 2"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0083"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8717b",
+      "titleInfo": [
+        {
+          "title": "Premodern Map Africa Kingdoms"
+        }
+      ],
+      "typeOfResource": "Cartographic",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0084"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8717c",
+      "titleInfo": [
+        {
+          "title": "Premodern Map Africa Kingdoms"
+        }
+      ],
+      "typeOfResource": "Cartographic",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0085"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8717d",
+      "titleInfo": [
+        {
+          "title": "Premodern Map Africa Kingdoms"
+        }
+      ],
+      "typeOfResource": "Cartographic",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0086"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8717e",
+      "titleInfo": [
+        {
+          "title": "Debtor List of the Royal Africa Company"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0087"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8717f",
+      "titleInfo": [
+        {
+          "title": "Debtor List of the Royal Africa Company"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0088"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87180",
+      "titleInfo": [
+        {
+          "title": "Ship Blackmoore Expense List"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0089"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87181",
+      "titleInfo": [
+        {
+          "title": "Ship Blackmoore Expense List"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-008a"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87182",
+      "titleInfo": [
+        {
+          "title": "Account ledger Voyages West Africa"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-008b"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87183",
+      "titleInfo": [
+        {
+          "title": "Account ledger Voyages West Africa"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-008c"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87184",
+      "titleInfo": [
+        {
+          "title": "Account ledger Voyages West Africa"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-008d"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87185",
+      "titleInfo": [
+        {
+          "title": "Account ledger Voyages West Africa"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-008e"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87186",
+      "titleInfo": [
+        {
+          "title": "Account ledger Voyages West Africa"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-008f"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87187",
+      "titleInfo": [
+        {
+          "title": "Account ledger Voyages West Africa"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0090"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87188",
+      "titleInfo": [
+        {
+          "title": "Debtor List of the Royal Africa Company"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0091"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87189",
+      "titleInfo": [
+        {
+          "title": "Account ledger Voyages West Africa"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0092"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8718a",
+      "titleInfo": [
+        {
+          "title": "Account ledger Voyages"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0093"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8718b",
+      "titleInfo": [
+        {
+          "title": "Account ledger Voyages West Africa"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0094"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8718c",
+      "titleInfo": [
+        {
+          "title": "Account ledger Voyages"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0095"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8718d",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0096"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8718e",
+      "titleInfo": [
+        {
+          "title": "Court Records Buck v Winter STAC 5/B11/13"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0097"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8718f",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0098"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87190",
+      "titleInfo": [
+        {
+          "title": "Court Records Allen v Hoopell REQ 2/64/115"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0099"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87191",
+      "titleInfo": [
+        {
+          "title": "Court Records Allen v Hoopell REQ 2/64/115"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-009a"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87192",
+      "titleInfo": [
+        {
+          "title": "Court Records Allen v Hoopell REQ 2/64/115"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-009b"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87193",
+      "titleInfo": [
+        {
+          "title": "Court Records Allen v Hoopell REQ 2/64/115"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-009c"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87194",
+      "titleInfo": [
+        {
+          "title": "Court Records Allen v Hoopell REQ 2/64/115"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-009d"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87195",
+      "titleInfo": [
+        {
+          "title": "Court Records Allen v Hoopell REQ 2/64/115"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-009e"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87196",
+      "titleInfo": [
+        {
+          "title": "Court Records Allen v Hoopell REQ 2/64/115"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-009f"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87197",
+      "titleInfo": [
+        {
+          "title": "Court Records Allen v Hoopell REQ 2/64/115"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00a0"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87198",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00a1"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87199",
+      "titleInfo": [
+        {
+          "title": "Court Records Simmes v Banberye REG 2/64/114"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00a2"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8719a",
+      "titleInfo": [
+        {
+          "title": "Court Records Simmes v Banberye REG 2/64/114"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00a3"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8719b",
+      "titleInfo": [
+        {
+          "title": "Court Records Simmes v Banberye REG 2/64/114"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00a4"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8719c",
+      "titleInfo": [
+        {
+          "title": "Court Records Simmes v Banberye REG 2/64/114"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00a5"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8719d",
+      "titleInfo": [
+        {
+          "title": "Court Records Simmes v Banberye REG 2/64/114"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00a6"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8719e",
+      "titleInfo": [
+        {
+          "title": "Court Records Maye v Palmer REQ 2/64/111"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00a7"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8719f",
+      "titleInfo": [
+        {
+          "title": "Court Records Maye v Palmer REQ 2/64/111"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00a8"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871a0",
+      "titleInfo": [
+        {
+          "title": "Court Records Maye v Palmer REQ 2/64/111"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00a9"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871a1",
+      "titleInfo": [
+        {
+          "title": "Court Records Maye v Palmer REQ 2/64/111"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00aa"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871a2",
+      "titleInfo": [
+        {
+          "title": "Court Records Maye v Palmer REQ 2/64/111"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00ab"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871a3",
+      "titleInfo": [
+        {
+          "title": "Court Records Moone v Bury REQ 2/64/113"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00ac"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871a4",
+      "titleInfo": [
+        {
+          "title": "Court Records Moone v Bury REQ 2/64/113"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00ad"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871a5",
+      "titleInfo": [
+        {
+          "title": "Court Records Moone v Bury REQ 2/64/113"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00ae"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871a6",
+      "titleInfo": [
+        {
+          "title": "Court Records Moone v Bury REQ 2/64/113"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00af"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871a7",
+      "titleInfo": [
+        {
+          "title": "Court Records Moone v Bury REQ 2/64/113"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00b0"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871a8",
+      "titleInfo": [
+        {
+          "title": "Court Records Moone v Bury REQ 2/64/113"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00b1"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871a9",
+      "titleInfo": [
+        {
+          "title": "Court Records Moone v Bury REQ 2/64/113"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00b2"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871aa",
+      "titleInfo": [
+        {
+          "title": "Court Records Moone v Bury REQ 2/64/113"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00b3"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871ab",
+      "titleInfo": [
+        {
+          "title": "Court Records Moone v Bury REQ 2/64/113"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00b4"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871ac",
+      "titleInfo": [
+        {
+          "title": "Court Records Moone v Bury REQ 2/64/113"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00b5"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871ad",
+      "titleInfo": [
+        {
+          "title": "Court Records Moone v Bury REQ 2/64/113"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00b6"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871ae",
+      "titleInfo": [
+        {
+          "title": "Court Records Moone v Bury REQ 2/64/113"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00b7"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871af",
+      "titleInfo": [
+        {
+          "title": "Court Records Moone v Bury REQ 2/64/113"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00b8"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871b0",
+      "titleInfo": [
+        {
+          "title": "Court Records Moone v Bury REQ 2/64/113"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00b9"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871b1",
+      "titleInfo": [
+        {
+          "title": "Court Records Moone v Bury REQ 2/64/113"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00ba"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871b2",
+      "titleInfo": [
+        {
+          "title": "Court Records Moone v Bury REQ 2/64/113"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00bb"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871b3",
+      "titleInfo": [
+        {
+          "title": "Court Records Shardelowe v Crowefutt REQ 2/64/116"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00bc"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871b4",
+      "titleInfo": [
+        {
+          "title": "Court Records Shardelowe v Crowefutt REQ 2/64/116"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00bd"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871b5",
+      "titleInfo": [
+        {
+          "title": "Court Records Shardelowe v Crowefutt REQ 2/64/116"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00be"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871b6",
+      "titleInfo": [
+        {
+          "title": "Court Records Kympton v Spencer REQ 2/64/117"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00bf"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871b7",
+      "titleInfo": [
+        {
+          "title": "Court Records Kympton v Spencer REQ 2/64/117"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00c0"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871b8",
+      "titleInfo": [
+        {
+          "title": "Court Records Kympton v Spencer REQ 2/64/117"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00c1"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871b9",
+      "titleInfo": [
+        {
+          "title": "Court Records Kympton v Spencer REQ 2/64/117"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00c2"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871ba",
+      "titleInfo": [
+        {
+          "title": "Court Records Wilson v Atkins \tREQ 2/64/22"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00c3"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871bb",
+      "titleInfo": [
+        {
+          "title": "Court Records Wilson v Atkins \tREQ 2/64/22"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00c4"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871bc",
+      "titleInfo": [
+        {
+          "title": "Court Records Wilson v Atkins \tREQ 2/64/22"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00c5"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871bd",
+      "titleInfo": [
+        {
+          "title": "Court Records Isham v Saye REQ 2/64/21"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00c6"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871be",
+      "titleInfo": [
+        {
+          "title": "Court Records Isham v Saye REQ 2/64/21"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00c7"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871bf",
+      "titleInfo": [
+        {
+          "title": "Court Records Isham v Saye REQ 2/64/21"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00c8"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871c0",
+      "titleInfo": [
+        {
+          "title": "Court Records Isham v Saye REQ 2/64/21"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00c9"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871c1",
+      "titleInfo": [
+        {
+          "title": "Court Records Isham v Saye REQ 2/64/21"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00ca"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871c2",
+      "titleInfo": [
+        {
+          "title": "Court Records Isham v Saye REQ 2/64/21"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00cb"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871c3",
+      "titleInfo": [
+        {
+          "title": "Court Records Isham v Saye REQ 2/64/21"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00cc"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871c4",
+      "titleInfo": [
+        {
+          "title": "Court Records Isham v Saye REQ 2/64/21"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00cd"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871c5",
+      "titleInfo": [
+        {
+          "title": "Court Records Hunt v Elmam  \tREQ 2/64/23"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00ce"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871c6",
+      "titleInfo": [
+        {
+          "title": "Scarlet Red Cloth and Drapery"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00cf"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871c7",
+      "titleInfo": [
+        {
+          "title": "Scarlet Red Cloth and Drapery"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00d0"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871c8",
+      "titleInfo": [
+        {
+          "title": "Scarlet Red Cloth and Drapery"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00d1"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871c9",
+      "titleInfo": [
+        {
+          "title": "Scarlet Red Cloth and Drapery"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00d2"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871ca",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00d3"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871cb",
+      "titleInfo": [
+        {
+          "title": "British Library_Voyages to Guinea"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00d4"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871cc",
+      "titleInfo": [
+        {
+          "title": "British Library_Voyages to Guinea"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00d5"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871cd",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00d6"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871ce",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00d7"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871cf",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00d8"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871d0",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00d9"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871d1",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00da"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871d2",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00db"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871d3",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00dc"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871d4",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00dd"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871d5",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00de"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871d6",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00df"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871d7",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00e0"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871d8",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00e1"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871d9",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00e2"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871da",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00e3"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871db",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00e4"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871dc",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00e5"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871dd",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00e6"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871de",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00e7"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871df",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00e8"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871e0",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00e9"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871e1",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00ea"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871e2",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00eb"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871e3",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00ec"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871e4",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00ed"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871e5",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00ee"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871e6",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00ef"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871e7",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00f0"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871e8",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00f1"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871e9",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00f2"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871ea",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00f3"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871eb",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00f4"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871ec",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00f5"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871ed",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00f6"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871ee",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00f7"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871ef",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00f8"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871f0",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00f9"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871f1",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00fa"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871f2",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00fb"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871f3",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00fc"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871f4",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00fd"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871f5",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00fe"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871f6",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00ff"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871f7",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0100"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871f8",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0101"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871f9",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0102"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871fa",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0103"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871fb",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0104"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871fc",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0105"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871fd",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0106"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871fe",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0107"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871ff",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0108"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87200",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0109"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87201",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-010a"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87202",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-010b"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87203",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-010c"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87204",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-010d"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87205",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-010e"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87206",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-010f"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87207",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0110"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87208",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0111"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87209",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0112"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8720a",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0113"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8720b",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0114"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8720c",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0115"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8720d",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0116"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8720e",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0117"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8720f",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0118"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87210",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0119"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87211",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-011a"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87212",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-011b"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87213",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-011c"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87214",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-011d"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87215",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-011e"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87216",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-011f"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87217",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0120"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87218",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0121"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87219",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0122"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8721a",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0123"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8721b",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0124"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8721c",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0125"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8721d",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0126"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8721e",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0127"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8721f",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0128"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87220",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0129"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87221",
+      "titleInfo": [
+        {
+          "title": "British Library_English Exploration and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-012a"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87222",
+      "titleInfo": [
+        {
+          "title": "Letters Sr Francis Drake"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-012b"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87223",
+      "titleInfo": [
+        {
+          "title": "Letters Sr Francis Drake"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-012c"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87224",
+      "titleInfo": [
+        {
+          "title": "Letters Sr Francis Drake"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-012d"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87225",
+      "titleInfo": [
+        {
+          "title": "Letters Sr Francis Drake"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-012e"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87226",
+      "titleInfo": [
+        {
+          "title": "Letters Sr Francis Drake"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-012f"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87227",
+      "titleInfo": [
+        {
+          "title": "Letters Sr Francis Drake"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0130"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87228",
+      "titleInfo": [
+        {
+          "title": "Letters Sr Francis Drake"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0131"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87229",
+      "titleInfo": [
+        {
+          "title": "Letters Sr Francis Drake"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0132"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8722a",
+      "titleInfo": [
+        {
+          "title": "Letters Sr Francis Drake"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0133"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8722b",
+      "titleInfo": [
+        {
+          "title": "English Voyages and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0134"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8722c",
+      "titleInfo": [
+        {
+          "title": "English Voyages and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0135"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8722d",
+      "titleInfo": [
+        {
+          "title": "English Voyages and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0136"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8722e",
+      "titleInfo": [
+        {
+          "title": "English Voyages and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0137"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8722f",
+      "titleInfo": [
+        {
+          "title": "English Voyages and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0138"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87230",
+      "titleInfo": [
+        {
+          "title": "English Voyages and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0139"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87231",
+      "titleInfo": [
+        {
+          "title": "English Voyages and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-013a"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87232",
+      "titleInfo": [
+        {
+          "title": "English Voyages and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-013b"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87233",
+      "titleInfo": [
+        {
+          "title": "English Voyages and Trade"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-013c"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87234",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-013d"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87235",
+      "titleInfo": [
+        {
+          "title": "Memoirs of Richard Hakluyt"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-013e"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87236",
+      "titleInfo": [
+        {
+          "title": "Memoirs of Richard Hakluyt"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-013f"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87237",
+      "titleInfo": [
+        {
+          "title": "Memoirs of Richard Hakluyt"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0140"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87238",
+      "titleInfo": [
+        {
+          "title": "Memoirs of Richard Hakluyt"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0141"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87239",
+      "titleInfo": [
+        {
+          "title": "Memoirs of Richard Hakluyt"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0142"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8723a",
+      "titleInfo": [
+        {
+          "title": "Memoirs of Richard Hakluyt"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0143"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8723b",
+      "titleInfo": [
+        {
+          "title": "Memoirs of Richard Hakluyt"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0144"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8723c",
+      "titleInfo": [
+        {
+          "title": "Book Binding_British Library"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0145"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8723d",
+      "titleInfo": [
+        {
+          "title": "Letters Henry Yelverton"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0146"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8723e",
+      "titleInfo": [
+        {
+          "title": "Letters Henry Yelverton"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0147"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8723f",
+      "titleInfo": [
+        {
+          "title": "Letters Henry Yelverton"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0148"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87240",
+      "titleInfo": [
+        {
+          "title": "Letters Henry Yelverton"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0149"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87241",
+      "titleInfo": [
+        {
+          "title": "Letters Henry Yelverton"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-014a"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87242",
+      "titleInfo": [
+        {
+          "title": "Letters Henry Yelverton"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-014b"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87243",
+      "titleInfo": [
+        {
+          "title": "Letters Henry Yelverton"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-014c"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87244",
+      "titleInfo": [
+        {
+          "title": "Letters Henry Yelverton"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-014d"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87245",
+      "titleInfo": [
+        {
+          "title": "Letters Henry Yelverton"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-014e"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87246",
+      "titleInfo": [
+        {
+          "title": "Letters Henry Yelverton"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-014f"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87247",
+      "titleInfo": [
+        {
+          "title": "Letters Henry Yelverton"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0150"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87248",
+      "titleInfo": [
+        {
+          "title": "Letters Henry Yelverton"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0151"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87249",
+      "titleInfo": [
+        {
+          "title": "Letters Henry Yelverton"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0152"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8724a",
+      "titleInfo": [
+        {
+          "title": "Letters Henry Yelverton"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0153"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8724b",
+      "titleInfo": [
+        {
+          "title": "Letters Henry Yelverton"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0154"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8724c",
+      "titleInfo": [
+        {
+          "title": "Letters Henry Yelverton"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0155"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8724d",
+      "titleInfo": [
+        {
+          "title": "Trade in Wool"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0156"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8724e",
+      "titleInfo": [
+        {
+          "title": "Trade in Wool"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0157"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8724f",
+      "titleInfo": [
+        {
+          "title": "Trade in Wool"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0158"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87250",
+      "titleInfo": [
+        {
+          "title": "Trade in Wool"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0159"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87251",
+      "titleInfo": [
+        {
+          "title": "Trade in Wool"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-015a"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87252",
+      "titleInfo": [
+        {
+          "title": "Trade in Wool"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-015b"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87253",
+      "titleInfo": [
+        {
+          "title": "Trade in Wool"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-015c"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87254",
+      "titleInfo": [
+        {
+          "title": "Trade in Wool"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-015d"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87255",
+      "titleInfo": [
+        {
+          "title": "Trade in Wool"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-015e"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87256",
+      "titleInfo": [
+        {
+          "title": "Trade in Wool"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-015f"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87257",
+      "titleInfo": [
+        {
+          "title": "Trade in Wool"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0160"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87258",
+      "titleInfo": [
+        {
+          "title": "Trade in Wool"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0161"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87259",
+      "titleInfo": [
+        {
+          "title": "Trade in Wool"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0162"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8725a",
+      "titleInfo": [
+        {
+          "title": "Trade in Wool"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0163"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8725b",
+      "titleInfo": [
+        {
+          "title": "Trade in Wool"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0164"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8725c",
+      "titleInfo": [
+        {
+          "title": "Trade in Wool"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0165"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8725d",
+      "titleInfo": [
+        {
+          "title": "Trade in Wool"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0166"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8725e",
+      "titleInfo": [
+        {
+          "title": "Trade in Wool"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0167"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8725f",
+      "titleInfo": [
+        {
+          "title": "Trade in Wool"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0168"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87260",
+      "titleInfo": [
+        {
+          "title": "Trade in Wool"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0169"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87261",
+      "titleInfo": [
+        {
+          "title": "Trade in Wool"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-016a"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87262",
+      "titleInfo": [
+        {
+          "title": "Trade in Wool"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-016b"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87263",
+      "titleInfo": [
+        {
+          "title": "Trade in Wool"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-016c"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87264",
+      "titleInfo": [
+        {
+          "title": "Trade in Wool"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-016d"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87265",
+      "titleInfo": [
+        {
+          "title": "Trade in Wool"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-016e"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87266",
+      "titleInfo": [
+        {
+          "title": "Trade in Wool"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-016f"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87267",
+      "titleInfo": [
+        {
+          "title": "Trade in Wool"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0170"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87268",
+      "titleInfo": [
+        {
+          "title": "Trade in Wool"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0171"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87269",
+      "titleInfo": [
+        {
+          "title": "Royal Proclamations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0172"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8726a",
+      "titleInfo": [
+        {
+          "title": "Royal Proclamations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0173"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8726b",
+      "titleInfo": [
+        {
+          "title": "Royal Proclamations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0174"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8726c",
+      "titleInfo": [
+        {
+          "title": "Royal Proclamations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0175"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8726d",
+      "titleInfo": [
+        {
+          "title": "Royal Proclamations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0176"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8726e",
+      "titleInfo": [
+        {
+          "title": "Royal Proclamations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0177"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8726f",
+      "titleInfo": [
+        {
+          "title": "Royal Proclamations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0178"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87270",
+      "titleInfo": [
+        {
+          "title": "Royal Proclamations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0179"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87271",
+      "titleInfo": [
+        {
+          "title": "Royal Proclamations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-017a"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87272",
+      "titleInfo": [
+        {
+          "title": "Royal Proclamations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-017b"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87273",
+      "titleInfo": [
+        {
+          "title": "Royal Proclamations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-017c"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87274",
+      "titleInfo": [
+        {
+          "title": "European Trade Relations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-017d"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87275",
+      "titleInfo": [
+        {
+          "title": "European Trade Relations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-017e"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87276",
+      "titleInfo": [
+        {
+          "title": "European Trade Relations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-017f"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87277",
+      "titleInfo": [
+        {
+          "title": "European Trade Relations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0180"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87278",
+      "titleInfo": [
+        {
+          "title": "European Trade Relations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0181"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87279",
+      "titleInfo": [
+        {
+          "title": "European Trade Relations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0182"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8727a",
+      "titleInfo": [
+        {
+          "title": "European Trade Relations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0183"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8727b",
+      "titleInfo": [
+        {
+          "title": "European Trade Relations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0184"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8727c",
+      "titleInfo": [
+        {
+          "title": "European Trade Relations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0185"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8727d",
+      "titleInfo": [
+        {
+          "title": "European Trade Relations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0186"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8727e",
+      "titleInfo": [
+        {
+          "title": "European Trade Relations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0187"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8727f",
+      "titleInfo": [
+        {
+          "title": "European Trade Relations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0188"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87280",
+      "titleInfo": [
+        {
+          "title": "European Trade Relations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0189"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87281",
+      "titleInfo": [
+        {
+          "title": "European Trade Relations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-018a"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87282",
+      "titleInfo": [
+        {
+          "title": "European Trade Relations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-018b"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87283",
+      "titleInfo": [
+        {
+          "title": "European Trade Relations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-018c"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87284",
+      "titleInfo": [
+        {
+          "title": "European Trade Relations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-018d"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87285",
+      "titleInfo": [
+        {
+          "title": "European Trade Relations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-018e"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87286",
+      "titleInfo": [
+        {
+          "title": "European Trade Relations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-018f"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87287",
+      "titleInfo": [
+        {
+          "title": "European Trade Relations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0190"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87288",
+      "titleInfo": [
+        {
+          "title": "European Trade Relations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0191"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87289",
+      "titleInfo": [
+        {
+          "title": "European Trade Relations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0192"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8728a",
+      "titleInfo": [
+        {
+          "title": "European Trade Relations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0193"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8728b",
+      "titleInfo": [
+        {
+          "title": "European Trade Relations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0194"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8728c",
+      "titleInfo": [
+        {
+          "title": "European Trade Relations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0195"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8728d",
+      "titleInfo": [
+        {
+          "title": "European Trade Relations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0196"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8728e",
+      "titleInfo": [
+        {
+          "title": "European Trade Relations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0197"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8728f",
+      "titleInfo": [
+        {
+          "title": "European Trade Relations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0198"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87290",
+      "titleInfo": [
+        {
+          "title": "European Trade Relations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0199"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87291",
+      "titleInfo": [
+        {
+          "title": "European Trade Relations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-019a"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87292",
+      "titleInfo": [
+        {
+          "title": "European Trade Relations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-019b"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87293",
+      "titleInfo": [
+        {
+          "title": "European Trade Relations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-019c"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87294",
+      "titleInfo": [
+        {
+          "title": "Strangers and Foreigners in London"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-019d"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87295",
+      "titleInfo": [
+        {
+          "title": "Strangers and Foreigners in London"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-019e"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87296",
+      "titleInfo": [
+        {
+          "title": "State Papers Forerign Relations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-019f"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87297",
+      "titleInfo": [
+        {
+          "title": "State Papers Forerign Relations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01a0"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87298",
+      "titleInfo": [
+        {
+          "title": "State Papers Forerign Relations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01a1"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87299",
+      "titleInfo": [
+        {
+          "title": "State Papers Forerign Relations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01a2"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8729a",
+      "titleInfo": [
+        {
+          "title": "State Papers Forerign Relations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01a3"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8729b",
+      "titleInfo": [
+        {
+          "title": "State Papers Forerign Relations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01a4"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8729c",
+      "titleInfo": [
+        {
+          "title": "State Papers Forerign Relations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01a5"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8729d",
+      "titleInfo": [
+        {
+          "title": "State Papers Forerign Relations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01a6"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8729e",
+      "titleInfo": [
+        {
+          "title": "State Papers Forerign Relations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01a7"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8729f",
+      "titleInfo": [
+        {
+          "title": "State Papers Forerign Relations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01a8"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872a0",
+      "titleInfo": [
+        {
+          "title": "State Papers Forerign Relations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01a9"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872a1",
+      "titleInfo": [
+        {
+          "title": "State Papers Forerign Relations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01aa"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872a2",
+      "titleInfo": [
+        {
+          "title": "State Papers Forerign Relations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01ab"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872a3",
+      "titleInfo": [
+        {
+          "title": "State Papers Forerign Relations"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01ac"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872a4",
+      "titleInfo": [
+        {
+          "title": "Old Map of Africa"
+        }
+      ],
+      "typeOfResource": "Cartographic",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01ad"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872a5",
+      "titleInfo": [
+        {
+          "title": "Description of Africa"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01ae"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872a6",
+      "titleInfo": [
+        {
+          "title": "Description of Africa"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01af"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872a7",
+      "titleInfo": [
+        {
+          "title": "Book Binding"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01b0"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872a8",
+      "titleInfo": [
+        {
+          "title": "Book Binding"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01b1"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872a9",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01b2"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872aa",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01b3"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872ab",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01b4"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872ac",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01b5"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872ad",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01b6"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872ae",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01b7"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872af",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01b8"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872b0",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01b9"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872b1",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01ba"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872b2",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01bb"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872b3",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01bc"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872b4",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01bd"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872b5",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01be"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872b6",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01bf"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872b7",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01c0"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872b8",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01c1"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872b9",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01c2"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872ba",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01c3"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872bb",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01c4"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872bc",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01c5"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872bd",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01c6"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872be",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01c7"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872bf",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01c8"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872c0",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01c9"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872c1",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01ca"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872c2",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01cb"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872c3",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01cc"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872c4",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01cd"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872c5",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01ce"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872c6",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01cf"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872c7",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01d0"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872c8",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01d1"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872c9",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01d2"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872ca",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01d3"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872cb",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01d4"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872cc",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01d5"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872cd",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01d6"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872ce",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01d7"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872cf",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01d8"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872d0",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01d9"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872d1",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01da"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872d2",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01db"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872d3",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01dc"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872d4",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01dd"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872d5",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01de"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872d6",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01df"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872d7",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01e0"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872d8",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01e1"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872d9",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01e2"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872da",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01e3"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872db",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01e4"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872dc",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01e5"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872dd",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01e6"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872de",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01e7"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872df",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01e8"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872e0",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01e9"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872e1",
+      "titleInfo": [
+        {
+          "title": "Sir Edward Wynter, Edward Swarthye alias 'Edward N'"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01ea"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872e2",
+      "titleInfo": [
+        {
+          "title": "Acts of the Privy Council of England"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01eb"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872e3",
+      "titleInfo": [
+        {
+          "title": "Acts of the Privy Council of England"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01ec"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872e4",
+      "titleInfo": [
+        {
+          "title": "Acts of the Privy Council of England"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01ed"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872e5",
+      "titleInfo": [
+        {
+          "title": "Acts of the Privy Council of England"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01ee"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872e6",
+      "titleInfo": [
+        {
+          "title": "Acts of the Privy Council of England"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01ef"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872e7",
+      "titleInfo": [
+        {
+          "title": "Acts of the Privy Council of England"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01f0"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872e8",
+      "titleInfo": [
+        {
+          "title": "Acts of the Privy Council of England"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01f1"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872e9",
+      "titleInfo": [
+        {
+          "title": "Acts of the Privy Council of England"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01f2"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872ea",
+      "titleInfo": [
+        {
+          "title": "Acts of the Privy Council of England"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01f3"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872eb",
+      "titleInfo": [
+        {
+          "title": "Acts of the Privy Council of England"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01f4"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872ec",
+      "titleInfo": [
+        {
+          "title": "Acts of the Privy Council of England"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01f5"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872ed",
+      "titleInfo": [
+        {
+          "title": "Acts of the Privy Council of England"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01f6"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872ee",
+      "titleInfo": [
+        {
+          "title": "Acts of the Privy Council of England"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01f7"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872ef",
+      "titleInfo": [
+        {
+          "title": "Acts of the Privy Council of England"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01f8"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872f0",
+      "titleInfo": [
+        {
+          "title": "Acts of the Privy Council of England"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01f9"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872f1",
+      "titleInfo": [
+        {
+          "title": "Acts of the Privy Council of England"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01fa"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872f2",
+      "titleInfo": [
+        {
+          "title": "Acts of the Privy Council of England"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01fb"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872f3",
+      "titleInfo": [
+        {
+          "title": "Acts of the Privy Council of England"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01fc"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872f4",
+      "titleInfo": [
+        {
+          "title": "Acts of the Privy Council of England"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01fd"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872f5",
+      "titleInfo": [
+        {
+          "title": "Acts of the Privy Council of England"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01fe"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872f6",
+      "titleInfo": [
+        {
+          "title": "Acts of the Privy Council of England"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01ff"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872f7",
+      "titleInfo": [
+        {
+          "title": "Acts of the Privy Council of England"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0200"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872f8",
+      "titleInfo": [
+        {
+          "title": "Acts of the Privy Council of England"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0201"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872f9",
+      "titleInfo": [
+        {
+          "title": "Acts of the Privy Council of England"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0202"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872fa",
+      "titleInfo": [
+        {
+          "title": "Acts of the Privy Council of England"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0203"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872fb",
+      "titleInfo": [
+        {
+          "title": "Acts of the Privy Council of England"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0204"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872fc",
+      "titleInfo": [
+        {
+          "title": "British Library_Accounts and Manor"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0205"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872fd",
+      "titleInfo": [
+        {
+          "title": "William Augustus"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0206"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872fe",
+      "titleInfo": [
+        {
+          "title": "William Augustus"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0207"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872ff",
+      "titleInfo": [
+        {
+          "title": "Marine Cartography"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0208"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87300",
+      "titleInfo": [
+        {
+          "title": "Marine Cartography"
+        }
+      ],
+      "typeOfResource": "Cartographic",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0209"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87301",
+      "titleInfo": [
+        {
+          "title": "Marine Cartography"
+        }
+      ],
+      "typeOfResource": "Cartographic",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-020a"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87302",
+      "titleInfo": [
+        {
+          "title": "Marine Cartography"
+        }
+      ],
+      "typeOfResource": "Cartographic",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-020b"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87303",
+      "titleInfo": [
+        {
+          "title": "Marine Cartography"
+        }
+      ],
+      "typeOfResource": "Cartographic",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-020c"
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "poets",
+    "name": "Poets",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1971,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1971,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 1
+    },
+    {
+      "name": "Moving image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "value": 1
+    },
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Artists",
+      "value": 1
+    },
+    {
+      "name": "Women artists",
+      "value": 1
+    },
+    {
+      "name": "Novelists",
+      "value": 1
+    },
+    {
+      "name": "Interviews",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Concerts",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Artists",
+      "value": 1
+    },
+    {
+      "name": "Women artists",
+      "value": 1
+    },
+    {
+      "name": "Papua Pocket Poets",
+      "value": 1
+    },
+    {
+      "name": "Papua New Guinea",
+      "value": 1
+    },
+    {
+      "name": "New Guinea",
+      "value": 1
+    },
+    {
+      "name": "Novelists",
+      "value": 1
+    },
+    {
+      "name": "Interviews",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Concerts",
+      "value": 1
+    },
+    {
+      "name": "Talk Show",
+      "value": 1
+    },
+    {
+      "name": "Live Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Beier, Georgina",
+      "value": 1
+    },
+    {
+      "name": "Greven, Katharina",
+      "value": 1
+    },
+    {
+      "name": "Dibango, Manu",
+      "value": 1
+    },
+    {
+      "name": "Members of the Liberian Association of Writers",
+      "value": 1
+    },
+    {
+      "name": "Collins, Hawa Andrews",
+      "value": 1
+    },
+    {
+      "name": "Caranda, Doughba C., II",
+      "value": 1
+    },
+    {
+      "name": "Government of Liberia",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "Liberia",
+      "region": "Montserrado County",
+      "city": "Monrovia",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b4c7",
+      "titleInfo": [
+        {
+          "title": "Einige Buchrücken für Papua Pocket Poets von Georgina Beier gestaltet. Gedruckt im Magazin „novum” 1971 (Plata 1971)"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-003f"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cd8",
+      "titleInfo": [
+        {
+          "title": "Heritage Productions"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-009b"
+    }
+  ]
+}

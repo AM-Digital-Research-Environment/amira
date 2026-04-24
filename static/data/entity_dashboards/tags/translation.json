@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "translation",
+    "name": "Translation",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2018,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2018,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "West Africa",
+      "value": 1
+    },
+    {
+      "name": "Ewe (African people)",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "West Africa",
+      "value": 1
+    },
+    {
+      "name": "Ewe (African people)",
+      "value": 1
+    },
+    {
+      "name": "Blege",
+      "value": 1
+    },
+    {
+      "name": "Macbeth",
+      "value": 1
+    },
+    {
+      "name": "Shakespeare",
+      "value": 1
+    },
+    {
+      "name": "Article",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Agbozo, G. Edzordzi",
+      "value": 1
+    },
+    {
+      "name": "Lodz University Press",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Spain",
+      "region": "Community of Madrid",
+      "city": "Madrid",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a8ab2c85fe8df87108",
+      "titleInfo": [
+        {
+          "title": "Translation as Rewriting: Cultural Theoretical Appraisal of Shakespeare’s Macbeth in the Ewe language of West Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0011"
+    }
+  ]
+}

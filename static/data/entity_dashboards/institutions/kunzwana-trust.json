@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "kunzwana-trust",
+    "name": "Kunzwana Trust",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1996,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1996,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Shona (African people)",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Zimbabwe",
+      "value": 2
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Shona (African people)",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Goddard, Keith",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ec64",
+      "titleInfo": [
+        {
+          "title": "MAKING MUSIC: MUSICAL INSTRUMENTS IN ZIMBABWE PAST AND PRESENT, by Claire Jones, Academic Books, Harare, 1992, 183pp, photos, transcriptions, diagrams."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-027f"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec6b",
+      "titleInfo": [
+        {
+          "title": "THE SOUL OF MBIRA TWENTY YEARS ON:A RETROSPECT, Part 1: THE SOUL OF MBIRA: MUSIC AND TRADITIONS OF THE SHONA PEOPLE OF ZIMBABWE, by Paul Berliner, University of Chicago Press, Chicago and London, 1994 (first published Univ. of California Press, Berkeley, 1978), 312pp, illustrations, transcriptions, appendices, index."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0286"
+    }
+  ]
+}

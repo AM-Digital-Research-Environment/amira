@@ -1,0 +1,308 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "port-moresby",
+    "name": "Port Moresby",
+    "count": 6
+  },
+  "timeline": [
+    {
+      "year": 1967,
+      "count": 1
+    },
+    {
+      "year": 1976,
+      "count": 1
+    },
+    {
+      "year": 2015,
+      "count": 1
+    },
+    {
+      "year": 2016,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1967,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 1976,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 2015,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2016,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 3
+    },
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    },
+    {
+      "name": "German",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Artists",
+      "value": 5
+    },
+    {
+      "name": "Wood-carving, Yoruba",
+      "value": 3
+    },
+    {
+      "name": "Art",
+      "value": 2
+    },
+    {
+      "name": "Women artists",
+      "value": 2
+    },
+    {
+      "name": "Tapestry",
+      "value": 1
+    },
+    {
+      "name": "Interior decoration",
+      "value": 1
+    },
+    {
+      "name": "Painting",
+      "value": 1
+    },
+    {
+      "name": "Sculpture",
+      "value": 1
+    },
+    {
+      "name": "Iron sculpture",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Papua New Guinea",
+      "value": 6
+    },
+    {
+      "name": "New Guinea",
+      "value": 6
+    },
+    {
+      "name": "Artists",
+      "value": 5
+    },
+    {
+      "name": "Wood-carving, Yoruba",
+      "value": 3
+    },
+    {
+      "name": "Email",
+      "value": 3
+    },
+    {
+      "name": "Yoruba Art",
+      "value": 3
+    },
+    {
+      "name": "Art Collector",
+      "value": 3
+    },
+    {
+      "name": "Art Collecting",
+      "value": 3
+    },
+    {
+      "name": "Art",
+      "value": 2
+    },
+    {
+      "name": "Women artists",
+      "value": 2
+    },
+    {
+      "name": "Orokola",
+      "value": 2
+    },
+    {
+      "name": "Tapestry",
+      "value": 1
+    },
+    {
+      "name": "Interior decoration",
+      "value": 1
+    },
+    {
+      "name": "Painting",
+      "value": 1
+    },
+    {
+      "name": "Mural",
+      "value": 1
+    },
+    {
+      "name": "Sculpture",
+      "value": 1
+    },
+    {
+      "name": "Iron sculpture",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Greven, Katharina",
+      "value": 7
+    },
+    {
+      "name": "Beier, Georgina",
+      "value": 4
+    },
+    {
+      "name": "Raabe, Eva",
+      "value": 2
+    },
+    {
+      "name": "Beier, Ulli",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Papua New Guinea",
+      "region": "National Capital District",
+      "city": "Port Moresby",
+      "count": 3
+    },
+    {
+      "country": "Australia",
+      "region": "",
+      "city": "",
+      "count": 2
+    },
+    {
+      "country": "Germany",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b4b4",
+      "titleInfo": [
+        {
+          "title": "Innenansicht eines Raumes im Haus der Beiers in Port Moresby, in dem Batiken ausgestellt wurden"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-002c"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4f2",
+      "titleInfo": [
+        {
+          "title": "Wandgemälde von Georgina Beier in Port Moresby von 1967"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-006a"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4f3",
+      "titleInfo": [
+        {
+          "title": "Georgina Beiers Eisenskulptur aus dem Jahre 1976 an der Außenwand des Instituts of Papua New Guinea Studies in Port Moresby"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-006b"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b50d",
+      "titleInfo": [
+        {
+          "title": "Email von Georgina Beier"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0085"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b50e",
+      "titleInfo": [
+        {
+          "title": "Email von Georgina Beier"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0086"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b513",
+      "titleInfo": [
+        {
+          "title": "E-Mail-Austausch zwischen Raabe Eva und Katharina Greven"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-008b"
+    }
+  ]
+}

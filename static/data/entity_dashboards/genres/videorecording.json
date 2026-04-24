@@ -1,0 +1,808 @@
+{
+  "meta": {
+    "type": "genre",
+    "id": "videorecording",
+    "name": "videorecording",
+    "count": 25
+  },
+  "timeline": [
+    {
+      "year": 2015,
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "count": 8
+    },
+    {
+      "year": 2021,
+      "count": 14
+    },
+    {
+      "year": 2023,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2015,
+      "total": 1,
+      "byType": {
+        "Digital": 1
+      }
+    },
+    {
+      "year": 2020,
+      "total": 8,
+      "byType": {
+        "Moving image": 8
+      }
+    },
+    {
+      "year": 2021,
+      "total": 14,
+      "byType": {
+        "Text": 1,
+        "Moving image": 12,
+        "Image": 1
+      }
+    },
+    {
+      "year": 2023,
+      "total": 2,
+      "byType": {
+        "Moving image": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Moving image",
+      "value": 22
+    },
+    {
+      "name": "Text",
+      "value": 1
+    },
+    {
+      "name": "Image",
+      "value": 1
+    },
+    {
+      "name": "Digital",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 19
+    },
+    {
+      "name": "French",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Women",
+      "value": 10
+    },
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 10
+    },
+    {
+      "name": "Political rights",
+      "value": 10
+    },
+    {
+      "name": "Political participation",
+      "value": 10
+    },
+    {
+      "name": "COVID-19 (Disease)",
+      "value": 8
+    },
+    {
+      "name": "Transport workers",
+      "value": 8
+    },
+    {
+      "name": "Aesthetics",
+      "value": 2
+    },
+    {
+      "name": "History",
+      "value": 2
+    },
+    {
+      "name": "Migration",
+      "value": 2
+    },
+    {
+      "name": "Learning",
+      "value": 2
+    },
+    {
+      "name": "Animation (Cinematography)",
+      "value": 2
+    },
+    {
+      "name": "Children",
+      "value": 2
+    },
+    {
+      "name": "Child psychology",
+      "value": 2
+    },
+    {
+      "name": "Curriculum planning",
+      "value": 2
+    },
+    {
+      "name": "Arts",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Scholars",
+      "value": 1
+    },
+    {
+      "name": "Actors",
+      "value": 1
+    },
+    {
+      "name": "Experience",
+      "value": 1
+    },
+    {
+      "name": "Slavery",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Lagos",
+      "value": 10
+    },
+    {
+      "name": "Women",
+      "value": 10
+    },
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 10
+    },
+    {
+      "name": "Political rights",
+      "value": 10
+    },
+    {
+      "name": "Political participation",
+      "value": 10
+    },
+    {
+      "name": "Structural Barriers",
+      "value": 10
+    },
+    {
+      "name": "Political Barriers",
+      "value": 10
+    },
+    {
+      "name": "Politics",
+      "value": 10
+    },
+    {
+      "name": "COVID-19 (Disease)",
+      "value": 8
+    },
+    {
+      "name": "Transport workers",
+      "value": 8
+    },
+    {
+      "name": "Nigeria",
+      "value": 8
+    },
+    {
+      "name": "Marketer",
+      "value": 8
+    },
+    {
+      "name": "COVID-19",
+      "value": 8
+    },
+    {
+      "name": "African Studies",
+      "value": 5
+    },
+    {
+      "name": "Aesthetics",
+      "value": 2
+    },
+    {
+      "name": "History",
+      "value": 2
+    },
+    {
+      "name": "Migration",
+      "value": 2
+    },
+    {
+      "name": "Knowledge",
+      "value": 2
+    },
+    {
+      "name": "Learning",
+      "value": 2
+    },
+    {
+      "name": "Animation (Cinematography)",
+      "value": 2
+    },
+    {
+      "name": "Children",
+      "value": 2
+    },
+    {
+      "name": "Child psychology",
+      "value": 2
+    },
+    {
+      "name": "Curriculum planning",
+      "value": 2
+    },
+    {
+      "name": "Tortoise",
+      "value": 2
+    },
+    {
+      "name": "Arts",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Scholars",
+      "value": 1
+    },
+    {
+      "name": "Popular Music Studies",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    },
+    {
+      "name": "Cultural Economy",
+      "value": 1
+    },
+    {
+      "name": "Actors",
+      "value": 1
+    },
+    {
+      "name": "Experience",
+      "value": 1
+    },
+    {
+      "name": "Cinema",
+      "value": 1
+    },
+    {
+      "name": "Slavery",
+      "value": 1
+    },
+    {
+      "name": "Alzire of Bayreuth",
+      "value": 1
+    },
+    {
+      "name": "Wilhelmine",
+      "value": 1
+    },
+    {
+      "name": "Neues Schloss Bayreuth",
+      "value": 1
+    },
+    {
+      "name": "Bayreuth",
+      "value": 1
+    },
+    {
+      "name": "Suriname",
+      "value": 1
+    },
+    {
+      "name": "Colonialism",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Ademola-Adeoye, Feyisayo",
+      "value": 11
+    },
+    {
+      "name": "Attoh, Franca",
+      "value": 10
+    },
+    {
+      "name": "Yakubu, Moses",
+      "value": 10
+    },
+    {
+      "name": "Eesuola, Kayode",
+      "value": 10
+    },
+    {
+      "name": "Olukuade, Tomide",
+      "value": 10
+    },
+    {
+      "name": "Ademola, Lydia",
+      "value": 10
+    },
+    {
+      "name": "Anyanwu, Beatrice",
+      "value": 10
+    },
+    {
+      "name": "Akintola, Folashade",
+      "value": 10
+    },
+    {
+      "name": "Adeniran, Samuel",
+      "value": 10
+    },
+    {
+      "name": "Adebayo, Bukola",
+      "value": 10
+    },
+    {
+      "name": "Akin-Otiko, Akinmayowa",
+      "value": 8
+    },
+    {
+      "name": "Fayemi, Kazeem",
+      "value": 8
+    },
+    {
+      "name": "Eleshin, Abisoye",
+      "value": 4
+    },
+    {
+      "name": "Lawanson, Taibat",
+      "value": 2
+    },
+    {
+      "name": "Akinpelu, Deji",
+      "value": 2
+    },
+    {
+      "name": "Enitan, Adewale",
+      "value": 2
+    },
+    {
+      "name": "Odubawo, Orinayo",
+      "value": 2
+    },
+    {
+      "name": "Bitrus, Byenyen",
+      "value": 2
+    },
+    {
+      "name": "Yusuff, Ayodele",
+      "value": 2
+    },
+    {
+      "name": "Akinwale, Gbenusola",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "Nigeria",
+      "region": "Lagos State",
+      "city": "Lagos",
+      "count": 13
+    },
+    {
+      "country": "Kenya",
+      "region": "Nairobi Province",
+      "city": "Nairobi",
+      "count": 4
+    },
+    {
+      "country": "Nigeria",
+      "region": "Enugu State",
+      "city": "Enugu",
+      "count": 2
+    },
+    {
+      "country": "Nigeria",
+      "region": "Oyo State",
+      "city": "Ibadan",
+      "count": 2
+    },
+    {
+      "country": "Nigeria",
+      "region": "Kaduna State",
+      "city": "Kaduna",
+      "count": 2
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "Centre",
+      "city": "Ouagadougou",
+      "count": 1
+    },
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "66c85ad6f75816be2871ce62",
+      "titleInfo": [
+        {
+          "title": "Translation of Sammy Sparkle Interview"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_AfEnt2020",
+        "name": "Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment"
+      },
+      "dre_id": "aah-02-0003"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86ac",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Video 1, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-000d"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86ad",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Video 2, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-000e"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86ae",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Video 3, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-000f"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86af",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Video 4, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-0010"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86b0",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Video 5, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-0011"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86b1",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Video 6, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-0012"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86b2",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Video 7, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-0013"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86b3",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Video 8, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-0014"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86b9",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Workshop"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-0004"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86c0",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Documentary"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-000b"
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86e4",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Video of Researcher and some Women in FGD in Enugu"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-000b"
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86e5",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Team of Researchers and some Men in FGD Video in Enugu"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-000c"
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86e6",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Video showing Team of Researchers with a Woman Politician in an Interview in Ibadan"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-000d"
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86e7",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Team of Researchers with a Woman Politician in Ibadan"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-000e"
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86e8",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Team of Researchers with a Woman Politician in an Interview in Kaduna"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-000f"
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86e9",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Team of Researchers with a Politician in an Interview in Kaduna"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-0010"
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86ea",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Researcher with a Male Respondent in an Interview in Nairobi"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-0011"
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86eb",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Researcher with a Female Respondent in an Interview in Nairobi"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-0012"
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86ec",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Researcher with a Female Respondent in an interview in Nairobi"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-0013"
+    },
+    {
+      "_id": "6718f5fac327cde4b57d86ed",
+      "titleInfo": [
+        {
+          "title": "Women’s Political Participation - Researcher with a Male Respondent in an Interview in Nairobi"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa"
+      },
+      "dre_id": "aaa-02-0014"
+    },
+    {
+      "_id": "66c71c3e22a01f1d1ea08ee8",
+      "titleInfo": [
+        {
+          "title": "Digitising Folktales for Animation and Value Education - Igboho Field Location Video"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_YoruFolk2020",
+        "name": "Regenerating Non-Formal Learning in Africa: Digitizing Yoruba Folktales for Animation and Value Education"
+      },
+      "dre_id": "aag-02-0003"
+    },
+    {
+      "_id": "66c71c3e22a01f1d1ea08ee9",
+      "titleInfo": [
+        {
+          "title": "Digitising Folktales for Animation and Value Education - Oshogbo Field Location Video"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_YoruFolk2020",
+        "name": "Regenerating Non-Formal Learning in Africa: Digitizing Yoruba Folktales for Animation and Value Education"
+      },
+      "dre_id": "aag-02-0004"
+    },
+    {
+      "_id": "69bd30d662fdff17d6fc73e9",
+      "titleInfo": [
+        {
+          "title": "Vidéo d'atelier d'échanges avec les professionnelles du cinéma"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-003f"
+    },
+    {
+      "_id": "692db49707481a28c72155c6",
+      "titleInfo": [
+        {
+          "title": "Alzire of Bayreuth"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-99-001e"
+    }
+  ]
+}

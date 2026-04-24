@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "mcmaster-university-library-press",
+    "name": "McMaster University Library Press",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2014,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2014,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Theater",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Theater",
+      "value": 1
+    },
+    {
+      "name": "Shakespeare",
+      "value": 1
+    },
+    {
+      "name": "Plays",
+      "value": 1
+    },
+    {
+      "name": "Royal Court",
+      "value": 1
+    },
+    {
+      "name": "Black People",
+      "value": 1
+    },
+    {
+      "name": "Article",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Chapman, Matthieu A.",
+      "value": 1
+    },
+    {
+      "name": "McMaster University Library Press",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Canada",
+      "region": "Ontario",
+      "city": "Hamilton",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a8ab2c85fe8df87110",
+      "titleInfo": [
+        {
+          "title": "The Appearance of Blacks on the Early Modern Stage: Love’s Labour’s Lost’s African Connections to Court"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0019"
+    }
+  ]
+}

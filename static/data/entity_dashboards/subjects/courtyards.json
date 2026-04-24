@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "courtyards",
+    "name": "Courtyards",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 1971,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1971,
+      "total": 2,
+      "byType": {
+        "Image": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 4
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Mosaics",
+      "value": 4
+    },
+    {
+      "name": "Photographs",
+      "value": 4
+    },
+    {
+      "name": "Women artists",
+      "value": 3
+    },
+    {
+      "name": "Artists",
+      "value": 3
+    },
+    {
+      "name": "Art",
+      "value": 1
+    },
+    {
+      "name": "Women",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Mosaics",
+      "value": 4
+    },
+    {
+      "name": "Photographs",
+      "value": 4
+    },
+    {
+      "name": "Ile-Ife",
+      "value": 4
+    },
+    {
+      "name": "Nigeria",
+      "value": 4
+    },
+    {
+      "name": "Women artists",
+      "value": 3
+    },
+    {
+      "name": "Artists",
+      "value": 3
+    },
+    {
+      "name": "Art",
+      "value": 1
+    },
+    {
+      "name": "Women",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Beier, Ulli",
+      "value": 4
+    },
+    {
+      "name": "Greven, Katharina",
+      "value": 4
+    },
+    {
+      "name": "Beier, Georgina",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Nigeria",
+      "region": "Osun State",
+      "city": "Ile-Ife",
+      "count": 4
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b4bf",
+      "titleInfo": [
+        {
+          "title": "Schüssel auf dem Mosaik im Innenhof in Ile-Ife"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0037"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4ea",
+      "titleInfo": [
+        {
+          "title": "Georgina Beier in ihrem Innenhof in Ile-Ife"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0062"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4eb",
+      "titleInfo": [
+        {
+          "title": "Aufnahme des Innenhofs in Ile-Ife"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0063"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4ec",
+      "titleInfo": [
+        {
+          "title": "Innenaufnahme des Pottery Museum in Ile-Ife"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0064"
+    }
+  ]
+}

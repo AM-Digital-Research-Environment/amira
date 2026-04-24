@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "johnson-andrew",
+    "name": "Johnson, Andrew",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1987,
+      "count": 1
+    },
+    {
+      "year": 1988,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1987,
+      "total": 1,
+      "byType": {
+        "Moving image": 1
+      }
+    },
+    {
+      "year": 1988,
+      "total": 1,
+      "byType": {
+        "Moving image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Moving image",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "Politics",
+      "value": 1
+    },
+    {
+      "name": "Local News",
+      "value": 1
+    },
+    {
+      "name": "International News",
+      "value": 1
+    },
+    {
+      "name": "News",
+      "value": 1
+    },
+    {
+      "name": "Public Affairs",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Liberia Broadcasting System (LBS)",
+      "value": 2
+    },
+    {
+      "name": "Government of Liberia",
+      "value": 2
+    },
+    {
+      "name": "Wessehutes, Jimmy",
+      "value": 2
+    },
+    {
+      "name": "Stevquoah, Sam",
+      "value": 1
+    },
+    {
+      "name": "Kollie, Aaron",
+      "value": 1
+    },
+    {
+      "name": "Kollie, William",
+      "value": 1
+    },
+    {
+      "name": "Kekomai, Edward",
+      "value": 1
+    },
+    {
+      "name": "Gilbert, Thomas",
+      "value": 1
+    },
+    {
+      "name": "Christopher, Victoria",
+      "value": 1
+    },
+    {
+      "name": "Stewart, James",
+      "value": 1
+    },
+    {
+      "name": "Sahn, jonathan",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Liberia",
+      "region": "Montserrado County",
+      "city": "Monrovia",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "6982337057a8e0353b0b1c75",
+      "titleInfo": [
+        {
+          "title": "ELTV Week-in-Review"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0038"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1db1",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0174"
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "state-university-of-new-york-at-oneonta",
+    "name": "State University of New York at Oneonta",
+    "count": 6
+  },
+  "timeline": [
+    {
+      "year": 1968,
+      "count": 1
+    },
+    {
+      "year": 1970,
+      "count": 2
+    },
+    {
+      "year": 1971,
+      "count": 1
+    },
+    {
+      "year": 1972,
+      "count": 1
+    },
+    {
+      "year": 1975,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1968,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1970,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1971,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1972,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1975,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 6
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 6
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Ewe (African people)",
+      "value": 2
+    },
+    {
+      "name": "Dance",
+      "value": 2
+    },
+    {
+      "name": "Percussion music",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Drum",
+      "value": 1
+    },
+    {
+      "name": "Anlo (African people)",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Drum music",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 6
+    },
+    {
+      "name": "Ghana",
+      "value": 3
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Ewe (African people)",
+      "value": 2
+    },
+    {
+      "name": "Dance",
+      "value": 2
+    },
+    {
+      "name": "Percussion music",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Drum",
+      "value": 1
+    },
+    {
+      "name": "Anlo (African people)",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Drum music",
+      "value": 1
+    },
+    {
+      "name": "Drum (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Musical Meter",
+      "value": 1
+    },
+    {
+      "name": "Musical Rhythm",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Pantaleoni, Hewitt",
+      "value": 6
+    },
+    {
+      "name": "Ladzekpo, Kobla",
+      "value": 1
+    },
+    {
+      "name": "Blacking, John",
+      "value": 1
+    },
+    {
+      "name": "Jones, A. M.",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 6
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9eb3e",
+      "titleInfo": [
+        {
+          "title": "The first American Music Study group in Ghana: an unofficial report"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0159"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb72",
+      "titleInfo": [
+        {
+          "title": "FOLK SONG STYLE AND CULTURE, by Alan Lomax, with contributions by the Cantometrics staff and with the editorial assistance of Edwin E. Erickson, Washington, D.C., American Association for the Advancement of Science \"Publication No. 88”, 1969. Pp. xx, 363, with 76 tables, 75 charts and graphs, 3 appendices, bibliography, list of sources, index."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-018d"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb85",
+      "titleInfo": [
+        {
+          "title": "Takada drumming"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01a0"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb8e",
+      "titleInfo": [
+        {
+          "title": "CODIFICATION OF AFRICAN MUSIC AND TEXTBOOK PROJECT: A PRIMER OF PRACTICAL SUGGESTIONS FOR FIELD RESEARCH, by Hugh T. Tracey with Gerhard Kubik and Andrew T. N. Tracey (International Library of African Music, 1969). 54 pp."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01a9"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eba7",
+      "titleInfo": [
+        {
+          "title": "Three principles of timing in Anlo dance drumming"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01c2"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ebcd",
+      "titleInfo": [
+        {
+          "title": "THE MUSIC OF AFRICA by J.H. Kwabena Nketia, (Gollancz) London, 1975. Copyright 1974 by W.W. Norton Inc."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01e8"
+    }
+  ]
+}

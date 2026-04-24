@@ -1,0 +1,178 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "mcconnachie-boudina",
+    "name": "McConnachie, Boudina",
+    "count": 5
+  },
+  "timeline": [
+    {
+      "year": 2007,
+      "count": 1
+    },
+    {
+      "year": 2008,
+      "count": 2
+    },
+    {
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2007,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2008,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 2017,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2018,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 5
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 5
+    }
+  ],
+  "subjects": [
+    {
+      "name": "South Africa",
+      "value": 2
+    },
+    {
+      "name": "Poetry",
+      "value": 1
+    },
+    {
+      "name": "Book reviews",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 5
+    },
+    {
+      "name": "South Africa",
+      "value": 2
+    },
+    {
+      "name": "Poetry",
+      "value": 1
+    },
+    {
+      "name": "Tanzania",
+      "value": 1
+    },
+    {
+      "name": "Kenya",
+      "value": 1
+    },
+    {
+      "name": "Swahili Music",
+      "value": 1
+    },
+    {
+      "name": "Languid Charm",
+      "value": 1
+    },
+    {
+      "name": "Book reviews",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 5
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ec8c",
+      "titleInfo": [
+        {
+          "title": "Poetry and Languid Charm, 2007: Swahili Music From Tanzania and Kenya - From the 1920s to the 1950s. Topic Records Ltd. - TSCD 936. Compiled by Janet Topp Fargion, Curator, World and Traditional Music Section, British Library Sound Archive. One compact disc. Booklet (15 pp.) with notes by Janet Topp Fargion and photographs."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02a7"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ecaa",
+      "titleInfo": [
+        {
+          "title": "The Flamboyant Rooster and other Tshivenda Song Stories, Edited by Jaco Kruger and Ina le Roux, Illustrated by Deon Coetzer, School of Music, North-West University, Potchefstroom: South Africa. 149 pages."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02c5"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ecac",
+      "titleInfo": [
+        {
+          "title": "Siaka, an African Musician, 80 minutes, DVD. An African Brass Band, 72 minutes, DVD. Author and Producer-Director: Hugo Zemp"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02c7"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed83",
+      "titleInfo": [
+        {
+          "title": "The Changing Faces of Aawambo Musical Arts. Minette Mans. 2017. Switzerland: Basel Afrika Bibliographien. 56 bw figures (photographs, sketches), 24 transcriptions, glossary, bibliography, index, 188pp."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-039e"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed9c",
+      "titleInfo": [
+        {
+          "title": "Sylvia Bruinders, Parading Respectability: The Cultural and Moral Aesthetics of the Christmas Bands Movement in the Western Cape, South Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03b7"
+    }
+  ]
+}

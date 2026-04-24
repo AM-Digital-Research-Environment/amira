@@ -65,6 +65,26 @@
     {
       "name": "Archives",
       "value": 1
+    },
+    {
+      "name": "Newspaper Article",
+      "value": 1
+    },
+    {
+      "name": "Art Exhibition",
+      "value": 1
+    },
+    {
+      "name": "Flyer",
+      "value": 1
+    },
+    {
+      "name": "Iwalewahaus",
+      "value": 1
+    },
+    {
+      "name": "Cultural Centre",
+      "value": 1
     }
   ],
   "contributors": [
@@ -83,6 +103,22 @@
       "region": "Bavaria",
       "city": "Bayreuth",
       "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b491",
+      "titleInfo": [
+        {
+          "title": "Biodata Vol. I (Volume 40)"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0009"
     }
   ]
 }

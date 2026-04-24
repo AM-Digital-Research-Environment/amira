@@ -1,0 +1,797 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "racism",
+    "name": "Racism",
+    "count": 25
+  },
+  "timeline": [
+    {
+      "year": 1936,
+      "count": 1
+    },
+    {
+      "year": 2008,
+      "count": 1
+    },
+    {
+      "year": 2013,
+      "count": 1
+    },
+    {
+      "year": 2014,
+      "count": 1
+    },
+    {
+      "year": 2017,
+      "count": 2
+    },
+    {
+      "year": 2018,
+      "count": 2
+    },
+    {
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "count": 12
+    },
+    {
+      "year": 2024,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1936,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 2008,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2013,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 2014,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2017,
+      "total": 2,
+      "byType": {
+        "Text": 1,
+        "Image": 1
+      }
+    },
+    {
+      "year": 2018,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 2019,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 2020,
+      "total": 12,
+      "byType": {
+        "Image": 11,
+        "Text": 1
+      }
+    },
+    {
+      "year": 2024,
+      "total": 1,
+      "byType": {
+        "Bibliography": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 17
+    },
+    {
+      "name": "Text",
+      "value": 7
+    },
+    {
+      "name": "Bibliography",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "value": 24
+    },
+    {
+      "name": "English",
+      "value": 1
+    },
+    {
+      "name": "French",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Culture",
+      "value": 6
+    },
+    {
+      "name": "History",
+      "value": 5
+    },
+    {
+      "name": "Photography",
+      "value": 2
+    },
+    {
+      "name": "Humanities",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Opera",
+      "value": 1
+    },
+    {
+      "name": "Arts",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Antisemitism",
+      "value": 1
+    },
+    {
+      "name": "Science",
+      "value": 1
+    },
+    {
+      "name": "Subconsciousness",
+      "value": 1
+    },
+    {
+      "name": "Postcolonialism",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Daily Racism",
+      "value": 16
+    },
+    {
+      "name": "Local Press",
+      "value": 16
+    },
+    {
+      "name": "Language",
+      "value": 14
+    },
+    {
+      "name": "Bayreuth",
+      "value": 12
+    },
+    {
+      "name": "Tradition",
+      "value": 11
+    },
+    {
+      "name": "Culture",
+      "value": 6
+    },
+    {
+      "name": "Colonialism",
+      "value": 5
+    },
+    {
+      "name": "History",
+      "value": 5
+    },
+    {
+      "name": "Carnival Society",
+      "value": 5
+    },
+    {
+      "name": "Memory Culture",
+      "value": 4
+    },
+    {
+      "name": "M*wäscherverein",
+      "value": 4
+    },
+    {
+      "name": "Race Theory",
+      "value": 3
+    },
+    {
+      "name": "Society",
+      "value": 3
+    },
+    {
+      "name": "Cultural Heritage",
+      "value": 2
+    },
+    {
+      "name": "Mohrenapotheke",
+      "value": 2
+    },
+    {
+      "name": "Kallenberghaus",
+      "value": 2
+    },
+    {
+      "name": "Local History",
+      "value": 2
+    },
+    {
+      "name": "Photography",
+      "value": 2
+    },
+    {
+      "name": "Consumption",
+      "value": 2
+    },
+    {
+      "name": "Humanities",
+      "value": 1
+    },
+    {
+      "name": "Racialisation",
+      "value": 1
+    },
+    {
+      "name": "Humanitarian Studies",
+      "value": 1
+    },
+    {
+      "name": "Humanitarian",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Opera",
+      "value": 1
+    },
+    {
+      "name": "Arts",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Antisemitism",
+      "value": 1
+    },
+    {
+      "name": "Richard Wagner",
+      "value": 1
+    },
+    {
+      "name": "Germany",
+      "value": 1
+    },
+    {
+      "name": "Science",
+      "value": 1
+    },
+    {
+      "name": "Subconsciousness",
+      "value": 1
+    },
+    {
+      "name": "Postcolonialism",
+      "value": 1
+    },
+    {
+      "name": "Asylum",
+      "value": 1
+    },
+    {
+      "name": "Agency",
+      "value": 1
+    },
+    {
+      "name": "Rightwing Extremism",
+      "value": 1
+    },
+    {
+      "name": "Upper Franconia",
+      "value": 1
+    },
+    {
+      "name": "Politics",
+      "value": 1
+    },
+    {
+      "name": "Extremism",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Springfeld, Lars",
+      "value": 2
+    },
+    {
+      "name": "Glasman, Joël",
+      "value": 1
+    },
+    {
+      "name": "Vierke, Ulf",
+      "value": 1
+    },
+    {
+      "name": "Zeitung des Deutschen Kulturrates",
+      "value": 1
+    },
+    {
+      "name": "Milargo, Lara-Sophie",
+      "value": 1
+    },
+    {
+      "name": "Hund, Wulf D.",
+      "value": 1
+    },
+    {
+      "name": "J.B. Metzler Verlag",
+      "value": 1
+    },
+    {
+      "name": "Kröniger, Arno",
+      "value": 1
+    },
+    {
+      "name": "Hutta, Jan",
+      "value": 1
+    },
+    {
+      "name": "Fink, Katharina",
+      "value": 1
+    },
+    {
+      "name": "Ouma, Stefan",
+      "value": 1
+    },
+    {
+      "name": "Tensing, Patrizia",
+      "value": 1
+    },
+    {
+      "name": "Busster, Henry",
+      "value": 1
+    },
+    {
+      "name": "Stiefler, Herlmut",
+      "value": 1
+    },
+    {
+      "name": "Düngferlder, Siggi",
+      "value": 1
+    },
+    {
+      "name": "Arndt, Susan",
+      "value": 1
+    },
+    {
+      "name": "Bowersox, Jeff",
+      "value": 1
+    },
+    {
+      "name": "Müller, Stefan",
+      "value": 1
+    },
+    {
+      "name": "Redaktion",
+      "value": 1
+    },
+    {
+      "name": "Waha, Eric",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 16
+    },
+    {
+      "country": "Germany",
+      "region": "",
+      "city": "",
+      "count": 9
+    }
+  ],
+  "items": [
+    {
+      "_id": "672b6332248362c6205092d8",
+      "titleInfo": [
+        {
+          "title": "Chapter Eight: Racisme. Sociologie de la racialisation"
+        }
+      ],
+      "typeOfResource": "Bibliography",
+      "project": {
+        "id": "UBT_Humanitar2019",
+        "name": "Humanities for Humanitarians. An Experiment in the Public Implications of Multiple Ontology"
+      },
+      "dre_id": "abv-01-0008"
+    },
+    {
+      "_id": "692db49707481a28c72155aa",
+      "titleInfo": [
+        {
+          "title": "Kulturerbe muss nicht in Stein gemeißelt sein"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0002"
+    },
+    {
+      "_id": "692db49707481a28c72155b1",
+      "titleInfo": [
+        {
+          "title": "Was tun mit Arschlöchern?"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0009"
+    },
+    {
+      "_id": "692db49707481a28c72155b2",
+      "titleInfo": [
+        {
+          "title": "Wie die Deutschen Weiss wurden"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-000a"
+    },
+    {
+      "_id": "692db49707481a28c72155b5",
+      "titleInfo": [
+        {
+          "title": "Erst der Mohr dann de Krippen"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-000d"
+    },
+    {
+      "_id": "692db49707481a28c72155b6",
+      "titleInfo": [
+        {
+          "title": "Die Konstruktion und Darstellung des \"Mohren\" in unterschiedlichen Räumen Bayreuths"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-000e"
+    },
+    {
+      "_id": "692db49707481a28c72155b7",
+      "titleInfo": [
+        {
+          "title": "Fehlende Selbsterkenntnis"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-000f"
+    },
+    {
+      "_id": "692db49707481a28c72155b8",
+      "titleInfo": [
+        {
+          "title": "M*wäscherverein: Umstrittener Vereinsname"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0010"
+    },
+    {
+      "_id": "692db49707481a28c72155b9",
+      "titleInfo": [
+        {
+          "title": "Zutiefst verletzt"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0011"
+    },
+    {
+      "_id": "692db49707481a28c72155ba",
+      "titleInfo": [
+        {
+          "title": "Die Kirche im Dorf lassen"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0012"
+    },
+    {
+      "_id": "692db49707481a28c72155bb",
+      "titleInfo": [
+        {
+          "title": "Gesellschaft sollte durch Floskeln nicht verblöden"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0013"
+    },
+    {
+      "_id": "692db49707481a28c72155bd",
+      "titleInfo": [
+        {
+          "title": "Unbewusst ist jeder ein Rassist"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0015"
+    },
+    {
+      "_id": "692db49707481a28c72155be",
+      "titleInfo": [
+        {
+          "title": "Kritik an der Mohrenapotheke"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0016"
+    },
+    {
+      "_id": "692db49707481a28c72155bf",
+      "titleInfo": [
+        {
+          "title": "Bayreuther Mohrenwäscher: Vom Spottnamen zur Faschingsgesellschaft"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0017"
+    },
+    {
+      "_id": "692db49707481a28c72155c0",
+      "titleInfo": [
+        {
+          "title": "Protest gegen den Abbruch des Kallenberghauses"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0018"
+    },
+    {
+      "_id": "692db49707481a28c72155c1",
+      "titleInfo": [
+        {
+          "title": "Institution der Nacht: Die Mohre lebt"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0019"
+    },
+    {
+      "_id": "692db49707481a28c72155c2",
+      "titleInfo": [
+        {
+          "title": "Wir müssen reden"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-001a"
+    },
+    {
+      "_id": "692db49707481a28c72155c3",
+      "titleInfo": [
+        {
+          "title": "Hin zur Sprachpolizei"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-001b"
+    },
+    {
+      "_id": "692db49707481a28c72155c4",
+      "titleInfo": [
+        {
+          "title": "Lasst und reden!"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-001c"
+    },
+    {
+      "_id": "692db49707481a28c72155c5",
+      "titleInfo": [
+        {
+          "title": "Bayreuther Hinterlist"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-001d"
+    },
+    {
+      "_id": "692db49707481a28c72155cc",
+      "titleInfo": [
+        {
+          "title": "Friedrich Kallenberg, der Urenkel Jean Pauls"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0024"
+    },
+    {
+      "_id": "692db49707481a28c72155d0",
+      "titleInfo": [
+        {
+          "title": "Begletischrift zum Lehrbuch Ökonomik der Entwicklung"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0028"
+    },
+    {
+      "_id": "692db49707481a28c72155d1",
+      "titleInfo": [
+        {
+          "title": "Bayreuter M*siegel gegenüber vom Heimathafen"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0029"
+    },
+    {
+      "_id": "692db49707481a28c72155d2",
+      "titleInfo": [
+        {
+          "title": "Kolonialladen Rosa Weiss"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-002a"
+    },
+    {
+      "_id": "692db49707481a28c72155d3",
+      "titleInfo": [
+        {
+          "title": "Extremismus in Oberfranken: Es geht um unsere Demokratie"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-002b"
+    }
+  ]
+}

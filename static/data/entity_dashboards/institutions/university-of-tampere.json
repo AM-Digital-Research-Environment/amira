@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "university-of-tampere",
+    "name": "University of Tampere",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2016,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2016,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Seye, Elina",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ed75",
+      "titleInfo": [
+        {
+          "title": "MALE DANCERS OF SABAR-STARS OF A FEMALE TRADITION"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0390"
+    }
+  ]
+}

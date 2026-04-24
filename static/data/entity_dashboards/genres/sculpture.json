@@ -1,0 +1,891 @@
+{
+  "meta": {
+    "type": "genre",
+    "id": "sculpture",
+    "name": "Sculpture",
+    "count": 39
+  },
+  "timeline": [
+    {
+      "year": 1960,
+      "count": 2
+    },
+    {
+      "year": 1976,
+      "count": 1
+    },
+    {
+      "year": 2014,
+      "count": 23
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1960,
+      "total": 2,
+      "byType": {
+        "Image": 2
+      }
+    },
+    {
+      "year": 1976,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 2014,
+      "total": 23,
+      "byType": {
+        "Image": 23
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 39
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    },
+    {
+      "name": "German",
+      "value": 1
+    },
+    {
+      "name": "Latin",
+      "value": 1
+    },
+    {
+      "name": "Sango",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Photographs",
+      "value": 36
+    },
+    {
+      "name": "Art",
+      "value": 34
+    },
+    {
+      "name": "Sculpture",
+      "value": 33
+    },
+    {
+      "name": "Africa",
+      "value": 32
+    },
+    {
+      "name": "Artists",
+      "value": 28
+    },
+    {
+      "name": "Wood sculpture, Yoruba",
+      "value": 26
+    },
+    {
+      "name": "Interior decoration",
+      "value": 23
+    },
+    {
+      "name": "Orisha religion",
+      "value": 15
+    },
+    {
+      "name": "Yoruba (African people)--Religion",
+      "value": 15
+    },
+    {
+      "name": "Wood-carving, Yoruba",
+      "value": 12
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 11
+    },
+    {
+      "name": "Women artists",
+      "value": 6
+    },
+    {
+      "name": "Mosaics",
+      "value": 3
+    },
+    {
+      "name": "Iron sculpture",
+      "value": 2
+    },
+    {
+      "name": "Esu (Legendary character)",
+      "value": 2
+    },
+    {
+      "name": "Concrete sculpture",
+      "value": 2
+    },
+    {
+      "name": "Painting",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Photographs",
+      "value": 36
+    },
+    {
+      "name": "Art",
+      "value": 34
+    },
+    {
+      "name": "Sculpture",
+      "value": 33
+    },
+    {
+      "name": "Africa",
+      "value": 32
+    },
+    {
+      "name": "Yoruba Art",
+      "value": 29
+    },
+    {
+      "name": "Artists",
+      "value": 28
+    },
+    {
+      "name": "Wood sculpture, Yoruba",
+      "value": 26
+    },
+    {
+      "name": "Interior decoration",
+      "value": 23
+    },
+    {
+      "name": "Art Collector",
+      "value": 22
+    },
+    {
+      "name": "Art Collecting",
+      "value": 22
+    },
+    {
+      "name": "Orisha religion",
+      "value": 15
+    },
+    {
+      "name": "Yoruba (African people)--Religion",
+      "value": 15
+    },
+    {
+      "name": "Shrine",
+      "value": 14
+    },
+    {
+      "name": "Wood-carving, Yoruba",
+      "value": 12
+    },
+    {
+      "name": "Orisha",
+      "value": 12
+    },
+    {
+      "name": "Orisha Art",
+      "value": 12
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 11
+    },
+    {
+      "name": "Nigeria",
+      "value": 9
+    },
+    {
+      "name": "Women artists",
+      "value": 6
+    },
+    {
+      "name": "Ibeji",
+      "value": 5
+    },
+    {
+      "name": "Ibeji Figure",
+      "value": 5
+    },
+    {
+      "name": "Osogbo",
+      "value": 5
+    },
+    {
+      "name": "Sydney",
+      "value": 4
+    },
+    {
+      "name": "Mosaics",
+      "value": 3
+    },
+    {
+      "name": "Iron sculpture",
+      "value": 2
+    },
+    {
+      "name": "Ile-Ife",
+      "value": 2
+    },
+    {
+      "name": "Esu (Legendary character)",
+      "value": 2
+    },
+    {
+      "name": "Esu Figure",
+      "value": 2
+    },
+    {
+      "name": "Opon Ifá",
+      "value": 2
+    },
+    {
+      "name": "Shango",
+      "value": 2
+    },
+    {
+      "name": "Concrete sculpture",
+      "value": 2
+    },
+    {
+      "name": "Zaria",
+      "value": 2
+    },
+    {
+      "name": "Painting",
+      "value": 2
+    },
+    {
+      "name": "Ibori",
+      "value": 1
+    },
+    {
+      "name": "Fish Mobile",
+      "value": 1
+    },
+    {
+      "name": "Papua New Guinea",
+      "value": 1
+    },
+    {
+      "name": "New Guinea",
+      "value": 1
+    },
+    {
+      "name": "Port Moresby",
+      "value": 1
+    },
+    {
+      "name": "Bangle",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Greven, Katharina",
+      "value": 38
+    },
+    {
+      "name": "Beier, Ulli",
+      "value": 33
+    },
+    {
+      "name": "Beier, Georgina",
+      "value": 26
+    }
+  ],
+  "locations": [
+    {
+      "country": "Australia",
+      "region": "New South Wales",
+      "city": "Sydney",
+      "count": 18
+    },
+    {
+      "country": "Nigeria",
+      "region": "Osun State",
+      "city": "Osogbo",
+      "count": 5
+    },
+    {
+      "country": "Nigeria",
+      "region": "Osun State",
+      "city": "Ile-Ife",
+      "count": 2
+    },
+    {
+      "country": "Nigeria",
+      "region": "Kaduna State",
+      "city": "Zaria",
+      "count": 2
+    },
+    {
+      "country": "Papua New Guinea",
+      "region": "National Capital District",
+      "city": "Port Moresby",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b4be",
+      "titleInfo": [
+        {
+          "title": "Aufbau der Eisenskulptur von Georgina Beier an der Universität von Ife"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0036"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4cf",
+      "titleInfo": [
+        {
+          "title": "Esu-Figur im Profil"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0047"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4d0",
+      "titleInfo": [
+        {
+          "title": "Ibeji-Figur frontal fotografiert"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0048"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4d1",
+      "titleInfo": [
+        {
+          "title": "Ibeji-Figur im Halbprofil"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0049"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4d2",
+      "titleInfo": [
+        {
+          "title": "Esu-Figur im Profil"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-004a"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4d3",
+      "titleInfo": [
+        {
+          "title": "Ibeji-Figur mit Umhang frontal fotografiert"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-004b"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4d4",
+      "titleInfo": [
+        {
+          "title": "Ibeji-Figur mit Umhang frontal fotografiert"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-004c"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4d5",
+      "titleInfo": [
+        {
+          "title": "Ibeji-Figur frontal fotografiert"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-004d"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4d6",
+      "titleInfo": [
+        {
+          "title": "Ein Opon Ifá Brett"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-004e"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4d7",
+      "titleInfo": [
+        {
+          "title": "Drei Ibori"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-004f"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4d8",
+      "titleInfo": [
+        {
+          "title": "Doppelaxt des Gottes Shango"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0050"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4e0",
+      "titleInfo": [
+        {
+          "title": "Skulpturen von Georgina Beier in Zaria"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0058"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4e1",
+      "titleInfo": [
+        {
+          "title": "Nahaufnahme von Skulpturen von Georgina Beier in Zaria"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0059"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4ee",
+      "titleInfo": [
+        {
+          "title": "Eisenskulptur von Georgina Beier an der Universität von Ife"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0066"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4f1",
+      "titleInfo": [
+        {
+          "title": "Fischmobile von Georgina Beier entworfen"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0069"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4f3",
+      "titleInfo": [
+        {
+          "title": "Georgina Beiers Eisenskulptur aus dem Jahre 1976 an der Außenwand des Instituts of Papua New Guinea Studies in Port Moresby"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-006b"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b517",
+      "titleInfo": [
+        {
+          "title": "Innenaufnahme des Hauses in Osogbo, Erdgeschoss"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-008f"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b51a",
+      "titleInfo": [
+        {
+          "title": "Hintere Terrasse des Hauses in Osogbo"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0092"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b51b",
+      "titleInfo": [
+        {
+          "title": "Innenaufnahme des Hauses in Osogbo, 1. Stock"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0093"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b51c",
+      "titleInfo": [
+        {
+          "title": "Innenaufnahme des Hauses in Osogbo, 2. Stock"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0094"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b51e",
+      "titleInfo": [
+        {
+          "title": "Eingang des Hauses in Osogbo"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0096"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b51f",
+      "titleInfo": [
+        {
+          "title": "Innenansicht des Eingangs des Hauses der Beiers in Sydney"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0097"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b522",
+      "titleInfo": [
+        {
+          "title": "Detailaufnahme vom Ulli Beier-Schrein, bronzefarbenes Relief von Georgina Beier"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-009a"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b523",
+      "titleInfo": [
+        {
+          "title": "Detailaufnahme vom Ulli Beier-Schrein, Fotografie von Ulli Beier"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-009b"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b524",
+      "titleInfo": [
+        {
+          "title": "Detailaufnahme vom Ulli Beier-Schrein mit zwei Ikonen"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-009c"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b526",
+      "titleInfo": [
+        {
+          "title": "Aufnahme vom Ulli Beier-Schrein"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-009e"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b527",
+      "titleInfo": [
+        {
+          "title": "Detailaufnahme vom Ulli Beier-Schrein, ein Armreif von Georgina Beier gestaltet und hergestellt"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-009f"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b528",
+      "titleInfo": [
+        {
+          "title": "Aufnahme vom Ulli Beier-Schrein"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-00a0"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b529",
+      "titleInfo": [
+        {
+          "title": "Detailaufnahme vom Ulli Beier-Schrein, eine Dreiergruppe aus Holz"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-00a1"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b52a",
+      "titleInfo": [
+        {
+          "title": "Detailaufnahme vom Ulli Beier-Schrein mit einer kleinen Figur aus Holz"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-00a2"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b52b",
+      "titleInfo": [
+        {
+          "title": "Detailaufnahme vom Ulli Beier-Schrein, ein Tonknauf"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-00a3"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b52c",
+      "titleInfo": [
+        {
+          "title": "Detailaufnahme vom Ulli Beier-Schrein, ein Opon-Ifa Brett"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-00a4"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b52d",
+      "titleInfo": [
+        {
+          "title": "Detailaufnahme vom Ulli Beier-Schrein, ein goldener Fächer aus Kupferlegierung"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-00a5"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b52e",
+      "titleInfo": [
+        {
+          "title": "Detailaufnahme vom Ulli Beier-Schrein, zwei kupferne kleine Skulpturen"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-00a6"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b52f",
+      "titleInfo": [
+        {
+          "title": "Detailaufnahme vom Ulli Beier-Schrein, zwei Glocken aus Metall"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-00a7"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b532",
+      "titleInfo": [
+        {
+          "title": "Detailaufnahme vom Ulli Beier-Schrein, Doppelaxt des Gottes Shango"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-00aa"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b534",
+      "titleInfo": [
+        {
+          "title": "Esszimmer in Sydney"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-00ac"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b535",
+      "titleInfo": [
+        {
+          "title": "Wohnzimmer in Sydney"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-00ad"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b536",
+      "titleInfo": [
+        {
+          "title": "Eingangsbereich in Sydney"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-00ae"
+    }
+  ]
+}

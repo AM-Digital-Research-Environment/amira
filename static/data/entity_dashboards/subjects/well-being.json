@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "well-being",
+    "name": "Well-being",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2019,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2022,
+      "total": 1,
+      "byType": {
+        "Digital": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Digital",
+      "value": 1
+    },
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Economic development",
+      "value": 2
+    },
+    {
+      "name": "Health",
+      "value": 1
+    },
+    {
+      "name": "Worship",
+      "value": 1
+    },
+    {
+      "name": "Healing",
+      "value": 1
+    },
+    {
+      "name": "Religion",
+      "value": 1
+    },
+    {
+      "name": "Ritual",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Economic development",
+      "value": 2
+    },
+    {
+      "name": "Health",
+      "value": 1
+    },
+    {
+      "name": "Microeconomics",
+      "value": 1
+    },
+    {
+      "name": "General Welfare",
+      "value": 1
+    },
+    {
+      "name": "Health Development",
+      "value": 1
+    },
+    {
+      "name": "Water Project",
+      "value": 1
+    },
+    {
+      "name": "Worship",
+      "value": 1
+    },
+    {
+      "name": "Healing",
+      "value": 1
+    },
+    {
+      "name": "Religion",
+      "value": 1
+    },
+    {
+      "name": "Ritual",
+      "value": 1
+    },
+    {
+      "name": "African Indigenous Churches",
+      "value": 1
+    },
+    {
+      "name": "Indigenous Music",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    },
+    {
+      "name": "Ghana",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Frempong, Raymond Boadi",
+      "value": 1
+    },
+    {
+      "name": "Stadelmann, David",
+      "value": 1
+    },
+    {
+      "name": "Asare, Amos Darkwa",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 1
+    },
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "67211011e6fbc830d02e6afe",
+      "titleInfo": [
+        {
+          "title": "A micro-based evaluation of water projects"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-000d"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edaf",
+      "titleInfo": [
+        {
+          "title": "\"SINGING THE HEALING\": THE RITUALS OF THE TWELVE APOSTLES CHURCH IN GHANA"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03ca"
+    }
+  ]
+}

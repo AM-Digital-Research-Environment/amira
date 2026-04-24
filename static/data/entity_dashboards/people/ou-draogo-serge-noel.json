@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "ou-draogo-serge-noel",
+    "name": "Ouédraogo, Serge Noel",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 2023,
+      "count": 4
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2023,
+      "total": 4,
+      "byType": {
+        "Text": 4
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 4
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 4
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Emigration and immigration",
+      "value": 4
+    },
+    {
+      "name": "Border security",
+      "value": 4
+    },
+    {
+      "name": "Violence",
+      "value": 4
+    },
+    {
+      "name": "Terrorism",
+      "value": 4
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Emigration and immigration",
+      "value": 4
+    },
+    {
+      "name": "Border security",
+      "value": 4
+    },
+    {
+      "name": "Violence",
+      "value": 4
+    },
+    {
+      "name": "Terrorism",
+      "value": 4
+    },
+    {
+      "name": "Migration Control",
+      "value": 4
+    },
+    {
+      "name": "(Im)mobility",
+      "value": 4
+    },
+    {
+      "name": "Impact",
+      "value": 4
+    },
+    {
+      "name": "Border",
+      "value": 4
+    },
+    {
+      "name": "Migration",
+      "value": 4
+    },
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 4
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Diabri, Ahandi David",
+      "value": 1
+    },
+    {
+      "name": "Dicko, Adama",
+      "value": 1
+    },
+    {
+      "name": "Lankoande, Kpahili",
+      "value": 1
+    },
+    {
+      "name": "Ouali, Gbabili",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Burkina Faso",
+      "region": "Centre",
+      "city": "Ouagadougou",
+      "count": 4
+    }
+  ],
+  "items": [
+    {
+      "_id": "69bd79b733f04aa0e9567f24",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Diabri Ahandi David"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0024"
+    },
+    {
+      "_id": "69bd79b833f04aa0e9567f25",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Dicko Adama"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0025"
+    },
+    {
+      "_id": "69bd79b833f04aa0e9567f26",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Lankoande Kpahili"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0026"
+    },
+    {
+      "_id": "69bd79b833f04aa0e9567f27",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Ouali Gbabili"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0027"
+    }
+  ]
+}

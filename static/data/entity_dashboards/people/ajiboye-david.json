@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "ajiboye-david",
+    "name": "Ajiboye, David",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2008,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2008,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "Nigeria",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Olusola, Segun",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Nigeria",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "6705340c4b98fee5873b4416",
+      "titleInfo": [
+        {
+          "title": "Africa’s First Tv Producer Segun Olusola Talks"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-0009"
+    }
+  ]
+}

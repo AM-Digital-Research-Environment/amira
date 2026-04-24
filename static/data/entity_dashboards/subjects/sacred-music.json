@@ -1,0 +1,219 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "sacred-music",
+    "name": "Sacred music",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 1950,
+      "count": 2
+    },
+    {
+      "year": 1956,
+      "count": 1
+    },
+    {
+      "year": 1961,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1950,
+      "total": 2,
+      "byType": {
+        "Audio": 2
+      }
+    },
+    {
+      "year": 1956,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1961,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Audio",
+      "value": 2
+    },
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "Ga",
+      "value": 2
+    },
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 3
+    },
+    {
+      "name": "Ga (African people)",
+      "value": 2
+    },
+    {
+      "name": "Ga language",
+      "value": 2
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 2
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Vocal music",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Ethnomusicology",
+      "value": 3
+    },
+    {
+      "name": "Ga (African people)",
+      "value": 2
+    },
+    {
+      "name": "Ga language",
+      "value": 2
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 2
+    },
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Yoruba Art",
+      "value": 2
+    },
+    {
+      "name": "Nigeria",
+      "value": 2
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Vocal music",
+      "value": 1
+    },
+    {
+      "name": "Religious Aspects",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Accra Gaily Choir",
+      "value": 2
+    },
+    {
+      "name": "DECCA",
+      "value": 2
+    },
+    {
+      "name": "Ghana Broadcasting Corporation Gramophone Library",
+      "value": 2
+    },
+    {
+      "name": "Beier, Ulli",
+      "value": 1
+    },
+    {
+      "name": "Mackay, Mercedes",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Ghana",
+      "region": "",
+      "city": "",
+      "count": 2
+    },
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "66c34de8ba20a6d8a816ac32",
+      "titleInfo": [
+        {
+          "title": "Sida Aha Wotse"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-0034"
+    },
+    {
+      "_id": "66c34de8ba20a6d8a816ac33",
+      "titleInfo": [
+        {
+          "title": "O Israel Bii Fe"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-0035"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea28",
+      "titleInfo": [
+        {
+          "title": "Yoruba vocal music"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0043"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eaa8",
+      "titleInfo": [
+        {
+          "title": "YORUBA SACRED MUSIC FROM EKITI by ANTHONY KING, Ibadan University Press, Nigeria, 1961, pp. x, 46, xlix (text and music), 8 half-tone illustrations, 8½\" x 5½\""
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00c3"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "university-of-birmingham",
+    "name": "University of Birmingham",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1987,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1987,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "South Africa",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Shakespeare",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Brockbank, Philip",
+      "value": 1
+    },
+    {
+      "name": "Oxford University Press",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "United Kingdom",
+      "region": "England",
+      "city": "Oxford",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a8ab2c85fe8df8710d",
+      "titleInfo": [
+        {
+          "title": "Shakespeare's Stratford and South Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0016"
+    }
+  ]
+}

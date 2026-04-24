@@ -1,0 +1,219 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "mainz",
+    "name": "Mainz",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 1980,
+      "count": 3
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1980,
+      "total": 3,
+      "byType": {
+        "Image": 3
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 4
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    },
+    {
+      "name": "German",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Art",
+      "value": 4
+    },
+    {
+      "name": "Painting",
+      "value": 4
+    },
+    {
+      "name": "Africa",
+      "value": 4
+    },
+    {
+      "name": "Exhibitions",
+      "value": 4
+    },
+    {
+      "name": "Artists",
+      "value": 3
+    },
+    {
+      "name": "Interior decoration",
+      "value": 1
+    },
+    {
+      "name": "Newspapers",
+      "value": 1
+    },
+    {
+      "name": "Albums",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Art",
+      "value": 4
+    },
+    {
+      "name": "Painting",
+      "value": 4
+    },
+    {
+      "name": "Africa",
+      "value": 4
+    },
+    {
+      "name": "Exhibitions",
+      "value": 4
+    },
+    {
+      "name": "Art Exhibition",
+      "value": 4
+    },
+    {
+      "name": "Cultural Centre",
+      "value": 4
+    },
+    {
+      "name": "Performing Arts Center",
+      "value": 4
+    },
+    {
+      "name": "Artists",
+      "value": 3
+    },
+    {
+      "name": "Modern African Art",
+      "value": 3
+    },
+    {
+      "name": "Interior decoration",
+      "value": 1
+    },
+    {
+      "name": "Newspapers",
+      "value": 1
+    },
+    {
+      "name": "Albums",
+      "value": 1
+    },
+    {
+      "name": "Allgemeine Zeitung",
+      "value": 1
+    },
+    {
+      "name": "Newspaper Article",
+      "value": 1
+    },
+    {
+      "name": "Flyer",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Beier, Ulli",
+      "value": 4
+    },
+    {
+      "name": "Benz, Klaus",
+      "value": 2
+    },
+    {
+      "name": "Sédar Senghor, Leopold",
+      "value": 2
+    },
+    {
+      "name": "Greven, Katharina",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Rhineland-Palatinate",
+      "city": "Mainz",
+      "count": 4
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b4af",
+      "titleInfo": [
+        {
+          "title": "Ulli Beier und Léopold Sédar Senghor in der Ausstellung Neue Kunst in Afrika in Mainz"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0027"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4b0",
+      "titleInfo": [
+        {
+          "title": "Innenaufnahme eines Raumes der Ausstellung Neue Kunst in Afrika in Mainz"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0028"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4b1",
+      "titleInfo": [
+        {
+          "title": "Ulli Beier und Léopold Sédar Senghor in der Ausstellung Neue Kunst in Afrika in Mainz"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0029"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4b2",
+      "titleInfo": [
+        {
+          "title": "Zeitungsartikel über Léopold Sédar Senghors Besuch in Mainz von 1980.In einem Album, in dem Zeitungsartikel und Ausstellungsflyer aufgeklebt sind"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-002a"
+    }
+  ]
+}

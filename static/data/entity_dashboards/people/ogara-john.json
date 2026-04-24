@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "ogara-john",
+    "name": "Ogara, John",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2014,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2014,
+      "total": 2,
+      "byType": {
+        "Audio": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Audio",
+      "value": 2
+    }
+  ],
+  "languages": [],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 2
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Ogara Boys Band",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ed2b",
+      "titleInfo": [
+        {
+          "title": "Ochot Ma Lolwe"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "dre_id": "eaa-99-0346"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed2c",
+      "titleInfo": [
+        {
+          "title": "Ochot Ma Lolwe"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "dre_id": "eaa-99-0347"
+    }
+  ]
+}

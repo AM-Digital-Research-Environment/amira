@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "nation-building",
+    "name": "Nation Building",
+    "count": 1
+  },
+  "timeline": [],
+  "stackedTimeline": [],
+  "types": [
+    {
+      "name": "Moving image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Schools",
+      "value": 1
+    },
+    {
+      "name": "Education",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Schools",
+      "value": 1
+    },
+    {
+      "name": "Education",
+      "value": 1
+    },
+    {
+      "name": "Adult Education",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Gonga, E. Othello",
+      "value": 1
+    },
+    {
+      "name": "Government of Liberia",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Liberia",
+      "region": "Montserrado County",
+      "city": "Monrovia",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "6982337057a8e0353b0b1cbe",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0081"
+    }
+  ]
+}

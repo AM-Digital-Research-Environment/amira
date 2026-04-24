@@ -12,12 +12,17 @@
 		SEO
 	} from '$lib/components/ui';
 	import { BarChart, GanttChart } from '$lib/components/charts';
-	import { projects, researchSections } from '$lib/stores/data';
+	import { EntityDashboardSection } from '$lib/components/dashboards';
+	import { SearchableItemsCard } from '$lib/components/entity-browse';
+	import { projects, researchSections, allCollections, ensureCollections } from '$lib/stores/data';
 	import { page } from '$app/stores';
+	import { base } from '$app/paths';
+	import { onMount } from 'svelte';
 	import { extractResearchSections, buildProjectGantt } from '$lib/utils/dataTransform';
 	import { personUrl, projectUrl } from '$lib/utils/urls';
 	import { createUrlSelection, scrollToTop } from '$lib/utils/urlSelection';
-	import type { Project } from '$lib/types';
+	import { createEntityDetailState } from '$lib/utils/loaders';
+	import type { Project, CollectionItem } from '$lib/types';
 	import { formatDate, getProjectTitle, getSectionColor } from '$lib/utils/helpers';
 	import { EXTERNAL_SECTION } from '$lib/utils/external';
 	import {
@@ -131,6 +136,28 @@
 		selectedSection = '';
 		urlSelection.removeFromUrl();
 	}
+
+	// Per-section JSON (items + aggregates). Skips the 13 MB collections
+	// dump on direct-detail-URL hits.
+	const detail = createEntityDetailState('research-section', () => selectedSection);
+
+	onMount(() => {
+		if (!selectedSection) void ensureCollections(base);
+	});
+
+	$effect(() => {
+		if (!selectedSection) void ensureCollections(base);
+	});
+
+	// Research items scoped to the selected section. Prefer the precomputed
+	// JSON's slim items; fall back to deriving from $allCollections when the
+	// live dump is present (Back-to-list, overview charts, etc).
+	let sectionItems = $derived.by((): CollectionItem[] => {
+		if (!selectedSectionData) return [];
+		if (detail.items.length > 0) return detail.items;
+		const projectIds = new Set(selectedSectionData.projects.map((p) => p.id));
+		return $allCollections.filter((item) => projectIds.has(item.project?.id || ''));
+	});
 </script>
 
 <SEO
@@ -434,6 +461,22 @@
 				{/snippet}
 			</Card>
 		{/if}
+
+		<!-- Research Items — primary content list. Comes before the
+		     aggregate-chart dashboard so users see what's actually in
+		     the section first. -->
+		{#if sectionItems.length > 0}
+			<SearchableItemsCard items={sectionItems} />
+		{/if}
+
+		<!-- Precomputed section dashboard (timelines, heatmap, top subjects
+		     and contributors, geographic origins). -->
+		<EntityDashboardSection
+			entityType="research-section"
+			entityId={selectedSectionData.name}
+			items={sectionItems}
+			data={detail.data}
+		/>
 	{:else}
 		<!-- Overview mode -->
 		<div class="grid gap-4 sm:grid-cols-3">

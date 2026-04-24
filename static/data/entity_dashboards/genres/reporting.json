@@ -1,0 +1,1407 @@
+{
+  "meta": {
+    "type": "genre",
+    "id": "reporting",
+    "name": "reporting",
+    "count": 48
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "count": 21
+    },
+    {
+      "year": 2022,
+      "count": 18
+    },
+    {
+      "year": 2023,
+      "count": 6
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 3,
+      "byType": {
+        "Text": 3
+      }
+    },
+    {
+      "year": 2021,
+      "total": 21,
+      "byType": {
+        "Text": 20,
+        "Moving image": 1
+      }
+    },
+    {
+      "year": 2022,
+      "total": 18,
+      "byType": {
+        "Text": 18
+      }
+    },
+    {
+      "year": 2023,
+      "total": 6,
+      "byType": {
+        "Text": 6
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 47
+    },
+    {
+      "name": "Moving image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 26
+    },
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Children",
+      "value": 15
+    },
+    {
+      "name": "Mediation",
+      "value": 11
+    },
+    {
+      "name": "Juvenile detention",
+      "value": 11
+    },
+    {
+      "name": "Juvenile delinquency",
+      "value": 10
+    },
+    {
+      "name": "West Africa",
+      "value": 8
+    },
+    {
+      "name": "Sources",
+      "value": 8
+    },
+    {
+      "name": "Terrorism",
+      "value": 8
+    },
+    {
+      "name": "Dialogue",
+      "value": 8
+    },
+    {
+      "name": "Peace",
+      "value": 8
+    },
+    {
+      "name": "Aesthetics",
+      "value": 6
+    },
+    {
+      "name": "Punishment",
+      "value": 6
+    },
+    {
+      "name": "Arts",
+      "value": 5
+    },
+    {
+      "name": "Music",
+      "value": 5
+    },
+    {
+      "name": "Scholars",
+      "value": 5
+    },
+    {
+      "name": "Learning",
+      "value": 4
+    },
+    {
+      "name": "Animation (Cinematography)",
+      "value": 4
+    },
+    {
+      "name": "Child psychology",
+      "value": 4
+    },
+    {
+      "name": "Curriculum planning",
+      "value": 4
+    },
+    {
+      "name": "Reconciliation",
+      "value": 4
+    },
+    {
+      "name": "Administration of Justice",
+      "value": 4
+    },
+    {
+      "name": "History",
+      "value": 3
+    },
+    {
+      "name": "Migration",
+      "value": 3
+    },
+    {
+      "name": "Social media",
+      "value": 3
+    },
+    {
+      "name": "Decolonisation",
+      "value": 3
+    },
+    {
+      "name": "Justice",
+      "value": 3
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Studies",
+      "value": 18
+    },
+    {
+      "name": "Children",
+      "value": 15
+    },
+    {
+      "name": "Mediation",
+      "value": 11
+    },
+    {
+      "name": "Juvenile detention",
+      "value": 11
+    },
+    {
+      "name": "Deprivation of Liberty",
+      "value": 11
+    },
+    {
+      "name": "Preliminary Investigation",
+      "value": 11
+    },
+    {
+      "name": "Investigation Phase",
+      "value": 11
+    },
+    {
+      "name": "Enforcement of Decisions",
+      "value": 11
+    },
+    {
+      "name": "Juvenile delinquency",
+      "value": 10
+    },
+    {
+      "name": "Knowledge",
+      "value": 9
+    },
+    {
+      "name": "West Africa",
+      "value": 8
+    },
+    {
+      "name": "Sources",
+      "value": 8
+    },
+    {
+      "name": "Terrorism",
+      "value": 8
+    },
+    {
+      "name": "Dialogue",
+      "value": 8
+    },
+    {
+      "name": "Peace",
+      "value": 8
+    },
+    {
+      "name": "Aesthetics",
+      "value": 6
+    },
+    {
+      "name": "Immigration Studies",
+      "value": 6
+    },
+    {
+      "name": "Immigration",
+      "value": 6
+    },
+    {
+      "name": "Punishment",
+      "value": 6
+    },
+    {
+      "name": "Arts",
+      "value": 5
+    },
+    {
+      "name": "Music",
+      "value": 5
+    },
+    {
+      "name": "Scholars",
+      "value": 5
+    },
+    {
+      "name": "Popular Music Studies",
+      "value": 5
+    },
+    {
+      "name": "African Music",
+      "value": 5
+    },
+    {
+      "name": "Cultural Economy",
+      "value": 5
+    },
+    {
+      "name": "Lagos",
+      "value": 4
+    },
+    {
+      "name": "Learning",
+      "value": 4
+    },
+    {
+      "name": "Animation (Cinematography)",
+      "value": 4
+    },
+    {
+      "name": "Child psychology",
+      "value": 4
+    },
+    {
+      "name": "Curriculum planning",
+      "value": 4
+    },
+    {
+      "name": "Tortoise",
+      "value": 4
+    },
+    {
+      "name": "Reconciliation",
+      "value": 4
+    },
+    {
+      "name": "Administration of Justice",
+      "value": 4
+    },
+    {
+      "name": "History",
+      "value": 3
+    },
+    {
+      "name": "Migration",
+      "value": 3
+    },
+    {
+      "name": "Social media",
+      "value": 3
+    },
+    {
+      "name": "Decolonisation",
+      "value": 3
+    },
+    {
+      "name": "Right to Resist",
+      "value": 3
+    },
+    {
+      "name": "Justice",
+      "value": 3
+    },
+    {
+      "name": "Teenagers",
+      "value": 3
+    },
+    {
+      "name": "COVID-19 (Disease)",
+      "value": 2
+    },
+    {
+      "name": "Nigeria",
+      "value": 2
+    },
+    {
+      "name": "Manifestant",
+      "value": 2
+    },
+    {
+      "name": "Protester",
+      "value": 2
+    },
+    {
+      "name": "World health",
+      "value": 2
+    },
+    {
+      "name": "Finance",
+      "value": 2
+    },
+    {
+      "name": "Financing",
+      "value": 2
+    },
+    {
+      "name": "Global Health Policy",
+      "value": 2
+    },
+    {
+      "name": "Burkina Faso",
+      "value": 2
+    },
+    {
+      "name": "Youth",
+      "value": 2
+    },
+    {
+      "name": "Correctional institutions",
+      "value": 2
+    },
+    {
+      "name": "Social groups",
+      "value": 2
+    },
+    {
+      "name": "Employability",
+      "value": 2
+    },
+    {
+      "name": "Business",
+      "value": 2
+    },
+    {
+      "name": "Communities",
+      "value": 2
+    },
+    {
+      "name": "University",
+      "value": 2
+    },
+    {
+      "name": "Education",
+      "value": 2
+    },
+    {
+      "name": "Practical judgment",
+      "value": 2
+    },
+    {
+      "name": "Social conflict",
+      "value": 2
+    },
+    {
+      "name": "Vulnerability",
+      "value": 2
+    },
+    {
+      "name": "Protection",
+      "value": 2
+    },
+    {
+      "name": "Researcher",
+      "value": 1
+    },
+    {
+      "name": "Historian",
+      "value": 1
+    },
+    {
+      "name": "Anthropologist",
+      "value": 1
+    },
+    {
+      "name": "Linguist",
+      "value": 1
+    },
+    {
+      "name": "Integrative Studies",
+      "value": 1
+    },
+    {
+      "name": "Ethics Dumping",
+      "value": 1
+    },
+    {
+      "name": "Research Ethics",
+      "value": 1
+    },
+    {
+      "name": "Transport workers",
+      "value": 1
+    },
+    {
+      "name": "Marketer",
+      "value": 1
+    },
+    {
+      "name": "COVID-19",
+      "value": 1
+    },
+    {
+      "name": "Municipal engineering",
+      "value": 1
+    },
+    {
+      "name": "Construction",
+      "value": 1
+    },
+    {
+      "name": "Infrastructure (Economics)",
+      "value": 1
+    },
+    {
+      "name": "Marginalised Communities",
+      "value": 1
+    },
+    {
+      "name": "Infrastructure Development",
+      "value": 1
+    },
+    {
+      "name": "Municipal Road",
+      "value": 1
+    },
+    {
+      "name": "Kenya",
+      "value": 1
+    },
+    {
+      "name": "Fluid Ontology",
+      "value": 1
+    },
+    {
+      "name": "Basic Soul",
+      "value": 1
+    },
+    {
+      "name": "Morality",
+      "value": 1
+    },
+    {
+      "name": "Decentralisation",
+      "value": 1
+    },
+    {
+      "name": "Healthcare Privatisation",
+      "value": 1
+    },
+    {
+      "name": "Local Authority",
+      "value": 1
+    },
+    {
+      "name": "Kaya",
+      "value": 1
+    },
+    {
+      "name": "Bobo-Dioulasso",
+      "value": 1
+    },
+    {
+      "name": "World Health Organization",
+      "value": 1
+    },
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 1
+    },
+    {
+      "name": "Barrier Measure",
+      "value": 1
+    },
+    {
+      "name": "Mobility",
+      "value": 1
+    },
+    {
+      "name": "Global Health Governance",
+      "value": 1
+    },
+    {
+      "name": "Courts",
+      "value": 1
+    },
+    {
+      "name": "Prisons",
+      "value": 1
+    },
+    {
+      "name": "Minors",
+      "value": 1
+    },
+    {
+      "name": "Rumor",
+      "value": 1
+    },
+    {
+      "name": "Truth",
+      "value": 1
+    },
+    {
+      "name": "Uncertainty",
+      "value": 1
+    },
+    {
+      "name": "Anti-state Armed Group",
+      "value": 1
+    },
+    {
+      "name": "Health",
+      "value": 1
+    },
+    {
+      "name": "Refugees",
+      "value": 1
+    },
+    {
+      "name": "Internally displaced persons",
+      "value": 1
+    },
+    {
+      "name": "Emergency Health Management",
+      "value": 1
+    },
+    {
+      "name": "Actors",
+      "value": 1
+    },
+    {
+      "name": "Experience",
+      "value": 1
+    },
+    {
+      "name": "Cinema",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Eleshin, Abisoye",
+      "value": 13
+    },
+    {
+      "name": "Lawanson, Taibat",
+      "value": 9
+    },
+    {
+      "name": "Attoh, Franca",
+      "value": 7
+    },
+    {
+      "name": "Bationo, Bouma Fernand",
+      "value": 7
+    },
+    {
+      "name": "Ademola-Adeoye, Feyisayo",
+      "value": 6
+    },
+    {
+      "name": "Eesuola, Kayode",
+      "value": 6
+    },
+    {
+      "name": "Olalekan, Damilola",
+      "value": 6
+    },
+    {
+      "name": "Oyewumi, Masudi",
+      "value": 6
+    },
+    {
+      "name": "Oloko, Patrick",
+      "value": 5
+    },
+    {
+      "name": "Kibora, Ludovic",
+      "value": 5
+    },
+    {
+      "name": "Olokodana-James, Oluwatoyin",
+      "value": 5
+    },
+    {
+      "name": "Oni, Peter",
+      "value": 5
+    },
+    {
+      "name": "Muo, Adaobi",
+      "value": 5
+    },
+    {
+      "name": "Yusuff, Ayodele",
+      "value": 4
+    },
+    {
+      "name": "Akinwale, Gbenusola",
+      "value": 4
+    },
+    {
+      "name": "Eleshin, Adedoyinsola",
+      "value": 4
+    },
+    {
+      "name": "Adetomiwa, Anuoluwapo",
+      "value": 4
+    },
+    {
+      "name": "Adedeji, Mujeeb",
+      "value": 4
+    },
+    {
+      "name": "Akinpelu, Deji",
+      "value": 3
+    },
+    {
+      "name": "Enitan, Adewale",
+      "value": 3
+    }
+  ],
+  "locations": [
+    {
+      "country": "Burkina Faso",
+      "region": "Centre",
+      "city": "Ouagadougou",
+      "count": 21
+    },
+    {
+      "country": "Nigeria",
+      "region": "Lagos State",
+      "city": "Lagos",
+      "count": 20
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "",
+      "city": "",
+      "count": 2
+    },
+    {
+      "country": "Nigeria",
+      "region": "Kaduna State",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 1
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "Centre-Ouest Region",
+      "city": "Dano",
+      "count": 1
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "Sud-Ouest Region",
+      "city": "Gaoua",
+      "count": 1
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "Hauts-Bassins Region",
+      "city": "Bobo-Dioulasso",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "66c85ad6f75816be2871ce63",
+      "titleInfo": [
+        {
+          "title": "Translation of Charles, Ifeanyi, Uche and Joe Oloko"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_AfEnt2020",
+        "name": "Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment"
+      },
+      "dre_id": "aah-02-0004"
+    },
+    {
+      "_id": "66c85ad6f75816be2871ce64",
+      "titleInfo": [
+        {
+          "title": "Translation of Sammy Sparkle Interview"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_AfEnt2020",
+        "name": "Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment"
+      },
+      "dre_id": "aah-02-0005"
+    },
+    {
+      "_id": "66c85ad6f75816be2871ce65",
+      "titleInfo": [
+        {
+          "title": "Transcription of the Recorded Oral Interview with Mrs. Nebolisa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_AfEnt2020",
+        "name": "Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment"
+      },
+      "dre_id": "aah-02-0006"
+    },
+    {
+      "_id": "66c85ad6f75816be2871ce66",
+      "titleInfo": [
+        {
+          "title": "Selected Albums and Tracks of Morocco Maduka"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_AfEnt2020",
+        "name": "Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment"
+      },
+      "dre_id": "aah-02-0007"
+    },
+    {
+      "_id": "66c85ad6f75816be2871ce68",
+      "titleInfo": [
+        {
+          "title": "Translation of Skit"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_AfEnt2020",
+        "name": "Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment"
+      },
+      "dre_id": "aah-02-0009"
+    },
+    {
+      "_id": "66c60b2b56227158bf8279d3",
+      "titleInfo": [
+        {
+          "title": "African Studies without Ethics Dumping: An Integrative Study of Research Ethics Governance in Nigeria"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_EthDump2021",
+        "name": "African Studies without Ethics Dumping: An Integrative Study of Research Ethics Governance in Burkina Faso, Kenya, Nigeria, and South Africa"
+      },
+      "dre_id": "aab-02-0000"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d869f",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-0000"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86b5",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Concept Note"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-0000"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86ba",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Exhibition Essay"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-0005"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86c1",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Brochure"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-000c"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0d7",
+      "titleInfo": [
+        {
+          "title": "Ethnographic profiling of the migrant  in four case study sites"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-0000"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0d8",
+      "titleInfo": [
+        {
+          "title": "Expert Group Meeting on Youth and Informal Labour Migration in West Africa Urban Corridors"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-0001"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0d9",
+      "titleInfo": [
+        {
+          "title": "Systematic focus group discussion on Youth and Informal Labour Migration in West Africa Urban Corridors"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-0002"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0da",
+      "titleInfo": [
+        {
+          "title": "Cotonou city profiling on Youth and Informal Labour Migration in West Africa Urban Corridors"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-0003"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0e0",
+      "titleInfo": [
+        {
+          "title": "Validation Workshop Urban Corridors"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-0009"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0e1",
+      "titleInfo": [
+        {
+          "title": "Lagos-City Profile"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-000a"
+    },
+    {
+      "_id": "6718f59ac327cde4b57d86c5",
+      "titleInfo": [
+        {
+          "title": "Field Report on Municipal Road Construction in Kenya and Nigeria: The Politics of Infrastructure Development"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_MRC2021",
+        "name": "Municipal Road Construction in Kenya and Nigeria: Investigating the Politics of Infrastructure Development"
+      },
+      "dre_id": "aac-02-0000"
+    },
+    {
+      "_id": "66c71c3e22a01f1d1ea08eea",
+      "titleInfo": [
+        {
+          "title": "Digitising Folktales for Animation and Value Education - Analysis of Questionnare"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_YoruFolk2020",
+        "name": "Regenerating Non-Formal Learning in Africa: Digitizing Yoruba Folktales for Animation and Value Education"
+      },
+      "dre_id": "aag-02-0005"
+    },
+    {
+      "_id": "66c71c3e22a01f1d1ea08eeb",
+      "titleInfo": [
+        {
+          "title": "Digitising Folktales for Animation and Value Education - Analysis of Focus Group Discussions"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_YoruFolk2020",
+        "name": "Regenerating Non-Formal Learning in Africa: Digitizing Yoruba Folktales for Animation and Value Education"
+      },
+      "dre_id": "aag-02-0006"
+    },
+    {
+      "_id": "66c71c3e22a01f1d1ea08eec",
+      "titleInfo": [
+        {
+          "title": "Digitising Folktales for Animation and Value Education - Research Report Presentation"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_YoruFolk2020",
+        "name": "Regenerating Non-Formal Learning in Africa: Digitizing Yoruba Folktales for Animation and Value Education"
+      },
+      "dre_id": "aag-02-0007"
+    },
+    {
+      "_id": "66c71c3e22a01f1d1ea08eed",
+      "titleInfo": [
+        {
+          "title": "Digitising Folktales for Animation and Value Education - Workshop Presentation"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_YoruFolk2020",
+        "name": "Regenerating Non-Formal Learning in Africa: Digitizing Yoruba Folktales for Animation and Value Education"
+      },
+      "dre_id": "aag-02-0008"
+    },
+    {
+      "_id": "69bd6081f39beedfb72d61a6",
+      "titleInfo": [
+        {
+          "title": "Rapport Balai Citoyen"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_FluOnt2023",
+        "name": "Fluid Ontologies of Contestation. Social media, anti-government protest and transnational decolonization movements in Burkina Faso"
+      },
+      "dre_id": "ace-03-0000"
+    },
+    {
+      "_id": "69bd6081f39beedfb72d61a7",
+      "titleInfo": [
+        {
+          "title": "Rapport Basic Soul"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_FluOnt2023",
+        "name": "Fluid Ontologies of Contestation. Social media, anti-government protest and transnational decolonization movements in Burkina Faso"
+      },
+      "dre_id": "ace-03-0001"
+    },
+    {
+      "_id": "69bd6081f39beedfb72d61a8",
+      "titleInfo": [
+        {
+          "title": "Rapport Synthétique projet"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_FluOnt2023",
+        "name": "Fluid Ontologies of Contestation. Social media, anti-government protest and transnational decolonization movements in Burkina Faso"
+      },
+      "dre_id": "ace-03-0002"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8681",
+      "titleInfo": [
+        {
+          "title": "Rapports d'entretien"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0010"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8682",
+      "titleInfo": [
+        {
+          "title": "Rapport d'un panel d'échange"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0011"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f6a",
+      "titleInfo": [
+        {
+          "title": "Rapport"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0012"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f6b",
+      "titleInfo": [
+        {
+          "title": "Synthèse"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0013"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f6c",
+      "titleInfo": [
+        {
+          "title": "Rapport"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0014"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f6d",
+      "titleInfo": [
+        {
+          "title": "Rapport"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0015"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f6e",
+      "titleInfo": [
+        {
+          "title": "Rapport"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0016"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f6f",
+      "titleInfo": [
+        {
+          "title": "Rapport"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0017"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f70",
+      "titleInfo": [
+        {
+          "title": "Rapport"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0018"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f77",
+      "titleInfo": [
+        {
+          "title": "Communication"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-001f"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f78",
+      "titleInfo": [
+        {
+          "title": "Communication"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0020"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f79",
+      "titleInfo": [
+        {
+          "title": "Documentation"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0021"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f7a",
+      "titleInfo": [
+        {
+          "title": "Communication"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0022"
+    },
+    {
+      "_id": "6734bd19b9dbcc3cc179feb6",
+      "titleInfo": [
+        {
+          "title": "Le terrorisme au Burkina Faso: négocier ou pas?"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_SEDPaix2022",
+        "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
+      },
+      "dre_id": "acq-03-0002"
+    },
+    {
+      "_id": "6734bd19b9dbcc3cc179feb7",
+      "titleInfo": [
+        {
+          "title": "Le terrorisme au Burkina Faso: négocier ou pas?"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_SEDPaix2022",
+        "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
+      },
+      "dre_id": "acq-03-0003"
+    },
+    {
+      "_id": "6734bd19b9dbcc3cc179feb8",
+      "titleInfo": [
+        {
+          "title": "Programme 2022 du projet de recherche: 'Etude Socio Anthropologique sur les sources endogènes de dialogue et de paix contre le terrorisme au Burkina Faso"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_SEDPaix2022",
+        "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
+      },
+      "dre_id": "acq-03-0004"
+    },
+    {
+      "_id": "6734bd19b9dbcc3cc179feb9",
+      "titleInfo": [
+        {
+          "title": "Analyse des impacts du terrorisme sur le personnel humanitaire au Burkina Faso"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_SEDPaix2022",
+        "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
+      },
+      "dre_id": "acq-03-0005"
+    },
+    {
+      "_id": "6734bd19b9dbcc3cc179feba",
+      "titleInfo": [
+        {
+          "title": "Financement des groupes armés anti-étatiques: rumeurs, vérités et incertitudes"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_SEDPaix2022",
+        "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
+      },
+      "dre_id": "acq-03-0006"
+    },
+    {
+      "_id": "6734bd19b9dbcc3cc179febb",
+      "titleInfo": [
+        {
+          "title": "Contribution à l’analyse de la Gestion de l’Urgence sanitaire des personnes déplacées internes de Kaya"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_SEDPaix2022",
+        "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
+      },
+      "dre_id": "acq-03-0007"
+    },
+    {
+      "_id": "6734bd19b9dbcc3cc179febc",
+      "titleInfo": [
+        {
+          "title": "Séminaire pour la paix : 26, 27, 28 Septembre 2020 / Koudougou"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_SEDPaix2022",
+        "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
+      },
+      "dre_id": "acq-03-0008"
+    },
+    {
+      "_id": "6734bd19b9dbcc3cc179febd",
+      "titleInfo": [
+        {
+          "title": "Rapport du 2e séminaire méthodologique sur le projet de recherche"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_SEDPaix2022",
+        "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
+      },
+      "dre_id": "acq-03-0009"
+    },
+    {
+      "_id": "6734bd19b9dbcc3cc179febe",
+      "titleInfo": [
+        {
+          "title": "Rapport du 3e séminaire méthodologique sur le projet de recherche"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_SEDPaix2022",
+        "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
+      },
+      "dre_id": "acq-03-000a"
+    },
+    {
+      "_id": "6734bd19b9dbcc3cc179febf",
+      "titleInfo": [
+        {
+          "title": "Rapport de restitution sur le projet de recherche"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_SEDPaix2022",
+        "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
+      },
+      "dre_id": "acq-03-000b"
+    },
+    {
+      "_id": "69bd30d662fdff17d6fc73e8",
+      "titleInfo": [
+        {
+          "title": "Rapport d'atelier d'échanges avec les professionnelles du cinéma"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-003e"
+    }
+  ]
+}

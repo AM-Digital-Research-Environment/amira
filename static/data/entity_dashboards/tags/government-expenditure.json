@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "government-expenditure",
+    "name": "Government Expenditure",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2023,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2023,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "West Africa",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "West Africa",
+      "value": 2
+    },
+    {
+      "name": "Government Budget",
+      "value": 2
+    },
+    {
+      "name": "Senegal",
+      "value": 2
+    },
+    {
+      "name": "Currency",
+      "value": 1
+    },
+    {
+      "name": "Naira",
+      "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Koddenbrock, Kai",
+      "value": 1
+    },
+    {
+      "name": "Coburger, Carla",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Senegal",
+      "region": "",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "Nigeria",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "674dba652e70d1e383d18af3",
+      "titleInfo": [
+        {
+          "title": "Government Expenditure"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0010"
+    },
+    {
+      "_id": "674dba652e70d1e383d18afa",
+      "titleInfo": [
+        {
+          "title": "Curencies, Nigeria"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0017"
+    }
+  ]
+}

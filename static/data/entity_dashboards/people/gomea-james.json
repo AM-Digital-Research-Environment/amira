@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "gomea-james",
+    "name": "Gomea, James",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 1985,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1985,
+      "total": 1,
+      "byType": {
+        "Moving image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Moving image",
+      "value": 4
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 4
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Interviews",
+      "value": 1
+    },
+    {
+      "name": "Schools",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Politics",
+      "value": 2
+    },
+    {
+      "name": "International News",
+      "value": 2
+    },
+    {
+      "name": "Local News",
+      "value": 1
+    },
+    {
+      "name": "National News",
+      "value": 1
+    },
+    {
+      "name": "Interviews",
+      "value": 1
+    },
+    {
+      "name": "Schools",
+      "value": 1
+    },
+    {
+      "name": "News",
+      "value": 1
+    },
+    {
+      "name": "Public Affairs",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Government of Liberia",
+      "value": 4
+    },
+    {
+      "name": "Liberia Broadcasting System (LBS)",
+      "value": 3
+    },
+    {
+      "name": "Andrews, Amos",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Liberia",
+      "region": "Montserrado County",
+      "city": "Monrovia",
+      "count": 4
+    }
+  ],
+  "items": [
+    {
+      "_id": "6982337057a8e0353b0b1c50",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0013"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cb1",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0074"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cc7",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-008a"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d98",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-015b"
+    }
+  ]
+}

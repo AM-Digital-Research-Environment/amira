@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "smith-hugh-l",
+    "name": "Smith, Hugh L.",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1960,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1960,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "History",
+      "value": 1
+    },
+    {
+      "name": "Jazz",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Songs",
+      "value": 1
+    },
+    {
+      "name": "Creole dialects",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "History",
+      "value": 1
+    },
+    {
+      "name": "Jazz",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Songs",
+      "value": 1
+    },
+    {
+      "name": "Creole dialects",
+      "value": 1
+    },
+    {
+      "name": "Slave Music",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ea90",
+      "titleInfo": [
+        {
+          "title": "George W. Cable and two sources of jazz"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00ab"
+    }
+  ]
+}

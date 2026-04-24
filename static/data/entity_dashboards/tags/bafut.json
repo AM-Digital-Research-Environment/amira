@@ -1,0 +1,241 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "bafut",
+    "name": "Bafut",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 1926,
+      "count": 1
+    },
+    {
+      "year": 1935,
+      "count": 1
+    },
+    {
+      "year": 1950,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1926,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1935,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1950,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Archives",
+      "value": 3
+    },
+    {
+      "name": "Colonisation",
+      "value": 3
+    },
+    {
+      "name": "Letters",
+      "value": 3
+    },
+    {
+      "name": "Social norms",
+      "value": 3
+    },
+    {
+      "name": "Discourse analysis",
+      "value": 3
+    },
+    {
+      "name": "Petitions",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Archives",
+      "value": 3
+    },
+    {
+      "name": "Colonisation",
+      "value": 3
+    },
+    {
+      "name": "Letters",
+      "value": 3
+    },
+    {
+      "name": "Social norms",
+      "value": 3
+    },
+    {
+      "name": "Discourse analysis",
+      "value": 3
+    },
+    {
+      "name": "British Colonisation",
+      "value": 3
+    },
+    {
+      "name": "Colonial Records",
+      "value": 3
+    },
+    {
+      "name": "Southern Cameroons",
+      "value": 3
+    },
+    {
+      "name": "Postcolonial Heritage",
+      "value": 3
+    },
+    {
+      "name": "Great Britain",
+      "value": 3
+    },
+    {
+      "name": "Postcolonial Studies",
+      "value": 3
+    },
+    {
+      "name": "Colonial Intelligence Report",
+      "value": 2
+    },
+    {
+      "name": "Petitions",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Otung, Glory Essien",
+      "value": 3
+    },
+    {
+      "name": "Anchimbe, Eric",
+      "value": 3
+    },
+    {
+      "name": "Chiangong, Pepetual Mforbe",
+      "value": 3
+    },
+    {
+      "name": "Marjie, Sarah",
+      "value": 3
+    },
+    {
+      "name": "Kengo, Emmanuel",
+      "value": 3
+    },
+    {
+      "name": "Atindogbe, Gratien",
+      "value": 3
+    },
+    {
+      "name": "Ubanako, Valentine",
+      "value": 3
+    },
+    {
+      "name": "Mforteh, Stephen",
+      "value": 3
+    },
+    {
+      "name": "Eyoh, Julius",
+      "value": 3
+    },
+    {
+      "name": "Oyali, Uchenna",
+      "value": 3
+    },
+    {
+      "name": "Mbah, Boniface",
+      "value": 3
+    }
+  ],
+  "locations": [
+    {
+      "country": "Cameroon",
+      "region": "Southwest",
+      "city": "Buea",
+      "count": 2
+    },
+    {
+      "country": "Nigeria",
+      "region": "Enugu State",
+      "city": "Enugu",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "6877ced7b542f8b9f8940b23",
+      "titleInfo": [
+        {
+          "title": "Assessment Report on Bafut Area Bamenda Division Cameroons Province"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_CLnCK2019",
+        "name": "Colonial Letters and the Contact of Knowledges"
+      },
+      "dre_id": "abj-99-001e"
+    },
+    {
+      "_id": "6877ced7b542f8b9f8940b4a",
+      "titleInfo": [
+        {
+          "title": "Intelligence Report on Bafut Area, Bamenda Division, Cameroons Province"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_CLnCK2019",
+        "name": "Colonial Letters and the Contact of Knowledges"
+      },
+      "dre_id": "abj-99-0045"
+    },
+    {
+      "_id": "6877ced7b542f8b9f8940b63",
+      "titleInfo": [
+        {
+          "title": "Petition from the people of Banji, Bafut Area in Regard to Bafut Criminal Case No. 85"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_CLnCK2019",
+        "name": "Colonial Letters and the Contact of Knowledges"
+      },
+      "dre_id": "abj-99-005e"
+    }
+  ]
+}

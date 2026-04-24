@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "kruger-jaco",
+    "name": "Kruger, Jaco",
+    "count": 5
+  },
+  "timeline": [
+    {
+      "year": 1996,
+      "count": 2
+    },
+    {
+      "year": 1999,
+      "count": 1
+    },
+    {
+      "year": 2007,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1996,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1999,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2007,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 5
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 5
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Gender",
+      "value": 1
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Ganda (African people)",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 5
+    },
+    {
+      "name": "Gender",
+      "value": 1
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Ganda (African people)",
+      "value": 1
+    },
+    {
+      "name": "Uganda",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 5
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ec62",
+      "titleInfo": [
+        {
+          "title": "MUSIC IN HUMAN LIFE: ANTHROPOLOGICAL PERSPECTIVES ON MUSIC, by John E. Kaemmer, University of Texas Press, 1993, ISBN 0 292 74314 9, 245pp, b/w plates, musical examples, diagrams, glossary, index."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-027d"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec65",
+      "titleInfo": [
+        {
+          "title": "SOSIO-ETNIESE DANSE VAN DIE VENDA VROU, by Cora Bumett-van Tonder, HAUM, Pretoria, 1987, 155pp, 62 line drawings, 23 colour plates, music and dance transcriptions, Tshivenda glossary, index, Afrikaans text."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0280"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec7e",
+      "titleInfo": [
+        {
+          "title": "Singing Psalms with owls: a Venda twentieth century musical history"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0299"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec92",
+      "titleInfo": [
+        {
+          "title": "Baakisimba: Gender in the Music and Dance of the Baganda People of Uganda. Sylvia A. Nannyonga-Tamusuza, 2005. 294 pp., 13 figures, 19 plates. New York: Routledge (Current Research in Ethnomusicology Series). Jennifer C. post, series editor."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02ad"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec99",
+      "titleInfo": [
+        {
+          "title": "Singing Psalms with owls: A Venda 20th century musical history part two: tshikona, beer songs and personal songs"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02b4"
+    }
+  ]
+}

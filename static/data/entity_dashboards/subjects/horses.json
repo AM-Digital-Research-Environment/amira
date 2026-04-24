@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "horses",
+    "name": "Horses",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1958,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1958,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Horsemanship",
+      "value": 1
+    },
+    {
+      "name": "Animal sacrifice",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Horsemanship",
+      "value": 1
+    },
+    {
+      "name": "Animal sacrifice",
+      "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    },
+    {
+      "name": "Yoruba Art",
+      "value": 1
+    },
+    {
+      "name": "Royalty",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Beier, Ulli",
+      "value": 1
+    },
+    {
+      "name": "Laoye, Timi",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Nigeria",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b4a4",
+      "titleInfo": [
+        {
+          "title": "Timi Laoye auf einem Pferd"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-001c"
+    }
+  ]
+}

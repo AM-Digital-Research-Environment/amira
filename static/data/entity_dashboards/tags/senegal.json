@@ -1,0 +1,614 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "senegal",
+    "name": "Senegal",
+    "count": 13
+  },
+  "timeline": [
+    {
+      "year": 2007,
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "count": 6
+    },
+    {
+      "year": 2023,
+      "count": 4
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2007,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2020,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 2022,
+      "total": 6,
+      "byType": {
+        "Text": 6
+      }
+    },
+    {
+      "year": 2023,
+      "total": 4,
+      "byType": {
+        "Text": 4
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 13
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 12
+    },
+    {
+      "name": "French",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "West Africa",
+      "value": 8
+    },
+    {
+      "name": "Livestock",
+      "value": 3
+    },
+    {
+      "name": "Prices",
+      "value": 3
+    },
+    {
+      "name": "Travel",
+      "value": 3
+    },
+    {
+      "name": "Education",
+      "value": 3
+    },
+    {
+      "name": "Mass media",
+      "value": 2
+    },
+    {
+      "name": "Medical care",
+      "value": 2
+    },
+    {
+      "name": "Religion",
+      "value": 2
+    },
+    {
+      "name": "Arid regions",
+      "value": 1
+    },
+    {
+      "name": "Maasai (African people)",
+      "value": 1
+    },
+    {
+      "name": "Vaccination",
+      "value": 1
+    },
+    {
+      "name": "Tourism",
+      "value": 1
+    },
+    {
+      "name": "Debt",
+      "value": 1
+    },
+    {
+      "name": "Public finance",
+      "value": 1
+    },
+    {
+      "name": "Exports",
+      "value": 1
+    },
+    {
+      "name": "Imports",
+      "value": 1
+    },
+    {
+      "name": "Book reviews",
+      "value": 1
+    },
+    {
+      "name": "Hip-hop",
+      "value": 1
+    },
+    {
+      "name": "Social change",
+      "value": 1
+    },
+    {
+      "name": "Collective memory",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "West Africa",
+      "value": 8
+    },
+    {
+      "name": "Livestock",
+      "value": 3
+    },
+    {
+      "name": "Prices",
+      "value": 3
+    },
+    {
+      "name": "Travel",
+      "value": 3
+    },
+    {
+      "name": "Sociality",
+      "value": 3
+    },
+    {
+      "name": "Mobility",
+      "value": 3
+    },
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 3
+    },
+    {
+      "name": "Education",
+      "value": 3
+    },
+    {
+      "name": "Lockdown",
+      "value": 2
+    },
+    {
+      "name": "Mass media",
+      "value": 2
+    },
+    {
+      "name": "Medical care",
+      "value": 2
+    },
+    {
+      "name": "Religion",
+      "value": 2
+    },
+    {
+      "name": "Household Income",
+      "value": 2
+    },
+    {
+      "name": "Water Rights",
+      "value": 2
+    },
+    {
+      "name": "Access to Water",
+      "value": 2
+    },
+    {
+      "name": "Trade Practices",
+      "value": 2
+    },
+    {
+      "name": "Trade Regulations",
+      "value": 2
+    },
+    {
+      "name": "Sovereign Bond",
+      "value": 2
+    },
+    {
+      "name": "Government Expenditure",
+      "value": 2
+    },
+    {
+      "name": "Government Budget",
+      "value": 2
+    },
+    {
+      "name": "Government Revenue",
+      "value": 2
+    },
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Arid regions",
+      "value": 1
+    },
+    {
+      "name": "Maasai (African people)",
+      "value": 1
+    },
+    {
+      "name": "Vaccination",
+      "value": 1
+    },
+    {
+      "name": "Tourism",
+      "value": 1
+    },
+    {
+      "name": "Pastoralist",
+      "value": 1
+    },
+    {
+      "name": "Conservancy",
+      "value": 1
+    },
+    {
+      "name": "Ghana",
+      "value": 1
+    },
+    {
+      "name": "Kenya",
+      "value": 1
+    },
+    {
+      "name": "Tanzania",
+      "value": 1
+    },
+    {
+      "name": "Debt",
+      "value": 1
+    },
+    {
+      "name": "Public finance",
+      "value": 1
+    },
+    {
+      "name": "Exports",
+      "value": 1
+    },
+    {
+      "name": "Export Data",
+      "value": 1
+    },
+    {
+      "name": "Imports",
+      "value": 1
+    },
+    {
+      "name": "Import Data",
+      "value": 1
+    },
+    {
+      "name": "Tax Revenue",
+      "value": 1
+    },
+    {
+      "name": "Total Revenue",
+      "value": 1
+    },
+    {
+      "name": "Currency",
+      "value": 1
+    },
+    {
+      "name": "Naira",
+      "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    },
+    {
+      "name": "Book reviews",
+      "value": 1
+    },
+    {
+      "name": "Hip-hop",
+      "value": 1
+    },
+    {
+      "name": "Social change",
+      "value": 1
+    },
+    {
+      "name": "Collective memory",
+      "value": 1
+    },
+    {
+      "name": "Cultural Memory",
+      "value": 1
+    },
+    {
+      "name": "Urban Culture",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Koddenbrock, Kai",
+      "value": 7
+    },
+    {
+      "name": "Beye, Amadou Kane",
+      "value": 2
+    },
+    {
+      "name": "Neboo, Stanley ole",
+      "value": 1
+    },
+    {
+      "name": "Kronenburg García, Angela",
+      "value": 1
+    },
+    {
+      "name": "Hashimshony Yaffe, Nurit",
+      "value": 1
+    },
+    {
+      "name": "Goldman, Mara",
+      "value": 1
+    },
+    {
+      "name": "Samimi, Cyrus",
+      "value": 1
+    },
+    {
+      "name": "Gargallo, Eduard",
+      "value": 1
+    },
+    {
+      "name": "Roque de Pinho, Joana",
+      "value": 1
+    },
+    {
+      "name": "Nurudong, Primus",
+      "value": 1
+    },
+    {
+      "name": "Toima, Mamus Litan",
+      "value": 1
+    },
+    {
+      "name": "Coburger, Carla",
+      "value": 1
+    },
+    {
+      "name": "Tracey, Geoffrey",
+      "value": 1
+    },
+    {
+      "name": "Harris, Corey",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Senegal",
+      "region": "",
+      "city": "",
+      "count": 8
+    },
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    },
+    {
+      "country": "Kenya",
+      "region": "Narok",
+      "city": "Maasai Mara National Reserve",
+      "count": 1
+    },
+    {
+      "country": "Senegal",
+      "region": "Thiès Region",
+      "city": "Ndengler (Dingler)",
+      "count": 1
+    },
+    {
+      "country": "Nigeria",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "66cefaf495a000d4c7bf3722",
+      "titleInfo": [
+        {
+          "title": "Stanley ole Neboo's Zoom meeting transcript on Kenya, January 31, 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-001d"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3725",
+      "titleInfo": [
+        {
+          "title": "Réponses aux questions de recherche pour les chercheurs collaboratifs au Senegal"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0020"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3729",
+      "titleInfo": [
+        {
+          "title": "Réponses aux questions de recherche pour les chercheurs collaboratifs\nPartie II : Mesure de confinement"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0024"
+    },
+    {
+      "_id": "674dba652e70d1e383d18aed",
+      "titleInfo": [
+        {
+          "title": "Historical statistics on Senegal public finance"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-000a"
+    },
+    {
+      "_id": "674dba652e70d1e383d18aee",
+      "titleInfo": [
+        {
+          "title": "Historical Export Data, Senegal"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-000b"
+    },
+    {
+      "_id": "674dba652e70d1e383d18aef",
+      "titleInfo": [
+        {
+          "title": "Historical Import Data, Senegal"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-000c"
+    },
+    {
+      "_id": "674dba652e70d1e383d18af0",
+      "titleInfo": [
+        {
+          "title": "Sovereign Bond Contracts, Senegal"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-000d"
+    },
+    {
+      "_id": "674dba652e70d1e383d18af3",
+      "titleInfo": [
+        {
+          "title": "Government Expenditure"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0010"
+    },
+    {
+      "_id": "674dba652e70d1e383d18af4",
+      "titleInfo": [
+        {
+          "title": "Government Revenue"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0011"
+    },
+    {
+      "_id": "674dba652e70d1e383d18af5",
+      "titleInfo": [
+        {
+          "title": "Government Revenue"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0012"
+    },
+    {
+      "_id": "674dba652e70d1e383d18afa",
+      "titleInfo": [
+        {
+          "title": "Curencies, Nigeria"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0017"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec94",
+      "titleInfo": [
+        {
+          "title": "Masters of the Sabar: Wolof Griot Percussionists of Senegal. 2007. Patricia Tang. Philedelphia: Temple University press. xiv, 209 pp., 36 illustrations and transcriptions, glossary, bibliography, discography, index, CD (African Soundscapes Series). Gregory Barz, (series editor)."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02af"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edc0",
+      "titleInfo": [
+        {
+          "title": "In Hip hop Time: Music, Memory and Social Change in Urban Senegal"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03db"
+    }
+  ]
+}

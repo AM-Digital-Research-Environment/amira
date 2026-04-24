@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "imams-shiites",
+    "name": "Imams (Shiites)",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2021,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2021,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Administration of Justice",
+      "value": 2
+    },
+    {
+      "name": "Teenagers",
+      "value": 2
+    },
+    {
+      "name": "Youth",
+      "value": 2
+    },
+    {
+      "name": "Punishment",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Administration of Justice",
+      "value": 2
+    },
+    {
+      "name": "Teenagers",
+      "value": 2
+    },
+    {
+      "name": "Youth",
+      "value": 2
+    },
+    {
+      "name": "Punishment",
+      "value": 2
+    },
+    {
+      "name": "Manga",
+      "value": 2
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tapsoba, Tatiana Nadine",
+      "value": 2
+    },
+    {
+      "name": "Sawadogo, Hamidou",
+      "value": 1
+    },
+    {
+      "name": "Pitroipa, Clément",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Burkina Faso",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "69c1568d666e5b9f92cf9f5d",
+      "titleInfo": [
+        {
+          "title": "Synthèse d’entretien avec l'iman de Manga"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0005"
+    },
+    {
+      "_id": "69c1568d666e5b9f92cf9f5e",
+      "titleInfo": [
+        {
+          "title": "Synthèse d’entretien avec le Samandin Naaba de Ouagadougou"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0006"
+    }
+  ]
+}

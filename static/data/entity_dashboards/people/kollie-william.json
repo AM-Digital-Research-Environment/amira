@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "kollie-william",
+    "name": "Kollie, William",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1987,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1987,
+      "total": 1,
+      "byType": {
+        "Moving image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Moving image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "Politics",
+      "value": 1
+    },
+    {
+      "name": "Local News",
+      "value": 1
+    },
+    {
+      "name": "International News",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Liberia Broadcasting System (LBS)",
+      "value": 2
+    },
+    {
+      "name": "Wessehutes, Jimmy",
+      "value": 2
+    },
+    {
+      "name": "Stevquoah, Sam",
+      "value": 1
+    },
+    {
+      "name": "Kollie, Aaron",
+      "value": 1
+    },
+    {
+      "name": "Government of Liberia",
+      "value": 1
+    },
+    {
+      "name": "Johnson, Andrew",
+      "value": 1
+    },
+    {
+      "name": "Kekomai, Edward",
+      "value": 1
+    },
+    {
+      "name": "Gilbert, Thomas",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Liberia",
+      "region": "Montserrado County",
+      "city": "Monrovia",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "6982337057a8e0353b0b1c75",
+      "titleInfo": [
+        {
+          "title": "ELTV Week-in-Review"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0038"
+    }
+  ]
+}

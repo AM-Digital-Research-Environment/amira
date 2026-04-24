@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "debt",
+    "name": "Debt",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2022,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2023,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "West Africa",
+      "value": 2
+    },
+    {
+      "name": "Public finance",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "West Africa",
+      "value": 2
+    },
+    {
+      "name": "Ghana",
+      "value": 1
+    },
+    {
+      "name": "Public Debt",
+      "value": 1
+    },
+    {
+      "name": "Public finance",
+      "value": 1
+    },
+    {
+      "name": "Senegal",
+      "value": 1
+    },
+    {
+      "name": "Sovereign Bond",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Akolgo, Isaac Abotebuno",
+      "value": 1
+    },
+    {
+      "name": "Koddenbrock, Kai",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Ghana",
+      "region": "",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "Senegal",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "674dba652e70d1e383d18ae8",
+      "titleInfo": [
+        {
+          "title": "Ghanaian debt statistics"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0005"
+    },
+    {
+      "_id": "674dba652e70d1e383d18aed",
+      "titleInfo": [
+        {
+          "title": "Historical statistics on Senegal public finance"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-000a"
+    }
+  ]
+}

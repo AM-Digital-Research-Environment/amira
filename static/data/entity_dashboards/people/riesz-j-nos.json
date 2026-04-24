@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "riesz-j-nos",
+    "name": "Riesz, János",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2002,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2002,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Transcription",
+      "value": 1
+    },
+    {
+      "name": "Interviews",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Transcription",
+      "value": 1
+    },
+    {
+      "name": "Interviews",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Beier, Ulli",
+      "value": 1
+    },
+    {
+      "name": "Greven, Katharina",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b48d",
+      "titleInfo": [
+        {
+          "title": "Ein Gespräch über das Iwalewahaus: János Riesz im Interview mit Ulli Beier (2002)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-99-0005"
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "sudan",
+    "name": "Sudan",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 1961,
+      "count": 1
+    },
+    {
+      "year": 1970,
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1961,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1970,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2021,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Herders",
+      "value": 1
+    },
+    {
+      "name": "Vaccination",
+      "value": 1
+    },
+    {
+      "name": "Travel",
+      "value": 1
+    },
+    {
+      "name": "Livestock",
+      "value": 1
+    },
+    {
+      "name": "Poetry",
+      "value": 1
+    },
+    {
+      "name": "Xylophone",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Herders",
+      "value": 1
+    },
+    {
+      "name": "Vaccination",
+      "value": 1
+    },
+    {
+      "name": "Travel",
+      "value": 1
+    },
+    {
+      "name": "Livestock",
+      "value": 1
+    },
+    {
+      "name": "Lockdown",
+      "value": 1
+    },
+    {
+      "name": "Pastoralist",
+      "value": 1
+    },
+    {
+      "name": "Sudanese Resistance Committees",
+      "value": 1
+    },
+    {
+      "name": "Mobility",
+      "value": 1
+    },
+    {
+      "name": "Protest",
+      "value": 1
+    },
+    {
+      "name": "Politics",
+      "value": 1
+    },
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 1
+    },
+    {
+      "name": "Poetry",
+      "value": 1
+    },
+    {
+      "name": "Xylophone",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Xylophone (Instrument)",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Abd ElWahid Abd ElRahim, Ahmed",
+      "value": 1
+    },
+    {
+      "name": "Kronenburg García, Angela",
+      "value": 1
+    },
+    {
+      "name": "Pase, Andrea",
+      "value": 1
+    },
+    {
+      "name": "Behrends, Andrea",
+      "value": 1
+    },
+    {
+      "name": "Gargallo, Eduard",
+      "value": 1
+    },
+    {
+      "name": "Braga, Carla",
+      "value": 1
+    },
+    {
+      "name": "Agyei-Mensah, Juliana",
+      "value": 1
+    },
+    {
+      "name": "Bautdinova, Iuliia",
+      "value": 1
+    },
+    {
+      "name": "Moschetti, Marta",
+      "value": 1
+    },
+    {
+      "name": "Jones, A. M.",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    },
+    {
+      "country": "Sudan",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "66cefaf495a000d4c7bf3723",
+      "titleInfo": [
+        {
+          "title": "Ahmed Abd ElWahid Abd ElRahim's transcript (report) on Sudan, March 22, 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-001e"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eaaa",
+      "titleInfo": [
+        {
+          "title": "POESIA SUDANESE. Museum Combonianum, No. 12, by LIVIO TESCAROLI. Editrice Nigrizia, Bologna, 1961. pp. 117."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00c5"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb6c",
+      "titleInfo": [
+        {
+          "title": "XYLOPHONES IN THE SUDAN"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0187"
+    }
+  ]
+}

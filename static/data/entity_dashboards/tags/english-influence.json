@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "english-influence",
+    "name": "English Influence",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2024,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2024,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Manuscripts",
+      "value": 1
+    },
+    {
+      "name": "Early modern, 1500-1700",
+      "value": 1
+    },
+    {
+      "name": "Literature",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Books",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Manuscripts",
+      "value": 1
+    },
+    {
+      "name": "Early modern, 1500-1700",
+      "value": 1
+    },
+    {
+      "name": "Literature",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Books",
+      "value": 1
+    },
+    {
+      "name": "Portuguese Court",
+      "value": 1
+    },
+    {
+      "name": "Hakluyt",
+      "value": 1
+    },
+    {
+      "name": "Guinea",
+      "value": 1
+    },
+    {
+      "name": "England",
+      "value": 1
+    },
+    {
+      "name": "Knowledge",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Aboluwade, Ifeoluwa",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "United Kingdom",
+      "region": "England",
+      "city": "London",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a8ab2c85fe8df871cb",
+      "titleInfo": [
+        {
+          "title": "British Library_Voyages to Guinea"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00d4"
+    }
+  ]
+}

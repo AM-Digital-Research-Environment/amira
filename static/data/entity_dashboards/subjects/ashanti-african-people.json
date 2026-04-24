@@ -1,0 +1,354 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "ashanti-african-people",
+    "name": "Ashanti (African people)",
+    "count": 15
+  },
+  "timeline": [
+    {
+      "year": 1962,
+      "count": 1
+    },
+    {
+      "year": 2015,
+      "count": 14
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1962,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2015,
+      "total": 14,
+      "byType": {
+        "Text": 14
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 15
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Tales",
+      "value": 14
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Folklore",
+      "value": 1
+    },
+    {
+      "name": "Education",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Tales",
+      "value": 14
+    },
+    {
+      "name": "African Folktales",
+      "value": 14
+    },
+    {
+      "name": "Ashanti Folktales",
+      "value": 14
+    },
+    {
+      "name": "Folktales",
+      "value": 14
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Folklore",
+      "value": 1
+    },
+    {
+      "name": "Education",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    },
+    {
+      "name": "Ghana",
+      "value": 1
+    },
+    {
+      "name": "Social Life",
+      "value": 1
+    },
+    {
+      "name": "Social Customs",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Radin, Paul",
+      "value": 14
+    },
+    {
+      "name": "Princeton University Press",
+      "value": 14
+    },
+    {
+      "name": "Smith, Edna M.",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "United States of America",
+      "region": "New Jersey",
+      "city": "Princeton",
+      "count": 14
+    },
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a8ab2c85fe8df87129",
+      "titleInfo": [
+        {
+          "title": "How Spider Obtained the Sky-God's Stories"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0032"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8712e",
+      "titleInfo": [
+        {
+          "title": "How Diseases Came to the Ashanti"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0037"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87136",
+      "titleInfo": [
+        {
+          "title": "How Spider Read the Sky-God's Thoughts"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-003f"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87138",
+      "titleInfo": [
+        {
+          "title": "How Abosom, the Lesser Gods, Came into the World"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0041"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87148",
+      "titleInfo": [
+        {
+          "title": "How It Came About That We Shall Always See Okra the Cat Lying on a Velvet Cushion, While Okraman the Dog Sleeps Among the Ashes of the Kitchen Fire"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0051"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87149",
+      "titleInfo": [
+        {
+          "title": "How It Came About That the Hinder Part of Kwaku Ananse the Spider Became Big, at the Expense of His Head, Which Is Small"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0052"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87150",
+      "titleInfo": [
+        {
+          "title": "How Kwaku Ananse Got Aso in Marriage"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0059"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8715e",
+      "titleInfo": [
+        {
+          "title": "How Contradiction Came to the Ashanti"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0067"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8715f",
+      "titleInfo": [
+        {
+          "title": "How It Came About That One Person Does Not Reveal the Origin from Which Another Person Comes"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0068"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87160",
+      "titleInfo": [
+        {
+          "title": "Why a Girl Should Marry Him to Whom She is Given in Marriage"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0069"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87161",
+      "titleInfo": [
+        {
+          "title": "How It Came About That Children Were First Whipped"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-006a"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87162",
+      "titleInfo": [
+        {
+          "title": "Why It Is That the Elders Say We Should Not Repeat Sleeping-Mat Confidences"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-006b"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87163",
+      "titleInfo": [
+        {
+          "title": "Why You Should Let Your Kinsman Accompany You When He Asks to Go Along"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-006c"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87164",
+      "titleInfo": [
+        {
+          "title": "If Someone Does Good to You, You Should Do Good in Return"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-006d"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eaca",
+      "titleInfo": [
+        {
+          "title": "Musical training in Tribal West Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00e5"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "ethiopia",
+    "name": "Ethiopia",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1968,
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1968,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2023,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Migration",
+      "value": 1
+    },
+    {
+      "name": "Musicians",
+      "value": 1
+    },
+    {
+      "name": "African diaspora",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Migration",
+      "value": 1
+    },
+    {
+      "name": "Musicians",
+      "value": 1
+    },
+    {
+      "name": "African diaspora",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Ethiopian American Diaspora",
+      "value": 1
+    },
+    {
+      "name": "Sentinel Musicians",
+      "value": 1
+    },
+    {
+      "name": "Diaspora Studies",
+      "value": 1
+    },
+    {
+      "name": "Identity",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kumar, Rakesh",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9eb40",
+      "titleInfo": [
+        {
+          "title": "CHRISTOPHORUS CLP 73,327. Christi Geburt in der Liturgie der Äthiopier (The Birth of Christ in the Liturgy of the Ethiopians). 10\" 33? r.p.m. mono record. Price: DM 15,-."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-015b"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edde",
+      "titleInfo": [
+        {
+          "title": "Sing and Sing On: Sentinel Musicians and the Making of the Ethiopian American Diaspora"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03f9"
+    }
+  ]
+}

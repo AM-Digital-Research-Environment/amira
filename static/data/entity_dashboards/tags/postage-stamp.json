@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "postage-stamp",
+    "name": "Postage Stamp",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1960,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1960,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Musicians",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Musicians",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    },
+    {
+      "name": "Belgian Congo",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mickleburgh, Roy",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ea91",
+      "titleInfo": [
+        {
+          "title": "Music on stamps"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00ac"
+    }
+  ]
+}

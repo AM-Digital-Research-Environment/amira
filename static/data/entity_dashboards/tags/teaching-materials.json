@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "teaching-materials",
+    "name": "Teaching Materials",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2021,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2021,
+      "total": 1,
+      "byType": {
+        "Digital": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Digital",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Education",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Decolonisation",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Education",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Decolonisation",
+      "value": 1
+    },
+    {
+      "name": "Curriculum",
+      "value": 1
+    },
+    {
+      "name": "Online Learning Platform",
+      "value": 1
+    },
+    {
+      "name": "African Knowledge",
+      "value": 1
+    },
+    {
+      "name": "Transcultural Learning",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Löhr, Doris",
+      "value": 1
+    },
+    {
+      "name": "Schrüfer, Gabriele",
+      "value": 1
+    }
+  ],
+  "locations": [],
+  "items": [
+    {
+      "_id": "694963c02e9790ceaf521af9",
+      "titleInfo": [
+        {
+          "title": "Projekt Lern- und Ressourcenplattform Afrika (PLURA)"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "UBT_Plura2021",
+        "name": "Plura 2.0: Project Learning and Resource Platform Africa"
+      },
+      "dre_id": "abs-01-0000"
+    }
+  ]
+}

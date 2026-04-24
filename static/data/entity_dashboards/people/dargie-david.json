@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "dargie-david",
+    "name": "Dargie, David",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 1996,
+      "count": 1
+    },
+    {
+      "year": 2007,
+      "count": 1
+    },
+    {
+      "year": 2013,
+      "count": 1
+    },
+    {
+      "year": 2017,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1996,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2007,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2013,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2017,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 4
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 4
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 4
+    },
+    {
+      "name": "Music Education",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 4
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ec3f",
+      "titleInfo": [
+        {
+          "title": "Umngqokolo: Xhosa overtone singing and the song nondel'ekhaya"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-025a"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec71",
+      "titleInfo": [
+        {
+          "title": "African methods of music education: some reflections"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-028c"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec9a",
+      "titleInfo": [
+        {
+          "title": "Umakhweyane: A Musical bow and its contribution to Zulu music"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02b5"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed21",
+      "titleInfo": [
+        {
+          "title": "Kavango music"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-033c"
+    }
+  ]
+}

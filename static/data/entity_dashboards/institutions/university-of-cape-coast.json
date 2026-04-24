@@ -1,0 +1,267 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "university-of-cape-coast",
+    "name": "University of Cape Coast",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2017,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2019,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2025,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Memory",
+      "value": 1
+    },
+    {
+      "name": "Anlo (African people)",
+      "value": 1
+    },
+    {
+      "name": "Fanti (African people)",
+      "value": 1
+    },
+    {
+      "name": "Migration",
+      "value": 1
+    },
+    {
+      "name": "Ewe (African people)",
+      "value": 1
+    },
+    {
+      "name": "Worship",
+      "value": 1
+    },
+    {
+      "name": "Healing",
+      "value": 1
+    },
+    {
+      "name": "Religion",
+      "value": 1
+    },
+    {
+      "name": "Ritual",
+      "value": 1
+    },
+    {
+      "name": "Well-being",
+      "value": 1
+    },
+    {
+      "name": "Decolonisation",
+      "value": 1
+    },
+    {
+      "name": "Brass bands",
+      "value": 1
+    },
+    {
+      "name": "Education",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 3
+    },
+    {
+      "name": "Ghana",
+      "value": 2
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Memory",
+      "value": 1
+    },
+    {
+      "name": "Anlo (African people)",
+      "value": 1
+    },
+    {
+      "name": "Fanti (African people)",
+      "value": 1
+    },
+    {
+      "name": "Migration",
+      "value": 1
+    },
+    {
+      "name": "Ewe (African people)",
+      "value": 1
+    },
+    {
+      "name": "Identity",
+      "value": 1
+    },
+    {
+      "name": "Fishermen Songs",
+      "value": 1
+    },
+    {
+      "name": "Worship",
+      "value": 1
+    },
+    {
+      "name": "Healing",
+      "value": 1
+    },
+    {
+      "name": "Religion",
+      "value": 1
+    },
+    {
+      "name": "Ritual",
+      "value": 1
+    },
+    {
+      "name": "Well-being",
+      "value": 1
+    },
+    {
+      "name": "African Indigenous Churches",
+      "value": 1
+    },
+    {
+      "name": "Indigenous Music",
+      "value": 1
+    },
+    {
+      "name": "Decolonisation",
+      "value": 1
+    },
+    {
+      "name": "Brass bands",
+      "value": 1
+    },
+    {
+      "name": "Education",
+      "value": 1
+    },
+    {
+      "name": "Transgressive Learning",
+      "value": 1
+    },
+    {
+      "name": "Indigenous Knowledge System",
+      "value": 1
+    },
+    {
+      "name": "Music Education",
+      "value": 1
+    },
+    {
+      "name": "Pedagogy",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Otchere, Eric Debrah",
+      "value": 1
+    },
+    {
+      "name": "Asare, Amos Darkwa",
+      "value": 1
+    },
+    {
+      "name": "Dordzro, John-Doe",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ed94",
+      "titleInfo": [
+        {
+          "title": "IN A WORLD OF THEIR OWN: MEMORY AND IDENTITY IN THE FISHING SONGS OF A MIGRANT EWE COMMUNITY IN GHANA"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03af"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edaf",
+      "titleInfo": [
+        {
+          "title": "\"SINGING THE HEALING\": THE RITUALS OF THE TWELVE APOSTLES CHURCH IN GHANA"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03ca"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ede8",
+      "titleInfo": [
+        {
+          "title": "Adaptation of indigenous approaches to music pedagogy"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0403"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "low-john",
+    "name": "Low, John",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1982,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1982,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Music",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    },
+    {
+      "name": "Kenya",
+      "value": 1
+    },
+    {
+      "name": "Guitar Music",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ec04",
+      "titleInfo": [
+        {
+          "title": "A history of Kenyan guitar music: 1945-1980"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-021f"
+    }
+  ]
+}

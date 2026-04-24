@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "arrangement-music",
+    "name": "Arrangement (Music)",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1972,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1972,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Research",
+      "value": 1
+    },
+    {
+      "name": "Graphic notation (Music)",
+      "value": 1
+    },
+    {
+      "name": "Ethnographic films",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Research",
+      "value": 1
+    },
+    {
+      "name": "Graphic notation (Music)",
+      "value": 1
+    },
+    {
+      "name": "Ethnographic films",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kubik, Gerhard",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ebaf",
+      "titleInfo": [
+        {
+          "title": "Transcription of African music from silent film: theory and methods"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01ca"
+    }
+  ]
+}

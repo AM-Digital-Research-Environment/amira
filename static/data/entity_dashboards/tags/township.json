@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "township",
+    "name": "Township",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2025,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2025,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Dance",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "History",
+      "value": 1
+    },
+    {
+      "name": "Youth",
+      "value": 1
+    },
+    {
+      "name": "Local government",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Dance",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "History",
+      "value": 1
+    },
+    {
+      "name": "Youth",
+      "value": 1
+    },
+    {
+      "name": "Local government",
+      "value": 1
+    },
+    {
+      "name": "Kwaito (Music)",
+      "value": 1
+    },
+    {
+      "name": "Amapiano (Music)",
+      "value": 1
+    },
+    {
+      "name": "Post-apartheid",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Eaby-Lomas, Dion Malcolm",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9edea",
+      "titleInfo": [
+        {
+          "title": "Kwaito as history"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0405"
+    }
+  ]
+}

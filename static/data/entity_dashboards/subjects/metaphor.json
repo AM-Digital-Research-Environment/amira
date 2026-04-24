@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "metaphor",
+    "name": "Metaphor",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1983,
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1983,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2022,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Brass bands",
+      "value": 1
+    },
+    {
+      "name": "Ecomusicology",
+      "value": 1
+    },
+    {
+      "name": "West Africa",
+      "value": 1
+    },
+    {
+      "name": "Discourse analysis",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Botswana",
+      "value": 1
+    },
+    {
+      "name": "Traditional Music",
+      "value": 1
+    },
+    {
+      "name": "Brass bands",
+      "value": 1
+    },
+    {
+      "name": "Ecomusicology",
+      "value": 1
+    },
+    {
+      "name": "West Africa",
+      "value": 1
+    },
+    {
+      "name": "Discourse analysis",
+      "value": 1
+    },
+    {
+      "name": "Benin",
+      "value": 1
+    },
+    {
+      "name": "Hot Rhythm",
+      "value": 1
+    },
+    {
+      "name": "Climatic Metaphor",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Wood, Elizabeth N.",
+      "value": 1
+    },
+    {
+      "name": "Copeland, Lyndsey Hoh",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ec17",
+      "titleInfo": [
+        {
+          "title": "The use of metaphor and certain scale patterns in traditional music of Botswana"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0232"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edd5",
+      "titleInfo": [
+        {
+          "title": "Hotness revisited"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03f0"
+    }
+  ]
+}

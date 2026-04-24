@@ -1,0 +1,258 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "oyelami-muraina",
+    "name": "Oyelami, Muraina",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 1964,
+      "count": 1
+    },
+    {
+      "year": 1981,
+      "count": 1
+    },
+    {
+      "year": 2017,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1964,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 1981,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 2017,
+      "total": 1,
+      "byType": {
+        "Audio": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 2
+    },
+    {
+      "name": "Audio",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "value": 1
+    },
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Art",
+      "value": 3
+    },
+    {
+      "name": "Africa",
+      "value": 3
+    },
+    {
+      "name": "Painting",
+      "value": 2
+    },
+    {
+      "name": "Exhibitions",
+      "value": 2
+    },
+    {
+      "name": "Photographs",
+      "value": 1
+    },
+    {
+      "name": "Newspapers",
+      "value": 1
+    },
+    {
+      "name": "Albums",
+      "value": 1
+    },
+    {
+      "name": "Interviews",
+      "value": 1
+    },
+    {
+      "name": "Artists",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Art",
+      "value": 3
+    },
+    {
+      "name": "Africa",
+      "value": 3
+    },
+    {
+      "name": "Painting",
+      "value": 2
+    },
+    {
+      "name": "Exhibitions",
+      "value": 2
+    },
+    {
+      "name": "Art Exhibition",
+      "value": 2
+    },
+    {
+      "name": "Cultural Centre",
+      "value": 2
+    },
+    {
+      "name": "Performing Arts Center",
+      "value": 2
+    },
+    {
+      "name": "Photographs",
+      "value": 1
+    },
+    {
+      "name": "Newspapers",
+      "value": 1
+    },
+    {
+      "name": "Albums",
+      "value": 1
+    },
+    {
+      "name": "Frankenpost",
+      "value": 1
+    },
+    {
+      "name": "Newspaper Article",
+      "value": 1
+    },
+    {
+      "name": "Iwalewahaus",
+      "value": 1
+    },
+    {
+      "name": "Interviews",
+      "value": 1
+    },
+    {
+      "name": "Artists",
+      "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    },
+    {
+      "name": "Art Collector",
+      "value": 1
+    },
+    {
+      "name": "Art Collecting",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Greven, Katharina",
+      "value": 2
+    },
+    {
+      "name": "Beier, Ulli",
+      "value": 1
+    },
+    {
+      "name": "Woldert, Siegfried",
+      "value": 1
+    },
+    {
+      "name": "Salmanian, Siegrun",
+      "value": 1
+    },
+    {
+      "name": "Naumann, Lena",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 2
+    },
+    {
+      "country": "Nigeria",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b4a3",
+      "titleInfo": [
+        {
+          "title": "Reproduktion eines Gemäldes von Muraina Oyelami"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-001b"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4bb",
+      "titleInfo": [
+        {
+          "title": "Seite eines Albums, in dem Zeitungsartikel über das Iwalewahaus aufgeklebt sind und Fotografien der Veranstaltungen"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0033"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b505",
+      "titleInfo": [
+        {
+          "title": "Interview mit Muraina Oyelami, Siegrun Salmanian und Lena Naumann"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-007d"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "type": "genre",
+    "id": "motion-picture",
+    "name": "motion picture",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2015,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2015,
+      "total": 1,
+      "byType": {
+        "Digital": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Digital",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Music",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Race Theory",
+      "value": 1
+    },
+    {
+      "name": "Richard Wagner",
+      "value": 1
+    },
+    {
+      "name": "Bayreuth",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Koepsell, Philipp Khabo",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "692db49707481a28c72155ab",
+      "titleInfo": [
+        {
+          "title": "Zukunftsmusik"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-99-0003"
+    }
+  ]
+}

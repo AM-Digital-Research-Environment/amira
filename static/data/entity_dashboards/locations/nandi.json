@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "nandi",
+    "name": "Nandi",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2024,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2024,
+      "total": 2,
+      "byType": {
+        "Dataset": 1,
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Dataset",
+      "value": 1
+    },
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Attitudes",
+      "value": 2
+    },
+    {
+      "name": "Education",
+      "value": 2
+    },
+    {
+      "name": "Multilingualism",
+      "value": 2
+    },
+    {
+      "name": "Translanguaging (Linguistics)",
+      "value": 2
+    },
+    {
+      "name": "Perception",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Attitudes",
+      "value": 2
+    },
+    {
+      "name": "Education",
+      "value": 2
+    },
+    {
+      "name": "Multilingualism",
+      "value": 2
+    },
+    {
+      "name": "Translanguaging (Linguistics)",
+      "value": 2
+    },
+    {
+      "name": "Perception",
+      "value": 2
+    },
+    {
+      "name": "Formal Learning",
+      "value": 2
+    },
+    {
+      "name": "Informal Interaction",
+      "value": 2
+    },
+    {
+      "name": "Pedagogy",
+      "value": 2
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Otundo, Khalayi Billian",
+      "value": 2
+    },
+    {
+      "name": "Orero, Sheila",
+      "value": 2
+    },
+    {
+      "name": "Mühleisen, Susanne",
+      "value": 2
+    }
+  ]
+}

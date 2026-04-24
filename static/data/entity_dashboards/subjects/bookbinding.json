@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "bookbinding",
+    "name": "Bookbinding",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 2024,
+      "count": 3
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2024,
+      "total": 3,
+      "byType": {
+        "Manuscript": 3
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Manuscript",
+      "value": 3
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Manuscripts",
+      "value": 3
+    },
+    {
+      "name": "Early modern, 1500-1700",
+      "value": 3
+    },
+    {
+      "name": "Literature",
+      "value": 3
+    },
+    {
+      "name": "Africa",
+      "value": 3
+    },
+    {
+      "name": "Books",
+      "value": 3
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Manuscripts",
+      "value": 3
+    },
+    {
+      "name": "Early modern, 1500-1700",
+      "value": 3
+    },
+    {
+      "name": "Literature",
+      "value": 3
+    },
+    {
+      "name": "Africa",
+      "value": 3
+    },
+    {
+      "name": "Books",
+      "value": 3
+    },
+    {
+      "name": "England",
+      "value": 3
+    },
+    {
+      "name": "Knowledge",
+      "value": 3
+    },
+    {
+      "name": "British Library",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Aboluwade, Ifeoluwa",
+      "value": 3
+    }
+  ],
+  "locations": [
+    {
+      "country": "United Kingdom",
+      "region": "England",
+      "city": "London",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a9ab2c85fe8df8723c",
+      "titleInfo": [
+        {
+          "title": "Book Binding_British Library"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0145"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872a7",
+      "titleInfo": [
+        {
+          "title": "Book Binding"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01b0"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872a8",
+      "titleInfo": [
+        {
+          "title": "Book Binding"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01b1"
+    }
+  ]
+}

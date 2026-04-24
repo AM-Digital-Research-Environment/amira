@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "colonial-zimbabwe",
+    "name": "Colonial Zimbabwe",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2016,
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2016,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2022,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Colonisation",
+      "value": 4
+    },
+    {
+      "name": "Colonies",
+      "value": 2
+    },
+    {
+      "name": "Music",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Colonisation",
+      "value": 4
+    },
+    {
+      "name": "Colonies",
+      "value": 2
+    },
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Zimbabwe",
+      "value": 2
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Power Relations",
+      "value": 1
+    },
+    {
+      "name": "Identity",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Vambe, Maurice Taonezvi",
+      "value": 1
+    },
+    {
+      "name": "Mohebbi, Siavash",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ed72",
+      "titleInfo": [
+        {
+          "title": "African Music, Power and Being in Colonial Zimbabwe. Mhoze Chikowero. 2015. Bloomington and Indianapolis: Indiana University Press. 35 bw illustrations, bibliography, index, 346pp."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-038d"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edd2",
+      "titleInfo": [
+        {
+          "title": "African Music, Power, and Being in Colonial Zimbabwe. Mhoze Chikowero, 2015. Bloomington, Indiana: University of Indiana Press. 35 illustrations b & w, bibliography, index, 346 pp."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03ed"
+    }
+  ]
+}

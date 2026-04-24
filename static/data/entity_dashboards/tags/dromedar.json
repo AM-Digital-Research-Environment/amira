@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "dromedar",
+    "name": "Dromedar",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1980,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1980,
+      "total": 2,
+      "byType": {
+        "Image": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 2
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Photography",
+      "value": 2
+    },
+    {
+      "name": "Anthropology",
+      "value": 2
+    },
+    {
+      "name": "Photographs",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Photography",
+      "value": 2
+    },
+    {
+      "name": "Anthropology",
+      "value": 2
+    },
+    {
+      "name": "Photographs",
+      "value": 2
+    },
+    {
+      "name": "Sandwüste",
+      "value": 2
+    },
+    {
+      "name": "Karawane",
+      "value": 2
+    },
+    {
+      "name": "Sammlung Gerd Spittler",
+      "value": 2
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Collections@UBT",
+      "value": 2
+    },
+    {
+      "name": "Spittler, Gerd",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "Niger",
+      "region": "Agadez Region",
+      "city": "Ténéré",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "66d97447c610a95a80dd95d5",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-004c"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95d7",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-004e"
+    }
+  ]
+}

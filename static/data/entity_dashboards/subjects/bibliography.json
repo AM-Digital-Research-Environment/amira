@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "bibliography",
+    "name": "Bibliography",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1962,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1962,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Ethnology",
+      "value": 1
+    },
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Ethnology",
+      "value": 1
+    },
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Thieme, Darius L.",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9eac3",
+      "titleInfo": [
+        {
+          "title": "A selected bibliography of periodical articles on the music of the native peoples of Sub-Saharan Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00de"
+    }
+  ]
+}

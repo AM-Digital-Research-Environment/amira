@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "jeffreys-m-d-w",
+    "name": "Jeffreys, M. D. W.",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 1961,
+      "count": 1
+    },
+    {
+      "year": 1966,
+      "count": 1
+    },
+    {
+      "year": 1968,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1961,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1966,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1968,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Slave trade",
+      "value": 1
+    },
+    {
+      "name": "Indian Ocean Region",
+      "value": 1
+    },
+    {
+      "name": "Civilization",
+      "value": 1
+    },
+    {
+      "name": "Culture diffusion",
+      "value": 1
+    },
+    {
+      "name": "Ethnology",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Xylophone",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 3
+    },
+    {
+      "name": "Indonesia",
+      "value": 2
+    },
+    {
+      "name": "Slave trade",
+      "value": 1
+    },
+    {
+      "name": "Indian Ocean Region",
+      "value": 1
+    },
+    {
+      "name": "Civilization",
+      "value": 1
+    },
+    {
+      "name": "Culture diffusion",
+      "value": 1
+    },
+    {
+      "name": "Ethnology",
+      "value": 1
+    },
+    {
+      "name": "Melanesia",
+      "value": 1
+    },
+    {
+      "name": "Arab Slave Trade",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Xylophone",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Xylophone (Instrument)",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9eab1",
+      "titleInfo": [
+        {
+          "title": "Negro influences on Indonesia"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00cc"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb26",
+      "titleInfo": [
+        {
+          "title": "Review article on the book: AFRICA AND INDONESIA: THE EVIDENCE OF THE XYLOPHONE AND OTHER MUSICAL AND CULTURAL FACTORS by A. M. JONES (pp. I-VIII, 1-233. Illus. Tables. Index. Pub. E. J. Brill. Leiden, 1964. Price: 36 Guilders)."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0141"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb32",
+      "titleInfo": [
+        {
+          "title": "Efik names of some musical instruments"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-014d"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "kopea-carson",
+    "name": "Kopea, Carson",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 1981,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1981,
+      "total": 1,
+      "byType": {
+        "Moving image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Moving image",
+      "value": 4
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 4
+    },
+    {
+      "name": "French",
+      "value": 1
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "News",
+      "value": 4
+    },
+    {
+      "name": "Public Affairs",
+      "value": 4
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Government of Liberia",
+      "value": 4
+    },
+    {
+      "name": "Andrews, Amos",
+      "value": 2
+    },
+    {
+      "name": "Konuwa, Charles",
+      "value": 1
+    },
+    {
+      "name": "Rogers, Harvey",
+      "value": 1
+    },
+    {
+      "name": "Selman, Anthony",
+      "value": 1
+    },
+    {
+      "name": "Sema, Anthony",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Liberia",
+      "region": "Montserrado County",
+      "city": "Monrovia",
+      "count": 4
+    }
+  ],
+  "items": [
+    {
+      "_id": "6982337057a8e0353b0b1d55",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0118"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d79",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-013c"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d7f",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0142"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d8e",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0151"
+    }
+  ]
+}

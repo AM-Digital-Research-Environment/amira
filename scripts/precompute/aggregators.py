@@ -19,10 +19,34 @@ Normalization follows the rules baked into the frontend's loaders:
 
 from __future__ import annotations
 
+import re
 from collections import Counter
 from typing import Any, Iterable
 
 from . import config
+
+
+# --------------------------------------------------------------------------
+# Slug generation
+# --------------------------------------------------------------------------
+# Mirror of `src/lib/utils/slugify.ts`. Keep in sync with the frontend.
+_SLUG_SLASH_RE = re.compile(r"[\\/]")
+_SLUG_NON_ALNUM_RE = re.compile(r"[^a-z0-9-]+")
+_SLUG_COLLAPSE_RE = re.compile(r"-+")
+
+
+def slugify(value: str) -> str:
+    """Port of `slugify()` in `src/lib/utils/slugify.ts`.
+
+    Produces URL-safe, filename-safe slugs that the runtime loader can compute
+    from the display name without any extra round-trip.
+    """
+    s = value.lower().strip()
+    s = _SLUG_SLASH_RE.sub("-", s)
+    s = _SLUG_NON_ALNUM_RE.sub("-", s)
+    s = _SLUG_COLLAPSE_RE.sub("-", s)
+    s = s.strip("-")
+    return s[:120]
 
 
 # --------------------------------------------------------------------------
@@ -187,17 +211,81 @@ def _subject_labels(item: dict) -> list[str]:
 
 
 def _tag_labels(item: dict) -> list[str]:
+    """Top-level `tags` list — mirrors the frontend's subjects page `tagMap`."""
     out: list[str] = []
-    for tag in item.get("subject") or []:
-        if not isinstance(tag, dict):
+    for tag in item.get("tags") or []:
+        label = _as_str(tag)
+        if label:
+            out.append(label)
+    return out
+
+
+def _genre_labels(item: dict) -> list[str]:
+    """All values across the `genre.*` sub-dicts (e.g. `marc`, `local`)."""
+    out: list[str] = []
+    genre = item.get("genre")
+    if not isinstance(genre, dict):
+        return out
+    for values in genre.values():
+        if not isinstance(values, list):
             continue
-        # The Omeka module treats `authLabel` as LCSH; tags live under origLabel
-        # only when there's no authority binding. This heuristic keeps the
-        # `subject` + `wordCloud` distinction consistent with the module.
-        if _as_str(tag.get("authLabel")) is None:
-            label = _as_str(tag.get("origLabel"))
+        for raw in values:
+            label = _as_str(raw)
             if label:
                 out.append(label)
+    return out
+
+
+def _names_with_qualifier(item: dict, qualifier: str) -> list[str]:
+    """Return labels of `name[]` entries whose `name.qualifier` matches."""
+    out: list[str] = []
+    for block in item.get("name") or []:
+        if not isinstance(block, dict):
+            continue
+        nm = block.get("name") or {}
+        if not isinstance(nm, dict):
+            continue
+        if _as_str(nm.get("qualifier")) != qualifier:
+            continue
+        label = _as_str(nm.get("label"))
+        if label:
+            out.append(label)
+    return out
+
+
+def _affiliations(item: dict) -> list[str]:
+    """Union of affiliations referenced on any `name[]` entry of this item."""
+    out: list[str] = []
+    for block in item.get("name") or []:
+        if not isinstance(block, dict):
+            continue
+        affl = block.get("affl")
+        if not isinstance(affl, list):
+            continue
+        for raw in affl:
+            label = _as_str(raw)
+            if label:
+                out.append(label)
+    return out
+
+
+def _location_names(item: dict) -> list[str]:
+    """Every country/region/city/current-location name mentioned on the item."""
+    out: list[str] = []
+    loc = item.get("location") or {}
+    if not isinstance(loc, dict):
+        return out
+    for origin in loc.get("origin") or []:
+        if not isinstance(origin, dict):
+            continue
+        for key in ("l1", "l2", "l3"):
+            label = _as_str(origin.get(key))
+            if label:
+                out.append(label)
+    for current in loc.get("current") or []:
+        label = _as_str(current)
+        if label:
+            out.append(label)
     return out
 
 
@@ -280,11 +368,14 @@ def build_stacked_timeline(items: Iterable[dict]) -> list[dict]:
     ]
 
 
-def build_types(items: Iterable[dict]) -> list[dict]:
+def build_types(items: Iterable[dict], exclude: str | None = None) -> list[dict]:
     """Chart: `types` -> `[{name, value}]` sorted by value desc."""
     counts: Counter[str] = Counter()
     for item in items:
-        counts[_type_of_resource(item)] += 1
+        rtype = _type_of_resource(item)
+        if exclude is not None and rtype == exclude:
+            continue
+        counts[rtype] += 1
     return [
         {"name": name, "value": count}
         for name, count in counts.most_common()
@@ -317,10 +408,16 @@ def build_languages(items: Iterable[dict], exclude: str | None = None) -> list[d
     ]
 
 
-def build_subjects(items: Iterable[dict], limit: int | None = None) -> list[dict]:
+def build_subjects(
+    items: Iterable[dict],
+    limit: int | None = None,
+    exclude: str | None = None,
+) -> list[dict]:
     counts: Counter[str] = Counter()
     for item in items:
         for label in _subject_labels(item):
+            if exclude is not None and label == exclude:
+                continue
             counts[label] += 1
     return [
         {"name": name, "value": count}
@@ -328,13 +425,57 @@ def build_subjects(items: Iterable[dict], limit: int | None = None) -> list[dict
     ]
 
 
-def build_word_cloud(items: Iterable[dict], limit: int | None = None) -> list[dict]:
+def build_tags(
+    items: Iterable[dict],
+    limit: int | None = None,
+    exclude: str | None = None,
+) -> list[dict]:
+    """Chart: `subjects`-style bar, counted from top-level `tags[]` instead."""
+    counts: Counter[str] = Counter()
+    for item in items:
+        for label in _tag_labels(item):
+            if exclude is not None and label == exclude:
+                continue
+            counts[label] += 1
+    return [
+        {"name": name, "value": count}
+        for name, count in counts.most_common(limit or config.TOP_N_SUBJECTS)
+    ]
+
+
+def build_genres(
+    items: Iterable[dict],
+    limit: int | None = None,
+    exclude: str | None = None,
+) -> list[dict]:
+    """Chart: top genre labels across all `genre.*` sub-lists."""
+    counts: Counter[str] = Counter()
+    for item in items:
+        for label in _genre_labels(item):
+            if exclude is not None and label == exclude:
+                continue
+            counts[label] += 1
+    return [
+        {"name": name, "value": count}
+        for name, count in counts.most_common(limit or config.TOP_N_SUBJECTS)
+    ]
+
+
+def build_word_cloud(
+    items: Iterable[dict],
+    limit: int | None = None,
+    exclude: str | None = None,
+) -> list[dict]:
     """Chart: `wordCloud` -> subject+tag frequency, wider net than `subjects`."""
     counts: Counter[str] = Counter()
     for item in items:
         for label in _subject_labels(item):
+            if exclude is not None and label == exclude:
+                continue
             counts[label] += 1
         for label in _tag_labels(item):
+            if exclude is not None and label == exclude:
+                continue
             counts[label] += 1
     return [
         {"name": name, "value": count}
@@ -342,11 +483,17 @@ def build_word_cloud(items: Iterable[dict], limit: int | None = None) -> list[di
     ]
 
 
-def build_contributors(items: Iterable[dict], limit: int | None = None) -> list[dict]:
+def build_contributors(
+    items: Iterable[dict],
+    limit: int | None = None,
+    exclude: str | None = None,
+) -> list[dict]:
     """Chart: `contributors` -> `[{name, value}]` of most frequent contributors."""
     counts: Counter[str] = Counter()
     for item in items:
         for label, _role in _contributors(item):
+            if exclude is not None and label == exclude:
+                continue
             counts[label] += 1
     return [
         {"name": name, "value": count}
@@ -390,6 +537,68 @@ def build_heatmap_type_decade(items: Iterable[dict]) -> list[dict]:
 
 # Backwards-compatible alias for callers that still use the old name.
 build_heatmap_type_year = build_heatmap_type_decade
+
+
+def build_item_summaries(items: Iterable[dict]) -> list[dict]:
+    """Slim per-item record shaped like `CollectionItem` subset used by
+    `EntityItemsCard` / `CollectionItemRow`.
+
+    Allows detail-view rendering to work without loading the full 13 MB
+    collections dump — the entity's dashboard JSON carries everything the
+    list needs: id, title, type, and project label.
+    """
+    out: list[dict] = []
+    seen: set[str] = set()
+    for item in items:
+        # Prefer `_id` (MongoDB ObjectId) then fall back to the dre_id slug —
+        # whichever the frontend's researchItemUrl() would emit.
+        raw_id = item.get("_id")
+        if isinstance(raw_id, dict) and "$oid" in raw_id:
+            item_id = raw_id["$oid"]
+        else:
+            item_id = _as_str(raw_id) or _as_str(item.get("dre_id")) or ""
+        if not item_id:
+            continue
+        # Deduplicate — an item tagged with e.g. two variants of the same
+        # language ends up in multiple buckets and could otherwise appear
+        # twice in the per-entity list.
+        if item_id in seen:
+            continue
+        seen.add(item_id)
+
+        title_info = item.get("titleInfo") or []
+        title = None
+        if isinstance(title_info, list) and title_info:
+            first = title_info[0]
+            if isinstance(first, dict):
+                title = _as_str(first.get("title"))
+
+        project = item.get("project") or {}
+        project_block: dict | None = None
+        if isinstance(project, dict):
+            p_id = _as_str(project.get("id"))
+            p_name = _as_str(project.get("name"))
+            if p_id or p_name:
+                project_block = {}
+                if p_id:
+                    project_block["id"] = p_id
+                if p_name:
+                    project_block["name"] = p_name
+
+        record: dict = {
+            "_id": item_id,
+            "titleInfo": [{"title": title or "Untitled"}],
+        }
+        rtype = _as_str(item.get("typeOfResource"))
+        if rtype:
+            record["typeOfResource"] = rtype
+        if project_block:
+            record["project"] = project_block
+        dre = _as_str(item.get("dre_id"))
+        if dre and dre != item_id:
+            record["dre_id"] = dre
+        out.append(record)
+    return out
 
 
 def build_locations(items: Iterable[dict]) -> list[dict]:

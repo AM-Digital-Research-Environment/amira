@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "horizontal-program",
+    "name": "Horizontal Program",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2022,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2024,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "World health",
+      "value": 2
+    },
+    {
+      "name": "Diseases",
+      "value": 2
+    },
+    {
+      "name": "Sustainability",
+      "value": 2
+    },
+    {
+      "name": "West Africa",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "World health",
+      "value": 2
+    },
+    {
+      "name": "Diseases",
+      "value": 2
+    },
+    {
+      "name": "Sustainability",
+      "value": 2
+    },
+    {
+      "name": "West Africa",
+      "value": 2
+    },
+    {
+      "name": "Global Health",
+      "value": 2
+    },
+    {
+      "name": "Vertical Program",
+      "value": 2
+    },
+    {
+      "name": "Global Health Policy",
+      "value": 2
+    },
+    {
+      "name": "Burkina Faso",
+      "value": 2
+    },
+    {
+      "name": "Health Cooperation",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Sib, Sié Moise",
+      "value": 2
+    },
+    {
+      "name": "Banhoro, Yacouba",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Burkina Faso",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "6718efd3c327cde4b57d867c",
+      "titleInfo": [
+        {
+          "title": "Article sur la santé globale"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-000b"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8685",
+      "titleInfo": [
+        {
+          "title": "Mémoire sur le PADS"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0014"
+    }
+  ]
+}

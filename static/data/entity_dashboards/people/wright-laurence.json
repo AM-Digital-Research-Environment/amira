@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "wright-laurence",
+    "name": "Wright, Laurence",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 1990,
+      "count": 1
+    },
+    {
+      "year": 2004,
+      "count": 1
+    },
+    {
+      "year": 2005,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1990,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2004,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2005,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "South Africa",
+      "value": 2
+    },
+    {
+      "name": "Postcolonialism",
+      "value": 1
+    },
+    {
+      "name": "Elections",
+      "value": 1
+    },
+    {
+      "name": "Humanities",
+      "value": 1
+    },
+    {
+      "name": "Relevance",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Shakespeare",
+      "value": 3
+    },
+    {
+      "name": "Article",
+      "value": 3
+    },
+    {
+      "name": "South Africa",
+      "value": 2
+    },
+    {
+      "name": "Postcolonialism",
+      "value": 1
+    },
+    {
+      "name": "Postcolonial Studies",
+      "value": 1
+    },
+    {
+      "name": "Postcolonial Africa",
+      "value": 1
+    },
+    {
+      "name": "Ideological Conflict",
+      "value": 1
+    },
+    {
+      "name": "Elections",
+      "value": 1
+    },
+    {
+      "name": "Humanities",
+      "value": 1
+    },
+    {
+      "name": "Relevance",
+      "value": 1
+    },
+    {
+      "name": "Renaissance Studies",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Shakespeare Society of Southern Africa",
+      "value": 3
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "Eastern Cape",
+      "city": "Makhanda",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a8ab2c85fe8df8711f",
+      "titleInfo": [
+        {
+          "title": "Aspects of Shakespeare in Post-Colonial Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0028"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87127",
+      "titleInfo": [
+        {
+          "title": "Shakespeare in South Africa: Alpha and 'Omega'"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0030"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87128",
+      "titleInfo": [
+        {
+          "title": "The Revelance of (South African) Renaissance Studies"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0031"
+    }
+  ]
+}

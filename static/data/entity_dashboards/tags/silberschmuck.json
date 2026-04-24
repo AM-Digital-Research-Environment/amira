@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "silberschmuck",
+    "name": "Silberschmuck",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 1970,
+      "count": 1
+    },
+    {
+      "year": 1984,
+      "count": 1
+    },
+    {
+      "year": 1990,
+      "count": 1
+    },
+    {
+      "year": 2002,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1970,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 1984,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 1990,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 2002,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 4
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Photography",
+      "value": 4
+    },
+    {
+      "name": "Anthropology",
+      "value": 4
+    },
+    {
+      "name": "Jewelry",
+      "value": 4
+    },
+    {
+      "name": "Photographs",
+      "value": 4
+    },
+    {
+      "name": "Tuaregs",
+      "value": 3
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Photography",
+      "value": 4
+    },
+    {
+      "name": "Anthropology",
+      "value": 4
+    },
+    {
+      "name": "Jewelry",
+      "value": 4
+    },
+    {
+      "name": "Photographs",
+      "value": 4
+    },
+    {
+      "name": "Sammlung Gerd Spittler",
+      "value": 4
+    },
+    {
+      "name": "Tuaregs",
+      "value": 3
+    },
+    {
+      "name": "Kreuz von Agadès",
+      "value": 2
+    },
+    {
+      "name": "Jeweler",
+      "value": 1
+    },
+    {
+      "name": "Kunsthandwerk",
+      "value": 1
+    },
+    {
+      "name": "Silberschmied",
+      "value": 1
+    },
+    {
+      "name": "Halskette",
+      "value": 1
+    },
+    {
+      "name": "Pendant",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Collections@UBT",
+      "value": 4
+    },
+    {
+      "name": "Spittler, Gerd",
+      "value": 4
+    }
+  ],
+  "locations": [
+    {
+      "country": "Niger",
+      "region": "Agadez Region",
+      "city": "Timia",
+      "count": 4
+    }
+  ],
+  "items": [
+    {
+      "_id": "66d97447c610a95a80dd95b9",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0030"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95bb",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0032"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95c7",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-003e"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95cc",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0043"
+    }
+  ]
+}

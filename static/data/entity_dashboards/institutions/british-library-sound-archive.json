@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "british-library-sound-archive",
+    "name": "British Library Sound Archive",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 1996,
+      "count": 1
+    },
+    {
+      "year": 1999,
+      "count": 1
+    },
+    {
+      "year": 2007,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1996,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1999,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2007,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "South Africa",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 3
+    },
+    {
+      "name": "South Africa",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Topp Fargion, Janet",
+      "value": 3
+    },
+    {
+      "name": "Muller, Carol",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ec5d",
+      "titleInfo": [
+        {
+          "title": "JUKWAA LA TAARAB - ZANZIBAR, by Issa Mgana, Mediafrica Books, Helsinki 1991, 10lpp, photos, charts, song texts, KiSwahili text."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0278"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec80",
+      "titleInfo": [
+        {
+          "title": "Gumboots, Bhaca migrants, and Fred Astaire: South African worker dance and musical style"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-029b"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec8b",
+      "titleInfo": [
+        {
+          "title": "The Collection of Father Franz Mayr: Zulu Recordings 1908. Sound documents from the phonogrammarchiv of the Austrian Academy of Sciences. The complete historical collections 1899-1950. Series 10. Dietrich Schuller, general editor. Phonogrammarchiv der Osterreichischen Akademie der Wissenschaften OAW CD 25, 2007. ISBN 978-3-7001-3827-3. Two audio CDs, one CD-ROM with 64 page booklet."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02a6"
+    }
+  ]
+}

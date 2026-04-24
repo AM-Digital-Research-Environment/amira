@@ -1,0 +1,1578 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "children",
+    "name": "Children",
+    "count": 67
+  },
+  "timeline": [
+    {
+      "year": 1988,
+      "count": 1
+    },
+    {
+      "year": 1990,
+      "count": 1
+    },
+    {
+      "year": 2014,
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "count": 21
+    },
+    {
+      "year": 2022,
+      "count": 4
+    },
+    {
+      "year": 2023,
+      "count": 14
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1988,
+      "total": 1,
+      "byType": {
+        "Moving image": 1
+      }
+    },
+    {
+      "year": 1990,
+      "total": 1,
+      "byType": {
+        "Moving image": 1
+      }
+    },
+    {
+      "year": 2014,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 2020,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2021,
+      "total": 21,
+      "byType": {
+        "Image": 3,
+        "Moving image": 2,
+        "Text": 16
+      }
+    },
+    {
+      "year": 2022,
+      "total": 4,
+      "byType": {
+        "Text": 4
+      }
+    },
+    {
+      "year": 2023,
+      "total": 14,
+      "byType": {
+        "Text": 3,
+        "Digital": 1,
+        "Dataset": 4,
+        "Moving image": 6
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Moving image",
+      "value": 34
+    },
+    {
+      "name": "Text",
+      "value": 24
+    },
+    {
+      "name": "Image",
+      "value": 4
+    },
+    {
+      "name": "Dataset",
+      "value": 4
+    },
+    {
+      "name": "Digital",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 34
+    },
+    {
+      "name": "French",
+      "value": 18
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Education",
+      "value": 36
+    },
+    {
+      "name": "Learning",
+      "value": 15
+    },
+    {
+      "name": "Animation (Cinematography)",
+      "value": 15
+    },
+    {
+      "name": "Child psychology",
+      "value": 15
+    },
+    {
+      "name": "Curriculum planning",
+      "value": 15
+    },
+    {
+      "name": "Juvenile detention",
+      "value": 15
+    },
+    {
+      "name": "Juvenile delinquency",
+      "value": 14
+    },
+    {
+      "name": "Punishment",
+      "value": 12
+    },
+    {
+      "name": "Youth",
+      "value": 10
+    },
+    {
+      "name": "Child care",
+      "value": 8
+    },
+    {
+      "name": "Fertility",
+      "value": 8
+    },
+    {
+      "name": "Income distribution",
+      "value": 8
+    },
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 8
+    },
+    {
+      "name": "Family planning",
+      "value": 8
+    },
+    {
+      "name": "Migration",
+      "value": 8
+    },
+    {
+      "name": "Economic development",
+      "value": 8
+    },
+    {
+      "name": "Reconciliation",
+      "value": 7
+    },
+    {
+      "name": "Mediation",
+      "value": 6
+    },
+    {
+      "name": "Justice",
+      "value": 6
+    },
+    {
+      "name": "Communities",
+      "value": 5
+    },
+    {
+      "name": "Administration of Justice",
+      "value": 4
+    },
+    {
+      "name": "Prisons",
+      "value": 4
+    },
+    {
+      "name": "Teenagers",
+      "value": 3
+    },
+    {
+      "name": "Storytelling",
+      "value": 2
+    },
+    {
+      "name": "Employability",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Education",
+      "value": 36
+    },
+    {
+      "name": "Educational Show",
+      "value": 26
+    },
+    {
+      "name": "Learning",
+      "value": 15
+    },
+    {
+      "name": "Animation (Cinematography)",
+      "value": 15
+    },
+    {
+      "name": "Child psychology",
+      "value": 15
+    },
+    {
+      "name": "Curriculum planning",
+      "value": 15
+    },
+    {
+      "name": "African Studies",
+      "value": 15
+    },
+    {
+      "name": "Juvenile detention",
+      "value": 15
+    },
+    {
+      "name": "Deprivation of Liberty",
+      "value": 15
+    },
+    {
+      "name": "Preliminary Investigation",
+      "value": 15
+    },
+    {
+      "name": "Investigation Phase",
+      "value": 15
+    },
+    {
+      "name": "Enforcement of Decisions",
+      "value": 15
+    },
+    {
+      "name": "Tortoise",
+      "value": 14
+    },
+    {
+      "name": "Juvenile delinquency",
+      "value": 14
+    },
+    {
+      "name": "Punishment",
+      "value": 12
+    },
+    {
+      "name": "Youth",
+      "value": 10
+    },
+    {
+      "name": "Child care",
+      "value": 8
+    },
+    {
+      "name": "Fertility",
+      "value": 8
+    },
+    {
+      "name": "Income distribution",
+      "value": 8
+    },
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 8
+    },
+    {
+      "name": "Family planning",
+      "value": 8
+    },
+    {
+      "name": "Migration",
+      "value": 8
+    },
+    {
+      "name": "Economic development",
+      "value": 8
+    },
+    {
+      "name": "Female Education",
+      "value": 8
+    },
+    {
+      "name": "Human Development",
+      "value": 8
+    },
+    {
+      "name": "Education Policy",
+      "value": 8
+    },
+    {
+      "name": "Educational Influence",
+      "value": 8
+    },
+    {
+      "name": "Child Development",
+      "value": 8
+    },
+    {
+      "name": "Human Resources",
+      "value": 8
+    },
+    {
+      "name": "Reconciliation",
+      "value": 7
+    },
+    {
+      "name": "Mediation",
+      "value": 6
+    },
+    {
+      "name": "Justice",
+      "value": 6
+    },
+    {
+      "name": "Communities",
+      "value": 5
+    },
+    {
+      "name": "Administration of Justice",
+      "value": 4
+    },
+    {
+      "name": "Prisons",
+      "value": 4
+    },
+    {
+      "name": "Teenagers",
+      "value": 3
+    },
+    {
+      "name": "Elderly People",
+      "value": 3
+    },
+    {
+      "name": "Storytelling",
+      "value": 2
+    },
+    {
+      "name": "Employability",
+      "value": 2
+    },
+    {
+      "name": "Business",
+      "value": 2
+    },
+    {
+      "name": "University",
+      "value": 2
+    },
+    {
+      "name": "Crime",
+      "value": 2
+    },
+    {
+      "name": "Practical judgment",
+      "value": 2
+    },
+    {
+      "name": "Social conflict",
+      "value": 2
+    },
+    {
+      "name": "Vulnerability",
+      "value": 2
+    },
+    {
+      "name": "Protection",
+      "value": 2
+    },
+    {
+      "name": "Photographs",
+      "value": 1
+    },
+    {
+      "name": "Interior decoration",
+      "value": 1
+    },
+    {
+      "name": "Maps",
+      "value": 1
+    },
+    {
+      "name": "Shrine",
+      "value": 1
+    },
+    {
+      "name": "Osogbo",
+      "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    },
+    {
+      "name": "Singing",
+      "value": 1
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    },
+    {
+      "name": "Christmas",
+      "value": 1
+    },
+    {
+      "name": "Maintenance",
+      "value": 1
+    },
+    {
+      "name": "Conflict",
+      "value": 1
+    },
+    {
+      "name": "Court",
+      "value": 1
+    },
+    {
+      "name": "Courts",
+      "value": 1
+    },
+    {
+      "name": "Conduct of life",
+      "value": 1
+    },
+    {
+      "name": "Police",
+      "value": 1
+    },
+    {
+      "name": "Disagreement",
+      "value": 1
+    },
+    {
+      "name": "Legal Committee",
+      "value": 1
+    },
+    {
+      "name": "Gendarmerie",
+      "value": 1
+    },
+    {
+      "name": "Local Justice",
+      "value": 1
+    },
+    {
+      "name": "Minors",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Collins, Hawa Andrews",
+      "value": 40
+    },
+    {
+      "name": "Government of Liberia",
+      "value": 26
+    },
+    {
+      "name": "Yusuff, Ayodele",
+      "value": 15
+    },
+    {
+      "name": "Eleshin, Abisoye",
+      "value": 15
+    },
+    {
+      "name": "Akinwale, Gbenusola",
+      "value": 15
+    },
+    {
+      "name": "Eleshin, Adedoyinsola",
+      "value": 15
+    },
+    {
+      "name": "Adetomiwa, Anuoluwapo",
+      "value": 15
+    },
+    {
+      "name": "Adedeji, Mujeeb",
+      "value": 15
+    },
+    {
+      "name": "Liberia Broadcasting System (LBS)",
+      "value": 14
+    },
+    {
+      "name": "Gilbert, Thomas",
+      "value": 14
+    },
+    {
+      "name": "Mensah, Sam",
+      "value": 14
+    },
+    {
+      "name": "Taylor, Adolphus",
+      "value": 13
+    },
+    {
+      "name": "Urey, Khrushchev Borbor",
+      "value": 12
+    },
+    {
+      "name": "McCrumada, Charles",
+      "value": 11
+    },
+    {
+      "name": "Wegee, Presley",
+      "value": 11
+    },
+    {
+      "name": "Eastman, John",
+      "value": 9
+    },
+    {
+      "name": "Fakay, Soko",
+      "value": 8
+    },
+    {
+      "name": "Wild, Frederik",
+      "value": 8
+    },
+    {
+      "name": "Stadelmann, David",
+      "value": 8
+    },
+    {
+      "name": "Kezele, Sumoiwuo",
+      "value": 6
+    }
+  ],
+  "locations": [
+    {
+      "country": "Liberia",
+      "region": "Montserrado County",
+      "city": "Monrovia",
+      "count": 26
+    },
+    {
+      "country": "Nigeria",
+      "region": "Lagos State",
+      "city": "Lagos",
+      "count": 15
+    },
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 8
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "Centre",
+      "city": "Ouagadougou",
+      "count": 7
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "Hauts-Bassins Region",
+      "city": "Bobo-Dioulasso",
+      "count": 5
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "",
+      "city": "",
+      "count": 2
+    },
+    {
+      "country": "Australia",
+      "region": "New South Wales",
+      "city": "Sydney",
+      "count": 1
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "Centre-Ouest Region",
+      "city": "Dano",
+      "count": 1
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "Sud-Ouest Region",
+      "city": "Gaoua",
+      "count": 1
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "Sud-Ouest Region",
+      "city": "Dano",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b531",
+      "titleInfo": [
+        {
+          "title": "Detailaufnahme vom Ulli Beier-Schrein, eine Karte vom Haus in Osogbo und eine bunte Fotografie mir Fußball spielenden Kindern"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-00a9"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c7e",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0041"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c92",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0055"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c93",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0056"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c94",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0057"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c95",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0058"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c96",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0059"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c97",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-005a"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c98",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-005b"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c9a",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-005d"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c9b",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-005e"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c9c",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-005f"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c9d",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0060"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1ca6",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0069"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d09",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00cc"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d0a",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00cd"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d0c",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00cf"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d0d",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00d0"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d1d",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00e0"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d1e",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00e1"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d1f",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00e2"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d20",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00e3"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d29",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00ec"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d2a",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00ed"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1daa",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-016d"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1dab",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-016e"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1e06",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-01c9"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b01",
+      "titleInfo": [
+        {
+          "title": "Heterogeneous Effects of Women’s Schooling on Fertility, Literacy and Work: Evidence from Burundi’s Free Primary Education Policy"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-0010"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b02",
+      "titleInfo": [
+        {
+          "title": "Heterogeneous Effects of Women’s Schooling on Fertility, Literacy and Work: Evidence from Burundi’s Free Primary Education Policy"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-0011"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b03",
+      "titleInfo": [
+        {
+          "title": "Heterogeneous Effects of Women’s Schooling on Fertility, Literacy and Work: Evidence from Burundi’s Free Primary Education Policy"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0012"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b04",
+      "titleInfo": [
+        {
+          "title": "Appendix: Heterogeneous Effects of Women’s Schooling on Fertility, Literacy and Work: Evidence from Burundi’s Free Primary Education Policy"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0013"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b05",
+      "titleInfo": [
+        {
+          "title": "Replication R script"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0014"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b06",
+      "titleInfo": [
+        {
+          "title": "Replication dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0015"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b07",
+      "titleInfo": [
+        {
+          "title": "Replication dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0016"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b08",
+      "titleInfo": [
+        {
+          "title": "Replication dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0017"
+    },
+    {
+      "_id": "66c71c3d22a01f1d1ea08ee5",
+      "titleInfo": [
+        {
+          "title": "Digitising Folktales for Animation and Value Education - Igboho Field Location Image"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_YoruFolk2020",
+        "name": "Regenerating Non-Formal Learning in Africa: Digitizing Yoruba Folktales for Animation and Value Education"
+      },
+      "dre_id": "aag-02-0000"
+    },
+    {
+      "_id": "66c71c3d22a01f1d1ea08ee6",
+      "titleInfo": [
+        {
+          "title": "Digitising Folktales for Animation and Value Education - Oshogbo Field Location Image"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_YoruFolk2020",
+        "name": "Regenerating Non-Formal Learning in Africa: Digitizing Yoruba Folktales for Animation and Value Education"
+      },
+      "dre_id": "aag-02-0001"
+    },
+    {
+      "_id": "66c71c3d22a01f1d1ea08ee7",
+      "titleInfo": [
+        {
+          "title": "Digitising Folktales for Animation and Value Education - Ilase Field Location Image"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_YoruFolk2020",
+        "name": "Regenerating Non-Formal Learning in Africa: Digitizing Yoruba Folktales for Animation and Value Education"
+      },
+      "dre_id": "aag-02-0002"
+    },
+    {
+      "_id": "66c71c3e22a01f1d1ea08ee8",
+      "titleInfo": [
+        {
+          "title": "Digitising Folktales for Animation and Value Education - Igboho Field Location Video"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_YoruFolk2020",
+        "name": "Regenerating Non-Formal Learning in Africa: Digitizing Yoruba Folktales for Animation and Value Education"
+      },
+      "dre_id": "aag-02-0003"
+    },
+    {
+      "_id": "66c71c3e22a01f1d1ea08ee9",
+      "titleInfo": [
+        {
+          "title": "Digitising Folktales for Animation and Value Education - Oshogbo Field Location Video"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_YoruFolk2020",
+        "name": "Regenerating Non-Formal Learning in Africa: Digitizing Yoruba Folktales for Animation and Value Education"
+      },
+      "dre_id": "aag-02-0004"
+    },
+    {
+      "_id": "66c71c3e22a01f1d1ea08eea",
+      "titleInfo": [
+        {
+          "title": "Digitising Folktales for Animation and Value Education - Analysis of Questionnare"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_YoruFolk2020",
+        "name": "Regenerating Non-Formal Learning in Africa: Digitizing Yoruba Folktales for Animation and Value Education"
+      },
+      "dre_id": "aag-02-0005"
+    },
+    {
+      "_id": "66c71c3e22a01f1d1ea08eeb",
+      "titleInfo": [
+        {
+          "title": "Digitising Folktales for Animation and Value Education - Analysis of Focus Group Discussions"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_YoruFolk2020",
+        "name": "Regenerating Non-Formal Learning in Africa: Digitizing Yoruba Folktales for Animation and Value Education"
+      },
+      "dre_id": "aag-02-0006"
+    },
+    {
+      "_id": "66c71c3e22a01f1d1ea08eec",
+      "titleInfo": [
+        {
+          "title": "Digitising Folktales for Animation and Value Education - Research Report Presentation"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_YoruFolk2020",
+        "name": "Regenerating Non-Formal Learning in Africa: Digitizing Yoruba Folktales for Animation and Value Education"
+      },
+      "dre_id": "aag-02-0007"
+    },
+    {
+      "_id": "66c71c3e22a01f1d1ea08eed",
+      "titleInfo": [
+        {
+          "title": "Digitising Folktales for Animation and Value Education - Workshop Presentation"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_YoruFolk2020",
+        "name": "Regenerating Non-Formal Learning in Africa: Digitizing Yoruba Folktales for Animation and Value Education"
+      },
+      "dre_id": "aag-02-0008"
+    },
+    {
+      "_id": "66c71c3e22a01f1d1ea08eee",
+      "titleInfo": [
+        {
+          "title": "Digitising Folktales for Animation and Value Education - Animated Video 1"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_YoruFolk2020",
+        "name": "Regenerating Non-Formal Learning in Africa: Digitizing Yoruba Folktales for Animation and Value Education"
+      },
+      "dre_id": "aag-02-0009"
+    },
+    {
+      "_id": "66c71c3e22a01f1d1ea08eef",
+      "titleInfo": [
+        {
+          "title": "Digitising Folktales for Animation and Value Education - Animated Video 2"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_YoruFolk2020",
+        "name": "Regenerating Non-Formal Learning in Africa: Digitizing Yoruba Folktales for Animation and Value Education"
+      },
+      "dre_id": "aag-02-000a"
+    },
+    {
+      "_id": "66c71c3e22a01f1d1ea08ef0",
+      "titleInfo": [
+        {
+          "title": "Digitising Folktales for Animation and Value Education - Animated Video 3"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_YoruFolk2020",
+        "name": "Regenerating Non-Formal Learning in Africa: Digitizing Yoruba Folktales for Animation and Value Education"
+      },
+      "dre_id": "aag-02-000b"
+    },
+    {
+      "_id": "66c71c3e22a01f1d1ea08ef1",
+      "titleInfo": [
+        {
+          "title": "Digitising Folktales for Animation and Value Education - Animated Video 4"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_YoruFolk2020",
+        "name": "Regenerating Non-Formal Learning in Africa: Digitizing Yoruba Folktales for Animation and Value Education"
+      },
+      "dre_id": "aag-02-000c"
+    },
+    {
+      "_id": "66c71c3e22a01f1d1ea08ef2",
+      "titleInfo": [
+        {
+          "title": "Digitising Folktales for Animation and Value Education - Animated Video 5"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_YoruFolk2020",
+        "name": "Regenerating Non-Formal Learning in Africa: Digitizing Yoruba Folktales for Animation and Value Education"
+      },
+      "dre_id": "aag-02-000d"
+    },
+    {
+      "_id": "66c71c3e22a01f1d1ea08ef3",
+      "titleInfo": [
+        {
+          "title": "Digitising Folktales for Animation and Value Education - Animated Video 6"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_YoruFolk2020",
+        "name": "Regenerating Non-Formal Learning in Africa: Digitizing Yoruba Folktales for Animation and Value Education"
+      },
+      "dre_id": "aag-02-000e"
+    },
+    {
+      "_id": "69c1568d666e5b9f92cf9f60",
+      "titleInfo": [
+        {
+          "title": "Synthese d’entretien le juge d’instruction du cabinet en charge des questions des enfants en conflits avec la loi; du Tribunal de Grande Instance de Ouaga 1"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0008"
+    },
+    {
+      "_id": "69c1568d666e5b9f92cf9f64",
+      "titleInfo": [
+        {
+          "title": "Synthèse d’entretien avec madame la juge des enfants au tribunal de grande instance de Ouagadougou"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-000c"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f6a",
+      "titleInfo": [
+        {
+          "title": "Rapport"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0012"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f6b",
+      "titleInfo": [
+        {
+          "title": "Synthèse"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0013"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f6d",
+      "titleInfo": [
+        {
+          "title": "Rapport"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0015"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f6e",
+      "titleInfo": [
+        {
+          "title": "Rapport"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0016"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f6f",
+      "titleInfo": [
+        {
+          "title": "Rapport"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0017"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f70",
+      "titleInfo": [
+        {
+          "title": "Rapport"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0018"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f71",
+      "titleInfo": [
+        {
+          "title": "Entretien"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0019"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f72",
+      "titleInfo": [
+        {
+          "title": "Entretien"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-001a"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f73",
+      "titleInfo": [
+        {
+          "title": "Entretien"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-001b"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f74",
+      "titleInfo": [
+        {
+          "title": "Entretien"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-001c"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f75",
+      "titleInfo": [
+        {
+          "title": "Entretien"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-001d"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f76",
+      "titleInfo": [
+        {
+          "title": "Entretien"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-001e"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f77",
+      "titleInfo": [
+        {
+          "title": "Communication"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-001f"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f78",
+      "titleInfo": [
+        {
+          "title": "Communication"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0020"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f79",
+      "titleInfo": [
+        {
+          "title": "Documentation"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0021"
+    }
+  ]
+}

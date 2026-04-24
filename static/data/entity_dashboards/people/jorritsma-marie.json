@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "jorritsma-marie",
+    "name": "Jorritsma, Marie",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2008,
+      "count": 1
+    },
+    {
+      "year": 2010,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2008,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2010,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Church music",
+      "value": 1
+    },
+    {
+      "name": "Aesthetics",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Church music",
+      "value": 1
+    },
+    {
+      "name": "Aesthetics",
+      "value": 1
+    },
+    {
+      "name": "Tanzania",
+      "value": 1
+    },
+    {
+      "name": "Dar es Salaam",
+      "value": 1
+    },
+    {
+      "name": "Temporal Aesthetics",
+      "value": 1
+    },
+    {
+      "name": "Spatial Aesthetics",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ecad",
+      "titleInfo": [
+        {
+          "title": "The hidden transcripts of sacred song in a South African coloured community"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02c8"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ecce",
+      "titleInfo": [
+        {
+          "title": "Sounds of Muziki wa Injili: Temporal and Spatial Aesthetics of Contemporary - Church Music in Dar es Salaam, Tanzania. Imani Sanga. 2010. Saarbrucken, Germany: Lap Lambert Academic Publishing. 231 pp. photos, transcriptions, ISBN 978-3-8383-6325-7."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02e9"
+    }
+  ]
+}

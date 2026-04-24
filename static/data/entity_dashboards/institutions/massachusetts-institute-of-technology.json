@@ -1,0 +1,235 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "massachusetts-institute-of-technology",
+    "name": "Massachusetts Institute of Technology",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 1999,
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1999,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2019,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2020,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Drum",
+      "value": 1
+    },
+    {
+      "name": "Djembe",
+      "value": 1
+    },
+    {
+      "name": "Ecomusicology",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Drum music",
+      "value": 1
+    },
+    {
+      "name": "Climate changes",
+      "value": 1
+    },
+    {
+      "name": "Nationalism",
+      "value": 1
+    },
+    {
+      "name": "Postcolonialism",
+      "value": 1
+    },
+    {
+      "name": "Decolonisation",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 3
+    },
+    {
+      "name": "Drum",
+      "value": 1
+    },
+    {
+      "name": "Djembe",
+      "value": 1
+    },
+    {
+      "name": "Ecomusicology",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Drum music",
+      "value": 1
+    },
+    {
+      "name": "Climate changes",
+      "value": 1
+    },
+    {
+      "name": "Sabar (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Sanegal",
+      "value": 1
+    },
+    {
+      "name": "Drum (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Nationalism",
+      "value": 1
+    },
+    {
+      "name": "Postcolonialism",
+      "value": 1
+    },
+    {
+      "name": "Decolonisation",
+      "value": 1
+    },
+    {
+      "name": "Western Sahara",
+      "value": 1
+    },
+    {
+      "name": "Mauritania",
+      "value": 1
+    },
+    {
+      "name": "Nationhood",
+      "value": 1
+    },
+    {
+      "name": "Precolonial Past",
+      "value": 1
+    },
+    {
+      "name": "Haul Music",
+      "value": 1
+    },
+    {
+      "name": "Mobility",
+      "value": 1
+    },
+    {
+      "name": "Trab el Bidan",
+      "value": 1
+    },
+    {
+      "name": "Postcolonial Studies",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Makubuya, James",
+      "value": 1
+    },
+    {
+      "name": "Tang, Patricia",
+      "value": 1
+    },
+    {
+      "name": "Amoros, Luis Gimenez",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ec85",
+      "titleInfo": [
+        {
+          "title": "The ndongo bowl lyre of the Baganda: an examination of its sonic properties"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02a0"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edac",
+      "titleInfo": [
+        {
+          "title": "TWENTY-FIRST CENTURY SABAR DRUMS: INNOVATIONS IN ORGANOLOGY AND PERFORMANCE PRACTICES IN SENEGAL AND THE DIASPORA"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03c7"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edbc",
+      "titleInfo": [
+        {
+          "title": "BEYOND NATIONHOOD: HAUL MUSIC FROM A POSTCOLONIAL PERSPECTIVE IN WESTERN SAHARA AND MAURITANIA"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03d7"
+    }
+  ]
+}

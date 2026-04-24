@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "nsenga-african-people",
+    "name": "Nsenga (African people)",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1961,
+      "count": 1
+    },
+    {
+      "year": 1970,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1961,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1970,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Mbira",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Mbira music",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Zambia",
+      "value": 2
+    },
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Mbira",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Mbira music",
+      "value": 1
+    },
+    {
+      "name": "Mbira (Instrument)",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Blacking, John",
+      "value": 1
+    },
+    {
+      "name": "Mensah, Atta Annan",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9eab3",
+      "titleInfo": [
+        {
+          "title": "Patterns of Nsenga Kalimba music"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00ce"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb7f",
+      "titleInfo": [
+        {
+          "title": "The music of Zumaile village, Zambia"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-019a"
+    }
+  ]
+}

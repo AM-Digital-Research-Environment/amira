@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "mohrenapotheke",
+    "name": "Mohrenapotheke",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2018,
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2018,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2020,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Racism",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Racism",
+      "value": 2
+    },
+    {
+      "name": "Daily Racism",
+      "value": 2
+    },
+    {
+      "name": "Local Press",
+      "value": 2
+    },
+    {
+      "name": "Language",
+      "value": 2
+    },
+    {
+      "name": "Tradition",
+      "value": 1
+    },
+    {
+      "name": "Carnival Society",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Bowersox, Jeff",
+      "value": 1
+    },
+    {
+      "name": "Müller, Stefan",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "692db49707481a28c72155be",
+      "titleInfo": [
+        {
+          "title": "Kritik an der Mohrenapotheke"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0016"
+    },
+    {
+      "_id": "692db49707481a28c72155bf",
+      "titleInfo": [
+        {
+          "title": "Bayreuther Mohrenwäscher: Vom Spottnamen zur Faschingsgesellschaft"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0017"
+    }
+  ]
+}

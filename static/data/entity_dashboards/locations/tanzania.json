@@ -1,0 +1,391 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "tanzania",
+    "name": "Tanzania",
+    "count": 7
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "count": 4
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2021,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 2022,
+      "total": 4,
+      "byType": {
+        "Text": 4
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 7
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 7
+    },
+    {
+      "name": "Maasai",
+      "value": 3
+    },
+    {
+      "name": "Swahili",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Arid regions",
+      "value": 6
+    },
+    {
+      "name": "Maasai (African people)",
+      "value": 5
+    },
+    {
+      "name": "East Africa",
+      "value": 5
+    },
+    {
+      "name": "Vaccination",
+      "value": 3
+    },
+    {
+      "name": "Livestock",
+      "value": 2
+    },
+    {
+      "name": "Tourism",
+      "value": 2
+    },
+    {
+      "name": "Sustainable tourism",
+      "value": 1
+    },
+    {
+      "name": "Corruption",
+      "value": 1
+    },
+    {
+      "name": "Political corruption",
+      "value": 1
+    },
+    {
+      "name": "Households",
+      "value": 1
+    },
+    {
+      "name": "Agriculture",
+      "value": 1
+    },
+    {
+      "name": "Farm corporations",
+      "value": 1
+    },
+    {
+      "name": "Naturopathy",
+      "value": 1
+    },
+    {
+      "name": "Prices",
+      "value": 1
+    },
+    {
+      "name": "Travel",
+      "value": 1
+    },
+    {
+      "name": "Mass media",
+      "value": 1
+    },
+    {
+      "name": "Hygiene",
+      "value": 1
+    },
+    {
+      "name": "Food security",
+      "value": 1
+    },
+    {
+      "name": "Water",
+      "value": 1
+    },
+    {
+      "name": "Social distancing (Public health)",
+      "value": 1
+    },
+    {
+      "name": "Ecology",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 7
+    },
+    {
+      "name": "Arid regions",
+      "value": 6
+    },
+    {
+      "name": "Maasai (African people)",
+      "value": 5
+    },
+    {
+      "name": "East Africa",
+      "value": 5
+    },
+    {
+      "name": "Tanzania",
+      "value": 5
+    },
+    {
+      "name": "Vaccination",
+      "value": 3
+    },
+    {
+      "name": "Sociality",
+      "value": 3
+    },
+    {
+      "name": "Kenya",
+      "value": 3
+    },
+    {
+      "name": "Livestock",
+      "value": 2
+    },
+    {
+      "name": "Mobility",
+      "value": 2
+    },
+    {
+      "name": "Tourism",
+      "value": 2
+    },
+    {
+      "name": "Lockdown",
+      "value": 2
+    },
+    {
+      "name": "Pastoralist",
+      "value": 2
+    },
+    {
+      "name": "Conservancy",
+      "value": 2
+    },
+    {
+      "name": "Sustainable tourism",
+      "value": 1
+    },
+    {
+      "name": "Corruption",
+      "value": 1
+    },
+    {
+      "name": "Political corruption",
+      "value": 1
+    },
+    {
+      "name": "Conflict",
+      "value": 1
+    },
+    {
+      "name": "Households",
+      "value": 1
+    },
+    {
+      "name": "Border",
+      "value": 1
+    },
+    {
+      "name": "Agriculture",
+      "value": 1
+    },
+    {
+      "name": "Farm corporations",
+      "value": 1
+    },
+    {
+      "name": "China",
+      "value": 1
+    },
+    {
+      "name": "Naturopathy",
+      "value": 1
+    },
+    {
+      "name": "Livelihood",
+      "value": 1
+    },
+    {
+      "name": "Endundulu",
+      "value": 1
+    },
+    {
+      "name": "Prices",
+      "value": 1
+    },
+    {
+      "name": "Travel",
+      "value": 1
+    },
+    {
+      "name": "Ghana",
+      "value": 1
+    },
+    {
+      "name": "Senegal",
+      "value": 1
+    },
+    {
+      "name": "Mass media",
+      "value": 1
+    },
+    {
+      "name": "Hygiene",
+      "value": 1
+    },
+    {
+      "name": "Food security",
+      "value": 1
+    },
+    {
+      "name": "Water",
+      "value": 1
+    },
+    {
+      "name": "Social distancing (Public health)",
+      "value": 1
+    },
+    {
+      "name": "Ecology",
+      "value": 1
+    },
+    {
+      "name": "Household Income",
+      "value": 1
+    },
+    {
+      "name": "Local Understanding",
+      "value": 1
+    },
+    {
+      "name": "Environment",
+      "value": 1
+    },
+    {
+      "name": "COVID-19",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kronenburg García, Angela",
+      "value": 5
+    },
+    {
+      "name": "Samimi, Cyrus",
+      "value": 3
+    },
+    {
+      "name": "Roque de Pinho, Joana",
+      "value": 3
+    },
+    {
+      "name": "Goldman, Mara",
+      "value": 3
+    },
+    {
+      "name": "Seenoi, Debra",
+      "value": 2
+    },
+    {
+      "name": "Heita, Jona",
+      "value": 2
+    },
+    {
+      "name": "Gambiza, James",
+      "value": 2
+    },
+    {
+      "name": "Nurudong, Primus",
+      "value": 2
+    },
+    {
+      "name": "Hashimshony Yaffe, Nurit",
+      "value": 2
+    },
+    {
+      "name": "Schrijver, Annemiek Pas",
+      "value": 2
+    },
+    {
+      "name": "Gargallo, Eduard",
+      "value": 2
+    },
+    {
+      "name": "Toima, Mamus Litan",
+      "value": 2
+    },
+    {
+      "name": "Behrends, Andrea",
+      "value": 1
+    },
+    {
+      "name": "ole Mowuo, Lenaai",
+      "value": 1
+    },
+    {
+      "name": "Pepa, Mariasole",
+      "value": 1
+    },
+    {
+      "name": "Moschetti, Marta",
+      "value": 1
+    },
+    {
+      "name": "Pase, Andrea",
+      "value": 1
+    },
+    {
+      "name": "Neboo, Stanley ole",
+      "value": 1
+    },
+    {
+      "name": "Haller, Tobias",
+      "value": 1
+    }
+  ]
+}

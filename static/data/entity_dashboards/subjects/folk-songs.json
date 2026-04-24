@@ -1,0 +1,268 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "folk-songs",
+    "name": "Folk songs",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 1954,
+      "count": 2
+    },
+    {
+      "year": 1959,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1954,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1959,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 3
+    },
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Africa",
+      "value": 2
+    },
+    {
+      "name": "History",
+      "value": 2
+    },
+    {
+      "name": "Criticism",
+      "value": 2
+    },
+    {
+      "name": "Tonga (Zambezi people)",
+      "value": 2
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Tiv (African people)",
+      "value": 1
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    },
+    {
+      "name": "Dynamics",
+      "value": 1
+    },
+    {
+      "name": "Ila (African people)",
+      "value": 1
+    },
+    {
+      "name": "Polyrhythm",
+      "value": 1
+    },
+    {
+      "name": "Musical bow",
+      "value": 1
+    },
+    {
+      "name": "Kariba Dam (Zambia and Zimbabwe)",
+      "value": 1
+    },
+    {
+      "name": "Tsonga (African people)",
+      "value": 1
+    },
+    {
+      "name": "Drama",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Ethnomusicology",
+      "value": 3
+    },
+    {
+      "name": "African Music",
+      "value": 3
+    },
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Africa",
+      "value": 2
+    },
+    {
+      "name": "History",
+      "value": 2
+    },
+    {
+      "name": "Criticism",
+      "value": 2
+    },
+    {
+      "name": "Tonga (Zambezi people)",
+      "value": 2
+    },
+    {
+      "name": "Tonga (Zambia)",
+      "value": 2
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Tiv (African people)",
+      "value": 1
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    },
+    {
+      "name": "Musical Imitation",
+      "value": 1
+    },
+    {
+      "name": "Dynamics",
+      "value": 1
+    },
+    {
+      "name": "Ila (African people)",
+      "value": 1
+    },
+    {
+      "name": "Polyrhythm",
+      "value": 1
+    },
+    {
+      "name": "Musical bow",
+      "value": 1
+    },
+    {
+      "name": "Zambia",
+      "value": 1
+    },
+    {
+      "name": "Interpretation",
+      "value": 1
+    },
+    {
+      "name": "Kariba Dam (Zambia and Zimbabwe)",
+      "value": 1
+    },
+    {
+      "name": "Tsonga (African people)",
+      "value": 1
+    },
+    {
+      "name": "Drama",
+      "value": 1
+    },
+    {
+      "name": "Kariba Dam",
+      "value": 1
+    },
+    {
+      "name": "Folk Songs",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Lane, Michael G. M.",
+      "value": 1
+    },
+    {
+      "name": "Rycroft, David K.",
+      "value": 1
+    },
+    {
+      "name": "Tracey, Hugh",
+      "value": 1
+    },
+    {
+      "name": "Tracey, Peggy",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9e9fd",
+      "titleInfo": [
+        {
+          "title": "The music of Tiv"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0018"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9e9fe",
+      "titleInfo": [
+        {
+          "title": "Tribal style and free expression"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0019"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea79",
+      "titleInfo": [
+        {
+          "title": "The lost valley: a feature programme for broadcasting"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0094"
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "rwanda",
+    "name": "Rwanda",
+    "count": 5
+  },
+  "timeline": [
+    {
+      "year": 1964,
+      "count": 1
+    },
+    {
+      "year": 1965,
+      "count": 2
+    },
+    {
+      "year": 1973,
+      "count": 1
+    },
+    {
+      "year": 2009,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1964,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1965,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1973,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2009,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 5
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 4
+    },
+    {
+      "name": "French",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Central Africa",
+      "value": 5
+    },
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Violence",
+      "value": 1
+    },
+    {
+      "name": "Rwandan Genocide, Rwanda, 1994",
+      "value": 1
+    },
+    {
+      "name": "Radio",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Central Africa",
+      "value": 5
+    },
+    {
+      "name": "African Music",
+      "value": 5
+    },
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Violence",
+      "value": 1
+    },
+    {
+      "name": "Rwandan Genocide, Rwanda, 1994",
+      "value": 1
+    },
+    {
+      "name": "Radio",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kirby, Percival R.",
+      "value": 1
+    },
+    {
+      "name": "Brother Basil",
+      "value": 1
+    },
+    {
+      "name": "Gansemans, Jos",
+      "value": 1
+    },
+    {
+      "name": "McCoy, Jason",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 5
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9eae8",
+      "titleInfo": [
+        {
+          "title": "MUSIK IN RWANDA by ROBERT GUENTHER. Musee Royal de L’Afrique Centrale, Tervuren, Belgique, Annales — Serie IN-80 Sciences Humaines — No. 50, 1964."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0103"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eafe",
+      "titleInfo": [
+        {
+          "title": "“MUSIC IN RWANDA\", a contribution to the Ethnomusicology of Central Africa by Dr. ROBERT GUNTHER. Tervuren, Belgium, 1964."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0119"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb04",
+      "titleInfo": [
+        {
+          "title": "LE KALINGA, Tambour Enseigne du royaume et de la dynastie des rois Banyiginya du Rwanda, by Marcel Pauwels, W. F.; pp. 221-256, 17 illustrations and one map. 2. LA MUSIQUE ET LES INSTRUMENTS de la Musique des Noirs de la region de Baudoinville (Congo), by Joseph Weghsteen, W. F.; pp. 85-112, 25 illust. and 15 songs. Both reprints from The Annals of the Pontifical Missionary Museum of Ethnology, Vatican City, Vol. XXVI, 1962, and Vol. XXVIII, 1964, respectively"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-011f"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ebbf",
+      "titleInfo": [
+        {
+          "title": "Recherche ethnomusicologique au Rwanda"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01da"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ecc5",
+      "titleInfo": [
+        {
+          "title": "Making violence ordinary: radio, music and the Rwandan genocide"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02e0"
+    }
+  ]
+}

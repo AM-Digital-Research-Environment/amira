@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "wood-carving",
+    "name": "Wood-carving",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1960,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1960,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Wood-carvers",
+      "value": 1
+    },
+    {
+      "name": "Kamba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Handicraft",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Ethnology",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Wood-carvers",
+      "value": 1
+    },
+    {
+      "name": "Kamba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Handicraft",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Ethnology",
+      "value": 1
+    },
+    {
+      "name": "Kenya",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tracey, Andrew",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ea8f",
+      "titleInfo": [
+        {
+          "title": "Kamba carvers"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00aa"
+    }
+  ]
+}

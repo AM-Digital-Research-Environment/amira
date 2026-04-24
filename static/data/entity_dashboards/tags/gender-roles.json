@@ -1,0 +1,274 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "gender-roles",
+    "name": "Gender Roles",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2022,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2023,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    },
+    {
+      "name": "Moving image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Gender",
+      "value": 2
+    },
+    {
+      "name": "Gorilla",
+      "value": 1
+    },
+    {
+      "name": "Equality",
+      "value": 1
+    },
+    {
+      "name": "Performance",
+      "value": 1
+    },
+    {
+      "name": "Masquerades",
+      "value": 1
+    },
+    {
+      "name": "Esan (African people)",
+      "value": 1
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    },
+    {
+      "name": "Healing",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Ritual",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Gender",
+      "value": 2
+    },
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Family",
+      "value": 1
+    },
+    {
+      "name": "Gorilla",
+      "value": 1
+    },
+    {
+      "name": "Equality",
+      "value": 1
+    },
+    {
+      "name": "Performance",
+      "value": 1
+    },
+    {
+      "name": "Masquerades",
+      "value": 1
+    },
+    {
+      "name": "Esan (African people)",
+      "value": 1
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    },
+    {
+      "name": "Dance Repertoire",
+      "value": 1
+    },
+    {
+      "name": "Gender Stereotypes",
+      "value": 1
+    },
+    {
+      "name": "Dance Gestures",
+      "value": 1
+    },
+    {
+      "name": "Musicality",
+      "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    },
+    {
+      "name": "Healing",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Ritual",
+      "value": 1
+    },
+    {
+      "name": "Mfoba (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Ghana",
+      "value": 1
+    },
+    {
+      "name": "Dondo (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Indigenous Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "George, Ivy",
+      "value": 1
+    },
+    {
+      "name": "Gray, Jestina",
+      "value": 1
+    },
+    {
+      "name": "Government of Liberia",
+      "value": 1
+    },
+    {
+      "name": "Urey, Khrushchev Borbor",
+      "value": 1
+    },
+    {
+      "name": "Taylor, Adolphus",
+      "value": 1
+    },
+    {
+      "name": "Fakay, Soko",
+      "value": 1
+    },
+    {
+      "name": "Mensah, Sam",
+      "value": 1
+    },
+    {
+      "name": "McCrumada, Charles",
+      "value": 1
+    },
+    {
+      "name": "Aluede, Esther Omone",
+      "value": 1
+    },
+    {
+      "name": "Aluede, Charles Onomudo",
+      "value": 1
+    },
+    {
+      "name": "Asare, Amos Darkwa",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    },
+    {
+      "country": "Liberia",
+      "region": "Montserrado County",
+      "city": "Monrovia",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "6982337057a8e0353b0b1d62",
+      "titleInfo": [
+        {
+          "title": "Today's Woman"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0125"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edd6",
+      "titleInfo": [
+        {
+          "title": "Investigating gender stereotypes and musicality in Esan, Edo State, Nigeria"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03f1"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ede4",
+      "titleInfo": [
+        {
+          "title": "GENDERING MUSICAL DISCOURSE"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03ff"
+    }
+  ]
+}

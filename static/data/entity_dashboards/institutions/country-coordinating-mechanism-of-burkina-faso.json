@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "country-coordinating-mechanism-of-burkina-faso",
+    "name": "Country Coordinating Mechanism of Burkina Faso",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2022,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2022,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "World health",
+      "value": 2
+    },
+    {
+      "name": "Health",
+      "value": 2
+    },
+    {
+      "name": "Gender",
+      "value": 2
+    },
+    {
+      "name": "West Africa",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "World health",
+      "value": 2
+    },
+    {
+      "name": "Health",
+      "value": 2
+    },
+    {
+      "name": "Gender",
+      "value": 2
+    },
+    {
+      "name": "West Africa",
+      "value": 2
+    },
+    {
+      "name": "Global Health",
+      "value": 2
+    },
+    {
+      "name": "Men who have Sex with Men",
+      "value": 2
+    },
+    {
+      "name": "The Global Fund to Fight AIDS, Tuberculosis and Malaria",
+      "value": 2
+    },
+    {
+      "name": "Joint United Nations Programme on HIV/AIDS",
+      "value": 2
+    },
+    {
+      "name": "Global Health Policy",
+      "value": 2
+    },
+    {
+      "name": "Burkina Faso",
+      "value": 2
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Baguian, Sidibewindé Romain",
+      "value": 2
+    },
+    {
+      "name": "Drabo, Manessour",
+      "value": 1
+    },
+    {
+      "name": "Samadoulougou, Sotissi Benoit Césaire",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Burkina Faso",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "6718efd3c327cde4b57d8673",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Drabo Manessour"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0002"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8675",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Samadoulougou Sotissi Benoit Césaire"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0004"
+    }
+  ]
+}

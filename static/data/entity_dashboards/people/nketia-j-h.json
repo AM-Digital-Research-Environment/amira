@@ -1,0 +1,243 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "nketia-j-h",
+    "name": "Nketia, J. H.",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 1954,
+      "count": 1
+    },
+    {
+      "year": 1957,
+      "count": 1
+    },
+    {
+      "year": 1958,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1954,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1957,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1958,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "Musical instruments",
+      "value": 2
+    },
+    {
+      "name": "Drum language",
+      "value": 1
+    },
+    {
+      "name": "Talking drum",
+      "value": 1
+    },
+    {
+      "name": "Drum",
+      "value": 1
+    },
+    {
+      "name": "Akan (African people)",
+      "value": 1
+    },
+    {
+      "name": "Performance",
+      "value": 1
+    },
+    {
+      "name": "Drum music",
+      "value": 1
+    },
+    {
+      "name": "Percussion instruments",
+      "value": 1
+    },
+    {
+      "name": "History",
+      "value": 1
+    },
+    {
+      "name": "Criticism",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Adangme (African people)",
+      "value": 1
+    },
+    {
+      "name": "Ga (African people)",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 3
+    },
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "Musical instruments",
+      "value": 2
+    },
+    {
+      "name": "Ghana",
+      "value": 2
+    },
+    {
+      "name": "Drum language",
+      "value": 1
+    },
+    {
+      "name": "Talking drum",
+      "value": 1
+    },
+    {
+      "name": "Drum",
+      "value": 1
+    },
+    {
+      "name": "Akan (African people)",
+      "value": 1
+    },
+    {
+      "name": "Performance",
+      "value": 1
+    },
+    {
+      "name": "Drum music",
+      "value": 1
+    },
+    {
+      "name": "Percussion instruments",
+      "value": 1
+    },
+    {
+      "name": "History",
+      "value": 1
+    },
+    {
+      "name": "Criticism",
+      "value": 1
+    },
+    {
+      "name": "Drum (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Talking Drum (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Adangme (African people)",
+      "value": 1
+    },
+    {
+      "name": "Ga (African people)",
+      "value": 1
+    },
+    {
+      "name": "Idiophones",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9e9f5",
+      "titleInfo": [
+        {
+          "title": "The role of the drummer in Akan society"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0010"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea47",
+      "titleInfo": [
+        {
+          "title": "Modern trends in Ghana music"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0062"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea68",
+      "titleInfo": [
+        {
+          "title": "Organisation of music in Adangme society"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0083"
+    }
+  ]
+}

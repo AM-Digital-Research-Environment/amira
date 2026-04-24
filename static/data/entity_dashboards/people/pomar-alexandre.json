@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "pomar-alexandre",
+    "name": "Pomar, Alexandre",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2019,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2019,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Art",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Artists",
+      "value": 1
+    },
+    {
+      "name": "Exhibitions",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Art",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Artists",
+      "value": 1
+    },
+    {
+      "name": "Exhibitions",
+      "value": 1
+    },
+    {
+      "name": "Art Exhibition",
+      "value": 1
+    },
+    {
+      "name": "Email",
+      "value": 1
+    },
+    {
+      "name": "Cultural Centre",
+      "value": 1
+    },
+    {
+      "name": "Performing Arts Center",
+      "value": 1
+    },
+    {
+      "name": "Art Collector",
+      "value": 1
+    },
+    {
+      "name": "Art Collecting",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Greven, Katharina",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b512",
+      "titleInfo": [
+        {
+          "title": "E-Mail-Austausch zwischen Alexandre Pomar und Katharina Greven"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-008a"
+    }
+  ]
+}

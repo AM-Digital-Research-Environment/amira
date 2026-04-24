@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "jeweler",
+    "name": "Jeweler",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 1990,
+      "count": 2
+    },
+    {
+      "year": 2002,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1990,
+      "total": 2,
+      "byType": {
+        "Image": 2
+      }
+    },
+    {
+      "year": 2002,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 3
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Photography",
+      "value": 3
+    },
+    {
+      "name": "Anthropology",
+      "value": 3
+    },
+    {
+      "name": "Photographs",
+      "value": 3
+    },
+    {
+      "name": "Jewelry",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Photography",
+      "value": 3
+    },
+    {
+      "name": "Anthropology",
+      "value": 3
+    },
+    {
+      "name": "Photographs",
+      "value": 3
+    },
+    {
+      "name": "Sammlung Gerd Spittler",
+      "value": 3
+    },
+    {
+      "name": "Jewelry",
+      "value": 2
+    },
+    {
+      "name": "Silberschmuck",
+      "value": 1
+    },
+    {
+      "name": "Kunsthandwerk",
+      "value": 1
+    },
+    {
+      "name": "Silberschmied",
+      "value": 1
+    },
+    {
+      "name": "Schmiedehandwerk",
+      "value": 1
+    },
+    {
+      "name": "Schmuckherstellung",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Collections@UBT",
+      "value": 3
+    },
+    {
+      "name": "Spittler, Gerd",
+      "value": 3
+    }
+  ],
+  "locations": [
+    {
+      "country": "Niger",
+      "region": "Agadez Region",
+      "city": "Timia",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "66d97447c610a95a80dd95b9",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0030"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95ba",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0031"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95cb",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0042"
+    }
+  ]
+}

@@ -1,0 +1,1339 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "kenya",
+    "name": "Kenya",
+    "count": 44
+  },
+  "timeline": [
+    {
+      "year": 1954,
+      "count": 2
+    },
+    {
+      "year": 1958,
+      "count": 2
+    },
+    {
+      "year": 1959,
+      "count": 1
+    },
+    {
+      "year": 1960,
+      "count": 1
+    },
+    {
+      "year": 1968,
+      "count": 1
+    },
+    {
+      "year": 1975,
+      "count": 1
+    },
+    {
+      "year": 1982,
+      "count": 1
+    },
+    {
+      "year": 2007,
+      "count": 1
+    },
+    {
+      "year": 2011,
+      "count": 1
+    },
+    {
+      "year": 2014,
+      "count": 2
+    },
+    {
+      "year": 2016,
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "count": 5
+    },
+    {
+      "year": 2021,
+      "count": 22
+    },
+    {
+      "year": 2022,
+      "count": 3
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1954,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1958,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1959,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1960,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1968,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1975,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1982,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2007,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2011,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2014,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 2016,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2020,
+      "total": 5,
+      "byType": {
+        "Text": 4,
+        "Audio": 1
+      }
+    },
+    {
+      "year": 2021,
+      "total": 22,
+      "byType": {
+        "Text": 4,
+        "Image": 2,
+        "Moving image": 16
+      }
+    },
+    {
+      "year": 2022,
+      "total": 3,
+      "byType": {
+        "Text": 3
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 25
+    },
+    {
+      "name": "Moving image",
+      "value": 16
+    },
+    {
+      "name": "Image",
+      "value": 2
+    },
+    {
+      "name": "Audio",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 24
+    },
+    {
+      "name": "Swahili",
+      "value": 3
+    },
+    {
+      "name": "Spanish",
+      "value": 1
+    },
+    {
+      "name": "Catalan",
+      "value": 1
+    },
+    {
+      "name": "Maasai",
+      "value": 1
+    },
+    {
+      "name": "French",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Municipal engineering",
+      "value": 19
+    },
+    {
+      "name": "Construction",
+      "value": 19
+    },
+    {
+      "name": "Infrastructure (Economics)",
+      "value": 19
+    },
+    {
+      "name": "Arid regions",
+      "value": 8
+    },
+    {
+      "name": "East Africa",
+      "value": 8
+    },
+    {
+      "name": "Maasai (African people)",
+      "value": 7
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 7
+    },
+    {
+      "name": "Tourism",
+      "value": 5
+    },
+    {
+      "name": "Livestock",
+      "value": 4
+    },
+    {
+      "name": "Herders",
+      "value": 4
+    },
+    {
+      "name": "Musical instruments",
+      "value": 4
+    },
+    {
+      "name": "Vaccination",
+      "value": 3
+    },
+    {
+      "name": "Music",
+      "value": 3
+    },
+    {
+      "name": "History",
+      "value": 2
+    },
+    {
+      "name": "Education",
+      "value": 2
+    },
+    {
+      "name": "Stringed instruments",
+      "value": 2
+    },
+    {
+      "name": "Percussion instruments",
+      "value": 2
+    },
+    {
+      "name": "Food security",
+      "value": 1
+    },
+    {
+      "name": "Police",
+      "value": 1
+    },
+    {
+      "name": "Households",
+      "value": 1
+    },
+    {
+      "name": "Gabbra (African people)",
+      "value": 1
+    },
+    {
+      "name": "Samburu (African people)",
+      "value": 1
+    },
+    {
+      "name": "Oromo (African people)",
+      "value": 1
+    },
+    {
+      "name": "Gender",
+      "value": 1
+    },
+    {
+      "name": "Diseases",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Municipal engineering",
+      "value": 19
+    },
+    {
+      "name": "Construction",
+      "value": 19
+    },
+    {
+      "name": "Infrastructure (Economics)",
+      "value": 19
+    },
+    {
+      "name": "Marginalised Communities",
+      "value": 19
+    },
+    {
+      "name": "Infrastructure Development",
+      "value": 19
+    },
+    {
+      "name": "Municipal Road",
+      "value": 19
+    },
+    {
+      "name": "Nigeria",
+      "value": 19
+    },
+    {
+      "name": "African Music",
+      "value": 14
+    },
+    {
+      "name": "Arid regions",
+      "value": 8
+    },
+    {
+      "name": "East Africa",
+      "value": 8
+    },
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 8
+    },
+    {
+      "name": "Maasai (African people)",
+      "value": 7
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 7
+    },
+    {
+      "name": "Tourism",
+      "value": 5
+    },
+    {
+      "name": "Pastoralist",
+      "value": 5
+    },
+    {
+      "name": "Livestock",
+      "value": 4
+    },
+    {
+      "name": "Herders",
+      "value": 4
+    },
+    {
+      "name": "Conservancy",
+      "value": 4
+    },
+    {
+      "name": "Lockdown",
+      "value": 4
+    },
+    {
+      "name": "Musical instruments",
+      "value": 4
+    },
+    {
+      "name": "Vaccination",
+      "value": 3
+    },
+    {
+      "name": "Tanzania",
+      "value": 3
+    },
+    {
+      "name": "Mega Infrastructure",
+      "value": 3
+    },
+    {
+      "name": "Lamu Port and Lamu-Southern Sudan-Ethiopia Transport Corridor",
+      "value": 3
+    },
+    {
+      "name": "Music",
+      "value": 3
+    },
+    {
+      "name": "History",
+      "value": 2
+    },
+    {
+      "name": "Education",
+      "value": 2
+    },
+    {
+      "name": "Stringed instruments",
+      "value": 2
+    },
+    {
+      "name": "Percussion instruments",
+      "value": 2
+    },
+    {
+      "name": "Music of Congo",
+      "value": 2
+    },
+    {
+      "name": "Food security",
+      "value": 1
+    },
+    {
+      "name": "Conflict",
+      "value": 1
+    },
+    {
+      "name": "Police",
+      "value": 1
+    },
+    {
+      "name": "Households",
+      "value": 1
+    },
+    {
+      "name": "Border",
+      "value": 1
+    },
+    {
+      "name": "Gabbra (African people)",
+      "value": 1
+    },
+    {
+      "name": "Samburu (African people)",
+      "value": 1
+    },
+    {
+      "name": "Oromo (African people)",
+      "value": 1
+    },
+    {
+      "name": "Gender",
+      "value": 1
+    },
+    {
+      "name": "Sexuality",
+      "value": 1
+    },
+    {
+      "name": "Chalbi Desert",
+      "value": 1
+    },
+    {
+      "name": "Diseases",
+      "value": 1
+    },
+    {
+      "name": "Grazing",
+      "value": 1
+    },
+    {
+      "name": "Animal Disease",
+      "value": 1
+    },
+    {
+      "name": "Elderly People",
+      "value": 1
+    },
+    {
+      "name": "Prices",
+      "value": 1
+    },
+    {
+      "name": "Travel",
+      "value": 1
+    },
+    {
+      "name": "Sociality",
+      "value": 1
+    },
+    {
+      "name": "Ghana",
+      "value": 1
+    },
+    {
+      "name": "Senegal",
+      "value": 1
+    },
+    {
+      "name": "Mobility",
+      "value": 1
+    },
+    {
+      "name": "Race relations",
+      "value": 1
+    },
+    {
+      "name": "Colonies",
+      "value": 1
+    },
+    {
+      "name": "Colonisation",
+      "value": 1
+    },
+    {
+      "name": "Mau Mau Rebellion",
+      "value": 1
+    },
+    {
+      "name": "Mau Mau",
+      "value": 1
+    },
+    {
+      "name": "Great Britain",
+      "value": 1
+    },
+    {
+      "name": "Music festivals",
+      "value": 1
+    },
+    {
+      "name": "Choirs (Music)",
+      "value": 1
+    },
+    {
+      "name": "Choral conductors",
+      "value": 1
+    },
+    {
+      "name": "Festivals",
+      "value": 1
+    },
+    {
+      "name": "Woodwind instruments",
+      "value": 1
+    },
+    {
+      "name": "Wood-carving",
+      "value": 1
+    },
+    {
+      "name": "Wood-carvers",
+      "value": 1
+    },
+    {
+      "name": "Kamba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Handicraft",
+      "value": 1
+    },
+    {
+      "name": "Ethnology",
+      "value": 1
+    },
+    {
+      "name": "Popular music",
+      "value": 1
+    },
+    {
+      "name": "Guitar Music",
+      "value": 1
+    },
+    {
+      "name": "Poetry",
+      "value": 1
+    },
+    {
+      "name": "Swahili Music",
+      "value": 1
+    },
+    {
+      "name": "Languid Charm",
+      "value": 1
+    },
+    {
+      "name": "Christianity",
+      "value": 1
+    },
+    {
+      "name": "Religious Song",
+      "value": 1
+    },
+    {
+      "name": "Benga Music",
+      "value": 1
+    },
+    {
+      "name": "Benga Beat",
+      "value": 1
+    },
+    {
+      "name": "Flute",
+      "value": 1
+    },
+    {
+      "name": "Bark Flute (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Flute (Instrument)",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Yakubu, Moses",
+      "value": 19
+    },
+    {
+      "name": "Attoh, Franca",
+      "value": 19
+    },
+    {
+      "name": "Ademola-Adeoye, Feyisayo",
+      "value": 19
+    },
+    {
+      "name": "Adebayo, Bukola",
+      "value": 19
+    },
+    {
+      "name": "Adeniran, Samuel",
+      "value": 19
+    },
+    {
+      "name": "Anyanwu, Beatrice",
+      "value": 19
+    },
+    {
+      "name": "Akintola, Folashade",
+      "value": 19
+    },
+    {
+      "name": "Olukuade, Tomide",
+      "value": 19
+    },
+    {
+      "name": "Ademola, Lydia",
+      "value": 19
+    },
+    {
+      "name": "Kronenburg García, Angela",
+      "value": 8
+    },
+    {
+      "name": "Gargallo, Eduard",
+      "value": 6
+    },
+    {
+      "name": "Roque de Pinho, Joana",
+      "value": 6
+    },
+    {
+      "name": "Hashimshony Yaffe, Nurit",
+      "value": 4
+    },
+    {
+      "name": "Goldman, Mara",
+      "value": 4
+    },
+    {
+      "name": "Hyslop, Graham H.",
+      "value": 4
+    },
+    {
+      "name": "Schrijver, Annemiek Pas",
+      "value": 3
+    },
+    {
+      "name": "Kinyera, Paddy Banya",
+      "value": 3
+    },
+    {
+      "name": "Doevenspeck, Martin",
+      "value": 3
+    },
+    {
+      "name": "ole Mowuo, Lenaai",
+      "value": 2
+    },
+    {
+      "name": "Tallio, Virginie",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 14
+    },
+    {
+      "country": "Nigeria",
+      "region": "Kaduna State",
+      "city": "",
+      "count": 7
+    },
+    {
+      "country": "Nigeria",
+      "region": "Edo State",
+      "city": "",
+      "count": 6
+    },
+    {
+      "country": "Nigeria",
+      "region": "Ondo State",
+      "city": "",
+      "count": 6
+    },
+    {
+      "country": "Kenya",
+      "region": "Narok",
+      "city": "Mpuaai",
+      "count": 3
+    },
+    {
+      "country": "Kenya",
+      "region": "Turkana",
+      "city": "Turkana South",
+      "count": 3
+    },
+    {
+      "country": "Kenya",
+      "region": "Narok",
+      "city": "Maasai Mara National Reserve",
+      "count": 2
+    },
+    {
+      "country": "Kenya",
+      "region": "Narok",
+      "city": "Loita Hills",
+      "count": 1
+    },
+    {
+      "country": "Kenya",
+      "region": "Marsabit",
+      "city": "Kalacha",
+      "count": 1
+    },
+    {
+      "country": "Kenya",
+      "region": "Kajiado",
+      "city": "Olepolos",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "66cefaf495a000d4c7bf3705",
+      "titleInfo": [
+        {
+          "title": "Angela Kronenburg Garcia's Zoom meeting transcript and report on Kenya, September 15, 2020"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0000"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf370b",
+      "titleInfo": [
+        {
+          "title": "Debra Seenoi's transcript, Kenya, June 13, 2022"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0006"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf370d",
+      "titleInfo": [
+        {
+          "title": "Joana Roque de Pinho Zoom's transcript, Kenya, October 10, 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0008"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3710",
+      "titleInfo": [
+        {
+          "title": "Lenaai ole Mowuo's Zoom transcript, Kenya, June 27, 2022"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-000b"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3714",
+      "titleInfo": [
+        {
+          "title": "Nurit Hashimshony Yaffe's Zoom transcript, November 15, 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-000f"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3721",
+      "titleInfo": [
+        {
+          "title": "Stanley ole Neboo's Zoom meeting transcript on Kenya, October 26, 2020"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-001c"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3722",
+      "titleInfo": [
+        {
+          "title": "Stanley ole Neboo's Zoom meeting transcript on Kenya, January 31, 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-001d"
+    },
+    {
+      "_id": "67ab2add0bfd6faab62399d8",
+      "titleInfo": [
+        {
+          "title": "Joana Roque de Pinho's Zoom transcript, Kenya, July 26, 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0025"
+    },
+    {
+      "_id": "66e30b89f27a094a184204b1",
+      "titleInfo": [
+        {
+          "title": "Transcript of Interview with a Sub-county official - Turkana South, Lokichar"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_OilMov2019",
+        "name": "Oil Movements: The Production and Government of Petro-(im)mobilities in East Africa"
+      },
+      "dre_id": "aca-01-0001"
+    },
+    {
+      "_id": "66e30b89f27a094a184204b3",
+      "titleInfo": [
+        {
+          "title": "Transcript of Interview Chair of COE - Turkana South, Lokichar"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_OilMov2019",
+        "name": "Oil Movements: The Production and Government of Petro-(im)mobilities in East Africa"
+      },
+      "dre_id": "aca-01-0003"
+    },
+    {
+      "_id": "66e30b89f27a094a184204b5",
+      "titleInfo": [
+        {
+          "title": "Audio recording of an interview with LAPSSET project activist in Lokichar, Turkana South, Kenya"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_OilMov2019",
+        "name": "Oil Movements: The Production and Government of Petro-(im)mobilities in East Africa"
+      },
+      "dre_id": "aca-01-0005"
+    },
+    {
+      "_id": "6718f59ac327cde4b57d86c5",
+      "titleInfo": [
+        {
+          "title": "Field Report on Municipal Road Construction in Kenya and Nigeria: The Politics of Infrastructure Development"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_MRC2021",
+        "name": "Municipal Road Construction in Kenya and Nigeria: Investigating the Politics of Infrastructure Development"
+      },
+      "dre_id": "aac-02-0000"
+    },
+    {
+      "_id": "6718f59ac327cde4b57d86c6",
+      "titleInfo": [
+        {
+          "title": "First Audio Record of the interview on  Municipal Road Construction in Kenya and Nigeria (Recorded in Kaduna)"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_MRC2021",
+        "name": "Municipal Road Construction in Kenya and Nigeria: Investigating the Politics of Infrastructure Development"
+      },
+      "dre_id": "aac-02-0001"
+    },
+    {
+      "_id": "6718f59ac327cde4b57d86c7",
+      "titleInfo": [
+        {
+          "title": "Second Audio Record of the interview on  Municipal Road Construction in Kenya and Nigeria (Recorded in Kaduna)"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_MRC2021",
+        "name": "Municipal Road Construction in Kenya and Nigeria: Investigating the Politics of Infrastructure Development"
+      },
+      "dre_id": "aac-02-0002"
+    },
+    {
+      "_id": "6718f59ac327cde4b57d86c8",
+      "titleInfo": [
+        {
+          "title": "Audio Record 1 of the interview on  Municipal Road Construction in Kenya and Nigeria (Recorded in Benin, Edo Nigeria)"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_MRC2021",
+        "name": "Municipal Road Construction in Kenya and Nigeria: Investigating the Politics of Infrastructure Development"
+      },
+      "dre_id": "aac-02-0003"
+    },
+    {
+      "_id": "6718f59ac327cde4b57d86c9",
+      "titleInfo": [
+        {
+          "title": "Audio Record 2 of the interview on  Municipal Road Construction in Kenya and Nigeria (Recorded in Benin, Edo Nigeria)"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_MRC2021",
+        "name": "Municipal Road Construction in Kenya and Nigeria: Investigating the Politics of Infrastructure Development"
+      },
+      "dre_id": "aac-02-0004"
+    },
+    {
+      "_id": "6718f59ac327cde4b57d86ca",
+      "titleInfo": [
+        {
+          "title": "Interview on  Municipal Road Construction in Kenya and Nigeria (Recorded in Akure, Ondo Nigeria)"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_MRC2021",
+        "name": "Municipal Road Construction in Kenya and Nigeria: Investigating the Politics of Infrastructure Development"
+      },
+      "dre_id": "aac-02-0005"
+    },
+    {
+      "_id": "6718f59ac327cde4b57d86cb",
+      "titleInfo": [
+        {
+          "title": "Audio Record of the interview on  Municipal Road Construction in Kenya and Nigeria (Recorded in Akure, Ondo Nigeria)"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_MRC2021",
+        "name": "Municipal Road Construction in Kenya and Nigeria: Investigating the Politics of Infrastructure Development"
+      },
+      "dre_id": "aac-02-0006"
+    },
+    {
+      "_id": "6718f59ac327cde4b57d86cc",
+      "titleInfo": [
+        {
+          "title": "Image on Municipal Road Construction in Kenya and Nigeria: The Politics of Infrastructure Development (Image taken in Kaduna)"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_MRC2021",
+        "name": "Municipal Road Construction in Kenya and Nigeria: Investigating the Politics of Infrastructure Development"
+      },
+      "dre_id": "aac-02-0007"
+    },
+    {
+      "_id": "6718f59ac327cde4b57d86cd",
+      "titleInfo": [
+        {
+          "title": "Municipal Road Construction in Kenya and Nigeria: The Politics of Infrastructure Development (Image 2 taken in Kaduna)"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_MRC2021",
+        "name": "Municipal Road Construction in Kenya and Nigeria: Investigating the Politics of Infrastructure Development"
+      },
+      "dre_id": "aac-02-0008"
+    },
+    {
+      "_id": "6718f59ac327cde4b57d86ce",
+      "titleInfo": [
+        {
+          "title": "Municipal Road Construction in Kenya and Nigeria: The Politics of Infrastructure Development (Image 1 taken in, Benin Edo)"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_MRC2021",
+        "name": "Municipal Road Construction in Kenya and Nigeria: Investigating the Politics of Infrastructure Development"
+      },
+      "dre_id": "aac-02-0009"
+    },
+    {
+      "_id": "6718f59ac327cde4b57d86cf",
+      "titleInfo": [
+        {
+          "title": "Image on Municipal Road Construction in Kenya and Nigeria: The Politics of Infrastructure Development (Image 2, Benin Edo)"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_MRC2021",
+        "name": "Municipal Road Construction in Kenya and Nigeria: Investigating the Politics of Infrastructure Development"
+      },
+      "dre_id": "aac-02-000a"
+    },
+    {
+      "_id": "6718f59ac327cde4b57d86d0",
+      "titleInfo": [
+        {
+          "title": "Municipal Road Construction in Kenya and Nigeria: The Politics of Infrastructure Development (Image 1, Akure Ondo State)"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_MRC2021",
+        "name": "Municipal Road Construction in Kenya and Nigeria: Investigating the Politics of Infrastructure Development"
+      },
+      "dre_id": "aac-02-000b"
+    },
+    {
+      "_id": "6718f59ac327cde4b57d86d1",
+      "titleInfo": [
+        {
+          "title": "Municipal Road Construction in Kenya and Nigeria: The Politics of Infrastructure Development (Image 2, Akure Ondo State)"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_MRC2021",
+        "name": "Municipal Road Construction in Kenya and Nigeria: Investigating the Politics of Infrastructure Development"
+      },
+      "dre_id": "aac-02-000c"
+    },
+    {
+      "_id": "6718f59ac327cde4b57d86d2",
+      "titleInfo": [
+        {
+          "title": "Video 1 on Municipal Road Construction in Kenya and Nigeria: The Politics of Infrastructure Development (Recorded in Kaduna)"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_MRC2021",
+        "name": "Municipal Road Construction in Kenya and Nigeria: Investigating the Politics of Infrastructure Development"
+      },
+      "dre_id": "aac-02-000d"
+    },
+    {
+      "_id": "6718f59ac327cde4b57d86d3",
+      "titleInfo": [
+        {
+          "title": "Video 2 on Municipal Road Construction in Kenya and Nigeria: The Politics of Infrastructure Development (Recorded in Kaduna)"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_MRC2021",
+        "name": "Municipal Road Construction in Kenya and Nigeria: Investigating the Politics of Infrastructure Development"
+      },
+      "dre_id": "aac-02-000e"
+    },
+    {
+      "_id": "6718f59ac327cde4b57d86d4",
+      "titleInfo": [
+        {
+          "title": "Video 1 on Municipal Road Construction in Kenya and Nigeria: The Politics of Infrastructure Development (Recorded in Benin)"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_MRC2021",
+        "name": "Municipal Road Construction in Kenya and Nigeria: Investigating the Politics of Infrastructure Development"
+      },
+      "dre_id": "aac-02-000f"
+    },
+    {
+      "_id": "6718f59ac327cde4b57d86d5",
+      "titleInfo": [
+        {
+          "title": "Video 2 on Municipal Road Construction in Kenya and Nigeria: The Politics of Infrastructure Development (Recorded in Benin)"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_MRC2021",
+        "name": "Municipal Road Construction in Kenya and Nigeria: Investigating the Politics of Infrastructure Development"
+      },
+      "dre_id": "aac-02-0010"
+    },
+    {
+      "_id": "6718f59ac327cde4b57d86d6",
+      "titleInfo": [
+        {
+          "title": "Video 1 on Municipal Road Construction in Kenya and Nigeria: The Politics of Infrastructure Development (Recorded in Akure, Ondo State)"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_MRC2021",
+        "name": "Municipal Road Construction in Kenya and Nigeria: Investigating the Politics of Infrastructure Development"
+      },
+      "dre_id": "aac-02-0011"
+    },
+    {
+      "_id": "6718f59ac327cde4b57d86d7",
+      "titleInfo": [
+        {
+          "title": "Video 2 on Municipal Road Construction in Kenya and Nigeria: The Politics of Infrastructure Development (Recorded in Akure, Ondo State)"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_MRC2021",
+        "name": "Municipal Road Construction in Kenya and Nigeria: Investigating the Politics of Infrastructure Development"
+      },
+      "dre_id": "aac-02-0012"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9e9e7",
+      "titleInfo": [
+        {
+          "title": "Kenya's answer to the Mau Mau challenge"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0002"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9e9e9",
+      "titleInfo": [
+        {
+          "title": "Report from the Jeanes School, lower Kabete, Kenya"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0004"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea69",
+      "titleInfo": [
+        {
+          "title": "African musical instruments in Kenya"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0084"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea6a",
+      "titleInfo": [
+        {
+          "title": "Kenya's Colony Music and Drama Officer"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0085"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea7c",
+      "titleInfo": [
+        {
+          "title": "More Kenya musical instruments"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0097"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea8f",
+      "titleInfo": [
+        {
+          "title": "Kamba carvers"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00aa"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb49",
+      "titleInfo": [
+        {
+          "title": "Popular music in Kenya"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0164"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ebd3",
+      "titleInfo": [
+        {
+          "title": "MUSICAL INSTRUMENTS OF EAST AFRICA, 1 KENYA by Graham Hyslop, Nelson Africa Ltd, P.O.Box 73146, Nairobi, 1975, pp. viii, 64, photos, transcriptions"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01ee"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec04",
+      "titleInfo": [
+        {
+          "title": "A history of Kenyan guitar music: 1945-1980"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-021f"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec8c",
+      "titleInfo": [
+        {
+          "title": "Poetry and Languid Charm, 2007: Swahili Music From Tanzania and Kenya - From the 1920s to the 1950s. Topic Records Ltd. - TSCD 936. Compiled by Janet Topp Fargion, Curator, World and Traditional Music Section, British Library Sound Archive. One compact disc. Booklet (15 pp.) with notes by Janet Topp Fargion and photographs."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02a7"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ecf6",
+      "titleInfo": [
+        {
+          "title": "The King of History: Classic 1970s Beats from Kenya. 2010. D.O. Misiani and Shirati Jazz. Stern's Music STCD3051. One compact disc. Booklet (16 pp.) World Defeats the Grandfathers: Swinging Swahili Rumba 1982-1986. 2010. Issa Juma and Super Wanyika Stars. Stern's Music STCD3050. One compact disc. Booklet (16 pp.)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0311"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed3e",
+      "titleInfo": [
+        {
+          "title": "Music in Kenyan Christianity: Logooli Religious Song. Jean Ngoya Kidula. 2013. Bloomington: Indiana University Press. 17 bw illus., 53 music exs, index, 312pp."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0359"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed43",
+      "titleInfo": [
+        {
+          "title": "Continuities and innovation in Luo song style: creating the Benga Beat in Kenya 1960 to 1995"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-035e"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed74",
+      "titleInfo": [
+        {
+          "title": "PRESERVATION AND REVITALISATION OF THE ENDANGERED GÄ¨KÅ¨YÅ¨ FLUTE"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-038f"
+    }
+  ]
+}

@@ -1,0 +1,855 @@
+{
+  "meta": {
+    "type": "genre",
+    "id": "music-live-music-concert",
+    "name": "Music, Live Music, Concert",
+    "count": 32
+  },
+  "timeline": [
+    {
+      "year": 1981,
+      "count": 1
+    },
+    {
+      "year": 1986,
+      "count": 1
+    },
+    {
+      "year": 1988,
+      "count": 1
+    },
+    {
+      "year": 1989,
+      "count": 2
+    },
+    {
+      "year": 1990,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1981,
+      "total": 1,
+      "byType": {
+        "Moving image": 1
+      }
+    },
+    {
+      "year": 1986,
+      "total": 1,
+      "byType": {
+        "Moving image": 1
+      }
+    },
+    {
+      "year": 1988,
+      "total": 1,
+      "byType": {
+        "Moving image": 1
+      }
+    },
+    {
+      "year": 1989,
+      "total": 2,
+      "byType": {
+        "Moving image": 2
+      }
+    },
+    {
+      "year": 1990,
+      "total": 2,
+      "byType": {
+        "Moving image": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Moving image",
+      "value": 32
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 31
+    },
+    {
+      "name": "French",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Music",
+      "value": 20
+    },
+    {
+      "name": "Christianity",
+      "value": 9
+    },
+    {
+      "name": "Singing",
+      "value": 9
+    },
+    {
+      "name": "Religion",
+      "value": 8
+    },
+    {
+      "name": "Choirs (Music)",
+      "value": 8
+    },
+    {
+      "name": "Gospel music",
+      "value": 8
+    },
+    {
+      "name": "Dance",
+      "value": 3
+    },
+    {
+      "name": "Concerts",
+      "value": 2
+    },
+    {
+      "name": "Performance",
+      "value": 2
+    },
+    {
+      "name": "Interviews",
+      "value": 2
+    },
+    {
+      "name": "Christmas",
+      "value": 1
+    },
+    {
+      "name": "Reggae music",
+      "value": 1
+    },
+    {
+      "name": "Card games",
+      "value": 1
+    },
+    {
+      "name": "Travel",
+      "value": 1
+    },
+    {
+      "name": "Music videos",
+      "value": 1
+    },
+    {
+      "name": "Festivals",
+      "value": 1
+    },
+    {
+      "name": "Art",
+      "value": 1
+    },
+    {
+      "name": "Painting",
+      "value": 1
+    },
+    {
+      "name": "Poets",
+      "value": 1
+    },
+    {
+      "name": "Novelists",
+      "value": 1
+    },
+    {
+      "name": "Theater",
+      "value": 1
+    },
+    {
+      "name": "Sports",
+      "value": 1
+    },
+    {
+      "name": "Basketball",
+      "value": 1
+    },
+    {
+      "name": "Speech",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Music",
+      "value": 20
+    },
+    {
+      "name": "Live Music",
+      "value": 14
+    },
+    {
+      "name": "Christianity",
+      "value": 9
+    },
+    {
+      "name": "Singing",
+      "value": 9
+    },
+    {
+      "name": "Religion",
+      "value": 8
+    },
+    {
+      "name": "Choirs (Music)",
+      "value": 8
+    },
+    {
+      "name": "Gospel music",
+      "value": 8
+    },
+    {
+      "name": "Entertainment",
+      "value": 8
+    },
+    {
+      "name": "Dance",
+      "value": 3
+    },
+    {
+      "name": "Concerts",
+      "value": 2
+    },
+    {
+      "name": "Performance",
+      "value": 2
+    },
+    {
+      "name": "Interviews",
+      "value": 2
+    },
+    {
+      "name": "Christmas",
+      "value": 1
+    },
+    {
+      "name": "Reggae music",
+      "value": 1
+    },
+    {
+      "name": "Card games",
+      "value": 1
+    },
+    {
+      "name": "Travel",
+      "value": 1
+    },
+    {
+      "name": "Soap Opera",
+      "value": 1
+    },
+    {
+      "name": "Music videos",
+      "value": 1
+    },
+    {
+      "name": "Contemporary Music",
+      "value": 1
+    },
+    {
+      "name": "Festivals",
+      "value": 1
+    },
+    {
+      "name": "Music Festival",
+      "value": 1
+    },
+    {
+      "name": "Art",
+      "value": 1
+    },
+    {
+      "name": "Painting",
+      "value": 1
+    },
+    {
+      "name": "Poets",
+      "value": 1
+    },
+    {
+      "name": "Novelists",
+      "value": 1
+    },
+    {
+      "name": "Talk Show",
+      "value": 1
+    },
+    {
+      "name": "Theater",
+      "value": 1
+    },
+    {
+      "name": "Plays",
+      "value": 1
+    },
+    {
+      "name": "Sports",
+      "value": 1
+    },
+    {
+      "name": "Basketball",
+      "value": 1
+    },
+    {
+      "name": "Youth Entertainment",
+      "value": 1
+    },
+    {
+      "name": "Speech",
+      "value": 1
+    },
+    {
+      "name": "Ceremony",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Government of Liberia",
+      "value": 32
+    },
+    {
+      "name": "Liberia Broadcasting System (LBS)",
+      "value": 8
+    },
+    {
+      "name": "McCrumada, Charles",
+      "value": 6
+    },
+    {
+      "name": "Wessehutes, Jimmy",
+      "value": 5
+    },
+    {
+      "name": "Taylor, Adolphus",
+      "value": 5
+    },
+    {
+      "name": "Urey, Khrushchev Borbor",
+      "value": 4
+    },
+    {
+      "name": "Wegee, Presley",
+      "value": 4
+    },
+    {
+      "name": "Collins, Hawa Andrews",
+      "value": 3
+    },
+    {
+      "name": "Caranda, Doughba C., II",
+      "value": 3
+    },
+    {
+      "name": "Fakay, Soko",
+      "value": 3
+    },
+    {
+      "name": "Korvah, James",
+      "value": 3
+    },
+    {
+      "name": "Eastman, John",
+      "value": 2
+    },
+    {
+      "name": "Brent, Julius",
+      "value": 2
+    },
+    {
+      "name": "Gilbert, Thomas",
+      "value": 2
+    },
+    {
+      "name": "Bethel Presbyterian Church Choir",
+      "value": 2
+    },
+    {
+      "name": "Kpleketen Man of Africa",
+      "value": 1
+    },
+    {
+      "name": "Zanga, Larry",
+      "value": 1
+    },
+    {
+      "name": "Brown, Aaron F.",
+      "value": 1
+    },
+    {
+      "name": "Padmore, Wiki",
+      "value": 1
+    },
+    {
+      "name": "Bruce, Ernie",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Liberia",
+      "region": "Montserrado County",
+      "city": "Monrovia",
+      "count": 32
+    }
+  ],
+  "items": [
+    {
+      "_id": "6982337057a8e0353b0b1c44",
+      "titleInfo": [
+        {
+          "title": "Christmas Carols"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0007"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c46",
+      "titleInfo": [
+        {
+          "title": "Christmas Carol and New Year wishes"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0009"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1ca9",
+      "titleInfo": [
+        {
+          "title": "Heritage Productions"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-006c"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cab",
+      "titleInfo": [
+        {
+          "title": "Spotlight"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-006e"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cad",
+      "titleInfo": [
+        {
+          "title": "Heritage Productions  - Music Variety Show"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0070"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cb5",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0078"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cc9",
+      "titleInfo": [
+        {
+          "title": "The Gospel Time"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-008c"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cd6",
+      "titleInfo": [
+        {
+          "title": "Heritage Productions"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0099"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cd7",
+      "titleInfo": [
+        {
+          "title": "Heritage Productions  - Artists' Spotlight"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-009a"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cd8",
+      "titleInfo": [
+        {
+          "title": "Heritage Productions"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-009b"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d21",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00e4"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d22",
+      "titleInfo": [
+        {
+          "title": "The Verdict"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00e5"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d23",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00e6"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d24",
+      "titleInfo": [
+        {
+          "title": "The Gospel Time"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00e7"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d25",
+      "titleInfo": [
+        {
+          "title": "Sunday Religious Music"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00e8"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d26",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00e9"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d27",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00ea"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d28",
+      "titleInfo": [
+        {
+          "title": "Gospel Time"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00eb"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d2d",
+      "titleInfo": [
+        {
+          "title": "Just for You"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00f0"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d30",
+      "titleInfo": [
+        {
+          "title": "Just For You"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00f3"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d4e",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0111"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d69",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-012c"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d6b",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-012e"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1da1",
+      "titleInfo": [
+        {
+          "title": "Gospel Time"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0164"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1dba",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-017d"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1dc4",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0187"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1dc8",
+      "titleInfo": [
+        {
+          "title": "Item 9"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-018b"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1dc9",
+      "titleInfo": [
+        {
+          "title": "Item 10"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-018c"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1df0",
+      "titleInfo": [
+        {
+          "title": "Reggae Sunsplash concert"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-01b3"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1df8",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-01bb"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1e08",
+      "titleInfo": [
+        {
+          "title": "Solid Gold"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-01cb"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1e09",
+      "titleInfo": [
+        {
+          "title": "Show Express"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-01cc"
+    }
+  ]
+}

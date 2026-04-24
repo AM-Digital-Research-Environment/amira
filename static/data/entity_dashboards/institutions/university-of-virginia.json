@@ -1,0 +1,401 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "university-of-virginia",
+    "name": "University of Virginia",
+    "count": 8
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 3,
+      "byType": {
+        "Text": 3
+      }
+    },
+    {
+      "year": 2022,
+      "total": 3,
+      "byType": {
+        "Text": 3
+      }
+    },
+    {
+      "year": 2023,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 8
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 8
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Music",
+      "value": 3
+    },
+    {
+      "name": "Book reviews",
+      "value": 2
+    },
+    {
+      "name": "Hip-hop",
+      "value": 2
+    },
+    {
+      "name": "Colonisation",
+      "value": 2
+    },
+    {
+      "name": "Social change",
+      "value": 1
+    },
+    {
+      "name": "Collective memory",
+      "value": 1
+    },
+    {
+      "name": "African diaspora",
+      "value": 1
+    },
+    {
+      "name": "Electronic music",
+      "value": 1
+    },
+    {
+      "name": "Colonies",
+      "value": 1
+    },
+    {
+      "name": "East Africa",
+      "value": 1
+    },
+    {
+      "name": "Imperialism",
+      "value": 1
+    },
+    {
+      "name": "West Africa",
+      "value": 1
+    },
+    {
+      "name": "Jazz",
+      "value": 1
+    },
+    {
+      "name": "Cosmopolitanism",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 8
+    },
+    {
+      "name": "Music",
+      "value": 3
+    },
+    {
+      "name": "Book reviews",
+      "value": 2
+    },
+    {
+      "name": "Hip-hop",
+      "value": 2
+    },
+    {
+      "name": "Colonisation",
+      "value": 2
+    },
+    {
+      "name": "Identity",
+      "value": 2
+    },
+    {
+      "name": "Social change",
+      "value": 1
+    },
+    {
+      "name": "Collective memory",
+      "value": 1
+    },
+    {
+      "name": "Cultural Memory",
+      "value": 1
+    },
+    {
+      "name": "Senegal",
+      "value": 1
+    },
+    {
+      "name": "Urban Culture",
+      "value": 1
+    },
+    {
+      "name": "African diaspora",
+      "value": 1
+    },
+    {
+      "name": "Electronic music",
+      "value": 1
+    },
+    {
+      "name": "Experimental Music",
+      "value": 1
+    },
+    {
+      "name": "Electroacoustic Music",
+      "value": 1
+    },
+    {
+      "name": "CD Review",
+      "value": 1
+    },
+    {
+      "name": "Public Life",
+      "value": 1
+    },
+    {
+      "name": "Morality",
+      "value": 1
+    },
+    {
+      "name": "Cameroon",
+      "value": 1
+    },
+    {
+      "name": "Lagos Soundscapes",
+      "value": 1
+    },
+    {
+      "name": "Colonies",
+      "value": 1
+    },
+    {
+      "name": "Colonial Zimbabwe",
+      "value": 1
+    },
+    {
+      "name": "Zimbabwe",
+      "value": 1
+    },
+    {
+      "name": "Power Relations",
+      "value": 1
+    },
+    {
+      "name": "Urban Youth Culture",
+      "value": 1
+    },
+    {
+      "name": "Political Expression",
+      "value": 1
+    },
+    {
+      "name": "Urban Music",
+      "value": 1
+    },
+    {
+      "name": "Postcolonial Identity",
+      "value": 1
+    },
+    {
+      "name": "Postcolonial Studies",
+      "value": 1
+    },
+    {
+      "name": "East Africa",
+      "value": 1
+    },
+    {
+      "name": "Imperialism",
+      "value": 1
+    },
+    {
+      "name": "Democratic Republic of the Congo",
+      "value": 1
+    },
+    {
+      "name": "Charitable Imperialism",
+      "value": 1
+    },
+    {
+      "name": "Film",
+      "value": 1
+    },
+    {
+      "name": "West Africa",
+      "value": 1
+    },
+    {
+      "name": "Jazz",
+      "value": 1
+    },
+    {
+      "name": "Cosmopolitanism",
+      "value": 1
+    },
+    {
+      "name": "Accra",
+      "value": 1
+    },
+    {
+      "name": "Ghana",
+      "value": 1
+    },
+    {
+      "name": "Transnational Culture",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Harris, Corey",
+      "value": 1
+    },
+    {
+      "name": "Koechlin, Basile",
+      "value": 1
+    },
+    {
+      "name": "Bradford, Abigail",
+      "value": 1
+    },
+    {
+      "name": "King, Kathleen W.",
+      "value": 1
+    },
+    {
+      "name": "Mohebbi, Siavash",
+      "value": 1
+    },
+    {
+      "name": "Laboe, Amy E.",
+      "value": 1
+    },
+    {
+      "name": "Swanson, Carlehr",
+      "value": 1
+    },
+    {
+      "name": "Weerasinghe, Dilshan",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 8
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9edc0",
+      "titleInfo": [
+        {
+          "title": "In Hip hop Time: Music, Memory and Social Change in Urban Senegal"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03db"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edc2",
+      "titleInfo": [
+        {
+          "title": "Alternate African Reality: Electronic, Electroacoustic and Experimental Music from Africa and the Diaspora"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03dd"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edc5",
+      "titleInfo": [
+        {
+          "title": "Journey of Song: Public Life and Morality in Cameroon"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03e0"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edd1",
+      "titleInfo": [
+        {
+          "title": "Lagos Soundscapes. Emeka Ogboh, 2019. Berlin, Germany: Kerber. 164 colour and 85 b/w illustrations, bibliography, index, list of works, 216 pp."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03ec"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edd2",
+      "titleInfo": [
+        {
+          "title": "African Music, Power, and Being in Colonial Zimbabwe. Mhoze Chikowero, 2015. Bloomington, Indiana: University of Indiana Press. 35 illustrations b & w, bibliography, index, 346 pp."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03ed"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edd4",
+      "titleInfo": [
+        {
+          "title": "Hip Hop in Africa: Prophets of the City and Dustyfoot Philosophers. Msia Kibona Clark, 2018. Athens, Ohio: Ohio University Press. 25 illustrations b&w, bibliography, index, 266 pp."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03ef"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eddb",
+      "titleInfo": [
+        {
+          "title": "Necessary Noise: Music, Film, and Charitable Imperialism in the East of Congo"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03f6"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eddc",
+      "titleInfo": [
+        {
+          "title": "Jazz Cosmopolitanism in Accra: Five Musical Years in Ghana"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03f7"
+    }
+  ]
+}

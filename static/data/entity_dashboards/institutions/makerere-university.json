@@ -1,0 +1,288 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "makerere-university",
+    "name": "Makerere University",
+    "count": 5
+  },
+  "timeline": [
+    {
+      "year": 1967,
+      "count": 1
+    },
+    {
+      "year": 1970,
+      "count": 2
+    },
+    {
+      "year": 1980,
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1967,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1970,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1980,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2025,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 5
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 4
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Books",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Women",
+      "value": 1
+    },
+    {
+      "name": "Karamojong (African people)",
+      "value": 1
+    },
+    {
+      "name": "Women singers",
+      "value": 1
+    },
+    {
+      "name": "Festivals",
+      "value": 1
+    },
+    {
+      "name": "Musicians",
+      "value": 1
+    },
+    {
+      "name": "Decolonisation",
+      "value": 1
+    },
+    {
+      "name": "Archives",
+      "value": 1
+    },
+    {
+      "name": "Education",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 4
+    },
+    {
+      "name": "Uganda",
+      "value": 3
+    },
+    {
+      "name": "Books",
+      "value": 1
+    },
+    {
+      "name": "Anglo-African",
+      "value": 1
+    },
+    {
+      "name": "Commonwealth",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Women",
+      "value": 1
+    },
+    {
+      "name": "Karamojong (African people)",
+      "value": 1
+    },
+    {
+      "name": "Women singers",
+      "value": 1
+    },
+    {
+      "name": "Festivals",
+      "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    },
+    {
+      "name": "Muslim Festivals",
+      "value": 1
+    },
+    {
+      "name": "Musicians",
+      "value": 1
+    },
+    {
+      "name": "Decolonisation",
+      "value": 1
+    },
+    {
+      "name": "Archives",
+      "value": 1
+    },
+    {
+      "name": "Education",
+      "value": 1
+    },
+    {
+      "name": "Decolonial Music Education",
+      "value": 1
+    },
+    {
+      "name": "Community-based Music Knowledge",
+      "value": 1
+    },
+    {
+      "name": "Western Music Knowledge Frameworks",
+      "value": 1
+    },
+    {
+      "name": "Community Musicians",
+      "value": 1
+    },
+    {
+      "name": "Living Archives",
+      "value": 1
+    },
+    {
+      "name": "Music Education",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Gourlay, Ken A.",
+      "value": 3
+    },
+    {
+      "name": "Mazrui, Ali A.",
+      "value": 1
+    },
+    {
+      "name": "Pergamon Press",
+      "value": 1
+    },
+    {
+      "name": "Makwa, Dominic D. B.",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 4
+    },
+    {
+      "country": "United Kingdom",
+      "region": "England",
+      "city": "Oxford",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a8ab2c85fe8df87117",
+      "titleInfo": [
+        {
+          "title": "The Anglo-African Commonwealth: Political friction and cultural fusion"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0020"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb70",
+      "titleInfo": [
+        {
+          "title": "AN INTRODUCTION TO EAST AFRICAN MUSIC FOR SCHOOLS by S. Mbabi-Katana. Milton Obote Foundation. Kampala, Uganda."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-018b"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb81",
+      "titleInfo": [
+        {
+          "title": "Trees and anthills: songs of Karimojong women's groups"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-019c"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ebe4",
+      "titleInfo": [
+        {
+          "title": "Kídàn Dárán Sállá: Music for the Eve of the Muslim Festivals of '?D AL-FITR and '?D AL-KAB?R IN KANO, NIGERIA, by Fremont E. Besmer, published by the African Studies Program, Indiana University, 1974, pp. 84, $2.00."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01ff"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edeb",
+      "titleInfo": [
+        {
+          "title": "Harnessing community musicians as living archives for “sustainable” teaching and learning of Ugandan musics at Makerere University"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0406"
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "northern-rhodesia",
+    "name": "Northern Rhodesia",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 1957,
+      "count": 1
+    },
+    {
+      "year": 1958,
+      "count": 1
+    },
+    {
+      "year": 1963,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1957,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1958,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1963,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "Musical notation",
+      "value": 1
+    },
+    {
+      "name": "Education",
+      "value": 1
+    },
+    {
+      "name": "Bemba (African people)",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 3
+    },
+    {
+      "name": "Zimbabwe",
+      "value": 3
+    },
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "Social Relationship",
+      "value": 1
+    },
+    {
+      "name": "Musical notation",
+      "value": 1
+    },
+    {
+      "name": "Education",
+      "value": 1
+    },
+    {
+      "name": "Southern Rhodesia",
+      "value": 1
+    },
+    {
+      "name": "Native Eduction",
+      "value": 1
+    },
+    {
+      "name": "Bemba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Zambia",
+      "value": 1
+    },
+    {
+      "name": "Social Life",
+      "value": 1
+    },
+    {
+      "name": "Social Customs",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "McHarg, James",
+      "value": 1
+    },
+    {
+      "name": "Lunsonga, Cajetan",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ea3b",
+      "titleInfo": [
+        {
+          "title": "THE KALELA DANCE; ASPECTS OF SOCIAL RELATIONSHIP AMONG AFRICANS IN NORTHERN RHODESIA, by J. Clyde Mitchell (The Rhodes-Livingstone Papers No. 27), Manchester University Press (preface (dated June, 1956)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0056"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea66",
+      "titleInfo": [
+        {
+          "title": "African music in Rhodesian native eduction"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0081"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ead7",
+      "titleInfo": [
+        {
+          "title": "Bemba music, a summary collected from Bakalamba\" elders on culture, religion and music of the Bemba-speaking people in the Northern and Luapula Provinces of Northern Rhodesia."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00f2"
+    }
+  ]
+}

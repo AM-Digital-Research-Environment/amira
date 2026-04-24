@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "university-of-fort-hare",
+    "name": "University of Fort Hare",
+    "count": 5
+  },
+  "timeline": [
+    {
+      "year": 1996,
+      "count": 1
+    },
+    {
+      "year": 2007,
+      "count": 1
+    },
+    {
+      "year": 2013,
+      "count": 1
+    },
+    {
+      "year": 2017,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1996,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2007,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2013,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2017,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 5
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 5
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Nationalism",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 5
+    },
+    {
+      "name": "Music Education",
+      "value": 1
+    },
+    {
+      "name": "Nationalism",
+      "value": 1
+    },
+    {
+      "name": "Ghana",
+      "value": 1
+    },
+    {
+      "name": "Artistry",
+      "value": 1
+    },
+    {
+      "name": "Dance Ensembles",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dargie, David",
+      "value": 4
+    },
+    {
+      "name": "Amoros, Luis Gimenez",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 5
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ec3f",
+      "titleInfo": [
+        {
+          "title": "Umngqokolo: Xhosa overtone singing and the song nondel'ekhaya"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-025a"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec71",
+      "titleInfo": [
+        {
+          "title": "African methods of music education: some reflections"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-028c"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec9a",
+      "titleInfo": [
+        {
+          "title": "Umakhweyane: A Musical bow and its contribution to Zulu music"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02b5"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed21",
+      "titleInfo": [
+        {
+          "title": "Kavango music"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-033c"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed88",
+      "titleInfo": [
+        {
+          "title": "Staging Ghana: Artistry and Nationalism in State Dance Ensembles. Paul Schauert. 2015. Bloomington and Indianapolis: Indiana University Press, 29 online media examples at Ethnomusicology Multimedia Series, 15 figures, bibliography, index, 343 pp."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03a3"
+    }
+  ]
+}

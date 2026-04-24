@@ -1,0 +1,223 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "turban",
+    "name": "Turban",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 1984,
+      "count": 1
+    },
+    {
+      "year": 2005,
+      "count": 3
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1984,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 2005,
+      "total": 3,
+      "byType": {
+        "Image": 3
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 4
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Photography",
+      "value": 4
+    },
+    {
+      "name": "Anthropology",
+      "value": 4
+    },
+    {
+      "name": "Photographs",
+      "value": 4
+    },
+    {
+      "name": "Festivals",
+      "value": 1
+    },
+    {
+      "name": "Tuaregs",
+      "value": 1
+    },
+    {
+      "name": "Islam",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Photography",
+      "value": 4
+    },
+    {
+      "name": "Anthropology",
+      "value": 4
+    },
+    {
+      "name": "Photographs",
+      "value": 4
+    },
+    {
+      "name": "Tagelmust",
+      "value": 4
+    },
+    {
+      "name": "Sammlung Gerd Spittler",
+      "value": 4
+    },
+    {
+      "name": "Festkleidung",
+      "value": 3
+    },
+    {
+      "name": "Chech",
+      "value": 2
+    },
+    {
+      "name": "Litham",
+      "value": 2
+    },
+    {
+      "name": "Festivals",
+      "value": 1
+    },
+    {
+      "name": "Talisman",
+      "value": 1
+    },
+    {
+      "name": "Silberkapsel",
+      "value": 1
+    },
+    {
+      "name": "Kapsel",
+      "value": 1
+    },
+    {
+      "name": "Tuaregs",
+      "value": 1
+    },
+    {
+      "name": "Islam",
+      "value": 1
+    },
+    {
+      "name": "Maulid an-Nabi",
+      "value": 1
+    },
+    {
+      "name": "Feiertag",
+      "value": 1
+    },
+    {
+      "name": "Fest",
+      "value": 1
+    },
+    {
+      "name": "Prophet",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Collections@UBT",
+      "value": 4
+    },
+    {
+      "name": "Spittler, Gerd",
+      "value": 4
+    }
+  ],
+  "locations": [
+    {
+      "country": "Niger",
+      "region": "Agadez Region",
+      "city": "Iférouane",
+      "count": 3
+    },
+    {
+      "country": "Niger",
+      "region": "Agadez Region",
+      "city": "Timia",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "66d97447c610a95a80dd95ac",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0023"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95ad",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0024"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95b6",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-002d"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95c4",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-003b"
+    }
+  ]
+}

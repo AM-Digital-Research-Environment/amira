@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "reffell-victoria",
+    "name": "Reffell, Victoria",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1985,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1985,
+      "total": 1,
+      "byType": {
+        "Moving image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Moving image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "News",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Liberia Broadcasting System (LBS)",
+      "value": 2
+    },
+    {
+      "name": "Gbenyon, Charles",
+      "value": 2
+    },
+    {
+      "name": "Gibson, Jestina",
+      "value": 1
+    },
+    {
+      "name": "Holman, Vanplahn",
+      "value": 1
+    },
+    {
+      "name": "George, P. Amos Jr.",
+      "value": 1
+    },
+    {
+      "name": "Smith, J. Eustace",
+      "value": 1
+    },
+    {
+      "name": "Government of Liberia",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Liberia",
+      "region": "Montserrado County",
+      "city": "Monrovia",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "6982337057a8e0353b0b1c47",
+      "titleInfo": [
+        {
+          "title": "Election 85"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-000a"
+    }
+  ]
+}

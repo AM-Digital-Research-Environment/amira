@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "richmond-american-university-london",
+    "name": "Richmond American University London",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1987,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1987,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Seago, Alex",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ec20",
+      "titleInfo": [
+        {
+          "title": "EAST AFRICAN POPULAR MUSIC. From Alex Seago, Richmond College, London, 1985."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-023b"
+    }
+  ]
+}

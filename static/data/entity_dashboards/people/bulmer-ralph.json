@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "bulmer-ralph",
+    "name": "Bulmer, Ralph",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1969,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1969,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Artists",
+      "value": 1
+    },
+    {
+      "name": "Painting",
+      "value": 1
+    },
+    {
+      "name": "Exhibitions",
+      "value": 1
+    },
+    {
+      "name": "Photographs",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Artists",
+      "value": 1
+    },
+    {
+      "name": "Painting",
+      "value": 1
+    },
+    {
+      "name": "Exhibitions",
+      "value": 1
+    },
+    {
+      "name": "Photographs",
+      "value": 1
+    },
+    {
+      "name": "Art Exhibition",
+      "value": 1
+    },
+    {
+      "name": "Papua New Guinea",
+      "value": 1
+    },
+    {
+      "name": "New Guinea",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Akis, Timothy",
+      "value": 2
+    },
+    {
+      "name": "Beier, Ulli",
+      "value": 1
+    },
+    {
+      "name": "Greven, Katharina",
+      "value": 1
+    },
+    {
+      "name": "Gunther, John",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Papua New Guinea",
+      "region": "National Capital District",
+      "city": "Port Moresby",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b4c8",
+      "titleInfo": [
+        {
+          "title": "Timothy Akis bei der Eröffnung seiner ersten Ausstellung im Jahr 1969. Mit Prof. Ralph Bulmer (links) und Dr. John Gunther"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0040"
+    }
+  ]
+}

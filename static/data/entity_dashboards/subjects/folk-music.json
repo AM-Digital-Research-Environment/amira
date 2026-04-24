@@ -1,0 +1,679 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "folk-music",
+    "name": "Folk music",
+    "count": 13
+  },
+  "timeline": [
+    {
+      "year": 1954,
+      "count": 1
+    },
+    {
+      "year": 1955,
+      "count": 1
+    },
+    {
+      "year": 1957,
+      "count": 1
+    },
+    {
+      "year": 1958,
+      "count": 1
+    },
+    {
+      "year": 1959,
+      "count": 1
+    },
+    {
+      "year": 1963,
+      "count": 2
+    },
+    {
+      "year": 1980,
+      "count": 1
+    },
+    {
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1954,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1955,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1957,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1958,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1959,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1963,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1980,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2017,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2019,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2020,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2023,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 13
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 13
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Music",
+      "value": 5
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 4
+    },
+    {
+      "name": "Africa",
+      "value": 4
+    },
+    {
+      "name": "Musical instruments",
+      "value": 3
+    },
+    {
+      "name": "Musicians",
+      "value": 2
+    },
+    {
+      "name": "Transnationalism",
+      "value": 1
+    },
+    {
+      "name": "History",
+      "value": 1
+    },
+    {
+      "name": "Criticism",
+      "value": 1
+    },
+    {
+      "name": "Women",
+      "value": 1
+    },
+    {
+      "name": "Songs",
+      "value": 1
+    },
+    {
+      "name": "Women musicians",
+      "value": 1
+    },
+    {
+      "name": "Hausa (African people)",
+      "value": 1
+    },
+    {
+      "name": "Sotho (African people)",
+      "value": 1
+    },
+    {
+      "name": "Shona (African people)",
+      "value": 1
+    },
+    {
+      "name": "Spirituality",
+      "value": 1
+    },
+    {
+      "name": "Religion",
+      "value": 1
+    },
+    {
+      "name": "Syncretism (Religion) in art",
+      "value": 1
+    },
+    {
+      "name": "Drum",
+      "value": 1
+    },
+    {
+      "name": "Percussion instruments",
+      "value": 1
+    },
+    {
+      "name": "Rattle (Musical instrument)",
+      "value": 1
+    },
+    {
+      "name": "Marimba",
+      "value": 1
+    },
+    {
+      "name": "Electronic music",
+      "value": 1
+    },
+    {
+      "name": "Festivals",
+      "value": 1
+    },
+    {
+      "name": "Social networks",
+      "value": 1
+    },
+    {
+      "name": "Sustainability",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 13
+    },
+    {
+      "name": "Music",
+      "value": 5
+    },
+    {
+      "name": "Traditional Music",
+      "value": 5
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 4
+    },
+    {
+      "name": "Africa",
+      "value": 4
+    },
+    {
+      "name": "Musical instruments",
+      "value": 3
+    },
+    {
+      "name": "Musicians",
+      "value": 2
+    },
+    {
+      "name": "Nigeria",
+      "value": 2
+    },
+    {
+      "name": "Uganda",
+      "value": 2
+    },
+    {
+      "name": "Black People",
+      "value": 2
+    },
+    {
+      "name": "Transnationalism",
+      "value": 1
+    },
+    {
+      "name": "History",
+      "value": 1
+    },
+    {
+      "name": "Criticism",
+      "value": 1
+    },
+    {
+      "name": "Anthropology of Music",
+      "value": 1
+    },
+    {
+      "name": "Women",
+      "value": 1
+    },
+    {
+      "name": "Songs",
+      "value": 1
+    },
+    {
+      "name": "Women musicians",
+      "value": 1
+    },
+    {
+      "name": "Hausa (African people)",
+      "value": 1
+    },
+    {
+      "name": "Hausa Music",
+      "value": 1
+    },
+    {
+      "name": "Shantu (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Social Life",
+      "value": 1
+    },
+    {
+      "name": "Social Customs",
+      "value": 1
+    },
+    {
+      "name": "Sotho (African people)",
+      "value": 1
+    },
+    {
+      "name": "Religous Aspects",
+      "value": 1
+    },
+    {
+      "name": "Social Aspects",
+      "value": 1
+    },
+    {
+      "name": "Lesotho",
+      "value": 1
+    },
+    {
+      "name": "Basotho",
+      "value": 1
+    },
+    {
+      "name": "Angola",
+      "value": 1
+    },
+    {
+      "name": "Shona (African people)",
+      "value": 1
+    },
+    {
+      "name": "Ngoma Rhythms",
+      "value": 1
+    },
+    {
+      "name": "Zimbabwean Popular Music",
+      "value": 1
+    },
+    {
+      "name": "Adaptation",
+      "value": 1
+    },
+    {
+      "name": "Zimbabwe",
+      "value": 1
+    },
+    {
+      "name": "Healing Songs",
+      "value": 1
+    },
+    {
+      "name": "Ritual Songs",
+      "value": 1
+    },
+    {
+      "name": "Cultural Heritage",
+      "value": 1
+    },
+    {
+      "name": "CD Review",
+      "value": 1
+    },
+    {
+      "name": "Spirituality",
+      "value": 1
+    },
+    {
+      "name": "Religion",
+      "value": 1
+    },
+    {
+      "name": "Syncretism (Religion) in art",
+      "value": 1
+    },
+    {
+      "name": "Drum",
+      "value": 1
+    },
+    {
+      "name": "Percussion instruments",
+      "value": 1
+    },
+    {
+      "name": "Rattle (Musical instrument)",
+      "value": 1
+    },
+    {
+      "name": "Marimba",
+      "value": 1
+    },
+    {
+      "name": "Ecuador",
+      "value": 1
+    },
+    {
+      "name": "Afro-Esmeraldenian",
+      "value": 1
+    },
+    {
+      "name": "Afro-Esmeraldenian Music",
+      "value": 1
+    },
+    {
+      "name": "Rattle (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Marimba (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Drum (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Catholicism",
+      "value": 1
+    },
+    {
+      "name": "Electronic music",
+      "value": 1
+    },
+    {
+      "name": "Festivals",
+      "value": 1
+    },
+    {
+      "name": "Social networks",
+      "value": 1
+    },
+    {
+      "name": "Digital Technology",
+      "value": 1
+    },
+    {
+      "name": "Acholi Music",
+      "value": 1
+    },
+    {
+      "name": "Sustainability",
+      "value": 1
+    },
+    {
+      "name": "Culture",
+      "value": 1
+    },
+    {
+      "name": "Globalisation",
+      "value": 1
+    },
+    {
+      "name": "Revitalisation",
+      "value": 1
+    },
+    {
+      "name": "Seperewa (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Indigenous Music",
+      "value": 1
+    },
+    {
+      "name": "Cultural Imperialism",
+      "value": 1
+    },
+    {
+      "name": "Ghana",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tracey, Hugh",
+      "value": 4
+    },
+    {
+      "name": "Mackay, Mercedes",
+      "value": 1
+    },
+    {
+      "name": "Nzewi, Meki",
+      "value": 1
+    },
+    {
+      "name": "Chamisa, Vimbai",
+      "value": 1
+    },
+    {
+      "name": "Stacey, Cara",
+      "value": 1
+    },
+    {
+      "name": "Palacios, Fernando",
+      "value": 1
+    },
+    {
+      "name": "Jadinon, Rémy",
+      "value": 1
+    },
+    {
+      "name": "Agyefi, Papa Kow Mensah",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 13
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9e9fc",
+      "titleInfo": [
+        {
+          "title": "The state of folk music in Bantu Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0017"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea0c",
+      "titleInfo": [
+        {
+          "title": "The Shantu music of the Harims of Nigeria"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0027"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea3a",
+      "titleInfo": [
+        {
+          "title": "FOLK MUSICIANS IN UGANDA, by K. P. Wachsmann, Ph.D. (Uganda Museum Occasional Paper No. 2); the Uganda Museum, Kampala, 1956"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0055"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea63",
+      "titleInfo": [
+        {
+          "title": "African music within its social setting"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-007e"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea81",
+      "titleInfo": [
+        {
+          "title": "The future of music in Basutoland"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-009c"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ead5",
+      "titleInfo": [
+        {
+          "title": "FOLCLORE MUSICAL DE ANGOLA. Angola Folk Music Collection of Magnetic Tapes and Discs Vol. I. Povo Quioco. Chokwe People. Lisboa 1961."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00f0"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ead8",
+      "titleInfo": [
+        {
+          "title": "The development of music"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00f3"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ebf6",
+      "titleInfo": [
+        {
+          "title": "Folk music in Nigeria: a communion"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0211"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed91",
+      "titleInfo": [
+        {
+          "title": "APPROACHES TO THE ADAPTATION OF SHONA NGOMA STYLES IN ZIMBABWEAN POPULAR MUSIC"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03ac"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edb2",
+      "titleInfo": [
+        {
+          "title": "Mantombi Matotiyana: Songs of Greeting, Healing and Heritage"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03cd"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edc8",
+      "titleInfo": [
+        {
+          "title": "ARRULLOS, CHIGUALOS AND ALABAOS: TRADITIONAL AFRO-ESMERALDENIAN MUSIC IN ECUADOR"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03e3"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eddf",
+      "titleInfo": [
+        {
+          "title": "LEO PALAYENG"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03fa"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ede3",
+      "titleInfo": [
+        {
+          "title": "APPROACHES AND METHODS EMPLOYED IN REVITALISING THE SEPEREWA MUSICAL TRADITION IN GHANA"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03fe"
+    }
+  ]
+}

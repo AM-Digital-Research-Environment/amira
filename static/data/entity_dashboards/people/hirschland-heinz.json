@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "hirschland-heinz",
+    "name": "Hirschland, Heinz",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1957,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1957,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ea40",
+      "titleInfo": [
+        {
+          "title": "A Bantu suite for piano, xylophone, whistles and voices"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-005b"
+    }
+  ]
+}

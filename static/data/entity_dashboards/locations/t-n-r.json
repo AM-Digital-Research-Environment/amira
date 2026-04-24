@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "t-n-r",
+    "name": "Ténéré",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 1980,
+      "count": 3
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1980,
+      "total": 3,
+      "byType": {
+        "Image": 3
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 3
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Photography",
+      "value": 3
+    },
+    {
+      "name": "Anthropology",
+      "value": 3
+    },
+    {
+      "name": "Photographs",
+      "value": 3
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Photography",
+      "value": 3
+    },
+    {
+      "name": "Anthropology",
+      "value": 3
+    },
+    {
+      "name": "Photographs",
+      "value": 3
+    },
+    {
+      "name": "Sandwüste",
+      "value": 3
+    },
+    {
+      "name": "Sammlung Gerd Spittler",
+      "value": 3
+    },
+    {
+      "name": "Karawane",
+      "value": 2
+    },
+    {
+      "name": "Dromedar",
+      "value": 2
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Collections@UBT",
+      "value": 3
+    },
+    {
+      "name": "Spittler, Gerd",
+      "value": 3
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "heritage-history",
+    "name": "Heritage History",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1917,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1917,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Tales",
+      "value": 1
+    },
+    {
+      "name": "Books",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Tales",
+      "value": 1
+    },
+    {
+      "name": "Books",
+      "value": 1
+    },
+    {
+      "name": "African Folktales",
+      "value": 1
+    },
+    {
+      "name": "Folktales",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Barker, William Henry",
+      "value": 1
+    },
+    {
+      "name": "Sinclair, Cecilia",
+      "value": 1
+    },
+    {
+      "name": "C.M.S. Bookshop",
+      "value": 1
+    },
+    {
+      "name": "Heritage History",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Nigeria",
+      "region": "Lagos State",
+      "city": "Lagos",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a8ab2c85fe8df870f8",
+      "titleInfo": [
+        {
+          "title": "West African Folktales"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0001"
+    }
+  ]
+}

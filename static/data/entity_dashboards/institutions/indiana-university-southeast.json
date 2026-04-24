@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "indiana-university-southeast",
+    "name": "Indiana University Southeast",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2011,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2011,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scharfenberger, Angela",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ecfa",
+      "titleInfo": [
+        {
+          "title": "West African women in music: an analysis of scholarship Women's participation in music in west Africa: a reflection on filedwork, self and understanding"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0315"
+    }
+  ]
+}

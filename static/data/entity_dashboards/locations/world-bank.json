@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "world-bank",
+    "name": "World Bank",
+    "count": 8
+  },
+  "timeline": [
+    {
+      "year": 2022,
+      "count": 5
+    },
+    {
+      "year": 2023,
+      "count": 3
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2022,
+      "total": 5,
+      "byType": {
+        "Text": 5
+      }
+    },
+    {
+      "year": 2023,
+      "total": 3,
+      "byType": {
+        "Text": 3
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 8
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 8
+    }
+  ],
+  "subjects": [
+    {
+      "name": "West Africa",
+      "value": 8
+    },
+    {
+      "name": "Debt",
+      "value": 2
+    },
+    {
+      "name": "Exports",
+      "value": 2
+    },
+    {
+      "name": "Public finance",
+      "value": 1
+    },
+    {
+      "name": "Imports",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "West Africa",
+      "value": 8
+    },
+    {
+      "name": "Senegal",
+      "value": 5
+    },
+    {
+      "name": "Debt",
+      "value": 2
+    },
+    {
+      "name": "Sovereign Bond",
+      "value": 2
+    },
+    {
+      "name": "Exports",
+      "value": 2
+    },
+    {
+      "name": "Nigeria",
+      "value": 2
+    },
+    {
+      "name": "Ghana",
+      "value": 1
+    },
+    {
+      "name": "Public Debt",
+      "value": 1
+    },
+    {
+      "name": "Public finance",
+      "value": 1
+    },
+    {
+      "name": "Export Data",
+      "value": 1
+    },
+    {
+      "name": "Imports",
+      "value": 1
+    },
+    {
+      "name": "Import Data",
+      "value": 1
+    },
+    {
+      "name": "Government Expenditure",
+      "value": 1
+    },
+    {
+      "name": "Government Budget",
+      "value": 1
+    },
+    {
+      "name": "Government Reserves",
+      "value": 1
+    },
+    {
+      "name": "Government Trade",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Koddenbrock, Kai",
+      "value": 7
+    },
+    {
+      "name": "Akolgo, Isaac Abotebuno",
+      "value": 1
+    }
+  ]
+}

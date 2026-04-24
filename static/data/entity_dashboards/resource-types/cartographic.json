@@ -1,0 +1,237 @@
+{
+  "meta": {
+    "type": "resource-type",
+    "id": "cartographic",
+    "name": "Cartographic",
+    "count": 8
+  },
+  "timeline": [
+    {
+      "year": 2024,
+      "count": 8
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2024,
+      "total": 8,
+      "byType": {
+        "Cartographic": 8
+      }
+    }
+  ],
+  "languages": [],
+  "heatmap": [],
+  "subjects": [
+    {
+      "name": "Manuscripts",
+      "value": 8
+    },
+    {
+      "name": "Early modern, 1500-1700",
+      "value": 8
+    },
+    {
+      "name": "Literature",
+      "value": 8
+    },
+    {
+      "name": "Africa",
+      "value": 8
+    },
+    {
+      "name": "Maps",
+      "value": 8
+    },
+    {
+      "name": "Cartography",
+      "value": 4
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Manuscripts",
+      "value": 8
+    },
+    {
+      "name": "Early modern, 1500-1700",
+      "value": 8
+    },
+    {
+      "name": "Literature",
+      "value": 8
+    },
+    {
+      "name": "Africa",
+      "value": 8
+    },
+    {
+      "name": "Maps",
+      "value": 8
+    },
+    {
+      "name": "England",
+      "value": 8
+    },
+    {
+      "name": "Knowledge",
+      "value": 8
+    },
+    {
+      "name": "Cartography",
+      "value": 4
+    },
+    {
+      "name": "Marine Cartography",
+      "value": 4
+    },
+    {
+      "name": "Augustus",
+      "value": 4
+    },
+    {
+      "name": "African Kingdoms",
+      "value": 3
+    },
+    {
+      "name": "Premodern",
+      "value": 3
+    },
+    {
+      "name": "Ancient",
+      "value": 3
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Aboluwade, Ifeoluwa",
+      "value": 8
+    },
+    {
+      "name": "British Library London",
+      "value": 3
+    }
+  ],
+  "locations": [
+    {
+      "country": "United Kingdom",
+      "region": "England",
+      "city": "London",
+      "count": 8
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a8ab2c85fe8df8717b",
+      "titleInfo": [
+        {
+          "title": "Premodern Map Africa Kingdoms"
+        }
+      ],
+      "typeOfResource": "Cartographic",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0084"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8717c",
+      "titleInfo": [
+        {
+          "title": "Premodern Map Africa Kingdoms"
+        }
+      ],
+      "typeOfResource": "Cartographic",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0085"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8717d",
+      "titleInfo": [
+        {
+          "title": "Premodern Map Africa Kingdoms"
+        }
+      ],
+      "typeOfResource": "Cartographic",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0086"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872a4",
+      "titleInfo": [
+        {
+          "title": "Old Map of Africa"
+        }
+      ],
+      "typeOfResource": "Cartographic",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01ad"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87300",
+      "titleInfo": [
+        {
+          "title": "Marine Cartography"
+        }
+      ],
+      "typeOfResource": "Cartographic",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0209"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87301",
+      "titleInfo": [
+        {
+          "title": "Marine Cartography"
+        }
+      ],
+      "typeOfResource": "Cartographic",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-020a"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87302",
+      "titleInfo": [
+        {
+          "title": "Marine Cartography"
+        }
+      ],
+      "typeOfResource": "Cartographic",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-020b"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87303",
+      "titleInfo": [
+        {
+          "title": "Marine Cartography"
+        }
+      ],
+      "typeOfResource": "Cartographic",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-020c"
+    }
+  ]
+}

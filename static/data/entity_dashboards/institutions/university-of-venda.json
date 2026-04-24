@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "university-of-venda",
+    "name": "University of Venda",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1996,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1996,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kruger, Jaco",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ec62",
+      "titleInfo": [
+        {
+          "title": "MUSIC IN HUMAN LIFE: ANTHROPOLOGICAL PERSPECTIVES ON MUSIC, by John E. Kaemmer, University of Texas Press, 1993, ISBN 0 292 74314 9, 245pp, b/w plates, musical examples, diagrams, glossary, index."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-027d"
+    }
+  ]
+}

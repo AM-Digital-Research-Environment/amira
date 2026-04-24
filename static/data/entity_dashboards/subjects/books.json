@@ -1,0 +1,789 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "books",
+    "name": "Books",
+    "count": 18
+  },
+  "timeline": [
+    {
+      "year": 1917,
+      "count": 1
+    },
+    {
+      "year": 1939,
+      "count": 2
+    },
+    {
+      "year": 1967,
+      "count": 1
+    },
+    {
+      "year": 1973,
+      "count": 1
+    },
+    {
+      "year": 2013,
+      "count": 2
+    },
+    {
+      "year": 2018,
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "count": 5
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1917,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1939,
+      "total": 2,
+      "byType": {
+        "Image": 2
+      }
+    },
+    {
+      "year": 1967,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1973,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2013,
+      "total": 2,
+      "byType": {
+        "Image": 1,
+        "Text": 1
+      }
+    },
+    {
+      "year": 2018,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2024,
+      "total": 5,
+      "byType": {
+        "Text": 2,
+        "Manuscript": 3
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 10
+    },
+    {
+      "name": "Image",
+      "value": 4
+    },
+    {
+      "name": "Manuscript",
+      "value": 3
+    },
+    {
+      "name": "Moving image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 9
+    },
+    {
+      "name": "Yoruba",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Africa",
+      "value": 7
+    },
+    {
+      "name": "Manuscripts",
+      "value": 5
+    },
+    {
+      "name": "Early modern, 1500-1700",
+      "value": 5
+    },
+    {
+      "name": "Literature",
+      "value": 5
+    },
+    {
+      "name": "Bookbinding",
+      "value": 3
+    },
+    {
+      "name": "Transcription",
+      "value": 2
+    },
+    {
+      "name": "Museums",
+      "value": 2
+    },
+    {
+      "name": "Scientific racism",
+      "value": 2
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Architecture",
+      "value": 1
+    },
+    {
+      "name": "Painting",
+      "value": 1
+    },
+    {
+      "name": "Archives",
+      "value": 1
+    },
+    {
+      "name": "Antiquities",
+      "value": 1
+    },
+    {
+      "name": "Pottery",
+      "value": 1
+    },
+    {
+      "name": "Water",
+      "value": 1
+    },
+    {
+      "name": "Poetry",
+      "value": 1
+    },
+    {
+      "name": "Sun",
+      "value": 1
+    },
+    {
+      "name": "Artists",
+      "value": 1
+    },
+    {
+      "name": "Tales",
+      "value": 1
+    },
+    {
+      "name": "Context (Linguistics)",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Africa",
+      "value": 7
+    },
+    {
+      "name": "Manuscripts",
+      "value": 5
+    },
+    {
+      "name": "Early modern, 1500-1700",
+      "value": 5
+    },
+    {
+      "name": "Literature",
+      "value": 5
+    },
+    {
+      "name": "England",
+      "value": 5
+    },
+    {
+      "name": "Knowledge",
+      "value": 5
+    },
+    {
+      "name": "Yoruba Art",
+      "value": 3
+    },
+    {
+      "name": "Bookbinding",
+      "value": 3
+    },
+    {
+      "name": "Transcription",
+      "value": 2
+    },
+    {
+      "name": "Museums",
+      "value": 2
+    },
+    {
+      "name": "Scientific racism",
+      "value": 2
+    },
+    {
+      "name": "Shakespeare",
+      "value": 2
+    },
+    {
+      "name": "Chapter",
+      "value": 2
+    },
+    {
+      "name": "Guinea",
+      "value": 2
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Architecture",
+      "value": 1
+    },
+    {
+      "name": "Painting",
+      "value": 1
+    },
+    {
+      "name": "Wall Painting",
+      "value": 1
+    },
+    {
+      "name": "Archives",
+      "value": 1
+    },
+    {
+      "name": "National Archives",
+      "value": 1
+    },
+    {
+      "name": "Antiquities",
+      "value": 1
+    },
+    {
+      "name": "Osogbo",
+      "value": 1
+    },
+    {
+      "name": "African Studies",
+      "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    },
+    {
+      "name": "Antiquities Dealer",
+      "value": 1
+    },
+    {
+      "name": "Pottery",
+      "value": 1
+    },
+    {
+      "name": "Art Collection",
+      "value": 1
+    },
+    {
+      "name": "Yoruba Pottery",
+      "value": 1
+    },
+    {
+      "name": "Water",
+      "value": 1
+    },
+    {
+      "name": "Poetry",
+      "value": 1
+    },
+    {
+      "name": "Sun",
+      "value": 1
+    },
+    {
+      "name": "Artists",
+      "value": 1
+    },
+    {
+      "name": "Ijala",
+      "value": 1
+    },
+    {
+      "name": "Tales",
+      "value": 1
+    },
+    {
+      "name": "African Folktales",
+      "value": 1
+    },
+    {
+      "name": "Folktales",
+      "value": 1
+    },
+    {
+      "name": "Context (Linguistics)",
+      "value": 1
+    },
+    {
+      "name": "Plays",
+      "value": 1
+    },
+    {
+      "name": "Debate",
+      "value": 1
+    },
+    {
+      "name": "Anglo-African",
+      "value": 1
+    },
+    {
+      "name": "Commonwealth",
+      "value": 1
+    },
+    {
+      "name": "Othello",
+      "value": 1
+    },
+    {
+      "name": "Bianca",
+      "value": 1
+    },
+    {
+      "name": "Origin",
+      "value": 1
+    },
+    {
+      "name": "English Influence",
+      "value": 1
+    },
+    {
+      "name": "Portuguese Court",
+      "value": 1
+    },
+    {
+      "name": "Hakluyt",
+      "value": 1
+    },
+    {
+      "name": "Voyages",
+      "value": 1
+    },
+    {
+      "name": "English",
+      "value": 1
+    },
+    {
+      "name": "Portuguese",
+      "value": 1
+    },
+    {
+      "name": "British Library",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Beier, Ulli",
+      "value": 5
+    },
+    {
+      "name": "Aboluwade, Ifeoluwa",
+      "value": 5
+    },
+    {
+      "name": "Greven, Katharina",
+      "value": 2
+    },
+    {
+      "name": "Newnes, Georges",
+      "value": 2
+    },
+    {
+      "name": "Museum of Yoruba Pottery",
+      "value": 1
+    },
+    {
+      "name": "Beier, Georgina",
+      "value": 1
+    },
+    {
+      "name": "Hoppe, E. O.",
+      "value": 1
+    },
+    {
+      "name": "Government of Liberia",
+      "value": 1
+    },
+    {
+      "name": "Barker, William Henry",
+      "value": 1
+    },
+    {
+      "name": "Sinclair, Cecilia",
+      "value": 1
+    },
+    {
+      "name": "C.M.S. Bookshop",
+      "value": 1
+    },
+    {
+      "name": "Heritage History",
+      "value": 1
+    },
+    {
+      "name": "Klein, Bernhard",
+      "value": 1
+    },
+    {
+      "name": "Richmond, Barbour",
+      "value": 1
+    },
+    {
+      "name": "Cambridge University Press",
+      "value": 1
+    },
+    {
+      "name": "Mazrui, Ali A.",
+      "value": 1
+    },
+    {
+      "name": "Pergamon Press",
+      "value": 1
+    },
+    {
+      "name": "Donawerth, Jane",
+      "value": 1
+    },
+    {
+      "name": "Routledge",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "United Kingdom",
+      "region": "England",
+      "city": "London",
+      "count": 7
+    },
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 4
+    },
+    {
+      "country": "Australia",
+      "region": "Australian Capital Territory",
+      "city": "Canberra",
+      "count": 1
+    },
+    {
+      "country": "Liberia",
+      "region": "Montserrado County",
+      "city": "Monrovia",
+      "count": 1
+    },
+    {
+      "country": "Nigeria",
+      "region": "Lagos State",
+      "city": "Lagos",
+      "count": 1
+    },
+    {
+      "country": "United Kingdom",
+      "region": "England",
+      "city": "Cambridge",
+      "count": 1
+    },
+    {
+      "country": "United Kingdom",
+      "region": "England",
+      "city": "Oxford",
+      "count": 1
+    },
+    {
+      "country": "United States of America",
+      "region": "New York",
+      "city": "New York",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b488",
+      "titleInfo": [
+        {
+          "title": "Volume 8: Yoruba Architecture and Wall Painting. Digitaler Scan im Beier-Nachlass"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-99-0000"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b489",
+      "titleInfo": [
+        {
+          "title": "Abschrift von das Buch: Leopold Sedar Senghor (befindet sich in die National Archives, Canberra)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-99-0001"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b48a",
+      "titleInfo": [
+        {
+          "title": "Museum of Antiquities in Osogbo: A Project of the Institute of African Studies, University of Ife"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-99-0002"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b48b",
+      "titleInfo": [
+        {
+          "title": "The Rietbeg Museum and the Antiquities Dealer"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-99-0003"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b48c",
+      "titleInfo": [
+        {
+          "title": "Collection of Ulli and Georgina Beier"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-99-0004"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b495",
+      "titleInfo": [
+        {
+          "title": "Drei Buchdeckel, die von Georgina Beier gestaltet wurden, in einer schwarzen Mappe"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-000d"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b53b",
+      "titleInfo": [
+        {
+          "title": "Erste Seite des Kapitels Races of the World aus dem Buch Modern Pictoral Atlas von Newnes (1939, 113)"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-00b3"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b53c",
+      "titleInfo": [
+        {
+          "title": "Seite aus dem Buch Modern Pictorial Atlas von Newnes (1939)"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-00b4"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cf8",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00bb"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df870f8",
+      "titleInfo": [
+        {
+          "title": "West African Folktales"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0001"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df870fe",
+      "titleInfo": [
+        {
+          "title": "Drama at Sea: A New Look at Shakespeare on the Dragon, 1607-08"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0007"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87117",
+      "titleInfo": [
+        {
+          "title": "The Anglo-African Commonwealth: Political friction and cultural fusion"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0020"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87121",
+      "titleInfo": [
+        {
+          "title": "Bianca: The Other African in Othello"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-002a"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871cb",
+      "titleInfo": [
+        {
+          "title": "British Library_Voyages to Guinea"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00d4"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871cc",
+      "titleInfo": [
+        {
+          "title": "British Library_Voyages to Guinea"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00d5"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df8723c",
+      "titleInfo": [
+        {
+          "title": "Book Binding_British Library"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0145"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872a7",
+      "titleInfo": [
+        {
+          "title": "Book Binding"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01b0"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872a8",
+      "titleInfo": [
+        {
+          "title": "Book Binding"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01b1"
+    }
+  ]
+}

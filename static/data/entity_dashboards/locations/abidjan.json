@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "abidjan",
+    "name": "Abidjan",
+    "count": 52
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 6
+    },
+    {
+      "year": 2021,
+      "count": 32
+    },
+    {
+      "year": 2022,
+      "count": 13
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 6,
+      "byType": {
+        "Audio": 6
+      }
+    },
+    {
+      "year": 2021,
+      "total": 32,
+      "byType": {
+        "Audio": 32
+      }
+    },
+    {
+      "year": 2022,
+      "total": 13,
+      "byType": {
+        "Audio": 13
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Audio",
+      "value": 52
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 52
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Communication",
+      "value": 52
+    },
+    {
+      "name": "Ethics",
+      "value": 52
+    },
+    {
+      "name": "Women",
+      "value": 52
+    },
+    {
+      "name": "Pregnancy",
+      "value": 52
+    },
+    {
+      "name": "Reproductive health",
+      "value": 52
+    },
+    {
+      "name": "Africa",
+      "value": 52
+    },
+    {
+      "name": "Teenage pregnancy",
+      "value": 52
+    },
+    {
+      "name": "Abortion",
+      "value": 52
+    },
+    {
+      "name": "Contraception",
+      "value": 52
+    },
+    {
+      "name": "Prevention",
+      "value": 52
+    },
+    {
+      "name": "Applied ethics",
+      "value": 52
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Communication",
+      "value": 52
+    },
+    {
+      "name": "Ethics",
+      "value": 52
+    },
+    {
+      "name": "Women",
+      "value": 52
+    },
+    {
+      "name": "Pregnancy",
+      "value": 52
+    },
+    {
+      "name": "Reproductive health",
+      "value": 52
+    },
+    {
+      "name": "Africa",
+      "value": 52
+    },
+    {
+      "name": "Teenage pregnancy",
+      "value": 52
+    },
+    {
+      "name": "Abortion",
+      "value": 52
+    },
+    {
+      "name": "Contraception",
+      "value": 52
+    },
+    {
+      "name": "Prevention",
+      "value": 52
+    },
+    {
+      "name": "Applied ethics",
+      "value": 52
+    },
+    {
+      "name": "Birth Control",
+      "value": 52
+    },
+    {
+      "name": "Moral Communication",
+      "value": 52
+    },
+    {
+      "name": "Côte d'Ivoire",
+      "value": 52
+    },
+    {
+      "name": "Ivory Coast",
+      "value": 52
+    },
+    {
+      "name": "Adolescent Pregnancy",
+      "value": 52
+    },
+    {
+      "name": "Morality",
+      "value": 52
+    },
+    {
+      "name": "Focus Group Discussion",
+      "value": 4
+    },
+    {
+      "name": "Sex Education",
+      "value": 1
+    },
+    {
+      "name": "Catholic Priest",
+      "value": 1
+    },
+    {
+      "name": "Catholic Church",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Guadagnano, Laura",
+      "value": 104
+    }
+  ]
+}

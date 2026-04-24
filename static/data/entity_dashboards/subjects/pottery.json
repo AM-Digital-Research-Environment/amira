@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "pottery",
+    "name": "Pottery",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1973,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1973,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    },
+    {
+      "name": "Image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Books",
+      "value": 1
+    },
+    {
+      "name": "Women artists",
+      "value": 1
+    },
+    {
+      "name": "Artists",
+      "value": 1
+    },
+    {
+      "name": "Mosaics",
+      "value": 1
+    },
+    {
+      "name": "Doors",
+      "value": 1
+    },
+    {
+      "name": "Museums",
+      "value": 1
+    },
+    {
+      "name": "Photographs",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Books",
+      "value": 1
+    },
+    {
+      "name": "Art Collection",
+      "value": 1
+    },
+    {
+      "name": "Yoruba Art",
+      "value": 1
+    },
+    {
+      "name": "Yoruba Pottery",
+      "value": 1
+    },
+    {
+      "name": "Women artists",
+      "value": 1
+    },
+    {
+      "name": "Artists",
+      "value": 1
+    },
+    {
+      "name": "Mosaics",
+      "value": 1
+    },
+    {
+      "name": "Doors",
+      "value": 1
+    },
+    {
+      "name": "Museums",
+      "value": 1
+    },
+    {
+      "name": "Photographs",
+      "value": 1
+    },
+    {
+      "name": "Ile-Ife",
+      "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    },
+    {
+      "name": "Pottery Museum",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Museum of Yoruba Pottery",
+      "value": 1
+    },
+    {
+      "name": "Beier, Ulli",
+      "value": 1
+    },
+    {
+      "name": "Greven, Katharina",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 1
+    },
+    {
+      "country": "Nigeria",
+      "region": "Osun State",
+      "city": "Ile-Ife",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b48c",
+      "titleInfo": [
+        {
+          "title": "Collection of Ulli and Georgina Beier"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-99-0004"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4ed",
+      "titleInfo": [
+        {
+          "title": "Aufnahme der Tür des Pottery Museum in Ile-Ife"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0065"
+    }
+  ]
+}

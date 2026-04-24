@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "gorilla",
+    "name": "Gorilla",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2022,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2022,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Equality",
+      "value": 1
+    },
+    {
+      "name": "Performance",
+      "value": 1
+    },
+    {
+      "name": "Masquerades",
+      "value": 1
+    },
+    {
+      "name": "Esan (African people)",
+      "value": 1
+    },
+    {
+      "name": "Gender",
+      "value": 1
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Equality",
+      "value": 1
+    },
+    {
+      "name": "Performance",
+      "value": 1
+    },
+    {
+      "name": "Masquerades",
+      "value": 1
+    },
+    {
+      "name": "Esan (African people)",
+      "value": 1
+    },
+    {
+      "name": "Gender",
+      "value": 1
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    },
+    {
+      "name": "Gender Roles",
+      "value": 1
+    },
+    {
+      "name": "Dance Repertoire",
+      "value": 1
+    },
+    {
+      "name": "Gender Stereotypes",
+      "value": 1
+    },
+    {
+      "name": "Dance Gestures",
+      "value": 1
+    },
+    {
+      "name": "Musicality",
+      "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Aluede, Esther Omone",
+      "value": 1
+    },
+    {
+      "name": "Aluede, Charles Onomudo",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9edd6",
+      "titleInfo": [
+        {
+          "title": "Investigating gender stereotypes and musicality in Esan, Edo State, Nigeria"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03f1"
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "archival-materials",
+    "name": "Archival materials",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 1905,
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1905,
+      "total": 1,
+      "byType": {
+        "Digital": 1
+      }
+    },
+    {
+      "year": 2019,
+      "total": 1,
+      "byType": {
+        "Bibliography": 1
+      }
+    },
+    {
+      "year": 2020,
+      "total": 1,
+      "byType": {
+        "Bibliography": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Bibliography",
+      "value": 2
+    },
+    {
+      "name": "Digital",
+      "value": 1
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Animal breeding",
+      "value": 2
+    },
+    {
+      "name": "Agriculture",
+      "value": 2
+    },
+    {
+      "name": "Karakul sheep",
+      "value": 2
+    },
+    {
+      "name": "Karakul sheep industry",
+      "value": 2
+    },
+    {
+      "name": "Apartheid",
+      "value": 1
+    },
+    {
+      "name": "Colonisation",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Germany",
+      "value": 3
+    },
+    {
+      "name": "Animal breeding",
+      "value": 2
+    },
+    {
+      "name": "Agriculture",
+      "value": 2
+    },
+    {
+      "name": "Karakul sheep",
+      "value": 2
+    },
+    {
+      "name": "Karakul sheep industry",
+      "value": 2
+    },
+    {
+      "name": "Halle",
+      "value": 2
+    },
+    {
+      "name": "Karakul Farming",
+      "value": 2
+    },
+    {
+      "name": "Apartheid",
+      "value": 1
+    },
+    {
+      "name": "Colonisation",
+      "value": 1
+    },
+    {
+      "name": "German Colonialism",
+      "value": 1
+    },
+    {
+      "name": "Namibia",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Steinheimer, Frank",
+      "value": 1
+    },
+    {
+      "name": "Zwier, Pim",
+      "value": 1
+    },
+    {
+      "name": "Renate, Schafberg",
+      "value": 1
+    },
+    {
+      "name": "Swakara Board of Namibia",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "",
+      "city": "",
+      "count": 2
+    },
+    {
+      "country": "Namibia",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "66cf0d9595a000d4c7bf375c",
+      "titleInfo": [
+        {
+          "title": "Alles was irgendwie nützt - All what is somehow useful"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-0031"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf375d",
+      "titleInfo": [
+        {
+          "title": "Documents from Halle - Haustierkundliche Sammlung"
+        }
+      ],
+      "typeOfResource": "Bibliography",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-01-0032"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf375e",
+      "titleInfo": [
+        {
+          "title": "Documents from Swakara Board Archive in Windhoek"
+        }
+      ],
+      "typeOfResource": "Bibliography",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-01-0033"
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "elhanafy-taghrid",
+    "name": "Elhanafy, Taghrid",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 4
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 4,
+      "byType": {
+        "Digital": 4
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Digital",
+      "value": 4
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Islam",
+      "value": 4
+    },
+    {
+      "name": "West Africa",
+      "value": 3
+    },
+    {
+      "name": "Mysticism",
+      "value": 2
+    },
+    {
+      "name": "Race",
+      "value": 1
+    },
+    {
+      "name": "Slavery",
+      "value": 1
+    },
+    {
+      "name": "Sufism",
+      "value": 1
+    },
+    {
+      "name": "Islamic philosophy",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Islam",
+      "value": 4
+    },
+    {
+      "name": "Black Representations",
+      "value": 4
+    },
+    {
+      "name": "West Africa",
+      "value": 3
+    },
+    {
+      "name": "Mysticism",
+      "value": 2
+    },
+    {
+      "name": "Race",
+      "value": 1
+    },
+    {
+      "name": "Slavery",
+      "value": 1
+    },
+    {
+      "name": "Sufism",
+      "value": 1
+    },
+    {
+      "name": "Religious Authority",
+      "value": 1
+    },
+    {
+      "name": "Islamic philosophy",
+      "value": 1
+    },
+    {
+      "name": "Origin",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 4
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a8ab2c85fe8df87101",
+      "titleInfo": [
+        {
+          "title": "Part I: The Spread of Islam in West Africa"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-000a"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87102",
+      "titleInfo": [
+        {
+          "title": "Part II: Race, Slavery and Black Representations in Islam"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-000b"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87103",
+      "titleInfo": [
+        {
+          "title": "Part III: Sufism in West Africa and the Paradox of Mysticism as a Tool for Attaining Power"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-000c"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87104",
+      "titleInfo": [
+        {
+          "title": "Part IV: The Early Seeds of Mystic Islamic Thought in West Africa"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-000d"
+    }
+  ]
+}

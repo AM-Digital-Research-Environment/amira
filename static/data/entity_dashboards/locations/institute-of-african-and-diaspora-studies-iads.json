@@ -1,0 +1,452 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "institute-of-african-and-diaspora-studies-iads",
+    "name": "Institute of African and Diaspora Studies (IADS)",
+    "count": 120
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 21
+    },
+    {
+      "year": 2021,
+      "count": 69
+    },
+    {
+      "year": 2022,
+      "count": 18
+    },
+    {
+      "year": 2023,
+      "count": 12
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 21,
+      "byType": {
+        "Text": 3,
+        "Image": 10,
+        "Moving image": 8
+      }
+    },
+    {
+      "year": 2021,
+      "total": 69,
+      "byType": {
+        "Audio": 3,
+        "Text": 17,
+        "Image": 20,
+        "Moving image": 29
+      }
+    },
+    {
+      "year": 2022,
+      "total": 18,
+      "byType": {
+        "Image": 8,
+        "Text": 9,
+        "Dataset": 1
+      }
+    },
+    {
+      "year": 2023,
+      "total": 12,
+      "byType": {
+        "Image": 2,
+        "Moving image": 7,
+        "Text": 1,
+        "Audio": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Moving image",
+      "value": 44
+    },
+    {
+      "name": "Image",
+      "value": 40
+    },
+    {
+      "name": "Text",
+      "value": 30
+    },
+    {
+      "name": "Audio",
+      "value": 5
+    },
+    {
+      "name": "Dataset",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 42
+    }
+  ],
+  "subjects": [
+    {
+      "name": "COVID-19 (Disease)",
+      "value": 21
+    },
+    {
+      "name": "Transport workers",
+      "value": 21
+    },
+    {
+      "name": "Women",
+      "value": 21
+    },
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 21
+    },
+    {
+      "name": "Political rights",
+      "value": 21
+    },
+    {
+      "name": "Political participation",
+      "value": 21
+    },
+    {
+      "name": "Municipal engineering",
+      "value": 19
+    },
+    {
+      "name": "Construction",
+      "value": 19
+    },
+    {
+      "name": "Infrastructure (Economics)",
+      "value": 19
+    },
+    {
+      "name": "West Africa",
+      "value": 16
+    },
+    {
+      "name": "History",
+      "value": 15
+    },
+    {
+      "name": "Migration",
+      "value": 15
+    },
+    {
+      "name": "Learning",
+      "value": 15
+    },
+    {
+      "name": "Animation (Cinematography)",
+      "value": 15
+    },
+    {
+      "name": "Children",
+      "value": 15
+    },
+    {
+      "name": "Child psychology",
+      "value": 15
+    },
+    {
+      "name": "Curriculum planning",
+      "value": 15
+    },
+    {
+      "name": "Arts",
+      "value": 10
+    },
+    {
+      "name": "Aesthetics",
+      "value": 10
+    },
+    {
+      "name": "Music",
+      "value": 10
+    },
+    {
+      "name": "Scholars",
+      "value": 10
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Studies",
+      "value": 56
+    },
+    {
+      "name": "Nigeria",
+      "value": 40
+    },
+    {
+      "name": "Lagos",
+      "value": 36
+    },
+    {
+      "name": "Knowledge",
+      "value": 31
+    },
+    {
+      "name": "COVID-19 (Disease)",
+      "value": 21
+    },
+    {
+      "name": "Transport workers",
+      "value": 21
+    },
+    {
+      "name": "Marketer",
+      "value": 21
+    },
+    {
+      "name": "COVID-19",
+      "value": 21
+    },
+    {
+      "name": "Women",
+      "value": 21
+    },
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 21
+    },
+    {
+      "name": "Political rights",
+      "value": 21
+    },
+    {
+      "name": "Political participation",
+      "value": 21
+    },
+    {
+      "name": "Structural Barriers",
+      "value": 21
+    },
+    {
+      "name": "Political Barriers",
+      "value": 21
+    },
+    {
+      "name": "Politics",
+      "value": 21
+    },
+    {
+      "name": "Municipal engineering",
+      "value": 19
+    },
+    {
+      "name": "Construction",
+      "value": 19
+    },
+    {
+      "name": "Infrastructure (Economics)",
+      "value": 19
+    },
+    {
+      "name": "Marginalised Communities",
+      "value": 19
+    },
+    {
+      "name": "Infrastructure Development",
+      "value": 19
+    },
+    {
+      "name": "Municipal Road",
+      "value": 19
+    },
+    {
+      "name": "Kenya",
+      "value": 19
+    },
+    {
+      "name": "West Africa",
+      "value": 16
+    },
+    {
+      "name": "Immigration Studies",
+      "value": 16
+    },
+    {
+      "name": "Immigration",
+      "value": 16
+    },
+    {
+      "name": "History",
+      "value": 15
+    },
+    {
+      "name": "Migration",
+      "value": 15
+    },
+    {
+      "name": "Learning",
+      "value": 15
+    },
+    {
+      "name": "Animation (Cinematography)",
+      "value": 15
+    },
+    {
+      "name": "Children",
+      "value": 15
+    },
+    {
+      "name": "Child psychology",
+      "value": 15
+    },
+    {
+      "name": "Curriculum planning",
+      "value": 15
+    },
+    {
+      "name": "Tortoise",
+      "value": 14
+    },
+    {
+      "name": "Arts",
+      "value": 10
+    },
+    {
+      "name": "Aesthetics",
+      "value": 10
+    },
+    {
+      "name": "Music",
+      "value": 10
+    },
+    {
+      "name": "Scholars",
+      "value": 10
+    },
+    {
+      "name": "Popular Music Studies",
+      "value": 10
+    },
+    {
+      "name": "African Music",
+      "value": 10
+    },
+    {
+      "name": "Cultural Economy",
+      "value": 10
+    },
+    {
+      "name": "Researcher",
+      "value": 3
+    },
+    {
+      "name": "Historian",
+      "value": 3
+    },
+    {
+      "name": "Anthropologist",
+      "value": 3
+    },
+    {
+      "name": "Linguist",
+      "value": 3
+    },
+    {
+      "name": "Integrative Studies",
+      "value": 3
+    },
+    {
+      "name": "Ethics Dumping",
+      "value": 3
+    },
+    {
+      "name": "Research Ethics",
+      "value": 2
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Attoh, Franca",
+      "value": 56
+    },
+    {
+      "name": "Ademola-Adeoye, Feyisayo",
+      "value": 50
+    },
+    {
+      "name": "Eleshin, Abisoye",
+      "value": 46
+    },
+    {
+      "name": "Yakubu, Moses",
+      "value": 40
+    },
+    {
+      "name": "Adebayo, Bukola",
+      "value": 40
+    },
+    {
+      "name": "Adeniran, Samuel",
+      "value": 40
+    },
+    {
+      "name": "Anyanwu, Beatrice",
+      "value": 40
+    },
+    {
+      "name": "Akintola, Folashade",
+      "value": 40
+    },
+    {
+      "name": "Olukuade, Tomide",
+      "value": 40
+    },
+    {
+      "name": "Ademola, Lydia",
+      "value": 40
+    },
+    {
+      "name": "Eesuola, Kayode",
+      "value": 37
+    },
+    {
+      "name": "Lawanson, Taibat",
+      "value": 31
+    },
+    {
+      "name": "Fayemi, Kazeem",
+      "value": 24
+    },
+    {
+      "name": "Akin-Otiko, Akinmayowa",
+      "value": 24
+    },
+    {
+      "name": "Olalekan, Damilola",
+      "value": 16
+    },
+    {
+      "name": "Oyewumi, Masudi",
+      "value": 16
+    },
+    {
+      "name": "Akinpelu, Deji",
+      "value": 15
+    },
+    {
+      "name": "Enitan, Adewale",
+      "value": 15
+    },
+    {
+      "name": "Odubawo, Orinayo",
+      "value": 15
+    },
+    {
+      "name": "Bitrus, Byenyen",
+      "value": 15
+    }
+  ]
+}

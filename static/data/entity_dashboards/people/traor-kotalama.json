@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "traor-kotalama",
+    "name": "Traoré, Kotalama",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2021,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2021,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Mediation",
+      "value": 1
+    },
+    {
+      "name": "Reconciliation",
+      "value": 1
+    },
+    {
+      "name": "Justice",
+      "value": 1
+    },
+    {
+      "name": "Punishment",
+      "value": 1
+    },
+    {
+      "name": "Children",
+      "value": 1
+    },
+    {
+      "name": "Juvenile detention",
+      "value": 1
+    },
+    {
+      "name": "Juvenile delinquency",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Mediation",
+      "value": 1
+    },
+    {
+      "name": "Reconciliation",
+      "value": 1
+    },
+    {
+      "name": "Justice",
+      "value": 1
+    },
+    {
+      "name": "Punishment",
+      "value": 1
+    },
+    {
+      "name": "Children",
+      "value": 1
+    },
+    {
+      "name": "Juvenile detention",
+      "value": 1
+    },
+    {
+      "name": "Juvenile delinquency",
+      "value": 1
+    },
+    {
+      "name": "Deprivation of Liberty",
+      "value": 1
+    },
+    {
+      "name": "Preliminary Investigation",
+      "value": 1
+    },
+    {
+      "name": "Investigation Phase",
+      "value": 1
+    },
+    {
+      "name": "Enforcement of Decisions",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "Burkina Faso",
+      "region": "Centre",
+      "city": "Ouagadougou",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "69c1568e666e5b9f92cf9f70",
+      "titleInfo": [
+        {
+          "title": "Rapport"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0018"
+    }
+  ]
+}

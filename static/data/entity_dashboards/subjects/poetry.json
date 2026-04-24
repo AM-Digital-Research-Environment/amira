@@ -1,0 +1,307 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "poetry",
+    "name": "Poetry",
+    "count": 5
+  },
+  "timeline": [
+    {
+      "year": 1959,
+      "count": 1
+    },
+    {
+      "year": 1961,
+      "count": 1
+    },
+    {
+      "year": 2004,
+      "count": 1
+    },
+    {
+      "year": 2007,
+      "count": 1
+    },
+    {
+      "year": 2013,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1959,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1961,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2004,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2007,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2013,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 4
+    },
+    {
+      "name": "Image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 4
+    },
+    {
+      "name": "Yoruba",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Water",
+      "value": 1
+    },
+    {
+      "name": "Sun",
+      "value": 1
+    },
+    {
+      "name": "Books",
+      "value": 1
+    },
+    {
+      "name": "Artists",
+      "value": 1
+    },
+    {
+      "name": "Drama",
+      "value": 1
+    },
+    {
+      "name": "Book reviews",
+      "value": 1
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 3
+    },
+    {
+      "name": "Yoruba Art",
+      "value": 2
+    },
+    {
+      "name": "Water",
+      "value": 1
+    },
+    {
+      "name": "Sun",
+      "value": 1
+    },
+    {
+      "name": "Books",
+      "value": 1
+    },
+    {
+      "name": "Artists",
+      "value": 1
+    },
+    {
+      "name": "Ijala",
+      "value": 1
+    },
+    {
+      "name": "Drama",
+      "value": 1
+    },
+    {
+      "name": "Book reviews",
+      "value": 1
+    },
+    {
+      "name": "Elizabeth I",
+      "value": 1
+    },
+    {
+      "name": "Elizabethan Era",
+      "value": 1
+    },
+    {
+      "name": "Jacobean Era",
+      "value": 1
+    },
+    {
+      "name": "King James I",
+      "value": 1
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    },
+    {
+      "name": "Yoruba Poetry",
+      "value": 1
+    },
+    {
+      "name": "Sudan",
+      "value": 1
+    },
+    {
+      "name": "Tanzania",
+      "value": 1
+    },
+    {
+      "name": "Kenya",
+      "value": 1
+    },
+    {
+      "name": "Swahili Music",
+      "value": 1
+    },
+    {
+      "name": "Languid Charm",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Beier, Georgina",
+      "value": 1
+    },
+    {
+      "name": "Greven, Katharina",
+      "value": 1
+    },
+    {
+      "name": "Beier, Ulli",
+      "value": 1
+    },
+    {
+      "name": "Crouch, Patricia",
+      "value": 1
+    },
+    {
+      "name": "University of Chicago Press",
+      "value": 1
+    },
+    {
+      "name": "Jones, A. M.",
+      "value": 1
+    },
+    {
+      "name": "McConnachie, Boudina",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 3
+    },
+    {
+      "country": "United States of America",
+      "region": "Illinois",
+      "city": "Chicago",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b495",
+      "titleInfo": [
+        {
+          "title": "Drei Buchdeckel, die von Georgina Beier gestaltet wurden, in einer schwarzen Mappe"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-000d"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87112",
+      "titleInfo": [
+        {
+          "title": "Reviewed Work(s): Reflection of Africa in Elizabethan and Jacobean Drama and Poetry by Anne B. Mangum"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-001b"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea73",
+      "titleInfo": [
+        {
+          "title": "YORUBA POETRY. Published by the Ministry of Education, Ibadan, Nigeria"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-008e"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eaaa",
+      "titleInfo": [
+        {
+          "title": "POESIA SUDANESE. Museum Combonianum, No. 12, by LIVIO TESCAROLI. Editrice Nigrizia, Bologna, 1961. pp. 117."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00c5"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec8c",
+      "titleInfo": [
+        {
+          "title": "Poetry and Languid Charm, 2007: Swahili Music From Tanzania and Kenya - From the 1920s to the 1950s. Topic Records Ltd. - TSCD 936. Compiled by Janet Topp Fargion, Curator, World and Traditional Music Section, British Library Sound Archive. One compact disc. Booklet (15 pp.) with notes by Janet Topp Fargion and photographs."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02a7"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "gregorian-chants",
+    "name": "Gregorian chants",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1956,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1956,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "Church music",
+      "value": 2
+    },
+    {
+      "name": "Africa",
+      "value": 2
+    },
+    {
+      "name": "Pentatonic scales",
+      "value": 1
+    },
+    {
+      "name": "Musical ability",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "Church music",
+      "value": 2
+    },
+    {
+      "name": "Africa",
+      "value": 2
+    },
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Musical Interval",
+      "value": 1
+    },
+    {
+      "name": "Musical Scale",
+      "value": 1
+    },
+    {
+      "name": "Pentatonic scales",
+      "value": 1
+    },
+    {
+      "name": "Musical ability",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tracey, Hugh",
+      "value": 1
+    },
+    {
+      "name": "Lury, Canon E. E.",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ea23",
+      "titleInfo": [
+        {
+          "title": "Notes on Canon Lury's article"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-003e"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea2a",
+      "titleInfo": [
+        {
+          "title": "Music in African churches"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0045"
+    }
+  ]
+}

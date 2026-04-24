@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "british-broadcasting-corporation",
+    "name": "British Broadcasting Corporation",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 1955,
+      "count": 1
+    },
+    {
+      "year": 1957,
+      "count": 1
+    },
+    {
+      "year": 1961,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1955,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1957,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1961,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Women",
+      "value": 1
+    },
+    {
+      "name": "Folk music",
+      "value": 1
+    },
+    {
+      "name": "Songs",
+      "value": 1
+    },
+    {
+      "name": "Women musicians",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Hausa (African people)",
+      "value": 1
+    },
+    {
+      "name": "Musicians",
+      "value": 1
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Sacred music",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 3
+    },
+    {
+      "name": "Nigeria",
+      "value": 2
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Women",
+      "value": 1
+    },
+    {
+      "name": "Folk music",
+      "value": 1
+    },
+    {
+      "name": "Songs",
+      "value": 1
+    },
+    {
+      "name": "Women musicians",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Hausa (African people)",
+      "value": 1
+    },
+    {
+      "name": "Musicians",
+      "value": 1
+    },
+    {
+      "name": "Hausa Music",
+      "value": 1
+    },
+    {
+      "name": "Shantu (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Sacred music",
+      "value": 1
+    },
+    {
+      "name": "Yoruba Art",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mackay, Mercedes",
+      "value": 3
+    },
+    {
+      "name": "Ene, Augustine",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ea0c",
+      "titleInfo": [
+        {
+          "title": "The Shantu music of the Harims of Nigeria"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0027"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea49",
+      "titleInfo": [
+        {
+          "title": "The Atilogwu dance"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0064"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eaa8",
+      "titleInfo": [
+        {
+          "title": "YORUBA SACRED MUSIC FROM EKITI by ANTHONY KING, Ibadan University Press, Nigeria, 1961, pp. x, 46, xlix (text and music), 8 half-tone illustrations, 8½\" x 5½\""
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00c3"
+    }
+  ]
+}

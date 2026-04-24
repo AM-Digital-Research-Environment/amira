@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "todd-c",
+    "name": "Todd, C.",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1961,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1961,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Sculptors",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Sculpture",
+      "value": 1
+    },
+    {
+      "name": "East Africa",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Sculptors",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Sculpture",
+      "value": 1
+    },
+    {
+      "name": "East Africa",
+      "value": 1
+    },
+    {
+      "name": "Uganda",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9eab0",
+      "titleInfo": [
+        {
+          "title": "Modern sculpture and sculptors in east Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00cb"
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "reconciliation",
+    "name": "Reconciliation",
+    "count": 7
+  },
+  "timeline": [
+    {
+      "year": 2021,
+      "count": 5
+    },
+    {
+      "year": 2022,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2021,
+      "total": 5,
+      "byType": {
+        "Text": 5
+      }
+    },
+    {
+      "year": 2022,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 7
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 7
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Punishment",
+      "value": 7
+    },
+    {
+      "name": "Children",
+      "value": 7
+    },
+    {
+      "name": "Juvenile detention",
+      "value": 7
+    },
+    {
+      "name": "Juvenile delinquency",
+      "value": 7
+    },
+    {
+      "name": "Mediation",
+      "value": 6
+    },
+    {
+      "name": "Justice",
+      "value": 6
+    },
+    {
+      "name": "Administration of Justice",
+      "value": 1
+    },
+    {
+      "name": "Courts",
+      "value": 1
+    },
+    {
+      "name": "Prisons",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Punishment",
+      "value": 7
+    },
+    {
+      "name": "Children",
+      "value": 7
+    },
+    {
+      "name": "Juvenile detention",
+      "value": 7
+    },
+    {
+      "name": "Juvenile delinquency",
+      "value": 7
+    },
+    {
+      "name": "Deprivation of Liberty",
+      "value": 7
+    },
+    {
+      "name": "Preliminary Investigation",
+      "value": 7
+    },
+    {
+      "name": "Investigation Phase",
+      "value": 7
+    },
+    {
+      "name": "Enforcement of Decisions",
+      "value": 7
+    },
+    {
+      "name": "Mediation",
+      "value": 6
+    },
+    {
+      "name": "Justice",
+      "value": 6
+    },
+    {
+      "name": "Administration of Justice",
+      "value": 1
+    },
+    {
+      "name": "Courts",
+      "value": 1
+    },
+    {
+      "name": "Prisons",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Bationo, Bouma Fernand",
+      "value": 3
+    },
+    {
+      "name": "Traoré, Seydou",
+      "value": 2
+    },
+    {
+      "name": "Boubié, Bazie",
+      "value": 1
+    },
+    {
+      "name": "Tapsoba, Tatiana Nadine",
+      "value": 1
+    },
+    {
+      "name": "Traoré, Kotalama",
+      "value": 1
+    },
+    {
+      "name": "Dabire, Aristide",
+      "value": 1
+    },
+    {
+      "name": "Savadogo, Salam",
+      "value": 1
+    },
+    {
+      "name": "Sanou, Salia",
+      "value": 1
+    },
+    {
+      "name": "Traoré, Honoré Nabéré",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Burkina Faso",
+      "region": "Centre",
+      "city": "Ouagadougou",
+      "count": 3
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "Hauts-Bassins Region",
+      "city": "Bobo-Dioulasso",
+      "count": 2
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "Centre-Ouest Region",
+      "city": "Dano",
+      "count": 1
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "Sud-Ouest Region",
+      "city": "Gaoua",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "69c1568e666e5b9f92cf9f6a",
+      "titleInfo": [
+        {
+          "title": "Rapport"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0012"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f6b",
+      "titleInfo": [
+        {
+          "title": "Synthèse"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0013"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f6e",
+      "titleInfo": [
+        {
+          "title": "Rapport"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0016"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f70",
+      "titleInfo": [
+        {
+          "title": "Rapport"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0018"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f72",
+      "titleInfo": [
+        {
+          "title": "Entretien"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-001a"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f74",
+      "titleInfo": [
+        {
+          "title": "Entretien"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-001c"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f75",
+      "titleInfo": [
+        {
+          "title": "Entretien"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-001d"
+    }
+  ]
+}

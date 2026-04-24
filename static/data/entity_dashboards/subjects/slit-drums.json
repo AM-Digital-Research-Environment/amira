@@ -1,0 +1,272 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "slit-drums",
+    "name": "Slit drums",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1955,
+      "count": 1
+    },
+    {
+      "year": 2014,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1955,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2014,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 1
+    },
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Musical instruments",
+      "value": 2
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Artists",
+      "value": 1
+    },
+    {
+      "name": "Interior decoration",
+      "value": 1
+    },
+    {
+      "name": "Museums",
+      "value": 1
+    },
+    {
+      "name": "Archives",
+      "value": 1
+    },
+    {
+      "name": "Photographs",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Drum",
+      "value": 1
+    },
+    {
+      "name": "Tetela (African people)",
+      "value": 1
+    },
+    {
+      "name": "Performance",
+      "value": 1
+    },
+    {
+      "name": "Drum music",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Musical instruments",
+      "value": 2
+    },
+    {
+      "name": "Slit Drum (Instrument)",
+      "value": 2
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Artists",
+      "value": 1
+    },
+    {
+      "name": "Interior decoration",
+      "value": 1
+    },
+    {
+      "name": "Museums",
+      "value": 1
+    },
+    {
+      "name": "Archives",
+      "value": 1
+    },
+    {
+      "name": "Photographs",
+      "value": 1
+    },
+    {
+      "name": "Iragbiji",
+      "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    },
+    {
+      "name": "National Archives",
+      "value": 1
+    },
+    {
+      "name": "Papua New Guinea",
+      "value": 1
+    },
+    {
+      "name": "New Guinea",
+      "value": 1
+    },
+    {
+      "name": "Art Collector",
+      "value": 1
+    },
+    {
+      "name": "Art Collecting",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Drum",
+      "value": 1
+    },
+    {
+      "name": "Tetela (African people)",
+      "value": 1
+    },
+    {
+      "name": "Performance",
+      "value": 1
+    },
+    {
+      "name": "Drum music",
+      "value": 1
+    },
+    {
+      "name": "Belgian Congo",
+      "value": 1
+    },
+    {
+      "name": "Drum (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Skin Drum (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Lukumbi (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Ngomo (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Greven, Katharina",
+      "value": 1
+    },
+    {
+      "name": "Beier, Ulli",
+      "value": 1
+    },
+    {
+      "name": "Beier, Georgina",
+      "value": 1
+    },
+    {
+      "name": "Gilbert, Dorothy R.",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Nigeria",
+      "region": "Osun State",
+      "city": "Iragbiji",
+      "count": 1
+    },
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b520",
+      "titleInfo": [
+        {
+          "title": "Schlitztrommel aus Papua Neuguinea im Ile-Ona Museum of Art and Archival Materials in Iragbiji"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0098"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea09",
+      "titleInfo": [
+        {
+          "title": "The Lukumbi: a six-toned slit drum of the Batetela"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0024"
+    }
+  ]
+}

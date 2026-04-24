@@ -1,0 +1,833 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "osogbo",
+    "name": "Osogbo",
+    "count": 28
+  },
+  "timeline": [
+    {
+      "year": 1962,
+      "count": 1
+    },
+    {
+      "year": 1963,
+      "count": 4
+    },
+    {
+      "year": 1966,
+      "count": 2
+    },
+    {
+      "year": 1973,
+      "count": 1
+    },
+    {
+      "year": 1992,
+      "count": 3
+    },
+    {
+      "year": 2013,
+      "count": 1
+    },
+    {
+      "year": 2014,
+      "count": 9
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1962,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 1963,
+      "total": 4,
+      "byType": {
+        "Image": 4
+      }
+    },
+    {
+      "year": 1966,
+      "total": 2,
+      "byType": {
+        "Image": 2
+      }
+    },
+    {
+      "year": 1973,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1992,
+      "total": 3,
+      "byType": {
+        "Image": 3
+      }
+    },
+    {
+      "year": 2013,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 2014,
+      "total": 9,
+      "byType": {
+        "Image": 9
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 27
+    },
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 16
+    },
+    {
+      "name": "Igbo",
+      "value": 1
+    },
+    {
+      "name": "German",
+      "value": 1
+    },
+    {
+      "name": "Latin",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Photographs",
+      "value": 18
+    },
+    {
+      "name": "Artists",
+      "value": 18
+    },
+    {
+      "name": "Africa",
+      "value": 15
+    },
+    {
+      "name": "Interior decoration",
+      "value": 13
+    },
+    {
+      "name": "Art",
+      "value": 11
+    },
+    {
+      "name": "Women artists",
+      "value": 7
+    },
+    {
+      "name": "Painting",
+      "value": 6
+    },
+    {
+      "name": "Women",
+      "value": 6
+    },
+    {
+      "name": "Mosaics",
+      "value": 6
+    },
+    {
+      "name": "Museums",
+      "value": 4
+    },
+    {
+      "name": "Exhibitions",
+      "value": 4
+    },
+    {
+      "name": "Ritual",
+      "value": 3
+    },
+    {
+      "name": "Archives",
+      "value": 3
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 3
+    },
+    {
+      "name": "Rites and ceremonies",
+      "value": 2
+    },
+    {
+      "name": "Wood-carving, Yoruba",
+      "value": 2
+    },
+    {
+      "name": "Antiquities",
+      "value": 1
+    },
+    {
+      "name": "Books",
+      "value": 1
+    },
+    {
+      "name": "Architecture",
+      "value": 1
+    },
+    {
+      "name": "Leopard",
+      "value": 1
+    },
+    {
+      "name": "Hausa (African people)",
+      "value": 1
+    },
+    {
+      "name": "Dolls",
+      "value": 1
+    },
+    {
+      "name": "Invitation cards",
+      "value": 1
+    },
+    {
+      "name": "Sculpture",
+      "value": 1
+    },
+    {
+      "name": "Children",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Nigeria",
+      "value": 28
+    },
+    {
+      "name": "Photographs",
+      "value": 18
+    },
+    {
+      "name": "Artists",
+      "value": 18
+    },
+    {
+      "name": "Africa",
+      "value": 15
+    },
+    {
+      "name": "Interior decoration",
+      "value": 13
+    },
+    {
+      "name": "Art",
+      "value": 11
+    },
+    {
+      "name": "Art Collector",
+      "value": 8
+    },
+    {
+      "name": "Art Collecting",
+      "value": 8
+    },
+    {
+      "name": "Women artists",
+      "value": 7
+    },
+    {
+      "name": "Painting",
+      "value": 6
+    },
+    {
+      "name": "Women",
+      "value": 6
+    },
+    {
+      "name": "Mosaics",
+      "value": 6
+    },
+    {
+      "name": "Yoruba Art",
+      "value": 5
+    },
+    {
+      "name": "Museums",
+      "value": 4
+    },
+    {
+      "name": "Exhibitions",
+      "value": 4
+    },
+    {
+      "name": "Art Exhibition",
+      "value": 4
+    },
+    {
+      "name": "Cultural Centre",
+      "value": 4
+    },
+    {
+      "name": "Mural",
+      "value": 4
+    },
+    {
+      "name": "Ritual",
+      "value": 3
+    },
+    {
+      "name": "Archives",
+      "value": 3
+    },
+    {
+      "name": "Ceremony",
+      "value": 3
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 3
+    },
+    {
+      "name": "Ataoja",
+      "value": 3
+    },
+    {
+      "name": "Rites and ceremonies",
+      "value": 2
+    },
+    {
+      "name": "Contact Sheet",
+      "value": 2
+    },
+    {
+      "name": "Yoruba Ceremony",
+      "value": 2
+    },
+    {
+      "name": "Performing Arts Center",
+      "value": 2
+    },
+    {
+      "name": "Chieftancy",
+      "value": 2
+    },
+    {
+      "name": "Certificate",
+      "value": 2
+    },
+    {
+      "name": "Wood-carving, Yoruba",
+      "value": 2
+    },
+    {
+      "name": "Antiquities",
+      "value": 1
+    },
+    {
+      "name": "Books",
+      "value": 1
+    },
+    {
+      "name": "African Studies",
+      "value": 1
+    },
+    {
+      "name": "Architecture",
+      "value": 1
+    },
+    {
+      "name": "Mbari Mbayo Club",
+      "value": 1
+    },
+    {
+      "name": "Leopard",
+      "value": 1
+    },
+    {
+      "name": "Hausa (African people)",
+      "value": 1
+    },
+    {
+      "name": "Dolls",
+      "value": 1
+    },
+    {
+      "name": "Invitation cards",
+      "value": 1
+    },
+    {
+      "name": "Sculpture",
+      "value": 1
+    },
+    {
+      "name": "Children",
+      "value": 1
+    },
+    {
+      "name": "Maps",
+      "value": 1
+    },
+    {
+      "name": "Shrine",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Beier, Ulli",
+      "value": 27
+    },
+    {
+      "name": "Greven, Katharina",
+      "value": 21
+    },
+    {
+      "name": "Beier, Georgina",
+      "value": 17
+    },
+    {
+      "name": "Yeye Olana",
+      "value": 2
+    },
+    {
+      "name": "Ladipo, Duro",
+      "value": 1
+    },
+    {
+      "name": "Idah, Ovia",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Nigeria",
+      "region": "Osun State",
+      "city": "Osogbo",
+      "count": 25
+    },
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 2
+    },
+    {
+      "country": "Australia",
+      "region": "New South Wales",
+      "city": "Sydney",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b48a",
+      "titleInfo": [
+        {
+          "title": "Museum of Antiquities in Osogbo: A Project of the Institute of African Studies, University of Ife"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-99-0002"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b498",
+      "titleInfo": [
+        {
+          "title": "Gruppenfoto mit Ulli und Georgina Beier im Jahre 1992 in Osogbo bei Titelverleihung"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0010"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b49d",
+      "titleInfo": [
+        {
+          "title": "Kontaktabzug von Aufnahmen einer Zeremonie der Yoruba in Osogbo"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0015"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b49e",
+      "titleInfo": [
+        {
+          "title": "Kontaktabzug von Aufnahmen einer Zeremonie der Yoruba in Osogbo"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0016"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4a7",
+      "titleInfo": [
+        {
+          "title": "Das Haus der Beiers in Osogbo"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-001f"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4ac",
+      "titleInfo": [
+        {
+          "title": "Aufnahme von Duro Ladipo in einer Gruppe von Menschen während der Eröffnung des Mbari Mbayo Club in Osogbo"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0024"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4ad",
+      "titleInfo": [
+        {
+          "title": "Überreichung der Urkunde über den Chieftancy Titel Yeye Olana (‚Mutter der Künstlerinnen und Künstler’) des Oba Iyiola Oyewale Matanmi III an Georgina Beier in Osogbo"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0025"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4ae",
+      "titleInfo": [
+        {
+          "title": "Urkunde über den Chieftancy Titel Yeye Olana (‚Mutter der Künstlerinnen und Künstler’)"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0026"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4b5",
+      "titleInfo": [
+        {
+          "title": "Innenansicht des Museum of Popular Art im Palast des Ataoja in Osogbo"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-002d"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4b6",
+      "titleInfo": [
+        {
+          "title": "Innenansicht des Museum of Popular Art im Palast des Ataoja in Osogbo"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-002e"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4b7",
+      "titleInfo": [
+        {
+          "title": "Einladungskarte für das Museum of Popular Art im Palast des Ataoja in Osogbo, auch Osogbo Museum genannt"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-002f"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4de",
+      "titleInfo": [
+        {
+          "title": "Georgina Beier in ihrer Küche in Osogbo"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-99-0056"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4df",
+      "titleInfo": [
+        {
+          "title": "Georgina Beier in ihrer Küche in Osogbo"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0057"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4e3",
+      "titleInfo": [
+        {
+          "title": "Georgina Beier vor dem Mosaik in ihrer Küche in Osogbo"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-005b"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4e4",
+      "titleInfo": [
+        {
+          "title": "Eingang des Hauses in Osogbo"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-005c"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4e5",
+      "titleInfo": [
+        {
+          "title": "Georgina Beier vor einem ihrer Wandmalereien im Haus in Osogbo"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-005d"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4e6",
+      "titleInfo": [
+        {
+          "title": "Georgina Beier und Bisi Fabunmi vor dem gemeinsam gestalteten Wandgemälde in Osogbo"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-005e"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4e7",
+      "titleInfo": [
+        {
+          "title": "Fertiges Wandgemälde von Georgina Beier und Bisi Fabunmi in Osogbo"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-005f"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4e8",
+      "titleInfo": [
+        {
+          "title": "Aufnahme des Eingangs des Stenohaus"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0060"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b517",
+      "titleInfo": [
+        {
+          "title": "Innenaufnahme des Hauses in Osogbo, Erdgeschoss"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-008f"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b518",
+      "titleInfo": [
+        {
+          "title": "Aufnahme des herausgebrochenen Mosaiks von Georgina Beier auf dem Weg zum Eingang des Hauses in Osogbo"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0090"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b519",
+      "titleInfo": [
+        {
+          "title": "Eingang des Hauses in Osogbo"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0091"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b51a",
+      "titleInfo": [
+        {
+          "title": "Hintere Terrasse des Hauses in Osogbo"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0092"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b51b",
+      "titleInfo": [
+        {
+          "title": "Innenaufnahme des Hauses in Osogbo, 1. Stock"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0093"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b51c",
+      "titleInfo": [
+        {
+          "title": "Innenaufnahme des Hauses in Osogbo, 2. Stock"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0094"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b51d",
+      "titleInfo": [
+        {
+          "title": "Küche des Hauses in Osogbo"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0095"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b51e",
+      "titleInfo": [
+        {
+          "title": "Eingang des Hauses in Osogbo"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0096"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b531",
+      "titleInfo": [
+        {
+          "title": "Detailaufnahme vom Ulli Beier-Schrein, eine Karte vom Haus in Osogbo und eine bunte Fotografie mir Fußball spielenden Kindern"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-00a9"
+    }
+  ]
+}

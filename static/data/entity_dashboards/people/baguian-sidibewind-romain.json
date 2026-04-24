@@ -1,0 +1,275 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "baguian-sidibewind-romain",
+    "name": "Baguian, Sidibewindé Romain",
+    "count": 8
+  },
+  "timeline": [
+    {
+      "year": 2022,
+      "count": 6
+    },
+    {
+      "year": 2023,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2022,
+      "total": 6,
+      "byType": {
+        "Text": 6
+      }
+    },
+    {
+      "year": 2023,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 8
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 8
+    }
+  ],
+  "subjects": [
+    {
+      "name": "World health",
+      "value": 8
+    },
+    {
+      "name": "Gender",
+      "value": 8
+    },
+    {
+      "name": "West Africa",
+      "value": 8
+    },
+    {
+      "name": "Health",
+      "value": 6
+    },
+    {
+      "name": "Diseases",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "World health",
+      "value": 8
+    },
+    {
+      "name": "Gender",
+      "value": 8
+    },
+    {
+      "name": "West Africa",
+      "value": 8
+    },
+    {
+      "name": "Men who have Sex with Men",
+      "value": 8
+    },
+    {
+      "name": "The Global Fund to Fight AIDS, Tuberculosis and Malaria",
+      "value": 8
+    },
+    {
+      "name": "Burkina Faso",
+      "value": 8
+    },
+    {
+      "name": "Global Health Policy",
+      "value": 8
+    },
+    {
+      "name": "Health",
+      "value": 6
+    },
+    {
+      "name": "Global Health",
+      "value": 6
+    },
+    {
+      "name": "Joint United Nations Programme on HIV/AIDS",
+      "value": 6
+    },
+    {
+      "name": "Diseases",
+      "value": 2
+    },
+    {
+      "name": "HIV/AIDS",
+      "value": 2
+    },
+    {
+      "name": "Gender Policy",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Nabaloum, Abdoulassé",
+      "value": 1
+    },
+    {
+      "name": "Toe, Celestin",
+      "value": 1
+    },
+    {
+      "name": "Drabo, Manessour",
+      "value": 1
+    },
+    {
+      "name": "Soudré, Robert",
+      "value": 1
+    },
+    {
+      "name": "Samadoulougou, Sotissi Benoit Césaire",
+      "value": 1
+    },
+    {
+      "name": "Zoma, Tihamen",
+      "value": 1
+    },
+    {
+      "name": "Banhoro, Yacouba",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Burkina Faso",
+      "region": "",
+      "city": "",
+      "count": 8
+    }
+  ],
+  "items": [
+    {
+      "_id": "6718efd3c327cde4b57d8671",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Nabaloum Abdoulassé"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0000"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8672",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Toe Celestin"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0001"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8673",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Drabo Manessour"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0002"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8674",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Soudré Robert"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0003"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8675",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Samadoulougou Sotissi Benoit Césaire"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0004"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8676",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Zoma Tihamen"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0005"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d867d",
+      "titleInfo": [
+        {
+          "title": "Article sur l'action du Fonds Mondial au Burkina Faso"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-000c"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8686",
+      "titleInfo": [
+        {
+          "title": "Mémoire sur le Fonds Mondial"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0015"
+    }
+  ]
+}

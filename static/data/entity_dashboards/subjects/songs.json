@@ -1,0 +1,687 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "songs",
+    "name": "Songs",
+    "count": 13
+  },
+  "timeline": [
+    {
+      "year": 1954,
+      "count": 1
+    },
+    {
+      "year": 1955,
+      "count": 2
+    },
+    {
+      "year": 1956,
+      "count": 1
+    },
+    {
+      "year": 1960,
+      "count": 1
+    },
+    {
+      "year": 1962,
+      "count": 1
+    },
+    {
+      "year": 1964,
+      "count": 2
+    },
+    {
+      "year": 1966,
+      "count": 1
+    },
+    {
+      "year": 1971,
+      "count": 1
+    },
+    {
+      "year": 1982,
+      "count": 1
+    },
+    {
+      "year": 1992,
+      "count": 1
+    },
+    {
+      "year": 2011,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1954,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1955,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1956,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1960,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1962,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1964,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1966,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1971,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1982,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1992,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2011,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 13
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 13
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 8
+    },
+    {
+      "name": "Music",
+      "value": 6
+    },
+    {
+      "name": "Africa",
+      "value": 3
+    },
+    {
+      "name": "Musical instruments",
+      "value": 3
+    },
+    {
+      "name": "History",
+      "value": 2
+    },
+    {
+      "name": "Dance",
+      "value": 2
+    },
+    {
+      "name": "Bashi (African people)",
+      "value": 1
+    },
+    {
+      "name": "Music festivals",
+      "value": 1
+    },
+    {
+      "name": "Festivals",
+      "value": 1
+    },
+    {
+      "name": "Criticism",
+      "value": 1
+    },
+    {
+      "name": "Women",
+      "value": 1
+    },
+    {
+      "name": "Folk music",
+      "value": 1
+    },
+    {
+      "name": "Women musicians",
+      "value": 1
+    },
+    {
+      "name": "Hausa (African people)",
+      "value": 1
+    },
+    {
+      "name": "Musicians",
+      "value": 1
+    },
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "School songbooks",
+      "value": 1
+    },
+    {
+      "name": "Composers",
+      "value": 1
+    },
+    {
+      "name": "Zulu (African people)",
+      "value": 1
+    },
+    {
+      "name": "Xhosa (African people)",
+      "value": 1
+    },
+    {
+      "name": "Jazz",
+      "value": 1
+    },
+    {
+      "name": "Creole dialects",
+      "value": 1
+    },
+    {
+      "name": "Arts",
+      "value": 1
+    },
+    {
+      "name": "Karanga (African people)",
+      "value": 1
+    },
+    {
+      "name": "Popular music",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 13
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 8
+    },
+    {
+      "name": "Music",
+      "value": 6
+    },
+    {
+      "name": "Africa",
+      "value": 3
+    },
+    {
+      "name": "Musical instruments",
+      "value": 3
+    },
+    {
+      "name": "Democratic Republic of the Congo",
+      "value": 2
+    },
+    {
+      "name": "Belgian Congo",
+      "value": 2
+    },
+    {
+      "name": "History",
+      "value": 2
+    },
+    {
+      "name": "Dance",
+      "value": 2
+    },
+    {
+      "name": "Tanzania",
+      "value": 2
+    },
+    {
+      "name": "Bashi (African people)",
+      "value": 1
+    },
+    {
+      "name": "Gender Relations",
+      "value": 1
+    },
+    {
+      "name": "Music Manners",
+      "value": 1
+    },
+    {
+      "name": "Music Customs",
+      "value": 1
+    },
+    {
+      "name": "Music festivals",
+      "value": 1
+    },
+    {
+      "name": "Festivals",
+      "value": 1
+    },
+    {
+      "name": "Criticism",
+      "value": 1
+    },
+    {
+      "name": "Women",
+      "value": 1
+    },
+    {
+      "name": "Folk music",
+      "value": 1
+    },
+    {
+      "name": "Women musicians",
+      "value": 1
+    },
+    {
+      "name": "Hausa (African people)",
+      "value": 1
+    },
+    {
+      "name": "Musicians",
+      "value": 1
+    },
+    {
+      "name": "Hausa Music",
+      "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    },
+    {
+      "name": "Shantu (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "School songbooks",
+      "value": 1
+    },
+    {
+      "name": "Composers",
+      "value": 1
+    },
+    {
+      "name": "Zulu (African people)",
+      "value": 1
+    },
+    {
+      "name": "Xhosa (African people)",
+      "value": 1
+    },
+    {
+      "name": "Eastern Cape",
+      "value": 1
+    },
+    {
+      "name": "Jazz",
+      "value": 1
+    },
+    {
+      "name": "Creole dialects",
+      "value": 1
+    },
+    {
+      "name": "Slave Music",
+      "value": 1
+    },
+    {
+      "name": "Arts",
+      "value": 1
+    },
+    {
+      "name": "Musical Meter",
+      "value": 1
+    },
+    {
+      "name": "Musical Rhythm",
+      "value": 1
+    },
+    {
+      "name": "Karanga (African people)",
+      "value": 1
+    },
+    {
+      "name": "Popular music",
+      "value": 1
+    },
+    {
+      "name": "Lingala language",
+      "value": 1
+    },
+    {
+      "name": "Republic of the Congo (Léopoldville)",
+      "value": 1
+    },
+    {
+      "name": "Panpipes",
+      "value": 1
+    },
+    {
+      "name": "Makina (African people)",
+      "value": 1
+    },
+    {
+      "name": "Chopi (African people)",
+      "value": 1
+    },
+    {
+      "name": "Tonga (Zambezi people)",
+      "value": 1
+    },
+    {
+      "name": "Tswana (African people)",
+      "value": 1
+    },
+    {
+      "name": "Shona (African people)",
+      "value": 1
+    },
+    {
+      "name": "Luba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Southern Africa",
+      "value": 1
+    },
+    {
+      "name": "Reed Pipe (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Panpipe (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Mozambique",
+      "value": 1
+    },
+    {
+      "name": "Tonga (Zambia)",
+      "value": 1
+    },
+    {
+      "name": "Botswana",
+      "value": 1
+    },
+    {
+      "name": "Zambia",
+      "value": 1
+    },
+    {
+      "name": "Rhodesia",
+      "value": 1
+    },
+    {
+      "name": "Zimbabwe",
+      "value": 1
+    },
+    {
+      "name": "Tales",
+      "value": 1
+    },
+    {
+      "name": "Chokwe (African people)",
+      "value": 1
+    },
+    {
+      "name": "Angola",
+      "value": 1
+    },
+    {
+      "name": "Labor Songs",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Merriam, Alan P.",
+      "value": 1
+    },
+    {
+      "name": "Hyslop, Graham H.",
+      "value": 1
+    },
+    {
+      "name": "Mackay, Mercedes",
+      "value": 1
+    },
+    {
+      "name": "Swartz, J. F. A.",
+      "value": 1
+    },
+    {
+      "name": "Smith, Hugh L.",
+      "value": 1
+    },
+    {
+      "name": "Tracey, Hugh",
+      "value": 1
+    },
+    {
+      "name": "Jones, A. M.",
+      "value": 1
+    },
+    {
+      "name": "Lenherr, Joseph",
+      "value": 1
+    },
+    {
+      "name": "Carrington, John F.",
+      "value": 1
+    },
+    {
+      "name": "Tracey, Andrew",
+      "value": 1
+    },
+    {
+      "name": "Olson, Howard S.",
+      "value": 1
+    },
+    {
+      "name": "Bastin, Marie-Louise",
+      "value": 1
+    },
+    {
+      "name": "Sanga, Imani",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 13
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9e9f6",
+      "titleInfo": [
+        {
+          "title": "Song text of the Bashi"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0011"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea0b",
+      "titleInfo": [
+        {
+          "title": "Choice of music for festivals in Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0026"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea0c",
+      "titleInfo": [
+        {
+          "title": "The Shantu music of the Harims of Nigeria"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0027"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea29",
+      "titleInfo": [
+        {
+          "title": "A hobbyist looks at Zulu and Xhosa songs"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0044"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea90",
+      "titleInfo": [
+        {
+          "title": "George W. Cable and two sources of jazz"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00ab"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eac4",
+      "titleInfo": [
+        {
+          "title": "The arts in Africa, the visual and the aural"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00df"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eaf8",
+      "titleInfo": [
+        {
+          "title": "African metrical lyrics"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0113"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eaf9",
+      "titleInfo": [
+        {
+          "title": "On a traditional Karanga song"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0114"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb27",
+      "titleInfo": [
+        {
+          "title": "Tone and melody in a Congolese popular song"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0142"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb95",
+      "titleInfo": [
+        {
+          "title": "The nyanga panpipe dance"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01b0"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ebfc",
+      "titleInfo": [
+        {
+          "title": "Songs and Tales of the Arimi of Tanzania"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0217"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec4e",
+      "titleInfo": [
+        {
+          "title": "Musical instruments, songs and dances of the Chokwe (Dundo region, Lunda district, Angola)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0269"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ecf4",
+      "titleInfo": [
+        {
+          "title": "Sukuma labor songs from western Tanzania: \"we never sleep, we dream of farming\". Frank Gunderson. 2010. Leiden and Boston: Brill. 535 pp."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-030f"
+    }
+  ]
+}

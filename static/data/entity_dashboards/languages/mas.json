@@ -110,7 +110,19 @@
       "value": 3
     },
     {
+      "name": "COVID-19 Pandemic",
+      "value": 3
+    },
+    {
       "name": "Vaccination",
+      "value": 2
+    },
+    {
+      "name": "Sociality",
+      "value": 2
+    },
+    {
+      "name": "Tanzania",
       "value": 2
     },
     {
@@ -130,11 +142,43 @@
       "value": 1
     },
     {
+      "name": "Mobility",
+      "value": 1
+    },
+    {
       "name": "Households",
       "value": 1
     },
     {
+      "name": "Lockdown",
+      "value": 1
+    },
+    {
+      "name": "Kenya",
+      "value": 1
+    },
+    {
+      "name": "Border",
+      "value": 1
+    },
+    {
       "name": "Naturopathy",
+      "value": 1
+    },
+    {
+      "name": "Pastoralist",
+      "value": 1
+    },
+    {
+      "name": "Livelihood",
+      "value": 1
+    },
+    {
+      "name": "Conservancy",
+      "value": 1
+    },
+    {
+      "name": "Endundulu",
       "value": 1
     }
   ],
@@ -206,6 +250,50 @@
       "region": "",
       "city": "",
       "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "66cefaf495a000d4c7bf370a",
+      "titleInfo": [
+        {
+          "title": "Debra Seenoi's Zoom transcript, Kenya, September 29, 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0005"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3710",
+      "titleInfo": [
+        {
+          "title": "Lenaai ole Mowuo's Zoom transcript, Kenya, June 27, 2022"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-000b"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3716",
+      "titleInfo": [
+        {
+          "title": "Mamus Litan Toima's report on Tanzania, November 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0011"
     }
   ]
 }

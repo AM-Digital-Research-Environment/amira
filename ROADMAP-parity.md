@@ -360,17 +360,17 @@ Already reusable: `BarChart`, `PieChart`, `StackedTimeline`, `Timeline`, `WordCl
 
 Each bullet below becomes its own issue linked to #10:
 
-- [ ] Build `EntityDashboard` layout system (Phase 1)
-- [ ] Add `precompute_entity_dashboards.py` pipeline (Phase 1)
-- [ ] Detail-page dashboard for `/languages/[code]`
-- [ ] Detail-page dashboard for `/subjects/[slug]`
-- [ ] Detail-page dashboard for `/people/[slug]`
-- [ ] Detail-page dashboard for `/institutions/[slug]`
-- [ ] Detail-page dashboard for `/locations/[slug]`
-- [ ] Detail-page dashboard for `/genres/[slug]`
-- [ ] Detail-page dashboard for `/resource-types/[slug]`
-- [ ] Detail-page dashboard for `/groups/[slug]`
-- [ ] Detail-page dashboard for `/research-sections/[slug]`
+- [x] Build `EntityDashboard` layout system (Phase 1)
+- [x] Add `precompute_entity_dashboards.py` pipeline (Phase 1)
+- [x] Detail-page dashboard for `/languages/[code]`
+- [x] Detail-page dashboard for `/subjects/[slug]` (also covers tags)
+- [x] Detail-page dashboard for `/people/[slug]` — reusable charts; networks (coAuthors, contributorNetwork, affiliationNetwork) land in Phase 4
+- [x] Detail-page dashboard for `/institutions/[slug]` — reusable charts; collab/affiliation networks land in Phase 4
+- [x] Detail-page dashboard for `/locations/[slug]` — reusable charts; `selfLocation` / `geoFlows` land in Phase 4
+- [x] Detail-page dashboard for `/genres/[slug]`
+- [x] Detail-page dashboard for `/resource-types/[slug]` — includes language × decade heatmap
+- [x] Detail-page dashboard for `/groups/[slug]`
+- [x] Detail-page dashboard for `/research-sections/[slug]` — existing charts only; gantt/beeswarm/languageTimeline/subjectTrends/contributorNetwork/geoFlows land in Phase 4
 - [ ] Expand `/projects/[id]` to full module-parity layout
 - [ ] Add `EntityKnowledgeGraph` to `/research-items/[id]` + context strip
 - [ ] List-page enrichment: `/languages`, `/subjects`, `/genres`, `/resource-types`, `/groups`, `/people`, `/institutions`, `/locations`

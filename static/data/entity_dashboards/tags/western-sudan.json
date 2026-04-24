@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "western-sudan",
+    "name": "Western Sudan",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1973,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1973,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Erlmann, Veit",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ebc8",
+      "titleInfo": [
+        {
+          "title": "Some sources of music in Western Sudan from 1300-1700"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01e3"
+    }
+  ]
+}

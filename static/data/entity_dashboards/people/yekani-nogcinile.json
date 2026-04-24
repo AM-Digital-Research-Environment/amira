@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "yekani-nogcinile",
+    "name": "Yekani, Nogcinile",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 2011,
+      "count": 3
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2011,
+      "total": 3,
+      "byType": {
+        "Audio": 3
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Audio",
+      "value": 3
+    }
+  ],
+  "languages": [],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 3
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Ngqoko Group",
+      "value": 2
+    },
+    {
+      "name": "Mvotyo, Nopasile",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ece0",
+      "titleInfo": [
+        {
+          "title": "Novazimtsholo: umrhubhe whistling song"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "dre_id": "eaa-99-02fb"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ece4",
+      "titleInfo": [
+        {
+          "title": "Nomkangaye: umrhubhe whistling duet"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "dre_id": "eaa-99-02ff"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ece5",
+      "titleInfo": [
+        {
+          "title": "Nokhaz' intshonga: umrhubhe whistling song"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "dre_id": "eaa-99-0300"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "university-of-durban-westville",
+    "name": "University of Durban-Westville",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1996,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1996,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Lucia, Christine",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ec56",
+      "titleInfo": [
+        {
+          "title": "ORIGINS OF THE POPULAR STYLE: THE ANTECEDENTS OF TWENTIETH-CENTURY POPULAR MUSIC, by Peter van der Merwe, Oxford, Clarendon Press, 1989, pp.352."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0271"
+    }
+  ]
+}

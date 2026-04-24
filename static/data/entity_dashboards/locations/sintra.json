@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "sintra",
+    "name": "Sintra",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2014,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2014,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Photographs",
+      "value": 1
+    },
+    {
+      "name": "Interior decoration",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Photographs",
+      "value": 1
+    },
+    {
+      "name": "Interior decoration",
+      "value": 1
+    },
+    {
+      "name": "Lisbon",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Greven, Katharina",
+      "value": 1
+    },
+    {
+      "name": "Guedes, Pancho",
+      "value": 1
+    }
+  ]
+}

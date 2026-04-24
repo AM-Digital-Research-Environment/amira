@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "type": "genre",
+    "id": "oil-painting-technique",
+    "name": "Oil painting (Technique)",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1965,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1965,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 1
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Art",
+      "value": 1
+    },
+    {
+      "name": "Women artists",
+      "value": 1
+    },
+    {
+      "name": "Artists",
+      "value": 1
+    },
+    {
+      "name": "Painting",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Art",
+      "value": 1
+    },
+    {
+      "name": "Women artists",
+      "value": 1
+    },
+    {
+      "name": "Artists",
+      "value": 1
+    },
+    {
+      "name": "Painting",
+      "value": 1
+    },
+    {
+      "name": "Oil Painting",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Beier, Georgina",
+      "value": 1
+    },
+    {
+      "name": "Beier, Ulli",
+      "value": 1
+    },
+    {
+      "name": "Greven, Katharina",
+      "value": 1
+    }
+  ],
+  "locations": [],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b4f0",
+      "titleInfo": [
+        {
+          "title": "Reproduktion von Georgina Beiers Ölgemälde „Sunbirds“ von 1965"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0068"
+    }
+  ]
+}

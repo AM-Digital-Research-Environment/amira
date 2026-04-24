@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "jackson-rachel",
+    "name": "Jackson, Rachel",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2012,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2012,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 1
+    },
+    {
+      "name": "Gumbé",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ed0a",
+      "titleInfo": [
+        {
+          "title": "The trans-atlantic journey of Gumbé: where and why has it survived?"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0325"
+    }
+  ]
+}

@@ -1,0 +1,351 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "sternberg-troy",
+    "name": "Sternberg, Troy",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "count": 3
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2021,
+      "total": 3,
+      "byType": {
+        "Text": 3
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 4
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 4
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Arid regions",
+      "value": 3
+    },
+    {
+      "name": "Vaccination",
+      "value": 3
+    },
+    {
+      "name": "Tourism",
+      "value": 3
+    },
+    {
+      "name": "Herders",
+      "value": 3
+    },
+    {
+      "name": "East Africa",
+      "value": 2
+    },
+    {
+      "name": "Maasai (African people)",
+      "value": 2
+    },
+    {
+      "name": "Livestock",
+      "value": 2
+    },
+    {
+      "name": "Police",
+      "value": 1
+    },
+    {
+      "name": "Travel",
+      "value": 1
+    },
+    {
+      "name": "Schools",
+      "value": 1
+    },
+    {
+      "name": "Food security",
+      "value": 1
+    },
+    {
+      "name": "Disasters",
+      "value": 1
+    },
+    {
+      "name": "Elections",
+      "value": 1
+    },
+    {
+      "name": "Diseases",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 4
+    },
+    {
+      "name": "Arid regions",
+      "value": 3
+    },
+    {
+      "name": "Vaccination",
+      "value": 3
+    },
+    {
+      "name": "Tourism",
+      "value": 3
+    },
+    {
+      "name": "Herders",
+      "value": 3
+    },
+    {
+      "name": "Pastoralist",
+      "value": 3
+    },
+    {
+      "name": "Lockdown",
+      "value": 3
+    },
+    {
+      "name": "East Africa",
+      "value": 2
+    },
+    {
+      "name": "Maasai (African people)",
+      "value": 2
+    },
+    {
+      "name": "Conservancy",
+      "value": 2
+    },
+    {
+      "name": "Kenya",
+      "value": 2
+    },
+    {
+      "name": "Livestock",
+      "value": 2
+    },
+    {
+      "name": "Police",
+      "value": 1
+    },
+    {
+      "name": "Travel",
+      "value": 1
+    },
+    {
+      "name": "Schools",
+      "value": 1
+    },
+    {
+      "name": "Food security",
+      "value": 1
+    },
+    {
+      "name": "Burkina Faso",
+      "value": 1
+    },
+    {
+      "name": "Ghana",
+      "value": 1
+    },
+    {
+      "name": "Border",
+      "value": 1
+    },
+    {
+      "name": "Mobility",
+      "value": 1
+    },
+    {
+      "name": "Disasters",
+      "value": 1
+    },
+    {
+      "name": "Elections",
+      "value": 1
+    },
+    {
+      "name": "Diseases",
+      "value": 1
+    },
+    {
+      "name": "Mongolia",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Roque de Pinho, Joana",
+      "value": 4
+    },
+    {
+      "name": "Kronenburg García, Angela",
+      "value": 4
+    },
+    {
+      "name": "Pase, Andrea",
+      "value": 2
+    },
+    {
+      "name": "Gambiza, James",
+      "value": 2
+    },
+    {
+      "name": "Schrijver, Annemiek Pas",
+      "value": 2
+    },
+    {
+      "name": "Nurudong, Primus",
+      "value": 2
+    },
+    {
+      "name": "Munguambe, Danicia",
+      "value": 2
+    },
+    {
+      "name": "Goldman, Mara",
+      "value": 2
+    },
+    {
+      "name": "Behrends, Andrea",
+      "value": 1
+    },
+    {
+      "name": "Moschetti, Marta",
+      "value": 1
+    },
+    {
+      "name": "Heita, Jona",
+      "value": 1
+    },
+    {
+      "name": "Korbeogo, Gabin",
+      "value": 1
+    },
+    {
+      "name": "Hashimshony Yaffe, Nurit",
+      "value": 1
+    },
+    {
+      "name": "Bautdinova, Iuliia",
+      "value": 1
+    },
+    {
+      "name": "Gargallo, Eduard",
+      "value": 1
+    },
+    {
+      "name": "Tas Kronenburg, Zaira",
+      "value": 1
+    },
+    {
+      "name": "Samimi, Cyrus",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Kenya",
+      "region": "Narok",
+      "city": "Mpuaai",
+      "count": 2
+    },
+    {
+      "country": "Ghana",
+      "region": "Upper West Region",
+      "city": "Nandom",
+      "count": 1
+    },
+    {
+      "country": "Mongolia",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "66cefaf495a000d4c7bf370d",
+      "titleInfo": [
+        {
+          "title": "Joana Roque de Pinho Zoom's transcript, Kenya, October 10, 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0008"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3715",
+      "titleInfo": [
+        {
+          "title": "Primus Nurudong's Ghana Zoom transcript, September 13, 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0010"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3724",
+      "titleInfo": [
+        {
+          "title": "Troy Sternberg's Zoom meeting transcript on Mongolia, November 30, 2020"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-001f"
+    },
+    {
+      "_id": "67ab2add0bfd6faab62399d8",
+      "titleInfo": [
+        {
+          "title": "Joana Roque de Pinho's Zoom transcript, Kenya, July 26, 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0025"
+    }
+  ]
+}

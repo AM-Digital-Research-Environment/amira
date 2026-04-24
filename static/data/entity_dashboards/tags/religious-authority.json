@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "religious-authority",
+    "name": "Religious Authority",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 1,
+      "byType": {
+        "Digital": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Digital",
+      "value": 1
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Islam",
+      "value": 1
+    },
+    {
+      "name": "West Africa",
+      "value": 1
+    },
+    {
+      "name": "Mysticism",
+      "value": 1
+    },
+    {
+      "name": "Sufism",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Islam",
+      "value": 1
+    },
+    {
+      "name": "West Africa",
+      "value": 1
+    },
+    {
+      "name": "Mysticism",
+      "value": 1
+    },
+    {
+      "name": "Sufism",
+      "value": 1
+    },
+    {
+      "name": "Black Representations",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Elhanafy, Taghrid",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a8ab2c85fe8df87103",
+      "titleInfo": [
+        {
+          "title": "Part III: Sufism in West Africa and the Paradox of Mysticism as a Tool for Attaining Power"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-000c"
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "university-of-vienna",
+    "name": "University of Vienna",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 1966,
+      "count": 1
+    },
+    {
+      "year": 1969,
+      "count": 1
+    },
+    {
+      "year": 2013,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1966,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1969,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2013,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Tuaregs",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Popular music",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 3
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Tuaregs",
+      "value": 1
+    },
+    {
+      "name": "Arab Influences",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Popular music",
+      "value": 1
+    },
+    {
+      "name": "Cameroon",
+      "value": 1
+    },
+    {
+      "name": "Postcolonial State",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Foedermayr, Franz",
+      "value": 1
+    },
+    {
+      "name": "Hirschberg, Walter",
+      "value": 1
+    },
+    {
+      "name": "Brunner, Anja",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9eb2d",
+      "titleInfo": [
+        {
+          "title": "The Arabian influence in the Taureg music"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0148"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb69",
+      "titleInfo": [
+        {
+          "title": "Early historical illustrations of West and Central African music"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0184"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed22",
+      "titleInfo": [
+        {
+          "title": "The singer Anne-Marie Nzié and the song \"liberté\": on popular music and the postcolonial state in Cameroon"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-033d"
+    }
+  ]
+}

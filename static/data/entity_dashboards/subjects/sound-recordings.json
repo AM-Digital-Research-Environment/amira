@@ -1,0 +1,247 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "sound-recordings",
+    "name": "Sound recordings",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 1955,
+      "count": 1
+    },
+    {
+      "year": 1958,
+      "count": 1
+    },
+    {
+      "year": 1964,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1955,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1958,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1964,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 3
+    },
+    {
+      "name": "Field recordings",
+      "value": 2
+    },
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Sound",
+      "value": 1
+    },
+    {
+      "name": "Magnetic tapes",
+      "value": 1
+    },
+    {
+      "name": "Microphone",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Ethnology",
+      "value": 1
+    },
+    {
+      "name": "Musicology",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Ethnomusicology",
+      "value": 3
+    },
+    {
+      "name": "African Music",
+      "value": 3
+    },
+    {
+      "name": "Field recordings",
+      "value": 2
+    },
+    {
+      "name": "Sound Reproducing",
+      "value": 2
+    },
+    {
+      "name": "Field Recording",
+      "value": 2
+    },
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Sound",
+      "value": 1
+    },
+    {
+      "name": "Magnetic tapes",
+      "value": 1
+    },
+    {
+      "name": "Microphone",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Recording Equipment",
+      "value": 1
+    },
+    {
+      "name": "Magnetic Recorder",
+      "value": 1
+    },
+    {
+      "name": "Magnetic Recording",
+      "value": 1
+    },
+    {
+      "name": "Ethnology",
+      "value": 1
+    },
+    {
+      "name": "Zimbabwe",
+      "value": 1
+    },
+    {
+      "name": "Southern Rhodesia",
+      "value": 1
+    },
+    {
+      "name": "Nyasaland",
+      "value": 1
+    },
+    {
+      "name": "Fort Victoria",
+      "value": 1
+    },
+    {
+      "name": "Salisbury",
+      "value": 1
+    },
+    {
+      "name": "Musicology",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    },
+    {
+      "name": "Mozambique",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tracey, Hugh",
+      "value": 2
+    },
+    {
+      "name": "Kubik, Gerhard",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ea0f",
+      "titleInfo": [
+        {
+          "title": "Recording African music in the field"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-002a"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea5e",
+      "titleInfo": [
+        {
+          "title": "Report on the ILAM Nyasaland recording tour (May 7th to June, 1958)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0079"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eaf6",
+      "titleInfo": [
+        {
+          "title": "Recording and studying music in Northern Mozambique. (With drawings and photograph by Helmut Hillegeist)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0111"
+    }
+  ]
+}

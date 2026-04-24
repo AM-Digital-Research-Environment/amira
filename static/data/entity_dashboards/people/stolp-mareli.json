@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "stolp-mareli",
+    "name": "Stolp, Mareli",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2018,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2018,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "Modernity",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ed9a",
+      "titleInfo": [
+        {
+          "title": "David F. Garcia, Listening for Africa: Freedom, Modernity and the Logic of Black Music's African Origins"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03b5"
+    }
+  ]
+}

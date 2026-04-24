@@ -15,12 +15,20 @@
 		EntityBrowseGrid,
 		EntityToolbar,
 		EntityDetailHeader,
-		EntityItemsCard,
+		SearchableItemsCard,
 		applyEntitySort,
 		type EntitySort
 	} from '$lib/components/entity-browse';
-	import { projects, allCollections, persons, universitiesData } from '$lib/stores/data';
+	import {
+		projects,
+		allCollections,
+		persons,
+		universitiesData,
+		ensureCollections
+	} from '$lib/stores/data';
 	import { page } from '$app/stores';
+	import { onMount } from 'svelte';
+	import { createEntityDetailState } from '$lib/utils/loaders';
 	import { personUrl, projectUrl, researchSectionsUrl } from '$lib/utils/urls';
 	import { createUrlSelection, scrollToTop } from '$lib/utils/urlSelection';
 	import type { Project, CollectionItem } from '$lib/types';
@@ -30,6 +38,7 @@
 	import { Building2, Briefcase, Users } from '@lucide/svelte';
 	import { SvelteMap, SvelteSet } from 'svelte/reactivity';
 	import { EntityKnowledgeGraph } from '$lib/components/charts';
+	import { EntityDashboardSection } from '$lib/components/dashboards';
 
 	const urlSelection = createUrlSelection('name');
 
@@ -140,12 +149,32 @@
 		applyEntitySort(searchInstitutions(filteredByPartner, searchQuery), sort)
 	);
 
-	let selectedInstitution = $derived(
-		selectedName ? institutionMap.get(selectedName) || null : null
-	);
+	const detail = createEntityDetailState('institution', () => selectedName);
+
+	let selectedInstitution = $derived.by((): InstitutionData | null => {
+		if (!selectedName) return null;
+		const live = institutionMap.get(selectedName);
+		if (live) return live;
+		// Fallback for direct detail-URL nav: synthesise a shell record from
+		// the per-entity JSON so the header/items/dashboard render without
+		// waiting on the 13 MB collections dump.
+		if (detail.data?.meta) {
+			return {
+				name: detail.data.meta.name ?? selectedName,
+				count: detail.data.meta.count ?? 0,
+				projects: [],
+				people: new Set(),
+				collectionItemCount: detail.data.meta.count ?? 0,
+				isPartner: false
+			};
+		}
+		return null;
+	});
 
 	let institutionItems = $derived.by((): CollectionItem[] => {
 		if (!selectedInstitution) return [];
+		// Prefer precomputed items to skip the 13 MB dump on direct URLs.
+		if (detail.items.length > 0) return detail.items;
 		const name = selectedInstitution.name;
 		const projectIds = new Set(selectedInstitution.projects.map((p) => p.id));
 		const seen = new SvelteSet<string>();
@@ -163,6 +192,14 @@
 			}
 		});
 		return results;
+	});
+
+	onMount(() => {
+		if (!selectedName) void ensureCollections(base);
+	});
+
+	$effect(() => {
+		if (!selectedName) void ensureCollections(base);
 	});
 
 	function selectInstitution(name: string) {
@@ -329,8 +366,15 @@
 			{/if}
 
 			{#if institutionItems.length > 0}
-				<EntityItemsCard items={institutionItems} showProject={false} />
+				<SearchableItemsCard items={institutionItems} showProject={false} />
 			{/if}
+
+			<EntityDashboardSection
+				entityType="institution"
+				entityId={selectedInstitution.name}
+				items={institutionItems}
+				data={detail.data}
+			/>
 
 			<EntityKnowledgeGraph
 				entityType="institution"

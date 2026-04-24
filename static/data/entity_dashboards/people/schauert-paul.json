@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "schauert-paul",
+    "name": "Schauert, Paul",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 2011,
+      "count": 2
+    },
+    {
+      "year": 2012,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2011,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 2012,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Cosmopolitanism",
+      "value": 1
+    },
+    {
+      "name": "Jazz",
+      "value": 1
+    },
+    {
+      "name": "West Africa",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 3
+    },
+    {
+      "name": "Cosmopolitanism",
+      "value": 1
+    },
+    {
+      "name": "Jazz",
+      "value": 1
+    },
+    {
+      "name": "West Africa",
+      "value": 1
+    },
+    {
+      "name": "Accra",
+      "value": 1
+    },
+    {
+      "name": "Ghana",
+      "value": 1
+    },
+    {
+      "name": "Transnational Culture",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ecf5",
+      "titleInfo": [
+        {
+          "title": "VoxLox Media. http://www.voxlox.net. Steven Feld."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0310"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ecf7",
+      "titleInfo": [
+        {
+          "title": "Fiddling In West Africa: Touching the Spirit in Fulbe, Hausa, and Dagamba Culture.Jacqueline Cogdell DjeDje. 2008. Bloomington: Indiana University Press. 352 pp."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0312"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed05",
+      "titleInfo": [
+        {
+          "title": "Jazz Cosmopolitanism in Accra: Five Musical Years in Ghana. Steven Feld. 2012. Durham, NC: Duke University Press. 328 pp."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0320"
+    }
+  ]
+}

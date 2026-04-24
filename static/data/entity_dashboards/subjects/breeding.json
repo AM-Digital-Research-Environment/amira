@@ -1,0 +1,428 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "breeding",
+    "name": "Breeding",
+    "count": 15
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 7
+    },
+    {
+      "year": 2021,
+      "count": 5
+    },
+    {
+      "year": 2022,
+      "count": 3
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 7,
+      "byType": {
+        "Collection": 7
+      }
+    },
+    {
+      "year": 2021,
+      "total": 5,
+      "byType": {
+        "Collection": 5
+      }
+    },
+    {
+      "year": 2022,
+      "total": 3,
+      "byType": {
+        "Collection": 3
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Collection",
+      "value": 15
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Karakul sheep",
+      "value": 15
+    },
+    {
+      "name": "Karakul sheep industry",
+      "value": 15
+    },
+    {
+      "name": "Postcolonialism",
+      "value": 15
+    },
+    {
+      "name": "South Africa",
+      "value": 15
+    },
+    {
+      "name": "Agriculture",
+      "value": 15
+    },
+    {
+      "name": "Colonisation",
+      "value": 15
+    },
+    {
+      "name": "Management",
+      "value": 4
+    },
+    {
+      "name": "History",
+      "value": 4
+    },
+    {
+      "name": "Education",
+      "value": 2
+    },
+    {
+      "name": "Zoo animals",
+      "value": 1
+    },
+    {
+      "name": "Herding",
+      "value": 1
+    },
+    {
+      "name": "COVID-19 (Disease)",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Karakul sheep",
+      "value": 15
+    },
+    {
+      "name": "Karakul sheep industry",
+      "value": 15
+    },
+    {
+      "name": "Postcolonialism",
+      "value": 15
+    },
+    {
+      "name": "South Africa",
+      "value": 15
+    },
+    {
+      "name": "Agriculture",
+      "value": 15
+    },
+    {
+      "name": "Colonisation",
+      "value": 15
+    },
+    {
+      "name": "Namibia",
+      "value": 15
+    },
+    {
+      "name": "Swakara",
+      "value": 15
+    },
+    {
+      "name": "Karakul Circulations",
+      "value": 15
+    },
+    {
+      "name": "Colonial Economies",
+      "value": 15
+    },
+    {
+      "name": "Karakul Farming",
+      "value": 15
+    },
+    {
+      "name": "Germany",
+      "value": 15
+    },
+    {
+      "name": "Colonial South-West Africa",
+      "value": 15
+    },
+    {
+      "name": "German Colonialism",
+      "value": 15
+    },
+    {
+      "name": "Management",
+      "value": 4
+    },
+    {
+      "name": "History",
+      "value": 4
+    },
+    {
+      "name": "Education",
+      "value": 2
+    },
+    {
+      "name": "Zoo animals",
+      "value": 1
+    },
+    {
+      "name": "Herding",
+      "value": 1
+    },
+    {
+      "name": "COVID-19 (Disease)",
+      "value": 1
+    },
+    {
+      "name": "COVID-19",
+      "value": 1
+    },
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Schaumann, Eleanor",
+      "value": 14
+    },
+    {
+      "name": "Biwa, Memory",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Namibia",
+      "region": "",
+      "city": "",
+      "count": 12
+    },
+    {
+      "country": "Germany",
+      "region": "",
+      "city": "",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "66cf0d9595a000d4c7bf372e",
+      "titleInfo": [
+        {
+          "title": "Swakara office"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-0003"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf3730",
+      "titleInfo": [
+        {
+          "title": "Keetmanshoop office"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-0005"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf3735",
+      "titleInfo": [
+        {
+          "title": "Herd inspections Sachsen - Anhalt"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-000a"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf3736",
+      "titleInfo": [
+        {
+          "title": "Farm visit K Germany"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-000b"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf3737",
+      "titleInfo": [
+        {
+          "title": "Vivarium Darmstadt"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-000c"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf373c",
+      "titleInfo": [
+        {
+          "title": "Gellap-oost again"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-0011"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf373d",
+      "titleInfo": [
+        {
+          "title": "Keetmanshoop"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-0012"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf3740",
+      "titleInfo": [
+        {
+          "title": "Photo grading"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-0015"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf3742",
+      "titleInfo": [
+        {
+          "title": "Gellap lamb description"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-0017"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf3746",
+      "titleInfo": [
+        {
+          "title": "Farm visit K"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-001b"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf3747",
+      "titleInfo": [
+        {
+          "title": "Gellap-Ost, Keetmanshoop"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-001c"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf3748",
+      "titleInfo": [
+        {
+          "title": "Interview ES"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-001d"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf3758",
+      "titleInfo": [
+        {
+          "title": "Interview ES"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-002d"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf375a",
+      "titleInfo": [
+        {
+          "title": "Interview ES"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-002f"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf375b",
+      "titleInfo": [
+        {
+          "title": "Interview ES"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-0030"
+    }
+  ]
+}

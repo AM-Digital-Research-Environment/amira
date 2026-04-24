@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "abbas-nasir",
+    "name": "Abbas, Nasir",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2023,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2023,
+      "total": 2,
+      "byType": {
+        "Text": 1,
+        "Dataset": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    },
+    {
+      "name": "Dataset",
+      "value": 1
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Economic geography",
+      "value": 2
+    },
+    {
+      "name": "Social justice",
+      "value": 2
+    },
+    {
+      "name": "Venture capital",
+      "value": 2
+    },
+    {
+      "name": "Regional disparities",
+      "value": 2
+    },
+    {
+      "name": "Gender",
+      "value": 2
+    },
+    {
+      "name": "Race",
+      "value": 2
+    },
+    {
+      "name": "Intersectionality (Sociology)",
+      "value": 2
+    },
+    {
+      "name": "Interviews",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Economic geography",
+      "value": 2
+    },
+    {
+      "name": "Social justice",
+      "value": 2
+    },
+    {
+      "name": "Venture capital",
+      "value": 2
+    },
+    {
+      "name": "Regional disparities",
+      "value": 2
+    },
+    {
+      "name": "Gender",
+      "value": 2
+    },
+    {
+      "name": "Race",
+      "value": 2
+    },
+    {
+      "name": "Intersectionality (Sociology)",
+      "value": 2
+    },
+    {
+      "name": "Interviews",
+      "value": 2
+    },
+    {
+      "name": "Startup Founder",
+      "value": 2
+    },
+    {
+      "name": "Geographic Inequity",
+      "value": 2
+    },
+    {
+      "name": "Silicon Savannah",
+      "value": 2
+    },
+    {
+      "name": "Inequality",
+      "value": 2
+    },
+    {
+      "name": "Entrepreneurial Mobility",
+      "value": 2
+    },
+    {
+      "name": "Startup Ecosystem",
+      "value": 2
+    },
+    {
+      "name": "Financial Geography",
+      "value": 2
+    },
+    {
+      "name": "Structural Barrier",
+      "value": 2
+    },
+    {
+      "name": "Barriers to Entry (Economic Theory)",
+      "value": 2
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Mkalama, Benedict Wandera",
+      "value": 2
+    },
+    {
+      "name": "Ouma, Stefan",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "Kenya",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "673ca0aecd28e4b91ff9d13f",
+      "titleInfo": [
+        {
+          "title": "Anonymised transcription of interviews with startup founders: East Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MoCapIE2021",
+        "name": "Mobile Capital and (Im)Mobile Entrepreneurs: Start-up Success, Institutional Context and the “Laws of Start-up Money” in Silicon Savannah"
+      },
+      "dre_id": "aby-01-0002"
+    },
+    {
+      "_id": "673ca0aecd28e4b91ff9d141",
+      "titleInfo": [
+        {
+          "title": "Anonymised dataset with information on the start ups and founders"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MoCapIE2021",
+        "name": "Mobile Capital and (Im)Mobile Entrepreneurs: Start-up Success, Institutional Context and the “Laws of Start-up Money” in Silicon Savannah"
+      },
+      "dre_id": "aby-01-0004"
+    }
+  ]
+}

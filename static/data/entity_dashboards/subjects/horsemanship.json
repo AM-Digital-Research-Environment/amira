@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "horsemanship",
+    "name": "Horsemanship",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1958,
+      "count": 1
+    },
+    {
+      "year": 2013,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1958,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 2013,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "Hebrew",
+      "value": 1
+    },
+    {
+      "name": "German",
+      "value": 1
+    },
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Newspapers",
+      "value": 1
+    },
+    {
+      "name": "Archives",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Horses",
+      "value": 1
+    },
+    {
+      "name": "Animal sacrifice",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Newspapers",
+      "value": 1
+    },
+    {
+      "name": "Archives",
+      "value": 1
+    },
+    {
+      "name": "Newspaper Article",
+      "value": 1
+    },
+    {
+      "name": "Art Exhibition",
+      "value": 1
+    },
+    {
+      "name": "Flyer",
+      "value": 1
+    },
+    {
+      "name": "Iwalewahaus",
+      "value": 1
+    },
+    {
+      "name": "Cultural Centre",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Horses",
+      "value": 1
+    },
+    {
+      "name": "Animal sacrifice",
+      "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    },
+    {
+      "name": "Yoruba Art",
+      "value": 1
+    },
+    {
+      "name": "Royalty",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Beier, Ulli",
+      "value": 2
+    },
+    {
+      "name": "Greven, Katharina",
+      "value": 1
+    },
+    {
+      "name": "Laoye, Timi",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 1
+    },
+    {
+      "country": "Nigeria",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b491",
+      "titleInfo": [
+        {
+          "title": "Biodata Vol. I (Volume 40)"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0009"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4a4",
+      "titleInfo": [
+        {
+          "title": "Timi Laoye auf einem Pferd"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-001c"
+    }
+  ]
+}

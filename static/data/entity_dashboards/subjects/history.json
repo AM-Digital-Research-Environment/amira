@@ -1,0 +1,1859 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "history",
+    "name": "History",
+    "count": 66
+  },
+  "timeline": [
+    {
+      "year": 1936,
+      "count": 1
+    },
+    {
+      "year": 1954,
+      "count": 8
+    },
+    {
+      "year": 1955,
+      "count": 2
+    },
+    {
+      "year": 1960,
+      "count": 1
+    },
+    {
+      "year": 1966,
+      "count": 1
+    },
+    {
+      "year": 1987,
+      "count": 1
+    },
+    {
+      "year": 1988,
+      "count": 2
+    },
+    {
+      "year": 1992,
+      "count": 1
+    },
+    {
+      "year": 2007,
+      "count": 1
+    },
+    {
+      "year": 2008,
+      "count": 1
+    },
+    {
+      "year": 2011,
+      "count": 1
+    },
+    {
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "count": 12
+    },
+    {
+      "year": 2021,
+      "count": 17
+    },
+    {
+      "year": 2022,
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "count": 6
+    },
+    {
+      "year": 2025,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1936,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 1954,
+      "total": 8,
+      "byType": {
+        "Text": 8
+      }
+    },
+    {
+      "year": 1955,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1960,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1966,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1987,
+      "total": 1,
+      "byType": {
+        "Moving image": 1
+      }
+    },
+    {
+      "year": 1988,
+      "total": 2,
+      "byType": {
+        "Moving image": 2
+      }
+    },
+    {
+      "year": 1992,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2007,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2008,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2011,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2017,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2020,
+      "total": 12,
+      "byType": {
+        "Collection": 11,
+        "Image": 1
+      }
+    },
+    {
+      "year": 2021,
+      "total": 17,
+      "byType": {
+        "Collection": 9,
+        "Text": 3,
+        "Image": 3,
+        "Moving image": 2
+      }
+    },
+    {
+      "year": 2022,
+      "total": 3,
+      "byType": {
+        "Collection": 2,
+        "Image": 1
+      }
+    },
+    {
+      "year": 2023,
+      "total": 6,
+      "byType": {
+        "Image": 2,
+        "Moving image": 1,
+        "Text": 1,
+        "Audio": 2
+      }
+    },
+    {
+      "year": 2025,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Collection",
+      "value": 22
+    },
+    {
+      "name": "Text",
+      "value": 22
+    },
+    {
+      "name": "Moving image",
+      "value": 10
+    },
+    {
+      "name": "Image",
+      "value": 10
+    },
+    {
+      "name": "Audio",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 21
+    },
+    {
+      "name": "German",
+      "value": 8
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Agriculture",
+      "value": 22
+    },
+    {
+      "name": "South Africa",
+      "value": 22
+    },
+    {
+      "name": "Colonisation",
+      "value": 22
+    },
+    {
+      "name": "Karakul sheep",
+      "value": 21
+    },
+    {
+      "name": "Karakul sheep industry",
+      "value": 21
+    },
+    {
+      "name": "Postcolonialism",
+      "value": 21
+    },
+    {
+      "name": "Migration",
+      "value": 15
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 12
+    },
+    {
+      "name": "Music",
+      "value": 11
+    },
+    {
+      "name": "Management",
+      "value": 9
+    },
+    {
+      "name": "Criticism",
+      "value": 9
+    },
+    {
+      "name": "Africa",
+      "value": 7
+    },
+    {
+      "name": "Racism",
+      "value": 5
+    },
+    {
+      "name": "Musical instruments",
+      "value": 5
+    },
+    {
+      "name": "Breeding",
+      "value": 4
+    },
+    {
+      "name": "Herding",
+      "value": 4
+    },
+    {
+      "name": "Sheep-shearing",
+      "value": 4
+    },
+    {
+      "name": "Agricultural laborers",
+      "value": 3
+    },
+    {
+      "name": "National socialism",
+      "value": 3
+    },
+    {
+      "name": "Dance",
+      "value": 3
+    },
+    {
+      "name": "Education",
+      "value": 2
+    },
+    {
+      "name": "Culture",
+      "value": 2
+    },
+    {
+      "name": "COVID-19 (Disease)",
+      "value": 2
+    },
+    {
+      "name": "Antisemitism",
+      "value": 2
+    },
+    {
+      "name": "Jews",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Germany",
+      "value": 23
+    },
+    {
+      "name": "Agriculture",
+      "value": 22
+    },
+    {
+      "name": "South Africa",
+      "value": 22
+    },
+    {
+      "name": "Colonisation",
+      "value": 22
+    },
+    {
+      "name": "Karakul sheep",
+      "value": 21
+    },
+    {
+      "name": "Karakul sheep industry",
+      "value": 21
+    },
+    {
+      "name": "Postcolonialism",
+      "value": 21
+    },
+    {
+      "name": "Namibia",
+      "value": 21
+    },
+    {
+      "name": "Swakara",
+      "value": 21
+    },
+    {
+      "name": "Karakul Circulations",
+      "value": 21
+    },
+    {
+      "name": "Colonial Economies",
+      "value": 21
+    },
+    {
+      "name": "Karakul Farming",
+      "value": 21
+    },
+    {
+      "name": "Colonial South-West Africa",
+      "value": 21
+    },
+    {
+      "name": "German Colonialism",
+      "value": 21
+    },
+    {
+      "name": "Migration",
+      "value": 16
+    },
+    {
+      "name": "African Studies",
+      "value": 15
+    },
+    {
+      "name": "Lagos",
+      "value": 15
+    },
+    {
+      "name": "Knowledge",
+      "value": 15
+    },
+    {
+      "name": "African Music",
+      "value": 14
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 12
+    },
+    {
+      "name": "Music",
+      "value": 11
+    },
+    {
+      "name": "Management",
+      "value": 9
+    },
+    {
+      "name": "Criticism",
+      "value": 9
+    },
+    {
+      "name": "Africa",
+      "value": 7
+    },
+    {
+      "name": "Racism",
+      "value": 5
+    },
+    {
+      "name": "Bayreuth",
+      "value": 5
+    },
+    {
+      "name": "Musical instruments",
+      "value": 5
+    },
+    {
+      "name": "Breeding",
+      "value": 4
+    },
+    {
+      "name": "Herding",
+      "value": 4
+    },
+    {
+      "name": "Sheep-shearing",
+      "value": 4
+    },
+    {
+      "name": "Local History",
+      "value": 4
+    },
+    {
+      "name": "Agricultural laborers",
+      "value": 3
+    },
+    {
+      "name": "Colonialism",
+      "value": 3
+    },
+    {
+      "name": "National socialism",
+      "value": 3
+    },
+    {
+      "name": "Memory Culture",
+      "value": 3
+    },
+    {
+      "name": "Dance",
+      "value": 3
+    },
+    {
+      "name": "Education",
+      "value": 2
+    },
+    {
+      "name": "Culture",
+      "value": 2
+    },
+    {
+      "name": "Tradition",
+      "value": 2
+    },
+    {
+      "name": "COVID-19 (Disease)",
+      "value": 2
+    },
+    {
+      "name": "COVID-19",
+      "value": 2
+    },
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 2
+    },
+    {
+      "name": "Race Theory",
+      "value": 2
+    },
+    {
+      "name": "Kallenberghaus",
+      "value": 2
+    },
+    {
+      "name": "Antisemitism",
+      "value": 2
+    },
+    {
+      "name": "Jews",
+      "value": 2
+    },
+    {
+      "name": "World War II",
+      "value": 2
+    },
+    {
+      "name": "Holocaust",
+      "value": 2
+    },
+    {
+      "name": "Photography",
+      "value": 2
+    },
+    {
+      "name": "Consumption",
+      "value": 2
+    },
+    {
+      "name": "Kenya",
+      "value": 2
+    },
+    {
+      "name": "Drum",
+      "value": 2
+    },
+    {
+      "name": "Polyrhythm",
+      "value": 2
+    },
+    {
+      "name": "Performance",
+      "value": 2
+    },
+    {
+      "name": "Drum music",
+      "value": 2
+    },
+    {
+      "name": "Drum (Instrument)",
+      "value": 2
+    },
+    {
+      "name": "Belgian Congo",
+      "value": 2
+    },
+    {
+      "name": "Folk songs",
+      "value": 2
+    },
+    {
+      "name": "Songs",
+      "value": 2
+    },
+    {
+      "name": "Politics",
+      "value": 1
+    },
+    {
+      "name": "National History",
+      "value": 1
+    },
+    {
+      "name": "Military",
+      "value": 1
+    },
+    {
+      "name": "Interviews",
+      "value": 1
+    },
+    {
+      "name": "Artists",
+      "value": 1
+    },
+    {
+      "name": "Singers",
+      "value": 1
+    },
+    {
+      "name": "Music History",
+      "value": 1
+    },
+    {
+      "name": "Entertainment",
+      "value": 1
+    },
+    {
+      "name": "Zoo animals",
+      "value": 1
+    },
+    {
+      "name": "East Germany",
+      "value": 1
+    },
+    {
+      "name": "Uzbekistan",
+      "value": 1
+    },
+    {
+      "name": "Sustainability",
+      "value": 1
+    },
+    {
+      "name": "Droughts",
+      "value": 1
+    },
+    {
+      "name": "Heimatgeschichte",
+      "value": 1
+    },
+    {
+      "name": "Houston Stewart Chamberlain",
+      "value": 1
+    },
+    {
+      "name": "Daily Racism",
+      "value": 1
+    },
+    {
+      "name": "Local Press",
+      "value": 1
+    },
+    {
+      "name": "Richard Wagner",
+      "value": 1
+    },
+    {
+      "name": "Festspiele",
+      "value": 1
+    },
+    {
+      "name": "City Walk",
+      "value": 1
+    },
+    {
+      "name": "Race relations",
+      "value": 1
+    },
+    {
+      "name": "Colonies",
+      "value": 1
+    },
+    {
+      "name": "Mau Mau Rebellion",
+      "value": 1
+    },
+    {
+      "name": "Mau Mau",
+      "value": 1
+    },
+    {
+      "name": "Great Britain",
+      "value": 1
+    },
+    {
+      "name": "Improvisation (Music)",
+      "value": 1
+    },
+    {
+      "name": "Singing",
+      "value": 1
+    },
+    {
+      "name": "Music libraries",
+      "value": 1
+    },
+    {
+      "name": "Classification",
+      "value": 1
+    },
+    {
+      "name": "Tetela (African people)",
+      "value": 1
+    },
+    {
+      "name": "Pipe music",
+      "value": 1
+    },
+    {
+      "name": "Pipe (Musical instrument)",
+      "value": 1
+    },
+    {
+      "name": "Sankuru",
+      "value": 1
+    },
+    {
+      "name": "Pipe (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Drum language",
+      "value": 1
+    },
+    {
+      "name": "Talking drum",
+      "value": 1
+    },
+    {
+      "name": "Akan (African people)",
+      "value": 1
+    },
+    {
+      "name": "Percussion instruments",
+      "value": 1
+    },
+    {
+      "name": "Talking Drum (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Folk music",
+      "value": 1
+    },
+    {
+      "name": "Transnationalism",
+      "value": 1
+    },
+    {
+      "name": "Anthropology of Music",
+      "value": 1
+    },
+    {
+      "name": "Tiv (African people)",
+      "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    },
+    {
+      "name": "Musical Imitation",
+      "value": 1
+    },
+    {
+      "name": "Dynamics",
+      "value": 1
+    },
+    {
+      "name": "Ila (African people)",
+      "value": 1
+    },
+    {
+      "name": "Tonga (Zambezi people)",
+      "value": 1
+    },
+    {
+      "name": "Musical bow",
+      "value": 1
+    },
+    {
+      "name": "Zambia",
+      "value": 1
+    },
+    {
+      "name": "Tonga (Zambia)",
+      "value": 1
+    },
+    {
+      "name": "Interpretation",
+      "value": 1
+    },
+    {
+      "name": "Flute music",
+      "value": 1
+    },
+    {
+      "name": "Musical analysis",
+      "value": 1
+    },
+    {
+      "name": "Nande (Congolese (Democratic Republic) and Ugandan people)",
+      "value": 1
+    },
+    {
+      "name": "Flute",
+      "value": 1
+    },
+    {
+      "name": "Flute (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Music festivals",
+      "value": 1
+    },
+    {
+      "name": "Festivals",
+      "value": 1
+    },
+    {
+      "name": "Jazz",
+      "value": 1
+    },
+    {
+      "name": "Creole dialects",
+      "value": 1
+    },
+    {
+      "name": "Slave Music",
+      "value": 1
+    },
+    {
+      "name": "Ngoni (African people)",
+      "value": 1
+    },
+    {
+      "name": "Rites and ceremonies",
+      "value": 1
+    },
+    {
+      "name": "Bantu languages",
+      "value": 1
+    },
+    {
+      "name": "Youth",
+      "value": 1
+    },
+    {
+      "name": "Local government",
+      "value": 1
+    },
+    {
+      "name": "Kwaito (Music)",
+      "value": 1
+    },
+    {
+      "name": "Amapiano (Music)",
+      "value": 1
+    },
+    {
+      "name": "Post-apartheid",
+      "value": 1
+    },
+    {
+      "name": "Township",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Schaumann, Eleanor",
+      "value": 22
+    },
+    {
+      "name": "Lawanson, Taibat",
+      "value": 15
+    },
+    {
+      "name": "Eleshin, Abisoye",
+      "value": 15
+    },
+    {
+      "name": "Akinpelu, Deji",
+      "value": 15
+    },
+    {
+      "name": "Enitan, Adewale",
+      "value": 15
+    },
+    {
+      "name": "Odubawo, Orinayo",
+      "value": 15
+    },
+    {
+      "name": "Bitrus, Byenyen",
+      "value": 15
+    },
+    {
+      "name": "Liberia Broadcasting System (LBS)",
+      "value": 7
+    },
+    {
+      "name": "Government of Liberia",
+      "value": 7
+    },
+    {
+      "name": "Caranda, Doughba C., II",
+      "value": 2
+    },
+    {
+      "name": "Gilbert, Thomas",
+      "value": 2
+    },
+    {
+      "name": "Aas, Norbert",
+      "value": 2
+    },
+    {
+      "name": "Tracey, Hugh",
+      "value": 2
+    },
+    {
+      "name": "Blemmer, Nils",
+      "value": 1
+    },
+    {
+      "name": "Tolbert, Isaac Emmanuel",
+      "value": 1
+    },
+    {
+      "name": "Club 84: Musical Youth Byepopoleboe",
+      "value": 1
+    },
+    {
+      "name": "Graydor, Oldman Joe",
+      "value": 1
+    },
+    {
+      "name": "Collins, Hawa Andrews",
+      "value": 1
+    },
+    {
+      "name": "Ministry of Information, Cultural Affairs and Tourism, Liberia",
+      "value": 1
+    },
+    {
+      "name": "Sirleaf, Richard",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Namibia",
+      "region": "",
+      "city": "",
+      "count": 17
+    },
+    {
+      "country": "Nigeria",
+      "region": "Lagos State",
+      "city": "Lagos",
+      "count": 15
+    },
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 14
+    },
+    {
+      "country": "Germany",
+      "region": "",
+      "city": "",
+      "count": 10
+    },
+    {
+      "country": "Liberia",
+      "region": "Montserrado County",
+      "city": "Monrovia",
+      "count": 7
+    },
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 2
+    },
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "6982337057a8e0353b0b1c3f",
+      "titleInfo": [
+        {
+          "title": "Special-The Educational Way"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0002"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c4d",
+      "titleInfo": [
+        {
+          "title": "BALAGWALAZU: The Town of Seven Cotton Trees"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0010"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c91",
+      "titleInfo": [
+        {
+          "title": "Heritage Productions"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0054"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c99",
+      "titleInfo": [
+        {
+          "title": "Special Broadcast: Discussion on the Liberian Flag"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-005c"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cd1",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0094"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cd9",
+      "titleInfo": [
+        {
+          "title": "Heritage Productions  - Artists'-Rendez-Vous"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-009c"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1df4",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-01b7"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf373b",
+      "titleInfo": [
+        {
+          "title": "Grünau"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-0010"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf3743",
+      "titleInfo": [
+        {
+          "title": "Witzenhausen"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-0018"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf3748",
+      "titleInfo": [
+        {
+          "title": "Interview ES"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-001d"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf3749",
+      "titleInfo": [
+        {
+          "title": "Interview ES"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-001e"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf374a",
+      "titleInfo": [
+        {
+          "title": "Interview ES"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-001f"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf374b",
+      "titleInfo": [
+        {
+          "title": "Interview ES"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-0020"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf374c",
+      "titleInfo": [
+        {
+          "title": "Interview ES"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-0021"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf374d",
+      "titleInfo": [
+        {
+          "title": "Interview ES"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-0022"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf374e",
+      "titleInfo": [
+        {
+          "title": "Interview ES"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-0023"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf374f",
+      "titleInfo": [
+        {
+          "title": "Interview ES"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-0024"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf3750",
+      "titleInfo": [
+        {
+          "title": "Interview ES"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-0025"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf3751",
+      "titleInfo": [
+        {
+          "title": "Interview ES"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-0026"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf3752",
+      "titleInfo": [
+        {
+          "title": "Interview ES"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-0027"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf3753",
+      "titleInfo": [
+        {
+          "title": "Interview ES"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-0028"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf3754",
+      "titleInfo": [
+        {
+          "title": "Interview ES"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-0029"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf3755",
+      "titleInfo": [
+        {
+          "title": "Interview ES"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-002a"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf3756",
+      "titleInfo": [
+        {
+          "title": "Interview ES"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-002b"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf3757",
+      "titleInfo": [
+        {
+          "title": "Interview ES"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-002c"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf3758",
+      "titleInfo": [
+        {
+          "title": "Interview ES"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-002d"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf3759",
+      "titleInfo": [
+        {
+          "title": "Interview ES"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-002e"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf375a",
+      "titleInfo": [
+        {
+          "title": "Interview ES"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-002f"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf375b",
+      "titleInfo": [
+        {
+          "title": "Interview ES"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-0030"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86b5",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Concept Note"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-0000"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86b6",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Interview"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-0001"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86b7",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-0002"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86b8",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Exhibition"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-99-0003"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86b9",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Workshop"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-0004"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86ba",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Exhibition Essay"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-0005"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86bb",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Workshop Picture 1"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-0006"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86bc",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Workshop Picture 2"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-0007"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86bd",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Picture 3"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-0008"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86be",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Picture 4"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-0009"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86bf",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Picture 5"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-000a"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86c0",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Documentary"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-000b"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86c1",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Brochure"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-000c"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86c2",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Audio Interview 1"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-000d"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86c3",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Audio Interview 2"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-000e"
+    },
+    {
+      "_id": "692db49707481a28c72155b2",
+      "titleInfo": [
+        {
+          "title": "Wie die Deutschen Weiss wurden"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-000a"
+    },
+    {
+      "_id": "692db49707481a28c72155b3",
+      "titleInfo": [
+        {
+          "title": "Bayreuth stellt sich der Geschichte"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-000b"
+    },
+    {
+      "_id": "692db49707481a28c72155c0",
+      "titleInfo": [
+        {
+          "title": "Protest gegen den Abbruch des Kallenberghauses"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0018"
+    },
+    {
+      "_id": "692db49707481a28c72155cc",
+      "titleInfo": [
+        {
+          "title": "Friedrich Kallenberg, der Urenkel Jean Pauls"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0024"
+    },
+    {
+      "_id": "692db49707481a28c72155ce",
+      "titleInfo": [
+        {
+          "title": "Juden in Bayreuth: Verfolgung, Vertreibung - und das Danach"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0026"
+    },
+    {
+      "_id": "692db49707481a28c72155cf",
+      "titleInfo": [
+        {
+          "title": "Bayreuth- umgeguckt und hinterfragt: Ein kritischer Spaziergang durch die Geschichte der Stadt Bayreuth"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0027"
+    },
+    {
+      "_id": "692db49707481a28c72155d1",
+      "titleInfo": [
+        {
+          "title": "Bayreuter M*siegel gegenüber vom Heimathafen"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0029"
+    },
+    {
+      "_id": "692db49707481a28c72155d2",
+      "titleInfo": [
+        {
+          "title": "Kolonialladen Rosa Weiss"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-002a"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9e9e7",
+      "titleInfo": [
+        {
+          "title": "Kenya's answer to the Mau Mau challenge"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0002"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9e9f0",
+      "titleInfo": [
+        {
+          "title": "Music of the Gold Coast"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-000b"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9e9f3",
+      "titleInfo": [
+        {
+          "title": "The International Library of African Music"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-000e"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9e9f4",
+      "titleInfo": [
+        {
+          "title": "Bamboo pipes of the Batetela children"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-000f"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9e9f5",
+      "titleInfo": [
+        {
+          "title": "The role of the drummer in Akan society"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0010"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9e9fc",
+      "titleInfo": [
+        {
+          "title": "The state of folk music in Bantu Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0017"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9e9fd",
+      "titleInfo": [
+        {
+          "title": "The music of Tiv"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0018"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9e9fe",
+      "titleInfo": [
+        {
+          "title": "Tribal style and free expression"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0019"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea0a",
+      "titleInfo": [
+        {
+          "title": "Eight flute tunes from Butembo, east Belgian Congo: an analysis in two parts, musical and physical: Part 1"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0025"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea0b",
+      "titleInfo": [
+        {
+          "title": "Choice of music for festivals in Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0026"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea90",
+      "titleInfo": [
+        {
+          "title": "George W. Cable and two sources of jazz"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00ab"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb24",
+      "titleInfo": [
+        {
+          "title": "The installation of Inkosi ya Makosi Gomani III"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-013f"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ecf6",
+      "titleInfo": [
+        {
+          "title": "The King of History: Classic 1970s Beats from Kenya. 2010. D.O. Misiani and Shirati Jazz. Stern's Music STCD3051. One compact disc. Booklet (16 pp.) World Defeats the Grandfathers: Swinging Swahili Rumba 1982-1986. 2010. Issa Juma and Super Wanyika Stars. Stern's Music STCD3050. One compact disc. Booklet (16 pp.)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0311"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edea",
+      "titleInfo": [
+        {
+          "title": "Kwaito as history"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0405"
+    }
+  ]
+}

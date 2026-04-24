@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "observatory-of-economic-complexity-oec",
+    "name": "Observatory of Economic Complexity (OEC)",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 2022,
+      "count": 4
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2022,
+      "total": 4,
+      "byType": {
+        "Text": 4
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 4
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 4
+    }
+  ],
+  "subjects": [
+    {
+      "name": "West Africa",
+      "value": 4
+    },
+    {
+      "name": "Debt",
+      "value": 1
+    },
+    {
+      "name": "Public finance",
+      "value": 1
+    },
+    {
+      "name": "Exports",
+      "value": 1
+    },
+    {
+      "name": "Imports",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "West Africa",
+      "value": 4
+    },
+    {
+      "name": "Senegal",
+      "value": 4
+    },
+    {
+      "name": "Sovereign Bond",
+      "value": 2
+    },
+    {
+      "name": "Debt",
+      "value": 1
+    },
+    {
+      "name": "Public finance",
+      "value": 1
+    },
+    {
+      "name": "Exports",
+      "value": 1
+    },
+    {
+      "name": "Export Data",
+      "value": 1
+    },
+    {
+      "name": "Imports",
+      "value": 1
+    },
+    {
+      "name": "Import Data",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Koddenbrock, Kai",
+      "value": 4
+    }
+  ]
+}

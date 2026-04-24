@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "billa-eug-nie",
+    "name": "Billa, Eugénie",
+    "count": 5
+  },
+  "timeline": [
+    {
+      "year": 2022,
+      "count": 4
+    },
+    {
+      "year": 2023,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2022,
+      "total": 4,
+      "byType": {
+        "Moving image": 4
+      }
+    },
+    {
+      "year": 2023,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Moving image",
+      "value": 4
+    },
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 5
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Actors",
+      "value": 5
+    },
+    {
+      "name": "Aesthetics",
+      "value": 5
+    },
+    {
+      "name": "Experience",
+      "value": 5
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Actors",
+      "value": 5
+    },
+    {
+      "name": "Aesthetics",
+      "value": 5
+    },
+    {
+      "name": "Experience",
+      "value": 5
+    },
+    {
+      "name": "Cinema",
+      "value": 5
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Bagué",
+      "value": 1
+    },
+    {
+      "name": "Konaté",
+      "value": 1
+    },
+    {
+      "name": "Barry",
+      "value": 1
+    },
+    {
+      "name": "Dagnon",
+      "value": 1
+    },
+    {
+      "name": "Bayili, Abraham",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Burkina Faso",
+      "region": "Centre",
+      "city": "Ouagadougou",
+      "count": 5
+    }
+  ],
+  "items": [
+    {
+      "_id": "69bd30d662fdff17d6fc73ca",
+      "titleInfo": [
+        {
+          "title": "Entretien avec M. Bagué [acteur/directeur]"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0020"
+    },
+    {
+      "_id": "69bd30d662fdff17d6fc73cb",
+      "titleInfo": [
+        {
+          "title": "Entretien avec M. Konaté [réalisateur]"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0021"
+    },
+    {
+      "_id": "69bd30d662fdff17d6fc73cc",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Mme. Barry [caméramane]"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0022"
+    },
+    {
+      "_id": "69bd30d662fdff17d6fc73cd",
+      "titleInfo": [
+        {
+          "title": "Entretien avec M. Dagnon [producteur/directeur]"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0023"
+    },
+    {
+      "_id": "69bd30d662fdff17d6fc73e8",
+      "titleInfo": [
+        {
+          "title": "Rapport d'atelier d'échanges avec les professionnelles du cinéma"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-003e"
+    }
+  ]
+}

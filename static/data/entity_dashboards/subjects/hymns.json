@@ -1,0 +1,244 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "hymns",
+    "name": "Hymns",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 1954,
+      "count": 1
+    },
+    {
+      "year": 1960,
+      "count": 1
+    },
+    {
+      "year": 1964,
+      "count": 1
+    },
+    {
+      "year": 2016,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1954,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1960,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1964,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2016,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 4
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 4
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 3
+    },
+    {
+      "name": "Race relations",
+      "value": 1
+    },
+    {
+      "name": "Kikuyu (African people)",
+      "value": 1
+    },
+    {
+      "name": "Religion",
+      "value": 1
+    },
+    {
+      "name": "Colonies",
+      "value": 1
+    },
+    {
+      "name": "Colonisation",
+      "value": 1
+    },
+    {
+      "name": "Methodist Church",
+      "value": 1
+    },
+    {
+      "name": "Choral music",
+      "value": 1
+    },
+    {
+      "name": "Musicians",
+      "value": 1
+    },
+    {
+      "name": "Church music",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 4
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 3
+    },
+    {
+      "name": "Race relations",
+      "value": 1
+    },
+    {
+      "name": "Kikuyu (African people)",
+      "value": 1
+    },
+    {
+      "name": "Religion",
+      "value": 1
+    },
+    {
+      "name": "Colonies",
+      "value": 1
+    },
+    {
+      "name": "Colonisation",
+      "value": 1
+    },
+    {
+      "name": "Mau Mau",
+      "value": 1
+    },
+    {
+      "name": "Great Britain",
+      "value": 1
+    },
+    {
+      "name": "Methodist Church",
+      "value": 1
+    },
+    {
+      "name": "Choral music",
+      "value": 1
+    },
+    {
+      "name": "Musicians",
+      "value": 1
+    },
+    {
+      "name": "Zimbabwe",
+      "value": 1
+    },
+    {
+      "name": "Church music",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Hymn Tunes",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kauffman, Robert A.",
+      "value": 2
+    },
+    {
+      "name": "Leakey, L. S. B.",
+      "value": 1
+    },
+    {
+      "name": "Bethke, Andrew-John",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 4
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9e9e8",
+      "titleInfo": [
+        {
+          "title": "The religious element in Mau Mau"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0003"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea98",
+      "titleInfo": [
+        {
+          "title": "Hymns of the Wabvuwi"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00b3"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eaf3",
+      "titleInfo": [
+        {
+          "title": "Impressions of African Church music"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-010e"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed71",
+      "titleInfo": [
+        {
+          "title": "NEGOTIATING MUSICAL CULTURES IN COLONIAL HYMNODY: ANALYSING LOCALISED HARMONISATIONS OF WESTERN HYMN TUNES"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-038c"
+    }
+  ]
+}

@@ -1,0 +1,647 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "schools",
+    "name": "Schools",
+    "count": 13
+  },
+  "timeline": [
+    {
+      "year": 1989,
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "count": 7
+    },
+    {
+      "year": 2022,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1989,
+      "total": 1,
+      "byType": {
+        "Moving image": 1
+      }
+    },
+    {
+      "year": 2021,
+      "total": 7,
+      "byType": {
+        "Text": 7
+      }
+    },
+    {
+      "year": 2022,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 9
+    },
+    {
+      "name": "Moving image",
+      "value": 4
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 13
+    },
+    {
+      "name": "Mongolian",
+      "value": 3
+    },
+    {
+      "name": "Samburu",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Herders",
+      "value": 8
+    },
+    {
+      "name": "Vaccination",
+      "value": 5
+    },
+    {
+      "name": "Food security",
+      "value": 5
+    },
+    {
+      "name": "Education",
+      "value": 5
+    },
+    {
+      "name": "Arid regions",
+      "value": 5
+    },
+    {
+      "name": "Livestock",
+      "value": 4
+    },
+    {
+      "name": "Weather",
+      "value": 3
+    },
+    {
+      "name": "Local government",
+      "value": 3
+    },
+    {
+      "name": "Subsidies",
+      "value": 2
+    },
+    {
+      "name": "Youth",
+      "value": 2
+    },
+    {
+      "name": "Agriculture",
+      "value": 2
+    },
+    {
+      "name": "Religion",
+      "value": 2
+    },
+    {
+      "name": "Diseases",
+      "value": 1
+    },
+    {
+      "name": "Samburu (African people)",
+      "value": 1
+    },
+    {
+      "name": "Elections",
+      "value": 1
+    },
+    {
+      "name": "Travel",
+      "value": 1
+    },
+    {
+      "name": "Prices",
+      "value": 1
+    },
+    {
+      "name": "Communication",
+      "value": 1
+    },
+    {
+      "name": "Disasters",
+      "value": 1
+    },
+    {
+      "name": "Hygiene",
+      "value": 1
+    },
+    {
+      "name": "Interviews",
+      "value": 1
+    },
+    {
+      "name": "Islam",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 9
+    },
+    {
+      "name": "Herders",
+      "value": 8
+    },
+    {
+      "name": "Mongolia",
+      "value": 7
+    },
+    {
+      "name": "Lockdown",
+      "value": 6
+    },
+    {
+      "name": "Vaccination",
+      "value": 5
+    },
+    {
+      "name": "Food security",
+      "value": 5
+    },
+    {
+      "name": "Education",
+      "value": 5
+    },
+    {
+      "name": "Arid regions",
+      "value": 5
+    },
+    {
+      "name": "Livestock",
+      "value": 4
+    },
+    {
+      "name": "Pastoralist",
+      "value": 4
+    },
+    {
+      "name": "Weather",
+      "value": 3
+    },
+    {
+      "name": "Local government",
+      "value": 3
+    },
+    {
+      "name": "Household Income",
+      "value": 2
+    },
+    {
+      "name": "Border",
+      "value": 2
+    },
+    {
+      "name": "Subsidies",
+      "value": 2
+    },
+    {
+      "name": "Youth",
+      "value": 2
+    },
+    {
+      "name": "Agriculture",
+      "value": 2
+    },
+    {
+      "name": "Funeral Custom",
+      "value": 2
+    },
+    {
+      "name": "Funeral Rite",
+      "value": 2
+    },
+    {
+      "name": "Religion",
+      "value": 2
+    },
+    {
+      "name": "Diseases",
+      "value": 1
+    },
+    {
+      "name": "Samburu (African people)",
+      "value": 1
+    },
+    {
+      "name": "Elections",
+      "value": 1
+    },
+    {
+      "name": "Sociality",
+      "value": 1
+    },
+    {
+      "name": "Economy",
+      "value": 1
+    },
+    {
+      "name": "Travel",
+      "value": 1
+    },
+    {
+      "name": "Burkina Faso",
+      "value": 1
+    },
+    {
+      "name": "Ghana",
+      "value": 1
+    },
+    {
+      "name": "Mobility",
+      "value": 1
+    },
+    {
+      "name": "Prices",
+      "value": 1
+    },
+    {
+      "name": "Communication",
+      "value": 1
+    },
+    {
+      "name": "Disasters",
+      "value": 1
+    },
+    {
+      "name": "Dzud (Mongolia)",
+      "value": 1
+    },
+    {
+      "name": "Hygiene",
+      "value": 1
+    },
+    {
+      "name": "Trade Practices",
+      "value": 1
+    },
+    {
+      "name": "Trade Regulations",
+      "value": 1
+    },
+    {
+      "name": "Energy Shortages",
+      "value": 1
+    },
+    {
+      "name": "Nation Building",
+      "value": 1
+    },
+    {
+      "name": "Adult Education",
+      "value": 1
+    },
+    {
+      "name": "Education Development",
+      "value": 1
+    },
+    {
+      "name": "Politics",
+      "value": 1
+    },
+    {
+      "name": "Interviews",
+      "value": 1
+    },
+    {
+      "name": "News",
+      "value": 1
+    },
+    {
+      "name": "Islam",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Batjav, Batbuyan",
+      "value": 7
+    },
+    {
+      "name": "Amarbat, Byambasuren",
+      "value": 6
+    },
+    {
+      "name": "Baasankhorloo, Ts",
+      "value": 6
+    },
+    {
+      "name": "Government of Liberia",
+      "value": 4
+    },
+    {
+      "name": "Kronenburg García, Angela",
+      "value": 2
+    },
+    {
+      "name": "Roque de Pinho, Joana",
+      "value": 2
+    },
+    {
+      "name": "Urey, Khrushchev Borbor",
+      "value": 2
+    },
+    {
+      "name": "Taylor, Adolphus",
+      "value": 2
+    },
+    {
+      "name": "McCrumada, Charles",
+      "value": 2
+    },
+    {
+      "name": "Eastman, John",
+      "value": 2
+    },
+    {
+      "name": "Brent, Julius",
+      "value": 2
+    },
+    {
+      "name": "Gilbert, Thomas",
+      "value": 2
+    },
+    {
+      "name": "Mensah, Sam",
+      "value": 2
+    },
+    {
+      "name": "Konneh, Kafumba F.",
+      "value": 2
+    },
+    {
+      "name": "Yasin, Apin",
+      "value": 1
+    },
+    {
+      "name": "Schrijver, Annemiek Pas",
+      "value": 1
+    },
+    {
+      "name": "Gargallo, Eduard",
+      "value": 1
+    },
+    {
+      "name": "Hashimshony Yaffe, Nurit",
+      "value": 1
+    },
+    {
+      "name": "Pepa, Mariasole",
+      "value": 1
+    },
+    {
+      "name": "Heita, Jona",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Liberia",
+      "region": "Montserrado County",
+      "city": "Monrovia",
+      "count": 4
+    },
+    {
+      "country": "Mongolia",
+      "region": "Khentii Province",
+      "city": "Delgerhan Soum",
+      "count": 2
+    },
+    {
+      "country": "Mongolia",
+      "region": "Bayankhongor Province",
+      "city": "",
+      "count": 2
+    },
+    {
+      "country": "Mongolia",
+      "region": "Övörkhangai Province",
+      "city": "Ulziit Soum",
+      "count": 2
+    },
+    {
+      "country": "Kenya",
+      "region": "Samburu",
+      "city": "Archers Post",
+      "count": 1
+    },
+    {
+      "country": "Ghana",
+      "region": "Upper West Region",
+      "city": "Nandom",
+      "count": 1
+    },
+    {
+      "country": "Mongolia",
+      "region": "Bulgan Province",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "66cefaf495a000d4c7bf3706",
+      "titleInfo": [
+        {
+          "title": "Annemiek Pas' Zoom transcript, Kenya (Archer’s Post), February 21, 2022"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0001"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3707",
+      "titleInfo": [
+        {
+          "title": "Batbuyan Batjav's report, Mongolia, September 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0002"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3712",
+      "titleInfo": [
+        {
+          "title": "Interview of co-researcher from Bayankhongor aimag, February 1, 2022"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-000d"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3715",
+      "titleInfo": [
+        {
+          "title": "Primus Nurudong's Ghana Zoom transcript, September 13, 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0010"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3717",
+      "titleInfo": [
+        {
+          "title": "Covid-19 resilience in Mongolian pastoralist communities. Preliminary Narrative Report on Fieldwork in\n Mongolia, April 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0012"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf371b",
+      "titleInfo": [
+        {
+          "title": "Batbuyan Batjav's research comments on Mongolia, November 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0016"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf371c",
+      "titleInfo": [
+        {
+          "title": "Batbuyan Batjav's research comments on Mongolia, November 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0017"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf371e",
+      "titleInfo": [
+        {
+          "title": "Batbuyan Batjav's research comments on Mongolia, September 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0019"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf371f",
+      "titleInfo": [
+        {
+          "title": "Mongolia's report, December 12, 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-001a"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cbe",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0081"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cc6",
+      "titleInfo": [
+        {
+          "title": "Special Feature"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0089"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cc7",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-008a"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1de5",
+      "titleInfo": [
+        {
+          "title": "Islam and You"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-01a8"
+    }
+  ]
+}

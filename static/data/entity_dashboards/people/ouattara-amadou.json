@@ -1,0 +1,200 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "ouattara-amadou",
+    "name": "Ouattara, Amadou",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2021,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2021,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Administration of Justice",
+      "value": 2
+    },
+    {
+      "name": "Teenagers",
+      "value": 2
+    },
+    {
+      "name": "Youth",
+      "value": 2
+    },
+    {
+      "name": "Punishment",
+      "value": 2
+    },
+    {
+      "name": "Maintenance",
+      "value": 1
+    },
+    {
+      "name": "Mediation",
+      "value": 1
+    },
+    {
+      "name": "Conflict management",
+      "value": 1
+    },
+    {
+      "name": "Communities",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Administration of Justice",
+      "value": 2
+    },
+    {
+      "name": "Teenagers",
+      "value": 2
+    },
+    {
+      "name": "Youth",
+      "value": 2
+    },
+    {
+      "name": "Punishment",
+      "value": 2
+    },
+    {
+      "name": "Maintenance",
+      "value": 1
+    },
+    {
+      "name": "Mediation",
+      "value": 1
+    },
+    {
+      "name": "Conflict management",
+      "value": 1
+    },
+    {
+      "name": "Conseil Villageois de Développement",
+      "value": 1
+    },
+    {
+      "name": "Communities",
+      "value": 1
+    },
+    {
+      "name": "Bobo-Dioulasso",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Traoré, Seydou",
+      "value": 1
+    },
+    {
+      "name": "Sanon, Boukary",
+      "value": 1
+    },
+    {
+      "name": "Donatien, Millogo",
+      "value": 1
+    },
+    {
+      "name": "Bationo, Bouma Fernand",
+      "value": 1
+    },
+    {
+      "name": "Sanou, Doti Bruno",
+      "value": 1
+    },
+    {
+      "name": "Sanou, Anselme Titiama",
+      "value": 1
+    },
+    {
+      "name": "Sanon, Sidiki",
+      "value": 1
+    },
+    {
+      "name": "Millogo, Donatien",
+      "value": 1
+    },
+    {
+      "name": "Sanou, Issiaka",
+      "value": 1
+    },
+    {
+      "name": "Sanon, Findomom Simon Pierre",
+      "value": 1
+    },
+    {
+      "name": "Traoré, Honoré Nabéré",
+      "value": 1
+    },
+    {
+      "name": "Soulama, Brahima",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Burkina Faso",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "69c1568d666e5b9f92cf9f61",
+      "titleInfo": [
+        {
+          "title": "Synthèse de l’entretien avec Le  président CVD, intervenants dans la médiation et la gestion des conflits"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0009"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f68",
+      "titleInfo": [
+        {
+          "title": "Étude de recherche les modèles de punitions dans la communauté bobo de Bobo-Dioulasso"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0010"
+    }
+  ]
+}

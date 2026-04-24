@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "essen",
+    "name": "Essen",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1965,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1965,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "value": 2
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "Nigeria",
+      "value": 2
+    }
+  ],
+  "contributors": [
+    {
+      "name": "W. T.",
+      "value": 2
+    }
+  ]
+}

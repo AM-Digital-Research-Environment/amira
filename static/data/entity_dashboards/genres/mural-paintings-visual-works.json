@@ -1,0 +1,324 @@
+{
+  "meta": {
+    "type": "genre",
+    "id": "mural-paintings-visual-works",
+    "name": "Mural paintings (Visual works)",
+    "count": 7
+  },
+  "timeline": [
+    {
+      "year": 1965,
+      "count": 1
+    },
+    {
+      "year": 1966,
+      "count": 2
+    },
+    {
+      "year": 1967,
+      "count": 1
+    },
+    {
+      "year": 2014,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1965,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 1966,
+      "total": 2,
+      "byType": {
+        "Image": 2
+      }
+    },
+    {
+      "year": 1967,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 2014,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 7
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 6
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Artists",
+      "value": 7
+    },
+    {
+      "name": "Art",
+      "value": 6
+    },
+    {
+      "name": "Photographs",
+      "value": 6
+    },
+    {
+      "name": "Painting",
+      "value": 5
+    },
+    {
+      "name": "Women artists",
+      "value": 2
+    },
+    {
+      "name": "Women",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Interior decoration",
+      "value": 1
+    },
+    {
+      "name": "Mosaics",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Artists",
+      "value": 7
+    },
+    {
+      "name": "Art",
+      "value": 6
+    },
+    {
+      "name": "Photographs",
+      "value": 6
+    },
+    {
+      "name": "Nigeria",
+      "value": 6
+    },
+    {
+      "name": "Painting",
+      "value": 5
+    },
+    {
+      "name": "Osogbo",
+      "value": 5
+    },
+    {
+      "name": "Mural",
+      "value": 4
+    },
+    {
+      "name": "Women artists",
+      "value": 2
+    },
+    {
+      "name": "Women",
+      "value": 1
+    },
+    {
+      "name": "Lagos",
+      "value": 1
+    },
+    {
+      "name": "Papua New Guinea",
+      "value": 1
+    },
+    {
+      "name": "New Guinea",
+      "value": 1
+    },
+    {
+      "name": "Port Moresby",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Interior decoration",
+      "value": 1
+    },
+    {
+      "name": "Mosaics",
+      "value": 1
+    },
+    {
+      "name": "Art Collector",
+      "value": 1
+    },
+    {
+      "name": "Art Collecting",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Greven, Katharina",
+      "value": 7
+    },
+    {
+      "name": "Beier, Ulli",
+      "value": 6
+    },
+    {
+      "name": "Beier, Georgina",
+      "value": 5
+    },
+    {
+      "name": "Aiyegbusi, Tayo",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Nigeria",
+      "region": "Osun State",
+      "city": "Osogbo",
+      "count": 4
+    },
+    {
+      "country": "Nigeria",
+      "region": "Lagos State",
+      "city": "Lagos",
+      "count": 1
+    },
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 1
+    },
+    {
+      "country": "Papua New Guinea",
+      "region": "National Capital District",
+      "city": "Port Moresby",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b4e2",
+      "titleInfo": [
+        {
+          "title": "Ausschnitt einer Wandmalerei von Georgina Beier in Lagos"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-005a"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4e4",
+      "titleInfo": [
+        {
+          "title": "Eingang des Hauses in Osogbo"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-005c"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4e6",
+      "titleInfo": [
+        {
+          "title": "Georgina Beier und Bisi Fabunmi vor dem gemeinsam gestalteten Wandgemälde in Osogbo"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-005e"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4e7",
+      "titleInfo": [
+        {
+          "title": "Fertiges Wandgemälde von Georgina Beier und Bisi Fabunmi in Osogbo"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-005f"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4e8",
+      "titleInfo": [
+        {
+          "title": "Aufnahme des Eingangs des Stenohaus"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0060"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4f2",
+      "titleInfo": [
+        {
+          "title": "Wandgemälde von Georgina Beier in Port Moresby von 1967"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-006a"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b51a",
+      "titleInfo": [
+        {
+          "title": "Hintere Terrasse des Hauses in Osogbo"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0092"
+    }
+  ]
+}

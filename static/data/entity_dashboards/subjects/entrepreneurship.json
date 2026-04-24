@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "entrepreneurship",
+    "name": "Entrepreneurship",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2013,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2013,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Popular music",
+      "value": 1
+    },
+    {
+      "name": "Celebrities",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Popular music",
+      "value": 1
+    },
+    {
+      "name": "Celebrities",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    },
+    {
+      "name": "Ghana",
+      "value": 1
+    },
+    {
+      "name": "Hiplife",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Erlmann, Veit",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ed1b",
+      "titleInfo": [
+        {
+          "title": "Living the Hiplife: Celebrity and Entrepreneurship in Ghanaian Popular Music. Jesse Weaver Shipley. 2013. London and Durham, NC: Duke University Press. 329pp."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0336"
+    }
+  ]
+}

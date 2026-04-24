@@ -1,0 +1,223 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "xhosa-african-people",
+    "name": "Xhosa (African people)",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 1956,
+      "count": 1
+    },
+    {
+      "year": 1962,
+      "count": 1
+    },
+    {
+      "year": 2015,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1956,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1962,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2015,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 4
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Tales",
+      "value": 2
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "Zulu (African people)",
+      "value": 2
+    },
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "School songbooks",
+      "value": 1
+    },
+    {
+      "name": "Composers",
+      "value": 1
+    },
+    {
+      "name": "Songs",
+      "value": 1
+    },
+    {
+      "name": "Laudatory poetry",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Tales",
+      "value": 2
+    },
+    {
+      "name": "African Folktales",
+      "value": 2
+    },
+    {
+      "name": "Folktales",
+      "value": 2
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "Zulu (African people)",
+      "value": 2
+    },
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "School songbooks",
+      "value": 1
+    },
+    {
+      "name": "Composers",
+      "value": 1
+    },
+    {
+      "name": "Songs",
+      "value": 1
+    },
+    {
+      "name": "Eastern Cape",
+      "value": 1
+    },
+    {
+      "name": "Laudatory poetry",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Radin, Paul",
+      "value": 2
+    },
+    {
+      "name": "Princeton University Press",
+      "value": 2
+    },
+    {
+      "name": "Swartz, J. F. A.",
+      "value": 1
+    },
+    {
+      "name": "Rycroft, David K.",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "United States of America",
+      "region": "New Jersey",
+      "city": "Princeton",
+      "count": 2
+    },
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a8ab2c85fe8df8714d",
+      "titleInfo": [
+        {
+          "title": "The Bird That Made Milk"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0056"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87177",
+      "titleInfo": [
+        {
+          "title": "Kenkebe"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0080"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea29",
+      "titleInfo": [
+        {
+          "title": "A hobbyist looks at Zulu and Xhosa songs"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0044"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eac1",
+      "titleInfo": [
+        {
+          "title": "Zulu and Xhosa praise-poetry and song"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00dc"
+    }
+  ]
+}

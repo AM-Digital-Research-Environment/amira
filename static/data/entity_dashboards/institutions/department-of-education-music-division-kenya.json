@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "department-of-education-music-division-kenya",
+    "name": "Department of Education, Music Division, Kenya",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1964,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1964,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Musicology",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Education",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Musicology",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Education",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    },
+    {
+      "name": "Republic of the Congo (Léopoldville)",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hyslop, Graham H.",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9eafa",
+      "titleInfo": [
+        {
+          "title": "The need for research in African music"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0115"
+    }
+  ]
+}

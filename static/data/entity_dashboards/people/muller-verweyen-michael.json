@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "muller-verweyen-michael",
+    "name": "Muller-Verweyen, Michael",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2003,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2003,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "Nigeria",
+      "value": 2
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Olusola, Segun",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "Nigeria",
+      "region": "Lagos State",
+      "city": "Lagos",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "6705340c4b98fee5873b4417",
+      "titleInfo": [
+        {
+          "title": "Taiwo Shango Film Production"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-000a"
+    },
+    {
+      "_id": "6705340c4b98fee5873b444e",
+      "titleInfo": [
+        {
+          "title": "Taiwo Shango Film Production"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-0041"
+    }
+  ]
+}

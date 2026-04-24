@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "muller-carol",
+    "name": "Muller, Carol",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 1999,
+      "count": 1
+    },
+    {
+      "year": 2007,
+      "count": 1
+    },
+    {
+      "year": 2016,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1999,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2007,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2016,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "South Africa",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 3
+    },
+    {
+      "name": "South Africa",
+      "value": 2
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Topp Fargion, Janet",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ec80",
+      "titleInfo": [
+        {
+          "title": "Gumboots, Bhaca migrants, and Fred Astaire: South African worker dance and musical style"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-029b"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec93",
+      "titleInfo": [
+        {
+          "title": "Updating the San: Image and Reality of an African People in the 21st Century. Robert Hitchcock, Kazunobu Ikeya, Megan Biesele and Richard Lee, editors. 2006. Senri Ethnological Studies no. 70, Osaka, Japan: National Museum of Ethnonology. ISSN 03876004; ISBN 4-901 906-43-7 C3039. v. 304 pp., maps, figures."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02ae"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed68",
+      "titleInfo": [
+        {
+          "title": "Marabi Nights: Jazz, 'Race' and Society in Early Apartheid South Africa. Christopher Ballantine. 2012. Pietermaritzburg: UKZN Press. 16 bw images, bibliography, index,\nCD, 247pp."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0383"
+    }
+  ]
+}

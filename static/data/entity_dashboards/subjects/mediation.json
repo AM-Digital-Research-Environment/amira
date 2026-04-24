@@ -1,0 +1,577 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "mediation",
+    "name": "Mediation",
+    "count": 19
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "count": 6
+    },
+    {
+      "year": 2022,
+      "count": 12
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2021,
+      "total": 6,
+      "byType": {
+        "Text": 6
+      }
+    },
+    {
+      "year": 2022,
+      "total": 12,
+      "byType": {
+        "Text": 12
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 19
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 19
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Sources",
+      "value": 12
+    },
+    {
+      "name": "Terrorism",
+      "value": 12
+    },
+    {
+      "name": "Dialogue",
+      "value": 12
+    },
+    {
+      "name": "Peace",
+      "value": 12
+    },
+    {
+      "name": "Punishment",
+      "value": 7
+    },
+    {
+      "name": "Reconciliation",
+      "value": 6
+    },
+    {
+      "name": "Justice",
+      "value": 6
+    },
+    {
+      "name": "Children",
+      "value": 6
+    },
+    {
+      "name": "Juvenile detention",
+      "value": 6
+    },
+    {
+      "name": "Juvenile delinquency",
+      "value": 6
+    },
+    {
+      "name": "Administration of Justice",
+      "value": 1
+    },
+    {
+      "name": "Teenagers",
+      "value": 1
+    },
+    {
+      "name": "Youth",
+      "value": 1
+    },
+    {
+      "name": "Maintenance",
+      "value": 1
+    },
+    {
+      "name": "Conflict management",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Sources",
+      "value": 12
+    },
+    {
+      "name": "Terrorism",
+      "value": 12
+    },
+    {
+      "name": "Dialogue",
+      "value": 12
+    },
+    {
+      "name": "Peace",
+      "value": 12
+    },
+    {
+      "name": "Punishment",
+      "value": 7
+    },
+    {
+      "name": "Reconciliation",
+      "value": 6
+    },
+    {
+      "name": "Justice",
+      "value": 6
+    },
+    {
+      "name": "Children",
+      "value": 6
+    },
+    {
+      "name": "Juvenile detention",
+      "value": 6
+    },
+    {
+      "name": "Juvenile delinquency",
+      "value": 6
+    },
+    {
+      "name": "Deprivation of Liberty",
+      "value": 6
+    },
+    {
+      "name": "Preliminary Investigation",
+      "value": 6
+    },
+    {
+      "name": "Investigation Phase",
+      "value": 6
+    },
+    {
+      "name": "Enforcement of Decisions",
+      "value": 6
+    },
+    {
+      "name": "Administration of Justice",
+      "value": 1
+    },
+    {
+      "name": "Teenagers",
+      "value": 1
+    },
+    {
+      "name": "Youth",
+      "value": 1
+    },
+    {
+      "name": "Maintenance",
+      "value": 1
+    },
+    {
+      "name": "Conflict management",
+      "value": 1
+    },
+    {
+      "name": "Conseil Villageois de Développement",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Some, Désiré Boniface",
+      "value": 5
+    },
+    {
+      "name": "Traoré, Seydou",
+      "value": 3
+    },
+    {
+      "name": "Meda, Marc",
+      "value": 3
+    },
+    {
+      "name": "Bationo, Bouma Fernand",
+      "value": 2
+    },
+    {
+      "name": "Attoh, Franca",
+      "value": 2
+    },
+    {
+      "name": "Sanon, Boukary",
+      "value": 1
+    },
+    {
+      "name": "Ouattara, Amadou",
+      "value": 1
+    },
+    {
+      "name": "Donatien, Millogo",
+      "value": 1
+    },
+    {
+      "name": "Boubié, Bazie",
+      "value": 1
+    },
+    {
+      "name": "Tapsoba, Tatiana Nadine",
+      "value": 1
+    },
+    {
+      "name": "Traoré, Kotalama",
+      "value": 1
+    },
+    {
+      "name": "Dabire, Aristide",
+      "value": 1
+    },
+    {
+      "name": "Savadogo, Salam",
+      "value": 1
+    },
+    {
+      "name": "Sanou, Salia",
+      "value": 1
+    },
+    {
+      "name": "Traoré, Honoré Nabéré",
+      "value": 1
+    },
+    {
+      "name": "Harmattan",
+      "value": 1
+    },
+    {
+      "name": "Ouedraogo, Michel Boinhidwendé",
+      "value": 1
+    },
+    {
+      "name": "Toubga, Paala",
+      "value": 1
+    },
+    {
+      "name": "Samandin, Naaba",
+      "value": 1
+    },
+    {
+      "name": "Diallo, Mamadou",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Burkina Faso",
+      "region": "Centre",
+      "city": "Ouagadougou",
+      "count": 15
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "Hauts-Bassins Region",
+      "city": "Bobo-Dioulasso",
+      "count": 2
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "Centre-Ouest Region",
+      "city": "Dano",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "69c1568d666e5b9f92cf9f61",
+      "titleInfo": [
+        {
+          "title": "Synthèse de l’entretien avec Le  président CVD, intervenants dans la médiation et la gestion des conflits"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0009"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f6a",
+      "titleInfo": [
+        {
+          "title": "Rapport"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0012"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f6b",
+      "titleInfo": [
+        {
+          "title": "Synthèse"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0013"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f70",
+      "titleInfo": [
+        {
+          "title": "Rapport"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0018"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f72",
+      "titleInfo": [
+        {
+          "title": "Entretien"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-001a"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f74",
+      "titleInfo": [
+        {
+          "title": "Entretien"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-001c"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f75",
+      "titleInfo": [
+        {
+          "title": "Entretien"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-001d"
+    },
+    {
+      "_id": "6734bd18b9dbcc3cc179feb4",
+      "titleInfo": [
+        {
+          "title": "Le terrorisme au Burkina Faso: négocier ou pas?"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_SEDPaix2022",
+        "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
+      },
+      "dre_id": "acq-03-0000"
+    },
+    {
+      "_id": "6734bd19b9dbcc3cc179feb5",
+      "titleInfo": [
+        {
+          "title": "Le terrorisme au Burkina Faso: négocier ou pas?"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_SEDPaix2022",
+        "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
+      },
+      "dre_id": "acq-03-0001"
+    },
+    {
+      "_id": "6734bd19b9dbcc3cc179feb6",
+      "titleInfo": [
+        {
+          "title": "Le terrorisme au Burkina Faso: négocier ou pas?"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_SEDPaix2022",
+        "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
+      },
+      "dre_id": "acq-03-0002"
+    },
+    {
+      "_id": "6734bd19b9dbcc3cc179feb7",
+      "titleInfo": [
+        {
+          "title": "Le terrorisme au Burkina Faso: négocier ou pas?"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_SEDPaix2022",
+        "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
+      },
+      "dre_id": "acq-03-0003"
+    },
+    {
+      "_id": "6734bd19b9dbcc3cc179feb8",
+      "titleInfo": [
+        {
+          "title": "Programme 2022 du projet de recherche: 'Etude Socio Anthropologique sur les sources endogènes de dialogue et de paix contre le terrorisme au Burkina Faso"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_SEDPaix2022",
+        "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
+      },
+      "dre_id": "acq-03-0004"
+    },
+    {
+      "_id": "6734bd19b9dbcc3cc179feb9",
+      "titleInfo": [
+        {
+          "title": "Analyse des impacts du terrorisme sur le personnel humanitaire au Burkina Faso"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_SEDPaix2022",
+        "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
+      },
+      "dre_id": "acq-03-0005"
+    },
+    {
+      "_id": "6734bd19b9dbcc3cc179febc",
+      "titleInfo": [
+        {
+          "title": "Séminaire pour la paix : 26, 27, 28 Septembre 2020 / Koudougou"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_SEDPaix2022",
+        "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
+      },
+      "dre_id": "acq-03-0008"
+    },
+    {
+      "_id": "6734bd19b9dbcc3cc179febd",
+      "titleInfo": [
+        {
+          "title": "Rapport du 2e séminaire méthodologique sur le projet de recherche"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_SEDPaix2022",
+        "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
+      },
+      "dre_id": "acq-03-0009"
+    },
+    {
+      "_id": "6734bd19b9dbcc3cc179febe",
+      "titleInfo": [
+        {
+          "title": "Rapport du 3e séminaire méthodologique sur le projet de recherche"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_SEDPaix2022",
+        "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
+      },
+      "dre_id": "acq-03-000a"
+    },
+    {
+      "_id": "6734bd19b9dbcc3cc179febf",
+      "titleInfo": [
+        {
+          "title": "Rapport de restitution sur le projet de recherche"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_SEDPaix2022",
+        "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
+      },
+      "dre_id": "acq-03-000b"
+    },
+    {
+      "_id": "6734bd19b9dbcc3cc179fec0",
+      "titleInfo": [
+        {
+          "title": "Interview de Prof Franca avec Samadin Naba"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_SEDPaix2022",
+        "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
+      },
+      "dre_id": "acq-03-000c"
+    },
+    {
+      "_id": "6734bd19b9dbcc3cc179fec1",
+      "titleInfo": [
+        {
+          "title": "Interview de Prof Franca avec Diallo"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_SEDPaix2022",
+        "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
+      },
+      "dre_id": "acq-03-000d"
+    }
+  ]
+}

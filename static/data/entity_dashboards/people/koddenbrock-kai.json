@@ -1,0 +1,282 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "koddenbrock-kai",
+    "name": "Koddenbrock, Kai",
+    "count": 9
+  },
+  "timeline": [
+    {
+      "year": 2022,
+      "count": 5
+    },
+    {
+      "year": 2023,
+      "count": 4
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2022,
+      "total": 5,
+      "byType": {
+        "Text": 5
+      }
+    },
+    {
+      "year": 2023,
+      "total": 4,
+      "byType": {
+        "Text": 4
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 9
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 9
+    }
+  ],
+  "subjects": [
+    {
+      "name": "West Africa",
+      "value": 9
+    },
+    {
+      "name": "Exports",
+      "value": 2
+    },
+    {
+      "name": "Debt",
+      "value": 1
+    },
+    {
+      "name": "Public finance",
+      "value": 1
+    },
+    {
+      "name": "Imports",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "West Africa",
+      "value": 9
+    },
+    {
+      "name": "Senegal",
+      "value": 7
+    },
+    {
+      "name": "Sovereign Bond",
+      "value": 2
+    },
+    {
+      "name": "Exports",
+      "value": 2
+    },
+    {
+      "name": "Government Revenue",
+      "value": 2
+    },
+    {
+      "name": "Nigeria",
+      "value": 2
+    },
+    {
+      "name": "Debt",
+      "value": 1
+    },
+    {
+      "name": "Public finance",
+      "value": 1
+    },
+    {
+      "name": "Export Data",
+      "value": 1
+    },
+    {
+      "name": "Imports",
+      "value": 1
+    },
+    {
+      "name": "Import Data",
+      "value": 1
+    },
+    {
+      "name": "Government Expenditure",
+      "value": 1
+    },
+    {
+      "name": "Government Budget",
+      "value": 1
+    },
+    {
+      "name": "Tax Revenue",
+      "value": 1
+    },
+    {
+      "name": "Total Revenue",
+      "value": 1
+    },
+    {
+      "name": "Government Reserves",
+      "value": 1
+    },
+    {
+      "name": "Government Trade",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "Senegal",
+      "region": "",
+      "city": "",
+      "count": 7
+    },
+    {
+      "country": "Nigeria",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "674dba652e70d1e383d18aed",
+      "titleInfo": [
+        {
+          "title": "Historical statistics on Senegal public finance"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-000a"
+    },
+    {
+      "_id": "674dba652e70d1e383d18aee",
+      "titleInfo": [
+        {
+          "title": "Historical Export Data, Senegal"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-000b"
+    },
+    {
+      "_id": "674dba652e70d1e383d18aef",
+      "titleInfo": [
+        {
+          "title": "Historical Import Data, Senegal"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-000c"
+    },
+    {
+      "_id": "674dba652e70d1e383d18af0",
+      "titleInfo": [
+        {
+          "title": "Sovereign Bond Contracts, Senegal"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-000d"
+    },
+    {
+      "_id": "674dba652e70d1e383d18af3",
+      "titleInfo": [
+        {
+          "title": "Government Expenditure"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0010"
+    },
+    {
+      "_id": "674dba652e70d1e383d18af4",
+      "titleInfo": [
+        {
+          "title": "Government Revenue"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0011"
+    },
+    {
+      "_id": "674dba652e70d1e383d18af5",
+      "titleInfo": [
+        {
+          "title": "Government Revenue"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0012"
+    },
+    {
+      "_id": "674dba652e70d1e383d18af6",
+      "titleInfo": [
+        {
+          "title": "Government Reserves"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0013"
+    },
+    {
+      "_id": "674dba652e70d1e383d18af7",
+      "titleInfo": [
+        {
+          "title": "Governement Trade"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0014"
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "ladipo-duro",
+    "name": "Ladipo, Duro",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 1962,
+      "count": 1
+    },
+    {
+      "year": 1964,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1962,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 1964,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    },
+    {
+      "name": "Image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    },
+    {
+      "name": "Igbo",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Art",
+      "value": 1
+    },
+    {
+      "name": "Painting",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Exhibitions",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Nigeria",
+      "value": 3
+    },
+    {
+      "name": "Art",
+      "value": 1
+    },
+    {
+      "name": "Painting",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Exhibitions",
+      "value": 1
+    },
+    {
+      "name": "Art Exhibition",
+      "value": 1
+    },
+    {
+      "name": "Mbari Mbayo Club",
+      "value": 1
+    },
+    {
+      "name": "Osogbo",
+      "value": 1
+    },
+    {
+      "name": "Cultural Centre",
+      "value": 1
+    },
+    {
+      "name": "Performing Arts Center",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Beier, Ulli",
+      "value": 3
+    }
+  ],
+  "locations": [
+    {
+      "country": "Nigeria",
+      "region": "",
+      "city": "",
+      "count": 2
+    },
+    {
+      "country": "Nigeria",
+      "region": "Osun State",
+      "city": "Osogbo",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b4ac",
+      "titleInfo": [
+        {
+          "title": "Aufnahme von Duro Ladipo in einer Gruppe von Menschen während der Eröffnung des Mbari Mbayo Club in Osogbo"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0024"
+    },
+    {
+      "_id": "6705340c4b98fee5873b4415",
+      "titleInfo": [
+        {
+          "title": "Three Yoruba Plays - Oba Waja"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-0008"
+    },
+    {
+      "_id": "6705340c4b98fee5873b444d",
+      "titleInfo": [
+        {
+          "title": "Three Yoruba Plays - Oba Waja"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-0040"
+    }
+  ]
+}

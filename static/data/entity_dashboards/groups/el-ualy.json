@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "type": "group",
+    "id": "el-ualy",
+    "name": "El Ualy",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2015,
+      "count": 2
+    }
+  ],
+  "types": [
+    {
+      "name": "Audio",
+      "value": 2
+    }
+  ],
+  "languages": [],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 2
+    }
+  ],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ed4f",
+      "titleInfo": [
+        {
+          "title": "Uargueziz"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "dre_id": "eaa-99-036a"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed5c",
+      "titleInfo": [
+        {
+          "title": "RASD"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "dre_id": "eaa-99-0377"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "legal-framework",
+    "name": "Legal Framework",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2023,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2023,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "World health",
+      "value": 2
+    },
+    {
+      "name": "West Africa",
+      "value": 2
+    },
+    {
+      "name": "Health",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "World health",
+      "value": 2
+    },
+    {
+      "name": "West Africa",
+      "value": 2
+    },
+    {
+      "name": "Burkina Faso",
+      "value": 2
+    },
+    {
+      "name": "Global Health Policy",
+      "value": 2
+    },
+    {
+      "name": "Health Policy",
+      "value": 1
+    },
+    {
+      "name": "Legislation",
+      "value": 1
+    },
+    {
+      "name": "Foundation",
+      "value": 1
+    },
+    {
+      "name": "Health",
+      "value": 1
+    },
+    {
+      "name": "Health Organisation",
+      "value": 1
+    },
+    {
+      "name": "Typology",
+      "value": 1
+    },
+    {
+      "name": "Categorisation",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Banhoro, Yacouba",
+      "value": 2
+    },
+    {
+      "name": "Illy, Ousseni",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Burkina Faso",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "6718efd3c327cde4b57d867e",
+      "titleInfo": [
+        {
+          "title": "Draft sur le cadre juridique des politiques sanitaires au Burkina Faso"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-000d"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d867f",
+      "titleInfo": [
+        {
+          "title": "Draft sur les organisations du domaine de la santé dans le système sanitaire au Burkina Faso"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-000e"
+    }
+  ]
+}

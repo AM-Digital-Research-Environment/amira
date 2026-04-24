@@ -1,0 +1,702 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "performance",
+    "name": "Performance",
+    "count": 12
+  },
+  "timeline": [
+    {
+      "year": 1954,
+      "count": 2
+    },
+    {
+      "year": 1955,
+      "count": 1
+    },
+    {
+      "year": 1960,
+      "count": 1
+    },
+    {
+      "year": 1987,
+      "count": 1
+    },
+    {
+      "year": 2013,
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1954,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1955,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1960,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1987,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2013,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2019,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2020,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2022,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 9
+    },
+    {
+      "name": "Moving image",
+      "value": 2
+    },
+    {
+      "name": "Image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 11
+    },
+    {
+      "name": "French",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Music",
+      "value": 7
+    },
+    {
+      "name": "Dance",
+      "value": 6
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 5
+    },
+    {
+      "name": "Drum",
+      "value": 4
+    },
+    {
+      "name": "Musical instruments",
+      "value": 4
+    },
+    {
+      "name": "Drum music",
+      "value": 4
+    },
+    {
+      "name": "Africa",
+      "value": 2
+    },
+    {
+      "name": "Singing",
+      "value": 2
+    },
+    {
+      "name": "History",
+      "value": 2
+    },
+    {
+      "name": "Criticism",
+      "value": 2
+    },
+    {
+      "name": "Gender",
+      "value": 2
+    },
+    {
+      "name": "Art",
+      "value": 1
+    },
+    {
+      "name": "Painting",
+      "value": 1
+    },
+    {
+      "name": "Improvisation (Music)",
+      "value": 1
+    },
+    {
+      "name": "Polyrhythm",
+      "value": 1
+    },
+    {
+      "name": "Drum language",
+      "value": 1
+    },
+    {
+      "name": "Talking drum",
+      "value": 1
+    },
+    {
+      "name": "Akan (African people)",
+      "value": 1
+    },
+    {
+      "name": "Percussion instruments",
+      "value": 1
+    },
+    {
+      "name": "Tetela (African people)",
+      "value": 1
+    },
+    {
+      "name": "Slit drums",
+      "value": 1
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Dynamics",
+      "value": 1
+    },
+    {
+      "name": "Storytelling",
+      "value": 1
+    },
+    {
+      "name": "Ewe (African people)",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 9
+    },
+    {
+      "name": "Music",
+      "value": 7
+    },
+    {
+      "name": "Dance",
+      "value": 6
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 5
+    },
+    {
+      "name": "Drum",
+      "value": 4
+    },
+    {
+      "name": "Musical instruments",
+      "value": 4
+    },
+    {
+      "name": "Drum music",
+      "value": 4
+    },
+    {
+      "name": "Drum (Instrument)",
+      "value": 4
+    },
+    {
+      "name": "Africa",
+      "value": 2
+    },
+    {
+      "name": "Singing",
+      "value": 2
+    },
+    {
+      "name": "History",
+      "value": 2
+    },
+    {
+      "name": "Criticism",
+      "value": 2
+    },
+    {
+      "name": "Nigeria",
+      "value": 2
+    },
+    {
+      "name": "Gender",
+      "value": 2
+    },
+    {
+      "name": "Ghana",
+      "value": 2
+    },
+    {
+      "name": "Art",
+      "value": 1
+    },
+    {
+      "name": "Painting",
+      "value": 1
+    },
+    {
+      "name": "Improvisation (Music)",
+      "value": 1
+    },
+    {
+      "name": "Polyrhythm",
+      "value": 1
+    },
+    {
+      "name": "Drum language",
+      "value": 1
+    },
+    {
+      "name": "Talking drum",
+      "value": 1
+    },
+    {
+      "name": "Akan (African people)",
+      "value": 1
+    },
+    {
+      "name": "Percussion instruments",
+      "value": 1
+    },
+    {
+      "name": "Talking Drum (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Tetela (African people)",
+      "value": 1
+    },
+    {
+      "name": "Slit drums",
+      "value": 1
+    },
+    {
+      "name": "Belgian Congo",
+      "value": 1
+    },
+    {
+      "name": "Slit Drum (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Skin Drum (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Lukumbi (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Ngomo (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Dynamics",
+      "value": 1
+    },
+    {
+      "name": "Interpretation",
+      "value": 1
+    },
+    {
+      "name": "Yoruba Art",
+      "value": 1
+    },
+    {
+      "name": "Mozambique",
+      "value": 1
+    },
+    {
+      "name": "Orchestra",
+      "value": 1
+    },
+    {
+      "name": "Politics",
+      "value": 1
+    },
+    {
+      "name": "Democratisation",
+      "value": 1
+    },
+    {
+      "name": "Malawi",
+      "value": 1
+    },
+    {
+      "name": "Storytelling",
+      "value": 1
+    },
+    {
+      "name": "Ewe (African people)",
+      "value": 1
+    },
+    {
+      "name": "Storytelling Session",
+      "value": 1
+    },
+    {
+      "name": "Song Texts",
+      "value": 1
+    },
+    {
+      "name": "Song Interludes",
+      "value": 1
+    },
+    {
+      "name": "Festivals",
+      "value": 1
+    },
+    {
+      "name": "Ethics",
+      "value": 1
+    },
+    {
+      "name": "Audiences",
+      "value": 1
+    },
+    {
+      "name": "Liveness",
+      "value": 1
+    },
+    {
+      "name": "Kplejoo Festival",
+      "value": 1
+    },
+    {
+      "name": "Royal Funeral",
+      "value": 1
+    },
+    {
+      "name": "Multifocality",
+      "value": 1
+    },
+    {
+      "name": "Eavesdropping",
+      "value": 1
+    },
+    {
+      "name": "Gorilla",
+      "value": 1
+    },
+    {
+      "name": "Equality",
+      "value": 1
+    },
+    {
+      "name": "Masquerades",
+      "value": 1
+    },
+    {
+      "name": "Esan (African people)",
+      "value": 1
+    },
+    {
+      "name": "Gender Roles",
+      "value": 1
+    },
+    {
+      "name": "Dance Repertoire",
+      "value": 1
+    },
+    {
+      "name": "Gender Stereotypes",
+      "value": 1
+    },
+    {
+      "name": "Dance Gestures",
+      "value": 1
+    },
+    {
+      "name": "Musicality",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Government of Liberia",
+      "value": 2
+    },
+    {
+      "name": "Beier, Ulli",
+      "value": 1
+    },
+    {
+      "name": "Greven, Katharina",
+      "value": 1
+    },
+    {
+      "name": "Obe, Octavius",
+      "value": 1
+    },
+    {
+      "name": "Zaza Group of Zaire",
+      "value": 1
+    },
+    {
+      "name": "Kaitibie, Peter",
+      "value": 1
+    },
+    {
+      "name": "Saba, Kisaba",
+      "value": 1
+    },
+    {
+      "name": "Princess Fatu Gayflor",
+      "value": 1
+    },
+    {
+      "name": "Gbeho, Philip",
+      "value": 1
+    },
+    {
+      "name": "Nketia, J. H.",
+      "value": 1
+    },
+    {
+      "name": "Gilbert, Dorothy R.",
+      "value": 1
+    },
+    {
+      "name": "King, Anthony",
+      "value": 1
+    },
+    {
+      "name": "Tracey, Andrew",
+      "value": 1
+    },
+    {
+      "name": "Gunderson, Frank",
+      "value": 1
+    },
+    {
+      "name": "Gbagbo, Divine Kwasi",
+      "value": 1
+    },
+    {
+      "name": "Elder, D. Rose",
+      "value": 1
+    },
+    {
+      "name": "Nii-Dortey, Moses",
+      "value": 1
+    },
+    {
+      "name": "Aluede, Esther Omone",
+      "value": 1
+    },
+    {
+      "name": "Aluede, Charles Onomudo",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 9
+    },
+    {
+      "country": "Liberia",
+      "region": "Montserrado County",
+      "city": "Monrovia",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b4d9",
+      "titleInfo": [
+        {
+          "title": "Baba Lebes Tanzaufführung"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0051"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cd6",
+      "titleInfo": [
+        {
+          "title": "Heritage Productions"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0099"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cd7",
+      "titleInfo": [
+        {
+          "title": "Heritage Productions  - Artists' Spotlight"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-009a"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9e9f0",
+      "titleInfo": [
+        {
+          "title": "Music of the Gold Coast"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-000b"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9e9f5",
+      "titleInfo": [
+        {
+          "title": "The role of the drummer in Akan society"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0010"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea09",
+      "titleInfo": [
+        {
+          "title": "The Lukumbi: a six-toned slit drum of the Batetela"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0024"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea94",
+      "titleInfo": [
+        {
+          "title": "Employments of the \"standard pattern\" in Yoruba music"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00af"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec22",
+      "titleInfo": [
+        {
+          "title": "MUSIC FROM MOZAMBIQUE, CHOPI TIMBILA. Two orchestral performances recorded in Zavala, Inhambane Province, Mozambique 1981, by Ron and Ophera Hallis. No. FE 4318, Folkways Records, 43 W 61st St. NYC, USA 10023."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-023d"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed1c",
+      "titleInfo": [
+        {
+          "title": "The Dance of Politics: Gender, Performance, and Democratization in Malawi. Lisa Gilman. 2009. Philadelphia: Temple University Press. 252 pp."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0337"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edae",
+      "titleInfo": [
+        {
+          "title": "STORYTELLING SONGS OF THE ÈWÈ-DÒMÈ OF GHANA"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03c9"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edbf",
+      "titleInfo": [
+        {
+          "title": "LIVENESS, MULTIFOCALITY, EAVESDROPPING IN ETHNOMUSICOLOGICAL FIELDWORK RESEARCH AT GHANAIAN FESTIVALS AND ROYAL FUNERALS"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03da"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edd6",
+      "titleInfo": [
+        {
+          "title": "Investigating gender stereotypes and musicality in Esan, Edo State, Nigeria"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03f1"
+    }
+  ]
+}

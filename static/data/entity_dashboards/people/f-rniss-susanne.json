@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "f-rniss-susanne",
+    "name": "Fürniss, Susanne",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2008,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2008,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ritual",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Ritual",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    },
+    {
+      "name": "Cameroon",
+      "value": 1
+    },
+    {
+      "name": "Circumcision Ritual",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ecaf",
+      "titleInfo": [
+        {
+          "title": "The Adoption of the Circumcision Ritual bèkà by the Baka-Pygmies in Southeast Cameroon"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02ca"
+    }
+  ]
+}

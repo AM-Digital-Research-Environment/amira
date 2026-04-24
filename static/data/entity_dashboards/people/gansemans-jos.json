@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "gansemans-jos",
+    "name": "Gansemans, Jos",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1973,
+      "count": 1
+    },
+    {
+      "year": 1980,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1973,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1980,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 1
+    },
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Central Africa",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Central Africa",
+      "value": 1
+    },
+    {
+      "name": "Rwanda",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ebbf",
+      "titleInfo": [
+        {
+          "title": "Recherche ethnomusicologique au Rwanda"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01da"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ebe3",
+      "titleInfo": [
+        {
+          "title": "LES MENDZAN DES CHANTEURS DE YAOUNDE: Histoire - Organologie - Fabrication - Systeme de Transcription, by Pie-Claude Ngumu, No. 34, Acta Ethnoligica et Linguistica, Vienna, 1976„ pp. 81, photos, diagrams."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01fe"
+    }
+  ]
+}

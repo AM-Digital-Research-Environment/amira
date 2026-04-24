@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "nandom",
+    "name": "Nandom",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2021,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Travel",
+      "value": 1
+    },
+    {
+      "name": "Schools",
+      "value": 1
+    },
+    {
+      "name": "Food security",
+      "value": 1
+    },
+    {
+      "name": "Vaccination",
+      "value": 1
+    },
+    {
+      "name": "Hygiene",
+      "value": 1
+    },
+    {
+      "name": "Social distancing (Public health)",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Ghana",
+      "value": 2
+    },
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 2
+    },
+    {
+      "name": "Travel",
+      "value": 1
+    },
+    {
+      "name": "Schools",
+      "value": 1
+    },
+    {
+      "name": "Food security",
+      "value": 1
+    },
+    {
+      "name": "Vaccination",
+      "value": 1
+    },
+    {
+      "name": "Lockdown",
+      "value": 1
+    },
+    {
+      "name": "Burkina Faso",
+      "value": 1
+    },
+    {
+      "name": "Border",
+      "value": 1
+    },
+    {
+      "name": "Mobility",
+      "value": 1
+    },
+    {
+      "name": "Hygiene",
+      "value": 1
+    },
+    {
+      "name": "Social distancing (Public health)",
+      "value": 1
+    },
+    {
+      "name": "Cash",
+      "value": 1
+    },
+    {
+      "name": "Sociality",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Nurudong, Primus",
+      "value": 2
+    },
+    {
+      "name": "Kronenburg García, Angela",
+      "value": 1
+    },
+    {
+      "name": "Roque de Pinho, Joana",
+      "value": 1
+    },
+    {
+      "name": "Munguambe, Danicia",
+      "value": 1
+    },
+    {
+      "name": "Goldman, Mara",
+      "value": 1
+    },
+    {
+      "name": "Korbeogo, Gabin",
+      "value": 1
+    },
+    {
+      "name": "Sternberg, Troy",
+      "value": 1
+    }
+  ]
+}

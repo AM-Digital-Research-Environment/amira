@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "modern-african-art",
+    "name": "Modern African Art",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 1980,
+      "count": 3
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1980,
+      "total": 3,
+      "byType": {
+        "Image": 3
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Art",
+      "value": 3
+    },
+    {
+      "name": "Painting",
+      "value": 3
+    },
+    {
+      "name": "Africa",
+      "value": 3
+    },
+    {
+      "name": "Exhibitions",
+      "value": 3
+    },
+    {
+      "name": "Artists",
+      "value": 3
+    },
+    {
+      "name": "Interior decoration",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Art",
+      "value": 3
+    },
+    {
+      "name": "Painting",
+      "value": 3
+    },
+    {
+      "name": "Africa",
+      "value": 3
+    },
+    {
+      "name": "Exhibitions",
+      "value": 3
+    },
+    {
+      "name": "Artists",
+      "value": 3
+    },
+    {
+      "name": "Art Exhibition",
+      "value": 3
+    },
+    {
+      "name": "Mainz",
+      "value": 3
+    },
+    {
+      "name": "Cultural Centre",
+      "value": 3
+    },
+    {
+      "name": "Performing Arts Center",
+      "value": 3
+    },
+    {
+      "name": "Interior decoration",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Beier, Ulli",
+      "value": 3
+    },
+    {
+      "name": "Benz, Klaus",
+      "value": 2
+    },
+    {
+      "name": "Sédar Senghor, Leopold",
+      "value": 2
+    },
+    {
+      "name": "Greven, Katharina",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Rhineland-Palatinate",
+      "city": "Mainz",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b4af",
+      "titleInfo": [
+        {
+          "title": "Ulli Beier und Léopold Sédar Senghor in der Ausstellung Neue Kunst in Afrika in Mainz"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0027"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4b0",
+      "titleInfo": [
+        {
+          "title": "Innenaufnahme eines Raumes der Ausstellung Neue Kunst in Afrika in Mainz"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0028"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4b1",
+      "titleInfo": [
+        {
+          "title": "Ulli Beier und Léopold Sédar Senghor in der Ausstellung Neue Kunst in Afrika in Mainz"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0029"
+    }
+  ]
+}

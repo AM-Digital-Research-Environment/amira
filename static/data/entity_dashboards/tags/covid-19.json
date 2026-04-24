@@ -1,0 +1,1442 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "covid-19",
+    "name": "COVID-19",
+    "count": 65
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 47
+    },
+    {
+      "year": 2021,
+      "count": 7
+    },
+    {
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "count": 9
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 47,
+      "byType": {
+        "Text": 4,
+        "Audio": 24,
+        "Digital": 1,
+        "Image": 10,
+        "Moving image": 8
+      }
+    },
+    {
+      "year": 2021,
+      "total": 7,
+      "byType": {
+        "Audio": 5,
+        "Collection": 1,
+        "Digital": 1
+      }
+    },
+    {
+      "year": 2022,
+      "total": 1,
+      "byType": {
+        "Collection": 1
+      }
+    },
+    {
+      "year": 2023,
+      "total": 9,
+      "byType": {
+        "Audio": 9
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Audio",
+      "value": 38
+    },
+    {
+      "name": "Image",
+      "value": 10
+    },
+    {
+      "name": "Moving image",
+      "value": 8
+    },
+    {
+      "name": "Text",
+      "value": 5
+    },
+    {
+      "name": "Collection",
+      "value": 2
+    },
+    {
+      "name": "Digital",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 38
+    },
+    {
+      "name": "English",
+      "value": 25
+    },
+    {
+      "name": "Mongolian",
+      "value": 1
+    },
+    {
+      "name": "Swahili",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "COVID-19 (Disease)",
+      "value": 63
+    },
+    {
+      "name": "French",
+      "value": 38
+    },
+    {
+      "name": "Ethics",
+      "value": 38
+    },
+    {
+      "name": "Africa",
+      "value": 38
+    },
+    {
+      "name": "Transport workers",
+      "value": 21
+    },
+    {
+      "name": "History",
+      "value": 2
+    },
+    {
+      "name": "Karakul sheep",
+      "value": 2
+    },
+    {
+      "name": "Karakul sheep industry",
+      "value": 2
+    },
+    {
+      "name": "Postcolonialism",
+      "value": 2
+    },
+    {
+      "name": "South Africa",
+      "value": 2
+    },
+    {
+      "name": "Agriculture",
+      "value": 2
+    },
+    {
+      "name": "Colonisation",
+      "value": 2
+    },
+    {
+      "name": "Developing countries",
+      "value": 2
+    },
+    {
+      "name": "Public health",
+      "value": 2
+    },
+    {
+      "name": "Herders",
+      "value": 1
+    },
+    {
+      "name": "Travel",
+      "value": 1
+    },
+    {
+      "name": "Households",
+      "value": 1
+    },
+    {
+      "name": "Mass media",
+      "value": 1
+    },
+    {
+      "name": "Hygiene",
+      "value": 1
+    },
+    {
+      "name": "Food security",
+      "value": 1
+    },
+    {
+      "name": "Water",
+      "value": 1
+    },
+    {
+      "name": "Social distancing (Public health)",
+      "value": 1
+    },
+    {
+      "name": "Ecology",
+      "value": 1
+    },
+    {
+      "name": "Management",
+      "value": 1
+    },
+    {
+      "name": "Breeding",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "COVID-19 (Disease)",
+      "value": 63
+    },
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 42
+    },
+    {
+      "name": "French",
+      "value": 38
+    },
+    {
+      "name": "Ethics",
+      "value": 38
+    },
+    {
+      "name": "Africa",
+      "value": 38
+    },
+    {
+      "name": "Cameroon",
+      "value": 38
+    },
+    {
+      "name": "Morality",
+      "value": 38
+    },
+    {
+      "name": "Transport workers",
+      "value": 21
+    },
+    {
+      "name": "Nigeria",
+      "value": 21
+    },
+    {
+      "name": "Lagos",
+      "value": 21
+    },
+    {
+      "name": "Marketer",
+      "value": 21
+    },
+    {
+      "name": "History",
+      "value": 2
+    },
+    {
+      "name": "Karakul sheep",
+      "value": 2
+    },
+    {
+      "name": "Karakul sheep industry",
+      "value": 2
+    },
+    {
+      "name": "Postcolonialism",
+      "value": 2
+    },
+    {
+      "name": "South Africa",
+      "value": 2
+    },
+    {
+      "name": "Agriculture",
+      "value": 2
+    },
+    {
+      "name": "Colonisation",
+      "value": 2
+    },
+    {
+      "name": "Namibia",
+      "value": 2
+    },
+    {
+      "name": "Swakara",
+      "value": 2
+    },
+    {
+      "name": "Karakul Circulations",
+      "value": 2
+    },
+    {
+      "name": "Colonial Economies",
+      "value": 2
+    },
+    {
+      "name": "Karakul Farming",
+      "value": 2
+    },
+    {
+      "name": "Germany",
+      "value": 2
+    },
+    {
+      "name": "Colonial South-West Africa",
+      "value": 2
+    },
+    {
+      "name": "German Colonialism",
+      "value": 2
+    },
+    {
+      "name": "Developing countries",
+      "value": 2
+    },
+    {
+      "name": "Public health",
+      "value": 2
+    },
+    {
+      "name": "Healthcare",
+      "value": 2
+    },
+    {
+      "name": "Herders",
+      "value": 1
+    },
+    {
+      "name": "Travel",
+      "value": 1
+    },
+    {
+      "name": "Households",
+      "value": 1
+    },
+    {
+      "name": "Pastoralist",
+      "value": 1
+    },
+    {
+      "name": "Mobility",
+      "value": 1
+    },
+    {
+      "name": "Mongolia",
+      "value": 1
+    },
+    {
+      "name": "Mass media",
+      "value": 1
+    },
+    {
+      "name": "Hygiene",
+      "value": 1
+    },
+    {
+      "name": "Food security",
+      "value": 1
+    },
+    {
+      "name": "Water",
+      "value": 1
+    },
+    {
+      "name": "Social distancing (Public health)",
+      "value": 1
+    },
+    {
+      "name": "Ecology",
+      "value": 1
+    },
+    {
+      "name": "Household Income",
+      "value": 1
+    },
+    {
+      "name": "Local Understanding",
+      "value": 1
+    },
+    {
+      "name": "Tanzania",
+      "value": 1
+    },
+    {
+      "name": "Environment",
+      "value": 1
+    },
+    {
+      "name": "Management",
+      "value": 1
+    },
+    {
+      "name": "Breeding",
+      "value": 1
+    },
+    {
+      "name": "Life expectancy",
+      "value": 1
+    },
+    {
+      "name": "Mortality",
+      "value": 1
+    },
+    {
+      "name": "Lockdown",
+      "value": 1
+    },
+    {
+      "name": "Sustainable Solution",
+      "value": 1
+    },
+    {
+      "name": "Emerging Economies",
+      "value": 1
+    },
+    {
+      "name": "Ghana",
+      "value": 1
+    },
+    {
+      "name": "Economy",
+      "value": 1
+    },
+    {
+      "name": "COVID-19 vaccines",
+      "value": 1
+    },
+    {
+      "name": "Herd immunity",
+      "value": 1
+    },
+    {
+      "name": "International relations",
+      "value": 1
+    },
+    {
+      "name": "European Union",
+      "value": 1
+    },
+    {
+      "name": "European Community",
+      "value": 1
+    },
+    {
+      "name": "India",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Drescher, Martina",
+      "value": 38
+    },
+    {
+      "name": "Ngawa Mbaho, Carline Liliane",
+      "value": 38
+    },
+    {
+      "name": "Akin-Otiko, Akinmayowa",
+      "value": 21
+    },
+    {
+      "name": "Fayemi, Kazeem",
+      "value": 21
+    },
+    {
+      "name": "Schaumann, Eleanor",
+      "value": 2
+    },
+    {
+      "name": "Stadelmann, David",
+      "value": 2
+    },
+    {
+      "name": "Wild, Frederik",
+      "value": 2
+    },
+    {
+      "name": "Frempong, Raymond Boadi",
+      "value": 2
+    },
+    {
+      "name": "Batjav, Batbuyan",
+      "value": 1
+    },
+    {
+      "name": "Haller, Tobias",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Cameroon",
+      "region": "",
+      "city": "",
+      "count": 38
+    },
+    {
+      "country": "Nigeria",
+      "region": "Lagos State",
+      "city": "Lagos",
+      "count": 21
+    },
+    {
+      "country": "Namibia",
+      "region": "",
+      "city": "",
+      "count": 2
+    },
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 2
+    },
+    {
+      "country": "Mongolia",
+      "region": "Bayankhongor Province",
+      "city": "Tsagaan-Üür",
+      "count": 1
+    },
+    {
+      "country": "Tanzania",
+      "region": "Iringa",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "66cefaf495a000d4c7bf3708",
+      "titleInfo": [
+        {
+          "title": "Batbuyan Batjav's report, Mongolia, October 15, 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0003"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3726",
+      "titleInfo": [
+        {
+          "title": "Anonymus questionary of Tanzania's Covid-19 situation, September 2020"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0021"
+    },
+    {
+      "_id": "66f6afc2af0f314a56f12cf2",
+      "titleInfo": [
+        {
+          "title": "Interview Stéphanie"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_HDMC2019",
+        "name": "Health discourses as moral communication? Linguistic case studies from Côte d'Ivoire and Cameroon"
+      },
+      "dre_id": "acf-99-0018"
+    },
+    {
+      "_id": "66f6afc2af0f314a56f12cf3",
+      "titleInfo": [
+        {
+          "title": "Interview Nathalie, Assistante de direction"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_HDMC2019",
+        "name": "Health discourses as moral communication? Linguistic case studies from Côte d'Ivoire and Cameroon"
+      },
+      "dre_id": "acf-99-0019"
+    },
+    {
+      "_id": "66f6afc2af0f314a56f12cf4",
+      "titleInfo": [
+        {
+          "title": "Interview Dr Steve"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_HDMC2019",
+        "name": "Health discourses as moral communication? Linguistic case studies from Côte d'Ivoire and Cameroon"
+      },
+      "dre_id": "acf-99-001a"
+    },
+    {
+      "_id": "66f6afc2af0f314a56f12cf5",
+      "titleInfo": [
+        {
+          "title": "Interview Agents d'entretien udm cum"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_HDMC2019",
+        "name": "Health discourses as moral communication? Linguistic case studies from Côte d'Ivoire and Cameroon"
+      },
+      "dre_id": "acf-99-001b"
+    },
+    {
+      "_id": "66f6afc2af0f314a56f12cf6",
+      "titleInfo": [
+        {
+          "title": "Interview Viviane Marche B"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_HDMC2019",
+        "name": "Health discourses as moral communication? Linguistic case studies from Côte d'Ivoire and Cameroon"
+      },
+      "dre_id": "acf-99-001c"
+    },
+    {
+      "_id": "66f6afc2af0f314a56f12cf7",
+      "titleInfo": [
+        {
+          "title": "Interview Coiffeuses 1"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_HDMC2019",
+        "name": "Health discourses as moral communication? Linguistic case studies from Côte d'Ivoire and Cameroon"
+      },
+      "dre_id": "acf-99-001d"
+    },
+    {
+      "_id": "66f6afc2af0f314a56f12cf8",
+      "titleInfo": [
+        {
+          "title": "Interview Commerçant 1"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_HDMC2019",
+        "name": "Health discourses as moral communication? Linguistic case studies from Côte d'Ivoire and Cameroon"
+      },
+      "dre_id": "acf-99-001e"
+    },
+    {
+      "_id": "66f6afc2af0f314a56f12cf9",
+      "titleInfo": [
+        {
+          "title": "Interview Commerçant 2"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_HDMC2019",
+        "name": "Health discourses as moral communication? Linguistic case studies from Côte d'Ivoire and Cameroon"
+      },
+      "dre_id": "acf-99-001f"
+    },
+    {
+      "_id": "66f6afc2af0f314a56f12cfa",
+      "titleInfo": [
+        {
+          "title": "Interview Etudiants agents de santé 1"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_HDMC2019",
+        "name": "Health discourses as moral communication? Linguistic case studies from Côte d'Ivoire and Cameroon"
+      },
+      "dre_id": "acf-99-0020"
+    },
+    {
+      "_id": "66f6afc2af0f314a56f12cfb",
+      "titleInfo": [
+        {
+          "title": "Interview  Personnel hôpital de district 1"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_HDMC2019",
+        "name": "Health discourses as moral communication? Linguistic case studies from Côte d'Ivoire and Cameroon"
+      },
+      "dre_id": "acf-99-0021"
+    },
+    {
+      "_id": "66f6afc2af0f314a56f12cfc",
+      "titleInfo": [
+        {
+          "title": "Interview Etudiants VPCT"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_HDMC2019",
+        "name": "Health discourses as moral communication? Linguistic case studies from Côte d'Ivoire and Cameroon"
+      },
+      "dre_id": "acf-99-0022"
+    },
+    {
+      "_id": "66f6afc2af0f314a56f12cfd",
+      "titleInfo": [
+        {
+          "title": "Interview Joliviane"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_HDMC2019",
+        "name": "Health discourses as moral communication? Linguistic case studies from Côte d'Ivoire and Cameroon"
+      },
+      "dre_id": "acf-99-0023"
+    },
+    {
+      "_id": "66f6afc2af0f314a56f12cfe",
+      "titleInfo": [
+        {
+          "title": "Interview Etudiants agents de santé 2"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_HDMC2019",
+        "name": "Health discourses as moral communication? Linguistic case studies from Côte d'Ivoire and Cameroon"
+      },
+      "dre_id": "acf-99-0024"
+    },
+    {
+      "_id": "66f6afc2af0f314a56f12cff",
+      "titleInfo": [
+        {
+          "title": "Interview Etudiants mixtes 1"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_HDMC2019",
+        "name": "Health discourses as moral communication? Linguistic case studies from Côte d'Ivoire and Cameroon"
+      },
+      "dre_id": "acf-99-0025"
+    },
+    {
+      "_id": "66f6afc2af0f314a56f12d00",
+      "titleInfo": [
+        {
+          "title": "Interview Etudiants biologie medicale 1"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_HDMC2019",
+        "name": "Health discourses as moral communication? Linguistic case studies from Côte d'Ivoire and Cameroon"
+      },
+      "dre_id": "acf-99-0026"
+    },
+    {
+      "_id": "66f6afc2af0f314a56f12d01",
+      "titleInfo": [
+        {
+          "title": "Interview Moniteurs udm"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_HDMC2019",
+        "name": "Health discourses as moral communication? Linguistic case studies from Côte d'Ivoire and Cameroon"
+      },
+      "dre_id": "acf-99-0027"
+    },
+    {
+      "_id": "66f6afc2af0f314a56f12d02",
+      "titleInfo": [
+        {
+          "title": "Interview Transporteurs 1"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_HDMC2019",
+        "name": "Health discourses as moral communication? Linguistic case studies from Côte d'Ivoire and Cameroon"
+      },
+      "dre_id": "acf-99-0028"
+    },
+    {
+      "_id": "66f6afc2af0f314a56f12d03",
+      "titleInfo": [
+        {
+          "title": "Interview Etudiants ISTEC"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_HDMC2019",
+        "name": "Health discourses as moral communication? Linguistic case studies from Côte d'Ivoire and Cameroon"
+      },
+      "dre_id": "acf-99-0029"
+    },
+    {
+      "_id": "66f6afc2af0f314a56f12d04",
+      "titleInfo": [
+        {
+          "title": "Interview Etudiants biologie medicale 2"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_HDMC2019",
+        "name": "Health discourses as moral communication? Linguistic case studies from Côte d'Ivoire and Cameroon"
+      },
+      "dre_id": "acf-99-002a"
+    },
+    {
+      "_id": "66f6afc2af0f314a56f12d05",
+      "titleInfo": [
+        {
+          "title": "Interview Groupe anglo; Déplacés du NOSO"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_HDMC2019",
+        "name": "Health discourses as moral communication? Linguistic case studies from Côte d'Ivoire and Cameroon"
+      },
+      "dre_id": "acf-99-002b"
+    },
+    {
+      "_id": "66f6afc2af0f314a56f12d06",
+      "titleInfo": [
+        {
+          "title": "Interview Moto taximen"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_HDMC2019",
+        "name": "Health discourses as moral communication? Linguistic case studies from Côte d'Ivoire and Cameroon"
+      },
+      "dre_id": "acf-99-002c"
+    },
+    {
+      "_id": "66f6afc2af0f314a56f12d07",
+      "titleInfo": [
+        {
+          "title": "Interview  Personnel hôpital de district 2"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_HDMC2019",
+        "name": "Health discourses as moral communication? Linguistic case studies from Côte d'Ivoire and Cameroon"
+      },
+      "dre_id": "acf-99-002d"
+    },
+    {
+      "_id": "66f6afc2af0f314a56f12d08",
+      "titleInfo": [
+        {
+          "title": "Interview Merlin"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_HDMC2019",
+        "name": "Health discourses as moral communication? Linguistic case studies from Côte d'Ivoire and Cameroon"
+      },
+      "dre_id": "acf-99-002e"
+    },
+    {
+      "_id": "66f6afc2af0f314a56f12d09",
+      "titleInfo": [
+        {
+          "title": "Interview Ménagères"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_HDMC2019",
+        "name": "Health discourses as moral communication? Linguistic case studies from Côte d'Ivoire and Cameroon"
+      },
+      "dre_id": "acf-99-002f"
+    },
+    {
+      "_id": "66f6afc2af0f314a56f12d0a",
+      "titleInfo": [
+        {
+          "title": "Interview Enseignantes école primaire 1"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_HDMC2019",
+        "name": "Health discourses as moral communication? Linguistic case studies from Côte d'Ivoire and Cameroon"
+      },
+      "dre_id": "acf-99-0030"
+    },
+    {
+      "_id": "66f6afc2af0f314a56f12d0b",
+      "titleInfo": [
+        {
+          "title": "Interview Commerçant 3"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_HDMC2019",
+        "name": "Health discourses as moral communication? Linguistic case studies from Côte d'Ivoire and Cameroon"
+      },
+      "dre_id": "acf-99-0031"
+    },
+    {
+      "_id": "66f6afc2af0f314a56f12d0c",
+      "titleInfo": [
+        {
+          "title": "Interview Commerçant 4"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_HDMC2019",
+        "name": "Health discourses as moral communication? Linguistic case studies from Côte d'Ivoire and Cameroon"
+      },
+      "dre_id": "acf-99-0032"
+    },
+    {
+      "_id": "66f6afc2af0f314a56f12d0d",
+      "titleInfo": [
+        {
+          "title": "Interview Douala mix 1"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_HDMC2019",
+        "name": "Health discourses as moral communication? Linguistic case studies from Côte d'Ivoire and Cameroon"
+      },
+      "dre_id": "acf-99-0033"
+    },
+    {
+      "_id": "66f6afc2af0f314a56f12d0e",
+      "titleInfo": [
+        {
+          "title": "Interview Douala mix 2"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_HDMC2019",
+        "name": "Health discourses as moral communication? Linguistic case studies from Côte d'Ivoire and Cameroon"
+      },
+      "dre_id": "acf-99-0034"
+    },
+    {
+      "_id": "66f6afc2af0f314a56f12d0f",
+      "titleInfo": [
+        {
+          "title": "Interview Entretien-pilote"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_HDMC2019",
+        "name": "Health discourses as moral communication? Linguistic case studies from Côte d'Ivoire and Cameroon"
+      },
+      "dre_id": "acf-99-0035"
+    },
+    {
+      "_id": "66f6afc2af0f314a56f12d10",
+      "titleInfo": [
+        {
+          "title": "Interview Commerçants 5"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_HDMC2019",
+        "name": "Health discourses as moral communication? Linguistic case studies from Côte d'Ivoire and Cameroon"
+      },
+      "dre_id": "acf-99-0036"
+    },
+    {
+      "_id": "66f6afc2af0f314a56f12d11",
+      "titleInfo": [
+        {
+          "title": "Interview Enseignantes-ecole-primaire 2"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_HDMC2019",
+        "name": "Health discourses as moral communication? Linguistic case studies from Côte d'Ivoire and Cameroon"
+      },
+      "dre_id": "acf-99-0037"
+    },
+    {
+      "_id": "66f6afc2af0f314a56f12d12",
+      "titleInfo": [
+        {
+          "title": "Interview Personnel hôpital de district 3"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_HDMC2019",
+        "name": "Health discourses as moral communication? Linguistic case studies from Côte d'Ivoire and Cameroon"
+      },
+      "dre_id": "acf-99-0038"
+    },
+    {
+      "_id": "66f6afc2af0f314a56f12d13",
+      "titleInfo": [
+        {
+          "title": "Interview Personnel hôpital de district 4"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_HDMC2019",
+        "name": "Health discourses as moral communication? Linguistic case studies from Côte d'Ivoire and Cameroon"
+      },
+      "dre_id": "acf-99-0039"
+    },
+    {
+      "_id": "66f6afc2af0f314a56f12d14",
+      "titleInfo": [
+        {
+          "title": "Interview Etudiants mixtes 2"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_HDMC2019",
+        "name": "Health discourses as moral communication? Linguistic case studies from Côte d'Ivoire and Cameroon"
+      },
+      "dre_id": "acf-99-003a"
+    },
+    {
+      "_id": "66f6afc2af0f314a56f12d15",
+      "titleInfo": [
+        {
+          "title": "Interview Commerçants 6"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_HDMC2019",
+        "name": "Health discourses as moral communication? Linguistic case studies from Côte d'Ivoire and Cameroon"
+      },
+      "dre_id": "acf-99-003b"
+    },
+    {
+      "_id": "66f6afc2af0f314a56f12d16",
+      "titleInfo": [
+        {
+          "title": "Interview Transporteurs 2"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_HDMC2019",
+        "name": "Health discourses as moral communication? Linguistic case studies from Côte d'Ivoire and Cameroon"
+      },
+      "dre_id": "acf-99-003c"
+    },
+    {
+      "_id": "66f6afc2af0f314a56f12d17",
+      "titleInfo": [
+        {
+          "title": "Interview Coiffeuses 2"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_HDMC2019",
+        "name": "Health discourses as moral communication? Linguistic case studies from Côte d'Ivoire and Cameroon"
+      },
+      "dre_id": "acf-99-003d"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf373b",
+      "titleInfo": [
+        {
+          "title": "Grünau"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-0010"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf375b",
+      "titleInfo": [
+        {
+          "title": "Interview ES"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-0030"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6aff",
+      "titleInfo": [
+        {
+          "title": "A perspective on secondary effects of the spread of COVID-19 in emerging economies"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-000e"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b00",
+      "titleInfo": [
+        {
+          "title": "Every (immune) person counts, especially in developing countries"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-000f"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d869f",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-0000"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86a0",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Interview in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-0001"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86a1",
+      "titleInfo": [
+        {
+          "title": "Article on the Vulnerable also Fight COVID-19: Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-0002"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86a2",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Image 1, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-0003"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86a3",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Image 2, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-0004"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86a4",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Image 3, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-0005"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86a5",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Image 4, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-0006"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86a6",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Image 5, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-0007"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86a7",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Image 6, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-0008"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86a8",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Image 7, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-0009"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86a9",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Image 8, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-000a"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86aa",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Image 9, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-000b"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86ab",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Image 10, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-000c"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86ac",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Video 1, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-000d"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86ad",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Video 2, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-000e"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86ae",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Video 3, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-000f"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86af",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Video 4, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-0010"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86b0",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Video 5, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-0011"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86b1",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Video 6, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-0012"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86b2",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Video 7, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-0013"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86b3",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Video 8, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-0014"
+    }
+  ]
+}

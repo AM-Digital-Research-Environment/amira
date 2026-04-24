@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "rhodesian-academy-of-music",
+    "name": "Rhodesian Academy of Music",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1959,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1959,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Acculturation",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Acculturation",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Zimbabwe",
+      "value": 1
+    },
+    {
+      "name": "Malawi",
+      "value": 1
+    },
+    {
+      "name": "Rhodesia",
+      "value": 1
+    },
+    {
+      "name": "Musical Culture",
+      "value": 1
+    },
+    {
+      "name": "Nyasaland",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Sibson, A. R.",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ea7a",
+      "titleInfo": [
+        {
+          "title": "African and European musical culture in the Federation of Rhodesia and Nyasaland"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0095"
+    }
+  ]
+}

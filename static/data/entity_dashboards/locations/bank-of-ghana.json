@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "bank-of-ghana",
+    "name": "Bank of Ghana",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 2023,
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2023,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2024,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "West Africa",
+      "value": 3
+    },
+    {
+      "name": "Investment banking",
+      "value": 1
+    },
+    {
+      "name": "Securities",
+      "value": 1
+    },
+    {
+      "name": "Interest rates",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "West Africa",
+      "value": 3
+    },
+    {
+      "name": "Ghana",
+      "value": 3
+    },
+    {
+      "name": "Investment banking",
+      "value": 1
+    },
+    {
+      "name": "Securities",
+      "value": 1
+    },
+    {
+      "name": "Bank Investement",
+      "value": 1
+    },
+    {
+      "name": "Commercial Bank",
+      "value": 1
+    },
+    {
+      "name": "Lending Rates",
+      "value": 1
+    },
+    {
+      "name": "Interest rates",
+      "value": 1
+    },
+    {
+      "name": "Central Bank",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Akolgo, Isaac Abotebuno",
+      "value": 3
+    }
+  ]
+}

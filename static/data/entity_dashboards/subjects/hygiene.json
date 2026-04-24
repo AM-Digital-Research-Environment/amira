@@ -1,0 +1,296 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "hygiene",
+    "name": "Hygiene",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 2021,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    },
+    {
+      "name": "Swahili",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Social distancing (Public health)",
+      "value": 2
+    },
+    {
+      "name": "Arid regions",
+      "value": 1
+    },
+    {
+      "name": "Herders",
+      "value": 1
+    },
+    {
+      "name": "Vaccination",
+      "value": 1
+    },
+    {
+      "name": "Livestock",
+      "value": 1
+    },
+    {
+      "name": "Education",
+      "value": 1
+    },
+    {
+      "name": "Schools",
+      "value": 1
+    },
+    {
+      "name": "Religion",
+      "value": 1
+    },
+    {
+      "name": "Mass media",
+      "value": 1
+    },
+    {
+      "name": "Food security",
+      "value": 1
+    },
+    {
+      "name": "Water",
+      "value": 1
+    },
+    {
+      "name": "Ecology",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 3
+    },
+    {
+      "name": "Social distancing (Public health)",
+      "value": 2
+    },
+    {
+      "name": "Arid regions",
+      "value": 1
+    },
+    {
+      "name": "Herders",
+      "value": 1
+    },
+    {
+      "name": "Vaccination",
+      "value": 1
+    },
+    {
+      "name": "Livestock",
+      "value": 1
+    },
+    {
+      "name": "Education",
+      "value": 1
+    },
+    {
+      "name": "Schools",
+      "value": 1
+    },
+    {
+      "name": "Religion",
+      "value": 1
+    },
+    {
+      "name": "Lockdown",
+      "value": 1
+    },
+    {
+      "name": "Border",
+      "value": 1
+    },
+    {
+      "name": "Trade Practices",
+      "value": 1
+    },
+    {
+      "name": "Trade Regulations",
+      "value": 1
+    },
+    {
+      "name": "Energy Shortages",
+      "value": 1
+    },
+    {
+      "name": "Mongolia",
+      "value": 1
+    },
+    {
+      "name": "Mass media",
+      "value": 1
+    },
+    {
+      "name": "Food security",
+      "value": 1
+    },
+    {
+      "name": "Water",
+      "value": 1
+    },
+    {
+      "name": "Ecology",
+      "value": 1
+    },
+    {
+      "name": "Household Income",
+      "value": 1
+    },
+    {
+      "name": "Local Understanding",
+      "value": 1
+    },
+    {
+      "name": "Tanzania",
+      "value": 1
+    },
+    {
+      "name": "Environment",
+      "value": 1
+    },
+    {
+      "name": "COVID-19",
+      "value": 1
+    },
+    {
+      "name": "Cash",
+      "value": 1
+    },
+    {
+      "name": "Sociality",
+      "value": 1
+    },
+    {
+      "name": "Ghana",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Batjav, Batbuyan",
+      "value": 1
+    },
+    {
+      "name": "Amarbat, Byambasuren",
+      "value": 1
+    },
+    {
+      "name": "Baasankhorloo, Ts",
+      "value": 1
+    },
+    {
+      "name": "Haller, Tobias",
+      "value": 1
+    },
+    {
+      "name": "Nurudong, Primus",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Mongolia",
+      "region": "Bayankhongor Province",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "Tanzania",
+      "region": "Iringa",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "Ghana",
+      "region": "Upper West Region",
+      "city": "Nandom",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "66cefaf495a000d4c7bf371f",
+      "titleInfo": [
+        {
+          "title": "Mongolia's report, December 12, 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-001a"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3726",
+      "titleInfo": [
+        {
+          "title": "Anonymus questionary of Tanzania's Covid-19 situation, September 2020"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0021"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3727",
+      "titleInfo": [
+        {
+          "title": "Primus Nurudong's report on Ghana"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0022"
+    }
+  ]
+}

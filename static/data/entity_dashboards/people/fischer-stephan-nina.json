@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "fischer-stephan-nina",
+    "name": "Fischer-Stephan, Nina",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 1964,
+      "count": 4
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1964,
+      "total": 4,
+      "byType": {
+        "Text": 4
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 4
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "value": 4
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "Nigeria",
+      "value": 4
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Stephan, Klaus",
+      "value": 4
+    }
+  ],
+  "locations": [
+    {
+      "country": "Nigeria",
+      "region": "",
+      "city": "",
+      "count": 2
+    },
+    {
+      "country": "Germany",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "6705340c4b98fee5873b4410",
+      "titleInfo": [
+        {
+          "title": "Voice-Over Script, Nina Act 1-7"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-0003"
+    },
+    {
+      "_id": "6705340c4b98fee5873b4411",
+      "titleInfo": [
+        {
+          "title": "Taiwo Shango oder der zweite Tag nach dem Tode Synchronfassung"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-0004"
+    },
+    {
+      "_id": "6705340c4b98fee5873b444b",
+      "titleInfo": [
+        {
+          "title": "Voice-Over Script, Nina Act 1-7"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-003e"
+    },
+    {
+      "_id": "6705340c4b98fee5873b444c",
+      "titleInfo": [
+        {
+          "title": "Taiwo Shango oder der zweite Tag nach dem Tode Synchronfassung"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-003f"
+    }
+  ]
+}

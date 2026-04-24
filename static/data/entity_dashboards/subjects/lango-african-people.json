@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "lango-african-people",
+    "name": "Lango (African people)",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2015,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2015,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Tales",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Tales",
+      "value": 2
+    },
+    {
+      "name": "African Folktales",
+      "value": 2
+    },
+    {
+      "name": "Folktales",
+      "value": 2
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Radin, Paul",
+      "value": 2
+    },
+    {
+      "name": "Princeton University Press",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "United States of America",
+      "region": "New Jersey",
+      "city": "Princeton",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a8ab2c85fe8df87167",
+      "titleInfo": [
+        {
+          "title": "The Enchanted Guinea-Fowl"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0070"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8716f",
+      "titleInfo": [
+        {
+          "title": "The Cherry-Pickers"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0078"
+    }
+  ]
+}

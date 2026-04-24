@@ -1,0 +1,199 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "multilingualism",
+    "name": "Multilingualism",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 2006,
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2006,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2024,
+      "total": 2,
+      "byType": {
+        "Dataset": 1,
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    },
+    {
+      "name": "Dataset",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Attitudes",
+      "value": 2
+    },
+    {
+      "name": "Education",
+      "value": 2
+    },
+    {
+      "name": "Translanguaging (Linguistics)",
+      "value": 2
+    },
+    {
+      "name": "Perception",
+      "value": 2
+    },
+    {
+      "name": "South Africa",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Attitudes",
+      "value": 2
+    },
+    {
+      "name": "Education",
+      "value": 2
+    },
+    {
+      "name": "Translanguaging (Linguistics)",
+      "value": 2
+    },
+    {
+      "name": "Perception",
+      "value": 2
+    },
+    {
+      "name": "Formal Learning",
+      "value": 2
+    },
+    {
+      "name": "Informal Interaction",
+      "value": 2
+    },
+    {
+      "name": "Pedagogy",
+      "value": 2
+    },
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Shakespeare",
+      "value": 1
+    },
+    {
+      "name": "The Tempest",
+      "value": 1
+    },
+    {
+      "name": "Monolingualism",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Otundo, Khalayi Billian",
+      "value": 2
+    },
+    {
+      "name": "Orero, Sheila",
+      "value": 2
+    },
+    {
+      "name": "Mühleisen, Susanne",
+      "value": 2
+    },
+    {
+      "name": "van Niekerk, Marinus",
+      "value": 1
+    },
+    {
+      "name": "Routledge",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Kenya",
+      "region": "Nandi",
+      "city": "",
+      "count": 2
+    },
+    {
+      "country": "United Kingdom",
+      "region": "England",
+      "city": "London",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "67a3500526e222e7e827a3d2",
+      "titleInfo": [
+        {
+          "title": "SPSS Results"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MultiALS2021",
+        "name": "Multilingual African Learning Spaces: Translanguaging Practices in the Kenyan Classroom"
+      },
+      "dre_id": "abr-01-0000"
+    },
+    {
+      "_id": "67a3500526e222e7e827a3d3",
+      "titleInfo": [
+        {
+          "title": "Survey"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MultiALS2021",
+        "name": "Multilingual African Learning Spaces: Translanguaging Practices in the Kenyan Classroom"
+      },
+      "dre_id": "abr-01-0001"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87124",
+      "titleInfo": [
+        {
+          "title": "The Tempest in South Africa: Multilingualism and our profit on't"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-002d"
+    }
+  ]
+}

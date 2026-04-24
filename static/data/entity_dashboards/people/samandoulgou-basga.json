@@ -1,0 +1,239 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "samandoulgou-basga",
+    "name": "Samandoulgou, Basga",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 2021,
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2021,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 2022,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Administration of Justice",
+      "value": 3
+    },
+    {
+      "name": "Teenagers",
+      "value": 3
+    },
+    {
+      "name": "Youth",
+      "value": 3
+    },
+    {
+      "name": "Punishment",
+      "value": 3
+    },
+    {
+      "name": "Maintenance",
+      "value": 1
+    },
+    {
+      "name": "Prisons",
+      "value": 1
+    },
+    {
+      "name": "Correctional institutions",
+      "value": 1
+    },
+    {
+      "name": "Social groups",
+      "value": 1
+    },
+    {
+      "name": "Juvenile delinquency",
+      "value": 1
+    },
+    {
+      "name": "Juvenile detention",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Administration of Justice",
+      "value": 3
+    },
+    {
+      "name": "Teenagers",
+      "value": 3
+    },
+    {
+      "name": "Youth",
+      "value": 3
+    },
+    {
+      "name": "Punishment",
+      "value": 3
+    },
+    {
+      "name": "Maintenance",
+      "value": 1
+    },
+    {
+      "name": "Prisons",
+      "value": 1
+    },
+    {
+      "name": "Manga",
+      "value": 1
+    },
+    {
+      "name": "Correctional institutions",
+      "value": 1
+    },
+    {
+      "name": "Social groups",
+      "value": 1
+    },
+    {
+      "name": "Juvenile delinquency",
+      "value": 1
+    },
+    {
+      "name": "Juvenile detention",
+      "value": 1
+    },
+    {
+      "name": "Deprivation of Liberty",
+      "value": 1
+    },
+    {
+      "name": "Preliminary Investigation",
+      "value": 1
+    },
+    {
+      "name": "Investigation Phase",
+      "value": 1
+    },
+    {
+      "name": "Enforcement of Decisions",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Tapsoba, Tatiana Nadine",
+      "value": 2
+    },
+    {
+      "name": "Nana, Jean-Baptiste",
+      "value": 1
+    },
+    {
+      "name": "Compaoré, Ernest",
+      "value": 1
+    },
+    {
+      "name": "Sawadogo, Hamidou",
+      "value": 1
+    },
+    {
+      "name": "Bourgou, Y. Gilbert",
+      "value": 1
+    },
+    {
+      "name": "Bouda, Bassirou",
+      "value": 1
+    },
+    {
+      "name": "Dipama, Emmanuel",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Burkina Faso",
+      "region": "",
+      "city": "",
+      "count": 2
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "Centre",
+      "city": "Ouagadougou",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "69c1568d666e5b9f92cf9f59",
+      "titleInfo": [
+        {
+          "title": "Synthèse d’entretien avec Monsieur Samandoulgou Basga"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0001"
+    },
+    {
+      "_id": "69c1568d666e5b9f92cf9f62",
+      "titleInfo": [
+        {
+          "title": "Synthèse Générale des entretiens réalisés à Manga"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-000a"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f7a",
+      "titleInfo": [
+        {
+          "title": "Communication"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0022"
+    }
+  ]
+}

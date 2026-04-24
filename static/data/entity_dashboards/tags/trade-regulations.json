@@ -1,0 +1,291 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "trade-regulations",
+    "name": "Trade Regulations",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2021,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2022,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    },
+    {
+      "name": "French",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Education",
+      "value": 4
+    },
+    {
+      "name": "Livestock",
+      "value": 3
+    },
+    {
+      "name": "Religion",
+      "value": 3
+    },
+    {
+      "name": "Mass media",
+      "value": 2
+    },
+    {
+      "name": "Travel",
+      "value": 2
+    },
+    {
+      "name": "Prices",
+      "value": 2
+    },
+    {
+      "name": "Medical care",
+      "value": 2
+    },
+    {
+      "name": "Arid regions",
+      "value": 1
+    },
+    {
+      "name": "Herders",
+      "value": 1
+    },
+    {
+      "name": "Vaccination",
+      "value": 1
+    },
+    {
+      "name": "Schools",
+      "value": 1
+    },
+    {
+      "name": "Hygiene",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Education",
+      "value": 4
+    },
+    {
+      "name": "Livestock",
+      "value": 3
+    },
+    {
+      "name": "Religion",
+      "value": 3
+    },
+    {
+      "name": "Trade Practices",
+      "value": 3
+    },
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 3
+    },
+    {
+      "name": "Lockdown",
+      "value": 2
+    },
+    {
+      "name": "Mass media",
+      "value": 2
+    },
+    {
+      "name": "Travel",
+      "value": 2
+    },
+    {
+      "name": "Prices",
+      "value": 2
+    },
+    {
+      "name": "Medical care",
+      "value": 2
+    },
+    {
+      "name": "Household Income",
+      "value": 2
+    },
+    {
+      "name": "Water Rights",
+      "value": 2
+    },
+    {
+      "name": "Access to Water",
+      "value": 2
+    },
+    {
+      "name": "Sociality",
+      "value": 2
+    },
+    {
+      "name": "Senegal",
+      "value": 2
+    },
+    {
+      "name": "Mobility",
+      "value": 2
+    },
+    {
+      "name": "Arid regions",
+      "value": 1
+    },
+    {
+      "name": "Herders",
+      "value": 1
+    },
+    {
+      "name": "Vaccination",
+      "value": 1
+    },
+    {
+      "name": "Schools",
+      "value": 1
+    },
+    {
+      "name": "Hygiene",
+      "value": 1
+    },
+    {
+      "name": "Border",
+      "value": 1
+    },
+    {
+      "name": "Energy Shortages",
+      "value": 1
+    },
+    {
+      "name": "Mongolia",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Beye, Amadou Kane",
+      "value": 2
+    },
+    {
+      "name": "Batjav, Batbuyan",
+      "value": 1
+    },
+    {
+      "name": "Amarbat, Byambasuren",
+      "value": 1
+    },
+    {
+      "name": "Baasankhorloo, Ts",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Mongolia",
+      "region": "Bayankhongor Province",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "Senegal",
+      "region": "Thiès Region",
+      "city": "Ndengler (Dingler)",
+      "count": 1
+    },
+    {
+      "country": "Senegal",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "66cefaf495a000d4c7bf371f",
+      "titleInfo": [
+        {
+          "title": "Mongolia's report, December 12, 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-001a"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3725",
+      "titleInfo": [
+        {
+          "title": "Réponses aux questions de recherche pour les chercheurs collaboratifs au Senegal"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0020"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3729",
+      "titleInfo": [
+        {
+          "title": "Réponses aux questions de recherche pour les chercheurs collaboratifs\nPartie II : Mesure de confinement"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0024"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "kallenberghaus",
+    "name": "Kallenberghaus",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1936,
+      "count": 1
+    },
+    {
+      "year": 2008,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1936,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 2008,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    },
+    {
+      "name": "Image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Racism",
+      "value": 2
+    },
+    {
+      "name": "History",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Racism",
+      "value": 2
+    },
+    {
+      "name": "History",
+      "value": 2
+    },
+    {
+      "name": "Local History",
+      "value": 2
+    },
+    {
+      "name": "Memory Culture",
+      "value": 2
+    },
+    {
+      "name": "Bayreuth",
+      "value": 2
+    },
+    {
+      "name": "Daily Racism",
+      "value": 1
+    },
+    {
+      "name": "Local Press",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Redaktion",
+      "value": 1
+    },
+    {
+      "name": "Pickel, Christian",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "692db49707481a28c72155c0",
+      "titleInfo": [
+        {
+          "title": "Protest gegen den Abbruch des Kallenberghauses"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0018"
+    },
+    {
+      "_id": "692db49707481a28c72155cc",
+      "titleInfo": [
+        {
+          "title": "Friedrich Kallenberg, der Urenkel Jean Pauls"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0024"
+    }
+  ]
+}

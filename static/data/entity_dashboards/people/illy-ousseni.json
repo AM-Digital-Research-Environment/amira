@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "illy-ousseni",
+    "name": "Illy, Ousseni",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2023,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2023,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "World health",
+      "value": 2
+    },
+    {
+      "name": "West Africa",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "World health",
+      "value": 2
+    },
+    {
+      "name": "West Africa",
+      "value": 2
+    },
+    {
+      "name": "Burkina Faso",
+      "value": 2
+    },
+    {
+      "name": "Global Health Policy",
+      "value": 2
+    },
+    {
+      "name": "Legal Framework",
+      "value": 1
+    },
+    {
+      "name": "Health Policy",
+      "value": 1
+    },
+    {
+      "name": "Legislation",
+      "value": 1
+    },
+    {
+      "name": "Foundation",
+      "value": 1
+    },
+    {
+      "name": "Common Market for Eastern and Southern Africa",
+      "value": 1
+    },
+    {
+      "name": "Regional Organisation",
+      "value": 1
+    },
+    {
+      "name": "Global Health",
+      "value": 1
+    },
+    {
+      "name": "Harmonisation",
+      "value": 1
+    },
+    {
+      "name": "ECOWAS",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Banhoro, Yacouba",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "Burkina Faso",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "6718efd3c327cde4b57d867e",
+      "titleInfo": [
+        {
+          "title": "Draft sur le cadre juridique des politiques sanitaires au Burkina Faso"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-000d"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8680",
+      "titleInfo": [
+        {
+          "title": "Draft sur la cedeao et la santé globale"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-000f"
+    }
+  ]
+}

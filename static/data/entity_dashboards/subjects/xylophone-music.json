@@ -1,0 +1,504 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "xylophone-music",
+    "name": "Xylophone music",
+    "count": 12
+  },
+  "timeline": [
+    {
+      "year": 1955,
+      "count": 1
+    },
+    {
+      "year": 1960,
+      "count": 2
+    },
+    {
+      "year": 1962,
+      "count": 2
+    },
+    {
+      "year": 1963,
+      "count": 2
+    },
+    {
+      "year": 1965,
+      "count": 2
+    },
+    {
+      "year": 1970,
+      "count": 1
+    },
+    {
+      "year": 1972,
+      "count": 1
+    },
+    {
+      "year": 1999,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1955,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1960,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1962,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1963,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1965,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1970,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1972,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1999,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 12
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 12
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Xylophone",
+      "value": 12
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 11
+    },
+    {
+      "name": "Musical instruments",
+      "value": 11
+    },
+    {
+      "name": "Music",
+      "value": 6
+    },
+    {
+      "name": "Africa",
+      "value": 4
+    },
+    {
+      "name": "Ganda (African people)",
+      "value": 3
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    },
+    {
+      "name": "Syncopation",
+      "value": 1
+    },
+    {
+      "name": "Polyrhythm",
+      "value": 1
+    },
+    {
+      "name": "Drum",
+      "value": 1
+    },
+    {
+      "name": "Drum music",
+      "value": 1
+    },
+    {
+      "name": "Criticism",
+      "value": 1
+    },
+    {
+      "name": "Chopi (African people)",
+      "value": 1
+    },
+    {
+      "name": "Adangme (African people)",
+      "value": 1
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Nande (Congolese (Democratic Republic) and Ugandan people)",
+      "value": 1
+    },
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Flute music",
+      "value": 1
+    },
+    {
+      "name": "Venda (African people)",
+      "value": 1
+    },
+    {
+      "name": "Flute",
+      "value": 1
+    },
+    {
+      "name": "Elephantiasis",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Xylophone",
+      "value": 12
+    },
+    {
+      "name": "African Music",
+      "value": 12
+    },
+    {
+      "name": "Xylophone (Instrument)",
+      "value": 12
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 11
+    },
+    {
+      "name": "Musical instruments",
+      "value": 11
+    },
+    {
+      "name": "Music",
+      "value": 6
+    },
+    {
+      "name": "Africa",
+      "value": 4
+    },
+    {
+      "name": "Uganda",
+      "value": 4
+    },
+    {
+      "name": "Ganda (African people)",
+      "value": 3
+    },
+    {
+      "name": "Mozambique",
+      "value": 2
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    },
+    {
+      "name": "Syncopation",
+      "value": 1
+    },
+    {
+      "name": "Polyrhythm",
+      "value": 1
+    },
+    {
+      "name": "Drum",
+      "value": 1
+    },
+    {
+      "name": "Drum music",
+      "value": 1
+    },
+    {
+      "name": "Criticism",
+      "value": 1
+    },
+    {
+      "name": "Methods",
+      "value": 1
+    },
+    {
+      "name": "Interpretation",
+      "value": 1
+    },
+    {
+      "name": "Drum (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Musical Meter",
+      "value": 1
+    },
+    {
+      "name": "Musical Rhythm",
+      "value": 1
+    },
+    {
+      "name": "Chopi (African people)",
+      "value": 1
+    },
+    {
+      "name": "Adangme (African people)",
+      "value": 1
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Yoruba Art",
+      "value": 1
+    },
+    {
+      "name": "Indonesia",
+      "value": 1
+    },
+    {
+      "name": "Nande (Congolese (Democratic Republic) and Ugandan people)",
+      "value": 1
+    },
+    {
+      "name": "Bukonjo",
+      "value": 1
+    },
+    {
+      "name": "Konjo",
+      "value": 1
+    },
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Flute music",
+      "value": 1
+    },
+    {
+      "name": "Venda (African people)",
+      "value": 1
+    },
+    {
+      "name": "Flute",
+      "value": 1
+    },
+    {
+      "name": "Flute (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Instrument Construction",
+      "value": 1
+    },
+    {
+      "name": "Elephantiasis",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kubik, Gerhard",
+      "value": 5
+    },
+    {
+      "name": "Jones, A. M.",
+      "value": 4
+    },
+    {
+      "name": "Blacking, John",
+      "value": 1
+    },
+    {
+      "name": "Cooke, Peter",
+      "value": 1
+    },
+    {
+      "name": "Micklem, James",
+      "value": 1
+    },
+    {
+      "name": "Cooke, Andrew",
+      "value": 1
+    },
+    {
+      "name": "Stone, Mark",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 12
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ea10",
+      "titleInfo": [
+        {
+          "title": "Some notes on a theory of African rhythm advanced by Erich von Hornbostel"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-002b"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea92",
+      "titleInfo": [
+        {
+          "title": "Indonesia and Africa: the xylophone as a culture-indicator"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00ad"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea97",
+      "titleInfo": [
+        {
+          "title": "The structure of Kiganda xylophone music"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00b2"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eac6",
+      "titleInfo": [
+        {
+          "title": "The Endara xylophone of Bukonjo"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00e1"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eac7",
+      "titleInfo": [
+        {
+          "title": "Venda note-names"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00e2"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eadb",
+      "titleInfo": [
+        {
+          "title": "Discovery of a Trough Xylophone in Northern Mozambique"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00f6"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eae0",
+      "titleInfo": [
+        {
+          "title": "Experiment with a Xylophone key"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00fb"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb0f",
+      "titleInfo": [
+        {
+          "title": "Towards a text book of Kiganda music"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-012a"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb13",
+      "titleInfo": [
+        {
+          "title": "Transcription of Mangwilo xylophone music from film strips"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-012e"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb88",
+      "titleInfo": [
+        {
+          "title": "Ganda xylophone music: another approach"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01a3"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eba6",
+      "titleInfo": [
+        {
+          "title": "Elephantiasis and music"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01c1"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec86",
+      "titleInfo": [
+        {
+          "title": "Xylophone music of Uganda: theembaire of Nakibembe, Busoga"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02a1"
+    }
+  ]
+}

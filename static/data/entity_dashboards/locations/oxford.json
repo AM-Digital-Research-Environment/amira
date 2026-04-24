@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "oxford",
+    "name": "Oxford",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 1967,
+      "count": 1
+    },
+    {
+      "year": 1987,
+      "count": 1
+    },
+    {
+      "year": 2016,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1967,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1987,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2016,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Maps",
+      "value": 1
+    },
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Books",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Maps",
+      "value": 1
+    },
+    {
+      "name": "Map Key",
+      "value": 1
+    },
+    {
+      "name": "Black People",
+      "value": 1
+    },
+    {
+      "name": "London",
+      "value": 1
+    },
+    {
+      "name": "Elizabeth I",
+      "value": 1
+    },
+    {
+      "name": "Elizabethan Era",
+      "value": 1
+    },
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Shakespeare",
+      "value": 1
+    },
+    {
+      "name": "Books",
+      "value": 1
+    },
+    {
+      "name": "Anglo-African",
+      "value": 1
+    },
+    {
+      "name": "Commonwealth",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Oxford University Press",
+      "value": 2
+    },
+    {
+      "name": "Habib, Imtiaz",
+      "value": 1
+    },
+    {
+      "name": "Brockbank, Philip",
+      "value": 1
+    },
+    {
+      "name": "Mazrui, Ali A.",
+      "value": 1
+    },
+    {
+      "name": "Pergamon Press",
+      "value": 1
+    }
+  ]
+}

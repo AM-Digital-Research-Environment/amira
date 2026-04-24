@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "njungu-agrippa-m",
+    "name": "Njungu, Agrippa M.",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1960,
+      "count": 1
+    },
+    {
+      "year": 1961,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1960,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1961,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "Lozi (African people)",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Rites and ceremonies",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Folk dance music",
+      "value": 1
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Barotseland (Northern Rhodesia)",
+      "value": 2
+    },
+    {
+      "name": "Lozi (African people)",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Rites and ceremonies",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Therapeutic Use",
+      "value": 1
+    },
+    {
+      "name": "Folk dance music",
+      "value": 1
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ea93",
+      "titleInfo": [
+        {
+          "title": "The music of my people: an introduction to music Barotseland"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00ae"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eaab",
+      "titleInfo": [
+        {
+          "title": "Music of my people (II): dances in Barotseland"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00c6"
+    }
+  ]
+}

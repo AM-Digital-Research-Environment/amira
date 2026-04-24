@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "ministry-of-education-liberia",
+    "name": "Ministry of Education, Liberia",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 1988,
+      "count": 1
+    },
+    {
+      "year": 1989,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1988,
+      "total": 1,
+      "byType": {
+        "Moving image": 1
+      }
+    },
+    {
+      "year": 1989,
+      "total": 1,
+      "byType": {
+        "Moving image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Moving image",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Education",
+      "value": 3
+    },
+    {
+      "name": "Schools",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Education",
+      "value": 3
+    },
+    {
+      "name": "Schools",
+      "value": 1
+    },
+    {
+      "name": "Nation Building",
+      "value": 1
+    },
+    {
+      "name": "Adult Education",
+      "value": 1
+    },
+    {
+      "name": "Politics",
+      "value": 1
+    },
+    {
+      "name": "News",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Government of Liberia",
+      "value": 3
+    },
+    {
+      "name": "Gonga, E. Othello",
+      "value": 2
+    },
+    {
+      "name": "Ibrahim, Anwar",
+      "value": 1
+    },
+    {
+      "name": "Jallah, Raymond B.",
+      "value": 1
+    },
+    {
+      "name": "Ministry of Education, Liberia",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Liberia",
+      "region": "Montserrado County",
+      "city": "Monrovia",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "6982337057a8e0353b0b1cbe",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0081"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1da0",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0163"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1dda",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-019d"
+    }
+  ]
+}

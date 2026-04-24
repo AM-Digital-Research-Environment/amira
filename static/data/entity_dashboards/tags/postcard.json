@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "postcard",
+    "name": "Postcard",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2013,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2013,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Archives",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Archives",
+      "value": 1
+    },
+    {
+      "name": "Personal Archives",
+      "value": 1
+    },
+    {
+      "name": "Flyer",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Greven, Katharina",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b493",
+      "titleInfo": [
+        {
+          "title": "Papierabzüge, Flyer, Diapositive und Postkarten in einer Klarsichthülle in einem Archivordne"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-000b"
+    }
+  ]
+}

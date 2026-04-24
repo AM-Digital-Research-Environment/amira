@@ -1,0 +1,828 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "islam",
+    "name": "Islam",
+    "count": 23
+  },
+  "timeline": [
+    {
+      "year": 1984,
+      "count": 1
+    },
+    {
+      "year": 1985,
+      "count": 1
+    },
+    {
+      "year": 1989,
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "count": 4
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1984,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 1985,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 1989,
+      "total": 1,
+      "byType": {
+        "Moving image": 1
+      }
+    },
+    {
+      "year": 2020,
+      "total": 4,
+      "byType": {
+        "Digital": 4
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Moving image",
+      "value": 16
+    },
+    {
+      "name": "Digital",
+      "value": 4
+    },
+    {
+      "name": "Image",
+      "value": 2
+    },
+    {
+      "name": "Audio",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 16
+    },
+    {
+      "name": "Arabic",
+      "value": 9
+    },
+    {
+      "name": "French",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Religion",
+      "value": 16
+    },
+    {
+      "name": "Interviews",
+      "value": 3
+    },
+    {
+      "name": "West Africa",
+      "value": 3
+    },
+    {
+      "name": "Mysticism",
+      "value": 2
+    },
+    {
+      "name": "Photography",
+      "value": 2
+    },
+    {
+      "name": "Anthropology",
+      "value": 2
+    },
+    {
+      "name": "Photographs",
+      "value": 2
+    },
+    {
+      "name": "Prayer",
+      "value": 1
+    },
+    {
+      "name": "Ramadan",
+      "value": 1
+    },
+    {
+      "name": "Christianity",
+      "value": 1
+    },
+    {
+      "name": "Judaism",
+      "value": 1
+    },
+    {
+      "name": "Schools",
+      "value": 1
+    },
+    {
+      "name": "Death",
+      "value": 1
+    },
+    {
+      "name": "Communication",
+      "value": 1
+    },
+    {
+      "name": "Ethics",
+      "value": 1
+    },
+    {
+      "name": "Women",
+      "value": 1
+    },
+    {
+      "name": "Pregnancy",
+      "value": 1
+    },
+    {
+      "name": "Reproductive health",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Teenage pregnancy",
+      "value": 1
+    },
+    {
+      "name": "Abortion",
+      "value": 1
+    },
+    {
+      "name": "Contraception",
+      "value": 1
+    },
+    {
+      "name": "Prevention",
+      "value": 1
+    },
+    {
+      "name": "Applied ethics",
+      "value": 1
+    },
+    {
+      "name": "Race",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Religion",
+      "value": 16
+    },
+    {
+      "name": "Black Representations",
+      "value": 4
+    },
+    {
+      "name": "Interviews",
+      "value": 3
+    },
+    {
+      "name": "West Africa",
+      "value": 3
+    },
+    {
+      "name": "Mysticism",
+      "value": 2
+    },
+    {
+      "name": "Photography",
+      "value": 2
+    },
+    {
+      "name": "Anthropology",
+      "value": 2
+    },
+    {
+      "name": "Photographs",
+      "value": 2
+    },
+    {
+      "name": "Festkleidung",
+      "value": 2
+    },
+    {
+      "name": "Sammlung Gerd Spittler",
+      "value": 2
+    },
+    {
+      "name": "Prayer",
+      "value": 1
+    },
+    {
+      "name": "Ramadan",
+      "value": 1
+    },
+    {
+      "name": "Celebration",
+      "value": 1
+    },
+    {
+      "name": "Christianity",
+      "value": 1
+    },
+    {
+      "name": "Judaism",
+      "value": 1
+    },
+    {
+      "name": "Schools",
+      "value": 1
+    },
+    {
+      "name": "Death",
+      "value": 1
+    },
+    {
+      "name": "Communication",
+      "value": 1
+    },
+    {
+      "name": "Ethics",
+      "value": 1
+    },
+    {
+      "name": "Women",
+      "value": 1
+    },
+    {
+      "name": "Pregnancy",
+      "value": 1
+    },
+    {
+      "name": "Reproductive health",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Teenage pregnancy",
+      "value": 1
+    },
+    {
+      "name": "Abortion",
+      "value": 1
+    },
+    {
+      "name": "Contraception",
+      "value": 1
+    },
+    {
+      "name": "Prevention",
+      "value": 1
+    },
+    {
+      "name": "Applied ethics",
+      "value": 1
+    },
+    {
+      "name": "Birth Control",
+      "value": 1
+    },
+    {
+      "name": "Moral Communication",
+      "value": 1
+    },
+    {
+      "name": "Imam",
+      "value": 1
+    },
+    {
+      "name": "Côte d'Ivoire",
+      "value": 1
+    },
+    {
+      "name": "Ivory Coast",
+      "value": 1
+    },
+    {
+      "name": "Adolescent Pregnancy",
+      "value": 1
+    },
+    {
+      "name": "Morality",
+      "value": 1
+    },
+    {
+      "name": "Race",
+      "value": 1
+    },
+    {
+      "name": "Slavery",
+      "value": 1
+    },
+    {
+      "name": "Sufism",
+      "value": 1
+    },
+    {
+      "name": "Religious Authority",
+      "value": 1
+    },
+    {
+      "name": "Islamic philosophy",
+      "value": 1
+    },
+    {
+      "name": "Origin",
+      "value": 1
+    },
+    {
+      "name": "Tagelmust",
+      "value": 1
+    },
+    {
+      "name": "Maulid an-Nabi",
+      "value": 1
+    },
+    {
+      "name": "Feiertag",
+      "value": 1
+    },
+    {
+      "name": "Fest",
+      "value": 1
+    },
+    {
+      "name": "Prophet",
+      "value": 1
+    },
+    {
+      "name": "Turban",
+      "value": 1
+    },
+    {
+      "name": "Opferfest",
+      "value": 1
+    },
+    {
+      "name": "Religiöses Fest",
+      "value": 1
+    },
+    {
+      "name": "Id al Adha",
+      "value": 1
+    },
+    {
+      "name": "Feast",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Konneh, Kafumba F.",
+      "value": 17
+    },
+    {
+      "name": "Government of Liberia",
+      "value": 16
+    },
+    {
+      "name": "Eastman, John",
+      "value": 6
+    },
+    {
+      "name": "Brent, Julius",
+      "value": 6
+    },
+    {
+      "name": "Gilbert, Thomas",
+      "value": 5
+    },
+    {
+      "name": "McCrumada, Charles",
+      "value": 5
+    },
+    {
+      "name": "Urey, Khrushchev Borbor",
+      "value": 4
+    },
+    {
+      "name": "Wegee, Presley",
+      "value": 4
+    },
+    {
+      "name": "Elhanafy, Taghrid",
+      "value": 4
+    },
+    {
+      "name": "Mensah, Sam",
+      "value": 3
+    },
+    {
+      "name": "Ja'neh, Kabineh M.",
+      "value": 2
+    },
+    {
+      "name": "Taylor, Adolphus",
+      "value": 2
+    },
+    {
+      "name": "Kamara, Abdul Mumini",
+      "value": 2
+    },
+    {
+      "name": "Guadagnano, Laura",
+      "value": 2
+    },
+    {
+      "name": "Collections@UBT",
+      "value": 2
+    },
+    {
+      "name": "Spittler, Gerd",
+      "value": 2
+    },
+    {
+      "name": "Liberia Broadcasting System (LBS)",
+      "value": 1
+    },
+    {
+      "name": "Sirleaf, Varney A.",
+      "value": 1
+    },
+    {
+      "name": "Adam, Maulana Abdul Wahab",
+      "value": 1
+    },
+    {
+      "name": "Johnson, T. Mac",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Liberia",
+      "region": "Montserrado County",
+      "city": "Monrovia",
+      "count": 16
+    },
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 4
+    },
+    {
+      "country": "Niger",
+      "region": "Agadez Region",
+      "city": "Timia",
+      "count": 2
+    },
+    {
+      "country": "Ivory Coast",
+      "region": "Vallée du Bandama Region",
+      "city": "Bouaké",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "6982337057a8e0353b0b1cbd",
+      "titleInfo": [
+        {
+          "title": "Islam and You"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0080"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cc2",
+      "titleInfo": [
+        {
+          "title": "Special Feature"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0085"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cc3",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0086"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cd4",
+      "titleInfo": [
+        {
+          "title": "Islam and You"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0097"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d4c",
+      "titleInfo": [
+        {
+          "title": "Muslims Celebrate Ramadan"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-010f"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d76",
+      "titleInfo": [
+        {
+          "title": "Islam and You"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0139"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1dbe",
+      "titleInfo": [
+        {
+          "title": "Islam and You"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0181"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1dbf",
+      "titleInfo": [
+        {
+          "title": "Islam and You"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0182"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1ddf",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-01a2"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1de1",
+      "titleInfo": [
+        {
+          "title": "Islam and You"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-01a4"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1de2",
+      "titleInfo": [
+        {
+          "title": "Islam and You"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-01a5"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1de3",
+      "titleInfo": [
+        {
+          "title": "Islam and You"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-01a6"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1de5",
+      "titleInfo": [
+        {
+          "title": "Islam and You"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-01a8"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1de6",
+      "titleInfo": [
+        {
+          "title": "Islam and You"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-01a9"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1de7",
+      "titleInfo": [
+        {
+          "title": "Islam and You"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-01aa"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1dea",
+      "titleInfo": [
+        {
+          "title": "Islam and You"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-01ad"
+    },
+    {
+      "_id": "66f6afc2af0f314a56f12d59",
+      "titleInfo": [
+        {
+          "title": "REL01: Online interview with an imam priest about sex educationa and school pregnancies"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_HDMC2019",
+        "name": "Health Discourses as Moral Communication? Linguistic Case Studies from Côte d‘Ivoire and Cameroon"
+      },
+      "dre_id": "acf-99-007f"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87101",
+      "titleInfo": [
+        {
+          "title": "Part I: The Spread of Islam in West Africa"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-000a"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87102",
+      "titleInfo": [
+        {
+          "title": "Part II: Race, Slavery and Black Representations in Islam"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-000b"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87103",
+      "titleInfo": [
+        {
+          "title": "Part III: Sufism in West Africa and the Paradox of Mysticism as a Tool for Attaining Power"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-000c"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87104",
+      "titleInfo": [
+        {
+          "title": "Part IV: The Early Seeds of Mystic Islamic Thought in West Africa"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-000d"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95c4",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-003b"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95d8",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-004f"
+    }
+  ]
+}

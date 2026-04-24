@@ -1,0 +1,308 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "ouma-stefan",
+    "name": "Ouma, Stefan",
+    "count": 5
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 2022,
+      "total": 2,
+      "byType": {
+        "Text": 1,
+        "Dataset": 1
+      }
+    },
+    {
+      "year": 2023,
+      "total": 2,
+      "byType": {
+        "Text": 1,
+        "Dataset": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    },
+    {
+      "name": "Dataset",
+      "value": 2
+    },
+    {
+      "name": "Image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Economic geography",
+      "value": 4
+    },
+    {
+      "name": "Social justice",
+      "value": 4
+    },
+    {
+      "name": "Venture capital",
+      "value": 4
+    },
+    {
+      "name": "Regional disparities",
+      "value": 4
+    },
+    {
+      "name": "Gender",
+      "value": 4
+    },
+    {
+      "name": "Race",
+      "value": 4
+    },
+    {
+      "name": "Intersectionality (Sociology)",
+      "value": 4
+    },
+    {
+      "name": "Interviews",
+      "value": 4
+    },
+    {
+      "name": "Racism",
+      "value": 1
+    },
+    {
+      "name": "Culture",
+      "value": 1
+    },
+    {
+      "name": "Science",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Economic geography",
+      "value": 4
+    },
+    {
+      "name": "Social justice",
+      "value": 4
+    },
+    {
+      "name": "Venture capital",
+      "value": 4
+    },
+    {
+      "name": "Regional disparities",
+      "value": 4
+    },
+    {
+      "name": "Gender",
+      "value": 4
+    },
+    {
+      "name": "Race",
+      "value": 4
+    },
+    {
+      "name": "Intersectionality (Sociology)",
+      "value": 4
+    },
+    {
+      "name": "Interviews",
+      "value": 4
+    },
+    {
+      "name": "Startup Founder",
+      "value": 4
+    },
+    {
+      "name": "Geographic Inequity",
+      "value": 4
+    },
+    {
+      "name": "Silicon Savannah",
+      "value": 4
+    },
+    {
+      "name": "Inequality",
+      "value": 4
+    },
+    {
+      "name": "Entrepreneurial Mobility",
+      "value": 4
+    },
+    {
+      "name": "Startup Ecosystem",
+      "value": 4
+    },
+    {
+      "name": "Financial Geography",
+      "value": 4
+    },
+    {
+      "name": "Structural Barrier",
+      "value": 4
+    },
+    {
+      "name": "Barriers to Entry (Economic Theory)",
+      "value": 4
+    },
+    {
+      "name": "Racism",
+      "value": 1
+    },
+    {
+      "name": "Culture",
+      "value": 1
+    },
+    {
+      "name": "Science",
+      "value": 1
+    },
+    {
+      "name": "Daily Racism",
+      "value": 1
+    },
+    {
+      "name": "Local Press",
+      "value": 1
+    },
+    {
+      "name": "Tradition",
+      "value": 1
+    },
+    {
+      "name": "Language",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Mkalama, Benedict Wandera",
+      "value": 4
+    },
+    {
+      "name": "Abbas, Nasir",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "Kenya",
+      "region": "",
+      "city": "",
+      "count": 4
+    },
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "673ca0aecd28e4b91ff9d13d",
+      "titleInfo": [
+        {
+          "title": "Transcription of interviews with startup founders: East Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MoCapIE2021",
+        "name": "Mobile Capital and (Im)Mobile Entrepreneurs: Start-up Success, Institutional Context and the “Laws of Start-up Money” in Silicon Savannah"
+      },
+      "dre_id": "aby-01-0000"
+    },
+    {
+      "_id": "673ca0aecd28e4b91ff9d13f",
+      "titleInfo": [
+        {
+          "title": "Anonymised transcription of interviews with startup founders: East Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MoCapIE2021",
+        "name": "Mobile Capital and (Im)Mobile Entrepreneurs: Start-up Success, Institutional Context and the “Laws of Start-up Money” in Silicon Savannah"
+      },
+      "dre_id": "aby-01-0002"
+    },
+    {
+      "_id": "673ca0aecd28e4b91ff9d140",
+      "titleInfo": [
+        {
+          "title": "Dataset with information on the start-ups and founders"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MoCapIE2021",
+        "name": "Mobile Capital and (Im)Mobile Entrepreneurs: Start-up Success, Institutional Context and the “Laws of Start-up Money” in Silicon Savannah"
+      },
+      "dre_id": "aby-01-0003"
+    },
+    {
+      "_id": "673ca0aecd28e4b91ff9d141",
+      "titleInfo": [
+        {
+          "title": "Anonymised dataset with information on the start ups and founders"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MoCapIE2021",
+        "name": "Mobile Capital and (Im)Mobile Entrepreneurs: Start-up Success, Institutional Context and the “Laws of Start-up Money” in Silicon Savannah"
+      },
+      "dre_id": "aby-01-0004"
+    },
+    {
+      "_id": "692db49707481a28c72155b7",
+      "titleInfo": [
+        {
+          "title": "Fehlende Selbsterkenntnis"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-000f"
+    }
+  ]
+}

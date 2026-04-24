@@ -1,0 +1,1347 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "terrorism",
+    "name": "Terrorism",
+    "count": 78
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "count": 10
+    },
+    {
+      "year": 2023,
+      "count": 66
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2021,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2022,
+      "total": 10,
+      "byType": {
+        "Text": 10
+      }
+    },
+    {
+      "year": 2023,
+      "total": 66,
+      "byType": {
+        "Text": 45,
+        "Audio": 21
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 57
+    },
+    {
+      "name": "Audio",
+      "value": 21
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 78
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Emigration and immigration",
+      "value": 66
+    },
+    {
+      "name": "Border security",
+      "value": 66
+    },
+    {
+      "name": "Violence",
+      "value": 66
+    },
+    {
+      "name": "Sources",
+      "value": 12
+    },
+    {
+      "name": "Dialogue",
+      "value": 12
+    },
+    {
+      "name": "Mediation",
+      "value": 12
+    },
+    {
+      "name": "Peace",
+      "value": 12
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Emigration and immigration",
+      "value": 66
+    },
+    {
+      "name": "Border security",
+      "value": 66
+    },
+    {
+      "name": "Violence",
+      "value": 66
+    },
+    {
+      "name": "Migration Control",
+      "value": 66
+    },
+    {
+      "name": "(Im)mobility",
+      "value": 66
+    },
+    {
+      "name": "Impact",
+      "value": 66
+    },
+    {
+      "name": "Border",
+      "value": 66
+    },
+    {
+      "name": "Migration",
+      "value": 66
+    },
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 66
+    },
+    {
+      "name": "Sources",
+      "value": 12
+    },
+    {
+      "name": "Dialogue",
+      "value": 12
+    },
+    {
+      "name": "Mediation",
+      "value": 12
+    },
+    {
+      "name": "Peace",
+      "value": 12
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Onadja, Joachim",
+      "value": 57
+    },
+    {
+      "name": "Barry, Moussa",
+      "value": 5
+    },
+    {
+      "name": "Some, Désiré Boniface",
+      "value": 5
+    },
+    {
+      "name": "Ouédraogo, Serge Noel",
+      "value": 4
+    },
+    {
+      "name": "Meda, Marc",
+      "value": 3
+    },
+    {
+      "name": "Idani, Barkissa",
+      "value": 2
+    },
+    {
+      "name": "Sangli, Louis",
+      "value": 2
+    },
+    {
+      "name": "Tankoano, Ousséni",
+      "value": 2
+    },
+    {
+      "name": "Attoh, Franca",
+      "value": 2
+    },
+    {
+      "name": "Bama, Elysé",
+      "value": 1
+    },
+    {
+      "name": "Bamogo, Monique",
+      "value": 1
+    },
+    {
+      "name": "Lompo, Caandama",
+      "value": 1
+    },
+    {
+      "name": "Combary, Larisse",
+      "value": 1
+    },
+    {
+      "name": "Dahani, Madeleine",
+      "value": 1
+    },
+    {
+      "name": "Haro, Marenga",
+      "value": 1
+    },
+    {
+      "name": "Haro, Yemboiro",
+      "value": 1
+    },
+    {
+      "name": "Kiema, Raogo",
+      "value": 1
+    },
+    {
+      "name": "Koadima, Abdou",
+      "value": 1
+    },
+    {
+      "name": "Lompo, Palamanga",
+      "value": 1
+    },
+    {
+      "name": "Lompo, Yienlemba",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Burkina Faso",
+      "region": "Est Region",
+      "city": "Fada N'Gourma",
+      "count": 62
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "Centre",
+      "city": "Ouagadougou",
+      "count": 16
+    }
+  ],
+  "items": [
+    {
+      "_id": "69bd79b633f04aa0e9567f00",
+      "titleInfo": [
+        {
+          "title": "Entretien avec un anonyme à Fada"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0000"
+    },
+    {
+      "_id": "69bd79b633f04aa0e9567f01",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Bamogo Monique"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0001"
+    },
+    {
+      "_id": "69bd79b633f04aa0e9567f02",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Bamogo Monique"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0002"
+    },
+    {
+      "_id": "69bd79b633f04aa0e9567f03",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Lompo Caandama"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0003"
+    },
+    {
+      "_id": "69bd79b633f04aa0e9567f04",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Combary Larisse"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0004"
+    },
+    {
+      "_id": "69bd79b633f04aa0e9567f05",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Dahani Madeleine"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0005"
+    },
+    {
+      "_id": "69bd79b633f04aa0e9567f06",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Haro Marenga"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0006"
+    },
+    {
+      "_id": "69bd79b633f04aa0e9567f07",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Haro Yemboiro"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0007"
+    },
+    {
+      "_id": "69bd79b633f04aa0e9567f08",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Idani Barkissa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0008"
+    },
+    {
+      "_id": "69bd79b633f04aa0e9567f09",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Kiema Raogo"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0009"
+    },
+    {
+      "_id": "69bd79b633f04aa0e9567f0a",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Koadima Abdou"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-000a"
+    },
+    {
+      "_id": "69bd79b633f04aa0e9567f0b",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Lompo Palamanga"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-000b"
+    },
+    {
+      "_id": "69bd79b633f04aa0e9567f0c",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Lompo Yienlemba"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-000c"
+    },
+    {
+      "_id": "69bd79b633f04aa0e9567f0d",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Djibougou Boukary"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-000d"
+    },
+    {
+      "_id": "69bd79b633f04aa0e9567f0e",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Onadja Lalé"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-000e"
+    },
+    {
+      "_id": "69bd79b633f04aa0e9567f0f",
+      "titleInfo": [
+        {
+          "title": "Entretien avec plusieurs personnes ressources"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-000f"
+    },
+    {
+      "_id": "69bd79b633f04aa0e9567f10",
+      "titleInfo": [
+        {
+          "title": "Entretien avec plusieurs personnes ressources"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0010"
+    },
+    {
+      "_id": "69bd79b733f04aa0e9567f11",
+      "titleInfo": [
+        {
+          "title": "Entretien avec plusieurs personnes ressources"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0011"
+    },
+    {
+      "_id": "69bd79b733f04aa0e9567f12",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Ouédraogo Souley"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0012"
+    },
+    {
+      "_id": "69bd79b733f04aa0e9567f13",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Ouoba Bedari"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0013"
+    },
+    {
+      "_id": "69bd79b733f04aa0e9567f14",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Koagri"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0014"
+    },
+    {
+      "_id": "69bd79b733f04aa0e9567f15",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Safo Djibril"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0015"
+    },
+    {
+      "_id": "69bd79b733f04aa0e9567f16",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Sagnan Malou"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0016"
+    },
+    {
+      "_id": "69bd79b733f04aa0e9567f17",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Sambieni Aguima Diane"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0017"
+    },
+    {
+      "_id": "69bd79b733f04aa0e9567f18",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Sangli Louis"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0018"
+    },
+    {
+      "_id": "69bd79b733f04aa0e9567f19",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Tandamba Yempabou"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0019"
+    },
+    {
+      "_id": "69bd79b733f04aa0e9567f1a",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Tankoano Diéyabidi Romaric"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-001a"
+    },
+    {
+      "_id": "69bd79b733f04aa0e9567f1b",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Tankoano Kondja"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-001b"
+    },
+    {
+      "_id": "69bd79b733f04aa0e9567f1c",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Tankoano Ousséni"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-001c"
+    },
+    {
+      "_id": "69bd79b733f04aa0e9567f1d",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Thiombiano Agathe"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-001d"
+    },
+    {
+      "_id": "69bd79b733f04aa0e9567f1e",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Thiombiano Gabiliga"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-001e"
+    },
+    {
+      "_id": "69bd79b733f04aa0e9567f1f",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Thiombiano Hamidou"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-001f"
+    },
+    {
+      "_id": "69bd79b733f04aa0e9567f20",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Yonli Kanbaaba"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0020"
+    },
+    {
+      "_id": "69bd79b733f04aa0e9567f21",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Ouali Yempabou"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0021"
+    },
+    {
+      "_id": "69bd79b733f04aa0e9567f22",
+      "titleInfo": [
+        {
+          "title": "Entretien avec plusieurs personnes ressources"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0022"
+    },
+    {
+      "_id": "69bd79b733f04aa0e9567f23",
+      "titleInfo": [
+        {
+          "title": "Entretien avec plusieurs personnes ressources"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0023"
+    },
+    {
+      "_id": "69bd79b733f04aa0e9567f24",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Diabri Ahandi David"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0024"
+    },
+    {
+      "_id": "69bd79b833f04aa0e9567f25",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Dicko Adama"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0025"
+    },
+    {
+      "_id": "69bd79b833f04aa0e9567f26",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Lankoande Kpahili"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0026"
+    },
+    {
+      "_id": "69bd79b833f04aa0e9567f27",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Ouali Gbabili"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0027"
+    },
+    {
+      "_id": "69bd79b833f04aa0e9567f28",
+      "titleInfo": [
+        {
+          "title": "Entretien avec plusieurs personnes ressources"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0028"
+    },
+    {
+      "_id": "69bd79b833f04aa0e9567f29",
+      "titleInfo": [
+        {
+          "title": "Entretien avec plusieurs personnes ressources"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0029"
+    },
+    {
+      "_id": "69bd79b833f04aa0e9567f2a",
+      "titleInfo": [
+        {
+          "title": "Entretien avec plusieurs personnes ressources"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-002a"
+    },
+    {
+      "_id": "69bd79b833f04aa0e9567f2b",
+      "titleInfo": [
+        {
+          "title": "Entretien avec plusieurs personnes ressources"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-002b"
+    },
+    {
+      "_id": "69bd79b833f04aa0e9567f2c",
+      "titleInfo": [
+        {
+          "title": "Entretien avec plusieurs personnes ressources"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-002c"
+    },
+    {
+      "_id": "69bd79b833f04aa0e9567f2d",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Aguima Sbenin"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-002d"
+    },
+    {
+      "_id": "69bd79b833f04aa0e9567f2e",
+      "titleInfo": [
+        {
+          "title": "Entretien avec un anonyme"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-002e"
+    },
+    {
+      "_id": "69bd79b833f04aa0e9567f2f",
+      "titleInfo": [
+        {
+          "title": "Entretien avec souley; un avocat"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-002f"
+    },
+    {
+      "_id": "69bd79b833f04aa0e9567f30",
+      "titleInfo": [
+        {
+          "title": "Entretien avec un anonyme"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0030"
+    },
+    {
+      "_id": "69bd79b833f04aa0e9567f31",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Combary Clarisse"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0031"
+    },
+    {
+      "_id": "69bd79b833f04aa0e9567f32",
+      "titleInfo": [
+        {
+          "title": "Entretien avec un anonyme"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0032"
+    },
+    {
+      "_id": "69bd79b833f04aa0e9567f33",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Idani Barkissa"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0033"
+    },
+    {
+      "_id": "69bd79b833f04aa0e9567f34",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Haro; un instituteur"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0034"
+    },
+    {
+      "_id": "69bd79b833f04aa0e9567f35",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Kiema Raogo"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0035"
+    },
+    {
+      "_id": "69bd79b833f04aa0e9567f36",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Thiombiano"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0036"
+    },
+    {
+      "_id": "69bd79b833f04aa0e9567f37",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Ouali"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0037"
+    },
+    {
+      "_id": "69bd79b833f04aa0e9567f38",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Bama Elise"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0038"
+    },
+    {
+      "_id": "69bd79b833f04aa0e9567f39",
+      "titleInfo": [
+        {
+          "title": "Entretien avec un anonyme"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0039"
+    },
+    {
+      "_id": "69bd79b933f04aa0e9567f3a",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Safo"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-003a"
+    },
+    {
+      "_id": "69bd79b933f04aa0e9567f3b",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Sanfo"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-003b"
+    },
+    {
+      "_id": "69bd79b933f04aa0e9567f3c",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Sangli Louis"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-003c"
+    },
+    {
+      "_id": "69bd79b933f04aa0e9567f3d",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Tankoano Ousséni"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-003d"
+    },
+    {
+      "_id": "69bd79b933f04aa0e9567f3e",
+      "titleInfo": [
+        {
+          "title": "Entretien avec un anonyme"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-003e"
+    },
+    {
+      "_id": "69bd79b933f04aa0e9567f3f",
+      "titleInfo": [
+        {
+          "title": "Entretien avec un anonyme"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-003f"
+    },
+    {
+      "_id": "69bd79b933f04aa0e9567f40",
+      "titleInfo": [
+        {
+          "title": "Entretien avec un anonyme"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0040"
+    },
+    {
+      "_id": "69bd79b933f04aa0e9567f41",
+      "titleInfo": [
+        {
+          "title": "Entretien avec un anonyme"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger"
+      },
+      "dre_id": "acu-03-0041"
+    },
+    {
+      "_id": "6734bd18b9dbcc3cc179feb4",
+      "titleInfo": [
+        {
+          "title": "Le terrorisme au Burkina Faso: négocier ou pas?"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_SEDPaix2022",
+        "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
+      },
+      "dre_id": "acq-03-0000"
+    },
+    {
+      "_id": "6734bd19b9dbcc3cc179feb5",
+      "titleInfo": [
+        {
+          "title": "Le terrorisme au Burkina Faso: négocier ou pas?"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_SEDPaix2022",
+        "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
+      },
+      "dre_id": "acq-03-0001"
+    },
+    {
+      "_id": "6734bd19b9dbcc3cc179feb6",
+      "titleInfo": [
+        {
+          "title": "Le terrorisme au Burkina Faso: négocier ou pas?"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_SEDPaix2022",
+        "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
+      },
+      "dre_id": "acq-03-0002"
+    },
+    {
+      "_id": "6734bd19b9dbcc3cc179feb7",
+      "titleInfo": [
+        {
+          "title": "Le terrorisme au Burkina Faso: négocier ou pas?"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_SEDPaix2022",
+        "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
+      },
+      "dre_id": "acq-03-0003"
+    },
+    {
+      "_id": "6734bd19b9dbcc3cc179feb8",
+      "titleInfo": [
+        {
+          "title": "Programme 2022 du projet de recherche: 'Etude Socio Anthropologique sur les sources endogènes de dialogue et de paix contre le terrorisme au Burkina Faso"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_SEDPaix2022",
+        "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
+      },
+      "dre_id": "acq-03-0004"
+    },
+    {
+      "_id": "6734bd19b9dbcc3cc179feb9",
+      "titleInfo": [
+        {
+          "title": "Analyse des impacts du terrorisme sur le personnel humanitaire au Burkina Faso"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_SEDPaix2022",
+        "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
+      },
+      "dre_id": "acq-03-0005"
+    },
+    {
+      "_id": "6734bd19b9dbcc3cc179febc",
+      "titleInfo": [
+        {
+          "title": "Séminaire pour la paix : 26, 27, 28 Septembre 2020 / Koudougou"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_SEDPaix2022",
+        "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
+      },
+      "dre_id": "acq-03-0008"
+    },
+    {
+      "_id": "6734bd19b9dbcc3cc179febd",
+      "titleInfo": [
+        {
+          "title": "Rapport du 2e séminaire méthodologique sur le projet de recherche"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_SEDPaix2022",
+        "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
+      },
+      "dre_id": "acq-03-0009"
+    },
+    {
+      "_id": "6734bd19b9dbcc3cc179febe",
+      "titleInfo": [
+        {
+          "title": "Rapport du 3e séminaire méthodologique sur le projet de recherche"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_SEDPaix2022",
+        "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
+      },
+      "dre_id": "acq-03-000a"
+    },
+    {
+      "_id": "6734bd19b9dbcc3cc179febf",
+      "titleInfo": [
+        {
+          "title": "Rapport de restitution sur le projet de recherche"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_SEDPaix2022",
+        "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
+      },
+      "dre_id": "acq-03-000b"
+    },
+    {
+      "_id": "6734bd19b9dbcc3cc179fec0",
+      "titleInfo": [
+        {
+          "title": "Interview de Prof Franca avec Samadin Naba"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_SEDPaix2022",
+        "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
+      },
+      "dre_id": "acq-03-000c"
+    },
+    {
+      "_id": "6734bd19b9dbcc3cc179fec1",
+      "titleInfo": [
+        {
+          "title": "Interview de Prof Franca avec Diallo"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_SEDPaix2022",
+        "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso"
+      },
+      "dre_id": "acq-03-000d"
+    }
+  ]
+}

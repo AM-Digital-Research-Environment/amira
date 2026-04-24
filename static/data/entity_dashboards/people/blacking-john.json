@@ -1,0 +1,503 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "blacking-john",
+    "name": "Blacking, John",
+    "count": 9
+  },
+  "timeline": [
+    {
+      "year": 1955,
+      "count": 2
+    },
+    {
+      "year": 1959,
+      "count": 1
+    },
+    {
+      "year": 1960,
+      "count": 1
+    },
+    {
+      "year": 1961,
+      "count": 1
+    },
+    {
+      "year": 1962,
+      "count": 1
+    },
+    {
+      "year": 1965,
+      "count": 1
+    },
+    {
+      "year": 1973,
+      "count": 1
+    },
+    {
+      "year": 1975,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1955,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1959,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1960,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1961,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1962,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1965,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1973,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1975,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 9
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 9
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 6
+    },
+    {
+      "name": "Music",
+      "value": 5
+    },
+    {
+      "name": "Musical instruments",
+      "value": 4
+    },
+    {
+      "name": "Africa",
+      "value": 3
+    },
+    {
+      "name": "Criticism",
+      "value": 2
+    },
+    {
+      "name": "South Africa",
+      "value": 2
+    },
+    {
+      "name": "Venda (African people)",
+      "value": 2
+    },
+    {
+      "name": "Flute music",
+      "value": 1
+    },
+    {
+      "name": "Musical analysis",
+      "value": 1
+    },
+    {
+      "name": "Nande (Congolese (Democratic Republic) and Ugandan people)",
+      "value": 1
+    },
+    {
+      "name": "Flute",
+      "value": 1
+    },
+    {
+      "name": "History",
+      "value": 1
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    },
+    {
+      "name": "Xylophone music",
+      "value": 1
+    },
+    {
+      "name": "Syncopation",
+      "value": 1
+    },
+    {
+      "name": "Polyrhythm",
+      "value": 1
+    },
+    {
+      "name": "Drum",
+      "value": 1
+    },
+    {
+      "name": "Xylophone",
+      "value": 1
+    },
+    {
+      "name": "Drum music",
+      "value": 1
+    },
+    {
+      "name": "Melody",
+      "value": 1
+    },
+    {
+      "name": "Ocarina music",
+      "value": 1
+    },
+    {
+      "name": "Musical pitch",
+      "value": 1
+    },
+    {
+      "name": "Harmony",
+      "value": 1
+    },
+    {
+      "name": "Nsenga (African people)",
+      "value": 1
+    },
+    {
+      "name": "Mbira",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 9
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 6
+    },
+    {
+      "name": "Music",
+      "value": 5
+    },
+    {
+      "name": "Musical instruments",
+      "value": 4
+    },
+    {
+      "name": "Africa",
+      "value": 3
+    },
+    {
+      "name": "Criticism",
+      "value": 2
+    },
+    {
+      "name": "South Africa",
+      "value": 2
+    },
+    {
+      "name": "Venda (African people)",
+      "value": 2
+    },
+    {
+      "name": "Flute music",
+      "value": 1
+    },
+    {
+      "name": "Musical analysis",
+      "value": 1
+    },
+    {
+      "name": "Nande (Congolese (Democratic Republic) and Ugandan people)",
+      "value": 1
+    },
+    {
+      "name": "Flute",
+      "value": 1
+    },
+    {
+      "name": "History",
+      "value": 1
+    },
+    {
+      "name": "Belgian Congo",
+      "value": 1
+    },
+    {
+      "name": "Flute (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    },
+    {
+      "name": "Xylophone music",
+      "value": 1
+    },
+    {
+      "name": "Syncopation",
+      "value": 1
+    },
+    {
+      "name": "Polyrhythm",
+      "value": 1
+    },
+    {
+      "name": "Drum",
+      "value": 1
+    },
+    {
+      "name": "Xylophone",
+      "value": 1
+    },
+    {
+      "name": "Drum music",
+      "value": 1
+    },
+    {
+      "name": "Methods",
+      "value": 1
+    },
+    {
+      "name": "Interpretation",
+      "value": 1
+    },
+    {
+      "name": "Xylophone (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Drum (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Musical Meter",
+      "value": 1
+    },
+    {
+      "name": "Musical Rhythm",
+      "value": 1
+    },
+    {
+      "name": "Melody",
+      "value": 1
+    },
+    {
+      "name": "Ocarina music",
+      "value": 1
+    },
+    {
+      "name": "Musical pitch",
+      "value": 1
+    },
+    {
+      "name": "Harmony",
+      "value": 1
+    },
+    {
+      "name": "Nsenga (African people)",
+      "value": 1
+    },
+    {
+      "name": "Mbira",
+      "value": 1
+    },
+    {
+      "name": "Mbira music",
+      "value": 1
+    },
+    {
+      "name": "Zambia",
+      "value": 1
+    },
+    {
+      "name": "Mbira (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Folk dancing",
+      "value": 1
+    },
+    {
+      "name": "Venda Dance",
+      "value": 1
+    },
+    {
+      "name": "Social Life",
+      "value": 1
+    },
+    {
+      "name": "Social Customs",
+      "value": 1
+    },
+    {
+      "name": "Research",
+      "value": 1
+    },
+    {
+      "name": "Musicology",
+      "value": 1
+    },
+    {
+      "name": "Uganda",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Jones, A. M.",
+      "value": 1
+    },
+    {
+      "name": "Pantaleoni, Hewitt",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 9
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ea0a",
+      "titleInfo": [
+        {
+          "title": "Eight flute tunes from Butembo, east Belgian Congo: an analysis in two parts, musical and physical: Part 1"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0025"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea10",
+      "titleInfo": [
+        {
+          "title": "Some notes on a theory of African rhythm advanced by Erich von Hornbostel"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-002b"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea82",
+      "titleInfo": [
+        {
+          "title": "Problems of pitch, pattern and harmony in the ocarina music of the Venda"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-009d"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea87",
+      "titleInfo": [
+        {
+          "title": "THE DRUM AND THE HOE - Life and Lore of the Haitian People, by HAROLD COURLANDER, University of California Press, 1960. xvi + 371 pp., 90 photographs, 109 pp. of musical transcriptions."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00a2"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eab3",
+      "titleInfo": [
+        {
+          "title": "Patterns of Nsenga Kalimba music"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00ce"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eac0",
+      "titleInfo": [
+        {
+          "title": "Musical expeditions of the Venda"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00db"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb16",
+      "titleInfo": [
+        {
+          "title": "Music in Uganda"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0131"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ebc4",
+      "titleInfo": [
+        {
+          "title": "MUSIQUE DAN: La musique dans la pensee et la vie sociale d'une socidte africaine, by Hugo Zemp, Cahiers de l'Homme, Nouvelle Serie XI, Paris, Mouton, 1971. pp. 320, illus., maps, tables, song texts, glossary, bibliography and discography"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01df"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ebcd",
+      "titleInfo": [
+        {
+          "title": "THE MUSIC OF AFRICA by J.H. Kwabena Nketia, (Gollancz) London, 1975. Copyright 1974 by W.W. Norton Inc."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01e8"
+    }
+  ]
+}

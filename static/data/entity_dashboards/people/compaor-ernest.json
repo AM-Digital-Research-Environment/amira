@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "compaor-ernest",
+    "name": "Compaoré, Ernest",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2021,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2022,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Administration of Justice",
+      "value": 2
+    },
+    {
+      "name": "Teenagers",
+      "value": 2
+    },
+    {
+      "name": "Youth",
+      "value": 2
+    },
+    {
+      "name": "Punishment",
+      "value": 2
+    },
+    {
+      "name": "Corrections",
+      "value": 1
+    },
+    {
+      "name": "Prisons",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Administration of Justice",
+      "value": 2
+    },
+    {
+      "name": "Teenagers",
+      "value": 2
+    },
+    {
+      "name": "Youth",
+      "value": 2
+    },
+    {
+      "name": "Punishment",
+      "value": 2
+    },
+    {
+      "name": "Manga",
+      "value": 2
+    },
+    {
+      "name": "Corrections",
+      "value": 1
+    },
+    {
+      "name": "Prisons",
+      "value": 1
+    },
+    {
+      "name": "Catholic Church",
+      "value": 1
+    },
+    {
+      "name": "Bishop's Chaplain",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Tapsoba, Tatiana Nadine",
+      "value": 2
+    },
+    {
+      "name": "Nana, Jean-Baptiste",
+      "value": 1
+    },
+    {
+      "name": "Sawadogo, Hamidou",
+      "value": 1
+    },
+    {
+      "name": "Bourgou, Y. Gilbert",
+      "value": 1
+    },
+    {
+      "name": "Bouda, Bassirou",
+      "value": 1
+    },
+    {
+      "name": "Samandoulgou, Basga",
+      "value": 1
+    },
+    {
+      "name": "Dipama, Emmanuel",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Burkina Faso",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "69c1568d666e5b9f92cf9f62",
+      "titleInfo": [
+        {
+          "title": "Synthèse Générale des entretiens réalisés à Manga"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-000a"
+    },
+    {
+      "_id": "69c1568d666e5b9f92cf9f65",
+      "titleInfo": [
+        {
+          "title": "Synthèse d’entretien avec l’aumônier catholique au niveau de la maison d’arrêt et de correction de MANGA"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-000d"
+    }
+  ]
+}

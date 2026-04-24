@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "discrimination",
+    "name": "Discrimination",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2006,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2006,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Deportation",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Deportation",
+      "value": 1
+    },
+    {
+      "name": "Moors",
+      "value": 1
+    },
+    {
+      "name": "Elizabeth I",
+      "value": 1
+    },
+    {
+      "name": "Elizabethan Era",
+      "value": 1
+    },
+    {
+      "name": "Article",
+      "value": 1
+    },
+    {
+      "name": "England",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Bartels, Emily C.",
+      "value": 1
+    },
+    {
+      "name": "Johns Hopkins University Press",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "United States of America",
+      "region": "Maryland",
+      "city": "Baltimore",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a8ab2c85fe8df870f9",
+      "titleInfo": [
+        {
+          "title": "Too Many Blackamoors: Deportation, Discrimination, and Elizabeth I"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0002"
+    }
+  ]
+}

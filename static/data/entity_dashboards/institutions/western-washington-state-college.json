@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "western-washington-state-college",
+    "name": "Western Washington State College",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1971,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1971,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Tsonga (African people)",
+      "value": 1
+    },
+    {
+      "name": "Rites and ceremonies",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Exorcism",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Tsonga (African people)",
+      "value": 1
+    },
+    {
+      "name": "Rites and ceremonies",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Exorcism",
+      "value": 1
+    },
+    {
+      "name": "Mozambique",
+      "value": 1
+    },
+    {
+      "name": "Shangana",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Johnston, Thomas F.",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ebad",
+      "titleInfo": [
+        {
+          "title": "Possession music of the Shangana-Tsonga"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01c8"
+    }
+  ]
+}

@@ -168,8 +168,134 @@ export const ENTITY_LAYOUTS: Partial<Record<EntityType, EntityLayout>> = {
 			{ chart: 'subjectTrends', wide: true },
 			{ chart: 'locations', wide: true, tall: true }
 		]
+	},
+	subject: {
+		entity: 'subject',
+		showUniversityFilter: false,
+		charts: [
+			{ chart: 'timeline', wide: true },
+			{ chart: 'stackedTimeline', wide: true },
+			{ chart: 'types' },
+			{ chart: 'languages' },
+			{ chart: 'subjects', title: 'Co-occurring subjects' },
+			{ chart: 'wordCloud', tall: true, title: 'Related subjects & tags' },
+			{ chart: 'contributors' },
+			{ chart: 'locations', wide: true, tall: true }
+		]
+	},
+	tag: {
+		entity: 'tag',
+		showUniversityFilter: false,
+		charts: [
+			{ chart: 'timeline', wide: true },
+			{ chart: 'stackedTimeline', wide: true },
+			{ chart: 'types' },
+			{ chart: 'languages' },
+			{ chart: 'subjects', title: 'Subject headings on tagged items' },
+			{ chart: 'wordCloud', tall: true, title: 'Related subjects & tags' },
+			{ chart: 'contributors' },
+			{ chart: 'locations', wide: true, tall: true }
+		]
+	},
+	genre: {
+		entity: 'genre',
+		showUniversityFilter: false,
+		charts: [
+			{ chart: 'timeline', wide: true },
+			{ chart: 'stackedTimeline', wide: true },
+			{ chart: 'types' },
+			{ chart: 'languages' },
+			{ chart: 'subjects' },
+			{ chart: 'wordCloud', tall: true },
+			{ chart: 'contributors' },
+			{ chart: 'locations', wide: true, tall: true }
+		]
+	},
+	'resource-type': {
+		entity: 'resource-type',
+		showUniversityFilter: false,
+		charts: [
+			{ chart: 'timeline', wide: true },
+			{ chart: 'stackedTimeline', wide: true },
+			{ chart: 'languages' },
+			{ chart: 'heatmap', wide: true, title: 'Language × decade' },
+			{ chart: 'subjects' },
+			{ chart: 'wordCloud', tall: true },
+			{ chart: 'contributors' },
+			{ chart: 'locations', wide: true, tall: true }
+		]
+	},
+	group: {
+		entity: 'group',
+		showUniversityFilter: true,
+		charts: [
+			{ chart: 'timeline', wide: true },
+			{ chart: 'types' },
+			{ chart: 'languages' },
+			{ chart: 'subjects' },
+			{ chart: 'contributors', title: 'Members & collaborators' },
+			{ chart: 'locations', wide: true, tall: true }
+		]
+	},
+	person: {
+		entity: 'person',
+		showUniversityFilter: true,
+		charts: [
+			{ chart: 'timeline', wide: true },
+			{ chart: 'stackedTimeline', wide: true },
+			{ chart: 'types' },
+			{ chart: 'languages' },
+			{ chart: 'roles' },
+			{ chart: 'subjects' },
+			{ chart: 'wordCloud', tall: true },
+			{ chart: 'contributors', title: 'Co-contributors' },
+			{ chart: 'locations', wide: true, tall: true }
+		]
+	},
+	institution: {
+		entity: 'institution',
+		showUniversityFilter: true,
+		charts: [
+			{ chart: 'timeline', wide: true },
+			{ chart: 'stackedTimeline', wide: true },
+			{ chart: 'types' },
+			{ chart: 'languages' },
+			{ chart: 'subjects' },
+			{ chart: 'wordCloud', tall: true },
+			{ chart: 'contributors', title: 'Affiliated contributors' },
+			{ chart: 'locations', wide: true, tall: true }
+		]
+	},
+	location: {
+		entity: 'location',
+		showUniversityFilter: false,
+		charts: [
+			{ chart: 'timeline', wide: true },
+			{ chart: 'stackedTimeline', wide: true },
+			{ chart: 'types' },
+			{ chart: 'languages' },
+			{ chart: 'subjects' },
+			{ chart: 'wordCloud', tall: true },
+			{ chart: 'contributors' }
+		]
+	},
+	'research-section': {
+		entity: 'research-section',
+		showUniversityFilter: true,
+		charts: [
+			{ chart: 'timeline', wide: true },
+			{ chart: 'stackedTimeline', wide: true },
+			{ chart: 'types' },
+			{ chart: 'languages' },
+			{ chart: 'heatmap', wide: true, title: 'Resource type × decade' },
+			{ chart: 'subjects' },
+			{ chart: 'wordCloud', tall: true },
+			{ chart: 'contributors' },
+			{ chart: 'locations', wide: true, tall: true }
+		]
 	}
-	// Phase 2 entity layouts land here — see ROADMAP-parity.md.
+	// Remaining Phase 2 layouts (project full parity, research-item KG +
+	// context strip) land as separate follow-ups — see ROADMAP-parity.md.
 };
 
 /** Whether to offer the university filter on this entity's detail page. */

@@ -12,7 +12,9 @@
 		SEO
 	} from '$lib/components/ui';
 	import { StackedTimeline, BarChart, PieChart } from '$lib/components/charts';
-	import { allCollections } from '$lib/stores/data';
+	import { allCollections, ensureCollections } from '$lib/stores/data';
+	import { base } from '$app/paths';
+	import { onMount } from 'svelte';
 	import {
 		groupByYearAndType,
 		extractSubjects,
@@ -187,6 +189,10 @@
 		const externalMatch = projKey ? EXTERNAL_PROJECTS.find((p) => p.id === projKey) : null;
 		return fullName || externalMatch?.name || projKey || projectId;
 	}
+
+	onMount(() => {
+		void ensureCollections(base);
+	});
 </script>
 
 <SEO

@@ -1,0 +1,257 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "ballantine-christopher",
+    "name": "Ballantine, Christopher",
+    "count": 5
+  },
+  "timeline": [
+    {
+      "year": 1965,
+      "count": 1
+    },
+    {
+      "year": 1973,
+      "count": 1
+    },
+    {
+      "year": 1992,
+      "count": 1
+    },
+    {
+      "year": 1996,
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1965,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1973,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1992,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1996,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2018,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 5
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 4
+    },
+    {
+      "name": "French",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Pipe music",
+      "value": 1
+    },
+    {
+      "name": "Tswana (African people)",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Pipe (Musical instrument)",
+      "value": 1
+    },
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Apartheid",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 5
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Pipe music",
+      "value": 1
+    },
+    {
+      "name": "Tswana (African people)",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Pipe (Musical instrument)",
+      "value": 1
+    },
+    {
+      "name": "Botswana",
+      "value": 1
+    },
+    {
+      "name": "Pipe (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Apartheid",
+      "value": 1
+    },
+    {
+      "name": "Harlem Swingsters",
+      "value": 1
+    },
+    {
+      "name": "Marabi (Music)",
+      "value": 1
+    },
+    {
+      "name": "African Jazz",
+      "value": 1
+    },
+    {
+      "name": "African Jazz Pioneers",
+      "value": 1
+    },
+    {
+      "name": "Politics",
+      "value": 1
+    },
+    {
+      "name": "Bebop (Music)",
+      "value": 1
+    },
+    {
+      "name": "Mbaqanga (Music)",
+      "value": 1
+    },
+    {
+      "name": "US Jazz",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 5
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9eb14",
+      "titleInfo": [
+        {
+          "title": "The polyrhythmic foundation of Tswana pipe melody"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-012f"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ebba",
+      "titleInfo": [
+        {
+          "title": "HOW MUSICAL IS MAN ? by John Blacking. University of Washington Press, Seattle, 1973. $6-95."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01d5"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec51",
+      "titleInfo": [
+        {
+          "title": "John Blacking: a personal tribute"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-026c"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec72",
+      "titleInfo": [
+        {
+          "title": "Fact, ideology and paradox: African elements in early Black South African Jazz and Vaudeville"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-028d"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eda2",
+      "titleInfo": [
+        {
+          "title": "EDMUND \"NTEMI” PILISO JAZZING THROUGH DEFEAT AND TRIUMPH: AN INTERVIEW"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03bd"
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "zaire",
+    "name": "Zaire",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 1961,
+      "count": 1
+    },
+    {
+      "year": 1962,
+      "count": 1
+    },
+    {
+      "year": 1971,
+      "count": 1
+    },
+    {
+      "year": 1999,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1961,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1962,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1971,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1999,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 4
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 4
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 3
+    },
+    {
+      "name": "Guitarists",
+      "value": 2
+    },
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Tone color (Music)",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Central Africa",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 4
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 3
+    },
+    {
+      "name": "Guitarists",
+      "value": 2
+    },
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Tone color (Music)",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Central Africa",
+      "value": 1
+    },
+    {
+      "name": "Democratic Republic of the Congo",
+      "value": 1
+    },
+    {
+      "name": "Urban Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Rycroft, David K.",
+      "value": 2
+    },
+    {
+      "name": "Carrington, John F.",
+      "value": 1
+    },
+    {
+      "name": "wa Mukuna, Kazadi",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 4
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9eaac",
+      "titleInfo": [
+        {
+          "title": "The Guitar improvisations of Mwenda Jean Bosco"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00c7"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eac2",
+      "titleInfo": [
+        {
+          "title": "The guitar improvisation of Mwenda Jean Bosco (Part II)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00dd"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb92",
+      "titleInfo": [
+        {
+          "title": "The musical dimension of perception in the upper Congo, Zae"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01ad"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec84",
+      "titleInfo": [
+        {
+          "title": "The evolution of urban music in Democratic Republic of the Congo during the 2nd and 3rd decades (1975-1995) of the Second Republic-Zaire"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-029f"
+    }
+  ]
+}

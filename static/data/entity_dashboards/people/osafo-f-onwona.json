@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "osafo-f-onwona",
+    "name": "Osafo, F. Onwona",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1957,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1957,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Musical instruments",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    },
+    {
+      "name": "Ghana",
+      "value": 1
+    },
+    {
+      "name": "Orchestra",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ea4c",
+      "titleInfo": [
+        {
+          "title": "An African orchestra in Ghana"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0067"
+    }
+  ]
+}

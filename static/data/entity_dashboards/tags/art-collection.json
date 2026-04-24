@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "art-collection",
+    "name": "Art Collection",
+    "count": 1
+  },
+  "timeline": [],
+  "stackedTimeline": [],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Pottery",
+      "value": 1
+    },
+    {
+      "name": "Books",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Pottery",
+      "value": 1
+    },
+    {
+      "name": "Books",
+      "value": 1
+    },
+    {
+      "name": "Yoruba Art",
+      "value": 1
+    },
+    {
+      "name": "Yoruba Pottery",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Museum of Yoruba Pottery",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b48c",
+      "titleInfo": [
+        {
+          "title": "Collection of Ulli and Georgina Beier"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-99-0004"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "clemson-university",
+    "name": "Clemson University",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1992,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1992,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "Othello",
+      "value": 1
+    },
+    {
+      "name": "African American",
+      "value": 1
+    },
+    {
+      "name": "Rewrite",
+      "value": 1
+    },
+    {
+      "name": "Article",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Andreas, James R.",
+      "value": 1
+    },
+    {
+      "name": "South Atlanic Modern Language Association",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "United States of America",
+      "region": "Georgia",
+      "city": "Atlanta",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a8ab2c85fe8df87109",
+      "titleInfo": [
+        {
+          "title": "Othello's African American Progeny"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0012"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "type": "genre",
+    "id": "atlases",
+    "name": "Atlases",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1939,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1939,
+      "total": 2,
+      "byType": {
+        "Image": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Books",
+      "value": 2
+    },
+    {
+      "name": "Scientific racism",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Books",
+      "value": 2
+    },
+    {
+      "name": "Scientific racism",
+      "value": 2
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Newnes, Georges",
+      "value": 2
+    },
+    {
+      "name": "Hoppe, E. O.",
+      "value": 1
+    },
+    {
+      "name": "Greven, Katharina",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "United Kingdom",
+      "region": "England",
+      "city": "London",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b53b",
+      "titleInfo": [
+        {
+          "title": "Erste Seite des Kapitels Races of the World aus dem Buch Modern Pictoral Atlas von Newnes (1939, 113)"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-00b3"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b53c",
+      "titleInfo": [
+        {
+          "title": "Seite aus dem Buch Modern Pictorial Atlas von Newnes (1939)"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-00b4"
+    }
+  ]
+}

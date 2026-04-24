@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "kyker-jennifer-w",
+    "name": "Kyker, Jennifer W.",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 2009,
+      "count": 1
+    },
+    {
+      "year": 2016,
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2009,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2016,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2018,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Chipendani",
+      "value": 2
+    },
+    {
+      "name": "Shona (African people)",
+      "value": 2
+    },
+    {
+      "name": "Ritual",
+      "value": 2
+    },
+    {
+      "name": "Musical bow",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 3
+    },
+    {
+      "name": "Chipendani",
+      "value": 2
+    },
+    {
+      "name": "Shona (African people)",
+      "value": 2
+    },
+    {
+      "name": "Ritual",
+      "value": 2
+    },
+    {
+      "name": "Zimbabwe",
+      "value": 2
+    },
+    {
+      "name": "Musical bow",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Bow (Music)",
+      "value": 1
+    },
+    {
+      "name": "Vadzimu (Ancestral Spirits)",
+      "value": 1
+    },
+    {
+      "name": "Bira Ceremony",
+      "value": 1
+    },
+    {
+      "name": "Herdboy",
+      "value": 1
+    },
+    {
+      "name": "Chipendani (Instrument)",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ecc4",
+      "titleInfo": [
+        {
+          "title": "Carrying spirit in song: music and the making of ancestors at Zezuru kurova guva ceremonies"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02df"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed6f",
+      "titleInfo": [
+        {
+          "title": "REASSESSING THE ZIMBABWEAN CHIPENDANI (Article withdrawn)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-038a"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eda6",
+      "titleInfo": [
+        {
+          "title": "REASSESSING THE ZIMBABWEAN CHIPENDANI"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03c1"
+    }
+  ]
+}

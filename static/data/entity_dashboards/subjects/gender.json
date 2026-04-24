@@ -1,0 +1,960 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "gender",
+    "name": "Gender",
+    "count": 24
+  },
+  "timeline": [
+    {
+      "year": 2007,
+      "count": 1
+    },
+    {
+      "year": 2013,
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "count": 14
+    },
+    {
+      "year": 2023,
+      "count": 5
+    },
+    {
+      "year": 2024,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2007,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2013,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2018,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2021,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2022,
+      "total": 14,
+      "byType": {
+        "Text": 12,
+        "Audio": 1,
+        "Dataset": 1
+      }
+    },
+    {
+      "year": 2023,
+      "total": 5,
+      "byType": {
+        "Text": 4,
+        "Dataset": 1
+      }
+    },
+    {
+      "year": 2024,
+      "total": 1,
+      "byType": {
+        "Bibliography": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 20
+    },
+    {
+      "name": "Dataset",
+      "value": 2
+    },
+    {
+      "name": "Bibliography",
+      "value": 1
+    },
+    {
+      "name": "Audio",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 13
+    },
+    {
+      "name": "English",
+      "value": 7
+    }
+  ],
+  "subjects": [
+    {
+      "name": "World health",
+      "value": 12
+    },
+    {
+      "name": "West Africa",
+      "value": 12
+    },
+    {
+      "name": "Health",
+      "value": 9
+    },
+    {
+      "name": "Economic geography",
+      "value": 5
+    },
+    {
+      "name": "Social justice",
+      "value": 5
+    },
+    {
+      "name": "Venture capital",
+      "value": 5
+    },
+    {
+      "name": "Regional disparities",
+      "value": 5
+    },
+    {
+      "name": "Race",
+      "value": 5
+    },
+    {
+      "name": "Intersectionality (Sociology)",
+      "value": 5
+    },
+    {
+      "name": "Interviews",
+      "value": 5
+    },
+    {
+      "name": "Dance",
+      "value": 3
+    },
+    {
+      "name": "Diseases",
+      "value": 2
+    },
+    {
+      "name": "Performance",
+      "value": 2
+    },
+    {
+      "name": "Arid regions",
+      "value": 1
+    },
+    {
+      "name": "East Africa",
+      "value": 1
+    },
+    {
+      "name": "Gabbra (African people)",
+      "value": 1
+    },
+    {
+      "name": "Samburu (African people)",
+      "value": 1
+    },
+    {
+      "name": "Oromo (African people)",
+      "value": 1
+    },
+    {
+      "name": "Herders",
+      "value": 1
+    },
+    {
+      "name": "Women",
+      "value": 1
+    },
+    {
+      "name": "Feminism",
+      "value": 1
+    },
+    {
+      "name": "Humanities",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Ganda (African people)",
+      "value": 1
+    },
+    {
+      "name": "Gorilla",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "World health",
+      "value": 12
+    },
+    {
+      "name": "West Africa",
+      "value": 12
+    },
+    {
+      "name": "Men who have Sex with Men",
+      "value": 12
+    },
+    {
+      "name": "The Global Fund to Fight AIDS, Tuberculosis and Malaria",
+      "value": 12
+    },
+    {
+      "name": "Burkina Faso",
+      "value": 12
+    },
+    {
+      "name": "Global Health Policy",
+      "value": 12
+    },
+    {
+      "name": "Global Health",
+      "value": 10
+    },
+    {
+      "name": "Joint United Nations Programme on HIV/AIDS",
+      "value": 10
+    },
+    {
+      "name": "Health",
+      "value": 9
+    },
+    {
+      "name": "Economic geography",
+      "value": 5
+    },
+    {
+      "name": "Social justice",
+      "value": 5
+    },
+    {
+      "name": "Venture capital",
+      "value": 5
+    },
+    {
+      "name": "Regional disparities",
+      "value": 5
+    },
+    {
+      "name": "Race",
+      "value": 5
+    },
+    {
+      "name": "Intersectionality (Sociology)",
+      "value": 5
+    },
+    {
+      "name": "Interviews",
+      "value": 5
+    },
+    {
+      "name": "Startup Founder",
+      "value": 5
+    },
+    {
+      "name": "Geographic Inequity",
+      "value": 5
+    },
+    {
+      "name": "Silicon Savannah",
+      "value": 5
+    },
+    {
+      "name": "Inequality",
+      "value": 5
+    },
+    {
+      "name": "Entrepreneurial Mobility",
+      "value": 5
+    },
+    {
+      "name": "Startup Ecosystem",
+      "value": 5
+    },
+    {
+      "name": "Financial Geography",
+      "value": 5
+    },
+    {
+      "name": "Structural Barrier",
+      "value": 5
+    },
+    {
+      "name": "Barriers to Entry (Economic Theory)",
+      "value": 5
+    },
+    {
+      "name": "African Music",
+      "value": 5
+    },
+    {
+      "name": "Dance",
+      "value": 3
+    },
+    {
+      "name": "Diseases",
+      "value": 2
+    },
+    {
+      "name": "HIV/AIDS",
+      "value": 2
+    },
+    {
+      "name": "Performance",
+      "value": 2
+    },
+    {
+      "name": "Gender Roles",
+      "value": 2
+    },
+    {
+      "name": "Arid regions",
+      "value": 1
+    },
+    {
+      "name": "East Africa",
+      "value": 1
+    },
+    {
+      "name": "Gabbra (African people)",
+      "value": 1
+    },
+    {
+      "name": "Samburu (African people)",
+      "value": 1
+    },
+    {
+      "name": "Oromo (African people)",
+      "value": 1
+    },
+    {
+      "name": "Herders",
+      "value": 1
+    },
+    {
+      "name": "Pastoralist",
+      "value": 1
+    },
+    {
+      "name": "Kenya",
+      "value": 1
+    },
+    {
+      "name": "Sexuality",
+      "value": 1
+    },
+    {
+      "name": "Chalbi Desert",
+      "value": 1
+    },
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 1
+    },
+    {
+      "name": "Women",
+      "value": 1
+    },
+    {
+      "name": "Feminism",
+      "value": 1
+    },
+    {
+      "name": "Humanities",
+      "value": 1
+    },
+    {
+      "name": "Humanitarian Studies",
+      "value": 1
+    },
+    {
+      "name": "Humanitarian",
+      "value": 1
+    },
+    {
+      "name": "Gender Policy",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Ganda (African people)",
+      "value": 1
+    },
+    {
+      "name": "Uganda",
+      "value": 1
+    },
+    {
+      "name": "Politics",
+      "value": 1
+    },
+    {
+      "name": "Democratisation",
+      "value": 1
+    },
+    {
+      "name": "Malawi",
+      "value": 1
+    },
+    {
+      "name": "Gendered Space",
+      "value": 1
+    },
+    {
+      "name": "Male Dominance",
+      "value": 1
+    },
+    {
+      "name": "Yoruba Music",
+      "value": 1
+    },
+    {
+      "name": "Drumming",
+      "value": 1
+    },
+    {
+      "name": "Gender Issues",
+      "value": 1
+    },
+    {
+      "name": "Female Drummers",
+      "value": 1
+    },
+    {
+      "name": "Gorilla",
+      "value": 1
+    },
+    {
+      "name": "Equality",
+      "value": 1
+    },
+    {
+      "name": "Masquerades",
+      "value": 1
+    },
+    {
+      "name": "Esan (African people)",
+      "value": 1
+    },
+    {
+      "name": "Dance Repertoire",
+      "value": 1
+    },
+    {
+      "name": "Gender Stereotypes",
+      "value": 1
+    },
+    {
+      "name": "Dance Gestures",
+      "value": 1
+    },
+    {
+      "name": "Musicality",
+      "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    },
+    {
+      "name": "Healing",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Ritual",
+      "value": 1
+    },
+    {
+      "name": "Mfoba (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Ghana",
+      "value": 1
+    },
+    {
+      "name": "Dondo (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Indigenous Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Baguian, Sidibewindé Romain",
+      "value": 8
+    },
+    {
+      "name": "Mkalama, Benedict Wandera",
+      "value": 5
+    },
+    {
+      "name": "Ouma, Stefan",
+      "value": 4
+    },
+    {
+      "name": "Hien, Frederic",
+      "value": 4
+    },
+    {
+      "name": "Abbas, Nasir",
+      "value": 2
+    },
+    {
+      "name": "Hashimshony Yaffe, Nurit",
+      "value": 1
+    },
+    {
+      "name": "Kronenburg García, Angela",
+      "value": 1
+    },
+    {
+      "name": "Pase, Andrea",
+      "value": 1
+    },
+    {
+      "name": "Roque de Pinho, Joana",
+      "value": 1
+    },
+    {
+      "name": "Goldman, Mara",
+      "value": 1
+    },
+    {
+      "name": "Gargallo, Eduard",
+      "value": 1
+    },
+    {
+      "name": "Behrends, Andrea",
+      "value": 1
+    },
+    {
+      "name": "Glasman, Joël",
+      "value": 1
+    },
+    {
+      "name": "Nabaloum, Abdoulassé",
+      "value": 1
+    },
+    {
+      "name": "Toe, Celestin",
+      "value": 1
+    },
+    {
+      "name": "Drabo, Manessour",
+      "value": 1
+    },
+    {
+      "name": "Soudré, Robert",
+      "value": 1
+    },
+    {
+      "name": "Samadoulougou, Sotissi Benoit Césaire",
+      "value": 1
+    },
+    {
+      "name": "Zoma, Tihamen",
+      "value": 1
+    },
+    {
+      "name": "Ouedraogo, Pissyamba",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Burkina Faso",
+      "region": "",
+      "city": "",
+      "count": 12
+    },
+    {
+      "country": "Kenya",
+      "region": "",
+      "city": "",
+      "count": 5
+    },
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 5
+    },
+    {
+      "country": "Kenya",
+      "region": "Marsabit",
+      "city": "Kalacha",
+      "count": 1
+    },
+    {
+      "country": "Germany",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "66cefaf495a000d4c7bf3714",
+      "titleInfo": [
+        {
+          "title": "Nurit Hashimshony Yaffe's Zoom transcript, November 15, 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-000f"
+    },
+    {
+      "_id": "672b6332248362c6205092d9",
+      "titleInfo": [
+        {
+          "title": "Chapter Nine: Les femmes et les enfants d’abord. Féminisme et études de genre"
+        }
+      ],
+      "typeOfResource": "Bibliography",
+      "project": {
+        "id": "UBT_Humanitar2019",
+        "name": "Humanities for Humanitarians. An Experiment in the Public Implications of Multiple Ontology"
+      },
+      "dre_id": "abv-01-0009"
+    },
+    {
+      "_id": "673ca0aecd28e4b91ff9d13d",
+      "titleInfo": [
+        {
+          "title": "Transcription of interviews with startup founders: East Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MoCapIE2021",
+        "name": "Mobile Capital and (Im)Mobile Entrepreneurs: Start-up Success, Institutional Context and the “Laws of Start-up Money” in Silicon Savannah"
+      },
+      "dre_id": "aby-01-0000"
+    },
+    {
+      "_id": "673ca0aecd28e4b91ff9d13e",
+      "titleInfo": [
+        {
+          "title": "Recordings of interviews with startup founders: East Africa"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_MoCapIE2021",
+        "name": "Mobile Capital and (Im)Mobile Entrepreneurs: Start-up Success, Institutional Context and the “Laws of Start-up Money” in Silicon Savannah"
+      },
+      "dre_id": "aby-01-0001"
+    },
+    {
+      "_id": "673ca0aecd28e4b91ff9d13f",
+      "titleInfo": [
+        {
+          "title": "Anonymised transcription of interviews with startup founders: East Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MoCapIE2021",
+        "name": "Mobile Capital and (Im)Mobile Entrepreneurs: Start-up Success, Institutional Context and the “Laws of Start-up Money” in Silicon Savannah"
+      },
+      "dre_id": "aby-01-0002"
+    },
+    {
+      "_id": "673ca0aecd28e4b91ff9d140",
+      "titleInfo": [
+        {
+          "title": "Dataset with information on the start-ups and founders"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MoCapIE2021",
+        "name": "Mobile Capital and (Im)Mobile Entrepreneurs: Start-up Success, Institutional Context and the “Laws of Start-up Money” in Silicon Savannah"
+      },
+      "dre_id": "aby-01-0003"
+    },
+    {
+      "_id": "673ca0aecd28e4b91ff9d141",
+      "titleInfo": [
+        {
+          "title": "Anonymised dataset with information on the start ups and founders"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MoCapIE2021",
+        "name": "Mobile Capital and (Im)Mobile Entrepreneurs: Start-up Success, Institutional Context and the “Laws of Start-up Money” in Silicon Savannah"
+      },
+      "dre_id": "aby-01-0004"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8671",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Nabaloum Abdoulassé"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0000"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8672",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Toe Celestin"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0001"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8673",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Drabo Manessour"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0002"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8674",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Soudré Robert"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0003"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8675",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Samadoulougou Sotissi Benoit Césaire"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0004"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8676",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Zoma Tihamen"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0005"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8677",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Ouedraogo Pissyamba"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0006"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8678",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Sanon Bernard"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0007"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8679",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Ouedraogo Soumaila"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0008"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d867a",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Meda Bertrand"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0009"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d867d",
+      "titleInfo": [
+        {
+          "title": "Article sur l'action du Fonds Mondial au Burkina Faso"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-000c"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8686",
+      "titleInfo": [
+        {
+          "title": "Mémoire sur le Fonds Mondial"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0015"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec92",
+      "titleInfo": [
+        {
+          "title": "Baakisimba: Gender in the Music and Dance of the Baganda People of Uganda. Sylvia A. Nannyonga-Tamusuza, 2005. 294 pp., 13 figures, 19 plates. New York: Routledge (Current Research in Ethnomusicology Series). Jennifer C. post, series editor."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02ad"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed1c",
+      "titleInfo": [
+        {
+          "title": "The Dance of Politics: Gender, Performance, and Democratization in Malawi. Lisa Gilman. 2009. Philadelphia: Temple University Press. 252 pp."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0337"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eda1",
+      "titleInfo": [
+        {
+          "title": "GENDERED SPACE TRANSGRESSORS: STUDY OF TWO YORUBA FEMALE DÙNDÚN DRUMMERS"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03bc"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edd6",
+      "titleInfo": [
+        {
+          "title": "Investigating gender stereotypes and musicality in Esan, Edo State, Nigeria"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03f1"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ede4",
+      "titleInfo": [
+        {
+          "title": "GENDERING MUSICAL DISCOURSE"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03ff"
+    }
+  ]
+}

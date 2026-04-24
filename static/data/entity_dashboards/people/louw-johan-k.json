@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "louw-johan-k",
+    "name": "Louw, Johan K.",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1956,
+      "count": 1
+    },
+    {
+      "year": 1958,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1956,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1958,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Chewa (African people)",
+      "value": 1
+    },
+    {
+      "name": "Nyanja (African people)",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Christianity",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Education",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Chewa (African people)",
+      "value": 1
+    },
+    {
+      "name": "Nyanja (African people)",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Christianity",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Education",
+      "value": 1
+    },
+    {
+      "name": "Church Worship",
+      "value": 1
+    },
+    {
+      "name": "Religious Aspects",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ea26",
+      "titleInfo": [
+        {
+          "title": "The use of African music in the church"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0041"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea67",
+      "titleInfo": [
+        {
+          "title": "African music in Christian worship"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0082"
+    }
+  ]
+}

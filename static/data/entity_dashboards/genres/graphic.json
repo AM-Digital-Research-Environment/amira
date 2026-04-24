@@ -1,0 +1,201 @@
+{
+  "meta": {
+    "type": "genre",
+    "id": "graphic",
+    "name": "graphic",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 2022,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2022,
+      "total": 2,
+      "byType": {
+        "Image": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 4
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    },
+    {
+      "name": "German",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Geography",
+      "value": 2
+    },
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 2
+    },
+    {
+      "name": "Mediation (Statistics)",
+      "value": 2
+    },
+    {
+      "name": "Racism",
+      "value": 2
+    },
+    {
+      "name": "History",
+      "value": 2
+    },
+    {
+      "name": "Photography",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Geography",
+      "value": 2
+    },
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 2
+    },
+    {
+      "name": "Mediation (Statistics)",
+      "value": 2
+    },
+    {
+      "name": "Coastal Proximity",
+      "value": 2
+    },
+    {
+      "name": "Mediation Analysis",
+      "value": 2
+    },
+    {
+      "name": "Coastal Countries",
+      "value": 2
+    },
+    {
+      "name": "Econometric Evidence",
+      "value": 2
+    },
+    {
+      "name": "Household Survey",
+      "value": 2
+    },
+    {
+      "name": "Racism",
+      "value": 2
+    },
+    {
+      "name": "History",
+      "value": 2
+    },
+    {
+      "name": "Photography",
+      "value": 2
+    },
+    {
+      "name": "Consumption",
+      "value": 2
+    },
+    {
+      "name": "Colonialism",
+      "value": 2
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Wild, Frederik",
+      "value": 2
+    },
+    {
+      "name": "Stadelmann, David",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 2
+    },
+    {
+      "country": "Germany",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "67211011e6fbc830d02e6af4",
+      "titleInfo": [
+        {
+          "title": "Figure S1"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-0003"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6af5",
+      "titleInfo": [
+        {
+          "title": "Figure S2"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-0004"
+    },
+    {
+      "_id": "692db49707481a28c72155d1",
+      "titleInfo": [
+        {
+          "title": "Bayreuter M*siegel gegenüber vom Heimathafen"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0029"
+    },
+    {
+      "_id": "692db49707481a28c72155d2",
+      "titleInfo": [
+        {
+          "title": "Kolonialladen Rosa Weiss"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-002a"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "bemba-african-people",
+    "name": "Bemba (African people)",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1963,
+      "count": 1
+    },
+    {
+      "year": 1965,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1963,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1965,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "Church music",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "Zambia",
+      "value": 2
+    },
+    {
+      "name": "Social Life",
+      "value": 2
+    },
+    {
+      "name": "Social Customs",
+      "value": 2
+    },
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Northern Rhodesia",
+      "value": 1
+    },
+    {
+      "name": "Zimbabwe",
+      "value": 1
+    },
+    {
+      "name": "Church music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Lunsonga, Cajetan",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ead7",
+      "titleInfo": [
+        {
+          "title": "Bemba music, a summary collected from Bakalamba\" elders on culture, religion and music of the Bemba-speaking people in the Northern and Luapula Provinces of Northern Rhodesia."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00f2"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb18",
+      "titleInfo": [
+        {
+          "title": "Bemba music. Extract from a lecture by Cajetan Lunsonga (Given at the Mindolo, All-African Music Conference 1965)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0133"
+    }
+  ]
+}

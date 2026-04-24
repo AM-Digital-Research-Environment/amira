@@ -1,0 +1,376 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "maps",
+    "name": "Maps",
+    "count": 10
+  },
+  "timeline": [
+    {
+      "year": 2014,
+      "count": 1
+    },
+    {
+      "year": 2016,
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "count": 8
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2014,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 2016,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2024,
+      "total": 8,
+      "byType": {
+        "Cartographic": 8
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Cartographic",
+      "value": 8
+    },
+    {
+      "name": "Image",
+      "value": 1
+    },
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Manuscripts",
+      "value": 8
+    },
+    {
+      "name": "Early modern, 1500-1700",
+      "value": 8
+    },
+    {
+      "name": "Literature",
+      "value": 8
+    },
+    {
+      "name": "Africa",
+      "value": 8
+    },
+    {
+      "name": "Cartography",
+      "value": 4
+    },
+    {
+      "name": "Children",
+      "value": 1
+    },
+    {
+      "name": "Photographs",
+      "value": 1
+    },
+    {
+      "name": "Interior decoration",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Manuscripts",
+      "value": 8
+    },
+    {
+      "name": "Early modern, 1500-1700",
+      "value": 8
+    },
+    {
+      "name": "Literature",
+      "value": 8
+    },
+    {
+      "name": "Africa",
+      "value": 8
+    },
+    {
+      "name": "England",
+      "value": 8
+    },
+    {
+      "name": "Knowledge",
+      "value": 8
+    },
+    {
+      "name": "Cartography",
+      "value": 4
+    },
+    {
+      "name": "Marine Cartography",
+      "value": 4
+    },
+    {
+      "name": "Augustus",
+      "value": 4
+    },
+    {
+      "name": "African Kingdoms",
+      "value": 3
+    },
+    {
+      "name": "Premodern",
+      "value": 3
+    },
+    {
+      "name": "Ancient",
+      "value": 3
+    },
+    {
+      "name": "Children",
+      "value": 1
+    },
+    {
+      "name": "Photographs",
+      "value": 1
+    },
+    {
+      "name": "Interior decoration",
+      "value": 1
+    },
+    {
+      "name": "Shrine",
+      "value": 1
+    },
+    {
+      "name": "Osogbo",
+      "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    },
+    {
+      "name": "Map Key",
+      "value": 1
+    },
+    {
+      "name": "Black People",
+      "value": 1
+    },
+    {
+      "name": "London",
+      "value": 1
+    },
+    {
+      "name": "Elizabeth I",
+      "value": 1
+    },
+    {
+      "name": "Elizabethan Era",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Aboluwade, Ifeoluwa",
+      "value": 8
+    },
+    {
+      "name": "British Library London",
+      "value": 3
+    },
+    {
+      "name": "Greven, Katharina",
+      "value": 1
+    },
+    {
+      "name": "Beier, Georgina",
+      "value": 1
+    },
+    {
+      "name": "Habib, Imtiaz",
+      "value": 1
+    },
+    {
+      "name": "Oxford University Press",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "United Kingdom",
+      "region": "England",
+      "city": "London",
+      "count": 8
+    },
+    {
+      "country": "Australia",
+      "region": "New South Wales",
+      "city": "Sydney",
+      "count": 1
+    },
+    {
+      "country": "United Kingdom",
+      "region": "England",
+      "city": "Oxford",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b531",
+      "titleInfo": [
+        {
+          "title": "Detailaufnahme vom Ulli Beier-Schrein, eine Karte vom Haus in Osogbo und eine bunte Fotografie mir Fußball spielenden Kindern"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-00a9"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df870fa",
+      "titleInfo": [
+        {
+          "title": "Map Key and Documentary Source"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0003"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8717b",
+      "titleInfo": [
+        {
+          "title": "Premodern Map Africa Kingdoms"
+        }
+      ],
+      "typeOfResource": "Cartographic",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0084"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8717c",
+      "titleInfo": [
+        {
+          "title": "Premodern Map Africa Kingdoms"
+        }
+      ],
+      "typeOfResource": "Cartographic",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0085"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8717d",
+      "titleInfo": [
+        {
+          "title": "Premodern Map Africa Kingdoms"
+        }
+      ],
+      "typeOfResource": "Cartographic",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0086"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872a4",
+      "titleInfo": [
+        {
+          "title": "Old Map of Africa"
+        }
+      ],
+      "typeOfResource": "Cartographic",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-01ad"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87300",
+      "titleInfo": [
+        {
+          "title": "Marine Cartography"
+        }
+      ],
+      "typeOfResource": "Cartographic",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0209"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87301",
+      "titleInfo": [
+        {
+          "title": "Marine Cartography"
+        }
+      ],
+      "typeOfResource": "Cartographic",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-020a"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87302",
+      "titleInfo": [
+        {
+          "title": "Marine Cartography"
+        }
+      ],
+      "typeOfResource": "Cartographic",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-020b"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87303",
+      "titleInfo": [
+        {
+          "title": "Marine Cartography"
+        }
+      ],
+      "typeOfResource": "Cartographic",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-020c"
+    }
+  ]
+}

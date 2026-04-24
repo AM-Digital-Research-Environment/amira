@@ -170,6 +170,19 @@ def load_all_items_from_local(
     return items
 
 
+def load_projects_from_local(data_dir: str = config.DATA_DIR) -> list[dict]:
+    """Load the committed projects metadata (`dev.projectsData.json`).
+
+    Used by the research-section generator to map items → section via
+    `project.researchSection`. Returns an empty list if the file is missing
+    rather than erroring out — callers are expected to check.
+    """
+    path = os.path.join(data_dir, "dev", "dev.projectsData.json")
+    if not os.path.exists(path):
+        return []
+    return _read_json_list(path)
+
+
 def _read_json_list(path: str) -> list[dict]:
     """Read a JSON file that may be a plain list or {"items": [...]}."""
     with open(path, encoding="utf-8") as fh:

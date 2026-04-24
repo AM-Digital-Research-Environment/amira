@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "heimatgeschichte",
+    "name": "Heimatgeschichte",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 2,
+      "byType": {
+        "Image": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "National socialism",
+      "value": 2
+    },
+    {
+      "name": "History",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "National socialism",
+      "value": 2
+    },
+    {
+      "name": "Race Theory",
+      "value": 2
+    },
+    {
+      "name": "Memory Culture",
+      "value": 2
+    },
+    {
+      "name": "Houston Stewart Chamberlain",
+      "value": 2
+    },
+    {
+      "name": "Bayreuth",
+      "value": 2
+    },
+    {
+      "name": "History",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Waha, Eric",
+      "value": 1
+    },
+    {
+      "name": "Dippold, Günther",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "692db49707481a28c72155b3",
+      "titleInfo": [
+        {
+          "title": "Bayreuth stellt sich der Geschichte"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-000b"
+    },
+    {
+      "_id": "692db49707481a28c72155b4",
+      "titleInfo": [
+        {
+          "title": "Erinnerung direkt am Ort des Hasses"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-000c"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "mysticism",
+    "name": "Mysticism",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 2,
+      "byType": {
+        "Digital": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Digital",
+      "value": 2
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Islam",
+      "value": 2
+    },
+    {
+      "name": "West Africa",
+      "value": 2
+    },
+    {
+      "name": "Sufism",
+      "value": 1
+    },
+    {
+      "name": "Islamic philosophy",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Islam",
+      "value": 2
+    },
+    {
+      "name": "West Africa",
+      "value": 2
+    },
+    {
+      "name": "Black Representations",
+      "value": 2
+    },
+    {
+      "name": "Sufism",
+      "value": 1
+    },
+    {
+      "name": "Religious Authority",
+      "value": 1
+    },
+    {
+      "name": "Islamic philosophy",
+      "value": 1
+    },
+    {
+      "name": "Origin",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Elhanafy, Taghrid",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a8ab2c85fe8df87103",
+      "titleInfo": [
+        {
+          "title": "Part III: Sufism in West Africa and the Paradox of Mysticism as a Tool for Attaining Power"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-000c"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87104",
+      "titleInfo": [
+        {
+          "title": "Part IV: The Early Seeds of Mystic Islamic Thought in West Africa"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-000d"
+    }
+  ]
+}

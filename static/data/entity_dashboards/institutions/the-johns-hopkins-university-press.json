@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "the-johns-hopkins-university-press",
+    "name": "The Johns Hopkins University Press",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2010,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2010,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Book reviews",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Book reviews",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Valentine, Sarah",
+      "value": 1
+    },
+    {
+      "name": "The Johns Hopkins University Press",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "United States of America",
+      "region": "Maryland",
+      "city": "Baltimore",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a8ab2c85fe8df8711d",
+      "titleInfo": [
+        {
+          "title": "Reviewed Work(s): Under the Sky of My Africa: Alexander Pushkin and Blackness. Evanston, IL by Catherine Theimer Nepomnyashchy, Nicole Svobodny and Ludmilla A. Trigos"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0026"
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "adaptation",
+    "name": "Adaptation",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2017,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2017,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Violence",
+      "value": 1
+    },
+    {
+      "name": "Zulu (African people)",
+      "value": 1
+    },
+    {
+      "name": "Oral tradition",
+      "value": 1
+    },
+    {
+      "name": "Shona (African people)",
+      "value": 1
+    },
+    {
+      "name": "Folk music",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Violence",
+      "value": 1
+    },
+    {
+      "name": "Zulu (African people)",
+      "value": 1
+    },
+    {
+      "name": "Oral tradition",
+      "value": 1
+    },
+    {
+      "name": "Shakespeare",
+      "value": 1
+    },
+    {
+      "name": "Macbeth",
+      "value": 1
+    },
+    {
+      "name": "Mofolo",
+      "value": 1
+    },
+    {
+      "name": "Msomi",
+      "value": 1
+    },
+    {
+      "name": "Article",
+      "value": 1
+    },
+    {
+      "name": "Shona (African people)",
+      "value": 1
+    },
+    {
+      "name": "Folk music",
+      "value": 1
+    },
+    {
+      "name": "Ngoma Rhythms",
+      "value": 1
+    },
+    {
+      "name": "Zimbabwean Popular Music",
+      "value": 1
+    },
+    {
+      "name": "Traditional Music",
+      "value": 1
+    },
+    {
+      "name": "Zimbabwe",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Balogun, Lekan",
+      "value": 1
+    },
+    {
+      "name": "California Institute of Pan African Studies",
+      "value": 1
+    },
+    {
+      "name": "Chamisa, Vimbai",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "United States of America",
+      "region": "California",
+      "city": "Long Beach",
+      "count": 1
+    },
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a8ab2c85fe8df87106",
+      "titleInfo": [
+        {
+          "title": "Violence and Xenophobia in South Africa: Shakespeare, Thomas Mofolo's Chaka, and Welcome Msomi's uMabatha: the Zulu Macbeth"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-000f"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed91",
+      "titleInfo": [
+        {
+          "title": "APPROACHES TO THE ADAPTATION OF SHONA NGOMA STYLES IN ZIMBABWEAN POPULAR MUSIC"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03ac"
+    }
+  ]
+}

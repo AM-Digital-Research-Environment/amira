@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "swahili",
+    "name": "Swahili",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1996,
+      "count": 1
+    },
+    {
+      "year": 2015,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1996,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2015,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Literature",
+      "value": 1
+    },
+    {
+      "name": "Tales",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Literature",
+      "value": 1
+    },
+    {
+      "name": "Shakespeare",
+      "value": 1
+    },
+    {
+      "name": "English",
+      "value": 1
+    },
+    {
+      "name": "Tales",
+      "value": 1
+    },
+    {
+      "name": "African Folktales",
+      "value": 1
+    },
+    {
+      "name": "Folktales",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mazrui, Alamin M.",
+      "value": 1
+    },
+    {
+      "name": "Indiana University Press",
+      "value": 1
+    },
+    {
+      "name": "Radin, Paul",
+      "value": 1
+    },
+    {
+      "name": "Princeton University Press",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "United States of America",
+      "region": "Indiana",
+      "city": "Bloomington",
+      "count": 1
+    },
+    {
+      "country": "United States of America",
+      "region": "New Jersey",
+      "city": "Princeton",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a8ab2c85fe8df87118",
+      "titleInfo": [
+        {
+          "title": "Shakespeare in Africa: Between English and Swahili Literature"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0021"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87179",
+      "titleInfo": [
+        {
+          "title": "A Woman for a Hundred Cattle"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0082"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "art-historians",
+    "name": "Art historians",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2013,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2013,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Painting",
+      "value": 1
+    },
+    {
+      "name": "Newspapers",
+      "value": 1
+    },
+    {
+      "name": "Painters",
+      "value": 1
+    },
+    {
+      "name": "Archives",
+      "value": 1
+    },
+    {
+      "name": "Exhibitions",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Painting",
+      "value": 1
+    },
+    {
+      "name": "Newspapers",
+      "value": 1
+    },
+    {
+      "name": "Painters",
+      "value": 1
+    },
+    {
+      "name": "Archives",
+      "value": 1
+    },
+    {
+      "name": "Exhibitions",
+      "value": 1
+    },
+    {
+      "name": "Art Exhibition",
+      "value": 1
+    },
+    {
+      "name": "Newspaper Article",
+      "value": 1
+    },
+    {
+      "name": "Flyer",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Beier, Ulli",
+      "value": 1
+    },
+    {
+      "name": "Beier, Georgina",
+      "value": 1
+    },
+    {
+      "name": "Greven, Katharina",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b490",
+      "titleInfo": [
+        {
+          "title": "Aufgeklebte Zeitungsartikel und Ausstellungsflyer"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0008"
+    }
+  ]
+}

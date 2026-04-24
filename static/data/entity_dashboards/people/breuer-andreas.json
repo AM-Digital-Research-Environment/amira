@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "breuer-andreas",
+    "name": "Breuer, Andreas",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2018,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2018,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Racism",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Racism",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Grau, Julia Maria",
+      "value": 1
+    },
+    {
+      "name": "Springfeld, Lars",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "692db49707481a28c72155d0",
+      "titleInfo": [
+        {
+          "title": "Begletischrift zum Lehrbuch Ökonomik der Entwicklung"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0028"
+    }
+  ]
+}

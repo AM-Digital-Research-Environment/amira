@@ -1,0 +1,513 @@
+{
+  "meta": {
+    "type": "genre",
+    "id": "blues-music",
+    "name": "Blues (Music)",
+    "count": 20
+  },
+  "timeline": [
+    {
+      "year": 1950,
+      "count": 20
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1950,
+      "total": 20,
+      "byType": {
+        "Audio": 20
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Audio",
+      "value": 20
+    }
+  ],
+  "languages": [
+    {
+      "name": "Ewe",
+      "value": 7
+    },
+    {
+      "name": "Twi",
+      "value": 7
+    },
+    {
+      "name": "Fanti",
+      "value": 4
+    },
+    {
+      "name": "Igbo",
+      "value": 1
+    },
+    {
+      "name": "Ga",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 20
+    },
+    {
+      "name": "Blues (Music)",
+      "value": 19
+    },
+    {
+      "name": "Ewe (African people)",
+      "value": 7
+    },
+    {
+      "name": "Ewe language",
+      "value": 7
+    },
+    {
+      "name": "Twi (African people)",
+      "value": 7
+    },
+    {
+      "name": "Twi language",
+      "value": 7
+    },
+    {
+      "name": "Fanti (African people)",
+      "value": 4
+    },
+    {
+      "name": "Fanti language",
+      "value": 4
+    },
+    {
+      "name": "Igbo (African people)",
+      "value": 1
+    },
+    {
+      "name": "Igbo language",
+      "value": 1
+    },
+    {
+      "name": "Ga (African people)",
+      "value": 1
+    },
+    {
+      "name": "Ga language",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Ethnomusicology",
+      "value": 20
+    },
+    {
+      "name": "Blues (Music)",
+      "value": 19
+    },
+    {
+      "name": "Ewe (African people)",
+      "value": 7
+    },
+    {
+      "name": "Ewe language",
+      "value": 7
+    },
+    {
+      "name": "Twi (African people)",
+      "value": 7
+    },
+    {
+      "name": "Twi language",
+      "value": 7
+    },
+    {
+      "name": "Fanti (African people)",
+      "value": 4
+    },
+    {
+      "name": "Fanti language",
+      "value": 4
+    },
+    {
+      "name": "Igbo (African people)",
+      "value": 1
+    },
+    {
+      "name": "Igbo language",
+      "value": 1
+    },
+    {
+      "name": "Ga (African people)",
+      "value": 1
+    },
+    {
+      "name": "Ga language",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "DECCA",
+      "value": 20
+    },
+    {
+      "name": "Ghana Broadcasting Corporation Gramophone Library",
+      "value": 20
+    },
+    {
+      "name": "Kwasi Gatse's Band",
+      "value": 4
+    },
+    {
+      "name": "Abeku's Band",
+      "value": 3
+    },
+    {
+      "name": "Domingo's Band",
+      "value": 2
+    },
+    {
+      "name": "Charles Iwegbue & His Orchibogs",
+      "value": 1
+    },
+    {
+      "name": "Ayi Hyde's Band",
+      "value": 1
+    },
+    {
+      "name": "Kobina Baah's Band",
+      "value": 1
+    },
+    {
+      "name": "D. Asebre's Band",
+      "value": 1
+    },
+    {
+      "name": "Obiba T. K. Band",
+      "value": 1
+    },
+    {
+      "name": "Appiah Adjekum's Band",
+      "value": 1
+    },
+    {
+      "name": "Ofori's Band",
+      "value": 1
+    },
+    {
+      "name": "Willie's Band",
+      "value": 1
+    },
+    {
+      "name": "E. K.'s Band",
+      "value": 1
+    },
+    {
+      "name": "D. O. Willie's Band",
+      "value": 1
+    },
+    {
+      "name": "Kojo Seido's Band",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Ghana",
+      "region": "",
+      "city": "",
+      "count": 19
+    },
+    {
+      "country": "Nigeria",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "66c34de7ba20a6d8a816ac09",
+      "titleInfo": [
+        {
+          "title": "Ubene Nkwo"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-000b"
+    },
+    {
+      "_id": "66c34de7ba20a6d8a816ac2b",
+      "titleInfo": [
+        {
+          "title": "Daben  Na Obeba"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-002d"
+    },
+    {
+      "_id": "66c34de8ba20a6d8a816ac35",
+      "titleInfo": [
+        {
+          "title": "De Sro Le Ape Ne Gbe"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-0037"
+    },
+    {
+      "_id": "66c34de8ba20a6d8a816ac37",
+      "titleInfo": [
+        {
+          "title": "Adokpogladza"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-0039"
+    },
+    {
+      "_id": "66c34de8ba20a6d8a816ac49",
+      "titleInfo": [
+        {
+          "title": "Gya Me Kwan Ma Minko"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-004b"
+    },
+    {
+      "_id": "66c34de8ba20a6d8a816ac50",
+      "titleInfo": [
+        {
+          "title": "Buruwaa"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-0052"
+    },
+    {
+      "_id": "66c34de8ba20a6d8a816ac55",
+      "titleInfo": [
+        {
+          "title": "Nso Pii Korle Bibio"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-0057"
+    },
+    {
+      "_id": "66c34de8ba20a6d8a816ac59",
+      "titleInfo": [
+        {
+          "title": "Menkwofoo Menenam"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-005b"
+    },
+    {
+      "_id": "66c34de8ba20a6d8a816ac62",
+      "titleInfo": [
+        {
+          "title": "Wofa  Woho"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-0064"
+    },
+    {
+      "_id": "66c34de8ba20a6d8a816ac6a",
+      "titleInfo": [
+        {
+          "title": "Owu Atwere"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-006c"
+    },
+    {
+      "_id": "66c34de8ba20a6d8a816ac6e",
+      "titleInfo": [
+        {
+          "title": "Ye Si Minye"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-0070"
+    },
+    {
+      "_id": "66c34de8ba20a6d8a816ac70",
+      "titleInfo": [
+        {
+          "title": "Afi Atu Yen"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-0072"
+    },
+    {
+      "_id": "66c34de8ba20a6d8a816ac83",
+      "titleInfo": [
+        {
+          "title": "Zododo"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-0085"
+    },
+    {
+      "_id": "66c34de8ba20a6d8a816ac85",
+      "titleInfo": [
+        {
+          "title": "Anoma Fa Me Ko"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-0087"
+    },
+    {
+      "_id": "66c34de8ba20a6d8a816ac9f",
+      "titleInfo": [
+        {
+          "title": "Ame Dzro Me Nye"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-00a1"
+    },
+    {
+      "_id": "66c34de8ba20a6d8a816aca1",
+      "titleInfo": [
+        {
+          "title": "Me Ble Me Ble"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-00a3"
+    },
+    {
+      "_id": "66c34de8ba20a6d8a816aca3",
+      "titleInfo": [
+        {
+          "title": "Wo Ga Deke Menye Towo-o"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-00a5"
+    },
+    {
+      "_id": "66c34de8ba20a6d8a816aca5",
+      "titleInfo": [
+        {
+          "title": "Nkrumah Woe Wodo"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-00a7"
+    },
+    {
+      "_id": "66c34de8ba20a6d8a816aca7",
+      "titleInfo": [
+        {
+          "title": "Obiako Ye Mmobo"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-00a9"
+    },
+    {
+      "_id": "66c34de8ba20a6d8a816acb5",
+      "titleInfo": [
+        {
+          "title": "Akyikyiri Wasem Ye Mo Bo"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-00b7"
+    }
+  ]
+}

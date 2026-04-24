@@ -1,0 +1,848 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "burkina-faso",
+    "name": "Burkina Faso",
+    "count": 26
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "count": 4
+    },
+    {
+      "year": 2022,
+      "count": 12
+    },
+    {
+      "year": 2023,
+      "count": 7
+    },
+    {
+      "year": 2024,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 2,
+      "byType": {
+        "Text": 1,
+        "Moving image": 1
+      }
+    },
+    {
+      "year": 2021,
+      "total": 4,
+      "byType": {
+        "Text": 4
+      }
+    },
+    {
+      "year": 2022,
+      "total": 12,
+      "byType": {
+        "Text": 12
+      }
+    },
+    {
+      "year": 2023,
+      "total": 7,
+      "byType": {
+        "Text": 7
+      }
+    },
+    {
+      "year": 2024,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 25
+    },
+    {
+      "name": "Moving image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 25
+    },
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "World health",
+      "value": 23
+    },
+    {
+      "name": "West Africa",
+      "value": 23
+    },
+    {
+      "name": "Gender",
+      "value": 12
+    },
+    {
+      "name": "Health",
+      "value": 10
+    },
+    {
+      "name": "Diseases",
+      "value": 4
+    },
+    {
+      "name": "Sustainability",
+      "value": 2
+    },
+    {
+      "name": "COVID-19 (Disease)",
+      "value": 2
+    },
+    {
+      "name": "Nation state",
+      "value": 2
+    },
+    {
+      "name": "Teachers",
+      "value": 2
+    },
+    {
+      "name": "Public administration",
+      "value": 2
+    },
+    {
+      "name": "Travel",
+      "value": 1
+    },
+    {
+      "name": "Schools",
+      "value": 1
+    },
+    {
+      "name": "Food security",
+      "value": 1
+    },
+    {
+      "name": "Vaccination",
+      "value": 1
+    },
+    {
+      "name": "Finance",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "World health",
+      "value": 23
+    },
+    {
+      "name": "West Africa",
+      "value": 23
+    },
+    {
+      "name": "Global Health Policy",
+      "value": 23
+    },
+    {
+      "name": "Global Health",
+      "value": 15
+    },
+    {
+      "name": "Gender",
+      "value": 12
+    },
+    {
+      "name": "Men who have Sex with Men",
+      "value": 12
+    },
+    {
+      "name": "The Global Fund to Fight AIDS, Tuberculosis and Malaria",
+      "value": 12
+    },
+    {
+      "name": "Joint United Nations Programme on HIV/AIDS",
+      "value": 12
+    },
+    {
+      "name": "Health",
+      "value": 10
+    },
+    {
+      "name": "Diseases",
+      "value": 4
+    },
+    {
+      "name": "Mobility",
+      "value": 3
+    },
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 3
+    },
+    {
+      "name": "HIV/AIDS",
+      "value": 3
+    },
+    {
+      "name": "Sustainability",
+      "value": 2
+    },
+    {
+      "name": "Vertical Program",
+      "value": 2
+    },
+    {
+      "name": "Horizontal Program",
+      "value": 2
+    },
+    {
+      "name": "Legal Framework",
+      "value": 2
+    },
+    {
+      "name": "COVID-19 (Disease)",
+      "value": 2
+    },
+    {
+      "name": "World Health Organization",
+      "value": 2
+    },
+    {
+      "name": "Barrier Measure",
+      "value": 2
+    },
+    {
+      "name": "Global Health Governance",
+      "value": 2
+    },
+    {
+      "name": "Nation state",
+      "value": 2
+    },
+    {
+      "name": "Teachers",
+      "value": 2
+    },
+    {
+      "name": "Public administration",
+      "value": 2
+    },
+    {
+      "name": "Appointment",
+      "value": 2
+    },
+    {
+      "name": "Epistemology",
+      "value": 2
+    },
+    {
+      "name": "Survey Results",
+      "value": 2
+    },
+    {
+      "name": "Status Report",
+      "value": 2
+    },
+    {
+      "name": "Researcher",
+      "value": 2
+    },
+    {
+      "name": "Travel",
+      "value": 1
+    },
+    {
+      "name": "Schools",
+      "value": 1
+    },
+    {
+      "name": "Food security",
+      "value": 1
+    },
+    {
+      "name": "Vaccination",
+      "value": 1
+    },
+    {
+      "name": "Lockdown",
+      "value": 1
+    },
+    {
+      "name": "Ghana",
+      "value": 1
+    },
+    {
+      "name": "Border",
+      "value": 1
+    },
+    {
+      "name": "Health Policy",
+      "value": 1
+    },
+    {
+      "name": "Legislation",
+      "value": 1
+    },
+    {
+      "name": "Foundation",
+      "value": 1
+    },
+    {
+      "name": "Health Organisation",
+      "value": 1
+    },
+    {
+      "name": "Typology",
+      "value": 1
+    },
+    {
+      "name": "Categorisation",
+      "value": 1
+    },
+    {
+      "name": "Common Market for Eastern and Southern Africa",
+      "value": 1
+    },
+    {
+      "name": "Regional Organisation",
+      "value": 1
+    },
+    {
+      "name": "Harmonisation",
+      "value": 1
+    },
+    {
+      "name": "ECOWAS",
+      "value": 1
+    },
+    {
+      "name": "Finance",
+      "value": 1
+    },
+    {
+      "name": "Decentralisation",
+      "value": 1
+    },
+    {
+      "name": "Healthcare Privatisation",
+      "value": 1
+    },
+    {
+      "name": "Local Authority",
+      "value": 1
+    },
+    {
+      "name": "Financing",
+      "value": 1
+    },
+    {
+      "name": "Kaya",
+      "value": 1
+    },
+    {
+      "name": "Bobo-Dioulasso",
+      "value": 1
+    },
+    {
+      "name": "Health Cooperation",
+      "value": 1
+    },
+    {
+      "name": "Gender Policy",
+      "value": 1
+    },
+    {
+      "name": "Bill & Melinda Gates Foundation",
+      "value": 1
+    },
+    {
+      "name": "Health Care",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Baguian, Sidibewindé Romain",
+      "value": 8
+    },
+    {
+      "name": "Banhoro, Yacouba",
+      "value": 7
+    },
+    {
+      "name": "Hien, Frederic",
+      "value": 6
+    },
+    {
+      "name": "Sib, Sié Moise",
+      "value": 2
+    },
+    {
+      "name": "Illy, Ousseni",
+      "value": 2
+    },
+    {
+      "name": "Sawadogo, Natéwindé",
+      "value": 2
+    },
+    {
+      "name": "Nurudong, Primus",
+      "value": 1
+    },
+    {
+      "name": "Kronenburg García, Angela",
+      "value": 1
+    },
+    {
+      "name": "Roque de Pinho, Joana",
+      "value": 1
+    },
+    {
+      "name": "Munguambe, Danicia",
+      "value": 1
+    },
+    {
+      "name": "Goldman, Mara",
+      "value": 1
+    },
+    {
+      "name": "Korbeogo, Gabin",
+      "value": 1
+    },
+    {
+      "name": "Sternberg, Troy",
+      "value": 1
+    },
+    {
+      "name": "Nabaloum, Abdoulassé",
+      "value": 1
+    },
+    {
+      "name": "Toe, Celestin",
+      "value": 1
+    },
+    {
+      "name": "Drabo, Manessour",
+      "value": 1
+    },
+    {
+      "name": "Soudré, Robert",
+      "value": 1
+    },
+    {
+      "name": "Samadoulougou, Sotissi Benoit Césaire",
+      "value": 1
+    },
+    {
+      "name": "Zoma, Tihamen",
+      "value": 1
+    },
+    {
+      "name": "Ouedraogo, Pissyamba",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Burkina Faso",
+      "region": "",
+      "city": "",
+      "count": 23
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "Centre",
+      "city": "Ouagadougou",
+      "count": 2
+    },
+    {
+      "country": "Ghana",
+      "region": "Upper West Region",
+      "city": "Nandom",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "66cefaf495a000d4c7bf3715",
+      "titleInfo": [
+        {
+          "title": "Primus Nurudong's Ghana Zoom transcript, September 13, 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0010"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8671",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Nabaloum Abdoulassé"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0000"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8672",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Toe Celestin"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0001"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8673",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Drabo Manessour"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0002"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8674",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Soudré Robert"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0003"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8675",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Samadoulougou Sotissi Benoit Césaire"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0004"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8676",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Zoma Tihamen"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0005"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8677",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Ouedraogo Pissyamba"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0006"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8678",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Sanon Bernard"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0007"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8679",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Ouedraogo Soumaila"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0008"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d867a",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Meda Bertrand"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0009"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d867b",
+      "titleInfo": [
+        {
+          "title": "Article sur le VIH/SIDA"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-000a"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d867c",
+      "titleInfo": [
+        {
+          "title": "Article sur la santé globale"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-000b"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d867d",
+      "titleInfo": [
+        {
+          "title": "Article sur l'action du Fonds Mondial au Burkina Faso"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-000c"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d867e",
+      "titleInfo": [
+        {
+          "title": "Draft sur le cadre juridique des politiques sanitaires au Burkina Faso"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-000d"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d867f",
+      "titleInfo": [
+        {
+          "title": "Draft sur les organisations du domaine de la santé dans le système sanitaire au Burkina Faso"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-000e"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8680",
+      "titleInfo": [
+        {
+          "title": "Draft sur la cedeao et la santé globale"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-000f"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8681",
+      "titleInfo": [
+        {
+          "title": "Rapports d'entretien"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0010"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8682",
+      "titleInfo": [
+        {
+          "title": "Rapport d'un panel d'échange"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0011"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8683",
+      "titleInfo": [
+        {
+          "title": "Vidéo d'un panel d'échange"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0012"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8684",
+      "titleInfo": [
+        {
+          "title": "Mémoire sur l'ONUSIDA"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0013"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8685",
+      "titleInfo": [
+        {
+          "title": "Mémoire sur le PADS"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0014"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8686",
+      "titleInfo": [
+        {
+          "title": "Mémoire sur le Fonds Mondial"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0015"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8687",
+      "titleInfo": [
+        {
+          "title": "Mémoire sur l'alliance GAVI et la fondation Bill et melinda Gates"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0016"
+    },
+    {
+      "_id": "69bd6ab9e8c44dbe5e6ba4ed",
+      "titleInfo": [
+        {
+          "title": "Resultats Enquete sur les rapports des Conseils des Ministres"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_KnowFranco2021",
+        "name": "The state of knowledge in French-speaking West Africa: the experience of the state and the institutionalisation of science in Burkina Faso and Senegal"
+      },
+      "dre_id": "acp-03-0000"
+    },
+    {
+      "_id": "69bd6ab9e8c44dbe5e6ba4ee",
+      "titleInfo": [
+        {
+          "title": "Resultats Enquete sur les rapports des Conseils des Ministres"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_KnowFranco2021",
+        "name": "The state of knowledge in French-speaking West Africa: the experience of the state and the institutionalisation of science in Burkina Faso and Senegal"
+      },
+      "dre_id": "acp-03-0001"
+    }
+  ]
+}

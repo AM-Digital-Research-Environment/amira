@@ -1,0 +1,672 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "book-reviews",
+    "name": "Book reviews",
+    "count": 15
+  },
+  "timeline": [
+    {
+      "year": 2004,
+      "count": 1
+    },
+    {
+      "year": 2010,
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "count": 2
+    },
+    {
+      "year": 2019,
+      "count": 3
+    },
+    {
+      "year": 2020,
+      "count": 5
+    },
+    {
+      "year": 2025,
+      "count": 3
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2004,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2010,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2018,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 2019,
+      "total": 3,
+      "byType": {
+        "Text": 3
+      }
+    },
+    {
+      "year": 2020,
+      "total": 5,
+      "byType": {
+        "Text": 5
+      }
+    },
+    {
+      "year": 2025,
+      "total": 3,
+      "byType": {
+        "Text": 3
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 15
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 13
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Hip-hop",
+      "value": 2
+    },
+    {
+      "name": "Drama",
+      "value": 1
+    },
+    {
+      "name": "Poetry",
+      "value": 1
+    },
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Women musicians",
+      "value": 1
+    },
+    {
+      "name": "Popular music",
+      "value": 1
+    },
+    {
+      "name": "Hausa (African people)",
+      "value": 1
+    },
+    {
+      "name": "Musicians",
+      "value": 1
+    },
+    {
+      "name": "Curriculum planning",
+      "value": 1
+    },
+    {
+      "name": "Education",
+      "value": 1
+    },
+    {
+      "name": "Decolonisation",
+      "value": 1
+    },
+    {
+      "name": "Social change",
+      "value": 1
+    },
+    {
+      "name": "Collective memory",
+      "value": 1
+    },
+    {
+      "name": "West Africa",
+      "value": 1
+    },
+    {
+      "name": "Apartheid",
+      "value": 1
+    },
+    {
+      "name": "Opera",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Culture",
+      "value": 1
+    },
+    {
+      "name": "Ritual",
+      "value": 1
+    },
+    {
+      "name": "Orisha religion",
+      "value": 1
+    },
+    {
+      "name": "Yoruba (African people)--Religion",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 13
+    },
+    {
+      "name": "Hip-hop",
+      "value": 2
+    },
+    {
+      "name": "Urban Culture",
+      "value": 2
+    },
+    {
+      "name": "Drama",
+      "value": 1
+    },
+    {
+      "name": "Poetry",
+      "value": 1
+    },
+    {
+      "name": "Elizabeth I",
+      "value": 1
+    },
+    {
+      "name": "Elizabethan Era",
+      "value": 1
+    },
+    {
+      "name": "Jacobean Era",
+      "value": 1
+    },
+    {
+      "name": "King James I",
+      "value": 1
+    },
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Women musicians",
+      "value": 1
+    },
+    {
+      "name": "Popular music",
+      "value": 1
+    },
+    {
+      "name": "Hausa (African people)",
+      "value": 1
+    },
+    {
+      "name": "Musicians",
+      "value": 1
+    },
+    {
+      "name": "Muslim Women",
+      "value": 1
+    },
+    {
+      "name": "Hausa Music",
+      "value": 1
+    },
+    {
+      "name": "Curriculum planning",
+      "value": 1
+    },
+    {
+      "name": "Education",
+      "value": 1
+    },
+    {
+      "name": "Decolonisation",
+      "value": 1
+    },
+    {
+      "name": "Music Education",
+      "value": 1
+    },
+    {
+      "name": "Decolonial Practice",
+      "value": 1
+    },
+    {
+      "name": "Pedagogy",
+      "value": 1
+    },
+    {
+      "name": "Curriculum",
+      "value": 1
+    },
+    {
+      "name": "Dustyfoot Philosophers",
+      "value": 1
+    },
+    {
+      "name": "Social change",
+      "value": 1
+    },
+    {
+      "name": "Collective memory",
+      "value": 1
+    },
+    {
+      "name": "Cultural Memory",
+      "value": 1
+    },
+    {
+      "name": "Senegal",
+      "value": 1
+    },
+    {
+      "name": "Sekuru’s Stories",
+      "value": 1
+    },
+    {
+      "name": "West Africa",
+      "value": 1
+    },
+    {
+      "name": "West African Dance",
+      "value": 1
+    },
+    {
+      "name": "Communication Theory",
+      "value": 1
+    },
+    {
+      "name": "Cultural Analysis",
+      "value": 1
+    },
+    {
+      "name": "Apartheid",
+      "value": 1
+    },
+    {
+      "name": "Opera",
+      "value": 1
+    },
+    {
+      "name": "Cultural Politics",
+      "value": 1
+    },
+    {
+      "name": "Public Life",
+      "value": 1
+    },
+    {
+      "name": "Morality",
+      "value": 1
+    },
+    {
+      "name": "Cameroon",
+      "value": 1
+    },
+    {
+      "name": "Afro-Asian Music",
+      "value": 1
+    },
+    {
+      "name": "Cultural Circulation",
+      "value": 1
+    },
+    {
+      "name": "Musical Imaginaries",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Culture",
+      "value": 1
+    },
+    {
+      "name": "Cultural Identity",
+      "value": 1
+    },
+    {
+      "name": "Youth Culture",
+      "value": 1
+    },
+    {
+      "name": "Urban Youth Identity",
+      "value": 1
+    },
+    {
+      "name": "Identity",
+      "value": 1
+    },
+    {
+      "name": "Ghetto",
+      "value": 1
+    },
+    {
+      "name": "Zimbabwe",
+      "value": 1
+    },
+    {
+      "name": "Politics",
+      "value": 1
+    },
+    {
+      "name": "Ritual",
+      "value": 1
+    },
+    {
+      "name": "Orisha religion",
+      "value": 1
+    },
+    {
+      "name": "Yoruba (African people)--Religion",
+      "value": 1
+    },
+    {
+      "name": "Ritual Music",
+      "value": 1
+    },
+    {
+      "name": "Religious Authenticity",
+      "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    },
+    {
+      "name": "Ifa-Orisa",
+      "value": 1
+    },
+    {
+      "name": "Cuba",
+      "value": 1
+    },
+    {
+      "name": "Cuban Ifa-Orisa",
+      "value": 1
+    },
+    {
+      "name": "Yoruba Art",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Crouch, Patricia",
+      "value": 1
+    },
+    {
+      "name": "University of Chicago Press",
+      "value": 1
+    },
+    {
+      "name": "Valentine, Sarah",
+      "value": 1
+    },
+    {
+      "name": "The Johns Hopkins University Press",
+      "value": 1
+    },
+    {
+      "name": "McConnachie, Boudina",
+      "value": 1
+    },
+    {
+      "name": "Amoros, Luis Gimenez",
+      "value": 1
+    },
+    {
+      "name": "Njoku, Obianuju Akunna",
+      "value": 1
+    },
+    {
+      "name": "Carver, Mandy",
+      "value": 1
+    },
+    {
+      "name": "Rantala, Janne",
+      "value": 1
+    },
+    {
+      "name": "Harris, Corey",
+      "value": 1
+    },
+    {
+      "name": "Dlamini, Sazi",
+      "value": 1
+    },
+    {
+      "name": "van Niekerk, Heather",
+      "value": 1
+    },
+    {
+      "name": "Petersen, Alvin",
+      "value": 1
+    },
+    {
+      "name": "Bradford, Abigail",
+      "value": 1
+    },
+    {
+      "name": "Kumar, Rakesh",
+      "value": 1
+    },
+    {
+      "name": "Vögele, Pius Jonas",
+      "value": 1
+    },
+    {
+      "name": "Gibbs, Tanesha",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 13
+    },
+    {
+      "country": "United States of America",
+      "region": "Illinois",
+      "city": "Chicago",
+      "count": 1
+    },
+    {
+      "country": "United States of America",
+      "region": "Maryland",
+      "city": "Baltimore",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a8ab2c85fe8df87112",
+      "titleInfo": [
+        {
+          "title": "Reviewed Work(s): Reflection of Africa in Elizabethan and Jacobean Drama and Poetry by Anne B. Mangum"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-001b"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8711d",
+      "titleInfo": [
+        {
+          "title": "Reviewed Work(s): Under the Sky of My Africa: Alexander Pushkin and Blackness. Evanston, IL by Catherine Theimer Nepomnyashchy, Nicole Svobodny and Ludmilla A. Trigos"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0026"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed9c",
+      "titleInfo": [
+        {
+          "title": "Sylvia Bruinders, Parading Respectability: The Cultural and Moral Aesthetics of the Christmas Bands Movement in the Western Cape, South Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03b7"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed9d",
+      "titleInfo": [
+        {
+          "title": "Jonathan Glasser, The Lost Paradise: Andalusi Music in Urban North Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03b8"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edb0",
+      "titleInfo": [
+        {
+          "title": "Beverly B. Mack. Muslim Women Sing: Hausa Popular Song"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03cb"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edb1",
+      "titleInfo": [
+        {
+          "title": "Akuno, Emily Achieng'. Music Education in Africa: Concept, Process, and Practice"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03cc"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edb3",
+      "titleInfo": [
+        {
+          "title": "Msia Kibona Clark. Hip-Hop in Africa: Prophets of the City and Dustyfoot Philosophers"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03ce"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edc0",
+      "titleInfo": [
+        {
+          "title": "In Hip hop Time: Music, Memory and Social Change in Urban Senegal"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03db"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edc1",
+      "titleInfo": [
+        {
+          "title": "Sekuru’s Stories"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03dc"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edc3",
+      "titleInfo": [
+        {
+          "title": "Dance in West Africa: Analysis and Description in Relation to Aspects of Communication Theory"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03de"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edc4",
+      "titleInfo": [
+        {
+          "title": "The La Traviata Affair: Opera in the Age of Apartheid"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03df"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edc5",
+      "titleInfo": [
+        {
+          "title": "Journey of Song: Public Life and Morality in Cameroon"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03e0"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ede5",
+      "titleInfo": [
+        {
+          "title": "AfroAsian Musical Imaginaries: Of Circulations and Interconnections"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0400"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ede6",
+      "titleInfo": [
+        {
+          "title": "Music and Urban Youth Identities. A Study of Ghetto Youth Identities in Contemporary Culture and Politics in Zimbabwe"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0401"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ede7",
+      "titleInfo": [
+        {
+          "title": "Efficacy of Sound, Power, Potency and Promise in the Translocal Ritual Music of Cuban Ifa-Orisa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0402"
+    }
+  ]
+}

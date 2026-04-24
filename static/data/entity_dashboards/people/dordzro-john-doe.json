@@ -1,0 +1,186 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "dordzro-john-doe",
+    "name": "Dordzro, John-Doe",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2025,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Brass bands",
+      "value": 2
+    },
+    {
+      "name": "Brass instruments",
+      "value": 1
+    },
+    {
+      "name": "Culture",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Colonies",
+      "value": 1
+    },
+    {
+      "name": "Colonisation",
+      "value": 1
+    },
+    {
+      "name": "Decolonisation",
+      "value": 1
+    },
+    {
+      "name": "Education",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Brass bands",
+      "value": 2
+    },
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Brass instruments",
+      "value": 1
+    },
+    {
+      "name": "Culture",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Colonies",
+      "value": 1
+    },
+    {
+      "name": "Colonisation",
+      "value": 1
+    },
+    {
+      "name": "Indigenisation",
+      "value": 1
+    },
+    {
+      "name": "Ghana",
+      "value": 1
+    },
+    {
+      "name": "Military Bands",
+      "value": 1
+    },
+    {
+      "name": "Military Music",
+      "value": 1
+    },
+    {
+      "name": "European",
+      "value": 1
+    },
+    {
+      "name": "Decolonisation",
+      "value": 1
+    },
+    {
+      "name": "Education",
+      "value": 1
+    },
+    {
+      "name": "Transgressive Learning",
+      "value": 1
+    },
+    {
+      "name": "Indigenous Knowledge System",
+      "value": 1
+    },
+    {
+      "name": "Music Education",
+      "value": 1
+    },
+    {
+      "name": "Pedagogy",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9edc9",
+      "titleInfo": [
+        {
+          "title": "BRASS BAND MUSIC IN GHANA: THE INDIGENISATION OF EUROPEAN MILITARY MUSIC"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03e4"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ede8",
+      "titleInfo": [
+        {
+          "title": "Adaptation of indigenous approaches to music pedagogy"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0403"
+    }
+  ]
+}

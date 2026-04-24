@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "diocesan-school-for-girls",
+    "name": "Diocesan School for Girls",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2012,
+      "count": 1
+    },
+    {
+      "year": 2014,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2012,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2014,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Dinka (African people)",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Dinka (African people)",
+      "value": 1
+    },
+    {
+      "name": "South Sudan",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Carver, Mandy",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ed06",
+      "titleInfo": [
+        {
+          "title": "AIDS, Politics and Music in South Africa. Fraser G. McNeill. 2011. Cambridge: Cambridge University Press. 278 pp."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0321"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed36",
+      "titleInfo": [
+        {
+          "title": "Songs of the Dinka of South Sudan. 2012. Recorded by Elizabeth Achol Ajuet Deng, Simon Yak Deng Yak and Tatiana Reid. Annotated and produced by Angela Impey. 44 pp. of notes, Dinka song texts with translations into English, 5 colour photographs. 1compact disc, 20 tracks. ; Dance To The Drum Of Our Home: A Book Of Dinka Children's Songs. 2012. Compiled by Peter Malek. Published by the compilers. 40 pp., bw illustrations, CD."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0351"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "mbande-ven-ncio",
+    "name": "Mbande, Venâncio",
+    "count": 5
+  },
+  "timeline": [
+    {
+      "year": 2011,
+      "count": 5
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2011,
+      "total": 5,
+      "byType": {
+        "Audio": 5
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Audio",
+      "value": 5
+    }
+  ],
+  "languages": [],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 5
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 5
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ece9",
+      "titleInfo": [
+        {
+          "title": "Mtsitso wogwitisa \"Zaripeni wangu”"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "dre_id": "eaa-99-0304"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ecea",
+      "titleInfo": [
+        {
+          "title": "Mzeno \"Political” (Webster)"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "dre_id": "eaa-99-0305"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eceb",
+      "titleInfo": [
+        {
+          "title": "Chibhudhu"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "dre_id": "eaa-99-0306"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ecec",
+      "titleInfo": [
+        {
+          "title": "Mtsitso"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "dre_id": "eaa-99-0307"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eced",
+      "titleInfo": [
+        {
+          "title": "Mtsitso"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "dre_id": "eaa-99-0308"
+    }
+  ]
+}

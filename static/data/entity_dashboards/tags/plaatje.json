@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "plaatje",
+    "name": "Plaatje",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1976,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1976,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "Mhudi",
+      "value": 1
+    },
+    {
+      "name": "Shakespeare",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Gray, Stephen",
+      "value": 1
+    },
+    {
+      "name": "California Institute of Technology",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "United States of America",
+      "region": "California",
+      "city": "Pasadena",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a8ab2c85fe8df87115",
+      "titleInfo": [
+        {
+          "title": "Sources of the First Black South African Novel in English: Solomon Plaatje's Use of Shakespeare and Bunyan in Mhudi"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-001e"
+    }
+  ]
+}

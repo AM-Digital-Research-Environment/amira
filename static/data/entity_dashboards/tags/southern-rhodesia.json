@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "southern-rhodesia",
+    "name": "Southern Rhodesia",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 1958,
+      "count": 2
+    },
+    {
+      "year": 1962,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1958,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1962,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "Field recordings",
+      "value": 1
+    },
+    {
+      "name": "Sound recordings",
+      "value": 1
+    },
+    {
+      "name": "Ethnology",
+      "value": 1
+    },
+    {
+      "name": "Musical notation",
+      "value": 1
+    },
+    {
+      "name": "Education",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 3
+    },
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "Zimbabwe",
+      "value": 2
+    },
+    {
+      "name": "Field recordings",
+      "value": 1
+    },
+    {
+      "name": "Sound recordings",
+      "value": 1
+    },
+    {
+      "name": "Ethnology",
+      "value": 1
+    },
+    {
+      "name": "Nyasaland",
+      "value": 1
+    },
+    {
+      "name": "Fort Victoria",
+      "value": 1
+    },
+    {
+      "name": "Salisbury",
+      "value": 1
+    },
+    {
+      "name": "Musical notation",
+      "value": 1
+    },
+    {
+      "name": "Education",
+      "value": 1
+    },
+    {
+      "name": "Northern Rhodesia",
+      "value": 1
+    },
+    {
+      "name": "Native Eduction",
+      "value": 1
+    },
+    {
+      "name": "Talking-gongs",
+      "value": 1
+    },
+    {
+      "name": "Republic of the Congo (Léopoldville)",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tracey, Hugh",
+      "value": 2
+    },
+    {
+      "name": "McHarg, James",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ea5e",
+      "titleInfo": [
+        {
+          "title": "Report on the ILAM Nyasaland recording tour (May 7th to June, 1958)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0079"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea66",
+      "titleInfo": [
+        {
+          "title": "African music in Rhodesian native eduction"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0081"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eab8",
+      "titleInfo": [
+        {
+          "title": "Notes and News"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00d3"
+    }
+  ]
+}

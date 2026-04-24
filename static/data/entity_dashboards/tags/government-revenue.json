@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "government-revenue",
+    "name": "Government Revenue",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2023,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2023,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "West Africa",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "West Africa",
+      "value": 2
+    },
+    {
+      "name": "Senegal",
+      "value": 2
+    },
+    {
+      "name": "Tax Revenue",
+      "value": 1
+    },
+    {
+      "name": "Total Revenue",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Koddenbrock, Kai",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "Senegal",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "674dba652e70d1e383d18af4",
+      "titleInfo": [
+        {
+          "title": "Government Revenue"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0011"
+    },
+    {
+      "_id": "674dba652e70d1e383d18af5",
+      "titleInfo": [
+        {
+          "title": "Government Revenue"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0012"
+    }
+  ]
+}

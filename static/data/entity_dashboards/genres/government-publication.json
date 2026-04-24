@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "type": "genre",
+    "id": "government-publication",
+    "name": "government publication",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2021,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2021,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Nation state",
+      "value": 2
+    },
+    {
+      "name": "Teachers",
+      "value": 2
+    },
+    {
+      "name": "Public administration",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Nation state",
+      "value": 2
+    },
+    {
+      "name": "Teachers",
+      "value": 2
+    },
+    {
+      "name": "Public administration",
+      "value": 2
+    },
+    {
+      "name": "Appointment",
+      "value": 2
+    },
+    {
+      "name": "Epistemology",
+      "value": 2
+    },
+    {
+      "name": "Burkina Faso",
+      "value": 2
+    },
+    {
+      "name": "Survey Results",
+      "value": 2
+    },
+    {
+      "name": "Status Report",
+      "value": 2
+    },
+    {
+      "name": "Researcher",
+      "value": 2
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Sawadogo, Natéwindé",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "Burkina Faso",
+      "region": "Centre",
+      "city": "Ouagadougou",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "69bd6ab9e8c44dbe5e6ba4ed",
+      "titleInfo": [
+        {
+          "title": "Resultats Enquete sur les rapports des Conseils des Ministres"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_KnowFranco2021",
+        "name": "The state of knowledge in French-speaking West Africa: the experience of the state and the institutionalisation of science in Burkina Faso and Senegal"
+      },
+      "dre_id": "acp-03-0000"
+    },
+    {
+      "_id": "69bd6ab9e8c44dbe5e6ba4ee",
+      "titleInfo": [
+        {
+          "title": "Resultats Enquete sur les rapports des Conseils des Ministres"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_KnowFranco2021",
+        "name": "The state of knowledge in French-speaking West Africa: the experience of the state and the institutionalisation of science in Burkina Faso and Senegal"
+      },
+      "dre_id": "acp-03-0001"
+    }
+  ]
+}

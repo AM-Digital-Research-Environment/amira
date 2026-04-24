@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "zeutzschel-g-nter",
+    "name": "Zeutzschel, Günter",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2022,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2022,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "value": 1
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "Nigeria",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "6705340c4b98fee5873b441a",
+      "titleInfo": [
+        {
+          "title": "Taiwo Shango oder der zweite Tag nach dem Tode Das Fernsehspiel - Archiv"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-000d"
+    }
+  ]
+}

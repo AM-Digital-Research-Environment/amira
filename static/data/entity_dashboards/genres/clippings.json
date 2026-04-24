@@ -1,0 +1,274 @@
+{
+  "meta": {
+    "type": "genre",
+    "id": "clippings",
+    "name": "Clippings",
+    "count": 5
+  },
+  "timeline": [
+    {
+      "year": 1981,
+      "count": 2
+    },
+    {
+      "year": 2013,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1981,
+      "total": 2,
+      "byType": {
+        "Image": 2
+      }
+    },
+    {
+      "year": 2013,
+      "total": 2,
+      "byType": {
+        "Image": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 5
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "value": 4
+    },
+    {
+      "name": "Hebrew",
+      "value": 1
+    },
+    {
+      "name": "Turkish",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Newspapers",
+      "value": 5
+    },
+    {
+      "name": "Exhibitions",
+      "value": 4
+    },
+    {
+      "name": "Albums",
+      "value": 4
+    },
+    {
+      "name": "Art",
+      "value": 3
+    },
+    {
+      "name": "Painting",
+      "value": 3
+    },
+    {
+      "name": "Africa",
+      "value": 3
+    },
+    {
+      "name": "Archives",
+      "value": 2
+    },
+    {
+      "name": "Photographs",
+      "value": 2
+    },
+    {
+      "name": "Horsemanship",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Newspapers",
+      "value": 5
+    },
+    {
+      "name": "Newspaper Article",
+      "value": 5
+    },
+    {
+      "name": "Art Exhibition",
+      "value": 5
+    },
+    {
+      "name": "Cultural Centre",
+      "value": 5
+    },
+    {
+      "name": "Iwalewahaus",
+      "value": 4
+    },
+    {
+      "name": "Exhibitions",
+      "value": 4
+    },
+    {
+      "name": "Albums",
+      "value": 4
+    },
+    {
+      "name": "Flyer",
+      "value": 3
+    },
+    {
+      "name": "Art",
+      "value": 3
+    },
+    {
+      "name": "Painting",
+      "value": 3
+    },
+    {
+      "name": "Africa",
+      "value": 3
+    },
+    {
+      "name": "Performing Arts Center",
+      "value": 3
+    },
+    {
+      "name": "Archives",
+      "value": 2
+    },
+    {
+      "name": "Photographs",
+      "value": 2
+    },
+    {
+      "name": "Horsemanship",
+      "value": 1
+    },
+    {
+      "name": "Allgemeine Zeitung",
+      "value": 1
+    },
+    {
+      "name": "Mainz",
+      "value": 1
+    },
+    {
+      "name": "Frankenpost",
+      "value": 1
+    },
+    {
+      "name": "Nordbayerischer Kurier",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Beier, Ulli",
+      "value": 5
+    },
+    {
+      "name": "Greven, Katharina",
+      "value": 5
+    },
+    {
+      "name": "Woldert, Siegfried",
+      "value": 1
+    },
+    {
+      "name": "Oyelami, Muraina",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 4
+    },
+    {
+      "country": "Germany",
+      "region": "Rhineland-Palatinate",
+      "city": "Mainz",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b491",
+      "titleInfo": [
+        {
+          "title": "Biodata Vol. I (Volume 40)"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0009"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b492",
+      "titleInfo": [
+        {
+          "title": "Albumseite mit Zeitungsartikel, Ausstellungsflyer und Fotografien des Iwalewahaus aufgeklebt"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-000a"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4b2",
+      "titleInfo": [
+        {
+          "title": "Zeitungsartikel über Léopold Sédar Senghors Besuch in Mainz von 1980.In einem Album, in dem Zeitungsartikel und Ausstellungsflyer aufgeklebt sind"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-002a"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4bb",
+      "titleInfo": [
+        {
+          "title": "Seite eines Albums, in dem Zeitungsartikel über das Iwalewahaus aufgeklebt sind und Fotografien der Veranstaltungen"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0033"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4bc",
+      "titleInfo": [
+        {
+          "title": "Seite eines Albums, in dem Zeitungsartikel über das Iwalewahaus aufgeklebt sind und Fotografien der Veranstaltungen"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0034"
+    }
+  ]
+}

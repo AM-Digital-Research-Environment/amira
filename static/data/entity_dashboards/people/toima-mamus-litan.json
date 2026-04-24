@@ -1,0 +1,257 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "toima-mamus-litan",
+    "name": "Toima, Mamus Litan",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2021,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2022,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    },
+    {
+      "name": "Maasai",
+      "value": 1
+    },
+    {
+      "name": "Swahili",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Arid regions",
+      "value": 2
+    },
+    {
+      "name": "Maasai (African people)",
+      "value": 2
+    },
+    {
+      "name": "Naturopathy",
+      "value": 1
+    },
+    {
+      "name": "East Africa",
+      "value": 1
+    },
+    {
+      "name": "Livestock",
+      "value": 1
+    },
+    {
+      "name": "Vaccination",
+      "value": 1
+    },
+    {
+      "name": "Tourism",
+      "value": 1
+    },
+    {
+      "name": "Prices",
+      "value": 1
+    },
+    {
+      "name": "Travel",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Arid regions",
+      "value": 2
+    },
+    {
+      "name": "Maasai (African people)",
+      "value": 2
+    },
+    {
+      "name": "Pastoralist",
+      "value": 2
+    },
+    {
+      "name": "Conservancy",
+      "value": 2
+    },
+    {
+      "name": "Sociality",
+      "value": 2
+    },
+    {
+      "name": "Tanzania",
+      "value": 2
+    },
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 2
+    },
+    {
+      "name": "Naturopathy",
+      "value": 1
+    },
+    {
+      "name": "East Africa",
+      "value": 1
+    },
+    {
+      "name": "Livelihood",
+      "value": 1
+    },
+    {
+      "name": "Endundulu",
+      "value": 1
+    },
+    {
+      "name": "Livestock",
+      "value": 1
+    },
+    {
+      "name": "Vaccination",
+      "value": 1
+    },
+    {
+      "name": "Tourism",
+      "value": 1
+    },
+    {
+      "name": "Prices",
+      "value": 1
+    },
+    {
+      "name": "Travel",
+      "value": 1
+    },
+    {
+      "name": "Lockdown",
+      "value": 1
+    },
+    {
+      "name": "Ghana",
+      "value": 1
+    },
+    {
+      "name": "Kenya",
+      "value": 1
+    },
+    {
+      "name": "Senegal",
+      "value": 1
+    },
+    {
+      "name": "Mobility",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Goldman, Mara",
+      "value": 2
+    },
+    {
+      "name": "Neboo, Stanley ole",
+      "value": 1
+    },
+    {
+      "name": "Kronenburg García, Angela",
+      "value": 1
+    },
+    {
+      "name": "Hashimshony Yaffe, Nurit",
+      "value": 1
+    },
+    {
+      "name": "Samimi, Cyrus",
+      "value": 1
+    },
+    {
+      "name": "Gargallo, Eduard",
+      "value": 1
+    },
+    {
+      "name": "Roque de Pinho, Joana",
+      "value": 1
+    },
+    {
+      "name": "Nurudong, Primus",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Tanzania",
+      "region": "",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "Kenya",
+      "region": "Narok",
+      "city": "Maasai Mara National Reserve",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "66cefaf495a000d4c7bf3716",
+      "titleInfo": [
+        {
+          "title": "Mamus Litan Toima's report on Tanzania, November 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0011"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3722",
+      "titleInfo": [
+        {
+          "title": "Stanley ole Neboo's Zoom meeting transcript on Kenya, January 31, 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-001d"
+    }
+  ]
+}

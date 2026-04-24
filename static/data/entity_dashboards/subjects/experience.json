@@ -1,0 +1,1346 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "experience",
+    "name": "Experience",
+    "count": 83
+  },
+  "timeline": [
+    {
+      "year": 2022,
+      "count": 41
+    },
+    {
+      "year": 2023,
+      "count": 42
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2022,
+      "total": 41,
+      "byType": {
+        "Text": 31,
+        "Audio": 1,
+        "Moving image": 9
+      }
+    },
+    {
+      "year": 2023,
+      "total": 42,
+      "byType": {
+        "Text": 40,
+        "Moving image": 1,
+        "Multimedia": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 71
+    },
+    {
+      "name": "Moving image",
+      "value": 10
+    },
+    {
+      "name": "Audio",
+      "value": 1
+    },
+    {
+      "name": "Multimedia",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 83
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Actors",
+      "value": 83
+    },
+    {
+      "name": "Aesthetics",
+      "value": 83
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Actors",
+      "value": 83
+    },
+    {
+      "name": "Aesthetics",
+      "value": 83
+    },
+    {
+      "name": "Cinema",
+      "value": 83
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Palm-Sanou, Valentine",
+      "value": 45
+    },
+    {
+      "name": "Fendler, Ute",
+      "value": 45
+    },
+    {
+      "name": "Ouoro, Justin",
+      "value": 44
+    },
+    {
+      "name": "Sore, Daouda",
+      "value": 27
+    },
+    {
+      "name": "Ouedraogo",
+      "value": 5
+    },
+    {
+      "name": "Billa, Eugénie",
+      "value": 5
+    },
+    {
+      "name": "Konkobo, Rosalie",
+      "value": 3
+    },
+    {
+      "name": "Kayoulou, Worokia",
+      "value": 3
+    },
+    {
+      "name": "Badiel",
+      "value": 2
+    },
+    {
+      "name": "Nikiema",
+      "value": 2
+    },
+    {
+      "name": "Bazie",
+      "value": 1
+    },
+    {
+      "name": "Nacoulma",
+      "value": 1
+    },
+    {
+      "name": "Tonde",
+      "value": 1
+    },
+    {
+      "name": "Nana",
+      "value": 1
+    },
+    {
+      "name": "Issouf",
+      "value": 1
+    },
+    {
+      "name": "Assabou",
+      "value": 1
+    },
+    {
+      "name": "Ky",
+      "value": 1
+    },
+    {
+      "name": "Kouassi",
+      "value": 1
+    },
+    {
+      "name": "Sylvain",
+      "value": 1
+    },
+    {
+      "name": "Ouattara",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Burkina Faso",
+      "region": "Centre",
+      "city": "Ouagadougou",
+      "count": 52
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "Centre-Ouest Region",
+      "city": "Koudougou",
+      "count": 31
+    }
+  ],
+  "items": [
+    {
+      "_id": "69bd30d562fdff17d6fc73aa",
+      "titleInfo": [
+        {
+          "title": "Entretien avec M. Bazie [réalisateur]"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0000"
+    },
+    {
+      "_id": "69bd30d562fdff17d6fc73ab",
+      "titleInfo": [
+        {
+          "title": "Entretien avec M. Nacoulma [producteur]"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0001"
+    },
+    {
+      "_id": "69bd30d562fdff17d6fc73ac",
+      "titleInfo": [
+        {
+          "title": "Entretien avec M. Ouedraogo [acteur/directeur]"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0002"
+    },
+    {
+      "_id": "69bd30d562fdff17d6fc73ad",
+      "titleInfo": [
+        {
+          "title": "Entretien avec M. Badiel [producteur/directeur]"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0003"
+    },
+    {
+      "_id": "69bd30d562fdff17d6fc73ae",
+      "titleInfo": [
+        {
+          "title": "Entretien avec M. Ouedraogo [producteur/directeur]"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0004"
+    },
+    {
+      "_id": "69bd30d562fdff17d6fc73af",
+      "titleInfo": [
+        {
+          "title": "Entretien avec M. Tonde [réalisateur]"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0005"
+    },
+    {
+      "_id": "69bd30d562fdff17d6fc73b0",
+      "titleInfo": [
+        {
+          "title": "Entretien avec M. Ouedraogo [réalisateur]"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0006"
+    },
+    {
+      "_id": "69bd30d562fdff17d6fc73b1",
+      "titleInfo": [
+        {
+          "title": "Entretien avec M. Nana [producteur/directeur]"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0007"
+    },
+    {
+      "_id": "69bd30d562fdff17d6fc73b2",
+      "titleInfo": [
+        {
+          "title": "Entretien avec M. Issouf [producteur/directeur]"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0008"
+    },
+    {
+      "_id": "69bd30d562fdff17d6fc73b3",
+      "titleInfo": [
+        {
+          "title": "Entretien avec M. Assabou [réalisateur]"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0009"
+    },
+    {
+      "_id": "69bd30d562fdff17d6fc73b4",
+      "titleInfo": [
+        {
+          "title": "Entretien avec M. Ouedraogo [réalisateur]"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-000a"
+    },
+    {
+      "_id": "69bd30d562fdff17d6fc73b5",
+      "titleInfo": [
+        {
+          "title": "Entretien avec M. Ky [réalisateur]"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-000b"
+    },
+    {
+      "_id": "69bd30d562fdff17d6fc73b6",
+      "titleInfo": [
+        {
+          "title": "Entretien avec M. Kouassi [réalisateur]"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-000c"
+    },
+    {
+      "_id": "69bd30d562fdff17d6fc73b7",
+      "titleInfo": [
+        {
+          "title": "Entretien avec M. Sylvain [producteur/directeur]"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-000d"
+    },
+    {
+      "_id": "69bd30d562fdff17d6fc73b8",
+      "titleInfo": [
+        {
+          "title": "Entretien avec M. Ouattara [producteur/directeur]"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-000e"
+    },
+    {
+      "_id": "69bd30d562fdff17d6fc73b9",
+      "titleInfo": [
+        {
+          "title": "Entretien avec M. Zongo [producteur/directeur]"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-000f"
+    },
+    {
+      "_id": "69bd30d562fdff17d6fc73ba",
+      "titleInfo": [
+        {
+          "title": "Entretien avec M. Nikiema [producteur]"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0010"
+    },
+    {
+      "_id": "69bd30d562fdff17d6fc73bb",
+      "titleInfo": [
+        {
+          "title": "Entretien avec M. Thombiano [producteur/directeur]"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0011"
+    },
+    {
+      "_id": "69bd30d562fdff17d6fc73bc",
+      "titleInfo": [
+        {
+          "title": "Entretien avec M. Ouedraogo [producteur/directeur]"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0012"
+    },
+    {
+      "_id": "69bd30d562fdff17d6fc73bd",
+      "titleInfo": [
+        {
+          "title": "Entretien avec M. Dabire [producteur/directeur]"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0013"
+    },
+    {
+      "_id": "69bd30d562fdff17d6fc73be",
+      "titleInfo": [
+        {
+          "title": "Entretien avec M. Tapsoba [producteur/directeur]"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0014"
+    },
+    {
+      "_id": "69bd30d562fdff17d6fc73bf",
+      "titleInfo": [
+        {
+          "title": "Entretien avec M. Nikiema [producteur]"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0015"
+    },
+    {
+      "_id": "69bd30d562fdff17d6fc73c0",
+      "titleInfo": [
+        {
+          "title": "Entretien avec M. Bouda [producteur/directeur]"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0016"
+    },
+    {
+      "_id": "69bd30d562fdff17d6fc73c1",
+      "titleInfo": [
+        {
+          "title": "Entretien avec DGAC [spécialiste du cinéma]"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0017"
+    },
+    {
+      "_id": "69bd30d562fdff17d6fc73c2",
+      "titleInfo": [
+        {
+          "title": "Entretien avec M. Badiel [producteur/directeur]"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0018"
+    },
+    {
+      "_id": "69bd30d562fdff17d6fc73c3",
+      "titleInfo": [
+        {
+          "title": "Entretien avec M. Ramdé [producteur/directeur]"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0019"
+    },
+    {
+      "_id": "69bd30d562fdff17d6fc73c4",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Mme. Palenfo [réalisatrice]"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-001a"
+    },
+    {
+      "_id": "69bd30d562fdff17d6fc73c5",
+      "titleInfo": [
+        {
+          "title": "Entretien avec M. Rouamba [actrice]"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-001b"
+    },
+    {
+      "_id": "69bd30d562fdff17d6fc73c6",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Mme. Bado [réalisatrice]"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-001c"
+    },
+    {
+      "_id": "69bd30d562fdff17d6fc73c7",
+      "titleInfo": [
+        {
+          "title": "Entretien avec M. Kaboré [ingénieur du son]"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-001d"
+    },
+    {
+      "_id": "69bd30d562fdff17d6fc73c8",
+      "titleInfo": [
+        {
+          "title": "Entretien avec M. Napon [producteur/directeur]"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-001e"
+    },
+    {
+      "_id": "69bd30d662fdff17d6fc73c9",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Mme. Traoré [actrice]"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-001f"
+    },
+    {
+      "_id": "69bd30d662fdff17d6fc73ca",
+      "titleInfo": [
+        {
+          "title": "Entretien avec M. Bagué [acteur/directeur]"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0020"
+    },
+    {
+      "_id": "69bd30d662fdff17d6fc73cb",
+      "titleInfo": [
+        {
+          "title": "Entretien avec M. Konaté [réalisateur]"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0021"
+    },
+    {
+      "_id": "69bd30d662fdff17d6fc73cc",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Mme. Barry [caméramane]"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0022"
+    },
+    {
+      "_id": "69bd30d662fdff17d6fc73cd",
+      "titleInfo": [
+        {
+          "title": "Entretien avec M. Dagnon [producteur/directeur]"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0023"
+    },
+    {
+      "_id": "69bd30d662fdff17d6fc73ce",
+      "titleInfo": [
+        {
+          "title": "Résultat enquête"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0024"
+    },
+    {
+      "_id": "69bd30d662fdff17d6fc73cf",
+      "titleInfo": [
+        {
+          "title": "Résultat enquête"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0025"
+    },
+    {
+      "_id": "69bd30d662fdff17d6fc73d0",
+      "titleInfo": [
+        {
+          "title": "Résultat enquête"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0026"
+    },
+    {
+      "_id": "69bd30d662fdff17d6fc73d1",
+      "titleInfo": [
+        {
+          "title": "Résultat enquête"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0027"
+    },
+    {
+      "_id": "69bd30d662fdff17d6fc73d2",
+      "titleInfo": [
+        {
+          "title": "Résultat enquête"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0028"
+    },
+    {
+      "_id": "69bd30d662fdff17d6fc73d3",
+      "titleInfo": [
+        {
+          "title": "Résultat enquête"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0029"
+    },
+    {
+      "_id": "69bd30d662fdff17d6fc73d4",
+      "titleInfo": [
+        {
+          "title": "Résultat enquête"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-002a"
+    },
+    {
+      "_id": "69bd30d662fdff17d6fc73d5",
+      "titleInfo": [
+        {
+          "title": "Résultat enquête"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-002b"
+    },
+    {
+      "_id": "69bd30d662fdff17d6fc73d6",
+      "titleInfo": [
+        {
+          "title": "Résultat enquête"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-002c"
+    },
+    {
+      "_id": "69bd30d662fdff17d6fc73d7",
+      "titleInfo": [
+        {
+          "title": "Résultat enquête"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-002d"
+    },
+    {
+      "_id": "69bd30d662fdff17d6fc73d8",
+      "titleInfo": [
+        {
+          "title": "Résultat enquête"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-002e"
+    },
+    {
+      "_id": "69bd30d662fdff17d6fc73d9",
+      "titleInfo": [
+        {
+          "title": "Résultat enquête"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-002f"
+    },
+    {
+      "_id": "69bd30d662fdff17d6fc73da",
+      "titleInfo": [
+        {
+          "title": "Résultat enquête"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0030"
+    },
+    {
+      "_id": "69bd30d662fdff17d6fc73db",
+      "titleInfo": [
+        {
+          "title": "Résultat enquête"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0031"
+    },
+    {
+      "_id": "69bd30d662fdff17d6fc73dc",
+      "titleInfo": [
+        {
+          "title": "Résultat enquête"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0032"
+    },
+    {
+      "_id": "69bd30d662fdff17d6fc73dd",
+      "titleInfo": [
+        {
+          "title": "Résultat enquête"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0033"
+    },
+    {
+      "_id": "69bd30d662fdff17d6fc73de",
+      "titleInfo": [
+        {
+          "title": "Résultat enquête"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0034"
+    },
+    {
+      "_id": "69bd30d662fdff17d6fc73df",
+      "titleInfo": [
+        {
+          "title": "Résultat enquête"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0035"
+    },
+    {
+      "_id": "69bd30d662fdff17d6fc73e0",
+      "titleInfo": [
+        {
+          "title": "Résultat enquête"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0036"
+    },
+    {
+      "_id": "69bd30d662fdff17d6fc73e1",
+      "titleInfo": [
+        {
+          "title": "Résultat enquête"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0037"
+    },
+    {
+      "_id": "69bd30d662fdff17d6fc73e2",
+      "titleInfo": [
+        {
+          "title": "Résultat enquête"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0038"
+    },
+    {
+      "_id": "69bd30d662fdff17d6fc73e3",
+      "titleInfo": [
+        {
+          "title": "Résultat enquête"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0039"
+    },
+    {
+      "_id": "69bd30d662fdff17d6fc73e4",
+      "titleInfo": [
+        {
+          "title": "Résultat enquête"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-003a"
+    },
+    {
+      "_id": "69bd30d662fdff17d6fc73e5",
+      "titleInfo": [
+        {
+          "title": "Résultat enquête"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-003b"
+    },
+    {
+      "_id": "69bd30d662fdff17d6fc73e6",
+      "titleInfo": [
+        {
+          "title": "Résultat enquête"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-003c"
+    },
+    {
+      "_id": "69bd30d662fdff17d6fc73e7",
+      "titleInfo": [
+        {
+          "title": "Résultat enquête"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-003d"
+    },
+    {
+      "_id": "69bd30d662fdff17d6fc73e8",
+      "titleInfo": [
+        {
+          "title": "Rapport d'atelier d'échanges avec les professionnelles du cinéma"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-003e"
+    },
+    {
+      "_id": "69bd30d662fdff17d6fc73e9",
+      "titleInfo": [
+        {
+          "title": "Vidéo d'atelier d'échanges avec les professionnelles du cinéma"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-003f"
+    },
+    {
+      "_id": "69bd30d762fdff17d6fc73ea",
+      "titleInfo": [
+        {
+          "title": "Images de l'enquête"
+        }
+      ],
+      "typeOfResource": "Multimedia",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0040"
+    },
+    {
+      "_id": "69bd30d762fdff17d6fc73eb",
+      "titleInfo": [
+        {
+          "title": "Résultat enquête"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0041"
+    },
+    {
+      "_id": "69bd30d762fdff17d6fc73ec",
+      "titleInfo": [
+        {
+          "title": "Résultat enquête"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0042"
+    },
+    {
+      "_id": "69bd30d762fdff17d6fc73ed",
+      "titleInfo": [
+        {
+          "title": "Résultat enquête"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0043"
+    },
+    {
+      "_id": "69bd30d762fdff17d6fc73ee",
+      "titleInfo": [
+        {
+          "title": "Résultat enquête"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0044"
+    },
+    {
+      "_id": "69bd30d762fdff17d6fc73ef",
+      "titleInfo": [
+        {
+          "title": "Résultat enquête"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0045"
+    },
+    {
+      "_id": "69bd30d762fdff17d6fc73f0",
+      "titleInfo": [
+        {
+          "title": "Résultat enquête"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0046"
+    },
+    {
+      "_id": "69bd30d762fdff17d6fc73f1",
+      "titleInfo": [
+        {
+          "title": "Résultat enquête"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0047"
+    },
+    {
+      "_id": "69bd30d762fdff17d6fc73f2",
+      "titleInfo": [
+        {
+          "title": "Résultat enquête"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0048"
+    },
+    {
+      "_id": "69bd30d762fdff17d6fc73f3",
+      "titleInfo": [
+        {
+          "title": "Résultat enquête"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0049"
+    },
+    {
+      "_id": "69bd30d762fdff17d6fc73f4",
+      "titleInfo": [
+        {
+          "title": "Résultat enquête"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-004a"
+    },
+    {
+      "_id": "69bd30d762fdff17d6fc73f5",
+      "titleInfo": [
+        {
+          "title": "Résultat enquête"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-004b"
+    },
+    {
+      "_id": "69bd30d762fdff17d6fc73f6",
+      "titleInfo": [
+        {
+          "title": "Résultat enquête"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-004c"
+    },
+    {
+      "_id": "69bd30d762fdff17d6fc73f7",
+      "titleInfo": [
+        {
+          "title": "Résultat enquête"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-004d"
+    },
+    {
+      "_id": "69bd30d762fdff17d6fc73f8",
+      "titleInfo": [
+        {
+          "title": "Résultat enquête"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-004e"
+    },
+    {
+      "_id": "69bd30d762fdff17d6fc73f9",
+      "titleInfo": [
+        {
+          "title": "Résultat enquête"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-004f"
+    },
+    {
+      "_id": "69bd30d762fdff17d6fc73fa",
+      "titleInfo": [
+        {
+          "title": "Résultat enquête"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0050"
+    },
+    {
+      "_id": "69bd30d762fdff17d6fc73fb",
+      "titleInfo": [
+        {
+          "title": "Résultat enquête"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0051"
+    },
+    {
+      "_id": "69bd30d762fdff17d6fc73fc",
+      "titleInfo": [
+        {
+          "title": "Résultat enquête"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-0052"
+    }
+  ]
+}

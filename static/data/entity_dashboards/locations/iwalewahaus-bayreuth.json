@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "iwalewahaus-bayreuth",
+    "name": "Iwalewahaus Bayreuth",
+    "count": 10
+  },
+  "timeline": [
+    {
+      "year": 1964,
+      "count": 8
+    },
+    {
+      "year": 1965,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1964,
+      "total": 8,
+      "byType": {
+        "Text": 8
+      }
+    },
+    {
+      "year": 1965,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 10
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 6
+    },
+    {
+      "name": "German",
+      "value": 6
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "Nigeria",
+      "value": 10
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Stephan, Klaus",
+      "value": 10
+    },
+    {
+      "name": "Fischer-Stephan, Nina",
+      "value": 4
+    },
+    {
+      "name": "Stauffer, E. O.",
+      "value": 2
+    }
+  ]
+}

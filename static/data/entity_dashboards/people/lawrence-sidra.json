@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "lawrence-sidra",
+    "name": "Lawrence, Sidra",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2009,
+      "count": 1
+    },
+    {
+      "year": 2011,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2009,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2011,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Dagaaba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Women musicians",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Ghana",
+      "value": 2
+    },
+    {
+      "name": "Dagaaba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Women musicians",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ecba",
+      "titleInfo": [
+        {
+          "title": "Female Voices from an Ewe Dance-Drumming Community in Ghana: Our Music Has Become a Divine Spirit, James Bums, Surrey, England and Burlington, VT: Ashgate, 2009, 199 pp., DVD, hardbound: 978-0-7546-6495-6."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02d5"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ecfc",
+      "titleInfo": [
+        {
+          "title": "Sounds of development? race, authenticity, and tradition among Dagara female musicians in Northwestern Ghana"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0317"
+    }
+  ]
+}

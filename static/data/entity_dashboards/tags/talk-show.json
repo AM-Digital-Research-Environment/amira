@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "talk-show",
+    "name": "Talk Show",
+    "count": 2
+  },
+  "timeline": [],
+  "stackedTimeline": [],
+  "types": [
+    {
+      "name": "Moving image",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Poets",
+      "value": 1
+    },
+    {
+      "name": "Novelists",
+      "value": 1
+    },
+    {
+      "name": "Interviews",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Concerts",
+      "value": 1
+    },
+    {
+      "name": "Sports",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Poets",
+      "value": 1
+    },
+    {
+      "name": "Novelists",
+      "value": 1
+    },
+    {
+      "name": "Interviews",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Concerts",
+      "value": 1
+    },
+    {
+      "name": "Live Music",
+      "value": 1
+    },
+    {
+      "name": "Sports",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Government of Liberia",
+      "value": 2
+    },
+    {
+      "name": "Dibango, Manu",
+      "value": 1
+    },
+    {
+      "name": "Members of the Liberian Association of Writers",
+      "value": 1
+    },
+    {
+      "name": "Collins, Hawa Andrews",
+      "value": 1
+    },
+    {
+      "name": "Caranda, Doughba C., II",
+      "value": 1
+    },
+    {
+      "name": "Robinson, Philip",
+      "value": 1
+    },
+    {
+      "name": "Bertin, Marcel",
+      "value": 1
+    },
+    {
+      "name": "Wisseh, Arthur",
+      "value": 1
+    },
+    {
+      "name": "Kugmeh, Patrick E.",
+      "value": 1
+    },
+    {
+      "name": "Urey, Khrushchev Borbor",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Liberia",
+      "region": "Montserrado County",
+      "city": "Monrovia",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "6982337057a8e0353b0b1cd8",
+      "titleInfo": [
+        {
+          "title": "Heritage Productions"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-009b"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d0b",
+      "titleInfo": [
+        {
+          "title": "LFA Today"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00ce"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "bedell-cromwell",
+    "name": "Bedell, Cromwell",
+    "count": 2
+  },
+  "timeline": [],
+  "stackedTimeline": [],
+  "types": [
+    {
+      "name": "Moving image",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Religion",
+      "value": 2
+    },
+    {
+      "name": "Christianity",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Religion",
+      "value": 2
+    },
+    {
+      "name": "Christianity",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Bethel World Outreach Church",
+      "value": 6
+    },
+    {
+      "name": "Flomo, Korkulor",
+      "value": 3
+    },
+    {
+      "name": "Liberia Broadcasting System (LBS)",
+      "value": 2
+    },
+    {
+      "name": "Johnson, Darlington",
+      "value": 2
+    },
+    {
+      "name": "Tatro, Russ",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Liberia",
+      "region": "Montserrado County",
+      "city": "Monrovia",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "6982337057a8e0353b0b1c5c",
+      "titleInfo": [
+        {
+          "title": "The Bethel Hour with Pastor Darlington Johnson"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-001f"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c60",
+      "titleInfo": [
+        {
+          "title": "The Bethel Hour with Pastor Darlington Johnson"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0023"
+    }
+  ]
+}

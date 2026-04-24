@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "cultural-affairs",
+    "name": "Cultural Affairs",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1988,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1988,
+      "total": 1,
+      "byType": {
+        "Moving image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Moving image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [],
+  "contributors": [
+    {
+      "name": "Government of Liberia",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Liberia",
+      "region": "Montserrado County",
+      "city": "Monrovia",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "6982337057a8e0353b0b1dee",
+      "titleInfo": [
+        {
+          "title": "Echoes of Liberian Culture"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-01b1"
+    }
+  ]
+}

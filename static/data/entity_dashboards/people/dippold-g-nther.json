@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "dippold-g-nther",
+    "name": "Dippold, Günther",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "National socialism",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "National socialism",
+      "value": 1
+    },
+    {
+      "name": "Race Theory",
+      "value": 1
+    },
+    {
+      "name": "Heimatgeschichte",
+      "value": 1
+    },
+    {
+      "name": "Memory Culture",
+      "value": 1
+    },
+    {
+      "name": "Houston Stewart Chamberlain",
+      "value": 1
+    },
+    {
+      "name": "Bayreuth",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "692db49707481a28c72155b4",
+      "titleInfo": [
+        {
+          "title": "Erinnerung direkt am Ort des Hasses"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-000c"
+    }
+  ]
+}

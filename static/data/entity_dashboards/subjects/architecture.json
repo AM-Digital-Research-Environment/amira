@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "architecture",
+    "name": "Architecture",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 1961,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1961,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 4
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Photographs",
+      "value": 2
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Painting",
+      "value": 1
+    },
+    {
+      "name": "Books",
+      "value": 1
+    },
+    {
+      "name": "Artists",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Photographs",
+      "value": 2
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Painting",
+      "value": 1
+    },
+    {
+      "name": "Books",
+      "value": 1
+    },
+    {
+      "name": "Yoruba Art",
+      "value": 1
+    },
+    {
+      "name": "Wall Painting",
+      "value": 1
+    },
+    {
+      "name": "Osogbo",
+      "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    },
+    {
+      "name": "Artists",
+      "value": 1
+    },
+    {
+      "name": "Ancestral Home",
+      "value": 1
+    },
+    {
+      "name": "Papua New Guinea",
+      "value": 1
+    },
+    {
+      "name": "New Guinea",
+      "value": 1
+    },
+    {
+      "name": "Reversal Film",
+      "value": 1
+    },
+    {
+      "name": "Maputo",
+      "value": 1
+    },
+    {
+      "name": "Mozambique",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Beier, Ulli",
+      "value": 4
+    },
+    {
+      "name": "Greven, Katharina",
+      "value": 3
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 1
+    },
+    {
+      "country": "Nigeria",
+      "region": "Osun State",
+      "city": "Osogbo",
+      "count": 1
+    },
+    {
+      "country": "Papua New Guinea",
+      "region": "",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "Mozambique",
+      "region": "Maputo",
+      "city": "Maputo",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b488",
+      "titleInfo": [
+        {
+          "title": "Volume 8: Yoruba Architecture and Wall Painting. Digitaler Scan im Beier-Nachlass"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-99-0000"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4a7",
+      "titleInfo": [
+        {
+          "title": "Das Haus der Beiers in Osogbo"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-001f"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4c9",
+      "titleInfo": [
+        {
+          "title": "Ahnenhaus in Papua Neuguinea"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0041"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4dc",
+      "titleInfo": [
+        {
+          "title": "Aufnahme von The Smiling Lion in Maputo"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0054"
+    }
+  ]
+}

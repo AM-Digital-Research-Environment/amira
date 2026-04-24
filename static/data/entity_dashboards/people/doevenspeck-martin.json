@@ -1,0 +1,374 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "doevenspeck-martin",
+    "name": "Doevenspeck, Martin",
+    "count": 15
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 14
+    },
+    {
+      "year": 2021,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 14,
+      "byType": {
+        "Text": 13,
+        "Audio": 1
+      }
+    },
+    {
+      "year": 2021,
+      "total": 1,
+      "byType": {
+        "Audio": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 13
+    },
+    {
+      "name": "Audio",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 10
+    },
+    {
+      "name": "French",
+      "value": 9
+    },
+    {
+      "name": "Swahili",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Land tenure",
+      "value": 9
+    },
+    {
+      "name": "Migration",
+      "value": 9
+    },
+    {
+      "name": "Social conflict",
+      "value": 9
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Land tenure",
+      "value": 9
+    },
+    {
+      "name": "Migration",
+      "value": 9
+    },
+    {
+      "name": "Social conflict",
+      "value": 9
+    },
+    {
+      "name": "Conflict Theory",
+      "value": 9
+    },
+    {
+      "name": "Oil Infrastructure",
+      "value": 3
+    },
+    {
+      "name": "East African Crude Oil Pipeline",
+      "value": 3
+    },
+    {
+      "name": "Uganda",
+      "value": 3
+    },
+    {
+      "name": "Mega Infrastructure",
+      "value": 3
+    },
+    {
+      "name": "Lamu Port and Lamu-Southern Sudan-Ethiopia Transport Corridor",
+      "value": 3
+    },
+    {
+      "name": "Kenya",
+      "value": 3
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Sebudandi, Christophe",
+      "value": 18
+    },
+    {
+      "name": "Kaganda Mulume Oderhwa, Philippe",
+      "value": 18
+    },
+    {
+      "name": "Mwanabiningo, Nene Morisho",
+      "value": 9
+    },
+    {
+      "name": "Tegera, Aloy",
+      "value": 9
+    },
+    {
+      "name": "Kinyera, Paddy Banya",
+      "value": 6
+    },
+    {
+      "name": "Lankes, Maximilian",
+      "value": 4
+    }
+  ],
+  "locations": [
+    {
+      "country": "Democratic Republic of the Congo",
+      "region": "Ituri",
+      "city": "Geti",
+      "count": 9
+    },
+    {
+      "country": "Kenya",
+      "region": "Turkana",
+      "city": "Turkana South",
+      "count": 4
+    },
+    {
+      "country": "Uganda",
+      "region": "Lwengo District",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "674dc0432e70d1e383d18afc",
+      "titleInfo": [
+        {
+          "title": "Recherche sur mobilité et conflits dans les grand lacs/cas de Hutu en Ituri"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MiConIturi2019",
+        "name": "Uhamaji wa wanyerwanda: Migration and Conflict in Ituri, DR Congo"
+      },
+      "dre_id": "acd-01-0000"
+    },
+    {
+      "_id": "674dc0432e70d1e383d18afd",
+      "titleInfo": [
+        {
+          "title": "Focus groupe: Membres communautés locales mixte (adultes, jeunes et vieillard)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MiConIturi2019",
+        "name": "Uhamaji wa wanyerwanda: Migration and Conflict in Ituri, DR Congo"
+      },
+      "dre_id": "acd-01-0001"
+    },
+    {
+      "_id": "674dc0432e70d1e383d18afe",
+      "titleInfo": [
+        {
+          "title": "Focus groupe: communauté Hutu mixte (adultes, jeunes et vieillard)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MiConIturi2019",
+        "name": "Uhamaji wa wanyerwanda: Migration and Conflict in Ituri, DR Congo"
+      },
+      "dre_id": "acd-01-0002"
+    },
+    {
+      "_id": "674dc0432e70d1e383d18aff",
+      "titleInfo": [
+        {
+          "title": "Focus groupe mixte pour Jeune autochtone et Hutu"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MiConIturi2019",
+        "name": "Uhamaji wa wanyerwanda: Migration and Conflict in Ituri, DR Congo"
+      },
+      "dre_id": "acd-01-0003"
+    },
+    {
+      "_id": "674dc0432e70d1e383d18b00",
+      "titleInfo": [
+        {
+          "title": "Research on mobility and conflict in the great lakes region/the case of the Hutu in Ituri"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MiConIturi2019",
+        "name": "Uhamaji wa wanyerwanda: Migration and Conflict in Ituri, DR Congo"
+      },
+      "dre_id": "acd-01-0004"
+    },
+    {
+      "_id": "674dc0432e70d1e383d18b01",
+      "titleInfo": [
+        {
+          "title": "Recherche sur mobilité et conflits dans les grand lacs/cas de Hutu en Ituri"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MiConIturi2019",
+        "name": "Uhamaji wa wanyerwanda: Migration and Conflict in Ituri, DR Congo"
+      },
+      "dre_id": "acd-01-0005"
+    },
+    {
+      "_id": "674dc0432e70d1e383d18b02",
+      "titleInfo": [
+        {
+          "title": "Focus group: mixed members of local communities (adults, young ones and the elderly)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MiConIturi2019",
+        "name": "Uhamaji wa wanyerwanda: Migration and Conflict in Ituri, DR Congo"
+      },
+      "dre_id": "acd-01-0006"
+    },
+    {
+      "_id": "674dc0432e70d1e383d18b03",
+      "titleInfo": [
+        {
+          "title": "Focus group: mixed Hutu community (adults, young people and the elderly)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MiConIturi2019",
+        "name": "Uhamaji wa wanyerwanda: Migration and Conflict in Ituri, DR Congo"
+      },
+      "dre_id": "acd-01-0007"
+    },
+    {
+      "_id": "674dc0432e70d1e383d18b04",
+      "titleInfo": [
+        {
+          "title": "Focus group: mixed young indigenous and Hutu people"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MiConIturi2019",
+        "name": "Uhamaji wa wanyerwanda: Migration and Conflict in Ituri, DR Congo"
+      },
+      "dre_id": "acd-01-0008"
+    },
+    {
+      "_id": "66e30b89f27a094a184204b0",
+      "titleInfo": [
+        {
+          "title": "Transcript of Interview with a local leader in Lwengo district"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_OilMov2019",
+        "name": "Oil Movements: The Production and Government of Petro-(im)mobilities in East Africa"
+      },
+      "dre_id": "aca-01-0000"
+    },
+    {
+      "_id": "66e30b89f27a094a184204b1",
+      "titleInfo": [
+        {
+          "title": "Transcript of Interview with a Sub-county official - Turkana South, Lokichar"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_OilMov2019",
+        "name": "Oil Movements: The Production and Government of Petro-(im)mobilities in East Africa"
+      },
+      "dre_id": "aca-01-0001"
+    },
+    {
+      "_id": "66e30b89f27a094a184204b2",
+      "titleInfo": [
+        {
+          "title": "Transcript of Interview with a local leader in Lwengo district"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_OilMov2019",
+        "name": "Oil Movements: The Production and Government of Petro-(im)mobilities in East Africa"
+      },
+      "dre_id": "aca-01-0002"
+    },
+    {
+      "_id": "66e30b89f27a094a184204b3",
+      "titleInfo": [
+        {
+          "title": "Transcript of Interview Chair of COE - Turkana South, Lokichar"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_OilMov2019",
+        "name": "Oil Movements: The Production and Government of Petro-(im)mobilities in East Africa"
+      },
+      "dre_id": "aca-01-0003"
+    },
+    {
+      "_id": "66e30b89f27a094a184204b4",
+      "titleInfo": [
+        {
+          "title": "Transcript of Interview with 2 PAPs in Lwengo district"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_OilMov2019",
+        "name": "Oil Movements: The Production and Government of Petro-(im)mobilities in East Africa"
+      },
+      "dre_id": "aca-01-0004"
+    },
+    {
+      "_id": "66e30b89f27a094a184204b5",
+      "titleInfo": [
+        {
+          "title": "Audio recording of an interview with LAPSSET project activist in Lokichar, Turkana South, Kenya"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_OilMov2019",
+        "name": "Oil Movements: The Production and Government of Petro-(im)mobilities in East Africa"
+      },
+      "dre_id": "aca-01-0005"
+    }
+  ]
+}

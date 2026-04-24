@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "lisbon",
+    "name": "Lisbon",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 2014,
+      "count": 4
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2014,
+      "total": 4,
+      "byType": {
+        "Image": 4
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 4
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 4
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Photographs",
+      "value": 3
+    },
+    {
+      "name": "Interior decoration",
+      "value": 2
+    },
+    {
+      "name": "Museum registration methods",
+      "value": 1
+    },
+    {
+      "name": "Masks",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Photographs",
+      "value": 3
+    },
+    {
+      "name": "Interior decoration",
+      "value": 2
+    },
+    {
+      "name": "Museum registration methods",
+      "value": 1
+    },
+    {
+      "name": "Accessioning (Works of Art)",
+      "value": 1
+    },
+    {
+      "name": "Cataloging (Works of Art)",
+      "value": 1
+    },
+    {
+      "name": "Classification (Works of Art)",
+      "value": 1
+    },
+    {
+      "name": "Masks",
+      "value": 1
+    },
+    {
+      "name": "Mask Collection",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Greven, Katharina",
+      "value": 4
+    },
+    {
+      "name": "Guedes, Pancho",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "Portugal",
+      "region": "Lisbon",
+      "city": "Lisbon",
+      "count": 2
+    },
+    {
+      "country": "Portugal",
+      "region": "Lisbon",
+      "city": "Sintra",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b538",
+      "titleInfo": [
+        {
+          "title": "Innenaufnahme des Hauses in Sintra"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-00b0"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b539",
+      "titleInfo": [
+        {
+          "title": "Innenaufnahme des Hauses in Lissabon"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-00b1"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b53a",
+      "titleInfo": [
+        {
+          "title": "Diakästen im Haus in Lissabon"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-00b2"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b53d",
+      "titleInfo": [
+        {
+          "title": "Maskensammlung im Haus in Lissabon"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-99-00b5"
+    }
+  ]
+}

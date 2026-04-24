@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "dreissig-hans",
+    "name": "Dreissig, Hans",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 1965,
+      "count": 4
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1965,
+      "total": 4,
+      "byType": {
+        "Text": 4
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 4
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "value": 4
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "Nigeria",
+      "value": 4
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Stephan, Klaus",
+      "value": 4
+    }
+  ],
+  "locations": [
+    {
+      "country": "Nigeria",
+      "region": "Oyo State",
+      "city": "Ibadan",
+      "count": 2
+    },
+    {
+      "country": "Nigeria",
+      "region": "Lagos State",
+      "city": "Lagos",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "6705340c4b98fee5873b4443",
+      "titleInfo": [
+        {
+          "title": "Letter Stephan_Dreissig 1965"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-0036"
+    },
+    {
+      "_id": "6705340c4b98fee5873b4447",
+      "titleInfo": [
+        {
+          "title": "Letter Dreissig_Stephan 1965"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-003a"
+    },
+    {
+      "_id": "6705340c4b98fee5873b4473",
+      "titleInfo": [
+        {
+          "title": "Letter Stephan_Dreissig 1965"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-0066"
+    },
+    {
+      "_id": "6705340c4b98fee5873b4477",
+      "titleInfo": [
+        {
+          "title": "Letter Dreissig_Stephan 1965"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-006a"
+    }
+  ]
+}

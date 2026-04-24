@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "social-aspects",
+    "name": "Social Aspects",
+    "count": 6
+  },
+  "timeline": [
+    {
+      "year": 1959,
+      "count": 4
+    },
+    {
+      "year": 1965,
+      "count": 1
+    },
+    {
+      "year": 1966,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1959,
+      "total": 4,
+      "byType": {
+        "Text": 4
+      }
+    },
+    {
+      "year": 1965,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1966,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 6
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 6
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Music",
+      "value": 6
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 6
+    },
+    {
+      "name": "Africa",
+      "value": 4
+    },
+    {
+      "name": "Sotho (African people)",
+      "value": 2
+    },
+    {
+      "name": "Field recordings",
+      "value": 2
+    },
+    {
+      "name": "Music appreciation",
+      "value": 2
+    },
+    {
+      "name": "Church music",
+      "value": 1
+    },
+    {
+      "name": "Folk music",
+      "value": 1
+    },
+    {
+      "name": "Shona (African people)",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Music",
+      "value": 6
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 6
+    },
+    {
+      "name": "African Music",
+      "value": 6
+    },
+    {
+      "name": "Africa",
+      "value": 4
+    },
+    {
+      "name": "Sotho (African people)",
+      "value": 2
+    },
+    {
+      "name": "Field recordings",
+      "value": 2
+    },
+    {
+      "name": "Basotho",
+      "value": 2
+    },
+    {
+      "name": "Lesotho",
+      "value": 2
+    },
+    {
+      "name": "Music appreciation",
+      "value": 2
+    },
+    {
+      "name": "Southern Sahara",
+      "value": 1
+    },
+    {
+      "name": "Church music",
+      "value": 1
+    },
+    {
+      "name": "Black People",
+      "value": 1
+    },
+    {
+      "name": "Folk music",
+      "value": 1
+    },
+    {
+      "name": "Religous Aspects",
+      "value": 1
+    },
+    {
+      "name": "Shona (African people)",
+      "value": 1
+    },
+    {
+      "name": "Zimbabwe",
+      "value": 1
+    },
+    {
+      "name": "Foreign Influences",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tracey, Hugh",
+      "value": 4
+    },
+    {
+      "name": "Wachsmann, Klaus",
+      "value": 1
+    },
+    {
+      "name": "Rhodes, Willard",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 6
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ea75",
+      "titleInfo": [
+        {
+          "title": "Basutoland recording tour, November 19th to December 3rd, 1959"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0090"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea76",
+      "titleInfo": [
+        {
+          "title": "The sociology of recording in Africa south of the Sahara"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0091"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea80",
+      "titleInfo": [
+        {
+          "title": "Changing times"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-009b"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea81",
+      "titleInfo": [
+        {
+          "title": "The future of music in Basutoland"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-009c"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb19",
+      "titleInfo": [
+        {
+          "title": "Musical appreciation among the Shona in the early thirties"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0134"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb29",
+      "titleInfo": [
+        {
+          "title": "Musical appreciation in central and southern Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0144"
+    }
+  ]
+}

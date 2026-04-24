@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "la-trobe-university",
+    "name": "La Trobe University",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1983,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1983,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Pressing, Jeff",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ec19",
+      "titleInfo": [
+        {
+          "title": "Rhythmic design in the support drums of Agbadza"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0234"
+    }
+  ]
+}

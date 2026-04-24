@@ -22,7 +22,7 @@
 	import { SemanticScatter } from '$lib/components/charts';
 	import type { ColorBy } from '$lib/components/charts/SemanticScatter.svelte';
 	import { loadSemanticMap, loadSimilarItems } from '$lib/utils/loaders';
-	import { allCollections } from '$lib/stores/data';
+	import { allCollections, ensureCollections } from '$lib/stores/data';
 	import { researchItemUrl } from '$lib/utils/urls';
 	import { universities } from '$lib/types';
 	import type {
@@ -65,6 +65,7 @@
 	}
 
 	onMount(async () => {
+		void ensureCollections(base);
 		// Only load map.json up-front; similar.json (~2.4 MB) is deferred
 		// until the first item is selected so the scatter renders sooner.
 		try {

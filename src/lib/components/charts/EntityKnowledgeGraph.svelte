@@ -17,6 +17,7 @@
 		institutionUrl,
 		projectUrl
 	} from '$lib/utils/urls';
+	import { slugify } from '$lib/utils/slugify';
 
 	type EntityType =
 		| 'researchItems'
@@ -73,17 +74,6 @@
 		institution: 'institutions',
 		institutions: 'institutions'
 	};
-
-	function slugify(s: string): string {
-		return s
-			.toLowerCase()
-			.trim()
-			.replace(/[\\/]/g, '-')
-			.replace(/[^a-z0-9-]+/g, '-')
-			.replace(/-+/g, '-')
-			.replace(/^-|-$/g, '')
-			.slice(0, 120);
-	}
 
 	let graphData = $state<NetworkData | null>(null);
 	let loading = $state(false);

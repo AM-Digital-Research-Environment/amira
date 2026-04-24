@@ -1,0 +1,263 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "herding",
+    "name": "Herding",
+    "count": 7
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 4
+    },
+    {
+      "year": 2022,
+      "count": 3
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 4,
+      "byType": {
+        "Collection": 4
+      }
+    },
+    {
+      "year": 2022,
+      "total": 3,
+      "byType": {
+        "Collection": 3
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Collection",
+      "value": 7
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Karakul sheep",
+      "value": 7
+    },
+    {
+      "name": "Karakul sheep industry",
+      "value": 7
+    },
+    {
+      "name": "Postcolonialism",
+      "value": 7
+    },
+    {
+      "name": "South Africa",
+      "value": 7
+    },
+    {
+      "name": "Agriculture",
+      "value": 7
+    },
+    {
+      "name": "Colonisation",
+      "value": 7
+    },
+    {
+      "name": "History",
+      "value": 4
+    },
+    {
+      "name": "Sheep-shearing",
+      "value": 4
+    },
+    {
+      "name": "Breeding",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Karakul sheep",
+      "value": 7
+    },
+    {
+      "name": "Karakul sheep industry",
+      "value": 7
+    },
+    {
+      "name": "Postcolonialism",
+      "value": 7
+    },
+    {
+      "name": "South Africa",
+      "value": 7
+    },
+    {
+      "name": "Agriculture",
+      "value": 7
+    },
+    {
+      "name": "Colonisation",
+      "value": 7
+    },
+    {
+      "name": "Namibia",
+      "value": 7
+    },
+    {
+      "name": "Swakara",
+      "value": 7
+    },
+    {
+      "name": "Karakul Circulations",
+      "value": 7
+    },
+    {
+      "name": "Colonial Economies",
+      "value": 7
+    },
+    {
+      "name": "Karakul Farming",
+      "value": 7
+    },
+    {
+      "name": "Germany",
+      "value": 7
+    },
+    {
+      "name": "Colonial South-West Africa",
+      "value": 7
+    },
+    {
+      "name": "German Colonialism",
+      "value": 7
+    },
+    {
+      "name": "History",
+      "value": 4
+    },
+    {
+      "name": "Sheep-shearing",
+      "value": 4
+    },
+    {
+      "name": "Breeding",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Schaumann, Eleanor",
+      "value": 7
+    }
+  ],
+  "locations": [
+    {
+      "country": "Namibia",
+      "region": "",
+      "city": "",
+      "count": 7
+    }
+  ],
+  "items": [
+    {
+      "_id": "66cf0d9595a000d4c7bf3744",
+      "titleInfo": [
+        {
+          "title": "Farm visit B"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-0019"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf3745",
+      "titleInfo": [
+        {
+          "title": "Farm visit C"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-001a"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf3746",
+      "titleInfo": [
+        {
+          "title": "Farm visit K"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-001b"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf3749",
+      "titleInfo": [
+        {
+          "title": "Interview ES"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-001e"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf374a",
+      "titleInfo": [
+        {
+          "title": "Interview ES"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-001f"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf374b",
+      "titleInfo": [
+        {
+          "title": "Interview ES"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-0020"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf374c",
+      "titleInfo": [
+        {
+          "title": "Interview ES"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-0021"
+    }
+  ]
+}

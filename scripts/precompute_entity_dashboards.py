@@ -2,25 +2,28 @@
 """
 Precompute per-entity dashboard JSON for the WissKI dashboard.
 
-Reads research items from MongoDB, runs entity-specific aggregators from the
+Reads research items from MongoDB (or the committed local JSON dumps when
+`--from-local` is passed), runs entity-specific aggregators from the
 `precompute/` package, and writes one JSON per entity instance under
-`static/data/entity_dashboards/<type>/<id>.json` plus a top-level
+`static/data/entity_dashboards/<type>/<slug>.json` plus a top-level
 `manifest.json` listing every generated file.
+
+Filename convention: every non-language entity is slugified via
+`precompute.aggregators.slugify()` so the disk path matches what the
+frontend loader computes from the display name (see
+`src/lib/utils/slugify.ts` and `entityDashboardLoader.ts`).
 
 READ-ONLY: this script never modifies MongoDB.
 
 Usage:
-    python scripts/precompute_entity_dashboards.py --entity language
-    python scripts/precompute_entity_dashboards.py --entity all
+    python scripts/precompute_entity_dashboards.py --entity all --from-local
+    python scripts/precompute_entity_dashboards.py --entity subject
     python scripts/precompute_entity_dashboards.py --entity language --dry-run
-
-The first reference implementation covers `language`; additional entity types
-land as separate follow-ups under AM-Digital-Research-Environment/amira#10.
 
 Requires:
     pip install pymongo  (already in scripts/requirements.txt)
 
-You must be connected to the university VPN.
+You must be connected to the university VPN when running without --from-local.
 """
 
 from __future__ import annotations
@@ -29,7 +32,7 @@ import argparse
 import json
 import os
 import sys
-from typing import Iterable
+from typing import Callable, Iterable
 
 from bson import json_util  # ships with pymongo
 
@@ -40,20 +43,63 @@ from precompute import generators
 
 
 # --------------------------------------------------------------------------
-# Entity dispatch
+# Shared helper for index-driven entity generators
 # --------------------------------------------------------------------------
 
 
-def generate_language_dashboards(
-    items: list[dict], out_root: str
+def _emit_from_index(
+    entity: str,
+    items: list[dict],
+    out_root: str,
+    *,
+    index_fn: Callable[[list[dict]], dict[str, list[dict]]],
+    generate_fn: Callable[[str, list[dict]], dict],
+    slug_fn: Callable[[str], str] | None = None,
+    min_count: int = 1,
 ) -> list[dict]:
     """
-    Emit one JSON per language code present in the archive.
+    Generic entity dispatcher.
 
-    Returns manifest entries (`{id, name, count}`) for inclusion in the
-    top-level manifest file.
+    `index_fn` groups items by the entity's display name, `generate_fn` emits
+    the per-entity JSON payload, and `slug_fn` (defaulting to `agg.slugify`)
+    derives the on-disk filename from the display name. Entities with fewer
+    than `min_count` items are skipped silently.
     """
-    out_dir = os.path.join(out_root, "languages")
+    dir_name = config.ENTITY_DIRS[entity]
+    out_dir = os.path.join(out_root, dir_name)
+    os.makedirs(out_dir, exist_ok=True)
+
+    index = index_fn(items)
+    slug = slug_fn or agg.slugify
+    entries: list[dict] = []
+
+    for name, bucket in sorted(index.items()):
+        if len(bucket) < min_count:
+            continue
+        file_slug = slug(name)
+        if not file_slug:
+            continue
+        payload = generate_fn(name, items)
+        out_path = os.path.join(out_dir, f"{file_slug}.json")
+        _write_json(out_path, payload)
+        entries.append(
+            {
+                "id": file_slug,
+                "name": payload["meta"]["name"],
+                "count": payload["meta"]["count"],
+            }
+        )
+        print(f"  {dir_name}/{file_slug}.json  ({payload['meta']['count']} items)")
+    return entries
+
+
+# --------------------------------------------------------------------------
+# Per-entity dispatchers
+# --------------------------------------------------------------------------
+
+
+def generate_language_dashboards(items: list[dict], out_root: str) -> list[dict]:
+    out_dir = os.path.join(out_root, config.ENTITY_DIRS["language"])
     os.makedirs(out_dir, exist_ok=True)
 
     index = generators.language_index(items)
@@ -76,10 +122,135 @@ def generate_language_dashboards(
     return entries
 
 
-ENTITY_DISPATCH = {
+def generate_subject_dashboards(items: list[dict], out_root: str) -> list[dict]:
+    return _emit_from_index(
+        "subject",
+        items,
+        out_root,
+        index_fn=generators.subject_index,
+        generate_fn=generators.generate_subject_dashboard,
+    )
+
+
+def generate_tag_dashboards(items: list[dict], out_root: str) -> list[dict]:
+    return _emit_from_index(
+        "tag",
+        items,
+        out_root,
+        index_fn=generators.tag_index,
+        generate_fn=generators.generate_tag_dashboard,
+    )
+
+
+def generate_genre_dashboards(items: list[dict], out_root: str) -> list[dict]:
+    return _emit_from_index(
+        "genre",
+        items,
+        out_root,
+        index_fn=generators.genre_index,
+        generate_fn=generators.generate_genre_dashboard,
+    )
+
+
+def generate_resource_type_dashboards(items: list[dict], out_root: str) -> list[dict]:
+    return _emit_from_index(
+        "resource-type",
+        items,
+        out_root,
+        index_fn=generators.resource_type_index,
+        generate_fn=generators.generate_resource_type_dashboard,
+    )
+
+
+def generate_group_dashboards(items: list[dict], out_root: str) -> list[dict]:
+    return _emit_from_index(
+        "group",
+        items,
+        out_root,
+        index_fn=generators.group_index,
+        generate_fn=generators.generate_group_dashboard,
+    )
+
+
+def generate_person_dashboards(items: list[dict], out_root: str) -> list[dict]:
+    # The frontend /people page lists 806 unique names; many only appear once
+    # as a project member or a bare record with no items attached. Ship
+    # dashboards only for people who actually contributed to a research item
+    # — everything else is an empty shell.
+    return _emit_from_index(
+        "person",
+        items,
+        out_root,
+        index_fn=generators.person_index,
+        generate_fn=generators.generate_person_dashboard,
+        min_count=1,
+    )
+
+
+def generate_institution_dashboards(items: list[dict], out_root: str) -> list[dict]:
+    return _emit_from_index(
+        "institution",
+        items,
+        out_root,
+        index_fn=generators.institution_index,
+        generate_fn=generators.generate_institution_dashboard,
+    )
+
+
+def generate_location_dashboards(items: list[dict], out_root: str) -> list[dict]:
+    return _emit_from_index(
+        "location",
+        items,
+        out_root,
+        index_fn=generators.location_index,
+        generate_fn=generators.generate_location_dashboard,
+    )
+
+
+def generate_research_section_dashboards(items: list[dict], out_root: str) -> list[dict]:
+    """Research sections aren't in the items stream directly — they're a project
+    attribute — so we load `dev.projectsData.json` and resolve items ∈ section
+    via `project.researchSection`. Keep this dispatcher specialised rather
+    than threading projects through the generic helper."""
+    projects = db.load_projects_from_local()
+    dir_name = config.ENTITY_DIRS["research-section"]
+    out_dir = os.path.join(out_root, dir_name)
+    os.makedirs(out_dir, exist_ok=True)
+
+    index = generators.research_section_index(items, projects)
+    entries: list[dict] = []
+
+    for name, bucket in sorted(index.items()):
+        if not bucket:
+            continue
+        slug = agg.slugify(name)
+        if not slug:
+            continue
+        payload = generators.generate_research_section_dashboard(name, items, projects)
+        out_path = os.path.join(out_dir, f"{slug}.json")
+        _write_json(out_path, payload)
+        entries.append(
+            {
+                "id": slug,
+                "name": payload["meta"]["name"],
+                "count": payload["meta"]["count"],
+            }
+        )
+        print(f"  {dir_name}/{slug}.json  ({payload['meta']['count']} items)")
+    return entries
+
+
+ENTITY_DISPATCH: dict[str, Callable[[list[dict], str], list[dict]]] = {
     "language": generate_language_dashboards,
-    # Phase 2 adds: subject, tag, person, institution, genre, resource-type,
-    # group, location, research-section, project, research-item.
+    "subject": generate_subject_dashboards,
+    "tag": generate_tag_dashboards,
+    "genre": generate_genre_dashboards,
+    "resource-type": generate_resource_type_dashboards,
+    "group": generate_group_dashboards,
+    "person": generate_person_dashboards,
+    "institution": generate_institution_dashboards,
+    "location": generate_location_dashboards,
+    "research-section": generate_research_section_dashboards,
 }
 
 
@@ -91,8 +262,6 @@ ENTITY_DISPATCH = {
 def _write_json(path: str, payload: dict) -> None:
     """Serialize with MongoDB Extended JSON so `{$date: ...}` round-trips."""
     with open(path, "w", encoding="utf-8") as fh:
-        # json_util handles ObjectId, datetime, Decimal128, etc. The frontend
-        # loader calls `transformMongoJSON()` to re-hydrate these wrappers.
         fh.write(json_util.dumps(payload, ensure_ascii=False, indent=2))
 
 
@@ -164,11 +333,37 @@ def main() -> int:
     print(f"Loaded {len(items)} items across {len(config.UNIVERSITY_DATABASES)} universities.")
 
     if args.dry_run:
-        # Quick integrity probe — counts per language, etc.
-        index = generators.language_index(items)
-        print(f"\nLanguages present: {len(index)}")
-        for code, code_items in sorted(index.items()):
-            print(f"  {code}: {len(code_items)} items")
+        for entity in ENTITY_DISPATCH if args.entity == "all" else [args.entity]:
+            print(f"\n--- {entity} ---")
+            if entity == "language":
+                index = generators.language_index(items)
+            elif entity == "subject":
+                index = generators.subject_index(items)
+            elif entity == "tag":
+                index = generators.tag_index(items)
+            elif entity == "genre":
+                index = generators.genre_index(items)
+            elif entity == "resource-type":
+                index = generators.resource_type_index(items)
+            elif entity == "group":
+                index = generators.group_index(items)
+            elif entity == "person":
+                index = generators.person_index(items)
+            elif entity == "institution":
+                index = generators.institution_index(items)
+            elif entity == "location":
+                index = generators.location_index(items)
+            elif entity == "research-section":
+                index = generators.research_section_index(
+                    items, db.load_projects_from_local()
+                )
+            else:
+                print(f"  (no dry-run inventory for '{entity}')")
+                continue
+            print(f"  {len(index)} unique {entity}s")
+            top = sorted(index.items(), key=lambda kv: -len(kv[1]))[:5]
+            for name, bucket in top:
+                print(f"    {name}: {len(bucket)} items")
         return 0
 
     os.makedirs(args.out, exist_ok=True)

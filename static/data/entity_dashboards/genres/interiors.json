@@ -1,0 +1,172 @@
+{
+  "meta": {
+    "type": "genre",
+    "id": "interiors",
+    "name": "Interiors",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2014,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2014,
+      "total": 2,
+      "byType": {
+        "Image": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 2
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Africa",
+      "value": 2
+    },
+    {
+      "name": "Artists",
+      "value": 2
+    },
+    {
+      "name": "Interior decoration",
+      "value": 2
+    },
+    {
+      "name": "Photographs",
+      "value": 2
+    },
+    {
+      "name": "Sculpture",
+      "value": 1
+    },
+    {
+      "name": "Wood-carving, Yoruba",
+      "value": 1
+    },
+    {
+      "name": "Painting",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Africa",
+      "value": 2
+    },
+    {
+      "name": "Artists",
+      "value": 2
+    },
+    {
+      "name": "Interior decoration",
+      "value": 2
+    },
+    {
+      "name": "Photographs",
+      "value": 2
+    },
+    {
+      "name": "Art Collector",
+      "value": 2
+    },
+    {
+      "name": "Art Collecting",
+      "value": 2
+    },
+    {
+      "name": "Sculpture",
+      "value": 1
+    },
+    {
+      "name": "Wood-carving, Yoruba",
+      "value": 1
+    },
+    {
+      "name": "Yoruba Art",
+      "value": 1
+    },
+    {
+      "name": "Osogbo",
+      "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    },
+    {
+      "name": "Painting",
+      "value": 1
+    },
+    {
+      "name": "Sydney",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Greven, Katharina",
+      "value": 2
+    },
+    {
+      "name": "Beier, Ulli",
+      "value": 2
+    },
+    {
+      "name": "Beier, Georgina",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "Nigeria",
+      "region": "Osun State",
+      "city": "Osogbo",
+      "count": 1
+    },
+    {
+      "country": "Australia",
+      "region": "New South Wales",
+      "city": "Sydney",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b51e",
+      "titleInfo": [
+        {
+          "title": "Eingang des Hauses in Osogbo"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0096"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b51f",
+      "titleInfo": [
+        {
+          "title": "Innenansicht des Eingangs des Hauses der Beiers in Sydney"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0097"
+    }
+  ]
+}

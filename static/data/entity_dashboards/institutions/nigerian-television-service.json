@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "nigerian-television-service",
+    "name": "Nigerian Television Service",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2021,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2021,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "Nigeria",
+      "value": 2
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kolade, Christopher",
+      "value": 2
+    },
+    {
+      "name": "Balogun, Lekan",
+      "value": 1
+    },
+    {
+      "name": "Matzke, Christine",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Nigeria",
+      "region": "",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "Germany",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "6705340c4b98fee5873b4412",
+      "titleInfo": [
+        {
+          "title": "Re: Taiwo Shango"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-0005"
+    },
+    {
+      "_id": "6705340c4b98fee5873b4414",
+      "titleInfo": [
+        {
+          "title": "2nd Set of Questions for Dr Christopher Kolade March 2022"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-0007"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "medecine",
+    "name": "Medecine",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2009,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2009,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "value": 1
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "Race Theory",
+      "value": 1
+    },
+    {
+      "name": "Togo-Hinterland Expedition",
+      "value": 1
+    },
+    {
+      "name": "Germany",
+      "value": 1
+    },
+    {
+      "name": "Togo",
+      "value": 1
+    },
+    {
+      "name": "Colonialism",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Riesz, Janós",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "692db49707481a28c72155af",
+      "titleInfo": [
+        {
+          "title": "Der Bericht des Arztes Dr. Richard Döring (1868-1939) über seine Teilnahme an der Togo-Hinterland-Expedition von 1894-1895"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0007"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "fort-malangcni-malawi",
+    "name": "Fort Malangcni, Malawi",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1964,
+      "count": 1
+    },
+    {
+      "year": 1969,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1964,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1969,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Folk dancing",
+      "value": 1
+    },
+    {
+      "name": "National songs",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Mbira",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Patriotic music",
+      "value": 1
+    },
+    {
+      "name": "Mbira music",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Folk dancing",
+      "value": 1
+    },
+    {
+      "name": "National songs",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Mbira",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Patriotic music",
+      "value": 1
+    },
+    {
+      "name": "Mbira music",
+      "value": 1
+    },
+    {
+      "name": "Zambia",
+      "value": 1
+    },
+    {
+      "name": "Malawi",
+      "value": 1
+    },
+    {
+      "name": "Mozambique",
+      "value": 1
+    },
+    {
+      "name": "Mbira (Instrument)",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Nurse, George T.",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9eaf7",
+      "titleInfo": [
+        {
+          "title": "Popular songs and national identity in Malawi"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0112"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb57",
+      "titleInfo": [
+        {
+          "title": "MEHRSTIMMIGKEIT UND TONSYSTEME IN ZENTRAL- UND OSTAFRIKA. Bemerkungen zu den eigenen, im Phonogrammarchiv der Osterreichischen Akademie der Wissenschaften archivierten Expeditionsaufnahmen. Gerhard Kubik. Communication No. 83 of the Phonogram Archive Commission of the Austrian Academy of Sciences. Vienna, 1968."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0172"
+    }
+  ]
+}

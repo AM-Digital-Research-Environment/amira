@@ -1,0 +1,384 @@
+{
+  "meta": {
+    "type": "genre",
+    "id": "documentary",
+    "name": "Documentary",
+    "count": 13
+  },
+  "timeline": [
+    {
+      "year": 1985,
+      "count": 1
+    },
+    {
+      "year": 1988,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1985,
+      "total": 1,
+      "byType": {
+        "Moving image": 1
+      }
+    },
+    {
+      "year": 1988,
+      "total": 2,
+      "byType": {
+        "Moving image": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Moving image",
+      "value": 13
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 13
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Education",
+      "value": 4
+    },
+    {
+      "name": "Agriculture",
+      "value": 1
+    },
+    {
+      "name": "Culture",
+      "value": 1
+    },
+    {
+      "name": "History",
+      "value": 1
+    },
+    {
+      "name": "Flight",
+      "value": 1
+    },
+    {
+      "name": "Health",
+      "value": 1
+    },
+    {
+      "name": "Interviews",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Education",
+      "value": 4
+    },
+    {
+      "name": "Power Supply",
+      "value": 2
+    },
+    {
+      "name": "Entertainment",
+      "value": 2
+    },
+    {
+      "name": "Agriculture",
+      "value": 1
+    },
+    {
+      "name": "Culture",
+      "value": 1
+    },
+    {
+      "name": "History",
+      "value": 1
+    },
+    {
+      "name": "Tradition",
+      "value": 1
+    },
+    {
+      "name": "Flight",
+      "value": 1
+    },
+    {
+      "name": "Film",
+      "value": 1
+    },
+    {
+      "name": "Coast Land",
+      "value": 1
+    },
+    {
+      "name": "Economic Updates",
+      "value": 1
+    },
+    {
+      "name": "Food Production",
+      "value": 1
+    },
+    {
+      "name": "Transportation Information",
+      "value": 1
+    },
+    {
+      "name": "Health",
+      "value": 1
+    },
+    {
+      "name": "Interviews",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Government of Liberia",
+      "value": 13
+    },
+    {
+      "name": "Liberia Broadcasting System (LBS)",
+      "value": 5
+    },
+    {
+      "name": "Forh, Juah",
+      "value": 1
+    },
+    {
+      "name": "Collins, Hawa Andrews",
+      "value": 1
+    },
+    {
+      "name": "Flomo, Korkulor",
+      "value": 1
+    },
+    {
+      "name": "Dembo Film Service",
+      "value": 1
+    },
+    {
+      "name": "Browne, Bishop George Daniel",
+      "value": 1
+    },
+    {
+      "name": "Tokpa, Henrique",
+      "value": 1
+    },
+    {
+      "name": "Kweekeh, Florida",
+      "value": 1
+    },
+    {
+      "name": "Badio, Cyrus",
+      "value": 1
+    },
+    {
+      "name": "Redd, Welma Campbell Mashinini",
+      "value": 1
+    },
+    {
+      "name": "Zonoe, Daniel",
+      "value": 1
+    },
+    {
+      "name": "Waines, David",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Liberia",
+      "region": "Montserrado County",
+      "city": "Monrovia",
+      "count": 13
+    }
+  ],
+  "items": [
+    {
+      "_id": "6982337057a8e0353b0b1c42",
+      "titleInfo": [
+        {
+          "title": "Food From the Soil"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0005"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c4d",
+      "titleInfo": [
+        {
+          "title": "BALAGWALAZU: The Town of Seven Cotton Trees"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0010"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cba",
+      "titleInfo": [
+        {
+          "title": "Inside LEC's power supply source"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-007d"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cbb",
+      "titleInfo": [
+        {
+          "title": "Liberia Electricity Corporation (LEC) Statement"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-007e"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cd2",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0095"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1ce4",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00a7"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1ce5",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00a8"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cf7",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00ba"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d00",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00c3"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d02",
+      "titleInfo": [
+        {
+          "title": "Let's find out"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00c5"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d6d",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0130"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1db0",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0173"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1db6",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0179"
+    }
+  ]
+}

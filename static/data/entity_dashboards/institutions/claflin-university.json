@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "claflin-university",
+    "name": "Claflin University",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2012,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2012,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Singing",
+      "value": 1
+    },
+    {
+      "name": "Ritual",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Singing",
+      "value": 1
+    },
+    {
+      "name": "Ritual",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    },
+    {
+      "name": "Uganda",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hoesing, Peter",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ed11",
+      "titleInfo": [
+        {
+          "title": "Kusamira: singing rituals of wellness in southern Uganda"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-032c"
+    }
+  ]
+}

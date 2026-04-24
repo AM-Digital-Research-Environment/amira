@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "brazil",
+    "name": "Brazil",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1987,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1987,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Music",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    },
+    {
+      "name": "Angola",
+      "value": 1
+    },
+    {
+      "name": "Black Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "De Oliveira Pinto, Tiago",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ec2c",
+      "titleInfo": [
+        {
+          "title": "ANGOLAN TRAITS IN BLACK MUSIC, GAMES AND DANCES OF BRAZIL, A study of African cultural extensions overseas, by Gerhard Kubik, Junta de Investigacoes Cientificas do Ultramar, Centro de Estudos de Antropologia Cultural, No. 10, Lisbon, 1979. pp 55, photographs."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0247"
+    }
+  ]
+}

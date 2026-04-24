@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "companhia-de-diamantes-de-angola",
+    "name": "Companhia de Diamantes de Angola",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1959,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1959,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Angola",
+      "value": 1
+    },
+    {
+      "name": "Museu do Dundo (Angola)",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "de Vilhena, Julio",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ea78",
+      "titleInfo": [
+        {
+          "title": "Folklore activities of the Musep do Dundo"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0093"
+    }
+  ]
+}

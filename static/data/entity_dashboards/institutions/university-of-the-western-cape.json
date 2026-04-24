@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "university-of-the-western-cape",
+    "name": "University of the Western Cape",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 2018,
+      "count": 2
+    },
+    {
+      "year": 2019,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2018,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 2019,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Book reviews",
+      "value": 2
+    },
+    {
+      "name": "Jazz",
+      "value": 1
+    },
+    {
+      "name": "Hip-hop",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 3
+    },
+    {
+      "name": "Book reviews",
+      "value": 2
+    },
+    {
+      "name": "Jazz",
+      "value": 1
+    },
+    {
+      "name": "Francophone Africa",
+      "value": 1
+    },
+    {
+      "name": "Hip-hop",
+      "value": 1
+    },
+    {
+      "name": "Urban Culture",
+      "value": 1
+    },
+    {
+      "name": "Dustyfoot Philosophers",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Amoros, Luis Gimenez",
+      "value": 2
+    },
+    {
+      "name": "Rantala, Janne",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ed9b",
+      "titleInfo": [
+        {
+          "title": "Pim Higginson, Scoring Race: Jazz, Fiction, and Francophone Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03b6"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed9d",
+      "titleInfo": [
+        {
+          "title": "Jonathan Glasser, The Lost Paradise: Andalusi Music in Urban North Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03b8"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edb3",
+      "titleInfo": [
+        {
+          "title": "Msia Kibona Clark. Hip-Hop in Africa: Prophets of the City and Dustyfoot Philosophers"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03ce"
+    }
+  ]
+}

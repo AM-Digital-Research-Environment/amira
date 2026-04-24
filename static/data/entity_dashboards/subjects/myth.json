@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "myth",
+    "name": "Myth",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1996,
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1996,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2018,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ritual",
+      "value": 1
+    },
+    {
+      "name": "Decolonisation",
+      "value": 1
+    },
+    {
+      "name": "Developing countries",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Ritual",
+      "value": 1
+    },
+    {
+      "name": "Uganda",
+      "value": 1
+    },
+    {
+      "name": "Buganda",
+      "value": 1
+    },
+    {
+      "name": "Kingship",
+      "value": 1
+    },
+    {
+      "name": "Decolonisation",
+      "value": 1
+    },
+    {
+      "name": "Developing countries",
+      "value": 1
+    },
+    {
+      "name": "Global South",
+      "value": 1
+    },
+    {
+      "name": "Continental Musicology",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kubik, Gerhard",
+      "value": 1
+    },
+    {
+      "name": "Pooley, Thomas M.",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ec5e",
+      "titleInfo": [
+        {
+          "title": "MYTH, RITUAL AND KINGSHIP IN BUGANDA, by Benjamin C. Ray, Oxford University Press, New York, Oxford, 1991,239pp., illus., photos."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0279"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eda0",
+      "titleInfo": [
+        {
+          "title": "CONTINENTAL MUSICOLOGY: DECOLONISING THE MYTH OF A SINGULAR \"AFRICAN MUSIC”"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03bb"
+    }
+  ]
+}

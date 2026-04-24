@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "mapfumo-thomas",
+    "name": "Mapfumo, Thomas",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 2015,
+      "count": 3
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2015,
+      "total": 3,
+      "byType": {
+        "Audio": 3
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Audio",
+      "value": 3
+    }
+  ],
+  "languages": [],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 3
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ed4c",
+      "titleInfo": [
+        {
+          "title": "Bukatiende (Wake Up, Let's Go)"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "dre_id": "eaa-99-0367"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed4d",
+      "titleInfo": [
+        {
+          "title": "Magariro (Tradition)"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "dre_id": "eaa-99-0368"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed4e",
+      "titleInfo": [
+        {
+          "title": "Shumba (The Lion)"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "dre_id": "eaa-99-0369"
+    }
+  ]
+}

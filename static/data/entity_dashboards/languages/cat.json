@@ -89,6 +89,14 @@
     {
       "name": "East Africa",
       "value": 1
+    },
+    {
+      "name": "Kenya",
+      "value": 1
+    },
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 1
     }
   ],
   "contributors": [
@@ -131,6 +139,22 @@
       "region": "Narok",
       "city": "Maasai Mara National Reserve",
       "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "66cefaf495a000d4c7bf3705",
+      "titleInfo": [
+        {
+          "title": "Angela Kronenburg Garcia's Zoom meeting transcript and report on Kenya, September 15, 2020"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0000"
     }
   ]
 }

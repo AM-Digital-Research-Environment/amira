@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "jones-claire",
+    "name": "Jones, Claire",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2012,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2012,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Marimba",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Marimba",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    },
+    {
+      "name": "Zimbabwe",
+      "value": 1
+    },
+    {
+      "name": "Social History",
+      "value": 1
+    },
+    {
+      "name": "Marimba (Instrument)",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ed0e",
+      "titleInfo": [
+        {
+          "title": "A modern tradition: the social history of the Zimbabwean Marimba"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0329"
+    }
+  ]
+}

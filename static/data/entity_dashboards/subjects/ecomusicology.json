@@ -1,0 +1,240 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "ecomusicology",
+    "name": "Ecomusicology",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 2019,
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2019,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 2022,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Drum",
+      "value": 1
+    },
+    {
+      "name": "Djembe",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Drum music",
+      "value": 1
+    },
+    {
+      "name": "Climate changes",
+      "value": 1
+    },
+    {
+      "name": "Environmental degradation",
+      "value": 1
+    },
+    {
+      "name": "Popular music",
+      "value": 1
+    },
+    {
+      "name": "Natural disasters",
+      "value": 1
+    },
+    {
+      "name": "Metaphor",
+      "value": 1
+    },
+    {
+      "name": "Brass bands",
+      "value": 1
+    },
+    {
+      "name": "West Africa",
+      "value": 1
+    },
+    {
+      "name": "Discourse analysis",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 3
+    },
+    {
+      "name": "Drum",
+      "value": 1
+    },
+    {
+      "name": "Djembe",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Drum music",
+      "value": 1
+    },
+    {
+      "name": "Climate changes",
+      "value": 1
+    },
+    {
+      "name": "Sabar (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Sanegal",
+      "value": 1
+    },
+    {
+      "name": "Drum (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Environmental degradation",
+      "value": 1
+    },
+    {
+      "name": "Popular music",
+      "value": 1
+    },
+    {
+      "name": "Natural disasters",
+      "value": 1
+    },
+    {
+      "name": "Ibadan",
+      "value": 1
+    },
+    {
+      "name": "Flood",
+      "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    },
+    {
+      "name": "Metaphor",
+      "value": 1
+    },
+    {
+      "name": "Brass bands",
+      "value": 1
+    },
+    {
+      "name": "West Africa",
+      "value": 1
+    },
+    {
+      "name": "Discourse analysis",
+      "value": 1
+    },
+    {
+      "name": "Benin",
+      "value": 1
+    },
+    {
+      "name": "Hot Rhythm",
+      "value": 1
+    },
+    {
+      "name": "Climatic Metaphor",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tang, Patricia",
+      "value": 1
+    },
+    {
+      "name": "Titus, Olusegun Stephen",
+      "value": 1
+    },
+    {
+      "name": "Copeland, Lyndsey Hoh",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9edac",
+      "titleInfo": [
+        {
+          "title": "TWENTY-FIRST CENTURY SABAR DRUMS: INNOVATIONS IN ORGANOLOGY AND PERFORMANCE PRACTICES IN SENEGAL AND THE DIASPORA"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03c7"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edad",
+      "titleInfo": [
+        {
+          "title": "ECOMUSICOLOGY, INDIGENOUS KNOWLEDGE AND ENVIRONMENTAL DEGRADATION IN IBADAN, NIGERIA"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03c8"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edd5",
+      "titleInfo": [
+        {
+          "title": "Hotness revisited"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03f0"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "hausa-language",
+    "name": "Hausa language",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 1950,
+      "count": 4
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1950,
+      "total": 4,
+      "byType": {
+        "Audio": 4
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Audio",
+      "value": 4
+    }
+  ],
+  "languages": [
+    {
+      "name": "Hausa",
+      "value": 4
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 4
+    },
+    {
+      "name": "Hausa (African people)",
+      "value": 4
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Ethnomusicology",
+      "value": 4
+    },
+    {
+      "name": "Hausa (African people)",
+      "value": 4
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Amadu Zabkama Group",
+      "value": 4
+    },
+    {
+      "name": "DECCA",
+      "value": 4
+    },
+    {
+      "name": "Ghana Broadcasting Corporation Gramophone Library",
+      "value": 4
+    }
+  ],
+  "locations": [
+    {
+      "country": "Ghana",
+      "region": "",
+      "city": "",
+      "count": 4
+    }
+  ],
+  "items": [
+    {
+      "_id": "66c34de8ba20a6d8a816ac88",
+      "titleInfo": [
+        {
+          "title": "Zalaei"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-008a"
+    },
+    {
+      "_id": "66c34de8ba20a6d8a816ac89",
+      "titleInfo": [
+        {
+          "title": "Serikin Zarme Kwai Doso"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-008b"
+    },
+    {
+      "_id": "66c34de8ba20a6d8a816ac8a",
+      "titleInfo": [
+        {
+          "title": "Haoka"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-008c"
+    },
+    {
+      "_id": "66c34de8ba20a6d8a816ac8b",
+      "titleInfo": [
+        {
+          "title": "Serikin Lamido Birni"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-008d"
+    }
+  ]
+}

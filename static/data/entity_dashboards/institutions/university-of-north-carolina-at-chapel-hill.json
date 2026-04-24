@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "university-of-north-carolina-at-chapel-hill",
+    "name": "University of North Carolina at Chapel Hill",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1999,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1999,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "South Africa",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Muller, Carol",
+      "value": 1
+    },
+    {
+      "name": "Topp Fargion, Janet",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ec80",
+      "titleInfo": [
+        {
+          "title": "Gumboots, Bhaca migrants, and Fred Astaire: South African worker dance and musical style"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-029b"
+    }
+  ]
+}

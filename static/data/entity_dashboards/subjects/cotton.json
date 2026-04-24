@@ -1,0 +1,190 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "cotton",
+    "name": "Cotton",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 2023,
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2023,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 2024,
+      "total": 2,
+      "byType": {
+        "Manuscript": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Manuscript",
+      "value": 2
+    },
+    {
+      "name": "Image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Manuscripts",
+      "value": 2
+    },
+    {
+      "name": "Early modern, 1500-1700",
+      "value": 2
+    },
+    {
+      "name": "Literature",
+      "value": 2
+    },
+    {
+      "name": "Africa",
+      "value": 2
+    },
+    {
+      "name": "International trade",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Manuscripts",
+      "value": 2
+    },
+    {
+      "name": "Early modern, 1500-1700",
+      "value": 2
+    },
+    {
+      "name": "Literature",
+      "value": 2
+    },
+    {
+      "name": "Africa",
+      "value": 2
+    },
+    {
+      "name": "Augustus",
+      "value": 2
+    },
+    {
+      "name": "England",
+      "value": 2
+    },
+    {
+      "name": "Knowledge",
+      "value": 2
+    },
+    {
+      "name": "International trade",
+      "value": 1
+    },
+    {
+      "name": "Global History",
+      "value": 1
+    },
+    {
+      "name": "Bayreuth",
+      "value": 1
+    },
+    {
+      "name": "Colonialism",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Aboluwade, Ifeoluwa",
+      "value": 2
+    },
+    {
+      "name": "Eschenbacher, Ute",
+      "value": 1
+    },
+    {
+      "name": "Unterburger, Florian",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "United Kingdom",
+      "region": "England",
+      "city": "London",
+      "count": 2
+    },
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a9ab2c85fe8df872fd",
+      "titleInfo": [
+        {
+          "title": "William Augustus"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0206"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872fe",
+      "titleInfo": [
+        {
+          "title": "William Augustus"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0207"
+    },
+    {
+      "_id": "692db49707481a28c72155a9",
+      "titleInfo": [
+        {
+          "title": "Baumwollspinnerei: Gründung mit Kolonialkapital"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0001"
+    }
+  ]
+}

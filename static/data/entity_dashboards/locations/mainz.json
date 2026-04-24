@@ -1,0 +1,157 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "mainz",
+    "name": "Mainz",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 1980,
+      "count": 3
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1980,
+      "total": 3,
+      "byType": {
+        "Image": 3
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 4
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    },
+    {
+      "name": "German",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Art",
+      "value": 4
+    },
+    {
+      "name": "Painting",
+      "value": 4
+    },
+    {
+      "name": "Africa",
+      "value": 4
+    },
+    {
+      "name": "Exhibitions",
+      "value": 4
+    },
+    {
+      "name": "Artists",
+      "value": 3
+    },
+    {
+      "name": "Interior decoration",
+      "value": 1
+    },
+    {
+      "name": "Newspapers",
+      "value": 1
+    },
+    {
+      "name": "Albums",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Art",
+      "value": 4
+    },
+    {
+      "name": "Painting",
+      "value": 4
+    },
+    {
+      "name": "Africa",
+      "value": 4
+    },
+    {
+      "name": "Exhibitions",
+      "value": 4
+    },
+    {
+      "name": "Art Exhibition",
+      "value": 4
+    },
+    {
+      "name": "Mainz",
+      "value": 4
+    },
+    {
+      "name": "Cultural Centre",
+      "value": 4
+    },
+    {
+      "name": "Performing Arts Center",
+      "value": 4
+    },
+    {
+      "name": "Artists",
+      "value": 3
+    },
+    {
+      "name": "Modern African Art",
+      "value": 3
+    },
+    {
+      "name": "Interior decoration",
+      "value": 1
+    },
+    {
+      "name": "Newspapers",
+      "value": 1
+    },
+    {
+      "name": "Albums",
+      "value": 1
+    },
+    {
+      "name": "Allgemeine Zeitung",
+      "value": 1
+    },
+    {
+      "name": "Newspaper Article",
+      "value": 1
+    },
+    {
+      "name": "Flyer",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Beier, Ulli",
+      "value": 4
+    },
+    {
+      "name": "Benz, Klaus",
+      "value": 2
+    },
+    {
+      "name": "Sédar Senghor, Leopold",
+      "value": 2
+    },
+    {
+      "name": "Greven, Katharina",
+      "value": 2
+    }
+  ]
+}

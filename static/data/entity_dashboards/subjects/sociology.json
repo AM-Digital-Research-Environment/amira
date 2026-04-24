@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "sociology",
+    "name": "Sociology",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2024,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2024,
+      "total": 1,
+      "byType": {
+        "Bibliography": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Bibliography",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    },
+    {
+      "name": "French",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethics",
+      "value": 1
+    },
+    {
+      "name": "Wars",
+      "value": 1
+    },
+    {
+      "name": "Humanities",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Ethics",
+      "value": 1
+    },
+    {
+      "name": "Wars",
+      "value": 1
+    },
+    {
+      "name": "Humanities",
+      "value": 1
+    },
+    {
+      "name": "Humanitarian Studies",
+      "value": 1
+    },
+    {
+      "name": "Humanitarian",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Glasman, Joël",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "672b6332248362c6205092d3",
+      "titleInfo": [
+        {
+          "title": "Chapter Three: Guerres. Sociologie des conflits"
+        }
+      ],
+      "typeOfResource": "Bibliography",
+      "project": {
+        "id": "UBT_Humanitar2019",
+        "name": "Humanities for Humanitarians. An Experiment in the Public Implications of Multiple Ontology"
+      },
+      "dre_id": "abv-01-0003"
+    }
+  ]
+}

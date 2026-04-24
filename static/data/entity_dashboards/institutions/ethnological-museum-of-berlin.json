@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "ethnological-museum-of-berlin",
+    "name": "Ethnological Museum of Berlin",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1987,
+      "count": 1
+    },
+    {
+      "year": 1996,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1987,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1996,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Equatorial Guinea",
+      "value": 1
+    },
+    {
+      "name": "Gabon",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Simon, Artur",
+      "value": 1
+    },
+    {
+      "name": "Meyer, Andrea",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ec25",
+      "titleInfo": [
+        {
+          "title": "African music activities of the Department of Ethnomusicology at the Ethnographical Museum of Berlin (West) by Prof. Dr. Artur Simon"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0240"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec63",
+      "titleInfo": [
+        {
+          "title": "A HANDBOOK OF MUSICAL AND OTHER SOUND-PRODUCING INSTRUMENTS FROM EQUATORIAL GUINEA AND GABON, by Åke Norborg, Musikmuseets, Stockholm, No 16, 1989, pp.469."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-027e"
+    }
+  ]
+}

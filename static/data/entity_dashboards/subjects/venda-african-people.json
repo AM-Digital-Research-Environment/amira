@@ -1,0 +1,236 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "venda-african-people",
+    "name": "Venda (African people)",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 1959,
+      "count": 1
+    },
+    {
+      "year": 1962,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1959,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1962,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "South Africa",
+      "value": 3
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 3
+    },
+    {
+      "name": "Music",
+      "value": 3
+    },
+    {
+      "name": "Musical instruments",
+      "value": 2
+    },
+    {
+      "name": "Melody",
+      "value": 1
+    },
+    {
+      "name": "Ocarina music",
+      "value": 1
+    },
+    {
+      "name": "Musical pitch",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Harmony",
+      "value": 1
+    },
+    {
+      "name": "Folk dancing",
+      "value": 1
+    },
+    {
+      "name": "Flute music",
+      "value": 1
+    },
+    {
+      "name": "Xylophone music",
+      "value": 1
+    },
+    {
+      "name": "Xylophone",
+      "value": 1
+    },
+    {
+      "name": "Flute",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "South Africa",
+      "value": 3
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 3
+    },
+    {
+      "name": "Music",
+      "value": 3
+    },
+    {
+      "name": "African Music",
+      "value": 3
+    },
+    {
+      "name": "Musical instruments",
+      "value": 2
+    },
+    {
+      "name": "Melody",
+      "value": 1
+    },
+    {
+      "name": "Ocarina music",
+      "value": 1
+    },
+    {
+      "name": "Musical pitch",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Harmony",
+      "value": 1
+    },
+    {
+      "name": "Folk dancing",
+      "value": 1
+    },
+    {
+      "name": "Venda Dance",
+      "value": 1
+    },
+    {
+      "name": "Social Life",
+      "value": 1
+    },
+    {
+      "name": "Social Customs",
+      "value": 1
+    },
+    {
+      "name": "Flute music",
+      "value": 1
+    },
+    {
+      "name": "Xylophone music",
+      "value": 1
+    },
+    {
+      "name": "Xylophone",
+      "value": 1
+    },
+    {
+      "name": "Flute",
+      "value": 1
+    },
+    {
+      "name": "Flute (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Xylophone (Instrument)",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Blacking, John",
+      "value": 2
+    },
+    {
+      "name": "Jones, A. M.",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ea82",
+      "titleInfo": [
+        {
+          "title": "Problems of pitch, pattern and harmony in the ocarina music of the Venda"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-009d"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eac0",
+      "titleInfo": [
+        {
+          "title": "Musical expeditions of the Venda"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00db"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eac7",
+      "titleInfo": [
+        {
+          "title": "Venda note-names"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00e2"
+    }
+  ]
+}

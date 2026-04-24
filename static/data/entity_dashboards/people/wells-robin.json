@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "wells-robin",
+    "name": "Wells, Robin",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1992,
+      "count": 1
+    },
+    {
+      "year": 1996,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1992,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1996,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Lesotho",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ec4a",
+      "titleInfo": [
+        {
+          "title": "Report on research in Lesotho"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0265"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec70",
+      "titleInfo": [
+        {
+          "title": "Sesotho music: a contemporary perspective"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-028b"
+    }
+  ]
+}

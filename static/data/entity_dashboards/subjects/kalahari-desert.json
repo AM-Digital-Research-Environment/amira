@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "kalahari-desert",
+    "name": "Kalahari Desert",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1972,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1972,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "San (African people)",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "San (African people)",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Nurse, G. T.",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ebae",
+      "titleInfo": [
+        {
+          "title": "Musical instrumentation among the San (Bushmen) of the Central Kalahari"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01c9"
+    }
+  ]
+}

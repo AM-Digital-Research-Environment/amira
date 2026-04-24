@@ -5,29 +5,30 @@
 		EntityBrowseGrid,
 		EntityToolbar,
 		EntityDetailHeader,
-		EntityItemsCard,
+		SearchableItemsCard,
 		applyEntitySort,
 		type EntitySort
 	} from '$lib/components/entity-browse';
-	import { allCollections } from '$lib/stores/data';
+	import { allCollections, ensureCollections } from '$lib/stores/data';
 	import { page } from '$app/stores';
+	import { base } from '$app/paths';
+	import { onMount } from 'svelte';
 	import { createUrlSelection, scrollToTop } from '$lib/utils/urlSelection';
 	import { languageName, normalizeLanguageCode } from '$lib/utils/languages';
 	import { createSearchFilter } from '$lib/utils/search';
 	import type { CollectionItem } from '$lib/types';
 	import { Languages, FileText } from '@lucide/svelte';
 	import { SvelteMap } from 'svelte/reactivity';
-	import { EntityDashboard, getEntityLayout } from '$lib/components/dashboards';
-	import type { EntityDashboardData } from '$lib/components/dashboards';
-	import { loadEntityDashboard } from '$lib/utils/loaders/entityDashboardLoader';
+	import { EntityDashboardSection } from '$lib/components/dashboards';
+	import { createEntityDetailState } from '$lib/utils/loaders';
 
 	const urlSelection = createUrlSelection('code');
 
 	let searchQuery = $state('');
 	let sort = $state<EntitySort>('count-desc');
 
-	// Writable $derived — URL is the source of truth for the selected code
-	// so browser Back clears the detail view automatically.
+	// URL is the source of truth for the selected code so browser Back clears
+	// the detail view automatically.
 	let selectedCode = $derived($page.url.searchParams.get('code') ?? '');
 
 	interface LanguageData {
@@ -59,8 +60,37 @@
 	const searchLanguages = createSearchFilter<LanguageData>([(l) => l.name, (l) => l.code]);
 	let visibleLanguages = $derived(applyEntitySort(searchLanguages(languages, searchQuery), sort));
 
-	let selectedLanguage = $derived(selectedCode ? languageMap.get(selectedCode) || null : null);
+	// Lazy per-entity JSON load (items + aggregates). Skips the 13 MB
+	// collections dump on direct-detail-URL hits.
+	const detail = createEntityDetailState('language', () => selectedCode);
+
+	let selectedLanguage = $derived.by((): LanguageData | null => {
+		if (!selectedCode) return null;
+		const live = languageMap.get(selectedCode);
+		if (live && live.items.length > 0) return live;
+		if (detail.data?.meta) {
+			return {
+				code: selectedCode,
+				name: detail.data.meta.name ?? languageName(selectedCode),
+				count: detail.data.meta.count ?? 0,
+				items: detail.items
+			};
+		}
+		return null;
+	});
+
 	let mostCommon = $derived(applyEntitySort(languages, 'count-desc')[0]?.name ?? '—');
+
+	// Collections are only needed for the list view (counts + derived entity
+	// map) and the "Back to list" flow. A direct detail-URL hit skips the
+	// 13 MB payload entirely and renders from the per-entity JSON.
+	onMount(() => {
+		if (!selectedCode) void ensureCollections(base);
+	});
+
+	$effect(() => {
+		if (!selectedCode) void ensureCollections(base);
+	});
 
 	function selectLanguage(code: string) {
 		urlSelection.pushToUrl(code);
@@ -71,30 +101,6 @@
 		urlSelection.removeFromUrl();
 		scrollToTop();
 	}
-
-	// Per-language dashboard: loads precomputed JSON emitted by
-	// `scripts/precompute_entity_dashboards.py --entity language`. When the
-	// file is missing (pre-pipeline runs, or a language without precomputed
-	// data), we silently fall back to the existing items-list view.
-	const languageLayout = getEntityLayout('language');
-	let dashboardData = $state<EntityDashboardData | null>(null);
-	let dashboardLoading = $state(false);
-
-	$effect(() => {
-		if (!selectedCode) {
-			dashboardData = null;
-			return;
-		}
-		// Capture the code so a stale fetch doesn't clobber newer state.
-		const requestedCode = selectedCode;
-		dashboardLoading = true;
-		loadEntityDashboard('language', requestedCode).then((data) => {
-			if (requestedCode === selectedCode) {
-				dashboardData = data;
-				dashboardLoading = false;
-			}
-		});
-	});
 </script>
 
 <SEO
@@ -110,26 +116,29 @@
 		</p>
 	</div>
 
-	{#if selectedLanguage}
+	{#if selectedCode}
 		<div class="space-y-6">
 			<BackToList show={true} onclick={clearSelection} label="Back to languages" />
-			<EntityDetailHeader
-				title={selectedLanguage.name}
-				icon={Languages}
-				subtitle={`Code: ${selectedLanguage.code}`}
-				count={selectedLanguage.count}
-				wisskiCategory="languages"
-				wisskiKey={selectedLanguage.name}
-			/>
-			<EntityItemsCard items={selectedLanguage.items} showProject={true} />
-			{#if languageLayout && dashboardData}
-				<EntityDashboard
-					layout={languageLayout}
-					data={dashboardData}
-					items={selectedLanguage.items}
+			{#if selectedLanguage}
+				<EntityDetailHeader
+					title={selectedLanguage.name}
+					icon={Languages}
+					subtitle={`Code: ${selectedLanguage.code}`}
+					count={selectedLanguage.count}
+					wisskiCategory="languages"
+					wisskiKey={selectedLanguage.name}
 				/>
-			{:else if dashboardLoading}
+				<SearchableItemsCard items={selectedLanguage.items} />
+				<EntityDashboardSection
+					entityType="language"
+					entityId={selectedLanguage.code}
+					items={selectedLanguage.items}
+					data={detail.data}
+				/>
+			{:else if detail.loading}
 				<p class="text-sm text-muted-foreground">Loading dashboard…</p>
+			{:else}
+				<p class="text-sm text-muted-foreground">No data available for this language.</p>
 			{/if}
 		</div>
 	{:else}

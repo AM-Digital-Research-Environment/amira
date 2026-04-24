@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "laurenty-j-s",
+    "name": "Laurenty, J. S.",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1971,
+      "count": 1
+    },
+    {
+      "year": 1972,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1971,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1972,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 1
+    },
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Luba (African people)",
+      "value": 2
+    },
+    {
+      "name": "Africa",
+      "value": 2
+    },
+    {
+      "name": "Central Africa",
+      "value": 2
+    },
+    {
+      "name": "Stringed instruments",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Drum",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Drum music",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Luba (African people)",
+      "value": 2
+    },
+    {
+      "name": "Africa",
+      "value": 2
+    },
+    {
+      "name": "Central Africa",
+      "value": 2
+    },
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Stringed instruments",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Drum",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Drum music",
+      "value": 1
+    },
+    {
+      "name": "Drum (Instrument)",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9eb93",
+      "titleInfo": [
+        {
+          "title": "Les cordophones des Luba-Shankadi"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01ae"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eba5",
+      "titleInfo": [
+        {
+          "title": "Les membranophones des Luba-Shankadi"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01c0"
+    }
+  ]
+}

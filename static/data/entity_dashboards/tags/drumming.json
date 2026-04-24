@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "drumming",
+    "name": "Drumming",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 2009,
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2009,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2018,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Anlo (African people)",
+      "value": 1
+    },
+    {
+      "name": "Ewe (African people)",
+      "value": 1
+    },
+    {
+      "name": "Akan (African people)",
+      "value": 1
+    },
+    {
+      "name": "Gender",
+      "value": 1
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    },
+    {
+      "name": "Transcription",
+      "value": 1
+    },
+    {
+      "name": "South Africa",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 3
+    },
+    {
+      "name": "Anlo (African people)",
+      "value": 1
+    },
+    {
+      "name": "Ewe (African people)",
+      "value": 1
+    },
+    {
+      "name": "Akan (African people)",
+      "value": 1
+    },
+    {
+      "name": "Ghana",
+      "value": 1
+    },
+    {
+      "name": "Gender",
+      "value": 1
+    },
+    {
+      "name": "Gendered Space",
+      "value": 1
+    },
+    {
+      "name": "Male Dominance",
+      "value": 1
+    },
+    {
+      "name": "Yoruba Music",
+      "value": 1
+    },
+    {
+      "name": "Gender Issues",
+      "value": 1
+    },
+    {
+      "name": "Female Drummers",
+      "value": 1
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    },
+    {
+      "name": "Transcription",
+      "value": 1
+    },
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Dinaka (Music)",
+      "value": 1
+    },
+    {
+      "name": "Pedi (Music)",
+      "value": 1
+    },
+    {
+      "name": "South African Music",
+      "value": 1
+    },
+    {
+      "name": "Pipe Ensembles",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Anku, Willie",
+      "value": 1
+    },
+    {
+      "name": "Samuel, Kayode",
+      "value": 1
+    },
+    {
+      "name": "Chambers, Paul W.",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ecca",
+      "titleInfo": [
+        {
+          "title": "Drumming among the Akan and Anlo Ewe of Ghana: an introduction"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02e5"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eda1",
+      "titleInfo": [
+        {
+          "title": "GENDERED SPACE TRANSGRESSORS: STUDY OF TWO YORUBA FEMALE DÙNDÚN DRUMMERS"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03bc"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eda7",
+      "titleInfo": [
+        {
+          "title": "STUDY OF THE DINAKA PIPE DANCE OF THE PEDI PEOPLE IN SOUTH AFRICA"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03c2"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "bavarian-broadcasting-cooperation-br-fernseharchiv",
+    "name": "Bavarian Broadcasting Cooperation (BR) Fernseharchiv",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 2001,
+      "count": 4
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2001,
+      "total": 4,
+      "byType": {
+        "Text": 4
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 4
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "value": 4
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "Nigeria",
+      "value": 4
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Bavarian Broadcasting Cooperation (BR) Fernseharchiv",
+      "value": 4
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Munich",
+      "count": 4
+    }
+  ],
+  "items": [
+    {
+      "_id": "6705340c4b98fee5873b4424",
+      "titleInfo": [
+        {
+          "title": "BR Fernseharchiv TAIWO Shango - Der 2. Tag nach dem Tod"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-0017"
+    },
+    {
+      "_id": "6705340c4b98fee5873b4426",
+      "titleInfo": [
+        {
+          "title": "BR Fernseharchiv Götter der Könige - Emire des Propheten"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-0019"
+    },
+    {
+      "_id": "6705340c4b98fee5873b4456",
+      "titleInfo": [
+        {
+          "title": "BR Fernseharchiv TAIWO Shango - Der 2. Tag nach dem Tod"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-0049"
+    },
+    {
+      "_id": "6705340c4b98fee5873b4457",
+      "titleInfo": [
+        {
+          "title": "BR Fernseharchiv Götter der Könige - Emire des Propheten"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-004a"
+    }
+  ]
+}

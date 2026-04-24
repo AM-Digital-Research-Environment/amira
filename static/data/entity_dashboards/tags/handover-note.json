@@ -1,0 +1,233 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "handover-note",
+    "name": "Handover Note",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 1935,
+      "count": 1
+    },
+    {
+      "year": 1936,
+      "count": 1
+    },
+    {
+      "year": 1937,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1935,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1936,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1937,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    },
+    {
+      "name": "German",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Archives",
+      "value": 3
+    },
+    {
+      "name": "Colonisation",
+      "value": 3
+    },
+    {
+      "name": "Letters",
+      "value": 3
+    },
+    {
+      "name": "Social norms",
+      "value": 3
+    },
+    {
+      "name": "Discourse analysis",
+      "value": 3
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Archives",
+      "value": 3
+    },
+    {
+      "name": "Colonisation",
+      "value": 3
+    },
+    {
+      "name": "Letters",
+      "value": 3
+    },
+    {
+      "name": "Social norms",
+      "value": 3
+    },
+    {
+      "name": "Discourse analysis",
+      "value": 3
+    },
+    {
+      "name": "British Colonisation",
+      "value": 3
+    },
+    {
+      "name": "Colonial Records",
+      "value": 3
+    },
+    {
+      "name": "Southern Cameroons",
+      "value": 3
+    },
+    {
+      "name": "Postcolonial Heritage",
+      "value": 3
+    },
+    {
+      "name": "Great Britain",
+      "value": 3
+    },
+    {
+      "name": "Postcolonial Studies",
+      "value": 3
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Otung, Glory Essien",
+      "value": 3
+    },
+    {
+      "name": "Anchimbe, Eric",
+      "value": 3
+    },
+    {
+      "name": "Chiangong, Pepetual Mforbe",
+      "value": 3
+    },
+    {
+      "name": "Marjie, Sarah",
+      "value": 3
+    },
+    {
+      "name": "Kengo, Emmanuel",
+      "value": 3
+    },
+    {
+      "name": "Atindogbe, Gratien",
+      "value": 3
+    },
+    {
+      "name": "Ubanako, Valentine",
+      "value": 3
+    },
+    {
+      "name": "Mforteh, Stephen",
+      "value": 3
+    },
+    {
+      "name": "Eyoh, Julius",
+      "value": 3
+    },
+    {
+      "name": "Oyali, Uchenna",
+      "value": 3
+    },
+    {
+      "name": "Mbah, Boniface",
+      "value": 3
+    }
+  ],
+  "locations": [
+    {
+      "country": "Nigeria",
+      "region": "Enugu State",
+      "city": "Enugu",
+      "count": 2
+    },
+    {
+      "country": "Cameroon",
+      "region": "Southwest",
+      "city": "Buea",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "6877ced7b542f8b9f8940b4b",
+      "titleInfo": [
+        {
+          "title": "Likomba Kamerun Bananen Gesellschaft Aktiengeselschaft – Lease of Land at Likomba near Tiko"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_CLnCK2019",
+        "name": "Colonial Letters and the Contact of Knowledges"
+      },
+      "dre_id": "abj-99-0046"
+    },
+    {
+      "_id": "6877ced7b542f8b9f8940b50",
+      "titleInfo": [
+        {
+          "title": "Ngom Clan Area Menka Native Authorities Mamfe"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_CLnCK2019",
+        "name": "Colonial Letters and the Contact of Knowledges"
+      },
+      "dre_id": "abj-99-004b"
+    },
+    {
+      "_id": "6877ced7b542f8b9f8940b55",
+      "titleInfo": [
+        {
+          "title": "Handing-over Notes from Mr. I.F.W. Schofield District Officer, to Mr. M.H.W. Swabey, District Officer Bamenda Division"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_CLnCK2019",
+        "name": "Colonial Letters and the Contact of Knowledges"
+      },
+      "dre_id": "abj-99-0050"
+    }
+  ]
+}

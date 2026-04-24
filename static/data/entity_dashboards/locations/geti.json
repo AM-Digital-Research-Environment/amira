@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "geti",
+    "name": "Geti",
+    "count": 9
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 9
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 9,
+      "byType": {
+        "Text": 9
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 9
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 9
+    },
+    {
+      "name": "English",
+      "value": 4
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Land tenure",
+      "value": 9
+    },
+    {
+      "name": "Migration",
+      "value": 9
+    },
+    {
+      "name": "Social conflict",
+      "value": 9
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Land tenure",
+      "value": 9
+    },
+    {
+      "name": "Migration",
+      "value": 9
+    },
+    {
+      "name": "Social conflict",
+      "value": 9
+    },
+    {
+      "name": "Conflict Theory",
+      "value": 9
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Sebudandi, Christophe",
+      "value": 18
+    },
+    {
+      "name": "Kaganda Mulume Oderhwa, Philippe",
+      "value": 18
+    },
+    {
+      "name": "Doevenspeck, Martin",
+      "value": 9
+    },
+    {
+      "name": "Mwanabiningo, Nene Morisho",
+      "value": 9
+    },
+    {
+      "name": "Tegera, Aloy",
+      "value": 9
+    },
+    {
+      "name": "Lankes, Maximilian",
+      "value": 4
+    }
+  ]
+}

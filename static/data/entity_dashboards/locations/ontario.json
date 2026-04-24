@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "ontario",
+    "name": "Ontario",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2014,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2014,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Theater",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Theater",
+      "value": 1
+    },
+    {
+      "name": "Shakespeare",
+      "value": 1
+    },
+    {
+      "name": "Plays",
+      "value": 1
+    },
+    {
+      "name": "Royal Court",
+      "value": 1
+    },
+    {
+      "name": "Black People",
+      "value": 1
+    },
+    {
+      "name": "Article",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Chapman, Matthieu A.",
+      "value": 1
+    },
+    {
+      "name": "McMaster University Library Press",
+      "value": 1
+    }
+  ]
+}

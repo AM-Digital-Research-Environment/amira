@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "springfeld-lars",
+    "name": "Springfeld, Lars",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2018,
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2018,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2020,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 1
+    },
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Racism",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Racism",
+      "value": 2
+    },
+    {
+      "name": "Daily Racism",
+      "value": 1
+    },
+    {
+      "name": "Local Press",
+      "value": 1
+    },
+    {
+      "name": "Bayreuth",
+      "value": 1
+    },
+    {
+      "name": "Society",
+      "value": 1
+    },
+    {
+      "name": "Language",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Schmedt, Silas",
+      "value": 1
+    },
+    {
+      "name": "Krumpholz, Uwe",
+      "value": 1
+    },
+    {
+      "name": "Haggeney, Henrike",
+      "value": 1
+    },
+    {
+      "name": "Breuer, Andreas",
+      "value": 1
+    },
+    {
+      "name": "Grau, Julia Maria",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 1
+    },
+    {
+      "country": "Germany",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "692db49707481a28c72155c4",
+      "titleInfo": [
+        {
+          "title": "Lasst und reden!"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-001c"
+    },
+    {
+      "_id": "692db49707481a28c72155d0",
+      "titleInfo": [
+        {
+          "title": "Begletischrift zum Lehrbuch Ökonomik der Entwicklung"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0028"
+    }
+  ]
+}

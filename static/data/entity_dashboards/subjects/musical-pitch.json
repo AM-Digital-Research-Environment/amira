@@ -1,0 +1,223 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "musical-pitch",
+    "name": "Musical pitch",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 1958,
+      "count": 1
+    },
+    {
+      "year": 1959,
+      "count": 1
+    },
+    {
+      "year": 1970,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1958,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1959,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1970,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 3
+    },
+    {
+      "name": "Africa",
+      "value": 3
+    },
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Musical instruments",
+      "value": 2
+    },
+    {
+      "name": "Choral music",
+      "value": 1
+    },
+    {
+      "name": "Education",
+      "value": 1
+    },
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Venda (African people)",
+      "value": 1
+    },
+    {
+      "name": "Melody",
+      "value": 1
+    },
+    {
+      "name": "Ocarina music",
+      "value": 1
+    },
+    {
+      "name": "Harmony",
+      "value": 1
+    },
+    {
+      "name": "Tuning",
+      "value": 1
+    },
+    {
+      "name": "Measurement",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Ethnomusicology",
+      "value": 3
+    },
+    {
+      "name": "Africa",
+      "value": 3
+    },
+    {
+      "name": "African Music",
+      "value": 3
+    },
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Musical instruments",
+      "value": 2
+    },
+    {
+      "name": "Choral music",
+      "value": 1
+    },
+    {
+      "name": "Education",
+      "value": 1
+    },
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Venda (African people)",
+      "value": 1
+    },
+    {
+      "name": "Melody",
+      "value": 1
+    },
+    {
+      "name": "Ocarina music",
+      "value": 1
+    },
+    {
+      "name": "Harmony",
+      "value": 1
+    },
+    {
+      "name": "Tuning",
+      "value": 1
+    },
+    {
+      "name": "Measurement",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Brother Basil",
+      "value": 1
+    },
+    {
+      "name": "Blacking, John",
+      "value": 1
+    },
+    {
+      "name": "Jones, A. M.",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ea62",
+      "titleInfo": [
+        {
+          "title": "Wandering from pitch"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-007d"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea82",
+      "titleInfo": [
+        {
+          "title": "Problems of pitch, pattern and harmony in the ocarina music of the Venda"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-009d"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb82",
+      "titleInfo": [
+        {
+          "title": "On using the Stroboconn"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-019d"
+    }
+  ]
+}

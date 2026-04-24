@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "university-of-rochester",
+    "name": "University of Rochester",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 2016,
+      "count": 2
+    },
+    {
+      "year": 2018,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2016,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 2018,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Chipendani",
+      "value": 2
+    },
+    {
+      "name": "Shona (African people)",
+      "value": 2
+    },
+    {
+      "name": "Ritual",
+      "value": 2
+    },
+    {
+      "name": "Musical bow",
+      "value": 1
+    },
+    {
+      "name": "African diaspora",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 3
+    },
+    {
+      "name": "Chipendani",
+      "value": 2
+    },
+    {
+      "name": "Shona (African people)",
+      "value": 2
+    },
+    {
+      "name": "Ritual",
+      "value": 2
+    },
+    {
+      "name": "Zimbabwe",
+      "value": 2
+    },
+    {
+      "name": "Musical bow",
+      "value": 1
+    },
+    {
+      "name": "African diaspora",
+      "value": 1
+    },
+    {
+      "name": "Black Atlantic",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Bow (Music)",
+      "value": 1
+    },
+    {
+      "name": "Vadzimu (Ancestral Spirits)",
+      "value": 1
+    },
+    {
+      "name": "Bira Ceremony",
+      "value": 1
+    },
+    {
+      "name": "Herdboy",
+      "value": 1
+    },
+    {
+      "name": "Chipendani (Instrument)",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kyker, Jennifer W.",
+      "value": 2
+    },
+    {
+      "name": "Richey, Austin Thomas",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ed6f",
+      "titleInfo": [
+        {
+          "title": "REASSESSING THE ZIMBABWEAN CHIPENDANI (Article withdrawn)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-038a"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed70",
+      "titleInfo": [
+        {
+          "title": "CHIMURENGA RENAISSANCE: DOUBLE DOUBLENESS IN THE DIASPORIC MUSIC OF TENDAI MARAIRE"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-038b"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eda6",
+      "titleInfo": [
+        {
+          "title": "REASSESSING THE ZIMBABWEAN CHIPENDANI"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03c1"
+    }
+  ]
+}

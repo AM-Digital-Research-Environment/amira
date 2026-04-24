@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "khoikhoi-african-people",
+    "name": "Khoikhoi (African people)",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 2015,
+      "count": 3
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2015,
+      "total": 3,
+      "byType": {
+        "Text": 3
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Tales",
+      "value": 3
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Tales",
+      "value": 3
+    },
+    {
+      "name": "African Folktales",
+      "value": 3
+    },
+    {
+      "name": "Folktales",
+      "value": 3
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Radin, Paul",
+      "value": 3
+    },
+    {
+      "name": "Princeton University Press",
+      "value": 3
+    }
+  ],
+  "locations": [
+    {
+      "country": "United States of America",
+      "region": "New Jersey",
+      "city": "Princeton",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a8ab2c85fe8df8712d",
+      "titleInfo": [
+        {
+          "title": "The Origin of Death"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0036"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87140",
+      "titleInfo": [
+        {
+          "title": "The Elephant and the Tortoise"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0049"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87153",
+      "titleInfo": [
+        {
+          "title": "The Little Wise Woman"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-005c"
+    }
+  ]
+}

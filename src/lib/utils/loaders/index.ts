@@ -22,3 +22,8 @@ export {
 	type EntityDashboardManifest,
 	type EntityDashboardManifestEntry
 } from './entityDashboardLoader';
+export {
+	createEntityDetailState,
+	fetchEntityDashboard,
+	type EntityDetailState
+} from './entityDetailState.svelte';

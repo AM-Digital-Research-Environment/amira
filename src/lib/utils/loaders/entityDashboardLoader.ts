@@ -11,6 +11,7 @@
 
 import { base } from '$app/paths';
 import type { EntityDashboardData, EntityType } from '$lib/components/dashboards';
+import { slugify } from '$lib/utils/slugify';
 import { transformMongoJSON } from './mongoJSON';
 
 /**
@@ -49,7 +50,12 @@ export async function loadEntityDashboard(
 		return null;
 	}
 
-	const path = `${base}/data/entity_dashboards/${dir}/${encodeURIComponent(id)}.json`;
+	// Language codes are already simple ASCII; for every other entity type we
+	// slugify the display name so the runtime URL matches the filename that
+	// `scripts/precompute_entity_dashboards.py` writes to disk. Keep this
+	// aligned with `src/lib/utils/slugify.ts`.
+	const slug = entityType === 'language' ? id.toLowerCase() : slugify(id);
+	const path = `${base}/data/entity_dashboards/${dir}/${encodeURIComponent(slug)}.json`;
 
 	try {
 		const response = await fetch(path);

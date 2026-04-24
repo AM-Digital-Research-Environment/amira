@@ -1,0 +1,346 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "albums",
+    "name": "Albums",
+    "count": 6
+  },
+  "timeline": [
+    {
+      "year": 1981,
+      "count": 2
+    },
+    {
+      "year": 2013,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1981,
+      "total": 2,
+      "byType": {
+        "Image": 2
+      }
+    },
+    {
+      "year": 2013,
+      "total": 2,
+      "byType": {
+        "Image": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 6
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "value": 3
+    },
+    {
+      "name": "English",
+      "value": 1
+    },
+    {
+      "name": "Turkish",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Newspapers",
+      "value": 5
+    },
+    {
+      "name": "Exhibitions",
+      "value": 5
+    },
+    {
+      "name": "Photographs",
+      "value": 4
+    },
+    {
+      "name": "Art",
+      "value": 4
+    },
+    {
+      "name": "Painting",
+      "value": 4
+    },
+    {
+      "name": "Africa",
+      "value": 4
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Yoruba (African people)--Religion",
+      "value": 1
+    },
+    {
+      "name": "Ritual",
+      "value": 1
+    },
+    {
+      "name": "Orisha religion",
+      "value": 1
+    },
+    {
+      "name": "Archives",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Newspapers",
+      "value": 5
+    },
+    {
+      "name": "Exhibitions",
+      "value": 5
+    },
+    {
+      "name": "Newspaper Article",
+      "value": 5
+    },
+    {
+      "name": "Art Exhibition",
+      "value": 5
+    },
+    {
+      "name": "Cultural Centre",
+      "value": 5
+    },
+    {
+      "name": "Photographs",
+      "value": 4
+    },
+    {
+      "name": "Iwalewahaus",
+      "value": 4
+    },
+    {
+      "name": "Art",
+      "value": 4
+    },
+    {
+      "name": "Painting",
+      "value": 4
+    },
+    {
+      "name": "Africa",
+      "value": 4
+    },
+    {
+      "name": "Performing Arts Center",
+      "value": 4
+    },
+    {
+      "name": "Flyer",
+      "value": 2
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Yoruba (African people)--Religion",
+      "value": 1
+    },
+    {
+      "name": "Ritual",
+      "value": 1
+    },
+    {
+      "name": "Orisha religion",
+      "value": 1
+    },
+    {
+      "name": "Shango",
+      "value": 1
+    },
+    {
+      "name": "Yoruba Art",
+      "value": 1
+    },
+    {
+      "name": "Orisha",
+      "value": 1
+    },
+    {
+      "name": "Orisha Art",
+      "value": 1
+    },
+    {
+      "name": "Yoruba Rituals",
+      "value": 1
+    },
+    {
+      "name": "Yoruba Rites",
+      "value": 1
+    },
+    {
+      "name": "Yoruba Ceremony",
+      "value": 1
+    },
+    {
+      "name": "Archives",
+      "value": 1
+    },
+    {
+      "name": "Allgemeine Zeitung",
+      "value": 1
+    },
+    {
+      "name": "Mainz",
+      "value": 1
+    },
+    {
+      "name": "Frankenpost",
+      "value": 1
+    },
+    {
+      "name": "Nordbayerischer Kurier",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Beier, Ulli",
+      "value": 7
+    },
+    {
+      "name": "Greven, Katharina",
+      "value": 6
+    },
+    {
+      "name": "Woldert, Siegfried",
+      "value": 1
+    },
+    {
+      "name": "Oyelami, Muraina",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 4
+    },
+    {
+      "country": "Nigeria",
+      "region": "",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "Germany",
+      "region": "Rhineland-Palatinate",
+      "city": "Mainz",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b48e",
+      "titleInfo": [
+        {
+          "title": "Auseinandergeschnittener Kontaktabzug Shango-Performance der Yoruba"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-99-0006"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b492",
+      "titleInfo": [
+        {
+          "title": "Albumseite mit Zeitungsartikel, Ausstellungsflyer und Fotografien des Iwalewahaus aufgeklebt"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-000a"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4b2",
+      "titleInfo": [
+        {
+          "title": "Zeitungsartikel über Léopold Sédar Senghors Besuch in Mainz von 1980.In einem Album, in dem Zeitungsartikel und Ausstellungsflyer aufgeklebt sind"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-002a"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4bb",
+      "titleInfo": [
+        {
+          "title": "Seite eines Albums, in dem Zeitungsartikel über das Iwalewahaus aufgeklebt sind und Fotografien der Veranstaltungen"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0033"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4bc",
+      "titleInfo": [
+        {
+          "title": "Seite eines Albums, in dem Zeitungsartikel über das Iwalewahaus aufgeklebt sind und Fotografien der Veranstaltungen"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0034"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4bd",
+      "titleInfo": [
+        {
+          "title": "Seite eines Albums, in dem Zeitungsartikel über das Iwalewahaus aufgeklebt sind und Fotografien der Veranstaltungen"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0035"
+    }
+  ]
+}

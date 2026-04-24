@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "social-media",
+    "name": "Social media",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 2023,
+      "count": 3
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2023,
+      "total": 3,
+      "byType": {
+        "Text": 3
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 2
+    },
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Decolonisation",
+      "value": 3
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Decolonisation",
+      "value": 3
+    },
+    {
+      "name": "Right to Resist",
+      "value": 3
+    },
+    {
+      "name": "Manifestant",
+      "value": 2
+    },
+    {
+      "name": "Protester",
+      "value": 2
+    },
+    {
+      "name": "Fluid Ontology",
+      "value": 1
+    },
+    {
+      "name": "Basic Soul",
+      "value": 1
+    },
+    {
+      "name": "Morality",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Zerbo, Armel",
+      "value": 2
+    },
+    {
+      "name": "Philipps, Joschka",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Burkina Faso",
+      "region": "Centre",
+      "city": "Ouagadougou",
+      "count": 2
+    },
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "69bd6081f39beedfb72d61a6",
+      "titleInfo": [
+        {
+          "title": "Rapport Balai Citoyen"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_FluOnt2023",
+        "name": "Fluid Ontologies of Contestation. Social media, anti-government protest and transnational decolonization movements in Burkina Faso"
+      },
+      "dre_id": "ace-03-0000"
+    },
+    {
+      "_id": "69bd6081f39beedfb72d61a7",
+      "titleInfo": [
+        {
+          "title": "Rapport Basic Soul"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_FluOnt2023",
+        "name": "Fluid Ontologies of Contestation. Social media, anti-government protest and transnational decolonization movements in Burkina Faso"
+      },
+      "dre_id": "ace-03-0001"
+    },
+    {
+      "_id": "69bd6081f39beedfb72d61a8",
+      "titleInfo": [
+        {
+          "title": "Rapport Synthétique projet"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_FluOnt2023",
+        "name": "Fluid Ontologies of Contestation. Social media, anti-government protest and transnational decolonization movements in Burkina Faso"
+      },
+      "dre_id": "ace-03-0002"
+    }
+  ]
+}

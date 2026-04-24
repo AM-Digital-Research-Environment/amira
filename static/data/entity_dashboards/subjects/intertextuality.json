@@ -1,0 +1,155 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "intertextuality",
+    "name": "Intertextuality",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2004,
+      "count": 1
+    },
+    {
+      "year": 2006,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2004,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2006,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Risk",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Shakespeare",
+      "value": 2
+    },
+    {
+      "name": "Article",
+      "value": 2
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Othello",
+      "value": 1
+    },
+    {
+      "name": "Yoruba Myth",
+      "value": 1
+    },
+    {
+      "name": "Parallel",
+      "value": 1
+    },
+    {
+      "name": "Rihla",
+      "value": 1
+    },
+    {
+      "name": "Risk",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mafe, Diana Adesola",
+      "value": 1
+    },
+    {
+      "name": "Indiana University Press",
+      "value": 1
+    },
+    {
+      "name": "Kehler, Dorothea",
+      "value": 1
+    },
+    {
+      "name": "De Gruyter",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "United States of America",
+      "region": "Indiana",
+      "city": "Bloomington",
+      "count": 1
+    },
+    {
+      "country": "Germany",
+      "region": "Berlin",
+      "city": "Berlin",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a8ab2c85fe8df87100",
+      "titleInfo": [
+        {
+          "title": "From Ògún to Othello: (Re)Acquainting Yoruba Myth and Shakespeare’s Moo"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0009"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87119",
+      "titleInfo": [
+        {
+          "title": "The Risks of Intertextuality: Shakespearean Allusions in Isak Dinesen's Out of Africa and William Trevor's Fools of Fortunune"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0022"
+    }
+  ]
+}

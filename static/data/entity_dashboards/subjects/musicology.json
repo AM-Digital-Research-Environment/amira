@@ -1,0 +1,221 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "musicology",
+    "name": "Musicology",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 1963,
+      "count": 1
+    },
+    {
+      "year": 1964,
+      "count": 2
+    },
+    {
+      "year": 1965,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1963,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1964,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1965,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 4
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 4
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 4
+    },
+    {
+      "name": "Music",
+      "value": 3
+    },
+    {
+      "name": "Africa",
+      "value": 2
+    },
+    {
+      "name": "Travel",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Sound recordings",
+      "value": 1
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    },
+    {
+      "name": "Education",
+      "value": 1
+    },
+    {
+      "name": "Research",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Ethnomusicology",
+      "value": 4
+    },
+    {
+      "name": "African Music",
+      "value": 4
+    },
+    {
+      "name": "Music",
+      "value": 3
+    },
+    {
+      "name": "Africa",
+      "value": 2
+    },
+    {
+      "name": "Travel",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Sound recordings",
+      "value": 1
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    },
+    {
+      "name": "Sound Reproducing",
+      "value": 1
+    },
+    {
+      "name": "Field Recording",
+      "value": 1
+    },
+    {
+      "name": "Mozambique",
+      "value": 1
+    },
+    {
+      "name": "Education",
+      "value": 1
+    },
+    {
+      "name": "Republic of the Congo (Léopoldville)",
+      "value": 1
+    },
+    {
+      "name": "Research",
+      "value": 1
+    },
+    {
+      "name": "Uganda",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kubik, Gerhard",
+      "value": 2
+    },
+    {
+      "name": "Hyslop, Graham H.",
+      "value": 1
+    },
+    {
+      "name": "Blacking, John",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 4
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9eada",
+      "titleInfo": [
+        {
+          "title": "A Musical Pilgrim's Progress"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00f5"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eaf6",
+      "titleInfo": [
+        {
+          "title": "Recording and studying music in Northern Mozambique. (With drawings and photograph by Helmut Hillegeist)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0111"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eafa",
+      "titleInfo": [
+        {
+          "title": "The need for research in African music"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0115"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb16",
+      "titleInfo": [
+        {
+          "title": "Music in Uganda"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0131"
+    }
+  ]
+}

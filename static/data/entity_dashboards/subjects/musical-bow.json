@@ -1,0 +1,292 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "musical-bow",
+    "name": "Musical bow",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 1954,
+      "count": 1
+    },
+    {
+      "year": 1970,
+      "count": 1
+    },
+    {
+      "year": 1975,
+      "count": 1
+    },
+    {
+      "year": 2016,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1954,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1970,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1975,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2016,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 4
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    },
+    {
+      "name": "French",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Dynamics",
+      "value": 1
+    },
+    {
+      "name": "Folk songs",
+      "value": 1
+    },
+    {
+      "name": "Ila (African people)",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Polyrhythm",
+      "value": 1
+    },
+    {
+      "name": "Tonga (Zambezi people)",
+      "value": 1
+    },
+    {
+      "name": "History",
+      "value": 1
+    },
+    {
+      "name": "Criticism",
+      "value": 1
+    },
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Tsonga (African people)",
+      "value": 1
+    },
+    {
+      "name": "Chipendani",
+      "value": 1
+    },
+    {
+      "name": "Shona (African people)",
+      "value": 1
+    },
+    {
+      "name": "Ritual",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 4
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Dynamics",
+      "value": 1
+    },
+    {
+      "name": "Folk songs",
+      "value": 1
+    },
+    {
+      "name": "Ila (African people)",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Polyrhythm",
+      "value": 1
+    },
+    {
+      "name": "Tonga (Zambezi people)",
+      "value": 1
+    },
+    {
+      "name": "History",
+      "value": 1
+    },
+    {
+      "name": "Criticism",
+      "value": 1
+    },
+    {
+      "name": "Zambia",
+      "value": 1
+    },
+    {
+      "name": "Tonga (Zambia)",
+      "value": 1
+    },
+    {
+      "name": "Interpretation",
+      "value": 1
+    },
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Tsonga (African people)",
+      "value": 1
+    },
+    {
+      "name": "Shangana",
+      "value": 1
+    },
+    {
+      "name": "Angola",
+      "value": 1
+    },
+    {
+      "name": "Chipendani",
+      "value": 1
+    },
+    {
+      "name": "Shona (African people)",
+      "value": 1
+    },
+    {
+      "name": "Ritual",
+      "value": 1
+    },
+    {
+      "name": "Zimbabwe",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Rycroft, David K.",
+      "value": 1
+    },
+    {
+      "name": "Johnston, Thomas F.",
+      "value": 1
+    },
+    {
+      "name": "Kubik, Gerhard",
+      "value": 1
+    },
+    {
+      "name": "Kyker, Jennifer W.",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 4
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9e9fe",
+      "titleInfo": [
+        {
+          "title": "Tribal style and free expression"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0019"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb7e",
+      "titleInfo": [
+        {
+          "title": "Xizambi friction-bow music of the Shangana-Tsonga"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0199"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ebdb",
+      "titleInfo": [
+        {
+          "title": "Musical bows in south-western Angola, 1965"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01f6"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed6f",
+      "titleInfo": [
+        {
+          "title": "REASSESSING THE ZIMBABWEAN CHIPENDANI (Article withdrawn)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-038a"
+    }
+  ]
+}

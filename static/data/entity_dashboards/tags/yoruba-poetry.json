@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "yoruba-poetry",
+    "name": "Yoruba Poetry",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1959,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1959,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Poetry",
+      "value": 1
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Poetry",
+      "value": 1
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    },
+    {
+      "name": "Yoruba Art",
+      "value": 1
+    }
+  ],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ea73",
+      "titleInfo": [
+        {
+          "title": "YORUBA POETRY. Published by the Ministry of Education, Ibadan, Nigeria"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-008e"
+    }
+  ]
+}

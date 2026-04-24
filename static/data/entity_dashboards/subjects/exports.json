@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "exports",
+    "name": "Exports",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 2022,
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2022,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 2023,
+      "total": 2,
+      "byType": {
+        "Image": 1,
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    },
+    {
+      "name": "Image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 4
+    }
+  ],
+  "subjects": [
+    {
+      "name": "West Africa",
+      "value": 4
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "West Africa",
+      "value": 4
+    },
+    {
+      "name": "Nigeria",
+      "value": 3
+    },
+    {
+      "name": "Senegal",
+      "value": 1
+    },
+    {
+      "name": "Export Data",
+      "value": 1
+    },
+    {
+      "name": "Government Trade",
+      "value": 1
+    },
+    {
+      "name": "Gold",
+      "value": 1
+    },
+    {
+      "name": "Ghana",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Coburger, Carla",
+      "value": 2
+    },
+    {
+      "name": "Koddenbrock, Kai",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "Nigeria",
+      "region": "",
+      "city": "",
+      "count": 3
+    },
+    {
+      "country": "Senegal",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "674dba652e70d1e383d18ae3",
+      "titleInfo": [
+        {
+          "title": "Selected pages from the Red Book of West Africa: Nigeria's Principal Exports 1900-1918"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0000"
+    },
+    {
+      "_id": "674dba652e70d1e383d18aee",
+      "titleInfo": [
+        {
+          "title": "Historical Export Data, Senegal"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-000b"
+    },
+    {
+      "_id": "674dba652e70d1e383d18af7",
+      "titleInfo": [
+        {
+          "title": "Governement Trade"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0014"
+    },
+    {
+      "_id": "674dba652e70d1e383d18af8",
+      "titleInfo": [
+        {
+          "title": "Gold Exports, Nigeria"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0015"
+    }
+  ]
+}

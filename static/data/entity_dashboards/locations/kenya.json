@@ -1,0 +1,651 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "kenya",
+    "name": "Kenya",
+    "count": 104
+  },
+  "timeline": [
+    {
+      "year": 1950,
+      "count": 72
+    },
+    {
+      "year": 2020,
+      "count": 6
+    },
+    {
+      "year": 2021,
+      "count": 14
+    },
+    {
+      "year": 2022,
+      "count": 8
+    },
+    {
+      "year": 2023,
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1950,
+      "total": 72,
+      "byType": {
+        "Audio": 72
+      }
+    },
+    {
+      "year": 2020,
+      "total": 6,
+      "byType": {
+        "Text": 5,
+        "Audio": 1
+      }
+    },
+    {
+      "year": 2021,
+      "total": 14,
+      "byType": {
+        "Text": 6,
+        "Image": 5,
+        "Moving image": 3
+      }
+    },
+    {
+      "year": 2022,
+      "total": 8,
+      "byType": {
+        "Text": 6,
+        "Audio": 1,
+        "Dataset": 1
+      }
+    },
+    {
+      "year": 2023,
+      "total": 2,
+      "byType": {
+        "Text": 1,
+        "Dataset": 1
+      }
+    },
+    {
+      "year": 2024,
+      "total": 2,
+      "byType": {
+        "Dataset": 1,
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Audio",
+      "value": 74
+    },
+    {
+      "name": "Text",
+      "value": 19
+    },
+    {
+      "name": "Image",
+      "value": 5
+    },
+    {
+      "name": "Dataset",
+      "value": 3
+    },
+    {
+      "name": "Moving image",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "Swahili",
+      "value": 61
+    },
+    {
+      "name": "English",
+      "value": 27
+    },
+    {
+      "name": "Luganda",
+      "value": 8
+    },
+    {
+      "name": "Maasai",
+      "value": 2
+    },
+    {
+      "name": "Dholuo",
+      "value": 2
+    },
+    {
+      "name": "Spanish",
+      "value": 1
+    },
+    {
+      "name": "Catalan",
+      "value": 1
+    },
+    {
+      "name": "Samburu",
+      "value": 1
+    },
+    {
+      "name": "Acholi",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 72
+    },
+    {
+      "name": "Swahili language",
+      "value": 57
+    },
+    {
+      "name": "Arid regions",
+      "value": 11
+    },
+    {
+      "name": "East Africa",
+      "value": 10
+    },
+    {
+      "name": "Maasai (African people)",
+      "value": 9
+    },
+    {
+      "name": "Women",
+      "value": 9
+    },
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 9
+    },
+    {
+      "name": "Political rights",
+      "value": 9
+    },
+    {
+      "name": "Political participation",
+      "value": 9
+    },
+    {
+      "name": "Ganda language",
+      "value": 8
+    },
+    {
+      "name": "Livestock",
+      "value": 7
+    },
+    {
+      "name": "Herders",
+      "value": 6
+    },
+    {
+      "name": "Gender",
+      "value": 6
+    },
+    {
+      "name": "Vaccination",
+      "value": 5
+    },
+    {
+      "name": "Tourism",
+      "value": 5
+    },
+    {
+      "name": "Economic geography",
+      "value": 5
+    },
+    {
+      "name": "Social justice",
+      "value": 5
+    },
+    {
+      "name": "Venture capital",
+      "value": 5
+    },
+    {
+      "name": "Regional disparities",
+      "value": 5
+    },
+    {
+      "name": "Race",
+      "value": 5
+    },
+    {
+      "name": "Intersectionality (Sociology)",
+      "value": 5
+    },
+    {
+      "name": "Interviews",
+      "value": 5
+    },
+    {
+      "name": "Food security",
+      "value": 3
+    },
+    {
+      "name": "Diseases",
+      "value": 2
+    },
+    {
+      "name": "Samburu (African people)",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Ethnomusicology",
+      "value": 72
+    },
+    {
+      "name": "Swahili language",
+      "value": 57
+    },
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 12
+    },
+    {
+      "name": "Arid regions",
+      "value": 11
+    },
+    {
+      "name": "Kenya",
+      "value": 11
+    },
+    {
+      "name": "East Africa",
+      "value": 10
+    },
+    {
+      "name": "Maasai (African people)",
+      "value": 9
+    },
+    {
+      "name": "Women",
+      "value": 9
+    },
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 9
+    },
+    {
+      "name": "Political rights",
+      "value": 9
+    },
+    {
+      "name": "Political participation",
+      "value": 9
+    },
+    {
+      "name": "Structural Barriers",
+      "value": 9
+    },
+    {
+      "name": "Political Barriers",
+      "value": 9
+    },
+    {
+      "name": "Politics",
+      "value": 9
+    },
+    {
+      "name": "Ganda language",
+      "value": 8
+    },
+    {
+      "name": "Livestock",
+      "value": 7
+    },
+    {
+      "name": "Pastoralist",
+      "value": 7
+    },
+    {
+      "name": "Herders",
+      "value": 6
+    },
+    {
+      "name": "Gender",
+      "value": 6
+    },
+    {
+      "name": "Vaccination",
+      "value": 5
+    },
+    {
+      "name": "Tourism",
+      "value": 5
+    },
+    {
+      "name": "Economic geography",
+      "value": 5
+    },
+    {
+      "name": "Social justice",
+      "value": 5
+    },
+    {
+      "name": "Venture capital",
+      "value": 5
+    },
+    {
+      "name": "Regional disparities",
+      "value": 5
+    },
+    {
+      "name": "Race",
+      "value": 5
+    },
+    {
+      "name": "Intersectionality (Sociology)",
+      "value": 5
+    },
+    {
+      "name": "Interviews",
+      "value": 5
+    },
+    {
+      "name": "Startup Founder",
+      "value": 5
+    },
+    {
+      "name": "Geographic Inequity",
+      "value": 5
+    },
+    {
+      "name": "Silicon Savannah",
+      "value": 5
+    },
+    {
+      "name": "Inequality",
+      "value": 5
+    },
+    {
+      "name": "Entrepreneurial Mobility",
+      "value": 5
+    },
+    {
+      "name": "Startup Ecosystem",
+      "value": 5
+    },
+    {
+      "name": "Financial Geography",
+      "value": 5
+    },
+    {
+      "name": "Structural Barrier",
+      "value": 5
+    },
+    {
+      "name": "Barriers to Entry (Economic Theory)",
+      "value": 5
+    },
+    {
+      "name": "Conservancy",
+      "value": 4
+    },
+    {
+      "name": "Lockdown",
+      "value": 4
+    },
+    {
+      "name": "Food security",
+      "value": 3
+    },
+    {
+      "name": "Mobility",
+      "value": 3
+    },
+    {
+      "name": "Sociality",
+      "value": 3
+    },
+    {
+      "name": "Tanzania",
+      "value": 3
+    },
+    {
+      "name": "Mega Infrastructure",
+      "value": 3
+    },
+    {
+      "name": "Lamu Port and Lamu-Southern Sudan-Ethiopia Transport Corridor",
+      "value": 3
+    },
+    {
+      "name": "Diseases",
+      "value": 2
+    },
+    {
+      "name": "Samburu (African people)",
+      "value": 2
+    },
+    {
+      "name": "Sustainable tourism",
+      "value": 2
+    },
+    {
+      "name": "Travel",
+      "value": 2
+    },
+    {
+      "name": "Attitudes",
+      "value": 2
+    },
+    {
+      "name": "Education",
+      "value": 2
+    },
+    {
+      "name": "Multilingualism",
+      "value": 2
+    },
+    {
+      "name": "Translanguaging (Linguistics)",
+      "value": 2
+    },
+    {
+      "name": "Perception",
+      "value": 2
+    },
+    {
+      "name": "Formal Learning",
+      "value": 2
+    },
+    {
+      "name": "Informal Interaction",
+      "value": 2
+    },
+    {
+      "name": "Pedagogy",
+      "value": 2
+    },
+    {
+      "name": "Schools",
+      "value": 1
+    },
+    {
+      "name": "Corruption",
+      "value": 1
+    },
+    {
+      "name": "Political corruption",
+      "value": 1
+    },
+    {
+      "name": "Conflict",
+      "value": 1
+    },
+    {
+      "name": "Police",
+      "value": 1
+    },
+    {
+      "name": "Households",
+      "value": 1
+    },
+    {
+      "name": "Border",
+      "value": 1
+    },
+    {
+      "name": "Agriculture",
+      "value": 1
+    },
+    {
+      "name": "Farm corporations",
+      "value": 1
+    },
+    {
+      "name": "China",
+      "value": 1
+    },
+    {
+      "name": "Gabbra (African people)",
+      "value": 1
+    },
+    {
+      "name": "Oromo (African people)",
+      "value": 1
+    },
+    {
+      "name": "Sexuality",
+      "value": 1
+    },
+    {
+      "name": "Chalbi Desert",
+      "value": 1
+    },
+    {
+      "name": "Grazing",
+      "value": 1
+    },
+    {
+      "name": "Animal Disease",
+      "value": 1
+    },
+    {
+      "name": "Elderly People",
+      "value": 1
+    },
+    {
+      "name": "Prices",
+      "value": 1
+    },
+    {
+      "name": "Ghana",
+      "value": 1
+    },
+    {
+      "name": "Senegal",
+      "value": 1
+    },
+    {
+      "name": "Oil Infrastructure",
+      "value": 1
+    },
+    {
+      "name": "East African Crude Oil Pipeline",
+      "value": 1
+    },
+    {
+      "name": "Uganda",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Jambo",
+      "value": 72
+    },
+    {
+      "name": "Ghana Broadcasting Corporation Gramophone Library",
+      "value": 72
+    },
+    {
+      "name": "East African Records Limited",
+      "value": 72
+    },
+    {
+      "name": "The Kiko Kids",
+      "value": 16
+    },
+    {
+      "name": "Jambo Boys",
+      "value": 15
+    },
+    {
+      "name": "Kronenburg García, Angela",
+      "value": 11
+    },
+    {
+      "name": "Sheila",
+      "value": 11
+    },
+    {
+      "name": "Jambo Band",
+      "value": 10
+    },
+    {
+      "name": "Roque de Pinho, Joana",
+      "value": 9
+    },
+    {
+      "name": "Ademola-Adeoye, Feyisayo",
+      "value": 9
+    },
+    {
+      "name": "Attoh, Franca",
+      "value": 9
+    },
+    {
+      "name": "Yakubu, Moses",
+      "value": 9
+    },
+    {
+      "name": "Eesuola, Kayode",
+      "value": 9
+    },
+    {
+      "name": "Olukuade, Tomide",
+      "value": 9
+    },
+    {
+      "name": "Ademola, Lydia",
+      "value": 9
+    },
+    {
+      "name": "Anyanwu, Beatrice",
+      "value": 9
+    },
+    {
+      "name": "Akintola, Folashade",
+      "value": 9
+    },
+    {
+      "name": "Adeniran, Samuel",
+      "value": 9
+    },
+    {
+      "name": "Adebayo, Bukola",
+      "value": 9
+    },
+    {
+      "name": "Hashimshony Yaffe, Nurit",
+      "value": 7
+    }
+  ]
+}

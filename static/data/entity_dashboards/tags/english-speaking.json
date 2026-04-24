@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "english-speaking",
+    "name": "English-speaking",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1976,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1976,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "South Africa",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Interaction",
+      "value": 1
+    },
+    {
+      "name": "Article",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Harber, Eric",
+      "value": 1
+    },
+    {
+      "name": "SAGE Publications",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "United States of America",
+      "region": "California",
+      "city": "Thousand Oaks",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a8ab2c85fe8df87116",
+      "titleInfo": [
+        {
+          "title": "South Africa: The White English-speaking Sensibility"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-001f"
+    }
+  ]
+}

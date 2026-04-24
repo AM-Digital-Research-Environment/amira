@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "music-publications",
+    "name": "Music Publications",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2022,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2022,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Publications",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Publications",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9edcb",
+      "titleInfo": [
+        {
+          "title": "Publications of ILAM"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03e6"
+    }
+  ]
+}

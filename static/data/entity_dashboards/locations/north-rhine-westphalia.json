@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "north-rhine-westphalia",
+    "name": "North Rhine-Westphalia",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 1965,
+      "count": 4
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1965,
+      "total": 4,
+      "byType": {
+        "Text": 4
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 4
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "value": 4
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "Nigeria",
+      "value": 4
+    }
+  ],
+  "contributors": [
+    {
+      "name": "L. P.",
+      "value": 2
+    },
+    {
+      "name": "W. T.",
+      "value": 2
+    }
+  ]
+}

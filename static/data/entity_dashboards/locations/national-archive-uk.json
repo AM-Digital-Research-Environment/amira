@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "national-archive-uk",
+    "name": "National Archive, UK",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2023,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2023,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "West Africa",
+      "value": 2
+    },
+    {
+      "name": "Exports",
+      "value": 1
+    },
+    {
+      "name": "Interest rates",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "West Africa",
+      "value": 2
+    },
+    {
+      "name": "Nigeria",
+      "value": 2
+    },
+    {
+      "name": "Ghana",
+      "value": 2
+    },
+    {
+      "name": "Exports",
+      "value": 1
+    },
+    {
+      "name": "Gold",
+      "value": 1
+    },
+    {
+      "name": "Interest rates",
+      "value": 1
+    },
+    {
+      "name": "Currency",
+      "value": 1
+    },
+    {
+      "name": "Naira",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Coburger, Carla",
+      "value": 2
+    }
+  ]
+}

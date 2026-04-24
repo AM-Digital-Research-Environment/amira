@@ -1,0 +1,220 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "colonial-instructions",
+    "name": "Colonial Instructions",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 1932,
+      "count": 2
+    },
+    {
+      "year": 1948,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1932,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1948,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Archives",
+      "value": 3
+    },
+    {
+      "name": "Colonisation",
+      "value": 3
+    },
+    {
+      "name": "Letters",
+      "value": 3
+    },
+    {
+      "name": "Social norms",
+      "value": 3
+    },
+    {
+      "name": "Discourse analysis",
+      "value": 3
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Archives",
+      "value": 3
+    },
+    {
+      "name": "Colonisation",
+      "value": 3
+    },
+    {
+      "name": "Letters",
+      "value": 3
+    },
+    {
+      "name": "Social norms",
+      "value": 3
+    },
+    {
+      "name": "Discourse analysis",
+      "value": 3
+    },
+    {
+      "name": "British Colonisation",
+      "value": 3
+    },
+    {
+      "name": "Colonial Records",
+      "value": 3
+    },
+    {
+      "name": "Southern Cameroons",
+      "value": 3
+    },
+    {
+      "name": "Postcolonial Heritage",
+      "value": 3
+    },
+    {
+      "name": "Great Britain",
+      "value": 3
+    },
+    {
+      "name": "Postcolonial Studies",
+      "value": 3
+    },
+    {
+      "name": "Colonial Intelligence Report",
+      "value": 1
+    },
+    {
+      "name": "Colonial Native Court",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Otung, Glory Essien",
+      "value": 3
+    },
+    {
+      "name": "Anchimbe, Eric",
+      "value": 3
+    },
+    {
+      "name": "Chiangong, Pepetual Mforbe",
+      "value": 3
+    },
+    {
+      "name": "Marjie, Sarah",
+      "value": 3
+    },
+    {
+      "name": "Kengo, Emmanuel",
+      "value": 3
+    },
+    {
+      "name": "Atindogbe, Gratien",
+      "value": 3
+    },
+    {
+      "name": "Ubanako, Valentine",
+      "value": 3
+    },
+    {
+      "name": "Mforteh, Stephen",
+      "value": 3
+    },
+    {
+      "name": "Eyoh, Julius",
+      "value": 3
+    },
+    {
+      "name": "Oyali, Uchenna",
+      "value": 3
+    },
+    {
+      "name": "Mbah, Boniface",
+      "value": 3
+    }
+  ],
+  "locations": [
+    {
+      "country": "Cameroon",
+      "region": "Southwest",
+      "city": "Buea",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "6877ced7b542f8b9f8940b36",
+      "titleInfo": [
+        {
+          "title": "Assessment – Instructions: Intelligence Reports and Handing over notes 1932-1948 (Source: NAC Buea; Collector: OGE; Date: 2021)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_CLnCK2019",
+        "name": "Colonial Letters and the Contact of Knowledges"
+      },
+      "dre_id": "abj-99-0031"
+    },
+    {
+      "_id": "6877ced7b542f8b9f8940b37",
+      "titleInfo": [
+        {
+          "title": "Memoranda on intelligence reports (1932-1939)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_CLnCK2019",
+        "name": "Colonial Letters and the Contact of Knowledges"
+      },
+      "dre_id": "abj-99-0032"
+    },
+    {
+      "_id": "6877ced7b542f8b9f8940b5f",
+      "titleInfo": [
+        {
+          "title": "Mbembe Marriage Customs"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_CLnCK2019",
+        "name": "Colonial Letters and the Contact of Knowledges"
+      },
+      "dre_id": "abj-99-005a"
+    }
+  ]
+}

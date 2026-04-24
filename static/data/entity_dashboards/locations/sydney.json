@@ -1,0 +1,322 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "sydney",
+    "name": "Sydney",
+    "count": 40
+  },
+  "timeline": [
+    {
+      "year": 1974,
+      "count": 1
+    },
+    {
+      "year": 2009,
+      "count": 2
+    },
+    {
+      "year": 2013,
+      "count": 7
+    },
+    {
+      "year": 2014,
+      "count": 28
+    },
+    {
+      "year": 2015,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1974,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 2009,
+      "total": 2,
+      "byType": {
+        "Audio": 2
+      }
+    },
+    {
+      "year": 2013,
+      "total": 7,
+      "byType": {
+        "Audio": 7
+      }
+    },
+    {
+      "year": 2014,
+      "total": 28,
+      "byType": {
+        "Audio": 3,
+        "Image": 25
+      }
+    },
+    {
+      "year": 2015,
+      "total": 2,
+      "byType": {
+        "Audio": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 26
+    },
+    {
+      "name": "Audio",
+      "value": 14
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 16
+    },
+    {
+      "name": "Sango",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Artists",
+      "value": 37
+    },
+    {
+      "name": "Interior decoration",
+      "value": 24
+    },
+    {
+      "name": "Photographs",
+      "value": 23
+    },
+    {
+      "name": "Art",
+      "value": 22
+    },
+    {
+      "name": "Africa",
+      "value": 20
+    },
+    {
+      "name": "Wood sculpture, Yoruba",
+      "value": 19
+    },
+    {
+      "name": "Sculpture",
+      "value": 19
+    },
+    {
+      "name": "Women artists",
+      "value": 14
+    },
+    {
+      "name": "Interviews",
+      "value": 14
+    },
+    {
+      "name": "Orisha religion",
+      "value": 6
+    },
+    {
+      "name": "Yoruba (African people)--Religion",
+      "value": 6
+    },
+    {
+      "name": "Painting",
+      "value": 3
+    },
+    {
+      "name": "Women",
+      "value": 2
+    },
+    {
+      "name": "Portraits",
+      "value": 2
+    },
+    {
+      "name": "Masks",
+      "value": 1
+    },
+    {
+      "name": "Children",
+      "value": 1
+    },
+    {
+      "name": "Maps",
+      "value": 1
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Artists",
+      "value": 37
+    },
+    {
+      "name": "Art Collector",
+      "value": 34
+    },
+    {
+      "name": "Art Collecting",
+      "value": 34
+    },
+    {
+      "name": "Interior decoration",
+      "value": 24
+    },
+    {
+      "name": "Photographs",
+      "value": 23
+    },
+    {
+      "name": "Art",
+      "value": 22
+    },
+    {
+      "name": "Africa",
+      "value": 20
+    },
+    {
+      "name": "Wood sculpture, Yoruba",
+      "value": 19
+    },
+    {
+      "name": "Sculpture",
+      "value": 19
+    },
+    {
+      "name": "Yoruba Art",
+      "value": 19
+    },
+    {
+      "name": "Shrine",
+      "value": 18
+    },
+    {
+      "name": "Nigeria",
+      "value": 15
+    },
+    {
+      "name": "Women artists",
+      "value": 14
+    },
+    {
+      "name": "Interviews",
+      "value": 14
+    },
+    {
+      "name": "Papua New Guinea",
+      "value": 14
+    },
+    {
+      "name": "New Guinea",
+      "value": 14
+    },
+    {
+      "name": "Sydney",
+      "value": 8
+    },
+    {
+      "name": "Orisha religion",
+      "value": 6
+    },
+    {
+      "name": "Yoruba (African people)--Religion",
+      "value": 6
+    },
+    {
+      "name": "Painting",
+      "value": 3
+    },
+    {
+      "name": "Women",
+      "value": 2
+    },
+    {
+      "name": "Portraits",
+      "value": 2
+    },
+    {
+      "name": "Orisha",
+      "value": 2
+    },
+    {
+      "name": "Orisha Art",
+      "value": 2
+    },
+    {
+      "name": "Masks",
+      "value": 1
+    },
+    {
+      "name": "Bangle",
+      "value": 1
+    },
+    {
+      "name": "Opon Ifá",
+      "value": 1
+    },
+    {
+      "name": "Children",
+      "value": 1
+    },
+    {
+      "name": "Maps",
+      "value": 1
+    },
+    {
+      "name": "Osogbo",
+      "value": 1
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Shango",
+      "value": 1
+    },
+    {
+      "name": "Oil Painting",
+      "value": 1
+    },
+    {
+      "name": "Family Photograph",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Greven, Katharina",
+      "value": 38
+    },
+    {
+      "name": "Beier, Georgina",
+      "value": 37
+    },
+    {
+      "name": "Beier, Ulli",
+      "value": 20
+    },
+    {
+      "name": "Ritchie, Jonathan",
+      "value": 2
+    },
+    {
+      "name": "Herbert, Heidi",
+      "value": 1
+    }
+  ]
+}

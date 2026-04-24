@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "french-national-centre-for-scientific-research",
+    "name": "French National Centre for Scientific Research",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 2007,
+      "count": 1
+    },
+    {
+      "year": 2008,
+      "count": 1
+    },
+    {
+      "year": 2010,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2007,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2008,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2010,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ritual",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 3
+    },
+    {
+      "name": "Namibia",
+      "value": 1
+    },
+    {
+      "name": "Ritual",
+      "value": 1
+    },
+    {
+      "name": "Cameroon",
+      "value": 1
+    },
+    {
+      "name": "Circumcision Ritual",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Olivier, Emmanuelle",
+      "value": 1
+    },
+    {
+      "name": "Fürniss, Susanne",
+      "value": 1
+    },
+    {
+      "name": "Zemp, Hugo",
+      "value": 1
+    },
+    {
+      "name": "Soro, Sikaman",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ec9b",
+      "titleInfo": [
+        {
+          "title": "On polyphonic construction: An analysis of Ju|'hoan vocal music (Namibia)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02b6"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ecaf",
+      "titleInfo": [
+        {
+          "title": "The Adoption of the Circumcision Ritual bèkà by the Baka-Pygmies in Southeast Cameroon"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02ca"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ecde",
+      "titleInfo": [
+        {
+          "title": "Talking balafons"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02f9"
+    }
+  ]
+}

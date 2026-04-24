@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "guinea",
+    "name": "Guinea",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2024,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2024,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Manuscripts",
+      "value": 2
+    },
+    {
+      "name": "Early modern, 1500-1700",
+      "value": 2
+    },
+    {
+      "name": "Literature",
+      "value": 2
+    },
+    {
+      "name": "Africa",
+      "value": 2
+    },
+    {
+      "name": "Books",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Manuscripts",
+      "value": 2
+    },
+    {
+      "name": "Early modern, 1500-1700",
+      "value": 2
+    },
+    {
+      "name": "Literature",
+      "value": 2
+    },
+    {
+      "name": "Africa",
+      "value": 2
+    },
+    {
+      "name": "Books",
+      "value": 2
+    },
+    {
+      "name": "England",
+      "value": 2
+    },
+    {
+      "name": "Knowledge",
+      "value": 2
+    },
+    {
+      "name": "English Influence",
+      "value": 1
+    },
+    {
+      "name": "Portuguese Court",
+      "value": 1
+    },
+    {
+      "name": "Hakluyt",
+      "value": 1
+    },
+    {
+      "name": "Voyages",
+      "value": 1
+    },
+    {
+      "name": "English",
+      "value": 1
+    },
+    {
+      "name": "Portuguese",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Aboluwade, Ifeoluwa",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "United Kingdom",
+      "region": "England",
+      "city": "London",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a8ab2c85fe8df871cb",
+      "titleInfo": [
+        {
+          "title": "British Library_Voyages to Guinea"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00d4"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871cc",
+      "titleInfo": [
+        {
+          "title": "British Library_Voyages to Guinea"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00d5"
+    }
+  ]
+}

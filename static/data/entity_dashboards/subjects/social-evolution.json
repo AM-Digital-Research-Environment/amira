@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "social-evolution",
+    "name": "Social evolution",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1954,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1954,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Opera",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Opera",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Morality Play",
+      "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Beier, Ulli",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9e9fb",
+      "titleInfo": [
+        {
+          "title": "Yoruba folk operas"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0016"
+    }
+  ]
+}

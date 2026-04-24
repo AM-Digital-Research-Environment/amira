@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "brown-university",
+    "name": "Brown University",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2013,
+      "count": 1
+    },
+    {
+      "year": 2014,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2013,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2014,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 2
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Whitmore, Aleysia K.",
+      "value": 1
+    },
+    {
+      "name": "Inglese, Francesca",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ed20",
+      "titleInfo": [
+        {
+          "title": "\"Cuban music is African music\": negotiating Africa and the African diaspora on the world music stage"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-033b"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed3b",
+      "titleInfo": [
+        {
+          "title": "Choreographing Cape Town through Goema music and dance"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0356"
+    }
+  ]
+}

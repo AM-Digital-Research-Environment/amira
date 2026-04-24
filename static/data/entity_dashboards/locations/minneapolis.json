@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "minneapolis",
+    "name": "Minneapolis",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1989,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1989,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Colonisation",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Colonisation",
+      "value": 1
+    },
+    {
+      "name": "Shakespeare",
+      "value": 1
+    },
+    {
+      "name": "Colonial Discourse",
+      "value": 1
+    },
+    {
+      "name": "Female Voice",
+      "value": 1
+    },
+    {
+      "name": "Article",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Busia, Abena P. A.",
+      "value": 1
+    },
+    {
+      "name": "University of Minnesota Press",
+      "value": 1
+    }
+  ]
+}

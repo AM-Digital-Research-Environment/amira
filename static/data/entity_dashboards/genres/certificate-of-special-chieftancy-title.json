@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "type": "genre",
+    "id": "certificate-of-special-chieftancy-title",
+    "name": "Certificate of Special Chieftancy Title",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1992,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1992,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ritual",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Women",
+      "value": 1
+    },
+    {
+      "name": "Women artists",
+      "value": 1
+    },
+    {
+      "name": "Artists",
+      "value": 1
+    },
+    {
+      "name": "Archives",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Ritual",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Women",
+      "value": 1
+    },
+    {
+      "name": "Women artists",
+      "value": 1
+    },
+    {
+      "name": "Artists",
+      "value": 1
+    },
+    {
+      "name": "Archives",
+      "value": 1
+    },
+    {
+      "name": "Osogbo",
+      "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    },
+    {
+      "name": "Chieftancy",
+      "value": 1
+    },
+    {
+      "name": "Certificate",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Beier, Georgina",
+      "value": 1
+    },
+    {
+      "name": "Yeye Olana",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Nigeria",
+      "region": "Osun State",
+      "city": "Osogbo",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b4ae",
+      "titleInfo": [
+        {
+          "title": "Urkunde über den Chieftancy Titel Yeye Olana (‚Mutter der Künstlerinnen und Künstler’)"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0026"
+    }
+  ]
+}

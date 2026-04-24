@@ -97,6 +97,26 @@
     {
       "name": "Community-based conservation",
       "value": 1
+    },
+    {
+      "name": "Livelihood",
+      "value": 1
+    },
+    {
+      "name": "Conservancy",
+      "value": 1
+    },
+    {
+      "name": "Drylands",
+      "value": 1
+    },
+    {
+      "name": "Namibia",
+      "value": 1
+    },
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 1
     }
   ],
   "contributors": [
@@ -143,6 +163,22 @@
       "region": "Kunene Region",
       "city": "Anabeb Conservancy",
       "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "66cefaf495a000d4c7bf370c",
+      "titleInfo": [
+        {
+          "title": "Eduard Gargallo and Jona Heita's transcript, Namibia, May 02, 2022"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0007"
     }
   ]
 }

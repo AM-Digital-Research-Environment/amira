@@ -1,0 +1,643 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "cameroon",
+    "name": "Cameroon",
+    "count": 101
+  },
+  "timeline": [
+    {
+      "year": 1916,
+      "count": 1
+    },
+    {
+      "year": 1917,
+      "count": 1
+    },
+    {
+      "year": 1918,
+      "count": 1
+    },
+    {
+      "year": 1920,
+      "count": 1
+    },
+    {
+      "year": 1921,
+      "count": 3
+    },
+    {
+      "year": 1922,
+      "count": 4
+    },
+    {
+      "year": 1923,
+      "count": 2
+    },
+    {
+      "year": 1924,
+      "count": 4
+    },
+    {
+      "year": 1925,
+      "count": 2
+    },
+    {
+      "year": 1926,
+      "count": 5
+    },
+    {
+      "year": 1929,
+      "count": 4
+    },
+    {
+      "year": 1930,
+      "count": 1
+    },
+    {
+      "year": 1932,
+      "count": 4
+    },
+    {
+      "year": 1933,
+      "count": 5
+    },
+    {
+      "year": 1934,
+      "count": 2
+    },
+    {
+      "year": 1937,
+      "count": 1
+    },
+    {
+      "year": 1938,
+      "count": 1
+    },
+    {
+      "year": 1939,
+      "count": 3
+    },
+    {
+      "year": 1942,
+      "count": 1
+    },
+    {
+      "year": 1947,
+      "count": 2
+    },
+    {
+      "year": 1948,
+      "count": 2
+    },
+    {
+      "year": 1949,
+      "count": 1
+    },
+    {
+      "year": 1950,
+      "count": 1
+    },
+    {
+      "year": 1952,
+      "count": 1
+    },
+    {
+      "year": 1953,
+      "count": 2
+    },
+    {
+      "year": 1958,
+      "count": 2
+    },
+    {
+      "year": 1959,
+      "count": 1
+    },
+    {
+      "year": 1960,
+      "count": 1
+    },
+    {
+      "year": 1961,
+      "count": 1
+    },
+    {
+      "year": 1962,
+      "count": 1
+    },
+    {
+      "year": 1964,
+      "count": 1
+    },
+    {
+      "year": 1966,
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "count": 24
+    },
+    {
+      "year": 2021,
+      "count": 5
+    },
+    {
+      "year": 2023,
+      "count": 9
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1916,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1917,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1918,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1920,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1921,
+      "total": 3,
+      "byType": {
+        "Text": 3
+      }
+    },
+    {
+      "year": 1922,
+      "total": 4,
+      "byType": {
+        "Text": 4
+      }
+    },
+    {
+      "year": 1923,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1924,
+      "total": 4,
+      "byType": {
+        "Text": 4
+      }
+    },
+    {
+      "year": 1925,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1926,
+      "total": 5,
+      "byType": {
+        "Text": 5
+      }
+    },
+    {
+      "year": 1929,
+      "total": 4,
+      "byType": {
+        "Text": 4
+      }
+    },
+    {
+      "year": 1930,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1932,
+      "total": 4,
+      "byType": {
+        "Text": 4
+      }
+    },
+    {
+      "year": 1933,
+      "total": 5,
+      "byType": {
+        "Text": 5
+      }
+    },
+    {
+      "year": 1934,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1937,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1938,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1939,
+      "total": 3,
+      "byType": {
+        "Text": 3
+      }
+    },
+    {
+      "year": 1942,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1947,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1948,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1949,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1950,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1952,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1953,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1958,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1959,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1960,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1961,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1962,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1964,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1966,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2020,
+      "total": 24,
+      "byType": {
+        "Audio": 24
+      }
+    },
+    {
+      "year": 2021,
+      "total": 5,
+      "byType": {
+        "Audio": 5
+      }
+    },
+    {
+      "year": 2023,
+      "total": 9,
+      "byType": {
+        "Audio": 9
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 63
+    },
+    {
+      "name": "Audio",
+      "value": 38
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 63
+    },
+    {
+      "name": "French",
+      "value": 38
+    },
+    {
+      "name": "German",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Archives",
+      "value": 63
+    },
+    {
+      "name": "Colonisation",
+      "value": 63
+    },
+    {
+      "name": "Letters",
+      "value": 63
+    },
+    {
+      "name": "Social norms",
+      "value": 63
+    },
+    {
+      "name": "Discourse analysis",
+      "value": 63
+    },
+    {
+      "name": "COVID-19 (Disease)",
+      "value": 38
+    },
+    {
+      "name": "French",
+      "value": 38
+    },
+    {
+      "name": "Ethics",
+      "value": 38
+    },
+    {
+      "name": "Africa",
+      "value": 38
+    },
+    {
+      "name": "Petitions",
+      "value": 6
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Archives",
+      "value": 63
+    },
+    {
+      "name": "Colonisation",
+      "value": 63
+    },
+    {
+      "name": "Letters",
+      "value": 63
+    },
+    {
+      "name": "Social norms",
+      "value": 63
+    },
+    {
+      "name": "Discourse analysis",
+      "value": 63
+    },
+    {
+      "name": "British Colonisation",
+      "value": 63
+    },
+    {
+      "name": "Colonial Records",
+      "value": 63
+    },
+    {
+      "name": "Southern Cameroons",
+      "value": 63
+    },
+    {
+      "name": "Postcolonial Heritage",
+      "value": 63
+    },
+    {
+      "name": "Great Britain",
+      "value": 63
+    },
+    {
+      "name": "Postcolonial Studies",
+      "value": 63
+    },
+    {
+      "name": "COVID-19 (Disease)",
+      "value": 38
+    },
+    {
+      "name": "French",
+      "value": 38
+    },
+    {
+      "name": "Ethics",
+      "value": 38
+    },
+    {
+      "name": "Africa",
+      "value": 38
+    },
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 38
+    },
+    {
+      "name": "Cameroon",
+      "value": 38
+    },
+    {
+      "name": "Morality",
+      "value": 38
+    },
+    {
+      "name": "COVID-19",
+      "value": 38
+    },
+    {
+      "name": "Colonial Intelligence Report",
+      "value": 9
+    },
+    {
+      "name": "Petitions",
+      "value": 6
+    },
+    {
+      "name": "Colonial Native Court",
+      "value": 5
+    },
+    {
+      "name": "Colonial Instructions",
+      "value": 3
+    },
+    {
+      "name": "Colonial Taxation",
+      "value": 2
+    },
+    {
+      "name": "Confidential Documents",
+      "value": 2
+    },
+    {
+      "name": "Bafut",
+      "value": 2
+    },
+    {
+      "name": "Kaka-Ntem",
+      "value": 2
+    },
+    {
+      "name": "Kumba",
+      "value": 2
+    },
+    {
+      "name": "Bali",
+      "value": 1
+    },
+    {
+      "name": "Chiefship",
+      "value": 1
+    },
+    {
+      "name": "Handover Note",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Otung, Glory Essien",
+      "value": 63
+    },
+    {
+      "name": "Anchimbe, Eric",
+      "value": 63
+    },
+    {
+      "name": "Chiangong, Pepetual Mforbe",
+      "value": 63
+    },
+    {
+      "name": "Marjie, Sarah",
+      "value": 63
+    },
+    {
+      "name": "Kengo, Emmanuel",
+      "value": 63
+    },
+    {
+      "name": "Atindogbe, Gratien",
+      "value": 63
+    },
+    {
+      "name": "Ubanako, Valentine",
+      "value": 63
+    },
+    {
+      "name": "Mforteh, Stephen",
+      "value": 63
+    },
+    {
+      "name": "Eyoh, Julius",
+      "value": 63
+    },
+    {
+      "name": "Oyali, Uchenna",
+      "value": 63
+    },
+    {
+      "name": "Mbah, Boniface",
+      "value": 63
+    },
+    {
+      "name": "Drescher, Martina",
+      "value": 38
+    },
+    {
+      "name": "Ngawa Mbaho, Carline Liliane",
+      "value": 38
+    }
+  ]
+}

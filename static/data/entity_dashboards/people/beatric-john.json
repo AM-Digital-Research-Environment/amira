@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "beatric-john",
+    "name": "Beatric, John",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1961,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1961,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9eaa2",
+      "titleInfo": [
+        {
+          "title": "MUNTU: AN OUTLINE OF NEO-AFRICAN CULTURE, by Janheinz Jahn. Translated by Marjorie Greene. Faber and Faber, London, 1961. Ill. 30s."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00bd"
+    }
+  ]
+}

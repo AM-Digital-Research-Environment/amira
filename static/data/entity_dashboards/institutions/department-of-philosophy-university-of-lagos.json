@@ -1,0 +1,484 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "department-of-philosophy-university-of-lagos",
+    "name": "Department of Philosophy, University of Lagos",
+    "count": 24
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 21
+    },
+    {
+      "year": 2021,
+      "count": 3
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 21,
+      "byType": {
+        "Text": 3,
+        "Image": 10,
+        "Moving image": 8
+      }
+    },
+    {
+      "year": 2021,
+      "total": 3,
+      "byType": {
+        "Text": 3
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 10
+    },
+    {
+      "name": "Moving image",
+      "value": 8
+    },
+    {
+      "name": "Text",
+      "value": 6
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 21
+    }
+  ],
+  "subjects": [
+    {
+      "name": "COVID-19 (Disease)",
+      "value": 21
+    },
+    {
+      "name": "Transport workers",
+      "value": 21
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "COVID-19 (Disease)",
+      "value": 21
+    },
+    {
+      "name": "Transport workers",
+      "value": 21
+    },
+    {
+      "name": "Nigeria",
+      "value": 21
+    },
+    {
+      "name": "Lagos",
+      "value": 21
+    },
+    {
+      "name": "Marketer",
+      "value": 21
+    },
+    {
+      "name": "COVID-19",
+      "value": 21
+    },
+    {
+      "name": "Researcher",
+      "value": 3
+    },
+    {
+      "name": "Historian",
+      "value": 3
+    },
+    {
+      "name": "Anthropologist",
+      "value": 3
+    },
+    {
+      "name": "Linguist",
+      "value": 3
+    },
+    {
+      "name": "Integrative Studies",
+      "value": 3
+    },
+    {
+      "name": "Ethics Dumping",
+      "value": 3
+    },
+    {
+      "name": "Research Ethics",
+      "value": 2
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Fayemi, Kazeem",
+      "value": 24
+    },
+    {
+      "name": "Akin-Otiko, Akinmayowa",
+      "value": 24
+    },
+    {
+      "name": "Eleanya, Ugochi",
+      "value": 3
+    },
+    {
+      "name": "Soetan, Abidemi",
+      "value": 3
+    }
+  ],
+  "locations": [
+    {
+      "country": "Nigeria",
+      "region": "Lagos State",
+      "city": "Lagos",
+      "count": 24
+    }
+  ],
+  "items": [
+    {
+      "_id": "66c60b2b56227158bf8279d3",
+      "titleInfo": [
+        {
+          "title": "African Studies without Ethics Dumping: An Integrative Study of Research Ethics Governance in Nigeria"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_EthDump2021",
+        "name": "African Studies without Ethics Dumping: An Integrative Study of Research Ethics Governance in Burkina Faso, Kenya, Nigeria, and South Africa"
+      },
+      "dre_id": "aab-02-0000"
+    },
+    {
+      "_id": "66c60b2b56227158bf8279d4",
+      "titleInfo": [
+        {
+          "title": "African Studies without Ethics Dumping: An Integrative Study of Research Ethics Governance in Burkina Faso and Kenya"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_EthDump2021",
+        "name": "African Studies without Ethics Dumping: An Integrative Study of Research Ethics Governance in Burkina Faso, Kenya, Nigeria, and South Africa"
+      },
+      "dre_id": "aab-02-0001"
+    },
+    {
+      "_id": "66c60b2b56227158bf8279d5",
+      "titleInfo": [
+        {
+          "title": "African Studies without Ethics Dumping: An Integrative Study of Research Ethics Governance in Burkina Faso, Kenya, Nigeria, and South Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_EthDump2021",
+        "name": "African Studies without Ethics Dumping: An Integrative Study of Research Ethics Governance in Burkina Faso, Kenya, Nigeria, and South Africa"
+      },
+      "dre_id": "aab-02-0002"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d869f",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-0000"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86a0",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Interview in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-0001"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86a1",
+      "titleInfo": [
+        {
+          "title": "Article on the Vulnerable also Fight COVID-19: Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-0002"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86a2",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Image 1, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-0003"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86a3",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Image 2, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-0004"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86a4",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Image 3, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-0005"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86a5",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Image 4, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-0006"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86a6",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Image 5, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-0007"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86a7",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Image 6, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-0008"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86a8",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Image 7, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-0009"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86a9",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Image 8, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-000a"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86aa",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Image 9, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-000b"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86ab",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Image 10, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-000c"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86ac",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Video 1, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-000d"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86ad",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Video 2, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-000e"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86ae",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Video 3, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-000f"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86af",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Video 4, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-0010"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86b0",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Video 5, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-0011"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86b1",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Video 6, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-0012"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86b2",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Video 7, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-0013"
+    },
+    {
+      "_id": "6718f35ec327cde4b57d86b3",
+      "titleInfo": [
+        {
+          "title": "The Vulnerable also Fight COVID-19: Video 8, Narratives of Commercial Bus Drivers and Petty Marketers in Lagos, Nigeria"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_IWCVD2021",
+        "name": "The Informal Workers also Fight Covid-19: Narratives of Public Road Transport Workers and Petty Marketers in Lagos, Nigeria"
+      },
+      "dre_id": "abb-02-0014"
+    }
+  ]
+}

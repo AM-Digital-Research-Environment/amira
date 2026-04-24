@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "barrier-measure",
+    "name": "Barrier Measure",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 2,
+      "byType": {
+        "Text": 1,
+        "Moving image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    },
+    {
+      "name": "Moving image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "World health",
+      "value": 2
+    },
+    {
+      "name": "West Africa",
+      "value": 2
+    },
+    {
+      "name": "COVID-19 (Disease)",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "World health",
+      "value": 2
+    },
+    {
+      "name": "West Africa",
+      "value": 2
+    },
+    {
+      "name": "COVID-19 (Disease)",
+      "value": 2
+    },
+    {
+      "name": "World Health Organization",
+      "value": 2
+    },
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 2
+    },
+    {
+      "name": "Mobility",
+      "value": 2
+    },
+    {
+      "name": "Global Health Governance",
+      "value": 2
+    },
+    {
+      "name": "Global Health Policy",
+      "value": 2
+    },
+    {
+      "name": "Burkina Faso",
+      "value": 2
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Konkobo, Hermane Moussa",
+      "value": 1
+    },
+    {
+      "name": "Konaté, Mohamadou",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Burkina Faso",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "6718efd3c327cde4b57d8682",
+      "titleInfo": [
+        {
+          "title": "Rapport d'un panel d'échange"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0011"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8683",
+      "titleInfo": [
+        {
+          "title": "Vidéo d'un panel d'échange"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0012"
+    }
+  ]
+}

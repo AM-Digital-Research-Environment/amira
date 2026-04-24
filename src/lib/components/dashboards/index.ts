@@ -6,6 +6,7 @@
  */
 
 export { default as EntityDashboard } from './EntityDashboard.svelte';
+export { default as EntityDashboardSection } from './EntityDashboardSection.svelte';
 export { default as ChartSlot } from './ChartSlot.svelte';
 export {
 	ENTITY_LAYOUTS,

@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "lankes-maximilian",
+    "name": "Lankes, Maximilian",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 4
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 4,
+      "byType": {
+        "Text": 4
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 4
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 4
+    },
+    {
+      "name": "French",
+      "value": 4
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Land tenure",
+      "value": 4
+    },
+    {
+      "name": "Migration",
+      "value": 4
+    },
+    {
+      "name": "Social conflict",
+      "value": 4
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Land tenure",
+      "value": 4
+    },
+    {
+      "name": "Migration",
+      "value": 4
+    },
+    {
+      "name": "Social conflict",
+      "value": 4
+    },
+    {
+      "name": "Conflict Theory",
+      "value": 4
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Sebudandi, Christophe",
+      "value": 8
+    },
+    {
+      "name": "Kaganda Mulume Oderhwa, Philippe",
+      "value": 8
+    },
+    {
+      "name": "Doevenspeck, Martin",
+      "value": 4
+    },
+    {
+      "name": "Mwanabiningo, Nene Morisho",
+      "value": 4
+    },
+    {
+      "name": "Tegera, Aloy",
+      "value": 4
+    }
+  ],
+  "locations": [
+    {
+      "country": "Democratic Republic of the Congo",
+      "region": "Ituri",
+      "city": "Geti",
+      "count": 4
+    }
+  ],
+  "items": [
+    {
+      "_id": "674dc0432e70d1e383d18b00",
+      "titleInfo": [
+        {
+          "title": "Research on mobility and conflict in the great lakes region/the case of the Hutu in Ituri"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MiConIturi2019",
+        "name": "Uhamaji wa wanyerwanda: Migration and Conflict in Ituri, DR Congo"
+      },
+      "dre_id": "acd-01-0004"
+    },
+    {
+      "_id": "674dc0432e70d1e383d18b02",
+      "titleInfo": [
+        {
+          "title": "Focus group: mixed members of local communities (adults, young ones and the elderly)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MiConIturi2019",
+        "name": "Uhamaji wa wanyerwanda: Migration and Conflict in Ituri, DR Congo"
+      },
+      "dre_id": "acd-01-0006"
+    },
+    {
+      "_id": "674dc0432e70d1e383d18b03",
+      "titleInfo": [
+        {
+          "title": "Focus group: mixed Hutu community (adults, young people and the elderly)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MiConIturi2019",
+        "name": "Uhamaji wa wanyerwanda: Migration and Conflict in Ituri, DR Congo"
+      },
+      "dre_id": "acd-01-0007"
+    },
+    {
+      "_id": "674dc0432e70d1e383d18b04",
+      "titleInfo": [
+        {
+          "title": "Focus group: mixed young indigenous and Hutu people"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MiConIturi2019",
+        "name": "Uhamaji wa wanyerwanda: Migration and Conflict in Ituri, DR Congo"
+      },
+      "dre_id": "acd-01-0008"
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "type": "group",
+    "id": "bethel-presbyterian-church-choir",
+    "name": "Bethel Presbyterian Church Choir",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 1989,
+      "count": 1
+    },
+    {
+      "year": 1990,
+      "count": 1
+    }
+  ],
+  "types": [
+    {
+      "name": "Moving image",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Religion",
+      "value": 3
+    },
+    {
+      "name": "Christianity",
+      "value": 3
+    },
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Choirs (Music)",
+      "value": 2
+    },
+    {
+      "name": "Gospel music",
+      "value": 2
+    },
+    {
+      "name": "Singing",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Religion",
+      "value": 3
+    },
+    {
+      "name": "Christianity",
+      "value": 3
+    },
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Choirs (Music)",
+      "value": 2
+    },
+    {
+      "name": "Gospel music",
+      "value": 2
+    },
+    {
+      "name": "Singing",
+      "value": 2
+    },
+    {
+      "name": "Live Music",
+      "value": 2
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Government of Liberia",
+      "value": 3
+    },
+    {
+      "name": "Wessehutes, Jimmy",
+      "value": 2
+    },
+    {
+      "name": "Urey, Khrushchev Borbor",
+      "value": 2
+    },
+    {
+      "name": "Wegee, Presley",
+      "value": 2
+    },
+    {
+      "name": "Fakay, Soko",
+      "value": 2
+    },
+    {
+      "name": "Taylor, Adolphus",
+      "value": 2
+    },
+    {
+      "name": "Korvah, James",
+      "value": 2
+    },
+    {
+      "name": "McCrumada, Charles",
+      "value": 2
+    },
+    {
+      "name": "Blamo, Francis",
+      "value": 1
+    },
+    {
+      "name": "Doblah, George",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Liberia",
+      "region": "Montserrado County",
+      "city": "Monrovia",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "6982337057a8e0353b0b1d21",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00e4"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d24",
+      "titleInfo": [
+        {
+          "title": "The Gospel Time"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00e7"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1da6",
+      "titleInfo": [
+        {
+          "title": "The Gospel Time"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0169"
+    }
+  ]
+}

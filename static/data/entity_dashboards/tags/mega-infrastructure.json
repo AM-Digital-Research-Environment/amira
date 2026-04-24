@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "mega-infrastructure",
+    "name": "Mega Infrastructure",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 3
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 3,
+      "byType": {
+        "Text": 2,
+        "Audio": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    },
+    {
+      "name": "Audio",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    },
+    {
+      "name": "Swahili",
+      "value": 2
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "Lamu Port and Lamu-Southern Sudan-Ethiopia Transport Corridor",
+      "value": 3
+    },
+    {
+      "name": "Kenya",
+      "value": 3
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kinyera, Paddy Banya",
+      "value": 3
+    },
+    {
+      "name": "Doevenspeck, Martin",
+      "value": 3
+    }
+  ],
+  "locations": [
+    {
+      "country": "Kenya",
+      "region": "Turkana",
+      "city": "Turkana South",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "66e30b89f27a094a184204b1",
+      "titleInfo": [
+        {
+          "title": "Transcript of Interview with a Sub-county official - Turkana South, Lokichar"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_OilMov2019",
+        "name": "Oil Movements: The Production and Government of Petro-(im)mobilities in East Africa"
+      },
+      "dre_id": "aca-01-0001"
+    },
+    {
+      "_id": "66e30b89f27a094a184204b3",
+      "titleInfo": [
+        {
+          "title": "Transcript of Interview Chair of COE - Turkana South, Lokichar"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_OilMov2019",
+        "name": "Oil Movements: The Production and Government of Petro-(im)mobilities in East Africa"
+      },
+      "dre_id": "aca-01-0003"
+    },
+    {
+      "_id": "66e30b89f27a094a184204b5",
+      "titleInfo": [
+        {
+          "title": "Audio recording of an interview with LAPSSET project activist in Lokichar, Turkana South, Kenya"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_OilMov2019",
+        "name": "Oil Movements: The Production and Government of Petro-(im)mobilities in East Africa"
+      },
+      "dre_id": "aca-01-0005"
+    }
+  ]
+}

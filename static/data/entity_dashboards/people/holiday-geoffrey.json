@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "holiday-geoffrey",
+    "name": "Holiday, Geoffrey",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1956,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1956,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ea22",
+      "titleInfo": [
+        {
+          "title": "The Tuareg of the Ahaggar"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-003d"
+    }
+  ]
+}

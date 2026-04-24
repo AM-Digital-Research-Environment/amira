@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "society",
+    "name": "Society",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 2013,
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2013,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 2020,
+      "total": 2,
+      "byType": {
+        "Image": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Racism",
+      "value": 3
+    },
+    {
+      "name": "Subconsciousness",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Racism",
+      "value": 3
+    },
+    {
+      "name": "Daily Racism",
+      "value": 3
+    },
+    {
+      "name": "Local Press",
+      "value": 3
+    },
+    {
+      "name": "Bayreuth",
+      "value": 3
+    },
+    {
+      "name": "Language",
+      "value": 3
+    },
+    {
+      "name": "Subconsciousness",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Arndt, Susan",
+      "value": 1
+    },
+    {
+      "name": "Söllner, Fritz",
+      "value": 1
+    },
+    {
+      "name": "Schmedt, Silas",
+      "value": 1
+    },
+    {
+      "name": "Krumpholz, Uwe",
+      "value": 1
+    },
+    {
+      "name": "Springfeld, Lars",
+      "value": 1
+    },
+    {
+      "name": "Haggeney, Henrike",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "692db49707481a28c72155bd",
+      "titleInfo": [
+        {
+          "title": "Unbewusst ist jeder ein Rassist"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0015"
+    },
+    {
+      "_id": "692db49707481a28c72155c3",
+      "titleInfo": [
+        {
+          "title": "Hin zur Sprachpolizei"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-001b"
+    },
+    {
+      "_id": "692db49707481a28c72155c4",
+      "titleInfo": [
+        {
+          "title": "Lasst und reden!"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-001c"
+    }
+  ]
+}

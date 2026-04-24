@@ -1,0 +1,186 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "diaspora-studies",
+    "name": "Diaspora Studies",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2019,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2023,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "African diaspora",
+      "value": 2
+    },
+    {
+      "name": "Highlife (Music)",
+      "value": 1
+    },
+    {
+      "name": "Immigrants",
+      "value": 1
+    },
+    {
+      "name": "Igbo (African people)",
+      "value": 1
+    },
+    {
+      "name": "Migration",
+      "value": 1
+    },
+    {
+      "name": "Musicians",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African diaspora",
+      "value": 2
+    },
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Highlife (Music)",
+      "value": 1
+    },
+    {
+      "name": "Immigrants",
+      "value": 1
+    },
+    {
+      "name": "Igbo (African people)",
+      "value": 1
+    },
+    {
+      "name": "Guangzhou",
+      "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    },
+    {
+      "name": "China",
+      "value": 1
+    },
+    {
+      "name": "Immigration",
+      "value": 1
+    },
+    {
+      "name": "Immigration Studies",
+      "value": 1
+    },
+    {
+      "name": "Migration",
+      "value": 1
+    },
+    {
+      "name": "Musicians",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Ethiopian American Diaspora",
+      "value": 1
+    },
+    {
+      "name": "Sentinel Musicians",
+      "value": 1
+    },
+    {
+      "name": "Identity",
+      "value": 1
+    },
+    {
+      "name": "Ethiopia",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mora, Manolete",
+      "value": 1
+    },
+    {
+      "name": "Kumar, Rakesh",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9edab",
+      "titleInfo": [
+        {
+          "title": "\"THIS COUNTRY OF CHINA IS TOUGH\": NIGERIAN IMMIGRANT MUSIC MAKING IN GUANGZHOU, CHINA"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03c6"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edde",
+      "titleInfo": [
+        {
+          "title": "Sing and Sing On: Sentinel Musicians and the Making of the Ethiopian American Diaspora"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03f9"
+    }
+  ]
+}

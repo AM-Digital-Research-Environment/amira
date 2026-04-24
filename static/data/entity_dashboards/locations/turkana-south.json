@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "turkana-south",
+    "name": "Turkana South",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 4
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 4,
+      "byType": {
+        "Text": 3,
+        "Audio": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    },
+    {
+      "name": "Audio",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 4
+    },
+    {
+      "name": "Swahili",
+      "value": 2
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "Mega Infrastructure",
+      "value": 3
+    },
+    {
+      "name": "Lamu Port and Lamu-Southern Sudan-Ethiopia Transport Corridor",
+      "value": 3
+    },
+    {
+      "name": "Kenya",
+      "value": 3
+    },
+    {
+      "name": "Oil Infrastructure",
+      "value": 1
+    },
+    {
+      "name": "East African Crude Oil Pipeline",
+      "value": 1
+    },
+    {
+      "name": "Uganda",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kinyera, Paddy Banya",
+      "value": 4
+    },
+    {
+      "name": "Doevenspeck, Martin",
+      "value": 4
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "university-of-pennsylvania",
+    "name": "University of Pennsylvania",
+    "count": 6
+  },
+  "timeline": [
+    {
+      "year": 2007,
+      "count": 1
+    },
+    {
+      "year": 2008,
+      "count": 1
+    },
+    {
+      "year": 2009,
+      "count": 1
+    },
+    {
+      "year": 2012,
+      "count": 1
+    },
+    {
+      "year": 2016,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2007,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2008,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2009,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2012,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2016,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 6
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 6
+    }
+  ],
+  "subjects": [
+    {
+      "name": "South Africa",
+      "value": 3
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 6
+    },
+    {
+      "name": "South Africa",
+      "value": 3
+    },
+    {
+      "name": "Umaskandi Izibongo",
+      "value": 1
+    },
+    {
+      "name": "Zulu Praises",
+      "value": 1
+    },
+    {
+      "name": "Umaskandi Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Muller, Carol",
+      "value": 2
+    },
+    {
+      "name": "Pooley, Thomas M.",
+      "value": 2
+    },
+    {
+      "name": "Holtzman, Glen",
+      "value": 1
+    },
+    {
+      "name": "Kyker, Jennifer W.",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 6
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ec93",
+      "titleInfo": [
+        {
+          "title": "Updating the San: Image and Reality of an African People in the 21st Century. Robert Hitchcock, Kazunobu Ikeya, Megan Biesele and Richard Lee, editors. 2006. Senri Ethnological Studies no. 70, Osaka, Japan: National Museum of Ethnonology. ISSN 03876004; ISBN 4-901 906-43-7 C3039. v. 304 pp., maps, figures."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02ae"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eca8",
+      "titleInfo": [
+        {
+          "title": "In Township Tonight: South Africa's Black City Music and Theatre, David B. Coplan, University Of Chicago Press; 2nd edition. 2008, 455 pages, Paperback: ISBN-10: 0226115674, ISBN-13: 978-0226115672."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02c3"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ecc4",
+      "titleInfo": [
+        {
+          "title": "Carrying spirit in song: music and the making of ancestors at Zezuru kurova guva ceremonies"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02df"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed07",
+      "titleInfo": [
+        {
+          "title": "Music Notation: A South African Guide. Christine Lucia. 2011. Pretoria: UNISA Press. 318 pp."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0322"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed68",
+      "titleInfo": [
+        {
+          "title": "Marabi Nights: Jazz, 'Race' and Society in Early Apartheid South Africa. Christopher Ballantine. 2012. Pietermaritzburg: UKZN Press. 16 bw images, bibliography, index,\nCD, 247pp."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0383"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed7a",
+      "titleInfo": [
+        {
+          "title": "UMASKANDI IZIBONGO: SEMANTIC, PROSODIC AND MUSICAL DIMENSIONS OF VOICE IN ZULU POPULAR PRAISES"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0395"
+    }
+  ]
+}

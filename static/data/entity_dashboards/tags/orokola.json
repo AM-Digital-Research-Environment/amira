@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "orokola",
+    "name": "Orokola",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2016,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2016,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Artists",
+      "value": 2
+    },
+    {
+      "name": "Wood-carving, Yoruba",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Artists",
+      "value": 2
+    },
+    {
+      "name": "Wood-carving, Yoruba",
+      "value": 2
+    },
+    {
+      "name": "Email",
+      "value": 2
+    },
+    {
+      "name": "Port Moresby",
+      "value": 2
+    },
+    {
+      "name": "Papua New Guinea",
+      "value": 2
+    },
+    {
+      "name": "New Guinea",
+      "value": 2
+    },
+    {
+      "name": "Yoruba Art",
+      "value": 2
+    },
+    {
+      "name": "Art Collector",
+      "value": 2
+    },
+    {
+      "name": "Art Collecting",
+      "value": 2
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Beier, Georgina",
+      "value": 2
+    },
+    {
+      "name": "Greven, Katharina",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "Australia",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b50d",
+      "titleInfo": [
+        {
+          "title": "Email von Georgina Beier"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0085"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b50e",
+      "titleInfo": [
+        {
+          "title": "Email von Georgina Beier"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0086"
+    }
+  ]
+}

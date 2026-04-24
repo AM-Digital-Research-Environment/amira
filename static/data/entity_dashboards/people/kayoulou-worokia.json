@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "kayoulou-worokia",
+    "name": "Kayoulou, Worokia",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 2022,
+      "count": 3
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2022,
+      "total": 3,
+      "byType": {
+        "Moving image": 3
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Moving image",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Actors",
+      "value": 3
+    },
+    {
+      "name": "Aesthetics",
+      "value": 3
+    },
+    {
+      "name": "Experience",
+      "value": 3
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Actors",
+      "value": 3
+    },
+    {
+      "name": "Aesthetics",
+      "value": 3
+    },
+    {
+      "name": "Experience",
+      "value": 3
+    },
+    {
+      "name": "Cinema",
+      "value": 3
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Kaboré",
+      "value": 1
+    },
+    {
+      "name": "Napon",
+      "value": 1
+    },
+    {
+      "name": "Traoré",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Burkina Faso",
+      "region": "Centre",
+      "city": "Ouagadougou",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "69bd30d562fdff17d6fc73c7",
+      "titleInfo": [
+        {
+          "title": "Entretien avec M. Kaboré [ingénieur du son]"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-001d"
+    },
+    {
+      "_id": "69bd30d562fdff17d6fc73c8",
+      "titleInfo": [
+        {
+          "title": "Entretien avec M. Napon [producteur/directeur]"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-001e"
+    },
+    {
+      "_id": "69bd30d662fdff17d6fc73c9",
+      "titleInfo": [
+        {
+          "title": "Entretien avec Mme. Traoré [actrice]"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-001f"
+    }
+  ]
+}

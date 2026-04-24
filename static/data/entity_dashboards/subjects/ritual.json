@@ -1,0 +1,724 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "ritual",
+    "name": "Ritual",
+    "count": 14
+  },
+  "timeline": [
+    {
+      "year": 1992,
+      "count": 3
+    },
+    {
+      "year": 1996,
+      "count": 1
+    },
+    {
+      "year": 2008,
+      "count": 1
+    },
+    {
+      "year": 2012,
+      "count": 1
+    },
+    {
+      "year": 2013,
+      "count": 2
+    },
+    {
+      "year": 2016,
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1992,
+      "total": 3,
+      "byType": {
+        "Image": 3
+      }
+    },
+    {
+      "year": 1996,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2008,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2012,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2013,
+      "total": 2,
+      "byType": {
+        "Image": 2
+      }
+    },
+    {
+      "year": 2016,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2018,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2019,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2023,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2025,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 8
+    },
+    {
+      "name": "Image",
+      "value": 6
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 12
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Africa",
+      "value": 5
+    },
+    {
+      "name": "Archives",
+      "value": 4
+    },
+    {
+      "name": "Photographs",
+      "value": 3
+    },
+    {
+      "name": "Artists",
+      "value": 3
+    },
+    {
+      "name": "Dance",
+      "value": 2
+    },
+    {
+      "name": "Yoruba (African people)--Religion",
+      "value": 2
+    },
+    {
+      "name": "Orisha religion",
+      "value": 2
+    },
+    {
+      "name": "Women",
+      "value": 2
+    },
+    {
+      "name": "Women artists",
+      "value": 2
+    },
+    {
+      "name": "Chipendani",
+      "value": 2
+    },
+    {
+      "name": "Shona (African people)",
+      "value": 2
+    },
+    {
+      "name": "Musical instruments",
+      "value": 2
+    },
+    {
+      "name": "Healing",
+      "value": 2
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Albums",
+      "value": 1
+    },
+    {
+      "name": "Ika (African people)",
+      "value": 1
+    },
+    {
+      "name": "Myth",
+      "value": 1
+    },
+    {
+      "name": "Singing",
+      "value": 1
+    },
+    {
+      "name": "Musical bow",
+      "value": 1
+    },
+    {
+      "name": "Worship",
+      "value": 1
+    },
+    {
+      "name": "Religion",
+      "value": 1
+    },
+    {
+      "name": "Well-being",
+      "value": 1
+    },
+    {
+      "name": "Gender",
+      "value": 1
+    },
+    {
+      "name": "Book reviews",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 8
+    },
+    {
+      "name": "Africa",
+      "value": 5
+    },
+    {
+      "name": "Nigeria",
+      "value": 5
+    },
+    {
+      "name": "Archives",
+      "value": 4
+    },
+    {
+      "name": "Photographs",
+      "value": 3
+    },
+    {
+      "name": "Osogbo",
+      "value": 3
+    },
+    {
+      "name": "Artists",
+      "value": 3
+    },
+    {
+      "name": "Dance",
+      "value": 2
+    },
+    {
+      "name": "Yoruba (African people)--Religion",
+      "value": 2
+    },
+    {
+      "name": "Orisha religion",
+      "value": 2
+    },
+    {
+      "name": "Yoruba Art",
+      "value": 2
+    },
+    {
+      "name": "Women",
+      "value": 2
+    },
+    {
+      "name": "Women artists",
+      "value": 2
+    },
+    {
+      "name": "Chieftancy",
+      "value": 2
+    },
+    {
+      "name": "Certificate",
+      "value": 2
+    },
+    {
+      "name": "Uganda",
+      "value": 2
+    },
+    {
+      "name": "Chipendani",
+      "value": 2
+    },
+    {
+      "name": "Shona (African people)",
+      "value": 2
+    },
+    {
+      "name": "Zimbabwe",
+      "value": 2
+    },
+    {
+      "name": "Musical instruments",
+      "value": 2
+    },
+    {
+      "name": "Healing",
+      "value": 2
+    },
+    {
+      "name": "Indigenous Music",
+      "value": 2
+    },
+    {
+      "name": "Ghana",
+      "value": 2
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Albums",
+      "value": 1
+    },
+    {
+      "name": "Shango",
+      "value": 1
+    },
+    {
+      "name": "Orisha",
+      "value": 1
+    },
+    {
+      "name": "Orisha Art",
+      "value": 1
+    },
+    {
+      "name": "Yoruba Rituals",
+      "value": 1
+    },
+    {
+      "name": "Yoruba Rites",
+      "value": 1
+    },
+    {
+      "name": "Yoruba Ceremony",
+      "value": 1
+    },
+    {
+      "name": "Ceremony",
+      "value": 1
+    },
+    {
+      "name": "Ika (African people)",
+      "value": 1
+    },
+    {
+      "name": "The Mbari Club",
+      "value": 1
+    },
+    {
+      "name": "Ibadan",
+      "value": 1
+    },
+    {
+      "name": "Ritual Dance",
+      "value": 1
+    },
+    {
+      "name": "Cultural Centre",
+      "value": 1
+    },
+    {
+      "name": "Myth",
+      "value": 1
+    },
+    {
+      "name": "Buganda",
+      "value": 1
+    },
+    {
+      "name": "Kingship",
+      "value": 1
+    },
+    {
+      "name": "Cameroon",
+      "value": 1
+    },
+    {
+      "name": "Circumcision Ritual",
+      "value": 1
+    },
+    {
+      "name": "Singing",
+      "value": 1
+    },
+    {
+      "name": "Musical bow",
+      "value": 1
+    },
+    {
+      "name": "Bow (Music)",
+      "value": 1
+    },
+    {
+      "name": "Vadzimu (Ancestral Spirits)",
+      "value": 1
+    },
+    {
+      "name": "Bira Ceremony",
+      "value": 1
+    },
+    {
+      "name": "Herdboy",
+      "value": 1
+    },
+    {
+      "name": "Chipendani (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Worship",
+      "value": 1
+    },
+    {
+      "name": "Religion",
+      "value": 1
+    },
+    {
+      "name": "Well-being",
+      "value": 1
+    },
+    {
+      "name": "African Indigenous Churches",
+      "value": 1
+    },
+    {
+      "name": "Gender",
+      "value": 1
+    },
+    {
+      "name": "Mfoba (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Gender Roles",
+      "value": 1
+    },
+    {
+      "name": "Dondo (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Book reviews",
+      "value": 1
+    },
+    {
+      "name": "Ritual Music",
+      "value": 1
+    },
+    {
+      "name": "Religious Authenticity",
+      "value": 1
+    },
+    {
+      "name": "Ifa-Orisa",
+      "value": 1
+    },
+    {
+      "name": "Cuba",
+      "value": 1
+    },
+    {
+      "name": "Cuban Ifa-Orisa",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Beier, Ulli",
+      "value": 6
+    },
+    {
+      "name": "Greven, Katharina",
+      "value": 3
+    },
+    {
+      "name": "Beier, Georgina",
+      "value": 3
+    },
+    {
+      "name": "Yeye Olana",
+      "value": 2
+    },
+    {
+      "name": "Kyker, Jennifer W.",
+      "value": 2
+    },
+    {
+      "name": "Asare, Amos Darkwa",
+      "value": 2
+    },
+    {
+      "name": "Kubik, Gerhard",
+      "value": 1
+    },
+    {
+      "name": "Fürniss, Susanne",
+      "value": 1
+    },
+    {
+      "name": "Hoesing, Peter",
+      "value": 1
+    },
+    {
+      "name": "Gibbs, Tanesha",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 8
+    },
+    {
+      "country": "Nigeria",
+      "region": "Osun State",
+      "city": "Osogbo",
+      "count": 4
+    },
+    {
+      "country": "Nigeria",
+      "region": "",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b48e",
+      "titleInfo": [
+        {
+          "title": "Auseinandergeschnittener Kontaktabzug Shango-Performance der Yoruba"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-99-0006"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b48f",
+      "titleInfo": [
+        {
+          "title": "Lose Fotoabzüge in einer Archivschachtel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0007"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b498",
+      "titleInfo": [
+        {
+          "title": "Gruppenfoto mit Ulli und Georgina Beier im Jahre 1992 in Osogbo bei Titelverleihung"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0010"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b49f",
+      "titleInfo": [
+        {
+          "title": "Agbor Tänzer im Mbari Artists and Writers Club in Ibadan"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0017"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4ad",
+      "titleInfo": [
+        {
+          "title": "Überreichung der Urkunde über den Chieftancy Titel Yeye Olana (‚Mutter der Künstlerinnen und Künstler’) des Oba Iyiola Oyewale Matanmi III an Georgina Beier in Osogbo"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0025"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4ae",
+      "titleInfo": [
+        {
+          "title": "Urkunde über den Chieftancy Titel Yeye Olana (‚Mutter der Künstlerinnen und Künstler’)"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0026"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec5e",
+      "titleInfo": [
+        {
+          "title": "MYTH, RITUAL AND KINGSHIP IN BUGANDA, by Benjamin C. Ray, Oxford University Press, New York, Oxford, 1991,239pp., illus., photos."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0279"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ecaf",
+      "titleInfo": [
+        {
+          "title": "The Adoption of the Circumcision Ritual bèkà by the Baka-Pygmies in Southeast Cameroon"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02ca"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed11",
+      "titleInfo": [
+        {
+          "title": "Kusamira: singing rituals of wellness in southern Uganda"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-032c"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed6f",
+      "titleInfo": [
+        {
+          "title": "REASSESSING THE ZIMBABWEAN CHIPENDANI (Article withdrawn)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-038a"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eda6",
+      "titleInfo": [
+        {
+          "title": "REASSESSING THE ZIMBABWEAN CHIPENDANI"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03c1"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edaf",
+      "titleInfo": [
+        {
+          "title": "\"SINGING THE HEALING\": THE RITUALS OF THE TWELVE APOSTLES CHURCH IN GHANA"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03ca"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ede4",
+      "titleInfo": [
+        {
+          "title": "GENDERING MUSICAL DISCOURSE"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03ff"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ede7",
+      "titleInfo": [
+        {
+          "title": "Efficacy of Sound, Power, Potency and Promise in the Translocal Ritual Music of Cuban Ifa-Orisa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0402"
+    }
+  ]
+}

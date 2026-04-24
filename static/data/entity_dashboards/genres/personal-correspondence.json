@@ -1,0 +1,562 @@
+{
+  "meta": {
+    "type": "genre",
+    "id": "personal-correspondence",
+    "name": "Personal correspondence",
+    "count": 19
+  },
+  "timeline": [
+    {
+      "year": 2015,
+      "count": 3
+    },
+    {
+      "year": 2016,
+      "count": 6
+    },
+    {
+      "year": 2019,
+      "count": 4
+    },
+    {
+      "year": 2024,
+      "count": 6
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2015,
+      "total": 3,
+      "byType": {
+        "Text": 3
+      }
+    },
+    {
+      "year": 2016,
+      "total": 6,
+      "byType": {
+        "Text": 6
+      }
+    },
+    {
+      "year": 2019,
+      "total": 4,
+      "byType": {
+        "Text": 4
+      }
+    },
+    {
+      "year": 2024,
+      "total": 6,
+      "byType": {
+        "Image": 6
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 13
+    },
+    {
+      "name": "Image",
+      "value": 6
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 13
+    },
+    {
+      "name": "Portuguese",
+      "value": 6
+    },
+    {
+      "name": "German",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Artists",
+      "value": 13
+    },
+    {
+      "name": "Africa",
+      "value": 7
+    },
+    {
+      "name": "Letters",
+      "value": 6
+    },
+    {
+      "name": "Capoeira (Dance)",
+      "value": 6
+    },
+    {
+      "name": "Art",
+      "value": 4
+    },
+    {
+      "name": "Exhibitions",
+      "value": 4
+    },
+    {
+      "name": "Wood-carving, Yoruba",
+      "value": 4
+    },
+    {
+      "name": "Music",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Artists",
+      "value": 13
+    },
+    {
+      "name": "Email",
+      "value": 13
+    },
+    {
+      "name": "Art Collector",
+      "value": 13
+    },
+    {
+      "name": "Art Collecting",
+      "value": 13
+    },
+    {
+      "name": "Africa",
+      "value": 7
+    },
+    {
+      "name": "Letters",
+      "value": 6
+    },
+    {
+      "name": "Capoeira (Dance)",
+      "value": 6
+    },
+    {
+      "name": "Memory of Capoeira Angola",
+      "value": 6
+    },
+    {
+      "name": "Mestre Nô",
+      "value": 6
+    },
+    {
+      "name": "Nigeria",
+      "value": 5
+    },
+    {
+      "name": "Art",
+      "value": 4
+    },
+    {
+      "name": "Exhibitions",
+      "value": 4
+    },
+    {
+      "name": "Art Exhibition",
+      "value": 4
+    },
+    {
+      "name": "Cultural Centre",
+      "value": 4
+    },
+    {
+      "name": "Performing Arts Center",
+      "value": 4
+    },
+    {
+      "name": "Wood-carving, Yoruba",
+      "value": 4
+    },
+    {
+      "name": "Port Moresby",
+      "value": 3
+    },
+    {
+      "name": "Papua New Guinea",
+      "value": 3
+    },
+    {
+      "name": "New Guinea",
+      "value": 3
+    },
+    {
+      "name": "Yoruba Art",
+      "value": 3
+    },
+    {
+      "name": "Orokola",
+      "value": 2
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "New Zeland",
+      "value": 1
+    },
+    {
+      "name": "Pentax Camera",
+      "value": 1
+    },
+    {
+      "name": "Lagos",
+      "value": 1
+    },
+    {
+      "name": "Glowitz",
+      "value": 1
+    },
+    {
+      "name": "Correspondence School",
+      "value": 1
+    },
+    {
+      "name": "Home Study School",
+      "value": 1
+    },
+    {
+      "name": "Mbari Mbayo",
+      "value": 1
+    },
+    {
+      "name": "Mbari Mayo Club",
+      "value": 1
+    },
+    {
+      "name": "The Mbari Club",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Greven, Katharina",
+      "value": 15
+    },
+    {
+      "name": "Beier, Georgina",
+      "value": 11
+    },
+    {
+      "name": "de Oliveira, Norival Moreira",
+      "value": 6
+    },
+    {
+      "name": "Pomar, Alexandre",
+      "value": 2
+    },
+    {
+      "name": "Raabe, Eva",
+      "value": 2
+    },
+    {
+      "name": "Kauage, Mathias",
+      "value": 1
+    },
+    {
+      "name": "Akis, Timothy",
+      "value": 1
+    },
+    {
+      "name": "Abiodun, Rowland",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Australia",
+      "region": "",
+      "city": "",
+      "count": 11
+    },
+    {
+      "country": "Brazil",
+      "region": "",
+      "city": "",
+      "count": 6
+    },
+    {
+      "country": "Germany",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b507",
+      "titleInfo": [
+        {
+          "title": "Email von Georgina Beier"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-007f"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b508",
+      "titleInfo": [
+        {
+          "title": "Email von Georgina Beier"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0080"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b509",
+      "titleInfo": [
+        {
+          "title": "Email von Georgina Beier"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0081"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b50a",
+      "titleInfo": [
+        {
+          "title": "Email von Georgina Beier"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0082"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b50b",
+      "titleInfo": [
+        {
+          "title": "Email von Georgina Beier"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0083"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b50c",
+      "titleInfo": [
+        {
+          "title": "Email von Georgina Beier"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0084"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b50d",
+      "titleInfo": [
+        {
+          "title": "Email von Georgina Beier"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0085"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b50e",
+      "titleInfo": [
+        {
+          "title": "Email von Georgina Beier"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0086"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b50f",
+      "titleInfo": [
+        {
+          "title": "Email von Georgina Beier"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0087"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b510",
+      "titleInfo": [
+        {
+          "title": "Email von Georgina Beier"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0088"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b511",
+      "titleInfo": [
+        {
+          "title": "Email von Georgina Beier"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0089"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b512",
+      "titleInfo": [
+        {
+          "title": "E-Mail-Austausch zwischen Alexandre Pomar und Katharina Greven"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-008a"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b513",
+      "titleInfo": [
+        {
+          "title": "E-Mail-Austausch zwischen Raabe Eva und Katharina Greven"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-008b"
+    },
+    {
+      "_id": "67d192720fec557b9a445c18",
+      "titleInfo": [
+        {
+          "title": "Cartão postal enviado por seu primo de Kingston na Jamaica"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0001"
+    },
+    {
+      "_id": "67d192720fec557b9a445c19",
+      "titleInfo": [
+        {
+          "title": "Cartão postal enviado de Nova York por Mestre No para sua filha Guia"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0002"
+    },
+    {
+      "_id": "67d192720fec557b9a445c1a",
+      "titleInfo": [
+        {
+          "title": "Fotografia com carta do Mestre No para o seu filho"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0003"
+    },
+    {
+      "_id": "67d192720fec557b9a445c1b",
+      "titleInfo": [
+        {
+          "title": "Cartas de amor enviadas para o Mestre No"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0004"
+    },
+    {
+      "_id": "67d192720fec557b9a445c1c",
+      "titleInfo": [
+        {
+          "title": "Carta do Mestre No enviada para os seus alunos"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0005"
+    },
+    {
+      "_id": "67d192720fec557b9a445c1d",
+      "titleInfo": [
+        {
+          "title": "Carta enviada por Mestre Nô para Sônia"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital"
+      },
+      "dre_id": "adj-06-0006"
+    }
+  ]
+}

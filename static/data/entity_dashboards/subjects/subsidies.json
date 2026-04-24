@@ -1,0 +1,197 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "subsidies",
+    "name": "Subsidies",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2021,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2021,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    },
+    {
+      "name": "Mongolian",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Arid regions",
+      "value": 2
+    },
+    {
+      "name": "Herders",
+      "value": 2
+    },
+    {
+      "name": "Schools",
+      "value": 2
+    },
+    {
+      "name": "Disasters",
+      "value": 1
+    },
+    {
+      "name": "Weather",
+      "value": 1
+    },
+    {
+      "name": "Livestock",
+      "value": 1
+    },
+    {
+      "name": "Agriculture",
+      "value": 1
+    },
+    {
+      "name": "Education",
+      "value": 1
+    },
+    {
+      "name": "Local government",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Arid regions",
+      "value": 2
+    },
+    {
+      "name": "Herders",
+      "value": 2
+    },
+    {
+      "name": "Schools",
+      "value": 2
+    },
+    {
+      "name": "Lockdown",
+      "value": 2
+    },
+    {
+      "name": "Mongolia",
+      "value": 2
+    },
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 2
+    },
+    {
+      "name": "Pastoralist",
+      "value": 1
+    },
+    {
+      "name": "Disasters",
+      "value": 1
+    },
+    {
+      "name": "Weather",
+      "value": 1
+    },
+    {
+      "name": "Livestock",
+      "value": 1
+    },
+    {
+      "name": "Agriculture",
+      "value": 1
+    },
+    {
+      "name": "Education",
+      "value": 1
+    },
+    {
+      "name": "Local government",
+      "value": 1
+    },
+    {
+      "name": "Household Income",
+      "value": 1
+    },
+    {
+      "name": "Dzud (Mongolia)",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Batjav, Batbuyan",
+      "value": 2
+    },
+    {
+      "name": "Amarbat, Byambasuren",
+      "value": 2
+    },
+    {
+      "name": "Baasankhorloo, Ts",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "Mongolia",
+      "region": "Bulgan Province",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "Mongolia",
+      "region": "Khentii Province",
+      "city": "Delgerhan Soum",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "66cefaf495a000d4c7bf3717",
+      "titleInfo": [
+        {
+          "title": "Covid-19 resilience in Mongolian pastoralist communities. Preliminary Narrative Report on Fieldwork in\n Mongolia, April 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0012"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf371e",
+      "titleInfo": [
+        {
+          "title": "Batbuyan Batjav's research comments on Mongolia, September 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0019"
+    }
+  ]
+}

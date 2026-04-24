@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "kennedy-jean",
+    "name": "Kennedy, Jean",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1966,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1966,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 2
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Archives",
+      "value": 1
+    },
+    {
+      "name": "Photographs",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Patas Monkey",
+      "value": 2
+    },
+    {
+      "name": "Archives",
+      "value": 1
+    },
+    {
+      "name": "Personal Archives",
+      "value": 1
+    },
+    {
+      "name": "Photographs",
+      "value": 1
+    },
+    {
+      "name": "Lagos",
+      "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Greven, Katharina",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 1
+    },
+    {
+      "country": "Nigeria",
+      "region": "Lagos State",
+      "city": "Lagos",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b49c",
+      "titleInfo": [
+        {
+          "title": "Ulli Beier mit dem Affe Moses in Lagos"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0014"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4ce",
+      "titleInfo": [
+        {
+          "title": "Ulli Beier mit dem Affe Moses in Lagos"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0046"
+    }
+  ]
+}

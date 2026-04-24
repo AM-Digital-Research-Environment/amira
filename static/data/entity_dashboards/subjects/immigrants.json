@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "immigrants",
+    "name": "Immigrants",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2019,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2019,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Highlife (Music)",
+      "value": 1
+    },
+    {
+      "name": "Igbo (African people)",
+      "value": 1
+    },
+    {
+      "name": "African diaspora",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Highlife (Music)",
+      "value": 1
+    },
+    {
+      "name": "Igbo (African people)",
+      "value": 1
+    },
+    {
+      "name": "African diaspora",
+      "value": 1
+    },
+    {
+      "name": "Guangzhou",
+      "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    },
+    {
+      "name": "China",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    },
+    {
+      "name": "Immigration",
+      "value": 1
+    },
+    {
+      "name": "Immigration Studies",
+      "value": 1
+    },
+    {
+      "name": "Diaspora Studies",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mora, Manolete",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9edab",
+      "titleInfo": [
+        {
+          "title": "\"THIS COUNTRY OF CHINA IS TOUGH\": NIGERIAN IMMIGRANT MUSIC MAKING IN GUANGZHOU, CHINA"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03c6"
+    }
+  ]
+}

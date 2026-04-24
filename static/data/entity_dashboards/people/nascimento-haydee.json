@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "nascimento-haydee",
+    "name": "Nascimento, Haydee",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1982,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1982,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Tracey, Andrew",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ebfb",
+      "titleInfo": [
+        {
+          "title": "The \"Henrique Preto\" Samba"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0216"
+    }
+  ]
+}

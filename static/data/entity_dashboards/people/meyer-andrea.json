@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "meyer-andrea",
+    "name": "Meyer, Andrea",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1996,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1996,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 1
+    },
+    {
+      "name": "Equatorial Guinea",
+      "value": 1
+    },
+    {
+      "name": "Gabon",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ec63",
+      "titleInfo": [
+        {
+          "title": "A HANDBOOK OF MUSICAL AND OTHER SOUND-PRODUCING INSTRUMENTS FROM EQUATORIAL GUINEA AND GABON, by Åke Norborg, Musikmuseets, Stockholm, No 16, 1989, pp.469."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-027e"
+    }
+  ]
+}

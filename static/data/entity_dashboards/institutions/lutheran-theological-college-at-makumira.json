@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "lutheran-theological-college-at-makumira",
+    "name": "Lutheran Theological College at Makumira",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1980,
+      "count": 1
+    },
+    {
+      "year": 1982,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1980,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1982,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Songs",
+      "value": 1
+    },
+    {
+      "name": "Tales",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Songs",
+      "value": 1
+    },
+    {
+      "name": "Tales",
+      "value": 1
+    },
+    {
+      "name": "Tanzania",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Olson, Howard S.",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ebe7",
+      "titleInfo": [
+        {
+          "title": "The relationship between lyrics and melody in Rimi vocal music"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0202"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ebfc",
+      "titleInfo": [
+        {
+          "title": "Songs and Tales of the Arimi of Tanzania"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0217"
+    }
+  ]
+}

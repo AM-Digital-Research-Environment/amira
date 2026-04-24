@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "ideological-conflict",
+    "name": "Ideological Conflict",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1990,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1990,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Postcolonialism",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Postcolonialism",
+      "value": 1
+    },
+    {
+      "name": "Shakespeare",
+      "value": 1
+    },
+    {
+      "name": "Postcolonial Studies",
+      "value": 1
+    },
+    {
+      "name": "Postcolonial Africa",
+      "value": 1
+    },
+    {
+      "name": "Article",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Wright, Laurence",
+      "value": 1
+    },
+    {
+      "name": "Shakespeare Society of Southern Africa",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "Eastern Cape",
+      "city": "Makhanda",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a8ab2c85fe8df8711f",
+      "titleInfo": [
+        {
+          "title": "Aspects of Shakespeare in Post-Colonial Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0028"
+    }
+  ]
+}

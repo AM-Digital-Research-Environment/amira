@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "steppat-michael",
+    "name": "Steppat, Michael",
+    "count": 5
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 5
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 5,
+      "byType": {
+        "Digital": 5
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Digital",
+      "value": 5
+    }
+  ],
+  "languages": [],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "Shakespeare",
+      "value": 2
+    },
+    {
+      "name": "Source Studies",
+      "value": 2
+    },
+    {
+      "name": "Leo Africanus",
+      "value": 1
+    },
+    {
+      "name": "Pseudodoxia Epidemica",
+      "value": 1
+    },
+    {
+      "name": "Curse of Ham",
+      "value": 1
+    },
+    {
+      "name": "Provenience",
+      "value": 1
+    },
+    {
+      "name": "Chronological Trace",
+      "value": 1
+    },
+    {
+      "name": "Charlotte Lennox",
+      "value": 1
+    },
+    {
+      "name": "Karl Simrock",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 5
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a8ab2c85fe8df870f7",
+      "titleInfo": [
+        {
+          "title": "Reading Leo Africanus"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0000"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df870fb",
+      "titleInfo": [
+        {
+          "title": "Sir Thomas Browne: Pseudodoxia Epidemica (1646)"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0004"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df870fd",
+      "titleInfo": [
+        {
+          "title": "Tracing the Cure of Ham: A history of difference"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0006"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df870ff",
+      "titleInfo": [
+        {
+          "title": "Charlotte Lennox / Karl Simrock Two pioneers in Shakespeare source studies"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0008"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87105",
+      "titleInfo": [
+        {
+          "title": "Origins and Transformations A little introduction to the development of Shakespeare source studies"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-000e"
+    }
+  ]
+}

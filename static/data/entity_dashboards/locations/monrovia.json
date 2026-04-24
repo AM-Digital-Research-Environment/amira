@@ -1,0 +1,922 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "monrovia",
+    "name": "Monrovia",
+    "count": 487
+  },
+  "timeline": [
+    {
+      "year": 1974,
+      "count": 1
+    },
+    {
+      "year": 1979,
+      "count": 1
+    },
+    {
+      "year": 1981,
+      "count": 3
+    },
+    {
+      "year": 1982,
+      "count": 1
+    },
+    {
+      "year": 1983,
+      "count": 4
+    },
+    {
+      "year": 1984,
+      "count": 3
+    },
+    {
+      "year": 1985,
+      "count": 13
+    },
+    {
+      "year": 1986,
+      "count": 7
+    },
+    {
+      "year": 1987,
+      "count": 13
+    },
+    {
+      "year": 1988,
+      "count": 24
+    },
+    {
+      "year": 1989,
+      "count": 32
+    },
+    {
+      "year": 1990,
+      "count": 12
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1974,
+      "total": 1,
+      "byType": {
+        "Moving image": 1
+      }
+    },
+    {
+      "year": 1979,
+      "total": 1,
+      "byType": {
+        "Moving image": 1
+      }
+    },
+    {
+      "year": 1981,
+      "total": 3,
+      "byType": {
+        "Moving image": 3
+      }
+    },
+    {
+      "year": 1982,
+      "total": 1,
+      "byType": {
+        "Moving image": 1
+      }
+    },
+    {
+      "year": 1983,
+      "total": 4,
+      "byType": {
+        "Moving image": 4
+      }
+    },
+    {
+      "year": 1984,
+      "total": 3,
+      "byType": {
+        "Moving image": 3
+      }
+    },
+    {
+      "year": 1985,
+      "total": 13,
+      "byType": {
+        "Moving image": 13
+      }
+    },
+    {
+      "year": 1986,
+      "total": 7,
+      "byType": {
+        "Moving image": 7
+      }
+    },
+    {
+      "year": 1987,
+      "total": 13,
+      "byType": {
+        "Moving image": 13
+      }
+    },
+    {
+      "year": 1988,
+      "total": 24,
+      "byType": {
+        "Moving image": 24
+      }
+    },
+    {
+      "year": 1989,
+      "total": 32,
+      "byType": {
+        "Moving image": 32
+      }
+    },
+    {
+      "year": 1990,
+      "total": 12,
+      "byType": {
+        "Moving image": 12
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Moving image",
+      "value": 487
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 480
+    },
+    {
+      "name": "French",
+      "value": 15
+    },
+    {
+      "name": "German",
+      "value": 13
+    },
+    {
+      "name": "Arabic",
+      "value": 12
+    },
+    {
+      "name": "Spanish",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Education",
+      "value": 82
+    },
+    {
+      "name": "Religion",
+      "value": 58
+    },
+    {
+      "name": "Christianity",
+      "value": 34
+    },
+    {
+      "name": "Music",
+      "value": 28
+    },
+    {
+      "name": "Children",
+      "value": 26
+    },
+    {
+      "name": "Sports",
+      "value": 24
+    },
+    {
+      "name": "Islam",
+      "value": 16
+    },
+    {
+      "name": "Health",
+      "value": 15
+    },
+    {
+      "name": "Singing",
+      "value": 14
+    },
+    {
+      "name": "Interviews",
+      "value": 12
+    },
+    {
+      "name": "Choirs (Music)",
+      "value": 10
+    },
+    {
+      "name": "Gospel music",
+      "value": 10
+    },
+    {
+      "name": "Television commercials",
+      "value": 9
+    },
+    {
+      "name": "History",
+      "value": 7
+    },
+    {
+      "name": "Christmas",
+      "value": 7
+    },
+    {
+      "name": "Dance",
+      "value": 7
+    },
+    {
+      "name": "Medicine",
+      "value": 7
+    },
+    {
+      "name": "Agriculture",
+      "value": 5
+    },
+    {
+      "name": "Competition",
+      "value": 5
+    },
+    {
+      "name": "Culture",
+      "value": 4
+    },
+    {
+      "name": "Schools",
+      "value": 4
+    },
+    {
+      "name": "Arts",
+      "value": 3
+    },
+    {
+      "name": "Concerts",
+      "value": 2
+    },
+    {
+      "name": "Electricity",
+      "value": 2
+    },
+    {
+      "name": "Performance",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "News",
+      "value": 136
+    },
+    {
+      "name": "Public Affairs",
+      "value": 96
+    },
+    {
+      "name": "Education",
+      "value": 82
+    },
+    {
+      "name": "Politics",
+      "value": 69
+    },
+    {
+      "name": "Religion",
+      "value": 58
+    },
+    {
+      "name": "Entertainment",
+      "value": 53
+    },
+    {
+      "name": "Local News",
+      "value": 50
+    },
+    {
+      "name": "International News",
+      "value": 50
+    },
+    {
+      "name": "Christianity",
+      "value": 34
+    },
+    {
+      "name": "Music",
+      "value": 28
+    },
+    {
+      "name": "Children",
+      "value": 26
+    },
+    {
+      "name": "Educational Show",
+      "value": 26
+    },
+    {
+      "name": "Sports",
+      "value": 24
+    },
+    {
+      "name": "Live Music",
+      "value": 17
+    },
+    {
+      "name": "Islam",
+      "value": 16
+    },
+    {
+      "name": "Health",
+      "value": 15
+    },
+    {
+      "name": "Singing",
+      "value": 14
+    },
+    {
+      "name": "Advertisement",
+      "value": 12
+    },
+    {
+      "name": "Interviews",
+      "value": 12
+    },
+    {
+      "name": "Choirs (Music)",
+      "value": 10
+    },
+    {
+      "name": "Gospel music",
+      "value": 10
+    },
+    {
+      "name": "Television commercials",
+      "value": 9
+    },
+    {
+      "name": "History",
+      "value": 7
+    },
+    {
+      "name": "Christmas",
+      "value": 7
+    },
+    {
+      "name": "Dance",
+      "value": 7
+    },
+    {
+      "name": "Medicine",
+      "value": 7
+    },
+    {
+      "name": "Agriculture",
+      "value": 5
+    },
+    {
+      "name": "Competition",
+      "value": 5
+    },
+    {
+      "name": "Scientific Knowledge",
+      "value": 5
+    },
+    {
+      "name": "Quiz Show",
+      "value": 5
+    },
+    {
+      "name": "Culture",
+      "value": 4
+    },
+    {
+      "name": "Schools",
+      "value": 4
+    },
+    {
+      "name": "President of Liberia",
+      "value": 3
+    },
+    {
+      "name": "Military",
+      "value": 3
+    },
+    {
+      "name": "Cultural Heritage",
+      "value": 3
+    },
+    {
+      "name": "African Cultural Heritage",
+      "value": 3
+    },
+    {
+      "name": "National News",
+      "value": 3
+    },
+    {
+      "name": "HIV/AIDS",
+      "value": 3
+    },
+    {
+      "name": "Arts",
+      "value": 3
+    },
+    {
+      "name": "Broadcast",
+      "value": 2
+    },
+    {
+      "name": "Tradition",
+      "value": 2
+    },
+    {
+      "name": "Environment",
+      "value": 2
+    },
+    {
+      "name": "Annual Message",
+      "value": 2
+    },
+    {
+      "name": "Concerts",
+      "value": 2
+    },
+    {
+      "name": "Electricity",
+      "value": 2
+    },
+    {
+      "name": "Power Supply",
+      "value": 2
+    },
+    {
+      "name": "Performance",
+      "value": 2
+    },
+    {
+      "name": "Talk Show",
+      "value": 2
+    },
+    {
+      "name": "Political News",
+      "value": 2
+    },
+    {
+      "name": "Movie",
+      "value": 2
+    },
+    {
+      "name": "Storytelling",
+      "value": 2
+    },
+    {
+      "name": "Public relations",
+      "value": 2
+    },
+    {
+      "name": "Motherhood",
+      "value": 1
+    },
+    {
+      "name": "Love",
+      "value": 1
+    },
+    {
+      "name": "Arranged marriage",
+      "value": 1
+    },
+    {
+      "name": "Consumer Advice",
+      "value": 1
+    },
+    {
+      "name": "Biography",
+      "value": 1
+    },
+    {
+      "name": "Tribute",
+      "value": 1
+    },
+    {
+      "name": "Environmental Sanitation",
+      "value": 1
+    },
+    {
+      "name": "Funeral",
+      "value": 1
+    },
+    {
+      "name": "Recording Technology",
+      "value": 1
+    },
+    {
+      "name": "Reggae music",
+      "value": 1
+    },
+    {
+      "name": "Contraception",
+      "value": 1
+    },
+    {
+      "name": "Card games",
+      "value": 1
+    },
+    {
+      "name": "Travel",
+      "value": 1
+    },
+    {
+      "name": "Soap Opera",
+      "value": 1
+    },
+    {
+      "name": "Film Production",
+      "value": 1
+    },
+    {
+      "name": "Black People",
+      "value": 1
+    },
+    {
+      "name": "Race Identity",
+      "value": 1
+    },
+    {
+      "name": "Black People in Film",
+      "value": 1
+    },
+    {
+      "name": "Music videos",
+      "value": 1
+    },
+    {
+      "name": "Contemporary Music",
+      "value": 1
+    },
+    {
+      "name": "Global North",
+      "value": 1
+    },
+    {
+      "name": "Global South",
+      "value": 1
+    },
+    {
+      "name": "Inequality",
+      "value": 1
+    },
+    {
+      "name": "Food",
+      "value": 1
+    },
+    {
+      "name": "Crops",
+      "value": 1
+    },
+    {
+      "name": "Farming",
+      "value": 1
+    },
+    {
+      "name": "Festivals",
+      "value": 1
+    },
+    {
+      "name": "Music Festival",
+      "value": 1
+    },
+    {
+      "name": "International Relations",
+      "value": 1
+    },
+    {
+      "name": "War",
+      "value": 1
+    },
+    {
+      "name": "Tactics",
+      "value": 1
+    },
+    {
+      "name": "Weapons",
+      "value": 1
+    },
+    {
+      "name": "Nation Building",
+      "value": 1
+    },
+    {
+      "name": "Adult Education",
+      "value": 1
+    },
+    {
+      "name": "Communities",
+      "value": 1
+    },
+    {
+      "name": "Telecommunication",
+      "value": 1
+    },
+    {
+      "name": "African Unity",
+      "value": 1
+    },
+    {
+      "name": "Education Development",
+      "value": 1
+    },
+    {
+      "name": "Obituaries",
+      "value": 1
+    },
+    {
+      "name": "Leprosy",
+      "value": 1
+    },
+    {
+      "name": "National History",
+      "value": 1
+    },
+    {
+      "name": "Flight",
+      "value": 1
+    },
+    {
+      "name": "Film",
+      "value": 1
+    },
+    {
+      "name": "Coast Land",
+      "value": 1
+    },
+    {
+      "name": "Art",
+      "value": 1
+    },
+    {
+      "name": "Painting",
+      "value": 1
+    },
+    {
+      "name": "Poets",
+      "value": 1
+    },
+    {
+      "name": "Novelists",
+      "value": 1
+    },
+    {
+      "name": "Artists",
+      "value": 1
+    },
+    {
+      "name": "Singers",
+      "value": 1
+    },
+    {
+      "name": "Migration",
+      "value": 1
+    },
+    {
+      "name": "Music History",
+      "value": 1
+    },
+    {
+      "name": "Foreign news",
+      "value": 1
+    },
+    {
+      "name": "Presidential Updates",
+      "value": 1
+    },
+    {
+      "name": "Economic Updates",
+      "value": 1
+    },
+    {
+      "name": "Food Production",
+      "value": 1
+    },
+    {
+      "name": "Transportation Information",
+      "value": 1
+    },
+    {
+      "name": "Books",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Cultural Program",
+      "value": 1
+    },
+    {
+      "name": "Presidency",
+      "value": 1
+    },
+    {
+      "name": "Theater",
+      "value": 1
+    },
+    {
+      "name": "Plays",
+      "value": 1
+    },
+    {
+      "name": "Basketball",
+      "value": 1
+    },
+    {
+      "name": "Youth Entertainment",
+      "value": 1
+    },
+    {
+      "name": "Industries",
+      "value": 1
+    },
+    {
+      "name": "Public Hearing",
+      "value": 1
+    },
+    {
+      "name": "Honoring Ceremony",
+      "value": 1
+    },
+    {
+      "name": "US-Liberia Relations",
+      "value": 1
+    },
+    {
+      "name": "Public health",
+      "value": 1
+    },
+    {
+      "name": "Diseases",
+      "value": 1
+    },
+    {
+      "name": "Prayer",
+      "value": 1
+    },
+    {
+      "name": "Ramadan",
+      "value": 1
+    },
+    {
+      "name": "Celebration",
+      "value": 1
+    },
+    {
+      "name": "Speech",
+      "value": 1
+    },
+    {
+      "name": "Ceremony",
+      "value": 1
+    },
+    {
+      "name": "Gender Roles",
+      "value": 1
+    },
+    {
+      "name": "Family",
+      "value": 1
+    },
+    {
+      "name": "Future Ambition",
+      "value": 1
+    },
+    {
+      "name": "Work environment",
+      "value": 1
+    },
+    {
+      "name": "Mosques",
+      "value": 1
+    },
+    {
+      "name": "Kids Entertainment",
+      "value": 1
+    },
+    {
+      "name": "Fasting",
+      "value": 1
+    },
+    {
+      "name": "Family Time",
+      "value": 1
+    },
+    {
+      "name": "Social security",
+      "value": 1
+    },
+    {
+      "name": "Judaism",
+      "value": 1
+    },
+    {
+      "name": "Death",
+      "value": 1
+    },
+    {
+      "name": "Cultural Affairs",
+      "value": 1
+    },
+    {
+      "name": "Parenting",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Government of Liberia",
+      "value": 476
+    },
+    {
+      "name": "Liberia Broadcasting System (LBS)",
+      "value": 200
+    },
+    {
+      "name": "McCrumada, Charles",
+      "value": 51
+    },
+    {
+      "name": "Urey, Khrushchev Borbor",
+      "value": 50
+    },
+    {
+      "name": "Collins, Hawa Andrews",
+      "value": 49
+    },
+    {
+      "name": "Taylor, Adolphus",
+      "value": 44
+    },
+    {
+      "name": "Gilbert, Thomas",
+      "value": 44
+    },
+    {
+      "name": "Mensah, Sam",
+      "value": 43
+    },
+    {
+      "name": "Eastman, John",
+      "value": 39
+    },
+    {
+      "name": "Wegee, Presley",
+      "value": 39
+    },
+    {
+      "name": "Brent, Julius",
+      "value": 31
+    },
+    {
+      "name": "Fakay, Soko",
+      "value": 30
+    },
+    {
+      "name": "Brown, Dan",
+      "value": 25
+    },
+    {
+      "name": "Konneh, Kafumba F.",
+      "value": 21
+    },
+    {
+      "name": "Christopher, Victoria",
+      "value": 20
+    },
+    {
+      "name": "Andrews, Amos",
+      "value": 17
+    },
+    {
+      "name": "Konuwa, Charles",
+      "value": 17
+    },
+    {
+      "name": "TransTel",
+      "value": 17
+    },
+    {
+      "name": "Kollie, Aaron",
+      "value": 14
+    },
+    {
+      "name": "Flomo, Korkulor",
+      "value": 11
+    }
+  ]
+}

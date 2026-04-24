@@ -14,7 +14,12 @@
 		ChordDiagram,
 		HeatmapChart
 	} from '$lib/components/charts';
-	import { allCollections, enrichedLocations, ensureEnrichedLocations } from '$lib/stores/data';
+	import {
+		allCollections,
+		enrichedLocations,
+		ensureEnrichedLocations,
+		ensureCollections
+	} from '$lib/stores/data';
 	import { SvelteMap } from 'svelte/reactivity';
 	import {
 		groupByYearAndType,
@@ -35,8 +40,10 @@
 	import type { CollectionItem } from '$lib/types';
 	import { FileText, Layers, Users, MapPin, Calendar, BarChart3 } from '@lucide/svelte';
 
-	// Lazy-load geolocation data on mount — the home page never pays for it.
+	// Lazy-load collections + geolocation on mount — routes that don't need
+	// them (entity detail views) never pay for either.
 	onMount(() => {
+		void ensureCollections(base);
 		void ensureEnrichedLocations(base);
 	});
 

@@ -1,6 +1,8 @@
 <script lang="ts">
 	import { Sparkles, FileText, Briefcase } from '@lucide/svelte';
-	import { projects, allCollections } from '$lib/stores/data';
+	import { onMount } from 'svelte';
+	import { base } from '$app/paths';
+	import { projects, allCollections, ensureCollections } from '$lib/stores/data';
 	import type { Project, CollectionItem, BarChartDataPoint } from '$lib/types';
 	import { formatDate, getProjectTitle, getSectionColor } from '$lib/utils/helpers';
 	import { projectUrl, personUrl, researchSectionsUrl } from '$lib/utils/urls';
@@ -17,6 +19,10 @@
 	import EmptyState from '$lib/components/ui/empty-state.svelte';
 	import { BarChart } from '$lib/components/charts';
 	import { SvelteDate, SvelteMap, SvelteSet } from 'svelte/reactivity';
+
+	onMount(() => {
+		void ensureCollections(base);
+	});
 
 	// Parse a date-like value into a Date or null
 	function parseDate(val: Date | string | null | undefined): Date | null {

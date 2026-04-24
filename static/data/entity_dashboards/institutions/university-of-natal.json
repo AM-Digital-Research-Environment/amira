@@ -1,0 +1,337 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "university-of-natal",
+    "name": "University of Natal",
+    "count": 10
+  },
+  "timeline": [
+    {
+      "year": 1959,
+      "count": 1
+    },
+    {
+      "year": 1973,
+      "count": 2
+    },
+    {
+      "year": 1983,
+      "count": 2
+    },
+    {
+      "year": 1992,
+      "count": 1
+    },
+    {
+      "year": 1996,
+      "count": 1
+    },
+    {
+      "year": 1999,
+      "count": 2
+    },
+    {
+      "year": 2018,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1959,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1973,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1983,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1992,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1996,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1999,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 2018,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 10
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 9
+    },
+    {
+      "name": "French",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "South Africa",
+      "value": 4
+    },
+    {
+      "name": "Musical instruments",
+      "value": 2
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Zulu (African people)",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Apartheid",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 10
+    },
+    {
+      "name": "South Africa",
+      "value": 4
+    },
+    {
+      "name": "Musical instruments",
+      "value": 2
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Zulu (African people)",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Angola",
+      "value": 1
+    },
+    {
+      "name": "Cameroon",
+      "value": 1
+    },
+    {
+      "name": "Apartheid",
+      "value": 1
+    },
+    {
+      "name": "Harlem Swingsters",
+      "value": 1
+    },
+    {
+      "name": "Marabi (Music)",
+      "value": 1
+    },
+    {
+      "name": "African Jazz",
+      "value": 1
+    },
+    {
+      "name": "African Jazz Pioneers",
+      "value": 1
+    },
+    {
+      "name": "Politics",
+      "value": 1
+    },
+    {
+      "name": "Bebop (Music)",
+      "value": 1
+    },
+    {
+      "name": "Mbaqanga (Music)",
+      "value": 1
+    },
+    {
+      "name": "US Jazz",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Ballantine, Christopher",
+      "value": 4
+    },
+    {
+      "name": "Erlmann, Veit",
+      "value": 2
+    },
+    {
+      "name": "Cope, Trevor",
+      "value": 1
+    },
+    {
+      "name": "Bingham, Tom",
+      "value": 1
+    },
+    {
+      "name": "Impey, Angela",
+      "value": 1
+    },
+    {
+      "name": "Oehrle, Elizabeth",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 10
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ea7e",
+      "titleInfo": [
+        {
+          "title": "\"African music\", a lecture given at Natal University"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0099"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ebb9",
+      "titleInfo": [
+        {
+          "title": "PAREDON P 1002 -ANGOLA: A VITORIA E CERTAI VICTORY IS CERTAIN! Songs of the Liberation Army of M.P.L.A. 12-inch mono L.P., with 16 page booklet edited by Pat Payandeh. Produced by Barbara Dane. \"Recorded in the liberated zones by members of the Liberation Support Movement.” Paredon Records, P.O. Box 889, Brooklyn, N.Y. 11202, U.S.A. $4-50 in U.S. $5-00 elsewhere by I.M.O."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01d4"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ebba",
+      "titleInfo": [
+        {
+          "title": "HOW MUSICAL IS MAN ? by John Blacking. University of Washington Press, Seattle, 1973. $6-95."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01d5"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec11",
+      "titleInfo": [
+        {
+          "title": "SOUTH AFRICAN MUSIC ENCYCLOPEDIA. Volume II,E to I. Ed. by Jacques P. Malan. Cape Town; Oxford University Press; 1982, pp. 513, illus.. music."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-022c"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec1a",
+      "titleInfo": [
+        {
+          "title": "Notes on musical instruments among the Fulani of Diamare (north Cameroon)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0235"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec51",
+      "titleInfo": [
+        {
+          "title": "John Blacking: a personal tribute"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-026c"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec72",
+      "titleInfo": [
+        {
+          "title": "Fact, ideology and paradox: African elements in early Black South African Jazz and Vaudeville"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-028d"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec74",
+      "titleInfo": [
+        {
+          "title": "NIGHTSONG: POWER AND PRACTICE IN SOUTH AFRICA, by Veit Erlmann, Chicago, London: University of Chicago Press 1996"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-028f"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec78",
+      "titleInfo": [
+        {
+          "title": "MUSICS OF THE WORLD'S CULTURES: A SOURCE BOOK FOR MUSIC EDUCATORS, editors: Barbara Lundquist and C.K. Szego with Bruno Nettl, Ramon Santos and Einar Solbu, published by the Callaway International Resource Centre for Music Education (CIRCME) for the International Society for Music Education (ISME), 1998. 234 pp."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0293"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eda2",
+      "titleInfo": [
+        {
+          "title": "EDMUND \"NTEMI” PILISO JAZZING THROUGH DEFEAT AND TRIUMPH: AN INTERVIEW"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03bd"
+    }
+  ]
+}

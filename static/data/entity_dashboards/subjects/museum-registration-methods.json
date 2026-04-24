@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "museum-registration-methods",
+    "name": "Museum registration methods",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2014,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2014,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Photographs",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Photographs",
+      "value": 1
+    },
+    {
+      "name": "Lisbon",
+      "value": 1
+    },
+    {
+      "name": "Accessioning (Works of Art)",
+      "value": 1
+    },
+    {
+      "name": "Cataloging (Works of Art)",
+      "value": 1
+    },
+    {
+      "name": "Classification (Works of Art)",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Greven, Katharina",
+      "value": 1
+    },
+    {
+      "name": "Guedes, Pancho",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Portugal",
+      "region": "Lisbon",
+      "city": "Lisbon",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b53a",
+      "titleInfo": [
+        {
+          "title": "Diakästen im Haus in Lissabon"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-00b2"
+    }
+  ]
+}

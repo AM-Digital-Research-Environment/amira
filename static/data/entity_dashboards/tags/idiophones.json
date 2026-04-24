@@ -1,0 +1,239 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "idiophones",
+    "name": "Idiophones",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 1954,
+      "count": 1
+    },
+    {
+      "year": 1956,
+      "count": 1
+    },
+    {
+      "year": 1958,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1954,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1956,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1958,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Musical instruments",
+      "value": 3
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 3
+    },
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Initiation rites",
+      "value": 1
+    },
+    {
+      "name": "Mba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    },
+    {
+      "name": "Talking drum",
+      "value": 1
+    },
+    {
+      "name": "Percussion instruments",
+      "value": 1
+    },
+    {
+      "name": "Drum",
+      "value": 1
+    },
+    {
+      "name": "Drum language",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Adangme (African people)",
+      "value": 1
+    },
+    {
+      "name": "Ga (African people)",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Musical instruments",
+      "value": 3
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 3
+    },
+    {
+      "name": "African Music",
+      "value": 3
+    },
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Belgian Congo",
+      "value": 2
+    },
+    {
+      "name": "Initiation rites",
+      "value": 1
+    },
+    {
+      "name": "Mba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    },
+    {
+      "name": "Talking drum",
+      "value": 1
+    },
+    {
+      "name": "Percussion instruments",
+      "value": 1
+    },
+    {
+      "name": "Drum",
+      "value": 1
+    },
+    {
+      "name": "Drum language",
+      "value": 1
+    },
+    {
+      "name": "Talking-gongs",
+      "value": 1
+    },
+    {
+      "name": "Drum (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Talking Drum (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Adangme (African people)",
+      "value": 1
+    },
+    {
+      "name": "Ga (African people)",
+      "value": 1
+    },
+    {
+      "name": "Ghana",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Carrington, John F.",
+      "value": 2
+    },
+    {
+      "name": "Nketia, J. H.",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9e9f9",
+      "titleInfo": [
+        {
+          "title": "Notes on an idiophone used in Kabile initiation rites by the Mbae"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0014"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea2e",
+      "titleInfo": [
+        {
+          "title": "Individual names given to talking-gongs in the Yalemba area of Belgian Congo"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0049"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea68",
+      "titleInfo": [
+        {
+          "title": "Organisation of music in Adangme society"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0083"
+    }
+  ]
+}

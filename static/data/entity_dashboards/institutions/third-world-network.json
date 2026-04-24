@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "third-world-network",
+    "name": "Third World Network",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2024,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2024,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Economic policy",
+      "value": 1
+    },
+    {
+      "name": "Structural adjustment (Economic policy)",
+      "value": 1
+    },
+    {
+      "name": "West Africa",
+      "value": 1
+    },
+    {
+      "name": "Interviews",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Economic policy",
+      "value": 1
+    },
+    {
+      "name": "Structural adjustment (Economic policy)",
+      "value": 1
+    },
+    {
+      "name": "West Africa",
+      "value": 1
+    },
+    {
+      "name": "Interviews",
+      "value": 1
+    },
+    {
+      "name": "Ghana",
+      "value": 1
+    },
+    {
+      "name": "Political Economy",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Akolgo, Isaac Abotebuno",
+      "value": 2
+    },
+    {
+      "name": "Graham, Yao",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Ghana",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "674dba652e70d1e383d18ae9",
+      "titleInfo": [
+        {
+          "title": "Interview on post-independence Ghanaian political economy"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0006"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "atlanta",
+    "name": "Atlanta",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1992,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1992,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "Othello",
+      "value": 1
+    },
+    {
+      "name": "African American",
+      "value": 1
+    },
+    {
+      "name": "Rewrite",
+      "value": 1
+    },
+    {
+      "name": "Article",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Andreas, James R.",
+      "value": 1
+    },
+    {
+      "name": "South Atlanic Modern Language Association",
+      "value": 1
+    }
+  ]
+}

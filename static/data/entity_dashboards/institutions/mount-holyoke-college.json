@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "mount-holyoke-college",
+    "name": "Mount Holyoke College",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2021,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2021,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "Nigeria",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Matzke, Christine",
+      "value": 1
+    },
+    {
+      "name": "Balogun, Lekan",
+      "value": 1
+    },
+    {
+      "name": "Gibbs, James",
+      "value": 1
+    },
+    {
+      "name": "Omojola, Bode",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "6705340c4b98fee5873b441b",
+      "titleInfo": [
+        {
+          "title": "Taiwo Shango Mindmap July 2021"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-000e"
+    }
+  ]
+}

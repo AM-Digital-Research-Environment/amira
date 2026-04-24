@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "crouch-patricia",
+    "name": "Crouch, Patricia",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2004,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2004,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Drama",
+      "value": 1
+    },
+    {
+      "name": "Poetry",
+      "value": 1
+    },
+    {
+      "name": "Book reviews",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Drama",
+      "value": 1
+    },
+    {
+      "name": "Poetry",
+      "value": 1
+    },
+    {
+      "name": "Book reviews",
+      "value": 1
+    },
+    {
+      "name": "Elizabeth I",
+      "value": 1
+    },
+    {
+      "name": "Elizabethan Era",
+      "value": 1
+    },
+    {
+      "name": "Jacobean Era",
+      "value": 1
+    },
+    {
+      "name": "King James I",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "University of Chicago Press",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "United States of America",
+      "region": "Illinois",
+      "city": "Chicago",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a8ab2c85fe8df87112",
+      "titleInfo": [
+        {
+          "title": "Reviewed Work(s): Reflection of Africa in Elizabethan and Jacobean Drama and Poetry by Anne B. Mangum"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-001b"
+    }
+  ]
+}

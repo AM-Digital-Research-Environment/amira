@@ -1,0 +1,306 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "sydney",
+    "name": "Sydney",
+    "count": 8
+  },
+  "timeline": [
+    {
+      "year": 1974,
+      "count": 1
+    },
+    {
+      "year": 2014,
+      "count": 7
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1974,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 2014,
+      "total": 7,
+      "byType": {
+        "Image": 7
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 8
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Interior decoration",
+      "value": 7
+    },
+    {
+      "name": "Photographs",
+      "value": 7
+    },
+    {
+      "name": "Artists",
+      "value": 6
+    },
+    {
+      "name": "Art",
+      "value": 5
+    },
+    {
+      "name": "Africa",
+      "value": 4
+    },
+    {
+      "name": "Wood sculpture, Yoruba",
+      "value": 3
+    },
+    {
+      "name": "Sculpture",
+      "value": 3
+    },
+    {
+      "name": "Women",
+      "value": 2
+    },
+    {
+      "name": "Portraits",
+      "value": 2
+    },
+    {
+      "name": "Painting",
+      "value": 2
+    },
+    {
+      "name": "Women artists",
+      "value": 1
+    },
+    {
+      "name": "Masks",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Interior decoration",
+      "value": 7
+    },
+    {
+      "name": "Photographs",
+      "value": 7
+    },
+    {
+      "name": "Artists",
+      "value": 6
+    },
+    {
+      "name": "Art",
+      "value": 5
+    },
+    {
+      "name": "Africa",
+      "value": 4
+    },
+    {
+      "name": "Art Collector",
+      "value": 4
+    },
+    {
+      "name": "Art Collecting",
+      "value": 4
+    },
+    {
+      "name": "Wood sculpture, Yoruba",
+      "value": 3
+    },
+    {
+      "name": "Sculpture",
+      "value": 3
+    },
+    {
+      "name": "Yoruba Art",
+      "value": 3
+    },
+    {
+      "name": "Women",
+      "value": 2
+    },
+    {
+      "name": "Portraits",
+      "value": 2
+    },
+    {
+      "name": "Painting",
+      "value": 2
+    },
+    {
+      "name": "Women artists",
+      "value": 1
+    },
+    {
+      "name": "Masks",
+      "value": 1
+    },
+    {
+      "name": "Shrine",
+      "value": 1
+    },
+    {
+      "name": "Family Photograph",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Beier, Georgina",
+      "value": 8
+    },
+    {
+      "name": "Greven, Katharina",
+      "value": 8
+    },
+    {
+      "name": "Beier, Ulli",
+      "value": 3
+    },
+    {
+      "name": "Herbert, Heidi",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Australia",
+      "region": "New South Wales",
+      "city": "Sydney",
+      "count": 8
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b4f4",
+      "titleInfo": [
+        {
+          "title": "Porträt Georgina Beier in Sydney"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-006c"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b514",
+      "titleInfo": [
+        {
+          "title": "Das Porträt von Oskar in der Küche von Georgina Beier in Sydney"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-008c"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b51f",
+      "titleInfo": [
+        {
+          "title": "Innenansicht des Eingangs des Hauses der Beiers in Sydney"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0097"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b521",
+      "titleInfo": [
+        {
+          "title": "Ulli Beier-Schrein in Sydney"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0099"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b534",
+      "titleInfo": [
+        {
+          "title": "Esszimmer in Sydney"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-00ac"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b535",
+      "titleInfo": [
+        {
+          "title": "Wohnzimmer in Sydney"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-00ad"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b536",
+      "titleInfo": [
+        {
+          "title": "Eingangsbereich in Sydney"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-00ae"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b537",
+      "titleInfo": [
+        {
+          "title": "Wand in der Küche in Sydney mit Fotografien der Familie"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-00af"
+    }
+  ]
+}

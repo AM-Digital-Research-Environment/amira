@@ -1,0 +1,157 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "global-south",
+    "name": "Global South",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2018,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2018,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Moving image",
+      "value": 1
+    },
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Myth",
+      "value": 1
+    },
+    {
+      "name": "Decolonisation",
+      "value": 1
+    },
+    {
+      "name": "Developing countries",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Politics",
+      "value": 1
+    },
+    {
+      "name": "Local News",
+      "value": 1
+    },
+    {
+      "name": "International News",
+      "value": 1
+    },
+    {
+      "name": "Global North",
+      "value": 1
+    },
+    {
+      "name": "Inequality",
+      "value": 1
+    },
+    {
+      "name": "Myth",
+      "value": 1
+    },
+    {
+      "name": "Decolonisation",
+      "value": 1
+    },
+    {
+      "name": "Developing countries",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    },
+    {
+      "name": "Continental Musicology",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Liberia Broadcasting System (LBS)",
+      "value": 1
+    },
+    {
+      "name": "Gbenyon, Charles",
+      "value": 1
+    },
+    {
+      "name": "Kollie, Aaron",
+      "value": 1
+    },
+    {
+      "name": "Government of Liberia",
+      "value": 1
+    },
+    {
+      "name": "Pooley, Thomas M.",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Liberia",
+      "region": "Montserrado County",
+      "city": "Monrovia",
+      "count": 1
+    },
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "6982337057a8e0353b0b1caf",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0072"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eda0",
+      "titleInfo": [
+        {
+          "title": "CONTINENTAL MUSICOLOGY: DECOLONISING THE MYTH OF A SINGULAR \"AFRICAN MUSIC”"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03bb"
+    }
+  ]
+}

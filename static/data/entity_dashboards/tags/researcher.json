@@ -1,0 +1,282 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "researcher",
+    "name": "Researcher",
+    "count": 6
+  },
+  "timeline": [
+    {
+      "year": 1984,
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "count": 5
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1984,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 2021,
+      "total": 5,
+      "byType": {
+        "Text": 5
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 5
+    },
+    {
+      "name": "Image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 2
+    },
+    {
+      "name": "German",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Nation state",
+      "value": 2
+    },
+    {
+      "name": "Teachers",
+      "value": 2
+    },
+    {
+      "name": "Public administration",
+      "value": 2
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Science",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Historian",
+      "value": 3
+    },
+    {
+      "name": "Anthropologist",
+      "value": 3
+    },
+    {
+      "name": "Linguist",
+      "value": 3
+    },
+    {
+      "name": "Integrative Studies",
+      "value": 3
+    },
+    {
+      "name": "Ethics Dumping",
+      "value": 3
+    },
+    {
+      "name": "Research Ethics",
+      "value": 2
+    },
+    {
+      "name": "Nation state",
+      "value": 2
+    },
+    {
+      "name": "Teachers",
+      "value": 2
+    },
+    {
+      "name": "Public administration",
+      "value": 2
+    },
+    {
+      "name": "Appointment",
+      "value": 2
+    },
+    {
+      "name": "Epistemology",
+      "value": 2
+    },
+    {
+      "name": "Burkina Faso",
+      "value": 2
+    },
+    {
+      "name": "Survey Results",
+      "value": 2
+    },
+    {
+      "name": "Status Report",
+      "value": 2
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Science",
+      "value": 1
+    },
+    {
+      "name": "Bayreuth",
+      "value": 1
+    },
+    {
+      "name": "Colonialism",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Fayemi, Kazeem",
+      "value": 3
+    },
+    {
+      "name": "Akin-Otiko, Akinmayowa",
+      "value": 3
+    },
+    {
+      "name": "Eleanya, Ugochi",
+      "value": 3
+    },
+    {
+      "name": "Soetan, Abidemi",
+      "value": 3
+    },
+    {
+      "name": "Sawadogo, Natéwindé",
+      "value": 2
+    },
+    {
+      "name": "Kiel, Rainer-Maria",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Nigeria",
+      "region": "Lagos State",
+      "city": "Lagos",
+      "count": 3
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "Centre",
+      "city": "Ouagadougou",
+      "count": 2
+    },
+    {
+      "country": "Germany",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "66c60b2b56227158bf8279d3",
+      "titleInfo": [
+        {
+          "title": "African Studies without Ethics Dumping: An Integrative Study of Research Ethics Governance in Nigeria"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_EthDump2021",
+        "name": "African Studies without Ethics Dumping: An Integrative Study of Research Ethics Governance in Burkina Faso, Kenya, Nigeria, and South Africa"
+      },
+      "dre_id": "aab-02-0000"
+    },
+    {
+      "_id": "66c60b2b56227158bf8279d4",
+      "titleInfo": [
+        {
+          "title": "African Studies without Ethics Dumping: An Integrative Study of Research Ethics Governance in Burkina Faso and Kenya"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_EthDump2021",
+        "name": "African Studies without Ethics Dumping: An Integrative Study of Research Ethics Governance in Burkina Faso, Kenya, Nigeria, and South Africa"
+      },
+      "dre_id": "aab-02-0001"
+    },
+    {
+      "_id": "66c60b2b56227158bf8279d5",
+      "titleInfo": [
+        {
+          "title": "African Studies without Ethics Dumping: An Integrative Study of Research Ethics Governance in Burkina Faso, Kenya, Nigeria, and South Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_EthDump2021",
+        "name": "African Studies without Ethics Dumping: An Integrative Study of Research Ethics Governance in Burkina Faso, Kenya, Nigeria, and South Africa"
+      },
+      "dre_id": "aab-02-0002"
+    },
+    {
+      "_id": "69bd6ab9e8c44dbe5e6ba4ed",
+      "titleInfo": [
+        {
+          "title": "Resultats Enquete sur les rapports des Conseils des Ministres"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_KnowFranco2021",
+        "name": "The state of knowledge in French-speaking West Africa: the experience of the state and the institutionalisation of science in Burkina Faso and Senegal"
+      },
+      "dre_id": "acp-03-0000"
+    },
+    {
+      "_id": "69bd6ab9e8c44dbe5e6ba4ee",
+      "titleInfo": [
+        {
+          "title": "Resultats Enquete sur les rapports des Conseils des Ministres"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_KnowFranco2021",
+        "name": "The state of knowledge in French-speaking West Africa: the experience of the state and the institutionalisation of science in Burkina Faso and Senegal"
+      },
+      "dre_id": "acp-03-0001"
+    },
+    {
+      "_id": "692db49707481a28c72155ca",
+      "titleInfo": [
+        {
+          "title": "Dr. Döring - ein Afrikaforscher in Bayreuth Teil I und II"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0022"
+    }
+  ]
+}

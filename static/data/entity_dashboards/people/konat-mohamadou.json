@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "konat-mohamadou",
+    "name": "Konaté, Mohamadou",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 1,
+      "byType": {
+        "Moving image": 1
+      }
+    },
+    {
+      "year": 2023,
+      "total": 1,
+      "byType": {
+        "Moving image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Moving image",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "World health",
+      "value": 1
+    },
+    {
+      "name": "West Africa",
+      "value": 1
+    },
+    {
+      "name": "COVID-19 (Disease)",
+      "value": 1
+    },
+    {
+      "name": "Actors",
+      "value": 1
+    },
+    {
+      "name": "Aesthetics",
+      "value": 1
+    },
+    {
+      "name": "Experience",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "World health",
+      "value": 1
+    },
+    {
+      "name": "West Africa",
+      "value": 1
+    },
+    {
+      "name": "COVID-19 (Disease)",
+      "value": 1
+    },
+    {
+      "name": "World Health Organization",
+      "value": 1
+    },
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 1
+    },
+    {
+      "name": "Barrier Measure",
+      "value": 1
+    },
+    {
+      "name": "Mobility",
+      "value": 1
+    },
+    {
+      "name": "Global Health Governance",
+      "value": 1
+    },
+    {
+      "name": "Global Health Policy",
+      "value": 1
+    },
+    {
+      "name": "Burkina Faso",
+      "value": 1
+    },
+    {
+      "name": "Actors",
+      "value": 1
+    },
+    {
+      "name": "Aesthetics",
+      "value": 1
+    },
+    {
+      "name": "Experience",
+      "value": 1
+    },
+    {
+      "name": "Cinema",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "Burkina Faso",
+      "region": "",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "Centre",
+      "city": "Ouagadougou",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "6718efd3c327cde4b57d8683",
+      "titleInfo": [
+        {
+          "title": "Vidéo d'un panel d'échange"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0012"
+    },
+    {
+      "_id": "69bd30d662fdff17d6fc73e9",
+      "titleInfo": [
+        {
+          "title": "Vidéo d'atelier d'échanges avec les professionnelles du cinéma"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques"
+      },
+      "dre_id": "act-03-003f"
+    }
+  ]
+}

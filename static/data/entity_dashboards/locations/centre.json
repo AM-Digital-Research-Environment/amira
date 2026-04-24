@@ -1,0 +1,546 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "centre",
+    "name": "Centre",
+    "count": 83
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "count": 10
+    },
+    {
+      "year": 2022,
+      "count": 23
+    },
+    {
+      "year": 2023,
+      "count": 49
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2021,
+      "total": 10,
+      "byType": {
+        "Text": 10
+      }
+    },
+    {
+      "year": 2022,
+      "total": 23,
+      "byType": {
+        "Text": 13,
+        "Audio": 1,
+        "Moving image": 9
+      }
+    },
+    {
+      "year": 2023,
+      "total": 49,
+      "byType": {
+        "Text": 47,
+        "Moving image": 1,
+        "Multimedia": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 71
+    },
+    {
+      "name": "Moving image",
+      "value": 10
+    },
+    {
+      "name": "Audio",
+      "value": 1
+    },
+    {
+      "name": "Multimedia",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 83
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Actors",
+      "value": 52
+    },
+    {
+      "name": "Aesthetics",
+      "value": 52
+    },
+    {
+      "name": "Experience",
+      "value": 52
+    },
+    {
+      "name": "Terrorism",
+      "value": 16
+    },
+    {
+      "name": "Mediation",
+      "value": 15
+    },
+    {
+      "name": "Sources",
+      "value": 12
+    },
+    {
+      "name": "Dialogue",
+      "value": 12
+    },
+    {
+      "name": "Peace",
+      "value": 12
+    },
+    {
+      "name": "Children",
+      "value": 9
+    },
+    {
+      "name": "Juvenile detention",
+      "value": 9
+    },
+    {
+      "name": "Juvenile delinquency",
+      "value": 8
+    },
+    {
+      "name": "Punishment",
+      "value": 5
+    },
+    {
+      "name": "Emigration and immigration",
+      "value": 4
+    },
+    {
+      "name": "Border security",
+      "value": 4
+    },
+    {
+      "name": "Violence",
+      "value": 4
+    },
+    {
+      "name": "Reconciliation",
+      "value": 3
+    },
+    {
+      "name": "Justice",
+      "value": 3
+    },
+    {
+      "name": "Administration of Justice",
+      "value": 3
+    },
+    {
+      "name": "Teenagers",
+      "value": 3
+    },
+    {
+      "name": "Social media",
+      "value": 2
+    },
+    {
+      "name": "Decolonisation",
+      "value": 2
+    },
+    {
+      "name": "Youth",
+      "value": 2
+    },
+    {
+      "name": "Correctional institutions",
+      "value": 2
+    },
+    {
+      "name": "Social groups",
+      "value": 2
+    },
+    {
+      "name": "Education",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Actors",
+      "value": 52
+    },
+    {
+      "name": "Aesthetics",
+      "value": 52
+    },
+    {
+      "name": "Experience",
+      "value": 52
+    },
+    {
+      "name": "Cinema",
+      "value": 52
+    },
+    {
+      "name": "Terrorism",
+      "value": 16
+    },
+    {
+      "name": "Mediation",
+      "value": 15
+    },
+    {
+      "name": "Sources",
+      "value": 12
+    },
+    {
+      "name": "Dialogue",
+      "value": 12
+    },
+    {
+      "name": "Peace",
+      "value": 12
+    },
+    {
+      "name": "Children",
+      "value": 9
+    },
+    {
+      "name": "Juvenile detention",
+      "value": 9
+    },
+    {
+      "name": "Deprivation of Liberty",
+      "value": 9
+    },
+    {
+      "name": "Preliminary Investigation",
+      "value": 9
+    },
+    {
+      "name": "Investigation Phase",
+      "value": 9
+    },
+    {
+      "name": "Enforcement of Decisions",
+      "value": 9
+    },
+    {
+      "name": "Juvenile delinquency",
+      "value": 8
+    },
+    {
+      "name": "Punishment",
+      "value": 5
+    },
+    {
+      "name": "Emigration and immigration",
+      "value": 4
+    },
+    {
+      "name": "Border security",
+      "value": 4
+    },
+    {
+      "name": "Violence",
+      "value": 4
+    },
+    {
+      "name": "Migration Control",
+      "value": 4
+    },
+    {
+      "name": "(Im)mobility",
+      "value": 4
+    },
+    {
+      "name": "Impact",
+      "value": 4
+    },
+    {
+      "name": "Border",
+      "value": 4
+    },
+    {
+      "name": "Migration",
+      "value": 4
+    },
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 4
+    },
+    {
+      "name": "Reconciliation",
+      "value": 3
+    },
+    {
+      "name": "Justice",
+      "value": 3
+    },
+    {
+      "name": "Administration of Justice",
+      "value": 3
+    },
+    {
+      "name": "Teenagers",
+      "value": 3
+    },
+    {
+      "name": "Social media",
+      "value": 2
+    },
+    {
+      "name": "Decolonisation",
+      "value": 2
+    },
+    {
+      "name": "Manifestant",
+      "value": 2
+    },
+    {
+      "name": "Protester",
+      "value": 2
+    },
+    {
+      "name": "Right to Resist",
+      "value": 2
+    },
+    {
+      "name": "Youth",
+      "value": 2
+    },
+    {
+      "name": "Correctional institutions",
+      "value": 2
+    },
+    {
+      "name": "Social groups",
+      "value": 2
+    },
+    {
+      "name": "Education",
+      "value": 2
+    },
+    {
+      "name": "Practical judgment",
+      "value": 2
+    },
+    {
+      "name": "Social conflict",
+      "value": 2
+    },
+    {
+      "name": "Vulnerability",
+      "value": 2
+    },
+    {
+      "name": "Protection",
+      "value": 2
+    },
+    {
+      "name": "Nation state",
+      "value": 2
+    },
+    {
+      "name": "Teachers",
+      "value": 2
+    },
+    {
+      "name": "Public administration",
+      "value": 2
+    },
+    {
+      "name": "Appointment",
+      "value": 2
+    },
+    {
+      "name": "Epistemology",
+      "value": 2
+    },
+    {
+      "name": "Burkina Faso",
+      "value": 2
+    },
+    {
+      "name": "Survey Results",
+      "value": 2
+    },
+    {
+      "name": "Status Report",
+      "value": 2
+    },
+    {
+      "name": "Researcher",
+      "value": 2
+    },
+    {
+      "name": "Fluid Ontology",
+      "value": 1
+    },
+    {
+      "name": "Basic Soul",
+      "value": 1
+    },
+    {
+      "name": "Employability",
+      "value": 1
+    },
+    {
+      "name": "Business",
+      "value": 1
+    },
+    {
+      "name": "Communities",
+      "value": 1
+    },
+    {
+      "name": "University",
+      "value": 1
+    },
+    {
+      "name": "Minors",
+      "value": 1
+    },
+    {
+      "name": "Rumor",
+      "value": 1
+    },
+    {
+      "name": "Truth",
+      "value": 1
+    },
+    {
+      "name": "Uncertainty",
+      "value": 1
+    },
+    {
+      "name": "Finance",
+      "value": 1
+    },
+    {
+      "name": "Financing",
+      "value": 1
+    },
+    {
+      "name": "Anti-state Armed Group",
+      "value": 1
+    },
+    {
+      "name": "Health",
+      "value": 1
+    },
+    {
+      "name": "Refugees",
+      "value": 1
+    },
+    {
+      "name": "Internally displaced persons",
+      "value": 1
+    },
+    {
+      "name": "Emergency Health Management",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Sore, Daouda",
+      "value": 22
+    },
+    {
+      "name": "Palm-Sanou, Valentine",
+      "value": 19
+    },
+    {
+      "name": "Fendler, Ute",
+      "value": 19
+    },
+    {
+      "name": "Ouoro, Justin",
+      "value": 18
+    },
+    {
+      "name": "Some, Désiré Boniface",
+      "value": 5
+    },
+    {
+      "name": "Ouedraogo",
+      "value": 5
+    },
+    {
+      "name": "Billa, Eugénie",
+      "value": 5
+    },
+    {
+      "name": "Bationo, Bouma Fernand",
+      "value": 4
+    },
+    {
+      "name": "Ouédraogo, Serge Noel",
+      "value": 4
+    },
+    {
+      "name": "Meda, Marc",
+      "value": 3
+    },
+    {
+      "name": "Konkobo, Rosalie",
+      "value": 3
+    },
+    {
+      "name": "Kayoulou, Worokia",
+      "value": 3
+    },
+    {
+      "name": "Zerbo, Armel",
+      "value": 2
+    },
+    {
+      "name": "Korogo, Edgard",
+      "value": 2
+    },
+    {
+      "name": "Sawadogo, Natéwindé",
+      "value": 2
+    },
+    {
+      "name": "Attoh, Franca",
+      "value": 2
+    },
+    {
+      "name": "Nikiema",
+      "value": 2
+    },
+    {
+      "name": "Boubié, Bazie",
+      "value": 1
+    },
+    {
+      "name": "Tapsoba, Tatiana Nadine",
+      "value": 1
+    },
+    {
+      "name": "Bamouni, Pascal",
+      "value": 1
+    }
+  ]
+}

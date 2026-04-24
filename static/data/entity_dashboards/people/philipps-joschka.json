@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "philipps-joschka",
+    "name": "Philipps, Joschka",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2023,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2023,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Social media",
+      "value": 1
+    },
+    {
+      "name": "Decolonisation",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Social media",
+      "value": 1
+    },
+    {
+      "name": "Decolonisation",
+      "value": 1
+    },
+    {
+      "name": "Right to Resist",
+      "value": 1
+    },
+    {
+      "name": "Morality",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "69bd6081f39beedfb72d61a8",
+      "titleInfo": [
+        {
+          "title": "Rapport Synthétique projet"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_FluOnt2023",
+        "name": "Fluid Ontologies of Contestation. Social media, anti-government protest and transnational decolonization movements in Burkina Faso"
+      },
+      "dre_id": "ace-03-0002"
+    }
+  ]
+}

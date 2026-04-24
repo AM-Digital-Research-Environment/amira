@@ -1,0 +1,210 @@
+{
+  "meta": {
+    "type": "genre",
+    "id": "art-exhibitions",
+    "name": "Art exhibitions",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 1995,
+      "count": 2
+    },
+    {
+      "year": 2016,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1995,
+      "total": 2,
+      "byType": {
+        "Image": 2
+      }
+    },
+    {
+      "year": 2016,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Art",
+      "value": 3
+    },
+    {
+      "name": "Exhibitions",
+      "value": 3
+    },
+    {
+      "name": "Photographs",
+      "value": 3
+    },
+    {
+      "name": "Africa",
+      "value": 2
+    },
+    {
+      "name": "Yoruba (African people)--Religion",
+      "value": 2
+    },
+    {
+      "name": "Painting",
+      "value": 1
+    },
+    {
+      "name": "Artists",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Art",
+      "value": 3
+    },
+    {
+      "name": "Exhibitions",
+      "value": 3
+    },
+    {
+      "name": "Photographs",
+      "value": 3
+    },
+    {
+      "name": "Art Exhibition",
+      "value": 3
+    },
+    {
+      "name": "Cultural Centre",
+      "value": 3
+    },
+    {
+      "name": "Performing Arts Center",
+      "value": 3
+    },
+    {
+      "name": "Africa",
+      "value": 2
+    },
+    {
+      "name": "Yoruba (African people)--Religion",
+      "value": 2
+    },
+    {
+      "name": "Yoruba Art",
+      "value": 2
+    },
+    {
+      "name": "Yoruba Priest",
+      "value": 2
+    },
+    {
+      "name": "Painting",
+      "value": 1
+    },
+    {
+      "name": "Artists",
+      "value": 1
+    },
+    {
+      "name": "Iwalewahaus",
+      "value": 1
+    },
+    {
+      "name": "Art Collector",
+      "value": 1
+    },
+    {
+      "name": "Art Collecting",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Beier, Ulli",
+      "value": 3
+    },
+    {
+      "name": "Greven, Katharina",
+      "value": 3
+    },
+    {
+      "name": "Beier, Georgina",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Thuringia",
+      "city": "Erfurt",
+      "count": 2
+    },
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b4b8",
+      "titleInfo": [
+        {
+          "title": "Ulli Beier in der Ausstellung Das Gesicht der Götter, die letzte Generation von Yoruba Priestern"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0030"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4b9",
+      "titleInfo": [
+        {
+          "title": "Rückseite Ulli Beier in der Ausstellung Das Gesicht der Götter, die letzte Generation von Yoruba Priestern"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0031"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b515",
+      "titleInfo": [
+        {
+          "title": "Aufnahme der Ausstellung Existential Phantasies - The Monkey on your Shoulder im Iwalewahaus"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-008d"
+    }
+  ]
+}

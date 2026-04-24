@@ -1,0 +1,518 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "lagos-state",
+    "name": "Lagos State",
+    "count": 90
+  },
+  "timeline": [
+    {
+      "year": 1917,
+      "count": 1
+    },
+    {
+      "year": 1965,
+      "count": 5
+    },
+    {
+      "year": 2003,
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "count": 21
+    },
+    {
+      "year": 2021,
+      "count": 30
+    },
+    {
+      "year": 2022,
+      "count": 18
+    },
+    {
+      "year": 2023,
+      "count": 12
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1917,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1965,
+      "total": 5,
+      "byType": {
+        "Image": 1,
+        "Text": 4
+      }
+    },
+    {
+      "year": 2003,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 2020,
+      "total": 21,
+      "byType": {
+        "Text": 3,
+        "Image": 10,
+        "Moving image": 8
+      }
+    },
+    {
+      "year": 2021,
+      "total": 30,
+      "byType": {
+        "Audio": 3,
+        "Text": 16,
+        "Image": 7,
+        "Moving image": 4
+      }
+    },
+    {
+      "year": 2022,
+      "total": 18,
+      "byType": {
+        "Image": 8,
+        "Text": 9,
+        "Dataset": 1
+      }
+    },
+    {
+      "year": 2023,
+      "total": 12,
+      "byType": {
+        "Image": 2,
+        "Moving image": 7,
+        "Text": 1,
+        "Audio": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 36
+    },
+    {
+      "name": "Image",
+      "value": 29
+    },
+    {
+      "name": "Moving image",
+      "value": 19
+    },
+    {
+      "name": "Audio",
+      "value": 5
+    },
+    {
+      "name": "Dataset",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 27
+    },
+    {
+      "name": "German",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "COVID-19 (Disease)",
+      "value": 21
+    },
+    {
+      "name": "Transport workers",
+      "value": 21
+    },
+    {
+      "name": "West Africa",
+      "value": 16
+    },
+    {
+      "name": "History",
+      "value": 15
+    },
+    {
+      "name": "Migration",
+      "value": 15
+    },
+    {
+      "name": "Learning",
+      "value": 15
+    },
+    {
+      "name": "Animation (Cinematography)",
+      "value": 15
+    },
+    {
+      "name": "Children",
+      "value": 15
+    },
+    {
+      "name": "Child psychology",
+      "value": 15
+    },
+    {
+      "name": "Curriculum planning",
+      "value": 15
+    },
+    {
+      "name": "Arts",
+      "value": 10
+    },
+    {
+      "name": "Aesthetics",
+      "value": 10
+    },
+    {
+      "name": "Music",
+      "value": 10
+    },
+    {
+      "name": "Scholars",
+      "value": 10
+    },
+    {
+      "name": "Photographs",
+      "value": 2
+    },
+    {
+      "name": "Women",
+      "value": 2
+    },
+    {
+      "name": "Art",
+      "value": 1
+    },
+    {
+      "name": "Women artists",
+      "value": 1
+    },
+    {
+      "name": "Artists",
+      "value": 1
+    },
+    {
+      "name": "Painting",
+      "value": 1
+    },
+    {
+      "name": "Tales",
+      "value": 1
+    },
+    {
+      "name": "Books",
+      "value": 1
+    },
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 1
+    },
+    {
+      "name": "Political rights",
+      "value": 1
+    },
+    {
+      "name": "Political participation",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Studies",
+      "value": 56
+    },
+    {
+      "name": "Lagos",
+      "value": 38
+    },
+    {
+      "name": "Knowledge",
+      "value": 31
+    },
+    {
+      "name": "Nigeria",
+      "value": 29
+    },
+    {
+      "name": "COVID-19 (Disease)",
+      "value": 21
+    },
+    {
+      "name": "Transport workers",
+      "value": 21
+    },
+    {
+      "name": "Marketer",
+      "value": 21
+    },
+    {
+      "name": "COVID-19",
+      "value": 21
+    },
+    {
+      "name": "West Africa",
+      "value": 16
+    },
+    {
+      "name": "Immigration Studies",
+      "value": 16
+    },
+    {
+      "name": "Immigration",
+      "value": 16
+    },
+    {
+      "name": "History",
+      "value": 15
+    },
+    {
+      "name": "Migration",
+      "value": 15
+    },
+    {
+      "name": "Learning",
+      "value": 15
+    },
+    {
+      "name": "Animation (Cinematography)",
+      "value": 15
+    },
+    {
+      "name": "Children",
+      "value": 15
+    },
+    {
+      "name": "Child psychology",
+      "value": 15
+    },
+    {
+      "name": "Curriculum planning",
+      "value": 15
+    },
+    {
+      "name": "Tortoise",
+      "value": 14
+    },
+    {
+      "name": "Arts",
+      "value": 10
+    },
+    {
+      "name": "Aesthetics",
+      "value": 10
+    },
+    {
+      "name": "Music",
+      "value": 10
+    },
+    {
+      "name": "Scholars",
+      "value": 10
+    },
+    {
+      "name": "Popular Music Studies",
+      "value": 10
+    },
+    {
+      "name": "African Music",
+      "value": 10
+    },
+    {
+      "name": "Cultural Economy",
+      "value": 10
+    },
+    {
+      "name": "Researcher",
+      "value": 3
+    },
+    {
+      "name": "Historian",
+      "value": 3
+    },
+    {
+      "name": "Anthropologist",
+      "value": 3
+    },
+    {
+      "name": "Linguist",
+      "value": 3
+    },
+    {
+      "name": "Integrative Studies",
+      "value": 3
+    },
+    {
+      "name": "Ethics Dumping",
+      "value": 3
+    },
+    {
+      "name": "Photographs",
+      "value": 2
+    },
+    {
+      "name": "Women",
+      "value": 2
+    },
+    {
+      "name": "Research Ethics",
+      "value": 2
+    },
+    {
+      "name": "Patas Monkey",
+      "value": 1
+    },
+    {
+      "name": "Art",
+      "value": 1
+    },
+    {
+      "name": "Women artists",
+      "value": 1
+    },
+    {
+      "name": "Artists",
+      "value": 1
+    },
+    {
+      "name": "Painting",
+      "value": 1
+    },
+    {
+      "name": "Tales",
+      "value": 1
+    },
+    {
+      "name": "Books",
+      "value": 1
+    },
+    {
+      "name": "African Folktales",
+      "value": 1
+    },
+    {
+      "name": "Folktales",
+      "value": 1
+    },
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 1
+    },
+    {
+      "name": "Political rights",
+      "value": 1
+    },
+    {
+      "name": "Political participation",
+      "value": 1
+    },
+    {
+      "name": "Structural Barriers",
+      "value": 1
+    },
+    {
+      "name": "Political Barriers",
+      "value": 1
+    },
+    {
+      "name": "Politics",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Eleshin, Abisoye",
+      "value": 46
+    },
+    {
+      "name": "Lawanson, Taibat",
+      "value": 31
+    },
+    {
+      "name": "Fayemi, Kazeem",
+      "value": 24
+    },
+    {
+      "name": "Akin-Otiko, Akinmayowa",
+      "value": 24
+    },
+    {
+      "name": "Attoh, Franca",
+      "value": 17
+    },
+    {
+      "name": "Eesuola, Kayode",
+      "value": 17
+    },
+    {
+      "name": "Olalekan, Damilola",
+      "value": 16
+    },
+    {
+      "name": "Oyewumi, Masudi",
+      "value": 16
+    },
+    {
+      "name": "Akinpelu, Deji",
+      "value": 15
+    },
+    {
+      "name": "Enitan, Adewale",
+      "value": 15
+    },
+    {
+      "name": "Odubawo, Orinayo",
+      "value": 15
+    },
+    {
+      "name": "Bitrus, Byenyen",
+      "value": 15
+    },
+    {
+      "name": "Yusuff, Ayodele",
+      "value": 15
+    },
+    {
+      "name": "Akinwale, Gbenusola",
+      "value": 15
+    },
+    {
+      "name": "Eleshin, Adedoyinsola",
+      "value": 15
+    },
+    {
+      "name": "Adetomiwa, Anuoluwapo",
+      "value": 15
+    },
+    {
+      "name": "Adedeji, Mujeeb",
+      "value": 15
+    },
+    {
+      "name": "Ademola-Adeoye, Feyisayo",
+      "value": 11
+    },
+    {
+      "name": "Oloko, Patrick",
+      "value": 10
+    },
+    {
+      "name": "Kibora, Ludovic",
+      "value": 10
+    }
+  ]
+}

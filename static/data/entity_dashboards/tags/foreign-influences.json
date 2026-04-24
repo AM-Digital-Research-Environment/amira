@@ -1,0 +1,241 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "foreign-influences",
+    "name": "Foreign Influences",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 1954,
+      "count": 2
+    },
+    {
+      "year": 1956,
+      "count": 1
+    },
+    {
+      "year": 1966,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1954,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1956,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1966,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 4
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 4
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 4
+    },
+    {
+      "name": "Music",
+      "value": 4
+    },
+    {
+      "name": "Africa",
+      "value": 3
+    },
+    {
+      "name": "West Africa",
+      "value": 2
+    },
+    {
+      "name": "Music appreciation",
+      "value": 2
+    },
+    {
+      "name": "West Indies",
+      "value": 1
+    },
+    {
+      "name": "Blues (Music)",
+      "value": 1
+    },
+    {
+      "name": "Calypso (Music)",
+      "value": 1
+    },
+    {
+      "name": "Jazz",
+      "value": 1
+    },
+    {
+      "name": "East Africa",
+      "value": 1
+    },
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Ethnomusicology",
+      "value": 4
+    },
+    {
+      "name": "Music",
+      "value": 4
+    },
+    {
+      "name": "African Music",
+      "value": 4
+    },
+    {
+      "name": "Africa",
+      "value": 3
+    },
+    {
+      "name": "West Africa",
+      "value": 2
+    },
+    {
+      "name": "Music appreciation",
+      "value": 2
+    },
+    {
+      "name": "West Indies",
+      "value": 1
+    },
+    {
+      "name": "Blues (Music)",
+      "value": 1
+    },
+    {
+      "name": "Calypso (Music)",
+      "value": 1
+    },
+    {
+      "name": "Jazz",
+      "value": 1
+    },
+    {
+      "name": "India",
+      "value": 1
+    },
+    {
+      "name": "East Africa",
+      "value": 1
+    },
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 1
+    },
+    {
+      "name": "Musical Meter",
+      "value": 1
+    },
+    {
+      "name": "Musical Rhythm",
+      "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    },
+    {
+      "name": "Social Aspects",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "van Dam, Theodore",
+      "value": 1
+    },
+    {
+      "name": "Jones, A. M.",
+      "value": 1
+    },
+    {
+      "name": "Lane, Michael G. M.",
+      "value": 1
+    },
+    {
+      "name": "Tracey, Hugh",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 4
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9e9f7",
+      "titleInfo": [
+        {
+          "title": "The influence of the west African songs of Derision in the new world"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0012"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9e9f8",
+      "titleInfo": [
+        {
+          "title": "East and West, North and South"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0013"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea27",
+      "titleInfo": [
+        {
+          "title": "The origin of present day musical taste in Nigeria"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0042"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb29",
+      "titleInfo": [
+        {
+          "title": "Musical appreciation in central and southern Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0144"
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "kaduna-state",
+    "name": "Kaduna State",
+    "count": 13
+  },
+  "timeline": [
+    {
+      "year": 1960,
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "count": 11
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1960,
+      "total": 2,
+      "byType": {
+        "Image": 2
+      }
+    },
+    {
+      "year": 2021,
+      "total": 11,
+      "byType": {
+        "Text": 1,
+        "Image": 4,
+        "Moving image": 6
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 6
+    },
+    {
+      "name": "Moving image",
+      "value": 6
+    },
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 6
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Municipal engineering",
+      "value": 7
+    },
+    {
+      "name": "Construction",
+      "value": 7
+    },
+    {
+      "name": "Infrastructure (Economics)",
+      "value": 7
+    },
+    {
+      "name": "Women",
+      "value": 4
+    },
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 4
+    },
+    {
+      "name": "Political rights",
+      "value": 4
+    },
+    {
+      "name": "Political participation",
+      "value": 4
+    },
+    {
+      "name": "Art",
+      "value": 2
+    },
+    {
+      "name": "Women artists",
+      "value": 2
+    },
+    {
+      "name": "Artists",
+      "value": 2
+    },
+    {
+      "name": "Sculpture",
+      "value": 2
+    },
+    {
+      "name": "Concrete sculpture",
+      "value": 2
+    },
+    {
+      "name": "Photographs",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Nigeria",
+      "value": 9
+    },
+    {
+      "name": "Municipal engineering",
+      "value": 7
+    },
+    {
+      "name": "Construction",
+      "value": 7
+    },
+    {
+      "name": "Infrastructure (Economics)",
+      "value": 7
+    },
+    {
+      "name": "Marginalised Communities",
+      "value": 7
+    },
+    {
+      "name": "Infrastructure Development",
+      "value": 7
+    },
+    {
+      "name": "Municipal Road",
+      "value": 7
+    },
+    {
+      "name": "Kenya",
+      "value": 7
+    },
+    {
+      "name": "Women",
+      "value": 4
+    },
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 4
+    },
+    {
+      "name": "Political rights",
+      "value": 4
+    },
+    {
+      "name": "Political participation",
+      "value": 4
+    },
+    {
+      "name": "Structural Barriers",
+      "value": 4
+    },
+    {
+      "name": "Political Barriers",
+      "value": 4
+    },
+    {
+      "name": "Politics",
+      "value": 4
+    },
+    {
+      "name": "Art",
+      "value": 2
+    },
+    {
+      "name": "Women artists",
+      "value": 2
+    },
+    {
+      "name": "Artists",
+      "value": 2
+    },
+    {
+      "name": "Sculpture",
+      "value": 2
+    },
+    {
+      "name": "Concrete sculpture",
+      "value": 2
+    },
+    {
+      "name": "Photographs",
+      "value": 2
+    },
+    {
+      "name": "Zaria",
+      "value": 2
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Yakubu, Moses",
+      "value": 11
+    },
+    {
+      "name": "Attoh, Franca",
+      "value": 11
+    },
+    {
+      "name": "Ademola-Adeoye, Feyisayo",
+      "value": 11
+    },
+    {
+      "name": "Adebayo, Bukola",
+      "value": 11
+    },
+    {
+      "name": "Adeniran, Samuel",
+      "value": 11
+    },
+    {
+      "name": "Anyanwu, Beatrice",
+      "value": 11
+    },
+    {
+      "name": "Akintola, Folashade",
+      "value": 11
+    },
+    {
+      "name": "Olukuade, Tomide",
+      "value": 11
+    },
+    {
+      "name": "Ademola, Lydia",
+      "value": 11
+    },
+    {
+      "name": "Eesuola, Kayode",
+      "value": 4
+    },
+    {
+      "name": "Beier, Ulli",
+      "value": 2
+    },
+    {
+      "name": "Beier, Georgina",
+      "value": 2
+    },
+    {
+      "name": "Greven, Katharina",
+      "value": 1
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "fundaci-n-universitaria-espa-ola",
+    "name": "Fundación Universitaria Española",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2018,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2018,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "Shakespeare",
+      "value": 1
+    },
+    {
+      "name": "Warlikowski",
+      "value": 1
+    },
+    {
+      "name": "Polish Contemporary Theatre",
+      "value": 1
+    },
+    {
+      "name": "Exclusion",
+      "value": 1
+    },
+    {
+      "name": "Identity",
+      "value": 1
+    },
+    {
+      "name": "Article",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Figzał-Janikowska, Magdalena",
+      "value": 1
+    },
+    {
+      "name": "Fundación Universitaria Española",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Poland",
+      "region": "Silesian Voivodeship",
+      "city": "Katowice",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a8ab2c85fe8df87113",
+      "titleInfo": [
+        {
+          "title": "The circle of outcasts: Krzysztof Warlikowski’s ‘African tales by Shakespeare"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-001c"
+    }
+  ]
+}

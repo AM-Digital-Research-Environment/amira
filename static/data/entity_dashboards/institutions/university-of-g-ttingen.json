@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "university-of-g-ttingen",
+    "name": "University of Göttingen",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1975,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1975,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Brandl, Rudolf",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ebd1",
+      "titleInfo": [
+        {
+          "title": "MUSIK DER GOITER, GEISTER UND MENSCHEN by Wolfgang Laade. Die Musik in der mythischen, fabulierenden und historischen Uberlieferuhg der Volker Afrikas, Nordasiens, Amerikas und Ozeaniens. Eine Quellensammlung. Coll, d'etudes musicologiques, Vol. 58, Valentin Koemer, Baden-Baden 1975, 344 pp., 28 ill."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01ec"
+    }
+  ]
+}

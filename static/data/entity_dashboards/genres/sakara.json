@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "type": "genre",
+    "id": "sakara",
+    "name": "Sakara",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 1950,
+      "count": 4
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1950,
+      "total": 4,
+      "byType": {
+        "Audio": 4
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Audio",
+      "value": 4
+    }
+  ],
+  "languages": [
+    {
+      "name": "Yoruba",
+      "value": 4
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 4
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 4
+    },
+    {
+      "name": "Yoruba language",
+      "value": 4
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Ethnomusicology",
+      "value": 4
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 4
+    },
+    {
+      "name": "Yoruba language",
+      "value": 4
+    },
+    {
+      "name": "Sakara (Music)",
+      "value": 4
+    }
+  ],
+  "contributors": [
+    {
+      "name": "DECCA",
+      "value": 4
+    },
+    {
+      "name": "Ghana Broadcasting Corporation Gramophone Library",
+      "value": 4
+    },
+    {
+      "name": "Tiyamiy Kekere and His Group",
+      "value": 2
+    },
+    {
+      "name": "S. Alamu & His Group",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "Nigeria",
+      "region": "",
+      "city": "",
+      "count": 4
+    }
+  ],
+  "items": [
+    {
+      "_id": "66c34de7ba20a6d8a816ac04",
+      "titleInfo": [
+        {
+          "title": "Rufai Ishola"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-0006"
+    },
+    {
+      "_id": "66c34de7ba20a6d8a816ac0b",
+      "titleInfo": [
+        {
+          "title": "Orin Asewo"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-000d"
+    },
+    {
+      "_id": "66c34de7ba20a6d8a816ac0d",
+      "titleInfo": [
+        {
+          "title": "Kolowo Ma Di Talaka"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-000f"
+    },
+    {
+      "_id": "66c34de7ba20a6d8a816ac14",
+      "titleInfo": [
+        {
+          "title": "Awon Onisowo Decca"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-0016"
+    }
+  ]
+}

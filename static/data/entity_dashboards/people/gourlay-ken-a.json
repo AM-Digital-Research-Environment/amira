@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "gourlay-ken-a",
+    "name": "Gourlay, Ken A.",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 1970,
+      "count": 2
+    },
+    {
+      "year": 1980,
+      "count": 1
+    },
+    {
+      "year": 1982,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1970,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1980,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1982,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 4
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 4
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Women",
+      "value": 1
+    },
+    {
+      "name": "Karamojong (African people)",
+      "value": 1
+    },
+    {
+      "name": "Women singers",
+      "value": 1
+    },
+    {
+      "name": "Festivals",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Trumpet",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 4
+    },
+    {
+      "name": "Uganda",
+      "value": 2
+    },
+    {
+      "name": "Nigeria",
+      "value": 2
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Women",
+      "value": 1
+    },
+    {
+      "name": "Karamojong (African people)",
+      "value": 1
+    },
+    {
+      "name": "Women singers",
+      "value": 1
+    },
+    {
+      "name": "Festivals",
+      "value": 1
+    },
+    {
+      "name": "Muslim Festivals",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Trumpet",
+      "value": 1
+    },
+    {
+      "name": "Long Trumpet (Instrument)",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 4
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9eb70",
+      "titleInfo": [
+        {
+          "title": "AN INTRODUCTION TO EAST AFRICAN MUSIC FOR SCHOOLS by S. Mbabi-Katana. Milton Obote Foundation. Kampala, Uganda."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-018b"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb81",
+      "titleInfo": [
+        {
+          "title": "Trees and anthills: songs of Karimojong women's groups"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-019c"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ebe4",
+      "titleInfo": [
+        {
+          "title": "Kídàn Dárán Sállá: Music for the Eve of the Muslim Festivals of '?D AL-FITR and '?D AL-KAB?R IN KANO, NIGERIA, by Fremont E. Besmer, published by the African Studies Program, Indiana University, 1974, pp. 84, $2.00."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01ff"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec00",
+      "titleInfo": [
+        {
+          "title": "Long trumpets of northern Nigeria - in history and today"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-021b"
+    }
+  ]
+}

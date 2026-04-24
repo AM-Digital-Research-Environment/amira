@@ -1,0 +1,155 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "m-w-scherverein",
+    "name": "M*wäscherverein",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 4
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 4,
+      "byType": {
+        "Image": 4
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 4
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "value": 4
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Racism",
+      "value": 4
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Racism",
+      "value": 4
+    },
+    {
+      "name": "Tradition",
+      "value": 4
+    },
+    {
+      "name": "Daily Racism",
+      "value": 4
+    },
+    {
+      "name": "Local Press",
+      "value": 4
+    },
+    {
+      "name": "Carnival Society",
+      "value": 4
+    },
+    {
+      "name": "Bayreuth",
+      "value": 4
+    },
+    {
+      "name": "Language",
+      "value": 4
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tensing, Patrizia",
+      "value": 1
+    },
+    {
+      "name": "Busster, Henry",
+      "value": 1
+    },
+    {
+      "name": "Stiefler, Herlmut",
+      "value": 1
+    },
+    {
+      "name": "Düngferlder, Siggi",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 4
+    }
+  ],
+  "items": [
+    {
+      "_id": "692db49707481a28c72155b8",
+      "titleInfo": [
+        {
+          "title": "M*wäscherverein: Umstrittener Vereinsname"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0010"
+    },
+    {
+      "_id": "692db49707481a28c72155b9",
+      "titleInfo": [
+        {
+          "title": "Zutiefst verletzt"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0011"
+    },
+    {
+      "_id": "692db49707481a28c72155ba",
+      "titleInfo": [
+        {
+          "title": "Die Kirche im Dorf lassen"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0012"
+    },
+    {
+      "_id": "692db49707481a28c72155bb",
+      "titleInfo": [
+        {
+          "title": "Gesellschaft sollte durch Floskeln nicht verblöden"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0013"
+    }
+  ]
+}

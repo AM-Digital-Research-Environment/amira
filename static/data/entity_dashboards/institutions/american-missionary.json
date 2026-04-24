@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "american-missionary",
+    "name": "American Missionary",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1954,
+      "count": 1
+    },
+    {
+      "year": 1956,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1954,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1956,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Tetela (African people)",
+      "value": 1
+    },
+    {
+      "name": "Pipe music",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "History",
+      "value": 1
+    },
+    {
+      "name": "Criticism",
+      "value": 1
+    },
+    {
+      "name": "Pipe (Musical instrument)",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Belgian Congo",
+      "value": 2
+    },
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Tetela (African people)",
+      "value": 1
+    },
+    {
+      "name": "Pipe music",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "History",
+      "value": 1
+    },
+    {
+      "name": "Criticism",
+      "value": 1
+    },
+    {
+      "name": "Pipe (Musical instrument)",
+      "value": 1
+    },
+    {
+      "name": "Sankuru",
+      "value": 1
+    },
+    {
+      "name": "Pipe (Instrument)",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Shaffer, Jacquiline",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9e9f4",
+      "titleInfo": [
+        {
+          "title": "Bamboo pipes of the Batetela children"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-000f"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea25",
+      "titleInfo": [
+        {
+          "title": "Experiments in indigenous church music among the Batetela"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0040"
+    }
+  ]
+}

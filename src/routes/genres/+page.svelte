@@ -1,17 +1,20 @@
 <script lang="ts">
 	import { StatCard, ChartCard, BackToList, SEO } from '$lib/components/ui';
 	import { BarChart, EntityKnowledgeGraph } from '$lib/components/charts';
+	import { EntityDashboardSection } from '$lib/components/dashboards';
 	import {
 		EntityCard,
 		EntityBrowseGrid,
 		EntityToolbar,
 		EntityDetailHeader,
-		EntityItemsCard,
+		SearchableItemsCard,
 		applyEntitySort,
 		type EntitySort
 	} from '$lib/components/entity-browse';
-	import { allCollections } from '$lib/stores/data';
+	import { allCollections, ensureCollections } from '$lib/stores/data';
 	import { page } from '$app/stores';
+	import { base } from '$app/paths';
+	import { onMount } from 'svelte';
 	import { createUrlSelection, scrollToTop } from '$lib/utils/urlSelection';
 	import { createSearchFilter } from '$lib/utils/search';
 	import {
@@ -21,6 +24,7 @@
 	} from '$lib/utils/categoryIndex';
 	import type { CollectionItem, CategoryEntry } from '$lib/types';
 	import { BookType } from '@lucide/svelte';
+	import { createEntityDetailState } from '$lib/utils/loaders';
 
 	const urlSelection = createUrlSelection('genre');
 
@@ -46,12 +50,35 @@
 
 	let genreMap = $derived(buildCategoryIndex($allCollections, getItemGenres));
 	let genres = $derived(sortedCategoryList(genreMap));
-	let selectedGenreData = $derived(selectedGenre ? genreMap.get(selectedGenre) || null : null);
+
+	const detail = createEntityDetailState('genre', () => selectedGenre);
+
+	let selectedGenreData = $derived.by((): CategoryEntry | null => {
+		if (!selectedGenre) return null;
+		const live = genreMap.get(selectedGenre);
+		if (live && live.items.length > 0) return live;
+		if (detail.data?.meta) {
+			return {
+				name: detail.data.meta.name ?? selectedGenre,
+				count: detail.data.meta.count ?? 0,
+				items: detail.items
+			};
+		}
+		return null;
+	});
 
 	const searchGenres = createSearchFilter<CategoryEntry>([(g) => g.name]);
 	let visibleGenres = $derived(applyEntitySort(searchGenres(genres, searchQuery), sort));
 
 	let barData = $derived(categoryToChartData(genres, 20));
+
+	onMount(() => {
+		if (!selectedGenre) void ensureCollections(base);
+	});
+
+	$effect(() => {
+		if (!selectedGenre) void ensureCollections(base);
+	});
 
 	function selectGenre(genre: string) {
 		urlSelection.pushToUrl(genre);
@@ -72,23 +99,37 @@
 		<p class="page-subtitle">Browse research items by genre classification</p>
 	</div>
 
-	{#if selectedGenreData}
+	{#if selectedGenre}
 		<div class="space-y-6">
 			<BackToList show={true} onclick={clearSelection} label="Back to genres" />
-			<EntityDetailHeader
-				title={selectedGenreData.name}
-				icon={BookType}
-				count={selectedGenreData.count}
-				percentOfTotal={(selectedGenreData.count / $allCollections.length) * 100}
-				wisskiCategory="genres"
-				wisskiKey={selectedGenreData.name}
-			/>
-			<EntityItemsCard items={selectedGenreData.items} />
-			<EntityKnowledgeGraph
-				entityType="genre"
-				entityId={selectedGenreData.name}
-				title="Genre knowledge graph"
-			/>
+			{#if selectedGenreData}
+				<EntityDetailHeader
+					title={selectedGenreData.name}
+					icon={BookType}
+					count={selectedGenreData.count}
+					percentOfTotal={$allCollections.length
+						? (selectedGenreData.count / $allCollections.length) * 100
+						: undefined}
+					wisskiCategory="genres"
+					wisskiKey={selectedGenreData.name}
+				/>
+				<SearchableItemsCard items={selectedGenreData.items} showProject={true} />
+				<EntityDashboardSection
+					entityType="genre"
+					entityId={selectedGenreData.name}
+					items={selectedGenreData.items}
+					data={detail.data}
+				/>
+				<EntityKnowledgeGraph
+					entityType="genre"
+					entityId={selectedGenreData.name}
+					title="Genre knowledge graph"
+				/>
+			{:else if detail.loading}
+				<p class="text-sm text-muted-foreground">Loading dashboard…</p>
+			{:else}
+				<p class="text-sm text-muted-foreground">No data available for this genre.</p>
+			{/if}
 		</div>
 	{:else}
 		<div class="grid gap-4 sm:grid-cols-3">

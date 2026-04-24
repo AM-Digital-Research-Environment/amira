@@ -1,0 +1,157 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "j-rs-dieter",
+    "name": "Jörs, Dieter",
+    "count": 6
+  },
+  "timeline": [
+    {
+      "year": 1965,
+      "count": 6
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1965,
+      "total": 6,
+      "byType": {
+        "Text": 6
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 6
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "value": 4
+    },
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "Nigeria",
+      "value": 6
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Stephan, Klaus",
+      "value": 6
+    },
+    {
+      "name": "Gärtner",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "Nigeria",
+      "region": "Oyo State",
+      "city": "Ibadan",
+      "count": 4
+    },
+    {
+      "country": "Nigeria",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "6705340c4b98fee5873b4430",
+      "titleInfo": [
+        {
+          "title": "Telegram Stephan_Gärtner"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-0023"
+    },
+    {
+      "_id": "6705340c4b98fee5873b443c",
+      "titleInfo": [
+        {
+          "title": "Letter Jörs_Stephan 1965"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-002f"
+    },
+    {
+      "_id": "6705340c4b98fee5873b443d",
+      "titleInfo": [
+        {
+          "title": "Letter Stephan_Jörs 1965"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-0030"
+    },
+    {
+      "_id": "6705340c4b98fee5873b4460",
+      "titleInfo": [
+        {
+          "title": "Telegram Stephan_Gärtner"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-0053"
+    },
+    {
+      "_id": "6705340c4b98fee5873b446c",
+      "titleInfo": [
+        {
+          "title": "Letter Jörs_Stephan 1965"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-005f"
+    },
+    {
+      "_id": "6705340c4b98fee5873b446d",
+      "titleInfo": [
+        {
+          "title": "Letter Stephan_Jörs 1965"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-0060"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "donatien-millogo",
+    "name": "Donatien, Millogo",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2021,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2021,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Administration of Justice",
+      "value": 1
+    },
+    {
+      "name": "Teenagers",
+      "value": 1
+    },
+    {
+      "name": "Youth",
+      "value": 1
+    },
+    {
+      "name": "Punishment",
+      "value": 1
+    },
+    {
+      "name": "Maintenance",
+      "value": 1
+    },
+    {
+      "name": "Mediation",
+      "value": 1
+    },
+    {
+      "name": "Conflict management",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Administration of Justice",
+      "value": 1
+    },
+    {
+      "name": "Teenagers",
+      "value": 1
+    },
+    {
+      "name": "Youth",
+      "value": 1
+    },
+    {
+      "name": "Punishment",
+      "value": 1
+    },
+    {
+      "name": "Maintenance",
+      "value": 1
+    },
+    {
+      "name": "Mediation",
+      "value": 1
+    },
+    {
+      "name": "Conflict management",
+      "value": 1
+    },
+    {
+      "name": "Conseil Villageois de Développement",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Traoré, Seydou",
+      "value": 1
+    },
+    {
+      "name": "Sanon, Boukary",
+      "value": 1
+    },
+    {
+      "name": "Ouattara, Amadou",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Burkina Faso",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "69c1568d666e5b9f92cf9f61",
+      "titleInfo": [
+        {
+          "title": "Synthèse de l’entretien avec Le  président CVD, intervenants dans la médiation et la gestion des conflits"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0009"
+    }
+  ]
+}

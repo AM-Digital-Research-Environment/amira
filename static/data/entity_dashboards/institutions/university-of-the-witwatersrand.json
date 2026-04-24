@@ -1,0 +1,899 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "university-of-the-witwatersrand",
+    "name": "University of the Witwatersrand",
+    "count": 19
+  },
+  "timeline": [
+    {
+      "year": 1959,
+      "count": 1
+    },
+    {
+      "year": 1960,
+      "count": 1
+    },
+    {
+      "year": 1961,
+      "count": 3
+    },
+    {
+      "year": 1962,
+      "count": 1
+    },
+    {
+      "year": 1965,
+      "count": 2
+    },
+    {
+      "year": 1966,
+      "count": 1
+    },
+    {
+      "year": 1973,
+      "count": 1
+    },
+    {
+      "year": 1975,
+      "count": 1
+    },
+    {
+      "year": 2006,
+      "count": 1
+    },
+    {
+      "year": 2010,
+      "count": 1
+    },
+    {
+      "year": 2012,
+      "count": 1
+    },
+    {
+      "year": 2015,
+      "count": 1
+    },
+    {
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1959,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1960,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1961,
+      "total": 3,
+      "byType": {
+        "Text": 3
+      }
+    },
+    {
+      "year": 1962,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1965,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1966,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1973,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1975,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2006,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2010,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2012,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2015,
+      "total": 1,
+      "byType": {
+        "Digital": 1
+      }
+    },
+    {
+      "year": 2017,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2019,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2023,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 18
+    },
+    {
+      "name": "Digital",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 18
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 6
+    },
+    {
+      "name": "South Africa",
+      "value": 4
+    },
+    {
+      "name": "Music",
+      "value": 4
+    },
+    {
+      "name": "Musical instruments",
+      "value": 3
+    },
+    {
+      "name": "Africa",
+      "value": 3
+    },
+    {
+      "name": "Venda (African people)",
+      "value": 2
+    },
+    {
+      "name": "Decolonisation",
+      "value": 2
+    },
+    {
+      "name": "Curriculum planning",
+      "value": 2
+    },
+    {
+      "name": "Slavery",
+      "value": 1
+    },
+    {
+      "name": "Melody",
+      "value": 1
+    },
+    {
+      "name": "Ocarina music",
+      "value": 1
+    },
+    {
+      "name": "Musical pitch",
+      "value": 1
+    },
+    {
+      "name": "Harmony",
+      "value": 1
+    },
+    {
+      "name": "Slave trade",
+      "value": 1
+    },
+    {
+      "name": "Indian Ocean Region",
+      "value": 1
+    },
+    {
+      "name": "Civilization",
+      "value": 1
+    },
+    {
+      "name": "Culture diffusion",
+      "value": 1
+    },
+    {
+      "name": "Ethnology",
+      "value": 1
+    },
+    {
+      "name": "Nsenga (African people)",
+      "value": 1
+    },
+    {
+      "name": "Mbira",
+      "value": 1
+    },
+    {
+      "name": "Mbira music",
+      "value": 1
+    },
+    {
+      "name": "Folk dancing",
+      "value": 1
+    },
+    {
+      "name": "Central Africa",
+      "value": 1
+    },
+    {
+      "name": "Research",
+      "value": 1
+    },
+    {
+      "name": "Musicology",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 17
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 6
+    },
+    {
+      "name": "South Africa",
+      "value": 4
+    },
+    {
+      "name": "Music",
+      "value": 4
+    },
+    {
+      "name": "Musical instruments",
+      "value": 3
+    },
+    {
+      "name": "Africa",
+      "value": 3
+    },
+    {
+      "name": "Venda (African people)",
+      "value": 2
+    },
+    {
+      "name": "Indonesia",
+      "value": 2
+    },
+    {
+      "name": "Tanzania",
+      "value": 2
+    },
+    {
+      "name": "Dar es Salaam",
+      "value": 2
+    },
+    {
+      "name": "Decolonisation",
+      "value": 2
+    },
+    {
+      "name": "Curriculum planning",
+      "value": 2
+    },
+    {
+      "name": "Shakespeare",
+      "value": 1
+    },
+    {
+      "name": "Cultural Politics",
+      "value": 1
+    },
+    {
+      "name": "Article",
+      "value": 1
+    },
+    {
+      "name": "Slavery",
+      "value": 1
+    },
+    {
+      "name": "Alzire of Bayreuth",
+      "value": 1
+    },
+    {
+      "name": "Wilhelmine",
+      "value": 1
+    },
+    {
+      "name": "Neues Schloss Bayreuth",
+      "value": 1
+    },
+    {
+      "name": "Bayreuth",
+      "value": 1
+    },
+    {
+      "name": "Suriname",
+      "value": 1
+    },
+    {
+      "name": "Colonialism",
+      "value": 1
+    },
+    {
+      "name": "Melody",
+      "value": 1
+    },
+    {
+      "name": "Ocarina music",
+      "value": 1
+    },
+    {
+      "name": "Musical pitch",
+      "value": 1
+    },
+    {
+      "name": "Harmony",
+      "value": 1
+    },
+    {
+      "name": "Slave trade",
+      "value": 1
+    },
+    {
+      "name": "Indian Ocean Region",
+      "value": 1
+    },
+    {
+      "name": "Civilization",
+      "value": 1
+    },
+    {
+      "name": "Culture diffusion",
+      "value": 1
+    },
+    {
+      "name": "Ethnology",
+      "value": 1
+    },
+    {
+      "name": "Melanesia",
+      "value": 1
+    },
+    {
+      "name": "Arab Slave Trade",
+      "value": 1
+    },
+    {
+      "name": "Nsenga (African people)",
+      "value": 1
+    },
+    {
+      "name": "Mbira",
+      "value": 1
+    },
+    {
+      "name": "Mbira music",
+      "value": 1
+    },
+    {
+      "name": "Zambia",
+      "value": 1
+    },
+    {
+      "name": "Mbira (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Folk dancing",
+      "value": 1
+    },
+    {
+      "name": "Venda Dance",
+      "value": 1
+    },
+    {
+      "name": "Social Life",
+      "value": 1
+    },
+    {
+      "name": "Social Customs",
+      "value": 1
+    },
+    {
+      "name": "Central Africa",
+      "value": 1
+    },
+    {
+      "name": "Rwanda",
+      "value": 1
+    },
+    {
+      "name": "Research",
+      "value": 1
+    },
+    {
+      "name": "Musicology",
+      "value": 1
+    },
+    {
+      "name": "Uganda",
+      "value": 1
+    },
+    {
+      "name": "Xylophone",
+      "value": 1
+    },
+    {
+      "name": "Xylophone (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Church music",
+      "value": 1
+    },
+    {
+      "name": "Aesthetics",
+      "value": 1
+    },
+    {
+      "name": "Temporal Aesthetics",
+      "value": 1
+    },
+    {
+      "name": "Spatial Aesthetics",
+      "value": 1
+    },
+    {
+      "name": "Popular music",
+      "value": 1
+    },
+    {
+      "name": "Music Economy",
+      "value": 1
+    },
+    {
+      "name": "Semantic Gravity",
+      "value": 1
+    },
+    {
+      "name": "Semantic Waves",
+      "value": 1
+    },
+    {
+      "name": "Recontextualisation",
+      "value": 1
+    },
+    {
+      "name": "Music Curriculum",
+      "value": 1
+    },
+    {
+      "name": "Knowledge",
+      "value": 1
+    },
+    {
+      "name": "Book reviews",
+      "value": 1
+    },
+    {
+      "name": "Education",
+      "value": 1
+    },
+    {
+      "name": "Music Education",
+      "value": 1
+    },
+    {
+      "name": "Decolonial Practice",
+      "value": 1
+    },
+    {
+      "name": "Pedagogy",
+      "value": 1
+    },
+    {
+      "name": "Curriculum",
+      "value": 1
+    },
+    {
+      "name": "Storytelling",
+      "value": 1
+    },
+    {
+      "name": "Electronic music",
+      "value": 1
+    },
+    {
+      "name": "Sound archives",
+      "value": 1
+    },
+    {
+      "name": "Archives",
+      "value": 1
+    },
+    {
+      "name": "Field Recording",
+      "value": 1
+    },
+    {
+      "name": "Igbo (African people)",
+      "value": 1
+    },
+    {
+      "name": "Oral tradition",
+      "value": 1
+    },
+    {
+      "name": "Choral music",
+      "value": 1
+    },
+    {
+      "name": "Composition (Music)",
+      "value": 1
+    },
+    {
+      "name": "Art",
+      "value": 1
+    },
+    {
+      "name": "Artwork",
+      "value": 1
+    },
+    {
+      "name": "Igbo Choral Music",
+      "value": 1
+    },
+    {
+      "name": "Orchestration",
+      "value": 1
+    },
+    {
+      "name": "Traditional Music",
+      "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    },
+    {
+      "name": "Musical Hybridity",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Blacking, John",
+      "value": 7
+    },
+    {
+      "name": "Jeffreys, M. D. W.",
+      "value": 2
+    },
+    {
+      "name": "Kirby, Percival R.",
+      "value": 2
+    },
+    {
+      "name": "Carver, Mandy",
+      "value": 2
+    },
+    {
+      "name": "Thurman, Christopher",
+      "value": 1
+    },
+    {
+      "name": "Shakespeare Society of Southern Africa",
+      "value": 1
+    },
+    {
+      "name": "Lelliot, Kitso Lynn",
+      "value": 1
+    },
+    {
+      "name": "Jones, A. M.",
+      "value": 1
+    },
+    {
+      "name": "Pantaleoni, Hewitt",
+      "value": 1
+    },
+    {
+      "name": "Jorritsma, Marie",
+      "value": 1
+    },
+    {
+      "name": "Coplan, David B.",
+      "value": 1
+    },
+    {
+      "name": "De Vries, Lee-Ann",
+      "value": 1
+    },
+    {
+      "name": "Obijiaku, Chidi",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 17
+    },
+    {
+      "country": "South Africa",
+      "region": "Eastern Cape",
+      "city": "Makhanda",
+      "count": 1
+    },
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a8ab2c85fe8df87122",
+      "titleInfo": [
+        {
+          "title": "Sher and Doran's Titus Andronicus (1995): Importing Shakespeare, Exporting South Afirca"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-002b"
+    },
+    {
+      "_id": "692db49707481a28c72155c6",
+      "titleInfo": [
+        {
+          "title": "Alzire of Bayreuth"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-99-001e"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea82",
+      "titleInfo": [
+        {
+          "title": "Problems of pitch, pattern and harmony in the ocarina music of the Venda"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-009d"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea87",
+      "titleInfo": [
+        {
+          "title": "THE DRUM AND THE HOE - Life and Lore of the Haitian People, by HAROLD COURLANDER, University of California Press, 1960. xvi + 371 pp., 90 photographs, 109 pp. of musical transcriptions."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00a2"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eab1",
+      "titleInfo": [
+        {
+          "title": "Negro influences on Indonesia"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00cc"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eab3",
+      "titleInfo": [
+        {
+          "title": "Patterns of Nsenga Kalimba music"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00ce"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eab6",
+      "titleInfo": [
+        {
+          "title": "Physical phenomena which appear to have determined the bases and development of an harmonic sense among Bushmen, Hottentot and Bantu"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00d1"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eac0",
+      "titleInfo": [
+        {
+          "title": "Musical expeditions of the Venda"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00db"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eafe",
+      "titleInfo": [
+        {
+          "title": "“MUSIC IN RWANDA\", a contribution to the Ethnomusicology of Central Africa by Dr. ROBERT GUNTHER. Tervuren, Belgium, 1964."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0119"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb16",
+      "titleInfo": [
+        {
+          "title": "Music in Uganda"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0131"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb26",
+      "titleInfo": [
+        {
+          "title": "Review article on the book: AFRICA AND INDONESIA: THE EVIDENCE OF THE XYLOPHONE AND OTHER MUSICAL AND CULTURAL FACTORS by A. M. JONES (pp. I-VIII, 1-233. Illus. Tables. Index. Pub. E. J. Brill. Leiden, 1964. Price: 36 Guilders)."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0141"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ebc4",
+      "titleInfo": [
+        {
+          "title": "MUSIQUE DAN: La musique dans la pensee et la vie sociale d'une socidte africaine, by Hugo Zemp, Cahiers de l'Homme, Nouvelle Serie XI, Paris, Mouton, 1971. pp. 320, illus., maps, tables, song texts, glossary, bibliography and discography"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01df"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ebcd",
+      "titleInfo": [
+        {
+          "title": "THE MUSIC OF AFRICA by J.H. Kwabena Nketia, (Gollancz) London, 1975. Copyright 1974 by W.W. Norton Inc."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01e8"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ecce",
+      "titleInfo": [
+        {
+          "title": "Sounds of Muziki wa Injili: Temporal and Spatial Aesthetics of Contemporary - Church Music in Dar es Salaam, Tanzania. Imani Sanga. 2010. Saarbrucken, Germany: Lap Lambert Academic Publishing. 231 pp. photos, transcriptions, ISBN 978-3-8383-6325-7."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02e9"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed04",
+      "titleInfo": [
+        {
+          "title": "Live From Dar es Salaam: Popular Music and Tanzania's Music Economy. Alex Perullo. 2011. Bloomington: Indiana University Press. 459 pp."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-031f"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed8f",
+      "titleInfo": [
+        {
+          "title": "KNOWLEDGE TRANSFER: INDIGENOUS AFRICAN MUSIC IN THE SOUTH AFRICAN MUSIC CURRICULUM"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03aa"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edb1",
+      "titleInfo": [
+        {
+          "title": "Akuno, Emily Achieng'. Music Education in Africa: Concept, Process, and Practice"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03cc"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edda",
+      "titleInfo": [
+        {
+          "title": "Sound Fragments: From Field Recording to African Electronic Stories"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03f5"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ede1",
+      "titleInfo": [
+        {
+          "title": "HYBRIDITY IN MODERN NIGERIAN MUSIC"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03fc"
+    }
+  ]
+}

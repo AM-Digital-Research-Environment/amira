@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "orero-sheila",
+    "name": "Orero, Sheila",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2024,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2024,
+      "total": 2,
+      "byType": {
+        "Dataset": 1,
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Dataset",
+      "value": 1
+    },
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Attitudes",
+      "value": 2
+    },
+    {
+      "name": "Education",
+      "value": 2
+    },
+    {
+      "name": "Multilingualism",
+      "value": 2
+    },
+    {
+      "name": "Translanguaging (Linguistics)",
+      "value": 2
+    },
+    {
+      "name": "Perception",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Attitudes",
+      "value": 2
+    },
+    {
+      "name": "Education",
+      "value": 2
+    },
+    {
+      "name": "Multilingualism",
+      "value": 2
+    },
+    {
+      "name": "Translanguaging (Linguistics)",
+      "value": 2
+    },
+    {
+      "name": "Perception",
+      "value": 2
+    },
+    {
+      "name": "Formal Learning",
+      "value": 2
+    },
+    {
+      "name": "Informal Interaction",
+      "value": 2
+    },
+    {
+      "name": "Pedagogy",
+      "value": 2
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Otundo, Khalayi Billian",
+      "value": 2
+    },
+    {
+      "name": "Mühleisen, Susanne",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "Kenya",
+      "region": "Nandi",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "67a3500526e222e7e827a3d2",
+      "titleInfo": [
+        {
+          "title": "SPSS Results"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MultiALS2021",
+        "name": "Multilingual African Learning Spaces: Translanguaging Practices in the Kenyan Classroom"
+      },
+      "dre_id": "abr-01-0000"
+    },
+    {
+      "_id": "67a3500526e222e7e827a3d3",
+      "titleInfo": [
+        {
+          "title": "Survey"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MultiALS2021",
+        "name": "Multilingual African Learning Spaces: Translanguaging Practices in the Kenyan Classroom"
+      },
+      "dre_id": "abr-01-0001"
+    }
+  ]
+}

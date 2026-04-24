@@ -1,0 +1,303 @@
+{
+  "meta": {
+    "type": "genre",
+    "id": "portraits",
+    "name": "Portraits",
+    "count": 5
+  },
+  "timeline": [
+    {
+      "year": 1974,
+      "count": 1
+    },
+    {
+      "year": 2014,
+      "count": 3
+    },
+    {
+      "year": 2016,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1974,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 2014,
+      "total": 3,
+      "byType": {
+        "Image": 3
+      }
+    },
+    {
+      "year": 2016,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 5
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Artists",
+      "value": 4
+    },
+    {
+      "name": "Photographs",
+      "value": 4
+    },
+    {
+      "name": "Interior decoration",
+      "value": 3
+    },
+    {
+      "name": "Portraits",
+      "value": 2
+    },
+    {
+      "name": "Africa",
+      "value": 2
+    },
+    {
+      "name": "Art",
+      "value": 2
+    },
+    {
+      "name": "Women",
+      "value": 1
+    },
+    {
+      "name": "Women artists",
+      "value": 1
+    },
+    {
+      "name": "Exhibitions",
+      "value": 1
+    },
+    {
+      "name": "Wood sculpture, Yoruba",
+      "value": 1
+    },
+    {
+      "name": "Sculpture",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Artists",
+      "value": 4
+    },
+    {
+      "name": "Photographs",
+      "value": 4
+    },
+    {
+      "name": "Interior decoration",
+      "value": 3
+    },
+    {
+      "name": "Portraits",
+      "value": 2
+    },
+    {
+      "name": "Sydney",
+      "value": 2
+    },
+    {
+      "name": "Africa",
+      "value": 2
+    },
+    {
+      "name": "Art",
+      "value": 2
+    },
+    {
+      "name": "Art Collector",
+      "value": 2
+    },
+    {
+      "name": "Art Collecting",
+      "value": 2
+    },
+    {
+      "name": "Women",
+      "value": 1
+    },
+    {
+      "name": "Women artists",
+      "value": 1
+    },
+    {
+      "name": "Exhibitions",
+      "value": 1
+    },
+    {
+      "name": "Art Exhibition",
+      "value": 1
+    },
+    {
+      "name": "Iwalewahaus",
+      "value": 1
+    },
+    {
+      "name": "Cultural Centre",
+      "value": 1
+    },
+    {
+      "name": "Performing Arts Center",
+      "value": 1
+    },
+    {
+      "name": "Wood sculpture, Yoruba",
+      "value": 1
+    },
+    {
+      "name": "Sculpture",
+      "value": 1
+    },
+    {
+      "name": "Shrine",
+      "value": 1
+    },
+    {
+      "name": "Yoruba Art",
+      "value": 1
+    },
+    {
+      "name": "Lisbon",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Greven, Katharina",
+      "value": 5
+    },
+    {
+      "name": "Beier, Georgina",
+      "value": 4
+    },
+    {
+      "name": "Beier, Ulli",
+      "value": 3
+    },
+    {
+      "name": "Herbert, Heidi",
+      "value": 1
+    },
+    {
+      "name": "Guedes, Pancho",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Australia",
+      "region": "New South Wales",
+      "city": "Sydney",
+      "count": 3
+    },
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 1
+    },
+    {
+      "country": "Portugal",
+      "region": "Lisbon",
+      "city": "Sintra",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b4f4",
+      "titleInfo": [
+        {
+          "title": "Porträt Georgina Beier in Sydney"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-006c"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b514",
+      "titleInfo": [
+        {
+          "title": "Das Porträt von Oskar in der Küche von Georgina Beier in Sydney"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-008c"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b516",
+      "titleInfo": [
+        {
+          "title": "Aufnahme der Ausstellung Existential Phantasies - The Monkey on your Shoulder im Iwalewahaus"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-008e"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b525",
+      "titleInfo": [
+        {
+          "title": "Detailaufnahme vom Ulli Beier-Schrein, geknicktes Foto von Ulli Beier"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-009d"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b538",
+      "titleInfo": [
+        {
+          "title": "Innenaufnahme des Hauses in Sintra"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-00b0"
+    }
+  ]
+}

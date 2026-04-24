@@ -1,0 +1,200 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "currency",
+    "name": "Currency",
+    "count": 5
+  },
+  "timeline": [
+    {
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "count": 4
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2022,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2023,
+      "total": 4,
+      "byType": {
+        "Text": 4
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 5
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 5
+    }
+  ],
+  "subjects": [
+    {
+      "name": "West Africa",
+      "value": 5
+    },
+    {
+      "name": "Finance",
+      "value": 1
+    },
+    {
+      "name": "Interviews",
+      "value": 1
+    },
+    {
+      "name": "Interest rates",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "West Africa",
+      "value": 5
+    },
+    {
+      "name": "Nigeria",
+      "value": 5
+    },
+    {
+      "name": "Naira",
+      "value": 3
+    },
+    {
+      "name": "Old Naira",
+      "value": 2
+    },
+    {
+      "name": "Finance",
+      "value": 1
+    },
+    {
+      "name": "Interviews",
+      "value": 1
+    },
+    {
+      "name": "Political Economy",
+      "value": 1
+    },
+    {
+      "name": "Interest rates",
+      "value": 1
+    },
+    {
+      "name": "Ghana",
+      "value": 1
+    },
+    {
+      "name": "Senegal",
+      "value": 1
+    },
+    {
+      "name": "Government Expenditure",
+      "value": 1
+    },
+    {
+      "name": "Government Budget",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Coburger, Carla",
+      "value": 5
+    }
+  ],
+  "locations": [
+    {
+      "country": "Nigeria",
+      "region": "",
+      "city": "",
+      "count": 5
+    }
+  ],
+  "items": [
+    {
+      "_id": "674dba652e70d1e383d18ae4",
+      "titleInfo": [
+        {
+          "title": "Selected pages from Sven-Olof John's Nigerian currencies: Manillas cowries and others"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0001"
+    },
+    {
+      "_id": "674dba652e70d1e383d18ae5",
+      "titleInfo": [
+        {
+          "title": "Sample old Nigerian Naira currencies"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0002"
+    },
+    {
+      "_id": "674dba652e70d1e383d18ae6",
+      "titleInfo": [
+        {
+          "title": "Interviews on Nigerian finance and broader political economy"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0003"
+    },
+    {
+      "_id": "674dba652e70d1e383d18af9",
+      "titleInfo": [
+        {
+          "title": "Curencies, Nigeria"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0016"
+    },
+    {
+      "_id": "674dba652e70d1e383d18afa",
+      "titleInfo": [
+        {
+          "title": "Curencies, Nigeria"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0017"
+    }
+  ]
+}

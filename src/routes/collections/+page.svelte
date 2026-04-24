@@ -1,9 +1,15 @@
 <script lang="ts">
 	import { Images } from '@lucide/svelte';
-	import { allCollections } from '$lib/stores/data';
+	import { onMount } from 'svelte';
+	import { base } from '$app/paths';
+	import { allCollections, ensureCollections } from '$lib/stores/data';
 	import { SEO } from '$lib/components/ui';
 	import { buildCollectionCards } from '$lib/utils/featuredCollectionLoader';
 	import CollectionIndexCard from '$lib/components/collections/CollectionIndexCard.svelte';
+
+	onMount(() => {
+		void ensureCollections(base);
+	});
 
 	let cards = $derived(buildCollectionCards($allCollections));
 </script>

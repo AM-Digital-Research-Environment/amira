@@ -1,0 +1,410 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "municipal-road",
+    "name": "Municipal Road",
+    "count": 19
+  },
+  "timeline": [
+    {
+      "year": 2021,
+      "count": 19
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2021,
+      "total": 19,
+      "byType": {
+        "Text": 1,
+        "Image": 2,
+        "Moving image": 16
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Moving image",
+      "value": 16
+    },
+    {
+      "name": "Image",
+      "value": 2
+    },
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Municipal engineering",
+      "value": 19
+    },
+    {
+      "name": "Construction",
+      "value": 19
+    },
+    {
+      "name": "Infrastructure (Economics)",
+      "value": 19
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Municipal engineering",
+      "value": 19
+    },
+    {
+      "name": "Construction",
+      "value": 19
+    },
+    {
+      "name": "Infrastructure (Economics)",
+      "value": 19
+    },
+    {
+      "name": "Marginalised Communities",
+      "value": 19
+    },
+    {
+      "name": "Infrastructure Development",
+      "value": 19
+    },
+    {
+      "name": "Nigeria",
+      "value": 19
+    },
+    {
+      "name": "Kenya",
+      "value": 19
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Yakubu, Moses",
+      "value": 19
+    },
+    {
+      "name": "Attoh, Franca",
+      "value": 19
+    },
+    {
+      "name": "Ademola-Adeoye, Feyisayo",
+      "value": 19
+    },
+    {
+      "name": "Adebayo, Bukola",
+      "value": 19
+    },
+    {
+      "name": "Adeniran, Samuel",
+      "value": 19
+    },
+    {
+      "name": "Anyanwu, Beatrice",
+      "value": 19
+    },
+    {
+      "name": "Akintola, Folashade",
+      "value": 19
+    },
+    {
+      "name": "Olukuade, Tomide",
+      "value": 19
+    },
+    {
+      "name": "Ademola, Lydia",
+      "value": 19
+    }
+  ],
+  "locations": [
+    {
+      "country": "Nigeria",
+      "region": "Kaduna State",
+      "city": "",
+      "count": 7
+    },
+    {
+      "country": "Nigeria",
+      "region": "Edo State",
+      "city": "",
+      "count": 6
+    },
+    {
+      "country": "Nigeria",
+      "region": "Ondo State",
+      "city": "",
+      "count": 6
+    }
+  ],
+  "items": [
+    {
+      "_id": "6718f59ac327cde4b57d86c5",
+      "titleInfo": [
+        {
+          "title": "Field Report on Municipal Road Construction in Kenya and Nigeria: The Politics of Infrastructure Development"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_MRC2021",
+        "name": "Municipal Road Construction in Kenya and Nigeria: Investigating the Politics of Infrastructure Development"
+      },
+      "dre_id": "aac-02-0000"
+    },
+    {
+      "_id": "6718f59ac327cde4b57d86c6",
+      "titleInfo": [
+        {
+          "title": "First Audio Record of the interview on  Municipal Road Construction in Kenya and Nigeria (Recorded in Kaduna)"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_MRC2021",
+        "name": "Municipal Road Construction in Kenya and Nigeria: Investigating the Politics of Infrastructure Development"
+      },
+      "dre_id": "aac-02-0001"
+    },
+    {
+      "_id": "6718f59ac327cde4b57d86c7",
+      "titleInfo": [
+        {
+          "title": "Second Audio Record of the interview on  Municipal Road Construction in Kenya and Nigeria (Recorded in Kaduna)"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_MRC2021",
+        "name": "Municipal Road Construction in Kenya and Nigeria: Investigating the Politics of Infrastructure Development"
+      },
+      "dre_id": "aac-02-0002"
+    },
+    {
+      "_id": "6718f59ac327cde4b57d86c8",
+      "titleInfo": [
+        {
+          "title": "Audio Record 1 of the interview on  Municipal Road Construction in Kenya and Nigeria (Recorded in Benin, Edo Nigeria)"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_MRC2021",
+        "name": "Municipal Road Construction in Kenya and Nigeria: Investigating the Politics of Infrastructure Development"
+      },
+      "dre_id": "aac-02-0003"
+    },
+    {
+      "_id": "6718f59ac327cde4b57d86c9",
+      "titleInfo": [
+        {
+          "title": "Audio Record 2 of the interview on  Municipal Road Construction in Kenya and Nigeria (Recorded in Benin, Edo Nigeria)"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_MRC2021",
+        "name": "Municipal Road Construction in Kenya and Nigeria: Investigating the Politics of Infrastructure Development"
+      },
+      "dre_id": "aac-02-0004"
+    },
+    {
+      "_id": "6718f59ac327cde4b57d86ca",
+      "titleInfo": [
+        {
+          "title": "Interview on  Municipal Road Construction in Kenya and Nigeria (Recorded in Akure, Ondo Nigeria)"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_MRC2021",
+        "name": "Municipal Road Construction in Kenya and Nigeria: Investigating the Politics of Infrastructure Development"
+      },
+      "dre_id": "aac-02-0005"
+    },
+    {
+      "_id": "6718f59ac327cde4b57d86cb",
+      "titleInfo": [
+        {
+          "title": "Audio Record of the interview on  Municipal Road Construction in Kenya and Nigeria (Recorded in Akure, Ondo Nigeria)"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_MRC2021",
+        "name": "Municipal Road Construction in Kenya and Nigeria: Investigating the Politics of Infrastructure Development"
+      },
+      "dre_id": "aac-02-0006"
+    },
+    {
+      "_id": "6718f59ac327cde4b57d86cc",
+      "titleInfo": [
+        {
+          "title": "Image on Municipal Road Construction in Kenya and Nigeria: The Politics of Infrastructure Development (Image taken in Kaduna)"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_MRC2021",
+        "name": "Municipal Road Construction in Kenya and Nigeria: Investigating the Politics of Infrastructure Development"
+      },
+      "dre_id": "aac-02-0007"
+    },
+    {
+      "_id": "6718f59ac327cde4b57d86cd",
+      "titleInfo": [
+        {
+          "title": "Municipal Road Construction in Kenya and Nigeria: The Politics of Infrastructure Development (Image 2 taken in Kaduna)"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_MRC2021",
+        "name": "Municipal Road Construction in Kenya and Nigeria: Investigating the Politics of Infrastructure Development"
+      },
+      "dre_id": "aac-02-0008"
+    },
+    {
+      "_id": "6718f59ac327cde4b57d86ce",
+      "titleInfo": [
+        {
+          "title": "Municipal Road Construction in Kenya and Nigeria: The Politics of Infrastructure Development (Image 1 taken in, Benin Edo)"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_MRC2021",
+        "name": "Municipal Road Construction in Kenya and Nigeria: Investigating the Politics of Infrastructure Development"
+      },
+      "dre_id": "aac-02-0009"
+    },
+    {
+      "_id": "6718f59ac327cde4b57d86cf",
+      "titleInfo": [
+        {
+          "title": "Image on Municipal Road Construction in Kenya and Nigeria: The Politics of Infrastructure Development (Image 2, Benin Edo)"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_MRC2021",
+        "name": "Municipal Road Construction in Kenya and Nigeria: Investigating the Politics of Infrastructure Development"
+      },
+      "dre_id": "aac-02-000a"
+    },
+    {
+      "_id": "6718f59ac327cde4b57d86d0",
+      "titleInfo": [
+        {
+          "title": "Municipal Road Construction in Kenya and Nigeria: The Politics of Infrastructure Development (Image 1, Akure Ondo State)"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_MRC2021",
+        "name": "Municipal Road Construction in Kenya and Nigeria: Investigating the Politics of Infrastructure Development"
+      },
+      "dre_id": "aac-02-000b"
+    },
+    {
+      "_id": "6718f59ac327cde4b57d86d1",
+      "titleInfo": [
+        {
+          "title": "Municipal Road Construction in Kenya and Nigeria: The Politics of Infrastructure Development (Image 2, Akure Ondo State)"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_MRC2021",
+        "name": "Municipal Road Construction in Kenya and Nigeria: Investigating the Politics of Infrastructure Development"
+      },
+      "dre_id": "aac-02-000c"
+    },
+    {
+      "_id": "6718f59ac327cde4b57d86d2",
+      "titleInfo": [
+        {
+          "title": "Video 1 on Municipal Road Construction in Kenya and Nigeria: The Politics of Infrastructure Development (Recorded in Kaduna)"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_MRC2021",
+        "name": "Municipal Road Construction in Kenya and Nigeria: Investigating the Politics of Infrastructure Development"
+      },
+      "dre_id": "aac-02-000d"
+    },
+    {
+      "_id": "6718f59ac327cde4b57d86d3",
+      "titleInfo": [
+        {
+          "title": "Video 2 on Municipal Road Construction in Kenya and Nigeria: The Politics of Infrastructure Development (Recorded in Kaduna)"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_MRC2021",
+        "name": "Municipal Road Construction in Kenya and Nigeria: Investigating the Politics of Infrastructure Development"
+      },
+      "dre_id": "aac-02-000e"
+    },
+    {
+      "_id": "6718f59ac327cde4b57d86d4",
+      "titleInfo": [
+        {
+          "title": "Video 1 on Municipal Road Construction in Kenya and Nigeria: The Politics of Infrastructure Development (Recorded in Benin)"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_MRC2021",
+        "name": "Municipal Road Construction in Kenya and Nigeria: Investigating the Politics of Infrastructure Development"
+      },
+      "dre_id": "aac-02-000f"
+    },
+    {
+      "_id": "6718f59ac327cde4b57d86d5",
+      "titleInfo": [
+        {
+          "title": "Video 2 on Municipal Road Construction in Kenya and Nigeria: The Politics of Infrastructure Development (Recorded in Benin)"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_MRC2021",
+        "name": "Municipal Road Construction in Kenya and Nigeria: Investigating the Politics of Infrastructure Development"
+      },
+      "dre_id": "aac-02-0010"
+    },
+    {
+      "_id": "6718f59ac327cde4b57d86d6",
+      "titleInfo": [
+        {
+          "title": "Video 1 on Municipal Road Construction in Kenya and Nigeria: The Politics of Infrastructure Development (Recorded in Akure, Ondo State)"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_MRC2021",
+        "name": "Municipal Road Construction in Kenya and Nigeria: Investigating the Politics of Infrastructure Development"
+      },
+      "dre_id": "aac-02-0011"
+    },
+    {
+      "_id": "6718f59ac327cde4b57d86d7",
+      "titleInfo": [
+        {
+          "title": "Video 2 on Municipal Road Construction in Kenya and Nigeria: The Politics of Infrastructure Development (Recorded in Akure, Ondo State)"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_MRC2021",
+        "name": "Municipal Road Construction in Kenya and Nigeria: Investigating the Politics of Infrastructure Development"
+      },
+      "dre_id": "aac-02-0012"
+    }
+  ]
+}

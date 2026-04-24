@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "traditional-education",
+    "name": "Traditional Education",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1987,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1987,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Education",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Education",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    },
+    {
+      "name": "Malawi",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kubik, Gerhard",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ec1f",
+      "titleInfo": [
+        {
+          "title": "Research project on \"Systems of traditional education in Malawi” (the continuation: September 1983 to February 1984) by Dr. Gerhard Kubik"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-023a"
+    }
+  ]
+}

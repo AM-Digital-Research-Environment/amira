@@ -1,0 +1,413 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "north-west-university",
+    "name": "North-West University",
+    "count": 10
+  },
+  "timeline": [
+    {
+      "year": 1956,
+      "count": 1
+    },
+    {
+      "year": 1975,
+      "count": 1
+    },
+    {
+      "year": 1990,
+      "count": 1
+    },
+    {
+      "year": 1996,
+      "count": 1
+    },
+    {
+      "year": 1999,
+      "count": 1
+    },
+    {
+      "year": 2004,
+      "count": 1
+    },
+    {
+      "year": 2005,
+      "count": 1
+    },
+    {
+      "year": 2007,
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1956,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1975,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1990,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1996,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1999,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2004,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2005,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2007,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 2020,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 10
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 7
+    }
+  ],
+  "subjects": [
+    {
+      "name": "South Africa",
+      "value": 2
+    },
+    {
+      "name": "Postcolonialism",
+      "value": 1
+    },
+    {
+      "name": "Elections",
+      "value": 1
+    },
+    {
+      "name": "Humanities",
+      "value": 1
+    },
+    {
+      "name": "Relevance",
+      "value": 1
+    },
+    {
+      "name": "Gender",
+      "value": 1
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Ganda (African people)",
+      "value": 1
+    },
+    {
+      "name": "Apartheid",
+      "value": 1
+    },
+    {
+      "name": "Opera",
+      "value": 1
+    },
+    {
+      "name": "Book reviews",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 7
+    },
+    {
+      "name": "Shakespeare",
+      "value": 3
+    },
+    {
+      "name": "Article",
+      "value": 3
+    },
+    {
+      "name": "South Africa",
+      "value": 2
+    },
+    {
+      "name": "Postcolonialism",
+      "value": 1
+    },
+    {
+      "name": "Postcolonial Studies",
+      "value": 1
+    },
+    {
+      "name": "Postcolonial Africa",
+      "value": 1
+    },
+    {
+      "name": "Ideological Conflict",
+      "value": 1
+    },
+    {
+      "name": "Elections",
+      "value": 1
+    },
+    {
+      "name": "Humanities",
+      "value": 1
+    },
+    {
+      "name": "Relevance",
+      "value": 1
+    },
+    {
+      "name": "Renaissance Studies",
+      "value": 1
+    },
+    {
+      "name": "Gender",
+      "value": 1
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Ganda (African people)",
+      "value": 1
+    },
+    {
+      "name": "Uganda",
+      "value": 1
+    },
+    {
+      "name": "Apartheid",
+      "value": 1
+    },
+    {
+      "name": "Opera",
+      "value": 1
+    },
+    {
+      "name": "Book reviews",
+      "value": 1
+    },
+    {
+      "name": "Cultural Politics",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kruger, Jaco",
+      "value": 4
+    },
+    {
+      "name": "Wright, Laurence",
+      "value": 3
+    },
+    {
+      "name": "Shakespeare Society of Southern Africa",
+      "value": 3
+    },
+    {
+      "name": "Rhodes, Willard",
+      "value": 1
+    },
+    {
+      "name": "Berliner, Paul",
+      "value": 1
+    },
+    {
+      "name": "Petersen, Alvin",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 7
+    },
+    {
+      "country": "South Africa",
+      "region": "Eastern Cape",
+      "city": "Makhanda",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a8ab2c85fe8df8711f",
+      "titleInfo": [
+        {
+          "title": "Aspects of Shakespeare in Post-Colonial Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0028"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87127",
+      "titleInfo": [
+        {
+          "title": "Shakespeare in South Africa: Alpha and 'Omega'"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0030"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87128",
+      "titleInfo": [
+        {
+          "title": "The Revelance of (South African) Renaissance Studies"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0031"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea1e",
+      "titleInfo": [
+        {
+          "title": "Society of Ethnomusicology"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0039"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ebd7",
+      "titleInfo": [
+        {
+          "title": "Music and spirit possession at a Shona Bira"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01f2"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec65",
+      "titleInfo": [
+        {
+          "title": "SOSIO-ETNIESE DANSE VAN DIE VENDA VROU, by Cora Bumett-van Tonder, HAUM, Pretoria, 1987, 155pp, 62 line drawings, 23 colour plates, music and dance transcriptions, Tshivenda glossary, index, Afrikaans text."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0280"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec7e",
+      "titleInfo": [
+        {
+          "title": "Singing Psalms with owls: a Venda twentieth century musical history"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0299"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec92",
+      "titleInfo": [
+        {
+          "title": "Baakisimba: Gender in the Music and Dance of the Baganda People of Uganda. Sylvia A. Nannyonga-Tamusuza, 2005. 294 pp., 13 figures, 19 plates. New York: Routledge (Current Research in Ethnomusicology Series). Jennifer C. post, series editor."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02ad"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec99",
+      "titleInfo": [
+        {
+          "title": "Singing Psalms with owls: A Venda 20th century musical history part two: tshikona, beer songs and personal songs"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02b4"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edc4",
+      "titleInfo": [
+        {
+          "title": "The La Traviata Affair: Opera in the Age of Apartheid"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03df"
+    }
+  ]
+}

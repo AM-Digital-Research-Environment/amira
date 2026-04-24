@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "editorials",
+    "name": "Editorials",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2025,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2025,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Watkins, Lee",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9edec",
+      "titleInfo": [
+        {
+          "title": "From the Editor"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0407"
+    }
+  ]
+}

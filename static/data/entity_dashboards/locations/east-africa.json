@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "east-africa",
+    "name": "East Africa",
+    "count": 5
+  },
+  "timeline": [
+    {
+      "year": 2022,
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2022,
+      "total": 3,
+      "byType": {
+        "Text": 1,
+        "Audio": 1,
+        "Dataset": 1
+      }
+    },
+    {
+      "year": 2023,
+      "total": 2,
+      "byType": {
+        "Text": 1,
+        "Dataset": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    },
+    {
+      "name": "Dataset",
+      "value": 2
+    },
+    {
+      "name": "Audio",
+      "value": 1
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Economic geography",
+      "value": 5
+    },
+    {
+      "name": "Social justice",
+      "value": 5
+    },
+    {
+      "name": "Venture capital",
+      "value": 5
+    },
+    {
+      "name": "Regional disparities",
+      "value": 5
+    },
+    {
+      "name": "Gender",
+      "value": 5
+    },
+    {
+      "name": "Race",
+      "value": 5
+    },
+    {
+      "name": "Intersectionality (Sociology)",
+      "value": 5
+    },
+    {
+      "name": "Interviews",
+      "value": 5
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Economic geography",
+      "value": 5
+    },
+    {
+      "name": "Social justice",
+      "value": 5
+    },
+    {
+      "name": "Venture capital",
+      "value": 5
+    },
+    {
+      "name": "Regional disparities",
+      "value": 5
+    },
+    {
+      "name": "Gender",
+      "value": 5
+    },
+    {
+      "name": "Race",
+      "value": 5
+    },
+    {
+      "name": "Intersectionality (Sociology)",
+      "value": 5
+    },
+    {
+      "name": "Interviews",
+      "value": 5
+    },
+    {
+      "name": "Startup Founder",
+      "value": 5
+    },
+    {
+      "name": "Geographic Inequity",
+      "value": 5
+    },
+    {
+      "name": "Silicon Savannah",
+      "value": 5
+    },
+    {
+      "name": "Inequality",
+      "value": 5
+    },
+    {
+      "name": "Entrepreneurial Mobility",
+      "value": 5
+    },
+    {
+      "name": "Startup Ecosystem",
+      "value": 5
+    },
+    {
+      "name": "Financial Geography",
+      "value": 5
+    },
+    {
+      "name": "Structural Barrier",
+      "value": 5
+    },
+    {
+      "name": "Barriers to Entry (Economic Theory)",
+      "value": 5
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mkalama, Benedict Wandera",
+      "value": 5
+    },
+    {
+      "name": "Ouma, Stefan",
+      "value": 4
+    },
+    {
+      "name": "Abbas, Nasir",
+      "value": 2
+    }
+  ]
+}

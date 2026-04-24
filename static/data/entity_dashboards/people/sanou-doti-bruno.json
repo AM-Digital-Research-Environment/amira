@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "sanou-doti-bruno",
+    "name": "Sanou, Doti Bruno",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2021,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2021,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Administration of Justice",
+      "value": 2
+    },
+    {
+      "name": "Teenagers",
+      "value": 2
+    },
+    {
+      "name": "Youth",
+      "value": 2
+    },
+    {
+      "name": "Punishment",
+      "value": 2
+    },
+    {
+      "name": "Communities",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Administration of Justice",
+      "value": 2
+    },
+    {
+      "name": "Teenagers",
+      "value": 2
+    },
+    {
+      "name": "Youth",
+      "value": 2
+    },
+    {
+      "name": "Punishment",
+      "value": 2
+    },
+    {
+      "name": "Communities",
+      "value": 1
+    },
+    {
+      "name": "Bobo-Dioulasso",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Bationo, Bouma Fernand",
+      "value": 1
+    },
+    {
+      "name": "Sanou, Anselme Titiama",
+      "value": 1
+    },
+    {
+      "name": "Sanon, Sidiki",
+      "value": 1
+    },
+    {
+      "name": "Ouattara, Amadou",
+      "value": 1
+    },
+    {
+      "name": "Millogo, Donatien",
+      "value": 1
+    },
+    {
+      "name": "Sanou, Issiaka",
+      "value": 1
+    },
+    {
+      "name": "Sanon, Findomom Simon Pierre",
+      "value": 1
+    },
+    {
+      "name": "Traoré, Honoré Nabéré",
+      "value": 1
+    },
+    {
+      "name": "Soulama, Brahima",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Burkina Faso",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "69c1568e666e5b9f92cf9f67",
+      "titleInfo": [
+        {
+          "title": "Institutions judiciaires et adolescents au Burkina Faso:\ndes modèles de punitions endogènes et contemporaines"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-000f"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f68",
+      "titleInfo": [
+        {
+          "title": "Étude de recherche les modèles de punitions dans la communauté bobo de Bobo-Dioulasso"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0010"
+    }
+  ]
+}

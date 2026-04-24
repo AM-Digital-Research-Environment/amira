@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "african-cultural-heritage",
+    "name": "African Cultural Heritage",
+    "count": 3
+  },
+  "timeline": [],
+  "stackedTimeline": [],
+  "types": [
+    {
+      "name": "Moving image",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Education",
+      "value": 2
+    },
+    {
+      "name": "Singing",
+      "value": 2
+    },
+    {
+      "name": "Dance",
+      "value": 2
+    },
+    {
+      "name": "Interviews",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Cultural Heritage",
+      "value": 3
+    },
+    {
+      "name": "Education",
+      "value": 2
+    },
+    {
+      "name": "Singing",
+      "value": 2
+    },
+    {
+      "name": "Dance",
+      "value": 2
+    },
+    {
+      "name": "Interviews",
+      "value": 1
+    },
+    {
+      "name": "Film Production",
+      "value": 1
+    },
+    {
+      "name": "Black People",
+      "value": 1
+    },
+    {
+      "name": "Race Identity",
+      "value": 1
+    },
+    {
+      "name": "Black People in Film",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Liberia Broadcasting System (LBS)",
+      "value": 3
+    },
+    {
+      "name": "Government of Liberia",
+      "value": 3
+    },
+    {
+      "name": "Caranda, Doughba C., II",
+      "value": 1
+    },
+    {
+      "name": "Ansah, Kwaw",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Liberia",
+      "region": "Montserrado County",
+      "city": "Monrovia",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "6982337057a8e0353b0b1ca7",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-006a"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1ca8",
+      "titleInfo": [
+        {
+          "title": "Spotlight"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-006b"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cac",
+      "titleInfo": [
+        {
+          "title": "Heritage Productions"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-006f"
+    }
+  ]
+}

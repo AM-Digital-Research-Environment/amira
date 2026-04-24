@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "purdue-university",
+    "name": "Purdue University",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2010,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2010,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Warden, Nolan",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ecd7",
+      "titleInfo": [
+        {
+          "title": "Crossing diaspora's borders: musical roots experiences and the Euro-American presence in Afro-Cuban religious music."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02f2"
+    }
+  ]
+}

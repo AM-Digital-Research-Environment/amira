@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "drapery",
+    "name": "Drapery",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 2024,
+      "count": 4
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2024,
+      "total": 4,
+      "byType": {
+        "Manuscript": 4
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Manuscript",
+      "value": 4
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Manuscripts",
+      "value": 4
+    },
+    {
+      "name": "Early modern, 1500-1700",
+      "value": 4
+    },
+    {
+      "name": "Literature",
+      "value": 4
+    },
+    {
+      "name": "Africa",
+      "value": 4
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Manuscripts",
+      "value": 4
+    },
+    {
+      "name": "Early modern, 1500-1700",
+      "value": 4
+    },
+    {
+      "name": "Literature",
+      "value": 4
+    },
+    {
+      "name": "Africa",
+      "value": 4
+    },
+    {
+      "name": "Handwritten",
+      "value": 4
+    },
+    {
+      "name": "England",
+      "value": 4
+    },
+    {
+      "name": "Knowledge",
+      "value": 4
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Aboluwade, Ifeoluwa",
+      "value": 4
+    }
+  ],
+  "locations": [
+    {
+      "country": "United Kingdom",
+      "region": "England",
+      "city": "London",
+      "count": 4
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a8ab2c85fe8df871c6",
+      "titleInfo": [
+        {
+          "title": "Scarlet Red Cloth and Drapery"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00cf"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871c7",
+      "titleInfo": [
+        {
+          "title": "Scarlet Red Cloth and Drapery"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00d0"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871c8",
+      "titleInfo": [
+        {
+          "title": "Scarlet Red Cloth and Drapery"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00d1"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df871c9",
+      "titleInfo": [
+        {
+          "title": "Scarlet Red Cloth and Drapery"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-00d2"
+    }
+  ]
+}

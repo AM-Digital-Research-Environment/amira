@@ -84,6 +84,22 @@
     {
       "name": "Sculpture",
       "value": 1
+    },
+    {
+      "name": "Shrine",
+      "value": 1
+    },
+    {
+      "name": "Yoruba Art",
+      "value": 1
+    },
+    {
+      "name": "Art Collector",
+      "value": 1
+    },
+    {
+      "name": "Art Collecting",
+      "value": 1
     }
   ],
   "contributors": [
@@ -106,6 +122,22 @@
       "region": "New South Wales",
       "city": "Sydney",
       "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b523",
+      "titleInfo": [
+        {
+          "title": "Detailaufnahme vom Ulli Beier-Schrein, Fotografie von Ulli Beier"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-009b"
     }
   ]
 }

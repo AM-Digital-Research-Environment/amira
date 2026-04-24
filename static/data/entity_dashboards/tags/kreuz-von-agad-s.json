@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "kreuz-von-agad-s",
+    "name": "Kreuz von Agadès",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1984,
+      "count": 1
+    },
+    {
+      "year": 2002,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1984,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 2002,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 2
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Photography",
+      "value": 2
+    },
+    {
+      "name": "Anthropology",
+      "value": 2
+    },
+    {
+      "name": "Tuaregs",
+      "value": 2
+    },
+    {
+      "name": "Jewelry",
+      "value": 2
+    },
+    {
+      "name": "Photographs",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Photography",
+      "value": 2
+    },
+    {
+      "name": "Anthropology",
+      "value": 2
+    },
+    {
+      "name": "Tuaregs",
+      "value": 2
+    },
+    {
+      "name": "Jewelry",
+      "value": 2
+    },
+    {
+      "name": "Photographs",
+      "value": 2
+    },
+    {
+      "name": "Silberschmuck",
+      "value": 2
+    },
+    {
+      "name": "Sammlung Gerd Spittler",
+      "value": 2
+    },
+    {
+      "name": "Halskette",
+      "value": 1
+    },
+    {
+      "name": "Pendant",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Collections@UBT",
+      "value": 2
+    },
+    {
+      "name": "Spittler, Gerd",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "Niger",
+      "region": "Agadez Region",
+      "city": "Timia",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "66d97447c610a95a80dd95c7",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-003e"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95cc",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0043"
+    }
+  ]
+}

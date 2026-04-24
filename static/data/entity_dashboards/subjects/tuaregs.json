@@ -1,0 +1,463 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "tuaregs",
+    "name": "Tuaregs",
+    "count": 11
+  },
+  "timeline": [
+    {
+      "year": 1966,
+      "count": 1
+    },
+    {
+      "year": 1970,
+      "count": 1
+    },
+    {
+      "year": 1984,
+      "count": 1
+    },
+    {
+      "year": 2002,
+      "count": 1
+    },
+    {
+      "year": 2003,
+      "count": 2
+    },
+    {
+      "year": 2005,
+      "count": 4
+    },
+    {
+      "year": 2022,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1966,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1970,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 1984,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 2002,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 2003,
+      "total": 2,
+      "byType": {
+        "Image": 2
+      }
+    },
+    {
+      "year": 2005,
+      "total": 4,
+      "byType": {
+        "Image": 4
+      }
+    },
+    {
+      "year": 2022,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 9
+    },
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Photography",
+      "value": 9
+    },
+    {
+      "name": "Anthropology",
+      "value": 9
+    },
+    {
+      "name": "Photographs",
+      "value": 9
+    },
+    {
+      "name": "Festivals",
+      "value": 4
+    },
+    {
+      "name": "Jewelry",
+      "value": 3
+    },
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Audiences",
+      "value": 1
+    },
+    {
+      "name": "World music",
+      "value": 1
+    },
+    {
+      "name": "Marketing",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Photography",
+      "value": 9
+    },
+    {
+      "name": "Anthropology",
+      "value": 9
+    },
+    {
+      "name": "Photographs",
+      "value": 9
+    },
+    {
+      "name": "Sammlung Gerd Spittler",
+      "value": 9
+    },
+    {
+      "name": "Festivals",
+      "value": 4
+    },
+    {
+      "name": "Festkleidung",
+      "value": 3
+    },
+    {
+      "name": "Jewelry",
+      "value": 3
+    },
+    {
+      "name": "Silberschmuck",
+      "value": 3
+    },
+    {
+      "name": "Kreuz von Agadès",
+      "value": 2
+    },
+    {
+      "name": "Eröffnungsfeier",
+      "value": 2
+    },
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Abstammung",
+      "value": 1
+    },
+    {
+      "name": "Manuskript",
+      "value": 1
+    },
+    {
+      "name": "Geschichte",
+      "value": 1
+    },
+    {
+      "name": "Ahnenforschung",
+      "value": 1
+    },
+    {
+      "name": "Genealogie",
+      "value": 1
+    },
+    {
+      "name": "Gruppenbildnis",
+      "value": 1
+    },
+    {
+      "name": "Wettbewerb",
+      "value": 1
+    },
+    {
+      "name": "Tagelmust",
+      "value": 1
+    },
+    {
+      "name": "Chech",
+      "value": 1
+    },
+    {
+      "name": "Litham",
+      "value": 1
+    },
+    {
+      "name": "Turban",
+      "value": 1
+    },
+    {
+      "name": "Halskette",
+      "value": 1
+    },
+    {
+      "name": "Pendant",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Arab Influences",
+      "value": 1
+    },
+    {
+      "name": "Audiences",
+      "value": 1
+    },
+    {
+      "name": "World music",
+      "value": 1
+    },
+    {
+      "name": "Marketing",
+      "value": 1
+    },
+    {
+      "name": "Mali",
+      "value": 1
+    },
+    {
+      "name": "Music Industry",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Collections@UBT",
+      "value": 9
+    },
+    {
+      "name": "Spittler, Gerd",
+      "value": 9
+    },
+    {
+      "name": "Foedermayr, Franz",
+      "value": 1
+    },
+    {
+      "name": "Hickson, Jim",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Niger",
+      "region": "Agadez Region",
+      "city": "Iférouane",
+      "count": 5
+    },
+    {
+      "country": "Niger",
+      "region": "Agadez Region",
+      "city": "Timia",
+      "count": 4
+    },
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "66d97447c610a95a80dd95a2",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0019"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95aa",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0021"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95ae",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0025"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95b6",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-002d"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95bb",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0032"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95c7",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-003e"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95cc",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0043"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95cd",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0044"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95ce",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-0045"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb2d",
+      "titleInfo": [
+        {
+          "title": "The Arabian influence in the Taureg music"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0148"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edd7",
+      "titleInfo": [
+        {
+          "title": "Examining the success of Malian music as world music"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03f2"
+    }
+  ]
+}

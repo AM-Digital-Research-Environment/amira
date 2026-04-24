@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "muzengedza-z",
+    "name": "Muzengedza, Z.",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2015,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2015,
+      "total": 2,
+      "byType": {
+        "Audio": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Audio",
+      "value": 2
+    }
+  ],
+  "languages": [],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 2
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Murira, S.",
+      "value": 2
+    },
+    {
+      "name": "Madzikuminga, C.",
+      "value": 2
+    },
+    {
+      "name": "Madera, Saini",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ed57",
+      "titleInfo": [
+        {
+          "title": "Siti musikana adadeka"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "dre_id": "eaa-99-0372"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed58",
+      "titleInfo": [
+        {
+          "title": "Marume ashora mambo"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "dre_id": "eaa-99-0373"
+    }
+  ]
+}

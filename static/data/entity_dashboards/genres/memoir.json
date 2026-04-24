@@ -1,0 +1,226 @@
+{
+  "meta": {
+    "type": "genre",
+    "id": "memoir",
+    "name": "memoir",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 2022,
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2022,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 2023,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 4
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 4
+    }
+  ],
+  "subjects": [
+    {
+      "name": "World health",
+      "value": 4
+    },
+    {
+      "name": "West Africa",
+      "value": 4
+    },
+    {
+      "name": "Diseases",
+      "value": 2
+    },
+    {
+      "name": "Sustainability",
+      "value": 1
+    },
+    {
+      "name": "Gender",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "World health",
+      "value": 4
+    },
+    {
+      "name": "West Africa",
+      "value": 4
+    },
+    {
+      "name": "Burkina Faso",
+      "value": 4
+    },
+    {
+      "name": "Global Health Policy",
+      "value": 4
+    },
+    {
+      "name": "Global Health",
+      "value": 2
+    },
+    {
+      "name": "HIV/AIDS",
+      "value": 2
+    },
+    {
+      "name": "Diseases",
+      "value": 2
+    },
+    {
+      "name": "Joint United Nations Programme on HIV/AIDS",
+      "value": 1
+    },
+    {
+      "name": "Sustainability",
+      "value": 1
+    },
+    {
+      "name": "Vertical Program",
+      "value": 1
+    },
+    {
+      "name": "Horizontal Program",
+      "value": 1
+    },
+    {
+      "name": "Health Cooperation",
+      "value": 1
+    },
+    {
+      "name": "Gender",
+      "value": 1
+    },
+    {
+      "name": "The Global Fund to Fight AIDS, Tuberculosis and Malaria",
+      "value": 1
+    },
+    {
+      "name": "Men who have Sex with Men",
+      "value": 1
+    },
+    {
+      "name": "Gender Policy",
+      "value": 1
+    },
+    {
+      "name": "Bill & Melinda Gates Foundation",
+      "value": 1
+    },
+    {
+      "name": "Health Care",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hien, Frederic",
+      "value": 1
+    },
+    {
+      "name": "Sib, Sié Moise",
+      "value": 1
+    },
+    {
+      "name": "Baguian, Sidibewindé Romain",
+      "value": 1
+    },
+    {
+      "name": "Ouattara, Madou",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Burkina Faso",
+      "region": "",
+      "city": "",
+      "count": 4
+    }
+  ],
+  "items": [
+    {
+      "_id": "6718efd3c327cde4b57d8684",
+      "titleInfo": [
+        {
+          "title": "Mémoire sur l'ONUSIDA"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0013"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8685",
+      "titleInfo": [
+        {
+          "title": "Mémoire sur le PADS"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0014"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8686",
+      "titleInfo": [
+        {
+          "title": "Mémoire sur le Fonds Mondial"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0015"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8687",
+      "titleInfo": [
+        {
+          "title": "Mémoire sur l'alliance GAVI et la fondation Bill et melinda Gates"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0016"
+    }
+  ]
+}

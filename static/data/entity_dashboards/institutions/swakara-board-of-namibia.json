@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "swakara-board-of-namibia",
+    "name": "Swakara Board of Namibia",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 1,
+      "byType": {
+        "Bibliography": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Bibliography",
+      "value": 1
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Archival materials",
+      "value": 1
+    },
+    {
+      "name": "Apartheid",
+      "value": 1
+    },
+    {
+      "name": "Colonisation",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Archival materials",
+      "value": 1
+    },
+    {
+      "name": "Apartheid",
+      "value": 1
+    },
+    {
+      "name": "Colonisation",
+      "value": 1
+    },
+    {
+      "name": "German Colonialism",
+      "value": 1
+    },
+    {
+      "name": "Namibia",
+      "value": 1
+    },
+    {
+      "name": "Germany",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Swakara Board of Namibia",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Namibia",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "66cf0d9595a000d4c7bf375e",
+      "titleInfo": [
+        {
+          "title": "Documents from Swakara Board Archive in Windhoek"
+        }
+      ],
+      "typeOfResource": "Bibliography",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-01-0033"
+    }
+  ]
+}

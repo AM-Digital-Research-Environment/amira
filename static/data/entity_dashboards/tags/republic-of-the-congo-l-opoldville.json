@@ -1,0 +1,212 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "republic-of-the-congo-l-opoldville",
+    "name": "Republic of the Congo (Léopoldville)",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 1962,
+      "count": 1
+    },
+    {
+      "year": 1964,
+      "count": 1
+    },
+    {
+      "year": 1965,
+      "count": 1
+    },
+    {
+      "year": 1966,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1962,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1964,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1965,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1966,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 4
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 4
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Musicology",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Education",
+      "value": 1
+    },
+    {
+      "name": "Popular music",
+      "value": 1
+    },
+    {
+      "name": "Songs",
+      "value": 1
+    },
+    {
+      "name": "Lingala language",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 4
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "Southern Rhodesia",
+      "value": 1
+    },
+    {
+      "name": "Talking-gongs",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Musicology",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Education",
+      "value": 1
+    },
+    {
+      "name": "Popular music",
+      "value": 1
+    },
+    {
+      "name": "Songs",
+      "value": 1
+    },
+    {
+      "name": "Lingala language",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tracey, Hugh",
+      "value": 2
+    },
+    {
+      "name": "Hyslop, Graham H.",
+      "value": 1
+    },
+    {
+      "name": "Carrington, John F.",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 4
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9eab8",
+      "titleInfo": [
+        {
+          "title": "Notes and News"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00d3"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eafa",
+      "titleInfo": [
+        {
+          "title": "The need for research in African music"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0115"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb15",
+      "titleInfo": [
+        {
+          "title": "ILAM recording tour (South West Africa and north-western Cape)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0130"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb27",
+      "titleInfo": [
+        {
+          "title": "Tone and melody in a Congolese popular song"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0142"
+    }
+  ]
+}

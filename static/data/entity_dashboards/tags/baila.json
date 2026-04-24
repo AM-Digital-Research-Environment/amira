@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "baila",
+    "name": "Baila",
+    "count": 5
+  },
+  "timeline": [
+    {
+      "year": 2015,
+      "count": 5
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2015,
+      "total": 5,
+      "byType": {
+        "Text": 5
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 5
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Tales",
+      "value": 5
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Tales",
+      "value": 5
+    },
+    {
+      "name": "African Folktales",
+      "value": 5
+    },
+    {
+      "name": "Folktales",
+      "value": 5
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Radin, Paul",
+      "value": 5
+    },
+    {
+      "name": "Princeton University Press",
+      "value": 5
+    }
+  ],
+  "locations": [
+    {
+      "country": "United States of America",
+      "region": "New Jersey",
+      "city": "Princeton",
+      "count": 5
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a8ab2c85fe8df8712f",
+      "titleInfo": [
+        {
+          "title": "How the Mason-Wasp Fetched Fire from God"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0038"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87132",
+      "titleInfo": [
+        {
+          "title": "The Blue-Jay Who Married the Daughter of God"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-003b"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8714a",
+      "titleInfo": [
+        {
+          "title": "Why There Are Cracks in Tortoise's Shell"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0053"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8714c",
+      "titleInfo": [
+        {
+          "title": "How Honey-Guide Came to Have Authority over Honey"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0055"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8716d",
+      "titleInfo": [
+        {
+          "title": "The Child and the Eagle"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0076"
+    }
+  ]
+}

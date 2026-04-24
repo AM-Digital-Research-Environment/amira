@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "hoppe-e-o",
+    "name": "Hoppe, E. O.",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1939,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1939,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Books",
+      "value": 1
+    },
+    {
+      "name": "Scientific racism",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Books",
+      "value": 1
+    },
+    {
+      "name": "Scientific racism",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Newnes, Georges",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "United Kingdom",
+      "region": "England",
+      "city": "London",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b53b",
+      "titleInfo": [
+        {
+          "title": "Erste Seite des Kapitels Races of the World aus dem Buch Modern Pictoral Atlas von Newnes (1939, 113)"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-00b3"
+    }
+  ]
+}

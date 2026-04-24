@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "landscapes",
+    "name": "Landscapes",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 2,
+      "byType": {
+        "Collection": 2
+      }
+    },
+    {
+      "year": 2021,
+      "total": 1,
+      "byType": {
+        "Collection": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Collection",
+      "value": 3
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Agricultural laborers",
+      "value": 2
+    },
+    {
+      "name": "Karakul sheep",
+      "value": 2
+    },
+    {
+      "name": "Karakul sheep industry",
+      "value": 2
+    },
+    {
+      "name": "Agriculture",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Namibia",
+      "value": 3
+    },
+    {
+      "name": "Agricultural laborers",
+      "value": 2
+    },
+    {
+      "name": "Karakul sheep",
+      "value": 2
+    },
+    {
+      "name": "Karakul sheep industry",
+      "value": 2
+    },
+    {
+      "name": "Agriculture",
+      "value": 2
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Schaumann, Eleanor",
+      "value": 3
+    }
+  ],
+  "locations": [
+    {
+      "country": "Namibia",
+      "region": "",
+      "city": "",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "66cf0d9595a000d4c7bf3739",
+      "titleInfo": [
+        {
+          "title": "Maltahöhe - Helmeringhausen"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-000e"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf373a",
+      "titleInfo": [
+        {
+          "title": "Helmeringhausen - Rosh Pinah - Karasburg"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-000f"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf3741",
+      "titleInfo": [
+        {
+          "title": "Brukkaros"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-0016"
+    }
+  ]
+}

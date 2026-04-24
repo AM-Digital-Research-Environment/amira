@@ -1,0 +1,417 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "namibia",
+    "name": "Namibia",
+    "count": 42
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 20
+    },
+    {
+      "year": 2021,
+      "count": 15
+    },
+    {
+      "year": 2022,
+      "count": 7
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 20,
+      "byType": {
+        "Collection": 19,
+        "Bibliography": 1
+      }
+    },
+    {
+      "year": 2021,
+      "total": 15,
+      "byType": {
+        "Collection": 15
+      }
+    },
+    {
+      "year": 2022,
+      "total": 7,
+      "byType": {
+        "Text": 2,
+        "Collection": 5
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Collection",
+      "value": 39
+    },
+    {
+      "name": "Text",
+      "value": 2
+    },
+    {
+      "name": "Bibliography",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    },
+    {
+      "name": "Herero",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Agriculture",
+      "value": 38
+    },
+    {
+      "name": "Karakul sheep",
+      "value": 38
+    },
+    {
+      "name": "Karakul sheep industry",
+      "value": 38
+    },
+    {
+      "name": "Colonisation",
+      "value": 35
+    },
+    {
+      "name": "Postcolonialism",
+      "value": 34
+    },
+    {
+      "name": "South Africa",
+      "value": 34
+    },
+    {
+      "name": "History",
+      "value": 17
+    },
+    {
+      "name": "Breeding",
+      "value": 12
+    },
+    {
+      "name": "Agricultural laborers",
+      "value": 10
+    },
+    {
+      "name": "Management",
+      "value": 8
+    },
+    {
+      "name": "Sheep-shearing",
+      "value": 7
+    },
+    {
+      "name": "Herding",
+      "value": 7
+    },
+    {
+      "name": "Droughts",
+      "value": 4
+    },
+    {
+      "name": "Education",
+      "value": 4
+    },
+    {
+      "name": "Landscapes",
+      "value": 3
+    },
+    {
+      "name": "Arid regions",
+      "value": 2
+    },
+    {
+      "name": "Tourism",
+      "value": 2
+    },
+    {
+      "name": "COVID-19 (Disease)",
+      "value": 2
+    },
+    {
+      "name": "Vaccination",
+      "value": 1
+    },
+    {
+      "name": "Religious leaders",
+      "value": 1
+    },
+    {
+      "name": "Mass media",
+      "value": 1
+    },
+    {
+      "name": "Households",
+      "value": 1
+    },
+    {
+      "name": "Community-based conservation",
+      "value": 1
+    },
+    {
+      "name": "Travel",
+      "value": 1
+    },
+    {
+      "name": "Government",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Namibia",
+      "value": 40
+    },
+    {
+      "name": "Agriculture",
+      "value": 38
+    },
+    {
+      "name": "Karakul sheep",
+      "value": 38
+    },
+    {
+      "name": "Karakul sheep industry",
+      "value": 38
+    },
+    {
+      "name": "Germany",
+      "value": 37
+    },
+    {
+      "name": "Karakul Farming",
+      "value": 36
+    },
+    {
+      "name": "Colonisation",
+      "value": 35
+    },
+    {
+      "name": "German Colonialism",
+      "value": 35
+    },
+    {
+      "name": "Postcolonialism",
+      "value": 34
+    },
+    {
+      "name": "South Africa",
+      "value": 34
+    },
+    {
+      "name": "Swakara",
+      "value": 34
+    },
+    {
+      "name": "Karakul Circulations",
+      "value": 34
+    },
+    {
+      "name": "Colonial Economies",
+      "value": 34
+    },
+    {
+      "name": "Colonial South-West Africa",
+      "value": 34
+    },
+    {
+      "name": "History",
+      "value": 17
+    },
+    {
+      "name": "Breeding",
+      "value": 12
+    },
+    {
+      "name": "Agricultural laborers",
+      "value": 10
+    },
+    {
+      "name": "Management",
+      "value": 8
+    },
+    {
+      "name": "Sheep-shearing",
+      "value": 7
+    },
+    {
+      "name": "Herding",
+      "value": 7
+    },
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 4
+    },
+    {
+      "name": "Droughts",
+      "value": 4
+    },
+    {
+      "name": "Education",
+      "value": 4
+    },
+    {
+      "name": "Landscapes",
+      "value": 3
+    },
+    {
+      "name": "Arid regions",
+      "value": 2
+    },
+    {
+      "name": "Tourism",
+      "value": 2
+    },
+    {
+      "name": "Conservancy",
+      "value": 2
+    },
+    {
+      "name": "COVID-19 (Disease)",
+      "value": 2
+    },
+    {
+      "name": "COVID-19",
+      "value": 2
+    },
+    {
+      "name": "Vaccination",
+      "value": 1
+    },
+    {
+      "name": "Religious leaders",
+      "value": 1
+    },
+    {
+      "name": "Mass media",
+      "value": 1
+    },
+    {
+      "name": "Households",
+      "value": 1
+    },
+    {
+      "name": "Community-based conservation",
+      "value": 1
+    },
+    {
+      "name": "Livelihood",
+      "value": 1
+    },
+    {
+      "name": "Drylands",
+      "value": 1
+    },
+    {
+      "name": "Travel",
+      "value": 1
+    },
+    {
+      "name": "Government",
+      "value": 1
+    },
+    {
+      "name": "Pastoralist",
+      "value": 1
+    },
+    {
+      "name": "Lockdown",
+      "value": 1
+    },
+    {
+      "name": "Sociality",
+      "value": 1
+    },
+    {
+      "name": "Mobility",
+      "value": 1
+    },
+    {
+      "name": "Fieldwork",
+      "value": 1
+    },
+    {
+      "name": "Sustainability",
+      "value": 1
+    },
+    {
+      "name": "Archival materials",
+      "value": 1
+    },
+    {
+      "name": "Apartheid",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Schaumann, Eleanor",
+      "value": 38
+    },
+    {
+      "name": "Heita, Jona",
+      "value": 3
+    },
+    {
+      "name": "Gargallo, Eduard",
+      "value": 2
+    },
+    {
+      "name": "Kronenburg García, Angela",
+      "value": 2
+    },
+    {
+      "name": "Roque de Pinho, Joana",
+      "value": 2
+    },
+    {
+      "name": "Hashimshony Yaffe, Nurit",
+      "value": 2
+    },
+    {
+      "name": "Goldman, Mara",
+      "value": 1
+    },
+    {
+      "name": "Samimi, Cyrus",
+      "value": 1
+    },
+    {
+      "name": "Kaisuma, Steve",
+      "value": 1
+    },
+    {
+      "name": "Behrends, Andrea",
+      "value": 1
+    },
+    {
+      "name": "Pase, Andrea",
+      "value": 1
+    },
+    {
+      "name": "Bautdinova, Iuliia",
+      "value": 1
+    },
+    {
+      "name": "Biwa, Memory",
+      "value": 1
+    },
+    {
+      "name": "Swakara Board of Namibia",
+      "value": 1
+    }
+  ]
+}

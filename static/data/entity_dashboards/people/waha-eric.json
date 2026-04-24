@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "waha-eric",
+    "name": "Waha, Eric",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2017,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 2020,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "History",
+      "value": 1
+    },
+    {
+      "name": "National socialism",
+      "value": 1
+    },
+    {
+      "name": "Culture",
+      "value": 1
+    },
+    {
+      "name": "Racism",
+      "value": 1
+    },
+    {
+      "name": "Postcolonialism",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Memory Culture",
+      "value": 2
+    },
+    {
+      "name": "Bayreuth",
+      "value": 2
+    },
+    {
+      "name": "History",
+      "value": 1
+    },
+    {
+      "name": "National socialism",
+      "value": 1
+    },
+    {
+      "name": "Race Theory",
+      "value": 1
+    },
+    {
+      "name": "Heimatgeschichte",
+      "value": 1
+    },
+    {
+      "name": "Houston Stewart Chamberlain",
+      "value": 1
+    },
+    {
+      "name": "Culture",
+      "value": 1
+    },
+    {
+      "name": "Racism",
+      "value": 1
+    },
+    {
+      "name": "Postcolonialism",
+      "value": 1
+    },
+    {
+      "name": "Daily Racism",
+      "value": 1
+    },
+    {
+      "name": "Local Press",
+      "value": 1
+    },
+    {
+      "name": "Cultural Heritage",
+      "value": 1
+    },
+    {
+      "name": "Tradition",
+      "value": 1
+    },
+    {
+      "name": "Language",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "692db49707481a28c72155b3",
+      "titleInfo": [
+        {
+          "title": "Bayreuth stellt sich der Geschichte"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-000b"
+    },
+    {
+      "_id": "692db49707481a28c72155c1",
+      "titleInfo": [
+        {
+          "title": "Institution der Nacht: Die Mohre lebt"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0019"
+    }
+  ]
+}

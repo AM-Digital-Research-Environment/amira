@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "baronga",
+    "name": "Baronga",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2015,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2015,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Tales",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Tales",
+      "value": 1
+    },
+    {
+      "name": "African Folktales",
+      "value": 1
+    },
+    {
+      "name": "Folktales",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Radin, Paul",
+      "value": 1
+    },
+    {
+      "name": "Princeton University Press",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "United States of America",
+      "region": "New Jersey",
+      "city": "Princeton",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a8ab2c85fe8df87166",
+      "titleInfo": [
+        {
+          "title": "The Wonder-Worker of the Plains"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-006f"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "industriemuseum-bayreuth",
+    "name": "Industriemuseum Bayreuth",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2023,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2023,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "International trade",
+      "value": 1
+    },
+    {
+      "name": "Cotton",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "International trade",
+      "value": 1
+    },
+    {
+      "name": "Cotton",
+      "value": 1
+    },
+    {
+      "name": "Global History",
+      "value": 1
+    },
+    {
+      "name": "Bayreuth",
+      "value": 1
+    },
+    {
+      "name": "Colonialism",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Eschenbacher, Ute",
+      "value": 1
+    },
+    {
+      "name": "Unterburger, Florian",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "692db49707481a28c72155a9",
+      "titleInfo": [
+        {
+          "title": "Baumwollspinnerei: Gründung mit Kolonialkapital"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0001"
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "coburger-carla",
+    "name": "Coburger, Carla",
+    "count": 8
+  },
+  "timeline": [
+    {
+      "year": 2022,
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "count": 6
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2022,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 2023,
+      "total": 6,
+      "byType": {
+        "Image": 1,
+        "Text": 5
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 7
+    },
+    {
+      "name": "Image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 8
+    }
+  ],
+  "subjects": [
+    {
+      "name": "West Africa",
+      "value": 8
+    },
+    {
+      "name": "Exports",
+      "value": 2
+    },
+    {
+      "name": "Finance",
+      "value": 2
+    },
+    {
+      "name": "Interviews",
+      "value": 1
+    },
+    {
+      "name": "Interest rates",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "West Africa",
+      "value": 8
+    },
+    {
+      "name": "Nigeria",
+      "value": 8
+    },
+    {
+      "name": "Currency",
+      "value": 5
+    },
+    {
+      "name": "Naira",
+      "value": 3
+    },
+    {
+      "name": "Exports",
+      "value": 2
+    },
+    {
+      "name": "Old Naira",
+      "value": 2
+    },
+    {
+      "name": "Finance",
+      "value": 2
+    },
+    {
+      "name": "Ghana",
+      "value": 2
+    },
+    {
+      "name": "Interviews",
+      "value": 1
+    },
+    {
+      "name": "Political Economy",
+      "value": 1
+    },
+    {
+      "name": "Central Bank",
+      "value": 1
+    },
+    {
+      "name": "Gold",
+      "value": 1
+    },
+    {
+      "name": "Interest rates",
+      "value": 1
+    },
+    {
+      "name": "Senegal",
+      "value": 1
+    },
+    {
+      "name": "Government Expenditure",
+      "value": 1
+    },
+    {
+      "name": "Government Budget",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "Nigeria",
+      "region": "",
+      "city": "",
+      "count": 8
+    }
+  ],
+  "items": [
+    {
+      "_id": "674dba652e70d1e383d18ae3",
+      "titleInfo": [
+        {
+          "title": "Selected pages from the Red Book of West Africa: Nigeria's Principal Exports 1900-1918"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0000"
+    },
+    {
+      "_id": "674dba652e70d1e383d18ae4",
+      "titleInfo": [
+        {
+          "title": "Selected pages from Sven-Olof John's Nigerian currencies: Manillas cowries and others"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0001"
+    },
+    {
+      "_id": "674dba652e70d1e383d18ae5",
+      "titleInfo": [
+        {
+          "title": "Sample old Nigerian Naira currencies"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0002"
+    },
+    {
+      "_id": "674dba652e70d1e383d18ae6",
+      "titleInfo": [
+        {
+          "title": "Interviews on Nigerian finance and broader political economy"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0003"
+    },
+    {
+      "_id": "674dba652e70d1e383d18ae7",
+      "titleInfo": [
+        {
+          "title": "Formation of the Central Bank of Nigeria"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0004"
+    },
+    {
+      "_id": "674dba652e70d1e383d18af8",
+      "titleInfo": [
+        {
+          "title": "Gold Exports, Nigeria"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0015"
+    },
+    {
+      "_id": "674dba652e70d1e383d18af9",
+      "titleInfo": [
+        {
+          "title": "Curencies, Nigeria"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0016"
+    },
+    {
+      "_id": "674dba652e70d1e383d18afa",
+      "titleInfo": [
+        {
+          "title": "Curencies, Nigeria"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0017"
+    }
+  ]
+}

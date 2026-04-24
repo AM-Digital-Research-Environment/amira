@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "van-heerden-rick",
+    "name": "van Heerden, Rick",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1999,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1999,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ec7a",
+      "titleInfo": [
+        {
+          "title": "THINKING IN JAZZ: THE INFINITE ART OF IMPROVISATION, by Paul Berliner, Chicago Studies in Ethnomusicology, University of Chicago Press, 1994, pp. 883 (music texts 250pp)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0295"
+    }
+  ]
+}

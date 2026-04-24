@@ -1,0 +1,1014 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "exhibitions",
+    "name": "Exhibitions",
+    "count": 31
+  },
+  "timeline": [
+    {
+      "year": 1961,
+      "count": 3
+    },
+    {
+      "year": 1962,
+      "count": 3
+    },
+    {
+      "year": 1969,
+      "count": 1
+    },
+    {
+      "year": 1980,
+      "count": 3
+    },
+    {
+      "year": 1981,
+      "count": 2
+    },
+    {
+      "year": 1995,
+      "count": 2
+    },
+    {
+      "year": 2013,
+      "count": 3
+    },
+    {
+      "year": 2015,
+      "count": 2
+    },
+    {
+      "year": 2016,
+      "count": 3
+    },
+    {
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1961,
+      "total": 3,
+      "byType": {
+        "Image": 3
+      }
+    },
+    {
+      "year": 1962,
+      "total": 3,
+      "byType": {
+        "Image": 3
+      }
+    },
+    {
+      "year": 1969,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 1980,
+      "total": 3,
+      "byType": {
+        "Image": 3
+      }
+    },
+    {
+      "year": 1981,
+      "total": 2,
+      "byType": {
+        "Image": 2
+      }
+    },
+    {
+      "year": 1995,
+      "total": 2,
+      "byType": {
+        "Image": 2
+      }
+    },
+    {
+      "year": 2013,
+      "total": 3,
+      "byType": {
+        "Image": 3
+      }
+    },
+    {
+      "year": 2015,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 2016,
+      "total": 3,
+      "byType": {
+        "Audio": 1,
+        "Image": 2
+      }
+    },
+    {
+      "year": 2017,
+      "total": 1,
+      "byType": {
+        "Audio": 1
+      }
+    },
+    {
+      "year": 2019,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 25
+    },
+    {
+      "name": "Text",
+      "value": 4
+    },
+    {
+      "name": "Audio",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 22
+    },
+    {
+      "name": "German",
+      "value": 5
+    },
+    {
+      "name": "Turkish",
+      "value": 1
+    },
+    {
+      "name": "Igbo",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Art",
+      "value": 28
+    },
+    {
+      "name": "Africa",
+      "value": 25
+    },
+    {
+      "name": "Painting",
+      "value": 18
+    },
+    {
+      "name": "Artists",
+      "value": 18
+    },
+    {
+      "name": "Photographs",
+      "value": 9
+    },
+    {
+      "name": "Newspapers",
+      "value": 6
+    },
+    {
+      "name": "Albums",
+      "value": 5
+    },
+    {
+      "name": "Interior decoration",
+      "value": 3
+    },
+    {
+      "name": "Museums",
+      "value": 3
+    },
+    {
+      "name": "Archives",
+      "value": 2
+    },
+    {
+      "name": "Invitation cards",
+      "value": 2
+    },
+    {
+      "name": "Yoruba (African people)--Religion",
+      "value": 2
+    },
+    {
+      "name": "Interviews",
+      "value": 2
+    },
+    {
+      "name": "Art historians",
+      "value": 1
+    },
+    {
+      "name": "Painters",
+      "value": 1
+    },
+    {
+      "name": "Leopard",
+      "value": 1
+    },
+    {
+      "name": "Hausa (African people)",
+      "value": 1
+    },
+    {
+      "name": "Dolls",
+      "value": 1
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Art Exhibition",
+      "value": 31
+    },
+    {
+      "name": "Art",
+      "value": 28
+    },
+    {
+      "name": "Cultural Centre",
+      "value": 26
+    },
+    {
+      "name": "Africa",
+      "value": 25
+    },
+    {
+      "name": "Performing Arts Center",
+      "value": 25
+    },
+    {
+      "name": "Painting",
+      "value": 18
+    },
+    {
+      "name": "Artists",
+      "value": 18
+    },
+    {
+      "name": "Art Collector",
+      "value": 14
+    },
+    {
+      "name": "Art Collecting",
+      "value": 14
+    },
+    {
+      "name": "Nigeria",
+      "value": 13
+    },
+    {
+      "name": "Photographs",
+      "value": 9
+    },
+    {
+      "name": "Iwalewahaus",
+      "value": 8
+    },
+    {
+      "name": "Newspapers",
+      "value": 6
+    },
+    {
+      "name": "Newspaper Article",
+      "value": 6
+    },
+    {
+      "name": "Albums",
+      "value": 5
+    },
+    {
+      "name": "Ibadan",
+      "value": 5
+    },
+    {
+      "name": "The Mbari Club",
+      "value": 5
+    },
+    {
+      "name": "Osogbo",
+      "value": 4
+    },
+    {
+      "name": "Mainz",
+      "value": 4
+    },
+    {
+      "name": "Email",
+      "value": 4
+    },
+    {
+      "name": "Flyer",
+      "value": 3
+    },
+    {
+      "name": "Invitation",
+      "value": 3
+    },
+    {
+      "name": "Modern African Art",
+      "value": 3
+    },
+    {
+      "name": "Interior decoration",
+      "value": 3
+    },
+    {
+      "name": "Museums",
+      "value": 3
+    },
+    {
+      "name": "Ataoja",
+      "value": 3
+    },
+    {
+      "name": "Yoruba Art",
+      "value": 3
+    },
+    {
+      "name": "Archives",
+      "value": 2
+    },
+    {
+      "name": "Invitation cards",
+      "value": 2
+    },
+    {
+      "name": "Yoruba (African people)--Religion",
+      "value": 2
+    },
+    {
+      "name": "Yoruba Priest",
+      "value": 2
+    },
+    {
+      "name": "Interviews",
+      "value": 2
+    },
+    {
+      "name": "Art historians",
+      "value": 1
+    },
+    {
+      "name": "Painters",
+      "value": 1
+    },
+    {
+      "name": "Site Plan",
+      "value": 1
+    },
+    {
+      "name": "Folk Art",
+      "value": 1
+    },
+    {
+      "name": "Mbari Mbayo Club",
+      "value": 1
+    },
+    {
+      "name": "Allgemeine Zeitung",
+      "value": 1
+    },
+    {
+      "name": "Leopard",
+      "value": 1
+    },
+    {
+      "name": "Hausa (African people)",
+      "value": 1
+    },
+    {
+      "name": "Dolls",
+      "value": 1
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Frankenpost",
+      "value": 1
+    },
+    {
+      "name": "Nordbayerischer Kurier",
+      "value": 1
+    },
+    {
+      "name": "Papua New Guinea",
+      "value": 1
+    },
+    {
+      "name": "New Guinea",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "New Zeland",
+      "value": 1
+    },
+    {
+      "name": "Mbari Mbayo",
+      "value": 1
+    },
+    {
+      "name": "Mbari Mayo Club",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Greven, Katharina",
+      "value": 29
+    },
+    {
+      "name": "Beier, Ulli",
+      "value": 23
+    },
+    {
+      "name": "Beier, Georgina",
+      "value": 8
+    },
+    {
+      "name": "Akis, Timothy",
+      "value": 3
+    },
+    {
+      "name": "Benz, Klaus",
+      "value": 2
+    },
+    {
+      "name": "Sédar Senghor, Leopold",
+      "value": 2
+    },
+    {
+      "name": "Oyelami, Muraina",
+      "value": 2
+    },
+    {
+      "name": "Pomar, Alexandre",
+      "value": 2
+    },
+    {
+      "name": "Rossem, Ru van",
+      "value": 1
+    },
+    {
+      "name": "Ladipo, Duro",
+      "value": 1
+    },
+    {
+      "name": "Idah, Ovia",
+      "value": 1
+    },
+    {
+      "name": "Woldert, Siegfried",
+      "value": 1
+    },
+    {
+      "name": "Bulmer, Ralph",
+      "value": 1
+    },
+    {
+      "name": "Gunther, John",
+      "value": 1
+    },
+    {
+      "name": "Bender, Wolfgang",
+      "value": 1
+    },
+    {
+      "name": "Salmanian, Siegrun",
+      "value": 1
+    },
+    {
+      "name": "Naumann, Lena",
+      "value": 1
+    },
+    {
+      "name": "Kauage, Mathias",
+      "value": 1
+    },
+    {
+      "name": "Abiodun, Rowland",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 11
+    },
+    {
+      "country": "Nigeria",
+      "region": "Oyo State",
+      "city": "Ibadan",
+      "count": 5
+    },
+    {
+      "country": "Nigeria",
+      "region": "Osun State",
+      "city": "Osogbo",
+      "count": 4
+    },
+    {
+      "country": "Germany",
+      "region": "Rhineland-Palatinate",
+      "city": "Mainz",
+      "count": 4
+    },
+    {
+      "country": "Australia",
+      "region": "",
+      "city": "",
+      "count": 3
+    },
+    {
+      "country": "Germany",
+      "region": "Thuringia",
+      "city": "Erfurt",
+      "count": 2
+    },
+    {
+      "country": "Papua New Guinea",
+      "region": "National Capital District",
+      "city": "Port Moresby",
+      "count": 1
+    },
+    {
+      "country": "Germany",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b490",
+      "titleInfo": [
+        {
+          "title": "Aufgeklebte Zeitungsartikel und Ausstellungsflyer"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0008"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b492",
+      "titleInfo": [
+        {
+          "title": "Albumseite mit Zeitungsartikel, Ausstellungsflyer und Fotografien des Iwalewahaus aufgeklebt"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-000a"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4a6",
+      "titleInfo": [
+        {
+          "title": "Einladungskarte für Georgina Beiers Ausstellung in Ibadan"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-001e"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4a8",
+      "titleInfo": [
+        {
+          "title": "Einladung zur Eröffnung des Mbari Artists and Writers Club"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0020"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4a9",
+      "titleInfo": [
+        {
+          "title": "Lageplan zur Eröffnung des Mbari Artists and Writers Club 1961"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0021"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4aa",
+      "titleInfo": [
+        {
+          "title": "Einladung zur Eröffnung der Ausstellung von Ru van Rossem 1961 in Ibadan"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0022"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4ab",
+      "titleInfo": [
+        {
+          "title": "Einladung zur Eröffnung der Ausstellung von Nigerian Folk Art 1962"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0023"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4ac",
+      "titleInfo": [
+        {
+          "title": "Aufnahme von Duro Ladipo in einer Gruppe von Menschen während der Eröffnung des Mbari Mbayo Club in Osogbo"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0024"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4af",
+      "titleInfo": [
+        {
+          "title": "Ulli Beier und Léopold Sédar Senghor in der Ausstellung Neue Kunst in Afrika in Mainz"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0027"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4b0",
+      "titleInfo": [
+        {
+          "title": "Innenaufnahme eines Raumes der Ausstellung Neue Kunst in Afrika in Mainz"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0028"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4b1",
+      "titleInfo": [
+        {
+          "title": "Ulli Beier und Léopold Sédar Senghor in der Ausstellung Neue Kunst in Afrika in Mainz"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0029"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4b2",
+      "titleInfo": [
+        {
+          "title": "Zeitungsartikel über Léopold Sédar Senghors Besuch in Mainz von 1980.In einem Album, in dem Zeitungsartikel und Ausstellungsflyer aufgeklebt sind"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-002a"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4b5",
+      "titleInfo": [
+        {
+          "title": "Innenansicht des Museum of Popular Art im Palast des Ataoja in Osogbo"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-002d"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4b6",
+      "titleInfo": [
+        {
+          "title": "Innenansicht des Museum of Popular Art im Palast des Ataoja in Osogbo"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-002e"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4b7",
+      "titleInfo": [
+        {
+          "title": "Einladungskarte für das Museum of Popular Art im Palast des Ataoja in Osogbo, auch Osogbo Museum genannt"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-002f"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4b8",
+      "titleInfo": [
+        {
+          "title": "Ulli Beier in der Ausstellung Das Gesicht der Götter, die letzte Generation von Yoruba Priestern"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0030"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4b9",
+      "titleInfo": [
+        {
+          "title": "Rückseite Ulli Beier in der Ausstellung Das Gesicht der Götter, die letzte Generation von Yoruba Priestern"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0031"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4ba",
+      "titleInfo": [
+        {
+          "title": "Außenansicht des Iwalewahaus, Bayreuth, Deutschland"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0032"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4bb",
+      "titleInfo": [
+        {
+          "title": "Seite eines Albums, in dem Zeitungsartikel über das Iwalewahaus aufgeklebt sind und Fotografien der Veranstaltungen"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0033"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4bc",
+      "titleInfo": [
+        {
+          "title": "Seite eines Albums, in dem Zeitungsartikel über das Iwalewahaus aufgeklebt sind und Fotografien der Veranstaltungen"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0034"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4bd",
+      "titleInfo": [
+        {
+          "title": "Seite eines Albums, in dem Zeitungsartikel über das Iwalewahaus aufgeklebt sind und Fotografien der Veranstaltungen"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0035"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4c8",
+      "titleInfo": [
+        {
+          "title": "Timothy Akis bei der Eröffnung seiner ersten Ausstellung im Jahr 1969. Mit Prof. Ralph Bulmer (links) und Dr. John Gunther"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0040"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4e9",
+      "titleInfo": [
+        {
+          "title": "Außenansicht des Iwalewahaus"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0061"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b504",
+      "titleInfo": [
+        {
+          "title": "Interview mit Wolfgang Bender"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-007c"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b505",
+      "titleInfo": [
+        {
+          "title": "Interview mit Muraina Oyelami, Siegrun Salmanian und Lena Naumann"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-007d"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b507",
+      "titleInfo": [
+        {
+          "title": "Email von Georgina Beier"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-007f"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b508",
+      "titleInfo": [
+        {
+          "title": "Email von Georgina Beier"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0080"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b511",
+      "titleInfo": [
+        {
+          "title": "Email von Georgina Beier"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0089"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b512",
+      "titleInfo": [
+        {
+          "title": "E-Mail-Austausch zwischen Alexandre Pomar und Katharina Greven"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-008a"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b515",
+      "titleInfo": [
+        {
+          "title": "Aufnahme der Ausstellung Existential Phantasies - The Monkey on your Shoulder im Iwalewahaus"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-008d"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b516",
+      "titleInfo": [
+        {
+          "title": "Aufnahme der Ausstellung Existential Phantasies - The Monkey on your Shoulder im Iwalewahaus"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-008e"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "goddard-college",
+    "name": "Goddard College",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1972,
+      "count": 1
+    },
+    {
+      "year": 2008,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1972,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2008,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "United States",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Murphy, Dennis",
+      "value": 1
+    },
+    {
+      "name": "Forss, Matt",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ebaa",
+      "titleInfo": [
+        {
+          "title": "The Americanization of three African musical instruments"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01c5"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eca1",
+      "titleInfo": [
+        {
+          "title": "African Music. Sandtracks. 2007. Tiris; produced and arranged by Kad and Momo Hafsi. Sandblast Arts. SBCD001. One compact disc. Liner notes in English by Garth Cartwright, with photography by Rif Spahni and Simon Thorpe."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02bc"
+    }
+  ]
+}

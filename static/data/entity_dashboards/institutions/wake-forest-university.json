@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "wake-forest-university",
+    "name": "Wake Forest University",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2016,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2016,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Colonisation",
+      "value": 1
+    },
+    {
+      "name": "Archives",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Colonisation",
+      "value": 1
+    },
+    {
+      "name": "Archives",
+      "value": 1
+    },
+    {
+      "name": "Colonial Office",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    },
+    {
+      "name": "Great Britain",
+      "value": 1
+    },
+    {
+      "name": "Ghana",
+      "value": 1
+    },
+    {
+      "name": "Accra",
+      "value": 1
+    },
+    {
+      "name": "Colonial Archives",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Plageman, Nate",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ed76",
+      "titleInfo": [
+        {
+          "title": "FAILED SHOWCASE OF EMPIRE?: THE GOLD COAST POLICE BAND, COLONIAL RECORD KEEPING, AND A 1947 TOUR OF GREAT BRITAIN"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0391"
+    }
+  ]
+}

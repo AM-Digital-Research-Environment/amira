@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "dor-george-worlasi-kwasi",
+    "name": "Dor, George Worlasi Kwasi",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2010,
+      "count": 1
+    },
+    {
+      "year": 2014,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2010,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2014,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Ghana",
+      "value": 1
+    },
+    {
+      "name": "Traditional Knowledge",
+      "value": 1
+    },
+    {
+      "name": "Wisdom",
+      "value": 1
+    },
+    {
+      "name": "Artistry",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ecd8",
+      "titleInfo": [
+        {
+          "title": "Life is short, art and scholarship are long: a tribute in memory of Professor Willie Oscar Anku."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02f3"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed46",
+      "titleInfo": [
+        {
+          "title": "Ephraim Amu's \"Bonwere KenteÅ‹wene\": a celebration of Ghanaian traditional knowledge, wisdom, and artistry"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0361"
+    }
+  ]
+}

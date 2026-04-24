@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "benin",
+    "name": "Benin",
+    "count": 314
+  },
+  "timeline": [
+    {
+      "year": 2019,
+      "count": 292
+    },
+    {
+      "year": 2022,
+      "count": 22
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2019,
+      "total": 292,
+      "byType": {
+        "Dataset": 41,
+        "Image": 250,
+        "Text": 1
+      }
+    },
+    {
+      "year": 2022,
+      "total": 22,
+      "byType": {
+        "Text": 22
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 250
+    },
+    {
+      "name": "Dataset",
+      "value": 41
+    },
+    {
+      "name": "Text",
+      "value": 23
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 258
+    },
+    {
+      "name": "English",
+      "value": 57
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Youth",
+      "value": 292
+    },
+    {
+      "name": "Learning",
+      "value": 292
+    },
+    {
+      "name": "Literacy",
+      "value": 22
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Youth",
+      "value": 292
+    },
+    {
+      "name": "Learning",
+      "value": 292
+    },
+    {
+      "name": "Literacy",
+      "value": 22
+    },
+    {
+      "name": "Interaction",
+      "value": 22
+    },
+    {
+      "name": "Illiteracy",
+      "value": 22
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tamou, Issa",
+      "value": 292
+    },
+    {
+      "name": "Abou Moumouni, Issifou",
+      "value": 22
+    }
+  ]
+}

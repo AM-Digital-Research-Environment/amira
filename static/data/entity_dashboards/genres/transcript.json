@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "type": "genre",
+    "id": "transcript",
+    "name": "Transcript",
+    "count": 1
+  },
+  "timeline": [],
+  "stackedTimeline": [],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Archives",
+      "value": 1
+    },
+    {
+      "name": "Books",
+      "value": 1
+    },
+    {
+      "name": "Transcription",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Archives",
+      "value": 1
+    },
+    {
+      "name": "Books",
+      "value": 1
+    },
+    {
+      "name": "Transcription",
+      "value": 1
+    },
+    {
+      "name": "National Archives",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Beier, Ulli",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Australia",
+      "region": "Australian Capital Territory",
+      "city": "Canberra",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b489",
+      "titleInfo": [
+        {
+          "title": "Abschrift von das Buch: Leopold Sedar Senghor (befindet sich in die National Archives, Canberra)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-99-0001"
+    }
+  ]
+}

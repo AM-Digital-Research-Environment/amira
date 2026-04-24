@@ -6,25 +6,30 @@
 		CardTitle,
 		CardContent,
 		Badge,
-		Input,
-		Pagination,
 		BackToList,
-		CollectionItemRow,
 		Combobox,
 		SEO,
 		SectionBadge,
-		EmptyState,
 		WissKILink
 	} from '$lib/components/ui';
 	import {
 		EntityCard,
 		EntityBrowseGrid,
 		EntityToolbar,
+		SearchableItemsCard,
 		applyEntitySort,
 		type EntitySort
 	} from '$lib/components/entity-browse';
-	import { projects, allCollections, researchSections, persons } from '$lib/stores/data';
+	import {
+		projects,
+		allCollections,
+		researchSections,
+		persons,
+		ensureCollections
+	} from '$lib/stores/data';
 	import { page } from '$app/stores';
+	import { base } from '$app/paths';
+	import { createEntityDetailState } from '$lib/utils/loaders';
 	import {
 		researchSectionsUrl,
 		projectUrl,
@@ -36,10 +41,9 @@
 	} from '$lib/utils/urls';
 	import { createUrlSelection, scrollToTop } from '$lib/utils/urlSelection';
 	import type { Project, CollectionItem } from '$lib/types';
-	import { formatDate, getProjectTitle, getItemTitle } from '$lib/utils/helpers';
+	import { formatDate, getProjectTitle } from '$lib/utils/helpers';
 	import { languageName } from '$lib/utils/languages';
 	import { createSearchFilter } from '$lib/utils/search';
-	import { paginate } from '$lib/utils/pagination';
 	import {
 		Users,
 		Briefcase,
@@ -50,19 +54,14 @@
 		Languages,
 		Layers,
 		UserCheck,
-		ExternalLink,
-		ArrowUpDown,
-		Search
+		ExternalLink
 	} from '@lucide/svelte';
 	import { formatDateInfo } from '$lib/components/research-items/itemHelpers';
 	import { SvelteMap, SvelteSet } from 'svelte/reactivity';
 	import { getWisskiUrl, loadWisskiUrls } from '$lib/utils/wisskiUrl.svelte';
 	import { onMount } from 'svelte';
 	import { EntityKnowledgeGraph } from '$lib/components/charts';
-
-	onMount(() => {
-		void loadWisskiUrls('persons');
-	});
+	import { EntityDashboardSection } from '$lib/components/dashboards';
 
 	const urlSelection = createUrlSelection('name');
 
@@ -73,6 +72,17 @@
 	let selectedAffiliation = $state('');
 
 	let selectedName = $derived($page.url.searchParams.get('name') ?? '');
+
+	const detail = createEntityDetailState('person', () => selectedName);
+
+	onMount(() => {
+		void loadWisskiUrls('persons');
+		if (!selectedName) void ensureCollections(base);
+	});
+
+	$effect(() => {
+		if (!selectedName) void ensureCollections(base);
+	});
 
 	interface PersonData {
 		name: string;
@@ -273,101 +283,44 @@
 
 	let noDataCount = $derived(people.filter((p) => !personHasData(p)).length);
 
-	let selectedPerson = $derived(selectedName ? peopleMap.get(selectedName) || null : null);
+	let selectedPerson = $derived.by((): PersonData | null => {
+		if (!selectedName) return null;
+		const live = peopleMap.get(selectedName);
+		if (live) return live;
+		// Fallback when collections + people aren't yet loaded: synthesise a
+		// shell PersonData from the per-entity JSON so the header + items
+		// card can render immediately on direct detail-URL navigation.
+		if (detail.data?.meta) {
+			return {
+				name: detail.data.meta.name ?? selectedName,
+				count: detail.data.meta.count ?? 0,
+				piOf: [],
+				memberOf: [],
+				sections: new SvelteSet(),
+				piOfSections: new SvelteSet(),
+				spokespersonOfSections: new SvelteSet(),
+				affiliations: new SvelteSet(),
+				isSectionPI: false,
+				isSectionSpokesperson: false,
+				itemCount: detail.data.meta.count ?? 0
+			};
+		}
+		return null;
+	});
 
 	let personCollectionItems = $derived.by((): CollectionItem[] => {
 		if (!selectedPerson) return [];
+		// Prefer precomputed items so direct detail-URL navigation doesn't
+		// need the 13 MB collections dump. Fall back to the live filter once
+		// $allCollections has loaded (e.g. via Back to list).
+		if (detail.items.length > 0) return detail.items;
 		const name = selectedPerson.name;
 		return $allCollections.filter(
 			(item) => Array.isArray(item.name) && item.name.some((n) => n?.name?.label === name)
 		);
 	});
 
-	let itemSearchQuery = $state('');
-	let itemTypeFilter = $state('');
-	let itemSortBy = $state<'title' | 'date' | 'type'>('title');
-	let itemSortAsc = $state(true);
-
-	let itemResourceTypes = $derived.by(() => {
-		const types = new SvelteSet<string>();
-		personCollectionItems.forEach((item) => {
-			if (item.typeOfResource) types.add(item.typeOfResource);
-		});
-		return Array.from(types).sort();
-	});
-
-	let filteredCollectionItems = $derived.by((): CollectionItem[] => {
-		let items = personCollectionItems;
-
-		if (itemSearchQuery) {
-			const q = itemSearchQuery.toLowerCase();
-			items = items.filter(
-				(item) =>
-					getItemTitle(item).toLowerCase().includes(q) ||
-					item.typeOfResource?.toLowerCase().includes(q) ||
-					item.language?.some((l) => languageName(l).toLowerCase().includes(q))
-			);
-		}
-
-		if (itemTypeFilter) {
-			items = items.filter((item) => item.typeOfResource === itemTypeFilter);
-		}
-
-		items = [...items].sort((a, b) => {
-			let cmp = 0;
-			if (itemSortBy === 'title') {
-				cmp = getItemTitle(a).localeCompare(getItemTitle(b));
-			} else if (itemSortBy === 'type') {
-				cmp = (a.typeOfResource || '').localeCompare(b.typeOfResource || '');
-			} else if (itemSortBy === 'date') {
-				const getTime = (item: CollectionItem) => {
-					const d =
-						item.dateInfo?.issue?.start ||
-						item.dateInfo?.created?.start ||
-						item.dateInfo?.captured?.start ||
-						item.dateInfo?.other?.start;
-					return d ? new Date(d).getTime() : 0;
-				};
-				cmp = getTime(a) - getTime(b);
-			}
-			if (cmp === 0 && itemSortBy !== 'title') {
-				cmp = getItemTitle(a).localeCompare(getItemTitle(b));
-			}
-			return itemSortAsc ? cmp : -cmp;
-		});
-
-		return items;
-	});
-
-	const collectionItemsPerPage = 10;
-	let collectionPage = $state(0);
-	let paginatedCollectionItems = $derived(
-		paginate(filteredCollectionItems, collectionPage, collectionItemsPerPage)
-	);
-
-	$effect(() => {
-		selectedName;
-		itemSearchQuery = '';
-		itemTypeFilter = '';
-		collectionPage = 0;
-	});
-
-	$effect(() => {
-		itemSearchQuery;
-		itemTypeFilter;
-		itemSortBy;
-		itemSortAsc;
-		collectionPage = 0;
-	});
-
-	function toggleItemSort(field: 'title' | 'date' | 'type') {
-		if (itemSortBy === field) {
-			itemSortAsc = !itemSortAsc;
-		} else {
-			itemSortBy = field;
-			itemSortAsc = true;
-		}
-	}
+	// Research-items filter/sort/pagination is owned by <SearchableItemsCard>.
 
 	function selectPerson(name: string) {
 		urlSelection.pushToUrl(name);
@@ -861,113 +814,26 @@
 			{/if}
 
 			{#if personCollectionItems.length > 0}
-				<Card class="overflow-hidden">
-					{#snippet children()}
-						<CardHeader>
-							{#snippet children()}
-								<CardTitle class="text-lg">
-									{#snippet children()}
-										<span class="flex items-center gap-2">
-											<FileText class="h-5 w-5 text-muted-foreground" />
-											Research Items
-											<Badge variant="secondary">
-												{#snippet children()}{filteredCollectionItems.length}{#if filteredCollectionItems.length !== personCollectionItems.length}
-														/ {personCollectionItems.length}{/if}{/snippet}
-											</Badge>
-										</span>
-									{/snippet}
-								</CardTitle>
-							{/snippet}
-						</CardHeader>
-						<CardContent>
-							{#snippet children()}
-								<div class="flex flex-col sm:flex-row gap-3 mb-4">
-									<div class="relative flex-1">
-										<Search
-											class="absolute left-2.5 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground"
-										/>
-										<Input
-											placeholder="Search items..."
-											bind:value={itemSearchQuery}
-											class="pl-9"
-										/>
-									</div>
-									<select
-										bind:value={itemTypeFilter}
-										class="h-9 rounded-md border border-input bg-background px-3 text-sm ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring"
-									>
-										<option value="">All types</option>
-										{#each itemResourceTypes as type (type)}
-											<option value={type}>{type}</option>
-										{/each}
-									</select>
-								</div>
-
-								<div class="flex items-center gap-1 mb-4 text-xs text-muted-foreground">
-									<ArrowUpDown class="h-3.5 w-3.5" />
-									<span>Sort by:</span>
-									<button
-										onclick={() => toggleItemSort('title')}
-										class="px-2 py-0.5 rounded transition-colors {itemSortBy === 'title'
-											? 'bg-primary/10 text-primary font-medium'
-											: 'hover:bg-muted'}"
-									>
-										Title {itemSortBy === 'title' ? (itemSortAsc ? '↑' : '↓') : ''}
-									</button>
-									<button
-										onclick={() => toggleItemSort('date')}
-										class="px-2 py-0.5 rounded transition-colors {itemSortBy === 'date'
-											? 'bg-primary/10 text-primary font-medium'
-											: 'hover:bg-muted'}"
-									>
-										Date {itemSortBy === 'date' ? (itemSortAsc ? '↑' : '↓') : ''}
-									</button>
-									<button
-										onclick={() => toggleItemSort('type')}
-										class="px-2 py-0.5 rounded transition-colors {itemSortBy === 'type'
-											? 'bg-primary/10 text-primary font-medium'
-											: 'hover:bg-muted'}"
-									>
-										Type {itemSortBy === 'type' ? (itemSortAsc ? '↑' : '↓') : ''}
-									</button>
-								</div>
-
-								{#if filteredCollectionItems.length === 0}
-									<EmptyState message="No items match your filters" icon={Search} />
-								{:else}
-									<ul class="space-y-2">
-										{#each paginatedCollectionItems as item (item._id || item.dre_id)}
-											<CollectionItemRow {item}>
-												{#snippet extraMetadata()}
-													{#if getPersonRole(item, selectedPerson.name)}
-														<Badge variant="outline" class="text-2xs">
-															{#snippet children()}{getPersonRole(
-																	item,
-																	selectedPerson.name
-																)}{/snippet}
-														</Badge>
-													{/if}
-													{#if formatDateInfo(item)}
-														<span class="text-xs text-muted-foreground"
-															>· {formatDateInfo(item)}</span
-														>
-													{/if}
-												{/snippet}
-											</CollectionItemRow>
-										{/each}
-									</ul>
-									<Pagination
-										currentPage={collectionPage}
-										totalItems={filteredCollectionItems.length}
-										itemsPerPage={collectionItemsPerPage}
-										onPageChange={(p) => (collectionPage = p)}
-									/>
-								{/if}
-							{/snippet}
-						</CardContent>
+				<SearchableItemsCard items={personCollectionItems}>
+					{#snippet rowExtra(item)}
+						{#if getPersonRole(item, selectedPerson.name)}
+							<Badge variant="outline" class="text-2xs">
+								{#snippet children()}{getPersonRole(item, selectedPerson.name)}{/snippet}
+							</Badge>
+						{/if}
+						{#if formatDateInfo(item)}
+							<span class="text-xs text-muted-foreground">· {formatDateInfo(item)}</span>
+						{/if}
 					{/snippet}
-				</Card>
+				</SearchableItemsCard>
 			{/if}
+
+			<EntityDashboardSection
+				entityType="person"
+				entityId={selectedPerson.name}
+				items={personCollectionItems}
+				data={detail.data}
+			/>
 
 			<EntityKnowledgeGraph
 				entityType="person"

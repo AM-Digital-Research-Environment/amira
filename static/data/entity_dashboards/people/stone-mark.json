@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "stone-mark",
+    "name": "Stone, Mark",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1999,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1999,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Xylophone",
+      "value": 1
+    },
+    {
+      "name": "Xylophone music",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Xylophone",
+      "value": 1
+    },
+    {
+      "name": "Xylophone music",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    },
+    {
+      "name": "Uganda",
+      "value": 1
+    },
+    {
+      "name": "Xylophone (Instrument)",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Micklem, James",
+      "value": 1
+    },
+    {
+      "name": "Cooke, Andrew",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ec86",
+      "titleInfo": [
+        {
+          "title": "Xylophone music of Uganda: theembaire of Nakibembe, Busoga"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02a1"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "ministry-of-health-and-public-hygiene-of-burkina-faso",
+    "name": "Ministry of Health and Public Hygiene of Burkina Faso",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 2022,
+      "count": 3
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2022,
+      "total": 3,
+      "byType": {
+        "Text": 3
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "World health",
+      "value": 3
+    },
+    {
+      "name": "Gender",
+      "value": 3
+    },
+    {
+      "name": "Health",
+      "value": 3
+    },
+    {
+      "name": "West Africa",
+      "value": 3
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "World health",
+      "value": 3
+    },
+    {
+      "name": "Gender",
+      "value": 3
+    },
+    {
+      "name": "Health",
+      "value": 3
+    },
+    {
+      "name": "West Africa",
+      "value": 3
+    },
+    {
+      "name": "Global Health",
+      "value": 3
+    },
+    {
+      "name": "Men who have Sex with Men",
+      "value": 3
+    },
+    {
+      "name": "The Global Fund to Fight AIDS, Tuberculosis and Malaria",
+      "value": 3
+    },
+    {
+      "name": "Joint United Nations Programme on HIV/AIDS",
+      "value": 3
+    },
+    {
+      "name": "Burkina Faso",
+      "value": 3
+    },
+    {
+      "name": "Global Health Policy",
+      "value": 3
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Baguian, Sidibewindé Romain",
+      "value": 3
+    },
+    {
+      "name": "Nabaloum, Abdoulassé",
+      "value": 1
+    },
+    {
+      "name": "Soudré, Robert",
+      "value": 1
+    },
+    {
+      "name": "Zoma, Tihamen",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Burkina Faso",
+      "region": "",
+      "city": "",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "6718efd3c327cde4b57d8671",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Nabaloum Abdoulassé"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0000"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8674",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Soudré Robert"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0003"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8676",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Zoma Tihamen"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0005"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "dywili-nongangekho",
+    "name": "Dywili, Nongangekho",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 2011,
+      "count": 3
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2011,
+      "total": 3,
+      "byType": {
+        "Audio": 3
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Audio",
+      "value": 3
+    }
+  ],
+  "languages": [],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 3
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ece6",
+      "titleInfo": [
+        {
+          "title": "USitolotolo: umrhubhe whistling song"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "dre_id": "eaa-99-0301"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ece7",
+      "titleInfo": [
+        {
+          "title": "UTsiki: umrhubhe whistling song"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "dre_id": "eaa-99-0302"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ece8",
+      "titleInfo": [
+        {
+          "title": "Irobhane: umrhubhe whistling song"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "dre_id": "eaa-99-0303"
+    }
+  ]
+}

@@ -1,0 +1,5150 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "youth",
+    "name": "Youth",
+    "count": 323
+  },
+  "timeline": [
+    {
+      "year": 2019,
+      "count": 292
+    },
+    {
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "count": 20
+    },
+    {
+      "year": 2022,
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "count": 7
+    },
+    {
+      "year": 2025,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2019,
+      "total": 292,
+      "byType": {
+        "Dataset": 41,
+        "Image": 250,
+        "Text": 1
+      }
+    },
+    {
+      "year": 2020,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2021,
+      "total": 20,
+      "byType": {
+        "Text": 20
+      }
+    },
+    {
+      "year": 2022,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 2023,
+      "total": 7,
+      "byType": {
+        "Text": 2,
+        "Digital": 1,
+        "Dataset": 4
+      }
+    },
+    {
+      "year": 2025,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 250
+    },
+    {
+      "name": "Dataset",
+      "value": 45
+    },
+    {
+      "name": "Text",
+      "value": 27
+    },
+    {
+      "name": "Digital",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 256
+    },
+    {
+      "name": "English",
+      "value": 68
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Learning",
+      "value": 292
+    },
+    {
+      "name": "Administration of Justice",
+      "value": 20
+    },
+    {
+      "name": "Teenagers",
+      "value": 20
+    },
+    {
+      "name": "Punishment",
+      "value": 20
+    },
+    {
+      "name": "Children",
+      "value": 10
+    },
+    {
+      "name": "Child care",
+      "value": 8
+    },
+    {
+      "name": "Fertility",
+      "value": 8
+    },
+    {
+      "name": "Income distribution",
+      "value": 8
+    },
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 8
+    },
+    {
+      "name": "Education",
+      "value": 8
+    },
+    {
+      "name": "Family planning",
+      "value": 8
+    },
+    {
+      "name": "Migration",
+      "value": 8
+    },
+    {
+      "name": "Economic development",
+      "value": 8
+    },
+    {
+      "name": "Maintenance",
+      "value": 5
+    },
+    {
+      "name": "Prisons",
+      "value": 4
+    },
+    {
+      "name": "Local government",
+      "value": 3
+    },
+    {
+      "name": "Correctional institutions",
+      "value": 3
+    },
+    {
+      "name": "Arid regions",
+      "value": 2
+    },
+    {
+      "name": "Weather",
+      "value": 2
+    },
+    {
+      "name": "Schools",
+      "value": 2
+    },
+    {
+      "name": "Herders",
+      "value": 2
+    },
+    {
+      "name": "Food security",
+      "value": 2
+    },
+    {
+      "name": "Imams (Shiites)",
+      "value": 2
+    },
+    {
+      "name": "Social groups",
+      "value": 2
+    },
+    {
+      "name": "Juvenile delinquency",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Learning",
+      "value": 292
+    },
+    {
+      "name": "Administration of Justice",
+      "value": 20
+    },
+    {
+      "name": "Teenagers",
+      "value": 20
+    },
+    {
+      "name": "Punishment",
+      "value": 20
+    },
+    {
+      "name": "Children",
+      "value": 10
+    },
+    {
+      "name": "Child care",
+      "value": 8
+    },
+    {
+      "name": "Fertility",
+      "value": 8
+    },
+    {
+      "name": "Income distribution",
+      "value": 8
+    },
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 8
+    },
+    {
+      "name": "Education",
+      "value": 8
+    },
+    {
+      "name": "Family planning",
+      "value": 8
+    },
+    {
+      "name": "Migration",
+      "value": 8
+    },
+    {
+      "name": "Economic development",
+      "value": 8
+    },
+    {
+      "name": "Female Education",
+      "value": 8
+    },
+    {
+      "name": "Human Development",
+      "value": 8
+    },
+    {
+      "name": "Education Policy",
+      "value": 8
+    },
+    {
+      "name": "Educational Influence",
+      "value": 8
+    },
+    {
+      "name": "Child Development",
+      "value": 8
+    },
+    {
+      "name": "Human Resources",
+      "value": 8
+    },
+    {
+      "name": "Manga",
+      "value": 6
+    },
+    {
+      "name": "Maintenance",
+      "value": 5
+    },
+    {
+      "name": "Prisons",
+      "value": 4
+    },
+    {
+      "name": "Local government",
+      "value": 3
+    },
+    {
+      "name": "Correctional institutions",
+      "value": 3
+    },
+    {
+      "name": "Arid regions",
+      "value": 2
+    },
+    {
+      "name": "Weather",
+      "value": 2
+    },
+    {
+      "name": "Schools",
+      "value": 2
+    },
+    {
+      "name": "Herders",
+      "value": 2
+    },
+    {
+      "name": "Food security",
+      "value": 2
+    },
+    {
+      "name": "Lockdown",
+      "value": 2
+    },
+    {
+      "name": "Mongolia",
+      "value": 2
+    },
+    {
+      "name": "Funeral Custom",
+      "value": 2
+    },
+    {
+      "name": "Funeral Rite",
+      "value": 2
+    },
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 2
+    },
+    {
+      "name": "Imams (Shiites)",
+      "value": 2
+    },
+    {
+      "name": "Bobo-Dioulasso",
+      "value": 2
+    },
+    {
+      "name": "Social groups",
+      "value": 2
+    },
+    {
+      "name": "Juvenile delinquency",
+      "value": 2
+    },
+    {
+      "name": "Juvenile detention",
+      "value": 2
+    },
+    {
+      "name": "Deprivation of Liberty",
+      "value": 2
+    },
+    {
+      "name": "Preliminary Investigation",
+      "value": 2
+    },
+    {
+      "name": "Investigation Phase",
+      "value": 2
+    },
+    {
+      "name": "Enforcement of Decisions",
+      "value": 2
+    },
+    {
+      "name": "Agriculture",
+      "value": 1
+    },
+    {
+      "name": "Prices",
+      "value": 1
+    },
+    {
+      "name": "Communication",
+      "value": 1
+    },
+    {
+      "name": "Kaam Naaba",
+      "value": 1
+    },
+    {
+      "name": "Government executives",
+      "value": 1
+    },
+    {
+      "name": "Child welfare",
+      "value": 1
+    },
+    {
+      "name": "Commissioner",
+      "value": 1
+    },
+    {
+      "name": "Kolgweogo",
+      "value": 1
+    },
+    {
+      "name": "Judges",
+      "value": 1
+    },
+    {
+      "name": "Juvenile courts",
+      "value": 1
+    },
+    {
+      "name": "Bobo (African people)",
+      "value": 1
+    },
+    {
+      "name": "Community Insider",
+      "value": 1
+    },
+    {
+      "name": "Conflict",
+      "value": 1
+    },
+    {
+      "name": "Mediation",
+      "value": 1
+    },
+    {
+      "name": "Conflict management",
+      "value": 1
+    },
+    {
+      "name": "Conseil Villageois de Développement",
+      "value": 1
+    },
+    {
+      "name": "Court",
+      "value": 1
+    },
+    {
+      "name": "Corrections",
+      "value": 1
+    },
+    {
+      "name": "Catholic Church",
+      "value": 1
+    },
+    {
+      "name": "Bishop's Chaplain",
+      "value": 1
+    },
+    {
+      "name": "Balm Naam",
+      "value": 1
+    },
+    {
+      "name": "Communities",
+      "value": 1
+    },
+    {
+      "name": "Rehabilitation",
+      "value": 1
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "History",
+      "value": 1
+    },
+    {
+      "name": "Kwaito (Music)",
+      "value": 1
+    },
+    {
+      "name": "Amapiano (Music)",
+      "value": 1
+    },
+    {
+      "name": "Post-apartheid",
+      "value": 1
+    },
+    {
+      "name": "Township",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tamou, Issa",
+      "value": 292
+    },
+    {
+      "name": "Tapsoba, Tatiana Nadine",
+      "value": 13
+    },
+    {
+      "name": "Wild, Frederik",
+      "value": 8
+    },
+    {
+      "name": "Stadelmann, David",
+      "value": 8
+    },
+    {
+      "name": "Samandoulgou, Basga",
+      "value": 3
+    },
+    {
+      "name": "Bationo, Bouma Fernand",
+      "value": 3
+    },
+    {
+      "name": "Batjav, Batbuyan",
+      "value": 2
+    },
+    {
+      "name": "Amarbat, Byambasuren",
+      "value": 2
+    },
+    {
+      "name": "Baasankhorloo, Ts",
+      "value": 2
+    },
+    {
+      "name": "Dipama, Emmanuel",
+      "value": 2
+    },
+    {
+      "name": "Bonkian, Bonfui",
+      "value": 2
+    },
+    {
+      "name": "Bouda, Bassirou",
+      "value": 2
+    },
+    {
+      "name": "Bourgou, Y. Gilbert",
+      "value": 2
+    },
+    {
+      "name": "Sawadogo, Hamidou",
+      "value": 2
+    },
+    {
+      "name": "Pitroipa, Clément",
+      "value": 2
+    },
+    {
+      "name": "Traoré, Seydou",
+      "value": 2
+    },
+    {
+      "name": "Sanon, Boukary",
+      "value": 2
+    },
+    {
+      "name": "Sanou, Issiaka",
+      "value": 2
+    },
+    {
+      "name": "Somé, Alban Balanoé",
+      "value": 2
+    },
+    {
+      "name": "Ouattara, Amadou",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "Benin",
+      "region": "",
+      "city": "",
+      "count": 292
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "",
+      "city": "",
+      "count": 18
+    },
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 8
+    },
+    {
+      "country": "Mongolia",
+      "region": "Övörkhangai Province",
+      "city": "Ulziit Soum",
+      "count": 2
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "Centre",
+      "city": "Ouagadougou",
+      "count": 2
+    },
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "66cefaf495a000d4c7bf371b",
+      "titleInfo": [
+        {
+          "title": "Batbuyan Batjav's research comments on Mongolia, November 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0016"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf371c",
+      "titleInfo": [
+        {
+          "title": "Batbuyan Batjav's research comments on Mongolia, November 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0017"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18973",
+      "titleInfo": [
+        {
+          "title": "Personal details"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0000"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18974",
+      "titleInfo": [
+        {
+          "title": "Schooling Trajectory"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0001"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18975",
+      "titleInfo": [
+        {
+          "title": "2nd school"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0002"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18976",
+      "titleInfo": [
+        {
+          "title": "3rd school"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0003"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18977",
+      "titleInfo": [
+        {
+          "title": "4th school"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0004"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18978",
+      "titleInfo": [
+        {
+          "title": "5th school"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0005"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18979",
+      "titleInfo": [
+        {
+          "title": "6th school"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0006"
+    },
+    {
+      "_id": "674892fd2e70d1e383d1897a",
+      "titleInfo": [
+        {
+          "title": "7th school"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0007"
+    },
+    {
+      "_id": "674892fd2e70d1e383d1897b",
+      "titleInfo": [
+        {
+          "title": "8th school"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0008"
+    },
+    {
+      "_id": "674892fd2e70d1e383d1897c",
+      "titleInfo": [
+        {
+          "title": "9th school"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0009"
+    },
+    {
+      "_id": "674892fd2e70d1e383d1897d",
+      "titleInfo": [
+        {
+          "title": "10th school"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-000a"
+    },
+    {
+      "_id": "674892fd2e70d1e383d1897e",
+      "titleInfo": [
+        {
+          "title": "11th school"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-000b"
+    },
+    {
+      "_id": "674892fd2e70d1e383d1897f",
+      "titleInfo": [
+        {
+          "title": "12th school"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-000c"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18980",
+      "titleInfo": [
+        {
+          "title": "13th school"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-000d"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18981",
+      "titleInfo": [
+        {
+          "title": "3rd training"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-000e"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18982",
+      "titleInfo": [
+        {
+          "title": "4th training"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-000f"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18983",
+      "titleInfo": [
+        {
+          "title": "5th training"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0010"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18984",
+      "titleInfo": [
+        {
+          "title": "6th training"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0011"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18985",
+      "titleInfo": [
+        {
+          "title": "Other situations of learning"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0012"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18986",
+      "titleInfo": [
+        {
+          "title": "Current situation"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0013"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18987",
+      "titleInfo": [
+        {
+          "title": "Dependents"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0014"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18988",
+      "titleInfo": [
+        {
+          "title": "Future"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0015"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18989",
+      "titleInfo": [
+        {
+          "title": "1. Personal details_ Questionnaire DO"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0016"
+    },
+    {
+      "_id": "674892fd2e70d1e383d1898a",
+      "titleInfo": [
+        {
+          "title": "1st school"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0017"
+    },
+    {
+      "_id": "674892fd2e70d1e383d1898b",
+      "titleInfo": [
+        {
+          "title": "Questionnaire Do 2nd school"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0018"
+    },
+    {
+      "_id": "674892fd2e70d1e383d1898c",
+      "titleInfo": [
+        {
+          "title": "Questionnaire DO_ 3rd school"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0019"
+    },
+    {
+      "_id": "674892fd2e70d1e383d1898d",
+      "titleInfo": [
+        {
+          "title": "Questionnaire Do_ 4th school"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-001a"
+    },
+    {
+      "_id": "674892fd2e70d1e383d1898e",
+      "titleInfo": [
+        {
+          "title": "5th school"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-001b"
+    },
+    {
+      "_id": "674892fd2e70d1e383d1898f",
+      "titleInfo": [
+        {
+          "title": "6th School Another school"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-001c"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18990",
+      "titleInfo": [
+        {
+          "title": "8_7th school_Questionnaire DO"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-001d"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18991",
+      "titleInfo": [
+        {
+          "title": "3. Work Trajectories"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-001e"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18992",
+      "titleInfo": [
+        {
+          "title": "Second Work Diagrams"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-001f"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18993",
+      "titleInfo": [
+        {
+          "title": "Third Work"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0020"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18994",
+      "titleInfo": [
+        {
+          "title": "General Alternative Apprenticeship Trajectories"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0021"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18995",
+      "titleInfo": [
+        {
+          "title": "Second Training"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0022"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18996",
+      "titleInfo": [
+        {
+          "title": "Third Training"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0023"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18997",
+      "titleInfo": [
+        {
+          "title": "Other Learning Situation"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0024"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18998",
+      "titleInfo": [
+        {
+          "title": "Dependents"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0025"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18999",
+      "titleInfo": [
+        {
+          "title": "First work"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0026"
+    },
+    {
+      "_id": "674892fd2e70d1e383d1899a",
+      "titleInfo": [
+        {
+          "title": "General categories"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0027"
+    },
+    {
+      "_id": "674892fd2e70d1e383d1899b",
+      "titleInfo": [
+        {
+          "title": "Upper categories"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0028"
+    },
+    {
+      "_id": "674892fd2e70d1e383d1899c",
+      "titleInfo": [
+        {
+          "title": "Ego Card 1/Kora"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0029"
+    },
+    {
+      "_id": "674892fd2e70d1e383d1899d",
+      "titleInfo": [
+        {
+          "title": "Redesigned by Issa Tamou/Kouagou"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-002a"
+    },
+    {
+      "_id": "674892fd2e70d1e383d1899e",
+      "titleInfo": [
+        {
+          "title": "BA-0001/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-002b"
+    },
+    {
+      "_id": "674892fd2e70d1e383d1899f",
+      "titleInfo": [
+        {
+          "title": "BA-0002/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-002c"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189a0",
+      "titleInfo": [
+        {
+          "title": "BA-0003/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-002d"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189a1",
+      "titleInfo": [
+        {
+          "title": "BA-0004/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-002e"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189a2",
+      "titleInfo": [
+        {
+          "title": "BA-0005/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-002f"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189a3",
+      "titleInfo": [
+        {
+          "title": "BA-0006/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0030"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189a4",
+      "titleInfo": [
+        {
+          "title": "BA-0007/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0031"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189a5",
+      "titleInfo": [
+        {
+          "title": "BA-0008/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0032"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189a6",
+      "titleInfo": [
+        {
+          "title": "BA-0009/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0033"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189a7",
+      "titleInfo": [
+        {
+          "title": "BA-0010/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0034"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189a8",
+      "titleInfo": [
+        {
+          "title": "BA-0011/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0035"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189a9",
+      "titleInfo": [
+        {
+          "title": "BA-0012/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0036"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189aa",
+      "titleInfo": [
+        {
+          "title": "BA-0013/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0037"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189ab",
+      "titleInfo": [
+        {
+          "title": "BA-0014/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0038"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189ac",
+      "titleInfo": [
+        {
+          "title": "BA-0015/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0039"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189ad",
+      "titleInfo": [
+        {
+          "title": "BA-0016/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-003a"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189ae",
+      "titleInfo": [
+        {
+          "title": "BA-0017/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-003b"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189af",
+      "titleInfo": [
+        {
+          "title": "BA-0018/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-003c"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189b0",
+      "titleInfo": [
+        {
+          "title": "BA-0019/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-003d"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189b1",
+      "titleInfo": [
+        {
+          "title": "BA-0020/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-003e"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189b2",
+      "titleInfo": [
+        {
+          "title": "BA-0021/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-003f"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189b3",
+      "titleInfo": [
+        {
+          "title": "BA-0022/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0040"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189b4",
+      "titleInfo": [
+        {
+          "title": "BA-0023/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0041"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189b5",
+      "titleInfo": [
+        {
+          "title": "BA-0024/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0042"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189b6",
+      "titleInfo": [
+        {
+          "title": "BA-0025/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0043"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189b7",
+      "titleInfo": [
+        {
+          "title": "BA-0026/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0044"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189b8",
+      "titleInfo": [
+        {
+          "title": "BA-0027/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0045"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189b9",
+      "titleInfo": [
+        {
+          "title": "BA-0028/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0046"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189ba",
+      "titleInfo": [
+        {
+          "title": "BA-0029/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0047"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189bb",
+      "titleInfo": [
+        {
+          "title": "BA-0030/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0048"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189bc",
+      "titleInfo": [
+        {
+          "title": "BA-0031/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0049"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189bd",
+      "titleInfo": [
+        {
+          "title": "BA-0032/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-004a"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189be",
+      "titleInfo": [
+        {
+          "title": "BA-0033/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-004b"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189bf",
+      "titleInfo": [
+        {
+          "title": "BA-0034/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-004c"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189c0",
+      "titleInfo": [
+        {
+          "title": "BA-0035/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-004d"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189c1",
+      "titleInfo": [
+        {
+          "title": "BA-0036/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-004e"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189c2",
+      "titleInfo": [
+        {
+          "title": "BA-0037/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-004f"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189c3",
+      "titleInfo": [
+        {
+          "title": "BA-0038/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0050"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189c4",
+      "titleInfo": [
+        {
+          "title": "BA-0039/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0051"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189c5",
+      "titleInfo": [
+        {
+          "title": "BA-0040/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0052"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189c6",
+      "titleInfo": [
+        {
+          "title": "BA-0041/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0053"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189c7",
+      "titleInfo": [
+        {
+          "title": "BA-0042/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0054"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189c8",
+      "titleInfo": [
+        {
+          "title": "BA-0043/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0055"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189c9",
+      "titleInfo": [
+        {
+          "title": "BA-0044/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0056"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189ca",
+      "titleInfo": [
+        {
+          "title": "BA-0045/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0057"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189cb",
+      "titleInfo": [
+        {
+          "title": "BA-0046/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0058"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189cc",
+      "titleInfo": [
+        {
+          "title": "BA-0047/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0059"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189cd",
+      "titleInfo": [
+        {
+          "title": "BA-0048/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-005a"
+    },
+    {
+      "_id": "674892fd2e70d1e383d189ce",
+      "titleInfo": [
+        {
+          "title": "BA-0049/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-005b"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189cf",
+      "titleInfo": [
+        {
+          "title": "BA-0050/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-005c"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189d0",
+      "titleInfo": [
+        {
+          "title": "BA-0051/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-005d"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189d1",
+      "titleInfo": [
+        {
+          "title": "GZG-0001/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-005e"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189d2",
+      "titleInfo": [
+        {
+          "title": "GZG-0002/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-005f"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189d3",
+      "titleInfo": [
+        {
+          "title": "GZG-0003/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0060"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189d4",
+      "titleInfo": [
+        {
+          "title": "GZG-0004/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0061"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189d5",
+      "titleInfo": [
+        {
+          "title": "GZG-0005/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0062"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189d6",
+      "titleInfo": [
+        {
+          "title": "GZG-0006/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0063"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189d7",
+      "titleInfo": [
+        {
+          "title": "GZG-0007/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0064"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189d8",
+      "titleInfo": [
+        {
+          "title": "GZG-0008/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0065"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189d9",
+      "titleInfo": [
+        {
+          "title": "GZG-0009/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0066"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189da",
+      "titleInfo": [
+        {
+          "title": "GZG-0010/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0067"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189db",
+      "titleInfo": [
+        {
+          "title": "GZG-0011/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0068"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189dc",
+      "titleInfo": [
+        {
+          "title": "GZG-0012/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0069"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189dd",
+      "titleInfo": [
+        {
+          "title": "GZG-0013/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-006a"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189de",
+      "titleInfo": [
+        {
+          "title": "GZG-0014/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-006b"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189df",
+      "titleInfo": [
+        {
+          "title": "GZG-0015/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-006c"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189e0",
+      "titleInfo": [
+        {
+          "title": "GZG-0016/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-006d"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189e1",
+      "titleInfo": [
+        {
+          "title": "GZG-0017/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-006e"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189e2",
+      "titleInfo": [
+        {
+          "title": "GZG-0018/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-006f"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189e3",
+      "titleInfo": [
+        {
+          "title": "GZG-0019/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0070"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189e4",
+      "titleInfo": [
+        {
+          "title": "GZG-0020/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0071"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189e5",
+      "titleInfo": [
+        {
+          "title": "GZG-0021/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0072"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189e6",
+      "titleInfo": [
+        {
+          "title": "GZG-0022/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0073"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189e7",
+      "titleInfo": [
+        {
+          "title": "GZG-0023/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0074"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189e8",
+      "titleInfo": [
+        {
+          "title": "GZG-0024/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0075"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189e9",
+      "titleInfo": [
+        {
+          "title": "GZG-0025/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0076"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189ea",
+      "titleInfo": [
+        {
+          "title": "GZG-0026/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0077"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189eb",
+      "titleInfo": [
+        {
+          "title": "GZG-0027/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0078"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189ec",
+      "titleInfo": [
+        {
+          "title": "GZG-0028/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0079"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189ed",
+      "titleInfo": [
+        {
+          "title": "GZG-0029/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-007a"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189ee",
+      "titleInfo": [
+        {
+          "title": "GZG-0030/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-007b"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189ef",
+      "titleInfo": [
+        {
+          "title": "GZG-0031/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-007c"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189f0",
+      "titleInfo": [
+        {
+          "title": "GZG-0032/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-007d"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189f1",
+      "titleInfo": [
+        {
+          "title": "GZG-0033/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-007e"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189f2",
+      "titleInfo": [
+        {
+          "title": "GZG-0034/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-007f"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189f3",
+      "titleInfo": [
+        {
+          "title": "GZG-0035/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0080"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189f4",
+      "titleInfo": [
+        {
+          "title": "GZG-0036/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0081"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189f5",
+      "titleInfo": [
+        {
+          "title": "GZG-0037/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0082"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189f6",
+      "titleInfo": [
+        {
+          "title": "GZG-0038/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0083"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189f7",
+      "titleInfo": [
+        {
+          "title": "GZG-0039/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0084"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189f8",
+      "titleInfo": [
+        {
+          "title": "GZG-0040/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0085"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189f9",
+      "titleInfo": [
+        {
+          "title": "GZG-0041/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0086"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189fa",
+      "titleInfo": [
+        {
+          "title": "GZG-0042/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0087"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189fb",
+      "titleInfo": [
+        {
+          "title": "GZG-0043/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0088"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189fc",
+      "titleInfo": [
+        {
+          "title": "GZG-0044/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0089"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189fd",
+      "titleInfo": [
+        {
+          "title": "GZG-0045/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-008a"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189fe",
+      "titleInfo": [
+        {
+          "title": "GZG-0046/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-008b"
+    },
+    {
+      "_id": "674892fe2e70d1e383d189ff",
+      "titleInfo": [
+        {
+          "title": "GZG-0047/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-008c"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a00",
+      "titleInfo": [
+        {
+          "title": "IT-0001/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-008d"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a01",
+      "titleInfo": [
+        {
+          "title": "IT-0002/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-008e"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a02",
+      "titleInfo": [
+        {
+          "title": "IT-0003/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-008f"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a03",
+      "titleInfo": [
+        {
+          "title": "IT-0004/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0090"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a04",
+      "titleInfo": [
+        {
+          "title": "IT-0005/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0091"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a05",
+      "titleInfo": [
+        {
+          "title": "IT-0006/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0092"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a06",
+      "titleInfo": [
+        {
+          "title": "IT-0007/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0093"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a07",
+      "titleInfo": [
+        {
+          "title": "IT-0008/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0094"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a08",
+      "titleInfo": [
+        {
+          "title": "IT-0009/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0095"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a09",
+      "titleInfo": [
+        {
+          "title": "IT-0010/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0096"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a0a",
+      "titleInfo": [
+        {
+          "title": "IT-0011/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0097"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a0b",
+      "titleInfo": [
+        {
+          "title": "IT-0012/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0098"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a0c",
+      "titleInfo": [
+        {
+          "title": "IT-0013/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0099"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a0d",
+      "titleInfo": [
+        {
+          "title": "IT-0014/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-009a"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a0e",
+      "titleInfo": [
+        {
+          "title": "IT-0015/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-009b"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a0f",
+      "titleInfo": [
+        {
+          "title": "IT-0016/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-009c"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a10",
+      "titleInfo": [
+        {
+          "title": "IT-0017/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-009d"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a11",
+      "titleInfo": [
+        {
+          "title": "IT-0018/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-009e"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a12",
+      "titleInfo": [
+        {
+          "title": "IT-0019/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-009f"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a13",
+      "titleInfo": [
+        {
+          "title": "IT-0020/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00a0"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a14",
+      "titleInfo": [
+        {
+          "title": "IT-0021/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00a1"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a15",
+      "titleInfo": [
+        {
+          "title": "IT-0022/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00a2"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a16",
+      "titleInfo": [
+        {
+          "title": "IT-0023/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00a3"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a17",
+      "titleInfo": [
+        {
+          "title": "IT-0024/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00a4"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a18",
+      "titleInfo": [
+        {
+          "title": "IT-0025/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00a5"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a19",
+      "titleInfo": [
+        {
+          "title": "IT-0026/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00a6"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a1a",
+      "titleInfo": [
+        {
+          "title": "IT-0027/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00a7"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a1b",
+      "titleInfo": [
+        {
+          "title": "IT-0028/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00a8"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a1c",
+      "titleInfo": [
+        {
+          "title": "IT-0029/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00a9"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a1d",
+      "titleInfo": [
+        {
+          "title": "IT-0030/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00aa"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a1e",
+      "titleInfo": [
+        {
+          "title": "IT-0031/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00ab"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a1f",
+      "titleInfo": [
+        {
+          "title": "IT-0032/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00ac"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a20",
+      "titleInfo": [
+        {
+          "title": "IT-0033/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00ad"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a21",
+      "titleInfo": [
+        {
+          "title": "IT-0034/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00ae"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a22",
+      "titleInfo": [
+        {
+          "title": "IT-0035/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00af"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a23",
+      "titleInfo": [
+        {
+          "title": "IT-0036/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00b0"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a24",
+      "titleInfo": [
+        {
+          "title": "SD-0001/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00b1"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a25",
+      "titleInfo": [
+        {
+          "title": "SD-0002/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00b2"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a26",
+      "titleInfo": [
+        {
+          "title": "SD-0003/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00b3"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a27",
+      "titleInfo": [
+        {
+          "title": "SD-0004/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00b4"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a28",
+      "titleInfo": [
+        {
+          "title": "SD-0005/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00b5"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a29",
+      "titleInfo": [
+        {
+          "title": "SD-0006/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00b6"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a2a",
+      "titleInfo": [
+        {
+          "title": "SD-0007/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00b7"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a2b",
+      "titleInfo": [
+        {
+          "title": "SD-0008/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00b8"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a2c",
+      "titleInfo": [
+        {
+          "title": "SD-0009/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00b9"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a2d",
+      "titleInfo": [
+        {
+          "title": "SD-0010/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00ba"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a2e",
+      "titleInfo": [
+        {
+          "title": "SD-0011/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00bb"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a2f",
+      "titleInfo": [
+        {
+          "title": "SD-0012/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00bc"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a30",
+      "titleInfo": [
+        {
+          "title": "SD-0013/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00bd"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a31",
+      "titleInfo": [
+        {
+          "title": "SD-0014/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00be"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a32",
+      "titleInfo": [
+        {
+          "title": "SD-0015/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00bf"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a33",
+      "titleInfo": [
+        {
+          "title": "SD-0016/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00c0"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a34",
+      "titleInfo": [
+        {
+          "title": "SD-0017/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00c1"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a35",
+      "titleInfo": [
+        {
+          "title": "SD-0018/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00c2"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a36",
+      "titleInfo": [
+        {
+          "title": "SD-0019/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00c3"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a37",
+      "titleInfo": [
+        {
+          "title": "SD-0020/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00c4"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a38",
+      "titleInfo": [
+        {
+          "title": "SD-0021/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00c5"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a39",
+      "titleInfo": [
+        {
+          "title": "SD-0022/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00c6"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a3a",
+      "titleInfo": [
+        {
+          "title": "SD-0023/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00c7"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a3b",
+      "titleInfo": [
+        {
+          "title": "SD-0024/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00c8"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a3c",
+      "titleInfo": [
+        {
+          "title": "SD-0025/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00c9"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a3d",
+      "titleInfo": [
+        {
+          "title": "SD-0026/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00ca"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a3e",
+      "titleInfo": [
+        {
+          "title": "SD-0027/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00cb"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a3f",
+      "titleInfo": [
+        {
+          "title": "SD-0028/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00cc"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a40",
+      "titleInfo": [
+        {
+          "title": "SD-0029/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00cd"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a41",
+      "titleInfo": [
+        {
+          "title": "SD-0030/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00ce"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a42",
+      "titleInfo": [
+        {
+          "title": "SD-0031/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00cf"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a43",
+      "titleInfo": [
+        {
+          "title": "SD-0032/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00d0"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a44",
+      "titleInfo": [
+        {
+          "title": "SD-003/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00d1"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a45",
+      "titleInfo": [
+        {
+          "title": "SD-0034/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00d2"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a46",
+      "titleInfo": [
+        {
+          "title": "SD-0035/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00d3"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a47",
+      "titleInfo": [
+        {
+          "title": "SD-0036/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00d4"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a48",
+      "titleInfo": [
+        {
+          "title": "SD-0037/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00d5"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a49",
+      "titleInfo": [
+        {
+          "title": "SD-0038/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00d6"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a4a",
+      "titleInfo": [
+        {
+          "title": "SD-0039/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00d7"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a4b",
+      "titleInfo": [
+        {
+          "title": "SD-0040/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00d8"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a4c",
+      "titleInfo": [
+        {
+          "title": "SD-0041/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00d9"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a4d",
+      "titleInfo": [
+        {
+          "title": "SD-0042/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00da"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a4e",
+      "titleInfo": [
+        {
+          "title": "SD-0043/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00db"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a4f",
+      "titleInfo": [
+        {
+          "title": "SD-0044/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00dc"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a50",
+      "titleInfo": [
+        {
+          "title": "SD-0045/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00dd"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a51",
+      "titleInfo": [
+        {
+          "title": "SD-0046/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00de"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a52",
+      "titleInfo": [
+        {
+          "title": "SD-0047/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00df"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a53",
+      "titleInfo": [
+        {
+          "title": "SD-0048/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00e0"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a54",
+      "titleInfo": [
+        {
+          "title": "SD-0049/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00e1"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a55",
+      "titleInfo": [
+        {
+          "title": "SD-0050/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00e2"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a56",
+      "titleInfo": [
+        {
+          "title": "SI-0001/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00e3"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a57",
+      "titleInfo": [
+        {
+          "title": "SI-0002/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00e4"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a58",
+      "titleInfo": [
+        {
+          "title": "SI-0003/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00e5"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a59",
+      "titleInfo": [
+        {
+          "title": "SI-0004/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00e6"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a5a",
+      "titleInfo": [
+        {
+          "title": "SI-0005/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00e7"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a5b",
+      "titleInfo": [
+        {
+          "title": "SI-0006/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00e8"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a5c",
+      "titleInfo": [
+        {
+          "title": "SI-0007/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00e9"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a5d",
+      "titleInfo": [
+        {
+          "title": "SI-0008/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00ea"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a5e",
+      "titleInfo": [
+        {
+          "title": "SI-0009/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00eb"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a5f",
+      "titleInfo": [
+        {
+          "title": "SI-0010/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00ec"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a60",
+      "titleInfo": [
+        {
+          "title": "SI-0011/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00ed"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a61",
+      "titleInfo": [
+        {
+          "title": "SI-0012/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00ee"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a62",
+      "titleInfo": [
+        {
+          "title": "SI-0013/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00ef"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a63",
+      "titleInfo": [
+        {
+          "title": "SI-0014/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00f0"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a64",
+      "titleInfo": [
+        {
+          "title": "SI-0015/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00f1"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a65",
+      "titleInfo": [
+        {
+          "title": "SI-0016/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00f2"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a66",
+      "titleInfo": [
+        {
+          "title": "SI-0017/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00f3"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a67",
+      "titleInfo": [
+        {
+          "title": "SI-0018/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00f4"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a68",
+      "titleInfo": [
+        {
+          "title": "SI-0019/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00f5"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a69",
+      "titleInfo": [
+        {
+          "title": "SI-0020/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00f6"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a6a",
+      "titleInfo": [
+        {
+          "title": "SI-0021/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00f7"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a6b",
+      "titleInfo": [
+        {
+          "title": "SI-0022/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00f8"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a6c",
+      "titleInfo": [
+        {
+          "title": "SI-0023/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00f9"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a6d",
+      "titleInfo": [
+        {
+          "title": "SI-0024/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00fa"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a6e",
+      "titleInfo": [
+        {
+          "title": "SI-0025/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00fb"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a6f",
+      "titleInfo": [
+        {
+          "title": "SI-0026/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00fc"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a70",
+      "titleInfo": [
+        {
+          "title": "SI-0027/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00fd"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a71",
+      "titleInfo": [
+        {
+          "title": "SI-0028/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00fe"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a72",
+      "titleInfo": [
+        {
+          "title": "SI-0090/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-00ff"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a73",
+      "titleInfo": [
+        {
+          "title": "SI-0030/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0100"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a74",
+      "titleInfo": [
+        {
+          "title": "SI-0031/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0101"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a75",
+      "titleInfo": [
+        {
+          "title": "SI-0032/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0102"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a76",
+      "titleInfo": [
+        {
+          "title": "SI-0033/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0103"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a77",
+      "titleInfo": [
+        {
+          "title": "SI-0034/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0104"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a78",
+      "titleInfo": [
+        {
+          "title": "SI-0035/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0105"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a79",
+      "titleInfo": [
+        {
+          "title": "SI-0036/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0106"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a7a",
+      "titleInfo": [
+        {
+          "title": "SI-0037/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0107"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a7b",
+      "titleInfo": [
+        {
+          "title": "SI-0038/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0108"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a7c",
+      "titleInfo": [
+        {
+          "title": "SI-0039/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0109"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a7d",
+      "titleInfo": [
+        {
+          "title": "SI-0040/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-010a"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a7e",
+      "titleInfo": [
+        {
+          "title": "SI-0041/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-010b"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a7f",
+      "titleInfo": [
+        {
+          "title": "SI-0042/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-010c"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a80",
+      "titleInfo": [
+        {
+          "title": "SI-0043/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-010d"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a81",
+      "titleInfo": [
+        {
+          "title": "SI-0044/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-010e"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a82",
+      "titleInfo": [
+        {
+          "title": "SI-0045/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-010f"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a83",
+      "titleInfo": [
+        {
+          "title": "SI-0046/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0110"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a84",
+      "titleInfo": [
+        {
+          "title": "SI-0047/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0111"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a85",
+      "titleInfo": [
+        {
+          "title": "SI-0048/f"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0112"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a86",
+      "titleInfo": [
+        {
+          "title": "SI-0049/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0113"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a87",
+      "titleInfo": [
+        {
+          "title": "SI-0050/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0114"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a88",
+      "titleInfo": [
+        {
+          "title": "SI-0051/m"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0115"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a89",
+      "titleInfo": [
+        {
+          "title": "Case 1: Dado"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0116"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a8a",
+      "titleInfo": [
+        {
+          "title": "Case 4: Gonuou"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0117"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a8b",
+      "titleInfo": [
+        {
+          "title": "Case 3: Imorou"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0118"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a8c",
+      "titleInfo": [
+        {
+          "title": "Case 4: Kora"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0119"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a8d",
+      "titleInfo": [
+        {
+          "title": "Case 5: Kouagou"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-011a"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a8e",
+      "titleInfo": [
+        {
+          "title": "Case 6: Saka"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-011b"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a8f",
+      "titleInfo": [
+        {
+          "title": "Case 7: Sero"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-011c"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a90",
+      "titleInfo": [
+        {
+          "title": "Case 8: Xavier"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-011d"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a91",
+      "titleInfo": [
+        {
+          "title": "Description of the Centre Jeune Amour et Vie (CJAV) N'Dali (28/11/2023)"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-011e"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a92",
+      "titleInfo": [
+        {
+          "title": "Description of Digital Centre of N’Dali"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-011f"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a93",
+      "titleInfo": [
+        {
+          "title": "Questionnaire pour enquête complète auprès des jeunes des classes Terminale (July 2020)"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0120"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a94",
+      "titleInfo": [
+        {
+          "title": "Questionnaire pour enquete aupres des jeunes descolarises et non scolarises a lage de 19 a 22 ans"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0121"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a95",
+      "titleInfo": [
+        {
+          "title": "Questionnaire pour enquete aupres des jeunes descolarises et non scolarises a lage de 19 a 22 ans"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0122"
+    },
+    {
+      "_id": "674892fe2e70d1e383d18a96",
+      "titleInfo": [
+        {
+          "title": "Description Youth Assembly or Tinguè Saru"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0123"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b01",
+      "titleInfo": [
+        {
+          "title": "Heterogeneous Effects of Women’s Schooling on Fertility, Literacy and Work: Evidence from Burundi’s Free Primary Education Policy"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-0010"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b02",
+      "titleInfo": [
+        {
+          "title": "Heterogeneous Effects of Women’s Schooling on Fertility, Literacy and Work: Evidence from Burundi’s Free Primary Education Policy"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-0011"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b03",
+      "titleInfo": [
+        {
+          "title": "Heterogeneous Effects of Women’s Schooling on Fertility, Literacy and Work: Evidence from Burundi’s Free Primary Education Policy"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0012"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b04",
+      "titleInfo": [
+        {
+          "title": "Appendix: Heterogeneous Effects of Women’s Schooling on Fertility, Literacy and Work: Evidence from Burundi’s Free Primary Education Policy"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0013"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b05",
+      "titleInfo": [
+        {
+          "title": "Replication R script"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0014"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b06",
+      "titleInfo": [
+        {
+          "title": "Replication dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0015"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b07",
+      "titleInfo": [
+        {
+          "title": "Replication dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0016"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b08",
+      "titleInfo": [
+        {
+          "title": "Replication dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0017"
+    },
+    {
+      "_id": "69c1568d666e5b9f92cf9f58",
+      "titleInfo": [
+        {
+          "title": "Synthèse d’entretien avec le kaam naaba"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0000"
+    },
+    {
+      "_id": "69c1568d666e5b9f92cf9f59",
+      "titleInfo": [
+        {
+          "title": "Synthèse d’entretien avec Monsieur Samandoulgou Basga"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0001"
+    },
+    {
+      "_id": "69c1568d666e5b9f92cf9f5a",
+      "titleInfo": [
+        {
+          "title": "Synthèse d'entretien avec le commissaire de la Brigade régionale de la protection de l’enfance (BRPE)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0002"
+    },
+    {
+      "_id": "69c1568d666e5b9f92cf9f5b",
+      "titleInfo": [
+        {
+          "title": "Synthèse d’entretien avec un élément du comité de Kolgweogo de Manga"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0003"
+    },
+    {
+      "_id": "69c1568d666e5b9f92cf9f5c",
+      "titleInfo": [
+        {
+          "title": "Synthèse d'entretien avec le magistrat, juge des enfants"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0004"
+    },
+    {
+      "_id": "69c1568d666e5b9f92cf9f5d",
+      "titleInfo": [
+        {
+          "title": "Synthèse d’entretien avec l'iman de Manga"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0005"
+    },
+    {
+      "_id": "69c1568d666e5b9f92cf9f5e",
+      "titleInfo": [
+        {
+          "title": "Synthèse d’entretien avec le Samandin Naaba de Ouagadougou"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0006"
+    },
+    {
+      "_id": "69c1568d666e5b9f92cf9f5f",
+      "titleInfo": [
+        {
+          "title": "Synthèse d’entretien avec un initié de la société Bobo"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0007"
+    },
+    {
+      "_id": "69c1568d666e5b9f92cf9f60",
+      "titleInfo": [
+        {
+          "title": "Synthese d’entretien le juge d’instruction du cabinet en charge des questions des enfants en conflits avec la loi; du Tribunal de Grande Instance de Ouaga 1"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0008"
+    },
+    {
+      "_id": "69c1568d666e5b9f92cf9f61",
+      "titleInfo": [
+        {
+          "title": "Synthèse de l’entretien avec Le  président CVD, intervenants dans la médiation et la gestion des conflits"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0009"
+    },
+    {
+      "_id": "69c1568d666e5b9f92cf9f62",
+      "titleInfo": [
+        {
+          "title": "Synthèse Générale des entretiens réalisés à Manga"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-000a"
+    },
+    {
+      "_id": "69c1568d666e5b9f92cf9f63",
+      "titleInfo": [
+        {
+          "title": "Synthèse Générale des entretiens réalisés à Ouaga"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-000b"
+    },
+    {
+      "_id": "69c1568d666e5b9f92cf9f64",
+      "titleInfo": [
+        {
+          "title": "Synthèse d’entretien avec madame la juge des enfants au tribunal de grande instance de Ouagadougou"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-000c"
+    },
+    {
+      "_id": "69c1568d666e5b9f92cf9f65",
+      "titleInfo": [
+        {
+          "title": "Synthèse d’entretien avec l’aumônier catholique au niveau de la maison d’arrêt et de correction de MANGA"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-000d"
+    },
+    {
+      "_id": "69c1568d666e5b9f92cf9f66",
+      "titleInfo": [
+        {
+          "title": "Synthèse d’entretien Balm Naaba de Manga"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-000e"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f67",
+      "titleInfo": [
+        {
+          "title": "Institutions judiciaires et adolescents au Burkina Faso:\ndes modèles de punitions endogènes et contemporaines"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-000f"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f68",
+      "titleInfo": [
+        {
+          "title": "Étude de recherche les modèles de punitions dans la communauté bobo de Bobo-Dioulasso"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0010"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f69",
+      "titleInfo": [
+        {
+          "title": "Réinsertion socio-professionnelle des détenus dans les maisons d’arrêt et de correction du Burkina Faso: cas de la Maison d’Arrêt et de Correction de Bobo-Dioulasso (MACB)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0011"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f6c",
+      "titleInfo": [
+        {
+          "title": "Rapport"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0014"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f7a",
+      "titleInfo": [
+        {
+          "title": "Communication"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0022"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edea",
+      "titleInfo": [
+        {
+          "title": "Kwaito as history"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0405"
+    }
+  ]
+}

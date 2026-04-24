@@ -1,0 +1,207 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "augustus",
+    "name": "Augustus",
+    "count": 6
+  },
+  "timeline": [
+    {
+      "year": 2024,
+      "count": 6
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2024,
+      "total": 6,
+      "byType": {
+        "Manuscript": 2,
+        "Cartographic": 4
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Cartographic",
+      "value": 4
+    },
+    {
+      "name": "Manuscript",
+      "value": 2
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Manuscripts",
+      "value": 6
+    },
+    {
+      "name": "Early modern, 1500-1700",
+      "value": 6
+    },
+    {
+      "name": "Literature",
+      "value": 6
+    },
+    {
+      "name": "Africa",
+      "value": 6
+    },
+    {
+      "name": "Cartography",
+      "value": 4
+    },
+    {
+      "name": "Maps",
+      "value": 4
+    },
+    {
+      "name": "Cotton",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Manuscripts",
+      "value": 6
+    },
+    {
+      "name": "Early modern, 1500-1700",
+      "value": 6
+    },
+    {
+      "name": "Literature",
+      "value": 6
+    },
+    {
+      "name": "Africa",
+      "value": 6
+    },
+    {
+      "name": "England",
+      "value": 6
+    },
+    {
+      "name": "Knowledge",
+      "value": 6
+    },
+    {
+      "name": "Cartography",
+      "value": 4
+    },
+    {
+      "name": "Maps",
+      "value": 4
+    },
+    {
+      "name": "Marine Cartography",
+      "value": 4
+    },
+    {
+      "name": "Cotton",
+      "value": 2
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Aboluwade, Ifeoluwa",
+      "value": 6
+    }
+  ],
+  "locations": [
+    {
+      "country": "United Kingdom",
+      "region": "England",
+      "city": "London",
+      "count": 6
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a9ab2c85fe8df872fd",
+      "titleInfo": [
+        {
+          "title": "William Augustus"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0206"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df872fe",
+      "titleInfo": [
+        {
+          "title": "William Augustus"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0207"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87300",
+      "titleInfo": [
+        {
+          "title": "Marine Cartography"
+        }
+      ],
+      "typeOfResource": "Cartographic",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0209"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87301",
+      "titleInfo": [
+        {
+          "title": "Marine Cartography"
+        }
+      ],
+      "typeOfResource": "Cartographic",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-020a"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87302",
+      "titleInfo": [
+        {
+          "title": "Marine Cartography"
+        }
+      ],
+      "typeOfResource": "Cartographic",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-020b"
+    },
+    {
+      "_id": "67fe63a9ab2c85fe8df87303",
+      "titleInfo": [
+        {
+          "title": "Marine Cartography"
+        }
+      ],
+      "typeOfResource": "Cartographic",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-020c"
+    }
+  ]
+}

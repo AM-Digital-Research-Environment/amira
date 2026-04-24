@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "kongo-african-people",
+    "name": "Kongo (African people)",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 2015,
+      "count": 4
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2015,
+      "total": 4,
+      "byType": {
+        "Text": 4
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 4
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Tales",
+      "value": 4
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Tales",
+      "value": 4
+    },
+    {
+      "name": "African Folktales",
+      "value": 4
+    },
+    {
+      "name": "Folktales",
+      "value": 4
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Radin, Paul",
+      "value": 4
+    },
+    {
+      "name": "Princeton University Press",
+      "value": 4
+    }
+  ],
+  "locations": [
+    {
+      "country": "United States of America",
+      "region": "New Jersey",
+      "city": "Princeton",
+      "count": 4
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a8ab2c85fe8df87143",
+      "titleInfo": [
+        {
+          "title": "The Gazelle and the Leopard"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-004c"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8715c",
+      "titleInfo": [
+        {
+          "title": "The Smart Man and the Fool"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0065"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87170",
+      "titleInfo": [
+        {
+          "title": "Ngomba's Basket"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0079"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87176",
+      "titleInfo": [
+        {
+          "title": "The Twin Brothers"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-007f"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "gunderson-frank",
+    "name": "Gunderson, Frank",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 2008,
+      "count": 1
+    },
+    {
+      "year": 2013,
+      "count": 1
+    },
+    {
+      "year": 2016,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2008,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2013,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2016,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Gender",
+      "value": 1
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    },
+    {
+      "name": "Performance",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 3
+    },
+    {
+      "name": "Gender",
+      "value": 1
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    },
+    {
+      "name": "Performance",
+      "value": 1
+    },
+    {
+      "name": "Politics",
+      "value": 1
+    },
+    {
+      "name": "Democratisation",
+      "value": 1
+    },
+    {
+      "name": "Malawi",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ecb2",
+      "titleInfo": [
+        {
+          "title": "Music Performance on 19th-Century Sukuma-Nyamwezi Caravans to the Swahili Coast"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02cd"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed1c",
+      "titleInfo": [
+        {
+          "title": "The Dance of Politics: Gender, Performance, and Democratization in Malawi. Lisa Gilman. 2009. Philadelphia: Temple University Press. 252 pp."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0337"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed6c",
+      "titleInfo": [
+        {
+          "title": "Poetry in Motion: 100 Years of Zanzibar's Nadi Ikhwan Safaa. Directed by Ron Mulvihill. Produced by Kelly Askew and Werner Graebner. DVD. 2016. Distributed\nby Jahazi Media Gris-Gris Films. Subtitles in Arabic, English, French, Swahili. 71 minutes. Available at www.poetryinmotionfilm.com."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0387"
+    }
+  ]
+}

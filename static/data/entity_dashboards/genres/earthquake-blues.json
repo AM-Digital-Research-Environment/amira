@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "type": "genre",
+    "id": "earthquake-blues",
+    "name": "Earthquake (Blues)",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1950,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1950,
+      "total": 1,
+      "byType": {
+        "Audio": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Audio",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "Ga",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Ga (African people)",
+      "value": 1
+    },
+    {
+      "name": "Ga language",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Ga (African people)",
+      "value": 1
+    },
+    {
+      "name": "Ga language",
+      "value": 1
+    },
+    {
+      "name": "Earthquake Blues (Music)",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Adjin's Band",
+      "value": 1
+    },
+    {
+      "name": "DECCA",
+      "value": 1
+    },
+    {
+      "name": "Ghana Broadcasting Corporation Gramophone Library",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Ghana",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "66c34de7ba20a6d8a816ac23",
+      "titleInfo": [
+        {
+          "title": "Kukludu"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-0025"
+    }
+  ]
+}

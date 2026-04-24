@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "national-union-of-human-and-animal-health-workers-of-burkina-faso",
+    "name": "National Union of Human and Animal Health Workers of Burkina Faso",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2022,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2022,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "World health",
+      "value": 2
+    },
+    {
+      "name": "Gender",
+      "value": 2
+    },
+    {
+      "name": "West Africa",
+      "value": 2
+    },
+    {
+      "name": "Health",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "World health",
+      "value": 2
+    },
+    {
+      "name": "Gender",
+      "value": 2
+    },
+    {
+      "name": "West Africa",
+      "value": 2
+    },
+    {
+      "name": "Global Health",
+      "value": 2
+    },
+    {
+      "name": "Men who have Sex with Men",
+      "value": 2
+    },
+    {
+      "name": "The Global Fund to Fight AIDS, Tuberculosis and Malaria",
+      "value": 2
+    },
+    {
+      "name": "Joint United Nations Programme on HIV/AIDS",
+      "value": 2
+    },
+    {
+      "name": "Global Health Policy",
+      "value": 2
+    },
+    {
+      "name": "Burkina Faso",
+      "value": 2
+    },
+    {
+      "name": "Health",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hien, Frederic",
+      "value": 2
+    },
+    {
+      "name": "Ouedraogo, Pissyamba",
+      "value": 1
+    },
+    {
+      "name": "Sanon, Bernard",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Burkina Faso",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "6718efd3c327cde4b57d8677",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Ouedraogo Pissyamba"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0006"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8678",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Sanon Bernard"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0007"
+    }
+  ]
+}

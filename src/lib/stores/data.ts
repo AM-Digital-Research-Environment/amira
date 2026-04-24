@@ -36,14 +36,14 @@ export const thumbnailManifest = writable<ThumbnailManifest | null>(null);
 //                         institutions, groups, researchSections) are in flight.
 //                         Flips false in well under a second on a typical
 //                         connection because the combined payload is < 1 MB.
-//                         Routes that don't need collections (people,
-//                         institutions, groups, project-explorer) become
-//                         interactive at this point.
-//   collectionsLoading  — true while the per-university collection JSON files
-//                         (~13 MB total) are still arriving. Pages that render
-//                         collection data show a quieter inline indicator.
+//                         Every route needs these, so `initializeData()` kicks
+//                         them off from the layout.
+//   collectionsLoading  — true only while `ensureCollections()` is actually
+//                         in flight. Entity detail views that read from the
+//                         precomputed per-entity JSON leave this `false` and
+//                         never trigger the 13 MB load.
 export const isLoading = writable(true);
-export const collectionsLoading = writable(true);
+export const collectionsLoading = writable(false);
 export const loadError = writable<string | null>(null);
 
 // Raw data stores
@@ -108,23 +108,25 @@ export const dashboardStats: Readable<DashboardStats> = derived(
 		calculateStats($projects, $persons, $institutions, { all: $allCollections })
 );
 
-// Initialize data from JSON files in two tiers:
+// Initialize data from JSON files.
 //
-//   Tier 1 (awaited): the lightweight stores (~500 kB combined) — projects,
-//   persons, institutions, groups, researchSections. Flips `isLoading` false
-//   as soon as these resolve. The shell + any route that doesn't depend on
-//   collections becomes interactive within a couple hundred ms.
+// Tier 1 (awaited): the lightweight stores (~500 kB combined) — projects,
+// persons, institutions, groups, researchSections. Flips `isLoading` false
+// as soon as these resolve. The shell + any route that doesn't touch the
+// full collection dump becomes interactive within a couple hundred ms.
 //
-//   Tier 2 (background, not awaited): the per-university collection dumps
-//   (~13 MB) drive `allCollections`. Until they arrive `collectionsLoading`
-//   stays true; collection-heavy pages show their empty state but the rest
-//   of the dashboard is already responsive.
+// Tier 2 is lazy now: the per-university collection dumps (~13 MB) only
+// arrive when a route asks for them via `ensureCollections()`. Entity
+// detail pages with precomputed per-entity JSON (see
+// `loadEntityDashboard()`) skip Tier 2 entirely and stay on the light
+// payload. Routes that genuinely need the full archive (home overview,
+// research-items browse, collections, network, whats-new, etc.) opt in
+// from onMount.
 //
 // Enriched geolocation data and per-category WissKI URL maps remain fully
 // lazy — they are only fetched by the routes that actually need them.
 export async function initializeData(basePath: string = '') {
 	isLoading.set(true);
-	collectionsLoading.set(true);
 	loadError.set(null);
 
 	// Tiny side-fetch of the local-thumbnail manifest (~30 kB). Written by
@@ -136,22 +138,6 @@ export async function initializeData(basePath: string = '') {
 		.then((res) => (res.ok ? res.json() : null))
 		.then((data) => thumbnailManifest.set(data))
 		.catch(() => thumbnailManifest.set(null));
-
-	// Tier 2 in parallel — kick it off but don't await. Collection-heavy
-	// pages subscribe to `collectionsLoading` to render their own indicator
-	// while it's in flight.
-	const collectionsPromise = loadAllCollectionsTagged(basePath)
-		.then((all) => {
-			allCollections.set(all);
-		})
-		.catch((error) => {
-			console.error('Failed to load collections:', error);
-			// Don't surface as a fatal error — the shell stays usable on lighter
-			// routes even if collections fail.
-		})
-		.finally(() => {
-			collectionsLoading.set(false);
-		});
 
 	try {
 		const [light, researchSectionsData] = await Promise.all([
@@ -171,9 +157,32 @@ export async function initializeData(basePath: string = '') {
 		loadError.set(error instanceof Error ? error.message : 'Failed to load data');
 		isLoading.set(false);
 	}
+}
 
-	// Returning the in-flight collections promise lets callers (e.g. tests
-	// or scripts) await full readiness. The layout deliberately doesn't.
+// --------------------------------------------------------------------------
+// Lazy loader for the full per-university collection dumps.
+// --------------------------------------------------------------------------
+// Called by routes that actually need every item in memory (home overview,
+// research-items browse, collections detail, project-explorer, network,
+// semantic-map, whats-new, compare-projects, projects browse) as well as
+// entity *list* views where we currently derive counts on the fly. Entity
+// *detail* views (languages/subjects/people/…) use the precomputed per-
+// entity JSON instead and do NOT call this.
+let collectionsPromise: Promise<void> | null = null;
+
+export function ensureCollections(basePath: string = ''): Promise<void> {
+	if (collectionsPromise) return collectionsPromise;
+	collectionsLoading.set(true);
+	collectionsPromise = loadAllCollectionsTagged(basePath)
+		.then((all) => {
+			allCollections.set(all);
+		})
+		.catch((error) => {
+			console.error('Failed to load collections:', error);
+		})
+		.finally(() => {
+			collectionsLoading.set(false);
+		});
 	return collectionsPromise;
 }
 

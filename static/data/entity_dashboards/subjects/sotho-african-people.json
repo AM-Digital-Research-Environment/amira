@@ -1,0 +1,200 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "sotho-african-people",
+    "name": "Sotho (African people)",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 1959,
+      "count": 2
+    },
+    {
+      "year": 2018,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1959,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 2018,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "Field recordings",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Folk music",
+      "value": 1
+    },
+    {
+      "name": "Accordion music",
+      "value": 1
+    },
+    {
+      "name": "Evolution",
+      "value": 1
+    },
+    {
+      "name": "Social status",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Basotho",
+      "value": 3
+    },
+    {
+      "name": "Lesotho",
+      "value": 3
+    },
+    {
+      "name": "African Music",
+      "value": 3
+    },
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "Social Aspects",
+      "value": 2
+    },
+    {
+      "name": "Field recordings",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Folk music",
+      "value": 1
+    },
+    {
+      "name": "Religous Aspects",
+      "value": 1
+    },
+    {
+      "name": "Accordion music",
+      "value": 1
+    },
+    {
+      "name": "Evolution",
+      "value": 1
+    },
+    {
+      "name": "Social status",
+      "value": 1
+    },
+    {
+      "name": "Famo (Music)",
+      "value": 1
+    },
+    {
+      "name": "Focho (Music)",
+      "value": 1
+    },
+    {
+      "name": "Shebeen",
+      "value": 1
+    },
+    {
+      "name": "Koriana (Music)",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tracey, Hugh",
+      "value": 2
+    },
+    {
+      "name": "Phafoli, Lehlohonolo",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ea75",
+      "titleInfo": [
+        {
+          "title": "Basutoland recording tour, November 19th to December 3rd, 1959"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0090"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea81",
+      "titleInfo": [
+        {
+          "title": "The future of music in Basutoland"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-009c"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eda3",
+      "titleInfo": [
+        {
+          "title": "EVOLUTION OF SOTHO ACCORDION MUSIC IN LESOTHO: 1980—2005"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03be"
+    }
+  ]
+}

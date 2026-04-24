@@ -1,0 +1,416 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "communities",
+    "name": "Communities",
+    "count": 7
+  },
+  "timeline": [
+    {
+      "year": 2021,
+      "count": 5
+    },
+    {
+      "year": 2022,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2021,
+      "total": 5,
+      "byType": {
+        "Text": 5
+      }
+    },
+    {
+      "year": 2022,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 6
+    },
+    {
+      "name": "Moving image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 6
+    },
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Children",
+      "value": 5
+    },
+    {
+      "name": "Juvenile detention",
+      "value": 5
+    },
+    {
+      "name": "Juvenile delinquency",
+      "value": 5
+    },
+    {
+      "name": "Punishment",
+      "value": 4
+    },
+    {
+      "name": "Prisons",
+      "value": 3
+    },
+    {
+      "name": "Employability",
+      "value": 2
+    },
+    {
+      "name": "Business",
+      "value": 2
+    },
+    {
+      "name": "Crime",
+      "value": 2
+    },
+    {
+      "name": "Interviews",
+      "value": 1
+    },
+    {
+      "name": "Christmas",
+      "value": 1
+    },
+    {
+      "name": "Administration of Justice",
+      "value": 1
+    },
+    {
+      "name": "Teenagers",
+      "value": 1
+    },
+    {
+      "name": "Youth",
+      "value": 1
+    },
+    {
+      "name": "Conduct of life",
+      "value": 1
+    },
+    {
+      "name": "Police",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Children",
+      "value": 5
+    },
+    {
+      "name": "Juvenile detention",
+      "value": 5
+    },
+    {
+      "name": "Juvenile delinquency",
+      "value": 5
+    },
+    {
+      "name": "Deprivation of Liberty",
+      "value": 5
+    },
+    {
+      "name": "Preliminary Investigation",
+      "value": 5
+    },
+    {
+      "name": "Investigation Phase",
+      "value": 5
+    },
+    {
+      "name": "Enforcement of Decisions",
+      "value": 5
+    },
+    {
+      "name": "Punishment",
+      "value": 4
+    },
+    {
+      "name": "Prisons",
+      "value": 3
+    },
+    {
+      "name": "Elderly People",
+      "value": 3
+    },
+    {
+      "name": "Employability",
+      "value": 2
+    },
+    {
+      "name": "Business",
+      "value": 2
+    },
+    {
+      "name": "University",
+      "value": 2
+    },
+    {
+      "name": "Crime",
+      "value": 2
+    },
+    {
+      "name": "Interviews",
+      "value": 1
+    },
+    {
+      "name": "Christmas",
+      "value": 1
+    },
+    {
+      "name": "Administration of Justice",
+      "value": 1
+    },
+    {
+      "name": "Teenagers",
+      "value": 1
+    },
+    {
+      "name": "Youth",
+      "value": 1
+    },
+    {
+      "name": "Bobo-Dioulasso",
+      "value": 1
+    },
+    {
+      "name": "Conduct of life",
+      "value": 1
+    },
+    {
+      "name": "Police",
+      "value": 1
+    },
+    {
+      "name": "Disagreement",
+      "value": 1
+    },
+    {
+      "name": "Legal Committee",
+      "value": 1
+    },
+    {
+      "name": "Gendarmerie",
+      "value": 1
+    },
+    {
+      "name": "Local Justice",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Bationo, Bouma Fernand",
+      "value": 3
+    },
+    {
+      "name": "Sanou, Issiaka",
+      "value": 2
+    },
+    {
+      "name": "Soulama, Brahima",
+      "value": 2
+    },
+    {
+      "name": "Traoré, Seydou",
+      "value": 2
+    },
+    {
+      "name": "Government of Liberia",
+      "value": 1
+    },
+    {
+      "name": "Sanou, Doti Bruno",
+      "value": 1
+    },
+    {
+      "name": "Sanou, Anselme Titiama",
+      "value": 1
+    },
+    {
+      "name": "Sanon, Sidiki",
+      "value": 1
+    },
+    {
+      "name": "Ouattara, Amadou",
+      "value": 1
+    },
+    {
+      "name": "Millogo, Donatien",
+      "value": 1
+    },
+    {
+      "name": "Sanon, Findomom Simon Pierre",
+      "value": 1
+    },
+    {
+      "name": "Traoré, Honoré Nabéré",
+      "value": 1
+    },
+    {
+      "name": "Zerbo, Jeanna Amélie",
+      "value": 1
+    },
+    {
+      "name": "Traoré, Minata",
+      "value": 1
+    },
+    {
+      "name": "Dabire, Aristide",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Burkina Faso",
+      "region": "Hauts-Bassins Region",
+      "city": "Bobo-Dioulasso",
+      "count": 3
+    },
+    {
+      "country": "Liberia",
+      "region": "Montserrado County",
+      "city": "Monrovia",
+      "count": 1
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "Centre",
+      "city": "Ouagadougou",
+      "count": 1
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "Sud-Ouest Region",
+      "city": "Dano",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "6982337057a8e0353b0b1cc0",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0083"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f68",
+      "titleInfo": [
+        {
+          "title": "Étude de recherche les modèles de punitions dans la communauté bobo de Bobo-Dioulasso"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0010"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f6d",
+      "titleInfo": [
+        {
+          "title": "Rapport"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0015"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f6f",
+      "titleInfo": [
+        {
+          "title": "Rapport"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0017"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f71",
+      "titleInfo": [
+        {
+          "title": "Entretien"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0019"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f73",
+      "titleInfo": [
+        {
+          "title": "Entretien"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-001b"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f76",
+      "titleInfo": [
+        {
+          "title": "Entretien"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-001e"
+    }
+  ]
+}

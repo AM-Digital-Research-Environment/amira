@@ -1,0 +1,227 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "hien-frederic",
+    "name": "Hien, Frederic",
+    "count": 6
+  },
+  "timeline": [
+    {
+      "year": 2022,
+      "count": 5
+    },
+    {
+      "year": 2023,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2022,
+      "total": 5,
+      "byType": {
+        "Text": 5
+      }
+    },
+    {
+      "year": 2023,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 6
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "value": 6
+    }
+  ],
+  "subjects": [
+    {
+      "name": "World health",
+      "value": 6
+    },
+    {
+      "name": "West Africa",
+      "value": 6
+    },
+    {
+      "name": "Gender",
+      "value": 4
+    },
+    {
+      "name": "Health",
+      "value": 3
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "World health",
+      "value": 6
+    },
+    {
+      "name": "West Africa",
+      "value": 6
+    },
+    {
+      "name": "Global Health",
+      "value": 6
+    },
+    {
+      "name": "Joint United Nations Programme on HIV/AIDS",
+      "value": 6
+    },
+    {
+      "name": "Global Health Policy",
+      "value": 6
+    },
+    {
+      "name": "Burkina Faso",
+      "value": 6
+    },
+    {
+      "name": "Gender",
+      "value": 4
+    },
+    {
+      "name": "Men who have Sex with Men",
+      "value": 4
+    },
+    {
+      "name": "The Global Fund to Fight AIDS, Tuberculosis and Malaria",
+      "value": 4
+    },
+    {
+      "name": "Health",
+      "value": 3
+    },
+    {
+      "name": "HIV/AIDS",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Ouedraogo, Pissyamba",
+      "value": 1
+    },
+    {
+      "name": "Sanon, Bernard",
+      "value": 1
+    },
+    {
+      "name": "Ouedraogo, Soumaila",
+      "value": 1
+    },
+    {
+      "name": "Méda, Bertrand",
+      "value": 1
+    },
+    {
+      "name": "Banhoro, Yacouba",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Burkina Faso",
+      "region": "",
+      "city": "",
+      "count": 6
+    }
+  ],
+  "items": [
+    {
+      "_id": "6718efd3c327cde4b57d8677",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Ouedraogo Pissyamba"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0006"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8678",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Sanon Bernard"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0007"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8679",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Ouedraogo Soumaila"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0008"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d867a",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Meda Bertrand"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0009"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d867b",
+      "titleInfo": [
+        {
+          "title": "Article sur le VIH/SIDA"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-000a"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8684",
+      "titleInfo": [
+        {
+          "title": "Mémoire sur l'ONUSIDA"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0013"
+    }
+  ]
+}

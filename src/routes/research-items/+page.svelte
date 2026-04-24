@@ -1,6 +1,11 @@
 <script lang="ts">
 	import { StatCard, Pagination, SEO } from '$lib/components/ui';
-	import { allCollections, enrichedLocations, ensureEnrichedLocations } from '$lib/stores/data';
+	import {
+		allCollections,
+		enrichedLocations,
+		ensureEnrichedLocations,
+		ensureCollections
+	} from '$lib/stores/data';
 	import { onMount } from 'svelte';
 	import { base } from '$app/paths';
 	import { page } from '$app/stores';
@@ -21,9 +26,10 @@
 	import { BackToList } from '$lib/components/ui';
 	import { SvelteMap, SvelteSet } from 'svelte/reactivity';
 
-	// Lazy-load enriched geolocation: only this page reads $enrichedLocations
-	// for the per-item map, so we fetch it on mount instead of at app start.
+	// Lazy-load the 13 MB collections dump + enriched geolocation here — the
+	// research-items page is the primary consumer of both.
 	onMount(() => {
+		void ensureCollections(base);
 		void ensureEnrichedLocations(base);
 	});
 

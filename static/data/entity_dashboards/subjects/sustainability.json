@@ -1,0 +1,572 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "sustainability",
+    "name": "Sustainability",
+    "count": 11
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "count": 7
+    },
+    {
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 1,
+      "byType": {
+        "Collection": 1
+      }
+    },
+    {
+      "year": 2021,
+      "total": 7,
+      "byType": {
+        "Text": 1,
+        "Dataset": 6
+      }
+    },
+    {
+      "year": 2022,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2023,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2024,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Dataset",
+      "value": 6
+    },
+    {
+      "name": "Text",
+      "value": 4
+    },
+    {
+      "name": "Collection",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 8
+    },
+    {
+      "name": "French",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Natural disasters",
+      "value": 7
+    },
+    {
+      "name": "Global warming",
+      "value": 7
+    },
+    {
+      "name": "World health",
+      "value": 2
+    },
+    {
+      "name": "Diseases",
+      "value": 2
+    },
+    {
+      "name": "West Africa",
+      "value": 2
+    },
+    {
+      "name": "Karakul sheep",
+      "value": 1
+    },
+    {
+      "name": "History",
+      "value": 1
+    },
+    {
+      "name": "Management",
+      "value": 1
+    },
+    {
+      "name": "Karakul sheep industry",
+      "value": 1
+    },
+    {
+      "name": "Postcolonialism",
+      "value": 1
+    },
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Agriculture",
+      "value": 1
+    },
+    {
+      "name": "Colonisation",
+      "value": 1
+    },
+    {
+      "name": "Culture",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Folk music",
+      "value": 1
+    },
+    {
+      "name": "Globalisation",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Natural disasters",
+      "value": 7
+    },
+    {
+      "name": "Global warming",
+      "value": 7
+    },
+    {
+      "name": "Disaster Management",
+      "value": 7
+    },
+    {
+      "name": "Environmental Accounts",
+      "value": 7
+    },
+    {
+      "name": "Environmental Accounting",
+      "value": 7
+    },
+    {
+      "name": "Environmental Equity",
+      "value": 7
+    },
+    {
+      "name": "Population Growth",
+      "value": 7
+    },
+    {
+      "name": "Regional Economic Development",
+      "value": 7
+    },
+    {
+      "name": "Regional Economic Change",
+      "value": 7
+    },
+    {
+      "name": "Economic-Environmental Interactions",
+      "value": 7
+    },
+    {
+      "name": "Trade",
+      "value": 7
+    },
+    {
+      "name": "Environment",
+      "value": 7
+    },
+    {
+      "name": "Climate Change",
+      "value": 7
+    },
+    {
+      "name": "Econometric Evidence",
+      "value": 7
+    },
+    {
+      "name": "World health",
+      "value": 2
+    },
+    {
+      "name": "Diseases",
+      "value": 2
+    },
+    {
+      "name": "West Africa",
+      "value": 2
+    },
+    {
+      "name": "Global Health",
+      "value": 2
+    },
+    {
+      "name": "Vertical Program",
+      "value": 2
+    },
+    {
+      "name": "Horizontal Program",
+      "value": 2
+    },
+    {
+      "name": "Global Health Policy",
+      "value": 2
+    },
+    {
+      "name": "Burkina Faso",
+      "value": 2
+    },
+    {
+      "name": "Karakul sheep",
+      "value": 1
+    },
+    {
+      "name": "History",
+      "value": 1
+    },
+    {
+      "name": "Management",
+      "value": 1
+    },
+    {
+      "name": "Karakul sheep industry",
+      "value": 1
+    },
+    {
+      "name": "Postcolonialism",
+      "value": 1
+    },
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Agriculture",
+      "value": 1
+    },
+    {
+      "name": "Colonisation",
+      "value": 1
+    },
+    {
+      "name": "Namibia",
+      "value": 1
+    },
+    {
+      "name": "Swakara",
+      "value": 1
+    },
+    {
+      "name": "Karakul Circulations",
+      "value": 1
+    },
+    {
+      "name": "Colonial Economies",
+      "value": 1
+    },
+    {
+      "name": "Karakul Farming",
+      "value": 1
+    },
+    {
+      "name": "Germany",
+      "value": 1
+    },
+    {
+      "name": "Colonial South-West Africa",
+      "value": 1
+    },
+    {
+      "name": "German Colonialism",
+      "value": 1
+    },
+    {
+      "name": "Health Cooperation",
+      "value": 1
+    },
+    {
+      "name": "Culture",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Folk music",
+      "value": 1
+    },
+    {
+      "name": "Globalisation",
+      "value": 1
+    },
+    {
+      "name": "Revitalisation",
+      "value": 1
+    },
+    {
+      "name": "Traditional Music",
+      "value": 1
+    },
+    {
+      "name": "Seperewa (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Indigenous Music",
+      "value": 1
+    },
+    {
+      "name": "Cultural Imperialism",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    },
+    {
+      "name": "Ghana",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Greßer, Christina",
+      "value": 7
+    },
+    {
+      "name": "Meierrieks, Daniel",
+      "value": 7
+    },
+    {
+      "name": "Stadelmann, David",
+      "value": 7
+    },
+    {
+      "name": "Sib, Sié Moise",
+      "value": 2
+    },
+    {
+      "name": "Schaumann, Eleanor",
+      "value": 1
+    },
+    {
+      "name": "Banhoro, Yacouba",
+      "value": 1
+    },
+    {
+      "name": "Agyefi, Papa Kow Mensah",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 7
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "",
+      "city": "",
+      "count": 2
+    },
+    {
+      "country": "Namibia",
+      "region": "",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "66cf0d9595a000d4c7bf3751",
+      "titleInfo": [
+        {
+          "title": "Interview ES"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-0026"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6afb",
+      "titleInfo": [
+        {
+          "title": "The link between regional temperature and regional incomes: Econometric evidence with sub-national data"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-000a"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6afc",
+      "titleInfo": [
+        {
+          "title": "Supplementary Information"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-000b"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6afd",
+      "titleInfo": [
+        {
+          "title": "Replication Gennaioli climate growth dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-000c"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b09",
+      "titleInfo": [
+        {
+          "title": "Replication Gennaioli climate dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0018"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b0a",
+      "titleInfo": [
+        {
+          "title": "Replication DHS 2015 climate dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0019"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b0b",
+      "titleInfo": [
+        {
+          "title": "Replication DHS 2005 climate dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-001a"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b0c",
+      "titleInfo": [
+        {
+          "title": "Replication climate R script"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-001b"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d867c",
+      "titleInfo": [
+        {
+          "title": "Article sur la santé globale"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-000b"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8685",
+      "titleInfo": [
+        {
+          "title": "Mémoire sur le PADS"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0014"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ede3",
+      "titleInfo": [
+        {
+          "title": "APPROACHES AND METHODS EMPLOYED IN REVITALISING THE SEPEREWA MUSICAL TRADITION IN GHANA"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03fe"
+    }
+  ]
+}

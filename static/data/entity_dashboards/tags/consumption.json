@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "consumption",
+    "name": "Consumption",
+    "count": 2
+  },
+  "timeline": [],
+  "stackedTimeline": [],
+  "types": [
+    {
+      "name": "Image",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Racism",
+      "value": 2
+    },
+    {
+      "name": "History",
+      "value": 2
+    },
+    {
+      "name": "Photography",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Racism",
+      "value": 2
+    },
+    {
+      "name": "History",
+      "value": 2
+    },
+    {
+      "name": "Photography",
+      "value": 2
+    },
+    {
+      "name": "Colonialism",
+      "value": 2
+    }
+  ],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "692db49707481a28c72155d1",
+      "titleInfo": [
+        {
+          "title": "Bayreuter M*siegel gegenüber vom Heimathafen"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-0029"
+    },
+    {
+      "_id": "692db49707481a28c72155d2",
+      "titleInfo": [
+        {
+          "title": "Kolonialladen Rosa Weiss"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial"
+      },
+      "dre_id": "eab-01-002a"
+    }
+  ]
+}

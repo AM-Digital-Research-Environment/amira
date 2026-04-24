@@ -1,0 +1,198 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "kumba",
+    "name": "Kumba",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1947,
+      "count": 1
+    },
+    {
+      "year": 1960,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1947,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1960,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Archives",
+      "value": 2
+    },
+    {
+      "name": "Colonisation",
+      "value": 2
+    },
+    {
+      "name": "Letters",
+      "value": 2
+    },
+    {
+      "name": "Social norms",
+      "value": 2
+    },
+    {
+      "name": "Discourse analysis",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Archives",
+      "value": 2
+    },
+    {
+      "name": "Colonisation",
+      "value": 2
+    },
+    {
+      "name": "Letters",
+      "value": 2
+    },
+    {
+      "name": "Social norms",
+      "value": 2
+    },
+    {
+      "name": "Discourse analysis",
+      "value": 2
+    },
+    {
+      "name": "British Colonisation",
+      "value": 2
+    },
+    {
+      "name": "Colonial Records",
+      "value": 2
+    },
+    {
+      "name": "Southern Cameroons",
+      "value": 2
+    },
+    {
+      "name": "Postcolonial Heritage",
+      "value": 2
+    },
+    {
+      "name": "Great Britain",
+      "value": 2
+    },
+    {
+      "name": "Postcolonial Studies",
+      "value": 2
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Otung, Glory Essien",
+      "value": 2
+    },
+    {
+      "name": "Anchimbe, Eric",
+      "value": 2
+    },
+    {
+      "name": "Chiangong, Pepetual Mforbe",
+      "value": 2
+    },
+    {
+      "name": "Marjie, Sarah",
+      "value": 2
+    },
+    {
+      "name": "Kengo, Emmanuel",
+      "value": 2
+    },
+    {
+      "name": "Atindogbe, Gratien",
+      "value": 2
+    },
+    {
+      "name": "Ubanako, Valentine",
+      "value": 2
+    },
+    {
+      "name": "Mforteh, Stephen",
+      "value": 2
+    },
+    {
+      "name": "Eyoh, Julius",
+      "value": 2
+    },
+    {
+      "name": "Oyali, Uchenna",
+      "value": 2
+    },
+    {
+      "name": "Mbah, Boniface",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "Cameroon",
+      "region": "Southwest",
+      "city": "Buea",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "6877ced7b542f8b9f8940b5e",
+      "titleInfo": [
+        {
+          "title": "Kumba Building Rules Agitation Against"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_CLnCK2019",
+        "name": "Colonial Letters and the Contact of Knowledges"
+      },
+      "dre_id": "abj-99-0059"
+    },
+    {
+      "_id": "6877ced7b542f8b9f8940b6a",
+      "titleInfo": [
+        {
+          "title": "Kumba Town N. A. Dog Licence Fees Order"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_CLnCK2019",
+        "name": "Colonial Letters and the Contact of Knowledges"
+      },
+      "dre_id": "abj-99-0065"
+    }
+  ]
+}

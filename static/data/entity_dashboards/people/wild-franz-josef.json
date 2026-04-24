@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "wild-franz-josef",
+    "name": "Wild, Franz Josef",
+    "count": 6
+  },
+  "timeline": [
+    {
+      "year": 1964,
+      "count": 2
+    },
+    {
+      "year": 1965,
+      "count": 4
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1964,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1965,
+      "total": 4,
+      "byType": {
+        "Text": 4
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 6
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "value": 6
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "Nigeria",
+      "value": 6
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Stephan, Klaus",
+      "value": 6
+    }
+  ],
+  "locations": [
+    {
+      "country": "Nigeria",
+      "region": "",
+      "city": "",
+      "count": 4
+    },
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Munich",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "6705340c4b98fee5873b442e",
+      "titleInfo": [
+        {
+          "title": "Letter Wild_Stephan 1964"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-0021"
+    },
+    {
+      "_id": "6705340c4b98fee5873b443f",
+      "titleInfo": [
+        {
+          "title": "Letter Stephan_Wild 1965"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-0032"
+    },
+    {
+      "_id": "6705340c4b98fee5873b4442",
+      "titleInfo": [
+        {
+          "title": "Vorlaeufiger Bericht nach Abschluss der Dreharbeiten"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-0035"
+    },
+    {
+      "_id": "6705340c4b98fee5873b445e",
+      "titleInfo": [
+        {
+          "title": "Letter Wild_Stephan 1964"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-0051"
+    },
+    {
+      "_id": "6705340c4b98fee5873b446f",
+      "titleInfo": [
+        {
+          "title": "Letter Stephan_Wild 1965"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-0062"
+    },
+    {
+      "_id": "6705340c4b98fee5873b4472",
+      "titleInfo": [
+        {
+          "title": "Vorlaeufiger Bericht nach Abschluss der Dreharbeiten"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-0065"
+    }
+  ]
+}

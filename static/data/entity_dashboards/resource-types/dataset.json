@@ -1,0 +1,1518 @@
+{
+  "meta": {
+    "type": "resource-type",
+    "id": "dataset",
+    "name": "Dataset",
+    "count": 62
+  },
+  "timeline": [
+    {
+      "year": 2019,
+      "count": 41
+    },
+    {
+      "year": 2021,
+      "count": 6
+    },
+    {
+      "year": 2022,
+      "count": 7
+    },
+    {
+      "year": 2023,
+      "count": 6
+    },
+    {
+      "year": 2024,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2019,
+      "total": 41,
+      "byType": {
+        "Dataset": 41
+      }
+    },
+    {
+      "year": 2021,
+      "total": 6,
+      "byType": {
+        "Dataset": 6
+      }
+    },
+    {
+      "year": 2022,
+      "total": 7,
+      "byType": {
+        "Dataset": 7
+      }
+    },
+    {
+      "year": 2023,
+      "total": 6,
+      "byType": {
+        "Dataset": 6
+      }
+    },
+    {
+      "year": 2024,
+      "total": 2,
+      "byType": {
+        "Dataset": 2
+      }
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 58
+    },
+    {
+      "name": "French",
+      "value": 1
+    }
+  ],
+  "heatmap": [
+    {
+      "x": "2010s",
+      "y": "English",
+      "value": 41
+    },
+    {
+      "x": "2020s",
+      "y": "English",
+      "value": 17
+    },
+    {
+      "x": "2020s",
+      "y": "French",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Youth",
+      "value": 45
+    },
+    {
+      "name": "Learning",
+      "value": 41
+    },
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 9
+    },
+    {
+      "name": "Natural disasters",
+      "value": 6
+    },
+    {
+      "name": "Global warming",
+      "value": 6
+    },
+    {
+      "name": "Sustainability",
+      "value": 6
+    },
+    {
+      "name": "Geography",
+      "value": 5
+    },
+    {
+      "name": "Mediation (Statistics)",
+      "value": 5
+    },
+    {
+      "name": "Education",
+      "value": 5
+    },
+    {
+      "name": "Child care",
+      "value": 4
+    },
+    {
+      "name": "Children",
+      "value": 4
+    },
+    {
+      "name": "Fertility",
+      "value": 4
+    },
+    {
+      "name": "Income distribution",
+      "value": 4
+    },
+    {
+      "name": "Family planning",
+      "value": 4
+    },
+    {
+      "name": "Migration",
+      "value": 4
+    },
+    {
+      "name": "Economic development",
+      "value": 4
+    },
+    {
+      "name": "Economic geography",
+      "value": 2
+    },
+    {
+      "name": "Social justice",
+      "value": 2
+    },
+    {
+      "name": "Venture capital",
+      "value": 2
+    },
+    {
+      "name": "Regional disparities",
+      "value": 2
+    },
+    {
+      "name": "Gender",
+      "value": 2
+    },
+    {
+      "name": "Race",
+      "value": 2
+    },
+    {
+      "name": "Intersectionality (Sociology)",
+      "value": 2
+    },
+    {
+      "name": "Interviews",
+      "value": 2
+    },
+    {
+      "name": "Literacy",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Youth",
+      "value": 45
+    },
+    {
+      "name": "Learning",
+      "value": 41
+    },
+    {
+      "name": "Econometric Evidence",
+      "value": 11
+    },
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 9
+    },
+    {
+      "name": "Natural disasters",
+      "value": 6
+    },
+    {
+      "name": "Global warming",
+      "value": 6
+    },
+    {
+      "name": "Sustainability",
+      "value": 6
+    },
+    {
+      "name": "Disaster Management",
+      "value": 6
+    },
+    {
+      "name": "Environmental Accounts",
+      "value": 6
+    },
+    {
+      "name": "Environmental Accounting",
+      "value": 6
+    },
+    {
+      "name": "Environmental Equity",
+      "value": 6
+    },
+    {
+      "name": "Population Growth",
+      "value": 6
+    },
+    {
+      "name": "Regional Economic Development",
+      "value": 6
+    },
+    {
+      "name": "Regional Economic Change",
+      "value": 6
+    },
+    {
+      "name": "Economic-Environmental Interactions",
+      "value": 6
+    },
+    {
+      "name": "Trade",
+      "value": 6
+    },
+    {
+      "name": "Environment",
+      "value": 6
+    },
+    {
+      "name": "Climate Change",
+      "value": 6
+    },
+    {
+      "name": "Geography",
+      "value": 5
+    },
+    {
+      "name": "Mediation (Statistics)",
+      "value": 5
+    },
+    {
+      "name": "Coastal Proximity",
+      "value": 5
+    },
+    {
+      "name": "Mediation Analysis",
+      "value": 5
+    },
+    {
+      "name": "Coastal Countries",
+      "value": 5
+    },
+    {
+      "name": "Household Survey",
+      "value": 5
+    },
+    {
+      "name": "Education",
+      "value": 5
+    },
+    {
+      "name": "Child care",
+      "value": 4
+    },
+    {
+      "name": "Children",
+      "value": 4
+    },
+    {
+      "name": "Fertility",
+      "value": 4
+    },
+    {
+      "name": "Income distribution",
+      "value": 4
+    },
+    {
+      "name": "Family planning",
+      "value": 4
+    },
+    {
+      "name": "Migration",
+      "value": 4
+    },
+    {
+      "name": "Economic development",
+      "value": 4
+    },
+    {
+      "name": "Female Education",
+      "value": 4
+    },
+    {
+      "name": "Human Development",
+      "value": 4
+    },
+    {
+      "name": "Education Policy",
+      "value": 4
+    },
+    {
+      "name": "Educational Influence",
+      "value": 4
+    },
+    {
+      "name": "Child Development",
+      "value": 4
+    },
+    {
+      "name": "Human Resources",
+      "value": 4
+    },
+    {
+      "name": "Economic geography",
+      "value": 2
+    },
+    {
+      "name": "Social justice",
+      "value": 2
+    },
+    {
+      "name": "Venture capital",
+      "value": 2
+    },
+    {
+      "name": "Regional disparities",
+      "value": 2
+    },
+    {
+      "name": "Gender",
+      "value": 2
+    },
+    {
+      "name": "Race",
+      "value": 2
+    },
+    {
+      "name": "Intersectionality (Sociology)",
+      "value": 2
+    },
+    {
+      "name": "Interviews",
+      "value": 2
+    },
+    {
+      "name": "Startup Founder",
+      "value": 2
+    },
+    {
+      "name": "Geographic Inequity",
+      "value": 2
+    },
+    {
+      "name": "Silicon Savannah",
+      "value": 2
+    },
+    {
+      "name": "Inequality",
+      "value": 2
+    },
+    {
+      "name": "Entrepreneurial Mobility",
+      "value": 2
+    },
+    {
+      "name": "Startup Ecosystem",
+      "value": 2
+    },
+    {
+      "name": "Financial Geography",
+      "value": 2
+    },
+    {
+      "name": "Structural Barrier",
+      "value": 2
+    },
+    {
+      "name": "Barriers to Entry (Economic Theory)",
+      "value": 2
+    },
+    {
+      "name": "Literacy",
+      "value": 1
+    },
+    {
+      "name": "Interaction",
+      "value": 1
+    },
+    {
+      "name": "Illiteracy",
+      "value": 1
+    },
+    {
+      "name": "Judges",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Treaties",
+      "value": 1
+    },
+    {
+      "name": "Courts",
+      "value": 1
+    },
+    {
+      "name": "East African Community",
+      "value": 1
+    },
+    {
+      "name": "East African Court of Justice",
+      "value": 1
+    },
+    {
+      "name": "Common Market for Eastern and Southern Africa",
+      "value": 1
+    },
+    {
+      "name": "Southern African Development Community",
+      "value": 1
+    },
+    {
+      "name": "Regional Court",
+      "value": 1
+    },
+    {
+      "name": "Regional Organisation",
+      "value": 1
+    },
+    {
+      "name": "Appointment Rules",
+      "value": 1
+    },
+    {
+      "name": "Attitudes",
+      "value": 1
+    },
+    {
+      "name": "Multilingualism",
+      "value": 1
+    },
+    {
+      "name": "Translanguaging (Linguistics)",
+      "value": 1
+    },
+    {
+      "name": "Perception",
+      "value": 1
+    },
+    {
+      "name": "Formal Learning",
+      "value": 1
+    },
+    {
+      "name": "Informal Interaction",
+      "value": 1
+    },
+    {
+      "name": "Pedagogy",
+      "value": 1
+    },
+    {
+      "name": "West Africa",
+      "value": 1
+    },
+    {
+      "name": "African Studies",
+      "value": 1
+    },
+    {
+      "name": "Immigration Studies",
+      "value": 1
+    },
+    {
+      "name": "Immigration",
+      "value": 1
+    },
+    {
+      "name": "Knowledge",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tamou, Issa",
+      "value": 41
+    },
+    {
+      "name": "Stadelmann, David",
+      "value": 15
+    },
+    {
+      "name": "Wild, Frederik",
+      "value": 9
+    },
+    {
+      "name": "Greßer, Christina",
+      "value": 6
+    },
+    {
+      "name": "Meierrieks, Daniel",
+      "value": 6
+    },
+    {
+      "name": "Mkalama, Benedict Wandera",
+      "value": 2
+    },
+    {
+      "name": "Ouma, Stefan",
+      "value": 2
+    },
+    {
+      "name": "Krauß, Rebekka",
+      "value": 1
+    },
+    {
+      "name": "Abbas, Nasir",
+      "value": 1
+    },
+    {
+      "name": "Stroh-Steckelberg, Alexander",
+      "value": 1
+    },
+    {
+      "name": "Kisakye, Diana",
+      "value": 1
+    },
+    {
+      "name": "Otundo, Khalayi Billian",
+      "value": 1
+    },
+    {
+      "name": "Orero, Sheila",
+      "value": 1
+    },
+    {
+      "name": "Mühleisen, Susanne",
+      "value": 1
+    },
+    {
+      "name": "Lawanson, Taibat",
+      "value": 1
+    },
+    {
+      "name": "Eleshin, Abisoye",
+      "value": 1
+    },
+    {
+      "name": "Attoh, Franca",
+      "value": 1
+    },
+    {
+      "name": "Eesuola, Kayode",
+      "value": 1
+    },
+    {
+      "name": "Olalekan, Damilola",
+      "value": 1
+    },
+    {
+      "name": "Oyewumi, Masudi",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Benin",
+      "region": "",
+      "city": "",
+      "count": 41
+    },
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 15
+    },
+    {
+      "country": "Kenya",
+      "region": "",
+      "city": "",
+      "count": 2
+    },
+    {
+      "country": "Bolivia",
+      "region": "La Paz Department",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "Kenya",
+      "region": "Nandi",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "Nigeria",
+      "region": "Lagos State",
+      "city": "Lagos",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "6877e287b542f8b9f8940bd7",
+      "titleInfo": [
+        {
+          "title": "PARTICIPANTS"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_LearnClass2019",
+        "name": "Learning Beyond the Classroom: Coping with Illiteracy in Urban Literate Environments in Benin and Bolivia"
+      },
+      "dre_id": "abp-99-0033"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18973",
+      "titleInfo": [
+        {
+          "title": "Personal details"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0000"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18974",
+      "titleInfo": [
+        {
+          "title": "Schooling Trajectory"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0001"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18975",
+      "titleInfo": [
+        {
+          "title": "2nd school"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0002"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18976",
+      "titleInfo": [
+        {
+          "title": "3rd school"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0003"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18977",
+      "titleInfo": [
+        {
+          "title": "4th school"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0004"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18978",
+      "titleInfo": [
+        {
+          "title": "5th school"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0005"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18979",
+      "titleInfo": [
+        {
+          "title": "6th school"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0006"
+    },
+    {
+      "_id": "674892fd2e70d1e383d1897a",
+      "titleInfo": [
+        {
+          "title": "7th school"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0007"
+    },
+    {
+      "_id": "674892fd2e70d1e383d1897b",
+      "titleInfo": [
+        {
+          "title": "8th school"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0008"
+    },
+    {
+      "_id": "674892fd2e70d1e383d1897c",
+      "titleInfo": [
+        {
+          "title": "9th school"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0009"
+    },
+    {
+      "_id": "674892fd2e70d1e383d1897d",
+      "titleInfo": [
+        {
+          "title": "10th school"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-000a"
+    },
+    {
+      "_id": "674892fd2e70d1e383d1897e",
+      "titleInfo": [
+        {
+          "title": "11th school"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-000b"
+    },
+    {
+      "_id": "674892fd2e70d1e383d1897f",
+      "titleInfo": [
+        {
+          "title": "12th school"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-000c"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18980",
+      "titleInfo": [
+        {
+          "title": "13th school"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-000d"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18981",
+      "titleInfo": [
+        {
+          "title": "3rd training"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-000e"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18982",
+      "titleInfo": [
+        {
+          "title": "4th training"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-000f"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18983",
+      "titleInfo": [
+        {
+          "title": "5th training"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0010"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18984",
+      "titleInfo": [
+        {
+          "title": "6th training"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0011"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18985",
+      "titleInfo": [
+        {
+          "title": "Other situations of learning"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0012"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18986",
+      "titleInfo": [
+        {
+          "title": "Current situation"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0013"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18987",
+      "titleInfo": [
+        {
+          "title": "Dependents"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0014"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18988",
+      "titleInfo": [
+        {
+          "title": "Future"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0015"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18989",
+      "titleInfo": [
+        {
+          "title": "1. Personal details_ Questionnaire DO"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0016"
+    },
+    {
+      "_id": "674892fd2e70d1e383d1898a",
+      "titleInfo": [
+        {
+          "title": "1st school"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0017"
+    },
+    {
+      "_id": "674892fd2e70d1e383d1898b",
+      "titleInfo": [
+        {
+          "title": "Questionnaire Do 2nd school"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0018"
+    },
+    {
+      "_id": "674892fd2e70d1e383d1898c",
+      "titleInfo": [
+        {
+          "title": "Questionnaire DO_ 3rd school"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0019"
+    },
+    {
+      "_id": "674892fd2e70d1e383d1898d",
+      "titleInfo": [
+        {
+          "title": "Questionnaire Do_ 4th school"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-001a"
+    },
+    {
+      "_id": "674892fd2e70d1e383d1898e",
+      "titleInfo": [
+        {
+          "title": "5th school"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-001b"
+    },
+    {
+      "_id": "674892fd2e70d1e383d1898f",
+      "titleInfo": [
+        {
+          "title": "6th School Another school"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-001c"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18990",
+      "titleInfo": [
+        {
+          "title": "8_7th school_Questionnaire DO"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-001d"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18991",
+      "titleInfo": [
+        {
+          "title": "3. Work Trajectories"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-001e"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18992",
+      "titleInfo": [
+        {
+          "title": "Second Work Diagrams"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-001f"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18993",
+      "titleInfo": [
+        {
+          "title": "Third Work"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0020"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18994",
+      "titleInfo": [
+        {
+          "title": "General Alternative Apprenticeship Trajectories"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0021"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18995",
+      "titleInfo": [
+        {
+          "title": "Second Training"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0022"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18996",
+      "titleInfo": [
+        {
+          "title": "Third Training"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0023"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18997",
+      "titleInfo": [
+        {
+          "title": "Other Learning Situation"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0024"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18998",
+      "titleInfo": [
+        {
+          "title": "Dependents"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0025"
+    },
+    {
+      "_id": "674892fd2e70d1e383d18999",
+      "titleInfo": [
+        {
+          "title": "First work"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0026"
+    },
+    {
+      "_id": "674892fd2e70d1e383d1899a",
+      "titleInfo": [
+        {
+          "title": "General categories"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0027"
+    },
+    {
+      "_id": "674892fd2e70d1e383d1899b",
+      "titleInfo": [
+        {
+          "title": "Upper categories"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MaL2019",
+        "name": "Making a Living: Learning Trajectories Towards the Ability to earn a Livelihood"
+      },
+      "dre_id": "abq-01-0028"
+    },
+    {
+      "_id": "673ca0aecd28e4b91ff9d140",
+      "titleInfo": [
+        {
+          "title": "Dataset with information on the start-ups and founders"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MoCapIE2021",
+        "name": "Mobile Capital and (Im)Mobile Entrepreneurs: Start-up Success, Institutional Context and the “Laws of Start-up Money” in Silicon Savannah"
+      },
+      "dre_id": "aby-01-0003"
+    },
+    {
+      "_id": "673ca0aecd28e4b91ff9d141",
+      "titleInfo": [
+        {
+          "title": "Anonymised dataset with information on the start ups and founders"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MoCapIE2021",
+        "name": "Mobile Capital and (Im)Mobile Entrepreneurs: Start-up Success, Institutional Context and the “Laws of Start-up Money” in Silicon Savannah"
+      },
+      "dre_id": "aby-01-0004"
+    },
+    {
+      "_id": "6798e3067e0d400ed54ccc71",
+      "titleInfo": [
+        {
+          "title": "Major structural elements and appointment criteria to African Regional Courts with references to Treaty and protocol regulations"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa-PRJ2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "aco-01-0000"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6af3",
+      "titleInfo": [
+        {
+          "title": "Online Appendix - Supporting Information"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-0002"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6af6",
+      "titleInfo": [
+        {
+          "title": "Replication script for table 4"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-0005"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6af7",
+      "titleInfo": [
+        {
+          "title": "Replication dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-0006"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6af8",
+      "titleInfo": [
+        {
+          "title": "Replication dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-0007"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6af9",
+      "titleInfo": [
+        {
+          "title": "Replication R script"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-0008"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6afc",
+      "titleInfo": [
+        {
+          "title": "Supplementary Information"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-000b"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6afd",
+      "titleInfo": [
+        {
+          "title": "Replication Gennaioli climate growth dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-000c"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b05",
+      "titleInfo": [
+        {
+          "title": "Replication R script"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0014"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b06",
+      "titleInfo": [
+        {
+          "title": "Replication dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0015"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b07",
+      "titleInfo": [
+        {
+          "title": "Replication dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0016"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b08",
+      "titleInfo": [
+        {
+          "title": "Replication dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0017"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b09",
+      "titleInfo": [
+        {
+          "title": "Replication Gennaioli climate dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0018"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b0a",
+      "titleInfo": [
+        {
+          "title": "Replication DHS 2015 climate dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0019"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b0b",
+      "titleInfo": [
+        {
+          "title": "Replication DHS 2005 climate dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-001a"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b0c",
+      "titleInfo": [
+        {
+          "title": "Replication climate R script"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-001b"
+    },
+    {
+      "_id": "67a3500526e222e7e827a3d2",
+      "titleInfo": [
+        {
+          "title": "SPSS Results"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MultiALS2021",
+        "name": "Multilingual African Learning Spaces: Translanguaging Practices in the Kenyan Classroom"
+      },
+      "dre_id": "abr-01-0000"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0e6",
+      "titleInfo": [
+        {
+          "title": "Transnational Routes in West Africa"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-000f"
+    }
+  ]
+}

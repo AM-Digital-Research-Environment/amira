@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "olusola-segun",
+    "name": "Olusola, Segun",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 2003,
+      "count": 2
+    },
+    {
+      "year": 2008,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2003,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 2008,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "Nigeria",
+      "value": 3
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Muller-Verweyen, Michael",
+      "value": 2
+    },
+    {
+      "name": "Ajiboye, David",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Nigeria",
+      "region": "Lagos State",
+      "city": "Lagos",
+      "count": 2
+    },
+    {
+      "country": "Nigeria",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "6705340c4b98fee5873b4416",
+      "titleInfo": [
+        {
+          "title": "Africa’s First Tv Producer Segun Olusola Talks"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-0009"
+    },
+    {
+      "_id": "6705340c4b98fee5873b4417",
+      "titleInfo": [
+        {
+          "title": "Taiwo Shango Film Production"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-000a"
+    },
+    {
+      "_id": "6705340c4b98fee5873b444e",
+      "titleInfo": [
+        {
+          "title": "Taiwo Shango Film Production"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-0041"
+    }
+  ]
+}

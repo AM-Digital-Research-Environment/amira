@@ -1,0 +1,408 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "musical-meter",
+    "name": "Musical Meter",
+    "count": 7
+  },
+  "timeline": [
+    {
+      "year": 1954,
+      "count": 1
+    },
+    {
+      "year": 1955,
+      "count": 1
+    },
+    {
+      "year": 1962,
+      "count": 1
+    },
+    {
+      "year": 1964,
+      "count": 1
+    },
+    {
+      "year": 1971,
+      "count": 1
+    },
+    {
+      "year": 1972,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1954,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1955,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1962,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1964,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1971,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1972,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 7
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 7
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 7
+    },
+    {
+      "name": "Music",
+      "value": 5
+    },
+    {
+      "name": "Africa",
+      "value": 4
+    },
+    {
+      "name": "Musical instruments",
+      "value": 3
+    },
+    {
+      "name": "Dance",
+      "value": 3
+    },
+    {
+      "name": "Drum",
+      "value": 3
+    },
+    {
+      "name": "Drum music",
+      "value": 3
+    },
+    {
+      "name": "Ewe (African people)",
+      "value": 2
+    },
+    {
+      "name": "Anlo (African people)",
+      "value": 2
+    },
+    {
+      "name": "West Africa",
+      "value": 1
+    },
+    {
+      "name": "East Africa",
+      "value": 1
+    },
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 1
+    },
+    {
+      "name": "Xylophone music",
+      "value": 1
+    },
+    {
+      "name": "Syncopation",
+      "value": 1
+    },
+    {
+      "name": "Polyrhythm",
+      "value": 1
+    },
+    {
+      "name": "Xylophone",
+      "value": 1
+    },
+    {
+      "name": "Criticism",
+      "value": 1
+    },
+    {
+      "name": "Composition (Music)",
+      "value": 1
+    },
+    {
+      "name": "Songs",
+      "value": 1
+    },
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Percussion music",
+      "value": 1
+    },
+    {
+      "name": "Tsonga (African people)",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Ethnomusicology",
+      "value": 7
+    },
+    {
+      "name": "African Music",
+      "value": 7
+    },
+    {
+      "name": "Musical Rhythm",
+      "value": 7
+    },
+    {
+      "name": "Music",
+      "value": 5
+    },
+    {
+      "name": "Africa",
+      "value": 4
+    },
+    {
+      "name": "Musical instruments",
+      "value": 3
+    },
+    {
+      "name": "Dance",
+      "value": 3
+    },
+    {
+      "name": "Drum",
+      "value": 3
+    },
+    {
+      "name": "Drum music",
+      "value": 3
+    },
+    {
+      "name": "Drum (Instrument)",
+      "value": 3
+    },
+    {
+      "name": "Ewe (African people)",
+      "value": 2
+    },
+    {
+      "name": "Anlo (African people)",
+      "value": 2
+    },
+    {
+      "name": "Ghana",
+      "value": 2
+    },
+    {
+      "name": "West Africa",
+      "value": 1
+    },
+    {
+      "name": "East Africa",
+      "value": 1
+    },
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 1
+    },
+    {
+      "name": "Foreign Influences",
+      "value": 1
+    },
+    {
+      "name": "Xylophone music",
+      "value": 1
+    },
+    {
+      "name": "Syncopation",
+      "value": 1
+    },
+    {
+      "name": "Polyrhythm",
+      "value": 1
+    },
+    {
+      "name": "Xylophone",
+      "value": 1
+    },
+    {
+      "name": "Criticism",
+      "value": 1
+    },
+    {
+      "name": "Methods",
+      "value": 1
+    },
+    {
+      "name": "Interpretation",
+      "value": 1
+    },
+    {
+      "name": "Xylophone (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Composition (Music)",
+      "value": 1
+    },
+    {
+      "name": "Songs",
+      "value": 1
+    },
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Percussion music",
+      "value": 1
+    },
+    {
+      "name": "Tsonga (African people)",
+      "value": 1
+    },
+    {
+      "name": "Shangana",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Jones, A. M.",
+      "value": 2
+    },
+    {
+      "name": "Pantaleoni, Hewitt",
+      "value": 2
+    },
+    {
+      "name": "Blacking, John",
+      "value": 1
+    },
+    {
+      "name": "Kubik, Gerhard",
+      "value": 1
+    },
+    {
+      "name": "Johnston, Thomas F.",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 7
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9e9f8",
+      "titleInfo": [
+        {
+          "title": "East and West, North and South"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0013"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea10",
+      "titleInfo": [
+        {
+          "title": "Some notes on a theory of African rhythm advanced by Erich von Hornbostel"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-002b"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eac5",
+      "titleInfo": [
+        {
+          "title": "The phenomenon of inherent rhythms in East and Central African instrumental music"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00e0"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eaf8",
+      "titleInfo": [
+        {
+          "title": "African metrical lyrics"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0113"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb94",
+      "titleInfo": [
+        {
+          "title": "Shangana-Tsonga drum and bow rhythms"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01af"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eba7",
+      "titleInfo": [
+        {
+          "title": "Three principles of timing in Anlo dance drumming"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01c2"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eba8",
+      "titleInfo": [
+        {
+          "title": "Towards understanding the play of Atsimevu in Atsiã"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01c3"
+    }
+  ]
+}

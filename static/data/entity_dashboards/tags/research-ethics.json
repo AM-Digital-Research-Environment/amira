@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "research-ethics",
+    "name": "Research Ethics",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2021,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2021,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "Researcher",
+      "value": 2
+    },
+    {
+      "name": "Historian",
+      "value": 2
+    },
+    {
+      "name": "Anthropologist",
+      "value": 2
+    },
+    {
+      "name": "Linguist",
+      "value": 2
+    },
+    {
+      "name": "Integrative Studies",
+      "value": 2
+    },
+    {
+      "name": "Ethics Dumping",
+      "value": 2
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Fayemi, Kazeem",
+      "value": 2
+    },
+    {
+      "name": "Akin-Otiko, Akinmayowa",
+      "value": 2
+    },
+    {
+      "name": "Eleanya, Ugochi",
+      "value": 2
+    },
+    {
+      "name": "Soetan, Abidemi",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "Nigeria",
+      "region": "Lagos State",
+      "city": "Lagos",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "66c60b2b56227158bf8279d3",
+      "titleInfo": [
+        {
+          "title": "African Studies without Ethics Dumping: An Integrative Study of Research Ethics Governance in Nigeria"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_EthDump2021",
+        "name": "African Studies without Ethics Dumping: An Integrative Study of Research Ethics Governance in Burkina Faso, Kenya, Nigeria, and South Africa"
+      },
+      "dre_id": "aab-02-0000"
+    },
+    {
+      "_id": "66c60b2b56227158bf8279d5",
+      "titleInfo": [
+        {
+          "title": "African Studies without Ethics Dumping: An Integrative Study of Research Ethics Governance in Burkina Faso, Kenya, Nigeria, and South Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_EthDump2021",
+        "name": "African Studies without Ethics Dumping: An Integrative Study of Research Ethics Governance in Burkina Faso, Kenya, Nigeria, and South Africa"
+      },
+      "dre_id": "aab-02-0002"
+    }
+  ]
+}

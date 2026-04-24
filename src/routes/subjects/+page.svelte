@@ -1,17 +1,20 @@
 <script lang="ts">
 	import { StatCard, ChartCard, BackToList, SEO } from '$lib/components/ui';
 	import { WordCloud, EntityKnowledgeGraph } from '$lib/components/charts';
+	import { EntityDashboardSection } from '$lib/components/dashboards';
 	import {
 		EntityCard,
 		EntityBrowseGrid,
 		EntityToolbar,
 		EntityDetailHeader,
-		EntityItemsCard,
+		SearchableItemsCard,
 		applyEntitySort,
 		type EntitySort
 	} from '$lib/components/entity-browse';
-	import { allCollections } from '$lib/stores/data';
+	import { allCollections, ensureCollections } from '$lib/stores/data';
 	import { page } from '$app/stores';
+	import { base } from '$app/paths';
+	import { onMount } from 'svelte';
 	import { goto } from '$app/navigation';
 	import { scrollToTop } from '$lib/utils/urlSelection';
 	import { createSearchFilter } from '$lib/utils/search';
@@ -20,8 +23,9 @@
 		sortedCategoryList,
 		categoryToChartData
 	} from '$lib/utils/categoryIndex';
-	import type { WordCloudDataPoint, CategoryEntry } from '$lib/types';
+	import type { WordCloudDataPoint, CategoryEntry, CollectionItem } from '$lib/types';
 	import { BookOpen, Tag, FileText } from '@lucide/svelte';
+	import { createEntityDetailState } from '$lib/utils/loaders';
 
 	let searchQuery = $state('');
 	let sort = $state<EntitySort>('count-desc');
@@ -59,7 +63,37 @@
 	const searchTerms = createSearchFilter<CategoryEntry>([(t) => t.name]);
 	let visibleTerms = $derived(applyEntitySort(searchTerms(currentList, searchQuery), sort));
 
-	let selectedTerm = $derived(selectedName ? currentMap.get(selectedName) || null : null);
+	// Per-entity JSON (items + aggregates). Direct detail URLs skip the full
+	// collections load and render from this.
+	const detail = createEntityDetailState(
+		() => (viewMode === 'subjects' ? 'subject' : 'tag'),
+		() => selectedName
+	);
+
+	let selectedTerm = $derived.by((): CategoryEntry | null => {
+		if (!selectedName) return null;
+		const live = currentMap.get(selectedName);
+		if (live && live.items.length > 0) return live;
+		if (detail.data?.meta) {
+			return {
+				name: detail.data.meta.name ?? selectedName,
+				count: detail.data.meta.count ?? 0,
+				items: detail.items
+			};
+		}
+		return null;
+	});
+
+	// Collections power the list view (browse grid, word cloud, counts). Not
+	// needed on direct detail URLs — the per-entity JSON has everything
+	// required to render that branch.
+	onMount(() => {
+		if (!selectedName) void ensureCollections(base);
+	});
+
+	$effect(() => {
+		if (!selectedName) void ensureCollections(base);
+	});
 
 	function selectTerm(name: string) {
 		goto(`?name=${encodeURIComponent(name)}&view=${viewMode}`, { noScroll: true });
@@ -87,27 +121,41 @@
 		</p>
 	</div>
 
-	{#if selectedTerm}
+	{#if selectedName}
 		<div class="space-y-6">
 			<BackToList
 				show={true}
 				onclick={clearSelection}
 				label={`Back to ${viewMode === 'subjects' ? 'subjects' : 'tags'}`}
 			/>
-			<EntityDetailHeader
-				title={selectedTerm.name}
-				icon={Tag}
-				subtitle={viewMode === 'subjects' ? 'LCSH subject heading' : 'Free-form tag'}
-				count={selectedTerm.count}
-				wisskiCategory={viewMode === 'subjects' ? 'subjects' : 'tags'}
-				wisskiKey={selectedTerm.name}
-			/>
-			<EntityItemsCard items={selectedTerm.items} showProject={true} />
-			<EntityKnowledgeGraph
-				entityType={viewMode === 'subjects' ? 'subject' : 'tag'}
-				entityId={selectedTerm.name}
-				title={viewMode === 'subjects' ? 'Subject co-occurrence graph' : 'Tag neighbourhood graph'}
-			/>
+			{#if selectedTerm}
+				<EntityDetailHeader
+					title={selectedTerm.name}
+					icon={Tag}
+					subtitle={viewMode === 'subjects' ? 'LCSH subject heading' : 'Free-form tag'}
+					count={selectedTerm.count}
+					wisskiCategory={viewMode === 'subjects' ? 'subjects' : 'tags'}
+					wisskiKey={selectedTerm.name}
+				/>
+				<SearchableItemsCard items={selectedTerm.items as CollectionItem[]} />
+				<EntityDashboardSection
+					entityType={viewMode === 'subjects' ? 'subject' : 'tag'}
+					entityId={selectedTerm.name}
+					items={selectedTerm.items as CollectionItem[]}
+					data={detail.data}
+				/>
+				<EntityKnowledgeGraph
+					entityType={viewMode === 'subjects' ? 'subject' : 'tag'}
+					entityId={selectedTerm.name}
+					title={viewMode === 'subjects'
+						? 'Subject co-occurrence graph'
+						: 'Tag neighbourhood graph'}
+				/>
+			{:else if detail.loading}
+				<p class="text-sm text-muted-foreground">Loading dashboard…</p>
+			{:else}
+				<p class="text-sm text-muted-foreground">No data available.</p>
+			{/if}
 		</div>
 	{:else}
 		<div class="grid gap-4 sm:grid-cols-3">

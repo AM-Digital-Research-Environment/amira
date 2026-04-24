@@ -1,0 +1,365 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "mosaics",
+    "name": "Mosaics",
+    "count": 11
+  },
+  "timeline": [
+    {
+      "year": 1971,
+      "count": 2
+    },
+    {
+      "year": 1973,
+      "count": 1
+    },
+    {
+      "year": 2014,
+      "count": 6
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1971,
+      "total": 2,
+      "byType": {
+        "Image": 2
+      }
+    },
+    {
+      "year": 1973,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    },
+    {
+      "year": 2014,
+      "total": 6,
+      "byType": {
+        "Image": 6
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 11
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 6
+    },
+    {
+      "name": "German",
+      "value": 1
+    },
+    {
+      "name": "Latin",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Photographs",
+      "value": 11
+    },
+    {
+      "name": "Artists",
+      "value": 10
+    },
+    {
+      "name": "Africa",
+      "value": 6
+    },
+    {
+      "name": "Interior decoration",
+      "value": 6
+    },
+    {
+      "name": "Women artists",
+      "value": 5
+    },
+    {
+      "name": "Courtyards",
+      "value": 4
+    },
+    {
+      "name": "Art",
+      "value": 1
+    },
+    {
+      "name": "Women",
+      "value": 1
+    },
+    {
+      "name": "Doors",
+      "value": 1
+    },
+    {
+      "name": "Pottery",
+      "value": 1
+    },
+    {
+      "name": "Museums",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Photographs",
+      "value": 11
+    },
+    {
+      "name": "Nigeria",
+      "value": 11
+    },
+    {
+      "name": "Artists",
+      "value": 10
+    },
+    {
+      "name": "Africa",
+      "value": 6
+    },
+    {
+      "name": "Interior decoration",
+      "value": 6
+    },
+    {
+      "name": "Osogbo",
+      "value": 6
+    },
+    {
+      "name": "Art Collector",
+      "value": 6
+    },
+    {
+      "name": "Art Collecting",
+      "value": 6
+    },
+    {
+      "name": "Ile-Ife",
+      "value": 5
+    },
+    {
+      "name": "Women artists",
+      "value": 5
+    },
+    {
+      "name": "Courtyards",
+      "value": 4
+    },
+    {
+      "name": "Art",
+      "value": 1
+    },
+    {
+      "name": "Women",
+      "value": 1
+    },
+    {
+      "name": "Doors",
+      "value": 1
+    },
+    {
+      "name": "Pottery",
+      "value": 1
+    },
+    {
+      "name": "Museums",
+      "value": 1
+    },
+    {
+      "name": "Pottery Museum",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Beier, Ulli",
+      "value": 11
+    },
+    {
+      "name": "Greven, Katharina",
+      "value": 11
+    },
+    {
+      "name": "Beier, Georgina",
+      "value": 7
+    }
+  ],
+  "locations": [
+    {
+      "country": "Nigeria",
+      "region": "Osun State",
+      "city": "Osogbo",
+      "count": 6
+    },
+    {
+      "country": "Nigeria",
+      "region": "Osun State",
+      "city": "Ile-Ife",
+      "count": 5
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b4bf",
+      "titleInfo": [
+        {
+          "title": "Schüssel auf dem Mosaik im Innenhof in Ile-Ife"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0037"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4ea",
+      "titleInfo": [
+        {
+          "title": "Georgina Beier in ihrem Innenhof in Ile-Ife"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0062"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4eb",
+      "titleInfo": [
+        {
+          "title": "Aufnahme des Innenhofs in Ile-Ife"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0063"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4ec",
+      "titleInfo": [
+        {
+          "title": "Innenaufnahme des Pottery Museum in Ile-Ife"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0064"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4ed",
+      "titleInfo": [
+        {
+          "title": "Aufnahme der Tür des Pottery Museum in Ile-Ife"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0065"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b518",
+      "titleInfo": [
+        {
+          "title": "Aufnahme des herausgebrochenen Mosaiks von Georgina Beier auf dem Weg zum Eingang des Hauses in Osogbo"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0090"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b519",
+      "titleInfo": [
+        {
+          "title": "Eingang des Hauses in Osogbo"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0091"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b51a",
+      "titleInfo": [
+        {
+          "title": "Hintere Terrasse des Hauses in Osogbo"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0092"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b51b",
+      "titleInfo": [
+        {
+          "title": "Innenaufnahme des Hauses in Osogbo, 1. Stock"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0093"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b51c",
+      "titleInfo": [
+        {
+          "title": "Innenaufnahme des Hauses in Osogbo, 2. Stock"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0094"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b51d",
+      "titleInfo": [
+        {
+          "title": "Küche des Hauses in Osogbo"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0095"
+    }
+  ]
+}

@@ -1,0 +1,2762 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "education",
+    "name": "Education",
+    "count": 121
+  },
+  "timeline": [
+    {
+      "year": 1954,
+      "count": 1
+    },
+    {
+      "year": 1955,
+      "count": 1
+    },
+    {
+      "year": 1958,
+      "count": 4
+    },
+    {
+      "year": 1962,
+      "count": 1
+    },
+    {
+      "year": 1963,
+      "count": 1
+    },
+    {
+      "year": 1964,
+      "count": 1
+    },
+    {
+      "year": 1965,
+      "count": 1
+    },
+    {
+      "year": 1987,
+      "count": 2
+    },
+    {
+      "year": 1988,
+      "count": 5
+    },
+    {
+      "year": 1989,
+      "count": 2
+    },
+    {
+      "year": 1990,
+      "count": 1
+    },
+    {
+      "year": 1992,
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "count": 6
+    },
+    {
+      "year": 2021,
+      "count": 5
+    },
+    {
+      "year": 2022,
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "count": 8
+    },
+    {
+      "year": 2024,
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1954,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1955,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1958,
+      "total": 4,
+      "byType": {
+        "Text": 4
+      }
+    },
+    {
+      "year": 1962,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1963,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1964,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1965,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1987,
+      "total": 2,
+      "byType": {
+        "Moving image": 1,
+        "Text": 1
+      }
+    },
+    {
+      "year": 1988,
+      "total": 5,
+      "byType": {
+        "Moving image": 5
+      }
+    },
+    {
+      "year": 1989,
+      "total": 2,
+      "byType": {
+        "Moving image": 2
+      }
+    },
+    {
+      "year": 1990,
+      "total": 1,
+      "byType": {
+        "Moving image": 1
+      }
+    },
+    {
+      "year": 1992,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2019,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2020,
+      "total": 6,
+      "byType": {
+        "Text": 3,
+        "Collection": 3
+      }
+    },
+    {
+      "year": 2021,
+      "total": 5,
+      "byType": {
+        "Text": 3,
+        "Collection": 1,
+        "Digital": 1
+      }
+    },
+    {
+      "year": 2022,
+      "total": 3,
+      "byType": {
+        "Text": 3
+      }
+    },
+    {
+      "year": 2023,
+      "total": 8,
+      "byType": {
+        "Text": 3,
+        "Digital": 1,
+        "Dataset": 4
+      }
+    },
+    {
+      "year": 2024,
+      "total": 2,
+      "byType": {
+        "Dataset": 1,
+        "Text": 1
+      }
+    },
+    {
+      "year": 2025,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Moving image",
+      "value": 82
+    },
+    {
+      "name": "Text",
+      "value": 28
+    },
+    {
+      "name": "Dataset",
+      "value": 5
+    },
+    {
+      "name": "Collection",
+      "value": 4
+    },
+    {
+      "name": "Digital",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 113
+    },
+    {
+      "name": "French",
+      "value": 7
+    },
+    {
+      "name": "German",
+      "value": 5
+    },
+    {
+      "name": "Mongolian",
+      "value": 2
+    },
+    {
+      "name": "Arabic",
+      "value": 1
+    },
+    {
+      "name": "Spanish",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Children",
+      "value": 38
+    },
+    {
+      "name": "Music",
+      "value": 10
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 10
+    },
+    {
+      "name": "Child care",
+      "value": 8
+    },
+    {
+      "name": "Fertility",
+      "value": 8
+    },
+    {
+      "name": "Income distribution",
+      "value": 8
+    },
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 8
+    },
+    {
+      "name": "Youth",
+      "value": 8
+    },
+    {
+      "name": "Family planning",
+      "value": 8
+    },
+    {
+      "name": "Migration",
+      "value": 8
+    },
+    {
+      "name": "Economic development",
+      "value": 8
+    },
+    {
+      "name": "Agriculture",
+      "value": 7
+    },
+    {
+      "name": "Health",
+      "value": 6
+    },
+    {
+      "name": "Medicine",
+      "value": 6
+    },
+    {
+      "name": "Africa",
+      "value": 6
+    },
+    {
+      "name": "Schools",
+      "value": 5
+    },
+    {
+      "name": "Livestock",
+      "value": 5
+    },
+    {
+      "name": "Competition",
+      "value": 5
+    },
+    {
+      "name": "Herders",
+      "value": 4
+    },
+    {
+      "name": "Karakul sheep",
+      "value": 4
+    },
+    {
+      "name": "Karakul sheep industry",
+      "value": 4
+    },
+    {
+      "name": "Decolonisation",
+      "value": 4
+    },
+    {
+      "name": "Vaccination",
+      "value": 3
+    },
+    {
+      "name": "Travel",
+      "value": 3
+    },
+    {
+      "name": "Religion",
+      "value": 3
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Children",
+      "value": 38
+    },
+    {
+      "name": "Educational Show",
+      "value": 26
+    },
+    {
+      "name": "Entertainment",
+      "value": 18
+    },
+    {
+      "name": "African Music",
+      "value": 16
+    },
+    {
+      "name": "Music",
+      "value": 10
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 10
+    },
+    {
+      "name": "Child care",
+      "value": 8
+    },
+    {
+      "name": "Fertility",
+      "value": 8
+    },
+    {
+      "name": "Income distribution",
+      "value": 8
+    },
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 8
+    },
+    {
+      "name": "Youth",
+      "value": 8
+    },
+    {
+      "name": "Family planning",
+      "value": 8
+    },
+    {
+      "name": "Migration",
+      "value": 8
+    },
+    {
+      "name": "Economic development",
+      "value": 8
+    },
+    {
+      "name": "Female Education",
+      "value": 8
+    },
+    {
+      "name": "Human Development",
+      "value": 8
+    },
+    {
+      "name": "Education Policy",
+      "value": 8
+    },
+    {
+      "name": "Educational Influence",
+      "value": 8
+    },
+    {
+      "name": "Child Development",
+      "value": 8
+    },
+    {
+      "name": "Human Resources",
+      "value": 8
+    },
+    {
+      "name": "Agriculture",
+      "value": 7
+    },
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 6
+    },
+    {
+      "name": "Health",
+      "value": 6
+    },
+    {
+      "name": "Medicine",
+      "value": 6
+    },
+    {
+      "name": "Africa",
+      "value": 6
+    },
+    {
+      "name": "Schools",
+      "value": 5
+    },
+    {
+      "name": "Livestock",
+      "value": 5
+    },
+    {
+      "name": "Competition",
+      "value": 5
+    },
+    {
+      "name": "Scientific Knowledge",
+      "value": 5
+    },
+    {
+      "name": "Quiz Show",
+      "value": 5
+    },
+    {
+      "name": "Pedagogy",
+      "value": 5
+    },
+    {
+      "name": "Herders",
+      "value": 4
+    },
+    {
+      "name": "Mongolia",
+      "value": 4
+    },
+    {
+      "name": "News",
+      "value": 4
+    },
+    {
+      "name": "Karakul sheep",
+      "value": 4
+    },
+    {
+      "name": "Karakul sheep industry",
+      "value": 4
+    },
+    {
+      "name": "Germany",
+      "value": 4
+    },
+    {
+      "name": "Karakul Farming",
+      "value": 4
+    },
+    {
+      "name": "Decolonisation",
+      "value": 4
+    },
+    {
+      "name": "Vaccination",
+      "value": 3
+    },
+    {
+      "name": "Sociality",
+      "value": 3
+    },
+    {
+      "name": "Travel",
+      "value": 3
+    },
+    {
+      "name": "Mobility",
+      "value": 3
+    },
+    {
+      "name": "Household Income",
+      "value": 3
+    },
+    {
+      "name": "Lockdown",
+      "value": 3
+    },
+    {
+      "name": "Religion",
+      "value": 3
+    },
+    {
+      "name": "Trade Practices",
+      "value": 3
+    },
+    {
+      "name": "Trade Regulations",
+      "value": 3
+    },
+    {
+      "name": "Singing",
+      "value": 3
+    },
+    {
+      "name": "Dance",
+      "value": 3
+    },
+    {
+      "name": "HIV/AIDS",
+      "value": 3
+    },
+    {
+      "name": "Music Education",
+      "value": 3
+    },
+    {
+      "name": "Elections",
+      "value": 2
+    },
+    {
+      "name": "Pastoralist",
+      "value": 2
+    },
+    {
+      "name": "Festivals",
+      "value": 2
+    },
+    {
+      "name": "Arid regions",
+      "value": 2
+    },
+    {
+      "name": "Mass media",
+      "value": 2
+    },
+    {
+      "name": "Prices",
+      "value": 2
+    },
+    {
+      "name": "Medical care",
+      "value": 2
+    },
+    {
+      "name": "Water Rights",
+      "value": 2
+    },
+    {
+      "name": "Access to Water",
+      "value": 2
+    },
+    {
+      "name": "Senegal",
+      "value": 2
+    },
+    {
+      "name": "History",
+      "value": 2
+    },
+    {
+      "name": "Cultural Heritage",
+      "value": 2
+    },
+    {
+      "name": "African Cultural Heritage",
+      "value": 2
+    },
+    {
+      "name": "Politics",
+      "value": 2
+    },
+    {
+      "name": "Storytelling",
+      "value": 2
+    },
+    {
+      "name": "Breeding",
+      "value": 2
+    },
+    {
+      "name": "Postcolonialism",
+      "value": 2
+    },
+    {
+      "name": "South Africa",
+      "value": 2
+    },
+    {
+      "name": "Colonisation",
+      "value": 2
+    },
+    {
+      "name": "Namibia",
+      "value": 2
+    },
+    {
+      "name": "Swakara",
+      "value": 2
+    },
+    {
+      "name": "Karakul Circulations",
+      "value": 2
+    },
+    {
+      "name": "Colonial Economies",
+      "value": 2
+    },
+    {
+      "name": "Colonial South-West Africa",
+      "value": 2
+    },
+    {
+      "name": "German Colonialism",
+      "value": 2
+    },
+    {
+      "name": "Attitudes",
+      "value": 2
+    },
+    {
+      "name": "Multilingualism",
+      "value": 2
+    },
+    {
+      "name": "Translanguaging (Linguistics)",
+      "value": 2
+    },
+    {
+      "name": "Perception",
+      "value": 2
+    },
+    {
+      "name": "Formal Learning",
+      "value": 2
+    },
+    {
+      "name": "Informal Interaction",
+      "value": 2
+    },
+    {
+      "name": "Curriculum",
+      "value": 2
+    },
+    {
+      "name": "Practical judgment",
+      "value": 2
+    },
+    {
+      "name": "Social conflict",
+      "value": 2
+    },
+    {
+      "name": "Juvenile detention",
+      "value": 2
+    },
+    {
+      "name": "Juvenile delinquency",
+      "value": 2
+    },
+    {
+      "name": "Vulnerability",
+      "value": 2
+    },
+    {
+      "name": "Protection",
+      "value": 2
+    },
+    {
+      "name": "Deprivation of Liberty",
+      "value": 2
+    },
+    {
+      "name": "Preliminary Investigation",
+      "value": 2
+    },
+    {
+      "name": "Investigation Phase",
+      "value": 2
+    },
+    {
+      "name": "Enforcement of Decisions",
+      "value": 2
+    },
+    {
+      "name": "Kenya",
+      "value": 2
+    },
+    {
+      "name": "Zimbabwe",
+      "value": 2
+    },
+    {
+      "name": "Nigeria",
+      "value": 2
+    },
+    {
+      "name": "Economy",
+      "value": 1
+    },
+    {
+      "name": "Democracy",
+      "value": 1
+    },
+    {
+      "name": "Tsagaan Sar",
+      "value": 1
+    },
+    {
+      "name": "Naadam",
+      "value": 1
+    },
+    {
+      "name": "Disasters",
+      "value": 1
+    },
+    {
+      "name": "Subsidies",
+      "value": 1
+    },
+    {
+      "name": "Weather",
+      "value": 1
+    },
+    {
+      "name": "Local government",
+      "value": 1
+    },
+    {
+      "name": "Dzud (Mongolia)",
+      "value": 1
+    },
+    {
+      "name": "Hygiene",
+      "value": 1
+    },
+    {
+      "name": "Border",
+      "value": 1
+    },
+    {
+      "name": "Energy Shortages",
+      "value": 1
+    },
+    {
+      "name": "Nation Building",
+      "value": 1
+    },
+    {
+      "name": "Adult Education",
+      "value": 1
+    },
+    {
+      "name": "Education Development",
+      "value": 1
+    },
+    {
+      "name": "Leprosy",
+      "value": 1
+    },
+    {
+      "name": "Environment",
+      "value": 1
+    },
+    {
+      "name": "Food Production",
+      "value": 1
+    },
+    {
+      "name": "Christmas",
+      "value": 1
+    },
+    {
+      "name": "Public health",
+      "value": 1
+    },
+    {
+      "name": "Diseases",
+      "value": 1
+    },
+    {
+      "name": "Public Affairs",
+      "value": 1
+    },
+    {
+      "name": "Sports",
+      "value": 1
+    },
+    {
+      "name": "Fieldwork",
+      "value": 1
+    },
+    {
+      "name": "Agricultural laborers",
+      "value": 1
+    },
+    {
+      "name": "Sheep-shearing",
+      "value": 1
+    },
+    {
+      "name": "Online Learning Platform",
+      "value": 1
+    },
+    {
+      "name": "African Knowledge",
+      "value": 1
+    },
+    {
+      "name": "Teaching Materials",
+      "value": 1
+    },
+    {
+      "name": "Transcultural Learning",
+      "value": 1
+    },
+    {
+      "name": "Nyanza Musical Society",
+      "value": 1
+    },
+    {
+      "name": "Musical pitch",
+      "value": 1
+    },
+    {
+      "name": "Choral music",
+      "value": 1
+    },
+    {
+      "name": "Musical notation",
+      "value": 1
+    },
+    {
+      "name": "Northern Rhodesia",
+      "value": 1
+    },
+    {
+      "name": "Southern Rhodesia",
+      "value": 1
+    },
+    {
+      "name": "Native Eduction",
+      "value": 1
+    },
+    {
+      "name": "Chewa (African people)",
+      "value": 1
+    },
+    {
+      "name": "Nyanja (African people)",
+      "value": 1
+    },
+    {
+      "name": "Christianity",
+      "value": 1
+    },
+    {
+      "name": "Church Worship",
+      "value": 1
+    },
+    {
+      "name": "Religious Aspects",
+      "value": 1
+    },
+    {
+      "name": "Music festivals",
+      "value": 1
+    },
+    {
+      "name": "Choirs (Music)",
+      "value": 1
+    },
+    {
+      "name": "Choral conductors",
+      "value": 1
+    },
+    {
+      "name": "Ashanti (African people)",
+      "value": 1
+    },
+    {
+      "name": "Folklore",
+      "value": 1
+    },
+    {
+      "name": "Ghana",
+      "value": 1
+    },
+    {
+      "name": "Social Life",
+      "value": 1
+    },
+    {
+      "name": "Social Customs",
+      "value": 1
+    },
+    {
+      "name": "Kwanongomo",
+      "value": 1
+    },
+    {
+      "name": "Musicology",
+      "value": 1
+    },
+    {
+      "name": "Republic of the Congo (Léopoldville)",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Government of Liberia",
+      "value": 80
+    },
+    {
+      "name": "Collins, Hawa Andrews",
+      "value": 40
+    },
+    {
+      "name": "Urey, Khrushchev Borbor",
+      "value": 24
+    },
+    {
+      "name": "Mensah, Sam",
+      "value": 24
+    },
+    {
+      "name": "Liberia Broadcasting System (LBS)",
+      "value": 22
+    },
+    {
+      "name": "Taylor, Adolphus",
+      "value": 22
+    },
+    {
+      "name": "Gilbert, Thomas",
+      "value": 20
+    },
+    {
+      "name": "McCrumada, Charles",
+      "value": 20
+    },
+    {
+      "name": "Eastman, John",
+      "value": 19
+    },
+    {
+      "name": "Wegee, Presley",
+      "value": 18
+    },
+    {
+      "name": "Brent, Julius",
+      "value": 15
+    },
+    {
+      "name": "Fakay, Soko",
+      "value": 14
+    },
+    {
+      "name": "TransTel",
+      "value": 14
+    },
+    {
+      "name": "Wild, Frederik",
+      "value": 8
+    },
+    {
+      "name": "Stadelmann, David",
+      "value": 8
+    },
+    {
+      "name": "Toby, Victor",
+      "value": 7
+    },
+    {
+      "name": "Kezele, Sumoiwuo",
+      "value": 6
+    },
+    {
+      "name": "Badio, Cyrus",
+      "value": 6
+    },
+    {
+      "name": "Brown, Samuel T.",
+      "value": 6
+    },
+    {
+      "name": "Flomo, Matthew Y.",
+      "value": 6
+    }
+  ],
+  "locations": [
+    {
+      "country": "Liberia",
+      "region": "Montserrado County",
+      "city": "Monrovia",
+      "count": 82
+    },
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 16
+    },
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 8
+    },
+    {
+      "country": "Namibia",
+      "region": "",
+      "city": "",
+      "count": 4
+    },
+    {
+      "country": "Mongolia",
+      "region": "Bayankhongor Province",
+      "city": "",
+      "count": 2
+    },
+    {
+      "country": "Kenya",
+      "region": "Nandi",
+      "city": "",
+      "count": 2
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "Centre",
+      "city": "Ouagadougou",
+      "count": 2
+    },
+    {
+      "country": "Mongolia",
+      "region": "Bulgan Province",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "Mongolia",
+      "region": "Khentii Province",
+      "city": "Delgerhan Soum",
+      "count": 1
+    },
+    {
+      "country": "Senegal",
+      "region": "Thiès Region",
+      "city": "Ndengler (Dingler)",
+      "count": 1
+    },
+    {
+      "country": "Senegal",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "66cefaf495a000d4c7bf3712",
+      "titleInfo": [
+        {
+          "title": "Interview of co-researcher from Bayankhongor aimag, February 1, 2022"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-000d"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3713",
+      "titleInfo": [
+        {
+          "title": "Interview of co-researcher from Bulgan aimag, January 5 and 11, 2022"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-000e"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf371e",
+      "titleInfo": [
+        {
+          "title": "Batbuyan Batjav's research comments on Mongolia, September 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0019"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf371f",
+      "titleInfo": [
+        {
+          "title": "Mongolia's report, December 12, 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-001a"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3725",
+      "titleInfo": [
+        {
+          "title": "Réponses aux questions de recherche pour les chercheurs collaboratifs au Senegal"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0020"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3729",
+      "titleInfo": [
+        {
+          "title": "Réponses aux questions de recherche pour les chercheurs collaboratifs\nPartie II : Mesure de confinement"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0024"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c3f",
+      "titleInfo": [
+        {
+          "title": "Special-The Educational Way"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0002"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c40",
+      "titleInfo": [
+        {
+          "title": "Special-Lofa County Agriculture Development Project"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0003"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c61",
+      "titleInfo": [
+        {
+          "title": "Haywood Mission School 20th Commencement"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0024"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c73",
+      "titleInfo": [
+        {
+          "title": "Leigh-Sherman Institute Inauguration"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0036"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c7e",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0041"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c92",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0055"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c93",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0056"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c94",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0057"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c95",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0058"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c96",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0059"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c97",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-005a"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c98",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-005b"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c9a",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-005d"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c9b",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-005e"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c9c",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-005f"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c9d",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0060"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1ca6",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0069"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1ca7",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-006a"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1ca8",
+      "titleInfo": [
+        {
+          "title": "Spotlight"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-006b"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cbe",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0081"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cc6",
+      "titleInfo": [
+        {
+          "title": "Special Feature"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0089"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cce",
+      "titleInfo": [
+        {
+          "title": "Roadways to Health"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0091"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1ccf",
+      "titleInfo": [
+        {
+          "title": "Roadways to Health"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0092"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cd0",
+      "titleInfo": [
+        {
+          "title": "Spotlight"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0093"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cd3",
+      "titleInfo": [
+        {
+          "title": "Roadways to Health"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0096"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cd5",
+      "titleInfo": [
+        {
+          "title": "Roadways to Health"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0098"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1ce5",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00a8"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d07",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00ca"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d09",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00cc"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d0a",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00cd"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d0c",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00cf"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d0d",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00d0"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d0f",
+      "titleInfo": [
+        {
+          "title": "Meet the Challenge"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00d2"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d10",
+      "titleInfo": [
+        {
+          "title": "Meet the Challenge"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00d3"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d11",
+      "titleInfo": [
+        {
+          "title": "Meet the Challenge"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00d4"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d12",
+      "titleInfo": [
+        {
+          "title": "Meet the Challenge"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00d5"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d13",
+      "titleInfo": [
+        {
+          "title": "Meet the Challenge"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00d6"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d1d",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00e0"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d1e",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00e1"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d1f",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00e2"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d20",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00e3"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d29",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00ec"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d2a",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-00ed"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d4b",
+      "titleInfo": [
+        {
+          "title": "Aids in Liberia"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-010e"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d6d",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0130"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d6e",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0131"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1d77",
+      "titleInfo": [
+        {
+          "title": "Meet the Challenge"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-013a"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1da0",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0163"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1da7",
+      "titleInfo": [
+        {
+          "title": "Special Feature"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-016a"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1daa",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-016d"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1dab",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-016e"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1dae",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0171"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1db0",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0173"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1db3",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0176"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1db6",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0179"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1dc3",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0186"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1dcc",
+      "titleInfo": [
+        {
+          "title": "NHK Educational Film Segments"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-018f"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1dd4",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0197"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1dda",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-019d"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1ddb",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-019e"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1de0",
+      "titleInfo": [
+        {
+          "title": "AIDS: South African Chamber of Mines Educational Video"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-01a3"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1df4",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-01b7"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1df7",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-01ba"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1df9",
+      "titleInfo": [
+        {
+          "title": "Games of the Nations (also displayed in other languages)"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-01bc"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1dfa",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-01bd"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1dfb",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-01be"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1dfc",
+      "titleInfo": [
+        {
+          "title": "Men and Machines (also displayed in different languages)"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-01bf"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1dfd",
+      "titleInfo": [
+        {
+          "title": "Das Jahrhundert der Chirugen"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-01c0"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1e02",
+      "titleInfo": [
+        {
+          "title": "How Many are We in Cameroon (also in French)"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-01c5"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1e06",
+      "titleInfo": [
+        {
+          "title": "Play School with Big Sister Hawa"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-01c9"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1e07",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-01ca"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1e0b",
+      "titleInfo": [
+        {
+          "title": "Booker T. Washington"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-01ce"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1e0c",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-01cf"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1e0d",
+      "titleInfo": [
+        {
+          "title": "Die Leeren Netze von Vigo"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-01d0"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1e0e",
+      "titleInfo": [
+        {
+          "title": "Landwirtschaft 2000: Nahrung und Energie im Überfluß"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-01d1"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1e0f",
+      "titleInfo": [
+        {
+          "title": "Agriculture"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-01d2"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1e11",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-01d4"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1e14",
+      "titleInfo": [
+        {
+          "title": "Those Amazing Animals"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-01d7"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1e1f",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-01e2"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1e21",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-01e4"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1e22",
+      "titleInfo": [
+        {
+          "title": "Games of the Nations"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-01e5"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1e23",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-01e6"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf372d",
+      "titleInfo": [
+        {
+          "title": "Neudamm"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-0002"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf372f",
+      "titleInfo": [
+        {
+          "title": "Neudamm 2"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-0004"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf3742",
+      "titleInfo": [
+        {
+          "title": "Gellap lamb description"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-0017"
+    },
+    {
+      "_id": "66cf0d9595a000d4c7bf3747",
+      "titleInfo": [
+        {
+          "title": "Gellap-Ost, Keetmanshoop"
+        }
+      ],
+      "typeOfResource": "Collection",
+      "project": {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia"
+      },
+      "dre_id": "abk-99-001c"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b01",
+      "titleInfo": [
+        {
+          "title": "Heterogeneous Effects of Women’s Schooling on Fertility, Literacy and Work: Evidence from Burundi’s Free Primary Education Policy"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-0010"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b02",
+      "titleInfo": [
+        {
+          "title": "Heterogeneous Effects of Women’s Schooling on Fertility, Literacy and Work: Evidence from Burundi’s Free Primary Education Policy"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-99-0011"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b03",
+      "titleInfo": [
+        {
+          "title": "Heterogeneous Effects of Women’s Schooling on Fertility, Literacy and Work: Evidence from Burundi’s Free Primary Education Policy"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0012"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b04",
+      "titleInfo": [
+        {
+          "title": "Appendix: Heterogeneous Effects of Women’s Schooling on Fertility, Literacy and Work: Evidence from Burundi’s Free Primary Education Policy"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0013"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b05",
+      "titleInfo": [
+        {
+          "title": "Replication R script"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0014"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b06",
+      "titleInfo": [
+        {
+          "title": "Replication dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0015"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b07",
+      "titleInfo": [
+        {
+          "title": "Replication dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0016"
+    },
+    {
+      "_id": "67211011e6fbc830d02e6b08",
+      "titleInfo": [
+        {
+          "title": "Replication dataset"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)"
+      },
+      "dre_id": "acn-01-0017"
+    },
+    {
+      "_id": "67a3500526e222e7e827a3d2",
+      "titleInfo": [
+        {
+          "title": "SPSS Results"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "UBT_MultiALS2021",
+        "name": "Multilingual African Learning Spaces: Translanguaging Practices in the Kenyan Classroom"
+      },
+      "dre_id": "abr-01-0000"
+    },
+    {
+      "_id": "67a3500526e222e7e827a3d3",
+      "titleInfo": [
+        {
+          "title": "Survey"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_MultiALS2021",
+        "name": "Multilingual African Learning Spaces: Translanguaging Practices in the Kenyan Classroom"
+      },
+      "dre_id": "abr-01-0001"
+    },
+    {
+      "_id": "694963c02e9790ceaf521af9",
+      "titleInfo": [
+        {
+          "title": "Projekt Lern- und Ressourcenplattform Afrika (PLURA)"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "UBT_Plura2021",
+        "name": "Plura 2.0: Project Learning and Resource Platform Africa"
+      },
+      "dre_id": "abs-01-0000"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f77",
+      "titleInfo": [
+        {
+          "title": "Communication"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-001f"
+    },
+    {
+      "_id": "69c1568e666e5b9f92cf9f79",
+      "titleInfo": [
+        {
+          "title": "Documentation"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment"
+      },
+      "dre_id": "acs-03-0021"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9e9e9",
+      "titleInfo": [
+        {
+          "title": "Report from the Jeanes School, lower Kabete, Kenya"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0004"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea05",
+      "titleInfo": [
+        {
+          "title": "Brief report of a music course conducted at Siriba for the Nyanza Musical Society"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0020"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea62",
+      "titleInfo": [
+        {
+          "title": "Wandering from pitch"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-007d"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea66",
+      "titleInfo": [
+        {
+          "title": "African music in Rhodesian native eduction"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0081"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea67",
+      "titleInfo": [
+        {
+          "title": "African music in Christian worship"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0082"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea6a",
+      "titleInfo": [
+        {
+          "title": "Kenya's Colony Music and Drama Officer"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0085"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eaca",
+      "titleInfo": [
+        {
+          "title": "Musical training in Tribal West Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00e5"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eacf",
+      "titleInfo": [
+        {
+          "title": "Kwanongomo College, Bulawayo"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00ea"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eafa",
+      "titleInfo": [
+        {
+          "title": "The need for research in African music"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0115"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb12",
+      "titleInfo": [
+        {
+          "title": "University of Nigeria, Nsukka, Department of Music. Bulletin 1961-1965"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-012d"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec1f",
+      "titleInfo": [
+        {
+          "title": "Research project on \"Systems of traditional education in Malawi” (the continuation: September 1983 to February 1984) by Dr. Gerhard Kubik"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-023a"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec52",
+      "titleInfo": [
+        {
+          "title": "Music in Nigerian education"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-026d"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edb1",
+      "titleInfo": [
+        {
+          "title": "Akuno, Emily Achieng'. Music Education in Africa: Concept, Process, and Practice"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03cc"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edbd",
+      "titleInfo": [
+        {
+          "title": "CONSTRUCTING DAGARA GYIL PEDAGOGY: THE LEGACY OF BERNARD WOMA"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03d8"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ede8",
+      "titleInfo": [
+        {
+          "title": "Adaptation of indigenous approaches to music pedagogy"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0403"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edeb",
+      "titleInfo": [
+        {
+          "title": "Harnessing community musicians as living archives for “sustainable” teaching and learning of Ugandan musics at Makerere University"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0406"
+    }
+  ]
+}

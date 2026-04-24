@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "dance-companies",
+    "name": "Dance companies",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1962,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1962,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    },
+    {
+      "name": "Côte d'Ivoire",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Ferguson, Isabel",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9eacc",
+      "titleInfo": [
+        {
+          "title": "Dancers of the Ivory Coast"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00e7"
+    }
+  ]
+}

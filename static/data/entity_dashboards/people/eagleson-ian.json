@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "eagleson-ian",
+    "name": "Eagleson, Ian",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2011,
+      "count": 1
+    },
+    {
+      "year": 2014,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2011,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2014,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    },
+    {
+      "name": "French",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "History",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Kenya",
+      "value": 2
+    },
+    {
+      "name": "History",
+      "value": 1
+    },
+    {
+      "name": "Benga Music",
+      "value": 1
+    },
+    {
+      "name": "Benga Beat",
+      "value": 1
+    },
+    {
+      "name": "Music of Congo",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ecf6",
+      "titleInfo": [
+        {
+          "title": "The King of History: Classic 1970s Beats from Kenya. 2010. D.O. Misiani and Shirati Jazz. Stern's Music STCD3051. One compact disc. Booklet (16 pp.) World Defeats the Grandfathers: Swinging Swahili Rumba 1982-1986. 2010. Issa Juma and Super Wanyika Stars. Stern's Music STCD3050. One compact disc. Booklet (16 pp.)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0311"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed43",
+      "titleInfo": [
+        {
+          "title": "Continuities and innovation in Luo song style: creating the Benga Beat in Kenya 1960 to 1995"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-035e"
+    }
+  ]
+}

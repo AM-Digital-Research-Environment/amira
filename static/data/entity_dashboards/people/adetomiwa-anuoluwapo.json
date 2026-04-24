@@ -1,0 +1,357 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "adetomiwa-anuoluwapo",
+    "name": "Adetomiwa, Anuoluwapo",
+    "count": 15
+  },
+  "timeline": [
+    {
+      "year": 2021,
+      "count": 8
+    },
+    {
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "count": 6
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2021,
+      "total": 8,
+      "byType": {
+        "Image": 3,
+        "Moving image": 2,
+        "Text": 3
+      }
+    },
+    {
+      "year": 2022,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2023,
+      "total": 6,
+      "byType": {
+        "Moving image": 6
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Moving image",
+      "value": 8
+    },
+    {
+      "name": "Text",
+      "value": 4
+    },
+    {
+      "name": "Image",
+      "value": 3
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Learning",
+      "value": 15
+    },
+    {
+      "name": "Animation (Cinematography)",
+      "value": 15
+    },
+    {
+      "name": "Children",
+      "value": 15
+    },
+    {
+      "name": "Child psychology",
+      "value": 15
+    },
+    {
+      "name": "Curriculum planning",
+      "value": 15
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Learning",
+      "value": 15
+    },
+    {
+      "name": "Animation (Cinematography)",
+      "value": 15
+    },
+    {
+      "name": "Children",
+      "value": 15
+    },
+    {
+      "name": "Child psychology",
+      "value": 15
+    },
+    {
+      "name": "Curriculum planning",
+      "value": 15
+    },
+    {
+      "name": "African Studies",
+      "value": 15
+    },
+    {
+      "name": "Tortoise",
+      "value": 14
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Yusuff, Ayodele",
+      "value": 15
+    },
+    {
+      "name": "Eleshin, Abisoye",
+      "value": 15
+    },
+    {
+      "name": "Akinwale, Gbenusola",
+      "value": 15
+    },
+    {
+      "name": "Eleshin, Adedoyinsola",
+      "value": 15
+    },
+    {
+      "name": "Adedeji, Mujeeb",
+      "value": 15
+    }
+  ],
+  "locations": [
+    {
+      "country": "Nigeria",
+      "region": "Lagos State",
+      "city": "Lagos",
+      "count": 15
+    }
+  ],
+  "items": [
+    {
+      "_id": "66c71c3d22a01f1d1ea08ee5",
+      "titleInfo": [
+        {
+          "title": "Digitising Folktales for Animation and Value Education - Igboho Field Location Image"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_YoruFolk2020",
+        "name": "Regenerating Non-Formal Learning in Africa: Digitizing Yoruba Folktales for Animation and Value Education"
+      },
+      "dre_id": "aag-02-0000"
+    },
+    {
+      "_id": "66c71c3d22a01f1d1ea08ee6",
+      "titleInfo": [
+        {
+          "title": "Digitising Folktales for Animation and Value Education - Oshogbo Field Location Image"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_YoruFolk2020",
+        "name": "Regenerating Non-Formal Learning in Africa: Digitizing Yoruba Folktales for Animation and Value Education"
+      },
+      "dre_id": "aag-02-0001"
+    },
+    {
+      "_id": "66c71c3d22a01f1d1ea08ee7",
+      "titleInfo": [
+        {
+          "title": "Digitising Folktales for Animation and Value Education - Ilase Field Location Image"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_YoruFolk2020",
+        "name": "Regenerating Non-Formal Learning in Africa: Digitizing Yoruba Folktales for Animation and Value Education"
+      },
+      "dre_id": "aag-02-0002"
+    },
+    {
+      "_id": "66c71c3e22a01f1d1ea08ee8",
+      "titleInfo": [
+        {
+          "title": "Digitising Folktales for Animation and Value Education - Igboho Field Location Video"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_YoruFolk2020",
+        "name": "Regenerating Non-Formal Learning in Africa: Digitizing Yoruba Folktales for Animation and Value Education"
+      },
+      "dre_id": "aag-02-0003"
+    },
+    {
+      "_id": "66c71c3e22a01f1d1ea08ee9",
+      "titleInfo": [
+        {
+          "title": "Digitising Folktales for Animation and Value Education - Oshogbo Field Location Video"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_YoruFolk2020",
+        "name": "Regenerating Non-Formal Learning in Africa: Digitizing Yoruba Folktales for Animation and Value Education"
+      },
+      "dre_id": "aag-02-0004"
+    },
+    {
+      "_id": "66c71c3e22a01f1d1ea08eea",
+      "titleInfo": [
+        {
+          "title": "Digitising Folktales for Animation and Value Education - Analysis of Questionnare"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_YoruFolk2020",
+        "name": "Regenerating Non-Formal Learning in Africa: Digitizing Yoruba Folktales for Animation and Value Education"
+      },
+      "dre_id": "aag-02-0005"
+    },
+    {
+      "_id": "66c71c3e22a01f1d1ea08eeb",
+      "titleInfo": [
+        {
+          "title": "Digitising Folktales for Animation and Value Education - Analysis of Focus Group Discussions"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_YoruFolk2020",
+        "name": "Regenerating Non-Formal Learning in Africa: Digitizing Yoruba Folktales for Animation and Value Education"
+      },
+      "dre_id": "aag-02-0006"
+    },
+    {
+      "_id": "66c71c3e22a01f1d1ea08eec",
+      "titleInfo": [
+        {
+          "title": "Digitising Folktales for Animation and Value Education - Research Report Presentation"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_YoruFolk2020",
+        "name": "Regenerating Non-Formal Learning in Africa: Digitizing Yoruba Folktales for Animation and Value Education"
+      },
+      "dre_id": "aag-02-0007"
+    },
+    {
+      "_id": "66c71c3e22a01f1d1ea08eed",
+      "titleInfo": [
+        {
+          "title": "Digitising Folktales for Animation and Value Education - Workshop Presentation"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_YoruFolk2020",
+        "name": "Regenerating Non-Formal Learning in Africa: Digitizing Yoruba Folktales for Animation and Value Education"
+      },
+      "dre_id": "aag-02-0008"
+    },
+    {
+      "_id": "66c71c3e22a01f1d1ea08eee",
+      "titleInfo": [
+        {
+          "title": "Digitising Folktales for Animation and Value Education - Animated Video 1"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_YoruFolk2020",
+        "name": "Regenerating Non-Formal Learning in Africa: Digitizing Yoruba Folktales for Animation and Value Education"
+      },
+      "dre_id": "aag-02-0009"
+    },
+    {
+      "_id": "66c71c3e22a01f1d1ea08eef",
+      "titleInfo": [
+        {
+          "title": "Digitising Folktales for Animation and Value Education - Animated Video 2"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_YoruFolk2020",
+        "name": "Regenerating Non-Formal Learning in Africa: Digitizing Yoruba Folktales for Animation and Value Education"
+      },
+      "dre_id": "aag-02-000a"
+    },
+    {
+      "_id": "66c71c3e22a01f1d1ea08ef0",
+      "titleInfo": [
+        {
+          "title": "Digitising Folktales for Animation and Value Education - Animated Video 3"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_YoruFolk2020",
+        "name": "Regenerating Non-Formal Learning in Africa: Digitizing Yoruba Folktales for Animation and Value Education"
+      },
+      "dre_id": "aag-02-000b"
+    },
+    {
+      "_id": "66c71c3e22a01f1d1ea08ef1",
+      "titleInfo": [
+        {
+          "title": "Digitising Folktales for Animation and Value Education - Animated Video 4"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_YoruFolk2020",
+        "name": "Regenerating Non-Formal Learning in Africa: Digitizing Yoruba Folktales for Animation and Value Education"
+      },
+      "dre_id": "aag-02-000c"
+    },
+    {
+      "_id": "66c71c3e22a01f1d1ea08ef2",
+      "titleInfo": [
+        {
+          "title": "Digitising Folktales for Animation and Value Education - Animated Video 5"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_YoruFolk2020",
+        "name": "Regenerating Non-Formal Learning in Africa: Digitizing Yoruba Folktales for Animation and Value Education"
+      },
+      "dre_id": "aag-02-000d"
+    },
+    {
+      "_id": "66c71c3e22a01f1d1ea08ef3",
+      "titleInfo": [
+        {
+          "title": "Digitising Folktales for Animation and Value Education - Animated Video 6"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_YoruFolk2020",
+        "name": "Regenerating Non-Formal Learning in Africa: Digitizing Yoruba Folktales for Animation and Value Education"
+      },
+      "dre_id": "aag-02-000e"
+    }
+  ]
+}

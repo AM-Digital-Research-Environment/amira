@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "pusl-waltraud",
+    "name": "Pusl, Waltraud",
+    "count": 4
+  },
+  "timeline": [
+    {
+      "year": 1965,
+      "count": 4
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1965,
+      "total": 4,
+      "byType": {
+        "Text": 4
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 4
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "value": 2
+    },
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "Nigeria",
+      "value": 4
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Stephan, Klaus",
+      "value": 4
+    }
+  ],
+  "locations": [
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Munich",
+      "count": 4
+    }
+  ],
+  "items": [
+    {
+      "_id": "6705340c4b98fee5873b442c",
+      "titleInfo": [
+        {
+          "title": "Letter Pusl_Stephan 1965"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-001f"
+    },
+    {
+      "_id": "6705340c4b98fee5873b4432",
+      "titleInfo": [
+        {
+          "title": "Telegram Pusl_Stephan 1965"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-0025"
+    },
+    {
+      "_id": "6705340c4b98fee5873b445c",
+      "titleInfo": [
+        {
+          "title": "Letter Pusl_Stephan 1965"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-004f"
+    },
+    {
+      "_id": "6705340c4b98fee5873b4462",
+      "titleInfo": [
+        {
+          "title": "Telegram Pusl_Stephan 1965"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango"
+      },
+      "dre_id": "aan-99-0055"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "marketing-era",
+    "name": "Marketing Era",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2016,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2016,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Music",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    },
+    {
+      "name": "Uganda",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Moon, Jocelyn",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ed6a",
+      "titleInfo": [
+        {
+          "title": "Ugandan Music in the Marketing Era: The Branded Arena. David G. Pier. 2015. New York: Palgrave Macmillan. 8 images, 5 figures, 2 tables, index, 203pp."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0385"
+    }
+  ]
+}

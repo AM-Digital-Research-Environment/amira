@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "sandw-ste",
+    "name": "Sandwüste",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 1980,
+      "count": 3
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1980,
+      "total": 3,
+      "byType": {
+        "Image": 3
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 3
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Photography",
+      "value": 3
+    },
+    {
+      "name": "Anthropology",
+      "value": 3
+    },
+    {
+      "name": "Photographs",
+      "value": 3
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Photography",
+      "value": 3
+    },
+    {
+      "name": "Anthropology",
+      "value": 3
+    },
+    {
+      "name": "Photographs",
+      "value": 3
+    },
+    {
+      "name": "Sammlung Gerd Spittler",
+      "value": 3
+    },
+    {
+      "name": "Karawane",
+      "value": 2
+    },
+    {
+      "name": "Dromedar",
+      "value": 2
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Collections@UBT",
+      "value": 3
+    },
+    {
+      "name": "Spittler, Gerd",
+      "value": 3
+    }
+  ],
+  "locations": [
+    {
+      "country": "Niger",
+      "region": "Agadez Region",
+      "city": "Ténéré",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "66d97447c610a95a80dd95d5",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-004c"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95d6",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-004d"
+    },
+    {
+      "_id": "66d97447c610a95a80dd95d7",
+      "titleInfo": [
+        {
+          "title": "Ohne Titel"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler"
+      },
+      "dre_id": "abx-01-004e"
+    }
+  ]
+}

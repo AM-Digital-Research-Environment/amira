@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "type": "group",
+    "id": "eddie-and-his-melody-orchestra",
+    "name": "Eddie and His Melody Orchestra",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1950,
+      "count": 2
+    }
+  ],
+  "types": [
+    {
+      "name": "Audio",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "Yoruba",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "Highlife (Music)",
+      "value": 2
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 2
+    },
+    {
+      "name": "Yoruba language",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Ethnomusicology",
+      "value": 2
+    },
+    {
+      "name": "Highlife (Music)",
+      "value": 2
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 2
+    },
+    {
+      "name": "Yoruba language",
+      "value": 2
+    }
+  ],
+  "contributors": [
+    {
+      "name": "DECCA",
+      "value": 2
+    },
+    {
+      "name": "Ghana Broadcasting Corporation Gramophone Library",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "Nigeria",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "66c34de7ba20a6d8a816ac12",
+      "titleInfo": [
+        {
+          "title": "Ominira"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-0014"
+    },
+    {
+      "_id": "66c34de7ba20a6d8a816ac19",
+      "titleInfo": [
+        {
+          "title": "Kama Fewon Logba"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana"
+      },
+      "dre_id": "abd-99-001b"
+    }
+  ]
+}

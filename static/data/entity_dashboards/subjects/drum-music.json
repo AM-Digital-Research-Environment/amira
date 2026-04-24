@@ -1,0 +1,628 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "drum-music",
+    "name": "Drum music",
+    "count": 12
+  },
+  "timeline": [
+    {
+      "year": 1954,
+      "count": 2
+    },
+    {
+      "year": 1955,
+      "count": 2
+    },
+    {
+      "year": 1960,
+      "count": 1
+    },
+    {
+      "year": 1968,
+      "count": 1
+    },
+    {
+      "year": 1971,
+      "count": 1
+    },
+    {
+      "year": 1972,
+      "count": 3
+    },
+    {
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1954,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1955,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1960,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1968,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1971,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1972,
+      "total": 3,
+      "byType": {
+        "Text": 3
+      }
+    },
+    {
+      "year": 2019,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2022,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 12
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 12
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Drum",
+      "value": 12
+    },
+    {
+      "name": "Musical instruments",
+      "value": 11
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 9
+    },
+    {
+      "name": "Music",
+      "value": 7
+    },
+    {
+      "name": "Dance",
+      "value": 4
+    },
+    {
+      "name": "Performance",
+      "value": 4
+    },
+    {
+      "name": "Africa",
+      "value": 3
+    },
+    {
+      "name": "Criticism",
+      "value": 3
+    },
+    {
+      "name": "Drum language",
+      "value": 3
+    },
+    {
+      "name": "Polyrhythm",
+      "value": 2
+    },
+    {
+      "name": "History",
+      "value": 2
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 2
+    },
+    {
+      "name": "Ewe (African people)",
+      "value": 2
+    },
+    {
+      "name": "Anlo (African people)",
+      "value": 2
+    },
+    {
+      "name": "Improvisation (Music)",
+      "value": 1
+    },
+    {
+      "name": "Singing",
+      "value": 1
+    },
+    {
+      "name": "Talking drum",
+      "value": 1
+    },
+    {
+      "name": "Akan (African people)",
+      "value": 1
+    },
+    {
+      "name": "Percussion instruments",
+      "value": 1
+    },
+    {
+      "name": "Tetela (African people)",
+      "value": 1
+    },
+    {
+      "name": "Slit drums",
+      "value": 1
+    },
+    {
+      "name": "Xylophone music",
+      "value": 1
+    },
+    {
+      "name": "Syncopation",
+      "value": 1
+    },
+    {
+      "name": "Xylophone",
+      "value": 1
+    },
+    {
+      "name": "Dynamics",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Drum",
+      "value": 12
+    },
+    {
+      "name": "African Music",
+      "value": 12
+    },
+    {
+      "name": "Drum (Instrument)",
+      "value": 12
+    },
+    {
+      "name": "Musical instruments",
+      "value": 11
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 9
+    },
+    {
+      "name": "Music",
+      "value": 7
+    },
+    {
+      "name": "Dance",
+      "value": 4
+    },
+    {
+      "name": "Performance",
+      "value": 4
+    },
+    {
+      "name": "Africa",
+      "value": 3
+    },
+    {
+      "name": "Criticism",
+      "value": 3
+    },
+    {
+      "name": "Drum language",
+      "value": 3
+    },
+    {
+      "name": "Musical Meter",
+      "value": 3
+    },
+    {
+      "name": "Musical Rhythm",
+      "value": 3
+    },
+    {
+      "name": "Nigeria",
+      "value": 3
+    },
+    {
+      "name": "Polyrhythm",
+      "value": 2
+    },
+    {
+      "name": "History",
+      "value": 2
+    },
+    {
+      "name": "Interpretation",
+      "value": 2
+    },
+    {
+      "name": "Yoruba (African people)",
+      "value": 2
+    },
+    {
+      "name": "Yoruba Art",
+      "value": 2
+    },
+    {
+      "name": "Ewe (African people)",
+      "value": 2
+    },
+    {
+      "name": "Anlo (African people)",
+      "value": 2
+    },
+    {
+      "name": "Ghana",
+      "value": 2
+    },
+    {
+      "name": "Improvisation (Music)",
+      "value": 1
+    },
+    {
+      "name": "Singing",
+      "value": 1
+    },
+    {
+      "name": "Talking drum",
+      "value": 1
+    },
+    {
+      "name": "Akan (African people)",
+      "value": 1
+    },
+    {
+      "name": "Percussion instruments",
+      "value": 1
+    },
+    {
+      "name": "Talking Drum (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Tetela (African people)",
+      "value": 1
+    },
+    {
+      "name": "Slit drums",
+      "value": 1
+    },
+    {
+      "name": "Belgian Congo",
+      "value": 1
+    },
+    {
+      "name": "Slit Drum (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Skin Drum (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Lukumbi (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Ngomo (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Xylophone music",
+      "value": 1
+    },
+    {
+      "name": "Syncopation",
+      "value": 1
+    },
+    {
+      "name": "Xylophone",
+      "value": 1
+    },
+    {
+      "name": "Methods",
+      "value": 1
+    },
+    {
+      "name": "Xylophone (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Dynamics",
+      "value": 1
+    },
+    {
+      "name": "Chewa (African people)",
+      "value": 1
+    },
+    {
+      "name": "Nyanja (African people)",
+      "value": 1
+    },
+    {
+      "name": "Nyanja language",
+      "value": 1
+    },
+    {
+      "name": "Ideophone",
+      "value": 1
+    },
+    {
+      "name": "Zambia",
+      "value": 1
+    },
+    {
+      "name": "Luba (African people)",
+      "value": 1
+    },
+    {
+      "name": "Central Africa",
+      "value": 1
+    },
+    {
+      "name": "Djembe",
+      "value": 1
+    },
+    {
+      "name": "Ecomusicology",
+      "value": 1
+    },
+    {
+      "name": "Climate changes",
+      "value": 1
+    },
+    {
+      "name": "Sabar (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Sanegal",
+      "value": 1
+    },
+    {
+      "name": "Culture",
+      "value": 1
+    },
+    {
+      "name": "Street Language",
+      "value": 1
+    },
+    {
+      "name": "Street Culture",
+      "value": 1
+    },
+    {
+      "name": "Dùndún (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Melo-rhythm",
+      "value": 1
+    },
+    {
+      "name": "Ethnography",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Pantaleoni, Hewitt",
+      "value": 2
+    },
+    {
+      "name": "Gbeho, Philip",
+      "value": 1
+    },
+    {
+      "name": "Nketia, J. H.",
+      "value": 1
+    },
+    {
+      "name": "Gilbert, Dorothy R.",
+      "value": 1
+    },
+    {
+      "name": "Blacking, John",
+      "value": 1
+    },
+    {
+      "name": "King, Anthony",
+      "value": 1
+    },
+    {
+      "name": "Nurse, G. T.",
+      "value": 1
+    },
+    {
+      "name": "Akpabot, Samuel",
+      "value": 1
+    },
+    {
+      "name": "Laurenty, J. S.",
+      "value": 1
+    },
+    {
+      "name": "Tang, Patricia",
+      "value": 1
+    },
+    {
+      "name": "Oludare, Olupemi",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 12
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9e9f0",
+      "titleInfo": [
+        {
+          "title": "Music of the Gold Coast"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-000b"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9e9f5",
+      "titleInfo": [
+        {
+          "title": "The role of the drummer in Akan society"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0010"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea09",
+      "titleInfo": [
+        {
+          "title": "The Lukumbi: a six-toned slit drum of the Batetela"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0024"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea10",
+      "titleInfo": [
+        {
+          "title": "Some notes on a theory of African rhythm advanced by Erich von Hornbostel"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-002b"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ea94",
+      "titleInfo": [
+        {
+          "title": "Employments of the \"standard pattern\" in Yoruba music"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00af"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb4c",
+      "titleInfo": [
+        {
+          "title": "Ideophonic aspects of some Nyanja drum names"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0167"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb98",
+      "titleInfo": [
+        {
+          "title": "Standard drum patterns in Nigeria"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01b3"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eba5",
+      "titleInfo": [
+        {
+          "title": "Les membranophones des Luba-Shankadi"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01c0"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eba7",
+      "titleInfo": [
+        {
+          "title": "Three principles of timing in Anlo dance drumming"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01c2"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eba8",
+      "titleInfo": [
+        {
+          "title": "Towards understanding the play of Atsimevu in Atsiã"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01c3"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edac",
+      "titleInfo": [
+        {
+          "title": "TWENTY-FIRST CENTURY SABAR DRUMS: INNOVATIONS IN ORGANOLOGY AND PERFORMANCE PRACTICES IN SENEGAL AND THE DIASPORA"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03c7"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edd8",
+      "titleInfo": [
+        {
+          "title": "Street language in Dùndún Drum Language"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03f3"
+    }
+  ]
+}

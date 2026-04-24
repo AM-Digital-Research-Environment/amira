@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "subscriptions-rates",
+    "name": "Subscriptions Rates",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 2018,
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2018,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2019,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2020,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 3
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Watkins, Lee",
+      "value": 3
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ed98",
+      "titleInfo": [
+        {
+          "title": "Annual Subscription Rates"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03b3"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edb5",
+      "titleInfo": [
+        {
+          "title": "Annual Subscription Rates of ILAM"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03d0"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edc6",
+      "titleInfo": [
+        {
+          "title": "Annual Subscription Rates of ILAM"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03e1"
+    }
+  ]
+}

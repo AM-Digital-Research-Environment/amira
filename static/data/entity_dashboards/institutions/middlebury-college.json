@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "middlebury-college",
+    "name": "Middlebury College",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 2014,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2014,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 2
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kafumbe, Damascus",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ed3f",
+      "titleInfo": [
+        {
+          "title": "West African Drumming and Dance in North American Universities: An Ethnomusicological Perspective. George Worlasi Kwasi Dor. 2014. Jackson: University Press of Mississippi. 60 bw photographs, appendices, glossary, bibliography, index, 304 pp."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-035a"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed40",
+      "titleInfo": [
+        {
+          "title": "Middlebury College 2013-14 John Hamilton Fulton Lecture in the Liberal Arts: a public conversation with Angelique Kidjo"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-035b"
+    }
+  ]
+}

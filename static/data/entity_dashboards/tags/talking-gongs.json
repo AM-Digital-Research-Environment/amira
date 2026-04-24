@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "talking-gongs",
+    "name": "Talking-gongs",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1956,
+      "count": 1
+    },
+    {
+      "year": 1962,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1956,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1962,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Talking drum",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Percussion instruments",
+      "value": 1
+    },
+    {
+      "name": "Drum",
+      "value": 1
+    },
+    {
+      "name": "Drum language",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Talking drum",
+      "value": 1
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Percussion instruments",
+      "value": 1
+    },
+    {
+      "name": "Drum",
+      "value": 1
+    },
+    {
+      "name": "Drum language",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Idiophones",
+      "value": 1
+    },
+    {
+      "name": "Belgian Congo",
+      "value": 1
+    },
+    {
+      "name": "Drum (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Talking Drum (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Southern Rhodesia",
+      "value": 1
+    },
+    {
+      "name": "Republic of the Congo (Léopoldville)",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Carrington, John F.",
+      "value": 1
+    },
+    {
+      "name": "Tracey, Hugh",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ea2e",
+      "titleInfo": [
+        {
+          "title": "Individual names given to talking-gongs in the Yalemba area of Belgian Congo"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0049"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eab8",
+      "titleInfo": [
+        {
+          "title": "Notes and News"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00d3"
+    }
+  ]
+}

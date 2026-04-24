@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "ohio-state-university",
+    "name": "Ohio State University",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1999,
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1999,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2019,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Storytelling",
+      "value": 1
+    },
+    {
+      "name": "Performance",
+      "value": 1
+    },
+    {
+      "name": "Ewe (African people)",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Storytelling",
+      "value": 1
+    },
+    {
+      "name": "Performance",
+      "value": 1
+    },
+    {
+      "name": "Ewe (African people)",
+      "value": 1
+    },
+    {
+      "name": "Storytelling Session",
+      "value": 1
+    },
+    {
+      "name": "Song Texts",
+      "value": 1
+    },
+    {
+      "name": "Ghana",
+      "value": 1
+    },
+    {
+      "name": "Song Interludes",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Bourguignon, Erika",
+      "value": 1
+    },
+    {
+      "name": "Gbagbo, Divine Kwasi",
+      "value": 1
+    },
+    {
+      "name": "Elder, D. Rose",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ec79",
+      "titleInfo": [
+        {
+          "title": "VIDEOS OF AFRICAN AND AFRICAN-RELATED PERFORMANCE: AN ANNOTATED BIBLIOGRAPHY, by Carol Lems-Dworkin, Evanston, Ill.:Lems-Dworkin Publishers 1996, xx-331pp."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0294"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edae",
+      "titleInfo": [
+        {
+          "title": "STORYTELLING SONGS OF THE ÈWÈ-DÒMÈ OF GHANA"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03c9"
+    }
+  ]
+}

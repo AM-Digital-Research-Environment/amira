@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "millsaps-college",
+    "name": "Millsaps College",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1992,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1992,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Davis, David C.",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ec50",
+      "titleInfo": [
+        {
+          "title": "\"They sing our origins\": a study of the lungsi drummers of Mampurugu"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-026b"
+    }
+  ]
+}

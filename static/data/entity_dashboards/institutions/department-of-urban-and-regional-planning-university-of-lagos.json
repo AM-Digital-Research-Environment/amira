@@ -1,0 +1,609 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "department-of-urban-and-regional-planning-university-of-lagos",
+    "name": "Department of Urban and Regional Planning, University of Lagos",
+    "count": 31
+  },
+  "timeline": [
+    {
+      "year": 2021,
+      "count": 8
+    },
+    {
+      "year": 2022,
+      "count": 17
+    },
+    {
+      "year": 2023,
+      "count": 6
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2021,
+      "total": 8,
+      "byType": {
+        "Text": 3,
+        "Image": 3,
+        "Moving image": 2
+      }
+    },
+    {
+      "year": 2022,
+      "total": 17,
+      "byType": {
+        "Image": 8,
+        "Text": 8,
+        "Dataset": 1
+      }
+    },
+    {
+      "year": 2023,
+      "total": 6,
+      "byType": {
+        "Image": 2,
+        "Moving image": 1,
+        "Text": 1,
+        "Audio": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 13
+    },
+    {
+      "name": "Text",
+      "value": 12
+    },
+    {
+      "name": "Moving image",
+      "value": 3
+    },
+    {
+      "name": "Audio",
+      "value": 2
+    },
+    {
+      "name": "Dataset",
+      "value": 1
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "West Africa",
+      "value": 16
+    },
+    {
+      "name": "History",
+      "value": 15
+    },
+    {
+      "name": "Migration",
+      "value": 15
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Studies",
+      "value": 31
+    },
+    {
+      "name": "Knowledge",
+      "value": 31
+    },
+    {
+      "name": "West Africa",
+      "value": 16
+    },
+    {
+      "name": "Immigration Studies",
+      "value": 16
+    },
+    {
+      "name": "Immigration",
+      "value": 16
+    },
+    {
+      "name": "History",
+      "value": 15
+    },
+    {
+      "name": "Migration",
+      "value": 15
+    },
+    {
+      "name": "Lagos",
+      "value": 15
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Lawanson, Taibat",
+      "value": 31
+    },
+    {
+      "name": "Eleshin, Abisoye",
+      "value": 31
+    },
+    {
+      "name": "Attoh, Franca",
+      "value": 16
+    },
+    {
+      "name": "Eesuola, Kayode",
+      "value": 16
+    },
+    {
+      "name": "Olalekan, Damilola",
+      "value": 16
+    },
+    {
+      "name": "Oyewumi, Masudi",
+      "value": 16
+    },
+    {
+      "name": "Akinpelu, Deji",
+      "value": 15
+    },
+    {
+      "name": "Enitan, Adewale",
+      "value": 15
+    },
+    {
+      "name": "Odubawo, Orinayo",
+      "value": 15
+    },
+    {
+      "name": "Bitrus, Byenyen",
+      "value": 15
+    }
+  ],
+  "locations": [
+    {
+      "country": "Nigeria",
+      "region": "Lagos State",
+      "city": "Lagos",
+      "count": 31
+    }
+  ],
+  "items": [
+    {
+      "_id": "6718f516c327cde4b57d86b5",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Concept Note"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-0000"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86b6",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Interview"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-0001"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86b7",
+      "titleInfo": [
+        {
+          "title": "Untitled"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-0002"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86b8",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Exhibition"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-99-0003"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86b9",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Workshop"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-0004"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86ba",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Exhibition Essay"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-0005"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86bb",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Workshop Picture 1"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-0006"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86bc",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Workshop Picture 2"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-0007"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86bd",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Picture 3"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-0008"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86be",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Picture 4"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-0009"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86bf",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Picture 5"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-000a"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86c0",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Documentary"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-000b"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86c1",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Brochure"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-000c"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86c2",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Audio Interview 1"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-000d"
+    },
+    {
+      "_id": "6718f516c327cde4b57d86c3",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Audio Interview 2"
+        }
+      ],
+      "typeOfResource": "Audio",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-02-000e"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0d7",
+      "titleInfo": [
+        {
+          "title": "Ethnographic profiling of the migrant  in four case study sites"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-0000"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0d8",
+      "titleInfo": [
+        {
+          "title": "Expert Group Meeting on Youth and Informal Labour Migration in West Africa Urban Corridors"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-0001"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0d9",
+      "titleInfo": [
+        {
+          "title": "Systematic focus group discussion on Youth and Informal Labour Migration in West Africa Urban Corridors"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-0002"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0da",
+      "titleInfo": [
+        {
+          "title": "Cotonou city profiling on Youth and Informal Labour Migration in West Africa Urban Corridors"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-0003"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0db",
+      "titleInfo": [
+        {
+          "title": "A Togolese woman sells Togolese food at Missebo market, Benin Republic"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-0004"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0dc",
+      "titleInfo": [
+        {
+          "title": "Copy of Etoile Rouge, Cotonou, Benin Republic"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-0005"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0dd",
+      "titleInfo": [
+        {
+          "title": "Photo of a market in cotonou, Benin Republic"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-0006"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0de",
+      "titleInfo": [
+        {
+          "title": "Presentation of the initial findings of the project"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-0007"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0df",
+      "titleInfo": [
+        {
+          "title": "Photo of Shrine, brought by Benin Republic migrants to Lagos"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-0008"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0e0",
+      "titleInfo": [
+        {
+          "title": "Validation Workshop Urban Corridors"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-0009"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0e1",
+      "titleInfo": [
+        {
+          "title": "Lagos-City Profile"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-000a"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0e2",
+      "titleInfo": [
+        {
+          "title": "Mobility route of West Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-000b"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0e3",
+      "titleInfo": [
+        {
+          "title": "Some migrants at Ajegunle, Ikorodu, Lagos"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-000c"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0e4",
+      "titleInfo": [
+        {
+          "title": "Lagos Immigration Map"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-000d"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0e5",
+      "titleInfo": [
+        {
+          "title": "Photo of Makoko Community, Lagos"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-000e"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0e6",
+      "titleInfo": [
+        {
+          "title": "Transnational Routes in West Africa"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-000f"
+    }
+  ]
+}

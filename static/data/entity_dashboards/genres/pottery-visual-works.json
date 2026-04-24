@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "type": "genre",
+    "id": "pottery-visual-works",
+    "name": "Pottery (Visual works)",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1973,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1973,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Women artists",
+      "value": 2
+    },
+    {
+      "name": "Artists",
+      "value": 2
+    },
+    {
+      "name": "Mosaics",
+      "value": 2
+    },
+    {
+      "name": "Photographs",
+      "value": 2
+    },
+    {
+      "name": "Courtyards",
+      "value": 1
+    },
+    {
+      "name": "Doors",
+      "value": 1
+    },
+    {
+      "name": "Pottery",
+      "value": 1
+    },
+    {
+      "name": "Museums",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Women artists",
+      "value": 2
+    },
+    {
+      "name": "Artists",
+      "value": 2
+    },
+    {
+      "name": "Mosaics",
+      "value": 2
+    },
+    {
+      "name": "Photographs",
+      "value": 2
+    },
+    {
+      "name": "Ile-Ife",
+      "value": 2
+    },
+    {
+      "name": "Nigeria",
+      "value": 2
+    },
+    {
+      "name": "Courtyards",
+      "value": 1
+    },
+    {
+      "name": "Doors",
+      "value": 1
+    },
+    {
+      "name": "Pottery",
+      "value": 1
+    },
+    {
+      "name": "Museums",
+      "value": 1
+    },
+    {
+      "name": "Pottery Museum",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Beier, Ulli",
+      "value": 2
+    },
+    {
+      "name": "Greven, Katharina",
+      "value": 2
+    }
+  ],
+  "locations": [
+    {
+      "country": "Nigeria",
+      "region": "Osun State",
+      "city": "Ile-Ife",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b4ec",
+      "titleInfo": [
+        {
+          "title": "Innenaufnahme des Pottery Museum in Ile-Ife"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0064"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4ed",
+      "titleInfo": [
+        {
+          "title": "Aufnahme der Tür des Pottery Museum in Ile-Ife"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0065"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "broadcast",
+    "name": "Broadcast",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1987,
+      "count": 1
+    },
+    {
+      "year": 1989,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1987,
+      "total": 1,
+      "byType": {
+        "Moving image": 1
+      }
+    },
+    {
+      "year": 1989,
+      "total": 1,
+      "byType": {
+        "Moving image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Moving image",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [],
+  "contributors": [
+    {
+      "name": "Liberia Broadcasting System (LBS)",
+      "value": 3
+    },
+    {
+      "name": "Liberian Red Cross Society",
+      "value": 2
+    },
+    {
+      "name": "Lloyd, Rev. J. Edwin",
+      "value": 1
+    },
+    {
+      "name": "Government of Liberia",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Liberia",
+      "region": "Montserrado County",
+      "city": "Monrovia",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "6982337057a8e0353b0b1c4a",
+      "titleInfo": [
+        {
+          "title": "Message by J Edwin Lloyd President Liberia National Red Cross Society"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-000d"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c66",
+      "titleInfo": [
+        {
+          "title": "Flag day 1987 celebrations"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0029"
+    }
+  ]
+}

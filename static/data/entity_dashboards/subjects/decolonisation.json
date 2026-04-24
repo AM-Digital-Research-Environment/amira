@@ -1,0 +1,619 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "decolonisation",
+    "name": "Decolonisation",
+    "count": 11
+  },
+  "timeline": [
+    {
+      "year": 2017,
+      "count": 2
+    },
+    {
+      "year": 2018,
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2017,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 2018,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2019,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2020,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2021,
+      "total": 1,
+      "byType": {
+        "Digital": 1
+      }
+    },
+    {
+      "year": 2023,
+      "total": 3,
+      "byType": {
+        "Text": 3
+      }
+    },
+    {
+      "year": 2025,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 10
+    },
+    {
+      "name": "Digital",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 8
+    },
+    {
+      "name": "French",
+      "value": 2
+    },
+    {
+      "name": "German",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Education",
+      "value": 4
+    },
+    {
+      "name": "Social media",
+      "value": 3
+    },
+    {
+      "name": "Curriculum planning",
+      "value": 2
+    },
+    {
+      "name": "Colonisation",
+      "value": 2
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Harmony",
+      "value": 1
+    },
+    {
+      "name": "Tonality",
+      "value": 1
+    },
+    {
+      "name": "Choral music",
+      "value": 1
+    },
+    {
+      "name": "Colonies",
+      "value": 1
+    },
+    {
+      "name": "Myth",
+      "value": 1
+    },
+    {
+      "name": "Developing countries",
+      "value": 1
+    },
+    {
+      "name": "Book reviews",
+      "value": 1
+    },
+    {
+      "name": "Nationalism",
+      "value": 1
+    },
+    {
+      "name": "Postcolonialism",
+      "value": 1
+    },
+    {
+      "name": "Brass bands",
+      "value": 1
+    },
+    {
+      "name": "Musicians",
+      "value": 1
+    },
+    {
+      "name": "Archives",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 7
+    },
+    {
+      "name": "Education",
+      "value": 4
+    },
+    {
+      "name": "Social media",
+      "value": 3
+    },
+    {
+      "name": "Right to Resist",
+      "value": 3
+    },
+    {
+      "name": "Music Education",
+      "value": 3
+    },
+    {
+      "name": "Curriculum",
+      "value": 2
+    },
+    {
+      "name": "Manifestant",
+      "value": 2
+    },
+    {
+      "name": "Protester",
+      "value": 2
+    },
+    {
+      "name": "Curriculum planning",
+      "value": 2
+    },
+    {
+      "name": "Colonisation",
+      "value": 2
+    },
+    {
+      "name": "Pedagogy",
+      "value": 2
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Online Learning Platform",
+      "value": 1
+    },
+    {
+      "name": "African Knowledge",
+      "value": 1
+    },
+    {
+      "name": "Teaching Materials",
+      "value": 1
+    },
+    {
+      "name": "Transcultural Learning",
+      "value": 1
+    },
+    {
+      "name": "Fluid Ontology",
+      "value": 1
+    },
+    {
+      "name": "Basic Soul",
+      "value": 1
+    },
+    {
+      "name": "Morality",
+      "value": 1
+    },
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Semantic Gravity",
+      "value": 1
+    },
+    {
+      "name": "Semantic Waves",
+      "value": 1
+    },
+    {
+      "name": "Recontextualisation",
+      "value": 1
+    },
+    {
+      "name": "Music Curriculum",
+      "value": 1
+    },
+    {
+      "name": "Knowledge",
+      "value": 1
+    },
+    {
+      "name": "Harmony",
+      "value": 1
+    },
+    {
+      "name": "Tonality",
+      "value": 1
+    },
+    {
+      "name": "Choral music",
+      "value": 1
+    },
+    {
+      "name": "Colonies",
+      "value": 1
+    },
+    {
+      "name": "Coronation Song",
+      "value": 1
+    },
+    {
+      "name": "Basutoland",
+      "value": 1
+    },
+    {
+      "name": "Lesotho",
+      "value": 1
+    },
+    {
+      "name": "Choral Composition",
+      "value": 1
+    },
+    {
+      "name": "Myth",
+      "value": 1
+    },
+    {
+      "name": "Developing countries",
+      "value": 1
+    },
+    {
+      "name": "Global South",
+      "value": 1
+    },
+    {
+      "name": "Continental Musicology",
+      "value": 1
+    },
+    {
+      "name": "Book reviews",
+      "value": 1
+    },
+    {
+      "name": "Decolonial Practice",
+      "value": 1
+    },
+    {
+      "name": "Nationalism",
+      "value": 1
+    },
+    {
+      "name": "Postcolonialism",
+      "value": 1
+    },
+    {
+      "name": "Western Sahara",
+      "value": 1
+    },
+    {
+      "name": "Mauritania",
+      "value": 1
+    },
+    {
+      "name": "Nationhood",
+      "value": 1
+    },
+    {
+      "name": "Precolonial Past",
+      "value": 1
+    },
+    {
+      "name": "Haul Music",
+      "value": 1
+    },
+    {
+      "name": "Mobility",
+      "value": 1
+    },
+    {
+      "name": "Trab el Bidan",
+      "value": 1
+    },
+    {
+      "name": "Postcolonial Studies",
+      "value": 1
+    },
+    {
+      "name": "Brass bands",
+      "value": 1
+    },
+    {
+      "name": "Transgressive Learning",
+      "value": 1
+    },
+    {
+      "name": "Indigenous Knowledge System",
+      "value": 1
+    },
+    {
+      "name": "Musicians",
+      "value": 1
+    },
+    {
+      "name": "Archives",
+      "value": 1
+    },
+    {
+      "name": "Decolonial Music Education",
+      "value": 1
+    },
+    {
+      "name": "Community-based Music Knowledge",
+      "value": 1
+    },
+    {
+      "name": "Western Music Knowledge Frameworks",
+      "value": 1
+    },
+    {
+      "name": "Community Musicians",
+      "value": 1
+    },
+    {
+      "name": "Living Archives",
+      "value": 1
+    },
+    {
+      "name": "Uganda",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Zerbo, Armel",
+      "value": 2
+    },
+    {
+      "name": "Carver, Mandy",
+      "value": 2
+    },
+    {
+      "name": "Löhr, Doris",
+      "value": 1
+    },
+    {
+      "name": "Schrüfer, Gabriele",
+      "value": 1
+    },
+    {
+      "name": "Philipps, Joschka",
+      "value": 1
+    },
+    {
+      "name": "Lucia, Christine",
+      "value": 1
+    },
+    {
+      "name": "Pooley, Thomas M.",
+      "value": 1
+    },
+    {
+      "name": "Amoros, Luis Gimenez",
+      "value": 1
+    },
+    {
+      "name": "Dordzro, John-Doe",
+      "value": 1
+    },
+    {
+      "name": "Makwa, Dominic D. B.",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 7
+    },
+    {
+      "country": "Burkina Faso",
+      "region": "Centre",
+      "city": "Ouagadougou",
+      "count": 2
+    },
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "694963c02e9790ceaf521af9",
+      "titleInfo": [
+        {
+          "title": "Projekt Lern- und Ressourcenplattform Afrika (PLURA)"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "UBT_Plura2021",
+        "name": "Plura 2.0: Project Learning and Resource Platform Africa"
+      },
+      "dre_id": "abs-01-0000"
+    },
+    {
+      "_id": "69bd6081f39beedfb72d61a6",
+      "titleInfo": [
+        {
+          "title": "Rapport Balai Citoyen"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_FluOnt2023",
+        "name": "Fluid Ontologies of Contestation. Social media, anti-government protest and transnational decolonization movements in Burkina Faso"
+      },
+      "dre_id": "ace-03-0000"
+    },
+    {
+      "_id": "69bd6081f39beedfb72d61a7",
+      "titleInfo": [
+        {
+          "title": "Rapport Basic Soul"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_FluOnt2023",
+        "name": "Fluid Ontologies of Contestation. Social media, anti-government protest and transnational decolonization movements in Burkina Faso"
+      },
+      "dre_id": "ace-03-0001"
+    },
+    {
+      "_id": "69bd6081f39beedfb72d61a8",
+      "titleInfo": [
+        {
+          "title": "Rapport Synthétique projet"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_FluOnt2023",
+        "name": "Fluid Ontologies of Contestation. Social media, anti-government protest and transnational decolonization movements in Burkina Faso"
+      },
+      "dre_id": "ace-03-0002"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed8f",
+      "titleInfo": [
+        {
+          "title": "KNOWLEDGE TRANSFER: INDIGENOUS AFRICAN MUSIC IN THE SOUTH AFRICAN MUSIC CURRICULUM"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03aa"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed90",
+      "titleInfo": [
+        {
+          "title": "'YET NONE WITH TRUER FERVOUR SING': CORONATION SONG AND THE (DE)COLONIZATION OF AFRICAN CHORAL COMPOSITION"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03ab"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eda0",
+      "titleInfo": [
+        {
+          "title": "CONTINENTAL MUSICOLOGY: DECOLONISING THE MYTH OF A SINGULAR \"AFRICAN MUSIC”"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03bb"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edb1",
+      "titleInfo": [
+        {
+          "title": "Akuno, Emily Achieng'. Music Education in Africa: Concept, Process, and Practice"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03cc"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edbc",
+      "titleInfo": [
+        {
+          "title": "BEYOND NATIONHOOD: HAUL MUSIC FROM A POSTCOLONIAL PERSPECTIVE IN WESTERN SAHARA AND MAURITANIA"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03d7"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ede8",
+      "titleInfo": [
+        {
+          "title": "Adaptation of indigenous approaches to music pedagogy"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0403"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edeb",
+      "titleInfo": [
+        {
+          "title": "Harnessing community musicians as living archives for “sustainable” teaching and learning of Ugandan musics at Makerere University"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0406"
+    }
+  ]
+}

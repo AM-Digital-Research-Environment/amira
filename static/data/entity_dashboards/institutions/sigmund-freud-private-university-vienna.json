@@ -1,0 +1,946 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "sigmund-freud-private-university-vienna",
+    "name": "Sigmund Freud Private University Vienna",
+    "count": 38
+  },
+  "timeline": [
+    {
+      "year": 1960,
+      "count": 1
+    },
+    {
+      "year": 1962,
+      "count": 3
+    },
+    {
+      "year": 1963,
+      "count": 2
+    },
+    {
+      "year": 1964,
+      "count": 3
+    },
+    {
+      "year": 1965,
+      "count": 3
+    },
+    {
+      "year": 1966,
+      "count": 2
+    },
+    {
+      "year": 1968,
+      "count": 2
+    },
+    {
+      "year": 1969,
+      "count": 4
+    },
+    {
+      "year": 1972,
+      "count": 1
+    },
+    {
+      "year": 1973,
+      "count": 1
+    },
+    {
+      "year": 1975,
+      "count": 3
+    },
+    {
+      "year": 1980,
+      "count": 2
+    },
+    {
+      "year": 1983,
+      "count": 3
+    },
+    {
+      "year": 1987,
+      "count": 3
+    },
+    {
+      "year": 1996,
+      "count": 2
+    },
+    {
+      "year": 1999,
+      "count": 1
+    },
+    {
+      "year": 2007,
+      "count": 1
+    },
+    {
+      "year": 2010,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1960,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1962,
+      "total": 3,
+      "byType": {
+        "Text": 3
+      }
+    },
+    {
+      "year": 1963,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1964,
+      "total": 3,
+      "byType": {
+        "Text": 3
+      }
+    },
+    {
+      "year": 1965,
+      "total": 3,
+      "byType": {
+        "Text": 3
+      }
+    },
+    {
+      "year": 1966,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1968,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1969,
+      "total": 4,
+      "byType": {
+        "Text": 4
+      }
+    },
+    {
+      "year": 1972,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1973,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1975,
+      "total": 3,
+      "byType": {
+        "Text": 3
+      }
+    },
+    {
+      "year": 1980,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1983,
+      "total": 3,
+      "byType": {
+        "Text": 3
+      }
+    },
+    {
+      "year": 1987,
+      "total": 3,
+      "byType": {
+        "Text": 3
+      }
+    },
+    {
+      "year": 1996,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1999,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2007,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2010,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 38
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 37
+    },
+    {
+      "name": "French",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 14
+    },
+    {
+      "name": "Musical instruments",
+      "value": 10
+    },
+    {
+      "name": "Music",
+      "value": 7
+    },
+    {
+      "name": "Xylophone music",
+      "value": 5
+    },
+    {
+      "name": "Xylophone",
+      "value": 5
+    },
+    {
+      "name": "Africa",
+      "value": 5
+    },
+    {
+      "name": "Ganda (African people)",
+      "value": 3
+    },
+    {
+      "name": "Musicology",
+      "value": 2
+    },
+    {
+      "name": "Central Africa",
+      "value": 2
+    },
+    {
+      "name": "Mbira",
+      "value": 2
+    },
+    {
+      "name": "Mbira music",
+      "value": 2
+    },
+    {
+      "name": "Composition (Music)",
+      "value": 1
+    },
+    {
+      "name": "Nande (Congolese (Democratic Republic) and Ugandan people)",
+      "value": 1
+    },
+    {
+      "name": "Travel",
+      "value": 1
+    },
+    {
+      "name": "Harp",
+      "value": 1
+    },
+    {
+      "name": "Zande (African people)",
+      "value": 1
+    },
+    {
+      "name": "Sound recordings",
+      "value": 1
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    },
+    {
+      "name": "Harp music",
+      "value": 1
+    },
+    {
+      "name": "Research",
+      "value": 1
+    },
+    {
+      "name": "Graphic notation (Music)",
+      "value": 1
+    },
+    {
+      "name": "Ethnographic films",
+      "value": 1
+    },
+    {
+      "name": "Arrangement (Music)",
+      "value": 1
+    },
+    {
+      "name": "East Africa",
+      "value": 1
+    },
+    {
+      "name": "Storytelling",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 38
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 14
+    },
+    {
+      "name": "Musical instruments",
+      "value": 10
+    },
+    {
+      "name": "Music",
+      "value": 7
+    },
+    {
+      "name": "Uganda",
+      "value": 6
+    },
+    {
+      "name": "Xylophone music",
+      "value": 5
+    },
+    {
+      "name": "Xylophone",
+      "value": 5
+    },
+    {
+      "name": "Xylophone (Instrument)",
+      "value": 5
+    },
+    {
+      "name": "Africa",
+      "value": 5
+    },
+    {
+      "name": "Mozambique",
+      "value": 4
+    },
+    {
+      "name": "Ganda (African people)",
+      "value": 3
+    },
+    {
+      "name": "Angola",
+      "value": 3
+    },
+    {
+      "name": "Musicology",
+      "value": 2
+    },
+    {
+      "name": "Central Africa",
+      "value": 2
+    },
+    {
+      "name": "Mbira",
+      "value": 2
+    },
+    {
+      "name": "Mbira music",
+      "value": 2
+    },
+    {
+      "name": "Mbira (Instrument)",
+      "value": 2
+    },
+    {
+      "name": "Malawi",
+      "value": 2
+    },
+    {
+      "name": "Composition (Music)",
+      "value": 1
+    },
+    {
+      "name": "Musical Meter",
+      "value": 1
+    },
+    {
+      "name": "Musical Rhythm",
+      "value": 1
+    },
+    {
+      "name": "Nande (Congolese (Democratic Republic) and Ugandan people)",
+      "value": 1
+    },
+    {
+      "name": "Bukonjo",
+      "value": 1
+    },
+    {
+      "name": "Konjo",
+      "value": 1
+    },
+    {
+      "name": "Travel",
+      "value": 1
+    },
+    {
+      "name": "Harp",
+      "value": 1
+    },
+    {
+      "name": "Zande (African people)",
+      "value": 1
+    },
+    {
+      "name": "Sound recordings",
+      "value": 1
+    },
+    {
+      "name": "Dance",
+      "value": 1
+    },
+    {
+      "name": "Sound Reproducing",
+      "value": 1
+    },
+    {
+      "name": "Field Recording",
+      "value": 1
+    },
+    {
+      "name": "Harp music",
+      "value": 1
+    },
+    {
+      "name": "Research",
+      "value": 1
+    },
+    {
+      "name": "Graphic notation (Music)",
+      "value": 1
+    },
+    {
+      "name": "Ethnographic films",
+      "value": 1
+    },
+    {
+      "name": "Arrangement (Music)",
+      "value": 1
+    },
+    {
+      "name": "East Africa",
+      "value": 1
+    },
+    {
+      "name": "Kenya",
+      "value": 1
+    },
+    {
+      "name": "Storytelling",
+      "value": 1
+    },
+    {
+      "name": "Benin",
+      "value": 1
+    },
+    {
+      "name": "Musical bow",
+      "value": 1
+    },
+    {
+      "name": "Ibibio (African people)",
+      "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    },
+    {
+      "name": "Ibibio Music",
+      "value": 1
+    },
+    {
+      "name": "Field Research",
+      "value": 1
+    },
+    {
+      "name": "Education",
+      "value": 1
+    },
+    {
+      "name": "Traditional Education",
+      "value": 1
+    },
+    {
+      "name": "Myth",
+      "value": 1
+    },
+    {
+      "name": "Ritual",
+      "value": 1
+    },
+    {
+      "name": "Buganda",
+      "value": 1
+    },
+    {
+      "name": "Kingship",
+      "value": 1
+    },
+    {
+      "name": "Zambia",
+      "value": 1
+    },
+    {
+      "name": "Democratic Republic of the Congo",
+      "value": 1
+    },
+    {
+      "name": "Batá Drum",
+      "value": 1
+    },
+    {
+      "name": "Yoruba Art",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kubik, Gerhard",
+      "value": 38
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 38
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ea97",
+      "titleInfo": [
+        {
+          "title": "The structure of Kiganda xylophone music"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00b2"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eab7",
+      "titleInfo": [
+        {
+          "title": "\"THE MUSIC OF CENTRAL AFRICA\" by ROSE BRANDEL. Martinus Nijhoff. The Hague. 1961, XII and 272 pp. with 135 pp. of musical examples."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00d2"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eac5",
+      "titleInfo": [
+        {
+          "title": "The phenomenon of inherent rhythms in East and Central African instrumental music"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00e0"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eac6",
+      "titleInfo": [
+        {
+          "title": "The Endara xylophone of Bukonjo"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00e1"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eada",
+      "titleInfo": [
+        {
+          "title": "A Musical Pilgrim's Progress"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00f5"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eadb",
+      "titleInfo": [
+        {
+          "title": "Discovery of a Trough Xylophone in Northern Mozambique"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00f6"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eaf5",
+      "titleInfo": [
+        {
+          "title": "Harp music of the Azande and related peoples in the Central African Republic (Part 1 - Horizontal harp playing)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0110"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eaf6",
+      "titleInfo": [
+        {
+          "title": "Recording and studying music in Northern Mozambique. (With drawings and photograph by Helmut Hillegeist)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0111"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eafb",
+      "titleInfo": [
+        {
+          "title": "Generic names for the Mbira. (A Contribution to Hugh Traceys article A Case for the name Mbira)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0116"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb0f",
+      "titleInfo": [
+        {
+          "title": "Towards a text book of Kiganda music"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-012a"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb10",
+      "titleInfo": [
+        {
+          "title": "Generic names for the mbira"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-012b"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb13",
+      "titleInfo": [
+        {
+          "title": "Transcription of Mangwilo xylophone music from film strips"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-012e"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb1f",
+      "titleInfo": [
+        {
+          "title": "“OS INSTRUMENTOS MUSICAIS DE MOZAMBIQUE”, by Margot Dias in GEOGRAPHICA, Ano II, No. 6. April, 1966."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-013a"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb2c",
+      "titleInfo": [
+        {
+          "title": "Ennanga music"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0147"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb44",
+      "titleInfo": [
+        {
+          "title": "A. M. Dauer: “STIL UND TECHNIK IM AFRIKANISCHEN TANZ”. Betrachtungen zu den Weltfestspielen aftikanischer Kunst in Dakar 1966. SONDERBEILAGE zur Zeitschrift AFRIKA HEUTE, Nr. 24/67, 15. Dezember 1967, Bonn."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-015f"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb4b",
+      "titleInfo": [
+        {
+          "title": "Music in Uganda: a brief report"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0166"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb56",
+      "titleInfo": [
+        {
+          "title": "\"UN FILM EXPERIMENTAL: BATTERIES DOGON, ELEMENTS POUR UNE ETUDE DE RYTHMES”, L'HOMME. Gilbert Rouget. Revue Francaise d'Anthropologie, V-2, 1965."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0171"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb58",
+      "titleInfo": [
+        {
+          "title": "\"THE AFRICAN XYLOPHONE”. Lois Anderson. African Arts/Arts D'Afrique. August, 1967."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0173"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb59",
+      "titleInfo": [
+        {
+          "title": "INSTRUMENTOS MUSICAIS POPULARES PORTUGUESES. Ernesto Veiga de Oliveira. Fundacao Calouste Gulbenkian, Lisboa 1966. (239 pages text, 439 photographs)."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0174"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb5a",
+      "titleInfo": [
+        {
+          "title": "\"LIEDERD ER GONJA. MUSIK- UND TEXTANALYSE, NEBST EINIGEN METHODISCHEN BEMERKUNGEN.” A. M. Dauer. Zeitschrift fur Ethnologie, Band 92, Heft 2, Braunschweig 1967."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0175"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ebaf",
+      "titleInfo": [
+        {
+          "title": "Transcription of African music from silent film: theory and methods"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01ca"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ebb4",
+      "titleInfo": [
+        {
+          "title": "Notes and News"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01cf"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ebd3",
+      "titleInfo": [
+        {
+          "title": "MUSICAL INSTRUMENTS OF EAST AFRICA, 1 KENYA by Graham Hyslop, Nelson Africa Ltd, P.O.Box 73146, Nairobi, 1975, pp. viii, 64, photos, transcriptions"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01ee"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ebd4",
+      "titleInfo": [
+        {
+          "title": "SWEET WORDS. STORYTELLING EVENTS IN BENIN by Dan Ben-Amos. A publication of the Institute for the Study of Human Issues, Philadelphia, 1975."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01ef"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ebdb",
+      "titleInfo": [
+        {
+          "title": "Musical bows in south-western Angola, 1965"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01f6"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ebea",
+      "titleInfo": [
+        {
+          "title": "IBIBIO MUSIC IN NIGERIAN CULTURE by Samuel Ekpe Akpabot, Michigan State University Press, 1975, pp. 102, $7.50."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0205"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ebeb",
+      "titleInfo": [
+        {
+          "title": "Likembe tunings of Kufuna Kandonga (Angola)"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0206"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec07",
+      "titleInfo": [
+        {
+          "title": "REPORT ON CULTURAL FIELD RESEARCH IN MANGOCHI DISTRICT, MALAWI, July 15 to August 25, 1983"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0222"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec0a",
+      "titleInfo": [
+        {
+          "title": "From Gerhard Kubik: Lisbon"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0225"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec10",
+      "titleInfo": [
+        {
+          "title": "From Gerhard Kubik: West Berlin"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-022b"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec1f",
+      "titleInfo": [
+        {
+          "title": "Research project on \"Systems of traditional education in Malawi” (the continuation: September 1983 to February 1984) by Dr. Gerhard Kubik"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-023a"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec26",
+      "titleInfo": [
+        {
+          "title": "TRADITION AFRIKANISCHER BLASORCHESTER UND ENTSTEHUNG DES JAZZ, by Alfons Michael Dauer, 2 volumes, Akademische Druck- und Verlagsanstalt Graz. Volume 7 in the series Studies in Jazz Research edited by The International Society for Jazz Research and by The Institute for Jazz Research at the College of Music and Performing Arts in Graz, Austria, 1985. Text section: 240 pp, music, photographs and drawings. Notation section: 204 pp, 68 transcriptions of 51 music examples."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0241"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec2f",
+      "titleInfo": [
+        {
+          "title": "African space/time concepts and the Tusona ideographs in Luchazi culture"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-024a"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec5e",
+      "titleInfo": [
+        {
+          "title": "MYTH, RITUAL AND KINGSHIP IN BUGANDA, by Benjamin C. Ray, Oxford University Press, New York, Oxford, 1991,239pp., illus., photos."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0279"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec5f",
+      "titleInfo": [
+        {
+          "title": "ZENTRALAFRIKA: MUSIKGESCHICHTE IN BILDERN, by Jos Gansemans and Barbara Schmidt-Wrenger, VEB Deutscher Verlag fur Musik, Leipzig, 1986, Band I, Musikethnologie, Lieferung 9, 210 pages, 238 pictures (partly in colour), map, musical transcriptions and other text illustrations, ISBN 3-370-00150-0."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-027a"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec88",
+      "titleInfo": [
+        {
+          "title": "Dr. David Kenneth Rycroft, 7 December 1924 - 8 August 1997"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02a3"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ec98",
+      "titleInfo": [
+        {
+          "title": "Pierre Gwa - Mpyemõ Guitarist: His Songs and Their Sources Central African Republic, 1966"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02b3"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ecd3",
+      "titleInfo": [
+        {
+          "title": "Ancient Text Messages of the Yoruba Batá Drum Cracking the Code. Amanda Villepastour. 2010. Farnham: Ashgate, SOAS Musicology Series. 173 pp. photos, transcriptions, CD. ISBN 978-0-7546-6753-7 hb, ISBN 0754667537 pb."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-02ee"
+    }
+  ]
+}

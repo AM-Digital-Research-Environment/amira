@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "guedes-pancho",
+    "name": "Guedes, Pancho",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 2014,
+      "count": 2
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2014,
+      "total": 2,
+      "byType": {
+        "Image": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Photographs",
+      "value": 2
+    },
+    {
+      "name": "Art",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Painting",
+      "value": 1
+    },
+    {
+      "name": "Interior decoration",
+      "value": 1
+    },
+    {
+      "name": "Museum registration methods",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Photographs",
+      "value": 2
+    },
+    {
+      "name": "Lisbon",
+      "value": 2
+    },
+    {
+      "name": "Art",
+      "value": 1
+    },
+    {
+      "name": "Africa",
+      "value": 1
+    },
+    {
+      "name": "Painting",
+      "value": 1
+    },
+    {
+      "name": "African Women",
+      "value": 1
+    },
+    {
+      "name": "Interior decoration",
+      "value": 1
+    },
+    {
+      "name": "Museum registration methods",
+      "value": 1
+    },
+    {
+      "name": "Accessioning (Works of Art)",
+      "value": 1
+    },
+    {
+      "name": "Cataloging (Works of Art)",
+      "value": 1
+    },
+    {
+      "name": "Classification (Works of Art)",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Greven, Katharina",
+      "value": 3
+    },
+    {
+      "name": "Beier, Ulli",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Portugal",
+      "region": "",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "Portugal",
+      "region": "Lisbon",
+      "city": "Sintra",
+      "count": 1
+    },
+    {
+      "country": "Portugal",
+      "region": "Lisbon",
+      "city": "Lisbon",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b4db",
+      "titleInfo": [
+        {
+          "title": "Gemälde von Guedes"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0053"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b538",
+      "titleInfo": [
+        {
+          "title": "Innenaufnahme des Hauses in Sintra"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-00b0"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b53a",
+      "titleInfo": [
+        {
+          "title": "Diakästen im Haus in Lissabon"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-00b2"
+    }
+  ]
+}

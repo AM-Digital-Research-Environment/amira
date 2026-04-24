@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "efik-ibibio",
+    "name": "Efik-Ibibio",
+    "count": 5
+  },
+  "timeline": [
+    {
+      "year": 2015,
+      "count": 5
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2015,
+      "total": 5,
+      "byType": {
+        "Text": 5
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 5
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Tales",
+      "value": 5
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Tales",
+      "value": 5
+    },
+    {
+      "name": "African Folktales",
+      "value": 5
+    },
+    {
+      "name": "Folktales",
+      "value": 5
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Radin, Paul",
+      "value": 5
+    },
+    {
+      "name": "Princeton University Press",
+      "value": 5
+    }
+  ],
+  "locations": [
+    {
+      "country": "United States of America",
+      "region": "New Jersey",
+      "city": "Princeton",
+      "count": 5
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a8ab2c85fe8df87139",
+      "titleInfo": [
+        {
+          "title": "Why the Sun and the Moon Live in the Sky"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0042"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87144",
+      "titleInfo": [
+        {
+          "title": "The Leopard, the Squirrel, and the Tortoise"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-004d"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87152",
+      "titleInfo": [
+        {
+          "title": "How a Hunter Obtained Money from His Friends the Leopard, the Goat, the Bush Cat, and the Cokc, and How He Got Out of Repaying Them"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-005b"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8715b",
+      "titleInfo": [
+        {
+          "title": "The Slave Girl Who Tried to Kill Her Mistress"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0064"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8716e",
+      "titleInfo": [
+        {
+          "title": "The Fat Woman Who Melted Away"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0077"
+    }
+  ]
+}

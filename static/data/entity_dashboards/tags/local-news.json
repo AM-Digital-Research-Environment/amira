@@ -1,0 +1,894 @@
+{
+  "meta": {
+    "type": "tag",
+    "id": "local-news",
+    "name": "Local News",
+    "count": 50
+  },
+  "timeline": [
+    {
+      "year": 1985,
+      "count": 4
+    },
+    {
+      "year": 1987,
+      "count": 5
+    },
+    {
+      "year": 1988,
+      "count": 7
+    },
+    {
+      "year": 1989,
+      "count": 7
+    },
+    {
+      "year": 1990,
+      "count": 4
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1985,
+      "total": 4,
+      "byType": {
+        "Moving image": 4
+      }
+    },
+    {
+      "year": 1987,
+      "total": 5,
+      "byType": {
+        "Moving image": 5
+      }
+    },
+    {
+      "year": 1988,
+      "total": 7,
+      "byType": {
+        "Moving image": 7
+      }
+    },
+    {
+      "year": 1989,
+      "total": 7,
+      "byType": {
+        "Moving image": 7
+      }
+    },
+    {
+      "year": 1990,
+      "total": 4,
+      "byType": {
+        "Moving image": 4
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Moving image",
+      "value": 50
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 50
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "Politics",
+      "value": 49
+    },
+    {
+      "name": "International News",
+      "value": 47
+    },
+    {
+      "name": "Global North",
+      "value": 1
+    },
+    {
+      "name": "Global South",
+      "value": 1
+    },
+    {
+      "name": "Inequality",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Liberia Broadcasting System (LBS)",
+      "value": 84
+    },
+    {
+      "name": "Government of Liberia",
+      "value": 50
+    },
+    {
+      "name": "Brown, Dan",
+      "value": 13
+    },
+    {
+      "name": "Andrews, Amos",
+      "value": 8
+    },
+    {
+      "name": "Christopher, Victoria",
+      "value": 8
+    },
+    {
+      "name": "Konuwa, Charles",
+      "value": 6
+    },
+    {
+      "name": "Kollie, Aaron",
+      "value": 6
+    },
+    {
+      "name": "Gbenyon, Charles",
+      "value": 4
+    },
+    {
+      "name": "Stevquoah, Sam",
+      "value": 4
+    },
+    {
+      "name": "Collin, Aaron",
+      "value": 2
+    },
+    {
+      "name": "Wessehutes, Jimmy",
+      "value": 2
+    },
+    {
+      "name": "Bardew, Cyrus",
+      "value": 2
+    },
+    {
+      "name": "Doe, Samuel Kanyon",
+      "value": 2
+    },
+    {
+      "name": "Ministry of Information, Cultural Affairs and Tourism, Liberia",
+      "value": 2
+    },
+    {
+      "name": "Gomea, James",
+      "value": 1
+    },
+    {
+      "name": "Konoha, Charles",
+      "value": 1
+    },
+    {
+      "name": "Gbado, Cyrus",
+      "value": 1
+    },
+    {
+      "name": "Johnson, Andrew",
+      "value": 1
+    },
+    {
+      "name": "Kollie, William",
+      "value": 1
+    },
+    {
+      "name": "Kekomai, Edward",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Liberia",
+      "region": "Montserrado County",
+      "city": "Monrovia",
+      "count": 50
+    }
+  ],
+  "items": [
+    {
+      "_id": "6982337057a8e0353b0b1c50",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0013"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c51",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0014"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c57",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-001a"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c5a",
+      "titleInfo": [
+        {
+          "title": "ELTV News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-001d"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c5b",
+      "titleInfo": [
+        {
+          "title": "ELTV News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-001e"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c67",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-002a"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c68",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-002b"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c69",
+      "titleInfo": [
+        {
+          "title": "ELTV Week-in-Review"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-002c"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c6b",
+      "titleInfo": [
+        {
+          "title": "ELTV Week-in-Review"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-002e"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c70",
+      "titleInfo": [
+        {
+          "title": "ELTV Week-in-Review"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0033"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c71",
+      "titleInfo": [
+        {
+          "title": "ELTV Week-in-Review"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0034"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c72",
+      "titleInfo": [
+        {
+          "title": "ELTV Week-in-Review"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0035"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c74",
+      "titleInfo": [
+        {
+          "title": "ELTV Week-in-Review"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0037"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c75",
+      "titleInfo": [
+        {
+          "title": "ELTV Week-in-Review"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0038"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c76",
+      "titleInfo": [
+        {
+          "title": "ELTV Week-in-Review"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0039"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c77",
+      "titleInfo": [
+        {
+          "title": "ELTV Week-in-Review"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-003a"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c78",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-003b"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c79",
+      "titleInfo": [
+        {
+          "title": "ELTV Week-in-Review"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-003c"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c7a",
+      "titleInfo": [
+        {
+          "title": "ELTV Week-in-Review"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-003d"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c7b",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-003e"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c7c",
+      "titleInfo": [
+        {
+          "title": "ELTV Week-in-Review"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-003f"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c7d",
+      "titleInfo": [
+        {
+          "title": "ELTV Week-in-Review"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0040"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c7f",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0042"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c80",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0043"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c81",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0044"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c82",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0045"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c83",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0046"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c84",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0047"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c85",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0048"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c86",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0049"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c87",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-004a"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c88",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-004b"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c89",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-004c"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c8a",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-004d"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c8b",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-004e"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c8c",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-004f"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c8d",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0050"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c90",
+      "titleInfo": [
+        {
+          "title": "ELTV Week-in-Review"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0053"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c9e",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0061"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1c9f",
+      "titleInfo": [
+        {
+          "title": "ELTV Week-in-Review"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0062"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1ca0",
+      "titleInfo": [
+        {
+          "title": "ELTV Week-in-Review"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0063"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1ca1",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0064"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1ca4",
+      "titleInfo": [
+        {
+          "title": "Action News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0067"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1ca5",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0068"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cae",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0071"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1caf",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-0072"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cca",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-008d"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1ccb",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-008e"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1ccc",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-008f"
+    },
+    {
+      "_id": "6982337057a8e0353b0b1cda",
+      "titleInfo": [
+        {
+          "title": "ELTV Channel 6 News"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System"
+      },
+      "dre_id": "abn-99-009d"
+    }
+  ]
+}

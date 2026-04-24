@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "museum-of-archaeology-and-anthropology-university-of-cambridge",
+    "name": "Museum of Archaeology and Anthropology, University of Cambridge",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1987,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1987,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Idoma (African people)",
+      "value": 1
+    },
+    {
+      "name": "Idoma language",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Idoma (African people)",
+      "value": 1
+    },
+    {
+      "name": "Idoma language",
+      "value": 1
+    },
+    {
+      "name": "African Music",
+      "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Blench, Roger",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ec2e",
+      "titleInfo": [
+        {
+          "title": "Idoma musical instruments"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0249"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "kirby-percival-r",
+    "name": "Kirby, Percival R.",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1961,
+      "count": 1
+    },
+    {
+      "year": 1965,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1961,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1965,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Central Africa",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 1
+    },
+    {
+      "name": "Central Africa",
+      "value": 1
+    },
+    {
+      "name": "Rwanda",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9eab6",
+      "titleInfo": [
+        {
+          "title": "Physical phenomena which appear to have determined the bases and development of an harmonic sense among Bushmen, Hottentot and Bantu"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00d1"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eafe",
+      "titleInfo": [
+        {
+          "title": "“MUSIC IN RWANDA\", a contribution to the Ethnomusicology of Central Africa by Dr. ROBERT GUNTHER. Tervuren, Belgium, 1964."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0119"
+    }
+  ]
+}

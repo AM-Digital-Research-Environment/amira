@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "iron-sculpture",
+    "name": "Iron sculpture",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1976,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1976,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 2
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "Art",
+      "value": 2
+    },
+    {
+      "name": "Sculpture",
+      "value": 2
+    },
+    {
+      "name": "Artists",
+      "value": 2
+    },
+    {
+      "name": "Women artists",
+      "value": 2
+    },
+    {
+      "name": "Photographs",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Art",
+      "value": 2
+    },
+    {
+      "name": "Sculpture",
+      "value": 2
+    },
+    {
+      "name": "Artists",
+      "value": 2
+    },
+    {
+      "name": "Women artists",
+      "value": 2
+    },
+    {
+      "name": "Photographs",
+      "value": 1
+    },
+    {
+      "name": "Ile-Ife",
+      "value": 1
+    },
+    {
+      "name": "Nigeria",
+      "value": 1
+    },
+    {
+      "name": "Papua New Guinea",
+      "value": 1
+    },
+    {
+      "name": "New Guinea",
+      "value": 1
+    },
+    {
+      "name": "Port Moresby",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Greven, Katharina",
+      "value": 2
+    },
+    {
+      "name": "Beier, Georgina",
+      "value": 2
+    },
+    {
+      "name": "Beier, Ulli",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Nigeria",
+      "region": "Osun State",
+      "city": "Ile-Ife",
+      "count": 1
+    },
+    {
+      "country": "Papua New Guinea",
+      "region": "National Capital District",
+      "city": "Port Moresby",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "68c2f8e1f102814baee7b4be",
+      "titleInfo": [
+        {
+          "title": "Aufbau der Eisenskulptur von Georgina Beier an der Universität von Ife"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-0036"
+    },
+    {
+      "_id": "68c2f8e1f102814baee7b4f3",
+      "titleInfo": [
+        {
+          "title": "Georgina Beiers Eisenskulptur aus dem Jahre 1976 an der Außenwand des Instituts of Papua New Guinea Studies in Port Moresby"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent"
+      },
+      "dre_id": "abg-01-006b"
+    }
+  ]
+}

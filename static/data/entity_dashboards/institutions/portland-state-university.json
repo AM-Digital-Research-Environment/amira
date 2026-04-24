@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "portland-state-university",
+    "name": "Portland State University",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1982,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1982,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Turkson, A. A.",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ec03",
+      "titleInfo": [
+        {
+          "title": "Effutu Asafo: Its organization and music"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-021e"
+    }
+  ]
+}

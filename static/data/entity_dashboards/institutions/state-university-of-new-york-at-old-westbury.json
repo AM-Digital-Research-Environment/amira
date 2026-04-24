@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "state-university-of-new-york-at-old-westbury",
+    "name": "State University of New York at Old Westbury",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2017,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2017,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 1
+    }
+  ],
+  "subjects": [],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Coplan, David B.",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9ec38",
+      "titleInfo": [
+        {
+          "title": "Notes on new and old world African drumming: just playing it like you mean it is not playing"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0253"
+    }
+  ]
+}

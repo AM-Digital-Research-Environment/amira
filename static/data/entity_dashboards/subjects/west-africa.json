@@ -1,0 +1,2236 @@
+{
+  "meta": {
+    "type": "subject",
+    "id": "west-africa",
+    "name": "West Africa",
+    "count": 89
+  },
+  "timeline": [
+    {
+      "year": 1954,
+      "count": 2
+    },
+    {
+      "year": 1962,
+      "count": 1
+    },
+    {
+      "year": 1969,
+      "count": 1
+    },
+    {
+      "year": 1971,
+      "count": 1
+    },
+    {
+      "year": 2012,
+      "count": 1
+    },
+    {
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "count": 6
+    },
+    {
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "count": 37
+    },
+    {
+      "year": 2023,
+      "count": 21
+    },
+    {
+      "year": 2024,
+      "count": 16
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1954,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1962,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1969,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1971,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2012,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2017,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2018,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2020,
+      "total": 6,
+      "byType": {
+        "Digital": 3,
+        "Text": 2,
+        "Moving image": 1
+      }
+    },
+    {
+      "year": 2021,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2022,
+      "total": 37,
+      "byType": {
+        "Text": 29,
+        "Image": 7,
+        "Dataset": 1
+      }
+    },
+    {
+      "year": 2023,
+      "total": 21,
+      "byType": {
+        "Image": 1,
+        "Text": 20
+      }
+    },
+    {
+      "year": 2024,
+      "total": 16,
+      "byType": {
+        "Text": 4,
+        "Manuscript": 12
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 64
+    },
+    {
+      "name": "Manuscript",
+      "value": 12
+    },
+    {
+      "name": "Image",
+      "value": 8
+    },
+    {
+      "name": "Digital",
+      "value": 3
+    },
+    {
+      "name": "Dataset",
+      "value": 1
+    },
+    {
+      "name": "Moving image",
+      "value": 1
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 34
+    },
+    {
+      "name": "French",
+      "value": 23
+    }
+  ],
+  "subjects": [
+    {
+      "name": "World health",
+      "value": 23
+    },
+    {
+      "name": "Africa",
+      "value": 16
+    },
+    {
+      "name": "Manuscripts",
+      "value": 12
+    },
+    {
+      "name": "Early modern, 1500-1700",
+      "value": 12
+    },
+    {
+      "name": "Literature",
+      "value": 12
+    },
+    {
+      "name": "Slave trade",
+      "value": 12
+    },
+    {
+      "name": "Gender",
+      "value": 12
+    },
+    {
+      "name": "African diaspora",
+      "value": 10
+    },
+    {
+      "name": "Health",
+      "value": 10
+    },
+    {
+      "name": "Exports",
+      "value": 4
+    },
+    {
+      "name": "Diseases",
+      "value": 4
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 4
+    },
+    {
+      "name": "Jazz",
+      "value": 4
+    },
+    {
+      "name": "Finance",
+      "value": 3
+    },
+    {
+      "name": "Interviews",
+      "value": 3
+    },
+    {
+      "name": "Islam",
+      "value": 3
+    },
+    {
+      "name": "Debt",
+      "value": 2
+    },
+    {
+      "name": "Interest rates",
+      "value": 2
+    },
+    {
+      "name": "Mysticism",
+      "value": 2
+    },
+    {
+      "name": "Sustainability",
+      "value": 2
+    },
+    {
+      "name": "COVID-19 (Disease)",
+      "value": 2
+    },
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Cosmopolitanism",
+      "value": 2
+    },
+    {
+      "name": "Economic policy",
+      "value": 1
+    },
+    {
+      "name": "Structural adjustment (Economic policy)",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Knowledge",
+      "value": 28
+    },
+    {
+      "name": "World health",
+      "value": 23
+    },
+    {
+      "name": "Burkina Faso",
+      "value": 23
+    },
+    {
+      "name": "Global Health Policy",
+      "value": 23
+    },
+    {
+      "name": "Africa",
+      "value": 16
+    },
+    {
+      "name": "African Studies",
+      "value": 16
+    },
+    {
+      "name": "Immigration Studies",
+      "value": 16
+    },
+    {
+      "name": "Immigration",
+      "value": 16
+    },
+    {
+      "name": "Global Health",
+      "value": 15
+    },
+    {
+      "name": "Manuscripts",
+      "value": 12
+    },
+    {
+      "name": "Early modern, 1500-1700",
+      "value": 12
+    },
+    {
+      "name": "Literature",
+      "value": 12
+    },
+    {
+      "name": "Slave trade",
+      "value": 12
+    },
+    {
+      "name": "Voyages",
+      "value": 12
+    },
+    {
+      "name": "Royal Africa Company",
+      "value": 12
+    },
+    {
+      "name": "England",
+      "value": 12
+    },
+    {
+      "name": "Atlantic Slave Trade",
+      "value": 12
+    },
+    {
+      "name": "Gender",
+      "value": 12
+    },
+    {
+      "name": "Men who have Sex with Men",
+      "value": 12
+    },
+    {
+      "name": "The Global Fund to Fight AIDS, Tuberculosis and Malaria",
+      "value": 12
+    },
+    {
+      "name": "Joint United Nations Programme on HIV/AIDS",
+      "value": 12
+    },
+    {
+      "name": "Ghana",
+      "value": 11
+    },
+    {
+      "name": "Nigeria",
+      "value": 10
+    },
+    {
+      "name": "African diaspora",
+      "value": 10
+    },
+    {
+      "name": "Health",
+      "value": 10
+    },
+    {
+      "name": "African Music",
+      "value": 9
+    },
+    {
+      "name": "Senegal",
+      "value": 8
+    },
+    {
+      "name": "Ledger",
+      "value": 8
+    },
+    {
+      "name": "Currency",
+      "value": 5
+    },
+    {
+      "name": "Exports",
+      "value": 4
+    },
+    {
+      "name": "Diseases",
+      "value": 4
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 4
+    },
+    {
+      "name": "Jazz",
+      "value": 4
+    },
+    {
+      "name": "Naira",
+      "value": 3
+    },
+    {
+      "name": "Finance",
+      "value": 3
+    },
+    {
+      "name": "Interviews",
+      "value": 3
+    },
+    {
+      "name": "Islam",
+      "value": 3
+    },
+    {
+      "name": "Black Representations",
+      "value": 3
+    },
+    {
+      "name": "HIV/AIDS",
+      "value": 3
+    },
+    {
+      "name": "Old Naira",
+      "value": 2
+    },
+    {
+      "name": "Political Economy",
+      "value": 2
+    },
+    {
+      "name": "Central Bank",
+      "value": 2
+    },
+    {
+      "name": "Debt",
+      "value": 2
+    },
+    {
+      "name": "Sovereign Bond",
+      "value": 2
+    },
+    {
+      "name": "Interest rates",
+      "value": 2
+    },
+    {
+      "name": "Government Expenditure",
+      "value": 2
+    },
+    {
+      "name": "Government Budget",
+      "value": 2
+    },
+    {
+      "name": "Government Revenue",
+      "value": 2
+    },
+    {
+      "name": "Mysticism",
+      "value": 2
+    },
+    {
+      "name": "Debtor List",
+      "value": 2
+    },
+    {
+      "name": "Ship Blackmoore",
+      "value": 2
+    },
+    {
+      "name": "Expense List",
+      "value": 2
+    },
+    {
+      "name": "Sustainability",
+      "value": 2
+    },
+    {
+      "name": "Vertical Program",
+      "value": 2
+    },
+    {
+      "name": "Horizontal Program",
+      "value": 2
+    },
+    {
+      "name": "Legal Framework",
+      "value": 2
+    },
+    {
+      "name": "COVID-19 (Disease)",
+      "value": 2
+    },
+    {
+      "name": "World Health Organization",
+      "value": 2
+    },
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 2
+    },
+    {
+      "name": "Barrier Measure",
+      "value": 2
+    },
+    {
+      "name": "Mobility",
+      "value": 2
+    },
+    {
+      "name": "Global Health Governance",
+      "value": 2
+    },
+    {
+      "name": "Music",
+      "value": 2
+    },
+    {
+      "name": "Foreign Influences",
+      "value": 2
+    },
+    {
+      "name": "Cosmopolitanism",
+      "value": 2
+    },
+    {
+      "name": "Accra",
+      "value": 2
+    },
+    {
+      "name": "Transnational Culture",
+      "value": 2
+    },
+    {
+      "name": "Public Debt",
+      "value": 1
+    },
+    {
+      "name": "Economic policy",
+      "value": 1
+    },
+    {
+      "name": "Structural adjustment (Economic policy)",
+      "value": 1
+    },
+    {
+      "name": "Fintech",
+      "value": 1
+    },
+    {
+      "name": "Mobile Money",
+      "value": 1
+    },
+    {
+      "name": "Investment banking",
+      "value": 1
+    },
+    {
+      "name": "Securities",
+      "value": 1
+    },
+    {
+      "name": "Bank Investement",
+      "value": 1
+    },
+    {
+      "name": "Commercial Bank",
+      "value": 1
+    },
+    {
+      "name": "Lending Rates",
+      "value": 1
+    },
+    {
+      "name": "Public finance",
+      "value": 1
+    },
+    {
+      "name": "Export Data",
+      "value": 1
+    },
+    {
+      "name": "Imports",
+      "value": 1
+    },
+    {
+      "name": "Import Data",
+      "value": 1
+    },
+    {
+      "name": "Bank Credit",
+      "value": 1
+    },
+    {
+      "name": "Private Sector",
+      "value": 1
+    },
+    {
+      "name": "Tax Revenue",
+      "value": 1
+    },
+    {
+      "name": "Total Revenue",
+      "value": 1
+    },
+    {
+      "name": "Government Reserves",
+      "value": 1
+    },
+    {
+      "name": "Government Trade",
+      "value": 1
+    },
+    {
+      "name": "Gold",
+      "value": 1
+    },
+    {
+      "name": "Sufism",
+      "value": 1
+    },
+    {
+      "name": "Religious Authority",
+      "value": 1
+    },
+    {
+      "name": "Islamic philosophy",
+      "value": 1
+    },
+    {
+      "name": "Origin",
+      "value": 1
+    },
+    {
+      "name": "Ewe (African people)",
+      "value": 1
+    },
+    {
+      "name": "Blege",
+      "value": 1
+    },
+    {
+      "name": "Macbeth",
+      "value": 1
+    },
+    {
+      "name": "Shakespeare",
+      "value": 1
+    },
+    {
+      "name": "Translation",
+      "value": 1
+    },
+    {
+      "name": "Article",
+      "value": 1
+    },
+    {
+      "name": "Health Policy",
+      "value": 1
+    },
+    {
+      "name": "Legislation",
+      "value": 1
+    },
+    {
+      "name": "Foundation",
+      "value": 1
+    },
+    {
+      "name": "Health Organisation",
+      "value": 1
+    },
+    {
+      "name": "Typology",
+      "value": 1
+    },
+    {
+      "name": "Categorisation",
+      "value": 1
+    },
+    {
+      "name": "Common Market for Eastern and Southern Africa",
+      "value": 1
+    },
+    {
+      "name": "Regional Organisation",
+      "value": 1
+    },
+    {
+      "name": "Harmonisation",
+      "value": 1
+    },
+    {
+      "name": "ECOWAS",
+      "value": 1
+    },
+    {
+      "name": "Decentralisation",
+      "value": 1
+    },
+    {
+      "name": "Healthcare Privatisation",
+      "value": 1
+    },
+    {
+      "name": "Local Authority",
+      "value": 1
+    },
+    {
+      "name": "Financing",
+      "value": 1
+    },
+    {
+      "name": "Kaya",
+      "value": 1
+    },
+    {
+      "name": "Bobo-Dioulasso",
+      "value": 1
+    },
+    {
+      "name": "Health Cooperation",
+      "value": 1
+    },
+    {
+      "name": "Gender Policy",
+      "value": 1
+    },
+    {
+      "name": "Bill & Melinda Gates Foundation",
+      "value": 1
+    },
+    {
+      "name": "Health Care",
+      "value": 1
+    },
+    {
+      "name": "West Indies",
+      "value": 1
+    },
+    {
+      "name": "Blues (Music)",
+      "value": 1
+    },
+    {
+      "name": "Calypso (Music)",
+      "value": 1
+    },
+    {
+      "name": "India",
+      "value": 1
+    },
+    {
+      "name": "East Africa",
+      "value": 1
+    },
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 1
+    },
+    {
+      "name": "Musical Meter",
+      "value": 1
+    },
+    {
+      "name": "Musical Rhythm",
+      "value": 1
+    },
+    {
+      "name": "Highlife (Music)",
+      "value": 1
+    },
+    {
+      "name": "Popular music",
+      "value": 1
+    },
+    {
+      "name": "Art Dealer",
+      "value": 1
+    },
+    {
+      "name": "Belgian Congo",
+      "value": 1
+    },
+    {
+      "name": "Democratic Republic of the Congo",
+      "value": 1
+    },
+    {
+      "name": "Musical notation",
+      "value": 1
+    },
+    {
+      "name": "Kora music",
+      "value": 1
+    },
+    {
+      "name": "Musical instruments",
+      "value": 1
+    },
+    {
+      "name": "Kora (Instrument)",
+      "value": 1
+    },
+    {
+      "name": "Chord Diagram",
+      "value": 1
+    },
+    {
+      "name": "Musical Tuning",
+      "value": 1
+    },
+    {
+      "name": "Masks",
+      "value": 1
+    },
+    {
+      "name": "Griots",
+      "value": 1
+    },
+    {
+      "name": "Blacksmiths",
+      "value": 1
+    },
+    {
+      "name": "Mande (Music)",
+      "value": 1
+    },
+    {
+      "name": "Timbre",
+      "value": 1
+    },
+    {
+      "name": "Buzz",
+      "value": 1
+    },
+    {
+      "name": "Mirlitons",
+      "value": 1
+    },
+    {
+      "name": "Book reviews",
+      "value": 1
+    },
+    {
+      "name": "West African Dance",
+      "value": 1
+    },
+    {
+      "name": "Communication Theory",
+      "value": 1
+    },
+    {
+      "name": "Cultural Analysis",
+      "value": 1
+    },
+    {
+      "name": "Metaphor",
+      "value": 1
+    },
+    {
+      "name": "Brass bands",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Lawanson, Taibat",
+      "value": 16
+    },
+    {
+      "name": "Eleshin, Abisoye",
+      "value": 16
+    },
+    {
+      "name": "Attoh, Franca",
+      "value": 16
+    },
+    {
+      "name": "Eesuola, Kayode",
+      "value": 16
+    },
+    {
+      "name": "Olalekan, Damilola",
+      "value": 16
+    },
+    {
+      "name": "Oyewumi, Masudi",
+      "value": 16
+    },
+    {
+      "name": "Aboluwade, Ifeoluwa",
+      "value": 12
+    },
+    {
+      "name": "National Archives London",
+      "value": 11
+    },
+    {
+      "name": "Koddenbrock, Kai",
+      "value": 9
+    },
+    {
+      "name": "Coburger, Carla",
+      "value": 8
+    },
+    {
+      "name": "Akolgo, Isaac Abotebuno",
+      "value": 8
+    },
+    {
+      "name": "Baguian, Sidibewindé Romain",
+      "value": 8
+    },
+    {
+      "name": "Banhoro, Yacouba",
+      "value": 7
+    },
+    {
+      "name": "Hien, Frederic",
+      "value": 6
+    },
+    {
+      "name": "Elhanafy, Taghrid",
+      "value": 3
+    },
+    {
+      "name": "Sib, Sié Moise",
+      "value": 2
+    },
+    {
+      "name": "Illy, Ousseni",
+      "value": 2
+    },
+    {
+      "name": "Graham, Yao",
+      "value": 1
+    },
+    {
+      "name": "Agbozo, G. Edzordzi",
+      "value": 1
+    },
+    {
+      "name": "Lodz University Press",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Burkina Faso",
+      "region": "",
+      "city": "",
+      "count": 23
+    },
+    {
+      "country": "Nigeria",
+      "region": "Lagos State",
+      "city": "Lagos",
+      "count": 16
+    },
+    {
+      "country": "United Kingdom",
+      "region": "England",
+      "city": "London",
+      "count": 12
+    },
+    {
+      "country": "Nigeria",
+      "region": "",
+      "city": "",
+      "count": 10
+    },
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 10
+    },
+    {
+      "country": "Ghana",
+      "region": "",
+      "city": "",
+      "count": 7
+    },
+    {
+      "country": "Senegal",
+      "region": "",
+      "city": "",
+      "count": 7
+    },
+    {
+      "country": "Germany",
+      "region": "Bavaria",
+      "city": "Bayreuth",
+      "count": 3
+    },
+    {
+      "country": "Spain",
+      "region": "Community of Madrid",
+      "city": "Madrid",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "674dba652e70d1e383d18ae3",
+      "titleInfo": [
+        {
+          "title": "Selected pages from the Red Book of West Africa: Nigeria's Principal Exports 1900-1918"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0000"
+    },
+    {
+      "_id": "674dba652e70d1e383d18ae4",
+      "titleInfo": [
+        {
+          "title": "Selected pages from Sven-Olof John's Nigerian currencies: Manillas cowries and others"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0001"
+    },
+    {
+      "_id": "674dba652e70d1e383d18ae5",
+      "titleInfo": [
+        {
+          "title": "Sample old Nigerian Naira currencies"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0002"
+    },
+    {
+      "_id": "674dba652e70d1e383d18ae6",
+      "titleInfo": [
+        {
+          "title": "Interviews on Nigerian finance and broader political economy"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0003"
+    },
+    {
+      "_id": "674dba652e70d1e383d18ae7",
+      "titleInfo": [
+        {
+          "title": "Formation of the Central Bank of Nigeria"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0004"
+    },
+    {
+      "_id": "674dba652e70d1e383d18ae8",
+      "titleInfo": [
+        {
+          "title": "Ghanaian debt statistics"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0005"
+    },
+    {
+      "_id": "674dba652e70d1e383d18ae9",
+      "titleInfo": [
+        {
+          "title": "Interview on post-independence Ghanaian political economy"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0006"
+    },
+    {
+      "_id": "674dba652e70d1e383d18aea",
+      "titleInfo": [
+        {
+          "title": "Interview notes on mobile money usage in Ghana"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-99-0007"
+    },
+    {
+      "_id": "674dba652e70d1e383d18aeb",
+      "titleInfo": [
+        {
+          "title": "Shares of Banks' Investments in Ghana"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0008"
+    },
+    {
+      "_id": "674dba652e70d1e383d18aec",
+      "titleInfo": [
+        {
+          "title": "Average Commercial Banks Lending Rates in Ghana"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0009"
+    },
+    {
+      "_id": "674dba652e70d1e383d18aed",
+      "titleInfo": [
+        {
+          "title": "Historical statistics on Senegal public finance"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-000a"
+    },
+    {
+      "_id": "674dba652e70d1e383d18aee",
+      "titleInfo": [
+        {
+          "title": "Historical Export Data, Senegal"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-000b"
+    },
+    {
+      "_id": "674dba652e70d1e383d18aef",
+      "titleInfo": [
+        {
+          "title": "Historical Import Data, Senegal"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-000c"
+    },
+    {
+      "_id": "674dba652e70d1e383d18af0",
+      "titleInfo": [
+        {
+          "title": "Sovereign Bond Contracts, Senegal"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-000d"
+    },
+    {
+      "_id": "674dba652e70d1e383d18af1",
+      "titleInfo": [
+        {
+          "title": "Sectoral Distribution of Bank Credit"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-000e"
+    },
+    {
+      "_id": "674dba652e70d1e383d18af2",
+      "titleInfo": [
+        {
+          "title": "Central Bank Policy Rates"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-000f"
+    },
+    {
+      "_id": "674dba652e70d1e383d18af3",
+      "titleInfo": [
+        {
+          "title": "Government Expenditure"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0010"
+    },
+    {
+      "_id": "674dba652e70d1e383d18af4",
+      "titleInfo": [
+        {
+          "title": "Government Revenue"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0011"
+    },
+    {
+      "_id": "674dba652e70d1e383d18af5",
+      "titleInfo": [
+        {
+          "title": "Government Revenue"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0012"
+    },
+    {
+      "_id": "674dba652e70d1e383d18af6",
+      "titleInfo": [
+        {
+          "title": "Government Reserves"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0013"
+    },
+    {
+      "_id": "674dba652e70d1e383d18af7",
+      "titleInfo": [
+        {
+          "title": "Governement Trade"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0014"
+    },
+    {
+      "_id": "674dba652e70d1e383d18af8",
+      "titleInfo": [
+        {
+          "title": "Gold Exports, Nigeria"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0015"
+    },
+    {
+      "_id": "674dba652e70d1e383d18af9",
+      "titleInfo": [
+        {
+          "title": "Curencies, Nigeria"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0016"
+    },
+    {
+      "_id": "674dba652e70d1e383d18afa",
+      "titleInfo": [
+        {
+          "title": "Curencies, Nigeria"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared"
+      },
+      "dre_id": "abw-01-0017"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87101",
+      "titleInfo": [
+        {
+          "title": "Part I: The Spread of Islam in West Africa"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-000a"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87103",
+      "titleInfo": [
+        {
+          "title": "Part III: Sufism in West Africa and the Paradox of Mysticism as a Tool for Attaining Power"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-000c"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87104",
+      "titleInfo": [
+        {
+          "title": "Part IV: The Early Seeds of Mystic Islamic Thought in West Africa"
+        }
+      ],
+      "typeOfResource": "Digital",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-000d"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87108",
+      "titleInfo": [
+        {
+          "title": "Translation as Rewriting: Cultural Theoretical Appraisal of Shakespeare’s Macbeth in the Ewe language of West Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0011"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8717e",
+      "titleInfo": [
+        {
+          "title": "Debtor List of the Royal Africa Company"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0087"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8717f",
+      "titleInfo": [
+        {
+          "title": "Debtor List of the Royal Africa Company"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0088"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87180",
+      "titleInfo": [
+        {
+          "title": "Ship Blackmoore Expense List"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0089"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87181",
+      "titleInfo": [
+        {
+          "title": "Ship Blackmoore Expense List"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-008a"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87182",
+      "titleInfo": [
+        {
+          "title": "Account ledger Voyages West Africa"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-008b"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87183",
+      "titleInfo": [
+        {
+          "title": "Account ledger Voyages West Africa"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-008c"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87184",
+      "titleInfo": [
+        {
+          "title": "Account ledger Voyages West Africa"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-008d"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87185",
+      "titleInfo": [
+        {
+          "title": "Account ledger Voyages West Africa"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-008e"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87186",
+      "titleInfo": [
+        {
+          "title": "Account ledger Voyages West Africa"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-008f"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87187",
+      "titleInfo": [
+        {
+          "title": "Account ledger Voyages West Africa"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0090"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df87189",
+      "titleInfo": [
+        {
+          "title": "Account ledger Voyages West Africa"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0092"
+    },
+    {
+      "_id": "67fe63a8ab2c85fe8df8718b",
+      "titleInfo": [
+        {
+          "title": "Account ledger Voyages West Africa"
+        }
+      ],
+      "typeOfResource": "Manuscript",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0094"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0d7",
+      "titleInfo": [
+        {
+          "title": "Ethnographic profiling of the migrant  in four case study sites"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-0000"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0d8",
+      "titleInfo": [
+        {
+          "title": "Expert Group Meeting on Youth and Informal Labour Migration in West Africa Urban Corridors"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-0001"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0d9",
+      "titleInfo": [
+        {
+          "title": "Systematic focus group discussion on Youth and Informal Labour Migration in West Africa Urban Corridors"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-0002"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0da",
+      "titleInfo": [
+        {
+          "title": "Cotonou city profiling on Youth and Informal Labour Migration in West Africa Urban Corridors"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-0003"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0db",
+      "titleInfo": [
+        {
+          "title": "A Togolese woman sells Togolese food at Missebo market, Benin Republic"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-0004"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0dc",
+      "titleInfo": [
+        {
+          "title": "Copy of Etoile Rouge, Cotonou, Benin Republic"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-0005"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0dd",
+      "titleInfo": [
+        {
+          "title": "Photo of a market in cotonou, Benin Republic"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-0006"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0de",
+      "titleInfo": [
+        {
+          "title": "Presentation of the initial findings of the project"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-0007"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0df",
+      "titleInfo": [
+        {
+          "title": "Photo of Shrine, brought by Benin Republic migrants to Lagos"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-0008"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0e0",
+      "titleInfo": [
+        {
+          "title": "Validation Workshop Urban Corridors"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-0009"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0e1",
+      "titleInfo": [
+        {
+          "title": "Lagos-City Profile"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-000a"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0e2",
+      "titleInfo": [
+        {
+          "title": "Mobility route of West Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-000b"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0e3",
+      "titleInfo": [
+        {
+          "title": "Some migrants at Ajegunle, Ikorodu, Lagos"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-000c"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0e4",
+      "titleInfo": [
+        {
+          "title": "Lagos Immigration Map"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-000d"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0e5",
+      "titleInfo": [
+        {
+          "title": "Photo of Makoko Community, Lagos"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-000e"
+    },
+    {
+      "_id": "6821dfd88e03cbaae0b0d0e6",
+      "titleInfo": [
+        {
+          "title": "Transnational Routes in West Africa"
+        }
+      ],
+      "typeOfResource": "Dataset",
+      "project": {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors"
+      },
+      "dre_id": "aad-02-000f"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8671",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Nabaloum Abdoulassé"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0000"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8672",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Toe Celestin"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0001"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8673",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Drabo Manessour"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0002"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8674",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Soudré Robert"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0003"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8675",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Samadoulougou Sotissi Benoit Césaire"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0004"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8676",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Zoma Tihamen"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0005"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8677",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Ouedraogo Pissyamba"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0006"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8678",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Sanon Bernard"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0007"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8679",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Ouedraogo Soumaila"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0008"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d867a",
+      "titleInfo": [
+        {
+          "title": "Interviews avec Meda Bertrand"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0009"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d867b",
+      "titleInfo": [
+        {
+          "title": "Article sur le VIH/SIDA"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-000a"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d867c",
+      "titleInfo": [
+        {
+          "title": "Article sur la santé globale"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-000b"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d867d",
+      "titleInfo": [
+        {
+          "title": "Article sur l'action du Fonds Mondial au Burkina Faso"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-000c"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d867e",
+      "titleInfo": [
+        {
+          "title": "Draft sur le cadre juridique des politiques sanitaires au Burkina Faso"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-000d"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d867f",
+      "titleInfo": [
+        {
+          "title": "Draft sur les organisations du domaine de la santé dans le système sanitaire au Burkina Faso"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-000e"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8680",
+      "titleInfo": [
+        {
+          "title": "Draft sur la cedeao et la santé globale"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-000f"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8681",
+      "titleInfo": [
+        {
+          "title": "Rapports d'entretien"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0010"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8682",
+      "titleInfo": [
+        {
+          "title": "Rapport d'un panel d'échange"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0011"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8683",
+      "titleInfo": [
+        {
+          "title": "Vidéo d'un panel d'échange"
+        }
+      ],
+      "typeOfResource": "Moving image",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0012"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8684",
+      "titleInfo": [
+        {
+          "title": "Mémoire sur l'ONUSIDA"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0013"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8685",
+      "titleInfo": [
+        {
+          "title": "Mémoire sur le PADS"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0014"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8686",
+      "titleInfo": [
+        {
+          "title": "Mémoire sur le Fonds Mondial"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0015"
+    },
+    {
+      "_id": "6718efd3c327cde4b57d8687",
+      "titleInfo": [
+        {
+          "title": "Mémoire sur l'alliance GAVI et la fondation Bill et melinda Gates"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa"
+      },
+      "dre_id": "acr-03-0016"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9e9f7",
+      "titleInfo": [
+        {
+          "title": "The influence of the west African songs of Derision in the new world"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0012"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9e9f8",
+      "titleInfo": [
+        {
+          "title": "East and West, North and South"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0013"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eacb",
+      "titleInfo": [
+        {
+          "title": "Popular music in West Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00e6"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb66",
+      "titleInfo": [
+        {
+          "title": "CHRITOPHORUS CLP 75 483, MAKADANGANGA. One 10-inch mono disc. Available from Christophorus-Verlag Herder, Herman-Herder-Strasse 4, i.B. D78 Freiburg West Germany"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0181"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb97",
+      "titleInfo": [
+        {
+          "title": "Towards a notation and tablature for the kora and its application to other instruments"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-01b2"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed05",
+      "titleInfo": [
+        {
+          "title": "Jazz Cosmopolitanism in Accra: Five Musical Years in Ghana. Steven Feld. 2012. Durham, NC: Duke University Press. 328 pp."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0320"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9ed8e",
+      "titleInfo": [
+        {
+          "title": "THE BUZZ AESTHETIC AND MANDE MUSIC: ACOUSTIC MASKS AND THE TECHNOLOGY OF ENCHANTMENT"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03a9"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edc3",
+      "titleInfo": [
+        {
+          "title": "Dance in West Africa: Analysis and Description in Relation to Aspects of Communication Theory"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03de"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9edd5",
+      "titleInfo": [
+        {
+          "title": "Hotness revisited"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03f0"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eddc",
+      "titleInfo": [
+        {
+          "title": "Jazz Cosmopolitanism in Accra: Five Musical Years in Ghana"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-03f7"
+    }
+  ]
+}

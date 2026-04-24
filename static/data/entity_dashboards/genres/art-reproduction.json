@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "type": "genre",
+    "id": "art-reproduction",
+    "name": "art reproduction",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 2021,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2021,
+      "total": 1,
+      "byType": {
+        "Image": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Image",
+      "value": 1
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "History",
+      "value": 1
+    },
+    {
+      "name": "Migration",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "History",
+      "value": 1
+    },
+    {
+      "name": "Migration",
+      "value": 1
+    },
+    {
+      "name": "African Studies",
+      "value": 1
+    },
+    {
+      "name": "Lagos",
+      "value": 1
+    },
+    {
+      "name": "Knowledge",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Lawanson, Taibat",
+      "value": 1
+    },
+    {
+      "name": "Eleshin, Abisoye",
+      "value": 1
+    },
+    {
+      "name": "Akinpelu, Deji",
+      "value": 1
+    },
+    {
+      "name": "Enitan, Adewale",
+      "value": 1
+    },
+    {
+      "name": "Odubawo, Orinayo",
+      "value": 1
+    },
+    {
+      "name": "Bitrus, Byenyen",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Nigeria",
+      "region": "Lagos State",
+      "city": "Lagos",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "6718f516c327cde4b57d86b8",
+      "titleInfo": [
+        {
+          "title": "Lagos: Ownership and Identities Exhibition"
+        }
+      ],
+      "typeOfResource": "Image",
+      "project": {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)"
+      },
+      "dre_id": "aae-99-0003"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "lenherr-joseph",
+    "name": "Lenherr, Joseph",
+    "count": 2
+  },
+  "timeline": [
+    {
+      "year": 1964,
+      "count": 1
+    },
+    {
+      "year": 1966,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1964,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1966,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 2
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Karanga (African people)",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Songs",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "African Music",
+      "value": 2
+    },
+    {
+      "name": "Karanga (African people)",
+      "value": 1
+    },
+    {
+      "name": "Music",
+      "value": 1
+    },
+    {
+      "name": "Songs",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9eaf9",
+      "titleInfo": [
+        {
+          "title": "On a traditional Karanga song"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0114"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb20",
+      "titleInfo": [
+        {
+          "title": "“NDWIYO DZECHECHI DZEVU” (HYMNS OF THE SOIL). Music Edition. Edited by John E. Kaemmer. Church Music Service, P.B. 636E, Salisbury, Rhodesia, pp. 56. 1966. 2s."
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-013b"
+    }
+  ]
+}

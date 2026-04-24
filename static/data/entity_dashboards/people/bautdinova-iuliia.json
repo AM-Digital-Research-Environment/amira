@@ -1,0 +1,304 @@
+{
+  "meta": {
+    "type": "person",
+    "id": "bautdinova-iuliia",
+    "name": "Bautdinova, Iuliia",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 2020,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2021,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 2022,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Arid regions",
+      "value": 2
+    },
+    {
+      "name": "Travel",
+      "value": 2
+    },
+    {
+      "name": "Tourism",
+      "value": 2
+    },
+    {
+      "name": "Herders",
+      "value": 2
+    },
+    {
+      "name": "Vaccination",
+      "value": 2
+    },
+    {
+      "name": "Livestock",
+      "value": 2
+    },
+    {
+      "name": "Government",
+      "value": 1
+    },
+    {
+      "name": "Disasters",
+      "value": 1
+    },
+    {
+      "name": "Elections",
+      "value": 1
+    },
+    {
+      "name": "Diseases",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Pastoralist",
+      "value": 3
+    },
+    {
+      "name": "COVID-19 Pandemic",
+      "value": 3
+    },
+    {
+      "name": "Arid regions",
+      "value": 2
+    },
+    {
+      "name": "Travel",
+      "value": 2
+    },
+    {
+      "name": "Tourism",
+      "value": 2
+    },
+    {
+      "name": "Lockdown",
+      "value": 2
+    },
+    {
+      "name": "Mobility",
+      "value": 2
+    },
+    {
+      "name": "Herders",
+      "value": 2
+    },
+    {
+      "name": "Vaccination",
+      "value": 2
+    },
+    {
+      "name": "Livestock",
+      "value": 2
+    },
+    {
+      "name": "Government",
+      "value": 1
+    },
+    {
+      "name": "Conservancy",
+      "value": 1
+    },
+    {
+      "name": "Sociality",
+      "value": 1
+    },
+    {
+      "name": "Namibia",
+      "value": 1
+    },
+    {
+      "name": "Sudanese Resistance Committees",
+      "value": 1
+    },
+    {
+      "name": "Protest",
+      "value": 1
+    },
+    {
+      "name": "Sudan",
+      "value": 1
+    },
+    {
+      "name": "Politics",
+      "value": 1
+    },
+    {
+      "name": "Disasters",
+      "value": 1
+    },
+    {
+      "name": "Elections",
+      "value": 1
+    },
+    {
+      "name": "Diseases",
+      "value": 1
+    },
+    {
+      "name": "Mongolia",
+      "value": 1
+    }
+  ],
+  "roles": [],
+  "contributors": [
+    {
+      "name": "Kronenburg García, Angela",
+      "value": 3
+    },
+    {
+      "name": "Pase, Andrea",
+      "value": 3
+    },
+    {
+      "name": "Heita, Jona",
+      "value": 2
+    },
+    {
+      "name": "Hashimshony Yaffe, Nurit",
+      "value": 2
+    },
+    {
+      "name": "Roque de Pinho, Joana",
+      "value": 2
+    },
+    {
+      "name": "Gargallo, Eduard",
+      "value": 2
+    },
+    {
+      "name": "Abd ElWahid Abd ElRahim, Ahmed",
+      "value": 1
+    },
+    {
+      "name": "Behrends, Andrea",
+      "value": 1
+    },
+    {
+      "name": "Braga, Carla",
+      "value": 1
+    },
+    {
+      "name": "Agyei-Mensah, Juliana",
+      "value": 1
+    },
+    {
+      "name": "Moschetti, Marta",
+      "value": 1
+    },
+    {
+      "name": "Sternberg, Troy",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Namibia",
+      "region": "Erongo Region",
+      "city": "Walvis Bay",
+      "count": 1
+    },
+    {
+      "country": "Sudan",
+      "region": "",
+      "city": "",
+      "count": 1
+    },
+    {
+      "country": "Mongolia",
+      "region": "",
+      "city": "",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "66cefaf495a000d4c7bf370e",
+      "titleInfo": [
+        {
+          "title": "Jona Heita's transcript, Namibia, July 20"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-0009"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3723",
+      "titleInfo": [
+        {
+          "title": "Ahmed Abd ElWahid Abd ElRahim's transcript (report) on Sudan, March 22, 2021"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-001e"
+    },
+    {
+      "_id": "66cefaf495a000d4c7bf3724",
+      "titleInfo": [
+        {
+          "title": "Troy Sternberg's Zoom meeting transcript on Mongolia, November 30, 2020"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond"
+      },
+      "dre_id": "abz-01-001f"
+    }
+  ]
+}

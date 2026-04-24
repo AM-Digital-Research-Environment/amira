@@ -1,0 +1,470 @@
+{
+  "meta": {
+    "type": "location",
+    "id": "ibadan",
+    "name": "Ibadan",
+    "count": 54
+  },
+  "timeline": [
+    {
+      "year": 1922,
+      "count": 3
+    },
+    {
+      "year": 1923,
+      "count": 1
+    },
+    {
+      "year": 1927,
+      "count": 2
+    },
+    {
+      "year": 1928,
+      "count": 2
+    },
+    {
+      "year": 1929,
+      "count": 2
+    },
+    {
+      "year": 1934,
+      "count": 2
+    },
+    {
+      "year": 1935,
+      "count": 3
+    },
+    {
+      "year": 1936,
+      "count": 1
+    },
+    {
+      "year": 1942,
+      "count": 1
+    },
+    {
+      "year": 1961,
+      "count": 3
+    },
+    {
+      "year": 1962,
+      "count": 2
+    },
+    {
+      "year": 1965,
+      "count": 28
+    },
+    {
+      "year": 2021,
+      "count": 4
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1922,
+      "total": 3,
+      "byType": {
+        "Text": 3
+      }
+    },
+    {
+      "year": 1923,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1927,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1928,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1929,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1934,
+      "total": 2,
+      "byType": {
+        "Text": 2
+      }
+    },
+    {
+      "year": 1935,
+      "total": 3,
+      "byType": {
+        "Text": 3
+      }
+    },
+    {
+      "year": 1936,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1942,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1961,
+      "total": 3,
+      "byType": {
+        "Image": 3
+      }
+    },
+    {
+      "year": 1962,
+      "total": 2,
+      "byType": {
+        "Image": 2
+      }
+    },
+    {
+      "year": 1965,
+      "total": 28,
+      "byType": {
+        "Text": 28
+      }
+    },
+    {
+      "year": 2021,
+      "total": 4,
+      "byType": {
+        "Image": 2,
+        "Moving image": 2
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 45
+    },
+    {
+      "name": "Image",
+      "value": 7
+    },
+    {
+      "name": "Moving image",
+      "value": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 30
+    },
+    {
+      "name": "German",
+      "value": 24
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Archives",
+      "value": 17
+    },
+    {
+      "name": "Colonisation",
+      "value": 17
+    },
+    {
+      "name": "Letters",
+      "value": 17
+    },
+    {
+      "name": "Social norms",
+      "value": 17
+    },
+    {
+      "name": "Discourse analysis",
+      "value": 17
+    },
+    {
+      "name": "Art",
+      "value": 5
+    },
+    {
+      "name": "Painting",
+      "value": 5
+    },
+    {
+      "name": "Africa",
+      "value": 5
+    },
+    {
+      "name": "Exhibitions",
+      "value": 5
+    },
+    {
+      "name": "Artists",
+      "value": 5
+    },
+    {
+      "name": "Women",
+      "value": 4
+    },
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 4
+    },
+    {
+      "name": "Political rights",
+      "value": 4
+    },
+    {
+      "name": "Political participation",
+      "value": 4
+    },
+    {
+      "name": "Invitation cards",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Nigeria",
+      "value": 33
+    },
+    {
+      "name": "Archives",
+      "value": 17
+    },
+    {
+      "name": "Colonisation",
+      "value": 17
+    },
+    {
+      "name": "Letters",
+      "value": 17
+    },
+    {
+      "name": "Social norms",
+      "value": 17
+    },
+    {
+      "name": "Discourse analysis",
+      "value": 17
+    },
+    {
+      "name": "British Colonisation",
+      "value": 17
+    },
+    {
+      "name": "Colonial Records",
+      "value": 17
+    },
+    {
+      "name": "Southern Cameroons",
+      "value": 17
+    },
+    {
+      "name": "Postcolonial Heritage",
+      "value": 17
+    },
+    {
+      "name": "Great Britain",
+      "value": 17
+    },
+    {
+      "name": "Postcolonial Studies",
+      "value": 17
+    },
+    {
+      "name": "Art",
+      "value": 5
+    },
+    {
+      "name": "Painting",
+      "value": 5
+    },
+    {
+      "name": "Africa",
+      "value": 5
+    },
+    {
+      "name": "Exhibitions",
+      "value": 5
+    },
+    {
+      "name": "Artists",
+      "value": 5
+    },
+    {
+      "name": "Art Exhibition",
+      "value": 5
+    },
+    {
+      "name": "Ibadan",
+      "value": 5
+    },
+    {
+      "name": "Art Collector",
+      "value": 5
+    },
+    {
+      "name": "Art Collecting",
+      "value": 5
+    },
+    {
+      "name": "The Mbari Club",
+      "value": 4
+    },
+    {
+      "name": "Performing Arts Center",
+      "value": 4
+    },
+    {
+      "name": "Women",
+      "value": 4
+    },
+    {
+      "name": "Sub-Saharan Africa",
+      "value": 4
+    },
+    {
+      "name": "Political rights",
+      "value": 4
+    },
+    {
+      "name": "Political participation",
+      "value": 4
+    },
+    {
+      "name": "Structural Barriers",
+      "value": 4
+    },
+    {
+      "name": "Political Barriers",
+      "value": 4
+    },
+    {
+      "name": "Politics",
+      "value": 4
+    },
+    {
+      "name": "Invitation",
+      "value": 3
+    },
+    {
+      "name": "Banso",
+      "value": 3
+    },
+    {
+      "name": "Cultural Centre",
+      "value": 2
+    },
+    {
+      "name": "Invitation cards",
+      "value": 1
+    },
+    {
+      "name": "Site Plan",
+      "value": 1
+    },
+    {
+      "name": "Folk Art",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Stephan, Klaus",
+      "value": 26
+    },
+    {
+      "name": "Otung, Glory Essien",
+      "value": 17
+    },
+    {
+      "name": "Anchimbe, Eric",
+      "value": 17
+    },
+    {
+      "name": "Chiangong, Pepetual Mforbe",
+      "value": 17
+    },
+    {
+      "name": "Marjie, Sarah",
+      "value": 17
+    },
+    {
+      "name": "Kengo, Emmanuel",
+      "value": 17
+    },
+    {
+      "name": "Atindogbe, Gratien",
+      "value": 17
+    },
+    {
+      "name": "Ubanako, Valentine",
+      "value": 17
+    },
+    {
+      "name": "Mforteh, Stephen",
+      "value": 17
+    },
+    {
+      "name": "Eyoh, Julius",
+      "value": 17
+    },
+    {
+      "name": "Oyali, Uchenna",
+      "value": 17
+    },
+    {
+      "name": "Mbah, Boniface",
+      "value": 17
+    },
+    {
+      "name": "Beier, Ulli",
+      "value": 7
+    },
+    {
+      "name": "Greven, Katharina",
+      "value": 5
+    },
+    {
+      "name": "Münster, Clemens",
+      "value": 4
+    },
+    {
+      "name": "Jörs, Dieter",
+      "value": 4
+    },
+    {
+      "name": "Ademola-Adeoye, Feyisayo",
+      "value": 4
+    },
+    {
+      "name": "Attoh, Franca",
+      "value": 4
+    },
+    {
+      "name": "Yakubu, Moses",
+      "value": 4
+    },
+    {
+      "name": "Eesuola, Kayode",
+      "value": 4
+    }
+  ]
+}

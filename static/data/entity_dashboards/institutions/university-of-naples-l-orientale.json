@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "university-of-naples-l-orientale",
+    "name": "University of Naples \"L'Orientale\"",
+    "count": 1
+  },
+  "timeline": [
+    {
+      "year": 1999,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1999,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 1
+    }
+  ],
+  "languages": [],
+  "subjects": [
+    {
+      "name": "South Africa",
+      "value": 1
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "South Africa",
+      "value": 1
+    },
+    {
+      "name": "Shakespeare",
+      "value": 1
+    },
+    {
+      "name": "Article",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Wilkinson, Jane",
+      "value": 1
+    },
+    {
+      "name": "Istituto Italiano per l'Africa e l'Oriente (IsIAO)",
+      "value": 1
+    }
+  ],
+  "locations": [
+    {
+      "country": "Italy",
+      "region": "Lazio",
+      "city": "Rome",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "_id": "67fe63a8ab2c85fe8df8711e",
+      "titleInfo": [
+        {
+          "title": "The sayings of Tsikinya-Chaka: Shakespeare in South Africa"
+        }
+      ],
+      "typeOfResource": "Text",
+      "project": {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama"
+      },
+      "dre_id": "abm-01-0027"
+    }
+  ]
+}

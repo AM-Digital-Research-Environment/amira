@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "type": "institution",
+    "id": "chalimbana-training-college",
+    "name": "Chalimbana Training College",
+    "count": 3
+  },
+  "timeline": [
+    {
+      "year": 1963,
+      "count": 1
+    },
+    {
+      "year": 1964,
+      "count": 1
+    },
+    {
+      "year": 1965,
+      "count": 1
+    }
+  ],
+  "stackedTimeline": [
+    {
+      "year": 1963,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1964,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    },
+    {
+      "year": 1965,
+      "total": 1,
+      "byType": {
+        "Text": 1
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "Text",
+      "value": 3
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "value": 3
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Music",
+      "value": 3
+    },
+    {
+      "name": "Mbira",
+      "value": 3
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 3
+    },
+    {
+      "name": "Mbira music",
+      "value": 3
+    },
+    {
+      "name": "Musical instruments",
+      "value": 3
+    },
+    {
+      "name": "Southern Lunda (African people)",
+      "value": 2
+    }
+  ],
+  "wordCloud": [
+    {
+      "name": "Music",
+      "value": 3
+    },
+    {
+      "name": "Mbira",
+      "value": 3
+    },
+    {
+      "name": "Ethnomusicology",
+      "value": 3
+    },
+    {
+      "name": "Mbira music",
+      "value": 3
+    },
+    {
+      "name": "Musical instruments",
+      "value": 3
+    },
+    {
+      "name": "Zambia",
+      "value": 3
+    },
+    {
+      "name": "African Music",
+      "value": 3
+    },
+    {
+      "name": "Mbira (Instrument)",
+      "value": 3
+    },
+    {
+      "name": "Southern Lunda (African people)",
+      "value": 2
+    },
+    {
+      "name": "Instrument Construction",
+      "value": 2
+    },
+    {
+      "name": "Lunda Kalendi (Instrument)",
+      "value": 2
+    },
+    {
+      "name": "Kalimba (Instrument)",
+      "value": 1
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Davidson, Marjory",
+      "value": 3
+    }
+  ],
+  "locations": [
+    {
+      "country": "South Africa",
+      "region": "",
+      "city": "",
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "_id": "685a631ec25a5271e0a9eadc",
+      "titleInfo": [
+        {
+          "title": "A Lunda Kalendi"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-00f7"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eaf2",
+      "titleInfo": [
+        {
+          "title": "The music of a Lunda Kalendi"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-010d"
+    },
+    {
+      "_id": "685a631ec25a5271e0a9eb17",
+      "titleInfo": [
+        {
+          "title": "Some music for the Kalumbu"
+        }
+      ],
+      "typeOfResource": "Text",
+      "dre_id": "eaa-99-0132"
+    }
+  ]
+}
