@@ -109,9 +109,13 @@
 		map.addControl(new maplibregl.FullscreenControl(), 'top-right');
 
 		// MapLibre's `load` event can silently stall when the container is
-		// inside a deeply-nested flex parent (seen on /languages?code=eng
-		// where `styledata` fires but `load` doesn't). `idle` fires after
-		// the first render settles, so we accept whichever comes first.
+		// inside a deeply-nested flex parent (seen first on /languages?code=eng
+		// and again on per-entity dashboard grids). `idle` is supposed to be
+		// the safety net but it also stalls when the canvas is below the
+		// viewport at mount time. Accept any of `load`, `idle`, or
+		// `styledata`; if even `styledata` hasn't fired after 1.5s, force a
+		// resize and try once more — the resize forces MapLibre to re-evaluate
+		// the canvas size and start rendering tiles.
 		let firstReadyFired = false;
 		const markReady = () => {
 			if (firstReadyFired) return;
@@ -121,6 +125,16 @@
 		};
 		map.once('load', markReady);
 		map.once('idle', markReady);
+		map.once('styledata', markReady);
+		setTimeout(() => {
+			if (!firstReadyFired && map) {
+				map.resize();
+				// One more chance for the events to fire after resize.
+				setTimeout(() => {
+					if (!firstReadyFired) markReady();
+				}, 500);
+			}
+		}, 1500);
 
 		// Close popups when clicking on the map background (not on a marker
 		// and NOT inside an open popup). The popup check is needed because
