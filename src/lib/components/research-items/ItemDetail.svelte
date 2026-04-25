@@ -1,6 +1,8 @@
 <script lang="ts">
 	import { Card, CardHeader, CardTitle, CardContent, Badge } from '$lib/components/ui';
 	import { MiniMap, EntityKnowledgeGraph } from '$lib/components/charts';
+	import SimilarItemsStrip from './SimilarItemsStrip.svelte';
+	import SiblingItemsSparkline from './SiblingItemsSparkline.svelte';
 	import { base } from '$app/paths';
 	import {
 		locationUrl,
@@ -65,9 +67,12 @@
 			color?: string;
 			kind?: 'origin' | 'current';
 		}[];
+		/** Items belonging to the same project as `item` — used by the
+		 * sibling-items sparkline. Pass an empty array to hide the card. */
+		siblings?: CollectionItem[];
 	}
 
-	let { item, mapMarkers = [] }: Props = $props();
+	let { item, mapMarkers = [], siblings = [] }: Props = $props();
 
 	let originMarkerCount = $derived(mapMarkers.filter((m) => m.kind !== 'current').length);
 	let currentMarkerCount = $derived(mapMarkers.filter((m) => m.kind === 'current').length);
@@ -746,6 +751,19 @@
 			</CardContent>
 		{/snippet}
 	</Card>
+{/if}
+
+<!-- Project timeline sparkline — where this item sits among its siblings.
+     Hidden automatically when there are fewer than 2 siblings or no
+     extractable years. -->
+<SiblingItemsSparkline {siblings} currentItem={item} projectName={item.project?.name} />
+
+<!-- Similar items — top semantic-kNN matches via Gemini embeddings.
+     Lazy-loads the precomputed `static/data/embeddings/similar.json` on
+     first paint of an item detail; renders nothing if the embeddings
+     haven't been generated yet or the current item is low-signal. -->
+{#if item.dre_id}
+	<SimilarItemsStrip itemId={item.dre_id} />
 {/if}
 
 <!-- Knowledge Graph — full width -->

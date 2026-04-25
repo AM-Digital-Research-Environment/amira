@@ -372,7 +372,7 @@ Each bullet below becomes its own issue linked to #10:
 - [x] Detail-page dashboard for `/groups/[slug]`
 - [x] Detail-page dashboard for `/research-sections/[slug]` — existing charts only; gantt/beeswarm/languageTimeline/subjectTrends/contributorNetwork/geoFlows land in Phase 4
 - [x] Expand `/projects/[id]` to full module-parity layout — adds sunburst, sankey, chord, heatmap, roles on top of the existing timeline/stacked-timeline/types/languages/subjects/wordCloud/contributors/locations; languageTimeline/subjectTrends/treemap/geoFlows/contributorNetwork still pending Phase 4
-- [ ] Add `EntityKnowledgeGraph` to `/research-items/[id]` + context strip
+- [x] Add `EntityKnowledgeGraph` to `/research-items/[id]` + context strip — KG was already wired; this round adds `SiblingItemsSparkline` (tiny year-by-year project timeline, current item highlighted, hover-preview lists items in that year) and `SimilarItemsStrip` (top-8 semantic kNN matches via Gemini embeddings, lazy-loaded from `static/data/embeddings/similar.json`)
 - [ ] List-page enrichment: `/languages`, `/subjects`, `/genres`, `/resource-types`, `/groups`, `/people`, `/institutions`, `/locations`
 - [ ] New chart: Calendar Heatmap
 - [ ] New chart: Choropleth Map

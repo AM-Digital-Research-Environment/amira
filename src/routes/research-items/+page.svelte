@@ -337,6 +337,17 @@
 		);
 	});
 
+	// Items belonging to the same project as the selected item — used by the
+	// sibling-items sparkline on the detail view. Excludes the current item
+	// from siblings count would skew the year bin; we keep it included so the
+	// "this" highlight reads correctly inside the bar's year.
+	let selectedItemSiblings = $derived.by((): CollectionItem[] => {
+		if (!selectedItem) return [];
+		const projectId = selectedItem.project?.id;
+		if (!projectId) return [];
+		return $allCollections.filter((item) => item.project?.id === projectId);
+	});
+
 	function selectItem(item: CollectionItem) {
 		const id = item._id || item.dre_id;
 		goto(`?id=${encodeURIComponent(id)}`, { noScroll: true });
@@ -469,7 +480,7 @@
 		<!-- Detail mode: full-width -->
 		<div class="space-y-6">
 			<BackToList show={true} onclick={clearSelection} label="Back to results" />
-			<ItemDetail item={selectedItem} mapMarkers={itemMapMarkers} />
+			<ItemDetail item={selectedItem} mapMarkers={itemMapMarkers} siblings={selectedItemSiblings} />
 		</div>
 	{:else}
 		<!-- Stats -->
