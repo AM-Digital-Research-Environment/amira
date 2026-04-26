@@ -1,6 +1,8 @@
 <script lang="ts">
-	import { StatCard, BackToList, SEO } from '$lib/components/ui';
+	import { StatCard, ChartCard, BackToList, SEO } from '$lib/components/ui';
+	import { BarChart, BoxPlot } from '$lib/components/charts';
 	import { EntityDashboardSection } from '$lib/components/dashboards';
+	import type { BarChartDataPoint, BoxPlotGroup } from '$lib/types';
 	import {
 		EntityCard,
 		EntityBrowseGrid,
@@ -57,6 +59,22 @@
 
 	let allGroups = $derived(Array.from(groupMap.values()));
 	let groupsWithItems = $derived(allGroups.filter((g) => g.count > 0));
+
+	let topGroupsBar = $derived.by((): BarChartDataPoint[] => {
+		return groupsWithItems
+			.slice()
+			.sort((a, b) => b.count - a.count)
+			.slice(0, 15)
+			.map((g) => ({ name: g.name, value: g.count }));
+	});
+
+	// Distribution of items-per-group — flags whether activity is heavily
+	// concentrated in a few groups or spread evenly.
+	let groupSizeDistribution = $derived.by((): BoxPlotGroup[] => {
+		const values = groupsWithItems.map((g) => g.count);
+		if (values.length === 0) return [];
+		return [{ name: 'Items per group', values }];
+	});
 
 	const searchGroups = createSearchFilter<GroupData>([(g) => g.name]);
 	let visibleGroups = $derived(applyEntitySort(searchGroups(allGroups, searchQuery), sort));
@@ -155,6 +173,28 @@
 		<div class="grid gap-4 sm:grid-cols-2">
 			<StatCard label="Total Groups" value={allGroups.length} icon={UsersRound} />
 			<StatCard label="With Items" value={groupsWithItems.length} icon={FileText} />
+		</div>
+
+		<div class="grid gap-6 grid-cols-[minmax(0,1fr)] lg:grid-cols-[2fr_1fr]">
+			{#if topGroupsBar.length > 0}
+				<ChartCard
+					title="Top groups"
+					subtitle="Click a bar to open a group"
+					contentHeight="h-chart-md"
+				>
+					<BarChart data={topGroupsBar} onclick={(name) => selectGroup(name)} />
+				</ChartCard>
+			{/if}
+
+			{#if groupSizeDistribution.length > 0}
+				<ChartCard
+					title="Group size distribution"
+					subtitle="How items are spread across groups"
+					contentHeight="h-chart-md"
+				>
+					<BoxPlot data={groupSizeDistribution} valueAxisLabel="Items" class="h-full w-full" />
+				</ChartCard>
+			{/if}
 		</div>
 
 		<EntityToolbar

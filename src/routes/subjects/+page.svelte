@@ -1,6 +1,14 @@
 <script lang="ts">
 	import { StatCard, ChartCard, BackToList, SEO } from '$lib/components/ui';
-	import { WordCloud, EntityKnowledgeGraph } from '$lib/components/charts';
+	import {
+		WordCloud,
+		EntityKnowledgeGraph,
+		StackedAreaChart,
+		PieChart
+	} from '$lib/components/charts';
+	import { extractItemYear } from '$lib/utils/transforms/dates';
+	import { SvelteMap, SvelteSet } from 'svelte/reactivity';
+	import type { StackedAreaDataPoint, PieChartDataPoint } from '$lib/types';
 	import { EntityDashboardSection } from '$lib/components/dashboards';
 	import {
 		EntityCard,
@@ -52,6 +60,54 @@
 
 	let subjectList = $derived(sortedCategoryList(subjectMap));
 	let tagList = $derived(sortedCategoryList(tagMap));
+
+	// Top-10 subjects over time, stacked. Mirrors the per-entity
+	// `subjectTrends` chart but rolled up across the whole archive.
+	const TOP_SUBJECT_TRENDS = 10;
+	let subjectTrendsTopNames = $derived(
+		applyEntitySort(subjectList, 'count-desc')
+			.slice(0, TOP_SUBJECT_TRENDS)
+			.map((s) => s.name)
+	);
+
+	let subjectTrendsData = $derived.by((): StackedAreaDataPoint[] => {
+		if (subjectTrendsTopNames.length === 0) return [];
+		const top = new SvelteSet(subjectTrendsTopNames);
+		const byYear = new SvelteMap<number, Record<string, number>>();
+		for (const item of $allCollections) {
+			const year = extractItemYear(item);
+			if (year == null) continue;
+			const labels = (item.subject || [])
+				.map((s) => s?.authLabel || s?.origLabel)
+				.filter((s): s is string => !!s);
+			if (labels.length === 0) continue;
+			const seen = new SvelteSet<string>();
+			for (const label of labels) {
+				if (!top.has(label) || seen.has(label)) continue;
+				seen.add(label);
+				let row = byYear.get(year);
+				if (!row) {
+					row = {};
+					byYear.set(year, row);
+				}
+				row[label] = (row[label] ?? 0) + 1;
+			}
+		}
+		return Array.from(byYear.entries())
+			.sort(([a], [b]) => a - b)
+			.map(([year, byCategory]) => ({ year, byCategory }));
+	});
+
+	// LCSH (controlled subjects) vs free-form tags split — answers "how
+	// much of the indexing comes from authority files vs manual tagging?".
+	let subjectVsTagPie = $derived.by((): PieChartDataPoint[] => {
+		const subjectTotal = subjectList.reduce((acc, s) => acc + s.count, 0);
+		const tagTotal = tagList.reduce((acc, t) => acc + t.count, 0);
+		const out: PieChartDataPoint[] = [];
+		if (subjectTotal > 0) out.push({ name: 'LCSH subjects', value: subjectTotal });
+		if (tagTotal > 0) out.push({ name: 'Tags', value: tagTotal });
+		return out;
+	});
 
 	let wordCloudData = $derived.by((): WordCloudDataPoint[] => {
 		const list = viewMode === 'subjects' ? subjectList : tagList;
@@ -173,6 +229,28 @@
 				<WordCloud data={wordCloudData} onclick={(word) => selectTerm(word)} />
 			{/if}
 		</ChartCard>
+
+		<div class="grid gap-6 grid-cols-[minmax(0,1fr)] lg:grid-cols-[2fr_1fr]">
+			{#if subjectTrendsData.length > 0}
+				<ChartCard
+					title="Top subject trends"
+					subtitle="Top {TOP_SUBJECT_TRENDS} controlled subjects across the archive, by year"
+					contentHeight="h-chart-lg"
+				>
+					<StackedAreaChart data={subjectTrendsData} class="h-full w-full" />
+				</ChartCard>
+			{/if}
+
+			{#if subjectVsTagPie.length > 0}
+				<ChartCard
+					title="LCSH vs. tags"
+					subtitle="Indexing from controlled vocabulary vs. free-form tags"
+					contentHeight="h-chart-lg"
+				>
+					<PieChart data={subjectVsTagPie} class="h-full w-full" />
+				</ChartCard>
+			{/if}
+		</div>
 
 		<!-- View switcher -->
 		<div class="flex rounded-lg border border-input overflow-hidden w-fit">

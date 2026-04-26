@@ -38,8 +38,8 @@
 
 <div class={cn('chart-card', className)}>
 	<div class="chart-card-header">
-		<div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 w-full">
-			<div>
+		<div class="flex flex-row items-start sm:items-center justify-between gap-2 w-full">
+			<div class="min-w-0">
 				<h2 class="chart-card-title">{title}</h2>
 				{#if subtitle}
 					<p class="text-sm text-muted-foreground mt-0.5">{subtitle}</p>

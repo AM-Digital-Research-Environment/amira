@@ -1,6 +1,9 @@
 <script lang="ts">
 	import { StatCard, ChartCard, BackToList, SEO } from '$lib/components/ui';
-	import { BarChart, EntityKnowledgeGraph } from '$lib/components/charts';
+	import { BarChart, EntityKnowledgeGraph, HeatmapChart } from '$lib/components/charts';
+	import { languageName, normalizeLanguageCode } from '$lib/utils/languages';
+	import { SvelteMap, SvelteSet } from 'svelte/reactivity';
+	import type { HeatmapDataPoint } from '$lib/types';
 	import { EntityDashboardSection } from '$lib/components/dashboards';
 	import {
 		EntityCard,
@@ -71,6 +74,45 @@
 	let visibleGenres = $derived(applyEntitySort(searchGenres(genres, searchQuery), sort));
 
 	let barData = $derived(categoryToChartData(genres, 20));
+
+	// Heatmap: top 12 genres × top 8 languages.
+	let genreLanguageHeatmap = $derived.by((): HeatmapDataPoint[] => {
+		const topGenres = new SvelteSet(genres.slice(0, 12).map((g) => g.name));
+		const langTotals = new SvelteMap<string, number>();
+		const cell = new SvelteMap<string, number>();
+		for (const item of $allCollections) {
+			const codes = item.language || [];
+			if (codes.length === 0) continue;
+			const itemGenres = getItemGenres(item).filter((g) => topGenres.has(g));
+			if (itemGenres.length === 0) continue;
+			const seenLangs = new SvelteSet<string>();
+			const seenGenres = new SvelteSet<string>();
+			for (const raw of codes) {
+				const lname = languageName(normalizeLanguageCode(raw));
+				if (seenLangs.has(lname)) continue;
+				seenLangs.add(lname);
+				langTotals.set(lname, (langTotals.get(lname) ?? 0) + 1);
+				for (const g of itemGenres) {
+					if (seenGenres.has(`${lname}|${g}`)) continue;
+					seenGenres.add(`${lname}|${g}`);
+					const key = `${lname}|${g}`;
+					cell.set(key, (cell.get(key) ?? 0) + 1);
+				}
+			}
+		}
+		const topLangs = Array.from(langTotals.entries())
+			.sort((a, b) => b[1] - a[1])
+			.slice(0, 8)
+			.map(([n]) => n);
+		const result: HeatmapDataPoint[] = [];
+		for (const l of topLangs) {
+			for (const g of topGenres) {
+				const v = cell.get(`${l}|${g}`) ?? 0;
+				if (v > 0) result.push({ x: l, y: g, value: v });
+			}
+		}
+		return result;
+	});
 
 	onMount(() => {
 		if (!selectedGenre) void ensureCollections(base);
@@ -147,6 +189,16 @@
 				<BarChart data={barData} onclick={(name) => selectGenre(name)} />
 			{/if}
 		</ChartCard>
+
+		{#if genreLanguageHeatmap.length > 0}
+			<ChartCard
+				title="Genre × language"
+				subtitle="Where each genre concentrates in the language mix"
+				contentHeight="h-chart-lg"
+			>
+				<HeatmapChart data={genreLanguageHeatmap} class="h-full w-full" />
+			</ChartCard>
+		{/if}
 
 		<EntityToolbar
 			{searchQuery}

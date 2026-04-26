@@ -7,6 +7,7 @@
 		CardContent,
 		Badge,
 		BackToList,
+		ChartCard,
 		SEO
 	} from '$lib/components/ui';
 	import {
@@ -27,7 +28,9 @@
 	import { onMount } from 'svelte';
 	import { base } from '$app/paths';
 	import { createEntityDetailState } from '$lib/utils/loaders';
-	import { MiniMap, EntityKnowledgeGraph } from '$lib/components/charts';
+	import { MiniMap, EntityKnowledgeGraph, BarChart, Timeline } from '$lib/components/charts';
+	import { extractItemYear } from '$lib/utils/transforms/dates';
+	import type { BarChartDataPoint, TimelineDataPoint } from '$lib/types';
 	import { EntityDashboardSection } from '$lib/components/dashboards';
 	import { page } from '$app/stores';
 	import { createUrlSelection, scrollToTop } from '$lib/utils/urlSelection';
@@ -125,6 +128,34 @@
 	let regionList = $derived(Array.from(locationIndex.regions.values()));
 	let cityList = $derived(Array.from(locationIndex.cities.values()));
 	let currentLocationList = $derived(Array.from(locationIndex.current.values()));
+
+	// Top 20 cities by item count, for the list-overview bar chart.
+	let topCitiesBar = $derived.by((): BarChartDataPoint[] => {
+		return cityList
+			.slice()
+			.sort((a, b) => b.count - a.count)
+			.slice(0, 20)
+			.map((c) => ({
+				name: c.country ? `${c.name} (${c.country})` : c.name,
+				value: c.count
+			}));
+	});
+
+	// Items per year tagged with at least one origin location. Useful for
+	// spotting periods where geographic metadata coverage shifts.
+	let locationTaggedTimeline = $derived.by((): TimelineDataPoint[] => {
+		const counts = new SvelteMap<number, number>();
+		for (const item of $allCollections) {
+			const origins = item.location?.origin || [];
+			if (origins.length === 0) continue;
+			const year = extractItemYear(item);
+			if (year == null) continue;
+			counts.set(year, (counts.get(year) ?? 0) + 1);
+		}
+		return Array.from(counts.entries())
+			.sort(([a], [b]) => a - b)
+			.map(([year, count]) => ({ year, count }));
+	});
 
 	let currentList = $derived(
 		viewMode === 'countries'
@@ -571,6 +602,28 @@
 				</p>
 			</div>
 		{/if}
+
+		<div class="grid gap-6 grid-cols-[minmax(0,1fr)] lg:grid-cols-2">
+			{#if topCitiesBar.length > 0}
+				<ChartCard
+					title="Top cities"
+					subtitle="Most-tagged origin cities across the archive"
+					contentHeight="h-chart-lg"
+				>
+					<BarChart data={topCitiesBar} class="h-full w-full" />
+				</ChartCard>
+			{/if}
+
+			{#if locationTaggedTimeline.length > 0}
+				<ChartCard
+					title="Location-tagged items per year"
+					subtitle="How often items carry an origin location across the timeline"
+					contentHeight="h-chart-lg"
+				>
+					<Timeline data={locationTaggedTimeline} class="h-full w-full" />
+				</ChartCard>
+			{/if}
+		</div>
 
 		<EntityToolbar
 			{searchQuery}

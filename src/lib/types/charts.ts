@@ -99,6 +99,37 @@ export interface GanttDataPoint {
 	tooltip?: string;
 }
 
+/** Stacked area / line over time. Used for `subjectTrends` and `languageTimeline`. */
+export interface StackedAreaDataPoint {
+	year: number;
+	byCategory: Record<string, number>;
+}
+
+/** Calendar heatmap (one cell per ISO date). */
+export interface CalendarDataPoint {
+	date: string;
+	value: number;
+}
+
+/** Box-and-whisker group: callers pass raw observations, the chart computes the
+ * five-number summary internally. */
+export interface BoxPlotGroup {
+	name: string;
+	values: number[];
+}
+
+/** Radar profile axis. */
+export interface RadarIndicator {
+	name: string;
+	max: number;
+}
+
+/** A single line on the radar (one entity / one comparison subject). */
+export interface RadarSeriesItem {
+	name: string;
+	values: number[];
+}
+
 // Dashboard stats
 export interface DashboardStats {
 	totalProjects: number;

@@ -56,6 +56,9 @@
 		UserCheck,
 		ExternalLink
 	} from '@lucide/svelte';
+	import { PieChart } from '$lib/components/charts';
+	import { ChartCard } from '$lib/components/ui';
+	import type { PieChartDataPoint } from '$lib/types';
 	import { formatDateInfo } from '$lib/components/research-items/itemHelpers';
 	import { SvelteMap, SvelteSet } from 'svelte/reactivity';
 	import { getWisskiUrl, loadWisskiUrls } from '$lib/utils/wisskiUrl.svelte';
@@ -249,6 +252,38 @@
 		return Array.from(counts.entries())
 			.sort((a, b) => a[0].localeCompare(b[0]))
 			.map(([name, count]) => ({ name, count }));
+	});
+
+	// Aggregate occurrences of each MARC relator role across all
+	// contributor mentions in the archive (an item can list a person
+	// multiple times under different roles, hence per-item rather than
+	// per-person counting).
+	const TOP_ROLES_PIE = 8;
+	let rolesPieData = $derived.by((): PieChartDataPoint[] => {
+		const counts = new SvelteMap<string, number>();
+		for (const item of $allCollections) {
+			for (const block of item.name || []) {
+				// `role` is typed as `string` but the actual MongoDB shape is
+				// `{ label: string }[]` — same coercion the Python pipeline does
+				// in `aggregators._contributors`.
+				const roles = (block as { role?: unknown }).role;
+				if (!Array.isArray(roles)) continue;
+				for (const r of roles) {
+					const label =
+						typeof r === 'object' && r !== null && 'label' in r
+							? String((r as { label: unknown }).label || '').trim()
+							: '';
+					if (!label) continue;
+					counts.set(label, (counts.get(label) ?? 0) + 1);
+				}
+			}
+		}
+		const sorted = Array.from(counts.entries()).sort((a, b) => b[1] - a[1]);
+		const top = sorted.slice(0, TOP_ROLES_PIE);
+		const otherTotal = sorted.slice(TOP_ROLES_PIE).reduce((acc, [, v]) => acc + v, 0);
+		const out: PieChartDataPoint[] = top.map(([name, value]) => ({ name, value }));
+		if (otherTotal > 0) out.push({ name: 'Other', value: otherTotal });
+		return out;
 	});
 
 	let people = $derived(Array.from(peopleMap.values()));
@@ -856,6 +891,16 @@
 			/>
 			<StatCard label="Roles" value={allRolesWithCounts.length} icon={UserCheck} />
 		</div>
+
+		{#if rolesPieData.length > 0}
+			<ChartCard
+				title="Contributor roles"
+				subtitle="MARC relator distribution across the whole archive"
+				contentHeight="h-chart-md"
+			>
+				<PieChart data={rolesPieData} class="h-full w-full" />
+			</ChartCard>
+		{/if}
 
 		<!-- Secondary filters (role + affiliation + hide-empty). Kept separate
 		     from the main toolbar so this page reads the same as other entity

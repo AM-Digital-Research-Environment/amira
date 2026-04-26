@@ -86,6 +86,9 @@
 			bottom: 10,
 			height: 25
 		}),
+		// For each bar position, find the topmost series (last in `resourceTypes`
+		// order) that actually has a value > 0, so only that segment gets the
+		// rounded top cap. This matches the standalone Timeline's bar styling.
 		series: resourceTypes.map((type, index) => ({
 			name: type,
 			type: 'bar',
@@ -93,7 +96,19 @@
 			emphasis: {
 				focus: 'series'
 			},
-			data: data.map((d) => d.byType[type] || 0),
+			data: data.map((d) => {
+				const value = d.byType[type] || 0;
+				if (value === 0) return value;
+				const topType = [...resourceTypes].reverse().find((t) => (d.byType[t] || 0) > 0);
+				if (topType !== type) return value;
+				return {
+					value,
+					itemStyle: {
+						color: CHART_COLORS[index % CHART_COLORS.length],
+						borderRadius: [6, 6, 0, 0]
+					}
+				};
+			}),
 			itemStyle: {
 				color: CHART_COLORS[index % CHART_COLORS.length]
 			}

@@ -1,5 +1,6 @@
 <script lang="ts">
-	import { StatCard, BackToList, SEO } from '$lib/components/ui';
+	import { StatCard, ChartCard, BackToList, SEO } from '$lib/components/ui';
+	import { StackedAreaChart, HeatmapChart } from '$lib/components/charts';
 	import {
 		EntityCard,
 		EntityBrowseGrid,
@@ -16,9 +17,10 @@
 	import { createUrlSelection, scrollToTop } from '$lib/utils/urlSelection';
 	import { languageName, normalizeLanguageCode } from '$lib/utils/languages';
 	import { createSearchFilter } from '$lib/utils/search';
-	import type { CollectionItem } from '$lib/types';
+	import { extractItemYear } from '$lib/utils/transforms/dates';
+	import type { CollectionItem, StackedAreaDataPoint, HeatmapDataPoint } from '$lib/types';
 	import { Languages, FileText } from '@lucide/svelte';
-	import { SvelteMap } from 'svelte/reactivity';
+	import { SvelteMap, SvelteSet } from 'svelte/reactivity';
 	import { EntityDashboardSection } from '$lib/components/dashboards';
 	import { createEntityDetailState } from '$lib/utils/loaders';
 
@@ -80,6 +82,82 @@
 	});
 
 	let mostCommon = $derived(applyEntitySort(languages, 'count-desc')[0]?.name ?? '—');
+
+	// Top 8 languages get their own series in the stacked-area; everything
+	// else folds into "Other" so the chart stays readable when the long tail
+	// of dialect codes is included.
+	const TOP_LANGUAGE_SERIES = 8;
+	let topLanguageNames = $derived(
+		applyEntitySort(languages, 'count-desc')
+			.slice(0, TOP_LANGUAGE_SERIES)
+			.map((l) => l.name)
+	);
+
+	let languageTimelineData = $derived.by((): StackedAreaDataPoint[] => {
+		const top = new SvelteSet(topLanguageNames);
+		const byYear = new SvelteMap<number, Record<string, number>>();
+		for (const item of $allCollections) {
+			const year = extractItemYear(item);
+			if (year == null) continue;
+			const codes = item.language || [];
+			if (codes.length === 0) continue;
+			const seen = new SvelteSet<string>();
+			for (const raw of codes) {
+				const name = languageName(normalizeLanguageCode(raw));
+				const bucket = top.has(name) ? name : 'Other';
+				if (seen.has(bucket)) continue;
+				seen.add(bucket);
+				let row = byYear.get(year);
+				if (!row) {
+					row = {};
+					byYear.set(year, row);
+				}
+				row[bucket] = (row[bucket] ?? 0) + 1;
+			}
+		}
+		return Array.from(byYear.entries())
+			.sort(([a], [b]) => a - b)
+			.map(([year, byCategory]) => ({ year, byCategory }));
+	});
+
+	// Heatmap: language (y) × resource type (x). Capped to the top 10
+	// languages and 10 types so the cell labels stay legible.
+	let languageTypeHeatmap = $derived.by((): HeatmapDataPoint[] => {
+		const langTotals = new SvelteMap<string, number>();
+		const typeTotals = new SvelteMap<string, number>();
+		const cell = new SvelteMap<string, number>();
+		for (const item of $allCollections) {
+			const codes = item.language || [];
+			if (codes.length === 0) continue;
+			const rtype = item.typeOfResource || 'Unknown';
+			typeTotals.set(rtype, (typeTotals.get(rtype) ?? 0) + 1);
+			const seen = new SvelteSet<string>();
+			for (const raw of codes) {
+				const name = languageName(normalizeLanguageCode(raw));
+				if (seen.has(name)) continue;
+				seen.add(name);
+				langTotals.set(name, (langTotals.get(name) ?? 0) + 1);
+				const key = `${rtype}|${name}`;
+				cell.set(key, (cell.get(key) ?? 0) + 1);
+			}
+		}
+		const topLangs = Array.from(langTotals.entries())
+			.sort((a, b) => b[1] - a[1])
+			.slice(0, 10)
+			.map(([name]) => name);
+		const topTypes = Array.from(typeTotals.entries())
+			.sort((a, b) => b[1] - a[1])
+			.slice(0, 10)
+			.map(([name]) => name);
+		const result: HeatmapDataPoint[] = [];
+		for (const t of topTypes) {
+			for (const l of topLangs) {
+				const v = cell.get(`${t}|${l}`) ?? 0;
+				if (v > 0) result.push({ x: t, y: l, value: v });
+			}
+		}
+		return result;
+	});
 
 	// Collections are only needed for the list view (counts + derived entity
 	// map) and the "Back to list" flow. A direct detail-URL hit skips the
@@ -151,6 +229,26 @@
 			/>
 			<StatCard label="Most common" value={mostCommon} icon={Languages} />
 		</div>
+
+		{#if languageTimelineData.length > 0}
+			<ChartCard
+				title="Languages over time"
+				subtitle="Top {TOP_LANGUAGE_SERIES} languages by item count, with smaller languages folded into 'Other'"
+				contentHeight="h-chart-lg"
+			>
+				<StackedAreaChart data={languageTimelineData} class="h-full w-full" />
+			</ChartCard>
+		{/if}
+
+		{#if languageTypeHeatmap.length > 0}
+			<ChartCard
+				title="Language × resource type"
+				subtitle="Where each language concentrates across the archive"
+				contentHeight="h-chart-lg"
+			>
+				<HeatmapChart data={languageTypeHeatmap} class="h-full w-full" />
+			</ChartCard>
+		{/if}
 
 		<EntityToolbar
 			{searchQuery}

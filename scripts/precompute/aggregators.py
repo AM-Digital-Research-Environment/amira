@@ -681,6 +681,170 @@ def build_chord(
     return {"names": top, "matrix": matrix}
 
 
+def build_subject_trends(
+    items: Iterable[dict],
+    top_n: int = 8,
+) -> list[dict]:
+    """Chart: `subjectTrends` (StackedAreaChart) -> `[{year, byCategory: {subject: count}}]`.
+
+    Picks the top-N subjects across the entity's items by total count, then
+    builds a year-by-year breakdown over only those subjects so the chart
+    stays readable. Subjects below the cut-off are dropped (they don't fall
+    into "Other" — the goal is the dominant trends, not a complete spectrum).
+    """
+    items_list = list(items)
+    counts: Counter[str] = Counter()
+    for item in items_list:
+        for subj in _subject_labels(item):
+            counts[subj] += 1
+    top_subjects = [name for name, _ in counts.most_common(top_n)]
+    if not top_subjects:
+        return []
+    top_set = set(top_subjects)
+
+    by_year: dict[int, Counter[str]] = {}
+    for item in items_list:
+        year = _item_year(item)
+        if year is None:
+            continue
+        bucket = by_year.setdefault(year, Counter())
+        seen: set[str] = set()
+        for subj in _subject_labels(item):
+            if subj in top_set and subj not in seen:
+                bucket[subj] += 1
+                seen.add(subj)
+    return [
+        {"year": year, "byCategory": {s: bucket.get(s, 0) for s in top_subjects}}
+        for year, bucket in sorted(by_year.items())
+    ]
+
+
+def build_language_timeline(items: Iterable[dict]) -> list[dict]:
+    """Chart: `languageTimeline` (StackedAreaChart) -> `[{year, byCategory: {lang: count}}]`.
+
+    Each item contributes once per (year, distinct language) pair so the
+    layered area shows the language mix evolving across the archive.
+    """
+    by_year: dict[int, Counter[str]] = {}
+    languages_seen: Counter[str] = Counter()
+    for item in items:
+        year = _item_year(item)
+        if year is None:
+            continue
+        codes = {normalize_language_code(c) for c in _language_codes(item)}
+        if not codes:
+            continue
+        bucket = by_year.setdefault(year, Counter())
+        for code in codes:
+            label = language_name(code)
+            bucket[label] += 1
+            languages_seen[label] += 1
+    if not languages_seen:
+        return []
+    # Stable ordering by overall popularity so the legend matches the rest of
+    # the dashboard's "top languages" presentation.
+    ordered = [name for name, _ in languages_seen.most_common()]
+    return [
+        {"year": year, "byCategory": {lang: bucket.get(lang, 0) for lang in ordered}}
+        for year, bucket in sorted(by_year.items())
+    ]
+
+
+def build_treemap(
+    items: Iterable[dict],
+    max_subjects: int = 6,
+) -> list[dict]:
+    """Chart: `treemap` -> same hierarchy as `sunburst` but trimmed for the
+    flatter rectangular layout.
+
+    The treemap renderer accepts the sunburst hierarchy unchanged; we just
+    feed in a slightly tighter cap on subjects-per-language so the cells
+    remain readable.
+    """
+    return build_sunburst(items, max_subjects=max_subjects)
+
+
+def build_calendar_heatmap(items: Iterable[dict]) -> list[dict]:
+    """Chart: `calendarHeatmap` -> `[{date: 'YYYY-MM-DD', value}]`.
+
+    Uses the most reliable single date per item (issue.start | creation.start
+    | created.start). Items missing a full ISO date are skipped — bare-year
+    values would all collapse to 1 January and create a misleading spike.
+    """
+    counts: Counter[str] = Counter()
+    for item in items:
+        date_info = item.get("dateInfo")
+        if not isinstance(date_info, dict):
+            continue
+        for category in ("issue", "creation", "created"):
+            block = date_info.get(category)
+            if not isinstance(block, dict):
+                continue
+            iso = _full_iso_date(block.get("start"))
+            if iso:
+                counts[iso] += 1
+                break
+    return [
+        {"date": date, "value": count}
+        for date, count in sorted(counts.items())
+    ]
+
+
+def _full_iso_date(raw: Any) -> str | None:
+    """Coerce a date-ish value to a ``YYYY-MM-DD`` string, or None."""
+    if isinstance(raw, dict):
+        if raw.get("$numberDouble") == "NaN":
+            return None
+        if "$date" in raw:
+            raw = raw["$date"]
+        else:
+            return None
+    if raw is None:
+        return None
+    import datetime
+    if isinstance(raw, datetime.datetime):
+        return raw.date().isoformat()
+    if isinstance(raw, str):
+        # Pull a YYYY-MM-DD prefix; reject incomplete forms (year-only).
+        match = re.match(r"^(\d{4})-(\d{2})-(\d{2})", raw.strip())
+        if match:
+            year = int(match.group(1))
+            if config.MIN_YEAR <= year <= config.MAX_YEAR:
+                return f"{match.group(1)}-{match.group(2)}-{match.group(3)}"
+    return None
+
+
+def build_box_plot_per_project(items: Iterable[dict]) -> list[dict]:
+    """Chart: `boxPlot` for the items-per-project distribution.
+
+    Groups items by `project.id`, then emits a single observation series of
+    "items per project" per project. Useful on `/research-sections` to show
+    how unevenly research items are distributed across projects.
+    """
+    per_project: Counter[str] = Counter()
+    project_label: dict[str, str] = {}
+    for item in items:
+        project = item.get("project") or {}
+        if not isinstance(project, dict):
+            continue
+        pid = _as_str(project.get("id"))
+        if not pid:
+            continue
+        per_project[pid] += 1
+        if pid not in project_label:
+            project_label[pid] = _as_str(project.get("name")) or pid
+    if not per_project:
+        return []
+    # Single-bucket distribution: every project contributes one observation
+    # ("its item count") to the "Projects" group.
+    return [
+        {
+            "name": "Items per project",
+            "values": list(per_project.values()),
+        }
+    ]
+
+
 def build_item_summaries(items: Iterable[dict]) -> list[dict]:
     """Slim per-item record shaped like `CollectionItem` subset used by
     `EntityItemsCard` / `CollectionItemRow` **and** the LocationMap

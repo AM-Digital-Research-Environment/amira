@@ -72,6 +72,10 @@
 	// Facet filters
 	let selectedResearchSections = $state<string[]>([]);
 	let selectedInstitutions = $state<string[]>([]);
+	// `all`: every project; `with`: only projects that have ≥1 research item;
+	// `without`: only the empty ones. Useful for spotting projects waiting on
+	// ingest vs ones already populated.
+	let itemPresence = $state<'all' | 'with' | 'without'>('all');
 
 	// Pagination
 	let currentPage = $state(0);
@@ -88,6 +92,18 @@
 		const institutions = new SvelteSet<string>();
 		$projects.forEach((p) => p.institutions?.forEach((i) => institutions.add(i)));
 		return Array.from(institutions).sort();
+	});
+
+	// Per-project research-item counts. Built once from the loaded collections
+	// so the with/without toggle is O(projects) per filter pass.
+	let itemCountByProject = $derived.by(() => {
+		const counts = new SvelteMap<string, number>();
+		for (const item of $allCollections) {
+			const pid = item.project?.id;
+			if (!pid) continue;
+			counts.set(pid, (counts.get(pid) ?? 0) + 1);
+		}
+		return counts;
 	});
 
 	let filteredProjects = $derived(
@@ -108,7 +124,13 @@
 				selectedInstitutions.length === 0 ||
 				p.institutions?.some((i) => selectedInstitutions.includes(i));
 
-			return matchesSearch && matchesSection && matchesInstitution;
+			const itemCount = itemCountByProject.get(p.id) ?? 0;
+			const matchesPresence =
+				itemPresence === 'all' ||
+				(itemPresence === 'with' && itemCount > 0) ||
+				(itemPresence === 'without' && itemCount === 0);
+
+			return matchesSearch && matchesSection && matchesInstitution && matchesPresence;
 		})
 	);
 
@@ -118,6 +140,7 @@
 		searchQuery;
 		selectedResearchSections;
 		selectedInstitutions;
+		itemPresence;
 		currentPage = 0;
 	});
 
@@ -198,10 +221,14 @@
 		searchQuery = '';
 		selectedResearchSections = [];
 		selectedInstitutions = [];
+		itemPresence = 'all';
 	}
 
 	let hasActiveFilters = $derived(
-		searchQuery !== '' || selectedResearchSections.length > 0 || selectedInstitutions.length > 0
+		searchQuery !== '' ||
+			selectedResearchSections.length > 0 ||
+			selectedInstitutions.length > 0 ||
+			itemPresence !== 'all'
 	);
 
 	// External project links
@@ -513,7 +540,12 @@
 				{/if}
 			</ChartCard>
 
-			<ChartCard title="Top Institutions" contentHeight="h-chart-sm" class="lg:col-span-2">
+			<ChartCard
+				title="Projects by Institution"
+				subtitle="How many projects each institution hosts"
+				contentHeight="h-chart-sm"
+				class="lg:col-span-2"
+			>
 				{#if institutionsData.length > 0}
 					<BarChart data={institutionsData} maxItems={10} />
 				{:else}
@@ -563,7 +595,7 @@
 		</div>
 
 		<!-- Projects List with Facets -->
-		<div class="grid gap-6 lg:grid-cols-4">
+		<div class="grid gap-6 grid-cols-[minmax(0,1fr)] lg:grid-cols-4">
 			<!-- Facets Sidebar -->
 			<Card class="lg:col-span-1 lg:sticky lg:top-20 lg:self-start">
 				{#snippet children()}
@@ -591,6 +623,25 @@
 									<span class="text-sm font-medium mb-2 block">Search</span>
 									<Input placeholder="Search by name, locale, or PI..." bind:value={searchQuery} />
 								</label>
+
+								<div role="group" aria-labelledby="filter-item-presence-label">
+									<div id="filter-item-presence-label" class="text-sm font-medium mb-2 block">
+										Research items
+									</div>
+									<div class="flex rounded-lg border border-input overflow-hidden text-xs">
+										{#each [{ value: 'all', label: 'All' }, { value: 'with', label: 'With' }, { value: 'without', label: 'Without' }] as opt (opt.value)}
+											<button
+												type="button"
+												onclick={() => (itemPresence = opt.value as typeof itemPresence)}
+												class="flex-1 px-2 py-1.5 transition-colors {itemPresence === opt.value
+													? 'bg-primary text-primary-foreground'
+													: 'hover:bg-muted'}"
+											>
+												{opt.label}
+											</button>
+										{/each}
+									</div>
+								</div>
 
 								<div role="group" aria-labelledby="filter-research-section-label">
 									<div id="filter-research-section-label" class="text-sm font-medium mb-2 block">
@@ -696,6 +747,14 @@
 											</button>
 										</Badge>
 									{/each}
+									{#if itemPresence !== 'all'}
+										<Badge variant="outline" class="gap-1">
+											{itemPresence === 'with' ? 'With research items' : 'Without research items'}
+											<button onclick={() => (itemPresence = 'all')} class="hover:text-destructive">
+												<X class="h-3 w-3" />
+											</button>
+										</Badge>
+									{/if}
 								</div>
 							{/if}
 

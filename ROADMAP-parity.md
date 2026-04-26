@@ -373,13 +373,13 @@ Each bullet below becomes its own issue linked to #10:
 - [x] Detail-page dashboard for `/research-sections/[slug]` — existing charts only; gantt/beeswarm/languageTimeline/subjectTrends/contributorNetwork/geoFlows land in Phase 4
 - [x] Expand `/projects/[id]` to full module-parity layout — adds sunburst, sankey, chord, heatmap, roles on top of the existing timeline/stacked-timeline/types/languages/subjects/wordCloud/contributors/locations; languageTimeline/subjectTrends/treemap/geoFlows/contributorNetwork still pending Phase 4
 - [x] Add `EntityKnowledgeGraph` to `/research-items/[id]` + context strip — KG was already wired; this round adds `SiblingItemsSparkline` (tiny year-by-year project timeline, current item highlighted, hover-preview lists items in that year) and `SimilarItemsStrip` (top-8 semantic kNN matches via Gemini embeddings, lazy-loaded from `static/data/embeddings/similar.json`)
-- [ ] List-page enrichment: `/languages`, `/subjects`, `/genres`, `/resource-types`, `/groups`, `/people`, `/institutions`, `/locations`
-- [ ] New chart: Calendar Heatmap
+- [x] List-page enrichment: `/languages` (stacked-area + heatmap), `/subjects` (subject trends + LCSH-vs-tag pie), `/genres` (genre × language heatmap), `/resource-types` (stacked-area + type × language heatmap), `/groups` (top-N bar + size box plot), `/people` (roles pie), `/institutions` (top-N bar), `/locations` (top-cities bar + tagged-items timeline)
+- [x] New chart: Calendar Heatmap (one cell per ISO date, multi-year stack)
 - [ ] New chart: Choropleth Map
-- [ ] New chart: Radar Chart
+- [x] New chart: Radar Chart (5–7 axis polygon, multi-series overlay)
 - [ ] New chart: Time-aware Chord
-- [ ] New chart: Box Plot / Violin
-- [ ] New charts: StackedAreaChart, TreemapChart, GeoFlowMap, ContributorNetwork, RolesPie
+- [x] New chart: Box Plot / Violin — five-number summary + outliers, computed from raw observations
+- [x] New charts: StackedAreaChart (`subjectTrends`/`languageTimeline`), TreemapChart (treemap key); GeoFlowMap, ContributorNetwork, RolesPie still pending
 - [ ] Generalize Compare → `/compare/[type]`
 
 ---

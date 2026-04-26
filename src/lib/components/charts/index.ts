@@ -15,3 +15,8 @@ export { default as HeatmapChart } from './HeatmapChart.svelte';
 export { default as BeeswarmChart } from './BeeswarmChart.svelte';
 export { default as GanttChart } from './GanttChart.svelte';
 export { default as SemanticScatter } from './SemanticScatter.svelte';
+export { default as StackedAreaChart } from './StackedAreaChart.svelte';
+export { default as TreemapChart } from './TreemapChart.svelte';
+export { default as CalendarHeatmap } from './CalendarHeatmap.svelte';
+export { default as BoxPlot } from './BoxPlot.svelte';
+export { default as RadarChart } from './RadarChart.svelte';

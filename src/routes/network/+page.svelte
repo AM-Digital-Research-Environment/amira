@@ -359,7 +359,7 @@
 					{/if}
 				</ChartCard>
 
-				<ChartCard title="How to read this" class="mt-6">
+				<ChartCard title="How to read this" class="mt-6" contentHeight="" downloadable={false}>
 					<div class="space-y-2 text-sm text-muted-foreground max-w-3xl">
 						<p>
 							Each <span class="font-medium text-foreground">large dot</span> is a
@@ -443,7 +443,7 @@
 					{/if}
 				</ChartCard>
 
-				<ChartCard title="How to read this" class="mt-6">
+				<ChartCard title="How to read this" class="mt-6" contentHeight="" downloadable={false}>
 					<p class="text-sm text-muted-foreground max-w-3xl">
 						An edge joins two people who appear as contributors on the same research item. The
 						<span class="font-medium text-foreground">thicker the edge</span>, the more items they
@@ -502,7 +502,7 @@
 					{/if}
 				</ChartCard>
 
-				<ChartCard title="How to read this" class="mt-6">
+				<ChartCard title="How to read this" class="mt-6" contentHeight="" downloadable={false}>
 					<p class="text-sm text-muted-foreground max-w-3xl">
 						This is a bipartite map: people on one side, institutions on the other. An edge means
 						"this person is affiliated with this institution". People with multiple affiliations act
@@ -566,7 +566,7 @@
 					{/if}
 				</ChartCard>
 
-				<ChartCard title="How to read this" class="mt-6">
+				<ChartCard title="How to read this" class="mt-6" contentHeight="" downloadable={false}>
 					<p class="text-sm text-muted-foreground max-w-3xl">
 						Institutions connect when they have people on the same project together. The
 						<span class="font-medium text-foreground">bigger the node</span>, the more
@@ -626,7 +626,7 @@
 						<NetworkGraph data={communityNetwork} showCommunityHalo={true} />
 					</ChartCard>
 
-					<ChartCard title="How to read this" class="mt-6">
+					<ChartCard title="How to read this" class="mt-6" contentHeight="" downloadable={false}>
 						<p class="text-sm text-muted-foreground max-w-3xl">
 							This view is <em>not</em> a list of metadata triples. Instead, a community-detection
 							algorithm (Louvain) ran across the whole archive's knowledge graph and grouped people,

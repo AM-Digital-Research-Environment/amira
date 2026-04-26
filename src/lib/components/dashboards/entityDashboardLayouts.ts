@@ -153,18 +153,22 @@ export const CHART_METADATA: Record<ChartKey, { label: string; description?: str
  *   6. Knowledge graph (last, tall)
  */
 export const ENTITY_LAYOUTS: Partial<Record<EntityType, EntityLayout>> = {
+	// Layout convention: pairs of two on each row (subjects + contributors,
+	// types + languages, etc.) keep cell heights aligned at `h-chart-md`. Wide
+	// slots (timelines, word clouds, heatmaps, maps) get their own row so
+	// nothing sits next to a chart of a different height. Avoid `tall: true`
+	// on a non-wide slot — that's what created the asymmetric rows.
 	language: {
 		entity: 'language',
 		showUniversityFilter: false,
 		charts: [
-			{ chart: 'timeline', wide: true },
 			{ chart: 'stackedTimeline', wide: true },
 			{ chart: 'types' },
 			{ chart: 'languages', title: 'Co-occurring languages' },
-			{ chart: 'heatmap', wide: true, title: 'Resource type × decade' },
 			{ chart: 'subjects' },
-			{ chart: 'wordCloud', tall: true },
 			{ chart: 'contributors' },
+			{ chart: 'wordCloud', wide: true },
+			{ chart: 'heatmap', wide: true, title: 'Resource type × decade' },
 			{ chart: 'subjectTrends', wide: true },
 			{ chart: 'locations', wide: true, tall: true }
 		]
@@ -173,13 +177,12 @@ export const ENTITY_LAYOUTS: Partial<Record<EntityType, EntityLayout>> = {
 		entity: 'subject',
 		showUniversityFilter: false,
 		charts: [
-			{ chart: 'timeline', wide: true },
 			{ chart: 'stackedTimeline', wide: true },
 			{ chart: 'types' },
 			{ chart: 'languages' },
 			{ chart: 'subjects', title: 'Co-occurring subjects' },
-			{ chart: 'wordCloud', tall: true, title: 'Related subjects & tags' },
 			{ chart: 'contributors' },
+			{ chart: 'wordCloud', wide: true, title: 'Related subjects & tags' },
 			{ chart: 'locations', wide: true, tall: true }
 		]
 	},
@@ -187,13 +190,12 @@ export const ENTITY_LAYOUTS: Partial<Record<EntityType, EntityLayout>> = {
 		entity: 'tag',
 		showUniversityFilter: false,
 		charts: [
-			{ chart: 'timeline', wide: true },
 			{ chart: 'stackedTimeline', wide: true },
 			{ chart: 'types' },
 			{ chart: 'languages' },
 			{ chart: 'subjects', title: 'Subject headings on tagged items' },
-			{ chart: 'wordCloud', tall: true, title: 'Related subjects & tags' },
 			{ chart: 'contributors' },
+			{ chart: 'wordCloud', wide: true, title: 'Related subjects & tags' },
 			{ chart: 'locations', wide: true, tall: true }
 		]
 	},
@@ -201,13 +203,12 @@ export const ENTITY_LAYOUTS: Partial<Record<EntityType, EntityLayout>> = {
 		entity: 'genre',
 		showUniversityFilter: false,
 		charts: [
-			{ chart: 'timeline', wide: true },
 			{ chart: 'stackedTimeline', wide: true },
 			{ chart: 'types' },
 			{ chart: 'languages' },
 			{ chart: 'subjects' },
-			{ chart: 'wordCloud', tall: true },
 			{ chart: 'contributors' },
+			{ chart: 'wordCloud', wide: true },
 			{ chart: 'locations', wide: true, tall: true }
 		]
 	},
@@ -215,13 +216,13 @@ export const ENTITY_LAYOUTS: Partial<Record<EntityType, EntityLayout>> = {
 		entity: 'resource-type',
 		showUniversityFilter: false,
 		charts: [
-			{ chart: 'timeline', wide: true },
 			{ chart: 'stackedTimeline', wide: true },
-			{ chart: 'languages' },
-			{ chart: 'heatmap', wide: true, title: 'Language × decade' },
 			{ chart: 'subjects' },
-			{ chart: 'wordCloud', tall: true },
+			{ chart: 'languages' },
 			{ chart: 'contributors' },
+			{ chart: 'subjectTrends', wide: true },
+			{ chart: 'wordCloud', wide: true },
+			{ chart: 'heatmap', wide: true, title: 'Language × decade' },
 			{ chart: 'locations', wide: true, tall: true }
 		]
 	},
@@ -241,14 +242,13 @@ export const ENTITY_LAYOUTS: Partial<Record<EntityType, EntityLayout>> = {
 		entity: 'person',
 		showUniversityFilter: true,
 		charts: [
-			{ chart: 'timeline', wide: true },
 			{ chart: 'stackedTimeline', wide: true },
 			{ chart: 'types' },
 			{ chart: 'languages' },
 			{ chart: 'roles' },
 			{ chart: 'subjects' },
-			{ chart: 'wordCloud', tall: true },
 			{ chart: 'contributors', title: 'Co-contributors' },
+			{ chart: 'wordCloud', wide: true },
 			{ chart: 'locations', wide: true, tall: true }
 		]
 	},
@@ -256,13 +256,12 @@ export const ENTITY_LAYOUTS: Partial<Record<EntityType, EntityLayout>> = {
 		entity: 'institution',
 		showUniversityFilter: true,
 		charts: [
-			{ chart: 'timeline', wide: true },
 			{ chart: 'stackedTimeline', wide: true },
 			{ chart: 'types' },
 			{ chart: 'languages' },
 			{ chart: 'subjects' },
-			{ chart: 'wordCloud', tall: true },
 			{ chart: 'contributors', title: 'Affiliated contributors' },
+			{ chart: 'wordCloud', wide: true },
 			{ chart: 'locations', wide: true, tall: true }
 		]
 	},
@@ -270,27 +269,26 @@ export const ENTITY_LAYOUTS: Partial<Record<EntityType, EntityLayout>> = {
 		entity: 'location',
 		showUniversityFilter: false,
 		charts: [
-			{ chart: 'timeline', wide: true },
 			{ chart: 'stackedTimeline', wide: true },
 			{ chart: 'types' },
 			{ chart: 'languages' },
 			{ chart: 'subjects' },
-			{ chart: 'wordCloud', tall: true },
-			{ chart: 'contributors' }
+			{ chart: 'contributors' },
+			{ chart: 'wordCloud', wide: true }
 		]
 	},
 	'research-section': {
 		entity: 'research-section',
 		showUniversityFilter: true,
 		charts: [
-			{ chart: 'timeline', wide: true },
 			{ chart: 'stackedTimeline', wide: true },
 			{ chart: 'types' },
 			{ chart: 'languages' },
-			{ chart: 'heatmap', wide: true, title: 'Resource type × decade' },
 			{ chart: 'subjects' },
-			{ chart: 'wordCloud', tall: true },
 			{ chart: 'contributors' },
+			{ chart: 'wordCloud', wide: true },
+			{ chart: 'heatmap', wide: true, title: 'Resource type × decade' },
+			{ chart: 'subjectTrends', wide: true },
 			{ chart: 'locations', wide: true, tall: true }
 		]
 	},
@@ -298,18 +296,18 @@ export const ENTITY_LAYOUTS: Partial<Record<EntityType, EntityLayout>> = {
 		entity: 'project',
 		showUniversityFilter: false,
 		charts: [
-			{ chart: 'timeline', wide: true },
 			{ chart: 'stackedTimeline', wide: true },
 			{ chart: 'types' },
 			{ chart: 'languages' },
 			{ chart: 'roles' },
-			{ chart: 'heatmap', wide: true, title: 'Resource type × decade' },
 			{ chart: 'subjects' },
-			{ chart: 'wordCloud', tall: true },
+			{ chart: 'contributors' },
+			{ chart: 'wordCloud', wide: true },
+			{ chart: 'heatmap', wide: true, title: 'Resource type × decade' },
+			{ chart: 'subjectTrends', wide: true },
 			{ chart: 'sunburst', wide: true, title: 'Type → language → subject' },
 			{ chart: 'chord', wide: true, tall: true, title: 'Subject co-occurrence' },
 			{ chart: 'sankey', wide: true, title: 'Contributor → project → type' },
-			{ chart: 'contributors' },
 			{ chart: 'locations', wide: true, tall: true }
 		]
 	}
@@ -333,15 +331,9 @@ export function getEntityLayout(entity: EntityType): EntityLayout | undefined {
  * upstream by `shouldRenderSlot` so the grid stays clean.
  */
 export const NOT_YET_IMPLEMENTED: ReadonlySet<ChartKey> = new Set<ChartKey>([
-	'treemap',
 	'geoFlows',
 	'choropleth',
-	'calendarHeatmap',
-	'radar',
 	'timeAwareChord',
-	'boxPlot',
-	'subjectTrends',
-	'languageTimeline',
 	'contributorNetwork',
 	'affiliationNetwork',
 	'collabNetwork',

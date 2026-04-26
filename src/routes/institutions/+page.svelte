@@ -7,6 +7,7 @@
 		CardContent,
 		Badge,
 		BackToList,
+		ChartCard,
 		SEO,
 		SectionBadge
 	} from '$lib/components/ui';
@@ -37,8 +38,9 @@
 	import { base } from '$app/paths';
 	import { Building2, Briefcase, Users } from '@lucide/svelte';
 	import { SvelteMap, SvelteSet } from 'svelte/reactivity';
-	import { EntityKnowledgeGraph } from '$lib/components/charts';
+	import { EntityKnowledgeGraph, BarChart } from '$lib/components/charts';
 	import { EntityDashboardSection } from '$lib/components/dashboards';
+	import type { BarChartDataPoint } from '$lib/types';
 
 	const urlSelection = createUrlSelection('name');
 
@@ -132,6 +134,15 @@
 
 	let allInstitutions = $derived(Array.from(institutionMap.values()));
 	let partnerCount = $derived(allInstitutions.filter((i) => i.isPartner).length);
+
+	// Top 15 institutions by total reach for the overview bar chart.
+	let topInstitutionsBar = $derived.by((): BarChartDataPoint[] => {
+		return allInstitutions
+			.slice()
+			.sort((a, b) => b.count - a.count)
+			.slice(0, 15)
+			.map((i) => ({ name: i.name, value: i.count }));
+	});
 	let contributorCount = $derived(allInstitutions.filter((i) => !i.isPartner).length);
 	let totalPeople = $derived(new Set(allInstitutions.flatMap((i) => [...i.people])).size);
 
@@ -413,6 +424,16 @@
 				</div>
 			{/each}
 		</div>
+
+		{#if topInstitutionsBar.length > 0}
+			<ChartCard
+				title="Top institutions by reach"
+				subtitle="Institutions with the most projects + items + people"
+				contentHeight="h-chart-md"
+			>
+				<BarChart data={topInstitutionsBar} onclick={(name) => selectInstitution(name)} />
+			</ChartCard>
+		{/if}
 
 		<!-- Partner/contributor filter -->
 		<div class="flex rounded-lg border border-input overflow-hidden w-fit">

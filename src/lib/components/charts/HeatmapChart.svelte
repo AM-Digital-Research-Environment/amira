@@ -54,6 +54,23 @@
 
 	let maxValue = $derived(Math.max(...data.map((d) => d.value), 1));
 
+	// Narrow viewports can't fit the vertical visualMap on the right without
+	// the legend overlapping the cells. Watch the container and flip the
+	// legend to a horizontal strip below the chart when it gets tight.
+	let containerEl: HTMLDivElement | null = $state(null);
+	let isNarrow = $state(false);
+
+	$effect(() => {
+		if (!containerEl) return;
+		const ro = new ResizeObserver((entries) => {
+			for (const entry of entries) {
+				isNarrow = entry.contentRect.width < 480;
+			}
+		});
+		ro.observe(containerEl);
+		return () => ro.disconnect();
+	});
+
 	let option: EChartsOption = $derived({
 		...buildTitle(title),
 		tooltip: {
@@ -69,12 +86,12 @@
 		},
 		grid: buildGrid({
 			left: '3%',
-			right: '8%',
+			right: isNarrow ? '3%' : '8%',
 			top: title ? '12%' : '3%',
 			// `containLabel: true` (default in buildGrid) already reserves space
-			// for the rotated x-axis labels; a small bottom keeps the plot tall
-			// without leaving dead space below the tick labels.
-			bottom: '3%'
+			// for the rotated x-axis labels. On narrow viewports we move the
+			// visualMap to the bottom so reserve extra room there.
+			bottom: isNarrow ? '18%' : '3%'
 		}),
 		xAxis: {
 			type: 'category',
@@ -98,21 +115,30 @@
 				fontSize: 11
 			}
 		},
-		visualMap: {
-			min: 0,
-			max: maxValue,
-			calculable: true,
-			orient: 'vertical',
-			right: 0,
-			top: 'center',
-			itemHeight: 120,
-			inRange: {
-				color: effectiveColorRange
-			},
-			textStyle: {
-				fontSize: 11
-			}
-		},
+		visualMap: isNarrow
+			? {
+					min: 0,
+					max: maxValue,
+					calculable: true,
+					orient: 'horizontal',
+					left: 'center',
+					bottom: 4,
+					itemWidth: 14,
+					itemHeight: 110,
+					inRange: { color: effectiveColorRange },
+					textStyle: { fontSize: 11 }
+				}
+			: {
+					min: 0,
+					max: maxValue,
+					calculable: true,
+					orient: 'vertical',
+					right: 0,
+					top: 'center',
+					itemHeight: 120,
+					inRange: { color: effectiveColorRange },
+					textStyle: { fontSize: 11 }
+				},
 		series: [
 			{
 				name: 'Count',
@@ -144,6 +170,6 @@
 	}
 </script>
 
-<div class={cn('h-full w-full', className)}>
+<div bind:this={containerEl} class={cn('h-full w-full', className)}>
 	<EChart {option} class="h-full w-full" onclick={handleClick} showZoomControls={false} />
 </div>

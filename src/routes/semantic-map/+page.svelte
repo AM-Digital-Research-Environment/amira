@@ -286,10 +286,10 @@
 			/>
 		</div>
 
-		<div
-			class="grid gap-6 lg:grid-cols-[minmax(0,1fr)_22rem] animate-slide-in-up"
-			style="animation-delay: 100ms"
-		>
+		<div class="space-y-6 animate-slide-in-up" style="animation-delay: 100ms">
+			<!-- Visualization spans the full width so dense clusters get the
+			     full pixel budget. The info card + similar-items list now
+			     render below the map instead of crowding it on the right. -->
 			<div class="space-y-4 min-w-0">
 				<div class="flex flex-wrap gap-2">
 					<Select options={colorByOpts} bind:value={colorBy} class="sm:w-60" />
@@ -303,7 +303,7 @@
 
 				<Card>
 					<CardContent class="p-2">
-						<div class="h-[28rem] md:h-[34rem] lg:h-[38rem] w-full">
+						<div class="h-[28rem] md:h-[34rem] lg:h-[42rem] w-full">
 							<SemanticScatter
 								items={filteredItems}
 								{colorBy}
@@ -322,7 +322,7 @@
 				</p>
 			</div>
 
-			<aside class="min-w-0">
+			<aside class="grid gap-6 min-w-0 {selectedItem ? 'lg:grid-cols-2' : ''}">
 				{#if selectedItem}
 					<Card>
 						<CardContent class="p-5">
@@ -380,7 +380,7 @@
 						</CardContent>
 					</Card>
 
-					<div class="mt-4">
+					<div class="min-w-0">
 						<h3 class="text-sm font-semibold text-foreground mb-2 flex items-center gap-1.5">
 							<Sparkles class="h-4 w-4 text-primary" />
 							Similar items

@@ -23,7 +23,12 @@
 		SunburstChart,
 		LocationMap,
 		MiniMap,
-		EntityKnowledgeGraph
+		EntityKnowledgeGraph,
+		StackedAreaChart,
+		TreemapChart,
+		CalendarHeatmap,
+		BoxPlot,
+		RadarChart
 	} from '$lib/components/charts';
 	import { CHART_METADATA, type ChartSlot } from './entityDashboardLayouts';
 	import type {
@@ -34,7 +39,12 @@
 		HeatmapDataPoint,
 		ChordData,
 		CollectionItem,
-		EnrichedLocationsData
+		EnrichedLocationsData,
+		StackedAreaDataPoint,
+		CalendarDataPoint,
+		BoxPlotGroup,
+		RadarIndicator,
+		RadarSeriesItem
 	} from '$lib/types';
 	import type { StackedTimelineDataPoint } from '$lib/utils/transforms/grouping';
 	import type { LocationData } from '$lib/components/charts/map/markerBuilder';
@@ -48,6 +58,13 @@
 		name: string;
 		value?: number;
 		children?: SunburstPayload[];
+	}
+
+	type TreemapPayload = SunburstPayload;
+
+	interface RadarPayload {
+		indicator: RadarIndicator[];
+		series: RadarSeriesItem[];
 	}
 
 	interface MiniMapMarker {
@@ -109,6 +126,17 @@
 		<SankeyChart nodes={s.nodes} links={s.links} class="h-full w-full" />
 	{:else if slot.chart === 'sunburst'}
 		<SunburstChart data={data as SunburstPayload[]} class="h-full w-full" />
+	{:else if slot.chart === 'treemap'}
+		<TreemapChart data={data as TreemapPayload[]} class="h-full w-full" />
+	{:else if slot.chart === 'subjectTrends' || slot.chart === 'languageTimeline'}
+		<StackedAreaChart data={data as StackedAreaDataPoint[]} class="h-full w-full" />
+	{:else if slot.chart === 'calendarHeatmap'}
+		<CalendarHeatmap data={data as CalendarDataPoint[]} class="h-full w-full" />
+	{:else if slot.chart === 'boxPlot'}
+		<BoxPlot data={data as BoxPlotGroup[]} class="h-full w-full" />
+	{:else if slot.chart === 'radar'}
+		{@const r = data as RadarPayload}
+		<RadarChart indicator={r.indicator} series={r.series} class="h-full w-full" />
 	{:else if slot.chart === 'locations'}
 		<LocationMap data={data as LocationData[]} {items} {enrichedLocations} class="h-full w-full" />
 	{:else if slot.chart === 'selfLocation'}

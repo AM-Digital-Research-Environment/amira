@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { StatCard, ChartCard, BackToList, SEO } from '$lib/components/ui';
-	import { PieChart, BarChart } from '$lib/components/charts';
+	import { PieChart, BarChart, StackedAreaChart, HeatmapChart } from '$lib/components/charts';
 	import { EntityDashboardSection } from '$lib/components/dashboards';
 	import {
 		EntityCard,
@@ -22,7 +22,10 @@
 		sortedCategoryList,
 		categoryToChartData
 	} from '$lib/utils/categoryIndex';
-	import type { CategoryEntry } from '$lib/types';
+	import { extractItemYear } from '$lib/utils/transforms/dates';
+	import { languageName, normalizeLanguageCode } from '$lib/utils/languages';
+	import { SvelteMap, SvelteSet } from 'svelte/reactivity';
+	import type { CategoryEntry, StackedAreaDataPoint, HeatmapDataPoint } from '$lib/types';
 	import { FileText, Layers } from '@lucide/svelte';
 	import { createEntityDetailState } from '$lib/utils/loaders';
 
@@ -67,6 +70,68 @@
 
 	let pieData = $derived(categoryToChartData(types));
 	let barData = $derived(categoryToChartData(types));
+
+	// Top-N resource types over time, stacked. Smaller types fold into "Other".
+	const TOP_TYPE_SERIES = 8;
+	let topTypeNames = $derived(types.slice(0, TOP_TYPE_SERIES).map((t) => t.name));
+
+	let typeTimelineData = $derived.by((): StackedAreaDataPoint[] => {
+		const top = new SvelteSet(topTypeNames);
+		const byYear = new SvelteMap<number, Record<string, number>>();
+		for (const item of $allCollections) {
+			const year = extractItemYear(item);
+			if (year == null) continue;
+			const rtype = item.typeOfResource || 'Unknown';
+			const bucket = top.has(rtype) ? rtype : 'Other';
+			let row = byYear.get(year);
+			if (!row) {
+				row = {};
+				byYear.set(year, row);
+			}
+			row[bucket] = (row[bucket] ?? 0) + 1;
+		}
+		return Array.from(byYear.entries())
+			.sort(([a], [b]) => a - b)
+			.map(([year, byCategory]) => ({ year, byCategory }));
+	});
+
+	// Heatmap: type (y) × language (x). Top 10 of each.
+	let typeLanguageHeatmap = $derived.by((): HeatmapDataPoint[] => {
+		const langTotals = new SvelteMap<string, number>();
+		const typeTotals = new SvelteMap<string, number>();
+		const cell = new SvelteMap<string, number>();
+		for (const item of $allCollections) {
+			const codes = item.language || [];
+			if (codes.length === 0) continue;
+			const rtype = item.typeOfResource || 'Unknown';
+			typeTotals.set(rtype, (typeTotals.get(rtype) ?? 0) + 1);
+			const seen = new SvelteSet<string>();
+			for (const raw of codes) {
+				const name = languageName(normalizeLanguageCode(raw));
+				if (seen.has(name)) continue;
+				seen.add(name);
+				langTotals.set(name, (langTotals.get(name) ?? 0) + 1);
+				const key = `${name}|${rtype}`;
+				cell.set(key, (cell.get(key) ?? 0) + 1);
+			}
+		}
+		const topLangs = Array.from(langTotals.entries())
+			.sort((a, b) => b[1] - a[1])
+			.slice(0, 10)
+			.map(([n]) => n);
+		const topTypes = Array.from(typeTotals.entries())
+			.sort((a, b) => b[1] - a[1])
+			.slice(0, 10)
+			.map(([n]) => n);
+		const result: HeatmapDataPoint[] = [];
+		for (const l of topLangs) {
+			for (const t of topTypes) {
+				const v = cell.get(`${l}|${t}`) ?? 0;
+				if (v > 0) result.push({ x: l, y: t, value: v });
+			}
+		}
+		return result;
+	});
 
 	function selectType(type: string) {
 		urlSelection.pushToUrl(type);
@@ -133,6 +198,26 @@
 				{/if}
 			</ChartCard>
 		</div>
+
+		{#if typeTimelineData.length > 0}
+			<ChartCard
+				title="Resource types over time"
+				subtitle="Top {TOP_TYPE_SERIES} types by item count, with smaller types folded into 'Other'"
+				contentHeight="h-chart-lg"
+			>
+				<StackedAreaChart data={typeTimelineData} class="h-full w-full" />
+			</ChartCard>
+		{/if}
+
+		{#if typeLanguageHeatmap.length > 0}
+			<ChartCard
+				title="Resource type × language"
+				subtitle="How types and languages overlap across the archive"
+				contentHeight="h-chart-lg"
+			>
+				<HeatmapChart data={typeLanguageHeatmap} class="h-full w-full" />
+			</ChartCard>
+		{/if}
 
 		<EntityToolbar
 			{searchQuery}

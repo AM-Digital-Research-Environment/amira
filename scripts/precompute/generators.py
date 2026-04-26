@@ -74,6 +74,7 @@ def generate_language_dashboard(
         "subjects": agg.build_subjects(filtered),
         "wordCloud": agg.build_word_cloud(filtered),
         "contributors": agg.build_contributors(filtered),
+        "subjectTrends": agg.build_subject_trends(filtered),
         "locations": agg.build_locations(filtered),
         "items": agg.build_item_summaries(filtered),
     }
@@ -193,6 +194,8 @@ def generate_resource_type_dashboard(name: str, items: list[dict]) -> dict:
         "meta": agg.build_meta("resource-type", agg.slugify(name), name, filtered),
         "timeline": agg.build_timeline(filtered),
         "stackedTimeline": agg.build_stacked_timeline(filtered),
+        "languageTimeline": agg.build_language_timeline(filtered),
+        "subjectTrends": agg.build_subject_trends(filtered),
         # No co-occurring types chart because every filtered item has the
         # same typeOfResource. `heatmap` (language × decade) is more useful.
         "languages": agg.build_languages(filtered),
@@ -463,12 +466,15 @@ def generate_research_section_dashboard(
         "meta": agg.build_meta("research-section", agg.slugify(name), name, filtered),
         "timeline": agg.build_timeline(filtered),
         "stackedTimeline": agg.build_stacked_timeline(filtered),
+        "languageTimeline": agg.build_language_timeline(filtered),
+        "subjectTrends": agg.build_subject_trends(filtered),
         "types": agg.build_types(filtered),
         "languages": agg.build_languages(filtered),
         "heatmap": agg.build_heatmap_type_decade(filtered),
         "subjects": agg.build_subjects(filtered),
         "wordCloud": agg.build_word_cloud(filtered),
         "contributors": agg.build_contributors(filtered),
+        "boxPlot": agg.build_box_plot_per_project(filtered),
         "locations": agg.build_locations(filtered),
         "items": agg.build_item_summaries(filtered),
     }
@@ -527,6 +533,8 @@ def generate_project_dashboard(
         "meta": agg.build_meta("project", project_id, name, filtered),
         "timeline": agg.build_timeline(filtered),
         "stackedTimeline": agg.build_stacked_timeline(filtered),
+        "languageTimeline": agg.build_language_timeline(filtered),
+        "subjectTrends": agg.build_subject_trends(filtered),
         "types": agg.build_types(filtered),
         "languages": agg.build_languages(filtered),
         "roles": agg.build_roles(filtered),
@@ -534,9 +542,11 @@ def generate_project_dashboard(
         "subjects": agg.build_subjects(filtered),
         "wordCloud": agg.build_word_cloud(filtered),
         "sunburst": agg.build_sunburst(filtered),
+        "treemap": agg.build_treemap(filtered),
         "sankey": agg.build_sankey(filtered),
         "chord": agg.build_chord(filtered),
         "contributors": agg.build_contributors(filtered),
+        "calendarHeatmap": agg.build_calendar_heatmap(filtered),
         "locations": agg.build_locations(filtered),
         "items": agg.build_item_summaries(filtered),
     }

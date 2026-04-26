@@ -508,7 +508,7 @@
 		</button>
 
 		<!-- Table mode: filters sidebar + table -->
-		<div class="grid gap-6 lg:grid-cols-4">
+		<div class="grid gap-6 grid-cols-[minmax(0,1fr)] lg:grid-cols-4">
 			<div class="lg:col-span-1 {showMobileFilters ? '' : 'hidden lg:block'}">
 				<ItemFilters
 					bind:this={filtersRef}
