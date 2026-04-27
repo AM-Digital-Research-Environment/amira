@@ -159,6 +159,23 @@ async function discoverEntityRoutes(): Promise<Route[]> {
 	return out;
 }
 
+/**
+ * XML-escape the five characters the sitemap protocol forbids inside a
+ * `<loc>` value. Crucially, `&` in query strings (e.g.
+ * `?name=foo&view=subjects`) MUST be encoded as `&amp;` — Google Search
+ * Console rejects the whole sitemap with "could not read sitemap" the
+ * moment it hits a raw ampersand. See
+ * https://www.sitemaps.org/protocol.html#escaping
+ */
+function xmlEscape(value: string): string {
+	return value
+		.replace(/&/g, '&amp;')
+		.replace(/'/g, '&apos;')
+		.replace(/"/g, '&quot;')
+		.replace(/</g, '&lt;')
+		.replace(/>/g, '&gt;');
+}
+
 export const GET: RequestHandler = async () => {
 	const lastmod = new Date().toISOString().slice(0, 10); // YYYY-MM-DD
 
@@ -168,7 +185,7 @@ export const GET: RequestHandler = async () => {
 	const urls = allRoutes
 		.map(
 			(r) => `  <url>
-    <loc>${SITE}${r.path}</loc>
+    <loc>${xmlEscape(`${SITE}${r.path}`)}</loc>
     <lastmod>${lastmod}</lastmod>
     <changefreq>${r.changefreq}</changefreq>
     <priority>${r.priority.toFixed(1)}</priority>
