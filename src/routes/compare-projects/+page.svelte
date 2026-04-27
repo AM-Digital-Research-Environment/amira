@@ -11,7 +11,8 @@
 		Badge,
 		SEO
 	} from '$lib/components/ui';
-	import { StackedTimeline, BarChart, PieChart } from '$lib/components/charts';
+	import { StackedTimeline, BarChart, PieChart, RadarChart } from '$lib/components/charts';
+	import { extractItemYear } from '$lib/utils/transforms/dates';
 	import { allCollections, ensureCollections } from '$lib/stores/data';
 	import { base } from '$app/paths';
 	import { onMount } from 'svelte';
@@ -157,6 +158,93 @@
 	let rightSubjects = $derived(extractSubjects(rightData));
 	let rightResourceTypes = $derived(extractResourceTypes(rightData));
 	let rightLanguages = $derived(extractLanguages(rightData));
+
+	// Profile metrics for the radar overlay. Each side becomes a 6-axis
+	// polygon: items, unique subjects, unique languages, unique resource
+	// types, year span, unique contributors. Year span is `max - min + 1`
+	// so a one-year project still registers as 1 (not 0).
+	function profileFor(items: CollectionItem[]) {
+		// Sets are rebuilt fresh on every $derived recompute, never mutated
+		// in place — no need for SvelteSet here.
+		/* eslint-disable svelte/prefer-svelte-reactivity */
+		const subjects = new Set<string>();
+		const languages = new Set<string>();
+		const types = new Set<string>();
+		const contributors = new Set<string>();
+		/* eslint-enable svelte/prefer-svelte-reactivity */
+		let minYear = Infinity;
+		let maxYear = -Infinity;
+
+		for (const item of items) {
+			(item.subject || []).forEach((s) => {
+				const label = s?.authLabel || s?.origLabel;
+				if (label) subjects.add(label);
+			});
+			(item.language || []).forEach((code) => {
+				if (code) languages.add(code);
+			});
+			if (item.typeOfResource) types.add(item.typeOfResource);
+			(item.name || []).forEach((entry) => {
+				const lbl = entry?.name?.label;
+				if (lbl) contributors.add(lbl);
+			});
+			const y = extractItemYear(item);
+			if (y != null) {
+				if (y < minYear) minYear = y;
+				if (y > maxYear) maxYear = y;
+			}
+		}
+
+		const yearSpan = isFinite(minYear) && isFinite(maxYear) ? maxYear - minYear + 1 : 0;
+		return {
+			items: items.length,
+			subjects: subjects.size,
+			languages: languages.size,
+			types: types.size,
+			yearSpan,
+			contributors: contributors.size
+		};
+	}
+
+	let leftProfile = $derived(profileFor(leftData));
+	let rightProfile = $derived(profileFor(rightData));
+
+	// Take the per-axis max across both sides so the polygon scales honestly
+	// — otherwise a side with the smaller value would always look the same
+	// shape regardless of magnitude.
+	let radarIndicator = $derived([
+		{ name: 'Items', max: Math.max(leftProfile.items, rightProfile.items, 1) },
+		{ name: 'Subjects', max: Math.max(leftProfile.subjects, rightProfile.subjects, 1) },
+		{ name: 'Languages', max: Math.max(leftProfile.languages, rightProfile.languages, 1) },
+		{ name: 'Types', max: Math.max(leftProfile.types, rightProfile.types, 1) },
+		{ name: 'Year span', max: Math.max(leftProfile.yearSpan, rightProfile.yearSpan, 1) },
+		{ name: 'Contributors', max: Math.max(leftProfile.contributors, rightProfile.contributors, 1) }
+	]);
+
+	let radarSeries = $derived([
+		{
+			name: getSelectionName(leftUniversity, leftProject),
+			values: [
+				leftProfile.items,
+				leftProfile.subjects,
+				leftProfile.languages,
+				leftProfile.types,
+				leftProfile.yearSpan,
+				leftProfile.contributors
+			]
+		},
+		{
+			name: getSelectionName(rightUniversity, rightProject),
+			values: [
+				rightProfile.items,
+				rightProfile.subjects,
+				rightProfile.languages,
+				rightProfile.types,
+				rightProfile.yearSpan,
+				rightProfile.contributors
+			]
+		}
+	]);
 
 	// Calculate subject overlap
 	let subjectOverlap = $derived.by(() => {
@@ -352,6 +440,19 @@
 			{/snippet}
 		</Card>
 	</div>
+
+	<!-- Profile radar — overlays both selections on a 6-axis polygon
+		 (items, subjects, languages, resource types, year span, contributors).
+		 Per-axis max is the larger of the two so shapes are comparable. -->
+	{#if leftData.length > 0 || rightData.length > 0}
+		<ChartCard
+			title="Project profile"
+			subtitle="Six-axis comparison: items, subjects, languages, types, year span, contributors"
+			contentHeight="h-chart-xl"
+		>
+			<RadarChart indicator={radarIndicator} series={radarSeries} class="h-full w-full" />
+		</ChartCard>
+	{/if}
 
 	<!-- Shared Subjects -->
 	{#if subjectOverlap.shared.length > 0}
