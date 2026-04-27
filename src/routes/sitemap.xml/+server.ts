@@ -44,7 +44,7 @@ const ROUTES: Route[] = [
 	{ path: '/subjects', priority: 0.7, changefreq: 'monthly' },
 	// Visualize
 	{ path: '/project-explorer', priority: 0.7, changefreq: 'monthly' },
-	{ path: '/compare-projects', priority: 0.6, changefreq: 'monthly' },
+	{ path: '/compare/projects', priority: 0.6, changefreq: 'monthly' },
 	{ path: '/network', priority: 0.7, changefreq: 'monthly' }
 ];
 

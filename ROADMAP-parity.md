@@ -375,12 +375,12 @@ Each bullet below becomes its own issue linked to #10:
 - [x] Add `EntityKnowledgeGraph` to `/research-items/[id]` + context strip — KG was already wired; this round adds `SiblingItemsSparkline` (tiny year-by-year project timeline, current item highlighted, hover-preview lists items in that year) and `SimilarItemsStrip` (top-8 semantic kNN matches via Gemini embeddings, lazy-loaded from `static/data/embeddings/similar.json`)
 - [x] List-page enrichment: `/languages` (stacked-area + heatmap), `/subjects` (subject trends + LCSH-vs-tag pie), `/genres` (genre × language heatmap), `/resource-types` (stacked-area + type × language heatmap), `/groups` (top-N bar + size box plot), `/people` (roles pie), `/institutions` (top-N bar), `/locations` (top-cities bar + tagged-items timeline)
 - [x] New chart: Calendar Heatmap (one cell per ISO date, multi-year stack)
-- [x] New chart: Choropleth Map — country-level fill on Natural Earth 110m, log-spaced teal ramp; surfaced inside the existing `locations` slot via a new `LocationsMapView` wrapper that toggles between Points (`LocationMap`) and Countries (`ChoroplethMap`) so each entity dashboard keeps a single map card. `choropleth` ChartKey also wired in `ChartSlot` for standalone use.
-- [x] New chart: Radar Chart (5–7 axis polygon, multi-series overlay)
-- [ ] New chart: Time-aware Chord
+- [x] New chart: Choropleth Map — country-level fill on Natural Earth 110m, log-spaced teal ramp; surfaced inside the existing `locations` slot via a new `LocationsMapView` wrapper that toggles between Points (`LocationMap`) and Countries (`ChoroplethMap`) so each entity dashboard keeps a single map card. `choropleth` ChartKey also wired in `ChartSlot` for standalone use, and on the `/locations` list page.
+- [x] New chart: Radar Chart (5–7 axis polygon, multi-series overlay) — surfaced on `/compare-projects` as a 6-axis profile overlay.
+- [x] New chart: Time-aware Chord — wraps `ChordDiagram` with a year slider + play/pause controls; data shape is sparse year buckets (`{year, names, matrix}[]`).
 - [x] New chart: Box Plot / Violin — five-number summary + outliers, computed from raw observations
-- [x] New charts: StackedAreaChart (`subjectTrends`/`languageTimeline`), TreemapChart (treemap key); GeoFlowMap, ContributorNetwork, RolesPie still pending
-- [ ] Generalize Compare → `/compare/[type]`
+- [x] New charts: StackedAreaChart (`subjectTrends`/`languageTimeline`), TreemapChart (treemap key), GeoFlowMap (great-circle origin→current arcs on MapLibre), ContributorNetwork (bipartite person↔target via `NetworkGraph`); RolesPie continues to be served by `PieChart` reuse in `ChartSlot`.
+- [x] Generalize Compare → `/compare/[type]` — route foundation with type tab bar (projects, people, institutions, subjects, languages, genres). Projects redirects to the existing `/compare-projects` implementation; remaining types render a "coming soon" stub. Sidebar nav + sitemap point at the canonical `/compare/projects` URL.
 
 ---
 

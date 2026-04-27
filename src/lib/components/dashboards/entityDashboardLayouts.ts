@@ -331,13 +331,12 @@ export function getEntityLayout(entity: EntityType): EntityLayout | undefined {
  * upstream by `shouldRenderSlot` so the grid stays clean.
  */
 export const NOT_YET_IMPLEMENTED: ReadonlySet<ChartKey> = new Set<ChartKey>([
-	'geoFlows',
-	'timeAwareChord',
-	'contributorNetwork',
-	'affiliationNetwork',
-	'collabNetwork',
-	'coAuthors',
-	'coSubjects',
+	// Renderers exist for the remaining keys (geoFlows, timeAwareChord,
+	// contributor/affiliation/collab networks, co-authors, co-subjects), but
+	// they only render when the corresponding entity dashboard JSON includes
+	// the matching payload. `shouldRenderSlot` already hides slots whose data
+	// is missing, so we don't need to gate them here. Keep `similarItems`
+	// gated — it's surfaced via a bespoke component on /research-items.
 	'similarItems'
 ]);
 

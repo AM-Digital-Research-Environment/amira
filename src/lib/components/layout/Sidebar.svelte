@@ -91,7 +91,7 @@
 			label: 'Visualize',
 			items: [
 				{ href: `${base}/project-explorer`, label: 'Project Explorer', icon: Folder },
-				{ href: `${base}/compare-projects`, label: 'Compare Projects', icon: BarChart3 },
+				{ href: `${base}/compare/projects`, label: 'Compare Projects', icon: BarChart3 },
 				{ href: `${base}/network`, label: 'Network', icon: Share2 },
 				{ href: `${base}/semantic-map`, label: 'Semantic Map', icon: Compass }
 			]

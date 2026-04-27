@@ -22,3 +22,6 @@ export { default as BoxPlot } from './BoxPlot.svelte';
 export { default as RadarChart } from './RadarChart.svelte';
 export { default as ChoroplethMap } from './ChoroplethMap.svelte';
 export { default as LocationsMapView } from './LocationsMapView.svelte';
+export { default as TimeAwareChord } from './TimeAwareChord.svelte';
+export { default as GeoFlowMap } from './GeoFlowMap.svelte';
+export { default as ContributorNetwork } from './ContributorNetwork.svelte';

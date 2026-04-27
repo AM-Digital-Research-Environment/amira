@@ -29,7 +29,10 @@
 		TreemapChart,
 		CalendarHeatmap,
 		BoxPlot,
-		RadarChart
+		RadarChart,
+		TimeAwareChord,
+		GeoFlowMap,
+		ContributorNetwork
 	} from '$lib/components/charts';
 	import { CHART_METADATA, type ChartSlot } from './entityDashboardLayouts';
 	import type {
@@ -50,6 +53,9 @@
 	import type { StackedTimelineDataPoint } from '$lib/utils/transforms/grouping';
 	import type { LocationData } from '$lib/components/charts/map/markerBuilder';
 	import type { ChoroplethDataPoint } from '$lib/components/charts/ChoroplethMap.svelte';
+	import type { TimeAwareChordData } from '$lib/components/charts/TimeAwareChord.svelte';
+	import type { GeoFlowMapData } from '$lib/components/charts/GeoFlowMap.svelte';
+	import type { ContributorNetworkData } from '$lib/components/charts/ContributorNetwork.svelte';
 
 	interface SankeyPayload {
 		nodes: { name: string }[];
@@ -103,8 +109,20 @@
 	// regression. Other `tall` slots get xl (500px) which fits word clouds,
 	// chord diagrams, and network previews without wasted vertical space.
 	const MAP_CHARTS = new Set(['locations', 'selfLocation', 'geoFlows', 'choropleth']);
+	const NETWORK_CHARTS = new Set([
+		'contributorNetwork',
+		'affiliationNetwork',
+		'collabNetwork',
+		'coAuthors'
+	]);
 	let contentHeight = $derived(
-		MAP_CHARTS.has(slot.chart) ? 'h-chart-2xl' : slot.tall ? 'h-chart-xl' : 'h-chart-md'
+		MAP_CHARTS.has(slot.chart)
+			? 'h-chart-2xl'
+			: NETWORK_CHARTS.has(slot.chart)
+				? 'h-chart-2xl'
+				: slot.tall
+					? 'h-chart-xl'
+					: 'h-chart-md'
 	);
 </script>
 
@@ -121,8 +139,10 @@
 		<WordCloud data={data as WordCloudDataPoint[]} class="h-full w-full" />
 	{:else if slot.chart === 'heatmap'}
 		<HeatmapChart data={data as HeatmapDataPoint[]} class="h-full w-full" />
-	{:else if slot.chart === 'chord'}
+	{:else if slot.chart === 'chord' || slot.chart === 'coSubjects' || slot.chart === 'coAuthors'}
 		<ChordDiagram data={data as ChordData} class="h-full w-full" />
+	{:else if slot.chart === 'timeAwareChord'}
+		<TimeAwareChord data={data as TimeAwareChordData} class="h-full w-full" />
 	{:else if slot.chart === 'sankey'}
 		{@const s = data as SankeyPayload}
 		<SankeyChart nodes={s.nodes} links={s.links} class="h-full w-full" />
@@ -148,6 +168,10 @@
 		/>
 	{:else if slot.chart === 'choropleth'}
 		<ChoroplethMap data={data as ChoroplethDataPoint[]} class="h-full w-full" />
+	{:else if slot.chart === 'geoFlows'}
+		<GeoFlowMap data={data as GeoFlowMapData} class="h-full w-full" />
+	{:else if slot.chart === 'contributorNetwork' || slot.chart === 'affiliationNetwork' || slot.chart === 'collabNetwork'}
+		<ContributorNetwork data={data as ContributorNetworkData} class="h-full w-full" />
 	{:else if slot.chart === 'selfLocation'}
 		<MiniMap markers={data as MiniMapMarker[]} class="h-full w-full" />
 	{:else if slot.chart === 'knowledgeGraph'}
