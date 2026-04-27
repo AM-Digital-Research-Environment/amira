@@ -91,8 +91,14 @@
 <style>
 	.entity-dashboard-grid {
 		display: grid;
-		grid-template-columns: 1fr;
+		grid-template-columns: minmax(0, 1fr);
 		gap: 1.5rem;
+		min-width: 0;
+	}
+
+	.entity-dashboard-grid > :global(*) {
+		min-width: 0;
+		max-width: 100%;
 	}
 
 	@media (min-width: 1024px) {

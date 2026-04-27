@@ -17,11 +17,46 @@
 		title?: string;
 		class?: string;
 		onclick?: (name: string) => void;
+		/** Where to place the legend. `bottom` is recommended for slices
+		 *  with long labels — it gives the donut the full width and lets
+		 *  the legend wrap horizontally instead of clipping the chart. */
+		legendPosition?: 'left' | 'bottom';
 	}
 
-	let { data, title = '', class: className = '', onclick }: Props = $props();
+	let {
+		data,
+		title = '',
+		class: className = '',
+		onclick,
+		legendPosition = 'bottom'
+	}: Props = $props();
 
 	let legendStyle = $derived(legendTextStyle($theme === 'dark'));
+
+	let legendOption = $derived(
+		legendPosition === 'bottom'
+			? {
+					orient: 'horizontal' as const,
+					left: 'center' as const,
+					bottom: 0,
+					type: 'scroll' as const,
+					textStyle: { ...legendStyle }
+				}
+			: {
+					orient: 'vertical' as const,
+					left: 'left' as const,
+					top: 'middle' as const,
+					type: 'scroll' as const,
+					textStyle: { ...legendStyle }
+				}
+	);
+
+	// When the legend sits at the bottom, the donut should be centred and
+	// shifted up a touch so it doesn't run into the legend strip. With a
+	// left-side legend the donut shifts right to leave room for labels.
+	let seriesCenter = $derived<[string, string]>(
+		legendPosition === 'bottom' ? ['50%', '45%'] : ['60%', '50%']
+	);
 
 	let option: EChartsOption = $derived({
 		...buildTitle(title),
@@ -31,19 +66,13 @@
 			formatter: PIE_FORMAT_STRING
 		},
 		...hideAxes(),
-		legend: {
-			orient: 'vertical',
-			left: 'left',
-			top: 'middle',
-			type: 'scroll',
-			textStyle: { ...legendStyle }
-		},
+		legend: legendOption,
 		series: [
 			{
 				name: 'Distribution',
 				type: 'pie',
-				radius: ['48%', '72%'],
-				center: ['60%', '50%'],
+				radius: ['42%', '68%'],
+				center: seriesCenter,
 				avoidLabelOverlap: true,
 				itemStyle: {
 					borderRadius: 6,

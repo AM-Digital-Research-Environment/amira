@@ -422,12 +422,49 @@ export const NOT_YET_IMPLEMENTED: ReadonlySet<ChartKey> = new Set<ChartKey>([
 	'similarItems'
 ]);
 
+/** Network chart payloads share the same `{ persons, targets, edges }`
+ * shape — they're considered empty when EITHER side of the bipartite graph
+ * is missing nodes, not when the wrapper object happens to have a `targetLabel`
+ * key. Without this guard the dashboard renders a card whose body just says
+ * "No contributor relationships available." */
+function isEmptyNetworkPayload(payload: object): boolean {
+	const p = payload as { persons?: unknown[]; targets?: unknown[]; edges?: unknown[] };
+	const personsCount = Array.isArray(p.persons) ? p.persons.length : -1;
+	const targetsCount = Array.isArray(p.targets) ? p.targets.length : -1;
+	if (personsCount === -1 && targetsCount === -1) return false; // not a network payload
+	return personsCount === 0 || targetsCount === 0;
+}
+
+/** Sankey + similar `{ nodes, links }` payloads are considered empty when
+ * either side is missing. */
+function isEmptyGraphPayload(payload: object): boolean {
+	const p = payload as { nodes?: unknown[]; links?: unknown[] };
+	if (!Array.isArray(p.nodes) && !Array.isArray(p.links)) return false;
+	const nodesCount = Array.isArray(p.nodes) ? p.nodes.length : 0;
+	const linksCount = Array.isArray(p.links) ? p.links.length : 0;
+	return nodesCount === 0 || linksCount === 0;
+}
+
+/** Chord payloads are `{ matrix, names }` — empty when no nodes. */
+function isEmptyChordPayload(payload: object): boolean {
+	const p = payload as { matrix?: unknown[]; names?: unknown[] };
+	if (!Array.isArray(p.matrix) && !Array.isArray(p.names)) return false;
+	const matrixCount = Array.isArray(p.matrix) ? p.matrix.length : 0;
+	const namesCount = Array.isArray(p.names) ? p.names.length : 0;
+	return matrixCount === 0 || namesCount === 0;
+}
+
 /**
  * Decide whether a slot should appear on the grid for the given data.
  *
  * We hide slots for chart keys without a renderer yet, and slots whose data
  * payload is empty or missing — no "No data available" placeholders. Slots
  * with a truthy `cond` that evaluates to false are also hidden.
+ *
+ * Network-shaped payloads (`contributorNetwork`, `affiliationNetwork`,
+ * `collabNetwork`, sankey, chord) need shape-aware emptiness checks since
+ * their wrapper object always carries a few keys (e.g. `targetLabel`,
+ * `names`) even when the underlying graph has no edges.
  */
 export function shouldRenderSlot(slot: ChartSlot, data: EntityDashboardData): boolean {
 	if (NOT_YET_IMPLEMENTED.has(slot.chart)) return false;
@@ -435,6 +472,12 @@ export function shouldRenderSlot(slot: ChartSlot, data: EntityDashboardData): bo
 	const payload = data[slot.chart];
 	if (payload == null) return false;
 	if (Array.isArray(payload)) return payload.length > 0;
-	if (typeof payload === 'object') return Object.keys(payload as object).length > 0;
+	if (typeof payload === 'object') {
+		if (Object.keys(payload as object).length === 0) return false;
+		if (isEmptyNetworkPayload(payload as object)) return false;
+		if (isEmptyGraphPayload(payload as object)) return false;
+		if (isEmptyChordPayload(payload as object)) return false;
+		return true;
+	}
 	return true;
 }

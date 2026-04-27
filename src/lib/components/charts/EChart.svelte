@@ -256,35 +256,52 @@
 
 	function applyZoom() {
 		if (!chartInstance) return;
-		// Apply zoom using ECharts graphic transform
 		const currentOption = chartInstance.getOption();
 		const seriesType = (currentOption?.series as { type: string }[])?.[0]?.type;
 
-		// For graph, sankey, sunburst - use roam zoom
-		if (['graph', 'sankey', 'sunburst', 'tree', 'treemap'].includes(seriesType)) {
+		// `graph` has built-in roam — let ECharts apply the zoom natively so
+		// labels/edges stay sharp. The dispatched action plays nicely with
+		// drag/pan.
+		if (seriesType === 'graph') {
 			chartInstance.setOption({
-				series: [
-					{
-						zoom: zoomLevel,
-						center: ['50%', '50%']
-					}
-				]
+				series: [{ zoom: zoomLevel, center: ['50%', '50%'] }]
 			});
-		} else {
-			// For other charts, use dataZoom
-			const zoomStart = Math.max(0, 50 - 50 / zoomLevel);
-			const zoomEnd = Math.min(100, 50 + 50 / zoomLevel);
-			chartInstance.dispatchAction({
-				type: 'dataZoom',
-				start: zoomStart,
-				end: zoomEnd
-			});
+			return;
 		}
+
+		// Sunburst / sankey / treemap / tree don't expose a `zoom` series option
+		// (ECharts ignores it silently — that was the bug). Apply a CSS
+		// transform to the canvas instead. We anchor on the centre so the
+		// chart grows from the middle, and let the surrounding container's
+		// `overflow-hidden` clip anything that runs past the card.
+		if (['sunburst', 'sankey', 'treemap', 'tree'].includes(seriesType)) {
+			applyCssZoom();
+			return;
+		}
+
+		// Cartesian / time-series — use dataZoom which actually changes the
+		// visible window rather than scaling pixels.
+		const zoomStart = Math.max(0, 50 - 50 / zoomLevel);
+		const zoomEnd = Math.min(100, 50 + 50 / zoomLevel);
+		chartInstance.dispatchAction({
+			type: 'dataZoom',
+			start: zoomStart,
+			end: zoomEnd
+		});
+	}
+
+	function applyCssZoom() {
+		if (!chartContainer) return;
+		const inner = chartContainer.firstElementChild as HTMLElement | null;
+		const target = inner ?? chartContainer;
+		target.style.transformOrigin = 'center center';
+		target.style.transform = zoomLevel === 1 ? '' : `scale(${zoomLevel})`;
+		target.style.transition = 'transform 120ms ease-out';
 	}
 </script>
 
-<div class={cn('relative w-full h-full', className)}>
-	<div bind:this={chartContainer} class="w-full h-full"></div>
+<div class={cn('relative w-full h-full min-w-0 max-w-full overflow-hidden', className)}>
+	<div bind:this={chartContainer} class="w-full h-full min-w-0 max-w-full"></div>
 
 	{#if showZoomControls}
 		<div class="absolute top-2 right-2 flex flex-col gap-1 z-10">

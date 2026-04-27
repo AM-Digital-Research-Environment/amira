@@ -13,7 +13,7 @@
 		SEO,
 		SectionBadge
 	} from '$lib/components/ui';
-	import { getSectionColor } from '$lib/utils/helpers';
+	import { getSectionColor, getSectionColorResolved } from '$lib/utils/helpers';
 	import { BarChart, Timeline, BeeswarmChart, GanttChart } from '$lib/components/charts';
 	import { SearchableItemsCard } from '$lib/components/entity-browse';
 	import { EntityDashboardSection } from '$lib/components/dashboards';
@@ -148,7 +148,42 @@
 	let researchSectionsData = $derived(extractResearchSections($projects));
 	let institutionsData = $derived(extractInstitutions($projects));
 	let beeswarmData = $derived(buildProjectBeeswarm($projects, $allCollections));
-	let ganttData = $derived(buildProjectGantt($projects));
+
+	// Gantt chart facet: filter the timeline by research section.
+	// `null` shows every project; otherwise only projects whose
+	// `researchSection[]` includes the selected section are passed in.
+	let ganttSectionFilter = $state<string | null>(null);
+	let ganttFilteredProjects = $derived(
+		ganttSectionFilter === null
+			? // Hide projects with no research section assignment from the
+				// "all" view too — those previously rendered as a stray
+				// "Unassigned" bar that the user couldn't relate back to any
+				// section.
+				$projects.filter((p) => (p.researchSection?.length ?? 0) > 0)
+			: $projects.filter((p) => p.researchSection?.includes(ganttSectionFilter as string))
+	);
+	let ganttData = $derived.by(() => {
+		const data = buildProjectGantt(ganttFilteredProjects);
+		// When a single section is selected, re-categorise every bar to that
+		// section so the colour map below paints them all in that section's
+		// CSS-token colour. Otherwise `buildProjectGantt` uses each project's
+		// FIRST research section, which can paint a project with multiple
+		// sections in a colour different from the one the user filtered by.
+		if (ganttSectionFilter === null) return data;
+		return data.map((d) => ({ ...d, category: ganttSectionFilter as string }));
+	});
+
+	// Honour each section's brand colour rather than the chart palette so the
+	// timeline stays consistent with the section badge / facet pills. ECharts
+	// renders to a canvas and can't read CSS variables, so we resolve them to
+	// literal HSL strings via `getSectionColorResolved`.
+	let ganttCategoryColors = $derived.by(() => {
+		const map: Record<string, string> = {};
+		for (const section of allResearchSections) {
+			map[section] = getSectionColorResolved(section);
+		}
+		return map;
+	});
 
 	// Selected project
 	let selectedProject = $derived.by((): Project | null => {
@@ -254,10 +289,43 @@
 	}
 </script>
 
-<SEO
-	title="Projects"
-	description="Browse and explore research projects from the Africa Multiple Cluster of Excellence"
-/>
+{#if selectedProject}
+	{@const piList = (selectedProject.pi || []).filter((p): p is string => typeof p === 'string')}
+	{@const seoDesc = [
+		selectedProject.description?.split('\n').slice(0, 2).join(' ').trim() || null,
+		piList.length ? `PI: ${piList.slice(0, 3).join(', ')}.` : null,
+		(selectedProject.researchSection || []).length
+			? `Research section: ${(selectedProject.researchSection || []).join(', ')}.`
+			: null
+	]
+		.filter(Boolean)
+		.join(' ')
+		.slice(0, 280)}
+	<SEO
+		title={selectedProject.name || selectedProject.idShort}
+		description={seoDesc ||
+			`${selectedProject.name} — research project at the Africa Multiple Cluster of Excellence.`}
+		type="article"
+		publishedTime={selectedProject.date?.start
+			? new Date(selectedProject.date.start).toISOString()
+			: undefined}
+		modifiedTime={selectedProject.updatedAt}
+		keywords={[
+			selectedProject.name,
+			selectedProject.idShort,
+			...(selectedProject.researchSection || []),
+			...(selectedProject.institutions || []).slice(0, 4),
+			...piList.slice(0, 4),
+			'research project'
+		].filter(Boolean) as string[]}
+	/>
+{:else}
+	<SEO
+		title="Projects"
+		description="Browse and explore research projects from the Africa Multiple Cluster of Excellence."
+		keywords={['research projects', 'cluster of excellence', 'African studies']}
+	/>
+{/if}
 
 <div class="space-y-6">
 	<!-- Page Header -->
@@ -555,22 +623,69 @@
 
 			<ChartCard
 				title="Project Timeline (Gantt)"
-				subtitle="Project lifespans grouped by research section"
-				contentHeight="h-chart-xl"
+				subtitle={ganttSectionFilter
+					? `Project lifespans in ${ganttSectionFilter}`
+					: 'Project lifespans grouped by research section'}
+				contentHeight={ganttData.length > 0 ? 'h-chart-xl' : 'h-chart-md'}
 				class="lg:col-span-2"
 			>
-				{#if ganttData.length > 0}
-					<GanttChart
-						data={ganttData}
-						formatAsYear={true}
-						onclick={(name) => {
-							const project = $projects.find((p) => p.name.startsWith(name.replace('...', '')));
-							if (project) selectProject(project);
-						}}
-					/>
-				{:else}
-					<EmptyState message="No project date data available" icon={Calendar} />
-				{/if}
+				<div class="flex flex-col h-full gap-3">
+					<!-- Section facet pills — sit just under the card subtitle so
+					     the title can use the full width and the facets serve as
+					     the chart's own legend. -->
+					<div class="flex flex-wrap items-center gap-1.5">
+						<button
+							type="button"
+							onclick={() => (ganttSectionFilter = null)}
+							class="px-2.5 py-1 rounded-full text-xs border transition-colors {ganttSectionFilter ===
+							null
+								? 'bg-primary/15 border-primary/40 text-foreground font-medium'
+								: 'bg-background border-border text-muted-foreground hover:text-foreground'}"
+						>
+							All sections
+						</button>
+						{#each allResearchSections as section (section)}
+							{@const active = ganttSectionFilter === section}
+							{@const color = getSectionColor(section)}
+							<button
+								type="button"
+								onclick={() => (ganttSectionFilter = active ? null : section)}
+								class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs border transition-colors {active
+									? 'border-foreground/60 text-foreground font-medium'
+									: 'border-border text-muted-foreground hover:text-foreground'}"
+								style="background-color: color-mix(in srgb, {color} {active
+									? '20%'
+									: '12%'}, transparent);"
+							>
+								<span class="inline-block w-2 h-2 rounded-full" style="background-color:{color}"
+								></span>
+								{section}
+							</button>
+						{/each}
+					</div>
+
+					<div class="flex-1 min-h-0">
+						{#if ganttData.length > 0}
+							<GanttChart
+								data={ganttData}
+								formatAsYear={true}
+								showLegend={false}
+								categoryColors={ganttCategoryColors}
+								onclick={(name) => {
+									const project = $projects.find((p) => p.name.startsWith(name.replace('...', '')));
+									if (project) selectProject(project);
+								}}
+							/>
+						{:else}
+							<EmptyState
+								message={ganttSectionFilter
+									? `No projects in "${ganttSectionFilter}" have date data`
+									: 'No project date data available'}
+								icon={Calendar}
+							/>
+						{/if}
+					</div>
+				</div>
 			</ChartCard>
 
 			<ChartCard

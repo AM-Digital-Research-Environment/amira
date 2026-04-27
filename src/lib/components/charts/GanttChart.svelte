@@ -46,6 +46,17 @@
 		formatAsYear?: boolean;
 		/** Categories for the legend */
 		categories?: string[];
+		/** Optional category → CSS colour map. Lets the caller paint bars
+		 *  with brand-specific tokens (e.g. research-section colours) so the
+		 *  chart stays consistent with badges and facet pills. Categories not
+		 *  present in the map fall back to the chart palette. */
+		categoryColors?: Record<string, string>;
+		/** Show the built-in ECharts legend strip below the chart. Set to
+		 *  false when the host page renders its own facet pills as a legend
+		 *  — this also avoids the "series not exists" console warning that
+		 *  appears because the gantt uses a single custom series rather than
+		 *  one series per category. */
+		showLegend?: boolean;
 		onclick?: (name: string) => void;
 	}
 
@@ -55,6 +66,8 @@
 		class: className = '',
 		formatAsYear = true,
 		categories,
+		categoryColors,
+		showLegend = true,
 		onclick
 	}: Props = $props();
 
@@ -66,7 +79,7 @@
 	let categoryColorMap = $derived.by(() => {
 		const map = new SvelteMap<string, string>();
 		allCategories.forEach((cat, i) => {
-			map.set(cat, CHART_COLORS[i % CHART_COLORS.length]);
+			map.set(cat, categoryColors?.[cat] ?? CHART_COLORS[i % CHART_COLORS.length]);
 		});
 		return map;
 	});
@@ -109,7 +122,7 @@
 			left: '3%',
 			right: '4%',
 			top: title ? '12%' : '5%',
-			bottom: allCategories.length > 1 ? '15%' : '10%'
+			bottom: showLegend && allCategories.length > 1 ? '15%' : '10%'
 		}),
 		xAxis: {
 			type: 'value',
@@ -182,20 +195,28 @@
 						}
 					);
 
+					const fill =
+						categoryColorMap.get(sortedData[Math.round(categoryIndex)]?.category ?? 'Default') ??
+						CHART_COLORS[0];
+
 					return (
 						rectShape && {
 							type: 'rect' as const,
 							shape: rectShape,
 							style: {
 								...apiFn.style(),
-								fill:
-									categoryColorMap.get(
-										sortedData[Math.round(categoryIndex)]?.category ?? 'Default'
-									) ?? CHART_COLORS[0],
+								fill,
 								opacity: 0.85
 							},
+							// Explicitly repeat the fill in the emphasis style.
+							// Without it, ECharts' default emphasis on `custom`
+							// series resets the brush colour to its own
+							// "highlighted" tint, which combined with our 0.85
+							// base opacity made the bar look like it disappeared
+							// on hover.
 							emphasis: {
 								style: {
+									fill,
 									opacity: 1,
 									shadowBlur: 8,
 									shadowColor: emphasisShadow
@@ -221,7 +242,7 @@
 			}
 		],
 		legend:
-			allCategories.length > 1
+			showLegend && allCategories.length > 1
 				? {
 						show: true,
 						bottom: 0,

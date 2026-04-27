@@ -1,7 +1,8 @@
 <script lang="ts">
-	import { FileText } from '@lucide/svelte';
+	import { FileText, Calendar } from '@lucide/svelte';
 	import type { CollectionItem } from '$lib/types';
 	import { getItemTitle } from '$lib/utils/helpers';
+	import { formatDateInfo } from '$lib/components/research-items/itemHelpers';
 	import { researchItemUrl } from '$lib/utils/urls';
 	import type { Snippet } from 'svelte';
 
@@ -9,13 +10,23 @@
 		item,
 		showType = true,
 		showProject = false,
+		showDate = true,
 		extraMetadata
 	}: {
 		item: CollectionItem;
 		showType?: boolean;
 		showProject?: boolean;
+		showDate?: boolean;
 		extraMetadata?: Snippet;
 	} = $props();
+
+	let dateLabel = $derived(showDate ? formatDateInfo(item) : '');
+	let hasMeta = $derived(
+		Boolean(extraMetadata) ||
+			(showType && Boolean(item.typeOfResource)) ||
+			(showProject && Boolean(item.project?.name)) ||
+			Boolean(dateLabel)
+	);
 </script>
 
 <li
@@ -31,8 +42,8 @@
 		>
 			{getItemTitle(item)}
 		</a>
-		{#if showType || showProject || extraMetadata}
-			<div class="flex flex-wrap items-center gap-2 mt-0.5">
+		{#if hasMeta}
+			<div class="flex flex-wrap items-center gap-x-2 gap-y-0.5 mt-0.5">
 				{#if extraMetadata}
 					{@render extraMetadata()}
 				{/if}
@@ -43,6 +54,15 @@
 					<span class="text-xs text-muted-foreground"
 						>{showType && item.typeOfResource ? '·' : ''} {item.project.name}</span
 					>
+				{/if}
+				{#if dateLabel}
+					<span
+						class="inline-flex items-center gap-1 text-xs text-muted-foreground"
+						title="Item date"
+					>
+						<Calendar class="h-3 w-3" />
+						{dateLabel}
+					</span>
 				{/if}
 			</div>
 		{/if}

@@ -210,7 +210,32 @@
 
 <SEO
 	title="Overview"
-	description="Research data from the Africa Multiple Cluster of Excellence and its Africa Multiple Research Centres (AMRCs) — an international research consortium at the University of Bayreuth linking partner centres across Africa, Brazil, and Germany."
+	description="Research data from the Africa Multiple Cluster of Excellence and its Africa Multiple Research Centres (AMRCs) — an international research consortium at the University of Bayreuth linking partner centres across Africa, Brazil, and Germany. Browse projects, people, institutions, research items, and visualisations."
+	keywords={[
+		'overview',
+		'research dashboard',
+		'cluster of excellence',
+		'African studies',
+		'research projects',
+		'data visualization',
+		'University of Bayreuth',
+		'Africa Multiple Research Centres'
+	]}
+	structuredData={{
+		'@context': 'https://schema.org',
+		'@type': 'Dataset',
+		name: 'Africa Multiple Interactive Research Atlas',
+		description:
+			'Aggregated research metadata from the Africa Multiple Cluster of Excellence and its partner research centres in Africa, Brazil, and Germany.',
+		creator: {
+			'@type': 'Organization',
+			name: 'Africa Multiple Cluster of Excellence',
+			url: 'https://www.africamultiple.uni-bayreuth.de/'
+		},
+		license: 'https://creativecommons.org/licenses/by/4.0/',
+		isAccessibleForFree: true,
+		spatialCoverage: ['Africa', 'Brazil', 'Germany']
+	}}
 />
 
 <div class="space-y-8">

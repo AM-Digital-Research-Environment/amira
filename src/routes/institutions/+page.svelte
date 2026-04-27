@@ -8,9 +8,12 @@
 		Badge,
 		BackToList,
 		ChartCard,
+		Pagination,
 		SEO,
 		SectionBadge
 	} from '$lib/components/ui';
+	import { paginate } from '$lib/utils/pagination';
+	import { DEFAULT_ITEMS_PER_PAGE } from '$lib/utils/constants';
 	import {
 		EntityCard,
 		EntityBrowseGrid,
@@ -222,12 +225,51 @@
 		urlSelection.removeFromUrl();
 		scrollToTop();
 	}
+
+	// Pagination of the per-institution projects list. Some institutions host
+	// dozens of projects (UBT > 60), and rendering them all in one card buries
+	// the rest of the detail view below the fold.
+	const PROJECTS_PER_PAGE = DEFAULT_ITEMS_PER_PAGE;
+	let projectsPage = $state(0);
+	let paginatedProjects = $derived(
+		selectedInstitution
+			? paginate(selectedInstitution.projects, projectsPage, PROJECTS_PER_PAGE)
+			: []
+	);
+
+	// Reset pagination whenever the selected institution changes so we don't
+	// land on an empty page after navigating between entities.
+	$effect(() => {
+		selectedName;
+		projectsPage = 0;
+	});
 </script>
 
-<SEO
-	title="Institutions"
-	description="Browse partner institutions and their associated projects, researchers, and research items"
-/>
+{#if selectedInstitution}
+	<SEO
+		title={selectedInstitution.name}
+		description={`${selectedInstitution.name}${
+			selectedInstitution.isPartner ? ' (partner institution)' : ''
+		} — ${selectedInstitution.projects.length} project${
+			selectedInstitution.projects.length === 1 ? '' : 's'
+		}, ${selectedInstitution.people.size} associated researcher${
+			selectedInstitution.people.size === 1 ? '' : 's'
+		} in the Africa Multiple Cluster of Excellence.`}
+		type="profile"
+		keywords={[
+			selectedInstitution.name,
+			'partner institution',
+			'research collaboration',
+			'African studies'
+		]}
+	/>
+{:else}
+	<SEO
+		title="Institutions"
+		description="Browse partner institutions and their associated projects, researchers, and research items in the Africa Multiple Cluster of Excellence."
+		keywords={['partner institutions', 'universities', 'research centres', 'African universities']}
+	/>
+{/if}
 
 <div class="space-y-8 animate-slide-in-up">
 	<div>
@@ -291,7 +333,7 @@
 						<CardContent>
 							{#snippet children()}
 								<ul class="space-y-3">
-									{#each selectedInstitution.projects as project (project.id)}
+									{#each paginatedProjects as project (project.id)}
 										<li class="p-3 rounded-lg bg-muted/30">
 											<a
 												href={projectUrl(project.id)}
@@ -334,6 +376,12 @@
 										</li>
 									{/each}
 								</ul>
+								<Pagination
+									currentPage={projectsPage}
+									totalItems={selectedInstitution.projects.length}
+									itemsPerPage={PROJECTS_PER_PAGE}
+									onPageChange={(p) => (projectsPage = p)}
+								/>
 							{/snippet}
 						</CardContent>
 					{/snippet}

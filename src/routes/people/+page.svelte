@@ -422,7 +422,30 @@
 	});
 </script>
 
-<SEO title="People" description="Browse researchers, contributors, and their affiliations" />
+{#if selectedPerson}
+	{@const affs = [...selectedPerson.affiliations]}
+	{@const sects = [...selectedPerson.sections]}
+	<SEO
+		title={selectedPerson.name}
+		description={`${selectedPerson.name} — researcher in the Africa Multiple Cluster of Excellence. ${
+			affs.length ? `Affiliated with ${affs.slice(0, 3).join(', ')}. ` : ''
+		}Browse their projects, research items, and collaborators.`}
+		type="profile"
+		keywords={[selectedPerson.name, ...affs.slice(0, 4), ...sects.slice(0, 4), 'researcher']}
+	/>
+{:else}
+	<SEO
+		title="People"
+		description="Browse researchers, principal investigators, and project members across the Africa Multiple Cluster of Excellence."
+		keywords={[
+			'researchers',
+			'principal investigators',
+			'project members',
+			'African scholars',
+			'collaboration network'
+		]}
+	/>
+{/if}
 
 <div class="space-y-8 animate-slide-in-up">
 	<div>

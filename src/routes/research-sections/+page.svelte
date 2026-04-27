@@ -160,10 +160,37 @@
 	});
 </script>
 
-<SEO
-	title="Research Sections"
-	description="Explore the six thematic research sections of the cluster"
-/>
+{#if selectedSectionData}
+	{@const seoDesc =
+		selectedSectionData.description?.split('\n').slice(0, 2).join(' ').trim() ||
+		`${selectedSectionData.name} — research section of the Africa Multiple Cluster of Excellence with ${selectedSectionData.projects.length} associated project${selectedSectionData.projects.length === 1 ? '' : 's'}.`}
+	<SEO
+		title={selectedSectionData.name}
+		description={seoDesc.slice(0, 280)}
+		type="article"
+		keywords={[
+			selectedSectionData.name,
+			'research section',
+			'thematic research',
+			...(selectedSectionData.principalInvestigators || []).slice(0, 4)
+		]}
+	/>
+{:else}
+	<SEO
+		title="Research Sections"
+		description="Explore the six thematic research sections of the Africa Multiple Cluster of Excellence: Affiliations, Arts &amp; Aesthetics, Knowledges, Learning, Mobilities, and Moralities."
+		keywords={[
+			'research sections',
+			'thematic research',
+			'Affiliations',
+			'Arts and Aesthetics',
+			'Knowledges',
+			'Learning',
+			'Mobilities',
+			'Moralities'
+		]}
+	/>
+{/if}
 
 <div class="space-y-8 animate-slide-in-up">
 	<!-- Header -->

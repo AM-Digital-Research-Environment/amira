@@ -1,28 +1,63 @@
 {
 	"name": "Africa Multiple Interactive Research Atlas",
 	"short_name": "AMIRA",
-	"description": "Browse and visualize research data from the Africa Multiple Cluster of Excellence and its Africa Multiple Research Centres",
+	"description": "Browse and visualize research metadata from the Africa Multiple Cluster of Excellence and its Africa Multiple Research Centres",
+	"id": "/amira/",
 	"start_url": "./",
 	"scope": "./",
 	"display": "standalone",
+	"display_override": ["standalone", "minimal-ui"],
+	"orientation": "any",
 	"background_color": "#0a0a0b",
 	"theme_color": "#3b82f6",
+	"lang": "en",
+	"dir": "ltr",
+	"categories": ["education", "research", "data visualization", "Africa"],
+	"author": "Frédérick Madore",
+	"developer": {
+		"name": "Frédérick Madore",
+		"url": "https://www.frederickmadore.com"
+	},
 	"icons": [
 		{
 			"src": "icons/icon-192x192.png",
 			"sizes": "192x192",
-			"type": "image/png"
+			"type": "image/png",
+			"purpose": "any"
 		},
 		{
 			"src": "icons/icon-512x512.png",
 			"sizes": "512x512",
-			"type": "image/png"
+			"type": "image/png",
+			"purpose": "any"
 		},
 		{
 			"src": "icons/icon-512x512.png",
 			"sizes": "512x512",
 			"type": "image/png",
 			"purpose": "maskable"
+		}
+	],
+	"shortcuts": [
+		{
+			"name": "What's new",
+			"url": "./whats-new",
+			"description": "Recently added research items"
+		},
+		{
+			"name": "Projects",
+			"url": "./projects",
+			"description": "Browse all projects"
+		},
+		{
+			"name": "Research items",
+			"url": "./research-items",
+			"description": "Browse all research items"
+		},
+		{
+			"name": "Network",
+			"url": "./network",
+			"description": "Explore relationship networks"
 		}
 	]
 }

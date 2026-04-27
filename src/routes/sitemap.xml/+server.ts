@@ -1,15 +1,18 @@
 import type { RequestHandler } from './$types';
+import { promises as fs } from 'node:fs';
+import { join } from 'node:path';
 
 /**
- * Build-time generated sitemap. Because the dashboard ships as a static site
- * (adapter-static), SvelteKit pre-renders this endpoint to
- * `build/sitemap.xml` at `npm run build` time, which means the `lastmod`
- * field always reflects the build date -- no manual upkeep required.
+ * Build-time generated sitemap.
  *
- * If you add a new top-level route, add it to `ROUTES` below. Dynamic detail
- * pages (research-items/[id], people?name=..., etc.) are driven by query
- * params off the list routes, so we only list the list routes here; search
- * engines pick up the detail records via the in-page links.
+ * Top-level routes are listed manually in `STATIC_ROUTES`. Detail pages
+ * (people?name=…, projects?id=…, institutions?name=…, etc.) are driven by
+ * query params and the URL list is discovered by scanning the precomputed
+ * entity-dashboard JSON dumps under `static/data/entity_dashboards/`.
+ *
+ * Because the dashboard ships as a static site (adapter-static), this
+ * endpoint is pre-rendered to `build/sitemap.xml` at `npm run build` time
+ * — no manual upkeep required.
  */
 
 export const prerender = true;
@@ -24,7 +27,7 @@ interface Route {
 
 // Keep in the same conceptual order as the sidebar so it's easy to spot a
 // missing route during a review.
-const ROUTES: Route[] = [
+const STATIC_ROUTES: Route[] = [
 	// Dashboard
 	{ path: '/', priority: 1.0, changefreq: 'weekly' },
 	{ path: '/whats-new', priority: 0.8, changefreq: 'weekly' },
@@ -42,23 +45,136 @@ const ROUTES: Route[] = [
 	{ path: '/locations', priority: 0.7, changefreq: 'monthly' },
 	{ path: '/resource-types', priority: 0.6, changefreq: 'monthly' },
 	{ path: '/subjects', priority: 0.7, changefreq: 'monthly' },
+	{ path: '/collections', priority: 0.6, changefreq: 'monthly' },
 	// Visualize
 	{ path: '/project-explorer', priority: 0.7, changefreq: 'monthly' },
+	{ path: '/compare-projects', priority: 0.6, changefreq: 'monthly' },
 	{ path: '/compare/projects', priority: 0.6, changefreq: 'monthly' },
-	{ path: '/network', priority: 0.7, changefreq: 'monthly' }
+	{ path: '/compare/people', priority: 0.6, changefreq: 'monthly' },
+	{ path: '/compare/institutions', priority: 0.6, changefreq: 'monthly' },
+	{ path: '/compare/subjects', priority: 0.6, changefreq: 'monthly' },
+	{ path: '/compare/languages', priority: 0.6, changefreq: 'monthly' },
+	{ path: '/compare/genres', priority: 0.6, changefreq: 'monthly' },
+	{ path: '/network', priority: 0.7, changefreq: 'monthly' },
+	{ path: '/semantic-map', priority: 0.6, changefreq: 'monthly' }
 ];
+
+/** Maps the entity-dashboard subdirectory name to the route + query-param
+ * pair that the front end expects. Keep in lock-step with `urls.ts`. */
+interface EntityRoute {
+	dir: string;
+	route: string;
+	param: 'name' | 'id' | 'code' | 'type' | 'genre' | 'section';
+	/** When `usesId` is true, take `meta.id` from the JSON; otherwise
+	 *  take `meta.name`. Mirrors `personUrl(name)` vs `projectUrl(id)`. */
+	usesId?: boolean;
+	priority: number;
+	/** Optional extra query string fragment (e.g. `&view=subjects`). */
+	suffix?: string;
+}
+
+const ENTITY_ROUTES: EntityRoute[] = [
+	{ dir: 'people', route: '/people', param: 'name', priority: 0.6 },
+	{ dir: 'projects', route: '/projects', param: 'id', usesId: true, priority: 0.7 },
+	{ dir: 'institutions', route: '/institutions', param: 'name', priority: 0.6 },
+	{ dir: 'groups', route: '/groups', param: 'name', priority: 0.5 },
+	{ dir: 'genres', route: '/genres', param: 'genre', priority: 0.5 },
+	{ dir: 'languages', route: '/languages', param: 'code', priority: 0.5 },
+	{ dir: 'locations', route: '/locations', param: 'name', priority: 0.5 },
+	{
+		dir: 'resource-types',
+		route: '/resource-types',
+		param: 'type',
+		priority: 0.5
+	},
+	{
+		dir: 'research-sections',
+		route: '/research-sections',
+		param: 'section',
+		priority: 0.7
+	},
+	{
+		dir: 'subjects',
+		route: '/subjects',
+		param: 'name',
+		priority: 0.5,
+		suffix: '&view=subjects'
+	},
+	{
+		dir: 'tags',
+		route: '/subjects',
+		param: 'name',
+		priority: 0.4,
+		suffix: '&view=tags'
+	}
+];
+
+interface EntityMeta {
+	type?: string;
+	id?: string;
+	name?: string;
+}
+
+interface EntityDashboard {
+	meta?: EntityMeta;
+}
+
+/** Read the precomputed entity-dashboard JSONs and yield one URL per file. */
+async function discoverEntityRoutes(): Promise<Route[]> {
+	const dataDir = join(process.cwd(), 'static', 'data', 'entity_dashboards');
+	const out: Route[] = [];
+
+	for (const entity of ENTITY_ROUTES) {
+		const dir = join(dataDir, entity.dir);
+		let entries: string[];
+		try {
+			entries = await fs.readdir(dir);
+		} catch {
+			continue; // directory not present yet — fine, skip silently
+		}
+
+		for (const entry of entries) {
+			if (!entry.endsWith('.json')) continue;
+			if (entry === 'manifest.json' || entry === '_manifest.json') continue;
+			let payload: EntityDashboard;
+			try {
+				const raw = await fs.readFile(join(dir, entry), 'utf-8');
+				payload = JSON.parse(raw) as EntityDashboard;
+			} catch {
+				continue;
+			}
+			const meta = payload.meta;
+			if (!meta) continue;
+			const value = entity.usesId ? meta.id : meta.name;
+			if (!value) continue;
+			const suffix = entity.suffix ?? '';
+			out.push({
+				path: `${entity.route}?${entity.param}=${encodeURIComponent(value)}${suffix}`,
+				priority: entity.priority,
+				changefreq: 'monthly'
+			});
+		}
+	}
+
+	return out;
+}
 
 export const GET: RequestHandler = async () => {
 	const lastmod = new Date().toISOString().slice(0, 10); // YYYY-MM-DD
 
-	const urls = ROUTES.map(
-		(r) => `  <url>
+	const entityRoutes = await discoverEntityRoutes();
+	const allRoutes = [...STATIC_ROUTES, ...entityRoutes];
+
+	const urls = allRoutes
+		.map(
+			(r) => `  <url>
     <loc>${SITE}${r.path}</loc>
     <lastmod>${lastmod}</lastmod>
     <changefreq>${r.changefreq}</changefreq>
     <priority>${r.priority.toFixed(1)}</priority>
   </url>`
-	).join('\n');
+		)
+		.join('\n');
 
 	const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">

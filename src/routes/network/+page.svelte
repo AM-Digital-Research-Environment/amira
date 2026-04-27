@@ -341,6 +341,40 @@
 					/>
 				</div>
 
+				<ChartCard title="How to read this" class="mb-6" contentHeight="" downloadable={false}>
+					<div class="space-y-2 text-sm text-muted-foreground">
+						<p>
+							Each <span class="font-medium text-foreground">large dot</span> is a
+							<span class="font-medium text-foreground">project</span>; each
+							<span class="font-medium text-foreground">small dot</span> is a person who has
+							contributed research items to one or more projects. An edge means "this person
+							contributed to this project", and the
+							<span class="font-medium text-foreground">thicker the line</span>, the more items they
+							contributed.
+						</p>
+						<p>
+							Hubs &mdash; projects with many contributors, or people working across many projects
+							&mdash; reveal the busiest collaboration spaces in the archive.
+						</p>
+					</div>
+					<div class="flex flex-wrap gap-x-6 gap-y-2 mt-4">
+						{#each contributorNetwork.categories as category, i (category.name ?? i)}
+							<div class="flex items-center gap-2">
+								<div
+									class="w-4 h-4 rounded-full"
+									style="background-color: {i === 0
+										? 'hsl(var(--chart-1))'
+										: 'hsl(var(--chart-2))'}"
+								></div>
+								<span class="text-sm">{category.name}</span>
+							</div>
+						{/each}
+					</div>
+					<p class="text-xs text-muted-foreground mt-3">
+						Drag nodes to rearrange. Scroll to zoom. Click-and-drag the background to pan.
+					</p>
+				</ChartCard>
+
 				<ChartCard title="Who contributes to which project" contentHeight="h-chart-2xl">
 					{#snippet headerExtra()}
 						<button
@@ -357,40 +391,6 @@
 					{:else}
 						<EmptyState message="No network data available" />
 					{/if}
-				</ChartCard>
-
-				<ChartCard title="How to read this" class="mt-6" contentHeight="" downloadable={false}>
-					<div class="space-y-2 text-sm text-muted-foreground max-w-3xl">
-						<p>
-							Each <span class="font-medium text-foreground">large dot</span> is a
-							<span class="font-medium text-foreground">project</span>; each
-							<span class="font-medium text-foreground">small dot</span> is a person who has
-							contributed research items to one or more projects. An edge means "this person
-							contributed to this project", and the
-							<span class="font-medium text-foreground">thicker the line</span>, the more items they
-							contributed.
-						</p>
-						<p>
-							Hubs -- projects with many contributors, or people working across many projects --
-							reveal the busiest collaboration spaces in the archive.
-						</p>
-					</div>
-					<div class="flex gap-6 mt-4">
-						{#each contributorNetwork.categories as category, i (category.name ?? i)}
-							<div class="flex items-center gap-2">
-								<div
-									class="w-4 h-4 rounded-full"
-									style="background-color: {i === 0
-										? 'hsl(var(--chart-1))'
-										: 'hsl(var(--chart-2))'}"
-								></div>
-								<span class="text-sm">{category.name}</span>
-							</div>
-						{/each}
-					</div>
-					<p class="text-xs text-muted-foreground mt-3">
-						Drag nodes to rearrange. Scroll to zoom. Click-and-drag the background to pan.
-					</p>
 				</ChartCard>
 			{:else if tab === 'collab'}
 				<!-- Person-Person Collaboration -->
@@ -414,6 +414,22 @@
 						animationDelay="225ms"
 					/>
 				</div>
+
+				<ChartCard title="How to read this" class="mb-6" contentHeight="" downloadable={false}>
+					<p class="text-sm text-muted-foreground">
+						An edge joins two people who appear as contributors on the same research item. The
+						<span class="font-medium text-foreground">thicker the edge</span>, the more items they
+						co-authored together. We drop one-off pairings (a single shared item) so that only
+						repeated, meaningful collaborations remain. The
+						<span class="font-medium text-foreground">larger a node</span>, the more collaborators
+						that person has, so the biggest nodes identify the archive's most connective scholars.
+					</p>
+					<p class="text-xs text-muted-foreground mt-3">
+						This view is a projection of the contributor-project bipartite graph &mdash; the same
+						authorship data, viewed through the "shared neighbourhood" lens rather than
+						edge-by-edge.
+					</p>
+				</ChartCard>
 
 				<ChartCard title="Who co-authors with whom" contentHeight="h-chart-2xl">
 					{#snippet headerExtra()}
@@ -442,22 +458,6 @@
 						/>
 					{/if}
 				</ChartCard>
-
-				<ChartCard title="How to read this" class="mt-6" contentHeight="" downloadable={false}>
-					<p class="text-sm text-muted-foreground max-w-3xl">
-						An edge joins two people who appear as contributors on the same research item. The
-						<span class="font-medium text-foreground">thicker the edge</span>, the more items they
-						co-authored together. We drop one-off pairings (a single shared item) so that only
-						repeated, meaningful collaborations remain. The
-						<span class="font-medium text-foreground">larger a node</span>, the more collaborators
-						that person has, so the biggest nodes identify the archive's most connective scholars.
-					</p>
-					<p class="text-xs text-muted-foreground mt-3">
-						This view is a projection of the contributor-project bipartite graph -- the same
-						authorship data, viewed through the "shared neighbourhood" lens rather than
-						edge-by-edge.
-					</p>
-				</ChartCard>
 			{:else if tab === 'affiliations'}
 				<!-- Affiliation Network -->
 				<div class="grid gap-4 md:grid-cols-3 mb-6">
@@ -481,6 +481,28 @@
 					/>
 				</div>
 
+				<ChartCard title="How to read this" class="mb-6" contentHeight="" downloadable={false}>
+					<p class="text-sm text-muted-foreground">
+						This is a bipartite map: people on one side, institutions on the other. An edge means
+						"this person is affiliated with this institution". People with multiple affiliations act
+						as <span class="font-medium text-foreground">bridges</span> between institutions &mdash; trace
+						them to see how knowledge flows across the archive's institutional geography.
+					</p>
+					<div class="flex flex-wrap gap-x-6 gap-y-2 mt-4">
+						{#each affiliationNetwork.categories as category, i (category.name ?? i)}
+							<div class="flex items-center gap-2">
+								<div
+									class="w-4 h-4 rounded-full"
+									style="background-color: {i === 0
+										? 'hsl(var(--chart-1))'
+										: 'hsl(var(--chart-2))'}"
+								></div>
+								<span class="text-sm">{category.name}</span>
+							</div>
+						{/each}
+					</div>
+				</ChartCard>
+
 				<ChartCard title="Which institutions each person belongs to" contentHeight="h-chart-2xl">
 					{#snippet headerExtra()}
 						<button
@@ -500,28 +522,6 @@
 							message="No affiliation data available. Persons may not have institutional affiliations recorded."
 						/>
 					{/if}
-				</ChartCard>
-
-				<ChartCard title="How to read this" class="mt-6" contentHeight="" downloadable={false}>
-					<p class="text-sm text-muted-foreground max-w-3xl">
-						This is a bipartite map: people on one side, institutions on the other. An edge means
-						"this person is affiliated with this institution". People with multiple affiliations act
-						as <span class="font-medium text-foreground">bridges</span> between institutions -- trace
-						them to see how knowledge flows across the archive's institutional geography.
-					</p>
-					<div class="flex gap-6 mt-4">
-						{#each affiliationNetwork.categories as category, i (category.name ?? i)}
-							<div class="flex items-center gap-2">
-								<div
-									class="w-4 h-4 rounded-full"
-									style="background-color: {i === 0
-										? 'hsl(var(--chart-1))'
-										: 'hsl(var(--chart-2))'}"
-								></div>
-								<span class="text-sm">{category.name}</span>
-							</div>
-						{/each}
-					</div>
 				</ChartCard>
 			{:else if tab === 'institutions'}
 				<!-- Institution Collaboration Network -->
@@ -546,6 +546,18 @@
 					/>
 				</div>
 
+				<ChartCard title="How to read this" class="mb-6" contentHeight="" downloadable={false}>
+					<p class="text-sm text-muted-foreground">
+						Institutions connect when they have people on the same project together. The
+						<span class="font-medium text-foreground">bigger the node</span>, the more
+						collaborations that institution is in. The
+						<span class="font-medium text-foreground">thicker the edge</span>, the more projects
+						those two institutions share. The densest clumps are the partnerships that anchor
+						multi-institutional research; isolated edges at the periphery are one-off
+						collaborations.
+					</p>
+				</ChartCard>
+
 				<ChartCard title="Institution collaboration network" contentHeight="h-chart-2xl">
 					{#snippet headerExtra()}
 						<button
@@ -564,18 +576,6 @@
 							message="No collaboration data available. Institutions may not have shared projects."
 						/>
 					{/if}
-				</ChartCard>
-
-				<ChartCard title="How to read this" class="mt-6" contentHeight="" downloadable={false}>
-					<p class="text-sm text-muted-foreground max-w-3xl">
-						Institutions connect when they have people on the same project together. The
-						<span class="font-medium text-foreground">bigger the node</span>, the more
-						collaborations that institution is in. The
-						<span class="font-medium text-foreground">thicker the edge</span>, the more projects
-						those two institutions share. The densest clumps are the partnerships that anchor
-						multi-institutional research; isolated edges at the periphery are one-off
-						collaborations.
-					</p>
 				</ChartCard>
 			{:else}
 				<!-- Discursive Communities -->
@@ -611,23 +611,8 @@
 						/>
 					</div>
 
-					<ChartCard title="Communities of meaning across the archive" contentHeight="h-chart-2xl">
-						{#snippet headerExtra()}
-							<button
-								type="button"
-								onclick={() =>
-									enterFullscreen('communities', 'Communities of meaning across the archive')}
-								class="p-2 rounded-lg hover:bg-muted transition-colors"
-								aria-label="Fullscreen"
-							>
-								<Maximize2 class="h-4 w-4 text-muted-foreground" />
-							</button>
-						{/snippet}
-						<NetworkGraph data={communityNetwork} showCommunityHalo={true} />
-					</ChartCard>
-
-					<ChartCard title="How to read this" class="mt-6" contentHeight="" downloadable={false}>
-						<p class="text-sm text-muted-foreground max-w-3xl">
+					<ChartCard title="How to read this" class="mb-6" contentHeight="" downloadable={false}>
+						<p class="text-sm text-muted-foreground">
 							This view is <em>not</em> a list of metadata triples. Instead, a community-detection
 							algorithm (Louvain) ran across the whole archive's knowledge graph and grouped people,
 							projects, subjects, items and institutions that sit in densely inter-connected
@@ -635,7 +620,7 @@
 							<span class="font-medium text-foreground">discursive community</span>: a recurring way
 							the field organises meaning.
 						</p>
-						<p class="text-sm text-muted-foreground max-w-3xl mt-2">
+						<p class="text-sm text-muted-foreground mt-2">
 							The halo colour on each node indicates which community it belongs to. Big nodes are
 							<span class="font-medium text-foreground">key discursive nodes</span>: entities that
 							hold a community together (ranked by PageRank over the global graph). Click any node
@@ -675,6 +660,21 @@
 								{/if}
 							</div>
 						</div>
+					</ChartCard>
+
+					<ChartCard title="Communities of meaning across the archive" contentHeight="h-chart-2xl">
+						{#snippet headerExtra()}
+							<button
+								type="button"
+								onclick={() =>
+									enterFullscreen('communities', 'Communities of meaning across the archive')}
+								class="p-2 rounded-lg hover:bg-muted transition-colors"
+								aria-label="Fullscreen"
+							>
+								<Maximize2 class="h-4 w-4 text-muted-foreground" />
+							</button>
+						{/snippet}
+						<NetworkGraph data={communityNetwork} showCommunityHalo={true} />
 					</ChartCard>
 				{/if}
 			{/if}

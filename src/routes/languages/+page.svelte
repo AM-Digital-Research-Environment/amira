@@ -183,7 +183,8 @@
 
 <SEO
 	title="Languages"
-	description="Explore the languages represented in the research collections"
+	description="Explore the languages represented in the Africa Multiple research collections — distribution over time, co-occurrence, and per-language archives. ISO 639 controlled vocabulary."
+	keywords={['languages', 'African languages', 'multilingual', 'language distribution', 'ISO 639']}
 />
 
 <div class="space-y-8 animate-slide-in-up">

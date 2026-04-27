@@ -423,7 +423,15 @@
 
 <SEO
 	title="Locations"
-	description="Explore geographic origins and current holding locations of research items"
+	description="Explore geographic origins and current holding locations of research items in the Africa Multiple Cluster of Excellence — country choropleth, point map, and per-location archives."
+	keywords={[
+		'locations',
+		'geography',
+		'African geography',
+		'choropleth map',
+		'archive geography',
+		'origins'
+	]}
 />
 
 <div class="space-y-8 animate-slide-in-up">

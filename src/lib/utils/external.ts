@@ -28,7 +28,9 @@ export const EXTERNAL_PROJECTS: Project[] = [
 		emails: [],
 		description:
 			'External collection contributed by the Bayreuth Global / Bayreuth Postkolonial project at the University of Bayreuth.',
-		date: { start: null, end: null },
+		// Project lifespan, NOT the historical content range. Bayreuth
+		// Global / Bayreuth Postkolonial ran for the calendar year 2025.
+		date: { start: new Date('2025-01-01'), end: new Date('2025-12-31') },
 		rdspace: {
 			collection: { uuid: null, handle: null },
 			projectSub: { uuid: null, handle: null }
@@ -51,7 +53,11 @@ export const EXTERNAL_PROJECTS: Project[] = [
 		emails: [],
 		description:
 			'External collection sourced from the International Library of African Music (ILAM) at Rhodes University.',
-		date: { start: null, end: null },
+		// Institutional founding (1954) — ILAM still operates today. The
+		// upstream record sometimes carries historical content dates (e.g.
+		// 1013 for medieval transcriptions); we explicitly pin the project
+		// lifespan so the gantt axis doesn't blow out to a millennium.
+		date: { start: new Date('1954-01-01'), end: null },
 		rdspace: {
 			collection: { uuid: null, handle: null },
 			projectSub: { uuid: null, handle: null }

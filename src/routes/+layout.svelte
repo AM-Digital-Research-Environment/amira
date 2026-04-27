@@ -12,6 +12,7 @@
 		collectionsLoading,
 		loadError
 	} from '$lib/stores/data';
+	import { schedulePrefetch } from '$lib/utils/offlinePrefetch';
 	import type { Snippet } from 'svelte';
 	import { AlertCircle } from '@lucide/svelte';
 
@@ -37,6 +38,8 @@
 		// Load data
 		if (browser) {
 			initializeData(base);
+			// Warm the SW data cache for offline use after first paint.
+			schedulePrefetch(base);
 		}
 	});
 

@@ -167,7 +167,18 @@
 	}
 </script>
 
-<SEO title="Subjects and Tags" description="Browse research items by subject headings and tags" />
+<SEO
+	title="Subjects and Tags"
+	description="Browse research items by Library of Congress Subject Headings (LCSH) and free-form tags — controlled vocabulary indexing of the Africa Multiple research archive."
+	keywords={[
+		'subjects',
+		'tags',
+		'LCSH',
+		'Library of Congress Subject Headings',
+		'controlled vocabulary',
+		'subject indexing'
+	]}
+/>
 
 <div class="space-y-8 animate-slide-in-up">
 	<div>

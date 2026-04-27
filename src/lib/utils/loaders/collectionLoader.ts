@@ -363,7 +363,14 @@ function reconcileExternalProjects(projects: Project[]): Project[] {
 			...p,
 			researchSection: p.researchSection?.length ? p.researchSection : virtual.researchSection,
 			institutions: p.institutions?.length ? p.institutions : virtual.institutions,
-			description: p.description?.trim() ? p.description : virtual.description
+			description: p.description?.trim() ? p.description : virtual.description,
+			// Force the curated lifespan from EXTERNAL_PROJECTS. The upstream
+			// MongoDB records for external collections carry historical
+			// CONTENT dates (e.g. ILAM holds material going back to 1013),
+			// which when used as a project start date blow out the Gantt
+			// axis to a millennium and distort every other section's bar.
+			date: virtual.date,
+			name: virtual.name
 		};
 	});
 	const existingIds = new Set(reconciled.map((p) => p.id));

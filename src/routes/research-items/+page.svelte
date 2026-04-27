@@ -462,10 +462,71 @@
 	});
 </script>
 
-<SEO
-	title="Research Items"
-	description="Browse and filter the full catalog of digitized research items"
-/>
+{#if selectedItem}
+	{@const itemTitle = selectedItem.titleInfo?.[0]?.title || 'Untitled item'}
+	{@const itemAbstract =
+		typeof selectedItem.abstract === 'string' ? selectedItem.abstract.trim() : ''}
+	{@const contributors = (selectedItem.name || [])
+		.map((n) => n?.name?.label)
+		.filter((n): n is string => Boolean(n))
+		.slice(0, 5)}
+	{@const subjects = (selectedItem.subject || [])
+		.map((s) => s.authLabel || s.origLabel)
+		.filter(Boolean)
+		.slice(0, 8)}
+	{@const itemDesc = (
+		itemAbstract ||
+		[
+			itemTitle,
+			selectedItem.typeOfResource ? `(${selectedItem.typeOfResource})` : '',
+			contributors.length ? `By ${contributors.slice(0, 3).join(', ')}.` : '',
+			selectedItem.project?.name ? `Part of ${selectedItem.project.name}.` : ''
+		]
+			.filter(Boolean)
+			.join(' ')
+	).slice(0, 320)}
+	<SEO
+		title={itemTitle}
+		description={itemDesc}
+		type="article"
+		keywords={[
+			selectedItem.typeOfResource,
+			...subjects,
+			...contributors,
+			...(selectedItem.tags || []).slice(0, 5),
+			selectedItem.project?.name
+		].filter((s): s is string => Boolean(s))}
+		structuredData={{
+			'@context': 'https://schema.org',
+			'@type': 'CreativeWork',
+			name: itemTitle,
+			abstract: itemAbstract || undefined,
+			isPartOf: selectedItem.project?.name
+				? { '@type': 'Collection', name: selectedItem.project.name }
+				: undefined,
+			about: subjects.length ? subjects : undefined,
+			keywords: (selectedItem.tags || []).join(', ') || undefined,
+			creator: contributors.length
+				? contributors.map((c) => ({ '@type': 'Person', name: c }))
+				: undefined,
+			inLanguage: selectedItem.language?.[0]
+		}}
+	/>
+{:else}
+	<SEO
+		title="Research Items"
+		description="Browse and filter the full catalogue of digitized research items from the Africa Multiple Cluster of Excellence — books, articles, photographs, manuscripts, and more."
+		keywords={[
+			'research items',
+			'archive',
+			'collections',
+			'metadata',
+			'digital humanities',
+			'manuscripts',
+			'photographs'
+		]}
+	/>
+{/if}
 
 <div class="space-y-8 animate-slide-in-up">
 	<!-- Header -->

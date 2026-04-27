@@ -136,7 +136,8 @@
 
 <SEO
 	title="What's New"
-	description="Recently added and updated projects and research items across the Africa Multiple Cluster of Excellence."
+	description="Recently added and updated projects and research items across the Africa Multiple Cluster of Excellence. Tracks ingest activity over time."
+	keywords={['recent updates', 'new items', 'changelog', 'recent additions']}
 />
 
 <div class="space-y-8">
