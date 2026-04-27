@@ -20,3 +20,5 @@ export { default as TreemapChart } from './TreemapChart.svelte';
 export { default as CalendarHeatmap } from './CalendarHeatmap.svelte';
 export { default as BoxPlot } from './BoxPlot.svelte';
 export { default as RadarChart } from './RadarChart.svelte';
+export { default as ChoroplethMap } from './ChoroplethMap.svelte';
+export { default as LocationsMapView } from './LocationsMapView.svelte';

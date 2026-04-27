@@ -332,7 +332,6 @@ export function getEntityLayout(entity: EntityType): EntityLayout | undefined {
  */
 export const NOT_YET_IMPLEMENTED: ReadonlySet<ChartKey> = new Set<ChartKey>([
 	'geoFlows',
-	'choropleth',
 	'timeAwareChord',
 	'contributorNetwork',
 	'affiliationNetwork',

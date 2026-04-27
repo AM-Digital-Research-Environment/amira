@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { onDestroy } from 'svelte';
+	import { onDestroy, type Snippet } from 'svelte';
 	import { cn } from '$lib/utils/cn';
 	import type { EnrichedLocationsData, CollectionItem } from '$lib/types';
 	import maplibregl from 'maplibre-gl';
@@ -20,6 +20,22 @@
 		enrichedLocations?: EnrichedLocationsData | null;
 		title?: string;
 		class?: string;
+		/** Optional content rendered next to the Globe toggle, inside the map
+		 *  frame. Used by `LocationsMapView` to drop a Points/Countries
+		 *  segmented toggle alongside the projection control. The frame is also
+		 *  the FullscreenControl target, so anything rendered here stays
+		 *  visible when the user goes fullscreen. */
+		extraControls?: Snippet;
+		/** Override the FullscreenControl target. When a parent wraps several
+		 *  swappable maps and wants fullscreen to persist across the swap,
+		 *  pass the parent wrapper element here so going fullscreen targets a
+		 *  stable element instead of this map's own frame (which unmounts on
+		 *  swap and kicks the browser out of fullscreen). */
+		fullscreenContainer?: HTMLElement | null;
+		/** Bindable globe-projection flag — lift this to a parent when the
+		 *  same map is being swapped in/out of the DOM so the user's chosen
+		 *  projection survives the swap. */
+		isGlobe?: boolean;
 	}
 
 	let {
@@ -27,10 +43,14 @@
 		items = [],
 		enrichedLocations = null,
 		title = '',
-		class: className = ''
+		class: className = '',
+		extraControls,
+		fullscreenContainer = null,
+		isGlobe = $bindable(false)
 	}: Props = $props();
 
 	let mapContainer: HTMLDivElement | undefined = $state();
+	let mapFrame: HTMLDivElement | undefined = $state();
 	// $state-tracked so MapProjectionToggle picks up the instance once ready.
 	let map: maplibregl.Map | null = $state(null);
 	let mapReady = $state(false);
@@ -100,13 +120,26 @@
 			center: [10, 20],
 			zoom: 2
 		});
+		// Apply the lifted projection state. When LocationsMapView swaps from
+		// ChoroplethMap to LocationMap the user may have already toggled to
+		// globe; without this the new map silently reverts to Mercator.
+		if (isGlobe) {
+			map.setProjection({ type: 'globe' });
+		}
 
 		map.addControl(new maplibregl.NavigationControl(), 'top-right');
-		// Native HTML5 Fullscreen API — lives inside the map canvas container,
-		// so it escapes parent overflow / containment (e.g. ChartCard's
-		// `overflow: hidden`) and stays consistent with other MapLibre
-		// implementations across the codebase.
-		map.addControl(new maplibregl.FullscreenControl(), 'top-right');
+		// Fullscreen targets the outer frame (canvas + overlaid controls) so
+		// the Globe toggle and any caller-provided `extraControls` (e.g. the
+		// Points/Countries segmented toggle in LocationsMapView) stay visible
+		// in fullscreen. The frame is rounded + bordered, the canvas inside
+		// fills it via `absolute inset-0`, so visually nothing changes outside
+		// fullscreen — but the API target now lifts both layers together.
+		map.addControl(
+			new maplibregl.FullscreenControl({
+				container: fullscreenContainer ?? mapFrame ?? undefined
+			}),
+			'top-right'
+		);
 
 		// MapLibre's `load` event can silently stall when the container is
 		// inside a deeply-nested flex parent (seen first on /languages?code=eng
@@ -297,14 +330,19 @@
 			 No hardcoded min-height: flex-1 claims the remaining card height
 			 after the legend reserves its space, so the legend is always
 			 visible (no clipping even in tightly sized cards). -->
-		<div class="flex-1 relative rounded-lg border">
+		<div bind:this={mapFrame} class="flex-1 relative rounded-lg border">
 			<div
 				bind:this={mapContainer}
 				class="absolute inset-0 w-full h-full rounded-lg overflow-hidden"
 			></div>
 
-			<!-- Globe / Flat toggle stacks below the built-in NavigationControl. -->
-			<MapProjectionToggle {map} class="absolute top-2 left-2 z-10" />
+			<!-- Globe / Flat toggle plus any caller-supplied extras live in a
+				 single flex group so they're visually adjacent and both go
+				 fullscreen with the frame. -->
+			<div class="absolute top-2 left-2 z-10 flex items-center gap-2">
+				<MapProjectionToggle {map} class="" bind:isGlobe />
+				{#if extraControls}{@render extraControls()}{/if}
+			</div>
 		</div>
 
 		<!-- Legend — shrink-0 keeps it visible regardless of flex pressure. -->

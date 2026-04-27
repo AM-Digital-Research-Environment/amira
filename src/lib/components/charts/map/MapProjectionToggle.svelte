@@ -10,11 +10,18 @@
 		/** Extra classes for positioning. Defaults to top-left with spacing
 		 *  that sits just inside the map frame. */
 		class?: string;
+		/** Bindable so a parent can preserve projection state across map
+		 *  swaps (see `LocationsMapView` — toggling Points/Countries unmounts
+		 *  the active map; without lifting this, the new map always boots in
+		 *  Mercator regardless of what the user had selected). */
+		isGlobe?: boolean;
 	}
 
-	let { map, class: className = 'absolute top-2 left-2 z-10' }: Props = $props();
-
-	let isGlobe = $state(false);
+	let {
+		map,
+		class: className = 'absolute top-2 left-2 z-10',
+		isGlobe = $bindable(false)
+	}: Props = $props();
 
 	function toggle() {
 		if (!map) return;
@@ -34,10 +41,10 @@
 	title={isGlobe ? 'Switch to flat (Mercator) view' : 'Switch to globe view'}
 >
 	{#if isGlobe}
-		<MapIcon class="h-3.5 w-3.5" />
-		Flat
+		<MapIcon class="h-3.5 w-3.5 shrink-0" />
+		<span class="hidden sm:inline">Flat</span>
 	{:else}
-		<Globe class="h-3.5 w-3.5" />
-		Globe
+		<Globe class="h-3.5 w-3.5 shrink-0" />
+		<span class="hidden sm:inline">Globe</span>
 	{/if}
 </button>

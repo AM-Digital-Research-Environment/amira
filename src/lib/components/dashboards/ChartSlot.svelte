@@ -21,7 +21,8 @@
 		ChordDiagram,
 		SankeyChart,
 		SunburstChart,
-		LocationMap,
+		LocationsMapView,
+		ChoroplethMap,
 		MiniMap,
 		EntityKnowledgeGraph,
 		StackedAreaChart,
@@ -48,6 +49,7 @@
 	} from '$lib/types';
 	import type { StackedTimelineDataPoint } from '$lib/utils/transforms/grouping';
 	import type { LocationData } from '$lib/components/charts/map/markerBuilder';
+	import type { ChoroplethDataPoint } from '$lib/components/charts/ChoroplethMap.svelte';
 
 	interface SankeyPayload {
 		nodes: { name: string }[];
@@ -138,7 +140,14 @@
 		{@const r = data as RadarPayload}
 		<RadarChart indicator={r.indicator} series={r.series} class="h-full w-full" />
 	{:else if slot.chart === 'locations'}
-		<LocationMap data={data as LocationData[]} {items} {enrichedLocations} class="h-full w-full" />
+		<LocationsMapView
+			data={data as LocationData[]}
+			{items}
+			{enrichedLocations}
+			class="h-full w-full"
+		/>
+	{:else if slot.chart === 'choropleth'}
+		<ChoroplethMap data={data as ChoroplethDataPoint[]} class="h-full w-full" />
 	{:else if slot.chart === 'selfLocation'}
 		<MiniMap markers={data as MiniMapMarker[]} class="h-full w-full" />
 	{:else if slot.chart === 'knowledgeGraph'}
