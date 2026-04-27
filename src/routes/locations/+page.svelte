@@ -28,7 +28,13 @@
 	import { onMount } from 'svelte';
 	import { base } from '$app/paths';
 	import { createEntityDetailState } from '$lib/utils/loaders';
-	import { MiniMap, EntityKnowledgeGraph, BarChart, Timeline } from '$lib/components/charts';
+	import {
+		MiniMap,
+		EntityKnowledgeGraph,
+		BarChart,
+		Timeline,
+		ChoroplethMap
+	} from '$lib/components/charts';
 	import { extractItemYear } from '$lib/utils/transforms/dates';
 	import type { BarChartDataPoint, TimelineDataPoint } from '$lib/types';
 	import { EntityDashboardSection } from '$lib/components/dashboards';
@@ -128,6 +134,13 @@
 	let regionList = $derived(Array.from(locationIndex.regions.values()));
 	let cityList = $derived(Array.from(locationIndex.cities.values()));
 	let currentLocationList = $derived(Array.from(locationIndex.current.values()));
+
+	// Country totals for the archive-wide choropleth. Reuses the country-level
+	// aggregation already computed for the browse grid so the choropleth and
+	// the country list always show the same numbers.
+	let countryChoroplethData = $derived(
+		countryList.map((c) => ({ country: c.name, count: c.count }))
+	);
 
 	// Top 20 cities by item count, for the list-overview bar chart.
 	let topCitiesBar = $derived.by((): BarChartDataPoint[] => {
@@ -601,6 +614,16 @@
 					page.
 				</p>
 			</div>
+		{/if}
+
+		{#if countryChoroplethData.length > 0}
+			<ChartCard
+				title="Items per country"
+				subtitle="Geographic distribution of origin countries across the archive"
+				contentHeight="h-chart-2xl"
+			>
+				<ChoroplethMap data={countryChoroplethData} class="h-full w-full" />
+			</ChartCard>
 		{/if}
 
 		<div class="grid gap-6 grid-cols-[minmax(0,1fr)] lg:grid-cols-2">
