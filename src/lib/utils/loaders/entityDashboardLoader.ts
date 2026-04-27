@@ -83,15 +83,35 @@ export interface EntityDashboardManifestEntry {
 export type EntityDashboardManifest = Partial<Record<EntityType, EntityDashboardManifestEntry[]>>;
 
 /**
+ * Reverse of `ENTITY_DIR`: map directory name → EntityType. Used to remap
+ * the manifest's on-disk keys (`people`, `institutions`, …) onto the
+ * `EntityType` union (`person`, `institution`, …) so callers can index the
+ * returned record by EntityType the way the type declares.
+ */
+const DIR_TO_ENTITY: Record<string, EntityType> = Object.fromEntries(
+	(Object.entries(ENTITY_DIR) as [EntityType, string][]).map(([k, v]) => [v, k])
+);
+
+/**
  * Load the global manifest listing all precomputed per-entity dashboards.
  * Useful for picker UIs or generating sitemap entries.
+ *
+ * The on-disk JSON is keyed by directory name (`people`, `institutions`,
+ * `subjects`, …); we remap to the `EntityType` union so the returned shape
+ * matches the type signature.
  */
 export async function loadEntityDashboardManifest(): Promise<EntityDashboardManifest> {
 	const path = `${base}/data/entity_dashboards/manifest.json`;
 	try {
 		const response = await fetch(path);
 		if (!response.ok) return {};
-		return (await response.json()) as EntityDashboardManifest;
+		const raw = (await response.json()) as Record<string, EntityDashboardManifestEntry[]>;
+		const result: EntityDashboardManifest = {};
+		for (const [dir, entries] of Object.entries(raw)) {
+			const entityType = DIR_TO_ENTITY[dir];
+			if (entityType) result[entityType] = entries;
+		}
+		return result;
 	} catch {
 		return {};
 	}

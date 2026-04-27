@@ -38,9 +38,6 @@
 
 	let option: EChartsOption = $derived({
 		...buildTitle(title),
-		legend: {
-			show: false
-		},
 		tooltip: {
 			confine: true,
 			trigger: 'axis',

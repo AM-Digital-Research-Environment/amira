@@ -301,9 +301,22 @@ def _write_json(path: str, payload: dict) -> None:
 
 
 def _write_manifest(out_root: str, manifest: dict[str, list[dict]]) -> None:
+    """Merge entries for the regenerated entity types into the existing
+    manifest on disk, preserving entries for types that weren't part of this
+    run. A `--entity person` run shouldn't wipe out the institutions list."""
     path = os.path.join(out_root, "manifest.json")
+    merged: dict[str, list[dict]] = {}
+    if os.path.exists(path):
+        try:
+            with open(path, "r", encoding="utf-8") as fh:
+                existing = json.load(fh)
+            if isinstance(existing, dict):
+                merged.update(existing)
+        except Exception as e:  # noqa: BLE001
+            print(f"  (could not read existing manifest, starting fresh: {e})")
+    merged.update(manifest)
     with open(path, "w", encoding="utf-8") as fh:
-        json.dump(manifest, fh, ensure_ascii=False, indent=2)
+        json.dump(merged, fh, ensure_ascii=False, indent=2)
     print(f"\nWrote manifest: {path}")
 
 

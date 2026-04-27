@@ -48,8 +48,9 @@ const STATIC_ROUTES: Route[] = [
 	{ path: '/collections', priority: 0.6, changefreq: 'monthly' },
 	// Visualize
 	{ path: '/project-explorer', priority: 0.7, changefreq: 'monthly' },
-	{ path: '/compare-projects', priority: 0.6, changefreq: 'monthly' },
-	{ path: '/compare/projects', priority: 0.6, changefreq: 'monthly' },
+	// `/compare-projects` is a redirect to `/compare/projects` — drop it
+	// from the sitemap so search engines index the canonical URL only.
+	{ path: '/compare/projects', priority: 0.7, changefreq: 'monthly' },
 	{ path: '/compare/people', priority: 0.6, changefreq: 'monthly' },
 	{ path: '/compare/institutions', priority: 0.6, changefreq: 'monthly' },
 	{ path: '/compare/subjects', priority: 0.6, changefreq: 'monthly' },

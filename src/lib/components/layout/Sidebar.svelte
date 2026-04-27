@@ -91,7 +91,7 @@
 			label: 'Visualize',
 			items: [
 				{ href: `${base}/project-explorer`, label: 'Project Explorer', icon: Folder },
-				{ href: `${base}/compare/projects`, label: 'Compare Projects', icon: BarChart3 },
+				{ href: `${base}/compare/projects`, label: 'Compare', icon: BarChart3 },
 				{ href: `${base}/network`, label: 'Network', icon: Share2 },
 				{ href: `${base}/semantic-map`, label: 'Semantic Map', icon: Compass }
 			]
@@ -102,6 +102,12 @@
 		const path = $page.url.pathname;
 		if (href === `${base}/`) {
 			return path === `${base}/` || path === base;
+		}
+		// Special case: the "Compare" sidebar entry points at
+		// `/compare/projects` but should highlight for every `/compare/<type>`
+		// since the type tab bar switches among them in place.
+		if (href === `${base}/compare/projects`) {
+			return path.startsWith(`${base}/compare/`) || path === `${base}/compare-projects`;
 		}
 		return path.startsWith(href);
 	}

@@ -1,6 +1,6 @@
 # AMIRA — Africa Multiple Interactive Research Atlas
 
-Interactive research atlas for the [Africa Multiple Cluster of Excellence](https://www.africamultiple.uni-bayreuth.de/), exposing the cluster's WissKI/MongoDB archive as a browsable, analysable, visually-rich web app. Built with SvelteKit 5, ECharts 6, MapLibre GL 5, and Tailwind CSS 4 — shipped as a static site to GitHub Pages.
+Interactive research atlas for the [Africa Multiple Cluster of Excellence](https://www.africamultiple.uni-bayreuth.de/), exposing the cluster's WissKI/MongoDB archive as a browsable, analysable, visually-rich web app. Built with SvelteKit 5, ECharts 6, MapLibre GL 5, and Tailwind CSS 4 — shipped as an installable static PWA to GitHub Pages.
 
 **Live:** <https://am-digital-research-environment.github.io/amira/>
 
@@ -11,6 +11,7 @@ Interactive research atlas for the [Africa Multiple Cluster of Excellence](https
 - **13** research sections — 6 Phase 1 (Affiliations, Arts & Aesthetics, Knowledges, Learning, Mobilities, Moralities), 6 Phase 2 (Accumulation, Digitalities, Ecologies, In/securities, Re:membering, Translating), and an "External" pseudo-section
 - 4 partner universities (Bayreuth lead + UNILAG, UJKZ, Moi, Rhodes) plus 1 privileged partner (UFBA's CEAO, Salvador de Bahia)
 - 2 external collections (BayGlo2025, ILAM)
+- **Per-entity detail dashboards** for languages, subjects, tags, people, institutions, genres, resource types, groups, locations, research sections, and projects — all backed by precomputed JSON dumps under `static/data/entity_dashboards/`
 
 ## Features
 
@@ -21,9 +22,9 @@ Interactive research atlas for the [Africa Multiple Cluster of Excellence](https
 
 ### Research
 
-- **Research Sections** — the 13 sections with full descriptions, objectives, work programmes, spokespeople / PIs, members, and project Gantt timelines. Phase 1 sections show project charts; Phase 2 sections surface spokesperson info only (no projects until June 2026).
-- **Projects** — faceted browser (research section, institution) with detail views showing description, PIs, members, institutions, paginated items, and WissKI links. Overview adds a Gantt timeline, beeswarm (projects by section and year, sized by item count), and bar charts for sections and institutions.
-- **Research Items** — full-text search and collapsible facets (subject, tag, country, project, language, resource type) over all 3,975 items, with a sortable table view. Detail view exposes title, abstract, contributors (role-qualified persons / institutions / groups), subjects (LCSH), tags, origin locations on a MiniMap, dates, language, identifiers, project, and a per-item entity knowledge graph with fullscreen mode.
+- **Research Sections** — the 13 sections with full descriptions, objectives, work programmes, spokespeople / PIs, members, and project Gantt timelines. Phase 1 sections show project charts; Phase 2 sections surface spokesperson info only (no projects until June 2026). Each section also opens an `EntityDashboard` of stacked timeline, resource type / language / subject breakdowns, decade heatmap, subject trends, time-aware chord, contributor network, and origin → current geo flows.
+- **Projects** — faceted browser (research section, institution) with detail views showing description, PIs, members, institutions, paginated items, and WissKI links. Overview adds a Gantt timeline, beeswarm (projects by section and year, sized by item count), and bar charts for sections and institutions. Per-project detail pages now ship the full Phase 4 dashboard: stacked timeline, type / language / role pies, subjects bar, word cloud, type × decade heatmap, subject trends, sunburst, chord + time-aware chord, sankey, contributor network, geo flows, locations map, and knowledge graph.
+- **Research Items** — full-text search and collapsible facets (subject, tag, country, project, language, resource type) over all 3,975 items, with a sortable table view. Detail view exposes title, abstract, contributors (role-qualified persons / institutions / groups), subjects (LCSH), tags, origin locations on a MiniMap, dates, language, identifiers, project, and a per-item entity knowledge graph with fullscreen mode. Below the detail card you'll find a `SiblingItemsSparkline` (year-by-year project timeline with the current item highlighted) and a `SimilarItemsStrip` (top-8 semantic-kNN matches via Gemini embeddings).
 
 ### Collections
 
@@ -34,30 +35,32 @@ Interactive research atlas for the [Africa Multiple Cluster of Excellence](https
   - Faceted filters (creator, subject, tag, country, year), WebP thumbnails shipped with the build for fast first paint, and deduped `alias` counts for photos that appear in multiple records.
   - **History-aware navigation** — tab switches push to browser history and the open photo is mirrored to the URL (`?photo=…`), so browser Back closes the lightbox and steps through tab changes instead of jumping to the collections list.
 
-### Directory and Categories — unified card-based browse
+### Directory and Categories — unified card-based browse + per-entity dashboards
 
-All directory and category pages (**People**, **Groups**, **Institutions**, **Genres**, **Languages**, **Locations**, **Resource Types**, **Subjects & Tags**) share a consistent card-grid layout backed by reusable components (`EntityCard`, `EntityBrowseGrid`, `EntityToolbar`, `EntityDetailHeader`, `EntityItemsCard`) and utilities (`applyEntitySort`). Each card shows the entity name, descriptor, icon, count with label ("items", "projects", etc.), and type-specific meta chips; pages use a single toolbar with full-text search, count / alphabetical sort toggles, and a results badge. The grid paginates at 48 cards per page to keep long lists (1 000+ subjects, tags, cities) fast.
+All directory and category pages (**People**, **Groups**, **Institutions**, **Genres**, **Languages**, **Locations**, **Resource Types**, **Subjects & Tags**) share a consistent card-grid layout backed by reusable components (`EntityCard`, `EntityBrowseGrid`, `EntityToolbar`, `EntityDetailHeader`, `EntityItemsCard`) and utilities (`applyEntitySort`). Each card shows the entity name, descriptor, icon, count with label ("items", "projects", etc.), and type-specific meta chips; pages use a single toolbar with full-text search, count / alphabetical sort toggles, and a results badge. The grid paginates at 48 cards per page to keep long lists (1,000+ subjects, tags, cities) fast.
 
 Detail views are opened via URL query params (e.g. `/people?name=John%20Doe`, `/genres?genre=Broadcast`) and the selection is driven by a writable `$derived` over `$page.url.searchParams` — so browser Back automatically clears the detail view and restores the card grid, deep links are shareable, and reload preserves state.
 
+Each entity detail page now mounts an `<EntityDashboard>` populated from a precomputed per-entity JSON file. Layouts are declared in [`entityDashboardLayouts.ts`](src/lib/components/dashboards/entityDashboardLayouts.ts); slots auto-hide when their payload is empty, so the grid never carries placeholder cards.
+
 #### Directory
 
-- **People** — affiliation filter (searchable combobox), role filter, "hide empty" toggle, and rich profile views with research sections, projects (as PI or member), affiliations, research profile (roles / resource types / languages / countries / subjects), paginated items with a per-item role badge, and a collaboration & influence knowledge graph.
-- **Groups** — research groups and organisational units that author items, with per-group item lists and knowledge graph.
-- **Institutions** — partner / contributor filter toggle, per-institution projects (with PIs, dates, sections), people, items, and knowledge graph.
+- **People** — affiliation filter (searchable combobox), role filter, "hide empty" toggle, and rich profile views with research sections, projects (as PI or member), affiliations, a per-person dashboard (stacked timeline, resource types / languages / roles, top subjects, co-credited persons chord, projects + co-contributors network, affiliated institutions network, locations), paginated items with a per-item role badge, and a collaboration & influence knowledge graph.
+- **Groups** — research groups and organisational units that author items, with per-group dashboards (timeline, types, languages, subjects, members & collaborators, locations) and knowledge graph.
+- **Institutions** — partner / contributor filter toggle, per-institution dashboard (stacked timeline, types / languages, top subjects, affiliated contributors, contributor + affiliation networks, locations), projects (with PIs, dates, sections), people, items, and knowledge graph.
 
 #### Categories
 
-- **Genres** — MARC genre classification with a top-20 bar chart and card grid.
-- **Languages** — ISO 639-2/3 codes rendered as full English names throughout.
-- **Locations** — country / region / city browser with a **MapLibre GL browse map on top of the list** (markers coloured by type, clickable popups that SPA-route into the detail page), plus a detail map per location.
-- **Resource Types** — text, sound recording, still image, moving image, cartographic, mixed material, etc., with pie and bar charts — click to filter.
-- **Subjects & Tags** — toggle between LCSH controlled vocabulary and free-form tags, unified tag icon across both views, animated word cloud (up to 200 terms, adjustable size) with click-through, plus the searchable paginated card grid.
+- **Genres** — MARC genre classification with a top-20 bar chart, a genre × language heatmap, and a card grid; per-genre detail pages include the standard `EntityDashboard` (timeline, types / languages, subjects, contributors, locations).
+- **Languages** — ISO 639-2/3 codes rendered as full English names throughout. List page adds a stacked-area timeline and a language × resource-type heatmap; per-language detail pages render a 9-card dashboard plus a country choropleth.
+- **Locations** — country / region / city browser with a **MapLibre GL browse map on top of the list** (markers coloured by type, clickable popups that SPA-route into the detail page), a country choropleth, top-cities bar, and tagged-items timeline. Each location detail shows a self-location MiniMap, the standard dashboard, and the knowledge graph.
+- **Resource Types** — text, sound recording, still image, moving image, cartographic, mixed material, etc., with pie and bar charts, a stacked-area timeline, and a type × language heatmap; per-type detail pages render a full dashboard with subject trends.
+- **Subjects & Tags** — toggle between LCSH controlled vocabulary and free-form tags, unified tag icon across both views, animated word cloud (up to 200 terms, adjustable size) with click-through, plus subject-trends overlay and an LCSH-vs-tag pie. Per-subject / per-tag detail pages add a co-subject network and the standard dashboard.
 
 ### Visualize
 
 - **Project Explorer** — cross-project analytical workspace with section / project selectors and synchronised charts.
-- **Compare Projects** — side-by-side comparison of two university / project selections with synchronised stacked timelines, subject distributions, resource-type breakdowns, and language distributions.
+- **Compare** — single page (`/compare/[type]`) with a tab bar that switches among **projects**, **people**, **institutions**, **subjects**, **languages**, and **genres**. Every type renders the same primitives — stat row, 6-axis profile radar, shared-subjects chips, side-by-side stacked timelines + resource-type pies + top-subjects bars + language bars + contributor bars — with the data source swapped per type. `/compare/projects` covers university × project filters via on-the-fly aggregation off the loaded collections; the other types load precomputed entity-dashboard JSON. The legacy `/compare-projects` URL still works as a redirect to `/compare/projects`.
 - **Network** — five interactive force-directed graph tabs, all weighted (edge thickness = strength of tie) and community-coloured:
   - **Contributors ↔ Projects** — weighted bipartite graph; edge width equals the number of items a person contributed to that project
   - **Co-authorship** — person ↔ person projection of the contributor graph, edges for pairs with ≥ 2 shared items
@@ -67,7 +70,7 @@ Detail views are opened via URL query params (e.g. `/people?name=John%20Doe`, `/
   - Filters: university, max nodes, resource type
 - **Semantic Map** — 2D UMAP projection of Gemini-embedded item vectors. Scatter colourable by university, resource type, language, or research section; searchable and filterable; click a point to see the item and its top-12 cosine-similar neighbours. Similar-items payload is lazy-loaded on first selection.
 
-### Cross-linking & WissKI integration
+### Cross-linking, WissKI, PWA, and SEO
 
 Every named entity is a link:
 
@@ -85,12 +88,18 @@ Every named entity is a link:
 
 **Chart downloads** — Every ECharts visualisation exposes a download button in its card header that exports the chart as a PNG with the card title, subtitle, and export date composited on top, using the site's typography and theme (light or dark).
 
+**PWA** — The site ships a Web App Manifest ([`static/manifest.json`](static/manifest.json)) and a service worker ([`src/service-worker.js`](src/service-worker.js)) so it installs as a standalone app on desktop and mobile, with offline shell and shortcuts to What's New / Projects / Research Items / Network. Theme colour, maskable icons, and orientation hints are all set.
+
+**SEO** — Every route ships a `<SEO>` component that emits Open Graph + Twitter Card tags and a canonical URL; the build also pre-renders [`/sitemap.xml`](src/routes/sitemap.xml/+server.ts) covering both static routes and every entity-detail URL discovered by scanning `static/data/entity_dashboards/`.
+
+**Mobile UX** — The whole app is touch-friendly on a phone: pagination controls scroll the list back into view on tap, stat cards stack with sensible truncation, the Gantt timeline collapses to a vertical list, empty states render at full card width, and the sidebar slides over the content rather than reflowing it.
+
 ## Tech Stack
 
 - **Framework** — [SvelteKit](https://svelte.dev/docs/kit) 5 with [Svelte 5 runes](https://svelte.dev/docs/svelte/what-are-runes) (`$state`, `$derived`, `$derived.by`, `$effect`, `$props`)
 - **Build** — [Vite](https://vite.dev/) 8 with Rolldown
 - **Charts** — [ECharts](https://echarts.apache.org/) 6 + [echarts-wordcloud](https://github.com/ecomfe/echarts-wordcloud)
-- **Maps** — [MapLibre GL](https://maplibre.org/) 5 (LocationMap, MiniMap, PhotoMap — all with a Flat / Globe projection toggle)
+- **Maps** — [MapLibre GL](https://maplibre.org/) 5 (LocationMap, MiniMap, ChoroplethMap, GeoFlowMap, PhotoMap — all with a Flat / Globe projection toggle where applicable)
 - **Embeddings** — Gemini Embedding 2 (`gemini-embedding-2-preview`, 768-dim) projected to 2D with UMAP for the semantic map
 - **Styling** — [Tailwind CSS](https://tailwindcss.com/) 4 via `@tailwindcss/vite`, HSL CSS-variable theming, dark mode
 - **UI Components** — custom shadcn-svelte-inspired primitives (Card, Badge, Pagination, StatCard, ChartCard, Tabs, Select, Combobox, ScrollableTable, EmptyState, SEO…)
@@ -103,22 +112,32 @@ Every named entity is a link:
 
 | Component              | Type             | Description                                                                                                                                                                        |
 | ---------------------- | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `Timeline`             | Line             | Count-by-year timeline                                                                                                                                                             |
+| `Timeline`             | Bar              | Count-by-year timeline                                                                                                                                                             |
 | `StackedTimeline`      | Stacked bar      | Items per year, broken down by resource type                                                                                                                                       |
+| `StackedAreaChart`     | Stacked area     | Subject / language trends over time (top-N stream)                                                                                                                                 |
 | `BarChart`             | Bar              | Horizontal / vertical bar with pagination for long lists                                                                                                                           |
 | `PieChart`             | Pie / donut      | Categorical distribution with click selection                                                                                                                                      |
 | `WordCloud`            | Word cloud       | Animated tag / subject cloud with adjustable max words                                                                                                                             |
 | `HeatmapChart`         | Heatmap          | Matrix cross-tabulation with colour intensity                                                                                                                                      |
+| `CalendarHeatmap`      | Calendar         | Year × month / day activity intensity                                                                                                                                              |
 | `BeeswarmChart`        | Scatter / jitter | Beeswarm distribution using ECharts 6 axis jitter                                                                                                                                  |
+| `BoxPlot`              | Box plot         | Five-number summary + outliers, computed from raw observations                                                                                                                     |
+| `RadarChart`           | Radar            | 5–7 axis polygon overlay; powers the compare-page profile                                                                                                                          |
 | `GanttChart`           | Custom bar range | Project timelines with start / end bars, category colouring                                                                                                                        |
 | `SankeyChart`          | Sankey           | Multi-level flow diagram (e.g. contributor → project → type)                                                                                                                       |
 | `SunburstChart`        | Sunburst         | Hierarchical drill-down visualisation                                                                                                                                              |
+| `TreemapChart`         | Treemap          | Proportional rectangles for hierarchical breakdowns                                                                                                                                |
 | `ChordDiagram`         | Chord            | Co-occurrence relationships between categories                                                                                                                                     |
+| `TimeAwareChord`       | Chord + slider   | Chord diagram with year slider + play/pause; data is sparse year buckets                                                                                                           |
 | `SemanticScatter`      | Scatter          | UMAP projection of Gemini embeddings; colourable by four dimensions                                                                                                                |
 | `NetworkGraph`         | Force graph      | Weighted force-directed network: edge width follows edge value, dashed for latent ties, solid for direct metadata edges; optional community halos                                  |
+| `ContributorNetwork`   | Force graph      | Bipartite person ↔ project / institution graph built on `NetworkGraph`                                                                                                             |
 | `EntityKnowledgeGraph` | Force graph      | Per-entity ego graph with IDF-weighted direct edges + latent edges via Jaccard / personalised PageRank, discursive communities, PageRank-sized nodes, facet panel, fullscreen mode |
 | `LocationMap`          | Map              | MapLibre GL multi-marker map with clustered popups, Flat / Globe projection toggle                                                                                                 |
 | `MiniMap`              | Map              | Lightweight single-location map with marker                                                                                                                                        |
+| `ChoroplethMap`        | Map              | Country-level fill on Natural Earth 110m, log-spaced colour ramp                                                                                                                   |
+| `GeoFlowMap`           | Map              | Great-circle origin → current arcs on MapLibre                                                                                                                                     |
+| `LocationsMapView`     | Map switcher     | Toggles a single dashboard slot between `LocationMap` (points) and `ChoroplethMap` (countries)                                                                                     |
 | `EChart`               | Base wrapper     | Shared ECharts wrapper: dynamic theme switching via `setTheme()`, zoom controls, resize handling, performance heuristics                                                           |
 | `ChartDownloadButton`  | Action           | Exports the parent chart as a PNG with title, subtitle, and export date composited on top; auto-wired to any chart hosted inside a `ChartCard`                                     |
 
@@ -152,15 +171,28 @@ src/
 │   │   │   ├── EChart.svelte              # Base wrapper
 │   │   │   ├── ChartDownloadButton.svelte # PNG export with title / subtitle composited
 │   │   │   ├── chart-registry.ts          # Context bridge: chart instance ↔ ChartCard header
-│   │   │   ├── Timeline, StackedTimeline
+│   │   │   ├── Timeline, StackedTimeline, StackedAreaChart
 │   │   │   ├── BarChart, PieChart, WordCloud
-│   │   │   ├── HeatmapChart, BeeswarmChart, GanttChart
-│   │   │   ├── SankeyChart, SunburstChart, ChordDiagram
-│   │   │   ├── NetworkGraph, EntityKnowledgeGraph
+│   │   │   ├── HeatmapChart, CalendarHeatmap, BeeswarmChart, BoxPlot
+│   │   │   ├── RadarChart, GanttChart
+│   │   │   ├── SankeyChart, SunburstChart, TreemapChart
+│   │   │   ├── ChordDiagram, TimeAwareChord
+│   │   │   ├── NetworkGraph, ContributorNetwork, EntityKnowledgeGraph
 │   │   │   ├── SemanticScatter
-│   │   │   ├── LocationMap, MiniMap
+│   │   │   ├── LocationMap, MiniMap, ChoroplethMap, GeoFlowMap, LocationsMapView
 │   │   │   ├── map/                       # Projection toggle, marker / popup builders
 │   │   │   └── utils/                     # Shared option builders & tooltip formatters
+│   │   ├── dashboards/      # Per-entity detail dashboards
+│   │   │   ├── EntityDashboard.svelte         # Generic chart-grid renderer
+│   │   │   ├── EntityDashboardSection.svelte  # Loader wrapper for pages
+│   │   │   ├── ChartSlot.svelte               # Dispatches chart key → component
+│   │   │   └── entityDashboardLayouts.ts      # ENTITY_LAYOUTS + ChartKey + emptiness rules
+│   │   ├── compare/         # Side-by-side compare primitives
+│   │   │   ├── CompareTabs, CompareStatRow, CompareSharedSubjects
+│   │   │   ├── CompareProfileRadar, ComparePair
+│   │   │   ├── ProjectsCompare (on-the-fly aggregation)
+│   │   │   ├── EntityCompare (precomputed JSON)
+│   │   │   └── compareTypes.ts, compareProfile.ts
 │   │   ├── collections/     # Featured-collection components
 │   │   │   ├── CollectionHeader, CollectionIndexCard
 │   │   │   ├── PhotoCard, PhotoFacets, PhotoLightbox
@@ -169,10 +201,11 @@ src/
 │   │   ├── entity-browse/   # Unified card-grid components for directory / categories
 │   │   │   ├── EntityCard, EntityCardGrid, EntityBrowseGrid (grid + pagination)
 │   │   │   ├── EntityToolbar (search + sort + total), EntityDetailHeader
-│   │   │   ├── EntityItemsCard (research-items list + pagination)
+│   │   │   ├── EntityItemsCard, SearchableItemsCard
 │   │   │   ├── EntityEmptyHint, sort.ts (applyEntitySort)
 │   │   ├── layout/          # Sidebar (grouped nav), Header, FilterPanel
-│   │   └── research-items/  # ItemDetail, ItemFilters, ItemTable, itemHelpers
+│   │   └── research-items/  # ItemDetail, ItemFilters, ItemTable, itemHelpers,
+│   │       │                # SiblingItemsSparkline, SimilarItemsStrip
 │   ├── stores/
 │   │   ├── data.ts          # Raw data + derived stores (projects, persons, collections…)
 │   │   └── filters.ts       # Global filter state
@@ -180,7 +213,8 @@ src/
 │   ├── types/               # TS interfaces (domain, collection, charts, geo, mongo, embeddings, category-index)
 │   └── utils/
 │       ├── transforms/      # dates, grouping, extractors, network, charts, filters
-│       ├── loaders/         # mongoJSON, collectionLoader, geolocLoader, embeddingsLoader
+│       ├── loaders/         # mongoJSON, collectionLoader, geolocLoader, embeddingsLoader,
+│       │                    # entityDashboardLoader (per-entity JSON + manifest)
 │       ├── external.ts      # Virtual external projects (BayGlo2025, ILAM) + pseudo-section
 │       ├── helpers.ts       # formatDate, getItemTitle, getProjectTitle, getSectionColor
 │       ├── languages.ts     # ISO 639-2/3 → English name mapping
@@ -188,6 +222,7 @@ src/
 │       ├── urlSelection.ts  # URL query-param sync for selection state
 │       ├── search.ts        # Generic text-search filter factory
 │       ├── pagination.ts    # Generic pagination utility
+│       ├── slugify.ts       # URL-safe slug generator (kept in sync with the precompute pipeline)
 │       ├── wisskiUrl.svelte.ts  # WissKI navigate URL lookup (Svelte store)
 │       ├── featuredCollectionLoader.ts  # Featured collections card builder
 │       ├── collectionsRegistry.ts       # Featured collection metadata registry
@@ -197,39 +232,51 @@ src/
 │   ├── +page.svelte              # Overview dashboard
 │   ├── +layout.svelte            # Global layout (Header, Sidebar, data init)
 │   ├── whats-new/                # Recent additions (3 / 6 / 12 months)
-│   ├── research-sections/        # 13 sections with Gantt timelines
-│   ├── projects/                 # Projects with facets, Gantt, beeswarm
-│   ├── research-items/           # Research items browser with facets, table, detail
-│   ├── people/                   # People directory with profiles
-│   ├── groups/                   # Research groups
-│   ├── institutions/             # Institutions (partner + contributor)
+│   ├── research-sections/        # 13 sections + per-section EntityDashboard
+│   ├── projects/                 # Projects + per-project full-parity dashboard
+│   ├── research-items/           # Research items browser; detail = KG + sparkline + similar
+│   ├── people/                   # People directory + per-person dashboard
+│   ├── groups/                   # Research groups + per-group dashboard
+│   ├── institutions/             # Institutions + per-institution dashboard
 │   ├── collections/              # Featured collections index
 │   ├── collections/[slug]/       # Collection detail: masonry / map / timeline
-│   ├── genres/                   # Genre browser with word cloud
-│   ├── languages/                # Language browser
-│   ├── locations/                # Country / region / city browser with maps
-│   ├── resource-types/           # Resource-type browser with pie / bar
-│   ├── subjects/                 # Subjects & Tags with word cloud
+│   ├── genres/                   # Genres + per-genre dashboard
+│   ├── languages/                # Languages + per-language dashboard
+│   ├── locations/                # Locations + browse map + per-location dashboard
+│   ├── resource-types/           # Resource types + per-type dashboard
+│   ├── subjects/                 # Subjects & Tags + per-entity dashboard
 │   ├── project-explorer/         # Cross-project analytical workspace
-│   ├── compare-projects/         # Side-by-side comparison
+│   ├── compare/[type]/           # Generic compare (projects | people | institutions |
+│   │                             #   subjects | languages | genres) — uses CompareTabs
+│   ├── compare-projects/         # Legacy redirect → /compare/projects
 │   ├── network/                  # Network visualisation (5 tabs)
 │   ├── semantic-map/             # UMAP embedding scatter with similar-items
-│   └── sitemap.xml/              # Prerendered sitemap
+│   └── sitemap.xml/              # Prerendered sitemap (static + entity-detail URLs)
+├── service-worker.js             # PWA shell + asset cache
 └── app.css                       # Global styles and Tailwind v4 config
 
 static/
+├── manifest.json                # PWA manifest (name, icons, shortcuts, theme colour)
+├── robots.txt
+├── icons/                       # PWA icons (192 / 512 + maskable)
 ├── data/
-│   ├── manifest.json               # Per-university collection inventory
-│   ├── dev/                        # MongoDB exports + WissKI URL mappings
-│   ├── manual/                     # Hand-curated supplements (e.g. projectLinks)
-│   ├── knowledge_graphs/           # Pre-computed ego graphs per entity type + _meta.json
-│   ├── embeddings/                 # map.json (UMAP) + similar.json (top-K neighbours)
-│   ├── projects_metadata_ubt/      # University of Bayreuth (21 collections)
-│   ├── projects_metadata_unilag/   # University of Lagos (8 collections)
-│   ├── projects_metadata_ujkz/     # Université Joseph Ki-Zerbo (7 collections)
-│   ├── projects_metadata_ufba/     # Federal University of Bahia (1 collection)
-│   └── external_metadata/          # External collections (BayGlo2025, ILAM)
-└── logos/                          # Partner institution logos used across the UI
+│   ├── manifest.json              # Per-university collection inventory
+│   ├── dev/                       # MongoDB exports + WissKI URL mappings
+│   ├── manual/                    # Hand-curated supplements (e.g. projectLinks)
+│   ├── geo/                       # Natural Earth 110m country GeoJSON for choropleth
+│   ├── entity_dashboards/         # Precomputed per-entity dashboard JSON
+│   │   ├── manifest.json            # `{ <dir>: [{id, name, count}, ...] }`
+│   │   ├── languages/, subjects/, tags/, people/, institutions/,
+│   │   ├── genres/, resource-types/, groups/, locations/,
+│   │   └── research-sections/, projects/
+│   ├── knowledge_graphs/          # Pre-computed ego graphs per entity type + _meta.json
+│   ├── embeddings/                # map.json (UMAP) + similar.json (top-K neighbours)
+│   ├── projects_metadata_ubt/     # University of Bayreuth (21 collections)
+│   ├── projects_metadata_unilag/  # University of Lagos (8 collections)
+│   ├── projects_metadata_ujkz/    # Université Joseph Ki-Zerbo (7 collections)
+│   ├── projects_metadata_ufba/    # Federal University of Bahia (1 collection)
+│   └── external_metadata/         # External collections (BayGlo2025, ILAM)
+└── logos/                         # Partner institution logos used across the UI
 ```
 
 ## Data Sources
@@ -256,7 +303,29 @@ Items contributed from outside the cluster's partner universities. Tagged `unive
 - **`BayGlo2025`** — Bayreuth Global / Bayreuth Postkolonial; affiliated with the University of Bayreuth
 - **`ILAM`** — International Library of African Music (Rhodes University)
 
-Surfaced across the dashboard as virtual projects (`Ext_BayGlo2025`, `Ext_ILAM`) under an **External** pseudo research section, with a dedicated chip in the global filter panel and a dedicated group in the Project Explorer and Compare Projects selectors. Virtual-project definitions live in [`src/lib/utils/external.ts`](src/lib/utils/external.ts).
+Surfaced across the dashboard as virtual projects (`Ext_BayGlo2025`, `Ext_ILAM`) under an **External** pseudo research section, with a dedicated chip in the global filter panel and a dedicated group in the Project Explorer and Compare selectors. Virtual-project definitions live in [`src/lib/utils/external.ts`](src/lib/utils/external.ts).
+
+### Entity dashboards — `static/data/entity_dashboards/`
+
+Pre-computed JSON dumps powering the per-entity detail pages and the `/compare/[type]` selectors. One file per entity instance, organised by directory:
+
+```
+entity_dashboards/
+├── manifest.json                # `{ <dir>: [{id, name, count}, ...] }`
+├── languages/{code}.json        # 28 entries
+├── subjects/{slug}.json         # 620 entries
+├── tags/{slug}.json             # 1,100 entries
+├── people/{slug}.json           # 1,174 entries
+├── institutions/{slug}.json     # 459 entries
+├── genres/{slug}.json           # 129 entries
+├── resource-types/{slug}.json   # 11 entries
+├── groups/{slug}.json           # 84 entries
+├── locations/{slug}.json        # 252 entries
+├── research-sections/{slug}.json # 6 entries
+└── projects/{id}.json           # 38 entries
+```
+
+Each JSON contains all the chart payloads needed to render its entity's dashboard (`timeline`, `stackedTimeline`, `types`, `languages`, `subjects`, `wordCloud`, `contributors`, `roles`, `heatmap`, `chord`, `coContributors`, `coSubjects`, `sankey`, `sunburst`, `treemap`, `subjectTrends`, `locations`, `selfLocation`, `geoFlows`, `contributorNetwork`, `affiliationNetwork`, `collabNetwork`, `meta`, `items`). Generated by [`scripts/precompute_entity_dashboards.py`](scripts/precompute_entity_dashboards.py); the loader lives at [`src/lib/utils/loaders/entityDashboardLoader.ts`](src/lib/utils/loaders/entityDashboardLoader.ts).
 
 ### Knowledge graphs — `static/data/knowledge_graphs/`
 
@@ -280,10 +349,14 @@ Each graph combines **direct** metadata edges (IDF-weighted so distinctive relat
 ### Embeddings — `static/data/embeddings/`
 
 - **`map.json`** — per-item `{id, x, y, lowSignal, title, project, university, typeOfResource}` for the 2D UMAP scatter
-- **`similar.json`** — per-item top-12 cosine-similar neighbours keyed by `dre_id` (lazy-loaded on first selection on `/semantic-map`)
+- **`similar.json`** — per-item top-12 cosine-similar neighbours keyed by `dre_id` (lazy-loaded on first selection on `/semantic-map`, also consumed by `SimilarItemsStrip` on `/research-items?id=…`)
 - `cache.json` — full 768-dim Gemini vectors + SHA-256 hashes used for incremental re-embedding; gitignored
 
 Pipelined by [`scripts/generate_embeddings.py`](scripts/generate_embeddings.py). See [scripts/README.md](scripts/README.md) for details.
+
+### Geographic data — `static/data/geo/`
+
+- **`world-countries-110m.json`** — Natural Earth 110m country boundaries (TopoJSON) used by `ChoroplethMap`. Bundled once with the build; smaller than the 50m / 10m datasets at the cost of coastline detail.
 
 ### Manual data — `static/data/manual/`
 
@@ -293,18 +366,29 @@ Hand-curated data not sourced from MongoDB:
 
 ## Scripts
 
-Python pipelines live in [`scripts/`](scripts/) and cover MongoDB export, WissKI URL generation, thumbnail fetching, knowledge-graph generation, embedding generation, and data slimming. Setup:
+Python pipelines live in [`scripts/`](scripts/) and cover MongoDB export, WissKI URL generation, thumbnail fetching, knowledge-graph generation, embedding generation, per-entity dashboard precompute, and data slimming. Setup:
 
 ```bash
 python -m venv .venv
 .venv/Scripts/pip install -r scripts/requirements.txt
 ```
 
-See [scripts/README.md](scripts/README.md) for each script's responsibilities and inputs / outputs. Regenerate the knowledge graphs and embeddings after any metadata refresh:
+Key scripts (see [scripts/README.md](scripts/README.md) for the full list and inputs / outputs):
+
+- **`fetch_from_mongodb.py`** — pull research items + reference data from the WissKI MongoDB
+- **`generate_wisski_urls.py`** — emit pre-computed `dev.wisski_urls.*.json` lookups for the WissKI Navigate links
+- **`fetch_thumbnails.py`** — download remote `previewImage` URLs as local WebP thumbnails so the first paint doesn't hit the public archive
+- **`generate_knowledge_graphs.py`** — compute the ego-graph JSON consumed by `EntityKnowledgeGraph` and `/network?tab=communities`
+- **`generate_embeddings.py`** — run Gemini Embedding 2 over the corpus, project to 2D with UMAP, emit `map.json` + `similar.json`
+- **`precompute_entity_dashboards.py`** — generate one JSON per entity under `static/data/entity_dashboards/`, plus the global manifest. Supports `--from-local`, per-type runs, and `--dry-run`. The manifest writer merges with the existing file so a single-entity run doesn't wipe the others' entries
+- **`slim_data.py`** — strip development-only fields before shipping production data
+
+Regenerate everything after a metadata refresh:
 
 ```bash
 .venv/Scripts/python scripts/generate_knowledge_graphs.py
 .venv/Scripts/python scripts/generate_embeddings.py --scope missing
+.venv/Scripts/python scripts/precompute_entity_dashboards.py --entity all --from-local
 ```
 
 ## Deployment
