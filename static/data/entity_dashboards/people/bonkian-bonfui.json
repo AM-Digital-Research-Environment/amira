@@ -134,6 +134,174 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [
+      "Tapsoba, Tatiana Nadine"
+    ],
+    "matrix": [
+      [
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Tapsoba, Tatiana Nadine",
+        "name": "Tapsoba, Tatiana Nadine",
+        "itemCount": 2
+      },
+      {
+        "id": "Ouédraogo, Djénéba",
+        "name": "Ouédraogo, Djénéba",
+        "itemCount": 1
+      },
+      {
+        "id": "Somé, Alban Balanoé",
+        "name": "Somé, Alban Balanoé",
+        "itemCount": 1
+      },
+      {
+        "id": "Pitroipa, Clément",
+        "name": "Pitroipa, Clément",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Tapsoba, Tatiana Nadine",
+        "targetId": "UJKZ_JITBF2020",
+        "count": 2
+      },
+      {
+        "personId": "Ouédraogo, Djénéba",
+        "targetId": "UJKZ_JITBF2020",
+        "count": 1
+      },
+      {
+        "personId": "Somé, Alban Balanoé",
+        "targetId": "UJKZ_JITBF2020",
+        "count": 1
+      },
+      {
+        "personId": "Pitroipa, Clément",
+        "targetId": "UJKZ_JITBF2020",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Tapsoba, Tatiana Nadine",
+        "name": "Tapsoba, Tatiana Nadine",
+        "itemCount": 5
+      },
+      {
+        "id": "Ouédraogo, Djénéba",
+        "name": "Ouédraogo, Djénéba",
+        "itemCount": 3
+      },
+      {
+        "id": "Somé, Alban Balanoé",
+        "name": "Somé, Alban Balanoé",
+        "itemCount": 3
+      },
+      {
+        "id": "Pitroipa, Clément",
+        "name": "Pitroipa, Clément",
+        "itemCount": 3
+      }
+    ],
+    "targets": [
+      {
+        "id": "Université Joseph Ki-Zerbo",
+        "name": "Université Joseph Ki-Zerbo",
+        "itemCount": 2
+      },
+      {
+        "id": "Brigades Régionales de Protection de l’Enfance",
+        "name": "Brigades Régionales de Protection de l’Enfance",
+        "itemCount": 2
+      },
+      {
+        "id": "Tribunal de grande instance de Ouagadougou",
+        "name": "Tribunal de grande instance de Ouagadougou",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Tapsoba, Tatiana Nadine",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 2
+      },
+      {
+        "personId": "Tapsoba, Tatiana Nadine",
+        "targetId": "Brigades Régionales de Protection de l’Enfance",
+        "count": 2
+      },
+      {
+        "personId": "Ouédraogo, Djénéba",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Somé, Alban Balanoé",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Pitroipa, Clément",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Tapsoba, Tatiana Nadine",
+        "targetId": "Tribunal de grande instance de Ouagadougou",
+        "count": 1
+      },
+      {
+        "personId": "Ouédraogo, Djénéba",
+        "targetId": "Tribunal de grande instance de Ouagadougou",
+        "count": 1
+      },
+      {
+        "personId": "Somé, Alban Balanoé",
+        "targetId": "Tribunal de grande instance de Ouagadougou",
+        "count": 1
+      },
+      {
+        "personId": "Pitroipa, Clément",
+        "targetId": "Tribunal de grande instance de Ouagadougou",
+        "count": 1
+      },
+      {
+        "personId": "Ouédraogo, Djénéba",
+        "targetId": "Brigades Régionales de Protection de l’Enfance",
+        "count": 1
+      },
+      {
+        "personId": "Somé, Alban Balanoé",
+        "targetId": "Brigades Régionales de Protection de l’Enfance",
+        "count": 1
+      },
+      {
+        "personId": "Pitroipa, Clément",
+        "targetId": "Brigades Régionales de Protection de l’Enfance",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Burkina Faso",

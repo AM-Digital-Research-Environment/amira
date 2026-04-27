@@ -80,6 +80,40 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Art",
+      "Artists",
+      "Painting",
+      "Photographs"
+    ],
+    "matrix": [
+      [
+        0,
+        5,
+        5,
+        4
+      ],
+      [
+        5,
+        0,
+        5,
+        4
+      ],
+      [
+        5,
+        5,
+        0,
+        4
+      ],
+      [
+        4,
+        4,
+        4,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Art",

@@ -103,6 +103,74 @@
       "value": 2
     }
   ],
+  "coContributors": {
+    "names": [
+      "Banhoro, Yacouba"
+    ],
+    "matrix": [
+      [
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Banhoro, Yacouba",
+        "name": "Banhoro, Yacouba",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Banhoro, Yacouba",
+        "targetId": "UJKZ_GLOBHEALTH2020",
+        "count": 2
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Banhoro, Yacouba",
+        "name": "Banhoro, Yacouba",
+        "itemCount": 4
+      }
+    ],
+    "targets": [
+      {
+        "id": "Université Joseph Ki-Zerbo",
+        "name": "Université Joseph Ki-Zerbo",
+        "itemCount": 2
+      },
+      {
+        "id": "Thomas Sankara University",
+        "name": "Thomas Sankara University",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Banhoro, Yacouba",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 2
+      },
+      {
+        "personId": "Banhoro, Yacouba",
+        "targetId": "Thomas Sankara University",
+        "count": 2
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Burkina Faso",

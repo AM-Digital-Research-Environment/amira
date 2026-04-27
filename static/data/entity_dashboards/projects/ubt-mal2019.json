@@ -22,6 +22,24 @@
       }
     }
   ],
+  "languageTimeline": [
+    {
+      "year": 2019,
+      "byCategory": {
+        "French": 236,
+        "English": 57
+      }
+    }
+  ],
+  "subjectTrends": [
+    {
+      "year": 2019,
+      "byCategory": {
+        "Youth": 292,
+        "Learning": 292
+      }
+    }
+  ],
   "types": [
     {
       "name": "Image",
@@ -161,6 +179,83 @@
       ]
     }
   ],
+  "treemap": [
+    {
+      "name": "Image",
+      "children": [
+        {
+          "name": "English",
+          "children": [
+            {
+              "name": "Youth",
+              "value": 15,
+              "children": []
+            },
+            {
+              "name": "Learning",
+              "value": 15,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "French",
+          "children": [
+            {
+              "name": "Youth",
+              "value": 236,
+              "children": []
+            },
+            {
+              "name": "Learning",
+              "value": 236,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dataset",
+      "children": [
+        {
+          "name": "English",
+          "children": [
+            {
+              "name": "Youth",
+              "value": 41,
+              "children": []
+            },
+            {
+              "name": "Learning",
+              "value": 41,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Text",
+      "children": [
+        {
+          "name": "English",
+          "children": [
+            {
+              "name": "Youth",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Learning",
+              "value": 1,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "sankey": {
     "nodes": [
       {
@@ -210,12 +305,62 @@
       ]
     ]
   },
+  "timeAwareChord": {
+    "buckets": [
+      {
+        "year": 2019,
+        "names": [
+          "Youth",
+          "Learning"
+        ],
+        "matrix": [
+          [
+            0,
+            292
+          ],
+          [
+            292,
+            0
+          ]
+        ]
+      }
+    ]
+  },
   "contributors": [
     {
       "name": "Tamou, Issa",
       "value": 292
     }
   ],
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "calendarHeatmap": [
+    {
+      "date": "2019-08-01",
+      "value": 292
+    }
+  ],
+  "geoFlows": {
+    "flows": [
+      {
+        "from": {
+          "lng": 2.18333,
+          "lat": 8.83333,
+          "label": "Benin"
+        },
+        "to": {
+          "lng": 10.0,
+          "lat": 51.0,
+          "label": "Germany"
+        },
+        "count": 292
+      }
+    ]
+  },
   "locations": [
     {
       "country": "Benin",

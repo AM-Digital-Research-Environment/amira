@@ -156,6 +156,94 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Greven, Katharina",
+        "name": "Greven, Katharina",
+        "itemCount": 3
+      },
+      {
+        "id": "Abiodun, Rowland",
+        "name": "Abiodun, Rowland",
+        "itemCount": 3
+      },
+      {
+        "id": "Beier, Georgina",
+        "name": "Beier, Georgina",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent",
+        "itemCount": 3
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Greven, Katharina",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 3
+      },
+      {
+        "personId": "Abiodun, Rowland",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 3
+      },
+      {
+        "personId": "Beier, Georgina",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Greven, Katharina",
+        "name": "Greven, Katharina",
+        "itemCount": 3
+      },
+      {
+        "id": "Abiodun, Rowland",
+        "name": "Abiodun, Rowland",
+        "itemCount": 3
+      },
+      {
+        "id": "Beier, Georgina",
+        "name": "Beier, Georgina",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Bayreuth",
+        "name": "University of Bayreuth",
+        "itemCount": 3
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Greven, Katharina",
+        "targetId": "University of Bayreuth",
+        "count": 3
+      },
+      {
+        "personId": "Abiodun, Rowland",
+        "targetId": "University of Bayreuth",
+        "count": 3
+      },
+      {
+        "personId": "Beier, Georgina",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Germany",

@@ -55,6 +55,50 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [],
+    "matrix": []
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Breuer, Andreas",
+        "name": "Breuer, Andreas",
+        "itemCount": 1
+      },
+      {
+        "id": "Springfeld, Lars",
+        "name": "Springfeld, Lars",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Breuer, Andreas",
+        "targetId": "Ext_BayGlo2025",
+        "count": 1
+      },
+      {
+        "personId": "Springfeld, Lars",
+        "targetId": "Ext_BayGlo2025",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
   "locations": [
     {
       "country": "Germany",

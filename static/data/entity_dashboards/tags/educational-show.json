@@ -73,6 +73,22 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Education",
+      "Children"
+    ],
+    "matrix": [
+      [
+        0,
+        26
+      ],
+      [
+        26,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Education",

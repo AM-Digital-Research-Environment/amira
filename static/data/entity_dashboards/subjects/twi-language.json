@@ -58,6 +58,52 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Ethnomusicology",
+      "Twi (African people)",
+      "Twi language",
+      "Highlife (Music)",
+      "Blues (Music)"
+    ],
+    "matrix": [
+      [
+        0,
+        88,
+        88,
+        16,
+        6
+      ],
+      [
+        88,
+        0,
+        88,
+        16,
+        6
+      ],
+      [
+        88,
+        88,
+        0,
+        16,
+        6
+      ],
+      [
+        16,
+        16,
+        16,
+        0,
+        0
+      ],
+      [
+        6,
+        6,
+        6,
+        0,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Ethnomusicology",

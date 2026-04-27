@@ -108,6 +108,82 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Mosaics",
+      "Photographs",
+      "Artists",
+      "Africa",
+      "Interior decoration",
+      "Women artists",
+      "Courtyards"
+    ],
+    "matrix": [
+      [
+        0,
+        11,
+        10,
+        6,
+        6,
+        5,
+        4
+      ],
+      [
+        11,
+        0,
+        10,
+        6,
+        6,
+        5,
+        4
+      ],
+      [
+        10,
+        10,
+        0,
+        6,
+        6,
+        5,
+        3
+      ],
+      [
+        6,
+        6,
+        6,
+        0,
+        6,
+        1,
+        0
+      ],
+      [
+        6,
+        6,
+        6,
+        6,
+        0,
+        1,
+        0
+      ],
+      [
+        5,
+        5,
+        5,
+        1,
+        1,
+        0,
+        3
+      ],
+      [
+        4,
+        4,
+        3,
+        0,
+        0,
+        3,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Photographs",

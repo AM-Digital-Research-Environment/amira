@@ -20,6 +20,24 @@
       }
     }
   ],
+  "languageTimeline": [
+    {
+      "year": 2021,
+      "byCategory": {
+        "French": 2
+      }
+    }
+  ],
+  "subjectTrends": [
+    {
+      "year": 2021,
+      "byCategory": {
+        "Nation state": 2,
+        "Teachers": 2,
+        "Public administration": 2
+      }
+    }
+  ],
   "types": [
     {
       "name": "Text",
@@ -119,6 +137,33 @@
       ]
     }
   ],
+  "treemap": [
+    {
+      "name": "Text",
+      "children": [
+        {
+          "name": "French",
+          "children": [
+            {
+              "name": "Nation state",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Teachers",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Public administration",
+              "value": 2,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "sankey": {
     "nodes": [
       {
@@ -148,12 +193,51 @@
     "names": [],
     "matrix": []
   },
+  "timeAwareChord": {
+    "buckets": [
+      {
+        "year": 2021,
+        "names": [
+          "Nation state",
+          "Teachers",
+          "Public administration"
+        ],
+        "matrix": [
+          [
+            0,
+            2,
+            2
+          ],
+          [
+            2,
+            0,
+            2
+          ],
+          [
+            2,
+            2,
+            0
+          ]
+        ]
+      }
+    ]
+  },
   "contributors": [
     {
       "name": "Sawadogo, Natéwindé",
       "value": 2
     }
   ],
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "calendarHeatmap": [],
+  "geoFlows": {
+    "flows": []
+  },
   "locations": [
     {
       "country": "Burkina Faso",

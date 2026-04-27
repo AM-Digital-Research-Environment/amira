@@ -112,6 +112,30 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Elections",
+      "Herders",
+      "Vaccination"
+    ],
+    "matrix": [
+      [
+        0,
+        3,
+        3
+      ],
+      [
+        3,
+        0,
+        3
+      ],
+      [
+        3,
+        3,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Herders",

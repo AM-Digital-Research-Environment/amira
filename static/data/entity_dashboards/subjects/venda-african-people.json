@@ -101,6 +101,40 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "South Africa",
+      "Ethnomusicology",
+      "Music",
+      "Venda (African people)"
+    ],
+    "matrix": [
+      [
+        0,
+        3,
+        3,
+        3
+      ],
+      [
+        3,
+        0,
+        3,
+        3
+      ],
+      [
+        3,
+        3,
+        0,
+        3
+      ],
+      [
+        3,
+        3,
+        3,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "South Africa",

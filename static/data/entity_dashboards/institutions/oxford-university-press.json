@@ -96,6 +96,79 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Habib, Imtiaz",
+        "name": "Habib, Imtiaz",
+        "itemCount": 1
+      },
+      {
+        "id": "Brockbank, Philip",
+        "name": "Brockbank, Philip",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Habib, Imtiaz",
+        "targetId": "UBT_TravKnowl2019",
+        "count": 1
+      },
+      {
+        "personId": "Brockbank, Philip",
+        "targetId": "UBT_TravKnowl2019",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Habib, Imtiaz",
+        "name": "Habib, Imtiaz",
+        "itemCount": 1
+      },
+      {
+        "id": "Brockbank, Philip",
+        "name": "Brockbank, Philip",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Old Dominion University",
+        "name": "Old Dominion University",
+        "itemCount": 1
+      },
+      {
+        "id": "University of Birmingham",
+        "name": "University of Birmingham",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Habib, Imtiaz",
+        "targetId": "Old Dominion University",
+        "count": 1
+      },
+      {
+        "personId": "Brockbank, Philip",
+        "targetId": "University of Birmingham",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "United Kingdom",

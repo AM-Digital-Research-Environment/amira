@@ -118,6 +118,56 @@
       "value": 3
     }
   ],
+  "coContributors": {
+    "names": [
+      "Beier, Ulli"
+    ],
+    "matrix": [
+      [
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Beier, Ulli",
+        "name": "Beier, Ulli",
+        "itemCount": 3
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango",
+        "itemCount": 2
+      },
+      {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Beier, Ulli",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 1
+      },
+      {
+        "personId": "Beier, Ulli",
+        "targetId": "UBT_TaiSha2021",
+        "count": 2
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
   "locations": [
     {
       "country": "Nigeria",

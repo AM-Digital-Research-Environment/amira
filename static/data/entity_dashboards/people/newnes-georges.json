@@ -63,6 +63,68 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [],
+    "matrix": []
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Hoppe, E. O.",
+        "name": "Hoppe, E. O.",
+        "itemCount": 1
+      },
+      {
+        "id": "Greven, Katharina",
+        "name": "Greven, Katharina",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Hoppe, E. O.",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 1
+      },
+      {
+        "personId": "Greven, Katharina",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Greven, Katharina",
+        "name": "Greven, Katharina",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Bayreuth",
+        "name": "University of Bayreuth",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Greven, Katharina",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "United Kingdom",

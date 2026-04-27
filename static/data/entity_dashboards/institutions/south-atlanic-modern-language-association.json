@@ -56,6 +56,54 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Andreas, James R.",
+        "name": "Andreas, James R.",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Andreas, James R.",
+        "targetId": "UBT_TravKnowl2019",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Andreas, James R.",
+        "name": "Andreas, James R.",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Clemson University",
+        "name": "Clemson University",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Andreas, James R.",
+        "targetId": "Clemson University",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "United States of America",

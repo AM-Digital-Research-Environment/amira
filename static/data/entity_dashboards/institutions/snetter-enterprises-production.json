@@ -56,6 +56,139 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Diggs, Rev. A. Momolu",
+        "name": "Diggs, Rev. A. Momolu",
+        "itemCount": 1
+      },
+      {
+        "id": "Snetter, Charles A.",
+        "name": "Snetter, Charles A.",
+        "itemCount": 1
+      },
+      {
+        "id": "Carter, Joel",
+        "name": "Carter, Joel",
+        "itemCount": 1
+      },
+      {
+        "id": "Giddings, Nathaniel",
+        "name": "Giddings, Nathaniel",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Diggs, Rev. A. Momolu",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Snetter, Charles A.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Carter, Joel",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Giddings, Nathaniel",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Diggs, Rev. A. Momolu",
+        "name": "Diggs, Rev. A. Momolu",
+        "itemCount": 2
+      },
+      {
+        "id": "Snetter, Charles A.",
+        "name": "Snetter, Charles A.",
+        "itemCount": 2
+      },
+      {
+        "id": "Carter, Joel",
+        "name": "Carter, Joel",
+        "itemCount": 2
+      },
+      {
+        "id": "Giddings, Nathaniel",
+        "name": "Giddings, Nathaniel",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "Providence Baptist Church Liberia",
+        "name": "Providence Baptist Church Liberia",
+        "itemCount": 1
+      },
+      {
+        "id": "Liberia Broadcasting System (LBS)",
+        "name": "Liberia Broadcasting System (LBS)",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Diggs, Rev. A. Momolu",
+        "targetId": "Providence Baptist Church Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Snetter, Charles A.",
+        "targetId": "Providence Baptist Church Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Carter, Joel",
+        "targetId": "Providence Baptist Church Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Giddings, Nathaniel",
+        "targetId": "Providence Baptist Church Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Diggs, Rev. A. Momolu",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Snetter, Charles A.",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Carter, Joel",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Giddings, Nathaniel",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Liberia",

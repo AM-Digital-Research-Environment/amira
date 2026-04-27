@@ -199,6 +199,670 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [
+      "Taylor, Adolphus",
+      "McCrumada, Charles",
+      "Urey, Khrushchev Borbor",
+      "Zonoe, Daniel",
+      "Mensah, Sam",
+      "Eastman, John",
+      "Gilbert, Thomas"
+    ],
+    "matrix": [
+      [
+        0,
+        4,
+        3,
+        3,
+        3,
+        2,
+        2
+      ],
+      [
+        4,
+        0,
+        3,
+        3,
+        3,
+        2,
+        2
+      ],
+      [
+        3,
+        3,
+        0,
+        3,
+        2,
+        2,
+        2
+      ],
+      [
+        3,
+        3,
+        3,
+        0,
+        2,
+        2,
+        2
+      ],
+      [
+        3,
+        3,
+        2,
+        2,
+        0,
+        2,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        0,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Taylor, Adolphus",
+        "name": "Taylor, Adolphus",
+        "itemCount": 4
+      },
+      {
+        "id": "McCrumada, Charles",
+        "name": "McCrumada, Charles",
+        "itemCount": 4
+      },
+      {
+        "id": "Urey, Khrushchev Borbor",
+        "name": "Urey, Khrushchev Borbor",
+        "itemCount": 3
+      },
+      {
+        "id": "Zonoe, Daniel",
+        "name": "Zonoe, Daniel",
+        "itemCount": 3
+      },
+      {
+        "id": "Mensah, Sam",
+        "name": "Mensah, Sam",
+        "itemCount": 3
+      },
+      {
+        "id": "Eastman, John",
+        "name": "Eastman, John",
+        "itemCount": 2
+      },
+      {
+        "id": "Gilbert, Thomas",
+        "name": "Gilbert, Thomas",
+        "itemCount": 2
+      },
+      {
+        "id": "Chia, Patrick",
+        "name": "Chia, Patrick",
+        "itemCount": 1
+      },
+      {
+        "id": "Cole, Archie",
+        "name": "Cole, Archie",
+        "itemCount": 1
+      },
+      {
+        "id": "Manyango, Zobie",
+        "name": "Manyango, Zobie",
+        "itemCount": 1
+      },
+      {
+        "id": "Lampkins, Ralph",
+        "name": "Lampkins, Ralph",
+        "itemCount": 1
+      },
+      {
+        "id": "Menyongai, Jeremiah B.",
+        "name": "Menyongai, Jeremiah B.",
+        "itemCount": 1
+      },
+      {
+        "id": "Walker, Rev. Jeremiah W.",
+        "name": "Walker, Rev. Jeremiah W.",
+        "itemCount": 1
+      },
+      {
+        "id": "Morgan, Thelma",
+        "name": "Morgan, Thelma",
+        "itemCount": 1
+      },
+      {
+        "id": "Walker, Florence K.",
+        "name": "Walker, Florence K.",
+        "itemCount": 1
+      },
+      {
+        "id": "Bowman, Joseph Jr.",
+        "name": "Bowman, Joseph Jr.",
+        "itemCount": 1
+      },
+      {
+        "id": "Redd, Welma Campbell Mashinini",
+        "name": "Redd, Welma Campbell Mashinini",
+        "itemCount": 1
+      },
+      {
+        "id": "Lincoln, Peter Y.",
+        "name": "Lincoln, Peter Y.",
+        "itemCount": 1
+      },
+      {
+        "id": "Gaye, Robert",
+        "name": "Gaye, Robert",
+        "itemCount": 1
+      },
+      {
+        "id": "Diah, James",
+        "name": "Diah, James",
+        "itemCount": 1
+      },
+      {
+        "id": "Giddings, Nathaniel",
+        "name": "Giddings, Nathaniel",
+        "itemCount": 1
+      },
+      {
+        "id": "Scotland, Rebekah",
+        "name": "Scotland, Rebekah",
+        "itemCount": 1
+      },
+      {
+        "id": "Fahnbulleh, Ansu",
+        "name": "Fahnbulleh, Ansu",
+        "itemCount": 1
+      },
+      {
+        "id": "Okyere, Jonathan",
+        "name": "Okyere, Jonathan",
+        "itemCount": 1
+      },
+      {
+        "id": "Zeon, Jefferson",
+        "name": "Zeon, Jefferson",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System",
+        "itemCount": 4
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Chia, Patrick",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Cole, Archie",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Manyango, Zobie",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Lampkins, Ralph",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Menyongai, Jeremiah B.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Urey, Khrushchev Borbor",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 3
+      },
+      {
+        "personId": "Taylor, Adolphus",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 4
+      },
+      {
+        "personId": "Zonoe, Daniel",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 3
+      },
+      {
+        "personId": "Eastman, John",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 2
+      },
+      {
+        "personId": "Gilbert, Thomas",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 2
+      },
+      {
+        "personId": "Mensah, Sam",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 3
+      },
+      {
+        "personId": "McCrumada, Charles",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 4
+      },
+      {
+        "personId": "Walker, Rev. Jeremiah W.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Morgan, Thelma",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Walker, Florence K.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Bowman, Joseph Jr.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Redd, Welma Campbell Mashinini",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Lincoln, Peter Y.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Gaye, Robert",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Diah, James",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Giddings, Nathaniel",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Scotland, Rebekah",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Fahnbulleh, Ansu",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Okyere, Jonathan",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Zeon, Jefferson",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Taylor, Adolphus",
+        "name": "Taylor, Adolphus",
+        "itemCount": 5
+      },
+      {
+        "id": "McCrumada, Charles",
+        "name": "McCrumada, Charles",
+        "itemCount": 5
+      },
+      {
+        "id": "Urey, Khrushchev Borbor",
+        "name": "Urey, Khrushchev Borbor",
+        "itemCount": 4
+      },
+      {
+        "id": "Zonoe, Daniel",
+        "name": "Zonoe, Daniel",
+        "itemCount": 4
+      },
+      {
+        "id": "Mensah, Sam",
+        "name": "Mensah, Sam",
+        "itemCount": 4
+      },
+      {
+        "id": "Eastman, John",
+        "name": "Eastman, John",
+        "itemCount": 3
+      },
+      {
+        "id": "Gilbert, Thomas",
+        "name": "Gilbert, Thomas",
+        "itemCount": 3
+      },
+      {
+        "id": "Walker, Rev. Jeremiah W.",
+        "name": "Walker, Rev. Jeremiah W.",
+        "itemCount": 2
+      },
+      {
+        "id": "Morgan, Thelma",
+        "name": "Morgan, Thelma",
+        "itemCount": 2
+      },
+      {
+        "id": "Walker, Florence K.",
+        "name": "Walker, Florence K.",
+        "itemCount": 2
+      },
+      {
+        "id": "Bowman, Joseph Jr.",
+        "name": "Bowman, Joseph Jr.",
+        "itemCount": 2
+      },
+      {
+        "id": "Chia, Patrick",
+        "name": "Chia, Patrick",
+        "itemCount": 1
+      },
+      {
+        "id": "Cole, Archie",
+        "name": "Cole, Archie",
+        "itemCount": 1
+      },
+      {
+        "id": "Manyango, Zobie",
+        "name": "Manyango, Zobie",
+        "itemCount": 1
+      },
+      {
+        "id": "Lampkins, Ralph",
+        "name": "Lampkins, Ralph",
+        "itemCount": 1
+      },
+      {
+        "id": "Menyongai, Jeremiah B.",
+        "name": "Menyongai, Jeremiah B.",
+        "itemCount": 1
+      },
+      {
+        "id": "Redd, Welma Campbell Mashinini",
+        "name": "Redd, Welma Campbell Mashinini",
+        "itemCount": 1
+      },
+      {
+        "id": "Lincoln, Peter Y.",
+        "name": "Lincoln, Peter Y.",
+        "itemCount": 1
+      },
+      {
+        "id": "Gaye, Robert",
+        "name": "Gaye, Robert",
+        "itemCount": 1
+      },
+      {
+        "id": "Diah, James",
+        "name": "Diah, James",
+        "itemCount": 1
+      },
+      {
+        "id": "Giddings, Nathaniel",
+        "name": "Giddings, Nathaniel",
+        "itemCount": 1
+      },
+      {
+        "id": "Scotland, Rebekah",
+        "name": "Scotland, Rebekah",
+        "itemCount": 1
+      },
+      {
+        "id": "Fahnbulleh, Ansu",
+        "name": "Fahnbulleh, Ansu",
+        "itemCount": 1
+      },
+      {
+        "id": "Okyere, Jonathan",
+        "name": "Okyere, Jonathan",
+        "itemCount": 1
+      },
+      {
+        "id": "Zeon, Jefferson",
+        "name": "Zeon, Jefferson",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Liberia Broadcasting System (LBS)",
+        "name": "Liberia Broadcasting System (LBS)",
+        "itemCount": 4
+      },
+      {
+        "id": "Liberian Council of Churches",
+        "name": "Liberian Council of Churches",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Chia, Patrick",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Cole, Archie",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Manyango, Zobie",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Lampkins, Ralph",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Menyongai, Jeremiah B.",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Urey, Khrushchev Borbor",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 3
+      },
+      {
+        "personId": "Taylor, Adolphus",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 4
+      },
+      {
+        "personId": "Zonoe, Daniel",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 3
+      },
+      {
+        "personId": "Eastman, John",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 2
+      },
+      {
+        "personId": "Gilbert, Thomas",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 2
+      },
+      {
+        "personId": "Mensah, Sam",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 3
+      },
+      {
+        "personId": "McCrumada, Charles",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 4
+      },
+      {
+        "personId": "Walker, Rev. Jeremiah W.",
+        "targetId": "Liberian Council of Churches",
+        "count": 1
+      },
+      {
+        "personId": "Morgan, Thelma",
+        "targetId": "Liberian Council of Churches",
+        "count": 1
+      },
+      {
+        "personId": "Walker, Florence K.",
+        "targetId": "Liberian Council of Churches",
+        "count": 1
+      },
+      {
+        "personId": "Urey, Khrushchev Borbor",
+        "targetId": "Liberian Council of Churches",
+        "count": 1
+      },
+      {
+        "personId": "Bowman, Joseph Jr.",
+        "targetId": "Liberian Council of Churches",
+        "count": 1
+      },
+      {
+        "personId": "Taylor, Adolphus",
+        "targetId": "Liberian Council of Churches",
+        "count": 1
+      },
+      {
+        "personId": "Zonoe, Daniel",
+        "targetId": "Liberian Council of Churches",
+        "count": 1
+      },
+      {
+        "personId": "Gilbert, Thomas",
+        "targetId": "Liberian Council of Churches",
+        "count": 1
+      },
+      {
+        "personId": "Mensah, Sam",
+        "targetId": "Liberian Council of Churches",
+        "count": 1
+      },
+      {
+        "personId": "McCrumada, Charles",
+        "targetId": "Liberian Council of Churches",
+        "count": 1
+      },
+      {
+        "personId": "Eastman, John",
+        "targetId": "Liberian Council of Churches",
+        "count": 1
+      },
+      {
+        "personId": "Walker, Rev. Jeremiah W.",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Morgan, Thelma",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Walker, Florence K.",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Bowman, Joseph Jr.",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Redd, Welma Campbell Mashinini",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Lincoln, Peter Y.",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Gaye, Robert",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Diah, James",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Giddings, Nathaniel",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Scotland, Rebekah",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Fahnbulleh, Ansu",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Okyere, Jonathan",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Zeon, Jefferson",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Liberia",

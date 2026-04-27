@@ -78,6 +78,36 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Kauffman, Robert A.",
+        "name": "Kauffman, Robert A.",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "American Methodist Mission",
+        "name": "American Methodist Mission",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Kauffman, Robert A.",
+        "targetId": "American Methodist Mission",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "South Africa",

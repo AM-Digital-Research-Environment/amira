@@ -231,6 +231,144 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Waha, Eric",
+        "name": "Waha, Eric",
+        "itemCount": 2
+      },
+      {
+        "id": "Eschenbacher, Ute",
+        "name": "Eschenbacher, Ute",
+        "itemCount": 1
+      },
+      {
+        "id": "Unterburger, Florian",
+        "name": "Unterburger, Florian",
+        "itemCount": 1
+      },
+      {
+        "id": "Dippold, Günther",
+        "name": "Dippold, Günther",
+        "itemCount": 1
+      },
+      {
+        "id": "Kröniger, Arno",
+        "name": "Kröniger, Arno",
+        "itemCount": 1
+      },
+      {
+        "id": "Busster, Henry",
+        "name": "Busster, Henry",
+        "itemCount": 1
+      },
+      {
+        "id": "Stiefler, Herlmut",
+        "name": "Stiefler, Herlmut",
+        "itemCount": 1
+      },
+      {
+        "id": "Düngferlder, Siggi",
+        "name": "Düngferlder, Siggi",
+        "itemCount": 1
+      },
+      {
+        "id": "Redaktion",
+        "name": "Redaktion",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial",
+        "itemCount": 9
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Eschenbacher, Ute",
+        "targetId": "Ext_BayGlo2025",
+        "count": 1
+      },
+      {
+        "personId": "Unterburger, Florian",
+        "targetId": "Ext_BayGlo2025",
+        "count": 1
+      },
+      {
+        "personId": "Waha, Eric",
+        "targetId": "Ext_BayGlo2025",
+        "count": 2
+      },
+      {
+        "personId": "Dippold, Günther",
+        "targetId": "Ext_BayGlo2025",
+        "count": 1
+      },
+      {
+        "personId": "Kröniger, Arno",
+        "targetId": "Ext_BayGlo2025",
+        "count": 1
+      },
+      {
+        "personId": "Busster, Henry",
+        "targetId": "Ext_BayGlo2025",
+        "count": 1
+      },
+      {
+        "personId": "Stiefler, Herlmut",
+        "targetId": "Ext_BayGlo2025",
+        "count": 1
+      },
+      {
+        "personId": "Düngferlder, Siggi",
+        "targetId": "Ext_BayGlo2025",
+        "count": 1
+      },
+      {
+        "personId": "Redaktion",
+        "targetId": "Ext_BayGlo2025",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Eschenbacher, Ute",
+        "name": "Eschenbacher, Ute",
+        "itemCount": 1
+      },
+      {
+        "id": "Unterburger, Florian",
+        "name": "Unterburger, Florian",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Industriemuseum Bayreuth",
+        "name": "Industriemuseum Bayreuth",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Eschenbacher, Ute",
+        "targetId": "Industriemuseum Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Unterburger, Florian",
+        "targetId": "Industriemuseum Bayreuth",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Germany",

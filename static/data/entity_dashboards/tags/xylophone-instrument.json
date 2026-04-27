@@ -225,6 +225,82 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Xylophone",
+      "Musical instruments",
+      "Ethnomusicology",
+      "Xylophone music",
+      "Music",
+      "Africa",
+      "Ganda (African people)"
+    ],
+    "matrix": [
+      [
+        0,
+        14,
+        12,
+        12,
+        6,
+        5,
+        3
+      ],
+      [
+        14,
+        0,
+        12,
+        11,
+        6,
+        5,
+        3
+      ],
+      [
+        12,
+        12,
+        0,
+        11,
+        6,
+        5,
+        3
+      ],
+      [
+        12,
+        11,
+        11,
+        0,
+        6,
+        4,
+        3
+      ],
+      [
+        6,
+        6,
+        6,
+        6,
+        0,
+        1,
+        3
+      ],
+      [
+        5,
+        5,
+        5,
+        4,
+        1,
+        0,
+        0
+      ],
+      [
+        3,
+        3,
+        3,
+        3,
+        3,
+        0,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Xylophone",

@@ -181,6 +181,36 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Bowersox, Jeff",
+        "name": "Bowersox, Jeff",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Bowersox, Jeff",
+        "targetId": "Ext_BayGlo2025",
+        "count": 2
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
   "locations": [
     {
       "country": "Germany",

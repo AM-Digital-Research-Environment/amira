@@ -92,6 +92,30 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Ethnomusicology",
+      "Musicology",
+      "Music"
+    ],
+    "matrix": [
+      [
+        0,
+        4,
+        3
+      ],
+      [
+        4,
+        0,
+        3
+      ],
+      [
+        3,
+        3,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Ethnomusicology",

@@ -154,6 +154,246 @@
       "value": 2
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Sheila",
+        "name": "Sheila",
+        "itemCount": 11
+      },
+      {
+        "id": "Humplick, Frank",
+        "name": "Humplick, Frank",
+        "itemCount": 6
+      },
+      {
+        "id": "Callist, Charles",
+        "name": "Callist, Charles",
+        "itemCount": 5
+      },
+      {
+        "id": "Williams, Fadhili",
+        "name": "Williams, Fadhili",
+        "itemCount": 4
+      },
+      {
+        "id": "Wamala, Elly",
+        "name": "Wamala, Elly",
+        "itemCount": 4
+      },
+      {
+        "id": "Hamisi, Henry",
+        "name": "Hamisi, Henry",
+        "itemCount": 3
+      },
+      {
+        "id": "Masengo, Edouard",
+        "name": "Masengo, Edouard",
+        "itemCount": 3
+      },
+      {
+        "id": "Wamala, Honey",
+        "name": "Wamala, Honey",
+        "itemCount": 2
+      },
+      {
+        "id": "Andrea",
+        "name": "Andrea",
+        "itemCount": 2
+      },
+      {
+        "id": "Grand Charo",
+        "name": "Grand Charo",
+        "itemCount": 2
+      },
+      {
+        "id": "Bernard, Peter",
+        "name": "Bernard, Peter",
+        "itemCount": 2
+      },
+      {
+        "id": "Kajiru, Mizighi",
+        "name": "Kajiru, Mizighi",
+        "itemCount": 2
+      },
+      {
+        "id": "Keliseni, Kabaka",
+        "name": "Keliseni, Kabaka",
+        "itemCount": 2
+      },
+      {
+        "id": "Mwale, J.",
+        "name": "Mwale, J.",
+        "itemCount": 2
+      },
+      {
+        "id": "Oloo, Peter",
+        "name": "Oloo, Peter",
+        "itemCount": 2
+      },
+      {
+        "id": "Mrisho Kitaar, B. Jumu",
+        "name": "Mrisho Kitaar, B. Jumu",
+        "itemCount": 2
+      },
+      {
+        "id": "Andrews, B. Pius",
+        "name": "Andrews, B. Pius",
+        "itemCount": 2
+      },
+      {
+        "id": "Okiya, Omolo",
+        "name": "Okiya, Omolo",
+        "itemCount": 2
+      },
+      {
+        "id": "Kiburi, Siti",
+        "name": "Kiburi, Siti",
+        "itemCount": 2
+      },
+      {
+        "id": "Tunje, Don",
+        "name": "Tunje, Don",
+        "itemCount": 1
+      },
+      {
+        "id": "Ongany, George",
+        "name": "Ongany, George",
+        "itemCount": 1
+      },
+      {
+        "id": "Kiko, Bwana",
+        "name": "Kiko, Bwana",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana",
+        "itemCount": 56
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Callist, Charles",
+        "targetId": "UBT_DigiRet2021",
+        "count": 5
+      },
+      {
+        "personId": "Hamisi, Henry",
+        "targetId": "UBT_DigiRet2021",
+        "count": 3
+      },
+      {
+        "personId": "Wamala, Honey",
+        "targetId": "UBT_DigiRet2021",
+        "count": 2
+      },
+      {
+        "personId": "Williams, Fadhili",
+        "targetId": "UBT_DigiRet2021",
+        "count": 4
+      },
+      {
+        "personId": "Andrea",
+        "targetId": "UBT_DigiRet2021",
+        "count": 2
+      },
+      {
+        "personId": "Grand Charo",
+        "targetId": "UBT_DigiRet2021",
+        "count": 2
+      },
+      {
+        "personId": "Sheila",
+        "targetId": "UBT_DigiRet2021",
+        "count": 11
+      },
+      {
+        "personId": "Bernard, Peter",
+        "targetId": "UBT_DigiRet2021",
+        "count": 2
+      },
+      {
+        "personId": "Tunje, Don",
+        "targetId": "UBT_DigiRet2021",
+        "count": 1
+      },
+      {
+        "personId": "Ongany, George",
+        "targetId": "UBT_DigiRet2021",
+        "count": 1
+      },
+      {
+        "personId": "Kiko, Bwana",
+        "targetId": "UBT_DigiRet2021",
+        "count": 1
+      },
+      {
+        "personId": "Kajiru, Mizighi",
+        "targetId": "UBT_DigiRet2021",
+        "count": 2
+      },
+      {
+        "personId": "Keliseni, Kabaka",
+        "targetId": "UBT_DigiRet2021",
+        "count": 2
+      },
+      {
+        "personId": "Humplick, Frank",
+        "targetId": "UBT_DigiRet2021",
+        "count": 6
+      },
+      {
+        "personId": "Masengo, Edouard",
+        "targetId": "UBT_DigiRet2021",
+        "count": 3
+      },
+      {
+        "personId": "Wamala, Elly",
+        "targetId": "UBT_DigiRet2021",
+        "count": 4
+      },
+      {
+        "personId": "Mwale, J.",
+        "targetId": "UBT_DigiRet2021",
+        "count": 2
+      },
+      {
+        "personId": "Oloo, Peter",
+        "targetId": "UBT_DigiRet2021",
+        "count": 2
+      },
+      {
+        "personId": "Mrisho Kitaar, B. Jumu",
+        "targetId": "UBT_DigiRet2021",
+        "count": 2
+      },
+      {
+        "personId": "Andrews, B. Pius",
+        "targetId": "UBT_DigiRet2021",
+        "count": 2
+      },
+      {
+        "personId": "Okiya, Omolo",
+        "targetId": "UBT_DigiRet2021",
+        "count": 2
+      },
+      {
+        "personId": "Kiburi, Siti",
+        "targetId": "UBT_DigiRet2021",
+        "count": 2
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
   "locations": [
     {
       "country": "Kenya",

@@ -78,6 +78,36 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Kauffman, Robert A.",
+        "name": "Kauffman, Robert A.",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "All-Africa Church Music Association",
+        "name": "All-Africa Church Music Association",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Kauffman, Robert A.",
+        "targetId": "All-Africa Church Music Association",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "South Africa",

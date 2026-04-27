@@ -85,6 +85,66 @@
       "value": 7
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Geography",
+      "Sub-Saharan Africa",
+      "Mediation (Statistics)",
+      "Natural disasters",
+      "Global warming",
+      "Sustainability"
+    ],
+    "matrix": [
+      [
+        0,
+        10,
+        10,
+        0,
+        0,
+        0
+      ],
+      [
+        10,
+        0,
+        10,
+        0,
+        0,
+        0
+      ],
+      [
+        10,
+        10,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        7,
+        7
+      ],
+      [
+        0,
+        0,
+        0,
+        7,
+        0,
+        7
+      ],
+      [
+        0,
+        0,
+        0,
+        7,
+        7,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Geography",

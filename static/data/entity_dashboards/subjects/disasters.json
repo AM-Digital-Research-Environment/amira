@@ -144,6 +144,40 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Disasters",
+      "Arid regions",
+      "Herders",
+      "Livestock"
+    ],
+    "matrix": [
+      [
+        0,
+        4,
+        3,
+        3
+      ],
+      [
+        4,
+        0,
+        3,
+        3
+      ],
+      [
+        3,
+        3,
+        0,
+        3
+      ],
+      [
+        3,
+        3,
+        3,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Arid regions",

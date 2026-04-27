@@ -57,6 +57,54 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Wilkinson, Jane",
+        "name": "Wilkinson, Jane",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Wilkinson, Jane",
+        "targetId": "UBT_TravKnowl2019",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Wilkinson, Jane",
+        "name": "Wilkinson, Jane",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Naples \"L'Orientale\"",
+        "name": "University of Naples \"L'Orientale\"",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Wilkinson, Jane",
+        "targetId": "University of Naples \"L'Orientale\"",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Italy",

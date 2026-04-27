@@ -74,6 +74,54 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Hund, Wulf D.",
+        "name": "Hund, Wulf D.",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Hund, Wulf D.",
+        "targetId": "Ext_BayGlo2025",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Hund, Wulf D.",
+        "name": "Hund, Wulf D.",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Hamburg",
+        "name": "University of Hamburg",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Hund, Wulf D.",
+        "targetId": "University of Hamburg",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Germany",

@@ -61,6 +61,94 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Doe, Samuel Kanyon",
+        "name": "Doe, Samuel Kanyon",
+        "itemCount": 1
+      },
+      {
+        "id": "Ward, Amelia",
+        "name": "Ward, Amelia",
+        "itemCount": 1
+      },
+      {
+        "id": "Christopher, Victoria",
+        "name": "Christopher, Victoria",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Doe, Samuel Kanyon",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Ward, Amelia",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Christopher, Victoria",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Doe, Samuel Kanyon",
+        "name": "Doe, Samuel Kanyon",
+        "itemCount": 1
+      },
+      {
+        "id": "Ward, Amelia",
+        "name": "Ward, Amelia",
+        "itemCount": 1
+      },
+      {
+        "id": "Christopher, Victoria",
+        "name": "Christopher, Victoria",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Ministry of State for Presidential Affairs, Liberia",
+        "name": "Ministry of State for Presidential Affairs, Liberia",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Doe, Samuel Kanyon",
+        "targetId": "Ministry of State for Presidential Affairs, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Ward, Amelia",
+        "targetId": "Ministry of State for Presidential Affairs, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Christopher, Victoria",
+        "targetId": "Ministry of State for Presidential Affairs, Liberia",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Liberia",

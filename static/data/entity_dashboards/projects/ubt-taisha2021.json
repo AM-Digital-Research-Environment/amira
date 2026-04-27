@@ -87,6 +87,58 @@
       }
     }
   ],
+  "languageTimeline": [
+    {
+      "year": 1964,
+      "byCategory": {
+        "German": 12,
+        "English": 6
+      }
+    },
+    {
+      "year": 1965,
+      "byCategory": {
+        "German": 58,
+        "English": 16
+      }
+    },
+    {
+      "year": 2001,
+      "byCategory": {
+        "German": 4,
+        "English": 0
+      }
+    },
+    {
+      "year": 2003,
+      "byCategory": {
+        "German": 0,
+        "English": 2
+      }
+    },
+    {
+      "year": 2008,
+      "byCategory": {
+        "German": 0,
+        "English": 1
+      }
+    },
+    {
+      "year": 2021,
+      "byCategory": {
+        "German": 4,
+        "English": 5
+      }
+    },
+    {
+      "year": 2022,
+      "byCategory": {
+        "German": 1,
+        "English": 1
+      }
+    }
+  ],
+  "subjectTrends": [],
   "types": [
     {
       "name": "Text",
@@ -138,6 +190,48 @@
     }
   ],
   "sunburst": [
+    {
+      "name": "Text",
+      "children": [
+        {
+          "name": "German",
+          "children": [
+            {
+              "name": "(no subject)",
+              "value": 79,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "English",
+          "children": [
+            {
+              "name": "(no subject)",
+              "value": 30,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Image",
+      "children": [
+        {
+          "name": "English",
+          "children": [
+            {
+              "name": "(no subject)",
+              "value": 1,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "treemap": [
     {
       "name": "Text",
       "children": [
@@ -520,6 +614,9 @@
     "names": [],
     "matrix": []
   },
+  "timeAwareChord": {
+    "buckets": []
+  },
   "contributors": [
     {
       "name": "Stephan, Klaus",
@@ -602,6 +699,16 @@
       "value": 2
     }
   ],
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "calendarHeatmap": [],
+  "geoFlows": {
+    "flows": []
+  },
   "locations": [
     {
       "country": "Nigeria",

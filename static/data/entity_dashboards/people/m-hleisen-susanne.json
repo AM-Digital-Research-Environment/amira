@@ -104,6 +104,90 @@
       "value": 2
     }
   ],
+  "coContributors": {
+    "names": [
+      "Otundo, Khalayi Billian",
+      "Orero, Sheila"
+    ],
+    "matrix": [
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Otundo, Khalayi Billian",
+        "name": "Otundo, Khalayi Billian",
+        "itemCount": 2
+      },
+      {
+        "id": "Orero, Sheila",
+        "name": "Orero, Sheila",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_MultiALS2021",
+        "name": "Multilingual African Learning Spaces: Translanguaging Practices in the Kenyan Classroom",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Otundo, Khalayi Billian",
+        "targetId": "UBT_MultiALS2021",
+        "count": 2
+      },
+      {
+        "personId": "Orero, Sheila",
+        "targetId": "UBT_MultiALS2021",
+        "count": 2
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Otundo, Khalayi Billian",
+        "name": "Otundo, Khalayi Billian",
+        "itemCount": 2
+      },
+      {
+        "id": "Orero, Sheila",
+        "name": "Orero, Sheila",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Bayreuth",
+        "name": "University of Bayreuth",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Otundo, Khalayi Billian",
+        "targetId": "University of Bayreuth",
+        "count": 2
+      },
+      {
+        "personId": "Orero, Sheila",
+        "targetId": "University of Bayreuth",
+        "count": 2
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Kenya",

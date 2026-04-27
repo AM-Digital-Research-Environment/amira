@@ -135,6 +135,754 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [
+      "Menyongai, Jeremiah B.",
+      "Urey, Khrushchev Borbor",
+      "Eastman, John",
+      "Gilbert, Thomas",
+      "Mensah, Sam",
+      "McCrumada, Charles",
+      "George, Rev. Edet",
+      "Fakay, Soko",
+      "Taylor, Adolphus",
+      "Wegee, Presley",
+      "Brent, Julius"
+    ],
+    "matrix": [
+      [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        1,
+        3,
+        0,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        1,
+        3,
+        3,
+        0,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        1,
+        3,
+        3,
+        3,
+        0,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        1,
+        3,
+        3,
+        3,
+        3,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        0,
+        2,
+        1,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        0,
+        1,
+        2,
+        2
+      ],
+      [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Menyongai, Jeremiah B.",
+        "name": "Menyongai, Jeremiah B.",
+        "itemCount": 4
+      },
+      {
+        "id": "Urey, Khrushchev Borbor",
+        "name": "Urey, Khrushchev Borbor",
+        "itemCount": 3
+      },
+      {
+        "id": "Eastman, John",
+        "name": "Eastman, John",
+        "itemCount": 3
+      },
+      {
+        "id": "Gilbert, Thomas",
+        "name": "Gilbert, Thomas",
+        "itemCount": 3
+      },
+      {
+        "id": "Mensah, Sam",
+        "name": "Mensah, Sam",
+        "itemCount": 3
+      },
+      {
+        "id": "McCrumada, Charles",
+        "name": "McCrumada, Charles",
+        "itemCount": 3
+      },
+      {
+        "id": "George, Rev. Edet",
+        "name": "George, Rev. Edet",
+        "itemCount": 2
+      },
+      {
+        "id": "Fakay, Soko",
+        "name": "Fakay, Soko",
+        "itemCount": 2
+      },
+      {
+        "id": "Taylor, Adolphus",
+        "name": "Taylor, Adolphus",
+        "itemCount": 2
+      },
+      {
+        "id": "Wegee, Presley",
+        "name": "Wegee, Presley",
+        "itemCount": 2
+      },
+      {
+        "id": "Brent, Julius",
+        "name": "Brent, Julius",
+        "itemCount": 2
+      },
+      {
+        "id": "Lampkins, Justine",
+        "name": "Lampkins, Justine",
+        "itemCount": 1
+      },
+      {
+        "id": "Mathews, Hazel",
+        "name": "Mathews, Hazel",
+        "itemCount": 1
+      },
+      {
+        "id": "Chia, Patrick",
+        "name": "Chia, Patrick",
+        "itemCount": 1
+      },
+      {
+        "id": "Cole, Archie",
+        "name": "Cole, Archie",
+        "itemCount": 1
+      },
+      {
+        "id": "Manyango, Zobie",
+        "name": "Manyango, Zobie",
+        "itemCount": 1
+      },
+      {
+        "id": "Zonoe, Daniel",
+        "name": "Zonoe, Daniel",
+        "itemCount": 1
+      },
+      {
+        "id": "Zor, David",
+        "name": "Zor, David",
+        "itemCount": 1
+      },
+      {
+        "id": "Beh, Doffa",
+        "name": "Beh, Doffa",
+        "itemCount": 1
+      },
+      {
+        "id": "Crump, Alaric",
+        "name": "Crump, Alaric",
+        "itemCount": 1
+      },
+      {
+        "id": "Doe, Rev. Russell D.",
+        "name": "Doe, Rev. Russell D.",
+        "itemCount": 1
+      },
+      {
+        "id": "Harris, Rev. George D.",
+        "name": "Harris, Rev. George D.",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System",
+        "itemCount": 6
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Menyongai, Jeremiah B.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 4
+      },
+      {
+        "personId": "Lampkins, Justine",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "George, Rev. Edet",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 2
+      },
+      {
+        "personId": "Mathews, Hazel",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Urey, Khrushchev Borbor",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 3
+      },
+      {
+        "personId": "Fakay, Soko",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 2
+      },
+      {
+        "personId": "Taylor, Adolphus",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 2
+      },
+      {
+        "personId": "Wegee, Presley",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 2
+      },
+      {
+        "personId": "Eastman, John",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 3
+      },
+      {
+        "personId": "Brent, Julius",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 2
+      },
+      {
+        "personId": "Gilbert, Thomas",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 3
+      },
+      {
+        "personId": "Mensah, Sam",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 3
+      },
+      {
+        "personId": "McCrumada, Charles",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 3
+      },
+      {
+        "personId": "Chia, Patrick",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Cole, Archie",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Manyango, Zobie",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Zonoe, Daniel",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Zor, David",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Beh, Doffa",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Crump, Alaric",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Doe, Rev. Russell D.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Harris, Rev. George D.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Urey, Khrushchev Borbor",
+        "name": "Urey, Khrushchev Borbor",
+        "itemCount": 5
+      },
+      {
+        "id": "Eastman, John",
+        "name": "Eastman, John",
+        "itemCount": 5
+      },
+      {
+        "id": "Gilbert, Thomas",
+        "name": "Gilbert, Thomas",
+        "itemCount": 5
+      },
+      {
+        "id": "Mensah, Sam",
+        "name": "Mensah, Sam",
+        "itemCount": 5
+      },
+      {
+        "id": "McCrumada, Charles",
+        "name": "McCrumada, Charles",
+        "itemCount": 5
+      },
+      {
+        "id": "Menyongai, Jeremiah B.",
+        "name": "Menyongai, Jeremiah B.",
+        "itemCount": 4
+      },
+      {
+        "id": "George, Rev. Edet",
+        "name": "George, Rev. Edet",
+        "itemCount": 4
+      },
+      {
+        "id": "Fakay, Soko",
+        "name": "Fakay, Soko",
+        "itemCount": 4
+      },
+      {
+        "id": "Wegee, Presley",
+        "name": "Wegee, Presley",
+        "itemCount": 4
+      },
+      {
+        "id": "Brent, Julius",
+        "name": "Brent, Julius",
+        "itemCount": 4
+      },
+      {
+        "id": "Doe, Rev. Russell D.",
+        "name": "Doe, Rev. Russell D.",
+        "itemCount": 3
+      },
+      {
+        "id": "Harris, Rev. George D.",
+        "name": "Harris, Rev. George D.",
+        "itemCount": 3
+      },
+      {
+        "id": "Taylor, Adolphus",
+        "name": "Taylor, Adolphus",
+        "itemCount": 2
+      },
+      {
+        "id": "Lampkins, Justine",
+        "name": "Lampkins, Justine",
+        "itemCount": 1
+      },
+      {
+        "id": "Mathews, Hazel",
+        "name": "Mathews, Hazel",
+        "itemCount": 1
+      },
+      {
+        "id": "Chia, Patrick",
+        "name": "Chia, Patrick",
+        "itemCount": 1
+      },
+      {
+        "id": "Cole, Archie",
+        "name": "Cole, Archie",
+        "itemCount": 1
+      },
+      {
+        "id": "Manyango, Zobie",
+        "name": "Manyango, Zobie",
+        "itemCount": 1
+      },
+      {
+        "id": "Zonoe, Daniel",
+        "name": "Zonoe, Daniel",
+        "itemCount": 1
+      },
+      {
+        "id": "Zor, David",
+        "name": "Zor, David",
+        "itemCount": 1
+      },
+      {
+        "id": "Beh, Doffa",
+        "name": "Beh, Doffa",
+        "itemCount": 1
+      },
+      {
+        "id": "Crump, Alaric",
+        "name": "Crump, Alaric",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Liberia Broadcasting System (LBS)",
+        "name": "Liberia Broadcasting System (LBS)",
+        "itemCount": 6
+      },
+      {
+        "id": "New Life Ministries Center, Liberia",
+        "name": "New Life Ministries Center, Liberia",
+        "itemCount": 1
+      },
+      {
+        "id": "Philadelphia Central Church Kakata, Liberia",
+        "name": "Philadelphia Central Church Kakata, Liberia",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Menyongai, Jeremiah B.",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 4
+      },
+      {
+        "personId": "Lampkins, Justine",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "George, Rev. Edet",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 2
+      },
+      {
+        "personId": "Mathews, Hazel",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Urey, Khrushchev Borbor",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 3
+      },
+      {
+        "personId": "Fakay, Soko",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 2
+      },
+      {
+        "personId": "Taylor, Adolphus",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 2
+      },
+      {
+        "personId": "Wegee, Presley",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 2
+      },
+      {
+        "personId": "Eastman, John",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 3
+      },
+      {
+        "personId": "Brent, Julius",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 2
+      },
+      {
+        "personId": "Gilbert, Thomas",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 3
+      },
+      {
+        "personId": "Mensah, Sam",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 3
+      },
+      {
+        "personId": "McCrumada, Charles",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 3
+      },
+      {
+        "personId": "Chia, Patrick",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Cole, Archie",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Manyango, Zobie",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Zonoe, Daniel",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Zor, David",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Beh, Doffa",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Crump, Alaric",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Doe, Rev. Russell D.",
+        "targetId": "New Life Ministries Center, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Harris, Rev. George D.",
+        "targetId": "New Life Ministries Center, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "George, Rev. Edet",
+        "targetId": "New Life Ministries Center, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Urey, Khrushchev Borbor",
+        "targetId": "New Life Ministries Center, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "McCrumada, Charles",
+        "targetId": "New Life Ministries Center, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Fakay, Soko",
+        "targetId": "New Life Ministries Center, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Wegee, Presley",
+        "targetId": "New Life Ministries Center, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Eastman, John",
+        "targetId": "New Life Ministries Center, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Brent, Julius",
+        "targetId": "New Life Ministries Center, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Gilbert, Thomas",
+        "targetId": "New Life Ministries Center, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Mensah, Sam",
+        "targetId": "New Life Ministries Center, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Doe, Rev. Russell D.",
+        "targetId": "Philadelphia Central Church Kakata, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Harris, Rev. George D.",
+        "targetId": "Philadelphia Central Church Kakata, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "George, Rev. Edet",
+        "targetId": "Philadelphia Central Church Kakata, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Urey, Khrushchev Borbor",
+        "targetId": "Philadelphia Central Church Kakata, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "McCrumada, Charles",
+        "targetId": "Philadelphia Central Church Kakata, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Fakay, Soko",
+        "targetId": "Philadelphia Central Church Kakata, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Wegee, Presley",
+        "targetId": "Philadelphia Central Church Kakata, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Eastman, John",
+        "targetId": "Philadelphia Central Church Kakata, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Brent, Julius",
+        "targetId": "Philadelphia Central Church Kakata, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Gilbert, Thomas",
+        "targetId": "Philadelphia Central Church Kakata, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Mensah, Sam",
+        "targetId": "Philadelphia Central Church Kakata, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Doe, Rev. Russell D.",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Harris, Rev. George D.",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Liberia",

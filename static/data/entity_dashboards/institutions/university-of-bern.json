@@ -118,6 +118,36 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Haller, Tobias",
+        "name": "Haller, Tobias",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Haller, Tobias",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
   "locations": [
     {
       "country": "Tanzania",

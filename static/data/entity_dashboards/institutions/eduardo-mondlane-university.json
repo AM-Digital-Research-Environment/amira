@@ -289,6 +289,1119 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Kronenburg García, Angela",
+        "name": "Kronenburg García, Angela",
+        "itemCount": 4
+      },
+      {
+        "id": "Roque de Pinho, Joana",
+        "name": "Roque de Pinho, Joana",
+        "itemCount": 3
+      },
+      {
+        "id": "Munguambe, Danicia",
+        "name": "Munguambe, Danicia",
+        "itemCount": 2
+      },
+      {
+        "id": "Goldman, Mara",
+        "name": "Goldman, Mara",
+        "itemCount": 2
+      },
+      {
+        "id": "Sternberg, Troy",
+        "name": "Sternberg, Troy",
+        "itemCount": 2
+      },
+      {
+        "id": "Pase, Andrea",
+        "name": "Pase, Andrea",
+        "itemCount": 2
+      },
+      {
+        "id": "Behrends, Andrea",
+        "name": "Behrends, Andrea",
+        "itemCount": 2
+      },
+      {
+        "id": "Gargallo, Eduard",
+        "name": "Gargallo, Eduard",
+        "itemCount": 2
+      },
+      {
+        "id": "Braga, Carla",
+        "name": "Braga, Carla",
+        "itemCount": 2
+      },
+      {
+        "id": "Tas Kronenburg, Zaira",
+        "name": "Tas Kronenburg, Zaira",
+        "itemCount": 2
+      },
+      {
+        "id": "Nurudong, Primus",
+        "name": "Nurudong, Primus",
+        "itemCount": 1
+      },
+      {
+        "id": "Korbeogo, Gabin",
+        "name": "Korbeogo, Gabin",
+        "itemCount": 1
+      },
+      {
+        "id": "Abd ElWahid Abd ElRahim, Ahmed",
+        "name": "Abd ElWahid Abd ElRahim, Ahmed",
+        "itemCount": 1
+      },
+      {
+        "id": "Agyei-Mensah, Juliana",
+        "name": "Agyei-Mensah, Juliana",
+        "itemCount": 1
+      },
+      {
+        "id": "Bautdinova, Iuliia",
+        "name": "Bautdinova, Iuliia",
+        "itemCount": 1
+      },
+      {
+        "id": "Moschetti, Marta",
+        "name": "Moschetti, Marta",
+        "itemCount": 1
+      },
+      {
+        "id": "Hashimshony Yaffe, Nurit",
+        "name": "Hashimshony Yaffe, Nurit",
+        "itemCount": 1
+      },
+      {
+        "id": "Pepa, Mariasole",
+        "name": "Pepa, Mariasole",
+        "itemCount": 1
+      },
+      {
+        "id": "Samimi, Cyrus",
+        "name": "Samimi, Cyrus",
+        "itemCount": 1
+      },
+      {
+        "id": "Schrijver, Annemiek Pas",
+        "name": "Schrijver, Annemiek Pas",
+        "itemCount": 1
+      },
+      {
+        "id": "Gambiza, James",
+        "name": "Gambiza, James",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond",
+        "itemCount": 4
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Nurudong, Primus",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      },
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "UBT_Covid192021",
+        "count": 4
+      },
+      {
+        "personId": "Roque de Pinho, Joana",
+        "targetId": "UBT_Covid192021",
+        "count": 3
+      },
+      {
+        "personId": "Munguambe, Danicia",
+        "targetId": "UBT_Covid192021",
+        "count": 2
+      },
+      {
+        "personId": "Goldman, Mara",
+        "targetId": "UBT_Covid192021",
+        "count": 2
+      },
+      {
+        "personId": "Korbeogo, Gabin",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      },
+      {
+        "personId": "Sternberg, Troy",
+        "targetId": "UBT_Covid192021",
+        "count": 2
+      },
+      {
+        "personId": "Abd ElWahid Abd ElRahim, Ahmed",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      },
+      {
+        "personId": "Pase, Andrea",
+        "targetId": "UBT_Covid192021",
+        "count": 2
+      },
+      {
+        "personId": "Behrends, Andrea",
+        "targetId": "UBT_Covid192021",
+        "count": 2
+      },
+      {
+        "personId": "Gargallo, Eduard",
+        "targetId": "UBT_Covid192021",
+        "count": 2
+      },
+      {
+        "personId": "Braga, Carla",
+        "targetId": "UBT_Covid192021",
+        "count": 2
+      },
+      {
+        "personId": "Agyei-Mensah, Juliana",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      },
+      {
+        "personId": "Bautdinova, Iuliia",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      },
+      {
+        "personId": "Moschetti, Marta",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      },
+      {
+        "personId": "Tas Kronenburg, Zaira",
+        "targetId": "UBT_Covid192021",
+        "count": 2
+      },
+      {
+        "personId": "Hashimshony Yaffe, Nurit",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      },
+      {
+        "personId": "Pepa, Mariasole",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      },
+      {
+        "personId": "Samimi, Cyrus",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      },
+      {
+        "personId": "Schrijver, Annemiek Pas",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      },
+      {
+        "personId": "Gambiza, James",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Kronenburg García, Angela",
+        "name": "Kronenburg García, Angela",
+        "itemCount": 22
+      },
+      {
+        "id": "Roque de Pinho, Joana",
+        "name": "Roque de Pinho, Joana",
+        "itemCount": 18
+      },
+      {
+        "id": "Munguambe, Danicia",
+        "name": "Munguambe, Danicia",
+        "itemCount": 13
+      },
+      {
+        "id": "Goldman, Mara",
+        "name": "Goldman, Mara",
+        "itemCount": 13
+      },
+      {
+        "id": "Sternberg, Troy",
+        "name": "Sternberg, Troy",
+        "itemCount": 13
+      },
+      {
+        "id": "Tas Kronenburg, Zaira",
+        "name": "Tas Kronenburg, Zaira",
+        "itemCount": 13
+      },
+      {
+        "id": "Gargallo, Eduard",
+        "name": "Gargallo, Eduard",
+        "itemCount": 12
+      },
+      {
+        "id": "Pase, Andrea",
+        "name": "Pase, Andrea",
+        "itemCount": 9
+      },
+      {
+        "id": "Behrends, Andrea",
+        "name": "Behrends, Andrea",
+        "itemCount": 9
+      },
+      {
+        "id": "Braga, Carla",
+        "name": "Braga, Carla",
+        "itemCount": 9
+      },
+      {
+        "id": "Samimi, Cyrus",
+        "name": "Samimi, Cyrus",
+        "itemCount": 8
+      },
+      {
+        "id": "Schrijver, Annemiek Pas",
+        "name": "Schrijver, Annemiek Pas",
+        "itemCount": 8
+      },
+      {
+        "id": "Gambiza, James",
+        "name": "Gambiza, James",
+        "itemCount": 8
+      },
+      {
+        "id": "Nurudong, Primus",
+        "name": "Nurudong, Primus",
+        "itemCount": 5
+      },
+      {
+        "id": "Korbeogo, Gabin",
+        "name": "Korbeogo, Gabin",
+        "itemCount": 5
+      },
+      {
+        "id": "Hashimshony Yaffe, Nurit",
+        "name": "Hashimshony Yaffe, Nurit",
+        "itemCount": 5
+      },
+      {
+        "id": "Pepa, Mariasole",
+        "name": "Pepa, Mariasole",
+        "itemCount": 5
+      },
+      {
+        "id": "Abd ElWahid Abd ElRahim, Ahmed",
+        "name": "Abd ElWahid Abd ElRahim, Ahmed",
+        "itemCount": 4
+      },
+      {
+        "id": "Agyei-Mensah, Juliana",
+        "name": "Agyei-Mensah, Juliana",
+        "itemCount": 4
+      },
+      {
+        "id": "Bautdinova, Iuliia",
+        "name": "Bautdinova, Iuliia",
+        "itemCount": 4
+      },
+      {
+        "id": "Moschetti, Marta",
+        "name": "Moschetti, Marta",
+        "itemCount": 4
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Padua",
+        "name": "University of Padua",
+        "itemCount": 4
+      },
+      {
+        "id": "ISCTE - Instituto Universitário de Lisboa",
+        "name": "ISCTE - Instituto Universitário de Lisboa",
+        "itemCount": 4
+      },
+      {
+        "id": "University of Bayreuth",
+        "name": "University of Bayreuth",
+        "itemCount": 3
+      },
+      {
+        "id": "University of Colorado Boulder",
+        "name": "University of Colorado Boulder",
+        "itemCount": 2
+      },
+      {
+        "id": "University of Oxford",
+        "name": "University of Oxford",
+        "itemCount": 2
+      },
+      {
+        "id": "Leiden University College",
+        "name": "Leiden University College",
+        "itemCount": 2
+      },
+      {
+        "id": "Université Joseph Ki-Zerbo",
+        "name": "Université Joseph Ki-Zerbo",
+        "itemCount": 1
+      },
+      {
+        "id": "University of Palermo",
+        "name": "University of Palermo",
+        "itemCount": 1
+      },
+      {
+        "id": "The Academic College of Tel Aviv-Yaffo",
+        "name": "The Academic College of Tel Aviv-Yaffo",
+        "itemCount": 1
+      },
+      {
+        "id": "Wageningen University",
+        "name": "Wageningen University",
+        "itemCount": 1
+      },
+      {
+        "id": "Rhodes University",
+        "name": "Rhodes University",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Nurudong, Primus",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "University of Padua",
+        "count": 4
+      },
+      {
+        "personId": "Roque de Pinho, Joana",
+        "targetId": "University of Padua",
+        "count": 3
+      },
+      {
+        "personId": "Munguambe, Danicia",
+        "targetId": "University of Padua",
+        "count": 2
+      },
+      {
+        "personId": "Goldman, Mara",
+        "targetId": "University of Padua",
+        "count": 2
+      },
+      {
+        "personId": "Korbeogo, Gabin",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Sternberg, Troy",
+        "targetId": "University of Padua",
+        "count": 2
+      },
+      {
+        "personId": "Nurudong, Primus",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 4
+      },
+      {
+        "personId": "Roque de Pinho, Joana",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 3
+      },
+      {
+        "personId": "Munguambe, Danicia",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 2
+      },
+      {
+        "personId": "Goldman, Mara",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 2
+      },
+      {
+        "personId": "Korbeogo, Gabin",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Sternberg, Troy",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 2
+      },
+      {
+        "personId": "Nurudong, Primus",
+        "targetId": "University of Colorado Boulder",
+        "count": 1
+      },
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "University of Colorado Boulder",
+        "count": 2
+      },
+      {
+        "personId": "Roque de Pinho, Joana",
+        "targetId": "University of Colorado Boulder",
+        "count": 2
+      },
+      {
+        "personId": "Munguambe, Danicia",
+        "targetId": "University of Colorado Boulder",
+        "count": 2
+      },
+      {
+        "personId": "Goldman, Mara",
+        "targetId": "University of Colorado Boulder",
+        "count": 2
+      },
+      {
+        "personId": "Korbeogo, Gabin",
+        "targetId": "University of Colorado Boulder",
+        "count": 1
+      },
+      {
+        "personId": "Sternberg, Troy",
+        "targetId": "University of Colorado Boulder",
+        "count": 2
+      },
+      {
+        "personId": "Nurudong, Primus",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Roque de Pinho, Joana",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Munguambe, Danicia",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Goldman, Mara",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Korbeogo, Gabin",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Sternberg, Troy",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Nurudong, Primus",
+        "targetId": "University of Oxford",
+        "count": 1
+      },
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "University of Oxford",
+        "count": 2
+      },
+      {
+        "personId": "Roque de Pinho, Joana",
+        "targetId": "University of Oxford",
+        "count": 2
+      },
+      {
+        "personId": "Munguambe, Danicia",
+        "targetId": "University of Oxford",
+        "count": 2
+      },
+      {
+        "personId": "Goldman, Mara",
+        "targetId": "University of Oxford",
+        "count": 2
+      },
+      {
+        "personId": "Korbeogo, Gabin",
+        "targetId": "University of Oxford",
+        "count": 1
+      },
+      {
+        "personId": "Sternberg, Troy",
+        "targetId": "University of Oxford",
+        "count": 2
+      },
+      {
+        "personId": "Abd ElWahid Abd ElRahim, Ahmed",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Pase, Andrea",
+        "targetId": "University of Padua",
+        "count": 2
+      },
+      {
+        "personId": "Behrends, Andrea",
+        "targetId": "University of Padua",
+        "count": 2
+      },
+      {
+        "personId": "Gargallo, Eduard",
+        "targetId": "University of Padua",
+        "count": 2
+      },
+      {
+        "personId": "Braga, Carla",
+        "targetId": "University of Padua",
+        "count": 2
+      },
+      {
+        "personId": "Agyei-Mensah, Juliana",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Bautdinova, Iuliia",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Moschetti, Marta",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Abd ElWahid Abd ElRahim, Ahmed",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "University of Bayreuth",
+        "count": 3
+      },
+      {
+        "personId": "Pase, Andrea",
+        "targetId": "University of Bayreuth",
+        "count": 2
+      },
+      {
+        "personId": "Behrends, Andrea",
+        "targetId": "University of Bayreuth",
+        "count": 2
+      },
+      {
+        "personId": "Gargallo, Eduard",
+        "targetId": "University of Bayreuth",
+        "count": 2
+      },
+      {
+        "personId": "Braga, Carla",
+        "targetId": "University of Bayreuth",
+        "count": 2
+      },
+      {
+        "personId": "Agyei-Mensah, Juliana",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Bautdinova, Iuliia",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Moschetti, Marta",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Abd ElWahid Abd ElRahim, Ahmed",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Pase, Andrea",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 2
+      },
+      {
+        "personId": "Behrends, Andrea",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 2
+      },
+      {
+        "personId": "Gargallo, Eduard",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 2
+      },
+      {
+        "personId": "Braga, Carla",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 2
+      },
+      {
+        "personId": "Agyei-Mensah, Juliana",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Bautdinova, Iuliia",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Moschetti, Marta",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Abd ElWahid Abd ElRahim, Ahmed",
+        "targetId": "University of Palermo",
+        "count": 1
+      },
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "University of Palermo",
+        "count": 1
+      },
+      {
+        "personId": "Pase, Andrea",
+        "targetId": "University of Palermo",
+        "count": 1
+      },
+      {
+        "personId": "Behrends, Andrea",
+        "targetId": "University of Palermo",
+        "count": 1
+      },
+      {
+        "personId": "Gargallo, Eduard",
+        "targetId": "University of Palermo",
+        "count": 1
+      },
+      {
+        "personId": "Braga, Carla",
+        "targetId": "University of Palermo",
+        "count": 1
+      },
+      {
+        "personId": "Agyei-Mensah, Juliana",
+        "targetId": "University of Palermo",
+        "count": 1
+      },
+      {
+        "personId": "Bautdinova, Iuliia",
+        "targetId": "University of Palermo",
+        "count": 1
+      },
+      {
+        "personId": "Moschetti, Marta",
+        "targetId": "University of Palermo",
+        "count": 1
+      },
+      {
+        "personId": "Tas Kronenburg, Zaira",
+        "targetId": "Leiden University College",
+        "count": 2
+      },
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "Leiden University College",
+        "count": 2
+      },
+      {
+        "personId": "Hashimshony Yaffe, Nurit",
+        "targetId": "Leiden University College",
+        "count": 1
+      },
+      {
+        "personId": "Braga, Carla",
+        "targetId": "Leiden University College",
+        "count": 1
+      },
+      {
+        "personId": "Pase, Andrea",
+        "targetId": "Leiden University College",
+        "count": 1
+      },
+      {
+        "personId": "Pepa, Mariasole",
+        "targetId": "Leiden University College",
+        "count": 1
+      },
+      {
+        "personId": "Roque de Pinho, Joana",
+        "targetId": "Leiden University College",
+        "count": 2
+      },
+      {
+        "personId": "Behrends, Andrea",
+        "targetId": "Leiden University College",
+        "count": 1
+      },
+      {
+        "personId": "Tas Kronenburg, Zaira",
+        "targetId": "University of Padua",
+        "count": 2
+      },
+      {
+        "personId": "Hashimshony Yaffe, Nurit",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Pepa, Mariasole",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Tas Kronenburg, Zaira",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 1
+      },
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 1
+      },
+      {
+        "personId": "Hashimshony Yaffe, Nurit",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 1
+      },
+      {
+        "personId": "Braga, Carla",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 1
+      },
+      {
+        "personId": "Pase, Andrea",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 1
+      },
+      {
+        "personId": "Pepa, Mariasole",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 1
+      },
+      {
+        "personId": "Roque de Pinho, Joana",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 1
+      },
+      {
+        "personId": "Behrends, Andrea",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 1
+      },
+      {
+        "personId": "Tas Kronenburg, Zaira",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 2
+      },
+      {
+        "personId": "Hashimshony Yaffe, Nurit",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Pepa, Mariasole",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Tas Kronenburg, Zaira",
+        "targetId": "University of Bayreuth",
+        "count": 2
+      },
+      {
+        "personId": "Hashimshony Yaffe, Nurit",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Pepa, Mariasole",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Roque de Pinho, Joana",
+        "targetId": "University of Bayreuth",
+        "count": 2
+      },
+      {
+        "personId": "Samimi, Cyrus",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Schrijver, Annemiek Pas",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Gambiza, James",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Samimi, Cyrus",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Schrijver, Annemiek Pas",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Gambiza, James",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Gargallo, Eduard",
+        "targetId": "University of Colorado Boulder",
+        "count": 1
+      },
+      {
+        "personId": "Tas Kronenburg, Zaira",
+        "targetId": "University of Colorado Boulder",
+        "count": 1
+      },
+      {
+        "personId": "Samimi, Cyrus",
+        "targetId": "University of Colorado Boulder",
+        "count": 1
+      },
+      {
+        "personId": "Schrijver, Annemiek Pas",
+        "targetId": "University of Colorado Boulder",
+        "count": 1
+      },
+      {
+        "personId": "Gambiza, James",
+        "targetId": "University of Colorado Boulder",
+        "count": 1
+      },
+      {
+        "personId": "Gargallo, Eduard",
+        "targetId": "University of Oxford",
+        "count": 1
+      },
+      {
+        "personId": "Tas Kronenburg, Zaira",
+        "targetId": "University of Oxford",
+        "count": 1
+      },
+      {
+        "personId": "Samimi, Cyrus",
+        "targetId": "University of Oxford",
+        "count": 1
+      },
+      {
+        "personId": "Schrijver, Annemiek Pas",
+        "targetId": "University of Oxford",
+        "count": 1
+      },
+      {
+        "personId": "Gambiza, James",
+        "targetId": "University of Oxford",
+        "count": 1
+      },
+      {
+        "personId": "Gargallo, Eduard",
+        "targetId": "Leiden University College",
+        "count": 1
+      },
+      {
+        "personId": "Goldman, Mara",
+        "targetId": "Leiden University College",
+        "count": 1
+      },
+      {
+        "personId": "Sternberg, Troy",
+        "targetId": "Leiden University College",
+        "count": 1
+      },
+      {
+        "personId": "Samimi, Cyrus",
+        "targetId": "Leiden University College",
+        "count": 1
+      },
+      {
+        "personId": "Schrijver, Annemiek Pas",
+        "targetId": "Leiden University College",
+        "count": 1
+      },
+      {
+        "personId": "Gambiza, James",
+        "targetId": "Leiden University College",
+        "count": 1
+      },
+      {
+        "personId": "Munguambe, Danicia",
+        "targetId": "Leiden University College",
+        "count": 1
+      },
+      {
+        "personId": "Goldman, Mara",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Sternberg, Troy",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Samimi, Cyrus",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Schrijver, Annemiek Pas",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Gambiza, James",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Munguambe, Danicia",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Roque de Pinho, Joana",
+        "targetId": "Wageningen University",
+        "count": 1
+      },
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "Wageningen University",
+        "count": 1
+      },
+      {
+        "personId": "Gargallo, Eduard",
+        "targetId": "Wageningen University",
+        "count": 1
+      },
+      {
+        "personId": "Goldman, Mara",
+        "targetId": "Wageningen University",
+        "count": 1
+      },
+      {
+        "personId": "Sternberg, Troy",
+        "targetId": "Wageningen University",
+        "count": 1
+      },
+      {
+        "personId": "Tas Kronenburg, Zaira",
+        "targetId": "Wageningen University",
+        "count": 1
+      },
+      {
+        "personId": "Samimi, Cyrus",
+        "targetId": "Wageningen University",
+        "count": 1
+      },
+      {
+        "personId": "Schrijver, Annemiek Pas",
+        "targetId": "Wageningen University",
+        "count": 1
+      },
+      {
+        "personId": "Gambiza, James",
+        "targetId": "Wageningen University",
+        "count": 1
+      },
+      {
+        "personId": "Munguambe, Danicia",
+        "targetId": "Wageningen University",
+        "count": 1
+      },
+      {
+        "personId": "Roque de Pinho, Joana",
+        "targetId": "Rhodes University",
+        "count": 1
+      },
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "Rhodes University",
+        "count": 1
+      },
+      {
+        "personId": "Gargallo, Eduard",
+        "targetId": "Rhodes University",
+        "count": 1
+      },
+      {
+        "personId": "Goldman, Mara",
+        "targetId": "Rhodes University",
+        "count": 1
+      },
+      {
+        "personId": "Sternberg, Troy",
+        "targetId": "Rhodes University",
+        "count": 1
+      },
+      {
+        "personId": "Tas Kronenburg, Zaira",
+        "targetId": "Rhodes University",
+        "count": 1
+      },
+      {
+        "personId": "Samimi, Cyrus",
+        "targetId": "Rhodes University",
+        "count": 1
+      },
+      {
+        "personId": "Schrijver, Annemiek Pas",
+        "targetId": "Rhodes University",
+        "count": 1
+      },
+      {
+        "personId": "Gambiza, James",
+        "targetId": "Rhodes University",
+        "count": 1
+      },
+      {
+        "personId": "Munguambe, Danicia",
+        "targetId": "Rhodes University",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Ghana",

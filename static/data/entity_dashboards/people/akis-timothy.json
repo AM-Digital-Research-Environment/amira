@@ -162,6 +162,164 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [
+      "Greven, Katharina"
+    ],
+    "matrix": [
+      [
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Greven, Katharina",
+        "name": "Greven, Katharina",
+        "itemCount": 2
+      },
+      {
+        "id": "Beier, Ulli",
+        "name": "Beier, Ulli",
+        "itemCount": 1
+      },
+      {
+        "id": "Bulmer, Ralph",
+        "name": "Bulmer, Ralph",
+        "itemCount": 1
+      },
+      {
+        "id": "Gunther, John",
+        "name": "Gunther, John",
+        "itemCount": 1
+      },
+      {
+        "id": "Beier, Georgina",
+        "name": "Beier, Georgina",
+        "itemCount": 1
+      },
+      {
+        "id": "Kauage, Mathias",
+        "name": "Kauage, Mathias",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Beier, Ulli",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 1
+      },
+      {
+        "personId": "Greven, Katharina",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 2
+      },
+      {
+        "personId": "Bulmer, Ralph",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 1
+      },
+      {
+        "personId": "Gunther, John",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 1
+      },
+      {
+        "personId": "Beier, Georgina",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 1
+      },
+      {
+        "personId": "Kauage, Mathias",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Greven, Katharina",
+        "name": "Greven, Katharina",
+        "itemCount": 2
+      },
+      {
+        "id": "Beier, Ulli",
+        "name": "Beier, Ulli",
+        "itemCount": 1
+      },
+      {
+        "id": "Bulmer, Ralph",
+        "name": "Bulmer, Ralph",
+        "itemCount": 1
+      },
+      {
+        "id": "Gunther, John",
+        "name": "Gunther, John",
+        "itemCount": 1
+      },
+      {
+        "id": "Beier, Georgina",
+        "name": "Beier, Georgina",
+        "itemCount": 1
+      },
+      {
+        "id": "Kauage, Mathias",
+        "name": "Kauage, Mathias",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Bayreuth",
+        "name": "University of Bayreuth",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Beier, Ulli",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Greven, Katharina",
+        "targetId": "University of Bayreuth",
+        "count": 2
+      },
+      {
+        "personId": "Bulmer, Ralph",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Gunther, John",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Beier, Georgina",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Kauage, Mathias",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Papua New Guinea",

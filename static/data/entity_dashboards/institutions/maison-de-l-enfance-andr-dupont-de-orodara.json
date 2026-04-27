@@ -125,6 +125,36 @@
       "value": 2
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Korogo, Edgard",
+        "name": "Korogo, Edgard",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Korogo, Edgard",
+        "targetId": "UJKZ_JITBF2020",
+        "count": 2
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
   "locations": [
     {
       "country": "Burkina Faso",

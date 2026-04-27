@@ -87,6 +87,50 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [],
+    "matrix": []
+  },
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Elder, D. Rose",
+        "name": "Elder, D. Rose",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "Ohio University",
+        "name": "Ohio University",
+        "itemCount": 1
+      },
+      {
+        "id": "Ohio State University",
+        "name": "Ohio State University",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Elder, D. Rose",
+        "targetId": "Ohio University",
+        "count": 1
+      },
+      {
+        "personId": "Elder, D. Rose",
+        "targetId": "Ohio State University",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "South Africa",

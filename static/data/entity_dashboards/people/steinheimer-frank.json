@@ -90,6 +90,58 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [],
+    "matrix": []
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Zwier, Pim",
+        "name": "Zwier, Pim",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Zwier, Pim",
+        "targetId": "UBT_Karakul2019",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Zwier, Pim",
+        "name": "Zwier, Pim",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Martin-Luther-Universität Halle-Wittenberg",
+        "name": "Martin-Luther-Universität Halle-Wittenberg",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Zwier, Pim",
+        "targetId": "Martin-Luther-Universität Halle-Wittenberg",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Germany",

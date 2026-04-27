@@ -79,6 +79,40 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [],
+    "matrix": []
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Masengo, Edouard",
+        "name": "Masengo, Edouard",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Masengo, Edouard",
+        "targetId": "UBT_DigiRet2021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
   "locations": [
     {
       "country": "Kenya",

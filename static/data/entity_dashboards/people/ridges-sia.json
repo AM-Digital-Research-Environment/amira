@@ -62,6 +62,78 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [],
+    "matrix": []
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Key, Apra",
+        "name": "Key, Apra",
+        "itemCount": 1
+      },
+      {
+        "id": "Collins, Hawa Andrews",
+        "name": "Collins, Hawa Andrews",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Key, Apra",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Collins, Hawa Andrews",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Key, Apra",
+        "name": "Key, Apra",
+        "itemCount": 1
+      },
+      {
+        "id": "Collins, Hawa Andrews",
+        "name": "Collins, Hawa Andrews",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Liberia Broadcasting System (LBS)",
+        "name": "Liberia Broadcasting System (LBS)",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Key, Apra",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Collins, Hawa Andrews",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Liberia",

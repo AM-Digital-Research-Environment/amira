@@ -82,6 +82,52 @@
       "value": 3
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Photography",
+      "Anthropology",
+      "Jewelry",
+      "Photographs",
+      "Tuaregs"
+    ],
+    "matrix": [
+      [
+        0,
+        4,
+        4,
+        4,
+        3
+      ],
+      [
+        4,
+        0,
+        4,
+        4,
+        3
+      ],
+      [
+        4,
+        4,
+        0,
+        4,
+        3
+      ],
+      [
+        4,
+        4,
+        4,
+        0,
+        3
+      ],
+      [
+        3,
+        3,
+        3,
+        3,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Photography",

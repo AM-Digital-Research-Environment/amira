@@ -452,6 +452,188 @@
       "value": 3
     }
   ],
+  "coContributors": {
+    "names": [
+      "Wild, Frederik",
+      "Greßer, Christina",
+      "Meierrieks, Daniel",
+      "Frempong, Raymond Boadi"
+    ],
+    "matrix": [
+      [
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        7,
+        0
+      ],
+      [
+        0,
+        7,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Wild, Frederik",
+        "name": "Wild, Frederik",
+        "itemCount": 20
+      },
+      {
+        "id": "Greßer, Christina",
+        "name": "Greßer, Christina",
+        "itemCount": 7
+      },
+      {
+        "id": "Meierrieks, Daniel",
+        "name": "Meierrieks, Daniel",
+        "itemCount": 7
+      },
+      {
+        "id": "Frempong, Raymond Boadi",
+        "name": "Frempong, Raymond Boadi",
+        "itemCount": 3
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)",
+        "itemCount": 28
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Wild, Frederik",
+        "targetId": "UBT_MuDAIMa2019",
+        "count": 20
+      },
+      {
+        "personId": "Greßer, Christina",
+        "targetId": "UBT_MuDAIMa2019",
+        "count": 7
+      },
+      {
+        "personId": "Meierrieks, Daniel",
+        "targetId": "UBT_MuDAIMa2019",
+        "count": 7
+      },
+      {
+        "personId": "Frempong, Raymond Boadi",
+        "targetId": "UBT_MuDAIMa2019",
+        "count": 3
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Wild, Frederik",
+        "name": "Wild, Frederik",
+        "itemCount": 39
+      },
+      {
+        "id": "Greßer, Christina",
+        "name": "Greßer, Christina",
+        "itemCount": 21
+      },
+      {
+        "id": "Meierrieks, Daniel",
+        "name": "Meierrieks, Daniel",
+        "itemCount": 21
+      },
+      {
+        "id": "Frempong, Raymond Boadi",
+        "name": "Frempong, Raymond Boadi",
+        "itemCount": 5
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Bayreuth",
+        "name": "University of Bayreuth",
+        "itemCount": 28
+      },
+      {
+        "id": "Center for Research in Economics, Management, and the Arts, Zurich, Switzerland (CREMA)",
+        "name": "Center for Research in Economics, Management, and the Arts, Zurich, Switzerland (CREMA)",
+        "itemCount": 27
+      },
+      {
+        "id": "WZB Berlin Social Science Center",
+        "name": "WZB Berlin Social Science Center",
+        "itemCount": 7
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Wild, Frederik",
+        "targetId": "University of Bayreuth",
+        "count": 20
+      },
+      {
+        "personId": "Wild, Frederik",
+        "targetId": "Center for Research in Economics, Management, and the Arts, Zurich, Switzerland (CREMA)",
+        "count": 19
+      },
+      {
+        "personId": "Greßer, Christina",
+        "targetId": "University of Bayreuth",
+        "count": 7
+      },
+      {
+        "personId": "Meierrieks, Daniel",
+        "targetId": "University of Bayreuth",
+        "count": 7
+      },
+      {
+        "personId": "Greßer, Christina",
+        "targetId": "WZB Berlin Social Science Center",
+        "count": 7
+      },
+      {
+        "personId": "Meierrieks, Daniel",
+        "targetId": "WZB Berlin Social Science Center",
+        "count": 7
+      },
+      {
+        "personId": "Greßer, Christina",
+        "targetId": "Center for Research in Economics, Management, and the Arts, Zurich, Switzerland (CREMA)",
+        "count": 7
+      },
+      {
+        "personId": "Meierrieks, Daniel",
+        "targetId": "Center for Research in Economics, Management, and the Arts, Zurich, Switzerland (CREMA)",
+        "count": 7
+      },
+      {
+        "personId": "Frempong, Raymond Boadi",
+        "targetId": "University of Bayreuth",
+        "count": 3
+      },
+      {
+        "personId": "Frempong, Raymond Boadi",
+        "targetId": "Center for Research in Economics, Management, and the Arts, Zurich, Switzerland (CREMA)",
+        "count": 2
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Germany",

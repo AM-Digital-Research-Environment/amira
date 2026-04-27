@@ -65,6 +65,50 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [],
+    "matrix": []
+  },
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Tracey, Andrew",
+        "name": "Tracey, Andrew",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "Our Lady of Victories Cathedral, Yaoundé, Cameroon",
+        "name": "Our Lady of Victories Cathedral, Yaoundé, Cameroon",
+        "itemCount": 1
+      },
+      {
+        "id": "International Library of African Music (ILAM)",
+        "name": "International Library of African Music (ILAM)",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Tracey, Andrew",
+        "targetId": "Our Lady of Victories Cathedral, Yaoundé, Cameroon",
+        "count": 1
+      },
+      {
+        "personId": "Tracey, Andrew",
+        "targetId": "International Library of African Music (ILAM)",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "South Africa",

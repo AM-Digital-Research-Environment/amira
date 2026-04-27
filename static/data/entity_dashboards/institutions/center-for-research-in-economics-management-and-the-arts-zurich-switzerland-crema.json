@@ -418,6 +418,154 @@
       "value": 2
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Stadelmann, David",
+        "name": "Stadelmann, David",
+        "itemCount": 27
+      },
+      {
+        "id": "Wild, Frederik",
+        "name": "Wild, Frederik",
+        "itemCount": 19
+      },
+      {
+        "id": "Greßer, Christina",
+        "name": "Greßer, Christina",
+        "itemCount": 7
+      },
+      {
+        "id": "Meierrieks, Daniel",
+        "name": "Meierrieks, Daniel",
+        "itemCount": 7
+      },
+      {
+        "id": "Frempong, Raymond Boadi",
+        "name": "Frempong, Raymond Boadi",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)",
+        "itemCount": 27
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Wild, Frederik",
+        "targetId": "UBT_MuDAIMa2019",
+        "count": 19
+      },
+      {
+        "personId": "Stadelmann, David",
+        "targetId": "UBT_MuDAIMa2019",
+        "count": 27
+      },
+      {
+        "personId": "Greßer, Christina",
+        "targetId": "UBT_MuDAIMa2019",
+        "count": 7
+      },
+      {
+        "personId": "Meierrieks, Daniel",
+        "targetId": "UBT_MuDAIMa2019",
+        "count": 7
+      },
+      {
+        "personId": "Frempong, Raymond Boadi",
+        "targetId": "UBT_MuDAIMa2019",
+        "count": 2
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Stadelmann, David",
+        "name": "Stadelmann, David",
+        "itemCount": 34
+      },
+      {
+        "id": "Wild, Frederik",
+        "name": "Wild, Frederik",
+        "itemCount": 19
+      },
+      {
+        "id": "Greßer, Christina",
+        "name": "Greßer, Christina",
+        "itemCount": 14
+      },
+      {
+        "id": "Meierrieks, Daniel",
+        "name": "Meierrieks, Daniel",
+        "itemCount": 14
+      },
+      {
+        "id": "Frempong, Raymond Boadi",
+        "name": "Frempong, Raymond Boadi",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Bayreuth",
+        "name": "University of Bayreuth",
+        "itemCount": 27
+      },
+      {
+        "id": "WZB Berlin Social Science Center",
+        "name": "WZB Berlin Social Science Center",
+        "itemCount": 7
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Wild, Frederik",
+        "targetId": "University of Bayreuth",
+        "count": 19
+      },
+      {
+        "personId": "Stadelmann, David",
+        "targetId": "University of Bayreuth",
+        "count": 27
+      },
+      {
+        "personId": "Greßer, Christina",
+        "targetId": "University of Bayreuth",
+        "count": 7
+      },
+      {
+        "personId": "Meierrieks, Daniel",
+        "targetId": "University of Bayreuth",
+        "count": 7
+      },
+      {
+        "personId": "Greßer, Christina",
+        "targetId": "WZB Berlin Social Science Center",
+        "count": 7
+      },
+      {
+        "personId": "Meierrieks, Daniel",
+        "targetId": "WZB Berlin Social Science Center",
+        "count": 7
+      },
+      {
+        "personId": "Stadelmann, David",
+        "targetId": "WZB Berlin Social Science Center",
+        "count": 7
+      },
+      {
+        "personId": "Frempong, Raymond Boadi",
+        "targetId": "University of Bayreuth",
+        "count": 2
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Germany",

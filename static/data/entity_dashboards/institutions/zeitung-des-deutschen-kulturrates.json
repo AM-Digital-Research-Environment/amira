@@ -86,6 +86,54 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Vierke, Ulf",
+        "name": "Vierke, Ulf",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Vierke, Ulf",
+        "targetId": "Ext_BayGlo2025",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Vierke, Ulf",
+        "name": "Vierke, Ulf",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Bayreuth",
+        "name": "University of Bayreuth",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Vierke, Ulf",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Germany",

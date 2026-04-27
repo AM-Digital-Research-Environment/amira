@@ -206,6 +206,30 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Racism",
+      "National socialism",
+      "History"
+    ],
+    "matrix": [
+      [
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        3
+      ],
+      [
+        2,
+        3,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Racism",

@@ -353,6 +353,36 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Adekele, Durotoye A.",
+        "name": "Adekele, Durotoye A.",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Adekele, Durotoye A.",
+        "targetId": "UBT_TravKnowl2019",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
   "locations": [
     {
       "country": "South Africa",

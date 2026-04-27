@@ -45,6 +45,36 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Turkson, A. A.",
+        "name": "Turkson, A. A.",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Ghana",
+        "name": "University of Ghana",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Turkson, A. A.",
+        "targetId": "University of Ghana",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "South Africa",

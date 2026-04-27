@@ -293,6 +293,744 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Kronenburg García, Angela",
+        "name": "Kronenburg García, Angela",
+        "itemCount": 4
+      },
+      {
+        "id": "Hashimshony Yaffe, Nurit",
+        "name": "Hashimshony Yaffe, Nurit",
+        "itemCount": 4
+      },
+      {
+        "id": "Roque de Pinho, Joana",
+        "name": "Roque de Pinho, Joana",
+        "itemCount": 4
+      },
+      {
+        "id": "Tallio, Virginie",
+        "name": "Tallio, Virginie",
+        "itemCount": 3
+      },
+      {
+        "id": "Gargallo, Eduard",
+        "name": "Gargallo, Eduard",
+        "itemCount": 2
+      },
+      {
+        "id": "ole Mowuo, Matinkoi",
+        "name": "ole Mowuo, Matinkoi",
+        "itemCount": 1
+      },
+      {
+        "id": "ole Mowuo, Lenaai",
+        "name": "ole Mowuo, Lenaai",
+        "itemCount": 1
+      },
+      {
+        "id": "Mayiani, Daniel",
+        "name": "Mayiani, Daniel",
+        "itemCount": 1
+      },
+      {
+        "id": "Seenoi, Debra",
+        "name": "Seenoi, Debra",
+        "itemCount": 1
+      },
+      {
+        "id": "Samimi, Cyrus",
+        "name": "Samimi, Cyrus",
+        "itemCount": 1
+      },
+      {
+        "id": "Heita, Jona",
+        "name": "Heita, Jona",
+        "itemCount": 1
+      },
+      {
+        "id": "Gambiza, James",
+        "name": "Gambiza, James",
+        "itemCount": 1
+      },
+      {
+        "id": "Nurudong, Primus",
+        "name": "Nurudong, Primus",
+        "itemCount": 1
+      },
+      {
+        "id": "Behrends, Andrea",
+        "name": "Behrends, Andrea",
+        "itemCount": 1
+      },
+      {
+        "id": "Agyei-Mensah, Juliana",
+        "name": "Agyei-Mensah, Juliana",
+        "itemCount": 1
+      },
+      {
+        "id": "Pase, Andrea",
+        "name": "Pase, Andrea",
+        "itemCount": 1
+      },
+      {
+        "id": "Neboo, Stanley ole",
+        "name": "Neboo, Stanley ole",
+        "itemCount": 1
+      },
+      {
+        "id": "Antonelli, Jonah",
+        "name": "Antonelli, Jonah",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond",
+        "itemCount": 4
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "UBT_Covid192021",
+        "count": 4
+      },
+      {
+        "personId": "ole Mowuo, Matinkoi",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      },
+      {
+        "personId": "ole Mowuo, Lenaai",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      },
+      {
+        "personId": "Mayiani, Daniel",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      },
+      {
+        "personId": "Tallio, Virginie",
+        "targetId": "UBT_Covid192021",
+        "count": 3
+      },
+      {
+        "personId": "Hashimshony Yaffe, Nurit",
+        "targetId": "UBT_Covid192021",
+        "count": 4
+      },
+      {
+        "personId": "Gargallo, Eduard",
+        "targetId": "UBT_Covid192021",
+        "count": 2
+      },
+      {
+        "personId": "Roque de Pinho, Joana",
+        "targetId": "UBT_Covid192021",
+        "count": 4
+      },
+      {
+        "personId": "Seenoi, Debra",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      },
+      {
+        "personId": "Samimi, Cyrus",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      },
+      {
+        "personId": "Heita, Jona",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      },
+      {
+        "personId": "Gambiza, James",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      },
+      {
+        "personId": "Nurudong, Primus",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      },
+      {
+        "personId": "Behrends, Andrea",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      },
+      {
+        "personId": "Agyei-Mensah, Juliana",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      },
+      {
+        "personId": "Pase, Andrea",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      },
+      {
+        "personId": "Neboo, Stanley ole",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      },
+      {
+        "personId": "Antonelli, Jonah",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Kronenburg García, Angela",
+        "name": "Kronenburg García, Angela",
+        "itemCount": 15
+      },
+      {
+        "id": "Hashimshony Yaffe, Nurit",
+        "name": "Hashimshony Yaffe, Nurit",
+        "itemCount": 15
+      },
+      {
+        "id": "Roque de Pinho, Joana",
+        "name": "Roque de Pinho, Joana",
+        "itemCount": 15
+      },
+      {
+        "id": "Tallio, Virginie",
+        "name": "Tallio, Virginie",
+        "itemCount": 10
+      },
+      {
+        "id": "Gargallo, Eduard",
+        "name": "Gargallo, Eduard",
+        "itemCount": 7
+      },
+      {
+        "id": "Seenoi, Debra",
+        "name": "Seenoi, Debra",
+        "itemCount": 5
+      },
+      {
+        "id": "Samimi, Cyrus",
+        "name": "Samimi, Cyrus",
+        "itemCount": 5
+      },
+      {
+        "id": "Heita, Jona",
+        "name": "Heita, Jona",
+        "itemCount": 5
+      },
+      {
+        "id": "Gambiza, James",
+        "name": "Gambiza, James",
+        "itemCount": 5
+      },
+      {
+        "id": "Nurudong, Primus",
+        "name": "Nurudong, Primus",
+        "itemCount": 5
+      },
+      {
+        "id": "Behrends, Andrea",
+        "name": "Behrends, Andrea",
+        "itemCount": 5
+      },
+      {
+        "id": "Neboo, Stanley ole",
+        "name": "Neboo, Stanley ole",
+        "itemCount": 4
+      },
+      {
+        "id": "Antonelli, Jonah",
+        "name": "Antonelli, Jonah",
+        "itemCount": 4
+      },
+      {
+        "id": "ole Mowuo, Matinkoi",
+        "name": "ole Mowuo, Matinkoi",
+        "itemCount": 3
+      },
+      {
+        "id": "ole Mowuo, Lenaai",
+        "name": "ole Mowuo, Lenaai",
+        "itemCount": 3
+      },
+      {
+        "id": "Mayiani, Daniel",
+        "name": "Mayiani, Daniel",
+        "itemCount": 3
+      },
+      {
+        "id": "Agyei-Mensah, Juliana",
+        "name": "Agyei-Mensah, Juliana",
+        "itemCount": 3
+      },
+      {
+        "id": "Pase, Andrea",
+        "name": "Pase, Andrea",
+        "itemCount": 3
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Padua",
+        "name": "University of Padua",
+        "itemCount": 4
+      },
+      {
+        "id": "The Academic College of Tel Aviv-Yaffo",
+        "name": "The Academic College of Tel Aviv-Yaffo",
+        "itemCount": 4
+      },
+      {
+        "id": "ISCTE - Instituto Universitário de Lisboa",
+        "name": "ISCTE - Instituto Universitário de Lisboa",
+        "itemCount": 3
+      },
+      {
+        "id": "University of Bayreuth",
+        "name": "University of Bayreuth",
+        "itemCount": 1
+      },
+      {
+        "id": "University of Namibia",
+        "name": "University of Namibia",
+        "itemCount": 1
+      },
+      {
+        "id": "Rhodes University",
+        "name": "Rhodes University",
+        "itemCount": 1
+      },
+      {
+        "id": "A New Dawn in the Negev",
+        "name": "A New Dawn in the Negev",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "University of Padua",
+        "count": 4
+      },
+      {
+        "personId": "ole Mowuo, Matinkoi",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "ole Mowuo, Lenaai",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Mayiani, Daniel",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Tallio, Virginie",
+        "targetId": "University of Padua",
+        "count": 3
+      },
+      {
+        "personId": "Hashimshony Yaffe, Nurit",
+        "targetId": "University of Padua",
+        "count": 4
+      },
+      {
+        "personId": "Gargallo, Eduard",
+        "targetId": "University of Padua",
+        "count": 2
+      },
+      {
+        "personId": "Roque de Pinho, Joana",
+        "targetId": "University of Padua",
+        "count": 4
+      },
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 4
+      },
+      {
+        "personId": "ole Mowuo, Matinkoi",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 1
+      },
+      {
+        "personId": "ole Mowuo, Lenaai",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 1
+      },
+      {
+        "personId": "Mayiani, Daniel",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 1
+      },
+      {
+        "personId": "Tallio, Virginie",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 3
+      },
+      {
+        "personId": "Hashimshony Yaffe, Nurit",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 4
+      },
+      {
+        "personId": "Gargallo, Eduard",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 2
+      },
+      {
+        "personId": "Roque de Pinho, Joana",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 4
+      },
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 3
+      },
+      {
+        "personId": "ole Mowuo, Matinkoi",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "ole Mowuo, Lenaai",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Mayiani, Daniel",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Tallio, Virginie",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 3
+      },
+      {
+        "personId": "Hashimshony Yaffe, Nurit",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 3
+      },
+      {
+        "personId": "Gargallo, Eduard",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 2
+      },
+      {
+        "personId": "Roque de Pinho, Joana",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 3
+      },
+      {
+        "personId": "Seenoi, Debra",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Samimi, Cyrus",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Heita, Jona",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Gambiza, James",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Nurudong, Primus",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Behrends, Andrea",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Seenoi, Debra",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Samimi, Cyrus",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Heita, Jona",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Gambiza, James",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Nurudong, Primus",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Roque de Pinho, Joana",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Behrends, Andrea",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Hashimshony Yaffe, Nurit",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "University of Namibia",
+        "count": 1
+      },
+      {
+        "personId": "Seenoi, Debra",
+        "targetId": "University of Namibia",
+        "count": 1
+      },
+      {
+        "personId": "Samimi, Cyrus",
+        "targetId": "University of Namibia",
+        "count": 1
+      },
+      {
+        "personId": "Heita, Jona",
+        "targetId": "University of Namibia",
+        "count": 1
+      },
+      {
+        "personId": "Gambiza, James",
+        "targetId": "University of Namibia",
+        "count": 1
+      },
+      {
+        "personId": "Nurudong, Primus",
+        "targetId": "University of Namibia",
+        "count": 1
+      },
+      {
+        "personId": "Roque de Pinho, Joana",
+        "targetId": "University of Namibia",
+        "count": 1
+      },
+      {
+        "personId": "Behrends, Andrea",
+        "targetId": "University of Namibia",
+        "count": 1
+      },
+      {
+        "personId": "Hashimshony Yaffe, Nurit",
+        "targetId": "University of Namibia",
+        "count": 1
+      },
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "Rhodes University",
+        "count": 1
+      },
+      {
+        "personId": "Seenoi, Debra",
+        "targetId": "Rhodes University",
+        "count": 1
+      },
+      {
+        "personId": "Samimi, Cyrus",
+        "targetId": "Rhodes University",
+        "count": 1
+      },
+      {
+        "personId": "Heita, Jona",
+        "targetId": "Rhodes University",
+        "count": 1
+      },
+      {
+        "personId": "Gambiza, James",
+        "targetId": "Rhodes University",
+        "count": 1
+      },
+      {
+        "personId": "Nurudong, Primus",
+        "targetId": "Rhodes University",
+        "count": 1
+      },
+      {
+        "personId": "Roque de Pinho, Joana",
+        "targetId": "Rhodes University",
+        "count": 1
+      },
+      {
+        "personId": "Behrends, Andrea",
+        "targetId": "Rhodes University",
+        "count": 1
+      },
+      {
+        "personId": "Hashimshony Yaffe, Nurit",
+        "targetId": "Rhodes University",
+        "count": 1
+      },
+      {
+        "personId": "Seenoi, Debra",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 1
+      },
+      {
+        "personId": "Samimi, Cyrus",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 1
+      },
+      {
+        "personId": "Heita, Jona",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 1
+      },
+      {
+        "personId": "Gambiza, James",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 1
+      },
+      {
+        "personId": "Nurudong, Primus",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 1
+      },
+      {
+        "personId": "Behrends, Andrea",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 1
+      },
+      {
+        "personId": "Agyei-Mensah, Juliana",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Pase, Andrea",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Agyei-Mensah, Juliana",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Pase, Andrea",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Agyei-Mensah, Juliana",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 1
+      },
+      {
+        "personId": "Pase, Andrea",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 1
+      },
+      {
+        "personId": "Neboo, Stanley ole",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Antonelli, Jonah",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Neboo, Stanley ole",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Antonelli, Jonah",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Neboo, Stanley ole",
+        "targetId": "A New Dawn in the Negev",
+        "count": 1
+      },
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "A New Dawn in the Negev",
+        "count": 1
+      },
+      {
+        "personId": "Roque de Pinho, Joana",
+        "targetId": "A New Dawn in the Negev",
+        "count": 1
+      },
+      {
+        "personId": "Antonelli, Jonah",
+        "targetId": "A New Dawn in the Negev",
+        "count": 1
+      },
+      {
+        "personId": "Hashimshony Yaffe, Nurit",
+        "targetId": "A New Dawn in the Negev",
+        "count": 1
+      },
+      {
+        "personId": "Tallio, Virginie",
+        "targetId": "A New Dawn in the Negev",
+        "count": 1
+      },
+      {
+        "personId": "Gargallo, Eduard",
+        "targetId": "A New Dawn in the Negev",
+        "count": 1
+      },
+      {
+        "personId": "Neboo, Stanley ole",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 1
+      },
+      {
+        "personId": "Antonelli, Jonah",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Kenya",

@@ -185,6 +185,52 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "COVID-19 (Disease)",
+      "French",
+      "Ethics",
+      "Africa",
+      "Transport workers"
+    ],
+    "matrix": [
+      [
+        0,
+        38,
+        38,
+        38,
+        21
+      ],
+      [
+        38,
+        0,
+        38,
+        38,
+        0
+      ],
+      [
+        38,
+        38,
+        0,
+        38,
+        0
+      ],
+      [
+        38,
+        38,
+        38,
+        0,
+        0
+      ],
+      [
+        21,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "COVID-19",

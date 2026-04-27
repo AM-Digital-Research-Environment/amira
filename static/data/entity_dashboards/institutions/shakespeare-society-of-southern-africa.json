@@ -219,6 +219,149 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Wright, Laurence",
+        "name": "Wright, Laurence",
+        "itemCount": 3
+      },
+      {
+        "id": "van Wyk Smith, Malvern",
+        "name": "van Wyk Smith, Malvern",
+        "itemCount": 2
+      },
+      {
+        "id": "Thurman, Christopher",
+        "name": "Thurman, Christopher",
+        "itemCount": 1
+      },
+      {
+        "id": "Voss, Tony",
+        "name": "Voss, Tony",
+        "itemCount": 1
+      },
+      {
+        "id": "Willan, Brian",
+        "name": "Willan, Brian",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama",
+        "itemCount": 8
+      }
+    ],
+    "edges": [
+      {
+        "personId": "van Wyk Smith, Malvern",
+        "targetId": "UBT_TravKnowl2019",
+        "count": 2
+      },
+      {
+        "personId": "Wright, Laurence",
+        "targetId": "UBT_TravKnowl2019",
+        "count": 3
+      },
+      {
+        "personId": "Thurman, Christopher",
+        "targetId": "UBT_TravKnowl2019",
+        "count": 1
+      },
+      {
+        "personId": "Voss, Tony",
+        "targetId": "UBT_TravKnowl2019",
+        "count": 1
+      },
+      {
+        "personId": "Willan, Brian",
+        "targetId": "UBT_TravKnowl2019",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Wright, Laurence",
+        "name": "Wright, Laurence",
+        "itemCount": 3
+      },
+      {
+        "id": "van Wyk Smith, Malvern",
+        "name": "van Wyk Smith, Malvern",
+        "itemCount": 2
+      },
+      {
+        "id": "Thurman, Christopher",
+        "name": "Thurman, Christopher",
+        "itemCount": 1
+      },
+      {
+        "id": "Voss, Tony",
+        "name": "Voss, Tony",
+        "itemCount": 1
+      },
+      {
+        "id": "Willan, Brian",
+        "name": "Willan, Brian",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Rhodes University",
+        "name": "Rhodes University",
+        "itemCount": 3
+      },
+      {
+        "id": "North-West University",
+        "name": "North-West University",
+        "itemCount": 3
+      },
+      {
+        "id": "University of the Witwatersrand",
+        "name": "University of the Witwatersrand",
+        "itemCount": 1
+      },
+      {
+        "id": "Nelson Mandela University",
+        "name": "Nelson Mandela University",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "van Wyk Smith, Malvern",
+        "targetId": "Rhodes University",
+        "count": 2
+      },
+      {
+        "personId": "Wright, Laurence",
+        "targetId": "North-West University",
+        "count": 3
+      },
+      {
+        "personId": "Thurman, Christopher",
+        "targetId": "University of the Witwatersrand",
+        "count": 1
+      },
+      {
+        "personId": "Voss, Tony",
+        "targetId": "Nelson Mandela University",
+        "count": 1
+      },
+      {
+        "personId": "Willan, Brian",
+        "targetId": "Rhodes University",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "South Africa",

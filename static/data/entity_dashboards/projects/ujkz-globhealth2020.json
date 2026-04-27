@@ -65,6 +65,105 @@
       }
     }
   ],
+  "languageTimeline": [
+    {
+      "year": 2020,
+      "byCategory": {
+        "French": 2
+      }
+    },
+    {
+      "year": 2021,
+      "byCategory": {
+        "French": 1
+      }
+    },
+    {
+      "year": 2022,
+      "byCategory": {
+        "French": 12
+      }
+    },
+    {
+      "year": 2023,
+      "byCategory": {
+        "French": 7
+      }
+    },
+    {
+      "year": 2024,
+      "byCategory": {
+        "French": 1
+      }
+    }
+  ],
+  "subjectTrends": [
+    {
+      "year": 2020,
+      "byCategory": {
+        "World health": 2,
+        "West Africa": 2,
+        "Gender": 0,
+        "Health": 0,
+        "Diseases": 0,
+        "Sustainability": 0,
+        "COVID-19 (Disease)": 2,
+        "Finance": 0
+      }
+    },
+    {
+      "year": 2021,
+      "byCategory": {
+        "World health": 1,
+        "West Africa": 1,
+        "Gender": 0,
+        "Health": 0,
+        "Diseases": 0,
+        "Sustainability": 0,
+        "COVID-19 (Disease)": 0,
+        "Finance": 1
+      }
+    },
+    {
+      "year": 2022,
+      "byCategory": {
+        "World health": 12,
+        "West Africa": 12,
+        "Gender": 10,
+        "Health": 9,
+        "Diseases": 1,
+        "Sustainability": 1,
+        "COVID-19 (Disease)": 0,
+        "Finance": 0
+      }
+    },
+    {
+      "year": 2023,
+      "byCategory": {
+        "World health": 7,
+        "West Africa": 7,
+        "Gender": 2,
+        "Health": 1,
+        "Diseases": 2,
+        "Sustainability": 0,
+        "COVID-19 (Disease)": 0,
+        "Finance": 0
+      }
+    },
+    {
+      "year": 2024,
+      "byCategory": {
+        "World health": 1,
+        "West Africa": 1,
+        "Gender": 0,
+        "Health": 0,
+        "Diseases": 1,
+        "Sustainability": 1,
+        "COVID-19 (Disease)": 0,
+        "Finance": 0
+      }
+    }
+  ],
   "types": [
     {
       "name": "Text",
@@ -379,6 +478,73 @@
       ]
     }
   ],
+  "treemap": [
+    {
+      "name": "Text",
+      "children": [
+        {
+          "name": "French",
+          "children": [
+            {
+              "name": "World health",
+              "value": 22,
+              "children": []
+            },
+            {
+              "name": "West Africa",
+              "value": 22,
+              "children": []
+            },
+            {
+              "name": "Gender",
+              "value": 12,
+              "children": []
+            },
+            {
+              "name": "Health",
+              "value": 10,
+              "children": []
+            },
+            {
+              "name": "Diseases",
+              "value": 4,
+              "children": []
+            },
+            {
+              "name": "Sustainability",
+              "value": 2,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Moving image",
+      "children": [
+        {
+          "name": "French",
+          "children": [
+            {
+              "name": "World health",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "West Africa",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "COVID-19 (Disease)",
+              "value": 1,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "sankey": {
     "nodes": [
       {
@@ -594,6 +760,395 @@
       ]
     ]
   },
+  "timeAwareChord": {
+    "buckets": [
+      {
+        "year": 2020,
+        "names": [
+          "World health",
+          "West Africa",
+          "Gender",
+          "Health",
+          "Diseases",
+          "Sustainability",
+          "COVID-19 (Disease)"
+        ],
+        "matrix": [
+          [
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "year": 2021,
+        "names": [
+          "World health",
+          "West Africa",
+          "Gender",
+          "Health",
+          "Diseases",
+          "Sustainability",
+          "COVID-19 (Disease)"
+        ],
+        "matrix": [
+          [
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "year": 2022,
+        "names": [
+          "World health",
+          "West Africa",
+          "Gender",
+          "Health",
+          "Diseases",
+          "Sustainability",
+          "COVID-19 (Disease)"
+        ],
+        "matrix": [
+          [
+            0,
+            15,
+            10,
+            9,
+            1,
+            1,
+            2
+          ],
+          [
+            15,
+            0,
+            10,
+            9,
+            1,
+            1,
+            2
+          ],
+          [
+            10,
+            10,
+            0,
+            9,
+            0,
+            0,
+            0
+          ],
+          [
+            9,
+            9,
+            9,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "year": 2023,
+        "names": [
+          "World health",
+          "West Africa",
+          "Gender",
+          "Health",
+          "Diseases",
+          "Sustainability",
+          "COVID-19 (Disease)"
+        ],
+        "matrix": [
+          [
+            0,
+            22,
+            12,
+            10,
+            3,
+            1,
+            2
+          ],
+          [
+            22,
+            0,
+            12,
+            10,
+            3,
+            1,
+            2
+          ],
+          [
+            12,
+            12,
+            0,
+            9,
+            2,
+            0,
+            0
+          ],
+          [
+            10,
+            10,
+            9,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            3,
+            2,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "year": 2024,
+        "names": [
+          "World health",
+          "West Africa",
+          "Gender",
+          "Health",
+          "Diseases",
+          "Sustainability",
+          "COVID-19 (Disease)"
+        ],
+        "matrix": [
+          [
+            0,
+            23,
+            12,
+            10,
+            4,
+            2,
+            2
+          ],
+          [
+            23,
+            0,
+            12,
+            10,
+            4,
+            2,
+            2
+          ],
+          [
+            12,
+            12,
+            0,
+            9,
+            2,
+            0,
+            0
+          ],
+          [
+            10,
+            10,
+            9,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            4,
+            2,
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            2,
+            2,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    ]
+  },
   "contributors": [
     {
       "name": "Baguian, Sidibewindé Romain",
@@ -668,6 +1223,16 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "calendarHeatmap": [],
+  "geoFlows": {
+    "flows": []
+  },
   "locations": [
     {
       "country": "Burkina Faso",

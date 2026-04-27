@@ -349,6 +349,56 @@
       "value": 8
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Batjav, Batbuyan",
+        "name": "Batjav, Batbuyan",
+        "itemCount": 14
+      },
+      {
+        "id": "Amarbat, Byambasuren",
+        "name": "Amarbat, Byambasuren",
+        "itemCount": 9
+      },
+      {
+        "id": "Baasankhorloo, Ts",
+        "name": "Baasankhorloo, Ts",
+        "itemCount": 8
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond",
+        "itemCount": 14
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Batjav, Batbuyan",
+        "targetId": "UBT_Covid192021",
+        "count": 14
+      },
+      {
+        "personId": "Amarbat, Byambasuren",
+        "targetId": "UBT_Covid192021",
+        "count": 9
+      },
+      {
+        "personId": "Baasankhorloo, Ts",
+        "targetId": "UBT_Covid192021",
+        "count": 8
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
   "locations": [
     {
       "country": "Mongolia",

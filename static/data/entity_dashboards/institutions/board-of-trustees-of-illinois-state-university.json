@@ -69,6 +69,54 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Awoonor, Kofi",
+        "name": "Awoonor, Kofi",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Awoonor, Kofi",
+        "targetId": "UBT_TravKnowl2019",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Awoonor, Kofi",
+        "name": "Awoonor, Kofi",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Ghana",
+        "name": "University of Ghana",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Awoonor, Kofi",
+        "targetId": "University of Ghana",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "United States of America",

@@ -240,6 +240,104 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Balogun, Lekan",
+        "name": "Balogun, Lekan",
+        "itemCount": 5
+      },
+      {
+        "id": "Kolade, Christopher",
+        "name": "Kolade, Christopher",
+        "itemCount": 1
+      },
+      {
+        "id": "Gibbs, James",
+        "name": "Gibbs, James",
+        "itemCount": 1
+      },
+      {
+        "id": "Clark, Ebun",
+        "name": "Clark, Ebun",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango",
+        "itemCount": 3
+      },
+      {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama",
+        "itemCount": 3
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Kolade, Christopher",
+        "targetId": "UBT_TaiSha2021",
+        "count": 1
+      },
+      {
+        "personId": "Balogun, Lekan",
+        "targetId": "UBT_TaiSha2021",
+        "count": 3
+      },
+      {
+        "personId": "Gibbs, James",
+        "targetId": "UBT_TaiSha2021",
+        "count": 1
+      },
+      {
+        "personId": "Balogun, Lekan",
+        "targetId": "UBT_TravKnowl2019",
+        "count": 2
+      },
+      {
+        "personId": "Clark, Ebun",
+        "targetId": "UBT_TravKnowl2019",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Kolade, Christopher",
+        "name": "Kolade, Christopher",
+        "itemCount": 1
+      },
+      {
+        "id": "Balogun, Lekan",
+        "name": "Balogun, Lekan",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Nigerian Television Service",
+        "name": "Nigerian Television Service",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Kolade, Christopher",
+        "targetId": "Nigerian Television Service",
+        "count": 1
+      },
+      {
+        "personId": "Balogun, Lekan",
+        "targetId": "Nigerian Television Service",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Nigeria",

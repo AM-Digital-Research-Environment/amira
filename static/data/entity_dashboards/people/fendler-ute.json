@@ -95,6 +95,130 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [
+      "Palm-Sanou, Valentine",
+      "Ouoro, Justin"
+    ],
+    "matrix": [
+      [
+        0,
+        44
+      ],
+      [
+        44,
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Palm-Sanou, Valentine",
+        "name": "Palm-Sanou, Valentine",
+        "itemCount": 45
+      },
+      {
+        "id": "Ouoro, Justin",
+        "name": "Ouoro, Justin",
+        "itemCount": 44
+      },
+      {
+        "id": "Sore, Daouda",
+        "name": "Sore, Daouda",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques",
+        "itemCount": 45
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Ouoro, Justin",
+        "targetId": "UJKZ_filmBF2022",
+        "count": 44
+      },
+      {
+        "personId": "Palm-Sanou, Valentine",
+        "targetId": "UJKZ_filmBF2022",
+        "count": 45
+      },
+      {
+        "personId": "Sore, Daouda",
+        "targetId": "UJKZ_filmBF2022",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Palm-Sanou, Valentine",
+        "name": "Palm-Sanou, Valentine",
+        "itemCount": 90
+      },
+      {
+        "id": "Ouoro, Justin",
+        "name": "Ouoro, Justin",
+        "itemCount": 88
+      },
+      {
+        "id": "Sore, Daouda",
+        "name": "Sore, Daouda",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "Université Joseph Ki-Zerbo",
+        "name": "Université Joseph Ki-Zerbo",
+        "itemCount": 45
+      },
+      {
+        "id": "University of Bayreuth",
+        "name": "University of Bayreuth",
+        "itemCount": 45
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Ouoro, Justin",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 44
+      },
+      {
+        "personId": "Palm-Sanou, Valentine",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 45
+      },
+      {
+        "personId": "Ouoro, Justin",
+        "targetId": "University of Bayreuth",
+        "count": 44
+      },
+      {
+        "personId": "Palm-Sanou, Valentine",
+        "targetId": "University of Bayreuth",
+        "count": 45
+      },
+      {
+        "personId": "Sore, Daouda",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Sore, Daouda",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Burkina Faso",

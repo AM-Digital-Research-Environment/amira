@@ -94,6 +94,140 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [],
+    "matrix": []
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Bonnermann, Klaus-Peter",
+        "name": "Bonnermann, Klaus-Peter",
+        "itemCount": 1
+      },
+      {
+        "id": "Omeish, Victoria",
+        "name": "Omeish, Victoria",
+        "itemCount": 1
+      },
+      {
+        "id": "Huschert, Wolfgang",
+        "name": "Huschert, Wolfgang",
+        "itemCount": 1
+      },
+      {
+        "id": "Rahim, Omar A.",
+        "name": "Rahim, Omar A.",
+        "itemCount": 1
+      },
+      {
+        "id": "Thieke, Klaus",
+        "name": "Thieke, Klaus",
+        "itemCount": 1
+      },
+      {
+        "id": "Tietze, Renate Ch.",
+        "name": "Tietze, Renate Ch.",
+        "itemCount": 1
+      },
+      {
+        "id": "Mahmud, Adnan A.",
+        "name": "Mahmud, Adnan A.",
+        "itemCount": 1
+      },
+      {
+        "id": "Lüken, Halo",
+        "name": "Lüken, Halo",
+        "itemCount": 1
+      },
+      {
+        "id": "Grüneberg, Franz",
+        "name": "Grüneberg, Franz",
+        "itemCount": 1
+      },
+      {
+        "id": "Lenthe, Hans-Rudolf",
+        "name": "Lenthe, Hans-Rudolf",
+        "itemCount": 1
+      },
+      {
+        "id": "Geilenkeuser, Horst",
+        "name": "Geilenkeuser, Horst",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Bonnermann, Klaus-Peter",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Omeish, Victoria",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Huschert, Wolfgang",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Rahim, Omar A.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Thieke, Klaus",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Tietze, Renate Ch.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Mahmud, Adnan A.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Lüken, Halo",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Grüneberg, Franz",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Lenthe, Hans-Rudolf",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Geilenkeuser, Horst",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
   "locations": [
     {
       "country": "Liberia",

@@ -65,6 +65,54 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Bartels, Emily C.",
+        "name": "Bartels, Emily C.",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Bartels, Emily C.",
+        "targetId": "UBT_TravKnowl2019",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Bartels, Emily C.",
+        "name": "Bartels, Emily C.",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Rutgers University",
+        "name": "Rutgers University",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Bartels, Emily C.",
+        "targetId": "Rutgers University",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "United States of America",

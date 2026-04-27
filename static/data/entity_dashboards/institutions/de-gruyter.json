@@ -104,6 +104,79 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Arndt, Susan",
+        "name": "Arndt, Susan",
+        "itemCount": 1
+      },
+      {
+        "id": "Kehler, Dorothea",
+        "name": "Kehler, Dorothea",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Arndt, Susan",
+        "targetId": "UBT_TravKnowl2019",
+        "count": 1
+      },
+      {
+        "personId": "Kehler, Dorothea",
+        "targetId": "UBT_TravKnowl2019",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Arndt, Susan",
+        "name": "Arndt, Susan",
+        "itemCount": 1
+      },
+      {
+        "id": "Kehler, Dorothea",
+        "name": "Kehler, Dorothea",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Bayreuth",
+        "name": "University of Bayreuth",
+        "itemCount": 1
+      },
+      {
+        "id": "San Diego State University",
+        "name": "San Diego State University",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Arndt, Susan",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Kehler, Dorothea",
+        "targetId": "San Diego State University",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Germany",

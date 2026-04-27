@@ -113,6 +113,188 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [],
+    "matrix": []
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Stevquoah, Sam",
+        "name": "Stevquoah, Sam",
+        "itemCount": 1
+      },
+      {
+        "id": "Kollie, Aaron",
+        "name": "Kollie, Aaron",
+        "itemCount": 1
+      },
+      {
+        "id": "Wessehutes, Jimmy",
+        "name": "Wessehutes, Jimmy",
+        "itemCount": 1
+      },
+      {
+        "id": "Kollie, William",
+        "name": "Kollie, William",
+        "itemCount": 1
+      },
+      {
+        "id": "Kekomai, Edward",
+        "name": "Kekomai, Edward",
+        "itemCount": 1
+      },
+      {
+        "id": "Gilbert, Thomas",
+        "name": "Gilbert, Thomas",
+        "itemCount": 1
+      },
+      {
+        "id": "Christopher, Victoria",
+        "name": "Christopher, Victoria",
+        "itemCount": 1
+      },
+      {
+        "id": "Stewart, James",
+        "name": "Stewart, James",
+        "itemCount": 1
+      },
+      {
+        "id": "Sahn, jonathan",
+        "name": "Sahn, jonathan",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Stevquoah, Sam",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Kollie, Aaron",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Wessehutes, Jimmy",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Kollie, William",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Kekomai, Edward",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Gilbert, Thomas",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Christopher, Victoria",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Stewart, James",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Sahn, jonathan",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Stevquoah, Sam",
+        "name": "Stevquoah, Sam",
+        "itemCount": 1
+      },
+      {
+        "id": "Kollie, Aaron",
+        "name": "Kollie, Aaron",
+        "itemCount": 1
+      },
+      {
+        "id": "Wessehutes, Jimmy",
+        "name": "Wessehutes, Jimmy",
+        "itemCount": 1
+      },
+      {
+        "id": "Kollie, William",
+        "name": "Kollie, William",
+        "itemCount": 1
+      },
+      {
+        "id": "Kekomai, Edward",
+        "name": "Kekomai, Edward",
+        "itemCount": 1
+      },
+      {
+        "id": "Gilbert, Thomas",
+        "name": "Gilbert, Thomas",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Liberia Broadcasting System (LBS)",
+        "name": "Liberia Broadcasting System (LBS)",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Stevquoah, Sam",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Kollie, Aaron",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Wessehutes, Jimmy",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Kollie, William",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Kekomai, Edward",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Gilbert, Thomas",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Liberia",

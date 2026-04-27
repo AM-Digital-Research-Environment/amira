@@ -55,6 +55,40 @@
       "value": 10
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Arts",
+      "Aesthetics",
+      "Music",
+      "Scholars"
+    ],
+    "matrix": [
+      [
+        0,
+        10,
+        10,
+        10
+      ],
+      [
+        10,
+        0,
+        10,
+        10
+      ],
+      [
+        10,
+        10,
+        0,
+        10
+      ],
+      [
+        10,
+        10,
+        10,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Arts",

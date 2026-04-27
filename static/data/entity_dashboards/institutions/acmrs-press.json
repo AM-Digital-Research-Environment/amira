@@ -92,6 +92,54 @@
       "value": 2
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Seeff, Adele",
+        "name": "Seeff, Adele",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Seeff, Adele",
+        "targetId": "UBT_TravKnowl2019",
+        "count": 2
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Seeff, Adele",
+        "name": "Seeff, Adele",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Maryland",
+        "name": "University of Maryland",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Seeff, Adele",
+        "targetId": "University of Maryland",
+        "count": 2
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "United States of America",

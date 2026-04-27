@@ -138,6 +138,584 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Thairu, Kibumbu",
+        "name": "Thairu, Kibumbu",
+        "itemCount": 1
+      },
+      {
+        "id": "Lugoboli, Henry",
+        "name": "Lugoboli, Henry",
+        "itemCount": 1
+      },
+      {
+        "id": "Simasiku, Jacob",
+        "name": "Simasiku, Jacob",
+        "itemCount": 1
+      },
+      {
+        "id": "Mothibamele, J. L. T.",
+        "name": "Mothibamele, J. L. T.",
+        "itemCount": 1
+      },
+      {
+        "id": "Sekeramayi, S. T.",
+        "name": "Sekeramayi, S. T.",
+        "itemCount": 1
+      },
+      {
+        "id": "Sher, Ruben",
+        "name": "Sher, Ruben",
+        "itemCount": 1
+      },
+      {
+        "id": "Luo, Nkando",
+        "name": "Luo, Nkando",
+        "itemCount": 1
+      },
+      {
+        "id": "Fraenkel, Peter",
+        "name": "Fraenkel, Peter",
+        "itemCount": 1
+      },
+      {
+        "id": "Isaacs, Anthony",
+        "name": "Isaacs, Anthony",
+        "itemCount": 1
+      },
+      {
+        "id": "Davies, Paul",
+        "name": "Davies, Paul",
+        "itemCount": 1
+      },
+      {
+        "id": "Powell, Robert",
+        "name": "Powell, Robert",
+        "itemCount": 1
+      },
+      {
+        "id": "Frense, Peter",
+        "name": "Frense, Peter",
+        "itemCount": 1
+      },
+      {
+        "id": "Bailey, Stephen",
+        "name": "Bailey, Stephen",
+        "itemCount": 1
+      },
+      {
+        "id": "Barber, Trevor",
+        "name": "Barber, Trevor",
+        "itemCount": 1
+      },
+      {
+        "id": "Blake, Denise",
+        "name": "Blake, Denise",
+        "itemCount": 1
+      },
+      {
+        "id": "Mockford, Sally",
+        "name": "Mockford, Sally",
+        "itemCount": 1
+      },
+      {
+        "id": "Moffat, Colin",
+        "name": "Moffat, Colin",
+        "itemCount": 1
+      },
+      {
+        "id": "Cloarec, Tony",
+        "name": "Cloarec, Tony",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Thairu, Kibumbu",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Lugoboli, Henry",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Simasiku, Jacob",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Mothibamele, J. L. T.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Sekeramayi, S. T.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Sher, Ruben",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Luo, Nkando",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Fraenkel, Peter",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Isaacs, Anthony",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Davies, Paul",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Powell, Robert",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Frense, Peter",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Bailey, Stephen",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Barber, Trevor",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Blake, Denise",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Mockford, Sally",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Moffat, Colin",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Cloarec, Tony",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Thairu, Kibumbu",
+        "name": "Thairu, Kibumbu",
+        "itemCount": 3
+      },
+      {
+        "id": "Lugoboli, Henry",
+        "name": "Lugoboli, Henry",
+        "itemCount": 3
+      },
+      {
+        "id": "Simasiku, Jacob",
+        "name": "Simasiku, Jacob",
+        "itemCount": 3
+      },
+      {
+        "id": "Mothibamele, J. L. T.",
+        "name": "Mothibamele, J. L. T.",
+        "itemCount": 3
+      },
+      {
+        "id": "Sekeramayi, S. T.",
+        "name": "Sekeramayi, S. T.",
+        "itemCount": 3
+      },
+      {
+        "id": "Sher, Ruben",
+        "name": "Sher, Ruben",
+        "itemCount": 3
+      },
+      {
+        "id": "Luo, Nkando",
+        "name": "Luo, Nkando",
+        "itemCount": 3
+      },
+      {
+        "id": "Fraenkel, Peter",
+        "name": "Fraenkel, Peter",
+        "itemCount": 3
+      },
+      {
+        "id": "Isaacs, Anthony",
+        "name": "Isaacs, Anthony",
+        "itemCount": 3
+      },
+      {
+        "id": "Davies, Paul",
+        "name": "Davies, Paul",
+        "itemCount": 3
+      },
+      {
+        "id": "Powell, Robert",
+        "name": "Powell, Robert",
+        "itemCount": 3
+      },
+      {
+        "id": "Frense, Peter",
+        "name": "Frense, Peter",
+        "itemCount": 3
+      },
+      {
+        "id": "Bailey, Stephen",
+        "name": "Bailey, Stephen",
+        "itemCount": 3
+      },
+      {
+        "id": "Barber, Trevor",
+        "name": "Barber, Trevor",
+        "itemCount": 3
+      },
+      {
+        "id": "Blake, Denise",
+        "name": "Blake, Denise",
+        "itemCount": 3
+      },
+      {
+        "id": "Mockford, Sally",
+        "name": "Mockford, Sally",
+        "itemCount": 3
+      },
+      {
+        "id": "Moffat, Colin",
+        "name": "Moffat, Colin",
+        "itemCount": 3
+      },
+      {
+        "id": "Cloarec, Tony",
+        "name": "Cloarec, Tony",
+        "itemCount": 3
+      }
+    ],
+    "targets": [
+      {
+        "id": "Commonwealth Secretariat",
+        "name": "Commonwealth Secretariat",
+        "itemCount": 1
+      },
+      {
+        "id": "Ministry of Health, Botswana",
+        "name": "Ministry of Health, Botswana",
+        "itemCount": 1
+      },
+      {
+        "id": "Ministry of Health, Zimbabwe",
+        "name": "Ministry of Health, Zimbabwe",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Thairu, Kibumbu",
+        "targetId": "Commonwealth Secretariat",
+        "count": 1
+      },
+      {
+        "personId": "Lugoboli, Henry",
+        "targetId": "Commonwealth Secretariat",
+        "count": 1
+      },
+      {
+        "personId": "Simasiku, Jacob",
+        "targetId": "Commonwealth Secretariat",
+        "count": 1
+      },
+      {
+        "personId": "Mothibamele, J. L. T.",
+        "targetId": "Commonwealth Secretariat",
+        "count": 1
+      },
+      {
+        "personId": "Sekeramayi, S. T.",
+        "targetId": "Commonwealth Secretariat",
+        "count": 1
+      },
+      {
+        "personId": "Sher, Ruben",
+        "targetId": "Commonwealth Secretariat",
+        "count": 1
+      },
+      {
+        "personId": "Luo, Nkando",
+        "targetId": "Commonwealth Secretariat",
+        "count": 1
+      },
+      {
+        "personId": "Fraenkel, Peter",
+        "targetId": "Commonwealth Secretariat",
+        "count": 1
+      },
+      {
+        "personId": "Isaacs, Anthony",
+        "targetId": "Commonwealth Secretariat",
+        "count": 1
+      },
+      {
+        "personId": "Davies, Paul",
+        "targetId": "Commonwealth Secretariat",
+        "count": 1
+      },
+      {
+        "personId": "Powell, Robert",
+        "targetId": "Commonwealth Secretariat",
+        "count": 1
+      },
+      {
+        "personId": "Frense, Peter",
+        "targetId": "Commonwealth Secretariat",
+        "count": 1
+      },
+      {
+        "personId": "Bailey, Stephen",
+        "targetId": "Commonwealth Secretariat",
+        "count": 1
+      },
+      {
+        "personId": "Barber, Trevor",
+        "targetId": "Commonwealth Secretariat",
+        "count": 1
+      },
+      {
+        "personId": "Blake, Denise",
+        "targetId": "Commonwealth Secretariat",
+        "count": 1
+      },
+      {
+        "personId": "Mockford, Sally",
+        "targetId": "Commonwealth Secretariat",
+        "count": 1
+      },
+      {
+        "personId": "Moffat, Colin",
+        "targetId": "Commonwealth Secretariat",
+        "count": 1
+      },
+      {
+        "personId": "Cloarec, Tony",
+        "targetId": "Commonwealth Secretariat",
+        "count": 1
+      },
+      {
+        "personId": "Thairu, Kibumbu",
+        "targetId": "Ministry of Health, Botswana",
+        "count": 1
+      },
+      {
+        "personId": "Lugoboli, Henry",
+        "targetId": "Ministry of Health, Botswana",
+        "count": 1
+      },
+      {
+        "personId": "Simasiku, Jacob",
+        "targetId": "Ministry of Health, Botswana",
+        "count": 1
+      },
+      {
+        "personId": "Mothibamele, J. L. T.",
+        "targetId": "Ministry of Health, Botswana",
+        "count": 1
+      },
+      {
+        "personId": "Sekeramayi, S. T.",
+        "targetId": "Ministry of Health, Botswana",
+        "count": 1
+      },
+      {
+        "personId": "Sher, Ruben",
+        "targetId": "Ministry of Health, Botswana",
+        "count": 1
+      },
+      {
+        "personId": "Luo, Nkando",
+        "targetId": "Ministry of Health, Botswana",
+        "count": 1
+      },
+      {
+        "personId": "Fraenkel, Peter",
+        "targetId": "Ministry of Health, Botswana",
+        "count": 1
+      },
+      {
+        "personId": "Isaacs, Anthony",
+        "targetId": "Ministry of Health, Botswana",
+        "count": 1
+      },
+      {
+        "personId": "Davies, Paul",
+        "targetId": "Ministry of Health, Botswana",
+        "count": 1
+      },
+      {
+        "personId": "Powell, Robert",
+        "targetId": "Ministry of Health, Botswana",
+        "count": 1
+      },
+      {
+        "personId": "Frense, Peter",
+        "targetId": "Ministry of Health, Botswana",
+        "count": 1
+      },
+      {
+        "personId": "Bailey, Stephen",
+        "targetId": "Ministry of Health, Botswana",
+        "count": 1
+      },
+      {
+        "personId": "Barber, Trevor",
+        "targetId": "Ministry of Health, Botswana",
+        "count": 1
+      },
+      {
+        "personId": "Blake, Denise",
+        "targetId": "Ministry of Health, Botswana",
+        "count": 1
+      },
+      {
+        "personId": "Mockford, Sally",
+        "targetId": "Ministry of Health, Botswana",
+        "count": 1
+      },
+      {
+        "personId": "Moffat, Colin",
+        "targetId": "Ministry of Health, Botswana",
+        "count": 1
+      },
+      {
+        "personId": "Cloarec, Tony",
+        "targetId": "Ministry of Health, Botswana",
+        "count": 1
+      },
+      {
+        "personId": "Thairu, Kibumbu",
+        "targetId": "Ministry of Health, Zimbabwe",
+        "count": 1
+      },
+      {
+        "personId": "Lugoboli, Henry",
+        "targetId": "Ministry of Health, Zimbabwe",
+        "count": 1
+      },
+      {
+        "personId": "Simasiku, Jacob",
+        "targetId": "Ministry of Health, Zimbabwe",
+        "count": 1
+      },
+      {
+        "personId": "Mothibamele, J. L. T.",
+        "targetId": "Ministry of Health, Zimbabwe",
+        "count": 1
+      },
+      {
+        "personId": "Sekeramayi, S. T.",
+        "targetId": "Ministry of Health, Zimbabwe",
+        "count": 1
+      },
+      {
+        "personId": "Sher, Ruben",
+        "targetId": "Ministry of Health, Zimbabwe",
+        "count": 1
+      },
+      {
+        "personId": "Luo, Nkando",
+        "targetId": "Ministry of Health, Zimbabwe",
+        "count": 1
+      },
+      {
+        "personId": "Fraenkel, Peter",
+        "targetId": "Ministry of Health, Zimbabwe",
+        "count": 1
+      },
+      {
+        "personId": "Isaacs, Anthony",
+        "targetId": "Ministry of Health, Zimbabwe",
+        "count": 1
+      },
+      {
+        "personId": "Davies, Paul",
+        "targetId": "Ministry of Health, Zimbabwe",
+        "count": 1
+      },
+      {
+        "personId": "Powell, Robert",
+        "targetId": "Ministry of Health, Zimbabwe",
+        "count": 1
+      },
+      {
+        "personId": "Frense, Peter",
+        "targetId": "Ministry of Health, Zimbabwe",
+        "count": 1
+      },
+      {
+        "personId": "Bailey, Stephen",
+        "targetId": "Ministry of Health, Zimbabwe",
+        "count": 1
+      },
+      {
+        "personId": "Barber, Trevor",
+        "targetId": "Ministry of Health, Zimbabwe",
+        "count": 1
+      },
+      {
+        "personId": "Blake, Denise",
+        "targetId": "Ministry of Health, Zimbabwe",
+        "count": 1
+      },
+      {
+        "personId": "Mockford, Sally",
+        "targetId": "Ministry of Health, Zimbabwe",
+        "count": 1
+      },
+      {
+        "personId": "Moffat, Colin",
+        "targetId": "Ministry of Health, Zimbabwe",
+        "count": 1
+      },
+      {
+        "personId": "Cloarec, Tony",
+        "targetId": "Ministry of Health, Zimbabwe",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Liberia",

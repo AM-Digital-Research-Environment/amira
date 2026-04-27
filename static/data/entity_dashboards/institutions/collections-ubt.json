@@ -629,6 +629,36 @@
       "value": 86
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Spittler, Gerd",
+        "name": "Spittler, Gerd",
+        "itemCount": 86
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_preDeath2021",
+        "name": "The Pre-Death Bequest of Gerd Spittler",
+        "itemCount": 86
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Spittler, Gerd",
+        "targetId": "UBT_preDeath2021",
+        "count": 86
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
   "locations": [
     {
       "country": "Niger",

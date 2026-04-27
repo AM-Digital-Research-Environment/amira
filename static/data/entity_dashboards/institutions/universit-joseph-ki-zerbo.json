@@ -796,6 +796,759 @@
       "value": 3
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Onadja, Joachim",
+        "name": "Onadja, Joachim",
+        "itemCount": 57
+      },
+      {
+        "id": "Palm-Sanou, Valentine",
+        "name": "Palm-Sanou, Valentine",
+        "itemCount": 45
+      },
+      {
+        "id": "Fendler, Ute",
+        "name": "Fendler, Ute",
+        "itemCount": 45
+      },
+      {
+        "id": "Ouoro, Justin",
+        "name": "Ouoro, Justin",
+        "itemCount": 44
+      },
+      {
+        "id": "Sore, Daouda",
+        "name": "Sore, Daouda",
+        "itemCount": 27
+      },
+      {
+        "id": "Tapsoba, Tatiana Nadine",
+        "name": "Tapsoba, Tatiana Nadine",
+        "itemCount": 14
+      },
+      {
+        "id": "Bationo, Bouma Fernand",
+        "name": "Bationo, Bouma Fernand",
+        "itemCount": 9
+      },
+      {
+        "id": "Baguian, Sidibewindé Romain",
+        "name": "Baguian, Sidibewindé Romain",
+        "itemCount": 8
+      },
+      {
+        "id": "Banhoro, Yacouba",
+        "name": "Banhoro, Yacouba",
+        "itemCount": 7
+      },
+      {
+        "id": "Hien, Frederic",
+        "name": "Hien, Frederic",
+        "itemCount": 6
+      },
+      {
+        "id": "Traoré, Seydou",
+        "name": "Traoré, Seydou",
+        "itemCount": 6
+      },
+      {
+        "id": "Barry, Moussa",
+        "name": "Barry, Moussa",
+        "itemCount": 5
+      },
+      {
+        "id": "Some, Désiré Boniface",
+        "name": "Some, Désiré Boniface",
+        "itemCount": 5
+      },
+      {
+        "id": "Ouedraogo",
+        "name": "Ouedraogo",
+        "itemCount": 5
+      },
+      {
+        "id": "Billa, Eugénie",
+        "name": "Billa, Eugénie",
+        "itemCount": 5
+      },
+      {
+        "id": "Ouédraogo, Serge Noel",
+        "name": "Ouédraogo, Serge Noel",
+        "itemCount": 4
+      },
+      {
+        "id": "Sanou, Issiaka",
+        "name": "Sanou, Issiaka",
+        "itemCount": 3
+      },
+      {
+        "id": "Meda, Marc",
+        "name": "Meda, Marc",
+        "itemCount": 3
+      },
+      {
+        "id": "Konkobo, Rosalie",
+        "name": "Konkobo, Rosalie",
+        "itemCount": 3
+      },
+      {
+        "id": "Kayoulou, Worokia",
+        "name": "Kayoulou, Worokia",
+        "itemCount": 3
+      },
+      {
+        "id": "Zerbo, Armel",
+        "name": "Zerbo, Armel",
+        "itemCount": 2
+      },
+      {
+        "id": "Sib, Sié Moise",
+        "name": "Sib, Sié Moise",
+        "itemCount": 2
+      },
+      {
+        "id": "Illy, Ousseni",
+        "name": "Illy, Ousseni",
+        "itemCount": 2
+      },
+      {
+        "id": "Konaté, Mohamadou",
+        "name": "Konaté, Mohamadou",
+        "itemCount": 2
+      },
+      {
+        "id": "Dipama, Emmanuel",
+        "name": "Dipama, Emmanuel",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques",
+        "itemCount": 83
+      },
+      {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger",
+        "itemCount": 66
+      },
+      {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment",
+        "itemCount": 30
+      },
+      {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa",
+        "itemCount": 23
+      },
+      {
+        "id": "UJKZ_SEDPaix2022",
+        "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso",
+        "itemCount": 10
+      },
+      {
+        "id": "UJKZ_FluOnt2023",
+        "name": "Fluid Ontologies of Contestation. Social media, anti-government protest and transnational decolonization movements in Burkina Faso",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Zerbo, Armel",
+        "targetId": "UJKZ_FluOnt2023",
+        "count": 2
+      },
+      {
+        "personId": "Baguian, Sidibewindé Romain",
+        "targetId": "UJKZ_GLOBHEALTH2020",
+        "count": 8
+      },
+      {
+        "personId": "Hien, Frederic",
+        "targetId": "UJKZ_GLOBHEALTH2020",
+        "count": 6
+      },
+      {
+        "personId": "Banhoro, Yacouba",
+        "targetId": "UJKZ_GLOBHEALTH2020",
+        "count": 7
+      },
+      {
+        "personId": "Sib, Sié Moise",
+        "targetId": "UJKZ_GLOBHEALTH2020",
+        "count": 2
+      },
+      {
+        "personId": "Illy, Ousseni",
+        "targetId": "UJKZ_GLOBHEALTH2020",
+        "count": 2
+      },
+      {
+        "personId": "Konaté, Mohamadou",
+        "targetId": "UJKZ_GLOBHEALTH2020",
+        "count": 1
+      },
+      {
+        "personId": "Tapsoba, Tatiana Nadine",
+        "targetId": "UJKZ_JITBF2020",
+        "count": 14
+      },
+      {
+        "personId": "Dipama, Emmanuel",
+        "targetId": "UJKZ_JITBF2020",
+        "count": 2
+      },
+      {
+        "personId": "Traoré, Seydou",
+        "targetId": "UJKZ_JITBF2020",
+        "count": 6
+      },
+      {
+        "personId": "Sanou, Issiaka",
+        "targetId": "UJKZ_JITBF2020",
+        "count": 3
+      },
+      {
+        "personId": "Bationo, Bouma Fernand",
+        "targetId": "UJKZ_JITBF2020",
+        "count": 9
+      },
+      {
+        "personId": "Onadja, Joachim",
+        "targetId": "UJKZ_MiCoViCvd2021",
+        "count": 57
+      },
+      {
+        "personId": "Ouédraogo, Serge Noel",
+        "targetId": "UJKZ_MiCoViCvd2021",
+        "count": 4
+      },
+      {
+        "personId": "Barry, Moussa",
+        "targetId": "UJKZ_MiCoViCvd2021",
+        "count": 5
+      },
+      {
+        "personId": "Some, Désiré Boniface",
+        "targetId": "UJKZ_SEDPaix2022",
+        "count": 5
+      },
+      {
+        "personId": "Meda, Marc",
+        "targetId": "UJKZ_SEDPaix2022",
+        "count": 3
+      },
+      {
+        "personId": "Sore, Daouda",
+        "targetId": "UJKZ_filmBF2022",
+        "count": 27
+      },
+      {
+        "personId": "Ouedraogo",
+        "targetId": "UJKZ_filmBF2022",
+        "count": 5
+      },
+      {
+        "personId": "Konkobo, Rosalie",
+        "targetId": "UJKZ_filmBF2022",
+        "count": 3
+      },
+      {
+        "personId": "Kayoulou, Worokia",
+        "targetId": "UJKZ_filmBF2022",
+        "count": 3
+      },
+      {
+        "personId": "Billa, Eugénie",
+        "targetId": "UJKZ_filmBF2022",
+        "count": 5
+      },
+      {
+        "personId": "Ouoro, Justin",
+        "targetId": "UJKZ_filmBF2022",
+        "count": 44
+      },
+      {
+        "personId": "Palm-Sanou, Valentine",
+        "targetId": "UJKZ_filmBF2022",
+        "count": 45
+      },
+      {
+        "personId": "Fendler, Ute",
+        "targetId": "UJKZ_filmBF2022",
+        "count": 45
+      },
+      {
+        "personId": "Konaté, Mohamadou",
+        "targetId": "UJKZ_filmBF2022",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Palm-Sanou, Valentine",
+        "name": "Palm-Sanou, Valentine",
+        "itemCount": 45
+      },
+      {
+        "id": "Fendler, Ute",
+        "name": "Fendler, Ute",
+        "itemCount": 45
+      },
+      {
+        "id": "Ouoro, Justin",
+        "name": "Ouoro, Justin",
+        "itemCount": 44
+      },
+      {
+        "id": "Tapsoba, Tatiana Nadine",
+        "name": "Tapsoba, Tatiana Nadine",
+        "itemCount": 11
+      },
+      {
+        "id": "Traoré, Seydou",
+        "name": "Traoré, Seydou",
+        "itemCount": 8
+      },
+      {
+        "id": "Ouattara, Amadou",
+        "name": "Ouattara, Amadou",
+        "itemCount": 7
+      },
+      {
+        "id": "Bationo, Bouma Fernand",
+        "name": "Bationo, Bouma Fernand",
+        "itemCount": 7
+      },
+      {
+        "id": "Baguian, Sidibewindé Romain",
+        "name": "Baguian, Sidibewindé Romain",
+        "itemCount": 6
+      },
+      {
+        "id": "Sanou, Issiaka",
+        "name": "Sanou, Issiaka",
+        "itemCount": 6
+      },
+      {
+        "id": "Nurudong, Primus",
+        "name": "Nurudong, Primus",
+        "itemCount": 5
+      },
+      {
+        "id": "Kronenburg García, Angela",
+        "name": "Kronenburg García, Angela",
+        "itemCount": 5
+      },
+      {
+        "id": "Roque de Pinho, Joana",
+        "name": "Roque de Pinho, Joana",
+        "itemCount": 5
+      },
+      {
+        "id": "Munguambe, Danicia",
+        "name": "Munguambe, Danicia",
+        "itemCount": 5
+      },
+      {
+        "id": "Goldman, Mara",
+        "name": "Goldman, Mara",
+        "itemCount": 5
+      },
+      {
+        "id": "Korbeogo, Gabin",
+        "name": "Korbeogo, Gabin",
+        "itemCount": 5
+      },
+      {
+        "id": "Sternberg, Troy",
+        "name": "Sternberg, Troy",
+        "itemCount": 5
+      },
+      {
+        "id": "Sanon, Boukary",
+        "name": "Sanon, Boukary",
+        "itemCount": 5
+      },
+      {
+        "id": "Traoré, Honoré Nabéré",
+        "name": "Traoré, Honoré Nabéré",
+        "itemCount": 5
+      },
+      {
+        "id": "Soulama, Brahima",
+        "name": "Soulama, Brahima",
+        "itemCount": 5
+      },
+      {
+        "id": "Bouda, Bassirou",
+        "name": "Bouda, Bassirou",
+        "itemCount": 4
+      },
+      {
+        "id": "Bourgou, Y. Gilbert",
+        "name": "Bourgou, Y. Gilbert",
+        "itemCount": 4
+      },
+      {
+        "id": "Compaoré, Ernest",
+        "name": "Compaoré, Ernest",
+        "itemCount": 4
+      },
+      {
+        "id": "Sanou, Doti Bruno",
+        "name": "Sanou, Doti Bruno",
+        "itemCount": 4
+      },
+      {
+        "id": "Sanou, Anselme Titiama",
+        "name": "Sanou, Anselme Titiama",
+        "itemCount": 4
+      },
+      {
+        "id": "Sanon, Sidiki",
+        "name": "Sanon, Sidiki",
+        "itemCount": 4
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Bayreuth",
+        "name": "University of Bayreuth",
+        "itemCount": 45
+      },
+      {
+        "id": "Ministry of Health and Public Hygiene of Burkina Faso",
+        "name": "Ministry of Health and Public Hygiene of Burkina Faso",
+        "itemCount": 3
+      },
+      {
+        "id": "Université Nazi BONI",
+        "name": "Université Nazi BONI",
+        "itemCount": 3
+      },
+      {
+        "id": "Tribunal de grande instance de Ouagadougou",
+        "name": "Tribunal de grande instance de Ouagadougou",
+        "itemCount": 3
+      },
+      {
+        "id": "Country Coordinating Mechanism of Burkina Faso",
+        "name": "Country Coordinating Mechanism of Burkina Faso",
+        "itemCount": 2
+      },
+      {
+        "id": "Brigades Régionales de Protection de l’Enfance",
+        "name": "Brigades Régionales de Protection de l’Enfance",
+        "itemCount": 2
+      },
+      {
+        "id": "Comité des Koglweogo de Manga",
+        "name": "Comité des Koglweogo de Manga",
+        "itemCount": 2
+      },
+      {
+        "id": "Tribunal de Grande Instance de Manga",
+        "name": "Tribunal de Grande Instance de Manga",
+        "itemCount": 2
+      },
+      {
+        "id": "Université catholique de l'Afrique de l'Ouest",
+        "name": "Université catholique de l'Afrique de l'Ouest",
+        "itemCount": 2
+      },
+      {
+        "id": "Conseil Villageois de Développement",
+        "name": "Conseil Villageois de Développement",
+        "itemCount": 2
+      },
+      {
+        "id": "Paroisse Cathédrale Notre-Dame de l’Assomption de Manga",
+        "name": "Paroisse Cathédrale Notre-Dame de l’Assomption de Manga",
+        "itemCount": 2
+      },
+      {
+        "id": "University of Padua",
+        "name": "University of Padua",
+        "itemCount": 1
+      },
+      {
+        "id": "ISCTE - Instituto Universitário de Lisboa",
+        "name": "ISCTE - Instituto Universitário de Lisboa",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Nurudong, Primus",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Roque de Pinho, Joana",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Munguambe, Danicia",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Goldman, Mara",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Korbeogo, Gabin",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Sternberg, Troy",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Nurudong, Primus",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Roque de Pinho, Joana",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Munguambe, Danicia",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Goldman, Mara",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Korbeogo, Gabin",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Sternberg, Troy",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Baguian, Sidibewindé Romain",
+        "targetId": "Ministry of Health and Public Hygiene of Burkina Faso",
+        "count": 3
+      },
+      {
+        "personId": "Baguian, Sidibewindé Romain",
+        "targetId": "Country Coordinating Mechanism of Burkina Faso",
+        "count": 2
+      },
+      {
+        "personId": "Tapsoba, Tatiana Nadine",
+        "targetId": "Brigades Régionales de Protection de l’Enfance",
+        "count": 2
+      },
+      {
+        "personId": "Tapsoba, Tatiana Nadine",
+        "targetId": "Comité des Koglweogo de Manga",
+        "count": 2
+      },
+      {
+        "personId": "Bouda, Bassirou",
+        "targetId": "Comité des Koglweogo de Manga",
+        "count": 2
+      },
+      {
+        "personId": "Tapsoba, Tatiana Nadine",
+        "targetId": "Tribunal de Grande Instance de Manga",
+        "count": 2
+      },
+      {
+        "personId": "Bourgou, Y. Gilbert",
+        "targetId": "Tribunal de Grande Instance de Manga",
+        "count": 2
+      },
+      {
+        "personId": "Traoré, Seydou",
+        "targetId": "Université catholique de l'Afrique de l'Ouest",
+        "count": 2
+      },
+      {
+        "personId": "Sanon, Boukary",
+        "targetId": "Université catholique de l'Afrique de l'Ouest",
+        "count": 2
+      },
+      {
+        "personId": "Sanou, Issiaka",
+        "targetId": "Université catholique de l'Afrique de l'Ouest",
+        "count": 1
+      },
+      {
+        "personId": "Traoré, Seydou",
+        "targetId": "Université Nazi BONI",
+        "count": 2
+      },
+      {
+        "personId": "Sanon, Boukary",
+        "targetId": "Université Nazi BONI",
+        "count": 2
+      },
+      {
+        "personId": "Sanou, Issiaka",
+        "targetId": "Université Nazi BONI",
+        "count": 1
+      },
+      {
+        "personId": "Tapsoba, Tatiana Nadine",
+        "targetId": "Tribunal de grande instance de Ouagadougou",
+        "count": 3
+      },
+      {
+        "personId": "Ouattara, Amadou",
+        "targetId": "Université catholique de l'Afrique de l'Ouest",
+        "count": 1
+      },
+      {
+        "personId": "Ouattara, Amadou",
+        "targetId": "Université Nazi BONI",
+        "count": 1
+      },
+      {
+        "personId": "Traoré, Seydou",
+        "targetId": "Conseil Villageois de Développement",
+        "count": 1
+      },
+      {
+        "personId": "Sanon, Boukary",
+        "targetId": "Conseil Villageois de Développement",
+        "count": 1
+      },
+      {
+        "personId": "Ouattara, Amadou",
+        "targetId": "Conseil Villageois de Développement",
+        "count": 2
+      },
+      {
+        "personId": "Tapsoba, Tatiana Nadine",
+        "targetId": "Paroisse Cathédrale Notre-Dame de l’Assomption de Manga",
+        "count": 2
+      },
+      {
+        "personId": "Compaoré, Ernest",
+        "targetId": "Paroisse Cathédrale Notre-Dame de l’Assomption de Manga",
+        "count": 2
+      },
+      {
+        "personId": "Bourgou, Y. Gilbert",
+        "targetId": "Paroisse Cathédrale Notre-Dame de l’Assomption de Manga",
+        "count": 1
+      },
+      {
+        "personId": "Bouda, Bassirou",
+        "targetId": "Paroisse Cathédrale Notre-Dame de l’Assomption de Manga",
+        "count": 1
+      },
+      {
+        "personId": "Compaoré, Ernest",
+        "targetId": "Tribunal de Grande Instance de Manga",
+        "count": 1
+      },
+      {
+        "personId": "Bouda, Bassirou",
+        "targetId": "Tribunal de Grande Instance de Manga",
+        "count": 1
+      },
+      {
+        "personId": "Compaoré, Ernest",
+        "targetId": "Comité des Koglweogo de Manga",
+        "count": 1
+      },
+      {
+        "personId": "Bourgou, Y. Gilbert",
+        "targetId": "Comité des Koglweogo de Manga",
+        "count": 1
+      },
+      {
+        "personId": "Bationo, Bouma Fernand",
+        "targetId": "Conseil Villageois de Développement",
+        "count": 1
+      },
+      {
+        "personId": "Sanou, Doti Bruno",
+        "targetId": "Conseil Villageois de Développement",
+        "count": 1
+      },
+      {
+        "personId": "Sanou, Anselme Titiama",
+        "targetId": "Conseil Villageois de Développement",
+        "count": 1
+      },
+      {
+        "personId": "Sanon, Sidiki",
+        "targetId": "Conseil Villageois de Développement",
+        "count": 1
+      },
+      {
+        "personId": "Sanou, Issiaka",
+        "targetId": "Conseil Villageois de Développement",
+        "count": 1
+      },
+      {
+        "personId": "Traoré, Honoré Nabéré",
+        "targetId": "Conseil Villageois de Développement",
+        "count": 1
+      },
+      {
+        "personId": "Soulama, Brahima",
+        "targetId": "Conseil Villageois de Développement",
+        "count": 1
+      },
+      {
+        "personId": "Bationo, Bouma Fernand",
+        "targetId": "Université Nazi BONI",
+        "count": 1
+      },
+      {
+        "personId": "Ouoro, Justin",
+        "targetId": "University of Bayreuth",
+        "count": 44
+      },
+      {
+        "personId": "Palm-Sanou, Valentine",
+        "targetId": "University of Bayreuth",
+        "count": 45
+      },
+      {
+        "personId": "Fendler, Ute",
+        "targetId": "University of Bayreuth",
+        "count": 45
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Burkina Faso",

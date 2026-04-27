@@ -80,6 +80,40 @@
       "value": 2
     }
   ],
+  "coSubjects": {
+    "names": [
+      "World health",
+      "West Africa",
+      "Gender",
+      "Health"
+    ],
+    "matrix": [
+      [
+        0,
+        15,
+        10,
+        9
+      ],
+      [
+        15,
+        0,
+        10,
+        9
+      ],
+      [
+        10,
+        10,
+        0,
+        9
+      ],
+      [
+        9,
+        9,
+        9,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "World health",

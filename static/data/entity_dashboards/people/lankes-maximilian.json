@@ -91,6 +91,240 @@
       "value": 4
     }
   ],
+  "coContributors": {
+    "names": [
+      "Doevenspeck, Martin",
+      "Mwanabiningo, Nene Morisho",
+      "Sebudandi, Christophe",
+      "Kaganda Mulume Oderhwa, Philippe",
+      "Tegera, Aloy"
+    ],
+    "matrix": [
+      [
+        0,
+        4,
+        4,
+        4,
+        4
+      ],
+      [
+        4,
+        0,
+        4,
+        4,
+        4
+      ],
+      [
+        4,
+        4,
+        0,
+        4,
+        4
+      ],
+      [
+        4,
+        4,
+        4,
+        0,
+        4
+      ],
+      [
+        4,
+        4,
+        4,
+        4,
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Doevenspeck, Martin",
+        "name": "Doevenspeck, Martin",
+        "itemCount": 4
+      },
+      {
+        "id": "Mwanabiningo, Nene Morisho",
+        "name": "Mwanabiningo, Nene Morisho",
+        "itemCount": 4
+      },
+      {
+        "id": "Sebudandi, Christophe",
+        "name": "Sebudandi, Christophe",
+        "itemCount": 4
+      },
+      {
+        "id": "Kaganda Mulume Oderhwa, Philippe",
+        "name": "Kaganda Mulume Oderhwa, Philippe",
+        "itemCount": 4
+      },
+      {
+        "id": "Tegera, Aloy",
+        "name": "Tegera, Aloy",
+        "itemCount": 4
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_MiConIturi2019",
+        "name": "Uhamaji wa wanyerwanda: Migration and Conflict in Ituri, DR Congo",
+        "itemCount": 4
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Doevenspeck, Martin",
+        "targetId": "UBT_MiConIturi2019",
+        "count": 4
+      },
+      {
+        "personId": "Mwanabiningo, Nene Morisho",
+        "targetId": "UBT_MiConIturi2019",
+        "count": 4
+      },
+      {
+        "personId": "Sebudandi, Christophe",
+        "targetId": "UBT_MiConIturi2019",
+        "count": 4
+      },
+      {
+        "personId": "Kaganda Mulume Oderhwa, Philippe",
+        "targetId": "UBT_MiConIturi2019",
+        "count": 4
+      },
+      {
+        "personId": "Tegera, Aloy",
+        "targetId": "UBT_MiConIturi2019",
+        "count": 4
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Doevenspeck, Martin",
+        "name": "Doevenspeck, Martin",
+        "itemCount": 12
+      },
+      {
+        "id": "Mwanabiningo, Nene Morisho",
+        "name": "Mwanabiningo, Nene Morisho",
+        "itemCount": 12
+      },
+      {
+        "id": "Sebudandi, Christophe",
+        "name": "Sebudandi, Christophe",
+        "itemCount": 12
+      },
+      {
+        "id": "Kaganda Mulume Oderhwa, Philippe",
+        "name": "Kaganda Mulume Oderhwa, Philippe",
+        "itemCount": 12
+      },
+      {
+        "id": "Tegera, Aloy",
+        "name": "Tegera, Aloy",
+        "itemCount": 12
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Bayreuth",
+        "name": "University of Bayreuth",
+        "itemCount": 4
+      },
+      {
+        "id": "Pole Institut Goma",
+        "name": "Pole Institut Goma",
+        "itemCount": 4
+      },
+      {
+        "id": "Université Evangélique en Afrique",
+        "name": "Université Evangélique en Afrique",
+        "itemCount": 4
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Doevenspeck, Martin",
+        "targetId": "University of Bayreuth",
+        "count": 4
+      },
+      {
+        "personId": "Mwanabiningo, Nene Morisho",
+        "targetId": "University of Bayreuth",
+        "count": 4
+      },
+      {
+        "personId": "Sebudandi, Christophe",
+        "targetId": "University of Bayreuth",
+        "count": 4
+      },
+      {
+        "personId": "Kaganda Mulume Oderhwa, Philippe",
+        "targetId": "University of Bayreuth",
+        "count": 4
+      },
+      {
+        "personId": "Tegera, Aloy",
+        "targetId": "University of Bayreuth",
+        "count": 4
+      },
+      {
+        "personId": "Doevenspeck, Martin",
+        "targetId": "Pole Institut Goma",
+        "count": 4
+      },
+      {
+        "personId": "Mwanabiningo, Nene Morisho",
+        "targetId": "Pole Institut Goma",
+        "count": 4
+      },
+      {
+        "personId": "Sebudandi, Christophe",
+        "targetId": "Pole Institut Goma",
+        "count": 4
+      },
+      {
+        "personId": "Kaganda Mulume Oderhwa, Philippe",
+        "targetId": "Pole Institut Goma",
+        "count": 4
+      },
+      {
+        "personId": "Tegera, Aloy",
+        "targetId": "Pole Institut Goma",
+        "count": 4
+      },
+      {
+        "personId": "Doevenspeck, Martin",
+        "targetId": "Université Evangélique en Afrique",
+        "count": 4
+      },
+      {
+        "personId": "Mwanabiningo, Nene Morisho",
+        "targetId": "Université Evangélique en Afrique",
+        "count": 4
+      },
+      {
+        "personId": "Sebudandi, Christophe",
+        "targetId": "Université Evangélique en Afrique",
+        "count": 4
+      },
+      {
+        "personId": "Kaganda Mulume Oderhwa, Philippe",
+        "targetId": "Université Evangélique en Afrique",
+        "count": 4
+      },
+      {
+        "personId": "Tegera, Aloy",
+        "targetId": "Université Evangélique en Afrique",
+        "count": 4
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Democratic Republic of the Congo",

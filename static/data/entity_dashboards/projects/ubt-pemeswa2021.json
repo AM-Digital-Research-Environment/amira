@@ -43,6 +43,67 @@
       }
     }
   ],
+  "languageTimeline": [
+    {
+      "year": 2022,
+      "byCategory": {
+        "English": 8
+      }
+    },
+    {
+      "year": 2023,
+      "byCategory": {
+        "English": 13
+      }
+    },
+    {
+      "year": 2024,
+      "byCategory": {
+        "English": 3
+      }
+    }
+  ],
+  "subjectTrends": [
+    {
+      "year": 2022,
+      "byCategory": {
+        "West Africa": 8,
+        "Exports": 2,
+        "Interviews": 2,
+        "Finance": 2,
+        "Debt": 1,
+        "Interest rates": 0,
+        "Economic policy": 0,
+        "Structural adjustment (Economic policy)": 0
+      }
+    },
+    {
+      "year": 2023,
+      "byCategory": {
+        "West Africa": 13,
+        "Exports": 2,
+        "Interviews": 0,
+        "Finance": 0,
+        "Debt": 1,
+        "Interest rates": 2,
+        "Economic policy": 0,
+        "Structural adjustment (Economic policy)": 0
+      }
+    },
+    {
+      "year": 2024,
+      "byCategory": {
+        "West Africa": 3,
+        "Exports": 0,
+        "Interviews": 1,
+        "Finance": 0,
+        "Debt": 0,
+        "Interest rates": 0,
+        "Economic policy": 1,
+        "Structural adjustment (Economic policy)": 1
+      }
+    }
+  ],
   "types": [
     {
       "name": "Text",
@@ -352,6 +413,68 @@
       ]
     }
   ],
+  "treemap": [
+    {
+      "name": "Text",
+      "children": [
+        {
+          "name": "English",
+          "children": [
+            {
+              "name": "West Africa",
+              "value": 23,
+              "children": []
+            },
+            {
+              "name": "Interviews",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "Exports",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "Finance",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Debt",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Interest rates",
+              "value": 2,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Image",
+      "children": [
+        {
+          "name": "English",
+          "children": [
+            {
+              "name": "Exports",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "West Africa",
+              "value": 1,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "sankey": {
     "nodes": [
       {
@@ -433,6 +556,193 @@
       ]
     ]
   },
+  "timeAwareChord": {
+    "buckets": [
+      {
+        "year": 2022,
+        "names": [
+          "West Africa",
+          "Exports",
+          "Interviews",
+          "Finance",
+          "Debt",
+          "Interest rates"
+        ],
+        "matrix": [
+          [
+            0,
+            2,
+            2,
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "year": 2023,
+        "names": [
+          "West Africa",
+          "Exports",
+          "Interviews",
+          "Finance",
+          "Debt",
+          "Interest rates"
+        ],
+        "matrix": [
+          [
+            0,
+            4,
+            2,
+            2,
+            2,
+            2
+          ],
+          [
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "year": 2024,
+        "names": [
+          "West Africa",
+          "Exports",
+          "Interviews",
+          "Finance",
+          "Debt",
+          "Interest rates"
+        ],
+        "matrix": [
+          [
+            0,
+            4,
+            3,
+            2,
+            2,
+            2
+          ],
+          [
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    ]
+  },
   "contributors": [
     {
       "name": "Koddenbrock, Kai",
@@ -451,6 +761,43 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "calendarHeatmap": [],
+  "geoFlows": {
+    "flows": [
+      {
+        "from": {
+          "lng": 8.0,
+          "lat": 9.0,
+          "label": "Nigeria"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 2
+      },
+      {
+        "from": {
+          "lng": -1.0232,
+          "lat": 7.9465,
+          "label": "Ghana"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 2
+      }
+    ]
+  },
   "locations": [
     {
       "country": "Nigeria",

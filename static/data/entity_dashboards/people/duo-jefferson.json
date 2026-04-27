@@ -135,6 +135,368 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [],
+    "matrix": []
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Collins, Hawa Andrews",
+        "name": "Collins, Hawa Andrews",
+        "itemCount": 1
+      },
+      {
+        "id": "Wallo, James",
+        "name": "Wallo, James",
+        "itemCount": 1
+      },
+      {
+        "id": "Sambula, Richard",
+        "name": "Sambula, Richard",
+        "itemCount": 1
+      },
+      {
+        "id": "Steiner, Charles",
+        "name": "Steiner, Charles",
+        "itemCount": 1
+      },
+      {
+        "id": "Urey, Khrushchev Borbor",
+        "name": "Urey, Khrushchev Borbor",
+        "itemCount": 1
+      },
+      {
+        "id": "Taylor, Adolphus",
+        "name": "Taylor, Adolphus",
+        "itemCount": 1
+      },
+      {
+        "id": "Fakay, Soko",
+        "name": "Fakay, Soko",
+        "itemCount": 1
+      },
+      {
+        "id": "Wegee, Presley",
+        "name": "Wegee, Presley",
+        "itemCount": 1
+      },
+      {
+        "id": "Eastman, John",
+        "name": "Eastman, John",
+        "itemCount": 1
+      },
+      {
+        "id": "Brent, Julius",
+        "name": "Brent, Julius",
+        "itemCount": 1
+      },
+      {
+        "id": "Gilbert, Thomas",
+        "name": "Gilbert, Thomas",
+        "itemCount": 1
+      },
+      {
+        "id": "Mensah, Sam",
+        "name": "Mensah, Sam",
+        "itemCount": 1
+      },
+      {
+        "id": "McCrumada, Charles",
+        "name": "McCrumada, Charles",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Collins, Hawa Andrews",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Wallo, James",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Sambula, Richard",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Steiner, Charles",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Urey, Khrushchev Borbor",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Taylor, Adolphus",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Fakay, Soko",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Wegee, Presley",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Eastman, John",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Brent, Julius",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Gilbert, Thomas",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Mensah, Sam",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "McCrumada, Charles",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Collins, Hawa Andrews",
+        "name": "Collins, Hawa Andrews",
+        "itemCount": 2
+      },
+      {
+        "id": "Wallo, James",
+        "name": "Wallo, James",
+        "itemCount": 2
+      },
+      {
+        "id": "Sambula, Richard",
+        "name": "Sambula, Richard",
+        "itemCount": 2
+      },
+      {
+        "id": "Steiner, Charles",
+        "name": "Steiner, Charles",
+        "itemCount": 2
+      },
+      {
+        "id": "Urey, Khrushchev Borbor",
+        "name": "Urey, Khrushchev Borbor",
+        "itemCount": 2
+      },
+      {
+        "id": "Taylor, Adolphus",
+        "name": "Taylor, Adolphus",
+        "itemCount": 2
+      },
+      {
+        "id": "Fakay, Soko",
+        "name": "Fakay, Soko",
+        "itemCount": 2
+      },
+      {
+        "id": "Wegee, Presley",
+        "name": "Wegee, Presley",
+        "itemCount": 2
+      },
+      {
+        "id": "Eastman, John",
+        "name": "Eastman, John",
+        "itemCount": 2
+      },
+      {
+        "id": "Brent, Julius",
+        "name": "Brent, Julius",
+        "itemCount": 2
+      },
+      {
+        "id": "Gilbert, Thomas",
+        "name": "Gilbert, Thomas",
+        "itemCount": 2
+      },
+      {
+        "id": "Mensah, Sam",
+        "name": "Mensah, Sam",
+        "itemCount": 2
+      },
+      {
+        "id": "McCrumada, Charles",
+        "name": "McCrumada, Charles",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "Liberia Broadcasting System (LBS)",
+        "name": "Liberia Broadcasting System (LBS)",
+        "itemCount": 1
+      },
+      {
+        "id": "Society for the Conservation of Nature of Liberia",
+        "name": "Society for the Conservation of Nature of Liberia",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Collins, Hawa Andrews",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Wallo, James",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Sambula, Richard",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Steiner, Charles",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Urey, Khrushchev Borbor",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Taylor, Adolphus",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Fakay, Soko",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Wegee, Presley",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Eastman, John",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Brent, Julius",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Gilbert, Thomas",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Mensah, Sam",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "McCrumada, Charles",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Collins, Hawa Andrews",
+        "targetId": "Society for the Conservation of Nature of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Wallo, James",
+        "targetId": "Society for the Conservation of Nature of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Sambula, Richard",
+        "targetId": "Society for the Conservation of Nature of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Steiner, Charles",
+        "targetId": "Society for the Conservation of Nature of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Urey, Khrushchev Borbor",
+        "targetId": "Society for the Conservation of Nature of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Taylor, Adolphus",
+        "targetId": "Society for the Conservation of Nature of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Fakay, Soko",
+        "targetId": "Society for the Conservation of Nature of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Wegee, Presley",
+        "targetId": "Society for the Conservation of Nature of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Eastman, John",
+        "targetId": "Society for the Conservation of Nature of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Brent, Julius",
+        "targetId": "Society for the Conservation of Nature of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Gilbert, Thomas",
+        "targetId": "Society for the Conservation of Nature of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Mensah, Sam",
+        "targetId": "Society for the Conservation of Nature of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "McCrumada, Charles",
+        "targetId": "Society for the Conservation of Nature of Liberia",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Liberia",

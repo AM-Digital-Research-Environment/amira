@@ -272,6 +272,50 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [],
+    "matrix": []
+  },
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Clausen, Raymond",
+        "name": "Clausen, Raymond",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Oxford",
+        "name": "University of Oxford",
+        "itemCount": 1
+      },
+      {
+        "id": "SOAS University of London",
+        "name": "SOAS University of London",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Clausen, Raymond",
+        "targetId": "University of Oxford",
+        "count": 1
+      },
+      {
+        "personId": "Clausen, Raymond",
+        "targetId": "SOAS University of London",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "South Africa",

@@ -41,6 +41,30 @@
       "value": 52
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Working class--Brazil--History",
+      "Black people--Brazil--History",
+      "Black people--Brazil--Social conditions"
+    ],
+    "matrix": [
+      [
+        0,
+        52,
+        52
+      ],
+      [
+        52,
+        0,
+        52
+      ],
+      [
+        52,
+        52,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Working class--Brazil--History",

@@ -95,6 +95,52 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Artists",
+      "Africa",
+      "Art",
+      "Exhibitions",
+      "Wood-carving, Yoruba"
+    ],
+    "matrix": [
+      [
+        0,
+        7,
+        4,
+        4,
+        4
+      ],
+      [
+        7,
+        0,
+        4,
+        4,
+        0
+      ],
+      [
+        4,
+        4,
+        0,
+        4,
+        0
+      ],
+      [
+        4,
+        4,
+        4,
+        0,
+        0
+      ],
+      [
+        4,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Artists",

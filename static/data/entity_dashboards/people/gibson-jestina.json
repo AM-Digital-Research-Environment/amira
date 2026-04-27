@@ -70,6 +70,80 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [],
+    "matrix": []
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Holman, Vanplahn",
+        "name": "Holman, Vanplahn",
+        "itemCount": 1
+      },
+      {
+        "id": "Gbenyon, Charles",
+        "name": "Gbenyon, Charles",
+        "itemCount": 1
+      },
+      {
+        "id": "George, P. Amos Jr.",
+        "name": "George, P. Amos Jr.",
+        "itemCount": 1
+      },
+      {
+        "id": "Reffell, Victoria",
+        "name": "Reffell, Victoria",
+        "itemCount": 1
+      },
+      {
+        "id": "Smith, J. Eustace",
+        "name": "Smith, J. Eustace",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Holman, Vanplahn",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Gbenyon, Charles",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "George, P. Amos Jr.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Reffell, Victoria",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Smith, J. Eustace",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
   "locations": [
     {
       "country": "Liberia",

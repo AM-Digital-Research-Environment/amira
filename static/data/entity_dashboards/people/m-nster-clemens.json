@@ -61,6 +61,64 @@
       "value": 12
     }
   ],
+  "coContributors": {
+    "names": [
+      "Stephan, Klaus"
+    ],
+    "matrix": [
+      [
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Stephan, Klaus",
+        "name": "Stephan, Klaus",
+        "itemCount": 12
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango",
+        "itemCount": 12
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Stephan, Klaus",
+        "targetId": "UBT_TaiSha2021",
+        "count": 12
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Stephan, Klaus",
+        "name": "Stephan, Klaus",
+        "itemCount": 12
+      }
+    ],
+    "targets": [
+      {
+        "id": "Bayrischer Rundfunk",
+        "name": "Bayrischer Rundfunk",
+        "itemCount": 12
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Stephan, Klaus",
+        "targetId": "Bayrischer Rundfunk",
+        "count": 12
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Nigeria",

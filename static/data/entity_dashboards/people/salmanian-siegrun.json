@@ -115,6 +115,98 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [],
+    "matrix": []
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Oyelami, Muraina",
+        "name": "Oyelami, Muraina",
+        "itemCount": 1
+      },
+      {
+        "id": "Greven, Katharina",
+        "name": "Greven, Katharina",
+        "itemCount": 1
+      },
+      {
+        "id": "Naumann, Lena",
+        "name": "Naumann, Lena",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Oyelami, Muraina",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 1
+      },
+      {
+        "personId": "Greven, Katharina",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 1
+      },
+      {
+        "personId": "Naumann, Lena",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Oyelami, Muraina",
+        "name": "Oyelami, Muraina",
+        "itemCount": 1
+      },
+      {
+        "id": "Greven, Katharina",
+        "name": "Greven, Katharina",
+        "itemCount": 1
+      },
+      {
+        "id": "Naumann, Lena",
+        "name": "Naumann, Lena",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Bayreuth",
+        "name": "University of Bayreuth",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Oyelami, Muraina",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Greven, Katharina",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Naumann, Lena",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Germany",

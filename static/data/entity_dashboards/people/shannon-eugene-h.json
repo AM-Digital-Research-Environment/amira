@@ -41,6 +41,93 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [],
+    "matrix": []
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Lloyd, Rev. J. Edwin",
+        "name": "Lloyd, Rev. J. Edwin",
+        "itemCount": 1
+      },
+      {
+        "id": "Collins, Hawa Andrews",
+        "name": "Collins, Hawa Andrews",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Lloyd, Rev. J. Edwin",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Collins, Hawa Andrews",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Lloyd, Rev. J. Edwin",
+        "name": "Lloyd, Rev. J. Edwin",
+        "itemCount": 2
+      },
+      {
+        "id": "Collins, Hawa Andrews",
+        "name": "Collins, Hawa Andrews",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "Liberian Red Cross Society",
+        "name": "Liberian Red Cross Society",
+        "itemCount": 1
+      },
+      {
+        "id": "Liberia Broadcasting System (LBS)",
+        "name": "Liberia Broadcasting System (LBS)",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Lloyd, Rev. J. Edwin",
+        "targetId": "Liberian Red Cross Society",
+        "count": 1
+      },
+      {
+        "personId": "Collins, Hawa Andrews",
+        "targetId": "Liberian Red Cross Society",
+        "count": 1
+      },
+      {
+        "personId": "Lloyd, Rev. J. Edwin",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Collins, Hawa Andrews",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Liberia",

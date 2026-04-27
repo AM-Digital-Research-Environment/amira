@@ -44,6 +44,54 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Sorrenson, Major Clark",
+        "name": "Sorrenson, Major Clark",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Sorrenson, Major Clark",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Sorrenson, Major Clark",
+        "name": "Sorrenson, Major Clark",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "United States Army",
+        "name": "United States Army",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Sorrenson, Major Clark",
+        "targetId": "United States Army",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Liberia",

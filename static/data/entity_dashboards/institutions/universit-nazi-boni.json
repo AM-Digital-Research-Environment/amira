@@ -206,6 +206,229 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Traoré, Seydou",
+        "name": "Traoré, Seydou",
+        "itemCount": 2
+      },
+      {
+        "id": "Sanon, Boukary",
+        "name": "Sanon, Boukary",
+        "itemCount": 2
+      },
+      {
+        "id": "Sanou, Issiaka",
+        "name": "Sanou, Issiaka",
+        "itemCount": 1
+      },
+      {
+        "id": "Ouattara, Amadou",
+        "name": "Ouattara, Amadou",
+        "itemCount": 1
+      },
+      {
+        "id": "Donatien, Millogo",
+        "name": "Donatien, Millogo",
+        "itemCount": 1
+      },
+      {
+        "id": "Bationo, Bouma Fernand",
+        "name": "Bationo, Bouma Fernand",
+        "itemCount": 1
+      },
+      {
+        "id": "Traoré, Minata",
+        "name": "Traoré, Minata",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment",
+        "itemCount": 3
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Traoré, Seydou",
+        "targetId": "UJKZ_JITBF2020",
+        "count": 2
+      },
+      {
+        "personId": "Sanon, Boukary",
+        "targetId": "UJKZ_JITBF2020",
+        "count": 2
+      },
+      {
+        "personId": "Sanou, Issiaka",
+        "targetId": "UJKZ_JITBF2020",
+        "count": 1
+      },
+      {
+        "personId": "Ouattara, Amadou",
+        "targetId": "UJKZ_JITBF2020",
+        "count": 1
+      },
+      {
+        "personId": "Donatien, Millogo",
+        "targetId": "UJKZ_JITBF2020",
+        "count": 1
+      },
+      {
+        "personId": "Bationo, Bouma Fernand",
+        "targetId": "UJKZ_JITBF2020",
+        "count": 1
+      },
+      {
+        "personId": "Traoré, Minata",
+        "targetId": "UJKZ_JITBF2020",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Traoré, Seydou",
+        "name": "Traoré, Seydou",
+        "itemCount": 5
+      },
+      {
+        "id": "Sanon, Boukary",
+        "name": "Sanon, Boukary",
+        "itemCount": 5
+      },
+      {
+        "id": "Ouattara, Amadou",
+        "name": "Ouattara, Amadou",
+        "itemCount": 3
+      },
+      {
+        "id": "Donatien, Millogo",
+        "name": "Donatien, Millogo",
+        "itemCount": 3
+      },
+      {
+        "id": "Sanou, Issiaka",
+        "name": "Sanou, Issiaka",
+        "itemCount": 2
+      },
+      {
+        "id": "Bationo, Bouma Fernand",
+        "name": "Bationo, Bouma Fernand",
+        "itemCount": 1
+      },
+      {
+        "id": "Traoré, Minata",
+        "name": "Traoré, Minata",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Université Joseph Ki-Zerbo",
+        "name": "Université Joseph Ki-Zerbo",
+        "itemCount": 3
+      },
+      {
+        "id": "Université catholique de l'Afrique de l'Ouest",
+        "name": "Université catholique de l'Afrique de l'Ouest",
+        "itemCount": 2
+      },
+      {
+        "id": "Conseil Villageois de Développement",
+        "name": "Conseil Villageois de Développement",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Traoré, Seydou",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 2
+      },
+      {
+        "personId": "Sanon, Boukary",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 2
+      },
+      {
+        "personId": "Sanou, Issiaka",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Traoré, Seydou",
+        "targetId": "Université catholique de l'Afrique de l'Ouest",
+        "count": 2
+      },
+      {
+        "personId": "Sanon, Boukary",
+        "targetId": "Université catholique de l'Afrique de l'Ouest",
+        "count": 2
+      },
+      {
+        "personId": "Sanou, Issiaka",
+        "targetId": "Université catholique de l'Afrique de l'Ouest",
+        "count": 1
+      },
+      {
+        "personId": "Ouattara, Amadou",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Donatien, Millogo",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Ouattara, Amadou",
+        "targetId": "Université catholique de l'Afrique de l'Ouest",
+        "count": 1
+      },
+      {
+        "personId": "Donatien, Millogo",
+        "targetId": "Université catholique de l'Afrique de l'Ouest",
+        "count": 1
+      },
+      {
+        "personId": "Traoré, Seydou",
+        "targetId": "Conseil Villageois de Développement",
+        "count": 1
+      },
+      {
+        "personId": "Sanon, Boukary",
+        "targetId": "Conseil Villageois de Développement",
+        "count": 1
+      },
+      {
+        "personId": "Ouattara, Amadou",
+        "targetId": "Conseil Villageois de Développement",
+        "count": 1
+      },
+      {
+        "personId": "Donatien, Millogo",
+        "targetId": "Conseil Villageois de Développement",
+        "count": 1
+      },
+      {
+        "personId": "Bationo, Bouma Fernand",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Traoré, Minata",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Burkina Faso",

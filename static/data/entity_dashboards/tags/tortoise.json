@@ -81,6 +81,52 @@
       "value": 14
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Learning",
+      "Animation (Cinematography)",
+      "Children",
+      "Child psychology",
+      "Curriculum planning"
+    ],
+    "matrix": [
+      [
+        0,
+        14,
+        14,
+        14,
+        14
+      ],
+      [
+        14,
+        0,
+        14,
+        14,
+        14
+      ],
+      [
+        14,
+        14,
+        0,
+        14,
+        14
+      ],
+      [
+        14,
+        14,
+        14,
+        0,
+        14
+      ],
+      [
+        14,
+        14,
+        14,
+        14,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Learning",

@@ -253,6 +253,54 @@
       "value": 81
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Radin, Paul",
+        "name": "Radin, Paul",
+        "itemCount": 81
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama",
+        "itemCount": 81
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Radin, Paul",
+        "targetId": "UBT_TravKnowl2019",
+        "count": 81
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Radin, Paul",
+        "name": "Radin, Paul",
+        "itemCount": 81
+      }
+    ],
+    "targets": [
+      {
+        "id": "Brandeis University",
+        "name": "Brandeis University",
+        "itemCount": 81
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Radin, Paul",
+        "targetId": "Brandeis University",
+        "count": 81
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "United States of America",

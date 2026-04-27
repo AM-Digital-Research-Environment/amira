@@ -108,6 +108,79 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Donawerth, Jane",
+        "name": "Donawerth, Jane",
+        "itemCount": 1
+      },
+      {
+        "id": "van Niekerk, Marinus",
+        "name": "van Niekerk, Marinus",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Donawerth, Jane",
+        "targetId": "UBT_TravKnowl2019",
+        "count": 1
+      },
+      {
+        "personId": "van Niekerk, Marinus",
+        "targetId": "UBT_TravKnowl2019",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Donawerth, Jane",
+        "name": "Donawerth, Jane",
+        "itemCount": 1
+      },
+      {
+        "id": "van Niekerk, Marinus",
+        "name": "van Niekerk, Marinus",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Maryland",
+        "name": "University of Maryland",
+        "itemCount": 1
+      },
+      {
+        "id": "University of Pretoria",
+        "name": "University of Pretoria",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Donawerth, Jane",
+        "targetId": "University of Maryland",
+        "count": 1
+      },
+      {
+        "personId": "van Niekerk, Marinus",
+        "targetId": "University of Pretoria",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "United States of America",

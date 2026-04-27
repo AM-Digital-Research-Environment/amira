@@ -82,6 +82,36 @@
       "value": 2
     }
   ],
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "de Troch, Daniel",
+        "name": "de Troch, Daniel",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "Royal Museum for Central Africa",
+        "name": "Royal Museum for Central Africa",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "de Troch, Daniel",
+        "targetId": "Royal Museum for Central Africa",
+        "count": 2
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "South Africa",

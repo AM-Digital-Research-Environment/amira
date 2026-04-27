@@ -21,6 +21,25 @@
       }
     }
   ],
+  "languageTimeline": [
+    {
+      "year": 2023,
+      "byCategory": {
+        "French": 66
+      }
+    }
+  ],
+  "subjectTrends": [
+    {
+      "year": 2023,
+      "byCategory": {
+        "Emigration and immigration": 66,
+        "Border security": 66,
+        "Violence": 66,
+        "Terrorism": 66
+      }
+    }
+  ],
   "types": [
     {
       "name": "Text",
@@ -111,6 +130,68 @@
     }
   ],
   "sunburst": [
+    {
+      "name": "Text",
+      "children": [
+        {
+          "name": "French",
+          "children": [
+            {
+              "name": "Emigration and immigration",
+              "value": 45,
+              "children": []
+            },
+            {
+              "name": "Border security",
+              "value": 45,
+              "children": []
+            },
+            {
+              "name": "Violence",
+              "value": 45,
+              "children": []
+            },
+            {
+              "name": "Terrorism",
+              "value": 45,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Audio",
+      "children": [
+        {
+          "name": "French",
+          "children": [
+            {
+              "name": "Emigration and immigration",
+              "value": 21,
+              "children": []
+            },
+            {
+              "name": "Border security",
+              "value": 21,
+              "children": []
+            },
+            {
+              "name": "Violence",
+              "value": 21,
+              "children": []
+            },
+            {
+              "name": "Terrorism",
+              "value": 21,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "treemap": [
     {
       "name": "Text",
       "children": [
@@ -655,6 +736,45 @@
       ]
     ]
   },
+  "timeAwareChord": {
+    "buckets": [
+      {
+        "year": 2023,
+        "names": [
+          "Emigration and immigration",
+          "Border security",
+          "Violence",
+          "Terrorism"
+        ],
+        "matrix": [
+          [
+            0,
+            66,
+            66,
+            66
+          ],
+          [
+            66,
+            0,
+            66,
+            66
+          ],
+          [
+            66,
+            66,
+            0,
+            66
+          ],
+          [
+            66,
+            66,
+            66,
+            0
+          ]
+        ]
+      }
+    ]
+  },
   "contributors": [
     {
       "name": "Onadja, Joachim",
@@ -737,6 +857,16 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "calendarHeatmap": [],
+  "geoFlows": {
+    "flows": []
+  },
   "locations": [
     {
       "country": "Burkina Faso",

@@ -137,6 +137,52 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Emigration and immigration",
+      "Border security",
+      "Violence",
+      "Terrorism",
+      "Vaccination"
+    ],
+    "matrix": [
+      [
+        0,
+        66,
+        66,
+        66,
+        0
+      ],
+      [
+        66,
+        0,
+        66,
+        66,
+        0
+      ],
+      [
+        66,
+        66,
+        0,
+        66,
+        0
+      ],
+      [
+        66,
+        66,
+        66,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "COVID-19 Pandemic",

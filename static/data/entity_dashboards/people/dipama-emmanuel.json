@@ -118,6 +118,304 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [
+      "Tapsoba, Tatiana Nadine"
+    ],
+    "matrix": [
+      [
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Tapsoba, Tatiana Nadine",
+        "name": "Tapsoba, Tatiana Nadine",
+        "itemCount": 2
+      },
+      {
+        "id": "Nana, Jean-Baptiste",
+        "name": "Nana, Jean-Baptiste",
+        "itemCount": 1
+      },
+      {
+        "id": "Compaoré, Ernest",
+        "name": "Compaoré, Ernest",
+        "itemCount": 1
+      },
+      {
+        "id": "Sawadogo, Hamidou",
+        "name": "Sawadogo, Hamidou",
+        "itemCount": 1
+      },
+      {
+        "id": "Bourgou, Y. Gilbert",
+        "name": "Bourgou, Y. Gilbert",
+        "itemCount": 1
+      },
+      {
+        "id": "Bouda, Bassirou",
+        "name": "Bouda, Bassirou",
+        "itemCount": 1
+      },
+      {
+        "id": "Samandoulgou, Basga",
+        "name": "Samandoulgou, Basga",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Tapsoba, Tatiana Nadine",
+        "targetId": "UJKZ_JITBF2020",
+        "count": 2
+      },
+      {
+        "personId": "Nana, Jean-Baptiste",
+        "targetId": "UJKZ_JITBF2020",
+        "count": 1
+      },
+      {
+        "personId": "Compaoré, Ernest",
+        "targetId": "UJKZ_JITBF2020",
+        "count": 1
+      },
+      {
+        "personId": "Sawadogo, Hamidou",
+        "targetId": "UJKZ_JITBF2020",
+        "count": 1
+      },
+      {
+        "personId": "Bourgou, Y. Gilbert",
+        "targetId": "UJKZ_JITBF2020",
+        "count": 1
+      },
+      {
+        "personId": "Bouda, Bassirou",
+        "targetId": "UJKZ_JITBF2020",
+        "count": 1
+      },
+      {
+        "personId": "Samandoulgou, Basga",
+        "targetId": "UJKZ_JITBF2020",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Tapsoba, Tatiana Nadine",
+        "name": "Tapsoba, Tatiana Nadine",
+        "itemCount": 5
+      },
+      {
+        "id": "Nana, Jean-Baptiste",
+        "name": "Nana, Jean-Baptiste",
+        "itemCount": 4
+      },
+      {
+        "id": "Compaoré, Ernest",
+        "name": "Compaoré, Ernest",
+        "itemCount": 4
+      },
+      {
+        "id": "Sawadogo, Hamidou",
+        "name": "Sawadogo, Hamidou",
+        "itemCount": 4
+      },
+      {
+        "id": "Bourgou, Y. Gilbert",
+        "name": "Bourgou, Y. Gilbert",
+        "itemCount": 4
+      },
+      {
+        "id": "Bouda, Bassirou",
+        "name": "Bouda, Bassirou",
+        "itemCount": 4
+      },
+      {
+        "id": "Samandoulgou, Basga",
+        "name": "Samandoulgou, Basga",
+        "itemCount": 4
+      }
+    ],
+    "targets": [
+      {
+        "id": "Université Joseph Ki-Zerbo",
+        "name": "Université Joseph Ki-Zerbo",
+        "itemCount": 2
+      },
+      {
+        "id": "Paroisse Cathédrale Notre-Dame de l’Assomption de Manga",
+        "name": "Paroisse Cathédrale Notre-Dame de l’Assomption de Manga",
+        "itemCount": 1
+      },
+      {
+        "id": "Tribunal de Grande Instance de Manga",
+        "name": "Tribunal de Grande Instance de Manga",
+        "itemCount": 1
+      },
+      {
+        "id": "Comité des Koglweogo de Manga",
+        "name": "Comité des Koglweogo de Manga",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Tapsoba, Tatiana Nadine",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 2
+      },
+      {
+        "personId": "Nana, Jean-Baptiste",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Compaoré, Ernest",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Sawadogo, Hamidou",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Bourgou, Y. Gilbert",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Bouda, Bassirou",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Samandoulgou, Basga",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Tapsoba, Tatiana Nadine",
+        "targetId": "Paroisse Cathédrale Notre-Dame de l’Assomption de Manga",
+        "count": 1
+      },
+      {
+        "personId": "Nana, Jean-Baptiste",
+        "targetId": "Paroisse Cathédrale Notre-Dame de l’Assomption de Manga",
+        "count": 1
+      },
+      {
+        "personId": "Compaoré, Ernest",
+        "targetId": "Paroisse Cathédrale Notre-Dame de l’Assomption de Manga",
+        "count": 1
+      },
+      {
+        "personId": "Sawadogo, Hamidou",
+        "targetId": "Paroisse Cathédrale Notre-Dame de l’Assomption de Manga",
+        "count": 1
+      },
+      {
+        "personId": "Bourgou, Y. Gilbert",
+        "targetId": "Paroisse Cathédrale Notre-Dame de l’Assomption de Manga",
+        "count": 1
+      },
+      {
+        "personId": "Bouda, Bassirou",
+        "targetId": "Paroisse Cathédrale Notre-Dame de l’Assomption de Manga",
+        "count": 1
+      },
+      {
+        "personId": "Samandoulgou, Basga",
+        "targetId": "Paroisse Cathédrale Notre-Dame de l’Assomption de Manga",
+        "count": 1
+      },
+      {
+        "personId": "Tapsoba, Tatiana Nadine",
+        "targetId": "Tribunal de Grande Instance de Manga",
+        "count": 1
+      },
+      {
+        "personId": "Nana, Jean-Baptiste",
+        "targetId": "Tribunal de Grande Instance de Manga",
+        "count": 1
+      },
+      {
+        "personId": "Compaoré, Ernest",
+        "targetId": "Tribunal de Grande Instance de Manga",
+        "count": 1
+      },
+      {
+        "personId": "Sawadogo, Hamidou",
+        "targetId": "Tribunal de Grande Instance de Manga",
+        "count": 1
+      },
+      {
+        "personId": "Bourgou, Y. Gilbert",
+        "targetId": "Tribunal de Grande Instance de Manga",
+        "count": 1
+      },
+      {
+        "personId": "Bouda, Bassirou",
+        "targetId": "Tribunal de Grande Instance de Manga",
+        "count": 1
+      },
+      {
+        "personId": "Samandoulgou, Basga",
+        "targetId": "Tribunal de Grande Instance de Manga",
+        "count": 1
+      },
+      {
+        "personId": "Tapsoba, Tatiana Nadine",
+        "targetId": "Comité des Koglweogo de Manga",
+        "count": 1
+      },
+      {
+        "personId": "Nana, Jean-Baptiste",
+        "targetId": "Comité des Koglweogo de Manga",
+        "count": 1
+      },
+      {
+        "personId": "Compaoré, Ernest",
+        "targetId": "Comité des Koglweogo de Manga",
+        "count": 1
+      },
+      {
+        "personId": "Sawadogo, Hamidou",
+        "targetId": "Comité des Koglweogo de Manga",
+        "count": 1
+      },
+      {
+        "personId": "Bourgou, Y. Gilbert",
+        "targetId": "Comité des Koglweogo de Manga",
+        "count": 1
+      },
+      {
+        "personId": "Bouda, Bassirou",
+        "targetId": "Comité des Koglweogo de Manga",
+        "count": 1
+      },
+      {
+        "personId": "Samandoulgou, Basga",
+        "targetId": "Comité des Koglweogo de Manga",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Burkina Faso",

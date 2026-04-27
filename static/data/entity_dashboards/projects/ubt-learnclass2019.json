@@ -32,6 +32,40 @@
       }
     }
   ],
+  "languageTimeline": [
+    {
+      "year": 2022,
+      "byCategory": {
+        "German": 3,
+        "French": 22,
+        "Spanish": 1,
+        "English": 0
+      }
+    },
+    {
+      "year": 2023,
+      "byCategory": {
+        "German": 26,
+        "French": 1,
+        "Spanish": 4,
+        "English": 1
+      }
+    }
+  ],
+  "subjectTrends": [
+    {
+      "year": 2022,
+      "byCategory": {
+        "Literacy": 25
+      }
+    },
+    {
+      "year": 2023,
+      "byCategory": {
+        "Literacy": 27
+      }
+    }
+  ],
   "types": [
     {
       "name": "Text",
@@ -155,6 +189,68 @@
       ]
     }
   ],
+  "treemap": [
+    {
+      "name": "Text",
+      "children": [
+        {
+          "name": "French",
+          "children": [
+            {
+              "name": "Literacy",
+              "value": 22,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "German",
+          "children": [
+            {
+              "name": "Literacy",
+              "value": 29,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "English",
+          "children": [
+            {
+              "name": "Literacy",
+              "value": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Spanish",
+          "children": [
+            {
+              "name": "Literacy",
+              "value": 5,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dataset",
+      "children": [
+        {
+          "name": "French",
+          "children": [
+            {
+              "name": "Literacy",
+              "value": 1,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "sankey": {
     "nodes": [
       {
@@ -206,6 +302,32 @@
       ]
     ]
   },
+  "timeAwareChord": {
+    "buckets": [
+      {
+        "year": 2022,
+        "names": [
+          "Literacy"
+        ],
+        "matrix": [
+          [
+            0
+          ]
+        ]
+      },
+      {
+        "year": 2023,
+        "names": [
+          "Literacy"
+        ],
+        "matrix": [
+          [
+            0
+          ]
+        ]
+      }
+    ]
+  },
   "contributors": [
     {
       "name": "Krauß, Rebekka",
@@ -216,6 +338,43 @@
       "value": 22
     }
   ],
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "calendarHeatmap": [],
+  "geoFlows": {
+    "flows": [
+      {
+        "from": {
+          "lng": -68.35,
+          "lat": -15.0,
+          "label": "La Paz Department"
+        },
+        "to": {
+          "lng": 10.0,
+          "lat": 51.0,
+          "label": "Germany"
+        },
+        "count": 30
+      },
+      {
+        "from": {
+          "lng": 2.61667,
+          "lat": 9.35,
+          "label": "Borgou Department"
+        },
+        "to": {
+          "lng": 10.0,
+          "lat": 51.0,
+          "label": "Germany"
+        },
+        "count": 22
+      }
+    ]
+  },
   "locations": [
     {
       "country": "Bolivia",

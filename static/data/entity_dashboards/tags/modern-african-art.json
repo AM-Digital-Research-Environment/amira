@@ -58,6 +58,52 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Art",
+      "Painting",
+      "Africa",
+      "Exhibitions",
+      "Artists"
+    ],
+    "matrix": [
+      [
+        0,
+        3,
+        3,
+        3,
+        3
+      ],
+      [
+        3,
+        0,
+        3,
+        3,
+        3
+      ],
+      [
+        3,
+        3,
+        0,
+        3,
+        3
+      ],
+      [
+        3,
+        3,
+        3,
+        0,
+        3
+      ],
+      [
+        3,
+        3,
+        3,
+        3,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Art",

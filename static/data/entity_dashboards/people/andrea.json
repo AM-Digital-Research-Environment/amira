@@ -71,6 +71,46 @@
       "value": 2
     }
   ],
+  "coContributors": {
+    "names": [
+      "Williams, Fadhili"
+    ],
+    "matrix": [
+      [
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Williams, Fadhili",
+        "name": "Williams, Fadhili",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Williams, Fadhili",
+        "targetId": "UBT_DigiRet2021",
+        "count": 2
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
   "locations": [
     {
       "country": "Kenya",

@@ -56,6 +56,114 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Diggs, Rev. A. Momolu",
+        "name": "Diggs, Rev. A. Momolu",
+        "itemCount": 1
+      },
+      {
+        "id": "Snetter, Charles A.",
+        "name": "Snetter, Charles A.",
+        "itemCount": 1
+      },
+      {
+        "id": "Carter, Joel",
+        "name": "Carter, Joel",
+        "itemCount": 1
+      },
+      {
+        "id": "Giddings, Nathaniel",
+        "name": "Giddings, Nathaniel",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Diggs, Rev. A. Momolu",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Snetter, Charles A.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Carter, Joel",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Giddings, Nathaniel",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Diggs, Rev. A. Momolu",
+        "name": "Diggs, Rev. A. Momolu",
+        "itemCount": 1
+      },
+      {
+        "id": "Snetter, Charles A.",
+        "name": "Snetter, Charles A.",
+        "itemCount": 1
+      },
+      {
+        "id": "Carter, Joel",
+        "name": "Carter, Joel",
+        "itemCount": 1
+      },
+      {
+        "id": "Giddings, Nathaniel",
+        "name": "Giddings, Nathaniel",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Liberia Broadcasting System (LBS)",
+        "name": "Liberia Broadcasting System (LBS)",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Diggs, Rev. A. Momolu",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Snetter, Charles A.",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Carter, Joel",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Giddings, Nathaniel",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Liberia",

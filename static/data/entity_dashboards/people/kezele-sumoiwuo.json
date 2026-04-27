@@ -195,6 +195,640 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [
+      "Urey, Khrushchev Borbor",
+      "Taylor, Adolphus",
+      "Collins, Hawa Andrews",
+      "Gilbert, Thomas",
+      "Mensah, Sam",
+      "Zeon, Jefferson",
+      "Flomo, Korkulor",
+      "Wegee, Presley",
+      "McCrumada, Charles",
+      "Eastman, John",
+      "Fakay, Soko",
+      "Zonoe, Daniel"
+    ],
+    "matrix": [
+      [
+        0,
+        7,
+        6,
+        6,
+        6,
+        5,
+        4,
+        4,
+        3,
+        2,
+        2,
+        2
+      ],
+      [
+        7,
+        0,
+        6,
+        6,
+        6,
+        5,
+        4,
+        4,
+        3,
+        2,
+        2,
+        2
+      ],
+      [
+        6,
+        6,
+        0,
+        6,
+        6,
+        5,
+        4,
+        3,
+        2,
+        2,
+        2,
+        1
+      ],
+      [
+        6,
+        6,
+        6,
+        0,
+        6,
+        5,
+        4,
+        3,
+        2,
+        2,
+        2,
+        1
+      ],
+      [
+        6,
+        6,
+        6,
+        6,
+        0,
+        5,
+        4,
+        3,
+        2,
+        2,
+        2,
+        1
+      ],
+      [
+        5,
+        5,
+        5,
+        5,
+        5,
+        0,
+        4,
+        2,
+        1,
+        1,
+        2,
+        1
+      ],
+      [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        4,
+        4,
+        3,
+        3,
+        3,
+        2,
+        1,
+        0,
+        3,
+        2,
+        2,
+        2
+      ],
+      [
+        3,
+        3,
+        2,
+        2,
+        2,
+        1,
+        0,
+        3,
+        0,
+        2,
+        1,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        0,
+        2,
+        2,
+        0,
+        1,
+        1
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        1,
+        1,
+        0,
+        1
+      ],
+      [
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        0,
+        2,
+        2,
+        1,
+        1,
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Urey, Khrushchev Borbor",
+        "name": "Urey, Khrushchev Borbor",
+        "itemCount": 7
+      },
+      {
+        "id": "Taylor, Adolphus",
+        "name": "Taylor, Adolphus",
+        "itemCount": 7
+      },
+      {
+        "id": "Collins, Hawa Andrews",
+        "name": "Collins, Hawa Andrews",
+        "itemCount": 6
+      },
+      {
+        "id": "Gilbert, Thomas",
+        "name": "Gilbert, Thomas",
+        "itemCount": 6
+      },
+      {
+        "id": "Mensah, Sam",
+        "name": "Mensah, Sam",
+        "itemCount": 6
+      },
+      {
+        "id": "Zeon, Jefferson",
+        "name": "Zeon, Jefferson",
+        "itemCount": 5
+      },
+      {
+        "id": "Flomo, Korkulor",
+        "name": "Flomo, Korkulor",
+        "itemCount": 4
+      },
+      {
+        "id": "Wegee, Presley",
+        "name": "Wegee, Presley",
+        "itemCount": 4
+      },
+      {
+        "id": "McCrumada, Charles",
+        "name": "McCrumada, Charles",
+        "itemCount": 3
+      },
+      {
+        "id": "Eastman, John",
+        "name": "Eastman, John",
+        "itemCount": 2
+      },
+      {
+        "id": "Fakay, Soko",
+        "name": "Fakay, Soko",
+        "itemCount": 2
+      },
+      {
+        "id": "Zonoe, Daniel",
+        "name": "Zonoe, Daniel",
+        "itemCount": 2
+      },
+      {
+        "id": "Brown, Dan",
+        "name": "Brown, Dan",
+        "itemCount": 1
+      },
+      {
+        "id": "Toby, Victor",
+        "name": "Toby, Victor",
+        "itemCount": 1
+      },
+      {
+        "id": "Elgawed, Saad Abd.",
+        "name": "Elgawed, Saad Abd.",
+        "itemCount": 1
+      },
+      {
+        "id": "Takamya, Nobuhiro",
+        "name": "Takamya, Nobuhiro",
+        "itemCount": 1
+      },
+      {
+        "id": "Oraby, Altaf",
+        "name": "Oraby, Altaf",
+        "itemCount": 1
+      },
+      {
+        "id": "Wessehutes, Jimmy",
+        "name": "Wessehutes, Jimmy",
+        "itemCount": 1
+      },
+      {
+        "id": "Doblah, George",
+        "name": "Doblah, George",
+        "itemCount": 1
+      },
+      {
+        "id": "Zor, David",
+        "name": "Zor, David",
+        "itemCount": 1
+      },
+      {
+        "id": "Flomo, Roland K.",
+        "name": "Flomo, Roland K.",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System",
+        "itemCount": 7
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Collins, Hawa Andrews",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 6
+      },
+      {
+        "personId": "Urey, Khrushchev Borbor",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 7
+      },
+      {
+        "personId": "Taylor, Adolphus",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 7
+      },
+      {
+        "personId": "Zeon, Jefferson",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 5
+      },
+      {
+        "personId": "Flomo, Korkulor",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 4
+      },
+      {
+        "personId": "Gilbert, Thomas",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 6
+      },
+      {
+        "personId": "Mensah, Sam",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 6
+      },
+      {
+        "personId": "Brown, Dan",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Wegee, Presley",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 4
+      },
+      {
+        "personId": "Eastman, John",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 2
+      },
+      {
+        "personId": "Toby, Victor",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "McCrumada, Charles",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 3
+      },
+      {
+        "personId": "Fakay, Soko",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 2
+      },
+      {
+        "personId": "Elgawed, Saad Abd.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Zonoe, Daniel",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 2
+      },
+      {
+        "personId": "Takamya, Nobuhiro",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Oraby, Altaf",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Wessehutes, Jimmy",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Doblah, George",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Zor, David",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Flomo, Roland K.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Urey, Khrushchev Borbor",
+        "name": "Urey, Khrushchev Borbor",
+        "itemCount": 7
+      },
+      {
+        "id": "Taylor, Adolphus",
+        "name": "Taylor, Adolphus",
+        "itemCount": 7
+      },
+      {
+        "id": "Collins, Hawa Andrews",
+        "name": "Collins, Hawa Andrews",
+        "itemCount": 6
+      },
+      {
+        "id": "Gilbert, Thomas",
+        "name": "Gilbert, Thomas",
+        "itemCount": 6
+      },
+      {
+        "id": "Mensah, Sam",
+        "name": "Mensah, Sam",
+        "itemCount": 6
+      },
+      {
+        "id": "Zeon, Jefferson",
+        "name": "Zeon, Jefferson",
+        "itemCount": 5
+      },
+      {
+        "id": "Flomo, Korkulor",
+        "name": "Flomo, Korkulor",
+        "itemCount": 4
+      },
+      {
+        "id": "Wegee, Presley",
+        "name": "Wegee, Presley",
+        "itemCount": 4
+      },
+      {
+        "id": "McCrumada, Charles",
+        "name": "McCrumada, Charles",
+        "itemCount": 3
+      },
+      {
+        "id": "Eastman, John",
+        "name": "Eastman, John",
+        "itemCount": 2
+      },
+      {
+        "id": "Fakay, Soko",
+        "name": "Fakay, Soko",
+        "itemCount": 2
+      },
+      {
+        "id": "Zonoe, Daniel",
+        "name": "Zonoe, Daniel",
+        "itemCount": 2
+      },
+      {
+        "id": "Brown, Dan",
+        "name": "Brown, Dan",
+        "itemCount": 1
+      },
+      {
+        "id": "Toby, Victor",
+        "name": "Toby, Victor",
+        "itemCount": 1
+      },
+      {
+        "id": "Elgawed, Saad Abd.",
+        "name": "Elgawed, Saad Abd.",
+        "itemCount": 1
+      },
+      {
+        "id": "Takamya, Nobuhiro",
+        "name": "Takamya, Nobuhiro",
+        "itemCount": 1
+      },
+      {
+        "id": "Oraby, Altaf",
+        "name": "Oraby, Altaf",
+        "itemCount": 1
+      },
+      {
+        "id": "Wessehutes, Jimmy",
+        "name": "Wessehutes, Jimmy",
+        "itemCount": 1
+      },
+      {
+        "id": "Doblah, George",
+        "name": "Doblah, George",
+        "itemCount": 1
+      },
+      {
+        "id": "Zor, David",
+        "name": "Zor, David",
+        "itemCount": 1
+      },
+      {
+        "id": "Flomo, Roland K.",
+        "name": "Flomo, Roland K.",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Liberia Broadcasting System (LBS)",
+        "name": "Liberia Broadcasting System (LBS)",
+        "itemCount": 7
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Collins, Hawa Andrews",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 6
+      },
+      {
+        "personId": "Urey, Khrushchev Borbor",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 7
+      },
+      {
+        "personId": "Taylor, Adolphus",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 7
+      },
+      {
+        "personId": "Zeon, Jefferson",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 5
+      },
+      {
+        "personId": "Flomo, Korkulor",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 4
+      },
+      {
+        "personId": "Gilbert, Thomas",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 6
+      },
+      {
+        "personId": "Mensah, Sam",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 6
+      },
+      {
+        "personId": "Brown, Dan",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Wegee, Presley",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 4
+      },
+      {
+        "personId": "Eastman, John",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 2
+      },
+      {
+        "personId": "Toby, Victor",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "McCrumada, Charles",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 3
+      },
+      {
+        "personId": "Fakay, Soko",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 2
+      },
+      {
+        "personId": "Elgawed, Saad Abd.",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Zonoe, Daniel",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 2
+      },
+      {
+        "personId": "Takamya, Nobuhiro",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Oraby, Altaf",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Wessehutes, Jimmy",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Doblah, George",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Zor, David",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Flomo, Roland K.",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Liberia",

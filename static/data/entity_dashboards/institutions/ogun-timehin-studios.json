@@ -61,6 +61,36 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Ogundele, Rufus",
+        "name": "Ogundele, Rufus",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Ogundele, Rufus",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
   "locations": [],
   "items": [
     {

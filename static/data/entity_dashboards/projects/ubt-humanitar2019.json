@@ -20,6 +20,30 @@
       }
     }
   ],
+  "languageTimeline": [
+    {
+      "year": 2024,
+      "byCategory": {
+        "French": 13,
+        "English": 13
+      }
+    }
+  ],
+  "subjectTrends": [
+    {
+      "year": 2024,
+      "byCategory": {
+        "Humanities": 13,
+        "Neoliberalism": 1,
+        "Capitalism": 1,
+        "Sociology": 1,
+        "Ethics": 1,
+        "Wars": 1,
+        "Corruption": 1,
+        "Anthropology": 1
+      }
+    }
+  ],
   "types": [
     {
       "name": "Bibliography",
@@ -345,6 +369,83 @@
       ]
     }
   ],
+  "treemap": [
+    {
+      "name": "Bibliography",
+      "children": [
+        {
+          "name": "English",
+          "children": [
+            {
+              "name": "Humanities",
+              "value": 13,
+              "children": []
+            },
+            {
+              "name": "Neoliberalism",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Capitalism",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Sociology",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Ethics",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Wars",
+              "value": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "French",
+          "children": [
+            {
+              "name": "Humanities",
+              "value": 13,
+              "children": []
+            },
+            {
+              "name": "Neoliberalism",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Capitalism",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Sociology",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Ethics",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Wars",
+              "value": 1,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "sankey": {
     "nodes": [
       {
@@ -380,12 +481,37 @@
       ]
     ]
   },
+  "timeAwareChord": {
+    "buckets": [
+      {
+        "year": 2024,
+        "names": [
+          "Humanities"
+        ],
+        "matrix": [
+          [
+            0
+          ]
+        ]
+      }
+    ]
+  },
   "contributors": [
     {
       "name": "Glasman, Joël",
       "value": 13
     }
   ],
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "calendarHeatmap": [],
+  "geoFlows": {
+    "flows": []
+  },
   "locations": [
     {
       "country": "Germany",

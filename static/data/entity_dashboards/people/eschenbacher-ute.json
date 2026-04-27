@@ -71,6 +71,68 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [],
+    "matrix": []
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Unterburger, Florian",
+        "name": "Unterburger, Florian",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Unterburger, Florian",
+        "targetId": "Ext_BayGlo2025",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Unterburger, Florian",
+        "name": "Unterburger, Florian",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "Nordbayerischer Kurier",
+        "name": "Nordbayerischer Kurier",
+        "itemCount": 1
+      },
+      {
+        "id": "Industriemuseum Bayreuth",
+        "name": "Industriemuseum Bayreuth",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Unterburger, Florian",
+        "targetId": "Nordbayerischer Kurier",
+        "count": 1
+      },
+      {
+        "personId": "Unterburger, Florian",
+        "targetId": "Industriemuseum Bayreuth",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Germany",

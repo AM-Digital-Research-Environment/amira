@@ -54,6 +54,40 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Mosques",
+      "Photography",
+      "Anthropology",
+      "Photographs"
+    ],
+    "matrix": [
+      [
+        0,
+        3,
+        3,
+        3
+      ],
+      [
+        3,
+        0,
+        3,
+        3
+      ],
+      [
+        3,
+        3,
+        0,
+        3
+      ],
+      [
+        3,
+        3,
+        3,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Photography",

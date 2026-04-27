@@ -135,6 +135,52 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Archives",
+      "Colonisation",
+      "Letters",
+      "Social norms",
+      "Discourse analysis"
+    ],
+    "matrix": [
+      [
+        0,
+        12,
+        12,
+        12,
+        12
+      ],
+      [
+        12,
+        0,
+        12,
+        12,
+        12
+      ],
+      [
+        12,
+        12,
+        0,
+        12,
+        12
+      ],
+      [
+        12,
+        12,
+        12,
+        0,
+        12
+      ],
+      [
+        12,
+        12,
+        12,
+        12,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Archives",

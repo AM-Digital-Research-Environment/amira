@@ -112,6 +112,52 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Talking drum",
+      "Drum language",
+      "Drum",
+      "Musical instruments",
+      "Percussion instruments"
+    ],
+    "matrix": [
+      [
+        0,
+        3,
+        3,
+        3,
+        3
+      ],
+      [
+        3,
+        0,
+        3,
+        3,
+        3
+      ],
+      [
+        3,
+        3,
+        0,
+        3,
+        3
+      ],
+      [
+        3,
+        3,
+        3,
+        0,
+        3
+      ],
+      [
+        3,
+        3,
+        3,
+        3,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Talking drum",

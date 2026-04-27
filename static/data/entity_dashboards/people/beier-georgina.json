@@ -704,6 +704,275 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [
+      "Greven, Katharina",
+      "Beier, Ulli",
+      "Yeye Olana",
+      "Kauage, Mathias",
+      "Ritchie, Jonathan"
+    ],
+    "matrix": [
+      [
+        0,
+        42,
+        0,
+        2,
+        0
+      ],
+      [
+        42,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Greven, Katharina",
+        "name": "Greven, Katharina",
+        "itemCount": 77
+      },
+      {
+        "id": "Beier, Ulli",
+        "name": "Beier, Ulli",
+        "itemCount": 46
+      },
+      {
+        "id": "Yeye Olana",
+        "name": "Yeye Olana",
+        "itemCount": 2
+      },
+      {
+        "id": "Kauage, Mathias",
+        "name": "Kauage, Mathias",
+        "itemCount": 2
+      },
+      {
+        "id": "Ritchie, Jonathan",
+        "name": "Ritchie, Jonathan",
+        "itemCount": 2
+      },
+      {
+        "id": "Aiyegbusi, Tayo",
+        "name": "Aiyegbusi, Tayo",
+        "itemCount": 1
+      },
+      {
+        "id": "Herbert, Heidi",
+        "name": "Herbert, Heidi",
+        "itemCount": 1
+      },
+      {
+        "id": "Akis, Timothy",
+        "name": "Akis, Timothy",
+        "itemCount": 1
+      },
+      {
+        "id": "Abiodun, Rowland",
+        "name": "Abiodun, Rowland",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent",
+        "itemCount": 83
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Beier, Ulli",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 46
+      },
+      {
+        "personId": "Greven, Katharina",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 77
+      },
+      {
+        "personId": "Yeye Olana",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 2
+      },
+      {
+        "personId": "Kauage, Mathias",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 2
+      },
+      {
+        "personId": "Aiyegbusi, Tayo",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 1
+      },
+      {
+        "personId": "Herbert, Heidi",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 1
+      },
+      {
+        "personId": "Ritchie, Jonathan",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 2
+      },
+      {
+        "personId": "Akis, Timothy",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 1
+      },
+      {
+        "personId": "Abiodun, Rowland",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Greven, Katharina",
+        "name": "Greven, Katharina",
+        "itemCount": 78
+      },
+      {
+        "id": "Beier, Ulli",
+        "name": "Beier, Ulli",
+        "itemCount": 43
+      },
+      {
+        "id": "Kauage, Mathias",
+        "name": "Kauage, Mathias",
+        "itemCount": 2
+      },
+      {
+        "id": "Ritchie, Jonathan",
+        "name": "Ritchie, Jonathan",
+        "itemCount": 2
+      },
+      {
+        "id": "Abiodun, Rowland",
+        "name": "Abiodun, Rowland",
+        "itemCount": 2
+      },
+      {
+        "id": "Aiyegbusi, Tayo",
+        "name": "Aiyegbusi, Tayo",
+        "itemCount": 1
+      },
+      {
+        "id": "Herbert, Heidi",
+        "name": "Herbert, Heidi",
+        "itemCount": 1
+      },
+      {
+        "id": "Akis, Timothy",
+        "name": "Akis, Timothy",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Bayreuth",
+        "name": "University of Bayreuth",
+        "itemCount": 77
+      },
+      {
+        "id": "National Library of Australia",
+        "name": "National Library of Australia",
+        "itemCount": 2
+      },
+      {
+        "id": "Amherst College",
+        "name": "Amherst College",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Beier, Ulli",
+        "targetId": "University of Bayreuth",
+        "count": 42
+      },
+      {
+        "personId": "Greven, Katharina",
+        "targetId": "University of Bayreuth",
+        "count": 77
+      },
+      {
+        "personId": "Kauage, Mathias",
+        "targetId": "University of Bayreuth",
+        "count": 2
+      },
+      {
+        "personId": "Aiyegbusi, Tayo",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Herbert, Heidi",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Beier, Ulli",
+        "targetId": "National Library of Australia",
+        "count": 1
+      },
+      {
+        "personId": "Ritchie, Jonathan",
+        "targetId": "National Library of Australia",
+        "count": 2
+      },
+      {
+        "personId": "Akis, Timothy",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Abiodun, Rowland",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Greven, Katharina",
+        "targetId": "Amherst College",
+        "count": 1
+      },
+      {
+        "personId": "Abiodun, Rowland",
+        "targetId": "Amherst College",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Australia",

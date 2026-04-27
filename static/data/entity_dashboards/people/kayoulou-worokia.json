@@ -79,6 +79,98 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [],
+    "matrix": []
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Kaboré",
+        "name": "Kaboré",
+        "itemCount": 1
+      },
+      {
+        "id": "Napon",
+        "name": "Napon",
+        "itemCount": 1
+      },
+      {
+        "id": "Traoré",
+        "name": "Traoré",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques",
+        "itemCount": 3
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Kaboré",
+        "targetId": "UJKZ_filmBF2022",
+        "count": 1
+      },
+      {
+        "personId": "Napon",
+        "targetId": "UJKZ_filmBF2022",
+        "count": 1
+      },
+      {
+        "personId": "Traoré",
+        "targetId": "UJKZ_filmBF2022",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Kaboré",
+        "name": "Kaboré",
+        "itemCount": 1
+      },
+      {
+        "id": "Napon",
+        "name": "Napon",
+        "itemCount": 1
+      },
+      {
+        "id": "Traoré",
+        "name": "Traoré",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Université Joseph Ki-Zerbo",
+        "name": "Université Joseph Ki-Zerbo",
+        "itemCount": 3
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Kaboré",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Napon",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Traoré",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Burkina Faso",

@@ -31,6 +31,43 @@
       }
     }
   ],
+  "languageTimeline": [
+    {
+      "year": 2024,
+      "byCategory": {
+        "Portuguese": 17,
+        "English": 3
+      }
+    }
+  ],
+  "subjectTrends": [
+    {
+      "year": 2024,
+      "byCategory": {
+        "Working class--Brazil--History": 0,
+        "Black people--Brazil--History": 0,
+        "Black people--Brazil--Social conditions": 0,
+        "Capoeira (Dance)": 44,
+        "Photographs": 24,
+        "Documentation": 14,
+        "Orisha religion": 0,
+        "Candomblé": 0
+      }
+    },
+    {
+      "year": 2025,
+      "byCategory": {
+        "Working class--Brazil--History": 52,
+        "Black people--Brazil--History": 52,
+        "Black people--Brazil--Social conditions": 52,
+        "Capoeira (Dance)": 0,
+        "Photographs": 14,
+        "Documentation": 0,
+        "Orisha religion": 14,
+        "Candomblé": 14
+      }
+    }
+  ],
   "types": [
     {
       "name": "Image",
@@ -219,6 +256,98 @@
             },
             {
               "name": "Yoruba (African people)--Religion",
+              "value": 14,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Portuguese",
+          "children": [
+            {
+              "name": "Capoeira (Dance)",
+              "value": 17,
+              "children": []
+            },
+            {
+              "name": "Documentation",
+              "value": 11,
+              "children": []
+            },
+            {
+              "name": "Letters",
+              "value": 6,
+              "children": []
+            },
+            {
+              "name": "Commercial correspondence",
+              "value": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "English",
+          "children": [
+            {
+              "name": "Capoeira (Dance)",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "Documentation",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Letters",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Commercial correspondence",
+              "value": 1,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "treemap": [
+    {
+      "name": "Image",
+      "children": [
+        {
+          "name": "Unknown",
+          "children": [
+            {
+              "name": "Working class--Brazil--History",
+              "value": 52,
+              "children": []
+            },
+            {
+              "name": "Black people--Brazil--History",
+              "value": 52,
+              "children": []
+            },
+            {
+              "name": "Black people--Brazil--Social conditions",
+              "value": 52,
+              "children": []
+            },
+            {
+              "name": "Photographs",
+              "value": 38,
+              "children": []
+            },
+            {
+              "name": "Capoeira (Dance)",
+              "value": 25,
+              "children": []
+            },
+            {
+              "name": "Orisha religion",
               "value": 14,
               "children": []
             }
@@ -478,6 +607,384 @@
       ]
     ]
   },
+  "timeAwareChord": {
+    "buckets": [
+      {
+        "year": 2024,
+        "names": [
+          "Working class--Brazil--History",
+          "Black people--Brazil--History",
+          "Black people--Brazil--Social conditions",
+          "Capoeira (Dance)",
+          "Photographs",
+          "Documentation",
+          "Orisha religion",
+          "Candomblé",
+          "Yoruba (African people)--Religion",
+          "Yoruba (African people)",
+          "Letters",
+          "Commercial correspondence"
+        ],
+        "matrix": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            24,
+            14,
+            0,
+            0,
+            0,
+            0,
+            6,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            24,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            14,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "year": 2025,
+        "names": [
+          "Working class--Brazil--History",
+          "Black people--Brazil--History",
+          "Black people--Brazil--Social conditions",
+          "Capoeira (Dance)",
+          "Photographs",
+          "Documentation",
+          "Orisha religion",
+          "Candomblé",
+          "Yoruba (African people)--Religion",
+          "Yoruba (African people)",
+          "Letters",
+          "Commercial correspondence"
+        ],
+        "matrix": [
+          [
+            0,
+            52,
+            52,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            52,
+            0,
+            52,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            52,
+            52,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            24,
+            14,
+            0,
+            0,
+            0,
+            0,
+            6,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            24,
+            0,
+            0,
+            14,
+            14,
+            14,
+            14,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            14,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            14,
+            0,
+            0,
+            14,
+            14,
+            14,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            14,
+            0,
+            14,
+            0,
+            14,
+            14,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            14,
+            0,
+            14,
+            14,
+            0,
+            14,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            14,
+            0,
+            14,
+            14,
+            14,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    ]
+  },
   "contributors": [
     {
       "name": "Vasconcellos, Christiane",
@@ -492,6 +999,16 @@
       "value": 14
     }
   ],
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "calendarHeatmap": [],
+  "geoFlows": {
+    "flows": []
+  },
   "locations": [
     {
       "country": "Brazil",

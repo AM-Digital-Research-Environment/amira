@@ -66,6 +66,70 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [],
+    "matrix": []
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Christopher, Victoria",
+        "name": "Christopher, Victoria",
+        "itemCount": 1
+      },
+      {
+        "id": "Wasolo, Steve",
+        "name": "Wasolo, Steve",
+        "itemCount": 1
+      },
+      {
+        "id": "Nigbo, Aaron",
+        "name": "Nigbo, Aaron",
+        "itemCount": 1
+      },
+      {
+        "id": "Johnson, Patrick",
+        "name": "Johnson, Patrick",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Christopher, Victoria",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Wasolo, Steve",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Nigbo, Aaron",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Johnson, Patrick",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
   "locations": [
     {
       "country": "Liberia",

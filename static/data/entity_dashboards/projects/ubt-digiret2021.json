@@ -20,6 +20,41 @@
       }
     }
   ],
+  "languageTimeline": [
+    {
+      "year": 1950,
+      "byCategory": {
+        "Twi": 88,
+        "Swahili": 57,
+        "Fanti": 47,
+        "Ewe": 32,
+        "Yoruba": 24,
+        "Ga": 24,
+        "Luganda": 8,
+        "Kru": 4,
+        "Hausa": 4,
+        "Igbo": 3,
+        "Dholuo": 2,
+        "Nigerian Pidgin": 1,
+        "Acholi": 1
+      }
+    }
+  ],
+  "subjectTrends": [
+    {
+      "year": 1950,
+      "byCategory": {
+        "Ethnomusicology": 298,
+        "Twi (African people)": 88,
+        "Twi language": 88,
+        "Swahili language": 57,
+        "Highlife (Music)": 52,
+        "Fanti (African people)": 47,
+        "Fanti language": 47,
+        "Ewe (African people)": 32
+      }
+    }
+  ],
   "types": [
     {
       "name": "Audio",
@@ -488,6 +523,323 @@
             },
             {
               "name": "Sambas",
+              "value": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Ewe",
+          "children": [
+            {
+              "name": "Ethnomusicology",
+              "value": 32,
+              "children": []
+            },
+            {
+              "name": "Ewe (African people)",
+              "value": 32,
+              "children": []
+            },
+            {
+              "name": "Ewe language",
+              "value": 32,
+              "children": []
+            },
+            {
+              "name": "Highlife (Music)",
+              "value": 12,
+              "children": []
+            },
+            {
+              "name": "Blues (Music)",
+              "value": 7,
+              "children": []
+            },
+            {
+              "name": "Tangos",
+              "value": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Fanti",
+          "children": [
+            {
+              "name": "Ethnomusicology",
+              "value": 47,
+              "children": []
+            },
+            {
+              "name": "Fanti (African people)",
+              "value": 47,
+              "children": []
+            },
+            {
+              "name": "Fanti language",
+              "value": 47,
+              "children": []
+            },
+            {
+              "name": "Highlife (Music)",
+              "value": 14,
+              "children": []
+            },
+            {
+              "name": "Blues (Music)",
+              "value": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Kru",
+          "children": [
+            {
+              "name": "Ethnomusicology",
+              "value": 4,
+              "children": []
+            },
+            {
+              "name": "Kru language",
+              "value": 4,
+              "children": []
+            },
+            {
+              "name": "Kru (African people)",
+              "value": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Hausa",
+          "children": [
+            {
+              "name": "Ethnomusicology",
+              "value": 4,
+              "children": []
+            },
+            {
+              "name": "Hausa (African people)",
+              "value": 4,
+              "children": []
+            },
+            {
+              "name": "Hausa language",
+              "value": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Swahili",
+          "children": [
+            {
+              "name": "Ethnomusicology",
+              "value": 57,
+              "children": []
+            },
+            {
+              "name": "Swahili language",
+              "value": 57,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Luganda",
+          "children": [
+            {
+              "name": "Ethnomusicology",
+              "value": 8,
+              "children": []
+            },
+            {
+              "name": "Ganda language",
+              "value": 8,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Acholi",
+          "children": [
+            {
+              "name": "Ethnomusicology",
+              "value": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Unknown",
+          "children": [
+            {
+              "name": "Ethnomusicology",
+              "value": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Dholuo",
+          "children": [
+            {
+              "name": "Ethnomusicology",
+              "value": 2,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "treemap": [
+    {
+      "name": "Audio",
+      "children": [
+        {
+          "name": "Yoruba",
+          "children": [
+            {
+              "name": "Ethnomusicology",
+              "value": 24,
+              "children": []
+            },
+            {
+              "name": "Yoruba (African people)",
+              "value": 24,
+              "children": []
+            },
+            {
+              "name": "Yoruba language",
+              "value": 24,
+              "children": []
+            },
+            {
+              "name": "Highlife (Music)",
+              "value": 2,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Igbo",
+          "children": [
+            {
+              "name": "Ethnomusicology",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "Igbo (African people)",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "Igbo language",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "Highlife (Music)",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Ga (African people)",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Ga language",
+              "value": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Ga",
+          "children": [
+            {
+              "name": "Ethnomusicology",
+              "value": 24,
+              "children": []
+            },
+            {
+              "name": "Ga (African people)",
+              "value": 24,
+              "children": []
+            },
+            {
+              "name": "Ga language",
+              "value": 24,
+              "children": []
+            },
+            {
+              "name": "Highlife (Music)",
+              "value": 6,
+              "children": []
+            },
+            {
+              "name": "Sacred music",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Igbo (African people)",
+              "value": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Nigerian Pidgin",
+          "children": [
+            {
+              "name": "Ethnomusicology",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Highlife (Music)",
+              "value": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Twi",
+          "children": [
+            {
+              "name": "Ethnomusicology",
+              "value": 88,
+              "children": []
+            },
+            {
+              "name": "Twi (African people)",
+              "value": 88,
+              "children": []
+            },
+            {
+              "name": "Twi language",
+              "value": 88,
+              "children": []
+            },
+            {
+              "name": "Highlife (Music)",
+              "value": 16,
+              "children": []
+            },
+            {
+              "name": "Blues (Music)",
+              "value": 6,
+              "children": []
+            },
+            {
+              "name": "Rumbas",
               "value": 1,
               "children": []
             }
@@ -1580,6 +1932,477 @@
       ]
     ]
   },
+  "timeAwareChord": {
+    "buckets": [
+      {
+        "year": 1950,
+        "names": [
+          "Ethnomusicology",
+          "Twi (African people)",
+          "Twi language",
+          "Swahili language",
+          "Highlife (Music)",
+          "Fanti (African people)",
+          "Fanti language",
+          "Ewe (African people)",
+          "Ewe language",
+          "Yoruba (African people)",
+          "Yoruba language",
+          "Ga (African people)",
+          "Ga language",
+          "Blues (Music)",
+          "Ganda language",
+          "Kru language",
+          "Kru (African people)",
+          "Hausa (African people)",
+          "Hausa language",
+          "Igbo (African people)"
+        ],
+        "matrix": [
+          [
+            0,
+            88,
+            88,
+            57,
+            52,
+            47,
+            47,
+            32,
+            32,
+            24,
+            24,
+            24,
+            24,
+            19,
+            8,
+            4,
+            4,
+            4,
+            4,
+            3
+          ],
+          [
+            88,
+            0,
+            88,
+            0,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            88,
+            88,
+            0,
+            0,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            57,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            52,
+            16,
+            16,
+            0,
+            0,
+            14,
+            14,
+            12,
+            12,
+            2,
+            2,
+            6,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            47,
+            0,
+            0,
+            0,
+            14,
+            0,
+            47,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            47,
+            0,
+            0,
+            0,
+            14,
+            47,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            32,
+            0,
+            0,
+            0,
+            12,
+            0,
+            0,
+            0,
+            32,
+            0,
+            0,
+            0,
+            0,
+            7,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            32,
+            0,
+            0,
+            0,
+            12,
+            0,
+            0,
+            32,
+            0,
+            0,
+            0,
+            0,
+            0,
+            7,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            24,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            24,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            24,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            24,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            24,
+            0,
+            0,
+            0,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            24,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            24,
+            0,
+            0,
+            0,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            24,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            19,
+            6,
+            6,
+            0,
+            0,
+            4,
+            4,
+            7,
+            7,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            4,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            4,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            4,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            4,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    ]
+  },
   "contributors": [
     {
       "name": "Ghana Broadcasting Corporation Gramophone Library",
@@ -1662,6 +2485,21 @@
       "value": 6
     }
   ],
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "calendarHeatmap": [
+    {
+      "date": "1950-01-01",
+      "value": 298
+    }
+  ],
+  "geoFlows": {
+    "flows": []
+  },
   "locations": [
     {
       "country": "Ghana",

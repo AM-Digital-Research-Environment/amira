@@ -34,6 +34,35 @@
       }
     }
   ],
+  "languageTimeline": [],
+  "subjectTrends": [
+    {
+      "year": 2022,
+      "byCategory": {
+        "Economic geography": 3,
+        "Social justice": 3,
+        "Venture capital": 3,
+        "Regional disparities": 3,
+        "Gender": 3,
+        "Race": 3,
+        "Intersectionality (Sociology)": 3,
+        "Interviews": 3
+      }
+    },
+    {
+      "year": 2023,
+      "byCategory": {
+        "Economic geography": 2,
+        "Social justice": 2,
+        "Venture capital": 2,
+        "Regional disparities": 2,
+        "Gender": 2,
+        "Race": 2,
+        "Intersectionality (Sociology)": 2,
+        "Interviews": 2
+      }
+    }
+  ],
   "types": [
     {
       "name": "Text",
@@ -323,6 +352,128 @@
       ]
     }
   ],
+  "treemap": [
+    {
+      "name": "Text",
+      "children": [
+        {
+          "name": "Unknown",
+          "children": [
+            {
+              "name": "Economic geography",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Social justice",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Venture capital",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Regional disparities",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Gender",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Race",
+              "value": 2,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dataset",
+      "children": [
+        {
+          "name": "Unknown",
+          "children": [
+            {
+              "name": "Economic geography",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Social justice",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Venture capital",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Regional disparities",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Gender",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Race",
+              "value": 2,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Audio",
+      "children": [
+        {
+          "name": "Unknown",
+          "children": [
+            {
+              "name": "Economic geography",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Social justice",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Venture capital",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Regional disparities",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Gender",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Race",
+              "value": 1,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "sankey": {
     "nodes": [
       {
@@ -474,6 +625,200 @@
       ]
     ]
   },
+  "timeAwareChord": {
+    "buckets": [
+      {
+        "year": 2022,
+        "names": [
+          "Economic geography",
+          "Social justice",
+          "Venture capital",
+          "Regional disparities",
+          "Gender",
+          "Race",
+          "Intersectionality (Sociology)",
+          "Interviews"
+        ],
+        "matrix": [
+          [
+            0,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          [
+            3,
+            0,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          [
+            3,
+            3,
+            0,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          [
+            3,
+            3,
+            3,
+            0,
+            3,
+            3,
+            3,
+            3
+          ],
+          [
+            3,
+            3,
+            3,
+            3,
+            0,
+            3,
+            3,
+            3
+          ],
+          [
+            3,
+            3,
+            3,
+            3,
+            3,
+            0,
+            3,
+            3
+          ],
+          [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            0,
+            3
+          ],
+          [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            0
+          ]
+        ]
+      },
+      {
+        "year": 2023,
+        "names": [
+          "Economic geography",
+          "Social justice",
+          "Venture capital",
+          "Regional disparities",
+          "Gender",
+          "Race",
+          "Intersectionality (Sociology)",
+          "Interviews"
+        ],
+        "matrix": [
+          [
+            0,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          [
+            5,
+            0,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          [
+            5,
+            5,
+            0,
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          [
+            5,
+            5,
+            5,
+            0,
+            5,
+            5,
+            5,
+            5
+          ],
+          [
+            5,
+            5,
+            5,
+            5,
+            0,
+            5,
+            5,
+            5
+          ],
+          [
+            5,
+            5,
+            5,
+            5,
+            5,
+            0,
+            5,
+            5
+          ],
+          [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            0,
+            5
+          ],
+          [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            0
+          ]
+        ]
+      }
+    ]
+  },
   "contributors": [
     {
       "name": "Mkalama, Benedict Wandera",
@@ -488,6 +833,16 @@
       "value": 2
     }
   ],
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "calendarHeatmap": [],
+  "geoFlows": {
+    "flows": []
+  },
   "locations": [
     {
       "country": "Kenya",

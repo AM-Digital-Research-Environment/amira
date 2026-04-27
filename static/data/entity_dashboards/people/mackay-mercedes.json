@@ -165,6 +165,40 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [],
+    "matrix": []
+  },
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Ene, Augustine",
+        "name": "Ene, Augustine",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "British Broadcasting Corporation",
+        "name": "British Broadcasting Corporation",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Ene, Augustine",
+        "targetId": "British Broadcasting Corporation",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "South Africa",

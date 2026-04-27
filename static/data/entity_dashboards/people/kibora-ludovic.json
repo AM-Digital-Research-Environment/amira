@@ -112,6 +112,300 @@
       "value": 10
     }
   ],
+  "coContributors": {
+    "names": [
+      "Oloko, Patrick",
+      "Ademola-Adeoye, Feyisayo",
+      "Olokodana-James, Oluwatoyin",
+      "Oni, Peter",
+      "Muo, Adaobi"
+    ],
+    "matrix": [
+      [
+        0,
+        10,
+        10,
+        10,
+        10
+      ],
+      [
+        10,
+        0,
+        10,
+        10,
+        10
+      ],
+      [
+        10,
+        10,
+        0,
+        10,
+        10
+      ],
+      [
+        10,
+        10,
+        10,
+        0,
+        10
+      ],
+      [
+        10,
+        10,
+        10,
+        10,
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Oloko, Patrick",
+        "name": "Oloko, Patrick",
+        "itemCount": 10
+      },
+      {
+        "id": "Ademola-Adeoye, Feyisayo",
+        "name": "Ademola-Adeoye, Feyisayo",
+        "itemCount": 10
+      },
+      {
+        "id": "Olokodana-James, Oluwatoyin",
+        "name": "Olokodana-James, Oluwatoyin",
+        "itemCount": 10
+      },
+      {
+        "id": "Oni, Peter",
+        "name": "Oni, Peter",
+        "itemCount": 10
+      },
+      {
+        "id": "Muo, Adaobi",
+        "name": "Muo, Adaobi",
+        "itemCount": 10
+      }
+    ],
+    "targets": [
+      {
+        "id": "ULG_AfEnt2020",
+        "name": "Rethinking the Informal and Mainstreaming African Popular Arts and Entertainment",
+        "itemCount": 10
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Oloko, Patrick",
+        "targetId": "ULG_AfEnt2020",
+        "count": 10
+      },
+      {
+        "personId": "Ademola-Adeoye, Feyisayo",
+        "targetId": "ULG_AfEnt2020",
+        "count": 10
+      },
+      {
+        "personId": "Olokodana-James, Oluwatoyin",
+        "targetId": "ULG_AfEnt2020",
+        "count": 10
+      },
+      {
+        "personId": "Oni, Peter",
+        "targetId": "ULG_AfEnt2020",
+        "count": 10
+      },
+      {
+        "personId": "Muo, Adaobi",
+        "targetId": "ULG_AfEnt2020",
+        "count": 10
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Oloko, Patrick",
+        "name": "Oloko, Patrick",
+        "itemCount": 50
+      },
+      {
+        "id": "Ademola-Adeoye, Feyisayo",
+        "name": "Ademola-Adeoye, Feyisayo",
+        "itemCount": 50
+      },
+      {
+        "id": "Olokodana-James, Oluwatoyin",
+        "name": "Olokodana-James, Oluwatoyin",
+        "itemCount": 50
+      },
+      {
+        "id": "Oni, Peter",
+        "name": "Oni, Peter",
+        "itemCount": 50
+      },
+      {
+        "id": "Muo, Adaobi",
+        "name": "Muo, Adaobi",
+        "itemCount": 50
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Lagos African Cluster Centre (LACC)",
+        "name": "University of Lagos African Cluster Centre (LACC)",
+        "itemCount": 10
+      },
+      {
+        "id": "Institut des Sciences des Sociétés (INSS)",
+        "name": "Institut des Sciences des Sociétés (INSS)",
+        "itemCount": 10
+      },
+      {
+        "id": "Department of African Theatre and Dramatic Arts, University of Lagos",
+        "name": "Department of African Theatre and Dramatic Arts, University of Lagos",
+        "itemCount": 10
+      },
+      {
+        "id": "Department of Philopsophy, University of Lagos",
+        "name": "Department of Philopsophy, University of Lagos",
+        "itemCount": 10
+      },
+      {
+        "id": "Department of Literature and General Studies, National Institute of Nigerian Languages",
+        "name": "Department of Literature and General Studies, National Institute of Nigerian Languages",
+        "itemCount": 10
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Oloko, Patrick",
+        "targetId": "University of Lagos African Cluster Centre (LACC)",
+        "count": 10
+      },
+      {
+        "personId": "Ademola-Adeoye, Feyisayo",
+        "targetId": "University of Lagos African Cluster Centre (LACC)",
+        "count": 10
+      },
+      {
+        "personId": "Olokodana-James, Oluwatoyin",
+        "targetId": "University of Lagos African Cluster Centre (LACC)",
+        "count": 10
+      },
+      {
+        "personId": "Oni, Peter",
+        "targetId": "University of Lagos African Cluster Centre (LACC)",
+        "count": 10
+      },
+      {
+        "personId": "Muo, Adaobi",
+        "targetId": "University of Lagos African Cluster Centre (LACC)",
+        "count": 10
+      },
+      {
+        "personId": "Oloko, Patrick",
+        "targetId": "Institut des Sciences des Sociétés (INSS)",
+        "count": 10
+      },
+      {
+        "personId": "Ademola-Adeoye, Feyisayo",
+        "targetId": "Institut des Sciences des Sociétés (INSS)",
+        "count": 10
+      },
+      {
+        "personId": "Olokodana-James, Oluwatoyin",
+        "targetId": "Institut des Sciences des Sociétés (INSS)",
+        "count": 10
+      },
+      {
+        "personId": "Oni, Peter",
+        "targetId": "Institut des Sciences des Sociétés (INSS)",
+        "count": 10
+      },
+      {
+        "personId": "Muo, Adaobi",
+        "targetId": "Institut des Sciences des Sociétés (INSS)",
+        "count": 10
+      },
+      {
+        "personId": "Oloko, Patrick",
+        "targetId": "Department of African Theatre and Dramatic Arts, University of Lagos",
+        "count": 10
+      },
+      {
+        "personId": "Ademola-Adeoye, Feyisayo",
+        "targetId": "Department of African Theatre and Dramatic Arts, University of Lagos",
+        "count": 10
+      },
+      {
+        "personId": "Olokodana-James, Oluwatoyin",
+        "targetId": "Department of African Theatre and Dramatic Arts, University of Lagos",
+        "count": 10
+      },
+      {
+        "personId": "Oni, Peter",
+        "targetId": "Department of African Theatre and Dramatic Arts, University of Lagos",
+        "count": 10
+      },
+      {
+        "personId": "Muo, Adaobi",
+        "targetId": "Department of African Theatre and Dramatic Arts, University of Lagos",
+        "count": 10
+      },
+      {
+        "personId": "Oloko, Patrick",
+        "targetId": "Department of Philopsophy, University of Lagos",
+        "count": 10
+      },
+      {
+        "personId": "Ademola-Adeoye, Feyisayo",
+        "targetId": "Department of Philopsophy, University of Lagos",
+        "count": 10
+      },
+      {
+        "personId": "Olokodana-James, Oluwatoyin",
+        "targetId": "Department of Philopsophy, University of Lagos",
+        "count": 10
+      },
+      {
+        "personId": "Oni, Peter",
+        "targetId": "Department of Philopsophy, University of Lagos",
+        "count": 10
+      },
+      {
+        "personId": "Muo, Adaobi",
+        "targetId": "Department of Philopsophy, University of Lagos",
+        "count": 10
+      },
+      {
+        "personId": "Oloko, Patrick",
+        "targetId": "Department of Literature and General Studies, National Institute of Nigerian Languages",
+        "count": 10
+      },
+      {
+        "personId": "Ademola-Adeoye, Feyisayo",
+        "targetId": "Department of Literature and General Studies, National Institute of Nigerian Languages",
+        "count": 10
+      },
+      {
+        "personId": "Olokodana-James, Oluwatoyin",
+        "targetId": "Department of Literature and General Studies, National Institute of Nigerian Languages",
+        "count": 10
+      },
+      {
+        "personId": "Oni, Peter",
+        "targetId": "Department of Literature and General Studies, National Institute of Nigerian Languages",
+        "count": 10
+      },
+      {
+        "personId": "Muo, Adaobi",
+        "targetId": "Department of Literature and General Studies, National Institute of Nigerian Languages",
+        "count": 10
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Nigeria",

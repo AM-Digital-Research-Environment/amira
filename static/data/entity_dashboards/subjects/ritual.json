@@ -233,6 +233,52 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Ritual",
+      "Africa",
+      "Archives",
+      "Photographs",
+      "Artists"
+    ],
+    "matrix": [
+      [
+        0,
+        5,
+        4,
+        3,
+        3
+      ],
+      [
+        5,
+        0,
+        4,
+        2,
+        3
+      ],
+      [
+        4,
+        4,
+        0,
+        2,
+        2
+      ],
+      [
+        3,
+        2,
+        2,
+        0,
+        0
+      ],
+      [
+        3,
+        3,
+        2,
+        0,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "African Music",

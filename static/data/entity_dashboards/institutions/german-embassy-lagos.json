@@ -53,6 +53,94 @@
       "value": 2
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Stephan, Klaus",
+        "name": "Stephan, Klaus",
+        "itemCount": 6
+      },
+      {
+        "id": "Dreissig, Hans",
+        "name": "Dreissig, Hans",
+        "itemCount": 4
+      },
+      {
+        "id": "Wand, Karl",
+        "name": "Wand, Karl",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango",
+        "itemCount": 6
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Stephan, Klaus",
+        "targetId": "UBT_TaiSha2021",
+        "count": 6
+      },
+      {
+        "personId": "Wand, Karl",
+        "targetId": "UBT_TaiSha2021",
+        "count": 2
+      },
+      {
+        "personId": "Dreissig, Hans",
+        "targetId": "UBT_TaiSha2021",
+        "count": 4
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Stephan, Klaus",
+        "name": "Stephan, Klaus",
+        "itemCount": 6
+      },
+      {
+        "id": "Dreissig, Hans",
+        "name": "Dreissig, Hans",
+        "itemCount": 4
+      },
+      {
+        "id": "Wand, Karl",
+        "name": "Wand, Karl",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "Bayrischer Rundfunk",
+        "name": "Bayrischer Rundfunk",
+        "itemCount": 6
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Stephan, Klaus",
+        "targetId": "Bayrischer Rundfunk",
+        "count": 6
+      },
+      {
+        "personId": "Wand, Karl",
+        "targetId": "Bayrischer Rundfunk",
+        "count": 2
+      },
+      {
+        "personId": "Dreissig, Hans",
+        "targetId": "Bayrischer Rundfunk",
+        "count": 4
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Nigeria",

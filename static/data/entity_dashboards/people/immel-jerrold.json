@@ -93,6 +93,180 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [],
+    "matrix": []
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Filerman, Michael",
+        "name": "Filerman, Michael",
+        "itemCount": 1
+      },
+      {
+        "id": "Jacobs, David",
+        "name": "Jacobs, David",
+        "itemCount": 1
+      },
+      {
+        "id": "Okmin, Joel",
+        "name": "Okmin, Joel",
+        "itemCount": 1
+      },
+      {
+        "id": "Denault, Richard",
+        "name": "Denault, Richard",
+        "itemCount": 1
+      },
+      {
+        "id": "Cameron, B. C.",
+        "name": "Cameron, B. C.",
+        "itemCount": 1
+      },
+      {
+        "id": "Gagnier, Hugh K.",
+        "name": "Gagnier, Hugh K.",
+        "itemCount": 1
+      },
+      {
+        "id": "Rubin, Lance",
+        "name": "Rubin, Lance",
+        "itemCount": 1
+      },
+      {
+        "id": "Stanley, James",
+        "name": "Stanley, James",
+        "itemCount": 1
+      },
+      {
+        "id": "Bulot, Chuck",
+        "name": "Bulot, Chuck",
+        "itemCount": 1
+      },
+      {
+        "id": "Cody, M. J.",
+        "name": "Cody, M. J.",
+        "itemCount": 1
+      },
+      {
+        "id": "Wallerstein, Rowe",
+        "name": "Wallerstein, Rowe",
+        "itemCount": 1
+      },
+      {
+        "id": "Markham, Ray",
+        "name": "Markham, Ray",
+        "itemCount": 1
+      },
+      {
+        "id": "Phillips, Robert",
+        "name": "Phillips, Robert",
+        "itemCount": 1
+      },
+      {
+        "id": "Miller, Barbara",
+        "name": "Miller, Barbara",
+        "itemCount": 1
+      },
+      {
+        "id": "Linahan, Shawn",
+        "name": "Linahan, Shawn",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Filerman, Michael",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Jacobs, David",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Okmin, Joel",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Denault, Richard",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Cameron, B. C.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Gagnier, Hugh K.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Rubin, Lance",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Stanley, James",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Bulot, Chuck",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Cody, M. J.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Wallerstein, Rowe",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Markham, Ray",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Phillips, Robert",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Miller, Barbara",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Linahan, Shawn",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
   "locations": [
     {
       "country": "Liberia",

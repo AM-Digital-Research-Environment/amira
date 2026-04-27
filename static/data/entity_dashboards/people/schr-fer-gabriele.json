@@ -87,6 +87,58 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [],
+    "matrix": []
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Löhr, Doris",
+        "name": "Löhr, Doris",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_Plura2021",
+        "name": "Plura 2.0: Project Learning and Resource Platform Africa",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Löhr, Doris",
+        "targetId": "UBT_Plura2021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Löhr, Doris",
+        "name": "Löhr, Doris",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Bayreuth",
+        "name": "University of Bayreuth",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Löhr, Doris",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [],
   "items": [
     {

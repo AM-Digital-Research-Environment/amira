@@ -144,6 +144,46 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Cooke, Peter",
+        "name": "Cooke, Peter",
+        "itemCount": 1
+      },
+      {
+        "id": "Kasule, Sam",
+        "name": "Kasule, Sam",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Derby",
+        "name": "University of Derby",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Cooke, Peter",
+        "targetId": "University of Derby",
+        "count": 1
+      },
+      {
+        "personId": "Kasule, Sam",
+        "targetId": "University of Derby",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "South Africa",

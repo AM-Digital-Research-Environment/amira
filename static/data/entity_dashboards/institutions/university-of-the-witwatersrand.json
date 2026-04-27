@@ -676,6 +676,89 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Thurman, Christopher",
+        "name": "Thurman, Christopher",
+        "itemCount": 1
+      },
+      {
+        "id": "Lelliot, Kitso Lynn",
+        "name": "Lelliot, Kitso Lynn",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama",
+        "itemCount": 1
+      },
+      {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Thurman, Christopher",
+        "targetId": "UBT_TravKnowl2019",
+        "count": 1
+      },
+      {
+        "personId": "Lelliot, Kitso Lynn",
+        "targetId": "Ext_BayGlo2025",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Blacking, John",
+        "name": "Blacking, John",
+        "itemCount": 1
+      },
+      {
+        "id": "Jones, A. M.",
+        "name": "Jones, A. M.",
+        "itemCount": 1
+      },
+      {
+        "id": "Pantaleoni, Hewitt",
+        "name": "Pantaleoni, Hewitt",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "State University of New York at Oneonta",
+        "name": "State University of New York at Oneonta",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Blacking, John",
+        "targetId": "State University of New York at Oneonta",
+        "count": 1
+      },
+      {
+        "personId": "Jones, A. M.",
+        "targetId": "State University of New York at Oneonta",
+        "count": 1
+      },
+      {
+        "personId": "Pantaleoni, Hewitt",
+        "targetId": "State University of New York at Oneonta",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "South Africa",

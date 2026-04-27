@@ -46,6 +46,50 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [],
+    "matrix": []
+  },
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Tracey, Andrew",
+        "name": "Tracey, Andrew",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "International Library of African Music (ILAM)",
+        "name": "International Library of African Music (ILAM)",
+        "itemCount": 1
+      },
+      {
+        "id": "Rhodes University",
+        "name": "Rhodes University",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Tracey, Andrew",
+        "targetId": "International Library of African Music (ILAM)",
+        "count": 1
+      },
+      {
+        "personId": "Tracey, Andrew",
+        "targetId": "Rhodes University",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "South Africa",

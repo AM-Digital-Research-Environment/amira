@@ -119,6 +119,333 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [],
+    "matrix": []
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Nurudong, Primus",
+        "name": "Nurudong, Primus",
+        "itemCount": 1
+      },
+      {
+        "id": "Kronenburg García, Angela",
+        "name": "Kronenburg García, Angela",
+        "itemCount": 1
+      },
+      {
+        "id": "Roque de Pinho, Joana",
+        "name": "Roque de Pinho, Joana",
+        "itemCount": 1
+      },
+      {
+        "id": "Munguambe, Danicia",
+        "name": "Munguambe, Danicia",
+        "itemCount": 1
+      },
+      {
+        "id": "Goldman, Mara",
+        "name": "Goldman, Mara",
+        "itemCount": 1
+      },
+      {
+        "id": "Sternberg, Troy",
+        "name": "Sternberg, Troy",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Nurudong, Primus",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      },
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      },
+      {
+        "personId": "Roque de Pinho, Joana",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      },
+      {
+        "personId": "Munguambe, Danicia",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      },
+      {
+        "personId": "Goldman, Mara",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      },
+      {
+        "personId": "Sternberg, Troy",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Nurudong, Primus",
+        "name": "Nurudong, Primus",
+        "itemCount": 6
+      },
+      {
+        "id": "Kronenburg García, Angela",
+        "name": "Kronenburg García, Angela",
+        "itemCount": 6
+      },
+      {
+        "id": "Roque de Pinho, Joana",
+        "name": "Roque de Pinho, Joana",
+        "itemCount": 6
+      },
+      {
+        "id": "Munguambe, Danicia",
+        "name": "Munguambe, Danicia",
+        "itemCount": 6
+      },
+      {
+        "id": "Goldman, Mara",
+        "name": "Goldman, Mara",
+        "itemCount": 6
+      },
+      {
+        "id": "Sternberg, Troy",
+        "name": "Sternberg, Troy",
+        "itemCount": 6
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Padua",
+        "name": "University of Padua",
+        "itemCount": 1
+      },
+      {
+        "id": "ISCTE - Instituto Universitário de Lisboa",
+        "name": "ISCTE - Instituto Universitário de Lisboa",
+        "itemCount": 1
+      },
+      {
+        "id": "Eduardo Mondlane University",
+        "name": "Eduardo Mondlane University",
+        "itemCount": 1
+      },
+      {
+        "id": "University of Colorado Boulder",
+        "name": "University of Colorado Boulder",
+        "itemCount": 1
+      },
+      {
+        "id": "Université Joseph Ki-Zerbo",
+        "name": "Université Joseph Ki-Zerbo",
+        "itemCount": 1
+      },
+      {
+        "id": "University of Oxford",
+        "name": "University of Oxford",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Nurudong, Primus",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Roque de Pinho, Joana",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Munguambe, Danicia",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Goldman, Mara",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Sternberg, Troy",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Nurudong, Primus",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Roque de Pinho, Joana",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Munguambe, Danicia",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Goldman, Mara",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Sternberg, Troy",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Nurudong, Primus",
+        "targetId": "Eduardo Mondlane University",
+        "count": 1
+      },
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "Eduardo Mondlane University",
+        "count": 1
+      },
+      {
+        "personId": "Roque de Pinho, Joana",
+        "targetId": "Eduardo Mondlane University",
+        "count": 1
+      },
+      {
+        "personId": "Munguambe, Danicia",
+        "targetId": "Eduardo Mondlane University",
+        "count": 1
+      },
+      {
+        "personId": "Goldman, Mara",
+        "targetId": "Eduardo Mondlane University",
+        "count": 1
+      },
+      {
+        "personId": "Sternberg, Troy",
+        "targetId": "Eduardo Mondlane University",
+        "count": 1
+      },
+      {
+        "personId": "Nurudong, Primus",
+        "targetId": "University of Colorado Boulder",
+        "count": 1
+      },
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "University of Colorado Boulder",
+        "count": 1
+      },
+      {
+        "personId": "Roque de Pinho, Joana",
+        "targetId": "University of Colorado Boulder",
+        "count": 1
+      },
+      {
+        "personId": "Munguambe, Danicia",
+        "targetId": "University of Colorado Boulder",
+        "count": 1
+      },
+      {
+        "personId": "Goldman, Mara",
+        "targetId": "University of Colorado Boulder",
+        "count": 1
+      },
+      {
+        "personId": "Sternberg, Troy",
+        "targetId": "University of Colorado Boulder",
+        "count": 1
+      },
+      {
+        "personId": "Nurudong, Primus",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Roque de Pinho, Joana",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Munguambe, Danicia",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Goldman, Mara",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Sternberg, Troy",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Nurudong, Primus",
+        "targetId": "University of Oxford",
+        "count": 1
+      },
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "University of Oxford",
+        "count": 1
+      },
+      {
+        "personId": "Roque de Pinho, Joana",
+        "targetId": "University of Oxford",
+        "count": 1
+      },
+      {
+        "personId": "Munguambe, Danicia",
+        "targetId": "University of Oxford",
+        "count": 1
+      },
+      {
+        "personId": "Goldman, Mara",
+        "targetId": "University of Oxford",
+        "count": 1
+      },
+      {
+        "personId": "Sternberg, Troy",
+        "targetId": "University of Oxford",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Ghana",

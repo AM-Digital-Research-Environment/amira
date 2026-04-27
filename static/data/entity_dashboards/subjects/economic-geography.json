@@ -79,6 +79,100 @@
       "value": 5
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Economic geography",
+      "Social justice",
+      "Venture capital",
+      "Regional disparities",
+      "Gender",
+      "Race",
+      "Intersectionality (Sociology)",
+      "Interviews"
+    ],
+    "matrix": [
+      [
+        0,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      [
+        5,
+        0,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      [
+        5,
+        5,
+        0,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      [
+        5,
+        5,
+        5,
+        0,
+        5,
+        5,
+        5,
+        5
+      ],
+      [
+        5,
+        5,
+        5,
+        5,
+        0,
+        5,
+        5,
+        5
+      ],
+      [
+        5,
+        5,
+        5,
+        5,
+        5,
+        0,
+        5,
+        5
+      ],
+      [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        0,
+        5
+      ],
+      [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Social justice",

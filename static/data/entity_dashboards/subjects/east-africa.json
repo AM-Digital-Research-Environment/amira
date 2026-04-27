@@ -242,6 +242,82 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "East Africa",
+      "Arid regions",
+      "Maasai (African people)",
+      "Livestock",
+      "Herders",
+      "Tourism",
+      "Vaccination"
+    ],
+    "matrix": [
+      [
+        0,
+        11,
+        9,
+        5,
+        5,
+        4,
+        3
+      ],
+      [
+        11,
+        0,
+        9,
+        5,
+        5,
+        4,
+        3
+      ],
+      [
+        9,
+        9,
+        0,
+        5,
+        4,
+        4,
+        3
+      ],
+      [
+        5,
+        5,
+        5,
+        0,
+        3,
+        2,
+        1
+      ],
+      [
+        5,
+        5,
+        4,
+        3,
+        0,
+        3,
+        1
+      ],
+      [
+        4,
+        4,
+        4,
+        2,
+        3,
+        0,
+        1
+      ],
+      [
+        3,
+        3,
+        3,
+        1,
+        1,
+        1,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Arid regions",

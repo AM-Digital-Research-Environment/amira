@@ -81,6 +81,54 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Crouch, Patricia",
+        "name": "Crouch, Patricia",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Crouch, Patricia",
+        "targetId": "UBT_TravKnowl2019",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Crouch, Patricia",
+        "name": "Crouch, Patricia",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Temple University",
+        "name": "Temple University",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Crouch, Patricia",
+        "targetId": "Temple University",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "United States of America",

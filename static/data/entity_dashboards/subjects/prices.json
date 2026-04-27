@@ -140,6 +140,52 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Prices",
+      "Arid regions",
+      "Travel",
+      "Livestock",
+      "Education"
+    ],
+    "matrix": [
+      [
+        0,
+        4,
+        4,
+        4,
+        3
+      ],
+      [
+        4,
+        0,
+        2,
+        2,
+        0
+      ],
+      [
+        4,
+        2,
+        0,
+        3,
+        3
+      ],
+      [
+        4,
+        2,
+        3,
+        0,
+        3
+      ],
+      [
+        3,
+        0,
+        3,
+        3,
+        2
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "COVID-19 Pandemic",

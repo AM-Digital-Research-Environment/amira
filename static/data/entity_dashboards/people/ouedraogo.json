@@ -71,6 +71,64 @@
       "value": 5
     }
   ],
+  "coContributors": {
+    "names": [
+      "Sore, Daouda"
+    ],
+    "matrix": [
+      [
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Sore, Daouda",
+        "name": "Sore, Daouda",
+        "itemCount": 5
+      }
+    ],
+    "targets": [
+      {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques",
+        "itemCount": 5
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Sore, Daouda",
+        "targetId": "UJKZ_filmBF2022",
+        "count": 5
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Sore, Daouda",
+        "name": "Sore, Daouda",
+        "itemCount": 5
+      }
+    ],
+    "targets": [
+      {
+        "id": "Université Joseph Ki-Zerbo",
+        "name": "Université Joseph Ki-Zerbo",
+        "itemCount": 5
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Sore, Daouda",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 5
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Burkina Faso",

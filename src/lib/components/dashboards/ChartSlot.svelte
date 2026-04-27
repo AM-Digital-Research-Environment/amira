@@ -113,7 +113,7 @@
 		'contributorNetwork',
 		'affiliationNetwork',
 		'collabNetwork',
-		'coAuthors'
+		'coContributors'
 	]);
 	let contentHeight = $derived(
 		MAP_CHARTS.has(slot.chart)
@@ -139,7 +139,7 @@
 		<WordCloud data={data as WordCloudDataPoint[]} class="h-full w-full" />
 	{:else if slot.chart === 'heatmap'}
 		<HeatmapChart data={data as HeatmapDataPoint[]} class="h-full w-full" />
-	{:else if slot.chart === 'chord' || slot.chart === 'coSubjects' || slot.chart === 'coAuthors'}
+	{:else if slot.chart === 'chord' || slot.chart === 'coSubjects' || slot.chart === 'coContributors'}
 		<ChordDiagram data={data as ChordData} class="h-full w-full" />
 	{:else if slot.chart === 'timeAwareChord'}
 		<TimeAwareChord data={data as TimeAwareChordData} class="h-full w-full" />

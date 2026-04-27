@@ -69,6 +69,36 @@
       "value": 52
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Vasconcellos, Christiane",
+        "name": "Vasconcellos, Christiane",
+        "itemCount": 52
+      }
+    ],
+    "targets": [
+      {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital",
+        "itemCount": 52
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Vasconcellos, Christiane",
+        "targetId": "UFB_AfroDigital",
+        "count": 52
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
   "locations": [
     {
       "country": "Brazil",

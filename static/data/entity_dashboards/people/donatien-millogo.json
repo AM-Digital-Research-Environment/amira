@@ -111,6 +111,158 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [],
+    "matrix": []
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Traoré, Seydou",
+        "name": "Traoré, Seydou",
+        "itemCount": 1
+      },
+      {
+        "id": "Sanon, Boukary",
+        "name": "Sanon, Boukary",
+        "itemCount": 1
+      },
+      {
+        "id": "Ouattara, Amadou",
+        "name": "Ouattara, Amadou",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Traoré, Seydou",
+        "targetId": "UJKZ_JITBF2020",
+        "count": 1
+      },
+      {
+        "personId": "Sanon, Boukary",
+        "targetId": "UJKZ_JITBF2020",
+        "count": 1
+      },
+      {
+        "personId": "Ouattara, Amadou",
+        "targetId": "UJKZ_JITBF2020",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Traoré, Seydou",
+        "name": "Traoré, Seydou",
+        "itemCount": 4
+      },
+      {
+        "id": "Sanon, Boukary",
+        "name": "Sanon, Boukary",
+        "itemCount": 4
+      },
+      {
+        "id": "Ouattara, Amadou",
+        "name": "Ouattara, Amadou",
+        "itemCount": 4
+      }
+    ],
+    "targets": [
+      {
+        "id": "Université Joseph Ki-Zerbo",
+        "name": "Université Joseph Ki-Zerbo",
+        "itemCount": 1
+      },
+      {
+        "id": "Université catholique de l'Afrique de l'Ouest",
+        "name": "Université catholique de l'Afrique de l'Ouest",
+        "itemCount": 1
+      },
+      {
+        "id": "Université Nazi BONI",
+        "name": "Université Nazi BONI",
+        "itemCount": 1
+      },
+      {
+        "id": "Conseil Villageois de Développement",
+        "name": "Conseil Villageois de Développement",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Traoré, Seydou",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Sanon, Boukary",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Ouattara, Amadou",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Traoré, Seydou",
+        "targetId": "Université catholique de l'Afrique de l'Ouest",
+        "count": 1
+      },
+      {
+        "personId": "Sanon, Boukary",
+        "targetId": "Université catholique de l'Afrique de l'Ouest",
+        "count": 1
+      },
+      {
+        "personId": "Ouattara, Amadou",
+        "targetId": "Université catholique de l'Afrique de l'Ouest",
+        "count": 1
+      },
+      {
+        "personId": "Traoré, Seydou",
+        "targetId": "Université Nazi BONI",
+        "count": 1
+      },
+      {
+        "personId": "Sanon, Boukary",
+        "targetId": "Université Nazi BONI",
+        "count": 1
+      },
+      {
+        "personId": "Ouattara, Amadou",
+        "targetId": "Université Nazi BONI",
+        "count": 1
+      },
+      {
+        "personId": "Traoré, Seydou",
+        "targetId": "Conseil Villageois de Développement",
+        "count": 1
+      },
+      {
+        "personId": "Sanon, Boukary",
+        "targetId": "Conseil Villageois de Développement",
+        "count": 1
+      },
+      {
+        "personId": "Ouattara, Amadou",
+        "targetId": "Conseil Villageois de Développement",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Burkina Faso",

@@ -50,6 +50,50 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [],
+    "matrix": []
+  },
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Cooke, Peter",
+        "name": "Cooke, Peter",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Edinburgh",
+        "name": "University of Edinburgh",
+        "itemCount": 1
+      },
+      {
+        "id": "University of Derby",
+        "name": "University of Derby",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Cooke, Peter",
+        "targetId": "University of Edinburgh",
+        "count": 1
+      },
+      {
+        "personId": "Cooke, Peter",
+        "targetId": "University of Derby",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "South Africa",

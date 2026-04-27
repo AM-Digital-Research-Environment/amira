@@ -41,6 +41,30 @@
       "value": 4
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Photography",
+      "Anthropology",
+      "Photographs"
+    ],
+    "matrix": [
+      [
+        0,
+        4,
+        4
+      ],
+      [
+        4,
+        0,
+        4
+      ],
+      [
+        4,
+        4,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Photography",

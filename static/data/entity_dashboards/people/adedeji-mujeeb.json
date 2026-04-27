@@ -134,6 +134,240 @@
       "value": 15
     }
   ],
+  "coContributors": {
+    "names": [
+      "Yusuff, Ayodele",
+      "Eleshin, Abisoye",
+      "Akinwale, Gbenusola",
+      "Eleshin, Adedoyinsola",
+      "Adetomiwa, Anuoluwapo"
+    ],
+    "matrix": [
+      [
+        0,
+        15,
+        15,
+        15,
+        15
+      ],
+      [
+        15,
+        0,
+        15,
+        15,
+        15
+      ],
+      [
+        15,
+        15,
+        0,
+        15,
+        15
+      ],
+      [
+        15,
+        15,
+        15,
+        0,
+        15
+      ],
+      [
+        15,
+        15,
+        15,
+        15,
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Yusuff, Ayodele",
+        "name": "Yusuff, Ayodele",
+        "itemCount": 15
+      },
+      {
+        "id": "Eleshin, Abisoye",
+        "name": "Eleshin, Abisoye",
+        "itemCount": 15
+      },
+      {
+        "id": "Akinwale, Gbenusola",
+        "name": "Akinwale, Gbenusola",
+        "itemCount": 15
+      },
+      {
+        "id": "Eleshin, Adedoyinsola",
+        "name": "Eleshin, Adedoyinsola",
+        "itemCount": 15
+      },
+      {
+        "id": "Adetomiwa, Anuoluwapo",
+        "name": "Adetomiwa, Anuoluwapo",
+        "itemCount": 15
+      }
+    ],
+    "targets": [
+      {
+        "id": "ULG_YoruFolk2020",
+        "name": "Regenerating Non-Formal Learning in Africa: Digitizing Yoruba Folktales for Animation and Value Education",
+        "itemCount": 15
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Yusuff, Ayodele",
+        "targetId": "ULG_YoruFolk2020",
+        "count": 15
+      },
+      {
+        "personId": "Eleshin, Abisoye",
+        "targetId": "ULG_YoruFolk2020",
+        "count": 15
+      },
+      {
+        "personId": "Akinwale, Gbenusola",
+        "targetId": "ULG_YoruFolk2020",
+        "count": 15
+      },
+      {
+        "personId": "Eleshin, Adedoyinsola",
+        "targetId": "ULG_YoruFolk2020",
+        "count": 15
+      },
+      {
+        "personId": "Adetomiwa, Anuoluwapo",
+        "targetId": "ULG_YoruFolk2020",
+        "count": 15
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Yusuff, Ayodele",
+        "name": "Yusuff, Ayodele",
+        "itemCount": 45
+      },
+      {
+        "id": "Eleshin, Abisoye",
+        "name": "Eleshin, Abisoye",
+        "itemCount": 45
+      },
+      {
+        "id": "Akinwale, Gbenusola",
+        "name": "Akinwale, Gbenusola",
+        "itemCount": 45
+      },
+      {
+        "id": "Eleshin, Adedoyinsola",
+        "name": "Eleshin, Adedoyinsola",
+        "itemCount": 45
+      },
+      {
+        "id": "Adetomiwa, Anuoluwapo",
+        "name": "Adetomiwa, Anuoluwapo",
+        "itemCount": 45
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Lagos African Cluster Centre (LACC)",
+        "name": "University of Lagos African Cluster Centre (LACC)",
+        "itemCount": 15
+      },
+      {
+        "id": "Department of Psychology, University of Lagos",
+        "name": "Department of Psychology, University of Lagos",
+        "itemCount": 15
+      },
+      {
+        "id": "Department of Linguistics, African and Asian Studies, University of Lagos",
+        "name": "Department of Linguistics, African and Asian Studies, University of Lagos",
+        "itemCount": 15
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Yusuff, Ayodele",
+        "targetId": "University of Lagos African Cluster Centre (LACC)",
+        "count": 15
+      },
+      {
+        "personId": "Eleshin, Abisoye",
+        "targetId": "University of Lagos African Cluster Centre (LACC)",
+        "count": 15
+      },
+      {
+        "personId": "Akinwale, Gbenusola",
+        "targetId": "University of Lagos African Cluster Centre (LACC)",
+        "count": 15
+      },
+      {
+        "personId": "Eleshin, Adedoyinsola",
+        "targetId": "University of Lagos African Cluster Centre (LACC)",
+        "count": 15
+      },
+      {
+        "personId": "Adetomiwa, Anuoluwapo",
+        "targetId": "University of Lagos African Cluster Centre (LACC)",
+        "count": 15
+      },
+      {
+        "personId": "Yusuff, Ayodele",
+        "targetId": "Department of Psychology, University of Lagos",
+        "count": 15
+      },
+      {
+        "personId": "Eleshin, Abisoye",
+        "targetId": "Department of Psychology, University of Lagos",
+        "count": 15
+      },
+      {
+        "personId": "Akinwale, Gbenusola",
+        "targetId": "Department of Psychology, University of Lagos",
+        "count": 15
+      },
+      {
+        "personId": "Eleshin, Adedoyinsola",
+        "targetId": "Department of Psychology, University of Lagos",
+        "count": 15
+      },
+      {
+        "personId": "Adetomiwa, Anuoluwapo",
+        "targetId": "Department of Psychology, University of Lagos",
+        "count": 15
+      },
+      {
+        "personId": "Yusuff, Ayodele",
+        "targetId": "Department of Linguistics, African and Asian Studies, University of Lagos",
+        "count": 15
+      },
+      {
+        "personId": "Eleshin, Abisoye",
+        "targetId": "Department of Linguistics, African and Asian Studies, University of Lagos",
+        "count": 15
+      },
+      {
+        "personId": "Akinwale, Gbenusola",
+        "targetId": "Department of Linguistics, African and Asian Studies, University of Lagos",
+        "count": 15
+      },
+      {
+        "personId": "Eleshin, Adedoyinsola",
+        "targetId": "Department of Linguistics, African and Asian Studies, University of Lagos",
+        "count": 15
+      },
+      {
+        "personId": "Adetomiwa, Anuoluwapo",
+        "targetId": "Department of Linguistics, African and Asian Studies, University of Lagos",
+        "count": 15
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Nigeria",

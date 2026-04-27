@@ -35,6 +35,38 @@
       }
     }
   ],
+  "languageTimeline": [
+    {
+      "year": 2022,
+      "byCategory": {
+        "French": 41
+      }
+    },
+    {
+      "year": 2023,
+      "byCategory": {
+        "French": 42
+      }
+    }
+  ],
+  "subjectTrends": [
+    {
+      "year": 2022,
+      "byCategory": {
+        "Actors": 41,
+        "Aesthetics": 41,
+        "Experience": 41
+      }
+    },
+    {
+      "year": 2023,
+      "byCategory": {
+        "Actors": 42,
+        "Aesthetics": 42,
+        "Experience": 42
+      }
+    }
+  ],
   "types": [
     {
       "name": "Text",
@@ -115,6 +147,108 @@
     }
   ],
   "sunburst": [
+    {
+      "name": "Text",
+      "children": [
+        {
+          "name": "French",
+          "children": [
+            {
+              "name": "Actors",
+              "value": 71,
+              "children": []
+            },
+            {
+              "name": "Aesthetics",
+              "value": 71,
+              "children": []
+            },
+            {
+              "name": "Experience",
+              "value": 71,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Moving image",
+      "children": [
+        {
+          "name": "French",
+          "children": [
+            {
+              "name": "Actors",
+              "value": 10,
+              "children": []
+            },
+            {
+              "name": "Aesthetics",
+              "value": 10,
+              "children": []
+            },
+            {
+              "name": "Experience",
+              "value": 10,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Audio",
+      "children": [
+        {
+          "name": "French",
+          "children": [
+            {
+              "name": "Actors",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Aesthetics",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Experience",
+              "value": 1,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Multimedia",
+      "children": [
+        {
+          "name": "French",
+          "children": [
+            {
+              "name": "Actors",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Aesthetics",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Experience",
+              "value": 1,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "treemap": [
     {
       "name": "Text",
       "children": [
@@ -593,6 +727,60 @@
       ]
     ]
   },
+  "timeAwareChord": {
+    "buckets": [
+      {
+        "year": 2022,
+        "names": [
+          "Actors",
+          "Aesthetics",
+          "Experience"
+        ],
+        "matrix": [
+          [
+            0,
+            41,
+            41
+          ],
+          [
+            41,
+            0,
+            41
+          ],
+          [
+            41,
+            41,
+            0
+          ]
+        ]
+      },
+      {
+        "year": 2023,
+        "names": [
+          "Actors",
+          "Aesthetics",
+          "Experience"
+        ],
+        "matrix": [
+          [
+            0,
+            83,
+            83
+          ],
+          [
+            83,
+            0,
+            83
+          ],
+          [
+            83,
+            83,
+            0
+          ]
+        ]
+      }
+    ]
+  },
   "contributors": [
     {
       "name": "Palm-Sanou, Valentine",
@@ -675,6 +863,16 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "calendarHeatmap": [],
+  "geoFlows": {
+    "flows": []
+  },
   "locations": [
     {
       "country": "Burkina Faso",

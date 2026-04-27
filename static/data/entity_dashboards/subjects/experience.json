@@ -69,6 +69,30 @@
       "value": 83
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Actors",
+      "Aesthetics",
+      "Experience"
+    ],
+    "matrix": [
+      [
+        0,
+        83,
+        83
+      ],
+      [
+        83,
+        0,
+        83
+      ],
+      [
+        83,
+        83,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Actors",

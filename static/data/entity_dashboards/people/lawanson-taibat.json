@@ -159,6 +159,508 @@
       "value": 15
     }
   ],
+  "coContributors": {
+    "names": [
+      "Eleshin, Abisoye",
+      "Attoh, Franca",
+      "Eesuola, Kayode",
+      "Olalekan, Damilola",
+      "Oyewumi, Masudi",
+      "Akinpelu, Deji",
+      "Enitan, Adewale",
+      "Odubawo, Orinayo",
+      "Bitrus, Byenyen"
+    ],
+    "matrix": [
+      [
+        0,
+        16,
+        16,
+        16,
+        16,
+        15,
+        15,
+        15,
+        15
+      ],
+      [
+        16,
+        0,
+        16,
+        16,
+        16,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        16,
+        16,
+        0,
+        16,
+        16,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        16,
+        16,
+        16,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        16,
+        16,
+        16,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        15,
+        15,
+        15
+      ],
+      [
+        15,
+        0,
+        0,
+        0,
+        0,
+        15,
+        0,
+        15,
+        15
+      ],
+      [
+        15,
+        0,
+        0,
+        0,
+        0,
+        15,
+        15,
+        0,
+        15
+      ],
+      [
+        15,
+        0,
+        0,
+        0,
+        0,
+        15,
+        15,
+        15,
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Eleshin, Abisoye",
+        "name": "Eleshin, Abisoye",
+        "itemCount": 31
+      },
+      {
+        "id": "Attoh, Franca",
+        "name": "Attoh, Franca",
+        "itemCount": 16
+      },
+      {
+        "id": "Eesuola, Kayode",
+        "name": "Eesuola, Kayode",
+        "itemCount": 16
+      },
+      {
+        "id": "Olalekan, Damilola",
+        "name": "Olalekan, Damilola",
+        "itemCount": 16
+      },
+      {
+        "id": "Oyewumi, Masudi",
+        "name": "Oyewumi, Masudi",
+        "itemCount": 16
+      },
+      {
+        "id": "Akinpelu, Deji",
+        "name": "Akinpelu, Deji",
+        "itemCount": 15
+      },
+      {
+        "id": "Enitan, Adewale",
+        "name": "Enitan, Adewale",
+        "itemCount": 15
+      },
+      {
+        "id": "Odubawo, Orinayo",
+        "name": "Odubawo, Orinayo",
+        "itemCount": 15
+      },
+      {
+        "id": "Bitrus, Byenyen",
+        "name": "Bitrus, Byenyen",
+        "itemCount": 15
+      }
+    ],
+    "targets": [
+      {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors",
+        "itemCount": 16
+      },
+      {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)",
+        "itemCount": 15
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Eleshin, Abisoye",
+        "targetId": "ULG_LOI2021",
+        "count": 15
+      },
+      {
+        "personId": "Akinpelu, Deji",
+        "targetId": "ULG_LOI2021",
+        "count": 15
+      },
+      {
+        "personId": "Enitan, Adewale",
+        "targetId": "ULG_LOI2021",
+        "count": 15
+      },
+      {
+        "personId": "Odubawo, Orinayo",
+        "targetId": "ULG_LOI2021",
+        "count": 15
+      },
+      {
+        "personId": "Bitrus, Byenyen",
+        "targetId": "ULG_LOI2021",
+        "count": 15
+      },
+      {
+        "personId": "Eleshin, Abisoye",
+        "targetId": "ULG_MFWA2021",
+        "count": 16
+      },
+      {
+        "personId": "Attoh, Franca",
+        "targetId": "ULG_MFWA2021",
+        "count": 16
+      },
+      {
+        "personId": "Eesuola, Kayode",
+        "targetId": "ULG_MFWA2021",
+        "count": 16
+      },
+      {
+        "personId": "Olalekan, Damilola",
+        "targetId": "ULG_MFWA2021",
+        "count": 16
+      },
+      {
+        "personId": "Oyewumi, Masudi",
+        "targetId": "ULG_MFWA2021",
+        "count": 16
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Eleshin, Abisoye",
+        "name": "Eleshin, Abisoye",
+        "itemCount": 124
+      },
+      {
+        "id": "Attoh, Franca",
+        "name": "Attoh, Franca",
+        "itemCount": 64
+      },
+      {
+        "id": "Eesuola, Kayode",
+        "name": "Eesuola, Kayode",
+        "itemCount": 64
+      },
+      {
+        "id": "Olalekan, Damilola",
+        "name": "Olalekan, Damilola",
+        "itemCount": 64
+      },
+      {
+        "id": "Oyewumi, Masudi",
+        "name": "Oyewumi, Masudi",
+        "itemCount": 64
+      },
+      {
+        "id": "Akinpelu, Deji",
+        "name": "Akinpelu, Deji",
+        "itemCount": 60
+      },
+      {
+        "id": "Enitan, Adewale",
+        "name": "Enitan, Adewale",
+        "itemCount": 60
+      },
+      {
+        "id": "Odubawo, Orinayo",
+        "name": "Odubawo, Orinayo",
+        "itemCount": 60
+      },
+      {
+        "id": "Bitrus, Byenyen",
+        "name": "Bitrus, Byenyen",
+        "itemCount": 60
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Lagos African Cluster Centre (LACC)",
+        "name": "University of Lagos African Cluster Centre (LACC)",
+        "itemCount": 31
+      },
+      {
+        "id": "Department of Urban and Regional Planning, University of Lagos",
+        "name": "Department of Urban and Regional Planning, University of Lagos",
+        "itemCount": 31
+      },
+      {
+        "id": "Department of Sociology, University of Lagos",
+        "name": "Department of Sociology, University of Lagos",
+        "itemCount": 16
+      },
+      {
+        "id": "Department of European Languages and Integrated Studies, University of Lagos",
+        "name": "Department of European Languages and Integrated Studies, University of Lagos",
+        "itemCount": 16
+      },
+      {
+        "id": "Rethinking Cities",
+        "name": "Rethinking Cities",
+        "itemCount": 15
+      },
+      {
+        "id": "Department of Arts and Social Science Education, University of Lagos",
+        "name": "Department of Arts and Social Science Education, University of Lagos",
+        "itemCount": 15
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Eleshin, Abisoye",
+        "targetId": "University of Lagos African Cluster Centre (LACC)",
+        "count": 31
+      },
+      {
+        "personId": "Akinpelu, Deji",
+        "targetId": "University of Lagos African Cluster Centre (LACC)",
+        "count": 15
+      },
+      {
+        "personId": "Enitan, Adewale",
+        "targetId": "University of Lagos African Cluster Centre (LACC)",
+        "count": 15
+      },
+      {
+        "personId": "Odubawo, Orinayo",
+        "targetId": "University of Lagos African Cluster Centre (LACC)",
+        "count": 15
+      },
+      {
+        "personId": "Bitrus, Byenyen",
+        "targetId": "University of Lagos African Cluster Centre (LACC)",
+        "count": 15
+      },
+      {
+        "personId": "Eleshin, Abisoye",
+        "targetId": "Rethinking Cities",
+        "count": 15
+      },
+      {
+        "personId": "Akinpelu, Deji",
+        "targetId": "Rethinking Cities",
+        "count": 15
+      },
+      {
+        "personId": "Enitan, Adewale",
+        "targetId": "Rethinking Cities",
+        "count": 15
+      },
+      {
+        "personId": "Odubawo, Orinayo",
+        "targetId": "Rethinking Cities",
+        "count": 15
+      },
+      {
+        "personId": "Bitrus, Byenyen",
+        "targetId": "Rethinking Cities",
+        "count": 15
+      },
+      {
+        "personId": "Eleshin, Abisoye",
+        "targetId": "Department of Arts and Social Science Education, University of Lagos",
+        "count": 15
+      },
+      {
+        "personId": "Akinpelu, Deji",
+        "targetId": "Department of Arts and Social Science Education, University of Lagos",
+        "count": 15
+      },
+      {
+        "personId": "Enitan, Adewale",
+        "targetId": "Department of Arts and Social Science Education, University of Lagos",
+        "count": 15
+      },
+      {
+        "personId": "Odubawo, Orinayo",
+        "targetId": "Department of Arts and Social Science Education, University of Lagos",
+        "count": 15
+      },
+      {
+        "personId": "Bitrus, Byenyen",
+        "targetId": "Department of Arts and Social Science Education, University of Lagos",
+        "count": 15
+      },
+      {
+        "personId": "Eleshin, Abisoye",
+        "targetId": "Department of Urban and Regional Planning, University of Lagos",
+        "count": 31
+      },
+      {
+        "personId": "Akinpelu, Deji",
+        "targetId": "Department of Urban and Regional Planning, University of Lagos",
+        "count": 15
+      },
+      {
+        "personId": "Enitan, Adewale",
+        "targetId": "Department of Urban and Regional Planning, University of Lagos",
+        "count": 15
+      },
+      {
+        "personId": "Odubawo, Orinayo",
+        "targetId": "Department of Urban and Regional Planning, University of Lagos",
+        "count": 15
+      },
+      {
+        "personId": "Bitrus, Byenyen",
+        "targetId": "Department of Urban and Regional Planning, University of Lagos",
+        "count": 15
+      },
+      {
+        "personId": "Attoh, Franca",
+        "targetId": "University of Lagos African Cluster Centre (LACC)",
+        "count": 16
+      },
+      {
+        "personId": "Eesuola, Kayode",
+        "targetId": "University of Lagos African Cluster Centre (LACC)",
+        "count": 16
+      },
+      {
+        "personId": "Olalekan, Damilola",
+        "targetId": "University of Lagos African Cluster Centre (LACC)",
+        "count": 16
+      },
+      {
+        "personId": "Oyewumi, Masudi",
+        "targetId": "University of Lagos African Cluster Centre (LACC)",
+        "count": 16
+      },
+      {
+        "personId": "Eleshin, Abisoye",
+        "targetId": "Department of Sociology, University of Lagos",
+        "count": 16
+      },
+      {
+        "personId": "Attoh, Franca",
+        "targetId": "Department of Sociology, University of Lagos",
+        "count": 16
+      },
+      {
+        "personId": "Eesuola, Kayode",
+        "targetId": "Department of Sociology, University of Lagos",
+        "count": 16
+      },
+      {
+        "personId": "Olalekan, Damilola",
+        "targetId": "Department of Sociology, University of Lagos",
+        "count": 16
+      },
+      {
+        "personId": "Oyewumi, Masudi",
+        "targetId": "Department of Sociology, University of Lagos",
+        "count": 16
+      },
+      {
+        "personId": "Attoh, Franca",
+        "targetId": "Department of Urban and Regional Planning, University of Lagos",
+        "count": 16
+      },
+      {
+        "personId": "Eesuola, Kayode",
+        "targetId": "Department of Urban and Regional Planning, University of Lagos",
+        "count": 16
+      },
+      {
+        "personId": "Olalekan, Damilola",
+        "targetId": "Department of Urban and Regional Planning, University of Lagos",
+        "count": 16
+      },
+      {
+        "personId": "Oyewumi, Masudi",
+        "targetId": "Department of Urban and Regional Planning, University of Lagos",
+        "count": 16
+      },
+      {
+        "personId": "Eleshin, Abisoye",
+        "targetId": "Department of European Languages and Integrated Studies, University of Lagos",
+        "count": 16
+      },
+      {
+        "personId": "Attoh, Franca",
+        "targetId": "Department of European Languages and Integrated Studies, University of Lagos",
+        "count": 16
+      },
+      {
+        "personId": "Eesuola, Kayode",
+        "targetId": "Department of European Languages and Integrated Studies, University of Lagos",
+        "count": 16
+      },
+      {
+        "personId": "Olalekan, Damilola",
+        "targetId": "Department of European Languages and Integrated Studies, University of Lagos",
+        "count": 16
+      },
+      {
+        "personId": "Oyewumi, Masudi",
+        "targetId": "Department of European Languages and Integrated Studies, University of Lagos",
+        "count": 16
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Nigeria",

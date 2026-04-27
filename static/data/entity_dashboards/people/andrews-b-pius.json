@@ -71,6 +71,46 @@
       "value": 2
     }
   ],
+  "coContributors": {
+    "names": [
+      "Mrisho Kitaar, B. Jumu"
+    ],
+    "matrix": [
+      [
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Mrisho Kitaar, B. Jumu",
+        "name": "Mrisho Kitaar, B. Jumu",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_DigiRet2021",
+        "name": "Beyond the \"Digital Return\": \"New Heritage/s,\" Sustainability, and the Decolonisation of Music Archives in South Africa, Kenya, and Ghana",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Mrisho Kitaar, B. Jumu",
+        "targetId": "UBT_DigiRet2021",
+        "count": 2
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
   "locations": [
     {
       "country": "Kenya",

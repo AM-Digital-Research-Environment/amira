@@ -108,6 +108,30 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Education",
+      "Livestock",
+      "Religion"
+    ],
+    "matrix": [
+      [
+        2,
+        4,
+        4
+      ],
+      [
+        4,
+        0,
+        3
+      ],
+      [
+        4,
+        3,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Education",

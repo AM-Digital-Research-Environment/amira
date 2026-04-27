@@ -128,6 +128,66 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Communities",
+      "Prisons",
+      "Punishment",
+      "Children",
+      "Juvenile detention",
+      "Juvenile delinquency"
+    ],
+    "matrix": [
+      [
+        0,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      [
+        3,
+        0,
+        3,
+        3,
+        3,
+        3
+      ],
+      [
+        3,
+        3,
+        0,
+        3,
+        3,
+        3
+      ],
+      [
+        3,
+        3,
+        3,
+        0,
+        3,
+        3
+      ],
+      [
+        3,
+        3,
+        3,
+        3,
+        0,
+        3
+      ],
+      [
+        3,
+        3,
+        3,
+        3,
+        3,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Communities",

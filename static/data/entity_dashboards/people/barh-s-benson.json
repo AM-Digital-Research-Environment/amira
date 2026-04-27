@@ -127,6 +127,444 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [
+      "Blidi, Francis Pupo",
+      "Urey, Khrushchev Borbor",
+      "Eastman, John",
+      "Brent, Julius",
+      "Gilbert, Thomas",
+      "McCrumada, Charles"
+    ],
+    "matrix": [
+      [
+        0,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        2,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        2,
+        2,
+        0,
+        2,
+        2,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        0,
+        2,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        0,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Blidi, Francis Pupo",
+        "name": "Blidi, Francis Pupo",
+        "itemCount": 2
+      },
+      {
+        "id": "Urey, Khrushchev Borbor",
+        "name": "Urey, Khrushchev Borbor",
+        "itemCount": 2
+      },
+      {
+        "id": "Eastman, John",
+        "name": "Eastman, John",
+        "itemCount": 2
+      },
+      {
+        "id": "Brent, Julius",
+        "name": "Brent, Julius",
+        "itemCount": 2
+      },
+      {
+        "id": "Gilbert, Thomas",
+        "name": "Gilbert, Thomas",
+        "itemCount": 2
+      },
+      {
+        "id": "McCrumada, Charles",
+        "name": "McCrumada, Charles",
+        "itemCount": 2
+      },
+      {
+        "id": "Fakay, Soko",
+        "name": "Fakay, Soko",
+        "itemCount": 1
+      },
+      {
+        "id": "Taylor, Adolphus",
+        "name": "Taylor, Adolphus",
+        "itemCount": 1
+      },
+      {
+        "id": "Wegee, Presley",
+        "name": "Wegee, Presley",
+        "itemCount": 1
+      },
+      {
+        "id": "Belleh, Martha Sandolo",
+        "name": "Belleh, Martha Sandolo",
+        "itemCount": 1
+      },
+      {
+        "id": "Bailey, Joseph",
+        "name": "Bailey, Joseph",
+        "itemCount": 1
+      },
+      {
+        "id": "Johnson, T. Mac",
+        "name": "Johnson, T. Mac",
+        "itemCount": 1
+      },
+      {
+        "id": "Mensah, Sam",
+        "name": "Mensah, Sam",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System",
+        "itemCount": 3
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Blidi, Francis Pupo",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 2
+      },
+      {
+        "personId": "Urey, Khrushchev Borbor",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 2
+      },
+      {
+        "personId": "Fakay, Soko",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Taylor, Adolphus",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Eastman, John",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 2
+      },
+      {
+        "personId": "Brent, Julius",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 2
+      },
+      {
+        "personId": "Gilbert, Thomas",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 2
+      },
+      {
+        "personId": "McCrumada, Charles",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 2
+      },
+      {
+        "personId": "Wegee, Presley",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Belleh, Martha Sandolo",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Bailey, Joseph",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Johnson, T. Mac",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Mensah, Sam",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Blidi, Francis Pupo",
+        "name": "Blidi, Francis Pupo",
+        "itemCount": 4
+      },
+      {
+        "id": "Urey, Khrushchev Borbor",
+        "name": "Urey, Khrushchev Borbor",
+        "itemCount": 4
+      },
+      {
+        "id": "Eastman, John",
+        "name": "Eastman, John",
+        "itemCount": 4
+      },
+      {
+        "id": "Brent, Julius",
+        "name": "Brent, Julius",
+        "itemCount": 4
+      },
+      {
+        "id": "Gilbert, Thomas",
+        "name": "Gilbert, Thomas",
+        "itemCount": 4
+      },
+      {
+        "id": "McCrumada, Charles",
+        "name": "McCrumada, Charles",
+        "itemCount": 4
+      },
+      {
+        "id": "Fakay, Soko",
+        "name": "Fakay, Soko",
+        "itemCount": 2
+      },
+      {
+        "id": "Taylor, Adolphus",
+        "name": "Taylor, Adolphus",
+        "itemCount": 2
+      },
+      {
+        "id": "Wegee, Presley",
+        "name": "Wegee, Presley",
+        "itemCount": 2
+      },
+      {
+        "id": "Mensah, Sam",
+        "name": "Mensah, Sam",
+        "itemCount": 2
+      },
+      {
+        "id": "Belleh, Martha Sandolo",
+        "name": "Belleh, Martha Sandolo",
+        "itemCount": 1
+      },
+      {
+        "id": "Bailey, Joseph",
+        "name": "Bailey, Joseph",
+        "itemCount": 1
+      },
+      {
+        "id": "Johnson, T. Mac",
+        "name": "Johnson, T. Mac",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Ministry of Health and Social Welfare, Liberia",
+        "name": "Ministry of Health and Social Welfare, Liberia",
+        "itemCount": 2
+      },
+      {
+        "id": "Liberia Broadcasting System (LBS)",
+        "name": "Liberia Broadcasting System (LBS)",
+        "itemCount": 2
+      },
+      {
+        "id": "National AIDS Control Program of Liberia",
+        "name": "National AIDS Control Program of Liberia",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Blidi, Francis Pupo",
+        "targetId": "Ministry of Health and Social Welfare, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Urey, Khrushchev Borbor",
+        "targetId": "Ministry of Health and Social Welfare, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Fakay, Soko",
+        "targetId": "Ministry of Health and Social Welfare, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Taylor, Adolphus",
+        "targetId": "Ministry of Health and Social Welfare, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Eastman, John",
+        "targetId": "Ministry of Health and Social Welfare, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Brent, Julius",
+        "targetId": "Ministry of Health and Social Welfare, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Gilbert, Thomas",
+        "targetId": "Ministry of Health and Social Welfare, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "McCrumada, Charles",
+        "targetId": "Ministry of Health and Social Welfare, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Wegee, Presley",
+        "targetId": "Ministry of Health and Social Welfare, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Blidi, Francis Pupo",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 2
+      },
+      {
+        "personId": "Urey, Khrushchev Borbor",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 2
+      },
+      {
+        "personId": "Fakay, Soko",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Taylor, Adolphus",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Eastman, John",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 2
+      },
+      {
+        "personId": "Brent, Julius",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 2
+      },
+      {
+        "personId": "Gilbert, Thomas",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 2
+      },
+      {
+        "personId": "McCrumada, Charles",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 2
+      },
+      {
+        "personId": "Wegee, Presley",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Belleh, Martha Sandolo",
+        "targetId": "Ministry of Health and Social Welfare, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Bailey, Joseph",
+        "targetId": "Ministry of Health and Social Welfare, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Johnson, T. Mac",
+        "targetId": "Ministry of Health and Social Welfare, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Blidi, Francis Pupo",
+        "targetId": "National AIDS Control Program of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Urey, Khrushchev Borbor",
+        "targetId": "National AIDS Control Program of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Eastman, John",
+        "targetId": "National AIDS Control Program of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Brent, Julius",
+        "targetId": "National AIDS Control Program of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Gilbert, Thomas",
+        "targetId": "National AIDS Control Program of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Mensah, Sam",
+        "targetId": "National AIDS Control Program of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "McCrumada, Charles",
+        "targetId": "National AIDS Control Program of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Mensah, Sam",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Liberia",

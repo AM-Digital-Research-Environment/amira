@@ -667,6 +667,839 @@
       "value": 7
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Urey, Khrushchev Borbor",
+        "name": "Urey, Khrushchev Borbor",
+        "itemCount": 46
+      },
+      {
+        "id": "Taylor, Adolphus",
+        "name": "Taylor, Adolphus",
+        "itemCount": 44
+      },
+      {
+        "id": "McCrumada, Charles",
+        "name": "McCrumada, Charles",
+        "itemCount": 44
+      },
+      {
+        "id": "Mensah, Sam",
+        "name": "Mensah, Sam",
+        "itemCount": 43
+      },
+      {
+        "id": "Gilbert, Thomas",
+        "name": "Gilbert, Thomas",
+        "itemCount": 42
+      },
+      {
+        "id": "Eastman, John",
+        "name": "Eastman, John",
+        "itemCount": 39
+      },
+      {
+        "id": "Wegee, Presley",
+        "name": "Wegee, Presley",
+        "itemCount": 39
+      },
+      {
+        "id": "Collins, Hawa Andrews",
+        "name": "Collins, Hawa Andrews",
+        "itemCount": 31
+      },
+      {
+        "id": "Brent, Julius",
+        "name": "Brent, Julius",
+        "itemCount": 31
+      },
+      {
+        "id": "Fakay, Soko",
+        "name": "Fakay, Soko",
+        "itemCount": 30
+      },
+      {
+        "id": "Brown, Dan",
+        "name": "Brown, Dan",
+        "itemCount": 14
+      },
+      {
+        "id": "Flomo, Korkulor",
+        "name": "Flomo, Korkulor",
+        "itemCount": 10
+      },
+      {
+        "id": "Wessehutes, Jimmy",
+        "name": "Wessehutes, Jimmy",
+        "itemCount": 10
+      },
+      {
+        "id": "Andrews, Amos",
+        "name": "Andrews, Amos",
+        "itemCount": 9
+      },
+      {
+        "id": "Konneh, Kafumba F.",
+        "name": "Konneh, Kafumba F.",
+        "itemCount": 9
+      },
+      {
+        "id": "Toby, Victor",
+        "name": "Toby, Victor",
+        "itemCount": 8
+      },
+      {
+        "id": "Christopher, Victoria",
+        "name": "Christopher, Victoria",
+        "itemCount": 7
+      },
+      {
+        "id": "Kezele, Sumoiwuo",
+        "name": "Kezele, Sumoiwuo",
+        "itemCount": 7
+      },
+      {
+        "id": "Blidi, Francis Pupo",
+        "name": "Blidi, Francis Pupo",
+        "itemCount": 6
+      },
+      {
+        "id": "Konuwa, Charles",
+        "name": "Konuwa, Charles",
+        "itemCount": 6
+      },
+      {
+        "id": "Zeon, Jefferson",
+        "name": "Zeon, Jefferson",
+        "itemCount": 6
+      },
+      {
+        "id": "Lampkins, Ralph",
+        "name": "Lampkins, Ralph",
+        "itemCount": 6
+      },
+      {
+        "id": "Badio, Cyrus",
+        "name": "Badio, Cyrus",
+        "itemCount": 6
+      },
+      {
+        "id": "Brown, Samuel T.",
+        "name": "Brown, Samuel T.",
+        "itemCount": 6
+      },
+      {
+        "id": "Flomo, Matthew Y.",
+        "name": "Flomo, Matthew Y.",
+        "itemCount": 6
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System",
+        "itemCount": 144
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Collins, Hawa Andrews",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 31
+      },
+      {
+        "personId": "Flomo, Korkulor",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 10
+      },
+      {
+        "personId": "Andrews, Amos",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 9
+      },
+      {
+        "personId": "Brown, Dan",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 14
+      },
+      {
+        "personId": "Blidi, Francis Pupo",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 6
+      },
+      {
+        "personId": "Urey, Khrushchev Borbor",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 46
+      },
+      {
+        "personId": "Fakay, Soko",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 30
+      },
+      {
+        "personId": "Taylor, Adolphus",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 44
+      },
+      {
+        "personId": "Eastman, John",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 39
+      },
+      {
+        "personId": "Brent, Julius",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 31
+      },
+      {
+        "personId": "Gilbert, Thomas",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 42
+      },
+      {
+        "personId": "McCrumada, Charles",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 44
+      },
+      {
+        "personId": "Wegee, Presley",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 39
+      },
+      {
+        "personId": "Wessehutes, Jimmy",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 10
+      },
+      {
+        "personId": "Mensah, Sam",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 43
+      },
+      {
+        "personId": "Christopher, Victoria",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 7
+      },
+      {
+        "personId": "Konuwa, Charles",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 6
+      },
+      {
+        "personId": "Kezele, Sumoiwuo",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 7
+      },
+      {
+        "personId": "Zeon, Jefferson",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 6
+      },
+      {
+        "personId": "Toby, Victor",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 8
+      },
+      {
+        "personId": "Lampkins, Ralph",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 6
+      },
+      {
+        "personId": "Konneh, Kafumba F.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 9
+      },
+      {
+        "personId": "Badio, Cyrus",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 6
+      },
+      {
+        "personId": "Brown, Samuel T.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 6
+      },
+      {
+        "personId": "Flomo, Matthew Y.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 6
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "McCrumada, Charles",
+        "name": "McCrumada, Charles",
+        "itemCount": 13
+      },
+      {
+        "id": "Eastman, John",
+        "name": "Eastman, John",
+        "itemCount": 12
+      },
+      {
+        "id": "Gilbert, Thomas",
+        "name": "Gilbert, Thomas",
+        "itemCount": 12
+      },
+      {
+        "id": "Mensah, Sam",
+        "name": "Mensah, Sam",
+        "itemCount": 12
+      },
+      {
+        "id": "Urey, Khrushchev Borbor",
+        "name": "Urey, Khrushchev Borbor",
+        "itemCount": 11
+      },
+      {
+        "id": "Brent, Julius",
+        "name": "Brent, Julius",
+        "itemCount": 9
+      },
+      {
+        "id": "Wegee, Presley",
+        "name": "Wegee, Presley",
+        "itemCount": 9
+      },
+      {
+        "id": "Blidi, Francis Pupo",
+        "name": "Blidi, Francis Pupo",
+        "itemCount": 8
+      },
+      {
+        "id": "Fakay, Soko",
+        "name": "Fakay, Soko",
+        "itemCount": 8
+      },
+      {
+        "id": "Taylor, Adolphus",
+        "name": "Taylor, Adolphus",
+        "itemCount": 8
+      },
+      {
+        "id": "Doe, Samuel Kanyon",
+        "name": "Doe, Samuel Kanyon",
+        "itemCount": 5
+      },
+      {
+        "id": "Barh, S. Benson",
+        "name": "Barh, S. Benson",
+        "itemCount": 3
+      },
+      {
+        "id": "Sonii, Momo D.",
+        "name": "Sonii, Momo D.",
+        "itemCount": 3
+      },
+      {
+        "id": "Miller, Morris G.",
+        "name": "Miller, Morris G.",
+        "itemCount": 3
+      },
+      {
+        "id": "M'Baye, A. B.",
+        "name": "M'Baye, A. B.",
+        "itemCount": 3
+      },
+      {
+        "id": "Sarh, Dominic M.",
+        "name": "Sarh, Dominic M.",
+        "itemCount": 3
+      },
+      {
+        "id": "Sese, Dominic",
+        "name": "Sese, Dominic",
+        "itemCount": 3
+      },
+      {
+        "id": "Brown, Dan",
+        "name": "Brown, Dan",
+        "itemCount": 3
+      },
+      {
+        "id": "Konuwa, Charles",
+        "name": "Konuwa, Charles",
+        "itemCount": 3
+      },
+      {
+        "id": "Andrews, Amos",
+        "name": "Andrews, Amos",
+        "itemCount": 3
+      },
+      {
+        "id": "Stevquoah, Sam",
+        "name": "Stevquoah, Sam",
+        "itemCount": 3
+      },
+      {
+        "id": "Christopher, Victoria",
+        "name": "Christopher, Victoria",
+        "itemCount": 3
+      },
+      {
+        "id": "Falla",
+        "name": "Falla",
+        "itemCount": 3
+      },
+      {
+        "id": "Nangwe, Joseph",
+        "name": "Nangwe, Joseph",
+        "itemCount": 3
+      },
+      {
+        "id": "Clarke, Wilfried",
+        "name": "Clarke, Wilfried",
+        "itemCount": 3
+      }
+    ],
+    "targets": [
+      {
+        "id": "Ministry of State for Presidential Affairs, Liberia",
+        "name": "Ministry of State for Presidential Affairs, Liberia",
+        "itemCount": 5
+      },
+      {
+        "id": "Liberian Red Cross Society",
+        "name": "Liberian Red Cross Society",
+        "itemCount": 3
+      },
+      {
+        "id": "Ministry of Health and Social Welfare, Liberia",
+        "name": "Ministry of Health and Social Welfare, Liberia",
+        "itemCount": 3
+      },
+      {
+        "id": "Ganta Leprosy and TB Rehabilitation Center",
+        "name": "Ganta Leprosy and TB Rehabilitation Center",
+        "itemCount": 1
+      },
+      {
+        "id": "National Blood Bank, Liberia",
+        "name": "National Blood Bank, Liberia",
+        "itemCount": 1
+      },
+      {
+        "id": "Ministry of Hope",
+        "name": "Ministry of Hope",
+        "itemCount": 1
+      },
+      {
+        "id": "Maranatha Church, Kitwe",
+        "name": "Maranatha Church, Kitwe",
+        "itemCount": 1
+      },
+      {
+        "id": "National Bank of Liberia",
+        "name": "National Bank of Liberia",
+        "itemCount": 1
+      },
+      {
+        "id": "Agricultural and Cooperative Development Bank of Liberia",
+        "name": "Agricultural and Cooperative Development Bank of Liberia",
+        "itemCount": 1
+      },
+      {
+        "id": "Liberia National Police",
+        "name": "Liberia National Police",
+        "itemCount": 1
+      },
+      {
+        "id": "Society for the Conservation of Nature of Liberia",
+        "name": "Society for the Conservation of Nature of Liberia",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Doe, Samuel Kanyon",
+        "targetId": "Ministry of State for Presidential Affairs, Liberia",
+        "count": 5
+      },
+      {
+        "personId": "Barh, S. Benson",
+        "targetId": "Ministry of Health and Social Welfare, Liberia",
+        "count": 2
+      },
+      {
+        "personId": "Blidi, Francis Pupo",
+        "targetId": "Ministry of Health and Social Welfare, Liberia",
+        "count": 2
+      },
+      {
+        "personId": "Urey, Khrushchev Borbor",
+        "targetId": "Ministry of Health and Social Welfare, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Fakay, Soko",
+        "targetId": "Ministry of Health and Social Welfare, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Taylor, Adolphus",
+        "targetId": "Ministry of Health and Social Welfare, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Eastman, John",
+        "targetId": "Ministry of Health and Social Welfare, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Brent, Julius",
+        "targetId": "Ministry of Health and Social Welfare, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Gilbert, Thomas",
+        "targetId": "Ministry of Health and Social Welfare, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "McCrumada, Charles",
+        "targetId": "Ministry of Health and Social Welfare, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Wegee, Presley",
+        "targetId": "Ministry of Health and Social Welfare, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Sonii, Momo D.",
+        "targetId": "Ganta Leprosy and TB Rehabilitation Center",
+        "count": 1
+      },
+      {
+        "personId": "Miller, Morris G.",
+        "targetId": "Ganta Leprosy and TB Rehabilitation Center",
+        "count": 1
+      },
+      {
+        "personId": "M'Baye, A. B.",
+        "targetId": "Ganta Leprosy and TB Rehabilitation Center",
+        "count": 1
+      },
+      {
+        "personId": "Sarh, Dominic M.",
+        "targetId": "Ganta Leprosy and TB Rehabilitation Center",
+        "count": 1
+      },
+      {
+        "personId": "Sese, Dominic",
+        "targetId": "Ganta Leprosy and TB Rehabilitation Center",
+        "count": 1
+      },
+      {
+        "personId": "Blidi, Francis Pupo",
+        "targetId": "Ganta Leprosy and TB Rehabilitation Center",
+        "count": 1
+      },
+      {
+        "personId": "Sonii, Momo D.",
+        "targetId": "National Blood Bank, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Miller, Morris G.",
+        "targetId": "National Blood Bank, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "M'Baye, A. B.",
+        "targetId": "National Blood Bank, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Sarh, Dominic M.",
+        "targetId": "National Blood Bank, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Sese, Dominic",
+        "targetId": "National Blood Bank, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Blidi, Francis Pupo",
+        "targetId": "National Blood Bank, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Sonii, Momo D.",
+        "targetId": "Liberian Red Cross Society",
+        "count": 1
+      },
+      {
+        "personId": "Miller, Morris G.",
+        "targetId": "Liberian Red Cross Society",
+        "count": 1
+      },
+      {
+        "personId": "M'Baye, A. B.",
+        "targetId": "Liberian Red Cross Society",
+        "count": 1
+      },
+      {
+        "personId": "Sarh, Dominic M.",
+        "targetId": "Liberian Red Cross Society",
+        "count": 1
+      },
+      {
+        "personId": "Sese, Dominic",
+        "targetId": "Liberian Red Cross Society",
+        "count": 1
+      },
+      {
+        "personId": "Blidi, Francis Pupo",
+        "targetId": "Liberian Red Cross Society",
+        "count": 1
+      },
+      {
+        "personId": "Taylor, Adolphus",
+        "targetId": "Ministry of Hope",
+        "count": 1
+      },
+      {
+        "personId": "McCrumada, Charles",
+        "targetId": "Ministry of Hope",
+        "count": 1
+      },
+      {
+        "personId": "Fakay, Soko",
+        "targetId": "Ministry of Hope",
+        "count": 1
+      },
+      {
+        "personId": "Wegee, Presley",
+        "targetId": "Ministry of Hope",
+        "count": 1
+      },
+      {
+        "personId": "Mensah, Sam",
+        "targetId": "Ministry of Hope",
+        "count": 1
+      },
+      {
+        "personId": "Eastman, John",
+        "targetId": "Ministry of Hope",
+        "count": 1
+      },
+      {
+        "personId": "Gilbert, Thomas",
+        "targetId": "Ministry of Hope",
+        "count": 1
+      },
+      {
+        "personId": "Taylor, Adolphus",
+        "targetId": "Maranatha Church, Kitwe",
+        "count": 1
+      },
+      {
+        "personId": "McCrumada, Charles",
+        "targetId": "Maranatha Church, Kitwe",
+        "count": 1
+      },
+      {
+        "personId": "Fakay, Soko",
+        "targetId": "Maranatha Church, Kitwe",
+        "count": 1
+      },
+      {
+        "personId": "Wegee, Presley",
+        "targetId": "Maranatha Church, Kitwe",
+        "count": 1
+      },
+      {
+        "personId": "Mensah, Sam",
+        "targetId": "Maranatha Church, Kitwe",
+        "count": 1
+      },
+      {
+        "personId": "Eastman, John",
+        "targetId": "Maranatha Church, Kitwe",
+        "count": 1
+      },
+      {
+        "personId": "Gilbert, Thomas",
+        "targetId": "Maranatha Church, Kitwe",
+        "count": 1
+      },
+      {
+        "personId": "Brown, Dan",
+        "targetId": "National Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Konuwa, Charles",
+        "targetId": "National Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Andrews, Amos",
+        "targetId": "National Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Stevquoah, Sam",
+        "targetId": "National Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Christopher, Victoria",
+        "targetId": "National Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Falla",
+        "targetId": "National Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Nangwe, Joseph",
+        "targetId": "National Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Clarke, Wilfried",
+        "targetId": "National Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Brown, Dan",
+        "targetId": "Agricultural and Cooperative Development Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Konuwa, Charles",
+        "targetId": "Agricultural and Cooperative Development Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Andrews, Amos",
+        "targetId": "Agricultural and Cooperative Development Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Stevquoah, Sam",
+        "targetId": "Agricultural and Cooperative Development Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Christopher, Victoria",
+        "targetId": "Agricultural and Cooperative Development Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Falla",
+        "targetId": "Agricultural and Cooperative Development Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Nangwe, Joseph",
+        "targetId": "Agricultural and Cooperative Development Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Clarke, Wilfried",
+        "targetId": "Agricultural and Cooperative Development Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Brown, Dan",
+        "targetId": "Liberia National Police",
+        "count": 1
+      },
+      {
+        "personId": "Konuwa, Charles",
+        "targetId": "Liberia National Police",
+        "count": 1
+      },
+      {
+        "personId": "Andrews, Amos",
+        "targetId": "Liberia National Police",
+        "count": 1
+      },
+      {
+        "personId": "Stevquoah, Sam",
+        "targetId": "Liberia National Police",
+        "count": 1
+      },
+      {
+        "personId": "Christopher, Victoria",
+        "targetId": "Liberia National Police",
+        "count": 1
+      },
+      {
+        "personId": "Falla",
+        "targetId": "Liberia National Police",
+        "count": 1
+      },
+      {
+        "personId": "Nangwe, Joseph",
+        "targetId": "Liberia National Police",
+        "count": 1
+      },
+      {
+        "personId": "Clarke, Wilfried",
+        "targetId": "Liberia National Police",
+        "count": 1
+      },
+      {
+        "personId": "Urey, Khrushchev Borbor",
+        "targetId": "Society for the Conservation of Nature of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Taylor, Adolphus",
+        "targetId": "Society for the Conservation of Nature of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Fakay, Soko",
+        "targetId": "Society for the Conservation of Nature of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Wegee, Presley",
+        "targetId": "Society for the Conservation of Nature of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Eastman, John",
+        "targetId": "Society for the Conservation of Nature of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Brent, Julius",
+        "targetId": "Society for the Conservation of Nature of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Gilbert, Thomas",
+        "targetId": "Society for the Conservation of Nature of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Mensah, Sam",
+        "targetId": "Society for the Conservation of Nature of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "McCrumada, Charles",
+        "targetId": "Society for the Conservation of Nature of Liberia",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Liberia",

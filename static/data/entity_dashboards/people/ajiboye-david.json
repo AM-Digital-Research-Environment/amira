@@ -46,6 +46,58 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [],
+    "matrix": []
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Olusola, Segun",
+        "name": "Olusola, Segun",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Olusola, Segun",
+        "targetId": "UBT_TaiSha2021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Olusola, Segun",
+        "name": "Olusola, Segun",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "africanmoviestar.com",
+        "name": "africanmoviestar.com",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Olusola, Segun",
+        "targetId": "africanmoviestar.com",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Nigeria",

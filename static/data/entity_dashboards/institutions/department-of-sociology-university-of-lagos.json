@@ -285,6 +285,519 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Attoh, Franca",
+        "name": "Attoh, Franca",
+        "itemCount": 58
+      },
+      {
+        "id": "Yakubu, Moses",
+        "name": "Yakubu, Moses",
+        "itemCount": 40
+      },
+      {
+        "id": "Ademola-Adeoye, Feyisayo",
+        "name": "Ademola-Adeoye, Feyisayo",
+        "itemCount": 40
+      },
+      {
+        "id": "Adebayo, Bukola",
+        "name": "Adebayo, Bukola",
+        "itemCount": 40
+      },
+      {
+        "id": "Adeniran, Samuel",
+        "name": "Adeniran, Samuel",
+        "itemCount": 40
+      },
+      {
+        "id": "Anyanwu, Beatrice",
+        "name": "Anyanwu, Beatrice",
+        "itemCount": 40
+      },
+      {
+        "id": "Akintola, Folashade",
+        "name": "Akintola, Folashade",
+        "itemCount": 40
+      },
+      {
+        "id": "Olukuade, Tomide",
+        "name": "Olukuade, Tomide",
+        "itemCount": 40
+      },
+      {
+        "id": "Ademola, Lydia",
+        "name": "Ademola, Lydia",
+        "itemCount": 40
+      },
+      {
+        "id": "Eesuola, Kayode",
+        "name": "Eesuola, Kayode",
+        "itemCount": 37
+      },
+      {
+        "id": "Lawanson, Taibat",
+        "name": "Lawanson, Taibat",
+        "itemCount": 16
+      },
+      {
+        "id": "Eleshin, Abisoye",
+        "name": "Eleshin, Abisoye",
+        "itemCount": 16
+      },
+      {
+        "id": "Olalekan, Damilola",
+        "name": "Olalekan, Damilola",
+        "itemCount": 16
+      },
+      {
+        "id": "Oyewumi, Masudi",
+        "name": "Oyewumi, Masudi",
+        "itemCount": 16
+      },
+      {
+        "id": "Samandin, Naaba",
+        "name": "Samandin, Naaba",
+        "itemCount": 1
+      },
+      {
+        "id": "Diallo, Mamadou",
+        "name": "Diallo, Mamadou",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "ULG_WOPP2021",
+        "name": "Locating the Albatross in Women's Political Participation in Sub-Saharan Africa",
+        "itemCount": 21
+      },
+      {
+        "id": "ULG_MRC2021",
+        "name": "Municipal Road Construction in Kenya and Nigeria: Investigating the Politics of Infrastructure Development",
+        "itemCount": 19
+      },
+      {
+        "id": "ULG_MFWA2021",
+        "name": "Youth and Informal Labour Migration in West Africa Urban Corridors",
+        "itemCount": 16
+      },
+      {
+        "id": "UJKZ_SEDPaix2022",
+        "name": "Socio-anthropological study on endogenous sources of dialogue and peace against terrorism in Burkina Faso",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Lawanson, Taibat",
+        "targetId": "ULG_MFWA2021",
+        "count": 16
+      },
+      {
+        "personId": "Eleshin, Abisoye",
+        "targetId": "ULG_MFWA2021",
+        "count": 16
+      },
+      {
+        "personId": "Attoh, Franca",
+        "targetId": "ULG_MFWA2021",
+        "count": 16
+      },
+      {
+        "personId": "Eesuola, Kayode",
+        "targetId": "ULG_MFWA2021",
+        "count": 16
+      },
+      {
+        "personId": "Olalekan, Damilola",
+        "targetId": "ULG_MFWA2021",
+        "count": 16
+      },
+      {
+        "personId": "Oyewumi, Masudi",
+        "targetId": "ULG_MFWA2021",
+        "count": 16
+      },
+      {
+        "personId": "Yakubu, Moses",
+        "targetId": "ULG_MRC2021",
+        "count": 19
+      },
+      {
+        "personId": "Attoh, Franca",
+        "targetId": "ULG_MRC2021",
+        "count": 19
+      },
+      {
+        "personId": "Ademola-Adeoye, Feyisayo",
+        "targetId": "ULG_MRC2021",
+        "count": 19
+      },
+      {
+        "personId": "Adebayo, Bukola",
+        "targetId": "ULG_MRC2021",
+        "count": 19
+      },
+      {
+        "personId": "Adeniran, Samuel",
+        "targetId": "ULG_MRC2021",
+        "count": 19
+      },
+      {
+        "personId": "Anyanwu, Beatrice",
+        "targetId": "ULG_MRC2021",
+        "count": 19
+      },
+      {
+        "personId": "Akintola, Folashade",
+        "targetId": "ULG_MRC2021",
+        "count": 19
+      },
+      {
+        "personId": "Olukuade, Tomide",
+        "targetId": "ULG_MRC2021",
+        "count": 19
+      },
+      {
+        "personId": "Ademola, Lydia",
+        "targetId": "ULG_MRC2021",
+        "count": 19
+      },
+      {
+        "personId": "Ademola-Adeoye, Feyisayo",
+        "targetId": "ULG_WOPP2021",
+        "count": 21
+      },
+      {
+        "personId": "Attoh, Franca",
+        "targetId": "ULG_WOPP2021",
+        "count": 21
+      },
+      {
+        "personId": "Yakubu, Moses",
+        "targetId": "ULG_WOPP2021",
+        "count": 21
+      },
+      {
+        "personId": "Eesuola, Kayode",
+        "targetId": "ULG_WOPP2021",
+        "count": 21
+      },
+      {
+        "personId": "Olukuade, Tomide",
+        "targetId": "ULG_WOPP2021",
+        "count": 21
+      },
+      {
+        "personId": "Ademola, Lydia",
+        "targetId": "ULG_WOPP2021",
+        "count": 21
+      },
+      {
+        "personId": "Anyanwu, Beatrice",
+        "targetId": "ULG_WOPP2021",
+        "count": 21
+      },
+      {
+        "personId": "Akintola, Folashade",
+        "targetId": "ULG_WOPP2021",
+        "count": 21
+      },
+      {
+        "personId": "Adeniran, Samuel",
+        "targetId": "ULG_WOPP2021",
+        "count": 21
+      },
+      {
+        "personId": "Adebayo, Bukola",
+        "targetId": "ULG_WOPP2021",
+        "count": 21
+      },
+      {
+        "personId": "Attoh, Franca",
+        "targetId": "UJKZ_SEDPaix2022",
+        "count": 2
+      },
+      {
+        "personId": "Samandin, Naaba",
+        "targetId": "UJKZ_SEDPaix2022",
+        "count": 1
+      },
+      {
+        "personId": "Diallo, Mamadou",
+        "targetId": "UJKZ_SEDPaix2022",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Attoh, Franca",
+        "name": "Attoh, Franca",
+        "itemCount": 90
+      },
+      {
+        "id": "Eesuola, Kayode",
+        "name": "Eesuola, Kayode",
+        "itemCount": 69
+      },
+      {
+        "id": "Lawanson, Taibat",
+        "name": "Lawanson, Taibat",
+        "itemCount": 48
+      },
+      {
+        "id": "Eleshin, Abisoye",
+        "name": "Eleshin, Abisoye",
+        "itemCount": 48
+      },
+      {
+        "id": "Olalekan, Damilola",
+        "name": "Olalekan, Damilola",
+        "itemCount": 48
+      },
+      {
+        "id": "Oyewumi, Masudi",
+        "name": "Oyewumi, Masudi",
+        "itemCount": 48
+      },
+      {
+        "id": "Yakubu, Moses",
+        "name": "Yakubu, Moses",
+        "itemCount": 40
+      },
+      {
+        "id": "Ademola-Adeoye, Feyisayo",
+        "name": "Ademola-Adeoye, Feyisayo",
+        "itemCount": 40
+      },
+      {
+        "id": "Adebayo, Bukola",
+        "name": "Adebayo, Bukola",
+        "itemCount": 40
+      },
+      {
+        "id": "Adeniran, Samuel",
+        "name": "Adeniran, Samuel",
+        "itemCount": 40
+      },
+      {
+        "id": "Anyanwu, Beatrice",
+        "name": "Anyanwu, Beatrice",
+        "itemCount": 40
+      },
+      {
+        "id": "Akintola, Folashade",
+        "name": "Akintola, Folashade",
+        "itemCount": 40
+      },
+      {
+        "id": "Olukuade, Tomide",
+        "name": "Olukuade, Tomide",
+        "itemCount": 40
+      },
+      {
+        "id": "Ademola, Lydia",
+        "name": "Ademola, Lydia",
+        "itemCount": 40
+      },
+      {
+        "id": "Samandin, Naaba",
+        "name": "Samandin, Naaba",
+        "itemCount": 1
+      },
+      {
+        "id": "Diallo, Mamadou",
+        "name": "Diallo, Mamadou",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Lagos African Cluster Centre (LACC)",
+        "name": "University of Lagos African Cluster Centre (LACC)",
+        "itemCount": 56
+      },
+      {
+        "id": "Department of Urban and Regional Planning, University of Lagos",
+        "name": "Department of Urban and Regional Planning, University of Lagos",
+        "itemCount": 16
+      },
+      {
+        "id": "Department of European Languages and Integrated Studies, University of Lagos",
+        "name": "Department of European Languages and Integrated Studies, University of Lagos",
+        "itemCount": 16
+      },
+      {
+        "id": "Ouagadougou Kingdom",
+        "name": "Ouagadougou Kingdom",
+        "itemCount": 1
+      },
+      {
+        "id": "Ministry of Public Service of Burkina Faso",
+        "name": "Ministry of Public Service of Burkina Faso",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Lawanson, Taibat",
+        "targetId": "University of Lagos African Cluster Centre (LACC)",
+        "count": 16
+      },
+      {
+        "personId": "Eleshin, Abisoye",
+        "targetId": "University of Lagos African Cluster Centre (LACC)",
+        "count": 16
+      },
+      {
+        "personId": "Attoh, Franca",
+        "targetId": "University of Lagos African Cluster Centre (LACC)",
+        "count": 56
+      },
+      {
+        "personId": "Eesuola, Kayode",
+        "targetId": "University of Lagos African Cluster Centre (LACC)",
+        "count": 37
+      },
+      {
+        "personId": "Olalekan, Damilola",
+        "targetId": "University of Lagos African Cluster Centre (LACC)",
+        "count": 16
+      },
+      {
+        "personId": "Oyewumi, Masudi",
+        "targetId": "University of Lagos African Cluster Centre (LACC)",
+        "count": 16
+      },
+      {
+        "personId": "Lawanson, Taibat",
+        "targetId": "Department of Urban and Regional Planning, University of Lagos",
+        "count": 16
+      },
+      {
+        "personId": "Eleshin, Abisoye",
+        "targetId": "Department of Urban and Regional Planning, University of Lagos",
+        "count": 16
+      },
+      {
+        "personId": "Attoh, Franca",
+        "targetId": "Department of Urban and Regional Planning, University of Lagos",
+        "count": 16
+      },
+      {
+        "personId": "Eesuola, Kayode",
+        "targetId": "Department of Urban and Regional Planning, University of Lagos",
+        "count": 16
+      },
+      {
+        "personId": "Olalekan, Damilola",
+        "targetId": "Department of Urban and Regional Planning, University of Lagos",
+        "count": 16
+      },
+      {
+        "personId": "Oyewumi, Masudi",
+        "targetId": "Department of Urban and Regional Planning, University of Lagos",
+        "count": 16
+      },
+      {
+        "personId": "Lawanson, Taibat",
+        "targetId": "Department of European Languages and Integrated Studies, University of Lagos",
+        "count": 16
+      },
+      {
+        "personId": "Eleshin, Abisoye",
+        "targetId": "Department of European Languages and Integrated Studies, University of Lagos",
+        "count": 16
+      },
+      {
+        "personId": "Attoh, Franca",
+        "targetId": "Department of European Languages and Integrated Studies, University of Lagos",
+        "count": 16
+      },
+      {
+        "personId": "Eesuola, Kayode",
+        "targetId": "Department of European Languages and Integrated Studies, University of Lagos",
+        "count": 16
+      },
+      {
+        "personId": "Olalekan, Damilola",
+        "targetId": "Department of European Languages and Integrated Studies, University of Lagos",
+        "count": 16
+      },
+      {
+        "personId": "Oyewumi, Masudi",
+        "targetId": "Department of European Languages and Integrated Studies, University of Lagos",
+        "count": 16
+      },
+      {
+        "personId": "Yakubu, Moses",
+        "targetId": "University of Lagos African Cluster Centre (LACC)",
+        "count": 40
+      },
+      {
+        "personId": "Ademola-Adeoye, Feyisayo",
+        "targetId": "University of Lagos African Cluster Centre (LACC)",
+        "count": 40
+      },
+      {
+        "personId": "Adebayo, Bukola",
+        "targetId": "University of Lagos African Cluster Centre (LACC)",
+        "count": 40
+      },
+      {
+        "personId": "Adeniran, Samuel",
+        "targetId": "University of Lagos African Cluster Centre (LACC)",
+        "count": 40
+      },
+      {
+        "personId": "Anyanwu, Beatrice",
+        "targetId": "University of Lagos African Cluster Centre (LACC)",
+        "count": 40
+      },
+      {
+        "personId": "Akintola, Folashade",
+        "targetId": "University of Lagos African Cluster Centre (LACC)",
+        "count": 40
+      },
+      {
+        "personId": "Olukuade, Tomide",
+        "targetId": "University of Lagos African Cluster Centre (LACC)",
+        "count": 40
+      },
+      {
+        "personId": "Ademola, Lydia",
+        "targetId": "University of Lagos African Cluster Centre (LACC)",
+        "count": 40
+      },
+      {
+        "personId": "Attoh, Franca",
+        "targetId": "Ouagadougou Kingdom",
+        "count": 1
+      },
+      {
+        "personId": "Samandin, Naaba",
+        "targetId": "Ouagadougou Kingdom",
+        "count": 1
+      },
+      {
+        "personId": "Attoh, Franca",
+        "targetId": "Ministry of Public Service of Burkina Faso",
+        "count": 1
+      },
+      {
+        "personId": "Diallo, Mamadou",
+        "targetId": "Ministry of Public Service of Burkina Faso",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Nigeria",

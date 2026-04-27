@@ -49,6 +49,52 @@
       "value": 3
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Manuscripts",
+      "Early modern, 1500-1700",
+      "Literature",
+      "Africa",
+      "Maps"
+    ],
+    "matrix": [
+      [
+        0,
+        3,
+        3,
+        3,
+        3
+      ],
+      [
+        3,
+        0,
+        3,
+        3,
+        3
+      ],
+      [
+        3,
+        3,
+        0,
+        3,
+        3
+      ],
+      [
+        3,
+        3,
+        3,
+        0,
+        3
+      ],
+      [
+        3,
+        3,
+        3,
+        3,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Manuscripts",

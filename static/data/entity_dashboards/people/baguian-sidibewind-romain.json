@@ -150,6 +150,223 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [],
+    "matrix": []
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Nabaloum, Abdoulassé",
+        "name": "Nabaloum, Abdoulassé",
+        "itemCount": 1
+      },
+      {
+        "id": "Toe, Celestin",
+        "name": "Toe, Celestin",
+        "itemCount": 1
+      },
+      {
+        "id": "Drabo, Manessour",
+        "name": "Drabo, Manessour",
+        "itemCount": 1
+      },
+      {
+        "id": "Soudré, Robert",
+        "name": "Soudré, Robert",
+        "itemCount": 1
+      },
+      {
+        "id": "Samadoulougou, Sotissi Benoit Césaire",
+        "name": "Samadoulougou, Sotissi Benoit Césaire",
+        "itemCount": 1
+      },
+      {
+        "id": "Zoma, Tihamen",
+        "name": "Zoma, Tihamen",
+        "itemCount": 1
+      },
+      {
+        "id": "Banhoro, Yacouba",
+        "name": "Banhoro, Yacouba",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa",
+        "itemCount": 7
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Nabaloum, Abdoulassé",
+        "targetId": "UJKZ_GLOBHEALTH2020",
+        "count": 1
+      },
+      {
+        "personId": "Toe, Celestin",
+        "targetId": "UJKZ_GLOBHEALTH2020",
+        "count": 1
+      },
+      {
+        "personId": "Drabo, Manessour",
+        "targetId": "UJKZ_GLOBHEALTH2020",
+        "count": 1
+      },
+      {
+        "personId": "Soudré, Robert",
+        "targetId": "UJKZ_GLOBHEALTH2020",
+        "count": 1
+      },
+      {
+        "personId": "Samadoulougou, Sotissi Benoit Césaire",
+        "targetId": "UJKZ_GLOBHEALTH2020",
+        "count": 1
+      },
+      {
+        "personId": "Zoma, Tihamen",
+        "targetId": "UJKZ_GLOBHEALTH2020",
+        "count": 1
+      },
+      {
+        "personId": "Banhoro, Yacouba",
+        "targetId": "UJKZ_GLOBHEALTH2020",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Nabaloum, Abdoulassé",
+        "name": "Nabaloum, Abdoulassé",
+        "itemCount": 2
+      },
+      {
+        "id": "Toe, Celestin",
+        "name": "Toe, Celestin",
+        "itemCount": 2
+      },
+      {
+        "id": "Drabo, Manessour",
+        "name": "Drabo, Manessour",
+        "itemCount": 2
+      },
+      {
+        "id": "Soudré, Robert",
+        "name": "Soudré, Robert",
+        "itemCount": 2
+      },
+      {
+        "id": "Samadoulougou, Sotissi Benoit Césaire",
+        "name": "Samadoulougou, Sotissi Benoit Césaire",
+        "itemCount": 2
+      },
+      {
+        "id": "Zoma, Tihamen",
+        "name": "Zoma, Tihamen",
+        "itemCount": 2
+      },
+      {
+        "id": "Banhoro, Yacouba",
+        "name": "Banhoro, Yacouba",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Université Joseph Ki-Zerbo",
+        "name": "Université Joseph Ki-Zerbo",
+        "itemCount": 7
+      },
+      {
+        "id": "Ministry of Health and Public Hygiene of Burkina Faso",
+        "name": "Ministry of Health and Public Hygiene of Burkina Faso",
+        "itemCount": 3
+      },
+      {
+        "id": "Country Coordinating Mechanism of Burkina Faso",
+        "name": "Country Coordinating Mechanism of Burkina Faso",
+        "itemCount": 2
+      },
+      {
+        "id": "Permanent Secretariat of the National AIDS Council of Burkina Faso",
+        "name": "Permanent Secretariat of the National AIDS Council of Burkina Faso",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Nabaloum, Abdoulassé",
+        "targetId": "Ministry of Health and Public Hygiene of Burkina Faso",
+        "count": 1
+      },
+      {
+        "personId": "Nabaloum, Abdoulassé",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Toe, Celestin",
+        "targetId": "Permanent Secretariat of the National AIDS Council of Burkina Faso",
+        "count": 1
+      },
+      {
+        "personId": "Toe, Celestin",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Drabo, Manessour",
+        "targetId": "Country Coordinating Mechanism of Burkina Faso",
+        "count": 1
+      },
+      {
+        "personId": "Drabo, Manessour",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Soudré, Robert",
+        "targetId": "Ministry of Health and Public Hygiene of Burkina Faso",
+        "count": 1
+      },
+      {
+        "personId": "Soudré, Robert",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Samadoulougou, Sotissi Benoit Césaire",
+        "targetId": "Country Coordinating Mechanism of Burkina Faso",
+        "count": 1
+      },
+      {
+        "personId": "Samadoulougou, Sotissi Benoit Césaire",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Zoma, Tihamen",
+        "targetId": "Ministry of Health and Public Hygiene of Burkina Faso",
+        "count": 1
+      },
+      {
+        "personId": "Zoma, Tihamen",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Banhoro, Yacouba",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Burkina Faso",

@@ -151,6 +151,52 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "West Africa",
+      "Livestock",
+      "Prices",
+      "Travel",
+      "Education"
+    ],
+    "matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        3,
+        3
+      ],
+      [
+        0,
+        3,
+        0,
+        3,
+        3
+      ],
+      [
+        0,
+        3,
+        3,
+        0,
+        3
+      ],
+      [
+        0,
+        3,
+        3,
+        3,
+        2
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "West Africa",

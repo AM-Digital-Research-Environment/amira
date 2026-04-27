@@ -167,6 +167,563 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [
+      "Taylor, Adolphus",
+      "Fakay, Soko",
+      "Wegee, Presley",
+      "Gilbert, Thomas"
+    ],
+    "matrix": [
+      [
+        0,
+        2,
+        2,
+        2
+      ],
+      [
+        2,
+        0,
+        2,
+        2
+      ],
+      [
+        2,
+        2,
+        0,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Taylor, Adolphus",
+        "name": "Taylor, Adolphus",
+        "itemCount": 2
+      },
+      {
+        "id": "Fakay, Soko",
+        "name": "Fakay, Soko",
+        "itemCount": 2
+      },
+      {
+        "id": "Wegee, Presley",
+        "name": "Wegee, Presley",
+        "itemCount": 2
+      },
+      {
+        "id": "Gilbert, Thomas",
+        "name": "Gilbert, Thomas",
+        "itemCount": 2
+      },
+      {
+        "id": "Johnson, J. C. Jr.",
+        "name": "Johnson, J. C. Jr.",
+        "itemCount": 1
+      },
+      {
+        "id": "Reeves, Roaslind A.",
+        "name": "Reeves, Roaslind A.",
+        "itemCount": 1
+      },
+      {
+        "id": "Ricks, Francia",
+        "name": "Ricks, Francia",
+        "itemCount": 1
+      },
+      {
+        "id": "Kear, Ruth",
+        "name": "Kear, Ruth",
+        "itemCount": 1
+      },
+      {
+        "id": "Wessehutes, Jimmy",
+        "name": "Wessehutes, Jimmy",
+        "itemCount": 1
+      },
+      {
+        "id": "McCrumada, Charles",
+        "name": "McCrumada, Charles",
+        "itemCount": 1
+      },
+      {
+        "id": "Lombeh, Francis",
+        "name": "Lombeh, Francis",
+        "itemCount": 1
+      },
+      {
+        "id": "Mensah, Sam",
+        "name": "Mensah, Sam",
+        "itemCount": 1
+      },
+      {
+        "id": "Eastman, John",
+        "name": "Eastman, John",
+        "itemCount": 1
+      },
+      {
+        "id": "Barh, S. Benson",
+        "name": "Barh, S. Benson",
+        "itemCount": 1
+      },
+      {
+        "id": "Belleh, Martha Sandolo",
+        "name": "Belleh, Martha Sandolo",
+        "itemCount": 1
+      },
+      {
+        "id": "Bailey, Joseph",
+        "name": "Bailey, Joseph",
+        "itemCount": 1
+      },
+      {
+        "id": "Giddens, James A.",
+        "name": "Giddens, James A.",
+        "itemCount": 1
+      },
+      {
+        "id": "Davies, Josephine H.",
+        "name": "Davies, Josephine H.",
+        "itemCount": 1
+      },
+      {
+        "id": "Dennis, John L.",
+        "name": "Dennis, John L.",
+        "itemCount": 1
+      },
+      {
+        "id": "Urey, Khrushchev Borbor",
+        "name": "Urey, Khrushchev Borbor",
+        "itemCount": 1
+      },
+      {
+        "id": "Adam, Maulana Abdul Wahab",
+        "name": "Adam, Maulana Abdul Wahab",
+        "itemCount": 1
+      },
+      {
+        "id": "Abrashev, Bojidar",
+        "name": "Abrashev, Bojidar",
+        "itemCount": 1
+      },
+      {
+        "id": "Sárközy, Endre",
+        "name": "Sárközy, Endre",
+        "itemCount": 1
+      },
+      {
+        "id": "Blamoh, Gregory T.",
+        "name": "Blamoh, Gregory T.",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System",
+        "itemCount": 5
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Johnson, J. C. Jr.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Reeves, Roaslind A.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Ricks, Francia",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Kear, Ruth",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Wessehutes, Jimmy",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Taylor, Adolphus",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 2
+      },
+      {
+        "personId": "McCrumada, Charles",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Fakay, Soko",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 2
+      },
+      {
+        "personId": "Wegee, Presley",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 2
+      },
+      {
+        "personId": "Lombeh, Francis",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Mensah, Sam",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Eastman, John",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Gilbert, Thomas",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 2
+      },
+      {
+        "personId": "Barh, S. Benson",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Belleh, Martha Sandolo",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Bailey, Joseph",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Giddens, James A.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Davies, Josephine H.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Dennis, John L.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Urey, Khrushchev Borbor",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Adam, Maulana Abdul Wahab",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Abrashev, Bojidar",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Sárközy, Endre",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Blamoh, Gregory T.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Taylor, Adolphus",
+        "name": "Taylor, Adolphus",
+        "itemCount": 2
+      },
+      {
+        "id": "Fakay, Soko",
+        "name": "Fakay, Soko",
+        "itemCount": 2
+      },
+      {
+        "id": "Wegee, Presley",
+        "name": "Wegee, Presley",
+        "itemCount": 2
+      },
+      {
+        "id": "Gilbert, Thomas",
+        "name": "Gilbert, Thomas",
+        "itemCount": 2
+      },
+      {
+        "id": "Johnson, J. C. Jr.",
+        "name": "Johnson, J. C. Jr.",
+        "itemCount": 1
+      },
+      {
+        "id": "Reeves, Roaslind A.",
+        "name": "Reeves, Roaslind A.",
+        "itemCount": 1
+      },
+      {
+        "id": "Ricks, Francia",
+        "name": "Ricks, Francia",
+        "itemCount": 1
+      },
+      {
+        "id": "Kear, Ruth",
+        "name": "Kear, Ruth",
+        "itemCount": 1
+      },
+      {
+        "id": "Wessehutes, Jimmy",
+        "name": "Wessehutes, Jimmy",
+        "itemCount": 1
+      },
+      {
+        "id": "McCrumada, Charles",
+        "name": "McCrumada, Charles",
+        "itemCount": 1
+      },
+      {
+        "id": "Lombeh, Francis",
+        "name": "Lombeh, Francis",
+        "itemCount": 1
+      },
+      {
+        "id": "Mensah, Sam",
+        "name": "Mensah, Sam",
+        "itemCount": 1
+      },
+      {
+        "id": "Eastman, John",
+        "name": "Eastman, John",
+        "itemCount": 1
+      },
+      {
+        "id": "Barh, S. Benson",
+        "name": "Barh, S. Benson",
+        "itemCount": 1
+      },
+      {
+        "id": "Belleh, Martha Sandolo",
+        "name": "Belleh, Martha Sandolo",
+        "itemCount": 1
+      },
+      {
+        "id": "Bailey, Joseph",
+        "name": "Bailey, Joseph",
+        "itemCount": 1
+      },
+      {
+        "id": "Giddens, James A.",
+        "name": "Giddens, James A.",
+        "itemCount": 1
+      },
+      {
+        "id": "Davies, Josephine H.",
+        "name": "Davies, Josephine H.",
+        "itemCount": 1
+      },
+      {
+        "id": "Dennis, John L.",
+        "name": "Dennis, John L.",
+        "itemCount": 1
+      },
+      {
+        "id": "Urey, Khrushchev Borbor",
+        "name": "Urey, Khrushchev Borbor",
+        "itemCount": 1
+      },
+      {
+        "id": "Adam, Maulana Abdul Wahab",
+        "name": "Adam, Maulana Abdul Wahab",
+        "itemCount": 1
+      },
+      {
+        "id": "Abrashev, Bojidar",
+        "name": "Abrashev, Bojidar",
+        "itemCount": 1
+      },
+      {
+        "id": "Sárközy, Endre",
+        "name": "Sárközy, Endre",
+        "itemCount": 1
+      },
+      {
+        "id": "Blamoh, Gregory T.",
+        "name": "Blamoh, Gregory T.",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Liberia Broadcasting System (LBS)",
+        "name": "Liberia Broadcasting System (LBS)",
+        "itemCount": 2
+      },
+      {
+        "id": "Ministry of Health and Social Welfare, Liberia",
+        "name": "Ministry of Health and Social Welfare, Liberia",
+        "itemCount": 1
+      },
+      {
+        "id": "Ahmadiyya Muslim Community of Ghana",
+        "name": "Ahmadiyya Muslim Community of Ghana",
+        "itemCount": 1
+      },
+      {
+        "id": "Liberian Red Cross Society",
+        "name": "Liberian Red Cross Society",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Johnson, J. C. Jr.",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Reeves, Roaslind A.",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Ricks, Francia",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Kear, Ruth",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Wessehutes, Jimmy",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Taylor, Adolphus",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 2
+      },
+      {
+        "personId": "McCrumada, Charles",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Fakay, Soko",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 2
+      },
+      {
+        "personId": "Wegee, Presley",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 2
+      },
+      {
+        "personId": "Lombeh, Francis",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Mensah, Sam",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Eastman, John",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Gilbert, Thomas",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 2
+      },
+      {
+        "personId": "Barh, S. Benson",
+        "targetId": "Ministry of Health and Social Welfare, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Belleh, Martha Sandolo",
+        "targetId": "Ministry of Health and Social Welfare, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Bailey, Joseph",
+        "targetId": "Ministry of Health and Social Welfare, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Giddens, James A.",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Davies, Josephine H.",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Dennis, John L.",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Urey, Khrushchev Borbor",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Adam, Maulana Abdul Wahab",
+        "targetId": "Ahmadiyya Muslim Community of Ghana",
+        "count": 1
+      },
+      {
+        "personId": "Abrashev, Bojidar",
+        "targetId": "Liberian Red Cross Society",
+        "count": 1
+      },
+      {
+        "personId": "Sárközy, Endre",
+        "targetId": "Liberian Red Cross Society",
+        "count": 1
+      },
+      {
+        "personId": "Blamoh, Gregory T.",
+        "targetId": "Liberian Red Cross Society",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Liberia",

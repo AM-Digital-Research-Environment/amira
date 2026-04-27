@@ -42,6 +42,91 @@
       }
     }
   ],
+  "languageTimeline": [
+    {
+      "year": 2020,
+      "byCategory": {
+        "English": 6,
+        "Mongolian": 0,
+        "Swahili": 2,
+        "Maasai": 0,
+        "French": 1,
+        "Spanish": 1,
+        "Catalan": 1,
+        "Samburu": 0,
+        "Herero": 0
+      }
+    },
+    {
+      "year": 2021,
+      "byCategory": {
+        "English": 17,
+        "Mongolian": 4,
+        "Swahili": 2,
+        "Maasai": 2,
+        "French": 0,
+        "Spanish": 0,
+        "Catalan": 0,
+        "Samburu": 0,
+        "Herero": 0
+      }
+    },
+    {
+      "year": 2022,
+      "byCategory": {
+        "English": 13,
+        "Mongolian": 1,
+        "Swahili": 0,
+        "Maasai": 1,
+        "French": 1,
+        "Spanish": 0,
+        "Catalan": 0,
+        "Samburu": 1,
+        "Herero": 1
+      }
+    }
+  ],
+  "subjectTrends": [
+    {
+      "year": 2020,
+      "byCategory": {
+        "Arid regions": 3,
+        "Herders": 2,
+        "Livestock": 4,
+        "Vaccination": 1,
+        "Travel": 1,
+        "East Africa": 2,
+        "Maasai (African people)": 2,
+        "Food security": 2
+      }
+    },
+    {
+      "year": 2021,
+      "byCategory": {
+        "Arid regions": 13,
+        "Herders": 12,
+        "Livestock": 8,
+        "Vaccination": 7,
+        "Travel": 5,
+        "East Africa": 6,
+        "Maasai (African people)": 5,
+        "Food security": 6
+      }
+    },
+    {
+      "year": 2022,
+      "byCategory": {
+        "Arid regions": 9,
+        "Herders": 4,
+        "Livestock": 5,
+        "Vaccination": 6,
+        "Travel": 5,
+        "East Africa": 3,
+        "Maasai (African people)": 3,
+        "Food security": 1
+      }
+    }
+  ],
   "types": [
     {
       "name": "Text",
@@ -957,6 +1042,318 @@
       ]
     }
   ],
+  "treemap": [
+    {
+      "name": "Text",
+      "children": [
+        {
+          "name": "English",
+          "children": [
+            {
+              "name": "Arid regions",
+              "value": 25,
+              "children": []
+            },
+            {
+              "name": "Herders",
+              "value": 19,
+              "children": []
+            },
+            {
+              "name": "Livestock",
+              "value": 16,
+              "children": []
+            },
+            {
+              "name": "Vaccination",
+              "value": 14,
+              "children": []
+            },
+            {
+              "name": "East Africa",
+              "value": 11,
+              "children": []
+            },
+            {
+              "name": "Travel",
+              "value": 11,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Swahili",
+          "children": [
+            {
+              "name": "Arid regions",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "Maasai (African people)",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "Food security",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "East Africa",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "Livestock",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Sustainable tourism",
+              "value": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Spanish",
+          "children": [
+            {
+              "name": "Arid regions",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Maasai (African people)",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Food security",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Livestock",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "East Africa",
+              "value": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Catalan",
+          "children": [
+            {
+              "name": "Arid regions",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Maasai (African people)",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Food security",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Livestock",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "East Africa",
+              "value": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Samburu",
+          "children": [
+            {
+              "name": "Diseases",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Samburu (African people)",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Vaccination",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Schools",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Herders",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Livestock",
+              "value": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Mongolian",
+          "children": [
+            {
+              "name": "Herders",
+              "value": 5,
+              "children": []
+            },
+            {
+              "name": "Livestock",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "Schools",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "Travel",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "Arid regions",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "Disasters",
+              "value": 3,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Maasai",
+          "children": [
+            {
+              "name": "Arid regions",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "Maasai (African people)",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "East Africa",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "Vaccination",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Sustainable tourism",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Livestock",
+              "value": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Herero",
+          "children": [
+            {
+              "name": "Arid regions",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Tourism",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Vaccination",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Religious leaders",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Mass media",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Households",
+              "value": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "French",
+          "children": [
+            {
+              "name": "Education",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "Mass media",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Travel",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Prices",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Livestock",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Medical care",
+              "value": 2,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "sankey": {
     "nodes": [
       {
@@ -1794,6 +2191,1411 @@
       ]
     ]
   },
+  "timeAwareChord": {
+    "buckets": [
+      {
+        "year": 2020,
+        "names": [
+          "Arid regions",
+          "Herders",
+          "Livestock",
+          "Vaccination",
+          "East Africa",
+          "Travel",
+          "Maasai (African people)",
+          "Food security",
+          "Schools",
+          "Tourism",
+          "Education",
+          "Prices",
+          "Households",
+          "Mass media",
+          "Disasters",
+          "Weather",
+          "Local government",
+          "Diseases",
+          "Agriculture",
+          "Elections"
+        ],
+        "matrix": [
+          [
+            0,
+            2,
+            3,
+            1,
+            2,
+            0,
+            2,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            2,
+            0,
+            1
+          ],
+          [
+            2,
+            0,
+            2,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            2,
+            0,
+            1
+          ],
+          [
+            3,
+            2,
+            0,
+            1,
+            2,
+            1,
+            2,
+            1,
+            0,
+            2,
+            2,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            2,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          [
+            2,
+            1,
+            2,
+            0,
+            0,
+            0,
+            2,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            1,
+            2,
+            0,
+            2,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            2,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            2,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            2,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            2,
+            2,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            2,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "year": 2021,
+        "names": [
+          "Arid regions",
+          "Herders",
+          "Livestock",
+          "Vaccination",
+          "East Africa",
+          "Travel",
+          "Maasai (African people)",
+          "Food security",
+          "Schools",
+          "Tourism",
+          "Education",
+          "Prices",
+          "Households",
+          "Mass media",
+          "Disasters",
+          "Weather",
+          "Local government",
+          "Diseases",
+          "Agriculture",
+          "Elections"
+        ],
+        "matrix": [
+          [
+            0,
+            12,
+            9,
+            4,
+            8,
+            3,
+            7,
+            5,
+            5,
+            4,
+            2,
+            1,
+            1,
+            0,
+            4,
+            3,
+            4,
+            2,
+            2,
+            1
+          ],
+          [
+            12,
+            0,
+            9,
+            5,
+            5,
+            3,
+            4,
+            5,
+            6,
+            4,
+            2,
+            1,
+            0,
+            0,
+            3,
+            3,
+            4,
+            2,
+            2,
+            1
+          ],
+          [
+            9,
+            9,
+            0,
+            5,
+            5,
+            4,
+            5,
+            4,
+            3,
+            3,
+            4,
+            1,
+            0,
+            1,
+            3,
+            1,
+            2,
+            2,
+            1,
+            1
+          ],
+          [
+            4,
+            5,
+            5,
+            0,
+            2,
+            2,
+            2,
+            2,
+            3,
+            2,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          [
+            8,
+            5,
+            5,
+            2,
+            0,
+            1,
+            7,
+            2,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            3,
+            3,
+            4,
+            2,
+            1,
+            0,
+            1,
+            3,
+            1,
+            0,
+            2,
+            1,
+            1,
+            1,
+            2,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            7,
+            4,
+            5,
+            2,
+            7,
+            1,
+            0,
+            2,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            5,
+            5,
+            4,
+            2,
+            2,
+            3,
+            2,
+            0,
+            4,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            2,
+            3,
+            0,
+            1,
+            0
+          ],
+          [
+            5,
+            6,
+            3,
+            3,
+            0,
+            1,
+            0,
+            4,
+            0,
+            0,
+            2,
+            1,
+            0,
+            0,
+            1,
+            3,
+            3,
+            0,
+            2,
+            0
+          ],
+          [
+            4,
+            4,
+            3,
+            2,
+            3,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            2,
+            0,
+            1
+          ],
+          [
+            2,
+            2,
+            4,
+            1,
+            0,
+            2,
+            0,
+            0,
+            2,
+            0,
+            2,
+            2,
+            0,
+            2,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            2,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            3,
+            3,
+            1,
+            0,
+            2,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            2,
+            1,
+            1,
+            1
+          ],
+          [
+            3,
+            3,
+            1,
+            0,
+            0,
+            0,
+            0,
+            2,
+            3,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            3,
+            0,
+            2,
+            0
+          ],
+          [
+            4,
+            4,
+            2,
+            0,
+            0,
+            1,
+            0,
+            3,
+            3,
+            0,
+            1,
+            1,
+            0,
+            0,
+            2,
+            3,
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            2,
+            2,
+            2,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            2,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            2,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            2,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "year": 2022,
+        "names": [
+          "Arid regions",
+          "Herders",
+          "Livestock",
+          "Vaccination",
+          "East Africa",
+          "Travel",
+          "Maasai (African people)",
+          "Food security",
+          "Schools",
+          "Tourism",
+          "Education",
+          "Prices",
+          "Households",
+          "Mass media",
+          "Disasters",
+          "Weather",
+          "Local government",
+          "Diseases",
+          "Agriculture",
+          "Elections"
+        ],
+        "matrix": [
+          [
+            0,
+            13,
+            11,
+            7,
+            11,
+            6,
+            10,
+            5,
+            5,
+            8,
+            2,
+            4,
+            4,
+            1,
+            4,
+            4,
+            4,
+            2,
+            3,
+            1
+          ],
+          [
+            13,
+            0,
+            11,
+            8,
+            5,
+            4,
+            4,
+            6,
+            8,
+            4,
+            4,
+            1,
+            0,
+            0,
+            3,
+            3,
+            4,
+            3,
+            2,
+            3
+          ],
+          [
+            11,
+            11,
+            0,
+            8,
+            5,
+            7,
+            6,
+            5,
+            4,
+            4,
+            6,
+            4,
+            0,
+            2,
+            3,
+            2,
+            2,
+            3,
+            1,
+            2
+          ],
+          [
+            7,
+            8,
+            8,
+            0,
+            3,
+            4,
+            4,
+            3,
+            5,
+            4,
+            3,
+            1,
+            3,
+            1,
+            1,
+            0,
+            0,
+            2,
+            0,
+            3
+          ],
+          [
+            11,
+            5,
+            5,
+            3,
+            0,
+            1,
+            9,
+            2,
+            0,
+            4,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          [
+            6,
+            4,
+            7,
+            4,
+            1,
+            0,
+            2,
+            3,
+            1,
+            2,
+            4,
+            4,
+            2,
+            2,
+            2,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          [
+            10,
+            4,
+            6,
+            4,
+            9,
+            2,
+            0,
+            2,
+            0,
+            5,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            5,
+            6,
+            5,
+            3,
+            2,
+            3,
+            2,
+            0,
+            5,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            2,
+            3,
+            1,
+            1,
+            0
+          ],
+          [
+            5,
+            8,
+            4,
+            5,
+            0,
+            1,
+            0,
+            5,
+            0,
+            0,
+            3,
+            1,
+            0,
+            0,
+            1,
+            3,
+            3,
+            1,
+            2,
+            1
+          ],
+          [
+            8,
+            4,
+            4,
+            4,
+            4,
+            2,
+            5,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            2,
+            0,
+            1
+          ],
+          [
+            2,
+            4,
+            6,
+            3,
+            0,
+            4,
+            0,
+            0,
+            3,
+            0,
+            2,
+            3,
+            0,
+            3,
+            1,
+            1,
+            1,
+            0,
+            1,
+            2
+          ],
+          [
+            4,
+            1,
+            4,
+            1,
+            0,
+            4,
+            1,
+            1,
+            1,
+            1,
+            3,
+            0,
+            1,
+            2,
+            0,
+            2,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            3,
+            1,
+            2,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            2,
+            1,
+            0,
+            2,
+            0,
+            1,
+            0,
+            1,
+            3,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            3,
+            3,
+            1,
+            0,
+            2,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            2,
+            1,
+            1,
+            1
+          ],
+          [
+            4,
+            3,
+            2,
+            0,
+            0,
+            0,
+            0,
+            2,
+            3,
+            0,
+            1,
+            2,
+            0,
+            0,
+            1,
+            0,
+            3,
+            0,
+            2,
+            0
+          ],
+          [
+            4,
+            4,
+            2,
+            0,
+            0,
+            1,
+            0,
+            3,
+            3,
+            0,
+            1,
+            1,
+            0,
+            0,
+            2,
+            3,
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            2,
+            3,
+            3,
+            2,
+            1,
+            0,
+            1,
+            1,
+            1,
+            2,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            3,
+            2,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            2,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            2,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            3,
+            2,
+            3,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            2,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ]
+        ]
+      }
+    ]
+  },
   "contributors": [
     {
       "name": "Kronenburg García, Angela",
@@ -1876,6 +3678,737 @@
       "value": 3
     }
   ],
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "calendarHeatmap": [
+    {
+      "date": "2022-01-05",
+      "value": 1
+    }
+  ],
+  "geoFlows": {
+    "flows": [
+      {
+        "from": {
+          "lng": 100.68333,
+          "lat": 46.1,
+          "label": "Bayankhongor Province"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 9
+      },
+      {
+        "from": {
+          "lng": 35.1,
+          "lat": -1.5,
+          "label": "Maasai Mara National Reserve"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 8
+      },
+      {
+        "from": {
+          "lng": 103.55,
+          "lat": 48.8,
+          "label": "Bulgan Province"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 6
+      },
+      {
+        "from": {
+          "lng": 35.75,
+          "lat": -1.55,
+          "label": "Mpuaai"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 5
+      },
+      {
+        "from": {
+          "lng": 35.09686,
+          "lat": -1.41413,
+          "label": "Talek"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 5
+      },
+      {
+        "from": {
+          "lng": 34.85389,
+          "lat": -6.30694,
+          "label": "Tanzania"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 4
+      },
+      {
+        "from": {
+          "lng": 106.90551,
+          "lat": 47.92136,
+          "label": "Ulaanbaatar"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 3
+      },
+      {
+        "from": {
+          "lng": 24.0,
+          "lat": -29.0,
+          "label": "South Africa"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 3
+      },
+      {
+        "from": {
+          "lng": 35.79325,
+          "lat": -1.59769,
+          "label": "Loita Hills"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 2
+      },
+      {
+        "from": {
+          "lng": 104.71667,
+          "lat": 45.21667,
+          "label": "Delgerhan Soum"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 2
+      },
+      {
+        "from": {
+          "lng": 103.45194,
+          "lat": 35.84472,
+          "label": "China"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 2
+      },
+      {
+        "from": {
+          "lng": -2.76129,
+          "lat": 10.85204,
+          "label": "Nandom"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 2
+      },
+      {
+        "from": {
+          "lng": 103.54889,
+          "lat": 46.60972,
+          "label": "Ulziit Soum"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 2
+      },
+      {
+        "from": {
+          "lng": 104.58504,
+          "lat": 46.59096,
+          "label": "Delgerkhaan Soum"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 2
+      },
+      {
+        "from": {
+          "lng": 103.42924,
+          "lat": 48.29039,
+          "label": "Khishig-Öndör Soum"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 2
+      },
+      {
+        "from": {
+          "lng": 105.0,
+          "lat": 46.0,
+          "label": "Mongolia"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 2
+      },
+      {
+        "from": {
+          "lng": 37.68,
+          "lat": 0.65,
+          "label": "Archers Post"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 1
+      },
+      {
+        "from": {
+          "lng": 37.58333,
+          "lat": 0.35,
+          "label": "Isiolo"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 1
+      },
+      {
+        "from": {
+          "lng": 101.51889,
+          "lat": 50.53833,
+          "label": "Tsagaan-Üür"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 1
+      },
+      {
+        "from": {
+          "lng": 32.39,
+          "lat": 1.28,
+          "label": "Uganda"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 1
+      },
+      {
+        "from": {
+          "lng": 35.61667,
+          "lat": -2.05,
+          "label": "Loliondo"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 1
+      },
+      {
+        "from": {
+          "lng": 35.51667,
+          "lat": -3.25,
+          "label": "Ngorongoro"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 1
+      },
+      {
+        "from": {
+          "lng": 13.83333,
+          "lat": -20.05,
+          "label": "Anabeb Conservancy"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 1
+      },
+      {
+        "from": {
+          "lng": 13.617,
+          "lat": -19.133,
+          "label": "Sesfontein Conservancy"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 1
+      },
+      {
+        "from": {
+          "lng": 35.0,
+          "lat": 31.0,
+          "label": "Israel"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 1
+      },
+      {
+        "from": {
+          "lng": 14.50694,
+          "lat": -22.94944,
+          "label": "Walvis Bay"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 1
+      },
+      {
+        "from": {
+          "lng": 12.3,
+          "lat": 0.4,
+          "label": "Ivindu"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 1
+      },
+      {
+        "from": {
+          "lng": 17.08361,
+          "lat": -22.57,
+          "label": "Windhoek"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 1
+      },
+      {
+        "from": {
+          "lng": 35.0,
+          "lat": -19.0,
+          "label": "Mozambique"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 1
+      },
+      {
+        "from": {
+          "lng": 28.0,
+          "lat": -14.0,
+          "label": "Zambia"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 1
+      },
+      {
+        "from": {
+          "lng": 30.0,
+          "lat": -19.0,
+          "label": "Zimbabwe"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 1
+      },
+      {
+        "from": {
+          "lng": -1.0232,
+          "lat": 7.9465,
+          "label": "Ghana"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 1
+      },
+      {
+        "from": {
+          "lng": 35.66667,
+          "lat": -1.5,
+          "label": "Loita Naimina Enkiyio Forest"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 1
+      },
+      {
+        "from": {
+          "lng": 35.85,
+          "lat": -1.85,
+          "label": "Entasekera"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 1
+      },
+      {
+        "from": {
+          "lng": 38.0,
+          "lat": 0.1,
+          "label": "Kenya"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 1
+      },
+      {
+        "from": {
+          "lng": 37.567,
+          "lat": -6.433,
+          "label": "Dakawa"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 1
+      },
+      {
+        "from": {
+          "lng": 37.66111,
+          "lat": -6.82111,
+          "label": "Morogoro City"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 1
+      },
+      {
+        "from": {
+          "lng": 37.36628,
+          "lat": 3.11705,
+          "label": "Kalacha"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 1
+      },
+      {
+        "from": {
+          "lng": 96.25,
+          "lat": 48.0,
+          "label": "Zavkhan Province"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 1
+      },
+      {
+        "from": {
+          "lng": 110.5,
+          "lat": 48.0,
+          "label": "Khentii Province"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 1
+      },
+      {
+        "from": {
+          "lng": 101.97389,
+          "lat": 47.79222,
+          "label": "Battsengel Soum"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 1
+      },
+      {
+        "from": {
+          "lng": 113.12521,
+          "lat": 48.44001,
+          "label": "Tsagaan-Ovoo Soum"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 1
+      },
+      {
+        "from": {
+          "lng": 113.28333,
+          "lat": 46.68333,
+          "label": "Sükhbaatar Province"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 1
+      },
+      {
+        "from": {
+          "lng": 96.0,
+          "lat": 45.5,
+          "label": "Govi-Altai Province"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 1
+      },
+      {
+        "from": {
+          "lng": 94.25,
+          "lat": 66.41667,
+          "label": "Russia"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 1
+      },
+      {
+        "from": {
+          "lng": 89.5,
+          "lat": 48.3,
+          "label": "Bayan-Ölgii Province"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 1
+      },
+      {
+        "from": {
+          "lng": 36.55,
+          "lat": -1.65,
+          "label": "Olepolos"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 1
+      },
+      {
+        "from": {
+          "lng": 32.0,
+          "lat": 15.0,
+          "label": "Sudan"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 1
+      },
+      {
+        "from": {
+          "lng": -16.78,
+          "lat": 14.53,
+          "label": "Ndengler (Dingler)"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 1
+      },
+      {
+        "from": {
+          "lng": -16.21667,
+          "lat": 12.78333,
+          "label": "Ziguinchor"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 1
+      },
+      {
+        "from": {
+          "lng": 35.69,
+          "lat": -7.77,
+          "label": "Iringa"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 1
+      },
+      {
+        "from": {
+          "lng": 32.776,
+          "lat": -26.548,
+          "label": "Maputo National Park"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 1
+      },
+      {
+        "from": {
+          "lng": 32.05,
+          "lat": -26.6,
+          "label": "Lubombo Transfrontier Conservation and Resource Area"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 1
+      },
+      {
+        "from": {
+          "lng": 32.888,
+          "lat": -26.849,
+          "label": "Ponta do Ouro"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 1
+      },
+      {
+        "from": {
+          "lng": -14.28333,
+          "lat": 14.36667,
+          "label": "Senegal"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 1
+      }
+    ]
+  },
   "locations": [
     {
       "country": "Kenya",

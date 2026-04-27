@@ -80,6 +80,30 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Art",
+      "Africa",
+      "Invitation cards"
+    ],
+    "matrix": [
+      [
+        0,
+        3,
+        3
+      ],
+      [
+        3,
+        0,
+        3
+      ],
+      [
+        3,
+        3,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Art",

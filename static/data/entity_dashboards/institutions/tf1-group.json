@@ -60,6 +60,76 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Saint-Paul, Gerard",
+        "name": "Saint-Paul, Gerard",
+        "itemCount": 1
+      },
+      {
+        "id": "Dupuy, Arnaud",
+        "name": "Dupuy, Arnaud",
+        "itemCount": 1
+      },
+      {
+        "id": "Watine, Pierre",
+        "name": "Watine, Pierre",
+        "itemCount": 1
+      },
+      {
+        "id": "Aubert, Bernard",
+        "name": "Aubert, Bernard",
+        "itemCount": 1
+      },
+      {
+        "id": "Lamb, M.",
+        "name": "Lamb, M.",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Saint-Paul, Gerard",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Dupuy, Arnaud",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Watine, Pierre",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Aubert, Bernard",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Lamb, M.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
   "locations": [
     {
       "country": "Liberia",

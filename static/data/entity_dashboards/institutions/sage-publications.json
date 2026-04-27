@@ -96,6 +96,79 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Clark, Ebun",
+        "name": "Clark, Ebun",
+        "itemCount": 1
+      },
+      {
+        "id": "Harber, Eric",
+        "name": "Harber, Eric",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Clark, Ebun",
+        "targetId": "UBT_TravKnowl2019",
+        "count": 1
+      },
+      {
+        "personId": "Harber, Eric",
+        "targetId": "UBT_TravKnowl2019",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Clark, Ebun",
+        "name": "Clark, Ebun",
+        "itemCount": 1
+      },
+      {
+        "id": "Harber, Eric",
+        "name": "Harber, Eric",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Lagos",
+        "name": "University of Lagos",
+        "itemCount": 1
+      },
+      {
+        "id": "Rhodes University",
+        "name": "Rhodes University",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Clark, Ebun",
+        "targetId": "University of Lagos",
+        "count": 1
+      },
+      {
+        "personId": "Harber, Eric",
+        "targetId": "Rhodes University",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "United States of America",

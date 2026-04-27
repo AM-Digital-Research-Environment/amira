@@ -85,6 +85,74 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Klein, Bernhard",
+        "name": "Klein, Bernhard",
+        "itemCount": 1
+      },
+      {
+        "id": "Richmond, Barbour",
+        "name": "Richmond, Barbour",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Klein, Bernhard",
+        "targetId": "UBT_TravKnowl2019",
+        "count": 1
+      },
+      {
+        "personId": "Richmond, Barbour",
+        "targetId": "UBT_TravKnowl2019",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Klein, Bernhard",
+        "name": "Klein, Bernhard",
+        "itemCount": 1
+      },
+      {
+        "id": "Richmond, Barbour",
+        "name": "Richmond, Barbour",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Oregon State University",
+        "name": "Oregon State University",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Klein, Bernhard",
+        "targetId": "Oregon State University",
+        "count": 1
+      },
+      {
+        "personId": "Richmond, Barbour",
+        "targetId": "Oregon State University",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "United Kingdom",

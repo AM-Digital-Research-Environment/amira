@@ -93,6 +93,82 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Interior decoration",
+      "Photographs",
+      "Artists",
+      "Art",
+      "Africa",
+      "Wood sculpture, Yoruba",
+      "Sculpture"
+    ],
+    "matrix": [
+      [
+        0,
+        7,
+        5,
+        5,
+        4,
+        3,
+        3
+      ],
+      [
+        7,
+        0,
+        5,
+        5,
+        4,
+        3,
+        3
+      ],
+      [
+        5,
+        5,
+        0,
+        3,
+        4,
+        3,
+        3
+      ],
+      [
+        5,
+        5,
+        3,
+        0,
+        3,
+        3,
+        3
+      ],
+      [
+        4,
+        4,
+        4,
+        3,
+        0,
+        3,
+        3
+      ],
+      [
+        3,
+        3,
+        3,
+        3,
+        3,
+        0,
+        3
+      ],
+      [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Interior decoration",

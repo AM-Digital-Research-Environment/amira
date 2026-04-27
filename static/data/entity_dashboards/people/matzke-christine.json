@@ -75,6 +75,203 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [],
+    "matrix": []
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Heinzl, Manuela",
+        "name": "Heinzl, Manuela",
+        "itemCount": 1
+      },
+      {
+        "id": "Kolade, Christopher",
+        "name": "Kolade, Christopher",
+        "itemCount": 1
+      },
+      {
+        "id": "Balogun, Lekan",
+        "name": "Balogun, Lekan",
+        "itemCount": 1
+      },
+      {
+        "id": "Gibbs, James",
+        "name": "Gibbs, James",
+        "itemCount": 1
+      },
+      {
+        "id": "Omojola, Bode",
+        "name": "Omojola, Bode",
+        "itemCount": 1
+      },
+      {
+        "id": "Ambros, Sabine",
+        "name": "Ambros, Sabine",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango",
+        "itemCount": 4
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Heinzl, Manuela",
+        "targetId": "UBT_TaiSha2021",
+        "count": 1
+      },
+      {
+        "personId": "Kolade, Christopher",
+        "targetId": "UBT_TaiSha2021",
+        "count": 1
+      },
+      {
+        "personId": "Balogun, Lekan",
+        "targetId": "UBT_TaiSha2021",
+        "count": 1
+      },
+      {
+        "personId": "Gibbs, James",
+        "targetId": "UBT_TaiSha2021",
+        "count": 1
+      },
+      {
+        "personId": "Omojola, Bode",
+        "targetId": "UBT_TaiSha2021",
+        "count": 1
+      },
+      {
+        "personId": "Ambros, Sabine",
+        "targetId": "UBT_TaiSha2021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Heinzl, Manuela",
+        "name": "Heinzl, Manuela",
+        "itemCount": 2
+      },
+      {
+        "id": "Kolade, Christopher",
+        "name": "Kolade, Christopher",
+        "itemCount": 2
+      },
+      {
+        "id": "Balogun, Lekan",
+        "name": "Balogun, Lekan",
+        "itemCount": 2
+      },
+      {
+        "id": "Gibbs, James",
+        "name": "Gibbs, James",
+        "itemCount": 2
+      },
+      {
+        "id": "Omojola, Bode",
+        "name": "Omojola, Bode",
+        "itemCount": 2
+      },
+      {
+        "id": "Ambros, Sabine",
+        "name": "Ambros, Sabine",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Bayreuth",
+        "name": "University of Bayreuth",
+        "itemCount": 4
+      },
+      {
+        "id": "Bayrischer Rundfunk",
+        "name": "Bayrischer Rundfunk",
+        "itemCount": 2
+      },
+      {
+        "id": "Nigerian Television Service",
+        "name": "Nigerian Television Service",
+        "itemCount": 1
+      },
+      {
+        "id": "Mount Holyoke College",
+        "name": "Mount Holyoke College",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Heinzl, Manuela",
+        "targetId": "Bayrischer Rundfunk",
+        "count": 1
+      },
+      {
+        "personId": "Heinzl, Manuela",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Kolade, Christopher",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Kolade, Christopher",
+        "targetId": "Nigerian Television Service",
+        "count": 1
+      },
+      {
+        "personId": "Balogun, Lekan",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Gibbs, James",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Omojola, Bode",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Balogun, Lekan",
+        "targetId": "Mount Holyoke College",
+        "count": 1
+      },
+      {
+        "personId": "Gibbs, James",
+        "targetId": "Mount Holyoke College",
+        "count": 1
+      },
+      {
+        "personId": "Omojola, Bode",
+        "targetId": "Mount Holyoke College",
+        "count": 1
+      },
+      {
+        "personId": "Ambros, Sabine",
+        "targetId": "Bayrischer Rundfunk",
+        "count": 1
+      },
+      {
+        "personId": "Ambros, Sabine",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Germany",

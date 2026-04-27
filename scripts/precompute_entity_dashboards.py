@@ -217,6 +217,7 @@ def generate_project_dashboards(items: list[dict], out_root: str) -> list[dict]:
 
     index = generators.project_index(items)
     names = generators.project_name_lookup(items)
+    geo = db.load_geo()
     entries: list[dict] = []
 
     for pid, bucket in sorted(index.items()):
@@ -225,7 +226,7 @@ def generate_project_dashboards(items: list[dict], out_root: str) -> list[dict]:
         slug = agg.slugify(pid)
         if not slug:
             continue
-        payload = generators.generate_project_dashboard(pid, items, names.get(pid))
+        payload = generators.generate_project_dashboard(pid, items, names.get(pid), geo=geo)
         out_path = os.path.join(out_dir, f"{slug}.json")
         _write_json(out_path, payload)
         entries.append(
@@ -245,6 +246,7 @@ def generate_research_section_dashboards(items: list[dict], out_root: str) -> li
     via `project.researchSection`. Keep this dispatcher specialised rather
     than threading projects through the generic helper."""
     projects = db.load_projects_from_local()
+    geo = db.load_geo()
     dir_name = config.ENTITY_DIRS["research-section"]
     out_dir = os.path.join(out_root, dir_name)
     os.makedirs(out_dir, exist_ok=True)
@@ -258,7 +260,7 @@ def generate_research_section_dashboards(items: list[dict], out_root: str) -> li
         slug = agg.slugify(name)
         if not slug:
             continue
-        payload = generators.generate_research_section_dashboard(name, items, projects)
+        payload = generators.generate_research_section_dashboard(name, items, projects, geo=geo)
         out_path = os.path.join(out_dir, f"{slug}.json")
         _write_json(out_path, payload)
         entries.append(

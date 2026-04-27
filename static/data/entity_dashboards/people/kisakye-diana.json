@@ -103,6 +103,58 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [],
+    "matrix": []
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Stroh-Steckelberg, Alexander",
+        "name": "Stroh-Steckelberg, Alexander",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_MuDAIMa-PRJ2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Stroh-Steckelberg, Alexander",
+        "targetId": "UBT_MuDAIMa-PRJ2019",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Stroh-Steckelberg, Alexander",
+        "name": "Stroh-Steckelberg, Alexander",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Bayreuth",
+        "name": "University of Bayreuth",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Stroh-Steckelberg, Alexander",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Germany",

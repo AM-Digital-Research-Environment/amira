@@ -76,6 +76,139 @@
       "value": 3
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Fayemi, Kazeem",
+        "name": "Fayemi, Kazeem",
+        "itemCount": 3
+      },
+      {
+        "id": "Akin-Otiko, Akinmayowa",
+        "name": "Akin-Otiko, Akinmayowa",
+        "itemCount": 3
+      },
+      {
+        "id": "Eleanya, Ugochi",
+        "name": "Eleanya, Ugochi",
+        "itemCount": 3
+      },
+      {
+        "id": "Soetan, Abidemi",
+        "name": "Soetan, Abidemi",
+        "itemCount": 3
+      }
+    ],
+    "targets": [
+      {
+        "id": "ULG_EthDump2021",
+        "name": "African Studies without Ethics Dumping: An Integrative Study of Research Ethics Governance in Burkina Faso, Kenya, Nigeria, and South Africa",
+        "itemCount": 3
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Fayemi, Kazeem",
+        "targetId": "ULG_EthDump2021",
+        "count": 3
+      },
+      {
+        "personId": "Akin-Otiko, Akinmayowa",
+        "targetId": "ULG_EthDump2021",
+        "count": 3
+      },
+      {
+        "personId": "Eleanya, Ugochi",
+        "targetId": "ULG_EthDump2021",
+        "count": 3
+      },
+      {
+        "personId": "Soetan, Abidemi",
+        "targetId": "ULG_EthDump2021",
+        "count": 3
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Fayemi, Kazeem",
+        "name": "Fayemi, Kazeem",
+        "itemCount": 6
+      },
+      {
+        "id": "Akin-Otiko, Akinmayowa",
+        "name": "Akin-Otiko, Akinmayowa",
+        "itemCount": 6
+      },
+      {
+        "id": "Eleanya, Ugochi",
+        "name": "Eleanya, Ugochi",
+        "itemCount": 6
+      },
+      {
+        "id": "Soetan, Abidemi",
+        "name": "Soetan, Abidemi",
+        "itemCount": 6
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Lagos African Cluster Centre (LACC)",
+        "name": "University of Lagos African Cluster Centre (LACC)",
+        "itemCount": 3
+      },
+      {
+        "id": "Department of Philosophy, University of Lagos",
+        "name": "Department of Philosophy, University of Lagos",
+        "itemCount": 3
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Fayemi, Kazeem",
+        "targetId": "University of Lagos African Cluster Centre (LACC)",
+        "count": 3
+      },
+      {
+        "personId": "Akin-Otiko, Akinmayowa",
+        "targetId": "University of Lagos African Cluster Centre (LACC)",
+        "count": 3
+      },
+      {
+        "personId": "Eleanya, Ugochi",
+        "targetId": "University of Lagos African Cluster Centre (LACC)",
+        "count": 3
+      },
+      {
+        "personId": "Soetan, Abidemi",
+        "targetId": "University of Lagos African Cluster Centre (LACC)",
+        "count": 3
+      },
+      {
+        "personId": "Fayemi, Kazeem",
+        "targetId": "Department of Philosophy, University of Lagos",
+        "count": 3
+      },
+      {
+        "personId": "Akin-Otiko, Akinmayowa",
+        "targetId": "Department of Philosophy, University of Lagos",
+        "count": 3
+      },
+      {
+        "personId": "Eleanya, Ugochi",
+        "targetId": "Department of Philosophy, University of Lagos",
+        "count": 3
+      },
+      {
+        "personId": "Soetan, Abidemi",
+        "targetId": "Department of Philosophy, University of Lagos",
+        "count": 3
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Nigeria",

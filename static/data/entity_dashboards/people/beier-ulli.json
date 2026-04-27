@@ -1084,6 +1084,535 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [
+      "Greven, Katharina",
+      "Beier, Georgina",
+      "Kauage, Mathias",
+      "Ladipo, Duro",
+      "Benz, Klaus",
+      "Sédar Senghor, Leopold",
+      "Stephan, Klaus"
+    ],
+    "matrix": [
+      [
+        0,
+        42,
+        5,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        42,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        5,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Greven, Katharina",
+        "name": "Greven, Katharina",
+        "itemCount": 103
+      },
+      {
+        "id": "Beier, Georgina",
+        "name": "Beier, Georgina",
+        "itemCount": 46
+      },
+      {
+        "id": "Kauage, Mathias",
+        "name": "Kauage, Mathias",
+        "itemCount": 5
+      },
+      {
+        "id": "Ladipo, Duro",
+        "name": "Ladipo, Duro",
+        "itemCount": 3
+      },
+      {
+        "id": "Benz, Klaus",
+        "name": "Benz, Klaus",
+        "itemCount": 2
+      },
+      {
+        "id": "Sédar Senghor, Leopold",
+        "name": "Sédar Senghor, Leopold",
+        "itemCount": 2
+      },
+      {
+        "id": "Stephan, Klaus",
+        "name": "Stephan, Klaus",
+        "itemCount": 2
+      },
+      {
+        "id": "Riesz, János",
+        "name": "Riesz, János",
+        "itemCount": 1
+      },
+      {
+        "id": "Laoye, Timi",
+        "name": "Laoye, Timi",
+        "itemCount": 1
+      },
+      {
+        "id": "Rossem, Ru van",
+        "name": "Rossem, Ru van",
+        "itemCount": 1
+      },
+      {
+        "id": "Yeye Olana",
+        "name": "Yeye Olana",
+        "itemCount": 1
+      },
+      {
+        "id": "Fabunmi, Adebisi",
+        "name": "Fabunmi, Adebisi",
+        "itemCount": 1
+      },
+      {
+        "id": "Idah, Ovia",
+        "name": "Idah, Ovia",
+        "itemCount": 1
+      },
+      {
+        "id": "Woldert, Siegfried",
+        "name": "Woldert, Siegfried",
+        "itemCount": 1
+      },
+      {
+        "id": "Oyelami, Muraina",
+        "name": "Oyelami, Muraina",
+        "itemCount": 1
+      },
+      {
+        "id": "Tiabe",
+        "name": "Tiabe",
+        "itemCount": 1
+      },
+      {
+        "id": "Bulmer, Ralph",
+        "name": "Bulmer, Ralph",
+        "itemCount": 1
+      },
+      {
+        "id": "Gunther, John",
+        "name": "Gunther, John",
+        "itemCount": 1
+      },
+      {
+        "id": "Akis, Timothy",
+        "name": "Akis, Timothy",
+        "itemCount": 1
+      },
+      {
+        "id": "Guedes, Pancho",
+        "name": "Guedes, Pancho",
+        "itemCount": 1
+      },
+      {
+        "id": "Aiyegbusi, Tayo",
+        "name": "Aiyegbusi, Tayo",
+        "itemCount": 1
+      },
+      {
+        "id": "Ritchie, Jonathan",
+        "name": "Ritchie, Jonathan",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent",
+        "itemCount": 111
+      },
+      {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango",
+        "itemCount": 4
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Riesz, János",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 1
+      },
+      {
+        "personId": "Greven, Katharina",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 103
+      },
+      {
+        "personId": "Beier, Georgina",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 46
+      },
+      {
+        "personId": "Laoye, Timi",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 1
+      },
+      {
+        "personId": "Rossem, Ru van",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 1
+      },
+      {
+        "personId": "Ladipo, Duro",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 1
+      },
+      {
+        "personId": "Yeye Olana",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 1
+      },
+      {
+        "personId": "Benz, Klaus",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 2
+      },
+      {
+        "personId": "Sédar Senghor, Leopold",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 2
+      },
+      {
+        "personId": "Fabunmi, Adebisi",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 1
+      },
+      {
+        "personId": "Idah, Ovia",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 1
+      },
+      {
+        "personId": "Woldert, Siegfried",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 1
+      },
+      {
+        "personId": "Oyelami, Muraina",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 1
+      },
+      {
+        "personId": "Kauage, Mathias",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 5
+      },
+      {
+        "personId": "Tiabe",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 1
+      },
+      {
+        "personId": "Bulmer, Ralph",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 1
+      },
+      {
+        "personId": "Gunther, John",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 1
+      },
+      {
+        "personId": "Akis, Timothy",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 1
+      },
+      {
+        "personId": "Guedes, Pancho",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 1
+      },
+      {
+        "personId": "Aiyegbusi, Tayo",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 1
+      },
+      {
+        "personId": "Ritchie, Jonathan",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 1
+      },
+      {
+        "personId": "Ladipo, Duro",
+        "targetId": "UBT_TaiSha2021",
+        "count": 2
+      },
+      {
+        "personId": "Stephan, Klaus",
+        "targetId": "UBT_TaiSha2021",
+        "count": 2
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Greven, Katharina",
+        "name": "Greven, Katharina",
+        "itemCount": 103
+      },
+      {
+        "id": "Beier, Georgina",
+        "name": "Beier, Georgina",
+        "itemCount": 43
+      },
+      {
+        "id": "Kauage, Mathias",
+        "name": "Kauage, Mathias",
+        "itemCount": 5
+      },
+      {
+        "id": "Stephan, Klaus",
+        "name": "Stephan, Klaus",
+        "itemCount": 2
+      },
+      {
+        "id": "Riesz, János",
+        "name": "Riesz, János",
+        "itemCount": 1
+      },
+      {
+        "id": "Rossem, Ru van",
+        "name": "Rossem, Ru van",
+        "itemCount": 1
+      },
+      {
+        "id": "Benz, Klaus",
+        "name": "Benz, Klaus",
+        "itemCount": 1
+      },
+      {
+        "id": "Sédar Senghor, Leopold",
+        "name": "Sédar Senghor, Leopold",
+        "itemCount": 1
+      },
+      {
+        "id": "Idah, Ovia",
+        "name": "Idah, Ovia",
+        "itemCount": 1
+      },
+      {
+        "id": "Woldert, Siegfried",
+        "name": "Woldert, Siegfried",
+        "itemCount": 1
+      },
+      {
+        "id": "Oyelami, Muraina",
+        "name": "Oyelami, Muraina",
+        "itemCount": 1
+      },
+      {
+        "id": "Tiabe",
+        "name": "Tiabe",
+        "itemCount": 1
+      },
+      {
+        "id": "Bulmer, Ralph",
+        "name": "Bulmer, Ralph",
+        "itemCount": 1
+      },
+      {
+        "id": "Gunther, John",
+        "name": "Gunther, John",
+        "itemCount": 1
+      },
+      {
+        "id": "Akis, Timothy",
+        "name": "Akis, Timothy",
+        "itemCount": 1
+      },
+      {
+        "id": "Guedes, Pancho",
+        "name": "Guedes, Pancho",
+        "itemCount": 1
+      },
+      {
+        "id": "Aiyegbusi, Tayo",
+        "name": "Aiyegbusi, Tayo",
+        "itemCount": 1
+      },
+      {
+        "id": "Ritchie, Jonathan",
+        "name": "Ritchie, Jonathan",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Bayreuth",
+        "name": "University of Bayreuth",
+        "itemCount": 103
+      },
+      {
+        "id": "Bayrischer Rundfunk",
+        "name": "Bayrischer Rundfunk",
+        "itemCount": 2
+      },
+      {
+        "id": "National Library of Australia",
+        "name": "National Library of Australia",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Riesz, János",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Greven, Katharina",
+        "targetId": "University of Bayreuth",
+        "count": 103
+      },
+      {
+        "personId": "Beier, Georgina",
+        "targetId": "University of Bayreuth",
+        "count": 42
+      },
+      {
+        "personId": "Rossem, Ru van",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Benz, Klaus",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Sédar Senghor, Leopold",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Idah, Ovia",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Woldert, Siegfried",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Oyelami, Muraina",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Kauage, Mathias",
+        "targetId": "University of Bayreuth",
+        "count": 5
+      },
+      {
+        "personId": "Tiabe",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Bulmer, Ralph",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Gunther, John",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Akis, Timothy",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Guedes, Pancho",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Aiyegbusi, Tayo",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Beier, Georgina",
+        "targetId": "National Library of Australia",
+        "count": 1
+      },
+      {
+        "personId": "Ritchie, Jonathan",
+        "targetId": "National Library of Australia",
+        "count": 1
+      },
+      {
+        "personId": "Stephan, Klaus",
+        "targetId": "Bayrischer Rundfunk",
+        "count": 2
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Germany",

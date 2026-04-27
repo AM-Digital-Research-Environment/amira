@@ -166,6 +166,66 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Musical instruments",
+      "Percussion instruments",
+      "Ethnomusicology",
+      "Drum",
+      "Drum language",
+      "Talking drum"
+    ],
+    "matrix": [
+      [
+        0,
+        7,
+        5,
+        4,
+        3,
+        3
+      ],
+      [
+        7,
+        0,
+        5,
+        4,
+        3,
+        3
+      ],
+      [
+        5,
+        5,
+        0,
+        2,
+        2,
+        2
+      ],
+      [
+        4,
+        4,
+        2,
+        0,
+        3,
+        3
+      ],
+      [
+        3,
+        3,
+        2,
+        3,
+        0,
+        3
+      ],
+      [
+        3,
+        3,
+        2,
+        3,
+        3,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Musical instruments",

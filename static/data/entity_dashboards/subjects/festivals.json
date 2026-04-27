@@ -219,6 +219,66 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Festivals",
+      "Photography",
+      "Anthropology",
+      "Photographs",
+      "Tuaregs",
+      "Ethnomusicology"
+    ],
+    "matrix": [
+      [
+        0,
+        10,
+        10,
+        10,
+        4,
+        3
+      ],
+      [
+        10,
+        0,
+        10,
+        10,
+        4,
+        0
+      ],
+      [
+        10,
+        10,
+        0,
+        10,
+        4,
+        0
+      ],
+      [
+        10,
+        10,
+        10,
+        0,
+        4,
+        0
+      ],
+      [
+        4,
+        4,
+        4,
+        4,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Photography",

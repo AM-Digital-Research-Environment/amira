@@ -58,6 +58,52 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Mosaics",
+      "Courtyards",
+      "Photographs",
+      "Women artists",
+      "Artists"
+    ],
+    "matrix": [
+      [
+        0,
+        4,
+        4,
+        3,
+        3
+      ],
+      [
+        4,
+        0,
+        4,
+        3,
+        3
+      ],
+      [
+        4,
+        4,
+        0,
+        3,
+        3
+      ],
+      [
+        3,
+        3,
+        3,
+        0,
+        3
+      ],
+      [
+        3,
+        3,
+        3,
+        3,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Mosaics",

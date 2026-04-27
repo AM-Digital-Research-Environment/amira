@@ -232,6 +232,34 @@
       "value": 1
     }
   ],
+  "subjectTrends": [
+    {
+      "year": 2021,
+      "byCategory": {
+        "Arid regions": 2,
+        "Maasai (African people)": 2,
+        "East Africa": 2,
+        "Vaccination": 1,
+        "Sustainable tourism": 1,
+        "Livestock": 1,
+        "Corruption": 1,
+        "Political corruption": 1
+      }
+    },
+    {
+      "year": 2022,
+      "byCategory": {
+        "Arid regions": 1,
+        "Maasai (African people)": 1,
+        "East Africa": 1,
+        "Vaccination": 1,
+        "Sustainable tourism": 0,
+        "Livestock": 0,
+        "Corruption": 0,
+        "Political corruption": 0
+      }
+    }
+  ],
   "locations": [
     {
       "country": "Kenya",

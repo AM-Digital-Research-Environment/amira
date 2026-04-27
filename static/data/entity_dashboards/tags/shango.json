@@ -101,6 +101,40 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Photographs",
+      "Yoruba (African people)",
+      "Yoruba (African people)--Religion",
+      "Orisha religion"
+    ],
+    "matrix": [
+      [
+        0,
+        3,
+        3,
+        3
+      ],
+      [
+        3,
+        0,
+        3,
+        3
+      ],
+      [
+        3,
+        3,
+        0,
+        3
+      ],
+      [
+        3,
+        3,
+        3,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Yoruba Art",

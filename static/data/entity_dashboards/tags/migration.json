@@ -83,6 +83,40 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Emigration and immigration",
+      "Border security",
+      "Violence",
+      "Terrorism"
+    ],
+    "matrix": [
+      [
+        0,
+        66,
+        66,
+        66
+      ],
+      [
+        66,
+        0,
+        66,
+        66
+      ],
+      [
+        66,
+        66,
+        0,
+        66
+      ],
+      [
+        66,
+        66,
+        66,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Emigration and immigration",

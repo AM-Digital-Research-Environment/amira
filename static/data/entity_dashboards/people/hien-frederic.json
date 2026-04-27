@@ -130,6 +130,163 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [],
+    "matrix": []
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Ouedraogo, Pissyamba",
+        "name": "Ouedraogo, Pissyamba",
+        "itemCount": 1
+      },
+      {
+        "id": "Sanon, Bernard",
+        "name": "Sanon, Bernard",
+        "itemCount": 1
+      },
+      {
+        "id": "Ouedraogo, Soumaila",
+        "name": "Ouedraogo, Soumaila",
+        "itemCount": 1
+      },
+      {
+        "id": "Méda, Bertrand",
+        "name": "Méda, Bertrand",
+        "itemCount": 1
+      },
+      {
+        "id": "Banhoro, Yacouba",
+        "name": "Banhoro, Yacouba",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa",
+        "itemCount": 5
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Ouedraogo, Pissyamba",
+        "targetId": "UJKZ_GLOBHEALTH2020",
+        "count": 1
+      },
+      {
+        "personId": "Sanon, Bernard",
+        "targetId": "UJKZ_GLOBHEALTH2020",
+        "count": 1
+      },
+      {
+        "personId": "Ouedraogo, Soumaila",
+        "targetId": "UJKZ_GLOBHEALTH2020",
+        "count": 1
+      },
+      {
+        "personId": "Méda, Bertrand",
+        "targetId": "UJKZ_GLOBHEALTH2020",
+        "count": 1
+      },
+      {
+        "personId": "Banhoro, Yacouba",
+        "targetId": "UJKZ_GLOBHEALTH2020",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Ouedraogo, Pissyamba",
+        "name": "Ouedraogo, Pissyamba",
+        "itemCount": 2
+      },
+      {
+        "id": "Sanon, Bernard",
+        "name": "Sanon, Bernard",
+        "itemCount": 2
+      },
+      {
+        "id": "Méda, Bertrand",
+        "name": "Méda, Bertrand",
+        "itemCount": 2
+      },
+      {
+        "id": "Ouedraogo, Soumaila",
+        "name": "Ouedraogo, Soumaila",
+        "itemCount": 1
+      },
+      {
+        "id": "Banhoro, Yacouba",
+        "name": "Banhoro, Yacouba",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Université Joseph Ki-Zerbo",
+        "name": "Université Joseph Ki-Zerbo",
+        "itemCount": 5
+      },
+      {
+        "id": "National Union of Human and Animal Health Workers of Burkina Faso",
+        "name": "National Union of Human and Animal Health Workers of Burkina Faso",
+        "itemCount": 2
+      },
+      {
+        "id": "National Centre for Scientific and Technological Research of Burkina Faso",
+        "name": "National Centre for Scientific and Technological Research of Burkina Faso",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Ouedraogo, Pissyamba",
+        "targetId": "National Union of Human and Animal Health Workers of Burkina Faso",
+        "count": 1
+      },
+      {
+        "personId": "Ouedraogo, Pissyamba",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Sanon, Bernard",
+        "targetId": "National Union of Human and Animal Health Workers of Burkina Faso",
+        "count": 1
+      },
+      {
+        "personId": "Sanon, Bernard",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Ouedraogo, Soumaila",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Méda, Bertrand",
+        "targetId": "National Centre for Scientific and Technological Research of Burkina Faso",
+        "count": 1
+      },
+      {
+        "personId": "Méda, Bertrand",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Banhoro, Yacouba",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Burkina Faso",

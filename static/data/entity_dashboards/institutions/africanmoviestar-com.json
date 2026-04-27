@@ -49,6 +49,46 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Olusola, Segun",
+        "name": "Olusola, Segun",
+        "itemCount": 1
+      },
+      {
+        "id": "Ajiboye, David",
+        "name": "Ajiboye, David",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Olusola, Segun",
+        "targetId": "UBT_TaiSha2021",
+        "count": 1
+      },
+      {
+        "personId": "Ajiboye, David",
+        "targetId": "UBT_TaiSha2021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
   "locations": [
     {
       "country": "Nigeria",

@@ -119,6 +119,205 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [
+      "Gbenyon, Charles",
+      "Moniba, Harry Fumba"
+    ],
+    "matrix": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Gbenyon, Charles",
+        "name": "Gbenyon, Charles",
+        "itemCount": 2
+      },
+      {
+        "id": "Moniba, Harry Fumba",
+        "name": "Moniba, Harry Fumba",
+        "itemCount": 2
+      },
+      {
+        "id": "Ceaușescu, Nicolae",
+        "name": "Ceaușescu, Nicolae",
+        "itemCount": 1
+      },
+      {
+        "id": "Rancy, John G.",
+        "name": "Rancy, John G.",
+        "itemCount": 1
+      },
+      {
+        "id": "Morris, Joseph G.",
+        "name": "Morris, Joseph G.",
+        "itemCount": 1
+      },
+      {
+        "id": "Ward, Amelia",
+        "name": "Ward, Amelia",
+        "itemCount": 1
+      },
+      {
+        "id": "Christopher, Victoria",
+        "name": "Christopher, Victoria",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System",
+        "itemCount": 5
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Gbenyon, Charles",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 2
+      },
+      {
+        "personId": "Moniba, Harry Fumba",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 2
+      },
+      {
+        "personId": "Ceaușescu, Nicolae",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Rancy, John G.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Morris, Joseph G.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Ward, Amelia",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Christopher, Victoria",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Gbenyon, Charles",
+        "name": "Gbenyon, Charles",
+        "itemCount": 2
+      },
+      {
+        "id": "Moniba, Harry Fumba",
+        "name": "Moniba, Harry Fumba",
+        "itemCount": 2
+      },
+      {
+        "id": "Ward, Amelia",
+        "name": "Ward, Amelia",
+        "itemCount": 2
+      },
+      {
+        "id": "Christopher, Victoria",
+        "name": "Christopher, Victoria",
+        "itemCount": 2
+      },
+      {
+        "id": "Ceaușescu, Nicolae",
+        "name": "Ceaușescu, Nicolae",
+        "itemCount": 1
+      },
+      {
+        "id": "Rancy, John G.",
+        "name": "Rancy, John G.",
+        "itemCount": 1
+      },
+      {
+        "id": "Morris, Joseph G.",
+        "name": "Morris, Joseph G.",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Ministry of State for Presidential Affairs, Liberia",
+        "name": "Ministry of State for Presidential Affairs, Liberia",
+        "itemCount": 5
+      },
+      {
+        "id": "Ministry of Planning and Economic Affairs, Liberia",
+        "name": "Ministry of Planning and Economic Affairs, Liberia",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Gbenyon, Charles",
+        "targetId": "Ministry of State for Presidential Affairs, Liberia",
+        "count": 2
+      },
+      {
+        "personId": "Moniba, Harry Fumba",
+        "targetId": "Ministry of State for Presidential Affairs, Liberia",
+        "count": 2
+      },
+      {
+        "personId": "Ceaușescu, Nicolae",
+        "targetId": "Ministry of State for Presidential Affairs, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Rancy, John G.",
+        "targetId": "Ministry of State for Presidential Affairs, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Morris, Joseph G.",
+        "targetId": "Ministry of State for Presidential Affairs, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Ward, Amelia",
+        "targetId": "Ministry of State for Presidential Affairs, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Christopher, Victoria",
+        "targetId": "Ministry of State for Presidential Affairs, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Ward, Amelia",
+        "targetId": "Ministry of Planning and Economic Affairs, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Christopher, Victoria",
+        "targetId": "Ministry of Planning and Economic Affairs, Liberia",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Liberia",

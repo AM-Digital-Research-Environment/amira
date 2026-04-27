@@ -57,6 +57,46 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Scott, Jeffrey",
+        "name": "Scott, Jeffrey",
+        "itemCount": 2
+      },
+      {
+        "id": "Lorre, Chuck",
+        "name": "Lorre, Chuck",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System",
+        "itemCount": 3
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Lorre, Chuck",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Scott, Jeffrey",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 2
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
   "locations": [
     {
       "country": "Liberia",

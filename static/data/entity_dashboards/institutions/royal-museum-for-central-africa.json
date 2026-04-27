@@ -183,6 +183,36 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "de Troch, Daniel",
+        "name": "de Troch, Daniel",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "UCLouvain",
+        "name": "UCLouvain",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "de Troch, Daniel",
+        "targetId": "UCLouvain",
+        "count": 2
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "South Africa",

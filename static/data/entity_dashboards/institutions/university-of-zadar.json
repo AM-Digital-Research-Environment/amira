@@ -69,6 +69,54 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Balogun, Lekan",
+        "name": "Balogun, Lekan",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Balogun, Lekan",
+        "targetId": "UBT_TravKnowl2019",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Balogun, Lekan",
+        "name": "Balogun, Lekan",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Lagos",
+        "name": "University of Lagos",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Balogun, Lekan",
+        "targetId": "University of Lagos",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Croatia",

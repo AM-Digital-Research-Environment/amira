@@ -57,6 +57,66 @@
       "value": 2
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Manuscripts",
+      "Early modern, 1500-1700",
+      "Literature",
+      "Africa",
+      "African diaspora",
+      "Slave trade"
+    ],
+    "matrix": [
+      [
+        0,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      [
+        3,
+        0,
+        3,
+        3,
+        3,
+        3
+      ],
+      [
+        3,
+        3,
+        0,
+        3,
+        3,
+        3
+      ],
+      [
+        3,
+        3,
+        3,
+        0,
+        3,
+        3
+      ],
+      [
+        3,
+        3,
+        3,
+        3,
+        0,
+        3
+      ],
+      [
+        3,
+        3,
+        3,
+        3,
+        3,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Manuscripts",

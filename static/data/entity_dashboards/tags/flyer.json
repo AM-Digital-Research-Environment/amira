@@ -86,6 +86,30 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Newspapers",
+      "Archives",
+      "Exhibitions"
+    ],
+    "matrix": [
+      [
+        0,
+        3,
+        3
+      ],
+      [
+        3,
+        0,
+        2
+      ],
+      [
+        3,
+        2,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Newspapers",

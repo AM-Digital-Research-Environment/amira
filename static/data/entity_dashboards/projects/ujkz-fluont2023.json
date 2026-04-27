@@ -20,6 +20,24 @@
       }
     }
   ],
+  "languageTimeline": [
+    {
+      "year": 2023,
+      "byCategory": {
+        "French": 2,
+        "English": 1
+      }
+    }
+  ],
+  "subjectTrends": [
+    {
+      "year": 2023,
+      "byCategory": {
+        "Social media": 3,
+        "Decolonisation": 3
+      }
+    }
+  ],
   "types": [
     {
       "name": "Text",
@@ -125,6 +143,43 @@
       ]
     }
   ],
+  "treemap": [
+    {
+      "name": "Text",
+      "children": [
+        {
+          "name": "French",
+          "children": [
+            {
+              "name": "Social media",
+              "value": 2,
+              "children": []
+            },
+            {
+              "name": "Decolonisation",
+              "value": 2,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "English",
+          "children": [
+            {
+              "name": "Social media",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Decolonisation",
+              "value": 1,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "sankey": {
     "nodes": [
       {
@@ -174,6 +229,27 @@
       ]
     ]
   },
+  "timeAwareChord": {
+    "buckets": [
+      {
+        "year": 2023,
+        "names": [
+          "Social media",
+          "Decolonisation"
+        ],
+        "matrix": [
+          [
+            0,
+            3
+          ],
+          [
+            3,
+            0
+          ]
+        ]
+      }
+    ]
+  },
   "contributors": [
     {
       "name": "Zerbo, Armel",
@@ -184,6 +260,16 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "calendarHeatmap": [],
+  "geoFlows": {
+    "flows": []
+  },
   "locations": [
     {
       "country": "Burkina Faso",

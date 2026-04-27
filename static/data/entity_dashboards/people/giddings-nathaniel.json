@@ -118,6 +118,358 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [],
+    "matrix": []
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Diggs, Rev. A. Momolu",
+        "name": "Diggs, Rev. A. Momolu",
+        "itemCount": 1
+      },
+      {
+        "id": "Snetter, Charles A.",
+        "name": "Snetter, Charles A.",
+        "itemCount": 1
+      },
+      {
+        "id": "Carter, Joel",
+        "name": "Carter, Joel",
+        "itemCount": 1
+      },
+      {
+        "id": "Redd, Welma Campbell Mashinini",
+        "name": "Redd, Welma Campbell Mashinini",
+        "itemCount": 1
+      },
+      {
+        "id": "Lincoln, Peter Y.",
+        "name": "Lincoln, Peter Y.",
+        "itemCount": 1
+      },
+      {
+        "id": "Gaye, Robert",
+        "name": "Gaye, Robert",
+        "itemCount": 1
+      },
+      {
+        "id": "Diah, James",
+        "name": "Diah, James",
+        "itemCount": 1
+      },
+      {
+        "id": "Taylor, Adolphus",
+        "name": "Taylor, Adolphus",
+        "itemCount": 1
+      },
+      {
+        "id": "Scotland, Rebekah",
+        "name": "Scotland, Rebekah",
+        "itemCount": 1
+      },
+      {
+        "id": "Fahnbulleh, Ansu",
+        "name": "Fahnbulleh, Ansu",
+        "itemCount": 1
+      },
+      {
+        "id": "McCrumada, Charles",
+        "name": "McCrumada, Charles",
+        "itemCount": 1
+      },
+      {
+        "id": "Okyere, Jonathan",
+        "name": "Okyere, Jonathan",
+        "itemCount": 1
+      },
+      {
+        "id": "Zeon, Jefferson",
+        "name": "Zeon, Jefferson",
+        "itemCount": 1
+      },
+      {
+        "id": "Zor, David",
+        "name": "Zor, David",
+        "itemCount": 1
+      },
+      {
+        "id": "Mensah, Sam",
+        "name": "Mensah, Sam",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Diggs, Rev. A. Momolu",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Snetter, Charles A.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Carter, Joel",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Redd, Welma Campbell Mashinini",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Lincoln, Peter Y.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Gaye, Robert",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Diah, James",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Taylor, Adolphus",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Scotland, Rebekah",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Fahnbulleh, Ansu",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "McCrumada, Charles",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Okyere, Jonathan",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Zeon, Jefferson",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Zor, David",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Mensah, Sam",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Diggs, Rev. A. Momolu",
+        "name": "Diggs, Rev. A. Momolu",
+        "itemCount": 2
+      },
+      {
+        "id": "Snetter, Charles A.",
+        "name": "Snetter, Charles A.",
+        "itemCount": 2
+      },
+      {
+        "id": "Carter, Joel",
+        "name": "Carter, Joel",
+        "itemCount": 2
+      },
+      {
+        "id": "Redd, Welma Campbell Mashinini",
+        "name": "Redd, Welma Campbell Mashinini",
+        "itemCount": 1
+      },
+      {
+        "id": "Lincoln, Peter Y.",
+        "name": "Lincoln, Peter Y.",
+        "itemCount": 1
+      },
+      {
+        "id": "Gaye, Robert",
+        "name": "Gaye, Robert",
+        "itemCount": 1
+      },
+      {
+        "id": "Diah, James",
+        "name": "Diah, James",
+        "itemCount": 1
+      },
+      {
+        "id": "Taylor, Adolphus",
+        "name": "Taylor, Adolphus",
+        "itemCount": 1
+      },
+      {
+        "id": "Scotland, Rebekah",
+        "name": "Scotland, Rebekah",
+        "itemCount": 1
+      },
+      {
+        "id": "Fahnbulleh, Ansu",
+        "name": "Fahnbulleh, Ansu",
+        "itemCount": 1
+      },
+      {
+        "id": "McCrumada, Charles",
+        "name": "McCrumada, Charles",
+        "itemCount": 1
+      },
+      {
+        "id": "Okyere, Jonathan",
+        "name": "Okyere, Jonathan",
+        "itemCount": 1
+      },
+      {
+        "id": "Zeon, Jefferson",
+        "name": "Zeon, Jefferson",
+        "itemCount": 1
+      },
+      {
+        "id": "Zor, David",
+        "name": "Zor, David",
+        "itemCount": 1
+      },
+      {
+        "id": "Mensah, Sam",
+        "name": "Mensah, Sam",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Liberia Broadcasting System (LBS)",
+        "name": "Liberia Broadcasting System (LBS)",
+        "itemCount": 2
+      },
+      {
+        "id": "Providence Baptist Church Liberia",
+        "name": "Providence Baptist Church Liberia",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Diggs, Rev. A. Momolu",
+        "targetId": "Providence Baptist Church Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Snetter, Charles A.",
+        "targetId": "Providence Baptist Church Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Carter, Joel",
+        "targetId": "Providence Baptist Church Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Diggs, Rev. A. Momolu",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Snetter, Charles A.",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Carter, Joel",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Redd, Welma Campbell Mashinini",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Lincoln, Peter Y.",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Gaye, Robert",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Diah, James",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Taylor, Adolphus",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Scotland, Rebekah",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Fahnbulleh, Ansu",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "McCrumada, Charles",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Okyere, Jonathan",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Zeon, Jefferson",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Zor, David",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Mensah, Sam",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Liberia",

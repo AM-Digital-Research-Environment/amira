@@ -22,6 +22,23 @@
       }
     }
   ],
+  "languageTimeline": [
+    {
+      "year": 2020,
+      "byCategory": {
+        "English": 21
+      }
+    }
+  ],
+  "subjectTrends": [
+    {
+      "year": 2020,
+      "byCategory": {
+        "COVID-19 (Disease)": 21,
+        "Transport workers": 21
+      }
+    }
+  ],
   "types": [
     {
       "name": "Image",
@@ -158,6 +175,68 @@
       ]
     }
   ],
+  "treemap": [
+    {
+      "name": "Image",
+      "children": [
+        {
+          "name": "English",
+          "children": [
+            {
+              "name": "COVID-19 (Disease)",
+              "value": 10,
+              "children": []
+            },
+            {
+              "name": "Transport workers",
+              "value": 10,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Moving image",
+      "children": [
+        {
+          "name": "English",
+          "children": [
+            {
+              "name": "COVID-19 (Disease)",
+              "value": 8,
+              "children": []
+            },
+            {
+              "name": "Transport workers",
+              "value": 8,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Text",
+      "children": [
+        {
+          "name": "English",
+          "children": [
+            {
+              "name": "COVID-19 (Disease)",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "Transport workers",
+              "value": 3,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "sankey": {
     "nodes": [
       {
@@ -223,6 +302,27 @@
       ]
     ]
   },
+  "timeAwareChord": {
+    "buckets": [
+      {
+        "year": 2020,
+        "names": [
+          "COVID-19 (Disease)",
+          "Transport workers"
+        ],
+        "matrix": [
+          [
+            0,
+            21
+          ],
+          [
+            21,
+            0
+          ]
+        ]
+      }
+    ]
+  },
   "contributors": [
     {
       "name": "Akin-Otiko, Akinmayowa",
@@ -233,6 +333,21 @@
       "value": 21
     }
   ],
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "calendarHeatmap": [
+    {
+      "date": "2020-08-11",
+      "value": 1
+    }
+  ],
+  "geoFlows": {
+    "flows": []
+  },
   "locations": [
     {
       "country": "Nigeria",

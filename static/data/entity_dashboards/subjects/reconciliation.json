@@ -81,6 +81,82 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Reconciliation",
+      "Punishment",
+      "Children",
+      "Juvenile detention",
+      "Juvenile delinquency",
+      "Mediation",
+      "Justice"
+    ],
+    "matrix": [
+      [
+        0,
+        7,
+        7,
+        7,
+        7,
+        6,
+        6
+      ],
+      [
+        7,
+        0,
+        7,
+        7,
+        7,
+        6,
+        6
+      ],
+      [
+        7,
+        7,
+        0,
+        7,
+        7,
+        6,
+        6
+      ],
+      [
+        7,
+        7,
+        7,
+        0,
+        7,
+        6,
+        6
+      ],
+      [
+        7,
+        7,
+        7,
+        7,
+        0,
+        6,
+        6
+      ],
+      [
+        6,
+        6,
+        6,
+        6,
+        6,
+        0,
+        6
+      ],
+      [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Punishment",

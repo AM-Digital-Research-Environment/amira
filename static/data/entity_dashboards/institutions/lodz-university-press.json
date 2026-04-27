@@ -77,6 +77,54 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Agbozo, G. Edzordzi",
+        "name": "Agbozo, G. Edzordzi",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Agbozo, G. Edzordzi",
+        "targetId": "UBT_TravKnowl2019",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Agbozo, G. Edzordzi",
+        "name": "Agbozo, G. Edzordzi",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Michigan Technological University",
+        "name": "Michigan Technological University",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Agbozo, G. Edzordzi",
+        "targetId": "Michigan Technological University",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Spain",

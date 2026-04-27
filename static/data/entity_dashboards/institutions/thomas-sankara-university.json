@@ -165,6 +165,89 @@
       "value": 2
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Banhoro, Yacouba",
+        "name": "Banhoro, Yacouba",
+        "itemCount": 2
+      },
+      {
+        "id": "Illy, Ousseni",
+        "name": "Illy, Ousseni",
+        "itemCount": 2
+      },
+      {
+        "id": "Sawadogo, Natéwindé",
+        "name": "Sawadogo, Natéwindé",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa",
+        "itemCount": 2
+      },
+      {
+        "id": "UJKZ_KnowFranco2021",
+        "name": "The state of knowledge in French-speaking West Africa: the experience of the state and the institutionalisation of science in Burkina Faso and Senegal",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Banhoro, Yacouba",
+        "targetId": "UJKZ_GLOBHEALTH2020",
+        "count": 2
+      },
+      {
+        "personId": "Illy, Ousseni",
+        "targetId": "UJKZ_GLOBHEALTH2020",
+        "count": 2
+      },
+      {
+        "personId": "Sawadogo, Natéwindé",
+        "targetId": "UJKZ_KnowFranco2021",
+        "count": 2
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Banhoro, Yacouba",
+        "name": "Banhoro, Yacouba",
+        "itemCount": 2
+      },
+      {
+        "id": "Illy, Ousseni",
+        "name": "Illy, Ousseni",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "Université Joseph Ki-Zerbo",
+        "name": "Université Joseph Ki-Zerbo",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Banhoro, Yacouba",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 2
+      },
+      {
+        "personId": "Illy, Ousseni",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 2
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Burkina Faso",

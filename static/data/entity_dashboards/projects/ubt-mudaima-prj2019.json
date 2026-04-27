@@ -20,6 +20,25 @@
       }
     }
   ],
+  "languageTimeline": [
+    {
+      "year": 2024,
+      "byCategory": {
+        "English": 1
+      }
+    }
+  ],
+  "subjectTrends": [
+    {
+      "year": 2024,
+      "byCategory": {
+        "Judges": 1,
+        "Africa": 1,
+        "Treaties": 1,
+        "Courts": 1
+      }
+    }
+  ],
   "types": [
     {
       "name": "Dataset",
@@ -136,6 +155,38 @@
       ]
     }
   ],
+  "treemap": [
+    {
+      "name": "Dataset",
+      "children": [
+        {
+          "name": "English",
+          "children": [
+            {
+              "name": "Judges",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Africa",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Treaties",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Courts",
+              "value": 1,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "sankey": {
     "nodes": [
       {
@@ -173,6 +224,9 @@
     "names": [],
     "matrix": []
   },
+  "timeAwareChord": {
+    "buckets": []
+  },
   "contributors": [
     {
       "name": "Stroh-Steckelberg, Alexander",
@@ -183,6 +237,30 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "calendarHeatmap": [],
+  "geoFlows": {
+    "flows": [
+      {
+        "from": {
+          "lng": 11.38556,
+          "lat": 49.07861,
+          "label": "Bavaria"
+        },
+        "to": {
+          "lng": 10.0,
+          "lat": 51.0,
+          "label": "Germany"
+        },
+        "count": 1
+      }
+    ]
+  },
   "locations": [
     {
       "country": "Germany",

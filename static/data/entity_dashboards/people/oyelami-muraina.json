@@ -197,6 +197,144 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [
+      "Greven, Katharina"
+    ],
+    "matrix": [
+      [
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Greven, Katharina",
+        "name": "Greven, Katharina",
+        "itemCount": 2
+      },
+      {
+        "id": "Beier, Ulli",
+        "name": "Beier, Ulli",
+        "itemCount": 1
+      },
+      {
+        "id": "Woldert, Siegfried",
+        "name": "Woldert, Siegfried",
+        "itemCount": 1
+      },
+      {
+        "id": "Salmanian, Siegrun",
+        "name": "Salmanian, Siegrun",
+        "itemCount": 1
+      },
+      {
+        "id": "Naumann, Lena",
+        "name": "Naumann, Lena",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Beier, Ulli",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 1
+      },
+      {
+        "personId": "Greven, Katharina",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 2
+      },
+      {
+        "personId": "Woldert, Siegfried",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 1
+      },
+      {
+        "personId": "Salmanian, Siegrun",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 1
+      },
+      {
+        "personId": "Naumann, Lena",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Greven, Katharina",
+        "name": "Greven, Katharina",
+        "itemCount": 2
+      },
+      {
+        "id": "Beier, Ulli",
+        "name": "Beier, Ulli",
+        "itemCount": 1
+      },
+      {
+        "id": "Woldert, Siegfried",
+        "name": "Woldert, Siegfried",
+        "itemCount": 1
+      },
+      {
+        "id": "Salmanian, Siegrun",
+        "name": "Salmanian, Siegrun",
+        "itemCount": 1
+      },
+      {
+        "id": "Naumann, Lena",
+        "name": "Naumann, Lena",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Bayreuth",
+        "name": "University of Bayreuth",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Beier, Ulli",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Greven, Katharina",
+        "targetId": "University of Bayreuth",
+        "count": 2
+      },
+      {
+        "personId": "Woldert, Siegfried",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Salmanian, Siegrun",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Naumann, Lena",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Germany",

@@ -139,6 +139,279 @@
       "value": 4
     }
   ],
+  "coContributors": {
+    "names": [
+      "Mwanabiningo, Nene Morisho",
+      "Sebudandi, Christophe",
+      "Kaganda Mulume Oderhwa, Philippe",
+      "Tegera, Aloy",
+      "Kinyera, Paddy Banya",
+      "Lankes, Maximilian"
+    ],
+    "matrix": [
+      [
+        0,
+        9,
+        9,
+        9,
+        0,
+        4
+      ],
+      [
+        9,
+        0,
+        9,
+        9,
+        0,
+        4
+      ],
+      [
+        9,
+        9,
+        0,
+        9,
+        0,
+        4
+      ],
+      [
+        9,
+        9,
+        9,
+        0,
+        0,
+        4
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        4,
+        4,
+        4,
+        0,
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Mwanabiningo, Nene Morisho",
+        "name": "Mwanabiningo, Nene Morisho",
+        "itemCount": 9
+      },
+      {
+        "id": "Sebudandi, Christophe",
+        "name": "Sebudandi, Christophe",
+        "itemCount": 9
+      },
+      {
+        "id": "Kaganda Mulume Oderhwa, Philippe",
+        "name": "Kaganda Mulume Oderhwa, Philippe",
+        "itemCount": 9
+      },
+      {
+        "id": "Tegera, Aloy",
+        "name": "Tegera, Aloy",
+        "itemCount": 9
+      },
+      {
+        "id": "Kinyera, Paddy Banya",
+        "name": "Kinyera, Paddy Banya",
+        "itemCount": 6
+      },
+      {
+        "id": "Lankes, Maximilian",
+        "name": "Lankes, Maximilian",
+        "itemCount": 4
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_MiConIturi2019",
+        "name": "Uhamaji wa wanyerwanda: Migration and Conflict in Ituri, DR Congo",
+        "itemCount": 9
+      },
+      {
+        "id": "UBT_OilMov2019",
+        "name": "Oil Movements: The Production and Government of Petro-(im)mobilities in East Africa",
+        "itemCount": 6
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Mwanabiningo, Nene Morisho",
+        "targetId": "UBT_MiConIturi2019",
+        "count": 9
+      },
+      {
+        "personId": "Sebudandi, Christophe",
+        "targetId": "UBT_MiConIturi2019",
+        "count": 9
+      },
+      {
+        "personId": "Kaganda Mulume Oderhwa, Philippe",
+        "targetId": "UBT_MiConIturi2019",
+        "count": 9
+      },
+      {
+        "personId": "Tegera, Aloy",
+        "targetId": "UBT_MiConIturi2019",
+        "count": 9
+      },
+      {
+        "personId": "Lankes, Maximilian",
+        "targetId": "UBT_MiConIturi2019",
+        "count": 4
+      },
+      {
+        "personId": "Kinyera, Paddy Banya",
+        "targetId": "UBT_OilMov2019",
+        "count": 6
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Mwanabiningo, Nene Morisho",
+        "name": "Mwanabiningo, Nene Morisho",
+        "itemCount": 27
+      },
+      {
+        "id": "Sebudandi, Christophe",
+        "name": "Sebudandi, Christophe",
+        "itemCount": 27
+      },
+      {
+        "id": "Kaganda Mulume Oderhwa, Philippe",
+        "name": "Kaganda Mulume Oderhwa, Philippe",
+        "itemCount": 27
+      },
+      {
+        "id": "Tegera, Aloy",
+        "name": "Tegera, Aloy",
+        "itemCount": 27
+      },
+      {
+        "id": "Lankes, Maximilian",
+        "name": "Lankes, Maximilian",
+        "itemCount": 12
+      },
+      {
+        "id": "Kinyera, Paddy Banya",
+        "name": "Kinyera, Paddy Banya",
+        "itemCount": 6
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Bayreuth",
+        "name": "University of Bayreuth",
+        "itemCount": 15
+      },
+      {
+        "id": "Pole Institut Goma",
+        "name": "Pole Institut Goma",
+        "itemCount": 9
+      },
+      {
+        "id": "Université Evangélique en Afrique",
+        "name": "Université Evangélique en Afrique",
+        "itemCount": 9
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Mwanabiningo, Nene Morisho",
+        "targetId": "University of Bayreuth",
+        "count": 9
+      },
+      {
+        "personId": "Sebudandi, Christophe",
+        "targetId": "University of Bayreuth",
+        "count": 9
+      },
+      {
+        "personId": "Kaganda Mulume Oderhwa, Philippe",
+        "targetId": "University of Bayreuth",
+        "count": 9
+      },
+      {
+        "personId": "Tegera, Aloy",
+        "targetId": "University of Bayreuth",
+        "count": 9
+      },
+      {
+        "personId": "Mwanabiningo, Nene Morisho",
+        "targetId": "Pole Institut Goma",
+        "count": 9
+      },
+      {
+        "personId": "Sebudandi, Christophe",
+        "targetId": "Pole Institut Goma",
+        "count": 9
+      },
+      {
+        "personId": "Kaganda Mulume Oderhwa, Philippe",
+        "targetId": "Pole Institut Goma",
+        "count": 9
+      },
+      {
+        "personId": "Tegera, Aloy",
+        "targetId": "Pole Institut Goma",
+        "count": 9
+      },
+      {
+        "personId": "Mwanabiningo, Nene Morisho",
+        "targetId": "Université Evangélique en Afrique",
+        "count": 9
+      },
+      {
+        "personId": "Sebudandi, Christophe",
+        "targetId": "Université Evangélique en Afrique",
+        "count": 9
+      },
+      {
+        "personId": "Kaganda Mulume Oderhwa, Philippe",
+        "targetId": "Université Evangélique en Afrique",
+        "count": 9
+      },
+      {
+        "personId": "Tegera, Aloy",
+        "targetId": "Université Evangélique en Afrique",
+        "count": 9
+      },
+      {
+        "personId": "Lankes, Maximilian",
+        "targetId": "University of Bayreuth",
+        "count": 4
+      },
+      {
+        "personId": "Lankes, Maximilian",
+        "targetId": "Pole Institut Goma",
+        "count": 4
+      },
+      {
+        "personId": "Lankes, Maximilian",
+        "targetId": "Université Evangélique en Afrique",
+        "count": 4
+      },
+      {
+        "personId": "Kinyera, Paddy Banya",
+        "targetId": "University of Bayreuth",
+        "count": 6
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Democratic Republic of the Congo",

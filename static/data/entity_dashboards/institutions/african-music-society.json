@@ -259,6 +259,36 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Tracey, Hugh",
+        "name": "Tracey, Hugh",
+        "itemCount": 10
+      }
+    ],
+    "targets": [
+      {
+        "id": "International Library of African Music (ILAM)",
+        "name": "International Library of African Music (ILAM)",
+        "itemCount": 10
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Tracey, Hugh",
+        "targetId": "International Library of African Music (ILAM)",
+        "count": 10
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "South Africa",

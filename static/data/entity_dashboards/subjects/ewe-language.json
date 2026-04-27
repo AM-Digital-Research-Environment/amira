@@ -54,6 +54,52 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Ethnomusicology",
+      "Ewe (African people)",
+      "Ewe language",
+      "Highlife (Music)",
+      "Blues (Music)"
+    ],
+    "matrix": [
+      [
+        0,
+        32,
+        32,
+        12,
+        7
+      ],
+      [
+        32,
+        0,
+        32,
+        12,
+        7
+      ],
+      [
+        32,
+        32,
+        0,
+        12,
+        7
+      ],
+      [
+        12,
+        12,
+        12,
+        0,
+        0
+      ],
+      [
+        7,
+        7,
+        7,
+        0,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Ethnomusicology",

@@ -51,6 +51,30 @@
       "value": 19
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Municipal engineering",
+      "Construction",
+      "Infrastructure (Economics)"
+    ],
+    "matrix": [
+      [
+        0,
+        19,
+        19
+      ],
+      [
+        19,
+        0,
+        19
+      ],
+      [
+        19,
+        19,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Municipal engineering",

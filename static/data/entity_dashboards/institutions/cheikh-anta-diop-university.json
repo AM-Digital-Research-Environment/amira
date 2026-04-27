@@ -153,6 +153,36 @@
       "value": 2
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Beye, Amadou Kane",
+        "name": "Beye, Amadou Kane",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Beye, Amadou Kane",
+        "targetId": "UBT_Covid192021",
+        "count": 2
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
   "locations": [
     {
       "country": "Senegal",

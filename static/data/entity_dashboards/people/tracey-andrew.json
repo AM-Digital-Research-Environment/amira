@@ -725,6 +725,100 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [],
+    "matrix": []
+  },
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Ngumu, Pie-Claude",
+        "name": "Ngumu, Pie-Claude",
+        "itemCount": 2
+      },
+      {
+        "id": "Gumboreshumba, Laina",
+        "name": "Gumboreshumba, Laina",
+        "itemCount": 2
+      },
+      {
+        "id": "Tracey, Hugh",
+        "name": "Tracey, Hugh",
+        "itemCount": 1
+      },
+      {
+        "id": "Nascimento, Haydee",
+        "name": "Nascimento, Haydee",
+        "itemCount": 1
+      },
+      {
+        "id": "Zantzinger, Gei",
+        "name": "Zantzinger, Gei",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "International Library of African Music (ILAM)",
+        "name": "International Library of African Music (ILAM)",
+        "itemCount": 5
+      },
+      {
+        "id": "Our Lady of Victories Cathedral, Yaoundé, Cameroon",
+        "name": "Our Lady of Victories Cathedral, Yaoundé, Cameroon",
+        "itemCount": 1
+      },
+      {
+        "id": "Rhodes University",
+        "name": "Rhodes University",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Tracey, Hugh",
+        "targetId": "International Library of African Music (ILAM)",
+        "count": 1
+      },
+      {
+        "personId": "Ngumu, Pie-Claude",
+        "targetId": "Our Lady of Victories Cathedral, Yaoundé, Cameroon",
+        "count": 1
+      },
+      {
+        "personId": "Ngumu, Pie-Claude",
+        "targetId": "International Library of African Music (ILAM)",
+        "count": 1
+      },
+      {
+        "personId": "Nascimento, Haydee",
+        "targetId": "International Library of African Music (ILAM)",
+        "count": 1
+      },
+      {
+        "personId": "Zantzinger, Gei",
+        "targetId": "International Library of African Music (ILAM)",
+        "count": 1
+      },
+      {
+        "personId": "Gumboreshumba, Laina",
+        "targetId": "International Library of African Music (ILAM)",
+        "count": 1
+      },
+      {
+        "personId": "Gumboreshumba, Laina",
+        "targetId": "Rhodes University",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "South Africa",

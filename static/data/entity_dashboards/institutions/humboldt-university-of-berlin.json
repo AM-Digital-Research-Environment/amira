@@ -657,6 +657,569 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Otung, Glory Essien",
+        "name": "Otung, Glory Essien",
+        "itemCount": 105
+      },
+      {
+        "id": "Anchimbe, Eric",
+        "name": "Anchimbe, Eric",
+        "itemCount": 105
+      },
+      {
+        "id": "Chiangong, Pepetual Mforbe",
+        "name": "Chiangong, Pepetual Mforbe",
+        "itemCount": 105
+      },
+      {
+        "id": "Marjie, Sarah",
+        "name": "Marjie, Sarah",
+        "itemCount": 105
+      },
+      {
+        "id": "Kengo, Emmanuel",
+        "name": "Kengo, Emmanuel",
+        "itemCount": 105
+      },
+      {
+        "id": "Atindogbe, Gratien",
+        "name": "Atindogbe, Gratien",
+        "itemCount": 105
+      },
+      {
+        "id": "Ubanako, Valentine",
+        "name": "Ubanako, Valentine",
+        "itemCount": 105
+      },
+      {
+        "id": "Mforteh, Stephen",
+        "name": "Mforteh, Stephen",
+        "itemCount": 105
+      },
+      {
+        "id": "Eyoh, Julius",
+        "name": "Eyoh, Julius",
+        "itemCount": 105
+      },
+      {
+        "id": "Oyali, Uchenna",
+        "name": "Oyali, Uchenna",
+        "itemCount": 105
+      },
+      {
+        "id": "Mbah, Boniface",
+        "name": "Mbah, Boniface",
+        "itemCount": 105
+      },
+      {
+        "id": "Pesek, Michael",
+        "name": "Pesek, Michael",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_CLnCK2019",
+        "name": "Colonial Letters and the Contact of Knowledges",
+        "itemCount": 105
+      },
+      {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Otung, Glory Essien",
+        "targetId": "UBT_CLnCK2019",
+        "count": 105
+      },
+      {
+        "personId": "Anchimbe, Eric",
+        "targetId": "UBT_CLnCK2019",
+        "count": 105
+      },
+      {
+        "personId": "Chiangong, Pepetual Mforbe",
+        "targetId": "UBT_CLnCK2019",
+        "count": 105
+      },
+      {
+        "personId": "Marjie, Sarah",
+        "targetId": "UBT_CLnCK2019",
+        "count": 105
+      },
+      {
+        "personId": "Kengo, Emmanuel",
+        "targetId": "UBT_CLnCK2019",
+        "count": 105
+      },
+      {
+        "personId": "Atindogbe, Gratien",
+        "targetId": "UBT_CLnCK2019",
+        "count": 105
+      },
+      {
+        "personId": "Ubanako, Valentine",
+        "targetId": "UBT_CLnCK2019",
+        "count": 105
+      },
+      {
+        "personId": "Mforteh, Stephen",
+        "targetId": "UBT_CLnCK2019",
+        "count": 105
+      },
+      {
+        "personId": "Eyoh, Julius",
+        "targetId": "UBT_CLnCK2019",
+        "count": 105
+      },
+      {
+        "personId": "Oyali, Uchenna",
+        "targetId": "UBT_CLnCK2019",
+        "count": 105
+      },
+      {
+        "personId": "Mbah, Boniface",
+        "targetId": "UBT_CLnCK2019",
+        "count": 105
+      },
+      {
+        "personId": "Pesek, Michael",
+        "targetId": "Ext_BayGlo2025",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Otung, Glory Essien",
+        "name": "Otung, Glory Essien",
+        "itemCount": 630
+      },
+      {
+        "id": "Anchimbe, Eric",
+        "name": "Anchimbe, Eric",
+        "itemCount": 630
+      },
+      {
+        "id": "Chiangong, Pepetual Mforbe",
+        "name": "Chiangong, Pepetual Mforbe",
+        "itemCount": 630
+      },
+      {
+        "id": "Marjie, Sarah",
+        "name": "Marjie, Sarah",
+        "itemCount": 630
+      },
+      {
+        "id": "Kengo, Emmanuel",
+        "name": "Kengo, Emmanuel",
+        "itemCount": 630
+      },
+      {
+        "id": "Atindogbe, Gratien",
+        "name": "Atindogbe, Gratien",
+        "itemCount": 630
+      },
+      {
+        "id": "Ubanako, Valentine",
+        "name": "Ubanako, Valentine",
+        "itemCount": 630
+      },
+      {
+        "id": "Mforteh, Stephen",
+        "name": "Mforteh, Stephen",
+        "itemCount": 630
+      },
+      {
+        "id": "Eyoh, Julius",
+        "name": "Eyoh, Julius",
+        "itemCount": 630
+      },
+      {
+        "id": "Oyali, Uchenna",
+        "name": "Oyali, Uchenna",
+        "itemCount": 630
+      },
+      {
+        "id": "Mbah, Boniface",
+        "name": "Mbah, Boniface",
+        "itemCount": 630
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Bayreuth",
+        "name": "University of Bayreuth",
+        "itemCount": 105
+      },
+      {
+        "id": "University of Ghana",
+        "name": "University of Ghana",
+        "itemCount": 105
+      },
+      {
+        "id": "University of Buea",
+        "name": "University of Buea",
+        "itemCount": 105
+      },
+      {
+        "id": "University of Yaoundé I",
+        "name": "University of Yaoundé I",
+        "itemCount": 105
+      },
+      {
+        "id": "University of Abuja",
+        "name": "University of Abuja",
+        "itemCount": 105
+      },
+      {
+        "id": "University of Nigeria, Nsukka",
+        "name": "University of Nigeria, Nsukka",
+        "itemCount": 105
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Otung, Glory Essien",
+        "targetId": "University of Bayreuth",
+        "count": 105
+      },
+      {
+        "personId": "Anchimbe, Eric",
+        "targetId": "University of Bayreuth",
+        "count": 105
+      },
+      {
+        "personId": "Chiangong, Pepetual Mforbe",
+        "targetId": "University of Bayreuth",
+        "count": 105
+      },
+      {
+        "personId": "Marjie, Sarah",
+        "targetId": "University of Bayreuth",
+        "count": 105
+      },
+      {
+        "personId": "Kengo, Emmanuel",
+        "targetId": "University of Bayreuth",
+        "count": 105
+      },
+      {
+        "personId": "Atindogbe, Gratien",
+        "targetId": "University of Bayreuth",
+        "count": 105
+      },
+      {
+        "personId": "Ubanako, Valentine",
+        "targetId": "University of Bayreuth",
+        "count": 105
+      },
+      {
+        "personId": "Mforteh, Stephen",
+        "targetId": "University of Bayreuth",
+        "count": 105
+      },
+      {
+        "personId": "Eyoh, Julius",
+        "targetId": "University of Bayreuth",
+        "count": 105
+      },
+      {
+        "personId": "Oyali, Uchenna",
+        "targetId": "University of Bayreuth",
+        "count": 105
+      },
+      {
+        "personId": "Mbah, Boniface",
+        "targetId": "University of Bayreuth",
+        "count": 105
+      },
+      {
+        "personId": "Otung, Glory Essien",
+        "targetId": "University of Ghana",
+        "count": 105
+      },
+      {
+        "personId": "Anchimbe, Eric",
+        "targetId": "University of Ghana",
+        "count": 105
+      },
+      {
+        "personId": "Chiangong, Pepetual Mforbe",
+        "targetId": "University of Ghana",
+        "count": 105
+      },
+      {
+        "personId": "Marjie, Sarah",
+        "targetId": "University of Ghana",
+        "count": 105
+      },
+      {
+        "personId": "Kengo, Emmanuel",
+        "targetId": "University of Ghana",
+        "count": 105
+      },
+      {
+        "personId": "Atindogbe, Gratien",
+        "targetId": "University of Ghana",
+        "count": 105
+      },
+      {
+        "personId": "Ubanako, Valentine",
+        "targetId": "University of Ghana",
+        "count": 105
+      },
+      {
+        "personId": "Mforteh, Stephen",
+        "targetId": "University of Ghana",
+        "count": 105
+      },
+      {
+        "personId": "Eyoh, Julius",
+        "targetId": "University of Ghana",
+        "count": 105
+      },
+      {
+        "personId": "Oyali, Uchenna",
+        "targetId": "University of Ghana",
+        "count": 105
+      },
+      {
+        "personId": "Mbah, Boniface",
+        "targetId": "University of Ghana",
+        "count": 105
+      },
+      {
+        "personId": "Otung, Glory Essien",
+        "targetId": "University of Buea",
+        "count": 105
+      },
+      {
+        "personId": "Anchimbe, Eric",
+        "targetId": "University of Buea",
+        "count": 105
+      },
+      {
+        "personId": "Chiangong, Pepetual Mforbe",
+        "targetId": "University of Buea",
+        "count": 105
+      },
+      {
+        "personId": "Marjie, Sarah",
+        "targetId": "University of Buea",
+        "count": 105
+      },
+      {
+        "personId": "Kengo, Emmanuel",
+        "targetId": "University of Buea",
+        "count": 105
+      },
+      {
+        "personId": "Atindogbe, Gratien",
+        "targetId": "University of Buea",
+        "count": 105
+      },
+      {
+        "personId": "Ubanako, Valentine",
+        "targetId": "University of Buea",
+        "count": 105
+      },
+      {
+        "personId": "Mforteh, Stephen",
+        "targetId": "University of Buea",
+        "count": 105
+      },
+      {
+        "personId": "Eyoh, Julius",
+        "targetId": "University of Buea",
+        "count": 105
+      },
+      {
+        "personId": "Oyali, Uchenna",
+        "targetId": "University of Buea",
+        "count": 105
+      },
+      {
+        "personId": "Mbah, Boniface",
+        "targetId": "University of Buea",
+        "count": 105
+      },
+      {
+        "personId": "Otung, Glory Essien",
+        "targetId": "University of Yaoundé I",
+        "count": 105
+      },
+      {
+        "personId": "Anchimbe, Eric",
+        "targetId": "University of Yaoundé I",
+        "count": 105
+      },
+      {
+        "personId": "Chiangong, Pepetual Mforbe",
+        "targetId": "University of Yaoundé I",
+        "count": 105
+      },
+      {
+        "personId": "Marjie, Sarah",
+        "targetId": "University of Yaoundé I",
+        "count": 105
+      },
+      {
+        "personId": "Kengo, Emmanuel",
+        "targetId": "University of Yaoundé I",
+        "count": 105
+      },
+      {
+        "personId": "Atindogbe, Gratien",
+        "targetId": "University of Yaoundé I",
+        "count": 105
+      },
+      {
+        "personId": "Ubanako, Valentine",
+        "targetId": "University of Yaoundé I",
+        "count": 105
+      },
+      {
+        "personId": "Mforteh, Stephen",
+        "targetId": "University of Yaoundé I",
+        "count": 105
+      },
+      {
+        "personId": "Eyoh, Julius",
+        "targetId": "University of Yaoundé I",
+        "count": 105
+      },
+      {
+        "personId": "Oyali, Uchenna",
+        "targetId": "University of Yaoundé I",
+        "count": 105
+      },
+      {
+        "personId": "Mbah, Boniface",
+        "targetId": "University of Yaoundé I",
+        "count": 105
+      },
+      {
+        "personId": "Otung, Glory Essien",
+        "targetId": "University of Abuja",
+        "count": 105
+      },
+      {
+        "personId": "Anchimbe, Eric",
+        "targetId": "University of Abuja",
+        "count": 105
+      },
+      {
+        "personId": "Chiangong, Pepetual Mforbe",
+        "targetId": "University of Abuja",
+        "count": 105
+      },
+      {
+        "personId": "Marjie, Sarah",
+        "targetId": "University of Abuja",
+        "count": 105
+      },
+      {
+        "personId": "Kengo, Emmanuel",
+        "targetId": "University of Abuja",
+        "count": 105
+      },
+      {
+        "personId": "Atindogbe, Gratien",
+        "targetId": "University of Abuja",
+        "count": 105
+      },
+      {
+        "personId": "Ubanako, Valentine",
+        "targetId": "University of Abuja",
+        "count": 105
+      },
+      {
+        "personId": "Mforteh, Stephen",
+        "targetId": "University of Abuja",
+        "count": 105
+      },
+      {
+        "personId": "Eyoh, Julius",
+        "targetId": "University of Abuja",
+        "count": 105
+      },
+      {
+        "personId": "Oyali, Uchenna",
+        "targetId": "University of Abuja",
+        "count": 105
+      },
+      {
+        "personId": "Mbah, Boniface",
+        "targetId": "University of Abuja",
+        "count": 105
+      },
+      {
+        "personId": "Otung, Glory Essien",
+        "targetId": "University of Nigeria, Nsukka",
+        "count": 105
+      },
+      {
+        "personId": "Anchimbe, Eric",
+        "targetId": "University of Nigeria, Nsukka",
+        "count": 105
+      },
+      {
+        "personId": "Chiangong, Pepetual Mforbe",
+        "targetId": "University of Nigeria, Nsukka",
+        "count": 105
+      },
+      {
+        "personId": "Marjie, Sarah",
+        "targetId": "University of Nigeria, Nsukka",
+        "count": 105
+      },
+      {
+        "personId": "Kengo, Emmanuel",
+        "targetId": "University of Nigeria, Nsukka",
+        "count": 105
+      },
+      {
+        "personId": "Atindogbe, Gratien",
+        "targetId": "University of Nigeria, Nsukka",
+        "count": 105
+      },
+      {
+        "personId": "Ubanako, Valentine",
+        "targetId": "University of Nigeria, Nsukka",
+        "count": 105
+      },
+      {
+        "personId": "Mforteh, Stephen",
+        "targetId": "University of Nigeria, Nsukka",
+        "count": 105
+      },
+      {
+        "personId": "Eyoh, Julius",
+        "targetId": "University of Nigeria, Nsukka",
+        "count": 105
+      },
+      {
+        "personId": "Oyali, Uchenna",
+        "targetId": "University of Nigeria, Nsukka",
+        "count": 105
+      },
+      {
+        "personId": "Mbah, Boniface",
+        "targetId": "University of Nigeria, Nsukka",
+        "count": 105
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Cameroon",

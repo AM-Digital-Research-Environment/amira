@@ -119,6 +119,418 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [],
+    "matrix": []
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Bationo, Bouma Fernand",
+        "name": "Bationo, Bouma Fernand",
+        "itemCount": 1
+      },
+      {
+        "id": "Sanou, Doti Bruno",
+        "name": "Sanou, Doti Bruno",
+        "itemCount": 1
+      },
+      {
+        "id": "Sanou, Anselme Titiama",
+        "name": "Sanou, Anselme Titiama",
+        "itemCount": 1
+      },
+      {
+        "id": "Sanon, Sidiki",
+        "name": "Sanon, Sidiki",
+        "itemCount": 1
+      },
+      {
+        "id": "Ouattara, Amadou",
+        "name": "Ouattara, Amadou",
+        "itemCount": 1
+      },
+      {
+        "id": "Sanou, Issiaka",
+        "name": "Sanou, Issiaka",
+        "itemCount": 1
+      },
+      {
+        "id": "Sanon, Findomom Simon Pierre",
+        "name": "Sanon, Findomom Simon Pierre",
+        "itemCount": 1
+      },
+      {
+        "id": "Traoré, Honoré Nabéré",
+        "name": "Traoré, Honoré Nabéré",
+        "itemCount": 1
+      },
+      {
+        "id": "Soulama, Brahima",
+        "name": "Soulama, Brahima",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Bationo, Bouma Fernand",
+        "targetId": "UJKZ_JITBF2020",
+        "count": 1
+      },
+      {
+        "personId": "Sanou, Doti Bruno",
+        "targetId": "UJKZ_JITBF2020",
+        "count": 1
+      },
+      {
+        "personId": "Sanou, Anselme Titiama",
+        "targetId": "UJKZ_JITBF2020",
+        "count": 1
+      },
+      {
+        "personId": "Sanon, Sidiki",
+        "targetId": "UJKZ_JITBF2020",
+        "count": 1
+      },
+      {
+        "personId": "Ouattara, Amadou",
+        "targetId": "UJKZ_JITBF2020",
+        "count": 1
+      },
+      {
+        "personId": "Sanou, Issiaka",
+        "targetId": "UJKZ_JITBF2020",
+        "count": 1
+      },
+      {
+        "personId": "Sanon, Findomom Simon Pierre",
+        "targetId": "UJKZ_JITBF2020",
+        "count": 1
+      },
+      {
+        "personId": "Traoré, Honoré Nabéré",
+        "targetId": "UJKZ_JITBF2020",
+        "count": 1
+      },
+      {
+        "personId": "Soulama, Brahima",
+        "targetId": "UJKZ_JITBF2020",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Bationo, Bouma Fernand",
+        "name": "Bationo, Bouma Fernand",
+        "itemCount": 5
+      },
+      {
+        "id": "Sanou, Doti Bruno",
+        "name": "Sanou, Doti Bruno",
+        "itemCount": 5
+      },
+      {
+        "id": "Sanou, Anselme Titiama",
+        "name": "Sanou, Anselme Titiama",
+        "itemCount": 5
+      },
+      {
+        "id": "Sanon, Sidiki",
+        "name": "Sanon, Sidiki",
+        "itemCount": 5
+      },
+      {
+        "id": "Ouattara, Amadou",
+        "name": "Ouattara, Amadou",
+        "itemCount": 5
+      },
+      {
+        "id": "Sanou, Issiaka",
+        "name": "Sanou, Issiaka",
+        "itemCount": 5
+      },
+      {
+        "id": "Sanon, Findomom Simon Pierre",
+        "name": "Sanon, Findomom Simon Pierre",
+        "itemCount": 5
+      },
+      {
+        "id": "Traoré, Honoré Nabéré",
+        "name": "Traoré, Honoré Nabéré",
+        "itemCount": 5
+      },
+      {
+        "id": "Soulama, Brahima",
+        "name": "Soulama, Brahima",
+        "itemCount": 5
+      }
+    ],
+    "targets": [
+      {
+        "id": "Université Joseph Ki-Zerbo",
+        "name": "Université Joseph Ki-Zerbo",
+        "itemCount": 1
+      },
+      {
+        "id": "Centre Africain de recherche pour une pratique culturelle du Développement",
+        "name": "Centre Africain de recherche pour une pratique culturelle du Développement",
+        "itemCount": 1
+      },
+      {
+        "id": "Conseil Villageois de Développement",
+        "name": "Conseil Villageois de Développement",
+        "itemCount": 1
+      },
+      {
+        "id": "Commissariat Central de Police de Bobo-Dioulasso",
+        "name": "Commissariat Central de Police de Bobo-Dioulasso",
+        "itemCount": 1
+      },
+      {
+        "id": "Tribunal de Grande Instance de Bobo-Dioulasso",
+        "name": "Tribunal de Grande Instance de Bobo-Dioulasso",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Bationo, Bouma Fernand",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Sanou, Doti Bruno",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Sanou, Anselme Titiama",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Sanon, Sidiki",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Ouattara, Amadou",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Sanou, Issiaka",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Sanon, Findomom Simon Pierre",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Traoré, Honoré Nabéré",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Soulama, Brahima",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Bationo, Bouma Fernand",
+        "targetId": "Centre Africain de recherche pour une pratique culturelle du Développement",
+        "count": 1
+      },
+      {
+        "personId": "Sanou, Doti Bruno",
+        "targetId": "Centre Africain de recherche pour une pratique culturelle du Développement",
+        "count": 1
+      },
+      {
+        "personId": "Sanou, Anselme Titiama",
+        "targetId": "Centre Africain de recherche pour une pratique culturelle du Développement",
+        "count": 1
+      },
+      {
+        "personId": "Sanon, Sidiki",
+        "targetId": "Centre Africain de recherche pour une pratique culturelle du Développement",
+        "count": 1
+      },
+      {
+        "personId": "Ouattara, Amadou",
+        "targetId": "Centre Africain de recherche pour une pratique culturelle du Développement",
+        "count": 1
+      },
+      {
+        "personId": "Sanou, Issiaka",
+        "targetId": "Centre Africain de recherche pour une pratique culturelle du Développement",
+        "count": 1
+      },
+      {
+        "personId": "Sanon, Findomom Simon Pierre",
+        "targetId": "Centre Africain de recherche pour une pratique culturelle du Développement",
+        "count": 1
+      },
+      {
+        "personId": "Traoré, Honoré Nabéré",
+        "targetId": "Centre Africain de recherche pour une pratique culturelle du Développement",
+        "count": 1
+      },
+      {
+        "personId": "Soulama, Brahima",
+        "targetId": "Centre Africain de recherche pour une pratique culturelle du Développement",
+        "count": 1
+      },
+      {
+        "personId": "Bationo, Bouma Fernand",
+        "targetId": "Conseil Villageois de Développement",
+        "count": 1
+      },
+      {
+        "personId": "Sanou, Doti Bruno",
+        "targetId": "Conseil Villageois de Développement",
+        "count": 1
+      },
+      {
+        "personId": "Sanou, Anselme Titiama",
+        "targetId": "Conseil Villageois de Développement",
+        "count": 1
+      },
+      {
+        "personId": "Sanon, Sidiki",
+        "targetId": "Conseil Villageois de Développement",
+        "count": 1
+      },
+      {
+        "personId": "Ouattara, Amadou",
+        "targetId": "Conseil Villageois de Développement",
+        "count": 1
+      },
+      {
+        "personId": "Sanou, Issiaka",
+        "targetId": "Conseil Villageois de Développement",
+        "count": 1
+      },
+      {
+        "personId": "Sanon, Findomom Simon Pierre",
+        "targetId": "Conseil Villageois de Développement",
+        "count": 1
+      },
+      {
+        "personId": "Traoré, Honoré Nabéré",
+        "targetId": "Conseil Villageois de Développement",
+        "count": 1
+      },
+      {
+        "personId": "Soulama, Brahima",
+        "targetId": "Conseil Villageois de Développement",
+        "count": 1
+      },
+      {
+        "personId": "Bationo, Bouma Fernand",
+        "targetId": "Commissariat Central de Police de Bobo-Dioulasso",
+        "count": 1
+      },
+      {
+        "personId": "Sanou, Doti Bruno",
+        "targetId": "Commissariat Central de Police de Bobo-Dioulasso",
+        "count": 1
+      },
+      {
+        "personId": "Sanou, Anselme Titiama",
+        "targetId": "Commissariat Central de Police de Bobo-Dioulasso",
+        "count": 1
+      },
+      {
+        "personId": "Sanon, Sidiki",
+        "targetId": "Commissariat Central de Police de Bobo-Dioulasso",
+        "count": 1
+      },
+      {
+        "personId": "Ouattara, Amadou",
+        "targetId": "Commissariat Central de Police de Bobo-Dioulasso",
+        "count": 1
+      },
+      {
+        "personId": "Sanou, Issiaka",
+        "targetId": "Commissariat Central de Police de Bobo-Dioulasso",
+        "count": 1
+      },
+      {
+        "personId": "Sanon, Findomom Simon Pierre",
+        "targetId": "Commissariat Central de Police de Bobo-Dioulasso",
+        "count": 1
+      },
+      {
+        "personId": "Traoré, Honoré Nabéré",
+        "targetId": "Commissariat Central de Police de Bobo-Dioulasso",
+        "count": 1
+      },
+      {
+        "personId": "Soulama, Brahima",
+        "targetId": "Commissariat Central de Police de Bobo-Dioulasso",
+        "count": 1
+      },
+      {
+        "personId": "Bationo, Bouma Fernand",
+        "targetId": "Tribunal de Grande Instance de Bobo-Dioulasso",
+        "count": 1
+      },
+      {
+        "personId": "Sanou, Doti Bruno",
+        "targetId": "Tribunal de Grande Instance de Bobo-Dioulasso",
+        "count": 1
+      },
+      {
+        "personId": "Sanou, Anselme Titiama",
+        "targetId": "Tribunal de Grande Instance de Bobo-Dioulasso",
+        "count": 1
+      },
+      {
+        "personId": "Sanon, Sidiki",
+        "targetId": "Tribunal de Grande Instance de Bobo-Dioulasso",
+        "count": 1
+      },
+      {
+        "personId": "Ouattara, Amadou",
+        "targetId": "Tribunal de Grande Instance de Bobo-Dioulasso",
+        "count": 1
+      },
+      {
+        "personId": "Sanou, Issiaka",
+        "targetId": "Tribunal de Grande Instance de Bobo-Dioulasso",
+        "count": 1
+      },
+      {
+        "personId": "Sanon, Findomom Simon Pierre",
+        "targetId": "Tribunal de Grande Instance de Bobo-Dioulasso",
+        "count": 1
+      },
+      {
+        "personId": "Traoré, Honoré Nabéré",
+        "targetId": "Tribunal de Grande Instance de Bobo-Dioulasso",
+        "count": 1
+      },
+      {
+        "personId": "Soulama, Brahima",
+        "targetId": "Tribunal de Grande Instance de Bobo-Dioulasso",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Burkina Faso",

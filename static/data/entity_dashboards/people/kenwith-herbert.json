@@ -81,6 +81,140 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [],
+    "matrix": []
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Peete, Bob",
+        "name": "Peete, Bob",
+        "itemCount": 1
+      },
+      {
+        "id": "Paul, Normal",
+        "name": "Paul, Normal",
+        "itemCount": 1
+      },
+      {
+        "id": "Elinson, Javk",
+        "name": "Elinson, Javk",
+        "itemCount": 1
+      },
+      {
+        "id": "Mannings, Allan",
+        "name": "Mannings, Allan",
+        "itemCount": 1
+      },
+      {
+        "id": "Shulman, Roger",
+        "name": "Shulman, Roger",
+        "itemCount": 1
+      },
+      {
+        "id": "Baskin, John",
+        "name": "Baskin, John",
+        "itemCount": 1
+      },
+      {
+        "id": "LeBlanc, Whitney",
+        "name": "LeBlanc, Whitney",
+        "itemCount": 1
+      },
+      {
+        "id": "Kukoff, Bernie",
+        "name": "Kukoff, Bernie",
+        "itemCount": 1
+      },
+      {
+        "id": "Harris, Jeff",
+        "name": "Harris, Jeff",
+        "itemCount": 1
+      },
+      {
+        "id": "Anderson, John Maxwell",
+        "name": "Anderson, John Maxwell",
+        "itemCount": 1
+      },
+      {
+        "id": "Lewin, Albert E.",
+        "name": "Lewin, Albert E.",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Peete, Bob",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Paul, Normal",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Elinson, Javk",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Mannings, Allan",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Shulman, Roger",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Baskin, John",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "LeBlanc, Whitney",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Kukoff, Bernie",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Harris, Jeff",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Anderson, John Maxwell",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Lewin, Albert E.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
   "locations": [
     {
       "country": "Liberia",

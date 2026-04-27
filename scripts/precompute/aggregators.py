@@ -960,6 +960,373 @@ def build_locations(items: Iterable[dict]) -> list[dict]:
 
 
 # --------------------------------------------------------------------------
+# Co-occurrence networks (Phase 4)
+# --------------------------------------------------------------------------
+
+
+def build_co_contributors(
+    items: Iterable[dict],
+    min_occurrences: int = 2,
+    max_persons: int = 25,
+    exclude: str | None = None,
+) -> dict:
+    """Chart: `coContributors` (person co-credit chord) -> `{names, matrix}`.
+
+    Two persons are linked when they appear together on the same item's
+    `name[]` list (qualifier="person") — regardless of MARC role. This is
+    a generic "co-credited persons" relation, not academic co-authorship:
+    a photographer and an interviewee credited on the same recording show
+    up as connected.
+
+    When `exclude` is set (per-person dashboards), that person is dropped
+    from the names list — the chart shows the network *between this
+    person's other co-contributors*, not connections to the person
+    themself, which would saturate every cell.
+    """
+    person_counts: Counter[str] = Counter()
+    per_item_persons: list[list[str]] = []
+
+    for item in items:
+        labels = _names_with_qualifier(item, "person")
+        # De-dupe: an item that lists the same person twice shouldn't double-edge.
+        unique = list(dict.fromkeys(labels))
+        if exclude:
+            unique = [p for p in unique if p != exclude]
+        per_item_persons.append(unique)
+        for person in unique:
+            person_counts[person] += 1
+
+    top = [
+        name
+        for name, count in person_counts.most_common(max_persons)
+        if count >= min_occurrences
+    ]
+    if not top:
+        return {"names": [], "matrix": []}
+
+    idx = {name: i for i, name in enumerate(top)}
+    n = len(top)
+    matrix = [[0] * n for _ in range(n)]
+
+    for persons in per_item_persons:
+        known = [name for name in persons if name in idx]
+        for i in range(len(known)):
+            for j in range(i + 1, len(known)):
+                a = idx[known[i]]
+                b = idx[known[j]]
+                matrix[a][b] += 1
+                matrix[b][a] += 1
+
+    return {"names": top, "matrix": matrix}
+
+
+def build_contributor_network(
+    items: Iterable[dict],
+    target: str = "project",
+    max_persons: int = 25,
+    max_targets: int = 15,
+    min_edge_weight: int = 1,
+    exclude_person: str | None = None,
+    exclude_target: str | None = None,
+) -> dict:
+    """Chart: `contributorNetwork` / `affiliationNetwork` -> bipartite
+    person↔target graph, ready for `<ContributorNetwork>` to render.
+
+    `target` selects the second axis:
+      - "project"     -> uses `item.project.{id, name}`
+      - "institution" -> uses affiliations referenced on `item.name[].affl`
+
+    Returns the canonical `ContributorNetworkData` shape:
+      `{persons: [{id, name, itemCount}], targets: [{id, name, itemCount}],
+        edges: [{personId, targetId, count}], targetLabel}`.
+
+    Edges below `min_edge_weight` are dropped before the top-N caps run, so
+    the resulting graph is *meaningful* even when an entity has thousands
+    of weak ties.
+    """
+    items_list = list(items)
+
+    person_counts: Counter[str] = Counter()
+    target_counts: Counter[str] = Counter()
+    target_labels: dict[str, str] = {}
+    edge_weights: Counter[tuple[str, str]] = Counter()
+
+    for item in items_list:
+        persons = _names_with_qualifier(item, "person")
+        if exclude_person:
+            persons = [p for p in persons if p != exclude_person]
+        if not persons:
+            continue
+        # De-dupe to avoid double-counting per item.
+        persons = list(dict.fromkeys(persons))
+
+        if target == "project":
+            project = item.get("project") or {}
+            if not isinstance(project, dict):
+                continue
+            tid = _as_str(project.get("id"))
+            tname = _as_str(project.get("name")) or tid
+            if not tid:
+                continue
+            if exclude_target and tid == exclude_target:
+                continue
+            target_labels.setdefault(tid, tname or tid)
+            target_counts[tid] += 1
+            for person in persons:
+                person_counts[person] += 1
+                edge_weights[(person, tid)] += 1
+        elif target == "institution":
+            institutions = list(dict.fromkeys(_affiliations(item)))
+            if exclude_target:
+                institutions = [i for i in institutions if i != exclude_target]
+            for inst in institutions:
+                target_labels.setdefault(inst, inst)
+                target_counts[inst] += 1
+                for person in persons:
+                    person_counts[person] += 1
+                    edge_weights[(person, inst)] += 1
+        else:
+            raise ValueError(f"Unknown contributor-network target: {target!r}")
+
+    # Cap to the top-N for readability. Sort criterion is itemCount so the
+    # graph keeps the most active contributors / targets.
+    top_persons = [name for name, _ in person_counts.most_common(max_persons)]
+    top_targets = [tid for tid, _ in target_counts.most_common(max_targets)]
+    top_persons_set = set(top_persons)
+    top_targets_set = set(top_targets)
+
+    edges = []
+    for (person, tid), weight in edge_weights.items():
+        if weight < min_edge_weight:
+            continue
+        if person not in top_persons_set or tid not in top_targets_set:
+            continue
+        edges.append({"personId": person, "targetId": tid, "count": weight})
+
+    if not edges:
+        return {"persons": [], "targets": [], "edges": [], "targetLabel": ""}
+
+    target_label = "Projects" if target == "project" else "Institutions"
+
+    return {
+        "persons": [
+            {"id": name, "name": name, "itemCount": person_counts[name]}
+            for name in top_persons
+            # Drop persons left without any edge after capping targets.
+            if any(e["personId"] == name for e in edges)
+        ],
+        "targets": [
+            {"id": tid, "name": target_labels.get(tid, tid), "itemCount": target_counts[tid]}
+            for tid in top_targets
+            if any(e["targetId"] == tid for e in edges)
+        ],
+        "edges": edges,
+        "targetLabel": target_label,
+    }
+
+
+# --------------------------------------------------------------------------
+# Geographic flows (Phase 4)
+# --------------------------------------------------------------------------
+
+
+def _resolve_coords(
+    geo: dict,
+    country: str | None,
+    region: str | None = None,
+    city: str | None = None,
+    label_only: str | None = None,
+) -> tuple[float, float, str] | None:
+    """Resolve a location to (lng, lat, label) via the dev.geo.json index.
+
+    Looks up the most-precise coordinate available: city -> region -> country.
+    `label_only` is for `location.current[]` strings that are bare names
+    without a country qualifier — try matching against city, region, then
+    country directly.
+    """
+    cities = geo.get("cities") or {}
+    regions = geo.get("regions") or {}
+    countries = geo.get("countries") or {}
+
+    if label_only:
+        # `label_only` may carry just a city or country name. Prefer the
+        # most-precise match if any keyed entry endswith "|<label_only>".
+        for key, latlng in cities.items():
+            if key == label_only or key.split("|")[0] == label_only:
+                lat, lng = latlng
+                return lng, lat, key.split("|")[0]
+        for key, latlng in regions.items():
+            if key == label_only or key.split("|")[0] == label_only:
+                lat, lng = latlng
+                return lng, lat, key.split("|")[0]
+        latlng = countries.get(label_only)
+        if latlng:
+            lat, lng = latlng
+            return lng, lat, label_only
+        return None
+
+    if city and country:
+        latlng = cities.get(f"{city}|{country}")
+        if latlng:
+            lat, lng = latlng
+            return lng, lat, city
+    if region and country:
+        latlng = regions.get(f"{region}|{country}")
+        if latlng:
+            lat, lng = latlng
+            return lng, lat, region
+    if country:
+        latlng = countries.get(country)
+        if latlng:
+            lat, lng = latlng
+            return lng, lat, country
+    return None
+
+
+def build_geo_flows(
+    items: Iterable[dict],
+    geo: dict,
+    max_flows: int = 200,
+) -> dict:
+    """Chart: `geoFlows` -> `{flows: [{from, to, count}]}`.
+
+    Each item contributes one flow per (origin, current) pair, geocoded via
+    the bundled `dev.geo.json` index. Items without resolvable coords on
+    both endpoints are skipped silently — better to have a sparser map than
+    false arcs to (0,0).
+    """
+    flow_counts: Counter[tuple[float, float, str, float, float, str]] = Counter()
+
+    for item in items:
+        location = item.get("location") or {}
+        origins = location.get("origin") or []
+        currents = location.get("current") or []
+        if not origins or not currents:
+            continue
+        for origin in origins:
+            if not isinstance(origin, dict):
+                continue
+            country = _as_str(origin.get("l1"))
+            region = _as_str(origin.get("l2"))
+            city = _as_str(origin.get("l3"))
+            from_coords = _resolve_coords(geo, country, region, city)
+            if not from_coords:
+                continue
+            for current in currents:
+                cur_label = _as_str(current)
+                if not cur_label:
+                    continue
+                to_coords = _resolve_coords(geo, None, label_only=cur_label)
+                if not to_coords:
+                    continue
+                key = (
+                    from_coords[0], from_coords[1], from_coords[2],
+                    to_coords[0], to_coords[1], to_coords[2],
+                )
+                flow_counts[key] += 1
+
+    flows = [
+        {
+            "from": {"lng": frm_lng, "lat": frm_lat, "label": frm_lbl},
+            "to": {"lng": to_lng, "lat": to_lat, "label": to_lbl},
+            "count": count,
+        }
+        for (frm_lng, frm_lat, frm_lbl, to_lng, to_lat, to_lbl), count in flow_counts.most_common(max_flows)
+    ]
+    return {"flows": flows}
+
+
+# --------------------------------------------------------------------------
+# Time-aware chord (Phase 4)
+# --------------------------------------------------------------------------
+
+
+def build_time_aware_chord(
+    items: Iterable[dict],
+    min_occurrences: int = 2,
+    max_subjects: int = 20,
+    cumulative: bool = True,
+) -> dict:
+    """Chart: `timeAwareChord` -> year-bucketed subject co-occurrence.
+
+    Returns `{buckets: [{year, names, matrix}]}`. The matrix per bucket
+    uses a *fixed* names axis — the top subjects across the whole
+    timespan — so the slider scrubs over a stable network, only the edge
+    weights change. Without that, names jumping around per year would
+    make the diagram useless.
+
+    With `cumulative=True` (default) each year's matrix sums every
+    co-occurrence from `minYear..year`. That keeps the chord well-populated
+    in early years and emphasises the build-up over time. Set
+    `cumulative=False` for per-year-only counts (sparse for low-volume
+    archives).
+    """
+    items_list = list(items)
+    if not items_list:
+        return {"buckets": []}
+
+    # Pick the global top-N subjects so the names axis is stable across years.
+    global_counts: Counter[str] = Counter()
+    items_with_year: list[tuple[int, list[str]]] = []
+    for item in items_list:
+        year = _item_year(item)
+        if year is None:
+            continue
+        labels = _subject_labels(item)
+        if not labels:
+            continue
+        items_with_year.append((year, labels))
+        for subj in labels:
+            global_counts[subj] += 1
+
+    top = [name for name, c in global_counts.most_common(max_subjects) if c >= min_occurrences]
+    if not top or not items_with_year:
+        return {"buckets": []}
+
+    idx = {name: i for i, name in enumerate(top)}
+    n = len(top)
+
+    # Group co-occurrences by year on the stable names axis.
+    by_year: dict[int, list[list[int]]] = {}
+    for year, labels in items_with_year:
+        bucket = by_year.setdefault(year, [[0] * n for _ in range(n)])
+        known = [idx[name] for name in labels if name in idx]
+        for i in range(len(known)):
+            for j in range(i + 1, len(known)):
+                a, b = known[i], known[j]
+                bucket[a][b] += 1
+                bucket[b][a] += 1
+
+    if not by_year:
+        return {"buckets": []}
+
+    sorted_years = sorted(by_year.keys())
+
+    if cumulative:
+        running = [[0] * n for _ in range(n)]
+        buckets = []
+        for year in sorted_years:
+            year_matrix = by_year[year]
+            for i in range(n):
+                for j in range(n):
+                    running[i][j] += year_matrix[i][j]
+            # Deep copy so subsequent additions don't mutate emitted snapshots.
+            buckets.append({
+                "year": year,
+                "names": top,
+                "matrix": [row[:] for row in running],
+            })
+        return {"buckets": buckets}
+
+    return {
+        "buckets": [
+            {"year": year, "names": top, "matrix": by_year[year]}
+            for year in sorted_years
+        ]
+    }
+
+
+# --------------------------------------------------------------------------
 # Metadata
 # --------------------------------------------------------------------------
 

@@ -46,6 +46,64 @@
       "value": 2
     }
   ],
+  "coContributors": {
+    "names": [
+      "Olusola, Segun"
+    ],
+    "matrix": [
+      [
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Olusola, Segun",
+        "name": "Olusola, Segun",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Olusola, Segun",
+        "targetId": "UBT_TaiSha2021",
+        "count": 2
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Olusola, Segun",
+        "name": "Olusola, Segun",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "Goethe Institute",
+        "name": "Goethe Institute",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Olusola, Segun",
+        "targetId": "Goethe Institute",
+        "count": 2
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Nigeria",

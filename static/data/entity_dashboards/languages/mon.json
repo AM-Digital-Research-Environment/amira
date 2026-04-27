@@ -248,6 +248,34 @@
       "value": 3
     }
   ],
+  "subjectTrends": [
+    {
+      "year": 2021,
+      "byCategory": {
+        "Herders": 3,
+        "Livestock": 3,
+        "Schools": 2,
+        "Travel": 2,
+        "Arid regions": 3,
+        "Disasters": 3,
+        "Vaccination": 1,
+        "Food security": 2
+      }
+    },
+    {
+      "year": 2022,
+      "byCategory": {
+        "Herders": 1,
+        "Livestock": 0,
+        "Schools": 1,
+        "Travel": 0,
+        "Arid regions": 0,
+        "Disasters": 0,
+        "Vaccination": 1,
+        "Food security": 0
+      }
+    }
+  ],
   "locations": [
     {
       "country": "Mongolia",

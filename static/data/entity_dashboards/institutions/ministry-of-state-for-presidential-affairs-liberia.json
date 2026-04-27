@@ -122,6 +122,144 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Doe, Samuel Kanyon",
+        "name": "Doe, Samuel Kanyon",
+        "itemCount": 10
+      },
+      {
+        "id": "Moniba, Harry Fumba",
+        "name": "Moniba, Harry Fumba",
+        "itemCount": 3
+      },
+      {
+        "id": "Gbenyon, Charles",
+        "name": "Gbenyon, Charles",
+        "itemCount": 2
+      },
+      {
+        "id": "Ceaușescu, Nicolae",
+        "name": "Ceaușescu, Nicolae",
+        "itemCount": 1
+      },
+      {
+        "id": "Rancy, John G.",
+        "name": "Rancy, John G.",
+        "itemCount": 1
+      },
+      {
+        "id": "Morris, Joseph G.",
+        "name": "Morris, Joseph G.",
+        "itemCount": 1
+      },
+      {
+        "id": "Ward, Amelia",
+        "name": "Ward, Amelia",
+        "itemCount": 1
+      },
+      {
+        "id": "Christopher, Victoria",
+        "name": "Christopher, Victoria",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System",
+        "itemCount": 11
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Doe, Samuel Kanyon",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 10
+      },
+      {
+        "personId": "Gbenyon, Charles",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 2
+      },
+      {
+        "personId": "Moniba, Harry Fumba",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 3
+      },
+      {
+        "personId": "Ceaușescu, Nicolae",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Rancy, John G.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Morris, Joseph G.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Ward, Amelia",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Christopher, Victoria",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Doe, Samuel Kanyon",
+        "name": "Doe, Samuel Kanyon",
+        "itemCount": 1
+      },
+      {
+        "id": "Ward, Amelia",
+        "name": "Ward, Amelia",
+        "itemCount": 1
+      },
+      {
+        "id": "Christopher, Victoria",
+        "name": "Christopher, Victoria",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Ministry of Planning and Economic Affairs, Liberia",
+        "name": "Ministry of Planning and Economic Affairs, Liberia",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Doe, Samuel Kanyon",
+        "targetId": "Ministry of Planning and Economic Affairs, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Ward, Amelia",
+        "targetId": "Ministry of Planning and Economic Affairs, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Christopher, Victoria",
+        "targetId": "Ministry of Planning and Economic Affairs, Liberia",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Liberia",

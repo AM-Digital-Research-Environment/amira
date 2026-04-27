@@ -20,6 +20,8 @@
       }
     }
   ],
+  "languageTimeline": [],
+  "subjectTrends": [],
   "types": [
     {
       "name": "Text",
@@ -83,6 +85,23 @@
       ]
     }
   ],
+  "treemap": [
+    {
+      "name": "Text",
+      "children": [
+        {
+          "name": "Unknown",
+          "children": [
+            {
+              "name": "(no subject)",
+              "value": 3,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "sankey": {
     "nodes": [
       {
@@ -128,6 +147,9 @@
     "names": [],
     "matrix": []
   },
+  "timeAwareChord": {
+    "buckets": []
+  },
   "contributors": [
     {
       "name": "Fayemi, Kazeem",
@@ -146,6 +168,21 @@
       "value": 3
     }
   ],
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "calendarHeatmap": [
+    {
+      "date": "2021-10-11",
+      "value": 3
+    }
+  ],
+  "geoFlows": {
+    "flows": []
+  },
   "locations": [
     {
       "country": "Nigeria",

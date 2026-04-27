@@ -87,6 +87,52 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Dialogue",
+      "Sources",
+      "Terrorism",
+      "Mediation",
+      "Peace"
+    ],
+    "matrix": [
+      [
+        0,
+        12,
+        12,
+        12,
+        12
+      ],
+      [
+        12,
+        0,
+        12,
+        12,
+        12
+      ],
+      [
+        12,
+        12,
+        0,
+        12,
+        12
+      ],
+      [
+        12,
+        12,
+        12,
+        0,
+        12
+      ],
+      [
+        12,
+        12,
+        12,
+        12,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Sources",

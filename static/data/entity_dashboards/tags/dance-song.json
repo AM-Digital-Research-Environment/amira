@@ -82,6 +82,82 @@
       "value": 2
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Ethnomusicology",
+      "Ewe (African people)",
+      "Ewe language",
+      "Twi (African people)",
+      "Twi language",
+      "Fanti (African people)",
+      "Fanti language"
+    ],
+    "matrix": [
+      [
+        0,
+        9,
+        9,
+        8,
+        8,
+        3,
+        3
+      ],
+      [
+        9,
+        0,
+        9,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        9,
+        9,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        8,
+        0,
+        0,
+        0,
+        8,
+        0,
+        0
+      ],
+      [
+        8,
+        0,
+        0,
+        8,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3
+      ],
+      [
+        3,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Ethnomusicology",

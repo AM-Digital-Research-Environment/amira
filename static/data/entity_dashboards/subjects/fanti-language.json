@@ -50,6 +50,52 @@
       "value": 4
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Ethnomusicology",
+      "Fanti (African people)",
+      "Fanti language",
+      "Highlife (Music)",
+      "Blues (Music)"
+    ],
+    "matrix": [
+      [
+        0,
+        47,
+        47,
+        14,
+        4
+      ],
+      [
+        47,
+        0,
+        47,
+        14,
+        4
+      ],
+      [
+        47,
+        47,
+        0,
+        14,
+        4
+      ],
+      [
+        14,
+        14,
+        14,
+        0,
+        0
+      ],
+      [
+        4,
+        4,
+        4,
+        0,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Ethnomusicology",

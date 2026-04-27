@@ -177,6 +177,82 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Ethnomusicology",
+      "Music",
+      "Africa",
+      "Musical instruments",
+      "Dance",
+      "Drum",
+      "Drum music"
+    ],
+    "matrix": [
+      [
+        0,
+        5,
+        4,
+        3,
+        3,
+        3,
+        3
+      ],
+      [
+        5,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        4,
+        2,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        3,
+        2,
+        1,
+        0,
+        3,
+        3,
+        3
+      ],
+      [
+        3,
+        2,
+        1,
+        3,
+        0,
+        3,
+        3
+      ],
+      [
+        3,
+        2,
+        1,
+        3,
+        3,
+        0,
+        3
+      ],
+      [
+        3,
+        2,
+        1,
+        3,
+        3,
+        3,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Ethnomusicology",

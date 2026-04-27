@@ -192,6 +192,529 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [
+      "Andrews, Amos"
+    ],
+    "matrix": [
+      [
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Andrews, Amos",
+        "name": "Andrews, Amos",
+        "itemCount": 4
+      },
+      {
+        "id": "Kollie, Aaron",
+        "name": "Kollie, Aaron",
+        "itemCount": 1
+      },
+      {
+        "id": "Borkai, Anthony",
+        "name": "Borkai, Anthony",
+        "itemCount": 1
+      },
+      {
+        "id": "Collins, Hawa Andrews",
+        "name": "Collins, Hawa Andrews",
+        "itemCount": 1
+      },
+      {
+        "id": "Urey, Khrushchev Borbor",
+        "name": "Urey, Khrushchev Borbor",
+        "itemCount": 1
+      },
+      {
+        "id": "Taylor, Adolphus",
+        "name": "Taylor, Adolphus",
+        "itemCount": 1
+      },
+      {
+        "id": "Kezele, Sumoiwuo",
+        "name": "Kezele, Sumoiwuo",
+        "itemCount": 1
+      },
+      {
+        "id": "Wegee, Presley",
+        "name": "Wegee, Presley",
+        "itemCount": 1
+      },
+      {
+        "id": "Eastman, John",
+        "name": "Eastman, John",
+        "itemCount": 1
+      },
+      {
+        "id": "Toby, Victor",
+        "name": "Toby, Victor",
+        "itemCount": 1
+      },
+      {
+        "id": "Gilbert, Thomas",
+        "name": "Gilbert, Thomas",
+        "itemCount": 1
+      },
+      {
+        "id": "Mensah, Sam",
+        "name": "Mensah, Sam",
+        "itemCount": 1
+      },
+      {
+        "id": "McCrumada, Charles",
+        "name": "McCrumada, Charles",
+        "itemCount": 1
+      },
+      {
+        "id": "Konuwa, Charles",
+        "name": "Konuwa, Charles",
+        "itemCount": 1
+      },
+      {
+        "id": "Stevquoah, Sam",
+        "name": "Stevquoah, Sam",
+        "itemCount": 1
+      },
+      {
+        "id": "Christopher, Victoria",
+        "name": "Christopher, Victoria",
+        "itemCount": 1
+      },
+      {
+        "id": "Falla",
+        "name": "Falla",
+        "itemCount": 1
+      },
+      {
+        "id": "Nangwe, Joseph",
+        "name": "Nangwe, Joseph",
+        "itemCount": 1
+      },
+      {
+        "id": "Clarke, Wilfried",
+        "name": "Clarke, Wilfried",
+        "itemCount": 1
+      },
+      {
+        "id": "Kennedy, Hawa",
+        "name": "Kennedy, Hawa",
+        "itemCount": 1
+      },
+      {
+        "id": "Kont, Qwane",
+        "name": "Kont, Qwane",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System",
+        "itemCount": 7
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Andrews, Amos",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 4
+      },
+      {
+        "personId": "Kollie, Aaron",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Borkai, Anthony",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Collins, Hawa Andrews",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Urey, Khrushchev Borbor",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Taylor, Adolphus",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Kezele, Sumoiwuo",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Wegee, Presley",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Eastman, John",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Toby, Victor",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Gilbert, Thomas",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Mensah, Sam",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "McCrumada, Charles",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Konuwa, Charles",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Stevquoah, Sam",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Christopher, Victoria",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Falla",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Nangwe, Joseph",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Clarke, Wilfried",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Kennedy, Hawa",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Kont, Qwane",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Konuwa, Charles",
+        "name": "Konuwa, Charles",
+        "itemCount": 3
+      },
+      {
+        "id": "Andrews, Amos",
+        "name": "Andrews, Amos",
+        "itemCount": 3
+      },
+      {
+        "id": "Stevquoah, Sam",
+        "name": "Stevquoah, Sam",
+        "itemCount": 3
+      },
+      {
+        "id": "Christopher, Victoria",
+        "name": "Christopher, Victoria",
+        "itemCount": 3
+      },
+      {
+        "id": "Falla",
+        "name": "Falla",
+        "itemCount": 3
+      },
+      {
+        "id": "Nangwe, Joseph",
+        "name": "Nangwe, Joseph",
+        "itemCount": 3
+      },
+      {
+        "id": "Clarke, Wilfried",
+        "name": "Clarke, Wilfried",
+        "itemCount": 3
+      },
+      {
+        "id": "Kennedy, Hawa",
+        "name": "Kennedy, Hawa",
+        "itemCount": 3
+      },
+      {
+        "id": "Collins, Hawa Andrews",
+        "name": "Collins, Hawa Andrews",
+        "itemCount": 1
+      },
+      {
+        "id": "Urey, Khrushchev Borbor",
+        "name": "Urey, Khrushchev Borbor",
+        "itemCount": 1
+      },
+      {
+        "id": "Taylor, Adolphus",
+        "name": "Taylor, Adolphus",
+        "itemCount": 1
+      },
+      {
+        "id": "Kezele, Sumoiwuo",
+        "name": "Kezele, Sumoiwuo",
+        "itemCount": 1
+      },
+      {
+        "id": "Wegee, Presley",
+        "name": "Wegee, Presley",
+        "itemCount": 1
+      },
+      {
+        "id": "Eastman, John",
+        "name": "Eastman, John",
+        "itemCount": 1
+      },
+      {
+        "id": "Toby, Victor",
+        "name": "Toby, Victor",
+        "itemCount": 1
+      },
+      {
+        "id": "Gilbert, Thomas",
+        "name": "Gilbert, Thomas",
+        "itemCount": 1
+      },
+      {
+        "id": "Mensah, Sam",
+        "name": "Mensah, Sam",
+        "itemCount": 1
+      },
+      {
+        "id": "McCrumada, Charles",
+        "name": "McCrumada, Charles",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Liberia Broadcasting System (LBS)",
+        "name": "Liberia Broadcasting System (LBS)",
+        "itemCount": 1
+      },
+      {
+        "id": "National Bank of Liberia",
+        "name": "National Bank of Liberia",
+        "itemCount": 1
+      },
+      {
+        "id": "Agricultural and Cooperative Development Bank of Liberia",
+        "name": "Agricultural and Cooperative Development Bank of Liberia",
+        "itemCount": 1
+      },
+      {
+        "id": "Liberia National Police",
+        "name": "Liberia National Police",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Collins, Hawa Andrews",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Urey, Khrushchev Borbor",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Taylor, Adolphus",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Kezele, Sumoiwuo",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Wegee, Presley",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Eastman, John",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Toby, Victor",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Gilbert, Thomas",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Mensah, Sam",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "McCrumada, Charles",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Konuwa, Charles",
+        "targetId": "National Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Andrews, Amos",
+        "targetId": "National Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Stevquoah, Sam",
+        "targetId": "National Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Christopher, Victoria",
+        "targetId": "National Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Falla",
+        "targetId": "National Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Nangwe, Joseph",
+        "targetId": "National Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Clarke, Wilfried",
+        "targetId": "National Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Kennedy, Hawa",
+        "targetId": "National Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Konuwa, Charles",
+        "targetId": "Agricultural and Cooperative Development Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Andrews, Amos",
+        "targetId": "Agricultural and Cooperative Development Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Stevquoah, Sam",
+        "targetId": "Agricultural and Cooperative Development Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Christopher, Victoria",
+        "targetId": "Agricultural and Cooperative Development Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Falla",
+        "targetId": "Agricultural and Cooperative Development Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Nangwe, Joseph",
+        "targetId": "Agricultural and Cooperative Development Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Clarke, Wilfried",
+        "targetId": "Agricultural and Cooperative Development Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Kennedy, Hawa",
+        "targetId": "Agricultural and Cooperative Development Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Konuwa, Charles",
+        "targetId": "Liberia National Police",
+        "count": 1
+      },
+      {
+        "personId": "Andrews, Amos",
+        "targetId": "Liberia National Police",
+        "count": 1
+      },
+      {
+        "personId": "Stevquoah, Sam",
+        "targetId": "Liberia National Police",
+        "count": 1
+      },
+      {
+        "personId": "Christopher, Victoria",
+        "targetId": "Liberia National Police",
+        "count": 1
+      },
+      {
+        "personId": "Falla",
+        "targetId": "Liberia National Police",
+        "count": 1
+      },
+      {
+        "personId": "Nangwe, Joseph",
+        "targetId": "Liberia National Police",
+        "count": 1
+      },
+      {
+        "personId": "Clarke, Wilfried",
+        "targetId": "Liberia National Police",
+        "count": 1
+      },
+      {
+        "personId": "Kennedy, Hawa",
+        "targetId": "Liberia National Police",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Liberia",

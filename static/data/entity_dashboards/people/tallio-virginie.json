@@ -230,6 +230,503 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [
+      "Kronenburg García, Angela",
+      "Hashimshony Yaffe, Nurit",
+      "Roque de Pinho, Joana",
+      "Gargallo, Eduard"
+    ],
+    "matrix": [
+      [
+        0,
+        3,
+        3,
+        2
+      ],
+      [
+        3,
+        0,
+        3,
+        2
+      ],
+      [
+        3,
+        3,
+        0,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Kronenburg García, Angela",
+        "name": "Kronenburg García, Angela",
+        "itemCount": 3
+      },
+      {
+        "id": "Hashimshony Yaffe, Nurit",
+        "name": "Hashimshony Yaffe, Nurit",
+        "itemCount": 3
+      },
+      {
+        "id": "Roque de Pinho, Joana",
+        "name": "Roque de Pinho, Joana",
+        "itemCount": 3
+      },
+      {
+        "id": "Gargallo, Eduard",
+        "name": "Gargallo, Eduard",
+        "itemCount": 2
+      },
+      {
+        "id": "ole Mowuo, Matinkoi",
+        "name": "ole Mowuo, Matinkoi",
+        "itemCount": 1
+      },
+      {
+        "id": "ole Mowuo, Lenaai",
+        "name": "ole Mowuo, Lenaai",
+        "itemCount": 1
+      },
+      {
+        "id": "Mayiani, Daniel",
+        "name": "Mayiani, Daniel",
+        "itemCount": 1
+      },
+      {
+        "id": "Agyei-Mensah, Juliana",
+        "name": "Agyei-Mensah, Juliana",
+        "itemCount": 1
+      },
+      {
+        "id": "Pase, Andrea",
+        "name": "Pase, Andrea",
+        "itemCount": 1
+      },
+      {
+        "id": "Neboo, Stanley ole",
+        "name": "Neboo, Stanley ole",
+        "itemCount": 1
+      },
+      {
+        "id": "Antonelli, Jonah",
+        "name": "Antonelli, Jonah",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond",
+        "itemCount": 3
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "UBT_Covid192021",
+        "count": 3
+      },
+      {
+        "personId": "ole Mowuo, Matinkoi",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      },
+      {
+        "personId": "ole Mowuo, Lenaai",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      },
+      {
+        "personId": "Mayiani, Daniel",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      },
+      {
+        "personId": "Hashimshony Yaffe, Nurit",
+        "targetId": "UBT_Covid192021",
+        "count": 3
+      },
+      {
+        "personId": "Gargallo, Eduard",
+        "targetId": "UBT_Covid192021",
+        "count": 2
+      },
+      {
+        "personId": "Roque de Pinho, Joana",
+        "targetId": "UBT_Covid192021",
+        "count": 3
+      },
+      {
+        "personId": "Agyei-Mensah, Juliana",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      },
+      {
+        "personId": "Pase, Andrea",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      },
+      {
+        "personId": "Neboo, Stanley ole",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      },
+      {
+        "personId": "Antonelli, Jonah",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Kronenburg García, Angela",
+        "name": "Kronenburg García, Angela",
+        "itemCount": 13
+      },
+      {
+        "id": "Hashimshony Yaffe, Nurit",
+        "name": "Hashimshony Yaffe, Nurit",
+        "itemCount": 13
+      },
+      {
+        "id": "Roque de Pinho, Joana",
+        "name": "Roque de Pinho, Joana",
+        "itemCount": 13
+      },
+      {
+        "id": "Gargallo, Eduard",
+        "name": "Gargallo, Eduard",
+        "itemCount": 9
+      },
+      {
+        "id": "Neboo, Stanley ole",
+        "name": "Neboo, Stanley ole",
+        "itemCount": 5
+      },
+      {
+        "id": "Antonelli, Jonah",
+        "name": "Antonelli, Jonah",
+        "itemCount": 5
+      },
+      {
+        "id": "ole Mowuo, Matinkoi",
+        "name": "ole Mowuo, Matinkoi",
+        "itemCount": 4
+      },
+      {
+        "id": "ole Mowuo, Lenaai",
+        "name": "ole Mowuo, Lenaai",
+        "itemCount": 4
+      },
+      {
+        "id": "Mayiani, Daniel",
+        "name": "Mayiani, Daniel",
+        "itemCount": 4
+      },
+      {
+        "id": "Agyei-Mensah, Juliana",
+        "name": "Agyei-Mensah, Juliana",
+        "itemCount": 4
+      },
+      {
+        "id": "Pase, Andrea",
+        "name": "Pase, Andrea",
+        "itemCount": 4
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Padua",
+        "name": "University of Padua",
+        "itemCount": 3
+      },
+      {
+        "id": "Institute for Social Science Research in Africa",
+        "name": "Institute for Social Science Research in Africa",
+        "itemCount": 3
+      },
+      {
+        "id": "The Academic College of Tel Aviv-Yaffo",
+        "name": "The Academic College of Tel Aviv-Yaffo",
+        "itemCount": 3
+      },
+      {
+        "id": "ISCTE - Instituto Universitário de Lisboa",
+        "name": "ISCTE - Instituto Universitário de Lisboa",
+        "itemCount": 3
+      },
+      {
+        "id": "A New Dawn in the Negev",
+        "name": "A New Dawn in the Negev",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "University of Padua",
+        "count": 3
+      },
+      {
+        "personId": "ole Mowuo, Matinkoi",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "ole Mowuo, Lenaai",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Mayiani, Daniel",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Hashimshony Yaffe, Nurit",
+        "targetId": "University of Padua",
+        "count": 3
+      },
+      {
+        "personId": "Gargallo, Eduard",
+        "targetId": "University of Padua",
+        "count": 2
+      },
+      {
+        "personId": "Roque de Pinho, Joana",
+        "targetId": "University of Padua",
+        "count": 3
+      },
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "Institute for Social Science Research in Africa",
+        "count": 3
+      },
+      {
+        "personId": "ole Mowuo, Matinkoi",
+        "targetId": "Institute for Social Science Research in Africa",
+        "count": 1
+      },
+      {
+        "personId": "ole Mowuo, Lenaai",
+        "targetId": "Institute for Social Science Research in Africa",
+        "count": 1
+      },
+      {
+        "personId": "Mayiani, Daniel",
+        "targetId": "Institute for Social Science Research in Africa",
+        "count": 1
+      },
+      {
+        "personId": "Hashimshony Yaffe, Nurit",
+        "targetId": "Institute for Social Science Research in Africa",
+        "count": 3
+      },
+      {
+        "personId": "Gargallo, Eduard",
+        "targetId": "Institute for Social Science Research in Africa",
+        "count": 2
+      },
+      {
+        "personId": "Roque de Pinho, Joana",
+        "targetId": "Institute for Social Science Research in Africa",
+        "count": 3
+      },
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 3
+      },
+      {
+        "personId": "ole Mowuo, Matinkoi",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 1
+      },
+      {
+        "personId": "ole Mowuo, Lenaai",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 1
+      },
+      {
+        "personId": "Mayiani, Daniel",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 1
+      },
+      {
+        "personId": "Hashimshony Yaffe, Nurit",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 3
+      },
+      {
+        "personId": "Gargallo, Eduard",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 2
+      },
+      {
+        "personId": "Roque de Pinho, Joana",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 3
+      },
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 3
+      },
+      {
+        "personId": "ole Mowuo, Matinkoi",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "ole Mowuo, Lenaai",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Mayiani, Daniel",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Hashimshony Yaffe, Nurit",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 3
+      },
+      {
+        "personId": "Gargallo, Eduard",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 2
+      },
+      {
+        "personId": "Roque de Pinho, Joana",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 3
+      },
+      {
+        "personId": "Agyei-Mensah, Juliana",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Pase, Andrea",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Agyei-Mensah, Juliana",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Pase, Andrea",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Agyei-Mensah, Juliana",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 1
+      },
+      {
+        "personId": "Pase, Andrea",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 1
+      },
+      {
+        "personId": "Agyei-Mensah, Juliana",
+        "targetId": "Institute for Social Science Research in Africa",
+        "count": 1
+      },
+      {
+        "personId": "Pase, Andrea",
+        "targetId": "Institute for Social Science Research in Africa",
+        "count": 1
+      },
+      {
+        "personId": "Neboo, Stanley ole",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Antonelli, Jonah",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Neboo, Stanley ole",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Antonelli, Jonah",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Neboo, Stanley ole",
+        "targetId": "A New Dawn in the Negev",
+        "count": 1
+      },
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "A New Dawn in the Negev",
+        "count": 1
+      },
+      {
+        "personId": "Roque de Pinho, Joana",
+        "targetId": "A New Dawn in the Negev",
+        "count": 1
+      },
+      {
+        "personId": "Antonelli, Jonah",
+        "targetId": "A New Dawn in the Negev",
+        "count": 1
+      },
+      {
+        "personId": "Hashimshony Yaffe, Nurit",
+        "targetId": "A New Dawn in the Negev",
+        "count": 1
+      },
+      {
+        "personId": "Gargallo, Eduard",
+        "targetId": "A New Dawn in the Negev",
+        "count": 1
+      },
+      {
+        "personId": "Neboo, Stanley ole",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 1
+      },
+      {
+        "personId": "Antonelli, Jonah",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 1
+      },
+      {
+        "personId": "Neboo, Stanley ole",
+        "targetId": "Institute for Social Science Research in Africa",
+        "count": 1
+      },
+      {
+        "personId": "Antonelli, Jonah",
+        "targetId": "Institute for Social Science Research in Africa",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Kenya",

@@ -101,6 +101,52 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Arid regions",
+      "Weather",
+      "Schools",
+      "Herders",
+      "Local government"
+    ],
+    "matrix": [
+      [
+        0,
+        4,
+        3,
+        3,
+        3
+      ],
+      [
+        4,
+        0,
+        3,
+        3,
+        3
+      ],
+      [
+        3,
+        3,
+        0,
+        3,
+        3
+      ],
+      [
+        3,
+        3,
+        3,
+        0,
+        3
+      ],
+      [
+        3,
+        3,
+        3,
+        3,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Arid regions",

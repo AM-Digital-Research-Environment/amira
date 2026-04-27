@@ -106,6 +106,94 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Hien, Frederic",
+        "name": "Hien, Frederic",
+        "itemCount": 2
+      },
+      {
+        "id": "Ouedraogo, Pissyamba",
+        "name": "Ouedraogo, Pissyamba",
+        "itemCount": 1
+      },
+      {
+        "id": "Sanon, Bernard",
+        "name": "Sanon, Bernard",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Ouedraogo, Pissyamba",
+        "targetId": "UJKZ_GLOBHEALTH2020",
+        "count": 1
+      },
+      {
+        "personId": "Hien, Frederic",
+        "targetId": "UJKZ_GLOBHEALTH2020",
+        "count": 2
+      },
+      {
+        "personId": "Sanon, Bernard",
+        "targetId": "UJKZ_GLOBHEALTH2020",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Hien, Frederic",
+        "name": "Hien, Frederic",
+        "itemCount": 2
+      },
+      {
+        "id": "Ouedraogo, Pissyamba",
+        "name": "Ouedraogo, Pissyamba",
+        "itemCount": 1
+      },
+      {
+        "id": "Sanon, Bernard",
+        "name": "Sanon, Bernard",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Université Joseph Ki-Zerbo",
+        "name": "Université Joseph Ki-Zerbo",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Ouedraogo, Pissyamba",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Hien, Frederic",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 2
+      },
+      {
+        "personId": "Sanon, Bernard",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Burkina Faso",

@@ -69,6 +69,76 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Pluch, Thomas",
+        "name": "Pluch, Thomas",
+        "itemCount": 1
+      },
+      {
+        "id": "Molny, Erika",
+        "name": "Molny, Erika",
+        "itemCount": 1
+      },
+      {
+        "id": "Dietrich, Wolf",
+        "name": "Dietrich, Wolf",
+        "itemCount": 1
+      },
+      {
+        "id": "Marszalek, Michael",
+        "name": "Marszalek, Michael",
+        "itemCount": 1
+      },
+      {
+        "id": "Schirmann, Peter",
+        "name": "Schirmann, Peter",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Pluch, Thomas",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Molny, Erika",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Dietrich, Wolf",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Marszalek, Michael",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Schirmann, Peter",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
   "locations": [
     {
       "country": "Liberia",

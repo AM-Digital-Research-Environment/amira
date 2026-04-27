@@ -152,6 +152,40 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "COVID-19 (Disease)",
+      "French",
+      "Ethics",
+      "Africa"
+    ],
+    "matrix": [
+      [
+        0,
+        38,
+        38,
+        38
+      ],
+      [
+        38,
+        0,
+        38,
+        38
+      ],
+      [
+        38,
+        38,
+        0,
+        38
+      ],
+      [
+        38,
+        38,
+        38,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Morality",

@@ -122,6 +122,60 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [],
+    "matrix": []
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Paulus, Helmut",
+        "name": "Paulus, Helmut",
+        "itemCount": 1
+      },
+      {
+        "id": "Mayer, Bernd",
+        "name": "Mayer, Bernd",
+        "itemCount": 1
+      },
+      {
+        "id": "Pokorny, Siegfried",
+        "name": "Pokorny, Siegfried",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Ext_BayGlo2025",
+        "name": "Bayreuth Global/Bayreuth Postkolonial",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Paulus, Helmut",
+        "targetId": "Ext_BayGlo2025",
+        "count": 1
+      },
+      {
+        "personId": "Mayer, Bernd",
+        "targetId": "Ext_BayGlo2025",
+        "count": 1
+      },
+      {
+        "personId": "Pokorny, Siegfried",
+        "targetId": "Ext_BayGlo2025",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
   "locations": [
     {
       "country": "Germany",

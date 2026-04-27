@@ -107,6 +107,66 @@
       "value": 15
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Learning",
+      "Youth",
+      "Animation (Cinematography)",
+      "Children",
+      "Child psychology",
+      "Curriculum planning"
+    ],
+    "matrix": [
+      [
+        0,
+        292,
+        15,
+        15,
+        15,
+        15
+      ],
+      [
+        292,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        15,
+        0,
+        0,
+        15,
+        15,
+        15
+      ],
+      [
+        15,
+        0,
+        15,
+        0,
+        15,
+        15
+      ],
+      [
+        15,
+        0,
+        15,
+        15,
+        0,
+        15
+      ],
+      [
+        15,
+        0,
+        15,
+        15,
+        15,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Youth",

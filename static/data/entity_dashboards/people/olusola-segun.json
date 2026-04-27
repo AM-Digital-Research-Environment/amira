@@ -61,6 +61,89 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [
+      "Muller-Verweyen, Michael"
+    ],
+    "matrix": [
+      [
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Muller-Verweyen, Michael",
+        "name": "Muller-Verweyen, Michael",
+        "itemCount": 2
+      },
+      {
+        "id": "Ajiboye, David",
+        "name": "Ajiboye, David",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango",
+        "itemCount": 3
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Ajiboye, David",
+        "targetId": "UBT_TaiSha2021",
+        "count": 1
+      },
+      {
+        "personId": "Muller-Verweyen, Michael",
+        "targetId": "UBT_TaiSha2021",
+        "count": 2
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Muller-Verweyen, Michael",
+        "name": "Muller-Verweyen, Michael",
+        "itemCount": 2
+      },
+      {
+        "id": "Ajiboye, David",
+        "name": "Ajiboye, David",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Goethe Institute",
+        "name": "Goethe Institute",
+        "itemCount": 2
+      },
+      {
+        "id": "africanmoviestar.com",
+        "name": "africanmoviestar.com",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Ajiboye, David",
+        "targetId": "africanmoviestar.com",
+        "count": 1
+      },
+      {
+        "personId": "Muller-Verweyen, Michael",
+        "targetId": "Goethe Institute",
+        "count": 2
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Nigeria",

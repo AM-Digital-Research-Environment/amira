@@ -142,6 +142,40 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Igbo (African people)",
+      "Ethnomusicology",
+      "Highlife (Music)",
+      "Igbo language"
+    ],
+    "matrix": [
+      [
+        0,
+        3,
+        3,
+        3
+      ],
+      [
+        3,
+        0,
+        2,
+        3
+      ],
+      [
+        3,
+        2,
+        0,
+        2
+      ],
+      [
+        3,
+        3,
+        2,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Nigeria",

@@ -113,6 +113,593 @@
       "value": 2
     }
   ],
+  "coContributors": {
+    "names": [
+      "Münster, Clemens",
+      "Wallenreiter, Christian",
+      "Wild, Franz Josef",
+      "Jörs, Dieter",
+      "Fischer-Stephan, Nina",
+      "Pusl, Waltraud",
+      "Gärtner",
+      "Dreissig, Hans",
+      "Stauffer, E. O.",
+      "Beier, Ulli",
+      "Olusola, Begum",
+      "Wand, Karl",
+      "Laussen, Elisabeth",
+      "Vernon, Howard"
+    ],
+    "matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Münster, Clemens",
+        "name": "Münster, Clemens",
+        "itemCount": 12
+      },
+      {
+        "id": "Wallenreiter, Christian",
+        "name": "Wallenreiter, Christian",
+        "itemCount": 6
+      },
+      {
+        "id": "Wild, Franz Josef",
+        "name": "Wild, Franz Josef",
+        "itemCount": 6
+      },
+      {
+        "id": "Jörs, Dieter",
+        "name": "Jörs, Dieter",
+        "itemCount": 6
+      },
+      {
+        "id": "Fischer-Stephan, Nina",
+        "name": "Fischer-Stephan, Nina",
+        "itemCount": 4
+      },
+      {
+        "id": "Pusl, Waltraud",
+        "name": "Pusl, Waltraud",
+        "itemCount": 4
+      },
+      {
+        "id": "Gärtner",
+        "name": "Gärtner",
+        "itemCount": 4
+      },
+      {
+        "id": "Dreissig, Hans",
+        "name": "Dreissig, Hans",
+        "itemCount": 4
+      },
+      {
+        "id": "Stauffer, E. O.",
+        "name": "Stauffer, E. O.",
+        "itemCount": 2
+      },
+      {
+        "id": "Beier, Ulli",
+        "name": "Beier, Ulli",
+        "itemCount": 2
+      },
+      {
+        "id": "Olusola, Begum",
+        "name": "Olusola, Begum",
+        "itemCount": 2
+      },
+      {
+        "id": "Wand, Karl",
+        "name": "Wand, Karl",
+        "itemCount": 2
+      },
+      {
+        "id": "Laussen, Elisabeth",
+        "name": "Laussen, Elisabeth",
+        "itemCount": 2
+      },
+      {
+        "id": "Vernon, Howard",
+        "name": "Vernon, Howard",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango",
+        "itemCount": 56
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Fischer-Stephan, Nina",
+        "targetId": "UBT_TaiSha2021",
+        "count": 4
+      },
+      {
+        "personId": "Stauffer, E. O.",
+        "targetId": "UBT_TaiSha2021",
+        "count": 2
+      },
+      {
+        "personId": "Beier, Ulli",
+        "targetId": "UBT_TaiSha2021",
+        "count": 2
+      },
+      {
+        "personId": "Olusola, Begum",
+        "targetId": "UBT_TaiSha2021",
+        "count": 2
+      },
+      {
+        "personId": "Wand, Karl",
+        "targetId": "UBT_TaiSha2021",
+        "count": 2
+      },
+      {
+        "personId": "Laussen, Elisabeth",
+        "targetId": "UBT_TaiSha2021",
+        "count": 2
+      },
+      {
+        "personId": "Pusl, Waltraud",
+        "targetId": "UBT_TaiSha2021",
+        "count": 4
+      },
+      {
+        "personId": "Wallenreiter, Christian",
+        "targetId": "UBT_TaiSha2021",
+        "count": 6
+      },
+      {
+        "personId": "Wild, Franz Josef",
+        "targetId": "UBT_TaiSha2021",
+        "count": 6
+      },
+      {
+        "personId": "Münster, Clemens",
+        "targetId": "UBT_TaiSha2021",
+        "count": 12
+      },
+      {
+        "personId": "Jörs, Dieter",
+        "targetId": "UBT_TaiSha2021",
+        "count": 6
+      },
+      {
+        "personId": "Gärtner",
+        "targetId": "UBT_TaiSha2021",
+        "count": 4
+      },
+      {
+        "personId": "Dreissig, Hans",
+        "targetId": "UBT_TaiSha2021",
+        "count": 4
+      },
+      {
+        "personId": "Vernon, Howard",
+        "targetId": "UBT_TaiSha2021",
+        "count": 2
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Münster, Clemens",
+        "name": "Münster, Clemens",
+        "itemCount": 12
+      },
+      {
+        "id": "Dreissig, Hans",
+        "name": "Dreissig, Hans",
+        "itemCount": 8
+      },
+      {
+        "id": "Fischer-Stephan, Nina",
+        "name": "Fischer-Stephan, Nina",
+        "itemCount": 7
+      },
+      {
+        "id": "Wallenreiter, Christian",
+        "name": "Wallenreiter, Christian",
+        "itemCount": 6
+      },
+      {
+        "id": "Wild, Franz Josef",
+        "name": "Wild, Franz Josef",
+        "itemCount": 6
+      },
+      {
+        "id": "Jörs, Dieter",
+        "name": "Jörs, Dieter",
+        "itemCount": 6
+      },
+      {
+        "id": "Stauffer, E. O.",
+        "name": "Stauffer, E. O.",
+        "itemCount": 4
+      },
+      {
+        "id": "Wand, Karl",
+        "name": "Wand, Karl",
+        "itemCount": 4
+      },
+      {
+        "id": "Pusl, Waltraud",
+        "name": "Pusl, Waltraud",
+        "itemCount": 4
+      },
+      {
+        "id": "Gärtner",
+        "name": "Gärtner",
+        "itemCount": 4
+      },
+      {
+        "id": "Beier, Ulli",
+        "name": "Beier, Ulli",
+        "itemCount": 2
+      },
+      {
+        "id": "Olusola, Begum",
+        "name": "Olusola, Begum",
+        "itemCount": 2
+      },
+      {
+        "id": "Laussen, Elisabeth",
+        "name": "Laussen, Elisabeth",
+        "itemCount": 2
+      },
+      {
+        "id": "Vernon, Howard",
+        "name": "Vernon, Howard",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "Bayrischer Rundfunk",
+        "name": "Bayrischer Rundfunk",
+        "itemCount": 56
+      },
+      {
+        "id": "German Embassy, Lagos",
+        "name": "German Embassy, Lagos",
+        "itemCount": 6
+      },
+      {
+        "id": "Klaus Stephan Collection",
+        "name": "Klaus Stephan Collection",
+        "itemCount": 3
+      },
+      {
+        "id": "Telepool",
+        "name": "Telepool",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Fischer-Stephan, Nina",
+        "targetId": "Bayrischer Rundfunk",
+        "count": 4
+      },
+      {
+        "personId": "Fischer-Stephan, Nina",
+        "targetId": "Klaus Stephan Collection",
+        "count": 3
+      },
+      {
+        "personId": "Stauffer, E. O.",
+        "targetId": "Telepool",
+        "count": 2
+      },
+      {
+        "personId": "Stauffer, E. O.",
+        "targetId": "Bayrischer Rundfunk",
+        "count": 2
+      },
+      {
+        "personId": "Beier, Ulli",
+        "targetId": "Bayrischer Rundfunk",
+        "count": 2
+      },
+      {
+        "personId": "Olusola, Begum",
+        "targetId": "Bayrischer Rundfunk",
+        "count": 2
+      },
+      {
+        "personId": "Wand, Karl",
+        "targetId": "Bayrischer Rundfunk",
+        "count": 2
+      },
+      {
+        "personId": "Wand, Karl",
+        "targetId": "German Embassy, Lagos",
+        "count": 2
+      },
+      {
+        "personId": "Laussen, Elisabeth",
+        "targetId": "Bayrischer Rundfunk",
+        "count": 2
+      },
+      {
+        "personId": "Pusl, Waltraud",
+        "targetId": "Bayrischer Rundfunk",
+        "count": 4
+      },
+      {
+        "personId": "Wallenreiter, Christian",
+        "targetId": "Bayrischer Rundfunk",
+        "count": 6
+      },
+      {
+        "personId": "Wild, Franz Josef",
+        "targetId": "Bayrischer Rundfunk",
+        "count": 6
+      },
+      {
+        "personId": "Münster, Clemens",
+        "targetId": "Bayrischer Rundfunk",
+        "count": 12
+      },
+      {
+        "personId": "Jörs, Dieter",
+        "targetId": "Bayrischer Rundfunk",
+        "count": 6
+      },
+      {
+        "personId": "Gärtner",
+        "targetId": "Bayrischer Rundfunk",
+        "count": 4
+      },
+      {
+        "personId": "Dreissig, Hans",
+        "targetId": "Bayrischer Rundfunk",
+        "count": 4
+      },
+      {
+        "personId": "Dreissig, Hans",
+        "targetId": "German Embassy, Lagos",
+        "count": 4
+      },
+      {
+        "personId": "Vernon, Howard",
+        "targetId": "Bayrischer Rundfunk",
+        "count": 2
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Nigeria",

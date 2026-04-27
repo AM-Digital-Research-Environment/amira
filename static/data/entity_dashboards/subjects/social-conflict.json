@@ -88,6 +88,40 @@
       "value": 2
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Social conflict",
+      "Land tenure",
+      "Migration",
+      "Children"
+    ],
+    "matrix": [
+      [
+        0,
+        9,
+        9,
+        4
+      ],
+      [
+        9,
+        0,
+        9,
+        0
+      ],
+      [
+        9,
+        9,
+        0,
+        0
+      ],
+      [
+        4,
+        0,
+        0,
+        4
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Land tenure",

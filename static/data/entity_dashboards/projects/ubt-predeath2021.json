@@ -152,6 +152,178 @@
       }
     }
   ],
+  "languageTimeline": [],
+  "subjectTrends": [
+    {
+      "year": 1970,
+      "byCategory": {
+        "Photography": 1,
+        "Anthropology": 1,
+        "Photographs": 1,
+        "Festivals": 0,
+        "Tuaregs": 1,
+        "Jewelry": 1,
+        "Mosques": 0,
+        "Musical instruments": 0
+      }
+    },
+    {
+      "year": 1979,
+      "byCategory": {
+        "Photography": 4,
+        "Anthropology": 4,
+        "Photographs": 4,
+        "Festivals": 0,
+        "Tuaregs": 0,
+        "Jewelry": 0,
+        "Mosques": 0,
+        "Musical instruments": 0
+      }
+    },
+    {
+      "year": 1980,
+      "byCategory": {
+        "Photography": 5,
+        "Anthropology": 5,
+        "Photographs": 5,
+        "Festivals": 0,
+        "Tuaregs": 0,
+        "Jewelry": 0,
+        "Mosques": 0,
+        "Musical instruments": 0
+      }
+    },
+    {
+      "year": 1984,
+      "byCategory": {
+        "Photography": 7,
+        "Anthropology": 7,
+        "Photographs": 7,
+        "Festivals": 0,
+        "Tuaregs": 1,
+        "Jewelry": 1,
+        "Mosques": 0,
+        "Musical instruments": 0
+      }
+    },
+    {
+      "year": 1985,
+      "byCategory": {
+        "Photography": 1,
+        "Anthropology": 1,
+        "Photographs": 1,
+        "Festivals": 0,
+        "Tuaregs": 0,
+        "Jewelry": 0,
+        "Mosques": 0,
+        "Musical instruments": 0
+      }
+    },
+    {
+      "year": 1987,
+      "byCategory": {
+        "Photography": 6,
+        "Anthropology": 6,
+        "Photographs": 6,
+        "Festivals": 0,
+        "Tuaregs": 0,
+        "Jewelry": 0,
+        "Mosques": 0,
+        "Musical instruments": 0
+      }
+    },
+    {
+      "year": 1990,
+      "byCategory": {
+        "Photography": 6,
+        "Anthropology": 6,
+        "Photographs": 6,
+        "Festivals": 0,
+        "Tuaregs": 0,
+        "Jewelry": 2,
+        "Mosques": 0,
+        "Musical instruments": 0
+      }
+    },
+    {
+      "year": 1992,
+      "byCategory": {
+        "Photography": 1,
+        "Anthropology": 1,
+        "Photographs": 1,
+        "Festivals": 0,
+        "Tuaregs": 0,
+        "Jewelry": 0,
+        "Mosques": 0,
+        "Musical instruments": 0
+      }
+    },
+    {
+      "year": 1995,
+      "byCategory": {
+        "Photography": 1,
+        "Anthropology": 1,
+        "Photographs": 1,
+        "Festivals": 0,
+        "Tuaregs": 0,
+        "Jewelry": 0,
+        "Mosques": 0,
+        "Musical instruments": 0
+      }
+    },
+    {
+      "year": 2002,
+      "byCategory": {
+        "Photography": 2,
+        "Anthropology": 2,
+        "Photographs": 2,
+        "Festivals": 0,
+        "Tuaregs": 1,
+        "Jewelry": 1,
+        "Mosques": 0,
+        "Musical instruments": 0
+      }
+    },
+    {
+      "year": 2003,
+      "byCategory": {
+        "Photography": 4,
+        "Anthropology": 4,
+        "Photographs": 4,
+        "Festivals": 3,
+        "Tuaregs": 2,
+        "Jewelry": 0,
+        "Mosques": 0,
+        "Musical instruments": 0
+      }
+    },
+    {
+      "year": 2005,
+      "byCategory": {
+        "Photography": 46,
+        "Anthropology": 46,
+        "Photographs": 46,
+        "Festivals": 7,
+        "Tuaregs": 4,
+        "Jewelry": 0,
+        "Mosques": 3,
+        "Musical instruments": 2
+      }
+    },
+    {
+      "year": 2006,
+      "byCategory": {
+        "Photography": 2,
+        "Anthropology": 2,
+        "Photographs": 2,
+        "Festivals": 0,
+        "Tuaregs": 0,
+        "Jewelry": 0,
+        "Mosques": 0,
+        "Musical instruments": 0
+      }
+    }
+  ],
   "types": [
     {
       "name": "Image",
@@ -694,6 +866,48 @@
       ]
     }
   ],
+  "treemap": [
+    {
+      "name": "Image",
+      "children": [
+        {
+          "name": "Unknown",
+          "children": [
+            {
+              "name": "Photography",
+              "value": 86,
+              "children": []
+            },
+            {
+              "name": "Anthropology",
+              "value": 86,
+              "children": []
+            },
+            {
+              "name": "Photographs",
+              "value": 86,
+              "children": []
+            },
+            {
+              "name": "Festivals",
+              "value": 10,
+              "children": []
+            },
+            {
+              "name": "Tuaregs",
+              "value": 9,
+              "children": []
+            },
+            {
+              "name": "Jewelry",
+              "value": 5,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "sankey": {
     "nodes": [
       {
@@ -803,6 +1017,1791 @@
       ]
     ]
   },
+  "timeAwareChord": {
+    "buckets": [
+      {
+        "year": 1970,
+        "names": [
+          "Photography",
+          "Anthropology",
+          "Photographs",
+          "Festivals",
+          "Tuaregs",
+          "Jewelry",
+          "Mosques",
+          "Musical instruments",
+          "Flute",
+          "Islam"
+        ],
+        "matrix": [
+          [
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "year": 1979,
+        "names": [
+          "Photography",
+          "Anthropology",
+          "Photographs",
+          "Festivals",
+          "Tuaregs",
+          "Jewelry",
+          "Mosques",
+          "Musical instruments",
+          "Flute",
+          "Islam"
+        ],
+        "matrix": [
+          [
+            0,
+            5,
+            5,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            5,
+            0,
+            5,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            5,
+            5,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "year": 1980,
+        "names": [
+          "Photography",
+          "Anthropology",
+          "Photographs",
+          "Festivals",
+          "Tuaregs",
+          "Jewelry",
+          "Mosques",
+          "Musical instruments",
+          "Flute",
+          "Islam"
+        ],
+        "matrix": [
+          [
+            0,
+            10,
+            10,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            10,
+            0,
+            10,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            10,
+            10,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "year": 1984,
+        "names": [
+          "Photography",
+          "Anthropology",
+          "Photographs",
+          "Festivals",
+          "Tuaregs",
+          "Jewelry",
+          "Mosques",
+          "Musical instruments",
+          "Flute",
+          "Islam"
+        ],
+        "matrix": [
+          [
+            0,
+            17,
+            17,
+            0,
+            2,
+            2,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            17,
+            0,
+            17,
+            0,
+            2,
+            2,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            17,
+            17,
+            0,
+            0,
+            2,
+            2,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            2,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            2,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "year": 1985,
+        "names": [
+          "Photography",
+          "Anthropology",
+          "Photographs",
+          "Festivals",
+          "Tuaregs",
+          "Jewelry",
+          "Mosques",
+          "Musical instruments",
+          "Flute",
+          "Islam"
+        ],
+        "matrix": [
+          [
+            0,
+            18,
+            18,
+            0,
+            2,
+            2,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            18,
+            0,
+            18,
+            0,
+            2,
+            2,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            18,
+            18,
+            0,
+            0,
+            2,
+            2,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            2,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            2,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "year": 1987,
+        "names": [
+          "Photography",
+          "Anthropology",
+          "Photographs",
+          "Festivals",
+          "Tuaregs",
+          "Jewelry",
+          "Mosques",
+          "Musical instruments",
+          "Flute",
+          "Islam"
+        ],
+        "matrix": [
+          [
+            0,
+            24,
+            24,
+            0,
+            2,
+            2,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            24,
+            0,
+            24,
+            0,
+            2,
+            2,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            24,
+            24,
+            0,
+            0,
+            2,
+            2,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            2,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            2,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "year": 1990,
+        "names": [
+          "Photography",
+          "Anthropology",
+          "Photographs",
+          "Festivals",
+          "Tuaregs",
+          "Jewelry",
+          "Mosques",
+          "Musical instruments",
+          "Flute",
+          "Islam"
+        ],
+        "matrix": [
+          [
+            0,
+            30,
+            30,
+            0,
+            2,
+            4,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            30,
+            0,
+            30,
+            0,
+            2,
+            4,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            30,
+            30,
+            0,
+            0,
+            2,
+            4,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            2,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            4,
+            4,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "year": 1992,
+        "names": [
+          "Photography",
+          "Anthropology",
+          "Photographs",
+          "Festivals",
+          "Tuaregs",
+          "Jewelry",
+          "Mosques",
+          "Musical instruments",
+          "Flute",
+          "Islam"
+        ],
+        "matrix": [
+          [
+            0,
+            31,
+            31,
+            0,
+            2,
+            4,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            31,
+            0,
+            31,
+            0,
+            2,
+            4,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            31,
+            31,
+            0,
+            0,
+            2,
+            4,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            2,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            4,
+            4,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "year": 1995,
+        "names": [
+          "Photography",
+          "Anthropology",
+          "Photographs",
+          "Festivals",
+          "Tuaregs",
+          "Jewelry",
+          "Mosques",
+          "Musical instruments",
+          "Flute",
+          "Islam"
+        ],
+        "matrix": [
+          [
+            0,
+            32,
+            32,
+            0,
+            2,
+            4,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            32,
+            0,
+            32,
+            0,
+            2,
+            4,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            32,
+            32,
+            0,
+            0,
+            2,
+            4,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            2,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            4,
+            4,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "year": 2002,
+        "names": [
+          "Photography",
+          "Anthropology",
+          "Photographs",
+          "Festivals",
+          "Tuaregs",
+          "Jewelry",
+          "Mosques",
+          "Musical instruments",
+          "Flute",
+          "Islam"
+        ],
+        "matrix": [
+          [
+            0,
+            34,
+            34,
+            0,
+            3,
+            5,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            34,
+            0,
+            34,
+            0,
+            3,
+            5,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            34,
+            34,
+            0,
+            0,
+            3,
+            5,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            3,
+            3,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            5,
+            5,
+            5,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "year": 2003,
+        "names": [
+          "Photography",
+          "Anthropology",
+          "Photographs",
+          "Festivals",
+          "Tuaregs",
+          "Jewelry",
+          "Mosques",
+          "Musical instruments",
+          "Flute",
+          "Islam"
+        ],
+        "matrix": [
+          [
+            0,
+            38,
+            38,
+            3,
+            5,
+            5,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            38,
+            0,
+            38,
+            3,
+            5,
+            5,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            38,
+            38,
+            0,
+            3,
+            5,
+            5,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            3,
+            3,
+            3,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            5,
+            5,
+            5,
+            2,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            5,
+            5,
+            5,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "year": 2005,
+        "names": [
+          "Photography",
+          "Anthropology",
+          "Photographs",
+          "Festivals",
+          "Tuaregs",
+          "Jewelry",
+          "Mosques",
+          "Musical instruments",
+          "Flute",
+          "Islam"
+        ],
+        "matrix": [
+          [
+            0,
+            84,
+            84,
+            10,
+            9,
+            5,
+            3,
+            2,
+            2,
+            2
+          ],
+          [
+            84,
+            0,
+            84,
+            10,
+            9,
+            5,
+            3,
+            2,
+            2,
+            2
+          ],
+          [
+            84,
+            84,
+            0,
+            10,
+            9,
+            5,
+            3,
+            2,
+            2,
+            2
+          ],
+          [
+            10,
+            10,
+            10,
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            9,
+            9,
+            9,
+            4,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            5,
+            5,
+            5,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            3,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            2,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "year": 2006,
+        "names": [
+          "Photography",
+          "Anthropology",
+          "Photographs",
+          "Festivals",
+          "Tuaregs",
+          "Jewelry",
+          "Mosques",
+          "Musical instruments",
+          "Flute",
+          "Islam"
+        ],
+        "matrix": [
+          [
+            0,
+            86,
+            86,
+            10,
+            9,
+            5,
+            3,
+            2,
+            2,
+            2
+          ],
+          [
+            86,
+            0,
+            86,
+            10,
+            9,
+            5,
+            3,
+            2,
+            2,
+            2
+          ],
+          [
+            86,
+            86,
+            0,
+            10,
+            9,
+            5,
+            3,
+            2,
+            2,
+            2
+          ],
+          [
+            10,
+            10,
+            10,
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            9,
+            9,
+            9,
+            4,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            5,
+            5,
+            5,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            3,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            2,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    ]
+  },
   "contributors": [
     {
       "name": "Collections@UBT",
@@ -813,6 +2812,25 @@
       "value": 86
     }
   ],
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "calendarHeatmap": [
+    {
+      "date": "1970-01-01",
+      "value": 1
+    },
+    {
+      "date": "1990-01-01",
+      "value": 3
+    }
+  ],
+  "geoFlows": {
+    "flows": []
+  },
   "locations": [
     {
       "country": "Niger",

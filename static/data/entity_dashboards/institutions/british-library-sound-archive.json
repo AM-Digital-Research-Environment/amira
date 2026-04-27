@@ -80,6 +80,46 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Muller, Carol",
+        "name": "Muller, Carol",
+        "itemCount": 1
+      },
+      {
+        "id": "Topp Fargion, Janet",
+        "name": "Topp Fargion, Janet",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of North Carolina at Chapel Hill",
+        "name": "University of North Carolina at Chapel Hill",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Muller, Carol",
+        "targetId": "University of North Carolina at Chapel Hill",
+        "count": 1
+      },
+      {
+        "personId": "Topp Fargion, Janet",
+        "targetId": "University of North Carolina at Chapel Hill",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "South Africa",

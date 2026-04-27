@@ -58,6 +58,46 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Muller, Carol",
+        "name": "Muller, Carol",
+        "itemCount": 1
+      },
+      {
+        "id": "Topp Fargion, Janet",
+        "name": "Topp Fargion, Janet",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "British Library Sound Archive",
+        "name": "British Library Sound Archive",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Muller, Carol",
+        "targetId": "British Library Sound Archive",
+        "count": 1
+      },
+      {
+        "personId": "Topp Fargion, Janet",
+        "targetId": "British Library Sound Archive",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "South Africa",

@@ -94,6 +94,36 @@
       "value": 44
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "de Oliveira, Norival Moreira",
+        "name": "de Oliveira, Norival Moreira",
+        "itemCount": 44
+      }
+    ],
+    "targets": [
+      {
+        "id": "UFB_AfroDigital",
+        "name": "Museu Afro-Digital",
+        "itemCount": 44
+      }
+    ],
+    "edges": [
+      {
+        "personId": "de Oliveira, Norival Moreira",
+        "targetId": "UFB_AfroDigital",
+        "count": 44
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
   "locations": [
     {
       "country": "Brazil",

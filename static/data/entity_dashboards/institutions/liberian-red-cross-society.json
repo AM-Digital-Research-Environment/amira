@@ -178,6 +178,324 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Lloyd, Rev. J. Edwin",
+        "name": "Lloyd, Rev. J. Edwin",
+        "itemCount": 3
+      },
+      {
+        "id": "Sonii, Momo D.",
+        "name": "Sonii, Momo D.",
+        "itemCount": 1
+      },
+      {
+        "id": "Miller, Morris G.",
+        "name": "Miller, Morris G.",
+        "itemCount": 1
+      },
+      {
+        "id": "M'Baye, A. B.",
+        "name": "M'Baye, A. B.",
+        "itemCount": 1
+      },
+      {
+        "id": "Sarh, Dominic M.",
+        "name": "Sarh, Dominic M.",
+        "itemCount": 1
+      },
+      {
+        "id": "Sese, Dominic",
+        "name": "Sese, Dominic",
+        "itemCount": 1
+      },
+      {
+        "id": "Blidi, Francis Pupo",
+        "name": "Blidi, Francis Pupo",
+        "itemCount": 1
+      },
+      {
+        "id": "Nyah, O. Milford",
+        "name": "Nyah, O. Milford",
+        "itemCount": 1
+      },
+      {
+        "id": "Blake, Dec. Charles II",
+        "name": "Blake, Dec. Charles II",
+        "itemCount": 1
+      },
+      {
+        "id": "Hall, J. Gbana",
+        "name": "Hall, J. Gbana",
+        "itemCount": 1
+      },
+      {
+        "id": "Shannon, Eugene H.",
+        "name": "Shannon, Eugene H.",
+        "itemCount": 1
+      },
+      {
+        "id": "Collins, Hawa Andrews",
+        "name": "Collins, Hawa Andrews",
+        "itemCount": 1
+      },
+      {
+        "id": "Johnson, T. Mac",
+        "name": "Johnson, T. Mac",
+        "itemCount": 1
+      },
+      {
+        "id": "Abrashev, Bojidar",
+        "name": "Abrashev, Bojidar",
+        "itemCount": 1
+      },
+      {
+        "id": "Sárközy, Endre",
+        "name": "Sárközy, Endre",
+        "itemCount": 1
+      },
+      {
+        "id": "Blamoh, Gregory T.",
+        "name": "Blamoh, Gregory T.",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System",
+        "itemCount": 5
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Lloyd, Rev. J. Edwin",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 3
+      },
+      {
+        "personId": "Sonii, Momo D.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Miller, Morris G.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "M'Baye, A. B.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Sarh, Dominic M.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Sese, Dominic",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Blidi, Francis Pupo",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Nyah, O. Milford",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Blake, Dec. Charles II",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Hall, J. Gbana",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Shannon, Eugene H.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Collins, Hawa Andrews",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Johnson, T. Mac",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Abrashev, Bojidar",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Sárközy, Endre",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Blamoh, Gregory T.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Sonii, Momo D.",
+        "name": "Sonii, Momo D.",
+        "itemCount": 2
+      },
+      {
+        "id": "Miller, Morris G.",
+        "name": "Miller, Morris G.",
+        "itemCount": 2
+      },
+      {
+        "id": "M'Baye, A. B.",
+        "name": "M'Baye, A. B.",
+        "itemCount": 2
+      },
+      {
+        "id": "Sarh, Dominic M.",
+        "name": "Sarh, Dominic M.",
+        "itemCount": 2
+      },
+      {
+        "id": "Sese, Dominic",
+        "name": "Sese, Dominic",
+        "itemCount": 2
+      },
+      {
+        "id": "Blidi, Francis Pupo",
+        "name": "Blidi, Francis Pupo",
+        "itemCount": 2
+      },
+      {
+        "id": "Lloyd, Rev. J. Edwin",
+        "name": "Lloyd, Rev. J. Edwin",
+        "itemCount": 1
+      },
+      {
+        "id": "Shannon, Eugene H.",
+        "name": "Shannon, Eugene H.",
+        "itemCount": 1
+      },
+      {
+        "id": "Collins, Hawa Andrews",
+        "name": "Collins, Hawa Andrews",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Ganta Leprosy and TB Rehabilitation Center",
+        "name": "Ganta Leprosy and TB Rehabilitation Center",
+        "itemCount": 1
+      },
+      {
+        "id": "National Blood Bank, Liberia",
+        "name": "National Blood Bank, Liberia",
+        "itemCount": 1
+      },
+      {
+        "id": "Liberia Broadcasting System (LBS)",
+        "name": "Liberia Broadcasting System (LBS)",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Sonii, Momo D.",
+        "targetId": "Ganta Leprosy and TB Rehabilitation Center",
+        "count": 1
+      },
+      {
+        "personId": "Miller, Morris G.",
+        "targetId": "Ganta Leprosy and TB Rehabilitation Center",
+        "count": 1
+      },
+      {
+        "personId": "M'Baye, A. B.",
+        "targetId": "Ganta Leprosy and TB Rehabilitation Center",
+        "count": 1
+      },
+      {
+        "personId": "Sarh, Dominic M.",
+        "targetId": "Ganta Leprosy and TB Rehabilitation Center",
+        "count": 1
+      },
+      {
+        "personId": "Sese, Dominic",
+        "targetId": "Ganta Leprosy and TB Rehabilitation Center",
+        "count": 1
+      },
+      {
+        "personId": "Blidi, Francis Pupo",
+        "targetId": "Ganta Leprosy and TB Rehabilitation Center",
+        "count": 1
+      },
+      {
+        "personId": "Sonii, Momo D.",
+        "targetId": "National Blood Bank, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Miller, Morris G.",
+        "targetId": "National Blood Bank, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "M'Baye, A. B.",
+        "targetId": "National Blood Bank, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Sarh, Dominic M.",
+        "targetId": "National Blood Bank, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Sese, Dominic",
+        "targetId": "National Blood Bank, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Blidi, Francis Pupo",
+        "targetId": "National Blood Bank, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Lloyd, Rev. J. Edwin",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Shannon, Eugene H.",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Collins, Hawa Andrews",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Liberia",

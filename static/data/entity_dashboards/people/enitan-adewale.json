@@ -121,6 +121,270 @@
       "value": 15
     }
   ],
+  "coContributors": {
+    "names": [
+      "Lawanson, Taibat",
+      "Eleshin, Abisoye",
+      "Akinpelu, Deji",
+      "Odubawo, Orinayo",
+      "Bitrus, Byenyen"
+    ],
+    "matrix": [
+      [
+        0,
+        15,
+        15,
+        15,
+        15
+      ],
+      [
+        15,
+        0,
+        15,
+        15,
+        15
+      ],
+      [
+        15,
+        15,
+        0,
+        15,
+        15
+      ],
+      [
+        15,
+        15,
+        15,
+        0,
+        15
+      ],
+      [
+        15,
+        15,
+        15,
+        15,
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Lawanson, Taibat",
+        "name": "Lawanson, Taibat",
+        "itemCount": 15
+      },
+      {
+        "id": "Eleshin, Abisoye",
+        "name": "Eleshin, Abisoye",
+        "itemCount": 15
+      },
+      {
+        "id": "Akinpelu, Deji",
+        "name": "Akinpelu, Deji",
+        "itemCount": 15
+      },
+      {
+        "id": "Odubawo, Orinayo",
+        "name": "Odubawo, Orinayo",
+        "itemCount": 15
+      },
+      {
+        "id": "Bitrus, Byenyen",
+        "name": "Bitrus, Byenyen",
+        "itemCount": 15
+      }
+    ],
+    "targets": [
+      {
+        "id": "ULG_LOI2021",
+        "name": "Lagos Ownership and Identities (Intellectual Debates and One Month Photography Exhibition)",
+        "itemCount": 15
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Lawanson, Taibat",
+        "targetId": "ULG_LOI2021",
+        "count": 15
+      },
+      {
+        "personId": "Eleshin, Abisoye",
+        "targetId": "ULG_LOI2021",
+        "count": 15
+      },
+      {
+        "personId": "Akinpelu, Deji",
+        "targetId": "ULG_LOI2021",
+        "count": 15
+      },
+      {
+        "personId": "Odubawo, Orinayo",
+        "targetId": "ULG_LOI2021",
+        "count": 15
+      },
+      {
+        "personId": "Bitrus, Byenyen",
+        "targetId": "ULG_LOI2021",
+        "count": 15
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Lawanson, Taibat",
+        "name": "Lawanson, Taibat",
+        "itemCount": 60
+      },
+      {
+        "id": "Eleshin, Abisoye",
+        "name": "Eleshin, Abisoye",
+        "itemCount": 60
+      },
+      {
+        "id": "Akinpelu, Deji",
+        "name": "Akinpelu, Deji",
+        "itemCount": 60
+      },
+      {
+        "id": "Odubawo, Orinayo",
+        "name": "Odubawo, Orinayo",
+        "itemCount": 60
+      },
+      {
+        "id": "Bitrus, Byenyen",
+        "name": "Bitrus, Byenyen",
+        "itemCount": 60
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Lagos African Cluster Centre (LACC)",
+        "name": "University of Lagos African Cluster Centre (LACC)",
+        "itemCount": 15
+      },
+      {
+        "id": "Rethinking Cities",
+        "name": "Rethinking Cities",
+        "itemCount": 15
+      },
+      {
+        "id": "Department of Arts and Social Science Education, University of Lagos",
+        "name": "Department of Arts and Social Science Education, University of Lagos",
+        "itemCount": 15
+      },
+      {
+        "id": "Department of Urban and Regional Planning, University of Lagos",
+        "name": "Department of Urban and Regional Planning, University of Lagos",
+        "itemCount": 15
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Lawanson, Taibat",
+        "targetId": "University of Lagos African Cluster Centre (LACC)",
+        "count": 15
+      },
+      {
+        "personId": "Eleshin, Abisoye",
+        "targetId": "University of Lagos African Cluster Centre (LACC)",
+        "count": 15
+      },
+      {
+        "personId": "Akinpelu, Deji",
+        "targetId": "University of Lagos African Cluster Centre (LACC)",
+        "count": 15
+      },
+      {
+        "personId": "Odubawo, Orinayo",
+        "targetId": "University of Lagos African Cluster Centre (LACC)",
+        "count": 15
+      },
+      {
+        "personId": "Bitrus, Byenyen",
+        "targetId": "University of Lagos African Cluster Centre (LACC)",
+        "count": 15
+      },
+      {
+        "personId": "Lawanson, Taibat",
+        "targetId": "Rethinking Cities",
+        "count": 15
+      },
+      {
+        "personId": "Eleshin, Abisoye",
+        "targetId": "Rethinking Cities",
+        "count": 15
+      },
+      {
+        "personId": "Akinpelu, Deji",
+        "targetId": "Rethinking Cities",
+        "count": 15
+      },
+      {
+        "personId": "Odubawo, Orinayo",
+        "targetId": "Rethinking Cities",
+        "count": 15
+      },
+      {
+        "personId": "Bitrus, Byenyen",
+        "targetId": "Rethinking Cities",
+        "count": 15
+      },
+      {
+        "personId": "Lawanson, Taibat",
+        "targetId": "Department of Arts and Social Science Education, University of Lagos",
+        "count": 15
+      },
+      {
+        "personId": "Eleshin, Abisoye",
+        "targetId": "Department of Arts and Social Science Education, University of Lagos",
+        "count": 15
+      },
+      {
+        "personId": "Akinpelu, Deji",
+        "targetId": "Department of Arts and Social Science Education, University of Lagos",
+        "count": 15
+      },
+      {
+        "personId": "Odubawo, Orinayo",
+        "targetId": "Department of Arts and Social Science Education, University of Lagos",
+        "count": 15
+      },
+      {
+        "personId": "Bitrus, Byenyen",
+        "targetId": "Department of Arts and Social Science Education, University of Lagos",
+        "count": 15
+      },
+      {
+        "personId": "Lawanson, Taibat",
+        "targetId": "Department of Urban and Regional Planning, University of Lagos",
+        "count": 15
+      },
+      {
+        "personId": "Eleshin, Abisoye",
+        "targetId": "Department of Urban and Regional Planning, University of Lagos",
+        "count": 15
+      },
+      {
+        "personId": "Akinpelu, Deji",
+        "targetId": "Department of Urban and Regional Planning, University of Lagos",
+        "count": 15
+      },
+      {
+        "personId": "Odubawo, Orinayo",
+        "targetId": "Department of Urban and Regional Planning, University of Lagos",
+        "count": 15
+      },
+      {
+        "personId": "Bitrus, Byenyen",
+        "targetId": "Department of Urban and Regional Planning, University of Lagos",
+        "count": 15
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Nigeria",

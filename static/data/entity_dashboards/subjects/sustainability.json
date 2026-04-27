@@ -159,6 +159,30 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Sustainability",
+      "Natural disasters",
+      "Global warming"
+    ],
+    "matrix": [
+      [
+        0,
+        7,
+        7
+      ],
+      [
+        7,
+        0,
+        7
+      ],
+      [
+        7,
+        7,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Natural disasters",

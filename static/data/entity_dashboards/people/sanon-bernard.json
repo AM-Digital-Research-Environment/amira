@@ -99,6 +99,68 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [],
+    "matrix": []
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Hien, Frederic",
+        "name": "Hien, Frederic",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Hien, Frederic",
+        "targetId": "UJKZ_GLOBHEALTH2020",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Hien, Frederic",
+        "name": "Hien, Frederic",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "National Union of Human and Animal Health Workers of Burkina Faso",
+        "name": "National Union of Human and Animal Health Workers of Burkina Faso",
+        "itemCount": 1
+      },
+      {
+        "id": "Université Joseph Ki-Zerbo",
+        "name": "Université Joseph Ki-Zerbo",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Hien, Frederic",
+        "targetId": "National Union of Human and Animal Health Workers of Burkina Faso",
+        "count": 1
+      },
+      {
+        "personId": "Hien, Frederic",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Burkina Faso",

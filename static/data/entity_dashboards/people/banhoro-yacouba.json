@@ -237,6 +237,134 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [
+      "Illy, Ousseni"
+    ],
+    "matrix": [
+      [
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Illy, Ousseni",
+        "name": "Illy, Ousseni",
+        "itemCount": 2
+      },
+      {
+        "id": "Hien, Frederic",
+        "name": "Hien, Frederic",
+        "itemCount": 1
+      },
+      {
+        "id": "Sib, Sié Moise",
+        "name": "Sib, Sié Moise",
+        "itemCount": 1
+      },
+      {
+        "id": "Baguian, Sidibewindé Romain",
+        "name": "Baguian, Sidibewindé Romain",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa",
+        "itemCount": 5
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Hien, Frederic",
+        "targetId": "UJKZ_GLOBHEALTH2020",
+        "count": 1
+      },
+      {
+        "personId": "Sib, Sié Moise",
+        "targetId": "UJKZ_GLOBHEALTH2020",
+        "count": 1
+      },
+      {
+        "personId": "Baguian, Sidibewindé Romain",
+        "targetId": "UJKZ_GLOBHEALTH2020",
+        "count": 1
+      },
+      {
+        "personId": "Illy, Ousseni",
+        "targetId": "UJKZ_GLOBHEALTH2020",
+        "count": 2
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Illy, Ousseni",
+        "name": "Illy, Ousseni",
+        "itemCount": 4
+      },
+      {
+        "id": "Hien, Frederic",
+        "name": "Hien, Frederic",
+        "itemCount": 1
+      },
+      {
+        "id": "Sib, Sié Moise",
+        "name": "Sib, Sié Moise",
+        "itemCount": 1
+      },
+      {
+        "id": "Baguian, Sidibewindé Romain",
+        "name": "Baguian, Sidibewindé Romain",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Université Joseph Ki-Zerbo",
+        "name": "Université Joseph Ki-Zerbo",
+        "itemCount": 5
+      },
+      {
+        "id": "Thomas Sankara University",
+        "name": "Thomas Sankara University",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Hien, Frederic",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Sib, Sié Moise",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Baguian, Sidibewindé Romain",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Illy, Ousseni",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 2
+      },
+      {
+        "personId": "Illy, Ousseni",
+        "targetId": "Thomas Sankara University",
+        "count": 2
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Burkina Faso",

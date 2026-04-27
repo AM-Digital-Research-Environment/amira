@@ -343,6 +343,105 @@
       "value": 2
     }
   ],
+  "coContributors": {
+    "names": [
+      "Stadelmann, David",
+      "Frempong, Raymond Boadi"
+    ],
+    "matrix": [
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Stadelmann, David",
+        "name": "Stadelmann, David",
+        "itemCount": 20
+      },
+      {
+        "id": "Frempong, Raymond Boadi",
+        "name": "Frempong, Raymond Boadi",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_MuDAIMa2019",
+        "name": "Multiplicity in Decision-Making of Africa's Interacting Markets: The Functioning of Community Law, the Role of Market Participants and the Power of Regional Judges (MuDAIMa)",
+        "itemCount": 20
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Stadelmann, David",
+        "targetId": "UBT_MuDAIMa2019",
+        "count": 20
+      },
+      {
+        "personId": "Frempong, Raymond Boadi",
+        "targetId": "UBT_MuDAIMa2019",
+        "count": 2
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Stadelmann, David",
+        "name": "Stadelmann, David",
+        "itemCount": 39
+      },
+      {
+        "id": "Frempong, Raymond Boadi",
+        "name": "Frempong, Raymond Boadi",
+        "itemCount": 3
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Bayreuth",
+        "name": "University of Bayreuth",
+        "itemCount": 20
+      },
+      {
+        "id": "Center for Research in Economics, Management, and the Arts, Zurich, Switzerland (CREMA)",
+        "name": "Center for Research in Economics, Management, and the Arts, Zurich, Switzerland (CREMA)",
+        "itemCount": 19
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Stadelmann, David",
+        "targetId": "University of Bayreuth",
+        "count": 20
+      },
+      {
+        "personId": "Stadelmann, David",
+        "targetId": "Center for Research in Economics, Management, and the Arts, Zurich, Switzerland (CREMA)",
+        "count": 19
+      },
+      {
+        "personId": "Frempong, Raymond Boadi",
+        "targetId": "University of Bayreuth",
+        "count": 2
+      },
+      {
+        "personId": "Frempong, Raymond Boadi",
+        "targetId": "Center for Research in Economics, Management, and the Arts, Zurich, Switzerland (CREMA)",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Germany",

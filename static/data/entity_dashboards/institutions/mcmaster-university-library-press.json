@@ -69,6 +69,54 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Chapman, Matthieu A.",
+        "name": "Chapman, Matthieu A.",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Chapman, Matthieu A.",
+        "targetId": "UBT_TravKnowl2019",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Chapman, Matthieu A.",
+        "name": "Chapman, Matthieu A.",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of California, San Diego",
+        "name": "University of California, San Diego",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Chapman, Matthieu A.",
+        "targetId": "University of California, San Diego",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Canada",

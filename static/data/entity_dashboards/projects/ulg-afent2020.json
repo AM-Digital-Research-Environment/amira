@@ -22,6 +22,18 @@
       }
     }
   ],
+  "languageTimeline": [],
+  "subjectTrends": [
+    {
+      "year": 2021,
+      "byCategory": {
+        "Arts": 10,
+        "Aesthetics": 10,
+        "Music": 10,
+        "Scholars": 10
+      }
+    }
+  ],
   "types": [
     {
       "name": "Text",
@@ -108,6 +120,98 @@
     }
   ],
   "sunburst": [
+    {
+      "name": "Text",
+      "children": [
+        {
+          "name": "Unknown",
+          "children": [
+            {
+              "name": "Arts",
+              "value": 6,
+              "children": []
+            },
+            {
+              "name": "Aesthetics",
+              "value": 6,
+              "children": []
+            },
+            {
+              "name": "Music",
+              "value": 6,
+              "children": []
+            },
+            {
+              "name": "Scholars",
+              "value": 6,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Audio",
+      "children": [
+        {
+          "name": "Unknown",
+          "children": [
+            {
+              "name": "Arts",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "Aesthetics",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "Music",
+              "value": 3,
+              "children": []
+            },
+            {
+              "name": "Scholars",
+              "value": 3,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Image",
+      "children": [
+        {
+          "name": "Unknown",
+          "children": [
+            {
+              "name": "Arts",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Aesthetics",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Music",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Scholars",
+              "value": 1,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "treemap": [
     {
       "name": "Text",
       "children": [
@@ -290,6 +394,45 @@
       ]
     ]
   },
+  "timeAwareChord": {
+    "buckets": [
+      {
+        "year": 2021,
+        "names": [
+          "Arts",
+          "Aesthetics",
+          "Music",
+          "Scholars"
+        ],
+        "matrix": [
+          [
+            0,
+            10,
+            10,
+            10
+          ],
+          [
+            10,
+            0,
+            10,
+            10
+          ],
+          [
+            10,
+            10,
+            0,
+            10
+          ],
+          [
+            10,
+            10,
+            10,
+            0
+          ]
+        ]
+      }
+    ]
+  },
   "contributors": [
     {
       "name": "Oloko, Patrick",
@@ -316,6 +459,16 @@
       "value": 10
     }
   ],
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "calendarHeatmap": [],
+  "geoFlows": {
+    "flows": []
+  },
   "locations": [
     {
       "country": "Nigeria",

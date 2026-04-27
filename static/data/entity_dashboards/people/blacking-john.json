@@ -400,6 +400,65 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [],
+    "matrix": []
+  },
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Jones, A. M.",
+        "name": "Jones, A. M.",
+        "itemCount": 2
+      },
+      {
+        "id": "Pantaleoni, Hewitt",
+        "name": "Pantaleoni, Hewitt",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of the Witwatersrand",
+        "name": "University of the Witwatersrand",
+        "itemCount": 1
+      },
+      {
+        "id": "State University of New York at Oneonta",
+        "name": "State University of New York at Oneonta",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Jones, A. M.",
+        "targetId": "University of the Witwatersrand",
+        "count": 1
+      },
+      {
+        "personId": "Pantaleoni, Hewitt",
+        "targetId": "University of the Witwatersrand",
+        "count": 1
+      },
+      {
+        "personId": "Jones, A. M.",
+        "targetId": "State University of New York at Oneonta",
+        "count": 1
+      },
+      {
+        "personId": "Pantaleoni, Hewitt",
+        "targetId": "State University of New York at Oneonta",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "South Africa",

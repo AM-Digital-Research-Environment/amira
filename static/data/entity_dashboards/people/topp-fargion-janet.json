@@ -77,6 +77,50 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [],
+    "matrix": []
+  },
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Muller, Carol",
+        "name": "Muller, Carol",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of North Carolina at Chapel Hill",
+        "name": "University of North Carolina at Chapel Hill",
+        "itemCount": 1
+      },
+      {
+        "id": "British Library Sound Archive",
+        "name": "British Library Sound Archive",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Muller, Carol",
+        "targetId": "University of North Carolina at Chapel Hill",
+        "count": 1
+      },
+      {
+        "personId": "Muller, Carol",
+        "targetId": "British Library Sound Archive",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "South Africa",

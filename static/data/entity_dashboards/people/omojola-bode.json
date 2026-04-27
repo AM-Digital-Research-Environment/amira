@@ -54,6 +54,118 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [],
+    "matrix": []
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Matzke, Christine",
+        "name": "Matzke, Christine",
+        "itemCount": 1
+      },
+      {
+        "id": "Balogun, Lekan",
+        "name": "Balogun, Lekan",
+        "itemCount": 1
+      },
+      {
+        "id": "Gibbs, James",
+        "name": "Gibbs, James",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Matzke, Christine",
+        "targetId": "UBT_TaiSha2021",
+        "count": 1
+      },
+      {
+        "personId": "Balogun, Lekan",
+        "targetId": "UBT_TaiSha2021",
+        "count": 1
+      },
+      {
+        "personId": "Gibbs, James",
+        "targetId": "UBT_TaiSha2021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Matzke, Christine",
+        "name": "Matzke, Christine",
+        "itemCount": 2
+      },
+      {
+        "id": "Balogun, Lekan",
+        "name": "Balogun, Lekan",
+        "itemCount": 2
+      },
+      {
+        "id": "Gibbs, James",
+        "name": "Gibbs, James",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Bayreuth",
+        "name": "University of Bayreuth",
+        "itemCount": 1
+      },
+      {
+        "id": "Mount Holyoke College",
+        "name": "Mount Holyoke College",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Matzke, Christine",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Balogun, Lekan",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Gibbs, James",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Matzke, Christine",
+        "targetId": "Mount Holyoke College",
+        "count": 1
+      },
+      {
+        "personId": "Balogun, Lekan",
+        "targetId": "Mount Holyoke College",
+        "count": 1
+      },
+      {
+        "personId": "Gibbs, James",
+        "targetId": "Mount Holyoke College",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Germany",

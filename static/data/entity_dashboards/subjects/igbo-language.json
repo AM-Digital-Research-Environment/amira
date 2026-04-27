@@ -62,6 +62,30 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Ethnomusicology",
+      "Igbo (African people)",
+      "Igbo language"
+    ],
+    "matrix": [
+      [
+        0,
+        3,
+        3
+      ],
+      [
+        3,
+        0,
+        3
+      ],
+      [
+        3,
+        3,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Ethnomusicology",

@@ -22,6 +22,15 @@
       }
     }
   ],
+  "languageTimeline": [],
+  "subjectTrends": [
+    {
+      "year": 2022,
+      "byCategory": {
+        "West Africa": 16
+      }
+    }
+  ],
   "types": [
     {
       "name": "Text",
@@ -84,6 +93,53 @@
     }
   ],
   "sunburst": [
+    {
+      "name": "Text",
+      "children": [
+        {
+          "name": "Unknown",
+          "children": [
+            {
+              "name": "West Africa",
+              "value": 8,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Image",
+      "children": [
+        {
+          "name": "Unknown",
+          "children": [
+            {
+              "name": "West Africa",
+              "value": 7,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dataset",
+      "children": [
+        {
+          "name": "Unknown",
+          "children": [
+            {
+              "name": "West Africa",
+              "value": 1,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "treemap": [
     {
       "name": "Text",
       "children": [
@@ -197,6 +253,21 @@
       ]
     ]
   },
+  "timeAwareChord": {
+    "buckets": [
+      {
+        "year": 2022,
+        "names": [
+          "West Africa"
+        ],
+        "matrix": [
+          [
+            0
+          ]
+        ]
+      }
+    ]
+  },
   "contributors": [
     {
       "name": "Lawanson, Taibat",
@@ -223,6 +294,16 @@
       "value": 16
     }
   ],
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "calendarHeatmap": [],
+  "geoFlows": {
+    "flows": []
+  },
   "locations": [
     {
       "country": "Nigeria",

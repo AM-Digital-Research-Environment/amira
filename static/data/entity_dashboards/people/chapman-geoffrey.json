@@ -79,6 +79,50 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [],
+    "matrix": []
+  },
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Carroll, Kevin",
+        "name": "Carroll, Kevin",
+        "itemCount": 1
+      },
+      {
+        "id": "Fagg, William",
+        "name": "Fagg, William",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Holy Cross Mission, Lagos",
+        "name": "Holy Cross Mission, Lagos",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Carroll, Kevin",
+        "targetId": "Holy Cross Mission, Lagos",
+        "count": 1
+      },
+      {
+        "personId": "Fagg, William",
+        "targetId": "Holy Cross Mission, Lagos",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "South Africa",

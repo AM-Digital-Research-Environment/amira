@@ -20,6 +20,25 @@
       }
     }
   ],
+  "languageTimeline": [
+    {
+      "year": 2020,
+      "byCategory": {
+        "French": 9,
+        "English": 4
+      }
+    }
+  ],
+  "subjectTrends": [
+    {
+      "year": 2020,
+      "byCategory": {
+        "Land tenure": 9,
+        "Migration": 9,
+        "Social conflict": 9
+      }
+    }
+  ],
   "types": [
     {
       "name": "Text",
@@ -77,6 +96,53 @@
     }
   ],
   "sunburst": [
+    {
+      "name": "Text",
+      "children": [
+        {
+          "name": "French",
+          "children": [
+            {
+              "name": "Land tenure",
+              "value": 9,
+              "children": []
+            },
+            {
+              "name": "Migration",
+              "value": 9,
+              "children": []
+            },
+            {
+              "name": "Social conflict",
+              "value": 9,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "English",
+          "children": [
+            {
+              "name": "Land tenure",
+              "value": 4,
+              "children": []
+            },
+            {
+              "name": "Migration",
+              "value": 4,
+              "children": []
+            },
+            {
+              "name": "Social conflict",
+              "value": 4,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "treemap": [
     {
       "name": "Text",
       "children": [
@@ -188,6 +254,35 @@
       ]
     ]
   },
+  "timeAwareChord": {
+    "buckets": [
+      {
+        "year": 2020,
+        "names": [
+          "Land tenure",
+          "Migration",
+          "Social conflict"
+        ],
+        "matrix": [
+          [
+            0,
+            9,
+            9
+          ],
+          [
+            9,
+            0,
+            9
+          ],
+          [
+            9,
+            9,
+            0
+          ]
+        ]
+      }
+    ]
+  },
   "contributors": [
     {
       "name": "Sebudandi, Christophe",
@@ -214,6 +309,30 @@
       "value": 4
     }
   ],
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "calendarHeatmap": [],
+  "geoFlows": {
+    "flows": [
+      {
+        "from": {
+          "lng": 17.66306,
+          "lat": -5.83722,
+          "label": "Geti"
+        },
+        "to": {
+          "lng": 11.57833,
+          "lat": 49.94806,
+          "label": "Bayreuth"
+        },
+        "count": 9
+      }
+    ]
+  },
   "locations": [
     {
       "country": "Democratic Republic of the Congo",

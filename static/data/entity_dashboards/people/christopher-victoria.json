@@ -193,6 +193,454 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [
+      "Kollie, Aaron"
+    ],
+    "matrix": [
+      [
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Kollie, Aaron",
+        "name": "Kollie, Aaron",
+        "itemCount": 2
+      },
+      {
+        "id": "Collin, Aaron",
+        "name": "Collin, Aaron",
+        "itemCount": 1
+      },
+      {
+        "id": "Gbado, Cyrus",
+        "name": "Gbado, Cyrus",
+        "itemCount": 1
+      },
+      {
+        "id": "Brown, Dan",
+        "name": "Brown, Dan",
+        "itemCount": 1
+      },
+      {
+        "id": "Konuwa, Charles",
+        "name": "Konuwa, Charles",
+        "itemCount": 1
+      },
+      {
+        "id": "Andrews, Amos",
+        "name": "Andrews, Amos",
+        "itemCount": 1
+      },
+      {
+        "id": "Stevquoah, Sam",
+        "name": "Stevquoah, Sam",
+        "itemCount": 1
+      },
+      {
+        "id": "Falla",
+        "name": "Falla",
+        "itemCount": 1
+      },
+      {
+        "id": "Nangwe, Joseph",
+        "name": "Nangwe, Joseph",
+        "itemCount": 1
+      },
+      {
+        "id": "Clarke, Wilfried",
+        "name": "Clarke, Wilfried",
+        "itemCount": 1
+      },
+      {
+        "id": "Kennedy, Hawa",
+        "name": "Kennedy, Hawa",
+        "itemCount": 1
+      },
+      {
+        "id": "Wasolo, Steve",
+        "name": "Wasolo, Steve",
+        "itemCount": 1
+      },
+      {
+        "id": "Nigbo, Aaron",
+        "name": "Nigbo, Aaron",
+        "itemCount": 1
+      },
+      {
+        "id": "Johnson, Patrick",
+        "name": "Johnson, Patrick",
+        "itemCount": 1
+      },
+      {
+        "id": "Waters, Martha",
+        "name": "Waters, Martha",
+        "itemCount": 1
+      },
+      {
+        "id": "Stewart, James",
+        "name": "Stewart, James",
+        "itemCount": 1
+      },
+      {
+        "id": "Sahn, jonathan",
+        "name": "Sahn, jonathan",
+        "itemCount": 1
+      },
+      {
+        "id": "Johnson, Andrew",
+        "name": "Johnson, Andrew",
+        "itemCount": 1
+      },
+      {
+        "id": "Doe, Samuel Kanyon",
+        "name": "Doe, Samuel Kanyon",
+        "itemCount": 1
+      },
+      {
+        "id": "Ward, Amelia",
+        "name": "Ward, Amelia",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System",
+        "itemCount": 7
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Collin, Aaron",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Gbado, Cyrus",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Brown, Dan",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Konuwa, Charles",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Andrews, Amos",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Stevquoah, Sam",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Falla",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Nangwe, Joseph",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Clarke, Wilfried",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Kennedy, Hawa",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Kollie, Aaron",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 2
+      },
+      {
+        "personId": "Wasolo, Steve",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Nigbo, Aaron",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Johnson, Patrick",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Waters, Martha",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Stewart, James",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Sahn, jonathan",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Johnson, Andrew",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Doe, Samuel Kanyon",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Ward, Amelia",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Brown, Dan",
+        "name": "Brown, Dan",
+        "itemCount": 3
+      },
+      {
+        "id": "Konuwa, Charles",
+        "name": "Konuwa, Charles",
+        "itemCount": 3
+      },
+      {
+        "id": "Andrews, Amos",
+        "name": "Andrews, Amos",
+        "itemCount": 3
+      },
+      {
+        "id": "Stevquoah, Sam",
+        "name": "Stevquoah, Sam",
+        "itemCount": 3
+      },
+      {
+        "id": "Falla",
+        "name": "Falla",
+        "itemCount": 3
+      },
+      {
+        "id": "Nangwe, Joseph",
+        "name": "Nangwe, Joseph",
+        "itemCount": 3
+      },
+      {
+        "id": "Clarke, Wilfried",
+        "name": "Clarke, Wilfried",
+        "itemCount": 3
+      },
+      {
+        "id": "Kennedy, Hawa",
+        "name": "Kennedy, Hawa",
+        "itemCount": 3
+      },
+      {
+        "id": "Doe, Samuel Kanyon",
+        "name": "Doe, Samuel Kanyon",
+        "itemCount": 2
+      },
+      {
+        "id": "Ward, Amelia",
+        "name": "Ward, Amelia",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "National Bank of Liberia",
+        "name": "National Bank of Liberia",
+        "itemCount": 1
+      },
+      {
+        "id": "Agricultural and Cooperative Development Bank of Liberia",
+        "name": "Agricultural and Cooperative Development Bank of Liberia",
+        "itemCount": 1
+      },
+      {
+        "id": "Liberia National Police",
+        "name": "Liberia National Police",
+        "itemCount": 1
+      },
+      {
+        "id": "Ministry of State for Presidential Affairs, Liberia",
+        "name": "Ministry of State for Presidential Affairs, Liberia",
+        "itemCount": 1
+      },
+      {
+        "id": "Ministry of Planning and Economic Affairs, Liberia",
+        "name": "Ministry of Planning and Economic Affairs, Liberia",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Brown, Dan",
+        "targetId": "National Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Konuwa, Charles",
+        "targetId": "National Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Andrews, Amos",
+        "targetId": "National Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Stevquoah, Sam",
+        "targetId": "National Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Falla",
+        "targetId": "National Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Nangwe, Joseph",
+        "targetId": "National Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Clarke, Wilfried",
+        "targetId": "National Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Kennedy, Hawa",
+        "targetId": "National Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Brown, Dan",
+        "targetId": "Agricultural and Cooperative Development Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Konuwa, Charles",
+        "targetId": "Agricultural and Cooperative Development Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Andrews, Amos",
+        "targetId": "Agricultural and Cooperative Development Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Stevquoah, Sam",
+        "targetId": "Agricultural and Cooperative Development Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Falla",
+        "targetId": "Agricultural and Cooperative Development Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Nangwe, Joseph",
+        "targetId": "Agricultural and Cooperative Development Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Clarke, Wilfried",
+        "targetId": "Agricultural and Cooperative Development Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Kennedy, Hawa",
+        "targetId": "Agricultural and Cooperative Development Bank of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Brown, Dan",
+        "targetId": "Liberia National Police",
+        "count": 1
+      },
+      {
+        "personId": "Konuwa, Charles",
+        "targetId": "Liberia National Police",
+        "count": 1
+      },
+      {
+        "personId": "Andrews, Amos",
+        "targetId": "Liberia National Police",
+        "count": 1
+      },
+      {
+        "personId": "Stevquoah, Sam",
+        "targetId": "Liberia National Police",
+        "count": 1
+      },
+      {
+        "personId": "Falla",
+        "targetId": "Liberia National Police",
+        "count": 1
+      },
+      {
+        "personId": "Nangwe, Joseph",
+        "targetId": "Liberia National Police",
+        "count": 1
+      },
+      {
+        "personId": "Clarke, Wilfried",
+        "targetId": "Liberia National Police",
+        "count": 1
+      },
+      {
+        "personId": "Kennedy, Hawa",
+        "targetId": "Liberia National Police",
+        "count": 1
+      },
+      {
+        "personId": "Doe, Samuel Kanyon",
+        "targetId": "Ministry of State for Presidential Affairs, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Ward, Amelia",
+        "targetId": "Ministry of State for Presidential Affairs, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Doe, Samuel Kanyon",
+        "targetId": "Ministry of Planning and Economic Affairs, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Ward, Amelia",
+        "targetId": "Ministry of Planning and Economic Affairs, Liberia",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Liberia",

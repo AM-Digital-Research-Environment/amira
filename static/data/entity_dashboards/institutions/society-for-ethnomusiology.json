@@ -126,6 +126,36 @@
       "value": 2
     }
   ],
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Pantaleoni, Hewitt",
+        "name": "Pantaleoni, Hewitt",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "State University of New York at Oneonta",
+        "name": "State University of New York at Oneonta",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Pantaleoni, Hewitt",
+        "targetId": "State University of New York at Oneonta",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "South Africa",

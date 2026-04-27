@@ -75,6 +75,68 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [],
+    "matrix": []
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Ibrahim, Anwar",
+        "name": "Ibrahim, Anwar",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Ibrahim, Anwar",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Ibrahim, Anwar",
+        "name": "Ibrahim, Anwar",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "Ministry of Education, Liberia",
+        "name": "Ministry of Education, Liberia",
+        "itemCount": 1
+      },
+      {
+        "id": "UNESCO",
+        "name": "UNESCO",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Ibrahim, Anwar",
+        "targetId": "Ministry of Education, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Ibrahim, Anwar",
+        "targetId": "UNESCO",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Liberia",

@@ -306,6 +306,90 @@
       "value": 8
     }
   ],
+  "coContributors": {
+    "names": [
+      "Batjav, Batbuyan",
+      "Baasankhorloo, Ts"
+    ],
+    "matrix": [
+      [
+        0,
+        8
+      ],
+      [
+        8,
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Batjav, Batbuyan",
+        "name": "Batjav, Batbuyan",
+        "itemCount": 9
+      },
+      {
+        "id": "Baasankhorloo, Ts",
+        "name": "Baasankhorloo, Ts",
+        "itemCount": 8
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond",
+        "itemCount": 9
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Batjav, Batbuyan",
+        "targetId": "UBT_Covid192021",
+        "count": 9
+      },
+      {
+        "personId": "Baasankhorloo, Ts",
+        "targetId": "UBT_Covid192021",
+        "count": 8
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Batjav, Batbuyan",
+        "name": "Batjav, Batbuyan",
+        "itemCount": 9
+      },
+      {
+        "id": "Baasankhorloo, Ts",
+        "name": "Baasankhorloo, Ts",
+        "itemCount": 8
+      }
+    ],
+    "targets": [
+      {
+        "id": "Centre for Nomadic Pastoralism Studies",
+        "name": "Centre for Nomadic Pastoralism Studies",
+        "itemCount": 9
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Batjav, Batbuyan",
+        "targetId": "Centre for Nomadic Pastoralism Studies",
+        "count": 9
+      },
+      {
+        "personId": "Baasankhorloo, Ts",
+        "targetId": "Centre for Nomadic Pastoralism Studies",
+        "count": 8
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Mongolia",

@@ -155,6 +155,104 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Mafe, Diana Adesola",
+        "name": "Mafe, Diana Adesola",
+        "itemCount": 1
+      },
+      {
+        "id": "Caulker, Tcho Mbaima",
+        "name": "Caulker, Tcho Mbaima",
+        "itemCount": 1
+      },
+      {
+        "id": "Mazrui, Alamin M.",
+        "name": "Mazrui, Alamin M.",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama",
+        "itemCount": 3
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Mafe, Diana Adesola",
+        "targetId": "UBT_TravKnowl2019",
+        "count": 1
+      },
+      {
+        "personId": "Caulker, Tcho Mbaima",
+        "targetId": "UBT_TravKnowl2019",
+        "count": 1
+      },
+      {
+        "personId": "Mazrui, Alamin M.",
+        "targetId": "UBT_TravKnowl2019",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Mafe, Diana Adesola",
+        "name": "Mafe, Diana Adesola",
+        "itemCount": 1
+      },
+      {
+        "id": "Caulker, Tcho Mbaima",
+        "name": "Caulker, Tcho Mbaima",
+        "itemCount": 1
+      },
+      {
+        "id": "Mazrui, Alamin M.",
+        "name": "Mazrui, Alamin M.",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Denison University",
+        "name": "Denison University",
+        "itemCount": 1
+      },
+      {
+        "id": "University of New Haven",
+        "name": "University of New Haven",
+        "itemCount": 1
+      },
+      {
+        "id": "Rutgers University",
+        "name": "Rutgers University",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Mafe, Diana Adesola",
+        "targetId": "Denison University",
+        "count": 1
+      },
+      {
+        "personId": "Caulker, Tcho Mbaima",
+        "targetId": "University of New Haven",
+        "count": 1
+      },
+      {
+        "personId": "Mazrui, Alamin M.",
+        "targetId": "Rutgers University",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "United States of America",

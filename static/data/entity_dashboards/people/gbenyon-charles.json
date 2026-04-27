@@ -126,6 +126,164 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [
+      "Doe, Samuel Kanyon"
+    ],
+    "matrix": [
+      [
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Doe, Samuel Kanyon",
+        "name": "Doe, Samuel Kanyon",
+        "itemCount": 2
+      },
+      {
+        "id": "Gibson, Jestina",
+        "name": "Gibson, Jestina",
+        "itemCount": 1
+      },
+      {
+        "id": "Holman, Vanplahn",
+        "name": "Holman, Vanplahn",
+        "itemCount": 1
+      },
+      {
+        "id": "George, P. Amos Jr.",
+        "name": "George, P. Amos Jr.",
+        "itemCount": 1
+      },
+      {
+        "id": "Reffell, Victoria",
+        "name": "Reffell, Victoria",
+        "itemCount": 1
+      },
+      {
+        "id": "Smith, J. Eustace",
+        "name": "Smith, J. Eustace",
+        "itemCount": 1
+      },
+      {
+        "id": "Moniba, Harry Fumba",
+        "name": "Moniba, Harry Fumba",
+        "itemCount": 1
+      },
+      {
+        "id": "Ceaușescu, Nicolae",
+        "name": "Ceaușescu, Nicolae",
+        "itemCount": 1
+      },
+      {
+        "id": "Kollie, Aaron",
+        "name": "Kollie, Aaron",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System",
+        "itemCount": 4
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Gibson, Jestina",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Holman, Vanplahn",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "George, P. Amos Jr.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Reffell, Victoria",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Smith, J. Eustace",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Doe, Samuel Kanyon",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 2
+      },
+      {
+        "personId": "Moniba, Harry Fumba",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Ceaușescu, Nicolae",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Kollie, Aaron",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Doe, Samuel Kanyon",
+        "name": "Doe, Samuel Kanyon",
+        "itemCount": 2
+      },
+      {
+        "id": "Moniba, Harry Fumba",
+        "name": "Moniba, Harry Fumba",
+        "itemCount": 1
+      },
+      {
+        "id": "Ceaușescu, Nicolae",
+        "name": "Ceaușescu, Nicolae",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Ministry of State for Presidential Affairs, Liberia",
+        "name": "Ministry of State for Presidential Affairs, Liberia",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Doe, Samuel Kanyon",
+        "targetId": "Ministry of State for Presidential Affairs, Liberia",
+        "count": 2
+      },
+      {
+        "personId": "Moniba, Harry Fumba",
+        "targetId": "Ministry of State for Presidential Affairs, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Ceaușescu, Nicolae",
+        "targetId": "Ministry of State for Presidential Affairs, Liberia",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Liberia",

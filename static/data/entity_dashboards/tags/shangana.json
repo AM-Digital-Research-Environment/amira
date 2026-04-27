@@ -77,6 +77,40 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "South Africa",
+      "Music",
+      "Tsonga (African people)",
+      "Ethnomusicology"
+    ],
+    "matrix": [
+      [
+        0,
+        3,
+        3,
+        3
+      ],
+      [
+        3,
+        0,
+        3,
+        3
+      ],
+      [
+        3,
+        3,
+        0,
+        3
+      ],
+      [
+        3,
+        3,
+        3,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "South Africa",

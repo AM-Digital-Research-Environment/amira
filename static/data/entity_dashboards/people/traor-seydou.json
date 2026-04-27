@@ -223,6 +223,290 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [
+      "Sanon, Boukary",
+      "Sanou, Issiaka"
+    ],
+    "matrix": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Sanon, Boukary",
+        "name": "Sanon, Boukary",
+        "itemCount": 2
+      },
+      {
+        "id": "Sanou, Issiaka",
+        "name": "Sanou, Issiaka",
+        "itemCount": 2
+      },
+      {
+        "id": "Ouattara, Amadou",
+        "name": "Ouattara, Amadou",
+        "itemCount": 1
+      },
+      {
+        "id": "Donatien, Millogo",
+        "name": "Donatien, Millogo",
+        "itemCount": 1
+      },
+      {
+        "id": "Soulama, Brahima",
+        "name": "Soulama, Brahima",
+        "itemCount": 1
+      },
+      {
+        "id": "Sanou, Salia",
+        "name": "Sanou, Salia",
+        "itemCount": 1
+      },
+      {
+        "id": "Traoré, Honoré Nabéré",
+        "name": "Traoré, Honoré Nabéré",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment",
+        "itemCount": 6
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Sanon, Boukary",
+        "targetId": "UJKZ_JITBF2020",
+        "count": 2
+      },
+      {
+        "personId": "Sanou, Issiaka",
+        "targetId": "UJKZ_JITBF2020",
+        "count": 2
+      },
+      {
+        "personId": "Ouattara, Amadou",
+        "targetId": "UJKZ_JITBF2020",
+        "count": 1
+      },
+      {
+        "personId": "Donatien, Millogo",
+        "targetId": "UJKZ_JITBF2020",
+        "count": 1
+      },
+      {
+        "personId": "Soulama, Brahima",
+        "targetId": "UJKZ_JITBF2020",
+        "count": 1
+      },
+      {
+        "personId": "Sanou, Salia",
+        "targetId": "UJKZ_JITBF2020",
+        "count": 1
+      },
+      {
+        "personId": "Traoré, Honoré Nabéré",
+        "targetId": "UJKZ_JITBF2020",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Sanon, Boukary",
+        "name": "Sanon, Boukary",
+        "itemCount": 7
+      },
+      {
+        "id": "Sanou, Issiaka",
+        "name": "Sanou, Issiaka",
+        "itemCount": 4
+      },
+      {
+        "id": "Ouattara, Amadou",
+        "name": "Ouattara, Amadou",
+        "itemCount": 4
+      },
+      {
+        "id": "Donatien, Millogo",
+        "name": "Donatien, Millogo",
+        "itemCount": 4
+      },
+      {
+        "id": "Soulama, Brahima",
+        "name": "Soulama, Brahima",
+        "itemCount": 2
+      },
+      {
+        "id": "Sanou, Salia",
+        "name": "Sanou, Salia",
+        "itemCount": 2
+      },
+      {
+        "id": "Traoré, Honoré Nabéré",
+        "name": "Traoré, Honoré Nabéré",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "Université Joseph Ki-Zerbo",
+        "name": "Université Joseph Ki-Zerbo",
+        "itemCount": 6
+      },
+      {
+        "id": "Université catholique de l'Afrique de l'Ouest",
+        "name": "Université catholique de l'Afrique de l'Ouest",
+        "itemCount": 2
+      },
+      {
+        "id": "Université Nazi BONI",
+        "name": "Université Nazi BONI",
+        "itemCount": 2
+      },
+      {
+        "id": "Conseil Villageois de Développement",
+        "name": "Conseil Villageois de Développement",
+        "itemCount": 1
+      },
+      {
+        "id": "Cour d'appel de Bobo-Dioulasso",
+        "name": "Cour d'appel de Bobo-Dioulasso",
+        "itemCount": 1
+      },
+      {
+        "id": "Compagnie Mouvements Perpétuels",
+        "name": "Compagnie Mouvements Perpétuels",
+        "itemCount": 1
+      },
+      {
+        "id": "Burkina Faso Armed Forces",
+        "name": "Burkina Faso Armed Forces",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Sanon, Boukary",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 2
+      },
+      {
+        "personId": "Sanou, Issiaka",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 2
+      },
+      {
+        "personId": "Sanon, Boukary",
+        "targetId": "Université catholique de l'Afrique de l'Ouest",
+        "count": 2
+      },
+      {
+        "personId": "Sanou, Issiaka",
+        "targetId": "Université catholique de l'Afrique de l'Ouest",
+        "count": 1
+      },
+      {
+        "personId": "Sanon, Boukary",
+        "targetId": "Université Nazi BONI",
+        "count": 2
+      },
+      {
+        "personId": "Sanou, Issiaka",
+        "targetId": "Université Nazi BONI",
+        "count": 1
+      },
+      {
+        "personId": "Ouattara, Amadou",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Donatien, Millogo",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Ouattara, Amadou",
+        "targetId": "Université catholique de l'Afrique de l'Ouest",
+        "count": 1
+      },
+      {
+        "personId": "Donatien, Millogo",
+        "targetId": "Université catholique de l'Afrique de l'Ouest",
+        "count": 1
+      },
+      {
+        "personId": "Ouattara, Amadou",
+        "targetId": "Université Nazi BONI",
+        "count": 1
+      },
+      {
+        "personId": "Donatien, Millogo",
+        "targetId": "Université Nazi BONI",
+        "count": 1
+      },
+      {
+        "personId": "Sanon, Boukary",
+        "targetId": "Conseil Villageois de Développement",
+        "count": 1
+      },
+      {
+        "personId": "Ouattara, Amadou",
+        "targetId": "Conseil Villageois de Développement",
+        "count": 1
+      },
+      {
+        "personId": "Donatien, Millogo",
+        "targetId": "Conseil Villageois de Développement",
+        "count": 1
+      },
+      {
+        "personId": "Soulama, Brahima",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Soulama, Brahima",
+        "targetId": "Cour d'appel de Bobo-Dioulasso",
+        "count": 1
+      },
+      {
+        "personId": "Sanou, Salia",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Sanou, Salia",
+        "targetId": "Compagnie Mouvements Perpétuels",
+        "count": 1
+      },
+      {
+        "personId": "Traoré, Honoré Nabéré",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Traoré, Honoré Nabéré",
+        "targetId": "Burkina Faso Armed Forces",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Burkina Faso",

@@ -100,6 +100,30 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Ethnomusicology",
+      "Music",
+      "Africa"
+    ],
+    "matrix": [
+      [
+        0,
+        4,
+        3
+      ],
+      [
+        4,
+        0,
+        3
+      ],
+      [
+        3,
+        3,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Ethnomusicology",

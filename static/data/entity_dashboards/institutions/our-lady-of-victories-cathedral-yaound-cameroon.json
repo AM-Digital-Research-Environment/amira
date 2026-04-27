@@ -68,6 +68,46 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Ngumu, Pie-Claude",
+        "name": "Ngumu, Pie-Claude",
+        "itemCount": 1
+      },
+      {
+        "id": "Tracey, Andrew",
+        "name": "Tracey, Andrew",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "International Library of African Music (ILAM)",
+        "name": "International Library of African Music (ILAM)",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Ngumu, Pie-Claude",
+        "targetId": "International Library of African Music (ILAM)",
+        "count": 1
+      },
+      {
+        "personId": "Tracey, Andrew",
+        "targetId": "International Library of African Music (ILAM)",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "South Africa",

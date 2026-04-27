@@ -170,6 +170,304 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [
+      "Kronenburg García, Angela"
+    ],
+    "matrix": [
+      [
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Kronenburg García, Angela",
+        "name": "Kronenburg García, Angela",
+        "itemCount": 2
+      },
+      {
+        "id": "ole Mowuo, Matinkoi",
+        "name": "ole Mowuo, Matinkoi",
+        "itemCount": 1
+      },
+      {
+        "id": "Mayiani, Daniel",
+        "name": "Mayiani, Daniel",
+        "itemCount": 1
+      },
+      {
+        "id": "Tallio, Virginie",
+        "name": "Tallio, Virginie",
+        "itemCount": 1
+      },
+      {
+        "id": "Hashimshony Yaffe, Nurit",
+        "name": "Hashimshony Yaffe, Nurit",
+        "itemCount": 1
+      },
+      {
+        "id": "Gargallo, Eduard",
+        "name": "Gargallo, Eduard",
+        "itemCount": 1
+      },
+      {
+        "id": "Roque de Pinho, Joana",
+        "name": "Roque de Pinho, Joana",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "UBT_Covid192021",
+        "count": 2
+      },
+      {
+        "personId": "ole Mowuo, Matinkoi",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      },
+      {
+        "personId": "Mayiani, Daniel",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      },
+      {
+        "personId": "Tallio, Virginie",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      },
+      {
+        "personId": "Hashimshony Yaffe, Nurit",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      },
+      {
+        "personId": "Gargallo, Eduard",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      },
+      {
+        "personId": "Roque de Pinho, Joana",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Kronenburg García, Angela",
+        "name": "Kronenburg García, Angela",
+        "itemCount": 5
+      },
+      {
+        "id": "ole Mowuo, Matinkoi",
+        "name": "ole Mowuo, Matinkoi",
+        "itemCount": 4
+      },
+      {
+        "id": "Mayiani, Daniel",
+        "name": "Mayiani, Daniel",
+        "itemCount": 4
+      },
+      {
+        "id": "Tallio, Virginie",
+        "name": "Tallio, Virginie",
+        "itemCount": 4
+      },
+      {
+        "id": "Hashimshony Yaffe, Nurit",
+        "name": "Hashimshony Yaffe, Nurit",
+        "itemCount": 4
+      },
+      {
+        "id": "Gargallo, Eduard",
+        "name": "Gargallo, Eduard",
+        "itemCount": 4
+      },
+      {
+        "id": "Roque de Pinho, Joana",
+        "name": "Roque de Pinho, Joana",
+        "itemCount": 4
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Padua",
+        "name": "University of Padua",
+        "itemCount": 2
+      },
+      {
+        "id": "Institute for Social Science Research in Africa",
+        "name": "Institute for Social Science Research in Africa",
+        "itemCount": 1
+      },
+      {
+        "id": "The Academic College of Tel Aviv-Yaffo",
+        "name": "The Academic College of Tel Aviv-Yaffo",
+        "itemCount": 1
+      },
+      {
+        "id": "ISCTE - Instituto Universitário de Lisboa",
+        "name": "ISCTE - Instituto Universitário de Lisboa",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "University of Padua",
+        "count": 2
+      },
+      {
+        "personId": "ole Mowuo, Matinkoi",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Mayiani, Daniel",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Tallio, Virginie",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Hashimshony Yaffe, Nurit",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Gargallo, Eduard",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Roque de Pinho, Joana",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "Institute for Social Science Research in Africa",
+        "count": 1
+      },
+      {
+        "personId": "ole Mowuo, Matinkoi",
+        "targetId": "Institute for Social Science Research in Africa",
+        "count": 1
+      },
+      {
+        "personId": "Mayiani, Daniel",
+        "targetId": "Institute for Social Science Research in Africa",
+        "count": 1
+      },
+      {
+        "personId": "Tallio, Virginie",
+        "targetId": "Institute for Social Science Research in Africa",
+        "count": 1
+      },
+      {
+        "personId": "Hashimshony Yaffe, Nurit",
+        "targetId": "Institute for Social Science Research in Africa",
+        "count": 1
+      },
+      {
+        "personId": "Gargallo, Eduard",
+        "targetId": "Institute for Social Science Research in Africa",
+        "count": 1
+      },
+      {
+        "personId": "Roque de Pinho, Joana",
+        "targetId": "Institute for Social Science Research in Africa",
+        "count": 1
+      },
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 1
+      },
+      {
+        "personId": "ole Mowuo, Matinkoi",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 1
+      },
+      {
+        "personId": "Mayiani, Daniel",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 1
+      },
+      {
+        "personId": "Tallio, Virginie",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 1
+      },
+      {
+        "personId": "Hashimshony Yaffe, Nurit",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 1
+      },
+      {
+        "personId": "Gargallo, Eduard",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 1
+      },
+      {
+        "personId": "Roque de Pinho, Joana",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 1
+      },
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "ole Mowuo, Matinkoi",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Mayiani, Daniel",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Tallio, Virginie",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Hashimshony Yaffe, Nurit",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Gargallo, Eduard",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Roque de Pinho, Joana",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Kenya",

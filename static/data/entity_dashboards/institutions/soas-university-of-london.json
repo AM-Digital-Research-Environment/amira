@@ -546,6 +546,46 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Clausen, Raymond",
+        "name": "Clausen, Raymond",
+        "itemCount": 1
+      },
+      {
+        "id": "Rycroft, David K.",
+        "name": "Rycroft, David K.",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Oxford",
+        "name": "University of Oxford",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Clausen, Raymond",
+        "targetId": "University of Oxford",
+        "count": 1
+      },
+      {
+        "personId": "Rycroft, David K.",
+        "targetId": "University of Oxford",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "South Africa",

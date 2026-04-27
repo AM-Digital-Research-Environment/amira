@@ -42,6 +42,67 @@
       }
     }
   ],
+  "languageTimeline": [
+    {
+      "year": 2020,
+      "byCategory": {
+        "French": 1
+      }
+    },
+    {
+      "year": 2021,
+      "byCategory": {
+        "French": 1
+      }
+    },
+    {
+      "year": 2022,
+      "byCategory": {
+        "French": 12
+      }
+    }
+  ],
+  "subjectTrends": [
+    {
+      "year": 2020,
+      "byCategory": {
+        "Sources": 1,
+        "Terrorism": 1,
+        "Dialogue": 1,
+        "Mediation": 1,
+        "Peace": 1,
+        "Rumor": 0,
+        "Truth": 0,
+        "Uncertainty": 0
+      }
+    },
+    {
+      "year": 2021,
+      "byCategory": {
+        "Sources": 1,
+        "Terrorism": 1,
+        "Dialogue": 1,
+        "Mediation": 1,
+        "Peace": 1,
+        "Rumor": 0,
+        "Truth": 0,
+        "Uncertainty": 0
+      }
+    },
+    {
+      "year": 2022,
+      "byCategory": {
+        "Sources": 10,
+        "Terrorism": 10,
+        "Dialogue": 10,
+        "Mediation": 10,
+        "Peace": 10,
+        "Rumor": 1,
+        "Truth": 1,
+        "Uncertainty": 1
+      }
+    }
+  ],
   "types": [
     {
       "name": "Text",
@@ -226,6 +287,48 @@
       ]
     }
   ],
+  "treemap": [
+    {
+      "name": "Text",
+      "children": [
+        {
+          "name": "French",
+          "children": [
+            {
+              "name": "Sources",
+              "value": 12,
+              "children": []
+            },
+            {
+              "name": "Terrorism",
+              "value": 12,
+              "children": []
+            },
+            {
+              "name": "Dialogue",
+              "value": 12,
+              "children": []
+            },
+            {
+              "name": "Mediation",
+              "value": 12,
+              "children": []
+            },
+            {
+              "name": "Peace",
+              "value": 12,
+              "children": []
+            },
+            {
+              "name": "Rumor",
+              "value": 1,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "sankey": {
     "nodes": [
       {
@@ -369,6 +472,151 @@
       ]
     ]
   },
+  "timeAwareChord": {
+    "buckets": [
+      {
+        "year": 2020,
+        "names": [
+          "Sources",
+          "Terrorism",
+          "Dialogue",
+          "Mediation",
+          "Peace"
+        ],
+        "matrix": [
+          [
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            0
+          ]
+        ]
+      },
+      {
+        "year": 2021,
+        "names": [
+          "Sources",
+          "Terrorism",
+          "Dialogue",
+          "Mediation",
+          "Peace"
+        ],
+        "matrix": [
+          [
+            0,
+            2,
+            2,
+            2,
+            2
+          ],
+          [
+            2,
+            0,
+            2,
+            2,
+            2
+          ],
+          [
+            2,
+            2,
+            0,
+            2,
+            2
+          ],
+          [
+            2,
+            2,
+            2,
+            0,
+            2
+          ],
+          [
+            2,
+            2,
+            2,
+            2,
+            0
+          ]
+        ]
+      },
+      {
+        "year": 2022,
+        "names": [
+          "Sources",
+          "Terrorism",
+          "Dialogue",
+          "Mediation",
+          "Peace"
+        ],
+        "matrix": [
+          [
+            0,
+            12,
+            12,
+            12,
+            12
+          ],
+          [
+            12,
+            0,
+            12,
+            12,
+            12
+          ],
+          [
+            12,
+            12,
+            0,
+            12,
+            12
+          ],
+          [
+            12,
+            12,
+            12,
+            0,
+            12
+          ],
+          [
+            12,
+            12,
+            12,
+            12,
+            0
+          ]
+        ]
+      }
+    ]
+  },
   "contributors": [
     {
       "name": "Some, Désiré Boniface",
@@ -411,6 +659,16 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "calendarHeatmap": [],
+  "geoFlows": {
+    "flows": []
+  },
   "locations": [
     {
       "country": "Burkina Faso",

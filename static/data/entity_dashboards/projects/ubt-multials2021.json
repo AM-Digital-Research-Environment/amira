@@ -21,6 +21,26 @@
       }
     }
   ],
+  "languageTimeline": [
+    {
+      "year": 2024,
+      "byCategory": {
+        "English": 2
+      }
+    }
+  ],
+  "subjectTrends": [
+    {
+      "year": 2024,
+      "byCategory": {
+        "Attitudes": 2,
+        "Education": 2,
+        "Multilingualism": 2,
+        "Translanguaging (Linguistics)": 2,
+        "Perception": 2
+      }
+    }
+  ],
   "types": [
     {
       "name": "Dataset",
@@ -178,6 +198,78 @@
       ]
     }
   ],
+  "treemap": [
+    {
+      "name": "Dataset",
+      "children": [
+        {
+          "name": "English",
+          "children": [
+            {
+              "name": "Attitudes",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Education",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Multilingualism",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Translanguaging (Linguistics)",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Perception",
+              "value": 1,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Text",
+      "children": [
+        {
+          "name": "English",
+          "children": [
+            {
+              "name": "Attitudes",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Education",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Multilingualism",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Translanguaging (Linguistics)",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Perception",
+              "value": 1,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "sankey": {
     "nodes": [
       {
@@ -231,6 +323,57 @@
     "names": [],
     "matrix": []
   },
+  "timeAwareChord": {
+    "buckets": [
+      {
+        "year": 2024,
+        "names": [
+          "Attitudes",
+          "Education",
+          "Multilingualism",
+          "Translanguaging (Linguistics)",
+          "Perception"
+        ],
+        "matrix": [
+          [
+            0,
+            2,
+            2,
+            2,
+            2
+          ],
+          [
+            2,
+            0,
+            2,
+            2,
+            2
+          ],
+          [
+            2,
+            2,
+            0,
+            2,
+            2
+          ],
+          [
+            2,
+            2,
+            2,
+            0,
+            2
+          ],
+          [
+            2,
+            2,
+            2,
+            2,
+            0
+          ]
+        ]
+      }
+    ]
+  },
   "contributors": [
     {
       "name": "Otundo, Khalayi Billian",
@@ -245,6 +388,30 @@
       "value": 2
     }
   ],
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "calendarHeatmap": [],
+  "geoFlows": {
+    "flows": [
+      {
+        "from": {
+          "lng": 38.0,
+          "lat": 0.1,
+          "label": "Kenya"
+        },
+        "to": {
+          "lng": 10.0,
+          "lat": 51.0,
+          "label": "Germany"
+        },
+        "count": 2
+      }
+    ]
+  },
   "locations": [
     {
       "country": "Kenya",

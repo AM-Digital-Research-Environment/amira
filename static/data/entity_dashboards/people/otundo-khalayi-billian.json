@@ -104,6 +104,90 @@
       "value": 2
     }
   ],
+  "coContributors": {
+    "names": [
+      "Orero, Sheila",
+      "Mühleisen, Susanne"
+    ],
+    "matrix": [
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Orero, Sheila",
+        "name": "Orero, Sheila",
+        "itemCount": 2
+      },
+      {
+        "id": "Mühleisen, Susanne",
+        "name": "Mühleisen, Susanne",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_MultiALS2021",
+        "name": "Multilingual African Learning Spaces: Translanguaging Practices in the Kenyan Classroom",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Orero, Sheila",
+        "targetId": "UBT_MultiALS2021",
+        "count": 2
+      },
+      {
+        "personId": "Mühleisen, Susanne",
+        "targetId": "UBT_MultiALS2021",
+        "count": 2
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Orero, Sheila",
+        "name": "Orero, Sheila",
+        "itemCount": 2
+      },
+      {
+        "id": "Mühleisen, Susanne",
+        "name": "Mühleisen, Susanne",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Bayreuth",
+        "name": "University of Bayreuth",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Orero, Sheila",
+        "targetId": "University of Bayreuth",
+        "count": 2
+      },
+      {
+        "personId": "Mühleisen, Susanne",
+        "targetId": "University of Bayreuth",
+        "count": 2
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Kenya",

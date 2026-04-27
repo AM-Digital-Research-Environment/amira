@@ -120,6 +120,10 @@ def generate_subject_dashboard(name: str, items: list[dict]) -> dict:
         "types": agg.build_types(filtered),
         "languages": agg.build_languages(filtered),
         "subjects": agg.build_subjects(filtered, exclude=name),
+        # `coSubjects` reuses the existing `build_chord` aggregator — same
+        # shape, but the slot's title in the layout reads "Co-occurring
+        # subjects" rather than the generic "Co-occurrence".
+        "coSubjects": agg.build_chord(filtered),
         "wordCloud": agg.build_word_cloud(filtered, exclude=name),
         "contributors": agg.build_contributors(filtered),
         "locations": agg.build_locations(filtered),
@@ -136,6 +140,7 @@ def generate_tag_dashboard(name: str, items: list[dict]) -> dict:
         "types": agg.build_types(filtered),
         "languages": agg.build_languages(filtered),
         "subjects": agg.build_subjects(filtered),
+        "coSubjects": agg.build_chord(filtered),
         "wordCloud": agg.build_word_cloud(filtered, exclude=name),
         "contributors": agg.build_contributors(filtered),
         "locations": agg.build_locations(filtered),
@@ -295,6 +300,27 @@ def generate_person_dashboard(name: str, items: list[dict]) -> dict:
         "wordCloud": agg.build_word_cloud(filtered),
         "roles": _build_person_roles(filtered, name),
         "contributors": agg.build_contributors(filtered, exclude=name),
+        # Co-credited persons chord — exclude the person themself so the
+        # matrix shows *between-co-contributor* links, not links radiating
+        # outward from the centre node (which would saturate every cell).
+        # NOT academic co-authorship — covers all MARC roles (photographer,
+        # interviewee, editor, ...).
+        "coContributors": agg.build_co_contributors(filtered, exclude=name),
+        # Person↔project bipartite: the projects this person worked on,
+        # plus their other collaborators across those projects. Excluding
+        # the person from the network avoids a degenerate "everyone
+        # connects to me" centre that crowds out the interesting
+        # secondary structure.
+        "contributorNetwork": agg.build_contributor_network(
+            filtered, target="project", exclude_person=name
+        ),
+        # Person↔institution bipartite (affiliationNetwork). The slot is
+        # only useful when the person's items carry institutional
+        # affiliations; if they don't, the empty payload triggers the
+        # frontend's `shouldRenderSlot` filter.
+        "affiliationNetwork": agg.build_contributor_network(
+            filtered, target="institution", exclude_person=name
+        ),
         "locations": agg.build_locations(filtered),
         "items": agg.build_item_summaries(filtered),
     }
@@ -362,6 +388,18 @@ def generate_institution_dashboard(name: str, items: list[dict]) -> dict:
         "subjects": agg.build_subjects(filtered),
         "wordCloud": agg.build_word_cloud(filtered),
         "contributors": agg.build_contributors(filtered),
+        # Person↔project bipartite — affiliated contributors and the projects
+        # they touched while connected to this institution.
+        "contributorNetwork": agg.build_contributor_network(
+            filtered, target="project"
+        ),
+        # Affiliated contributors↔institutions (other institutions the
+        # contributors are linked to). `exclude_target` removes the host
+        # institution so the network shows the *outward* affiliations,
+        # not links radiating from the centre node.
+        "affiliationNetwork": agg.build_contributor_network(
+            filtered, target="institution", exclude_target=name
+        ),
         "locations": agg.build_locations(filtered),
         "items": agg.build_item_summaries(filtered),
     }
@@ -443,7 +481,10 @@ def research_section_index(
 
 
 def generate_research_section_dashboard(
-    name: str, items: list[dict], projects: list[dict]
+    name: str,
+    items: list[dict],
+    projects: list[dict],
+    geo: dict | None = None,
 ) -> dict:
     # Project ids belonging to this section.
     section_projects: set[str] = set()
@@ -462,6 +503,10 @@ def generate_research_section_dashboard(
         if agg._as_str((item.get("project") or {}).get("id")) in section_projects
     ]
 
+    geo_flows: dict | None = None
+    if geo:
+        geo_flows = agg.build_geo_flows(filtered, geo)
+
     return {
         "meta": agg.build_meta("research-section", agg.slugify(name), name, filtered),
         "timeline": agg.build_timeline(filtered),
@@ -474,6 +519,17 @@ def generate_research_section_dashboard(
         "subjects": agg.build_subjects(filtered),
         "wordCloud": agg.build_word_cloud(filtered),
         "contributors": agg.build_contributors(filtered),
+        # Section-level contributor network: who works on which project
+        # within this section. Caps in `build_contributor_network` keep
+        # the layout legible for sections with hundreds of items.
+        "contributorNetwork": agg.build_contributor_network(
+            filtered, target="project"
+        ),
+        # Time-aware subject co-occurrence — sections evolve over decades,
+        # so the slider actually has something interesting to show.
+        "timeAwareChord": agg.build_time_aware_chord(filtered),
+        # Origin → current arcs (only when geo index is provided).
+        **({"geoFlows": geo_flows} if geo_flows else {}),
         "boxPlot": agg.build_box_plot_per_project(filtered),
         "locations": agg.build_locations(filtered),
         "items": agg.build_item_summaries(filtered),
@@ -517,6 +573,7 @@ def generate_project_dashboard(
     project_id: str,
     items: list[dict],
     display_name: str | None = None,
+    geo: dict | None = None,
 ) -> dict:
     """Dashboard for a single project — every item whose `project.id` matches."""
     filtered = [
@@ -528,6 +585,10 @@ def generate_project_dashboard(
         agg._as_str(((filtered[0].get("project") or {}) if filtered else {}).get("name"))
         or project_id
     )
+
+    geo_flows: dict | None = None
+    if geo:
+        geo_flows = agg.build_geo_flows(filtered, geo)
 
     return {
         "meta": agg.build_meta("project", project_id, name, filtered),
@@ -545,8 +606,23 @@ def generate_project_dashboard(
         "treemap": agg.build_treemap(filtered),
         "sankey": agg.build_sankey(filtered),
         "chord": agg.build_chord(filtered),
+        # Time-aware variant — same chord, but year-bucketed cumulatively
+        # so the slider can replay how the subject network filled in.
+        "timeAwareChord": agg.build_time_aware_chord(filtered),
         "contributors": agg.build_contributors(filtered),
+        # Project contributor network — every contributor on this project
+        # plus the projects their other items also belong to (capped to
+        # the top-N). For projects with many one-off contributors this
+        # often degenerates to a single-target hub; the empty-payload
+        # filter handles that gracefully.
+        "contributorNetwork": agg.build_contributor_network(
+            filtered, target="project", exclude_target=project_id
+        ),
         "calendarHeatmap": agg.build_calendar_heatmap(filtered),
+        # Origin → current arcs. Only emitted when the orchestrator passes
+        # a geo index — otherwise the front-end's `shouldRenderSlot` filter
+        # hides the slot.
+        **({"geoFlows": geo_flows} if geo_flows else {}),
         "locations": agg.build_locations(filtered),
         "items": agg.build_item_summaries(filtered),
     }

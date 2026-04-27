@@ -53,6 +53,66 @@
       "value": 5
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Manuscripts",
+      "Early modern, 1500-1700",
+      "Literature",
+      "Africa",
+      "Courts",
+      "Court records"
+    ],
+    "matrix": [
+      [
+        0,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      [
+        5,
+        0,
+        5,
+        5,
+        5,
+        5
+      ],
+      [
+        5,
+        5,
+        0,
+        5,
+        5,
+        5
+      ],
+      [
+        5,
+        5,
+        5,
+        0,
+        5,
+        5
+      ],
+      [
+        5,
+        5,
+        5,
+        5,
+        0,
+        5
+      ],
+      [
+        5,
+        5,
+        5,
+        5,
+        5,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Manuscripts",

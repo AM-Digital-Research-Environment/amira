@@ -52,6 +52,22 @@
       "value": 21
     }
   ],
+  "coSubjects": {
+    "names": [
+      "COVID-19 (Disease)",
+      "Transport workers"
+    ],
+    "matrix": [
+      [
+        0,
+        21
+      ],
+      [
+        21,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "COVID-19 (Disease)",

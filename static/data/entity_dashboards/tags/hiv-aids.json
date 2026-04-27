@@ -107,6 +107,40 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Education",
+      "Diseases",
+      "World health",
+      "West Africa"
+    ],
+    "matrix": [
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Education",

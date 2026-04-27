@@ -144,6 +144,66 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Tuaregs",
+      "Photography",
+      "Anthropology",
+      "Photographs",
+      "Festivals",
+      "Jewelry"
+    ],
+    "matrix": [
+      [
+        0,
+        9,
+        9,
+        9,
+        4,
+        3
+      ],
+      [
+        9,
+        0,
+        9,
+        9,
+        4,
+        3
+      ],
+      [
+        9,
+        9,
+        0,
+        9,
+        4,
+        3
+      ],
+      [
+        9,
+        9,
+        9,
+        0,
+        4,
+        3
+      ],
+      [
+        4,
+        4,
+        4,
+        4,
+        0,
+        0
+      ],
+      [
+        3,
+        3,
+        3,
+        3,
+        0,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Photography",

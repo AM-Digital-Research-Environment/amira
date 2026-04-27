@@ -22,6 +22,25 @@
       }
     }
   ],
+  "languageTimeline": [
+    {
+      "year": 2021,
+      "byCategory": {
+        "English": 21
+      }
+    }
+  ],
+  "subjectTrends": [
+    {
+      "year": 2021,
+      "byCategory": {
+        "Women": 21,
+        "Sub-Saharan Africa": 21,
+        "Political rights": 21,
+        "Political participation": 21
+      }
+    }
+  ],
   "types": [
     {
       "name": "Image",
@@ -109,6 +128,98 @@
     }
   ],
   "sunburst": [
+    {
+      "name": "Image",
+      "children": [
+        {
+          "name": "English",
+          "children": [
+            {
+              "name": "Women",
+              "value": 11,
+              "children": []
+            },
+            {
+              "name": "Sub-Saharan Africa",
+              "value": 11,
+              "children": []
+            },
+            {
+              "name": "Political rights",
+              "value": 11,
+              "children": []
+            },
+            {
+              "name": "Political participation",
+              "value": 11,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Moving image",
+      "children": [
+        {
+          "name": "English",
+          "children": [
+            {
+              "name": "Women",
+              "value": 9,
+              "children": []
+            },
+            {
+              "name": "Sub-Saharan Africa",
+              "value": 9,
+              "children": []
+            },
+            {
+              "name": "Political rights",
+              "value": 9,
+              "children": []
+            },
+            {
+              "name": "Political participation",
+              "value": 9,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Text",
+      "children": [
+        {
+          "name": "English",
+          "children": [
+            {
+              "name": "Women",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Sub-Saharan Africa",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Political rights",
+              "value": 1,
+              "children": []
+            },
+            {
+              "name": "Political participation",
+              "value": 1,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "treemap": [
     {
       "name": "Image",
       "children": [
@@ -291,6 +402,45 @@
       ]
     ]
   },
+  "timeAwareChord": {
+    "buckets": [
+      {
+        "year": 2021,
+        "names": [
+          "Women",
+          "Sub-Saharan Africa",
+          "Political rights",
+          "Political participation"
+        ],
+        "matrix": [
+          [
+            0,
+            21,
+            21,
+            21
+          ],
+          [
+            21,
+            0,
+            21,
+            21
+          ],
+          [
+            21,
+            21,
+            0,
+            21
+          ],
+          [
+            21,
+            21,
+            21,
+            0
+          ]
+        ]
+      }
+    ]
+  },
   "contributors": [
     {
       "name": "Ademola-Adeoye, Feyisayo",
@@ -333,6 +483,16 @@
       "value": 21
     }
   ],
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "calendarHeatmap": [],
+  "geoFlows": {
+    "flows": []
+  },
   "locations": [
     {
       "country": "Kenya",

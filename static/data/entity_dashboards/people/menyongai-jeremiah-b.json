@@ -122,6 +122,470 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [
+      "Lampkins, Ralph",
+      "Urey, Khrushchev Borbor",
+      "Taylor, Adolphus",
+      "Eastman, John",
+      "Gilbert, Thomas",
+      "Mensah, Sam",
+      "McCrumada, Charles"
+    ],
+    "matrix": [
+      [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        1,
+        2,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        1,
+        2,
+        2,
+        0,
+        2,
+        2,
+        2
+      ],
+      [
+        1,
+        2,
+        2,
+        2,
+        0,
+        2,
+        2
+      ],
+      [
+        1,
+        2,
+        2,
+        2,
+        2,
+        0,
+        2
+      ],
+      [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Lampkins, Ralph",
+        "name": "Lampkins, Ralph",
+        "itemCount": 4
+      },
+      {
+        "id": "Urey, Khrushchev Borbor",
+        "name": "Urey, Khrushchev Borbor",
+        "itemCount": 2
+      },
+      {
+        "id": "Taylor, Adolphus",
+        "name": "Taylor, Adolphus",
+        "itemCount": 2
+      },
+      {
+        "id": "Eastman, John",
+        "name": "Eastman, John",
+        "itemCount": 2
+      },
+      {
+        "id": "Gilbert, Thomas",
+        "name": "Gilbert, Thomas",
+        "itemCount": 2
+      },
+      {
+        "id": "Mensah, Sam",
+        "name": "Mensah, Sam",
+        "itemCount": 2
+      },
+      {
+        "id": "McCrumada, Charles",
+        "name": "McCrumada, Charles",
+        "itemCount": 2
+      },
+      {
+        "id": "Lampkins, Justine",
+        "name": "Lampkins, Justine",
+        "itemCount": 1
+      },
+      {
+        "id": "Fakay, Soko",
+        "name": "Fakay, Soko",
+        "itemCount": 1
+      },
+      {
+        "id": "Wegee, Presley",
+        "name": "Wegee, Presley",
+        "itemCount": 1
+      },
+      {
+        "id": "Brent, Julius",
+        "name": "Brent, Julius",
+        "itemCount": 1
+      },
+      {
+        "id": "Chia, Patrick",
+        "name": "Chia, Patrick",
+        "itemCount": 1
+      },
+      {
+        "id": "Cole, Archie",
+        "name": "Cole, Archie",
+        "itemCount": 1
+      },
+      {
+        "id": "Manyango, Zobie",
+        "name": "Manyango, Zobie",
+        "itemCount": 1
+      },
+      {
+        "id": "Zonoe, Daniel",
+        "name": "Zonoe, Daniel",
+        "itemCount": 1
+      },
+      {
+        "id": "Zor, David",
+        "name": "Zor, David",
+        "itemCount": 1
+      },
+      {
+        "id": "Beh, Doffa",
+        "name": "Beh, Doffa",
+        "itemCount": 1
+      },
+      {
+        "id": "Crump, Alaric",
+        "name": "Crump, Alaric",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System",
+        "itemCount": 5
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Lampkins, Justine",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Lampkins, Ralph",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 4
+      },
+      {
+        "personId": "Urey, Khrushchev Borbor",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 2
+      },
+      {
+        "personId": "Fakay, Soko",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Taylor, Adolphus",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 2
+      },
+      {
+        "personId": "Wegee, Presley",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Eastman, John",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 2
+      },
+      {
+        "personId": "Brent, Julius",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Gilbert, Thomas",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 2
+      },
+      {
+        "personId": "Mensah, Sam",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 2
+      },
+      {
+        "personId": "McCrumada, Charles",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 2
+      },
+      {
+        "personId": "Chia, Patrick",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Cole, Archie",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Manyango, Zobie",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Zonoe, Daniel",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Zor, David",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Beh, Doffa",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Crump, Alaric",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Lampkins, Ralph",
+        "name": "Lampkins, Ralph",
+        "itemCount": 4
+      },
+      {
+        "id": "Urey, Khrushchev Borbor",
+        "name": "Urey, Khrushchev Borbor",
+        "itemCount": 2
+      },
+      {
+        "id": "Taylor, Adolphus",
+        "name": "Taylor, Adolphus",
+        "itemCount": 2
+      },
+      {
+        "id": "Eastman, John",
+        "name": "Eastman, John",
+        "itemCount": 2
+      },
+      {
+        "id": "Gilbert, Thomas",
+        "name": "Gilbert, Thomas",
+        "itemCount": 2
+      },
+      {
+        "id": "Mensah, Sam",
+        "name": "Mensah, Sam",
+        "itemCount": 2
+      },
+      {
+        "id": "McCrumada, Charles",
+        "name": "McCrumada, Charles",
+        "itemCount": 2
+      },
+      {
+        "id": "Lampkins, Justine",
+        "name": "Lampkins, Justine",
+        "itemCount": 1
+      },
+      {
+        "id": "Fakay, Soko",
+        "name": "Fakay, Soko",
+        "itemCount": 1
+      },
+      {
+        "id": "Wegee, Presley",
+        "name": "Wegee, Presley",
+        "itemCount": 1
+      },
+      {
+        "id": "Brent, Julius",
+        "name": "Brent, Julius",
+        "itemCount": 1
+      },
+      {
+        "id": "Chia, Patrick",
+        "name": "Chia, Patrick",
+        "itemCount": 1
+      },
+      {
+        "id": "Cole, Archie",
+        "name": "Cole, Archie",
+        "itemCount": 1
+      },
+      {
+        "id": "Manyango, Zobie",
+        "name": "Manyango, Zobie",
+        "itemCount": 1
+      },
+      {
+        "id": "Zonoe, Daniel",
+        "name": "Zonoe, Daniel",
+        "itemCount": 1
+      },
+      {
+        "id": "Zor, David",
+        "name": "Zor, David",
+        "itemCount": 1
+      },
+      {
+        "id": "Beh, Doffa",
+        "name": "Beh, Doffa",
+        "itemCount": 1
+      },
+      {
+        "id": "Crump, Alaric",
+        "name": "Crump, Alaric",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Liberia Broadcasting System (LBS)",
+        "name": "Liberia Broadcasting System (LBS)",
+        "itemCount": 5
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Lampkins, Justine",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Lampkins, Ralph",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 4
+      },
+      {
+        "personId": "Urey, Khrushchev Borbor",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 2
+      },
+      {
+        "personId": "Fakay, Soko",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Taylor, Adolphus",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 2
+      },
+      {
+        "personId": "Wegee, Presley",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Eastman, John",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 2
+      },
+      {
+        "personId": "Brent, Julius",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Gilbert, Thomas",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 2
+      },
+      {
+        "personId": "Mensah, Sam",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 2
+      },
+      {
+        "personId": "McCrumada, Charles",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 2
+      },
+      {
+        "personId": "Chia, Patrick",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Cole, Archie",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Manyango, Zobie",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Zonoe, Daniel",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Zor, David",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Beh, Doffa",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Crump, Alaric",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Liberia",

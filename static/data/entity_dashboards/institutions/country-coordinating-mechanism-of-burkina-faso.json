@@ -106,6 +106,94 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Baguian, Sidibewindé Romain",
+        "name": "Baguian, Sidibewindé Romain",
+        "itemCount": 2
+      },
+      {
+        "id": "Drabo, Manessour",
+        "name": "Drabo, Manessour",
+        "itemCount": 1
+      },
+      {
+        "id": "Samadoulougou, Sotissi Benoit Césaire",
+        "name": "Samadoulougou, Sotissi Benoit Césaire",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UJKZ_GLOBHEALTH2020",
+        "name": "Globalization and health policy in West Africa",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Drabo, Manessour",
+        "targetId": "UJKZ_GLOBHEALTH2020",
+        "count": 1
+      },
+      {
+        "personId": "Baguian, Sidibewindé Romain",
+        "targetId": "UJKZ_GLOBHEALTH2020",
+        "count": 2
+      },
+      {
+        "personId": "Samadoulougou, Sotissi Benoit Césaire",
+        "targetId": "UJKZ_GLOBHEALTH2020",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Baguian, Sidibewindé Romain",
+        "name": "Baguian, Sidibewindé Romain",
+        "itemCount": 2
+      },
+      {
+        "id": "Drabo, Manessour",
+        "name": "Drabo, Manessour",
+        "itemCount": 1
+      },
+      {
+        "id": "Samadoulougou, Sotissi Benoit Césaire",
+        "name": "Samadoulougou, Sotissi Benoit Césaire",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Université Joseph Ki-Zerbo",
+        "name": "Université Joseph Ki-Zerbo",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Drabo, Manessour",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Baguian, Sidibewindé Romain",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 2
+      },
+      {
+        "personId": "Samadoulougou, Sotissi Benoit Césaire",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Burkina Faso",

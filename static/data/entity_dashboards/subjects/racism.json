@@ -188,6 +188,30 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Racism",
+      "Culture",
+      "History"
+    ],
+    "matrix": [
+      [
+        0,
+        6,
+        5
+      ],
+      [
+        6,
+        0,
+        0
+      ],
+      [
+        5,
+        0,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Daily Racism",

@@ -104,6 +104,64 @@
       "value": 2
     }
   ],
+  "coContributors": {
+    "names": [
+      "Onadja, Joachim"
+    ],
+    "matrix": [
+      [
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Onadja, Joachim",
+        "name": "Onadja, Joachim",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Onadja, Joachim",
+        "targetId": "UJKZ_MiCoViCvd2021",
+        "count": 2
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Onadja, Joachim",
+        "name": "Onadja, Joachim",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "Université Joseph Ki-Zerbo",
+        "name": "Université Joseph Ki-Zerbo",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Onadja, Joachim",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 2
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Burkina Faso",

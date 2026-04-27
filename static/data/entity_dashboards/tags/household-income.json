@@ -152,6 +152,40 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Livestock",
+      "Education",
+      "Prices",
+      "Mass media"
+    ],
+    "matrix": [
+      [
+        0,
+        4,
+        3,
+        2
+      ],
+      [
+        4,
+        2,
+        3,
+        3
+      ],
+      [
+        3,
+        3,
+        0,
+        2
+      ],
+      [
+        2,
+        3,
+        2,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "COVID-19 Pandemic",

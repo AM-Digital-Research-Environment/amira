@@ -118,6 +118,74 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Traoré, Seydou",
+        "name": "Traoré, Seydou",
+        "itemCount": 1
+      },
+      {
+        "id": "Sanou, Salia",
+        "name": "Sanou, Salia",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UJKZ_JITBF2020",
+        "name": "Criminal justice institutions and the social trajectories of adolescents/youth in Burkina Faso: endogenous/local forms and patterns of punishment",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Traoré, Seydou",
+        "targetId": "UJKZ_JITBF2020",
+        "count": 1
+      },
+      {
+        "personId": "Sanou, Salia",
+        "targetId": "UJKZ_JITBF2020",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Traoré, Seydou",
+        "name": "Traoré, Seydou",
+        "itemCount": 1
+      },
+      {
+        "id": "Sanou, Salia",
+        "name": "Sanou, Salia",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Université Joseph Ki-Zerbo",
+        "name": "Université Joseph Ki-Zerbo",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Traoré, Seydou",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Sanou, Salia",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Burkina Faso",

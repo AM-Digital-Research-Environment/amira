@@ -180,6 +180,568 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [
+      "Idani, Barkissa",
+      "Sangli, Louis",
+      "Tankoano, Ousséni"
+    ],
+    "matrix": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Idani, Barkissa",
+        "name": "Idani, Barkissa",
+        "itemCount": 2
+      },
+      {
+        "id": "Sangli, Louis",
+        "name": "Sangli, Louis",
+        "itemCount": 2
+      },
+      {
+        "id": "Tankoano, Ousséni",
+        "name": "Tankoano, Ousséni",
+        "itemCount": 2
+      },
+      {
+        "id": "Bama, Elysé",
+        "name": "Bama, Elysé",
+        "itemCount": 1
+      },
+      {
+        "id": "Bamogo, Monique",
+        "name": "Bamogo, Monique",
+        "itemCount": 1
+      },
+      {
+        "id": "Lompo, Caandama",
+        "name": "Lompo, Caandama",
+        "itemCount": 1
+      },
+      {
+        "id": "Combary, Larisse",
+        "name": "Combary, Larisse",
+        "itemCount": 1
+      },
+      {
+        "id": "Dahani, Madeleine",
+        "name": "Dahani, Madeleine",
+        "itemCount": 1
+      },
+      {
+        "id": "Haro, Marenga",
+        "name": "Haro, Marenga",
+        "itemCount": 1
+      },
+      {
+        "id": "Haro, Yemboiro",
+        "name": "Haro, Yemboiro",
+        "itemCount": 1
+      },
+      {
+        "id": "Kiema, Raogo",
+        "name": "Kiema, Raogo",
+        "itemCount": 1
+      },
+      {
+        "id": "Koadima, Abdou",
+        "name": "Koadima, Abdou",
+        "itemCount": 1
+      },
+      {
+        "id": "Lompo, Palamanga",
+        "name": "Lompo, Palamanga",
+        "itemCount": 1
+      },
+      {
+        "id": "Lompo, Yienlemba",
+        "name": "Lompo, Yienlemba",
+        "itemCount": 1
+      },
+      {
+        "id": "Djibougou, Boukary",
+        "name": "Djibougou, Boukary",
+        "itemCount": 1
+      },
+      {
+        "id": "Onadja, Lalé",
+        "name": "Onadja, Lalé",
+        "itemCount": 1
+      },
+      {
+        "id": "Onadja, Tapoa",
+        "name": "Onadja, Tapoa",
+        "itemCount": 1
+      },
+      {
+        "id": "Thiombiano, Tani Sali",
+        "name": "Thiombiano, Tani Sali",
+        "itemCount": 1
+      },
+      {
+        "id": "Onakodo, Lardja",
+        "name": "Onakodo, Lardja",
+        "itemCount": 1
+      },
+      {
+        "id": "Sahgui, Davy",
+        "name": "Sahgui, Davy",
+        "itemCount": 1
+      },
+      {
+        "id": "Thiombiano, Nawadia",
+        "name": "Thiombiano, Nawadia",
+        "itemCount": 1
+      },
+      {
+        "id": "Ouédraogo, Karim",
+        "name": "Ouédraogo, Karim",
+        "itemCount": 1
+      },
+      {
+        "id": "Ouédraogo, Rasmané",
+        "name": "Ouédraogo, Rasmané",
+        "itemCount": 1
+      },
+      {
+        "id": "Ouédraogo, Souley",
+        "name": "Ouédraogo, Souley",
+        "itemCount": 1
+      },
+      {
+        "id": "Ouoba, Bedari",
+        "name": "Ouoba, Bedari",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UJKZ_MiCoViCvd2021",
+        "name": "Migration Control, Violence and Covid 19: (Im)Mobility Regimes in the Borderlands of Burkina Faso, Benin and Niger",
+        "itemCount": 46
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Bama, Elysé",
+        "targetId": "UJKZ_MiCoViCvd2021",
+        "count": 1
+      },
+      {
+        "personId": "Bamogo, Monique",
+        "targetId": "UJKZ_MiCoViCvd2021",
+        "count": 1
+      },
+      {
+        "personId": "Lompo, Caandama",
+        "targetId": "UJKZ_MiCoViCvd2021",
+        "count": 1
+      },
+      {
+        "personId": "Combary, Larisse",
+        "targetId": "UJKZ_MiCoViCvd2021",
+        "count": 1
+      },
+      {
+        "personId": "Dahani, Madeleine",
+        "targetId": "UJKZ_MiCoViCvd2021",
+        "count": 1
+      },
+      {
+        "personId": "Haro, Marenga",
+        "targetId": "UJKZ_MiCoViCvd2021",
+        "count": 1
+      },
+      {
+        "personId": "Haro, Yemboiro",
+        "targetId": "UJKZ_MiCoViCvd2021",
+        "count": 1
+      },
+      {
+        "personId": "Idani, Barkissa",
+        "targetId": "UJKZ_MiCoViCvd2021",
+        "count": 2
+      },
+      {
+        "personId": "Kiema, Raogo",
+        "targetId": "UJKZ_MiCoViCvd2021",
+        "count": 1
+      },
+      {
+        "personId": "Koadima, Abdou",
+        "targetId": "UJKZ_MiCoViCvd2021",
+        "count": 1
+      },
+      {
+        "personId": "Lompo, Palamanga",
+        "targetId": "UJKZ_MiCoViCvd2021",
+        "count": 1
+      },
+      {
+        "personId": "Lompo, Yienlemba",
+        "targetId": "UJKZ_MiCoViCvd2021",
+        "count": 1
+      },
+      {
+        "personId": "Djibougou, Boukary",
+        "targetId": "UJKZ_MiCoViCvd2021",
+        "count": 1
+      },
+      {
+        "personId": "Onadja, Lalé",
+        "targetId": "UJKZ_MiCoViCvd2021",
+        "count": 1
+      },
+      {
+        "personId": "Onadja, Tapoa",
+        "targetId": "UJKZ_MiCoViCvd2021",
+        "count": 1
+      },
+      {
+        "personId": "Thiombiano, Tani Sali",
+        "targetId": "UJKZ_MiCoViCvd2021",
+        "count": 1
+      },
+      {
+        "personId": "Onakodo, Lardja",
+        "targetId": "UJKZ_MiCoViCvd2021",
+        "count": 1
+      },
+      {
+        "personId": "Sahgui, Davy",
+        "targetId": "UJKZ_MiCoViCvd2021",
+        "count": 1
+      },
+      {
+        "personId": "Thiombiano, Nawadia",
+        "targetId": "UJKZ_MiCoViCvd2021",
+        "count": 1
+      },
+      {
+        "personId": "Ouédraogo, Karim",
+        "targetId": "UJKZ_MiCoViCvd2021",
+        "count": 1
+      },
+      {
+        "personId": "Ouédraogo, Rasmané",
+        "targetId": "UJKZ_MiCoViCvd2021",
+        "count": 1
+      },
+      {
+        "personId": "Ouédraogo, Souley",
+        "targetId": "UJKZ_MiCoViCvd2021",
+        "count": 1
+      },
+      {
+        "personId": "Ouoba, Bedari",
+        "targetId": "UJKZ_MiCoViCvd2021",
+        "count": 1
+      },
+      {
+        "personId": "Sangli, Louis",
+        "targetId": "UJKZ_MiCoViCvd2021",
+        "count": 2
+      },
+      {
+        "personId": "Tankoano, Ousséni",
+        "targetId": "UJKZ_MiCoViCvd2021",
+        "count": 2
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Bama, Elysé",
+        "name": "Bama, Elysé",
+        "itemCount": 2
+      },
+      {
+        "id": "Idani, Barkissa",
+        "name": "Idani, Barkissa",
+        "itemCount": 2
+      },
+      {
+        "id": "Sangli, Louis",
+        "name": "Sangli, Louis",
+        "itemCount": 2
+      },
+      {
+        "id": "Tankoano, Ousséni",
+        "name": "Tankoano, Ousséni",
+        "itemCount": 2
+      },
+      {
+        "id": "Bamogo, Monique",
+        "name": "Bamogo, Monique",
+        "itemCount": 1
+      },
+      {
+        "id": "Lompo, Caandama",
+        "name": "Lompo, Caandama",
+        "itemCount": 1
+      },
+      {
+        "id": "Combary, Larisse",
+        "name": "Combary, Larisse",
+        "itemCount": 1
+      },
+      {
+        "id": "Dahani, Madeleine",
+        "name": "Dahani, Madeleine",
+        "itemCount": 1
+      },
+      {
+        "id": "Haro, Marenga",
+        "name": "Haro, Marenga",
+        "itemCount": 1
+      },
+      {
+        "id": "Haro, Yemboiro",
+        "name": "Haro, Yemboiro",
+        "itemCount": 1
+      },
+      {
+        "id": "Kiema, Raogo",
+        "name": "Kiema, Raogo",
+        "itemCount": 1
+      },
+      {
+        "id": "Koadima, Abdou",
+        "name": "Koadima, Abdou",
+        "itemCount": 1
+      },
+      {
+        "id": "Lompo, Palamanga",
+        "name": "Lompo, Palamanga",
+        "itemCount": 1
+      },
+      {
+        "id": "Lompo, Yienlemba",
+        "name": "Lompo, Yienlemba",
+        "itemCount": 1
+      },
+      {
+        "id": "Djibougou, Boukary",
+        "name": "Djibougou, Boukary",
+        "itemCount": 1
+      },
+      {
+        "id": "Onadja, Lalé",
+        "name": "Onadja, Lalé",
+        "itemCount": 1
+      },
+      {
+        "id": "Onadja, Tapoa",
+        "name": "Onadja, Tapoa",
+        "itemCount": 1
+      },
+      {
+        "id": "Thiombiano, Tani Sali",
+        "name": "Thiombiano, Tani Sali",
+        "itemCount": 1
+      },
+      {
+        "id": "Onakodo, Lardja",
+        "name": "Onakodo, Lardja",
+        "itemCount": 1
+      },
+      {
+        "id": "Sahgui, Davy",
+        "name": "Sahgui, Davy",
+        "itemCount": 1
+      },
+      {
+        "id": "Thiombiano, Nawadia",
+        "name": "Thiombiano, Nawadia",
+        "itemCount": 1
+      },
+      {
+        "id": "Ouédraogo, Karim",
+        "name": "Ouédraogo, Karim",
+        "itemCount": 1
+      },
+      {
+        "id": "Ouédraogo, Rasmané",
+        "name": "Ouédraogo, Rasmané",
+        "itemCount": 1
+      },
+      {
+        "id": "Ouédraogo, Souley",
+        "name": "Ouédraogo, Souley",
+        "itemCount": 1
+      },
+      {
+        "id": "Ouoba, Bedari",
+        "name": "Ouoba, Bedari",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Université Joseph Ki-Zerbo",
+        "name": "Université Joseph Ki-Zerbo",
+        "itemCount": 46
+      },
+      {
+        "id": "Bitou Local Municipality",
+        "name": "Bitou Local Municipality",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Bama, Elysé",
+        "targetId": "Bitou Local Municipality",
+        "count": 1
+      },
+      {
+        "personId": "Bama, Elysé",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Bamogo, Monique",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Lompo, Caandama",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Combary, Larisse",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Dahani, Madeleine",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Haro, Marenga",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Haro, Yemboiro",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Idani, Barkissa",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 2
+      },
+      {
+        "personId": "Kiema, Raogo",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Koadima, Abdou",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Lompo, Palamanga",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Lompo, Yienlemba",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Djibougou, Boukary",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Onadja, Lalé",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Onadja, Tapoa",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Thiombiano, Tani Sali",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Onakodo, Lardja",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Sahgui, Davy",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Thiombiano, Nawadia",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Ouédraogo, Karim",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Ouédraogo, Rasmané",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Ouédraogo, Souley",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Ouoba, Bedari",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Sangli, Louis",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 2
+      },
+      {
+        "personId": "Tankoano, Ousséni",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 2
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Burkina Faso",

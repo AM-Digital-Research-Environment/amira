@@ -272,6 +272,40 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Women",
+      "Sub-Saharan Africa",
+      "Political rights",
+      "Political participation"
+    ],
+    "matrix": [
+      [
+        0,
+        21,
+        21,
+        21
+      ],
+      [
+        21,
+        0,
+        21,
+        21
+      ],
+      [
+        21,
+        21,
+        0,
+        21
+      ],
+      [
+        21,
+        21,
+        21,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "International News",

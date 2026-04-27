@@ -83,6 +83,68 @@
       "value": 2
     }
   ],
+  "coContributors": {
+    "names": [],
+    "matrix": []
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Akolgo, Isaac Abotebuno",
+        "name": "Akolgo, Isaac Abotebuno",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_PEMESWA2021",
+        "name": "The political economy of monetary and financial dependency: West African policy space compared",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Akolgo, Isaac Abotebuno",
+        "targetId": "UBT_PEMESWA2021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Akolgo, Isaac Abotebuno",
+        "name": "Akolgo, Isaac Abotebuno",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Bayreuth",
+        "name": "University of Bayreuth",
+        "itemCount": 1
+      },
+      {
+        "id": "Third World Network",
+        "name": "Third World Network",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Akolgo, Isaac Abotebuno",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Akolgo, Isaac Abotebuno",
+        "targetId": "Third World Network",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Ghana",

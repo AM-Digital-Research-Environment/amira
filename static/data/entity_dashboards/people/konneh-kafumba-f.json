@@ -171,6 +171,505 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [
+      "Eastman, John",
+      "Brent, Julius",
+      "McCrumada, Charles",
+      "Urey, Khrushchev Borbor",
+      "Gilbert, Thomas",
+      "Wegee, Presley",
+      "Mensah, Sam",
+      "Taylor, Adolphus",
+      "Ja'neh, Kabineh M.",
+      "Kamara, Abdul Mumini"
+    ],
+    "matrix": [
+      [
+        0,
+        8,
+        7,
+        6,
+        6,
+        6,
+        5,
+        3,
+        1,
+        1
+      ],
+      [
+        8,
+        0,
+        7,
+        6,
+        6,
+        6,
+        5,
+        3,
+        1,
+        1
+      ],
+      [
+        7,
+        7,
+        0,
+        5,
+        5,
+        5,
+        4,
+        2,
+        1,
+        1
+      ],
+      [
+        6,
+        6,
+        5,
+        0,
+        5,
+        5,
+        5,
+        3,
+        1,
+        1
+      ],
+      [
+        6,
+        6,
+        5,
+        5,
+        0,
+        5,
+        4,
+        3,
+        1,
+        1
+      ],
+      [
+        6,
+        6,
+        5,
+        5,
+        5,
+        0,
+        4,
+        3,
+        1,
+        1
+      ],
+      [
+        5,
+        5,
+        4,
+        5,
+        4,
+        4,
+        0,
+        3,
+        1,
+        1
+      ],
+      [
+        3,
+        3,
+        2,
+        3,
+        3,
+        3,
+        3,
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Eastman, John",
+        "name": "Eastman, John",
+        "itemCount": 8
+      },
+      {
+        "id": "Brent, Julius",
+        "name": "Brent, Julius",
+        "itemCount": 8
+      },
+      {
+        "id": "McCrumada, Charles",
+        "name": "McCrumada, Charles",
+        "itemCount": 7
+      },
+      {
+        "id": "Urey, Khrushchev Borbor",
+        "name": "Urey, Khrushchev Borbor",
+        "itemCount": 6
+      },
+      {
+        "id": "Gilbert, Thomas",
+        "name": "Gilbert, Thomas",
+        "itemCount": 6
+      },
+      {
+        "id": "Wegee, Presley",
+        "name": "Wegee, Presley",
+        "itemCount": 6
+      },
+      {
+        "id": "Mensah, Sam",
+        "name": "Mensah, Sam",
+        "itemCount": 5
+      },
+      {
+        "id": "Taylor, Adolphus",
+        "name": "Taylor, Adolphus",
+        "itemCount": 3
+      },
+      {
+        "id": "Ja'neh, Kabineh M.",
+        "name": "Ja'neh, Kabineh M.",
+        "itemCount": 2
+      },
+      {
+        "id": "Kamara, Abdul Mumini",
+        "name": "Kamara, Abdul Mumini",
+        "itemCount": 2
+      },
+      {
+        "id": "Sirleaf, Varney A.",
+        "name": "Sirleaf, Varney A.",
+        "itemCount": 1
+      },
+      {
+        "id": "Dokor, Aboubacar",
+        "name": "Dokor, Aboubacar",
+        "itemCount": 1
+      },
+      {
+        "id": "Fakay, Soko",
+        "name": "Fakay, Soko",
+        "itemCount": 1
+      },
+      {
+        "id": "Almillig, Abdul Aal Ali",
+        "name": "Almillig, Abdul Aal Ali",
+        "itemCount": 1
+      },
+      {
+        "id": "Toure, Abraham",
+        "name": "Toure, Abraham",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System",
+        "itemCount": 11
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Sirleaf, Varney A.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Ja'neh, Kabineh M.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 2
+      },
+      {
+        "personId": "Urey, Khrushchev Borbor",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 6
+      },
+      {
+        "personId": "Eastman, John",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 8
+      },
+      {
+        "personId": "Brent, Julius",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 8
+      },
+      {
+        "personId": "Gilbert, Thomas",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 6
+      },
+      {
+        "personId": "Mensah, Sam",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 5
+      },
+      {
+        "personId": "McCrumada, Charles",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 7
+      },
+      {
+        "personId": "Taylor, Adolphus",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 3
+      },
+      {
+        "personId": "Wegee, Presley",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 6
+      },
+      {
+        "personId": "Dokor, Aboubacar",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Fakay, Soko",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Almillig, Abdul Aal Ali",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Toure, Abraham",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Kamara, Abdul Mumini",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 2
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Eastman, John",
+        "name": "Eastman, John",
+        "itemCount": 9
+      },
+      {
+        "id": "Brent, Julius",
+        "name": "Brent, Julius",
+        "itemCount": 9
+      },
+      {
+        "id": "McCrumada, Charles",
+        "name": "McCrumada, Charles",
+        "itemCount": 8
+      },
+      {
+        "id": "Urey, Khrushchev Borbor",
+        "name": "Urey, Khrushchev Borbor",
+        "itemCount": 7
+      },
+      {
+        "id": "Wegee, Presley",
+        "name": "Wegee, Presley",
+        "itemCount": 7
+      },
+      {
+        "id": "Gilbert, Thomas",
+        "name": "Gilbert, Thomas",
+        "itemCount": 6
+      },
+      {
+        "id": "Mensah, Sam",
+        "name": "Mensah, Sam",
+        "itemCount": 6
+      },
+      {
+        "id": "Taylor, Adolphus",
+        "name": "Taylor, Adolphus",
+        "itemCount": 3
+      },
+      {
+        "id": "Dokor, Aboubacar",
+        "name": "Dokor, Aboubacar",
+        "itemCount": 2
+      },
+      {
+        "id": "Fakay, Soko",
+        "name": "Fakay, Soko",
+        "itemCount": 1
+      },
+      {
+        "id": "Almillig, Abdul Aal Ali",
+        "name": "Almillig, Abdul Aal Ali",
+        "itemCount": 1
+      },
+      {
+        "id": "Toure, Abraham",
+        "name": "Toure, Abraham",
+        "itemCount": 1
+      },
+      {
+        "id": "Kamara, Abdul Mumini",
+        "name": "Kamara, Abdul Mumini",
+        "itemCount": 1
+      },
+      {
+        "id": "Ja'neh, Kabineh M.",
+        "name": "Ja'neh, Kabineh M.",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Liberia Broadcasting System (LBS)",
+        "name": "Liberia Broadcasting System (LBS)",
+        "itemCount": 8
+      },
+      {
+        "id": "National Muslim Council of Liberia",
+        "name": "National Muslim Council of Liberia",
+        "itemCount": 1
+      },
+      {
+        "id": "Africa Muslims Agency",
+        "name": "Africa Muslims Agency",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Urey, Khrushchev Borbor",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 6
+      },
+      {
+        "personId": "Eastman, John",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 8
+      },
+      {
+        "personId": "Brent, Julius",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 8
+      },
+      {
+        "personId": "Gilbert, Thomas",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 6
+      },
+      {
+        "personId": "Mensah, Sam",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 5
+      },
+      {
+        "personId": "McCrumada, Charles",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 7
+      },
+      {
+        "personId": "Taylor, Adolphus",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 3
+      },
+      {
+        "personId": "Wegee, Presley",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 6
+      },
+      {
+        "personId": "Dokor, Aboubacar",
+        "targetId": "National Muslim Council of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Urey, Khrushchev Borbor",
+        "targetId": "National Muslim Council of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "McCrumada, Charles",
+        "targetId": "National Muslim Council of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Wegee, Presley",
+        "targetId": "National Muslim Council of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Eastman, John",
+        "targetId": "National Muslim Council of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Brent, Julius",
+        "targetId": "National Muslim Council of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Mensah, Sam",
+        "targetId": "National Muslim Council of Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Dokor, Aboubacar",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Fakay, Soko",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Almillig, Abdul Aal Ali",
+        "targetId": "Africa Muslims Agency",
+        "count": 1
+      },
+      {
+        "personId": "Toure, Abraham",
+        "targetId": "Africa Muslims Agency",
+        "count": 1
+      },
+      {
+        "personId": "Kamara, Abdul Mumini",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      },
+      {
+        "personId": "Ja'neh, Kabineh M.",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Liberia",

@@ -42,6 +42,30 @@
       "value": 4
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Ethnomusicology",
+      "Kru language",
+      "Kru (African people)"
+    ],
+    "matrix": [
+      [
+        0,
+        4,
+        4
+      ],
+      [
+        4,
+        0,
+        4
+      ],
+      [
+        4,
+        4,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Ethnomusicology",

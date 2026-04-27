@@ -69,6 +69,54 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Gottesman, Lillian",
+        "name": "Gottesman, Lillian",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Gottesman, Lillian",
+        "targetId": "UBT_TravKnowl2019",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Gottesman, Lillian",
+        "name": "Gottesman, Lillian",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "City University of New York",
+        "name": "City University of New York",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Gottesman, Lillian",
+        "targetId": "City University of New York",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "United States of America",

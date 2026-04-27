@@ -90,6 +90,46 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Gbagbo, Divine Kwasi",
+        "name": "Gbagbo, Divine Kwasi",
+        "itemCount": 1
+      },
+      {
+        "id": "Elder, D. Rose",
+        "name": "Elder, D. Rose",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Ohio State University",
+        "name": "Ohio State University",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Gbagbo, Divine Kwasi",
+        "targetId": "Ohio State University",
+        "count": 1
+      },
+      {
+        "personId": "Elder, D. Rose",
+        "targetId": "Ohio State University",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "South Africa",

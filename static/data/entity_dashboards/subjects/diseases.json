@@ -168,6 +168,52 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Diseases",
+      "World health",
+      "West Africa",
+      "Herders",
+      "Livestock"
+    ],
+    "matrix": [
+      [
+        0,
+        4,
+        4,
+        3,
+        3
+      ],
+      [
+        4,
+        0,
+        4,
+        0,
+        0
+      ],
+      [
+        4,
+        4,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        0,
+        0,
+        3
+      ],
+      [
+        3,
+        0,
+        0,
+        3,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "World health",

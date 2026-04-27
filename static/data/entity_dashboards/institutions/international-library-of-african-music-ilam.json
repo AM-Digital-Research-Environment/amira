@@ -1272,6 +1272,131 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Thram, Diane",
+        "name": "Thram, Diane",
+        "itemCount": 43
+      },
+      {
+        "id": "Watkins, Lee",
+        "name": "Watkins, Lee",
+        "itemCount": 28
+      },
+      {
+        "id": "Tracey, Hugh",
+        "name": "Tracey, Hugh",
+        "itemCount": 10
+      },
+      {
+        "id": "McConnachie, Boudina",
+        "name": "McConnachie, Boudina",
+        "itemCount": 5
+      },
+      {
+        "id": "Tracey, Andrew",
+        "name": "Tracey, Andrew",
+        "itemCount": 2
+      },
+      {
+        "id": "Kumar, Rakesh",
+        "name": "Kumar, Rakesh",
+        "itemCount": 2
+      },
+      {
+        "id": "Ngumu, Pie-Claude",
+        "name": "Ngumu, Pie-Claude",
+        "itemCount": 1
+      },
+      {
+        "id": "Gumboreshumba, Laina",
+        "name": "Gumboreshumba, Laina",
+        "itemCount": 1
+      },
+      {
+        "id": "Gibbs, Tanesha",
+        "name": "Gibbs, Tanesha",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Rhodes University",
+        "name": "Rhodes University",
+        "itemCount": 80
+      },
+      {
+        "id": "African Music Society",
+        "name": "African Music Society",
+        "itemCount": 10
+      },
+      {
+        "id": "Our Lady of Victories Cathedral, Yaoundé, Cameroon",
+        "name": "Our Lady of Victories Cathedral, Yaoundé, Cameroon",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Tracey, Hugh",
+        "targetId": "African Music Society",
+        "count": 10
+      },
+      {
+        "personId": "Ngumu, Pie-Claude",
+        "targetId": "Our Lady of Victories Cathedral, Yaoundé, Cameroon",
+        "count": 1
+      },
+      {
+        "personId": "Tracey, Andrew",
+        "targetId": "Our Lady of Victories Cathedral, Yaoundé, Cameroon",
+        "count": 1
+      },
+      {
+        "personId": "Thram, Diane",
+        "targetId": "Rhodes University",
+        "count": 43
+      },
+      {
+        "personId": "McConnachie, Boudina",
+        "targetId": "Rhodes University",
+        "count": 5
+      },
+      {
+        "personId": "Watkins, Lee",
+        "targetId": "Rhodes University",
+        "count": 28
+      },
+      {
+        "personId": "Tracey, Andrew",
+        "targetId": "Rhodes University",
+        "count": 1
+      },
+      {
+        "personId": "Gumboreshumba, Laina",
+        "targetId": "Rhodes University",
+        "count": 1
+      },
+      {
+        "personId": "Kumar, Rakesh",
+        "targetId": "Rhodes University",
+        "count": 2
+      },
+      {
+        "personId": "Gibbs, Tanesha",
+        "targetId": "Rhodes University",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "South Africa",

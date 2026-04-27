@@ -112,6 +112,56 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Steinheimer, Frank",
+        "name": "Steinheimer, Frank",
+        "itemCount": 1
+      },
+      {
+        "id": "Zwier, Pim",
+        "name": "Zwier, Pim",
+        "itemCount": 1
+      },
+      {
+        "id": "Renate, Schafberg",
+        "name": "Renate, Schafberg",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_Karakul2019",
+        "name": "Karakul Circulations: Colonial Economies and the Un_Making of Disciplinary Knowledges in Germany and Namibia",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Steinheimer, Frank",
+        "targetId": "UBT_Karakul2019",
+        "count": 1
+      },
+      {
+        "personId": "Zwier, Pim",
+        "targetId": "UBT_Karakul2019",
+        "count": 1
+      },
+      {
+        "personId": "Renate, Schafberg",
+        "targetId": "UBT_Karakul2019",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
   "locations": [
     {
       "country": "Germany",

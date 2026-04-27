@@ -64,6 +64,54 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Figzał-Janikowska, Magdalena",
+        "name": "Figzał-Janikowska, Magdalena",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Figzał-Janikowska, Magdalena",
+        "targetId": "UBT_TravKnowl2019",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Figzał-Janikowska, Magdalena",
+        "name": "Figzał-Janikowska, Magdalena",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Silesia in Katowice",
+        "name": "University of Silesia in Katowice",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Figzał-Janikowska, Magdalena",
+        "targetId": "University of Silesia in Katowice",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Poland",

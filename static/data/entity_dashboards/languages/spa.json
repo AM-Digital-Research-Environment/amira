@@ -227,6 +227,47 @@
       "value": 1
     }
   ],
+  "subjectTrends": [
+    {
+      "year": 2020,
+      "byCategory": {
+        "Literacy": 0,
+        "Arid regions": 1,
+        "Maasai (African people)": 1,
+        "Food security": 1,
+        "Livestock": 1,
+        "East Africa": 1,
+        "Religion": 0,
+        "Christianity": 0
+      }
+    },
+    {
+      "year": 2022,
+      "byCategory": {
+        "Literacy": 1,
+        "Arid regions": 0,
+        "Maasai (African people)": 0,
+        "Food security": 0,
+        "Livestock": 0,
+        "East Africa": 0,
+        "Religion": 0,
+        "Christianity": 0
+      }
+    },
+    {
+      "year": 2023,
+      "byCategory": {
+        "Literacy": 4,
+        "Arid regions": 0,
+        "Maasai (African people)": 0,
+        "Food security": 0,
+        "Livestock": 0,
+        "East Africa": 0,
+        "Religion": 0,
+        "Christianity": 0
+      }
+    }
+  ],
   "locations": [
     {
       "country": "Bolivia",

@@ -49,6 +49,74 @@
       "value": 3
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Stephan, Klaus",
+        "name": "Stephan, Klaus",
+        "itemCount": 3
+      },
+      {
+        "id": "Fischer-Stephan, Nina",
+        "name": "Fischer-Stephan, Nina",
+        "itemCount": 3
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango",
+        "itemCount": 3
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Stephan, Klaus",
+        "targetId": "UBT_TaiSha2021",
+        "count": 3
+      },
+      {
+        "personId": "Fischer-Stephan, Nina",
+        "targetId": "UBT_TaiSha2021",
+        "count": 3
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Stephan, Klaus",
+        "name": "Stephan, Klaus",
+        "itemCount": 3
+      },
+      {
+        "id": "Fischer-Stephan, Nina",
+        "name": "Fischer-Stephan, Nina",
+        "itemCount": 3
+      }
+    ],
+    "targets": [
+      {
+        "id": "Bayrischer Rundfunk",
+        "name": "Bayrischer Rundfunk",
+        "itemCount": 3
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Stephan, Klaus",
+        "targetId": "Bayrischer Rundfunk",
+        "count": 3
+      },
+      {
+        "personId": "Fischer-Stephan, Nina",
+        "targetId": "Bayrischer Rundfunk",
+        "count": 3
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Germany",

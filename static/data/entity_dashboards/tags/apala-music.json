@@ -46,6 +46,30 @@
       "value": 14
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Ethnomusicology",
+      "Yoruba (African people)",
+      "Yoruba language"
+    ],
+    "matrix": [
+      [
+        0,
+        14,
+        14
+      ],
+      [
+        14,
+        0,
+        14
+      ],
+      [
+        14,
+        14,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Ethnomusicology",

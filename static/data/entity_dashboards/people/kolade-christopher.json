@@ -50,6 +50,98 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [],
+    "matrix": []
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Balogun, Lekan",
+        "name": "Balogun, Lekan",
+        "itemCount": 1
+      },
+      {
+        "id": "Matzke, Christine",
+        "name": "Matzke, Christine",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Balogun, Lekan",
+        "targetId": "UBT_TaiSha2021",
+        "count": 1
+      },
+      {
+        "personId": "Matzke, Christine",
+        "targetId": "UBT_TaiSha2021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Balogun, Lekan",
+        "name": "Balogun, Lekan",
+        "itemCount": 2
+      },
+      {
+        "id": "Matzke, Christine",
+        "name": "Matzke, Christine",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "Nigerian Television Service",
+        "name": "Nigerian Television Service",
+        "itemCount": 2
+      },
+      {
+        "id": "University of Lagos",
+        "name": "University of Lagos",
+        "itemCount": 1
+      },
+      {
+        "id": "University of Bayreuth",
+        "name": "University of Bayreuth",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Balogun, Lekan",
+        "targetId": "Nigerian Television Service",
+        "count": 1
+      },
+      {
+        "personId": "Balogun, Lekan",
+        "targetId": "University of Lagos",
+        "count": 1
+      },
+      {
+        "personId": "Matzke, Christine",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Matzke, Christine",
+        "targetId": "Nigerian Television Service",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Nigeria",

@@ -177,6 +177,164 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [
+      "Gibbs, James"
+    ],
+    "matrix": [
+      [
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Gibbs, James",
+        "name": "Gibbs, James",
+        "itemCount": 2
+      },
+      {
+        "id": "Kolade, Christopher",
+        "name": "Kolade, Christopher",
+        "itemCount": 1
+      },
+      {
+        "id": "Matzke, Christine",
+        "name": "Matzke, Christine",
+        "itemCount": 1
+      },
+      {
+        "id": "Omojola, Bode",
+        "name": "Omojola, Bode",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_TaiSha2021",
+        "name": "Taiwo Shango",
+        "itemCount": 3
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Kolade, Christopher",
+        "targetId": "UBT_TaiSha2021",
+        "count": 1
+      },
+      {
+        "personId": "Matzke, Christine",
+        "targetId": "UBT_TaiSha2021",
+        "count": 1
+      },
+      {
+        "personId": "Gibbs, James",
+        "targetId": "UBT_TaiSha2021",
+        "count": 2
+      },
+      {
+        "personId": "Omojola, Bode",
+        "targetId": "UBT_TaiSha2021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Gibbs, James",
+        "name": "Gibbs, James",
+        "itemCount": 3
+      },
+      {
+        "id": "Kolade, Christopher",
+        "name": "Kolade, Christopher",
+        "itemCount": 2
+      },
+      {
+        "id": "Matzke, Christine",
+        "name": "Matzke, Christine",
+        "itemCount": 2
+      },
+      {
+        "id": "Omojola, Bode",
+        "name": "Omojola, Bode",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Lagos",
+        "name": "University of Lagos",
+        "itemCount": 2
+      },
+      {
+        "id": "Nigerian Television Service",
+        "name": "Nigerian Television Service",
+        "itemCount": 1
+      },
+      {
+        "id": "University of Bayreuth",
+        "name": "University of Bayreuth",
+        "itemCount": 1
+      },
+      {
+        "id": "Mount Holyoke College",
+        "name": "Mount Holyoke College",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Kolade, Christopher",
+        "targetId": "Nigerian Television Service",
+        "count": 1
+      },
+      {
+        "personId": "Kolade, Christopher",
+        "targetId": "University of Lagos",
+        "count": 1
+      },
+      {
+        "personId": "Matzke, Christine",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Gibbs, James",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Omojola, Bode",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Matzke, Christine",
+        "targetId": "Mount Holyoke College",
+        "count": 1
+      },
+      {
+        "personId": "Gibbs, James",
+        "targetId": "Mount Holyoke College",
+        "count": 1
+      },
+      {
+        "personId": "Omojola, Bode",
+        "targetId": "Mount Holyoke College",
+        "count": 1
+      },
+      {
+        "personId": "Gibbs, James",
+        "targetId": "University of Lagos",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Nigeria",

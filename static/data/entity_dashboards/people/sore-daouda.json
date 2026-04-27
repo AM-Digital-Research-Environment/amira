@@ -163,6 +163,513 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [
+      "Ouedraogo",
+      "Badiel",
+      "Nikiema"
+    ],
+    "matrix": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Ouedraogo",
+        "name": "Ouedraogo",
+        "itemCount": 5
+      },
+      {
+        "id": "Badiel",
+        "name": "Badiel",
+        "itemCount": 2
+      },
+      {
+        "id": "Nikiema",
+        "name": "Nikiema",
+        "itemCount": 2
+      },
+      {
+        "id": "Bazie",
+        "name": "Bazie",
+        "itemCount": 1
+      },
+      {
+        "id": "Nacoulma",
+        "name": "Nacoulma",
+        "itemCount": 1
+      },
+      {
+        "id": "Tonde",
+        "name": "Tonde",
+        "itemCount": 1
+      },
+      {
+        "id": "Nana",
+        "name": "Nana",
+        "itemCount": 1
+      },
+      {
+        "id": "Issouf",
+        "name": "Issouf",
+        "itemCount": 1
+      },
+      {
+        "id": "Assabou",
+        "name": "Assabou",
+        "itemCount": 1
+      },
+      {
+        "id": "Ky",
+        "name": "Ky",
+        "itemCount": 1
+      },
+      {
+        "id": "Kouassi",
+        "name": "Kouassi",
+        "itemCount": 1
+      },
+      {
+        "id": "Sylvain",
+        "name": "Sylvain",
+        "itemCount": 1
+      },
+      {
+        "id": "Ouattara",
+        "name": "Ouattara",
+        "itemCount": 1
+      },
+      {
+        "id": "Zongo",
+        "name": "Zongo",
+        "itemCount": 1
+      },
+      {
+        "id": "Thombiano",
+        "name": "Thombiano",
+        "itemCount": 1
+      },
+      {
+        "id": "Dabire",
+        "name": "Dabire",
+        "itemCount": 1
+      },
+      {
+        "id": "Tapsoba",
+        "name": "Tapsoba",
+        "itemCount": 1
+      },
+      {
+        "id": "Bouda",
+        "name": "Bouda",
+        "itemCount": 1
+      },
+      {
+        "id": "DGAC",
+        "name": "DGAC",
+        "itemCount": 1
+      },
+      {
+        "id": "Ramdé",
+        "name": "Ramdé",
+        "itemCount": 1
+      },
+      {
+        "id": "Palm-Sanou, Valentine",
+        "name": "Palm-Sanou, Valentine",
+        "itemCount": 1
+      },
+      {
+        "id": "Fendler, Ute",
+        "name": "Fendler, Ute",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques",
+        "itemCount": 27
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Bazie",
+        "targetId": "UJKZ_filmBF2022",
+        "count": 1
+      },
+      {
+        "personId": "Nacoulma",
+        "targetId": "UJKZ_filmBF2022",
+        "count": 1
+      },
+      {
+        "personId": "Ouedraogo",
+        "targetId": "UJKZ_filmBF2022",
+        "count": 5
+      },
+      {
+        "personId": "Badiel",
+        "targetId": "UJKZ_filmBF2022",
+        "count": 2
+      },
+      {
+        "personId": "Tonde",
+        "targetId": "UJKZ_filmBF2022",
+        "count": 1
+      },
+      {
+        "personId": "Nana",
+        "targetId": "UJKZ_filmBF2022",
+        "count": 1
+      },
+      {
+        "personId": "Issouf",
+        "targetId": "UJKZ_filmBF2022",
+        "count": 1
+      },
+      {
+        "personId": "Assabou",
+        "targetId": "UJKZ_filmBF2022",
+        "count": 1
+      },
+      {
+        "personId": "Ky",
+        "targetId": "UJKZ_filmBF2022",
+        "count": 1
+      },
+      {
+        "personId": "Kouassi",
+        "targetId": "UJKZ_filmBF2022",
+        "count": 1
+      },
+      {
+        "personId": "Sylvain",
+        "targetId": "UJKZ_filmBF2022",
+        "count": 1
+      },
+      {
+        "personId": "Ouattara",
+        "targetId": "UJKZ_filmBF2022",
+        "count": 1
+      },
+      {
+        "personId": "Zongo",
+        "targetId": "UJKZ_filmBF2022",
+        "count": 1
+      },
+      {
+        "personId": "Nikiema",
+        "targetId": "UJKZ_filmBF2022",
+        "count": 2
+      },
+      {
+        "personId": "Thombiano",
+        "targetId": "UJKZ_filmBF2022",
+        "count": 1
+      },
+      {
+        "personId": "Dabire",
+        "targetId": "UJKZ_filmBF2022",
+        "count": 1
+      },
+      {
+        "personId": "Tapsoba",
+        "targetId": "UJKZ_filmBF2022",
+        "count": 1
+      },
+      {
+        "personId": "Bouda",
+        "targetId": "UJKZ_filmBF2022",
+        "count": 1
+      },
+      {
+        "personId": "DGAC",
+        "targetId": "UJKZ_filmBF2022",
+        "count": 1
+      },
+      {
+        "personId": "Ramdé",
+        "targetId": "UJKZ_filmBF2022",
+        "count": 1
+      },
+      {
+        "personId": "Palm-Sanou, Valentine",
+        "targetId": "UJKZ_filmBF2022",
+        "count": 1
+      },
+      {
+        "personId": "Fendler, Ute",
+        "targetId": "UJKZ_filmBF2022",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Ouedraogo",
+        "name": "Ouedraogo",
+        "itemCount": 5
+      },
+      {
+        "id": "Badiel",
+        "name": "Badiel",
+        "itemCount": 2
+      },
+      {
+        "id": "Nikiema",
+        "name": "Nikiema",
+        "itemCount": 2
+      },
+      {
+        "id": "Palm-Sanou, Valentine",
+        "name": "Palm-Sanou, Valentine",
+        "itemCount": 2
+      },
+      {
+        "id": "Fendler, Ute",
+        "name": "Fendler, Ute",
+        "itemCount": 2
+      },
+      {
+        "id": "Bazie",
+        "name": "Bazie",
+        "itemCount": 1
+      },
+      {
+        "id": "Nacoulma",
+        "name": "Nacoulma",
+        "itemCount": 1
+      },
+      {
+        "id": "Tonde",
+        "name": "Tonde",
+        "itemCount": 1
+      },
+      {
+        "id": "Nana",
+        "name": "Nana",
+        "itemCount": 1
+      },
+      {
+        "id": "Issouf",
+        "name": "Issouf",
+        "itemCount": 1
+      },
+      {
+        "id": "Assabou",
+        "name": "Assabou",
+        "itemCount": 1
+      },
+      {
+        "id": "Ky",
+        "name": "Ky",
+        "itemCount": 1
+      },
+      {
+        "id": "Kouassi",
+        "name": "Kouassi",
+        "itemCount": 1
+      },
+      {
+        "id": "Sylvain",
+        "name": "Sylvain",
+        "itemCount": 1
+      },
+      {
+        "id": "Ouattara",
+        "name": "Ouattara",
+        "itemCount": 1
+      },
+      {
+        "id": "Zongo",
+        "name": "Zongo",
+        "itemCount": 1
+      },
+      {
+        "id": "Thombiano",
+        "name": "Thombiano",
+        "itemCount": 1
+      },
+      {
+        "id": "Dabire",
+        "name": "Dabire",
+        "itemCount": 1
+      },
+      {
+        "id": "Tapsoba",
+        "name": "Tapsoba",
+        "itemCount": 1
+      },
+      {
+        "id": "Bouda",
+        "name": "Bouda",
+        "itemCount": 1
+      },
+      {
+        "id": "DGAC",
+        "name": "DGAC",
+        "itemCount": 1
+      },
+      {
+        "id": "Ramdé",
+        "name": "Ramdé",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Université Joseph Ki-Zerbo",
+        "name": "Université Joseph Ki-Zerbo",
+        "itemCount": 27
+      },
+      {
+        "id": "University of Bayreuth",
+        "name": "University of Bayreuth",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Bazie",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Nacoulma",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Ouedraogo",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 5
+      },
+      {
+        "personId": "Badiel",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 2
+      },
+      {
+        "personId": "Tonde",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Nana",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Issouf",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Assabou",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Ky",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Kouassi",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Sylvain",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Ouattara",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Zongo",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Nikiema",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 2
+      },
+      {
+        "personId": "Thombiano",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Dabire",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Tapsoba",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Bouda",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "DGAC",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Ramdé",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Palm-Sanou, Valentine",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Fendler, Ute",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 1
+      },
+      {
+        "personId": "Palm-Sanou, Valentine",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      },
+      {
+        "personId": "Fendler, Ute",
+        "targetId": "University of Bayreuth",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Burkina Faso",

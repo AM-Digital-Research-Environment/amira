@@ -31,7 +31,7 @@ export type ChartKey =
 	// --- relational / hierarchical ---
 	| 'heatmap' // 2-axis cross-tab (e.g. resource type × year)
 	| 'chord' // generic co-occurrence chord
-	| 'coAuthors' // chord / graph of person ↔ person
+	| 'coContributors' // chord of persons co-credited on the same item (any role)
 	| 'coSubjects' // chord / graph of subject ↔ subject
 	| 'sankey' // contributor → project → resource type
 	| 'sunburst' // type → language → subject hierarchy
@@ -121,7 +121,10 @@ export const CHART_METADATA: Record<ChartKey, { label: string; description?: str
 	roles: { label: 'Contributor roles', description: 'MARC relator distribution' },
 	heatmap: { label: 'Cross-tab heatmap' },
 	chord: { label: 'Co-occurrence' },
-	coAuthors: { label: 'Co-authors' },
+	coContributors: {
+		label: 'Co-credited persons',
+		description: 'People who appear together on the same item, across all MARC roles'
+	},
 	coSubjects: { label: 'Co-occurring subjects' },
 	sankey: { label: 'Contributor → project → type' },
 	sunburst: { label: 'Type → language → subject' },
@@ -183,6 +186,7 @@ export const ENTITY_LAYOUTS: Partial<Record<EntityType, EntityLayout>> = {
 			{ chart: 'subjects', title: 'Co-occurring subjects' },
 			{ chart: 'contributors' },
 			{ chart: 'wordCloud', wide: true, title: 'Related subjects & tags' },
+			{ chart: 'coSubjects', wide: true, tall: true, title: 'Subject co-occurrence network' },
 			{ chart: 'locations', wide: true, tall: true }
 		]
 	},
@@ -196,6 +200,7 @@ export const ENTITY_LAYOUTS: Partial<Record<EntityType, EntityLayout>> = {
 			{ chart: 'subjects', title: 'Subject headings on tagged items' },
 			{ chart: 'contributors' },
 			{ chart: 'wordCloud', wide: true, title: 'Related subjects & tags' },
+			{ chart: 'coSubjects', wide: true, tall: true, title: 'Subject co-occurrence network' },
 			{ chart: 'locations', wide: true, tall: true }
 		]
 	},
@@ -249,6 +254,28 @@ export const ENTITY_LAYOUTS: Partial<Record<EntityType, EntityLayout>> = {
 			{ chart: 'subjects' },
 			{ chart: 'contributors', title: 'Co-contributors' },
 			{ chart: 'wordCloud', wide: true },
+			{
+				chart: 'coContributors',
+				wide: true,
+				tall: true,
+				title: 'Co-credited persons',
+				description:
+					'Other persons who appear on the same items as this contributor, weighted by shared items'
+			},
+			{
+				chart: 'contributorNetwork',
+				wide: true,
+				tall: true,
+				title: 'Projects & co-contributors',
+				description: 'Projects this person worked on and the other persons credited on those items'
+			},
+			{
+				chart: 'affiliationNetwork',
+				wide: true,
+				tall: true,
+				title: 'Affiliated institutions',
+				description: 'Institutions referenced by the items this person contributed to'
+			},
 			{ chart: 'locations', wide: true, tall: true }
 		]
 	},
@@ -262,6 +289,20 @@ export const ENTITY_LAYOUTS: Partial<Record<EntityType, EntityLayout>> = {
 			{ chart: 'subjects' },
 			{ chart: 'contributors', title: 'Affiliated contributors' },
 			{ chart: 'wordCloud', wide: true },
+			{
+				chart: 'contributorNetwork',
+				wide: true,
+				tall: true,
+				title: 'Affiliated persons & projects',
+				description: 'Persons linked to this institution and the projects that connect them'
+			},
+			{
+				chart: 'affiliationNetwork',
+				wide: true,
+				tall: true,
+				title: 'Other institutions',
+				description: 'Institutions co-referenced with this one across the same items'
+			},
 			{ chart: 'locations', wide: true, tall: true }
 		]
 	},
@@ -289,6 +330,27 @@ export const ENTITY_LAYOUTS: Partial<Record<EntityType, EntityLayout>> = {
 			{ chart: 'wordCloud', wide: true },
 			{ chart: 'heatmap', wide: true, title: 'Resource type × decade' },
 			{ chart: 'subjectTrends', wide: true },
+			{
+				chart: 'timeAwareChord',
+				wide: true,
+				tall: true,
+				title: 'Subject co-occurrence over time',
+				description: "How the section's subject network has filled in across years"
+			},
+			{
+				chart: 'contributorNetwork',
+				wide: true,
+				tall: true,
+				title: 'Persons & projects',
+				description: "Persons credited within this section and the projects they're associated with"
+			},
+			{
+				chart: 'geoFlows',
+				wide: true,
+				tall: true,
+				title: 'Origin → current location',
+				description: "Items by where they were created vs. where they're held today"
+			},
 			{ chart: 'locations', wide: true, tall: true }
 		]
 	},
@@ -307,7 +369,27 @@ export const ENTITY_LAYOUTS: Partial<Record<EntityType, EntityLayout>> = {
 			{ chart: 'subjectTrends', wide: true },
 			{ chart: 'sunburst', wide: true, title: 'Type → language → subject' },
 			{ chart: 'chord', wide: true, tall: true, title: 'Subject co-occurrence' },
+			{
+				chart: 'timeAwareChord',
+				wide: true,
+				tall: true,
+				title: 'Subject co-occurrence over time'
+			},
 			{ chart: 'sankey', wide: true, title: 'Contributor → project → type' },
+			{
+				chart: 'contributorNetwork',
+				wide: true,
+				tall: true,
+				title: 'Persons on this project',
+				description: "Persons credited on this project's items and the broader projects they touch"
+			},
+			{
+				chart: 'geoFlows',
+				wide: true,
+				tall: true,
+				title: 'Origin → current location',
+				description: "Items by where they were created vs. where they're held today"
+			},
 			{ chart: 'locations', wide: true, tall: true }
 		]
 	}

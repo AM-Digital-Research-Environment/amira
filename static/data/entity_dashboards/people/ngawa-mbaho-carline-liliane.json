@@ -113,6 +113,64 @@
       "value": 38
     }
   ],
+  "coContributors": {
+    "names": [
+      "Drescher, Martina"
+    ],
+    "matrix": [
+      [
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Drescher, Martina",
+        "name": "Drescher, Martina",
+        "itemCount": 38
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_HDMC2019",
+        "name": "Health discourses as moral communication? Linguistic case studies from Côte d'Ivoire and Cameroon",
+        "itemCount": 38
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Drescher, Martina",
+        "targetId": "UBT_HDMC2019",
+        "count": 38
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Drescher, Martina",
+        "name": "Drescher, Martina",
+        "itemCount": 38
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Bayreuth",
+        "name": "University of Bayreuth",
+        "itemCount": 38
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Drescher, Martina",
+        "targetId": "University of Bayreuth",
+        "count": 38
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Cameroon",

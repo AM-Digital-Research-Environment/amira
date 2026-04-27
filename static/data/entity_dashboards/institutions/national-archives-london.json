@@ -153,6 +153,54 @@
       "value": 14
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Aboluwade, Ifeoluwa",
+        "name": "Aboluwade, Ifeoluwa",
+        "itemCount": 14
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_TravKnowl2019",
+        "name": "Travelling Knowledge and Trans*textuality: African Sources in Shakespearean Drama",
+        "itemCount": 14
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Aboluwade, Ifeoluwa",
+        "targetId": "UBT_TravKnowl2019",
+        "count": 14
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Aboluwade, Ifeoluwa",
+        "name": "Aboluwade, Ifeoluwa",
+        "itemCount": 14
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Bayreuth",
+        "name": "University of Bayreuth",
+        "itemCount": 14
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Aboluwade, Ifeoluwa",
+        "targetId": "University of Bayreuth",
+        "count": 14
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "United Kingdom",

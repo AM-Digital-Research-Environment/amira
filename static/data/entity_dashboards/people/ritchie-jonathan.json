@@ -83,6 +83,84 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [
+      "Beier, Georgina"
+    ],
+    "matrix": [
+      [
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Beier, Georgina",
+        "name": "Beier, Georgina",
+        "itemCount": 2
+      },
+      {
+        "id": "Beier, Ulli",
+        "name": "Beier, Ulli",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_ArtWorld2019",
+        "name": "Of Art Worlds - Collecting and Archiving Modern and Contemporary Art on the African Continent",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Beier, Georgina",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 2
+      },
+      {
+        "personId": "Beier, Ulli",
+        "targetId": "UBT_ArtWorld2019",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Beier, Georgina",
+        "name": "Beier, Georgina",
+        "itemCount": 2
+      },
+      {
+        "id": "Beier, Ulli",
+        "name": "Beier, Ulli",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "National Library of Australia",
+        "name": "National Library of Australia",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Beier, Georgina",
+        "targetId": "National Library of Australia",
+        "count": 2
+      },
+      {
+        "personId": "Beier, Ulli",
+        "targetId": "National Library of Australia",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Australia",

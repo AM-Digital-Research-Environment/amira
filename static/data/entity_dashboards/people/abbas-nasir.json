@@ -147,6 +147,90 @@
       "value": 2
     }
   ],
+  "coContributors": {
+    "names": [
+      "Mkalama, Benedict Wandera",
+      "Ouma, Stefan"
+    ],
+    "matrix": [
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Mkalama, Benedict Wandera",
+        "name": "Mkalama, Benedict Wandera",
+        "itemCount": 2
+      },
+      {
+        "id": "Ouma, Stefan",
+        "name": "Ouma, Stefan",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_MoCapIE2021",
+        "name": "Mobile Capital and (Im)Mobile Entrepreneurs: Start-up Success, Institutional Context and the “Laws of Start-up Money” in Silicon Savannah",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Mkalama, Benedict Wandera",
+        "targetId": "UBT_MoCapIE2021",
+        "count": 2
+      },
+      {
+        "personId": "Ouma, Stefan",
+        "targetId": "UBT_MoCapIE2021",
+        "count": 2
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Mkalama, Benedict Wandera",
+        "name": "Mkalama, Benedict Wandera",
+        "itemCount": 2
+      },
+      {
+        "id": "Ouma, Stefan",
+        "name": "Ouma, Stefan",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Bayreuth",
+        "name": "University of Bayreuth",
+        "itemCount": 2
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Mkalama, Benedict Wandera",
+        "targetId": "University of Bayreuth",
+        "count": 2
+      },
+      {
+        "personId": "Ouma, Stefan",
+        "targetId": "University of Bayreuth",
+        "count": 2
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Kenya",

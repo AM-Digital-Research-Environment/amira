@@ -46,6 +46,40 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [],
+    "matrix": []
+  },
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Mackay, Mercedes",
+        "name": "Mackay, Mercedes",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "British Broadcasting Corporation",
+        "name": "British Broadcasting Corporation",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Mackay, Mercedes",
+        "targetId": "British Broadcasting Corporation",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "South Africa",

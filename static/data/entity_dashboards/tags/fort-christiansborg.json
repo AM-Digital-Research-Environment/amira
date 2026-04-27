@@ -46,6 +46,30 @@
       "value": 6
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Ethnomusicology",
+      "Ga (African people)",
+      "Ga language"
+    ],
+    "matrix": [
+      [
+        0,
+        6,
+        6
+      ],
+      [
+        6,
+        0,
+        6
+      ],
+      [
+        6,
+        6,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Ethnomusicology",

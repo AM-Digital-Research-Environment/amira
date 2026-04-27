@@ -130,6 +130,46 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Aluede, Esther Omone",
+        "name": "Aluede, Esther Omone",
+        "itemCount": 1
+      },
+      {
+        "id": "Aluede, Charles Onomudo",
+        "name": "Aluede, Charles Onomudo",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Ambrose Alli University",
+        "name": "Ambrose Alli University",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Aluede, Esther Omone",
+        "targetId": "Ambrose Alli University",
+        "count": 1
+      },
+      {
+        "personId": "Aluede, Charles Onomudo",
+        "targetId": "Ambrose Alli University",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "South Africa",

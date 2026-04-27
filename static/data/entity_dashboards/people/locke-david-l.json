@@ -57,6 +57,40 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [],
+    "matrix": []
+  },
+  "contributorNetwork": {
+    "persons": [],
+    "targets": [],
+    "edges": [],
+    "targetLabel": ""
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Agbeli, Godwin Kwasi",
+        "name": "Agbeli, Godwin Kwasi",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "Tufts University",
+        "name": "Tufts University",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Agbeli, Godwin Kwasi",
+        "targetId": "Tufts University",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "South Africa",

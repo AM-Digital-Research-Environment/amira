@@ -76,6 +76,100 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Agriculture",
+      "Karakul sheep",
+      "Droughts",
+      "Karakul sheep industry",
+      "Postcolonialism",
+      "South Africa",
+      "Colonisation",
+      "Agricultural laborers"
+    ],
+    "matrix": [
+      [
+        0,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        3
+      ],
+      [
+        4,
+        0,
+        4,
+        4,
+        4,
+        4,
+        4,
+        3
+      ],
+      [
+        4,
+        4,
+        0,
+        4,
+        4,
+        4,
+        4,
+        3
+      ],
+      [
+        4,
+        4,
+        4,
+        0,
+        4,
+        4,
+        4,
+        3
+      ],
+      [
+        4,
+        4,
+        4,
+        4,
+        0,
+        4,
+        4,
+        3
+      ],
+      [
+        4,
+        4,
+        4,
+        4,
+        4,
+        0,
+        4,
+        3
+      ],
+      [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        0,
+        3
+      ],
+      [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Agriculture",

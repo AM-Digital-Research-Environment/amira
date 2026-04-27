@@ -25,6 +25,22 @@
       "value": 5
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Competition",
+      "Education"
+    ],
+    "matrix": [
+      [
+        0,
+        5
+      ],
+      [
+        5,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Education",

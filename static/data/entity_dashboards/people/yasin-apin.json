@@ -139,6 +139,423 @@
       "value": 1
     }
   ],
+  "coContributors": {
+    "names": [],
+    "matrix": []
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Schrijver, Annemiek Pas",
+        "name": "Schrijver, Annemiek Pas",
+        "itemCount": 1
+      },
+      {
+        "id": "Kronenburg García, Angela",
+        "name": "Kronenburg García, Angela",
+        "itemCount": 1
+      },
+      {
+        "id": "Gargallo, Eduard",
+        "name": "Gargallo, Eduard",
+        "itemCount": 1
+      },
+      {
+        "id": "Hashimshony Yaffe, Nurit",
+        "name": "Hashimshony Yaffe, Nurit",
+        "itemCount": 1
+      },
+      {
+        "id": "Roque de Pinho, Joana",
+        "name": "Roque de Pinho, Joana",
+        "itemCount": 1
+      },
+      {
+        "id": "Pepa, Mariasole",
+        "name": "Pepa, Mariasole",
+        "itemCount": 1
+      },
+      {
+        "id": "Heita, Jona",
+        "name": "Heita, Jona",
+        "itemCount": 1
+      },
+      {
+        "id": "Gambiza, James",
+        "name": "Gambiza, James",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_Covid192021",
+        "name": "Mobilities and Socialities: Covid-19 in the Drylands of Africa and Beyond",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Schrijver, Annemiek Pas",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      },
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      },
+      {
+        "personId": "Gargallo, Eduard",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      },
+      {
+        "personId": "Hashimshony Yaffe, Nurit",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      },
+      {
+        "personId": "Roque de Pinho, Joana",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      },
+      {
+        "personId": "Pepa, Mariasole",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      },
+      {
+        "personId": "Heita, Jona",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      },
+      {
+        "personId": "Gambiza, James",
+        "targetId": "UBT_Covid192021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Schrijver, Annemiek Pas",
+        "name": "Schrijver, Annemiek Pas",
+        "itemCount": 6
+      },
+      {
+        "id": "Kronenburg García, Angela",
+        "name": "Kronenburg García, Angela",
+        "itemCount": 6
+      },
+      {
+        "id": "Gargallo, Eduard",
+        "name": "Gargallo, Eduard",
+        "itemCount": 6
+      },
+      {
+        "id": "Hashimshony Yaffe, Nurit",
+        "name": "Hashimshony Yaffe, Nurit",
+        "itemCount": 6
+      },
+      {
+        "id": "Roque de Pinho, Joana",
+        "name": "Roque de Pinho, Joana",
+        "itemCount": 6
+      },
+      {
+        "id": "Pepa, Mariasole",
+        "name": "Pepa, Mariasole",
+        "itemCount": 6
+      },
+      {
+        "id": "Heita, Jona",
+        "name": "Heita, Jona",
+        "itemCount": 6
+      },
+      {
+        "id": "Gambiza, James",
+        "name": "Gambiza, James",
+        "itemCount": 6
+      }
+    ],
+    "targets": [
+      {
+        "id": "Wageningen University",
+        "name": "Wageningen University",
+        "itemCount": 1
+      },
+      {
+        "id": "University of Padua",
+        "name": "University of Padua",
+        "itemCount": 1
+      },
+      {
+        "id": "ISCTE - Instituto Universitário de Lisboa",
+        "name": "ISCTE - Instituto Universitário de Lisboa",
+        "itemCount": 1
+      },
+      {
+        "id": "The Academic College of Tel Aviv-Yaffo",
+        "name": "The Academic College of Tel Aviv-Yaffo",
+        "itemCount": 1
+      },
+      {
+        "id": "University of Namibia",
+        "name": "University of Namibia",
+        "itemCount": 1
+      },
+      {
+        "id": "Rhodes University",
+        "name": "Rhodes University",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Schrijver, Annemiek Pas",
+        "targetId": "Wageningen University",
+        "count": 1
+      },
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "Wageningen University",
+        "count": 1
+      },
+      {
+        "personId": "Gargallo, Eduard",
+        "targetId": "Wageningen University",
+        "count": 1
+      },
+      {
+        "personId": "Hashimshony Yaffe, Nurit",
+        "targetId": "Wageningen University",
+        "count": 1
+      },
+      {
+        "personId": "Roque de Pinho, Joana",
+        "targetId": "Wageningen University",
+        "count": 1
+      },
+      {
+        "personId": "Pepa, Mariasole",
+        "targetId": "Wageningen University",
+        "count": 1
+      },
+      {
+        "personId": "Heita, Jona",
+        "targetId": "Wageningen University",
+        "count": 1
+      },
+      {
+        "personId": "Gambiza, James",
+        "targetId": "Wageningen University",
+        "count": 1
+      },
+      {
+        "personId": "Schrijver, Annemiek Pas",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Gargallo, Eduard",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Hashimshony Yaffe, Nurit",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Roque de Pinho, Joana",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Pepa, Mariasole",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Heita, Jona",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Gambiza, James",
+        "targetId": "University of Padua",
+        "count": 1
+      },
+      {
+        "personId": "Schrijver, Annemiek Pas",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Gargallo, Eduard",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Hashimshony Yaffe, Nurit",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Roque de Pinho, Joana",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Pepa, Mariasole",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Heita, Jona",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Gambiza, James",
+        "targetId": "ISCTE - Instituto Universitário de Lisboa",
+        "count": 1
+      },
+      {
+        "personId": "Schrijver, Annemiek Pas",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 1
+      },
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 1
+      },
+      {
+        "personId": "Gargallo, Eduard",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 1
+      },
+      {
+        "personId": "Hashimshony Yaffe, Nurit",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 1
+      },
+      {
+        "personId": "Roque de Pinho, Joana",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 1
+      },
+      {
+        "personId": "Pepa, Mariasole",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 1
+      },
+      {
+        "personId": "Heita, Jona",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 1
+      },
+      {
+        "personId": "Gambiza, James",
+        "targetId": "The Academic College of Tel Aviv-Yaffo",
+        "count": 1
+      },
+      {
+        "personId": "Schrijver, Annemiek Pas",
+        "targetId": "University of Namibia",
+        "count": 1
+      },
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "University of Namibia",
+        "count": 1
+      },
+      {
+        "personId": "Gargallo, Eduard",
+        "targetId": "University of Namibia",
+        "count": 1
+      },
+      {
+        "personId": "Hashimshony Yaffe, Nurit",
+        "targetId": "University of Namibia",
+        "count": 1
+      },
+      {
+        "personId": "Roque de Pinho, Joana",
+        "targetId": "University of Namibia",
+        "count": 1
+      },
+      {
+        "personId": "Pepa, Mariasole",
+        "targetId": "University of Namibia",
+        "count": 1
+      },
+      {
+        "personId": "Heita, Jona",
+        "targetId": "University of Namibia",
+        "count": 1
+      },
+      {
+        "personId": "Gambiza, James",
+        "targetId": "University of Namibia",
+        "count": 1
+      },
+      {
+        "personId": "Schrijver, Annemiek Pas",
+        "targetId": "Rhodes University",
+        "count": 1
+      },
+      {
+        "personId": "Kronenburg García, Angela",
+        "targetId": "Rhodes University",
+        "count": 1
+      },
+      {
+        "personId": "Gargallo, Eduard",
+        "targetId": "Rhodes University",
+        "count": 1
+      },
+      {
+        "personId": "Hashimshony Yaffe, Nurit",
+        "targetId": "Rhodes University",
+        "count": 1
+      },
+      {
+        "personId": "Roque de Pinho, Joana",
+        "targetId": "Rhodes University",
+        "count": 1
+      },
+      {
+        "personId": "Pepa, Mariasole",
+        "targetId": "Rhodes University",
+        "count": 1
+      },
+      {
+        "personId": "Heita, Jona",
+        "targetId": "Rhodes University",
+        "count": 1
+      },
+      {
+        "personId": "Gambiza, James",
+        "targetId": "Rhodes University",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Kenya",

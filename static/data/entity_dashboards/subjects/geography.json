@@ -68,6 +68,30 @@
       "value": 10
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Geography",
+      "Sub-Saharan Africa",
+      "Mediation (Statistics)"
+    ],
+    "matrix": [
+      [
+        0,
+        10,
+        10
+      ],
+      [
+        10,
+        0,
+        10
+      ],
+      [
+        10,
+        10,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Sub-Saharan Africa",

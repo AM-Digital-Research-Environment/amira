@@ -86,6 +86,105 @@
       "value": 44
     }
   ],
+  "coContributors": {
+    "names": [
+      "Palm-Sanou, Valentine",
+      "Fendler, Ute"
+    ],
+    "matrix": [
+      [
+        0,
+        44
+      ],
+      [
+        44,
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Palm-Sanou, Valentine",
+        "name": "Palm-Sanou, Valentine",
+        "itemCount": 44
+      },
+      {
+        "id": "Fendler, Ute",
+        "name": "Fendler, Ute",
+        "itemCount": 44
+      }
+    ],
+    "targets": [
+      {
+        "id": "UJKZ_filmBF2022",
+        "name": "De 2000 à 2020, Deux Décennies de Films de Fiction Burkinabè: Acteurs/Actrices, Orientations Thématiques et Profils Esthétiques",
+        "itemCount": 44
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Palm-Sanou, Valentine",
+        "targetId": "UJKZ_filmBF2022",
+        "count": 44
+      },
+      {
+        "personId": "Fendler, Ute",
+        "targetId": "UJKZ_filmBF2022",
+        "count": 44
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Palm-Sanou, Valentine",
+        "name": "Palm-Sanou, Valentine",
+        "itemCount": 88
+      },
+      {
+        "id": "Fendler, Ute",
+        "name": "Fendler, Ute",
+        "itemCount": 88
+      }
+    ],
+    "targets": [
+      {
+        "id": "Université Joseph Ki-Zerbo",
+        "name": "Université Joseph Ki-Zerbo",
+        "itemCount": 44
+      },
+      {
+        "id": "University of Bayreuth",
+        "name": "University of Bayreuth",
+        "itemCount": 44
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Palm-Sanou, Valentine",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 44
+      },
+      {
+        "personId": "Fendler, Ute",
+        "targetId": "Université Joseph Ki-Zerbo",
+        "count": 44
+      },
+      {
+        "personId": "Palm-Sanou, Valentine",
+        "targetId": "University of Bayreuth",
+        "count": 44
+      },
+      {
+        "personId": "Fendler, Ute",
+        "targetId": "University of Bayreuth",
+        "count": 44
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Burkina Faso",

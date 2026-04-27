@@ -183,6 +183,22 @@ def load_projects_from_local(data_dir: str = config.DATA_DIR) -> list[dict]:
     return _read_json_list(path)
 
 
+def load_geo(data_dir: str = config.DATA_DIR) -> dict:
+    """Load the lat/lng geo index (`dev.geo.json`) used by `build_geo_flows`.
+
+    Shape: ``{countries: {name: [lat, lng]}, regions: {key: [lat, lng]},
+    cities: {key: [lat, lng]}}``. Returns an empty dict (with the expected
+    sub-keys) if the file is missing so callers can pass through to
+    `build_geo_flows` unconditionally — flows that can't be resolved get
+    dropped silently.
+    """
+    path = os.path.join(data_dir, "dev", "dev.geo.json")
+    if not os.path.exists(path):
+        return {"countries": {}, "regions": {}, "cities": {}}
+    with open(path, encoding="utf-8") as fh:
+        return json.load(fh)
+
+
 def _read_json_list(path: str) -> list[dict]:
     """Read a JSON file that may be a plain list or {"items": [...]}."""
     with open(path, encoding="utf-8") as fh:

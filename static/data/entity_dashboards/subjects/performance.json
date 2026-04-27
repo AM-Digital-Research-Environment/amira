@@ -223,6 +223,82 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Performance",
+      "Music",
+      "Dance",
+      "Ethnomusicology",
+      "Drum",
+      "Musical instruments",
+      "Drum music"
+    ],
+    "matrix": [
+      [
+        0,
+        7,
+        6,
+        5,
+        4,
+        4,
+        4
+      ],
+      [
+        7,
+        0,
+        3,
+        4,
+        4,
+        4,
+        4
+      ],
+      [
+        6,
+        3,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        5,
+        4,
+        1,
+        0,
+        4,
+        4,
+        4
+      ],
+      [
+        4,
+        4,
+        1,
+        4,
+        0,
+        4,
+        4
+      ],
+      [
+        4,
+        4,
+        1,
+        4,
+        4,
+        0,
+        4
+      ],
+      [
+        4,
+        4,
+        1,
+        4,
+        4,
+        4,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "African Music",

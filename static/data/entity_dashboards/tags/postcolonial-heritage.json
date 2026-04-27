@@ -458,6 +458,66 @@
       "value": 8
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Archives",
+      "Colonisation",
+      "Letters",
+      "Social norms",
+      "Discourse analysis",
+      "Petitions"
+    ],
+    "matrix": [
+      [
+        0,
+        105,
+        105,
+        105,
+        105,
+        8
+      ],
+      [
+        105,
+        0,
+        105,
+        105,
+        105,
+        8
+      ],
+      [
+        105,
+        105,
+        0,
+        105,
+        105,
+        8
+      ],
+      [
+        105,
+        105,
+        105,
+        0,
+        105,
+        8
+      ],
+      [
+        105,
+        105,
+        105,
+        105,
+        0,
+        8
+      ],
+      [
+        8,
+        8,
+        8,
+        8,
+        8,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Archives",

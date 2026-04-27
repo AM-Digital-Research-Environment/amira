@@ -154,6 +154,52 @@
       "value": 1
     }
   ],
+  "coSubjects": {
+    "names": [
+      "Musical instruments",
+      "Flute",
+      "Flute music",
+      "Music",
+      "Ethnomusicology"
+    ],
+    "matrix": [
+      [
+        0,
+        6,
+        3,
+        3,
+        3
+      ],
+      [
+        6,
+        0,
+        3,
+        3,
+        3
+      ],
+      [
+        3,
+        3,
+        0,
+        3,
+        3
+      ],
+      [
+        3,
+        3,
+        3,
+        0,
+        3
+      ],
+      [
+        3,
+        3,
+        3,
+        3,
+        0
+      ]
+    ]
+  },
   "wordCloud": [
     {
       "name": "Musical instruments",

@@ -65,6 +65,189 @@
       "value": 1
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Sonii, Momo D.",
+        "name": "Sonii, Momo D.",
+        "itemCount": 1
+      },
+      {
+        "id": "Miller, Morris G.",
+        "name": "Miller, Morris G.",
+        "itemCount": 1
+      },
+      {
+        "id": "M'Baye, A. B.",
+        "name": "M'Baye, A. B.",
+        "itemCount": 1
+      },
+      {
+        "id": "Sarh, Dominic M.",
+        "name": "Sarh, Dominic M.",
+        "itemCount": 1
+      },
+      {
+        "id": "Sese, Dominic",
+        "name": "Sese, Dominic",
+        "itemCount": 1
+      },
+      {
+        "id": "Blidi, Francis Pupo",
+        "name": "Blidi, Francis Pupo",
+        "itemCount": 1
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Sonii, Momo D.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Miller, Morris G.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "M'Baye, A. B.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Sarh, Dominic M.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Sese, Dominic",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      },
+      {
+        "personId": "Blidi, Francis Pupo",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Sonii, Momo D.",
+        "name": "Sonii, Momo D.",
+        "itemCount": 2
+      },
+      {
+        "id": "Miller, Morris G.",
+        "name": "Miller, Morris G.",
+        "itemCount": 2
+      },
+      {
+        "id": "M'Baye, A. B.",
+        "name": "M'Baye, A. B.",
+        "itemCount": 2
+      },
+      {
+        "id": "Sarh, Dominic M.",
+        "name": "Sarh, Dominic M.",
+        "itemCount": 2
+      },
+      {
+        "id": "Sese, Dominic",
+        "name": "Sese, Dominic",
+        "itemCount": 2
+      },
+      {
+        "id": "Blidi, Francis Pupo",
+        "name": "Blidi, Francis Pupo",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "National Blood Bank, Liberia",
+        "name": "National Blood Bank, Liberia",
+        "itemCount": 1
+      },
+      {
+        "id": "Liberian Red Cross Society",
+        "name": "Liberian Red Cross Society",
+        "itemCount": 1
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Sonii, Momo D.",
+        "targetId": "National Blood Bank, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Miller, Morris G.",
+        "targetId": "National Blood Bank, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "M'Baye, A. B.",
+        "targetId": "National Blood Bank, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Sarh, Dominic M.",
+        "targetId": "National Blood Bank, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Sese, Dominic",
+        "targetId": "National Blood Bank, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Blidi, Francis Pupo",
+        "targetId": "National Blood Bank, Liberia",
+        "count": 1
+      },
+      {
+        "personId": "Sonii, Momo D.",
+        "targetId": "Liberian Red Cross Society",
+        "count": 1
+      },
+      {
+        "personId": "Miller, Morris G.",
+        "targetId": "Liberian Red Cross Society",
+        "count": 1
+      },
+      {
+        "personId": "M'Baye, A. B.",
+        "targetId": "Liberian Red Cross Society",
+        "count": 1
+      },
+      {
+        "personId": "Sarh, Dominic M.",
+        "targetId": "Liberian Red Cross Society",
+        "count": 1
+      },
+      {
+        "personId": "Sese, Dominic",
+        "targetId": "Liberian Red Cross Society",
+        "count": 1
+      },
+      {
+        "personId": "Blidi, Francis Pupo",
+        "targetId": "Liberian Red Cross Society",
+        "count": 1
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Liberia",

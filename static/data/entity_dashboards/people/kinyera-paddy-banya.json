@@ -86,6 +86,64 @@
       "value": 6
     }
   ],
+  "coContributors": {
+    "names": [
+      "Doevenspeck, Martin"
+    ],
+    "matrix": [
+      [
+        0
+      ]
+    ]
+  },
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Doevenspeck, Martin",
+        "name": "Doevenspeck, Martin",
+        "itemCount": 6
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_OilMov2019",
+        "name": "Oil Movements: The Production and Government of Petro-(im)mobilities in East Africa",
+        "itemCount": 6
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Doevenspeck, Martin",
+        "targetId": "UBT_OilMov2019",
+        "count": 6
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Doevenspeck, Martin",
+        "name": "Doevenspeck, Martin",
+        "itemCount": 6
+      }
+    ],
+    "targets": [
+      {
+        "id": "University of Bayreuth",
+        "name": "University of Bayreuth",
+        "itemCount": 6
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Doevenspeck, Martin",
+        "targetId": "University of Bayreuth",
+        "count": 6
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Kenya",

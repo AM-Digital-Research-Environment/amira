@@ -129,6 +129,394 @@
       "value": 2
     }
   ],
+  "contributorNetwork": {
+    "persons": [
+      {
+        "id": "Badio, Cyrus",
+        "name": "Badio, Cyrus",
+        "itemCount": 5
+      },
+      {
+        "id": "Urey, Khrushchev Borbor",
+        "name": "Urey, Khrushchev Borbor",
+        "itemCount": 5
+      },
+      {
+        "id": "McCrumada, Charles",
+        "name": "McCrumada, Charles",
+        "itemCount": 5
+      },
+      {
+        "id": "Wegee, Presley",
+        "name": "Wegee, Presley",
+        "itemCount": 5
+      },
+      {
+        "id": "Fakay, Soko",
+        "name": "Fakay, Soko",
+        "itemCount": 5
+      },
+      {
+        "id": "Taylor, Adolphus",
+        "name": "Taylor, Adolphus",
+        "itemCount": 5
+      },
+      {
+        "id": "Toby, Victor",
+        "name": "Toby, Victor",
+        "itemCount": 5
+      },
+      {
+        "id": "Mensah, Sam",
+        "name": "Mensah, Sam",
+        "itemCount": 5
+      },
+      {
+        "id": "Eastman, John",
+        "name": "Eastman, John",
+        "itemCount": 5
+      },
+      {
+        "id": "Brent, Julius",
+        "name": "Brent, Julius",
+        "itemCount": 5
+      },
+      {
+        "id": "Brown, Samuel T.",
+        "name": "Brown, Samuel T.",
+        "itemCount": 5
+      },
+      {
+        "id": "Flomo, Matthew Y.",
+        "name": "Flomo, Matthew Y.",
+        "itemCount": 5
+      },
+      {
+        "id": "Williams, Carolin N.",
+        "name": "Williams, Carolin N.",
+        "itemCount": 3
+      },
+      {
+        "id": "Wopea, Miamen",
+        "name": "Wopea, Miamen",
+        "itemCount": 3
+      },
+      {
+        "id": "Kyne, Pajibo S. B.",
+        "name": "Kyne, Pajibo S. B.",
+        "itemCount": 3
+      },
+      {
+        "id": "Harmon, Alvin B.",
+        "name": "Harmon, Alvin B.",
+        "itemCount": 2
+      },
+      {
+        "id": "Boayue, Kou",
+        "name": "Boayue, Kou",
+        "itemCount": 2
+      },
+      {
+        "id": "Gblah, John C.",
+        "name": "Gblah, John C.",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "UBT_ELTVTapes2021",
+        "name": "U-Matic Tapes of the Liberia Broadcasting System",
+        "itemCount": 5
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Badio, Cyrus",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 5
+      },
+      {
+        "personId": "Urey, Khrushchev Borbor",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 5
+      },
+      {
+        "personId": "McCrumada, Charles",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 5
+      },
+      {
+        "personId": "Wegee, Presley",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 5
+      },
+      {
+        "personId": "Fakay, Soko",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 5
+      },
+      {
+        "personId": "Taylor, Adolphus",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 5
+      },
+      {
+        "personId": "Toby, Victor",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 5
+      },
+      {
+        "personId": "Mensah, Sam",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 5
+      },
+      {
+        "personId": "Eastman, John",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 5
+      },
+      {
+        "personId": "Brent, Julius",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 5
+      },
+      {
+        "personId": "Brown, Samuel T.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 5
+      },
+      {
+        "personId": "Flomo, Matthew Y.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 5
+      },
+      {
+        "personId": "Williams, Carolin N.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 3
+      },
+      {
+        "personId": "Wopea, Miamen",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 3
+      },
+      {
+        "personId": "Kyne, Pajibo S. B.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 3
+      },
+      {
+        "personId": "Harmon, Alvin B.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 2
+      },
+      {
+        "personId": "Boayue, Kou",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 2
+      },
+      {
+        "personId": "Gblah, John C.",
+        "targetId": "UBT_ELTVTapes2021",
+        "count": 2
+      }
+    ],
+    "targetLabel": "Projects"
+  },
+  "affiliationNetwork": {
+    "persons": [
+      {
+        "id": "Badio, Cyrus",
+        "name": "Badio, Cyrus",
+        "itemCount": 5
+      },
+      {
+        "id": "Urey, Khrushchev Borbor",
+        "name": "Urey, Khrushchev Borbor",
+        "itemCount": 5
+      },
+      {
+        "id": "McCrumada, Charles",
+        "name": "McCrumada, Charles",
+        "itemCount": 5
+      },
+      {
+        "id": "Wegee, Presley",
+        "name": "Wegee, Presley",
+        "itemCount": 5
+      },
+      {
+        "id": "Fakay, Soko",
+        "name": "Fakay, Soko",
+        "itemCount": 5
+      },
+      {
+        "id": "Taylor, Adolphus",
+        "name": "Taylor, Adolphus",
+        "itemCount": 5
+      },
+      {
+        "id": "Toby, Victor",
+        "name": "Toby, Victor",
+        "itemCount": 5
+      },
+      {
+        "id": "Mensah, Sam",
+        "name": "Mensah, Sam",
+        "itemCount": 5
+      },
+      {
+        "id": "Eastman, John",
+        "name": "Eastman, John",
+        "itemCount": 5
+      },
+      {
+        "id": "Brent, Julius",
+        "name": "Brent, Julius",
+        "itemCount": 5
+      },
+      {
+        "id": "Brown, Samuel T.",
+        "name": "Brown, Samuel T.",
+        "itemCount": 5
+      },
+      {
+        "id": "Flomo, Matthew Y.",
+        "name": "Flomo, Matthew Y.",
+        "itemCount": 5
+      },
+      {
+        "id": "Williams, Carolin N.",
+        "name": "Williams, Carolin N.",
+        "itemCount": 3
+      },
+      {
+        "id": "Wopea, Miamen",
+        "name": "Wopea, Miamen",
+        "itemCount": 3
+      },
+      {
+        "id": "Kyne, Pajibo S. B.",
+        "name": "Kyne, Pajibo S. B.",
+        "itemCount": 3
+      },
+      {
+        "id": "Harmon, Alvin B.",
+        "name": "Harmon, Alvin B.",
+        "itemCount": 2
+      },
+      {
+        "id": "Boayue, Kou",
+        "name": "Boayue, Kou",
+        "itemCount": 2
+      },
+      {
+        "id": "Gblah, John C.",
+        "name": "Gblah, John C.",
+        "itemCount": 2
+      }
+    ],
+    "targets": [
+      {
+        "id": "Liberia Broadcasting System (LBS)",
+        "name": "Liberia Broadcasting System (LBS)",
+        "itemCount": 5
+      }
+    ],
+    "edges": [
+      {
+        "personId": "Badio, Cyrus",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 5
+      },
+      {
+        "personId": "Urey, Khrushchev Borbor",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 5
+      },
+      {
+        "personId": "McCrumada, Charles",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 5
+      },
+      {
+        "personId": "Wegee, Presley",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 5
+      },
+      {
+        "personId": "Fakay, Soko",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 5
+      },
+      {
+        "personId": "Taylor, Adolphus",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 5
+      },
+      {
+        "personId": "Toby, Victor",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 5
+      },
+      {
+        "personId": "Mensah, Sam",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 5
+      },
+      {
+        "personId": "Eastman, John",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 5
+      },
+      {
+        "personId": "Brent, Julius",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 5
+      },
+      {
+        "personId": "Brown, Samuel T.",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 5
+      },
+      {
+        "personId": "Flomo, Matthew Y.",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 5
+      },
+      {
+        "personId": "Williams, Carolin N.",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 3
+      },
+      {
+        "personId": "Wopea, Miamen",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 3
+      },
+      {
+        "personId": "Kyne, Pajibo S. B.",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 3
+      },
+      {
+        "personId": "Harmon, Alvin B.",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 2
+      },
+      {
+        "personId": "Boayue, Kou",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 2
+      },
+      {
+        "personId": "Gblah, John C.",
+        "targetId": "Liberia Broadcasting System (LBS)",
+        "count": 2
+      }
+    ],
+    "targetLabel": "Institutions"
+  },
   "locations": [
     {
       "country": "Liberia",
