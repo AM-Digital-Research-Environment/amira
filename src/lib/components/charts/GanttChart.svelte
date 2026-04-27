@@ -128,8 +128,10 @@
 			type: 'value',
 			min: 'dataMin',
 			max: 'dataMax',
+			minInterval: formatAsYear ? 1 : undefined,
 			axisLabel: {
 				...labelStyle,
+				hideOverlap: true,
 				formatter: formatAsYear ? (val: number) => String(Math.round(val)) : undefined
 			}
 		},

@@ -454,6 +454,15 @@ function isEmptyChordPayload(payload: object): boolean {
 	return matrixCount === 0 || namesCount === 0;
 }
 
+/** GeoFlows payload is `{ flows: GeoFlow[] }` — empty when there are no
+ * origin→current flows to draw. Without this guard the slot renders an
+ * empty world map captioned "0 flows · 0 items". */
+function isEmptyGeoFlowsPayload(payload: object): boolean {
+	const p = payload as { flows?: unknown[] };
+	if (!Array.isArray(p.flows)) return false;
+	return p.flows.length === 0;
+}
+
 /**
  * Decide whether a slot should appear on the grid for the given data.
  *
@@ -477,6 +486,7 @@ export function shouldRenderSlot(slot: ChartSlot, data: EntityDashboardData): bo
 		if (isEmptyNetworkPayload(payload as object)) return false;
 		if (isEmptyGraphPayload(payload as object)) return false;
 		if (isEmptyChordPayload(payload as object)) return false;
+		if (isEmptyGeoFlowsPayload(payload as object)) return false;
 		return true;
 	}
 	return true;

@@ -552,7 +552,7 @@
 						<div class="space-y-2">
 							{#each identifiers as id (id.type + id.value)}
 								{@const idValue = String(id.value ?? '')}
-								<div class="flex items-start gap-3 text-sm">
+								<div class="flex items-baseline gap-3 text-sm">
 									<span class="text-muted-foreground shrink-0 min-w-[80px]">{id.type}</span>
 									{#if idValue.startsWith('http')}
 										<a

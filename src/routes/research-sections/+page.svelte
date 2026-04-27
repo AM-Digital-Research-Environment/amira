@@ -23,7 +23,12 @@
 	import { createUrlSelection, scrollToTop } from '$lib/utils/urlSelection';
 	import { createEntityDetailState } from '$lib/utils/loaders';
 	import type { Project, CollectionItem } from '$lib/types';
-	import { formatDate, getProjectTitle, getSectionColor } from '$lib/utils/helpers';
+	import {
+		formatDate,
+		getProjectTitle,
+		getSectionColor,
+		getSectionColorResolved
+	} from '$lib/utils/helpers';
 	import { EXTERNAL_SECTION } from '$lib/utils/external';
 	import {
 		BookOpen,
@@ -109,10 +114,23 @@
 		selectedSection ? sections.find((s) => s.name === selectedSection) || null : null
 	);
 
-	// Gantt chart for selected section's projects
+	// Gantt chart for selected section's projects. Multi-section projects
+	// are legitimate members of every section they list, so we override the
+	// category to the section currently being viewed — otherwise such
+	// projects would appear in an unrelated section's colour and read as
+	// "from another section".
 	let sectionGanttData = $derived.by(() => {
 		if (!selectedSectionData) return [];
-		return buildProjectGantt(selectedSectionData.projects);
+		const sectionName = selectedSectionData.name;
+		return buildProjectGantt(selectedSectionData.projects).map((d) => ({
+			...d,
+			category: sectionName
+		}));
+	});
+
+	let sectionCategoryColors = $derived.by(() => {
+		if (!selectedSectionData) return undefined;
+		return { [selectedSectionData.name]: getSectionColorResolved(selectedSectionData.name) };
 	});
 
 	let chartData = $derived(extractResearchSections($projects));
@@ -419,6 +437,8 @@
 				<GanttChart
 					data={sectionGanttData}
 					formatAsYear={true}
+					categoryColors={sectionCategoryColors}
+					showLegend={false}
 					onclick={(name) => {
 						const project = selectedSectionData?.projects.find((p) =>
 							p.name.startsWith(name.replace('...', ''))
