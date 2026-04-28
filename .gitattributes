@@ -1,0 +1,26 @@
+# Enforce LF line endings everywhere in the repo, regardless of the
+# contributor's OS. SvelteKit, Vite, Prettier, ESLint, Node, and the
+# GitHub Pages build runner all expect LF; mixed line endings cause
+# spurious diffs on Windows checkouts and occasional tooling breakage.
+# https://git-scm.com/docs/gitattributes
+
+* text=auto eol=lf
+
+# Explicit binary overrides so Git never tries to diff or normalise
+# these — auto-detection is reliable but pinning the common formats
+# guards against edge cases.
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.webp  binary
+*.ico   binary
+*.woff  binary
+*.woff2 binary
+*.ttf   binary
+*.eot   binary
+*.otf   binary
+*.zip   binary
+*.gz    binary
+*.pdf   binary
+*.parquet binary
