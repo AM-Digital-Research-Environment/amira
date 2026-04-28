@@ -28,13 +28,13 @@ for review.
 
 ## Phase tracker
 
-| Phase | Status      | Description                                                              |
-| ----- | ----------- | ------------------------------------------------------------------------ |
-| 0     | in progress | Test harness — Vitest, Testing Library, Playwright, seed unit tests      |
-| 1     | pending     | Low-risk cleanups — barrel deletions, helpers split, fetch/cache helpers |
-| 2     | pending     | UI primitives — `Modal`, `FilterToggleBar`, expanded `optionBuilders`    |
-| 3     | pending     | Component splits — `ItemDetail`, `ItemFilters`, dashboard layouts, maps  |
-| 4     | pending     | Architectural shells — `EntityPageContainer`, `EntityDetailViewShell`    |
+| Phase | Status  | Description                                                              |
+| ----- | ------- | ------------------------------------------------------------------------ |
+| 0     | done    | Test harness — Vitest, Testing Library, Playwright, seed unit tests      |
+| 1     | done    | Low-risk cleanups — barrel deletions, helpers split, fetch/cache helpers |
+| 2     | pending | UI primitives — `Modal`, `FilterToggleBar`, expanded `optionBuilders`    |
+| 3     | pending | Component splits — `ItemDetail`, `ItemFilters`, dashboard layouts, maps  |
+| 4     | pending | Architectural shells — `EntityPageContainer`, `EntityDetailViewShell`    |
 
 After each phase: `npm run format:check`, `npm run check`, `npm run lint`,
 `npm run test`, and `npm run build` all pass. Commit, pause for review, then

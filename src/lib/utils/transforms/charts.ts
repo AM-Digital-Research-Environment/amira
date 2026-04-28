@@ -6,6 +6,7 @@ import type {
 	GanttDataPoint
 } from '$lib/types';
 import { extractYear } from './dates';
+import { buildProjectMetaMap, countByProjectId } from './indexing';
 
 /**
  * Build a heatmap matrix crossing two categorical dimensions from collection items.
@@ -85,17 +86,8 @@ export function buildResearchSectionUniversityHeatmap(
 	projects: Project[],
 	items: CollectionItem[]
 ): HeatmapDataPoint[] {
-	// Map project ID → research sections & institutions
-	const projectSections = new Map<string, string[]>();
-	const projectInstitutions = new Map<string, string[]>();
-	for (const p of projects) {
-		if (p.researchSection?.length) {
-			projectSections.set(p.id, p.researchSection);
-		}
-		if (p.institutions?.length) {
-			projectInstitutions.set(p.id, p.institutions);
-		}
-	}
+	const { sections: projectSections, institutions: projectInstitutions } =
+		buildProjectMetaMap(projects);
 
 	// Full institution names on the axis (more readable than UBT/UNILAG/...).
 	// `rhodes` is a synthetic axis for ILAM (housed at Rhodes University) so
@@ -168,14 +160,7 @@ export function buildProjectBeeswarm(
 	projects: Project[],
 	items: CollectionItem[]
 ): BeeswarmDataPoint[] {
-	// Count collection items per project for sizing
-	const itemCountByProject = new Map<string, number>();
-	for (const item of items) {
-		const pid = item.project?.id;
-		if (pid) {
-			itemCountByProject.set(pid, (itemCountByProject.get(pid) || 0) + 1);
-		}
-	}
+	const itemCountByProject = countByProjectId(items);
 
 	const result: BeeswarmDataPoint[] = [];
 
@@ -185,7 +170,7 @@ export function buildProjectBeeswarm(
 
 		// A project can be in multiple sections — use the first one for grouping
 		const section = project.researchSection?.[0] || 'Unassigned';
-		const itemCount = itemCountByProject.get(project.id) || 0;
+		const itemCount = itemCountByProject.get(project.id) ?? 0;
 
 		result.push({
 			category: section,

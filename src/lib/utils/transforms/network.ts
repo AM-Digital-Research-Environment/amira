@@ -1,5 +1,6 @@
 import type { CollectionItem, Project, Person, NetworkData } from '$lib/types';
 import { normalizeLanguageCode } from '$lib/utils/languages';
+import { buildPersonAffiliationMap } from './indexing';
 
 /**
  * Build network data for person-institution relationships
@@ -337,12 +338,7 @@ export function buildInstitutionCollaborationNetwork(
 	const collaborationMap = new Map<string, number>();
 
 	// Build a map of person names to their institutions
-	const personInstitutions = new Map<string, string[]>();
-	persons.forEach((person) => {
-		if (person.affiliation && person.affiliation.length > 0) {
-			personInstitutions.set(person.name, person.affiliation);
-		}
-	});
+	const personInstitutions = buildPersonAffiliationMap(persons);
 
 	// For each project, find all institutions involved
 	projects.forEach((project) => {
