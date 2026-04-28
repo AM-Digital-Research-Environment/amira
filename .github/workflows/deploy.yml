@@ -30,6 +30,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Unit tests
+        run: npm run test
+
       - name: Configure Pages
         uses: actions/configure-pages@v6
 

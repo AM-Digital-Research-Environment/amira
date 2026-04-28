@@ -24,6 +24,9 @@ npm-debug.log*
 
 # Testing
 coverage/
+playwright-report/
+test-results/
+.playwright/
 
 # Python scripts
 scripts/.location_cache.json

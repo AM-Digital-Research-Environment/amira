@@ -21,7 +21,12 @@
 		"lint": "eslint .",
 		"lint:fix": "eslint . --fix",
 		"format": "prettier --write .",
-		"format:check": "prettier --check ."
+		"format:check": "prettier --check .",
+		"test": "vitest run",
+		"test:watch": "vitest",
+		"test:ui": "vitest --ui",
+		"test:coverage": "vitest run --coverage",
+		"test:e2e": "playwright test"
 	},
 	"dependencies": {
 		"@lucide/svelte": "^1.11.0",
@@ -33,16 +38,22 @@
 	},
 	"devDependencies": {
 		"@eslint/js": "^10.0.1",
+		"@playwright/test": "^1.59.1",
 		"@sveltejs/adapter-static": "^3.0.10",
 		"@sveltejs/kit": "^2.58.0",
 		"@sveltejs/vite-plugin-svelte": "^7.0.0",
 		"@tailwindcss/vite": "^4.2.4",
+		"@testing-library/jest-dom": "^6.9.1",
+		"@testing-library/svelte": "^5.3.1",
 		"@types/eslint": "^9.6.1",
 		"@types/node": "^25.6.0",
+		"@vitest/coverage-v8": "^4.1.5",
+		"@vitest/ui": "^4.1.5",
 		"eslint": "^10.2.1",
 		"eslint-config-prettier": "^10.1.8",
 		"eslint-plugin-svelte": "^3.17.1",
 		"globals": "^17.5.0",
+		"jsdom": "^29.1.0",
 		"prettier": "^3.8.3",
 		"prettier-plugin-svelte": "^3.5.1",
 		"svelte": "^5.55.5",
@@ -50,7 +61,8 @@
 		"tailwindcss": "^4.2.4",
 		"typescript": "^6.0.3",
 		"typescript-eslint": "^8.59.0",
-		"vite": "^8.0.10"
+		"vite": "^8.0.10",
+		"vitest": "^4.1.5"
 	},
 	"overrides": {
 		"@tailwindcss/vite": {
