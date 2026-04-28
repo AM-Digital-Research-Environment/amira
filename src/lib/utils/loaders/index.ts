@@ -1,5 +1,6 @@
 export { transformMongoJSON, loadJSON, tryLoadJSON } from './mongoJSON';
 export {
+	DATA_PATHS,
 	UNIVERSITY_COLLECTIONS,
 	EXTERNAL_SOURCE_ID,
 	loadManifest,

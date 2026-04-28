@@ -1,4 +1,5 @@
 import type { EnrichedLocationsData, WikidataLocation } from '$lib/types';
+import { DATA_PATHS } from './collectionLoader';
 
 /**
  * Slim format produced by scripts/slim_data.py: each location is stored as a
@@ -32,7 +33,7 @@ export async function loadEnrichedLocations(
 	basePath: string = ''
 ): Promise<EnrichedLocationsData | null> {
 	try {
-		const response = await fetch(`${basePath}/data/dev/dev.geo.json`);
+		const response = await fetch(DATA_PATHS.enrichedLocations(basePath));
 		if (!response.ok) {
 			throw new Error(`Failed to load dev.geo.json: ${response.statusText}`);
 		}

@@ -12,38 +12,62 @@ import { loadJSON, tryLoadJSON } from './mongoJSON';
 import { EXTERNAL_PROJECTS, EXTERNAL_COLLECTION_TO_PROJECT } from '$lib/utils/external';
 
 /**
+ * Single source of truth for every static data path the frontend hits.
+ *
+ * Anything that fetches files under `static/data/` MUST resolve URLs through
+ * this object (loaders, prefetchers, service worker primers). Inlining a
+ * path string and the offline-prefetch list will silently drift apart.
+ */
+export const DATA_PATHS = {
+	manifest: (basePath: string = '') => `${basePath}/data/manifest.json`,
+	thumbnailsManifest: (basePath: string = '') => `${basePath}/thumbnails/manifest.json`,
+	projects: (basePath: string = '') => `${basePath}/data/dev/dev.projectsData.json`,
+	persons: (basePath: string = '') => `${basePath}/data/dev/dev.persons.json`,
+	institutions: (basePath: string = '') => `${basePath}/data/dev/dev.institutions.json`,
+	groups: (basePath: string = '') => `${basePath}/data/dev/dev.groups.json`,
+	researchSections: (basePath: string = '') => `${basePath}/data/dev/dev.researchSections.json`,
+	enrichedLocations: (basePath: string = '') => `${basePath}/data/dev/dev.geo.json`,
+	devCollections: (basePath: string = '') => `${basePath}/data/dev/dev.collections.json`,
+	/** Per-university or external collection dump. `folder` matches the
+	 *  on-disk `static/data/<folder>/` directory (`projects_metadata_ubt`,
+	 *  `external_metadata`, …); the file naming convention is identical. */
+	collection: (folder: string, collectionName: string, basePath: string = '') =>
+		`${basePath}/data/${folder}/${folder}.${collectionName}.json`
+} as const;
+
+/**
  * Load projects data
  */
 async function loadProjects(basePath: string = ''): Promise<Project[]> {
-	return loadJSON<Project[]>(`${basePath}/data/dev/dev.projectsData.json`);
+	return loadJSON<Project[]>(DATA_PATHS.projects(basePath));
 }
 
 /**
  * Load persons data
  */
 async function loadPersons(basePath: string = ''): Promise<Person[]> {
-	return loadJSON<Person[]>(`${basePath}/data/dev/dev.persons.json`);
+	return loadJSON<Person[]>(DATA_PATHS.persons(basePath));
 }
 
 /**
  * Load institutions data
  */
 async function loadInstitutions(basePath: string = ''): Promise<Institution[]> {
-	return loadJSON<Institution[]>(`${basePath}/data/dev/dev.institutions.json`);
+	return loadJSON<Institution[]>(DATA_PATHS.institutions(basePath));
 }
 
 /**
  * Load groups data
  */
 async function loadGroups(basePath: string = ''): Promise<Group[]> {
-	return loadJSON<Group[]>(`${basePath}/data/dev/dev.groups.json`);
+	return loadJSON<Group[]>(DATA_PATHS.groups(basePath));
 }
 
 /**
  * Load dev collections data
  */
 async function loadDevCollections(basePath: string = ''): Promise<CollectionItem[]> {
-	return tryLoadJSON<CollectionItem>(`${basePath}/data/dev/dev.collections.json`);
+	return tryLoadJSON<CollectionItem>(DATA_PATHS.devCollections(basePath));
 }
 
 /**
@@ -120,7 +144,7 @@ let manifestCache: Manifest | null = null;
 export async function loadManifest(basePath: string = ''): Promise<Manifest | null> {
 	if (manifestCache) return manifestCache;
 	try {
-		const response = await fetch(`${basePath}/data/manifest.json`);
+		const response = await fetch(DATA_PATHS.manifest(basePath));
 		if (!response.ok) return null;
 		manifestCache = await response.json();
 		return manifestCache;
@@ -148,7 +172,7 @@ export async function loadUBTCollection(
 	basePath: string = ''
 ): Promise<CollectionItem[]> {
 	return tryLoadJSON<CollectionItem>(
-		`${basePath}/data/projects_metadata_ubt/projects_metadata_ubt.${collectionName}.json`
+		DATA_PATHS.collection('projects_metadata_ubt', collectionName, basePath)
 	);
 }
 
@@ -181,7 +205,7 @@ export async function loadUniversityCollection(
 	}
 
 	const items = await tryLoadJSON<CollectionItem>(
-		`${basePath}/data/${university.folder}/${university.folder}.${collectionName}.json`
+		DATA_PATHS.collection(university.folder, collectionName, basePath)
 	);
 
 	// Add university field to each item
@@ -231,7 +255,7 @@ async function loadExternalCollection(
 	basePath: string = ''
 ): Promise<CollectionItem[]> {
 	const items = await tryLoadJSON<CollectionItem>(
-		`${basePath}/data/${folder}/${folder}.${collectionName}.json`
+		DATA_PATHS.collection(folder, collectionName, basePath)
 	);
 	// Backfill a project reference for collections whose raw items ship with
 	// an empty `project: {}` (ILAM does). Without this, these items would be
@@ -328,9 +352,7 @@ export async function loadResearchSections(
 	basePath: string = ''
 ): Promise<Record<string, ResearchSectionInfo>> {
 	try {
-		const docs = await loadJSON<RawResearchSection[]>(
-			`${basePath}/data/dev/dev.researchSections.json`
-		);
+		const docs = await loadJSON<RawResearchSection[]>(DATA_PATHS.researchSections(basePath));
 		const result: Record<string, ResearchSectionInfo> = {};
 		for (const doc of docs) {
 			const { _id, name, pi, members, ...rest } = doc;

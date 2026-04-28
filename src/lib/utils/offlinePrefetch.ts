@@ -19,6 +19,8 @@
  * no service worker or the user is offline.
  */
 
+import { DATA_PATHS } from './loaders/collectionLoader';
+
 const PREFETCH_KEY = 'amira:prefetch:done';
 
 function uniqueWhole(urls: string[]): string[] {
@@ -53,29 +55,28 @@ async function prefetch(basePath: string): Promise<void> {
 	const reg = await navigator.serviceWorker.ready;
 	if (!reg.active) return;
 
-	// 1. Light-tier core — manifest + small stores everyone needs. Paths must
-	//    match what loaders/collectionLoader.ts and loaders/geolocLoader.ts
-	//    actually request, otherwise the SW caches misses and the routes still
-	//    fetch live.
+	// 1. Light-tier core — manifest + small stores everyone needs. Paths come
+	//    from DATA_PATHS so the SW caches exactly what the loaders fetch; if
+	//    a path drifts here vs. there the route silently re-fetches live.
 	const coreUrls = uniqueWhole([
-		`${basePath}/data/manifest.json`,
-		`${basePath}/data/dev/dev.projectsData.json`,
-		`${basePath}/data/dev/dev.persons.json`,
-		`${basePath}/data/dev/dev.institutions.json`,
-		`${basePath}/data/dev/dev.groups.json`,
-		`${basePath}/data/dev/dev.researchSections.json`,
-		`${basePath}/data/dev/dev.geo.json`,
-		`${basePath}/thumbnails/manifest.json`
+		DATA_PATHS.manifest(basePath),
+		DATA_PATHS.projects(basePath),
+		DATA_PATHS.persons(basePath),
+		DATA_PATHS.institutions(basePath),
+		DATA_PATHS.groups(basePath),
+		DATA_PATHS.researchSections(basePath),
+		DATA_PATHS.enrichedLocations(basePath),
+		DATA_PATHS.thumbnailsManifest(basePath)
 	]);
 
 	reg.active.postMessage({ type: 'PREFETCH_DATA', urls: coreUrls });
 
 	// 2. Per-university and external collection dumps. We discover them from
 	//    the manifest so we don't hard-code the institution list. Each entry
-	//    is one project-metadata file (data/<folder>/<folder>.<COLL>.json),
-	//    matching loadUniversityCollection / loadExternalCollection.
+	//    is one project-metadata file matching loadUniversityCollection /
+	//    loadExternalCollection's path builder (DATA_PATHS.collection).
 	try {
-		const manifestResp = await fetch(`${basePath}/data/manifest.json`);
+		const manifestResp = await fetch(DATA_PATHS.manifest(basePath));
 		if (!manifestResp.ok) return;
 		const manifest: {
 			universities?: Record<string, string[]>;
@@ -85,12 +86,12 @@ async function prefetch(basePath: string): Promise<void> {
 		for (const [u, colls] of Object.entries(manifest.universities ?? {})) {
 			const folder = `projects_metadata_${u}`;
 			for (const coll of colls) {
-				collectionUrls.push(`${basePath}/data/${folder}/${folder}.${coll}.json`);
+				collectionUrls.push(DATA_PATHS.collection(folder, coll, basePath));
 			}
 		}
 		for (const [folder, colls] of Object.entries(manifest.external ?? {})) {
 			for (const coll of colls) {
-				collectionUrls.push(`${basePath}/data/${folder}/${folder}.${coll}.json`);
+				collectionUrls.push(DATA_PATHS.collection(folder, coll, basePath));
 			}
 		}
 		if (collectionUrls.length > 0) {
