@@ -25,7 +25,7 @@
 		extractInstitutions,
 		buildProjectBeeswarm,
 		buildProjectGantt
-	} from '$lib/utils/dataTransform';
+	} from '$lib/utils/transforms';
 	import { page } from '$app/stores';
 	import { tick, onMount } from 'svelte';
 	import { personUrl, researchSectionsUrl, institutionUrl } from '$lib/utils/urls';

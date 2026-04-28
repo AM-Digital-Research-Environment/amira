@@ -17,10 +17,10 @@
 		buildPersonCollaborationNetwork,
 		buildPersonInstitutionNetwork,
 		buildInstitutionCollaborationNetwork
-	} from '$lib/utils/dataTransform';
+	} from '$lib/utils/transforms';
 	import { universityOptions } from '$lib/types';
 	import type { NetworkData } from '$lib/types';
-	import { EXTERNAL_SOURCE_ID } from '$lib/utils/dataLoader';
+	import { EXTERNAL_SOURCE_ID } from '$lib/utils/loaders';
 	import type { CollectionItem } from '$lib/types';
 	import {
 		Circle,

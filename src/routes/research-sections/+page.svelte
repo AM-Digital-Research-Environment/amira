@@ -18,7 +18,7 @@
 	import { page } from '$app/stores';
 	import { base } from '$app/paths';
 	import { onMount } from 'svelte';
-	import { extractResearchSections, buildProjectGantt } from '$lib/utils/dataTransform';
+	import { extractResearchSections, buildProjectGantt } from '$lib/utils/transforms';
 	import { personUrl, projectUrl } from '$lib/utils/urls';
 	import { createUrlSelection, scrollToTop } from '$lib/utils/urlSelection';
 	import { createEntityDetailState } from '$lib/utils/loaders';

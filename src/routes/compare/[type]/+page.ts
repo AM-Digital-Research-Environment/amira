@@ -1,5 +1,5 @@
 import { error } from '@sveltejs/kit';
-import { COMPARE_TYPES, type CompareType } from './compareTypes';
+import { COMPARE_TYPES, type CompareType } from '$lib/components/compare/compareTypes';
 
 export const prerender = true;
 

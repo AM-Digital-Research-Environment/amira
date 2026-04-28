@@ -11,8 +11,8 @@
 		AxisPointerComponent
 	} from 'echarts/components';
 	import type { EChartsOption } from 'echarts';
-	import type { StackedTimelineDataPoint } from '$lib/utils/dataTransform';
-	import { getResourceTypesFromStackedData } from '$lib/utils/dataTransform';
+	import type { StackedTimelineDataPoint } from '$lib/utils/transforms';
+	import { getResourceTypesFromStackedData } from '$lib/utils/transforms';
 	import { cn } from '$lib/utils/cn';
 	import { CHART_COLORS, axisLabelStyle, legendTextStyle } from '$lib/styles';
 	import { theme } from '$lib/stores/data';

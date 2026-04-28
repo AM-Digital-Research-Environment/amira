@@ -33,8 +33,8 @@
 		buildSunburstData,
 		buildSubjectCoOccurrence,
 		buildHeatmapData
-	} from '$lib/utils/dataTransform';
-	import { UNIVERSITY_COLLECTIONS } from '$lib/utils/dataLoader';
+	} from '$lib/utils/transforms';
+	import { UNIVERSITY_COLLECTIONS } from '$lib/utils/loaders';
 	import { universities } from '$lib/types';
 	import { EXTERNAL_PROJECTS } from '$lib/utils/external';
 	import type { CollectionItem } from '$lib/types';

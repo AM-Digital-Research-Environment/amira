@@ -20,7 +20,7 @@
 		extractTags,
 		extractResearchSections,
 		buildResearchSectionUniversityHeatmap
-	} from '$lib/utils/dataTransform';
+	} from '$lib/utils/transforms';
 	import {
 		FileText,
 		Briefcase,

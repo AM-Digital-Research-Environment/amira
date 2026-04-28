@@ -6,7 +6,7 @@ import {
 	filterByResourceType,
 	filterByLanguage,
 	extractYear
-} from '$lib/utils/dataTransform';
+} from '$lib/utils/transforms';
 
 // Filter state store
 export const filters = writable<FilterState>({

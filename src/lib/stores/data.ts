@@ -16,8 +16,8 @@ import {
 	loadAllCollectionsTagged,
 	loadResearchSections,
 	loadEnrichedLocations
-} from '$lib/utils/dataLoader';
-import { calculateStats } from '$lib/utils/dataTransform';
+} from '$lib/utils/loaders';
+import { calculateStats } from '$lib/utils/transforms';
 
 /**
  * Manifest entry written by `scripts/fetch_thumbnails.py`. Maps every unique

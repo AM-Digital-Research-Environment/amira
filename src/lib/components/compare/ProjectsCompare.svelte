@@ -30,12 +30,8 @@
 		extractSubjects,
 		extractResourceTypes,
 		extractLanguages
-	} from '$lib/utils/dataTransform';
-	import {
-		UNIVERSITY_COLLECTIONS,
-		getUniversities,
-		EXTERNAL_SOURCE_ID
-	} from '$lib/utils/dataLoader';
+	} from '$lib/utils/transforms';
+	import { UNIVERSITY_COLLECTIONS, getUniversities, EXTERNAL_SOURCE_ID } from '$lib/utils/loaders';
 	import { EXTERNAL_PROJECTS } from '$lib/utils/external';
 	import type { CollectionItem } from '$lib/types';
 	import { universityOptions } from '$lib/types';

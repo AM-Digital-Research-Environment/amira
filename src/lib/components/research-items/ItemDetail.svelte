@@ -17,7 +17,7 @@
 	import { languageName } from '$lib/utils/languages';
 	import type { CollectionItem } from '$lib/types';
 	import { universities } from '$lib/types';
-	import { EXTERNAL_SOURCE_ID } from '$lib/utils/dataLoader';
+	import { EXTERNAL_SOURCE_ID } from '$lib/utils/loaders';
 	import { getItemTitle } from '$lib/utils/helpers';
 	import { getPreviewImage, resolveThumbnailUrl } from '$lib/components/collections/photoHelpers';
 	import { thumbnailManifest } from '$lib/stores/data';

@@ -11,10 +11,10 @@
 		activeFilterCount
 	} from '$lib/stores/filters';
 	import { allCollections, universityItemCounts } from '$lib/stores/data';
-	import { getUniqueResourceTypes, getUniqueLanguages } from '$lib/utils/dataTransform';
+	import { getUniqueResourceTypes, getUniqueLanguages } from '$lib/utils/transforms';
 	import { languageName } from '$lib/utils/languages';
 	import { universities } from '$lib/types';
-	import { EXTERNAL_SOURCE_ID } from '$lib/utils/dataLoader';
+	import { EXTERNAL_SOURCE_ID } from '$lib/utils/loaders';
 
 	interface Props {
 		class?: string;
