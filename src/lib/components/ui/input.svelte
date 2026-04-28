@@ -7,6 +7,10 @@
 		value?: string;
 		class?: string;
 		disabled?: boolean;
+		id?: string;
+		name?: string;
+		autocomplete?: HTMLInputElement['autocomplete'];
+		'aria-label'?: string;
 		oninput?: (e: Event) => void;
 	}
 
@@ -16,13 +20,25 @@
 		value = $bindable(''),
 		class: className = '',
 		disabled = false,
+		id,
+		name,
+		autocomplete,
+		'aria-label': ariaLabel,
 		oninput
 	}: Props = $props();
+
+	const autoId = $props.id();
+	const inputId = $derived(id ?? autoId);
+	const inputName = $derived(name ?? autoId);
 </script>
 
 <input
+	id={inputId}
+	name={inputName}
 	{type}
 	{placeholder}
+	{autocomplete}
+	aria-label={ariaLabel}
 	bind:value
 	{disabled}
 	{oninput}

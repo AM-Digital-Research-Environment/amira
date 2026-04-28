@@ -47,6 +47,8 @@
 
 	let { entityType, entityId, height = 'h-chart-2xl', title = 'Knowledge Graph' }: Props = $props();
 
+	const uid = $props.id();
+
 	// Share the underlying NetworkGraph's ECharts instance with the header
 	// download button. NetworkGraph registers into this via EChart.svelte.
 	const chartRegistry = $state<ChartRegistry>({ instance: null });
@@ -356,6 +358,8 @@
 					</span>
 					<label class="inline-flex items-center gap-1.5 text-xs text-muted-foreground">
 						<input
+							id="{uid}-community-halo"
+							name="community-halo"
 							type="checkbox"
 							bind:checked={showCommunityHalo}
 							class="rounded border-border accent-primary"
@@ -364,11 +368,14 @@
 					</label>
 				</div>
 				<input
+					id="{uid}-min-edge-weight"
+					name="min-edge-weight"
 					type="range"
 					min="0"
 					max={Math.max(1, maxEdgeWeight)}
 					step="0.1"
 					bind:value={minEdgeValue}
+					aria-label="Minimum edge weight"
 					class="w-full h-2 bg-muted rounded-lg appearance-none cursor-pointer accent-primary"
 				/>
 			</div>

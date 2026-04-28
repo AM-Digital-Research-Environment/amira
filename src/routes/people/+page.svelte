@@ -948,8 +948,11 @@
 				/>
 			</div>
 			<select
+				id="people-role-filter"
+				name="role-filter"
 				value={selectedRole}
 				onchange={(e) => (selectedRole = (e.currentTarget as HTMLSelectElement).value)}
+				aria-label="Filter by role"
 				class="h-10 rounded-md border border-input bg-background px-3 text-sm"
 			>
 				<option value="">All roles</option>
@@ -960,6 +963,8 @@
 			{#if noDataCount > 0}
 				<label class="flex items-center gap-2 text-sm text-muted-foreground cursor-pointer">
 					<input
+						id="people-hide-no-data"
+						name="hide-no-data"
 						type="checkbox"
 						bind:checked={hideNoData}
 						class="rounded border-input accent-primary h-3.5 w-3.5"

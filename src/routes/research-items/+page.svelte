@@ -13,6 +13,7 @@
 	import type { CollectionItem } from '$lib/types';
 	import { getItemTitle } from '$lib/utils/helpers';
 	import { paginate } from '$lib/utils/pagination';
+	import { scrollToTop } from '$lib/utils/urlSelection';
 	import { FileText, Layers, BookOpen, SlidersHorizontal, Target, HardDrive } from '@lucide/svelte';
 	import {
 		ItemDetail,
@@ -351,12 +352,15 @@
 	function selectItem(item: CollectionItem) {
 		const id = item._id || item.dre_id;
 		goto(`?id=${encodeURIComponent(id)}`, { noScroll: true });
-		window.scrollTo({ top: 0, behavior: 'smooth' });
+		// scrollToTop re-applies after rAF so the jump survives the DOM swap
+		// from list view → detail view (a single smooth scrollTo got
+		// truncated when document height changed, landing mid-page).
+		scrollToTop();
 	}
 
 	function clearSelection() {
 		goto('?', { noScroll: true });
-		window.scrollTo({ top: 0, behavior: 'smooth' });
+		scrollToTop();
 	}
 
 	// Map markers for selected item. Origin markers use the default chart

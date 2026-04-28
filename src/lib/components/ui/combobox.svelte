@@ -19,6 +19,9 @@
 		value?: string;
 		placeholder?: string;
 		class?: string;
+		id?: string;
+		name?: string;
+		'aria-label'?: string;
 		onchange?: (value: string) => void;
 	}
 
@@ -28,8 +31,15 @@
 		value = $bindable(''),
 		placeholder = 'Select...',
 		class: className = '',
+		id,
+		name,
+		'aria-label': ariaLabel,
 		onchange
 	}: Props = $props();
+
+	const autoId = $props.id();
+	const inputId = $derived(id ?? autoId);
+	const inputName = $derived(name ?? autoId);
 
 	let inputText = $state('');
 	let open = $state(false);
@@ -150,7 +160,11 @@
 	<div class="relative">
 		<input
 			bind:this={inputEl}
+			id={inputId}
+			name={inputName}
 			type="text"
+			autocomplete="off"
+			aria-label={ariaLabel ?? placeholder}
 			{placeholder}
 			bind:value={inputText}
 			onfocus={handleFocus}

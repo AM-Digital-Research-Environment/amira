@@ -39,6 +39,8 @@
 
 	let { data, class: className = '', autoPlayInterval = 1200 }: Props = $props();
 
+	const uid = $props.id();
+
 	// Sort buckets by year so slider scrubbing is monotonic.
 	let sorted = $derived(data?.buckets ? [...data.buckets].sort((a, b) => a.year - b.year) : []);
 	let years = $derived(sorted.map((b) => b.year));
@@ -191,6 +193,8 @@
 			</button>
 
 			<input
+				id="{uid}-year"
+				name="year"
 				type="range"
 				min="0"
 				max={sorted.length - 1}

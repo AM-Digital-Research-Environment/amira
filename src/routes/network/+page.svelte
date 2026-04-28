@@ -295,10 +295,12 @@
 				</div>
 
 				<div class="w-48">
-					<span class="text-sm text-muted-foreground mb-1 block">
+					<label for="network-max-nodes" class="text-sm text-muted-foreground mb-1 block">
 						Max Nodes: <span class="font-medium">{maxNodes}</span>
-					</span>
+					</label>
 					<input
+						id="network-max-nodes"
+						name="max-nodes"
 						type="range"
 						min="30"
 						max="240"

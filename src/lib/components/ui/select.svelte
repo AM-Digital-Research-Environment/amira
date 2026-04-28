@@ -18,6 +18,9 @@
 		value?: string;
 		placeholder?: string;
 		class?: string;
+		id?: string;
+		name?: string;
+		'aria-label'?: string;
 		onchange?: (value: string) => void;
 	}
 
@@ -27,8 +30,15 @@
 		value = $bindable(''),
 		placeholder = 'Select...',
 		class: className = '',
+		id,
+		name,
+		'aria-label': ariaLabel,
 		onchange
 	}: Props = $props();
+
+	const autoId = $props.id();
+	const selectId = $derived(id ?? autoId);
+	const selectName = $derived(name ?? autoId);
 
 	function handleChange(e: Event) {
 		const target = e.target as HTMLSelectElement;
@@ -38,6 +48,9 @@
 </script>
 
 <select
+	id={selectId}
+	name={selectName}
+	aria-label={ariaLabel ?? placeholder}
 	{value}
 	onchange={handleChange}
 	class={cn(
