@@ -15,6 +15,7 @@
 
 import { base } from '$app/paths';
 import { SvelteMap } from 'svelte/reactivity';
+import { fetchJSON } from './loaders/fetchHelpers';
 
 export type WisskiCategoryMap = Record<string, string>;
 
@@ -39,16 +40,10 @@ export async function loadWisskiUrls(
 
 	const promise = (async () => {
 		try {
-			const response = await fetch(`${basePath}/data/dev/dev.wisski_urls.${category}.json`);
-			if (!response.ok) {
-				cache.set(category, {});
-				return cache.get(category)!;
-			}
-			const data = (await response.json()) as WisskiCategoryMap;
-			cache.set(category, data || {});
-			return cache.get(category)!;
-		} catch {
-			cache.set(category, {});
+			const data = await fetchJSON<WisskiCategoryMap>(
+				`${basePath}/data/dev/dev.wisski_urls.${category}.json`
+			);
+			cache.set(category, data ?? {});
 			return cache.get(category)!;
 		} finally {
 			inflight.delete(category);

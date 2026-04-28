@@ -1,4 +1,5 @@
 import type { MongoOid, MongoDate, MongoNaN } from '$lib/types';
+import { fetchJSON } from './fetchHelpers';
 
 /**
  * Check if a value is a MongoDB NaN representation
@@ -62,7 +63,8 @@ export function transformMongoJSON<T>(data: unknown): T {
 }
 
 /**
- * Load and parse a JSON file from the static data directory
+ * Load and parse a JSON file from the static data directory.
+ * Throws on missing or unparseable files — use for required data.
  */
 export async function loadJSON<T>(path: string): Promise<T> {
 	const response = await fetch(path);
@@ -74,13 +76,14 @@ export async function loadJSON<T>(path: string): Promise<T> {
 }
 
 /**
- * Try to load a JSON file, return empty array if not found
+ * Try to load a JSON array, return [] when missing or unparseable.
+ * Use for optional dump files (e.g. dev.collections.json may not exist
+ * outside development).
  */
 export async function tryLoadJSON<T>(path: string): Promise<T[]> {
-	try {
-		return await loadJSON<T[]>(path);
-	} catch {
-		console.warn(`Could not load ${path}`);
-		return [];
-	}
+	const result = await fetchJSON<T[]>(path, {
+		transform: (raw) => transformMongoJSON<T[]>(raw),
+		warnLevel: 'always'
+	});
+	return result ?? [];
 }

@@ -1,4 +1,5 @@
 import type { SemanticMapData, SimilarItemsData } from '$lib/types';
+import { fetchJSON } from './fetchHelpers';
 
 /**
  * Load the semantic-map payload (per-item UMAP coords + metadata snapshots).
@@ -8,24 +9,12 @@ import type { SemanticMapData, SimilarItemsData } from '$lib/types';
  * state instead of throwing on first-time setups.
  */
 export async function loadSemanticMap(basePath: string = ''): Promise<SemanticMapData | null> {
-	try {
-		const response = await fetch(`${basePath}/data/embeddings/map.json`);
-		if (!response.ok) return null;
-		return (await response.json()) as SemanticMapData;
-	} catch {
-		return null;
-	}
+	return fetchJSON<SemanticMapData>(`${basePath}/data/embeddings/map.json`);
 }
 
 /**
  * Load the pre-computed top-K cosine neighbours per item.
  */
 export async function loadSimilarItems(basePath: string = ''): Promise<SimilarItemsData | null> {
-	try {
-		const response = await fetch(`${basePath}/data/embeddings/similar.json`);
-		if (!response.ok) return null;
-		return (await response.json()) as SimilarItemsData;
-	} catch {
-		return null;
-	}
+	return fetchJSON<SimilarItemsData>(`${basePath}/data/embeddings/similar.json`);
 }

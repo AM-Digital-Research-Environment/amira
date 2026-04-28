@@ -13,6 +13,7 @@ import { base } from '$app/paths';
 import type { EntityDashboardData, EntityType } from '$lib/components/dashboards';
 import { slugify } from '$lib/utils/slugify';
 import { transformMongoJSON } from './mongoJSON';
+import { fetchJSON } from './fetchHelpers';
 
 /**
  * Path mapping for per-entity JSON files. Keeps slugs aligned with the
@@ -57,20 +58,10 @@ export async function loadEntityDashboard(
 	const slug = entityType === 'language' ? id.toLowerCase() : slugify(id);
 	const path = `${base}/data/entity_dashboards/${dir}/${encodeURIComponent(slug)}.json`;
 
-	try {
-		const response = await fetch(path);
-		if (!response.ok) {
-			if (response.status !== 404) {
-				console.warn(`Failed to load ${path}: ${response.status}`);
-			}
-			return null;
-		}
-		const raw = await response.json();
-		return transformMongoJSON<EntityDashboardData>(raw);
-	} catch (err) {
-		console.warn(`Error loading ${path}`, err);
-		return null;
-	}
+	return fetchJSON<EntityDashboardData>(path, {
+		transform: (raw) => transformMongoJSON<EntityDashboardData>(raw),
+		warnLevel: 'non-404'
+	});
 }
 
 /** Manifest shape, emitted by the precompute pipeline. */
@@ -101,18 +92,14 @@ const DIR_TO_ENTITY: Record<string, EntityType> = Object.fromEntries(
  * matches the type signature.
  */
 export async function loadEntityDashboardManifest(): Promise<EntityDashboardManifest> {
-	const path = `${base}/data/entity_dashboards/manifest.json`;
-	try {
-		const response = await fetch(path);
-		if (!response.ok) return {};
-		const raw = (await response.json()) as Record<string, EntityDashboardManifestEntry[]>;
-		const result: EntityDashboardManifest = {};
-		for (const [dir, entries] of Object.entries(raw)) {
-			const entityType = DIR_TO_ENTITY[dir];
-			if (entityType) result[entityType] = entries;
-		}
-		return result;
-	} catch {
-		return {};
+	const raw = await fetchJSON<Record<string, EntityDashboardManifestEntry[]>>(
+		`${base}/data/entity_dashboards/manifest.json`
+	);
+	if (!raw) return {};
+	const result: EntityDashboardManifest = {};
+	for (const [dir, entries] of Object.entries(raw)) {
+		const entityType = DIR_TO_ENTITY[dir];
+		if (entityType) result[entityType] = entries;
 	}
+	return result;
 }

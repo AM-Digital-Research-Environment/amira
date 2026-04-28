@@ -1,5 +1,6 @@
 import type { EnrichedLocationsData, WikidataLocation } from '$lib/types';
 import { DATA_PATHS } from './collectionLoader';
+import { fetchJSON } from './fetchHelpers';
 
 /**
  * Slim format produced by scripts/slim_data.py: each location is stored as a
@@ -32,19 +33,13 @@ function expand(map: Record<string, [number, number]>): Record<string, WikidataL
 export async function loadEnrichedLocations(
 	basePath: string = ''
 ): Promise<EnrichedLocationsData | null> {
-	try {
-		const response = await fetch(DATA_PATHS.enrichedLocations(basePath));
-		if (!response.ok) {
-			throw new Error(`Failed to load dev.geo.json: ${response.statusText}`);
-		}
-		const raw = (await response.json()) as SlimGeoFile;
-		return {
+	return fetchJSON<EnrichedLocationsData, SlimGeoFile>(DATA_PATHS.enrichedLocations(basePath), {
+		warnLevel: 'always',
+		contextLabel: 'dev.geo.json',
+		transform: (raw) => ({
 			countries: expand(raw.countries || {}),
 			regions: expand(raw.regions || {}),
 			cities: expand(raw.cities || {})
-		};
-	} catch (error) {
-		console.warn('Failed to load geoloc data:', error);
-		return null;
-	}
+		})
+	});
 }
