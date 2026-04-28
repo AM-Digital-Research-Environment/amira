@@ -1,3 +1,11 @@
+/**
+ * Extractors for individual research-item fields.
+ *
+ * These are pure read-only adapters between the raw `CollectionItem` shape
+ * (which mirrors a MongoDB document) and the structured types the UI wants
+ * to render. Date formatting lives in `itemFormatters.ts`.
+ */
+
 import type { CollectionItem } from '$lib/types';
 import { personUrl, institutionUrl, groupUrl } from '$lib/utils/urls';
 import { normalizeLanguageCode } from '$lib/utils/languages';
@@ -8,6 +16,29 @@ export interface Contributor {
 	qualifier: string;
 }
 
+export interface ContributorFull {
+	name: string;
+	role: string;
+	qualifier: string;
+	affiliations: string[];
+}
+
+export interface Identifier {
+	type: string;
+	value: string;
+	/** Resolved external URL when the identifier is dereferenceable (DOI,
+	 *  Handle, ARK, plain http URI). `null` otherwise. */
+	url: string | null;
+}
+
+export interface PhysicalInfo {
+	type?: string;
+	method?: string;
+	descriptions: string[];
+	technical: string[];
+	notes: string[];
+}
+
 export function getContributors(item: CollectionItem): Contributor[] {
 	if (!Array.isArray(item.name)) return [];
 	return item.name
@@ -16,6 +47,18 @@ export function getContributors(item: CollectionItem): Contributor[] {
 			name: n.name.label,
 			role: n.role || '',
 			qualifier: n.name.qualifier || 'person'
+		}));
+}
+
+export function getContributorsFull(item: CollectionItem): ContributorFull[] {
+	if (!Array.isArray(item.name)) return [];
+	return item.name
+		.filter((n) => n?.name?.label)
+		.map((n) => ({
+			name: n.name.label,
+			role: n.role || '',
+			qualifier: n.name.qualifier || 'person',
+			affiliations: (n.affl || []).filter(Boolean)
 		}));
 }
 
@@ -42,14 +85,6 @@ export function getLanguages(item: CollectionItem): string[] {
 export function getAbstract(item: CollectionItem): string {
 	if (!item.abstract || typeof item.abstract !== 'string') return '';
 	return item.abstract;
-}
-
-export interface Identifier {
-	type: string;
-	value: string;
-	/** Resolved external URL when the identifier is dereferenceable (DOI,
-	 *  Handle, ARK, plain http URI). `null` otherwise. */
-	url: string | null;
 }
 
 export function getIdentifiers(item: CollectionItem): Identifier[] {
@@ -151,14 +186,6 @@ export function getGenre(item: CollectionItem): string[] {
 	return entries;
 }
 
-export interface PhysicalInfo {
-	type?: string;
-	method?: string;
-	descriptions: string[];
-	technical: string[];
-	notes: string[];
-}
-
 export function getPhysicalDescription(item: CollectionItem): PhysicalInfo | null {
 	if (!item.physicalDescription) return null;
 	const pd = item.physicalDescription;
@@ -177,68 +204,4 @@ export function getPhysicalDescription(item: CollectionItem): PhysicalInfo | nul
 export function getCurrentLocations(item: CollectionItem): string[] {
 	if (!item.location?.current) return [];
 	return item.location.current.filter(Boolean);
-}
-
-export interface ContributorFull {
-	name: string;
-	role: string;
-	qualifier: string;
-	affiliations: string[];
-}
-
-export function getContributorsFull(item: CollectionItem): ContributorFull[] {
-	if (!Array.isArray(item.name)) return [];
-	return item.name
-		.filter((n) => n?.name?.label)
-		.map((n) => ({
-			name: n.name.label,
-			role: n.role || '',
-			qualifier: n.name.qualifier || 'person',
-			affiliations: (n.affl || []).filter(Boolean)
-		}));
-}
-
-const DATE_LABELS: Record<string, string> = {
-	created: 'Created',
-	issue: 'Issued',
-	captured: 'Captured',
-	other: 'Other',
-	valid: 'Valid',
-	mod: 'Modified',
-	copy: 'Copied',
-	disp: 'Digitised'
-};
-
-function fmtDate(date: Date | null | undefined): string {
-	if (!date) return '';
-	const parsed = new Date(date as unknown as string);
-	if (isNaN(parsed.getTime())) return '';
-	return parsed.toLocaleDateString('en-GB', { year: 'numeric', month: 'short', day: 'numeric' });
-}
-
-export interface DateEntry {
-	label: string;
-	value: string;
-}
-
-/** Return all non-empty date entries for an item. */
-export function getAllDates(item: CollectionItem): DateEntry[] {
-	if (!item.dateInfo) return [];
-	const entries: DateEntry[] = [];
-	for (const [key, range] of Object.entries(item.dateInfo)) {
-		if (!range || typeof range !== 'object') continue;
-		const start = fmtDate(range.start);
-		const end = fmtDate(range.end);
-		const value = start && end ? `${start} – ${end}` : start || end;
-		if (value) {
-			entries.push({ label: DATE_LABELS[key] || key, value });
-		}
-	}
-	return entries;
-}
-
-/** Backward-compatible: return a single formatted date string (best available). */
-export function formatDateInfo(item: CollectionItem): string {
-	const dates = getAllDates(item);
-	return dates[0]?.value || '';
 }

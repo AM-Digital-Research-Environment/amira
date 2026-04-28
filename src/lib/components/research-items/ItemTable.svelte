@@ -2,7 +2,8 @@
 	import { Badge, ScrollableTable } from '$lib/components/ui';
 	import type { CollectionItem } from '$lib/types';
 	import { getItemTitle } from '$lib/utils/helpers';
-	import { getContributors, getOrigins, formatDateInfo } from './itemHelpers';
+	import { getContributors, getOrigins } from '$lib/utils/transforms/itemExtractors';
+	import { formatDateInfo } from '$lib/utils/transforms/itemFormatters';
 	import { Calendar, MapPin, Briefcase, Users } from '@lucide/svelte';
 
 	interface Props {

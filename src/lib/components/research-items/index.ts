@@ -3,6 +3,10 @@ export { default as ItemFilters } from './ItemFilters.svelte';
 export { default as ItemTable } from './ItemTable.svelte';
 export { default as SimilarItemsStrip } from './SimilarItemsStrip.svelte';
 export { default as SiblingItemsSparkline } from './SiblingItemsSparkline.svelte';
+
+// Re-export item-level data extractors and formatters from their canonical
+// home in `$lib/utils/transforms/` so the public component-folder API stays
+// stable.
 export {
 	getContributors,
 	getContributorsFull,
@@ -21,14 +25,13 @@ export {
 	getUsageInfo,
 	getGenre,
 	getPhysicalDescription,
-	getCurrentLocations,
-	formatDateInfo,
-	getAllDates
-} from './itemHelpers';
+	getCurrentLocations
+} from '$lib/utils/transforms/itemExtractors';
 export type {
 	Contributor,
 	ContributorFull,
-	PhysicalInfo,
-	DateEntry,
-	Identifier
-} from './itemHelpers';
+	Identifier,
+	PhysicalInfo
+} from '$lib/utils/transforms/itemExtractors';
+export { formatDateInfo, getAllDates } from '$lib/utils/transforms/itemFormatters';
+export type { DateEntry } from '$lib/utils/transforms/itemFormatters';

@@ -54,9 +54,9 @@
 		getUrls,
 		getGenre,
 		getPhysicalDescription,
-		getCurrentLocations,
-		getAllDates
-	} from './itemHelpers';
+		getCurrentLocations
+	} from '$lib/utils/transforms/itemExtractors';
+	import { getAllDates } from '$lib/utils/transforms/itemFormatters';
 
 	interface Props {
 		item: CollectionItem;

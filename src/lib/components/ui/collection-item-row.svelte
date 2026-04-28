@@ -2,7 +2,7 @@
 	import { FileText, Calendar } from '@lucide/svelte';
 	import type { CollectionItem } from '$lib/types';
 	import { getItemTitle } from '$lib/utils/helpers';
-	import { formatDateInfo } from '$lib/components/research-items/itemHelpers';
+	import { formatDateInfo } from '$lib/utils/transforms/itemFormatters';
 	import { researchItemUrl } from '$lib/utils/urls';
 	import type { Snippet } from 'svelte';
 

@@ -59,7 +59,7 @@
 	import { PieChart } from '$lib/components/charts';
 	import { ChartCard } from '$lib/components/ui';
 	import type { PieChartDataPoint } from '$lib/types';
-	import { formatDateInfo } from '$lib/components/research-items/itemHelpers';
+	import { formatDateInfo } from '$lib/utils/transforms/itemFormatters';
 	import { SvelteMap, SvelteSet } from 'svelte/reactivity';
 	import { getWisskiUrl, loadWisskiUrls } from '$lib/utils/wisskiUrl.svelte';
 	import { onMount } from 'svelte';
