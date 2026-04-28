@@ -25,6 +25,15 @@ PREFIX owl: <http://www.w3.org/2002/07/owl#>
 """
 
 WISSKI_NAVIGATE_PREFIX = "https://www.wisski.uni-bayreuth.de/wisski/navigate/"
+WISSKI_NAVIGATE_HTTP_PREFIX = "http://www.wisski.uni-bayreuth.de/wisski/navigate/"
+
+# Some entities in the graph have owl:sameAs URLs stored with http:// (no s).
+# Match both protocols here; main() normalizes to HTTPS before storing so the
+# dashboard never serves a mixed-content link from its HTTPS origin.
+NAVIGATE_FILTER = (
+    f'FILTER(STRSTARTS(STR(?url), "{WISSKI_NAVIGATE_PREFIX}") '
+    f'|| STRSTARTS(STR(?url), "{WISSKI_NAVIGATE_HTTP_PREFIX}"))'
+)
 
 # Queries that return ?label (lookup key) and ?url (navigate URL)
 BATCH_QUERIES = {
@@ -35,7 +44,7 @@ SELECT ?label ?url WHERE {{
     ?labelEntity rdf:type ecrm:E42_Identifier .
     ?labelEntity ecrm:P3_has_note ?label .
     ?id owl:sameAs ?url .
-    FILTER(STRSTARTS(STR(?url), "{WISSKI_NAVIGATE_PREFIX}"))
+    {NAVIGATE_FILTER}
 }}""",
     "persons": f"""{PREFIXES}
 SELECT ?label ?url WHERE {{
@@ -44,7 +53,7 @@ SELECT ?label ?url WHERE {{
     ?labelEntity rdf:type ecrm:E41_Appellation .
     ?labelEntity am:person_name ?label .
     ?id owl:sameAs ?url .
-    FILTER(STRSTARTS(STR(?url), "{WISSKI_NAVIGATE_PREFIX}"))
+    {NAVIGATE_FILTER}
 }}""",
     "institutions": f"""{PREFIXES}
 SELECT ?label ?url WHERE {{
@@ -53,7 +62,7 @@ SELECT ?label ?url WHERE {{
     ?labelEntity rdf:type ecrm:E41_Appellation .
     ?labelEntity ecrm:P3_has_note ?label .
     ?id owl:sameAs ?url .
-    FILTER(STRSTARTS(STR(?url), "{WISSKI_NAVIGATE_PREFIX}"))
+    {NAVIGATE_FILTER}
 }}""",
     "groups": f"""{PREFIXES}
 SELECT ?label ?url WHERE {{
@@ -64,7 +73,7 @@ SELECT ?label ?url WHERE {{
     ?labelEntity rdf:type ecrm:E41_Appellation .
     ?labelEntity ecrm:P3_has_note ?label .
     ?id owl:sameAs ?url .
-    FILTER(STRSTARTS(STR(?url), "{WISSKI_NAVIGATE_PREFIX}"))
+    {NAVIGATE_FILTER}
 }}""",
     "countries": f"""{PREFIXES}
 SELECT ?label ?url WHERE {{
@@ -73,7 +82,7 @@ SELECT ?label ?url WHERE {{
     ?labelEntity rdf:type ecrm:E41_Appellation .
     ?labelEntity ecrm:P3_has_note ?label .
     ?id owl:sameAs ?url .
-    FILTER(STRSTARTS(STR(?url), "{WISSKI_NAVIGATE_PREFIX}"))
+    {NAVIGATE_FILTER}
 }}""",
     "languages": f"""{PREFIXES}
 SELECT ?label ?url WHERE {{
@@ -81,7 +90,7 @@ SELECT ?label ?url WHERE {{
     ?id ecrm:P1_is_identified_by ?labelEntity .
     ?labelEntity ecrm:P3_has_note ?label .
     ?id owl:sameAs ?url .
-    FILTER(STRSTARTS(STR(?url), "{WISSKI_NAVIGATE_PREFIX}"))
+    {NAVIGATE_FILTER}
 }}""",
     "resourceTypes": f"""{PREFIXES}
 SELECT ?label ?url WHERE {{
@@ -90,7 +99,7 @@ SELECT ?label ?url WHERE {{
     ?labelEntity rdf:type ecrm:E41_Appellation .
     ?labelEntity ecrm:P3_has_note ?label .
     ?id owl:sameAs ?url .
-    FILTER(STRSTARTS(STR(?url), "{WISSKI_NAVIGATE_PREFIX}"))
+    {NAVIGATE_FILTER}
 }}""",
     "subjects": f"""{PREFIXES}
 SELECT ?label ?url WHERE {{
@@ -99,7 +108,7 @@ SELECT ?label ?url WHERE {{
     ?labelEntity rdf:type ecrm:E41_Appellation .
     ?labelEntity ecrm:P3_has_note ?label .
     ?id owl:sameAs ?url .
-    FILTER(STRSTARTS(STR(?url), "{WISSKI_NAVIGATE_PREFIX}"))
+    {NAVIGATE_FILTER}
 }}""",
     "tags": f"""{PREFIXES}
 SELECT ?label ?url WHERE {{
@@ -108,7 +117,7 @@ SELECT ?label ?url WHERE {{
     ?labelEntity rdf:type ecrm:E41_Appellation .
     ?labelEntity ecrm:P3_has_note ?label .
     ?id owl:sameAs ?url .
-    FILTER(STRSTARTS(STR(?url), "{WISSKI_NAVIGATE_PREFIX}"))
+    {NAVIGATE_FILTER}
 }}""",
     "researchItems": f"""{PREFIXES}
 SELECT ?label ?url WHERE {{
@@ -117,7 +126,7 @@ SELECT ?label ?url WHERE {{
     ?idEntity rdf:type ecrm:E42_Identifier .
     ?idEntity ecrm:P3_has_note ?label .
     ?id owl:sameAs ?url .
-    FILTER(STRSTARTS(STR(?url), "{WISSKI_NAVIGATE_PREFIX}"))
+    {NAVIGATE_FILTER}
 }}""",
     "genres": f"""{PREFIXES}
 SELECT ?label ?url WHERE {{
@@ -125,7 +134,7 @@ SELECT ?label ?url WHERE {{
     ?id ecrm:P1_is_identified_by ?labelEntity .
     ?labelEntity ecrm:P3_has_note ?label .
     ?id owl:sameAs ?url .
-    FILTER(STRSTARTS(STR(?url), "{WISSKI_NAVIGATE_PREFIX}"))
+    {NAVIGATE_FILTER}
 }}""",
     "researchSections": f"""{PREFIXES}
 PREFIX data: <http://www.wisski.uni-bayreuth.de/data/>
@@ -135,7 +144,7 @@ SELECT ?label ?url WHERE {{
     ?id ecrm:P1_is_identified_by ?labelEntity .
     ?labelEntity ecrm:P3_has_note ?label .
     ?id owl:sameAs ?url .
-    FILTER(STRSTARTS(STR(?url), "{WISSKI_NAVIGATE_PREFIX}"))
+    {NAVIGATE_FILTER}
 }}""",
     "regions": f"""{PREFIXES}
 SELECT ?label ?parentLabel ?url WHERE {{
@@ -149,7 +158,7 @@ SELECT ?label ?parentLabel ?url WHERE {{
     ?parentLabelEntity rdf:type ecrm:E41_Appellation .
     ?parentLabelEntity ecrm:P3_has_note ?parentLabel .
     ?id owl:sameAs ?url .
-    FILTER(STRSTARTS(STR(?url), "{WISSKI_NAVIGATE_PREFIX}"))
+    {NAVIGATE_FILTER}
 }}""",
     "cities": f"""{PREFIXES}
 SELECT ?label ?parentLabel ?url WHERE {{
@@ -167,7 +176,7 @@ SELECT ?label ?parentLabel ?url WHERE {{
     ?parentLabelEntity rdf:type ecrm:E41_Appellation .
     ?parentLabelEntity ecrm:P3_has_note ?parentLabel .
     ?id owl:sameAs ?url .
-    FILTER(STRSTARTS(STR(?url), "{WISSKI_NAVIGATE_PREFIX}"))
+    {NAVIGATE_FILTER}
 }}""",
 }
 
@@ -195,6 +204,8 @@ def main():
             for b in bindings:
                 label = b["label"]["value"]
                 url = b["url"]["value"]
+                if url.startswith(WISSKI_NAVIGATE_HTTP_PREFIX):
+                    url = WISSKI_NAVIGATE_PREFIX + url[len(WISSKI_NAVIGATE_HTTP_PREFIX):]
                 # Hierarchical categories use "Name|ParentName" as key
                 if category in HIERARCHICAL_CATEGORIES and "parentLabel" in b:
                     parent = b["parentLabel"]["value"]
