@@ -16,7 +16,9 @@
 		getPrimaryDate,
 		getDescriptiveTitle,
 		getTopicLabels,
-		dedupeByImage
+		dedupeByImage,
+		extractGroupIssueInfo,
+		type CardLabels
 	} from '$lib/components/collections/photoHelpers';
 	import CollectionHeader from '$lib/components/collections/CollectionHeader.svelte';
 	import ViewModeTabs from '$lib/components/collections/ViewModeTabs.svelte';
@@ -24,6 +26,7 @@
 	import PhotoMap from '$lib/components/collections/PhotoMap.svelte';
 	import PhotoTimeline from '$lib/components/collections/PhotoTimeline.svelte';
 	import PhotoLightbox from '$lib/components/collections/PhotoLightbox.svelte';
+	import IssueTocModal from '$lib/components/collections/IssueTocModal.svelte';
 	import PhotoFacets, {
 		type PhotoFilterState,
 		type SortKey
@@ -49,20 +52,44 @@
 	// Dedupe: when a collection opts in (e.g. ILAM), collapse records
 	// that share the same preview image into one representative. The
 	// alias counts drive the "× N records" badges on cards / lightbox.
+	// `groupById` maps a representative's id to the full list of items
+	// that share its preview image (representative first), so the issue
+	// TOC can render every alias on demand.
 	let dedupeMap = $derived.by(() => {
 		if (!meta.dedupePhotos) return null;
 		const groups = dedupeByImage(photoItems);
 		// eslint-disable-next-line svelte/prefer-svelte-reactivity
 		const byId = new Map<string, number>();
+		// eslint-disable-next-line svelte/prefer-svelte-reactivity
+		const groupById = new Map<string, CollectionItem[]>();
 		for (const g of groups) {
 			byId.set(g.item._id, g.count);
+			groupById.set(g.item._id, [g.item, ...g.aliases]);
 		}
-		return { groups, byId };
+		return { groups, byId, groupById };
 	});
 
 	// The representatives that actually render. When dedupe is off this
 	// is just `photoItems`; when on it's one item per unique preview URL.
 	let representatives = $derived(dedupeMap ? dedupeMap.groups.map((g) => g.item) : photoItems);
+
+	// Issue-mode label overrides — for collections like ILAM where each
+	// deduped group is really a journal issue, replace the random article
+	// title with "Vol. N No. M (year)" so the card actually advertises
+	// what it represents. Safe no-op for items that don't carry a parseable
+	// issue DOI or for collections in default `'photo'` mode.
+	let labelsById = $derived.by(() => {
+		if (!dedupeMap || meta.groupingMode !== 'issue') return null;
+		// eslint-disable-next-line svelte/prefer-svelte-reactivity
+		const map = new Map<string, CardLabels>();
+		for (const g of dedupeMap.groups) {
+			const info = extractGroupIssueInfo([g.item, ...g.aliases]);
+			if (!info) continue;
+			const subtitle = `${g.count} ${g.count === 1 ? 'article' : 'articles'}`;
+			map.set(g.item._id, { title: info.label, subtitle });
+		}
+		return map.size ? map : null;
+	});
 
 	// Facet + sort state. Kept in-memory only; reset on collection change
 	// (we key the registry slug to trigger).
@@ -174,6 +201,24 @@
 	let lightboxIndex = $state<number | null>(null);
 	let syncingLightboxFromUrl = false;
 
+	// Issue-TOC state (collections in `groupingMode: 'issue'`). Holds the
+	// items belonging to the currently open issue; null when closed.
+	// Mirrored to ?issue=<repId> in the URL so Back closes the modal
+	// and a deep-linked URL re-opens it on load.
+	let openIssueRepId = $state<string | null>(null);
+	let syncingIssueFromUrl = false;
+
+	let openIssueItems = $derived.by((): CollectionItem[] | null => {
+		if (!openIssueRepId || !dedupeMap) return null;
+		return dedupeMap.groupById.get(openIssueRepId) ?? null;
+	});
+
+	/** Does this click target a multi-record group rendered as an issue? */
+	function isGroupedIssue(item: CollectionItem): boolean {
+		if (meta.groupingMode !== 'issue' || !dedupeMap) return false;
+		return (dedupeMap.byId.get(item._id) ?? 1) > 1;
+	}
+
 	$effect(() => {
 		const photoId = $page.url.searchParams.get('photo');
 		if (!photoId) {
@@ -188,6 +233,13 @@
 		syncingLightboxFromUrl = false;
 	});
 
+	$effect(() => {
+		const issueId = $page.url.searchParams.get('issue');
+		syncingIssueFromUrl = true;
+		openIssueRepId = issueId && dedupeMap?.groupById.has(issueId) ? issueId : null;
+		syncingIssueFromUrl = false;
+	});
+
 	function pushPhotoToUrl(photoId: string | null) {
 		if (syncingLightboxFromUrl) return;
 		const url = new URL($page.url);
@@ -196,11 +248,40 @@
 		goto(url.pathname + url.search, { noScroll: true, keepFocus: true });
 	}
 
+	function pushIssueToUrl(issueId: string | null) {
+		if (syncingIssueFromUrl) return;
+		const url = new URL($page.url);
+		if (issueId) url.searchParams.set('issue', issueId);
+		else url.searchParams.delete('issue');
+		goto(url.pathname + url.search, { noScroll: true, keepFocus: true });
+	}
+
 	function openLightbox(item: CollectionItem) {
 		const idx = visibleItems.findIndex((p) => p._id === item._id);
 		if (idx >= 0) {
 			lightboxIndex = idx;
 			pushPhotoToUrl(item._id);
+		}
+	}
+
+	function openIssue(item: CollectionItem) {
+		openIssueRepId = item._id;
+		pushIssueToUrl(item._id);
+	}
+
+	function closeIssue() {
+		openIssueRepId = null;
+		pushIssueToUrl(null);
+	}
+
+	/** Single click handler for masonry / timeline thumbnails. Routes to
+	 *  the issue TOC for grouped issue cards, or the existing single-photo
+	 *  lightbox for everything else. */
+	function selectFromGrid(item: CollectionItem) {
+		if (isGroupedIssue(item)) {
+			openIssue(item);
+		} else {
+			openLightbox(item);
 		}
 	}
 
@@ -311,7 +392,8 @@
 		<PhotoMasonry
 			items={visibleItems}
 			countsById={dedupeMap?.byId ?? null}
-			onSelect={openLightbox}
+			labelsById={labelsById ?? null}
+			onSelect={selectFromGrid}
 		/>
 	{:else if view === 'map'}
 		<PhotoMap items={visibleItems} enriched={$enrichedLocations} onSelect={openLightbox} />
@@ -319,7 +401,8 @@
 		<PhotoTimeline
 			items={visibleItems}
 			countsById={dedupeMap?.byId ?? null}
-			onSelect={openLightbox}
+			labelsById={labelsById ?? null}
+			onSelect={selectFromGrid}
 		/>
 	{/if}
 
@@ -331,6 +414,8 @@
 		onPrev={prev}
 		onNext={next}
 	/>
+
+	<IssueTocModal items={openIssueItems} onClose={closeIssue} />
 </div>
 
 <style>

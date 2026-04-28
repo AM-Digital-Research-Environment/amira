@@ -5,7 +5,8 @@
 		getDescriptiveTitle,
 		getPrimaryDate,
 		getLocationLabel,
-		resolveThumbnailUrl
+		resolveThumbnailUrl,
+		type CardLabels
 	} from './photoHelpers';
 	import { MapPin, Calendar } from '@lucide/svelte';
 	import { thumbnailManifest } from '$lib/stores/data';
@@ -19,16 +20,24 @@
 		/** When >1, the card represents `count` deduped records sharing the
 		 *  same preview image. A badge is rendered on the frame. */
 		count?: number;
+		/** Optional title / subtitle override. When provided, replaces the
+		 *  descriptive title and the default date/location chip line. Used by
+		 *  collections that group items into compilations (e.g. journal
+		 *  issues) so the page can re-label the card without the card itself
+		 *  knowing about the grouping mode. */
+		labels?: CardLabels | null;
 	}
 
-	let { item, onSelect, density = 'default', count = 1 }: Props = $props();
+	let { item, onSelect, density = 'default', count = 1, labels = null }: Props = $props();
 
 	// Prefer the locally-served WebP thumbnail when the manifest knows about
 	// this URL. Falls back to the original remote URL until the manifest
 	// arrives (or for items that aren't in it).
 	let originalUrl = $derived(getPreviewImage(item));
 	let previewUrl = $derived(resolveThumbnailUrl(originalUrl, $thumbnailManifest, base));
-	let title = $derived(getDescriptiveTitle(item));
+	let title = $derived(labels?.title?.trim() || getDescriptiveTitle(item));
+	let subtitle = $derived(labels?.subtitle?.trim() || '');
+	let useOverride = $derived(Boolean(labels?.title || labels?.subtitle));
 	let date = $derived(getPrimaryDate(item));
 	let location = $derived(getLocationLabel(item));
 
@@ -95,7 +104,11 @@
 
 	<div class="photo-card-body">
 		<h3 class="photo-card-title" {title}>{title}</h3>
-		{#if density !== 'compact'}
+		{#if useOverride}
+			{#if subtitle}
+				<p class="photo-card-subtitle">{subtitle}</p>
+			{/if}
+		{:else if density !== 'compact'}
 			<div class="photo-card-meta">
 				{#if date}
 					<span class="photo-card-chip">
@@ -208,6 +221,11 @@
 		line-clamp: 2;
 		-webkit-box-orient: vertical;
 		overflow: hidden;
+	}
+
+	.photo-card-subtitle {
+		font-size: var(--font-size-xs);
+		color: hsl(var(--muted-foreground));
 	}
 
 	.photo-card-meta {

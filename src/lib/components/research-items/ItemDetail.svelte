@@ -551,20 +551,19 @@
 					{#snippet children()}
 						<div class="space-y-2">
 							{#each identifiers as id (id.type + id.value)}
-								{@const idValue = String(id.value ?? '')}
 								<div class="flex items-baseline gap-3 text-sm">
 									<span class="text-muted-foreground shrink-0 min-w-[80px]">{id.type}</span>
-									{#if idValue.startsWith('http')}
+									{#if id.url}
 										<a
-											href={idValue}
+											href={id.url}
 											target="_blank"
 											rel="noopener noreferrer"
 											class="text-primary hover:underline font-mono text-xs break-all inline-flex items-center gap-1"
 										>
-											{idValue}<ExternalLink class="h-3 w-3 shrink-0" />
+											{id.value}<ExternalLink class="h-3 w-3 shrink-0" />
 										</a>
 									{:else}
-										<span class="text-foreground font-mono text-xs break-all">{idValue}</span>
+										<span class="text-foreground font-mono text-xs break-all">{id.value}</span>
 									{/if}
 								</div>
 							{/each}
@@ -758,17 +757,17 @@
      extractable years. -->
 <SiblingItemsSparkline {siblings} currentItem={item} projectName={item.project?.name} />
 
+<!-- Knowledge Graph — full width -->
+{#if item.dre_id}
+	<EntityKnowledgeGraph entityType="researchItems" entityId={item.dre_id} />
+{/if}
+
 <!-- Similar items — top semantic-kNN matches via Gemini embeddings.
      Lazy-loads the precomputed `static/data/embeddings/similar.json` on
      first paint of an item detail; renders nothing if the embeddings
      haven't been generated yet or the current item is low-signal. -->
 {#if item.dre_id}
 	<SimilarItemsStrip itemId={item.dre_id} />
-{/if}
-
-<!-- Knowledge Graph — full width -->
-{#if item.dre_id}
-	<EntityKnowledgeGraph entityType="researchItems" entityId={item.dre_id} />
 {/if}
 
 <style>

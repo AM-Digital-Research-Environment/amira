@@ -19,6 +19,7 @@
 	import EmptyState from '$lib/components/ui/empty-state.svelte';
 	import Select from '$lib/components/ui/select.svelte';
 	import Input from '$lib/components/ui/input.svelte';
+	import Callout from '$lib/components/ui/callout.svelte';
 	import { SemanticScatter } from '$lib/components/charts';
 	import type { ColorBy } from '$lib/components/charts/SemanticScatter.svelte';
 	import { loadSemanticMap, loadSimilarItems } from '$lib/utils/loaders';
@@ -301,6 +302,14 @@
 					/>
 				</div>
 
+				<Callout tone="warning" title="Read clusters with caution — this map is metadata-only">
+					Embeddings are computed from each item's metadata (title, contributors, subjects,
+					abstract, project) — <strong>not from the full text</strong> of the underlying source. Items
+					with identical or near-identical metadata land on top of each other, so a tight cluster doesn't
+					always mean the works themselves are similar. Treat clusters as a hint for further reading,
+					not as a finding in their own right.
+				</Callout>
+
 				<Card>
 					<CardContent class="p-2">
 						<div class="h-[28rem] md:h-[34rem] lg:h-[42rem] w-full">
@@ -314,11 +323,45 @@
 					</CardContent>
 				</Card>
 
+				<Callout tone="info" title="Methodology & limits" collapsible>
+					<ul class="list-disc pl-5 space-y-1.5">
+						<li>
+							<strong>Source signal:</strong> vectors are built from MODS-style metadata only — titles,
+							contributors, subjects, tags, abstract, and project name. Full-text content (PDF/audio transcripts)
+							is not included.
+						</li>
+						<li>
+							<strong>Duplicate-metadata clustering:</strong> many records in the catalogue share the
+							same boilerplate metadata (e.g. journal-issue records that differ only by article title).
+							They will appear artificially close in the map.
+						</li>
+						<li>
+							<strong>Low-signal items</strong> (under {mapData.lowSignalThreshold} characters of concatenated
+							metadata) are dimmed — their coordinates are dominated by a handful of keywords and similarity
+							scores against them are unreliable.
+						</li>
+						<li>
+							<strong>2-D projection trade-offs:</strong> UMAP preserves local neighbourhoods but distorts
+							global distances. Two clusters being far apart on the plot does not mean the items are particularly
+							dissimilar; nearness is more meaningful than farness.
+						</li>
+						<li>
+							<strong>Pipeline:</strong> Gemini Embedding ({mapData.dims}d, task
+							<code>{mapData.taskType}</code>) → UMAP (n_neighbors {mapData.umap.nNeighbors},
+							min_dist {mapData.umap.minDist}, metric
+							<code>{mapData.umap.metric}</code>).
+						</li>
+						<li>
+							Use this view to <em>discover</em> candidate links between items, then verify by reading
+							the underlying records — don't quote distances or cluster membership as evidence on their
+							own.
+						</li>
+					</ul>
+				</Callout>
+
 				<p class="text-xs text-muted-foreground">
-					UMAP neighbours: {mapData.umap.nNeighbors}, min_dist: {mapData.umap.minDist}, metric: {mapData
-						.umap.metric}. Low-signal items (dimmed) have under {mapData.lowSignalThreshold} chars of
-					concatenated metadata — their position is mostly keyword-driven. Zoom with the scroll wheel;
-					click a dot to inspect it.
+					Low-signal items (dimmed) have under {mapData.lowSignalThreshold} chars of concatenated metadata.
+					Zoom with the scroll wheel; click a dot to inspect it.
 				</p>
 			</div>
 

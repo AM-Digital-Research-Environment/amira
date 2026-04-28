@@ -44,11 +44,50 @@ export function getAbstract(item: CollectionItem): string {
 	return item.abstract;
 }
 
-export function getIdentifiers(item: CollectionItem): { type: string; value: string }[] {
+export interface Identifier {
+	type: string;
+	value: string;
+	/** Resolved external URL when the identifier is dereferenceable (DOI,
+	 *  Handle, ARK, plain http URI). `null` otherwise. */
+	url: string | null;
+}
+
+export function getIdentifiers(item: CollectionItem): Identifier[] {
 	if (!Array.isArray(item.identifier)) return [];
 	return item.identifier
 		.filter((id) => id?.identifier && id?.identifier_type)
-		.map((id) => ({ type: id.identifier_type, value: id.identifier }));
+		.map((id) => ({
+			type: id.identifier_type,
+			value: String(id.identifier),
+			url: resolveIdentifierUrl(id.identifier_type, String(id.identifier))
+		}));
+}
+
+/** Map an (identifier_type, value) pair to an external URL where applicable.
+ *  Returns null for opaque identifiers (e.g. internal stock numbers) and
+ *  for unrecognised schemes. */
+function resolveIdentifierUrl(type: string, value: string): string | null {
+	const v = value.trim();
+	if (!v) return null;
+	// Already a full URL — use as-is.
+	if (/^https?:\/\//i.test(v)) return v;
+	const t = type.toLowerCase();
+	if (t.includes('digital object identifier') || t === 'doi') {
+		// Bare DOI like "10.21504/amj.v11i4.2467" → resolver URL.
+		const stripped = v.replace(/^doi:/i, '');
+		return `https://doi.org/${stripped}`;
+	}
+	if (t === 'handle' || t.includes('handle')) {
+		return `https://hdl.handle.net/${v.replace(/^hdl:/i, '')}`;
+	}
+	if (t === 'ark' || t.startsWith('ark')) {
+		return `https://n2t.net/${v}`;
+	}
+	if (t === 'uri' || t === 'url') {
+		// Treat as URL if it has a host-like shape, else give up.
+		return /\.[a-z]{2,}/i.test(v) ? `https://${v}` : null;
+	}
+	return null;
 }
 
 export function getOrigins(

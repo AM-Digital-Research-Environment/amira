@@ -145,3 +145,104 @@ export function dedupeByImage(items: CollectionItem[]): DedupedPhoto[] {
 	}
 	return [...groups.values(), ...standalone];
 }
+
+/**
+ * Volume / issue / year extracted from journal-style metadata. Built from
+ * a DOI matching `…vNiM…` (the pattern used by African Music Journal and
+ * many other OJS-published journals) plus the item's primary date.
+ *
+ * Returns null for items that don't carry a DOI in this shape.
+ */
+export interface IssueInfo {
+	volume: number;
+	issue: number;
+	year: number | null;
+	/** "Vol. 11 No. 4 (2022)" — full label including year when known. */
+	label: string;
+	/** "Vol. 11 No. 4" — without year. */
+	shortLabel: string;
+}
+
+const ISSUE_DOI_RE = /v(\d+)i(\d+)/i;
+
+export function extractIssueInfo(item: CollectionItem): IssueInfo | null {
+	const ids = item.identifier;
+	if (!Array.isArray(ids)) return null;
+	const doi = ids.find((id) =>
+		id?.identifier_type?.toLowerCase().includes('digital object identifier')
+	)?.identifier;
+	if (!doi || typeof doi !== 'string') return null;
+	const m = doi.match(ISSUE_DOI_RE);
+	if (!m) return null;
+	const volume = Number(m[1]);
+	const issue = Number(m[2]);
+	if (!Number.isFinite(volume) || !Number.isFinite(issue)) return null;
+	// `getPrimaryDate` covers the canonical typed keys; fall back to the
+	// raw "issued" key still used by some upstream dumps so we don't lose
+	// the year for items that only carry an issuance date.
+	const fallback = (item.dateInfo as Record<string, DateRange | undefined> | undefined)?.issued;
+	const date = getPrimaryDate(item) ?? pickDate(fallback);
+	const year = date?.getFullYear() ?? null;
+	const shortLabel = `Vol. ${volume} No. ${issue}`;
+	const label = year ? `${shortLabel} (${year})` : shortLabel;
+	return { volume, issue, year, label, shortLabel };
+}
+
+/** Pick the issue info for a group of items that share an issue. Uses the
+ *  first item that yields a parseable result. */
+export function extractGroupIssueInfo(items: CollectionItem[]): IssueInfo | null {
+	for (const item of items) {
+		const info = extractIssueInfo(item);
+		if (info) return info;
+	}
+	return null;
+}
+
+/**
+ * Page range string (e.g. "95-118") parsed from the item's
+ * `physicalDescription.note` entries that look like "pages: 95-118".
+ */
+export function extractPageRange(item: CollectionItem): string | null {
+	const notes = item.physicalDescription?.note;
+	if (!Array.isArray(notes)) return null;
+	for (const note of notes) {
+		if (typeof note !== 'string') continue;
+		const m = note.match(/pages?\s*[:-]?\s*([0-9ivxlcdm]+(?:\s*[–-]\s*[0-9ivxlcdm]+)?)/i);
+		if (m) return m[1].replace(/\s+/g, '');
+	}
+	return null;
+}
+
+/**
+ * Sort items belonging to the same issue by their first page number, when
+ * available. Falls back to descriptive title order. Used by the issue TOC
+ * so the entries read like a real journal table of contents.
+ */
+export function sortByIssueOrder(items: CollectionItem[]): CollectionItem[] {
+	function startPage(item: CollectionItem): number {
+		const range = extractPageRange(item);
+		if (!range) return Number.POSITIVE_INFINITY;
+		const head = range.split(/[–-]/)[0];
+		const n = Number(head);
+		return Number.isFinite(n) ? n : Number.POSITIVE_INFINITY;
+	}
+	return [...items].sort((a, b) => {
+		const pa = startPage(a);
+		const pb = startPage(b);
+		if (pa !== pb) return pa - pb;
+		return getDescriptiveTitle(a).localeCompare(getDescriptiveTitle(b));
+	});
+}
+
+/**
+ * Optional override applied to a card's display labels. Used by callers
+ * that group items (e.g. a journal-issue collection) to swap a generic
+ * article title for an issue label without baking that knowledge into
+ * the card itself.
+ */
+export interface CardLabels {
+	/** Replaces the descriptive title when set. */
+	title?: string;
+	/** Shown below the title in place of date/location chips when set. */
+	subtitle?: string;
+}

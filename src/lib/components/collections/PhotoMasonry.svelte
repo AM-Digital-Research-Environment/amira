@@ -4,6 +4,7 @@
 	import { revealOnScroll } from '$lib/utils/revealOnScroll';
 	import { onDestroy, onMount } from 'svelte';
 	import { Loader2 } from '@lucide/svelte';
+	import type { CardLabels } from './photoHelpers';
 
 	interface Props {
 		items: CollectionItem[];
@@ -15,9 +16,20 @@
 		/** Optional map from item._id → number of deduped records that
 		 *  share the same photo. Drives the "× N" badge on cards. */
 		countsById?: Map<string, number> | null;
+		/** Optional map from item._id → display label override. Used by
+		 *  callers that want a card to show e.g. an issue title instead of
+		 *  the item's own descriptive title. */
+		labelsById?: Map<string, CardLabels> | null;
 	}
 
-	let { items, onSelect, density = 'default', pageSize = 60, countsById = null }: Props = $props();
+	let {
+		items,
+		onSelect,
+		density = 'default',
+		pageSize = 60,
+		countsById = null,
+		labelsById = null
+	}: Props = $props();
 
 	// Progressive window — grows as the user scrolls near the sentinel.
 	let shown = $state(0);
@@ -91,7 +103,13 @@
 			<div class="masonry-col">
 				{#each column as item, rowIndex (item._id)}
 					<div class="masonry-item" use:revealOnScroll={{ delay: (rowIndex % 8) * 25 }}>
-						<PhotoCard {item} {onSelect} {density} count={countsById?.get(item._id) ?? 1} />
+						<PhotoCard
+							{item}
+							{onSelect}
+							{density}
+							count={countsById?.get(item._id) ?? 1}
+							labels={labelsById?.get(item._id) ?? null}
+						/>
 					</div>
 				{/each}
 			</div>

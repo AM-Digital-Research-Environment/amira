@@ -45,6 +45,16 @@ export interface FeaturedCollection {
 	 *  a single card in masonry / timeline views. Useful for collections
 	 *  where many records back the same photo (e.g. ILAM journal issues). */
 	dedupePhotos?: boolean;
+	/** How a deduped group is presented to the user.
+	 *  - `'photo'` (default): the card represents a representative photo;
+	 *     clicking opens the existing single-photo lightbox.
+	 *  - `'issue'`: the card represents a journal issue (or similar
+	 *     compilation); the title is the issue label (e.g. "Vol. 11 No. 4
+	 *     (2022)") and clicking opens a table-of-contents modal listing
+	 *     every item that shares the cover image, each linking through
+	 *     to its research-item page. Has no effect when `dedupePhotos`
+	 *     is false. */
+	groupingMode?: 'photo' | 'issue';
 }
 
 export const FEATURED_COLLECTIONS: FeaturedCollection[] = [
@@ -72,7 +82,11 @@ export const FEATURED_COLLECTIONS: FeaturedCollection[] = [
 		views: { map: false },
 		// Many ILAM records share a single journal-issue cover image; group
 		// them so the masonry/timeline show one tile per distinct photo.
-		dedupePhotos: true
+		dedupePhotos: true,
+		// ILAM records carry DOIs of the form `…vNiM…`, so a shared cover
+		// image really represents a journal issue. Render each card as the
+		// issue (Vol. N No. M) and open a TOC of articles on click.
+		groupingMode: 'issue'
 	},
 	{
 		slug: 'peripheral-memories-capoeira-angola-salvador',

@@ -6,7 +6,8 @@
 		getPreviewImage,
 		getPrimaryDate,
 		getDescriptiveTitle,
-		getLocationLabel
+		getLocationLabel,
+		type CardLabels
 	} from './photoHelpers';
 
 	interface Props {
@@ -15,9 +16,12 @@
 		/** Optional map from item._id → number of deduped records. When
 		 *  >1, the thumbnail shows a small count badge. */
 		countsById?: Map<string, number> | null;
+		/** Optional label override map. When set, the thumbnail tooltip uses
+		 *  the override title instead of the item's descriptive title. */
+		labelsById?: Map<string, CardLabels> | null;
 	}
 
-	let { items, onSelect, countsById = null }: Props = $props();
+	let { items, onSelect, countsById = null, labelsById = null }: Props = $props();
 
 	interface YearGroup {
 		year: number;
@@ -104,13 +108,17 @@
 							{#each group.items as item, thumbIndex (item._id)}
 								{@const preview = getPreviewImage(item)}
 								{@const count = countsById?.get(item._id) ?? 1}
+								{@const label =
+									labelsById?.get(item._id)?.title?.trim() || getDescriptiveTitle(item)}
 								{#if preview}
 									<button
 										type="button"
 										class="timeline-thumb"
 										onclick={() => onSelect?.(item)}
-										title={`${getDescriptiveTitle(item)}${
-											getLocationLabel(item) ? ' — ' + getLocationLabel(item) : ''
+										title={`${label}${
+											!labelsById?.get(item._id) && getLocationLabel(item)
+												? ' — ' + getLocationLabel(item)
+												: ''
 										}${count > 1 ? ` (× ${count} records)` : ''}`}
 										in:fade={{
 											duration: 240,
@@ -118,12 +126,7 @@
 											easing: cubicOut
 										}}
 									>
-										<img
-											src={preview}
-											alt={getDescriptiveTitle(item)}
-											loading="lazy"
-											draggable="false"
-										/>
+										<img src={preview} alt={label} loading="lazy" draggable="false" />
 										{#if count > 1}
 											<span class="timeline-thumb-count">× {count}</span>
 										{/if}

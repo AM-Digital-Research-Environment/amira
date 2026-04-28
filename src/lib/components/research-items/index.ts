@@ -25,4 +25,10 @@ export {
 	formatDateInfo,
 	getAllDates
 } from './itemHelpers';
-export type { Contributor, ContributorFull, PhysicalInfo, DateEntry } from './itemHelpers';
+export type {
+	Contributor,
+	ContributorFull,
+	PhysicalInfo,
+	DateEntry,
+	Identifier
+} from './itemHelpers';
