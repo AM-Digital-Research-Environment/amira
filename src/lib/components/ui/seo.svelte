@@ -2,7 +2,14 @@
 	import { page } from '$app/stores';
 	import { base } from '$app/paths';
 
-	const SITE_NAME = 'Africa Multiple Interactive Research Atlas (AMIRA)';
+	// Canonical site name (used in `og:site_name`, the `<title>` suffix and
+	// the `WebSite` JSON-LD `name`). AMIRA is exposed as the short
+	// `alternateName` so Google can surface either form.
+	// Google's site-name docs: the `WebSite` `name` should be the canonical,
+	// concise brand name — not the page title.
+	// https://developers.google.com/search/docs/appearance/site-names
+	const SITE_NAME = 'Africa Multiple Interactive Research Atlas';
+	const SITE_ALTERNATE_NAMES = ['AMIRA', 'Africa Multiple Atlas'];
 	// SITE_URL already includes the base path (/amira), so when we build the
 	// canonical URL we strip the same base from $page.url.pathname to avoid
 	// duplicating it (e.g. /amira/amira/people).
@@ -22,6 +29,17 @@
 		'AMIRA'
 	];
 	const AUTHOR = 'Frédérick Madore';
+	// Publisher org for the cluster — emitted as a stable `Organization` node
+	// in the JSON-LD `@graph` so Google can attach a brand entity (logo,
+	// `sameAs`) to the site.
+	const ORG_NAME = 'Africa Multiple Cluster of Excellence';
+	const ORG_ALT_NAME = 'Africa Multiple';
+	const ORG_URL = 'https://www.africamultiple.uni-bayreuth.de/';
+	const ORG_LOGO = `${SITE_URL}/logos/africamultiple.webp`;
+	// Stable `@id` URIs so cross-references (`isPartOf`, `publisher`, `about`)
+	// resolve inside the same `@graph`.
+	const WEBSITE_ID = `${SITE_URL}/#website`;
+	const ORGANIZATION_ID = `${SITE_URL}/#organization`;
 
 	interface Props {
 		title?: string;
@@ -69,20 +87,56 @@
 	let imageUrl = $derived(image ?? `${SITE_URL}${base}/logos/africamultiple.webp`);
 	let mergedKeywords = $derived(Array.from(new Set([...keywords, ...DEFAULT_KEYWORDS])));
 
-	let baseStructuredData = $derived<Record<string, unknown>>({
-		'@context': 'https://schema.org',
-		'@type': type === 'article' ? 'Article' : type === 'profile' ? 'ProfilePage' : 'WebSite',
+	// Schema.org type for the per-page node. WebPage is the right default —
+	// `WebSite` is reserved for the (single) site-level node in the graph.
+	let pageEntityType = $derived(
+		type === 'article' ? 'Article' : type === 'profile' ? 'ProfilePage' : 'WebPage'
+	);
+
+	// Stable site-level node. Emitted on every page so Google has consistent
+	// site-name signals regardless of which URL it crawls first. The
+	// canonical brand name lives in `name`; the acronym + variants are
+	// listed under `alternateName` per Google's site-name guidance.
+	const websiteNode: Record<string, unknown> = {
+		'@type': 'WebSite',
+		'@id': WEBSITE_ID,
+		name: SITE_NAME,
+		alternateName: SITE_ALTERNATE_NAMES,
+		url: `${SITE_URL}/`,
+		description: DEFAULT_DESCRIPTION,
+		inLanguage: 'en',
+		publisher: { '@id': ORGANIZATION_ID }
+	};
+
+	// Brand entity with a crawlable logo. Helps Google associate the
+	// favicon / knowledge-panel image with this site rather than inheriting
+	// a generic GitHub Pages signal from the parent hostname.
+	const organizationNode: Record<string, unknown> = {
+		'@type': 'Organization',
+		'@id': ORGANIZATION_ID,
+		name: ORG_NAME,
+		alternateName: ORG_ALT_NAME,
+		url: ORG_URL,
+		logo: {
+			'@type': 'ImageObject',
+			url: ORG_LOGO,
+			contentUrl: ORG_LOGO
+		},
+		sameAs: ['https://www.africamultiple.uni-bayreuth.de/']
+	};
+
+	let pageNode = $derived<Record<string, unknown>>({
+		'@type': pageEntityType,
+		'@id': `${canonicalUrl}#webpage`,
 		name: fullTitle,
 		headline: title || SITE_NAME,
 		description,
 		url: canonicalUrl,
 		image: imageUrl,
 		inLanguage: 'en',
-		publisher: {
-			'@type': 'Organization',
-			name: 'Africa Multiple Cluster of Excellence',
-			url: 'https://www.africamultiple.uni-bayreuth.de/'
-		},
+		isPartOf: { '@id': WEBSITE_ID },
+		about: { '@id': ORGANIZATION_ID },
+		publisher: { '@id': ORGANIZATION_ID },
 		author: {
 			'@type': 'Person',
 			name: AUTHOR,
@@ -94,13 +148,21 @@
 	});
 
 	let structuredDataJson = $derived.by(() => {
-		const extra = structuredData
+		const extras = structuredData
 			? Array.isArray(structuredData)
 				? structuredData
 				: [structuredData]
 			: [];
-		const all = [baseStructuredData, ...extra];
-		return JSON.stringify(all.length === 1 ? all[0] : all);
+		// Strip a top-level @context from each user-supplied node so the
+		// graph carries a single context at the root.
+		const extraNodes = extras.map((node) => {
+			const { '@context': _ctx, ...rest } = node as Record<string, unknown>;
+			return rest;
+		});
+		return JSON.stringify({
+			'@context': 'https://schema.org',
+			'@graph': [websiteNode, organizationNode, pageNode, ...extraNodes]
+		});
 	});
 </script>
 

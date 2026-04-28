@@ -24,9 +24,34 @@
 		<meta name="mobile-web-app-capable" content="yes" />
 		<meta name="format-detection" content="telephone=no" />
 		<meta name="google-site-verification" content="KbjWZh0BthgrMFpZpOCeZU982ncRKKXkUTvXLayYBkU" />
-		<link rel="icon" type="image/jpeg" href="%sveltekit.assets%/favicon.jpg" />
-		<link rel="icon" type="image/png" href="%sveltekit.assets%/favicon.png" />
-		<link rel="apple-touch-icon" href="%sveltekit.assets%/icons/apple-touch-icon.png" />
+		<!--
+			Favicon link tags ordered for Google Search:
+			Google picks the highest-quality crawlable favicon and recommends >48x48.
+			Lead with SVG (vector, sharp at any DPI), then a 192x192 PNG so Googlebot
+			doesn't fall back to the 32x32. Includes a `shortcut icon` alias for
+			older crawlers that look for that exact rel value.
+			https://developers.google.com/search/docs/appearance/favicon-in-search
+		-->
+		<link rel="icon" type="image/svg+xml" href="%sveltekit.assets%/favicon.svg" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="192x192"
+			href="%sveltekit.assets%/icons/icon-192x192.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="512x512"
+			href="%sveltekit.assets%/icons/icon-512x512.png"
+		/>
+		<link rel="icon" type="image/png" sizes="32x32" href="%sveltekit.assets%/favicon.png" />
+		<link rel="shortcut icon" type="image/png" href="%sveltekit.assets%/icons/icon-192x192.png" />
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="%sveltekit.assets%/icons/apple-touch-icon.png"
+		/>
 		<link rel="manifest" href="%sveltekit.assets%/manifest.json" />
 		%sveltekit.head%
 	</head>
