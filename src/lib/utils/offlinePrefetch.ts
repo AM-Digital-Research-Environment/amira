@@ -53,31 +53,46 @@ async function prefetch(basePath: string): Promise<void> {
 	const reg = await navigator.serviceWorker.ready;
 	if (!reg.active) return;
 
-	// 1. Light-tier core — manifest + small stores everyone needs.
+	// 1. Light-tier core — manifest + small stores everyone needs. Paths must
+	//    match what loaders/collectionLoader.ts and loaders/geolocLoader.ts
+	//    actually request, otherwise the SW caches misses and the routes still
+	//    fetch live.
 	const coreUrls = uniqueWhole([
 		`${basePath}/data/manifest.json`,
-		`${basePath}/data/projects.json`,
-		`${basePath}/data/persons.json`,
-		`${basePath}/data/institutions.json`,
-		`${basePath}/data/groups.json`,
-		`${basePath}/data/research_sections.json`,
-		`${basePath}/data/manual/research_sections.json`,
-		`${basePath}/thumbnails/manifest.json`,
-		`${basePath}/data/geo/wikidata.json`
+		`${basePath}/data/dev/dev.projectsData.json`,
+		`${basePath}/data/dev/dev.persons.json`,
+		`${basePath}/data/dev/dev.institutions.json`,
+		`${basePath}/data/dev/dev.groups.json`,
+		`${basePath}/data/dev/dev.researchSections.json`,
+		`${basePath}/data/dev/dev.geo.json`,
+		`${basePath}/thumbnails/manifest.json`
 	]);
 
 	reg.active.postMessage({ type: 'PREFETCH_DATA', urls: coreUrls });
 
-	// 2. Per-university collection dumps. We discover them from the manifest
-	//    so we don't hard-code the institution list.
+	// 2. Per-university and external collection dumps. We discover them from
+	//    the manifest so we don't hard-code the institution list. Each entry
+	//    is one project-metadata file (data/<folder>/<folder>.<COLL>.json),
+	//    matching loadUniversityCollection / loadExternalCollection.
 	try {
 		const manifestResp = await fetch(`${basePath}/data/manifest.json`);
 		if (!manifestResp.ok) return;
-		const manifest: { universities?: Record<string, string[]> } = await manifestResp.json();
-		const universities = Object.keys(manifest.universities ?? {});
-		const collectionUrls = universities.flatMap((u) => [
-			`${basePath}/data/projects_metadata_${u}/index.json`
-		]);
+		const manifest: {
+			universities?: Record<string, string[]>;
+			external?: Record<string, string[]>;
+		} = await manifestResp.json();
+		const collectionUrls: string[] = [];
+		for (const [u, colls] of Object.entries(manifest.universities ?? {})) {
+			const folder = `projects_metadata_${u}`;
+			for (const coll of colls) {
+				collectionUrls.push(`${basePath}/data/${folder}/${folder}.${coll}.json`);
+			}
+		}
+		for (const [folder, colls] of Object.entries(manifest.external ?? {})) {
+			for (const coll of colls) {
+				collectionUrls.push(`${basePath}/data/${folder}/${folder}.${coll}.json`);
+			}
+		}
 		if (collectionUrls.length > 0) {
 			reg.active.postMessage({ type: 'PREFETCH_DATA', urls: collectionUrls });
 		}
