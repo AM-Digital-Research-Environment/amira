@@ -1,11 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import {
-	formatDate,
-	getItemTitle,
-	getProjectTitle,
-	getSectionColor,
-	getSectionColorHsl
-} from './helpers';
+import { formatDate, getItemTitle, getProjectTitle } from './formatters';
 import type { CollectionItem, Project } from '$lib/types';
 
 describe('formatDate', () => {
@@ -50,25 +44,5 @@ describe('getProjectTitle', () => {
 
 	it('returns "Untitled" when both are missing', () => {
 		expect(getProjectTitle({} as Project)).toBe('Untitled');
-	});
-});
-
-describe('getSectionColor', () => {
-	it('wraps a known section in hsl()', () => {
-		expect(getSectionColor('Mobilities')).toBe('hsl(var(--rs-mobilities))');
-	});
-
-	it('falls back to muted-foreground for unknown sections', () => {
-		expect(getSectionColor('Nonexistent')).toBe('hsl(var(--muted-foreground))');
-	});
-});
-
-describe('getSectionColorHsl', () => {
-	it('returns the unwrapped CSS variable for a known section', () => {
-		expect(getSectionColorHsl('Knowledges')).toBe('var(--rs-knowledges)');
-	});
-
-	it('falls back to muted-foreground for unknown sections', () => {
-		expect(getSectionColorHsl('Nonexistent')).toBe('var(--muted-foreground)');
 	});
 });

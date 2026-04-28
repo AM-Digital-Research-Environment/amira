@@ -7,6 +7,7 @@
  */
 
 import type { EnrichedLocationsData, CollectionItem } from '$lib/types';
+import { getItemTitle } from '$lib/utils/formatters';
 
 /** Shape of the location data rows fed into the map */
 export interface LocationData {
@@ -30,11 +31,6 @@ export interface MarkerData {
 // ---------------------------------------------------------------------------
 // Internal helpers
 // ---------------------------------------------------------------------------
-
-/** Extract a display title from a collection item */
-function getItemTitle(item: CollectionItem): string {
-	return item.titleInfo?.[0]?.title || 'Untitled';
-}
 
 /** Check whether a collection item is associated with a given location */
 function itemMatchesLocation(
