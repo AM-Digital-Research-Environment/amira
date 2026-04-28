@@ -18,35 +18,25 @@
 import type { EntityDashboardData, EntityType } from '$lib/components/dashboards';
 import type { CollectionItem } from '$lib/types';
 import { loadEntityDashboard } from './entityDashboardLoader';
-import { SvelteMap } from 'svelte/reactivity';
-
-const cache = new SvelteMap<string, EntityDashboardData | null>();
-// eslint-disable-next-line svelte/prefer-svelte-reactivity
-const inflight: Map<string, Promise<EntityDashboardData | null>> = new Map();
+import { createLazyLoader } from './cacheFactory';
 
 function cacheKey(entityType: EntityType, id: string): string {
 	return `${entityType}:${id}`;
 }
 
+const dashboardLoader = createLazyLoader<string, EntityDashboardData | null>(
+	async (key) => {
+		const [type, id] = key.split(':') as [EntityType, string];
+		return loadEntityDashboard(type, id);
+	},
+	{ reactive: true }
+);
+
 export function fetchEntityDashboard(
 	entityType: EntityType,
 	id: string
 ): Promise<EntityDashboardData | null> {
-	const key = cacheKey(entityType, id);
-	if (cache.has(key)) return Promise.resolve(cache.get(key) ?? null);
-	const pending = inflight.get(key);
-	if (pending) return pending;
-
-	const promise = loadEntityDashboard(entityType, id)
-		.then((data) => {
-			cache.set(key, data);
-			return data;
-		})
-		.finally(() => {
-			inflight.delete(key);
-		});
-	inflight.set(key, promise);
-	return promise;
+	return dashboardLoader.fetch(cacheKey(entityType, id));
 }
 
 export interface EntityDetailState {
@@ -80,9 +70,8 @@ export function createEntityDetailState(
 			return;
 		}
 		const key = cacheKey(type, id);
-		const cached = cache.get(key);
-		if (cached !== undefined) {
-			data = cached;
+		if (dashboardLoader.has(key)) {
+			data = dashboardLoader.get(key) ?? null;
 			loading = false;
 			return;
 		}

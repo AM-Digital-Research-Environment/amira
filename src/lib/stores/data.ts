@@ -17,6 +17,7 @@ import {
 	loadResearchSections,
 	loadEnrichedLocations
 } from '$lib/utils/loaders';
+import { createOnceLoader } from '$lib/utils/loaders/cacheFactory';
 import { calculateStats } from '$lib/utils/transforms';
 
 /**
@@ -160,42 +161,45 @@ export async function initializeData(basePath: string = '') {
 }
 
 // --------------------------------------------------------------------------
-// Lazy loader for the full per-university collection dumps.
+// Lazy loaders.
 // --------------------------------------------------------------------------
-// Called by routes that actually need every item in memory (home overview,
-// research-items browse, collections detail, project-explorer, network,
-// semantic-map, whats-new, compare-projects, projects browse) as well as
-// entity *list* views where we currently derive counts on the fly. Entity
-// *detail* views (languages/subjects/people/…) use the precomputed per-
-// entity JSON instead and do NOT call this.
-let collectionsPromise: Promise<void> | null = null;
+// `ensureCollections` is called by routes that actually need every item in
+// memory (home overview, research-items browse, collections detail, etc.).
+// Entity *detail* views (languages/subjects/people/…) use the precomputed
+// per-entity JSON instead and do NOT call this.
+//
+// Both loaders capture the basePath from their first call. If a later call
+// passes a different basePath it is ignored — in practice every caller
+// resolves it from the same `$app/paths` import, so this is safe.
+let collectionsBasePath = '';
+const collectionsLoader = createOnceLoader<void>(async () => {
+	collectionsLoading.set(true);
+	try {
+		const all = await loadAllCollectionsTagged(collectionsBasePath);
+		allCollections.set(all);
+	} catch (error) {
+		console.error('Failed to load collections:', error);
+	} finally {
+		collectionsLoading.set(false);
+	}
+});
 
 export function ensureCollections(basePath: string = ''): Promise<void> {
-	if (collectionsPromise) return collectionsPromise;
-	collectionsLoading.set(true);
-	collectionsPromise = loadAllCollectionsTagged(basePath)
-		.then((all) => {
-			allCollections.set(all);
-		})
-		.catch((error) => {
-			console.error('Failed to load collections:', error);
-		})
-		.finally(() => {
-			collectionsLoading.set(false);
-		});
-	return collectionsPromise;
+	if (!collectionsLoader.isLoaded()) collectionsBasePath = basePath;
+	return collectionsLoader.fetch();
 }
 
 // Lazy-loaded geolocation. Routes that render the map call this from onMount;
 // it caches the result so multiple consumers share a single fetch.
-let geolocPromise: Promise<void> | null = null;
-export function ensureEnrichedLocations(basePath: string = '') {
-	if (geolocPromise) return geolocPromise;
-	geolocPromise = (async () => {
-		const data = await loadEnrichedLocations(basePath);
-		enrichedLocations.set(data);
-	})();
-	return geolocPromise;
+let geolocBasePath = '';
+const geolocLoader = createOnceLoader<void>(async () => {
+	const data = await loadEnrichedLocations(geolocBasePath);
+	enrichedLocations.set(data);
+});
+
+export function ensureEnrichedLocations(basePath: string = ''): Promise<void> {
+	if (!geolocLoader.isLoaded()) geolocBasePath = basePath;
+	return geolocLoader.fetch();
 }
 
 // Theme store

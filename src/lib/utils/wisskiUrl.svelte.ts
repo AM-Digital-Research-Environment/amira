@@ -14,53 +14,43 @@
  */
 
 import { base } from '$app/paths';
-import { SvelteMap } from 'svelte/reactivity';
 import { fetchJSON } from './loaders/fetchHelpers';
+import { createLazyLoader } from './loaders/cacheFactory';
 
 export type WisskiCategoryMap = Record<string, string>;
 
-// SvelteMap so $derived consumers in components automatically re-run when a
-// new category lands. inflight is a plain Map — its mutations are not what
-// drives reactivity.
-const cache: SvelteMap<string, WisskiCategoryMap> = new SvelteMap();
-// eslint-disable-next-line svelte/prefer-svelte-reactivity
-const inflight: Map<string, Promise<WisskiCategoryMap | null>> = new Map();
+// `reactive: true` so $derived consumers reading the cache below
+// (via `getWisskiUrl`) re-run automatically when a new category lands.
+let wisskiBasePath: string = base;
+const wisskiLoader = createLazyLoader<string, WisskiCategoryMap>(
+	async (category) => {
+		const data = await fetchJSON<WisskiCategoryMap>(
+			`${wisskiBasePath}/data/dev/dev.wisski_urls.${category}.json`
+		);
+		return data ?? {};
+	},
+	{ reactive: true }
+);
 
 /**
  * Force-load a category file (idempotent). Safe to call from `onMount`.
  */
-export async function loadWisskiUrls(
+export function loadWisskiUrls(
 	category: string,
 	basePath: string = base
 ): Promise<WisskiCategoryMap | null> {
-	const cached = cache.get(category);
-	if (cached) return cached;
-	const pending = inflight.get(category);
-	if (pending) return pending;
-
-	const promise = (async () => {
-		try {
-			const data = await fetchJSON<WisskiCategoryMap>(
-				`${basePath}/data/dev/dev.wisski_urls.${category}.json`
-			);
-			cache.set(category, data ?? {});
-			return cache.get(category)!;
-		} finally {
-			inflight.delete(category);
-		}
-	})();
-
-	inflight.set(category, promise);
-	return promise;
+	wisskiBasePath = basePath;
+	return wisskiLoader.fetch(category);
 }
 
 /**
- * Reactive lookup: reads `cache` (a SvelteMap), so callers using this inside
- * a Svelte 5 `$derived` automatically re-run after the category file lands.
+ * Reactive lookup: reads from a SvelteMap-backed cache, so callers using
+ * this inside a Svelte 5 `$derived` automatically re-run after the
+ * category file lands.
  *
  * Returns null if the category file is missing or has not been loaded yet.
  * Callers are expected to kick off `loadWisskiUrls(category)` from onMount.
  */
 export function getWisskiUrl(category: string, key: string): string | null {
-	return cache.get(category)?.[key] ?? null;
+	return wisskiLoader.get(category)?.[key] ?? null;
 }
