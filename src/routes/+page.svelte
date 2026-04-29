@@ -41,7 +41,12 @@
 		ArrowRight
 	} from '@lucide/svelte';
 	import { normalizeLanguageCode } from '$lib/utils/languages';
-	import { institutionUrl } from '$lib/utils/urls';
+	import {
+		buildClusterPartnerLocations,
+		PARTNER_LEGEND_LABELS,
+		PARTNER_COLORS,
+		type PartnerCategory
+	} from '$lib/utils/clusterPartners';
 	import { SvelteSet } from 'svelte/reactivity';
 
 	onMount(() => {
@@ -51,57 +56,23 @@
 	// Word cloud controls
 	let wordCloudMaxWords = $state(120);
 
-	// Cluster locations: the University of Bayreuth (lead) and the four
-	// Africa Multiple Research Centres (AMRCs). Coordinates are for each host
-	// city — shown on the overview map so the geographic reach of the cluster
-	// is visible without having to click through to individual locations.
-	const clusterLocations = [
-		{
-			latitude: 49.9457,
-			longitude: 11.5775,
-			label: 'University of Bayreuth',
-			iconUrl: `${base}/logos/UBT.webp`,
-			href: institutionUrl('University of Bayreuth')
-		},
-		{
-			latitude: 12.3714,
-			longitude: -1.5197,
-			label: 'Université Joseph Ki-Zerbo',
-			iconUrl: `${base}/logos/UJKZ.webp`,
-			href: institutionUrl('Universite Joseph Ki-Zerbo')
-		},
-		{
-			latitude: 6.5244,
-			longitude: 3.3792,
-			label: 'University of Lagos',
-			iconUrl: `${base}/logos/ULG.webp`,
-			href: institutionUrl('University of Lagos')
-		},
-		{
-			latitude: 0.5143,
-			longitude: 35.2698,
-			label: 'Moi University',
-			iconUrl: `${base}/logos/Moi.webp`,
-			href: institutionUrl('Moi University')
-		},
-		{
-			latitude: -33.3117,
-			longitude: 26.5197,
-			label: 'Rhodes University',
-			iconUrl: `${base}/logos/Rhodes_University.webp`,
-			href: institutionUrl('Rhodes University')
-		},
-		// Privileged partner. Uses the UFBA logo as marker; the second popup
-		// line reads "Privileged partner" so the category is clear.
-		{
-			latitude: -12.9974,
-			longitude: -38.5124,
-			label: 'Centro de Estudos Afro-Orientais (CEAO) at the Universidade Federal da Bahia (UFBA)',
-			sublabel: 'Privileged partner',
-			iconUrl: `${base}/logos/UFBA.webp`,
-			href: institutionUrl('Universidade Federal da Bahia')
-		}
-	];
+	// Cluster geography: AMRCs (logos), the privileged partner (UFBA's CEAO,
+	// logo), plus cooperation partners and global partner Centers of African
+	// Studies rendered as colour-coded dots. Data lives in clusterPartners.ts
+	// so the marker set stays editable without touching this page.
+	const clusterLocations = buildClusterPartnerLocations();
+
+	// Per-category visibility, toggled by the legend below the map. The map's
+	// initial fitBounds runs against the full set; subsequent toggles don't
+	// re-fit (`fitOnUpdate={false}`) so the camera stays put.
+	const visibleCategories = new SvelteSet<PartnerCategory>(['amrc', 'cooperation', 'global']);
+	let visibleClusterLocations = $derived(
+		clusterLocations.filter((p) => visibleCategories.has(p.category))
+	);
+	function toggleCategory(c: PartnerCategory) {
+		if (visibleCategories.has(c)) visibleCategories.delete(c);
+		else visibleCategories.add(c);
+	}
 
 	// Derived chart data
 	let stackedTimelineData = $derived(groupByYearAndType($filteredCollections));
@@ -326,13 +297,62 @@
 		/>
 	</div>
 
-	<!-- Cluster geography: University of Bayreuth (lead), four AMRCs, plus
-	     CEAO at UFBA as a privileged partner. -->
+	<!-- Cluster geography: University of Bayreuth (lead), four AMRCs, the
+	     privileged partner (UFBA's CEAO), plus cooperation partners and
+	     global partner Centers of African Studies. -->
 	<ChartCard
-		title="Africa Multiple Research Centres (AMRCs) and the privileged partner"
+		title="Africa Multiple Research Centres (AMRCs) and its partners"
 		contentHeight="h-chart-xl"
 	>
-		<MiniMap markers={clusterLocations} zoom={2} class="h-full" />
+		<div class="flex h-full flex-col gap-3">
+			<MiniMap
+				markers={visibleClusterLocations}
+				zoom={2}
+				class="flex-1 min-h-0"
+				fitOnUpdate={false}
+			/>
+			<div
+				class="shrink-0 flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-sm text-muted-foreground"
+			>
+				<button
+					type="button"
+					class="legend-toggle"
+					class:legend-off={!visibleCategories.has('amrc')}
+					aria-pressed={visibleCategories.has('amrc')}
+					onclick={() => toggleCategory('amrc')}
+				>
+					<span class="inline-block w-3.5 h-3.5 rounded-full bg-background border border-border"
+					></span>
+					<span>AMRCs &amp; privileged partner (logos)</span>
+				</button>
+				<button
+					type="button"
+					class="legend-toggle"
+					class:legend-off={!visibleCategories.has('cooperation')}
+					aria-pressed={visibleCategories.has('cooperation')}
+					onclick={() => toggleCategory('cooperation')}
+				>
+					<span
+						class="inline-block w-3.5 h-3.5 rounded-full"
+						style="background-color: {PARTNER_COLORS.cooperation};"
+					></span>
+					<span>{PARTNER_LEGEND_LABELS.cooperation}</span>
+				</button>
+				<button
+					type="button"
+					class="legend-toggle"
+					class:legend-off={!visibleCategories.has('global')}
+					aria-pressed={visibleCategories.has('global')}
+					onclick={() => toggleCategory('global')}
+				>
+					<span
+						class="inline-block w-3.5 h-3.5 rounded-full"
+						style="background-color: {PARTNER_COLORS.global};"
+					></span>
+					<span>{PARTNER_LEGEND_LABELS.global}</span>
+				</button>
+			</div>
+		</div>
 	</ChartCard>
 
 	<!-- Research Sections (project-level, unfiltered) -->
@@ -480,3 +500,31 @@
 		</ChartCard>
 	</div>
 </div>
+
+<style>
+	.legend-toggle {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.5rem;
+		padding: 0.125rem 0.25rem;
+		border-radius: 0.25rem;
+		color: hsl(var(--muted-foreground));
+		cursor: pointer;
+		transition:
+			opacity 150ms ease,
+			color 150ms ease;
+	}
+	.legend-toggle:hover {
+		color: hsl(var(--foreground));
+	}
+	.legend-toggle:focus-visible {
+		outline: 2px solid hsl(var(--ring));
+		outline-offset: 2px;
+	}
+	.legend-toggle.legend-off {
+		opacity: 0.4;
+	}
+	.legend-toggle.legend-off span:last-child {
+		text-decoration: line-through;
+	}
+</style>

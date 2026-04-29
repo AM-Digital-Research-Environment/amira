@@ -27,11 +27,18 @@
 		markers: Marker[];
 		zoom?: number;
 		class?: string;
+		/** When true (default), the map re-fits its bounds every time the
+		 *  marker list changes. Set to false when the caller toggles markers
+		 *  on/off and wants the camera to stay put after the initial render. */
+		fitOnUpdate?: boolean;
 	}
 
-	let { markers, zoom, class: className = '' }: Props = $props();
+	let { markers, zoom, class: className = '', fitOnUpdate = true }: Props = $props();
 
 	let mapContainer: HTMLDivElement | undefined = $state();
+	// Becomes true after the first time addMarkers() runs an auto-fit. Used
+	// to gate subsequent fits when fitOnUpdate is false.
+	let hasAutoFit = false;
 	// Tracked via $state so the projection-toggle button reactively picks
 	// up the live map instance once it's initialised.
 	let map: maplibregl.Map | null = $state(null);
@@ -147,15 +154,19 @@
 			mapMarkers.push(marker);
 		});
 
-		if (markers.length > 1) {
-			const bounds = new maplibregl.LngLatBounds();
-			markers.forEach((m) => bounds.extend([m.longitude, m.latitude]));
-			map.fitBounds(bounds, { padding: 40, maxZoom: 8 });
-		} else if (markers.length === 1) {
-			map.flyTo({
-				center: [markers[0].longitude, markers[0].latitude],
-				zoom: zoom ?? 5
-			});
+		const shouldFit = fitOnUpdate || !hasAutoFit;
+		if (shouldFit) {
+			if (markers.length > 1) {
+				const bounds = new maplibregl.LngLatBounds();
+				markers.forEach((m) => bounds.extend([m.longitude, m.latitude]));
+				map.fitBounds(bounds, { padding: 40, maxZoom: 8 });
+			} else if (markers.length === 1) {
+				map.flyTo({
+					center: [markers[0].longitude, markers[0].latitude],
+					zoom: zoom ?? 5
+				});
+			}
+			hasAutoFit = true;
 		}
 	}
 
