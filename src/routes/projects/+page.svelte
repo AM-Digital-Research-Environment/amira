@@ -15,7 +15,11 @@
 	} from '$lib/components/ui';
 	import { getSectionColor, getSectionColorResolved } from '$lib/utils/helpers';
 	import { BarChart, Timeline, BeeswarmChart, GanttChart } from '$lib/components/charts';
-	import { SearchableItemsCard, FilterToggleBar } from '$lib/components/entity-browse';
+	import {
+		SearchableItemsCard,
+		FilterToggleBar,
+		EntityDetailHeader
+	} from '$lib/components/entity-browse';
 	import { EntityDashboardSection } from '$lib/components/dashboards';
 	import { createEntityDetailState } from '$lib/utils/loaders';
 	import { projects, allCollections, ensureCollections } from '$lib/stores/data';
@@ -346,71 +350,63 @@
 			</button>
 
 			<!-- Project Header -->
-			<Card class="overflow-hidden">
-				{#snippet children()}
-					<CardHeader>
-						{#snippet children()}
-							<div class="min-w-0">
-								<CardTitle class="break-words">
-									{#snippet children()}{selectedProject.name}{/snippet}
-								</CardTitle>
-							</div>
-						{/snippet}
-					</CardHeader>
-					<CardContent>
-						{#snippet children()}
-							<div class="grid gap-3 text-sm sm:grid-cols-2">
-								<div class="flex items-center gap-2">
-									<Hash class="h-4 w-4 text-muted-foreground shrink-0" />
-									<span class="text-muted-foreground shrink-0">Identifier</span>
-									<span class="text-foreground font-mono">{selectedProject.id}</span>
-								</div>
-								{#if selectedProject.researchSection?.length > 0}
-									<div class="flex items-center gap-2">
-										<BookOpen class="h-4 w-4 text-muted-foreground shrink-0" />
-										<span class="text-muted-foreground shrink-0">Research Section</span>
-										<span class="text-foreground">
-											{#each selectedProject.researchSection as section, i (section)}
-												<a
-													href={researchSectionsUrl(section)}
-													class="hover:text-primary transition-colors">{section}</a
-												>{#if i < selectedProject.researchSection.length - 1},&nbsp;{/if}
-											{/each}
-										</span>
-									</div>
-								{/if}
-								{#if selectedProject.date?.start || selectedProject.date?.end}
-									<div class="flex items-center gap-2">
-										<Calendar class="h-4 w-4 text-muted-foreground shrink-0" />
-										<span class="text-muted-foreground shrink-0">Duration</span>
-										<span class="text-foreground"
-											>{formatDate(selectedProject.date?.start)} – {formatDate(
-												selectedProject.date?.end
-											)}</span
-										>
-									</div>
-								{/if}
-								<div class="flex items-center gap-2">
-									<WissKILink category="projects" entityKey={selectedProject.id} />
-								</div>
-								{#if getProjectLink(selectedProject.id)}
-									<div class="flex items-center gap-2">
+			<EntityDetailHeader
+				title={selectedProject.name}
+				wisskiCategory="projects"
+				wisskiKey={selectedProject.id}
+				hideWisskiLink
+			>
+				{#snippet content()}
+					<div class="grid gap-3 text-sm sm:grid-cols-2">
+						<div class="flex items-center gap-2">
+							<Hash class="h-4 w-4 text-muted-foreground shrink-0" />
+							<span class="text-muted-foreground shrink-0">Identifier</span>
+							<span class="text-foreground font-mono">{selectedProject.id}</span>
+						</div>
+						{#if selectedProject.researchSection?.length > 0}
+							<div class="flex items-center gap-2">
+								<BookOpen class="h-4 w-4 text-muted-foreground shrink-0" />
+								<span class="text-muted-foreground shrink-0">Research Section</span>
+								<span class="text-foreground">
+									{#each selectedProject.researchSection as section, i (section)}
 										<a
-											href={getProjectLink(selectedProject.id)}
-											target="_blank"
-											rel="noopener noreferrer"
-											class="inline-flex items-center gap-1 rounded-full border px-2.5 py-0.5 text-xs font-medium text-muted-foreground hover:text-primary hover:border-primary/50 transition-colors"
-										>
-											<ExternalLink class="h-3 w-3" />
-											Project page
-										</a>
-									</div>
-								{/if}
+											href={researchSectionsUrl(section)}
+											class="hover:text-primary transition-colors">{section}</a
+										>{#if i < selectedProject.researchSection.length - 1},&nbsp;{/if}
+									{/each}
+								</span>
 							</div>
-						{/snippet}
-					</CardContent>
+						{/if}
+						{#if selectedProject.date?.start || selectedProject.date?.end}
+							<div class="flex items-center gap-2">
+								<Calendar class="h-4 w-4 text-muted-foreground shrink-0" />
+								<span class="text-muted-foreground shrink-0">Duration</span>
+								<span class="text-foreground"
+									>{formatDate(selectedProject.date?.start)} – {formatDate(
+										selectedProject.date?.end
+									)}</span
+								>
+							</div>
+						{/if}
+						<div class="flex items-center gap-2">
+							<WissKILink category="projects" entityKey={selectedProject.id} />
+						</div>
+						{#if getProjectLink(selectedProject.id)}
+							<div class="flex items-center gap-2">
+								<a
+									href={getProjectLink(selectedProject.id)}
+									target="_blank"
+									rel="noopener noreferrer"
+									class="inline-flex items-center gap-1 rounded-full border px-2.5 py-0.5 text-xs font-medium text-muted-foreground hover:text-primary hover:border-primary/50 transition-colors"
+								>
+									<ExternalLink class="h-3 w-3" />
+									Project page
+								</a>
+							</div>
+						{/if}
+					</div>
 				{/snippet}
-			</Card>
+			</EntityDetailHeader>
 
 			<!-- Description -->
 			{#if getDescription(selectedProject)}

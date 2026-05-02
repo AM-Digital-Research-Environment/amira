@@ -212,11 +212,23 @@ is one commit; tests gate each.
   `projects` is left as-is — it has a simpler unconditional `onMount` and no
   duplication to fold in.
 
-### 2.4 Adopt `EntityDetailHeader` in people / projects
+### 2.4 Adopt `EntityDetailHeader` in people / projects ✅
 
-- `routes/people/+page.svelte` lines 463–511 → `EntityDetailHeader`.
-- `routes/projects/+page.svelte` lines 348–413 → `EntityDetailHeader`.
-- ~115 lines deleted across the two pages.
+- Extend `EntityDetailHeader.svelte` with a `content` snippet (rendered as
+  `<CardContent>` beneath the header) and a `hideWisskiLink` flag — both
+  needed so the projects header (which has structured detail rows and an
+  inline `WissKILink`) can be expressed without losing fidelity.
+- `routes/people/+page.svelte` — 47-line header → ~30-line snippet usage.
+  All custom badges (Section PI, Spokesperson, PI of N, Member of N,
+  research items) live in the `badges` snippet; `WissKILink` is auto-rendered
+  from `wisskiCategory`/`wisskiKey`.
+- `routes/projects/+page.svelte` — 65-line header → uses the new `content`
+  snippet for the structured detail rows (identifier, research section,
+  duration, project link). `hideWisskiLink` is set so the inline
+  `WissKILink` inside `content` isn't duplicated.
+- Tests: `EntityDetailHeader.test.ts` (10 tests covering title, subtitle,
+  count pluralisation, percent badge, empty-row suppression, content
+  snippet wiring, badges snippet, and the `hideWisskiLink` flag).
 
 ### 2.5 Expand chart `optionBuilders`
 

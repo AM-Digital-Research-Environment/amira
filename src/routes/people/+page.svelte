@@ -9,13 +9,13 @@
 		BackToList,
 		Combobox,
 		SEO,
-		SectionBadge,
-		WissKILink
+		SectionBadge
 	} from '$lib/components/ui';
 	import {
 		EntityCard,
 		EntityBrowseGrid,
 		EntityToolbar,
+		EntityDetailHeader,
 		SearchableItemsCard,
 		applyEntitySort,
 		useEntityCollectionLoader,
@@ -448,55 +448,45 @@
 			<BackToList show={true} onclick={clearSelection} label="Back to people" />
 
 			<!-- Person Header -->
-			<Card class="overflow-hidden">
-				{#snippet children()}
-					<CardHeader>
-						{#snippet children()}
-							<div class="min-w-0">
-								<div class="flex items-center gap-2">
-									<Users class="h-6 w-6 text-primary shrink-0" />
-									<CardTitle class="break-words">
-										{#snippet children()}{selectedPerson.name}{/snippet}
-									</CardTitle>
-								</div>
-								<div class="flex flex-wrap gap-2 mt-3">
-									{#if selectedPerson.isSectionPI}
-										<Badge>{#snippet children()}Section PI{/snippet}</Badge>
-									{/if}
-									{#if selectedPerson.isSectionSpokesperson}
-										<Badge>{#snippet children()}Spokesperson{/snippet}</Badge>
-									{/if}
-									{#if selectedPerson.piOf.length > 0}
-										<Badge variant="secondary">
-											{#snippet children()}PI of {selectedPerson.piOf.length} project{selectedPerson
-													.piOf.length !== 1
-													? 's'
-													: ''}{/snippet}
-										</Badge>
-									{/if}
-									{#if selectedPerson.memberOf.length > 0}
-										<Badge variant="secondary">
-											{#snippet children()}Member of {selectedPerson.memberOf.length} project{selectedPerson
-													.memberOf.length !== 1
-													? 's'
-													: ''}{/snippet}
-										</Badge>
-									{/if}
-									{#if personCollectionItems.length > 0}
-										<Badge variant="outline">
-											{#snippet children()}{personCollectionItems.length} research item{personCollectionItems.length !==
-												1
-													? 's'
-													: ''}{/snippet}
-										</Badge>
-									{/if}
-									<WissKILink category="persons" entityKey={selectedPerson.name} />
-								</div>
-							</div>
-						{/snippet}
-					</CardHeader>
+			<EntityDetailHeader
+				title={selectedPerson.name}
+				icon={Users}
+				wisskiCategory="persons"
+				wisskiKey={selectedPerson.name}
+			>
+				{#snippet badges()}
+					{#if selectedPerson.isSectionPI}
+						<Badge>{#snippet children()}Section PI{/snippet}</Badge>
+					{/if}
+					{#if selectedPerson.isSectionSpokesperson}
+						<Badge>{#snippet children()}Spokesperson{/snippet}</Badge>
+					{/if}
+					{#if selectedPerson.piOf.length > 0}
+						<Badge variant="secondary">
+							{#snippet children()}PI of {selectedPerson.piOf.length} project{selectedPerson.piOf
+									.length !== 1
+									? 's'
+									: ''}{/snippet}
+						</Badge>
+					{/if}
+					{#if selectedPerson.memberOf.length > 0}
+						<Badge variant="secondary">
+							{#snippet children()}Member of {selectedPerson.memberOf.length} project{selectedPerson
+									.memberOf.length !== 1
+									? 's'
+									: ''}{/snippet}
+						</Badge>
+					{/if}
+					{#if personCollectionItems.length > 0}
+						<Badge variant="outline">
+							{#snippet children()}{personCollectionItems.length} research item{personCollectionItems.length !==
+								1
+									? 's'
+									: ''}{/snippet}
+						</Badge>
+					{/if}
 				{/snippet}
-			</Card>
+			</EntityDetailHeader>
 
 			{#if !personHasData(selectedPerson)}
 				{@const wisskiHref = getWisskiUrl('persons', selectedPerson.name)}
