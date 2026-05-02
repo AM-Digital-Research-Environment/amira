@@ -20,3 +20,4 @@ export { default as SectionBadge } from './section-badge.svelte';
 export { default as ScrollToTop } from './scroll-to-top.svelte';
 export { default as ScrollableTable } from './scrollable-table.svelte';
 export { default as Callout } from './callout.svelte';
+export { default as Modal } from './modal.svelte';

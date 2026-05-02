@@ -32,7 +32,7 @@ for review.
 | ----- | ------- | ------------------------------------------------------------------------ |
 | 0     | done    | Test harness — Vitest, Testing Library, Playwright, seed unit tests      |
 | 1     | done    | Low-risk cleanups — barrel deletions, helpers split, fetch/cache helpers |
-| 2     | pending | UI primitives — `Modal`, `FilterToggleBar`, expanded `optionBuilders`    |
+| 2     | partial | UI primitives — `Modal`, `FilterToggleBar`, expanded `optionBuilders`    |
 | 3     | pending | Component splits — `ItemDetail`, `ItemFilters`, dashboard layouts, maps  |
 | 4     | pending | Architectural shells — `EntityPageContainer`, `EntityDetailViewShell`    |
 
@@ -166,12 +166,26 @@ is one commit; tests gate each.
 
 ## Phase 2 — UI primitives + shared components
 
-### 2.1 `ui/modal.svelte` primitive
+### 2.1 `ui/modal.svelte` primitive ✅
 
 - **Create** `src/lib/components/ui/modal.svelte` — backdrop, Escape key,
-  body-scroll lock, focus trap, `aria-labelledby`.
+  body-scroll lock, focus trap, `aria-labelledby` / `aria-label`, focus
+  restoration on close, dual `align="center" | "start"` mode.
 - **Refactor** `collections/PhotoLightbox.svelte` and
-  `collections/IssueTocModal.svelte` to use it (~80 lines saved each, plus a11y).
+  `collections/IssueTocModal.svelte` to use it.
+- Inner `transition:scale` on the lightbox / TOC frames is replaced by a
+  CSS `@keyframes` animation that respects `prefers-reduced-motion` —
+  Svelte 5's bidirectional `transition:` directive fights with conditional
+  outros nested inside a child component's `{#if}` block (an outro can
+  finish at `currentTime: 0` but leave the element mounted).
+- Backdrop fade is also a CSS animation for the same reason.
+- Tests: `src/lib/components/ui/modal.test.ts` (10 tests covering open
+  state, ARIA, scroll lock, Escape, backdrop click, inner click, close
+  button, `showClose=false`, `align="start"`).
+- Test harness: jsdom does not implement the Web Animations API, so
+  `src/test-setup.ts` now stubs `Element.prototype.animate` to a no-op
+  Animation — required for any component that imports
+  `svelte/transition`.
 
 ### 2.2 `entity-browse/FilterToggleBar.svelte`
 

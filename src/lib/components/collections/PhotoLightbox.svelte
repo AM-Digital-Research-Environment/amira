@@ -1,9 +1,9 @@
 <script lang="ts">
 	import type { CollectionItem } from '$lib/types';
-	import { onDestroy } from 'svelte';
-	import { fade, scale, fly } from 'svelte/transition';
+	import { fade, fly } from 'svelte/transition';
 	import { cubicOut } from 'svelte/easing';
-	import { X, ChevronLeft, ChevronRight, MapPin, Calendar, ExternalLink } from '@lucide/svelte';
+	import { ChevronLeft, ChevronRight, MapPin, Calendar, ExternalLink } from '@lucide/svelte';
+	import { Modal } from '$lib/components/ui';
 	import {
 		getPreviewImage,
 		getDescriptiveTitle,
@@ -37,52 +37,24 @@
 	let topics = $derived(current ? getTopicLabels(current, 12) : []);
 	let externalUrl = $derived(current ? getExternalUrl(current) : null);
 	let aliasCount = $derived(current && countsById ? (countsById.get(current._id) ?? 1) : 1);
+	let isOpen = $derived(current !== null && previewUrl !== null);
 
-	function handleKey(e: KeyboardEvent) {
-		if (index === null) return;
-		if (e.key === 'Escape') onClose();
-		else if (e.key === 'ArrowLeft') onPrev();
+	function handleArrowKey(e: KeyboardEvent) {
+		if (!isOpen) return;
+		if (e.key === 'ArrowLeft') onPrev();
 		else if (e.key === 'ArrowRight') onNext();
 	}
 
 	$effect(() => {
 		if (typeof document === 'undefined') return;
-		if (index !== null) {
-			document.addEventListener('keydown', handleKey);
-			document.body.style.overflow = 'hidden';
-		}
-		return () => {
-			document.removeEventListener('keydown', handleKey);
-			document.body.style.overflow = '';
-		};
-	});
-
-	onDestroy(() => {
-		if (typeof document !== 'undefined') {
-			document.body.style.overflow = '';
-		}
+		if (!isOpen) return;
+		document.addEventListener('keydown', handleArrowKey);
+		return () => document.removeEventListener('keydown', handleArrowKey);
 	});
 </script>
 
-{#if current && previewUrl}
-	<div
-		class="lightbox-backdrop"
-		role="dialog"
-		aria-modal="true"
-		aria-label={title}
-		onclick={(e) => {
-			if (e.target === e.currentTarget) onClose();
-		}}
-		onkeydown={(e) => {
-			if (e.key === 'Escape') onClose();
-		}}
-		tabindex="-1"
-		transition:fade={{ duration: 180 }}
-	>
-		<button type="button" class="lightbox-close" onclick={onClose} aria-label="Close (Esc)">
-			<X class="h-5 w-5" />
-		</button>
-
+<Modal open={isOpen} {onClose} aria-label={title}>
+	{#if current && previewUrl}
 		<button
 			type="button"
 			class="lightbox-nav lightbox-nav-prev"
@@ -101,7 +73,7 @@
 			<ChevronRight class="h-6 w-6" />
 		</button>
 
-		<div class="lightbox-frame" transition:scale={{ duration: 220, start: 0.96, easing: cubicOut }}>
+		<div class="lightbox-frame">
 			{#key current._id}
 				<div class="lightbox-image" in:fade={{ duration: 180, delay: 60 }}>
 					<img src={previewUrl} alt={title} draggable="false" />
@@ -163,48 +135,10 @@
 				{/key}
 			</aside>
 		</div>
-	</div>
-{/if}
+	{/if}
+</Modal>
 
 <style>
-	.lightbox-backdrop {
-		position: fixed;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		left: 0;
-		z-index: 80;
-		background: hsl(var(--background) / 0.92);
-		backdrop-filter: blur(6px);
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		padding: 2rem;
-		/* On mobile the backdrop itself scrolls so a tall metadata card
-		   never clips off the bottom of the viewport. The frame grows
-		   naturally; the backdrop is the scroll container. */
-		overflow-y: auto;
-		transition: left var(--duration-slow) var(--ease-expo-out);
-	}
-
-	@media (max-width: 900px) {
-		.lightbox-backdrop {
-			padding: 1rem;
-			align-items: flex-start;
-		}
-	}
-
-	/* Desktop: inset by the current sidebar width so the lightbox frame
-	   is centered within the visible content area, not the raw viewport.
-	   The `--sidebar-offset` variable comes from +layout.svelte and
-	   updates live when the user collapses / expands the rail. */
-	@media (min-width: 1024px) {
-		.lightbox-backdrop {
-			left: var(--sidebar-offset, 0px);
-		}
-	}
-
-	.lightbox-close,
 	.lightbox-nav {
 		position: absolute;
 		display: inline-flex;
@@ -221,16 +155,9 @@
 			background 160ms ease,
 			color 160ms ease;
 	}
-	.lightbox-close:hover,
 	.lightbox-nav:hover {
 		background: hsl(var(--primary));
 		color: hsl(var(--primary-foreground));
-	}
-
-	.lightbox-close {
-		top: 1rem;
-		right: 1rem;
-		z-index: 2;
 	}
 
 	.lightbox-nav-prev {
@@ -255,6 +182,23 @@
 		border: 1px solid hsl(var(--border));
 		border-radius: var(--radius);
 		overflow: hidden;
+		animation: lightbox-frame-in 220ms cubic-bezier(0.33, 1, 0.68, 1);
+		transform-origin: center;
+	}
+	@keyframes lightbox-frame-in {
+		from {
+			opacity: 0;
+			transform: scale(0.96);
+		}
+		to {
+			opacity: 1;
+			transform: scale(1);
+		}
+	}
+	@media (prefers-reduced-motion: reduce) {
+		.lightbox-frame {
+			animation: none;
+		}
 	}
 
 	@media (max-width: 900px) {
@@ -280,11 +224,11 @@
 		display: block;
 	}
 
-	/* On mobile the backdrop itself scrolls (see `.lightbox-backdrop`), so
-	   the image can occupy close to the full viewport height without
-	   hiding the metadata — users reach the title / date / topics by
-	   scrolling the modal. Keep a small gap at the bottom so the start of
-	   the metadata peeks in and hints that more content is below. */
+	/* On mobile the backdrop itself scrolls (see Modal styles), so the
+	   image can occupy close to the full viewport height without hiding
+	   the metadata — users reach the title / date / topics by scrolling
+	   the modal. Keep a small gap at the bottom so the start of the
+	   metadata peeks in and hints that more content is below. */
 	@media (max-width: 900px) {
 		.lightbox-image :global(img) {
 			max-height: calc(100vh - 6rem);

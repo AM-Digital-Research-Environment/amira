@@ -1,11 +1,9 @@
 <script lang="ts">
 	import type { CollectionItem } from '$lib/types';
-	import { onDestroy } from 'svelte';
-	import { fade, scale } from 'svelte/transition';
-	import { cubicOut } from 'svelte/easing';
-	import { X, ExternalLink, ArrowRight, BookOpen } from '@lucide/svelte';
+	import { ExternalLink, ArrowRight, BookOpen } from '@lucide/svelte';
 	import { base } from '$app/paths';
 	import { thumbnailManifest } from '$lib/stores/data';
+	import { Modal } from '$lib/components/ui';
 	import {
 		getPreviewImage,
 		resolveThumbnailUrl,
@@ -30,6 +28,7 @@
 	let coverUrl = $derived(resolveThumbnailUrl(originalCover, $thumbnailManifest, base));
 	let issueInfo = $derived(items ? extractGroupIssueInfo(items) : null);
 	let sortedItems = $derived(items ? sortByIssueOrder(items) : []);
+	let isOpen = $derived(items !== null && cover !== null);
 
 	function articleUrl(item: CollectionItem): string {
 		const id = item.dre_id || item._id;
@@ -48,51 +47,16 @@
 		if (names.length <= 3) return names.join(', ');
 		return `${names.slice(0, 3).join(', ')} and ${names.length - 3} other${names.length - 3 === 1 ? '' : 's'}`;
 	}
-
-	function handleKey(e: KeyboardEvent) {
-		if (!items) return;
-		if (e.key === 'Escape') onClose();
-	}
-
-	$effect(() => {
-		if (typeof document === 'undefined') return;
-		if (items) {
-			document.addEventListener('keydown', handleKey);
-			document.body.style.overflow = 'hidden';
-		}
-		return () => {
-			document.removeEventListener('keydown', handleKey);
-			document.body.style.overflow = '';
-		};
-	});
-
-	onDestroy(() => {
-		if (typeof document !== 'undefined') {
-			document.body.style.overflow = '';
-		}
-	});
 </script>
 
-{#if items && cover}
-	<div
-		class="toc-backdrop"
-		role="dialog"
-		aria-modal="true"
-		aria-label={issueInfo?.label ?? 'Issue table of contents'}
-		onclick={(e) => {
-			if (e.target === e.currentTarget) onClose();
-		}}
-		onkeydown={(e) => {
-			if (e.key === 'Escape') onClose();
-		}}
-		tabindex="-1"
-		transition:fade={{ duration: 180 }}
-	>
-		<button type="button" class="toc-close" onclick={onClose} aria-label="Close (Esc)">
-			<X class="h-5 w-5" />
-		</button>
-
-		<div class="toc-frame" transition:scale={{ duration: 220, start: 0.96, easing: cubicOut }}>
+<Modal
+	open={isOpen}
+	{onClose}
+	align="start"
+	aria-label={issueInfo?.label ?? 'Issue table of contents'}
+>
+	{#if items && cover}
+		<div class="toc-frame">
 			<aside class="toc-cover">
 				{#if coverUrl}
 					<img src={coverUrl} alt={issueInfo?.label ?? 'Issue cover'} draggable="false" />
@@ -149,63 +113,10 @@
 				</ol>
 			</section>
 		</div>
-	</div>
-{/if}
+	{/if}
+</Modal>
 
 <style>
-	.toc-backdrop {
-		position: fixed;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		left: 0;
-		z-index: 80;
-		background: hsl(var(--background) / 0.92);
-		backdrop-filter: blur(6px);
-		display: flex;
-		align-items: flex-start;
-		justify-content: center;
-		padding: 2rem;
-		overflow-y: auto;
-		transition: left var(--duration-slow) var(--ease-expo-out);
-	}
-
-	@media (max-width: 900px) {
-		.toc-backdrop {
-			padding: 1rem;
-		}
-	}
-
-	@media (min-width: 1024px) {
-		.toc-backdrop {
-			left: var(--sidebar-offset, 0px);
-		}
-	}
-
-	.toc-close {
-		position: absolute;
-		top: 1rem;
-		right: 1rem;
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		width: 2.5rem;
-		height: 2.5rem;
-		border-radius: 999px;
-		background: hsl(var(--card));
-		color: hsl(var(--card-foreground));
-		border: 1px solid hsl(var(--border));
-		cursor: pointer;
-		z-index: 2;
-		transition:
-			background 160ms ease,
-			color 160ms ease;
-	}
-	.toc-close:hover {
-		background: hsl(var(--primary));
-		color: hsl(var(--primary-foreground));
-	}
-
 	.toc-frame {
 		display: grid;
 		grid-template-columns: minmax(220px, 280px) minmax(0, 1fr);
@@ -217,6 +128,23 @@
 		border-radius: var(--radius);
 		overflow: hidden;
 		margin-top: 1rem;
+		animation: toc-frame-in 220ms cubic-bezier(0.33, 1, 0.68, 1);
+		transform-origin: center;
+	}
+	@keyframes toc-frame-in {
+		from {
+			opacity: 0;
+			transform: scale(0.96);
+		}
+		to {
+			opacity: 1;
+			transform: scale(1);
+		}
+	}
+	@media (prefers-reduced-motion: reduce) {
+		.toc-frame {
+			animation: none;
+		}
 	}
 
 	@media (max-width: 900px) {
