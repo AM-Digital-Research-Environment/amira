@@ -32,7 +32,7 @@ for review.
 | ----- | ------- | ------------------------------------------------------------------------ |
 | 0     | done    | Test harness — Vitest, Testing Library, Playwright, seed unit tests      |
 | 1     | done    | Low-risk cleanups — barrel deletions, helpers split, fetch/cache helpers |
-| 2     | partial | UI primitives — `Modal`, `FilterToggleBar`, expanded `optionBuilders`    |
+| 2     | done    | UI primitives — `Modal`, `FilterToggleBar`, expanded `optionBuilders`    |
 | 3     | pending | Component splits — `ItemDetail`, `ItemFilters`, dashboard layouts, maps  |
 | 4     | pending | Architectural shells — `EntityPageContainer`, `EntityDetailViewShell`    |
 
@@ -230,15 +230,27 @@ is one commit; tests gate each.
   count pluralisation, percent badge, empty-row suppression, content
   snippet wiring, badges snippet, and the `hideWisskiLink` flag).
 
-### 2.5 Expand chart `optionBuilders`
+### 2.5 Expand chart `optionBuilders` ✅
 
 - **Add** to `src/lib/components/charts/utils/optionBuilders.ts`:
-  - `buildTooltip(opts)`
-  - `buildLegend(opts)`
-  - `buildVisualMap(opts)`
-  - `buildAxisLabel(opts)`
-- **Migrate** `BarChart`, `HeatmapChart`, `StackedAreaChart`, `PieChart`,
-  `SankeyChart` first; remaining charts in follow-ups.
+  - `buildTooltip(opts)` — collapses the `confine: true, trigger, axisPointer.{type}, formatter, position, triggerOn` boilerplate into a single call.
+  - `buildLegend(opts)` — `position` preset (`top` / `bottom` / `left` /
+    `right`) maps to `orient` + `left`/`top`/`bottom`, with `scroll` on
+    by default and `data` / `textStyle` forwarded.
+  - `buildVisualMap(opts)` — required `min` / `max` / `colors`, optional
+    `orient`, `position`, `itemWidth`, `itemHeight`, `textStyle`,
+    `calculable`, `offset`. Replaces the verbose duplicated heatmap legend
+    config in two charts.
+  - `buildAxisLabel(opts)` — spreads a theme `baseStyle` then layers
+    `rotate` / `fontSize` / `width` / `overflow` / `interval`.
+- **Migrated**: `BarChart`, `HeatmapChart`, `StackedAreaChart`, `PieChart`,
+  `SankeyChart`. Remaining charts (BeeswarmChart, BoxPlot, GanttChart,
+  ChordDiagram, NetworkGraph, RadarChart, SemanticScatter, StackedTimeline,
+  SunburstChart, Timeline, TreemapChart, WordCloud, CalendarHeatmap) keep
+  their inline configs and can be folded in piecemeal later.
+- Tests: `optionBuilders.test.ts` — 28 tests covering every builder
+  (defaults, overrides, position presets, scroll toggle, optional-field
+  omission).
 
 ### Done when
 

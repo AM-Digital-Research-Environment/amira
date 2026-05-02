@@ -6,7 +6,7 @@
 	import type { EChartsOption } from 'echarts';
 	import { cn } from '$lib/utils/cn';
 	import { getChartColor, getThemeColors } from '$lib/styles';
-	import { buildTitle, hideAxes, linkFormatter } from './utils';
+	import { buildTitle, hideAxes, buildTooltip, linkFormatter } from './utils';
 	import { theme } from '$lib/stores/data';
 
 	echarts.use([ESankeyChart, TitleComponent, TooltipComponent]);
@@ -34,12 +34,11 @@
 
 	let option: EChartsOption = $derived({
 		...buildTitle(title),
-		tooltip: {
-			confine: true,
+		tooltip: buildTooltip({
 			trigger: 'item',
 			triggerOn: 'mousemove',
 			formatter: linkFormatter
-		},
+		}),
 		...hideAxes(),
 		series: [
 			{

@@ -12,7 +12,7 @@
 	import { cn } from '$lib/utils/cn';
 	import { getChartEmphasisShadow, getHeatmapRange, axisLabelStyle } from '$lib/styles';
 	import { theme } from '$lib/stores/data';
-	import { buildTitle, buildGrid } from './utils';
+	import { buildTitle, buildGrid, buildTooltip, buildVisualMap, buildAxisLabel } from './utils';
 
 	echarts.use([EHeatmapChart, TitleComponent, TooltipComponent, GridComponent, VisualMapComponent]);
 
@@ -73,8 +73,7 @@
 
 	let option: EChartsOption = $derived({
 		...buildTitle(title),
-		tooltip: {
-			confine: true,
+		tooltip: buildTooltip({
 			position: 'top',
 			formatter: (params: unknown) => {
 				const p = params as { data: [number, number, number]; name: string };
@@ -83,7 +82,7 @@
 				const val = p.data[2];
 				return `<strong>${yLabel}</strong> × <strong>${xLabel}</strong><br/>Count: ${val}`;
 			}
-		},
+		}),
 		grid: buildGrid({
 			left: '3%',
 			right: isNarrow ? '3%' : '8%',
@@ -97,48 +96,43 @@
 			type: 'category',
 			data: xAxisLabels,
 			splitArea: { show: true },
-			axisLabel: {
-				...labelStyle,
+			axisLabel: buildAxisLabel({
+				baseStyle: labelStyle,
 				rotate: 35,
 				interval: 0,
 				fontSize: 11
-			}
+			})
 		},
 		yAxis: {
 			type: 'category',
 			data: yAxisLabels,
 			splitArea: { show: true },
-			axisLabel: {
-				...labelStyle,
+			axisLabel: buildAxisLabel({
+				baseStyle: labelStyle,
 				width: 140,
 				overflow: 'truncate',
 				fontSize: 11
-			}
+			})
 		},
 		visualMap: isNarrow
-			? {
+			? buildVisualMap({
 					min: 0,
 					max: maxValue,
-					calculable: true,
+					colors: effectiveColorRange,
 					orient: 'horizontal',
-					left: 'center',
-					bottom: 4,
+					offset: 4,
 					itemWidth: 14,
 					itemHeight: 110,
-					inRange: { color: effectiveColorRange },
 					textStyle: { fontSize: 11 }
-				}
-			: {
+				})
+			: buildVisualMap({
 					min: 0,
 					max: maxValue,
-					calculable: true,
+					colors: effectiveColorRange,
 					orient: 'vertical',
-					right: 0,
-					top: 'center',
 					itemHeight: 120,
-					inRange: { color: effectiveColorRange },
 					textStyle: { fontSize: 11 }
-				},
+				}),
 		series: [
 			{
 				name: 'Count',

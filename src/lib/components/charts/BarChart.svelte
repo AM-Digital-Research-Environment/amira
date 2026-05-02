@@ -14,7 +14,7 @@
 	import { CHART_COLORS, axisLabelStyle } from '$lib/styles';
 	import { theme } from '$lib/stores/data';
 	import { ChevronLeft, ChevronRight } from '@lucide/svelte';
-	import { buildTitle, buildGrid } from './utils';
+	import { buildTitle, buildGrid, buildTooltip, buildAxisLabel } from './utils';
 
 	echarts.use([EBarChart, TitleComponent, TooltipComponent, GridComponent, AxisPointerComponent]);
 
@@ -69,13 +69,7 @@
 
 	let option: EChartsOption = $derived({
 		...buildTitle(title),
-		tooltip: {
-			confine: true,
-			trigger: 'axis',
-			axisPointer: {
-				type: 'shadow'
-			}
-		},
+		tooltip: buildTooltip({ trigger: 'axis', axisPointer: 'shadow' }),
 		grid: buildGrid({
 			left: '3%',
 			right: '4%',
@@ -83,33 +77,19 @@
 			top: title ? '15%' : '3%'
 		}),
 		xAxis: horizontal
-			? {
-					type: 'value',
-					axisLabel: { ...labelStyle }
-				}
+			? { type: 'value', axisLabel: buildAxisLabel({ baseStyle: labelStyle }) }
 			: {
 					type: 'category',
 					data: displayData.map((d) => d.name),
-					axisLabel: {
-						...labelStyle,
-						rotate: 45,
-						interval: 0
-					}
+					axisLabel: buildAxisLabel({ baseStyle: labelStyle, rotate: 45, interval: 0 })
 				},
 		yAxis: horizontal
 			? {
 					type: 'category',
 					data: displayData.map((d) => d.name).reverse(),
-					axisLabel: {
-						...labelStyle,
-						width: 120,
-						overflow: 'truncate'
-					}
+					axisLabel: buildAxisLabel({ baseStyle: labelStyle, width: 120, overflow: 'truncate' })
 				}
-			: {
-					type: 'value',
-					axisLabel: { ...labelStyle }
-				},
+			: { type: 'value', axisLabel: buildAxisLabel({ baseStyle: labelStyle }) },
 		series: [
 			{
 				name: 'Count',

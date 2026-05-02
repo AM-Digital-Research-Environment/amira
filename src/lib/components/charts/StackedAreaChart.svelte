@@ -24,7 +24,15 @@
 	import { cn } from '$lib/utils/cn';
 	import { CHART_COLORS_EXTENDED, axisLabelStyle, legendTextStyle } from '$lib/styles';
 	import { theme } from '$lib/stores/data';
-	import { buildTitle, buildGrid, buildDataZoom, stackedFormatter } from './utils';
+	import {
+		buildTitle,
+		buildGrid,
+		buildDataZoom,
+		buildTooltip,
+		buildLegend,
+		buildAxisLabel,
+		stackedFormatter
+	} from './utils';
 	import type { StackedAreaDataPoint } from '$lib/types';
 
 	echarts.use([
@@ -70,18 +78,17 @@
 
 	let option: EChartsOption = $derived({
 		...buildTitle(title),
-		tooltip: {
-			confine: true,
+		tooltip: buildTooltip({
 			trigger: 'axis',
-			axisPointer: { type: 'line' },
+			axisPointer: 'line',
 			formatter: stackedFormatter
-		},
-		legend: {
-			type: 'scroll',
+		}),
+		legend: buildLegend({
+			position: 'bottom',
 			bottom: 65,
 			data: categories,
 			textStyle: { ...legendStyle }
-		},
+		}),
 		grid: buildGrid({
 			left: '3%',
 			right: '4%',
@@ -92,15 +99,12 @@
 			type: 'category',
 			boundaryGap: false,
 			data: years,
-			axisLabel: {
-				...labelStyle,
-				rotate: 45
-			}
+			axisLabel: buildAxisLabel({ baseStyle: labelStyle, rotate: 45 })
 		},
 		yAxis: {
 			type: 'value',
 			name: 'Count',
-			axisLabel: { ...labelStyle },
+			axisLabel: buildAxisLabel({ baseStyle: labelStyle }),
 			nameTextStyle: { ...labelStyle }
 		},
 		dataZoom: buildDataZoom({

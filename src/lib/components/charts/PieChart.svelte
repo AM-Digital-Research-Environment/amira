@@ -8,7 +8,7 @@
 	import { cn } from '$lib/utils/cn';
 	import { getChartColor, legendTextStyle } from '$lib/styles';
 	import { theme } from '$lib/stores/data';
-	import { buildTitle, hideAxes, PIE_FORMAT_STRING } from './utils';
+	import { buildTitle, hideAxes, buildTooltip, buildLegend, PIE_FORMAT_STRING } from './utils';
 
 	echarts.use([EPieChart, TitleComponent, TooltipComponent, LegendComponent]);
 
@@ -34,21 +34,10 @@
 	let legendStyle = $derived(legendTextStyle($theme === 'dark'));
 
 	let legendOption = $derived(
-		legendPosition === 'bottom'
-			? {
-					orient: 'horizontal' as const,
-					left: 'center' as const,
-					bottom: 0,
-					type: 'scroll' as const,
-					textStyle: { ...legendStyle }
-				}
-			: {
-					orient: 'vertical' as const,
-					left: 'left' as const,
-					top: 'middle' as const,
-					type: 'scroll' as const,
-					textStyle: { ...legendStyle }
-				}
+		buildLegend({
+			position: legendPosition === 'bottom' ? 'bottom' : 'left',
+			textStyle: { ...legendStyle }
+		})
 	);
 
 	// When the legend sits at the bottom, the donut should be centred and
@@ -60,11 +49,7 @@
 
 	let option: EChartsOption = $derived({
 		...buildTitle(title),
-		tooltip: {
-			confine: true,
-			trigger: 'item',
-			formatter: PIE_FORMAT_STRING
-		},
+		tooltip: buildTooltip({ trigger: 'item', formatter: PIE_FORMAT_STRING }),
 		...hideAxes(),
 		legend: legendOption,
 		series: [

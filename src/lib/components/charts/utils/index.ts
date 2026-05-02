@@ -17,9 +17,17 @@ export {
 	buildGrid,
 	buildDataZoom,
 	hideAxes,
+	buildTooltip,
+	buildLegend,
+	buildVisualMap,
+	buildAxisLabel,
 	type TitleOptions,
 	type GridOptions,
-	type DataZoomOptions
+	type DataZoomOptions,
+	type TooltipOptions,
+	type LegendOptions,
+	type VisualMapOptions,
+	type AxisLabelOptions
 } from './optionBuilders';
 
 // Tooltip formatters
