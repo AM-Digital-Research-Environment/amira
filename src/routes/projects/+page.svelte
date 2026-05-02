@@ -15,7 +15,7 @@
 	} from '$lib/components/ui';
 	import { getSectionColor, getSectionColorResolved } from '$lib/utils/helpers';
 	import { BarChart, Timeline, BeeswarmChart, GanttChart } from '$lib/components/charts';
-	import { SearchableItemsCard } from '$lib/components/entity-browse';
+	import { SearchableItemsCard, FilterToggleBar } from '$lib/components/entity-browse';
 	import { EntityDashboardSection } from '$lib/components/dashboards';
 	import { createEntityDetailState } from '$lib/utils/loaders';
 	import { projects, allCollections, ensureCollections } from '$lib/stores/data';
@@ -739,23 +739,22 @@
 									<Input placeholder="Search by name, locale, or PI..." bind:value={searchQuery} />
 								</label>
 
-								<div role="group" aria-labelledby="filter-item-presence-label">
+								<div>
 									<div id="filter-item-presence-label" class="text-sm font-medium mb-2 block">
 										Research items
 									</div>
-									<div class="flex rounded-lg border border-input overflow-hidden text-xs">
-										{#each [{ value: 'all', label: 'All' }, { value: 'with', label: 'With' }, { value: 'without', label: 'Without' }] as opt (opt.value)}
-											<button
-												type="button"
-												onclick={() => (itemPresence = opt.value as typeof itemPresence)}
-												class="flex-1 px-2 py-1.5 transition-colors {itemPresence === opt.value
-													? 'bg-primary text-primary-foreground'
-													: 'hover:bg-muted'}"
-											>
-												{opt.label}
-											</button>
-										{/each}
-									</div>
+									<FilterToggleBar
+										options={[
+											{ value: 'all', label: 'All' },
+											{ value: 'with', label: 'With' },
+											{ value: 'without', label: 'Without' }
+										]}
+										value={itemPresence}
+										onChange={(v) => (itemPresence = v as typeof itemPresence)}
+										size="sm"
+										fullWidth
+										aria-labelledby="filter-item-presence-label"
+									/>
 								</div>
 
 								<div role="group" aria-labelledby="filter-research-section-label">

@@ -20,6 +20,7 @@
 		EntityToolbar,
 		EntityDetailHeader,
 		SearchableItemsCard,
+		FilterToggleBar,
 		applyEntitySort,
 		type EntitySort
 	} from '$lib/components/entity-browse';
@@ -484,32 +485,16 @@
 		{/if}
 
 		<!-- Partner/contributor filter -->
-		<div class="flex rounded-lg border border-input overflow-hidden w-fit">
-			<button
-				onclick={() => (partnerFilter = 'all')}
-				class="px-4 py-2 text-sm font-medium transition-colors {partnerFilter === 'all'
-					? 'bg-primary text-primary-foreground'
-					: 'hover:bg-muted'}"
-			>
-				All ({allInstitutions.length})
-			</button>
-			<button
-				onclick={() => (partnerFilter = 'partner')}
-				class="px-4 py-2 text-sm font-medium transition-colors {partnerFilter === 'partner'
-					? 'bg-primary text-primary-foreground'
-					: 'hover:bg-muted'}"
-			>
-				Partners ({partnerCount})
-			</button>
-			<button
-				onclick={() => (partnerFilter = 'contributor')}
-				class="px-4 py-2 text-sm font-medium transition-colors {partnerFilter === 'contributor'
-					? 'bg-primary text-primary-foreground'
-					: 'hover:bg-muted'}"
-			>
-				Contributors ({contributorCount})
-			</button>
-		</div>
+		<FilterToggleBar
+			options={[
+				{ value: 'all', label: 'All', count: allInstitutions.length },
+				{ value: 'partner', label: 'Partners', count: partnerCount },
+				{ value: 'contributor', label: 'Contributors', count: contributorCount }
+			]}
+			value={partnerFilter}
+			onChange={(v) => (partnerFilter = v as typeof partnerFilter)}
+			aria-label="Filter institutions by partnership status"
+		/>
 
 		<EntityToolbar
 			{searchQuery}

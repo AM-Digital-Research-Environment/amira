@@ -187,11 +187,19 @@ is one commit; tests gate each.
   Animation — required for any component that imports
   `svelte/transition`.
 
-### 2.2 `entity-browse/FilterToggleBar.svelte`
+### 2.2 `entity-browse/FilterToggleBar.svelte` ✅
 
-- **Create** the component.
-- **Adopt** in `routes/projects/+page.svelte`,
-  `routes/institutions/+page.svelte`, `routes/locations/+page.svelte`.
+- **Create** `src/lib/components/entity-browse/FilterToggleBar.svelte`
+  with `options`, `value`, `onChange`, `size` (sm | md), `fullWidth`,
+  `capitalize`, plus `aria-labelledby` / `aria-label` and
+  `aria-pressed` on the active button.
+- **Adopt** in:
+  - `routes/projects/+page.svelte` — research-items presence (sm + fullWidth)
+  - `routes/institutions/+page.svelte` — partner / contributor (md, with counts)
+  - `routes/locations/+page.svelte` — view mode (md, capitalize)
+- Tests: `FilterToggleBar.test.ts` (12 tests covering options render,
+  active state, click → onChange, size variants, count rendering,
+  fullWidth, capitalize, aria attributes).
 
 ### 2.3 Shared collection-loading hook
 

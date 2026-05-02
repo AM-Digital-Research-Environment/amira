@@ -16,6 +16,7 @@
 		EntityToolbar,
 		EntityDetailHeader,
 		SearchableItemsCard,
+		FilterToggleBar,
 		applyEntitySort,
 		type EntitySort
 	} from '$lib/components/entity-browse';
@@ -598,18 +599,18 @@
 		</div>
 
 		<!-- View switcher -->
-		<div class="flex rounded-lg border border-input overflow-hidden w-fit">
-			{#each ['countries', 'regions', 'cities', 'current'] as mode (mode)}
-				<button
-					onclick={() => switchView(mode as typeof viewMode)}
-					class="px-4 py-2 text-sm font-medium transition-colors capitalize {viewMode === mode
-						? 'bg-primary text-primary-foreground'
-						: 'hover:bg-muted'}"
-				>
-					{mode === 'current' ? 'Current' : mode}
-				</button>
-			{/each}
-		</div>
+		<FilterToggleBar
+			options={[
+				{ value: 'countries', label: 'countries' },
+				{ value: 'regions', label: 'regions' },
+				{ value: 'cities', label: 'cities' },
+				{ value: 'current', label: 'Current' }
+			]}
+			value={viewMode}
+			onChange={(v) => switchView(v as typeof viewMode)}
+			capitalize
+			aria-label="Choose location view mode"
+		/>
 
 		<!-- Browse map: shows every location in the current view that can be
 		     geocoded. Click a marker to open its detail page. -->
