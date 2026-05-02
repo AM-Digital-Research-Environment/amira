@@ -22,17 +22,11 @@
 		SearchableItemsCard,
 		FilterToggleBar,
 		applyEntitySort,
+		useEntityCollectionLoader,
 		type EntitySort
 	} from '$lib/components/entity-browse';
-	import {
-		projects,
-		allCollections,
-		persons,
-		universitiesData,
-		ensureCollections
-	} from '$lib/stores/data';
+	import { projects, allCollections, persons, universitiesData } from '$lib/stores/data';
 	import { page } from '$app/stores';
-	import { onMount } from 'svelte';
 	import { createEntityDetailState } from '$lib/utils/loaders';
 	import { personUrl, projectUrl, researchSectionsUrl } from '$lib/utils/urls';
 	import { createUrlSelection, scrollToTop } from '$lib/utils/urlSelection';
@@ -209,13 +203,7 @@
 		return results;
 	});
 
-	onMount(() => {
-		if (!selectedName) void ensureCollections(base);
-	});
-
-	$effect(() => {
-		if (!selectedName) void ensureCollections(base);
-	});
+	useEntityCollectionLoader(() => selectedName);
 
 	function selectInstitution(name: string) {
 		urlSelection.pushToUrl(name);

@@ -8,12 +8,11 @@
 		EntityDetailHeader,
 		SearchableItemsCard,
 		applyEntitySort,
+		useEntityCollectionLoader,
 		type EntitySort
 	} from '$lib/components/entity-browse';
-	import { allCollections, ensureCollections } from '$lib/stores/data';
+	import { allCollections } from '$lib/stores/data';
 	import { page } from '$app/stores';
-	import { base } from '$app/paths';
-	import { onMount } from 'svelte';
 	import { createUrlSelection, scrollToTop } from '$lib/utils/urlSelection';
 	import { languageName, normalizeLanguageCode } from '$lib/utils/languages';
 	import { createSearchFilter } from '$lib/utils/search';
@@ -162,13 +161,7 @@
 	// Collections are only needed for the list view (counts + derived entity
 	// map) and the "Back to list" flow. A direct detail-URL hit skips the
 	// 13 MB payload entirely and renders from the per-entity JSON.
-	onMount(() => {
-		if (!selectedCode) void ensureCollections(base);
-	});
-
-	$effect(() => {
-		if (!selectedCode) void ensureCollections(base);
-	});
+	useEntityCollectionLoader(() => selectedCode);
 
 	function selectLanguage(code: string) {
 		urlSelection.pushToUrl(code);

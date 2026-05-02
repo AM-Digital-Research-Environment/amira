@@ -18,17 +18,11 @@
 		EntityToolbar,
 		SearchableItemsCard,
 		applyEntitySort,
+		useEntityCollectionLoader,
 		type EntitySort
 	} from '$lib/components/entity-browse';
-	import {
-		projects,
-		allCollections,
-		researchSections,
-		persons,
-		ensureCollections
-	} from '$lib/stores/data';
+	import { projects, allCollections, researchSections, persons } from '$lib/stores/data';
 	import { page } from '$app/stores';
-	import { base } from '$app/paths';
 	import { createEntityDetailState } from '$lib/utils/loaders';
 	import {
 		researchSectionsUrl,
@@ -62,7 +56,6 @@
 	import { formatDateInfo } from '$lib/utils/transforms/itemFormatters';
 	import { SvelteMap, SvelteSet } from 'svelte/reactivity';
 	import { getWisskiUrl, loadWisskiUrls } from '$lib/utils/wisskiUrl.svelte';
-	import { onMount } from 'svelte';
 	import { EntityKnowledgeGraph } from '$lib/components/charts';
 	import { EntityDashboardSection } from '$lib/components/dashboards';
 
@@ -78,13 +71,8 @@
 
 	const detail = createEntityDetailState('person', () => selectedName);
 
-	onMount(() => {
-		void loadWisskiUrls('persons');
-		if (!selectedName) void ensureCollections(base);
-	});
-
-	$effect(() => {
-		if (!selectedName) void ensureCollections(base);
+	useEntityCollectionLoader(() => selectedName, {
+		onMountExtra: () => void loadWisskiUrls('persons')
 	});
 
 	interface PersonData {

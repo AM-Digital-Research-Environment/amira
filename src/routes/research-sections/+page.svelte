@@ -13,11 +13,9 @@
 	} from '$lib/components/ui';
 	import { BarChart, GanttChart } from '$lib/components/charts';
 	import { EntityDashboardSection } from '$lib/components/dashboards';
-	import { SearchableItemsCard } from '$lib/components/entity-browse';
-	import { projects, researchSections, allCollections, ensureCollections } from '$lib/stores/data';
+	import { SearchableItemsCard, useEntityCollectionLoader } from '$lib/components/entity-browse';
+	import { projects, researchSections, allCollections } from '$lib/stores/data';
 	import { page } from '$app/stores';
-	import { base } from '$app/paths';
-	import { onMount } from 'svelte';
 	import { extractResearchSections, buildProjectGantt } from '$lib/utils/transforms';
 	import { personUrl, projectUrl } from '$lib/utils/urls';
 	import { createUrlSelection, scrollToTop } from '$lib/utils/urlSelection';
@@ -159,13 +157,7 @@
 	// dump on direct-detail-URL hits.
 	const detail = createEntityDetailState('research-section', () => selectedSection);
 
-	onMount(() => {
-		if (!selectedSection) void ensureCollections(base);
-	});
-
-	$effect(() => {
-		if (!selectedSection) void ensureCollections(base);
-	});
+	useEntityCollectionLoader(() => selectedSection);
 
 	// Research items scoped to the selected section. Prefer the precomputed
 	// JSON's slim items; fall back to deriving from $allCollections when the

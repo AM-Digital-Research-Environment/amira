@@ -17,12 +17,11 @@
 		EntityDetailHeader,
 		SearchableItemsCard,
 		applyEntitySort,
+		useEntityCollectionLoader,
 		type EntitySort
 	} from '$lib/components/entity-browse';
-	import { allCollections, ensureCollections } from '$lib/stores/data';
+	import { allCollections } from '$lib/stores/data';
 	import { page } from '$app/stores';
-	import { base } from '$app/paths';
-	import { onMount } from 'svelte';
 	import { goto } from '$app/navigation';
 	import { scrollToTop } from '$lib/utils/urlSelection';
 	import { createSearchFilter } from '$lib/utils/search';
@@ -143,13 +142,7 @@
 	// Collections power the list view (browse grid, word cloud, counts). Not
 	// needed on direct detail URLs — the per-entity JSON has everything
 	// required to render that branch.
-	onMount(() => {
-		if (!selectedName) void ensureCollections(base);
-	});
-
-	$effect(() => {
-		if (!selectedName) void ensureCollections(base);
-	});
+	useEntityCollectionLoader(() => selectedName);
 
 	function selectTerm(name: string) {
 		goto(`?name=${encodeURIComponent(name)}&view=${viewMode}`, { noScroll: true });

@@ -10,12 +10,11 @@
 		EntityDetailHeader,
 		SearchableItemsCard,
 		applyEntitySort,
+		useEntityCollectionLoader,
 		type EntitySort
 	} from '$lib/components/entity-browse';
-	import { allCollections, groups as groupsStore, ensureCollections } from '$lib/stores/data';
+	import { allCollections, groups as groupsStore } from '$lib/stores/data';
 	import { page } from '$app/stores';
-	import { base } from '$app/paths';
-	import { onMount } from 'svelte';
 	import { createUrlSelection, scrollToTop } from '$lib/utils/urlSelection';
 	import type { CollectionItem } from '$lib/types';
 	import { createSearchFilter } from '$lib/utils/search';
@@ -114,13 +113,7 @@
 		return results;
 	});
 
-	onMount(() => {
-		if (!selectedName) void ensureCollections(base);
-	});
-
-	$effect(() => {
-		if (!selectedName) void ensureCollections(base);
-	});
+	useEntityCollectionLoader(() => selectedName);
 
 	function selectGroup(name: string) {
 		urlSelection.pushToUrl(name);

@@ -201,11 +201,16 @@ is one commit; tests gate each.
   active state, click → onChange, size variants, count rendering,
   fullWidth, capitalize, aria attributes).
 
-### 2.3 Shared collection-loading hook
+### 2.3 Shared collection-loading hook ✅
 
-- **Create** `src/lib/components/entity-browse/useEntityCollectionLoader.ts` — the
-  identical `onMount + $effect → ensureCollections` block that lives in all 9
-  entity pages.
+- **Create** `src/lib/components/entity-browse/useEntityCollectionLoader.svelte.ts` —
+  the identical `onMount + $effect → ensureCollections` block that lived in 9 entity
+  pages, plus an optional `onMountExtra` for page-specific side effects.
+- **Adopted** in: `people` (with `loadWisskiUrls('persons')` extra), `locations`
+  (with `ensureEnrichedLocations(base)` extra), `institutions`, `subjects`,
+  `languages`, `genres`, `groups`, `resource-types`, `research-sections`.
+  `projects` is left as-is — it has a simpler unconditional `onMount` and no
+  duplication to fold in.
 
 ### 2.4 Adopt `EntityDetailHeader` in people / projects
 

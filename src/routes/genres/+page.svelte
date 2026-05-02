@@ -12,12 +12,11 @@
 		EntityDetailHeader,
 		SearchableItemsCard,
 		applyEntitySort,
+		useEntityCollectionLoader,
 		type EntitySort
 	} from '$lib/components/entity-browse';
-	import { allCollections, ensureCollections } from '$lib/stores/data';
+	import { allCollections } from '$lib/stores/data';
 	import { page } from '$app/stores';
-	import { base } from '$app/paths';
-	import { onMount } from 'svelte';
 	import { createUrlSelection, scrollToTop } from '$lib/utils/urlSelection';
 	import { createSearchFilter } from '$lib/utils/search';
 	import {
@@ -114,13 +113,7 @@
 		return result;
 	});
 
-	onMount(() => {
-		if (!selectedGenre) void ensureCollections(base);
-	});
-
-	$effect(() => {
-		if (!selectedGenre) void ensureCollections(base);
-	});
+	useEntityCollectionLoader(() => selectedGenre);
 
 	function selectGenre(genre: string) {
 		urlSelection.pushToUrl(genre);

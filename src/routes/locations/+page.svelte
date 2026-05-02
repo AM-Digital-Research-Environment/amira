@@ -18,15 +18,10 @@
 		SearchableItemsCard,
 		FilterToggleBar,
 		applyEntitySort,
+		useEntityCollectionLoader,
 		type EntitySort
 	} from '$lib/components/entity-browse';
-	import {
-		allCollections,
-		enrichedLocations,
-		ensureEnrichedLocations,
-		ensureCollections
-	} from '$lib/stores/data';
-	import { onMount } from 'svelte';
+	import { allCollections, enrichedLocations, ensureEnrichedLocations } from '$lib/stores/data';
 	import { base } from '$app/paths';
 	import { createEntityDetailState } from '$lib/utils/loaders';
 	import {
@@ -50,13 +45,8 @@
 
 	const urlSelection = createUrlSelection('name');
 
-	onMount(() => {
-		void ensureEnrichedLocations(base);
-		if (!selectedName) void ensureCollections(base);
-	});
-
-	$effect(() => {
-		if (!selectedName) void ensureCollections(base);
+	useEntityCollectionLoader(() => selectedName, {
+		onMountExtra: () => void ensureEnrichedLocations(base)
 	});
 
 	let searchQuery = $state('');

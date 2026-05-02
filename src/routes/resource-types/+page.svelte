@@ -9,12 +9,11 @@
 		EntityDetailHeader,
 		SearchableItemsCard,
 		applyEntitySort,
+		useEntityCollectionLoader,
 		type EntitySort
 	} from '$lib/components/entity-browse';
-	import { allCollections, ensureCollections } from '$lib/stores/data';
+	import { allCollections } from '$lib/stores/data';
 	import { page } from '$app/stores';
-	import { base } from '$app/paths';
-	import { onMount } from 'svelte';
 	import { createUrlSelection, scrollToTop } from '$lib/utils/urlSelection';
 	import { createSearchFilter } from '$lib/utils/search';
 	import {
@@ -57,13 +56,7 @@
 		return null;
 	});
 
-	onMount(() => {
-		if (!selectedType) void ensureCollections(base);
-	});
-
-	$effect(() => {
-		if (!selectedType) void ensureCollections(base);
-	});
+	useEntityCollectionLoader(() => selectedType);
 
 	const searchTypes = createSearchFilter<CategoryEntry>([(t) => t.name]);
 	let visibleTypes = $derived(applyEntitySort(searchTypes(types, searchQuery), sort));
