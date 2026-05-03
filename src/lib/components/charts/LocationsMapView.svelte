@@ -15,7 +15,7 @@
 	import { cn } from '$lib/utils/cn';
 	import LocationMap from './LocationMap.svelte';
 	import ChoroplethMap from './ChoroplethMap.svelte';
-	import type { LocationData } from './map/markerBuilder';
+	import type { LocationData } from '$lib/maps/markerBuilder';
 	import type { CollectionItem, EnrichedLocationsData } from '$lib/types';
 	import type { ChoroplethDataPoint } from './ChoroplethMap.svelte';
 

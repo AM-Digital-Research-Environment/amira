@@ -3,14 +3,14 @@
 	import { cn } from '$lib/utils/cn';
 	import type { EnrichedLocationsData, CollectionItem } from '$lib/types';
 	import maplibregl from 'maplibre-gl';
-	import MapProjectionToggle from './map/MapProjectionToggle.svelte';
+	import MapProjectionToggle from '$lib/maps/MapProjectionToggle.svelte';
 	import { SvelteMap } from 'svelte/reactivity';
 
-	// Extracted sub-modules
-	import type { LocationData } from './map/markerBuilder';
-	import { buildAggregatedMarkers } from './map/markerBuilder';
-	import { buildPopupHtml } from './map/popupBuilder';
-	import { getMarkerRadius, getMarkerColor, MAP_STYLE } from './map/mapHelpers';
+	// Shared map utilities
+	import type { LocationData } from '$lib/maps/markerBuilder';
+	import { buildAggregatedMarkers } from '$lib/maps/markerBuilder';
+	import { buildPopupHtml } from '$lib/maps/popupBuilder';
+	import { getMarkerRadius, getMarkerColor, MAP_STYLE } from '$lib/maps/mapHelpers';
 	import { theme } from '$lib/stores/data';
 	import { getThemeShadow, getMarkerTextShadow } from '$lib/styles';
 

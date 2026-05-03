@@ -51,7 +51,7 @@
 		RadarSeriesItem
 	} from '$lib/types';
 	import type { StackedTimelineDataPoint } from '$lib/utils/transforms/grouping';
-	import type { LocationData } from '$lib/components/charts/map/markerBuilder';
+	import type { LocationData } from '$lib/maps/markerBuilder';
 	import type { ChoroplethDataPoint } from '$lib/components/charts/ChoroplethMap.svelte';
 	import type { TimeAwareChordData } from '$lib/components/charts/TimeAwareChord.svelte';
 	import type { GeoFlowMapData } from '$lib/components/charts/GeoFlowMap.svelte';

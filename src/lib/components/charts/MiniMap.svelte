@@ -3,8 +3,7 @@
 	import maplibregl from 'maplibre-gl';
 	import { goto } from '$app/navigation';
 	import { CHART_COLORS, getThemeShadow } from '$lib/styles';
-	import { MAP_STYLE } from './map/mapHelpers';
-	import MapProjectionToggle from './map/MapProjectionToggle.svelte';
+	import { BaseMapController, MapProjectionToggle } from '$lib/maps';
 	import { theme } from '$lib/stores/data';
 	import { scrollToTop } from '$lib/utils/urlSelection';
 
@@ -43,7 +42,7 @@
 	// up the live map instance once it's initialised.
 	let map: maplibregl.Map | null = $state(null);
 	let mapMarkers: maplibregl.Marker[] = [];
-	let initialTheme: string | null = null;
+	let controller: BaseMapController | null = null;
 
 	function initializeMap() {
 		if (!mapContainer || map) return;
@@ -53,19 +52,13 @@
 
 		const initialZoom = zoom ?? (markers.length === 1 ? 5 : 2);
 
-		map = new maplibregl.Map({
-			container: mapContainer,
-			style: $theme === 'dark' ? MAP_STYLE.dark : MAP_STYLE.light,
+		controller = new BaseMapController(mapContainer, {
+			theme: $theme,
 			center,
 			zoom: initialZoom,
-			attributionControl: false
+			onStyleReady: addMarkers
 		});
-
-		map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-right');
-
-		map.on('load', () => {
-			addMarkers();
-		});
+		map = controller.init();
 	}
 
 	function addMarkers() {
@@ -182,33 +175,19 @@
 		}
 	});
 
-	// Switch map style when theme changes (skip initial render)
+	// Switch basemap style when the app theme changes. The controller
+	// no-ops when the theme matches the currently-applied one, so this
+	// is safe to fire on every reactive read of `$theme`.
 	$effect(() => {
-		const currentTheme = $theme;
-		if (!map) return;
-
-		if (initialTheme === null) {
-			initialTheme = currentTheme;
-			return;
-		}
-
-		if (currentTheme !== initialTheme) {
-			initialTheme = currentTheme;
-			const style = currentTheme === 'dark' ? MAP_STYLE.dark : MAP_STYLE.light;
-			map.setStyle(style);
-			map.once('style.load', () => {
-				addMarkers();
-			});
-		}
+		controller?.setTheme($theme);
 	});
 
 	onDestroy(() => {
 		mapMarkers.forEach((m) => m.remove());
 		mapMarkers = [];
-		if (map) {
-			map.remove();
-			map = null;
-		}
+		controller?.destroy();
+		controller = null;
+		map = null;
 	});
 </script>
 

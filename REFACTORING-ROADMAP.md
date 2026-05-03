@@ -33,7 +33,7 @@ for review.
 | 0     | done    | Test harness — Vitest, Testing Library, Playwright, seed unit tests      |
 | 1     | done    | Low-risk cleanups — barrel deletions, helpers split, fetch/cache helpers |
 | 2     | done    | UI primitives — `Modal`, `FilterToggleBar`, expanded `optionBuilders`    |
-| 3     | partial | Component splits — `ItemDetail`, `ItemFilters`, dashboard layouts, maps  |
+| 3     | done    | Component splits — `ItemDetail`, `ItemFilters`, dashboard layouts, maps  |
 | 4     | pending | Architectural shells — `EntityPageContainer`, `EntityDetailViewShell`    |
 
 After each phase: `npm run format:check`, `npm run check`, `npm run lint`,
@@ -333,15 +333,38 @@ the `shouldRenderSlot` dispatcher. The 11 entity layouts move to
 `entityDashboardLayouts.ts` re-exports `ENTITY_LAYOUTS` from the new
 module so existing consumers keep working unchanged.
 
-### 3.4 Move map module
+### 3.4 Move map module ✅
 
-- **Create** `src/lib/maps/` (top-level).
-- **Move** `charts/map/{mapHelpers,markerBuilder,popupBuilder,
-MapProjectionToggle.svelte}` → `lib/maps/`.
-- **Create** `src/lib/maps/BaseMapController.ts` — owns the 47-line MapLibre
-  init/theme/projection lifecycle.
-- **Refactor** `ChoroplethMap`, `LocationMap`, `GeoFlowMap`, `MiniMap`,
-  `PhotoMap`, `LocationsMapView` onto the controller.
+- **Move**: `charts/map/{mapHelpers,markerBuilder,popupBuilder,
+  MapProjectionToggle.svelte}` → `src/lib/maps/`. All 7 consumer
+  components (PhotoMap, ChoroplethMap, GeoFlowMap, LocationMap,
+  LocationsMapView, MiniMap, ChartSlot) updated to the new path.
+- **Add** `src/lib/maps/BaseMapController.ts` — class that owns the
+  shared MapLibre lifecycle: `init()` (creates the map, applies the
+  initial style, adds the optional NavigationControl, wires `load`
+  → `onStyleReady`), `setTheme()` (no-ops on the current theme,
+  re-applies the style and re-fires `onStyleReady` after `style.load`
+  on a real swap), `destroy()`. Plus a `map` getter for components
+  that bind the live instance to projection toggles.
+- **Add** `src/lib/maps/index.ts` barrel exporting the controller, the
+  toggle, and the existing helpers/builders.
+- **Refactored** onto the controller: `MiniMap`, `PhotoMap`. Each loses
+  its inline `new maplibregl.Map`, theme-tracking `initialTheme`, and
+  manual `setStyle` / `style.load` plumbing.
+- **Not refactored** (kept inline for now): `ChoroplethMap`, `GeoFlowMap`,
+  `LocationMap`. These three add `FullscreenControl`, set
+  `setProjection({type:'globe'})` post-construction, and use a
+  `load`/`idle`/`styledata` triple with a 1.5 s resize-fallback to
+  dodge MapLibre's silent canvas stall in deeply-nested flex layouts.
+  Migrating them needs the controller to grow surface area for those
+  cases — left as a follow-up; the import paths still moved to the
+  new module.
+- **Tests**: `BaseMapController.test.ts` (12 tests covering init
+  defaults, `light`/`dark` style URLs, center/zoom forwarding,
+  optional navigation control, `onStyleReady` firing on load and on
+  theme swap, `setTheme` no-op + swap returns, and `destroy`
+  idempotency). MapLibre is fully mocked so the test doesn't need
+  WebGL.
 
 ### Done when
 

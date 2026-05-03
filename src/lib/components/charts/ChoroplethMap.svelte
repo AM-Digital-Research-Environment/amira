@@ -16,8 +16,8 @@
 	import maplibregl from 'maplibre-gl';
 	import type { FeatureCollection, Geometry } from 'geojson';
 	import { cn } from '$lib/utils/cn';
-	import { MAP_STYLE } from './map/mapHelpers';
-	import MapProjectionToggle from './map/MapProjectionToggle.svelte';
+	import { MAP_STYLE } from '$lib/maps/mapHelpers';
+	import MapProjectionToggle from '$lib/maps/MapProjectionToggle.svelte';
 	import { theme } from '$lib/stores/data';
 
 	export interface ChoroplethDataPoint {

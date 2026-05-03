@@ -3,8 +3,7 @@
 	import maplibregl from 'maplibre-gl';
 	import type { CollectionItem, EnrichedLocationsData } from '$lib/types';
 	import { theme } from '$lib/stores/data';
-	import { MAP_STYLE } from '$lib/components/charts/map/mapHelpers';
-	import MapProjectionToggle from '$lib/components/charts/map/MapProjectionToggle.svelte';
+	import { BaseMapController, MapProjectionToggle } from '$lib/maps';
 	import {
 		getPreviewImage,
 		getDescriptiveTitle,
@@ -26,7 +25,7 @@
 	let map: maplibregl.Map | null = $state(null);
 	let mapReady = $state(false);
 	let isFullscreen = $state(false);
-	let initialTheme: string | null = null;
+	let controller: BaseMapController | null = null;
 	let markers: maplibregl.Marker[] = [];
 
 	interface PhotoMarker {
@@ -97,18 +96,16 @@
 
 	function initMap() {
 		if (!container || map) return;
-		map = new maplibregl.Map({
-			container,
-			style: $theme === 'dark' ? MAP_STYLE.dark : MAP_STYLE.light,
+		controller = new BaseMapController(container, {
+			theme: $theme,
 			center: [10, 15],
 			zoom: 3,
-			attributionControl: false
+			onStyleReady: () => {
+				mapReady = true;
+				renderMarkers();
+			}
 		});
-		map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-right');
-		map.on('load', () => {
-			mapReady = true;
-			renderMarkers();
-		});
+		map = controller.init();
 	}
 
 	function clearMarkers() {
@@ -200,19 +197,12 @@
 		if (mapReady) renderMarkers();
 	});
 
-	// Theme swap.
+	// Theme swap — controller no-ops when the theme matches the
+	// currently-applied one; on a real swap it re-applies the basemap
+	// style and re-fires `onStyleReady` so renderMarkers runs after the
+	// new style finishes loading.
 	$effect(() => {
-		const currentTheme = $theme;
-		if (!map || !mapReady) return;
-		if (initialTheme === null) {
-			initialTheme = currentTheme;
-			return;
-		}
-		if (currentTheme !== initialTheme) {
-			initialTheme = currentTheme;
-			map.setStyle(currentTheme === 'dark' ? MAP_STYLE.dark : MAP_STYLE.light);
-			map.once('style.load', () => renderMarkers());
-		}
+		controller?.setTheme($theme);
 	});
 
 	function toggleFullscreen() {
@@ -222,10 +212,9 @@
 
 	onDestroy(() => {
 		clearMarkers();
-		if (map) {
-			map.remove();
-			map = null;
-		}
+		controller?.destroy();
+		controller = null;
+		map = null;
 	});
 </script>
 
