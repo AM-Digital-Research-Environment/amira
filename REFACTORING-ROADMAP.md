@@ -286,17 +286,31 @@ Each section guards its own `{#if data}` so the coordinator's two-column
 grid auto-flows around empty slots. Index barrel at
 `sections/index.ts` re-exports the components and the marker type.
 
-### 3.2 Split `ItemFilters.svelte`
+### 3.2 Split `ItemFilters.svelte` ✅
 
-`src/lib/components/research-items/filters/`:
+`ItemFilters.svelte` shrinks from 680 → 320 lines (53% drop). The 7
+near-identical facet blocks (countries, projects, languages, subjects,
+tags, audiences, methods) collapse to a single `ItemFilterGroup`
+invocation each. `src/lib/components/research-items/filters/`:
 
-- `ItemFilterGroup.svelte` — the expand/search/option-list/pills pattern shared
-  by 7 of the 8 filter groups.
-- `ItemFilterTypeSelect.svelte`
-- `ItemFilterPills.svelte`
-- `ItemFilterOptionList.svelte`
+- `ItemFilterGroup.svelte` — expand toggle + pills + optional search
+  input + option list. Takes a `theme` (one of `FILTER_THEMES`) for
+  the per-facet colour, `formatLabel` for languages, `searchEnabled`
+  to disable the search input (methods), and `searchHideThreshold`
+  to gate it on minimum option count.
+- `ItemFilterTypeSelect.svelte` — the resource-type dropdown.
+- `ItemFilterPills.svelte` — the selected-values pill strip with a
+  Clear chip; reused inside `ItemFilterGroup`.
+- `ItemFilterOptionList.svelte` — the scrollable option list with
+  active-row highlighting; reused inside `ItemFilterGroup`.
+- `filterThemes.ts` — frozen `FILTER_THEMES` registry mapping facet
+  names (`primary`, `accent`, `chart-1`…`chart-5`) to pill / active
+  Tailwind class strings.
 
-`ItemFilters.svelte` shrinks from 680 → ~80 lines.
+The 7 per-facet `filtered…Options` $derived blocks collapse to a
+single `trimToVisible()` helper used per facet, and the per-facet
+`searchHideThreshold` (10 in the original `length > 10` check)
+becomes a single prop.
 
 ### 3.3 Split `entityDashboardLayouts.ts`
 
