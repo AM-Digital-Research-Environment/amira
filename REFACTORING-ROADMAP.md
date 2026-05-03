@@ -312,16 +312,26 @@ single `trimToVisible()` helper used per facet, and the per-facet
 `searchHideThreshold` (10 in the original `length > 10` check)
 becomes a single prop.
 
-### 3.3 Split `entityDashboardLayouts.ts`
+### 3.3 Split `entityDashboardLayouts.ts` ✅
 
-- **Create** `src/lib/components/dashboards/layouts/`:
-  - `language.ts`, `subject.ts`, `tag.ts`, `genre.ts`, `resource-type.ts`,
-    `group.ts`, `person.ts`, `institution.ts`, `location.ts`,
-    `research-section.ts`, `project.ts`
-  - `fragments.ts` — reusable slot groups (timelines, categorical, networks,
-    geography)
-  - `index.ts` — re-export, rebuild `ENTITY_LAYOUTS`
-- Parent file shrinks to ~150 lines (utilities + `CHART_METADATA`).
+`entityDashboardLayouts.ts` shrinks from 493 → 251 lines and now owns
+only the type system, `CHART_METADATA`, the empty-payload helpers, and
+the `shouldRenderSlot` dispatcher. The 11 entity layouts move to
+`src/lib/components/dashboards/layouts/`:
+
+- `fragments.ts` — shared slot constants (`stackedTimelineWide`,
+  `wordCloudWide`, `subjectTrendsWide`, `heatmapResourceTypeByDecade`,
+  `locationsTrailing`, `geoFlowsCard`) and slot groups
+  (`typesAndLanguages`, `subjectsAndContributors`).
+- One file per entity: `language.ts`, `subject.ts`, `tag.ts`, `genre.ts`,
+  `resource-type.ts`, `group.ts`, `person.ts`, `institution.ts`,
+  `location.ts`, `research-section.ts`, `project.ts`. Each exports a
+  single `EntityLayout` constant composed from the fragments.
+- `index.ts` — assembles the imported layouts into the
+  `ENTITY_LAYOUTS` registry.
+
+`entityDashboardLayouts.ts` re-exports `ENTITY_LAYOUTS` from the new
+module so existing consumers keep working unchanged.
 
 ### 3.4 Move map module
 

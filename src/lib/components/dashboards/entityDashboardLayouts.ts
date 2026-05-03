@@ -10,7 +10,11 @@
  *   2. Adding a default label/description to `CHART_METADATA`
  *   3. Wiring the renderer in `ChartSlot.svelte`
  *   4. Adding a `build_<key>()` aggregator in `scripts/precompute/aggregators.py`
- *   5. Adding it to the relevant `ENTITY_LAYOUTS` entries
+ *   5. Adding it to the relevant entity layout under `./layouts/`
+ *
+ * Per-entity layouts live in `./layouts/`. This file owns the type system,
+ * the chart-key metadata registry, and the empty-payload helpers that
+ * `<EntityDashboard>` consumes via `shouldRenderSlot`.
  */
 
 /** The union of every chart renderer the dashboard system knows about. */
@@ -143,268 +147,22 @@ export const CHART_METADATA: Record<ChartKey, { label: string; description?: str
 	similarItems: { label: 'Similar items' }
 };
 
-/**
- * Per-entity-type layouts. Populated incrementally during Phase 2; each entity
- * type's first landing is tracked as its own issue under #10.
- *
- * Ordering convention (lifted from the Omeka module):
- *   1. Timelines (wide)
- *   2. Paired categorical pies / bars
- *   3. Cross-tabs / heatmaps / hierarchical
- *   4. Networks
- *   5. Geography
- *   6. Knowledge graph (last, tall)
- */
-export const ENTITY_LAYOUTS: Partial<Record<EntityType, EntityLayout>> = {
-	// Layout convention: pairs of two on each row (subjects + contributors,
-	// types + languages, etc.) keep cell heights aligned at `h-chart-md`. Wide
-	// slots (timelines, word clouds, heatmaps, maps) get their own row so
-	// nothing sits next to a chart of a different height. Avoid `tall: true`
-	// on a non-wide slot — that's what created the asymmetric rows.
-	language: {
-		entity: 'language',
-		showUniversityFilter: false,
-		charts: [
-			{ chart: 'stackedTimeline', wide: true },
-			{ chart: 'types' },
-			{ chart: 'languages', title: 'Co-occurring languages' },
-			{ chart: 'subjects' },
-			{ chart: 'contributors' },
-			{ chart: 'wordCloud', wide: true },
-			{ chart: 'heatmap', wide: true, title: 'Resource type × decade' },
-			{ chart: 'subjectTrends', wide: true },
-			{ chart: 'locations', wide: true, tall: true }
-		]
-	},
-	subject: {
-		entity: 'subject',
-		showUniversityFilter: false,
-		charts: [
-			{ chart: 'stackedTimeline', wide: true },
-			{ chart: 'types' },
-			{ chart: 'languages' },
-			{ chart: 'subjects', title: 'Co-occurring subjects' },
-			{ chart: 'contributors' },
-			{ chart: 'wordCloud', wide: true, title: 'Related subjects & tags' },
-			{ chart: 'coSubjects', wide: true, tall: true, title: 'Subject co-occurrence network' },
-			{ chart: 'locations', wide: true, tall: true }
-		]
-	},
-	tag: {
-		entity: 'tag',
-		showUniversityFilter: false,
-		charts: [
-			{ chart: 'stackedTimeline', wide: true },
-			{ chart: 'types' },
-			{ chart: 'languages' },
-			{ chart: 'subjects', title: 'Subject headings on tagged items' },
-			{ chart: 'contributors' },
-			{ chart: 'wordCloud', wide: true, title: 'Related subjects & tags' },
-			{ chart: 'coSubjects', wide: true, tall: true, title: 'Subject co-occurrence network' },
-			{ chart: 'locations', wide: true, tall: true }
-		]
-	},
-	genre: {
-		entity: 'genre',
-		showUniversityFilter: false,
-		charts: [
-			{ chart: 'stackedTimeline', wide: true },
-			{ chart: 'types' },
-			{ chart: 'languages' },
-			{ chart: 'subjects' },
-			{ chart: 'contributors' },
-			{ chart: 'wordCloud', wide: true },
-			{ chart: 'locations', wide: true, tall: true }
-		]
-	},
-	'resource-type': {
-		entity: 'resource-type',
-		showUniversityFilter: false,
-		charts: [
-			{ chart: 'stackedTimeline', wide: true },
-			{ chart: 'subjects' },
-			{ chart: 'languages' },
-			{ chart: 'contributors' },
-			{ chart: 'subjectTrends', wide: true },
-			{ chart: 'wordCloud', wide: true },
-			{ chart: 'heatmap', wide: true, title: 'Language × decade' },
-			{ chart: 'locations', wide: true, tall: true }
-		]
-	},
-	group: {
-		entity: 'group',
-		showUniversityFilter: true,
-		charts: [
-			{ chart: 'timeline', wide: true },
-			{ chart: 'types' },
-			{ chart: 'languages' },
-			{ chart: 'subjects' },
-			{ chart: 'contributors', title: 'Members & collaborators' },
-			{ chart: 'locations', wide: true, tall: true }
-		]
-	},
-	person: {
-		entity: 'person',
-		showUniversityFilter: true,
-		charts: [
-			{ chart: 'stackedTimeline', wide: true },
-			{ chart: 'types' },
-			{ chart: 'languages' },
-			{ chart: 'roles' },
-			{ chart: 'subjects' },
-			{ chart: 'contributors', title: 'Co-contributors' },
-			{ chart: 'wordCloud', wide: true },
-			{
-				chart: 'coContributors',
-				wide: true,
-				tall: true,
-				title: 'Co-credited persons',
-				description:
-					'Other persons who appear on the same items as this contributor, weighted by shared items'
-			},
-			{
-				chart: 'contributorNetwork',
-				wide: true,
-				tall: true,
-				title: 'Projects & co-contributors',
-				description: 'Projects this person worked on and the other persons credited on those items'
-			},
-			{
-				chart: 'affiliationNetwork',
-				wide: true,
-				tall: true,
-				title: 'Affiliated institutions',
-				description: 'Institutions referenced by the items this person contributed to'
-			},
-			{ chart: 'locations', wide: true, tall: true }
-		]
-	},
-	institution: {
-		entity: 'institution',
-		showUniversityFilter: true,
-		charts: [
-			{ chart: 'stackedTimeline', wide: true },
-			{ chart: 'types' },
-			{ chart: 'languages' },
-			{ chart: 'subjects' },
-			{ chart: 'contributors', title: 'Affiliated contributors' },
-			{ chart: 'wordCloud', wide: true },
-			{
-				chart: 'contributorNetwork',
-				wide: true,
-				tall: true,
-				title: 'Affiliated persons & projects',
-				description: 'Persons linked to this institution and the projects that connect them'
-			},
-			{
-				chart: 'affiliationNetwork',
-				wide: true,
-				tall: true,
-				title: 'Other institutions',
-				description: 'Institutions co-referenced with this one across the same items'
-			},
-			{ chart: 'locations', wide: true, tall: true }
-		]
-	},
-	location: {
-		entity: 'location',
-		showUniversityFilter: false,
-		charts: [
-			{ chart: 'stackedTimeline', wide: true },
-			{ chart: 'types' },
-			{ chart: 'languages' },
-			{ chart: 'subjects' },
-			{ chart: 'contributors' },
-			{ chart: 'wordCloud', wide: true }
-		]
-	},
-	'research-section': {
-		entity: 'research-section',
-		showUniversityFilter: true,
-		charts: [
-			{ chart: 'stackedTimeline', wide: true },
-			{ chart: 'types' },
-			{ chart: 'languages' },
-			{ chart: 'subjects' },
-			{ chart: 'contributors' },
-			{ chart: 'wordCloud', wide: true },
-			{ chart: 'heatmap', wide: true, title: 'Resource type × decade' },
-			{ chart: 'subjectTrends', wide: true },
-			{
-				chart: 'timeAwareChord',
-				wide: true,
-				tall: true,
-				title: 'Subject co-occurrence over time',
-				description: "How the section's subject network has filled in across years"
-			},
-			{
-				chart: 'contributorNetwork',
-				wide: true,
-				tall: true,
-				title: 'Persons & projects',
-				description: "Persons credited within this section and the projects they're associated with"
-			},
-			{
-				chart: 'geoFlows',
-				wide: true,
-				tall: true,
-				title: 'Origin → current location',
-				description: "Items by where they were created vs. where they're held today"
-			},
-			{ chart: 'locations', wide: true, tall: true }
-		]
-	},
-	project: {
-		entity: 'project',
-		showUniversityFilter: false,
-		charts: [
-			{ chart: 'stackedTimeline', wide: true },
-			{ chart: 'types' },
-			{ chart: 'languages' },
-			{ chart: 'roles' },
-			{ chart: 'subjects' },
-			{ chart: 'contributors' },
-			{ chart: 'wordCloud', wide: true },
-			{ chart: 'heatmap', wide: true, title: 'Resource type × decade' },
-			{ chart: 'subjectTrends', wide: true },
-			{ chart: 'sunburst', wide: true, title: 'Type → language → subject' },
-			{ chart: 'chord', wide: true, tall: true, title: 'Subject co-occurrence' },
-			{
-				chart: 'timeAwareChord',
-				wide: true,
-				tall: true,
-				title: 'Subject co-occurrence over time'
-			},
-			{ chart: 'sankey', wide: true, title: 'Contributor → project → type' },
-			{
-				chart: 'contributorNetwork',
-				wide: true,
-				tall: true,
-				title: 'Persons on this project',
-				description: "Persons credited on this project's items and the broader projects they touch"
-			},
-			{
-				chart: 'geoFlows',
-				wide: true,
-				tall: true,
-				title: 'Origin → current location',
-				description: "Items by where they were created vs. where they're held today"
-			},
-			{ chart: 'locations', wide: true, tall: true }
-		]
-	}
-	// Remaining Phase 2 layouts (research-item KG + context strip) land as
-	// separate follow-ups — see ROADMAP-parity.md.
-};
+// `ENTITY_LAYOUTS` is built from per-entity files under `./layouts/`. We
+// re-export the registry here so existing imports keep working.
+export { ENTITY_LAYOUTS } from './layouts';
+
+// Type-only `EntityLayout` re-import so the helper functions below resolve
+// to the same registry the layout files target.
+import { ENTITY_LAYOUTS as _LAYOUTS } from './layouts';
 
 /** Whether to offer the university filter on this entity's detail page. */
 export function showsUniversityFilter(entity: EntityType): boolean {
-	return ENTITY_LAYOUTS[entity]?.showUniversityFilter ?? false;
+	return _LAYOUTS[entity]?.showUniversityFilter ?? false;
 }
 
 /** Convenience lookup, returns `undefined` for entity types not yet wired. */
 export function getEntityLayout(entity: EntityType): EntityLayout | undefined {
-	return ENTITY_LAYOUTS[entity];
+	return _LAYOUTS[entity];
 }
 
 /**
