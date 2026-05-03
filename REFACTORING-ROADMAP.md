@@ -33,7 +33,7 @@ for review.
 | 0     | done    | Test harness — Vitest, Testing Library, Playwright, seed unit tests      |
 | 1     | done    | Low-risk cleanups — barrel deletions, helpers split, fetch/cache helpers |
 | 2     | done    | UI primitives — `Modal`, `FilterToggleBar`, expanded `optionBuilders`    |
-| 3     | pending | Component splits — `ItemDetail`, `ItemFilters`, dashboard layouts, maps  |
+| 3     | partial | Component splits — `ItemDetail`, `ItemFilters`, dashboard layouts, maps  |
 | 4     | pending | Architectural shells — `EntityPageContainer`, `EntityDetailViewShell`    |
 
 After each phase: `npm run format:check`, `npm run check`, `npm run lint`,
@@ -262,15 +262,16 @@ is one commit; tests gate each.
 
 ## Phase 3 — Component splits
 
-### 3.1 Split `ItemDetail.svelte`
+### 3.1 Split `ItemDetail.svelte` ✅
 
-Coordinator (~150 lines) + 13 sub-components in
-`src/lib/components/research-items/sections/`:
+Coordinator shrinks from 794 → 170 lines (78% drop). 13 single-responsibility
+sub-components live under `src/lib/components/research-items/sections/`:
 
-- `ItemHeader.svelte`
+- `ItemHeader.svelte` — title, alt titles, project link, type / genre /
+  institution / language / dates row, WissKILink.
 - `ItemAbstract.svelte`
 - `ItemContributors.svelte`
-- `ItemLocation.svelte`
+- `ItemLocation.svelte` — origins + currentLocations.
 - `ItemSubjects.svelte`
 - `ItemTags.svelte`
 - `ItemPhysical.svelte`
@@ -279,7 +280,11 @@ Coordinator (~150 lines) + 13 sub-components in
 - `ItemSponsors.svelte`
 - `ItemAudience.svelte`
 - `ItemNote.svelte`
-- `ItemMap.svelte`
+- `ItemMap.svelte` — exports the `ItemMapMarker` type.
+
+Each section guards its own `{#if data}` so the coordinator's two-column
+grid auto-flows around empty slots. Index barrel at
+`sections/index.ts` re-exports the components and the marker type.
 
 ### 3.2 Split `ItemFilters.svelte`
 
