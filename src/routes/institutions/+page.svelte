@@ -6,7 +6,6 @@
 		CardTitle,
 		CardContent,
 		Badge,
-		BackToList,
 		ChartCard,
 		Pagination,
 		SEO,
@@ -19,6 +18,7 @@
 		EntityBrowseGrid,
 		EntityToolbar,
 		EntityDetailHeader,
+		EntityDetailViewShell,
 		EntityPageContainer,
 		SearchableItemsCard,
 		FilterToggleBar,
@@ -264,31 +264,36 @@
 	selected={() => selectedInstitution}
 >
 	{#snippet detailView()}
-		{#if selectedInstitution}
-			<div class="space-y-6">
-				<BackToList show={true} onclick={clearSelection} label="Back to institutions" />
+		<EntityDetailViewShell
+			backLabel="Back to institutions"
+			onBack={clearSelection}
+			resolved={selectedInstitution}
+			loading={detail.loading}
+			emptyMessage="No data available for this institution."
+		>
+			{#snippet body(institution)}
 				<EntityDetailHeader
-					title={selectedInstitution.name}
+					title={institution.name}
 					icon={Building2}
 					wisskiCategory="institutions"
-					wisskiKey={selectedInstitution.name}
+					wisskiKey={institution.name}
 				>
 					{#snippet badges()}
-						{#if selectedInstitution.isPartner}
+						{#if institution.isPartner}
 							<Badge>{#snippet children()}Partner{/snippet}</Badge>
 						{/if}
 						<Badge variant="secondary">
-							{#snippet children()}{selectedInstitution.projects.length} project{selectedInstitution
-									.projects.length !== 1
+							{#snippet children()}{institution.projects.length} project{institution.projects
+									.length !== 1
 									? 's'
 									: ''}{/snippet}
 						</Badge>
 						<Badge variant="secondary">
-							{#snippet children()}{selectedInstitution.people.size} people{/snippet}
+							{#snippet children()}{institution.people.size} people{/snippet}
 						</Badge>
-						{#if selectedInstitution.collectionItemCount > 0}
+						{#if institution.collectionItemCount > 0}
 							<Badge variant="outline">
-								{#snippet children()}{selectedInstitution.collectionItemCount} item{selectedInstitution.collectionItemCount !==
+								{#snippet children()}{institution.collectionItemCount} item{institution.collectionItemCount !==
 									1
 										? 's'
 										: ''}{/snippet}
@@ -297,7 +302,7 @@
 					{/snippet}
 				</EntityDetailHeader>
 
-				{#if selectedInstitution.projects.length > 0}
+				{#if institution.projects.length > 0}
 					<Card class="overflow-hidden">
 						{#snippet children()}
 							<CardHeader>
@@ -308,7 +313,7 @@
 												<Briefcase class="h-5 w-5 text-primary" />
 												Projects
 												<Badge variant="secondary">
-													{#snippet children()}{selectedInstitution.projects.length}{/snippet}
+													{#snippet children()}{institution.projects.length}{/snippet}
 												</Badge>
 											</span>
 										{/snippet}
@@ -364,7 +369,7 @@
 									</ul>
 									<Pagination
 										currentPage={projectsPage}
-										totalItems={selectedInstitution.projects.length}
+										totalItems={institution.projects.length}
 										itemsPerPage={PROJECTS_PER_PAGE}
 										onPageChange={(p) => (projectsPage = p)}
 									/>
@@ -374,7 +379,7 @@
 					</Card>
 				{/if}
 
-				{#if selectedInstitution.people.size > 0}
+				{#if institution.people.size > 0}
 					<Card class="overflow-hidden">
 						{#snippet children()}
 							<CardHeader>
@@ -385,7 +390,7 @@
 												<Users class="h-5 w-5 text-muted-foreground" />
 												People
 												<Badge variant="secondary">
-													{#snippet children()}{selectedInstitution.people.size}{/snippet}
+													{#snippet children()}{institution.people.size}{/snippet}
 												</Badge>
 											</span>
 										{/snippet}
@@ -395,7 +400,7 @@
 							<CardContent>
 								{#snippet children()}
 									<div class="flex flex-wrap gap-2">
-										{#each [...selectedInstitution.people].sort() as person (person)}
+										{#each [...institution.people].sort() as person (person)}
 											<a
 												href={personUrl(person)}
 												class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-muted/50 text-sm text-foreground hover:text-primary hover:bg-muted transition-colors"
@@ -416,18 +421,18 @@
 
 				<EntityDashboardSection
 					entityType="institution"
-					entityId={selectedInstitution.name}
+					entityId={institution.name}
 					items={institutionItems}
 					data={detail.data}
 				/>
 
 				<EntityKnowledgeGraph
 					entityType="institution"
-					entityId={selectedInstitution.name}
+					entityId={institution.name}
 					title="Institution knowledge graph"
 				/>
-			</div>
-		{/if}
+			{/snippet}
+		</EntityDetailViewShell>
 	{/snippet}
 
 	{#snippet listView()}

@@ -409,11 +409,51 @@ MapProjectionToggle.svelte}` → `src/lib/maps/`. All 7 consumer
   `onMountExtra` lifecycle wiring). Uses a small Svelte harness so
   snippets can be exercised from JavaScript test code.
 
-### 4.2 `EntityDetailViewShell.svelte`
+### 4.2 `EntityDetailViewShell.svelte` ✅
 
-- Back button + `EntityDetailHeader` + `SearchableItemsCard` +
-  `EntityDashboardSection` + `EntityKnowledgeGraph` in a fixed layout.
-- Pages provide entity-specific snippets only.
+The original plan called for a **fixed** layout (Back + Header + Items
+
+- Dashboard + Graph), but in practice 5 of the 10 entity pages have
+  substantially different inner structure: institutions has paginated
+  projects, locations has region/city sub-cards, people has 5 extra
+  info cards (affiliations / profile / sections / projects PI /
+  projects member), projects has its own description/PIs/members/
+  institutions cards, research-sections has a custom Card-based header
+- description / spokesperson / PIs / members / objectives / work
+  programme / projects / Gantt cards. Forcing a rigid layout would
+  push half the pages off the shell.
+
+The shipped shell instead owns the universally-shared parts: the
+`space-y-6` wrapper, the `BackToList`, and the loading / empty-state
+fallback. Pages provide a single `body` snippet with their full
+detail content.
+
+- **Add** `src/lib/components/entity-browse/EntityDetailViewShell.svelte`
+  — generic on `T` so the `body` snippet receives the resolved
+  (non-null) entity (`Snippet<[T]>`). Simple pages exploit this for
+  TypeScript narrowing without an extra `{#if}`. Complex pages
+  (institutions, locations, people, projects, research-sections)
+  ignore the param and keep an inner `{#if selectedX}` for narrowing
+  when the entity is referenced both at script level and in the
+  template — this avoids renaming dozens of references inside the
+  body snippet.
+- Props: `backLabel`, `onBack`, `resolved` (truthy gate),
+  `loading?` (drives the "Loading dashboard…" branch),
+  `emptyMessage?`, `body: Snippet<[T]>`.
+- **Adopted** by all 10 entity pages: `genres`, `groups`, `languages`,
+  `resource-types`, `subjects`, `institutions`, `locations`,
+  `research-sections`, `people`, `projects`. Each page sheds its
+  inline `<div class="space-y-6">` + `BackToList` + `{#if X}{:else
+if loading}{:else}{/if}` block (~10 lines each).
+- The projects page's bespoke inline back-button (a custom
+  `<button>` with `<ArrowLeft>` icon) is replaced by the standard
+  `BackToList` inside the shell. The `ArrowLeft` import is dropped.
+- Tests: `EntityDetailViewShell.test.ts` (8 tests covering the
+  BackToList wiring + label, body rendering on truthy resolved,
+  loading state, default empty state, custom emptyMessage, the
+  `space-y-6` wrapper class, and a parameterised falsy-values pass
+  ensuring `0`, `''`, `null`, `undefined`, and `false` all hit the
+  empty branch).
 
 ### 4.3 `detailListState.svelte.ts`
 

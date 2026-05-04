@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { StatCard, ChartCard, BackToList, SEO } from '$lib/components/ui';
+	import { StatCard, ChartCard, SEO } from '$lib/components/ui';
 	import {
 		WordCloud,
 		EntityKnowledgeGraph,
@@ -15,6 +15,7 @@
 		EntityBrowseGrid,
 		EntityToolbar,
 		EntityDetailHeader,
+		EntityDetailViewShell,
 		EntityPageContainer,
 		SearchableItemsCard,
 		applyEntitySort,
@@ -174,41 +175,37 @@
 	selected={() => selectedName}
 >
 	{#snippet detailView()}
-		<div class="space-y-6">
-			<BackToList
-				show={true}
-				onclick={clearSelection}
-				label={`Back to ${viewMode === 'subjects' ? 'subjects' : 'tags'}`}
-			/>
-			{#if selectedTerm}
+		<EntityDetailViewShell
+			backLabel={`Back to ${viewMode === 'subjects' ? 'subjects' : 'tags'}`}
+			onBack={clearSelection}
+			resolved={selectedTerm}
+			loading={detail.loading}
+		>
+			{#snippet body(term)}
 				<EntityDetailHeader
-					title={selectedTerm.name}
+					title={term.name}
 					icon={Tag}
 					subtitle={viewMode === 'subjects' ? 'LCSH subject heading' : 'Free-form tag'}
-					count={selectedTerm.count}
+					count={term.count}
 					wisskiCategory={viewMode === 'subjects' ? 'subjects' : 'tags'}
-					wisskiKey={selectedTerm.name}
+					wisskiKey={term.name}
 				/>
-				<SearchableItemsCard items={selectedTerm.items as CollectionItem[]} />
+				<SearchableItemsCard items={term.items as CollectionItem[]} />
 				<EntityDashboardSection
 					entityType={viewMode === 'subjects' ? 'subject' : 'tag'}
-					entityId={selectedTerm.name}
-					items={selectedTerm.items as CollectionItem[]}
+					entityId={term.name}
+					items={term.items as CollectionItem[]}
 					data={detail.data}
 				/>
 				<EntityKnowledgeGraph
 					entityType={viewMode === 'subjects' ? 'subject' : 'tag'}
-					entityId={selectedTerm.name}
+					entityId={term.name}
 					title={viewMode === 'subjects'
 						? 'Subject co-occurrence graph'
 						: 'Tag neighbourhood graph'}
 				/>
-			{:else if detail.loading}
-				<p class="text-sm text-muted-foreground">Loading dashboard…</p>
-			{:else}
-				<p class="text-sm text-muted-foreground">No data available.</p>
-			{/if}
-		</div>
+			{/snippet}
+		</EntityDetailViewShell>
 	{/snippet}
 
 	{#snippet listView()}

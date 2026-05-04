@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { StatCard, ChartCard, BackToList, SEO } from '$lib/components/ui';
+	import { StatCard, ChartCard, SEO } from '$lib/components/ui';
 	import { BarChart, EntityKnowledgeGraph, HeatmapChart } from '$lib/components/charts';
 	import { languageName, normalizeLanguageCode } from '$lib/utils/languages';
 	import { SvelteMap, SvelteSet } from 'svelte/reactivity';
@@ -10,6 +10,7 @@
 		EntityBrowseGrid,
 		EntityToolbar,
 		EntityDetailHeader,
+		EntityDetailViewShell,
 		EntityPageContainer,
 		SearchableItemsCard,
 		applyEntitySort,
@@ -132,37 +133,38 @@
 	selected={() => selectedGenre}
 >
 	{#snippet detailView()}
-		<div class="space-y-6">
-			<BackToList show={true} onclick={clearSelection} label="Back to genres" />
-			{#if selectedGenreData}
+		<EntityDetailViewShell
+			backLabel="Back to genres"
+			onBack={clearSelection}
+			resolved={selectedGenreData}
+			loading={detail.loading}
+			emptyMessage="No data available for this genre."
+		>
+			{#snippet body(genre)}
 				<EntityDetailHeader
-					title={selectedGenreData.name}
+					title={genre.name}
 					icon={BookType}
-					count={selectedGenreData.count}
+					count={genre.count}
 					percentOfTotal={$allCollections.length
-						? (selectedGenreData.count / $allCollections.length) * 100
+						? (genre.count / $allCollections.length) * 100
 						: undefined}
 					wisskiCategory="genres"
-					wisskiKey={selectedGenreData.name}
+					wisskiKey={genre.name}
 				/>
-				<SearchableItemsCard items={selectedGenreData.items} showProject={true} />
+				<SearchableItemsCard items={genre.items} showProject={true} />
 				<EntityDashboardSection
 					entityType="genre"
-					entityId={selectedGenreData.name}
-					items={selectedGenreData.items}
+					entityId={genre.name}
+					items={genre.items}
 					data={detail.data}
 				/>
 				<EntityKnowledgeGraph
 					entityType="genre"
-					entityId={selectedGenreData.name}
+					entityId={genre.name}
 					title="Genre knowledge graph"
 				/>
-			{:else if detail.loading}
-				<p class="text-sm text-muted-foreground">Loading dashboard…</p>
-			{:else}
-				<p class="text-sm text-muted-foreground">No data available for this genre.</p>
-			{/if}
-		</div>
+			{/snippet}
+		</EntityDetailViewShell>
 	{/snippet}
 
 	{#snippet listView()}

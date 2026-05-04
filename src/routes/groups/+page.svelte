@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { StatCard, ChartCard, BackToList, SEO } from '$lib/components/ui';
+	import { StatCard, ChartCard, SEO } from '$lib/components/ui';
 	import { BarChart, BoxPlot } from '$lib/components/charts';
 	import { EntityDashboardSection } from '$lib/components/dashboards';
 	import type { BarChartDataPoint, BoxPlotGroup } from '$lib/types';
@@ -8,6 +8,7 @@
 		EntityBrowseGrid,
 		EntityToolbar,
 		EntityDetailHeader,
+		EntityDetailViewShell,
 		EntityPageContainer,
 		SearchableItemsCard,
 		applyEntitySort,
@@ -132,16 +133,21 @@
 	selected={() => selectedName}
 >
 	{#snippet detailView()}
-		<div class="space-y-6">
-			<BackToList show={true} onclick={clearSelection} label="Back to groups" />
-			{#if selectedGroup}
+		<EntityDetailViewShell
+			backLabel="Back to groups"
+			onBack={clearSelection}
+			resolved={selectedGroup}
+			loading={detail.loading}
+			emptyMessage="No data available for this group."
+		>
+			{#snippet body(group)}
 				<EntityDetailHeader
-					title={selectedGroup.name}
+					title={group.name}
 					icon={UsersRound}
-					count={selectedGroup.count}
+					count={group.count}
 					countLabel="item"
 					wisskiCategory="groups"
-					wisskiKey={selectedGroup.name}
+					wisskiKey={group.name}
 				/>
 				<SearchableItemsCard
 					items={groupItems}
@@ -149,16 +155,12 @@
 				/>
 				<EntityDashboardSection
 					entityType="group"
-					entityId={selectedGroup.name}
+					entityId={group.name}
 					items={groupItems}
 					data={detail.data}
 				/>
-			{:else if detail.loading}
-				<p class="text-sm text-muted-foreground">Loading dashboard…</p>
-			{:else}
-				<p class="text-sm text-muted-foreground">No data available for this group.</p>
-			{/if}
-		</div>
+			{/snippet}
+		</EntityDetailViewShell>
 	{/snippet}
 
 	{#snippet listView()}

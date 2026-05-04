@@ -6,7 +6,6 @@
 		CardTitle,
 		CardContent,
 		Badge,
-		BackToList,
 		ChartCard,
 		SEO
 	} from '$lib/components/ui';
@@ -15,6 +14,7 @@
 		EntityBrowseGrid,
 		EntityToolbar,
 		EntityDetailHeader,
+		EntityDetailViewShell,
 		EntityPageContainer,
 		SearchableItemsCard,
 		FilterToggleBar,
@@ -428,33 +428,38 @@
 	onMountExtra={() => void ensureEnrichedLocations(base)}
 >
 	{#snippet detailView()}
-		{#if selectedLocation}
-			{@const wisski = wisskiFor(selectedLocation)}
-			<div class="space-y-6">
-				<BackToList show={true} onclick={clearSelection} label="Back to locations" />
+		<EntityDetailViewShell
+			backLabel="Back to locations"
+			onBack={clearSelection}
+			resolved={selectedLocation}
+			loading={detail.loading}
+			emptyMessage="No data available for this location."
+		>
+			{#snippet body(location)}
+				{@const wisski = wisskiFor(location)}
 				<EntityDetailHeader
-					title={selectedLocation.name}
-					icon={iconFor(selectedLocation.type)}
-					iconColorClass={iconColorFor(selectedLocation.type)}
-					subtitle={selectedLocation.country && selectedLocation.type !== 'country'
-						? `In ${selectedLocation.country}`
+					title={location.name}
+					icon={iconFor(location.type)}
+					iconColorClass={iconColorFor(location.type)}
+					subtitle={location.country && location.type !== 'country'
+						? `In ${location.country}`
 						: undefined}
-					count={selectedLocation.count}
+					count={location.count}
 					wisskiCategory={wisski.category || undefined}
 					wisskiKey={wisski.key || undefined}
 				>
 					{#snippet badges()}
 						<Badge>
-							{#snippet children()}{typeLabel(selectedLocation.type)}{/snippet}
+							{#snippet children()}{typeLabel(location.type)}{/snippet}
 						</Badge>
-						{#if selectedLocation.country && selectedLocation.type !== 'country'}
+						{#if location.country && location.type !== 'country'}
 							<button
 								type="button"
-								onclick={() => urlSelection.pushToUrl(selectedLocation.country || '')}
+								onclick={() => urlSelection.pushToUrl(location.country || '')}
 								class="hover:opacity-80 transition-opacity"
 							>
 								<Badge variant="secondary" class="hover:bg-primary/20 transition-colors">
-									{#snippet children()}{selectedLocation.country}{/snippet}
+									{#snippet children()}{location.country}{/snippet}
 								</Badge>
 							</button>
 						{/if}
@@ -539,23 +544,23 @@
 					</Card>
 				{/if}
 
-				<SearchableItemsCard items={selectedLocation.items} />
+				<SearchableItemsCard items={location.items} />
 
 				<EntityDashboardSection
 					entityType="location"
-					entityId={selectedLocation.name}
-					items={selectedLocation.items}
+					entityId={location.name}
+					items={location.items}
 					enrichedLocations={$enrichedLocations}
 					data={detail.data}
 				/>
 
 				<EntityKnowledgeGraph
 					entityType="location"
-					entityId={selectedLocation.name}
+					entityId={location.name}
 					title="Place-based knowledge graph"
 				/>
-			</div>
-		{/if}
+			{/snippet}
+		</EntityDetailViewShell>
 	{/snippet}
 
 	{#snippet listView()}

@@ -4,6 +4,7 @@ export { default as EntityBrowseGrid } from './EntityBrowseGrid.svelte';
 export { default as EntityToolbar } from './EntityToolbar.svelte';
 export { default as EntityDetailHeader } from './EntityDetailHeader.svelte';
 export { default as EntityItemsCard } from './EntityItemsCard.svelte';
+export { default as EntityDetailViewShell } from './EntityDetailViewShell.svelte';
 export { default as EntityPageContainer } from './EntityPageContainer.svelte';
 export { default as SearchableItemsCard } from './SearchableItemsCard.svelte';
 export { default as EntityEmptyHint } from './EntityEmptyHint.svelte';

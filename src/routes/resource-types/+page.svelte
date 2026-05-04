@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { StatCard, ChartCard, BackToList, SEO } from '$lib/components/ui';
+	import { StatCard, ChartCard, SEO } from '$lib/components/ui';
 	import { PieChart, BarChart, StackedAreaChart, HeatmapChart } from '$lib/components/charts';
 	import { EntityDashboardSection } from '$lib/components/dashboards';
 	import {
@@ -7,6 +7,7 @@
 		EntityBrowseGrid,
 		EntityToolbar,
 		EntityDetailHeader,
+		EntityDetailViewShell,
 		EntityPageContainer,
 		SearchableItemsCard,
 		applyEntitySort,
@@ -143,32 +144,33 @@
 	selected={() => selectedType}
 >
 	{#snippet detailView()}
-		<div class="space-y-6">
-			<BackToList show={true} onclick={clearSelection} label="Back to resource types" />
-			{#if selectedTypeData}
+		<EntityDetailViewShell
+			backLabel="Back to resource types"
+			onBack={clearSelection}
+			resolved={selectedTypeData}
+			loading={detail.loading}
+			emptyMessage="No data available for this type."
+		>
+			{#snippet body(type)}
 				<EntityDetailHeader
-					title={selectedTypeData.name}
+					title={type.name}
 					icon={FileText}
-					count={selectedTypeData.count}
+					count={type.count}
 					percentOfTotal={$allCollections.length
-						? (selectedTypeData.count / $allCollections.length) * 100
+						? (type.count / $allCollections.length) * 100
 						: undefined}
 					wisskiCategory="resourceTypes"
-					wisskiKey={selectedTypeData.name}
+					wisskiKey={type.name}
 				/>
-				<SearchableItemsCard items={selectedTypeData.items} showType={false} showProject={true} />
+				<SearchableItemsCard items={type.items} showType={false} showProject={true} />
 				<EntityDashboardSection
 					entityType="resource-type"
-					entityId={selectedTypeData.name}
-					items={selectedTypeData.items}
+					entityId={type.name}
+					items={type.items}
 					data={detail.data}
 				/>
-			{:else if detail.loading}
-				<p class="text-sm text-muted-foreground">Loading dashboard…</p>
-			{:else}
-				<p class="text-sm text-muted-foreground">No data available for this type.</p>
-			{/if}
-		</div>
+			{/snippet}
+		</EntityDetailViewShell>
 	{/snippet}
 
 	{#snippet listView()}

@@ -19,6 +19,7 @@
 		SearchableItemsCard,
 		FilterToggleBar,
 		EntityDetailHeader,
+		EntityDetailViewShell,
 		EntityPageContainer
 	} from '$lib/components/entity-browse';
 	import { EntityDashboardSection } from '$lib/components/dashboards';
@@ -47,7 +48,6 @@
 		Building2,
 		Calendar,
 		Users,
-		ArrowLeft,
 		Hash,
 		GraduationCap,
 		ExternalLink
@@ -334,229 +334,229 @@
 	selected={() => selectedProject}
 >
 	{#snippet detailView()}
-		{#if selectedProject}
-			<!-- Project Detail View -->
-			<div class="space-y-6 animate-slide-in-up">
-				<button
-					onclick={clearSelection}
-					class="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
-				>
-					<ArrowLeft class="h-4 w-4" />
-					Back to projects
-				</button>
-
-				<!-- Project Header -->
-				<EntityDetailHeader
-					title={selectedProject.name}
-					wisskiCategory="projects"
-					wisskiKey={selectedProject.id}
-					hideWisskiLink
-				>
-					{#snippet content()}
-						<div class="grid gap-3 text-sm sm:grid-cols-2">
-							<div class="flex items-center gap-2">
-								<Hash class="h-4 w-4 text-muted-foreground shrink-0" />
-								<span class="text-muted-foreground shrink-0">Identifier</span>
-								<span class="text-foreground font-mono">{selectedProject.id}</span>
+		<EntityDetailViewShell
+			backLabel="Back to projects"
+			onBack={clearSelection}
+			resolved={selectedProject}
+			loading={detail.loading}
+			emptyMessage="No data available for this project."
+		>
+			{#snippet body()}
+				{#if selectedProject}
+					<!-- Project Header -->
+					<EntityDetailHeader
+						title={selectedProject.name}
+						wisskiCategory="projects"
+						wisskiKey={selectedProject.id}
+						hideWisskiLink
+					>
+						{#snippet content()}
+							<div class="grid gap-3 text-sm sm:grid-cols-2">
+								<div class="flex items-center gap-2">
+									<Hash class="h-4 w-4 text-muted-foreground shrink-0" />
+									<span class="text-muted-foreground shrink-0">Identifier</span>
+									<span class="text-foreground font-mono">{selectedProject.id}</span>
+								</div>
+								{#if selectedProject.researchSection?.length > 0}
+									<div class="flex items-center gap-2">
+										<BookOpen class="h-4 w-4 text-muted-foreground shrink-0" />
+										<span class="text-muted-foreground shrink-0">Research Section</span>
+										<span class="text-foreground">
+											{#each selectedProject.researchSection as section, i (section)}
+												<a
+													href={researchSectionsUrl(section)}
+													class="hover:text-primary transition-colors">{section}</a
+												>{#if i < selectedProject.researchSection.length - 1},&nbsp;{/if}
+											{/each}
+										</span>
+									</div>
+								{/if}
+								{#if selectedProject.date?.start || selectedProject.date?.end}
+									<div class="flex items-center gap-2">
+										<Calendar class="h-4 w-4 text-muted-foreground shrink-0" />
+										<span class="text-muted-foreground shrink-0">Duration</span>
+										<span class="text-foreground"
+											>{formatDate(selectedProject.date?.start)} – {formatDate(
+												selectedProject.date?.end
+											)}</span
+										>
+									</div>
+								{/if}
+								<div class="flex items-center gap-2">
+									<WissKILink category="projects" entityKey={selectedProject.id} />
+								</div>
+								{#if getProjectLink(selectedProject.id)}
+									<div class="flex items-center gap-2">
+										<a
+											href={getProjectLink(selectedProject.id)}
+											target="_blank"
+											rel="noopener noreferrer"
+											class="inline-flex items-center gap-1 rounded-full border px-2.5 py-0.5 text-xs font-medium text-muted-foreground hover:text-primary hover:border-primary/50 transition-colors"
+										>
+											<ExternalLink class="h-3 w-3" />
+											Project page
+										</a>
+									</div>
+								{/if}
 							</div>
-							{#if selectedProject.researchSection?.length > 0}
-								<div class="flex items-center gap-2">
-									<BookOpen class="h-4 w-4 text-muted-foreground shrink-0" />
-									<span class="text-muted-foreground shrink-0">Research Section</span>
-									<span class="text-foreground">
-										{#each selectedProject.researchSection as section, i (section)}
-											<a
-												href={researchSectionsUrl(section)}
-												class="hover:text-primary transition-colors">{section}</a
-											>{#if i < selectedProject.researchSection.length - 1},&nbsp;{/if}
-										{/each}
-									</span>
-								</div>
-							{/if}
-							{#if selectedProject.date?.start || selectedProject.date?.end}
-								<div class="flex items-center gap-2">
-									<Calendar class="h-4 w-4 text-muted-foreground shrink-0" />
-									<span class="text-muted-foreground shrink-0">Duration</span>
-									<span class="text-foreground"
-										>{formatDate(selectedProject.date?.start)} – {formatDate(
-											selectedProject.date?.end
-										)}</span
-									>
-								</div>
-							{/if}
-							<div class="flex items-center gap-2">
-								<WissKILink category="projects" entityKey={selectedProject.id} />
-							</div>
-							{#if getProjectLink(selectedProject.id)}
-								<div class="flex items-center gap-2">
-									<a
-										href={getProjectLink(selectedProject.id)}
-										target="_blank"
-										rel="noopener noreferrer"
-										class="inline-flex items-center gap-1 rounded-full border px-2.5 py-0.5 text-xs font-medium text-muted-foreground hover:text-primary hover:border-primary/50 transition-colors"
-									>
-										<ExternalLink class="h-3 w-3" />
-										Project page
-									</a>
-								</div>
-							{/if}
-						</div>
-					{/snippet}
-				</EntityDetailHeader>
-
-				<!-- Description -->
-				{#if getDescription(selectedProject)}
-					<Card class="overflow-hidden">
-						{#snippet children()}
-							<CardHeader>
-								{#snippet children()}
-									<CardTitle class="text-lg">
-										{#snippet children()}Description{/snippet}
-									</CardTitle>
-								{/snippet}
-							</CardHeader>
-							<CardContent>
-								{#snippet children()}
-									<div class="text-sm text-muted-foreground leading-relaxed break-words">
-										{#each getDescription(selectedProject).split('\n\n') as paragraph, i (i)}
-											<p class="mb-3 last:mb-0">{paragraph}</p>
-										{/each}
-									</div>
-								{/snippet}
-							</CardContent>
 						{/snippet}
-					</Card>
-				{/if}
+					</EntityDetailHeader>
 
-				<!-- Principal Investigators — inline -->
-				{#if selectedProject.pi?.length > 0}
-					<Card class="overflow-hidden">
-						{#snippet children()}
-							<CardHeader>
-								{#snippet children()}
-									<CardTitle class="text-lg">
-										{#snippet children()}
-											<span class="flex items-center gap-2">
-												<GraduationCap class="h-5 w-5 text-primary" />
-												Principal Investigators
-											</span>
-										{/snippet}
-									</CardTitle>
-								{/snippet}
-							</CardHeader>
-							<CardContent>
-								{#snippet children()}
-									<p class="text-sm text-foreground">
-										{#each selectedProject.pi as pi, i (pi)}
-											{#if i > 0}<span class="text-muted-foreground"> · </span>{/if}
-											<a href={personUrl(pi)} class="hover:text-primary transition-colors">{pi}</a>
-										{/each}
-									</p>
-								{/snippet}
-							</CardContent>
-						{/snippet}
-					</Card>
-				{/if}
+					<!-- Description -->
+					{#if getDescription(selectedProject)}
+						<Card class="overflow-hidden">
+							{#snippet children()}
+								<CardHeader>
+									{#snippet children()}
+										<CardTitle class="text-lg">
+											{#snippet children()}Description{/snippet}
+										</CardTitle>
+									{/snippet}
+								</CardHeader>
+								<CardContent>
+									{#snippet children()}
+										<div class="text-sm text-muted-foreground leading-relaxed break-words">
+											{#each getDescription(selectedProject).split('\n\n') as paragraph, i (i)}
+												<p class="mb-3 last:mb-0">{paragraph}</p>
+											{/each}
+										</div>
+									{/snippet}
+								</CardContent>
+							{/snippet}
+						</Card>
+					{/if}
 
-				<!-- Members — multi-column grid -->
-				{#if getMembers(selectedProject).length > 0}
-					<Card class="overflow-hidden">
-						{#snippet children()}
-							<CardHeader>
-								{#snippet children()}
-									<CardTitle class="text-lg">
-										{#snippet children()}
-											<span class="flex items-center gap-2">
-												<Users class="h-5 w-5 text-primary" />
-												Members
-												<Badge variant="secondary">
-													{#snippet children()}{getMembers(selectedProject).length}{/snippet}
-												</Badge>
-											</span>
-										{/snippet}
-									</CardTitle>
-								{/snippet}
-							</CardHeader>
-							<CardContent>
-								{#snippet children()}
-									<div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-4 gap-y-1.5">
-										{#each getMembers(selectedProject) as member (member)}
-											<a
-												href={personUrl(member)}
-												class="text-sm text-foreground hover:text-primary transition-colors truncate"
-												>{member}</a
-											>
-										{/each}
-									</div>
-								{/snippet}
-							</CardContent>
-						{/snippet}
-					</Card>
-				{/if}
+					<!-- Principal Investigators — inline -->
+					{#if selectedProject.pi?.length > 0}
+						<Card class="overflow-hidden">
+							{#snippet children()}
+								<CardHeader>
+									{#snippet children()}
+										<CardTitle class="text-lg">
+											{#snippet children()}
+												<span class="flex items-center gap-2">
+													<GraduationCap class="h-5 w-5 text-primary" />
+													Principal Investigators
+												</span>
+											{/snippet}
+										</CardTitle>
+									{/snippet}
+								</CardHeader>
+								<CardContent>
+									{#snippet children()}
+										<p class="text-sm text-foreground">
+											{#each selectedProject.pi as pi, i (pi)}
+												{#if i > 0}<span class="text-muted-foreground"> · </span>{/if}
+												<a href={personUrl(pi)} class="hover:text-primary transition-colors">{pi}</a
+												>
+											{/each}
+										</p>
+									{/snippet}
+								</CardContent>
+							{/snippet}
+						</Card>
+					{/if}
 
-				<!-- Institutions -->
-				{#if selectedProject.institutions?.length > 0}
-					<Card class="overflow-hidden">
-						{#snippet children()}
-							<CardHeader>
-								{#snippet children()}
-									<CardTitle class="text-lg">
-										{#snippet children()}
-											<span class="flex items-center gap-2">
-												<Building2 class="h-5 w-5 text-primary" />
-												Institutions
-											</span>
-										{/snippet}
-									</CardTitle>
-								{/snippet}
-							</CardHeader>
-							<CardContent>
-								{#snippet children()}
-									<div class="flex flex-wrap gap-2">
-										{#each selectedProject.institutions as institution (institution)}
-											<a
-												href={institutionUrl(institution)}
-												class="hover:opacity-80 transition-opacity"
-											>
-												<Badge variant="outline" class="hover:bg-primary/10 transition-colors">
-													{#snippet children()}{institution}{/snippet}
-												</Badge>
-											</a>
-										{/each}
-									</div>
-								{/snippet}
-							</CardContent>
-						{/snippet}
-					</Card>
-				{/if}
+					<!-- Members — multi-column grid -->
+					{#if getMembers(selectedProject).length > 0}
+						<Card class="overflow-hidden">
+							{#snippet children()}
+								<CardHeader>
+									{#snippet children()}
+										<CardTitle class="text-lg">
+											{#snippet children()}
+												<span class="flex items-center gap-2">
+													<Users class="h-5 w-5 text-primary" />
+													Members
+													<Badge variant="secondary">
+														{#snippet children()}{getMembers(selectedProject).length}{/snippet}
+													</Badge>
+												</span>
+											{/snippet}
+										</CardTitle>
+									{/snippet}
+								</CardHeader>
+								<CardContent>
+									{#snippet children()}
+										<div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-4 gap-y-1.5">
+											{#each getMembers(selectedProject) as member (member)}
+												<a
+													href={personUrl(member)}
+													class="text-sm text-foreground hover:text-primary transition-colors truncate"
+													>{member}</a
+												>
+											{/each}
+										</div>
+									{/snippet}
+								</CardContent>
+							{/snippet}
+						</Card>
+					{/if}
 
-				<!-- Research Items — the primary content. Charts and aggregate
+					<!-- Institutions -->
+					{#if selectedProject.institutions?.length > 0}
+						<Card class="overflow-hidden">
+							{#snippet children()}
+								<CardHeader>
+									{#snippet children()}
+										<CardTitle class="text-lg">
+											{#snippet children()}
+												<span class="flex items-center gap-2">
+													<Building2 class="h-5 w-5 text-primary" />
+													Institutions
+												</span>
+											{/snippet}
+										</CardTitle>
+									{/snippet}
+								</CardHeader>
+								<CardContent>
+									{#snippet children()}
+										<div class="flex flex-wrap gap-2">
+											{#each selectedProject.institutions as institution (institution)}
+												<a
+													href={institutionUrl(institution)}
+													class="hover:opacity-80 transition-opacity"
+												>
+													<Badge variant="outline" class="hover:bg-primary/10 transition-colors">
+														{#snippet children()}{institution}{/snippet}
+													</Badge>
+												</a>
+											{/each}
+										</div>
+									{/snippet}
+								</CardContent>
+							{/snippet}
+						</Card>
+					{/if}
+
+					<!-- Research Items — the primary content. Charts and aggregate
 			     views come after so users can decompose the list after
 			     seeing what's actually in it. -->
-				{#if projectCollectionItems.length > 0}
-					<SearchableItemsCard items={projectCollectionItems} />
-				{/if}
+					{#if projectCollectionItems.length > 0}
+						<SearchableItemsCard items={projectCollectionItems} />
+					{/if}
 
-				<!-- Precomputed project dashboard: timelines, roles, heatmap,
+					<!-- Precomputed project dashboard: timelines, roles, heatmap,
 			     sunburst (type → language → subject), chord (subject
 			     co-occurrence), sankey (contributor → project → type),
 			     and more. Replaces the former hand-rolled
 			     WordCloud/BarChart/PieChart quartet. -->
-				<EntityDashboardSection
-					entityType="project"
-					entityId={selectedProject.id}
-					items={projectCollectionItems}
-					data={detail.data}
-				/>
+					<EntityDashboardSection
+						entityType="project"
+						entityId={selectedProject.id}
+						items={projectCollectionItems}
+						data={detail.data}
+					/>
 
-				<!-- Knowledge Graph — shared neighbourhoods, contributors, communities -->
-				<EntityKnowledgeGraph
-					entityType="project"
-					entityId={selectedProject.name}
-					title="Project knowledge graph"
-				/>
-			</div>
-		{/if}
+					<!-- Knowledge Graph — shared neighbourhoods, contributors, communities -->
+					<EntityKnowledgeGraph
+						entityType="project"
+						entityId={selectedProject.name}
+						title="Project knowledge graph"
+					/>
+				{/if}
+			{/snippet}
+		</EntityDetailViewShell>
 	{/snippet}
 
 	{#snippet listView()}

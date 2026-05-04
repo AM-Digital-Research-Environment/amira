@@ -1,11 +1,12 @@
 <script lang="ts">
-	import { StatCard, ChartCard, BackToList, SEO } from '$lib/components/ui';
+	import { StatCard, ChartCard, SEO } from '$lib/components/ui';
 	import { StackedAreaChart, HeatmapChart } from '$lib/components/charts';
 	import {
 		EntityCard,
 		EntityBrowseGrid,
 		EntityToolbar,
 		EntityDetailHeader,
+		EntityDetailViewShell,
 		EntityPageContainer,
 		SearchableItemsCard,
 		applyEntitySort,
@@ -181,30 +182,31 @@
 	selected={() => selectedCode}
 >
 	{#snippet detailView()}
-		<div class="space-y-6">
-			<BackToList show={true} onclick={clearSelection} label="Back to languages" />
-			{#if selectedLanguage}
+		<EntityDetailViewShell
+			backLabel="Back to languages"
+			onBack={clearSelection}
+			resolved={selectedLanguage}
+			loading={detail.loading}
+			emptyMessage="No data available for this language."
+		>
+			{#snippet body(language)}
 				<EntityDetailHeader
-					title={selectedLanguage.name}
+					title={language.name}
 					icon={Languages}
-					subtitle={`Code: ${selectedLanguage.code}`}
-					count={selectedLanguage.count}
+					subtitle={`Code: ${language.code}`}
+					count={language.count}
 					wisskiCategory="languages"
-					wisskiKey={selectedLanguage.name}
+					wisskiKey={language.name}
 				/>
-				<SearchableItemsCard items={selectedLanguage.items} />
+				<SearchableItemsCard items={language.items} />
 				<EntityDashboardSection
 					entityType="language"
-					entityId={selectedLanguage.code}
-					items={selectedLanguage.items}
+					entityId={language.code}
+					items={language.items}
 					data={detail.data}
 				/>
-			{:else if detail.loading}
-				<p class="text-sm text-muted-foreground">Loading dashboard…</p>
-			{:else}
-				<p class="text-sm text-muted-foreground">No data available for this language.</p>
-			{/if}
-		</div>
+			{/snippet}
+		</EntityDetailViewShell>
 	{/snippet}
 
 	{#snippet listView()}
