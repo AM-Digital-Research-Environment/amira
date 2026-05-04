@@ -336,7 +336,7 @@ module so existing consumers keep working unchanged.
 ### 3.4 Move map module ✅
 
 - **Move**: `charts/map/{mapHelpers,markerBuilder,popupBuilder,
-  MapProjectionToggle.svelte}` → `src/lib/maps/`. All 7 consumer
+MapProjectionToggle.svelte}` → `src/lib/maps/`. All 7 consumer
   components (PhotoMap, ChoroplethMap, GeoFlowMap, LocationMap,
   LocationsMapView, MiniMap, ChartSlot) updated to the new path.
 - **Add** `src/lib/maps/BaseMapController.ts` — class that owns the
