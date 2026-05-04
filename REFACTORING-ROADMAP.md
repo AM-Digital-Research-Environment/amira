@@ -28,13 +28,13 @@ for review.
 
 ## Phase tracker
 
-| Phase | Status  | Description                                                              |
-| ----- | ------- | ------------------------------------------------------------------------ |
-| 0     | done    | Test harness — Vitest, Testing Library, Playwright, seed unit tests      |
-| 1     | done    | Low-risk cleanups — barrel deletions, helpers split, fetch/cache helpers |
-| 2     | done    | UI primitives — `Modal`, `FilterToggleBar`, expanded `optionBuilders`    |
-| 3     | done    | Component splits — `ItemDetail`, `ItemFilters`, dashboard layouts, maps  |
-| 4     | pending | Architectural shells — `EntityPageContainer`, `EntityDetailViewShell`    |
+| Phase | Status | Description                                                              |
+| ----- | ------ | ------------------------------------------------------------------------ |
+| 0     | done   | Test harness — Vitest, Testing Library, Playwright, seed unit tests      |
+| 1     | done   | Low-risk cleanups — barrel deletions, helpers split, fetch/cache helpers |
+| 2     | done   | UI primitives — `Modal`, `FilterToggleBar`, expanded `optionBuilders`    |
+| 3     | done   | Component splits — `ItemDetail`, `ItemFilters`, dashboard layouts, maps  |
+| 4     | active | Architectural shells — `EntityPageContainer`, `EntityDetailViewShell`    |
 
 After each phase: `npm run format:check`, `npm run check`, `npm run lint`,
 `npm run test`, and `npm run build` all pass. Commit, pause for review, then
@@ -376,10 +376,38 @@ MapProjectionToggle.svelte}` → `src/lib/maps/`. All 7 consumer
 
 ## Phase 4 — Architectural shells
 
-### 4.1 `EntityPageContainer.svelte`
+### 4.1 `EntityPageContainer.svelte` ✅
 
-- Owns the `{#if selectedEntity}` toggle, URL sync, collection loading.
-- All 9 entity pages adopt it (~50–80 lines off each).
+- **Add** `src/lib/components/entity-browse/EntityPageContainer.svelte` —
+  outer shell that owns: the `space-y-8 animate-slide-in-up` wrapper,
+  the `page-title` / `page-subtitle` header pair, the `{#if selected()}`
+  detail/list snippet switch, and the `useEntityCollectionLoader` hook
+  call (with optional `onMountExtra`).
+- Snippets renamed to `detailView` / `listView` to avoid clashing with
+  the conventional `const detail = createEntityDetailState(...)` that
+  every entity page declares.
+- Both `selected` and `onMountExtra` are read through closures inside
+  the loader call so svelte-check doesn't flag them as initial-value
+  captures (`state_referenced_locally`).
+- **Adopted** by all 10 entity pages: `genres`, `groups`, `languages`,
+  `resource-types`, `subjects`, `institutions`, `locations`,
+  `research-sections`, `people`, `projects`. Each page sheds the outer
+  wrapper + header block + `useEntityCollectionLoader` call (~12-14
+  lines each → ~120 lines total reclaimed).
+- Pages that need TypeScript narrowing on the selection (institutions,
+  locations, people, projects, research-sections) keep an inner
+  `{#if selectedX}` inside the `detailView` snippet — the container's
+  outer gate is the runtime contract; the inner check is solely for
+  the type system.
+- The `projects` page's bare `onMount + ensureCollections` is replaced
+  by the container's hook — projects already had a precomputed-items
+  fallback so direct detail-URL hits still render without the 13 MB
+  collections payload.
+- Tests: `EntityPageContainer.test.ts` (7 tests covering title/subtitle
+  rendering, `page-title`/`page-subtitle` classes, list/detail snippet
+  switching, the `space-y-8 animate-slide-in-up` wrapper, and the
+  `onMountExtra` lifecycle wiring). Uses a small Svelte harness so
+  snippets can be exercised from JavaScript test code.
 
 ### 4.2 `EntityDetailViewShell.svelte`
 

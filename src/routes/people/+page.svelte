@@ -16,9 +16,9 @@
 		EntityBrowseGrid,
 		EntityToolbar,
 		EntityDetailHeader,
+		EntityPageContainer,
 		SearchableItemsCard,
 		applyEntitySort,
-		useEntityCollectionLoader,
 		type EntitySort
 	} from '$lib/components/entity-browse';
 	import { projects, allCollections, researchSections, persons } from '$lib/stores/data';
@@ -70,10 +70,6 @@
 	let selectedName = $derived($page.url.searchParams.get('name') ?? '');
 
 	const detail = createEntityDetailState('person', () => selectedName);
-
-	useEntityCollectionLoader(() => selectedName, {
-		onMountExtra: () => void loadWisskiUrls('persons')
-	});
 
 	interface PersonData {
 		name: string;
@@ -435,449 +431,454 @@
 	/>
 {/if}
 
-<div class="space-y-8 animate-slide-in-up">
-	<div>
-		<h1 class="page-title">People</h1>
-		<p class="page-subtitle">
-			Browse researchers, principal investigators, and project members across the cluster
-		</p>
-	</div>
+<EntityPageContainer
+	title="People"
+	subtitle="Browse researchers, principal investigators, and project members across the cluster"
+	selected={() => selectedPerson}
+	onMountExtra={() => void loadWisskiUrls('persons')}
+>
+	{#snippet detailView()}
+		{#if selectedPerson}
+			<div class="space-y-6">
+				<BackToList show={true} onclick={clearSelection} label="Back to people" />
 
-	{#if selectedPerson}
-		<div class="space-y-6">
-			<BackToList show={true} onclick={clearSelection} label="Back to people" />
-
-			<!-- Person Header -->
-			<EntityDetailHeader
-				title={selectedPerson.name}
-				icon={Users}
-				wisskiCategory="persons"
-				wisskiKey={selectedPerson.name}
-			>
-				{#snippet badges()}
-					{#if selectedPerson.isSectionPI}
-						<Badge>{#snippet children()}Section PI{/snippet}</Badge>
-					{/if}
-					{#if selectedPerson.isSectionSpokesperson}
-						<Badge>{#snippet children()}Spokesperson{/snippet}</Badge>
-					{/if}
-					{#if selectedPerson.piOf.length > 0}
-						<Badge variant="secondary">
-							{#snippet children()}PI of {selectedPerson.piOf.length} project{selectedPerson.piOf
-									.length !== 1
-									? 's'
-									: ''}{/snippet}
-						</Badge>
-					{/if}
-					{#if selectedPerson.memberOf.length > 0}
-						<Badge variant="secondary">
-							{#snippet children()}Member of {selectedPerson.memberOf.length} project{selectedPerson
-									.memberOf.length !== 1
-									? 's'
-									: ''}{/snippet}
-						</Badge>
-					{/if}
-					{#if personCollectionItems.length > 0}
-						<Badge variant="outline">
-							{#snippet children()}{personCollectionItems.length} research item{personCollectionItems.length !==
-								1
-									? 's'
-									: ''}{/snippet}
-						</Badge>
-					{/if}
-				{/snippet}
-			</EntityDetailHeader>
-
-			{#if !personHasData(selectedPerson)}
-				{@const wisskiHref = getWisskiUrl('persons', selectedPerson.name)}
-				<Card class="overflow-hidden border-dashed">
-					{#snippet children()}
-						<CardContent>
-							{#snippet children()}
-								<div class="flex flex-col items-center justify-center py-8 text-center">
-									<Users class="h-10 w-10 text-muted-foreground/40 mb-3" />
-									<p class="text-sm text-muted-foreground">
-										No project, research item, or affiliation data is available for this person in
-										the dashboard.
-									</p>
-									{#if wisskiHref}
-										<a
-											href={wisskiHref}
-											target="_blank"
-											rel="noopener noreferrer"
-											class="inline-flex items-center gap-1.5 mt-3 text-sm text-primary hover:underline"
-										>
-											<ExternalLink class="h-3.5 w-3.5" />
-											View in WissKI
-										</a>
-									{/if}
-								</div>
-							{/snippet}
-						</CardContent>
+				<!-- Person Header -->
+				<EntityDetailHeader
+					title={selectedPerson.name}
+					icon={Users}
+					wisskiCategory="persons"
+					wisskiKey={selectedPerson.name}
+				>
+					{#snippet badges()}
+						{#if selectedPerson.isSectionPI}
+							<Badge>{#snippet children()}Section PI{/snippet}</Badge>
+						{/if}
+						{#if selectedPerson.isSectionSpokesperson}
+							<Badge>{#snippet children()}Spokesperson{/snippet}</Badge>
+						{/if}
+						{#if selectedPerson.piOf.length > 0}
+							<Badge variant="secondary">
+								{#snippet children()}PI of {selectedPerson.piOf.length} project{selectedPerson.piOf
+										.length !== 1
+										? 's'
+										: ''}{/snippet}
+							</Badge>
+						{/if}
+						{#if selectedPerson.memberOf.length > 0}
+							<Badge variant="secondary">
+								{#snippet children()}Member of {selectedPerson.memberOf.length} project{selectedPerson
+										.memberOf.length !== 1
+										? 's'
+										: ''}{/snippet}
+							</Badge>
+						{/if}
+						{#if personCollectionItems.length > 0}
+							<Badge variant="outline">
+								{#snippet children()}{personCollectionItems.length} research item{personCollectionItems.length !==
+									1
+										? 's'
+										: ''}{/snippet}
+							</Badge>
+						{/if}
 					{/snippet}
-				</Card>
-			{/if}
+				</EntityDetailHeader>
 
-			{#if selectedPerson.affiliations.size > 0}
-				<Card class="overflow-hidden">
-					{#snippet children()}
-						<CardHeader>
-							{#snippet children()}
-								<CardTitle class="text-lg">
-									{#snippet children()}
-										<span class="flex items-center gap-2">
-											<Building2 class="h-5 w-5 text-primary" />
-											Affiliations
-										</span>
-									{/snippet}
-								</CardTitle>
-							{/snippet}
-						</CardHeader>
-						<CardContent>
-							{#snippet children()}
-								<div class="flex flex-wrap gap-2">
-									{#each [...selectedPerson.affiliations].sort() as aff (aff)}
-										<a href={institutionUrl(aff)} class="hover:opacity-80 transition-opacity">
-											<Badge variant="outline" class="hover:bg-primary/10 transition-colors">
-												{#snippet children()}{aff}{/snippet}
-											</Badge>
-										</a>
-									{/each}
-								</div>
-							{/snippet}
-						</CardContent>
-					{/snippet}
-				</Card>
-			{/if}
-
-			{#if personProfile}
-				<Card class="overflow-hidden">
-					{#snippet children()}
-						<CardHeader>
-							{#snippet children()}
-								<CardTitle class="text-lg">
-									{#snippet children()}
-										<span class="flex items-center gap-2">
-											<UserCheck class="h-5 w-5 text-primary" />
-											Research Profile
-										</span>
-									{/snippet}
-								</CardTitle>
-							{/snippet}
-						</CardHeader>
-						<CardContent>
-							{#snippet children()}
-								<div class="grid gap-4 sm:grid-cols-2">
-									{#if personProfile.roles.length > 0}
-										<div>
-											<h4
-												class="text-xs font-medium text-muted-foreground uppercase tracking-wider mb-2"
+				{#if !personHasData(selectedPerson)}
+					{@const wisskiHref = getWisskiUrl('persons', selectedPerson.name)}
+					<Card class="overflow-hidden border-dashed">
+						{#snippet children()}
+							<CardContent>
+								{#snippet children()}
+									<div class="flex flex-col items-center justify-center py-8 text-center">
+										<Users class="h-10 w-10 text-muted-foreground/40 mb-3" />
+										<p class="text-sm text-muted-foreground">
+											No project, research item, or affiliation data is available for this person in
+											the dashboard.
+										</p>
+										{#if wisskiHref}
+											<a
+												href={wisskiHref}
+												target="_blank"
+												rel="noopener noreferrer"
+												class="inline-flex items-center gap-1.5 mt-3 text-sm text-primary hover:underline"
 											>
-												Roles
-											</h4>
-											<div class="flex flex-wrap gap-1.5">
-												{#each personProfile.roles as [role, count] (role)}
-													<Badge variant="secondary" class="text-xs">
-														{#snippet children()}{role}
-															<span class="text-muted-foreground ml-1">({count})</span>{/snippet}
-													</Badge>
-												{/each}
-											</div>
-										</div>
-									{/if}
-
-									{#if personProfile.resourceTypes.length > 0}
-										<div>
-											<h4
-												class="text-xs font-medium text-muted-foreground uppercase tracking-wider mb-2"
-											>
-												Resource Types
-											</h4>
-											<div class="flex flex-wrap gap-1.5">
-												{#each personProfile.resourceTypes as [type, count] (type)}
-													<a
-														href={resourceTypeUrl(type)}
-														class="hover:opacity-80 transition-opacity"
-													>
-														<Badge
-															variant="outline"
-															class="text-xs hover:bg-primary/10 transition-colors"
-														>
-															{#snippet children()}<Layers class="h-3 w-3 mr-1" />{type}
-																<span class="text-muted-foreground ml-1">({count})</span>{/snippet}
-														</Badge>
-													</a>
-												{/each}
-											</div>
-										</div>
-									{/if}
-
-									{#if personProfile.languages.length > 0}
-										<div>
-											<h4
-												class="text-xs font-medium text-muted-foreground uppercase tracking-wider mb-2"
-											>
-												Languages
-											</h4>
-											<div class="flex flex-wrap gap-1.5">
-												{#each personProfile.languages as [lang, count] (lang)}
-													<a href={languageUrl(lang)} class="hover:opacity-80 transition-opacity">
-														<Badge
-															variant="outline"
-															class="text-xs hover:bg-primary/10 transition-colors"
-														>
-															{#snippet children()}<Languages class="h-3 w-3 mr-1" />{languageName(
-																	lang
-																)}
-																<span class="text-muted-foreground ml-1">({count})</span>{/snippet}
-														</Badge>
-													</a>
-												{/each}
-											</div>
-										</div>
-									{/if}
-
-									{#if personProfile.countries.length > 0}
-										<div>
-											<h4
-												class="text-xs font-medium text-muted-foreground uppercase tracking-wider mb-2"
-											>
-												Countries
-											</h4>
-											<div class="flex flex-wrap gap-1.5">
-												{#each personProfile.countries as [country, count] (country)}
-													<a
-														href={locationUrl(country)}
-														class="hover:opacity-80 transition-opacity"
-													>
-														<Badge
-															variant="outline"
-															class="text-xs hover:bg-primary/10 transition-colors"
-														>
-															{#snippet children()}<MapPin class="h-3 w-3 mr-1" />{country}
-																<span class="text-muted-foreground ml-1">({count})</span>{/snippet}
-														</Badge>
-													</a>
-												{/each}
-											</div>
-										</div>
-									{/if}
-								</div>
-
-								{#if personProfile.subjects.length > 0}
-									<div class="mt-4 pt-4 border-t">
-										<h4
-											class="text-xs font-medium text-muted-foreground uppercase tracking-wider mb-2"
-										>
-											Top Subjects
-										</h4>
-										<div class="flex flex-wrap gap-1.5">
-											{#each personProfile.subjects as [subject, count] (subject)}
-												<a href={subjectUrl(subject)} class="hover:opacity-80 transition-opacity">
-													<Badge
-														variant="outline"
-														class="text-xs hover:bg-primary/10 transition-colors"
-													>
-														{#snippet children()}{subject}
-															<span class="text-muted-foreground ml-1">({count})</span>{/snippet}
-													</Badge>
-												</a>
-											{/each}
-										</div>
+												<ExternalLink class="h-3.5 w-3.5" />
+												View in WissKI
+											</a>
+										{/if}
 									</div>
-								{/if}
-							{/snippet}
-						</CardContent>
-					{/snippet}
-				</Card>
-			{/if}
+								{/snippet}
+							</CardContent>
+						{/snippet}
+					</Card>
+				{/if}
 
-			{#if selectedPerson.sections.size > 0}
-				<Card class="overflow-hidden">
-					{#snippet children()}
-						<CardHeader>
-							{#snippet children()}
-								<CardTitle class="text-lg">
-									{#snippet children()}
-										<span class="flex items-center gap-2">
-											<BookOpen class="h-5 w-5 text-primary" />
-											Research Sections
-										</span>
-									{/snippet}
-								</CardTitle>
-							{/snippet}
-						</CardHeader>
-						<CardContent>
-							{#snippet children()}
-								<div class="flex flex-wrap gap-2">
-									{#each [...selectedPerson.sections].sort() as section (section)}
-										{@const isSectionPi = selectedPerson.piOfSections.has(section)}
-										{@const isSectionSpokesperson =
-											selectedPerson.spokespersonOfSections.has(section)}
-										<a
-											href={researchSectionsUrl(section)}
-											class="inline-flex items-center gap-1.5 hover:opacity-80 transition-opacity"
-											title={isSectionSpokesperson
-												? `Spokesperson of the ${section} section`
-												: isSectionPi
-													? `PI of the ${section} section`
-													: section}
-										>
-											<SectionBadge {section} />
-											{#if isSectionSpokesperson}
-												<Badge class="text-2xs">
-													{#snippet children()}Spokesperson{/snippet}
+				{#if selectedPerson.affiliations.size > 0}
+					<Card class="overflow-hidden">
+						{#snippet children()}
+							<CardHeader>
+								{#snippet children()}
+									<CardTitle class="text-lg">
+										{#snippet children()}
+											<span class="flex items-center gap-2">
+												<Building2 class="h-5 w-5 text-primary" />
+												Affiliations
+											</span>
+										{/snippet}
+									</CardTitle>
+								{/snippet}
+							</CardHeader>
+							<CardContent>
+								{#snippet children()}
+									<div class="flex flex-wrap gap-2">
+										{#each [...selectedPerson.affiliations].sort() as aff (aff)}
+											<a href={institutionUrl(aff)} class="hover:opacity-80 transition-opacity">
+												<Badge variant="outline" class="hover:bg-primary/10 transition-colors">
+													{#snippet children()}{aff}{/snippet}
 												</Badge>
-											{:else if isSectionPi}
-												<Badge class="text-2xs">
-													{#snippet children()}PI{/snippet}
-												</Badge>
-											{/if}
-										</a>
-									{/each}
-								</div>
-							{/snippet}
-						</CardContent>
-					{/snippet}
-				</Card>
-			{/if}
+											</a>
+										{/each}
+									</div>
+								{/snippet}
+							</CardContent>
+						{/snippet}
+					</Card>
+				{/if}
 
-			{#if selectedPerson.piOf.length > 0}
-				<Card class="overflow-hidden">
-					{#snippet children()}
-						<CardHeader>
-							{#snippet children()}
-								<CardTitle class="text-lg">
-									{#snippet children()}
-										<span class="flex items-center gap-2">
-											<Briefcase class="h-5 w-5 text-primary" />
-											Projects as Principal Investigator
-										</span>
-									{/snippet}
-								</CardTitle>
-							{/snippet}
-						</CardHeader>
-						<CardContent>
-							{#snippet children()}
-								<ul class="space-y-3">
-									{#each selectedPerson.piOf as project (project.id)}
-										<li class="flex items-start gap-3 p-3 rounded-lg bg-muted/30">
-											<Briefcase class="h-4 w-4 mt-0.5 text-muted-foreground shrink-0" />
-											<div class="min-w-0">
-												<a
-													href={projectUrl(project.id)}
-													class="text-sm font-medium text-foreground hover:text-primary transition-colors break-words"
+				{#if personProfile}
+					<Card class="overflow-hidden">
+						{#snippet children()}
+							<CardHeader>
+								{#snippet children()}
+									<CardTitle class="text-lg">
+										{#snippet children()}
+											<span class="flex items-center gap-2">
+												<UserCheck class="h-5 w-5 text-primary" />
+												Research Profile
+											</span>
+										{/snippet}
+									</CardTitle>
+								{/snippet}
+							</CardHeader>
+							<CardContent>
+								{#snippet children()}
+									<div class="grid gap-4 sm:grid-cols-2">
+										{#if personProfile.roles.length > 0}
+											<div>
+												<h4
+													class="text-xs font-medium text-muted-foreground uppercase tracking-wider mb-2"
 												>
-													{getProjectTitle(project)}
-												</a>
-												<div class="flex flex-wrap items-center gap-2 mt-1">
+													Roles
+												</h4>
+												<div class="flex flex-wrap gap-1.5">
+													{#each personProfile.roles as [role, count] (role)}
+														<Badge variant="secondary" class="text-xs">
+															{#snippet children()}{role}
+																<span class="text-muted-foreground ml-1">({count})</span>{/snippet}
+														</Badge>
+													{/each}
+												</div>
+											</div>
+										{/if}
+
+										{#if personProfile.resourceTypes.length > 0}
+											<div>
+												<h4
+													class="text-xs font-medium text-muted-foreground uppercase tracking-wider mb-2"
+												>
+													Resource Types
+												</h4>
+												<div class="flex flex-wrap gap-1.5">
+													{#each personProfile.resourceTypes as [type, count] (type)}
+														<a
+															href={resourceTypeUrl(type)}
+															class="hover:opacity-80 transition-opacity"
+														>
+															<Badge
+																variant="outline"
+																class="text-xs hover:bg-primary/10 transition-colors"
+															>
+																{#snippet children()}<Layers class="h-3 w-3 mr-1" />{type}
+																	<span class="text-muted-foreground ml-1">({count})</span
+																	>{/snippet}
+															</Badge>
+														</a>
+													{/each}
+												</div>
+											</div>
+										{/if}
+
+										{#if personProfile.languages.length > 0}
+											<div>
+												<h4
+													class="text-xs font-medium text-muted-foreground uppercase tracking-wider mb-2"
+												>
+													Languages
+												</h4>
+												<div class="flex flex-wrap gap-1.5">
+													{#each personProfile.languages as [lang, count] (lang)}
+														<a href={languageUrl(lang)} class="hover:opacity-80 transition-opacity">
+															<Badge
+																variant="outline"
+																class="text-xs hover:bg-primary/10 transition-colors"
+															>
+																{#snippet children()}<Languages
+																		class="h-3 w-3 mr-1"
+																	/>{languageName(lang)}
+																	<span class="text-muted-foreground ml-1">({count})</span
+																	>{/snippet}
+															</Badge>
+														</a>
+													{/each}
+												</div>
+											</div>
+										{/if}
+
+										{#if personProfile.countries.length > 0}
+											<div>
+												<h4
+													class="text-xs font-medium text-muted-foreground uppercase tracking-wider mb-2"
+												>
+													Countries
+												</h4>
+												<div class="flex flex-wrap gap-1.5">
+													{#each personProfile.countries as [country, count] (country)}
+														<a
+															href={locationUrl(country)}
+															class="hover:opacity-80 transition-opacity"
+														>
+															<Badge
+																variant="outline"
+																class="text-xs hover:bg-primary/10 transition-colors"
+															>
+																{#snippet children()}<MapPin class="h-3 w-3 mr-1" />{country}
+																	<span class="text-muted-foreground ml-1">({count})</span
+																	>{/snippet}
+															</Badge>
+														</a>
+													{/each}
+												</div>
+											</div>
+										{/if}
+									</div>
+
+									{#if personProfile.subjects.length > 0}
+										<div class="mt-4 pt-4 border-t">
+											<h4
+												class="text-xs font-medium text-muted-foreground uppercase tracking-wider mb-2"
+											>
+												Top Subjects
+											</h4>
+											<div class="flex flex-wrap gap-1.5">
+												{#each personProfile.subjects as [subject, count] (subject)}
+													<a href={subjectUrl(subject)} class="hover:opacity-80 transition-opacity">
+														<Badge
+															variant="outline"
+															class="text-xs hover:bg-primary/10 transition-colors"
+														>
+															{#snippet children()}{subject}
+																<span class="text-muted-foreground ml-1">({count})</span>{/snippet}
+														</Badge>
+													</a>
+												{/each}
+											</div>
+										</div>
+									{/if}
+								{/snippet}
+							</CardContent>
+						{/snippet}
+					</Card>
+				{/if}
+
+				{#if selectedPerson.sections.size > 0}
+					<Card class="overflow-hidden">
+						{#snippet children()}
+							<CardHeader>
+								{#snippet children()}
+									<CardTitle class="text-lg">
+										{#snippet children()}
+											<span class="flex items-center gap-2">
+												<BookOpen class="h-5 w-5 text-primary" />
+												Research Sections
+											</span>
+										{/snippet}
+									</CardTitle>
+								{/snippet}
+							</CardHeader>
+							<CardContent>
+								{#snippet children()}
+									<div class="flex flex-wrap gap-2">
+										{#each [...selectedPerson.sections].sort() as section (section)}
+											{@const isSectionPi = selectedPerson.piOfSections.has(section)}
+											{@const isSectionSpokesperson =
+												selectedPerson.spokespersonOfSections.has(section)}
+											<a
+												href={researchSectionsUrl(section)}
+												class="inline-flex items-center gap-1.5 hover:opacity-80 transition-opacity"
+												title={isSectionSpokesperson
+													? `Spokesperson of the ${section} section`
+													: isSectionPi
+														? `PI of the ${section} section`
+														: section}
+											>
+												<SectionBadge {section} />
+												{#if isSectionSpokesperson}
+													<Badge class="text-2xs">
+														{#snippet children()}Spokesperson{/snippet}
+													</Badge>
+												{:else if isSectionPi}
+													<Badge class="text-2xs">
+														{#snippet children()}PI{/snippet}
+													</Badge>
+												{/if}
+											</a>
+										{/each}
+									</div>
+								{/snippet}
+							</CardContent>
+						{/snippet}
+					</Card>
+				{/if}
+
+				{#if selectedPerson.piOf.length > 0}
+					<Card class="overflow-hidden">
+						{#snippet children()}
+							<CardHeader>
+								{#snippet children()}
+									<CardTitle class="text-lg">
+										{#snippet children()}
+											<span class="flex items-center gap-2">
+												<Briefcase class="h-5 w-5 text-primary" />
+												Projects as Principal Investigator
+											</span>
+										{/snippet}
+									</CardTitle>
+								{/snippet}
+							</CardHeader>
+							<CardContent>
+								{#snippet children()}
+									<ul class="space-y-3">
+										{#each selectedPerson.piOf as project (project.id)}
+											<li class="flex items-start gap-3 p-3 rounded-lg bg-muted/30">
+												<Briefcase class="h-4 w-4 mt-0.5 text-muted-foreground shrink-0" />
+												<div class="min-w-0">
+													<a
+														href={projectUrl(project.id)}
+														class="text-sm font-medium text-foreground hover:text-primary transition-colors break-words"
+													>
+														{getProjectTitle(project)}
+													</a>
+													<div class="flex flex-wrap items-center gap-2 mt-1">
+														{#if project.idShort}
+															<span class="text-xs text-muted-foreground font-mono"
+																>{project.idShort}</span
+															>
+														{/if}
+														{#if project.date?.start || project.date?.end}
+															<span class="text-xs text-muted-foreground">
+																{formatDate(project.date.start)}{project.date.end
+																	? ` – ${formatDate(project.date.end)}`
+																	: ''}
+															</span>
+														{/if}
+													</div>
+													{#if project.researchSection?.length}
+														<div class="flex flex-wrap gap-1 mt-1.5">
+															{#each project.researchSection as section (section)}
+																<a
+																	href={researchSectionsUrl(section)}
+																	class="hover:opacity-80 transition-opacity"
+																>
+																	<SectionBadge {section} small />
+																</a>
+															{/each}
+														</div>
+													{/if}
+												</div>
+											</li>
+										{/each}
+									</ul>
+								{/snippet}
+							</CardContent>
+						{/snippet}
+					</Card>
+				{/if}
+
+				{#if selectedPerson.memberOf.length > 0}
+					<Card class="overflow-hidden">
+						{#snippet children()}
+							<CardHeader>
+								{#snippet children()}
+									<CardTitle class="text-lg">
+										{#snippet children()}
+											<span class="flex items-center gap-2">
+												<Users class="h-5 w-5 text-muted-foreground" />
+												Projects as Member
+											</span>
+										{/snippet}
+									</CardTitle>
+								{/snippet}
+							</CardHeader>
+							<CardContent>
+								{#snippet children()}
+									<ul class="space-y-3">
+										{#each selectedPerson.memberOf as project (project.id)}
+											<li class="flex items-start gap-3 p-3 rounded-lg bg-muted/30">
+												<Briefcase class="h-4 w-4 mt-0.5 text-muted-foreground shrink-0" />
+												<div class="min-w-0">
+													<a
+														href={projectUrl(project.id)}
+														class="text-sm font-medium text-foreground hover:text-primary transition-colors break-words"
+													>
+														{getProjectTitle(project)}
+													</a>
 													{#if project.idShort}
-														<span class="text-xs text-muted-foreground font-mono"
+														<span class="text-xs text-muted-foreground font-mono block mt-0.5"
 															>{project.idShort}</span
 														>
 													{/if}
-													{#if project.date?.start || project.date?.end}
-														<span class="text-xs text-muted-foreground">
-															{formatDate(project.date.start)}{project.date.end
-																? ` – ${formatDate(project.date.end)}`
-																: ''}
-														</span>
-													{/if}
 												</div>
-												{#if project.researchSection?.length}
-													<div class="flex flex-wrap gap-1 mt-1.5">
-														{#each project.researchSection as section (section)}
-															<a
-																href={researchSectionsUrl(section)}
-																class="hover:opacity-80 transition-opacity"
-															>
-																<SectionBadge {section} small />
-															</a>
-														{/each}
-													</div>
-												{/if}
-											</div>
-										</li>
-									{/each}
-								</ul>
-							{/snippet}
-						</CardContent>
-					{/snippet}
-				</Card>
-			{/if}
+											</li>
+										{/each}
+									</ul>
+								{/snippet}
+							</CardContent>
+						{/snippet}
+					</Card>
+				{/if}
 
-			{#if selectedPerson.memberOf.length > 0}
-				<Card class="overflow-hidden">
-					{#snippet children()}
-						<CardHeader>
-							{#snippet children()}
-								<CardTitle class="text-lg">
-									{#snippet children()}
-										<span class="flex items-center gap-2">
-											<Users class="h-5 w-5 text-muted-foreground" />
-											Projects as Member
-										</span>
-									{/snippet}
-								</CardTitle>
-							{/snippet}
-						</CardHeader>
-						<CardContent>
-							{#snippet children()}
-								<ul class="space-y-3">
-									{#each selectedPerson.memberOf as project (project.id)}
-										<li class="flex items-start gap-3 p-3 rounded-lg bg-muted/30">
-											<Briefcase class="h-4 w-4 mt-0.5 text-muted-foreground shrink-0" />
-											<div class="min-w-0">
-												<a
-													href={projectUrl(project.id)}
-													class="text-sm font-medium text-foreground hover:text-primary transition-colors break-words"
-												>
-													{getProjectTitle(project)}
-												</a>
-												{#if project.idShort}
-													<span class="text-xs text-muted-foreground font-mono block mt-0.5"
-														>{project.idShort}</span
-													>
-												{/if}
-											</div>
-										</li>
-									{/each}
-								</ul>
-							{/snippet}
-						</CardContent>
-					{/snippet}
-				</Card>
-			{/if}
+				{#if personCollectionItems.length > 0}
+					<SearchableItemsCard items={personCollectionItems}>
+						{#snippet rowExtra(item)}
+							{#if getPersonRole(item, selectedPerson.name)}
+								<Badge variant="outline" class="text-2xs">
+									{#snippet children()}{getPersonRole(item, selectedPerson.name)}{/snippet}
+								</Badge>
+							{/if}
+							{#if formatDateInfo(item)}
+								<span class="text-xs text-muted-foreground">· {formatDateInfo(item)}</span>
+							{/if}
+						{/snippet}
+					</SearchableItemsCard>
+				{/if}
 
-			{#if personCollectionItems.length > 0}
-				<SearchableItemsCard items={personCollectionItems}>
-					{#snippet rowExtra(item)}
-						{#if getPersonRole(item, selectedPerson.name)}
-							<Badge variant="outline" class="text-2xs">
-								{#snippet children()}{getPersonRole(item, selectedPerson.name)}{/snippet}
-							</Badge>
-						{/if}
-						{#if formatDateInfo(item)}
-							<span class="text-xs text-muted-foreground">· {formatDateInfo(item)}</span>
-						{/if}
-					{/snippet}
-				</SearchableItemsCard>
-			{/if}
+				<EntityDashboardSection
+					entityType="person"
+					entityId={selectedPerson.name}
+					items={personCollectionItems}
+					data={detail.data}
+				/>
 
-			<EntityDashboardSection
-				entityType="person"
-				entityId={selectedPerson.name}
-				items={personCollectionItems}
-				data={detail.data}
-			/>
+				<EntityKnowledgeGraph
+					entityType="person"
+					entityId={selectedPerson.name}
+					title="Collaboration & influence graph"
+				/>
+			</div>
+		{/if}
+	{/snippet}
 
-			<EntityKnowledgeGraph
-				entityType="person"
-				entityId={selectedPerson.name}
-				title="Collaboration & influence graph"
-			/>
-		</div>
-	{:else}
+	{#snippet listView()}
 		<div class="grid gap-4 sm:grid-cols-4">
 			<StatCard label="Total People" value={people.length} icon={Users} />
 			<StatCard
@@ -1019,5 +1020,5 @@
 				</EntityCard>
 			{/snippet}
 		</EntityBrowseGrid>
-	{/if}
-</div>
+	{/snippet}
+</EntityPageContainer>

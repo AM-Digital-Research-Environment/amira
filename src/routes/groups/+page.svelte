@@ -8,9 +8,9 @@
 		EntityBrowseGrid,
 		EntityToolbar,
 		EntityDetailHeader,
+		EntityPageContainer,
 		SearchableItemsCard,
 		applyEntitySort,
-		useEntityCollectionLoader,
 		type EntitySort
 	} from '$lib/components/entity-browse';
 	import { allCollections, groups as groupsStore } from '$lib/stores/data';
@@ -113,8 +113,6 @@
 		return results;
 	});
 
-	useEntityCollectionLoader(() => selectedName);
-
 	function selectGroup(name: string) {
 		urlSelection.pushToUrl(name);
 		scrollToTop();
@@ -128,13 +126,12 @@
 
 <SEO title="Groups" description="Browse groups featured in the research items" />
 
-<div class="space-y-8 animate-slide-in-up">
-	<div>
-		<h1 class="page-title">Groups</h1>
-		<p class="page-subtitle">Browse groups featured in the research items</p>
-	</div>
-
-	{#if selectedName}
+<EntityPageContainer
+	title="Groups"
+	subtitle="Browse groups featured in the research items"
+	selected={() => selectedName}
+>
+	{#snippet detailView()}
 		<div class="space-y-6">
 			<BackToList show={true} onclick={clearSelection} label="Back to groups" />
 			{#if selectedGroup}
@@ -162,7 +159,9 @@
 				<p class="text-sm text-muted-foreground">No data available for this group.</p>
 			{/if}
 		</div>
-	{:else}
+	{/snippet}
+
+	{#snippet listView()}
 		<div class="grid gap-4 sm:grid-cols-2">
 			<StatCard label="Total Groups" value={allGroups.length} icon={UsersRound} />
 			<StatCard label="With Items" value={groupsWithItems.length} icon={FileText} />
@@ -216,5 +215,5 @@
 				/>
 			{/snippet}
 		</EntityBrowseGrid>
-	{/if}
-</div>
+	{/snippet}
+</EntityPageContainer>

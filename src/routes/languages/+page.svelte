@@ -6,9 +6,9 @@
 		EntityBrowseGrid,
 		EntityToolbar,
 		EntityDetailHeader,
+		EntityPageContainer,
 		SearchableItemsCard,
 		applyEntitySort,
-		useEntityCollectionLoader,
 		type EntitySort
 	} from '$lib/components/entity-browse';
 	import { allCollections } from '$lib/stores/data';
@@ -158,11 +158,6 @@
 		return result;
 	});
 
-	// Collections are only needed for the list view (counts + derived entity
-	// map) and the "Back to list" flow. A direct detail-URL hit skips the
-	// 13 MB payload entirely and renders from the per-entity JSON.
-	useEntityCollectionLoader(() => selectedCode);
-
 	function selectLanguage(code: string) {
 		urlSelection.pushToUrl(code);
 		scrollToTop();
@@ -180,15 +175,12 @@
 	keywords={['languages', 'African languages', 'multilingual', 'language distribution', 'ISO 639']}
 />
 
-<div class="space-y-8 animate-slide-in-up">
-	<div>
-		<h1 class="page-title">Languages</h1>
-		<p class="page-subtitle">
-			Browse research items by language across all universities and projects
-		</p>
-	</div>
-
-	{#if selectedCode}
+<EntityPageContainer
+	title="Languages"
+	subtitle="Browse research items by language across all universities and projects"
+	selected={() => selectedCode}
+>
+	{#snippet detailView()}
 		<div class="space-y-6">
 			<BackToList show={true} onclick={clearSelection} label="Back to languages" />
 			{#if selectedLanguage}
@@ -213,7 +205,9 @@
 				<p class="text-sm text-muted-foreground">No data available for this language.</p>
 			{/if}
 		</div>
-	{:else}
+	{/snippet}
+
+	{#snippet listView()}
 		<div class="grid gap-4 sm:grid-cols-3">
 			<StatCard label="Languages" value={languages.length} icon={Languages} />
 			<StatCard
@@ -271,5 +265,5 @@
 				/>
 			{/snippet}
 		</EntityBrowseGrid>
-	{/if}
-</div>
+	{/snippet}
+</EntityPageContainer>

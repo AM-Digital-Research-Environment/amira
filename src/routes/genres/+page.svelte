@@ -10,9 +10,9 @@
 		EntityBrowseGrid,
 		EntityToolbar,
 		EntityDetailHeader,
+		EntityPageContainer,
 		SearchableItemsCard,
 		applyEntitySort,
-		useEntityCollectionLoader,
 		type EntitySort
 	} from '$lib/components/entity-browse';
 	import { allCollections } from '$lib/stores/data';
@@ -113,8 +113,6 @@
 		return result;
 	});
 
-	useEntityCollectionLoader(() => selectedGenre);
-
 	function selectGenre(genre: string) {
 		urlSelection.pushToUrl(genre);
 		scrollToTop();
@@ -128,13 +126,12 @@
 
 <SEO title="Genres" description="Browse research items by genre classification" />
 
-<div class="space-y-8 animate-slide-in-up">
-	<div>
-		<h1 class="page-title">Genres</h1>
-		<p class="page-subtitle">Browse research items by genre classification</p>
-	</div>
-
-	{#if selectedGenre}
+<EntityPageContainer
+	title="Genres"
+	subtitle="Browse research items by genre classification"
+	selected={() => selectedGenre}
+>
+	{#snippet detailView()}
 		<div class="space-y-6">
 			<BackToList show={true} onclick={clearSelection} label="Back to genres" />
 			{#if selectedGenreData}
@@ -166,7 +163,9 @@
 				<p class="text-sm text-muted-foreground">No data available for this genre.</p>
 			{/if}
 		</div>
-	{:else}
+	{/snippet}
+
+	{#snippet listView()}
 		<div class="grid gap-4 sm:grid-cols-3">
 			<StatCard label="Genres" value={genres.length} icon={BookType} />
 			<StatCard label="Most Common" value={genres[0]?.name || '—'} icon={BookType} />
@@ -219,5 +218,5 @@
 				/>
 			{/snippet}
 		</EntityBrowseGrid>
-	{/if}
-</div>
+	{/snippet}
+</EntityPageContainer>

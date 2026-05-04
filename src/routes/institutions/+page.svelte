@@ -19,10 +19,10 @@
 		EntityBrowseGrid,
 		EntityToolbar,
 		EntityDetailHeader,
+		EntityPageContainer,
 		SearchableItemsCard,
 		FilterToggleBar,
 		applyEntitySort,
-		useEntityCollectionLoader,
 		type EntitySort
 	} from '$lib/components/entity-browse';
 	import { projects, allCollections, persons, universitiesData } from '$lib/stores/data';
@@ -203,8 +203,6 @@
 		return results;
 	});
 
-	useEntityCollectionLoader(() => selectedName);
-
 	function selectInstitution(name: string) {
 		urlSelection.pushToUrl(name);
 		scrollToTop();
@@ -260,177 +258,179 @@
 	/>
 {/if}
 
-<div class="space-y-8 animate-slide-in-up">
-	<div>
-		<h1 class="page-title">Institutions</h1>
-		<p class="page-subtitle">
-			Browse partner institutions and their associated projects, researchers, and research items
-		</p>
-	</div>
-
-	{#if selectedInstitution}
-		<div class="space-y-6">
-			<BackToList show={true} onclick={clearSelection} label="Back to institutions" />
-			<EntityDetailHeader
-				title={selectedInstitution.name}
-				icon={Building2}
-				wisskiCategory="institutions"
-				wisskiKey={selectedInstitution.name}
-			>
-				{#snippet badges()}
-					{#if selectedInstitution.isPartner}
-						<Badge>{#snippet children()}Partner{/snippet}</Badge>
-					{/if}
-					<Badge variant="secondary">
-						{#snippet children()}{selectedInstitution.projects.length} project{selectedInstitution
-								.projects.length !== 1
-								? 's'
-								: ''}{/snippet}
-					</Badge>
-					<Badge variant="secondary">
-						{#snippet children()}{selectedInstitution.people.size} people{/snippet}
-					</Badge>
-					{#if selectedInstitution.collectionItemCount > 0}
-						<Badge variant="outline">
-							{#snippet children()}{selectedInstitution.collectionItemCount} item{selectedInstitution.collectionItemCount !==
-								1
+<EntityPageContainer
+	title="Institutions"
+	subtitle="Browse partner institutions and their associated projects, researchers, and research items"
+	selected={() => selectedInstitution}
+>
+	{#snippet detailView()}
+		{#if selectedInstitution}
+			<div class="space-y-6">
+				<BackToList show={true} onclick={clearSelection} label="Back to institutions" />
+				<EntityDetailHeader
+					title={selectedInstitution.name}
+					icon={Building2}
+					wisskiCategory="institutions"
+					wisskiKey={selectedInstitution.name}
+				>
+					{#snippet badges()}
+						{#if selectedInstitution.isPartner}
+							<Badge>{#snippet children()}Partner{/snippet}</Badge>
+						{/if}
+						<Badge variant="secondary">
+							{#snippet children()}{selectedInstitution.projects.length} project{selectedInstitution
+									.projects.length !== 1
 									? 's'
 									: ''}{/snippet}
 						</Badge>
-					{/if}
-				{/snippet}
-			</EntityDetailHeader>
+						<Badge variant="secondary">
+							{#snippet children()}{selectedInstitution.people.size} people{/snippet}
+						</Badge>
+						{#if selectedInstitution.collectionItemCount > 0}
+							<Badge variant="outline">
+								{#snippet children()}{selectedInstitution.collectionItemCount} item{selectedInstitution.collectionItemCount !==
+									1
+										? 's'
+										: ''}{/snippet}
+							</Badge>
+						{/if}
+					{/snippet}
+				</EntityDetailHeader>
 
-			{#if selectedInstitution.projects.length > 0}
-				<Card class="overflow-hidden">
-					{#snippet children()}
-						<CardHeader>
-							{#snippet children()}
-								<CardTitle class="text-lg">
-									{#snippet children()}
-										<span class="flex items-center gap-2">
-											<Briefcase class="h-5 w-5 text-primary" />
-											Projects
-											<Badge variant="secondary">
-												{#snippet children()}{selectedInstitution.projects.length}{/snippet}
-											</Badge>
-										</span>
-									{/snippet}
-								</CardTitle>
-							{/snippet}
-						</CardHeader>
-						<CardContent>
-							{#snippet children()}
-								<ul class="space-y-3">
-									{#each paginatedProjects as project (project.id)}
-										<li class="p-3 rounded-lg bg-muted/30">
-											<a
-												href={projectUrl(project.id)}
-												class="text-sm font-medium text-foreground hover:text-primary transition-colors break-words"
-											>
-												{getProjectTitle(project)}
-											</a>
-											<div class="flex flex-wrap items-center gap-2 mt-1">
-												{#if project.idShort}
-													<span class="text-xs text-muted-foreground font-mono">{project.id}</span>
-												{/if}
-												{#if project.date?.start || project.date?.end}
-													<span class="text-xs text-muted-foreground">
-														{formatDate(project.date.start)}{project.date.end
-															? ` – ${formatDate(project.date.end)}`
-															: ''}
-													</span>
-												{/if}
-											</div>
-											{#if project.researchSection?.length}
-												<div class="flex flex-wrap gap-1 mt-1.5">
-													{#each project.researchSection as section (section)}
-														<a
-															href={researchSectionsUrl(section)}
-															class="hover:opacity-80 transition-opacity"
+				{#if selectedInstitution.projects.length > 0}
+					<Card class="overflow-hidden">
+						{#snippet children()}
+							<CardHeader>
+								{#snippet children()}
+									<CardTitle class="text-lg">
+										{#snippet children()}
+											<span class="flex items-center gap-2">
+												<Briefcase class="h-5 w-5 text-primary" />
+												Projects
+												<Badge variant="secondary">
+													{#snippet children()}{selectedInstitution.projects.length}{/snippet}
+												</Badge>
+											</span>
+										{/snippet}
+									</CardTitle>
+								{/snippet}
+							</CardHeader>
+							<CardContent>
+								{#snippet children()}
+									<ul class="space-y-3">
+										{#each paginatedProjects as project (project.id)}
+											<li class="p-3 rounded-lg bg-muted/30">
+												<a
+													href={projectUrl(project.id)}
+													class="text-sm font-medium text-foreground hover:text-primary transition-colors break-words"
+												>
+													{getProjectTitle(project)}
+												</a>
+												<div class="flex flex-wrap items-center gap-2 mt-1">
+													{#if project.idShort}
+														<span class="text-xs text-muted-foreground font-mono">{project.id}</span
 														>
-															<SectionBadge {section} small />
-														</a>
-													{/each}
+													{/if}
+													{#if project.date?.start || project.date?.end}
+														<span class="text-xs text-muted-foreground">
+															{formatDate(project.date.start)}{project.date.end
+																? ` – ${formatDate(project.date.end)}`
+																: ''}
+														</span>
+													{/if}
 												</div>
-											{/if}
-											{#if project.pi?.length}
-												<p class="text-xs text-muted-foreground mt-1.5">
-													PI: {#each project.pi as pi, i (pi)}{#if i > 0},&nbsp;{/if}<a
-															href={personUrl(pi)}
-															class="hover:text-primary transition-colors">{pi}</a
-														>{/each}
-												</p>
-											{/if}
-										</li>
-									{/each}
-								</ul>
-								<Pagination
-									currentPage={projectsPage}
-									totalItems={selectedInstitution.projects.length}
-									itemsPerPage={PROJECTS_PER_PAGE}
-									onPageChange={(p) => (projectsPage = p)}
-								/>
-							{/snippet}
-						</CardContent>
-					{/snippet}
-				</Card>
-			{/if}
+												{#if project.researchSection?.length}
+													<div class="flex flex-wrap gap-1 mt-1.5">
+														{#each project.researchSection as section (section)}
+															<a
+																href={researchSectionsUrl(section)}
+																class="hover:opacity-80 transition-opacity"
+															>
+																<SectionBadge {section} small />
+															</a>
+														{/each}
+													</div>
+												{/if}
+												{#if project.pi?.length}
+													<p class="text-xs text-muted-foreground mt-1.5">
+														PI: {#each project.pi as pi, i (pi)}{#if i > 0},&nbsp;{/if}<a
+																href={personUrl(pi)}
+																class="hover:text-primary transition-colors">{pi}</a
+															>{/each}
+													</p>
+												{/if}
+											</li>
+										{/each}
+									</ul>
+									<Pagination
+										currentPage={projectsPage}
+										totalItems={selectedInstitution.projects.length}
+										itemsPerPage={PROJECTS_PER_PAGE}
+										onPageChange={(p) => (projectsPage = p)}
+									/>
+								{/snippet}
+							</CardContent>
+						{/snippet}
+					</Card>
+				{/if}
 
-			{#if selectedInstitution.people.size > 0}
-				<Card class="overflow-hidden">
-					{#snippet children()}
-						<CardHeader>
-							{#snippet children()}
-								<CardTitle class="text-lg">
-									{#snippet children()}
-										<span class="flex items-center gap-2">
-											<Users class="h-5 w-5 text-muted-foreground" />
-											People
-											<Badge variant="secondary">
-												{#snippet children()}{selectedInstitution.people.size}{/snippet}
-											</Badge>
-										</span>
-									{/snippet}
-								</CardTitle>
-							{/snippet}
-						</CardHeader>
-						<CardContent>
-							{#snippet children()}
-								<div class="flex flex-wrap gap-2">
-									{#each [...selectedInstitution.people].sort() as person (person)}
-										<a
-											href={personUrl(person)}
-											class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-muted/50 text-sm text-foreground hover:text-primary hover:bg-muted transition-colors"
-										>
-											{person}
-										</a>
-									{/each}
-								</div>
-							{/snippet}
-						</CardContent>
-					{/snippet}
-				</Card>
-			{/if}
+				{#if selectedInstitution.people.size > 0}
+					<Card class="overflow-hidden">
+						{#snippet children()}
+							<CardHeader>
+								{#snippet children()}
+									<CardTitle class="text-lg">
+										{#snippet children()}
+											<span class="flex items-center gap-2">
+												<Users class="h-5 w-5 text-muted-foreground" />
+												People
+												<Badge variant="secondary">
+													{#snippet children()}{selectedInstitution.people.size}{/snippet}
+												</Badge>
+											</span>
+										{/snippet}
+									</CardTitle>
+								{/snippet}
+							</CardHeader>
+							<CardContent>
+								{#snippet children()}
+									<div class="flex flex-wrap gap-2">
+										{#each [...selectedInstitution.people].sort() as person (person)}
+											<a
+												href={personUrl(person)}
+												class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-muted/50 text-sm text-foreground hover:text-primary hover:bg-muted transition-colors"
+											>
+												{person}
+											</a>
+										{/each}
+									</div>
+								{/snippet}
+							</CardContent>
+						{/snippet}
+					</Card>
+				{/if}
 
-			{#if institutionItems.length > 0}
-				<SearchableItemsCard items={institutionItems} showProject={false} />
-			{/if}
+				{#if institutionItems.length > 0}
+					<SearchableItemsCard items={institutionItems} showProject={false} />
+				{/if}
 
-			<EntityDashboardSection
-				entityType="institution"
-				entityId={selectedInstitution.name}
-				items={institutionItems}
-				data={detail.data}
-			/>
+				<EntityDashboardSection
+					entityType="institution"
+					entityId={selectedInstitution.name}
+					items={institutionItems}
+					data={detail.data}
+				/>
 
-			<EntityKnowledgeGraph
-				entityType="institution"
-				entityId={selectedInstitution.name}
-				title="Institution knowledge graph"
-			/>
-		</div>
-	{:else}
+				<EntityKnowledgeGraph
+					entityType="institution"
+					entityId={selectedInstitution.name}
+					title="Institution knowledge graph"
+				/>
+			</div>
+		{/if}
+	{/snippet}
+
+	{#snippet listView()}
 		<div class="grid gap-4 sm:grid-cols-3">
 			<StatCard label="Partner Institutions" value={partnerCount} icon={Building2} />
 			<StatCard label="Contributor Orgs" value={contributorCount} icon={Building2} />
@@ -530,5 +530,5 @@
 				</EntityCard>
 			{/snippet}
 		</EntityBrowseGrid>
-	{/if}
-</div>
+	{/snippet}
+</EntityPageContainer>

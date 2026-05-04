@@ -15,10 +15,10 @@
 		EntityBrowseGrid,
 		EntityToolbar,
 		EntityDetailHeader,
+		EntityPageContainer,
 		SearchableItemsCard,
 		FilterToggleBar,
 		applyEntitySort,
-		useEntityCollectionLoader,
 		type EntitySort
 	} from '$lib/components/entity-browse';
 	import { allCollections, enrichedLocations, ensureEnrichedLocations } from '$lib/stores/data';
@@ -44,10 +44,6 @@
 	import { getLocationColor } from '$lib/styles';
 
 	const urlSelection = createUrlSelection('name');
-
-	useEntityCollectionLoader(() => selectedName, {
-		onMountExtra: () => void ensureEnrichedLocations(base)
-	});
 
 	let searchQuery = $state('');
 	let viewMode = $state<'countries' | 'regions' | 'cities' | 'current'>('countries');
@@ -425,142 +421,144 @@
 	]}
 />
 
-<div class="space-y-8 animate-slide-in-up">
-	<div>
-		<h1 class="page-title">Locations</h1>
-		<p class="page-subtitle">
-			Explore geographic origins and current holding locations of research items
-		</p>
-	</div>
-
-	{#if selectedLocation}
-		{@const wisski = wisskiFor(selectedLocation)}
-		<div class="space-y-6">
-			<BackToList show={true} onclick={clearSelection} label="Back to locations" />
-			<EntityDetailHeader
-				title={selectedLocation.name}
-				icon={iconFor(selectedLocation.type)}
-				iconColorClass={iconColorFor(selectedLocation.type)}
-				subtitle={selectedLocation.country && selectedLocation.type !== 'country'
-					? `In ${selectedLocation.country}`
-					: undefined}
-				count={selectedLocation.count}
-				wisskiCategory={wisski.category || undefined}
-				wisskiKey={wisski.key || undefined}
-			>
-				{#snippet badges()}
-					<Badge>
-						{#snippet children()}{typeLabel(selectedLocation.type)}{/snippet}
-					</Badge>
-					{#if selectedLocation.country && selectedLocation.type !== 'country'}
-						<button
-							type="button"
-							onclick={() => urlSelection.pushToUrl(selectedLocation.country || '')}
-							class="hover:opacity-80 transition-opacity"
-						>
-							<Badge variant="secondary" class="hover:bg-primary/20 transition-colors">
-								{#snippet children()}{selectedLocation.country}{/snippet}
-							</Badge>
-						</button>
-					{/if}
-				{/snippet}
-			</EntityDetailHeader>
-
-			{#if locationMapMarkers.length > 0}
-				<MiniMap markers={locationMapMarkers} class="h-chart-sm" />
-			{/if}
-
-			{#if regionsInCountry.length > 0}
-				<Card class="overflow-hidden">
-					{#snippet children()}
-						<CardHeader>
-							{#snippet children()}
-								<CardTitle class="text-lg">
-									{#snippet children()}
-										<span class="flex items-center gap-2">
-											<MapPin class="h-5 w-5 text-location-region" />
-											Regions
-											<Badge variant="secondary">
-												{#snippet children()}{regionsInCountry.length}{/snippet}
-											</Badge>
-										</span>
-									{/snippet}
-								</CardTitle>
-							{/snippet}
-						</CardHeader>
-						<CardContent>
-							{#snippet children()}
-								<div class="flex flex-wrap gap-2">
-									{#each regionsInCountry as region (`${region.name}|${region.country ?? ''}`)}
-										<button
-											onclick={() => selectLocation(region)}
-											class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-muted/50 text-sm text-foreground hover:text-primary hover:bg-muted transition-colors"
-										>
-											{region.name}
-											<span class="text-xs text-muted-foreground">({region.count})</span>
-										</button>
-									{/each}
-								</div>
-							{/snippet}
-						</CardContent>
+<EntityPageContainer
+	title="Locations"
+	subtitle="Explore geographic origins and current holding locations of research items"
+	selected={() => selectedLocation}
+	onMountExtra={() => void ensureEnrichedLocations(base)}
+>
+	{#snippet detailView()}
+		{#if selectedLocation}
+			{@const wisski = wisskiFor(selectedLocation)}
+			<div class="space-y-6">
+				<BackToList show={true} onclick={clearSelection} label="Back to locations" />
+				<EntityDetailHeader
+					title={selectedLocation.name}
+					icon={iconFor(selectedLocation.type)}
+					iconColorClass={iconColorFor(selectedLocation.type)}
+					subtitle={selectedLocation.country && selectedLocation.type !== 'country'
+						? `In ${selectedLocation.country}`
+						: undefined}
+					count={selectedLocation.count}
+					wisskiCategory={wisski.category || undefined}
+					wisskiKey={wisski.key || undefined}
+				>
+					{#snippet badges()}
+						<Badge>
+							{#snippet children()}{typeLabel(selectedLocation.type)}{/snippet}
+						</Badge>
+						{#if selectedLocation.country && selectedLocation.type !== 'country'}
+							<button
+								type="button"
+								onclick={() => urlSelection.pushToUrl(selectedLocation.country || '')}
+								class="hover:opacity-80 transition-opacity"
+							>
+								<Badge variant="secondary" class="hover:bg-primary/20 transition-colors">
+									{#snippet children()}{selectedLocation.country}{/snippet}
+								</Badge>
+							</button>
+						{/if}
 					{/snippet}
-				</Card>
-			{/if}
+				</EntityDetailHeader>
 
-			{#if citiesInLocation.length > 0}
-				<Card class="overflow-hidden">
-					{#snippet children()}
-						<CardHeader>
-							{#snippet children()}
-								<CardTitle class="text-lg">
-									{#snippet children()}
-										<span class="flex items-center gap-2">
-											<MapPin class="h-5 w-5 text-location-city" />
-											Cities
-											<Badge variant="secondary">
-												{#snippet children()}{citiesInLocation.length}{/snippet}
-											</Badge>
-										</span>
-									{/snippet}
-								</CardTitle>
-							{/snippet}
-						</CardHeader>
-						<CardContent>
-							{#snippet children()}
-								<div class="flex flex-wrap gap-2">
-									{#each citiesInLocation as city (`${city.name}|${city.country ?? ''}|${city.region ?? ''}`)}
-										<button
-											onclick={() => selectLocation(city)}
-											class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-muted/50 text-sm text-foreground hover:text-primary hover:bg-muted transition-colors"
-										>
-											{city.name}
-											<span class="text-xs text-muted-foreground">({city.count})</span>
-										</button>
-									{/each}
-								</div>
-							{/snippet}
-						</CardContent>
-					{/snippet}
-				</Card>
-			{/if}
+				{#if locationMapMarkers.length > 0}
+					<MiniMap markers={locationMapMarkers} class="h-chart-sm" />
+				{/if}
 
-			<SearchableItemsCard items={selectedLocation.items} />
+				{#if regionsInCountry.length > 0}
+					<Card class="overflow-hidden">
+						{#snippet children()}
+							<CardHeader>
+								{#snippet children()}
+									<CardTitle class="text-lg">
+										{#snippet children()}
+											<span class="flex items-center gap-2">
+												<MapPin class="h-5 w-5 text-location-region" />
+												Regions
+												<Badge variant="secondary">
+													{#snippet children()}{regionsInCountry.length}{/snippet}
+												</Badge>
+											</span>
+										{/snippet}
+									</CardTitle>
+								{/snippet}
+							</CardHeader>
+							<CardContent>
+								{#snippet children()}
+									<div class="flex flex-wrap gap-2">
+										{#each regionsInCountry as region (`${region.name}|${region.country ?? ''}`)}
+											<button
+												onclick={() => selectLocation(region)}
+												class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-muted/50 text-sm text-foreground hover:text-primary hover:bg-muted transition-colors"
+											>
+												{region.name}
+												<span class="text-xs text-muted-foreground">({region.count})</span>
+											</button>
+										{/each}
+									</div>
+								{/snippet}
+							</CardContent>
+						{/snippet}
+					</Card>
+				{/if}
 
-			<EntityDashboardSection
-				entityType="location"
-				entityId={selectedLocation.name}
-				items={selectedLocation.items}
-				enrichedLocations={$enrichedLocations}
-				data={detail.data}
-			/>
+				{#if citiesInLocation.length > 0}
+					<Card class="overflow-hidden">
+						{#snippet children()}
+							<CardHeader>
+								{#snippet children()}
+									<CardTitle class="text-lg">
+										{#snippet children()}
+											<span class="flex items-center gap-2">
+												<MapPin class="h-5 w-5 text-location-city" />
+												Cities
+												<Badge variant="secondary">
+													{#snippet children()}{citiesInLocation.length}{/snippet}
+												</Badge>
+											</span>
+										{/snippet}
+									</CardTitle>
+								{/snippet}
+							</CardHeader>
+							<CardContent>
+								{#snippet children()}
+									<div class="flex flex-wrap gap-2">
+										{#each citiesInLocation as city (`${city.name}|${city.country ?? ''}|${city.region ?? ''}`)}
+											<button
+												onclick={() => selectLocation(city)}
+												class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-muted/50 text-sm text-foreground hover:text-primary hover:bg-muted transition-colors"
+											>
+												{city.name}
+												<span class="text-xs text-muted-foreground">({city.count})</span>
+											</button>
+										{/each}
+									</div>
+								{/snippet}
+							</CardContent>
+						{/snippet}
+					</Card>
+				{/if}
 
-			<EntityKnowledgeGraph
-				entityType="location"
-				entityId={selectedLocation.name}
-				title="Place-based knowledge graph"
-			/>
-		</div>
-	{:else}
+				<SearchableItemsCard items={selectedLocation.items} />
+
+				<EntityDashboardSection
+					entityType="location"
+					entityId={selectedLocation.name}
+					items={selectedLocation.items}
+					enrichedLocations={$enrichedLocations}
+					data={detail.data}
+				/>
+
+				<EntityKnowledgeGraph
+					entityType="location"
+					entityId={selectedLocation.name}
+					title="Place-based knowledge graph"
+				/>
+			</div>
+		{/if}
+	{/snippet}
+
+	{#snippet listView()}
 		<div class="grid gap-4 sm:grid-cols-4">
 			<StatCard
 				label="Countries"
@@ -675,5 +673,5 @@
 				/>
 			{/snippet}
 		</EntityBrowseGrid>
-	{/if}
-</div>
+	{/snippet}
+</EntityPageContainer>

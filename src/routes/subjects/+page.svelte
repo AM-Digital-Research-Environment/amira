@@ -15,9 +15,9 @@
 		EntityBrowseGrid,
 		EntityToolbar,
 		EntityDetailHeader,
+		EntityPageContainer,
 		SearchableItemsCard,
 		applyEntitySort,
-		useEntityCollectionLoader,
 		type EntitySort
 	} from '$lib/components/entity-browse';
 	import { allCollections } from '$lib/stores/data';
@@ -139,11 +139,6 @@
 		return null;
 	});
 
-	// Collections power the list view (browse grid, word cloud, counts). Not
-	// needed on direct detail URLs — the per-entity JSON has everything
-	// required to render that branch.
-	useEntityCollectionLoader(() => selectedName);
-
 	function selectTerm(name: string) {
 		goto(`?name=${encodeURIComponent(name)}&view=${viewMode}`, { noScroll: true });
 		scrollToTop();
@@ -173,15 +168,12 @@
 	]}
 />
 
-<div class="space-y-8 animate-slide-in-up">
-	<div>
-		<h1 class="page-title">Subjects & Tags</h1>
-		<p class="page-subtitle">
-			Browse research items by controlled subjects (LCSH) and free-form tags
-		</p>
-	</div>
-
-	{#if selectedName}
+<EntityPageContainer
+	title="Subjects & Tags"
+	subtitle="Browse research items by controlled subjects (LCSH) and free-form tags"
+	selected={() => selectedName}
+>
+	{#snippet detailView()}
 		<div class="space-y-6">
 			<BackToList
 				show={true}
@@ -217,7 +209,9 @@
 				<p class="text-sm text-muted-foreground">No data available.</p>
 			{/if}
 		</div>
-	{:else}
+	{/snippet}
+
+	{#snippet listView()}
 		<div class="grid gap-4 sm:grid-cols-3">
 			<StatCard label="Subjects (LCSH)" value={subjectList.length} icon={BookOpen} />
 			<StatCard label="Tags" value={tagList.length} icon={Tag} />
@@ -302,5 +296,5 @@
 				/>
 			{/snippet}
 		</EntityBrowseGrid>
-	{/if}
-</div>
+	{/snippet}
+</EntityPageContainer>

@@ -7,9 +7,9 @@
 		EntityBrowseGrid,
 		EntityToolbar,
 		EntityDetailHeader,
+		EntityPageContainer,
 		SearchableItemsCard,
 		applyEntitySort,
-		useEntityCollectionLoader,
 		type EntitySort
 	} from '$lib/components/entity-browse';
 	import { allCollections } from '$lib/stores/data';
@@ -55,8 +55,6 @@
 		}
 		return null;
 	});
-
-	useEntityCollectionLoader(() => selectedType);
 
 	const searchTypes = createSearchFilter<CategoryEntry>([(t) => t.name]);
 	let visibleTypes = $derived(applyEntitySort(searchTypes(types, searchQuery), sort));
@@ -139,13 +137,12 @@
 
 <SEO title="Resource Types" description="Browse research items organized by resource type" />
 
-<div class="space-y-8 animate-slide-in-up">
-	<div>
-		<h1 class="page-title">Resource Types</h1>
-		<p class="page-subtitle">Browse research items by their resource type classification</p>
-	</div>
-
-	{#if selectedType}
+<EntityPageContainer
+	title="Resource Types"
+	subtitle="Browse research items by their resource type classification"
+	selected={() => selectedType}
+>
+	{#snippet detailView()}
 		<div class="space-y-6">
 			<BackToList show={true} onclick={clearSelection} label="Back to resource types" />
 			{#if selectedTypeData}
@@ -172,7 +169,9 @@
 				<p class="text-sm text-muted-foreground">No data available for this type.</p>
 			{/if}
 		</div>
-	{:else}
+	{/snippet}
+
+	{#snippet listView()}
 		<div class="grid gap-4 sm:grid-cols-3">
 			<StatCard label="Resource Types" value={types.length} icon={Layers} />
 			<StatCard label="Total Items" value={$allCollections.length} icon={FileText} />
@@ -238,5 +237,5 @@
 				/>
 			{/snippet}
 		</EntityBrowseGrid>
-	{/if}
-</div>
+	{/snippet}
+</EntityPageContainer>
