@@ -5,7 +5,10 @@ export {
 	formatCitationTail,
 	publicationTypeLabel,
 	quarterLabel,
-	publicationsByContributor
+	publicationsByContributor,
+	publicationsByContributorWithRole,
+	type PublicationRole,
+	type PublicationByContributor
 } from './formatPublication';
 export {
 	buildRis,

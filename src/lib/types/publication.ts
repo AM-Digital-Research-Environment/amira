@@ -44,6 +44,12 @@ export interface Publication {
 	deposited_at?: string;
 	authors?: PublicationContributor[];
 	editors?: PublicationContributor[];
+	/** Volume editors for chapters / book sections. Populated from ERef's
+	 *  EP3 XML `<book_editors>` element — distinct from `editors`, which
+	 *  carries volume editors for `@book` records that have no chapter
+	 *  authors. The BibTeX export drops this entirely for `@incollection`
+	 *  entries, so the Python fetcher always enriches from EP3. */
+	book_editors?: PublicationContributor[];
 	journal?: string;
 	booktitle?: string;
 	volume?: string;
@@ -59,6 +65,13 @@ export interface Publication {
 	 *  (~80 % coverage); absent for items where the depositor didn't fill
 	 *  the abstract field upstream. */
 	abstract?: string;
+	/** ISO 639-2/B language code (``eng``, ``ger``, ``fre``…) sourced from
+	 *  ERef's EP3 XML ``<language>`` element. The Python fetcher drops
+	 *  ``und`` (undetermined) and blanks so consumers never have to
+	 *  special-case those. Use ``$lib/utils/languages → languageName(code)``
+	 *  for display — it normalises the B/T variants and resolves to the
+	 *  English name. */
+	language?: string;
 	/** Best-of-both-worlds canonical link (DOI when present, else ERef). */
 	url?: string;
 	/** Always the ERef permalink — useful as a fallback / "view source". */

@@ -29,7 +29,10 @@
 		publications,
 		ensurePublications
 	} from '$lib/stores/data';
-	import { PublicationsSection, publicationsByContributor } from '$lib/components/publications';
+	import {
+		PublicationsSection,
+		publicationsByContributorWithRole
+	} from '$lib/components/publications';
 	import { page } from '$app/stores';
 	import { base } from '$app/paths';
 	import { createEntityDetailState } from '$lib/utils/loaders';
@@ -366,18 +369,17 @@
 		return entry?.role || '';
 	}
 
-	// Cluster publications (ERef) attributed to this person. Lookup is by
-	// reconciled person_id when the Python fetcher matched them, falling
-	// back to a name-string match for unreconciled contributors so we still
-	// surface publications by people not yet in the persons store.
+	// Cluster publications (ERef) attributed to this person, tagged with
+	// the role they played (author / editor / book_editor). Reconciliation
+	// is by canonical ``person_id`` when the Python fetcher matched them,
+	// with a name-string fallback so we still surface publications by
+	// people not yet in the persons store.
 	let personPublications = $derived.by(() => {
 		if (!selectedPerson) return [];
 		const payload = $publications;
 		if (!payload) return [];
-		// The persons store keys by name so we look up the canonical id by
-		// matching the selected name first, then pass both to the helper.
 		const matchedPerson = $persons.find((p) => p.name === selectedPerson.name);
-		return publicationsByContributor(payload.publications, {
+		return publicationsByContributorWithRole(payload.publications, {
 			personId: matchedPerson?._id,
 			personName: selectedPerson.name
 		});
@@ -509,6 +511,14 @@
 							{#if personCollectionItems.length > 0}
 								<Badge variant="outline">
 									{#snippet children()}{personCollectionItems.length} research item{personCollectionItems.length !==
+										1
+											? 's'
+											: ''}{/snippet}
+								</Badge>
+							{/if}
+							{#if personPublications.length > 0}
+								<Badge variant="outline">
+									{#snippet children()}{personPublications.length} publication{personPublications.length !==
 										1
 											? 's'
 											: ''}{/snippet}
@@ -906,7 +916,7 @@
 
 					{#if personPublications.length > 0}
 						<PublicationsSection
-							publications={personPublications}
+							entries={personPublications}
 							title="Cluster publications"
 							exportBaseName={`publications-${selectedPerson.name.replace(/[^a-zA-Z0-9]+/g, '-').toLowerCase()}`}
 						/>

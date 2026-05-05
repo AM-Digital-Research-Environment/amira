@@ -5,6 +5,7 @@
 	import type { Publication, PublicationContributor } from '$lib/types';
 	import { formatCitationTail, publicationTypeLabel } from './formatPublication';
 	import { downloadBibtex, downloadRis } from './zoteroExport';
+	import { languageName } from '$lib/utils/languages';
 
 	interface Props {
 		publication: Publication;
@@ -45,6 +46,14 @@
 				<Badge variant="secondary">{publicationTypeLabel(publication.type)}</Badge>
 				{#if publication.year}
 					<span class="text-xs text-muted-foreground tabular-nums">{publication.year}</span>
+				{/if}
+				{#if publication.language}
+					<span
+						class="text-xs text-muted-foreground"
+						title="Publication language: {languageName(publication.language)}"
+					>
+						· {languageName(publication.language)}
+					</span>
 				{/if}
 			</div>
 			{#if publication.doi}

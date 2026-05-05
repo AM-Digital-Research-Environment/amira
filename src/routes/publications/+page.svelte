@@ -11,12 +11,14 @@
 		Button,
 		SEO
 	} from '$lib/components/ui';
-	import { BarChart, WordCloud } from '$lib/components/charts';
+	import { BarChart, PieChart, WordCloud } from '$lib/components/charts';
+	import { languageName } from '$lib/utils/languages';
 	import { publications, ensurePublications } from '$lib/stores/data';
 	import {
 		PublicationCard,
 		downloadBibtexBulk,
-		downloadRisBulk
+		downloadRisBulk,
+		publicationTypeLabel
 	} from '$lib/components/publications';
 	import { paginate } from '$lib/utils/pagination';
 	import {
@@ -29,7 +31,12 @@
 		ExternalLink,
 		Inbox
 	} from '@lucide/svelte';
-	import type { Publication, BarChartDataPoint, WordCloudDataPoint } from '$lib/types';
+	import type {
+		Publication,
+		BarChartDataPoint,
+		PieChartDataPoint,
+		WordCloudDataPoint
+	} from '$lib/types';
 	import { SvelteMap } from 'svelte/reactivity';
 
 	onMount(() => {
@@ -39,6 +46,7 @@
 	let searchQuery = $state('');
 	let selectedType = $state('all');
 	let selectedYear = $state('all');
+	let selectedLanguage = $state('all');
 	let selectedKeyword = $state('');
 	let listPage = $state(0);
 	const listPerPage = 15;
@@ -53,7 +61,7 @@
 			.sort((a, b) => b[1] - a[1])
 			.map(([value, count]) => ({
 				value,
-				label: `${value.charAt(0).toUpperCase() + value.slice(1)} (${count})`
+				label: `${publicationTypeLabel(value)} (${count})`
 			}));
 		return [{ value: 'all', label: `All types (${allPubs.length})` }, ...opts];
 	});
@@ -67,6 +75,31 @@
 			.sort((a, b) => b[0] - a[0])
 			.map(([year, count]) => ({ value: String(year), label: `${year} (${count})` }));
 		return [{ value: 'all', label: 'All years' }, ...opts];
+	});
+
+	// Language facet — sourced from the EP3 ``<language>`` field. Codes are
+	// ISO 639-2/B; ``languageName`` resolves them (and the B/T variants)
+	// to the English name. Records without a language tag fall outside
+	// every selectable choice and stay visible only under "All languages".
+	let languageOptions = $derived.by(() => {
+		const counts = new SvelteMap<string, number>();
+		for (const p of allPubs) {
+			if (p.language) counts.set(p.language, (counts.get(p.language) ?? 0) + 1);
+		}
+		const opts = Array.from(counts.entries())
+			.sort((a, b) => b[1] - a[1])
+			.map(([code, count]) => ({ value: code, label: `${languageName(code)} (${count})` }));
+		return [{ value: 'all', label: 'All languages' }, ...opts];
+	});
+
+	let languageChartData = $derived.by<PieChartDataPoint[]>(() => {
+		const counts = new SvelteMap<string, number>();
+		for (const p of allPubs) {
+			if (p.language) counts.set(p.language, (counts.get(p.language) ?? 0) + 1);
+		}
+		return Array.from(counts.entries())
+			.sort((a, b) => b[1] - a[1])
+			.map(([code, count]) => ({ name: languageName(code), value: count }));
 	});
 
 	let yearChartData = $derived.by<BarChartDataPoint[]>(() => {
@@ -107,6 +140,9 @@
 		let items = allPubs;
 		if (selectedType !== 'all') items = items.filter((p) => p.type === selectedType);
 		if (selectedYear !== 'all') items = items.filter((p) => String(p.year) === selectedYear);
+		if (selectedLanguage !== 'all') {
+			items = items.filter((p) => p.language === selectedLanguage);
+		}
 		if (selectedKeyword) {
 			const kwl = selectedKeyword.toLowerCase();
 			items = items.filter((p) => p.keywords?.some((k) => k.toLowerCase() === kwl));
@@ -135,6 +171,7 @@
 		searchQuery;
 		selectedType;
 		selectedYear;
+		selectedLanguage;
 		selectedKeyword;
 		listPage = 0;
 	});
@@ -146,6 +183,7 @@
 		searchQuery.trim() !== '' ||
 			selectedType !== 'all' ||
 			selectedYear !== 'all' ||
+			selectedLanguage !== 'all' ||
 			selectedKeyword !== ''
 	);
 
@@ -153,6 +191,7 @@
 		searchQuery = '';
 		selectedType = 'all';
 		selectedYear = 'all';
+		selectedLanguage = 'all';
 		selectedKeyword = '';
 	}
 
@@ -220,23 +259,31 @@
 			/>
 		</div>
 
-		<!-- Charts: per-year + keyword cloud -->
+		<!-- Charts row 1: per-year bar + language pie. -->
 		<div class="grid gap-6 lg:grid-cols-2">
 			{#if yearChartData.length > 1}
 				<ChartCard title="Publications per year" contentHeight="h-chart-md">
 					<BarChart data={yearChartData} horizontal={false} maxItems={20} />
 				</ChartCard>
 			{/if}
-			{#if keywordCloudData.length > 0}
-				<ChartCard
-					title="Keyword cloud"
-					subtitle="Click a keyword to filter the list"
-					contentHeight="h-chart-md"
-				>
-					<WordCloud data={keywordCloudData} maxWords={80} onclick={selectKeyword} />
+			{#if languageChartData.length > 0}
+				<ChartCard title="Publications by language" contentHeight="h-chart-md">
+					<PieChart data={languageChartData} />
 				</ChartCard>
 			{/if}
 		</div>
+
+		<!-- Charts row 2: keyword cloud, full width so the long tail of
+		     terms gets the room it needs to breathe. -->
+		{#if keywordCloudData.length > 0}
+			<ChartCard
+				title="Keyword cloud"
+				subtitle="Click a keyword to filter the list"
+				contentHeight="h-chart-lg"
+			>
+				<WordCloud data={keywordCloudData} maxWords={120} onclick={selectKeyword} />
+			</ChartCard>
+		{/if}
 
 		<!-- Filters + bulk export -->
 		<div
@@ -267,6 +314,13 @@
 					placeholder="Year"
 					class="w-32"
 					aria-label="Filter by year"
+				/>
+				<Combobox
+					bind:value={selectedLanguage}
+					options={languageOptions}
+					placeholder="Language"
+					class="w-44"
+					aria-label="Filter by language"
 				/>
 				{#if selectedKeyword}
 					<button

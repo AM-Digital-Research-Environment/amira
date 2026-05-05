@@ -57,9 +57,29 @@ RSS_URL = f"{EXPORT_BASE}/{PROJEKT_ID}/RSS2/{PROJEKT_ID}.xml"
 EP3_XML_URL = f"{EXPORT_BASE}/{PROJEKT_ID}/XML/{PROJEKT_ID}.xml"
 EP3_NS = {"ep": "http://eprints.org/ep2/data/2.0"}
 
-# Map BibTeX entry types to a coarser frontend taxonomy. Anything missing
-# from this map falls back to its raw entry type so we never drop data.
-TYPE_MAP = {
+# Map ERef's source-of-truth type to the frontend taxonomy. We prefer
+# ERef's EP3 XML ``<type>`` over the BibTeX ``ENTRYTYPE`` because BibTeX
+# collapses many distinct categories (working papers, theses, periodical
+# parts, reviews, online publications…) under ``@misc`` — leaving the UI
+# with a giant ``other`` bucket.
+EP3_TYPE_MAP = {
+    "article": "article",
+    "book": "book",
+    "book_section": "chapter",
+    "conference_item": "conference",
+    "thesis": "thesis",
+    "working_paper": "working_paper",
+    "periodical_part": "periodical",
+    "review": "review",
+    "online": "online",
+    "monograph": "report",
+    "patent": "patent",
+    "other": "other",
+}
+
+# Fallback for the rare entry where EP3 XML is missing — keep the BibTeX
+# coverage we had before so we never silently drop a record.
+BIBTEX_TYPE_MAP = {
     "article": "article",
     "book": "book",
     "incollection": "chapter",
@@ -93,6 +113,11 @@ class Publication:
     deposited_at: str | None
     authors: list[Author] = field(default_factory=list)
     editors: list[Author] = field(default_factory=list)
+    # Volume editors for chapters / book sections. Distinct from `editors`
+    # (which carries volume editors for `@book` records). Populated from
+    # ERef's EP3 XML `<book_editors>` element — the BibTeX export drops
+    # this entirely for `@incollection`, so we always have to enrich.
+    book_editors: list[Author] = field(default_factory=list)
     journal: str | None = None
     booktitle: str | None = None
     volume: str | None = None
@@ -105,6 +130,9 @@ class Publication:
     issn: str | None = None
     keywords: list[str] = field(default_factory=list)
     abstract: str | None = None
+    # ISO 639-2/B language code (eng, ger, fre…). ``und`` and blanks are
+    # dropped at parse time so consumers always have a real code.
+    language: str | None = None
     url: str | None = None
     eref_url: str | None = None
     bibtex_url: str | None = None
@@ -380,9 +408,35 @@ def parse_ep3_xml(xml_text: str) -> dict[str, dict[str, Any]]:
             if cleaned:
                 record["keywords"] = cleaned
 
+        # EP3 ``<type>`` is the cluster's source of truth and has finer
+        # categories than BibTeX. Stash it; build_publications prefers it.
+        type_node = ep.find("ep:type", EP3_NS)
+        if type_node is not None and type_node.text:
+            record["type"] = type_node.text.strip().lower()
+
         official = ep.find("ep:official_url", EP3_NS)
         if official is not None and official.text:
             record["official_url"] = official.text.strip()
+
+        # ISO 639-3 publication language. Skip ``und`` (undetermined) and
+        # blank values — there's no useful filter we can build on those.
+        lang_node = ep.find("ep:language", EP3_NS)
+        if lang_node is not None and lang_node.text:
+            lang = lang_node.text.strip().lower()
+            if lang and lang != "und":
+                record["language"] = lang
+
+        # ERef sometimes parks the DOI in `<related_doi>` (with a ``doi:``
+        # prefix) and never copies it into the BibTeX `doi` field —
+        # particularly for `@incollection` entries. Always harvest both
+        # so the merge step in build_publications can fall back.
+        related_doi = ep.find("ep:related_doi", EP3_NS)
+        if related_doi is not None and related_doi.text:
+            doi = related_doi.text.strip()
+            if doi.lower().startswith("doi:"):
+                doi = doi[4:].strip()
+            if doi:
+                record["doi"] = doi
 
         gnd_ids: dict[str, str] = {}
         for kind in ("creators", "editors"):
@@ -405,6 +459,26 @@ def parse_ep3_xml(xml_text: str) -> dict[str, dict[str, Any]]:
                     gnd_ids[key] = gnd_node.text.strip()
         if gnd_ids:
             record["gnd_ids"] = gnd_ids
+
+        # Volume editors for chapters/book_sections. Stored as raw
+        # ``Last, First`` strings; matched to the persons store later in
+        # build_publications via the same path as authors/editors.
+        book_editors_node = ep.find("ep:book_editors", EP3_NS)
+        if book_editors_node is not None:
+            names: list[str] = []
+            for item in book_editors_node.findall("ep:item", EP3_NS):
+                family = item.find("ep:family", EP3_NS)
+                given = item.find("ep:given", EP3_NS)
+                fam = (family.text or "").strip() if family is not None else ""
+                giv = (given.text or "").strip() if given is not None else ""
+                if fam and giv:
+                    names.append(f"{fam}, {giv}")
+                elif fam:
+                    names.append(fam)
+                elif giv:
+                    names.append(giv)
+            if names:
+                record["book_editors"] = names
 
         if record:
             out[eprint_id] = record
@@ -445,11 +519,36 @@ def eprint_id_from_bib_key(key: str) -> str | None:
 
 
 def render_bibtex_entry(entry: dict[str, Any]) -> str:
-    """Re-emit a single bibtexparser entry as a stand-alone .bib string. We
-    keep the raw entry around so the frontend's per-item Zotero export can
-    serve it directly without round-tripping back to ERef."""
+    """Re-emit a single bibtexparser entry as a stand-alone .bib string with
+    LaTeX accent commands decoded to UTF-8 (e.g. ``M{\\"u}nchen`` →
+    ``München``).
+
+    We keep the raw entry around so the frontend's per-item Zotero export
+    can serve it directly without round-tripping back to ERef. Modern
+    Zotero, biber, and biblatex all consume UTF-8 BibTeX without issue,
+    and the resulting file is far more readable than the LaTeX-escaped
+    upstream version. The structural BibTeX escapes (``\\%``, ``\\&``)
+    are preserved so the file still validates."""
+    cleaned: dict[str, Any] = {}
+    for key, value in entry.items():
+        if key in ("ENTRYTYPE", "ID"):
+            cleaned[key] = value
+        elif isinstance(value, str):
+            # Decode LaTeX accents and the literal LaTeX-isms we know about
+            # while leaving the BibTeX-required ``\%`` / ``\&`` escapes as
+            # bibtexparser emits them.
+            decoded = _decode_latex_accents(value)
+            for k, v in _LATEX_LITERALS.items():
+                # Only the non-structural literals — keep `\&` and `\%` so
+                # field values remain valid in legacy BibTeX engines too.
+                if k in (r"\&", r"\%", r"\_", r"\$", r"\#"):
+                    continue
+                decoded = decoded.replace(k, v)
+            cleaned[key] = decoded
+        else:
+            cleaned[key] = value
     db = bibtexparser.bibdatabase.BibDatabase()
-    db.entries = [entry]
+    db.entries = [cleaned]
     return bibtexparser.dumps(db).strip() + "\n"
 
 
@@ -479,8 +578,17 @@ def build_publications(
         if not eprint_id:
             continue
 
-        raw_type = (entry.get("ENTRYTYPE") or "misc").lower()
-        norm_type = TYPE_MAP.get(raw_type, raw_type)
+        # Prefer EP3 type when available — it distinguishes working_paper,
+        # periodical_part, review, online, etc. that BibTeX collapses into
+        # ``@misc``. Fall back to BibTeX when the EP3 record is missing.
+        ep3_type = ep3_data.get(eprint_id, {}).get("type")
+        bibtex_type = (entry.get("ENTRYTYPE") or "misc").lower()
+        if ep3_type:
+            raw_type = ep3_type
+            norm_type = EP3_TYPE_MAP.get(ep3_type, ep3_type)
+        else:
+            raw_type = bibtex_type
+            norm_type = BIBTEX_TYPE_MAP.get(bibtex_type, bibtex_type)
 
         title = normalize_bibtex_value(entry.get("title", ""))
         year_raw = normalize_bibtex_value(entry.get("year", ""))
@@ -512,6 +620,7 @@ def build_publications(
         eref_url = f"{EPRINT_BASE}/{eprint_id}/"
         bibtex_field_url = normalize_bibtex_value(entry.get("url", "")) or None
         doi_raw = normalize_bibtex_value(entry.get("doi", "")) or None
+        ep3_record = ep3_data.get(eprint_id, {})
         if doi_raw and doi_raw.startswith("http"):
             doi_url: str | None = doi_raw
             doi_clean = re.sub(r"^https?://(dx\.)?doi\.org/", "", doi_raw)
@@ -519,20 +628,29 @@ def build_publications(
             doi_url = f"https://doi.org/{doi_raw}"
             doi_clean = doi_raw
         else:
-            # Some entries put the DOI in ``url`` rather than ``doi``.
-            if bibtex_field_url and "doi.org/" in bibtex_field_url:
+            doi_url = None
+            doi_clean = None
+
+        # If BibTeX neither has a `doi` field nor a doi.org URL, fall back
+        # to EP3 XML's `<related_doi>`. This catches `@incollection`
+        # records where ERef stores the DOI separately from the citation.
+        if not doi_clean:
+            ep3_doi = ep3_record.get("doi")
+            if ep3_doi:
+                doi_clean = ep3_doi
+                doi_url = f"https://doi.org/{ep3_doi}"
+            elif bibtex_field_url and "doi.org/" in bibtex_field_url:
+                # Some entries put the DOI in `url` rather than `doi`.
                 doi_url = bibtex_field_url
-                doi_clean = re.sub(r"^https?://(dx\.)?doi\.org/", "", bibtex_field_url)
-            else:
-                doi_url = None
-                doi_clean = None
+                doi_clean = re.sub(
+                    r"^https?://(dx\.)?doi\.org/", "", bibtex_field_url
+                )
 
         canonical_url = doi_url or bibtex_field_url or eref_url
 
         # Keywords: prefer EP3 XML (structured, present for 86/127 records);
         # fall back to BibTeX `keywords` or `keyword` (singular variant ERef
         # sometimes emits) when EP3 doesn't have them.
-        ep3_record = ep3_data.get(eprint_id, {})
         ep3_keywords = ep3_record.get("keywords") or []
         if ep3_keywords:
             keywords = ep3_keywords
@@ -548,6 +666,13 @@ def build_publications(
 
         abstract = ep3_record.get("abstract") or None
 
+        # Volume editors for chapters: BibTeX never carries them, so we
+        # always source from EP3 XML's ``<book_editors>`` block.
+        book_editors = [
+            match_author(name, person_index)
+            for name in ep3_record.get("book_editors", [])
+        ]
+
         pubs.append(
             Publication(
                 id=eprint_id,
@@ -559,6 +684,7 @@ def build_publications(
                 deposited_at=deposited_at,
                 authors=authors,
                 editors=editors,
+                book_editors=book_editors,
                 journal=normalize_bibtex_value(entry.get("journal", "")) or None,
                 booktitle=normalize_bibtex_value(entry.get("booktitle", "")) or None,
                 volume=normalize_bibtex_value(entry.get("volume", "")) or None,
@@ -571,6 +697,7 @@ def build_publications(
                 issn=normalize_bibtex_value(entry.get("issn", "")) or None,
                 keywords=keywords,
                 abstract=abstract,
+                language=ep3_record.get("language"),
                 url=canonical_url,
                 eref_url=eref_url,
                 bibtex_url=PER_EPRINT_BIBTEX.format(id=eprint_id),
