@@ -17,6 +17,7 @@ export {
 } from './collectionLoader';
 export { loadEnrichedLocations } from './geolocLoader';
 export { loadSemanticMap, loadSimilarItems } from './embeddingsLoader';
+export { loadPublications, PUBLICATIONS_PATH } from './publicationsLoader';
 export {
 	loadEntityDashboard,
 	loadEntityDashboardManifest,

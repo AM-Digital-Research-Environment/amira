@@ -35,6 +35,7 @@ const STATIC_ROUTES: Route[] = [
 	{ path: '/research-sections', priority: 0.9, changefreq: 'monthly' },
 	{ path: '/projects', priority: 0.9, changefreq: 'monthly' },
 	{ path: '/research-items', priority: 0.9, changefreq: 'weekly' },
+	{ path: '/publications', priority: 0.85, changefreq: 'weekly' },
 	// Directory
 	{ path: '/people', priority: 0.8, changefreq: 'monthly' },
 	{ path: '/groups', priority: 0.7, changefreq: 'monthly' },

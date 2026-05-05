@@ -6,6 +6,7 @@ export * from './charts';
 export * from './geo';
 export * from './category-index';
 export * from './embeddings';
+export * from './publication';
 
 // Cross-cutting types kept here
 

@@ -1,0 +1,348 @@
+<script lang="ts">
+	import { onMount } from 'svelte';
+	import { base } from '$app/paths';
+	import {
+		StatCard,
+		ChartCard,
+		EmptyState,
+		Pagination,
+		Input,
+		Combobox,
+		Button,
+		SEO
+	} from '$lib/components/ui';
+	import { BarChart, WordCloud } from '$lib/components/charts';
+	import { publications, ensurePublications } from '$lib/stores/data';
+	import {
+		PublicationCard,
+		downloadBibtexBulk,
+		downloadRisBulk
+	} from '$lib/components/publications';
+	import { paginate } from '$lib/utils/pagination';
+	import {
+		Library,
+		FileText,
+		Users,
+		BookOpen,
+		Download,
+		Search,
+		ExternalLink,
+		Inbox
+	} from '@lucide/svelte';
+	import type { Publication, BarChartDataPoint, WordCloudDataPoint } from '$lib/types';
+	import { SvelteMap } from 'svelte/reactivity';
+
+	onMount(() => {
+		void ensurePublications(base);
+	});
+
+	let searchQuery = $state('');
+	let selectedType = $state('all');
+	let selectedYear = $state('all');
+	let selectedKeyword = $state('');
+	let listPage = $state(0);
+	const listPerPage = 15;
+
+	let payload = $derived($publications);
+	let allPubs = $derived<Publication[]>(payload?.publications ?? []);
+
+	let typeOptions = $derived.by(() => {
+		const counts = new SvelteMap<string, number>();
+		for (const p of allPubs) counts.set(p.type, (counts.get(p.type) ?? 0) + 1);
+		const opts = Array.from(counts.entries())
+			.sort((a, b) => b[1] - a[1])
+			.map(([value, count]) => ({
+				value,
+				label: `${value.charAt(0).toUpperCase() + value.slice(1)} (${count})`
+			}));
+		return [{ value: 'all', label: `All types (${allPubs.length})` }, ...opts];
+	});
+
+	let yearOptions = $derived.by(() => {
+		const counts = new SvelteMap<number, number>();
+		for (const p of allPubs) {
+			if (p.year) counts.set(p.year, (counts.get(p.year) ?? 0) + 1);
+		}
+		const opts = Array.from(counts.entries())
+			.sort((a, b) => b[0] - a[0])
+			.map(([year, count]) => ({ value: String(year), label: `${year} (${count})` }));
+		return [{ value: 'all', label: 'All years' }, ...opts];
+	});
+
+	let yearChartData = $derived.by<BarChartDataPoint[]>(() => {
+		const counts = new SvelteMap<number, number>();
+		for (const p of allPubs) {
+			if (p.year) counts.set(p.year, (counts.get(p.year) ?? 0) + 1);
+		}
+		return Array.from(counts.entries())
+			.sort((a, b) => a[0] - b[0])
+			.map(([year, count]) => ({ name: String(year), value: count }));
+	});
+
+	// Aggregate keyword frequencies across the full dataset for the
+	// wordcloud. We lowercase to merge case variants ("African studies" vs
+	// "African Studies") and surface a "raw" map so click-to-filter can
+	// recover the original casing.
+	let keywordRaw = $derived.by(() => {
+		const counts = new SvelteMap<string, number>();
+		const display = new SvelteMap<string, string>();
+		for (const p of allPubs) {
+			for (const kw of p.keywords ?? []) {
+				const key = kw.toLowerCase();
+				counts.set(key, (counts.get(key) ?? 0) + 1);
+				if (!display.has(key)) display.set(key, kw);
+			}
+		}
+		return { counts, display };
+	});
+
+	let keywordCloudData = $derived.by<WordCloudDataPoint[]>(() => {
+		return Array.from(keywordRaw.counts.entries())
+			.sort((a, b) => b[1] - a[1])
+			.slice(0, 80)
+			.map(([key, count]) => ({ name: keywordRaw.display.get(key) ?? key, value: count }));
+	});
+
+	let filtered = $derived.by(() => {
+		let items = allPubs;
+		if (selectedType !== 'all') items = items.filter((p) => p.type === selectedType);
+		if (selectedYear !== 'all') items = items.filter((p) => String(p.year) === selectedYear);
+		if (selectedKeyword) {
+			const kwl = selectedKeyword.toLowerCase();
+			items = items.filter((p) => p.keywords?.some((k) => k.toLowerCase() === kwl));
+		}
+		const q = searchQuery.trim().toLowerCase();
+		if (q) {
+			items = items.filter((p) => {
+				if (p.title?.toLowerCase().includes(q)) return true;
+				if (p.abstract?.toLowerCase().includes(q)) return true;
+				if (p.journal?.toLowerCase().includes(q)) return true;
+				if (p.booktitle?.toLowerCase().includes(q)) return true;
+				if (p.publisher?.toLowerCase().includes(q)) return true;
+				if (p.doi?.toLowerCase().includes(q)) return true;
+				const contributors = [...(p.authors ?? []), ...(p.editors ?? [])];
+				if (contributors.some((c) => c.normalized.toLowerCase().includes(q))) return true;
+				if (p.keywords?.some((k) => k.toLowerCase().includes(q))) return true;
+				return false;
+			});
+		}
+		return items;
+	});
+
+	let paginated = $derived(paginate(filtered, listPage, listPerPage));
+
+	$effect(() => {
+		searchQuery;
+		selectedType;
+		selectedYear;
+		selectedKeyword;
+		listPage = 0;
+	});
+
+	let matchedContributors = $derived(payload?.stats.matched_contributors ?? 0);
+	let totalContributors = $derived(payload?.stats.total_contributors ?? 0);
+
+	let hasFilters = $derived(
+		searchQuery.trim() !== '' ||
+			selectedType !== 'all' ||
+			selectedYear !== 'all' ||
+			selectedKeyword !== ''
+	);
+
+	function clearFilters() {
+		searchQuery = '';
+		selectedType = 'all';
+		selectedYear = 'all';
+		selectedKeyword = '';
+	}
+
+	function selectKeyword(name: string) {
+		// Toggle: if clicked twice, clear; otherwise set as the active filter.
+		selectedKeyword = selectedKeyword.toLowerCase() === name.toLowerCase() ? '' : name;
+	}
+
+	let articlesCount = $derived(allPubs.filter((p) => p.type === 'article').length);
+	let booksCount = $derived(
+		allPubs.filter((p) => p.type === 'book' || p.type === 'chapter').length
+	);
+</script>
+
+<SEO
+	title="Publications"
+	description="Cluster publications fetched from ERef Bayreuth — articles, books, chapters, and conference papers from the Africa Multiple Cluster of Excellence (EXC 2052)."
+	keywords={[
+		'publications',
+		'ERef',
+		'Bayreuth',
+		'Africa Multiple',
+		'EXC 2052',
+		'bibliography',
+		'BibTeX',
+		'Zotero'
+	]}
+/>
+
+<div class="space-y-8 animate-slide-in-up">
+	<!-- Header -->
+	<div>
+		<h1 class="page-title">Publications</h1>
+		<p class="page-subtitle">
+			Cluster publications synced from
+			<a
+				href="https://eref.uni-bayreuth.de/view/projekt/EXC_2052=3A_Africa_Multiple=3A_Reconfiguring_African_Studies.html"
+				target="_blank"
+				rel="noopener"
+				class="underline-offset-4 hover:underline">ERef Bayreuth</a
+			>
+			(EXC 2052 / Africa Multiple).
+		</p>
+	</div>
+
+	{#if !payload}
+		<EmptyState
+			message="Publications dataset not available. Run scripts/fetch_eref_publications.py to generate it."
+			icon={Inbox}
+			class="h-64"
+		/>
+	{:else if allPubs.length === 0}
+		<EmptyState message="No publications found in the dataset." icon={Inbox} class="h-64" />
+	{:else}
+		<!-- Stats -->
+		<div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+			<StatCard label="Total Publications" value={allPubs.length} icon={Library} />
+			<StatCard label="Articles" value={articlesCount} icon={FileText} />
+			<StatCard label="Books & Chapters" value={booksCount} icon={BookOpen} />
+			<StatCard
+				label="Matched Authors"
+				value={`${matchedContributors}/${totalContributors}`}
+				icon={Users}
+				subtitle="linked to person profiles"
+			/>
+		</div>
+
+		<!-- Charts: per-year + keyword cloud -->
+		<div class="grid gap-6 lg:grid-cols-2">
+			{#if yearChartData.length > 1}
+				<ChartCard title="Publications per year" contentHeight="h-chart-md">
+					<BarChart data={yearChartData} horizontal={false} maxItems={20} />
+				</ChartCard>
+			{/if}
+			{#if keywordCloudData.length > 0}
+				<ChartCard
+					title="Keyword cloud"
+					subtitle="Click a keyword to filter the list"
+					contentHeight="h-chart-md"
+				>
+					<WordCloud data={keywordCloudData} maxWords={80} onclick={selectKeyword} />
+				</ChartCard>
+			{/if}
+		</div>
+
+		<!-- Filters + bulk export -->
+		<div
+			class="flex flex-col gap-3 lg:flex-row lg:items-center lg:gap-4 p-4 rounded-xl border border-border bg-card/50"
+		>
+			<div class="relative flex-1 min-w-0">
+				<Search
+					class="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground pointer-events-none"
+				/>
+				<Input
+					bind:value={searchQuery}
+					placeholder="Search title, author, journal, DOI, keyword…"
+					class="pl-9"
+					aria-label="Search publications"
+				/>
+			</div>
+			<div class="flex flex-wrap items-center gap-2">
+				<Combobox
+					bind:value={selectedType}
+					options={typeOptions}
+					placeholder="Type"
+					class="w-44"
+					aria-label="Filter by publication type"
+				/>
+				<Combobox
+					bind:value={selectedYear}
+					options={yearOptions}
+					placeholder="Year"
+					class="w-32"
+					aria-label="Filter by year"
+				/>
+				{#if selectedKeyword}
+					<button
+						type="button"
+						onclick={() => (selectedKeyword = '')}
+						class="inline-flex items-center gap-1 rounded-full border border-primary/30 bg-primary/10 text-primary text-xs px-2.5 py-1 hover:bg-primary/15 transition-colors"
+						title="Remove keyword filter"
+					>
+						<span>#{selectedKeyword}</span>
+						<span aria-hidden="true">×</span>
+					</button>
+				{/if}
+				{#if hasFilters}
+					<Button variant="ghost" size="sm" onclick={clearFilters}>Clear</Button>
+				{/if}
+			</div>
+		</div>
+
+		<!-- Bulk export controls -->
+		<div class="flex flex-wrap items-center gap-2 text-sm">
+			<span class="text-muted-foreground">
+				{filtered.length} of {allPubs.length} publications
+				{#if hasFilters}match your filters{/if}
+			</span>
+			<span class="ml-auto inline-flex items-center gap-2">
+				<Button
+					variant="outline"
+					size="sm"
+					onclick={() => downloadBibtexBulk(filtered)}
+					disabled={filtered.length === 0}
+				>
+					<Download class="h-3.5 w-3.5" />
+					BibTeX ({filtered.length})
+				</Button>
+				<Button
+					variant="outline"
+					size="sm"
+					onclick={() => downloadRisBulk(filtered)}
+					disabled={filtered.length === 0}
+				>
+					<Download class="h-3.5 w-3.5" />
+					RIS ({filtered.length})
+				</Button>
+				{#if payload.source.bibtex_url}
+					<a
+						href={payload.source.bibtex_url}
+						target="_blank"
+						rel="noopener"
+						class="inline-flex items-center gap-1 text-xs text-muted-foreground hover:text-foreground transition-colors"
+						title="Open the upstream BibTeX export at ERef Bayreuth"
+					>
+						<ExternalLink class="h-3 w-3" /> upstream
+					</a>
+				{/if}
+			</span>
+		</div>
+
+		<!-- List -->
+		{#if filtered.length === 0}
+			<EmptyState
+				message="No publications match these filters."
+				icon={Inbox}
+				class="h-48 rounded-xl border border-border bg-card/50"
+			/>
+		{:else}
+			<div class="grid gap-4">
+				{#each paginated as pub (pub.id)}
+					<PublicationCard publication={pub} onKeywordClick={selectKeyword} />
+				{/each}
+			</div>
+			<Pagination
+				currentPage={listPage}
+				totalItems={filtered.length}
+				itemsPerPage={listPerPage}
+				onPageChange={(p) => (listPage = p)}
+			/>
+		{/if}
+	{/if}
+</div>

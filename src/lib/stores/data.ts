@@ -8,14 +8,16 @@ import type {
 	DashboardStats,
 	University,
 	ResearchSectionInfo,
-	EnrichedLocationsData
+	EnrichedLocationsData,
+	PublicationsPayload
 } from '$lib/types';
 import { universities } from '$lib/types';
 import {
 	loadLightData,
 	loadAllCollectionsTagged,
 	loadResearchSections,
-	loadEnrichedLocations
+	loadEnrichedLocations,
+	loadPublications
 } from '$lib/utils/loaders';
 import { createOnceLoader } from '$lib/utils/loaders/cacheFactory';
 import { calculateStats } from '$lib/utils/transforms';
@@ -200,6 +202,21 @@ const geolocLoader = createOnceLoader<void>(async () => {
 export function ensureEnrichedLocations(basePath: string = ''): Promise<void> {
 	if (!geolocLoader.isLoaded()) geolocBasePath = basePath;
 	return geolocLoader.fetch();
+}
+
+// Lazy-loaded cluster publications (ERef Bayreuth). Only the /publications
+// route consumes this today, so we keep it out of the eager light-data
+// bundle. ~200 kB JSON; null when the file is absent on a fresh clone.
+export const publications = writable<PublicationsPayload | null>(null);
+let publicationsBasePath = '';
+const publicationsLoader = createOnceLoader<void>(async () => {
+	const data = await loadPublications(publicationsBasePath);
+	publications.set(data);
+});
+
+export function ensurePublications(basePath: string = ''): Promise<void> {
+	if (!publicationsLoader.isLoaded()) publicationsBasePath = basePath;
+	return publicationsLoader.fetch();
 }
 
 // Theme store

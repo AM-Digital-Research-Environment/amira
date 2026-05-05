@@ -21,8 +21,17 @@
 		applyEntitySort,
 		type EntitySort
 	} from '$lib/components/entity-browse';
-	import { projects, allCollections, researchSections, persons } from '$lib/stores/data';
+	import {
+		projects,
+		allCollections,
+		researchSections,
+		persons,
+		publications,
+		ensurePublications
+	} from '$lib/stores/data';
+	import { PublicationsSection, publicationsByContributor } from '$lib/components/publications';
 	import { page } from '$app/stores';
+	import { base } from '$app/paths';
 	import { createEntityDetailState } from '$lib/utils/loaders';
 	import {
 		researchSectionsUrl,
@@ -357,6 +366,23 @@
 		return entry?.role || '';
 	}
 
+	// Cluster publications (ERef) attributed to this person. Lookup is by
+	// reconciled person_id when the Python fetcher matched them, falling
+	// back to a name-string match for unreconciled contributors so we still
+	// surface publications by people not yet in the persons store.
+	let personPublications = $derived.by(() => {
+		if (!selectedPerson) return [];
+		const payload = $publications;
+		if (!payload) return [];
+		// The persons store keys by name so we look up the canonical id by
+		// matching the selected name first, then pass both to the helper.
+		const matchedPerson = $persons.find((p) => p.name === selectedPerson.name);
+		return publicationsByContributor(payload.publications, {
+			personId: matchedPerson?._id,
+			personName: selectedPerson.name
+		});
+	});
+
 	let personProfile = $derived.by(() => {
 		if (!selectedPerson || personCollectionItems.length === 0) return null;
 
@@ -435,7 +461,10 @@
 	title="People"
 	subtitle="Browse researchers, principal investigators, and project members across the cluster"
 	selected={() => selectedPerson}
-	onMountExtra={() => void loadWisskiUrls('persons')}
+	onMountExtra={() => {
+		void loadWisskiUrls('persons');
+		void ensurePublications(base);
+	}}
 >
 	{#snippet detailView()}
 		<EntityDetailViewShell
@@ -873,6 +902,14 @@
 								{/if}
 							{/snippet}
 						</SearchableItemsCard>
+					{/if}
+
+					{#if personPublications.length > 0}
+						<PublicationsSection
+							publications={personPublications}
+							title="Cluster publications"
+							exportBaseName={`publications-${selectedPerson.name.replace(/[^a-zA-Z0-9]+/g, '-').toLowerCase()}`}
+						/>
 					{/if}
 
 					<EntityDashboardSection

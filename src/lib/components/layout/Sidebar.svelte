@@ -22,7 +22,8 @@
 		BookType,
 		Sparkles,
 		Compass,
-		Images
+		Images,
+		Library
 	} from '@lucide/svelte';
 	import type { Component } from 'svelte';
 
@@ -60,7 +61,8 @@
 			items: [
 				{ href: `${base}/research-sections`, label: 'Research Sections', icon: BookOpen },
 				{ href: `${base}/projects`, label: 'Projects', icon: Briefcase },
-				{ href: `${base}/research-items`, label: 'Research Items', icon: FileText }
+				{ href: `${base}/research-items`, label: 'Research Items', icon: FileText },
+				{ href: `${base}/publications`, label: 'Publications', icon: Library }
 			]
 		},
 		{

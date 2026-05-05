@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { StatCard, ChartCard, EmptyState, SEO } from '$lib/components/ui';
+	import { ensurePublications, publications } from '$lib/stores/data';
 	import StackedTimeline from '$lib/components/charts/StackedTimeline.svelte';
 	import BarChart from '$lib/components/charts/BarChart.svelte';
 	import PieChart from '$lib/components/charts/PieChart.svelte';
@@ -38,7 +39,8 @@
 		ExternalLink,
 		SlidersHorizontal,
 		Images,
-		ArrowRight
+		ArrowRight,
+		Library
 	} from '@lucide/svelte';
 	import { normalizeLanguageCode } from '$lib/utils/languages';
 	import {
@@ -51,6 +53,7 @@
 
 	onMount(() => {
 		void ensureCollections(base);
+		void ensurePublications(base);
 	});
 
 	// Word cloud controls
@@ -177,17 +180,25 @@
 		});
 		return types.size;
 	});
+
+	// Cluster publications count from the lazy-loaded ERef payload. Falls
+	// back to 0 until the JSON resolves (typically <100 ms after onMount).
+	let publicationCount = $derived($publications?.publications.length ?? 0);
 </script>
 
 <SEO
 	title="Overview"
-	description="Research data from the Africa Multiple Cluster of Excellence and its Africa Multiple Research Centres (AMRCs) — an international research consortium at the University of Bayreuth linking partner centres across Africa, Brazil, and Germany. Browse projects, people, institutions, research items, and visualisations."
+	description="Research data and publications from the Africa Multiple Cluster of Excellence and its Africa Multiple Research Centres (AMRCs) — an international research consortium at the University of Bayreuth linking partner centres across Africa, Brazil, and Germany. Browse projects, people, institutions, research items, cluster publications, and visualisations."
 	keywords={[
 		'overview',
 		'research dashboard',
 		'cluster of excellence',
 		'African studies',
 		'research projects',
+		'cluster publications',
+		'bibliography',
+		'ERef Bayreuth',
+		'EXC 2052',
 		'data visualization',
 		'University of Bayreuth',
 		'Africa Multiple Research Centres'
@@ -197,7 +208,7 @@
 		'@type': 'Dataset',
 		name: 'Africa Multiple Interactive Research Atlas',
 		description:
-			'Aggregated research metadata from the Africa Multiple Cluster of Excellence and its partner research centres in Africa, Brazil, and Germany.',
+			'Aggregated research metadata and cluster publications from the Africa Multiple Cluster of Excellence and its partner research centres in Africa, Brazil, and Germany.',
 		creator: {
 			'@type': 'Organization',
 			name: 'Africa Multiple Cluster of Excellence',
@@ -215,7 +226,7 @@
 		<h1 class="page-title">Overview</h1>
 		<p class="page-subtitle">
 			The Africa Multiple Interactive Research Atlas (AMIRA) lets you browse and visualize research
-			metadata from the
+			metadata and publications from the
 			<a
 				href="https://www.africamultiple.uni-bayreuth.de/en/index.html"
 				target="_blank"
@@ -236,8 +247,9 @@
 		</p>
 	</div>
 
-	<!-- Stats Cards -->
-	<div class="grid gap-4 grid-cols-2 lg:grid-cols-4">
+	<!-- Stats Cards. 9 cards: a 3-column grid on lg+ keeps the layout balanced
+	     (3×3) without leaving an orphan card on a third row. -->
+	<div class="grid gap-4 grid-cols-2 sm:grid-cols-3 lg:grid-cols-3">
 		<StatCard
 			value={$filteredCollections.length}
 			label="Research Items"
@@ -294,6 +306,14 @@
 			icon={Layers}
 			iconBgClass="bg-chart-1/10"
 			animationDelay="250ms"
+		/>
+		<StatCard
+			value={publicationCount}
+			label="Cluster Publications"
+			subtitle="from ERef Bayreuth"
+			icon={Library}
+			iconBgClass="bg-chart-2/10"
+			animationDelay="275ms"
 		/>
 	</div>
 

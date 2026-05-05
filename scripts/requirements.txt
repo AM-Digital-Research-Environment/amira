@@ -25,3 +25,8 @@ google-genai>=1.73.1
 umap-learn>=0.5.12
 numpy>=2.4.4
 python-dotenv>=1.2.2
+
+# ERef Bayreuth publications fetcher (scripts/fetch_eref_publications.py):
+# bibtexparser parses the bulk BibTeX export from the cluster's projekt-scoped
+# ERef view. v1.4.x is the stable line; v2 is still in beta at time of writing.
+bibtexparser>=1.4.4,<2
