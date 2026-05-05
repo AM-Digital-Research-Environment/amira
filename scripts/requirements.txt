@@ -31,3 +31,10 @@ python-dotenv>=1.2.2
 # view) and EPub Bayreuth (Africa Multiple division view). v1.4.x is the
 # stable line; v2 is still in beta at time of writing.
 bibtexparser>=1.4.4,<2
+
+# Cluster-website reconciliation (scripts/find_missing_publications.py):
+# beautifulsoup4 parses the cluster's TYPO3-rendered "Recent Publications"
+# page so we can diff its entries against the ERef division-340050 BibTeX
+# export and emit a Zotero-importable list of references that aren't yet
+# in ERef.
+beautifulsoup4>=4.14.3

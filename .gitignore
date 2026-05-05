@@ -30,6 +30,8 @@ test-results/
 
 # Python scripts
 scripts/.location_cache.json
+scripts/.cluster_publications_cache/
+scripts/out/
 __pycache__/
 *.pyc
 
