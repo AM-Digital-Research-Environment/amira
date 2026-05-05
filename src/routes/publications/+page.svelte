@@ -11,7 +11,8 @@
 		Button,
 		SEO
 	} from '$lib/components/ui';
-	import { BarChart, PieChart, WordCloud } from '$lib/components/charts';
+	import { StackedTimeline, PieChart, WordCloud } from '$lib/components/charts';
+	import type { StackedTimelineDataPoint } from '$lib/utils/transforms';
 	import { languageName } from '$lib/utils/languages';
 	import { publications, ensurePublications } from '$lib/stores/data';
 	import {
@@ -23,20 +24,15 @@
 	import { paginate } from '$lib/utils/pagination';
 	import {
 		Library,
-		FileText,
+		Layers,
+		Languages as LanguagesIcon,
 		Users,
-		BookOpen,
 		Download,
 		Search,
 		ExternalLink,
 		Inbox
 	} from '@lucide/svelte';
-	import type {
-		Publication,
-		BarChartDataPoint,
-		PieChartDataPoint,
-		WordCloudDataPoint
-	} from '$lib/types';
+	import type { Publication, PieChartDataPoint, WordCloudDataPoint } from '$lib/types';
 	import { SvelteMap } from 'svelte/reactivity';
 
 	onMount(() => {
@@ -102,14 +98,35 @@
 			.map(([code, count]) => ({ name: languageName(code), value: count }));
 	});
 
-	let yearChartData = $derived.by<BarChartDataPoint[]>(() => {
-		const counts = new SvelteMap<number, number>();
+	// Stacked breakdown of publications per year by type. Bar order (bottom →
+	// top) follows overall frequency so the dominant types anchor the stack
+	// and minor categories sit on top, mirroring the legend ordering.
+	let yearTypeOrder = $derived.by<string[]>(() => {
+		const totals = new SvelteMap<string, number>();
+		for (const p of allPubs) totals.set(p.type, (totals.get(p.type) ?? 0) + 1);
+		return Array.from(totals.entries())
+			.sort((a, b) => b[1] - a[1])
+			.map(([type]) => type);
+	});
+
+	let yearChartData = $derived.by<StackedTimelineDataPoint[]>(() => {
+		const buckets = new SvelteMap<number, Record<string, number>>();
 		for (const p of allPubs) {
-			if (p.year) counts.set(p.year, (counts.get(p.year) ?? 0) + 1);
+			if (!p.year) continue;
+			let bucket = buckets.get(p.year);
+			if (!bucket) {
+				bucket = {};
+				buckets.set(p.year, bucket);
+			}
+			bucket[p.type] = (bucket[p.type] ?? 0) + 1;
 		}
-		return Array.from(counts.entries())
+		return Array.from(buckets.entries())
 			.sort((a, b) => a[0] - b[0])
-			.map(([year, count]) => ({ name: String(year), value: count }));
+			.map(([year, byType]) => ({
+				year,
+				total: Object.values(byType).reduce((s, n) => s + n, 0),
+				byType
+			}));
 	});
 
 	// Aggregate keyword frequencies across the full dataset for the
@@ -132,7 +149,7 @@
 	let keywordCloudData = $derived.by<WordCloudDataPoint[]>(() => {
 		return Array.from(keywordRaw.counts.entries())
 			.sort((a, b) => b[1] - a[1])
-			.slice(0, 80)
+			.slice(0, 200)
 			.map(([key, count]) => ({ name: keywordRaw.display.get(key) ?? key, value: count }));
 	});
 
@@ -200,9 +217,9 @@
 		selectedKeyword = selectedKeyword.toLowerCase() === name.toLowerCase() ? '' : name;
 	}
 
-	let articlesCount = $derived(allPubs.filter((p) => p.type === 'article').length);
-	let booksCount = $derived(
-		allPubs.filter((p) => p.type === 'book' || p.type === 'chapter').length
+	let publicationTypeCount = $derived(new Set(allPubs.map((p) => p.type)).size);
+	let languageCount = $derived(
+		new Set(allPubs.map((p) => p.language).filter((l): l is string => Boolean(l))).size
 	);
 </script>
 
@@ -249,8 +266,18 @@
 		<!-- Stats -->
 		<div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
 			<StatCard label="Total Publications" value={allPubs.length} icon={Library} />
-			<StatCard label="Articles" value={articlesCount} icon={FileText} />
-			<StatCard label="Books & Chapters" value={booksCount} icon={BookOpen} />
+			<StatCard
+				label="Publication Types"
+				value={publicationTypeCount}
+				icon={Layers}
+				subtitle="distinct categories"
+			/>
+			<StatCard
+				label="Languages"
+				value={languageCount}
+				icon={LanguagesIcon}
+				subtitle="distinct languages"
+			/>
 			<StatCard
 				label="Matched Authors"
 				value={`${matchedContributors}/${totalContributors}`}
@@ -262,8 +289,16 @@
 		<!-- Charts row 1: per-year bar + language pie. -->
 		<div class="grid gap-6 lg:grid-cols-2">
 			{#if yearChartData.length > 1}
-				<ChartCard title="Publications per year" contentHeight="h-chart-md">
-					<BarChart data={yearChartData} horizontal={false} maxItems={20} />
+				<ChartCard
+					title="Publications per year"
+					subtitle="Stacked by publication type"
+					contentHeight="h-chart-md"
+				>
+					<StackedTimeline
+						data={yearChartData}
+						typeOrder={yearTypeOrder}
+						typeLabel={publicationTypeLabel}
+					/>
 				</ChartCard>
 			{/if}
 			{#if languageChartData.length > 0}
@@ -281,7 +316,7 @@
 				subtitle="Click a keyword to filter the list"
 				contentHeight="h-chart-lg"
 			>
-				<WordCloud data={keywordCloudData} maxWords={120} onclick={selectKeyword} />
+				<WordCloud data={keywordCloudData} maxWords={200} onclick={selectKeyword} />
 			</ChartCard>
 		{/if}
 

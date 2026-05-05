@@ -32,13 +32,33 @@
 		data: StackedTimelineDataPoint[];
 		title?: string;
 		class?: string;
+		/** Explicit ordering for stacked series (legend order, bottom → top).
+		 *  Defaults to keys discovered in the data, sorted alphabetically. */
+		typeOrder?: string[];
+		/** Map a series key to a display label for the legend / tooltip. */
+		typeLabel?: (type: string) => string;
 		onclick?: (year: number, resourceType?: string) => void;
 	}
 
-	let { data, title = '', class: className = '', onclick }: Props = $props();
+	let {
+		data,
+		title = '',
+		class: className = '',
+		typeOrder,
+		typeLabel = (t) => t,
+		onclick
+	}: Props = $props();
 
-	// Get all resource types present in the data
-	let resourceTypes = $derived(getResourceTypesFromStackedData(data));
+	// Resolve which stacked series to render — caller-supplied order wins,
+	// otherwise we discover them from the data.
+	let resourceTypes = $derived(
+		typeOrder && typeOrder.length > 0 ? typeOrder : getResourceTypesFromStackedData(data)
+	);
+
+	// Year slider is only useful when there are enough bars to crowd the
+	// axis. Below the threshold we skip it and reclaim the bottom margin —
+	// this is what was leaving a big empty gap on the publications chart.
+	let needsZoom = $derived(data.length > 15);
 
 	let isDark = $derived($theme === 'dark');
 	let labelStyle = $derived(axisLabelStyle(isDark));
@@ -56,14 +76,17 @@
 		},
 		legend: {
 			type: 'scroll',
-			bottom: 65,
-			data: resourceTypes,
+			bottom: needsZoom ? 65 : 0,
+			data: resourceTypes.map((t) => typeLabel(t)),
 			textStyle: { ...legendStyle }
 		},
 		grid: buildGrid({
+			// Reserve room for the legend (~32px) plus the zoom slider
+			// (~50px) and rotated year labels when the slider is shown.
+			// Without the slider we only need ~40px for the legend.
 			left: '3%',
 			right: '4%',
-			bottom: 100,
+			bottom: needsZoom ? 100 : 40,
 			top: title ? '15%' : '10%'
 		}),
 		xAxis: {
@@ -80,17 +103,19 @@
 			axisLabel: { ...labelStyle },
 			nameTextStyle: { ...labelStyle }
 		},
-		dataZoom: buildDataZoom({
-			start: 0,
-			end: 100,
-			bottom: 10,
-			height: 25
-		}),
+		dataZoom: needsZoom
+			? buildDataZoom({
+					start: 0,
+					end: 100,
+					bottom: 10,
+					height: 25
+				})
+			: undefined,
 		// For each bar position, find the topmost series (last in `resourceTypes`
 		// order) that actually has a value > 0, so only that segment gets the
 		// rounded top cap. This matches the standalone Timeline's bar styling.
 		series: resourceTypes.map((type, index) => ({
-			name: type,
+			name: typeLabel(type),
 			type: 'bar',
 			stack: 'total',
 			emphasis: {
@@ -118,7 +143,10 @@
 	function handleClick(params: unknown) {
 		const p = params as { name: string; seriesName?: string };
 		if (onclick && p.name) {
-			onclick(parseInt(p.name), p.seriesName);
+			// Map the displayed legend label back to its raw type key so
+			// callers always receive the unmapped value they passed in.
+			const rawType = resourceTypes.find((t) => typeLabel(t) === p.seriesName) ?? p.seriesName;
+			onclick(parseInt(p.name), rawType);
 		}
 	}
 </script>
