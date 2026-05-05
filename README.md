@@ -8,6 +8,7 @@ Interactive research atlas for the [Africa Multiple Cluster of Excellence](https
 
 - **3,975** research items across **92** projects
 - **1,394** persons, **492** institutions, **84** groups
+- **146** cluster publications harvested from ERef Bayreuth and EPub Bayreuth, deduplicated across the two repositories
 - **13** research sections — 6 Phase 1 (Affiliations, Arts & Aesthetics, Knowledges, Learning, Mobilities, Moralities), 6 Phase 2 (Accumulation, Digitalities, Ecologies, In/securities, Re:membering, Translating), and an "External" pseudo-section
 - 4 partner universities (Bayreuth lead + UNILAG, UJKZ, Moi, Rhodes) plus 1 privileged partner (UFBA's CEAO, Salvador de Bahia)
 - 2 external collections (BayGlo2025, ILAM)
@@ -25,6 +26,7 @@ Interactive research atlas for the [Africa Multiple Cluster of Excellence](https
 - **Research Sections** — the 13 sections with full descriptions, objectives, work programmes, spokespeople / PIs, members, and project Gantt timelines. Phase 1 sections show project charts; Phase 2 sections surface spokesperson info only (no projects until June 2026). Each section also opens an `EntityDashboard` of stacked timeline, resource type / language / subject breakdowns, decade heatmap, subject trends, time-aware chord, contributor network, and origin → current geo flows.
 - **Projects** — faceted browser (research section, institution) with detail views showing description, PIs, members, institutions, paginated items, and WissKI links. Overview adds a Gantt timeline, beeswarm (projects by section and year, sized by item count), and bar charts for sections and institutions. Per-project detail pages now ship the full Phase 4 dashboard: stacked timeline, type / language / role pies, subjects bar, word cloud, type × decade heatmap, subject trends, sunburst, chord + time-aware chord, sankey, contributor network, geo flows, locations map, and knowledge graph.
 - **Research Items** — full-text search and collapsible facets (subject, tag, country, project, language, resource type) over all 3,975 items, with a sortable table view. Detail view exposes title, abstract, contributors (role-qualified persons / institutions / groups), subjects (LCSH), tags, origin locations on a MiniMap, dates, language, identifiers, project, and a per-item entity knowledge graph with fullscreen mode. Below the detail card you'll find a `SiblingItemsSparkline` (year-by-year project timeline with the current item highlighted) and a `SimilarItemsStrip` (top-8 semantic-kNN matches via Gemini embeddings).
+- **Publications** — cluster bibliography synced from [ERef Bayreuth](https://eref.uni-bayreuth.de/view/projekt/EXC_2052=3A_Africa_Multiple=3A_Reconfiguring_African_Studies.html) (EXC 2052 project view) and [EPub Bayreuth](https://epub.uni-bayreuth.de/view/divisions/340050.html) (Africa Multiple division view). The fetcher dedupes by DOI / ISBN / fuzzy title+year+author and merges cross-listed records; each card shows DOI, ERef, and / or EPub buttons depending on which repos carry the item. Stat cards (total, types, languages, matched authors), per-year stacked-by-type timeline, language pie, keyword wordcloud, full-text search across title / abstract / journal / author / DOI / keyword, faceted filters (type, year, language, keyword), and per-item BibTeX / RIS export plus bulk export of any filtered subset.
 
 ### Collections
 
@@ -235,6 +237,7 @@ src/
 │   ├── research-sections/        # 13 sections + per-section EntityDashboard
 │   ├── projects/                 # Projects + per-project full-parity dashboard
 │   ├── research-items/           # Research items browser; detail = KG + sparkline + similar
+│   ├── publications/             # Cluster bibliography (ERef + EPub Bayreuth, deduped)
 │   ├── people/                   # People directory + per-person dashboard
 │   ├── groups/                   # Research groups + per-group dashboard
 │   ├── institutions/             # Institutions + per-institution dashboard
@@ -354,6 +357,15 @@ Each graph combines **direct** metadata edges (IDF-weighted so distinctive relat
 
 Pipelined by [`scripts/generate_embeddings.py`](scripts/generate_embeddings.py). See [scripts/README.md](scripts/README.md) for details.
 
+### Cluster publications — `static/data/publications.json`
+
+146 publications harvested from two University of Bayreuth EPrints repositories and merged into a single normalised payload:
+
+- **ERef Bayreuth** ([EXC 2052 projekt view](https://eref.uni-bayreuth.de/view/projekt/EXC_2052=3A_Africa_Multiple=3A_Reconfiguring_African_Studies.html)) — 127 records; the cluster's primary archive
+- **EPub Bayreuth** ([Africa Multiple division view](https://epub.uni-bayreuth.de/view/divisions/340050.html)) — 50 records; open-access repository
+
+Three EPrints 3 export endpoints are consumed per source: bulk **BibTeX** (canonical metadata), **RSS** (deposit dates → year / quarter buckets), and **EP3 XML** (abstracts, structured keywords, GND author IDs, languages, related / publisher DOIs, volume editors). Cross-source deduplication runs three tiers — **DOI** (with author / title sanity guard so book-level DOIs don't merge sibling chapters), **ISBN** (books and periodicals only), and **fuzzy** (normalized title + year + first-author surname) — folding the 31 cross-listed records into single entries that carry both `eref_url` and `epub_url`. Generated by [`scripts/fetch_publications.py`](scripts/fetch_publications.py); the loader lives at [`src/lib/utils/loaders/publicationsLoader.ts`](src/lib/utils/loaders/publicationsLoader.ts).
+
 ### Geographic data — `static/data/geo/`
 
 - **`world-countries-110m.json`** — Natural Earth 110m country boundaries (TopoJSON) used by `ChoroplethMap`. Bundled once with the build; smaller than the 50m / 10m datasets at the cost of coastline detail.
@@ -378,6 +390,7 @@ Key scripts (see [scripts/README.md](scripts/README.md) for the full list and in
 - **`fetch_from_mongodb.py`** — pull research items + reference data from the WissKI MongoDB
 - **`generate_wisski_urls.py`** — emit pre-computed `dev.wisski_urls.*.json` lookups for the WissKI Navigate links
 - **`fetch_thumbnails.py`** — download remote `previewImage` URLs as local WebP thumbnails so the first paint doesn't hit the public archive
+- **`fetch_publications.py`** — harvest BibTeX / RSS / EP3 XML from ERef Bayreuth (projekt view) and EPub Bayreuth (Africa Multiple division view), deduplicate across sources by DOI / ISBN / fuzzy title-author-year, and emit `static/data/publications.json`
 - **`generate_knowledge_graphs.py`** — compute the ego-graph JSON consumed by `EntityKnowledgeGraph` and `/network?tab=communities`
 - **`generate_embeddings.py`** — run Gemini Embedding 2 over the corpus, project to 2D with UMAP, emit `map.json` + `similar.json`
 - **`precompute_entity_dashboards.py`** — generate one JSON per entity under `static/data/entity_dashboards/`, plus the global manifest. Supports `--from-local`, per-type runs, and `--dry-run`. The manifest writer merges with the existing file so a single-entity run doesn't wipe the others' entries
