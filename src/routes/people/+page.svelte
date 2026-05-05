@@ -369,11 +369,11 @@
 		return entry?.role || '';
 	}
 
-	// Cluster publications (ERef) attributed to this person, tagged with
-	// the role they played (author / editor / book_editor). Reconciliation
-	// is by canonical ``person_id`` when the Python fetcher matched them,
-	// with a name-string fallback so we still surface publications by
-	// people not yet in the persons store.
+	// Cluster publications (ERef + EPub) attributed to this person, tagged
+	// with the role they played (author / editor / book_editor).
+	// Reconciliation is by canonical ``person_id`` when the Python fetcher
+	// matched them, with a name-string fallback so we still surface
+	// publications by people not yet in the persons store.
 	let personPublications = $derived.by(() => {
 		if (!selectedPerson) return [];
 		const payload = $publications;

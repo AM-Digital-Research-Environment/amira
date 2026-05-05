@@ -149,7 +149,7 @@
 	let keywordCloudData = $derived.by<WordCloudDataPoint[]>(() => {
 		return Array.from(keywordRaw.counts.entries())
 			.sort((a, b) => b[1] - a[1])
-			.slice(0, 200)
+			.slice(0, 150)
 			.map(([key, count]) => ({ name: keywordRaw.display.get(key) ?? key, value: count }));
 	});
 
@@ -250,13 +250,20 @@
 				rel="noopener"
 				class="underline-offset-4 hover:underline">ERef Bayreuth</a
 			>
-			(EXC 2052 / Africa Multiple).
+			and
+			<a
+				href="https://epub.uni-bayreuth.de/view/divisions/340050.html"
+				target="_blank"
+				rel="noopener"
+				class="underline-offset-4 hover:underline">EPub Bayreuth</a
+			>
+			(EXC 2052 / Africa Multiple), deduplicated across the two repositories.
 		</p>
 	</div>
 
 	{#if !payload}
 		<EmptyState
-			message="Publications dataset not available. Run scripts/fetch_eref_publications.py to generate it."
+			message="Publications dataset not available. Run scripts/fetch_publications.py to generate it."
 			icon={Inbox}
 			class="h-64"
 		/>
@@ -399,17 +406,18 @@
 					<Download class="h-3.5 w-3.5" />
 					RIS ({filtered.length})
 				</Button>
-				{#if payload.source.bibtex_url}
+				{#each payload.sources as src (src.name)}
 					<a
-						href={payload.source.bibtex_url}
+						href={src.bibtex_url}
 						target="_blank"
 						rel="noopener"
 						class="inline-flex items-center gap-1 text-xs text-muted-foreground hover:text-foreground transition-colors"
-						title="Open the upstream BibTeX export at ERef Bayreuth"
+						title="Open the upstream BibTeX export at {src.label}"
 					>
-						<ExternalLink class="h-3 w-3" /> upstream
+						<ExternalLink class="h-3 w-3" />
+						{src.label}
 					</a>
-				{/if}
+				{/each}
 			</span>
 		</div>
 

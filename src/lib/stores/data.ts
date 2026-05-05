@@ -204,9 +204,10 @@ export function ensureEnrichedLocations(basePath: string = ''): Promise<void> {
 	return geolocLoader.fetch();
 }
 
-// Lazy-loaded cluster publications (ERef Bayreuth). Only the /publications
-// route consumes this today, so we keep it out of the eager light-data
-// bundle. ~200 kB JSON; null when the file is absent on a fresh clone.
+// Lazy-loaded cluster publications (ERef + EPub Bayreuth, deduplicated).
+// Only the /publications route consumes this today, so we keep it out of
+// the eager light-data bundle. ~200 kB JSON; null when the file is absent
+// on a fresh clone.
 export const publications = writable<PublicationsPayload | null>(null);
 let publicationsBasePath = '';
 const publicationsLoader = createOnceLoader<void>(async () => {

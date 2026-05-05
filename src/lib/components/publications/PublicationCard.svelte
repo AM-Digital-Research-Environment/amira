@@ -174,7 +174,17 @@
 					<ExternalLink class="h-3 w-3" /> ERef
 				</a>
 			{/if}
-			{#if publication.url && publication.url !== publication.eref_url && !publication.url.includes('doi.org')}
+			{#if publication.epub_url}
+				<a
+					href={publication.epub_url}
+					target="_blank"
+					rel="noopener"
+					class="inline-flex items-center gap-1 text-muted-foreground hover:text-foreground transition-colors"
+				>
+					<ExternalLink class="h-3 w-3" /> EPub
+				</a>
+			{/if}
+			{#if publication.url && publication.url !== publication.eref_url && publication.url !== publication.epub_url && !publication.url.includes('doi.org')}
 				<a
 					href={publication.url}
 					target="_blank"

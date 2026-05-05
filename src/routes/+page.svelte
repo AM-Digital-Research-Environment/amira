@@ -181,8 +181,8 @@
 		return types.size;
 	});
 
-	// Cluster publications count from the lazy-loaded ERef payload. Falls
-	// back to 0 until the JSON resolves (typically <100 ms after onMount).
+	// Cluster publications count from the lazy-loaded ERef + EPub payload.
+	// Falls back to 0 until the JSON resolves (typically <100 ms after onMount).
 	let publicationCount = $derived($publications?.publications.length ?? 0);
 </script>
 
@@ -198,6 +198,7 @@
 		'cluster publications',
 		'bibliography',
 		'ERef Bayreuth',
+		'EPub Bayreuth',
 		'EXC 2052',
 		'data visualization',
 		'University of Bayreuth',
@@ -310,7 +311,6 @@
 		<StatCard
 			value={publicationCount}
 			label="Cluster Publications"
-			subtitle="from ERef Bayreuth"
 			icon={Library}
 			iconBgClass="bg-chart-2/10"
 			animationDelay="275ms"

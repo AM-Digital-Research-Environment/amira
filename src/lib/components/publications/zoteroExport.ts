@@ -12,7 +12,7 @@ const RIS_TYPE_MAP: Record<string, string> = {
 };
 
 /** Build a RIS record from a normalized Publication. We assemble it
- *  ourselves rather than fetching the upstream ERef RIS export — bulk RIS
+ *  ourselves rather than fetching the upstream RIS export — bulk RIS
  *  appeared truncated when probed (see issue #24, comment 2). */
 export function buildRis(pub: Publication): string {
 	const ty = RIS_TYPE_MAP[pub.type] ?? 'GEN';
@@ -63,7 +63,8 @@ function safeFilename(pub: Publication, ext: string): string {
 			.toLowerCase()
 			.replace(/[^a-z0-9]+/g, '-')
 			.replace(/(^-|-$)/g, '') || 'publication';
-	return `eref-${pub.id}-${base}.${ext}`;
+	// pub.id already encodes the source (e.g. "eref-96022", "epub-8670").
+	return `${pub.id}-${base}.${ext}`;
 }
 
 /** Per-publication BibTeX export. Uses the pre-rendered ``bibtex_raw``
@@ -79,7 +80,10 @@ export function downloadRis(pub: Publication): void {
 }
 
 /** Bulk export of an arbitrary publication set as a single .bib file. */
-export function downloadBibtexBulk(pubs: Publication[], filename = 'eref-publications.bib'): void {
+export function downloadBibtexBulk(
+	pubs: Publication[],
+	filename = 'cluster-publications.bib'
+): void {
 	const body = pubs
 		.map((p) => p.bibtex_raw)
 		.filter((s): s is string => Boolean(s))
@@ -88,7 +92,7 @@ export function downloadBibtexBulk(pubs: Publication[], filename = 'eref-publica
 }
 
 /** Bulk export of an arbitrary publication set as a single .ris file. */
-export function downloadRisBulk(pubs: Publication[], filename = 'eref-publications.ris'): void {
+export function downloadRisBulk(pubs: Publication[], filename = 'cluster-publications.ris'): void {
 	const body = pubs.map((p) => buildRis(p)).join('\n');
 	downloadBlob(body, filename, 'application/x-research-info-systems');
 }
