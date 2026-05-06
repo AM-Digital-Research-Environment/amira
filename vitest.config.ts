@@ -6,6 +6,15 @@ export default defineConfig({
 	plugins: [sveltekit(), svelteTesting()],
 	test: {
 		environment: 'jsdom',
+		// jsdom defaults to `about:blank`, which makes any same-origin
+		// `history.replaceState('http://...')` fail with SecurityError.
+		// Anchoring to localhost lets URL-aware tests (detailListState)
+		// drive `window.history` directly.
+		environmentOptions: {
+			jsdom: {
+				url: 'http://localhost/'
+			}
+		},
 		globals: true,
 		setupFiles: ['./src/test-setup.ts'],
 		include: ['src/**/*.{test,spec}.{js,ts}'],

@@ -18,11 +18,9 @@
 		SearchableItemsCard
 	} from '$lib/components/entity-browse';
 	import { projects, researchSections, allCollections } from '$lib/stores/data';
-	import { page } from '$app/stores';
 	import { extractResearchSections, buildProjectGantt } from '$lib/utils/transforms';
 	import { personUrl, projectUrl } from '$lib/utils/urls';
-	import { createUrlSelection, scrollToTop } from '$lib/utils/urlSelection';
-	import { createEntityDetailState } from '$lib/utils/loaders';
+	import { createDetailListState, createEntityDetailState } from '$lib/utils/loaders';
 	import type { Project, CollectionItem } from '$lib/types';
 	import {
 		formatDate,
@@ -47,15 +45,7 @@
 	const EXTERNAL_SECTION_DESCRIPTION =
 		'External collections contributed to the dashboard from outside the cluster’s six thematic research sections. These datasets extend the research environment with related archival and publication material.';
 
-	const urlSelection = createUrlSelection('section');
-
-	let selectedSection = $state('');
-
-	// Sync from URL query param
-	$effect(() => {
-		const urlSection = $page.url.searchParams.get('section');
-		if (urlSection) selectedSection = urlSection;
-	});
+	const sectionDetail = createDetailListState({ paramName: 'section' });
 
 	// Group projects by research section
 	let projectsBySection = $derived.by(() => {
@@ -112,7 +102,7 @@
 	let externalSections = $derived(sections.filter((s) => s.isExternal));
 
 	let selectedSectionData = $derived(
-		selectedSection ? sections.find((s) => s.name === selectedSection) || null : null
+		sectionDetail.key ? sections.find((s) => s.name === sectionDetail.key) || null : null
 	);
 
 	// Gantt chart for selected section's projects. Multi-section projects
@@ -145,20 +135,12 @@
 		phase1Sections.length > 0 ? Math.round(phase1ProjectCount / phase1Sections.length) : 0
 	);
 
-	function selectSection(name: string) {
-		selectedSection = name;
-		urlSelection.pushToUrl(name);
-		scrollToTop();
-	}
-
-	function clearSelection() {
-		selectedSection = '';
-		urlSelection.removeFromUrl();
-	}
+	const selectSection = (name: string) => sectionDetail.select(name);
+	const clearSelection = () => sectionDetail.clear();
 
 	// Per-section JSON (items + aggregates). Skips the 13 MB collections
 	// dump on direct-detail-URL hits.
-	const detail = createEntityDetailState('research-section', () => selectedSection);
+	const detail = createEntityDetailState('research-section', () => sectionDetail.key);
 
 	// Research items scoped to the selected section. Prefer the precomputed
 	// JSON's slim items; fall back to deriving from $allCollections when the

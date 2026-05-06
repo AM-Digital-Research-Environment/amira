@@ -29,3 +29,8 @@ export {
 	fetchEntityDashboard,
 	type EntityDetailState
 } from './entityDetailState.svelte';
+export {
+	createDetailListState,
+	type DetailListState,
+	type DetailListStateOptions
+} from './detailListState.svelte';

@@ -9,11 +9,10 @@
 	import { onMount } from 'svelte';
 	import { base } from '$app/paths';
 	import { page } from '$app/stores';
-	import { goto } from '$app/navigation';
 	import type { CollectionItem } from '$lib/types';
 	import { getItemTitle } from '$lib/utils/helpers';
 	import { paginate } from '$lib/utils/pagination';
-	import { scrollToTop } from '$lib/utils/urlSelection';
+	import { createDetailListState } from '$lib/utils/loaders';
 	import { FileText, Layers, BookOpen, SlidersHorizontal, Target, HardDrive } from '@lucide/svelte';
 	import {
 		ItemDetail,
@@ -43,26 +42,23 @@
 	let selectedLanguages = $state<string[]>([]);
 	let selectedAudiences = $state<string[]>([]);
 	let selectedMethods = $state<string[]>([]);
-	let selectedId = $state('');
+	const itemDetail = createDetailListState({ paramName: 'id' });
 	let listPage = $state(0);
 	const listPerPage = 20;
 	let showMobileFilters = $state(false);
 
 	let filtersRef: ReturnType<typeof ItemFilters> | undefined = $state();
 
-	// Sync from URL query param
+	// Audience / method are deep-link-only filters: they apply when the
+	// page loads in list view. Once an item is selected (`itemDetail.key`
+	// is set), they're suppressed so the detail view can render cleanly.
 	$effect(() => {
+		if (itemDetail.key) return;
 		const params = $page.url.searchParams;
-		const urlId = params.get('id');
 		const urlAudience = params.get('audience');
 		const urlMethod = params.get('method');
-		if (urlId) {
-			selectedId = urlId;
-		} else {
-			selectedId = '';
-			if (urlAudience) selectedAudiences = [urlAudience];
-			if (urlMethod) selectedMethods = [urlMethod];
-		}
+		if (urlAudience) selectedAudiences = [urlAudience];
+		if (urlMethod) selectedMethods = [urlMethod];
 	});
 
 	// Unique resource types for filter
@@ -332,10 +328,9 @@
 
 	// Selected item
 	let selectedItem = $derived.by((): CollectionItem | null => {
-		if (!selectedId) return null;
-		return (
-			$allCollections.find((item) => item._id === selectedId || item.dre_id === selectedId) || null
-		);
+		const id = itemDetail.key;
+		if (!id) return null;
+		return $allCollections.find((item) => item._id === id || item.dre_id === id) || null;
 	});
 
 	// Items belonging to the same project as the selected item — used by the
@@ -350,17 +345,15 @@
 	});
 
 	function selectItem(item: CollectionItem) {
-		const id = item._id || item.dre_id;
-		goto(`?id=${encodeURIComponent(id)}`, { noScroll: true });
-		// scrollToTop re-applies after rAF so the jump survives the DOM swap
-		// from list view → detail view (a single smooth scrollTo got
-		// truncated when document height changed, landing mid-page).
-		scrollToTop();
+		// scrollToTop runs inside `select()` and re-applies after rAF
+		// so the jump survives the DOM swap from list view → detail
+		// view (a single smooth scrollTo got truncated when document
+		// height changed, landing mid-page).
+		itemDetail.select(item._id || item.dre_id);
 	}
 
 	function clearSelection() {
-		goto('?', { noScroll: true });
-		scrollToTop();
+		itemDetail.clear();
 	}
 
 	// Map markers for selected item. Origin markers use the default chart

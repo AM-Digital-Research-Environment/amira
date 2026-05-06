@@ -28,13 +28,13 @@ for review.
 
 ## Phase tracker
 
-| Phase | Status | Description                                                              |
-| ----- | ------ | ------------------------------------------------------------------------ |
-| 0     | done   | Test harness — Vitest, Testing Library, Playwright, seed unit tests      |
-| 1     | done   | Low-risk cleanups — barrel deletions, helpers split, fetch/cache helpers |
-| 2     | done   | UI primitives — `Modal`, `FilterToggleBar`, expanded `optionBuilders`    |
-| 3     | done   | Component splits — `ItemDetail`, `ItemFilters`, dashboard layouts, maps  |
-| 4     | active | Architectural shells — `EntityPageContainer`, `EntityDetailViewShell`    |
+| Phase | Status | Description                                                                                                    |
+| ----- | ------ | -------------------------------------------------------------------------------------------------------------- |
+| 0     | done   | Test harness — Vitest, Testing Library, Playwright, seed unit tests                                            |
+| 1     | done   | Low-risk cleanups — barrel deletions, helpers split, fetch/cache helpers                                       |
+| 2     | done   | UI primitives — `Modal`, `FilterToggleBar`, expanded `optionBuilders`                                          |
+| 3     | done   | Component splits — `ItemDetail`, `ItemFilters`, dashboard layouts, maps                                        |
+| 4     | active | Architectural shells — `EntityPageContainer`, `EntityDetailViewShell`, `detailListState` |
 
 After each phase: `npm run format:check`, `npm run check`, `npm run lint`,
 `npm run test`, and `npm run build` all pass. Commit, pause for review, then
@@ -455,11 +455,38 @@ if loading}{:else}{/if}` block (~10 lines each).
   ensuring `0`, `''`, `null`, `undefined`, and `false` all hit the
   empty branch).
 
-### 4.3 `detailListState.svelte.ts`
+### 4.3 `detailListState.svelte.ts` ✅
 
-- Generic factory for detail/list dual-view pages.
-- Adopted by `routes/research-items/+page.svelte` and
-  `routes/research-sections/+page.svelte`.
+- **Add** `src/lib/utils/loaders/detailListState.svelte.ts` —
+  `createDetailListState({ paramName, scroll? })` returns a `{ key,
+select, clear }` triple. The factory owns the `$derived` that reads
+  the URL param via `$app/state`'s `page`, plus `select(value)` /
+  `clear()` writers that go through `createUrlSelection` (so other
+  query params survive a back-out) and call `scrollToTop()` by
+  default.
+- The factory is created from a component's `<script>`; the rune
+  binds to the host component's lifecycle, so the URL → `key` sync
+  follows the page's reactivity.
+- **Adopted by** `routes/research-sections/+page.svelte` (was
+  `createUrlSelection('section')` + an explicit `$state` mirror) and
+  `routes/research-items/+page.svelte` (was raw `goto('?id=...')` /
+  `goto('?')` calls). The research-items page kept its own `$effect`
+  for the deep-link-only `audience` / `method` params, which the
+  factory deliberately doesn't try to own.
+- Behaviour change worth flagging: research-items `clearSelection`
+  used to wipe ALL query params (`goto('?')`); after adoption it
+  only drops `id` and preserves anything else in the URL. That's
+  the intended `removeFromUrl` semantics — deep-link filter context
+  now survives a detail-view back-out, matching the rest of the
+  dashboard.
+- Tests: `detailListState.test.ts` (13 tests covering initial-key
+  read, distinct param names, ignoring unrelated params, `select()`
+  navigation + URL encoding + scroll, `clear()` navigation +
+  param-preservation + bare-? fallback + scroll, and the
+  `scroll: false` opt-out for both writers).
+- vitest config gains `environmentOptions.jsdom.url =
+'http://localhost/'` so `window.history.replaceState(...)` doesn't
+  fail with `SecurityError` on jsdom's default `about:blank`.
 
 ### 4.4 `filterApplicationEngine.ts`
 
