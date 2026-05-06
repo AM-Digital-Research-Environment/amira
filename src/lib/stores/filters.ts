@@ -1,38 +1,20 @@
 import { writable, derived, type Readable } from 'svelte/store';
-import type { FilterState, CollectionItem } from '$lib/types';
+import type { CollectionItem, FilterState } from '$lib/types';
 import { allCollections } from './data';
 import {
-	filterByDateRange,
-	filterByResourceType,
-	filterByLanguage,
-	extractYear
-} from '$lib/utils/transforms';
+	applyFilters,
+	countActiveFilters,
+	emptyFilterState
+} from '$lib/utils/filterApplicationEngine';
 
-// Filter state store
-export const filters = writable<FilterState>({
-	dateRange: {
-		start: null,
-		end: null
-	},
-	universities: [],
-	resourceTypes: [],
-	locations: [],
-	languages: [],
-	subjects: [],
-	projects: []
-});
+// Filter state store — pure state. The pipeline lives in
+// `utils/filterApplicationEngine.ts`; this module just wires the
+// reactivity.
+export const filters = writable<FilterState>(emptyFilterState());
 
-// Reset filters
+/** Reset the filter store to an empty state. */
 export function resetFilters() {
-	filters.set({
-		dateRange: { start: null, end: null },
-		universities: [],
-		resourceTypes: [],
-		locations: [],
-		languages: [],
-		subjects: [],
-		projects: []
-	});
+	filters.set(emptyFilterState());
 }
 
 export function toggleResourceType(type: string) {
@@ -62,63 +44,14 @@ export function toggleUniversity(uni: string) {
 	});
 }
 
-// Filtered collections derived store
+/** Filtered collections derived store — runs the pure filter pipeline
+ *  whenever the source collections or the filter state change. */
 export const filteredCollections: Readable<CollectionItem[]> = derived(
 	[allCollections, filters],
-	([$collections, $filters]) => {
-		let result = $collections;
-
-		// Apply university filter
-		if ($filters.universities.length > 0) {
-			result = result.filter(
-				(item) => item.university && $filters.universities.includes(item.university)
-			);
-		}
-
-		// Apply date range filter
-		if ($filters.dateRange.start || $filters.dateRange.end) {
-			const startYear = $filters.dateRange.start ? extractYear($filters.dateRange.start) : null;
-			const endYear = $filters.dateRange.end ? extractYear($filters.dateRange.end) : null;
-			result = filterByDateRange(result, startYear, endYear);
-		}
-
-		// Apply resource type filter
-		if ($filters.resourceTypes.length > 0) {
-			result = filterByResourceType(result, $filters.resourceTypes);
-		}
-
-		// Apply language filter
-		if ($filters.languages.length > 0) {
-			result = filterByLanguage(result, $filters.languages);
-		}
-
-		// Apply subject filter
-		if ($filters.subjects.length > 0) {
-			result = result.filter((item) =>
-				item.subject?.some((s) => {
-					const label = s.authLabel || s.origLabel;
-					return label && $filters.subjects.includes(label);
-				})
-			);
-		}
-
-		// Apply project filter
-		if ($filters.projects.length > 0) {
-			result = result.filter((item) => item.project && $filters.projects.includes(item.project.id));
-		}
-
-		return result;
-	}
+	([$collections, $filters]) => applyFilters($collections, $filters)
 );
 
-// Active filter count
-export const activeFilterCount: Readable<number> = derived(filters, ($filters) => {
-	let count = 0;
-	if ($filters.universities.length > 0) count++;
-	if ($filters.dateRange.start || $filters.dateRange.end) count++;
-	if ($filters.resourceTypes.length > 0) count++;
-	if ($filters.languages.length > 0) count++;
-	if ($filters.subjects.length > 0) count++;
-	if ($filters.projects.length > 0) count++;
-	return count;
-});
+/** Number of distinct active facets (used for the FilterPanel badge). */
+export const activeFilterCount: Readable<number> = derived(filters, ($filters) =>
+	countActiveFilters($filters)
+);

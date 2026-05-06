@@ -488,11 +488,35 @@ select, clear }` triple. The factory owns the `$derived` that reads
 'http://localhost/'` so `window.history.replaceState(...)` doesn't
   fail with `SecurityError` on jsdom's default `about:blank`.
 
-### 4.4 `filterApplicationEngine.ts`
+### 4.4 `filterApplicationEngine.ts` ✅
 
-- Pull the 50-line filter pipeline out of `stores/filters.ts` so the store stays
-  pure state.
-- `filteredCollections` derived store calls `applyFilters(state)`.
+- **Add** `src/lib/utils/filterApplicationEngine.ts` — three pure
+  exports:
+  - `applyFilters(items, state)` runs the universities → dateRange →
+    resourceTypes → languages → subjects → projects pipeline. Order is
+    cheap-discrete-first for performance; the result is order-
+    independent. `locations` lives in `FilterState` but isn't applied
+    here (reserved for a future location facet on the FilterPanel).
+  - `countActiveFilters(state)` returns the badge count — `dateRange`
+    counts once if either bound is set; `locations` is intentionally
+    ignored, matching the pipeline.
+  - `emptyFilterState()` returns a fresh empty `FilterState`. Using a
+    function (not a const) means every caller gets a new object that
+    can be mutated freely; `resetFilters()` and tests both use it.
+- **Refactor** `stores/filters.ts` from 125 → 56 lines (-55 %). The
+  store is now a thin wrapper: state writable, three `toggleX`
+  helpers, and two `derived(...)` stores that call into the engine.
+  All public exports kept (`filters`, `resetFilters`,
+  `toggleResourceType`, `toggleLanguage`, `toggleUniversity`,
+  `filteredCollections`, `activeFilterCount`) — `FilterPanel.svelte`
+  and `routes/+page.svelte` work unchanged.
+- Tests: `filterApplicationEngine.test.ts` (24 tests covering each
+  facet in isolation, the multi-facet conjunction, dateRange with
+  start-only / end-only / both bounds and the no-date passthrough,
+  the language B/T-variant normalisation on both item and filter
+  sides, subject `authLabel` vs `origLabel` fallback, the reserved
+  `locations` facet being a no-op, input-not-mutated guard, and
+  university-undefined exclusion).
 
 ### 4.5 `entityResolver.ts`
 
