@@ -17,3 +17,9 @@ export {
 	downloadBibtexBulk,
 	downloadRisBulk
 } from './zoteroExport';
+export { buildFacetOptions, type FacetOption, type FacetConfig } from './facets';
+export {
+	applyPublicationFilters,
+	hasActiveFilters,
+	type PublicationFilters
+} from './filterPublications';

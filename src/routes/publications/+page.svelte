@@ -17,8 +17,11 @@
 	import { publications, ensurePublications } from '$lib/stores/data';
 	import {
 		PublicationCard,
+		applyPublicationFilters,
+		buildFacetOptions,
 		downloadBibtexBulk,
 		downloadRisBulk,
+		hasActiveFilters,
 		publicationTypeLabel
 	} from '$lib/components/publications';
 	import { paginate } from '$lib/utils/pagination';
@@ -50,43 +53,34 @@
 	let payload = $derived($publications);
 	let allPubs = $derived<Publication[]>(payload?.publications ?? []);
 
-	let typeOptions = $derived.by(() => {
-		const counts = new SvelteMap<string, number>();
-		for (const p of allPubs) counts.set(p.type, (counts.get(p.type) ?? 0) + 1);
-		const opts = Array.from(counts.entries())
-			.sort((a, b) => b[1] - a[1])
-			.map(([value, count]) => ({
-				value,
-				label: `${publicationTypeLabel(value)} (${count})`
-			}));
-		return [{ value: 'all', label: `All types (${allPubs.length})` }, ...opts];
-	});
+	let typeOptions = $derived([
+		{ value: 'all', label: `All types (${allPubs.length})` },
+		...buildFacetOptions(allPubs, {
+			getKey: (p) => p.type,
+			formatLabel: (type, count) => `${publicationTypeLabel(type)} (${count})`
+		})
+	]);
 
-	let yearOptions = $derived.by(() => {
-		const counts = new SvelteMap<number, number>();
-		for (const p of allPubs) {
-			if (p.year) counts.set(p.year, (counts.get(p.year) ?? 0) + 1);
-		}
-		const opts = Array.from(counts.entries())
-			.sort((a, b) => b[0] - a[0])
-			.map(([year, count]) => ({ value: String(year), label: `${year} (${count})` }));
-		return [{ value: 'all', label: 'All years' }, ...opts];
-	});
+	let yearOptions = $derived([
+		{ value: 'all', label: 'All years' },
+		...buildFacetOptions(allPubs, {
+			getKey: (p) => p.year,
+			formatLabel: (year, count) => `${year} (${count})`,
+			sort: 'key-desc'
+		})
+	]);
 
 	// Language facet — sourced from the EP3 ``<language>`` field. Codes are
 	// ISO 639-2/B; ``languageName`` resolves them (and the B/T variants)
 	// to the English name. Records without a language tag fall outside
 	// every selectable choice and stay visible only under "All languages".
-	let languageOptions = $derived.by(() => {
-		const counts = new SvelteMap<string, number>();
-		for (const p of allPubs) {
-			if (p.language) counts.set(p.language, (counts.get(p.language) ?? 0) + 1);
-		}
-		const opts = Array.from(counts.entries())
-			.sort((a, b) => b[1] - a[1])
-			.map(([code, count]) => ({ value: code, label: `${languageName(code)} (${count})` }));
-		return [{ value: 'all', label: 'All languages' }, ...opts];
-	});
+	let languageOptions = $derived([
+		{ value: 'all', label: 'All languages' },
+		...buildFacetOptions(allPubs, {
+			getKey: (p) => p.language,
+			formatLabel: (code, count) => `${languageName(code)} (${count})`
+		})
+	]);
 
 	let languageChartData = $derived.by<PieChartDataPoint[]>(() => {
 		const counts = new SvelteMap<string, number>();
@@ -153,34 +147,14 @@
 			.map(([key, count]) => ({ name: keywordRaw.display.get(key) ?? key, value: count }));
 	});
 
-	let filtered = $derived.by(() => {
-		let items = allPubs;
-		if (selectedType !== 'all') items = items.filter((p) => p.type === selectedType);
-		if (selectedYear !== 'all') items = items.filter((p) => String(p.year) === selectedYear);
-		if (selectedLanguage !== 'all') {
-			items = items.filter((p) => p.language === selectedLanguage);
-		}
-		if (selectedKeyword) {
-			const kwl = selectedKeyword.toLowerCase();
-			items = items.filter((p) => p.keywords?.some((k) => k.toLowerCase() === kwl));
-		}
-		const q = searchQuery.trim().toLowerCase();
-		if (q) {
-			items = items.filter((p) => {
-				if (p.title?.toLowerCase().includes(q)) return true;
-				if (p.abstract?.toLowerCase().includes(q)) return true;
-				if (p.journal?.toLowerCase().includes(q)) return true;
-				if (p.booktitle?.toLowerCase().includes(q)) return true;
-				if (p.publisher?.toLowerCase().includes(q)) return true;
-				if (p.doi?.toLowerCase().includes(q)) return true;
-				const contributors = [...(p.authors ?? []), ...(p.editors ?? [])];
-				if (contributors.some((c) => c.normalized.toLowerCase().includes(q))) return true;
-				if (p.keywords?.some((k) => k.toLowerCase().includes(q))) return true;
-				return false;
-			});
-		}
-		return items;
+	let activeFilters = $derived({
+		type: selectedType,
+		year: selectedYear,
+		language: selectedLanguage,
+		keyword: selectedKeyword,
+		searchQuery
 	});
+	let filtered = $derived(applyPublicationFilters(allPubs, activeFilters));
 
 	let paginated = $derived(paginate(filtered, listPage, listPerPage));
 
@@ -196,13 +170,7 @@
 	let matchedContributors = $derived(payload?.stats.matched_contributors ?? 0);
 	let totalContributors = $derived(payload?.stats.total_contributors ?? 0);
 
-	let hasFilters = $derived(
-		searchQuery.trim() !== '' ||
-			selectedType !== 'all' ||
-			selectedYear !== 'all' ||
-			selectedLanguage !== 'all' ||
-			selectedKeyword !== ''
-	);
+	let hasFilters = $derived(hasActiveFilters(activeFilters));
 
 	function clearFilters() {
 		searchQuery = '';

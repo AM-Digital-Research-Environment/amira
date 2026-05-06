@@ -34,7 +34,7 @@ for review.
 | 1     | done   | Low-risk cleanups — barrel deletions, helpers split, fetch/cache helpers                                       |
 | 2     | done   | UI primitives — `Modal`, `FilterToggleBar`, expanded `optionBuilders`                                          |
 | 3     | done   | Component splits — `ItemDetail`, `ItemFilters`, dashboard layouts, maps                                        |
-| 4     | active | Architectural shells — `EntityPageContainer`, `EntityDetailViewShell`, `detailListState` |
+| 4     | active | Architectural shells — `EntityPageContainer`, `EntityDetailViewShell`, `detailListState`, publications helpers |
 
 After each phase: `npm run format:check`, `npm run check`, `npm run lint`,
 `npm run test`, and `npm run build` all pass. Commit, pause for review, then
@@ -499,6 +499,53 @@ select, clear }` triple. The factory owns the `$derived` that reads
 - `getUniversityById`, `resolveCollectionUniversity`, `getProjectById`.
 - Replaces ID lookups in `collectionLoader`, `transforms/charts.ts`, `external.ts`.
 
+### 4.6 Publications module — tests + filter / facet helpers ✅
+
+The publications module wasn't part of the original Phase 4 plan but
+matched the same pattern: pure utilities with no tests, plus inline
+filter / facet builders on the page that mirrored the work
+already done in Phase 3 for research-items. Folded in as 4.6.
+
+- **`formatPublication.test.ts`** — 28 tests covering
+  `publicationsByContributor` / `publicationsByContributorWithRole`
+  (id-vs-name match, role precedence: author > editor > book_editor),
+  `formatContributors` (et al. truncation, raw fallback),
+  `formatCitationTail` (article / chapter / working-paper / conference
+  branches, page-range vs. page-count, volume + issue formatting),
+  `publicationTypeLabel` (known + fallback), `quarterLabel`
+  (Roman numerals, missing year/quarter, out-of-range fallback).
+- **`zoteroExport.test.ts`** — 21 tests covering `buildRis` end-to-end:
+  `TY` mapping for every coarse type incl. unknown→GEN fallback,
+  AU/ED emission, TI/PY/JO/T2 fields, series→T2 fallback when no
+  booktitle, page-range parsing into SP/EP, single-page count
+  emitted as SP only, VL/IS, PB/CY with address-vs-event_location
+  precedence, C1 for event_dates, DO, SN with ISBN-over-ISSN
+  preference, multiple KW lines, UR.
+- **`facets.ts` + `facets.test.ts`** — `buildFacetOptions(items, {
+getKey, formatLabel, formatValue?, sort? })` collapses the three
+  near-identical `$derived.by` facet builders on the publications
+  page (`typeOptions`, `yearOptions`, `languageOptions`) into a
+  single call each. Three sort modes: `frequency` (default),
+  `key-desc` (years 2025 → 2020), `key-asc`. 8 tests.
+- **`filterPublications.ts` + `filterPublications.test.ts`** —
+  `applyPublicationFilters(pubs, { type, year, language, keyword,
+searchQuery })` extracts the 27-line `filtered` `$derived.by` block.
+  Pure: takes the filter values, returns a new array. Companion
+  `hasActiveFilters(filters)` replaces the inline `||`-chained gate.
+  24 tests covering each facet, conjunction, search across every
+  field (title / abstract / journal / booktitle / publisher / DOI /
+  contributors / keywords), case-insensitive trim, exact-keyword vs.
+  substring-search distinction.
+- **Page refactor**: `routes/publications/+page.svelte` shrinks from
+  445 → ~395 lines. The three `$derived.by` facet builders become
+  three `buildFacetOptions` invocations; the 27-line filter block
+  becomes `applyPublicationFilters(allPubs, activeFilters)`; the
+  6-line `hasFilters` derived becomes `hasActiveFilters(activeFilters)`.
+
+Verification: 81 new tests (28 + 21 + 8 + 24) all green; type-check,
+lint, format clean; preview smoke confirms search filter still
+narrows count + Clear button hides when no filters active.
+
 ### Done when
 
 - Integration test per shell component (mount with fixture data → list view →
@@ -522,6 +569,9 @@ src/lib/
     entity-browse/
       shells/                # NEW: EntityPageContainer, EntityDetailViewShell
     layout/
+    publications/
+      facets.ts              # NEW: buildFacetOptions
+      filterPublications.ts  # NEW: applyPublicationFilters + hasActiveFilters
     research-items/
       sections/              # NEW: 13 ItemDetail sub-components
       filters/               # NEW: ItemFilterGroup et al
