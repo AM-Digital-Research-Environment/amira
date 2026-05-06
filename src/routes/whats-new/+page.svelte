@@ -5,6 +5,7 @@
 	import { projects, allCollections, ensureCollections } from '$lib/stores/data';
 	import type { Project, CollectionItem, BarChartDataPoint } from '$lib/types';
 	import { formatDate, getProjectTitle, getSectionColor } from '$lib/utils/helpers';
+	import { getProjectById } from '$lib/utils/entityResolver';
 	import { projectUrl, personUrl, researchSectionsUrl } from '$lib/utils/urls';
 	import { paginate } from '$lib/utils/pagination';
 	import SEO from '$lib/components/ui/seo.svelte';
@@ -86,7 +87,7 @@
 
 		return [...map.entries()]
 			.map(([pid, info]) => {
-				const project = $projects.find((p) => p.id === pid);
+				const project = getProjectById($projects, pid);
 				if (!project) return null;
 				return {
 					project,

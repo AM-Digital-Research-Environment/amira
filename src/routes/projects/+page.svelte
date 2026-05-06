@@ -24,6 +24,7 @@
 	} from '$lib/components/entity-browse';
 	import { EntityDashboardSection } from '$lib/components/dashboards';
 	import { createEntityDetailState } from '$lib/utils/loaders';
+	import { getProjectById } from '$lib/utils/entityResolver';
 	import { projects, allCollections } from '$lib/stores/data';
 	import {
 		groupProjectsByYear,
@@ -187,14 +188,7 @@
 	});
 
 	// Selected project
-	let selectedProject = $derived.by((): Project | null => {
-		if (!selectedId) return null;
-		return (
-			$projects.find(
-				(p) => p.id === selectedId || p._id === selectedId || p.idShort === selectedId
-			) || null
-		);
-	});
+	let selectedProject = $derived(getProjectById($projects, selectedId) ?? null);
 
 	// Per-project JSON (items + aggregates). Direct detail-URL hits skip
 	// the 13 MB collections dump and render from this.

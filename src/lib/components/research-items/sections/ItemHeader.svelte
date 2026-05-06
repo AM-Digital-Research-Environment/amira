@@ -9,8 +9,8 @@
 	} from '$lib/utils/urls';
 	import { languageName } from '$lib/utils/languages';
 	import type { CollectionItem } from '$lib/types';
-	import { universities } from '$lib/types';
 	import { EXTERNAL_SOURCE_ID } from '$lib/utils/loaders';
+	import { getUniversityById } from '$lib/utils/entityResolver';
 	import { getItemTitle } from '$lib/utils/helpers';
 	import { FileText, Calendar, Languages, Building2, Briefcase, BookType } from '@lucide/svelte';
 	import { getLanguages, getGenre } from '$lib/utils/transforms/itemExtractors';
@@ -25,9 +25,7 @@
 	let allDates = $derived(getAllDates(item));
 	let languages = $derived(getLanguages(item));
 	let genre = $derived(getGenre(item));
-	let universityRecord = $derived(
-		item.university ? universities.find((u) => u.id === item.university) : undefined
-	);
+	let universityRecord = $derived(getUniversityById(item.university));
 </script>
 
 <Card class="overflow-hidden">

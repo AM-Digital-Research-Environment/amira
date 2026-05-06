@@ -14,7 +14,7 @@
 	import { getUniqueResourceTypes, getUniqueLanguages } from '$lib/utils/transforms';
 	import { languageName } from '$lib/utils/languages';
 	import { universities } from '$lib/types';
-	import { EXTERNAL_SOURCE_ID } from '$lib/utils/loaders';
+	import { getUniversityName } from '$lib/utils/entityResolver';
 
 	interface Props {
 		class?: string;
@@ -134,8 +134,7 @@
 		<!-- Quick filter summary -->
 		<div class="flex flex-wrap gap-1.5 px-5 pb-4 border-t border-border/50 pt-4">
 			{#each $filters.universities as uniId (uniId)}
-				{@const uni = universities.find((u) => u.id === uniId)}
-				{@const label = uni?.name ?? (uniId === EXTERNAL_SOURCE_ID ? 'External' : null)}
+				{@const label = getUniversityName(uniId)}
 				{#if label}
 					<Badge variant="outline">
 						{label}

@@ -10,6 +10,7 @@ import type {
 import { universities } from '$lib/types';
 import { loadJSON, tryLoadJSON } from './mongoJSON';
 import { EXTERNAL_PROJECTS, EXTERNAL_COLLECTION_TO_PROJECT } from '$lib/utils/external';
+import { getUniversityById, resolveCollectionUniversity } from '$lib/utils/entityResolver';
 
 /**
  * Single source of truth for every static data path the frontend hits.
@@ -177,13 +178,6 @@ export async function loadUBTCollection(
 }
 
 /**
- * Get university by ID
- */
-function getUniversity(universityId: string): University | undefined {
-	return universities.find((u) => u.id === universityId);
-}
-
-/**
  * Get all universities
  */
 export function getUniversities(): University[] {
@@ -198,7 +192,7 @@ export async function loadUniversityCollection(
 	collectionName: string,
 	basePath: string = ''
 ): Promise<CollectionItem[]> {
-	const university = getUniversity(universityId);
+	const university = getUniversityById(universityId);
 	if (!university) {
 		console.warn(`Unknown university: ${universityId}`);
 		return [];
@@ -264,9 +258,7 @@ async function loadExternalCollection(
 	// Resolve the hosting university from the virtual project's institutions
 	// (e.g. ILAM → Rhodes, BayGlo → Bayreuth). Falls back to EXTERNAL_SOURCE_ID
 	// when no known university matches so the filter still surfaces the item.
-	const institutions = virtualProject?.institutions ?? [];
-	const resolvedUniversity =
-		universities.find((u) => institutions.includes(u.name))?.id ?? EXTERNAL_SOURCE_ID;
+	const resolvedUniversity = resolveCollectionUniversity(virtualProject?.institutions ?? []);
 	return items.map((item) => {
 		const hasProjectId = !!item.project?.id;
 		const project = hasProjectId

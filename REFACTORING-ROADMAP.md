@@ -34,7 +34,7 @@ for review.
 | 1     | done   | Low-risk cleanups — barrel deletions, helpers split, fetch/cache helpers                                       |
 | 2     | done   | UI primitives — `Modal`, `FilterToggleBar`, expanded `optionBuilders`                                          |
 | 3     | done   | Component splits — `ItemDetail`, `ItemFilters`, dashboard layouts, maps                                        |
-| 4     | active | Architectural shells — `EntityPageContainer`, `EntityDetailViewShell`, `detailListState`, publications helpers |
+| 4     | done   | Architectural shells — `EntityPageContainer`, `EntityDetailViewShell`, `detailListState`, publications helpers, `filterApplicationEngine`, `entityResolver` |
 
 After each phase: `npm run format:check`, `npm run check`, `npm run lint`,
 `npm run test`, and `npm run build` all pass. Commit, pause for review, then
@@ -518,10 +518,52 @@ select, clear }` triple. The factory owns the `$derived` that reads
   `locations` facet being a no-op, input-not-mutated guard, and
   university-undefined exclusion).
 
-### 4.5 `entityResolver.ts`
+### 4.5 `entityResolver.ts` ✅
 
-- `getUniversityById`, `resolveCollectionUniversity`, `getProjectById`.
-- Replaces ID lookups in `collectionLoader`, `transforms/charts.ts`, `external.ts`.
+- **Add** `src/lib/utils/entityResolver.ts` with four exports:
+  - `getUniversityById(id)` — find a `University` record by id.
+    Returns `undefined` for the External pseudo-source and any
+    unknown id; callers that need a label for External use
+    `getUniversityName` instead.
+  - `getUniversityName(id)` — display name for a university id, with
+    the External pseudo-source spelled `'External'`. Returns `null`
+    for unknown ids so callers can decide whether to render a
+    fallback or hide.
+  - `resolveCollectionUniversity(institutions)` — resolve the hosting
+    university for an external collection from the institution names
+    on its virtual project (e.g. `['Rhodes University']` → `'rhodes'`).
+    Falls back to `EXTERNAL_SOURCE_ID` when no name matches.
+  - `getProjectById(projects, id)` — permissive project lookup; tries
+    `id`, then `_id`, then `idShort` (the `/projects` page lets users
+    land via any of those).
+- **Refactor** five call sites:
+  - `loaders/collectionLoader.ts` drops the private `getUniversity()`
+    helper and the inline `universities.find((u) => institutions
+    .includes(u.name))` resolver; both flow through the resolver.
+  - `components/layout/FilterPanel.svelte` — chip relabel collapses
+    from a two-line `{@const}` pair to a single `getUniversityName`
+    call, drops the `EXTERNAL_SOURCE_ID` import.
+  - `components/research-items/sections/ItemHeader.svelte` —
+    `universityRecord` derived becomes a one-liner; drops the
+    `universities` import.
+  - `components/compare/ProjectsCompare.svelte` — `getSelectionName`
+    helper uses `getUniversityName(id) ?? 'All'`, preserving the
+    'All' fallback for unknown / `'all'` sentinels.
+  - `routes/whats-new/+page.svelte` and `routes/projects/+page.svelte`
+    — `$projects.find(...)` lookups become `getProjectById($projects,
+    id)`. The projects page's three-key `id || _id || idShort`
+    chain shrinks to one call.
+- Tests: `entityResolver.test.ts` (21 tests covering each export's
+  happy path, null/undefined/empty input handling, the External
+  fallback, the institutions-array resolver's ordering and empty
+  list, and `getProjectById`'s id-then-_id-then-idShort precedence).
+- Note: `entityResolver` imports `EXTERNAL_SOURCE_ID` from
+  `loaders/collectionLoader.ts`, and `collectionLoader` now imports
+  back from `entityResolver`. The cycle is harmless — symbols are
+  read at call time, never at module load — and avoiding it would
+  require moving `EXTERNAL_SOURCE_ID` to a third file just to break
+  a cycle that doesn't manifest. Worth flagging if a future change
+  pulls these into top-level evaluation contexts.
 
 ### 4.6 Publications module — tests + filter / facet helpers ✅
 

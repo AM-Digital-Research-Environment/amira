@@ -32,6 +32,7 @@
 		extractLanguages
 	} from '$lib/utils/transforms';
 	import { UNIVERSITY_COLLECTIONS, getUniversities, EXTERNAL_SOURCE_ID } from '$lib/utils/loaders';
+	import { getUniversityName } from '$lib/utils/entityResolver';
 	import { EXTERNAL_PROJECTS } from '$lib/utils/external';
 	import type { CollectionItem } from '$lib/types';
 	import { universityOptions } from '$lib/types';
@@ -209,8 +210,10 @@
 	function getSelectionName(universityId: string, projectId: string): string {
 		if (universityId === 'all' && projectId === 'all') return 'All Projects';
 
-		const uni = allUniversities.find((u) => u.id === universityId);
-		const uniName = uni?.name ?? (universityId === EXTERNAL_SOURCE_ID ? 'External' : 'All');
+		// `getUniversityName` returns null for unknown ids (e.g. the
+		// 'all' sentinel); the ?? 'All' fallback preserves the original
+		// label.
+		const uniName = getUniversityName(universityId) ?? 'All';
 
 		if (projectId === 'all') return uniName;
 
