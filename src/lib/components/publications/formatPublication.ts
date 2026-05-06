@@ -95,6 +95,9 @@ function formatNameList(contributors: PublicationContributor[]): string {
 export function formatCitationTail(pub: Publication): string {
 	const parts: string[] = [];
 	const isChapter = !pub.journal && !!pub.booktitle;
+	// Working papers / monographs in a series have no journal or booktitle —
+	// the series name plays the venue role instead.
+	const isSeriesItem = !pub.journal && !pub.booktitle && !!pub.series;
 
 	if (isChapter) {
 		let chunk = `In: ${pub.booktitle}`;
@@ -104,6 +107,8 @@ export function formatCitationTail(pub: Publication): string {
 		parts.push(chunk);
 	} else if (pub.journal) {
 		parts.push(pub.journal);
+	} else if (isSeriesItem) {
+		parts.push(pub.series!);
 	}
 
 	const volIssue: string[] = [];
@@ -113,13 +118,30 @@ export function formatCitationTail(pub: Publication): string {
 
 	if (pub.pages) {
 		const pages = pub.pages.replace(/--/g, '–');
-		parts.push(isChapter ? `pp. ${pages}` : pages);
+		// EP3 stores a single integer for working papers / monographs (total
+		// page count); journal articles and chapters carry a range. Render
+		// "34 pp." vs "123–145" / "pp. 123–145" accordingly.
+		const isPageCount = /^\d+$/.test(pages.trim());
+		if (isPageCount) {
+			parts.push(`${pages} pp.`);
+		} else if (isChapter) {
+			parts.push(`pp. ${pages}`);
+		} else {
+			parts.push(pages);
+		}
 	}
 
 	if (pub.publisher && (!pub.journal || isChapter)) {
 		const place = pub.address ? `${pub.address}: ${pub.publisher}` : pub.publisher;
 		parts.push(place);
+	} else if (isSeriesItem && pub.address) {
+		parts.push(pub.address);
 	}
+
+	// Conference venue + dates (EP3 only — BibTeX strips both).
+	if (pub.event_location) parts.push(pub.event_location);
+	if (pub.event_dates) parts.push(pub.event_dates);
+
 	return parts.join(', ');
 }
 
@@ -130,7 +152,7 @@ const TYPE_LABEL: Record<string, string> = {
 	article: 'Article',
 	book: 'Book',
 	chapter: 'Chapter',
-	conference: 'Conference',
+	conference: 'Conference paper',
 	thesis: 'Thesis',
 	report: 'Report',
 	working_paper: 'Working paper',

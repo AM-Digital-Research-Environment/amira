@@ -8,6 +8,7 @@ const RIS_TYPE_MAP: Record<string, string> = {
 	conference: 'CONF',
 	thesis: 'THES',
 	report: 'RPRT',
+	working_paper: 'RPRT',
 	other: 'GEN'
 };
 
@@ -25,6 +26,9 @@ export function buildRis(pub: Publication): string {
 	if (pub.year) lines.push(`PY  - ${pub.year}`);
 	if (pub.journal) lines.push(`JO  - ${pub.journal}`);
 	if (pub.booktitle) lines.push(`T2  - ${pub.booktitle}`);
+	// For working papers and similar series-based items the series name plays
+	// the venue role — emit it as T2 when nothing else has claimed that slot.
+	if (pub.series && !pub.booktitle) lines.push(`T2  - ${pub.series}`);
 	if (pub.volume) lines.push(`VL  - ${pub.volume}`);
 	if (pub.issue) lines.push(`IS  - ${pub.issue}`);
 	if (pub.pages) {
@@ -34,6 +38,10 @@ export function buildRis(pub: Publication): string {
 	}
 	if (pub.publisher) lines.push(`PB  - ${pub.publisher}`);
 	if (pub.address) lines.push(`CY  - ${pub.address}`);
+	else if (pub.event_location) lines.push(`CY  - ${pub.event_location}`);
+	// C1 carries conference-specific notes per RIS conventions; we use it for
+	// the event date range so reference managers can preserve it round-trip.
+	if (pub.event_dates) lines.push(`C1  - ${pub.event_dates}`);
 	if (pub.doi) lines.push(`DO  - ${pub.doi}`);
 	if (pub.isbn) lines.push(`SN  - ${pub.isbn}`);
 	if (pub.issn && !pub.isbn) lines.push(`SN  - ${pub.issn}`);

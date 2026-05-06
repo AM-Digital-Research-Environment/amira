@@ -182,11 +182,14 @@ class Publication:
     book_editors: list[Author] = field(default_factory=list)
     journal: str | None = None
     booktitle: str | None = None
+    series: str | None = None
     volume: str | None = None
     issue: str | None = None
     pages: str | None = None
     publisher: str | None = None
     address: str | None = None
+    event_location: str | None = None
+    event_dates: str | None = None
     doi: str | None = None
     isbn: str | None = None
     issn: str | None = None
@@ -469,6 +472,39 @@ def parse_ep3_xml(xml_text: str) -> dict[str, dict[str, Any]]:
         if official is not None and official.text:
             record["official_url"] = official.text.strip()
 
+        # Series (e.g. "University of Bayreuth African Studies Working Papers")
+        # — present on working papers, monographs in a series, and some
+        # chapters. The BibTeX export carries this too, but the EP3 element is
+        # the upstream source of truth.
+        series_node = ep.find("ep:series", EP3_NS)
+        if series_node is not None and series_node.text and series_node.text.strip():
+            record["series"] = re.sub(r"\s+", " ", series_node.text.strip())
+
+        # Page count for items where the BibTeX export omits the field
+        # (working papers, some monographs). EP3 stores this as a single
+        # integer (total pages) for monographic items rather than a range.
+        pages_node = ep.find("ep:pages", EP3_NS)
+        if pages_node is not None and pages_node.text and pages_node.text.strip():
+            record["pages"] = pages_node.text.strip()
+
+        # Conference event metadata — entirely absent from the BibTeX export.
+        # `<event_title>` already lands in BibTeX's `booktitle`, but the
+        # location and dates only live in EP3 XML.
+        event_location_node = ep.find("ep:event_location", EP3_NS)
+        if (
+            event_location_node is not None
+            and event_location_node.text
+            and event_location_node.text.strip()
+        ):
+            record["event_location"] = re.sub(r"\s+", " ", event_location_node.text.strip())
+        event_dates_node = ep.find("ep:event_dates", EP3_NS)
+        if (
+            event_dates_node is not None
+            and event_dates_node.text
+            and event_dates_node.text.strip()
+        ):
+            record["event_dates"] = re.sub(r"\s+", " ", event_dates_node.text.strip())
+
         lang_node = ep.find("ep:language", EP3_NS)
         if lang_node is not None and lang_node.text:
             lang = lang_node.text.strip().lower()
@@ -720,11 +756,22 @@ def build_publications_for_source(
                 book_editors=book_editors,
                 journal=normalize_bibtex_value(entry.get("journal", "")) or None,
                 booktitle=normalize_bibtex_value(entry.get("booktitle", "")) or None,
+                series=(
+                    normalize_bibtex_value(entry.get("series", ""))
+                    or ep3_record.get("series")
+                    or None
+                ),
                 volume=normalize_bibtex_value(entry.get("volume", "")) or None,
                 issue=normalize_bibtex_value(entry.get("number", "")) or None,
-                pages=normalize_bibtex_value(entry.get("pages", "")) or None,
+                pages=(
+                    normalize_bibtex_value(entry.get("pages", ""))
+                    or ep3_record.get("pages")
+                    or None
+                ),
                 publisher=normalize_bibtex_value(entry.get("publisher", "")) or None,
                 address=normalize_bibtex_value(entry.get("address", "")) or None,
+                event_location=ep3_record.get("event_location"),
+                event_dates=ep3_record.get("event_dates"),
                 doi=doi_clean,
                 isbn=normalize_bibtex_value(entry.get("isbn", "")) or None,
                 issn=normalize_bibtex_value(entry.get("issn", "")) or None,
@@ -914,11 +961,14 @@ def merge_publications(primary: Publication, secondary: Publication) -> Publicat
         book_editors=primary.book_editors or secondary.book_editors,
         journal=primary.journal or secondary.journal,
         booktitle=primary.booktitle or secondary.booktitle,
+        series=primary.series or secondary.series,
         volume=primary.volume or secondary.volume,
         issue=primary.issue or secondary.issue,
         pages=primary.pages or secondary.pages,
         publisher=primary.publisher or secondary.publisher,
         address=primary.address or secondary.address,
+        event_location=primary.event_location or secondary.event_location,
+        event_dates=primary.event_dates or secondary.event_dates,
         doi=primary.doi or secondary.doi,
         isbn=primary.isbn or secondary.isbn,
         issn=primary.issn or secondary.issn,

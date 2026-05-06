@@ -67,11 +67,26 @@ export interface Publication {
 	book_editors?: PublicationContributor[];
 	journal?: string;
 	booktitle?: string;
+	/** Series the item belongs to (e.g. "University of Bayreuth African Studies
+	 *  Working Papers"). Populated for working papers, monographs in a series,
+	 *  and some chapters. Sourced from the BibTeX `series` field, falling back
+	 *  to the EP3 XML `<series>` element. */
+	series?: string;
 	volume?: string;
 	issue?: string;
+	/** Page range (`123-145`) for journal articles and chapters, or page count
+	 *  (`34`) for working papers and monographs. The citation formatter
+	 *  detects which form is present and renders accordingly. */
 	pages?: string;
 	publisher?: string;
 	address?: string;
+	/** Conference venue city/country (e.g. "Glasgow, United Kingdom").
+	 *  Sourced from the EP3 `<event_location>` element — absent from the
+	 *  BibTeX export. Populated for `conference_item` records. */
+	event_location?: string;
+	/** Conference dates as a free-form string (e.g. "20-23 July 2025").
+	 *  Sourced from the EP3 `<event_dates>` element. */
+	event_dates?: string;
 	doi?: string;
 	isbn?: string;
 	issn?: string;

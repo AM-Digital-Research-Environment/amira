@@ -41,29 +41,18 @@
 <Card class="hover:shadow-md transition-shadow animate-slide-in-up">
 	<CardContent class="p-5 space-y-3">
 		<!-- Header row: type + year/quarter -->
-		<div class="flex items-center justify-between gap-2 flex-wrap">
-			<div class="flex items-center gap-2 flex-wrap">
-				<Badge variant="secondary">{publicationTypeLabel(publication.type)}</Badge>
-				{#if publication.year}
-					<span class="text-xs text-muted-foreground tabular-nums">{publication.year}</span>
-				{/if}
-				{#if publication.language}
-					<span
-						class="text-xs text-muted-foreground"
-						title="Publication language: {languageName(publication.language)}"
-					>
-						· {languageName(publication.language)}
-					</span>
-				{/if}
-			</div>
-			{#if publication.doi}
-				<a
-					href="https://doi.org/{publication.doi}"
-					target="_blank"
-					rel="noopener"
-					class="text-xs text-muted-foreground hover:text-foreground font-mono truncate max-w-[16rem] transition-colors"
-					title="Open DOI: {publication.doi}">doi:{publication.doi}</a
+		<div class="flex items-center gap-2 flex-wrap">
+			<Badge variant="secondary">{publicationTypeLabel(publication.type)}</Badge>
+			{#if publication.year}
+				<span class="text-xs text-muted-foreground tabular-nums">{publication.year}</span>
+			{/if}
+			{#if publication.language}
+				<span
+					class="text-xs text-muted-foreground"
+					title="Publication language: {languageName(publication.language)}"
 				>
+					· {languageName(publication.language)}
+				</span>
 			{/if}
 		</div>
 
@@ -130,7 +119,7 @@
 		<!-- Keywords -->
 		{#if publication.keywords && publication.keywords.length > 0}
 			<div class="flex flex-wrap gap-1.5">
-				{#each publication.keywords.slice(0, 6) as kw (kw)}
+				{#each publication.keywords as kw (kw)}
 					{#if onKeywordClick}
 						<button
 							type="button"
@@ -144,11 +133,6 @@
 						<Badge variant="outline" class="text-xs font-normal">{kw}</Badge>
 					{/if}
 				{/each}
-				{#if publication.keywords.length > 6}
-					<span class="text-xs text-muted-foreground self-center"
-						>+{publication.keywords.length - 6}</span
-					>
-				{/if}
 			</div>
 		{/if}
 

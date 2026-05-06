@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-05T07:04:45.170176+00:00",
+  "generated_at": "2026-05-06T05:46:04.395227+00:00",
   "sources": [
     {
       "name": "eref",
@@ -42,7 +42,7 @@
       "both": 31
     },
     "cross_listed": 31,
-    "matched_contributors": 166,
+    "matched_contributors": 170,
     "total_contributors": 325
   },
   "publications": [
@@ -355,6 +355,7 @@
           "person_name": "Yusuff, Ayodele"
         }
       ],
+      "pages": "202",
       "publisher": "Akademische Verlagsgemeinschaft München AVM",
       "address": "München",
       "doi": "10.23780/9783960916604",
@@ -602,7 +603,9 @@
           "person_name": null
         }
       ],
+      "series": "University of Bayreuth African Studies Working Papers",
       "volume": "60",
+      "pages": "34",
       "address": "Bayreuth",
       "keywords": [
         "Africanisation",
@@ -682,6 +685,8 @@
         }
       ],
       "booktitle": "45th IEEE International Conference on Distributed Computing Systems (ICDCS 2025)",
+      "event_location": "Glasgow, United Kingdom",
+      "event_dates": "20-23 July 2025",
       "keywords": [
         "processes for digitalization",
         "data quality",
@@ -736,7 +741,9 @@
           "person_name": null
         }
       ],
+      "series": "University of Bayreuth African Studies Working Papers",
       "volume": "56",
+      "pages": "VI, 21",
       "address": "Bayreuth",
       "keywords": [
         "Relationality",
@@ -1010,7 +1017,9 @@
           "person_name": null
         }
       ],
+      "series": "University of Bayreuth African Studies Working Papers",
       "volume": "53",
+      "pages": "VI, 32",
       "address": "Bayreuth",
       "keywords": [
         "Gender",
@@ -1148,6 +1157,7 @@
           "person_name": "Mauluka, Gift"
         }
       ],
+      "pages": "XVII; 228",
       "address": "Bayreuth",
       "keywords": [
         "Child Labour",
@@ -1162,7 +1172,7 @@
       "url": "http://nbn-resolving.org/urn:nbn:de:bvb:703-epub-8631-7",
       "eref_url": "https://eref.uni-bayreuth.de/id/eprint/95087/",
       "bibtex_url": "https://eref.uni-bayreuth.de/cgi/export/eprint/95087/BibTeX/ubt_eref-eprint-95087.bib",
-      "bibtex_raw": "@unpublished{ubt_eref95087,\n address = {Bayreuth},\n author = {Mauluka, Gift},\n keyword = {Child Labour; Legal Frameworks; Children's Rights; Performative Analysis; Malawi; Integrated Childhood Perspective},\n note = {Unveröffentlicht},\n school = {ARRAY(0x5f19320beed8)},\n title = {An integrated childhood perspective : Contextualising legal and non-legal approaches to tackle child labour in Malawi},\n url = {http://nbn-resolving.org/urn:nbn:de:bvb:703-epub-8631-7},\n year = {2025}\n}\n"
+      "bibtex_raw": "@unpublished{ubt_eref95087,\n address = {Bayreuth},\n author = {Mauluka, Gift},\n keyword = {Child Labour; Legal Frameworks; Children's Rights; Performative Analysis; Malawi; Integrated Childhood Perspective},\n note = {Unveröffentlicht},\n school = {ARRAY(0x5f1931fb24c0)},\n title = {An integrated childhood perspective : Contextualising legal and non-legal approaches to tackle child labour in Malawi},\n url = {http://nbn-resolving.org/urn:nbn:de:bvb:703-epub-8631-7},\n year = {2025}\n}\n"
     },
     {
       "id": "eref-96784",
@@ -1190,6 +1200,7 @@
           "person_name": null
         }
       ],
+      "pages": "281",
       "publisher": "Pretoria University Law Press",
       "address": "Pretoria",
       "isbn": "978-1-0672373-3-2",
@@ -1265,6 +1276,8 @@
           "person_name": "Kaime, Thoko"
         }
       ],
+      "series": "Collection of Essays: Your Voice in Tackling Human Trafficking in Africa",
+      "pages": "VI, 49",
       "address": "Bayreuth",
       "keywords": [
         "Human Trafficking",
@@ -1497,6 +1510,7 @@
           "person_name": "Akolgo, Isaac Abotebuno"
         }
       ],
+      "pages": "VI, 20",
       "address": "Bayreuth",
       "keywords": [
         "Ghana",
@@ -1512,7 +1526,7 @@
       "eref_url": "https://eref.uni-bayreuth.de/id/eprint/95088/",
       "epub_url": "https://epub.uni-bayreuth.de/id/eprint/8627/",
       "bibtex_url": "https://eref.uni-bayreuth.de/cgi/export/eprint/95088/BibTeX/ubt_eref-eprint-95088.bib",
-      "bibtex_raw": "@unpublished{ubt_eref95088,\n address = {Bayreuth},\n author = {Akolgo, Isaac Abotebuno},\n keyword = {Ghana; Financial System; Debt; Monetary Policy; Financial Technology; Africa},\n note = {Unveröffentlicht},\n school = {ARRAY(0x5f19320f54b0)},\n title = {Money, Finance, and the Political Economy of Development in Ghana},\n url = {http://nbn-resolving.org/urn:nbn:de:bvb:703-epub-8627-4},\n year = {2025}\n}\n"
+      "bibtex_raw": "@unpublished{ubt_eref95088,\n address = {Bayreuth},\n author = {Akolgo, Isaac Abotebuno},\n keyword = {Ghana; Financial System; Debt; Monetary Policy; Financial Technology; Africa},\n note = {Unveröffentlicht},\n school = {ARRAY(0x5f1931fb2610)},\n title = {Money, Finance, and the Political Economy of Development in Ghana},\n url = {http://nbn-resolving.org/urn:nbn:de:bvb:703-epub-8627-4},\n year = {2025}\n}\n"
     },
     {
       "id": "eref-94455",
@@ -1534,6 +1548,7 @@
           "person_name": "Muller, Carol"
         }
       ],
+      "pages": "56",
       "address": "Bayreuth",
       "keywords": [
         "Mobility",
@@ -1549,7 +1564,7 @@
       "url": "http://nbn-resolving.org/urn:nbn:de:bvb:703-epub-8533-2",
       "eref_url": "https://eref.uni-bayreuth.de/id/eprint/94455/",
       "bibtex_url": "https://eref.uni-bayreuth.de/cgi/export/eprint/94455/BibTeX/ubt_eref-eprint-94455.bib",
-      "bibtex_raw": "@unpublished{ubt_eref94455,\n address = {Bayreuth},\n author = {Müller, Carsten},\n keyword = {Mobility; Political Mobilisation; Uganda; Kenya; Congo; public transport, power},\n note = {Unveröffentlicht},\n school = {ARRAY(0x5f19320f54e0)},\n title = {Moving towards power? Mobilities and the Political Mobilization of Motorcyclists in Uganda Kenya and Eastern DRC},\n url = {http://nbn-resolving.org/urn:nbn:de:bvb:703-epub-8533-2},\n year = {2025}\n}\n"
+      "bibtex_raw": "@unpublished{ubt_eref94455,\n address = {Bayreuth},\n author = {Müller, Carsten},\n keyword = {Mobility; Political Mobilisation; Uganda; Kenya; Congo; public transport, power},\n note = {Unveröffentlicht},\n school = {ARRAY(0x5f1931fb2640)},\n title = {Moving towards power? Mobilities and the Political Mobilization of Motorcyclists in Uganda Kenya and Eastern DRC},\n url = {http://nbn-resolving.org/urn:nbn:de:bvb:703-epub-8533-2},\n year = {2025}\n}\n"
     },
     {
       "id": "eref-94677",
@@ -1580,7 +1595,9 @@
           "person_name": null
         }
       ],
+      "series": "University of Bayreuth African Studies Working Papers",
       "volume": "59",
+      "pages": "VIII, 29",
       "address": "Bayreuth",
       "keywords": [
         "Digital Islamic Learning",
@@ -1667,8 +1684,8 @@
         {
           "raw": "Baumann, Oliver",
           "normalized": "Baumann, Oliver",
-          "person_id": null,
-          "person_name": null
+          "person_id": "69f99a9d4271b3712e5d8295",
+          "person_name": "Baumann, Oliver"
         },
         {
           "raw": "Schönfeld, Mirco",
@@ -1701,6 +1718,8 @@
       "pages": "289–300",
       "publisher": "SciTePress",
       "address": "Setúbal",
+      "event_location": "Marbella, Spain",
+      "event_dates": "21-23 October 2025",
       "doi": "10.5220/0013787500003985",
       "isbn": "978-989-758-772-6",
       "keywords": [
@@ -1852,7 +1871,9 @@
           "person_name": null
         }
       ],
+      "series": "University of Bayreuth African Studies Working Papers",
       "volume": "57",
+      "pages": "VI, 26",
       "address": "Bayreuth",
       "keywords": [
         "Social cohesion",
@@ -2035,8 +2056,8 @@
         {
           "raw": "Baumann, Oliver",
           "normalized": "Baumann, Oliver",
-          "person_id": null,
-          "person_name": null
+          "person_id": "69f99a9d4271b3712e5d8295",
+          "person_name": "Baumann, Oliver"
         },
         {
           "raw": "Nandini, Durgesh",
@@ -2064,6 +2085,8 @@
         }
       ],
       "booktitle": "16th International Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge Management (KEOD)",
+      "event_location": "Porto, Portugal",
+      "event_dates": "17.-19. Nov. 2024",
       "doi": "10.5220/0012936100003838",
       "keywords": [
         "Recommender Systems",
@@ -2098,6 +2121,8 @@
         }
       ],
       "booktitle": "VAD 2024 \"Reconfigurations in Africa - and in African Studies\" (Conference of the Association for African Studies in Germany)",
+      "event_location": "Bayreuth, Deutschland",
+      "event_dates": "30.09.-02.10.2024",
       "abstract": "Connecting creative movements of Black re-existence across the African diaspora is crucial to fight colonial and racist exclusion. However, this requires highly sensitive means and media to express bodily, emotional and spiritual experiences of transformation that can hardly be captured by logocentric approaches. Against this backdrop, the multimedia book “Todo Rio Resiste Mar: Cartografias de Memorias Afrolatinas” (dirs. Valerie V. V. Gruber and Gilbert Shang Ndi, Andarilha Edições 2023, https://doi.org/10.15495/EPub_UBT_00007702) presents illustrations, poems, memoirs, choreographic and music performances created by young Afrodescendant artists from marginalised communities in Salvador da Bahia (Brazil) and Cartagena de Indias (Colombia). The anthology is the result of an exchange programme carried out over four years based on transdisciplinary methods of participatory action research, social arts and research-creation. The design of the e-book follows the journey of a river returning to the ocean, meandering through complex social and cultural territories. The encounter of different waters and currents is more than just a metaphor; it is the conceptual ground for the understanding of Afro-Latin American re-existence, personal and collective overcoming as well as decolonial healing. This presentation invites the public to dive into the rhythms, memories and imaginations of the exchange participants, reorganized in a map-collage with strong audio-visual impulses. The diverse voices and representations will set afloat discussions on the ethics and aesthetics of Afro-Latin American struggles against colonialism and racism, while raising questions on the degree to which traumatic experiences can be transmitted and transformed through artistic means across time, space and power hierarchies.",
       "language": "eng",
       "url": "https://eref.uni-bayreuth.de/id/eprint/90929/",
@@ -2140,7 +2165,9 @@
           "person_name": null
         }
       ],
+      "series": "University of Bayreuth African Studies Working Papers",
       "volume": "52",
+      "pages": "VI, 52",
       "address": "Bayreuth",
       "keywords": [
         "Epistemizität",
@@ -2184,6 +2211,8 @@
         }
       ],
       "booktitle": "2024 Annual Meeting of the American Association of Geographers (AAG)",
+      "event_location": "Honolulu, USA",
+      "event_dates": "16.-20. Apr. 2024",
       "keywords": [
         "Socio-moral cartography",
         "African diaspora",
@@ -2232,7 +2261,9 @@
           "person_name": null
         }
       ],
+      "series": "University of Bayreuth African Studies Working Papers",
       "volume": "49",
+      "pages": "VI, 16",
       "publisher": "Institute of African Studies",
       "address": "Bayreuth",
       "keywords": [
@@ -2311,7 +2342,9 @@
           "person_name": null
         }
       ],
+      "series": "University of Bayreuth African Studies Working Papers",
       "volume": "44",
+      "pages": "VI, 22",
       "address": "Bayreuth",
       "keywords": [
         "Decolonization",
@@ -2414,6 +2447,7 @@
         }
       ],
       "booktitle": "Knowing - Unknowing : African Studies at the Crossroads",
+      "series": "Africa Multiple",
       "volume": "4",
       "pages": "1–27",
       "publisher": "Brill",
@@ -2461,6 +2495,7 @@
       ],
       "journal": "Energy Economics",
       "volume": "136",
+      "pages": "107758",
       "doi": "10.1016/j.eneco.2024.107758",
       "issn": "0140-9883",
       "keywords": [
@@ -2504,7 +2539,9 @@
           "person_name": "Ndlovu-Gatsheni, Sabelo"
         }
       ],
+      "series": "Africa Multiple",
       "volume": "4",
+      "pages": "XIV, 310",
       "publisher": "Brill",
       "address": "Leiden",
       "doi": "10.1163/9789004701441",
@@ -2661,6 +2698,7 @@
       ],
       "journal": "Cambridge Prisms : Extinction",
       "volume": "2",
+      "pages": "0",
       "publisher": "Cambridge University Press",
       "doi": "10.1017/ext.2024.2",
       "issn": "2755-0958",
@@ -2713,7 +2751,9 @@
           "person_name": null
         }
       ],
+      "series": "University of Bayreuth African Studies Working Papers",
       "volume": "50",
+      "pages": "VII, 18",
       "address": "Bayreuth",
       "keywords": [
         "Islam",
@@ -2753,6 +2793,8 @@
       "journal": "SHS Web of Conferences",
       "booktitle": "9e Congrès Mondial de Linguistique Française - CMLF 2024",
       "volume": "191",
+      "event_location": "Lausanne",
+      "event_dates": "Juli 2024",
       "doi": "10.1051/shsconf/202419102017",
       "issn": "2261-2424",
       "abstract": "La présente étude est dédiée à un aspect spécifique de la variation pragmatique: le marquage évidentiel en français camerounais. Basée sur des interviews conduites pendant la pandémie de Covid19, elle s’intéresse au balisage de rumeurs et aux pratiques épistémiques qui les accompagnent. D’un point de vue linguistique, les rumeurs que l’on peut qualifier comme de courtes narrations aux contenus controversés et non légitimés par les instances officielles, ont un double visage: s’y amalgament information incertaine et reprise de paroles d’autrui à l’origine obscure. Alors que la source inconnue est fréquemment signalée à l’aide d’un marquage évidentiel, le statut contesté de l’information engendre souvent des négociations épistémiques. Notre étude pilote est consacrée à une exploration de ces deux facettes de la rumeur. L’analyse empirique se focalise sur une forme régionale de français fortement influencée par les langues de contact présentes dans son milieu. Par ce fait, elle vise à contribuer à une meilleure connaissance de la variation diatopique du marquage évidentiel et, de manière globale, de l’épistémicité, encore peu étudiée jusqu’ici.",
@@ -2797,6 +2839,7 @@
         }
       ],
       "booktitle": "Knowing - Unknowing : African Studies at the Crossroads",
+      "series": "Africa Multiple",
       "volume": "4",
       "pages": "122–134",
       "publisher": "Brill",
@@ -2843,6 +2886,8 @@
         }
       ],
       "booktitle": "Annual Conference of the Africa Multiple Cluster of Excellence \"Reconfiguring African Studies through Spatialities\"",
+      "event_location": "Bayreuth, Germany",
+      "event_dates": "11.-14.10.2023",
       "abstract": "In the backdrop of the historical uprooting and the forced deportation of Africans to the Americas, territoriality has become key in analysing practices of Afro-descendant resistance and (re-)existence in the Latin-American diaspora. It is in the re-making and re-imagining of (post)colonial territories that insurgent knowledges are produced, especially in contexts where the legacies of enslavement, marginalisation and invisibilisation are rife. Inspired by the ways in which young artists from Cartagena de Indias (Colombia) and Salvador da Bahia (Brazil) re-invent territoriality through artistic creativity, we developed a Participatory Action Research project that harnesses community mapping, self-writing and performance in an online and on-site exchange programme. In our panel, we launch and discuss a documentary video on this collective process realised in collaboration with the socio-cultural groups Candilé (Cartagena) and REPROTAI (Salvador). In a self-reflexive mode that casts a critical glance at our transdisciplinary co-creation of knowledges, we focus on the challenges, shortcomings as well as opportunities of doing Participatory Action Research in actual and virtual spaces for more than three years. Thereby, we bring into dialogue the perspectives of two project coordinators and two discussants who followed the process with interest, though not actively involved. We consider the participatory exploration of territories and territorialities as a pertinent heuristic prism in examining Afro-diasporic lifeworlds and the practical/symbolic attempts at memorialisation and collective becoming. Through creative media, youth and young adults re-map possibilities of existence that envision more inclusive spaces, using traces of African heritage as building blocks for individual and collective self-actualisation.",
       "language": "eng",
       "url": "https://eref.uni-bayreuth.de/id/eprint/88694/",
@@ -2877,6 +2922,8 @@
         }
       ],
       "booktitle": "1st Colloquium on Latin America - Summer Term 2023",
+      "event_location": "Bayreuth, Germany",
+      "event_dates": "14.Juni 2023",
       "abstract": "Theatre, music, dance and poetry performances provide means and methods to co-create knowledges in a way that brings emotional and bodily experiences into dialogue with academic reflections. Working through the trauma of enslavement, colonisation and their aftermath requires such highly sensitive methodologies to avoid further objectification and alienation of the people involved. In this colloquium, we launch a 45-min live recording of the dance theatre “Mafone – Oríkì da viagem” (“Mafone – Oríkì of the voyage”) directed by Brazilian transdisciplinary artist Diego Araúja, Colombian choreographer Jaime Gómez and Mozambican musician Matchume Zango. It is a major outcome of our approach to Orlando Fals Borda’s Participatory Action Research, which inspired us to organise an exchange programme between Afro-descendant artists and community actors from Salvador da Bahia (Brazil) and Cartagena de Indias (Colombia). We take this public video screening as an opportunity to reflect on our shifting roles as researchers, mediators and mentors of this process throughout the past three years, and open up a discussion on the potentials and limitations of combining arts and research. In particular, we consider the opacity through which both trauma and dreams can be reinvented in a non-harmful, but polysemantic way. Hence, we will take the public on a creative journey of transdisciplinary experimentation and collective healing, striving to provoke thoughts and discussions on alternative ways of doing research in and with Latin America.",
       "language": "eng",
       "url": "https://eref.uni-bayreuth.de/id/eprint/88693/",
@@ -2905,6 +2952,8 @@
         }
       ],
       "booktitle": "ECAS9 2023: 9th European Conference on African Studies \"African Futures\"",
+      "event_location": "Cologne, Germany",
+      "event_dates": "31 May - 03 Jun 2023",
       "keywords": [
         "knowledge co-creation",
         "Afro-descendant artists",
@@ -2939,7 +2988,9 @@
           "person_name": null
         }
       ],
+      "series": "University of Bayreuth African Studies Working Papers",
       "volume": "34",
+      "pages": "VII, 25",
       "address": "Bayreuth",
       "keywords": [
         "African Feminist Ethics",
@@ -3220,6 +3271,7 @@
         }
       ],
       "booktitle": "A new Age of Extremes? : Anti-political Politics and Identity Remaking in the early 21st Century",
+      "series": "University of Bayreuth African Studies Online",
       "volume": "10",
       "pages": "147–177",
       "address": "Bayreuth",
@@ -3387,6 +3439,7 @@
         }
       ],
       "booktitle": "Sprache - Diskurse - Meinungsbildung : Jahrestagung der Leibniz-Sozietät der Wissenschaften am 20.10.2022",
+      "series": "Sitzungsberichte Leibniz-Sozietät der Wissenschaften",
       "volume": "157",
       "pages": "189–215",
       "publisher": "trafo Wissenschaftsverlag",
@@ -3419,7 +3472,9 @@
           "person_name": null
         }
       ],
+      "series": "University of Bayreuth African Studies Working Papers",
       "volume": "36",
+      "pages": "VI, 18",
       "address": "Bayreuth",
       "keywords": [
         "War",
@@ -3669,7 +3724,9 @@
           "person_name": null
         }
       ],
+      "series": "University of Bayreuth African Studies Working Papers",
       "volume": "35",
+      "pages": "VI, 17",
       "address": "Bayreuth",
       "keywords": [
         "Africa",
@@ -3799,6 +3856,7 @@
           "person_name": null
         }
       ],
+      "pages": "175",
       "publisher": "Andarilha Edições",
       "address": "Conceição da Feira, Bahia",
       "isbn": "978-65-84611-13-9",
@@ -3880,6 +3938,7 @@
         }
       ],
       "booktitle": "A Relational View on Cultural Complexity : Implications for Theory and Practice",
+      "series": "Relational Economics and Organization Governance",
       "pages": "173–189",
       "publisher": "Springer",
       "address": "Cham",
@@ -3975,6 +4034,8 @@
         }
       ],
       "booktitle": "The ALARI Second Continental Conference on Afro-Latin American Studies",
+      "event_location": "Cambridge (Massachusetts), USA",
+      "event_dates": "07.-09. Dez. 2022",
       "abstract": "Exploring the art of living in unequal and racist societies across the Black Atlantic requires decolonial methods that go beyond logocentric approaches. Cultural expressions such as music, dance and poetry offer a chance for a co-production of knowledges that transcends epistemological, socio-spatial and racial boundaries. This paper revolves around the quest for a life in dignity and possible ways of transformation towards this horizon. It is based on the ongoing research project “Moral Geographies of (Re-)Existence” that brings together Afro-diasporic artists, academics and community actors to explore, discuss and exchange different answers to the empowering question of a life in dignity. Diverse actors from Brazil, Colombia, Mozambique and Germany engage in this collaborative approach to participatory research-creation. Working remotely under Covid-19 conditions, we produced six transdisciplinary video performances in this collective. Different types of knowledges emerge from a dialogue of music, dance, poetry and academic concepts, fulfilling the different needs and interests of the participants. The focus of this paper lies on diverse modes of (re-)existence that appear in the videos and map out struggles for a life in dignity. Multiple rhythms, movements and images envision an ethics and aesthetics of existence in the African diaspora. Combining academic research with artistic production not only unfolds conditions of racialized exploitation, but also helps discover possibilities of transformation and overcoming. Thus, connecting artists, researchers and community actors from Latin America, Africa and Europe through Afro-diasporic music and culture stimulates mutual learning processes and contributes to academic and racial justice.",
       "language": "eng",
       "url": "https://eref.uni-bayreuth.de/id/eprint/75323/",
@@ -4017,7 +4078,9 @@
           "person_name": null
         }
       ],
+      "series": "University of Bayreuth African Studies Working Papers",
       "volume": "33",
+      "pages": "VII, 19",
       "publisher": "Institute of African Studies",
       "address": "Bayreuth",
       "keywords": [
@@ -4055,8 +4118,8 @@
         {
           "raw": "Baumann, Oliver",
           "normalized": "Baumann, Oliver",
-          "person_id": null,
-          "person_name": null
+          "person_id": "69f99a9d4271b3712e5d8295",
+          "person_name": "Baumann, Oliver"
         },
         {
           "raw": "Schönfeld, Mirco",
@@ -4066,6 +4129,8 @@
         }
       ],
       "booktitle": "2nd Joint Conference of the Information Retrieval Communities in Europe (CIRCLE 2022)",
+      "event_location": "Samatan, Gers, France",
+      "event_dates": "04.-07. Juli 2022",
       "keywords": [
         "information retrieval",
         "knowledge graphs",
@@ -4103,6 +4168,8 @@
         }
       ],
       "booktitle": "VAD 2022 \"Africa-Europe: Reciprocal Perspectives\" (Conference of the Association for African Studies in Germany)",
+      "event_location": "Freiburg im Breisgau, Germany",
+      "event_dates": "07.-10.Jun. 2022",
       "abstract": "Logocentric approaches to knowledge production can hardly address traumatic experiences such as the transatlantic trade in enslaved Africans. Video performances are a fruitful way to explore and exchange such embodied knowledges and collective memories, passing them on to future generations. This presentation gives insight into a participatory research-creation process developed with Afro-diasporic artists and community actors from Brazil, Colombia and Mozambique. We will show fragments of transdisciplinary video performances produced during the Covid-19 pandemic. They provide a means for personal and collective reflection and transcontinental collaboration at the intersection of artistic research and socially engaged art. This approach offers an important opportunity to connect diverse actors from both shores of “The Black Atlantic” (Gilroy, 1993). We will discuss the shifting roles between academic researchers and co-creators of knowledge from different socio-spatial contexts and artistic fields such as music, dance and poetry. Thereby, we will gauge the possibilities and limitations of transformation emerging from a co-creation of artistic/academic knowledges based on communal practices, joint reflections and mutual learning.",
       "language": "eng",
       "url": "https://eref.uni-bayreuth.de/id/eprint/75322/",
@@ -4131,6 +4198,8 @@
         }
       ],
       "booktitle": "Science Slam am Brasilientag des BMBF (Bundesministerium für Bildung und Forschung)",
+      "event_location": "Bonn, Deutschland",
+      "event_dates": "02.-03. Jun. 2022",
       "abstract": "Eine funktionierende Wissenschaftskommunikation außerhalb des akademischen Feldes stellt gerade bei Kooperationen mit benachteiligten Bevölkerungsgruppen im Globalen Süden eine herausfordernde Notwendigkeit dar. Dahingehend bedarf es nicht nur ausreichender Open-Access-Zugangsmöglichkeiten, sondern ebenso sach- und zielgruppengerechter Übersetzungen, welche sowohl sprachliche, als auch soziokulturelle und wissensbasierte Deutungsbarrieren überwinden. Das Projekt \"DjumbaiALA: Dialoge afrikanischer und afro-diasporischer Wissensformen im multimedialen Zeitalter\" ermöglicht die Durchführung eines Workshops in Salvador da Bahia (Brasilien), der Nachwuchswissenschaftler*innen und Expert*innen aus den Bereichen digitales Design, Performance und Afrikastudien vereint. Als deutsch-brasilianisches Kooperationsprojekt zielt das Vorhaben darauf ab, das erste multimediale E-Book des transdisziplinären Netzwerks DjumbaiALA zu produzieren, um innovative Wege in der digitalen Wissenschaftskommunikation einzuschlagen. Durch die kollaborative Erschaffung dieses Prototyps werden institutionelle Partnerschaften gefestigt, auf deren Grundlage künftig weitere multimediale E-Books erstellt werden sollen. Indem Textelemente auf kreative Weise mit audiovisuellen Inhalten verknüpft und in unterschiedlichen Sprachen bereitgestellt werden, erhöht sich die Sichtbarkeit und Reichweite von sozial- und geisteswissenschaftlichen Forschungsergebnissen. Die Originalität des Projektes besteht insbesondere darin, dass mittels der multimedialen DjumbaiALA Books ein Wissensaustausch auf Augenhöhe zwischen dem Globalen Norden und Süden angestrebt wird. So können nachhaltige Lösungen für globale Herausforderungen erarbeitet werden.",
       "language": "ger",
       "url": "https://eref.uni-bayreuth.de/id/eprint/75321/",
@@ -4165,6 +4234,8 @@
         }
       ],
       "booktitle": "Workshop \"L'Atlantique noir revisité: Espaces occultés et (in)visibles de la mémoire performative\"",
+      "event_location": "Dakar, Senegal",
+      "event_dates": "28.-30.03.2022",
       "abstract": "San Basilio de Palenque constitue un symbole historique et culturel fondamental en ce qui concerne la politique de l’identité et de l’héritage africain en Colombie. Fondée vers la fin du 17e siècle par les esclavisés africains suite à leur libération et reconnue en 2008 par l’UNESCO comme héritage oral et intangible de l’humanité, cette communauté des marrons a acquis une notoriété iconique comme sauvegarde de la culture « africaine » en Colombie, basée sur un discours qui la classifie comme un espace exceptionnel et particulier dans le paysage afrodescendant des Caraïbes hispanophones en général. Néanmoins, malgré son positionnement comme un lieu de continuité, de perpétuité et de ré-existence (Albán Achinte 2009) des valeurs et cultures africaines à travers le temps et l’espace, Palenque peut être perçu comme un espace mis en marge par le statut de Cartagena comme patrimoine de l’humanité de l’UNESCO avec laquelle il entretient une relation historique bien complexe. Le manque des ressources à Palenque a cependant donné lieu à une culture d’inventivité au quotidien et de l’auto-présentation tactique, qui visent à assurer la survivance des connections touristiques et la préservation de la culture africaine dans les domaines de la musique, spiritualité, historiographie, méthodes de guérison et d’autres aspects de la culture orale. Notre contribution examine les usages créatifs de l’espace et du temps à travers les concepts du musée vernaculaire (Mikula 2016) et de tactique (de Certeau 1980), analysant les différentes mesures de préservation de l’héritage culturel de Palenque dans le contexte de l’invisibilisation généralisée des peuples afrodescendants ainsi que la position de Palenque dans l’ombre de l’industrie imposante de la patrimonialisation de Cartagena qui exploite en même temps qu’elle éclipse la mémoire de l’esclavage. Dans une autre dimension, l’article analyse la relationalité particulière de Palenque avec ses diasporas, les autres communautés afrodescendants en Colombie et avec « l’Afrique » pour mettre en exergue la construction et l’entretien de son image à la fois comme un espace mythique des traces originelles d’Afrique en Amérique et une collectivité imaginée (Anderson 1983) dynamique. Dans cette optique, nous abordons aussi la question des traces de l’africanité (« huellas de africanía ») dans la poétique et la politique de l’héritage et le processus de (ré)signification qu’elle occasionne dans le contexte de Palenque. Eu égard aux transformations qu’ont subi les cultures africaines dans la diaspora, la contribution évalue dans quelle mesure les discours qui sous-tendent les traces culturelles sont déterminées respectivement et de manière interchangeable par les données historiques, l’ingéniosité dictée par des intérêts touristiques, les attentes situationnelles ainsi que la politique des gestes symboliques pratiquées à la fois par le gouvernement central et les différents groupes d’activistes.",
       "language": "fre",
       "url": "https://eref.uni-bayreuth.de/id/eprint/75324/",
@@ -4230,6 +4301,8 @@
         }
       ],
       "booktitle": "Organizing Online Events",
+      "event_location": "Universität Bayreuth",
+      "event_dates": "February to September 2021",
       "keywords": [
         "Internet Videoconferencing",
         "Webinar",
@@ -4276,7 +4349,9 @@
           "person_name": "Ngawa Mbaho, Carline Liliane"
         }
       ],
+      "series": "University of Bayreuth African Studies Working Papers",
       "volume": "29",
+      "pages": "IV, 29",
       "publisher": "Institute of African Studies",
       "address": "Bayreuth",
       "keywords": [
@@ -4487,7 +4562,9 @@
           "person_name": null
         }
       ],
+      "series": "University of Bayreuth African Studies Working Papers",
       "volume": "30",
+      "pages": "VI, 28",
       "address": "Bayreuth",
       "keywords": [
         "Women",
@@ -4622,7 +4699,9 @@
           "person_name": "Lachenicht, Susanne"
         }
       ],
+      "series": "University of Bayreuth African Studies Working Papers",
       "volume": "31",
+      "pages": "VI, 11",
       "address": "Bayreuth",
       "keywords": [
         "Future",
@@ -4687,6 +4766,7 @@
         }
       ],
       "booktitle": "Displaced Persons-Forschung in Deutschland und Österreich : Eine Bestandsaufnahme zu Beginn des 21. Jahrhunderts",
+      "series": "DigiOst",
       "volume": "14",
       "pages": "103–122",
       "publisher": "Frank & Timme",
@@ -4803,8 +4883,8 @@
         {
           "raw": "Baumann, Oliver",
           "normalized": "Baumann, Oliver",
-          "person_id": null,
-          "person_name": null
+          "person_id": "69f99a9d4271b3712e5d8295",
+          "person_name": "Baumann, Oliver"
         },
         {
           "raw": "Schönfeld, Mirco",
@@ -4840,9 +4920,12 @@
         }
       ],
       "booktitle": "Frontiers in African Digital Research : Conference Proceedings",
+      "series": "University of Bayreuth African Studies Online",
       "volume": "9",
       "pages": "155–172",
       "address": "Bayreuth",
+      "event_location": "Bayreuth",
+      "event_dates": "30 January - 1 February 2020",
       "abstract": "In large collaborative, transdisciplinary and potentially geographically distributed research projects, joint data management enables not only the collection of research artifacts; it also fosters discovery and generation of new knowledge in the form of previously invisible interconnections between data. At the same time, a successful system for Research Data Management (RDM) offers immediate benefits to individual researchers: it helps save time finding, sharing, or editing relevant data objects, and can help prevent data loss through centralized backups. Following generations of researchers might benefit from a smartly maintained data collection. Furthermore, funding bodies increasingly require a concept for RDM as part of a grant proposal. As such, a resilient concept for RDM should be considered part of good scientific practice. With these aspects in mind, we present the Digital Research Environment at the Cluster of Excellence Africa Multiple and outline how it can foster best practices for data collection and discovery. Specifically, we introduce WissKI (Wissenschaftliche Kommunikationsinfrastruktur, “scientific communicationinfrastructure”), the system where research data is collected and new interconnections between data items can be determined programmatically.",
       "language": "eng",
       "url": "https://epub.uni-bayreuth.de/5720/1/BASO%209%5fFrontiers%20of%20African%20Digital%20Research%207-2022.pdf",
@@ -4969,6 +5052,8 @@
         }
       ],
       "booktitle": "VII Congresso Internacional sobre Culturas \"Reencantar as Culturas\"",
+      "event_location": "Online",
+      "event_dates": "24.-26. Nov. 2021",
       "keywords": [
         "Colômbia",
         "memória",
@@ -5009,6 +5094,8 @@
         }
       ],
       "booktitle": "Participatory Action Research Workshop at the Bayreuth International Graduate School of African Studies - BIGSAS",
+      "event_location": "Bayreuth, Deutschland",
+      "event_dates": "14.-15. Okt. 2021",
       "abstract": "To stimulate social change beyond the academic field, Participatory Action Research (PAR) integrates local communities into a collaborative knowledge production. This emancipatory research methodology developed by Colombian sociologist Orlando Fals Borda and other Latin American thinkers aims at minimizing power hierarchies between the researchers and the researched, while overcoming rigid distinctions between theory, methodology and practice. During the workshop, we will share hands-on experience in adopting the PAR approach with Afro-descendant and indigenous communities in Colombia, and discuss its applicability in Africa and beyond. In an interactive setting, we will address the following questions: Why is the subject-object relation problematic in PAR? How is knowledge produced in PAR (under which conditions and in which contexts)? How can we promote a dialogue of academic and popular knowledges? What are the differences between PAR and militant research? What are the gnoseological bases of PAR? Which strategies are used to carry out a systematic return of knowledge to the communities? We will also discuss how to ensure that the committed research process meets academic quality requirements of reflexive knowledge production. In this way, the participants will gain theoretical and practical skills enabling them to apply the PAR approach in their own research projects.",
       "language": "eng",
       "url": "https://eref.uni-bayreuth.de/id/eprint/72267/",
@@ -5064,6 +5151,8 @@
       "pages": "18–21",
       "publisher": "ACM",
       "address": "Madrid",
+      "event_location": "Madrid, Spain (online)",
+      "event_dates": "15.-17. September 2021",
       "keywords": [
         "COVID-19 pandemic",
         "Global North-South",
@@ -5102,6 +5191,8 @@
         }
       ],
       "booktitle": "Solidarity in Diversity : Highlighting Marginal Voices in Academia, Practice and Society",
+      "event_location": "Melbourne, Australia (online)",
+      "event_dates": "19.-23. July 2021",
       "abstract": "Academic knowledge production continues to marginalize voices of minoritized majorities, while privileging those of majoritized minorities. At the core of this exclusionary practice are moral questions of whose knowledge counts as right, valid and legitimate. How can researchers share their power of definition with communities structurally excluded from academia, but directly affected by the results of academic knowledge production? Which kind of spaces and institutional settings allow for an inclusive and collaborative research process that enables mutual learning and empowerment? To provide some answers to these questions, I give insights into an ongoing process of participatory research-creation developed with Afro-diasporic communities from Brazil and Colombia. Thereby, an artistic meta-language co-created with different community actors and artists enables the participants to relate to each other through and beyond diversity. Although huge challenges arise with regard to institutional boundaries, impact measurement and translatability, the project confirms that it is possible to produce valid and mutually beneficial knowledge in collaboration with marginalized communities. Apart from solidarity, however, such a relational research process requires the co-creation of a space for mutual learning based on human equality, dignity and reciprocity.",
       "language": "eng",
       "url": "https://eref.uni-bayreuth.de/id/eprint/67366/",
@@ -5130,6 +5221,8 @@
         }
       ],
       "booktitle": "Cluster Conference \"Africa*n Relations : Modalities Reflected",
+      "event_location": "Bayreuth, Deutschland",
+      "event_dates": "14.-17. Juli 2021",
       "keywords": [
         "Informality",
         "International judicial appointments",
@@ -5175,6 +5268,8 @@
         }
       ],
       "booktitle": "Annual Conference of the Africa Multiple Cluster of Excellence \"Africa*n Relations : Modalities Reflected\"",
+      "event_location": "Bayreuth, Deutschland , online",
+      "event_dates": "14.-17. Jul. 2021",
       "abstract": "Whereas the multiple entanglements between Africa and its Latin American diasporas can hardly be squeezed into the boundaries established by the academic field, transdisciplinary cooperation between academics and artists offers a fruitful way out of disciplinary bottlenecks. In this roundtable, we will share insights into modalities of relating and translating that enable and restrain transdisciplinary knowledge production. As a first result of the Participatory Action Research programme carried out at the intersection of the Cluster projects “Moral Geographies of Re-Existence” and “Black Atlantic Revisited”, we will launch a video performance created by the artists Diego Araúja (Brazil), Lobadys Pérez (Colombia) and Matchume Zango (Mozambique). Taking a cue from the transdisciplinary video, we will jointly reflect on processes, products and pitfalls of border-crossing knowledge creation. In this vein, we aim at stimulating debates on innovative modes of doing research in ways that enhance in-depth and multi-perspectival analyses. Our contribution adds to discussions on knowledge transfer and dissemination with a view to widening the audience and raising the social impact of social sciences, humanities and the arts. Ultimately, multiple relations between Africa and its diasporas require multiple modes of knowledge production, reflection and diffusion in order to overcome historical and disciplinary strictures.",
       "language": "eng",
       "url": "https://eref.uni-bayreuth.de/id/eprint/67365/",
@@ -5203,6 +5298,8 @@
         }
       ],
       "booktitle": "ADLAF-Tagung 2021 : Wissen, Macht und digitale Transformation in Lateinamerika",
+      "event_location": "München, Deutschland (online)",
+      "event_dates": "23.06. – 2.07.2021",
       "abstract": "Ihre Vergangenheit als Drehkreuze des Handels mit versklavten Afrikaner*innen prägt die Hafenstädte Salvador (Brasilien) und Cartagena (Kolumbien) bis heute. Gegen Rassismus, Gewalt und soziale Exklusion hat die afro-deszendente Bevölkerung zahlreiche Praktiken der (Re-)Existenz entwickelt. Dieses Promotionsprojekt legt das Augenmerk auf soziale Kulturprojekte aus selbstorganisierten Nachbarschaften, die moralische Räume eines guten Lebens erschaffen. Zur Analyse der Transformationsprozesse, die durch künstlerische Initiativen angeregt werden, wurde in Zusammenarbeit mit den Gruppen REPROTAI (Salvador) und Candilé (Cartagena) ein partizipatives Aktionsforschungsprogramm entwickelt, das seit Beginn der Pandemie virtuell stattfindet. So können im Sinne einer reflexiven Wissenskoproduktion trotz der Reisebeschränkungen wechselseitige Lernprozesse stimuliert und transdisziplinäre Erkenntnisse gewonnen werden.",
       "language": "ger",
       "url": "https://eref.uni-bayreuth.de/id/eprint/75320/",
@@ -5231,6 +5328,8 @@
         }
       ],
       "booktitle": "VAD Africa Challenges",
+      "event_location": "Frankfurt am Main, Deutschland, Online",
+      "event_dates": "7.-11. Juni 2021",
       "keywords": [
         "The rule of law",
         "East African Court of Justice"
@@ -5269,6 +5368,8 @@
         }
       ],
       "booktitle": "LASA 2021 : Crisis global, Desigualdades y centralidad de la vida (XXXIX International Congress of the Latin American Studies Association)",
+      "event_location": "Vancouver, Kanada / online",
+      "event_dates": "26.–29. Mai 2021",
       "keywords": [
         "ciudad",
         "intersticio",
@@ -5303,6 +5404,8 @@
         }
       ],
       "booktitle": "Workshop of the Wits Institute for Social and Economic Research and the Africa Multiple Cluster of Excellence : Fielding the Field",
+      "event_location": "Johannesburg, Südafrika ; Bayreuth, Deutschland",
+      "event_dates": "21.05.2021",
       "abstract": "The quest for transdisciplinary research requires academics to collaborate with actors from heterogeneous fields, both inside and outside academia. In order to transcend disciplinary, social, symbolic or physical boundaries, co-producers of knowledge need to deal with multiple relations, theories and practices taken for granted in each field involved. This presentation explores how field alignments can be made between researchers, artists and activists in order to create synergies and produce knowledge collaboratively. It draws on a participatory research project developed with diverse actors from Brazil, Colombia, Mozambique, Cameroon and Germany, who share a common interest in understanding whether and how the arts can contribute to processes of transformation in communities afflicted by violence, racism and social exclusion. The reflection shows how the research field emerges as a fluid third space co-created by actors with specific knowledges and positionalities. Ultimately, this presentation raises fundamental questions on whose queries, assumptions, interests, theories and methodologies count as legitimate, giving them the power to (re)define a research field.",
       "language": "eng",
       "url": "https://eref.uni-bayreuth.de/id/eprint/65311/",
@@ -5337,6 +5440,8 @@
         }
       ],
       "booktitle": "Africa Multiple Cluster of Excellence : Research Retreat",
+      "event_location": "Bayreuth, Deutschland",
+      "event_dates": "05.-07.05.2021",
       "abstract": "Whereas ethnographic and interview-based approaches tend to monopolize the power of definition in the hands of the scientist, Participatory Action Research (PAR) aims at reconfiguring knowledge production towards a collective, mutually beneficial process. To overcome objectifying hierarchies between the researcher and the researched is particularly significant in ‘traumatic places’ such as Salvador (Brazil) and Cartagena (Colombia), two major ports of arrival during the trade in enslaved Africans. In this presentation, we share insights into the PAR process developed with Afro-diasporic communities from both cities before and throughout the pandemic. We reflect on the potentialities and limitations of the transdisciplinary co-production of knowledge(s), in which research ethics, topics, methods, concepts and outcomes are co-created by relating academia, arts and community work. Finally, we discuss to what extent a ‘detachment process’ from the investigated social field is possible in participatory research, on the one hand, to abstract and theorize from the situated lifeworld, and on the other hand, to mirror the interpretations of the involved actors in the academic theorizations.",
       "language": "eng",
       "url": "https://eref.uni-bayreuth.de/id/eprint/65310/",
@@ -5400,7 +5505,9 @@
           "person_name": "Maurus, Sabrina"
         }
       ],
+      "series": "University of Bayreuth African Studies Working Papers",
       "volume": "25",
+      "pages": "VI, 16",
       "publisher": "Institute of African Studies",
       "address": "Bayreuth",
       "keywords": [
@@ -5469,7 +5576,9 @@
           "person_name": "Maurus, Sabrina"
         }
       ],
+      "series": "University of Bayreuth African Studies Working Papers",
       "volume": "26",
+      "pages": "XIV, 153",
       "publisher": "Institute of African Studies",
       "address": "Bayreuth",
       "keywords": [
@@ -5536,6 +5645,8 @@
         }
       ],
       "booktitle": "XXIV Biennial Graduate Student Colloquium : Hegemonic Ideologies and Resistance in Iberian, Latin American, and Latinx Languages, Literatures and Cultures",
+      "event_location": "Austin, USA / online",
+      "event_dates": "25.-26. Feb. 2021",
       "keywords": [
         "Epistemologies",
         "Body",
@@ -5591,6 +5702,7 @@
         }
       ],
       "booktitle": "Afrikanische Sprachen in Europa",
+      "series": "Osnabrücker Beiträge zur Sprachtheorie",
       "volume": "98",
       "pages": "129–155",
       "publisher": "Universitätsverlag Rhein-Ruhr",
@@ -5681,6 +5793,8 @@
         }
       ],
       "booktitle": "Research Section Moralities Meeting",
+      "event_location": "Bayreuth, Deutschland / online",
+      "event_dates": "09. Jul. 2020",
       "language": "eng",
       "url": "https://eref.uni-bayreuth.de/id/eprint/57828/",
       "eref_url": "https://eref.uni-bayreuth.de/id/eprint/57828/",
@@ -5708,6 +5822,8 @@
         }
       ],
       "booktitle": "Capacitación docente de la Institución Educativa San Antonio",
+      "event_location": "Santander de Quilichao, Kolumbien / online",
+      "event_dates": "07. Jul. 2020",
       "language": "spa",
       "url": "https://eref.uni-bayreuth.de/id/eprint/57827/",
       "eref_url": "https://eref.uni-bayreuth.de/id/eprint/57827/",
@@ -5788,7 +5904,9 @@
           "person_name": "Seesemann, Rüdiger"
         }
       ],
+      "series": "University of Bayreuth African Studies Working Papers",
       "volume": "24",
+      "pages": "V, 15",
       "publisher": "Institute of African Studies",
       "address": "Bayreuth",
       "keywords": [
@@ -5835,6 +5953,7 @@
           "person_name": null
         }
       ],
+      "pages": "276",
       "publisher": "Telha",
       "address": "Rio de Janeiro",
       "isbn": "978-65-86823-04-2",
@@ -5899,6 +6018,7 @@
         }
       ],
       "booktitle": "The Multiplicity of Orders and Practices : A Tribute to Georg Klute",
+      "series": "Topics in Interdisciplinary African Studies",
       "volume": "50",
       "pages": "29–50",
       "publisher": "Köppe",
@@ -6035,7 +6155,9 @@
           "person_name": "Löhr, Doris"
         }
       ],
+      "series": "University of Bayreuth African Studies Working Papers",
       "volume": "55",
+      "pages": "VIII, 42",
       "address": "Bayreuth",
       "keywords": [
         "Afrique de l'Ouest",
@@ -6083,7 +6205,9 @@
           "person_name": null
         }
       ],
+      "series": "University of Bayreuth African Studies Online",
       "volume": "11",
+      "pages": "VIII, 121",
       "address": "Bayreuth",
       "keywords": [
         "relations",
@@ -6132,6 +6256,7 @@
           "person_name": "Wild, Frederik"
         }
       ],
+      "pages": "V, 305",
       "address": "Bayreuth",
       "keywords": [
         "Economic Development",
@@ -6181,7 +6306,9 @@
           "person_name": null
         }
       ],
+      "series": "University of Bayreuth African Studies Working Papers",
       "volume": "49",
+      "pages": "VI, 16",
       "publisher": "Institute of African Studies",
       "address": "Bayreuth, Germany",
       "keywords": [
@@ -6235,7 +6362,9 @@
           "person_name": null
         }
       ],
+      "series": "University of Bayreuth African Studies Working Papers",
       "volume": "48",
+      "pages": "VI, 19",
       "address": "Bayreuth",
       "keywords": [
         "Talk shows",
@@ -6286,7 +6415,9 @@
           "person_name": null
         }
       ],
+      "series": "University of Bayreuth African Studies Working Papers",
       "volume": "51",
+      "pages": "VI, 22",
       "address": "Bayreuth",
       "keywords": [
         "figures of speech",
@@ -6344,7 +6475,9 @@
           "person_name": null
         }
       ],
+      "series": "University of Bayreuth African Studies Working Papers",
       "volume": "54",
+      "pages": "VI, 24",
       "publisher": "Institute of African Studies (IAS)",
       "address": "Bayreuth",
       "keywords": [
@@ -6400,7 +6533,9 @@
           "person_name": null
         }
       ],
+      "series": "University of Bayreuth African Studies Working Papers",
       "volume": "46",
+      "pages": "VI, 24",
       "address": "Bayreuth",
       "keywords": [
         "Colonialité",
@@ -6457,7 +6592,9 @@
           "person_name": null
         }
       ],
+      "series": "University of Bayreuth African Studies Online",
       "volume": "10",
+      "pages": "XI, 177",
       "publisher": "Institute of African Studies",
       "address": "Bayreuth",
       "keywords": [
@@ -6514,7 +6651,9 @@
           "person_name": null
         }
       ],
+      "series": "University of Bayreuth African Studies Working Papers",
       "volume": "43",
+      "pages": "VII, 16",
       "publisher": "Institute of African Studies (IAS)",
       "address": "Bayreuth",
       "keywords": [
@@ -6668,7 +6807,9 @@
           "person_name": null
         }
       ],
+      "series": "University of Bayreuth African Studies Working Papers",
       "volume": "40",
+      "pages": "VII, 23",
       "publisher": "Institute of African Studies (IAS)",
       "address": "Bayreuth",
       "keywords": [
@@ -6719,7 +6860,9 @@
           "person_name": null
         }
       ],
+      "series": "University of Bayreuth African Studies Working Papers",
       "volume": "42",
+      "pages": "VI, 14",
       "publisher": "Institute of African Studies (IAS)",
       "address": "Bayreuth",
       "keywords": [
@@ -6772,7 +6915,9 @@
           "person_name": null
         }
       ],
+      "series": "University of Bayreuth African Studies Working Papers",
       "volume": "41",
+      "pages": "VIII, 27",
       "publisher": "Institute of African Studies (IAS)",
       "address": "Bayreuth",
       "keywords": [
@@ -6824,7 +6969,9 @@
           "person_name": null
         }
       ],
+      "series": "University of Bayreuth African Studies Online",
       "volume": "9",
+      "pages": "245",
       "address": "Bayreuth",
       "keywords": [
         "Digital Humanities",
