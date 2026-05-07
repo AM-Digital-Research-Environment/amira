@@ -28,13 +28,14 @@ for review.
 
 ## Phase tracker
 
-| Phase | Status | Description                                                                                                    |
-| ----- | ------ | -------------------------------------------------------------------------------------------------------------- |
-| 0     | done   | Test harness — Vitest, Testing Library, Playwright, seed unit tests                                            |
-| 1     | done   | Low-risk cleanups — barrel deletions, helpers split, fetch/cache helpers                                       |
-| 2     | done   | UI primitives — `Modal`, `FilterToggleBar`, expanded `optionBuilders`                                          |
-| 3     | done   | Component splits — `ItemDetail`, `ItemFilters`, dashboard layouts, maps                                        |
+| Phase | Status | Description                                                                                                                                                 |
+| ----- | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 0     | done   | Test harness — Vitest, Testing Library, Playwright, seed unit tests                                                                                         |
+| 1     | done   | Low-risk cleanups — barrel deletions, helpers split, fetch/cache helpers                                                                                    |
+| 2     | done   | UI primitives — `Modal`, `FilterToggleBar`, expanded `optionBuilders`                                                                                       |
+| 3     | done   | Component splits — `ItemDetail`, `ItemFilters`, dashboard layouts, maps                                                                                     |
 | 4     | done   | Architectural shells — `EntityPageContainer`, `EntityDetailViewShell`, `detailListState`, publications helpers, `filterApplicationEngine`, `entityResolver` |
+| 5     | active | Test net + cleanup — Playwright flows, untested utilities, delete `helpers.ts` shim, perf nibbles                                                           |
 
 After each phase: `npm run format:check`, `npm run check`, `npm run lint`,
 `npm run test`, and `npm run build` all pass. Commit, pause for review, then
@@ -539,7 +540,7 @@ select, clear }` triple. The factory owns the `$derived` that reads
 - **Refactor** five call sites:
   - `loaders/collectionLoader.ts` drops the private `getUniversity()`
     helper and the inline `universities.find((u) => institutions
-    .includes(u.name))` resolver; both flow through the resolver.
+.includes(u.name))` resolver; both flow through the resolver.
   - `components/layout/FilterPanel.svelte` — chip relabel collapses
     from a two-line `{@const}` pair to a single `getUniversityName`
     call, drops the `EXTERNAL_SOURCE_ID` import.
@@ -551,12 +552,12 @@ select, clear }` triple. The factory owns the `$derived` that reads
     'All' fallback for unknown / `'all'` sentinels.
   - `routes/whats-new/+page.svelte` and `routes/projects/+page.svelte`
     — `$projects.find(...)` lookups become `getProjectById($projects,
-    id)`. The projects page's three-key `id || _id || idShort`
+id)`. The projects page's three-key `id || _id || idShort`
     chain shrinks to one call.
 - Tests: `entityResolver.test.ts` (21 tests covering each export's
   happy path, null/undefined/empty input handling, the External
   fallback, the institutions-array resolver's ordering and empty
-  list, and `getProjectById`'s id-then-_id-then-idShort precedence).
+  list, and `getProjectById`'s id-then-\_id-then-idShort precedence).
 - Note: `entityResolver` imports `EXTERNAL_SOURCE_ID` from
   `loaders/collectionLoader.ts`, and `collectionLoader` now imports
   back from `entityResolver`. The cycle is harmless — symbols are
@@ -619,6 +620,179 @@ narrows count + Clear button hides when no filters active.
 - Playwright smoke for: entity browse select-then-filter; research-items
   filter-then-open.
 - ~1,200–1,500 lines reclaimed across the 9 pages.
+
+The shell-level integration tests and the two Playwright flows landed
+as deferred items — see Phase 5.1 / 5.2 for follow-through. The
+~1,200-line target was met cumulatively across 4.1–4.6.
+
+---
+
+## Phase 5 — Test net + cleanup + perf nibbles
+
+Phase 4 left two debts on the table: the Playwright "select-then-filter"
+and "filter-then-open" flows in the "Done when" block, and the
+`helpers.ts` shim that Phase 1.2 marked deprecated. Phase 5 closes
+both, picks up the still-untested pure utilities (~995 lines across
+4 files), tightens the import graph, and chips at the easiest
+performance wins. No new architecture — all in service of locking
+in the test net we built and removing dead weight.
+
+### Goals
+
+- **Cover the remaining pure utilities** so refactor regressions show
+  up in CI, not at runtime. `transforms/network.ts` (517 lines) is
+  the biggest hole.
+- **Lock the e2e contract** for the two flows that exercise every
+  Phase 4 shell end-to-end. Wire them into CI on PRs.
+- **Delete dead code** — `helpers.ts` shim and the
+  `entityResolver` ↔ `collectionLoader` import cycle.
+- **Pick the lowest-risk perf wins** — search-input debounce — that
+  pay off with no architectural shift.
+
+### Non-goals
+
+- Web workers / IndexedDB caching of `$allCollections`. Big payoff,
+  big risk; defer to a Phase 6 if profiling shows we need it.
+- Pagination URL state. UX nice-to-have, doesn't fit "test net + cleanup".
+- New components or features.
+
+### 5.1 Playwright e2e flows — entity browse select→filter, research-items filter→open
+
+The roadmap promised these in Phase 4's "Done when" but they didn't
+land. Each is a single `*.spec.ts` under `tests/e2e/`, hitting the
+real built site via the existing Playwright config (port 4173,
+`build && preview`).
+
+- **`tests/e2e/entity-browse.spec.ts`** — visit `/genres`, click a
+  genre card, assert the detail view's `Back to genres` button is
+  visible, click back, assert the list view returns. Repeat with
+  `/locations` (region/city sub-cards), `/people` (extra info cards),
+  and `/research-sections` (Phase 1 + 2 sections). Four flows, ~30
+  lines each.
+- **`tests/e2e/research-items.spec.ts`** — visit `/research-items`,
+  type "religion" in the search box, assert row count drops, click
+  the first row, assert detail view title contains the search term
+  or the title row renders, click `Back to results`, assert the
+  search query survived and the table is back. Then `?audience=youth`
+  deep-link path.
+- **`tests/e2e/publications.spec.ts`** — visit `/publications`,
+  use the type combo to pick "Article", assert the count line
+  drops below the total, click `Clear`, assert the count returns to
+  total and the Clear button hides. Pins the Phase 4.6 refactor.
+
+### 5.2 Shell integration tests — mount with fixture data → click → detail
+
+The unit tests for `EntityPageContainer` and `EntityDetailViewShell`
+verify each shell in isolation; the integration story (one shell
+inside another, with real entity data, exercising the URL → state
+sync) lives only in the e2e. A jsdom integration test fills the gap
+without spinning up a browser.
+
+- **`src/lib/components/entity-browse/integration.test.ts`** — a
+  small harness that wires `EntityPageContainer` around
+  `EntityDetailViewShell` with fixture entities, simulates the URL
+  change that `detailListState.select()` would push, asserts the
+  view switches list → detail and back. One test per shell topology
+  (simple genre-style, complex locations-style with a body that
+  uses an inner `{#if}`). ~6 tests.
+
+### 5.3 Test the still-untested pure utilities
+
+| File                           | Lines | Exports | Tier 1 cost |
+| ------------------------------ | ----- | ------- | ----------- |
+| `transforms/network.ts`        | 517   | 7       | ~25 tests   |
+| `transforms/itemExtractors.ts` | 207   | 18      | ~30 tests   |
+| `transforms/charts.ts`         | 217   | 4       | ~12 tests   |
+| `transforms/itemFormatters.ts` | 54    | 2       | ~6 tests    |
+| `compare/compareProfile.ts`    | 83    | 1–2     | ~6 tests    |
+| `charts/utils/formatters.ts`   | 133   | 7       | ~14 tests   |
+
+`network.ts` is the priority — it builds the knowledge-graph adjacency
+data the entity pages render, has the most logic, and is the most
+likely to regress silently when downstream entity changes ripple
+through it. Aim for ~80 new tests across the six files.
+
+### 5.4 Delete `helpers.ts` shim
+
+13 files still import from `$lib/utils/helpers`. Each call site
+imports a tiny set of functions (most of them just `formatDate`,
+`getProjectTitle`, `getSectionColor`). Migrate each to import from
+`$lib/utils/formatters` or `$lib/utils/theme` directly, then delete
+`src/lib/utils/helpers.ts`. Mechanical change; pre-existing tests
+gate it.
+
+### 5.5 Break the `entityResolver` ↔ `collectionLoader` import cycle
+
+`entityResolver` imports `EXTERNAL_SOURCE_ID` from
+`loaders/collectionLoader`; `collectionLoader` imports
+`getUniversityById` and `resolveCollectionUniversity` back from
+`entityResolver`. ESM tolerates this because both reads are
+function-time, but the cycle is a footgun for any future change
+that pulls one of these into top-level evaluation.
+
+Fix: extract `EXTERNAL_SOURCE_ID = 'external'` into
+`src/lib/utils/loaders/constants.ts` (or `src/lib/types/external.ts`),
+update both files to import from the new location. One commit, two
+small file edits, zero behavioural change.
+
+### 5.6 Wire e2e into CI
+
+`.github/workflows/ci.yml` runs `format:check`, `lint`, `check`,
+`test`, `build` on PRs and pushes to `main`. It does NOT run the
+Playwright suite. Add a new job (or step) that runs `npx playwright
+install --with-deps chromium` then `npm run test:e2e`. The job runs
+on PRs only — main pushes already deploy; e2e on `main` would just
+delay the deploy without giving the PR feedback we actually want.
+
+Worth flagging: Playwright's `webServer` config builds + previews
+inline, which means CI doesn't need a separate build step for e2e.
+The existing `build` job stays.
+
+### 5.7 Debounce the search inputs
+
+`research-items` and `publications` re-run `applyFilters` (or the
+publications equivalent) on every keystroke. `applyFilters` scans
+`$allCollections` (~10k items × 9 filter passes); on a deep keystroke
+sequence the page can drop frames.
+
+Fix: a small `useDebouncedState(initial, ms = 200)` hook in
+`src/lib/utils/`, returning a `{ value, debounced }` pair. The page
+binds the input to `value` (instant feedback) and reads `debounced`
+inside the filter `$derived`. 200ms is the sweet spot — keypress
+loops below that get folded into a single filter run; above it the
+results feel laggy.
+
+Adopted in: `routes/research-items/+page.svelte` (`searchQuery`
+binding), `routes/publications/+page.svelte` (`searchQuery`
+binding). Tests for the hook itself; the pages keep working
+unchanged from a behavioural standpoint.
+
+### Done when
+
+- All 27+6+~80 = ~113 new unit tests pass.
+- Three Playwright spec files cover the Phase 4 shells end-to-end.
+- CI runs e2e on every PR.
+- `helpers.ts` is deleted; no `$lib/utils/helpers` imports remain.
+- `entityResolver` ↔ `collectionLoader` cycle is broken.
+- Search inputs in research-items and publications are debounced.
+- One commit per sub-phase; pause for review at the seam.
+
+### Risk and sequencing
+
+| Sub-phase               | Risk     | Effort | What it locks down                      |
+| ----------------------- | -------- | ------ | --------------------------------------- |
+| 5.1 Playwright flows    | low      | 0.5 d  | Phase 4 shell behaviour                 |
+| 5.2 Shell integration   | low      | 0.5 d  | EntityPageContainer + Shell composition |
+| 5.3 Pure-utility tests  | very low | 1.5 d  | ~995 lines of untested logic            |
+| 5.4 Delete `helpers.ts` | very low | 0.25 d | Mechanical                              |
+| 5.5 Break cycle         | very low | 0.25 d | Mechanical                              |
+| 5.6 e2e in CI           | low      | 0.25 d | Reproducible runs                       |
+| 5.7 Debounce search     | low–med  | 0.5 d  | UX for the two largest pages            |
+
+5.4 and 5.5 are independent and reversible — could merge in one
+commit if review bandwidth is the bottleneck. 5.7 needs a brief
+post-deploy spot-check (the search-feels-laggy class of bug isn't
+caught by tests).
 
 ---
 
