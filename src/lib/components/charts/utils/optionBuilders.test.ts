@@ -35,19 +35,26 @@ describe('buildTitle', () => {
 });
 
 describe('buildGrid', () => {
-	it('uses sane defaults', () => {
+	it('uses sane defaults with the ECharts 6 outerBoundsMode=auto', () => {
 		expect(buildGrid()).toEqual({
 			left: '3%',
 			right: '4%',
 			top: '10%',
 			bottom: '15%',
-			containLabel: true
+			outerBoundsMode: 'auto'
 		});
 	});
 
-	it('respects each override', () => {
+	it('passes containLabel through (legacy opt-in) and omits outerBoundsMode when set', () => {
 		const g = buildGrid({ left: 10, top: '20%', containLabel: false });
 		expect(g).toMatchObject({ left: 10, top: '20%', containLabel: false });
+		expect(g).not.toHaveProperty('outerBoundsMode');
+	});
+
+	it('honours an explicit outerBoundsMode override', () => {
+		const g = buildGrid({ outerBoundsMode: 'none' });
+		expect(g).toMatchObject({ outerBoundsMode: 'none' });
+		expect(g).not.toHaveProperty('containLabel');
 	});
 });
 
@@ -71,8 +78,14 @@ describe('buildDataZoom', () => {
 });
 
 describe('hideAxes', () => {
-	it('returns x/y axes hidden', () => {
-		expect(hideAxes()).toEqual({ xAxis: { show: false }, yAxis: { show: false } });
+	it('returns an empty object (no-op) so non-cartesian charts do not pull GridComponent', () => {
+		// ECharts 6 doesn't render axes for non-cartesian series, so
+		// emitting `xAxis: { show: false }` was both redundant AND
+		// triggered "Component xAxis is used but not imported" warnings
+		// across PieChart / SunburstChart / SankeyChart / NetworkGraph /
+		// ChordDiagram / TreemapChart / RadarChart. The function is now
+		// a no-op kept exported for backwards compatibility.
+		expect(hideAxes()).toEqual({});
 	});
 });
 

@@ -96,11 +96,12 @@
 		grid: buildGrid({
 			left: '3%',
 			right: '6%',
-			top: title ? '12%' : '5%',
-			// Reserve enough room below the plot area for the x-axis name AND
-			// the dataZoom slider stacked beneath it. Without this the slider
-			// sits over the "Start Year" label and the page looks cramped.
-			bottom: '22%'
+			// Top reserves room for the title (when present) and the legend
+			// strip — the legend now sits above the plot to keep the bottom
+			// band free for the x-axis name + dataZoom slider.
+			top: title ? 64 : 36,
+			// Bottom = x-axis ticks + "Start Year" name (~32px) + slider (~24px).
+			bottom: 70
 		}),
 		dataZoom: [
 			{
@@ -148,40 +149,43 @@
 			jitterOverlap,
 			jitterMargin: 3
 		} as EChartsOption['yAxis'],
-		series: [
-			{
-				type: 'scatter',
-				data: data.map((d) => {
-					const catIndex = categories.indexOf(d.category);
-					return [d.value, catIndex, d.label, d.size ?? 1];
-				}),
-				symbolSize: ((val: number[]) => {
-					const size = val[3] ?? 1;
-					// Scale between 8 and 28 based on size
-					return maxSize <= 1 ? 12 : 8 + (size / maxSize) * 20;
-				}) as unknown as number,
+		// One scatter series per category so `legend.data` matches `series.name`
+		// — ECharts 6 requires this for legend filtering and warns otherwise.
+		// As a bonus the user gets click-to-toggle visibility per category.
+		series: categories.map((cat, catIndex) => ({
+			type: 'scatter',
+			name: cat,
+			data: data
+				.filter((d) => d.category === cat)
+				.map((d) => [d.value, catIndex, d.label, d.size ?? 1]),
+			symbolSize: ((val: number[]) => {
+				const size = val[3] ?? 1;
+				// Scale between 8 and 28 based on size
+				return maxSize <= 1 ? 12 : 8 + (size / maxSize) * 20;
+			}) as unknown as number,
+			itemStyle: {
+				color: categoryColorMap.get(cat) ?? CHART_COLORS[catIndex % CHART_COLORS.length],
+				opacity: 0.85,
+				borderColor: markerBorder,
+				borderWidth: 1.25
+			},
+			emphasis: {
+				focus: 'series',
 				itemStyle: {
-					color: ((params: Record<string, unknown>) => {
-						const d = params.data as number[];
-						const catIndex = d[1];
-						return categoryColorMap.get(categories[catIndex]) ?? CHART_COLORS[0];
-					}) as unknown as string,
-					opacity: 0.85,
-					borderColor: markerBorder,
-					borderWidth: 1.25
-				},
-				emphasis: {
-					itemStyle: {
-						opacity: 1,
-						shadowBlur: 10,
-						shadowColor: emphasisShadow
-					}
+					opacity: 1,
+					shadowBlur: 10,
+					shadowColor: emphasisShadow
 				}
 			}
-		],
+		})),
+		// Legend at the top so it never sits on top of the dataZoom slider
+		// or the "Start Year" axis name below the plot. `type: 'scroll'`
+		// keeps the row compact when there are 8+ categories.
 		legend: {
 			show: categories.length > 1 && categories.length <= 10,
-			bottom: 0,
+			type: 'scroll',
+			top: title ? 28 : 4,
+			left: 'center',
 			data: categories.map((cat) => ({
 				name: cat,
 				icon: 'circle'

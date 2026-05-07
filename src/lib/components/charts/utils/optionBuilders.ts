@@ -28,7 +28,24 @@ export interface GridOptions {
 	right?: number | string;
 	top?: number | string;
 	bottom?: number | string;
+	/**
+	 * @deprecated ECharts 6 deprecated `containLabel`; pass through is
+	 * preserved for the rare caller that still has reason to override
+	 * via the legacy `LegacyGridContainLabel` extra. Most callers should
+	 * leave this unset and rely on the default `outerBoundsMode: 'auto'`.
+	 */
 	containLabel?: boolean;
+	/**
+	 * ECharts 6 replacement for `containLabel`. `'auto'` reserves space
+	 * for axis labels just like `containLabel: true` did but without
+	 * the legacy import. Defaults to `'auto'` in `buildGrid`.
+	 *
+	 * Note: ECharts 6 also accepts an `outerBounds` *object* with
+	 * `{left, top, right, bottom, width, height}` for fine-grained
+	 * control. Passing `outerBounds: 'auto'` instead of `outerBoundsMode`
+	 * crashes ECharts (it tries to merge layout fields onto the string).
+	 */
+	outerBoundsMode?: 'auto' | 'none' | 'same';
 }
 
 export interface DataZoomOptions {
@@ -89,6 +106,12 @@ export interface AxisLabelOptions {
 	width?: number;
 	overflow?: 'truncate' | 'breakAll' | 'break' | 'none';
 	interval?: number;
+	/** Skip labels that would overlap their neighbours. Defaults to ECharts'
+	 *  built-in behaviour (off). Setting `true` rescues long timelines where
+	 *  rotated labels otherwise smash into each other. */
+	hideOverlap?: boolean;
+	/** Pixel gap between the axis line and the label baseline. */
+	margin?: number;
 	/** Base style to spread onto the result (typically a theme `labelStyle`). */
 	baseStyle?: Record<string, unknown>;
 }
@@ -115,16 +138,31 @@ export function buildTitle(
 }
 
 /**
- * Build standardized grid configuration for cartesian charts
+ * Build standardized grid configuration for cartesian charts.
+ *
+ * `outerBoundsMode: 'auto'` is the ECharts 6 replacement for the
+ * deprecated `containLabel: true` — both reserve space for axis
+ * labels, but `outerBoundsMode` is the supported path forward and
+ * doesn't require the `LegacyGridContainLabel` extra. Callers that
+ * still need the legacy behaviour can pass `containLabel: true`
+ * explicitly and import `LegacyGridContainLabel` themselves.
  */
 export function buildGrid(options: GridOptions = {}): EChartsOption['grid'] {
-	return {
+	const grid: Record<string, unknown> = {
 		left: options.left ?? '3%',
 		right: options.right ?? '4%',
 		top: options.top ?? '10%',
-		bottom: options.bottom ?? '15%',
-		containLabel: options.containLabel ?? true
+		bottom: options.bottom ?? '15%'
 	};
+	// Prefer `outerBoundsMode`; fall back to the explicit `containLabel`
+	// only when the caller asked for it (older charts don't pass either,
+	// so they get the default `outerBoundsMode: 'auto'`).
+	if (options.containLabel !== undefined) {
+		grid.containLabel = options.containLabel;
+	} else {
+		grid.outerBoundsMode = options.outerBoundsMode ?? 'auto';
+	}
+	return grid as EChartsOption['grid'];
 }
 
 /**
@@ -155,13 +193,23 @@ export function buildDataZoom(options: DataZoomOptions = {}): EChartsOption['dat
 }
 
 /**
- * Hide axes configuration for non-cartesian charts (pie, sunburst, sankey, network)
+ * No-op for non-cartesian charts (pie, sunburst, sankey, network,
+ * radar, treemap, chord). Returns `{}`.
+ *
+ * **Why a no-op?** ECharts 6 doesn't render axes for non-cartesian
+ * series, so explicitly setting `xAxis: { show: false }` /
+ * `yAxis: { show: false }` is redundant — and harmful, because the
+ * presence of `xAxis` in the option triggers a "Component xAxis is
+ * used but not imported" warning unless the chart also registers
+ * `GridComponent`. Non-cartesian charts shouldn't pull in the grid
+ * module for a config they don't need.
+ *
+ * Kept exported (rather than deleted) so the `...hideAxes()` calls
+ * across 7 chart components keep working without churn. Future
+ * callers can simply omit it.
  */
-export function hideAxes(): { xAxis: { show: false }; yAxis: { show: false } } {
-	return {
-		xAxis: { show: false },
-		yAxis: { show: false }
-	};
+export function hideAxes(): Record<string, never> {
+	return {};
 }
 
 /**
@@ -288,12 +336,14 @@ export function buildVisualMap(options: VisualMapOptions): EChartsOption['visual
  * `interval`).
  */
 export function buildAxisLabel(options: AxisLabelOptions = {}): Record<string, unknown> {
-	const { baseStyle, rotate, fontSize, width, overflow, interval } = options;
+	const { baseStyle, rotate, fontSize, width, overflow, interval, hideOverlap, margin } = options;
 	const label: Record<string, unknown> = { ...(baseStyle ?? {}) };
 	if (rotate !== undefined) label.rotate = rotate;
 	if (fontSize !== undefined) label.fontSize = fontSize;
 	if (width !== undefined) label.width = width;
 	if (overflow !== undefined) label.overflow = overflow;
 	if (interval !== undefined) label.interval = interval;
+	if (hideOverlap !== undefined) label.hideOverlap = hideOverlap;
+	if (margin !== undefined) label.margin = margin;
 	return label;
 }

@@ -74,27 +74,36 @@
 			},
 			formatter: stackedFormatter
 		},
+		// Legend sits ABOVE the chart so it never collides with the
+		// rotated year labels at the bottom — this matters in the
+		// half-width compare layout where every pixel below the plot
+		// area is contested by axis ticks AND the zoom slider.
 		legend: {
 			type: 'scroll',
-			bottom: needsZoom ? 65 : 0,
+			top: title ? 28 : 4,
+			left: 'center',
 			data: resourceTypes.map((t) => typeLabel(t)),
 			textStyle: { ...legendStyle }
 		},
 		grid: buildGrid({
-			// Reserve room for the legend (~32px) plus the zoom slider
-			// (~50px) and rotated year labels when the slider is shown.
-			// Without the slider we only need ~40px for the legend.
+			// Top = title (~24px) + legend (~28px) + breathing room.
+			// Bottom = rotated year labels (~32px) + slider (~38px) when shown.
 			left: '3%',
 			right: '4%',
-			bottom: needsZoom ? 100 : 40,
-			top: title ? '15%' : '10%'
+			bottom: needsZoom ? 78 : 36,
+			top: title ? 64 : 36
 		}),
 		xAxis: {
 			type: 'category',
 			data: data.map((d) => d.year.toString()),
 			axisLabel: {
 				...labelStyle,
-				rotate: 45
+				rotate: 45,
+				// Hide ticks that would overlap their neighbours. Without
+				// this, a 100+ year timeline renders every label on top of
+				// the next one (e.g. "1900" smashes into "1905").
+				hideOverlap: true,
+				margin: 10
 			}
 		},
 		yAxis: {

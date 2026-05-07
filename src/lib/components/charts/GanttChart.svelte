@@ -171,7 +171,6 @@
 						value: (dim: number) => number;
 						coord: (val: [number, number]) => [number, number];
 						size: (val: [number, number]) => [number, number];
-						style: () => Record<string, unknown>;
 					};
 					const coordSys = (
 						params as { coordSys: { x: number; y: number; width: number; height: number } }
@@ -201,12 +200,15 @@
 						categoryColorMap.get(sortedData[Math.round(categoryIndex)]?.category ?? 'Default') ??
 						CHART_COLORS[0];
 
+					// ECharts 6 deprecated `api.style()`; write the literal style
+					// object directly. We were already overriding fill / opacity,
+					// and never relied on the rest (stroke, lineWidth, etc.) for
+					// these solid-colour bars.
 					return (
 						rectShape && {
 							type: 'rect' as const,
 							shape: rectShape,
 							style: {
-								...apiFn.style(),
 								fill,
 								opacity: 0.85
 							},

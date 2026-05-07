@@ -83,23 +83,34 @@
 			axisPointer: 'line',
 			formatter: stackedFormatter
 		}),
+		// Legend at the top so it never collides with the rotated year
+		// labels and the zoom slider competing for space below the plot.
 		legend: buildLegend({
-			position: 'bottom',
-			bottom: 65,
+			position: 'top',
+			top: title ? 28 : 4,
 			data: categories,
 			textStyle: { ...legendStyle }
 		}),
 		grid: buildGrid({
+			// Top = title (~24px) + legend (~28px) + breathing room.
+			// Bottom = rotated year labels (~32px) + slider (~38px).
 			left: '3%',
 			right: '4%',
-			bottom: 100,
-			top: title ? '15%' : '10%'
+			bottom: 78,
+			top: title ? 64 : 36
 		}),
 		xAxis: {
 			type: 'category',
 			boundaryGap: false,
 			data: years,
-			axisLabel: buildAxisLabel({ baseStyle: labelStyle, rotate: 45 })
+			axisLabel: buildAxisLabel({
+				baseStyle: labelStyle,
+				rotate: 45,
+				// Skip labels that would overlap their neighbours so a long
+				// year span doesn't smash adjacent ticks into each other.
+				hideOverlap: true,
+				margin: 10
+			})
 		},
 		yAxis: {
 			type: 'value',
