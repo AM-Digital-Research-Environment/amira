@@ -74,7 +74,21 @@ export function contributorUrl(contributor: { name: string; qualifier: string })
 
 export function getSubjects(item: CollectionItem): string[] {
 	if (!Array.isArray(item.subject)) return [];
-	return item.subject.map((s) => s.authLabel || s.origLabel).filter(Boolean);
+	// Dedupe — items occasionally carry the same label twice (once via
+	// authLabel, once via origLabel; or two raw entries with the same
+	// authLabel after normalisation). Downstream consumers — keyed `each`
+	// in ItemSubjects, frequency tallies, search queries — all assume
+	// uniqueness.
+	const seen = new Set<string>();
+	const labels: string[] = [];
+	for (const s of item.subject) {
+		const label = s.authLabel || s.origLabel;
+		if (label && !seen.has(label)) {
+			seen.add(label);
+			labels.push(label);
+		}
+	}
+	return labels;
 }
 
 export function getLanguages(item: CollectionItem): string[] {
